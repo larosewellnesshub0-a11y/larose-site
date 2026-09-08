@@ -5,6 +5,21 @@
 
 import { t, ta, esc, escJson, link, asset, rel, icon, map, when, clamp, published } from "./util.mjs";
 
+export function trackingHead(c) {
+  const a = c?.site?.integrations?.analytics || {};
+  const js = (value) => JSON.stringify(String(value));
+  const parts = [];
+  if (a.googleSiteVerification) parts.push(`<meta name="google-site-verification" content="${esc(a.googleSiteVerification)}">`);
+  if (a.bingSiteVerification) parts.push(`<meta name="msvalidate.01" content="${esc(a.bingSiteVerification)}">`);
+  if (a.ga4MeasurementId) parts.push(`<script async src="https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(a.ga4MeasurementId)}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config',${js(a.ga4MeasurementId)},{send_page_view:true,anonymize_ip:true});</script>`);
+  if (a.clarityProjectId) parts.push(`<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,'clarity','script',${js(a.clarityProjectId)});</script>`);
+  if (a.metaPixelId) parts.push(`<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init',${js(a.metaPixelId)});fbq('track','PageView');</script>
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=${encodeURIComponent(a.metaPixelId)}&amp;ev=PageView&amp;noscript=1"></noscript>`);
+  if (a.tiktokPixelId) parts.push(`<script>!function(w,d,t){w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=['page','track','identify','instances','debug','on','off','once','ready','alias','group','enableCookie','disableCookie','holdConsent','revokeConsent','grantConsent'];ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat([].slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.load=function(e){var n=d.createElement('script');n.async=!0;n.src='https://analytics.tiktok.com/i18n/pixel/events.js?sdkid='+e+'&lib='+t;var a=d.getElementsByTagName('script')[0];a.parentNode.insertBefore(n,a)};ttq.load(${js(a.tiktokPixelId)});ttq.page()}(window,document,'ttq');</script>`);
+  return parts.join("\n");
+}
+
 /* --------------------------------------------------------------------------
    Navigation model
    -------------------------------------------------------------------------- */
@@ -455,6 +470,7 @@ export function page(opts) {
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(metaDescription)}">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#8E8B63">
 <link rel="canonical" href="${canonical}">
 <link rel="alternate" hreflang="ar" href="${arUrl}">
@@ -478,6 +494,7 @@ export function page(opts) {
 
 <link rel="icon" href="${asset(depth, "assets/img/logo/favicon.svg")}" type="image/svg+xml">
 <link rel="apple-touch-icon" href="${asset(depth, "assets/img/logo/apple-touch-icon.png")}">
+${trackingHead(c)}
 
 <link rel="preload" as="font" type="font/woff2" href="${asset(depth, `assets/fonts/${locale === "ar" ? "PlexArabic-400" : "Montserrat-400"}.woff2`)}" crossorigin>
 <link rel="stylesheet" href="${asset(depth, "assets/css/tokens.css")}">
@@ -501,6 +518,7 @@ ${body}
 ${footer({ c, locale, depth })}
 ${floatingActions({ c, locale, depth })}
 
+<script src="${asset(depth, "assets/js/track.js")}" defer></script>
 <script src="${asset(depth, "assets/js/forms.js")}" defer></script>
 <script src="${asset(depth, "assets/js/site.js")}" defer></script>
 ${body.includes("data-tool=") ? `<script src="${asset(depth, "assets/js/tools.js")}" defer></script>` : ""}

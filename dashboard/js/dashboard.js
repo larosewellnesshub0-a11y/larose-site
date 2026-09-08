@@ -26,6 +26,10 @@
   const SECTION_META = {
     overview: { ar: "نظرة عامة", en: "Overview" },
     analytics: { ar: "التحليلات", en: "Analytics" },
+    leads: { ar: "العملاء والحجوزات", en: "Leads & bookings" },
+    "media-buying": { ar: "شراء الإعلانات", en: "Media buying" },
+    campaigns: { ar: "الحملات", en: "Campaigns" },
+    tips: { ar: "نصائح يومية", en: "Daily tips" },
     specialties: { ar: "التخصصات", en: "Specialties" },
     doctors: { ar: "الأطباء", en: "Doctors" },
     branches: { ar: "الفروع", en: "Branches" },
@@ -64,6 +68,10 @@
     digital: {
       file: "digital.json",
       groups: [{ key: "products", ar: "المنتجات الرقمية", en: "Digital products" }],
+    },
+    campaigns: {
+      file: "campaigns.json",
+      groups: [{ key: "campaigns", ar: "الحملات", en: "Campaigns" }],
     },
   };
 
@@ -218,6 +226,19 @@
     _todoBylines: ["بيانات الكاتب والمراجع المطلوب تأكيدها", "Author and reviewer details needing confirmation"],
     _todoReview: ["مراجعة مطلوبة قبل النشر", "Review needed before publishing"],
     addReview: ["نص زر أضف تجربتك", "Share-experience button text"],
+    analytics: ["أكواد القياس والتحقق", "Analytics & verification"],
+    ga4MeasurementId: ["معرّف قياس GA4", "GA4 measurement ID"],
+    clarityProjectId: ["معرّف مشروع Clarity", "Clarity project ID"],
+    metaPixelId: ["معرّف Meta Pixel", "Meta Pixel ID"],
+    tiktokPixelId: ["معرّف TikTok Pixel", "TikTok Pixel ID"],
+    googleSiteVerification: ["رمز تحقق Google", "Google verification token"],
+    googleVerificationFile: ["اسم ملف تحقق Google", "Google verification filename"],
+    bingSiteVerification: ["رمز تحقق Bing", "Bing verification token"],
+    platform: ["المنصة", "Platform"], objective: ["الهدف", "Objective"],
+    startDate: ["تاريخ البداية", "Start date"], endDate: ["تاريخ النهاية", "End date"],
+    budget: ["الميزانية الداخلية", "Internal budget"], utmSource: ["مصدر UTM", "UTM source"],
+    utmMedium: ["وسيط UTM", "UTM medium"], utmCampaign: ["اسم حملة UTM", "UTM campaign"],
+    landingUrl: ["صفحة الهبوط", "Landing URL"], notes: ["ملاحظات", "Notes"],
     altLabel: ["اسم اللغة البديل", "Alternative language label"],
     ar: ["النص بالعربية", "Arabic text"],
     blurb: ["نبذة تذييل الموقع", "Footer summary"],
@@ -467,6 +488,7 @@
       showPrice: false,
       _todo: "Confirm the product details with the clinic before publishing.",
     },
+    campaigns: { id: "", name: "", platform: "meta", objective: "leads", status: "planned", startDate: "", endDate: "", budget: 0, currency: "EGP", utmSource: "", utmMedium: "", utmCampaign: "", landingUrl: "", audience: "", notes: "" },
   };
 
   const VALIDATION_RULES = {
@@ -479,6 +501,7 @@
     ],
     "reviews.json": [{ key: "reviews", id: "id", required: ["id"] }],
     "digital.json": [{ key: "products", id: "slug", required: ["slug", "type", "name.ar", "name.en"] }],
+    "campaigns.json": [{ key: "campaigns", id: "id", required: ["id", "name"] }],
   };
 
   const FILE_SECTIONS = Object.fromEntries(
@@ -825,6 +848,7 @@
     if (COLLECTION_SECTIONS[state.section]) return COLLECTION_SECTIONS[state.section].file;
     if (state.section === "settings") return state.settingsFile;
     if (state.section === "images") return "site.json";
+    if (state.section === "tips") return "tips.json";
     return null;
   }
 
@@ -954,6 +978,14 @@
   function collectionArray(file, key) {
     const value = state.content[file]?.[key];
     return Array.isArray(value) ? value : [];
+  }
+
+  function renderGrowthSection(section) {
+    state.editorContext = null;
+    return window.DashboardGrowth.render(section, {
+      content: state.content, status: state.apiStatus, markDirty, render, saveFile,
+      setEditorContext(value) { state.editorContext = value; },
+    });
   }
 
   function countIllustrative(value) {
@@ -1733,6 +1765,7 @@
       });
     }
     else if (COLLECTION_SECTIONS[state.section]) html = renderCollectionSection(state.section);
+    else if (["leads", "media-buying", "tips"].includes(state.section)) html = renderGrowthSection(state.section);
     else if (state.section === "settings") html = renderSettings();
     else if (state.section === "images") html = renderImages();
     else html = renderBackups();
@@ -1741,6 +1774,7 @@
     viewRoot.removeAttribute("aria-busy");
     viewRoot.innerHTML = renderConflictNotice() + html;
     updateChrome();
+    window.DashboardGrowth?.afterRender?.(state.section);
   }
 
   function renderLoadError(error) {
@@ -2329,6 +2363,8 @@
     const actionElement = event.target.closest("[data-action]");
     if (!actionElement) return;
     const action = actionElement.dataset.action;
+
+    if (window.DashboardGrowth?.action?.(action, actionElement)) return;
 
     if (action === "retry-load") load();
     if (action === "rebuild") rebuildSite();

@@ -13,10 +13,11 @@
    and the page works with no script at all.
    ========================================================================== */
 
-import { t, esc, map, when } from "../lib/util.mjs";
+import { t, esc, map, when, imageIfExists } from "../lib/util.mjs";
+import { trackingHead } from "../lib/shell.mjs";
 
-/* This page lives at recipe-guide/index.html, one level down. */
-const A = (p) => `../${p}`;
+/* The free guide lives two levels below the site root. */
+const A = (p) => `../../${p}`;
 
 const COPY = {
   eyebrow: { ar: "هدية من عيادات لاروز", en: "A gift from La Rose Clinics" },
@@ -185,6 +186,8 @@ export function pages({ c, locale }) {
   if (!g || !(g.recipes || []).length) return [];
 
   const s = c.site;
+  const product = (c.digital?.products || []).find((item) => item.slug === "recipe-book");
+  if (!product) return [];
   const recipes = g.recipes.map((r) => ({
     ...r,
     imageFile: (r.image || "").split("/").pop(),
@@ -197,19 +200,23 @@ export function pages({ c, locale }) {
 
   const title = "كتاب وصفات لاروز | The La Rose Recipe Guide";
   const desc = "٦٠ وصفة من أكل البيت بالسعرات والماكروز، هدية من عيادات لاروز. Sixty everyday recipes with calories and macros, free from La Rose Clinics.";
-  const canonical = `https://${s.brand.domain}/RecipeGuide/`;
+  const canonical = `https://${s.brand.domain}/RecipeGuide/free/`;
 
-  const html = `<!doctype html>
+  const freeHtml = `<!doctype html>
 <html lang="ar" dir="rtl" class="rg lg-ar">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="${esc(canonical)}">
+<link rel="alternate" hreflang="ar" href="${esc(canonical)}">
+<link rel="alternate" hreflang="en" href="${esc(canonical)}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:type" content="article">
+${trackingHead(c)}
 <link rel="icon" href="${A("assets/img/logo/favicon.svg")}" type="image/svg+xml">
 <link rel="stylesheet" href="${A("assets/css/tokens.css")}">
 <link rel="stylesheet" href="${A("assets/css/base.css")}">
@@ -264,6 +271,7 @@ ${JSON.stringify({
     <a class="rg-brand" href="https://${esc(s.brand.domain)}/">
       <img src="${A("assets/img/logo/larose-wordmark.png")}" alt="${esc(t(s.brand.name, "ar"))}" width="120" height="104">
     </a>
+    <a class="rg-back" href="../">${bi({ ar: "الكتاب الكامل", en: "Full recipe book" })}</a>
     <div class="rg-search" role="search" data-rg-search hidden>
       <label class="visually-hidden" for="rg-search-input">${bi(COPY.searchLabel)}</label>
       <input class="rg-search__input" id="rg-search-input" type="search" autocomplete="off"
@@ -338,6 +346,7 @@ ${JSON.stringify({
   </div>
 </footer>
 
+<script src="${A("assets/js/track.js")}" defer></script>
 <script>
 /* The toggle only swaps a class and the direction; both languages are already
    in the markup, so the page reads correctly with this script blocked. */
@@ -451,6 +460,66 @@ ${JSON.stringify({
 </body>
 </html>`;
 
-  /* The published address, already in circulation. Case matters. */
-  return [{ path: "RecipeGuide/index.html", html }];
+  const cover = imageIfExists("assets/img/digital/recipe-book-cover.webp") || "assets/img/digital/recipe-book.webp";
+  const orderText = encodeURIComponent("أهلاً، عايز أطلب كتاب وصفات لاروز");
+  const whatsapp = `${s.contact.whatsapp.href}&text=${orderText}`;
+  const list = (items) => `<ul class="rg-landing__list">${map(items || [], (item) => `<li>${bi(item)}</li>`)}</ul>`;
+  const landingTitle = `${t(product.name, "ar")} | ${t(product.name, "en")}`;
+  const landingDesc = `${t(product.short, "ar")} · ${t(product.short, "en")}`;
+  const landingCanonical = `https://${s.brand.domain}/RecipeGuide/`;
+  const landingHtml = `<!doctype html>
+<html lang="ar" dir="rtl" class="rg lg-ar">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(landingTitle)}</title>
+<meta name="description" content="${esc(landingDesc)}">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="${landingCanonical}">
+<link rel="alternate" hreflang="ar" href="${landingCanonical}">
+<link rel="alternate" hreflang="en" href="${landingCanonical}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="${esc(landingTitle)}">
+<meta property="og:description" content="${esc(landingDesc)}">
+<meta property="og:url" content="${landingCanonical}">
+<meta property="og:image" content="https://${s.brand.domain}/${esc(cover)}">
+${trackingHead(c)}
+<link rel="icon" href="../assets/img/logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/components.css">
+<link rel="stylesheet" href="../assets/css/layout.css">
+<link rel="stylesheet" href="../assets/css/recipe-guide.css">
+<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org", "@graph": [{ "@type": "Product",
+    name: t(product.name, "en"), description: t(product.lede, "en"),
+    image: `https://${s.brand.domain}/${cover}`, brand: { "@type": "Brand", name: t(s.brand.name, "en") }
+  }] })}</script>
+</head>
+<body>
+<header class="rg-head"><div class="rg-wrap rg-head__inner">
+  <a class="rg-brand" href="https://${s.brand.domain}/"><img src="../assets/img/logo/larose-wordmark.png" alt="${esc(t(s.brand.name, "ar"))}" width="120" height="104"></a>
+  <button class="rg-lang" type="button" data-rg-lang><span class="rg-en">العربية</span><span class="rg-ar">English</span></button>
+</div></header>
+<main id="rg-main" class="rg-landing">
+  <section class="rg-landing__hero"><div class="rg-wrap rg-landing__hero-grid">
+    <div><p class="rg-hero__eyebrow">${bi({ ar: "كتاب لاروز الرقمي", en: "La Rose digital recipe book" })}</p><h1 class="rg-hero__title">${bi(product.name)}</h1><p class="rg-hero__lede">${bi(product.lede)}</p>
+    <p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="${esc(whatsapp)}" target="_blank" rel="noopener">${bi(product.cta)}</a><a class="rg-btn rg-btn--dark" href="free/" data-track="recipe-guide">${bi(product.freeSample.label)}</a></p></div>
+    <img class="rg-landing__cover" src="../${esc(cover)}" alt="${esc(t(product.name, "en"))}" width="700" height="875">
+  </div></section>
+  <section class="rg-landing__section"><div class="rg-wrap"><h2>${bi({ ar: "إيه اللي جوه الكتاب؟", en: "What is inside?" })}</h2>${list(product.inside)}</div></section>
+  <section class="rg-landing__section rg-landing__section--tint"><div class="rg-wrap"><h2>${bi({ ar: "الكتاب مناسب لمين؟", en: "Who is it for?" })}</h2>${list(product.audience)}</div></section>
+  <section class="rg-landing__section"><div class="rg-wrap"><h2>${bi({ ar: "إزاي تطلبه؟", en: "How to order" })}</h2>${list([{ar:"ابعت لنا على واتساب",en:"Message us on WhatsApp"},{ar:"الفريق هيأكد معاك الطلب",en:"The team confirms your order"},{ar:"بنبعت لك ملف PDF",en:"Your PDF is sent to you"}])}<p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="${esc(whatsapp)}" target="_blank" rel="noopener">${bi(product.cta)}</a></p></div></section>
+  <section class="rg-landing__section rg-landing__section--tint"><div class="rg-wrap"><h2>${bi({ ar: "أسئلة متكررة", en: "Frequently asked questions" })}</h2><div class="rg-landing__faq">${map(product.faq || [], (item) => `<details><summary>${bi(item.q)}</summary><p>${bi(item.a)}</p></details>`)}</div></div></section>
+  <section class="rg-cta"><div class="rg-wrap"><h2 class="rg-cta__title">${bi(product.freeSample.label)}</h2><p class="rg-cta__text">${bi(product.freeSample.text)}</p><p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="free/" data-track="recipe-guide">${bi(product.freeSample.label)}</a></p></div></section>
+</main>
+<footer class="rg-foot"><div class="rg-wrap"><p><a href="https://${s.brand.domain}/">${esc(t(s.brand.name,"ar"))}</a></p><p class="rg-foot__meta"><a href="tel:${esc(s.contact.phone.tel)}"><bdi class="num">${esc(s.contact.phone.display)}</bdi></a> · <a href="${esc(s.contact.whatsapp.href)}">WhatsApp</a></p></div></footer>
+<script src="../assets/js/track.js" defer></script>
+<script>(function(){var r=document.documentElement,b=document.querySelector('[data-rg-lang]');if(!b)return;b.addEventListener('click',function(){var en=r.classList.toggle('lg-en');r.classList.toggle('lg-ar',!en);r.lang=en?'en':'ar';r.dir=en?'ltr':'rtl'})})();</script>
+</body></html>`;
+
+  return [
+    { path: "RecipeGuide/index.html", html: landingHtml },
+    { path: "RecipeGuide/free/index.html", html: freeHtml },
+  ];
 }

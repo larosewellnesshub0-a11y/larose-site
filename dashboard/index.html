@@ -7,6 +7,8 @@
   <title>لوحة إدارة لاروز | La Rose Dashboard</title>
   <link rel="stylesheet" href="css/dashboard.css">
   <script src="js/analytics.js" defer></script>
+  <script src="js/qr.js" defer></script>
+  <script src="js/growth.js" defer></script>
   <script src="js/dashboard.js" defer></script>
 </head>
 <body class="admin-body">
@@ -23,6 +25,7 @@
       </div>
 
       <nav class="admin-nav" aria-label="التنقل الرئيسي · Main navigation">
+        <p class="admin-nav__group">الرئيسية <small lang="en">Workspace</small></p>
         <button class="admin-nav__item is-active" type="button" data-nav="overview" aria-current="page">
           <span class="admin-nav__glyph" aria-hidden="true">01</span>
           <span>نظرة عامة <small lang="en" dir="ltr">Overview</small></span>
@@ -31,6 +34,10 @@
           <span class="admin-nav__glyph" aria-hidden="true">02</span>
           <span>التحليلات <small lang="en" dir="ltr">Analytics</small></span>
         </button>
+        <button class="admin-nav__item" type="button" data-nav="leads"><span class="admin-nav__glyph" aria-hidden="true">03</span><span>العملاء والحجوزات <small lang="en" dir="ltr">Leads &amp; bookings</small></span></button>
+        <button class="admin-nav__item" type="button" data-nav="media-buying"><span class="admin-nav__glyph" aria-hidden="true">04</span><span>شراء الإعلانات <small lang="en" dir="ltr">Media buying</small></span></button>
+        <button class="admin-nav__item" type="button" data-nav="campaigns"><span class="admin-nav__glyph" aria-hidden="true">05</span><span>الحملات <small lang="en" dir="ltr">Campaigns</small></span></button>
+        <p class="admin-nav__group">المحتوى <small lang="en">Content</small></p>
         <button class="admin-nav__item" type="button" data-nav="specialties">
           <span class="admin-nav__glyph" aria-hidden="true">03</span>
           <span>التخصصات <small lang="en" dir="ltr">Specialties</small></span>
@@ -55,6 +62,8 @@
           <span class="admin-nav__glyph" aria-hidden="true">08</span>
           <span>المنتجات الرقمية <small lang="en" dir="ltr">Digital products</small></span>
         </button>
+        <button class="admin-nav__item" type="button" data-nav="tips"><span class="admin-nav__glyph" aria-hidden="true">12</span><span>نصائح يومية <small lang="en" dir="ltr">Daily tips</small></span></button>
+        <p class="admin-nav__group">الموقع <small lang="en">Site</small></p>
         <button class="admin-nav__item" type="button" data-nav="settings">
           <span class="admin-nav__glyph" aria-hidden="true">09</span>
           <span>إعدادات الموقع <small lang="en" dir="ltr">Site settings</small></span>

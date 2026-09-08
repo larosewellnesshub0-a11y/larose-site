@@ -1,5 +1,155 @@
 User-agent: *
 Allow: /
+Disallow: /dashboard/
 Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: Applebot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: CCBot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: Bytespider
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: meta-externalagent
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: cohere-ai
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
+
+User-agent: YouBot
+Allow: /
+Disallow: /dashboard/
+Disallow: /_viewport.html
+Disallow: /_bookpages.html
+Disallow: /assets/data/
 
 Sitemap: https://laroseclinics.com/sitemap.xml

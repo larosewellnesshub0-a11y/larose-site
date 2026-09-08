@@ -9,7 +9,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { loadContent, LOCALES, OUT_DIR, ROOT, t, esc, published } from "./lib/util.mjs";
-import { jsonLd } from "./lib/shell.mjs";
+import { jsonLd, trackingHead } from "./lib/shell.mjs";
 
 import { renderHome } from "./pages/home.mjs";
 
@@ -64,6 +64,7 @@ function rootIndex(c) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="${base}/">
 <link rel="alternate" hreflang="ar" href="${base}/ar/">
 <link rel="alternate" hreflang="en" href="${base}/en/">
@@ -83,6 +84,7 @@ function rootIndex(c) {
 <meta name="twitter:description" content="${esc(description)}">
 <meta name="twitter:image" content="${socialImage}">
 <meta http-equiv="refresh" content="0; url=ar/index.html">
+${trackingHead(c)}
 <link rel="stylesheet" href="assets/css/tokens.css">
 <link rel="stylesheet" href="assets/css/base.css">
 <link rel="stylesheet" href="assets/css/components.css">
@@ -105,8 +107,15 @@ ${jsonLd({ c, locale: "ar", pagePath: "index.html", canonicalUrl: `${base}/` })}
     </div>
     <p>${esc(t(s.brand.kind, "ar"))} · ${esc(t(s.brand.kind, "en"))}</p>
   </div>
+  <script src="assets/js/track.js" defer></script>
 </body>
 </html>`;
+}
+
+function root404(c) {
+  const s = c.site;
+  const url = `https://${s.brand.domain}/404.html`;
+  return `<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>الصفحة مش موجودة | Page not found</title><meta name="description" content="الصفحة دي مش موجودة. This page could not be found."><link rel="canonical" href="${url}"><link rel="alternate" hreflang="ar" href="${url}"><link rel="alternate" hreflang="en" href="${url}"><link rel="stylesheet" href="/assets/css/tokens.css"><link rel="stylesheet" href="/assets/css/base.css"><link rel="stylesheet" href="/assets/css/components.css">${trackingHead(c)}${jsonLd({ c, locale:"ar", pagePath:"404.html", canonicalUrl:url, currentName:"الصفحة مش موجودة" })}</head><body><main class="section"><div class="wrap wrap--narrow" style="text-align:center"><img src="/assets/img/logo/larose-wordmark.png" alt="${esc(t(s.brand.name,"ar"))}" width="160" height="138"><h1 class="h1" style="margin-top:2rem">الصفحة مش موجودة</h1><p class="lede">Page not found</p><p style="margin-top:2rem"><a class="btn btn--primary" href="/ar/">ارجع للرئيسية</a> <a class="btn btn--ghost" href="/en/">English home</a></p></div></main><script src="/assets/js/track.js" defer></script></body></html>`;
 }
 
 /* --------------------------------------------------------------------------
@@ -134,8 +143,9 @@ function sitemap(c, paths) {
     .map((p) => {
       const localeMatch = /^(ar|en)\/(.*)$/.exec(p);
       const withinLocale = localeMatch ? localeMatch[2] : "index.html";
-      const arLoc = `${base}/ar/${withinLocale.replace(/index\.html$/, "")}`;
-      const enLoc = `${base}/en/${withinLocale.replace(/index\.html$/, "")}`;
+      const bilingual = p.startsWith("RecipeGuide/");
+      const arLoc = bilingual ? publicUrl(p) : `${base}/ar/${withinLocale.replace(/index\.html$/, "")}`;
+      const enLoc = bilingual ? publicUrl(p) : `${base}/en/${withinLocale.replace(/index\.html$/, "")}`;
       const priority = p === "index.html" || (p.endsWith("index.html") && p.split("/").length === 2) ? "1.0" : "0.7";
       return `  <url>
     <loc>${xml(publicUrl(p))}</loc>
@@ -196,8 +206,37 @@ function llms(c) {
     "",
     ...(patients?.children || []).map((item) => line(t(item.label, locale), item.href, t(item.desc, locale))),
     "",
+    "## RecipeGuide",
+    "",
+    `- [The La Rose Recipe Book](${base}/RecipeGuide/): ${short(t((c.digital.products || []).find((p) => p.slug === "recipe-book")?.lede, locale))}`,
+    `- [Free 60-recipe guide](${base}/RecipeGuide/free/): Free bilingual recipe sampler from La Rose.`,
+    "",
   ];
   return sections.join("\n");
+}
+
+function agents(c) {
+  const s = c.site, base = `https://${s.brand.domain}`;
+  const maadi = published(c.branches).find((b) => b.status !== "soon") || published(c.branches)[0] || {};
+  const address = `${t(maadi.address, "ar") || ""} / ${t(maadi.address, "en") || ""}`.trim();
+  return [
+    `Site: ${t(s.brand.name,"ar")} / ${t(s.brand.name,"en")}`,
+    `Description: ${t(s.brand.kind,"ar")} / ${t(s.brand.kind,"en")}`,
+    `Address: ${address}`,
+    `Phone: ${s.contact.phone.display}`,
+    `WhatsApp: ${s.contact.whatsapp.href}`,
+    "Languages: Arabic (Egyptian), English",
+    `Home-AR: ${base}/ar/`, `Home-EN: ${base}/en/`,
+    `Specialties-AR: ${base}/ar/specialties/`, `Specialties-EN: ${base}/en/specialties/`,
+    `Doctors-AR: ${base}/ar/doctors/`, `Doctors-EN: ${base}/en/doctors/`,
+    `Booking-AR: ${base}/ar/patients/booking.html`, `Booking-EN: ${base}/en/patients/booking.html`,
+    `Branches-AR: ${base}/ar/branches/`, `Branches-EN: ${base}/en/branches/`,
+    `Knowledge-AR: ${base}/ar/articles/`, `Knowledge-EN: ${base}/en/articles/`,
+    `RecipeGuide: ${base}/RecipeGuide/`, `RecipeGuide-Free: ${base}/RecipeGuide/free/`,
+    `Legal-AR: ${base}/ar/legal/`, `Legal-EN: ${base}/en/legal/`,
+    `LLMS: ${base}/llms.txt`, `Sitemap: ${base}/sitemap.xml`,
+    "Policy: Indexing and answering questions about the clinic is allowed. Medical content is general information.", ""
+  ].join("\n");
 }
 
 /* --------------------------------------------------------------------------
@@ -240,13 +279,21 @@ async function main() {
 
   // Root gate and crawler files
   out("index.html", rootIndex(c));
+  out("404.html", root404(c));
   fs.writeFileSync(
     path.join(OUT_DIR, "robots.txt"),
-    `User-agent: *\nAllow: /\nDisallow: /_viewport.html\n\nSitemap: https://${c.site.brand.domain}/sitemap.xml\n`,
+    `User-agent: *\nAllow: /\nDisallow: /dashboard/\nDisallow: /_viewport.html\nDisallow: /_bookpages.html\nDisallow: /assets/data/\n\n${["Googlebot","Googlebot-Image","Bingbot","Applebot","DuckDuckBot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-User","Claude-SearchBot","anthropic-ai","PerplexityBot","Perplexity-User","Google-Extended","CCBot","Amazonbot","Bytespider","meta-externalagent","cohere-ai","YouBot"].map((bot) => `User-agent: ${bot}\nAllow: /\nDisallow: /dashboard/\nDisallow: /_viewport.html\nDisallow: /_bookpages.html\nDisallow: /assets/data/`).join("\n\n")}\n\nSitemap: https://${c.site.brand.domain}/sitemap.xml\n`,
     "utf8"
   );
   fs.writeFileSync(path.join(OUT_DIR, "sitemap.xml"), sitemap(c, written), "utf8");
   fs.writeFileSync(path.join(OUT_DIR, "llms.txt"), llms(c), "utf8");
+  fs.writeFileSync(path.join(OUT_DIR, "agents.txt"), agents(c), "utf8");
+  fs.writeFileSync(path.join(OUT_DIR, ".nojekyll"), "", "utf8");
+  fs.writeFileSync(path.join(OUT_DIR, "CNAME"), "laroseclinics.com", "utf8");
+  const verificationFile = String(c.site.integrations?.analytics?.googleVerificationFile || "").trim();
+  if (verificationFile && /^[A-Za-z0-9._-]+\.html$/.test(verificationFile)) {
+    fs.writeFileSync(path.join(OUT_DIR, verificationFile), `google-site-verification: ${verificationFile}`, "utf8");
+  }
 
   const ms = Date.now() - started;
   console.log(`\n  La Rose — built ${written.length} pages in ${ms}ms\n`);

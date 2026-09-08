@@ -235,7 +235,7 @@ ${pageHero({
 <section class="section">
   <div class="wrap">
     <div class="grid grid-2" style="align-items:start">
-      <form class="card" style="padding:clamp(1.25rem,3vw,2.25rem)" data-finder data-whatsapp-form="201040661893"
+      <form class="card" style="padding:clamp(1.25rem,3vw,2.25rem)" data-finder data-whatsapp-form="201040661893" data-form-source="booking"
             data-msg-intro="${esc(t({ ar: "طلب حجز جديد من موقع لاروز", en: "New appointment request from the La Rose website" }, locale))}"
             data-msg-invalid="${esc(t({ ar: "من فضلك كمّلي الخانات المطلوبة قبل ما نفتح واتساب.", en: "Please complete the required fields before we open WhatsApp." }, locale))}"
             data-msg-sent="${esc(t({ ar: "فتحنا واتساب بالرسالة الجاهزة. راجعها واضغط إرسال.", en: "WhatsApp has opened with your message. Review it, then press send." }, locale))}">

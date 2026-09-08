@@ -91,10 +91,32 @@
   };
 
   function collect(form) {
+    var touch = {};
+    var first = {};
+    try { touch = JSON.parse(sessionStorage.getItem("lr_touch") || "{}"); } catch (e) {}
+    try {
+      var storedFirst = JSON.parse(localStorage.getItem("lr_first_touch") || "{}");
+      if (!storedFirst.expiresAt || storedFirst.expiresAt > Date.now()) first = storedFirst;
+    } catch (e) {}
+    var clickId = touch.fbclid ? "fb:" + touch.fbclid
+      : touch.gclid ? "g:" + touch.gclid
+      : touch.ttclid ? "tt:" + touch.ttclid : "";
+    var mobile = false;
+    try { mobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) || matchMedia("(max-width: 767px)").matches; } catch (e) {}
     var out = {
       source: form.getAttribute("data-form-source") || "website",
       language: root.getAttribute("lang") || "",
-      pageUrl: location.href
+      pageUrl: location.href,
+      utmSource: touch.utm_source || "",
+      utmMedium: touch.utm_medium || "",
+      utmCampaign: touch.utm_campaign || "",
+      utmContent: touch.utm_content || "",
+      utmTerm: touch.utm_term || "",
+      clickId: clickId,
+      landingPage: touch.landingPage || "",
+      referrer: touch.referrer || "",
+      device: mobile ? "mobile" : "desktop",
+      firstTouchSource: [first.utm_source, first.utm_campaign].filter(Boolean).join("/")
     };
     var extra = [];
 

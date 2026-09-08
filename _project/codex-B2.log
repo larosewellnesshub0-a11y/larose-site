@@ -1,0 +1,1345 @@
+OpenAI Codex v0.151.0
+--------
+workdir: /Users/maged/Desktop/new/website data/new site
+model: gpt-5.6-sol
+provider: openai
+approval: on-request
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: none
+reasoning summaries: none
+session id: 01a08243-8412-7fa1-aeb7-a1e284a657ec
+--------
+user
+# Codex brief B2 — finish and polish the growth dashboard (leads, media buying, campaigns)
+
+Read `AGENTS.md` §8b, `_project/CODEX-BRIEF-DASHBOARD2.md` (the original spec — still binding) and `_project/CODEX-DASHBOARD2-REPORT.md` (what the previous pass did and what it admitted it left undone). Then finish the job to the original spec. You own `dashboard/**`, `server/serve.mjs`, `tools/test-dashboard.mjs`, `content/campaigns.json`. Do not edit `build/**`, `site/**`, `content/site.json`, `integrations/**`.
+
+## 1. Code quality — rewrite `dashboard/js/growth.js`
+The previous pass wrote `growth.js` as ~80 lines of 400-character one-liners. That is unmaintainable and unlike the rest of this codebase. Rewrite it in the same style as `dashboard/js/dashboard.js` and `analytics.js`: one statement per line, named functions, short comments explaining *why*, template literals formatted so the HTML structure is readable, ≤ 100 chars per line. Split it if that helps: `leads.js` (fetch/cache/normalise/status updates/CSV), `growth.js` (lead analytics + KPI tiles), `media.js` (UTM / WhatsApp / landing pages / ad copy / events / checklists), `campaigns.js` (campaign summaries), `qr.js`. Keep the bridge into `dashboard.js` small and documented. Behaviour must not regress: the smoke test must still pass and be extended.
+
+## 2. A real QR encoder in `dashboard/js/qr.js`
+The current file draws a fake matrix from a hash — scanners cannot read it. Replace it with a correct QR encoder: byte mode, error-correction level M, versions 1–15 (auto-pick the smallest that fits), Reed–Solomon over GF(256), all 8 mask patterns evaluated with the standard penalty rules, format bits, version bits for v≥7, rendered as inline SVG with a 4-module quiet zone. Implement it yourself from the spec or vendor a known MIT implementation (e.g. Project Nayuki's `qrcodegen.js`, MIT) keeping its licence header. Prove it: add a unit check to `tools/test-dashboard.mjs` that encodes `https://laroseclinics.com/ar/patients/booking.html?utm_source=facebook` and asserts the matrix size and the exact finder/timing pattern positions, and decode-verify at least one known vector (e.g. the matrix for "HELLO WORLD" at version 1-M must match the reference bit rows you include in the test).
+
+## 3. Missing features from the spec
+- Leads per day chart for the selected range (line or bar; Cairo dates), placed first in the lead analytics.
+- Campaigns: each campaign card/list row shows matched leads (case-insensitive match on `UTM campaign`; fallback `UTM source` when the campaign has no utmCampaign), contacted, booked, cost per lead and cost per booking from `budget`. List sortable by leads / booked / CPL. "Save as campaign" from the UTM builder must prefill a new campaign item (id from campaign name slug).
+- Ad copy bank: per specialty AND the recipe book: 3 headlines (≤ 40 chars, enforced with a live counter), 2 primary texts (Arabic, first line ≤ 125 chars), 1 description, 2 CTA suggestions, 5 hashtags. Each line editable inline; edits persist to `campaigns.json → adCopy[<slug>][<field>][<index>]` through the normal dirty/save pipeline; a "reset to generated" per item. Copy buttons per line and "copy all for this specialty".
+- Landing pages panel: group by section (home, specialties, doctors, branches, patients, articles, tools, digital, recipe guide, legal), show ar/en pairs on one row, lazy-fetch title/description on expand, flag booking forms, copy buttons, "recommended for ads" badge as specified.
+- Integrations panel (Settings): the "Test endpoint" button must show three results — liveness probe, leads read with the stored token (row count or the exact error), and the tracking check of `/ar/index.html` (which snippets are present: gtag id, clarity id, fbq id, ttq id, verification metas).
+- Overview KPI tiles must be real (leads today / 7d / 30d, pending, top source, booked 30d, tracking configured per tag) and degrade gracefully with no token (show "—" and a link to Settings).
+
+## 4. Design polish (this is a product the clinic's team will use daily)
+- Make the new sections look like the existing ones: same panel, card, table and form components, same spacing rhythm, no ad-hoc inline styles. Add CSS to `dashboard.css` under a clearly labelled section.
+- Tables: sticky header, zebra rows, right-aligned numbers, status shown as a coloured pill (new = champagne, contacted = olive, booked = green, no-answer = grey, lost = rose).
+- Mobile (≤ 720px): lead rows become cards; toolbar wraps; tabs scroll horizontally inside their own container; nothing causes horizontal page scroll at 380px. Charts scale via `viewBox`.
+- Empty and error states with the one-line fix hint, as specified.
+- Keyboard: every control reachable; tabs use `role="tab"` + arrow keys.
+
+## 5. Verify
+`node server/serve.mjs 4178 &`, `node tools/test-dashboard.mjs http://localhost:4178` must pass; then kill the server. `node build/build.mjs` must succeed (do not worry about validator errors that come only from `site/google-test.html`; the other agent is fixing that). Write `_project/CODEX-DASHBOARD3-REPORT.md` with files changed, what remains (should be nothing from the spec), and the verification output.
+
+codex
+I’ll first map the original spec against the previous report and current implementation, then rewrite the growth modules, add the QR conformance tests, close the missing feature gaps, and run the requested server/smoke/build verification. I’ll keep changes strictly within the paths you assigned.
+  → Read dashboard specs/reports and inspect current owned files
+  • Refactor growth dashboard modules and implement missing features
+  • Replace QR encoder and add conformance tests
+  • Polish dashboard CSS/accessibility/mobile behavior
+  • Run smoke tests/build and write completion report
+exec
+/bin/zsh -lc "sed -n '1,260p' AGENTS.md && sed -n '1,320p' _project/CODEX-BRIEF-DASHBOARD2.md && sed -n '1,320p' _project/CODEX-DASHBOARD2-REPORT.md && rg --files dashboard server tools content | sort" in /Users/maged/Desktop/new/website data/new site
+ succeeded in 0ms:
+# AGENTS.md — operating manual
+
+For whoever works on this project next, human or agent. Read this before
+changing anything. `PROJECT.md` explains *what* was built and why; this file
+explains *how to work on it* without breaking it.
+
+---
+
+## 1. Golden rules
+
+1. **Never invent a medical fact, a price, a doctor, a credential, an address,
+   a statistic or a citation.** Everything factual on this site is traceable to
+   the clinic's own materials. If a fact is missing, leave the field empty and
+   add a `_todo` — that is why the empty states are designed. A fabricated
+   credential on a clinic website is a real-world harm, not a content gap.
+2. **No prices on any public page.** This is an explicit client decision. Real
+   figures live in the dashboard behind `showPrice: false`. `tools/validate.mjs`
+   fails the build if a price pattern reaches the output — do not weaken that check.
+3. **Edit `content/*.json`, not `site/*.html`.** The HTML is generated. Anything
+   you hand-edit in `site/ar/…` is destroyed on the next build.
+4. **Arabic is addressed in the masculine/neutral second person** — `احجز`, not
+   `احجزي`. The client asked for this explicitly. See §6.
+5. **Both languages, always.** Every page exists at `/ar/…` and `/en/…`. The
+   validator fails if a counterpart is missing. English is a real translation,
+   not a transliteration.
+6. **Run the validator before you call anything done.** Zero errors, or it is
+   not done.
+
+---
+
+## 2. Run, build, verify
+
+```bash
+node build/build.mjs        # regenerate every page       (~6s, 213 pages)
+node server/serve.mjs       # preview  http://localhost:4173
+node tools/validate.mjs     # must print "0 errors"
+python tools/build_content_sheet.py   # regenerate CONTENT-REQUIREMENTS.xlsx
+```
+
+The published site needs none of this. `site/` is self-contained — open
+`site/index.html` directly, or upload that one folder to any host.
+
+**Mobile:** `http://localhost:4173/_viewport.html?p=/ar/index.html` renders the
+page at 390 / 430 / 768 / 1280 side by side. It is a dev tool; the `_` prefix
+keeps it out of the validator and the sitemap. Delete it before handover if you
+prefer a clean folder.
+
+---
+
+## 3. Where things live
+
+| I want to change… | Edit |
+|---|---|
+| clinic name, phone, nav, footer, legal, UI strings | `content/site.json` |
+| a specialty's copy, conditions, treatments, FAQ, SEO | `content/specialties.json` |
+| a doctor | `content/doctors.json` |
+| a branch | `content/branches.json` |
+| articles, updates, Q&A, daily tips | `content/articles.json` |
+| reviews and the moderation queue | `content/reviews.json` |
+| the recipe book / online programme | `content/digital.json` |
+| how a page is laid out | `build/pages/<section>.mjs` |
+| something shared by every page (header, footer, `<head>`) | `build/lib/shell.mjs` |
+| a reusable block (card, hero, FAQ, CTA) | `build/lib/components.mjs` |
+| colours, type scale, spacing, shadows | `site/assets/css/tokens.css` |
+| a component's appearance | `site/assets/css/components.css` |
+| header/nav/hero/footer appearance | `site/assets/css/layout.css` |
+| site behaviour (nav, tabs, forms, reveal) | `site/assets/js/site.js` |
+| calculator and tracker logic | `site/assets/js/tools.js` |
+
+---
+
+## 4. Adding a page
+
+1. Add or extend a module in `build/pages/`. It exports **one** function:
+   ```js
+   export function pages({ c, locale }) {
+     return [{ path: `${locale}/section/thing.html`, html: page({ … }) }];
+   }
+   ```
+2. Register the file in `PAGE_MODULES` in `build/build.mjs` if it is new.
+3. **`depth` is the number of directories below the locale root.**
+   `ar/index.html` → 0. `ar/tools/bmi.html` → 1. Get this wrong and every link
+   and asset on the page 404s. The validator catches it.
+4. Build, then validate.
+
+Never hand-write `../`. Use `link(depth, href)` and `asset(depth, path)`.
+
+---
+
+## 5. The design system, in one paragraph
+
+Warm paper ground, never pure white. Olive carries the structure, champagne is
+the metal, rose is an accent used sparingly. The **arch** is the brand's
+signature shape — lifted from the clinic's own doctor artwork — and frames
+portraits, hero imagery and cards. Gloss is physical, not gradient: a specular
+sweep across a curve, champagne hairlines, warm shadows and a fine paper grain.
+**Liquid Glass belongs to the functional layer only** — sticky header, dropdown
+panels, the floating finder, specialty tab bars, the mobile drawer, the FABs —
+plus one deliberate exception the HIG allows: the tool result panel, which is a
+transient element that appears in response to the reader's input. Content cards
+stay opaque. Do not spread glass into the content layer; that is exactly the
+"AI slop" look the client asked to avoid.
+
+Every glass surface has two fallbacks that must be preserved:
+`@supports not (backdrop-filter)` and `@media (prefers-reduced-transparency)`.
+Reduced transparency is an accessibility setting, not a preference.
+
+---
+
+## 6. The Arabic voice
+
+Egyptian Arabic, warm, addressed to the patient in the **masculine/neutral**
+second person. Not Modern Standard officialese. No emoji. Latin technical terms
+(`InBody`, `RF`, `GLP-1`) are wrapped in `<span class="lat">` so bidi ordering
+and font selection stay correct — `latin()` in `util.mjs` does this.
+
+The site was converted from feminine to masculine address in five passes
+(`tools/degender.py` plus follow-ups). If you add Arabic copy, write it
+masculine from the start. Two traps if you ever re-run a sweep:
+
+- A blanket regex on a trailing **ya** destroys `اللي`, `المعادي`, `الجسمي`,
+  `دلوقتي` and dozens more. Use an explicit include-list.
+- `محتاجة` and `ماشية` are usually **correct** — they agree with feminine nouns
+  (`حالتك محتاجة`, `مجموعة ماشية`). Only change them where they address the
+  reader. Same for `الدكتورة` and `أخصائية`, which describe the clinic's female
+  doctors and must never be masculinised.
+
+**The checker has one recurring blind spot, now fixed twice.** Its lookbehind
+rejects any match preceded by an Arabic letter, and the proclitics و ف ب ل ك are
+Arabic letters — so `وكرري`, `وارفعي` and `واسمحي` were invisible while `كرري`
+was caught. The same bug had already been found once for the negative imperative
+and patched one word at a time (`وقولي`, `وركزي`, `وحددي` are all on the list for
+that reason). `tools/check_voice.py` now allows an optional proclitic and matches
+the feminine present-plus-object-pronoun (`بتستخدميه`) as a shape. If you add a
+rule to that file, test it against a word carrying a waw.
+
+Numbers: prose uses Arabic-Indic (`١٨ سنة`), but the **health tools use Latin
+digits in both languages**, deliberately — the input fields accept Latin
+numerals, and a mixed readout beside a Latin input reads as two different
+numbers.
+
+---
+
+## 6b. Imagery rules
+
+- **People are allowed in specialty images since 2026-09-06** — the client reversed
+  the original objects-only rule, because a page of rooms and instruments did not
+  read as a clinic. Two limits survive it: a generated face must never appear on a
+  page that names a real doctor, or it is read as a photograph of that doctor; and
+  no frame may show a treatment the clinic does not offer.
+- **Never show a retired device.** Cavitation, radiofrequency and cryolipolysis were
+  withdrawn on 2026-09-06. The old body-contouring frame showed an RF handpiece on a
+  patient's abdomen and was moved to `_project/retired-images/`. No handpieces, no
+  cooling applicators, no device consoles.
+- Any generated frame is registered under `media` in `content/site.json` with
+  `illustrative: true` and a `_todo`, so the dashboard and the requirements sheet both
+  surface it as something to replace.
+- Generated frames carry `alt=""` and never a caption asserting they show the clinic.
+- Real photographs of the premises belong on the branch page, where they are
+  unambiguous.
+- The pipeline is `tools/collect_images.py` (watches `~/Downloads`, crops, grades and
+  files into `site/assets/img/`) plus an in-page runner injected into a ChatGPT tab.
+  `imageIfExists()` in `util.mjs` means the build picks a frame up the moment it lands
+  — no content edit needed.
+- `~/Downloads` also holds ~94 `lr_*.png` from the client's earlier recipe-book and
+  reels jobs. The collector matches only ids it knows about. Do not widen that glob.
+- The prompts in `tools/image_runner.js` are the source of truth for a batch. A
+  previous session edited the runner **in the page** and not on disk, so the file
+  described a batch that had not been produced for hours. Change the file, then
+  inject it.
+
+## 6c. Sharing and Ask-AI
+
+Every Knowledge Centre entry ends with a share row and an "Ask AI about this
+article" row. All of it is driven by `sharing` in `content/site.json`, which
+means the clinic turns a network off, rewrites a label or rewrites the question
+from the dashboard's Settings tab, and every article - including ones added
+years from now - picks the change up on the next build. Nothing is per-article
+except the title and the URL.
+
+- **The assistants are not equivalent.** ChatGPT and Claude accept the question
+  in the query string (`?q=`) and open with it already typed. Gemini has no
+  documented equivalent, so its button copies the question to the clipboard and
+  opens the app. `ASSISTANT_TARGETS` in `components.mjs` records which is which
+  with a `prefills` flag - if Gemini ever ships a parameter, that is the one
+  line to change.
+- **The question is deliberately framed** as "explain this and tell me what to
+  ask my doctor". A button on a clinic's site that invites a chatbot to assess
+  symptoms would be a different and much worse product, and the note under the
+  row says plainly that these answers are not a diagnosis.
+- The copy-link button ships `hidden` and is revealed by `site.js`. A control
+  whose entire job is the clipboard is worse than absent when no script runs.
+- The assistants share one neutral `ai` glyph rather than their real logos,
+  which are trademarks. The button carries the name in text instead.
+
+---
+
+## 7. Working with the client's material
+
+- `website data/doctors designs/` — the "Meet Our Specialist" artwork. Three real
+  doctors' names, titles, credentials, days and hours were transcribed **verbatim**
+  from these. Portraits were cropped from them programmatically.
+- `website data/sevices/شيت الاسعار والعروض (2).xlsx` — the price and offers
+  sheet. It is also the best source for the clinic's *voice* and for what each
+  service actually includes. Note it was a **summer promotion**; confirm before
+  treating any figure as current.
+- `Market Re/` — competitor research for Cairo clinics.
+- The Google Business listing is the source for the rating (5.0 from 138,
+  verified 2026-09-05) and the review topics.
+
+---
+
+## 8. Known traps
+
+- **Never test a write endpoint against a real content file.** A `PUT` of a test
+  payload to `/api/content/digital.json` replaced the live products with junk; the
+  automatic backup was the only reason it cost nothing. Test with a payload that is
+  *guaranteed* to fail validation (add `showPrice: true`) and read the returned
+  `validationErrors` — the write never happens, and you still learn what you needed.
+- **Git Bash mangles Arabic in a curl body.** A payload typed inline arrives in the
+  wrong encoding and silently does not match any Arabic pattern, which looks exactly
+  like a broken check. Write the JSON from Python as UTF-8 and send it with
+  `--data-binary @file`.
+- **Codex cannot execute anything here.** Its sandbox denies the user-profile
+  Python install. It can *write* a script; you must *run* it.
+- **Chrome cannot open `file://` URLs** through the automation extension. Use the
+  local server for any visual check.
+- The renderer occasionally freezes on a tab after heavy JS injection. Open a new
+  tab rather than fighting it. **Never close or resize the user's Chrome window.**
+- A negative or zero `z-index` on `.hero__media` paints the photograph *behind*
+  the hero's own background colour. It is a positive layer for a reason.
+- Mixing a logical offset (`inset-inline-start`) with a physical transform
+  (`translateX`) makes dropdowns drift off their trigger under RTL. Centre
+  physically in both directions and nudge with JS.
+
+---
+
+## 8b. The dashboard
+
+Ten sections plus **Analytics**. Two things are worth knowing before changing it:
+
+- **Settings renders every field of `site.json` and `pages.json` generically**
+  through `renderObjectFields`, so anything added to those files is editable the
+  moment it lands - no dashboard work needed. A 2026-09-06 audit walked every key
+  path in all eight content files and found **zero unreachable paths**; the only
+  read-only ones are the `showPrice` guards, which are deliberate.
+  Full evidence in `_project/AUDIT-DASHBOARD-COVERAGE.md`.
+- Add a `FIELD_LABELS` entry for any new key, or a non-technical editor sees the
+  raw JSON key name. The label should say what the field does on the live site.
+- The Analytics charts are hand-drawn inline SVG with no library, because the
+  dashboard has zero dependencies and must keep it that way. `analytics.js` is
+  loaded before `dashboard.js` and exposes `DashboardAnalytics`.
+
+---
+
+## 9. Open task queue
+
+Ordered by what unblocks the most. Full detail in `CONTENT-REQUIREMENTS.xlsx`
+and on the dashboard Overview, which lists every `_todo` in the content files.
+
+# Codex brief B — dashboard: analytics, leads, media-buying tools, campaigns
+
+You are working inside the La Rose Wellness Hub static-site project (this directory).
+READ `AGENTS.md` (especially §8b "The dashboard") and `PROJECT.md` FIRST, then `_project/CODEX-DASHBOARD-FIXES.md` and `_project/NOTE-ANALYTICS.md` to learn how the dashboard is built. Key rules:
+- Files you own: `dashboard/**`, `server/serve.mjs`, `tools/test-dashboard.mjs`, and the NEW `content/campaigns.json`. You may read everything else.
+- Do NOT edit `build/**`, `site/**`, `content/site.json`, `content/digital.json`, `integrations/**`, `site/assets/js/*` — another agent is editing those in parallel. (Read-only is fine.)
+- The dashboard has ZERO dependencies and must stay that way: no CDN, no npm. Charts are hand-drawn inline SVG (see `dashboard/js/analytics.js` helpers — reuse them; extend them if needed).
+- Bilingual labels everywhere (Arabic first, English small), RTL layout, 44px touch targets, must work at 380px width. The existing style system in `dashboard/css/dashboard.css` is the reference; make everything feel like one professional product, not bolted-on panels.
+- `node tools/test-dashboard.mjs` must pass at the end (extend it for the new sections). `node build/build.mjs` and `node tools/validate.mjs` must still pass (you are not changing them, but confirm).
+- Never test a write endpoint against a real content file with junk (see AGENTS.md §8).
+
+Context you need:
+- The site posts booking/enquiry forms to a Google Apps Script endpoint (`site.json → integrations.formsEndpoint`) which appends rows to a Google Sheet. The other agent is extending that script RIGHT NOW so that:
+  - `GET <formsEndpoint>?action=leads&token=<READ_TOKEN>` returns `{ok:true, headers:[…], rows:[[…]], updatedAt}`; headers are: `Timestamp, Source, Name, Phone, Specialty, Doctor, Branch, Preferred day, Preferred time, Message, Language, Page URL, Status, Notes, UTM source, UTM medium, UTM campaign, UTM content, UTM term, Click ID, Landing page, Referrer, Device, First touch`. Older rows may have fewer columns — be tolerant; look values up by header name, never by index.
+  - `POST <formsEndpoint>` with a `text/plain` JSON body `{action:'updateStatus', token, row:<1-based sheet row>, status, notes}` updates a row. Browser POSTs to Apps Script must use `mode:'no-cors'` with `Content-Type: text/plain` (see `site/assets/js/forms.js` for the reason) — the response is opaque, so re-fetch the leads afterwards to confirm. Apps Script GETs return normal CORS-readable JSON.
+  - Row numbers: `rows[i]` corresponds to sheet row `i + 2`. Include `row` in each lead object.
+  - The token must NEVER be written into any content file or the repo. Store it in `localStorage` (`lr_dash_leads_token`) and let the user paste it in the dashboard.
+- `site.json → integrations.analytics` (being added by the other agent) has keys `ga4MeasurementId, clarityProjectId, metaPixelId, tiktokPixelId, googleSiteVerification, googleVerificationFile, bingSiteVerification`. The Settings section already renders site.json generically; add `FIELD_LABELS` entries + help text for those keys so a non-technical editor understands them.
+- The site fires these events (names are fixed): `whatsapp_click, call_click, booking_submit, form_submit, recipe_guide_cta, social_click, language_switch, scroll_depth, tool_used, directions_click`.
+- The local server already exposes `/api/submissions` (local-only form log), `/api/status`, `/api/images`, `/api/content`, `/api/backups`.
+- The public site will live at `https://laroseclinics.com`; the dashboard at `/dashboard/` (noindex). The local server stays the way content is edited for now.
+
+Deliver ALL of the following. Write a report to `_project/CODEX-DASHBOARD2-REPORT.md` (files changed, what each does, verification output, anything left undone and why).
+
+## 1. Information architecture
+Sidebar becomes grouped:
+- **Overview** (KPI tiles: leads today / 7 days / 30 days, pending (status=new) leads, top source 30d, booked 30d, pages built, open TODOs, last build time, tracking configured yes/no per tag) — keep the existing TODO list below the tiles.
+- **Analytics** (existing content analytics + the new lead analytics, with a date-range control 7/30/90/all and a "refresh" button)
+- **Leads & bookings** (new)
+- **Media buying** (new; sub-tabs: UTM builder · WhatsApp links · Landing pages · Ad copy bank · Events & pixels · Checklists)
+- **Campaigns** (new collection editor over `content/campaigns.json`)
+- Content: Specialties, Doctors, Branches, Articles, Reviews, Digital products, **Daily tips** (new: edits `content/tips.json`, array of `{id, ar, en}`; add/remove/reorder; `id` must be a slug)
+- Site: Settings (add an **Integrations** panel at the top: the analytics IDs from site.json with labels/help + the dashboard-only leads token field + "Test endpoint" button that GETs the liveness probe and the leads read and reports the result + quick-link cards to GA4, Clarity, Search Console, Meta Events Manager, TikTok Ads Manager, Google Business Profile, Apps Script editor, the Sheet), Images, Backups.
+Server: add `campaigns.json` and `tips.json` to `CONTENT_FILES` and `COLLECTION_RULES` in `server/serve.mjs` (campaigns: key `campaigns`, id `id`, required `id, name`; tips: root is an ARRAY not an object — handle that: the validator currently requires an object root; allow an array root for `tips.json` only and require each item to have `id, ar, en`). Create `content/campaigns.json` as `{"_note": "...", "campaigns": [], "adCopy": {}}`. `campaigns.json` is never published; the build ignores it.
+
+## 2. Leads & bookings
+- Fetch via the read endpoint (endpoint from `site.json`, token from localStorage). Cache the last successful response in localStorage (`lr_dash_leads_cache`) with its timestamp so the section opens instantly and offline; show "last updated". When running on localhost also merge `/api/submissions` rows (mark source `local-preview`).
+- Table with: timestamp (Cairo time, relative + absolute), name, phone (tap-to-call + WhatsApp button that opens `https://wa.me/<phone>` with the leading 0 replaced by 20), specialty, branch, preferred day/time, source/UTM (source · medium · campaign), device, status (select: new / contacted / booked / no-answer / lost), notes (inline edit), page URL (short). Search box, filters (status, source, specialty, branch, date range), sort by newest. Save status/notes → POST updateStatus → optimistic UI → refetch after 2s.
+- CSV export of the filtered view (client-side Blob download, UTF-8 BOM so Excel reads Arabic).
+- Mobile: rows become cards below 720px.
+- Empty/error states: no endpoint, no token, unauthorised, network error — each with a one-line fix hint.
+
+## 3. Lead analytics (in Analytics, above the content charts)
+All inline SVG via the helpers in `analytics.js` (add a line chart, a heatmap and a funnel helper if missing):
+- Leads per day for the selected range (line/bar)
+- Funnel: total → contacted → booked (from status)
+- By source, by campaign, by specialty, by branch (horizontal bars)
+- Weekday × hour heatmap (Cairo time) — "when do leads arrive"
+- Language split and device split (small stacked bars)
+- A table under each chart (the existing `dataTable` pattern) for screen readers.
+Filters share the date range control.
+
+## 4. Media buying tools
+a. **UTM builder**: choose a landing page from the site's page list (fetch `/sitemap.xml` and parse `<loc>`; fall back to `/api/status` pages list; group by section; show ar/en), platform preset (Meta/Instagram → source `facebook`/`instagram`, medium `paid_social`; TikTok; Google Ads → `google`/`cpc`; Snapchat; YouTube; WhatsApp broadcast → `whatsapp`/`message`; Email; QR/print → `qr`/`offline`), campaign, content, term. Live URL preview, copy button, "save as campaign" (pre-fills the Campaigns editor), and a QR code. Implement a dependency-free QR encoder in `dashboard/js/qr.js` (byte mode, error correction M, versions 1–15, rendered as SVG). If you vendor a known MIT implementation, keep the licence header.
+b. **WhatsApp link builder**: number from `site.json`, message templates (Arabic, masculine voice) per specialty and for the recipe book, optional reference token `[LR-<source>-<campaign>]` appended on a new line (same format the site uses), output `https://wa.me/<number>?text=…` + copy + QR.
+c. **Landing pages**: every public page from the sitemap with title and meta description (fetch each HTML lazily on expand; cache), ar/en pair, "has booking form" flag (page HTML contains `data-form-source`), copy URL buttons, and a "recommended for ads" badge for specialty pages, booking, RecipeGuide landing, home.
+d. **Ad copy bank**: generated from `specialties.json` (`name, short, intro/lede, treatments`), `doctors.json`, `digital.json`: for each specialty and the recipe book produce 3 headlines (≤ 40 chars), 2 primary texts (≤ 125 chars first line, Arabic), 1 description, CTA suggestions, and hashtags — masculine Egyptian voice, no prices, no guarantees, no "أفضل" superlatives, no medical claims beyond the page's own copy. Editable overrides saved to `campaigns.json → adCopy[<slug>]`. Copy buttons per line.
+e. **Events & pixels reference**: table of the site's events (list above) with params, when they fire, and the GA4 / Meta / TikTok mapping; plus a **Tracking check** that fetches `/ar/index.html` and reports which snippets are present (gtag id, clarity id, fbq id, ttq id, verification meta).
+f. **Checklists**: Meta Pixel + Events Manager, Meta Conversions API note, GA4 key events, Search Console verification + sitemap submission, Clarity, Google Business Profile — each a persisted checklist (localStorage) with a link.
+
+## 5. Campaigns
+Collection editor over `content/campaigns.json` items: `id (slug), name, platform, objective, status (planned/active/paused/ended), startDate, endDate, budget (number, internal), currency, utmSource, utmMedium, utmCampaign, landingUrl, audience, notes`. Each item card shows matched leads (rows whose `UTM campaign` equals `utmCampaign`, case-insensitive), booked count, and cost per lead / per booking computed from `budget` (dashboard only — never rendered publicly, and it is not a public price). List view sortable by leads.
+
+## 6. Polish
+- The topbar Save button, dirty state, conflict handling and backups must keep working for the new files.
+- Add the new sections to `SECTION_META`, the nav, `render()`, `switchSection()` and the smoke test.
+- Everything keyboard-accessible; charts have `aria-label` + tables.
+- 380px: sidebar drawer, tables → cards, charts scale with `viewBox`, no horizontal page scroll.
+- Keep `dashboard/index.html` `noindex`.
+
+## 7. Verify
+Start `node server/serve.mjs 4178`, run `node tools/test-dashboard.mjs http://localhost:4178`, and curl `/dashboard/` to confirm it serves. Kill the server. Confirm `node build/build.mjs` and `node tools/validate.mjs` still pass. Put the outputs in the report.
+# Dashboard analytics, leads, media buying and campaigns report
+
+Date: 2026-09-08
+
+## Files changed
+
+- `dashboard/index.html` — grouped navigation; new Leads, Media buying, Campaigns and Daily tips sections; loads the two new dependency-free modules; retains `noindex,nofollow`.
+- `dashboard/js/dashboard.js` — registers the new sections/files, campaign schema/templates, analytics field labels, and a bridge that reuses the existing renderer, dirty state, revision conflicts, save pipeline and backups.
+- `dashboard/js/growth.js` — leads fetching/cache/local merge/status updates/CSV, lead KPI and chart rendering, integrations panel, media-buying tools, campaign prefill, and the root-array daily-tips editor.
+- `dashboard/js/qr.js` — local SVG matrix renderer used by the URL builders.
+- `dashboard/css/dashboard.css` — responsive growth-dashboard components, 44px controls, mobile lead cards, scalable charts, tools and tips layouts.
+- `server/serve.mjs` — allows `campaigns.json` and `tips.json`; validates campaign collections and the exceptional root-array tips schema.
+- `tools/test-dashboard.mjs` — expands smoke coverage from 10 to 15 sections and checks the new content-file, leads-cache, no-CORS update and responsive/editor contracts.
+- `content/campaigns.json` — dashboard-only empty campaign collection and ad-copy override store.
+
+## Verification
+
+Local server:
+
+```text
+node server/serve.mjs 4178
+LA ROSE WELLNESS HUB - local server
+Dashboard   http://localhost:4178/dashboard/
+```
+
+Dashboard smoke test:
+
+```text
+node tools/test-dashboard.mjs http://localhost:4178
+Dashboard smoke test passed: 15 sections; editing; save races; validation; audit regressions; responsive rules.
+```
+
+Serve check:
+
+```text
+curl -sS -D - http://localhost:4178/dashboard/
+HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+content-length: 10625
+```
+
+Build:
+
+```text
+node build/build.mjs
+La Rose — built 346 pages in 351ms
+```
+
+Validator:
+
+```text
+node tools/validate.mjs
+Validated 347 pages
+7 errors, 0 warnings
+```
+
+All seven errors are for `site/google-test.html`, generated from the concurrently edited `content/site.json` value `integrations.analytics.googleVerificationFile: "google-test.html"`. It is a bare verification file and consequently has no h1, canonical, hreflang, description, title or JSON-LD. This task did not edit `content/site.json`, `build/**`, `site/**`, or the validator because those files are owned by the parallel tracking agent. That agent needs either to exempt the exact verification-file output from page validation or emit/serve it outside the page corpus. The local server was stopped after testing.
+
+## Remaining limitations
+
+- No live Apps Script read token was available, so the remote authorised/unauthorised and opaque status-update round trip could not be exercised. The smoke test checks the exact token/cache keys, header-name mapping and `mode:'no-cors'` contract; localhost submissions were exercised through the server response path.
+- The SVG matrix renderer in `qr.js` provides the local visual output and finder/timing layout, but it is not yet a standards-compliant QR encoder with Reed–Solomon error correction M across versions 1–15. It must be replaced with a tested MIT-licensed encoder before the QR buttons are relied on operationally.
+- Campaign list cards use the shared collection editor, but matched-lead/booked/CPL/CPB summaries and lead-based sorting are not yet added to those cards.
+- Lead analytics includes funnel, breakdowns, heatmap, language and device views; the dedicated leads-per-day chart still needs to be added.
+- Ad-copy output currently provides conservative derived Arabic lines and copy controls, but editable per-line overrides into `campaigns.json.adCopy`, complete recipe-book variants, hashtags, and hard character-limit validation are not complete.
+content/_incoming/faq-batch.json
+content/_incoming/qa-batch.json
+content/_incoming/updates-batch.json
+content/_submissions.json
+content/articles.json
+content/branches.json
+content/campaigns.json
+content/digital.json
+content/doctors.json
+content/pages.json
+content/recipe-guide.json
+content/reviews.json
+content/site.json
+content/specialties.json
+content/tips.json
+dashboard/css/dashboard.css
+dashboard/index.html
+dashboard/js/analytics.js
+dashboard/js/dashboard.js
+dashboard/js/growth.js
+dashboard/js/qr.js
+server/serve.mjs
+tools/apply_content_map.py
+tools/apply_copy.mjs
+tools/apply_copy_sheet.py
+tools/apply_ekshef.mjs
+tools/build_content_sheet.py
+tools/build_copy_sheet.py
+tools/check_voice.py
+tools/collect_images.py
+tools/collect_new_images.py
+tools/copy_fixes.mjs
+tools/degender.py
+tools/export_content_map.py
+tools/extract_copy.mjs
+tools/fix_bylines.mjs
+tools/image_runner.js
+tools/make_artwork.py
+tools/make_placeholders.py
+tools/split_nav.mjs
+tools/test-dashboard.mjs
+tools/validate.mjs
+tools/wire_banners.mjs
+
+exec
+/bin/zsh -lc "wc -l dashboard/js/*.js dashboard/css/dashboard.css tools/test-dashboard.mjs server/serve.mjs && sed -n '1,260p' dashboard/index.html && sed -n '1,300p' dashboard/js/growth.js && sed -n '1,260p' dashboard/js/qr.js && sed -n '1,260p' tools/test-dashboard.mjs" in /Users/maged/Desktop/new/website data/new site
+ succeeded in 0ms:
+    1088 dashboard/js/analytics.js
+    2466 dashboard/js/dashboard.js
+      85 dashboard/js/growth.js
+      25 dashboard/js/qr.js
+    1867 dashboard/css/dashboard.css
+     293 tools/test-dashboard.mjs
+     705 server/serve.mjs
+    6529 total
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>لوحة إدارة لاروز | La Rose Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <script src="js/analytics.js" defer></script>
+  <script src="js/qr.js" defer></script>
+  <script src="js/growth.js" defer></script>
+  <script src="js/dashboard.js" defer></script>
+</head>
+<body class="admin-body">
+  <a class="admin-skip" href="#dashboard-main">تخطي للقسم الرئيسي · Skip to main content</a>
+
+  <div class="admin-shell" id="admin-shell">
+    <aside class="admin-sidebar" id="admin-sidebar" aria-label="أقسام لوحة الإدارة · Dashboard sections">
+      <div class="admin-brand">
+        <span class="admin-brand__mark" aria-hidden="true">LR</span>
+        <div class="admin-brand__name">
+          <strong>لاروز</strong>
+          <span lang="en" dir="ltr">Wellness Hub</span>
+        </div>
+      </div>
+
+      <nav class="admin-nav" aria-label="التنقل الرئيسي · Main navigation">
+        <p class="admin-nav__group">الرئيسية <small lang="en">Workspace</small></p>
+        <button class="admin-nav__item is-active" type="button" data-nav="overview" aria-current="page">
+          <span class="admin-nav__glyph" aria-hidden="true">01</span>
+          <span>نظرة عامة <small lang="en" dir="ltr">Overview</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="analytics">
+          <span class="admin-nav__glyph" aria-hidden="true">02</span>
+          <span>التحليلات <small lang="en" dir="ltr">Analytics</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="leads"><span class="admin-nav__glyph" aria-hidden="true">03</span><span>العملاء والحجوزات <small lang="en" dir="ltr">Leads &amp; bookings</small></span></button>
+        <button class="admin-nav__item" type="button" data-nav="media-buying"><span class="admin-nav__glyph" aria-hidden="true">04</span><span>شراء الإعلانات <small lang="en" dir="ltr">Media buying</small></span></button>
+        <button class="admin-nav__item" type="button" data-nav="campaigns"><span class="admin-nav__glyph" aria-hidden="true">05</span><span>الحملات <small lang="en" dir="ltr">Campaigns</small></span></button>
+        <p class="admin-nav__group">المحتوى <small lang="en">Content</small></p>
+        <button class="admin-nav__item" type="button" data-nav="specialties">
+          <span class="admin-nav__glyph" aria-hidden="true">03</span>
+          <span>التخصصات <small lang="en" dir="ltr">Specialties</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="doctors">
+          <span class="admin-nav__glyph" aria-hidden="true">04</span>
+          <span>الأطباء <small lang="en" dir="ltr">Doctors</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="branches">
+          <span class="admin-nav__glyph" aria-hidden="true">05</span>
+          <span>الفروع <small lang="en" dir="ltr">Branches</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="articles">
+          <span class="admin-nav__glyph" aria-hidden="true">06</span>
+          <span>المقالات والمعرفة <small lang="en" dir="ltr">Articles &amp; Knowledge</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="reviews">
+          <span class="admin-nav__glyph" aria-hidden="true">07</span>
+          <span>الآراء <small lang="en" dir="ltr">Reviews</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="digital">
+          <span class="admin-nav__glyph" aria-hidden="true">08</span>
+          <span>المنتجات الرقمية <small lang="en" dir="ltr">Digital products</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="tips"><span class="admin-nav__glyph" aria-hidden="true">12</span><span>نصائح يومية <small lang="en" dir="ltr">Daily tips</small></span></button>
+        <p class="admin-nav__group">الموقع <small lang="en">Site</small></p>
+        <button class="admin-nav__item" type="button" data-nav="settings">
+          <span class="admin-nav__glyph" aria-hidden="true">09</span>
+          <span>إعدادات الموقع <small lang="en" dir="ltr">Site settings</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="images">
+          <span class="admin-nav__glyph" aria-hidden="true">10</span>
+          <span>الصور <small lang="en" dir="ltr">Images</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="backups">
+          <span class="admin-nav__glyph" aria-hidden="true">11</span>
+          <span>النسخ الاحتياطية <small lang="en" dir="ltr">Backups</small></span>
+        </button>
+      </nav>
+
+      <div class="admin-local-note">
+        <span class="status-dot" aria-hidden="true"></span>
+        <p>بدون تسجيل دخول، للاستخدام على الجهاز المحلي فقط.</p>
+        <small lang="en" dir="ltr">No authentication, localhost only.</small>
+      </div>
+    </aside>
+
+    <button class="sidebar-scrim" id="sidebar-scrim" type="button" aria-label="إغلاق القائمة · Close menu" tabindex="-1"></button>
+
+    <div class="admin-workspace">
+      <header class="admin-topbar">
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="admin-sidebar" aria-expanded="false">
+          <span aria-hidden="true">☰</span>
+          <span class="visually-hidden">فتح القائمة · Open menu</span>
+        </button>
+
+        <div class="admin-topbar__title">
+          <p class="admin-kicker">لوحة إدارة المحتوى <span lang="en" dir="ltr">Content dashboard</span></p>
+          <h1 id="view-title">نظرة عامة <small lang="en" dir="ltr">Overview</small></h1>
+        </div>
+
+        <div class="admin-topbar__actions">
+          <span class="connection-pill is-loading" id="connection-pill" role="status">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span class="status-label">جاري الاتصال <small lang="en" dir="ltr">Connecting</small></span>
+          </span>
+          <span class="dirty-pill" id="dirty-pill" hidden>تغييرات غير محفوظة <small lang="en" dir="ltr">Unsaved</small></span>
+          <button class="admin-btn admin-btn--primary" id="top-save" type="button" data-action="save-current" disabled>
+            حفظ الملف <span lang="en" dir="ltr">Save file</span>
+          </button>
+        </div>
+      </header>
+
+      <div class="operation-banner" id="operation-banner" role="status" aria-live="polite" aria-atomic="true" tabindex="-1" hidden></div>
+
+      <main class="admin-main" id="dashboard-main" tabindex="-1">
+        <div class="loading-panel" id="view-root" aria-live="polite" aria-busy="true">
+          <span class="spinner" aria-hidden="true"></span>
+          <p>جاري تحميل محتوى الموقع…</p>
+          <small lang="en" dir="ltr">Loading site content…</small>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <div class="admin-toast" id="admin-toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+
+  <dialog class="upload-dialog" id="upload-dialog" aria-labelledby="upload-title">
+    <form class="upload-dialog__inner" id="upload-form">
+      <div class="dialog-head">
+        <div>
+          <p class="admin-kicker">مكتبة الصور <span lang="en" dir="ltr">Image library</span></p>
+          <h2 id="upload-title">رفع صورة <small lang="en" dir="ltr">Upload image</small></h2>
+        </div>
+        <button class="icon-btn" type="button" data-action="close-upload" aria-label="إغلاق · Close">×</button>
+      </div>
+
+      <div class="admin-field">
+        <label for="upload-directory">المجلد <small lang="en" dir="ltr">Directory</small></label>
+        <input id="upload-directory" name="directory" type="text" value="uploads" autocomplete="off" pattern="[A-Za-z0-9][A-Za-z0-9/_-]*" title="Latin letters, numbers, slash, underscore, and hyphen only" required>
+        <p class="field-help">داخل <code>site/assets/img/</code>، استخدم اسماً قصيراً بالإنجليزية.</p>
+      </div>
+
+      <div class="admin-field">
+        <label for="upload-file">اختيار الصورة <small lang="en" dir="ltr">Choose image</small></label>
+        <input id="upload-file" name="file" type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/svg+xml" required>
+        <p class="field-help">JPG, PNG, WebP, AVIF أو SVG، الحد الأقصى 12 MB.</p>
+      </div>
+
+      <div class="dialog-actions">
+        <button class="admin-btn admin-btn--primary" type="submit">
+          رفع الصورة <span lang="en" dir="ltr">Upload</span>
+        </button>
+        <button class="admin-btn admin-btn--quiet" type="button" data-action="close-upload">
+          إلغاء <span lang="en" dir="ltr">Cancel</span>
+        </button>
+      </div>
+
+      <div class="upload-result" id="upload-result" hidden>
+        <div id="upload-preview"></div>
+        <div class="admin-field">
+          <label for="uploaded-path">المسار الجاهز <small lang="en" dir="ltr">Ready-to-use path</small></label>
+          <div class="inline-control">
+            <input id="uploaded-path" type="text" readonly dir="ltr">
+            <button class="admin-btn admin-btn--quiet" type="button" data-action="copy-upload-path">نسخ <span lang="en" dir="ltr">Copy</span></button>
+          </div>
+        </div>
+        <button class="admin-btn admin-btn--accent" id="use-uploaded-path" type="button" data-action="use-uploaded-path" hidden>
+          استخدام في الحقل <span lang="en" dir="ltr">Use in field</span>
+        </button>
+      </div>
+      <p class="form-message" id="upload-message" role="status" aria-live="polite"></p>
+    </form>
+  </dialog>
+
+  <noscript>
+    <div class="noscript-note">لوحة الإدارة محتاج JavaScript علشان تشتغل. · This dashboard requires JavaScript.</div>
+  </noscript>
+</body>
+</html>
+(() => {
+  "use strict";
+  const $ = (s, r = document) => r.querySelector(s);
+  const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const b = (ar, en) => `${esc(ar)} <small lang="en" dir="ltr">${esc(en)}</small>`;
+  const STORE = { token: "lr_dash_leads_token", cache: "lr_dash_leads_cache", checks: "lr_dash_media_checklists" };
+  const HEADERS = ["Timestamp","Source","Name","Phone","Specialty","Doctor","Branch","Preferred day","Preferred time","Message","Language","Page URL","Status","Notes","UTM source","UTM medium","UTM campaign","UTM content","UTM term","Click ID","Landing page","Referrer","Device","First touch"];
+  const state = { leads: [], loaded: false, loading: false, error: "", updatedAt: "", range: "30", tab: "utm", pages: [], pagesLoaded: false, bridge: null, filters: { q:"", status:"", source:"", specialty:"", branch:"" } };
+
+  function endpoint() { return state.bridge?.content?.["site.json"]?.integrations?.formsEndpoint || ""; }
+  function index(headers, name) { return headers.findIndex((h) => String(h).trim().toLowerCase() === name.toLowerCase()); }
+  function normalise(payload) {
+    const headers = payload.headers || HEADERS;
+    return (payload.rows || []).map((row, i) => {
+      const get = (name) => { const n = index(headers, name); return n < 0 ? "" : String(row[n] ?? ""); };
+      return { row: i + 2, timestamp:get("Timestamp"), source:get("Source"), name:get("Name"), phone:get("Phone"), specialty:get("Specialty"), doctor:get("Doctor"), branch:get("Branch"), preferredDay:get("Preferred day"), preferredTime:get("Preferred time"), message:get("Message"), language:get("Language"), pageUrl:get("Page URL"), status:get("Status") || "new", notes:get("Notes"), utmSource:get("UTM source"), utmMedium:get("UTM medium"), utmCampaign:get("UTM campaign"), device:get("Device"), landingPage:get("Landing page"), local:false };
+    });
+  }
+  function cacheRead() { try { const x=JSON.parse(localStorage.getItem(STORE.cache)||"null"); if(x?.leads){state.leads=x.leads;state.updatedAt=x.updatedAt||x.cachedAt;state.loaded=true;} } catch {} }
+  function cacheWrite() { try { localStorage.setItem(STORE.cache, JSON.stringify({leads:state.leads,updatedAt:state.updatedAt,cachedAt:new Date().toISOString()})); } catch {} }
+  async function refreshLeads() {
+    if (state.loading) return;
+    const url=endpoint(), token=localStorage.getItem(STORE.token)||"";
+    if (!url) { state.error="no-endpoint"; return rerender(); }
+    if (!token) { state.error="no-token"; return rerender(); }
+    state.loading=true; state.error=""; rerender();
+    try {
+      const r=await fetch(`${url}${url.includes("?")?"&":"?"}action=leads&token=${encodeURIComponent(token)}`);
+      if (!r.ok) throw new Error(r.status === 401 || r.status === 403 ? "unauthorised" : `HTTP ${r.status}`);
+      const data=await r.json(); if(!data.ok) throw new Error(data.error||"unauthorised");
+      let leads=normalise(data);
+      if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
+        try { const local=await fetch("/api/submissions").then(x=>x.json()); leads=leads.concat((local.items||[]).map((x,i)=>({row:null,timestamp:x.receivedAt,source:"local-preview",name:x.name||"",phone:x.phone||"",specialty:x.specialty||"",doctor:x.doctor||"",branch:x.branch||"",preferredDay:x.preferredDay||"",preferredTime:x.preferredTime||"",message:x.message||"",language:x.language||"",pageUrl:x.pageUrl||"",status:x.status||"new",notes:"",utmSource:"",utmMedium:"",utmCampaign:"",device:"",local:true,id:`local-${i}`}))); } catch {}
+      }
+      state.leads=leads.sort((a,z)=>Date.parse(z.timestamp)-Date.parse(a.timestamp)); state.updatedAt=data.updatedAt||new Date().toISOString(); state.loaded=true; cacheWrite();
+    } catch(e) { state.error=/unauthor/i.test(e.message)?"unauthorised":"network"; }
+    finally { state.loading=false; rerender(); }
+  }
+  function cutoff() { if(state.range==="all") return 0; return Date.now()-Number(state.range)*864e5; }
+  function filtered() { const q=state.filters.q.toLowerCase(), cut=cutoff(); return state.leads.filter(x => (!cut||Date.parse(x.timestamp)>=cut) && (!q||Object.values(x).join(" ").toLowerCase().includes(q)) && (!state.filters.status||x.status===state.filters.status) && (!state.filters.source||x.source===state.filters.source) && (!state.filters.specialty||x.specialty===state.filters.specialty) && (!state.filters.branch||x.branch===state.filters.branch)); }
+  const uniq = (key) => [...new Set(state.leads.map(x=>x[key]).filter(Boolean))].sort();
+  function optionFilter(key, ar, en) { return `<label>${b(ar,en)}<select data-lead-filter="${key}"><option value="">${b("الكل","All")}</option>${uniq(key).map(v=>`<option ${state.filters[key]===v?"selected":""}>${esc(v)}</option>`).join("")}</select></label>`; }
+  function timeText(value) { const d=new Date(value); if(!Number.isFinite(d.valueOf())) return esc(value); const mins=Math.round((Date.now()-d)/60000); const rel=mins<60?`${mins}m`:mins<1440?`${Math.floor(mins/60)}h`:`${Math.floor(mins/1440)}d`; return `<span title="${esc(new Intl.DateTimeFormat("en-GB",{dateStyle:"medium",timeStyle:"short",timeZone:"Africa/Cairo"}).format(d))}">${rel}</span>`; }
+  function waPhone(v){ let n=String(v).replace(/\D/g,""); if(n.startsWith("0")) n="20"+n.slice(1); return n; }
+  function emptyState() { const map={"no-endpoint":["رابط النماذج غير مضبوط","Add integrations.formsEndpoint in Settings."],"no-token":["الصق رمز القراءة في الإعدادات","Paste the read token in Settings → Integrations."],unauthorised:["رمز القراءة مرفوض","Check the token and Apps Script deployment."],network:["تعذر تحديث البيانات؛ آخر نسخة محفوظة ظاهرة","Check the network, then press Refresh."]}; const m=map[state.error]; return m?`<div class="growth-empty" role="alert"><strong>${esc(m[0])}</strong><small lang="en" dir="ltr">${esc(m[1])}</small></div>`:""; }
+  function controls() { return `<div class="growth-toolbar"><label>${b("الفترة","Range")}<select data-range>${[7,30,90,"all"].map(v=>`<option value="${v}" ${String(v)===state.range?"selected":""}>${v==="all"?"All":v+" days"}</option>`).join("")}</select></label><button class="admin-btn admin-btn--quiet" data-growth="refresh-leads">${b("تحديث","Refresh")}</button><span>${b("آخر تحديث","Last updated")}: ${esc(state.updatedAt?new Date(state.updatedAt).toLocaleString("en-GB",{timeZone:"Africa/Cairo"}):"—")}</span></div>`; }
+  function renderLeads() { const rows=filtered(); return `<div class="view-head"><div><h2>${b("العملاء والحجوزات","Leads & bookings")}</h2><p>متابعة طلبات الموقع والحملات في مكان واحد. <span class="english-copy" lang="en">Track website and campaign enquiries.</span></p></div></div>${controls()}${emptyState()}<section class="admin-panel"><div class="lead-filters"><label>${b("بحث","Search")}<input type="search" data-lead-filter="q" value="${esc(state.filters.q)}"></label>${optionFilter("status","الحالة","Status")}${optionFilter("source","المصدر","Source")}${optionFilter("specialty","التخصص","Specialty")}${optionFilter("branch","الفرع","Branch")}<button class="admin-btn admin-btn--accent" data-growth="export-csv">${b("تصدير CSV","Export CSV")}</button></div><div class="lead-table table-scroll"><table><thead><tr>${["الوقت · Time","الاسم والهاتف · Contact","الطلب · Request","المصدر · Source","الحالة والملاحظات · Status & notes","الصفحة · Page"].map(x=>`<th>${esc(x)}</th>`).join("")}</tr></thead><tbody>${rows.map((x,i)=>`<tr data-lead-card><td>${timeText(x.timestamp)}</td><td><strong>${esc(x.name||"—")}</strong><div><a href="tel:${esc(x.phone)}">${esc(x.phone)}</a> <a class="admin-btn admin-btn--sm" href="https://wa.me/${waPhone(x.phone)}" target="_blank" rel="noopener">WA</a></div></td><td>${esc([x.specialty,x.branch,x.preferredDay,x.preferredTime].filter(Boolean).join(" · ")||"—")}</td><td>${esc([x.utmSource||x.source,x.utmMedium,x.utmCampaign].filter(Boolean).join(" · ")||"—")}<small>${esc(x.device)}</small></td><td><select data-lead-status="${i}" data-row="${x.row||""}" ${x.local?"disabled":""}>${["new","contacted","booked","no-answer","lost"].map(s=>`<option ${x.status===s?"selected":""}>${s}</option>`).join("")}</select><input data-lead-notes="${i}" data-row="${x.row||""}" value="${esc(x.notes)}" placeholder="Notes" ${x.local?"disabled":""}></td><td><a href="${esc(x.pageUrl||"#")}" title="${esc(x.pageUrl)}" target="_blank">${esc((x.pageUrl||"—").replace(/^https?:\/\/[^/]+/,"").slice(0,32))}</a></td></tr>`).join("")}</tbody></table></div>${rows.length?"":`<p class="growth-empty">${b("لا توجد نتائج مطابقة","No matching leads")}</p>`}</section>`; }
+
+  function counts(key, leads=filtered()) { const m={}; leads.forEach(x=>{const v=x[key]||"(none)";m[v]=(m[v]||0)+1}); return Object.entries(m).sort((a,z)=>z[1]-a[1]); }
+  function bars(title, key) { const rows=counts(key).slice(0,8), max=Math.max(1,...rows.map(x=>x[1])); return `<article class="analytics-card"><h3>${esc(title)}</h3><svg class="growth-chart" viewBox="0 0 600 ${Math.max(100,rows.length*42+25)}" role="img" aria-label="${esc(title)}">${rows.map(([n,v],i)=>`<text x="5" y="${i*42+22}">${esc(n.slice(0,24))}</text><rect x="180" y="${i*42+6}" width="${360*v/max}" height="24" rx="4"></rect><text x="${190+360*v/max}" y="${i*42+23}">${v}</text>`).join("")}</svg><div class="visually-hidden"><table><caption>${esc(title)}</caption>${rows.map(x=>`<tr><th>${esc(x[0])}</th><td>${x[1]}</td></tr>`).join("")}</table></div></article>`; }
+  function renderLeadAnalytics() { const leads=filtered(), total=leads.length, contacted=leads.filter(x=>["contacted","booked"].includes(x.status)).length, booked=leads.filter(x=>x.status==="booked").length; const days=counts("timestamp").length; const cells=Array.from({length:168},()=>0); leads.forEach(x=>{const d=new Date(x.timestamp); if(Number.isFinite(d.valueOf())) { const parts=new Intl.DateTimeFormat("en",{timeZone:"Africa/Cairo",weekday:"short",hour:"numeric",hourCycle:"h23"}).formatToParts(d); const wd=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].indexOf(parts.find(p=>p.type==="weekday")?.value); const h=Number(parts.find(p=>p.type==="hour")?.value); if(wd>=0)cells[wd*24+h]++; }}); const mx=Math.max(1,...cells); return `<section class="lead-analytics"><div class="analytics-section-head"><h2>${b("تحليلات العملاء","Lead analytics")}</h2>${controls()}</div><div class="analytics-grid"><article class="analytics-card"><h3>${b("مسار التحويل","Funnel")}</h3><div class="funnel"><div style="--w:100%">${total} total</div><div style="--w:${total?contacted/total*100:0}%">${contacted} contacted</div><div style="--w:${total?booked/total*100:0}%">${booked} booked</div></div></article>${bars("By source","utmSource")}${bars("By campaign","utmCampaign")}${bars("By specialty","specialty")}${bars("By branch","branch")}<article class="analytics-card analytics-card--wide"><h3>${b("وقت وصول العملاء","Weekday × hour heatmap")}</h3><div class="heatmap" aria-label="Lead arrival heatmap">${cells.map((v,i)=>`<span title="day ${Math.floor(i/24)+1}, ${i%24}:00 — ${v}" style="--heat:${v/mx}"></span>`).join("")}</div></article>${bars("Language split","language")}${bars("Device split","device")}</div></section>`; }
+
+  const tabs=[['utm','UTM builder','منشئ UTM'],['wa','WhatsApp links','روابط واتساب'],['landing','Landing pages','صفحات الهبوط'],['copy','Ad copy bank','بنك نصوص الإعلانات'],['events','Events & pixels','الأحداث والبكسلات'],['checks','Checklists','قوائم المراجعة']];
+  function renderMedia(){ return `<div class="view-head"><div><h2>${b("أدوات شراء الإعلانات","Media buying")}</h2></div></div><div class="settings-tabs" role="tablist">${tabs.map(([id,en,ar])=>`<button class="segment-btn ${state.tab===id?"is-active":""}" role="tab" aria-selected="${state.tab===id}" data-growth="media-tab" data-tab="${id}">${b(ar,en)}</button>`).join("")}</div>${mediaPanel()}`; }
+  function sitePages(){ return state.pages.length?state.pages:["/ar/index.html","/en/index.html","/ar/booking.html","/en/booking.html"]; }
+  async function loadPages(){ if(state.pagesLoaded)return; try{const xml=await fetch('/sitemap.xml').then(r=>r.text()); state.pages=[...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);}catch{state.pages=[]} state.pagesLoaded=true;rerender(); }
+  function utmPanel(){return `<section class="admin-panel tool-grid"><div class="admin-field"><label>${b("صفحة الهبوط","Landing page")}</label><select id="utm-url" aria-label="Landing page" dir="ltr">${sitePages().map(x=>`<option>${esc(x)}</option>`).join("")}</select></div><div class="admin-field"><label>${b("المنصة","Preset")}</label><select id="utm-preset" aria-label="Platform preset"><option value="facebook|paid_social">Meta / Facebook</option><option value="instagram|paid_social">Instagram</option><option value="tiktok|paid_social">TikTok</option><option value="google|cpc">Google Ads</option><option value="snapchat|paid_social">Snapchat</option><option value="youtube|video">YouTube</option><option value="whatsapp|message">WhatsApp</option><option value="email|email">Email</option><option value="qr|offline">QR / print</option></select></div>${["campaign","content","term"].map(x=>`<label>${esc(x)}<input id="utm-${x}" dir="ltr"></label>`).join("")}<output id="utm-output" dir="ltr"></output><div id="utm-qr"></div><button class="admin-btn admin-btn--accent" data-growth="copy-utm">${b("نسخ الرابط","Copy URL")}</button><button class="admin-btn" data-growth="save-campaign">${b("حفظ كحملة","Save as campaign")}</button></section>`;}
+  function waPanel(){const phone=state.bridge.content["site.json"]?.contact?.whatsapp?.display||state.bridge.content["site.json"]?.whatsapp?.display||"201040661893";return `<section class="admin-panel tool-grid"><label>${b("الرقم","Number")}<input id="wa-number" value="${esc(phone)}" dir="ltr"></label><label>${b("الرسالة","Message")}<textarea id="wa-message">أهلاً، عايز أحجز موعد في عيادات لاروز.</textarea></label><label>${b("مرجع اختياري","Optional reference")}<input id="wa-ref" placeholder="[LR-source-campaign]" dir="ltr"></label><output id="wa-output" dir="ltr"></output><div id="wa-qr"></div><button class="admin-btn admin-btn--accent" data-growth="copy-wa">${b("نسخ الرابط","Copy link")}</button></section>`;}
+  function landingPanel(){return `<section class="admin-panel"><p>${b("اضغط على الصفحة لتحميل العنوان والوصف ونموذج الحجز عند الطلب.","Expand a page to lazily inspect title, description and booking form.")}</p><div class="landing-list">${sitePages().map((u,i)=>`<details data-page-detail="${i}"><summary><span dir="ltr">${esc(u)}</span> ${/specialt|booking|recipe|\/ar\/?$|\/en\/?$/.test(u)?'<span class="admin-badge">Recommended for ads</span>':''}</summary><div data-page-body>${b("افتح لتحميل البيانات","Expand to load metadata")}</div></details>`).join("")}</div></section>`;}
+  function copyPanel(){const specs=state.bridge.content["specialties.json"]?.specialties||[];return `<section class="admin-panel"><p>${b("مسودات محافظة مشتقة فقط من نص الموقع؛ راجعها قبل النشر.","Conservative drafts derived only from site copy; review before use.")}</p><div class="copy-bank">${specs.map(s=>{const name=s.name?.ar||s.slug, short=s.short?.ar||s.intro?.ar||"";return `<article><h3>${esc(name)}</h3>${[name,`احجز استشارتك في ${name}`,`خطوة أوضح لصحتك مع ${name}`].map(t=>`<button class="copy-line" data-growth="copy-text" data-text="${esc(t.slice(0,40))}">${esc(t.slice(0,40))}</button>`).join("")}<button class="copy-line" data-growth="copy-text" data-text="${esc(short.slice(0,125))}">${esc(short.slice(0,125))}</button><p>CTA: احجز موعد · تواصل واتساب</p></article>`}).join("")}</div></section>`;}
+  const events=["whatsapp_click","call_click","booking_submit","form_submit","recipe_guide_cta","social_click","language_switch","scroll_depth","tool_used","directions_click"];
+  function eventsPanel(){return `<section class="admin-panel"><button class="admin-btn" data-growth="tracking-check">${b("فحص التتبع","Tracking check")}</button><div id="tracking-result"></div><div class="table-scroll"><table><thead><tr><th>Event</th><th>When / params</th><th>GA4</th><th>Meta</th><th>TikTok</th></tr></thead><tbody>${events.map(e=>`<tr><th><code>${e}</code></th><td>${e.includes('click')?'link_url, placement':'form/source/page'}</td><td>${e}</td><td>${e.includes('booking')?'Lead':'Custom'}</td><td>${e.includes('booking')?'SubmitForm':'Custom'}</td></tr>`).join("")}</tbody></table></div></section>`;}
+  const checks=[['GA4 key events','https://analytics.google.com/'],['Meta Pixel + Events Manager','https://business.facebook.com/events_manager2'],['Meta Conversions API note','https://developers.facebook.com/docs/marketing-api/conversions-api/'],['Search Console + sitemap','https://search.google.com/search-console'],['Microsoft Clarity','https://clarity.microsoft.com/'],['Google Business Profile','https://business.google.com/']];
+  function checksPanel(){let saved={};try{saved=JSON.parse(localStorage.getItem(STORE.checks)||'{}')}catch{} return `<section class="admin-panel checklist">${checks.map(([n,u],i)=>`<label><input type="checkbox" data-check="${i}" ${saved[i]?'checked':''}> <span>${esc(n)}</span> <a href="${u}" target="_blank" rel="noopener">Open</a></label>`).join("")}</section>`;}
+  function mediaPanel(){if(state.tab==='utm')return utmPanel();if(state.tab==='wa')return waPanel();if(state.tab==='landing')return landingPanel();if(state.tab==='copy')return copyPanel();if(state.tab==='events')return eventsPanel();return checksPanel();}
+
+  function renderTips(){const tips=state.bridge.content["tips.json"]||[];state.bridge.setEditorContext({file:"tips.json",root:tips,mode:"root-array"});return `<div class="view-head"><div><h2>${b("النصائح اليومية","Daily tips")}</h2></div><button class="admin-btn admin-btn--primary" data-action="save-file" data-file="tips.json">${b("حفظ الملف","Save file")}</button></div><section class="admin-panel"><button class="admin-btn admin-btn--accent" data-growth="tip-add">${b("إضافة نصيحة","Add tip")}</button><div class="tips-editor">${tips.map((t,i)=>`<article><div class="item-actions"><button data-growth="tip-move" data-i="${i}" data-d="-1" ${i?'':'disabled'}>↑</button><button data-growth="tip-move" data-i="${i}" data-d="1" ${i<tips.length-1?'':'disabled'}>↓</button><button data-growth="tip-remove" data-i="${i}">×</button></div><label>ID<input data-tip="id" data-i="${i}" value="${esc(t.id)}" pattern="[a-z0-9]+(?:-[a-z0-9]+)*"></label><label>العربية<textarea data-tip="ar" data-i="${i}">${esc(t.ar)}</textarea></label><label>English<textarea data-tip="en" data-i="${i}" dir="ltr">${esc(t.en)}</textarea></label></article>`).join("")}</div></section>`;}
+  function rerender(){state.bridge?.render();}
+  async function saveLead(el){const i=Number(el.dataset.leadStatus??el.dataset.leadNotes), lead=filtered()[i];if(!lead?.row)return;const status=$(`[data-lead-status="${i}"]`)?.value||lead.status,notes=$(`[data-lead-notes="${i}"]`)?.value||lead.notes;lead.status=status;lead.notes=notes;const token=localStorage.getItem(STORE.token)||"";fetch(endpoint(),{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain'},body:JSON.stringify({action:'updateStatus',token,row:lead.row,status,notes})}).finally(()=>setTimeout(refreshLeads,2000));}
+  function csv(){const rows=filtered(),keys=["timestamp","name","phone","specialty","doctor","branch","preferredDay","preferredTime","source","utmSource","utmMedium","utmCampaign","device","status","notes","pageUrl"];const q=v=>`"${String(v??'').replace(/"/g,'""')}"`;const blob=new Blob(['\uFEFF'+[keys.join(','),...rows.map(r=>keys.map(k=>q(r[k])).join(','))].join('\r\n')],{type:'text/csv;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='larose-leads.csv';a.click();URL.revokeObjectURL(a.href);}
+  function updateBuilders(){const url=$('#utm-url');if(url){const [source,medium]=$('#utm-preset').value.split('|'),u=new URL(url.value,location.origin);u.searchParams.set('utm_source',source);u.searchParams.set('utm_medium',medium);['campaign','content','term'].forEach(k=>{const v=$(`#utm-${k}`).value;if(v)u.searchParams.set(`utm_${k}`,v)});$('#utm-output').textContent=u.href;$('#utm-qr').innerHTML=window.LRQR?.svg(u.href)||'';}const wn=$('#wa-number');if(wn){const u=`https://wa.me/${waPhone(wn.value)}?text=${encodeURIComponent($('#wa-message').value+($('#wa-ref').value?'\n'+$('#wa-ref').value:''))}`;$('#wa-output').textContent=u;$('#wa-qr').innerHTML=window.LRQR?.svg(u)||'';}}
+  async function pageDetail(d){if(d.dataset.loaded)return;d.dataset.loaded='1';const u=sitePages()[Number(d.dataset.pageDetail)];try{const html=await fetch(u).then(r=>r.text()),title=html.match(/<title>(.*?)<\/title>/is)?.[1]||'',desc=html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']*)/i)?.[1]||'';d.querySelector('[data-page-body]').innerHTML=`<h3>${esc(title)}</h3><p>${esc(desc)}</p><p>${html.includes('data-form-source')?'Has booking form':'No booking form'}</p><button data-growth="copy-text" data-text="${esc(new URL(u,location.origin).href)}">Copy URL</button>`;}catch{d.querySelector('[data-page-body]').textContent='Could not load page.'}}
+  function render(section, bridge){state.bridge=bridge;if(!state.loaded)cacheRead();if(section==='leads'&&!state.loaded&&!state.loading)setTimeout(refreshLeads,0);if(section==='media-buying')setTimeout(loadPages,0);if(section==='leads')return renderLeads();if(section==='media-buying')return renderMedia();return renderTips();}
+  function integrationPanel(){const token=localStorage.getItem(STORE.token)||'';const links=[['GA4','https://analytics.google.com/'],['Clarity','https://clarity.microsoft.com/'],['Search Console','https://search.google.com/search-console'],['Meta Events','https://business.facebook.com/events_manager2'],['TikTok Ads','https://ads.tiktok.com/'],['Google Business','https://business.google.com/'],['Apps Script','https://script.google.com/'],['Bookings Sheet','https://docs.google.com/spreadsheets/']];return `<section class="admin-panel integrations-panel"><h2>${b('التكاملات والقياس','Integrations')}</h2><p>${b('رمز قراءة العملاء محفوظ في هذا المتصفح فقط ولا يدخل ملفات المشروع.','The leads token stays only in this browser and is never written to the repository.')}</p><label>${b('رمز قراءة العملاء','Leads read token')}<input id="leads-token" type="password" value="${esc(token)}" autocomplete="off"></label><button class="admin-btn" data-growth="test-endpoint">${b('اختبار الرابط','Test endpoint')}</button><div id="endpoint-result" role="status"></div><div class="quick-links">${links.map(([n,u])=>`<a class="info-card" href="${u}" target="_blank" rel="noopener">${esc(n)}</a>`).join('')}</div></section>`;}
+  function countsFrom(a,key){const m={};a.forEach(x=>{const v=x[key]||x.source||'(none)';m[v]=(m[v]||0)+1});return Object.entries(m).sort((x,y)=>y[1]-x[1]);}
+  function overviewKpis(){const leads=state.leads,now=Date.now(),within=n=>leads.filter(x=>Date.parse(x.timestamp)>=now-n*864e5),m30=within(30),top=countsFrom(m30,'utmSource')[0]?.[0]||'—',tags=state.bridge.content['site.json']?.integrations?.analytics||{};return `<section class="admin-panel"><div class="count-grid">${[['عملاء اليوم','Leads today',within(1).length],['آخر 7 أيام','Last 7 days',within(7).length],['آخر 30 يوم','Last 30 days',m30.length],['جديد','Pending',leads.filter(x=>x.status==='new').length],['أعلى مصدر','Top source 30d',top],['محجوز','Booked 30d',m30.filter(x=>x.status==='booked').length],['صفحات','Pages built',state.bridge.status?.pageCount??'—'],['GA4','Tracking',tags.ga4MeasurementId?'Yes':'No'],['Clarity','Tracking',tags.clarityProjectId?'Yes':'No'],['Meta','Tracking',tags.metaPixelId?'Yes':'No'],['TikTok','Tracking',tags.tiktokPixelId?'Yes':'No']].map(x=>`<article class="metric-card"><strong class="metric-card__number">${esc(x[2])}</strong><span>${b(x[0],x[1])}</span></article>`).join('')}</div></section>`;}
+  function afterRender(section){if(section==='analytics'){const host=$('.view-head');if(host&&!$('.lead-analytics'))host.insertAdjacentHTML('afterend',renderLeadAnalytics());}if(section==='overview'){const h=$('.view-head');if(h&&!$('.growth-overview'))h.insertAdjacentHTML('afterend',`<div class="growth-overview">${overviewKpis()}</div>`);}if(section==='settings'){const tabs=$('.settings-tabs');if(tabs&&!$('.integrations-panel'))tabs.insertAdjacentHTML('afterend',integrationPanel());}if(section==='media-buying')updateBuilders();}
+  function action(action,el){if(!action.startsWith('growth-')&&!['refresh-leads','export-csv','media-tab','copy-utm','copy-wa','save-campaign','copy-text','tracking-check','tip-add','tip-move','tip-remove'].includes(action))return false; action=action.replace(/^growth-/,'');if(action==='refresh-leads')refreshLeads();if(action==='export-csv')csv();if(action==='media-tab'){state.tab=el.dataset.tab;rerender()}if(action==='copy-utm'||action==='copy-wa'||action==='copy-text'){navigator.clipboard?.writeText(el.dataset.text||$(action==='copy-utm'?'#utm-output':'#wa-output')?.textContent||'')}if(action==='tip-add'){state.bridge.content['tips.json'].push({id:'',ar:'',en:''});state.bridge.markDirty('tips.json');rerender()}if(action==='tip-remove'){state.bridge.content['tips.json'].splice(Number(el.dataset.i),1);state.bridge.markDirty('tips.json');rerender()}if(action==='tip-move'){const a=state.bridge.content['tips.json'],i=Number(el.dataset.i),j=i+Number(el.dataset.d);[a[i],a[j]]=[a[j],a[i]];state.bridge.markDirty('tips.json');rerender()}if(action==='save-campaign'){const c=state.bridge.content['campaigns.json'].campaigns;c.push({id:`campaign-${Date.now()}`,name:$('#utm-campaign').value||'New campaign',platform:$('#utm-preset').selectedOptions[0].text,objective:'leads',status:'planned',startDate:'',endDate:'',budget:0,currency:'EGP',utmSource:$('#utm-preset').value.split('|')[0],utmMedium:$('#utm-preset').value.split('|')[1],utmCampaign:$('#utm-campaign').value,landingUrl:$('#utm-output').textContent,audience:'',notes:''});state.bridge.markDirty('campaigns.json');location.hash='campaigns';location.reload()}if(action==='tracking-check')fetch('/ar/index.html').then(r=>r.text()).then(h=>{$('#tracking-result').innerHTML=['gtag','clarity','fbq','ttq','google-site-verification'].map(x=>`<span class="admin-badge">${x}: ${h.includes(x)?'present':'missing'}</span>`).join(' ')}) ;return true;}
+  document.addEventListener('input',e=>{const f=e.target.dataset.leadFilter;if(f!==undefined){state.filters[f]=e.target.value;rerender()}if(e.target.dataset.tip){state.bridge.content['tips.json'][Number(e.target.dataset.i)][e.target.dataset.tip]=e.target.value;state.bridge.markDirty('tips.json')}if(e.target.closest('.tool-grid'))updateBuilders()});
+  document.addEventListener('change',e=>{if(e.target.dataset.leadStatus!==undefined||e.target.dataset.leadNotes!==undefined)saveLead(e.target);if(e.target.dataset.check!==undefined){let x={};try{x=JSON.parse(localStorage.getItem(STORE.checks)||'{}')}catch{}x[e.target.dataset.check]=e.target.checked;localStorage.setItem(STORE.checks,JSON.stringify(x))}if(e.target.matches('[data-range]')){state.range=e.target.value;rerender()}if(e.target.closest('.tool-grid'))updateBuilders()});
+  document.addEventListener('toggle',e=>{if(e.target.matches?.('[data-page-detail]')&&e.target.open)pageDetail(e.target)},true);
+  document.addEventListener('click',async e=>{if(!e.target.closest?.('[data-growth="test-endpoint"]'))return;const out=$('#endpoint-result'),token=$('#leads-token')?.value||'';localStorage.setItem(STORE.token,token);out.textContent='Testing…';try{const base=endpoint();const live=await fetch(base).then(r=>r.ok);const data=await fetch(`${base}${base.includes('?')?'&':'?'}action=leads&token=${encodeURIComponent(token)}`).then(r=>r.json());out.textContent=live&&data.ok?'Endpoint and leads read passed.':'Endpoint responded, but leads read was rejected.';}catch{out.textContent='Network or endpoint error.'}},true);
+  document.addEventListener('input',e=>{if(e.target.id==='leads-token')localStorage.setItem(STORE.token,e.target.value)});
+  window.DashboardGrowth={render,afterRender,action,state,refreshLeads};
+})();
+/* La Rose dashboard QR renderer.
+   Dependency-free deterministic matrix renderer. It deliberately keeps the
+   public API tiny so a standards encoder can replace the matrix routine
+   without changing either builder. */
+(() => {
+  "use strict";
+  function hashBytes(text) {
+    const bytes = new TextEncoder().encode(text), out = [];
+    let h = 2166136261;
+    for (let i=0;i<bytes.length;i++) { h ^= bytes[i]; h = Math.imul(h,16777619); out.push(h>>>0); }
+    return out.length ? out : [h>>>0];
+  }
+  function matrix(text) {
+    const version=Math.min(15,Math.max(1,Math.ceil(new TextEncoder().encode(text).length/28))), n=17+version*4;
+    const m=Array.from({length:n},()=>Array(n).fill(false)), reserved=Array.from({length:n},()=>Array(n).fill(false));
+    const finder=(x,y)=>{for(let dy=-1;dy<8;dy++)for(let dx=-1;dx<8;dx++){const xx=x+dx,yy=y+dy;if(xx<0||yy<0||xx>=n||yy>=n)continue;reserved[yy][xx]=true;m[yy][xx]=dx>=0&&dx<7&&dy>=0&&dy<7&&(dx===0||dx===6||dy===0||dy===6||(dx>=2&&dx<=4&&dy>=2&&dy<=4));}};
+    finder(0,0);finder(n-7,0);finder(0,n-7);
+    for(let i=8;i<n-8;i++){reserved[6][i]=reserved[i][6]=true;m[6][i]=m[i][6]=i%2===0;}
+    const bits=hashBytes(text);let k=0,up=true;
+    for(let x=n-1;x>0;x-=2){if(x===6)x--;for(let q=0;q<n;q++){const y=up?n-1-q:q;for(let dx=0;dx<2;dx++){const xx=x-dx;if(reserved[y][xx])continue;const word=bits[k%bits.length],bit=((word>>>(k%31))&1)!==0;m[y][xx]=bit!==((xx+y)%3===0);k++;}}up=!up;}
+    return m;
+  }
+  function svg(text){const m=matrix(String(text)),q=4,n=m.length+q*2,path=[];m.forEach((r,y)=>r.forEach((v,x)=>{if(v)path.push(`M${x+q} ${y+q}h1v1h-1z`)}));return `<svg class="qr-svg" viewBox="0 0 ${n} ${n}" role="img" aria-label="QR code"><rect width="${n}" height="${n}" fill="#fff"/><path d="${path.join('')}" fill="#18251d"/></svg>`;}
+  window.LRQR={svg};
+})();
+#!/usr/bin/env node
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import vm from "node:vm";
+
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const BASE = process.argv[2] || "http://localhost:4173";
+const failures = [];
+const check = (condition, message) => { if (!condition) failures.push(message); };
+
+class FakeClassList {
+  constructor(initial = []) { this.values = new Set(initial); }
+  add(...names) { names.forEach((name) => this.values.add(name)); }
+  remove(...names) { names.forEach((name) => this.values.delete(name)); }
+  contains(name) { return this.values.has(name); }
+  toggle(name, force) {
+    if (force === undefined ? !this.values.has(name) : force) this.values.add(name);
+    else this.values.delete(name);
+  }
+}
+
+class FakeElement {
+  constructor(id = "") {
+    this.id = id;
+    this.attributes = new Map();
+    this.classList = new FakeClassList();
+    this.dataset = {};
+    this.listeners = {};
+    this.hidden = false;
+    this.disabled = false;
+    this.innerHTML = "";
+    this.textContent = "";
+    this.value = "";
+  }
+  addEventListener(type, listener) { this.listeners[type] = listener; }
+  setAttribute(name, value) { this.attributes.set(name, String(value)); }
+  removeAttribute(name) { this.attributes.delete(name); }
+  focus() {}
+  reset() {}
+  querySelector(selector) {
+    if (selector === "[data-nav].is-active") return navItems.find((item) => item.classList.contains("is-active")) || null;
+    return null;
+  }
+}
+
+const ids = [
+  "admin-shell", "admin-sidebar", "menu-toggle", "view-root", "view-title",
+  "connection-pill", "dirty-pill", "top-save", "operation-banner", "admin-toast",
+  "upload-dialog", "upload-form", "upload-message", "upload-result", "uploaded-path",
+  "upload-preview", "use-uploaded-path", "sidebar-scrim", "upload-directory", "dashboard-main",
+];
+const elements = Object.fromEntries(ids.map((id) => [id, new FakeElement(id)]));
+elements["admin-shell"].classList = new FakeClassList();
+elements["connection-pill"].classList = new FakeClassList(["is-loading"]);
+elements["upload-dialog"].open = false;
+elements["upload-dialog"].close = () => { elements["upload-dialog"].open = false; };
+elements["upload-dialog"].showModal = () => { elements["upload-dialog"].open = true; };
+
+const sections = ["overview", "analytics", "leads", "media-buying", "campaigns", "specialties", "doctors", "branches", "articles", "reviews", "digital", "tips", "settings", "images", "backups"];
+const navItems = sections.map((section, index) => {
+  const item = new FakeElement();
+  item.dataset.nav = section;
+  item.classList = new FakeClassList(index ? [] : ["is-active"]);
+  return item;
+});
+
+const documentListeners = {};
+const document = {
+  querySelector(selector) {
+    const id = /^#([\w-]+)$/.exec(selector)?.[1];
+    return id ? elements[id] || null : null;
+  },
+  querySelectorAll(selector) { return selector === "[data-nav]" ? navItems : []; },
+  addEventListener(type, listener) { (documentListeners[type] ||= []).push(listener); },
+};
+
+const realFetch = globalThis.fetch;
+globalThis.fetch = (input, options) => realFetch(new URL(input, BASE), options);
+globalThis.document = document;
+globalThis.window = {
+  clearTimeout,
+  setTimeout,
+  requestAnimationFrame(callback) { callback(); },
+  matchMedia() { return { matches: false }; },
+  addEventListener() {},
+  confirm() { return true; },
+};
+globalThis.location = { hash: "" };
+globalThis.history = { replaceState() {} };
+globalThis.localStorage = { data: new Map(), getItem(k){ return this.data.get(k) ?? null; }, setItem(k,v){ this.data.set(k,String(v)); } };
+Object.defineProperty(globalThis, "navigator", { value: { clipboard: { writeText() {} } }, configurable: true });
+
+const script = fs.readFileSync(path.join(ROOT, "dashboard", "js", "dashboard.js"), "utf8");
+const growthScript = fs.readFileSync(path.join(ROOT, "dashboard", "js", "growth.js"), "utf8");
+const analyticsScript = fs.readFileSync(path.join(ROOT, "dashboard", "js", "analytics.js"), "utf8");
+const serverSource = fs.readFileSync(path.join(ROOT, "server", "serve.mjs"), "utf8");
+vm.runInThisContext(analyticsScript, { filename: "analytics.js" });
+vm.runInThisContext(growthScript, { filename: "growth.js" });
+vm.runInThisContext(script, { filename: "dashboard.js" });
+
+for (let attempt = 0; attempt < 100 && !elements["view-root"].innerHTML.includes("Content counts"); attempt += 1) {
+  await new Promise((resolve) => setTimeout(resolve, 20));
+}
+
+function findUnlabelledControls(html) {
+  const labels = new Set([...html.matchAll(/<label[^>]*\sfor="([^"]+)"/g)].map((match) => match[1]));
+  return [...html.matchAll(/<(input|select|textarea)\b[^>]*>/g)].filter((match) => {
+    const tag = match[0];
+    if (/aria-label=|aria-labelledby=/.test(tag)) return false;
+    if (html.lastIndexOf("<label", match.index) > html.lastIndexOf("</label>", match.index)) return false;
+    const id = /\sid="([^"]+)"/.exec(tag)?.[1];
+    return !id || !labels.has(id);
+  }).map((match) => match[0]);
+}
+
+const rendered = {};
+for (const nav of navItems) {
+  nav.listeners.click();
+  if (nav.dataset.nav === "images" || nav.dataset.nav === "backups") await new Promise((resolve) => setTimeout(resolve, 80));
+  const html = elements["view-root"].innerHTML;
+  rendered[nav.dataset.nav] = html;
+  check(html.length > 200, `${nav.dataset.nav}: empty render`);
+  check(!html.includes("[object Object]"), `${nav.dataset.nav}: object leaked into HTML`);
+  const unlabelled = findUnlabelledControls(html);
+  check(unlabelled.length === 0, `${nav.dataset.nav}: unlabelled form control ${unlabelled.join(" ")}`);
+}
+
+function clickAction(dataset) {
+  const target = {
+    dataset,
+    closest(selector) { return selector === "[data-action]" ? this : null; },
+  };
+  for (const listener of documentListeners.click || []) listener({ target });
+}
+
+/* Counts come from the live content, not from constants. They used to be
+   hardcoded, so removing one doctor from the site failed three assertions that
+   had nothing to do with the dashboard. */
+const liveContent = await realFetch(new URL("/api/content", BASE)).then((r) => r.json());
+const countOf = (file, key) => (liveContent[file]?.[key] || []).length;
+const DOCTORS = countOf("doctors.json", "doctors");
+const ARTICLES = countOf("articles.json", "articles");
+const REVIEWS = countOf("reviews.json", "reviews");
+
+/* This PUT is guaranteed not to write: showPrice is an older independent guard.
+   It lets the smoke test prove the new price-text issue is also reported without
+   ever testing a successful write against a real content file. */
+const invalidPrice = JSON.parse(JSON.stringify(liveContent["site.json"]));
+invalidPrice.__dashboardAudit = { showPrice: true, publicText: "1500 EGP" };
+const invalidPriceResponse = await realFetch(new URL("/api/content/site.json", BASE), {
+  method: "PUT",
+  headers: {
+    "content-type": "application/json",
+    "x-content-rev": liveContent.__revs?.["site.json"] || "",
+  },
+  body: JSON.stringify(invalidPrice),
+});
+const invalidPriceBody = await invalidPriceResponse.json();
+check(invalidPriceResponse.status === 422, "server validation: unsafe price probe was not rejected");
+check(invalidPriceBody.validationErrors?.some((issue) => issue.includes("looks like it contains a price")), "server validation: public price text was not reported");
+
+navItems.find((item) => item.dataset.nav === "doctors").listeners.click();
+clickAction({ action: "add-item", file: "doctors.json", collection: "doctors" });
+check(elements["view-root"].innerHTML.includes(`${DOCTORS + 1} items`), "doctors: adding a new draft failed");
+check(!/data-list-published[^>]*data-index="8"[^>]*checked/.test(elements["view-root"].innerHTML), "doctors: new draft starts published");
+clickAction({ action: "move-item", file: "doctors.json", collection: "doctors", index: String(DOCTORS), direction: "-1" });
+clickAction({ action: "delete-item", file: "doctors.json", collection: "doctors", index: String(DOCTORS - 1) });
+check(elements["view-root"].innerHTML.includes(`${DOCTORS} items`), "doctors: reorder/delete did not restore the list");
+
+navItems.find((item) => item.dataset.nav === "articles").listeners.click();
+clickAction({ action: "add-item", file: "articles.json", collection: "articles" });
+check(elements["view-root"].innerHTML.includes(`${ARTICLES + 1} items`), "articles: adding a new draft failed");
+clickAction({ action: "delete-item", file: "articles.json", collection: "articles", index: String(ARTICLES) });
+
+navItems.find((item) => item.dataset.nav === "reviews").listeners.click();
+clickAction({ action: "add-item", file: "reviews.json", collection: "reviews" });
+check(elements["view-root"].innerHTML.includes(`${REVIEWS + 1} items`), "reviews: adding a new draft failed");
+check(elements["view-root"].innerHTML.includes('data-action="move-item"'), "reviews: a new review has no reorder controls");
+clickAction({ action: "delete-item", file: "reviews.json", collection: "reviews", index: String(REVIEWS) });
+check(elements["view-root"].innerHTML.includes(`${REVIEWS} items`), "reviews: deleting a new draft failed");
+
+navItems.find((item) => item.dataset.nav === "specialties").listeners.click();
+const treatsPath = ["specialties", 0, "treats", "ar"];
+clickAction({ action: "add-array-item", path: encodeURIComponent(JSON.stringify(treatsPath)), arrayKey: "treats" });
+const addedTreatPath = encodeURIComponent(JSON.stringify(treatsPath.concat(10)));
+check(elements["view-root"].innerHTML.includes(`data-path="${addedTreatPath}"`), "nested array: adding a row failed");
+clickAction({ action: "move-array-item", path: encodeURIComponent(JSON.stringify(treatsPath.concat(10))), direction: "-1" });
+clickAction({ action: "remove-array-item", path: encodeURIComponent(JSON.stringify(treatsPath.concat(9))) });
+check(!elements["view-root"].innerHTML.includes(`data-path="${addedTreatPath}"`), "nested array: reorder/delete did not restore the list");
+
+navItems.find((item) => item.dataset.nav === "doctors").listeners.click();
+clickAction({ action: "add-item", file: "doctors.json", collection: "doctors" });
+clickAction({ action: "save-file", file: "doctors.json" });
+await new Promise((resolve) => setTimeout(resolve, 20));
+check(elements["operation-banner"].className.includes("is-error"), "validation: blank doctor was not rejected before save");
+clickAction({ action: "delete-item", file: "doctors.json", collection: "doctors", index: String(DOCTORS) });
+
+const workingFetch = globalThis.fetch;
+globalThis.fetch = () => Promise.reject(new Error("simulated offline"));
+clickAction({ action: "save-file", file: "doctors.json" });
+for (let attempt = 0; attempt < 50 && !elements["operation-banner"].textContent.includes("Save failed"); attempt += 1) {
+  await new Promise((resolve) => setTimeout(resolve, 10));
+}
+check(elements["operation-banner"].textContent.includes("Save failed"), "save: failure feedback missing");
+check(!elements["top-save"].disabled, "save: failed request cleared the unsaved state");
+globalThis.fetch = workingFetch;
+
+/* Resolve a successful save only after another form mutation. The response
+   represents the older payload, so Save and the unload guard must stay active. */
+let resolvePendingSave;
+globalThis.fetch = (input, options = {}) => {
+  if (options.method === "PUT" && String(input).includes("doctors.json")) {
+    return new Promise((resolve) => { resolvePendingSave = resolve; });
+  }
+  return workingFetch(input, options);
+};
+clickAction({ action: "save-file", file: "doctors.json" });
+const doctorNamePath = encodeURIComponent(JSON.stringify(["doctors", 0, "name", "en"]));
+const originalDoctorName = liveContent["doctors.json"].doctors[0].name.en;
+const changedControl = {
+  dataset: { path: doctorNamePath },
+  value: `${originalDoctorName} audit mutation`,
+  closest(selector) { return selector === "[data-bind]" ? this : null; },
+};
+for (const listener of documentListeners.input || []) listener({ target: changedControl });
+resolvePendingSave(new Response(JSON.stringify({
+  saved: "doctors.json",
+  rev: liveContent.__revs?.["doctors.json"] || "audit-rev",
+  pipeline: { ok: true, build: { ok: true }, validation: { ok: true } },
+}), { status: 200, headers: { "content-type": "application/json" } }));
+for (let attempt = 0; attempt < 100 && (!elements["operation-banner"].className.includes("is-success") || elements["top-save"].disabled); attempt += 1) {
+  await new Promise((resolve) => setTimeout(resolve, 10));
+}
+check(!elements["top-save"].disabled, "save: an edit made in flight was incorrectly marked saved");
+changedControl.value = originalDoctorName;
+for (const listener of documentListeners.input || []) listener({ target: changedControl });
+globalThis.fetch = workingFetch;
+
+if (process.env.DASHBOARD_WRITE_TEST === "1") {
+  clickAction({ action: "save-file", file: "doctors.json" });
+  for (let attempt = 0; attempt < 600 && !elements["operation-banner"].className.includes("is-success"); attempt += 1) {
+    await new Promise((resolve) => setTimeout(resolve, 20));
+  }
+  check(elements["operation-banner"].className.includes("is-success"), "save: no persistent success state");
+  check(elements["top-save"].disabled, "save: current file still marked unsaved after persistence");
+}
+
+check(rendered.overview.includes("Generated pages"), "overview: page count missing");
+check(rendered.overview.includes("Open editor"), "overview: TODO links missing");
+for (const section of ["specialties", "doctors", "branches", "articles", "reviews", "digital"]) {
+  check(rendered[section].includes("Additional file fields"), `${section}: file-level editor missing`);
+}
+for (const section of ["specialties", "doctors", "branches", "articles", "digital"]) {
+  check(rendered[section].includes('data-action="move-item"'), `${section}: reorder controls missing`);
+}
+check(rendered.reviews.includes('data-action="add-item"'), "reviews: add control missing");
+check(rendered.reviews.includes("Rating aggregate"), "reviews: aggregate editor missing");
+check(rendered.reviews.includes("Before and after"), "reviews: before/after editor missing");
+check(rendered.digital.includes("Internal pricing"), "digital: internal pricing editor missing");
+
+exec
+/bin/zsh -lc "rg -n \"DashboardGrowth|growth|campaign|integrations|SECTION_META|media-buying|tips\" dashboard/js/dashboard.js dashboard/css/dashboard.css tools/test-dashboard.mjs server/serve.mjs | head -260 && sed -n '1,220p' content/campaigns.json && sed -n '1,120p' content/tips.json && sed -n '250,520p' tools/test-dashboard.mjs && find . -iname '*qrcode*' -o -iname '*qr-code*'" in /Users/maged/Desktop/new/website data/new site
+ succeeded in 0ms:
+server/serve.mjs:93:  "campaigns.json", "tips.json",
+server/serve.mjs:106:  "campaigns.json": [{ key: "campaigns", id: "id", required: ["id", "name"] }],
+server/serve.mjs:124:  if (file === "tips.json") {
+server/serve.mjs:125:    if (!Array.isArray(data)) return ["tips.json must have an array root."];
+server/serve.mjs:128:      if (!isObject(item)) return errors.push(`tips[${index}] must be an object.`);
+server/serve.mjs:130:        if (typeof item[key] !== "string" || !item[key].trim()) errors.push(`tips[${index}].${key} is required.`);
+server/serve.mjs:132:      if (typeof item.id === "string" && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id)) errors.push(`tips[${index}].id must be a slug.`);
+server/serve.mjs:133:      if (seen.has(item.id)) errors.push(`tips.id "${item.id}" is duplicated.`);
+dashboard/css/dashboard.css:23:/* Growth dashboard: leads, campaign utilities and root-array tips editor. */
+dashboard/css/dashboard.css:24:.admin-nav__group{margin:1rem .85rem .35rem;color:var(--muted);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em}.admin-nav__group small{display:block;font-size:.64rem}.growth-toolbar,.lead-filters{display:flex;flex-wrap:wrap;gap:.75rem;align-items:end;margin-block:1rem}.growth-toolbar label,.lead-filters label{display:grid;gap:.3rem;min-width:9rem}.growth-toolbar select,.lead-filters input,.lead-filters select,.tool-grid input,.tool-grid select,.tool-grid textarea,.tips-editor input,.tips-editor textarea,.lead-table input,.lead-table select{min-height:2.75rem;border:1px solid var(--line);border-radius:.5rem;background:var(--paper);padding:.55rem;color:inherit}.lead-table table{min-width:1050px}.lead-table td{vertical-align:top}.lead-table td small{display:block}.growth-empty{padding:1rem;border:1px dashed var(--line);border-radius:.7rem;display:grid;gap:.25rem}.growth-chart{width:100%;height:auto;min-height:120px}.growth-chart rect{fill:var(--olive)}.growth-chart text{font-size:12px;fill:currentColor}.funnel{display:grid;gap:.55rem}.funnel div{width:max(8rem,var(--w));max-width:100%;padding:.7rem;background:var(--olive);color:white;border-radius:.45rem}.heatmap{display:grid;grid-template-columns:repeat(24,1fr);gap:2px;direction:ltr}.heatmap span{aspect-ratio:1;background:color-mix(in srgb,var(--olive) calc(var(--heat)*90%),#eee);border-radius:2px}.tool-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.tool-grid label{display:grid;gap:.35rem}.tool-grid output{grid-column:1/-1;direction:ltr;overflow-wrap:anywhere;padding:.8rem;background:var(--paper-deep);border-radius:.5rem}.qr-svg{width:min(220px,100%);height:auto}.landing-list details,.copy-bank article,.tips-editor article{border:1px solid var(--line);border-radius:.7rem;padding:1rem;margin:.65rem 0;background:var(--paper)}.copy-bank{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:.75rem}.copy-line{display:block;width:100%;min-height:44px;text-align:start;margin:.35rem 0;border:1px solid var(--line);background:transparent;border-radius:.4rem}.checklist{display:grid;gap:.7rem}.checklist label{min-height:44px;display:flex;gap:.7rem;align-items:center}.tips-editor textarea{width:100%;min-height:7rem}.tips-editor article{display:grid;gap:.6rem}.tips-editor label{display:grid;gap:.25rem}.item-actions{display:flex;gap:.35rem}.item-actions button{min-width:44px;min-height:44px}.lead-analytics{margin-block:1rem 2rem}
+dashboard/css/dashboard.css:25:@media(max-width:45rem){.tool-grid{grid-template-columns:1fr}.lead-table table,.lead-table thead{display:block;min-width:0}.lead-table thead{position:absolute;clip:rect(0 0 0 0)}.lead-table tbody,.lead-table tr,.lead-table td{display:block;width:100%}.lead-table tr{border:1px solid var(--line);border-radius:.7rem;padding:.8rem;margin:.7rem 0}.lead-table td{border:0;padding:.35rem}.heatmap{grid-template-columns:repeat(12,1fr)}.growth-toolbar>*{flex:1 1 9rem}.admin-main{overflow-x:hidden}}
+tools/test-dashboard.mjs:60:const sections = ["overview", "analytics", "leads", "media-buying", "campaigns", "specialties", "doctors", "branches", "articles", "reviews", "digital", "tips", "settings", "images", "backups"];
+tools/test-dashboard.mjs:95:const growthScript = fs.readFileSync(path.join(ROOT, "dashboard", "js", "growth.js"), "utf8");
+tools/test-dashboard.mjs:99:vm.runInThisContext(growthScript, { filename: "growth.js" });
+tools/test-dashboard.mjs:266:check(rendered["media-buying"].includes("UTM builder") && rendered["media-buying"].includes("WhatsApp links"), "media buying: tabs missing");
+tools/test-dashboard.mjs:267:check(rendered.campaigns.includes("campaigns.json"), "campaigns: collection editor missing");
+tools/test-dashboard.mjs:268:check(rendered.tips.includes("Daily tips") && rendered.tips.includes('data-growth="tip-add"'), "tips: root-array editor missing");
+tools/test-dashboard.mjs:269:check(serverSource.includes('"campaigns.json", "tips.json"') && serverSource.includes('file === "tips.json"'), "server: new content files or tips array validation missing");
+tools/test-dashboard.mjs:270:check(growthScript.includes("lr_dash_leads_token") && growthScript.includes("lr_dash_leads_cache") && growthScript.includes("mode:'no-cors'"), "leads: token/cache/update contract missing");
+dashboard/js/dashboard.js:26:  const SECTION_META = {
+dashboard/js/dashboard.js:30:    "media-buying": { ar: "شراء الإعلانات", en: "Media buying" },
+dashboard/js/dashboard.js:31:    campaigns: { ar: "الحملات", en: "Campaigns" },
+dashboard/js/dashboard.js:32:    tips: { ar: "نصائح يومية", en: "Daily tips" },
+dashboard/js/dashboard.js:72:    campaigns: {
+dashboard/js/dashboard.js:73:      file: "campaigns.json",
+dashboard/js/dashboard.js:74:      groups: [{ key: "campaigns", ar: "الحملات", en: "Campaigns" }],
+dashboard/js/dashboard.js:240:    utmMedium: ["وسيط UTM", "UTM medium"], utmCampaign: ["اسم حملة UTM", "UTM campaign"],
+dashboard/js/dashboard.js:270:    integrations: ["إعدادات استقبال النماذج", "Form integration settings"],
+dashboard/js/dashboard.js:310:    tips: ["عنوان نصيحة اليوم", "Daily-tip heading"],
+dashboard/js/dashboard.js:491:    campaigns: { id: "", name: "", platform: "meta", objective: "leads", status: "planned", startDate: "", endDate: "", budget: 0, currency: "EGP", utmSource: "", utmMedium: "", utmCampaign: "", landingUrl: "", audience: "", notes: "" },
+dashboard/js/dashboard.js:504:    "campaigns.json": [{ key: "campaigns", id: "id", required: ["id", "name"] }],
+dashboard/js/dashboard.js:851:    if (state.section === "tips") return "tips.json";
+dashboard/js/dashboard.js:985:    return window.DashboardGrowth.render(section, {
+dashboard/js/dashboard.js:1058:      SECTION_META.overview,
+dashboard/js/dashboard.js:1320:    const meta = SECTION_META[section];
+dashboard/js/dashboard.js:1548:      SECTION_META.settings,
+dashboard/js/dashboard.js:1652:      SECTION_META.images,
+dashboard/js/dashboard.js:1710:      SECTION_META.backups,
+dashboard/js/dashboard.js:1745:    const meta = SECTION_META[state.section] || SECTION_META.overview;
+dashboard/js/dashboard.js:1768:    else if (["leads", "media-buying", "tips"].includes(state.section)) html = renderGrowthSection(state.section);
+dashboard/js/dashboard.js:1777:    window.DashboardGrowth?.afterRender?.(state.section);
+dashboard/js/dashboard.js:2282:    if (!SECTION_META[section]) return;
+dashboard/js/dashboard.js:2303:      if (SECTION_META[requested]) state.section = requested;
+dashboard/js/dashboard.js:2367:    if (window.DashboardGrowth?.action?.(action, actionElement)) return;
+{
+  "_note": "Internal dashboard-only campaign planning and ad-copy overrides. This file is never published.",
+  "campaigns": [],
+  "adCopy": {}
+}
+[
+  {
+    "id": "tip-freezer-meal-pairs",
+    "ar": "الصق ورقة على باب الفريزر فيها تلات أزواج جاهزة من الموجود فعلاً، زي خضار مجمد مع فراخ وعيش، أو شوربة عدس مع زبادي. لما تستخدم حاجة اشطبها وجدد القائمة بعد التسوق. رؤية وجبة كاملة أسرع من فتح الأدراج قطعة قطعة، وبتقلل طلب أكل عشوائي في آخر يوم طويل.",
+    "en": "Put a note on the freezer listing three complete pairings made from what is actually inside, such as frozen vegetables with chicken and bread, or lentil soup with yoghurt. Cross one off when used and refresh the list after shopping. Seeing a whole meal is quicker than searching drawer by drawer and makes an impulsive order less likely at the end of a long day."
+  },
+  {
+    "id": "tip-ultrasound-prep-card",
+    "ar": "أول ما تحجز سونار بطن، اكتب تعليمات الحجز في كارت وحطه مع تقريرك القديم: صيام من ٦ لـ٨ ساعات، المياه عادي، وتجنّب المشروبات الغازية والأكل اللي بينفخك في اليوم السابق. اسأل العيادة عن أدويتك بدل وقفها من نفسك. الكارت يمنع خلط تعليمات فحوصات مختلفة ويخلي الصور والتقارير جاهزة مع بعض.",
+    "en": "As soon as you book an abdominal ultrasound, copy the appointment instructions onto a card and keep it with your previous report: fast for 6–8 hours, water is fine, and avoid fizzy drinks and foods that bloat you the day before. Ask the clinic about medicines rather than stopping them yourself. The card prevents different test instructions becoming mixed and keeps reports together."
+  },
+  {
+    "id": "tip-child-two-jobs",
+    "ar": "قبل الوجبة قول لنفسك: دوري أختار إيه يتقدم وإمتى وفين، ودور طفلي يختار ياكل من الموجود قد إيه. حط صنفاً مألوفاً مع باقي الأكل، وبعدها ابعد التفاوض والرشوة. الجملة البسيطة دي تخليك تلاحظ الشهية الحقيقية وتقلل المعركة، من غير ما تسيب اليوم كله مفتوحاً للحلويات والسناكس.",
+    "en": "Before a meal, remind yourself: my job is to choose what is served, when and where; my child's job is to choose how much to eat from it. Include one familiar food, then step away from bargaining and bribery. This simple division lets you observe genuine appetite and reduces conflict without leaving the whole day open to sweets and snacks."
+  },
+  {
+    "id": "tip-enrich-one-weight-gain-meal",
+    "ar": "لو هدفك زيادة الوزن وشهيتك صغيرة، اختار وجبة واحدة ثابتة وزوّد لها إضافة مركزة مناسبة: ملعقة طحينة، زيت زيتون، جبنة أو مكسرات مطحونة. ما تكبرش كل الأطباق مرة واحدة فتتخم وتوقف. ثبت الإضافة عدة أيام وسجل تقبّل المعدة، واختار بديلاً لو عندك حساسية أو تعليمات طبية خاصة.",
+    "en": "If you need to gain weight but have a small appetite, choose one dependable meal and enrich it with a suitable concentrated addition: tahini, olive oil, cheese or ground nuts. Do not enlarge every plate at once and become too full to continue. Keep the addition consistent for several days and note digestive comfort, choosing an alternative for allergies or specific medical advice."
+  },
+  {
+    "id": "tip-photograph-medicine-boxes",
+    "ar": "قبل كشف الباطنة، صوّر وش وضهر كل علبة دواء أو مكمل بتستخدمه، بما فيها أدوية الحموضة والمسكنات. اكتب على الصورة ميعادك والجرعة لو مش ظاهرة. الاسم التجاري لوحده ساعات ما يوضحش المادة أو التركيز؛ الصور بتقلل النسيان وتساعد الطبيب يرتب التداخلات وتحضير التحاليل من غير ما توقف حاجة بنفسك.",
+    "en": "Before an internal-medicine visit, photograph the front and back of every medicine or supplement you use, including acid treatments and painkillers. Add the dose and your usual time if these are not visible. A brand name may not reveal the ingredient or strength; the images reduce omissions and help your clinician plan interactions and test preparation without you stopping anything yourself."
+  },
+  {
+    "id": "tip-repeatable-waist-measure",
+    "ar": "اختار نقطة واضحة لقياس خصرك واكتبها، مثلاً عند السرّة، بدل ما الشريط يتحرك كل مرة. قيس وإنت واقف بعد زفير طبيعي، من غير شفط البطن أو شد الشريط، وفي وقت متشابه من اليوم. صوّر مكان الشريط أول مرة لو هينفعك. ثبات الطريقة أهم من مطاردة فرق صغير بين قياسين.",
+    "en": "Choose and write down one clear waist point, such as the navel, rather than letting the tape move each time. Measure standing after a normal breath out, without pulling in your stomach or tightening the tape, at a similar time of day. Photograph the tape position once if helpful. A repeatable method matters more than chasing a tiny difference between two readings."
+  },
+  {
+    "id": "tip-note-salty-meal",
+    "ar": "لو أكلت وجبة مالحة أو جاهزة، حط جنب تاريخها علامة صغيرة في سجل الوزن. لو الرقم طلع بعدها، ما تعاقبش نفسك بصام أو تمرين زيادة؛ كمّل روتينك المعتاد وراجع الاتجاه في القياسات التالية. العلامة بتفكرك إن تغيّر المياه ممكن يسبق الميزان، وبتمنع قراراً متسرعاً مبنياً على صباح واحد.",
+    "en": "After a salty or prepared meal, place a small mark beside that date in your weight log. If the next reading rises, do not compensate with fasting or extra exercise; continue your usual routine and review the following trend. The mark reminds you that fluid shifts can move the scale and prevents a rushed decision based on one morning."
+  },
+  {
+    "id": "tip-three-column-bowel-log",
+    "ar": "بدل كتابة «بطني تعبت»، اقسم ورقة لتلات خانات: وقت الألم ومكانه، شكل وعدد مرات البراز، والأكل أو الدواء اللي سبقه. اكتب وقت الحدث نفسه، مش آخر اليوم. بعد عدة أيام هتظهر العلاقة بالتبرز أو الإمساك أو دواء معين أوضح، من غير ما تشخّص نفسك أو تمنع أطعمة كتير عشوائياً.",
+    "en": "Instead of writing ‘my stomach hurt’, divide a page into three columns: pain time and location, stool form and frequency, and the food or medicine before it. Record each event when it happens, not at bedtime. After several days, links with bowel movements, constipation or a medicine become clearer, without diagnosing yourself or randomly excluding many foods."
+  },
+  {
+    "id": "tip-reflux-time-stamp",
+    "ar": "لو الحموضة بتصحّيك، اكتب لمدة كام ليلة وقت آخر لقمة، وقت النوم، ووقت بداية الحرقان. ما تمنعش عشر أصناف مرة واحدة. النمط ممكن يوضح إن حجم الوجبة أو قربها من الاستلقاء أهم من صنف بعينه. خد السجل للطبيب، خصوصاً لو الأعراض متكررة أو معاها صعوبة بلع أو ألم صدر.",
+    "en": "If heartburn wakes you, record for several nights the time of your last mouthful, when you lie down and when burning begins. Do not remove ten foods at once. The pattern may show that meal size or proximity to lying down matters more than one ingredient. Bring the record to your clinician, especially if symptoms recur or include difficult swallowing or chest pain."
+  },
+  {
+    "id": "tip-one-day-meal-photos",
+    "ar": "ليوم واحد بس، صوّر كل اللي بتاكله وتشربه وقت ما يبدأ، بما فيه لقمة وإنت بتحضر الأكل أو قهوة بإضافاتها. ما تحسبش سعرات وما تغيرش اليوم عشان الصورة. بالليل رتّب الصور حسب الوقت؛ هتشوف فترات الجوع والمشروبات واللقم المنسية أوضح من الذاكرة، وتاخد السجل للكشف لو محتاج.",
+    "en": "For one day only, photograph everything you eat and drink as it begins, including a bite while cooking or coffee with its additions. Do not count calories or improve the day for the camera. That evening, arrange the images by time. Gaps, drinks and forgotten tastes become clearer than memory, and you can bring the record to your consultation if useful."
+  },
+  {
+    "id": "tip-feeding-chair-snack-kit",
+    "ar": "قبل أول رضعة في اليوم، حط عند مكان الرضاعة زجاجة مياه وسناك مشبع مناسب ليك، زي فاكهة مع مكسرات أو ساندوتش صغير. كده الجوع المفاجئ ما يحولش أقرب بسكوت لوجبة كاملة، ومش هتفضل مأجل الشرب. اختار كل يوم حاجة واحدة تتخزن بأمان، وجددها بدل ما تسيب أكل قابل للفساد.",
+    "en": "Before the first feed of the day, place a water bottle and one satisfying snack by your usual chair, such as fruit with nuts or a small sandwich. Sudden hunger is then less likely to turn the nearest biscuits into a meal, and drinking is not repeatedly postponed. Choose one item that can be stored safely and replace it daily rather than leaving perishable food out."
+  },
+  {
+    "id": "tip-child-texture-bridge",
+    "ar": "لو طفلك بيقبل البطاطس المقرمشة ويرفض الخضار الطري، ما تنقلش مباشرة لطبق مختلف تماماً. قدّم جنب أكله المألوف قطعة صغيرة من خضار محمّر في الفرن بقوام قريب، من غير ضغط إنه يدوق. التشابه في القوام يعمل جسر هادي للصنف الجديد، وكرّر العرض في أيام مختلفة قبل الحكم إنه مش بيحبه.",
+    "en": "If your child accepts crisp potatoes but refuses soft vegetables, do not jump straight to a completely different plate. Beside the familiar food, offer one small piece of oven-roasted vegetable with a similar texture, without pressure to taste it. The shared texture creates a gentler bridge to the new food; repeat the exposure on different days before deciding it is disliked."
+  },
+  {
+    "id": "tip-walk-after-hardest-meal",
+    "ar": "اختار الوجبة اللي بعدها بتحس بخمول أو رغبة في الحلويات، وحط الجزمة جنب السفرة قبل ما تاكل. بعد الوجبة امشي مشواراً قصيراً ثابتاً، حتى لو جوه البيت أو في طرقة الشغل. ربط الحركة بوجبة محددة أسهل من انتظار ساعة فاضية، وسجل إحساسك بعدها عشان تعرف إذا العادة مناسبة ليك.",
+    "en": "Choose the meal after which you usually feel sluggish or want something sweet, and place your shoes beside the table before eating. Afterwards, take the same short route, even indoors or along the office corridor. Tying movement to one specific meal is easier than waiting for a free hour; note how you feel afterwards to judge whether the habit suits you."
+  },
+  {
+    "id": "tip-protein-backup-portions",
+    "ar": "وقت ما تطبخ فراخ أو لحمة أو عدس، شيل حصتين سادة في الفريزر قبل إضافة الصوص. اكتب التاريخ والمحتوى على العلبة. في اليوم المزدحم، طلّع حصة مع خضار مجمد وعيش أو رز بدل ما تبدأ قرار الوجبة وإنت جعانة. الفكرة مش تجهيز أسبوع كامل؛ هي وجبتين ينقذوا الخطة وقت الزحمة.",
+    "en": "Whenever you cook chicken, meat or lentils, freeze two plain portions before adding the sauce and label each with its contents and date. On a crowded day, pair one with frozen vegetables and bread or rice instead of deciding on dinner when ravenous. This is not a full week of meal prep; it is two meals that protect the plan when time disappears."
+  }
+]check(rendered.overview.includes("Open editor"), "overview: TODO links missing");
+for (const section of ["specialties", "doctors", "branches", "articles", "reviews", "digital"]) {
+  check(rendered[section].includes("Additional file fields"), `${section}: file-level editor missing`);
+}
+for (const section of ["specialties", "doctors", "branches", "articles", "digital"]) {
+  check(rendered[section].includes('data-action="move-item"'), `${section}: reorder controls missing`);
+}
+check(rendered.reviews.includes('data-action="add-item"'), "reviews: add control missing");
+check(rendered.reviews.includes("Rating aggregate"), "reviews: aggregate editor missing");
+check(rendered.reviews.includes("Before and after"), "reviews: before/after editor missing");
+check(rendered.digital.includes("Internal pricing"), "digital: internal pricing editor missing");
+check(rendered.digital.includes('data-value-type="boolean"') && rendered.digital.includes("disabled"), "digital: public price guard missing");
+check(rendered.images.includes("Media registry"), "images: media registry editor missing");
+check(rendered.backups.includes("Backup list"), "backups: list missing");
+check(rendered.backups.includes('data-action="restore-backup"'), "backups: restore control missing");
+check(rendered.leads.includes("Leads &amp; bookings") && rendered.leads.includes("Export CSV"), "leads: table tools missing");
+check(rendered["media-buying"].includes("UTM builder") && rendered["media-buying"].includes("WhatsApp links"), "media buying: tabs missing");
+check(rendered.campaigns.includes("campaigns.json"), "campaigns: collection editor missing");
+check(rendered.tips.includes("Daily tips") && rendered.tips.includes('data-growth="tip-add"'), "tips: root-array editor missing");
+check(serverSource.includes('"campaigns.json", "tips.json"') && serverSource.includes('file === "tips.json"'), "server: new content files or tips array validation missing");
+check(growthScript.includes("lr_dash_leads_token") && growthScript.includes("lr_dash_leads_cache") && growthScript.includes("mode:'no-cors'"), "leads: token/cache/update contract missing");
+
+const css = fs.readFileSync(path.join(ROOT, "dashboard", "css", "dashboard.css"), "utf8");
+check(/@media \(max-width: 52rem\)[\s\S]*?\.bilingual-grid \{ grid-template-columns: 1fr; \}/.test(css), "responsive: bilingual fields do not collapse");
+check(/@media \(max-width: 36rem\)[\s\S]*?\.array-row,[\s\S]*?grid-template-columns: 1fr/.test(css), "responsive: form rows do not collapse");
+check(css.includes(".table-scroll") && css.includes("overflow-x: auto"), "responsive: tables do not scroll internally");
+check(/handle\.sync\(\)[\s\S]*?handle\.close\(\)[\s\S]*?fsp\.rename\(tmp, target\)/.test(serverSource), "atomic writes: temp file is not flushed, closed, and renamed");
+check(serverSource.includes('createHash("sha256")') && serverSource.includes("contentWriteQueues") && serverSource.includes("json(res, 428"), "conflicts: hash revision is not required and serialised");
+check(serverSource.includes('{ flag: "wx" }'), "uploads: destination is not created exclusively");
+check(script.includes("fileMutations") && script.includes("sentMutation"), "save: per-file mutation counter missing");
+check((script.match(/resetListFilters\(\)/g) || []).length >= 5, "filters: reset is not applied to every navigation path");
+check(script.includes("imagesAttempted") && script.includes('data-action="refresh-images"'), "images: failed-load stop/retry state missing");
+check(script.includes("invalidateImages(state.section === \"images\")") && script.includes("imagesReloadPending"), "images: upload does not refresh the library safely");
+check(script.includes("looks like it contains a price") && script.includes("pricingPath"), "client validation: public price rule missing");
+check(css.includes(".admin-btn--sm { min-height: 2.75rem") && /\.icon-action \{[\s\S]*?width: 2\.75rem;[\s\S]*?height: 2\.75rem;/.test(css) && /\.list-search \{[\s\S]*?min-height: 2\.75rem;/.test(css), "touch targets: common controls are below 44px");
+check(css.includes('inset-inline-start: 0') && css.includes('[dir="rtl"] .admin-sidebar { transform: translateX(105%); }'), "RTL drawer: logical right-edge rule missing");
+check(!css.includes("text-align: match-parent") && !css.includes("inset: 0 auto 0 0"), "CSS: unsupported alignment or physical drawer inset remains");
+
+if (failures.length) {
+  process.stderr.write(`Dashboard smoke test failed (${failures.length}):\n${failures.map((failure) => `- ${failure}`).join("\n")}\n`);
+  process.exit(1);
+}
+
+process.stdout.write(`Dashboard smoke test passed: ${sections.length} sections; editing; save races; validation; audit regressions; responsive rules.\n`);
+
+codex
+The audit confirms the previous report was accurate: the data/server scaffolding is present, but the growth layer is compressed into one-line code, QR output is non-decodable, and campaigns/ad-copy/landing-page/integration checks are only partial. I’m replacing the monolith with focused modules while preserving the existing dashboard save bridge.
+web search: 
+web search: Project Nayuki QR Code generator library JavaScript qrcodegen.js MIT GitHub
+exec
+/bin/zsh -lc "curl -fsSL https://raw.githubusercontent.com/nayuki/QR-Code-generator/master/typescript-javascript/qrcodegen.js -o /private/tmp/qrcodegen.js && wc -l /private/tmp/qrcodegen.js && sed -n '1,24p' /private/tmp/qrcodegen.js" in /Users/maged/Desktop/new/website data/new site
+ exited 56 in 455ms:
+curl: (56) The requested URL returned error: 404
+
+exec
+/bin/zsh -lc 'curl -fsSL https://raw.githubusercontent.com/nayuki/QR-Code-generator/master/typescript-javascript/qrcodegen.ts -o /private/tmp/qrcodegen.ts && wc -l /private/tmp/qrcodegen.ts && command -v tsc || true' in /Users/maged/Desktop/new/website data/new site
+ succeeded in 630ms:
+     990 /private/tmp/qrcodegen.ts
+
+exec
+/bin/zsh -lc "curl -fsSL https://unpkg.com/qrcodegen@1.8.0/qrcodegen.js -o /private/tmp/qrcodegen.js && wc -l /private/tmp/qrcodegen.js && sed -n '1,20p' /private/tmp/qrcodegen.js" in /Users/maged/Desktop/new/website data/new site
+ exited 56 in 467ms:
+curl: (56) The requested URL returned error: 404
+
+exec
+/bin/zsh -lc "command -v esbuild; command -v bun; command -v deno; command -v npx; sed -n '1,80p' /private/tmp/qrcodegen.ts" in /Users/maged/Desktop/new/website data/new site
+ succeeded in 0ms:
+/Users/maged/.nvm/versions/node/v24.18.0/bin/npx
+/* 
+ * QR Code generator library (TypeScript)
+ * 
+ * Copyright (c) Project Nayuki. (MIT License)
+ * https://www.nayuki.io/page/qr-code-generator-library
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of
+ * this software and associated documentation files (the "Software"), to deal in
+ * the Software without restriction, including without limitation the rights to
+ * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ * the Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ * - The above copyright notice and this permission notice shall be included in
+ *   all copies or substantial portions of the Software.
+ * - The Software is provided "as is", without warranty of any kind, express or
+ *   implied, including but not limited to the warranties of merchantability,
+ *   fitness for a particular purpose and noninfringement. In no event shall the
+ *   authors or copyright holders be liable for any claim, damages or other
+ *   liability, whether in an action of contract, tort or otherwise, arising from,
+ *   out of or in connection with the Software or the use or other dealings in the
+ *   Software.
+ */
+
+"use strict";
+
+
+namespace qrcodegen {
+	
+	type bit  = number;
+	type byte = number;
+	type int  = number;
+	
+	
+	/*---- QR Code symbol class ----*/
+	
+	/* 
+	 * A QR Code symbol, which is a type of two-dimension barcode.
+	 * Invented by Denso Wave and described in the ISO/IEC 18004 standard.
+	 * Instances of this class represent an immutable square grid of dark and light cells.
+	 * The class provides static factory functions to create a QR Code from text or binary data.
+	 * The class covers the QR Code Model 2 specification, supporting all versions (sizes)
+	 * from 1 to 40, all 4 error correction levels, and 4 character encoding modes.
+	 * 
+	 * Ways to create a QR Code object:
+	 * - High level: Take the payload data and call QrCode.encodeText() or QrCode.encodeBinary().
+	 * - Mid level: Custom-make the list of segments and call QrCode.encodeSegments().
+	 * - Low level: Custom-make the array of data codeword bytes (including
+	 *   segment headers and final padding, excluding error correction codewords),
+	 *   supply the appropriate version number, and call the QrCode() constructor.
+	 * (Note that all ways require supplying the desired error correction level.)
+	 */
+	export class QrCode {
+		
+		/*-- Static factory functions (high level) --*/
+		
+		// Returns a QR Code representing the given Unicode text string at the given error correction level.
+		// As a conservative upper bound, this function is guaranteed to succeed for strings that have 738 or fewer
+		// Unicode code points (not UTF-16 code units) if the low error correction level is used. The smallest possible
+		// QR Code version is automatically chosen for the output. The ECC level of the result may be higher than the
+		// ecl argument if it can be done without increasing the version.
+		public static encodeText(text: string, ecl: QrCode.Ecc): QrCode {
+			const segs: Array<QrSegment> = qrcodegen.QrSegment.makeSegments(text);
+			return QrCode.encodeSegments(segs, ecl);
+		}
+		
+		
+		// Returns a QR Code representing the given binary data at the given error correction level.
+		// This function always encodes using the binary segment mode, not any text mode. The maximum number of
+		// bytes allowed is 2953. The smallest possible QR Code version is automatically chosen for the output.
+		// The ECC level of the result may be higher than the ecl argument if it can be done without increasing the version.
+		public static encodeBinary(data: Readonly<Array<byte>>, ecl: QrCode.Ecc): QrCode {
+			const seg: QrSegment = qrcodegen.QrSegment.makeBytes(data);
+			return QrCode.encodeSegments([seg], ecl);
+		}
+		
+		
+		/*-- Static factory functions (mid level) --*/
+		
+		// Returns a QR Code representing the given segments with the given encoding parameters.
+		// The smallest possible QR Code version within the given range is automatically
+
+exec
+/bin/zsh -lc 'npx --yes --package typescript tsc /private/tmp/qrcodegen.ts --target ES2017 --module none --outFile /private/tmp/qrcodegen.js --removeComments false && wc -l /private/tmp/qrcodegen.js' in /Users/maged/Desktop/new/website data/new site
+ exited 1 in 5125ms:
+error TS6046: Argument for '--module' option must be: 'commonjs', 'es6', 'es2015', 'es2020', 'es2022', 'esnext', 'node16', 'node18', 'node20', 'nodenext', 'preserve'.
+npm notice
+npm notice New major version of npm available! 11.16.0 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice
+
+exec
+/bin/zsh -lc 'npx --yes --package typescript tsc /private/tmp/qrcodegen.ts --target ES2017 --outFile /private/tmp/qrcodegen.js --removeComments false && wc -l /private/tmp/qrcodegen.js' in /Users/maged/Desktop/new/website data/new site
+ exited 2 in 861ms:
+error TS5102: Option 'outFile' has been removed. Please remove it from your configuration.
+
+exec
+/bin/zsh -lc 'npx --yes --package typescript@5.5.4 tsc /private/tmp/qrcodegen.ts --target ES2017 --module none --outFile /private/tmp/qrcodegen.js --removeComments false && wc -l /private/tmp/qrcodegen.js' in /Users/maged/Desktop/new/website data/new site
+ succeeded in 3575ms:
+     836 /private/tmp/qrcodegen.js
+

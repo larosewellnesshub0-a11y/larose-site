@@ -251,3 +251,10 @@ export function reviewsFor(reviews, key) {
     (r) => r.published !== false && (!key || key === "all" || (r.specialties || []).includes(key))
   );
 }
+
+/** The branded aerial render used on branch cards (home page and branches hub).
+    `cardImage` in branches.json points at it; the build only uses it once the
+    file actually exists, so a branch without a render falls back to its photos. */
+export function branchCardImage(b) {
+  return (b && b.cardImage && imageIfExists(b.cardImage)) || null;
+}

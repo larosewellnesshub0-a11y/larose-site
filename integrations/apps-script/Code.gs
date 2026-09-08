@@ -1,112 +1,93 @@
-/**
- * La Rose Wellness Hub — form capture endpoint.
- *
- * Deployed as a Google Apps Script Web App bound to the spreadsheet
- * "La Rose — Bookings & Enquiries". The website is a static site, so it cannot
- * hold a credential and cannot call the Sheets API directly. It POSTs here
- * instead, and this script is the only thing that can write.
- *
- * Because the deployment must be readable by "Anyone" for a static page to
- * reach it, this URL is effectively public. It therefore NEVER reads or returns
- * sheet contents. It only appends. Do not add a read path to it.
- *
- * See README.md for the deployment steps.
- */
-
+/** La Rose static-site form capture and token-gated lead administration. */
 var SHEET_ID = '1fwL5rMeMLgUs2v9UHWu9c-PCeWtmfBW_YpZTG3RGbAI';
-/* The tab is currently called "Untitled"; the lookup below falls back to
-   the first sheet, so renaming the tab either way cannot break capture. */
 var SHEET_NAME = 'Sheet1';
-
-/* Column order must match the spreadsheet header row exactly. */
 var COLUMNS = [
   'Timestamp', 'Source', 'Name', 'Phone', 'Specialty', 'Doctor', 'Branch',
   'Preferred day', 'Preferred time', 'Message', 'Language', 'Page URL',
-  'Status', 'Notes'
+  'Status', 'Notes', 'UTM source', 'UTM medium', 'UTM campaign', 'UTM content',
+  'UTM term', 'Click ID', 'Landing page', 'Referrer', 'Device', 'First touch'
 ];
-
-/* Only these arrive from the page. Anything else in the payload is discarded,
-   so a crafted POST cannot inject extra columns or overwrite Status. */
 var ACCEPTED = [
-  'source', 'name', 'phone', 'specialty', 'doctor', 'branch',
-  'preferredDay', 'preferredTime', 'message', 'language', 'pageUrl'
+  'source', 'name', 'phone', 'specialty', 'doctor', 'branch', 'preferredDay',
+  'preferredTime', 'message', 'language', 'pageUrl', 'utmSource', 'utmMedium',
+  'utmCampaign', 'utmContent', 'utmTerm', 'clickId', 'landingPage', 'referrer',
+  'device', 'firstTouchSource'
 ];
-
 var MAX_FIELD = 2000;
 
-function json_(obj) {
-  return ContentService
-    .createTextOutput(JSON.stringify(obj))
-    .setMimeType(ContentService.MimeType.JSON);
+function json_(obj, callback) {
+  var body = JSON.stringify(obj);
+  if (callback && /^[A-Za-z_$][\w.$]*$/.test(callback)) return ContentService.createTextOutput(callback + '(' + body + ');').setMimeType(ContentService.MimeType.JAVASCRIPT);
+  return ContentService.createTextOutput(body).setMimeType(ContentService.MimeType.JSON);
 }
-
 function clean_(value) {
   if (value === null || value === undefined) return '';
-  var s = String(value);
-  // strip control characters, then cap the length
-  s = s.replace(/[\x00-\x1f\x7f]/g, ' ').trim();
+  var s = String(value).replace(/[\x00-\x1f\x7f]/g, ' ').trim();
   return s.length > MAX_FIELD ? s.slice(0, MAX_FIELD) : s;
 }
+function sheet_() { var book = SpreadsheetApp.openById(SHEET_ID); return book.getSheetByName(SHEET_NAME) || book.getSheets()[0]; }
+function ensureHeaders_(sheet) {
+  var lastColumn = sheet.getLastColumn();
+  if (!lastColumn || sheet.getLastRow() === 0) { sheet.getRange(1, 1, 1, COLUMNS.length).setValues([COLUMNS]); return COLUMNS.slice(); }
+  var headers = sheet.getRange(1, 1, 1, lastColumn).getDisplayValues()[0];
+  if (headers.every(function (h) { return !h; })) { sheet.getRange(1, 1, 1, COLUMNS.length).setValues([COLUMNS]); return COLUMNS.slice(); }
+  COLUMNS.forEach(function (header) { if (headers.indexOf(header) === -1) headers.push(header); });
+  if (headers.length > lastColumn) sheet.getRange(1, lastColumn + 1, 1, headers.length - lastColumn).setValues([headers.slice(lastColumn)]);
+  return headers;
+}
+function authorised_(token) {
+  var expected = PropertiesService.getScriptProperties().getProperty('READ_TOKEN') || '';
+  return !!expected && clean_(token) === expected;
+}
+function stringValue_(value) {
+  return Object.prototype.toString.call(value) === '[object Date]' && !isNaN(value.getTime()) ? value.toISOString() : String(value === null || value === undefined ? '' : value).replace(/^'(\+?\d)/, '$1');
+}
 
-function doGet() {
-  // a liveness probe, so the dashboard can verify a deployment URL works
-  return json_({ ok: true, service: 'larose-forms' });
+function doGet(e) {
+  var p = e && e.parameter || {};
+  if (p.action !== 'leads') return json_({ ok: true, service: 'larose-forms' });
+  if (!authorised_(p.token)) return json_({ ok: false, error: 'unauthorised' }, p.callback);
+  var sheet = sheet_();
+  var headers = ensureHeaders_(sheet);
+  var values = sheet.getLastRow() > 1 ? sheet.getRange(2, 1, sheet.getLastRow() - 1, headers.length).getValues() : [];
+  var since = p.since ? new Date(p.since) : null;
+  if (since && !isNaN(since.getTime())) values = values.filter(function (row) { var d = new Date(row[0]); return !isNaN(d.getTime()) && d >= since; });
+  var rows = values.map(function (row) { return row.map(stringValue_); });
+  return json_({ ok: true, headers: headers, rows: rows, updatedAt: rows.length ? rows[rows.length - 1][0] : '' }, p.callback);
 }
 
 function doPost(e) {
   var lock = LockService.getScriptLock();
   try {
-    if (!e || !e.postData || !e.postData.contents) {
-      return json_({ ok: false, error: 'empty body' });
-    }
-
+    if (!e || !e.postData || !e.postData.contents) return json_({ ok: false, error: 'empty body' });
     var payload;
-    try {
-      payload = JSON.parse(e.postData.contents);
-    } catch (err) {
-      return json_({ ok: false, error: 'invalid JSON' });
-    }
-
-    var data = {};
-    for (var i = 0; i < ACCEPTED.length; i++) {
-      data[ACCEPTED[i]] = clean_(payload[ACCEPTED[i]]);
-    }
-
-    // a submission with neither a phone nor a message is noise
-    if (!data.phone && !data.message && !data.name) {
-      return json_({ ok: false, error: 'nothing to record' });
-    }
-
-    // Two people submitting at the same moment would otherwise race for the
-    // same row and one write would be lost.
+    try { payload = JSON.parse(e.postData.contents); } catch (err) { return json_({ ok: false, error: 'invalid JSON' }); }
     lock.waitLock(20000);
-
-    var sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName(SHEET_NAME) ||
-                SpreadsheetApp.openById(SHEET_ID).getSheets()[0];
-
-    if (sheet.getLastRow() === 0) sheet.appendRow(COLUMNS);
-
-    sheet.appendRow([
-      new Date(),               // server clock: never trust a client timestamp
-      data.source || 'website',
-      data.name,
-      data.phone ? "'" + data.phone : '',   // leading quote keeps 010… intact
-      data.specialty,
-      data.doctor,
-      data.branch,
-      data.preferredDay,
-      data.preferredTime,
-      data.message,
-      data.language,
-      data.pageUrl,
-      'new',
-      ''
-    ]);
-
+    var sheet = sheet_();
+    var headers = ensureHeaders_(sheet);
+    if (payload.action === 'updateStatus') {
+      if (!authorised_(payload.token)) return json_({ ok: false, error: 'unauthorised' });
+      var rowNumber = Number(payload.row);
+      if (!Number.isInteger(rowNumber) || rowNumber < 2 || rowNumber > sheet.getLastRow()) return json_({ ok: false, error: 'invalid row' });
+      var statusColumn = headers.indexOf('Status') + 1, notesColumn = headers.indexOf('Notes') + 1;
+      if (!statusColumn || !notesColumn) return json_({ ok: false, error: 'missing columns' });
+      sheet.getRange(rowNumber, statusColumn).setValue(clean_(payload.status));
+      sheet.getRange(rowNumber, notesColumn).setValue(clean_(payload.notes));
+      return json_({ ok: true });
+    }
+    var data = {};
+    ACCEPTED.forEach(function (key) { data[key] = clean_(payload[key]); });
+    if (!data.phone && !data.message && !data.name) return json_({ ok: false, error: 'nothing to record' });
+    var fields = {
+      'Timestamp': new Date(), 'Source': data.source || 'website', 'Name': data.name, 'Phone': data.phone ? "'" + data.phone : '',
+      'Specialty': data.specialty, 'Doctor': data.doctor, 'Branch': data.branch, 'Preferred day': data.preferredDay,
+      'Preferred time': data.preferredTime, 'Message': data.message, 'Language': data.language, 'Page URL': data.pageUrl,
+      'Status': 'new', 'Notes': '', 'UTM source': data.utmSource, 'UTM medium': data.utmMedium,
+      'UTM campaign': data.utmCampaign, 'UTM content': data.utmContent, 'UTM term': data.utmTerm, 'Click ID': data.clickId,
+      'Landing page': data.landingPage, 'Referrer': data.referrer, 'Device': data.device, 'First touch': data.firstTouchSource
+    };
+    sheet.appendRow(headers.map(function (header) { return Object.prototype.hasOwnProperty.call(fields, header) ? fields[header] : ''; }));
     return json_({ ok: true });
-  } catch (err) {
-    return json_({ ok: false, error: String(err) });
-  } finally {
-    try { lock.releaseLock(); } catch (ignored) {}
-  }
+  } catch (err) { return json_({ ok: false, error: String(err) }); }
+  finally { try { lock.releaseLock(); } catch (ignored) {} }
 }

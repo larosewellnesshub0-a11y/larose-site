@@ -1,5 +1,5 @@
 {
-  "_note": "Maadi is REAL and open: address, plus code and coordinates verified from the clinic's own price sheet and previous build. The other two branches are announced but the clinic has supplied no address, no opening date and no photographs; those fields are deliberately empty rather than invented. Set `published: false` in the dashboard to hide a branch from the nav, footer and sitemap.",
+  "_note": "Maadi is REAL and open: address, plus code and coordinates verified from the clinic's own price sheet and previous build. The other two branches are announced but the clinic has supplied no address, no opening date and no photographs; those fields are deliberately empty rather than invented. Set `published: false` in the dashboard to hide a branch from the nav, footer and sitemap. `cardImage` is the branded aerial render used on the home page and branch hub cards (generated 2026-09-08); `photos` remain the branch-page gallery.",
   "branches": [
     {
       "slug": "maadi",
@@ -65,29 +65,29 @@
         {
           "src": "assets/img/clinic/maadi-reception.webp",
           "alt": {
-            "ar": "استقبال وصالة انتظار عيادات لاروز بالمعادي",
-            "en": "Reception and waiting area at La Rose Maadi"
+            "ar": "استقبال عيادات لاروز بالمعادي",
+            "en": "Reception at La Rose Maadi"
           }
         },
         {
           "src": "assets/img/clinic/maadi-waiting.webp",
           "alt": {
-            "ar": "غرفة الكشف في عيادات لاروز بالمعادي",
-            "en": "Consultation room at La Rose Maadi"
+            "ar": "صالة الانتظار في عيادات لاروز بالمعادي",
+            "en": "Waiting area at La Rose Maadi"
           }
         },
         {
           "src": "assets/img/clinic/maadi-consultation.webp",
           "alt": {
-            "ar": "من داخل عيادات لاروز بالمعادي",
-            "en": "Inside La Rose Maadi"
+            "ar": "شعار لاروز على الحائط داخل فرع المعادي",
+            "en": "The La Rose wall sign inside the Maadi branch"
           }
         },
         {
           "src": "assets/img/clinic/maadi-treatment.webp",
           "alt": {
-            "ar": "من داخل عيادات لاروز بالمعادي",
-            "en": "Inside La Rose Maadi"
+            "ar": "ممر العيادات داخل فرع المعادي",
+            "en": "The clinic corridor inside the Maadi branch"
           }
         }
       ],
@@ -107,7 +107,8 @@
           "Street parking is available in front of the building."
         ]
       },
-      "_todoAddress": "Confirm the street: this file says 'متفرع من شارع الجزائر', but the clinic's own ekshef listing says 'متفرع من شارع النصر'. Both are first-party, so the clinic must say which is correct before either is published as the address."
+      "_todoAddress": "Confirm the street: this file says 'متفرع من شارع الجزائر', but the clinic's own ekshef listing says 'متفرع من شارع النصر'. Both are first-party, so the clinic must say which is correct before either is published as the address.",
+      "cardImage": "assets/img/clinic/branch-maadi.webp"
     },
     {
       "slug": "fifth-settlement",
@@ -180,7 +181,8 @@
         "ar": [],
         "en": []
       },
-      "_todo": "Address, exact location, full opening date, phone extension and photographs. Limited Wednesday clinics are already bookable through the confirmed doctor schedule."
+      "_todo": "Address, exact location, full opening date, phone extension and photographs. Limited Wednesday clinics are already bookable through the confirmed doctor schedule.",
+      "cardImage": "assets/img/clinic/branch-fifth-settlement.webp"
     },
     {
       "slug": "sheikh-zayed",
@@ -253,7 +255,8 @@
         "ar": [],
         "en": []
       },
-      "_todo": "Address, exact location, opening date, phone extension and photographs."
+      "_todo": "Address, exact location, opening date, phone extension and photographs.",
+      "cardImage": "assets/img/clinic/branch-sheikh-zayed.webp"
     }
   ]
 }

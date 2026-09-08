@@ -2,8 +2,7 @@
    LA ROSE WELLNESS HUB، health tools
    --------------------------------------------------------------------------
    Every tool is progressive: the markup is a plain, usable form, and this
-   script adds the calculation and the persistence. Nothing here is a
-   diagnosis; each page carries a visible disclaimer above the tool.
+   script adds the calculation and the persistence.
 
    Stored data never leaves the browser: localStorage only, namespaced.
    ========================================================================== */
@@ -49,6 +48,9 @@
     if (!box) return;
     box.innerHTML = html;
     box.hidden = false;
+    document.dispatchEvent(new CustomEvent("lr:tool-result", {
+      detail: { tool: root.getAttribute("data-tool") || "unknown" }
+    }));
   }
   function T(ar, en) { return AR ? ar : en; }
 

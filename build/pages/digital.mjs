@@ -82,8 +82,8 @@ const COPY = {
   whatsInside: { ar: "إيه اللي جوه الكتاب؟", en: "What is inside?" },
   order: { ar: "اطلب الكتاب على واتساب", en: "Order on WhatsApp" },
   orderNote: {
-    ar: "الموقع مبيستقبلش دفع. الفريق هيأكد الطلب معاك على واتساب ويبعت لك الملف.",
-    en: "This website does not take payments. The team will confirm your order on WhatsApp and send you the file.",
+    ar: "الطلب والدفع بيتم على واتساب مع الفريق.",
+    en: "Ordering and payment are handled with the team on WhatsApp.",
   },
   sampleEyebrow: { ar: "شكل الوصفة", en: "A recipe preview" },
   sampleTitle: { ar: "أكل تعرفيه، متقدّم بطريقة أسهل", en: "Familiar food, presented more clearly" },

@@ -390,3 +390,21 @@
 }
 .rg-watch__btn:hover { background: var(--paper-sunk); border-color: var(--champagne-400); }
 .rg-watch__btn svg { color: #c00; flex: none; }
+
+/* ---- product landing ---------------------------------------------------- */
+.rg-back { color: var(--ink-strong); font-size: var(--t-sm); font-weight: 600; }
+.rg-landing__hero { padding-block: clamp(3rem, 7vw, 7rem); background: var(--paper-sunk); }
+.rg-landing__hero-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(240px, .8fr); gap: clamp(2rem, 6vw, 5rem); align-items: center; }
+.rg-landing__cover { width: min(100%, 28rem); margin-inline: auto; border-radius: 46% 46% 1.25rem 1.25rem / 18% 18% 1.25rem 1.25rem; box-shadow: var(--shadow-lg); }
+.rg-landing__section { padding-block: clamp(3rem, 6vw, 5rem); }
+.rg-landing__section--tint { background: var(--paper-sunk); }
+.rg-landing__section h2 { font-size: clamp(1.6rem, 1.2rem + 1.5vw, 2.5rem); }
+.rg-landing__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: .9rem; margin-block-start: 1.5rem; }
+.rg-landing__list li { padding: 1.15rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--paper); }
+.rg-landing__faq { display: grid; gap: .75rem; margin-block-start: 1.5rem; }
+.rg-landing__faq details { padding: 1rem 1.2rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--paper); }
+.rg-landing__faq summary { cursor: pointer; font-weight: 700; }
+.rg-landing__faq p { margin-block-start: .8rem; color: var(--ink-muted); }
+.rg-btn--dark { color: var(--ink-strong); border-color: var(--line); }
+.rg-btn--dark:hover { background: var(--paper); }
+@media (max-width: 720px) { .rg-landing__hero-grid { grid-template-columns: 1fr; } .rg-landing__cover { max-width: 20rem; } }

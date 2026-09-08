@@ -90,6 +90,7 @@ function safeJoin(base, target) {
 const CONTENT_FILES = new Set([
   "site.json", "specialties.json", "doctors.json", "branches.json",
   "articles.json", "reviews.json", "digital.json", "pages.json",
+  "campaigns.json", "tips.json",
 ]);
 
 const COLLECTION_RULES = {
@@ -102,6 +103,7 @@ const COLLECTION_RULES = {
   ],
   "reviews.json": [{ key: "reviews", id: "id", required: ["id"] }],
   "digital.json": [{ key: "products", id: "slug", required: ["slug", "type", "name.ar", "name.en"] }],
+  "campaigns.json": [{ key: "campaigns", id: "id", required: ["id", "name"] }],
 };
 
 function isObject(value) {
@@ -119,6 +121,20 @@ const PRICING_PATH = /(^|\.)(pricing|prices|price)(\.|\[|$)/i;
 
 function validateContent(file, data) {
   const errors = [];
+  if (file === "tips.json") {
+    if (!Array.isArray(data)) return ["tips.json must have an array root."];
+    const seen = new Set();
+    data.forEach((item, index) => {
+      if (!isObject(item)) return errors.push(`tips[${index}] must be an object.`);
+      for (const key of ["id", "ar", "en"]) {
+        if (typeof item[key] !== "string" || !item[key].trim()) errors.push(`tips[${index}].${key} is required.`);
+      }
+      if (typeof item.id === "string" && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id)) errors.push(`tips[${index}].id must be a slug.`);
+      if (seen.has(item.id)) errors.push(`tips.id "${item.id}" is duplicated.`);
+      seen.add(item.id);
+    });
+    return errors;
+  }
   if (!isObject(data)) return ["The content root must be a JSON object."];
 
   const walk = (value, pointer = "") => {

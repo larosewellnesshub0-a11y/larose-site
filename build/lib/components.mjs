@@ -518,8 +518,6 @@ export function shareBlock({ c, locale, url, title }) {
       >${icon("ai", "share__icon")}<span>${esc(label)}</span></a></li>`;
   }).join("");
 
-  const note = t(ask.note, locale);
-
   return `<section class="section section--tight entry-share" style="padding-top:0">
   <div class="wrap wrap--narrow">
     <div class="share" data-share-copied="${esc(t(cfg.copied, locale) || "Copied")}">
@@ -527,7 +525,6 @@ export function shareBlock({ c, locale, url, title }) {
       <ul class="share__row">${networks}</ul>`)}
       ${when(assistants, `<div class="share__ask">
         <h2 class="h4 share__title">${esc(t(ask.heading, locale))}</h2>
-        ${when(note, `<p class="u-sm u-muted share__note">${esc(note)}</p>`)}
         <ul class="share__row">${assistants}</ul>
       </div>`)}
     </div>

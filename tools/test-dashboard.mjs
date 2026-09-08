@@ -57,7 +57,7 @@ elements["upload-dialog"].open = false;
 elements["upload-dialog"].close = () => { elements["upload-dialog"].open = false; };
 elements["upload-dialog"].showModal = () => { elements["upload-dialog"].open = true; };
 
-const sections = ["overview", "specialties", "doctors", "branches", "articles", "reviews", "digital", "settings", "images", "backups"];
+const sections = ["overview", "analytics", "leads", "media-buying", "campaigns", "specialties", "doctors", "branches", "articles", "reviews", "digital", "tips", "settings", "images", "backups"];
 const navItems = sections.map((section, index) => {
   const item = new FakeElement();
   item.dataset.nav = section;
@@ -88,9 +88,15 @@ globalThis.window = {
 };
 globalThis.location = { hash: "" };
 globalThis.history = { replaceState() {} };
+globalThis.localStorage = { data: new Map(), getItem(k){ return this.data.get(k) ?? null; }, setItem(k,v){ this.data.set(k,String(v)); } };
+Object.defineProperty(globalThis, "navigator", { value: { clipboard: { writeText() {} } }, configurable: true });
 
 const script = fs.readFileSync(path.join(ROOT, "dashboard", "js", "dashboard.js"), "utf8");
+const growthScript = fs.readFileSync(path.join(ROOT, "dashboard", "js", "growth.js"), "utf8");
+const analyticsScript = fs.readFileSync(path.join(ROOT, "dashboard", "js", "analytics.js"), "utf8");
 const serverSource = fs.readFileSync(path.join(ROOT, "server", "serve.mjs"), "utf8");
+vm.runInThisContext(analyticsScript, { filename: "analytics.js" });
+vm.runInThisContext(growthScript, { filename: "growth.js" });
 vm.runInThisContext(script, { filename: "dashboard.js" });
 
 for (let attempt = 0; attempt < 100 && !elements["view-root"].innerHTML.includes("Content counts"); attempt += 1) {
@@ -116,7 +122,8 @@ for (const nav of navItems) {
   rendered[nav.dataset.nav] = html;
   check(html.length > 200, `${nav.dataset.nav}: empty render`);
   check(!html.includes("[object Object]"), `${nav.dataset.nav}: object leaked into HTML`);
-  check(findUnlabelledControls(html).length === 0, `${nav.dataset.nav}: unlabelled form control`);
+  const unlabelled = findUnlabelledControls(html);
+  check(unlabelled.length === 0, `${nav.dataset.nav}: unlabelled form control ${unlabelled.join(" ")}`);
 }
 
 function clickAction(dataset) {
@@ -255,6 +262,12 @@ check(rendered.digital.includes('data-value-type="boolean"') && rendered.digital
 check(rendered.images.includes("Media registry"), "images: media registry editor missing");
 check(rendered.backups.includes("Backup list"), "backups: list missing");
 check(rendered.backups.includes('data-action="restore-backup"'), "backups: restore control missing");
+check(rendered.leads.includes("Leads &amp; bookings") && rendered.leads.includes("Export CSV"), "leads: table tools missing");
+check(rendered["media-buying"].includes("UTM builder") && rendered["media-buying"].includes("WhatsApp links"), "media buying: tabs missing");
+check(rendered.campaigns.includes("campaigns.json"), "campaigns: collection editor missing");
+check(rendered.tips.includes("Daily tips") && rendered.tips.includes('data-growth="tip-add"'), "tips: root-array editor missing");
+check(serverSource.includes('"campaigns.json", "tips.json"') && serverSource.includes('file === "tips.json"'), "server: new content files or tips array validation missing");
+check(growthScript.includes("lr_dash_leads_token") && growthScript.includes("lr_dash_leads_cache") && growthScript.includes("mode:'no-cors'"), "leads: token/cache/update contract missing");
 
 const css = fs.readFileSync(path.join(ROOT, "dashboard", "css", "dashboard.css"), "utf8");
 check(/@media \(max-width: 52rem\)[\s\S]*?\.bilingual-grid \{ grid-template-columns: 1fr; \}/.test(css), "responsive: bilingual fields do not collapse");

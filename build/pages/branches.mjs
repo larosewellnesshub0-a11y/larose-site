@@ -2,7 +2,7 @@
    Branch pages
    ========================================================================== */
 
-import { t, ta, esc, link, asset, icon, map, when, published } from "../lib/util.mjs";
+import { t, ta, esc, link, asset, icon, map, when, published, branchCardImage } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import { pageHero, sectionHead, specialtyCard, ctaBand } from "../lib/components.mjs";
 
@@ -10,7 +10,9 @@ function branchCard({ c, locale, depth, b }) {
   const s = c.site;
   return `<article class="card card--branch" data-reveal>
     <div class="card__media arch arch--wide">
-      ${b.photos?.[0]
+      ${branchCardImage(b)
+        ? `<img src="${asset(depth, branchCardImage(b))}" alt="${esc(t(b.name, locale))}" width="600" height="400" loading="lazy" decoding="async">`
+        : b.photos?.[0]
         ? `<img src="${asset(depth, b.photos[0].src)}" alt="${esc(t(b.photos[0].alt, locale))}" width="600" height="400" loading="lazy" decoding="async">`
         : `<div class="doctor-placeholder" style="border-radius:0;aspect-ratio:3/2">${icon("pin")}</div>`}
       ${when(b.status === "soon", `<span class="badge-sample badge-sample--soon">${esc(t(s.ui.openingSoon, locale))}</span>`)}

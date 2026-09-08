@@ -93,8 +93,8 @@
     }
    ],
    "freeSample": {
-    "_note": "The 60-recipe taster. The public URL stays laroseclinics.com/RecipeGuide - it is the link already in customers hands - but it now serves the rebuilt, brand-matched guide generated at site/recipe-guide/index.html. Deploy that directory to /RecipeGuide/.",
-    "url": "/RecipeGuide/",
+    "_note": "The 60-recipe taster now lives at laroseclinics.com/RecipeGuide/free/. The existing customer URL laroseclinics.com/RecipeGuide/ remains the recipe-book landing page.",
+    "url": "/RecipeGuide/free/",
     "label": {
      "ar": "جرّب ٦٠ وصفة مجاناً",
      "en": "Try 60 recipes free"

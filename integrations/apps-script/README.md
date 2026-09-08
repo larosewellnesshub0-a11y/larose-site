@@ -32,23 +32,32 @@ That probe only proves the script is reachable - it never touches the
 spreadsheet. To prove capture still works you have to submit a real form and
 look for the row.
 
-## Why "Anyone" is required, and why it is safe
+## Why "Anyone" is required, and how reads are protected
 
 A static site has no server and no way to prove who it is, so the endpoint must
 accept an unauthenticated POST. The URL is therefore effectively public, and
-the script is written for that. It **only ever appends**: there is no path that
-reads, searches or returns anything from the spreadsheet, so knowing the URL
-buys someone nothing but the ability to add a row. It also:
+the normal form path is written for that and only appends. Lead reads and status
+updates use a separate non-empty `READ_TOKEN`. The token lives only in Apps
+Script Properties and in the dashboard user's browser; it must never be added
+to this repository, a page URL in the public site, or a content file. The script:
 
-- accepts only the eleven known field names and discards everything else, so a
+- accepts only the known field names and discards everything else, so a
   crafted POST cannot invent columns or set `Status` itself
 - caps every field at 2000 characters
 - takes the timestamp from Google's clock, never from the caller
 - takes a lock around the append, so two submissions in the same second cannot
   overwrite each other
 
-**Do not add a `doGet` that returns sheet data.** That single change would turn
-a harmless public endpoint into a data leak.
+Set it in **Project Settings → Script Properties**: add property `READ_TOKEN`
+with a long random value. Give that value only to dashboard users who need lead
+access. To rotate it, replace the Script Property, save, update the value in the
+authorised browser, and redeploy. The old token stops authorising reads and
+updates. Calls without the exact non-empty token return only `unauthorised`.
+
+`GET ?action=leads&token=...` returns the headers and data rows. Optional ISO
+`since` filters by timestamp. An optional safe `callback` provides a JSONP
+fallback. A POST with `action: updateStatus`, the token, a 1-based sheet `row`,
+`status`, and `notes` updates only those two columns.
 
 If the URL is ever abused: **Deploy -> Manage deployments -> Archive**, create a
 new deployment, and put the new URL in the dashboard under Integrations. The old
@@ -57,7 +66,7 @@ URL dies immediately.
 ## Changing the script later
 
 Apps Script deployments are versioned. After editing `Code.gs` use
-**Deploy -> Manage deployments -> (pencil) -> Version: New version -> Deploy**.
+**Deploy → Manage deployments → edit (pencil) → New version → Deploy**.
 Using "New deployment" instead gives you a *different* URL, and the site will
 keep posting to the old one.
 

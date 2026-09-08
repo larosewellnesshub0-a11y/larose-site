@@ -3,7 +3,7 @@
    Every other page follows the composition conventions established here.
    ========================================================================== */
 
-import { t, ta, esc, link, asset, icon, sprig, map, when, published, doctorsIn } from "../lib/util.mjs";
+import { t, ta, esc, link, asset, icon, sprig, map, when, published, doctorsIn, branchCardImage } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
   sectionHead, specialtyCard, doctorCard, reviewCard, ratingSummary,
@@ -281,7 +281,9 @@ ${finder({ c, locale, depth })}
     <div class="grid grid-3">
       ${map(branches, (b) => `<article class="card card--branch" data-reveal>
         <div class="card__media arch arch--wide">
-          ${b.photos?.[0]
+          ${branchCardImage(b)
+            ? `<img src="${asset(depth, branchCardImage(b))}" alt="${esc(t(b.name, locale))}" width="600" height="400" loading="lazy" decoding="async">`
+            : b.photos?.[0]
             ? `<img src="${asset(depth, b.photos[0].src)}" alt="${esc(t(b.photos[0].alt, locale))}" width="600" height="400" loading="lazy" decoding="async">`
             : `<div class="doctor-placeholder" style="border-radius:0;aspect-ratio:3/2">${icon("pin")}</div>`}
           ${when(b.status === "soon", `<span class="badge-sample badge-sample--soon">${esc(t(s.ui.openingSoon, locale))}</span>`)}
