@@ -71,7 +71,11 @@ export function rel(depth) {
 export function link(depth, href) {
   if (!href) return "#";
   if (/^(https?:|mailto:|tel:|#)/.test(href)) return href;
-  return rel(depth) + href;
+  /* Clean URLs: the site is served by GitHub Pages, which resolves `dir/` to
+     `dir/index.html`, so links never expose the file name (2026-09-08). */
+  const clean = href.replace(/(^|\/)index\.html(?=$|[?#])/, "$1");
+  const out = rel(depth) + clean;
+  return out === "" ? "./" : out;
 }
 
 /** Link to an asset. Assets live at `site/assets/`, one level ABOVE the
@@ -83,7 +87,7 @@ export function asset(depth, p) {
 /** The same page in the other locale. */
 export function altLocaleHref(locale, depth, pagePath) {
   const other = locale === "ar" ? "en" : "ar";
-  return `${rel(depth + 1)}${other}/${pagePath}`;
+  return `${rel(depth + 1)}${other}/${pagePath.replace(/(^|\/)index\.html$/, "$1")}`;
 }
 
 /* ---- text ---------------------------------------------------------------- */

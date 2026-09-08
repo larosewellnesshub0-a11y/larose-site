@@ -81,8 +81,8 @@ function rootIndex(c) {
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(description)}">
 <meta name="twitter:image" content="${socialImage}">
-<meta http-equiv="refresh" content="0; url=ar/index.html">
-<script>location.replace("ar/index.html" + location.search + location.hash);</script>
+<meta http-equiv="refresh" content="0; url=ar/">
+<script>location.replace("ar/" + location.search + location.hash);</script>
 ${trackingHead(c)}
 <link rel="stylesheet" href="assets/css/tokens.css">
 <link rel="stylesheet" href="assets/css/base.css">
