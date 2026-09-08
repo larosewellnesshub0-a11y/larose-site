@@ -25,6 +25,7 @@
 <meta name="twitter:description" content="عيادات لاروز التخصصية في المعادي الجديدة بتجمع التغذية العلاجية والباطنة والأطفال وتخصصات تانية في مكان واحد. اختار لغتك واعرف الخدمات والأطباء والحجز.">
 <meta name="twitter:image" content="https://laroseclinics.com/assets/img/clinic/hero-clinic-1200.webp">
 <meta http-equiv="refresh" content="0; url=ar/index.html">
+<script>location.replace("ar/index.html" + location.search + location.hash);</script>
 
 <link rel="stylesheet" href="assets/css/tokens.css">
 <link rel="stylesheet" href="assets/css/base.css">
@@ -42,11 +43,10 @@
   <div class="gate">
     <h1 class="visually-hidden">عيادات لاروز التخصصية | La Rose Wellness Hub</h1>
     <img src="assets/img/logo/larose-wordmark-white.png" alt="La Rose Wellness Hub" width="984" height="849">
-    <div class="gate__actions">
-      <a class="btn btn--on-dark btn--lg" href="ar/index.html" lang="ar" dir="rtl">العربية</a>
-      <a class="btn btn--on-dark btn--lg" href="en/index.html" lang="en" dir="ltr">English</a>
-    </div>
-    <p>مركز طبي متعدد التخصصات · Multi-specialty medical centre</p>
+    <!-- Arabic is the default; this body only shows if both the script and the
+         meta refresh are blocked, so it offers one link rather than a choice. -->
+    <p><a class="btn btn--on-dark btn--lg" href="ar/index.html" lang="ar" dir="rtl">ادخل للموقع</a></p>
+    <p>مركز طبي متعدد التخصصات · <a href="en/index.html" lang="en" dir="ltr" style="color:inherit">English</a></p>
   </div>
   <script src="assets/js/track.js" defer></script>
 </body>

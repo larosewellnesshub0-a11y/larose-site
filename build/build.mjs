@@ -82,6 +82,7 @@ function rootIndex(c) {
 <meta name="twitter:description" content="${esc(description)}">
 <meta name="twitter:image" content="${socialImage}">
 <meta http-equiv="refresh" content="0; url=ar/index.html">
+<script>location.replace("ar/index.html" + location.search + location.hash);</script>
 ${trackingHead(c)}
 <link rel="stylesheet" href="assets/css/tokens.css">
 <link rel="stylesheet" href="assets/css/base.css">
@@ -99,11 +100,10 @@ ${jsonLd({ c, locale: "ar", pagePath: "index.html", canonicalUrl: `${base}/` })}
   <div class="gate">
     <h1 class="visually-hidden">${esc(title)}</h1>
     <img src="assets/img/logo/larose-wordmark-white.png" alt="${esc(t(s.brand.name, "en"))}" width="984" height="849">
-    <div class="gate__actions">
-      <a class="btn btn--on-dark btn--lg" href="ar/index.html" lang="ar" dir="rtl">العربية</a>
-      <a class="btn btn--on-dark btn--lg" href="en/index.html" lang="en" dir="ltr">English</a>
-    </div>
-    <p>${esc(t(s.brand.kind, "ar"))} · ${esc(t(s.brand.kind, "en"))}</p>
+    <!-- Arabic is the default; this body only shows if both the script and the
+         meta refresh are blocked, so it offers one link rather than a choice. -->
+    <p><a class="btn btn--on-dark btn--lg" href="ar/index.html" lang="ar" dir="rtl">ادخل للموقع</a></p>
+    <p>${esc(t(s.brand.kind, "ar"))} · <a href="en/index.html" lang="en" dir="ltr" style="color:inherit">English</a></p>
   </div>
   <script src="assets/js/track.js" defer></script>
 </body>

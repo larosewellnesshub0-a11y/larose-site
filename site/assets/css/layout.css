@@ -272,13 +272,22 @@
 .burger[aria-expanded="true"] span::before { top: 0; transform: rotate(45deg); }
 .burger[aria-expanded="true"] span::after  { top: 0; transform: rotate(-45deg); }
 
-/* The complete English header needs this measure; below it the existing drawer
-   appears before the nowrap labels can meet the non-shrinking actions. */
-@media (min-width: 1600px) {
+/* Laptops get the full top bar from 1100px (client decision 2026-09-08: the
+   burger/drawer is for phones and tablets only). Between 1100 and 1599px the
+   nav is allowed to shrink and tightens its type so the seven English labels
+   fit beside the wordmark, the language switch and the Book button. */
+@media (min-width: 1100px) {
   .site-header__inner { max-width: 100rem; }
   .burger { display: none; }
 }
-@media (max-width: 1599px) { .nav--primary { display: none; } }
+@media (max-width: 1099px) { .nav--primary { display: none; } }
+@media (min-width: 1100px) and (max-width: 1599px) {
+  .nav--primary { flex: 1 1 auto; min-inline-size: 0; min-width: 0; }
+  .nav--primary .nav__link { font-size: var(--t-xs); padding-inline: .3rem; letter-spacing: 0; }
+  .nav { gap: .2rem; }
+  .wordmark__text { display: none; }
+  .header-actions { gap: .4rem; }
+}
 
 /* ==========================================================================
    3. MOBILE DRAWER
