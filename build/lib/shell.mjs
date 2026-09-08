@@ -57,7 +57,7 @@ function navChildren(item, c, locale) {
 function langSwitch({ c, locale, depth, pagePath, cls = "lang-switch" }) {
   const s = c.site;
   const other = locale === "ar" ? "en" : "ar";
-  const href = `${rel(depth + 1)}${other}/${pagePath}`;
+  const href = `${rel(depth + 1)}${other}/${pagePath.replace(/(^|\/)index\.html$/, "$1")}`;
   const label = s.i18n[other].label;
   return `<a class="${cls}" href="${href}" lang="${other}" hreflang="${other}"
      dir="${other === "ar" ? "rtl" : "ltr"}"
