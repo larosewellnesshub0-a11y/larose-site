@@ -281,3 +281,28 @@ and on the dashboard Overview, which lists every `_todo` in the content files.
 9. Legal review of `content` → the three `legal/` pages.
 10. Licence Graphik Arabic, or accept the IBM Plex Sans Arabic stand-in. Swapping
     it is a one-line change in `tokens.css`.
+
+---
+
+## 10. Added 2026-09-08 — tracking, publishing, hosted dashboard, imagery
+
+- **Tracking IDs** live in `content/site.json → integrations.analytics` (GA4, Clarity,
+  Meta, TikTok, Search Console / Bing verification). Empty string = tag not emitted.
+  `trackingHead(c)` in `build/lib/shell.mjs` is the single emitter. `site/assets/js/track.js`
+  fires the events listed in the dashboard's *Events & pixels* tab and captures UTM /
+  click ids into the booking payload and into WhatsApp links (`[LR-source-campaign]`).
+- **Forms → Google Sheet**: `integrations/apps-script/Code.gs` (redeploy from the clinic
+  account after edits; `READ_TOKEN` in Script Properties gates the dashboard's lead reads).
+- **RecipeGuide**: `/RecipeGuide/` is the recipe-book landing page; the free 60-recipe
+  guide is `/RecipeGuide/free/`. Both are single bilingual pages from `build/pages/recipe-guide.mjs`.
+- **Branch cards** use `cardImage` in `content/branches.json` (branded aerial renders in
+  `site/assets/img/clinic/branch-*.webp`). The Maadi gallery photos were restyled with AI;
+  originals are in `_project/img-backups/maadi-originals-20260908/`.
+- **Private data**: `content/_private/` (pricing, campaigns) is git-ignored; the repo is public.
+- **Publishing**: the dashboard's *Publish* button runs build → validate → commit → push; GitHub
+  Actions (`.github/workflows/deploy.yml`) deploys `site/` + `site/dashboard/` to GitHub Pages.
+  On the live domain the dashboard runs in read-only *hosted mode* from `dashboard/content/index.json`.
+- **Article covers**: `_project/article-covers-queue.json` + the in-page runner (`_project/article_runner.js`,
+  v2 uses a MutationObserver because background tabs throttle timers) and `tools/collect_article_covers.py`.
+  Every article/update now has its own cover; Q&A prompts are queued in `_project/qa-covers-queue.json`.
+- **Launch steps** (accounts, DNS, Search Console, GA4, Clarity): `_project/LAUNCH-GUIDE.md`.
