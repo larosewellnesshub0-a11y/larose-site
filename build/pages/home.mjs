@@ -31,7 +31,7 @@ export function renderHome({ c, locale }) {
   <div class="hero__media" role="presentation"
        style="background-image:url('${asset(depth, heroPhoto)}')"></div>
   <div class="wrap hero__inner">
-    <p class="hero__brand">${esc(t(s.brand.name, locale))}</p>
+    <p class="hero__brand">${esc(t(s.brand.name, locale))}${locale === "ar" ? ` <span class="hero__brand-en lat" lang="en" dir="ltr">${esc(t(s.brand.name, "en"))}</span>` : ""}</p>
     <p class="eyebrow">${esc(t(s.brand.kind, locale))}</p>
     <h1 class="h-display hero__title">${esc(t({
       ar: "حالتك أكبر من رأي تخصص واحد",

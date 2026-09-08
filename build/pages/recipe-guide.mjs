@@ -202,6 +202,7 @@ export function pages({ c, locale }) {
   const desc = "٦٠ وصفة من أكل البيت بالسعرات والماكروز، هدية من عيادات لاروز. Sixty everyday recipes with calories and macros, free from La Rose Clinics.";
   const canonical = `https://${s.brand.domain}/RecipeGuide/free/`;
 
+  const cover = imageIfExists("assets/img/digital/recipe-book-cover.webp") || "assets/img/digital/recipe-book.webp";
   const freeHtml = `<!doctype html>
 <html lang="ar" dir="rtl" class="rg lg-ar">
 <head>
@@ -298,10 +299,13 @@ ${JSON.stringify({
 
 <main id="rg-main">
   <section class="rg-hero">
-    <div class="rg-wrap">
-      <p class="rg-hero__eyebrow">${bi(COPY.eyebrow)}</p>
-      <h1 class="rg-hero__title">${bi(COPY.title)}</h1>
-      <p class="rg-hero__lede">${bi(COPY.lede)}</p>
+    <div class="rg-wrap rg-hero__grid">
+      <div>
+        <p class="rg-hero__eyebrow">${bi(COPY.eyebrow)}</p>
+        <h1 class="rg-hero__title">${bi(COPY.title)}</h1>
+        <p class="rg-hero__lede">${bi(COPY.lede)}</p>
+      </div>
+      <img class="rg-hero__cover" src="${A(cover)}" alt="${esc(t(COPY.title, "en"))}" width="700" height="1050" decoding="async">
     </div>
   </section>
 
@@ -460,7 +464,6 @@ ${JSON.stringify({
 </body>
 </html>`;
 
-  const cover = imageIfExists("assets/img/digital/recipe-book-cover.webp") || "assets/img/digital/recipe-book.webp";
   const orderText = encodeURIComponent("أهلاً، عايز أطلب كتاب وصفات لاروز");
   const whatsapp = `${s.contact.whatsapp.href}&text=${orderText}`;
   const list = (items) => `<ul class="rg-landing__list">${map(items || [], (item) => `<li>${bi(item)}</li>`)}</ul>`;
@@ -503,15 +506,15 @@ ${trackingHead(c)}
 </div></header>
 <main id="rg-main" class="rg-landing">
   <section class="rg-landing__hero"><div class="rg-wrap rg-landing__hero-grid">
-    <div><p class="rg-hero__eyebrow">${bi({ ar: "كتاب لاروز الرقمي", en: "La Rose digital recipe book" })}</p><h1 class="rg-hero__title">${bi(product.name)}</h1><p class="rg-hero__lede">${bi(product.lede)}</p>
+    <div><p class="rg-hero__eyebrow">${bi({ ar: "كتاب لاروز الرقمي", en: "La Rose digital recipe book" })}</p><h1 class="rg-hero__title">${bi(product.name)}</h1><p class="rg-hero__count"><bdi class="num">250</bdi> ${bi({ ar: "وصفة مصرية بالسعرات والماكروز", en: "Egyptian recipes with calories and macros" })}</p><p class="rg-hero__lede">${bi(product.lede)}</p>
     <p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="${esc(whatsapp)}" target="_blank" rel="noopener">${bi(product.cta)}</a><a class="rg-btn rg-btn--dark" href="free/" data-track="recipe-guide">${bi(product.freeSample.label)}</a></p></div>
     <img class="rg-landing__cover" src="../${esc(cover)}" alt="${esc(t(product.name, "en"))}" width="700" height="875">
   </div></section>
-  <section class="rg-landing__section"><div class="rg-wrap"><h2>${bi({ ar: "إيه اللي جوه الكتاب؟", en: "What is inside?" })}</h2>${list(product.inside)}</div></section>
+  <section class="rg-landing__section"><div class="rg-wrap rg-landing__inside"><div><h2>${bi({ ar: "إيه اللي جوه الكتاب؟", en: "What is inside?" })}</h2>${list(product.inside)}</div><figure class="rg-landing__spread"><img src="../assets/img/digital/recipe-book.webp" alt="${esc(t({ ar: "صفحتان من داخل كتاب وصفات لاروز", en: "Two pages from inside the La Rose recipe book" }, "en"))}" width="600" height="750" loading="lazy" decoding="async"><figcaption>${bi({ ar: "لقطة من داخل الكتاب الكامل", en: "A look inside the full book" })}</figcaption></figure></div></section>
   <section class="rg-landing__section rg-landing__section--tint"><div class="rg-wrap"><h2>${bi({ ar: "الكتاب مناسب لمين؟", en: "Who is it for?" })}</h2>${list(product.audience)}</div></section>
   <section class="rg-landing__section"><div class="rg-wrap"><h2>${bi({ ar: "إزاي تطلبه؟", en: "How to order" })}</h2>${list([{ar:"ابعت لنا على واتساب",en:"Message us on WhatsApp"},{ar:"الفريق هيأكد معاك الطلب",en:"The team confirms your order"},{ar:"بنبعت لك ملف PDF",en:"Your PDF is sent to you"}])}<p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="${esc(whatsapp)}" target="_blank" rel="noopener">${bi(product.cta)}</a></p></div></section>
   <section class="rg-landing__section rg-landing__section--tint"><div class="rg-wrap"><h2>${bi({ ar: "أسئلة متكررة", en: "Frequently asked questions" })}</h2><div class="rg-landing__faq">${map(product.faq || [], (item) => `<details><summary>${bi(item.q)}</summary><p>${bi(item.a)}</p></details>`)}</div></div></section>
-  <section class="rg-cta"><div class="rg-wrap"><h2 class="rg-cta__title">${bi(product.freeSample.label)}</h2><p class="rg-cta__text">${bi(product.freeSample.text)}</p><p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="free/" data-track="recipe-guide">${bi(product.freeSample.label)}</a></p></div></section>
+  <section class="rg-cta"><div class="rg-wrap"><h2 class="rg-cta__title">${bi(product.freeSample.label)}</h2><p class="rg-cta__text"><bdi class="num">60</bdi> ${bi({ ar: "وصفة من الكتاب الكامل، مجاناً وبدون تسجيل", en: "recipes from the full book, free and with no sign-up" })} · ${bi(product.freeSample.text)}</p><p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="free/" data-track="recipe-guide">${bi(product.freeSample.label)}</a></p></div></section>
 </main>
 <footer class="rg-foot"><div class="rg-wrap"><p><a href="https://${s.brand.domain}/">${esc(t(s.brand.name,"ar"))}</a></p><p class="rg-foot__meta"><a href="tel:${esc(s.contact.phone.tel)}"><bdi class="num">${esc(s.contact.phone.display)}</bdi></a> · <a href="${esc(s.contact.whatsapp.href)}">WhatsApp</a></p></div></footer>
 <script src="../assets/js/track.js" defer></script>
