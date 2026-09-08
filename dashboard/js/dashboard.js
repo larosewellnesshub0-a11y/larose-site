@@ -3078,6 +3078,11 @@
   });
 
   document.addEventListener("click", (event) => {
+    /* growth.js buttons carry data-growth rather than data-action so the two
+       vocabularies cannot collide; route them first. */
+    const growthElement = event.target.closest("[data-growth]");
+    if (growthElement && window.DashboardGrowth?.action?.(growthElement.dataset.growth, growthElement)) return;
+
     const actionElement = event.target.closest("[data-action]");
     if (!actionElement) return;
     const action = actionElement.dataset.action;
