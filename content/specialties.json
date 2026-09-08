@@ -1,0 +1,2129 @@
+{
+ "_note": "Specialties 01–04 are STAFFED and every clinical claim is traceable to the clinic's own patient-facing scripts (the price/offers sheet and the doctors' artwork). Specialties 05–08 are announced but not yet staffed: their medical content is accurate general information, their doctor slots carry sample cards, and each is flagged `staffed: false`. Set `published: false` in the dashboard to remove one from the nav, footer, sitemap and finder. The Arabic is written in the clinic's own register: warm Egyptian Arabic, addressed to the patient, no promises, no pressure. Results arrays stay empty until approved files are supplied. Commented schema example (documentation only): { image: \"assets/img/results/example.webp\", alt: { ar: \"وصف دقيق للصورة\", en: \"Accurate description of the image\" }, caption: { ar: \"تعليق الصورة\", en: \"Image caption\" }, consent: true }. Written patient consent must be confirmed before adding the entry.",
+ "specialties": [
+  {
+   "slug": "clinical-nutrition",
+   "index": "01",
+   "published": true,
+   "staffed": true,
+   "featured": true,
+   "hasBeforeAfter": true,
+   "results": [],
+   "hasReviews": true,
+   "icon": "leaf",
+   "name": {
+    "ar": "التغذية العلاجية والإكلينيكية",
+    "en": "Clinical & Therapeutic Nutrition"
+   },
+   "short": {
+    "ar": "التغذية العلاجية",
+    "en": "Clinical Nutrition"
+   },
+   "sub": {
+    "ar": "خطة مبنية على كشف حقيقي، مش جدول جاهز",
+    "en": "A plan based on a proper consultation, not a ready-made diet sheet"
+   },
+   "intro": {
+    "ar": "مفيش خطة واحدة بتنفع مع الكل. الكشف بيبدأ بفهم جسمك وحالتك بشكل كامل: تحليل التركيب الجسمي بجهاز InBody، تاريخك الصحي، تحاليلك، وطبيعة يومك الفعلية. بعدها بنحدد مع بعض الخطة المناسبة لحياتك، ونعدّلها في المتابعة الأسبوعية حسب استجابة جسمك.",
+    "en": "No single plan works for everyone. Your consultation starts with a full understanding of your body and your circumstances: an InBody body-composition analysis, your medical history, your lab results and what your day actually looks like. We then decide on a plan that fits your life and adjust it at weekly follow-ups according to how your body responds."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "كشف التغذية بيشمل",
+     "en": "A nutrition consultation includes"
+    },
+    "items": {
+     "ar": [
+      "تقييم طبي كامل بجهاز الـ InBody: نسبة الدهون والعضلات وكل القياسات المعتمدة للاطمئنان وتقييم حالة الجسم.",
+      "قياس Body Contouring عشان نتابع تطورك بالأرقام مش بالإحساس.",
+      "كشف كامل مع طبيبة تغذية علاجية وإكلينيكية بدرجة أخصائي، بتشوف كل التحاليل والتاريخ المرضي وتفهم حالتك لأقصى درجة عشان نقدّم حل مخصص ليك.",
+      "تحديد الخطة الأنسب لحالتك: جلسات أو حقن أو خطة غذائية.",
+      "مراجعة تحاليلك، ولو فيه أدوية حالية بتاخدها."
+     ],
+     "en": [
+      "A full assessment on the InBody machine: body fat, muscle mass and the standard measurements used to check where your body actually stands.",
+      "A body-contouring measurement, so progress is tracked in numbers rather than by feel.",
+      "A full consultation with a specialist-level clinical and therapeutic nutrition doctor, who reviews every test result and your medical history to understand your case properly and build a plan made for you.",
+      "Deciding the plan that suits your case: sessions, injections or a nutrition plan.",
+      "A review of your test results and of any medicines you are currently taking."
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "السمنة وأسباب زيادة الوزن",
+     "النحافة وزيادة الوزن بشكل صحي",
+     "مقاومة الإنسولين",
+     "تكيس المبايض",
+     "خمول الغدة الدرقية والسمنة الهرمونية",
+     "تغذية صحة المرأة: الدورة، انقطاع الطمث، هشاشة العظام",
+     "تغذية الحمل والرضاعة",
+     "تغذية الأطفال ومشاكل النمو",
+     "التغذية الرياضية وزيادة الكتلة العضلية",
+     "مشاكل الشعر والبشرة الناتجة عن نقص الفيتامينات والمعادن"
+    ],
+    "en": [
+     "Obesity and the causes of weight gain",
+     "Being underweight, and gaining weight healthily",
+     "Insulin resistance",
+     "Polycystic ovary syndrome (PCOS)",
+     "Hypothyroidism and hormonal weight gain",
+     "Women's health nutrition: menstrual cycle, menopause, bone density",
+     "Nutrition through pregnancy and breastfeeding",
+     "Children's nutrition and growth problems",
+     "Sports nutrition and building muscle mass",
+     "Hair and skin problems caused by vitamin and mineral deficiency"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "nutrition-consultation",
+     "name": {
+      "ar": "كشف التغذية",
+      "en": "Nutrition consultation"
+     },
+     "summary": {
+      "ar": "تقييم طبي شامل مع تحليل التركيب الجسمي",
+      "en": "A full medical assessment with body-composition analysis"
+     },
+     "body": {
+      "ar": "الكشف مش مجرد ميزان ورقم. بنعمل تحليل التركيب الجسمي بجهاز InBody عشان نعرف نسبة الدهون والعضلات والمياه في جسمك، مش الوزن الكلي بس، ونراجع تاريخك الصحي وتحاليلك. ومش هنرشح لك حاجة انت مش محتاجاها؛ لو الحل الأنسب لحالتك حاجة تانية هنقولك.",
+      "en": "The consultation is more than a scale reading. We run an InBody body-composition analysis to see your fat, muscle and water distribution rather than just total weight, and we go through your medical history and your labs. We will not recommend something you do not need; if a different route suits your case better, we will say so."
+     },
+     "facts": {
+      "ar": [
+       "تحليل التركيب الجسمي InBody داخل الكشف",
+       "قياس body contouring لتقييم التطور",
+       "مراجعة التحاليل والتاريخ الطبي",
+       "خطة مكتوبة تخرج بيها من الزيارة"
+      ],
+      "en": [
+       "InBody body-composition analysis included",
+       "Body-contouring measurements to track progress",
+       "Medical history and lab review",
+       "You leave the visit with a written plan"
+      ]
+     }
+    },
+    {
+     "slug": "weekly-follow-up",
+     "name": {
+      "ar": "المتابعة الأسبوعية",
+      "en": "Weekly follow-up"
+     },
+     "summary": {
+      "ar": "الخطة بتتعدّل كل أسبوع على حسب استجابتك",
+      "en": "The plan is adjusted each week to how you responded"
+     },
+     "body": {
+      "ar": "الخطة اللي بتتكتب مرة واحدة وتتسلّم مش بتكمّل. في المتابعة الأسبوعية بنقيس التغيير في التركيب الجسمي مش في الوزن بس، ونظبّط الكميات والاختيارات على حسب اللي جسمك عمله فعلاً الأسبوع اللي فات، وعلى حسب اللي قدرت تلتزم بيه.",
+      "en": "A plan written once and handed over does not last. At the weekly follow-up we measure the change in body composition rather than weight alone, and adjust portions and choices according to what your body actually did last week, and to what you were able to stick to."
+     },
+     "facts": {
+      "ar": [
+       "InBody جديد كل متابعة",
+       "مراجعة أي تحاليل جديدة",
+       "تعديل الجرعة أو الخطة حسب النتايج"
+      ],
+      "en": [
+       "A fresh InBody at every follow-up",
+       "Review of any new labs",
+       "Dose or plan adjusted to the results"
+      ]
+     }
+    },
+    {
+     "slug": "integrated-consultation",
+     "name": {
+      "ar": "الكشف المتكامل: تغذية وباطنة",
+      "en": "Integrated consultation: nutrition and internal medicine"
+     },
+     "summary": {
+      "ar": "زيارة واحدة يشوفك فيها أخصائي التغذية وأخصائي الباطنة",
+      "en": "One visit, seen by both the nutrition and the internal medicine specialist"
+     },
+     "body": {
+      "ar": "هدفنا مش إننا ننزّل الوزن بس: هدفنا نحل السبب اللي سبب الزيادة من الأول، والمشاكل اللي حصلت معاها. لو في أعراض جهاز هضمي أو غدة أو كبد شغالة مع بعض، الكشف المتكامل بيوفّر عليك زيارتين ومواعيد متفرقة: التقييم الغذائي وتحليل InBody والسونار وكشف الباطنة في نفس الزيارة، والخطة بتتبني بينهم مع بعض.",
+      "en": "The goal is not only to bring the weight down: it is to resolve what caused the gain in the first place, and the problems that came with it. When digestive, thyroid or liver symptoms are in play at the same time, the integrated consultation saves you two separate visits: the nutritional assessment, the InBody, the ultrasound and the internal-medicine examination all happen in the same appointment, and the plan is built between them."
+     },
+     "facts": {
+      "ar": [
+       "تقييم غذائي كامل بجهاز InBody",
+       "كشف باطنة مع أخصائي الكبد والجهاز الهضمي",
+       "سونار على البطن في نفس الزيارة",
+       "خطة واحدة متكاملة"
+      ],
+      "en": [
+       "Full nutritional assessment with InBody",
+       "Internal-medicine examination with the liver and GI specialist",
+       "Abdominal ultrasound in the same visit",
+       "One integrated plan"
+      ]
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "الكشف بيشمل إيه بالظبط؟",
+      "en": "What exactly does the consultation include?"
+     },
+     "a": {
+      "ar": "تقييم طبي كامل باستخدام جهاز InBody لتحديد نسبة الدهون والعضلات والمياه والقياسات المختلفة، وقياس body contouring لتقييم التطور، وكشف كامل مع طبيبة تغذية علاجية وإكلينيكية بدرجة أخصائي بتراجع تحاليلك وتاريخك المرضي، وتحديد الخطة الأنسب لحالتك، سواء خطة غذائية أو جلسات أو حقن.",
+      "en": "A full medical assessment using the InBody device to determine your fat, muscle and water percentages and your measurements; body-contouring measurements to track progress; a full consultation with a specialist-grade clinical and therapeutic nutrition physician who reviews your labs and medical history; and the setting of the plan that suits your case: whether that is a nutrition plan, sessions or injectable therapy."
+     }
+    },
+    {
+     "q": {
+      "ar": "لازم أجيب تحاليل قبل الكشف؟",
+      "en": "Do I need to bring labs to the consultation?"
+     },
+     "a": {
+      "ar": "لو عندك تحاليل حديثة هاتها معاك، وده بيوفّر وقت. لو مش متوفرة، الدكتورة هتحدد لك المطلوب بعد الكشف. لو الخطة هتشمل حقن التخسيس، فيه تحاليل أساسية بنطلبها قبل ما نبدأ: CBC، وTSH وFT3 وFT4، وUrea وCreatinine، وAST وALT، وHbA1c وFBS.",
+      "en": "If you have recent labs, bring them, it saves time. If you do not, the doctor will specify what is needed after the consultation. If the plan will include weight-loss injections, there is a baseline panel we ask for first: CBC; TSH, FT3 and FT4; urea and creatinine; AST and ALT; HbA1c and fasting blood sugar."
+     }
+    },
+    {
+     "q": {
+      "ar": "هل بتديني نظام جاهز؟",
+      "en": "Will I be given a ready-made diet sheet?"
+     },
+     "a": {
+      "ar": "لأ. مفيش خطة جاهزة بتنفع مع الكل. الخطة بتتبني بعد ما نفهم تركيب جسمك وتاريخك الصحي وشكل يومك الحقيقي، وبتتعدّل كل أسبوع على حسب استجابتك واللي قدرت تلتزم بيه فعلاً.",
+      "en": "No. No single plan works for everyone. The plan is built after we understand your body composition, your medical history and the real shape of your day, and it is adjusted every week according to how you responded and to what you were actually able to keep to."
+     }
+    },
+    {
+     "q": {
+      "ar": "إيه الفرق بين الوزن والتركيب الجسمي؟",
+      "en": "What is the difference between weight and body composition?"
+     },
+     "a": {
+      "ar": "الميزان بيقولك رقم واحد بس. تحليل التركيب الجسمي بيقولك الرقم ده متكوّن من إيه: كام دهون، وكام عضل، وكام مياه. ده مهم لأن اللي بينزل عضل بيبان على الميزان إنه \"نجاح\"، وهو في الحقيقة بيبطّئ الحرق ويخلّي الوزن يرجع تاني. إحنا بنتابع التركيب مش الرقم.",
+      "en": "The scale gives you one number. A body-composition analysis tells you what that number is made of: how much is fat, how much is muscle, how much is water. This matters because losing muscle looks like success on the scale while in fact it slows your metabolism and makes the weight come back. We follow composition, not the number."
+     }
+    },
+    {
+     "q": {
+      "ar": "المتابعة لازم تكون أسبوعية؟",
+      "en": "Does follow-up have to be weekly?"
+     },
+     "a": {
+      "ar": "المتابعة الأسبوعية هي اللي بتخلّي الخطة حيّة وبتتعدّل مع جسمك. التأخير عن المتابعة أكتر من أسبوع بيتحسب كشف جديد، لأن الحالة بتكون اتغيرت ومحتاج تقييم من أول.",
+      "en": "Weekly follow-up is what keeps the plan alive and adapting to your body. A gap of more than a week counts as a new consultation, because the situation will have changed and needs assessing again from the start."
+     }
+    },
+    {
+     "q": {
+      "ar": "عايز أظبط أكل البيت كله، أبدأ منين؟",
+      "en": "I want to improve how the whole family eats. Where do I start?"
+     },
+     "a": {
+      "ar": "ابدأ بتغيير واحد يخص البيت كله: مواعيد أقرب للانتظام، مياه متاحة، وخضار أو فاكهة مع الوجبات، مع مصدر بروتين مناسب. ما تعملش رجيم واحد لكل الأعمار؛ الأطفال والحمل والمرض المزمن لهم احتياجات مختلفة، والخطة تتفصل لو فيه حالة طبية.",
+      "en": "Start with one household change: more regular meal times, accessible water, vegetables or fruit with meals, and a suitable protein source. Do not put every age on one diet; children, pregnancy and chronic illness have different needs, and a medical condition requires an individual plan."
+     }
+    },
+    {
+     "q": {
+      "ar": "الأكل يكفي ولا محتاج مكملات وفيتامينات؟",
+      "en": "Is food enough, or do I need vitamins and supplements?"
+     },
+     "a": {
+      "ar": "ده يعتمد على أكلك، العمر، الأعراض، الحمل أو الرضاعة، الأمراض والأدوية، وأحياناً التحاليل. المكمل مش تأمين عام، والزيادة من بعض العناصر ممكن تضر؛ راجع الاحتياج والجرعة بدل ما تبدأ مجموعة عشوائية.",
+      "en": "It depends on your food, age, symptoms, pregnancy or breastfeeding, health conditions, medicines and sometimes tests. A supplement is not universal insurance, and excess amounts of some nutrients can harm, so review the need and dose instead of starting a random collection."
+     }
+    },
+    {
+     "q": {
+      "ar": "بطلب أكل بره كتير، ينفع أظبط تغذيتي من غير ما أطبخ كل يوم؟",
+      "en": "I order food often. Can I improve my diet without cooking every day?"
+     },
+     "a": {
+      "ar": "ينفع. اختار وجبة فيها مصدر بروتين وخضار، واطلب الصوصات والإضافات منفصلة، وحدد الكمية قبل ما تبدأ بدل الأكل من عبوة كبيرة. راجع اختياراتك المتكررة؛ تعديل الطلب المعتاد أهم من البحث كل مرة عن وجبة مثالية.",
+      "en": "Yes. Choose a meal with a protein source and vegetables, ask for sauces and extras separately, and decide the portion before eating from a large container. Review your repeated orders; improving the usual choice matters more than finding a perfect meal every time."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "التغذية العلاجية والإكلينيكية في المعادي | عيادات لاروز",
+     "en": "Clinical Nutrition in Maadi | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "كشف تغذية علاجية في المعادي مع تحليل التركيب الجسمي InBody ومتابعة أسبوعية. علاج السمنة، النحافة، مقاومة الإنسولين، وتكيس المبايض مع أخصائيات تغذية علاجية وإكلينيكية.",
+     "en": "Clinical nutrition consultations in Maadi with InBody body-composition analysis and weekly follow-up. Obesity, being underweight, insulin resistance and PCOS, with specialist clinical nutrition physicians."
+    }
+   }
+  },
+  {
+   "slug": "weight-management",
+   "index": "02",
+   "published": true,
+   "staffed": true,
+   "featured": true,
+   "hasBeforeAfter": true,
+   "results": [],
+   "hasReviews": true,
+   "icon": "scale",
+   "name": {
+    "ar": "إدارة الوزن وبدائل التكميم",
+    "en": "Weight Management & Non-surgical Alternatives"
+   },
+   "short": {
+    "ar": "إدارة الوزن",
+    "en": "Weight Management"
+   },
+   "sub": {
+    "ar": "حقن التخسيس تحت إشراف طبي، مع متابعة أسبوعية",
+    "en": "Weight-loss injections under medical supervision, with weekly follow-up"
+   },
+   "intro": {
+    "ar": "حقن التخسيس دواء، مش منتج تجميل، وبتحتاج جرعة متظبطة ومتابعة طبية. بنبدأ بأقل جرعة فعالة، ونزوّدها بالتدريج حسب استجابتك، مع متابعة أسبوعية وخطة غذائية ماشية معاها، عشان اللي ينزل يكون دهون مش عضل، واللي ينزل يفضل نازل.",
+    "en": "Weight-loss injections are medication, not a cosmetic product, and they require careful dose adjustment and medical supervision. We start with the lowest effective dose and increase it gradually according to your response, alongside weekly follow-up and a nutrition plan, so that what you lose is fat rather than muscle, and so that it stays lost."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "تقييم إدارة الوزن بيشمل",
+     "en": "A weight-management assessment includes"
+    },
+    "items": {
+     "ar": [
+      "تقييم إذا كان العلاج الدوائي مناسب لحالتك",
+      "تحديد الخيار الأنسب لو العلاج مناسب",
+      "البدء بأقل جرعة فعالة وزيادتها تدريجياً حسب الاستجابة",
+      "خطة غذائية ومتابعة أسبوعية"
+     ],
+     "en": [
+      "Assessing whether medication is suitable for your case",
+      "Choosing the most suitable option when treatment is appropriate",
+      "Starting at the lowest effective dose and increasing it gradually according to your response",
+      "A nutrition plan and weekly follow-up"
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "السمنة المقاومة للأنظمة الغذائية",
+     "اللي جرّبت أنظمة كتير ورجعت تزيد تاني",
+     "بدائل التكميم من غير جراحة",
+     "السمنة المصاحبة لمقاومة الإنسولين",
+     "السمنة المصاحبة لتكيس المبايض",
+     "التثبيت بعد نزول الوزن"
+    ],
+    "en": [
+     "Obesity that has not responded to diet alone",
+     "Repeated cycles of losing weight and regaining it",
+     "Non-surgical alternatives to bariatric surgery",
+     "Obesity alongside insulin resistance",
+     "Obesity alongside PCOS",
+     "Maintaining weight after loss"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "medical-weight-loss",
+     "name": {
+      "ar": "علاج إنقاص الوزن تحت إشراف طبي",
+      "en": "Medically supervised weight-loss treatment"
+     },
+     "summary": {
+      "ar": "حلول معتمدة طبياً، بجرعة متدرّجة ومتابعة أسبوعية",
+      "en": "Medically approved options, stepped gradually, with weekly follow-up"
+     },
+     "body": {
+      "ar": "في حلول دوائية معتمدة طبياً بتساعد على إنقاص الوزن، بتشتغل على الهرمونات اللي بتنظّم الإحساس بالجوع والشبع، فبتقلل الشهية وبتبطّئ إفراغ المعدة، وبعضها بيساعد كمان في تحسين مقاومة الإنسولين. بتتاخد كحقنة أسبوعية، والجرعة بتبدأ من أقل مستوى وبتزيد على مراحل حسب استجابتك وراحتك، مش قرار بيتاخد مرة واحدة. الكشف هو اللي بيحدد إذا كان العلاج ده مناسب لحالتك من الأساس، وأنهي خيار منهم الأنسب ليك، ولو مش مناسب هنقولك ونرشّح البديل. العلاج بيمشي دايماً مع خطة غذائية ومتابعة أسبوعية، مش لوحده.",
+      "en": "There are medically approved treatments that support weight loss by acting on the hormones that regulate hunger and fullness: they reduce appetite and slow stomach emptying, and some also help with insulin resistance. They are given as a weekly injection, starting at the lowest dose and stepping up in stages according to your response and your comfort, rather than being set once. The consultation decides whether this route suits your case at all, and which option fits you best; if it does not suit you we will say so and suggest the alternative. It always runs alongside a nutrition plan and weekly follow-up, never on its own."
+     },
+     "facts": {
+      "ar": [
+       "حقنة أسبوعية",
+       "الجرعة بتتدرّج على مراحل",
+       "متابعة أسبوعية وخطة غذائية معاها",
+       "الكشف بيحدد الخيار المناسب لحالتك",
+       "مش مناسب أثناء الحمل أو الرضاعة"
+      ],
+      "en": [
+       "A weekly injection",
+       "The dose is stepped up in stages",
+       "Weekly follow-up with a nutrition plan alongside",
+       "The consultation decides which option suits you",
+       "Not suitable in pregnancy or breastfeeding"
+      ]
+     }
+    },
+    {
+     "slug": "maintenance",
+     "name": {
+      "ar": "التثبيت بعد نزول الوزن",
+      "en": "Maintenance after weight loss"
+     },
+     "summary": {
+      "ar": "المرحلة اللي بيقع فيها معظم الناس",
+      "en": "The stage where most people come undone"
+     },
+     "body": {
+      "ar": "أصعب مرحلة مش النزول، التثبيت. بعد ما توصل للوزن المستهدف بنعمل خطة تثبيت تدريجية بترجّع السعرات لمستوى طبيعي من غير ما الوزن يرجع، ومعاها متابعة أطول مدى وقياس التركيب الجسمي عشان نتأكد إن اللي رجع مش دهون.",
+      "en": "The hardest stage is not the loss, it is holding it. Once you reach your target we build a gradual maintenance plan that returns calories to a normal level without the weight returning, with longer-interval follow-up and body-composition measurement to make sure what comes back is not fat."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "حقن التخسيس دي آمنة؟",
+      "en": "Are weight-loss injections safe?"
+     },
+     "a": {
+      "ar": "الخيارات اللي بنستخدمها معتمدة طبياً ومنتشرة في الاستخدام الطبي على نطاق واسع. بس الأمان الحقيقي بييجي من طريقة الاستخدام: جرعة متظبطة بتتدرّج بالراحة، تحاليل قبل البداية، ومتابعة أسبوعية. وفيه حالات بنستبعدها بعد الكشف والتحاليل، ومنها الحمل والرضاعة. سلامتك أهم عندنا من أي حاجة.",
+      "en": "The options we use are medically approved and widely used. But the real safety comes from how they are used: a dose titrated gently, baseline labs before starting, and weekly follow-up. Some cases are ruled out after the consultation and the labs, pregnancy and breastfeeding among them. Your safety matters to us more than anything."
+     }
+    },
+    {
+     "q": {
+      "ar": "فيه أكتر من خيار؟ وإزاي بتختاروا؟",
+      "en": "Is there more than one option, and how do you choose?"
+     },
+     "a": {
+      "ar": "أيوه، فيه أكتر من خيار معتمد طبياً، وبيختلفوا في طريقة عملهم وفي تأثيرهم على الشهية وعلى مقاومة الإنسولين. الاختيار بينهم مش قرار عام ولا بيتاخد من الإنترنت: بيتحدد في الكشف حسب حالتك وتحاليلك وتاريخك الطبي واستجابتك بعد أول جرعات.",
+      "en": "Yes, there is more than one medically approved option, and they differ in how they work and in their effect on appetite and on insulin resistance. Choosing between them is not a general rule and not something to settle online: it is decided at the consultation from your case, your labs, your history and how you respond to the first doses."
+     }
+    },
+    {
+     "q": {
+      "ar": "هل ده بديل حقيقي للتكميم؟",
+      "en": "Is this a genuine alternative to bariatric surgery?"
+     },
+     "a": {
+      "ar": "لكتير من الحالات، أيوه، وده بالظبط سبب إن ناس كتير بتيجي لنا بعد ما خافت من فكرة العملية. بس مش كل حالة. في الكشف بنقيّم درجة السمنة والحالة الصحية والتاريخ، ولو حالتك محتاجة تدخل جراحي فعلاً هنقولك ونحوّلك لقسم جراحات السمنة.",
+      "en": "For many cases, yes, and that is exactly why a lot of people come to us after being frightened by the idea of an operation. But not every case. At the consultation we assess the degree of obesity, your health status and your history, and if your case genuinely needs surgery we will say so and refer you to the bariatric surgery department."
+     }
+    },
+    {
+     "q": {
+      "ar": "هل الوزن بيرجع لما أوقف الحقن؟",
+      "en": "Does the weight come back when I stop the injections?"
+     },
+     "a": {
+      "ar": "بيرجع لو ما اتغيرش حاجة تانية. عشان كده إحنا مش بنعطي الحقن لوحدها أبداً: بتمشي دايماً مع خطة غذائية ومتابعة أسبوعية، وبعدين خطة تثبيت. الحقن بتساعدك تعدّي المرحلة الصعبة، بس اللي بيثبّت النتيجة هو العادات اللي اتبنت في الطريق.",
+      "en": "It comes back if nothing else has changed. That is why we never give the injections on their own: they always run alongside a nutrition plan and weekly follow-up, and then a maintenance plan. The injections help you through the hard stage; what holds the result is the habits built along the way."
+     }
+    },
+    {
+     "q": {
+      "ar": "إيه الأعراض الجانبية المتوقعة؟",
+      "en": "What side effects should I expect?"
+     },
+     "a": {
+      "ar": "معظم الناس بتعدّي الفترة دي بسلاسة. ممكن تحس ببعض التغيّرات في الهضم في أول أيام كل جرعة جديدة، زي الإحساس بالشبع بدري، وغالباً بتهدى لوحدها مع الوقت. عشان كده بنتدرّج بالجرعة بالراحة بدل ما نقفز، وفي المتابعة الأسبوعية بنسمع منك وبنظبّط الخطة على راحتك.",
+      "en": "Most people get through this part smoothly. You may notice some changes in digestion in the first days of each new dose, such as feeling full earlier, and they usually settle on their own. That is exactly why the dose is stepped up gently rather than jumped, and why the weekly follow-up is there: we hear how you are doing and adjust the plan around you."
+     }
+    },
+    {
+     "q": {
+      "ar": "محتاج أعمل تحاليل قبل ما أبدأ؟",
+      "en": "Do I need labs before starting?"
+     },
+     "a": {
+      "ar": "أيوه، وده مش إجراء شكلي. التحاليل بتوضح صورة الغدة والسكر والكبد والكلى، وبتكشف أسباب ممكن تكون هي سبب ثبات الوزن من الأساس. لو معاك تحاليل حديثة هاتها معاك وهنراجعها بدل ما تعيدها.",
+      "en": "Yes, and it is not a formality. The labs show the thyroid, sugar, liver and kidney picture, and they often reveal the reason the weight was stuck in the first place. If you have recent results, bring them and we will review those rather than repeat them."
+     }
+    },
+    {
+     "q": {
+      "ar": "الوزن هينزل بمعدل إيه؟",
+      "en": "How fast will the weight come off?"
+     },
+     "a": {
+      "ar": "المعدل بيختلف من شخص للتاني حسب نقطة البداية والتحاليل والالتزام، وأي رقم مضمون بيتقال قبل الكشف يبقى مش صادق. اللي بنركز عليه إن النزول يكون ثابت ومن الدهون مش من العضل، وده اللي بنقيسه في المتابعة الأسبوعية.",
+      "en": "The rate differs from person to person with the starting point, the labs and how the plan is followed, and any guaranteed number quoted before a consultation is not an honest one. What we aim for is loss that is steady and comes from fat rather than muscle, and that is what the weekly follow-up measures."
+     }
+    },
+    {
+     "q": {
+      "ar": "لازم رياضة مع الخطة؟",
+      "en": "Do I have to exercise alongside the plan?"
+     },
+     "a": {
+      "ar": "الرياضة مش شرط عشان الوزن ينزل، لكنها اللي بتحمي العضل وبتخلي الشكل النهائي أحسن. بنبدأ من اللي حياتك تسمح بيه فعلاً، حتى لو مشي بسيط، وبنزوّد بالتدريج. خطة مستحيلة تنفيذها مش خطة.",
+      "en": "Exercise is not a condition for the weight to come down, but it is what protects muscle and makes the final result look better. We start from what your life actually allows, even if that is a short walk, and build gradually. A plan you cannot follow is not a plan."
+     }
+    },
+    {
+     "q": {
+      "ar": "أقدر أبدأ العلاج من غير كشف؟",
+      "en": "Can I start treatment without a consultation?"
+     },
+     "a": {
+      "ar": "لأ. ده علاج بوصفة ومتابعة، والكشف هو اللي بيحدد إذا كان مناسب لحالتك أصلاً وأنهي خيار وأنهي جرعة. الجزء ده مش روتين إداري، هو اللي بيخلي العلاج آمن.",
+      "en": "No. This is a prescription treatment with follow-up, and the consultation is what decides whether it suits you at all, which option and which dose. That step is not paperwork: it is what makes the treatment safe."
+     }
+    },
+    {
+     "q": {
+      "ar": "جرعة دواء إدارة الوزن بتزيد إمتى؟",
+      "en": "When should the dose of weight-management medicine increase?"
+     },
+     "a": {
+      "ar": "مفيش جدول واحد لكل دواء أو لكل شخص. الزيادة تعتمد على المادة، الجرعة الحالية، مدة استخدامها، الاستجابة والأعراض؛ ما تزودش أو تقرّب المواعيد من نفسك، واتفق مع الطبيب على الخطوة قبل الجرعة التالية.",
+      "en": "There is no single schedule for every medicine or person. An increase depends on the active ingredient, current dose, time on it, response and side effects. Do not raise the dose or shorten the interval yourself; agree the next step with the prescriber before the following dose."
+     }
+    },
+    {
+     "q": {
+      "ar": "نسيت جرعة من حقنة إدارة الوزن، أعمل إيه؟",
+      "en": "I missed a weight-management injection. What should I do?"
+     },
+     "a": {
+      "ar": "التصرف يختلف حسب نوع الحقنة وعدد الأيام اللي فاتت، فراجع تعليمات الدواء أو كلم الطبيب أو الصيدلي. ما تاخدش جرعتين مع بعض، وما تغيّرش ميعاد الجدول كله بالتخمين.",
+      "en": "The correct action depends on the injection and how much time has passed, so check its instructions or contact the prescriber or pharmacist. Do not take two doses together or guess a new schedule."
+     }
+    },
+    {
+     "q": {
+      "ar": "عندي ضغط أو مشكلة في القلب، ينفع أستخدم دواء لإدارة الوزن؟",
+      "en": "I have high blood pressure or a heart condition. Can I use weight-management medicine?"
+     },
+     "a": {
+      "ar": "ممكن يكون فيه اختيار مناسب وممكن لأ، حسب التشخيص، استقرار الحالة، الضغط الحالي وباقي الأدوية. ما تبدأش قبل مراجعة طبيبك وقائمة العلاج كاملة؛ ألم الصدر أو ضيق النفس أو خفقان شديد يحتاج تقييماً سريعاً مش بدء دواء جديد.",
+      "en": "An option may be suitable, or it may not be, depending on the diagnosis, stability of the condition, current blood pressure and other medicines. Do not start before a clinician reviews the full list. Chest pain, breathlessness or marked palpitations needs prompt assessment, not a new medicine."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "بدائل التكميم وحقن التخسيس في المعادي | عيادات لاروز",
+     "en": "Weight Management in Maadi | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "إنقاص الوزن تحت إشراف طبي في المعادي: حلول معتمدة طبياً بجرعات متدرّجة، متابعة أسبوعية، وخطة غذائية، مع مرحلة تثبيت بعد الوصول للوزن المستهدف.",
+     "en": "Medically supervised weight loss in Maadi: approved treatments with titrated dosing, weekly follow-up and a nutrition plan, plus a maintenance phase once you reach your target."
+    }
+   }
+  },
+  {
+   "slug": "body-contouring",
+   "index": "03",
+   "published": true,
+   "staffed": true,
+   "featured": true,
+   "hasBeforeAfter": true,
+   "hasReviews": true,
+   "icon": "waves",
+   "name": {
+    "ar": "نحت الجسم",
+    "en": "Body Contouring"
+   },
+   "short": {
+    "ar": "نحت الجسم",
+    "en": "Body Contouring"
+   },
+   "sub": {
+    "ar": "حقن موضعي للدهون العنيدة، من غير جراحة ولا فترة نقاهة",
+    "en": "Injections for stubborn localised fat, with no surgery and no downtime"
+   },
+   "intro": {
+    "ar": "نزلت وزن والبطن زي ما هي؟ ده مش صدفة. جسمك هو اللي بيحدد الدهون تنزل منين الأول، وغالباً بيسيب المناطق العنيدة للآخر، وعشان كده في ناس بتنزل ١٠ كيلو والمقاس يفضل زي ما هو. الميزوثيرابي بيشتغل على المناطق دي بالتحديد، لكنه مش بديل لإنقاص الوزن؛ هو مرحلة بتيجي بعده أو معاه، وبتبدأ بكشف يحدد إذا كان مناسب لحالتك من الأساس.",
+    "en": "Lost weight but your abdomen looks the same? That is not a coincidence. Your body decides where it loses fat from first and usually leaves the stubborn areas until last, which is why someone can lose ten kilos and stay the same dress size. Mesotherapy works on those areas specifically, but it is not a substitute for weight loss: it is a stage that comes after it or alongside it, and it starts with a consultation that decides whether it suits your case at all."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "تقييم الميزوثيرابي بيشمل",
+     "en": "A mesotherapy assessment includes"
+    },
+    "items": {
+     "ar": [
+      "تقييم إذا كان الميزوثيرابي مناسب لحالتك",
+      "تحديد المناطق اللي محتاجة علاج",
+      "تحديد عدد المناطق والحقن",
+      "التأكد من عدم وجود حمل أو رضاعة أو حالة طبية تمنع العلاج"
+     ],
+     "en": [
+      "Assessing whether mesotherapy is suitable for your case",
+      "Identifying the areas that need treatment",
+      "Setting the areas and number of injections",
+      "Checking for pregnancy, breastfeeding or a medical condition that rules treatment out"
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "دهون البطن والجناب العنيدة",
+     "دهون الأرداف والدراعين",
+     "دهون الضهر",
+     "مناطق موضعية فاضلة بعد نزول الوزن",
+     "مناطق مش بتستجيب للرجيم والرياضة لوحدهم"
+    ],
+    "en": [
+     "Stubborn abdominal and flank fat",
+     "Fat on the hips, thighs and upper arms",
+     "Back fat",
+     "Localised areas left behind after weight loss",
+     "Areas that do not respond to diet and exercise alone"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "mesotherapy",
+     "name": {
+      "ar": "الميزوثيرابي",
+      "en": "Mesotherapy"
+     },
+     "summary": {
+      "ar": "حقن موضعي لإذابة الدهون العنيدة",
+      "en": "Localised injections for stubborn fat"
+     },
+     "body": {
+      "ar": "حقن بتتحط مباشرة في الطبقة الدهنية تحت الجلد، فبتشتغل على المنطقة المستهدفة بالظبط مش على الجسم كله: البطن، الجوانب، الدراعين. بيتعمل جلسات أسبوعية، ومعظم الحالات بتحتاج من ٤ لـ ٦ جلسات. الكشف بييجي الأول: تاريخك المرضي وأدويتك وحالة الجلد في المنطقة وخطة نزول وزنك هم اللي بيحددوا إذا كان الميزوثيرابي مناسب ليك، وأنهي مناطق تستاهل فعلاً.",
+      "en": "Injections placed directly into the fat layer under the skin, so the treatment works on exactly the area that bothers you rather than on the whole body: abdomen, flanks and upper arms. It is done as weekly sessions, and most cases need four to six. The consultation comes first: your medical history, your medicines, the condition of the skin at the site and your weight-loss plan all decide whether mesotherapy suits you and which areas are actually worth treating."
+     },
+     "facts": {
+      "ar": [
+       "جلسة أسبوعياً، ومن ٤ لـ ٦ جلسات لمعظم الحالات",
+       "عدد المناطق والحقن بيتحدد في الكشف",
+       "من غير جراحة ولا تخدر ولا فترة نقاهة",
+       "مش مناسب أثناء الحمل أو الرضاعة أو مع بعض الحالات الطبية، والكشف بيتأكد من ده الأول"
+      ],
+      "en": [
+       "One session per week, four to six sessions for most cases",
+       "The areas and the number of injections are set at the consultation",
+       "No surgery, no anaesthetic and no downtime",
+       "Not suitable in pregnancy or breastfeeding, or with some medical conditions: the consultation checks this first"
+      ]
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "النحت ده بديل للرجيم؟",
+      "en": "Is contouring a substitute for dieting?"
+     },
+     "a": {
+      "ar": "لأ، وده أهم سؤال. الميزوثيرابي بيشتغل على الدهون الموضعية العنيدة اللي الجسم بيسيبها للآخر، مش على الوزن الكلي. لو حالتك محتاجة إنقاص وزن، الكشف هيقول كده بصراحة وهنبدأ من هناك.",
+      "en": "No, and it is the most important question. Mesotherapy works on the stubborn localised fat that the body leaves until last, not on total weight. If your case needs weight loss, the consultation will say so plainly and we will start there."
+     }
+    },
+    {
+     "q": {
+      "ar": "الجلسات بتوجع؟",
+      "en": "Do the sessions hurt?"
+     },
+     "a": {
+      "ar": "لأ، مفيش حاجة تقلق منها. الحقن دقيقة، وأقصى اللي بتحسه وخزة بسيطة لحظية، والجلسة نفسها قصيرة.",
+      "en": "No, there is nothing to worry about here. The injections are fine, the most you feel is a brief light sting, and the session itself is short."
+     }
+    },
+    {
+     "q": {
+      "ar": "فيه فترة نقاهة؟",
+      "en": "Is there any downtime?"
+     },
+     "a": {
+      "ar": "مفيش فترة نقاهة. بتخرج من الجلسة وترجع لحياتك على طول: شغل، رياضة، أي حاجة.",
+      "en": "There is no downtime. You leave the session and go straight back to your day: work, exercise, anything."
+     }
+    },
+    {
+     "q": {
+      "ar": "أشوف نتيجة بعد كام جلسة؟",
+      "en": "After how many sessions will I see a result?"
+     },
+     "a": {
+      "ar": "بنقيّم بعد ٤ لـ ٦ جلسات أسبوعية. الفرق بيبان في المقاسات وفي لبسك قبل ما يبان على الميزان. ولو مفيش فرق مقاس بعد الجلسات دي، هنقولك كده ونراجع الخطة بدل ما نبيعلك جلسات زيادة.",
+      "en": "We review after four to six weekly sessions. The change shows in your measurements and in how clothes fit before it shows on the scale. If there is no measurable change by then, we will say so and reconsider the plan rather than sell you more sessions."
+     }
+    },
+    {
+     "q": {
+      "ar": "إيه المخاطر اللي لازم أعرفها قبل الميزوثيرابي؟",
+      "en": "What risks should I know about before mesotherapy?"
+     },
+     "a": {
+      "ar": "المخاطر تعتمد على المادة والمنطقة وطريقة الحقن. ممكن يحصل ألم أو احمرار أو تورم أو كدمات، وممكن تحصل حساسية أو عدوى أو تكتلات أو ندبات. اسأل عن المادة ومصدرها والبدائل، واطلب تقييماً سريعاً لو الألم بيزيد أو الاحمرار بينتشر أو فيه سخونية أو صديد.",
+      "en": "Risks depend on the substance, area and injection technique. Pain, redness, swelling or bruising may occur, as can allergy, infection, lumps or scarring. Ask about the substance, its source and alternatives, and seek prompt review for increasing pain, spreading redness, fever or discharge."
+     }
+    },
+    {
+     "q": {
+      "ar": "ينفع أعمل ميزوثيرابي أثناء الحمل أو الرضاعة؟",
+      "en": "Can I have mesotherapy during pregnancy or breastfeeding?"
+     },
+     "a": {
+      "ar": "يتأجل الإجراء أثناء الحمل. ومع الرضاعة، الأمان يعتمد على المادة لأن الحقن الموضعي لا يعني إن مفيش امتصاص؛ لازم مراجعة طبيب النساء والطبيب القائم بالإجراء قبل أي جلسة، ومعرفة المادة بالاسم مش الاكتفاء بكلمة ميزوثيرابي.",
+      "en": "The procedure should be postponed during pregnancy. During breastfeeding, safety depends on the substance because a local injection does not mean there is no absorption. Review it with the obstetric clinician and injector, using the exact substance rather than the word mesotherapy alone."
+     }
+    },
+    {
+     "q": {
+      "ar": "هل نتيجة الميزوثيرابي مضمونة؟",
+      "en": "Is a mesotherapy result guaranteed?"
+     },
+     "a": {
+      "ar": "لأ. الاستجابة تختلف حسب المنطقة والمشكلة والمادة المستخدمة، والميزوثيرابي الموضعي مش علاجاً للوزن العام. اتفق قبل البداية على هدف واقعي وطريقة قياس وميعاد مراجعة؛ لو مفيش فرق موضوعي، الخطة تتراجع بدل تكرار الجلسات بلا نهاية.",
+      "en": "No. Response varies with the area, concern and substance, and local mesotherapy is not a treatment for overall weight. Agree on a realistic goal, measurement method and review point before starting. If there is no objective change, reassess rather than repeat sessions indefinitely."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "الميزوثيرابي ونحت الجسم في المعادي | عيادات لاروز",
+     "en": "Mesotherapy & Body Contouring in Maadi | La Rose"
+    },
+    "description": {
+     "ar": "جلسات ميزوثيرابي في المعادي للدهون الموضعية العنيدة في البطن والجناب والدراعين: جلسة أسبوعياً، من غير جراحة ولا تخدر ولا فترة نقاهة.",
+     "en": "Mesotherapy in Maadi for stubborn localised fat on the abdomen, flanks and arms: weekly sessions, no surgery, no anaesthetic, no downtime."
+    }
+   }
+  },
+  {
+   "slug": "internal-medicine",
+   "index": "04",
+   "published": true,
+   "staffed": true,
+   "featured": true,
+   "hasBeforeAfter": false,
+   "hasReviews": true,
+   "icon": "stethoscope",
+   "name": {
+    "ar": "الباطنة العامة",
+    "en": "General Internal Medicine"
+   },
+   "short": {
+    "ar": "الباطنة العامة",
+    "en": "Internal Medicine"
+   },
+   "sub": {
+    "ar": "السكر والضغط والغدة والسونار في نفس الزيارة",
+    "en": "Diabetes, blood pressure, thyroid, and ultrasound in the same visit"
+   },
+   "intro": {
+    "ar": "تحاليلك متفرقة على أكتر من معمل وأكتر من دكتور، والصورة مش مكتملة؟ الباطنة العامة هي العيادة اللي بتجمع ده كله: السكر والضغط والغدة والكوليسترول والأنيميا بتتقرا مع بعض ومع تاريخك، مش كل رقم لوحده. الهدف خطة واحدة واضحة تعرف منها إيه اللي محتاج علاج دلوقتي، وإيه اللي محتاج متابعة بس، وإمتى نعيد التحاليل.",
+    "en": "Results scattered across several labs and several doctors, without a picture that adds up? General internal medicine is the clinic that puts them together: diabetes, blood pressure, thyroid, cholesterol and anaemia read alongside each other and alongside your history, rather than one number at a time. You leave with a single clear plan: what needs treating now, what only needs watching, and when the labs are repeated."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "كشف الباطنة بيشمل",
+     "en": "An internal medicine consultation includes"
+    },
+    "items": {
+     "ar": [
+      "مراجعة كل تحاليلك، مش أحدث ورقة بس",
+      "سونار البطن جوه نفس الزيارة لما الحالة تستدعي",
+      "خطة مكتوبة وميعاد مراجعة واضح"
+     ],
+     "en": [
+      "Every result reviewed, not only the most recent sheet",
+      "An abdominal ultrasound in the same visit whenever the case calls for one",
+      "A written plan and a clear review date"
+     ]
+    },
+    "conditions": {
+     "heading": {
+      "ar": "الدكتور بيشوف حالات زي",
+      "en": "The doctor sees conditions such as"
+     },
+     "items": {
+      "ar": [
+       "السكر بأنواعه والكوليستيرول",
+       "جرثومة المعدة وقرحة المعدة",
+       "أمراض الجهاز الهضمي والكبد والمرارة",
+       "علاج الإمساك والإسهال المزمن",
+       "علاج ارتجاع المريء المزمن والحموضة",
+       "مشاكل الغدد بكل أنواعها",
+       "القولون العصبي والانتفاخ وعسر الهضم",
+       "علاج الكبد الدهني ودهون الكبد وارتفاع إنزيمات الكبد",
+       "حصوات المرارة",
+       "الأنيميا والفحوصات العامة",
+       "الضغط والسكر والغدة الدرقية",
+       "وكل مشاكل الأمراض الباطنية المختلفة الأخرى"
+      ],
+      "en": [
+       "Diabetes of all types, and cholesterol",
+       "H. pylori and stomach ulcers",
+       "Digestive, liver and gallbladder conditions",
+       "Chronic constipation and chronic diarrhoea",
+       "Chronic acid reflux and heartburn",
+       "Glandular and endocrine problems of all kinds",
+       "IBS, bloating and indigestion",
+       "Fatty liver and raised liver enzymes",
+       "Gallstones",
+       "Anaemia and general investigations",
+       "Blood pressure, blood sugar and the thyroid",
+       "And the full range of other internal medicine problems"
+      ]
+     }
+    }
+   },
+   "treats": {
+    "ar": [
+     "السكر والكوليسترول بأنواعه",
+     "ضغط الدم المرتفع",
+     "الغدة الدرقية بأنواعها",
+     "الأنيميا وفقر الدم",
+     "التعب المزمن والفحص الدوري",
+     "متابعة الأدوية والأمراض المزمنة",
+     "سونار البطن داخل الكشف"
+    ],
+    "en": [
+     "Diabetes and cholesterol of all types",
+     "High blood pressure",
+     "Thyroid disorders",
+     "Anaemia",
+     "Persistent fatigue and periodic workups",
+     "Long-term medicines and chronic disease follow-up",
+     "Abdominal ultrasound within the consultation"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "internal-medicine-consultation",
+     "name": {
+      "ar": "كشف باطنة عامة",
+      "en": "General internal medicine consultation"
+     },
+     "summary": {
+      "ar": "تاريخك وتحاليلك في صورة واحدة",
+      "en": "Your history and your labs, read as one picture"
+     },
+     "body": {
+      "ar": "الكشف بيبدأ بالتاريخ المرضي الكامل والأدوية اللي بتاخدها فعلاً، وفحص إكلينيكي، ومراجعة كل التحاليل والأشعة اللي معاك مهما كانت قديمة. لو الحالة محتاجة سونار على البطن، بيتعمل في نفس الزيارة. وبتخرج بخطة مكتوبة: العلاج، الفحوصات المطلوبة، وميعاد المراجعة الجاي.",
+      "en": "The consultation starts with a full history and the medicines you are actually taking, then a clinical examination and a review of every lab and scan you bring, however old. If the case calls for an abdominal ultrasound it is done in the same visit. You leave with a written plan: the treatment, the investigations needed, and when to come back."
+     },
+     "facts": {
+      "ar": [
+       "مراجعة كل تحاليلك، مش أحدث ورقة بس",
+       "سونار البطن جوه نفس الزيارة لما الحالة تستدعي",
+       "خطة مكتوبة وميعاد مراجعة واضح"
+      ],
+      "en": [
+       "Every result reviewed, not only the most recent sheet",
+       "An abdominal ultrasound inside the same visit whenever the case calls for one",
+       "A written plan and a clear review date"
+      ]
+     }
+    },
+    {
+     "slug": "abdominal-ultrasound",
+     "name": {
+      "ar": "سونار البطن كخدمة منفصلة",
+      "en": "Abdominal ultrasound on its own"
+     },
+     "summary": {
+      "ar": "سونار بطلب طبيبك، من غير كشف",
+      "en": "A scan at your own doctor's request, without a consultation"
+     },
+     "body": {
+      "ar": "لو طبيبك المعالج طالب سونار بطن وإنت مش محتاج كشف، بنعمله كخدمة منفصلة وبتستلم التقرير. الفحص بيشمل الكبد والمرارة والبنكرياس والطحال والكلى حسب الطلب. التحضير: صيام من ٦ لـ ٨ ساعات قبل الميعاد، والمياه عادي، وتجنّب المشروبات الغازية والأكل اللي بينفخ في اليوم اللي قبله عشان الصورة تطلع واضحة. لو ظهرت حاجة محتاجة رأي، هنقولك، والقرار يفضل مع طبيبك المعالج.",
+      "en": "If your own doctor has asked for an abdominal scan and you do not need a consultation, we perform it as a separate service and you receive the report. The scan covers the liver, gallbladder, pancreas, spleen and kidneys as requested. Preparation: fast for six to eight hours beforehand, water is fine, and avoid fizzy drinks and bloating foods the day before so the images are clear. If something on the scan needs an opinion we will say so, and the decision stays with your own doctor."
+     },
+     "facts": {
+      "ar": [
+       "بيتحجز من غير كشف، بطلب طبيبك",
+       "صيام ٦ لـ ٨ ساعات، والمياه عادي",
+       "بتستلم التقرير، والقرار مع طبيبك المعالج",
+       "لو حبيت رأي كامل، الكشف بيشمل السونار أصلاً"
+      ],
+      "en": [
+       "Booked without a consultation, at your doctor's request",
+       "Fast six to eight hours; water is fine",
+       "You receive the report, and the decision stays with your doctor",
+       "If you would rather have a full opinion, a consultation already includes the scan"
+      ]
+     }
+    },
+    {
+     "slug": "diabetes-thyroid",
+     "name": {
+      "ar": "متابعة السكر والغدة الدرقية",
+      "en": "Diabetes and thyroid follow-up"
+     },
+     "summary": {
+      "ar": "ضبط القراءات ومتابعة العلاج",
+      "en": "Steadying the readings and following up the treatment"
+     },
+     "body": {
+      "ar": "متابعة السكر والكوليسترول والضغط والغدة الدرقية مع أخصائي باطنة وسكر: مراجعة التحاليل، وضبط الجرعات، وربط الخطة الدوائية بالخطة الغذائية لو انت متابعة مع قسم التغذية كمان.",
+      "en": "Follow-up for diabetes, cholesterol, blood pressure and thyroid disorders with a specialist in internal medicine and diabetes: reviewing labs, adjusting doses, and connecting the medication plan to the nutrition plan if you are also being followed by the nutrition department."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "أروح الباطنة العامة ولا الجهاز الهضمي؟",
+      "en": "Should I book general internal medicine or gastroenterology?"
+     },
+     "a": {
+      "ar": "لو شكواك في السكر أو الضغط أو الغدة أو تحاليل عامة أو تعب مستمر، ابدأ من هنا. لو شكواك في المعدة أو القولون أو الكبد أو المرارة، ابدأ من عيادة الجهاز الهضمي والكبد. د. مهاب أشرف بيشوف العيادتين، فالحجز في الواحدة مش بيضيّع زيارة لو الحالة بتخص التانية.",
+      "en": "If your complaint is diabetes, blood pressure, thyroid, a general workup or persistent fatigue, start here. If it is the stomach, bowel, liver or gallbladder, start at the gut and liver clinic."
+     }
+    },
+    {
+     "q": {
+      "ar": "عندي تحاليل من معامل مختلفة، أجيبها؟",
+      "en": "My results are from different labs, should I bring them?"
+     },
+     "a": {
+      "ar": "أيوه، هاتها كلها حتى القديمة. الاتجاه على مدى شهور بيقول أكتر من قراءة واحدة، وساعات بيغيّر القرار. لو الورق ضايع، صور بالموبايل بتنفع.",
+      "en": "Yes, bring all of it, including the old results. The trend across months says more than a single reading and sometimes changes the decision. Phone photographs are fine if the printouts are lost."
+     }
+    },
+    {
+     "q": {
+      "ar": "لازم أكون صايمة؟",
+      "en": "Do I need to be fasting?"
+     },
+     "a": {
+      "ar": "للسونار على البطن، أيوه: صيام من ٦ لـ ٨ ساعات قبل الميعاد، والمياه عادي. ويفضّل تتجنب المشروبات الغازية والأكل اللي بيسبب انتفاخ في اليوم اللي قبله عشان الصورة تطلع واضحة.",
+      "en": "For an abdominal ultrasound, yes: fast for six to eight hours beforehand; water is fine. It also helps to avoid fizzy drinks and bloating foods the day before so the images are clear."
+     }
+    },
+    {
+     "q": {
+      "ar": "بتابعوا السكر والغدة إزاي؟",
+      "en": "How is diabetes and thyroid follow-up handled?"
+     },
+     "a": {
+      "ar": "بالتحاليل والأعراض مع بعض، مش بالتحليل لوحده. الجرعة بتتظبط على الحالة، وبنحدد ميعاد إعادة التحاليل من الزيارة نفسها. ولو انت متابع مع قسم التغذية، الخطة الدوائية بتتربط بالخطة الغذائية بدل ما كل واحدة تمشي لوحدها.",
+      "en": "By the results and the symptoms together, not the result alone. The dose is set against the case, and the date for repeating the labs is fixed at the visit itself. If you are also under the nutrition department, the medication plan is tied to the nutrition plan rather than each running separately."
+     }
+    },
+    {
+     "q": {
+      "ar": "شهيتي زادت فجأة، ممكن يكون فيه سبب طبي؟",
+      "en": "My appetite increased suddenly. Could there be a medical cause?"
+     },
+     "a": {
+      "ar": "ممكن، وممكن يكون السبب نوم أو ضغط أو تغير في الروتين أو دواء جديد. لو التغير واضح أو معاه عطش وتبول زائدان، خفقان، رعشة، تغير وزن أو أعراض تانية، اعمل تقييماً؛ التحاليل تتحدد بعد القصة والفحص.",
+      "en": "Possibly, although sleep, stress, a routine change or a new medicine may also explain it. If the change is marked or comes with increased thirst and urination, palpitations, tremor, weight change or other symptoms, arrange an assessment; tests follow the history and examination."
+     }
+    },
+    {
+     "q": {
+      "ar": "دواء نفسي زوّد شهيتي ووزني، أوقفه؟",
+      "en": "A mental health medicine increased my appetite and weight. Should I stop it?"
+     },
+     "a": {
+      "ar": "ما توقفش الدواء فجأة. سجّل التوقيت وتغير الشهية والوزن وراجع الطبيب اللي وصفه؛ ممكن يعدّل الجرعة أو التوقيت أو يختار بديلاً لو مناسب. الدعم الغذائي يساعد، لكن سلامة العلاج النفسي تفضل جزءاً من القرار.",
+      "en": "Do not stop it abruptly. Record the timing and changes in appetite and weight, then review them with the prescriber, who may adjust dose, timing or choose an alternative when appropriate. Nutrition support can help, but mental health treatment safety remains part of the decision."
+     }
+    },
+    {
+     "q": {
+      "ar": "وزني زاد فجأة من غير تغيير في أكلي، أبدأ رجيم؟",
+      "en": "My weight rose suddenly without a food change. Should I start a diet?"
+     },
+     "a": {
+      "ar": "الأول نفهم هل الزيادة دهون ولا سوائل أو مرتبطة بدواء أو سبب صحي. سجّل المدة وأي تورم أو ضيق نفس أو تغير تبول وخد قائمة الأدوية. زيادة سريعة مع تورم، ضيق نفس، ألم صدر أو قلة بول تحتاج تقييماً عاجلاً، مش رجيم أو مدر بول من نفسك.",
+      "en": "First establish whether the change is body fat, fluid, medicine-related or due to a health problem. Record the time course, swelling, breathlessness or urine change and bring a medicine list. Rapid gain with swelling, breathlessness, chest pain or reduced urine needs urgent assessment, not a self-directed diet or diuretic."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "كشف باطنة عامة في المعادي | عيادات لاروز التخصصية",
+     "en": "General Internal Medicine in Maadi | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "كشف باطنة عامة في المعادي الجديدة: السكر والضغط والغدة الدرقية والكوليسترول والأنيميا، بمراجعة كاملة لتحاليلك وخطة مكتوبة وميعاد مراجعة واضح.",
+     "en": "General internal medicine in New Maadi: diabetes, blood pressure, thyroid, cholesterol and anaemia, with a full review of your results, a written plan and a clear review date."
+    }
+   }
+  },
+  {
+   "slug": "gastroenterology-hepatology",
+   "index": "05",
+   "published": true,
+   "staffed": true,
+   "featured": true,
+   "hasBeforeAfter": false,
+   "hasReviews": true,
+   "icon": "monitor",
+   "name": {
+    "ar": "الكبد والجهاز الهضمي والمناظير",
+    "en": "Liver, Gastroenterology & Endoscopy"
+   },
+   "short": {
+    "ar": "الجهاز الهضمي والكبد",
+    "en": "Gastroenterology"
+   },
+   "sub": {
+    "ar": "الكشف والسونار في نفس الزيارة",
+    "en": "Consultation and ultrasound in the same visit"
+   },
+   "intro": {
+    "ar": "الحموضة أو الانتفاخ أو أعراض القولون بترجع رغم العلاج؟ ساعات السبب مش هو اللي بيتعالج. الكشف بيشمل السونار في نفس الزيارة، وبيعمله أخصائي الباطنة بنفسه، يعني اللي بيقرا الصورة هو نفسه اللي كشف عليك وسمع شكواك، مش تقرير بيوصلك بعد يومين.",
+    "en": "Reflux, bloating or IBS symptoms coming back despite treatment? Sometimes the cause is not what is being treated. The consultation includes an ultrasound in the same visit, performed personally by the internal medicine specialist. That means the person reading the scan is also the one who examined you and heard your history, rather than relying on a report that arrives two days later."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "كشف الجهاز الهضمي والكبد بيشمل",
+     "en": "A gut and liver consultation includes"
+    },
+    "items": {
+     "ar": [
+      "السونار داخل الكشف، مش زيارة تانية",
+      "الدكتور بيشوف السونار بنفسه وانت قدامه",
+      "تشخيص وخطة واضحة من نفس الزيارة"
+     ],
+     "en": [
+      "The ultrasound inside the consultation, not as a second visit",
+      "The doctor performs and reads the scan himself, with you in the room",
+      "A diagnosis and a clear plan from the same visit"
+     ]
+    },
+    "conditions": {
+     "heading": {
+      "ar": "الدكتور بيشوف حالات زي",
+      "en": "The doctor sees conditions such as"
+     },
+     "items": {
+      "ar": [
+       "السكر بأنواعه والكوليستيرول",
+       "جرثومة المعدة وقرحة المعدة",
+       "أمراض الجهاز الهضمي والكبد والمرارة",
+       "علاج الإمساك والإسهال المزمن",
+       "علاج ارتجاع المريء المزمن والحموضة",
+       "مشاكل الغدد بكل أنواعها",
+       "القولون العصبي والانتفاخ وعسر الهضم",
+       "علاج الكبد الدهني ودهون الكبد وارتفاع إنزيمات الكبد",
+       "حصوات المرارة",
+       "الأنيميا والفحوصات العامة",
+       "الضغط والسكر والغدة الدرقية",
+       "وكل مشاكل الأمراض الباطنية المختلفة الأخرى"
+      ],
+      "en": [
+       "Diabetes of all types, and cholesterol",
+       "H. pylori and stomach ulcers",
+       "Digestive, liver and gallbladder conditions",
+       "Chronic constipation and chronic diarrhoea",
+       "Chronic acid reflux and heartburn",
+       "Glandular and endocrine problems of all kinds",
+       "IBS, bloating and indigestion",
+       "Fatty liver and raised liver enzymes",
+       "Gallstones",
+       "Anaemia and general investigations",
+       "Blood pressure, blood sugar and the thyroid",
+       "And the full range of other internal medicine problems"
+      ]
+     }
+    }
+   },
+   "treats": {
+    "ar": [
+     "جرثومة المعدة وقرحة المعدة",
+     "الحموضة المزمنة والارتجاع",
+     "القولون العصبي والانتفاخ وعسر الهضم",
+     "الإمساك والإسهال المزمن",
+     "دهون الكبد وارتفاع إنزيمات الكبد",
+     "حصوات المرارة وأمراض الجهاز الهضمي"
+    ],
+    "en": [
+     "H. pylori and gastric ulcer",
+     "Chronic reflux and heartburn",
+     "IBS, bloating and indigestion",
+     "Chronic constipation and diarrhoea",
+     "Fatty liver and raised liver enzymes",
+     "Gallstones and disorders of the digestive tract"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "gastro-consultation",
+     "name": {
+      "ar": "كشف الجهاز الهضمي والكبد شامل السونار",
+      "en": "Gut and liver consultation with ultrasound"
+     },
+     "summary": {
+      "ar": "الكشف والسونار مع نفس الطبيب في زيارة واحدة",
+      "en": "Examination and ultrasound with the same doctor, in one visit"
+     },
+     "body": {
+      "ar": "الكشف بيشمل أخذ التاريخ المرضي الكامل ومناقشة الشكوى بالتفصيل، وفحص إكلينيكي شامل، ومراجعة التحاليل والأشعة المتوفرة معاك، وسونار على البطن جوه نفس الكشف: كبد، مرارة، بنكرياس، طحال، كلى، حسب حاجة الحالة ورؤية الدكتور. وبتخرج بتشخيص وخطة علاج واضحة، وتحديد أي فحوصات مطلوبة، وتقييم لو الحالة محتاجة منظار أو تحويل لتخصص تاني.",
+      "en": "The consultation includes a full history and a detailed discussion of your complaint, a thorough clinical examination, a review of any labs and imaging you bring with you, and an abdominal ultrasound within the same appointment: liver, gallbladder, pancreas, spleen and kidneys, as the case requires and the doctor judges. You leave with a diagnosis, a clear treatment plan, any further investigations specified, and an assessment of whether the case needs endoscopy or referral to another specialty."
+     },
+     "facts": {
+      "ar": [
+       "السونار داخل الكشف، مش زيارة تانية",
+       "الدكتور بيشوف السونار بنفسه وانت قدامه",
+       "تشخيص وخطة واضحة من نفس الزيارة"
+      ],
+      "en": [
+       "The ultrasound is inside the consultation, not a second visit",
+       "The doctor performs and reads the scan himself, with you in the room",
+       "A diagnosis and a clear plan from the same visit"
+      ]
+     }
+    },
+    {
+     "slug": "abdominal-ultrasound",
+     "name": {
+      "ar": "سونار البطن كخدمة منفصلة",
+      "en": "Abdominal ultrasound on its own"
+     },
+     "summary": {
+      "ar": "سونار بطلب طبيبك، من غير كشف",
+      "en": "A scan at your own doctor's request, without a consultation"
+     },
+     "body": {
+      "ar": "لو طبيبك المعالج طالب سونار بطن وإنت مش محتاج كشف، بنعمله كخدمة منفصلة وبتستلم التقرير. الفحص بيشمل الكبد والمرارة والبنكرياس والطحال والكلى حسب الطلب. التحضير: صيام من ٦ لـ ٨ ساعات قبل الميعاد، والمياه عادي، وتجنّب المشروبات الغازية والأكل اللي بينفخ في اليوم اللي قبله عشان الصورة تطلع واضحة. لو ظهرت حاجة محتاجة رأي، هنقولك، والقرار يفضل مع طبيبك المعالج.",
+      "en": "If your own doctor has asked for an abdominal scan and you do not need a consultation, we perform it as a separate service and you receive the report. The scan covers the liver, gallbladder, pancreas, spleen and kidneys as requested. Preparation: fast for six to eight hours beforehand, water is fine, and avoid fizzy drinks and bloating foods the day before so the images are clear. If something on the scan needs an opinion we will say so, and the decision stays with your own doctor."
+     },
+     "facts": {
+      "ar": [
+       "بيتحجز من غير كشف، بطلب طبيبك",
+       "صيام ٦ لـ ٨ ساعات، والمياه عادي",
+       "بتستلم التقرير، والقرار مع طبيبك المعالج",
+       "لو حبيت رأي كامل، الكشف بيشمل السونار أصلاً"
+      ],
+      "en": [
+       "Booked without a consultation, at your doctor's request",
+       "Fast six to eight hours; water is fine",
+       "You receive the report, and the decision stays with your doctor",
+       "If you would rather have a full opinion, a consultation already includes the scan"
+      ]
+     }
+    },
+    {
+     "slug": "endoscopy-assessment",
+     "name": {
+      "ar": "تقييم المناظير",
+      "en": "Endoscopy assessment"
+     },
+     "summary": {
+      "ar": "تحديد إذا كانت حالتك محتاجة منظار فعلاً",
+      "en": "Deciding whether your case genuinely needs an endoscopy"
+     },
+     "body": {
+      "ar": "المنظار مش خطوة أولى في كل حالة. الكشف بيقيّم الأعراض والتاريخ والتحاليل والسونار الأول، وبعدها بيتقرر إذا كان المنظار هيضيف معلومة تغيّر العلاج ولا لأ. لو الحالة محتاجاه فعلاً، بيتعمل في مركز مجهّز، والدكتور بيحدد معاك الخطوة الجاية وطريقة التحضير والمتابعة بعدها.",
+      "en": "An endoscopy is not the first step in every case. The consultation weighs the symptoms, the history, the labs and the ultrasound first, and only then is it clear whether an endoscopy would add something that changes the treatment. When a case genuinely needs one it is performed in an equipped centre, and the doctor agrees the next step, the preparation and the follow-up with you."
+     },
+     "facts": {
+      "ar": [
+       "التقييم بيحصل في الكشف، مش قرار مسبق",
+       "المناظير بتتعمل في مركز مجهّز",
+       "المتابعة بعد المنظار بترجع للعيادة"
+      ],
+      "en": [
+       "The assessment happens at the consultation, not in advance",
+       "Endoscopies are performed in an equipped centre",
+       "Follow-up after the procedure comes back to the clinic"
+      ]
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "السونار داخل سعر الكشف؟",
+      "en": "Is the ultrasound included in the consultation?"
+     },
+     "a": {
+      "ar": "أيوه. الكشف بيشمل السونار في نفس الزيارة، مش هتخرج تعمل سونار بره وترجع تاني يوم. والدكتور بيشوف السونار بنفسه وانت قدامه، مش بيقرا تقرير حد تاني.",
+      "en": "Yes. The consultation includes the ultrasound in the same visit, you will not be sent out to have a scan elsewhere and come back the next day. And the doctor performs and reads the scan himself with you in the room, rather than reading someone else's report."
+     }
+    },
+    {
+     "q": {
+      "ar": "لازم أكون صايمة؟",
+      "en": "Do I need to be fasting?"
+     },
+     "a": {
+      "ar": "للسونار على البطن، أيوه: صيام من ٦ لـ ٨ ساعات قبل الميعاد، والمياه عادي. ويفضّل تتجنب المشروبات الغازية والأكل اللي بيسبب انتفاخ في اليوم اللي قبله عشان الصورة تطلع واضحة.",
+      "en": "For an abdominal ultrasound, yes: fast for six to eight hours beforehand; water is fine. It also helps to avoid fizzy drinks and bloating foods the day before so the images are clear."
+     }
+    },
+    {
+     "q": {
+      "ar": "أعمل منظار عندكم؟",
+      "en": "Can I have an endoscopy at the clinic?"
+     },
+     "a": {
+      "ar": "الكشف بيقيّم لو حالتك محتاجة منظار فعلاً. المناظير بتتعمل في مركز مجهّز، والدكتور هيحدد معاك الخطوة الجاية لو ده اللي حالتك محتاجاه.",
+      "en": "The consultation assesses whether your case genuinely needs an endoscopy. Endoscopies are performed in an equipped centre, and the doctor will agree the next step with you if that is what your case requires."
+     }
+    },
+    {
+     "q": {
+      "ar": "أعراض القولون بترجع رغم العلاج، ليه؟",
+      "en": "My IBS symptoms keep coming back despite treatment, why?"
+     },
+     "a": {
+      "ar": "لأن \"القولون العصبي\" أحياناً بيكون تشخيص بيتحط بدري على أعراض سببها حاجة تانية: جرثومة معدة، حساسية طعام، مشكلة في المرارة، أو خلل في الغدة الدرقية. الكشف الشامل مع السونار بيفرّق بين دي ودي.",
+      "en": "Because \"IBS\" is sometimes a label applied early to symptoms that have another cause, H. pylori, a food intolerance, a gallbladder problem, or a thyroid disorder. A thorough consultation with ultrasound distinguishes between them."
+     }
+    },
+    {
+     "q": {
+      "ar": "أروح الجهاز الهضمي ولا الباطنة العامة؟",
+      "en": "Should I book gastroenterology or general internal medicine?"
+     },
+     "a": {
+      "ar": "لو شكواك في المعدة أو القولون أو الكبد أو المرارة، ابدأ من هنا. لو شكواك في السكر أو الضغط أو الغدة أو تحاليل عامة، ابدأ من الباطنة العامة. د. مهاب أشرف بيشوف العيادتين، فلو حجزت في الواحدة والحالة بتخص التانية، ده بيتظبط في نفس الزيارة.",
+      "en": "If your complaint is in the stomach, bowel, liver or gallbladder, start here. If it is diabetes, blood pressure, thyroid or a general workup, start at general internal medicine."
+     }
+    },
+    {
+     "q": {
+      "ar": "باكل كويس ومش بزيد، ممكن يكون عندي سوء امتصاص؟",
+      "en": "I eat well but do not gain weight. Could I have malabsorption?"
+     },
+     "a": {
+      "ar": "ممكن، لكن النحافة وحدها ما تثبتش سوء امتصاص. إسهال مستمر، براز دهني، ألم أو انتفاخ، أنيميا، نقص عناصر أو نزول وزن من غير قصد يخلوا التقييم أهم. ما تمنعش أطعمة أساسية قبل الكشف لأن ده ممكن يغيّر صورة بعض الاختبارات.",
+      "en": "Possibly, but low weight alone does not prove malabsorption. Persistent diarrhoea, greasy stool, pain or bloating, anaemia, nutrient deficiencies or unintentional loss make assessment more important. Do not remove major foods before review because that can alter some test results."
+     }
+    },
+    {
+     "q": {
+      "ar": "بطني بتنتفخ بعد الأكل، أمنع إيه؟",
+      "en": "My abdomen bloats after meals. What should I cut out?"
+     },
+     "a": {
+      "ar": "ما تبدأش بمنع قائمة طويلة. سجّل الأكل والكمية وتوقيت الانتفاخ والبراز، وراجع الإمساك وسرعة الأكل والمشروبات الغازية. نزول وزن، دم في البراز، قيء مستمر، أنيميا أو ألم شديد يحتاج تقييماً بدل تجربة منع منزلية.",
+      "en": "Do not begin by banning a long list. Record the food, amount, timing of bloating and bowel pattern, and consider constipation, eating speed and fizzy drinks. Weight loss, blood in stool, persistent vomiting, anaemia or severe pain needs assessment rather than a home elimination experiment."
+     }
+    },
+    {
+     "q": {
+      "ar": "الإمساك المزمن ممكن يتحسن بالأكل بس؟",
+      "en": "Can chronic constipation improve through food alone?"
+     },
+     "a": {
+      "ar": "الألياف والسوائل والحركة والروتين ممكن يساعدوا، لكن الزيادة المفاجئة في الألياف ممكن تزود الانتفاخ، وبعض الحالات تحتاج علاجاً أو فحصاً. دم في البراز، قيء، ألم شديد، انتفاخ مع توقف الغازات، أو نزول وزن يحتاج تقييماً سريعاً.",
+      "en": "Fibre, fluid, movement and routine may help, but suddenly increasing fibre can worsen bloating, and some cases need treatment or investigation. Blood in stool, vomiting, severe pain, swelling with no wind, or weight loss needs prompt assessment."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "الجهاز الهضمي والكبد والمناظير في المعادي | لاروز",
+     "en": "Gastroenterology & Liver Clinic in Maadi | La Rose"
+    },
+    "description": {
+     "ar": "كشف الجهاز الهضمي والكبد في المعادي شامل السونار في نفس الزيارة: جرثومة المعدة، الارتجاع، القولون العصبي، دهون الكبد، حصوات المرارة وتقييم المناظير.",
+     "en": "Gut and liver consultations in Maadi with the ultrasound inside the same visit: H. pylori, reflux, IBS, fatty liver, gallstones and a clear assessment of whether an endoscopy is needed."
+    }
+   }
+  },
+  {
+   "slug": "ultrasound",
+   "index": "06",
+   "published": true,
+   "staffed": true,
+   "featured": false,
+   "hasBeforeAfter": false,
+   "hasReviews": false,
+   "icon": "ultrasound",
+   "name": {
+    "ar": "سونار البطن",
+    "en": "Abdominal Ultrasound"
+   },
+   "short": {
+    "ar": "السونار",
+    "en": "Ultrasound"
+   },
+   "sub": {
+    "ar": "بطلب طبيبك، من غير كشف",
+    "en": "At your own doctor's request, without a consultation"
+   },
+   "intro": {
+    "ar": "طبيبك طالب سونار بطن؟ بنعمله كخدمة منفصلة من غير كشف، وبتستلم التقرير في نفس الزيارة. الفحص بيعمله أخصائيين عندنا، والقرار يفضل مع طبيبك المعالج. ولو حبيت رأي كامل على الأعراض مش صورة بس، الكشف عندنا بيشمل السونار في نفس الزيارة.",
+    "en": "Has your doctor asked for an abdominal scan? We perform it as a separate service with no consultation needed, and you receive the report in the same visit. The scan is carried out by our specialists, and the decision stays with your own doctor. If what you want is an opinion on the symptoms rather than an image, a consultation here already includes the scan."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "حجز سونار البطن بيشمل",
+     "en": "An abdominal ultrasound appointment includes"
+    },
+    "items": {
+     "ar": [
+      "حجز من غير كشف",
+      "الفحص وقراءة السونار بواسطة الطبيب نفسه",
+      "استلام التقرير في نفس الزيارة",
+      "القرار العلاجي يفضل مع طبيبك المعالج"
+     ],
+     "en": [
+      "Booking without a consultation",
+      "The same doctor performing and reading the scan",
+      "Receiving the report in the same visit",
+      "Treatment decisions remaining with your own doctor"
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "الكبد ودهون الكبد",
+     "المرارة والحصوات",
+     "البنكرياس والطحال",
+     "الكلى والمسالك",
+     "متابعة نتيجة سابقة",
+     "فحص مطلوب قبل إجراء أو عملية"
+    ],
+    "en": [
+     "The liver, including fatty liver",
+     "The gallbladder and gallstones",
+     "The pancreas and spleen",
+     "The kidneys and urinary tract",
+     "Following up an earlier result",
+     "A scan requested before a procedure or an operation"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "abdominal-ultrasound-standalone",
+     "name": {
+      "ar": "سونار البطن",
+      "en": "Abdominal ultrasound"
+     },
+     "summary": {
+      "ar": "الفحص والتقرير في نفس الزيارة",
+      "en": "The scan and the report in the same visit"
+     },
+     "body": {
+      "ar": "الفحص بيشمل الكبد والمرارة والبنكرياس والطحال والكلى حسب الطلب المكتوب من طبيبك. التحضير: صيام من ٦ لـ ٨ ساعات قبل الميعاد، والمياه عادي، وتجنّب المشروبات الغازية والأكل اللي بينفخ في اليوم اللي قبله عشان الصورة تطلع واضحة. لو بتاخد أدوية مزمنة، اسأل العيادة قبل الميعاد بدل ما توقف حاجة من نفسك. هات معاك الطلب وأي تقرير أو صورة سابقة، لأن المقارنة بتفرق.",
+      "en": "The scan covers the liver, gallbladder, pancreas, spleen and kidneys according to your doctor's written request. Preparation: fast for six to eight hours beforehand, water is fine, and avoid fizzy drinks and bloating foods the day before so the images are clear. If you take regular medicines, ask the clinic before your appointment rather than stopping anything yourself. Bring the request and any earlier report or images with you: the comparison matters."
+     },
+     "facts": {
+      "ar": [
+       "بيتحجز من غير كشف",
+       "صيام ٦ لـ ٨ ساعات، والمياه عادي",
+       "الدكتور بيعمل الفحص ويقراه بنفسه",
+       "بتستلم التقرير، والقرار مع طبيبك المعالج"
+      ],
+      "en": [
+       "Booked without a consultation",
+       "Fast six to eight hours; water is fine",
+       "The doctor performs and reads the scan himself",
+       "You receive the report, and the decision stays with your doctor"
+      ]
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "أقدر أعمل سونار من غير كشف؟",
+      "en": "Can I have a scan without a consultation?"
+     },
+     "a": {
+      "ar": "أيوه، لو معاك طلب من طبيبك المعالج. بنعمل الفحص وبتستلم التقرير وترجع بيه لطبيبك. لو مالكش طبيب متابع ومحتاج رأي على الأعراض نفسها، الكشف أنسب لأنه بيشمل السونار وبيربطه بتاريخك وتحاليلك.",
+      "en": "Yes, if you have a request from your own doctor. We perform the scan, you receive the report, and you take it back to them. If you have no doctor following you and you want an opinion on the symptoms themselves, a consultation suits you better: it includes the scan and reads it against your history and your labs."
+     }
+    },
+    {
+     "q": {
+      "ar": "لازم أكون صايم؟",
+      "en": "Do I need to be fasting?"
+     },
+     "a": {
+      "ar": "أيوه: من ٦ لـ ٨ ساعات قبل الميعاد، والمياه عادي. ويفضّل تتجنب المشروبات الغازية والأكل اللي بيسبب انتفاخ في اليوم اللي قبله، لأن الغازات بتحجب الصورة.",
+      "en": "Yes: six to eight hours beforehand, and water is fine. It also helps to avoid fizzy drinks and bloating foods the day before, because gas gets in the way of the image."
+     }
+    },
+    {
+     "q": {
+      "ar": "التقرير بيوصل إمتى؟",
+      "en": "When do I get the report?"
+     },
+     "a": {
+      "ar": "في نفس الزيارة. الدكتور بيعمل الفحص ويقراه وإنت قدامه، فمفيش تقرير بيتكتب بعد يومين من حد ما شافكش.",
+      "en": "In the same visit. The doctor performs the scan and reads it with you in the room, so there is no report written up two days later by someone who never saw you."
+     }
+    },
+    {
+     "q": {
+      "ar": "لو الصورة طلعت فيها حاجة؟",
+      "en": "What if the scan shows something?"
+     },
+     "a": {
+      "ar": "هنقولك بوضوح ونكتبها في التقرير. لو الحالة محتاجة رأي أو خطوة تانية، تقدر تحجز كشف عندنا أو ترجع لطبيبك المعالج؛ الاختيار ليك، والتقرير معاك في الحالتين.",
+      "en": "We will tell you plainly and write it in the report. If it needs an opinion or a next step you can book a consultation here or take it back to your own doctor: the choice is yours, and the report is yours either way."
+     }
+    },
+    {
+     "q": {
+      "ar": "السونار قال عندي دهون على الكبد، يقدر يحدد درجة الخطورة؟",
+      "en": "My ultrasound showed fatty liver. Can it establish how serious it is?"
+     },
+     "a": {
+      "ar": "السونار يقدر يبين شكلاً يتماشى مع تراكم الدهون، لكنه لوحده ما يقيسش الالتهاب أو التليف بدقة. التقرير يتقري مع التاريخ والفحص وتحاليل الكبد والسكر والدهون، والطبيب يحدد هل محتاج متابعة أو فحصاً إضافياً.",
+      "en": "Ultrasound can show an appearance consistent with fat accumulation, but it cannot accurately measure inflammation or fibrosis by itself. The report is read with the history, examination and liver, glucose and lipid tests before deciding whether follow-up or another assessment is needed."
+     }
+    },
+    {
+     "q": {
+      "ar": "وزني زاد فجأة، هل السونار هو أول خطوة؟",
+      "en": "My weight rose suddenly. Is ultrasound the first step?"
+     },
+     "a": {
+      "ar": "مش تلقائياً. الزيادة ممكن تكون دهوناً أو سوائل أو مرتبطة بدواء أو سبب هرموني، فالكشف والأعراض هم اللي يحددوا إذا كان السونار هيفيد وأنهي منطقة تتفحص. تورم واضح أو ضيق نفس أو ألم صدر يحتاج تقييماً سريعاً.",
+      "en": "Not automatically. The change may be fat, fluid, medicine-related or hormonal, so symptoms and examination determine whether ultrasound would help and which area to assess. Clear swelling, breathlessness or chest pain needs prompt evaluation."
+     }
+    },
+    {
+     "q": {
+      "ar": "السونار بيقيس الدهون الحشوية حوالين الأعضاء؟",
+      "en": "Does ultrasound measure visceral fat around the organs?"
+     },
+     "a": {
+      "ar": "سونار البطن العادي مش قياساً شاملاً أو دقيقاً لكل الدهون الحشوية. ممكن يبين دهوناً على الكبد أو مشكلة محددة، لكن تقدير خطر دهون البطن يعتمد كمان على محيط الخصر والضغط والسكر ودهون الدم، وتصوير إضافي يتطلب بس لو هيغير القرار.",
+      "en": "Routine abdominal ultrasound is not a comprehensive, precise measure of all visceral fat. It may show fatty liver or a particular problem, while abdominal-fat risk also uses waist size, blood pressure, glucose and blood lipids. Further imaging is selected only when it would change care."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "سونار بطن في المعادي | عيادات لاروز التخصصية",
+     "en": "Abdominal Ultrasound in Maadi | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "سونار بطن في المعادي الجديدة بطلب طبيبك ومن غير كشف: الكبد والمرارة والبنكرياس والكلى، بيعمله أخصائي الباطنة بنفسه وبتستلم التقرير في نفس الزيارة.",
+     "en": "Abdominal ultrasound in New Maadi at your own doctor's request, with no consultation needed: liver, gallbladder, pancreas and kidneys, performed by the specialist himself, report in the same visit."
+    }
+   }
+  },
+  {
+   "slug": "general-surgery",
+   "index": "07",
+   "published": true,
+   "staffed": false,
+   "featured": false,
+   "hasBeforeAfter": false,
+   "hasReviews": true,
+   "icon": "scalpel",
+   "name": {
+    "ar": "الجراحة العامة والمناظير",
+    "en": "General & Laparoscopic Surgery"
+   },
+   "short": {
+    "ar": "الجراحة العامة",
+    "en": "General Surgery"
+   },
+   "sub": {
+    "ar": "تقييم واضح وصريح قبل أي قرار جراحي",
+    "en": "A clear, honest assessment before any surgical decision"
+   },
+   "intro": {
+    "ar": "مش كل حالة محتاجة عملية. قسم الجراحة العامة في لاروز بيبدأ بتقييم كامل يشمل الفحص، السونار، والتحاليل. بعدها بيتحدد إذا كانت الجراحة هي الحل الأنسب فعلًا ولا في طريق تاني. ولو العملية هي الحل، بنشرح لك نوعها وبدائلها ومدة التعافي قبل ما تاخد أي قرار.",
+    "en": "Not every case needs an operation. General surgery at La Rose starts with a full assessment, including examination, ultrasound and lab tests. Only then is it decided whether surgery is genuinely the most suitable option or whether there is another route. If surgery is the answer, we explain the procedure, its alternatives and the recovery time before you make any decision."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "الاستشارة الجراحية بتشمل",
+     "en": "A surgical consultation includes"
+    },
+    "items": {
+     "ar": [
+      "الفحص الإكلينيكي",
+      "مراجعة التحاليل والأشعة",
+      "سونار لو الحالة محتاجاه",
+      "شرح الخيارات المتاحة والخطوة الجاية"
+     ],
+     "en": [
+      "A clinical examination",
+      "Review of your labs and imaging",
+      "An ultrasound where the case calls for it",
+      "An explanation of the available options and the next step"
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "الفتق بأنواعه (سري، إربي، جراحي)",
+     "حصوات المرارة والتهاب المرارة",
+     "الزائدة الدودية",
+     "البواسير والشرخ والناسور",
+     "أورام وأكياس الجلد الحميدة",
+     "جراحات الغدة الدرقية",
+     "الخراريج والالتهابات الجراحية",
+     "جراحات الثدي الحميدة"
+    ],
+    "en": [
+     "Hernias of all types (umbilical, inguinal, incisional)",
+     "Gallstones and cholecystitis",
+     "Appendicitis",
+     "Haemorrhoids, anal fissure and fistula",
+     "Benign skin lumps and cysts",
+     "Thyroid surgery",
+     "Abscesses and surgical infections",
+     "Benign breast surgery"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "surgical-consultation",
+     "name": {
+      "ar": "استشارة جراحية",
+      "en": "Surgical consultation"
+     },
+     "summary": {
+      "ar": "تقييم الحالة وتحديد لو الجراحة مطلوبة",
+      "en": "Assessing the case and deciding whether surgery is needed"
+     },
+     "body": {
+      "ar": "الاستشارة بتشمل الفحص الإكلينيكي، ومراجعة التحاليل والأشعة، والسونار لو الحالة محتاجاه، وشرح واضح للخيارات المتاحة، بما فيها خيار إننا منعملش عملية دلوقتي. بتخرج عارفة حالتك بالظبط وإيه الخطوة الجاية.",
+      "en": "The consultation covers the clinical examination, a review of your labs and imaging, an ultrasound where the case calls for it, and a clear explanation of the options available, including the option of not operating now. You leave knowing exactly what your situation is and what the next step is."
+     }
+    },
+    {
+     "slug": "laparoscopic-surgery",
+     "name": {
+      "ar": "جراحات المناظير",
+      "en": "Laparoscopic surgery"
+     },
+     "summary": {
+      "ar": "من غير فتح كبير، وتعافي أسرع",
+      "en": "No large incision, and a faster recovery"
+     },
+     "body": {
+      "ar": "معظم جراحات المرارة والفتق والزائدة بتتعمل دلوقتي بالمنظار من خلال فتحات صغيرة بدل الفتح الكبير. الفايدة: ألم أقل بعد العملية، وقت أقصر في المستشفى، وتعافي أسرع، وأثر جراحي أصغر بكتير.",
+      "en": "Most gallbladder, hernia and appendix operations are now done laparoscopically through small incisions rather than an open cut. The benefits: less pain afterwards, a shorter hospital stay, faster recovery and a far smaller scar."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "هل كل فتق محتاج عملية؟",
+      "en": "Does every hernia need an operation?"
+     },
+     "a": {
+      "ar": "لأ. في فتوق صغيرة ومن غير أعراض ممكن تتابَع بالمراقبة. بس الفتق اللي بيكبر أو بيوجع أو بيسبب انسداد محتاج تدخل، والتأخير فيه بيزوّد الخطورة. التقييم بيفرّق بين الحالتين.",
+      "en": "No. Small, symptom-free hernias can sometimes be watched. But a hernia that is enlarging, painful, or causing obstruction needs intervention, and delaying raises the risk. The assessment distinguishes between the two."
+     }
+    },
+    {
+     "q": {
+      "ar": "التعافي بياخد قد إيه؟",
+      "en": "How long is the recovery?"
+     },
+     "a": {
+      "ar": "بيختلف حسب نوع العملية وطريقتها. جراحات المناظير عموماً بترجّعك لنشاطك الطبيعي أسرع بكتير من الفتح التقليدي. الدكتور بيحدد لك المدة المتوقعة لحالتك قبل العملية.",
+      "en": "It depends on the procedure and the approach. Laparoscopic operations generally return you to normal activity far faster than open surgery. The surgeon will give you the expected timeline for your specific case before the operation."
+     }
+    },
+    {
+     "q": {
+      "ar": "العمليات بتتعمل فين؟",
+      "en": "Where are the operations performed?"
+     },
+     "a": {
+      "ar": "الاستشارة والتقييم والمتابعة بعد العملية بتتم في العيادة. العمليات نفسها بتتعمل في مستشفى مجهّز، والدكتور هيحدد معاك التفاصيل.",
+      "en": "The consultation, the assessment and the post-operative follow-up take place at the clinic. The operations themselves are performed in an equipped hospital, and the surgeon will agree the details with you."
+     }
+    },
+    {
+     "q": {
+      "ar": "خسّيت ولسه عندي دهون عنيدة، هل محتاج عملية؟",
+      "en": "I lost weight but still have stubborn local fat. Do I need an operation?"
+     },
+     "a": {
+      "ar": "مش بالضرورة. الدهون الموضعية أو الجلد الزائد يختلفوا عن السمنة اللي تستدعي جراحة، والاختيار يعتمد على ثبات الوزن، المنطقة، الجلد، الصحة والهدف الواقعي. التقييم يوضح هل الأفضل متابعة، إجراء غير جراحي، رأي تجميل متخصص، أو تدخل جراحي.",
+      "en": "Not necessarily. Local fat or excess skin is different from obesity requiring surgery, and the choice depends on weight stability, area, skin, health and a realistic aim. Assessment can separate observation, a non-surgical option, specialist plastic-surgery advice or an operation."
+     }
+    },
+    {
+     "q": {
+      "ar": "وزني عالي وتعبت من الرجيم، إمتى أفكر في عملية سمنة؟",
+      "en": "My weight is high and diets have not worked. When should I consider bariatric surgery?"
+     },
+     "a": {
+      "ar": "القرار ما يتاخدش من الوزن وحده ولا من فشل رجيم واحد. الجراح يراجع مؤشر الكتلة، الأمراض المصاحبة، المحاولات السابقة، الاستعداد للمتابعة والمخاطر، ويشرح البدائل. التقييم ممكن ينتهي بخطة غير جراحية أو إحالة لمسار جراحة السمنة.",
+      "en": "The decision does not come from weight alone or one unsuccessful diet. A surgeon reviews BMI, related conditions, previous attempts, readiness for follow-up and risk, and explains alternatives. Assessment may lead to a non-surgical plan or the bariatric pathway."
+     }
+    },
+    {
+     "q": {
+      "ar": "أختار علاج دوائي ولا عملية للسمنة؟",
+      "en": "Should I choose medicine or surgery for obesity?"
+     },
+     "a": {
+      "ar": "مفيش اختيار أفضل لكل الناس. القرار يعتمد على شدة السمنة، الأمراض المصاحبة، الاستجابة السابقة، موانع العلاج، تفضيلك وقدرتك على المتابعة طويلة المدى. المطلوب مقارنة الفائدة والمخاطر والالتزام لكل اختيار مع فريق إدارة الوزن والجراحة.",
+      "en": "There is no best option for everyone. The decision depends on severity, related illness, previous response, contraindications, your preference and ability to continue long-term follow-up. Compare benefits, risks and commitments with the weight-management and surgical teams."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "الجراحة العامة والمناظير في المعادي | عيادات لاروز",
+     "en": "General & Laparoscopic Surgery | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "استشارات الجراحة العامة وجراحات المناظير في المعادي: الفتق، المرارة، الزائدة، البواسير، وجراحات الغدة الدرقية، بتقييم صريح قبل أي قرار جراحي.",
+     "en": "General and laparoscopic surgery consultations in Maadi: hernia, gallbladder, appendix, haemorrhoids and thyroid surgery, with an honest assessment before any surgical decision."
+    }
+   }
+  },
+  {
+   "slug": "bariatric-surgery",
+   "index": "08",
+   "published": true,
+   "staffed": false,
+   "featured": false,
+   "hasBeforeAfter": true,
+   "hasReviews": true,
+   "icon": "activity",
+   "name": {
+    "ar": "جراحات السمنة",
+    "en": "Bariatric Surgery"
+   },
+   "short": {
+    "ar": "جراحات السمنة",
+    "en": "Bariatric Surgery"
+   },
+   "sub": {
+    "ar": "لما تكون الجراحة هي الحل المناسب فعلًا",
+    "en": "For when surgery genuinely is the right option"
+   },
+   "intro": {
+    "ar": "جراحة السمنة مش أول خطوة، ومش مناسبة لكل حالة. في لاروز بنبدأ بالتقييم: درجة السمنة، الأمراض المصاحبة، التاريخ العلاجي، والاستعداد النفسي والجسدي. لو حالتك مناسبة للحلول غير الجراحية، هنقولك بوضوح ونحوّلك لقسم إدارة الوزن. ولو الجراحة هي الأنسب، الفرق بيبان في التحضير والمتابعة بعدها، مش في العملية نفسها.",
+    "en": "Bariatric surgery is not the first step, and it is not suitable for every case. At La Rose, we begin with an assessment of the degree of obesity, associated conditions, treatment history, and physical and psychological readiness. If non-surgical options are suitable for your case, we will tell you clearly and refer you to the weight-management department. If surgery is the most suitable option, the difference lies in the preparation and follow-up afterwards, not in the operation itself."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "تقييم ملاءمة جراحة السمنة بيشمل",
+     "en": "A bariatric surgery eligibility assessment includes"
+    },
+    "items": {
+     "ar": [
+      "حساب مؤشر كتلة الجسم",
+      "تحليل التركيب الجسمي بجهاز InBody",
+      "مراجعة التحاليل والتاريخ العلاجي والأمراض المصاحبة",
+      "تقييم الاستعداد لتعليمات ما بعد العملية"
+     ],
+     "en": [
+      "Calculating your BMI",
+      "An InBody body-composition analysis",
+      "Reviewing your labs, treatment history and associated conditions",
+      "Assessing readiness for the post-operative instructions"
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "السمنة المفرطة (BMI ٤٠ فأكتر)",
+     "السمنة مع أمراض مصاحبة (سكر، ضغط، انقطاع النفس النومي)",
+     "فشل المحاولات المتكررة لإنقاص الوزن",
+     "متابعة ما بعد جراحات السمنة",
+     "تصحيح مضاعفات جراحات سابقة",
+     "التغذية العلاجية قبل وبعد الجراحة"
+    ],
+    "en": [
+     "Severe obesity (BMI 40 and above)",
+     "Obesity with associated conditions (diabetes, hypertension, sleep apnoea)",
+     "Repeated failed attempts at weight loss",
+     "Follow-up after bariatric surgery",
+     "Correcting complications of previous procedures",
+     "Therapeutic nutrition before and after surgery"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "eligibility-assessment",
+     "name": {
+      "ar": "تقييم مدى ملاءمة الجراحة",
+      "en": "Eligibility assessment"
+     },
+     "summary": {
+      "ar": "الخطوة اللي بتحدد لو الجراحة أصلاً هي الحل",
+      "en": "The step that decides whether surgery is the answer at all"
+     },
+     "body": {
+      "ar": "التقييم بيشمل حساب مؤشر كتلة الجسم، وتحليل التركيب الجسمي بجهاز InBody، ومراجعة التحاليل والتاريخ العلاجي، وتقييم الأمراض المصاحبة، والاستعداد للالتزام بتعليمات ما بعد العملية، لأن دي بالظبط اللي بتحدد نجاحها على المدى الطويل.",
+      "en": "The assessment covers your BMI, an InBody body-composition analysis, a review of your labs and treatment history, an evaluation of associated conditions, and your readiness to follow the post-operative instructions, because that is precisely what determines long-term success."
+     }
+    },
+    {
+     "slug": "sleeve-gastrectomy",
+     "name": {
+      "ar": "التكميم",
+      "en": "Sleeve gastrectomy"
+     },
+     "summary": {
+      "ar": "تصغير حجم المعدة بالمنظار",
+      "en": "Reducing the stomach's size laparoscopically"
+     },
+     "body": {
+      "ar": "بيتم فيه قص وإزالة جزء كبير من المعدة عشان يقل حجمها، فتقل الكمية اللي بتتاكل ويقل هرمون الجوع. بيتعمل بالمنظار من خلال فتحات صغيرة. الإجراء أقل تعقيداً من التحويل، والنتيجة المتوقعة كبيرة وسريعة، بس بتفضل معتمدة على الالتزام بالتعليمات الغذائية بعد العملية.",
+      "en": "A large part of the stomach is removed to reduce its volume, so the amount eaten falls and the hunger hormone drops. It is done laparoscopically through small incisions. The procedure is less complex than a bypass, and the expected result is substantial and rapid, but it remains dependent on following the dietary instructions afterwards."
+     }
+    },
+    {
+     "slug": "post-op-nutrition",
+     "name": {
+      "ar": "التغذية والمتابعة بعد العملية",
+      "en": "Post-operative nutrition and follow-up"
+     },
+     "summary": {
+      "ar": "الجزء اللي بيحدد إذا كانت العملية هتنجح ولا لأ",
+      "en": "The part that decides whether the operation succeeds"
+     },
+     "body": {
+      "ar": "العملية بتصغّر المعدة، بس هي لوحدها مش علاج نهائي للسمنة. بعد الجراحة بتحتاج تدرّج غذائي محسوب من السوائل للأكل اللين للأكل العادي، ومتابعة للفيتامينات والمعادن، وخطة بروتين تحمي الكتلة العضلية. ده اللي بيمنع رجوع الوزن وبيمنع نقص التغذية، وبيتعمل هنا مع قسم التغذية العلاجية.",
+      "en": "The operation shrinks the stomach, but on its own it is not a definitive cure for obesity. Afterwards you need a measured progression from liquids to soft food to normal eating, monitoring of vitamins and minerals, and a protein plan that protects your muscle mass. This is what prevents both weight regain and malnutrition, and it is done here alongside the clinical nutrition department."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "إمتى أكون محتاج جراحة سمنة؟",
+      "en": "When would I actually need bariatric surgery?"
+     },
+     "a": {
+      "ar": "عموماً لما يكون مؤشر كتلة الجسم ٤٠ فأكتر، أو ٣٥ فأكتر مع مرض مصاحب زي السكر أو انقطاع النفس النومي، وبعد ما تكون جرّبت طرق تانية لإنقاص الوزن وما نجحتش. التقييم في العيادة هو اللي بيحدد ده بالظبط لحالتك.",
+      "en": "Generally when BMI is 40 or above, or 35 or above with an associated condition such as diabetes or sleep apnoea, and after other routes to weight loss have been tried without success. The assessment at the clinic is what establishes this precisely for your case."
+     }
+    },
+    {
+     "q": {
+      "ar": "إيه الفرق بين التكميم والحقن؟",
+      "en": "What is the difference between a sleeve and the injections?"
+     },
+     "a": {
+      "ar": "التكميم إجراء جراحي دائم بيغيّر حجم المعدة. الحقن علاج دوائي بيتوقف وقت ما نقرر نوقفه. الحقن بقت بديل حقيقي لكتير من الحالات اللي زمان كانت هتروح للجراحة، بس مش لكل حالة، ودي بالظبط اللي التقييم بيحددها.",
+      "en": "A sleeve is a permanent surgical procedure that changes the size of the stomach. The injections are a medication that can be stopped when we decide to stop it. The injections have become a genuine alternative for many cases that would once have gone to surgery: but not for every case, and that is exactly what the assessment establishes."
+     }
+    },
+    {
+     "q": {
+      "ar": "الوزن ممكن يرجع بعد العملية؟",
+      "en": "Can the weight come back after surgery?"
+     },
+     "a": {
+      "ar": "أيوه، لو ما اتغيرتش العادات. الجراحة بتدي فرصة، بس اللي بيثبّت النتيجة هو التدرّج الغذائي الصح والمتابعة والالتزام على المدى الطويل. عشان كده متابعة التغذية بعد العملية جزء أساسي من الخطة مش إضافة.",
+      "en": "Yes, if habits do not change. Surgery creates an opportunity, but what holds the result is the correct dietary progression, follow-up and long-term commitment. That is why post-operative nutrition follow-up is a core part of the plan, not an add-on."
+     }
+    },
+    {
+     "q": {
+      "ar": "فيه مخاطر؟",
+      "en": "Are there risks?"
+     },
+     "a": {
+      "ar": "زي أي إجراء جراحي، أيوه، وأهمها نقص الفيتامينات والمعادن، والارتجاع، ومضاعفات جراحية عامة. بس مخاطر السمنة نفسها في الحالات اللي بتستدعي الجراحة بتكون أكبر. الدكتور بيشرح لك المخاطر الخاصة بحالتك بالتفصيل قبل أي قرار.",
+      "en": "As with any surgical procedure, yes: the main ones being vitamin and mineral deficiency, reflux, and the general risks of surgery. But in the cases that warrant surgery, the risks of the obesity itself are greater. The surgeon explains the risks specific to your case in detail before any decision."
+     }
+    },
+    {
+     "q": {
+      "ar": "رجع جزء من وزني بعد جراحة السمنة، ينفع علاج دوائي؟",
+      "en": "Some weight returned after bariatric surgery. Could medicine help?"
+     },
+     "a": {
+      "ar": "ممكن يكون مناسباً لبعض الحالات، لكن الأول نراجع نوع العملية، مسار الوزن، الأكل، الأعراض، نقص العناصر والأدوية. الجراح وفريق إدارة الوزن يحددوا هل السبب سلوكي أو طبي أو متعلق بالعملية، وهل الدواء أو خطوة تانية هي الأنسب.",
+      "en": "It may suit selected cases, but first review the procedure, weight course, food, symptoms, nutrient status and medicines. The surgical and weight-management teams establish whether the cause is behavioural, medical or procedure-related and whether medicine or another step is appropriate."
+     }
+    },
+    {
+     "q": {
+      "ar": "عندي شخير وتوقف نفس أثناء النوم، ده يفرق في تقييم جراحة السمنة؟",
+      "en": "I snore and stop breathing during sleep. Does that affect bariatric assessment?"
+     },
+     "a": {
+      "ar": "أيوه، لازم يتقال للفريق لأنه ممكن يشير لانقطاع النفس أثناء النوم ويؤثر على تقييم التخدير والمتابعة. ما تستناش العملية عشان تفحصه؛ قد تحتاج دراسة نوم وعلاجاً قبل الجراحة، حسب الأعراض والنتيجة.",
+      "en": "Yes. Tell the team because it may indicate sleep apnoea and affect anaesthetic assessment and follow-up. Do not wait for surgery to investigate it; a sleep study and treatment may be needed beforehand, depending on symptoms and results."
+     }
+    },
+    {
+     "q": {
+      "ar": "أظبط أكلي قبل وبعد جراحة السمنة إزاي؟",
+      "en": "How should I manage food before and after bariatric surgery?"
+     },
+     "a": {
+      "ar": "الخطة تختلف حسب نوع العملية وتعليمات الجراح، وبتتدرج في القوام والكميات بعد الجراحة مع اهتمام بالبروتين والسوائل والمكملات الموصوفة. ما تنقلش جدول شخص تاني، وارجع للفريق بسرعة لو مش قادر تشرب، فيه قيء متكرر أو ألم متزايد.",
+      "en": "The plan depends on the procedure and surgeon's instructions. Texture and portions progress after surgery, with attention to protein, fluids and prescribed supplements. Do not copy another person's schedule, and contact the team promptly if you cannot drink, vomit repeatedly or have increasing pain."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "جراحات السمنة والتكميم في المعادي | عيادات لاروز",
+     "en": "Bariatric Surgery in Maadi | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "تقييم واستشارات جراحات السمنة في المعادي: التكميم، التقييم قبل الجراحة، والتغذية والمتابعة بعد العملية مع قسم التغذية العلاجية.",
+     "en": "Bariatric surgery assessment and consultations in Maadi: sleeve gastrectomy, pre-operative evaluation, and post-operative nutrition and follow-up with the clinical nutrition department."
+    }
+   }
+  },
+  {
+   "slug": "dermatology",
+   "index": "09",
+   "published": true,
+   "staffed": false,
+   "featured": false,
+   "hasBeforeAfter": true,
+   "hasReviews": true,
+   "icon": "sparkle",
+   "name": {
+    "ar": "الجلدية والتجميل",
+    "en": "Dermatology & Aesthetics"
+   },
+   "short": {
+    "ar": "الجلدية",
+    "en": "Dermatology"
+   },
+   "sub": {
+    "ar": "علاج طبي للبشرة، مش وصفات عامة",
+    "en": "Medical treatment for your skin, not generic prescriptions"
+   },
+   "intro": {
+    "ar": "كتير من مشاكل البشرة والشعر ممكن يكون سببها من جوه: نقص فيتامينات، خلل هرموني، مقاومة إنسولين، أو مشكلة في الغدة الدرقية. عشان كده قسم الجلدية في لاروز بيشتغل جنب قسمي التغذية والباطنة، فبنعالج البشرة موضعيًا وبندوّر على السبب في نفس الوقت.",
+    "en": "Many skin and hair problems can have an internal cause, including vitamin deficiency, hormonal imbalance, insulin resistance or a thyroid disorder. That is why dermatology at La Rose works alongside the nutrition and internal medicine departments: we treat the skin directly while looking for the underlying cause at the same time."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "كشف الجلدية بيشمل",
+     "en": "A dermatology consultation includes"
+    },
+    "items": {
+     "ar": [
+      "فحص البشرة أو فروة الرأس",
+      "مراجعة التاريخ الطبي والأدوية والتحاليل",
+      "تحديد لو المشكلة موضعية أو ليها سبب داخلي",
+      "خطة مكتوبة مبنية على التقييم"
+     ],
+     "en": [
+      "Examination of the skin or scalp",
+      "Review of your medical history, medications and labs",
+      "Establishing whether the problem is local or has an internal cause",
+      "A written plan based on the assessment"
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "حب الشباب وآثاره",
+     "التصبغات والكلف والهالات السوداء",
+     "تساقط الشعر والثعلبة",
+     "الإكزيما والصدفية",
+     "حساسية الجلد والشرى",
+     "الفطريات والعدوى الجلدية",
+     "الثآليل والزوائد الجلدية",
+     "علامات التمدد بعد نزول الوزن",
+     "شيخوخة البشرة والتجاعيد"
+    ],
+    "en": [
+     "Acne and acne scarring",
+     "Pigmentation, melasma and dark circles",
+     "Hair loss and alopecia",
+     "Eczema and psoriasis",
+     "Skin allergy and urticaria",
+     "Fungal and other skin infections",
+     "Warts and skin tags",
+     "Stretch marks after weight loss",
+     "Skin ageing and wrinkles"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "dermatology-consultation",
+     "name": {
+      "ar": "كشف جلدية",
+      "en": "Dermatology consultation"
+     },
+     "summary": {
+      "ar": "تشخيص السبب مش الأعراض بس",
+      "en": "Diagnosing the cause, not just the symptom"
+     },
+     "body": {
+      "ar": "الكشف بيشمل فحص البشرة أو فروة الرأس، ومراجعة التاريخ الطبي والأدوية والتحاليل، وتحديد لو المشكلة موضعية ولا ليها سبب داخلي محتاج تحاليل. الخطة بتتكتب على أساس ده، مش وصفة عامة.",
+      "en": "The consultation covers examination of the skin or scalp, a review of your medical history, medications and labs, and establishing whether the problem is local or has an internal cause that needs investigating. The plan is written on that basis, not as a generic prescription."
+     }
+    },
+    {
+     "slug": "acne-programme",
+     "name": {
+      "ar": "برنامج علاج حب الشباب",
+      "en": "Acne treatment programme"
+     },
+     "summary": {
+      "ar": "خطة على مراحل، مش علاج واحد",
+      "en": "A staged plan, not a single treatment"
+     },
+     "body": {
+      "ar": "حب الشباب مش نوع واحد ومش سبب واحد. البرنامج بيبدأ بتحديد النوع والدرجة، وفحص الأسباب الهرمونية أو الغذائية لو موجودة، وبعدها خطة علاج موضعي أو دوائي على مراحل مع متابعة، وبعدين مرحلة علاج الآثار.",
+      "en": "Acne is not one type and not one cause. The programme begins by identifying the type and grade, checking for hormonal or dietary causes where present, then a staged topical or systemic treatment plan with follow-up, and finally a phase for treating the scarring."
+     }
+    },
+    {
+     "slug": "hair-loss",
+     "name": {
+      "ar": "علاج تساقط الشعر",
+      "en": "Hair loss treatment"
+     },
+     "summary": {
+      "ar": "بيبدأ بتحليل مش بمنتج",
+      "en": "Starts with a blood test, not a product"
+     },
+     "body": {
+      "ar": "تساقط الشعر عرض مش تشخيص. أول خطوة عندنا تحاليل: الحديد والفيريتين، فيتامين د، الغدة الدرقية، والهرمونات لو الحالة تستدعي. لأن علاج التساقط من غير ما نعرف السبب بيضيّع وقت وفلوس. ولو السبب نقص غذائي، بيتحوّل لقسم التغذية عشان يتعالج من جذوره.",
+      "en": "Hair loss is a symptom, not a diagnosis. The first step here is blood work: iron and ferritin, vitamin D, thyroid function, and hormones where the case calls for it. Treating hair loss without knowing the cause wastes time and money. If the cause is nutritional, the case moves to the nutrition department to be treated at its root."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "ليه بتطلبوا تحاليل لتساقط الشعر؟",
+      "en": "Why do you ask for blood tests for hair loss?"
+     },
+     "a": {
+      "ar": "لأن أشهر أسباب التساقط عندنا نقص الحديد والفيريتين، ونقص فيتامين د، وخلل الغدة الدرقية، وكلها ما بتتحلش بمنتج موضعي. لما نعرف السبب، العلاج بيبقى أسرع وأرخص وأثبت.",
+      "en": "Because the commonest causes of hair loss we see are iron and ferritin deficiency, vitamin D deficiency and thyroid dysfunction, none of which is solved by a topical product. Once we know the cause, treatment is faster, cheaper and more durable."
+     }
+    },
+    {
+     "q": {
+      "ar": "علاقة البشرة بالتغذية إيه؟",
+      "en": "What does skin have to do with nutrition?"
+     },
+     "a": {
+      "ar": "علاقة مباشرة. مقاومة الإنسولين وتكيس المبايض بيظهروا على البشرة كحب شباب هرموني وشعر زايد. ونقص الزنك وفيتامين د وأوميجا ٣ بيظهر كجفاف وتساقط. عشان كده قسمي الجلدية والتغذية بيشتغلوا مع بعض هنا.",
+      "en": "A direct one. Insulin resistance and PCOS show on the skin as hormonal acne and excess hair. Deficiencies in zinc, vitamin D and omega-3 show as dryness and shedding. That is why the dermatology and nutrition departments work together here."
+     }
+    },
+    {
+     "q": {
+      "ar": "علامات التمدد بعد نزول الوزن ليها علاج؟",
+      "en": "Can stretch marks after weight loss be treated?"
+     },
+     "a": {
+      "ar": "بتتحسن، بس التوقّع لازم يكون واقعي: العلامات الحديثة (الحمراء) بتستجيب أحسن بكتير من القديمة (البيضا). وأفضل تعامل معاها هو الوقاية، الترطيب وجلسات الشد أثناء نزول الوزن مش بعده.",
+      "en": "They improve, but the expectation has to be realistic: recent marks (red) respond far better than old ones (white). The best approach is prevention: moisturising and tightening sessions while the weight is coming off, rather than afterwards."
+     }
+    },
+    {
+     "q": {
+      "ar": "شعري بيقع وأنا بخس بعلاج دوائي، أوقف العلاج؟",
+      "en": "My hair is shedding during medical weight loss. Should I stop treatment?"
+     },
+     "a": {
+      "ar": "ما توقفش من نفسك. التساقط ممكن يرتبط بسرعة النزول أو قلة البروتين والطاقة أو نقص الحديد أو الغدة أو سبب في فروة الرأس، وممكن يكون للدواء دور. راجع التوقيت والأكل والأدوية مع الطبيب، واعمل كشف جلدية لو فيه بقع أو التهاب أو تساقط واضح.",
+      "en": "Do not stop it yourself. Shedding may relate to the pace of loss, too little protein or energy, iron or thyroid problems, a scalp condition, or the medicine. Review timing, food and treatment with the prescriber, and arrange dermatology assessment for patches, inflammation or marked loss."
+     }
+    },
+    {
+     "q": {
+      "ar": "ميزوثيرابي الشعر يوقف التساقط لكل الحالات؟",
+      "en": "Does hair mesotherapy stop every type of hair loss?"
+     },
+     "a": {
+      "ar": "لأ. تساقط الشعر عرض له أسباب مختلفة، والإجراء الموضعي ما يعالجش نقص الحديد أو الغدة أو مرضاً في فروة الرأس تلقائياً. التشخيص ييجي الأول، وبعده الطبيب يشرح هل للميزوثيرابي دور، حدود الدليل، المخاطر والبدائل.",
+      "en": "No. Hair loss is a symptom with different causes, and a local procedure does not automatically treat iron deficiency, thyroid disease or a scalp disorder. Diagnosis comes first; then the clinician can explain whether mesotherapy has a role, the limits of evidence, risks and alternatives."
+     }
+    },
+    {
+     "q": {
+      "ar": "ميزوثيرابي الوجه ينفع للهالات والنضارة؟",
+      "en": "Can facial mesotherapy help dark circles and skin radiance?"
+     },
+     "a": {
+      "ar": "الهالات والبهتان لهم أسباب كتير، والنتيجة تعتمد على السبب والمادة المستخدمة؛ مفيش بروتوكول واحد أو ضمان. كشف الجلدية يفرّق بين التصبغ، الأوعية، الحساسية، فقدان الحجم أو سبب داخلي، ويشرح إذا كان الحقن مناسباً أو فيه بديل أدق.",
+      "en": "Dark circles and dullness have many causes, and results depend on the cause and injected substance; there is no universal protocol or guarantee. Dermatology assessment separates pigment, vessels, allergy, volume loss or an internal cause and explains whether injection or another option is more appropriate."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "الجلدية والتجميل في المعادي | عيادات لاروز التخصصية",
+     "en": "Dermatology & Aesthetics in Maadi | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "كشف جلدية في المعادي: حب الشباب، التصبغات، تساقط الشعر، والإكزيما، بتشخيص السبب الداخلي جنب العلاج الموضعي.",
+     "en": "Dermatology consultations in Maadi: acne, pigmentation, hair loss and eczema, diagnosing the internal cause alongside topical treatment."
+    }
+   }
+  },
+  {
+   "slug": "pediatrics",
+   "index": "10",
+   "published": true,
+   "staffed": false,
+   "featured": false,
+   "hasBeforeAfter": false,
+   "hasReviews": true,
+   "icon": "heart",
+   "name": {
+    "ar": "طب الأطفال",
+    "en": "Paediatrics"
+   },
+   "short": {
+    "ar": "طب الأطفال",
+    "en": "Paediatrics"
+   },
+   "sub": {
+    "ar": "متابعة النمو والتغذية من أول يوم",
+    "en": "Growth and nutrition follow-up from day one"
+   },
+   "intro": {
+    "ar": "قسم الأطفال في لاروز بيغطي المتابعة الدورية للنمو، التطعيمات، والأمراض الشائعة. وبيشتغل جنب قسم التغذية في الحالات اللي محتاجة خطة غذائية متخصصة، زي النحافة، السمنة عند الأطفال، فقدان الشهية، والحساسية الغذائية.",
+    "en": "Paediatrics at La Rose covers routine growth monitoring, vaccination and common childhood illnesses. It also works alongside the nutrition department for cases that need a specialised nutrition plan, including underweight children, childhood obesity, poor appetite and food allergy."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "متابعة نمو الطفل بتشمل",
+     "en": "A child growth appointment includes"
+    },
+    "items": {
+     "ar": [
+      "قياس الوزن والطول ومحيط الرأس",
+      "تسجيل القياسات على منحنيات النمو المعتمدة",
+      "مراجعة مسار نمو الطفل",
+      "تحديد إذا كان أي انحراف محتاج بحث"
+     ],
+     "en": [
+      "Measuring weight, height and head circumference",
+      "Plotting the measurements on standard growth charts",
+      "Reviewing the child's growth trajectory",
+      "Establishing whether any deviation needs investigation"
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "متابعة النمو والوزن والطول",
+     "التطعيمات الأساسية والاختيارية",
+     "نزلات البرد والحساسية الصدرية",
+     "المغص والإمساك ومشاكل الهضم عند الأطفال",
+     "فقدان الشهية والنحافة عند الأطفال",
+     "السمنة عند الأطفال والمراهقين",
+     "الحساسية الغذائية",
+     "الأنيميا ونقص فيتامين د",
+     "متابعة حديثي الولادة"
+    ],
+    "en": [
+     "Growth, weight and height monitoring",
+     "Routine and optional vaccinations",
+     "Colds and respiratory allergy",
+     "Colic, constipation and digestive problems in children",
+     "Poor appetite and underweight children",
+     "Obesity in children and adolescents",
+     "Food allergy",
+     "Anaemia and vitamin D deficiency",
+     "Newborn follow-up"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "growth-monitoring",
+     "name": {
+      "ar": "متابعة النمو",
+      "en": "Growth monitoring"
+     },
+     "summary": {
+      "ar": "على منحنيات النمو المعتمدة، مش بالتقدير",
+      "en": "Against standard growth charts, not by impression"
+     },
+     "body": {
+      "ar": "قياس الوزن والطول ومحيط الرأس وتسجيلهم على منحنيات النمو المعتمدة، عشان نعرف لو الطفل ماشي في المسار الطبيعي له هو، مش مقارنة بطفل تاني. الانحراف عن المنحنى هو اللي بيستدعي بحث، مش الرقم في حد ذاته.",
+      "en": "Weight, height and head circumference measured and plotted on standard growth charts, so we can see whether the child is following their own normal trajectory, not a comparison with another child. It is deviation from the curve that warrants investigation, not the number itself."
+     }
+    },
+    {
+     "slug": "child-nutrition",
+     "name": {
+      "ar": "تغذية الأطفال",
+      "en": "Children's nutrition"
+     },
+     "summary": {
+      "ar": "مع أخصائية تغذية علاجية متخصصة في تغذية الأطفال",
+      "en": "With a clinical nutrition specialist experienced in children's nutrition"
+     },
+     "body": {
+      "ar": "فقدان الشهية والنحافة عند الأطفال مش دايماً مشكلة سلوكية، أحياناً بيكون وراها أنيميا أو نقص زنك أو حساسية طعام. الخطة بتتبني بعد فحص وتحاليل، وبتتصمم لتكون قابلة للتطبيق فعلاً مع طفل، مش جدول مثالي.",
+      "en": "Poor appetite and being underweight in children is not always behavioural: anaemia, zinc deficiency or a food intolerance can sit behind it. The plan is built after examination and blood work, and is designed to be something a child will actually follow rather than an ideal chart."
+     }
+    },
+    {
+     "slug": "vaccination",
+     "name": {
+      "ar": "التطعيمات",
+      "en": "Vaccination"
+     },
+     "summary": {
+      "ar": "الجدول الأساسي والاختياري",
+      "en": "The routine and optional schedules"
+     },
+     "body": {
+      "ar": "متابعة جدول التطعيمات الأساسي، ومناقشة التطعيمات الاختيارية وإيه اللي منها مناسب لطفلك ومتى. وبنراجع معاك الجدول لو كان في تأخير أو تطعيمات فاتت.",
+      "en": "Following the routine vaccination schedule, and discussing the optional vaccines, which of them suit your child and when. If there has been a delay or missed doses, we review the schedule with you."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "ابني مش بياكل، أعمل إيه؟",
+      "en": "My child will not eat, what should I do?"
+     },
+     "a": {
+      "ar": "أول حاجة: نتأكد إن مفيش سبب طبي. فقدان الشهية المستمر عند الأطفال ممكن يكون وراه أنيميا أو نقص زنك أو حساسية طعام أو مشكلة في الهضم. بعد ما نستبعد ده، بنشتغل على خطة تغذية عملية مع أخصائية متخصصة في تغذية الأطفال.",
+      "en": "First: make sure there is no medical cause. Persistent poor appetite in children can have anaemia, zinc deficiency, a food intolerance or a digestive problem behind it. Once that is ruled out, we work on a practical feeding plan with a specialist in children's nutrition."
+     }
+    },
+    {
+     "q": {
+      "ar": "امتى أقلق من وزن طفلي؟",
+      "en": "When should I worry about my child's weight?"
+     },
+     "a": {
+      "ar": "لما ينحرف عن منحنى النمو بتاعه هو: يعني كان ماشي على مسار وفجأة اتغير، سواء زيادة أو نقصان. الرقم لوحده مش المؤشر؛ الاتجاه هو المؤشر. عشان كده المتابعة الدورية أهم من قياس مرة واحدة.",
+      "en": "When they deviate from their own growth curve: that is, they were following a trajectory and it suddenly changed, in either direction. The number alone is not the indicator; the trend is. That is why regular monitoring matters more than a single measurement."
+     }
+    },
+    {
+     "q": {
+      "ar": "بتتابعوا حديثي الولادة؟",
+      "en": "Do you follow up newborns?"
+     },
+     "a": {
+      "ar": "أيوه: متابعة الوزن والرضاعة والصفراء والتطعيمات في الشهور الأولى، وبنشتغل مع الأم على الرضاعة والتغذية لو محتاج دعم في ده.",
+      "en": "Yes: weight, feeding, jaundice and vaccinations in the first months, and we work with the mother on breastfeeding and her own nutrition if she needs support with that."
+     }
+    },
+    {
+     "q": {
+      "ar": "ابني المراهق وزنه زايد ومتضايق، أساعده إزاي؟",
+      "en": "My teenager has excess weight and feels upset. How can I help?"
+     },
+     "a": {
+      "ar": "ابدأ بالصحة والعادات مش بالشكل أو اللوم، وخلي التغيير للأسرة كلها. طبيب الأطفال يراجع منحنى النمو والبلوغ والنوم والأدوية والأعراض، وبعدها خطة تغذية وحركة تناسب السن من غير رجيم قاسي أو تنمر.",
+      "en": "Start with health and habits rather than appearance or blame, and make changes as a family. A paediatric clinician reviews the growth curve, puberty, sleep, medicines and symptoms before a food and movement plan suited to age, without crash dieting or stigma."
+     }
+    },
+    {
+     "q": {
+      "ar": "ابني عنده وزن زايد، أعمل له رجيم لوحدي؟",
+      "en": "My child has excess weight. Should I put him on a diet myself?"
+     },
+     "a": {
+      "ar": "ما تبدأش حرماناً أو حسابات للكبار. وزن الطفل يتقري على منحنى مناسب للعمر والجنس مع الطول والنمو، والخطة غالباً تركز على عادات الأسرة والنوم والحركة وجودة الأكل. التقييم يحدد هل المطلوب تثبيت المسار أو تغيير تدريجي.",
+      "en": "Do not begin adult restriction or calculations. A child's weight is read on an age- and sex-appropriate growth chart alongside height and development. Care usually focuses on family habits, sleep, movement and food quality, with assessment deciding whether the goal is trajectory maintenance or gradual change."
+     }
+    },
+    {
+     "q": {
+      "ar": "بنتي خايفة تتخن وبترفض الأكل، إمتى أقلق؟",
+      "en": "My daughter fears gaining weight and refuses food. When should I worry?"
+     },
+     "a": {
+      "ar": "الخوف الشديد من الوزن مع تقليل الأكل أو نزول الوزن يستحق تقييماً مبكراً لاحتمال اضطراب أكل. اتكلم عن الصحة والطاقة من غير جدال أو لوم، واطلب دعماً من طبيب أطفال ومختص نفسي وتغذية. الإغماء أو ألم الصدر أو الجفاف أو أفكار إيذاء النفس طوارئ.",
+      "en": "Intense fear of weight gain with restriction or falling weight deserves early assessment for a possible eating disorder. Talk about health and energy without argument or blame, and seek paediatric, mental health and nutrition support. Fainting, chest pain, dehydration or thoughts of self-harm is an emergency."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "طب الأطفال في المعادي | عيادات لاروز التخصصية",
+     "en": "Paediatrics in Maadi | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "عيادة أطفال في المعادي: متابعة النمو، التطعيمات، تغذية الأطفال، فقدان الشهية والنحافة، والحساسية الغذائية.",
+     "en": "Paediatric clinic in Maadi: growth monitoring, vaccination, children's nutrition, poor appetite and underweight, and food allergy."
+    }
+   }
+  }
+ ]
+}

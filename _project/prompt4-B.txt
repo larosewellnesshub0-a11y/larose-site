@@ -1,0 +1,83 @@
+You are working in the La Rose Wellness Hub website repo.
+
+FIRST: read `_project/CODEX-BRIEF-R4.md` completely and obey every rule in it.
+Then read `content/site.json` (the `nav` and `footer` blocks), `build/lib/shell.mjs`
+and `build/lib/components.mjs` before changing anything.
+
+# YOUR JOB: navigation split, a real language switch, and article bylines.
+
+## B1. Split the Knowledge Centre and the tools
+
+Right now the nav item `المركز المعرفي` ("Knowledge Centre") contains BOTH
+editorial content and the interactive health calculators. The client wants them
+separated.
+
+- `المركز المعرفي` / "Knowledge Centre" keeps ONLY editorial content:
+  articles, scientific updates, doctors' answers (Q&A), daily tips, and the
+  article categories.
+- The calculators and trackers move OUT into their own top-level nav item:
+  **`أدوات طبية`** (Arabic) / **"Medical Tools"** (English).
+  Note the Arabic wording: it is `أدوات طبية`, NOT `أدوات صحية`. The client
+  explicitly rejected `أدوات صحية`. Make sure that phrase appears nowhere.
+
+Do this in `content/site.json` (`nav` and the `footer.columns` link lists).
+**Do not move any page's URL** — `tools/*.html` pages keep their paths, only the
+navigation grouping changes. Moving URLs would break every existing link and the
+validator will catch it.
+
+The header currently fits 6 nav items plus the booking CTA. Adding a 7th will
+overflow on laptop widths, which was already a reported bug once. Check the
+rendered header at 1280px wide and, if it no longer fits, move `عن لاروز`
+("About") into the utility bar rather than shrinking the CTA.
+
+## B2. A real language switch button
+
+There is a small `.lang-switch` text link in the utility bar. The client asked
+for a proper button to switch the site language.
+
+- Make it a visible, clearly labelled control that names the language you would
+  switch TO: on Arabic pages it reads `English`, on English pages `العربية`.
+- Give it a globe icon (add one to the `ICONS` map in `build/lib/util.mjs` if
+  there is not a suitable one; use a 24-unit viewBox and register it with the
+  per-icon viewBox form already used by the `whatsapp` icon).
+- It must appear in BOTH the desktop header and the mobile drawer, and be at
+  least 44px tall in both.
+- It must link to the SAME page in the other locale, not to that locale's home
+  page. The counterpart path is the current path with its leading `ar/`/`en/`
+  segment swapped.
+- Add `hreflang` and `lang` attributes on the link so it is announced correctly.
+
+## B3. Article bylines: written by / reviewed by
+
+`content/articles.json` articles already carry `author` and `reviewedBy` fields.
+Surface them:
+
+- On the **article card** (the component used in listings): a compact byline line
+  under the title, e.g. `كتبها د. شيماء فؤاد` / `Written by Dr Shimaa Fouad`.
+- On the **article page**: a byline block near the top under the title showing
+  both, e.g. `كتبها: د. …` and `راجعها: د. …` (`Written by:` / `Reviewed by:`),
+  and link the doctor's name to their profile page when a matching doctor exists
+  in `content/doctors.json` (match on the doctor's name; there is a `bySlug`
+  helper in util.mjs you may find useful).
+- Where an article has NO author or NO reviewer in the content, render nothing
+  for that part. **Do not invent a name, and do not fall back to a default
+  doctor.** Add a `_todo` in the JSON for articles missing either field instead.
+- Add the reviewer's name to the article page's visible "last reviewed" line only
+  if a real review date exists in the content.
+
+Use the existing `.card` / `.prose` class conventions; add small CSS to
+`site/assets/css/components.css` under a clearly-labelled new section for the
+byline. Keep it quiet typographically: this is metadata, not a headline.
+
+## B4. Consistency sweep
+
+After your changes, grep the whole repo (content, build, site/assets, dashboard)
+and confirm:
+- `أدوات صحية` appears zero times
+- no em dash `—` in user-facing copy
+- no feminine second-person imperative (`احجزي`, `جهّزي`, `اختاري`, `حضّري`, …)
+
+## Definition of done
+
+`node build/build.mjs` succeeds and `node tools/validate.mjs` prints 0 errors.
+Report the literal tail of both, plus the three grep counts from B4.

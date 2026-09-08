@@ -1,0 +1,248 @@
+{
+ "_note": "La Rose Digital Solutions، the clinic's two remote services. Everything factual here comes from the clinic's own price/offers sheet: the online programme's two formats (private and group) and exactly what each includes. PRICES ARE DELIBERATELY OMITTED from the public site per the client's decision: the real figures are recorded in `_internalPricing` below for the dashboard only, with `showPrice: false` on every item. The validator fails the build if any price reaches a public page. Field names follow the page template's schema: short / lede / inside / audience / faq (plus `formats` on the online programme).",
+ "products": [
+  {
+   "slug": "recipe-book",
+   "published": true,
+   "featured": true,
+   "type": "ebook",
+   "icon": "book",
+   "image": "assets/img/digital/recipe-book.webp",
+   "name": {
+    "ar": "كتاب وصفات لاروز",
+    "en": "The La Rose Recipe Book"
+   },
+   "lede": {
+    "ar": "السؤال اللي بيتكرر مع أي خطة غذائية هو: آكل إيه النهاردة؟ الكتاب بيجاوب عليه بأكل مصري حقيقي، بمكونات موجودة في أي بيت، وسعرات محسوبة.",
+    "en": "One question comes up again and again with any nutrition plan: what do I eat today? This book answers it with real Egyptian food, ingredients found in any kitchen, and calculated calories."
+   },
+   "faq": [
+    {
+     "q": {
+      "ar": "الكتاب ده بديل عن الكشف؟",
+      "en": "Is the book a substitute for a consultation?"
+     },
+     "a": {
+      "ar": "لأ خالص. الوصفات دي أفكار أكل صحي متوازن، مش خطة غذائية علاجية. لو عندك حالة صحية أو ماشي على نظام محدد من دكتور، راجعه قبل ما تضيف أي وصفة.",
+      "en": "Not at all. These are ideas for balanced everyday eating, not a therapeutic nutrition plan. If you have a medical condition, or you are following a plan set by a doctor, check with them before adding a recipe to it."
+     }
+    },
+    {
+     "q": {
+      "ar": "أستلم الكتاب إزاي؟",
+      "en": "How do I receive the book?"
+     },
+     "a": {
+      "ar": "كلّمنا على واتساب وهنأكدلك التفاصيل ونبعتلك الملف.",
+      "en": "Message us on WhatsApp; we will confirm the details and send you the file."
+     }
+    }
+   ],
+   "cta": {
+    "ar": "اطلب الكتاب على واتساب",
+    "en": "Order the book on WhatsApp"
+   },
+   "showPrice": false,
+   "_todo": "Supply the final price, the page count, a cover image and 2–3 sample recipe spreads for the product page. A source recipe book already exists at `website data/Recipe Book`، check whether this is the same product before writing new content.",
+   "short": {
+    "ar": "٢٥٠ وصفة مصرية من أكل البيت، بالسعرات والماكروز",
+    "en": "250 Egyptian home-style recipes, with calories and macros"
+   },
+   "inside": [
+    {
+     "ar": "٢٥٠ وصفة مصرية مقسّمة على الفطار والغدا والعشا والسناكس",
+     "en": "250 Egyptian recipes across breakfast, lunch, dinner and snacks"
+    },
+    {
+     "ar": "السعرات والماكروز محسوبة لكل وصفة",
+     "en": "Calories and macros worked out for every recipe"
+    },
+    {
+     "ar": "مكونات موجودة في أي سوبر ماركت، مش مكونات مستوردة",
+     "en": "Ingredients from any supermarket, nothing imported"
+    },
+    {
+     "ar": "بدائل لكل وصفة لو مكوّن مش متوفر",
+     "en": "A substitution for each recipe when an ingredient is unavailable"
+    },
+    {
+     "ar": "أفكار تحضير مسبق للأسبوع",
+     "en": "Batch-preparation ideas for the week"
+    },
+    {
+     "ar": "نسخة PDF تشتغل على الموبايل واللاب",
+     "en": "A PDF that works on both phone and laptop"
+    }
+   ],
+   "audience": [
+    {
+     "ar": "اللي ماشي على خطة من العيادة وعايز أفكار أكل تنفّذها",
+     "en": "Anyone following a clinic plan who wants meals they can actually cook"
+    },
+    {
+     "ar": "اللي بيطبخ للبيت كله ومحتاج وصفة تنفع الكل",
+     "en": "Anyone cooking for a whole household who needs one recipe that suits everyone"
+    },
+    {
+     "ar": "اللي بيحسب سعراته وتعب من التقدير بالنظر",
+     "en": "Anyone counting calories and tired of guessing by eye"
+    },
+    {
+     "ar": "اللي عايز يبدأ صح من غير ما يغيّر مطبخه",
+     "en": "Anyone who wants to start properly without changing their whole kitchen"
+    }
+   ],
+   "freeSample": {
+    "_note": "The 60-recipe taster. The public URL stays laroseclinics.com/RecipeGuide - it is the link already in customers hands - but it now serves the rebuilt, brand-matched guide generated at site/recipe-guide/index.html. Deploy that directory to /RecipeGuide/.",
+    "url": "/RecipeGuide/",
+    "label": {
+     "ar": "جرّب ٦٠ وصفة مجاناً",
+     "en": "Try 60 recipes free"
+    },
+    "text": {
+     "ar": "فيه نسخة مجانية فيها ٦٠ وصفة من الكتاب الكامل، تقدر تجربها قبل ما تطلبه.",
+     "en": "A free edition with 60 recipes from the full book is available, so you can try it before you order."
+    }
+   }
+  },
+  {
+   "slug": "online-diet",
+   "published": true,
+   "featured": true,
+   "type": "service",
+   "icon": "monitor",
+   "image": "assets/img/digital/online-diet.webp",
+   "name": {
+    "ar": "المتابعة أونلاين",
+    "en": "Online Nutrition Programme"
+   },
+   "lede": {
+    "ar": "لو انت خارج القاهرة، أو وقتك مش بيسمح بمواعيد العيادة، تقدر تتابع أونلاين بنفس الخطة ونفس المتابعة اللي بتتعمل جوه العيادة، بشكل فردي أو ضمن مجموعة.",
+    "en": "If you are outside Cairo, or your schedule does not allow for clinic appointments, you can follow a plan and receive the same follow-up online as you would in the clinic, either individually or as part of a group."
+   },
+   "formats": [
+    {
+     "slug": "private",
+     "name": {
+      "ar": "الاشتراك الفردي (برايفت)",
+      "en": "Private subscription"
+     },
+     "summary": {
+      "ar": "متابعة يومية مباشرة مع الدكتورة",
+      "en": "Direct daily follow-up with the doctor"
+     },
+     "includes": {
+      "ar": [
+       "خطة غذائية متخصصة حسب وزنك وحالتك الصحية",
+       "الخطة بتتغيّر كل أسبوعين",
+       "متابعة يومية، أي سؤال بيترد عليه خلال اليوم",
+       "متابعة المقاسات مش الوزن بس",
+       "جروب خاص بيك انت والدكتورة"
+      ],
+      "en": [
+       "A nutrition plan built for your weight and your health status",
+       "The plan changes every two weeks",
+       "Daily follow-up, any question answered within the day",
+       "Measurements tracked, not weight alone",
+       "A private group with just you and the doctor"
+      ]
+     },
+     "showPrice": false
+    },
+    {
+     "slug": "group",
+     "name": {
+      "ar": "الاشتراك ضمن مجموعة",
+      "en": "Group subscription"
+     },
+     "summary": {
+      "ar": "نفس الخطة، مع مجموعة ماشية على نفس الهدف",
+      "en": "The same plan, alongside a group working towards the same goal"
+     },
+     "includes": {
+      "ar": [
+       "خطة غذائية متخصصة حسب وزنك وحالتك الصحية",
+       "متابعة يومية عبر واتساب داخل الجروب",
+       "مراجعة نتايجك وتصحيح الأخطاء أول بأول",
+       "مرونة تامة في اختيار الأكلات",
+       "وصفات وأفكار صحية سهلة وسريعة من أكل البيت",
+       "الحماس الجماعي، وده بيفرق فعلاً"
+      ],
+      "en": [
+       "A nutrition plan built for your weight and your health status",
+       "Daily follow-up over WhatsApp inside the group",
+       "Your results reviewed and corrections made as you go",
+       "Full flexibility in what you choose to eat",
+       "Quick, easy healthy recipes and ideas from home cooking",
+       "The shared momentum of a group, which genuinely helps"
+      ]
+     },
+     "showPrice": false
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "المتابعة أونلاين زي الكشف في العيادة؟",
+      "en": "Is online follow-up the same as an in-clinic consultation?"
+     },
+     "a": {
+      "ar": "الخطة والمتابعة زي بعض. الفرق الوحيد إن تحليل التركيب الجسمي بجهاز InBody بيتعمل جوه العيادة، فلو انت في القاهرة بننصح بكشف واحد على الأقل في البداية عشان نبدأ من أرقام حقيقية.",
+      "en": "The plan and the follow-up are the same. The one difference is the InBody body-composition analysis, which is done in the clinic: so if you are in Cairo we recommend at least one in-person consultation at the start, so we begin from real numbers."
+     }
+    },
+    {
+     "q": {
+      "ar": "لو أنا برّه مصر؟",
+      "en": "What if I am outside Egypt?"
+     },
+     "a": {
+      "ar": "ينفع عادي. الخطة بتتبني على تاريخك الصحي وتحاليلك وقياساتك، وبنتابع بالمقاسات والصور مش بالميزان بس.",
+      "en": "That works. The plan is built from your medical history, your labs and your measurements, and we follow progress by measurements and photographs rather than the scale alone."
+     }
+    },
+    {
+     "q": {
+      "ar": "أختار فردي ولا جروب؟",
+      "en": "Should I choose private or group?"
+     },
+     "a": {
+      "ar": "لو حالتك فيها حاجة طبية محتاجة تظبيط متكرر: مقاومة إنسولين، تكيس، غدة، الفردي أنسب. لو هدفك إنقاص وزن عادي وبتحب الحماس الجماعي، الجروب بيشتغل كويس جداً.",
+      "en": "If your case involves something medical that needs frequent adjustment: insulin resistance, PCOS, thyroid, private suits you better. If your goal is straightforward weight loss and you respond well to shared momentum, the group works very well."
+     }
+    }
+   ],
+   "cta": {
+    "ar": "اسأل عن الاشتراك",
+    "en": "Ask about subscribing"
+   },
+   "showPrice": false,
+   "short": {
+    "ar": "نفس الخطة والمتابعة الأسبوعية، من أي مكان",
+    "en": "The same plan and weekly follow-up, from anywhere"
+   }
+  }
+ ],
+ "_internalPricing": {
+  "_note": "DASHBOARD ONLY. Never rendered on a public page، every `showPrice` above is false and the validator blocks price patterns in the output. Figures transcribed from the clinic's own price/offers sheet (`sevices/شيت الاسعار والعروض (2).xlsx`), which was marked as a summer promotion، CONFIRM BEFORE PUBLISHING ANY OF IT.",
+  "onlineGroup": {
+   "offer": 999,
+   "was": 3000,
+   "period": "شهر + شهرين مجاناً",
+   "currency": "EGP"
+  },
+  "onlinePrivateMonth": {
+   "offer": 1000,
+   "was": 2000,
+   "currency": "EGP"
+  },
+  "onlinePrivate3Months": {
+   "offer": 2500,
+   "was": 6000,
+   "currency": "EGP"
+  },
+  "recipeBook": {
+   "_todo": "No price supplied for the recipe book."
+  }
+ }
+}

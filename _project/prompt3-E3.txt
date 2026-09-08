@@ -1,0 +1,23 @@
+Read _project/CODEX-BRIEF.md, then _project/CODEX-TASKS-2.md "TASK E" for the article
+object shape and the editorial rules. Then read content/articles.json to match its exact
+style and voice, and content/doctors.json for the three real doctors.
+
+Write ONE new file: content/_part3.json
+
+It must be a JSON object of the form { "articles": [ ... ] } containing EXACTLY 24 entries:
+
+TEN of type "qa" — "Ask the doctor". Each is a real patient question in the clinic's
+Egyptian Arabic voice, put in "excerpt" and "title", with a 150-250 word answer per
+language in a SINGLE section. Attribute each to one of the three REAL doctors
+(shimaa-fouad, alyaa-abu-taleb, mohab-ashraf) matched to their actual specialty.
+
+FOURTEEN of type "tip" — daily tips. 40-80 words per language, one practical, specific,
+non-obvious thing each. Put the tip in "excerpt"; no "sections" needed. "author" is a
+real doctor slug. Spread the "date" values across the fortnight ending 2026-09-05.
+
+Rules that matter: no prices; never invent a statistic or a study; Egyptian Arabic
+addressed to the patient; British English as a real translation; slugs unique, short,
+hyphenated, ASCII, not clashing with the slugs already in content/articles.json.
+Valid JSON, UTF-8, no trailing commas.
+
+Create only content/_part3.json. Change nothing else.

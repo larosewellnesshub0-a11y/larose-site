@@ -1,0 +1,189 @@
+/* ==========================================================================
+   LA ROSE WELLNESS HUB — design tokens
+   عيادات لاروز التخصصية
+   --------------------------------------------------------------------------
+   Aesthetic direction: "botanical apothecary".
+   Warm paper ground, olive as the structural colour, champagne as the metal,
+   rose reserved as an accent. Gloss is specular — a light sweep across a
+   curved surface — never a mesh gradient.
+   ========================================================================== */
+
+:root {
+  /* ---- Brand core (supplied by the client) ------------------------------- */
+  --olive:            #8E8B63;   /* primary structural colour   */
+  --sage:             #D6D4AD;   /* light olive / tint          */
+  --rose:             #CB8587;   /* accent — use sparingly      */
+  --blush:            #EDDADA;   /* rose tint                   */
+  --champagne:        #D4B793;   /* the "metal" — rules, marks  */
+
+  /* ---- Extended ramp -----------------------------------------------------
+     Derived from the brand five by shifting lightness only, so every shade
+     stays on the same hue family as the logo artwork.                       */
+  --olive-950:        #23241A;   /* near-black, warm            */
+  --olive-900:        #333524;
+  --olive-800:        #454832F2;
+  --olive-700:        #5C5F3F;
+  --olive-600:        #74764F;
+  --olive-500:        #8E8B63;   /* = --olive                   */
+  --olive-400:        #A6A47F;
+  --olive-300:        #BFBD9B;
+  --olive-200:        #D6D4AD;   /* = --sage                    */
+  --olive-100:        #E7E6CF;
+  --olive-050:        #F3F2E6;
+
+  --champagne-700:    #A88760;
+  --champagne-600:    #C1A077;
+  --champagne-500:    #D4B793;   /* = --champagne               */
+  --champagne-400:    #E0CAAE;
+  --champagne-300:    #EBDCC8;
+  --champagne-200:    #F4EBDD;
+
+  --rose-700:         #A5595C;
+  --rose-600:         #B96F72;
+  --rose-500:         #CB8587;   /* = --rose                    */
+  --rose-300:         #E2B6B7;
+  --rose-200:         #EDDADA;   /* = --blush                   */
+  --rose-100:         #F7ECEC;
+
+  /* ---- Paper -------------------------------------------------------------
+     Never pure white. The site sits on warm stock; cards lift off it.       */
+  --paper:            #FBF9F4;
+  --paper-raised:     #FFFDF9;
+  --paper-sunk:       #F4F1E8;
+  --paper-deep:       #ECE8DA;
+
+  /* ---- Semantic ---------------------------------------------------------- */
+  --bg:               var(--paper);
+  --surface:          var(--paper-raised);
+  --surface-alt:      var(--paper-sunk);
+
+  --ink:              var(--olive-950);          /* body text            */
+  --ink-strong:       #1A1B12;                   /* headlines            */
+  --ink-muted:        #5F6150;                   /* secondary text       */
+  --ink-faint:        #86887A;                   /* captions, meta       */
+  --ink-on-dark:      #F6F4EC;
+  --ink-on-dark-mute: #C9C9B4;
+
+  --line:             #E2DECE;                   /* hairline rules       */
+  --line-strong:      #CFC9B3;
+  --line-gold:        var(--champagne-400);
+
+  --accent:           var(--rose-600);
+  --accent-soft:      var(--rose-200);
+
+  --focus:            #6E7B4F;
+
+  /* ---- Type --------------------------------------------------------------
+     EN display  : Romelio      (brand serif, high contrast)
+     EN text     : Montserrat   (brand sans)
+     AR all      : Graphik Arabic — NOT LICENSED / NOT SUPPLIED.
+                   IBM Plex Sans Arabic stands in. To swap in Graphik later,
+                   drop the woff2 files into assets/fonts/ and change ONLY
+                   the --font-ar-* values below. Nothing else references it. */
+  --font-display:     "Romelio", "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans:        "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --font-ar-display:  "Sondos", "Graphik Arabic", "IBM Plex Sans Arabic", "Segoe UI", sans-serif;
+  --font-ar-sans:     "Graphik Arabic", "IBM Plex Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+
+  /* Resolved per-direction in base.css */
+  --font-head:        var(--font-display);
+  --font-body:        var(--font-sans);
+
+  /* ---- Type scale --------------------------------------------------------
+     Fluid, 320px → 1440px. Ratio ~1.22 at small, ~1.28 at large.            */
+  --t-xs:    clamp(0.72rem, 0.70rem + 0.10vw, 0.78rem);
+  --t-sm:    clamp(0.82rem, 0.79rem + 0.14vw, 0.90rem);
+  --t-eyebrow: clamp(0.94rem, 0.88rem + 0.28vw, 1.08rem);  /* section labels */
+  --t-base:  clamp(0.95rem, 0.91rem + 0.20vw, 1.06rem);
+  --t-md:    clamp(1.08rem, 1.02rem + 0.30vw, 1.24rem);
+  --t-lg:    clamp(1.25rem, 1.14rem + 0.52vw, 1.56rem);
+  --t-xl:    clamp(1.52rem, 1.32rem + 0.98vw, 2.10rem);
+  --t-2xl:   clamp(1.86rem, 1.51rem + 1.72vw, 2.90rem);
+  --t-3xl:   clamp(2.25rem, 1.68rem + 2.80vw, 3.95rem);
+  --t-4xl:   clamp(2.70rem, 1.75rem + 4.70vw, 5.40rem);
+
+  --lh-tight:   1.08;
+  --lh-head:    1.18;
+  --lh-snug:    1.42;
+  --lh-body:    1.72;
+  --lh-loose:   1.85;   /* Arabic wants more */
+
+  --tr-tight:  -0.022em;
+  --tr-normal:  0;
+  --tr-wide:    0.06em;
+  --tr-caps:    0.14em;   /* the small-caps eyebrow */
+
+  /* ---- Space -------------------------------------------------------------
+     4px base, but the rhythm that matters is the section rhythm.            */
+  --s-1:  0.25rem;  --s-2:  0.5rem;   --s-3:  0.75rem;  --s-4:  1rem;
+  --s-5:  1.5rem;   --s-6:  2rem;     --s-7:  2.5rem;   --s-8:  3rem;
+  --s-9:  4rem;     --s-10: 5rem;     --s-11: 6.5rem;   --s-12: 8rem;
+
+  --section-y:      clamp(3.5rem, 2.2rem + 6.2vw, 7.5rem);
+  --section-y-lg:   clamp(5rem, 3rem + 9vw, 10rem);
+
+  /* ---- Measure & container ----------------------------------------------- */
+  --measure:        68ch;      /* long-form reading width  */
+  --measure-narrow: 54ch;
+  --wrap:           1240px;
+  --wrap-wide:      1440px;
+  --wrap-narrow:    880px;
+  --gutter:         clamp(1.15rem, 0.6rem + 2.6vw, 3rem);
+
+  /* ---- Radius ------------------------------------------------------------
+     The arch is the brand shape. Everything else stays quiet.               */
+  --r-sm:   4px;
+  --r-md:   8px;
+  --r-lg:   14px;
+  --r-xl:   22px;
+  --r-pill: 999px;
+  --r-arch: 50% 50% 0 0 / 42% 42% 0 0;   /* the signature arch */
+
+  /* ---- Elevation ---------------------------------------------------------
+     Warm shadows. A neutral grey shadow on warm paper reads as dirt.        */
+  --sh-xs:  0 1px 2px rgba(60, 54, 32, .05);
+  --sh-sm:  0 1px 2px rgba(60, 54, 32, .05), 0 2px 6px rgba(60, 54, 32, .04);
+  --sh-md:  0 2px 4px rgba(60, 54, 32, .05), 0 8px 20px rgba(60, 54, 32, .06);
+  --sh-lg:  0 4px 8px rgba(60, 54, 32, .05), 0 18px 44px rgba(60, 54, 32, .09);
+  --sh-xl:  0 8px 16px rgba(60, 54, 32, .06), 0 34px 80px rgba(60, 54, 32, .12);
+  --sh-inset-top: inset 0 1px 0 rgba(255, 253, 246, .7);
+
+  /* ---- Motion ------------------------------------------------------------ */
+  --ease:      cubic-bezier(.22, .61, .36, 1);
+  --ease-out:  cubic-bezier(.16, 1, .3, 1);
+  --ease-in:   cubic-bezier(.55, .06, .68, .19);
+  --dur-1: 140ms;  --dur-2: 240ms;  --dur-3: 420ms;  --dur-4: 720ms;
+
+  /* ---- Layers ------------------------------------------------------------ */
+  --z-base: 1;  --z-raised: 10;  --z-sticky: 100;  --z-header: 200;
+  --z-drawer: 300;  --z-modal: 400;  --z-toast: 500;
+}
+
+/* --------------------------------------------------------------------------
+   Direction-aware type binding.
+   Arabic is the default language of the clinic; both directions are first
+   class. Setting these on [dir] rather than [lang] means an English word
+   inside an Arabic paragraph still inherits the Arabic metrics, which is
+   what you want for line-height.
+   -------------------------------------------------------------------------- */
+[dir="rtl"] {
+  --font-head: var(--font-ar-display);
+  --font-body: var(--font-ar-sans);
+  --lh-body:   var(--lh-loose);
+  --tr-tight:  0;          /* negative tracking damages Arabic joins */
+  --tr-caps:   0.02em;
+}
+
+[dir="ltr"] {
+  --font-head: var(--font-display);
+  --font-body: var(--font-sans);
+}
+
+/* --------------------------------------------------------------------------
+   Motion preference
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-1: 1ms; --dur-2: 1ms; --dur-3: 1ms; --dur-4: 1ms;
+  }
+}

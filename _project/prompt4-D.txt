@@ -1,0 +1,71 @@
+You are working in the La Rose Wellness Hub website repo.
+
+FIRST: read `_project/CODEX-BRIEF-R4.md` completely and obey every rule in it.
+Then read `dashboard/index.html`, `dashboard/js/dashboard.js`, `dashboard/css/*`
+and `server/serve.mjs` before changing anything.
+
+# YOUR JOB: make the dashboard genuinely usable. The client has said twice that
+# it "still has lots of UI and dashboard issues".
+
+The dashboard is a local single-page app that edits `content/*.json` through the
+Node server and triggers rebuilds. It is the only way the clinic will ever change
+the site, so it has to be solid.
+
+Do NOT redesign it or introduce a framework. Fix what is broken and fill what is
+missing, in the existing vanilla JS + CSS style.
+
+## D1. Audit first, then fix
+
+Walk EVERY section (Overview, Specialties, Doctors, Branches, Articles, Reviews,
+Digital products, Images/Media, Site settings, Backups) and, in each, check:
+
+- Does every field in the underlying JSON have an editor? List any that are only
+  editable by hand-editing the file — those are the real gaps.
+- Does saving actually persist, and does the "unsaved changes" state clear?
+- Does adding a NEW item work (new doctor, new article, new review), not just
+  editing an existing one? Reordering? Deleting, with a confirm?
+- Are bilingual fields presented as an AR/EN pair, with both always visible or
+  clearly tabbed? A field that silently edits only one language is a bug.
+- Are required fields marked, and is invalid input rejected before save rather
+  than corrupting the JSON?
+- Does every control have an accessible label? Does keyboard tab order work?
+  Does Escape close dialogs?
+
+Write your findings to `_project/DASHBOARD-AUDIT.md` as a numbered list with
+severity, THEN fix them. Keep the file as the record of what you did.
+
+## D2. Known issues to fix regardless of what the audit finds
+
+1. **Mobile / narrow widths.** The dashboard is unusable below about 900px. Make
+   it work at 390px: the sidebar collapses to a top drawer, forms go single
+   column, tables scroll inside themselves, and nothing overflows horizontally.
+2. **No save feedback.** A save must show a clear success or failure state, and
+   a failed save must not silently lose the edit.
+3. **No validation before rebuild.** Wire the "Rebuild" button to surface the
+   validator's actual output; if `tools/validate.mjs` reports errors, show them
+   in the UI instead of claiming success.
+4. **Backups.** There is a `content/_backups` directory. Expose it: list backups
+   with timestamps, allow restoring one, and take a backup automatically before
+   every save.
+5. **Overview.** Make it a real dashboard: count of pages, of published vs
+   unpublished specialties, doctors missing a portrait or credentials, articles
+   missing an author or reviewer, images still flagged `illustrative`, and every
+   `_todo` found anywhere in the content, each linking to the editor that fixes
+   it.
+
+## D3. Guard rails
+
+- The dashboard must never write a price to a public page. `showPrice` stays
+  false and the internal pricing block stays dashboard-only.
+- It must not allow saving a doctor with a credential field that the clinic has
+  not supplied. Empty is correct; a guess is not.
+- Do not reintroduce any medical disclaimer or "your data stays on your device"
+  text anywhere in the dashboard UI. The client removed all of it.
+- The dashboard's own Arabic UI strings must use masculine/neutral address, same
+  rule as the site.
+
+## Definition of done
+
+`node build/build.mjs` succeeds, `node tools/validate.mjs` prints 0 errors, and
+`_project/DASHBOARD-AUDIT.md` exists listing what you found and what you fixed.
+Report the literal tail of both commands and the count of issues found vs fixed.

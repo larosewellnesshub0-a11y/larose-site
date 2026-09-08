@@ -1,0 +1,259 @@
+{
+  "_note": "Maadi is REAL and open: address, plus code and coordinates verified from the clinic's own price sheet and previous build. The other two branches are announced but the clinic has supplied no address, no opening date and no photographs; those fields are deliberately empty rather than invented. Set `published: false` in the dashboard to hide a branch from the nav, footer and sitemap.",
+  "branches": [
+    {
+      "slug": "maadi",
+      "published": true,
+      "status": "open",
+      "isPrimary": true,
+      "name": {
+        "ar": "فرع المعادي",
+        "en": "Maadi Branch"
+      },
+      "shortName": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "area": {
+        "ar": "المعادي الجديدة",
+        "en": "New Maadi"
+      },
+      "city": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      },
+      "country": {
+        "ar": "مصر",
+        "en": "Egypt"
+      },
+      "address": {
+        "ar": "١٤ شارع المختار، متفرع من شارع الجزائر، خلف بنك QNB، المعادي الجديدة، القاهرة",
+        "en": "14 El-Mokhtar St, off El-Gazaer St, behind QNB Bank, New Maadi, Cairo"
+      },
+      "landmark": {
+        "ar": "خلف بنك QNB مباشرةً",
+        "en": "Directly behind QNB Bank"
+      },
+      "geo": {
+        "lat": 29.9742888,
+        "lng": 31.2742097
+      },
+      "plusCode": "X7FF+PM El Basatin",
+      "mapsUrl": "https://maps.app.goo.gl/4chmVDt5MRYPwA8c6",
+      "phone": {
+        "display": "010 4066 1893",
+        "tel": "+201040661893"
+      },
+      "whatsapp": "201040661893",
+      "hours": {
+        "ar": "السبت · الاتنين · الثلاثاء، من ٣ لـ ٧ مساءً",
+        "en": "Saturday · Monday · Tuesday, 3 to 7 pm"
+      },
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management",
+        "body-contouring",
+        "internal-medicine",
+        "gastroenterology-hepatology",
+        "ultrasound",
+        "general-surgery",
+        "bariatric-surgery",
+        "dermatology",
+        "pediatrics"
+      ],
+      "photos": [
+        {
+          "src": "assets/img/clinic/maadi-reception.webp",
+          "alt": {
+            "ar": "استقبال وصالة انتظار عيادات لاروز بالمعادي",
+            "en": "Reception and waiting area at La Rose Maadi"
+          }
+        },
+        {
+          "src": "assets/img/clinic/maadi-waiting.webp",
+          "alt": {
+            "ar": "غرفة الكشف في عيادات لاروز بالمعادي",
+            "en": "Consultation room at La Rose Maadi"
+          }
+        },
+        {
+          "src": "assets/img/clinic/maadi-consultation.webp",
+          "alt": {
+            "ar": "من داخل عيادات لاروز بالمعادي",
+            "en": "Inside La Rose Maadi"
+          }
+        },
+        {
+          "src": "assets/img/clinic/maadi-treatment.webp",
+          "alt": {
+            "ar": "من داخل عيادات لاروز بالمعادي",
+            "en": "Inside La Rose Maadi"
+          }
+        }
+      ],
+      "intro": {
+        "ar": "فرع المعادي هو أول فروع لاروز، وبيجمع كل التخصصات تحت سقف واحد. العيادة في المعادي الجديدة، خلف بنك QNB مباشرةً، ومتاح فيها الكشف والسونار وتحليل التركيب الجسمي بجهاز InBody وجلسات نحت الجسم في نفس المكان.",
+        "en": "Maadi is La Rose’s first branch, bringing all specialties together under one roof. The clinic is in New Maadi, directly behind QNB Bank, with consultations, ultrasound, InBody body-composition analysis and body-contouring sessions all available in the same place."
+      },
+      "gettingHere": {
+        "ar": [
+          "أقرب علامة مميزة: بنك QNB، العيادة خلفه مباشرةً في شارع المختار.",
+          "من شارع الجزائر: ادخل شارع المختار، والعيادة على يمينك.",
+          "متاح انتظار في الشارع أمام المبنى."
+        ],
+        "en": [
+          "Nearest landmark: QNB Bank, the clinic is directly behind it on El-Mokhtar Street.",
+          "From El-Gazaer Street: turn into El-Mokhtar Street; the clinic is on your right.",
+          "Street parking is available in front of the building."
+        ]
+      },
+      "_todoAddress": "Confirm the street: this file says 'متفرع من شارع الجزائر', but the clinic's own ekshef listing says 'متفرع من شارع النصر'. Both are first-party, so the clinic must say which is correct before either is published as the address."
+    },
+    {
+      "slug": "fifth-settlement",
+      "published": true,
+      "status": "soon",
+      "isPrimary": false,
+      "name": {
+        "ar": "فرع التجمع الخامس",
+        "en": "Fifth Settlement Branch"
+      },
+      "shortName": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "area": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "city": {
+        "ar": "القاهرة الجديدة",
+        "en": "New Cairo"
+      },
+      "country": {
+        "ar": "مصر",
+        "en": "Egypt"
+      },
+      "address": {
+        "ar": "",
+        "en": ""
+      },
+      "landmark": {
+        "ar": "",
+        "en": ""
+      },
+      "geo": null,
+      "plusCode": "",
+      "mapsUrl": "",
+      "phone": {
+        "display": "010 4066 1893",
+        "tel": "+201040661893"
+      },
+      "whatsapp": "201040661893",
+      "hours": {
+        "ar": "الأربعاء، من ٣ لـ ٧ مساءً (عيادات محدودة)",
+        "en": "Wednesday, 3 to 7 pm (limited clinics)"
+      },
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management",
+        "body-contouring",
+        "internal-medicine",
+        "dermatology",
+        "pediatrics"
+      ],
+      "photos": [
+        {
+          "src": "assets/img/clinic/fifth-settlement-placeholder.webp",
+          "placeholder": true,
+          "alt": {
+            "ar": "",
+            "en": ""
+          }
+        }
+      ],
+      "intro": {
+        "ar": "فرع التجمع الخامس لسه تحت التجهيز الكامل، لكن فيه عيادات محدودة متاحة للحجز. هنعلن هنا عن العنوان وباقي تفاصيل الافتتاح أول ما يتم تأكيدهم.",
+        "en": "The Fifth Settlement branch is still being fully prepared, but limited clinics are available to book. The address and remaining opening details will be announced here once confirmed."
+      },
+      "gettingHere": {
+        "ar": [],
+        "en": []
+      },
+      "_todo": "Address, exact location, full opening date, phone extension and photographs. Limited Wednesday clinics are already bookable through the confirmed doctor schedule."
+    },
+    {
+      "slug": "sheikh-zayed",
+      "published": true,
+      "status": "soon",
+      "isPrimary": false,
+      "name": {
+        "ar": "فرع الشيخ زايد",
+        "en": "Sheikh Zayed Branch"
+      },
+      "shortName": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "area": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "city": {
+        "ar": "الجيزة",
+        "en": "Giza"
+      },
+      "country": {
+        "ar": "مصر",
+        "en": "Egypt"
+      },
+      "address": {
+        "ar": "",
+        "en": ""
+      },
+      "landmark": {
+        "ar": "",
+        "en": ""
+      },
+      "geo": null,
+      "plusCode": "",
+      "mapsUrl": "",
+      "phone": {
+        "display": "010 4066 1893",
+        "tel": "+201040661893"
+      },
+      "whatsapp": "201040661893",
+      "hours": {
+        "ar": "",
+        "en": ""
+      },
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management",
+        "body-contouring",
+        "internal-medicine",
+        "dermatology",
+        "pediatrics"
+      ],
+      "photos": [
+        {
+          "src": "assets/img/clinic/sheikh-zayed-placeholder.webp",
+          "placeholder": true,
+          "alt": {
+            "ar": "",
+            "en": ""
+          }
+        }
+      ],
+      "intro": {
+        "ar": "فرع الشيخ زايد حاليًا تحت التجهيز، وهيقدّم نفس نظام الكشف المتكامل الموجود في المعادي. هنعلن هنا عن عنوان فرع الشيخ زايد وموعد افتتاحه أول ما يتم تأكيدهم.",
+        "en": "The Sheikh Zayed branch is currently in preparation and will follow the same integrated consultation model as Maadi. Its address and opening date will be announced here once confirmed."
+      },
+      "gettingHere": {
+        "ar": [],
+        "en": []
+      },
+      "_todo": "Address, exact location, opening date, phone extension and photographs."
+    }
+  ]
+}

@@ -1,0 +1,897 @@
+/* ==========================================================================
+   LA ROSE WELLNESS HUB — header, navigation, hero, footer
+   ========================================================================== */
+
+/* ==========================================================================
+   1. UTILITY BAR
+   ========================================================================== */
+.utility-bar {
+  background: var(--olive-900);
+  color: var(--ink-on-dark-mute);
+  font-size: var(--t-xs);
+}
+.utility-bar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 2.5rem;
+  padding-block: .35rem;
+}
+.utility-bar a { transition: color var(--dur-2) var(--ease); }
+.utility-bar a:hover { color: #fff; }
+.utility-bar__links { display: flex; align-items: center; gap: clamp(.85rem, 2vw, 1.75rem); }
+.utility-bar__meta  { display: flex; align-items: center; gap: 1rem; }
+.utility-bar__meta a { display: inline-flex; align-items: center; gap: .45em; }
+.utility-bar .ico { width: .95em; height: .95em; }
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: .4em;
+  padding: .3em .8em;
+  border: 1px solid rgba(246,244,236,.28);
+  border-radius: var(--r-pill);
+  color: var(--ink-on-dark);
+  font-weight: 500;
+  transition: background-color var(--dur-2) var(--ease), border-color var(--dur-2) var(--ease);
+}
+.lang-switch:hover { background: rgba(255,255,255,.12); border-color: rgba(246,244,236,.55); }
+
+@media (max-width: 767px) {
+  .utility-bar__links { display: none; }
+  .utility-bar__inner { justify-content: space-between; }
+}
+
+/* ==========================================================================
+   2. HEADER
+   ========================================================================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  /* The header is the canonical functional-layer surface: it must stay
+     legible over a photograph, a white section and an olive one alike, so it
+     takes the regular glass variant rather than the clear one. */
+  background: rgba(251, 249, 244, .78);
+  backdrop-filter: saturate(var(--glass-saturate)) blur(var(--glass-blur));
+  -webkit-backdrop-filter: saturate(var(--glass-saturate)) blur(var(--glass-blur));
+  border-bottom: 1px solid transparent;
+  box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+  transition: border-color var(--dur-3) var(--ease), box-shadow var(--dur-3) var(--ease), background-color var(--dur-3) var(--ease);
+}
+.site-header.is-stuck {
+  border-bottom-color: var(--line);
+  box-shadow: 0 1px 24px rgba(60, 54, 32, .07);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(1rem, 2.5vw, 2.5rem);
+  min-height: 4.75rem;
+  padding-block: .75rem;
+}
+
+/* -- wordmark -------------------------------------------------------------- */
+.wordmark { display: inline-flex; align-items: center; gap: .75rem; flex: none; }
+.wordmark img {
+  height: clamp(2.35rem, 2rem + 1.1vw, 3rem);
+  width: auto;
+  /* the supplied artwork is black-on-white; this lifts it to the ink colour
+     without needing a second file */
+  mix-blend-mode: multiply;
+}
+.wordmark__text { display: none; }
+
+/* -- primary nav ----------------------------------------------------------- */
+.nav { display: flex; align-items: center; gap: clamp(.4rem, 1.2vw, 1.35rem); min-width: 0; }
+/* The seven English labels must define the nav's real width; letting this flex
+   item shrink only makes its nowrap children paint across the fixed actions. */
+.nav--primary { flex: none; min-inline-size: max-content; }
+.header-actions { flex: 0 0 auto; }
+.nav__item { position: relative; }
+.nav__link {
+  display: inline-flex;
+  align-items: center;
+  gap: .35em;
+  padding: .65rem .35rem;
+  font-size: var(--t-sm);
+  font-weight: 500;
+  color: var(--ink);
+  white-space: nowrap;
+  transition: color var(--dur-2) var(--ease);
+}
+.nav__link:hover, .nav__item.is-open > .nav__link { color: var(--olive-700); }
+.nav__link[aria-current="page"] { color: var(--olive-800); font-weight: 600; }
+
+/* the champagne underline that grows from the centre */
+.nav__link::after {
+  content: "";
+  position: absolute;
+  bottom: .25rem;
+  left: 50%;
+  width: 0;
+  height: 1px;
+  background: var(--champagne-500);
+  transform: translateX(-50%);
+  transition: width var(--dur-3) var(--ease-out);
+}
+.nav__link:hover::after,
+.nav__link[aria-current="page"]::after,
+.nav__item.is-open > .nav__link::after { width: calc(100% - .7rem); }
+
+.nav__caret { width: .55em; height: .55em; border-bottom: 1.4px solid currentColor; border-inline-end: 1.4px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform var(--dur-2) var(--ease); }
+.nav__item.is-open .nav__caret { transform: rotate(-135deg) translateY(-2px); }
+
+/* -- dropdown / mega ------------------------------------------------------- */
+/* NOTE: `left` and `translateX` are both PHYSICAL. Anchoring with the
+   logical `inset-inline-start` while centring with a physical translate makes
+   the two fight each other under RTL, and the panel drifts off its trigger.
+   Centre physically in both directions, then let JS nudge the panel back
+   inside the viewport when it would overflow an edge. */
+.nav__panel {
+  position: absolute;
+  top: calc(100% + .55rem);
+  left: 50%;
+  transform: translateX(calc(-50% + var(--panel-nudge, 0px))) translateY(-6px);
+  min-width: 15rem;
+  max-width: min(52rem, calc(100vw - 2rem));
+  padding: .85rem;
+  /* A dropdown is functional layer, so it takes the glass material — but a
+     panel this large reads as less transparent (the HIG's opacity-scaling
+     rule), otherwise the links behind it compete with the links inside it. */
+  /* .86 was enough over the pale page body, but over a dark page hero the
+     white display type behind it stayed legible straight through the menu.
+     Raised until nothing reads through; the blur still does the glass work. */
+  background: rgba(255, 253, 249, .97);
+  backdrop-filter: blur(var(--glass-blur, 20px)) saturate(var(--glass-saturate, 180%));
+  -webkit-backdrop-filter: blur(var(--glass-blur, 20px)) saturate(var(--glass-saturate, 180%));
+  border: 1px solid rgba(255,255,255,.6);
+  border-radius: var(--r-lg);
+  /* One declaration: a second `box-shadow` below this used to overwrite the
+     first and quietly drop the inset highlight along the top edge. */
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.8), var(--sh-xl);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--dur-2) var(--ease), transform var(--dur-2) var(--ease-out), visibility var(--dur-2);
+}
+.nav__item.is-open .nav__panel {
+  opacity: 1; visibility: visible;
+  transform: translateX(calc(-50% + var(--panel-nudge, 0px))) translateY(0);
+}
+.nav__panel--wide { min-width: min(46rem, calc(100vw - 2rem)); }
+.nav__panel-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .2rem .6rem; }
+.nav__panel--wide .nav__panel-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+/* Scroll only when the screen genuinely cannot hold the panel: a fixed 32rem
+   made the tools panel scroll inside a viewport with 300px to spare. */
+.nav__panel { max-height: calc(100vh - 7rem); overflow-y: auto; overscroll-behavior: contain; }
+
+/* Nine tools in one column is tall enough to force a scroll on a laptop. Two
+   columns halves it, and the panel widens to keep the labels on one line. */
+.nav__panel--tools { min-width: min(34rem, calc(100vw - 2rem)); }
+.nav__panel--tools .nav__panel-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+.nav__sub {
+  display: flex;
+  flex-direction: column;
+  gap: .1rem;
+  padding: .6rem .8rem;
+  border-radius: var(--r-md);
+  font-size: var(--t-sm);
+  color: var(--ink);
+  transition: background-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease);
+}
+.nav__sub:hover { background: var(--olive-050); color: var(--olive-900); }
+.nav__sub span { font-size: var(--t-xs); color: var(--ink-faint); line-height: 1.35; }
+.nav__sub:hover span { color: var(--ink-muted); }
+
+.nav__panel-foot {
+  margin-top: .6rem;
+  padding-top: .75rem;
+  border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  padding-inline: .8rem;
+}
+
+/* -- header actions -------------------------------------------------------- */
+.header-actions { display: flex; align-items: center; gap: .6rem; flex: none; }
+/* This copy of the switch survives the utility bar scrolling away, so it needs
+   light-surface contrast and the same emphasis as the adjacent header phone. */
+.header-actions .lang-switch--header {
+  display: inline-flex;
+  flex: none;
+  min-height: 2.5rem;
+  border-color: var(--line-strong);
+  background: rgba(251, 249, 244, .72);
+  color: var(--ink-strong);
+  font-size: var(--t-sm);
+  font-weight: 600;
+}
+.header-actions .lang-switch--header:hover,
+.header-actions .lang-switch--header:focus-visible {
+  border-color: var(--olive-400);
+  background: var(--olive-050);
+  color: var(--olive-800);
+}
+.header-actions .lang-switch--header .ico { color: var(--olive-600); }
+/* The primary action must keep its full hit area and label while siblings
+   switch to the drawer at the English-label breakpoint. */
+.header-actions .btn { white-space: nowrap; }
+/* It also has to LOOK primary. `.btn--sm` sets the smallest type on the scale,
+   which left the booking CTA reading smaller than the language pill sitting
+   next to it at .t-sm/600 - the secondary control was outweighing the one
+   action the page exists to drive. Same pill, one step up in presence. */
+.header-actions .btn--primary {
+  min-height: 2.75rem;
+  padding-inline: 1.6em;
+  font-size: var(--t-sm);
+  font-weight: 600;
+  letter-spacing: .01em;
+  /* "احجز" and "Book" are both short words, so padding alone leaves a stub of a
+     button. A floor on the inline size gives the CTA a deliberate width in both
+     languages instead of one that follows the label. */
+  min-inline-size: 8rem;
+  justify-content: center;
+}
+.header-phone {
+  display: none;
+  align-items: center;
+  gap: .5rem;
+  font-size: var(--t-sm);
+  font-weight: 600;
+  color: var(--ink-strong);
+  letter-spacing: .02em;
+}
+.header-phone svg { width: 1.05rem; height: 1.05rem; color: var(--olive-600); }
+.header-phone:hover { color: var(--olive-700); }
+
+/* -- burger ---------------------------------------------------------------- */
+.burger {
+  width: 2.85rem; height: 2.85rem;
+  display: grid; place-items: center;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-md);
+  background: var(--paper-raised);
+}
+.burger span {
+  display: block; width: 1.15rem; height: 1.4px;
+  background: var(--ink-strong);
+  position: relative;
+  transition: background-color var(--dur-1) var(--ease);
+}
+.burger span::before, .burger span::after {
+  content: ""; position: absolute; left: 0;
+  width: 100%; height: 1.4px; background: var(--ink-strong);
+  transition: transform var(--dur-2) var(--ease-out), top var(--dur-2) var(--ease);
+}
+.burger span::before { top: -6px; }
+.burger span::after  { top: 6px; }
+.burger[aria-expanded="true"] span { background: transparent; }
+.burger[aria-expanded="true"] span::before { top: 0; transform: rotate(45deg); }
+.burger[aria-expanded="true"] span::after  { top: 0; transform: rotate(-45deg); }
+
+/* The complete English header needs this measure; below it the existing drawer
+   appears before the nowrap labels can meet the non-shrinking actions. */
+@media (min-width: 1600px) {
+  .site-header__inner { max-width: 100rem; }
+  .burger { display: none; }
+}
+@media (max-width: 1599px) { .nav--primary { display: none; } }
+
+/* ==========================================================================
+   3. MOBILE DRAWER
+   ========================================================================== */
+.drawer {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-drawer);
+  visibility: hidden;
+  pointer-events: none;
+}
+.drawer.is-open { visibility: visible; pointer-events: auto; }
+
+.drawer__scrim {
+  position: absolute; inset: 0;
+  background: rgba(35, 36, 26, .48);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  opacity: 0;
+  transition: opacity var(--dur-3) var(--ease);
+}
+.drawer.is-open .drawer__scrim { opacity: 1; }
+
+.drawer__panel {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-end: 0;
+  width: min(24rem, 90vw);
+  background: var(--paper);
+  box-shadow: var(--sh-xl);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform var(--dur-3) var(--ease-out);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+[dir="rtl"] .drawer__panel { transform: translateX(-100%); }
+.drawer.is-open .drawer__panel { transform: translateX(0); }
+
+.drawer__head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1.1rem var(--gutter);
+  border-bottom: 1px solid var(--line);
+  position: sticky; top: 0;
+  background: var(--paper);
+  z-index: 2;
+}
+.drawer__body { padding: 1rem var(--gutter) 2rem; flex: 1; }
+.drawer__foot {
+  padding: 1.25rem var(--gutter) 2rem;
+  border-top: 1px solid var(--line);
+  display: grid; gap: .65rem;
+  background: var(--paper-sunk);
+}
+
+.drawer-nav__group + .drawer-nav__group { border-top: 1px solid var(--line); }
+.drawer-nav__toggle {
+  width: 100%;
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 1.05rem 0;
+  font-family: var(--font-head);
+  font-size: var(--t-md);
+  color: var(--ink-strong);
+  text-align: start;
+}
+.drawer-nav__toggle .nav__caret { flex: none; }
+.drawer-nav__list { display: grid; gap: .1rem; padding-bottom: 1rem; }
+.drawer-nav__list a { padding: .6rem .9rem; border-radius: var(--r-md); font-size: var(--t-sm); color: var(--ink-muted); }
+.drawer-nav__list a:hover { background: var(--olive-050); color: var(--olive-900); }
+.drawer-nav__panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows var(--dur-3) var(--ease-out); }
+.drawer-nav__panel > div { overflow: hidden; }
+.drawer-nav__group.is-open .drawer-nav__panel { grid-template-rows: 1fr; }
+.drawer-nav__group.is-open .nav__caret { transform: rotate(-135deg) translateY(-2px); }
+
+body.is-locked { overflow: hidden; }
+
+/* ==========================================================================
+   4. HERO
+   ========================================================================== */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--olive-900);
+  color: var(--ink-on-dark);
+  isolation: isolate;
+}
+/* The hero photograph is decorative, so it is painted as a background layer
+   rather than an <img>. That keeps it reliably above the hero's own olive
+   fill (which is only a loading colour) and below the copy, with no
+   stacking-context surprises. The image URL is set inline by the generator. */
+.hero__media {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: var(--olive-900);
+  background-size: cover;
+  background-position: center 58%;
+  background-repeat: no-repeat;
+}
+
+/* The scrim. Three layers, each doing one job:
+     1. an olive colour-wash, so a raw phone photograph reads as brand imagery
+        rather than a snapshot;
+     2. a vertical ramp that anchors the copy block;
+     3. a directional ramp from the text side, so the headline clears 4.5:1
+        against whatever happens to be behind it.
+   This is a legibility tool, not decoration — the values are set by contrast,
+   not by taste. */
+.hero__media::after {
+  content: "";
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(to top,
+      rgba(26,27,18,.84) 0%,
+      rgba(26,27,18,.48) 44%,
+      rgba(26,27,18,.24) 80%,
+      rgba(26,27,18,.18) 100%),
+    linear-gradient(to right,
+      rgba(26,27,18,.04) 0%,
+      rgba(26,27,18,.46) 52%,
+      rgba(26,27,18,.66) 100%),
+    linear-gradient(rgba(60,62,40,.16), rgba(60,62,40,.16));
+}
+[dir="ltr"] .hero__media::after {
+  background:
+    linear-gradient(to top,
+      rgba(26,27,18,.84) 0%,
+      rgba(26,27,18,.48) 44%,
+      rgba(26,27,18,.24) 80%,
+      rgba(26,27,18,.18) 100%),
+    linear-gradient(to left,
+      rgba(26,27,18,.04) 0%,
+      rgba(26,27,18,.46) 52%,
+      rgba(26,27,18,.66) 100%),
+    linear-gradient(rgba(60,62,40,.16), rgba(60,62,40,.16));
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 2;
+  padding-block: clamp(4.5rem, 3rem + 9vw, 9.5rem);
+  max-width: 46rem;
+}
+.hero__title.h-display { font-size: clamp(2.35rem, 1.6rem + 3.5vw, 4.35rem); }
+.hero .eyebrow { color: var(--champagne-400); }
+.hero .eyebrow::before { background: var(--champagne-400); }
+.hero__title { color: #fff; margin-top: .9rem; max-width: 18ch; }
+[dir="rtl"] .hero__title { max-width: 22ch; }
+.hero__text  { color: rgba(246,244,236,.86); margin-top: 1.25rem; font-size: var(--t-md); max-width: 34rem; }
+.hero__actions { margin-top: 2.15rem; display: flex; flex-wrap: wrap; gap: .8rem; }
+
+/* proof row sitting under the hero copy */
+/* A grid, not a flex row: one of the four figures is the word "InBody"
+   rather than a number, and flex-wrap drops it onto a line of its own. */
+.hero__proof {
+  margin-top: clamp(2.25rem, 1.8rem + 1.8vw, 3.25rem);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+  gap: clamp(1.1rem, 2.5vw, 2.25rem);
+  padding-top: 1.6rem;
+  border-top: 1px solid rgba(246,244,236,.2);
+  max-width: 46rem;
+}
+.hero__proof .stat__n { font-size: clamp(1.5rem, 1.2rem + 1.1vw, 2.15rem); }
+.hero__proof .stat__l { font-size: var(--t-xs); }
+.hero__proof .stat__n { color: #fff; }
+.hero__proof .stat__l { color: rgba(246,244,236,.7); }
+
+/* page hero (interior pages) — shorter, lighter */
+.page-hero {
+  position: relative;
+  background: var(--olive-900);
+  color: var(--ink-on-dark);
+  overflow: hidden;
+  isolation: isolate;
+}
+.page-hero__inner { padding-block: clamp(2.75rem, 2rem + 4.5vw, 5.5rem); position: relative; z-index: 1; }
+.page-hero .crumbs { color: rgba(246,244,236,.7); margin-bottom: 1.35rem; }
+.page-hero .crumbs a:hover { color: #fff; }
+.page-hero__title { color: #fff; }
+.page-hero__text { color: rgba(246,244,236,.82); margin-top: 1rem; max-width: 40rem; }
+.page-hero__actions { margin-top: 1.75rem; display: flex; flex-wrap: wrap; gap: .75rem; }
+
+/* the arch motif ghosted into the page hero */
+.page-hero__arch {
+  position: absolute;
+  inset-block: -20%;
+  inset-inline-end: clamp(-6rem, -4vw, -2rem);
+  width: clamp(16rem, 34vw, 34rem);
+  border-radius: var(--r-arch);
+  border: 1px solid rgba(212, 183, 147, .22);
+  z-index: 0;
+  pointer-events: none;
+}
+.page-hero__arch::before {
+  content: "";
+  position: absolute; inset: 1.5rem;
+  border-radius: var(--r-arch);
+  border: 1px solid rgba(212, 183, 147, .12);
+}
+
+/* a lighter, paper variant for editorial pages */
+.page-hero--paper { background: var(--paper-sunk); color: var(--ink); }
+.page-hero--paper .page-hero__title { color: var(--ink-strong); }
+.page-hero--paper .page-hero__text  { color: var(--ink-muted); }
+.page-hero--paper .crumbs { color: var(--ink-faint); }
+.page-hero--paper .page-hero__arch { border-color: var(--champagne-400); opacity: .5; }
+
+/* ==========================================================================
+   5. BOOKING FINDER  (specialty → doctor → branch)
+   ========================================================================== */
+.finder {
+  position: relative;
+  z-index: var(--z-raised);
+  margin-top: clamp(-3.5rem, -3vw, -2rem);
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--r-xl);
+  box-shadow: var(--sh-xl);
+  padding: clamp(1.25rem, 1rem + 1.4vw, 2rem);
+}
+.finder__head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.1rem; }
+.finder__form { display: grid; gap: .85rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); align-items: end; }
+.finder__form .btn { min-height: 3rem; }
+@media (min-width: 900px) {
+  .finder__form { grid-template-columns: 1fr 1fr 1fr auto; }
+}
+
+/* ==========================================================================
+   6. SECTION TREATMENTS
+   ========================================================================== */
+.section--dark {
+  background: var(--olive-900);
+  color: var(--ink-on-dark);
+  position: relative;
+  overflow: hidden;
+}
+.section--dark .h2, .section--dark .h3 { color: #fff; }
+.section--dark .lede, .section--dark .u-muted { color: rgba(246,244,236,.75); }
+.section--dark .eyebrow { color: var(--champagne-400); }
+.section--dark .eyebrow::before { background: var(--champagne-400); }
+
+/* the plaster texture that matches the clinic's real olive wall */
+.section--dark::before {
+  content: "";
+  position: absolute; inset: 0;
+  pointer-events: none;
+  opacity: .5;
+  background:
+    radial-gradient(ellipse 80% 55% at 18% 0%, rgba(214, 212, 173, .10), transparent 70%),
+    radial-gradient(ellipse 60% 50% at 92% 100%, rgba(203, 133, 135, .07), transparent 70%);
+}
+
+.section--sunk { background: var(--paper-sunk); }
+.section--tint { background: var(--olive-050); }
+.section--rose { background: var(--rose-100); }
+
+/* a hairline divider between same-coloured sections */
+.rule { height: 1px; background: var(--line); border: 0; margin: 0; }
+.rule--gold { background: linear-gradient(to right, transparent, var(--champagne-400) 22%, var(--champagne-400) 78%, transparent); }
+
+/* ==========================================================================
+   7. CTA BAND
+   ========================================================================== */
+.cta-band {
+  position: relative;
+  overflow: hidden;
+  background: var(--olive-800);
+  color: var(--ink-on-dark);
+  border-radius: var(--r-xl);
+  padding: clamp(2rem, 1.5rem + 3vw, 4rem) clamp(1.5rem, 1rem + 3vw, 4rem);
+  isolation: isolate;
+}
+.cta-band__inner { position: relative; z-index: 1; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem; }
+.cta-band .h2 { color: #fff; max-width: 22ch; }
+.cta-band__text { color: rgba(246,244,236,.8); margin-top: .75rem; max-width: 38ch; }
+/* The buttons sit inside the arch, centred by construction. Padding is
+   asymmetric because the arch's dome eats headroom at the top. */
+.cta-band__side {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 3.1rem 2.5rem 1.9rem;
+}
+.cta-band__actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  justify-content: center;
+}
+.cta-band__arch {
+  position: absolute;
+  inset: 0;
+  /* A fixed radius, not the percentage --r-arch: on a box this wide and short a
+     50% radius flattens into a bridge rather than reading as the brand arch. */
+  border-radius: 4.75rem 4.75rem var(--r-lg) var(--r-lg);
+  border: 1px solid rgba(212,183,147,.30);
+  z-index: 0;
+  pointer-events: none;
+}
+.cta-band__arch::before {
+  content: "";
+  position: absolute;
+  inset: .6rem;
+  border-radius: 4.15rem 4.15rem var(--r-md) var(--r-md);
+  border: 1px solid rgba(212,183,147,.13);
+}
+@media (max-width: 720px) {
+  /* On a phone the buttons go full width, so the frame would sit flush against
+     them and read as a box rather than an arch. Drop it and keep the buttons. */
+  .cta-band__side { padding: 0; }
+  .cta-band__arch { display: none; }
+  .cta-band__actions { width: 100%; }
+  .cta-band__actions .btn { flex: 1 1 100%; }
+}
+
+/* ==========================================================================
+   8. FOOTER
+   ========================================================================== */
+.site-footer {
+  background: var(--olive-950);
+  color: var(--ink-on-dark-mute);
+  font-size: var(--t-sm);
+  position: relative;
+  overflow: hidden;
+}
+.site-footer__top { padding-block: clamp(3rem, 2rem + 4vw, 5rem); }
+.site-footer__grid {
+  display: grid;
+  gap: clamp(2rem, 1rem + 3vw, 3.5rem);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+}
+.site-footer__brand { grid-column: span 2; max-width: 24rem; }
+@media (max-width: 640px) { .site-footer__brand { grid-column: span 1; } }
+.site-footer__brand img { height: 3.5rem; width: auto; filter: brightness(0) invert(1); opacity: .92; }
+.site-footer__blurb { margin-top: 1.25rem; color: rgba(246,244,236,.62); line-height: var(--lh-snug); font-size: var(--t-xs); }
+
+.footer-col__title {
+  font-size: var(--t-xs);
+  font-weight: 600;
+  letter-spacing: var(--tr-caps);
+  text-transform: uppercase;
+  color: var(--champagne-400);
+  margin-bottom: 1.1rem;
+}
+[dir="rtl"] .footer-col__title { letter-spacing: .02em; text-transform: none; }
+.footer-col ul { display: grid; gap: .55rem; }
+.footer-col a { color: rgba(246,244,236,.72); font-size: var(--t-xs); transition: color var(--dur-2) var(--ease); }
+.footer-col a:hover { color: #fff; }
+
+.site-footer__contact { display: grid; gap: .85rem; }
+.footer-contact-row { display: flex; gap: .7rem; align-items: flex-start; font-size: var(--t-xs); color: rgba(246,244,236,.72); line-height: var(--lh-snug); }
+.footer-contact-row svg { flex: none; width: 1rem; height: 1rem; margin-top: .15rem; color: var(--champagne-500); }
+
+.social { display: flex; gap: .5rem; margin-top: 1.5rem; }
+.social a {
+  width: 2.35rem; height: 2.35rem;
+  display: grid; place-items: center;
+  border: 1px solid rgba(246,244,236,.2);
+  border-radius: 50%;
+  color: rgba(246,244,236,.75);
+  transition: background-color var(--dur-2) var(--ease), color var(--dur-2) var(--ease), border-color var(--dur-2) var(--ease), transform var(--dur-2) var(--ease-out);
+}
+.social a:hover { background: var(--champagne-500); border-color: var(--champagne-500); color: var(--olive-950); transform: translateY(-2px); }
+.social svg { width: 1.05rem; height: 1.05rem; }
+
+.site-footer__disclaimer {
+  border-top: 1px solid rgba(246,244,236,.12);
+  padding-block: 1.75rem;
+  font-size: var(--t-xs);
+  color: rgba(246,244,236,.5);
+  line-height: var(--lh-snug);
+}
+.site-footer__bar {
+  border-top: 1px solid rgba(246,244,236,.12);
+  padding-block: 1.25rem;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;
+  font-size: var(--t-xs);
+  color: rgba(246,244,236,.5);
+}
+.site-footer__bar a:hover { color: #fff; }
+.site-footer__legal { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+
+/* ==========================================================================
+   9. ENTRANCE ANIMATION
+   One orchestrated reveal per section, driven by IntersectionObserver.
+   ========================================================================== */
+/* Progressive enhancement, and it matters: the hidden state is applied ONLY
+   when the script is running (`.js` on <html>). If the JS fails, is blocked,
+   or the observer never fires, every section is simply visible. Content that
+   depends on an animation to be readable is content that can disappear. */
+[data-reveal] { opacity: 1; transform: none; }
+
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity var(--dur-4) var(--ease-out), transform var(--dur-4) var(--ease-out);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.js [data-reveal].is-in { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] { opacity: 1; transform: none; transition: none; }
+}
+
+/* The footer wordmark is the pre-inverted white artwork, so it must not
+   inherit the header's multiply blend. */
+.site-footer__brand img,
+.drawer__head .wordmark img { mix-blend-mode: normal; }
+.site-footer__brand img { filter: none; }
+
+/* --------------------------------------------------------------------------
+   Hero scrim on narrow screens.
+   The directional ramp exists to darken the side the copy sits on. On a phone
+   the copy spans the full width, so that ramp just muddies the photograph —
+   drop it and let the vertical ramp do the work on its own.
+   -------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+  .hero__media::after,
+  [dir="ltr"] .hero__media::after {
+    background:
+      linear-gradient(to top,
+        rgba(26,27,18,.92) 0%,
+        rgba(26,27,18,.72) 38%,
+        rgba(26,27,18,.52) 70%,
+        rgba(26,27,18,.44) 100%),
+      linear-gradient(rgba(60,62,40,.26), rgba(60,62,40,.26));
+  }
+  .hero__inner { padding-block: clamp(3rem, 2rem + 8vw, 5rem); }
+  .hero__actions .btn { flex: 1 1 100%; }
+  .hero__proof { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* The page hero's decorative arch is pure ornament — it costs layout space on
+   a phone and adds nothing. */
+@media (max-width: 640px) {
+  .page-hero__arch, .sprig { display: none; }
+}
+
+/* Tables and any wide block must scroll inside themselves, never push the
+   page sideways. */
+.prose table, .table-scroll { display: block; overflow-x: auto; max-width: 100%; }
+
+/* ==========================================================================
+   SPECIALTY SUB-NAVIGATION
+   The tab bar on a specialty page is a functional-layer control, and those
+   pages are long — so it sticks below the header rather than scrolling away.
+   Aligned to the content edge, not centred: a centred control reads as
+   decoration, an edge-aligned one reads as navigation.
+   ========================================================================== */
+.section--after-tabs { padding-top: clamp(1.5rem, 1rem + 2vw, 2.5rem); }
+
+.section--after-tabs > .wrap > .tabs {
+  position: sticky;
+  top: calc(4.75rem + .55rem);
+  z-index: var(--z-sticky);
+  margin-inline-start: 0;
+  margin-bottom: clamp(1.75rem, 1.2rem + 2vw, 2.75rem);
+  max-width: 100%;
+  width: max-content;
+}
+
+/* Below the compact-screen breakpoint the tab strip needs to scroll
+   horizontally rather than wrap. */
+@media (max-width: 1099px) {
+  .section--after-tabs > .wrap > .tabs {
+    top: calc(4.5rem + .4rem);
+    width: 100%;
+    max-width: 100%;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 640px) {
+  .section--after-tabs > .wrap > .tabs {
+    margin-inline: calc(var(--gutter) * -1);
+    width: calc(100% + var(--gutter) * 2);
+    border-radius: 0;
+    border-inline: 0;
+    padding-inline: var(--gutter);
+  }
+}
+
+/* The page hero on an interior page should not be a large empty field when
+   it carries no imagery. */
+.page-hero__inner { max-width: 52rem; }
+
+/* --------------------------------------------------------------------------
+   The clinic's name, in words.
+   The supplied wordmark is English-only artwork, so on the Arabic site the
+   clinic was never actually named anywhere prominent — bad for recognition
+   and worse for search. The name now sits beside the mark in the header and
+   above the headline in the hero.
+   -------------------------------------------------------------------------- */
+.wordmark__text {
+  display: none;
+  flex-direction: column;
+  gap: .1rem;
+  padding-inline-start: .8rem;
+  border-inline-start: 1px solid var(--line);
+  line-height: 1.25;
+}
+.wordmark__text b {
+  font-family: var(--font-head);
+  font-size: var(--t-sm);
+  font-weight: 500;
+  color: var(--ink-strong);
+  letter-spacing: var(--tr-tight);
+}
+.wordmark__text i {
+  font-style: normal;
+  font-size: .68rem;
+  color: var(--ink-faint);
+  letter-spacing: .02em;
+}
+@media (min-width: 1340px) { .wordmark__text { display: flex; } }
+
+/* The clinic's own name is the first thing a visitor should be able to read on
+   the page. At 1.05rem it was quieter than the eyebrow underneath it, which is
+   the wrong way round: this is the masthead, not a label. */
+.hero__brand {
+  font-family: var(--font-head);
+  font-size: clamp(1.6rem, 1.15rem + 1.8vw, 2.6rem);
+  font-weight: 600;
+  line-height: 1.15;
+  color: #fff;
+  letter-spacing: var(--tr-tight);
+  margin-bottom: .5rem;
+  text-shadow: 0 1px 14px rgba(28, 30, 20, .45);
+}
+/* a champagne hairline under the name, tying it to the brand's metal */
+.hero__brand::after {
+  content: "";
+  display: block;
+  width: 3.25rem;
+  height: 2px;
+  margin-top: .7rem;
+  background: var(--champagne-500);
+}
+[dir="ltr"] .hero__brand { letter-spacing: .01em; }
+
+/* On an interior page the name belongs in the footer and header, not repeated
+   in every page hero — but the branch and contact pages benefit from it. */
+.hero__brand + .eyebrow { color: var(--champagne-400); margin-bottom: .9rem; }
+.page-hero__brand { color: var(--champagne-400); font-size: var(--t-sm); font-weight: 600; }
+
+/* The specialty tab bar is sticky, so body text scrolls directly beneath it.
+   The clear-glass tint let that text read through and made both illegible.
+   A sticky control sitting over unpredictable content is exactly the case the
+   HIG says needs the *regular* variant, not the clear one. */
+.section--after-tabs > .wrap > .tabs.glass {
+  --glass-tint: rgba(251, 249, 244, .93);
+  --glass-blur: 26px;
+  border-color: var(--line);
+  box-shadow: 0 1px 2px rgba(60,54,32,.06), 0 10px 26px rgba(60,54,32,.10);
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .section--after-tabs > .wrap > .tabs.glass { background: var(--paper-raised); }
+}
+
+/* Banner photograph behind an interior page hero.
+   The scrim is three layers, not one flat overlay: a deep wash on the text side
+   so the heading always clears contrast, a lighter wash overall, and a warm
+   olive multiply that keeps the photo inside the brand palette instead of
+   reading as a stock image dropped on top. */
+.page-hero--art { background: var(--olive-900); }
+.page-hero__media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: .5;
+}
+.page-hero--art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(to var(--hero-scrim-dir, left),
+      rgba(35, 37, 25, .88) 0%,
+      rgba(35, 37, 25, .62) 42%,
+      rgba(35, 37, 25, .34) 100%),
+    linear-gradient(rgba(51, 53, 36, .28), rgba(51, 53, 36, .28));
+}
+[dir="rtl"] .page-hero--art { --hero-scrim-dir: right; }
+[dir="ltr"] .page-hero--art { --hero-scrim-dir: left; }
+.page-hero--art .page-hero__inner { position: relative; z-index: 1; }
+.page-hero--art .page-hero__arch { z-index: 1; }
+
+@media (max-width: 720px) {
+  /* Narrow screens put text over the middle of the photo, so the scrim has to
+     be even rather than directional or the last line loses contrast. */
+  .page-hero--art::after {
+    background:
+      linear-gradient(rgba(35, 37, 25, .78), rgba(35, 37, 25, .86)),
+      linear-gradient(rgba(51, 53, 36, .2), rgba(51, 53, 36, .2));
+  }
+  .page-hero__media { opacity: .45; }
+}
+
+/* The integrated-consultation band carries a photographic backdrop rather than
+   flat olive. The image is heavily darkened by the layered gradient so the
+   white heading and body copy keep well clear of 4.5:1 over every part of it -
+   the picture is atmosphere, not something the reader has to look at. */
+.section--integrated {
+  background-image:
+    linear-gradient(to bottom, rgba(26, 28, 20, .93), rgba(26, 28, 20, .90)),
+    url("../img/clinic/hero-clinic-1200.webp");
+  background-size: cover;
+  background-position: center;
+}

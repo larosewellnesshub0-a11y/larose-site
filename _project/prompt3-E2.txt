@@ -1,0 +1,29 @@
+Read _project/CODEX-BRIEF.md, then _project/CODEX-TASKS-2.md "TASK E" for the article
+object shape and the editorial rules. Then read content/articles.json to match its exact
+style, voice and structure.
+
+Write ONE new file: content/_part2.json
+
+It must be a JSON object of the form { "articles": [ ... ] } containing EXACTLY 10 entries:
+
+FOUR of type "article" (same depth as the existing ones: 6 sections, 3 faq,
+~100 words of Arabic per section), with these slugs:
+  stubborn-localised-fat        (body-contouring)
+  protecting-muscle-while-losing-weight  (clinical-nutrition)
+  hair-loss-blood-tests-first   (dermatology)
+  childrens-appetite            (pediatrics)
+
+SIX of type "update" — scientific updates, 250-400 words per language, each with a
+REQUIRED "sources" array pointing at genuine organisations (WHO, NICE, ADA, EASO,
+ESPEN, FDA). Do NOT fabricate a study, a journal, a percentage or a statistic. Write
+about the established guideline position and cite the guideline body. Cover one update
+each for: clinical nutrition, weight management, body contouring, internal medicine,
+dermatology, paediatrics.
+
+Rules that matter: no prices; Egyptian Arabic addressed to the patient in the same warm
+register as the existing articles; British English as a real translation; author and
+reviewedBy must be one of the three REAL doctor slugs (shimaa-fouad, alyaa-abu-taleb,
+mohab-ashraf) matched to their actual specialty; slugs unique and not clashing with the
+existing ones. Valid JSON, UTF-8, no trailing commas.
+
+Create only content/_part2.json. Change nothing else.

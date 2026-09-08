@@ -1,0 +1,17 @@
+# logs, scratch and heavy working material never needed to build the site
+_project/log*.txt
+_project/*.png
+_project/raw-images/
+_project/img-backups/
+_project/held-images/
+_project/retired-images/
+_project/gpt-out/
+content/_backups/
+content_bak_0119/
+before and after images/
+tools/__pycache__/
+*.psd
+.DS_Store
+node_modules/
+_project/server.log
+_project/collect.log

@@ -1,0 +1,101 @@
+You are working in the La Rose Wellness Hub website repo.
+
+FIRST: read `_project/CODEX-BRIEF-R4.md` completely and obey every rule in it.
+Then read `build/pages/patients.mjs` (the booking form), `site/assets/js/site.js`
+(the WhatsApp form composition) and `server/serve.mjs` before changing anything.
+
+# YOUR JOB: capture every form submission into a Google Sheet, without losing
+# the existing WhatsApp behaviour.
+
+Today the booking form and the other forms compose a WhatsApp message and open
+it. Nothing is recorded anywhere. The client wants every submission to also land
+in a Google Sheet.
+
+The site is STATIC, so it cannot talk to the Sheets API directly and must not
+hold any credential. The agreed approach is a Google Apps Script Web App: the
+client deploys it once, and the page POSTs to its public `/exec` URL.
+
+The destination spreadsheet already exists:
+- Title: `La Rose — Bookings & Enquiries`
+- Spreadsheet ID: `1UvmCI5ptcc-0AE4q_16_hWclpgeZK3jZb5eFfC7KYZ8`
+- Header row already present:
+  `Timestamp, Source, Name, Phone, Specialty, Doctor, Branch, Preferred day,
+   Preferred time, Message, Language, Page URL, Status, Notes`
+
+## C1. The Apps Script
+
+Create `integrations/apps-script/Code.gs`:
+
+- `doPost(e)` parses the JSON body, appends one row in the header order above,
+  fills `Timestamp` server-side with the script's own clock (never trust a
+  client timestamp), and sets `Status` to `new`.
+- Accept only known field names; ignore anything else, so a malicious POST
+  cannot inject extra columns.
+- Cap every field at a sane length (say 2000 chars) before writing.
+- Use a `LockService` lock around the append so two simultaneous submissions
+  cannot collide on the same row.
+- Return JSON `{ok:true}` / `{ok:false,error:"..."}`.
+- Also implement `doGet(e)` returning `{ok:true,service:"larose-forms"}` so the
+  client can verify a deployment URL is live.
+
+Create `integrations/apps-script/README.md` with the exact click-by-click deploy
+steps: open the spreadsheet, Extensions → Apps Script, paste `Code.gs`, Deploy →
+New deployment → Web app, "Execute as: Me", "Who has access: Anyone", copy the
+`/exec` URL. Note plainly that "Anyone" is required for a static site to post,
+and that the URL is therefore public — so the script must never read or return
+sheet contents, only append. Say that explicitly in the README.
+
+## C2. Client side
+
+Add `site/assets/js/forms.js`:
+
+- One `submitToSheet(payload)` helper. POST as
+  `fetch(endpoint, {method:'POST', mode:'no-cors', headers:{'Content-Type':'text/plain;charset=utf-8'}, body: JSON.stringify(payload)})`.
+  **`text/plain` is deliberate** — it avoids the CORS preflight that Apps Script
+  cannot answer. Do not "fix" it to `application/json`.
+- Because `no-cors` responses are opaque, treat a resolved promise as sent and a
+  rejection as failed; never block the user on the result.
+- The endpoint comes from `content/site.json` at `integrations.formsEndpoint`
+  (add the key, empty string by default) and is rendered into the page as a data
+  attribute. **If the endpoint is empty, skip the POST entirely and silently** —
+  the site must work perfectly with no endpoint configured.
+- Queue failed submissions in `localStorage` and retry on next page load, wrapped
+  in try/catch since storage can throw.
+
+Wire it into the existing form handlers in `site/assets/js/site.js` so that on
+submit the page BOTH posts to the sheet AND continues to open WhatsApp exactly as
+it does now. The WhatsApp flow is the primary path and must not be delayed or
+broken by the POST.
+
+Set `Source` per form (`booking`, `contact`, `home-visit`, `digital`, …) and fill
+`Language` from `document.documentElement.lang` and `Page URL` from
+`location.href`.
+
+**Do not add any text to the page about where data is stored.** The client
+removed all such notices; do not reintroduce one.
+
+## C3. Local fallback capture
+
+`server/serve.mjs` already has a small API. Add `POST /api/submissions` that
+appends the same payload to `content/_submissions.json`, and
+`GET /api/submissions` + `GET /api/submissions.csv` to read them back. Have
+`forms.js` post to the local endpoint too when the page is served from
+localhost, so submissions are captured during testing even with no Apps Script
+deployed.
+
+## C4. Dashboard
+
+In `dashboard/`, add a "Integrations" panel with a field for the Apps Script
+`/exec` URL that saves to `content/site.json` → `integrations.formsEndpoint`,
+a "Test connection" button that GETs the URL and reports whether it answered
+`{ok:true,service:"larose-forms"}`, and a "Submissions" list reading
+`GET /api/submissions` with a CSV download button.
+
+Match the dashboard's existing panel markup and CSS conventions exactly; read a
+neighbouring panel first and copy its structure.
+
+## Definition of done
+
+`node build/build.mjs` succeeds and `node tools/validate.mjs` prints 0 errors.
+The site must still build and run with `integrations.formsEndpoint` empty.
+Report the literal tail of both commands.

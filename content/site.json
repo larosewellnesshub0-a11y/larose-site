@@ -1,0 +1,965 @@
+{
+ "_note": "Single source of truth for clinic facts. Every value here is sourced from the clinic's own materials (price sheet, doctor artwork, previous verified build). Nothing may be added that the clinic has not confirmed. Fields marked TODO are deliberately empty rather than guessed.",
+ "brand": {
+  "name": {
+   "ar": "عيادات لاروز التخصصية",
+   "en": "La Rose Wellness Hub"
+  },
+  "shortName": {
+   "ar": "لاروز",
+   "en": "La Rose"
+  },
+  "wordmark": {
+   "line1": "LA ROSE",
+   "line2": "WELLNESS HUB"
+  },
+  "kind": {
+   "ar": "مركز طبي متعدد التخصصات",
+   "en": "Multi-specialty medical centre"
+  },
+  "tagline": {
+   "ar": "رعاية طبية متكاملة، وخطة مبنية على حالتك",
+   "en": "Integrated medical care, with a plan built around your case"
+  },
+  "domain": "laroseclinics.com",
+  "logo": {
+   "primary": "assets/img/logo/larose-logo-black.png",
+   "wordmark": "assets/img/logo/larose-wordmark.png",
+   "wordmarkWhite": "assets/img/logo/larose-wordmark-white.png",
+   "_todo": "SVG version of the wordmark. The PNG supplied is 1500px raster; an SVG would render crisply at every size and allow single-colour recolouring in the footer."
+  }
+ },
+ "contact": {
+  "phone": {
+   "display": "010 4066 1893",
+   "tel": "+201040661893"
+  },
+  "whatsapp": {
+   "number": "201040661893",
+   "href": "https://api.whatsapp.com/send?phone=201040661893"
+  },
+  "email": {
+   "_todo": "The clinic has not supplied a public email address."
+  }
+ },
+ "social": {
+  "instagram": "https://www.instagram.com/larose_wellnesshub/",
+  "youtube": "https://www.youtube.com/@LaRoseWellnessHub",
+  "linktree": "https://linktr.ee/Larosewellnesshub",
+  "youtubeTestimonials": "https://youtube.com/playlist?list=PLYc9Gq525ir0",
+  "instagramBeforeAfter": "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTA0NDc0NzU5MjcyNTcx?story_media_id=3931734610098801135_67993363221",
+  "instagramStories": "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTExMzkwNTIwNTc4MDM0?story_media_id=3767214535439296409_67993363221",
+  "youtubeRecipes": "https://youtube.com/playlist?list=PLdiOFwQ8oHI0"
+ },
+ "proof": {
+  "rating": {
+   "value": 5,
+   "count": 138,
+   "source": "Google",
+   "checked": "2026-09-05",
+   "url": "https://maps.app.goo.gl/4chmVDt5MRYPwA8c6"
+  },
+  "stats": [
+   {
+    "n": "10",
+    "label": {
+     "ar": "تخصصات طبية تحت سقف واحد",
+     "en": "Medical specialties under one roof"
+    }
+   },
+   {
+    "n": "5.0",
+    "label": {
+     "ar": "تقييم جوجل",
+     "en": "Google rating"
+    }
+   },
+   {
+    "n": "18+",
+    "label": {
+     "ar": "سنة خبرة",
+     "en": "years of experience"
+    }
+   },
+   {
+    "n": "1",
+    "label": {
+     "ar": "زيارة واحدة تكفي لأكتر من تخصص",
+     "en": "One visit can cover more than one specialty"
+    }
+   }
+  ]
+ },
+ "hours": {
+  "_note": "Clinic DAYS are derived per specialty from the doctors' schedules in doctors.json, so the booking form and the published hours cannot drift apart. Only `time` is stated here, because it is the same for every clinic. `display` remains the general fallback for pages that are not specialty-specific.",
+  "display": {
+   "ar": "الأيام بتختلف حسب الطبيب والفرع · من ٣ لـ ٧ مساءً",
+   "en": "Clinic days vary by doctor and branch · 3–7 pm"
+  },
+  "bookingNote": {
+   "ar": "الحجز قبل الحضور ضروري، والدخول بأسبقية الحضور.",
+   "en": "Booking ahead is required. Patients are seen in order of arrival."
+  },
+  "_todo": "Google Business lists the clinic as closing at 8 PM, but the full weekly schedule could not be read. The hours shown on the site are derived from the doctors' stated clinic days. Supply the actual reception hours for each day.",
+  "time": {
+   "ar": "من ٣ لـ ٧ مساءً",
+   "en": "3–7 pm"
+  }
+ },
+ "nav": [
+  {
+   "key": "specialties",
+   "label": {
+    "ar": "التخصصات",
+    "en": "Specialties"
+   },
+   "href": "specialties/",
+   "mega": true,
+   "childrenFrom": "specialties"
+  },
+  {
+   "key": "doctors",
+   "label": {
+    "ar": "الأطباء",
+    "en": "Our Doctors"
+   },
+   "href": "doctors/"
+  },
+  {
+   "key": "branches",
+   "label": {
+    "ar": "الفروع",
+    "en": "Branches"
+   },
+   "href": "branches/",
+   "childrenFrom": "branches"
+  },
+  {
+   "key": "patients",
+   "label": {
+    "ar": "دليل المريض",
+    "en": "Plan Your Visit"
+   },
+   "href": "patients/",
+   "children": [
+    {
+     "label": {
+      "ar": "حجز موعد",
+      "en": "Book an appointment"
+     },
+     "href": "patients/booking.html",
+     "desc": {
+      "ar": "احجز كشفك أونلاين",
+      "en": "Request a visit online"
+     }
+    },
+    {
+     "label": {
+      "ar": "الزيارات المنزلية",
+      "en": "Home visits"
+     },
+     "href": "patients/home-visits.html",
+     "desc": {
+      "ar": "الكشف والمتابعة في بيتك",
+      "en": "Consultation and follow-up at home"
+     }
+    },
+    {
+     "label": {
+      "ar": "أول زيارة لك",
+      "en": "Your first visit"
+     },
+     "href": "patients/first-visit.html",
+     "desc": {
+      "ar": "إيه اللي هيحصل خطوة بخطوة",
+      "en": "What happens, step by step"
+     }
+    },
+    {
+     "label": {
+      "ar": "التحضير للكشف",
+      "en": "Preparing for your visit"
+     },
+     "href": "patients/preparation.html",
+     "desc": {
+      "ar": "الصيام والتحاليل المطلوبة",
+      "en": "Fasting and the labs we ask for"
+     }
+    },
+    {
+     "label": {
+      "ar": "الأسئلة الشائعة",
+      "en": "FAQ"
+     },
+     "href": "patients/faq.html",
+     "desc": {
+      "ar": "أسئلة من كل التخصصات",
+      "en": "Questions from every specialty"
+     }
+    },
+    {
+     "label": {
+      "ar": "حقوق المريض",
+      "en": "Patient rights"
+     },
+     "href": "patients/rights.html",
+     "desc": {
+      "ar": "حقوقك ومسؤولياتك",
+      "en": "Your rights and responsibilities"
+     }
+    }
+   ]
+  },
+  {
+   "key": "articles",
+   "label": {
+    "ar": "المركز المعرفي",
+    "en": "Knowledge Centre"
+   },
+   "href": "articles/",
+   "children": [
+    {
+     "label": {
+      "ar": "المقالات الطبية",
+      "en": "Medical articles"
+     },
+     "href": "articles/index.html",
+     "desc": {
+      "ar": "شروح مفصّلة بمعرفة طبية",
+      "en": "In-depth, medically grounded explainers"
+     }
+    },
+    {
+     "label": {
+      "ar": "مستجدات علمية",
+      "en": "Scientific updates"
+     },
+     "href": "articles/updates.html",
+     "desc": {
+      "ar": "أحدث الأبحاث والإرشادات",
+      "en": "New research and guideline changes"
+     }
+    },
+    {
+     "label": {
+      "ar": "اسأل الطبيب",
+      "en": "Ask the doctor"
+     },
+     "href": "articles/qa.html",
+     "desc": {
+      "ar": "أسئلة المرضى وإجابات الأطباء",
+      "en": "Patient questions, answered by our doctors"
+     }
+    },
+    {
+     "label": {
+      "ar": "نصيحة اليوم",
+      "en": "Daily tips"
+     },
+     "href": "articles/tips.html",
+     "desc": {
+      "ar": "نصيحة قصيرة كل يوم",
+      "en": "A short tip, every day"
+     }
+    },
+    {
+     "label": {
+      "ar": "أسئلة شائعة بالموضوع",
+      "en": "FAQ by topic"
+     },
+     "href": "articles/faq.html",
+     "desc": {
+      "ar": "الأسئلة مجمّعة حسب التخصص",
+      "en": "Questions grouped by specialty"
+     }
+    }
+   ],
+   "mega": true
+  },
+  {
+   "key": "tools",
+   "label": {
+    "ar": "أدوات طبية",
+    "en": "Medical Tools"
+   },
+   "href": "tools/index.html",
+   "mega": false,
+   "children": [
+    {
+     "label": {
+      "ar": "كل الأدوات",
+      "en": "All tools"
+     },
+     "href": "tools/index.html",
+     "desc": {
+      "ar": "حاسبات ومتتبعات بسيطة تساعدك تفهم أرقامك",
+      "en": "Simple calculators and trackers to help you read your own numbers"
+     }
+    },
+    {
+     "label": {
+      "ar": "حاسبة السعرات",
+      "en": "Calorie calculator"
+     },
+     "href": "tools/calorie-calculator.html",
+     "desc": {
+      "ar": "احتياجك اليومي والماكروز",
+      "en": "Your daily needs and macros"
+     }
+    },
+    {
+     "label": {
+      "ar": "متتبع السعرات",
+      "en": "Calorie tracker"
+     },
+     "href": "tools/calorie-tracker.html",
+     "desc": {
+      "ar": "سجّل أكلك يوم بيوم",
+      "en": "Log your day, day by day"
+     }
+    },
+    {
+     "label": {
+      "ar": "حاسبة كتلة الجسم",
+      "en": "BMI calculator"
+     },
+     "href": "tools/bmi-calculator.html",
+     "desc": {
+      "ar": "مؤشر كتلة الجسم ومعناه",
+      "en": "Body mass index and what it means"
+     }
+    },
+    {
+     "label": {
+      "ar": "متتبع الوزن والقياسات",
+      "en": "Progress tracker"
+     },
+     "href": "tools/progress-tracker.html",
+     "desc": {
+      "ar": "الوزن والمقاسات على مدى الوقت",
+      "en": "Weight and measurements over time"
+     }
+    },
+    {
+     "label": {
+      "ar": "حاسبة المياه",
+      "en": "Water intake"
+     },
+     "href": "tools/water-calculator.html",
+     "desc": {
+      "ar": "كام لتر جسمك محتاج",
+      "en": "How much your body needs"
+     }
+    },
+    {
+     "label": {
+      "ar": "تحضير السونار",
+      "en": "Ultrasound prep"
+     },
+     "href": "tools/ultrasound-prep.html",
+     "desc": {
+      "ar": "الصيام والتحضير قبل الميعاد",
+      "en": "Fasting and preparation before your visit"
+     }
+    }
+   ]
+  },
+  {
+   "key": "digital",
+   "label": {
+    "ar": "لاروز ديچيتال",
+    "en": "La Rose Digital"
+   },
+   "href": "digital/",
+   "children": [
+    {
+     "label": {
+      "ar": "كتاب الوصفات",
+      "en": "The Recipe Book"
+     },
+     "href": "digital/recipe-book.html",
+     "desc": {
+      "ar": "٢٥٠ وصفة مصرية صحية",
+      "en": "250 healthy Egyptian recipes"
+     }
+    },
+    {
+     "label": {
+      "ar": "المتابعة أونلاين",
+      "en": "Online Nutrition Programme"
+     },
+     "href": "digital/online-diet.html",
+     "desc": {
+      "ar": "خطة ومتابعة من أي مكان",
+      "en": "A plan and follow-up from anywhere"
+     }
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "blurb": {
+   "ar": "عيادات لاروز التخصصية، مركز طبي متعدد التخصصات في المعادي الجديدة. التغذية العلاجية، الباطنة والمناظير، الجراحة العامة وجراحات السمنة، الجلدية، وطب الأطفال، بخطة مبنية على كشف حقيقي.",
+   "en": "La Rose Wellness Hub is a multi-specialty medical centre in New Maadi, Cairo. Clinical nutrition, internal medicine and endoscopy, general and bariatric surgery, dermatology and paediatrics, on a plan built from an actual consultation."
+  },
+  "columns": [
+   {
+    "title": {
+     "ar": "التخصصات",
+     "en": "Specialties"
+    },
+    "linksFrom": "specialties"
+   },
+   {
+    "title": {
+     "ar": "المرضى",
+     "en": "For Patients"
+    },
+    "links": [
+     {
+      "label": {
+       "ar": "حجز موعد",
+       "en": "Book an appointment"
+      },
+      "href": "patients/booking.html"
+     },
+     {
+      "label": {
+       "ar": "الزيارات المنزلية",
+       "en": "Home visits"
+      },
+      "href": "patients/home-visits.html"
+     },
+     {
+      "label": {
+       "ar": "أول زيارة لك",
+       "en": "Your first visit"
+      },
+      "href": "patients/first-visit.html"
+     },
+     {
+      "label": {
+       "ar": "التحضير للكشف",
+       "en": "Preparing for your visit"
+      },
+      "href": "patients/preparation.html"
+     },
+     {
+      "label": {
+       "ar": "الأسئلة الشائعة",
+       "en": "FAQ"
+      },
+      "href": "patients/faq.html"
+     },
+     {
+      "label": {
+       "ar": "حقوق المريض",
+       "en": "Patient rights"
+      },
+      "href": "patients/rights.html"
+     }
+    ]
+   },
+   {
+    "title": {
+     "ar": "لاروز",
+     "en": "La Rose"
+    },
+    "links": [
+     {
+      "label": {
+       "ar": "عن لاروز",
+       "en": "About us"
+      },
+      "href": "about/index.html"
+     },
+     {
+      "label": {
+       "ar": "الأطباء",
+       "en": "Our doctors"
+      },
+      "href": "doctors/"
+     },
+     {
+      "label": {
+       "ar": "الفروع",
+       "en": "Branches"
+      },
+      "href": "branches/"
+     },
+     {
+      "label": {
+       "ar": "المركز المعرفي",
+       "en": "Health library"
+      },
+      "href": "articles/"
+     },
+     {
+      "label": {
+       "ar": "أدوات طبية",
+       "en": "Health tools"
+      },
+      "href": "tools/index.html"
+     },
+     {
+      "label": {
+       "ar": "لاروز ديچيتال",
+       "en": "La Rose Digital"
+      },
+      "href": "digital/"
+     },
+     {
+      "label": {
+       "ar": "اتصل بنا",
+       "en": "Contact"
+      },
+      "href": "contact.html"
+     }
+    ]
+   }
+  ],
+  "legal": [
+   {
+    "label": {
+     "ar": "سياسة الخصوصية",
+     "en": "Privacy policy"
+    },
+    "href": "legal/privacy.html"
+   },
+   {
+    "label": {
+     "ar": "شروط الاستخدام",
+     "en": "Terms of use"
+    },
+    "href": "legal/terms.html"
+   },
+   {
+    "label": {
+     "ar": "إخلاء مسؤولية طبية",
+     "en": "Medical disclaimer"
+    },
+    "href": "legal/disclaimer.html"
+   }
+  ]
+ },
+ "legal": {
+  "disclaimer": {
+   "ar": "المحتوى المنشور على الموقع للتوعية الصحية العامة فقط، ومش بديل عن الكشف الطبي أو التشخيص أو العلاج. أي خطة علاجية أو غذائية بتتحدد بعد كشف فعلي داخل العيادة. النتائج بتختلف من شخص للتاني حسب الحالة الصحية والالتزام ونمط الحياة. لو عندك حالة مزمنة أو حامل أو بترضع أو بتاخد أدوية، كلّم طبيبك قبل أي تغيير. في حالات الطوارئ اتصل بالإسعاف على ١٢٣.",
+   "en": "Everything published on this site is general health information. It is not a substitute for a medical consultation, a diagnosis or a treatment. Any treatment or nutrition plan is decided after an in-person consultation at the clinic. Results differ from person to person depending on health status, adherence and lifestyle. If you have a chronic condition, are pregnant or breastfeeding, or take regular medication, speak to your doctor before making any change. In an emergency, call the ambulance service on 123."
+  },
+  "resultsVary": {
+   "ar": "النتائج بتختلف من شخص للتاني حسب الحالة الصحية والالتزام ونمط الحياة.",
+   "en": "Results vary from person to person depending on health status, adherence and lifestyle."
+  },
+  "sampleContent": {
+   "ar": "المحتوى ده مثال توضيحي لشكل الصفحة، وهيتم استبداله ببيانات حقيقية.",
+   "en": "This is sample content showing the page layout. It will be replaced with real data."
+  },
+  "copyright": {
+   "ar": "عيادات لاروز التخصصية. كل الحقوق محفوظة.",
+   "en": "La Rose Wellness Hub. All rights reserved."
+  }
+ },
+ "latinTerms": [
+  "InBody",
+  "BMI",
+  "PCOS",
+  "GLP-1",
+  "GIP",
+  "FDA",
+  "La Rose",
+  "Wellness Hub",
+  "QNB",
+  "WhatsApp",
+  "4D",
+  "Cryo",
+  "ESPEN",
+  "CBC",
+  "TSH",
+  "FT3",
+  "FT4",
+  "AST",
+  "ALT",
+  "HbA1c",
+  "FBS",
+  "H. pylori",
+  "IBS"
+ ],
+ "i18n": {
+  "ar": {
+   "code": "ar",
+   "dir": "rtl",
+   "label": "العربية",
+   "altLabel": "English",
+   "locale": "ar-EG"
+  },
+  "en": {
+   "code": "en",
+   "dir": "ltr",
+   "label": "English",
+   "altLabel": "العربية",
+   "locale": "en-EG"
+  }
+ },
+ "ui": {
+  "bookNow": {
+   "ar": "احجز موعدك",
+   "en": "Book an appointment"
+  },
+  "bookShort": {
+   "ar": "احجز",
+   "en": "Book"
+  },
+  "whatsapp": {
+   "ar": "كلّمنا على واتساب",
+   "en": "Message us on WhatsApp"
+  },
+  "whatsappShort": {
+   "ar": "واتساب",
+   "en": "WhatsApp"
+  },
+  "callUs": {
+   "ar": "اتصل بينا",
+   "en": "Call us"
+  },
+  "readMore": {
+   "ar": "اقرأ المزيد",
+   "en": "Read more"
+  },
+  "viewAll": {
+   "ar": "عرض الكل",
+   "en": "View all"
+  },
+  "learnMore": {
+   "ar": "اعرف أكتر",
+   "en": "Learn more"
+  },
+  "viewSpecialty": {
+   "ar": "تفاصيل الخدمة",
+   "en": "View service"
+  },
+  "viewProfile": {
+   "ar": "الملف الشخصي",
+   "en": "View profile"
+  },
+  "skipToContent": {
+   "ar": "تخطي إلى المحتوى",
+   "en": "Skip to content"
+  },
+  "menu": {
+   "ar": "القائمة",
+   "en": "Menu"
+  },
+  "close": {
+   "ar": "إغلاق",
+   "en": "Close"
+  },
+  "home": {
+   "ar": "الرئيسية",
+   "en": "Home"
+  },
+  "comingSoon": {
+   "ar": "قريباً",
+   "en": "Coming soon"
+  },
+  "sample": {
+   "ar": "مثال توضيحي",
+   "en": "Sample"
+  },
+  "openingSoon": {
+   "ar": "يفتح قريباً",
+   "en": "Opening soon"
+  },
+  "openNow": {
+   "ar": "مفتوح الآن",
+   "en": "Open now"
+  },
+  "tabOverview": {
+   "ar": "نظرة عامة",
+   "en": "Overview"
+  },
+  "tabDoctors": {
+   "ar": "الأطباء",
+   "en": "Doctors"
+  },
+  "tabReviews": {
+   "ar": "آراء العملاء",
+   "en": "Reviews"
+  },
+  "tabResults": {
+   "ar": "قبل وبعد",
+   "en": "Before & after"
+  },
+  "tabFaq": {
+   "ar": "أسئلة شائعة",
+   "en": "FAQ"
+  },
+  "conditionsTreated": {
+   "ar": "الحالات اللي بنعالجها",
+   "en": "Conditions we treat"
+  },
+  "treatments": {
+   "ar": "الخدمات والعلاجات",
+   "en": "Treatments & services"
+  },
+  "ourDoctors": {
+   "ar": "أطباء القسم",
+   "en": "Department doctors"
+  },
+  "clinicDays": {
+   "ar": "أيام العيادة",
+   "en": "Clinic days"
+  },
+  "addReview": {
+   "ar": "أضِف تجربتك",
+   "en": "Share your experience"
+  },
+  "before": {
+   "ar": "قبل",
+   "en": "Before"
+  },
+  "after": {
+   "ar": "بعد",
+   "en": "After"
+  },
+  "selectSpecialty": {
+   "ar": "اختار التخصص",
+   "en": "Select a specialty"
+  },
+  "selectDoctor": {
+   "ar": "اختار الطبيب",
+   "en": "Select a doctor"
+  },
+  "selectBranch": {
+   "ar": "اختار الفرع",
+   "en": "Select a branch"
+  },
+  "findAppointment": {
+   "ar": "ابحث عن موعد",
+   "en": "Find an appointment"
+  },
+  "priceOnConsult": {
+   "ar": "السعر بيتحدد بعد الكشف",
+   "en": "Price is set after the consultation"
+  },
+  "homeVisits": {
+   "ar": "الزيارات المنزلية",
+   "en": "Home visits"
+  },
+  "onlineFollowUp": {
+   "ar": "المتابعة أونلاين",
+   "en": "Online follow-up"
+  },
+  "healthTools": {
+   "ar": "أدوات طبية",
+   "en": "Health tools"
+  },
+  "knowledgeCentre": {
+   "ar": "المركز المعرفي",
+   "en": "Knowledge Centre"
+  },
+  "articles": {
+   "ar": "المقالات الطبية",
+   "en": "Medical articles"
+  },
+  "updates": {
+   "ar": "مستجدات علمية",
+   "en": "Scientific updates"
+  },
+  "qa": {
+   "ar": "اسأل الطبيب",
+   "en": "Ask the doctor"
+  },
+  "tips": {
+   "ar": "نصيحة اليوم",
+   "en": "Daily tips"
+  },
+  "readingTime": {
+   "ar": "دقيقة قراءة",
+   "en": "min read"
+  },
+  "publishedOn": {
+   "ar": "نُشر في",
+   "en": "Published"
+  },
+  "reviewedBy": {
+   "ar": "روجع طبياً بواسطة",
+   "en": "Medically reviewed by"
+  },
+  "toolDisclaimer": {
+   "ar": "الأداة دي بتدي تقدير تقريبي للتوعية بس، ومش بديل عن الكشف الطبي. الأرقام بتختلف حسب حالتك الصحية وتحاليلك ونمط حياتك، والخطة الحقيقية بتتحدد في الكشف.",
+   "en": "This tool gives an approximate estimate for general guidance only. It is not a substitute for a medical consultation. The numbers vary with your health status, your labs and your lifestyle, the real plan is set at the consultation."
+  },
+  "calculate": {
+   "ar": "احسب",
+   "en": "Calculate"
+  },
+  "reset": {
+   "ar": "إعادة",
+   "en": "Reset"
+  },
+  "saveLocal": {
+   "ar": "البيانات بتتحفظ على جهازك بس، ومش بتتبعت لأي حد.",
+   "en": "Your data is stored on this device only and is never sent anywhere."
+  }
+ },
+ "media": {
+  "_note": "Imagery that is ILLUSTRATIVE rather than photographs of the real clinic. Anything listed here was generated to convey the brand's atmosphere and must be replaced with professional photography of the actual premises before launch, or kept only where it cannot be mistaken for a record of the place. Real photographs of the Maadi branch live in content/branches.json and are used on the branch page.",
+  "homeHero": {
+   "src": "assets/img/clinic/hero-clinic-1200.webp",
+   "illustrative": true,
+   "alt": {
+    "ar": "",
+    "en": ""
+   },
+   "_todo": "Replace with professional photography of the real Maadi reception. This frame is generated brand imagery: it is decorative (empty alt) and no caption claims it is the clinic, but a visitor could still assume it is. Highest-value photography commission on the project."
+  }
+ },
+ "integrations": {
+  "formsEndpoint": "https://script.google.com/macros/s/AKfycbxKjhC9ZIlX3NCi2Lo_brOJ8AdXBW6YQV6k0Qjut2xAEcrGEtIRMEEshl5igvga2LAC/exec",
+  "_note": "formsEndpoint is the Google Apps Script /exec URL, deployed from the clinic account larosewellnesshub0@gmail.com and writing to the spreadsheet 'La Rose - Bookings & Enquiries' (1fwL5rMeMLgUs2v9UHWu9c-PCeWtmfBW_YpZTG3RGbAI). Empty means the site skips the POST entirely and silently; WhatsApp stays the primary path either way. See integrations/apps-script/README.md."
+ },
+ "sharing": {
+  "_note": "Share and Ask-AI buttons under every Knowledge Centre entry. Turn a network off with enabled:false; the button disappears from every article at the next build. {title} and {url} are replaced per article in the question text.",
+  "enabled": true,
+  "heading": {
+   "ar": "شارك المقال",
+   "en": "Share this article"
+  },
+  "copied": {
+   "ar": "اتنسخ الرابط",
+   "en": "Link copied"
+  },
+  "networks": [
+   {
+    "key": "whatsapp",
+    "label": {
+     "ar": "واتساب",
+     "en": "WhatsApp"
+    },
+    "enabled": true
+   },
+   {
+    "key": "facebook",
+    "label": {
+     "ar": "فيسبوك",
+     "en": "Facebook"
+    },
+    "enabled": true
+   },
+   {
+    "key": "x",
+    "label": {
+     "ar": "إكس",
+     "en": "X"
+    },
+    "enabled": true
+   },
+   {
+    "key": "telegram",
+    "label": {
+     "ar": "تليجرام",
+     "en": "Telegram"
+    },
+    "enabled": true
+   },
+   {
+    "key": "linkedin",
+    "label": {
+     "ar": "لينكدإن",
+     "en": "LinkedIn"
+    },
+    "enabled": true
+   },
+   {
+    "key": "copy",
+    "label": {
+     "ar": "نسخ الرابط",
+     "en": "Copy link"
+    },
+    "enabled": true
+   }
+  ],
+  "ask": {
+   "_note": "ChatGPT and Claude accept the question in the link and open with it already typed. Gemini has no such parameter, so its button copies the question to the clipboard and opens the app - the button says so rather than pretending otherwise.",
+   "enabled": true,
+   "heading": {
+    "ar": "اسأل الذكاء الاصطناعي عن المقال",
+    "en": "Ask AI about this article"
+   },
+   "note": {
+    "ar": "الإجابات دي مش تشخيص ولا بديل عن الكشف. استخدمها عشان تفهم الموضوع أكتر وتعرف تسأل دكتورك إيه.",
+    "en": "These answers are not a diagnosis and not a substitute for a consultation. Use them to understand the topic and to work out what to ask your doctor."
+   },
+   "question": {
+    "ar": "اقرأ المقال ده من عيادات لاروز التخصصية واشرحلي أهم النقاط فيه ببساطة، وقوللي أنهي أسئلة المفروض أسألها لدكتوري. العنوان: {title} — الرابط: {url}",
+    "en": "Read this article from La Rose Wellness Hub and explain its key points to me in plain language, then tell me which questions I should ask my own doctor. Title: {title} — Link: {url}"
+   },
+   "assistants": [
+    {
+     "key": "chatgpt",
+     "label": {
+      "ar": "اسأل ChatGPT",
+      "en": "Ask ChatGPT"
+     },
+     "enabled": true
+    },
+    {
+     "key": "claude",
+     "label": {
+      "ar": "اسأل Claude",
+      "en": "Ask Claude"
+     },
+     "enabled": true
+    },
+    {
+     "key": "gemini",
+     "label": {
+      "ar": "اسأل Gemini",
+      "en": "Ask Gemini"
+     },
+     "enabled": true
+    }
+   ]
+  }
+ },
+ "integratedConsultation": {
+  "_note": "Client-supplied. Prices deliberately removed: the site never shows them.",
+  "eyebrow": {
+   "ar": "الكشف المتكامل",
+   "en": "The integrated consultation"
+  },
+  "title": {
+   "ar": "نعرف السبب الأول، قبل ما نحدد الخطة",
+   "en": "Find the cause first, then decide the plan"
+  },
+  "lede": {
+   "ar": "هدفنا مش إن الوزن ينزل وبس، لأ. هدفنا نحل السبب اللي وراه الزيادة من الأول، والمشاكل اللي جت معاها. عشان كده عندنا كشف التغذية والباطنة المتكامل.",
+   "en": "The aim is not simply for the weight to come down. It is to deal with what caused the gain in the first place, and with the problems that came with it. That is what the integrated nutrition and internal medicine consultation is for."
+  },
+  "items": {
+   "ar": [
+    "تقييم طبي كامل بجهاز الـ InBody، وتحديد نسبة الدهون والعضلات والقياسات المختلفة.",
+    "كشف متكامل مع طبيبة تغذية علاجية وإكلينيكية بدرجة أخصائي.",
+    "سونار متكامل على البطن جوه نفس الكشف: كبد، مرارة، بنكرياس، طحال، كلى، حسب حاجة الحالة ورأي الدكتور.",
+    "كشف باطنة مع أخصائي باطنة وكبد وجهاز هضمي.",
+    "قياس Body Contouring لتقييم التطور وتحديد الحل المناسب.",
+    "تحديد الخطة الأنسب لحالتك: جلسات أو حقن أو خطة غذائية.",
+    "مراجعة التحاليل لو متوفرة معاك."
+   ],
+   "en": [
+    "A full medical assessment on the InBody machine, with body fat, muscle mass and the other standard measurements.",
+    "A full consultation with a specialist-level clinical and therapeutic nutrition doctor.",
+    "A complete abdominal ultrasound within the same visit: liver, gallbladder, pancreas, spleen and kidneys, according to your case and the doctor's judgement.",
+    "An internal medicine consultation with a specialist in internal medicine, liver and digestive disease.",
+    "A body-contouring measurement to assess progress and decide the right approach.",
+    "Deciding the plan that suits your case: sessions, injections or a nutrition plan.",
+    "A review of your test results, if you have them with you."
+   ]
+  },
+  "closing": {
+   "ar": "الفكرة إننا نعرف الأول إيه السبب اللي خلاك تزيد، قبل ما نحدد البروتوكول، لأن مش كل حالة تنفع تبدأ بنفس الطريقة. ولو بدأت أي باقة أو خطة إنقاص وزن بعد الكشف، قيمة الكشف بتتخصم من الباقة اللي هتبدأ بيها.",
+   "en": "The idea is to understand what caused the gain before choosing a protocol, because not every case should start the same way. And if you begin any package or weight-loss plan after the consultation, the cost of the consultation is credited against it."
+  }
+ }
+}

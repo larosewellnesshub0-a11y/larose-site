@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viewport harness (dev only)</title>
+<style>
+  body { margin:0; background:#22231a; color:#e9e7dc; font:13px/1.4 system-ui, sans-serif; }
+  .bar { padding:.7rem 1rem; display:flex; gap:.75rem; align-items:center; flex-wrap:wrap; position:sticky; top:0; background:#2c2d21; z-index:5; }
+  input { flex:1; min-width:16rem; padding:.4rem .6rem; border-radius:6px; border:1px solid #55573f; background:#1a1b12; color:inherit; }
+  .rack { display:flex; gap:1.25rem; padding:1.25rem; overflow-x:auto; align-items:flex-start; }
+  figure { margin:0; flex:none; }
+  figcaption { padding:.4rem 0; opacity:.7; }
+  iframe { border:0; background:#fff; border-radius:12px; box-shadow:0 12px 40px rgba(0,0,0,.45); display:block; }
+</style>
+</head>
+<body>
+  <div class="bar">
+    <label for="u">Path</label>
+    <input id="u" value="/ar/index.html">
+    <button onclick="load()">Load</button>
+  </div>
+  <div class="rack" id="rack"></div>
+<script>
+  var SIZES = [[390,844,'iPhone 14'],[430,932,'iPhone 15 Pro Max'],[768,1024,'iPad portrait'],[1280,800,'Laptop']];
+  function load(){
+    var p = document.getElementById('u').value;
+    document.getElementById('rack').innerHTML = SIZES.map(function(s){
+      return '<figure><figcaption>'+s[2]+' — '+s[0]+'×'+s[1]+'</figcaption>'+
+             '<iframe src="'+p+'" width="'+s[0]+'" height="'+s[1]+'" loading="eager"></iframe></figure>';
+    }).join('');
+  }
+  var q = new URLSearchParams(location.search).get('p');
+  if (q) document.getElementById('u').value = q;
+  load();
+</script>
+</body>
+</html>

@@ -1,0 +1,560 @@
+{
+  "_note": "The AGGREGATE below is real and was verified against the clinic's public Google Business listing on 2026-09-05: 5.0 from 138 reviews. The `topics` array is also real: those are Google's own auto-generated review topics and their counts, taken from the same listing, and they are what patients actually mention most. The `reviews` array is deliberately EMPTY: Google's review feed would not load past the first entry during verification, and no review text may be published without being transcribed accurately. Use the dashboard's Reviews → paste-and-parse box to add them; the site renders a designed empty state until then.",
+  "aggregate": {
+    "value": 5,
+    "count": 138,
+    "source": "Google",
+    "checked": "2026-09-05",
+    "url": "https://maps.app.goo.gl/4chmVDt5MRYPwA8c6"
+  },
+  "topics": {
+    "_note": "Google's own review-topic labels and counts, verified 2026-09-05. Rendered as a 'what patients mention most' panel: real, checkable, and more honest than a hand-picked quote.",
+    "items": [
+      {
+        "count": 7,
+        "label": {
+          "ar": "دكتورة شاطرة",
+          "en": "Skilful doctor"
+        }
+      },
+      {
+        "count": 6,
+        "label": {
+          "ar": "المتابعة",
+          "en": "Follow-up"
+        }
+      },
+      {
+        "count": 3,
+        "label": {
+          "ar": "د. شيماء",
+          "en": "Dr. Shimaa"
+        }
+      },
+      {
+        "count": 2,
+        "label": {
+          "ar": "جروبات إنقاص الوزن",
+          "en": "Weight-loss groups"
+        }
+      },
+      {
+        "count": 2,
+        "label": {
+          "ar": "خطة مخصصة",
+          "en": "A tailored plan"
+        }
+      },
+      {
+        "count": 2,
+        "label": {
+          "ar": "بتسمع كويس",
+          "en": "Listens well"
+        }
+      },
+      {
+        "count": 2,
+        "label": {
+          "ar": "طبيبة محترمة",
+          "en": "Respectful doctor"
+        }
+      },
+      {
+        "count": 2,
+        "label": {
+          "ar": "بترد على كل الأسئلة",
+          "en": "Open to our questions"
+        }
+      },
+      {
+        "count": 2,
+        "label": {
+          "ar": "طبيبة سيدة",
+          "en": "Female doctor"
+        }
+      }
+    ]
+  },
+  "reviews": [],
+  "videos": [
+    {
+      "youtubeId": "PzPmezYv3LY",
+      "orientation": "portrait",
+      "title": {
+        "ar": "عملت تكميم قبل كده.. وقالت البديل زيه بالظبط!",
+        "en": "She had a sleeve before, and says the non-surgical route matched it"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "_E2RNzLkJQQ",
+      "orientation": "portrait",
+      "title": {
+        "ar": "13 كيلو في 3 شهور منهم 11 كيلو دهون صافي!",
+        "en": "13 kg in 3 months, 11 of them pure fat"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "XOP4LlR7r80",
+      "orientation": "portrait",
+      "title": {
+        "ar": "كسرت حاجز المية أخيراً! من 108 لـ 90 كيلو",
+        "en": "Under 100 at last: from 108 kg to 90 kg"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "XQPs1_9xcF4",
+      "orientation": "portrait",
+      "title": {
+        "ar": "جربت كذا حاجة قبل كده.. ودي أول مرة أنزل!",
+        "en": "She had tried everything before; this was the first time it moved"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "v11RCK86KpQ",
+      "orientation": "portrait",
+      "title": {
+        "ar": "14 كيلو في 3 شهور + 10 سم من البطن بالميزوثيرابي",
+        "en": "14 kg in 3 months, plus 10 cm off the waist with mesotherapy"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "krRVl4TLnfY",
+      "orientation": "portrait",
+      "title": {
+        "ar": "11 سم من محيط الوسط بجلستين ميزوثيرابي بس!",
+        "en": "11 cm off the waist in just two mesotherapy sessions"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "R47oMJ_EOJE",
+      "orientation": "portrait",
+      "title": {
+        "ar": "20 كيلو في 3 شهور رغم مشاكل الغدة والمرارة",
+        "en": "20 kg in 3 months, despite thyroid and gallbladder problems"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "wUGXV06Sg78",
+      "orientation": "portrait",
+      "title": {
+        "ar": "25 كيلو في 5 شهور.. كلها دهون!",
+        "en": "25 kg in 5 months, all of it fat"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "nNKd9SUYBeI",
+      "orientation": "portrait",
+      "title": {
+        "ar": "أول جرعة بديل التكميم.. إيه اللي حصل في أسبوع؟",
+        "en": "The first dose: what happened in one week"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "Bi6TbQ92clk",
+      "orientation": "portrait",
+      "title": {
+        "ar": "أول أسبوع بس.. والبنطلون اللي مكنش داخل دخل!",
+        "en": "One week in, and the trousers that would not fasten, fastened"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "kNgLc0AB7RE",
+      "orientation": "portrait",
+      "title": {
+        "ar": "8 كيلو في أسبوعين.. والأكل العاطفي وقف خالص",
+        "en": "8 kg in a fortnight, and the emotional eating stopped"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "Mxpf2u5WnbI",
+      "orientation": "portrait",
+      "title": {
+        "ar": "كنت خايفة أجرب.. ونزلت 17 كيلو!",
+        "en": "She was afraid to try, and lost 17 kg"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "alNjAIh2iw4",
+      "orientation": "portrait",
+      "title": {
+        "ar": "10 كيلو في شهر واحد ببديل التكميم.. من غير تعب",
+        "en": "10 kg in a single month, without feeling unwell"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "oeGgNBh5-g0",
+      "orientation": "portrait",
+      "title": {
+        "ar": "4 كيلو في أسبوع من غير أي تعب ولا أعراض",
+        "en": "4 kg in a week with no side effects"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "vtdsYTRWagc",
+      "orientation": "portrait",
+      "title": {
+        "ar": "9 كيلو في شهر على أقل جرعة ممكنة!",
+        "en": "9 kg in a month on the lowest possible dose"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "7zXfdm6eTCU",
+      "orientation": "portrait",
+      "title": {
+        "ar": "4 كيلو في أسبوع واحد و5 سم من البطن!",
+        "en": "4 kg in one week and 5 cm off the abdomen"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "mixEju3NkqE",
+      "orientation": "portrait",
+      "title": {
+        "ar": "من 108 لـ 90 كيلو في شهرين بس!",
+        "en": "From 108 kg to 90 kg in two months"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "Aa3WE-NFVrs",
+      "orientation": "portrait",
+      "title": {
+        "ar": "من 65 لـ 57 كيلو.. والفستان بقى مظبوط!",
+        "en": "From 65 kg to 57 kg, and the dress fits"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "SzAAPNS2pB8",
+      "orientation": "portrait",
+      "title": {
+        "ar": "نزلت أكتر من 30 كيلو ببديل التكميم",
+        "en": "More than 30 kg lost without surgery"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "5x4_rLlqIzI",
+      "orientation": "portrait",
+      "title": {
+        "ar": "نسبة الدهون من 29% لـ 21% ومرحلة التثبيت",
+        "en": "Body fat from 29% to 21%, and into maintenance"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "5j0f0a88s_M",
+      "orientation": "portrait",
+      "title": {
+        "ar": "جاي من الأقصر عشان ينزل 16 كيلو!",
+        "en": "He travelled from Luxor and lost 16 kg"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "vsgaUFVozds",
+      "orientation": "portrait",
+      "title": {
+        "ar": "نزلت 10 كيلو من غير ما تخسر عضلاتها! إزاي؟",
+        "en": "10 kg down without losing muscle: how"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "1o2M_POhKSQ",
+      "orientation": "portrait",
+      "title": {
+        "ar": "10 كيلو في 4 أسابيع و13 سم من البطن!",
+        "en": "10 kg in 4 weeks and 13 cm off the abdomen"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "hu02egG73pE",
+      "orientation": "portrait",
+      "title": {
+        "ar": "بعد الجواز والخلفة.. نزلت 11 كيلو في 7 أسابيع",
+        "en": "After marriage and childbirth: 11 kg in 7 weeks"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    },
+    {
+      "youtubeId": "m4xZU-qc3wk",
+      "orientation": "portrait",
+      "title": {
+        "ar": "من 111 لـ 102 كيلو في 6 أسابيع من غير مجهود",
+        "en": "From 111 kg to 102 kg in 6 weeks"
+      },
+      "caption": {
+        "ar": "تجربة حقيقية من قناة عيادات لاروز على يوتيوب.",
+        "en": "A real patient's own video, from La Rose's YouTube channel."
+      }
+    }
+  ],
+  "screenshots": [],
+  "pending": {
+    "_note": "Reviews submitted through the site land here for moderation. Nothing in this array is published until an editor approves it in the dashboard.",
+    "items": []
+  },
+  "beforeAfter": {
+    "_note": "Thirteen pairs of REAL patient photographs, cut from the branded cards the clinic supplied in 'before and after images/'. The card puts After on the LEFT and Before on the RIGHT; the crop follows that, not the file order. Each carries sample:false and consent:true and renders without the Sample badge. Add new pairs from the dashboard, and only with written patient consent.",
+    "pairs": [
+      {
+        "slug": "pair-1",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-1-before.webp",
+        "after": "assets/img/before-after/pair-1-after.webp",
+        "specialty": "weight-management",
+        "alt": {
+          "ar": "قبل وبعد لمتابع في برنامج إنقاص الوزن، من صور العيادة",
+          "en": "Before and after for a weight-management patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-2",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-2-before.webp",
+        "after": "assets/img/before-after/pair-2-after.webp",
+        "specialty": "weight-management",
+        "alt": {
+          "ar": "قبل وبعد لمتابع في برنامج إنقاص الوزن، من صور العيادة",
+          "en": "Before and after for a weight-management patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-3",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-3-before.webp",
+        "after": "assets/img/before-after/pair-3-after.webp",
+        "specialty": "clinical-nutrition",
+        "alt": {
+          "ar": "قبل وبعد لمتابع في خطة التغذية العلاجية، من صور العيادة",
+          "en": "Before and after for a clinical nutrition patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-4",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-4-before.webp",
+        "after": "assets/img/before-after/pair-4-after.webp",
+        "specialty": "clinical-nutrition",
+        "alt": {
+          "ar": "قبل وبعد لمتابع في خطة التغذية العلاجية، من صور العيادة",
+          "en": "Before and after for a clinical nutrition patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-5",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-5-before.webp",
+        "after": "assets/img/before-after/pair-5-after.webp",
+        "specialty": "weight-management",
+        "alt": {
+          "ar": "قبل وبعد لمتابعة إنقاص الوزن، من صور العيادة",
+          "en": "Before and after for a weight-management patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-6",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-6-before.webp",
+        "after": "assets/img/before-after/pair-6-after.webp",
+        "specialty": "weight-management",
+        "alt": {
+          "ar": "قبل وبعد لمتابعة إنقاص الوزن، من صور العيادة",
+          "en": "Before and after for a weight-management patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-7",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-7-before.webp",
+        "after": "assets/img/before-after/pair-7-after.webp",
+        "specialty": "clinical-nutrition",
+        "alt": {
+          "ar": "قبل وبعد لحالة تغذية إكلينيكية، من صور العيادة",
+          "en": "Before and after for a clinical nutrition patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-8",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-8-before.webp",
+        "after": "assets/img/before-after/pair-8-after.webp",
+        "specialty": "weight-management",
+        "alt": {
+          "ar": "قبل وبعد لمتابعة إنقاص الوزن، من صور العيادة",
+          "en": "Before and after for a weight-management patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-9",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-9-before.webp",
+        "after": "assets/img/before-after/pair-9-after.webp",
+        "specialty": "clinical-nutrition",
+        "alt": {
+          "ar": "قبل وبعد لحالة تغذية إكلينيكية، من صور العيادة",
+          "en": "Before and after for a clinical nutrition patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-10",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-10-before.webp",
+        "after": "assets/img/before-after/pair-10-after.webp",
+        "specialty": "weight-management",
+        "alt": {
+          "ar": "قبل وبعد لمتابعة إنقاص الوزن، من صور العيادة",
+          "en": "Before and after for a weight-management patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-11",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-11-before.webp",
+        "after": "assets/img/before-after/pair-11-after.webp",
+        "specialty": "clinical-nutrition",
+        "alt": {
+          "ar": "قبل وبعد لحالة تغذية إكلينيكية، من صور العيادة",
+          "en": "Before and after for a clinical nutrition patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-12",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-12-before.webp",
+        "after": "assets/img/before-after/pair-12-after.webp",
+        "specialty": "weight-management",
+        "alt": {
+          "ar": "قبل وبعد لمتابعة إنقاص الوزن، من صور العيادة",
+          "en": "Before and after for a weight-management patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "slug": "pair-13",
+        "sample": false,
+        "consent": true,
+        "before": "assets/img/before-after/pair-13-before.webp",
+        "after": "assets/img/before-after/pair-13-after.webp",
+        "specialty": "clinical-nutrition",
+        "alt": {
+          "ar": "قبل وبعد لحالة تغذية إكلينيكية، من صور العيادة",
+          "en": "Before and after for a clinical nutrition patient, from the clinic's own photographs"
+        },
+        "orientation": "portrait"
+      }
+    ]
+  }
+}

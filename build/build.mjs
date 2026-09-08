@@ -1,0 +1,266 @@
+#!/usr/bin/env node
+/* ==========================================================================
+   LA ROSE WELLNESS HUB — static site generator
+   --------------------------------------------------------------------------
+   Reads content/*.json, writes site/**.html.
+   Run:  node build/build.mjs
+   ========================================================================== */
+
+import fs from "node:fs";
+import path from "node:path";
+import { loadContent, LOCALES, OUT_DIR, ROOT, t, esc, published } from "./lib/util.mjs";
+import { jsonLd } from "./lib/shell.mjs";
+
+import { renderHome } from "./pages/home.mjs";
+
+const PAGE_MODULES = [
+  // Each module exports `pages(ctx)` returning [{ path, html }].
+  // Added as they are built; the home page is wired directly below.
+  "./pages/specialties.mjs",
+  "./pages/doctors.mjs",
+  "./pages/branches.mjs",
+  "./pages/articles.mjs",
+  "./pages/digital.mjs",
+  "./pages/about.mjs",
+  "./pages/patients.mjs",
+  "./pages/legal.mjs",
+  "./pages/tools.mjs",
+  "./pages/home-visits.mjs",
+  "./pages/recipe-guide.mjs",
+  "./pages/misc.mjs",
+];
+
+const written = [];
+
+function out(p, html) {
+  const full = path.join(OUT_DIR, p);
+  fs.mkdirSync(path.dirname(full), { recursive: true });
+  fs.writeFileSync(full, html, "utf8");
+  written.push(p);
+}
+
+/* --------------------------------------------------------------------------
+   Root language gate — site/index.html
+   A no-JS-dependent redirect that still shows a usable choice if the meta
+   refresh is blocked.
+   -------------------------------------------------------------------------- */
+function rootIndex(c) {
+  const s = c.site;
+  const base = `https://${s.brand.domain}`;
+  const title = `${t(s.brand.name, "ar")} | ${t(s.brand.name, "en")}`;
+  /* The tagline is brand copy, four words long, and it was doing duty as this
+     page's meta description. A language gate still gets one shot in a result
+     listing, so it says what the clinic actually offers. Built from the live
+     specialty list, so it cannot drift out of date the way a literal would. */
+  // Six is what fits inside a description; the rest are one click away.
+  const offering = published(c.specialties || [])
+    .slice(0, 6).map((sp) => t(sp.short || sp.name, "ar")).join("، ");
+  const description = `عيادات لاروز التخصصية في المعادي الجديدة: ${offering}. اختار لغتك وابدأ من الكشف المناسب لحالتك.`;
+  const socialImage = `${base}/assets/img/clinic/hero-clinic-1200.webp`;
+  return `<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(title)}</title>
+<meta name="description" content="${esc(description)}">
+<link rel="canonical" href="${base}/">
+<link rel="alternate" hreflang="ar" href="${base}/ar/">
+<link rel="alternate" hreflang="en" href="${base}/en/">
+<link rel="alternate" hreflang="x-default" href="${base}/ar/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="${esc(t(s.brand.name, "ar"))}">
+<meta property="og:locale" content="ar_EG">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:title" content="${esc(title)}">
+<meta property="og:description" content="${esc(description)}">
+<meta property="og:url" content="${base}/">
+<meta property="og:image" content="${socialImage}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(description)}">
+<meta name="twitter:image" content="${socialImage}">
+<meta http-equiv="refresh" content="0; url=ar/index.html">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<style>
+  body { min-height:100vh; display:grid; place-items:center; background:var(--olive-900); }
+  .gate { text-align:center; padding:2rem; }
+  .gate img { height:5.5rem; width:auto; margin-inline:auto; opacity:.94; }
+  .gate__actions { display:flex; gap:1rem; justify-content:center; margin-top:2.5rem; flex-wrap:wrap; }
+  .gate p { color:rgba(246,244,236,.6); font-size:var(--t-xs); margin-top:2rem; }
+</style>
+${jsonLd({ c, locale: "ar", pagePath: "index.html", canonicalUrl: `${base}/` })}
+</head>
+<body>
+  <div class="gate">
+    <h1 class="visually-hidden">${esc(title)}</h1>
+    <img src="assets/img/logo/larose-wordmark-white.png" alt="${esc(t(s.brand.name, "en"))}" width="984" height="849">
+    <div class="gate__actions">
+      <a class="btn btn--on-dark btn--lg" href="ar/index.html" lang="ar" dir="rtl">العربية</a>
+      <a class="btn btn--on-dark btn--lg" href="en/index.html" lang="en" dir="ltr">English</a>
+    </div>
+    <p>${esc(t(s.brand.kind, "ar"))} · ${esc(t(s.brand.kind, "en"))}</p>
+  </div>
+</body>
+</html>`;
+}
+
+/* --------------------------------------------------------------------------
+   robots.txt + sitemap.xml + llms.txt
+   -------------------------------------------------------------------------- */
+function sitemap(c, paths) {
+  const base = `https://${c.site.brand.domain}`;
+  const dateParts = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
+    timeZone: "Africa/Cairo", year: "numeric", month: "2-digit", day: "2-digit",
+  }).formatToParts(new Date()).filter((part) => part.type !== "literal").map((part) => [part.type, part.value]));
+  const today = `${dateParts.year}-${dateParts.month}-${dateParts.day}`;
+  const xml = (value) => String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  const publicUrl = (p) => p === "index.html"
+    ? `${base}/`
+    : `${base}/${p.replace(/index\.html$/, "")}`;
+  const lastmod = (p) => {
+    const match = /^(?:ar|en)\/articles\/([^/]+)\.html$/.exec(p);
+    if (!match) return today;
+    const entry = (c.articles.articles || []).find((item) => t(item.slug, "en") === match[1]);
+    const date = t(entry?.updatedAt, "en") || t(entry?.dateModified, "en") || t(entry?.date, "en");
+    return /^\d{4}-\d{2}-\d{2}/.test(date) ? date.slice(0, 10) : today;
+  };
+  const urls = paths
+    .filter((p) => p.endsWith(".html") && !p.includes("/404"))
+    .map((p) => {
+      const localeMatch = /^(ar|en)\/(.*)$/.exec(p);
+      const withinLocale = localeMatch ? localeMatch[2] : "index.html";
+      const arLoc = `${base}/ar/${withinLocale.replace(/index\.html$/, "")}`;
+      const enLoc = `${base}/en/${withinLocale.replace(/index\.html$/, "")}`;
+      const priority = p === "index.html" || (p.endsWith("index.html") && p.split("/").length === 2) ? "1.0" : "0.7";
+      return `  <url>
+    <loc>${xml(publicUrl(p))}</loc>
+    <lastmod>${lastmod(p)}</lastmod>
+    <priority>${priority}</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="${xml(arLoc)}"/>
+    <xhtml:link rel="alternate" hreflang="en" href="${xml(enLoc)}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${xml(arLoc)}"/>
+  </url>`;
+    })
+    .join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${urls}
+</urlset>`;
+}
+
+function llms(c) {
+  const s = c.site;
+  const locale = "en";
+  const base = `https://${s.brand.domain}`;
+  const oneLine = (value) => String(value || "").replace(/—/g, ":").replace(/\s+/g, " ").trim();
+  const short = (value, limit = 180) => {
+    const text = oneLine(value);
+    if (text.length <= limit) return text;
+    const cut = text.lastIndexOf(" ", limit - 1);
+    return `${text.slice(0, cut > 0 ? cut : limit - 1)}…`;
+  };
+  const pageUrl = (href) => `${base}/${locale}/${String(href).replace(/^\/+/, "").replace(/index\.html$/, "")}`;
+  const line = (label, href, description) => `- [${oneLine(label)}](${pageUrl(href)}): ${short(description)}`;
+  const nav = (key) => s.nav.find((item) => item.key === key);
+  const knowledge = nav("articles");
+  const patients = nav("patients");
+
+  const sections = [
+    "# " + oneLine(t(s.brand.name, locale)),
+    "",
+    "> " + oneLine(t(s.footer.blurb, locale) || t(s.brand.tagline, locale)),
+    "",
+    "## Specialties",
+    "",
+    ...published(c.specialties).map((sp) => line(t(sp.name, locale), `specialties/${sp.slug}.html`, t(sp.sub, locale) || t(sp.intro, locale))),
+    "",
+    "## Doctors",
+    "",
+    ...published(c.doctors).filter((doctor) => !doctor.sample).map((doctor) => line(t(doctor.name, locale), `doctors/${doctor.slug}.html`, t(doctor.title, locale) || t(doctor.bio, locale))),
+    "",
+    "## Branches",
+    "",
+    ...published(c.branches).map((branch) => line(t(branch.name, locale), `branches/${branch.slug}.html`, t(branch.intro, locale) || t(branch.address, locale))),
+    "",
+    "## Knowledge Centre",
+    "",
+    ...(knowledge?.children || []).map((item) => line(t(item.label, locale), item.href, t(item.desc, locale))),
+    "",
+    "## Patient Guide",
+    "",
+    ...(patients?.children || []).map((item) => line(t(item.label, locale), item.href, t(item.desc, locale))),
+    "",
+  ];
+  return sections.join("\n");
+}
+
+/* --------------------------------------------------------------------------
+   Main
+   -------------------------------------------------------------------------- */
+async function main() {
+  const started = Date.now();
+  const c = loadContent();
+
+  // The advice pool is a generated public asset, not page content. Keep one
+  // canonical copy in content/ and emit the browser payload on every build.
+  const tipsOut = path.join(OUT_DIR, "assets", "data", "tips.json");
+  fs.mkdirSync(path.dirname(tipsOut), { recursive: true });
+  fs.writeFileSync(tipsOut, `${JSON.stringify(c.tips)}\n`, "utf8");
+
+  // Clean only the generated locale trees; assets are hand-managed.
+  for (const loc of LOCALES) {
+    const dir = path.join(OUT_DIR, loc);
+    if (fs.existsSync(dir)) fs.rmSync(dir, { recursive: true, force: true });
+  }
+
+  // Home
+  for (const locale of LOCALES) {
+    out(`${locale}/index.html`, renderHome({ c, locale }));
+  }
+
+  // Optional page modules — skipped silently until they exist
+  for (const mod of PAGE_MODULES) {
+    const abs = path.join(ROOT, "build", mod.replace("./", ""));
+    if (!fs.existsSync(abs)) continue;
+    const m = await import(`file://${abs.replace(/\\/g, "/")}`);
+    if (typeof m.pages !== "function") {
+      console.warn(`  ! ${mod} has no exported pages(ctx) — skipped`);
+      continue;
+    }
+    for (const locale of LOCALES) {
+      for (const p of m.pages({ c, locale })) out(p.path, p.html);
+    }
+  }
+
+  // Root gate and crawler files
+  out("index.html", rootIndex(c));
+  fs.writeFileSync(
+    path.join(OUT_DIR, "robots.txt"),
+    `User-agent: *\nAllow: /\nDisallow: /_viewport.html\n\nSitemap: https://${c.site.brand.domain}/sitemap.xml\n`,
+    "utf8"
+  );
+  fs.writeFileSync(path.join(OUT_DIR, "sitemap.xml"), sitemap(c, written), "utf8");
+  fs.writeFileSync(path.join(OUT_DIR, "llms.txt"), llms(c), "utf8");
+
+  const ms = Date.now() - started;
+  console.log(`\n  La Rose — built ${written.length} pages in ${ms}ms\n`);
+  const byDir = written.reduce((acc, p) => {
+    const k = p.split("/").slice(0, 2).join("/").replace(/\.html$/, "");
+    acc[k] = (acc[k] || 0) + 1;
+    return acc;
+  }, {});
+  for (const [k, v] of Object.entries(byDir)) console.log(`    ${k.padEnd(28)} ${v}`);
+  console.log("");
+}
+
+main().catch((e) => {
+  console.error("\n  BUILD FAILED\n");
+  console.error(e);
+  process.exit(1);
+});

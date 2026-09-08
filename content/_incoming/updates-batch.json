@@ -1,0 +1,1352 @@
+{
+ "updates": [
+  {
+   "slug": "supplements-are-targeted-not-a-default",
+   "title": {
+    "ar": "تحديث علمي: المكملات تتاخد لسبب واضح، مش كروتين للجميع",
+    "en": "Scientific update: supplements should answer a clear need, not become a default"
+   },
+   "excerpt": {
+    "ar": "المكمل ممكن يسد احتياجاً محدداً، لكنه ما يعوضش تنوع الأكل، ووجوده للبيع مش دليل إنه مناسب لكل شخص.",
+    "en": "A supplement can meet a specific need, but it cannot replace dietary variety, and being on sale does not make it suitable for everyone."
+   },
+   "category": "clinical-nutrition",
+   "specialties": [
+    "clinical-nutrition",
+    "internal-medicine"
+   ],
+   "tags": {
+    "ar": [
+     "المكملات الغذائية",
+     "نقص العناصر",
+     "سلامة التغذية"
+    ],
+    "en": [
+     "dietary supplements",
+     "nutrient deficiency",
+     "nutrition safety"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-26",
+   "readingTime": 2,
+   "author": "shimaa-fouad",
+   "reviewedBy": "mohab-ashraf",
+   "image": "assets/img/articles/clinical-nutrition-3.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "what-settled",
+     "heading": {
+      "ar": "إيه اللي استقر؟",
+      "en": "What has settled"
+     },
+     "body": {
+      "ar": "مكتب المكملات الغذائية في المعاهد الصحية الأمريكية واضح: بعض المكملات تساعد لما الأكل ما يغطيش احتياجاً معيناً أو في مرحلة صحية لها احتياج خاص، لكنها ما تاخدش مكان تنوع الأكل. وكلمة «طبيعي» أو وجود المنتج على الرف ما يثبتوش إنه مفيد أو مناسب ليك.\n\nالقرار الأفضل يبدأ من سبب الاستخدام، أكلك، أعراضك، أدويتك، وأي تحليل له داعي. التعب أو تساقط الشعر مثلاً لهم أسباب كتير، فبدء مجموعة مكملات عشوائية ممكن يضيّع وقت التشخيص أو يتداخل مع علاج أو تحليل.",
+      "en": "The US National Institutes of Health Office of Dietary Supplements is clear: supplements can help when food does not cover a particular need or a life stage creates a specific requirement, but they do not replace dietary variety. A product being labelled ‘natural’ or simply being available does not prove that it will help or suit you.\n\nA better decision starts with the reason for use, your diet, symptoms, medicines and any test that is actually indicated. Fatigue or hair loss, for example, has many possible causes. Starting a collection of supplements at random can delay diagnosis or interfere with a treatment or test."
+     }
+    },
+    {
+     "id": "practical-check",
+     "heading": {
+      "ar": "حوّل العبوات لقائمة مفهومة",
+      "en": "Turn the bottles into a useful list"
+     },
+     "body": {
+      "ar": "صوّر اسم كل منتج ومكوناته وجرعته، واكتب ليه بدأته ومين نصحك بيه. خد القائمة للطبيب أو أخصائي التغذية، خصوصاً لو بتاخد أدوية أو عندك مرض مزمن أو داخل على تحليل أو إجراء. ما توقفش مكمل موصوف لحالة معروفة من نفسك.\n\nالهدف مش منع كل مكمل؛ الهدف إن كل واحد يبقى له سبب ومدة ومراجعة. لو السبب نقص مثبت، الخطة تراجع العلاج ومصدر النقص وإمتى إعادة التقييم بدل استمرار عبوة وراء عبوة من غير نقطة نهاية.",
+      "en": "Photograph each product name, ingredient panel and dose, then note why you started it and who advised it. Bring that list to the clinician or dietitian, especially if you take medicines, live with a chronic condition, or are preparing for a test or procedure. Do not stop a supplement prescribed for a known condition on your own.\n\nThe aim is not to reject every supplement. It is to give each one a reason, duration and review point. When a deficiency is confirmed, the plan should address treatment, the cause of the deficiency and when to reassess rather than continuing bottle after bottle without an endpoint."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "هل لازم أعمل تحاليل قبل أي مكمل؟",
+      "en": "Do I need blood tests before every supplement?"
+     },
+     "a": {
+      "ar": "لأ. بعض الاحتياجات تتحدد من المرحلة الصحية أو التاريخ الغذائي، وبعضها يحتاج تحليلاً موجهاً. الطبيب يحدد الاختبار لما نتيجته هتغيّر القرار.",
+      "en": "No. Some needs are identified from life stage or dietary history, while others require a targeted test. A clinician selects testing when the result will change the decision."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "NIH Office of Dietary Supplements، Dietary Supplements: What You Need to Know",
+     "url": "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/"
+    }
+   ]
+  },
+  {
+   "slug": "vitamin-b12-in-plant-based-eating",
+   "title": {
+    "ar": "تحديث علمي: الأكل النباتي محتاج مصدر مخطط لفيتامين ب١٢",
+    "en": "Scientific update: plant-based eating needs a planned source of vitamin B12"
+   },
+   "excerpt": {
+    "ar": "التنوع النباتي مهم، لكن فيتامين ب١٢ حالة مختلفة: الأطعمة النباتية ما توفرهوش طبيعياً إلا لو كانت مدعمة.",
+    "en": "Plant variety matters, but vitamin B12 is different: plant foods do not naturally provide it unless they are fortified."
+   },
+   "category": "clinical-nutrition",
+   "specialties": [
+    "clinical-nutrition",
+    "pediatrics"
+   ],
+   "tags": {
+    "ar": [
+     "الأكل النباتي",
+     "فيتامين ب١٢",
+     "الأطعمة المدعمة"
+    ],
+    "en": [
+     "plant-based eating",
+     "vitamin B12",
+     "fortified foods"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-25",
+   "readingTime": 2,
+   "author": "shimaa-fouad",
+   "reviewedBy": "alyaa-abu-taleb",
+   "image": "assets/img/articles/clinical-nutrition-2.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "b12-exception",
+     "heading": {
+      "ar": "ليه ب١٢ محتاج انتباه مخصوص؟",
+      "en": "Why B12 needs particular attention"
+     },
+     "body": {
+      "ar": "نشرة المعاهد الصحية الأمريكية توضح إن المصادر الطبيعية لفيتامين ب١٢ موجودة في أطعمة حيوانية، وإن الأطعمة النباتية ما يبقاش فيها الفيتامين إلا لما تكون مدعمة. عشان كده النظام النباتي الصرف محتاج مصدراً موثوقاً ومستمراً من طعام مدعم أو مكمل مناسب، مش مجرد زيادة تنوع الخضار والبقول.\n\nالنقص ممكن يظهر كتعب أو أنيميا، وممكن يأثر على الأعصاب حتى من غير أنيميا واضحة. وفي الحمل والرضاعة والطفولة، التخطيط مهم كمان لأن احتياج الأم والطفل يدخلوا في الصورة. ده مش حكم ضد الأكل النباتي؛ هو جزء معروف من تخطيطه الصح.",
+      "en": "The US National Institutes of Health fact sheet explains that natural vitamin B12 sources are animal foods, while plant foods contain it only when fortified. A fully vegan pattern therefore needs a reliable, continuing source from fortified food or an appropriate supplement; adding more vegetables and pulses alone does not solve this particular gap.\n\nDeficiency may appear as fatigue or anaemia and can affect the nervous system even without obvious anaemia. Planning deserves extra attention in pregnancy, breastfeeding and childhood because both parent and child needs may be relevant. This is not an argument against plant-based eating; it is a well-established part of planning it safely."
+     }
+    },
+    {
+     "id": "plan-the-source",
+     "heading": {
+      "ar": "خطط للمصدر بدل التخمين",
+      "en": "Plan the source instead of guessing"
+     },
+     "body": {
+      "ar": "راجع ملصق الأطعمة المدعمة والمكملات عشان تعرف هل فيها ب١٢ فعلاً، وما تعتمدش على اسم المنتج أو شكله. الجرعة وطريقة التعويض تختلف حسب السن، الأكل، وجود نقص، وأي مشكلة في المعدة أو الأمعاء أو عملية سابقة.\n\nلو عندك تنميل، ضعف، مشكلة اتزان، أنيميا غير مفسرة أو أكل نباتي صرف من غير مصدر ثابت، اطلب تقييماً بدل تجربة جرعات عشوائية. وخد قائمة الأكل والمكملات للزيارة عشان الخطة تتبني على اللي بتاخده فعلاً.",
+      "en": "Check the labels of fortified foods and supplements to confirm that they actually contain B12; do not rely on a product name or appearance. Dose and route vary with age, diet, confirmed deficiency, stomach or bowel conditions and previous surgery.\n\nSeek an assessment if you have numbness, weakness, balance problems, unexplained anaemia, or a fully vegan diet without a reliable source. Bring a food and supplement list so the plan reflects what you actually take rather than an assumed diet."
+     }
+    }
+   ],
+   "faq": [],
+   "sources": [
+    {
+     "label": "NIH Office of Dietary Supplements، Vitamin B12 Fact Sheet for Consumers",
+     "url": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/"
+    }
+   ]
+  },
+  {
+   "slug": "weight-medicines-are-not-a-short-course",
+   "title": {
+    "ar": "تحديث علمي: أدوية تنظيم الشهية مش كورس قصير له نهاية واحدة للجميع",
+    "en": "Scientific update: appetite-regulating weight medicines are not one short course for everyone"
+   },
+   "excerpt": {
+    "ar": "علاج الوزن الدوائي ممكن يكون طويل المدى، وعودة جزء من الوزن بعد التوقف استجابة بيولوجية معروفة مش ضعف إرادة.",
+    "en": "Medical weight treatment may be long term, and some regain after stopping is a recognised biological response, not a failure of willpower."
+   },
+   "category": "weight-management",
+   "specialties": [
+    "weight-management",
+    "clinical-nutrition",
+    "internal-medicine"
+   ],
+   "tags": {
+    "ar": [
+     "أدوية تنظيم الشهية",
+     "ثبات الوزن",
+     "المتابعة طويلة المدى"
+    ],
+    "en": [
+     "appetite-regulating medicines",
+     "weight maintenance",
+     "long-term follow-up"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-24",
+   "readingTime": 2,
+   "author": "shimaa-fouad",
+   "reviewedBy": "mohab-ashraf",
+   "image": "assets/img/articles/glp1-medication-guide.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "chronic-care",
+     "heading": {
+      "ar": "الفكرة اتغيرت من كورس لرعاية مستمرة",
+      "en": "The model has shifted from a course to continuing care"
+     },
+     "body": {
+      "ar": "المعهد الأمريكي للسكر والهضم والكلى يوضح إن بعض أدوية إدارة الوزن معمولة للاستخدام طويل المدى طالما الشخص مستفيد ومفيش آثار جانبية خطيرة. مدة العلاج ما تتحددش من قلم خلص أو مناسبة عدت؛ تتحدد من الفائدة، التحمل، الصحة العامة، والبدائل المتاحة.\n\nبعد وقف الدواء، رجوع جزء من الوزن شائع لأن تأثيره على الجوع والشبع ما يبقاش موجود بنفس الصورة. ده ما يثبتش إن العلاج فشل ولا إن الشخص «ما عندوش إرادة». لكنه يثبت إن خطة الإيقاف والمحافظة محتاجة نقاش قبل آخر جرعة، مش بعد ما الوزن يبدأ يرجع.",
+      "en": "The US National Institute of Diabetes and Digestive and Kidney Diseases explains that some weight-management medicines are intended for long-term use while they remain beneficial and do not cause serious side effects. Duration is not decided by an empty pen or a passed event; it depends on benefit, tolerance, overall health and available alternatives.\n\nSome weight regain is common after treatment stops because its effect on hunger and fullness is no longer present in the same way. That does not prove that treatment failed or that a person lacks willpower. It does mean that stopping and maintenance should be discussed before the last dose, not only after weight begins to return."
+     }
+    },
+    {
+     "id": "review-before-change",
+     "heading": {
+      "ar": "قرار الاستمرار أو التوقف مراجعة طبية",
+      "en": "Continuing or stopping is a clinical review"
+     },
+     "body": {
+      "ar": "المراجعة تسأل: هل الدواء حقق فائدة صحية؟ هل الأكل والبروتين والسوائل كفاية؟ هل ظهرت أعراض جانبية؟ وهل فيه حمل مخطط أو مرض أو دواء جديد يغير القرار؟ كمان تتراجع الحركة والنوم والمحفزات اللي بتأثر على الأكل.\n\nما توقفش العلاج أو ترجع له أو تغيّر الجرعة من نفسك. اتفق مع الطبيب على علامات تستدعي تواصلاً مبكراً وعلى خطة متابعة بعد أي تغيير. الهدف مش البقاء على دواء بأي ثمن ولا إيقافه بأسرع وقت؛ الهدف اختيار المسار الأكثر أماناً وفائدة لحالتك.",
+      "en": "Review asks whether the medicine has produced a health benefit, whether food, protein and fluids remain adequate, whether side effects have appeared, and whether pregnancy planning, illness or a new medicine changes the decision. Movement, sleep and eating triggers also remain part of the plan.\n\nDo not stop, restart or alter a dose on your own. Agree with the clinician on signs that need earlier contact and on follow-up after any change. The aim is neither to remain on medicine at any cost nor to stop as quickly as possible; it is to choose the safest, most useful path for your situation."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "هل رجوع الوزن بعد التوقف معناه إدمان؟",
+      "en": "Does weight regain after stopping mean dependence?"
+     },
+     "a": {
+      "ar": "لأ. رجوع الشهية أو الوزن مش هو الإدمان. الطبيب يراجع الاستجابة والسبب وخيارات المتابعة من غير وصم أو لوم.",
+      "en": "No. The return of appetite or weight is not addiction. A clinician reviews the response, likely causes and follow-up options without stigma or blame."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "NIDDK، Prescription Medications to Treat Overweight and Obesity",
+     "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
+    }
+   ]
+  },
+  {
+   "slug": "movement-benefits-beyond-the-scale",
+   "title": {
+    "ar": "تحديث علمي: الحركة لها مكاسب صحية حتى لو الميزان ما اتحركش كتير",
+    "en": "Scientific update: movement has health benefits even when the scale barely changes"
+   },
+   "excerpt": {
+    "ar": "فائدة النشاط ما تتقاسش بالوزن وحده؛ القلب والسكر والنوم والمزاج والعضلات ممكن يستفيدوا من الحركة المنتظمة.",
+    "en": "Activity is not judged by weight alone; regular movement can benefit the heart, glucose, sleep, mood and muscle."
+   },
+   "category": "weight-management",
+   "specialties": [
+    "weight-management",
+    "clinical-nutrition"
+   ],
+   "tags": {
+    "ar": [
+     "النشاط البدني",
+     "صحة العضلات",
+     "إدارة الوزن"
+    ],
+    "en": [
+     "physical activity",
+     "muscle health",
+     "weight management"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-23",
+   "readingTime": 2,
+   "author": "shimaa-fouad",
+   "reviewedBy": "mohab-ashraf",
+   "image": "assets/img/articles/weight-management-3.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "more-than-calories",
+     "heading": {
+      "ar": "الحركة مش عقاب للأكل",
+      "en": "Movement is not punishment for eating"
+     },
+     "body": {
+      "ar": "منظمة الصحة العالمية تلخص فوائد ثابتة للنشاط البدني تشمل صحة القلب والتمثيل الغذائي والنوم والمزاج والقدرة العضلية. عشان كده جلسة الحركة ما تبقاش «ملهاش لازمة» لمجرد إن الميزان ما نزلش بعدها أو إن تطبيق السعرات ما سجّلش رقماً كبيراً.\n\nالميزان يتأثر بالمياه والهضم وتوقيت القياس، بينما اللياقة والقوة والقدرة على المشي أو طلوع السلم ممكن تتحسن في مسار مختلف. نجاح خطة الوزن يتابع أكتر من علامة، ويحافظ على العضلات بدل اختزال الحركة في حرق وجبة.",
+      "en": "The World Health Organization summarises established benefits of physical activity for cardiovascular and metabolic health, sleep, mood and muscular function. A movement session is therefore not ‘wasted’ because the scale did not fall afterwards or a calorie app showed a modest number.\n\nBody weight is affected by fluid, digestion and measurement timing, while fitness, strength and the ability to walk or climb stairs can improve on a different timeline. A sound weight plan follows more than one marker and uses movement to preserve function rather than reduce it to paying for a meal."
+     }
+    },
+    {
+     "id": "buildable-plan",
+     "heading": {
+      "ar": "ابدأ من حركة تقدر تكررها",
+      "en": "Begin with movement you can repeat"
+     },
+     "body": {
+      "ar": "المشي، العجلة، شغل البيت والحركة في اليوم كلهم نشاط، والتمرين المنظم اختيار مهم لكنه مش الشكل الوحيد. ابدأ بقدر يناسب لياقتك ومفاصلك، وزوّد بالتدريج. إضافة مقاومة مناسبة تساعد العضلات، لكن الخطة تتعدل لو عندك ألم أو دوخة أو مرض قلبي أو صعوبة تنفس.\n\nسجل القدرة والطاقة والنوم جنب الوزن. لو نشاط بسيط بيسبب ألم صدر، إغماء أو ضيق نفس غير معتاد، وقف واطلب تقييماً طبياً. الحركة مفيدة لما تكون آمنة وقابلة للاستمرار، مش لما تتحول لاختبار قاسٍ.",
+      "en": "Walking, cycling, housework and movement across the day all count as activity; structured exercise matters but is not the only form. Start at a level that suits your fitness and joints, then build gradually. Appropriate resistance work can support muscle, but the plan needs adapting if you have pain, dizziness, heart disease or breathing difficulty.\n\nRecord function, energy and sleep alongside weight. Stop and seek medical assessment if light activity causes chest pain, fainting or unusual breathlessness. Movement helps when it is safe and repeatable, not when it becomes a punishing test."
+     }
+    }
+   ],
+   "faq": [],
+   "sources": [
+    {
+     "label": "WHO، Physical activity fact sheet",
+     "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+    }
+   ]
+  },
+  {
+   "slug": "mesotherapy-needs-an-ingredient-level-check",
+   "title": {
+    "ar": "تحديث علمي: في الميزوثيرابي، لازم تعرف إيه اللي هيتحقن وفين",
+    "en": "Scientific update: with mesotherapy, the injected substance and site must be clear"
+   },
+   "excerpt": {
+    "ar": "كلمة ميزوثيرابي وحدها ما تقولش مكونات الحقن أو وضعها التنظيمي أو المنطقة المقصودة؛ السلامة تبدأ من التفاصيل دي.",
+    "en": "The word mesotherapy alone does not identify the injection, its regulatory status or the intended area; safety starts with those details."
+   },
+   "category": "body-contouring",
+   "specialties": [
+    "body-contouring",
+    "dermatology"
+   ],
+   "tags": {
+    "ar": [
+     "الميزوثيرابي",
+     "سلامة الحقن",
+     "الدهون الموضعية"
+    ],
+    "en": [
+     "mesotherapy",
+     "injection safety",
+     "localised fat"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-22",
+   "readingTime": 2,
+   "author": "shimaa-fouad",
+   "reviewedBy": "mohab-ashraf",
+   "image": "assets/img/articles/bodycontour-1.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "name-is-not-enough",
+     "heading": {
+      "ar": "اسم الجلسة مش وصف كافي",
+      "en": "A session name is not enough information"
+     },
+     "body": {
+      "ar": "هيئة الغذاء والدواء الأمريكية حذرت من حقن إذابة دهون غير معتمدة ومن حقن منتجات مشتراة أونلاين أو استخدامها من غير مقدم رعاية مؤهل. التحذير مهم لأن كلمة ميزوثيرابي ممكن تتقال على تركيبات مختلفة، بينما السلامة والفعالية والوضع التنظيمي مرتبطين بالمنتج نفسه، مكان الاستخدام وطريقة الحقن.\n\nقبل أي قرار، اسأل عن الاسم الكامل للمادة، مصدرها، وضعها التنظيمي في مصر، المنطقة المقصودة، تدريب الشخص اللي هيحقنها، والتعقيم وخطة التعامل مع أي عرض جانبي. وما تعتبرش نجاح مادة في منطقة معينة دليلاً تلقائياً على إنها مناسبة لمنطقة تانية.",
+      "en": "The US Food and Drug Administration warns against unapproved fat-dissolving injections and products bought online or injected without a qualified healthcare professional. The warning matters because ‘mesotherapy’ can describe different formulations, while safety, effectiveness and regulatory status belong to the specific product, treatment area and injection method.\n\nBefore deciding, ask for the full substance name, source, regulatory status in Egypt, intended area, injector’s training, sterile process and plan for adverse effects. Evidence or authorisation for one substance in one area should never be assumed to apply automatically to another area."
+     }
+    },
+    {
+     "id": "limits-and-red-flags",
+     "heading": {
+      "ar": "الحدود وعلامات الخطر",
+      "en": "Limits and warning signs"
+     },
+     "body": {
+      "ar": "الحقن الموضعي مش علاجاً للسمنة ولا بديلاً لخطة الوزن، وما يقدرش يضمن شكلاً أو نتيجة. لازم الأول يتحدد هل المنطقة فيها دهون سطحية ولا جلد مرتخٍ أو فتق أو مشكلة تانية؛ كل واحد منهم له مسار مختلف.\n\nما تشتريش مادة للحقن بنفسك وما تقبلش عبوة من غير اسم واضح. ألم بيزيد، سخونية، احمرار بينتشر، إفرازات، تغير جلد واضح أو كتل مؤلمة مستمرة بعد الحقن محتاجين تواصلاً طبياً سريعاً، مش وصفة منزلية أو انتظار.",
+      "en": "A local injection is not a treatment for obesity or a replacement for weight care, and it cannot guarantee a shape or result. The area first needs to be understood: superficial fat, loose skin, a hernia and other causes follow different pathways.\n\nDo not buy a substance for self-injection or accept an unlabelled vial. Increasing pain, fever, spreading redness, discharge, a marked skin change or persistent painful lumps after an injection need prompt medical contact rather than a home remedy or watchful waiting."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "هل كلمة ميزوثيرابي تحدد المادة المستخدمة؟",
+      "en": "Does the word mesotherapy identify the substance used?"
+     },
+     "a": {
+      "ar": "لأ. لازم تعرف اسم المادة ومصدرها والمنطقة المخصصة لها، وتناقش فائدتها ومخاطرها ووضعها التنظيمي قبل الموافقة.",
+      "en": "No. Ask for the substance, source and intended area, then discuss its benefits, risks and regulatory status before consenting."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "FDA، Using Fat-Dissolving Injections That Are Not FDA Approved Can Be Harmful",
+     "url": "https://www.fda.gov/drugs/buying-using-medicine-safely/using-fat-dissolving-injections-are-not-fda-approved-can-be-harmful"
+    }
+   ]
+  },
+  {
+   "slug": "blood-pressure-needs-a-pattern",
+   "title": {
+    "ar": "تحديث علمي: تشخيص الضغط يعتمد على نمط قراءات، مش رقم واحد",
+    "en": "Scientific update: diagnosing high blood pressure needs a pattern, not one number"
+   },
+   "excerpt": {
+    "ar": "القراءة العالية في العيادة تتكرر بالطريقة الصح، وغالباً تتأكد بقياس منزلي منظم أو جهاز على مدار اليوم.",
+    "en": "A high clinic reading is repeated correctly and usually confirmed with structured home or ambulatory measurement."
+   },
+   "category": "internal-medicine",
+   "specialties": [
+    "internal-medicine"
+   ],
+   "tags": {
+    "ar": [
+     "ضغط الدم",
+     "القياس المنزلي",
+     "تشخيص الضغط"
+    ],
+    "en": [
+     "blood pressure",
+     "home monitoring",
+     "hypertension diagnosis"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-21",
+   "readingTime": 2,
+   "author": "mohab-ashraf",
+   "reviewedBy": "shimaa-fouad",
+   "image": "assets/img/articles/internal-medicine-2.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "confirm-the-pattern",
+     "heading": {
+      "ar": "القراءة الأولى تفتح التقييم",
+      "en": "The first reading opens the assessment"
+     },
+     "body": {
+      "ar": "إرشاد NICE للضغط ما يبنيش التشخيص المعتاد على قراءة واحدة في العيادة. القياس العالي يتكرر أثناء الزيارة، وبعيداً عن حالات الارتفاع الشديد، يتأكد عادة بجهاز متحرك على مدار اليوم أو بقياسات منزلية منظمة لو الجهاز المتحرك مش مناسب. ده يساعد يفرّق بين ضغط مستمر وتأثير القلق في العيادة، ويكشف كمان ارتفاعاً ممكن ما يظهرش وقت الكشف.\n\nجودة القراءة نفسها مهمة: جهاز موثوق، كفة مناسبة للذراع، جلوس هادي، ذراع مسنودة، ومن غير كلام أثناء القياس. رقم اتاخد بعد جري أو قهوة أو بأداة غير مناسبة ما يتقراش زي متوسط مجموعة قياسات معمولة بطريقة ثابتة.",
+      "en": "NICE hypertension guidance does not base a routine diagnosis on one clinic reading. A high result is repeated during the visit and, outside severely raised readings, is usually confirmed with ambulatory monitoring or structured home measurements when ambulatory monitoring is unsuitable. This helps distinguish sustained hypertension from a clinic-related rise and can also identify high pressure that was not visible during the appointment.\n\nMeasurement quality matters: a validated device, an appropriate cuff, quiet sitting, a supported arm and no talking. A number taken after rushing, caffeine or with an unsuitable device is not interpreted like the average of readings collected consistently."
+     }
+    },
+    {
+     "id": "home-record",
+     "heading": {
+      "ar": "اعمل سجل ينفع يتقري",
+      "en": "Make a record that can be interpreted"
+     },
+     "body": {
+      "ar": "لو الطبيب طلب قياساً منزلياً، اتفق معاه على الجهاز والمواعيد وعدد الأيام بدل القياس كل شوية وقت القلق. اكتب القراءات مع وقتها وأي أعراض وأسماء الأدوية، وما تغيّرش العلاج عشان قراءة منفردة.\n\nقراءة شديدة الارتفاع مع ألم صدر، ضيق نفس، ضعف مفاجئ، اضطراب كلام أو رؤية، أو صداع غير معتاد تحتاج تقييماً عاجلاً. فكرة «النمط مش الرقم الواحد» ما تعنيش تجاهل علامة خطر؛ معناها إن التشخيص والمتابعة اليومية يتبنوا على بيانات أحسن.",
+      "en": "If home monitoring is requested, agree on the device, times and number of days instead of measuring repeatedly whenever anxiety rises. Record readings with their time, symptoms and medicine names, and do not change treatment because of one result.\n\nA severely raised reading with chest pain, breathlessness, sudden weakness, speech or visual change, or an unusual headache needs urgent assessment. ‘The pattern, not one number’ does not mean ignoring a warning sign; it means routine diagnosis and follow-up should use better data."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "هل جهاز البيت يغني عن زيارة الطبيب؟",
+      "en": "Does a home monitor replace a clinical review?"
+     },
+     "a": {
+      "ar": "لأ. هو يضيف نمطاً مهماً، لكن الطبيب يراجع دقة الجهاز والأعراض وعوامل الخطر وتأثير الضغط على باقي الجسم.",
+      "en": "No. It adds an important pattern, but a clinician still reviews device accuracy, symptoms, risk factors and the effect of blood pressure on the rest of your health."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "NICE، Hypertension in adults: diagnosis and management",
+     "url": "https://www.nice.org.uk/guidance/ng136/chapter/Recommendations"
+    }
+   ]
+  },
+  {
+   "slug": "diabetes-remission-is-not-cure",
+   "title": {
+    "ar": "تحديث علمي: هدوء السكر اسمه تعافي مؤقت، مش شفاء نهائي",
+    "en": "Scientific update: diabetes remission is not the same as a cure"
+   },
+   "excerpt": {
+    "ar": "التوافق الدولي اختار كلمة تعافي مؤقت للسكر من النوع التاني لأن التحسن ممكن يستمر، لكن الرجوع والمضاعفات يفضلوا محتاجين متابعة.",
+    "en": "International consensus chose the term remission for type 2 diabetes because improvement can persist while recurrence and complications still require follow-up."
+   },
+   "category": "internal-medicine",
+   "specialties": [
+    "internal-medicine",
+    "weight-management",
+    "bariatric-surgery"
+   ],
+   "tags": {
+    "ar": [
+     "السكر من النوع التاني",
+     "تعافي السكر",
+     "المتابعة الدورية"
+    ],
+    "en": [
+     "type 2 diabetes",
+     "diabetes remission",
+     "ongoing monitoring"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-20",
+   "readingTime": 2,
+   "author": "mohab-ashraf",
+   "reviewedBy": "shimaa-fouad",
+   "image": "assets/img/articles/diabetes-review-whole-health.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "why-remission",
+     "heading": {
+      "ar": "ليه كلمة تعافي مؤقت أدق؟",
+      "en": "Why remission is the more accurate term"
+     },
+     "body": {
+      "ar": "توافق دولي شاركت فيه جمعيات السكر والغدد اختار كلمة «تعافي مؤقت» لما نتائج السكر ترجع تحت حد التشخيص لفترة كافية من غير أدوية خفض السكر. كلمة «شفاء» اتجنبت لأن قابلية ارتفاع السكر ممكن تفضل موجودة، والتحسن مش مضمون إنه يستمر طول العمر.\n\nالتسمية مش تقليل من الإنجاز. تحسن السكر بعد تغيير نمط الحياة أو علاج الوزن أو جراحة السمنة له قيمة حقيقية، لكنه ما يديش تصريحاً بإلغاء المتابعة أو اعتبار التاريخ المرضي اختفى.",
+      "en": "An international consensus involving diabetes and endocrine organisations selected ‘remission’ for glucose results that remain below the diagnostic threshold for a sufficient period without glucose-lowering medicine. The word ‘cure’ was avoided because the tendency towards raised glucose may remain and improvement is not guaranteed to last for life.\n\nThe terminology does not diminish the achievement. Better glucose after lifestyle change, weight treatment or bariatric surgery can be clinically meaningful, but it is not permission to cancel follow-up or erase the medical history."
+     }
+    },
+    {
+     "id": "monitoring-continues",
+     "heading": {
+      "ar": "المتابعة تفضل موجودة",
+      "en": "Monitoring continues"
+     },
+     "body": {
+      "ar": "التوافق ينصح بقياس السكر التراكمي بانتظام، مع استمرار فحوص العين والكلى والقدم والضغط والوزن حسب الخطة الطبية. السبب إن السكر ممكن يرتفع تاني، وبعض آثار الفترة السابقة تفضل مهمة حتى مع نتائج حالية ممتازة.\n\nما توقفش علاج السكر عشان قراءة كويسة أو نزول وزن من غير اتفاق طبي. لو الطبيب أكد التعافي المؤقت، اسأل عن موعد التحليل القادم، فحوص المضاعفات، وإيه التغيرات اللي تستدعي مراجعة أبكر. النجاح هنا حالة تتصان بالمتابعة، مش شهادة خروج نهائية.",
+      "en": "The consensus advises regular HbA1c measurement alongside continued eye, kidney, foot, blood-pressure and weight checks according to the clinical plan. Glucose can rise again, and effects of earlier hyperglycaemia may remain relevant even when current results are excellent.\n\nDo not stop diabetes treatment because of a good reading or weight loss without clinical agreement. If remission is confirmed, ask when the next blood test and complication checks are due and which changes need earlier review. Success here is a state to maintain with follow-up, not a final discharge certificate."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "هل نتيجة سكر تراكمي كويسة مرة واحدة تثبت التعافي؟",
+      "en": "Does one good HbA1c result prove remission?"
+     },
+     "a": {
+      "ar": "لأ. التعريف له شروط زمنية وعلاجية، والطبيب لازم يفسر النتيجة في سياق العلاج وحالات ممكن تأثر على دقة التحليل.",
+      "en": "No. The definition has timing and treatment conditions, and a clinician must interpret the result in the context of therapy and anything that may affect test accuracy."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "ADA-led international consensus، Definition and Interpretation of Remission in Type 2 Diabetes",
+     "url": "https://diabetesjournals.org/care/article/44/10/2438/138556/Consensus-Report-Definition-and-Interpretation-of"
+    }
+   ]
+  },
+  {
+   "slug": "coeliac-testing-before-gluten-free-diet",
+   "title": {
+    "ar": "تحديث علمي: ما توقفش الجلوتين قبل استكمال فحوص السيلياك",
+    "en": "Scientific update: do not stop gluten before coeliac testing is complete"
+   },
+   "excerpt": {
+    "ar": "بدء أكل خالي من الجلوتين قبل التحاليل والتقييم المتخصص ممكن يخلي النتيجة أقل دقة ويؤخر تشخيصاً واضحاً.",
+    "en": "Starting a gluten-free diet before tests and specialist assessment can make results less reliable and delay a clear diagnosis."
+   },
+   "category": "gastroenterology-hepatology",
+   "specialties": [
+    "gastroenterology-hepatology",
+    "clinical-nutrition"
+   ],
+   "tags": {
+    "ar": [
+     "السيلياك",
+     "الجلوتين",
+     "تحاليل الجهاز الهضمي"
+    ],
+    "en": [
+     "coeliac disease",
+     "gluten",
+     "digestive tests"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-19",
+   "readingTime": 2,
+   "author": "mohab-ashraf",
+   "reviewedBy": "shimaa-fouad",
+   "image": "assets/img/articles/gastro-1.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "testing-needs-gluten",
+     "heading": {
+      "ar": "الأكل نفسه جزء من دقة الاختبار",
+      "en": "Diet is part of test accuracy"
+     },
+     "body": {
+      "ar": "إرشاد NICE للسيلياك يوضح إن دقة التحاليل تعتمد على إن الشخص يكون لسه بياكل جلوتين أثناء مسار التشخيص. لو شلته بدري، الأجسام المضادة وتغيرات الأمعاء ممكن تقل، فتطلع النتيجة مطمئنة بشكل مضلل رغم وجود المشكلة.\n\nعشان كده ما تبدأش نظاماً خالياً من الجلوتين لمجرد انتفاخ أو تعب أو نصيحة من السوشيال. وحتى لو التحليل الأول إيجابي، الإرشاد ينصح بعدم بدء الحمية قبل تأكيد التشخيص عند المتخصص. الاستثناء لو الطبيب وجّهك لخطة مختلفة لسبب طبي واضح.",
+      "en": "NICE coeliac-disease guidance explains that accurate testing depends on the person still eating gluten during the diagnostic pathway. Removing it early can reduce antibodies and intestinal changes, producing falsely reassuring results despite disease.\n\nDo not begin a gluten-free diet because of bloating, fatigue or social-media advice alone. Even when an initial blood test is positive, the guidance advises waiting for specialist confirmation before starting the diet. The exception is a different plan directed by a clinician for a clear medical reason."
+     }
+    },
+    {
+     "id": "prepare-for-assessment",
+     "heading": {
+      "ar": "رتب التقييم قبل تغيير المطبخ",
+      "en": "Arrange assessment before changing the kitchen"
+     },
+     "body": {
+      "ar": "اكتب الأعراض ومدتها، وجود أنيميا أو نقص وزن، وتاريخ السيلياك أو أمراض المناعة في العيلة. قول للطبيب لو قللت الجلوتين بالفعل وقد إيه، لأن ده يغير تفسير التحليل والخطوة التالية. ما ترجعش كمية كبيرة فجأة من نفسك لو كانت بتسبب لك أعراضاً شديدة؛ خد تعليمات مناسبة.\n\nبعد تشخيص مؤكد، النظام الخالي من الجلوتين علاج جاد ومحتاج تعليم عن الملصقات والتلوث المتبادل وتوازن الغذاء. قبله، المنع العشوائي ممكن يعقّد التشخيص ويضيّق الأكل من غير داعي.",
+      "en": "Record symptoms and their duration, anaemia or weight loss, and any family history of coeliac or autoimmune disease. Tell the clinician if you have already reduced gluten and by how much, because that changes interpretation and the next step. Do not suddenly reintroduce a large amount on your own if it causes severe symptoms; obtain tailored instructions.\n\nAfter a confirmed diagnosis, a gluten-free diet is serious treatment requiring education on labels, cross-contamination and nutritional balance. Before diagnosis, unsupervised restriction can complicate testing and narrow the diet without good reason."
+     }
+    }
+   ],
+   "faq": [],
+   "sources": [
+    {
+     "label": "NICE، Coeliac disease: recognition, assessment and management",
+     "url": "https://www.nice.org.uk/guidance/ng20/chapter/Recommendations"
+    }
+   ]
+  },
+  {
+   "slug": "fatty-liver-fibrosis-needs-its-own-assessment",
+   "title": {
+    "ar": "تحديث علمي: دهون الكبد وتليّف الكبد مش نفس القياس",
+    "en": "Scientific update: liver fat and liver fibrosis are not the same measurement"
+   },
+   "excerpt": {
+    "ar": "الإنزيمات العادية ما تستبعدش دهون الكبد، والسونار اللي يبين دهوناً ما يحددش وحده درجة التليّف.",
+    "en": "Routine liver enzymes do not rule out fatty liver, and an ultrasound showing fat does not by itself stage fibrosis."
+   },
+   "category": "gastroenterology-hepatology",
+   "specialties": [
+    "gastroenterology-hepatology",
+    "internal-medicine",
+    "ultrasound"
+   ],
+   "tags": {
+    "ar": [
+     "دهون الكبد",
+     "تليف الكبد",
+     "تقييم الكبد"
+    ],
+    "en": [
+     "fatty liver",
+     "liver fibrosis",
+     "liver assessment"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-18",
+   "readingTime": 2,
+   "author": "mohab-ashraf",
+   "reviewedBy": "shimaa-fouad",
+   "image": "assets/img/articles/gastro-2.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "different-questions",
+     "heading": {
+      "ar": "كل اختبار بيجاوب سؤال مختلف",
+      "en": "Each test answers a different question"
+     },
+     "body": {
+      "ar": "إرشاد NICE لدهون الكبد يقول بوضوح إن تحاليل الكبد الروتينية ما ينفعش تستخدم لاستبعاد دهون الكبد، وما ينفعش تعتمد عليها لتقييم التليّف المتقدم. السونار يقدر يبين مظهر دهني ويساعد في تقييم أعضاء البطن، لكنه مش مقياساً منفرداً لدرجة الندبات داخل الكبد.\n\nده يفسر إزاي شخص يبقى عنده إنزيمات عادية مع دهون كبد، أو تقرير سونار بسيط ويحتاج الطبيب مع ذلك يحسب خطر التليّف. المطلوب مش عمل كل الفحوص للجميع؛ المطلوب توجيه الاختبار للسؤال الصح.",
+      "en": "NICE guidance on fatty liver states clearly that routine liver blood tests should not be used to rule out fatty liver or to assess advanced fibrosis. Ultrasound can show a fatty appearance and help assess abdominal organs, but on its own it is not a measure of the amount of scarring within the liver.\n\nThis explains how someone may have normal enzymes alongside fatty liver, or a simple ultrasound report yet still need fibrosis risk assessment. The answer is not every test for everyone; it is using the right test for the right question."
+     }
+    },
+    {
+     "id": "next-step",
+     "heading": {
+      "ar": "بعد التقرير، اسأل عن خطر التليّف",
+      "en": "After the report, ask about fibrosis risk"
+     },
+     "body": {
+      "ar": "خد تقرير السونار والتحاليل القديمة وقائمة الأدوية، واذكر السكر والضغط والدهون وتغير الوزن واستخدام الكحول بوضوح. الطبيب يحدد هل الصورة تحتاج اختبار تليّف غير جراحي أو إحالة، وإمتى تتكرر المتابعة حسب عوامل الخطر والمسار المتاح.\n\nما تطمّنش لإنزيم طبيعي وحده، وما تعتبرش كلمة «دهون» حكماً بوجود تليّف متقدم. التقييم المنظم يفصل بينهم، وبعدها تتبني خطة للكبد والصحة الأيضية من غير تهويل أو إهمال.",
+      "en": "Bring the ultrasound report, earlier blood results and a medicine list, and describe diabetes, blood pressure, lipids, weight change and alcohol use accurately. The clinician decides whether non-invasive fibrosis assessment or referral is needed and when follow-up should repeat according to risk and the available pathway.\n\nDo not rely on one normal enzyme result, and do not read the word ‘fatty’ as proof of advanced fibrosis. Structured assessment separates the two, allowing a plan for liver and metabolic health without alarm or neglect."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "هل السونار الطبيعي يستبعد كل مشاكل الكبد؟",
+      "en": "Does a normal ultrasound exclude every liver problem?"
+     },
+     "a": {
+      "ar": "لأ. السونار له قدرات وحدود، والطبيب يربطه بالأعراض والتحاليل وعوامل الخطر ويختار فحصاً آخر لو السؤال ما اتجاوبش.",
+      "en": "No. Ultrasound has strengths and limits. A clinician combines it with symptoms, blood tests and risk factors and selects another test if the clinical question remains unanswered."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "NICE، Non-alcoholic fatty liver disease: assessment and management",
+     "url": "https://www.nice.org.uk/guidance/ng49/chapter/Recommendations"
+    }
+   ]
+  },
+  {
+   "slug": "silent-gallstones-usually-need-no-treatment",
+   "title": {
+    "ar": "تحديث علمي: حصوات المرارة الساكتة غالباً ما تحتاجش علاج",
+    "en": "Scientific update: silent gallstones usually do not need treatment"
+   },
+   "excerpt": {
+    "ar": "وجود حصوة بالصدفة مش هو نفسه مرض مرارة بأعراض؛ القرار يتبني على الأعراض والمضاعفات وحالة القنوات المرارية.",
+    "en": "An incidental stone is not the same as symptomatic gallbladder disease; symptoms, complications and the bile ducts guide the decision."
+   },
+   "category": "general-surgery",
+   "specialties": [
+    "general-surgery",
+    "gastroenterology-hepatology",
+    "ultrasound"
+   ],
+   "tags": {
+    "ar": [
+     "حصوات المرارة",
+     "جراحة المرارة",
+     "السونار"
+    ],
+    "en": [
+     "gallstones",
+     "gallbladder surgery",
+     "ultrasound"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-17",
+   "readingTime": 2,
+   "author": "mohab-ashraf",
+   "reviewedBy": "shimaa-fouad",
+   "image": "assets/img/articles/gastro-2.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "incidental-is-different",
+     "heading": {
+      "ar": "الحصوة في التقرير مش قرار عملية",
+      "en": "A stone in a report is not an operation decision"
+     },
+     "body": {
+      "ar": "إرشاد NICE يوصي بطمأنة الشخص اللي اتلاقت عنده حصوات من غير أعراض، مع مرارة وقنوات مرارية طبيعية، وإنه ما يحتاجش علاج إلا لو ظهرت أعراض. ده فرق مهم عن الحصوات اللي بتسبب نوبات ألم معروفة أو التهاباً أو انسداداً؛ الحالات دي لها تقييم وعلاج مختلف.\n\nمش كل انتفاخ أو غازات مع حصوة بالصدفة يثبت إن المرارة هي السبب. الطبيب يراجع مكان الألم ومدته وعلاقته بالأكل والفحص وتحاليل الكبد والسونار قبل ربط كل شكوى بالحصوة.",
+      "en": "NICE guidance recommends reassuring people whose gallstones were found incidentally, without symptoms and with a normal gallbladder and biliary tree: they do not need treatment unless symptoms develop. This differs from stones causing typical pain, inflammation or obstruction, which follow a different assessment and treatment pathway.\n\nBloating or gas alongside an incidental stone does not prove that the gallbladder is the cause. A clinician reviews the pain location and duration, its relation to food, examination, liver tests and ultrasound before linking every symptom to the stone."
+     }
+    },
+    {
+     "id": "when-to-act",
+     "heading": {
+      "ar": "إمتى الصورة تتغير؟",
+      "en": "When the picture changes"
+     },
+     "body": {
+      "ar": "ألم شديد أو مستمر أعلى البطن، سخونية، اصفرار العين أو الجلد، قيء متكرر أو بول غامق يحتاجوا تقييماً سريعاً. خد تقرير السونار نفسه، مش جملة من الذاكرة، واذكر أي نوبات سابقة ونتائج تحاليل.\n\nلو الحصوات بقت مصحوبة بأعراض واضحة، رأي الجراحة يناقش الفائدة والمخاطر والتوقيت. ولو فضلت ساكتة، المتابعة تكون حسب حالتك بدل عملية وقائية تلقائية لمجرد إن التقرير ذكر حصوة.",
+      "en": "Severe or persistent upper-abdominal pain, fever, yellowing of the eyes or skin, repeated vomiting or dark urine needs prompt assessment. Bring the ultrasound report itself rather than a remembered phrase, and describe earlier episodes and blood results.\n\nIf stones become clearly symptomatic, a surgical opinion can discuss benefits, risks and timing. If they remain silent, follow-up should reflect your situation rather than defaulting to preventive surgery simply because a report mentioned a stone."
+     }
+    }
+   ],
+   "faq": [],
+   "sources": [
+    {
+     "label": "NICE، Gallstone disease: diagnosis and management",
+     "url": "https://www.nice.org.uk/guidance/cg188/chapter/Recommendations"
+    }
+   ]
+  },
+  {
+   "slug": "surgical-checks-are-a-team-pause",
+   "title": {
+    "ar": "تحديث علمي: تكرار أسئلة الأمان قبل العملية مقصود",
+    "en": "Scientific update: repeated safety questions before surgery are deliberate"
+   },
+   "excerpt": {
+    "ar": "قائمة الأمان الجراحي حولت التأكد من الهوية والعملية والمكان والحساسية لتوقف جماعي واضح، مش افتراض إن كل واحد عارف.",
+    "en": "The surgical safety checklist turned identity, procedure, site and allergy checks into explicit team pauses rather than assumptions."
+   },
+   "category": "general-surgery",
+   "specialties": [
+    "general-surgery",
+    "bariatric-surgery"
+   ],
+   "tags": {
+    "ar": [
+     "أمان الجراحة",
+     "قائمة الأمان",
+     "الاستعداد للعملية"
+    ],
+    "en": [
+     "surgical safety",
+     "safety checklist",
+     "operation preparation"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-16",
+   "readingTime": 2,
+   "author": "mohab-ashraf",
+   "reviewedBy": "shimaa-fouad",
+   "image": "assets/img/articles/gastro-1.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "three-pauses",
+     "heading": {
+      "ar": "من الذاكرة لقائمة مكتوبة",
+      "en": "From memory to a written checklist"
+     },
+     "body": {
+      "ar": "قائمة منظمة الصحة العالمية للأمان الجراحي بتجمع الفريق في توقفات واضحة قبل التخدير، قبل فتح الجلد، وقبل خروج المريض من غرفة العمليات. فيها تأكيد الهوية ونوع العملية ومكانها والموافقة والحساسية، مع مراجعة مخاطر وخطة التعافي.\n\nالتحديث هنا مش معلومة جديدة عن الجراحة؛ هو تغيير مستقر في طريقة منع الخطأ. الحاجات المهمة ما تتسابش للذاكرة أو لفكرة إن «أكيد الكل عارف». السؤال اللي اتسأل قبل كده ممكن يتكرر لأن كل توقف له فريق ولحظة وهدف مختلف.",
+      "en": "The World Health Organization Surgical Safety Checklist brings the team together for explicit pauses before anaesthesia, before skin incision and before the patient leaves the operating room. It confirms identity, procedure, site, consent and allergies while sharing risks and the recovery plan.\n\nThe development is not a new fact about surgery but an established change in how error is prevented. Critical steps are not left to memory or the assumption that ‘everyone must know’. A question may be repeated because each pause has a different team, moment and purpose."
+     }
+    },
+    {
+     "id": "patient-role",
+     "heading": {
+      "ar": "دورك إنك تجاوب وتصحح",
+      "en": "Your role is to answer and correct"
+     },
+     "body": {
+      "ar": "قول اسمك والعملية المتفق عليها والحساسية والأدوية بوضوح كل ما تتسأل. لو الكلام مش مطابق لفهمك، وقف وصحح قبل ما تكمل. خد قائمة أدوية محدثة، واذكر أي تغيير صحي حصل من وقت قرار العملية.\n\nوجود القائمة ما يضمنش نتيجة بلا مضاعفات، لكنه يدعم تواصل الفريق وتنفيذ خطوات أساسية باستمرار. ما تفسرش التكرار كشك أو فوضى؛ الأمان الجيد بيخلي التأكد مسموعاً ومشتركاً.",
+      "en": "State your name, agreed procedure, allergies and medicines clearly whenever asked. If what you hear does not match your understanding, stop and correct it before proceeding. Bring an updated medicine list and report any health change since surgery was planned.\n\nA checklist cannot guarantee a complication-free result, but it supports team communication and reliable completion of essential steps. Repetition should not be read as doubt or disorder; good safety makes verification audible and shared."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "لو اتسألت عن اسمي والعملية أكتر من مرة، أقلق؟",
+      "en": "Should I worry if I am asked my name and procedure more than once?"
+     },
+     "a": {
+      "ar": "غالباً لأ؛ التكرار جزء مقصود من نقاط أمان مختلفة. المهم إنك تصحح فوراً لو أي تفصيلة مش مطابقة لفهمك.",
+      "en": "Usually not; repetition is deliberate at different safety points. Correct the team immediately if any detail does not match your understanding."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "WHO، Surgical Safety Checklist: tools and resources",
+     "url": "https://www.who.int/teams/integrated-health-services/patient-safety/research/safe-surgery/tool-and-resources"
+    }
+   ]
+  },
+  {
+   "slug": "bariatric-assessment-is-multidisciplinary",
+   "title": {
+    "ar": "تحديث علمي: تقييم جراحة السمنة أكبر من رقم الوزن",
+    "en": "Scientific update: bariatric assessment is broader than a weight number"
+   },
+   "excerpt": {
+    "ar": "الإرشادات المستقرة تضع الصحة والتغذية والاحتياجات النفسية والقدرة على المتابعة داخل قرار الجراحة، مش مؤشر الكتلة وحده.",
+    "en": "Established guidance places medical health, nutrition, psychological needs and follow-up capacity inside the surgery decision, not BMI alone."
+   },
+   "category": "bariatric-surgery",
+   "specialties": [
+    "bariatric-surgery",
+    "weight-management",
+    "clinical-nutrition"
+   ],
+   "tags": {
+    "ar": [
+     "تقييم جراحة السمنة",
+     "الفريق متعدد التخصصات",
+     "الاستعداد للجراحة"
+    ],
+    "en": [
+     "bariatric assessment",
+     "multidisciplinary team",
+     "surgery readiness"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-15",
+   "readingTime": 2,
+   "author": "shimaa-fouad",
+   "reviewedBy": "mohab-ashraf",
+   "image": "assets/img/articles/weight-management-2.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "whole-assessment",
+     "heading": {
+      "ar": "التقييم مش اختبار نجاح وفشل",
+      "en": "Assessment is not a pass-or-fail test"
+     },
+     "body": {
+      "ar": "إرشاد NICE يطلب تقييماً شاملاً من فريق متعدد التخصصات قبل جراحة السمنة. التقييم يشمل الأمراض المصاحبة، التغذية وسلوك الأكل، أي احتياج نفسي يساعد على الاستعداد، المحاولات السابقة، والعوامل العملية اللي ممكن تأثر على الرعاية بعد العملية.\n\nالهدف مش لومك على الماضي ولا البحث عن «مريض مثالي». الهدف معرفة هل الجراحة مناسبة دلوقتي، إيه المخاطر اللي لازم تتظبط، وإيه الدعم اللي يخلي المتابعة ممكنة. أحياناً التقييم يثبت الجاهزية، وأحياناً يبني خطوات تحضير أو يقترح مساراً آخر.",
+      "en": "NICE guidance calls for a comprehensive multidisciplinary assessment before bariatric surgery. It covers associated medical conditions, nutrition and eating behaviour, psychological needs that may support readiness, earlier weight-management attempts and practical factors that could affect care after surgery.\n\nThe purpose is not to blame you for the past or search for a ‘perfect patient’. It is to establish whether surgery is suitable now, which risks need attention and what support makes follow-up possible. Assessment may confirm readiness, build a preparation plan or suggest a different path."
+     }
+    },
+    {
+     "id": "bring-the-real-picture",
+     "heading": {
+      "ar": "قدّم الصورة الحقيقية",
+      "en": "Bring the real picture"
+     },
+     "body": {
+      "ar": "خد قائمة الأدوية والتحاليل والتقارير والعمليات السابقة، واحكي بصراحة عن الارتجاع، القيء، نوبات الأكل، التدخين، النوم، والدعم الموجود في البيت. إخفاء صعوبة مش بيقرّب العملية؛ ممكن يمنع الفريق من تجهيز حل لها.\n\nاسأل عن نوع العملية المقترح وليه، البدائل، المضاعفات، التغذية والمكملات، خطة الطوارئ والمتابعة طويلة المدى. الموافقة الجيدة تحصل بعد فهم، وممكن تاخد وقتاً وأسئلة أكتر من زيارة.",
+      "en": "Bring medicine lists, blood results, reports and earlier operations, and describe reflux, vomiting, eating episodes, smoking, sleep and support at home honestly. Hiding a difficulty does not bring surgery closer; it can prevent the team from preparing a solution.\n\nAsk which operation is proposed and why, its alternatives and complications, nutrition and supplements, emergency plan and long-term follow-up. Good consent follows understanding and may take time and more than one conversation."
+     }
+    }
+   ],
+   "faq": [],
+   "sources": [
+    {
+     "label": "NICE، Overweight and obesity management: medicines and surgery",
+     "url": "https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery"
+    }
+   ]
+  },
+  {
+   "slug": "bariatric-follow-up-is-lifelong",
+   "title": {
+    "ar": "تحديث علمي: متابعة جراحة السمنة تمتد طول العمر",
+    "en": "Scientific update: follow-up after bariatric surgery is lifelong"
+   },
+   "excerpt": {
+    "ar": "بعد انتهاء متابعة مركز الجراحة، تفضل المراجعة السنوية للتغذية والنواقص والمكملات جزءاً ثابتاً من الرعاية.",
+    "en": "After specialist surgical follow-up ends, annual review of nutrition, deficiencies and supplements remains a continuing part of care."
+   },
+   "category": "bariatric-surgery",
+   "specialties": [
+    "bariatric-surgery",
+    "clinical-nutrition",
+    "internal-medicine"
+   ],
+   "tags": {
+    "ar": [
+     "متابعة جراحة السمنة",
+     "نقص الفيتامينات",
+     "التغذية بعد العملية"
+    ],
+    "en": [
+     "bariatric follow-up",
+     "vitamin deficiency",
+     "postoperative nutrition"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-14",
+   "readingTime": 2,
+   "author": "shimaa-fouad",
+   "reviewedBy": "mohab-ashraf",
+   "image": "assets/img/articles/weight-management-2.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "not-finished-at-two-years",
+     "heading": {
+      "ar": "المتابعة ما بتنتهيش لما الوزن يثبت",
+      "en": "Follow-up does not end when weight settles"
+     },
+     "body": {
+      "ar": "إرشاد NICE يوصي بحزمة متابعة داخل خدمة جراحة السمنة في أول فترة بعد العملية، وبعد الخروج منها تفضل مراجعة الحالة الغذائية والمكملات مرة على الأقل كل سنة ضمن رعاية مشتركة. السبب إن تغير الامتصاص وكمية الأكل ممكن يسبب نقصاً بعد وقت طويل، حتى لو الشخص حاسس كويس ووزنه ثابت.\n\nنوع العملية يفرق في التحاليل والمكملات المطلوبة، لذلك وصفة شخص تاني أو عبوة متعددة الفيتامينات من غير مراجعة ما تكفيش. كمان المتابعة تشمل الأمراض المصاحبة والأدوية والحركة والصحة النفسية، مش الفيتامينات بس.",
+      "en": "NICE guidance recommends a follow-up package within the bariatric service during the initial postoperative period. After discharge from that service, nutritional status and appropriate supplementation should still be reviewed at least annually through shared care. Changes in absorption and food intake can produce deficiencies much later, even when someone feels well and weight is stable.\n\nThe operation type changes which tests and supplements are needed, so another person’s prescription or an unreviewed multivitamin is not enough. Follow-up also covers associated conditions, medicines, activity and psychological health, not vitamins alone."
+     }
+    },
+    {
+     "id": "keep-a-lifelong-record",
+     "heading": {
+      "ar": "اعمل ملفاً للعملية يفضل معاك",
+      "en": "Keep a lifelong operation record"
+     },
+     "body": {
+      "ar": "احتفظ باسم العملية وتاريخها، آخر تحاليل، قائمة المكملات والأدوية، وأي مضاعفات أو مناظير. خد الملف لأي طبيب جديد، لأن أعراضاً زي التعب أو التنميل أو القيء أو ضعف العظام ممكن تحتاج قراءة في سياق العملية.\n\nما تستناش المراجعة السنوية لو ظهر قيء مستمر، ألم شديد، صعوبة أكل أو شرب، إغماء، ضعف جديد أو علامات نزيف. والمتابعة المنتظمة ما تعنيش إن العملية فشلت؛ هي جزء من العلاج نفسه من أول يوم.",
+      "en": "Keep the operation name and date, latest blood results, supplement and medicine lists, and any complications or endoscopies. Take the record to every new clinician because fatigue, numbness, vomiting or bone weakness may need interpretation in the context of surgery.\n\nDo not wait for the annual review if you develop persistent vomiting, severe pain, difficulty eating or drinking, fainting, new weakness or signs of bleeding. Regular follow-up does not mean the operation failed; it is part of the treatment from the first day."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "لو تحاليلي كانت كويسة السنة اللي فاتت، أوقف المكملات؟",
+      "en": "Can I stop supplements if last year’s tests were normal?"
+     },
+     "a": {
+      "ar": "ما توقفهاش من نفسك. النتايج الكويسة ممكن تكون بسبب إن الخطة شغالة، والقرار يعتمد على نوع العملية والأكل والتحاليل الحالية.",
+      "en": "Do not stop them on your own. Normal results may show that the plan is working, and the decision depends on operation type, intake and current tests."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "NICE، Overweight and obesity management: postoperative and longer-term follow-up care",
+     "url": "https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery"
+    }
+   ]
+  },
+  {
+   "slug": "acne-care-is-gentle-not-aggressive",
+   "title": {
+    "ar": "تحديث علمي: الحبوب مش دليل إن البشرة محتاجة فرك أكتر",
+    "en": "Scientific update: acne does not mean skin needs harsher scrubbing"
+   },
+   "excerpt": {
+    "ar": "إرشادات الحبوب تفضل الغسيل اللطيف المنتظم ومنتجات ما تسدش المسام، وتحذر إن العصر والخدش المستمر يزودوا الندبات.",
+    "en": "Acne guidance favours regular gentle cleansing and non-comedogenic products, while warning that persistent picking raises scarring risk."
+   },
+   "category": "dermatology",
+   "specialties": [
+    "dermatology"
+   ],
+   "tags": {
+    "ar": [
+     "حب الشباب",
+     "العناية بالبشرة",
+     "آثار الحبوب"
+    ],
+    "en": [
+     "acne",
+     "skin care",
+     "acne scarring"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-13",
+   "readingTime": 2,
+   "author": "shimaa-fouad",
+   "reviewedBy": "mohab-ashraf",
+   "image": "assets/img/articles/dermatology-2.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "gentle-baseline",
+     "heading": {
+      "ar": "العناية الأساسية بقت أهدى",
+      "en": "Basic care has become gentler"
+     },
+     "body": {
+      "ar": "إرشاد NICE لحب الشباب ينصح بغسول لطيف غير قلوي للبشرة المعرضة للحبوب مرتين في اليوم، وباختيار مرطب وواقي شمس ومستحضرات ما تكونش زيتية أو مسببة لانسداد المسام. الفكرة إن الحبوب مش أوساخاً محتاجة دعكاً متكرراً أو كحولاً يحرق الجلد.\n\nالغسيل القاسي والتقشير المتكرر ممكن يزودوا التهيج ويخلوا تحمل العلاج أصعب. والعصر أو الخدش المستمر يرفع خطر الندبات. روتين بسيط ثابت أحسن من تبديل منتجات كتير كل كام يوم.",
+      "en": "NICE acne guidance advises a gentle, non-alkaline cleanser on acne-prone skin twice daily, with moisturiser, sunscreen and cosmetics that are not oil-based or comedogenic. Acne is not dirt that needs repeated scrubbing or harsh alcohol on the skin.\n\nAggressive washing and frequent exfoliation can add irritation and make treatment harder to tolerate. Persistent picking or scratching raises the risk of scarring. A simple, consistent routine is more useful than changing several products every few days."
+     }
+    },
+    {
+     "id": "treatment-not-punishment",
+     "heading": {
+      "ar": "العلاج يتحدد حسب الشدة والأثر",
+      "en": "Treatment follows severity and impact"
+     },
+     "body": {
+      "ar": "صوّر الحبوب في ضوء ثابت لو بتتغير، واكتب المنتجات والأدوية ومدة الاستخدام وأي تهيج. اذكر الندبات أو الألم وتأثير الحبوب على نفسيتك، لأنهم جزء من قرار العلاج حتى لو المساحة صغيرة.\n\nمافيش حمية واحدة ثبت إنها تعالج الحبوب عند الجميع، فلا تعاقب نفسك بمنع مجموعات أكل كاملة من غير سبب. ولو الحبوب بتسيب ندبات، ظهرت فجأة بشكل شديد، أو مأثرة على حياتك، اطلب تقييماً بدل زيادة الفرك.",
+      "en": "Photograph changing acne in consistent light, and list products, medicines, duration of use and irritation. Mention scarring, pain and psychological impact because they matter to treatment decisions even when the affected area is small.\n\nNo single diet has been shown to treat acne for everyone, so do not punish yourself by removing entire food groups without a reason. Seek assessment rather than scrubbing harder if acne is scarring, becomes suddenly severe or is affecting daily life."
+     }
+    }
+   ],
+   "faq": [],
+   "sources": [
+    {
+     "label": "NICE، Acne vulgaris: management",
+     "url": "https://www.nice.org.uk/guidance/ng198/chapter/Recommendations"
+    }
+   ]
+  },
+   {
+    "slug": "cellulite-is-a-skin-structure-feature",
+    "title": {
+     "ar": "تحديث علمي: السيلوليت مرتبط ببنية الجلد، مش مقياساً للسمنة",
+     "en": "Scientific update: cellulite reflects skin structure, not a measure of obesity"
+    },
+    "excerpt": {
+     "ar": "التعرجات بتحصل من تفاعل الدهون السطحية مع ألياف النسيج الضام، وممكن تظهر عند شخص رفيع ومن غير ما تضر صحته.",
+     "en": "Dimpling reflects the interaction of superficial fat with connective fibres and can appear in a thin person without harming health."
+    },
+    "category": "body-contouring",
+    "specialties": [
+     "body-contouring",
+     "dermatology"
+    ],
+    "tags": {
+     "ar": [
+      "السيلوليت",
+      "بنية الجلد",
+      "توقعات النحت"
+     ],
+     "en": [
+      "cellulite",
+      "skin structure",
+      "contouring expectations"
+     ]
+    },
+    "type": "update",
+    "date": "2026-08-12",
+    "readingTime": 2,
+    "author": "shimaa-fouad",
+    "reviewedBy": "mohab-ashraf",
+    "image": "assets/img/articles/bodycontour-1.webp",
+    "featured": false,
+    "published": true,
+    "sections": [
+     {
+      "id": "normal-structure",
+      "heading": {
+       "ar": "التعرج مش تشخيص مرض",
+       "en": "Dimpling is not a disease diagnosis"
+      },
+      "body": {
+       "ar": "موسوعة MedlinePlus الطبية توضح إن السيلوليت ممكن يظهر حتى عند الشخص الرفيع، وإنه مش ضار بالصحة. التعرجات مرتبطة بطريقة تجمع الدهون تحت سطح الجلد وبألياف الكولاجين اللي تربط الجلد بالأنسجة الأعمق؛ لما الألياف تشد والدهون تبرز بينها يظهر الشكل المعروف.\n\nعشان كده السيلوليت ما يقيسش السمنة، وما يثبتش وجود «سموم» أو ضعف إرادة. ممكن الوزن وشكل المنطقة يتغيروا من غير ما تختفي كل التعرجات، وممكن شخص وزنه مستقر يلاحظها بوضوح.",
+       "en": "The MedlinePlus medical encyclopedia explains that cellulite can appear even in a thin person and is not harmful to health. Dimpling relates to the way fat sits below the skin and to collagen fibres connecting skin with deeper tissue; when fibres pull and fat bulges between them, the familiar texture appears.\n\nCellulite is therefore not a measure of obesity and does not prove ‘toxins’ or failed willpower. Weight and body shape can change without every dimple disappearing, while someone at a stable weight may still notice it clearly."
+      }
+     },
+     {
+      "id": "realistic-outcome",
+      "heading": {
+       "ar": "الهدف تجميلي والنتيجة لها حدود",
+       "en": "The goal is cosmetic and outcomes have limits"
+      },
+      "body": {
+       "ar": "هيئة الغذاء والدواء الأمريكية تفرق بين تحسين مظهر السيلوليت وبين تغيير شكل الجسم أو علاج السمنة. بعض إجراءات النحت قد تحسن المظهر مؤقتاً، لكن النتيجة مش مضمونة وممكن تحتاج صيانة؛ وده لازم يتقال قبل أي قرار.\n\nاسأل بالضبط إيه التغيير المتوقع، إزاي هيتقاس، قد إيه ممكن يدوم، وإيه المخاطر والبدائل. ولو المنطقة فيها ألم جديد، احمرار، سخونية، تورم ناحية واحدة أو كتلة بتكبر، ما تعتبرهاش سيلوليت تلقائياً؛ اعمل تقييماً طبياً للسبب.",
+       "en": "The US Food and Drug Administration separates improving cellulite appearance from changing body shape or treating obesity. Some contouring procedures may produce temporary cosmetic improvement, but the result is not guaranteed and may need maintenance; that distinction belongs in consent before any decision.\n\nAsk exactly what change is expected, how it will be assessed, how long it may last, and what the risks and alternatives are. New pain, redness, warmth, one-sided swelling or an enlarging lump should not automatically be labelled cellulite; arrange medical assessment of the cause."
+      }
+     }
+    ],
+    "faq": [
+     {
+      "q": {
+       "ar": "هل نزول الوزن يضمن اختفاء السيلوليت؟",
+       "en": "Does weight loss guarantee that cellulite will disappear?"
+      },
+      "a": {
+       "ar": "لأ. الوزن ممكن يغير شكل المنطقة، لكن السيلوليت مرتبط كمان ببنية الجلد والنسيج الضام، فمفيش ضمان إنه يختفي.",
+       "en": "No. Weight can change the area’s appearance, but cellulite also reflects skin and connective-tissue structure, so disappearance cannot be guaranteed."
+      }
+     }
+    ],
+    "sources": [
+     {
+      "label": "MedlinePlus، Cellulite",
+      "url": "https://medlineplus.gov/ency/article/002033.htm"
+     },
+     {
+      "label": "FDA، Non-Invasive Body Contouring Technologies",
+      "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/non-invasive-body-contouring-technologies"
+     }
+    ]
+   },
+  {
+   "slug": "child-growth-is-a-trajectory",
+   "title": {
+    "ar": "تحديث علمي: نمو الطفل خط بيتتابع، مش مقارنة بصورة واحدة",
+    "en": "Scientific update: a child’s growth is a trajectory, not a single comparison"
+   },
+   "excerpt": {
+    "ar": "معايير النمو الحديثة تستخدم الوزن والطول وسرعة التغير عبر الوقت؛ قياس واحد أو مقارنة بصاحب الطفل ما يكفوش للحكم.",
+    "en": "Modern growth standards use weight, height and change over time; one measurement or comparison with a friend cannot make the judgement."
+   },
+   "category": "pediatrics",
+   "specialties": [
+    "pediatrics",
+    "clinical-nutrition"
+   ],
+   "tags": {
+    "ar": [
+     "منحنى النمو",
+     "نمو الأطفال",
+     "تغذية الطفل"
+    ],
+    "en": [
+     "growth chart",
+     "child growth",
+     "child nutrition"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-11",
+   "readingTime": 2,
+   "author": "alyaa-abu-taleb",
+   "reviewedBy": "shimaa-fouad",
+   "image": "assets/img/articles/pediatrics-2.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "own-curve",
+     "heading": {
+      "ar": "كل طفل له نقاط بتترسم مع الوقت",
+      "en": "Each child has points plotted over time"
+     },
+     "body": {
+      "ar": "معايير منظمة الصحة العالمية صممت عشان يتتابع طول الطفل ووزنه ومؤشراته المناسبة للسن والجنس على منحنى، ومعايير سرعة النمو تساعد تلاحظ التغير بدري. القياس الواحد يقول الطفل فين النهارده، لكن تتابع النقاط يقول هل ماشي في اتجاه متوقع ولا حصل تحول محتاج فهم.\n\nكون الطفل أقصر أو أخف من صاحبه مش تشخيصاً، ووجوده على نسبة عالية مش ضمان إن كل حاجة تمام. تاريخ العيلة، طول الأبوين، الولادة، المرض، الأكل والتطور يدخلوا في قراءة المنحنى.",
+      "en": "World Health Organization standards allow height, weight and age- and sex-appropriate measures to be plotted on a growth chart, while growth-velocity standards help identify change earlier. One measurement shows where a child is today; repeated points show whether the direction is expected or has changed in a way that needs understanding.\n\nBeing shorter or lighter than a friend is not a diagnosis, and a high centile does not guarantee that everything is well. Family pattern, parental height, birth history, illness, diet and development all belong in interpretation."
+     }
+    },
+    {
+     "id": "bring-records",
+     "heading": {
+      "ar": "خد القياسات القديمة معاك",
+      "en": "Bring earlier measurements"
+     },
+     "body": {
+      "ar": "احتفظ بكارت التطعيم أو أي سجل فيه وزن وطول وتاريخ القياس، وما تعتمدش على رقم من الذاكرة. القياس يتعمل بأداة وطريقة مناسبة للسن، ويتراجع مع الشهية، الهضم، النشاط والتطور.\n\nلو الطفل فقد وزن، وقف نموه، بقى خامل، عنده قيء أو إسهال مستمر، صعوبة بلع، عطش وتبول زائدين أو تراجع في مهارة، ما تستناش قياس المدرسة القادم. التقييم المبكر يفهم السبب بدل الضغط على الطفل عشان «يخلص الطبق».",
+      "en": "Keep the vaccination card or any record showing weight, height and measurement date rather than relying on memory. Measurement should use age-appropriate equipment and technique, then be read alongside appetite, digestion, activity and development.\n\nDo not wait for the next school measurement if the child loses weight, stops growing, becomes unusually tired, has persistent vomiting or diarrhoea, swallowing difficulty, marked thirst and urination, or loses a skill. Early assessment looks for the cause rather than pressuring the child to ‘finish the plate’."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "هل النسبة المئوية القليلة معناها إن الطفل مريض؟",
+      "en": "Does a low centile mean a child is ill?"
+     },
+     "a": {
+      "ar": "مش لوحدها. اتجاه النمو، تناسب القياسات، تاريخ العيلة والأعراض هم اللي يحددوا هل فيه داعي لتقييم إضافي.",
+      "en": "Not by itself. Growth direction, proportional measurements, family pattern and symptoms determine whether further assessment is needed."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "WHO، Child growth standards: questions and answers",
+     "url": "https://www.who.int/news-room/questions-and-answers/item/child-growth-standards"
+    }
+   ]
+  },
+  {
+   "slug": "ultrasound-uses-sound-not-xrays",
+   "title": {
+    "ar": "تحديث علمي: السونار بيستخدم موجات صوتية، مش أشعة سينية",
+    "en": "Scientific update: ultrasound uses sound waves, not X-rays"
+   },
+   "excerpt": {
+    "ar": "السونار ما يعرضكش لإشعاع مؤين، لكنه يفضل فحصاً طبياً له سؤال محدد ويُستخدم بقدر يحقق جودة التشخيص.",
+    "en": "Ultrasound does not expose you to ionising radiation, but it remains a medical examination used for a defined question and diagnostic purpose."
+   },
+   "category": "internal-medicine",
+   "specialties": [
+    "ultrasound",
+    "internal-medicine",
+    "gastroenterology-hepatology"
+   ],
+   "tags": {
+    "ar": [
+     "السونار",
+     "الموجات الصوتية",
+     "أمان الفحوص"
+    ],
+    "en": [
+     "ultrasound",
+     "sound waves",
+     "imaging safety"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-10",
+   "readingTime": 2,
+   "author": "mohab-ashraf",
+   "reviewedBy": "shimaa-fouad",
+   "image": "assets/img/articles/gastro-2.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "how-it-works",
+     "heading": {
+      "ar": "الفرق الأساسي في طريقة تكوين الصورة",
+      "en": "The key difference is how the image is made"
+     },
+     "body": {
+      "ar": "هيئة الغذاء والدواء الأمريكية توضح إن السونار يستخدم موجات صوتية عالية التردد عشان يعمل صورة، ومفيهوش تعرض لإشعاع مؤين زي الأشعة السينية. كمان يقدر يعرض حركة أعضاء وتدفق دم في الوقت الحقيقي حسب نوع الفحص.\n\nده يخليه اختياراً مفيداً لأسئلة طبية كتير لما يكون مناسباً، لكنه مش معناه إن أي سونار يجاوب أي سؤال أو إن التكرار من غير سبب يضيف فائدة. الاستخدام الرشيد يحدد العضو والسؤال، ويختار الإعداد والمدة اللي يحققوا صورة تشخيصية.",
+      "en": "The US Food and Drug Administration explains that ultrasound uses high-frequency sound waves to create images and does not involve ionising radiation such as X-rays. Depending on the examination, it can also display organ movement and blood flow in real time.\n\nThis makes it useful for many medical questions when appropriate, but it does not mean that any ultrasound answers every question or that repeating it without a reason adds value. Prudent use defines the organ and question, then uses the settings and duration needed for diagnostic quality."
+     }
+    },
+    {
+     "id": "prepare-for-question",
+     "heading": {
+      "ar": "اعرف الفحص مطلوب ليه",
+      "en": "Know why the examination is requested"
+     },
+     "body": {
+      "ar": "اسأل عن العضو المطلوب وفكرة الفحص، وهل فيه تحضير للأكل أو الشرب أو امتلاء المثانة؛ التعليمات تختلف حسب السؤال. خد التقارير والصور القديمة لو موجودة عشان المقارنة، واذكر أي عملية أو ألم محدد.\n\nبعد الفحص، ركز على خلاصة التقرير والخطوة المقترحة بدل تفسير كل كلمة لوحدها. السونار أداة داخل التقييم، والطبيب يربط النتيجة بالأعراض والفحص والتحاليل قبل القرار.",
+      "en": "Ask which organ and clinical question the scan addresses, and whether eating, drinking or bladder preparation is needed; instructions differ by examination. Bring earlier reports and images for comparison and mention previous surgery or a specific site of pain.\n\nAfterwards, focus on the report impression and recommended next step rather than interpreting each word in isolation. Ultrasound is one tool within assessment, and the clinician combines it with symptoms, examination and blood results before deciding."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "هل كل سونار بطن محتاج صيام؟",
+      "en": "Does every abdominal ultrasound require fasting?"
+     },
+     "a": {
+      "ar": "لأ. التحضير يعتمد على العضو والسؤال المطلوب. اتبع تعليمات المكان أو الطبيب للفحص المحدد بدل قاعدة واحدة للجميع.",
+      "en": "No. Preparation depends on the organ and clinical question. Follow the instructions for your particular examination rather than one rule for every scan."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "FDA، Ultrasound Imaging",
+     "url": "https://www.fda.gov/radiation-emitting-products/medical-imaging/ultrasound-imaging"
+    }
+   ]
+  },
+  {
+   "slug": "normal-ultrasound-does-not-end-assessment",
+   "title": {
+    "ar": "تحديث علمي: السونار الطبيعي مش دايماً نهاية تقييم ألم البطن",
+    "en": "Scientific update: a normal ultrasound does not always end an abdominal-pain assessment"
+   },
+   "excerpt": {
+    "ar": "السونار ممتاز لأعضاء معينة، لكن الغازات والأمعاء المليانة هوا ومكان العضو ممكن يحدوا الصورة؛ النتيجة تتقري مع باقي التقييم.",
+    "en": "Ultrasound is excellent for selected organs, but bowel gas, air and organ position can limit the view; results belong with the rest of the assessment."
+   },
+   "category": "gastroenterology-hepatology",
+   "specialties": [
+    "ultrasound",
+    "gastroenterology-hepatology",
+    "internal-medicine"
+   ],
+   "tags": {
+    "ar": [
+     "سونار البطن",
+     "ألم البطن",
+     "تقرير الأشعة"
+    ],
+    "en": [
+     "abdominal ultrasound",
+     "abdominal pain",
+     "imaging report"
+    ]
+   },
+   "type": "update",
+   "date": "2026-08-09",
+   "readingTime": 2,
+   "author": "mohab-ashraf",
+   "reviewedBy": "shimaa-fouad",
+   "image": "assets/img/articles/gastro-2.webp",
+   "featured": false,
+   "published": true,
+   "sections": [
+    {
+     "id": "strengths-and-limits",
+     "heading": {
+      "ar": "النتيجة الطبيعية لها حدود",
+      "en": "A normal result has limits"
+     },
+     "body": {
+      "ar": "موقع RadiologyInfo التابع لجمعيات الأشعة الأمريكية يوضح إن سونار البطن يشوف أعضاء زي الكبد والمرارة والكلى والطحال كويس، لكن الموجات بتتأثر بالهوا والغازات. عشان كده الأمعاء المليانة هوا أو عضو مستخبي وراها ممكن ما يتشافوش بالشكل الكافي.\n\nتقرير طبيعي معناه إن الفاحص ما شافش مشكلة في الأجزاء اللي قدر يقيمها بالطريقة دي؛ مش معناه إن كل سبب ممكن لألم البطن اتلغى. أحياناً السؤال يتجاوب، وأحياناً التاريخ والفحص أو التحاليل يوجّهوا لفحص مختلف.",
+      "en": "RadiologyInfo, reviewed by US radiology societies, explains that abdominal ultrasound can show organs such as the liver, gallbladder, kidneys and spleen well, while sound waves are disrupted by air and gas. Air-filled bowel or an organ hidden behind it may therefore be incompletely seen.\n\nA normal report means that no problem was seen in the structures that could be assessed with that method. It does not cancel every possible cause of abdominal pain. Sometimes the question is answered; sometimes history, examination or blood results point to a different test."
+     }
+    },
+    {
+     "id": "read-the-impression",
+     "heading": {
+      "ar": "اقرأ الخلاصة مع الطبيب",
+      "en": "Read the impression with the clinician"
+     },
+     "body": {
+      "ar": "خد التقرير الكامل والصور لو متاحة، واسأل: إيه اللي اتشاف كويس؟ هل فيه جزء كان محجوب؟ وهل النتيجة تفسر الأعراض؟ ما تكررّش نفس الفحص تلقائياً لو السؤال مختلف، وما تعتبرش طلب فحص آخر تناقضاً؛ كل وسيلة لها نقاط قوة وحدود.\n\nألم شديد بيزيد، بطن قاسية، إغماء، قيء مستمر، نزيف، سخونية واضحة أو اصفرار يحتاجوا تقييماً عاجلاً حتى لو سونار سابق كان طبيعياً. الحالة الحالية أهم من ورقة قديمة مطمئنة.",
+      "en": "Bring the complete report and images if available, then ask what was seen well, whether any area was obscured and whether the result explains the symptoms. Do not automatically repeat the same examination when the question has changed, and do not treat a different follow-up test as a contradiction; each method has strengths and limits.\n\nSevere worsening pain, a rigid abdomen, fainting, persistent vomiting, bleeding, marked fever or jaundice needs urgent assessment even if an earlier ultrasound was normal. The current condition matters more than an old reassuring report."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "هل السونار الطبيعي معناه إن الألم قولون؟",
+      "en": "Does a normal ultrasound mean the pain is IBS?"
+     },
+     "a": {
+      "ar": "لأ. السونار الطبيعي ما يشخصش القولون العصبي تلقائياً. التشخيص يعتمد على نمط الأعراض والفحص وأي اختبارات موجهة مطلوبة.",
+      "en": "No. A normal ultrasound does not automatically diagnose IBS. Diagnosis depends on the symptom pattern, examination and any targeted tests that are needed."
+     }
+    }
+   ],
+   "sources": [
+    {
+     "label": "RadiologyInfo (ACR/RSNA)، Abdominal Ultrasound",
+     "url": "https://www.radiologyinfo.org/en/info/abdominus"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>لوحة إدارة لاروز | La Rose Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <script src="js/analytics.js" defer></script>
+  <script src="js/dashboard.js" defer></script>
+</head>
+<body class="admin-body">
+  <a class="admin-skip" href="#dashboard-main">تخطي للقسم الرئيسي · Skip to main content</a>
+
+  <div class="admin-shell" id="admin-shell">
+    <aside class="admin-sidebar" id="admin-sidebar" aria-label="أقسام لوحة الإدارة · Dashboard sections">
+      <div class="admin-brand">
+        <span class="admin-brand__mark" aria-hidden="true">LR</span>
+        <div class="admin-brand__name">
+          <strong>لاروز</strong>
+          <span lang="en" dir="ltr">Wellness Hub</span>
+        </div>
+      </div>
+
+      <nav class="admin-nav" aria-label="التنقل الرئيسي · Main navigation">
+        <button class="admin-nav__item is-active" type="button" data-nav="overview" aria-current="page">
+          <span class="admin-nav__glyph" aria-hidden="true">01</span>
+          <span>نظرة عامة <small lang="en" dir="ltr">Overview</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="analytics">
+          <span class="admin-nav__glyph" aria-hidden="true">02</span>
+          <span>التحليلات <small lang="en" dir="ltr">Analytics</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="specialties">
+          <span class="admin-nav__glyph" aria-hidden="true">03</span>
+          <span>التخصصات <small lang="en" dir="ltr">Specialties</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="doctors">
+          <span class="admin-nav__glyph" aria-hidden="true">04</span>
+          <span>الأطباء <small lang="en" dir="ltr">Doctors</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="branches">
+          <span class="admin-nav__glyph" aria-hidden="true">05</span>
+          <span>الفروع <small lang="en" dir="ltr">Branches</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="articles">
+          <span class="admin-nav__glyph" aria-hidden="true">06</span>
+          <span>المقالات والمعرفة <small lang="en" dir="ltr">Articles &amp; Knowledge</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="reviews">
+          <span class="admin-nav__glyph" aria-hidden="true">07</span>
+          <span>الآراء <small lang="en" dir="ltr">Reviews</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="digital">
+          <span class="admin-nav__glyph" aria-hidden="true">08</span>
+          <span>المنتجات الرقمية <small lang="en" dir="ltr">Digital products</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="settings">
+          <span class="admin-nav__glyph" aria-hidden="true">09</span>
+          <span>إعدادات الموقع <small lang="en" dir="ltr">Site settings</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="images">
+          <span class="admin-nav__glyph" aria-hidden="true">10</span>
+          <span>الصور <small lang="en" dir="ltr">Images</small></span>
+        </button>
+        <button class="admin-nav__item" type="button" data-nav="backups">
+          <span class="admin-nav__glyph" aria-hidden="true">11</span>
+          <span>النسخ الاحتياطية <small lang="en" dir="ltr">Backups</small></span>
+        </button>
+      </nav>
+
+      <div class="admin-local-note">
+        <span class="status-dot" aria-hidden="true"></span>
+        <p>بدون تسجيل دخول، للاستخدام على الجهاز المحلي فقط.</p>
+        <small lang="en" dir="ltr">No authentication, localhost only.</small>
+      </div>
+    </aside>
+
+    <button class="sidebar-scrim" id="sidebar-scrim" type="button" aria-label="إغلاق القائمة · Close menu" tabindex="-1"></button>
+
+    <div class="admin-workspace">
+      <header class="admin-topbar">
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="admin-sidebar" aria-expanded="false">
+          <span aria-hidden="true">☰</span>
+          <span class="visually-hidden">فتح القائمة · Open menu</span>
+        </button>
+
+        <div class="admin-topbar__title">
+          <p class="admin-kicker">لوحة إدارة المحتوى <span lang="en" dir="ltr">Content dashboard</span></p>
+          <h1 id="view-title">نظرة عامة <small lang="en" dir="ltr">Overview</small></h1>
+        </div>
+
+        <div class="admin-topbar__actions">
+          <span class="connection-pill is-loading" id="connection-pill" role="status">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span class="status-label">جاري الاتصال <small lang="en" dir="ltr">Connecting</small></span>
+          </span>
+          <span class="dirty-pill" id="dirty-pill" hidden>تغييرات غير محفوظة <small lang="en" dir="ltr">Unsaved</small></span>
+          <button class="admin-btn admin-btn--primary" id="top-save" type="button" data-action="save-current" disabled>
+            حفظ الملف <span lang="en" dir="ltr">Save file</span>
+          </button>
+        </div>
+      </header>
+
+      <div class="operation-banner" id="operation-banner" role="status" aria-live="polite" aria-atomic="true" tabindex="-1" hidden></div>
+
+      <main class="admin-main" id="dashboard-main" tabindex="-1">
+        <div class="loading-panel" id="view-root" aria-live="polite" aria-busy="true">
+          <span class="spinner" aria-hidden="true"></span>
+          <p>جاري تحميل محتوى الموقع…</p>
+          <small lang="en" dir="ltr">Loading site content…</small>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <div class="admin-toast" id="admin-toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+
+  <dialog class="upload-dialog" id="upload-dialog" aria-labelledby="upload-title">
+    <form class="upload-dialog__inner" id="upload-form">
+      <div class="dialog-head">
+        <div>
+          <p class="admin-kicker">مكتبة الصور <span lang="en" dir="ltr">Image library</span></p>
+          <h2 id="upload-title">رفع صورة <small lang="en" dir="ltr">Upload image</small></h2>
+        </div>
+        <button class="icon-btn" type="button" data-action="close-upload" aria-label="إغلاق · Close">×</button>
+      </div>
+
+      <div class="admin-field">
+        <label for="upload-directory">المجلد <small lang="en" dir="ltr">Directory</small></label>
+        <input id="upload-directory" name="directory" type="text" value="uploads" autocomplete="off" pattern="[A-Za-z0-9][A-Za-z0-9/_-]*" title="Latin letters, numbers, slash, underscore, and hyphen only" required>
+        <p class="field-help">داخل <code>site/assets/img/</code>، استخدم اسماً قصيراً بالإنجليزية.</p>
+      </div>
+
+      <div class="admin-field">
+        <label for="upload-file">اختيار الصورة <small lang="en" dir="ltr">Choose image</small></label>
+        <input id="upload-file" name="file" type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/svg+xml" required>
+        <p class="field-help">JPG, PNG, WebP, AVIF أو SVG، الحد الأقصى 12 MB.</p>
+      </div>
+
+      <div class="dialog-actions">
+        <button class="admin-btn admin-btn--primary" type="submit">
+          رفع الصورة <span lang="en" dir="ltr">Upload</span>
+        </button>
+        <button class="admin-btn admin-btn--quiet" type="button" data-action="close-upload">
+          إلغاء <span lang="en" dir="ltr">Cancel</span>
+        </button>
+      </div>
+
+      <div class="upload-result" id="upload-result" hidden>
+        <div id="upload-preview"></div>
+        <div class="admin-field">
+          <label for="uploaded-path">المسار الجاهز <small lang="en" dir="ltr">Ready-to-use path</small></label>
+          <div class="inline-control">
+            <input id="uploaded-path" type="text" readonly dir="ltr">
+            <button class="admin-btn admin-btn--quiet" type="button" data-action="copy-upload-path">نسخ <span lang="en" dir="ltr">Copy</span></button>
+          </div>
+        </div>
+        <button class="admin-btn admin-btn--accent" id="use-uploaded-path" type="button" data-action="use-uploaded-path" hidden>
+          استخدام في الحقل <span lang="en" dir="ltr">Use in field</span>
+        </button>
+      </div>
+      <p class="form-message" id="upload-message" role="status" aria-live="polite"></p>
+    </form>
+  </dialog>
+
+  <noscript>
+    <div class="noscript-note">لوحة الإدارة محتاج JavaScript علشان تشتغل. · This dashboard requires JavaScript.</div>
+  </noscript>
+</body>
+</html>
