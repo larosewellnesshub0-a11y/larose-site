@@ -7,7 +7,7 @@
    "featured": true,
    "type": "ebook",
    "icon": "book",
-   "image": "assets/img/digital/recipe-book.webp",
+   "image": "assets/img/digital/recipe-book-cover.webp",
    "name": {
     "ar": "كتاب وصفات لاروز",
     "en": "The La Rose Recipe Book"
@@ -43,7 +43,7 @@
     "en": "Order the book on WhatsApp"
    },
    "showPrice": false,
-   "_todo": "Supply the final price, the page count, a cover image and 2–3 sample recipe spreads for the product page. A source recipe book already exists at `website data/Recipe Book`، check whether this is the same product before writing new content.",
+   "_todo": "Supply the final price, the page count, 2–3 sample recipe spreads for the product page. A source recipe book already exists at `website data/Recipe Book`، check whether this is the same product before writing new content.",
    "short": {
     "ar": "٢٥٠ وصفة مصرية من أكل البيت، بالسعرات والماكروز",
     "en": "250 Egyptian home-style recipes, with calories and macros"

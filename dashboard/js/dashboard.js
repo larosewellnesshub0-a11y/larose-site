@@ -1764,8 +1764,10 @@
         imagesError: state.imagesError,
       });
     }
+    else if (["leads", "media-buying", "campaigns", "tips"].includes(state.section)) {
+      html = renderGrowthSection(state.section);
+    }
     else if (COLLECTION_SECTIONS[state.section]) html = renderCollectionSection(state.section);
-    else if (["leads", "media-buying", "tips"].includes(state.section)) html = renderGrowthSection(state.section);
     else if (state.section === "settings") html = renderSettings();
     else if (state.section === "images") html = renderImages();
     else html = renderBackups();

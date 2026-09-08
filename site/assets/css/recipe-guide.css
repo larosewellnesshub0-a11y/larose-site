@@ -36,7 +36,7 @@
 
 .rg-head__inner {
   display: grid;
-  grid-template-columns: auto minmax(12rem, 30rem) auto;
+  grid-template-columns: auto auto minmax(12rem, 30rem) auto;
   gap: 1rem;
   align-items: center;
   justify-content: space-between;
@@ -118,7 +118,8 @@
   }
   .rg-brand { grid-column: 1; grid-row: 1; }
   .rg-lang { grid-column: 2; grid-row: 1; }
-  .rg-search { grid-column: 1 / -1; grid-row: 2; }
+  .rg-back { grid-column: 1 / -1; grid-row: 2; }
+  .rg-search { grid-column: 1 / -1; grid-row: 3; }
 }
 
 /* ---- hero --------------------------------------------------------------- */
@@ -392,7 +393,8 @@
 .rg-watch__btn svg { color: #c00; flex: none; }
 
 /* ---- product landing ---------------------------------------------------- */
-.rg-back { color: var(--ink-strong); font-size: var(--t-sm); font-weight: 600; }
+.rg-back { color: var(--ink-strong); font-size: var(--t-sm); font-weight: 600; white-space: nowrap; padding: .55rem .9rem; border: 1px solid var(--line); border-radius: 999px; }
+.rg-back:hover { background: var(--paper-sunk); }
 .rg-landing__hero { padding-block: clamp(3rem, 7vw, 7rem); background: var(--paper-sunk); }
 .rg-landing__hero-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(240px, .8fr); gap: clamp(2rem, 6vw, 5rem); align-items: center; }
 .rg-landing__cover { width: min(100%, 28rem); margin-inline: auto; border-radius: 46% 46% 1.25rem 1.25rem / 18% 18% 1.25rem 1.25rem; box-shadow: var(--shadow-lg); }
@@ -408,3 +410,11 @@
 .rg-btn--dark { color: var(--ink-strong); border-color: var(--line); }
 .rg-btn--dark:hover { background: var(--paper); }
 @media (max-width: 720px) { .rg-landing__hero-grid { grid-template-columns: 1fr; } .rg-landing__cover { max-width: 20rem; } }
+
+/* The landing hero sits on light paper, unlike the free guide's olive hero,
+   so its eyebrow and lede need ink colours rather than on-dark ones. */
+.rg-landing__hero .rg-hero__eyebrow { color: var(--champagne-700); }
+.rg-landing__hero .rg-hero__title { color: var(--ink); }
+.rg-landing__hero .rg-hero__lede { color: var(--ink-muted); margin-inline: 0; }
+.rg-landing__hero .rg-hero__lede, .rg-landing__hero .rg-hero__title { text-align: start; }
+.rg-landing__hero .rg-cta__actions { justify-content: flex-start; }
