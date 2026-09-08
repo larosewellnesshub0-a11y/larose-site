@@ -67,3 +67,6 @@ After editing ids: Save in the dashboard → Publish (or `node build/build.mjs` 
   (client-side gate; change the hash in `dashboard/js/auth.js`).
 - Clarity: signing in with larosewellnesshub0@gmail.com (Google) in progress.
 - GA4: analytics.google.com is blocked in the Chrome extension permissions; create the property manually or allow the domain.
+- 00:45: Clarity project `yfaiazec51` (account larosewellnesshub0, Google sign-in) live on every page; Google
+  site-verification meta live. GA4 property and the Apps Script redeploy (READ_TOKEN + UTM columns) still need
+  the Chrome extension to be allowed on analytics.google.com and script.google.com.
