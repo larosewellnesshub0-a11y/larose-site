@@ -2,7 +2,8 @@
   "use strict";
 
   const $ = (selector, root = document) => root.querySelector(selector);
-  const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
+  const $$ = (selector, root = document) =>
+    Array.from(root.querySelectorAll(selector));
 
   const shell = $("#admin-shell");
   const sidebar = $("#admin-sidebar");
@@ -67,7 +68,9 @@
     },
     digital: {
       file: "digital.json",
-      groups: [{ key: "products", ar: "المنتجات الرقمية", en: "Digital products" }],
+      groups: [
+        { key: "products", ar: "المنتجات الرقمية", en: "Digital products" },
+      ],
     },
     campaigns: {
       file: "campaigns.json",
@@ -222,8 +225,14 @@
     email: ["البريد الإلكتروني", "Email"],
     media: ["سجل الصور", "Media registry"],
     illustrative: ["صورة توضيحية مؤقتة", "Illustrative placeholder"],
-    _todoAddress: ["بيانات العنوان المطلوب تأكيدها", "Address details needing confirmation"],
-    _todoBylines: ["بيانات الكاتب والمراجع المطلوب تأكيدها", "Author and reviewer details needing confirmation"],
+    _todoAddress: [
+      "بيانات العنوان المطلوب تأكيدها",
+      "Address details needing confirmation",
+    ],
+    _todoBylines: [
+      "بيانات الكاتب والمراجع المطلوب تأكيدها",
+      "Author and reviewer details needing confirmation",
+    ],
     _todoReview: ["مراجعة مطلوبة قبل النشر", "Review needed before publishing"],
     addReview: ["نص زر أضف تجربتك", "Share-experience button text"],
     analytics: ["أكواد القياس والتحقق", "Analytics & verification"],
@@ -232,13 +241,21 @@
     metaPixelId: ["معرّف Meta Pixel", "Meta Pixel ID"],
     tiktokPixelId: ["معرّف TikTok Pixel", "TikTok Pixel ID"],
     googleSiteVerification: ["رمز تحقق Google", "Google verification token"],
-    googleVerificationFile: ["اسم ملف تحقق Google", "Google verification filename"],
+    googleVerificationFile: [
+      "اسم ملف تحقق Google",
+      "Google verification filename",
+    ],
     bingSiteVerification: ["رمز تحقق Bing", "Bing verification token"],
-    platform: ["المنصة", "Platform"], objective: ["الهدف", "Objective"],
-    startDate: ["تاريخ البداية", "Start date"], endDate: ["تاريخ النهاية", "End date"],
-    budget: ["الميزانية الداخلية", "Internal budget"], utmSource: ["مصدر UTM", "UTM source"],
-    utmMedium: ["وسيط UTM", "UTM medium"], utmCampaign: ["اسم حملة UTM", "UTM campaign"],
-    landingUrl: ["صفحة الهبوط", "Landing URL"], notes: ["ملاحظات", "Notes"],
+    platform: ["المنصة", "Platform"],
+    objective: ["الهدف", "Objective"],
+    startDate: ["تاريخ البداية", "Start date"],
+    endDate: ["تاريخ النهاية", "End date"],
+    budget: ["الميزانية الداخلية", "Internal budget"],
+    utmSource: ["مصدر UTM", "UTM source"],
+    utmMedium: ["وسيط UTM", "UTM medium"],
+    utmCampaign: ["اسم حملة UTM", "UTM campaign"],
+    landingUrl: ["صفحة الهبوط", "Landing URL"],
+    notes: ["ملاحظات", "Notes"],
     altLabel: ["اسم اللغة البديل", "Alternative language label"],
     ar: ["النص بالعربية", "Arabic text"],
     blurb: ["نبذة تذييل الموقع", "Footer summary"],
@@ -252,7 +269,10 @@
     close: ["نص زر الإغلاق", "Close button text"],
     code: ["كود اللغة", "Language code"],
     comingSoon: ["رسالة قريباً", "Coming-soon message"],
-    conditionsTreated: ["عنوان الحالات اللي بنعالجها", "Conditions-treated heading"],
+    conditionsTreated: [
+      "عنوان الحالات اللي بنعالجها",
+      "Conditions-treated heading",
+    ],
     copyright: ["نص حقوق النشر", "Copyright text"],
     dir: ["اتجاه الكتابة", "Text direction"],
     disclaimer: ["التنبيه الطبي", "Medical disclaimer"],
@@ -265,12 +285,18 @@
     homeHero: ["صورة واجهة الصفحة الرئيسية", "Home-page hero image"],
     homeVisits: ["نص الزيارات المنزلية", "Home-visits text"],
     instagram: ["رابط إنستجرام", "Instagram URL"],
-    instagramBeforeAfter: ["رابط إنستجرام لقبل وبعد", "Before-and-after Instagram URL"],
+    instagramBeforeAfter: [
+      "رابط إنستجرام لقبل وبعد",
+      "Before-and-after Instagram URL",
+    ],
     instagramStories: ["رابط قصص إنستجرام", "Instagram Stories URL"],
     integrations: ["إعدادات استقبال النماذج", "Form integration settings"],
     key: ["المفتاح الداخلي للقائمة", "Navigation item key"],
     knowledgeCentre: ["عنوان مركز المعرفة", "Knowledge-centre heading"],
-    latinTerms: ["مصطلحات تُعرض بالحروف اللاتينية", "Terms displayed in Latin script"],
+    latinTerms: [
+      "مصطلحات تُعرض بالحروف اللاتينية",
+      "Terms displayed in Latin script",
+    ],
     learnMore: ["نص زر اعرف أكتر", "Learn-more button text"],
     line1: ["السطر الأول من اسم العلامة", "Wordmark first line"],
     line2: ["السطر الثاني من اسم العلامة", "Wordmark second line"],
@@ -280,9 +306,18 @@
     n: ["الرقم الظاهر", "Displayed statistic"],
     number: ["رقم واتساب بدون تنسيق", "Unformatted WhatsApp number"],
     onlineFollowUp: ["نص المتابعة أونلاين", "Online-follow-up text"],
-    onlineGroup: ["تفاصيل السعر الداخلي للمجموعة أونلاين", "Internal online-group pricing"],
-    onlinePrivate3Months: ["تفاصيل السعر الداخلي للمتابعة الخاصة لثلاثة أشهر", "Internal three-month private pricing"],
-    onlinePrivateMonth: ["تفاصيل السعر الداخلي للمتابعة الخاصة لشهر", "Internal one-month private pricing"],
+    onlineGroup: [
+      "تفاصيل السعر الداخلي للمجموعة أونلاين",
+      "Internal online-group pricing",
+    ],
+    onlinePrivate3Months: [
+      "تفاصيل السعر الداخلي للمتابعة الخاصة لثلاثة أشهر",
+      "Internal three-month private pricing",
+    ],
+    onlinePrivateMonth: [
+      "تفاصيل السعر الداخلي للمتابعة الخاصة لشهر",
+      "Internal one-month private pricing",
+    ],
     openNow: ["رسالة مفتوح الآن", "Open-now message"],
     openingSoon: ["رسالة الافتتاح قريباً", "Opening-soon message"],
     ourDoctors: ["عنوان أطباء القسم", "Department-doctors heading"],
@@ -292,7 +327,10 @@
     publishedOn: ["نص تاريخ النشر", "Published-on text"],
     qa: ["عنوان اسأل الطبيب", "Ask-the-doctor heading"],
     readMore: ["نص زر اقرأ المزيد", "Read-more button text"],
-    recipeBook: ["تفاصيل السعر الداخلي لكتاب الوصفات", "Internal recipe-book pricing"],
+    recipeBook: [
+      "تفاصيل السعر الداخلي لكتاب الوصفات",
+      "Internal recipe-book pricing",
+    ],
     reset: ["نص زر إعادة البدء", "Reset button text"],
     resultsVary: ["تنبيه اختلاف النتائج", "Results-vary notice"],
     sampleContent: ["تنبيه المحتوى التجريبي", "Sample-content notice"],
@@ -316,7 +354,10 @@
     whatsappShort: ["نص واتساب المختصر", "Short WhatsApp text"],
     wordmarkWhite: ["ملف الشعار النصي الفاتح", "Light wordmark file"],
     youtube: ["رابط يوتيوب", "YouTube URL"],
-    youtubeTestimonials: ["رابط تجارب العملاء على يوتيوب", "YouTube testimonials URL"],
+    youtubeTestimonials: [
+      "رابط تجارب العملاء على يوتيوب",
+      "YouTube testimonials URL",
+    ],
   };
 
   const ARRAY_ITEM_TEMPLATES = {
@@ -348,7 +389,14 @@
     sections: { id: "", heading: { ar: "", en: "" }, body: { ar: "", en: "" } },
     sources: { label: "", url: "" },
     photos: { src: "", alt: { ar: "", en: "" } },
-    nav: { key: "", label: { ar: "", en: "" }, href: "", mega: false, childrenFrom: "", children: [] },
+    nav: {
+      key: "",
+      label: { ar: "", en: "" },
+      href: "",
+      mega: false,
+      childrenFrom: "",
+      children: [],
+    },
     stats: { n: "", label: { ar: "", en: "" } },
     columns: { title: { ar: "", en: "" }, linksFrom: "", links: [] },
     links: { label: { ar: "", en: "" }, href: "" },
@@ -403,7 +451,8 @@
       bio: { ar: "", en: "" },
       _evidence: "",
       _source: "",
-      _todo: "Confirm title, credentials, schedule, branches, specialties, biography, and portrait with the clinic before publishing.",
+      _todo:
+        "Confirm title, credentials, schedule, branches, specialties, biography, and portrait with the clinic before publishing.",
     },
     branches: {
       slug: "",
@@ -427,7 +476,8 @@
       photos: [],
       intro: { ar: "", en: "" },
       gettingHere: { ar: [], en: [] },
-      _todo: "Confirm the address, schedule, contact details, map, and photographs with the clinic before publishing.",
+      _todo:
+        "Confirm the address, schedule, contact details, map, and photographs with the clinic before publishing.",
     },
     categories: {
       slug: "",
@@ -454,7 +504,8 @@
       sources: [],
       tags: { ar: [], en: [] },
       imagePlaceholder: false,
-      _todo: "Confirm the author, reviewer, sources, and medical copy before publishing.",
+      _todo:
+        "Confirm the author, reviewer, sources, and medical copy before publishing.",
     },
     reviews: {
       id: "",
@@ -488,24 +539,73 @@
       showPrice: false,
       _todo: "Confirm the product details with the clinic before publishing.",
     },
-    campaigns: { id: "", name: "", platform: "meta", objective: "leads", status: "planned", startDate: "", endDate: "", budget: 0, currency: "EGP", utmSource: "", utmMedium: "", utmCampaign: "", landingUrl: "", audience: "", notes: "" },
+    campaigns: {
+      id: "",
+      name: "",
+      platform: "meta",
+      objective: "leads",
+      status: "planned",
+      startDate: "",
+      endDate: "",
+      budget: 0,
+      currency: "EGP",
+      utmSource: "",
+      utmMedium: "",
+      utmCampaign: "",
+      landingUrl: "",
+      audience: "",
+      notes: "",
+    },
   };
 
   const VALIDATION_RULES = {
-    "specialties.json": [{ key: "specialties", id: "slug", required: ["slug", "name.ar", "name.en"] }],
-    "doctors.json": [{ key: "doctors", id: "slug", required: ["slug", "name.ar", "name.en"] }],
-    "branches.json": [{ key: "branches", id: "slug", required: ["slug", "status", "name.ar", "name.en"] }],
+    "specialties.json": [
+      {
+        key: "specialties",
+        id: "slug",
+        required: ["slug", "name.ar", "name.en"],
+      },
+    ],
+    "doctors.json": [
+      { key: "doctors", id: "slug", required: ["slug", "name.ar", "name.en"] },
+    ],
+    "branches.json": [
+      {
+        key: "branches",
+        id: "slug",
+        required: ["slug", "status", "name.ar", "name.en"],
+      },
+    ],
     "articles.json": [
-      { key: "categories", id: "slug", required: ["slug", "name.ar", "name.en"] },
-      { key: "articles", id: "slug", required: ["slug", "type", "category", "title.ar", "title.en"] },
+      {
+        key: "categories",
+        id: "slug",
+        required: ["slug", "name.ar", "name.en"],
+      },
+      {
+        key: "articles",
+        id: "slug",
+        required: ["slug", "type", "category", "title.ar", "title.en"],
+      },
     ],
     "reviews.json": [{ key: "reviews", id: "id", required: ["id"] }],
-    "digital.json": [{ key: "products", id: "slug", required: ["slug", "type", "name.ar", "name.en"] }],
-    "campaigns.json": [{ key: "campaigns", id: "id", required: ["id", "name"] }],
+    "digital.json": [
+      {
+        key: "products",
+        id: "slug",
+        required: ["slug", "type", "name.ar", "name.en"],
+      },
+    ],
+    "campaigns.json": [
+      { key: "campaigns", id: "id", required: ["id", "name"] },
+    ],
   };
 
   const FILE_SECTIONS = Object.fromEntries(
-    Object.entries(COLLECTION_SECTIONS).map(([section, config]) => [config.file, section]),
+    Object.entries(COLLECTION_SECTIONS).map(([section, config]) => [
+      config.file,
+      section,
+    ]),
   );
 
   const state = {
@@ -597,9 +697,11 @@
   }
 
   function isBilingual(value) {
-    return isPlainObject(value)
-      && Object.prototype.hasOwnProperty.call(value, "ar")
-      && Object.prototype.hasOwnProperty.call(value, "en");
+    return (
+      isPlainObject(value) &&
+      Object.prototype.hasOwnProperty.call(value, "ar") &&
+      Object.prototype.hasOwnProperty.call(value, "en")
+    );
   }
 
   function deepClone(value) {
@@ -609,7 +711,12 @@
   function blankLike(value, key = "") {
     if (Array.isArray(value)) return [];
     if (isPlainObject(value)) {
-      return Object.fromEntries(Object.entries(value).map(([childKey, child]) => [childKey, blankLike(child, childKey)]));
+      return Object.fromEntries(
+        Object.entries(value).map(([childKey, child]) => [
+          childKey,
+          blankLike(child, childKey),
+        ]),
+      );
     }
     if (typeof value === "boolean") return key === "published";
     if (typeof value === "number") return 0;
@@ -632,15 +739,22 @@
   function setAt(root, path, value) {
     if (!path.length) return;
     const parent = getAt(root, path.slice(0, -1));
-    if (parent !== undefined && parent !== null) parent[path[path.length - 1]] = value;
+    if (parent !== undefined && parent !== null)
+      parent[path[path.length - 1]] = value;
   }
 
   function dottedPath(path) {
-    return path.map((part, index) => typeof part === "number" ? `[${part}]` : `${index ? "." : ""}${part}`).join("");
+    return path
+      .map((part, index) =>
+        typeof part === "number" ? `[${part}]` : `${index ? "." : ""}${part}`,
+      )
+      .join("");
   }
 
   function requiredPathsFor(file, collection, item) {
-    const rule = (VALIDATION_RULES[file] || []).find((candidate) => candidate.key === collection);
+    const rule = (VALIDATION_RULES[file] || []).find(
+      (candidate) => candidate.key === collection,
+    );
     if (!rule) return [];
     const required = [...rule.required];
     if (collection === "reviews" && item?.published === true) {
@@ -652,57 +766,122 @@
   function isRequiredPath(file, path) {
     if (file === "site.json") {
       return [
-        "brand.name.ar", "brand.name.en", "brand.domain",
-        "contact.phone.display", "contact.phone.tel",
+        "brand.name.ar",
+        "brand.name.en",
+        "brand.domain",
+        "contact.phone.display",
+        "contact.phone.tel",
       ].includes(path.join("."));
     }
     const [collection, index, ...relative] = path;
-    if (typeof collection !== "string" || !Number.isInteger(index)) return false;
+    if (typeof collection !== "string" || !Number.isInteger(index))
+      return false;
     const item = state.content[file]?.[collection]?.[index];
-    return requiredPathsFor(file, collection, item).includes(relative.join("."));
+    return requiredPathsFor(file, collection, item).includes(
+      relative.join("."),
+    );
   }
 
   function validateFile(file) {
     const data = state.content[file];
     const issues = [];
-    if (!isPlainObject(data)) return [{ path: [], message: "The content root must be a JSON object." }];
+    if (!isPlainObject(data))
+      return [{ path: [], message: "The content root must be a JSON object." }];
     /* Keep this identical to rule 8 in tools/validate.mjs. Internal figures
        belong only under a pricing/price(s) subtree; every other string can be
        rendered publicly and must be stopped before the save reaches disk. */
-    const priceLeak = /[\d\u0660-\u0669][\d,\u0660-\u0669\s]{1,8}(\u062c\.?\u0645|\u062c\u0646\u064a\u0647|\bEGP\b|\bLE\b)/;
+    const priceLeak =
+      /[\d\u0660-\u0669][\d,\u0660-\u0669\s]{1,8}(\u062c\.?\u0645|\u062c\u0646\u064a\u0647|\bEGP\b|\bLE\b)/;
     const pricingPath = /(^|\.)(pricing|prices|price)(\.|\[|$)/i;
 
     const walk = (value, path = []) => {
-      if (Array.isArray(value)) return value.forEach((child, index) => walk(child, path.concat(index)));
+      if (Array.isArray(value))
+        return value.forEach((child, index) => walk(child, path.concat(index)));
       if (!isPlainObject(value)) return;
       Object.entries(value).forEach(([key, child]) => {
         const nextPath = path.concat(key);
         if (key === "showPrice" && child !== false) {
-          issues.push({ path: nextPath, message: `${dottedPath(nextPath)} must remain false.` });
+          issues.push({
+            path: nextPath,
+            message: `${dottedPath(nextPath)} must remain false.`,
+          });
         }
-        if (typeof child === "string" && child && !pricingPath.test(dottedPath(nextPath))) {
+        if (
+          typeof child === "string" &&
+          child &&
+          !pricingPath.test(dottedPath(nextPath))
+        ) {
           const leak = priceLeak.exec(child);
           if (leak) {
-            issues.push({ path: nextPath, message: `${dottedPath(nextPath)} looks like it contains a price ("${leak[0].trim()}"). Prices are never shown publicly.` });
+            issues.push({
+              path: nextPath,
+              message: `${dottedPath(nextPath)} looks like it contains a price ("${leak[0].trim()}"). Prices are never shown publicly.`,
+            });
           }
         }
-        if (/url$/i.test(key) && typeof child === "string" && child && !/^https?:\/\//i.test(child)) {
-          issues.push({ path: nextPath, message: `${dottedPath(nextPath)} must be a complete http(s) URL.` });
+        if (
+          /url$/i.test(key) &&
+          typeof child === "string" &&
+          child &&
+          !/^https?:\/\//i.test(child)
+        ) {
+          issues.push({
+            path: nextPath,
+            message: `${dottedPath(nextPath)} must be a complete http(s) URL.`,
+          });
         }
-        if (key === "date" && typeof child === "string" && child && !/^\d{4}-\d{2}-\d{2}$/.test(child)) {
-          issues.push({ path: nextPath, message: `${dottedPath(nextPath)} must use YYYY-MM-DD.` });
+        if (
+          key === "date" &&
+          typeof child === "string" &&
+          child &&
+          !/^\d{4}-\d{2}-\d{2}$/.test(child)
+        ) {
+          issues.push({
+            path: nextPath,
+            message: `${dottedPath(nextPath)} must use YYYY-MM-DD.`,
+          });
         }
-        if (key === "checked" && typeof child === "string" && child && !/^\d{4}-\d{2}$/.test(child)) {
-          issues.push({ path: nextPath, message: `${dottedPath(nextPath)} must use YYYY-MM.` });
+        if (
+          key === "checked" &&
+          typeof child === "string" &&
+          child &&
+          !/^\d{4}-\d{2}$/.test(child)
+        ) {
+          issues.push({
+            path: nextPath,
+            message: `${dottedPath(nextPath)} must use YYYY-MM.`,
+          });
         }
-        if (/email/i.test(key) && typeof child === "string" && child && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(child)) {
-          issues.push({ path: nextPath, message: `${dottedPath(nextPath)} must be a valid email address.` });
+        if (
+          /email/i.test(key) &&
+          typeof child === "string" &&
+          child &&
+          !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(child)
+        ) {
+          issues.push({
+            path: nextPath,
+            message: `${dottedPath(nextPath)} must be a valid email address.`,
+          });
         }
-        if (key === "lat" && child !== null && (!Number.isFinite(child) || child < -90 || child > 90)) {
-          issues.push({ path: nextPath, message: `${dottedPath(nextPath)} must be between -90 and 90.` });
+        if (
+          key === "lat" &&
+          child !== null &&
+          (!Number.isFinite(child) || child < -90 || child > 90)
+        ) {
+          issues.push({
+            path: nextPath,
+            message: `${dottedPath(nextPath)} must be between -90 and 90.`,
+          });
         }
-        if (key === "lng" && child !== null && (!Number.isFinite(child) || child < -180 || child > 180)) {
-          issues.push({ path: nextPath, message: `${dottedPath(nextPath)} must be between -180 and 180.` });
+        if (
+          key === "lng" &&
+          child !== null &&
+          (!Number.isFinite(child) || child < -180 || child > 180)
+        ) {
+          issues.push({
+            path: nextPath,
+            message: `${dottedPath(nextPath)} must be between -180 and 180.`,
+          });
         }
         walk(child, nextPath);
       });
@@ -712,38 +891,65 @@
     (VALIDATION_RULES[file] || []).forEach((rule) => {
       const items = data[rule.key];
       if (!Array.isArray(items)) {
-        issues.push({ path: [rule.key], message: `${rule.key} must be an array.` });
+        issues.push({
+          path: [rule.key],
+          message: `${rule.key} must be an array.`,
+        });
         return;
       }
       const seen = new Set();
       items.forEach((item, index) => {
         const base = [rule.key, index];
         if (!isPlainObject(item)) {
-          issues.push({ path: base, message: `${dottedPath(base)} must be an object.` });
+          issues.push({
+            path: base,
+            message: `${dottedPath(base)} must be an object.`,
+          });
           return;
         }
         requiredPathsFor(file, rule.key, item).forEach((requiredPath) => {
           const path = requiredPath.split(".");
           const value = getAt(item, path);
           if (typeof value !== "string" || !value.trim()) {
-            issues.push({ path: base.concat(path), message: `${dottedPath(base.concat(path))} is required.` });
+            issues.push({
+              path: base.concat(path),
+              message: `${dottedPath(base.concat(path))} is required.`,
+            });
           }
         });
         const identifier = item[rule.id];
         if (typeof identifier === "string" && identifier) {
           if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(identifier)) {
-            issues.push({ path: base.concat(rule.id), message: `${dottedPath(base.concat(rule.id))} must use lowercase Latin letters, numbers, and hyphens.` });
+            issues.push({
+              path: base.concat(rule.id),
+              message: `${dottedPath(base.concat(rule.id))} must use lowercase Latin letters, numbers, and hyphens.`,
+            });
           }
           if (seen.has(identifier)) {
-            issues.push({ path: base.concat(rule.id), message: `${rule.id} "${identifier}" is duplicated.` });
+            issues.push({
+              path: base.concat(rule.id),
+              message: `${rule.id} "${identifier}" is duplicated.`,
+            });
           }
           seen.add(identifier);
         }
-        if (Object.prototype.hasOwnProperty.call(item, "rating") && (!Number.isFinite(item.rating) || item.rating < 1 || item.rating > 5)) {
-          issues.push({ path: base.concat("rating"), message: `${dottedPath(base.concat("rating"))} must be between 1 and 5.` });
+        if (
+          Object.prototype.hasOwnProperty.call(item, "rating") &&
+          (!Number.isFinite(item.rating) || item.rating < 1 || item.rating > 5)
+        ) {
+          issues.push({
+            path: base.concat("rating"),
+            message: `${dottedPath(base.concat("rating"))} must be between 1 and 5.`,
+          });
         }
-        if (Object.prototype.hasOwnProperty.call(item, "readingTime") && (!Number.isFinite(item.readingTime) || item.readingTime < 0)) {
-          issues.push({ path: base.concat("readingTime"), message: `${dottedPath(base.concat("readingTime"))} must be zero or greater.` });
+        if (
+          Object.prototype.hasOwnProperty.call(item, "readingTime") &&
+          (!Number.isFinite(item.readingTime) || item.readingTime < 0)
+        ) {
+          issues.push({
+            path: base.concat("readingTime"),
+            message: `${dottedPath(base.concat("readingTime"))} must be zero or greater.`,
+          });
         }
       });
     });
@@ -766,7 +972,8 @@
     if (!isPlainObject(item)) return String(item ?? `#${index + 1}`);
     const candidates = [item.name, item.title, item.shortName, item.label];
     for (const candidate of candidates) {
-      if (isBilingual(candidate)) return candidate.ar || candidate.en || item.slug || `#${index + 1}`;
+      if (isBilingual(candidate))
+        return candidate.ar || candidate.en || item.slug || `#${index + 1}`;
       if (typeof candidate === "string" && candidate) return candidate;
     }
     return item.slug || item.id || item.type || `#${index + 1}`;
@@ -780,7 +987,10 @@
   async function api(path, options = {}) {
     const response = await fetch(path, {
       ...options,
-      headers: { "content-type": "application/json", ...(options.headers || {}) },
+      headers: {
+        "content-type": "application/json",
+        ...(options.headers || {}),
+      },
     });
     let body = null;
     try {
@@ -789,7 +999,9 @@
       body = null;
     }
     if (!response.ok) {
-      const error = new Error(body?.error || `${response.status} ${response.statusText}`);
+      const error = new Error(
+        body?.error || `${response.status} ${response.statusText}`,
+      );
       error.validationErrors = body?.validationErrors || [];
       // A 409 carries the current file, so the caller can offer to load it.
       error.conflict = Boolean(body?.conflict);
@@ -818,12 +1030,24 @@
 
   function fileState(file) {
     if (state.savingFiles.has(file)) {
-      return { className: "is-saving", ar: "جاري حفظ الملف", en: "Saving file" };
+      return {
+        className: "is-saving",
+        ar: "جاري حفظ الملف",
+        en: "Saving file",
+      };
     }
     if (state.dirtyFiles.has(file)) {
-      return { className: "is-dirty", ar: "تغييرات في المسودة لم تُحفظ", en: "Draft has unsaved changes" };
+      return {
+        className: "is-dirty",
+        ar: "تغييرات في المسودة لم تُحفظ",
+        en: "Draft has unsaved changes",
+      };
     }
-    return { className: "is-saved", ar: "لا توجد تغييرات للحفظ", en: "No unsaved changes" };
+    return {
+      className: "is-saved",
+      ar: "لا توجد تغييرات للحفظ",
+      en: "No unsaved changes",
+    };
   }
 
   function renderFileState(file) {
@@ -831,7 +1055,11 @@
     return `<span class="editor-file-state ${status.className}" data-file-state="${escapeHtml(file)}">${bilingualHeading(status.ar, status.en)}</span>`;
   }
 
-  function renderEditorSavebar(file, labelAr = "حفظ الملف", labelEn = "Save file") {
+  function renderEditorSavebar(
+    file,
+    labelAr = "حفظ الملف",
+    labelEn = "Save file",
+  ) {
     return `<div class="editor-savebar" data-savebar-file="${escapeHtml(file)}" role="region" aria-label="حفظ ${escapeHtml(file)} · Save ${escapeHtml(file)}">
       <div class="editor-savebar__state">
         ${renderFileState(file)}
@@ -845,7 +1073,8 @@
   }
 
   function currentFile() {
-    if (COLLECTION_SECTIONS[state.section]) return COLLECTION_SECTIONS[state.section].file;
+    if (COLLECTION_SECTIONS[state.section])
+      return COLLECTION_SECTIONS[state.section].file;
     if (state.section === "settings") return state.settingsFile;
     if (state.section === "images") return "site.json";
     if (state.section === "tips") return "tips.json";
@@ -859,28 +1088,49 @@
     if (hasDirty) {
       const files = [...state.dirtyFiles].sort();
       dirtyPill.innerHTML = `<span class="dirty-pill__mark" aria-hidden="true">!</span><span>${state.dirtyFiles.size} ملف غير محفوظ <small lang="en" dir="ltr">${state.dirtyFiles.size} unsaved</small></span>`;
-      dirtyPill.setAttribute("aria-label", `ملفات غير محفوظة: ${files.join(", ")} · Unsaved files: ${files.join(", ")}`);
+      dirtyPill.setAttribute(
+        "aria-label",
+        `ملفات غير محفوظة: ${files.join(", ")} · Unsaved files: ${files.join(", ")}`,
+      );
       dirtyPill.title = files.join(", ");
     } else {
       dirtyPill.removeAttribute("aria-label");
       dirtyPill.removeAttribute("title");
     }
-    topSave.disabled = !file || !state.dirtyFiles.has(file) || !state.connected || state.savingFiles.has(file);
-    topSave.setAttribute("aria-busy", state.savingFiles.has(file) ? "true" : "false");
-    topSave.setAttribute("aria-label", file
-      ? `حفظ ${file} فقط · Save ${file} only`
-      : "لا يوجد ملف مفتوح للحفظ · No editable file is open");
-    topSave.title = file ? `${file} · ${state.dirtyFiles.has(file) ? "Unsaved" : "No unsaved changes"}` : "";
+    topSave.disabled =
+      !file ||
+      !state.dirtyFiles.has(file) ||
+      !state.connected ||
+      state.savingFiles.has(file);
+    topSave.setAttribute(
+      "aria-busy",
+      state.savingFiles.has(file) ? "true" : "false",
+    );
+    topSave.setAttribute(
+      "aria-label",
+      file
+        ? `حفظ ${file} فقط · Save ${file} only`
+        : "لا يوجد ملف مفتوح للحفظ · No editable file is open",
+    );
+    topSave.title = file
+      ? `${file} · ${state.dirtyFiles.has(file) ? "Unsaved" : "No unsaved changes"}`
+      : "";
 
-    $$('[data-file-state]').forEach((element) => {
+    $$("[data-file-state]").forEach((element) => {
       const status = fileState(element.dataset.fileState);
       element.className = `editor-file-state ${status.className}`;
       element.innerHTML = bilingualHeading(status.ar, status.en);
     });
     $$('[data-action="save-file"][data-file]').forEach((button) => {
       const buttonFile = button.dataset.file;
-      button.disabled = !state.connected || !state.dirtyFiles.has(buttonFile) || state.savingFiles.has(buttonFile);
-      button.setAttribute("aria-busy", state.savingFiles.has(buttonFile) ? "true" : "false");
+      button.disabled =
+        !state.connected ||
+        !state.dirtyFiles.has(buttonFile) ||
+        state.savingFiles.has(buttonFile);
+      button.setAttribute(
+        "aria-busy",
+        state.savingFiles.has(buttonFile) ? "true" : "false",
+      );
     });
 
     connectionPill.classList.remove("is-loading", "is-error");
@@ -895,7 +1145,9 @@
     toast.textContent = message;
     toast.className = `admin-toast${type ? ` is-${type}` : ""}`;
     toast.hidden = false;
-    toastTimer = window.setTimeout(() => { toast.hidden = true; }, 6500);
+    toastTimer = window.setTimeout(() => {
+      toast.hidden = true;
+    }, 6500);
   }
 
   function setFormMessage(message, type = "") {
@@ -917,13 +1169,15 @@
 
   function getTimestampFromStatus(status) {
     if (!status) return null;
-    return status.lastBuildTime
-      || status.lastBuild
-      || status.builtAt
-      || status.buildTime
-      || status.updatedAt
-      || status.build?.finishedAt
-      || null;
+    return (
+      status.lastBuildTime ||
+      status.lastBuild ||
+      status.builtAt ||
+      status.buildTime ||
+      status.updatedAt ||
+      status.build?.finishedAt ||
+      null
+    );
   }
 
   function formatTimestamp(value) {
@@ -950,11 +1204,15 @@
         return;
       }
       if (Array.isArray(value)) {
-        value.forEach((child, index) => collectTodoStrings(child, file, path.concat(index)));
+        value.forEach((child, index) =>
+          collectTodoStrings(child, file, path.concat(index)),
+        );
         return;
       }
       if (isPlainObject(value)) {
-        Object.entries(value).forEach(([key, child]) => collectTodoStrings(child, file, path.concat(key)));
+        Object.entries(value).forEach(([key, child]) =>
+          collectTodoStrings(child, file, path.concat(key)),
+        );
       }
     }
 
@@ -971,7 +1229,9 @@
       });
     }
 
-    Object.entries(state.content).forEach(([file, data]) => walk(data, file, []));
+    Object.entries(state.content).forEach(([file, data]) =>
+      walk(data, file, []),
+    );
     return todos;
   }
 
@@ -983,16 +1243,32 @@
   function renderGrowthSection(section) {
     state.editorContext = null;
     return window.DashboardGrowth.render(section, {
-      content: state.content, status: state.apiStatus, markDirty, render, saveFile,
-      setEditorContext(value) { state.editorContext = value; },
+      content: state.content,
+      status: state.apiStatus,
+      markDirty,
+      render,
+      saveFile,
+      setEditorContext(value) {
+        state.editorContext = value;
+      },
     });
   }
 
   function countIllustrative(value) {
-    if (Array.isArray(value)) return value.reduce((total, child) => total + countIllustrative(child), 0);
+    if (Array.isArray(value))
+      return value.reduce(
+        (total, child) => total + countIllustrative(child),
+        0,
+      );
     if (!isPlainObject(value)) return 0;
-    return (value.illustrative === true ? 1 : 0)
-      + Object.entries(value).reduce((total, [key, child]) => total + (key === "illustrative" ? 0 : countIllustrative(child)), 0);
+    return (
+      (value.illustrative === true ? 1 : 0) +
+      Object.entries(value).reduce(
+        (total, [key, child]) =>
+          total + (key === "illustrative" ? 0 : countIllustrative(child)),
+        0,
+      )
+    );
   }
 
   function renderPipelinePanel(result) {
@@ -1028,17 +1304,33 @@
     const specialties = collectionArray("specialties.json", "specialties");
     const doctors = collectionArray("doctors.json", "doctors");
     const articles = collectionArray("articles.json", "articles");
-    const publishedSpecialties = specialties.filter((item) => item.published === true).length;
-    const unpublishedSpecialties = specialties.filter((item) => item.published !== true).length;
-    const doctorsWithoutPortrait = doctors.filter((item) => !String(item.portrait || "").trim()).length;
+    const publishedSpecialties = specialties.filter(
+      (item) => item.published === true,
+    ).length;
+    const unpublishedSpecialties = specialties.filter(
+      (item) => item.published !== true,
+    ).length;
+    const doctorsWithoutPortrait = doctors.filter(
+      (item) => !String(item.portrait || "").trim(),
+    ).length;
     const doctorsWithoutCredentials = doctors.filter((item) => {
-      const ar = Array.isArray(item.credentials?.ar) ? item.credentials.ar.filter(Boolean) : [];
-      const en = Array.isArray(item.credentials?.en) ? item.credentials.en.filter(Boolean) : [];
+      const ar = Array.isArray(item.credentials?.ar)
+        ? item.credentials.ar.filter(Boolean)
+        : [];
+      const en = Array.isArray(item.credentials?.en)
+        ? item.credentials.en.filter(Boolean)
+        : [];
       return !ar.length || !en.length;
     }).length;
-    const articlesWithoutAuthor = articles.filter((item) => !String(item.author || "").trim()).length;
-    const articlesWithoutReviewer = articles.filter((item) => !String(item.reviewedBy || "").trim()).length;
-    const illustrativeImages = countIllustrative(state.content["site.json"]?.media);
+    const articlesWithoutAuthor = articles.filter(
+      (item) => !String(item.author || "").trim(),
+    ).length;
+    const articlesWithoutReviewer = articles.filter(
+      (item) => !String(item.reviewedBy || "").trim(),
+    ).length;
+    const illustrativeImages = countIllustrative(
+      state.content["site.json"]?.media,
+    );
     const todos = findTodos();
     const status = state.apiStatus || {};
     const lastBuild = formatTimestamp(getTimestampFromStatus(status));
@@ -1047,9 +1339,17 @@
       ["تخصص منشور", "Published specialties", publishedSpecialties],
       ["تخصص غير منشور", "Unpublished specialties", unpublishedSpecialties],
       ["طبيب بدون صورة", "Doctors missing portrait", doctorsWithoutPortrait],
-      ["طبيب بمؤهلات ناقصة", "Doctors missing credentials", doctorsWithoutCredentials],
+      [
+        "طبيب بمؤهلات ناقصة",
+        "Doctors missing credentials",
+        doctorsWithoutCredentials,
+      ],
       ["محتوى بدون كاتب", "Articles missing author", articlesWithoutAuthor],
-      ["محتوى بدون مراجع", "Articles missing reviewer", articlesWithoutReviewer],
+      [
+        "محتوى بدون مراجع",
+        "Articles missing reviewer",
+        articlesWithoutReviewer,
+      ],
       ["صورة توضيحية مؤقتة", "Illustrative images", illustrativeImages],
       ["معلومة مطلوبة", "TODO entries", todos.length],
     ];
@@ -1080,10 +1380,14 @@
         <h2 id="counts-title">أعداد المحتوى <small lang="en" dir="ltr">Content counts</small></h2>
       </div>
       <div class="count-grid">
-        ${cards.map(([ar, en, count]) => `<article class="metric-card">
+        ${cards
+          .map(
+            ([ar, en, count]) => `<article class="metric-card">
           <strong class="metric-card__number">${count}</strong>
           <span class="metric-card__label">${escapeHtml(ar)} <small lang="en" dir="ltr">${escapeHtml(en)}</small></span>
-        </article>`).join("")}
+        </article>`,
+          )
+          .join("")}
       </div>
     </section>
 
@@ -1094,12 +1398,22 @@
           <p>${todos.length} بند موجود تحت مفتاح <code>_todo</code><span class="english-copy" lang="en" dir="ltr">${todos.length} strings found recursively.</span></p>
         </div>
       </div>
-      ${todos.length ? `<div class="todo-list">${todos.map((todo) => `<button class="todo-item" type="button" data-action="open-todo" data-file="${escapeHtml(todo.file)}" data-path="${pathToken(todo.path)}">
+      ${
+        todos.length
+          ? `<div class="todo-list">${todos
+              .map(
+                (
+                  todo,
+                ) => `<button class="todo-item" type="button" data-action="open-todo" data-file="${escapeHtml(todo.file)}" data-path="${pathToken(todo.path)}">
         <strong>${escapeHtml(todo.file)}</strong>
         <code>${escapeHtml(todo.pathLabel)}</code>
         <p>${escapeHtml(todo.text)}</p>
         <span class="todo-item__action">افتح المحرر <small lang="en" dir="ltr">Open editor</small></span>
-      </button>`).join("")}</div>` : '<p class="collection-empty">لا توجد بنود ناقصة مسجلة. · No <code>_todo</code> strings found.</p>'}
+      </button>`,
+              )
+              .join("")}</div>`
+          : '<p class="collection-empty">لا توجد بنود ناقصة مسجلة. · No <code>_todo</code> strings found.</p>'
+      }
     </section>
     ${renderPipelinePanel(state.pipelineResult)}`;
   }
@@ -1107,7 +1421,9 @@
   function activeGroup(section) {
     const config = COLLECTION_SECTIONS[section];
     const savedKey = state.activeGroups[section];
-    return config.groups.find((group) => group.key === savedKey) || config.groups[0];
+    return (
+      config.groups.find((group) => group.key === savedKey) || config.groups[0]
+    );
   }
 
   function selectionKey(section, groupKey) {
@@ -1115,13 +1431,21 @@
   }
 
   function isPendingReview(review) {
-    return review?.status === "pending" || review?.approved === false || review?.published === false;
+    return (
+      review?.status === "pending" ||
+      review?.approved === false ||
+      review?.published === false
+    );
   }
 
   function orderedIndices(items, section) {
     const indices = items.map((_, index) => index);
     if (section === "reviews") {
-      indices.sort((a, b) => Number(isPendingReview(items[b])) - Number(isPendingReview(items[a])) || a - b);
+      indices.sort(
+        (a, b) =>
+          Number(isPendingReview(items[b])) -
+            Number(isPendingReview(items[a])) || a - b,
+      );
     }
     return indices;
   }
@@ -1144,7 +1468,11 @@
   function matchesQuery(item, q) {
     if (!q) return true;
     const hay = JSON.stringify(item || {}).toLowerCase();
-    return q.toLowerCase().split(/\s+/).filter(Boolean).every((w) => hay.includes(w));
+    return q
+      .toLowerCase()
+      .split(/\s+/)
+      .filter(Boolean)
+      .every((w) => hay.includes(w));
   }
 
   function resetListFilters() {
@@ -1161,7 +1489,13 @@
     return [...seen.entries()].sort((a, b) => b[1] - a[1]);
   }
 
-  function renderCollectionList({ section, file, group, items, selectedIndex }) {
+  function renderCollectionList({
+    section,
+    file,
+    group,
+    items,
+    selectedIndex,
+  }) {
     const q = state.listQuery || "";
     const facet = state.listFacet || "";
     const facets = typeFacets(items);
@@ -1170,17 +1504,24 @@
       if (facet && it?.type !== facet) return false;
       return matchesQuery(it, q);
     });
-    const tools = (items.length > 8 || facets.length) ? `
+    const tools =
+      items.length > 8 || facets.length
+        ? `
       <div class="list-tools">
         <input class="list-search" type="search" data-list-search value="${escapeHtml(q)}"
                placeholder="ابحث في القائمة · Search this list"
                aria-label="ابحث في القائمة · Search this list">
-        ${facets.length ? `<div class="list-filters">
+        ${
+          facets.length
+            ? `<div class="list-filters">
           <button class="list-filter" type="button" data-list-facet="" aria-pressed="${!facet}">الكل <small lang="en" dir="ltr">All ${items.length}</small></button>
           ${facets.map(([t, n]) => `<button class="list-filter" type="button" data-list-facet="${escapeHtml(t)}" aria-pressed="${facet === t}">${escapeHtml(t)} ${n}</button>`).join("")}
-        </div>` : ""}
+        </div>`
+            : ""
+        }
         <span class="list-count">${ordered.length} من ${items.length}<small lang="en" dir="ltr">Showing ${ordered.length} of ${items.length}</small></span>
-      </div>` : "";
+      </div>`
+        : "";
     return `<aside class="collection-panel" aria-label="${escapeHtml(group.ar)} · ${escapeHtml(group.en)}">
       <div class="collection-panel__head">
         <span class="collection-count">${items.length} عنصر<small lang="en" dir="ltr">${items.length} items</small></span>
@@ -1190,11 +1531,15 @@
       </div>
       ${tools}
       <div class="collection-list">
-        ${ordered.length ? ordered.map((index) => {
-          const item = items[index];
-          const selected = index === selectedIndex;
-          const pending = section === "reviews" && isPendingReview(item);
-          return `<article class="collection-item${selected ? " is-selected" : ""}">
+        ${
+          ordered.length
+            ? ordered
+                .map((index) => {
+                  const item = items[index];
+                  const selected = index === selectedIndex;
+                  const pending =
+                    section === "reviews" && isPendingReview(item);
+                  return `<article class="collection-item${selected ? " is-selected" : ""}">
             <button class="collection-item__open" type="button" data-action="select-item" data-index="${index}" data-collection="${escapeHtml(group.key)}"${selected ? ' aria-current="true"' : ""}>
               <span class="collection-item__name">${escapeHtml(itemName(item, index))}</span>
               <span class="collection-item__meta">
@@ -1206,22 +1551,33 @@
             <div class="collection-item__tools">
               <button class="icon-action" type="button" data-action="move-item" data-file="${escapeHtml(file)}" data-collection="${escapeHtml(group.key)}" data-index="${index}" data-direction="-1" aria-label="حرّك ${escapeHtml(itemName(item, index))} لأعلى · Move up" ${index === 0 ? "disabled" : ""}>↑</button>
               <button class="icon-action" type="button" data-action="move-item" data-file="${escapeHtml(file)}" data-collection="${escapeHtml(group.key)}" data-index="${index}" data-direction="1" aria-label="حرّك ${escapeHtml(itemName(item, index))} لأسفل · Move down" ${index === items.length - 1 ? "disabled" : ""}>↓</button>
-              ${Object.prototype.hasOwnProperty.call(item || {}, "published") ? `<label class="mini-toggle" title="منشور · Published">
+              ${
+                Object.prototype.hasOwnProperty.call(item || {}, "published")
+                  ? `<label class="mini-toggle" title="منشور · Published">
                 <input type="checkbox" data-list-published data-file="${escapeHtml(file)}" data-collection="${escapeHtml(group.key)}" data-index="${index}" ${item?.published === true ? "checked" : ""}>
                 <span>نشر <small lang="en" dir="ltr">Live</small></span>
-              </label>` : ""}
+              </label>`
+                  : ""
+              }
               ${livePathFor(section, item) ? `<a class="item-preview" href="${escapeHtml(livePathFor(section, item))}" target="_blank" rel="noopener" title="افتح الصفحة على الموقع · Open on the site">معاينة <small lang="en" dir="ltr">View</small></a>` : ""}
             </div>
           </article>`;
-        }).join("") : (q || facet)
-          ? '<p class="collection-empty">مفيش نتائج للبحث ده. · No items match this search.</p>'
-          : '<p class="collection-empty">القائمة فاضية حالياً. · This collection is empty.</p>'}
+                })
+                .join("")
+            : q || facet
+              ? '<p class="collection-empty">مفيش نتائج للبحث ده. · No items match this search.</p>'
+              : '<p class="collection-empty">القائمة فاضية حالياً. · This collection is empty.</p>'
+        }
       </div>
     </aside>`;
   }
 
   function renderCollectionEditor({ file, group, items, selectedIndex }) {
-    if (selectedIndex === null || selectedIndex === undefined || !items[selectedIndex]) {
+    if (
+      selectedIndex === null ||
+      selectedIndex === undefined ||
+      !items[selectedIndex]
+    ) {
       return `<section class="editor-panel editor-panel--empty">
         <div><p>اختار عنصراً من القائمة أو أضِف عنصراً جديداً.</p><small lang="en" dir="ltr">Select an item or add a new one.</small></div>
       </section>`;
@@ -1253,7 +1609,9 @@
   }
 
   function renderFileExtras(file, fileData, collectionKeys) {
-    const extras = Object.fromEntries(Object.entries(fileData).filter(([key]) => !collectionKeys.includes(key)));
+    const extras = Object.fromEntries(
+      Object.entries(fileData).filter(([key]) => !collectionKeys.includes(key)),
+    );
     if (!Object.keys(extras).length) return "";
     return `<details class="admin-panel file-extras">
       <summary>${bilingualHeading("حقول الملف الإضافية", "Additional file fields")}</summary>
@@ -1268,7 +1626,9 @@
   }
 
   function renderReviewModeration(items) {
-    const pending = items.map((review, index) => ({ review, index })).filter(({ review }) => isPendingReview(review));
+    const pending = items
+      .map((review, index) => ({ review, index }))
+      .filter(({ review }) => isPendingReview(review));
     return `<section class="admin-panel moderation-panel" aria-labelledby="moderation-title">
       <div class="panel-head">
         <div>
@@ -1276,7 +1636,11 @@
           <p>${pending.length} رأي في انتظار المراجعة<span class="english-copy" lang="en" dir="ltr">${pending.length} pending reviews.</span></p>
         </div>
       </div>
-      ${pending.length ? `<div class="moderation-list">${pending.map(({ review, index }) => `<article class="moderation-item">
+      ${
+        pending.length
+          ? `<div class="moderation-list">${pending
+              .map(
+                ({ review, index }) => `<article class="moderation-item">
         <div>
           <strong>${escapeHtml(itemName(review, index))}</strong>
           <p>${escapeHtml((isBilingual(review.text) ? review.text.ar || review.text.en : review.text) || "بدون نص · No text")}</p>
@@ -1285,7 +1649,11 @@
           <button class="admin-btn admin-btn--primary admin-btn--sm" type="button" data-action="approve-review" data-index="${index}">اعتماد <span lang="en" dir="ltr">Approve</span></button>
           <button class="admin-btn admin-btn--danger admin-btn--sm" type="button" data-action="delete-review" data-index="${index}">حذف <span lang="en" dir="ltr">Delete</span></button>
         </div>
-      </article>`).join("")}</div>` : '<p class="collection-empty">لا توجد آراء معلّقة. · No pending reviews.</p>'}
+      </article>`,
+              )
+              .join("")}</div>`
+          : '<p class="collection-empty">لا توجد آراء معلّقة. · No pending reviews.</p>'
+      }
     </section>
 
     <section class="admin-panel" aria-labelledby="paste-title">
@@ -1311,18 +1679,39 @@
     const items = fileData[group.key];
     const key = selectionKey(section, group.key);
     let selectedIndex = state.selected[key];
-    if (selectedIndex !== null && selectedIndex !== undefined && !items[selectedIndex]) selectedIndex = null;
-    if ((selectedIndex === null || selectedIndex === undefined) && items.length) selectedIndex = 0;
+    if (
+      selectedIndex !== null &&
+      selectedIndex !== undefined &&
+      !items[selectedIndex]
+    )
+      selectedIndex = null;
+    if ((selectedIndex === null || selectedIndex === undefined) && items.length)
+      selectedIndex = 0;
     state.selected[key] = selectedIndex;
-    state.editorContext = { file: config.file, root: fileData, mode: "collection", collection: group.key, index: selectedIndex };
+    state.editorContext = {
+      file: config.file,
+      root: fileData,
+      mode: "collection",
+      collection: group.key,
+      index: selectedIndex,
+    };
     fieldSequence = 0;
 
     const meta = SECTION_META[section];
-    const tabs = config.groups.length > 1 ? `<div class="collection-tabs" role="tablist" aria-label="أنواع المحتوى · Content groups">
-      ${config.groups.map((candidate) => `<button class="segment-btn${candidate.key === group.key ? " is-active" : ""}" id="collection-tab-${escapeHtml(section)}-${escapeHtml(candidate.key)}" type="button" role="tab" aria-selected="${candidate.key === group.key}" aria-controls="collection-panel-${escapeHtml(section)}-${escapeHtml(candidate.key)}" tabindex="${candidate.key === group.key ? "0" : "-1"}" data-action="select-collection" data-section="${section}" data-collection="${candidate.key}">
+    const tabs =
+      config.groups.length > 1
+        ? `<div class="collection-tabs" role="tablist" aria-label="أنواع المحتوى · Content groups">
+      ${config.groups
+        .map(
+          (
+            candidate,
+          ) => `<button class="segment-btn${candidate.key === group.key ? " is-active" : ""}" id="collection-tab-${escapeHtml(section)}-${escapeHtml(candidate.key)}" type="button" role="tab" aria-selected="${candidate.key === group.key}" aria-controls="collection-panel-${escapeHtml(section)}-${escapeHtml(candidate.key)}" tabindex="${candidate.key === group.key ? "0" : "-1"}" data-action="select-collection" data-section="${section}" data-collection="${candidate.key}">
         ${escapeHtml(candidate.ar)} <small lang="en" dir="ltr">${escapeHtml(candidate.en)}</small>
-      </button>`).join("")}
-    </div>` : "";
+      </button>`,
+        )
+        .join("")}
+    </div>`
+        : "";
 
     return `${viewHeading(meta, "عدّل المحتوى بلغتيه واحفظ الملف لإعادة بناء الموقع وفحصه تلقائياً. · Edit both languages, then save the file to rebuild and validate the site.")}
       ${tabs}
@@ -1331,61 +1720,93 @@
         ${renderCollectionList({ section, file: config.file, group, items, selectedIndex })}
         ${renderCollectionEditor({ file: config.file, group, items, selectedIndex })}
       </div>
-      ${renderFileExtras(config.file, fileData, config.groups.map((candidate) => candidate.key))}`;
+      ${renderFileExtras(
+        config.file,
+        fileData,
+        config.groups.map((candidate) => candidate.key),
+      )}`;
   }
 
   function inputTypeFor(key, value) {
     if (typeof value === "number") return "number";
     if (key === "date") return "date";
-    if (key === "checked" && /^\d{4}-\d{2}$/.test(String(value))) return "month";
+    if (key === "checked" && /^\d{4}-\d{2}$/.test(String(value)))
+      return "month";
     if (/email/i.test(key)) return "email";
     if (/url$/i.test(key)) return "url";
     return "text";
   }
 
   function shouldUseTextarea(key, value) {
-    return typeof value === "string" && (
-      value.length > 90
-      || value.includes("\n")
-      || /(body|bio|intro|description|excerpt|summary|text|note|todo|disclaimer|blurb)/i.test(key)
+    return (
+      typeof value === "string" &&
+      (value.length > 90 ||
+        value.includes("\n") ||
+        /(body|bio|intro|description|excerpt|summary|text|note|todo|disclaimer|blurb)/i.test(
+          key,
+        ))
     );
   }
 
   function isImageKey(key) {
-    return /^(image|imageAlt|portrait|portrait2x|photo|thumbnail|cover|src|logo|before|after)$/i.test(key) && key !== "imageAlt";
+    return (
+      /^(image|imageAlt|portrait|portrait2x|photo|thumbnail|cover|src|logo|before|after)$/i.test(
+        key,
+      ) && key !== "imageAlt"
+    );
   }
 
   function scalarAttributes(key, value, path) {
     const attributes = [];
-    if (isRequiredPath(state.editorContext?.file, path)) attributes.push("required", 'aria-required="true"');
+    if (isRequiredPath(state.editorContext?.file, path))
+      attributes.push("required", 'aria-required="true"');
     if (key === "slug" || key === "id") {
-      attributes.push('pattern="[a-z0-9]+(?:-[a-z0-9]+)*"', 'title="Lowercase Latin letters, numbers, and hyphens only"');
+      attributes.push(
+        'pattern="[a-z0-9]+(?:-[a-z0-9]+)*"',
+        'title="Lowercase Latin letters, numbers, and hyphens only"',
+      );
     }
     if (key === "rating") attributes.push('min="1"', 'max="5"', 'step="1"');
     if (key === "readingTime") attributes.push('min="0"', 'step="1"');
     if (key === "lat") attributes.push('min="-90"', 'max="90"', 'step="any"');
     if (key === "lng") attributes.push('min="-180"', 'max="180"', 'step="any"');
-    if (typeof value === "number" && !["rating", "readingTime", "lat", "lng"].includes(key)) attributes.push('step="any"');
+    if (
+      typeof value === "number" &&
+      !["rating", "readingTime", "lat", "lng"].includes(key)
+    )
+      attributes.push('step="any"');
     return attributes.join(" ");
   }
 
   function enumOptionsFor(key) {
     const file = state.editorContext?.file;
-    if (file === "articles.json" && key === "type") return ["article", "update", "qa", "tip"];
+    if (file === "articles.json" && key === "type")
+      return ["article", "update", "qa", "tip"];
     if (file === "digital.json" && key === "type") return ["ebook", "service"];
     if (file === "branches.json" && key === "status") return ["open", "soon"];
-    if (file === "reviews.json" && key === "status") return ["pending", "approved"];
+    if (file === "reviews.json" && key === "status")
+      return ["pending", "approved"];
     return null;
   }
 
-  function renderScalarInput(key, value, path, customLabel = null, direction = null) {
+  function renderScalarInput(
+    key,
+    value,
+    path,
+    customLabel = null,
+    direction = null,
+  ) {
     const id = nextFieldId();
     const required = isRequiredPath(state.editorContext?.file, path);
     const label = `${customLabel || labelHtml(key)}${required ? requiredMarkHtml() : ""}`;
     const token = pathToken(path);
     const originalType = value === null ? "null" : typeof value;
     const safeValue = value === null || value === undefined ? "" : value;
-    const dirAttribute = direction ? ` dir="${direction}"` : (typeof safeValue === "string" ? ' dir="auto"' : "");
+    const dirAttribute = direction
+      ? ` dir="${direction}"`
+      : typeof safeValue === "string"
+        ? ' dir="auto"'
+        : "";
 
     if (typeof value === "boolean") {
       return `<div class="boolean-field">
@@ -1415,10 +1836,11 @@
 
     // Show the image, not just its path. A path alone gives an editor no way
     // to tell a correct value from a stale or wrong one.
-    const preview = typeof safeValue === "string" && safeValue.trim()
-      ? `<img class="field-thumb" src="../${escapeHtml(safeValue)}" alt=""
+    const preview =
+      typeof safeValue === "string" && safeValue.trim()
+        ? `<img class="field-thumb" src="../${escapeHtml(safeValue)}" alt=""
              onerror="this.dataset.missing='1';this.replaceWith(Object.assign(document.createElement('p'),{className:'field-thumb-missing',textContent:'الملف مش موجود · File not found'}))">`
-      : "";
+        : "";
     return `<div class="image-control">
       ${field}
       <div class="image-control__actions">
@@ -1430,8 +1852,9 @@
   }
 
   function renderBilingualField(key, value, path, depth) {
-    const required = isRequiredPath(state.editorContext?.file, path.concat("ar"))
-      || isRequiredPath(state.editorContext?.file, path.concat("en"));
+    const required =
+      isRequiredPath(state.editorContext?.file, path.concat("ar")) ||
+      isRequiredPath(state.editorContext?.file, path.concat("en"));
     return `<section class="bilingual-field">
       <p class="field-label">${labelHtml(key)}${required ? requiredMarkHtml() : ""}</p>
       <div class="bilingual-grid">
@@ -1448,21 +1871,36 @@
   }
 
   function renderLocaleValue(key, value, path, locale, depth) {
-    if (Array.isArray(value)) return renderArrayEditor(key, value, path, depth + 1, true, locale);
-    if (isPlainObject(value)) return renderObjectField(key, value, path, depth + 1);
+    if (Array.isArray(value))
+      return renderArrayEditor(key, value, path, depth + 1, true, locale);
+    if (isPlainObject(value))
+      return renderObjectField(key, value, path, depth + 1);
     const [ar, en] = labelsFor(key);
-    const label = locale === "ar"
-      ? `<span lang="ar">${escapeHtml(ar)}، العربية</span>`
-      : `<span lang="en">${escapeHtml(en)}, English</span>`;
-    return renderScalarInput(key, value, path, label, locale === "ar" ? "rtl" : "ltr");
+    const label =
+      locale === "ar"
+        ? `<span lang="ar">${escapeHtml(ar)}، العربية</span>`
+        : `<span lang="en">${escapeHtml(en)}, English</span>`;
+    return renderScalarInput(
+      key,
+      value,
+      path,
+      label,
+      locale === "ar" ? "rtl" : "ltr",
+    );
   }
 
   function arrayItemTemplate(key, items, path) {
     const joined = path.join(".");
-    if (state.editorContext?.file === "reviews.json" && joined === "topics.items") {
+    if (
+      state.editorContext?.file === "reviews.json" &&
+      joined === "topics.items"
+    ) {
       return { count: 0, label: { ar: "", en: "" } };
     }
-    if (state.editorContext?.file === "reviews.json" && joined === "pending.items") {
+    if (
+      state.editorContext?.file === "reviews.json" &&
+      joined === "pending.items"
+    ) {
       return deepClone(COLLECTION_TEMPLATES.reviews);
     }
     if (ARRAY_ITEM_TEMPLATES[key]) return deepClone(ARRAY_ITEM_TEMPLATES[key]);
@@ -1470,14 +1908,25 @@
     return "";
   }
 
-  function renderArrayEditor(key, items, path, depth, embedded = false, locale = null) {
-    const hasObjects = items.some(isPlainObject) || isPlainObject(ARRAY_ITEM_TEMPLATES[key]);
+  function renderArrayEditor(
+    key,
+    items,
+    path,
+    depth,
+    embedded = false,
+    locale = null,
+  ) {
+    const hasObjects =
+      items.some(isPlainObject) || isPlainObject(ARRAY_ITEM_TEMPLATES[key]);
     const body = `<div class="array-field__body">
       <div>
-        ${items.length ? items.map((item, index) => {
-          const itemPath = path.concat(index);
-          if (isPlainObject(item)) {
-            return `<article class="repeat-card">
+        ${
+          items.length
+            ? items
+                .map((item, index) => {
+                  const itemPath = path.concat(index);
+                  if (isPlainObject(item)) {
+                    return `<article class="repeat-card">
               <div class="repeat-card__head">
                 <strong>${escapeHtml(labelsFor(key)[0])} ${index + 1} <small lang="en" dir="ltr">Item ${index + 1}</small></strong>
                 <div class="row-actions">
@@ -1488,19 +1937,22 @@
               </div>
               <div class="form-section">${renderObjectFields(item, itemPath, depth + 1)}</div>
             </article>`;
-          }
-          const customLabel = locale
-            ? `<span lang="${locale}">${escapeHtml(locale === "ar" ? labelsFor(key)[0] : labelsFor(key)[1])}${locale === "ar" ? "، العربية" : ", English"} ${index + 1}</span>`
-            : `${labelHtml(key)} ${index + 1}`;
-          return `<div class="array-row">
-            ${renderScalarInput(key, item, itemPath, customLabel, locale === "ar" ? "rtl" : (locale === "en" ? "ltr" : null))}
+                  }
+                  const customLabel = locale
+                    ? `<span lang="${locale}">${escapeHtml(locale === "ar" ? labelsFor(key)[0] : labelsFor(key)[1])}${locale === "ar" ? "، العربية" : ", English"} ${index + 1}</span>`
+                    : `${labelHtml(key)} ${index + 1}`;
+                  return `<div class="array-row">
+            ${renderScalarInput(key, item, itemPath, customLabel, locale === "ar" ? "rtl" : locale === "en" ? "ltr" : null)}
             <div class="row-actions">
               <button class="icon-action" type="button" data-action="move-array-item" data-path="${pathToken(itemPath)}" data-direction="-1" aria-label="حرّك العنصر لأعلى · Move item up" ${index === 0 ? "disabled" : ""}>↑</button>
               <button class="icon-action" type="button" data-action="move-array-item" data-path="${pathToken(itemPath)}" data-direction="1" aria-label="حرّك العنصر لأسفل · Move item down" ${index === items.length - 1 ? "disabled" : ""}>↓</button>
               <button class="admin-btn admin-btn--danger admin-btn--sm" type="button" data-action="remove-array-item" data-path="${pathToken(itemPath)}">حذف <span lang="en" dir="ltr">Remove</span></button>
             </div>
           </div>`;
-        }).join("") : '<p class="field-help">القائمة فاضية. · Empty list.</p>'}
+                })
+                .join("")
+            : '<p class="field-help">القائمة فاضية. · Empty list.</p>'
+        }
       </div>
       <div class="array-actions">
         <button class="admin-btn admin-btn--quiet admin-btn--sm" type="button" data-action="add-array-item" data-path="${pathToken(path)}" data-array-key="${escapeHtml(key)}" data-object-items="${hasObjects}">
@@ -1509,7 +1961,8 @@
       </div>
     </div>`;
 
-    if (embedded) return `<div class="array-field" style="margin-top:.3rem">${body}</div>`;
+    if (embedded)
+      return `<div class="array-field" style="margin-top:.3rem">${body}</div>`;
     return `<details class="array-field" ${depth < 2 ? "open" : ""}>
       <summary><span>${labelHtml(key)}</span><small>${items.length} items</small></summary>
       ${body}
@@ -1524,7 +1977,8 @@
   }
 
   function renderField(key, value, path, depth) {
-    if (isBilingual(value)) return renderBilingualField(key, value, path, depth);
+    if (isBilingual(value))
+      return renderBilingualField(key, value, path, depth);
     if (Array.isArray(value)) return renderArrayEditor(key, value, path, depth);
     if (isPlainObject(value)) return renderObjectField(key, value, path, depth);
     return renderScalarInput(key, value, path);
@@ -1532,13 +1986,21 @@
 
   function renderObjectFields(object, basePath, depth) {
     const entries = Object.entries(object || {});
-    if (!entries.length) return '<p class="collection-empty">لا توجد حقول في هذا الكائن. · This object has no fields.</p>';
-    return entries.map(([key, value]) => renderField(key, value, basePath.concat(key), depth)).join("");
+    if (!entries.length)
+      return '<p class="collection-empty">لا توجد حقول في هذا الكائن. · This object has no fields.</p>';
+    return entries
+      .map(([key, value]) =>
+        renderField(key, value, basePath.concat(key), depth),
+      )
+      .join("");
   }
 
   function renderSettings() {
-    const files = ["site.json", "pages.json"].filter((file) => state.content[file]);
-    if (!files.includes(state.settingsFile)) state.settingsFile = files[0] || "site.json";
+    const files = ["site.json", "pages.json"].filter(
+      (file) => state.content[file],
+    );
+    if (!files.includes(state.settingsFile))
+      state.settingsFile = files[0] || "site.json";
     const file = state.settingsFile;
     const root = state.content[file] || {};
     state.editorContext = { file, root, mode: "root" };
@@ -1569,7 +2031,8 @@
      project there was no way to see, find or reuse what already existed.
      ------------------------------------------------------------------ */
   async function loadImages() {
-    if (state.imagesLoaded || state.imagesLoading || state.imagesAttempted) return;
+    if (state.imagesLoaded || state.imagesLoading || state.imagesAttempted)
+      return;
     state.imagesLoading = true;
     state.imagesError = null;
     try {
@@ -1587,7 +2050,8 @@
         state.imagesAttempted = false;
         state.images = [];
         loadImages();
-      } else if (state.section === "images" || state.section === "analytics") render();
+      } else if (state.section === "images" || state.section === "analytics")
+        render();
     }
   }
 
@@ -1603,7 +2067,9 @@
 
   function humanBytes(n) {
     if (!n) return "";
-    return n > 1024 * 1024 ? (n / 1048576).toFixed(1) + " MB" : Math.round(n / 1024) + " KB";
+    return n > 1024 * 1024
+      ? (n / 1048576).toFixed(1) + " MB"
+      : Math.round(n / 1024) + " KB";
   }
 
   function renderImages() {
@@ -1616,9 +2082,11 @@
     const dirs = [...new Set(all.map((i) => i.dir))].sort();
     const dirFilter = state.imageDir || "";
     const q = (state.imageQuery || "").toLowerCase();
-    const shown = all.filter((i) =>
-      (!dirFilter || i.dir === dirFilter) &&
-      (!q || i.path.toLowerCase().includes(q)));
+    const shown = all.filter(
+      (i) =>
+        (!dirFilter || i.dir === dirFilter) &&
+        (!q || i.path.toLowerCase().includes(q)),
+    );
 
     const tools = `
       <div class="media-tools">
@@ -1631,10 +2099,13 @@
         </div>
       </div>`;
 
-    const grid = state.imagesLoading && !state.imagesLoaded
-      ? '<p class="collection-empty">جاري التحميل… · Loading…</p>'
-      : shown.length
-        ? `<div class="media-grid">${shown.map((i) => `
+    const grid =
+      state.imagesLoading && !state.imagesLoaded
+        ? '<p class="collection-empty">جاري التحميل… · Loading…</p>'
+        : shown.length
+          ? `<div class="media-grid">${shown
+              .map(
+                (i) => `
             <figure class="media-item">
               <img src="../${escapeHtml(i.path)}" alt="" loading="lazy">
               <figcaption>
@@ -1645,16 +2116,22 @@
                       data-action="copy-image-path" data-path="${escapeHtml(i.path)}">
                 نسخ المسار <span lang="en" dir="ltr">Copy path</span>
               </button>
-            </figure>`).join("")}</div>`
-        : '<p class="collection-empty">مفيش صور مطابقة. · No images match.</p>';
+            </figure>`,
+              )
+              .join("")}</div>`
+          : '<p class="collection-empty">مفيش صور مطابقة. · No images match.</p>';
 
     return `${viewHeading(
       SECTION_META.images,
       "كل صور الموقع في مكان واحد. ابحث، اعرض، انسخ المسار، أو ارفع صورة جديدة. · Every image in the project: search it, view it, copy its path, or upload a new one.",
       '<button class="admin-btn admin-btn--accent" type="button" data-action="open-upload">رفع صورة <span lang="en" dir="ltr">Upload image</span></button>',
     )}
-    ${state.imagesError ? `<p class="form-message is-error">${escapeHtml(state.imagesError)}
-      <button class="admin-btn admin-btn--quiet" type="button" data-action="refresh-images">إعادة المحاولة <span lang="en" dir="ltr">Retry</span></button></p>` : ""}
+    ${
+      state.imagesError
+        ? `<p class="form-message is-error">${escapeHtml(state.imagesError)}
+      <button class="admin-btn admin-btn--quiet" type="button" data-action="refresh-images">إعادة المحاولة <span lang="en" dir="ltr">Retry</span></button></p>`
+        : ""
+    }
     <section class="admin-panel" aria-labelledby="media-registry-title">
       <div class="panel-head">
         <div>
@@ -1670,18 +2147,26 @@
     </section>
     ${tools}
     ${grid}
-    ${state.uploadedValue ? `<article class="info-card" style="margin-top:1rem">
+    ${
+      state.uploadedValue
+        ? `<article class="info-card" style="margin-top:1rem">
       <h2>آخر مسار <small lang="en" dir="ltr">Latest uploaded path</small></h2>
       <div class="inline-control">
         <input type="text" value="${escapeHtml(state.uploadedValue)}" readonly aria-label="آخر مسار مرفوع · Latest uploaded path" dir="ltr">
         <button class="admin-btn admin-btn--quiet" type="button" data-action="copy-latest-path">نسخ <span lang="en" dir="ltr">Copy</span></button>
       </div>
-    </article>` : ""}`;
+    </article>`
+        : ""
+    }`;
   }
 
   async function loadBackups(force = false) {
-    if (force) { state.backupsLoaded = false; state.backupsAttempted = false; }
-    if (state.backupsLoaded || state.backupsLoading || state.backupsAttempted) return;
+    if (force) {
+      state.backupsLoaded = false;
+      state.backupsAttempted = false;
+    }
+    if (state.backupsLoaded || state.backupsLoading || state.backupsAttempted)
+      return;
     state.backupsLoading = true;
     state.backupsError = null;
     try {
@@ -1700,12 +2185,16 @@
   function renderBackups() {
     state.editorContext = null;
     loadBackups();
-    const rows = state.backups.map((backup) => `<tr>
+    const rows = state.backups
+      .map(
+        (backup) => `<tr>
       <td><code dir="ltr">${escapeHtml(backup.file)}</code></td>
       <td>${escapeHtml(formatTimestamp(backup.createdAt))}</td>
       <td dir="ltr">${escapeHtml(humanBytes(backup.bytes) || `${backup.bytes} B`)}</td>
       <td><button class="admin-btn admin-btn--danger admin-btn--sm" type="button" data-action="restore-backup" data-backup="${escapeHtml(backup.name)}" data-file="${escapeHtml(backup.file)}">استرجاع <span lang="en" dir="ltr">Restore</span></button></td>
-    </tr>`).join("");
+    </tr>`,
+      )
+      .join("");
     return `${viewHeading(
       SECTION_META.backups,
       "الحفظ من لوحة الإدارة ينشئ نسخة احتياطية قبل استبدال أي ملف. · Every dashboard save creates a backup before replacing a file.",
@@ -1719,14 +2208,16 @@
         </div>
       </div>
       ${state.backupsError ? `<p class="form-message is-error">${escapeHtml(state.backupsError)}</p>` : ""}
-      ${state.backupsLoading && !state.backupsLoaded
-        ? '<p class="collection-empty">جاري تحميل النسخ… · Loading backups…</p>'
-        : state.backups.length
-          ? `<div class="table-scroll" tabindex="0" aria-label="قائمة النسخ الاحتياطية · Backup list"><table class="backup-table">
+      ${
+        state.backupsLoading && !state.backupsLoaded
+          ? '<p class="collection-empty">جاري تحميل النسخ… · Loading backups…</p>'
+          : state.backups.length
+            ? `<div class="table-scroll" tabindex="0" aria-label="قائمة النسخ الاحتياطية · Backup list"><table class="backup-table">
               <thead><tr><th scope="col">${bilingualHeading("الملف", "File")}</th><th scope="col">${bilingualHeading("التاريخ", "Timestamp")}</th><th scope="col">${bilingualHeading("الحجم", "Size")}</th><th scope="col">${bilingualHeading("إجراء", "Action")}</th></tr></thead>
               <tbody>${rows}</tbody>
             </table></div>`
-          : '<p class="collection-empty">لا توجد نسخ احتياطية بعد. أول حفظ سينشئ واحدة. · No backups yet. The first save will create one.</p>'}
+            : '<p class="collection-empty">لا توجد نسخ احتياطية بعد. أول حفظ سينشئ واحدة. · No backups yet. The first save will create one.</p>'
+      }
     </section>`;
   }
 
@@ -1763,11 +2254,12 @@
         imagesLoaded: state.imagesLoaded,
         imagesError: state.imagesError,
       });
-    }
-    else if (["leads", "media-buying", "campaigns", "tips"].includes(state.section)) {
+    } else if (
+      ["leads", "media-buying", "campaigns", "tips"].includes(state.section)
+    ) {
       html = renderGrowthSection(state.section);
-    }
-    else if (COLLECTION_SECTIONS[state.section]) html = renderCollectionSection(state.section);
+    } else if (COLLECTION_SECTIONS[state.section])
+      html = renderCollectionSection(state.section);
     else if (state.section === "settings") html = renderSettings();
     else if (state.section === "images") html = renderImages();
     else html = renderBackups();
@@ -1793,13 +2285,19 @@
   }
 
   function templateForCollection(key, items) {
-    return deepClone(COLLECTION_TEMPLATES[key] || (items.length ? blankLike(items[0]) : { name: { ar: "", en: "" }, published: false }));
+    return deepClone(
+      COLLECTION_TEMPLATES[key] ||
+        (items.length
+          ? blankLike(items[0])
+          : { name: { ar: "", en: "" }, published: false }),
+    );
   }
 
   function focusPath(path) {
     const token = pathToken(path);
-    const control = $$(`[data-bind]`).find((candidate) => candidate.dataset.path === token)
-      || $$(`[data-bind]`).find((candidate) => {
+    const control =
+      $$(`[data-bind]`).find((candidate) => candidate.dataset.path === token) ||
+      $$(`[data-bind]`).find((candidate) => {
         const candidatePath = readPathToken(candidate.dataset.path);
         return path.every((part, index) => candidatePath[index] === part);
       });
@@ -1815,14 +2313,20 @@
   }
 
   function openPathInEditor(file, path) {
-    const section = file === "site.json" && path[0] === "media"
-      ? "images"
-      : FILE_SECTIONS[file] || (file === "site.json" || file === "pages.json" ? "settings" : "overview");
+    const section =
+      file === "site.json" && path[0] === "media"
+        ? "images"
+        : FILE_SECTIONS[file] ||
+          (file === "site.json" || file === "pages.json"
+            ? "settings"
+            : "overview");
     state.section = section;
     history.replaceState(null, "", `#${section}`);
     const config = COLLECTION_SECTIONS[section];
     if (config && typeof path[0] === "string" && Number.isInteger(path[1])) {
-      const group = config.groups.find((candidate) => candidate.key === path[0]);
+      const group = config.groups.find(
+        (candidate) => candidate.key === path[0],
+      );
       if (group) {
         state.activeGroups[section] = group.key;
         state.selected[selectionKey(section, group.key)] = path[1];
@@ -1843,19 +2347,26 @@
     state.selected[key] = items.length - 1;
     markDirty(file);
     render();
-    const firstRequired = requiredPathsFor(file, collection, item)[0]?.split(".") || [];
-    window.requestAnimationFrame(() => focusPath([collection, items.length - 1, ...firstRequired]));
+    const firstRequired =
+      requiredPathsFor(file, collection, item)[0]?.split(".") || [];
+    window.requestAnimationFrame(() =>
+      focusPath([collection, items.length - 1, ...firstRequired]),
+    );
   }
 
   function deleteCollectionItem(file, collection, index) {
     const items = collectionArray(file, collection);
     const item = items[index];
     if (!item) return;
-    const ok = window.confirm(`حذف «${itemName(item, index)}» من المسودة؟ لن يتغير الملف قبل الحفظ.\n\nDelete this item from the draft? The file will not change until you save.`);
+    const ok = window.confirm(
+      `حذف «${itemName(item, index)}» من المسودة؟ لن يتغير الملف قبل الحفظ.\n\nDelete this item from the draft? The file will not change until you save.`,
+    );
     if (!ok) return;
     items.splice(index, 1);
     const key = selectionKey(state.section, collection);
-    state.selected[key] = items.length ? Math.min(index, items.length - 1) : null;
+    state.selected[key] = items.length
+      ? Math.min(index, items.length - 1)
+      : null;
     markDirty(file);
     render();
   }
@@ -1871,7 +2382,11 @@
     else if (selected === target) state.selected[key] = index;
     markDirty(file);
     render();
-    window.requestAnimationFrame(() => $(`[data-action="select-item"][data-index="${state.selected[key]}"]`)?.focus());
+    window.requestAnimationFrame(() =>
+      $(
+        `[data-action="select-item"][data-index="${state.selected[key]}"]`,
+      )?.focus(),
+    );
   }
 
   function moveArrayItem(path, direction) {
@@ -1883,12 +2398,16 @@
     [array[index], array[target]] = [array[target], array[index]];
     markDirty(state.editorContext.file);
     render();
-    window.requestAnimationFrame(() => focusPath(path.slice(0, -1).concat(target)));
+    window.requestAnimationFrame(() =>
+      focusPath(path.slice(0, -1).concat(target)),
+    );
   }
 
   function removeArrayItem(path) {
     if (!state.editorContext) return;
-    const ok = window.confirm("حذف هذا الصف من المسودة؟ لن يتغير الملف قبل الحفظ.\n\nRemove this row from the draft? The file will not change until saved.");
+    const ok = window.confirm(
+      "حذف هذا الصف من المسودة؟ لن يتغير الملف قبل الحفظ.\n\nRemove this row from the draft? The file will not change until saved.",
+    );
     if (!ok) return;
     removeAt(state.editorContext.root, path);
     markDirty(state.editorContext.file);
@@ -1900,7 +2419,8 @@
     const forms = $$(`[data-editor-form][data-file="${file}"]`);
     for (const form of forms) {
       if (!form.reportValidity()) {
-        const message = "راجع الحقول المطلوبة أو غير الصالحة قبل الحفظ. · Fix required or invalid fields before saving.";
+        const message =
+          "راجع الحقول المطلوبة أو غير الصالحة قبل الحفظ. · Fix required or invalid fields before saving.";
         setFormMessage(message, "error");
         setOperation(message, "error");
         announce(message, "error");
@@ -1926,10 +2446,14 @@
        with Save disabled and no unload warning. */
     const sentMutation = state.fileMutations[file] || 0;
     const sentPayload = JSON.stringify(state.content[file]);
-    setFormMessage("جاري الحفظ وإنشاء النسخة الاحتياطية والبناء والفحص… · Saving, backing up, building, and validating…");
+    setFormMessage(
+      "جاري الحفظ وإنشاء النسخة الاحتياطية والبناء والفحص… · Saving, backing up, building, and validating…",
+    );
     setOperation(`جاري حفظ ${file}… · Saving ${file}…`);
     updateChrome();
-    $$(`[data-action="save-file"][data-file="${file}"]`).forEach((button) => { button.disabled = true; });
+    $$(`[data-action="save-file"][data-file="${file}"]`).forEach((button) => {
+      button.disabled = true;
+    });
     try {
       const result = await api(`/api/content/${encodeURIComponent(file)}`, {
         method: "PUT",
@@ -1938,8 +2462,10 @@
       });
       if (result?.rev) state.contentRevs[file] = result.rev;
       // Only what was actually sent is saved. Anything typed since stays dirty.
-      if ((state.fileMutations[file] || 0) === sentMutation) state.dirtyFiles.delete(file);
-      state.backupsLoaded = false; state.backupsAttempted = false;
+      if ((state.fileMutations[file] || 0) === sentMutation)
+        state.dirtyFiles.delete(file);
+      state.backupsLoaded = false;
+      state.backupsAttempted = false;
       const pipeline = result?.pipeline || result?.rebuild;
       state.pipelineResult = pipeline || null;
       let message;
@@ -1948,8 +2474,15 @@
         setOperation(message, "success");
         announce(message, "success");
       } else {
-        const details = [pipeline?.build?.err, pipeline?.validation?.out, pipeline?.validation?.err].filter(Boolean).join("\n")
-          || "لم يرجع الخادم نتيجة فحص ناجحة. · The server did not report a successful verification.";
+        const details =
+          [
+            pipeline?.build?.err,
+            pipeline?.validation?.out,
+            pipeline?.validation?.err,
+          ]
+            .filter(Boolean)
+            .join("\n") ||
+          "لم يرجع الخادم نتيجة فحص ناجحة. · The server did not report a successful verification.";
         message = `تم حفظ ${file} ونسخه احتياطياً، لكن البناء أو الفحص فشل. التعديل محفوظ ولم يضع. · Saved and backed up, but build or validation failed. The edit is preserved.`;
         setOperation(message, "error", details);
         announce(message, "error");
@@ -1963,7 +2496,11 @@
          lost, and let the person decide. Merging silently is the one thing
          that must not happen here. */
       if (error.conflict) {
-        state.conflict = { file, theirs: error.conflictContent, rev: error.conflictRev };
+        state.conflict = {
+          file,
+          theirs: error.conflictContent,
+          rev: error.conflictRev,
+        };
         const clash = `${file} اتغير في نافذة تانية بعد ما فتحت الصفحة. تعديلاتك لسه موجودة وما اتحفظتش. · ${file} changed in another window after you loaded it. Your edits are still here, unsaved.`;
         render();
         setFormMessage(clash, "error");
@@ -1978,14 +2515,17 @@
       announce(message, "error");
     } finally {
       state.savingFiles.delete(file);
-      $$(`[data-action="save-file"][data-file="${file}"]`).forEach((button) => { button.disabled = false; });
+      $$(`[data-action="save-file"][data-file="${file}"]`).forEach((button) => {
+        button.disabled = false;
+      });
       updateChrome();
     }
   }
 
   async function rebuildSite() {
     if (state.dirtyFiles.size) {
-      const message = "احفظ التغييرات أولاً علشان البناء يستخدم أحدث نسخة. · Save unsaved changes before rebuilding.";
+      const message =
+        "احفظ التغييرات أولاً علشان البناء يستخدم أحدث نسخة. · Save unsaved changes before rebuilding.";
       setOperation(message, "error");
       announce(message, "error");
       return;
@@ -1993,15 +2533,27 @@
     const button = $('[data-action="rebuild"]');
     if (button) button.disabled = true;
     announce("جاري إعادة بناء الموقع… · Rebuilding site…");
-    setOperation("جاري إعادة بناء الموقع وفحصه… · Rebuilding and validating the site…");
+    setOperation(
+      "جاري إعادة بناء الموقع وفحصه… · Rebuilding and validating the site…",
+    );
     try {
       const result = await api("/api/rebuild", { method: "POST", body: "{}" });
       state.pipelineResult = result;
-      const details = [result?.build?.err, result?.validation?.out, result?.validation?.err].filter(Boolean).join("\n");
+      const details = [
+        result?.build?.err,
+        result?.validation?.out,
+        result?.validation?.err,
+      ]
+        .filter(Boolean)
+        .join("\n");
       const message = result?.ok
         ? "تم بناء الموقع وفحصه بنجاح. · Site built and validated successfully."
         : "فشل البناء أو الفحص. راجع المخرجات أدناه. · Build or validation failed; review the output below.";
-      setOperation(message, result?.ok ? "success" : "error", result?.ok ? "" : details);
+      setOperation(
+        message,
+        result?.ok ? "success" : "error",
+        result?.ok ? "" : details,
+      );
       announce(message, result?.ok ? "success" : "error");
       await refreshStatus();
       if (state.section === "overview") render();
@@ -2021,9 +2573,13 @@
       announce(message, "error");
       return;
     }
-    const ok = window.confirm(`استرجاع النسخة المحددة من ${file}؟ سيحفظ الخادم نسخة من الملف الحالي أولاً.\n\nRestore this ${file} backup? The server will preserve the current file first.`);
+    const ok = window.confirm(
+      `استرجاع النسخة المحددة من ${file}؟ سيحفظ الخادم نسخة من الملف الحالي أولاً.\n\nRestore this ${file} backup? The server will preserve the current file first.`,
+    );
     if (!ok) return;
-    setOperation(`جاري استرجاع ${file} وإعادة الفحص… · Restoring and validating ${file}…`);
+    setOperation(
+      `جاري استرجاع ${file} وإعادة الفحص… · Restoring and validating ${file}…`,
+    );
     try {
       const result = await api("/api/backups/restore", {
         method: "POST",
@@ -2032,12 +2588,21 @@
       state.content[file] = result.content;
       state.contentRevs[file] = result.rev;
       state.pipelineResult = result.pipeline || null;
-      state.backupsLoaded = false; state.backupsAttempted = false;
+      state.backupsLoaded = false;
+      state.backupsAttempted = false;
       await refreshStatus();
       const message = result.pipeline?.ok
         ? `تم استرجاع ${file} وإنشاء نسخة من حالته السابقة، والبناء والفحص نجحا. · Restored, preserved, built, and validated successfully.`
         : `تم استرجاع ${file}، لكن البناء أو الفحص فشل. · Restored, but build or validation failed.`;
-      const details = result.pipeline?.ok ? "" : [result.pipeline?.build?.err, result.pipeline?.validation?.out, result.pipeline?.validation?.err].filter(Boolean).join("\n");
+      const details = result.pipeline?.ok
+        ? ""
+        : [
+            result.pipeline?.build?.err,
+            result.pipeline?.validation?.out,
+            result.pipeline?.validation?.err,
+          ]
+            .filter(Boolean)
+            .join("\n");
       setOperation(message, result.pipeline?.ok ? "success" : "error", details);
       announce(message, result.pipeline?.ok ? "success" : "error");
       render();
@@ -2062,7 +2627,8 @@
   function coerceInput(element) {
     const type = element.dataset.valueType;
     if (type === "boolean") return element.checked;
-    if (type === "number") return element.value === "" ? null : Number(element.value);
+    if (type === "number")
+      return element.value === "" ? null : Number(element.value);
     if (type === "null") return element.value === "" ? null : element.value;
     return element.value;
   }
@@ -2073,21 +2639,29 @@
     if (!review) return;
     review.published = true;
     review.status = "approved";
-    if (Object.prototype.hasOwnProperty.call(review, "approved")) review.approved = true;
+    if (Object.prototype.hasOwnProperty.call(review, "approved"))
+      review.approved = true;
     state.selected[selectionKey("reviews", "reviews")] = index;
     markDirty("reviews.json");
     render();
-    announce("تم اعتماد الرأي في المسودة. احفظ الملف للنشر. · Approved in draft; save to publish.", "success");
+    announce(
+      "تم اعتماد الرأي في المسودة. احفظ الملف للنشر. · Approved in draft; save to publish.",
+      "success",
+    );
   }
 
   function deleteReview(index) {
     const reviews = collectionArray("reviews.json", "reviews");
     const review = reviews[index];
     if (!review) return;
-    const ok = window.confirm("حذف الرأي من المسودة؟ لن يتغير الملف قبل الحفظ.\n\nDelete this review from the draft? The file will not change until saved.");
+    const ok = window.confirm(
+      "حذف الرأي من المسودة؟ لن يتغير الملف قبل الحفظ.\n\nDelete this review from the draft? The file will not change until saved.",
+    );
     if (!ok) return;
     reviews.splice(index, 1);
-    state.selected[selectionKey("reviews", "reviews")] = reviews.length ? Math.min(index, reviews.length - 1) : null;
+    state.selected[selectionKey("reviews", "reviews")] = reviews.length
+      ? Math.min(index, reviews.length - 1)
+      : null;
     markDirty("reviews.json");
     render();
   }
@@ -2096,51 +2670,70 @@
     for (const line of lines) {
       const stars = line.match(/[★⭐]/g);
       if (stars?.length) return Math.min(5, stars.length);
-      const numeric = line.match(/(?:rating\s*[:\-]?\s*|تقييم\s*[:\-]?\s*)?([1-5])(?:\s*\/\s*5|\s*(?:stars?|نجوم))/i);
+      const numeric = line.match(
+        /(?:rating\s*[:\-]?\s*|تقييم\s*[:\-]?\s*)?([1-5])(?:\s*\/\s*5|\s*(?:stars?|نجوم))/i,
+      );
       if (numeric) return Number(numeric[1]);
     }
     return 5;
   }
 
   function isReviewMetaLine(line) {
-    return /(?:local guide|مرشد محلي|\b[1-5]\s*(?:stars?|نجوم)|[★⭐]|\b\d+\s*(?:reviews?|photos?|مراجعات|صور)\b|ago$|منذ\s|edited|تم التعديل)/i.test(line);
+    return /(?:local guide|مرشد محلي|\b[1-5]\s*(?:stars?|نجوم)|[★⭐]|\b\d+\s*(?:reviews?|photos?|مراجعات|صور)\b|ago$|منذ\s|edited|تم التعديل)/i.test(
+      line,
+    );
   }
 
   function parseGoogleReviews(raw) {
     const normalised = raw.replace(/\r/g, "").replace(/\t+/g, "\n").trim();
     if (!normalised) return [];
-    const blocks = normalised.split(/\n\s*\n+|\n-{3,}\n/).map((block) => block.trim()).filter(Boolean);
+    const blocks = normalised
+      .split(/\n\s*\n+|\n-{3,}\n/)
+      .map((block) => block.trim())
+      .filter(Boolean);
 
-    return blocks.map((block, blockIndex) => {
-      const lines = block.split("\n").map((line) => line.trim()).filter(Boolean);
-      const rating = parseRating(lines);
-      const isoLine = lines.find((line) => /\b\d{4}-\d{2}-\d{2}\b/.test(line));
-      const dateMatch = isoLine?.match(/\b\d{4}-\d{2}-\d{2}\b/);
-      const meaningful = lines.filter((line) => !isReviewMetaLine(line) && line !== isoLine);
-      const name = meaningful.shift() || "";
-      const text = meaningful.join("\n");
-      const hasArabic = /[\u0600-\u06ff]/.test(text);
-      return {
-        id: `google-${Date.now()}-${blockIndex + 1}`,
-        published: false,
-        sample: false,
-        status: "pending",
-        name: { ar: name, en: name },
-        text: { ar: hasArabic ? text : "", en: hasArabic ? "" : text },
-        rating,
-        source: "Google",
-        date: dateMatch ? dateMatch[0] : null,
-        doctor: null,
-        specialties: [],
-      };
-    }).filter((review) => review.name || review.text.ar || review.text.en);
+    return blocks
+      .map((block, blockIndex) => {
+        const lines = block
+          .split("\n")
+          .map((line) => line.trim())
+          .filter(Boolean);
+        const rating = parseRating(lines);
+        const isoLine = lines.find((line) =>
+          /\b\d{4}-\d{2}-\d{2}\b/.test(line),
+        );
+        const dateMatch = isoLine?.match(/\b\d{4}-\d{2}-\d{2}\b/);
+        const meaningful = lines.filter(
+          (line) => !isReviewMetaLine(line) && line !== isoLine,
+        );
+        const name = meaningful.shift() || "";
+        const text = meaningful.join("\n");
+        const hasArabic = /[\u0600-\u06ff]/.test(text);
+        return {
+          id: `google-${Date.now()}-${blockIndex + 1}`,
+          published: false,
+          sample: false,
+          status: "pending",
+          name: { ar: name, en: name },
+          text: { ar: hasArabic ? text : "", en: hasArabic ? "" : text },
+          rating,
+          source: "Google",
+          date: dateMatch ? dateMatch[0] : null,
+          doctor: null,
+          specialties: [],
+        };
+      })
+      .filter((review) => review.name || review.text.ar || review.text.en);
   }
 
   function handleReviewPaste() {
     const textarea = $("#google-review-paste");
     const parsed = parseGoogleReviews(textarea?.value || "");
     if (!parsed.length) {
-      announce("لم أقدر أستخرج آراء. افصل كل رأي بسطر فاضي. · No reviews could be parsed.", "error");
+      announce(
+        "لم أقدر أستخرج آراء. افصل كل رأي بسطر فاضي. · No reviews could be parsed.",
+        "error",
+      );
       textarea?.focus();
       return;
     }
@@ -2150,13 +2743,21 @@
     state.selected[selectionKey("reviews", "reviews")] = firstIndex;
     markDirty("reviews.json");
     render();
-    announce(`تمت إضافة ${parsed.length} مسودة للمراجعة قبل الاعتماد. · Added ${parsed.length} draft reviews for confirmation.`, "success");
+    announce(
+      `تمت إضافة ${parsed.length} مسودة للمراجعة قبل الاعتماد. · Added ${parsed.length} draft reviews for confirmation.`,
+      "success",
+    );
   }
 
   function openUpload(path = null) {
-    state.uploadTarget = path && state.editorContext
-      ? { root: state.editorContext.root, path, file: state.editorContext.file }
-      : null;
+    state.uploadTarget =
+      path && state.editorContext
+        ? {
+            root: state.editorContext.root,
+            path,
+            file: state.editorContext.file,
+          }
+        : null;
     uploadForm.reset();
     $("#upload-directory").value = "uploads";
     uploadResult.hidden = true;
@@ -2177,7 +2778,8 @@
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
       reader.onload = () => resolve(reader.result);
-      reader.onerror = () => reject(reader.error || new Error("Could not read file"));
+      reader.onerror = () =>
+        reject(reader.error || new Error("Could not read file"));
       reader.readAsDataURL(file);
     });
   }
@@ -2236,18 +2838,27 @@
 
   function useUploadedValue() {
     if (!state.uploadTarget || !state.uploadedValue) return;
-    setAt(state.uploadTarget.root, state.uploadTarget.path, state.uploadedValue);
+    setAt(
+      state.uploadTarget.root,
+      state.uploadTarget.path,
+      state.uploadedValue,
+    );
     markDirty(state.uploadTarget.file);
     invalidateImages();
     closeUpload();
     render();
-    announce("تم وضع المسار في الحقل. احفظ الملف لتثبيت التغيير. · Field filled; save the file to commit it.", "success");
+    announce(
+      "تم وضع المسار في الحقل. احفظ الملف لتثبيت التغيير. · Field filled; save the file to commit it.",
+      "success",
+    );
   }
 
   function loadConflictVersion() {
     if (!state.conflict) return;
     const { file, theirs, rev } = state.conflict;
-    const ok = window.confirm(`تحميل النسخة الحالية من ${file}؟ التعديلات غير المحفوظة في هذا الملف ستُستبدل.\n\nLoad the current server copy of ${file}? Unsaved changes in this file will be replaced.`);
+    const ok = window.confirm(
+      `تحميل النسخة الحالية من ${file}؟ التعديلات غير المحفوظة في هذا الملف ستُستبدل.\n\nLoad the current server copy of ${file}? Unsaved changes in this file will be replaced.`,
+    );
     if (!ok) return;
     state.content[file] = deepClone(theirs);
     state.contentRevs[file] = rev;
@@ -2255,7 +2866,10 @@
     state.fileMutations[file] = 0;
     state.conflict = null;
     render();
-    announce(`تم تحميل النسخة الحالية من ${file}. · Loaded the current server version.`, "success");
+    announce(
+      `تم تحميل النسخة الحالية من ${file}. · Loaded the current server version.`,
+      "success",
+    );
   }
 
   function openSidebar() {
@@ -2268,12 +2882,16 @@
   function closeSidebar(returnFocus = false) {
     shell.classList.remove("is-sidebar-open");
     menuToggle.setAttribute("aria-expanded", "false");
-    if (window.matchMedia("(max-width: 52rem)").matches) sidebar.setAttribute("inert", "");
+    if (window.matchMedia("(max-width: 52rem)").matches)
+      sidebar.setAttribute("inert", "");
     if (returnFocus) menuToggle.focus();
   }
 
   function syncSidebarMode() {
-    if (window.matchMedia("(max-width: 52rem)").matches && !shell.classList.contains("is-sidebar-open")) {
+    if (
+      window.matchMedia("(max-width: 52rem)").matches &&
+      !shell.classList.contains("is-sidebar-open")
+    ) {
       sidebar.setAttribute("inert", "");
     } else {
       sidebar.removeAttribute("inert");
@@ -2324,7 +2942,10 @@
       state.imageQuery = imgSearch.value;
       render();
       const again = document.querySelector("[data-image-search]");
-      if (again) { again.focus(); again.setSelectionRange(again.value.length, again.value.length); }
+      if (again) {
+        again.focus();
+        again.setSelectionRange(again.value.length, again.value.length);
+      }
       return;
     }
     const search = event.target.closest("[data-list-search]");
@@ -2333,30 +2954,50 @@
     render();
     // keep focus and caret after the re-render
     const again = document.querySelector("[data-list-search]");
-    if (again) { again.focus(); again.setSelectionRange(again.value.length, again.value.length); }
+    if (again) {
+      again.focus();
+      again.setSelectionRange(again.value.length, again.value.length);
+    }
   });
 
   document.addEventListener("click", (event) => {
     const facet = event.target.closest("[data-list-facet]");
-    if (facet) { state.listFacet = facet.dataset.listFacet || ""; return render(); }
+    if (facet) {
+      state.listFacet = facet.dataset.listFacet || "";
+      return render();
+    }
     const dir = event.target.closest("[data-image-dir]");
-    if (dir) { state.imageDir = dir.dataset.imageDir || ""; return render(); }
+    if (dir) {
+      state.imageDir = dir.dataset.imageDir || "";
+      return render();
+    }
     const copy = event.target.closest("[data-action='copy-image-path']");
     if (copy) {
       copyText(copy.dataset.path);
       copy.innerHTML = 'تم النسخ <span lang="en" dir="ltr">Copied</span>';
-      setTimeout(() => { copy.innerHTML = 'نسخ المسار <span lang="en" dir="ltr">Copy path</span>'; }, 1400);
+      setTimeout(() => {
+        copy.innerHTML =
+          'نسخ المسار <span lang="en" dir="ltr">Copy path</span>';
+      }, 1400);
     }
   });
 
   document.addEventListener("change", (event) => {
     const toggle = event.target.closest("[data-list-published]");
     if (!toggle) return;
-    const items = collectionArray(toggle.dataset.file, toggle.dataset.collection);
+    const items = collectionArray(
+      toggle.dataset.file,
+      toggle.dataset.collection,
+    );
     const item = items[Number(toggle.dataset.index)];
     if (!item) return;
     item.published = toggle.checked;
-    if (toggle.dataset.collection === "reviews" && toggle.checked && item.status === "pending") item.status = "approved";
+    if (
+      toggle.dataset.collection === "reviews" &&
+      toggle.checked &&
+      item.status === "pending"
+    )
+      item.status = "approved";
     markDirty(toggle.dataset.file);
     render();
   });
@@ -2373,7 +3014,8 @@
     if (action === "save-current") saveFile(currentFile());
     if (action === "save-file") saveFile(actionElement.dataset.file);
     if (action === "select-collection") {
-      state.activeGroups[actionElement.dataset.section] = actionElement.dataset.collection;
+      state.activeGroups[actionElement.dataset.section] =
+        actionElement.dataset.collection;
       /* Both filters are global. Carrying a type filter such as `tip` into a
          collection whose items have no type hid every row, and with no facets
          to render there was no All button left to clear it with. */
@@ -2387,36 +3029,72 @@
     }
     if (action === "select-item") {
       const group = activeGroup(state.section);
-      state.selected[selectionKey(state.section, group.key)] = Number(actionElement.dataset.index);
+      state.selected[selectionKey(state.section, group.key)] = Number(
+        actionElement.dataset.index,
+      );
       render();
     }
-    if (action === "add-item") addCollectionItem(actionElement.dataset.file, actionElement.dataset.collection);
-    if (action === "delete-item") deleteCollectionItem(actionElement.dataset.file, actionElement.dataset.collection, Number(actionElement.dataset.index));
-    if (action === "move-item") moveCollectionItem(actionElement.dataset.file, actionElement.dataset.collection, Number(actionElement.dataset.index), Number(actionElement.dataset.direction));
+    if (action === "add-item")
+      addCollectionItem(
+        actionElement.dataset.file,
+        actionElement.dataset.collection,
+      );
+    if (action === "delete-item")
+      deleteCollectionItem(
+        actionElement.dataset.file,
+        actionElement.dataset.collection,
+        Number(actionElement.dataset.index),
+      );
+    if (action === "move-item")
+      moveCollectionItem(
+        actionElement.dataset.file,
+        actionElement.dataset.collection,
+        Number(actionElement.dataset.index),
+        Number(actionElement.dataset.direction),
+      );
     if (action === "add-array-item" && state.editorContext) {
       const path = readPathToken(actionElement.dataset.path);
       const items = getAt(state.editorContext.root, path);
       if (Array.isArray(items)) {
-        items.push(arrayItemTemplate(actionElement.dataset.arrayKey, items, path));
+        items.push(
+          arrayItemTemplate(actionElement.dataset.arrayKey, items, path),
+        );
         markDirty(state.editorContext.file);
         render();
-        window.requestAnimationFrame(() => focusPath(path.concat(items.length - 1)));
+        window.requestAnimationFrame(() =>
+          focusPath(path.concat(items.length - 1)),
+        );
       }
     }
     if (action === "remove-array-item" && state.editorContext) {
       removeArrayItem(readPathToken(actionElement.dataset.path));
     }
-    if (action === "move-array-item") moveArrayItem(readPathToken(actionElement.dataset.path), Number(actionElement.dataset.direction));
-    if (action === "approve-review") approveReview(Number(actionElement.dataset.index));
-    if (action === "delete-review") deleteReview(Number(actionElement.dataset.index));
+    if (action === "move-array-item")
+      moveArrayItem(
+        readPathToken(actionElement.dataset.path),
+        Number(actionElement.dataset.direction),
+      );
+    if (action === "approve-review")
+      approveReview(Number(actionElement.dataset.index));
+    if (action === "delete-review")
+      deleteReview(Number(actionElement.dataset.index));
     if (action === "parse-reviews") handleReviewPaste();
-    if (action === "open-upload") openUpload(actionElement.dataset.path ? readPathToken(actionElement.dataset.path) : null);
+    if (action === "open-upload")
+      openUpload(
+        actionElement.dataset.path
+          ? readPathToken(actionElement.dataset.path)
+          : null,
+      );
     if (action === "close-upload") closeUpload();
     if (action === "copy-upload-path") copyText(uploadedPath.value);
     if (action === "copy-latest-path") copyText(state.uploadedValue);
     if (action === "use-uploaded-path") useUploadedValue();
     if (action === "load-conflict-version") loadConflictVersion();
-    if (action === "open-todo") openPathInEditor(actionElement.dataset.file, readPathToken(actionElement.dataset.path));
+    if (action === "open-todo")
+      openPathInEditor(
+        actionElement.dataset.file,
+        readPathToken(actionElement.dataset.path),
+      );
     if (action === "refresh-backups") loadBackups(true);
     /* A failed load no longer retries itself from render(), so the panel needs
        an explicit way back. Backups already had one; images did not. */
@@ -2424,14 +3102,24 @@
       invalidateImages(true);
       render();
     }
-    if (action === "restore-backup") restoreBackup(actionElement.dataset.backup, actionElement.dataset.file);
+    if (action === "restore-backup")
+      restoreBackup(actionElement.dataset.backup, actionElement.dataset.file);
   });
 
-  $$("[data-nav]").forEach((button) => button.addEventListener("click", () => switchSection(button.dataset.nav)));
-  menuToggle.addEventListener("click", () => shell.classList.contains("is-sidebar-open") ? closeSidebar(true) : openSidebar());
+  $$("[data-nav]").forEach((button) =>
+    button.addEventListener("click", () => switchSection(button.dataset.nav)),
+  );
+  menuToggle.addEventListener("click", () =>
+    shell.classList.contains("is-sidebar-open")
+      ? closeSidebar(true)
+      : openSidebar(),
+  );
   $("#sidebar-scrim").addEventListener("click", () => closeSidebar(true));
   uploadForm.addEventListener("submit", uploadImage);
-  uploadDialog.addEventListener("cancel", (event) => { event.preventDefault(); closeUpload(); });
+  uploadDialog.addEventListener("cancel", (event) => {
+    event.preventDefault();
+    closeUpload();
+  });
 
   window.addEventListener("resize", syncSidebarMode);
   window.addEventListener("beforeunload", (event) => {
@@ -2440,19 +3128,27 @@
     event.returnValue = "";
   });
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && shell.classList.contains("is-sidebar-open")) closeSidebar(true);
+    if (event.key === "Escape" && shell.classList.contains("is-sidebar-open"))
+      closeSidebar(true);
     const tabButton = event.target.closest?.('.segment-btn[role="tab"]');
-    if (tabButton && ["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) {
+    if (
+      tabButton &&
+      ["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)
+    ) {
       const tabs = $$(`.segment-btn[role="tab"]`, tabButton.parentElement);
       const index = tabs.indexOf(tabButton);
-      const next = event.key === "Home"
-        ? 0
-        : event.key === "End"
-          ? tabs.length - 1
-          : (index + (event.key === "ArrowRight" ? 1 : -1) + tabs.length) % tabs.length;
+      const next =
+        event.key === "Home"
+          ? 0
+          : event.key === "End"
+            ? tabs.length - 1
+            : (index + (event.key === "ArrowRight" ? 1 : -1) + tabs.length) %
+              tabs.length;
       event.preventDefault();
       tabs[next]?.click();
-      window.requestAnimationFrame(() => $$('.segment-btn[role="tab"]')[next]?.focus());
+      window.requestAnimationFrame(() =>
+        $$('.segment-btn[role="tab"]')[next]?.focus(),
+      );
     }
     if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "s") {
       const file = currentFile();

@@ -233,6 +233,191 @@
   }
 }
 
+/* Growth dashboard polish: operational tables, campaign cards and media tools. */
+.lead-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--paper-deep);
+}
+
+.lead-table tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--paper-deep) 55%, transparent);
+}
+
+[data-lead-status] {
+  border-radius: 999px !important;
+  font-weight: 750;
+}
+
+[data-current-status="new"] {
+  background: #eee1bd !important;
+}
+
+[data-current-status="contacted"] {
+  background: #dfe4d4 !important;
+}
+
+[data-current-status="booked"] {
+  background: #d6ebd9 !important;
+}
+
+[data-current-status="no-answer"] {
+  background: #e7e5df !important;
+}
+
+[data-current-status="lost"] {
+  background: #f0d9dc !important;
+}
+
+.growth-chart line {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+
+.campaign-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.campaign-card {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+}
+
+.campaign-card__head,
+.campaign-metrics,
+.landing-pair__links,
+.ad-copy-line,
+.integration-results li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.campaign-card__head {
+  justify-content: space-between;
+}
+
+.campaign-metrics {
+  margin-block: 0.75rem;
+}
+
+.campaign-metrics span {
+  min-width: 7rem;
+  padding: 0.55rem 0.7rem;
+  border-radius: 0.55rem;
+  background: var(--paper-deep);
+}
+
+.campaign-metrics strong {
+  display: block;
+  direction: ltr;
+  text-align: end;
+}
+
+.campaign-fields {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.campaign-fields label,
+.ad-copy-line {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.campaign-fields input,
+.campaign-fields select,
+.ad-copy-line input,
+.ad-copy-line textarea {
+  width: 100%;
+  min-height: 2.75rem;
+  padding: 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--paper);
+  color: inherit;
+}
+
+.ad-copy-line {
+  grid-template-columns: minmax(0, 1fr) auto auto auto;
+  margin-block: 0.4rem;
+}
+
+.ad-copy-line textarea {
+  min-height: 5rem;
+}
+
+.copy-bank fieldset {
+  min-width: 0;
+  margin-block: 0.75rem;
+  border: 0;
+  padding: 0;
+}
+
+.char-count {
+  direction: ltr;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.landing-group + .landing-group {
+  margin-top: 1.5rem;
+}
+
+.landing-pair {
+  padding: 0.75rem;
+  border-block-start: 1px solid var(--line);
+}
+
+.integration-results {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.integration-results li {
+  justify-content: space-between;
+  padding: 0.65rem;
+  border-radius: 0.5rem;
+  background: var(--paper-deep);
+}
+
+.growth-tabs {
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.growth-tabs .segment-btn {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 45rem) {
+  .campaign-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .ad-copy-line {
+    grid-template-columns: 1fr auto auto;
+  }
+
+  .ad-copy-line input,
+  .ad-copy-line textarea {
+    grid-column: 1 / -1;
+  }
+
+  .lead-table tbody tr {
+    background: var(--paper);
+  }
+}
+
 .admin-body {
   min-width: 20rem;
   min-height: 100vh;

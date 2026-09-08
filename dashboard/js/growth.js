@@ -267,11 +267,92 @@
       : "";
   }
   function controls() {
-    return `<div class="growth-toolbar"><label>${b("الفترة", "Range")}<select data-range>${[7, 30, 90, "all"].map((v) => `<option value="${v}" ${String(v) === state.range ? "selected" : ""}>${v === "all" ? "All" : v + " days"}</option>`).join("")}</select></label><button class="admin-btn admin-btn--quiet" data-growth="refresh-leads">${b("تحديث", "Refresh")}</button><span>${b("آخر تحديث", "Last updated")}: ${esc(state.updatedAt ? new Date(state.updatedAt).toLocaleString("en-GB", { timeZone: "Africa/Cairo" }) : "—")}</span></div>`;
+    const ranges = [7, 30, 90, "all"].map((value) => `
+      <option value="${value}" ${String(value) === state.range ? "selected" : ""}>
+        ${value === "all" ? "All" : `${value} days`}
+      </option>`).join("");
+    const updated = state.updatedAt
+      ? new Date(state.updatedAt).toLocaleString("en-GB", {
+        timeZone: "Africa/Cairo",
+      })
+      : "—";
+    return `<div class="growth-toolbar">
+      <label>${b("الفترة", "Range")}<select data-range>${ranges}</select></label>
+      <button class="admin-btn admin-btn--quiet" data-growth="refresh-leads">
+        ${b("تحديث", "Refresh")}
+      </button>
+      <span>${b("آخر تحديث", "Last updated")}: ${esc(updated)}</span>
+    </div>`;
   }
+
+  function leadStatusControl(lead, index) {
+    const options = ["new", "contacted", "booked", "no-answer", "lost"]
+      .map((status) =>
+        `<option ${lead.status === status ? "selected" : ""}>${status}</option>`,
+      ).join("");
+    return `<select data-lead-status="${index}"
+      data-current-status="${esc(lead.status)}" data-row="${lead.row || ""}"
+      ${lead.local ? "disabled" : ""}>${options}</select>`;
+  }
+
+  function leadRow(lead, index) {
+    const request = [lead.specialty, lead.branch, lead.preferredDay,
+      lead.preferredTime].filter(Boolean).join(" · ") || "—";
+    const source = [lead.utmSource || lead.source, lead.utmMedium,
+      lead.utmCampaign].filter(Boolean).join(" · ") || "—";
+    const path = (lead.pageUrl || "—").replace(/^https?:\/\/[^/]+/, "").slice(0, 32);
+    return `<tr data-lead-card>
+      <td>${timeText(lead.timestamp)}</td>
+      <td><strong>${esc(lead.name || "—")}</strong><div>
+        <a href="tel:${esc(lead.phone)}">${esc(lead.phone)}</a>
+        <a class="admin-btn admin-btn--sm" href="https://wa.me/${waPhone(lead.phone)}"
+          target="_blank" rel="noopener">WA</a>
+      </div></td>
+      <td>${esc(request)}</td>
+      <td>${esc(source)}<small>${esc(lead.device)}</small></td>
+      <td>${leadStatusControl(lead, index)}
+        <input data-lead-notes="${index}" data-row="${lead.row || ""}"
+          value="${esc(lead.notes)}" placeholder="Notes"
+          ${lead.local ? "disabled" : ""}>
+      </td>
+      <td><a href="${esc(lead.pageUrl || "#")}" title="${esc(lead.pageUrl)}"
+        target="_blank">${esc(path)}</a></td>
+    </tr>`;
+  }
+
   function renderLeads() {
     const rows = filtered();
-    return `<div class="view-head"><div><h2>${b("العملاء والحجوزات", "Leads & bookings")}</h2><p>متابعة طلبات الموقع والحملات في مكان واحد. <span class="english-copy" lang="en">Track website and campaign enquiries.</span></p></div></div>${controls()}${emptyState()}<section class="admin-panel"><div class="lead-filters"><label>${b("بحث", "Search")}<input type="search" data-lead-filter="q" value="${esc(state.filters.q)}"></label>${optionFilter("status", "الحالة", "Status")}${optionFilter("source", "المصدر", "Source")}${optionFilter("specialty", "التخصص", "Specialty")}${optionFilter("branch", "الفرع", "Branch")}<button class="admin-btn admin-btn--accent" data-growth="export-csv">${b("تصدير CSV", "Export CSV")}</button></div><div class="lead-table table-scroll"><table><thead><tr>${["الوقت · Time", "الاسم والهاتف · Contact", "الطلب · Request", "المصدر · Source", "الحالة والملاحظات · Status & notes", "الصفحة · Page"].map((x) => `<th>${esc(x)}</th>`).join("")}</tr></thead><tbody>${rows.map((x, i) => `<tr data-lead-card><td>${timeText(x.timestamp)}</td><td><strong>${esc(x.name || "—")}</strong><div><a href="tel:${esc(x.phone)}">${esc(x.phone)}</a> <a class="admin-btn admin-btn--sm" href="https://wa.me/${waPhone(x.phone)}" target="_blank" rel="noopener">WA</a></div></td><td>${esc([x.specialty, x.branch, x.preferredDay, x.preferredTime].filter(Boolean).join(" · ") || "—")}</td><td>${esc([x.utmSource || x.source, x.utmMedium, x.utmCampaign].filter(Boolean).join(" · ") || "—")}<small>${esc(x.device)}</small></td><td><select data-lead-status="${i}" data-row="${x.row || ""}" ${x.local ? "disabled" : ""}>${["new", "contacted", "booked", "no-answer", "lost"].map((s) => `<option ${x.status === s ? "selected" : ""}>${s}</option>`).join("")}</select><input data-lead-notes="${i}" data-row="${x.row || ""}" value="${esc(x.notes)}" placeholder="Notes" ${x.local ? "disabled" : ""}></td><td><a href="${esc(x.pageUrl || "#")}" title="${esc(x.pageUrl)}" target="_blank">${esc((x.pageUrl || "—").replace(/^https?:\/\/[^/]+/, "").slice(0, 32))}</a></td></tr>`).join("")}</tbody></table></div>${rows.length ? "" : `<p class="growth-empty">${b("لا توجد نتائج مطابقة", "No matching leads")}</p>`}</section>`;
+    const headings = ["الوقت · Time", "الاسم والهاتف · Contact",
+      "الطلب · Request", "المصدر · Source",
+      "الحالة والملاحظات · Status & notes", "الصفحة · Page"];
+    return `<div class="view-head"><div>
+      <h2>${b("العملاء والحجوزات", "Leads & bookings")}</h2>
+      <p>متابعة طلبات الموقع والحملات في مكان واحد.
+        <span class="english-copy" lang="en">Track website and campaign enquiries.</span>
+      </p>
+    </div></div>
+    ${controls()}${emptyState()}
+    <section class="admin-panel">
+      <div class="lead-filters">
+        <label>${b("بحث", "Search")}
+          <input type="search" data-lead-filter="q" value="${esc(state.filters.q)}">
+        </label>
+        ${optionFilter("status", "الحالة", "Status")}
+        ${optionFilter("source", "المصدر", "Source")}
+        ${optionFilter("specialty", "التخصص", "Specialty")}
+        ${optionFilter("branch", "الفرع", "Branch")}
+        <button class="admin-btn admin-btn--accent" data-growth="export-csv">
+          ${b("تصدير CSV", "Export CSV")}
+        </button>
+      </div>
+      <div class="lead-table table-scroll"><table>
+        <thead><tr>${headings.map((heading) => `<th>${esc(heading)}</th>`).join("")}</tr></thead>
+        <tbody>${rows.map(leadRow).join("")}</tbody>
+      </table></div>
+      ${rows.length ? "" : `<p class="growth-empty">${b(
+        "لا توجد نتائج مطابقة", "No matching leads",
+      )}</p>`}
+    </section>`;
   }
 
   function counts(key, leads = filtered()) {
@@ -339,8 +420,10 @@
           <h3>${b("وقت وصول العملاء", "Weekday × hour heatmap")}</h3>
           <div class="heatmap" aria-label="Lead arrival heatmap">
             ${cells
-              .map((v, i) => `<span title="day ${Math.floor(i / 24) + 1},
-                ${i % 24}:00 — ${v}" style="--heat:${v / mx}"></span>`)
+              .map(
+                (v, i) => `<span title="day ${Math.floor(i / 24) + 1},
+                ${i % 24}:00 — ${v}" style="--heat:${v / mx}"></span>`,
+              )
               .join("")}
           </div>
         </article>
@@ -370,15 +453,20 @@
     const rows = [...totals.entries()].sort(([a], [z]) => a.localeCompare(z));
     const max = Math.max(1, ...rows.map(([, value]) => value));
     const width = Math.max(600, rows.length * 34 + 60);
-    const barsHtml = rows.map(([day, value], index) => {
-      const height = (180 * value) / max;
-      const x = 40 + index * 34;
-      return `<rect x="${x}" y="${215 - height}" width="22"
+    const barsHtml = rows
+      .map(([day, value], index) => {
+        const height = (180 * value) / max;
+        const x = 40 + index * 34;
+        return `<rect x="${x}" y="${215 - height}" width="22"
         height="${height}" rx="3"><title>${day}: ${value}</title></rect>`;
-    }).join("");
-    const table = rows.map(([day, value]) =>
-      `<tr><th scope="row">${day}</th><td>${value}</td></tr>`,
-    ).join("");
+      })
+      .join("");
+    const table = rows
+      .map(
+        ([day, value]) =>
+          `<tr><th scope="row">${day}</th><td>${value}</td></tr>`,
+      )
+      .join("");
     return `<article class="analytics-card analytics-card--wide lead-daily">
       <h3>${b("العملاء كل يوم", "Leads per day")}</h3>
       <svg class="growth-chart" viewBox="0 0 ${width} 240" role="img"
@@ -402,7 +490,20 @@
     ["checks", "Checklists", "قوائم المراجعة"],
   ];
   function renderMedia() {
-    return `<div class="view-head"><div><h2>${b("أدوات شراء الإعلانات", "Media buying")}</h2></div></div><div class="settings-tabs" role="tablist">${tabs.map(([id, en, ar]) => `<button class="segment-btn ${state.tab === id ? "is-active" : ""}" role="tab" aria-selected="${state.tab === id}" data-growth="media-tab" data-tab="${id}">${b(ar, en)}</button>`).join("")}</div>${mediaPanel()}`;
+    return `<div class="view-head"><div>
+      <h2>${b("أدوات شراء الإعلانات", "Media buying")}</h2>
+    </div></div>
+    <div class="settings-tabs growth-tabs" role="tablist">
+      ${tabs
+        .map(
+          ([id, en, ar]) => `<button
+        class="segment-btn ${state.tab === id ? "is-active" : ""}"
+        role="tab" aria-selected="${state.tab === id}"
+        tabindex="${state.tab === id ? "0" : "-1"}"
+        data-growth="media-tab" data-tab="${id}">${b(ar, en)}</button>`,
+        )
+        .join("")}
+    </div>${mediaPanel()}`;
   }
   function sitePages() {
     return state.pages.length
@@ -420,7 +521,12 @@
       const xml = await fetch("/sitemap.xml").then((r) => r.text());
       state.pages = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1]);
     } catch {
-      state.pages = [];
+      try {
+        const status = await fetch("/api/status").then((response) => response.json());
+        state.pages = Array.isArray(status.pages) ? status.pages : [];
+      } catch {
+        state.pages = [];
+      }
     }
     state.pagesLoaded = true;
     rerender();
@@ -437,15 +543,147 @@
       state.bridge.content["site.json"]?.contact?.whatsapp?.display ||
       state.bridge.content["site.json"]?.whatsapp?.display ||
       "201040661893";
-    return `<section class="admin-panel tool-grid"><label>${b("الرقم", "Number")}<input id="wa-number" value="${esc(phone)}" dir="ltr"></label><label>${b("الرسالة", "Message")}<textarea id="wa-message">أهلاً، عايز أحجز موعد في عيادات لاروز.</textarea></label><label>${b("مرجع اختياري", "Optional reference")}<input id="wa-ref" placeholder="[LR-source-campaign]" dir="ltr"></label><output id="wa-output" dir="ltr"></output><div id="wa-qr"></div><button class="admin-btn admin-btn--accent" data-growth="copy-wa">${b("نسخ الرابط", "Copy link")}</button></section>`;
+    const specialties = state.bridge.content["specialties.json"]?.specialties || [];
+    const recipe = state.bridge.content["digital.json"]?.products?.find(
+      (product) => product.slug === "recipe-book",
+    );
+    const templates = specialties.map((specialty) => ({
+      label: specialty.name?.ar || specialty.slug,
+      message: `أهلاً، عايز أعرف تفاصيل ${specialty.name?.ar || specialty.slug}.`,
+    }));
+    if (recipe) {
+      templates.push({
+        label: recipe.name?.ar || recipe.slug,
+        message: `أهلاً، عايز أعرف تفاصيل ${recipe.name?.ar || recipe.slug}.`,
+      });
+    }
+    return `<section class="admin-panel tool-grid">
+      <label>${b("الرقم", "Number")}
+        <input id="wa-number" value="${esc(phone)}" dir="ltr">
+      </label>
+      <label>${b("القالب", "Template")}
+        <select id="wa-template">
+          ${templates.map((template, index) =>
+            `<option value="${index}" data-message="${esc(template.message)}">
+              ${esc(template.label)}
+            </option>`,
+          ).join("")}
+        </select>
+      </label>
+      <label>${b("الرسالة", "Message")}
+        <textarea id="wa-message">${esc(templates[0]?.message ||
+          "أهلاً، عايز أحجز موعد في عيادات لاروز.")}</textarea>
+      </label>
+      <label>${b("مرجع اختياري", "Optional reference")}
+        <input id="wa-ref" placeholder="[LR-source-campaign]" dir="ltr">
+      </label>
+      <output id="wa-output" dir="ltr"></output>
+      <div id="wa-qr"></div>
+      <button class="admin-btn admin-btn--accent" data-growth="copy-wa">
+        ${b("نسخ الرابط", "Copy link")}
+      </button>
+    </section>`;
   }
   function landingPanel() {
-    return `<section class="admin-panel"><p>${b("اضغط على الصفحة لتحميل العنوان والوصف ونموذج الحجز عند الطلب.", "Expand a page to lazily inspect title, description and booking form.")}</p><div class="landing-list">${sitePages()
-      .map(
-        (u, i) =>
-          `<details data-page-detail="${i}"><summary><span dir="ltr">${esc(u)}</span> ${/specialt|booking|recipe|\/ar\/?$|\/en\/?$/.test(u) ? '<span class="admin-badge">Recommended for ads</span>' : ""}</summary><div data-page-body>${b("افتح لتحميل البيانات", "Expand to load metadata")}</div></details>`,
-      )
-      .join("")}</div></section>`;
+    const groups = groupedLandingPages();
+    return `<section class="admin-panel">
+      <p>${b(
+        "اضغط على الصفحة لتحميل العنوان والوصف ونموذج الحجز عند الطلب.",
+        "Expand a page to lazily inspect title, description and booking form.",
+      )}</p>
+      <div class="landing-list">
+        ${Object.entries(groups)
+          .map(
+            ([section, pairs]) => `
+          <section class="landing-group">
+            <h3>${esc(section)}</h3>
+            ${pairs.map(landingRow).join("")}
+          </section>`,
+          )
+          .join("")}
+      </div>
+    </section>`;
+  }
+
+  function pagePath(url) {
+    try {
+      return new URL(url, location.origin).pathname;
+    } catch {
+      return url;
+    }
+  }
+
+  function pageSection(path) {
+    const clean = path.replace(/^\/(ar|en)\/?/, "");
+    if (!clean || clean === "index.html") return "home";
+    if (/^specialt/.test(clean)) return "specialties";
+    if (/^doctors?\//.test(clean)) return "doctors";
+    if (/^branches?\//.test(clean)) return "branches";
+    if (/^(patients?|booking)/.test(clean)) return "patients";
+    if (/^(articles?|knowledge)/.test(clean)) return "articles";
+    if (/^tools?\//.test(clean)) return "tools";
+    if (/^(digital|online)/.test(clean)) return "digital";
+    if (/^RecipeGuide/i.test(clean)) return "recipe guide";
+    if (/^legal\//.test(clean)) return "legal";
+    return "other";
+  }
+
+  function groupedLandingPages() {
+    const paired = new Map();
+    sitePages().forEach((url, index) => {
+      const path = pagePath(url);
+      const locale = /^\/(ar|en)(?:\/|$)/.exec(path)?.[1] || "other";
+      const key = path.replace(/^\/(ar|en)(?=\/|$)/, "");
+      const pair = paired.get(key) || { key, section: pageSection(path) };
+      pair[locale] = { url, index };
+      paired.set(key, pair);
+    });
+    const groups = {};
+    paired.forEach((pair) => {
+      (groups[pair.section] ||= []).push(pair);
+    });
+    return groups;
+  }
+
+  function recommendedPage(pair) {
+    return (
+      pair.section === "home" ||
+      pair.section === "specialties" ||
+      pair.section === "recipe guide" ||
+      /booking/i.test(pair.key)
+    );
+  }
+
+  function landingRow(pair) {
+    const pages = [pair.ar, pair.en].filter(Boolean);
+    return `<article class="landing-pair">
+      <div class="landing-pair__links">
+        ${pages
+          .map(
+            ({ url }) => `
+          <span dir="ltr">${esc(pagePath(url))}</span>
+          <button class="admin-btn admin-btn--sm" data-growth="copy-text"
+            data-text="${esc(new URL(url, location.origin).href)}">Copy</button>
+        `,
+          )
+          .join("")}
+        ${
+          recommendedPage(pair)
+            ? '<span class="admin-badge">Recommended for ads</span>'
+            : ""
+        }
+      </div>
+      ${pages
+        .map(
+          ({ url, index }) => `
+        <details data-page-detail="${index}">
+          <summary>${esc(pagePath(url))} metadata</summary>
+          <div data-page-body>${b("افتح لتحميل البيانات", "Expand to load metadata")}</div>
+        </details>
+      `,
+        )
+        .join("")}
+    </article>`;
   }
   function copyPanel() {
     const specs = state.bridge.content["specialties.json"]?.specialties || [];
@@ -482,17 +720,21 @@
   }
 
   function adCopyValue(slug, field, index, generated) {
-    return state.bridge.content["campaigns.json"]?.adCopy?.[slug]?.[field]?.[index]
-      ?? generated;
+    return (
+      state.bridge.content["campaigns.json"]?.adCopy?.[slug]?.[field]?.[
+        index
+      ] ?? generated
+    );
   }
 
   function adCopyLine(slug, field, index, generated, limit = 0) {
     const value = adCopyValue(slug, field, index, generated);
     const limitAttribute = limit ? `maxlength="${limit}"` : "";
-    const control = field === "primaryTexts"
-      ? `<textarea data-ad-copy data-slug="${esc(slug)}" data-field="${field}"
+    const control =
+      field === "primaryTexts"
+        ? `<textarea data-ad-copy data-slug="${esc(slug)}" data-field="${field}"
           data-i="${index}">${esc(value)}</textarea>`
-      : `<input data-ad-copy data-slug="${esc(slug)}" data-field="${field}"
+        : `<input data-ad-copy data-slug="${esc(slug)}" data-field="${field}"
           data-i="${index}" ${limitAttribute} value="${esc(value)}">`;
     return `<div class="ad-copy-line">
       ${control}
@@ -521,12 +763,18 @@
     ];
     return `<article data-ad-card="${esc(item.slug)}">
       <h3>${esc(item.name?.ar || item.slug)}</h3>
-      ${groups.map(([field, values, limit]) => `
+      ${groups
+        .map(
+          ([field, values, limit]) => `
         <fieldset><legend>${esc(field)}</legend>
-          ${values.map((value, index) =>
-            adCopyLine(item.slug, field, index, value, limit),
-          ).join("")}
-        </fieldset>`).join("")}
+          ${values
+            .map((value, index) =>
+              adCopyLine(item.slug, field, index, value, limit),
+            )
+            .join("")}
+        </fieldset>`,
+        )
+        .join("")}
       <button class="admin-btn admin-btn--accent" data-growth="copy-ad-all"
         data-slug="${esc(item.slug)}">${b("نسخ الكل", "Copy all")}</button>
     </article>`;
@@ -582,8 +830,11 @@
       .toLowerCase();
     if (!expected) return [];
     const key = campaign.utmCampaign ? "utmCampaign" : "utmSource";
-    return state.leads.filter((lead) =>
-      String(lead[key] || "").trim().toLowerCase() === expected,
+    return state.leads.filter(
+      (lead) =>
+        String(lead[key] || "")
+          .trim()
+          .toLowerCase() === expected,
     );
   }
 
@@ -639,10 +890,13 @@
         ${campaignField(campaign, index, "objective", "Objective")}
         <label>Status
           <select data-campaign-field="status" data-i="${index}">
-            ${["planned", "active", "paused", "ended"].map((status) =>
-              `<option ${campaign.status === status ? "selected" : ""}>
+            ${["planned", "active", "paused", "ended"]
+              .map(
+                (status) =>
+                  `<option ${campaign.status === status ? "selected" : ""}>
                 ${status}</option>`,
-            ).join("")}
+              )
+              .join("")}
           </select>
         </label>
         ${campaignField(campaign, index, "startDate", "Start date", "date")}
@@ -684,20 +938,27 @@
       </button>
       <label>${b("ترتيب حسب", "Sort by")}
         <select data-campaign-sort>
-          ${["leads", "booked", "cpl"].map((key) =>
-            `<option ${state.campaignSort === key ? "selected" : ""}>
+          ${["leads", "booked", "cpl"]
+            .map(
+              (key) =>
+                `<option ${state.campaignSort === key ? "selected" : ""}>
               ${key.toUpperCase()}</option>`,
-          ).join("")}
+            )
+            .join("")}
         </select>
       </label>
     </div>
     <section class="campaign-list">
-      ${sorted.length
-        ? sorted.map(({ campaign, index }) => campaignCard(campaign, index)).join("")
-        : `<div class="growth-empty">${b(
-          "مفيش حملات محفوظة. احفظ واحدة من منشئ UTM.",
-          "No campaigns yet. Save one from the UTM builder.",
-        )}</div>`}
+      ${
+        sorted.length
+          ? sorted
+              .map(({ campaign, index }) => campaignCard(campaign, index))
+              .join("")
+          : `<div class="growth-empty">${b(
+              "مفيش حملات محفوظة. احفظ واحدة من منشئ UTM.",
+              "No campaigns yet. Save one from the UTM builder.",
+            )}</div>`
+      }
     </section>`;
   }
 
@@ -850,14 +1111,24 @@
         leads.filter((x) => Date.parse(x.timestamp) >= now - n * 864e5),
       m30 = within(30),
       top = countsFrom(m30, "utmSource")[0]?.[0] || "—",
-      tags = state.bridge.content["site.json"]?.integrations?.analytics || {};
+      tags = state.bridge.content["site.json"]?.integrations?.analytics || {},
+      canRead = Boolean(localStorage.getItem(STORE.token)) && state.loaded,
+      leadValue = (value) => (canRead ? value : "—");
     return `<section class="admin-panel"><div class="count-grid">${[
-      ["عملاء اليوم", "Leads today", within(1).length],
-      ["آخر 7 أيام", "Last 7 days", within(7).length],
-      ["آخر 30 يوم", "Last 30 days", m30.length],
-      ["جديد", "Pending", leads.filter((x) => x.status === "new").length],
-      ["أعلى مصدر", "Top source 30d", top],
-      ["محجوز", "Booked 30d", m30.filter((x) => x.status === "booked").length],
+      ["عملاء اليوم", "Leads today", leadValue(within(1).length)],
+      ["آخر 7 أيام", "Last 7 days", leadValue(within(7).length)],
+      ["آخر 30 يوم", "Last 30 days", leadValue(m30.length)],
+      [
+        "جديد",
+        "Pending",
+        leadValue(leads.filter((x) => x.status === "new").length),
+      ],
+      ["أعلى مصدر", "Top source 30d", leadValue(top)],
+      [
+        "محجوز",
+        "Booked 30d",
+        leadValue(m30.filter((x) => x.status === "booked").length),
+      ],
       ["صفحات", "Pages built", state.bridge.status?.pageCount ?? "—"],
       ["GA4", "Tracking", tags.ga4MeasurementId ? "Yes" : "No"],
       ["Clarity", "Tracking", tags.clarityProjectId ? "Yes" : "No"],
@@ -868,7 +1139,15 @@
         (x) =>
           `<article class="metric-card"><strong class="metric-card__number">${esc(x[2])}</strong><span>${b(x[0], x[1])}</span></article>`,
       )
-      .join("")}</div></section>`;
+      .join("")}</div>${
+      canRead
+        ? ""
+        : `
+        <p class="growth-empty">${b(
+          "أضف رمز قراءة العملاء في الإعدادات لإظهار الأرقام.",
+          "Add the leads read token in Settings to show lead KPIs.",
+        )} <a href="#settings">Settings</a></p>`
+    }</section>`;
   }
   function afterRender(section) {
     if (section === "analytics") {
@@ -891,6 +1170,85 @@
     }
     if (section === "media-buying") updateBuilders();
   }
+
+  function slugify(value) {
+    return (
+      String(value)
+        .normalize("NFKD")
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "") || `campaign-${Date.now()}`
+    );
+  }
+
+  function adItem(slug) {
+    const specialties =
+      state.bridge.content["specialties.json"]?.specialties || [];
+    const products = state.bridge.content["digital.json"]?.products || [];
+    return specialties.concat(products).find((item) => item.slug === slug);
+  }
+
+  function ensureAdCopy(slug, field) {
+    const file = state.bridge.content["campaigns.json"];
+    file.adCopy ||= {};
+    file.adCopy[slug] ||= {};
+    file.adCopy[slug][field] ||= [];
+    return file.adCopy[slug][field];
+  }
+
+  function updateAdCopy(control) {
+    if (control.dataset.field === "primaryTexts") {
+      const lines = control.value.split("\n");
+      if (lines[0].length > 125) {
+        lines[0] = lines[0].slice(0, 125);
+        control.value = lines.join("\n");
+      }
+    }
+    ensureAdCopy(control.dataset.slug, control.dataset.field)[
+      Number(control.dataset.i)
+    ] = control.value;
+    const counter = document.querySelector(
+      `[data-count-for="${control.dataset.slug}-${control.dataset.field}` +
+        `-${control.dataset.i}"]`,
+    );
+    if (counter && control.maxLength > 0) {
+      counter.textContent = `${control.value.length}/${control.maxLength}`;
+    }
+    state.bridge.markDirty("campaigns.json");
+  }
+
+  function resetAdLine(button) {
+    const item = adItem(button.dataset.slug);
+    if (!item) return;
+    const generated = generatedAdCopy(item)[button.dataset.field];
+    const values = ensureAdCopy(button.dataset.slug, button.dataset.field);
+    values[Number(button.dataset.i)] = generated[Number(button.dataset.i)];
+    state.bridge.markDirty("campaigns.json");
+    rerender();
+  }
+
+  function copyAllAdCopy(slug) {
+    const item = adItem(slug);
+    if (!item) return;
+    const generated = generatedAdCopy(item);
+    const fields = [
+      "headlines",
+      "primaryTexts",
+      "descriptions",
+      "ctas",
+      "hashtags",
+    ];
+    const text = fields
+      .flatMap((field) =>
+        generated[field].map((value, index) =>
+          adCopyValue(slug, field, index, value),
+        ),
+      )
+      .join("\n");
+    navigator.clipboard?.writeText(text);
+  }
+
   function action(action, el) {
     if (
       !action.startsWith("growth-") &&
@@ -1007,7 +1365,7 @@
     if (action === "copy-ad-line") {
       const control = document.querySelector(
         `[data-ad-copy][data-slug="${el.dataset.slug}"]` +
-        `[data-field="${el.dataset.field}"][data-i="${el.dataset.i}"]`,
+          `[data-field="${el.dataset.field}"][data-i="${el.dataset.i}"]`,
       );
       navigator.clipboard?.writeText(control?.value || "");
     }
@@ -1017,16 +1375,11 @@
       fetch("/ar/index.html")
         .then((r) => r.text())
         .then((h) => {
-          $("#tracking-result").innerHTML = [
-            "gtag",
-            "clarity",
-            "fbq",
-            "ttq",
-            "google-site-verification",
-          ]
-            .map(
-              (x) =>
-                `<span class="admin-badge">${x}: ${h.includes(x) ? "present" : "missing"}</span>`,
+          $("#tracking-result").innerHTML = Object.entries(trackingPresence(h))
+            .map(([name, present]) =>
+              `<span class="admin-badge">${name}: ${present
+                ? "present"
+                : "missing"}</span>`,
             )
             .join(" ");
         });
@@ -1045,17 +1398,38 @@
       state.bridge.markDirty("tips.json");
     }
     if (e.target.matches?.("[data-campaign-field]")) {
-      const campaign = state.bridge.content["campaigns.json"].campaigns[
-        Number(e.target.dataset.i)
-      ];
+      const campaign =
+        state.bridge.content["campaigns.json"].campaigns[
+          Number(e.target.dataset.i)
+        ];
       const key = e.target.dataset.campaignField;
-      campaign[key] = key === "budget" ? Number(e.target.value) : e.target.value;
+      campaign[key] =
+        key === "budget" ? Number(e.target.value) : e.target.value;
       state.bridge.markDirty("campaigns.json");
     }
     if (e.target.matches?.("[data-ad-copy]")) updateAdCopy(e.target);
     if (e.target.closest(".tool-grid")) updateBuilders();
   });
+  document.addEventListener("keydown", (event) => {
+    const tab = event.target.closest?.('[role="tab"][data-tab]');
+    if (!tab || !["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+    event.preventDefault();
+    const buttons = [...tab.parentElement.querySelectorAll('[role="tab"]')];
+    const direction = event.key === "ArrowRight" ? 1 : -1;
+    const next =
+      buttons[
+        (buttons.indexOf(tab) + direction + buttons.length) % buttons.length
+      ];
+    state.tab = next.dataset.tab;
+    rerender();
+    document.querySelector(`[role="tab"][data-tab="${state.tab}"]`)?.focus();
+  });
   document.addEventListener("change", (e) => {
+    if (e.target.id === "wa-template") {
+      const message = e.target.selectedOptions[0]?.dataset.message || "";
+      const field = $("#wa-message");
+      if (field) field.value = message;
+    }
     if (
       e.target.dataset.leadStatus !== undefined ||
       e.target.dataset.leadNotes !== undefined
@@ -1091,23 +1465,11 @@
     "click",
     async (e) => {
       if (!e.target.closest?.('[data-growth="test-endpoint"]')) return;
-      const out = $("#endpoint-result"),
-        token = $("#leads-token")?.value || "";
+      const out = $("#endpoint-result");
+      const token = $("#leads-token")?.value || "";
       localStorage.setItem(STORE.token, token);
-      out.textContent = "Testing…";
-      try {
-        const base = endpoint();
-        const live = await fetch(base).then((r) => r.ok);
-        const data = await fetch(
-          `${base}${base.includes("?") ? "&" : "?"}action=leads&token=${encodeURIComponent(token)}`,
-        ).then((r) => r.json());
-        out.textContent =
-          live && data.ok
-            ? "Endpoint and leads read passed."
-            : "Endpoint responded, but leads read was rejected.";
-      } catch {
-        out.textContent = "Network or endpoint error.";
-      }
+      out.innerHTML = `<p>${b("جاري الاختبار…", "Testing…")}</p>`;
+      out.innerHTML = await integrationResults(token);
     },
     true,
   );
@@ -1115,5 +1477,65 @@
     if (e.target.id === "leads-token")
       localStorage.setItem(STORE.token, e.target.value);
   });
+  async function integrationResults(token) {
+    const base = endpoint();
+    const results = [];
+    try {
+      const response = await fetch(base);
+      results.push([
+        "Liveness probe",
+        response.ok ? "OK" : `HTTP ${response.status}`,
+      ]);
+    } catch (error) {
+      results.push(["Liveness probe", error.message]);
+    }
+    try {
+      const join = base.includes("?") ? "&" : "?";
+      const response = await fetch(
+        `${base}${join}action=leads&token=${encodeURIComponent(token)}`,
+      );
+      const data = await response.json();
+      results.push([
+        "Leads read",
+        data.ok
+          ? `${(data.rows || []).length} rows`
+          : data.error || `HTTP ${response.status}`,
+      ]);
+    } catch (error) {
+      results.push(["Leads read", error.message]);
+    }
+    try {
+      const html = await fetch("/ar/index.html").then((response) =>
+        response.text(),
+      );
+      const summary = Object.entries(trackingPresence(html))
+        .map(([name, present]) => `${name}: ${present ? "present" : "missing"}`)
+        .join("; ");
+      results.push(["Tracking check", summary]);
+    } catch (error) {
+      results.push(["Tracking check", error.message]);
+    }
+    return `<ul class="integration-results">${results
+      .map(
+        ([name, result]) =>
+          `<li><strong>${esc(name)}</strong><span>${esc(result)}</span></li>`,
+      )
+      .join("")}</ul>`;
+  }
+
+  function trackingPresence(html) {
+    const analytics =
+      state.bridge.content["site.json"]?.integrations?.analytics || {};
+    const includesId = (id) => Boolean(id) && html.includes(id);
+    return {
+      gtag: includesId(analytics.ga4MeasurementId),
+      clarity: includesId(analytics.clarityProjectId),
+      fbq: includesId(analytics.metaPixelId),
+      ttq: includesId(analytics.tiktokPixelId),
+      googleVerification: /google-site-verification/i.test(html),
+      bingVerification: /msvalidate\.01/i.test(html),
+    };
+  }
+
   window.DashboardGrowth = { render, afterRender, action, state, refreshLeads };
 })();
