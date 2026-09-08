@@ -3092,3 +3092,35 @@
 .admin-panel--olive .view-head h2 small[lang="en"][dir="ltr"] {
   color: var(--admin-english-on-dark);
 }
+
+/* ---- 2026-09-08 fixes: narrow topbar and ad-copy inputs ---------------- */
+/* On phones the four topbar actions squeezed the title into a one-letter
+   column. Stack: title row first, actions wrapping underneath. */
+@media (max-width: 36rem) {
+  .admin-topbar {
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas: "menu title" "actions actions";
+    align-items: center;
+  }
+  .menu-toggle { grid-area: menu; }
+  .admin-topbar__title { grid-area: title; min-width: 0; }
+  .admin-topbar h1 { white-space: normal; overflow-wrap: anywhere; }
+  .admin-topbar__actions {
+    grid-area: actions;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.4rem;
+    padding-block-end: 0.5rem;
+  }
+  .admin-topbar__actions .dirty-pill,
+  .admin-topbar__actions .publish-pill,
+  .admin-topbar__actions [class*="unpublished"] { flex-basis: 100%; }
+}
+
+/* Ad-copy lines: the text control must take the whole first column and the
+   counter/buttons sit after it, never squeeze it. */
+.ad-copy-line { grid-template-columns: minmax(12rem, 1fr) auto auto auto; align-items: center; }
+.ad-copy-line input, .ad-copy-line textarea { min-width: 0; grid-column: 1; }
+.copy-bank { grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); }
+.copy-bank article { min-width: 0; }
