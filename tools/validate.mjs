@@ -91,7 +91,19 @@ for (const file of files) {
 
   /* ---- 3. images have alt ---------------------------------------------- */
   for (const m of html.matchAll(/<img\b[^>]*>/g)) {
-    if (!/\salt=/.test(m[0])) add(rel, "ERROR", `<img> without alt: ${m[0].slice(0, 90)}`);
+    const tag = m[0];
+    if (!/\salt=/.test(tag)) add(rel, "ERROR", `<img> without alt: ${tag.slice(0, 90)}`);
+    const candidates = [];
+    const src = /\ssrc="([^"]+)"/.exec(tag)?.[1];
+    if (src) candidates.push(src);
+    const srcset = /\ssrcset="([^"]+)"/.exec(tag)?.[1];
+    if (srcset) candidates.push(...srcset.split(",").map((item) => item.trim().split(/\s+/)[0]));
+    for (const raw of candidates) {
+      if (/^(https?:|data:|\/\/)/.test(raw)) continue;
+      const clean = decodeHtml(raw).split("#")[0].split("?")[0];
+      const target = clean.startsWith("/") ? path.join(SITE, clean.slice(1)) : path.resolve(dir, clean);
+      if (!fs.existsSync(target)) add(rel, "ERROR", `<img> references missing file → ${raw}`);
+    }
   }
 
   /* ---- 4. iframes have title ------------------------------------------- */

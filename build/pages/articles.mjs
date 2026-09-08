@@ -743,6 +743,30 @@ function detailSchemas({ c, locale, entry, doctor, reviewer, pagePath }) {
   const date = entryDate(entry);
   const author = entryAuthorName(entry, doctor, locale);
   const reviewedBy = entryAuthorName(entry, reviewer, locale, "reviewedBy");
+  const person = author ? {
+    "@type": "Person",
+    name: author,
+    url: doctor ? `${base}/${locale}/doctors/${t(doctor.slug, "en")}.html` : undefined,
+  } : undefined;
+  if (entryType(entry) === "qa") {
+    return [{
+      "@type": "QAPage",
+      "@id": `${base}/${locale}/${pagePath}#qa`,
+      mainEntity: {
+        "@type": "Question",
+        name: entryTitle(entry, locale),
+        text: entryTitle(entry, locale),
+        dateCreated: date || undefined,
+        author: { "@type": "Person", name: t({ ar: "مريض", en: "Patient" }, locale) },
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: qaAnswer(entry, locale),
+          dateCreated: date || undefined,
+          author: person,
+        },
+      },
+    }];
+  }
   const article = {
     "@type": "Article",
     "@id": `${base}/${locale}/${pagePath}#article`,
@@ -754,11 +778,7 @@ function detailSchemas({ c, locale, entry, doctor, reviewer, pagePath }) {
     dateModified: t(entry?.updatedAt, locale) || t(entry?.dateModified, locale) || date || undefined,
     inLanguage: c.site.i18n[locale].locale,
     articleSection: typeLabel(c, entryType(entry), locale),
-    author: author ? {
-      "@type": "Person",
-      name: author,
-      url: doctor ? `${base}/${locale}/doctors/${t(doctor.slug, "en")}.html` : undefined,
-    } : undefined,
+    author: person,
     reviewedBy: reviewedBy ? {
       "@type": "Person",
       name: reviewedBy,

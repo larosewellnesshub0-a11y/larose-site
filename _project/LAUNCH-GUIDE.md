@@ -48,3 +48,13 @@ After editing ids: Save in the dashboard → Publish (or `node build/build.mjs` 
   `/sitemap.xml`, `/agents.txt`, `/llms.txt`, `/404.html` all answer 200 over HTTPS.
 - Submit the booking form once with source `website-test`; a row must appear in the sheet with UTM columns.
 - Dashboard → Settings → Integrations → "Test endpoint" shows liveness + leads read + tracking check all green.
+
+## 5. Status 2026-09-08 22:35 (Cairo)
+- Repo: https://github.com/larosewellnesshub0-a11y/larose-site — Pages source = GitHub Actions; first deploy
+  succeeded at https://larosewellnesshub0-a11y.github.io/larose-site/
+- `laroseclinics.com` is currently attached to another GitHub account's Pages site
+  (`www` CNAME → youssefhagag1411-design.github.io). To move it, GitHub asks for domain verification:
+  TXT host `_github-pages-challenge-larosewellnesshub0-a11y` value `1e11a3520b314fa293322d4b58498e`
+  at Hostinger, then "Verify" at https://github.com/settings/pages_verified_domains/laroseclinics.com,
+  then set the custom domain in the repo Pages settings and change `www` CNAME to
+  `larosewellnesshub0-a11y.github.io`. A records already point at GitHub Pages.

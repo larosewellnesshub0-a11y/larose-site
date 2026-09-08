@@ -8,7 +8,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { loadContent, LOCALES, OUT_DIR, ROOT, t, esc, published } from "./lib/util.mjs";
+import { loadContent, LOCALES, OUT_DIR, ROOT, t, esc, published, specialtyImage } from "./lib/util.mjs";
 import { jsonLd, trackingHead } from "./lib/shell.mjs";
 
 import { renderHome } from "./pages/home.mjs";
@@ -53,9 +53,7 @@ function rootIndex(c) {
      listing, so it says what the clinic actually offers. Built from the live
      specialty list, so it cannot drift out of date the way a literal would. */
   // Six is what fits inside a description; the rest are one click away.
-  const offering = published(c.specialties || [])
-    .slice(0, 6).map((sp) => t(sp.short || sp.name, "ar")).join("، ");
-  const description = `عيادات لاروز التخصصية في المعادي الجديدة: ${offering}. اختار لغتك وابدأ من الكشف المناسب لحالتك.`;
+  const description = "عيادات لاروز التخصصية في المعادي الجديدة بتجمع التغذية العلاجية والباطنة والأطفال وتخصصات تانية في مكان واحد. اختار لغتك واعرف الخدمات والأطباء والحجز.";
   const socialImage = `${base}/assets/img/clinic/hero-clinic-1200.webp`;
   return `<!doctype html>
 <html lang="ar" dir="rtl">
@@ -138,6 +136,19 @@ function sitemap(c, paths) {
     const date = t(entry?.updatedAt, "en") || t(entry?.dateModified, "en") || t(entry?.date, "en");
     return /^\d{4}-\d{2}-\d{2}/.test(date) ? date.slice(0, 10) : today;
   };
+  const sitemapImage = (p) => {
+    const articleMatch = /^(?:ar|en)\/articles\/([^/]+)\.html$/.exec(p);
+    if (articleMatch) {
+      const entry = (c.articles.articles || []).find((item) => t(item.slug, "en") === articleMatch[1]);
+      return t(entry?.image, "en") || null;
+    }
+    const specialtyMatch = /^(?:ar|en)\/specialties\/([^/]+)\.html$/.exec(p);
+    if (specialtyMatch) {
+      const specialty = (c.specialties || []).find((item) => item.slug === specialtyMatch[1]);
+      return specialty ? (specialty.image || specialtyImage(specialty.slug)) : null;
+    }
+    return null;
+  };
   const urls = paths
     .filter((p) => p.endsWith(".html") && !p.includes("/404"))
     .map((p) => {
@@ -147,6 +158,7 @@ function sitemap(c, paths) {
       const arLoc = bilingual ? publicUrl(p) : `${base}/ar/${withinLocale.replace(/index\.html$/, "")}`;
       const enLoc = bilingual ? publicUrl(p) : `${base}/en/${withinLocale.replace(/index\.html$/, "")}`;
       const priority = p === "index.html" || (p.endsWith("index.html") && p.split("/").length === 2) ? "1.0" : "0.7";
+      const image = sitemapImage(p);
       return `  <url>
     <loc>${xml(publicUrl(p))}</loc>
     <lastmod>${lastmod(p)}</lastmod>
@@ -154,12 +166,12 @@ function sitemap(c, paths) {
     <xhtml:link rel="alternate" hreflang="ar" href="${xml(arLoc)}"/>
     <xhtml:link rel="alternate" hreflang="en" href="${xml(enLoc)}"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="${xml(arLoc)}"/>
-  </url>`;
+${image ? `    <image:image><image:loc>${xml(/^https?:/i.test(image) ? image : `${base}/${image.replace(/^\/+/, "")}`)}</image:loc></image:image>\n` : ""}  </url>`;
     })
     .join("\n");
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${urls}
 </urlset>`;
 }
