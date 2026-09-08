@@ -1149,7 +1149,9 @@
         )} <a href="#settings">Settings</a></p>`
     }</section>`;
   }
-  function afterRender(section) {
+  function afterRender(section, bridge) {
+    if (bridge) state.bridge = bridge;
+    if (!state.bridge) return;
     if (section === "analytics") {
       const host = $(".view-head");
       if (host && !$(".lead-analytics"))

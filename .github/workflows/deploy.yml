@@ -30,9 +30,12 @@ jobs:
         run: |
           rm -rf site/dashboard
           cp -R dashboard site/dashboard
+          node tools/snapshot-content.mjs
           rm -f site/_viewport.html site/_bookpages.html
-          echo laroseclinics.com > site/CNAME
-          touch site/.nojekyll
+          test -f site/CNAME
+          test -f site/.nojekyll
+          test ! -e site/dashboard/content/pricing.json
+          test ! -e site/dashboard/content/campaigns.json
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

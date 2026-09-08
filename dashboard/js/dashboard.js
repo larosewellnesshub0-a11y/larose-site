@@ -13,6 +13,11 @@
   const connectionPill = $("#connection-pill");
   const dirtyPill = $("#dirty-pill");
   const topSave = $("#top-save");
+  const topPublish = $("#top-publish");
+  const publishPill = $("#publish-pill");
+  const hostedBanner = $("#hosted-banner");
+  const publishDialog = $("#publish-dialog");
+  const publishForm = $("#publish-form");
   const operationBanner = $("#operation-banner");
   const toast = $("#admin-toast");
   const uploadDialog = $("#upload-dialog");
@@ -648,6 +653,8 @@
     savingFiles: new Set(),
     pipelineResult: null,
     operation: null,
+    mode: "local",
+    gitStatus: null,
   };
 
   let fieldSequence = 0;
@@ -1021,6 +1028,7 @@
   }
 
   function markDirty(file) {
+    if (state.mode === "hosted") return;
     if (file) {
       state.dirtyFiles.add(file);
       state.fileMutations[file] = (state.fileMutations[file] || 0) + 1;
@@ -1098,10 +1106,17 @@
       dirtyPill.removeAttribute("title");
     }
     topSave.disabled =
+      state.mode === "hosted" ||
       !file ||
       !state.dirtyFiles.has(file) ||
       !state.connected ||
       state.savingFiles.has(file);
+    if (topPublish) topPublish.disabled = state.mode === "hosted" || !(state.gitStatus?.dirty?.length || state.gitStatus?.ahead > 0);
+    if (publishPill) {
+      const count = state.gitStatus?.dirty?.length || 0;
+      publishPill.hidden = state.mode === "hosted" || !(count || state.gitStatus?.ahead);
+      publishPill.textContent = count ? `تغييرات غير منشورة · ${count} ملفات · Unpublished changes` : state.gitStatus?.ahead ? `${state.gitStatus.ahead} commits unpublished` : "";
+    }
     topSave.setAttribute(
       "aria-busy",
       state.savingFiles.has(file) ? "true" : "false",
@@ -1124,6 +1139,7 @@
     $$('[data-action="save-file"][data-file]').forEach((button) => {
       const buttonFile = button.dataset.file;
       button.disabled =
+        state.mode === "hosted" ||
         !state.connected ||
         !state.dirtyFiles.has(buttonFile) ||
         state.savingFiles.has(buttonFile);
@@ -1240,18 +1256,25 @@
     return Array.isArray(value) ? value : [];
   }
 
-  function renderGrowthSection(section) {
-    state.editorContext = null;
-    return window.DashboardGrowth.render(section, {
+  /* Everything growth.js needs from this closure. Built fresh on every call so
+     the growth modules always see the current content and status objects. */
+  function growthBridge() {
+    return {
       content: state.content,
       status: state.apiStatus,
+      mode: state.mode,
       markDirty,
       render,
       saveFile,
       setEditorContext(value) {
         state.editorContext = value;
       },
-    });
+    };
+  }
+
+  function renderGrowthSection(section) {
+    state.editorContext = null;
+    return window.DashboardGrowth.render(section, growthBridge());
   }
 
   function countIllustrative(value) {
@@ -1996,7 +2019,7 @@
   }
 
   function renderSettings() {
-    const files = ["site.json", "pages.json"].filter(
+    const files = ["site.json", "pages.json", "pricing.json"].filter(
       (file) => state.content[file],
     );
     if (!files.includes(state.settingsFile))
@@ -2243,7 +2266,9 @@
     });
 
     let html;
-    if (state.section === "overview") html = renderOverview();
+    if (state.mode === "hosted" && ["campaigns", "images", "backups"].includes(state.section)) {
+      html = `${viewHeading(meta, "البيانات والإجراءات دي متاحة على الجهاز المحلي فقط. · This section is local-only.")}<section class="admin-panel"><p>متاح محلياً فقط حفاظاً على خصوصية البيانات. <span lang="en" dir="ltr">Local-only to keep private data and files out of the public site.</span></p></section>`;
+    } else if (state.section === "overview") html = renderOverview();
     else if (state.section === "analytics") {
       state.editorContext = null;
       loadImages();
@@ -2267,8 +2292,13 @@
     viewRoot.className = "";
     viewRoot.removeAttribute("aria-busy");
     viewRoot.innerHTML = renderConflictNotice() + html;
+    if (state.mode === "hosted") {
+      $$('[data-editor-form] input, [data-editor-form] textarea, [data-editor-form] select, [data-action="save-file"], [data-action="add-item"], [data-action="delete-item"], [data-action="move-item"], [data-growth="save-campaign"], [data-growth^="tip-"]', viewRoot).forEach((control) => control.disabled = true);
+    }
     updateChrome();
-    window.DashboardGrowth?.afterRender?.(state.section);
+    // Overview, Analytics and Settings are rendered here but decorated by
+    // growth.js, so it needs the bridge on this path too.
+    window.DashboardGrowth?.afterRender?.(state.section, growthBridge());
   }
 
   function renderLoadError(error) {
@@ -2415,6 +2445,7 @@
   }
 
   async function saveFile(file) {
+    if (state.mode === "hosted") return;
     if (!file || !state.content[file] || state.savingFiles.has(file)) return;
     const forms = $$(`[data-editor-form][data-file="${file}"]`);
     for (const form of forms) {
@@ -2615,9 +2646,11 @@
   }
 
   async function refreshStatus() {
+    if (state.mode === "hosted") { state.connected = false; updateChrome(); return; }
     try {
       state.apiStatus = await api("/api/status");
       state.connected = Boolean(state.apiStatus?.ok);
+      state.gitStatus = await api("/api/git/status").catch(() => null);
     } catch {
       state.connected = false;
     }
@@ -2924,8 +2957,50 @@
       resetListFilters();
       render();
     } catch (error) {
-      renderLoadError(error);
+      try {
+        const snapshot = await fetch("content/index.json", { cache: "no-store" });
+        if (!snapshot.ok) throw error;
+        const payload = await snapshot.json();
+        state.content = payload.files || {};
+        state.contentRevs = {};
+        state.mode = "hosted";
+        state.connected = false;
+        hostedBanner.hidden = false;
+        const requested = location.hash.replace(/^#/, "");
+        if (SECTION_META[requested]) state.section = requested;
+        resetListFilters();
+        render();
+      } catch { renderLoadError(error); }
     }
+  }
+
+  function openPublish() {
+    if (state.mode === "hosted" || !state.gitStatus) return;
+    $("#publish-message").value = `Content update ${new Date().toISOString().slice(0, 10)}`;
+    $("#publish-files").innerHTML = (state.gitStatus.dirty || []).map((file) => `<li><code dir="ltr">${escapeHtml(file)}</code></li>`).join("") || "<li>Committed changes waiting to push</li>";
+    $("#publish-log").textContent = "";
+    $("#deploy-result").textContent = "";
+    publishDialog.showModal();
+  }
+
+  async function publishSite(event) {
+    event.preventDefault();
+    const submit = publishForm.querySelector('[type="submit"]');
+    submit.disabled = true;
+    const log = $("#publish-log");
+    log.textContent = "Building, validating, committing, and pushing…\n";
+    try {
+      const result = await api("/api/publish", { method: "POST", body: JSON.stringify({ message: $("#publish-message").value }) });
+      log.textContent = (result.log || []).join("\n");
+      state.gitStatus = result.status;
+      const deploy = await api("/api/deploy/status");
+      $("#deploy-result").innerHTML = `${deploy.status ? `Deploy: ${escapeHtml(deploy.status)}${deploy.conclusion ? ` / ${escapeHtml(deploy.conclusion)}` : ""}` : escapeHtml(deploy.error || "Deploy status unavailable")}${deploy.url ? ` · <a href="${escapeHtml(deploy.url)}" target="_blank" rel="noopener">GitHub Actions</a>` : ""} · <a href="https://laroseclinics.com" target="_blank" rel="noopener">laroseclinics.com</a>`;
+      await refreshStatus();
+    } catch (error) {
+      log.textContent += `\nERROR: ${error.message}`;
+      setOperation(`فشل النشر: ${error.message} · Publish failed`, "error");
+      await refreshStatus();
+    } finally { submit.disabled = false; updateChrome(); }
   }
 
   document.addEventListener("input", (event) => {
@@ -3010,6 +3085,8 @@
     if (window.DashboardGrowth?.action?.(action, actionElement)) return;
 
     if (action === "retry-load") load();
+    if (action === "open-publish") openPublish();
+    if (action === "close-publish") publishDialog.close();
     if (action === "rebuild") rebuildSite();
     if (action === "save-current") saveFile(currentFile());
     if (action === "save-file") saveFile(actionElement.dataset.file);
@@ -3120,6 +3197,8 @@
     event.preventDefault();
     closeUpload();
   });
+  publishForm.addEventListener("submit", publishSite);
+  publishDialog.addEventListener("cancel", (event) => { event.preventDefault(); publishDialog.close(); });
 
   window.addEventListener("resize", syncSidebarMode);
   window.addEventListener("beforeunload", (event) => {

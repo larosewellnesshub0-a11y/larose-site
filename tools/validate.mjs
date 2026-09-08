@@ -42,7 +42,9 @@ function alternateUrl(rel, locale) {
 function walk(dir, out = []) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
     const p = path.join(dir, e.name);
-    if (e.isDirectory()) walk(p, out);
+    // The dashboard is a noindex application shell, not a public clinic page;
+    // it has its own smoke/accessibility test and intentionally no SEO graph.
+    if (e.isDirectory() && p !== path.join(SITE, "dashboard")) walk(p, out);
     else if (e.name.endsWith(".html") && !e.name.startsWith("_") && !/^google[0-9a-f]+\.html$/i.test(e.name)) out.push(p);  // "_" prefix = dev-only; google*.html = Search Console verification file, not a page
   }
   return out;

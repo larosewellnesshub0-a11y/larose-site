@@ -650,6 +650,10 @@
   margin-inline-start: auto;
 }
 
+.hosted-banner { padding: .8rem 1rem; background: #fff0d8; color: var(--olive, #333524); text-align: center; border-bottom: 1px solid #d4b793; }
+.hosted-banner span { display: block; margin-top: .2rem; }
+.publish-log { min-height: 7rem; max-height: 18rem; overflow: auto; padding: .8rem; background: #25271c; color: #f8f4e8; border-radius: .5rem; white-space: pre-wrap; direction: ltr; text-align: left; }
+
 .operation-banner {
   position: sticky;
   top: var(--admin-topbar);

@@ -105,11 +105,17 @@
             <span class="status-label">جاري الاتصال <small lang="en" dir="ltr">Connecting</small></span>
           </span>
           <span class="dirty-pill" id="dirty-pill" hidden>تغييرات غير محفوظة <small lang="en" dir="ltr">Unsaved</small></span>
+          <span class="dirty-pill" id="publish-pill" hidden></span>
           <button class="admin-btn admin-btn--primary" id="top-save" type="button" data-action="save-current" disabled>
             حفظ الملف <span lang="en" dir="ltr">Save file</span>
           </button>
+          <button class="admin-btn admin-btn--accent" id="top-publish" type="button" data-action="open-publish" disabled>
+            نشر <span lang="en" dir="ltr">Publish</span>
+          </button>
         </div>
       </header>
+
+      <div class="hosted-banner" id="hosted-banner" role="status" hidden>وضع العرض: التعديل من الجهاز المحلي عبر <code>node server/serve.mjs</code> ثم زر النشر <span lang="en" dir="ltr">Read-only hosted mode: edit locally, then Publish</span></div>
 
       <div class="operation-banner" id="operation-banner" role="status" aria-live="polite" aria-atomic="true" tabindex="-1" hidden></div>
 
@@ -124,6 +130,17 @@
   </div>
 
   <div class="admin-toast" id="admin-toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+
+  <dialog class="upload-dialog" id="publish-dialog" aria-labelledby="publish-title">
+    <form class="upload-dialog__inner" id="publish-form">
+      <div class="dialog-head"><div><p class="admin-kicker">نشر الموقع <span lang="en" dir="ltr">Publish site</span></p><h2 id="publish-title">مراجعة ونشر <small lang="en" dir="ltr">Review & publish</small></h2></div><button class="icon-btn" type="button" data-action="close-publish" aria-label="إغلاق · Close">×</button></div>
+      <label>رسالة التحديث <small lang="en" dir="ltr">Commit message</small><input id="publish-message" maxlength="240" required></label>
+      <div><strong>الملفات المتغيرة · Changed files</strong><ul id="publish-files"></ul></div>
+      <pre class="publish-log" id="publish-log" role="log" aria-live="polite"></pre>
+      <div id="deploy-result" role="status"></div>
+      <div class="dialog-actions"><button class="admin-btn admin-btn--accent" type="submit">نشر الآن <span lang="en" dir="ltr">Publish now</span></button><button class="admin-btn admin-btn--quiet" type="button" data-action="close-publish">إلغاء <span lang="en" dir="ltr">Cancel</span></button></div>
+    </form>
+  </dialog>
 
   <dialog class="upload-dialog" id="upload-dialog" aria-labelledby="upload-title">
     <form class="upload-dialog__inner" id="upload-form">

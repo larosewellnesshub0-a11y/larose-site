@@ -73,6 +73,15 @@ const ids = [
   "connection-pill",
   "dirty-pill",
   "top-save",
+  "top-publish",
+  "publish-pill",
+  "hosted-banner",
+  "publish-dialog",
+  "publish-form",
+  "publish-message",
+  "publish-files",
+  "publish-log",
+  "deploy-result",
   "operation-banner",
   "admin-toast",
   "upload-dialog",
@@ -96,6 +105,10 @@ elements["upload-dialog"].close = () => {
 elements["upload-dialog"].showModal = () => {
   elements["upload-dialog"].open = true;
 };
+elements["publish-dialog"].open = false;
+elements["publish-dialog"].close = () => { elements["publish-dialog"].open = false; };
+elements["publish-dialog"].showModal = () => { elements["publish-dialog"].open = true; };
+elements["publish-form"].querySelector = () => new FakeElement();
 
 const sections = [
   "overview",
@@ -188,6 +201,13 @@ const serverSource = fs.readFileSync(
   path.join(ROOT, "server", "serve.mjs"),
   "utf8",
 );
+const snapshotSource = fs.readFileSync(path.join(ROOT, "tools", "snapshot-content.mjs"), "utf8");
+check(snapshotSource.includes('entry.name === "campaigns.json"') && snapshotSource.includes('entry.name.startsWith("_")'), "snapshot: private-file exclusions are missing");
+const builtSnapshot = path.join(ROOT, "site", "dashboard", "content", "index.json");
+if (fs.existsSync(builtSnapshot)) {
+  const snapshot = JSON.parse(fs.readFileSync(builtSnapshot, "utf8"));
+  check(!snapshot.files?.["pricing.json"] && !snapshot.files?.["campaigns.json"] && !JSON.stringify(snapshot).includes("_internalPricing"), "snapshot: private content leaked into hosted data");
+}
 vm.runInThisContext(analyticsScript, { filename: "analytics.js" });
 vm.runInThisContext(qrScript, { filename: "qr.js" });
 vm.runInThisContext(growthScript, { filename: "growth.js" });
@@ -255,6 +275,9 @@ function clickAction(dataset) {
 const liveContent = await realFetch(new URL("/api/content", BASE)).then((r) =>
   r.json(),
 );
+const gitStatus = await realFetch(new URL("/api/git/status", BASE)).then((r) => r.json());
+check(typeof gitStatus.branch === "string" && Array.isArray(gitStatus.dirty) && typeof gitStatus.ahead === "number" && typeof gitStatus.behind === "number" && Object.hasOwn(gitStatus, "remote"), "git status: endpoint shape is incomplete");
+check(liveContent["pricing.json"] && liveContent["campaigns.json"], "private dashboard files: local API did not expose logical files");
 const countOf = (file, key) => (liveContent[file]?.[key] || []).length;
 const DOCTORS = countOf("doctors.json", "doctors");
 const ARTICLES = countOf("articles.json", "articles");
@@ -551,10 +574,6 @@ check(
   "reviews: before/after editor missing",
 );
 check(
-  rendered.digital.includes("Internal pricing"),
-  "digital: internal pricing editor missing",
-);
-check(
   rendered.digital.includes('data-value-type="boolean"') &&
     rendered.digital.includes("disabled"),
   "digital: public price guard missing",
@@ -585,10 +604,12 @@ check(
   "tips: root-array editor missing",
 );
 check(
-  serverSource.includes('"campaigns.json", "tips.json"') &&
+  serverSource.includes('"campaigns.json", "pricing.json", "tips.json"') &&
+    serverSource.includes("PRIVATE_DEFAULTS") &&
     serverSource.includes('file === "tips.json"'),
   "server: new content files or tips array validation missing",
 );
+check(script.includes('"pricing.json"') && script.includes('state.mode = "hosted"') && script.includes('fetch("content/index.json"'), "hosted mode or internal pricing settings contract missing");
 check(
   growthScript.includes("lr_dash_leads_token") &&
     growthScript.includes("lr_dash_leads_cache") &&

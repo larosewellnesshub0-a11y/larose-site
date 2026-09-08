@@ -27,6 +27,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SITE = path.join(ROOT, "site");
 const DASH = path.join(ROOT, "dashboard");
 const CONTENT = path.join(ROOT, "content");
+const PRIVATE_CONTENT = path.join(CONTENT, "_private");
 const BACKUPS = path.join(CONTENT, "_backups");
 const UPLOADS = path.join(SITE, "assets", "img");
 
@@ -90,8 +91,27 @@ function safeJoin(base, target) {
 const CONTENT_FILES = new Set([
   "site.json", "specialties.json", "doctors.json", "branches.json",
   "articles.json", "reviews.json", "digital.json", "pages.json",
-  "campaigns.json", "tips.json",
+  "campaigns.json", "pricing.json", "tips.json",
 ]);
+
+const PRIVATE_DEFAULTS = {
+  "campaigns.json": { _note: "Internal dashboard-only campaign planning and ad-copy overrides. This file is never published.", campaigns: [], adCopy: {} },
+  "pricing.json": { _note: "Internal pricing only. Never publish or copy this file into site/.", pricing: {} },
+};
+
+function contentPath(file) {
+  return Object.hasOwn(PRIVATE_DEFAULTS, file)
+    ? path.join(PRIVATE_CONTENT, file)
+    : path.join(CONTENT, file);
+}
+
+async function ensurePrivateContent() {
+  await fsp.mkdir(PRIVATE_CONTENT, { recursive: true });
+  for (const [file, initial] of Object.entries(PRIVATE_DEFAULTS)) {
+    const target = contentPath(file);
+    if (!fs.existsSync(target)) await writeFileAtomic(target, JSON.stringify(initial, null, 2) + "\n");
+  }
+}
 
 const COLLECTION_RULES = {
   "specialties.json": [{ key: "specialties", id: "slug", required: ["slug", "name.ar", "name.en"] }],
@@ -136,6 +156,15 @@ function validateContent(file, data) {
     return errors;
   }
   if (!isObject(data)) return ["The content root must be a JSON object."];
+
+  if (file === "pricing.json") {
+    const walkPrices = (value, pointer = "pricing") => {
+      if (Array.isArray(value)) return value.forEach((child, index) => walkPrices(child, `${pointer}[${index}]`));
+      if (isObject(value)) return Object.entries(value).forEach(([key, child]) => walkPrices(child, `${pointer}.${key}`));
+      if (typeof value === "number" && (!Number.isFinite(value) || value < 0)) errors.push(`${pointer} must be a number greater than or equal to zero.`);
+    };
+    walkPrices(data);
+  }
 
   const walk = (value, pointer = "") => {
     if (Array.isArray(value)) return value.forEach((child, index) => walk(child, `${pointer}[${index}]`));
@@ -247,7 +276,7 @@ function contentRev(contents) {
 }
 
 async function contentSnapshot(file) {
-  const text = await fsp.readFile(path.join(CONTENT, file), "utf8");
+  const text = await fsp.readFile(contentPath(file), "utf8");
   return { content: JSON.parse(text), rev: contentRev(text) };
 }
 
@@ -266,7 +295,7 @@ function withContentWrite(file, task) {
 }
 
 async function createBackup(file) {
-  const target = path.join(CONTENT, file);
+  const target = contentPath(file);
   if (!fs.existsSync(target)) return null;
   await fsp.mkdir(BACKUPS, { recursive: true });
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
@@ -313,6 +342,51 @@ function runNodeScript(script) {
     child.on("error", (error) => resolve({ ok: false, code: null, out, err: `${err}${error.message}` }));
     child.on("close", (code) => resolve({ ok: code === 0, code, out, err }));
   });
+}
+
+function runCommand(command, args, { onLine } = {}) {
+  return new Promise((resolve) => {
+    const child = spawn(command, args, { cwd: ROOT, stdio: ["ignore", "pipe", "pipe"] });
+    let out = "", err = "", pending = "";
+    const receive = (chunk, isError = false) => {
+      const value = chunk.toString();
+      if (isError) err += value; else out += value;
+      pending += value;
+      const lines = pending.split(/\r?\n/); pending = lines.pop() || "";
+      lines.filter(Boolean).forEach((line) => onLine?.(line));
+    };
+    child.stdout.on("data", (chunk) => receive(chunk));
+    child.stderr.on("data", (chunk) => receive(chunk, true));
+    child.on("error", (error) => resolve({ ok: false, code: null, out, err: `${err}${error.message}` }));
+    child.on("close", (code) => { if (pending) onLine?.(pending); resolve({ ok: code === 0, code, out, err }); });
+  });
+}
+
+async function git(args) { return runCommand("git", args); }
+
+async function gitStatus() {
+  const [branchResult, porcelain, last, remoteResult] = await Promise.all([
+    git(["branch", "--show-current"]), git(["status", "--porcelain=v1"]),
+    git(["log", "-1", "--format=%H%x09%cI%x09%s"]), git(["remote", "get-url", "origin"]),
+  ]);
+  const branch = branchResult.out.trim();
+  let ahead = 0, behind = 0;
+  if (branch) {
+    const counts = await git(["rev-list", "--left-right", "--count", `${branch}...@{upstream}`]);
+    if (counts.ok) [behind, ahead] = counts.out.trim().split(/\s+/).map(Number);
+  }
+  const [hash = "", date = "", ...message] = last.out.trim().split("\t");
+  return {
+    branch, ahead, behind,
+    dirty: porcelain.out.split(/\r?\n/).filter(Boolean).map((line) => line.slice(3)),
+    lastCommit: hash ? { hash, date, message: message.join("\t") } : null,
+    remote: remoteResult.ok ? remoteResult.out.trim() : null,
+  };
+}
+
+function parseGitHubRepo(remote) {
+  const match = String(remote || "").match(/github\.com[/:]([^/]+)\/([^/]+?)(?:\.git)?$/i);
+  return match ? { owner: match[1], repo: match[2] } : null;
 }
 
 async function countPages(dir = SITE) {
@@ -406,7 +480,7 @@ async function handleApi(req, res, url) {
       const all = {};
       const revs = {};
       for (const f of CONTENT_FILES) {
-        const p = path.join(CONTENT, f);
+        const p = contentPath(f);
         if (fs.existsSync(p)) {
           const snapshot = await contentSnapshot(f);
           all[f] = snapshot.content;
@@ -419,7 +493,7 @@ async function handleApi(req, res, url) {
       return json(res, 200, { ...all, __revs: revs });
     }
     if (!CONTENT_FILES.has(seg[1])) return json(res, 404, { error: "Unknown content file" });
-    const p = path.join(CONTENT, seg[1]);
+    const p = contentPath(seg[1]);
     if (!fs.existsSync(p)) return json(res, 404, { error: "Not found" });
     return json(res, 200, (await contentSnapshot(seg[1])).content);
   }
@@ -448,7 +522,7 @@ async function handleApi(req, res, url) {
          so a stale or simultaneous request cannot spend a backup slot or write. */
       if (sentRev !== current.rev) return { conflict: current };
       const backup = await createBackup(seg[1]);
-      await writeFileAtomic(path.join(CONTENT, seg[1]), replacement);
+      await writeFileAtomic(contentPath(seg[1]), replacement);
       return { backup, rev: contentRev(replacement) };
     });
     if (saved.conflict) {
@@ -497,7 +571,7 @@ async function handleApi(req, res, url) {
     const replacement = JSON.stringify(restored, null, 2) + "\n";
     const restoredFile = await withContentWrite(file, async () => {
       const preserved = await createBackup(file);
-      await writeFileAtomic(path.join(CONTENT, file), replacement);
+      await writeFileAtomic(contentPath(file), replacement);
       return { preserved, rev: contentRev(replacement) };
     });
     const pipeline = await rebuild();
@@ -652,6 +726,58 @@ async function handleApi(req, res, url) {
     }
   }
 
+  // Local publishing only. Arguments are passed directly to spawn; no shell is used.
+  if (req.method === "GET" && seg[0] === "git" && seg[1] === "status") {
+    return json(res, 200, await gitStatus());
+  }
+
+  if (req.method === "POST" && seg[0] === "publish") {
+    let payload;
+    try { payload = JSON.parse((await readBody(req, 64 * 1024)).toString("utf8")); }
+    catch { return json(res, 400, { error: "Body is not valid JSON" }); }
+    const message = String(payload.message || "").trim().slice(0, 240);
+    if (!message) return json(res, 400, { error: "A commit message is required." });
+    const before = await gitStatus();
+    if (!before.remote) return json(res, 409, { error: "No origin remote is configured. Add a GitHub remote before publishing.", log: [] });
+    if (before.branch !== "main") return json(res, 409, { error: `Publishing requires the main branch; current branch is ${before.branch || "unknown"}.`, log: [] });
+    const log = [];
+    const step = async (label, command, args) => {
+      log.push(label);
+      const result = await runCommand(command, args, { onLine: (line) => log.push(line) });
+      if (!result.ok) throw Object.assign(new Error((result.err || result.out || `${label} failed`).trim()), { result });
+      return result;
+    };
+    try {
+      await step("Building site…", process.execPath, [path.join(ROOT, "build", "build.mjs")]);
+      await step("Validating site…", process.execPath, [path.join(ROOT, "tools", "validate.mjs")]);
+      await step("Staging changes…", "git", ["add", "-A"]);
+      const staged = await git(["diff", "--cached", "--quiet"]);
+      if (!staged.ok) await step("Creating commit…", "git", ["commit", "-m", message]);
+      else log.push("No new files to commit; pushing existing commits.");
+      await step("Pushing origin/main…", "git", ["push", "origin", "main"]);
+      return json(res, 200, { ok: true, log, status: await gitStatus() });
+    } catch (error) {
+      return json(res, 500, { error: error.message, log, status: await gitStatus() });
+    }
+  }
+
+  if (req.method === "GET" && seg[0] === "deploy" && seg[1] === "status") {
+    const status = await gitStatus();
+    const repo = parseGitHubRepo(status.remote);
+    if (!repo) return json(res, 200, { available: false, error: "The origin remote is not a GitHub repository." });
+    try {
+      const response = await fetch(`https://api.github.com/repos/${encodeURIComponent(repo.owner)}/${encodeURIComponent(repo.repo)}/actions/runs?per_page=1`, {
+        headers: { Accept: "application/vnd.github+json", "User-Agent": "La-Rose-local-dashboard" },
+        signal: AbortSignal.timeout(8000),
+      });
+      if (!response.ok) throw new Error(`GitHub API returned ${response.status}.`);
+      const run = (await response.json()).workflow_runs?.[0];
+      return json(res, 200, run ? { available: true, status: run.status, conclusion: run.conclusion, url: run.html_url } : { available: true, status: null, conclusion: null, url: null });
+    } catch (error) {
+      return json(res, 200, { available: false, error: `Deploy status unavailable: ${error.message}` });
+    }
+  }
+
   // GET /api/status
   if (req.method === "GET" && seg[0] === "status") {
     return json(res, 200, {
@@ -691,6 +817,7 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
+await ensurePrivateContent();
 server.listen(PORT, () => {
   console.log(`
   LA ROSE WELLNESS HUB - local server

@@ -1,5 +1,5 @@
 {
- "_note": "La Rose Digital Solutions، the clinic's two remote services. Everything factual here comes from the clinic's own price/offers sheet: the online programme's two formats (private and group) and exactly what each includes. PRICES ARE DELIBERATELY OMITTED from the public site per the client's decision: the real figures are recorded in `_internalPricing` below for the dashboard only, with `showPrice: false` on every item. The validator fails the build if any price reaches a public page. Field names follow the page template's schema: short / lede / inside / audience / faq (plus `formats` on the online programme).",
+"_note": "La Rose Digital Solutions، the clinic's two remote services. Everything factual here comes from the clinic's own price/offers sheet: the online programme's two formats (private and group) and exactly what each includes. PRICES ARE DELIBERATELY OMITTED from public content per the client's decision; internal figures live only in the private dashboard file, with `showPrice: false` on every item. The validator fails the build if any price reaches a public page. Field names follow the page template's schema: short / lede / inside / audience / faq (plus `formats` on the online programme).",
  "products": [
   {
    "slug": "recipe-book",
@@ -222,27 +222,5 @@
     "en": "The same plan and weekly follow-up, from anywhere"
    }
   }
- ],
- "_internalPricing": {
-  "_note": "DASHBOARD ONLY. Never rendered on a public page، every `showPrice` above is false and the validator blocks price patterns in the output. Figures transcribed from the clinic's own price/offers sheet (`sevices/شيت الاسعار والعروض (2).xlsx`), which was marked as a summer promotion، CONFIRM BEFORE PUBLISHING ANY OF IT.",
-  "onlineGroup": {
-   "offer": 999,
-   "was": 3000,
-   "period": "شهر + شهرين مجاناً",
-   "currency": "EGP"
-  },
-  "onlinePrivateMonth": {
-   "offer": 1000,
-   "was": 2000,
-   "currency": "EGP"
-  },
-  "onlinePrivate3Months": {
-   "offer": 2500,
-   "was": 6000,
-   "currency": "EGP"
-  },
-  "recipeBook": {
-   "_todo": "No price supplied for the recipe book."
-  }
- }
+ ]
 }

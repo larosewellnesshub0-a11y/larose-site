@@ -380,9 +380,8 @@ def article_location(tokens, root, domain):
 
 
 def digital_location(tokens, root, domain):
-    if tokens and tokens[0] == "_internalPricing":
-        return Location(7, 99, bilingual("لاروز ديچيتال › أسئلة داخلية معلّقة",
-                                         "La Rose Digital > Outstanding internal questions"), "")
+    # Internal pricing moved to content/_private/pricing.json and is deliberately
+    # excluded from this public-content copy map.
     record, index = indexed_record(root, "products", tokens)
     ar, en = name_pair(record, f"منتج {index + 1}", f"Product {index + 1}")
     slug = record.get("slug", "") if record else ""

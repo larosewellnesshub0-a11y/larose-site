@@ -7,6 +7,9 @@ _project/held-images/
 _project/retired-images/
 _project/gpt-out/
 content/_backups/
+content/_private/*
+!content/_private/README.md
+content/campaigns.json
 content_bak_0119/
 before and after images/
 tools/__pycache__/
