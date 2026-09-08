@@ -58,3 +58,12 @@ After editing ids: Save in the dashboard → Publish (or `node build/build.mjs` 
   at Hostinger, then "Verify" at https://github.com/settings/pages_verified_domains/laroseclinics.com,
   then set the custom domain in the repo Pages settings and change `www` CNAME to
   `larosewellnesshub0-a11y.github.io`. A records already point at GitHub Pages.
+
+## 6. Status 2026-09-09 00:25 (Cairo)
+- LIVE at https://laroseclinics.com (HTTPS enforced). Domain verified on the larose GitHub account and attached to the repo.
+- Search Console: domain property `laroseclinics.com` verified via DNS TXT (Hostinger); sitemap submitted (344 URLs, Success);
+  indexing requested for /ar/, /en/, /RecipeGuide/.
+- Hosted dashboard: https://laroseclinics.com/dashboard/ — username `larose`, password `LaRose-Hub-2026!`
+  (client-side gate; change the hash in `dashboard/js/auth.js`).
+- Clarity: signing in with larosewellnesshub0@gmail.com (Google) in progress.
+- GA4: analytics.google.com is blocked in the Chrome extension permissions; create the property manually or allow the domain.
