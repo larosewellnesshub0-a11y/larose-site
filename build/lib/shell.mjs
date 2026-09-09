@@ -391,6 +391,7 @@ export function jsonLd({ c, locale, pagePath, schema, body = "", canonicalUrl = 
     alternateName: t(s.brand.name, locale === "ar" ? "en" : "ar"),
     url: `${base}/${locale}/`,
     logo: `${base}/${s.brand.logo.wordmark}`,
+    image: `${base}/assets/img/clinic/hero-clinic-1200.webp`,
     telephone: s.contact.phone.tel || undefined,
     address,
     geo: maadi?.geo ? { "@type": "GeoCoordinates", latitude: maadi.geo.lat, longitude: maadi.geo.lng } : undefined,

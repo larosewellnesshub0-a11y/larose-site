@@ -12,7 +12,7 @@
    The gate is skipped on localhost, where the local server is the boundary. */
 (() => {
   "use strict";
-  const AUTH_HASH = "bf38ae42302bd5ae1f8c810d3b45fb5d759c0f739bad6fbe4f4fce0cc912c5a9";
+  const AUTH_HASH = "790e8df7e9b9f8ad131176575fd5b60b6883badfffe4b512d48327b45d32d1ee";
   const SESSION_KEY = "lr_dash_auth";
   const isLocal = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
   if (isLocal) return;

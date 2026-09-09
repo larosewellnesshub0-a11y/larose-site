@@ -748,25 +748,21 @@ function detailSchemas({ c, locale, entry, doctor, reviewer, pagePath }) {
     name: author,
     url: doctor ? `${base}/${locale}/doctors/${t(doctor.slug, "en")}.html` : undefined,
   } : undefined;
-  if (entryType(entry) === "qa") {
-    return [{
-      "@type": "QAPage",
-      "@id": `${base}/${locale}/${pagePath}#qa`,
-      mainEntity: {
-        "@type": "Question",
-        name: entryTitle(entry, locale),
-        text: entryTitle(entry, locale),
-        dateCreated: date || undefined,
-        author: { "@type": "Person", name: t({ ar: "مريض", en: "Patient" }, locale) },
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: qaAnswer(entry, locale),
-          dateCreated: date || undefined,
-          author: person,
-        },
+  // Patient questions are answered by the clinic's own doctors, so Google's
+  // rules put them under FAQPage (site-authored), not QAPage (user-generated).
+  const faq = entryType(entry) === "qa" ? {
+    "@type": "FAQPage",
+    "@id": `${base}/${locale}/${pagePath}#faq`,
+    mainEntity: [{
+      "@type": "Question",
+      name: entryTitle(entry, locale),
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: qaAnswer(entry, locale),
+        author: person,
       },
-    }];
-  }
+    }],
+  } : null;
   const article = {
     "@type": "Article",
     "@id": `${base}/${locale}/${pagePath}#article`,
@@ -788,7 +784,7 @@ function detailSchemas({ c, locale, entry, doctor, reviewer, pagePath }) {
       "@id": `${base}/#clinic`,
     },
   };
-  return [article];
+  return faq ? [article, faq] : [article];
 }
 
 function authorCard({ c, locale, depth, doctor }) {
