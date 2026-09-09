@@ -125,6 +125,17 @@
       );
     } catch {}
   }
+  /* The token travels in the POST body, never in the URL, so it does not
+     land in browser history, proxies or Google's request logs. Apps Script
+     answers a text/plain POST with a redirect to the JSON result, which
+     fetch follows; the body must stay text/plain (no preflight). */
+  function readLeads(url, token) {
+    return fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify({ action: "leads", token }),
+    });
+  }
   async function refreshLeads() {
     if (state.loading) return;
     const url = endpoint(),
@@ -141,9 +152,7 @@
     state.error = "";
     rerender();
     try {
-      const r = await fetch(
-        `${url}${url.includes("?") ? "&" : "?"}action=leads&token=${encodeURIComponent(token)}`,
-      );
+      const r = await readLeads(url, token);
       if (!r.ok)
         throw new Error(
           r.status === 401 || r.status === 403
@@ -1492,10 +1501,7 @@
       results.push(["Liveness probe", error.message]);
     }
     try {
-      const join = base.includes("?") ? "&" : "?";
-      const response = await fetch(
-        `${base}${join}action=leads&token=${encodeURIComponent(token)}`,
-      );
+      const response = await readLeads(base, token);
       const data = await response.json();
       results.push([
         "Leads read",
