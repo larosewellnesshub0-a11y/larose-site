@@ -70,3 +70,9 @@ After editing ids: Save in the dashboard → Publish (or `node build/build.mjs` 
 - 00:45: Clarity project `yfaiazec51` (account larosewellnesshub0, Google sign-in) live on every page; Google
   site-verification meta live. GA4 property and the Apps Script redeploy (READ_TOKEN + UTM columns) still need
   the Chrome extension to be allowed on analytics.google.com and script.google.com.
+
+## 2026-09-09 — Apps Script redeployed (version 2)
+- Project "Larose reservation sheets" (larosewellnesshub0@gmail.com) now runs the token-gated `integrations/apps-script/Code.gs`; deployment URL unchanged (`formsEndpoint` in `content/site.json` still valid).
+- Script property `READ_TOKEN` set (value in `_project/.read-token`, git-ignored). Verified: `?action=leads&token=…` returns headers + rows; wrong token → `unauthorised`; POST appends a row with the UTM columns.
+- The read token is stored in the Chrome localStorage key `lr_dash_leads_token` for https://laroseclinics.com/dashboard/ (Settings → Integrations shows it). Other browsers: paste it there once.
+- Test rows in the sheet (source `website-test`) can be deleted.
