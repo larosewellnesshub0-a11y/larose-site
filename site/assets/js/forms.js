@@ -55,7 +55,30 @@
     }).then(function (r) { return r.ok; }).catch(function () { return false; });
   }
 
+  /* Honeypot: an off-screen text field that people never see and never fill,
+     added by script so it cannot be predicted from the static markup. A
+     submission with it filled is dropped here and, as a second line, by the
+     Apps Script. Bots that skip the page and POST straight to the endpoint
+     are handled there by the per-phone and per-hour caps instead. */
+  var TRAP = "company_website";
+  function armTraps() {
+    var forms = document.querySelectorAll("form[data-whatsapp-form]");
+    Array.prototype.forEach.call(forms, function (form) {
+      if (form.querySelector('[name="' + TRAP + '"]')) return;
+      var wrap = document.createElement("div");
+      wrap.setAttribute("aria-hidden", "true");
+      wrap.style.cssText = "position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden";
+      wrap.innerHTML = '<label>Company website<input type="text" name="' + TRAP + '" tabindex="-1" autocomplete="off"></label>';
+      form.appendChild(wrap);
+    });
+  }
+  function trapped(form) {
+    var trap = form && form.querySelector('[name="' + TRAP + '"]');
+    return !!(trap && trap.value);
+  }
+
   function send(payload) {
+    if (!payload || payload.trapped) return Promise.resolve();
     // no-cors responses are opaque, so a resolved promise is the only signal
     // available. Treat a rejection as "retry later" and never block the user.
     return Promise.all([postRemote(payload), postLocal(payload)])
@@ -119,8 +142,10 @@
       firstTouchSource: [first.utm_source, first.utm_campaign].filter(Boolean).join("/")
     };
     var extra = [];
+    if (trapped(form)) out.trapped = true;
 
     form.querySelectorAll("[name]").forEach(function (f) {
+      if (f.name === TRAP) return;
       if (!f.value) return;
       if (f.type === "checkbox" && !f.checked) return;
       var value = f.tagName === "SELECT" && f.selectedOptions[0]
@@ -146,6 +171,7 @@
   window.LRForms = { collect: collect, send: send };
 
   document.addEventListener("DOMContentLoaded", function () {
+    try { armTraps(); } catch (e) {}
     try { flushQueue(); } catch (e) {}
   });
 })();

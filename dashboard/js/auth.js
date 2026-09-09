@@ -6,22 +6,35 @@
    sensitive (leads) stays behind the Apps Script READ_TOKEN, which never
    leaves the browser of the person who pasted it.
 
-   Credentials are checked as SHA-256(username + "\n" + password). To change
-   them run:  node -e "console.log(require('crypto').createHash('sha256').update('USER\nPASS').digest('hex'))"
-   and paste the result into AUTH_HASH below, then publish.
+   Credentials are checked as PBKDF2-SHA256(username + "\n" + password) with
+   a random salt and a high iteration count, so the values below (which are
+   public, this repository is public) cannot be brute-forced cheaply.
+   To change the login run:  node tools/dashboard-login.mjs "<user>" "<pass>"
+   which rewrites the AUTH line below; then publish. The credentials
+   themselves live only in the git-ignored _project/.dashboard-login.
    The gate is skipped on localhost, where the local server is the boundary. */
 (() => {
   "use strict";
-  const AUTH_HASH = "790e8df7e9b9f8ad131176575fd5b60b6883badfffe4b512d48327b45d32d1ee";
+  const AUTH = { salt: "598bcfe8ac55e50520c69dae5651cf38", iterations: 310000, hash: "2e4e0aeec88c61ea9923b0651e5732bbd6881199fb021fb13e74868e2386df40" };
   const SESSION_KEY = "lr_dash_auth";
   const isLocal = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
   if (isLocal) return;
-  try { if (sessionStorage.getItem(SESSION_KEY) === AUTH_HASH) return; } catch {}
+  try { if (AUTH.hash && sessionStorage.getItem(SESSION_KEY) === AUTH.hash) return; } catch {}
 
-  async function digest(text) {
-    const bytes = new TextEncoder().encode(text);
-    const buffer = await crypto.subtle.digest("SHA-256", bytes);
+  function hex(buffer) {
     return [...new Uint8Array(buffer)].map((b) => b.toString(16).padStart(2, "0")).join("");
+  }
+  function fromHex(text) {
+    return new Uint8Array((text.match(/../g) || []).map((pair) => parseInt(pair, 16)));
+  }
+  async function digest(text) {
+    const key = await crypto.subtle.importKey("raw", new TextEncoder().encode(text), "PBKDF2", false, ["deriveBits"]);
+    const bits = await crypto.subtle.deriveBits(
+      { name: "PBKDF2", hash: "SHA-256", salt: fromHex(AUTH.salt), iterations: AUTH.iterations },
+      key,
+      256,
+    );
+    return hex(bits);
   }
 
   function gate() {
@@ -58,7 +71,7 @@
       const user = form.username.value.trim();
       const pass = form.password.value;
       const hash = await digest(user + "\n" + pass);
-      if (hash === AUTH_HASH) {
+      if (AUTH.hash && hash === AUTH.hash) {
         try { sessionStorage.setItem(SESSION_KEY, hash); } catch {}
         location.reload();
       } else {

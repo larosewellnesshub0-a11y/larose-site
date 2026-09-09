@@ -14,6 +14,20 @@ var ACCEPTED = [
   'device', 'firstTouchSource'
 ];
 var MAX_FIELD = 2000;
+var PER_PHONE_PER_HOUR = 5;   // one person re-sending a form a few times is fine
+var PER_HOUR_TOTAL = 120;     // far above real traffic, low enough to stop a flood
+
+/* Sliding one-hour counters in the script cache (no sheet writes, no quota
+   cost). Returns false once the key has hit its cap for this hour. */
+function underLimit_(key, cap) {
+  try {
+    var cache = CacheService.getScriptCache();
+    var id = 'rl:' + Utilities.base64EncodeWebSafe(Utilities.computeDigest(Utilities.DigestAlgorithm.MD5, String(key), Utilities.Charset.UTF_8)).slice(0, 22);
+    var count = Number(cache.get(id) || 0) + 1;
+    cache.put(id, String(count), 3600);
+    return count <= cap;
+  } catch (err) { return true; } // cache trouble must never block a real patient
+}
 
 function json_(obj, callback) {
   var body = JSON.stringify(obj);
@@ -43,17 +57,23 @@ function stringValue_(value) {
   return Object.prototype.toString.call(value) === '[object Date]' && !isNaN(value.getTime()) ? value.toISOString() : String(value === null || value === undefined ? '' : value).replace(/^'(\+?\d)/, '$1');
 }
 
-function doGet(e) {
-  var p = e && e.parameter || {};
-  if (p.action !== 'leads') return json_({ ok: true, service: 'larose-forms' });
-  if (!authorised_(p.token)) return json_({ ok: false, error: 'unauthorised' }, p.callback);
+function leads_(sinceText, callback) {
   var sheet = sheet_();
   var headers = ensureHeaders_(sheet);
   var values = sheet.getLastRow() > 1 ? sheet.getRange(2, 1, sheet.getLastRow() - 1, headers.length).getValues() : [];
-  var since = p.since ? new Date(p.since) : null;
+  var since = sinceText ? new Date(sinceText) : null;
   if (since && !isNaN(since.getTime())) values = values.filter(function (row) { var d = new Date(row[0]); return !isNaN(d.getTime()) && d >= since; });
   var rows = values.map(function (row) { return row.map(stringValue_); });
-  return json_({ ok: true, headers: headers, rows: rows, updatedAt: rows.length ? rows[rows.length - 1][0] : '' }, p.callback);
+  return json_({ ok: true, headers: headers, rows: rows, updatedAt: rows.length ? rows[rows.length - 1][0] : '' }, callback);
+}
+
+function doGet(e) {
+  var p = e && e.parameter || {};
+  if (p.action !== 'leads') return json_({ ok: true, service: 'larose-forms' });
+  // Kept for older dashboards; the current dashboard sends the token in a
+  // POST body instead so it never sits in a URL (browser history, logs).
+  if (!authorised_(p.token)) return json_({ ok: false, error: 'unauthorised' }, p.callback);
+  return leads_(p.since, p.callback);
 }
 
 function doPost(e) {
@@ -62,6 +82,10 @@ function doPost(e) {
     if (!e || !e.postData || !e.postData.contents) return json_({ ok: false, error: 'empty body' });
     var payload;
     try { payload = JSON.parse(e.postData.contents); } catch (err) { return json_({ ok: false, error: 'invalid JSON' }); }
+    if (payload.action === 'leads') {
+      if (!authorised_(payload.token)) return json_({ ok: false, error: 'unauthorised' });
+      return leads_(payload.since);
+    }
     lock.waitLock(20000);
     var sheet = sheet_();
     var headers = ensureHeaders_(sheet);
@@ -78,6 +102,13 @@ function doPost(e) {
     var data = {};
     ACCEPTED.forEach(function (key) { data[key] = clean_(payload[key]); });
     if (!data.phone && !data.message && !data.name) return json_({ ok: false, error: 'nothing to record' });
+    // Honeypot filled (see site/assets/js/forms.js): answer ok, record nothing.
+    if (clean_(payload.company_website) || payload.trapped) return json_({ ok: true });
+    // Repetition caps. The endpoint is public by design, so bound what one
+    // phone number and the endpoint as a whole can append per hour.
+    if (!underLimit_('phone:' + (data.phone || data.name), PER_PHONE_PER_HOUR) || !underLimit_('all', PER_HOUR_TOTAL)) {
+      return json_({ ok: false, error: 'too many submissions, try again later' });
+    }
     var fields = {
       'Timestamp': new Date(), 'Source': data.source || 'website', 'Name': data.name, 'Phone': data.phone ? "'" + data.phone : '',
       'Specialty': data.specialty, 'Doctor': data.doctor, 'Branch': data.branch, 'Preferred day': data.preferredDay,

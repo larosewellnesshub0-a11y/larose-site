@@ -797,16 +797,34 @@ async function handleApi(req, res, url) {
 }
 
 /* ---- server --------------------------------------------------------------- */
+/* The server is loopback-only and the dashboard is same-origin, so no CORS
+   headers are sent at all: a browser will then refuse to hand any other
+   web page the responses. Writes additionally require the request to come
+   from this origin, which stops a page on another site from firing a
+   "simple" cross-origin POST (text/plain needs no preflight) at
+   /api/publish or the content routes while the server is running. */
+const HOST = "127.0.0.1";
+const SELF_ORIGINS = new Set([`http://localhost:${PORT}`, `http://127.0.0.1:${PORT}`, `http://[::1]:${PORT}`]);
+function sameOrigin(req) {
+  const hostOk = SELF_ORIGINS.has(`http://${req.headers.host || ""}`);
+  const origin = req.headers.origin;
+  const referer = req.headers.referer;
+  if (origin) return hostOk && SELF_ORIGINS.has(origin);
+  if (referer) { try { return hostOk && SELF_ORIGINS.has(new URL(referer).origin); } catch { return false; } }
+  return hostOk; // curl / scripts from this machine, no browser origin at all
+}
+
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, `http://localhost:${PORT}`);
 
-  res.setHeader("access-control-allow-origin", "*");
-  res.setHeader("access-control-allow-methods", "GET, POST, PUT, OPTIONS");
-  res.setHeader("access-control-allow-headers", "content-type");
   if (req.method === "OPTIONS") { res.writeHead(204); return res.end(); }
 
   try {
-    if (url.pathname.startsWith("/api/")) return await handleApi(req, res, url);
+    if (url.pathname.startsWith("/api/")) {
+      if (req.method !== "GET" && !sameOrigin(req))
+        return json(res, 403, { error: "Cross-origin writes are refused. Open the dashboard from http://localhost:" + PORT + "/dashboard/." });
+      return await handleApi(req, res, url);
+    }
     if (url.pathname === "/dashboard" || url.pathname === "/dashboard/")
       return serveStatic(res, DASH, "/index.html");
     if (url.pathname.startsWith("/dashboard/"))
@@ -818,7 +836,7 @@ const server = http.createServer(async (req, res) => {
 });
 
 await ensurePrivateContent();
-server.listen(PORT, () => {
+server.listen(PORT, HOST, () => {
   console.log(`
   LA ROSE WELLNESS HUB - local server
 

@@ -63,8 +63,8 @@ After editing ids: Save in the dashboard → Publish (or `node build/build.mjs` 
 - LIVE at https://laroseclinics.com (HTTPS enforced). Domain verified on the larose GitHub account and attached to the repo.
 - Search Console: domain property `laroseclinics.com` verified via DNS TXT (Hostinger); sitemap submitted (344 URLs, Success);
   indexing requested for /ar/, /en/, /RecipeGuide/.
-- Hosted dashboard: https://laroseclinics.com/dashboard/ — username `larosewellnesshub@gmail.com`, password `Mmnnbbvvcc123@` (changed 2026-09-09 at Maged's request)
-  (client-side gate; change the hash in `dashboard/js/auth.js`).
+- Hosted dashboard: https://laroseclinics.com/dashboard/ — credentials live ONLY in `_project/.dashboard-login` (git-ignored, never commit them here; this repo is public and its history is permanent).
+  Client-side gate; to change the login run `node tools/dashboard-login.mjs "<user>" "<pass>"`, which rewrites the hash in `dashboard/js/auth.js`, then publish.
 - Clarity: signing in with larosewellnesshub0@gmail.com (Google) in progress.
 - GA4: analytics.google.com is blocked in the Chrome extension permissions; create the property manually or allow the domain.
 - 00:45: Clarity project `yfaiazec51` (account larosewellnesshub0, Google sign-in) live on every page; Google
