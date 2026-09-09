@@ -1,5 +1,5 @@
 {
-  "_note": "Maadi is REAL and open: address, plus code and coordinates verified from the clinic's own price sheet and previous build. The other two branches are announced but the clinic has supplied no address, no opening date and no photographs; those fields are deliberately empty rather than invented. Set `published: false` in the dashboard to hide a branch from the nav, footer and sitemap. `cardImage` is the branded aerial render used on the home page and branch hub cards (generated 2026-09-08); `photos` remain the branch-page gallery.",
+  "_note": "Maadi is REAL and open: address, plus code and coordinates verified from the clinic's own price sheet and previous build. Fifth Settlement opened for Wednesday clinics on 2026-09-09 (address, maps link, hours, photos and the consultation block supplied by the clinic; coordinates not confirmed). Sheikh Zayed is announced only: the clinic has supplied no address, no opening date and no photographs, so those fields are deliberately empty rather than invented. Set `published: false` in the dashboard to hide a branch from the nav, footer and sitemap. `cardImage` is the branded aerial render used on the home page and branch hub cards (generated 2026-09-08); `photos` remain the branch-page gallery.",
   "branches": [
     {
       "slug": "maadi",
@@ -27,8 +27,8 @@
         "en": "Egypt"
       },
       "address": {
-        "ar": "١٤ شارع المختار، متفرع من شارع الجزائر، خلف بنك QNB، المعادي الجديدة، القاهرة",
-        "en": "14 El-Mokhtar St, off El-Gazaer St, behind QNB Bank, New Maadi, Cairo"
+        "ar": "١٤ شارع المختار، متفرع من شارع النصر، خلف بنك QNB، المعادي الجديدة، القاهرة",
+        "en": "14 El-Mokhtar St, off El-Nasr St, behind QNB Bank, New Maadi, Cairo"
       },
       "landmark": {
         "ar": "خلف بنك QNB مباشرةً",
@@ -98,22 +98,22 @@
       "gettingHere": {
         "ar": [
           "أقرب علامة مميزة: بنك QNB، العيادة خلفه مباشرةً في شارع المختار.",
-          "من شارع الجزائر: ادخل شارع المختار، والعيادة على يمينك.",
+          "من شارع النصر: ادخل شارع المختار، والعيادة على يمينك.",
           "متاح انتظار في الشارع أمام المبنى."
         ],
         "en": [
           "Nearest landmark: QNB Bank, the clinic is directly behind it on El-Mokhtar Street.",
-          "From El-Gazaer Street: turn into El-Mokhtar Street; the clinic is on your right.",
+          "From El-Nasr Street: turn into El-Mokhtar Street; the clinic is on your right.",
           "Street parking is available in front of the building."
         ]
       },
-      "_todoAddress": "Confirm the street: this file says 'متفرع من شارع الجزائر', but the clinic's own ekshef listing says 'متفرع من شارع النصر'. Both are first-party, so the clinic must say which is correct before either is published as the address.",
-      "cardImage": "assets/img/clinic/branch-maadi.webp"
+      "cardImage": "assets/img/clinic/branch-maadi.webp",
+      "_noteAddress": "2026-09-09: the clinic's own WhatsApp script says 'off El-Nasr St'; the Google Maps listing still reads 'Al Gazaer'. Confirm which street name the clinic wants on Maps."
     },
     {
       "slug": "fifth-settlement",
       "published": true,
-      "status": "soon",
+      "status": "open",
       "isPrimary": false,
       "name": {
         "ar": "فرع التجمع الخامس",
@@ -136,53 +136,105 @@
         "en": "Egypt"
       },
       "address": {
-        "ar": "",
-        "en": ""
+        "ar": "مول CMC الطبي، الدور الرابع، شارع التسعين الشمالي، خلف مستشفى القوات الجوية التخصصي، التجمع الخامس، القاهرة الجديدة",
+        "en": "CMC Medical Mall, 4th floor, North 90th Street, behind the Air Force Specialized Hospital, Fifth Settlement, New Cairo"
       },
       "landmark": {
-        "ar": "",
-        "en": ""
+        "ar": "خلف مستشفى القوات الجوية التخصصي، مول CMC الطبي، الدور الرابع",
+        "en": "Behind the Air Force Specialized Hospital, CMC Medical Mall, 4th floor"
       },
       "geo": null,
       "plusCode": "",
-      "mapsUrl": "",
+      "mapsUrl": "https://maps.app.goo.gl/BcFnKmZhi5xgMabw9",
       "phone": {
         "display": "010 4066 1893",
         "tel": "+201040661893"
       },
       "whatsapp": "201040661893",
       "hours": {
-        "ar": "الأربعاء، من ٣ لـ ٧ مساءً (عيادات محدودة)",
-        "en": "Wednesday, 3 to 7 pm (limited clinics)"
+        "ar": "الأربعاء، من ٣ لـ ٧ مساءً (حاليًا يوم واحد أسبوعيًا)",
+        "en": "Wednesday, 3 to 7 pm (currently one day a week)"
       },
       "specialties": [
         "clinical-nutrition",
         "weight-management",
-        "body-contouring",
-        "internal-medicine",
-        "dermatology",
-        "pediatrics"
+        "body-contouring"
       ],
       "photos": [
         {
-          "src": "assets/img/clinic/fifth-settlement-placeholder.webp",
-          "placeholder": true,
+          "src": "assets/img/clinic/fifth-settlement-reception.webp",
           "alt": {
-            "ar": "",
-            "en": ""
+            "ar": "استقبال فرع لاروز بالتجمع الخامس",
+            "en": "Reception at La Rose Fifth Settlement"
+          }
+        },
+        {
+          "src": "assets/img/clinic/fifth-settlement-waiting.webp",
+          "alt": {
+            "ar": "صالة الانتظار في فرع التجمع الخامس",
+            "en": "Waiting area at the Fifth Settlement branch"
+          }
+        },
+        {
+          "src": "assets/img/clinic/fifth-settlement-consultation.webp",
+          "alt": {
+            "ar": "غرفة الكشف في فرع التجمع الخامس",
+            "en": "Consultation room at the Fifth Settlement branch"
+          }
+        },
+        {
+          "src": "assets/img/clinic/fifth-settlement-office.webp",
+          "alt": {
+            "ar": "مكتب الطبيبة في فرع التجمع الخامس",
+            "en": "The doctor's office at the Fifth Settlement branch"
           }
         }
       ],
       "intro": {
-        "ar": "فرع التجمع الخامس لسه تحت التجهيز الكامل، لكن فيه عيادات محدودة متاحة للحجز. هنعلن هنا عن العنوان وباقي تفاصيل الافتتاح أول ما يتم تأكيدهم.",
-        "en": "The Fifth Settlement branch is still being fully prepared, but limited clinics are available to book. The address and remaining opening details will be announced here once confirmed."
+        "ar": "فرع التجمع الخامس في مول CMC الطبي على شارع التسعين الشمالي، الدور الرابع. حاليًا العيادة شغّالة يوم الأربعاء من ٣ لـ ٧ مساءً مع د. شيماء فؤاد، أخصائية التغذية العلاجية والإكلينيكية: كشف كامل بجهاز InBody وقياس Body Contouring وخطة مخصصة لحالتك.",
+        "en": "The Fifth Settlement branch is in CMC Medical Mall on North 90th Street, fourth floor. The clinic currently runs on Wednesdays from 3 to 7 pm with Dr. Shimaa Fouad, specialist in clinical and therapeutic nutrition: a full InBody assessment, body-contouring measurements and a plan built for your case."
       },
       "gettingHere": {
-        "ar": [],
-        "en": []
+        "ar": [
+          "أقرب علامة مميزة: مستشفى القوات الجوية التخصصي على شارع التسعين الشمالي، والمول خلفها مباشرةً.",
+          "ادخل مول CMC الطبي واطلع للدور الرابع؛ العيادة باسم لاروز.",
+          "لو احتجت مساعدة في الوصول، كلّمنا على واتساب قبل معادك."
+        ],
+        "en": [
+          "Nearest landmark: the Air Force Specialized Hospital on North 90th Street; the mall is directly behind it.",
+          "Enter CMC Medical Mall and go up to the fourth floor; the clinic is under the La Rose name.",
+          "If you need help finding us, message us on WhatsApp before your appointment."
+        ]
       },
-      "_todo": "Address, exact location, full opening date, phone extension and photographs. Limited Wednesday clinics are already bookable through the confirmed doctor schedule.",
-      "cardImage": "assets/img/clinic/branch-fifth-settlement.webp"
+      "cardImage": "assets/img/clinic/branch-fifth-settlement.webp",
+      "consultation": {
+        "doctor": "shimaa-fouad",
+        "heading": {
+          "ar": "الكشف في فرع التجمع بيشمل",
+          "en": "The consultation at Fifth Settlement includes"
+        },
+        "items": {
+          "ar": [
+            "تقييم طبي كامل بجهاز الـ InBody: نسبة الدهون والعضلات وكل القياسات المعتمدة للاطمئنان وتقييم حالة الجسم.",
+            "قياس Body Contouring عشان نتابع تطورك بالأرقام مش بالإحساس.",
+            "كشف كامل مع طبيبة تغذية علاجية وإكلينيكية بدرجة أخصائي، بتشوف كل التحاليل والتاريخ المرضي وتفهم حالتك لأقصى درجة عشان نقدّم حل مخصص ليك.",
+            "تحديد الخطة الأنسب لحالتك: جلسات أو حقن أو خطة غذائية.",
+            "مراجعة تحاليلك وأي أدوية حالية."
+          ],
+          "en": [
+            "A full medical assessment on the InBody machine: body fat, muscle mass and all the standard measurements, to check on and assess your body.",
+            "A body-contouring measurement, so we track your progress in numbers rather than by feel.",
+            "A full consultation with a specialist-level clinical and therapeutic nutrition doctor who reviews every test and your medical history to understand your case and build a solution for you.",
+            "Deciding the plan that suits your case: sessions, injections or a nutrition plan.",
+            "A review of your test results and any current medication."
+          ]
+        },
+        "price": {
+          "ar": "سعر الكشف ٥٠٠ ج بدل ٧٠٠ ج بمناسبة الصيف.",
+          "en": "Consultation fee EGP 500 instead of 700, for the summer."
+        }
+      },
+      "_todoGeo": "Coordinates / plus code for CMC Medical Mall not confirmed; mapsUrl is the short link supplied by the clinic on 2026-09-09."
     },
     {
       "slug": "sheikh-zayed",

@@ -31,14 +31,17 @@
     ]
    },
    "days": {
-    "ar": "السبت · الاتنين · الثلاثاء",
-    "en": "Sat · Mon · Tue"
+    "ar": "السبت · الاتنين · الثلاثاء بالمعادي · الأربعاء بالتجمع",
+    "en": "Sat · Mon · Tue in Maadi · Wed in Fifth Settlement"
    },
    "schedule": {
     "maadi": [
      6,
      1,
      2
+    ],
+    "fifth-settlement": [
+     3
     ]
    },
    "hours": {
@@ -46,7 +49,8 @@
     "en": "3 – 7 pm"
    },
    "branches": [
-    "maadi"
+    "maadi",
+    "fifth-settlement"
    ],
    "specialties": [
     "clinical-nutrition",

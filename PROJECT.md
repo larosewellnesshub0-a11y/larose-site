@@ -171,8 +171,10 @@ These were decided by judgement in the client's absence and are all cheap to rev
    Commercial Type. IBM Plex Sans Arabic stands in. To swap it, drop the woff2 files
    into `site/assets/fonts/` and change only `--font-ar-sans` / `--font-ar-display` in
    `site/assets/css/tokens.css`. Nothing else references the family.
-2. **No opening dates** were supplied for Fifth Settlement or Sheikh Zayed, so none
-   are stated. Both pages say the date will be announced.
+2. **Fifth Settlement is open one day a week** (since 2026-09-09: Wednesdays 3–7 pm,
+   Dr Shimaa Fouad, CMC Medical Mall, 4th floor, North 90th St; four clinic photos
+   supplied). Coordinates are not confirmed. **No opening date** was supplied for
+   Sheikh Zayed, so its page still says the date will be announced.
 3. **Dr Alyaa's surname** appears as both "أبو طالب" and "سعيد" in older clinic
    material. The doctor artwork says Abu Taleb, so that is used.
 4. **No public email address** was supplied, so none is published.

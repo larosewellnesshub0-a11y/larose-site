@@ -72,6 +72,34 @@ ${ctaBand({ c, locale, depth })}`;
   };
 }
 
+/* What a visit at this branch includes, when the branch differs from the
+   clinic-wide list (e.g. one visiting doctor on one day a week). Content
+   comes from branches.json → consultation; nothing is rendered without it. */
+function consultationBlock({ c, locale, depth, b }) {
+  const inc = b.consultation;
+  if (!inc) return "";
+  const items = ta(inc.items, locale);
+  const doctor = published(c.doctors || []).find((d) => d.slug === inc.doctor);
+  if (!items.length) return "";
+  return `
+<section class="section">
+  <div class="wrap">
+    <div class="card" data-reveal style="padding:clamp(1.25rem,3vw,2.25rem)">
+      <h2 class="h3">${esc(t(inc.heading, locale) || t({ ar: "الكشف بيشمل", en: "The consultation includes" }, locale))}</h2>
+      ${when(doctor, `<p class="card__days" style="margin-top:.75rem">${icon("calendar")} ${esc(t(doctor?.name, locale))} · ${esc(t(b.hours, locale))}</p>`)}
+      <div class="prose" style="margin-top:1rem">
+        <ul>${map(items, (fact) => `<li>${esc(fact)}</li>`)}</ul>
+      </div>
+      ${when(t(inc.price, locale), `<p style="margin-top:1.25rem;font-weight:600">${icon("info")} ${esc(t(inc.price, locale))}</p>`)}
+      <div style="margin-top:1.5rem;display:flex;gap:.75rem;flex-wrap:wrap">
+        <a class="btn btn--primary" href="${link(depth, "patients/booking.html")}">${esc(t(c.site.ui.bookNow || { ar: "احجز الآن", en: "Book now" }, locale))}</a>
+        ${when(doctor, `<a class="btn btn--ghost" href="${link(depth, `doctors/${esc(t(doctor?.slug, "en"))}.html`)}">${esc(t({ ar: "صفحة الطبيبة", en: "Doctor profile" }, locale))}</a>`)}
+      </div>
+    </div>
+  </div>
+</section>`;
+}
+
 function openBranch({ c, locale, b }) {
   const depth = 1;
   const specialties = published(c.specialties).filter((sp) => (b.specialties || []).includes(sp.slug));
@@ -135,6 +163,8 @@ ${pageHero({
     </div>
   </div>
 </section>
+
+${consultationBlock({ c, locale, depth, b })}
 
 <section class="section section--sunk">
   <div class="wrap">
