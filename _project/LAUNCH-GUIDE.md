@@ -76,3 +76,9 @@ After editing ids: Save in the dashboard → Publish (or `node build/build.mjs` 
 - Script property `READ_TOKEN` set (value in `_project/.read-token`, git-ignored). Verified: `?action=leads&token=…` returns headers + rows; wrong token → `unauthorised`; POST appends a row with the UTM columns.
 - The read token is stored in the Chrome localStorage key `lr_dash_leads_token` for https://laroseclinics.com/dashboard/ (Settings → Integrations shows it). Other browsers: paste it there once.
 - Test rows in the sheet (source `website-test`) can be deleted.
+
+## 2026-09-09 — GA4 live
+- Account "La Rose Wellness Hub" (a407357780) → property "laroseclinics.com" (p553430881) → web stream "La Rose website" (15746304931), Measurement ID `G-2VLTT89JM7` (in `content/site.json → integrations.analytics.ga4MeasurementId`, deployed).
+- Realtime verified: page_view + custom events (booking_submit, whatsapp_click, call_click, form_submit, recipe_guide_cta, tool_used, directions_click) arrive.
+- TODO within 24–48h (after the events show in Admin → Events → Recent events): star booking_submit, whatsapp_click, call_click, form_submit, recipe_guide_cta as **Key events**. Optional: Admin → Product links → Search Console link.
+- Links: GA4 https://analytics.google.com/analytics/web/#/p553430881/reports/intelligenthome · Clarity https://clarity.microsoft.com/projects/view/yfaiazec51 · Search Console https://search.google.com/search-console?resource_id=sc-domain:laroseclinics.com
