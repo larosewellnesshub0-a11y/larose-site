@@ -965,7 +965,7 @@ ${when(faq.length, `<section class="section section--sunk">
 
 
 
-${shareBlock({ c, locale, url: `${base}/${locale}/${pagePath}`, title })}
+${shareBlock({ c, locale, url: `${base}/${locale}/${pagePath.replace(/\.html$/, "")}`, title })}
 
 ${when(doctor, authorCard({ c, locale, depth, doctor }))}
 

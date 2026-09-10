@@ -231,7 +231,7 @@ function ctaBand(c) {
     <h2 class="rg-cta__title">${bi(COPY.ctaTitle)}</h2>
     <p class="rg-cta__text">${bi(COPY.ctaText)}</p>
     <p class="rg-cta__actions">
-      <a class="rg-btn rg-btn--primary" href="https://${esc(s.brand.domain)}/ar/patients/booking.html">${bi(COPY.book)}</a>
+      <a class="rg-btn rg-btn--primary" href="https://${esc(s.brand.domain)}/ar/patients/booking">${bi(COPY.book)}</a>
       <a class="rg-btn" href="${esc(s.contact.whatsapp.href)}" target="_blank" rel="noopener">${bi(COPY.whatsapp)}</a>
     </p>
   </div>

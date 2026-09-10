@@ -72,8 +72,16 @@ export function link(depth, href) {
   if (!href) return "#";
   if (/^(https?:|mailto:|tel:|#)/.test(href)) return href;
   /* Clean URLs: the site is served by GitHub Pages, which resolves `dir/` to
-     `dir/index.html`, so links never expose the file name (2026-09-08). */
-  const clean = href.replace(/(^|\/)index\.html(?=$|[?#])/, "$1");
+     `dir/index.html`, so links never expose the file name (2026-09-08).
+     The 2026-09-10 pass extends that to every other page too: Pages answers
+     `specialties/clinical-nutrition` as happily as it answers the `.html`, and
+     a visitor browsing the site should never see the extension. Verified live
+     before changing: both forms return 200. Canonical, og:url, hreflang and the
+     sitemap are generated from absolutePageUrl(), which strips it the same way,
+     so only one form is ever advertised. */
+  const clean = href
+    .replace(/(^|\/)index\.html(?=$|[?#])/, "$1")
+    .replace(/\.html(?=$|[?#])/, "");
   const out = rel(depth) + clean;
   return out === "" ? "./" : out;
 }

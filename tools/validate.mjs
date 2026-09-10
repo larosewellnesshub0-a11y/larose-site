@@ -30,13 +30,16 @@ function decodeHtml(value) {
 }
 
 function publicUrl(rel) {
-  return rel === "index.html" ? `${BASE}/` : `${BASE}/${rel.replace(/index\.html$/, "")}`;
+  // Same stripping as build/build.mjs publicUrl() and shell.mjs absolutePageUrl().
+  return rel === "index.html" ? `${BASE}/` : `${BASE}/${rel.replace(/index\.html$/, "").replace(/\.html$/, "")}`;
 }
 
 function alternateUrl(rel, locale) {
   const match = /^(?:ar|en)\/(.*)$/.exec(rel);
   const withinLocale = match ? match[1] : "index.html";
-  return `${BASE}/${locale}/${withinLocale.replace(/index\.html$/, "")}`;
+  // Mirrors absolutePageUrl() in build/lib/shell.mjs, which drops the extension
+  // so the canonical, the hreflang pair and every link agree on one URL.
+  return `${BASE}/${locale}/${withinLocale.replace(/index\.html$/, "").replace(/\.html$/, "")}`;
 }
 
 function walk(dir, out = []) {
@@ -72,7 +75,11 @@ for (const file of files) {
       ? path.join(SITE, clean.slice(1))
       : path.resolve(dir, clean);
     if (!fs.existsSync(target)) {
+      // GitHub Pages serves `a/b` from `a/b.html` and `a/b/` from
+      // `a/b/index.html`. The site links to the extensionless form on purpose
+      // (2026-09-10), so a link is only dead when neither file exists.
       if (fs.existsSync(path.join(target, "index.html"))) continue;
+      if (fs.existsSync(`${target}.html`)) continue;
       add(rel, "ERROR", `dead link → ${raw}`);
     }
   }
@@ -240,7 +247,8 @@ if (!fs.existsSync(sitemapPath)) {
     }
     let relative = decodeURIComponent(url.pathname).replace(/^\/+/, "");
     if (!relative || relative.endsWith("/")) relative += "index.html";
-    if (!fs.existsSync(path.join(SITE, relative))) {
+    // The sitemap lists extensionless URLs, which Pages serves from `<path>.html`.
+    if (!fs.existsSync(path.join(SITE, relative)) && !fs.existsSync(path.join(SITE, `${relative}.html`))) {
       add("sitemap.xml", "ERROR", `sitemap path does not exist: ${url.pathname}`);
     }
   }

@@ -102,8 +102,8 @@ ${jsonLd({ c, locale: "ar", pagePath: "index.html", canonicalUrl: `${base}/` })}
     <img src="assets/img/logo/larose-wordmark-white.png" alt="${esc(t(s.brand.name, "en"))}" width="984" height="849">
     <!-- Arabic is the default; this body only shows if both the script and the
          meta refresh are blocked, so it offers one link rather than a choice. -->
-    <p><a class="btn btn--on-dark btn--lg" href="ar/index.html" lang="ar" dir="rtl">ادخل للموقع</a></p>
-    <p>${esc(t(s.brand.kind, "ar"))} · <a href="en/index.html" lang="en" dir="ltr" style="color:inherit">English</a></p>
+    <p><a class="btn btn--on-dark btn--lg" href="ar/" lang="ar" dir="rtl">ادخل للموقع</a></p>
+    <p>${esc(t(s.brand.kind, "ar"))} · <a href="en/" lang="en" dir="ltr" style="color:inherit">English</a></p>
   </div>
   <script src="assets/js/track.js" defer></script>
 </body>
@@ -126,9 +126,11 @@ function sitemap(c, paths) {
   }).formatToParts(new Date()).filter((part) => part.type !== "literal").map((part) => [part.type, part.value]));
   const today = `${dateParts.year}-${dateParts.month}-${dateParts.day}`;
   const xml = (value) => String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  // Same stripping as link() and absolutePageUrl(): the sitemap must list the
+  // URL the site actually links to, not a second form of the same page.
   const publicUrl = (p) => p === "index.html"
     ? `${base}/`
-    : `${base}/${p.replace(/index\.html$/, "")}`;
+    : `${base}/${p.replace(/index\.html$/, "").replace(/\.html$/, "")}`;
   const lastmod = (p) => {
     const match = /^(?:ar|en)\/articles\/([^/]+)\.html$/.exec(p);
     if (!match) return today;
@@ -155,8 +157,11 @@ function sitemap(c, paths) {
       const localeMatch = /^(ar|en)\/(.*)$/.exec(p);
       const withinLocale = localeMatch ? localeMatch[2] : "index.html";
       const bilingual = p.startsWith("RecipeGuide/");
-      const arLoc = bilingual ? publicUrl(p) : `${base}/ar/${withinLocale.replace(/index\.html$/, "")}`;
-      const enLoc = bilingual ? publicUrl(p) : `${base}/en/${withinLocale.replace(/index\.html$/, "")}`;
+      // The alternates have to be stripped exactly like <loc>, or the sitemap
+      // would point hreflang at a second URL for a page it just listed once.
+      const withinClean = withinLocale.replace(/index\.html$/, "").replace(/\.html$/, "");
+      const arLoc = bilingual ? publicUrl(p) : `${base}/ar/${withinClean}`;
+      const enLoc = bilingual ? publicUrl(p) : `${base}/en/${withinClean}`;
       const priority = p === "index.html" || (p.endsWith("index.html") && p.split("/").length === 2) ? "1.0" : "0.7";
       const image = sitemapImage(p);
       return `  <url>
@@ -241,7 +246,7 @@ function agents(c) {
     `Home-AR: ${base}/ar/`, `Home-EN: ${base}/en/`,
     `Specialties-AR: ${base}/ar/specialties/`, `Specialties-EN: ${base}/en/specialties/`,
     `Doctors-AR: ${base}/ar/doctors/`, `Doctors-EN: ${base}/en/doctors/`,
-    `Booking-AR: ${base}/ar/patients/booking.html`, `Booking-EN: ${base}/en/patients/booking.html`,
+    `Booking-AR: ${base}/ar/patients/booking`, `Booking-EN: ${base}/en/patients/booking`,
     `Branches-AR: ${base}/ar/branches/`, `Branches-EN: ${base}/en/branches/`,
     `Knowledge-AR: ${base}/ar/articles/`, `Knowledge-EN: ${base}/en/articles/`,
     `RecipeGuide: ${base}/RecipeGuide/`, `RecipeGuide-Free: ${base}/RecipeGuide/free/`,

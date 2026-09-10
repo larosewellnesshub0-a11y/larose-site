@@ -54,10 +54,18 @@ function navChildren(item, c, locale) {
 /* The language control appears in the utility bar, the header and the drawer,
    so it is built once. It always links to THIS page in the other language, not
    to that language's home page, and it names the language you would switch TO. */
+/* The cross-locale href is built by hand rather than through link(), because it
+   has to climb out of one locale root and into the other. It still has to strip
+   the extension the same way link() does, or the language switch would be the
+   one place on the site that exposes a .html URL. */
+function crossLocalePath(pagePath) {
+  return String(pagePath).replace(/(^|\/)index\.html$/, "$1").replace(/\.html$/, "");
+}
+
 function langSwitch({ c, locale, depth, pagePath, cls = "lang-switch" }) {
   const s = c.site;
   const other = locale === "ar" ? "en" : "ar";
-  const href = `${rel(depth + 1)}${other}/${pagePath.replace(/(^|\/)index\.html$/, "$1")}`;
+  const href = `${rel(depth + 1)}${other}/${crossLocalePath(pagePath)}`;
   const label = s.i18n[other].label;
   return `<a class="${cls}" href="${href}" lang="${other}" hreflang="${other}"
      dir="${other === "ar" ? "rtl" : "ltr"}"
@@ -68,7 +76,7 @@ function langSwitch({ c, locale, depth, pagePath, cls = "lang-switch" }) {
 function utilityBar({ c, locale, depth, pagePath }) {
   const s = c.site;
   const other = locale === "ar" ? "en" : "ar";
-  const altHref = `${rel(depth + 1)}${other}/${pagePath}`;
+  const altHref = `${rel(depth + 1)}${other}/${crossLocalePath(pagePath)}`;
   return `
 <div class="utility-bar">
   <div class="wrap utility-bar__inner">
@@ -297,7 +305,9 @@ function floatingActions({ c, locale, depth }) {
    Search metadata and structured data
    -------------------------------------------------------------------------- */
 function absolutePageUrl(base, locale, pagePath) {
-  const clean = String(pagePath || "index.html").replace(/^\/+/, "").replace(/index\.html$/, "");
+  // Must strip exactly what link() strips, or the page would advertise a
+  // canonical URL different from the one every link on the site points at.
+  const clean = String(pagePath || "index.html").replace(/^\/+/, "").replace(/index\.html$/, "").replace(/\.html$/, "");
   return `${base}/${locale}/${clean}`;
 }
 
