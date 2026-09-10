@@ -555,9 +555,15 @@ ${trackingHead(c)}
 <link rel="stylesheet" href="../assets/css/layout.css">
 <link rel="stylesheet" href="../assets/css/recipe-guide.css">
 <script type="application/ld+json">${JSON.stringify({
-    "@context": "https://schema.org", "@graph": [{ "@type": "Product",
+    "@context": "https://schema.org", "@graph": [{ "@type": "Book",
     name: t(product.name, "en"), description: t(product.lede, "en"),
-    image: `https://${s.brand.domain}/${cover}`, brand: { "@type": "Brand", name: t(s.brand.name, "en") }
+    image: `https://${s.brand.domain}/${cover}`,
+    bookFormat: "https://schema.org/EBook",
+    inLanguage: ["ar", "en"],
+    numberOfPages: undefined,
+    publisher: { "@type": "Organization", name: t(s.brand.name, "en"), url: `https://${s.brand.domain}/` },
+    author: { "@type": "Organization", name: t(s.brand.name, "en") },
+    url: `https://${s.brand.domain}/RecipeGuide/`
   }] })}</script>
 </head>
 <body>
