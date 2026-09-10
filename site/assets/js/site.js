@@ -646,8 +646,8 @@
     var ar = (document.documentElement.lang || "ar").indexOf("ar") === 0;
     var hint = document.getElementById(input.getAttribute("aria-describedby"));
     var hintText = hint ? hint.textContent : "";
-    var BAD = ar ? "الرقم ده مش شكل رقم موبايل مصري. اكتبه كده: 01012345678"
-                 : "That is not an Egyptian mobile number. Enter it like 01012345678";
+    var BAD = ar ? "الرقم ده مش شكل رقم موبايل مصري. اكتبه كده: 01000000000"
+                 : "That is not an Egyptian mobile number. Enter it like 01000000000";
 
     function normalise(value) {
       var d = String(value).replace(/\D/g, "");

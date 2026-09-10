@@ -20,3 +20,5 @@ _project/server.log
 _project/collect.log
 _project/.read-token
 _project/.dashboard-login
+# built in CI by deploy.yml (cp -R dashboard + snapshot-content.mjs); never committed
+site/dashboard/
