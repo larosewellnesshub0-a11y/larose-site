@@ -1654,3 +1654,21 @@
   inset-block-start: 15%;
   block-size: 18%;
 }
+
+/* ---- article + topic index ------------------------------------------------
+   The index and the article were sharing .grid-2, which is two EQUAL columns,
+   so a list of short section links took half the page and the medical copy -
+   the reason the page exists - got the other half. The index is capped at a
+   width that fits its longest link instead, and the article takes the rest.
+   Below 900px it stacks: index first, which is the right order on a phone.
+   min-width:0 on the article stops a long word or code span from forcing the
+   grid wider than its track. */
+.article-layout {
+  display: grid;
+  align-items: start;
+  gap: clamp(2rem, 5vw, 4rem);
+}
+.article-layout > .prose { min-width: 0; }
+@media (min-width: 900px) {
+  .article-layout { grid-template-columns: minmax(13rem, 16rem) minmax(0, 1fr); }
+}

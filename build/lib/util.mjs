@@ -149,6 +149,9 @@ const ICONS = {
   /* Share targets. Simplified single-path marks at the same 20x20 weight as the
      rest of the set - recognisable at 18px, which is the size they render at. */
   facebook:   `<path d="M11.6 18v-6.4h2.2l.33-2.5H11.6V7.5c0-.72.2-1.2 1.24-1.2h1.32V4.06A17.8 17.8 0 0 0 12.23 4C10.32 4 9 5.16 9 7.29V9.1H6.8v2.5H9V18h2.6Z"/>`,
+  /* Drawn on TikTok's own 24-unit grid rather than the 20-unit one the other
+     glyphs use, so the note keeps its proportions. */
+  tiktok:     { vb: "0 0 24 24", d: `<path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 1 1-1.82-2.47v-3.1a5.69 5.69 0 1 0 4.91 5.63V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3a4.29 4.29 0 0 1-3.24-1.48Z"/>` },
   x:          `<path d="M13.9 3h2.5l-5.5 6.3L17.4 17h-4.6l-3.4-4.5L5.4 17H2.9l5.9-6.7L2.6 3h4.7l3.1 4.1L13.9 3Zm-.9 12.5h1.4L6.9 4.4H5.4l7.6 11.1Z"/>`,
   telegram:   `<path d="M17.6 4.2 2.9 9.9c-.7.3-.7.8-.1 1l3.7 1.2 1.4 4.3c.2.5.4.6.8.2l2-1.8 3.8 2.8c.7.4 1.2.2 1.4-.6l2.5-11.7c.2-.9-.3-1.3-1-1.1ZM7.6 12.3l7.4-4.6c.3-.2.6-.1.4.2l-6.1 5.6-.2 2.3-1.5-3.5Z"/>`,
   linkedin:   `<path d="M6.1 7.4v9.2H3.3V7.4h2.8ZM4.7 3.3c.9 0 1.5.6 1.5 1.4S5.6 6.1 4.7 6.1 3.2 5.5 3.2 4.7s.6-1.4 1.5-1.4Zm12 8v5.3H14v-4.9c0-1.2-.5-2-1.5-2-.8 0-1.3.5-1.5 1.1-.1.2-.1.5-.1.8v5H8.1s0-8.1 0-9.2h2.8v1.3c.4-.6 1.1-1.5 2.6-1.5 1.9 0 3.2 1.2 3.2 3.9Z"/>`,

@@ -930,7 +930,7 @@ ${when(image, `<section class="section section--tight" style="padding-top:0">
             ${paras(sectionBody(section, locale))}
           </section>`)
           : paras(fallbackBody)}</article>`
-      : `<div class="grid grid-2" style="align-items:start;gap:clamp(2rem,5vw,4rem)">
+      : `<div class="article-layout">
         <aside class="card" style="position:sticky;top:7rem">
           <div class="card__body">
             <h2 class="h4">${esc(t(COPY.contents, locale))}</h2>

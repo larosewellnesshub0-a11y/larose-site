@@ -226,6 +226,8 @@ function footer({ c, locale, depth }) {
         <div class="social">
           <a href="${esc(s.social.instagram)}" target="_blank" rel="noopener" aria-label="Instagram">${icon("instagram")}</a>
           <a href="${esc(s.social.youtube)}" target="_blank" rel="noopener" aria-label="YouTube">${icon("youtube")}</a>
+          ${when(s.social.tiktok, `<a href="${esc(s.social.tiktok)}" target="_blank" rel="noopener" aria-label="TikTok">${icon("tiktok")}</a>`)}
+          ${when(s.social.facebook, `<a href="${esc(s.social.facebook)}" target="_blank" rel="noopener" aria-label="Facebook">${icon("facebook")}</a>`)}
           <a href="${esc(s.contact.whatsapp.href)}" target="_blank" rel="noopener" aria-label="WhatsApp">${icon("whatsapp")}</a>
         </div>
       </div>
@@ -377,7 +379,14 @@ export function jsonLd({ c, locale, pagePath, schema, body = "", canonicalUrl = 
     t(branch.area, locale),
     t(branch.city, locale),
   ]).filter(Boolean))];
-  const socialProfiles = [s.social.instagram, s.social.youtube, s.social.linktree].filter(Boolean);
+  /* sameAs is how Google is told these accounts and this domain are one
+     organisation. Facebook and TikTok were missing, and Facebook matters most:
+     it outranks the site for the clinic's own name and the Business Profile
+     currently points at it. */
+  const socialProfiles = [
+    s.social.instagram, s.social.facebook, s.social.youtube,
+    s.social.tiktok, s.social.linktree,
+  ].filter(Boolean);
   // Reception hours are intentionally not inferred from display copy. Only a
   // future, structured and confirmed content field is safe for search engines.
   const openingHours = Array.isArray(maadi?.openingHoursSpecification)
