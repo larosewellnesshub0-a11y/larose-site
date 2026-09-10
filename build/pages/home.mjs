@@ -190,11 +190,14 @@ ${finder({ c, locale, depth })}
 <section class="section" id="doctors">
   <div class="wrap">
     ${sectionHead({
-      eyebrow: t({ ar: "الفريق الطبي", en: "The medical team" }, locale),
-      title: t({ ar: "أطباء يقومون بالكشف بأحسن شكل ممكن لا يكتفون بمراجعة الاوراق فقط!", en: "Doctors who examine you themselves, not just review the paperwork" }, locale),
+      /* No eyebrow here on purpose. The eyebrow said "the medical team" and the
+         title then said something else entirely, which read as two competing
+         headings stacked on top of each other. The section name is the heading
+         now and the sentence under it does the explaining. */
+      title: t({ ar: "الفريق الطبي", en: "The medical team" }, locale),
       lede: t({
-        ar: "كل طبيب في لاروز بيقضّي وقت حقيقي في الكشف: التاريخ الطبي، التحاليل، والفحص. الخطة بتتكتب بعد كده، مش قبله.",
-        en: "Every doctor at La Rose spends real time on the consultation: the history, the labs, the examination. The plan is written after that، not before it.",
+        ar: "كل طبيب في لاروز بيقضّي وقت حقيقي في الكشف: التاريخ الطبي، التحاليل، والفحص. بحيث تكون الخطة شاملة للوصول لأحسن نتيجة ممكنة!",
+        en: "Every doctor at La Rose spends real time on the consultation: the history, the labs, the examination, so the plan is a complete one aimed at the best result possible.",
       }, locale),
     })}
     <div class="grid grid-4">
