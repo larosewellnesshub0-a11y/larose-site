@@ -153,7 +153,7 @@ ${pageHero({
       </div>
 
       <div data-reveal>
-        <h2 class="h3">${esc(t({ ar: "من جوه الفرع", en: "Inside the branch" }, locale))}</h2>
+        <h2 class="h3">${esc(t({ ar: "من داخل الفرع", en: "Inside the branch" }, locale))}</h2>
         <div class="grid grid-2" style="margin-top:1.5rem">
           ${map(b.photos || [], (photo) => `<div class="arch arch--wide">
             <img src="${asset(depth, photo.src)}" alt="${esc(t(photo.alt, locale))}" width="600" height="400" loading="lazy" decoding="async">
