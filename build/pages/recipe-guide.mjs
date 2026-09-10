@@ -19,6 +19,66 @@ import { trackingHead } from "../lib/shell.mjs";
 /* The free guide lives two levels below the site root. */
 const A = (p) => `../../${p}`;
 
+/* Selling copy for /RecipeGuide/. Keep this separate from the free 60-recipe
+   manuscript: the free guide content is deliberately not rewritten here. */
+const LANDING_PRODUCT_COPY = {
+  inside: [
+    { ar: "٢٥٠ وصفة مصرية مقسّمة على الفطار والغدا والعشا والسناكس", en: "250 Egyptian recipes across breakfast, lunch, dinner and snacks" },
+    { ar: "السعرات والماكروز محسوبة لكل وصفة", en: "Calories and macros worked out for every recipe" },
+    { ar: "كل وصفة ليها فيديو مخصوص يورّيك بتتعمل إزاي", en: "Every recipe has its own video showing you how to make it" },
+    { ar: "مكونات موجودة في أي سوبر ماركت، مش مكونات مستوردة", en: "Ingredients from any supermarket, nothing imported" },
+    { ar: "بدائل لكل وصفة لو مكوّن مش متوفر", en: "A substitution for each recipe when an ingredient is unavailable" },
+    { ar: "أفكار تحضير مسبق للأسبوع", en: "Batch-preparation ideas for the week" },
+    { ar: "نسخة PDF تشتغل على الموبايل واللاب", en: "A PDF that works on both phone and laptop" },
+  ],
+  audience: [
+    { ar: "اللي ماشي على خطة من العيادة وعايز أفكار جاهزة بدل حيرة «آكل إيه النهاردة؟»", en: "Anyone following a clinic plan who wants ready ideas instead of wondering what to eat today" },
+    { ar: "اللي بيطبخ للبيت كله وعايز أكلة واحدة تنفع على السفرة بدل ما يعمل وجبتين", en: "Anyone cooking for the whole household who wants one dish for the table instead of making two meals" },
+    { ar: "اللي بيحسب سعراته وعايز الأرقام قدامه بدل ما يقدّر كل طبق بالنظر", en: "Anyone counting calories who wants the numbers in front of them instead of estimating every plate by eye" },
+    { ar: "اللي زهق من تكرار نفس الوجبات وعايز اختيارات للفطار والغدا والعشا والسناكس", en: "Anyone tired of repeating the same meals who wants choices for breakfast, lunch, dinner and snacks" },
+    { ar: "اللي بيتمرّن أو بيروح الجيم وعايز ينوّع مصادر البروتين ويعرف بروتين كل وصفة من غير تخمين", en: "Anyone who trains or goes to the gym and wants varied protein options with the protein in each recipe already shown" },
+    { ar: "اللي عايز يدخل اختيارات صحية أكتر في يومه، حتى لو مش ماشي على خطة من العيادة", en: "Anyone building a healthier daily routine, even without following a clinic plan" },
+  ],
+  faq: [
+    {
+      q: { ar: "الكتاب ده بديل عن الكشف؟", en: "Is the book a substitute for a consultation?" },
+      a: { ar: "لأ. الكتاب وصفات لأكل البيت، مش خطة علاج ولا بديل عن كشف أو خطة معمولة لحالتك.", en: "No. The book contains home-cooking recipes; it is not a treatment plan or a substitute for a consultation or a plan made for your needs." },
+    },
+    {
+      q: { ar: "أستلم الكتاب إزاي؟", en: "How do I receive the book?" },
+      a: { ar: "كلّمنا على واتساب، وبعد تأكيد الطلب هنبعت لك الكتاب كملف PDF ومعاه لينك سريع تفتحه بسهولة من الموبايل.", en: "Message us on WhatsApp. Once the order is confirmed, we will send the book as a PDF and a quick link for easy access on your phone." },
+    },
+    {
+      q: { ar: "ينفع أستخدمه لو عندي حالة صحية؟", en: "Can I use it if I have a medical condition?" },
+      a: { ar: "الكتاب وصفات أكل بيت، مش خطة علاج. لو بتتابع مع دكتور أو أخصائي، التزم بتعليماته واختار من الكتاب اللي يناسب خطتك.", en: "The book is a collection of home-cooking recipes, not a treatment plan. If you are under a doctor or dietitian's care, follow their guidance and choose recipes that fit your own plan." },
+    },
+    {
+      q: { ar: "السعرات والماكروز دقيقة؟ اتحسبت إزاي؟", en: "Are the calories and macros accurate, and how were they calculated?" },
+      a: { ar: "السعرات والماكروز محسوبة على المقادير المكتوبة لكل وصفة. لو غيّرت الكمية أو نوع منتج، الأرقام ممكن تختلف، فاعتبرها مرجع للوصفة زي ما هي مكتوبة.", en: "The calories and macros are calculated from the quantities written for each recipe. Changing a quantity or product can change the numbers, so use them as a reference for the recipe as written." },
+    },
+    {
+      q: { ar: "هحتاج مكونات أو أدوات خاصة؟", en: "Will I need special ingredients or equipment?" },
+      a: { ar: "المكونات من حاجات موجودة في السوبر ماركت، ومفيش اعتماد على مكونات مستوردة. بص على طريقة الوصفة قبل ما تبدأ عشان تجهّز الأدوات اللي هتستخدمها.", en: "The ingredients are available from ordinary supermarkets, without relying on imported items. Check the method before you start so you can prepare the equipment used in that recipe." },
+    },
+    {
+      q: { ar: "ينفع لو أنا نباتي أو مش باكل أكلات معينة؟", en: "Can I use it if I am vegetarian or avoid certain foods?" },
+      a: { ar: "فيه وصفات وبدائل متنوعة، لكن مش كل وصفة هتناسب كل اختيار غذائي. راجع المكونات واختار اللي يناسبك، ولو بتستبعد أكل بتعليمات طبية امشِ على كلام دكتورك.", en: "There is a variety of recipes and substitutions, but not every recipe will suit every dietary choice. Check the ingredients and choose what works for you; if you avoid foods on medical advice, follow your doctor's guidance." },
+    },
+    {
+      q: { ar: "الكتاب طلب مرة واحدة ولا اشتراك؟", en: "Is this a one-time purchase or a subscription?" },
+      a: { ar: "الكتاب طلب مرة واحدة، مش اشتراك شهري. تفاصيل الطلب والدفع بيأكدها لك الفريق على واتساب.", en: "The book is a one-time purchase, not a monthly subscription. The team will confirm the ordering and payment details on WhatsApp." },
+    },
+    {
+      q: { ar: "ينفع أطبخ منه للبيت كله؟", en: "Can I use it to cook for the whole family?" },
+      a: { ar: "آه، الوصفات معمولة من أكل البيت وتقدر تحضّرها للأسرة. اختار الكمية المناسبة لعددكم، وكل شخص يمشي على أي تعليمات خاصة بيه.", en: "Yes. The recipes are based on home cooking and can be prepared for the family. Choose a quantity that suits your household, while each person follows any guidance specific to them." },
+    },
+    {
+      q: { ar: "فعلاً فيه فيديو لكل وصفة؟", en: "Is there really a video for every recipe?" },
+      a: { ar: "آه. كل وصفة ليها فيديو مخصوص يورّيك خطواتها وهي بتتعمل.", en: "Yes. Every recipe has its own video showing each step as it is made." },
+    },
+  ],
+};
+
 const COPY = {
   eyebrow: { ar: "هدية من عيادات لاروز", en: "A gift from La Rose Clinics" },
   title: { ar: "كتاب الوصفات", en: "The Recipe Guide" },
@@ -186,8 +246,9 @@ export function pages({ c, locale }) {
   if (!g || !(g.recipes || []).length) return [];
 
   const s = c.site;
-  const product = (c.digital?.products || []).find((item) => item.slug === "recipe-book");
-  if (!product) return [];
+  const productRecord = (c.digital?.products || []).find((item) => item.slug === "recipe-book");
+  if (!productRecord) return [];
+  const product = { ...productRecord, ...LANDING_PRODUCT_COPY };
   const recipes = g.recipes.map((r) => ({
     ...r,
     imageFile: (r.image || "").split("/").pop(),
@@ -512,7 +573,7 @@ ${trackingHead(c)}
   </div></section>
   <section class="rg-landing__section"><div class="rg-wrap rg-landing__inside"><div><h2>${bi({ ar: "إيه اللي جوه الكتاب؟", en: "What is inside?" })}</h2>${list(product.inside)}</div><figure class="rg-landing__spread"><img src="../assets/img/digital/recipe-book.webp" alt="${esc(t({ ar: "صفحتان من داخل كتاب وصفات لاروز", en: "Two pages from inside the La Rose recipe book" }, "en"))}" width="600" height="750" loading="lazy" decoding="async"><figcaption>${bi({ ar: "لقطة من داخل الكتاب الكامل", en: "A look inside the full book" })}</figcaption></figure></div></section>
   <section class="rg-landing__section rg-landing__section--tint"><div class="rg-wrap"><h2>${bi({ ar: "الكتاب مناسب لمين؟", en: "Who is it for?" })}</h2>${list(product.audience)}</div></section>
-  <section class="rg-landing__section"><div class="rg-wrap"><h2>${bi({ ar: "إزاي تطلبه؟", en: "How to order" })}</h2>${list([{ar:"ابعت لنا على واتساب",en:"Message us on WhatsApp"},{ar:"الفريق هيأكد معاك الطلب",en:"The team confirms your order"},{ar:"بنبعت لك ملف PDF",en:"Your PDF is sent to you"}])}<p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="${esc(whatsapp)}" target="_blank" rel="noopener">${bi(product.cta)}</a></p></div></section>
+  <section class="rg-landing__section"><div class="rg-wrap"><h2>${bi({ ar: "إزاي تطلبه؟", en: "How to order" })}</h2>${list([{ar:"ابعت لنا على واتساب",en:"Message us on WhatsApp"},{ar:"الفريق هيأكد معاك الطلب",en:"The team confirms your order"},{ar:"بنبعت لك الكتاب PDF ومعاه لينك سريع تفتحه بسهولة من الموبايل",en:"We send the book as a PDF and a quick link for easy access on your phone"}])}<p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="${esc(whatsapp)}" target="_blank" rel="noopener">${bi(product.cta)}</a></p></div></section>
   <section class="rg-landing__section rg-landing__section--tint"><div class="rg-wrap"><h2>${bi({ ar: "أسئلة متكررة", en: "Frequently asked questions" })}</h2><div class="rg-landing__faq">${map(product.faq || [], (item) => `<details><summary>${bi(item.q)}</summary><p>${bi(item.a)}</p></details>`)}</div></div></section>
   <section class="rg-cta"><div class="rg-wrap"><h2 class="rg-cta__title">${bi(product.freeSample.label)}</h2><p class="rg-cta__text"><bdi class="num">60</bdi> ${bi({ ar: "وصفة من الكتاب الكامل، مجاناً وبدون تسجيل", en: "recipes from the full book, free and with no sign-up" })} · ${bi(product.freeSample.text)}</p><p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="free/" data-track="recipe-guide">${bi(product.freeSample.label)}</a></p></div></section>
 </main>
