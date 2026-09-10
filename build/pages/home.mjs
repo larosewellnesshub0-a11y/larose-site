@@ -28,23 +28,28 @@ export function renderHome({ c, locale }) {
 
 <!-- ============================ HERO ============================ -->
 <section class="hero">
-  <div class="hero__media" role="presentation"
-       style="background-image:url('${asset(depth, heroPhoto)}')"></div>
   <div class="wrap hero__inner">
-    <p class="hero__brand lat" lang="en" dir="ltr">${esc(t(s.brand.name, "en"))}</p>
-    <p class="eyebrow">${esc(t(s.brand.kind, locale))}</p>
-    <h1 class="h-display hero__title">${esc(t({
-      ar: "حالتك أكبر من رأي تخصص واحد",
-      en: "Your case is more than one specialty’s opinion",
-    }, locale))}</h1>
-    <p class="hero__text">${esc(t({
-      ar: "لاروز مركز طبي متعدد التخصصات في المعادي الجديدة، بيجمع التغذية العلاجية وإدارة الوزن وبدائل التكميم ونحت الجسم، الباطنة والكبد والمناظير، الجراحة العامة وجراحات السمنة، الجلدية وطب الأطفال. ولأن الأقسام بتتشاور مع بعض، حالتك بتتشاف من أكتر من زاوية في زيارة واحدة.",
-      en: "La Rose is a multidisciplinary medical centre in New Maadi, bringing together clinical nutrition, weight management and sleeve alternatives, body contouring, internal medicine, liver care and endoscopy, general and bariatric surgery, dermatology and paediatrics. Because our departments consult one another, your case is considered from more than one perspective in a single visit.",
-    }, locale))}</p>
+    <div class="hero__content">
+      <p class="hero__brand lat" lang="en" dir="ltr">${esc(t(s.brand.name, "en"))}</p>
+      <p class="eyebrow">${esc(t(s.brand.kind, locale))}</p>
+      <h1 class="h-display hero__title">${esc(t({
+        ar: "حالتك أكبر من رأي تخصص واحد",
+        en: "Your case is more than one specialty’s opinion",
+      }, locale))}</h1>
+      <p class="hero__text">${esc(t({
+        ar: "في لاروز، التغذية العلاجية وإدارة الوزن والباطنة والجراحة والجلدية وطب الأطفال بيشتغلوا مع بعض عشان حالتك تتشاف من أكتر من زاوية.",
+        en: "At La Rose, clinical nutrition, weight management, internal medicine, surgery, dermatology and paediatrics work together, so your case is considered from more than one perspective.",
+      }, locale))}</p>
 
-    <div class="hero__actions">
-      <a class="btn btn--accent btn--lg" href="${link(depth, "patients/booking.html")}">${esc(t(s.ui.bookNow, locale))}</a>
-      <a class="btn btn--on-dark btn--lg" href="${link(depth, "specialties/")}">${esc(t({ ar: "استكشف التخصصات", en: "Explore specialties" }, locale))}</a>
+      <div class="hero__actions">
+        <a class="btn btn--accent btn--lg" href="${link(depth, "patients/booking.html")}">${esc(t(s.ui.bookNow, locale))}</a>
+        <a class="btn btn--on-dark btn--lg" href="${link(depth, "specialties/")}">${esc(t({ ar: "استكشف التخصصات", en: "Explore specialties" }, locale))}</a>
+      </div>
+    </div>
+
+    <div class="hero__visual" aria-hidden="true">
+      <div class="hero__media" role="presentation"
+           style="background-image:url('${asset(depth, heroPhoto)}')"></div>
     </div>
 
     <div class="hero__proof">

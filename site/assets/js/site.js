@@ -255,8 +255,34 @@
   document.querySelectorAll("[data-finder]").forEach(function (form) {
     var spec = form.querySelector("[data-finder-specialty]");
     var doc = form.querySelector("[data-finder-doctor]");
+    var branch = form.querySelector("[data-finder-branch]");
     if (!spec || !doc) return;
     var all = Array.prototype.slice.call(doc.options);
+
+    /* The home-page finder offered every branch whatever the doctor, so it
+       accepted a doctor at a branch that doctor never attends - the same defect
+       the full booking form had. data-branches on each doctor option lists where
+       they actually hold a clinic. A branch the page itself disabled (not open
+       yet) stays disabled. */
+    function refreshBranches() {
+      if (!branch) return;
+      var chosen = doc.options[doc.selectedIndex];
+      var allowed = chosen && chosen.value
+        ? (chosen.getAttribute("data-branches") || "").split(",").filter(Boolean)
+        : null;
+      var cleared = false;
+      Array.prototype.forEach.call(branch.options, function (opt) {
+        if (!opt.value) return;
+        if (opt.dataset.lockedClosed === undefined) opt.dataset.lockedClosed = opt.disabled ? "1" : "";
+        var offered = !allowed || allowed.indexOf(opt.value) !== -1;
+        opt.disabled = opt.dataset.lockedClosed === "1" || !offered;
+        if (opt.disabled && opt.selected) cleared = true;
+      });
+      if (cleared) {
+        var first = Array.prototype.filter.call(branch.options, function (o) { return !o.disabled; })[0];
+        branch.value = first ? first.value : "";
+      }
+    }
 
     spec.addEventListener("change", function () {
       var v = spec.value;
@@ -267,7 +293,10 @@
         if (!v || list.indexOf(v) !== -1) doc.appendChild(opt);
       });
       doc.value = "";
+      refreshBranches();
     });
+    doc.addEventListener("change", refreshBranches);
+    refreshBranches();
   });
 
   /* ---------------------------------------------------------------------

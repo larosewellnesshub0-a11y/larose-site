@@ -272,13 +272,16 @@ export function finder({ c, locale, depth }) {
         <label class="field__label" for="f-doctor">${esc(t(s.ui.selectDoctor, locale))}</label>
         <select class="select" id="f-doctor" name="doctor" data-finder-doctor>
           <option value="">${esc(t({ ar: "أي طبيب متاح", en: "Any available doctor" }, locale))}</option>
-          ${map(docs, (d) => `<option value="${esc(d.slug)}" data-specialties="${esc((d.specialties || []).join(","))}">${esc(t(d.name, locale))}</option>`)}
+          <!-- data-branches carries the branches this doctor actually holds a
+               clinic at, so the branch select below can rule out combinations
+               that do not exist. Same rule as the full booking form. -->
+          ${map(docs, (d) => `<option value="${esc(d.slug)}" data-specialties="${esc((d.specialties || []).join(","))}" data-branches="${esc(Object.keys(d.schedule || {}).join(","))}">${esc(t(d.name, locale))}</option>`)}
         </select>
       </div>
 
       <div class="field">
         <label class="field__label" for="f-branch">${esc(t(s.ui.selectBranch, locale))}</label>
-        <select class="select" id="f-branch" name="branch">
+        <select class="select" id="f-branch" name="branch" data-finder-branch>
           ${map(branches, (b) => `<option value="${esc(b.slug)}"${b.status === "soon" ? " disabled" : ""}>${esc(t(b.name, locale))}${b.status === "soon" ? `، ${esc(t(s.ui.openingSoon, locale))}` : ""}</option>`)}
         </select>
       </div>

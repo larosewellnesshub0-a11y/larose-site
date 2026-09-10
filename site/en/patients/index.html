@@ -492,15 +492,18 @@
         <label class="field__label" for="f-doctor">Select a doctor</label>
         <select class="select" id="f-doctor" name="doctor" data-finder-doctor>
           <option value="">Any available doctor</option>
-          <option value="shimaa-fouad" data-specialties="clinical-nutrition,weight-management,body-contouring">Dr. Shimaa Fouad</option>
-<option value="alyaa-abu-taleb" data-specialties="clinical-nutrition,weight-management,pediatrics">Dr. Alyaa Said Abu Taleb</option>
-<option value="mohab-ashraf" data-specialties="internal-medicine,gastroenterology-hepatology,ultrasound">Dr. Mohab Ashraf Fouad</option>
+          <!-- data-branches carries the branches this doctor actually holds a
+               clinic at, so the branch select below can rule out combinations
+               that do not exist. Same rule as the full booking form. -->
+          <option value="shimaa-fouad" data-specialties="clinical-nutrition,weight-management,body-contouring" data-branches="maadi,fifth-settlement">Dr. Shimaa Fouad</option>
+<option value="alyaa-abu-taleb" data-specialties="clinical-nutrition,weight-management,pediatrics" data-branches="maadi">Dr. Alyaa Said Abu Taleb</option>
+<option value="mohab-ashraf" data-specialties="internal-medicine,gastroenterology-hepatology,ultrasound" data-branches="maadi">Dr. Mohab Ashraf Fouad</option>
         </select>
       </div>
 
       <div class="field">
         <label class="field__label" for="f-branch">Select a branch</label>
-        <select class="select" id="f-branch" name="branch">
+        <select class="select" id="f-branch" name="branch" data-finder-branch>
           <option value="maadi">Maadi Branch</option>
 <option value="fifth-settlement">Fifth Settlement Branch</option>
 <option value="sheikh-zayed" disabled>Sheikh Zayed Branch، Opening soon</option>

@@ -402,17 +402,22 @@
 
 <!-- ============================ HERO ============================ -->
 <section class="hero">
-  <div class="hero__media" role="presentation"
-       style="background-image:url('../assets/img/clinic/hero-clinic-1200.webp')"></div>
   <div class="wrap hero__inner">
-    <p class="hero__brand lat" lang="en" dir="ltr">La Rose Wellness Hub</p>
-    <p class="eyebrow">مركز طبي متعدد التخصصات</p>
-    <h1 class="h-display hero__title">حالتك أكبر من رأي تخصص واحد</h1>
-    <p class="hero__text">لاروز مركز طبي متعدد التخصصات في المعادي الجديدة، بيجمع التغذية العلاجية وإدارة الوزن وبدائل التكميم ونحت الجسم، الباطنة والكبد والمناظير، الجراحة العامة وجراحات السمنة، الجلدية وطب الأطفال. ولأن الأقسام بتتشاور مع بعض، حالتك بتتشاف من أكتر من زاوية في زيارة واحدة.</p>
+    <div class="hero__content">
+      <p class="hero__brand lat" lang="en" dir="ltr">La Rose Wellness Hub</p>
+      <p class="eyebrow">مركز طبي متعدد التخصصات</p>
+      <h1 class="h-display hero__title">حالتك أكبر من رأي تخصص واحد</h1>
+      <p class="hero__text">في لاروز، التغذية العلاجية وإدارة الوزن والباطنة والجراحة والجلدية وطب الأطفال بيشتغلوا مع بعض عشان حالتك تتشاف من أكتر من زاوية.</p>
 
-    <div class="hero__actions">
-      <a class="btn btn--accent btn--lg" href="patients/booking">احجز موعدك</a>
-      <a class="btn btn--on-dark btn--lg" href="specialties/">استكشف التخصصات</a>
+      <div class="hero__actions">
+        <a class="btn btn--accent btn--lg" href="patients/booking">احجز موعدك</a>
+        <a class="btn btn--on-dark btn--lg" href="specialties/">استكشف التخصصات</a>
+      </div>
+    </div>
+
+    <div class="hero__visual" aria-hidden="true">
+      <div class="hero__media" role="presentation"
+           style="background-image:url('../assets/img/clinic/hero-clinic-1200.webp')"></div>
     </div>
 
     <div class="hero__proof">
@@ -471,15 +476,18 @@
         <label class="field__label" for="f-doctor">اختار الطبيب</label>
         <select class="select" id="f-doctor" name="doctor" data-finder-doctor>
           <option value="">أي طبيب متاح</option>
-          <option value="shimaa-fouad" data-specialties="clinical-nutrition,weight-management,body-contouring">د. شيماء فؤاد</option>
-<option value="alyaa-abu-taleb" data-specialties="clinical-nutrition,weight-management,pediatrics">د. علياء سعيد أبوطالب</option>
-<option value="mohab-ashraf" data-specialties="internal-medicine,gastroenterology-hepatology,ultrasound">د. مهاب أشرف فؤاد</option>
+          <!-- data-branches carries the branches this doctor actually holds a
+               clinic at, so the branch select below can rule out combinations
+               that do not exist. Same rule as the full booking form. -->
+          <option value="shimaa-fouad" data-specialties="clinical-nutrition,weight-management,body-contouring" data-branches="maadi,fifth-settlement">د. شيماء فؤاد</option>
+<option value="alyaa-abu-taleb" data-specialties="clinical-nutrition,weight-management,pediatrics" data-branches="maadi">د. علياء سعيد أبوطالب</option>
+<option value="mohab-ashraf" data-specialties="internal-medicine,gastroenterology-hepatology,ultrasound" data-branches="maadi">د. مهاب أشرف فؤاد</option>
         </select>
       </div>
 
       <div class="field">
         <label class="field__label" for="f-branch">اختار الفرع</label>
-        <select class="select" id="f-branch" name="branch">
+        <select class="select" id="f-branch" name="branch" data-finder-branch>
           <option value="maadi">فرع المعادي</option>
 <option value="fifth-settlement">فرع التجمع الخامس</option>
 <option value="sheikh-zayed" disabled>فرع الشيخ زايد، يفتح قريباً</option>

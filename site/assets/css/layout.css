@@ -375,87 +375,183 @@ body.is-locked { overflow: hidden; }
   color: var(--ink-on-dark);
   isolation: isolate;
 }
-/* The hero photograph is decorative, so it is painted as a background layer
-   rather than an <img>. That keeps it reliably above the hero's own olive
-   fill (which is only a loading colour) and below the copy, with no
-   stacking-context surprises. The image URL is set inline by the generator. */
+/* Mobile keeps the established full-bleed photograph. The visual is nested in
+   the inner wrapper so the same markup can become a real grid column on wide
+   screens; the calculated inline bleed still covers the viewport whenever the
+   centred mobile wrapper reaches its reading-width cap. */
+.hero__visual {
+  position: absolute;
+  inset-block: 0;
+  inset-inline: calc((100vw - 100%) / -2);
+  z-index: -1;
+}
 .hero__media {
   position: absolute;
   inset: 0;
-  z-index: 1;
   background-color: var(--olive-900);
   background-size: cover;
   background-position: center 58%;
   background-repeat: no-repeat;
 }
 
-/* The scrim. Three layers, each doing one job:
-     1. an olive colour-wash, so a raw phone photograph reads as brand imagery
-        rather than a snapshot;
-     2. a vertical ramp that anchors the copy block;
-     3. a directional ramp from the text side, so the headline clears 4.5:1
-        against whatever happens to be behind it.
-   This is a legibility tool, not decoration — the values are set by contrast,
-   not by taste. */
+/* On a single-column hero the copy crosses the whole photograph, so its scrim
+   is vertical and deliberately direction-neutral. */
 .hero__media::after {
   content: "";
-  position: absolute; inset: 0;
+  position: absolute;
+  inset: 0;
   background:
     linear-gradient(to top,
-      rgba(26,27,18,.84) 0%,
-      rgba(26,27,18,.48) 44%,
-      rgba(26,27,18,.24) 80%,
-      rgba(26,27,18,.18) 100%),
-    linear-gradient(to right,
-      rgba(26,27,18,.04) 0%,
-      rgba(26,27,18,.46) 52%,
-      rgba(26,27,18,.66) 100%),
-    linear-gradient(rgba(60,62,40,.16), rgba(60,62,40,.16));
-}
-[dir="ltr"] .hero__media::after {
-  background:
-    linear-gradient(to top,
-      rgba(26,27,18,.84) 0%,
-      rgba(26,27,18,.48) 44%,
-      rgba(26,27,18,.24) 80%,
-      rgba(26,27,18,.18) 100%),
-    linear-gradient(to left,
-      rgba(26,27,18,.04) 0%,
-      rgba(26,27,18,.46) 52%,
-      rgba(26,27,18,.66) 100%),
-    linear-gradient(rgba(60,62,40,.16), rgba(60,62,40,.16));
+      rgba(26,27,18,.92) 0%,
+      rgba(26,27,18,.72) 38%,
+      rgba(26,27,18,.52) 70%,
+      rgba(26,27,18,.44) 100%),
+    linear-gradient(rgba(60,62,40,.26), rgba(60,62,40,.26));
 }
 
 .hero__inner {
   position: relative;
   z-index: 2;
-  padding-block: clamp(4.5rem, 3rem + 9vw, 9.5rem);
+  padding-block: clamp(3rem, 2rem + 8vw, 5rem);
   max-width: 46rem;
+  text-align: center;
 }
+.hero__content { position: relative; z-index: 1; }
 .hero__title.h-display { font-size: clamp(2.35rem, 1.6rem + 3.5vw, 4.35rem); }
 .hero .eyebrow { color: var(--champagne-400); }
 .hero .eyebrow::before { background: var(--champagne-400); }
-.hero__title { color: #fff; margin-top: .9rem; max-width: 18ch; }
+.hero__title {
+  color: #fff;
+  margin-block-start: .9rem;
+  margin-inline: auto;
+  max-width: 18ch;
+}
 [dir="rtl"] .hero__title { max-width: 22ch; }
-.hero__text  { color: rgba(246,244,236,.86); margin-top: 1.25rem; font-size: var(--t-md); max-width: 34rem; }
-.hero__actions { margin-top: 2.15rem; display: flex; flex-wrap: wrap; gap: .8rem; }
+.hero__text {
+  color: rgba(246,244,236,.82);
+  margin-block-start: 1.25rem;
+  margin-inline: auto;
+  font-size: var(--t-md);
+  max-width: 34rem;
+}
+.hero__actions {
+  margin-block-start: 2.15rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .8rem;
+}
 
 /* proof row sitting under the hero copy */
 /* A grid, not a flex row: one of the four figures is the word "InBody"
    rather than a number, and flex-wrap drops it onto a line of its own. */
 .hero__proof {
-  margin-top: clamp(2.25rem, 1.8rem + 1.8vw, 3.25rem);
+  margin-block-start: clamp(2.25rem, 1.8rem + 1.8vw, 3.25rem);
+  margin-inline: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
   gap: clamp(1.1rem, 2.5vw, 2.25rem);
-  padding-top: 1.6rem;
+  padding-block-start: 1.6rem;
   border-top: 1px solid rgba(246,244,236,.2);
   max-width: 46rem;
 }
+.hero__proof .stat { align-items: center; }
 .hero__proof .stat__n { font-size: clamp(1.5rem, 1.2rem + 1.1vw, 2.15rem); }
 .hero__proof .stat__l { font-size: var(--t-xs); }
 .hero__proof .stat__n { color: #fff; }
 .hero__proof .stat__l { color: rgba(246,244,236,.7); }
+
+/* Desktop turns the masthead into an asymmetric composition. Grid column one
+   is inline-start, so it is the right-hand column in Arabic and the left-hand
+   column in English without physical left/right positioning. */
+@media (min-width: 900px) {
+  .hero {
+    background:
+      radial-gradient(circle at 50% 12%, rgba(142,139,99,.13), transparent 38%),
+      var(--olive-900);
+  }
+  .hero__inner {
+    max-width: var(--wrap);
+    min-height: 43rem;
+    padding-block: clamp(4.25rem, 6vw, 6.25rem);
+    display: grid;
+    grid-template-columns: minmax(0, 1.12fr) minmax(19rem, .88fr);
+    grid-template-rows: 1fr auto;
+    column-gap: clamp(3rem, 6vw, 6.75rem);
+    align-items: stretch;
+    text-align: start;
+  }
+  .hero__content {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+    max-width: 36rem;
+  }
+  .hero__visual {
+    position: relative;
+    inset: auto;
+    z-index: 0;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    min-height: 34rem;
+    align-self: stretch;
+  }
+  .hero__media {
+    overflow: hidden;
+    border: 1px solid rgba(212,183,147,.46);
+    border-radius: 48% 48% var(--r-xl) var(--r-xl) / 34% 34% var(--r-xl) var(--r-xl);
+    background-position: center 55%;
+    box-shadow: 0 2rem 5rem rgba(12,14,9,.42);
+  }
+  .hero__media::after {
+    background:
+      linear-gradient(to top, rgba(24,26,17,.46), transparent 44%),
+      linear-gradient(rgba(60,62,40,.12), rgba(60,62,40,.12));
+  }
+  .hero__visual::after {
+    content: "";
+    position: absolute;
+    inset: .75rem;
+    z-index: 1;
+    border: 1px solid rgba(246,225,196,.34);
+    border-radius: 48% 48% calc(var(--r-xl) - .4rem) calc(var(--r-xl) - .4rem) / 34% 34% calc(var(--r-xl) - .4rem) calc(var(--r-xl) - .4rem);
+    pointer-events: none;
+  }
+  .hero__title.h-display {
+    font-size: clamp(3.15rem, 4.15vw, 4.8rem);
+    line-height: 1.06;
+  }
+  .hero__title {
+    margin-inline: 0;
+    max-width: 13ch;
+  }
+  [dir="rtl"] .hero__title { max-width: 15ch; }
+  .hero__text {
+    margin-block-start: 1.6rem;
+    margin-inline: 0;
+    max-width: 31rem;
+    color: rgba(246,244,236,.72);
+    font-size: clamp(1rem, .94rem + .22vw, 1.16rem);
+    line-height: 1.75;
+  }
+  .hero__actions {
+    margin-block-start: 2.35rem;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .hero__proof {
+    grid-column: 1;
+    grid-row: 2;
+    margin-block-start: clamp(2.5rem, 4vw, 3.5rem);
+    margin-inline: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem 2rem;
+    padding-block-start: 1.75rem;
+    max-width: 36rem;
+    text-align: start;
+  }
+  .hero__proof .stat { align-items: flex-start; }
+}
 
 /* page hero (interior pages) — shorter, lighter */
 .page-hero {
@@ -556,11 +652,49 @@ body.is-locked { overflow: hidden; }
 .cta-band {
   position: relative;
   overflow: hidden;
-  background: var(--olive-800);
+  /* Was a flat fill of --olive-800, which read as a painted rectangle at the
+     foot of every page. A photograph of the clinic sits behind a deep olive
+     gradient instead: the gradient is near-opaque on the side the text sits on,
+     so contrast never depends on the photograph, and thins towards the buttons
+     where the room can show through. background-color stays as the fallback if
+     the image is slow or missing. */
+  background-color: var(--olive-800);
+  background-image:
+    linear-gradient(105deg, rgba(32,37,25,.97) 0%, rgba(42,49,33,.93) 38%, rgba(58,66,44,.74) 100%),
+    url("../img/clinic/maadi-reception.webp");
+  background-size: cover;
+  background-position: center;
   color: var(--ink-on-dark);
   border-radius: var(--r-xl);
   padding: clamp(2rem, 1.5rem + 3vw, 4rem) clamp(1.5rem, 1rem + 3vw, 4rem);
   isolation: isolate;
+  border: 1px solid rgba(212,183,147,.22);
+  box-shadow: 0 24px 60px -28px rgba(24,28,18,.65);
+}
+[dir="rtl"] .cta-band {
+  /* The gradient is directional, so in RTL it has to lean the other way or the
+     opaque end lands behind the buttons instead of behind the heading. */
+  background-image:
+    linear-gradient(255deg, rgba(32,37,25,.97) 0%, rgba(42,49,33,.93) 38%, rgba(58,66,44,.74) 100%),
+    url("../img/clinic/maadi-reception.webp");
+}
+/* The gloss. A single soft diagonal highlight plus a warm bloom from the top
+   corner - enough to read as polished glass, not so much that it looks wet. */
+.cta-band::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(158deg, rgba(255,255,255,.17) 0%, rgba(255,255,255,.06) 16%, rgba(255,255,255,0) 44%),
+    radial-gradient(120% 85% at 10% -10%, rgba(212,183,147,.22), transparent 62%);
+}
+@media (prefers-reduced-transparency: reduce) {
+  /* Someone who has asked for less transparency gets the flat brand colour back
+     rather than a photograph competing with the text. */
+  .cta-band, [dir="rtl"] .cta-band { background-image: none; }
+  .cta-band::after { display: none; }
 }
 .cta-band__inner { position: relative; z-index: 1; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem; }
 .cta-band .h2 { color: #fff; max-width: 22ch; }
@@ -702,24 +836,9 @@ body.is-locked { overflow: hidden; }
 .drawer__head .wordmark img { mix-blend-mode: normal; }
 .site-footer__brand img { filter: none; }
 
-/* --------------------------------------------------------------------------
-   Hero scrim on narrow screens.
-   The directional ramp exists to darken the side the copy sits on. On a phone
-   the copy spans the full width, so that ramp just muddies the photograph —
-   drop it and let the vertical ramp do the work on its own.
-   -------------------------------------------------------------------------- */
+/* Phone actions become full-width targets and the proof settles into two
+   columns. The centred composition itself continues all the way to 899px. */
 @media (max-width: 767px) {
-  .hero__media::after,
-  [dir="ltr"] .hero__media::after {
-    background:
-      linear-gradient(to top,
-        rgba(26,27,18,.92) 0%,
-        rgba(26,27,18,.72) 38%,
-        rgba(26,27,18,.52) 70%,
-        rgba(26,27,18,.44) 100%),
-      linear-gradient(rgba(60,62,40,.26), rgba(60,62,40,.26));
-  }
-  .hero__inner { padding-block: clamp(3rem, 2rem + 8vw, 5rem); }
   .hero__actions .btn { flex: 1 1 100%; }
   .hero__proof { grid-template-columns: repeat(2, 1fr); }
 }
@@ -811,12 +930,14 @@ body.is-locked { overflow: hidden; }
    the page. At 1.05rem it was quieter than the eyebrow underneath it, which is
    the wrong way round: this is the masthead, not a label. */
 .hero__brand {
+  width: fit-content;
   font-family: var(--font-head);
   font-size: clamp(1.6rem, 1.15rem + 1.8vw, 2.6rem);
   font-weight: 600;
   line-height: 1.15;
   color: #fff;
   letter-spacing: var(--tr-tight);
+  margin-inline: auto;
   margin-bottom: .5rem;
   text-shadow: 0 1px 14px rgba(28, 30, 20, .45);
 }
@@ -827,9 +948,23 @@ body.is-locked { overflow: hidden; }
   width: 3.25rem;
   height: 2px;
   margin-top: .7rem;
+  margin-inline: auto;
   background: var(--champagne-500);
 }
 [dir="ltr"] .hero__brand { letter-spacing: .01em; }
+
+@media (min-width: 900px) {
+  .hero__brand {
+    margin-inline-start: 0;
+    margin-inline-end: auto;
+    font-size: clamp(1.2rem, 1rem + .5vw, 1.55rem);
+    color: rgba(255,255,255,.9);
+  }
+  .hero__brand::after {
+    margin-inline-start: 0;
+    margin-inline-end: auto;
+  }
+}
 
 /* On an interior page the name belongs in the footer and header, not repeated
    in every page hero — but the branch and contact pages benefit from it. */
