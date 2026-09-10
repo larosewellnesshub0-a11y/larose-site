@@ -430,38 +430,7 @@ body.is-locked { overflow: hidden; }
   position: relative;
   z-index: 2;
   padding-block: clamp(4.5rem, 3rem + 9vw, 9.5rem);
-}
-/* The copy panel. On a phone it is invisible - the photograph's own scrim
-   already carries the text - so this only becomes a panel once there is spare
-   width to waste, which is exactly the problem it solves. It is anchored to the
-   inline-start edge (right in Arabic, left in English) and capped, so the text
-   has an edge to run down instead of floating mid-screen. */
-.hero__panel { max-width: 46rem; }
-@media (min-width: 900px) {
-  .hero__panel {
-    max-width: 54rem;
-    padding: clamp(2.25rem, 1.5rem + 2vw, 3.25rem);
-    border-radius: var(--r-xl);
-    border: 1px solid rgba(212,183,147,.22);
-    background:
-      linear-gradient(150deg, rgba(255,255,255,.10) 0%, rgba(255,255,255,.03) 20%, rgba(255,255,255,0) 48%),
-      linear-gradient(120deg, rgba(26,29,19,.80) 0%, rgba(30,34,22,.66) 62%, rgba(34,38,25,.44) 100%);
-    box-shadow: 0 26px 70px -34px rgba(16,19,12,.8), inset 0 1px 0 rgba(255,255,255,.10);
-    backdrop-filter: blur(6px) saturate(1.05);
-  }
-  [dir="ltr"] .hero__panel {
-    background:
-      linear-gradient(210deg, rgba(255,255,255,.10) 0%, rgba(255,255,255,.03) 20%, rgba(255,255,255,0) 48%),
-      linear-gradient(240deg, rgba(26,29,19,.80) 0%, rgba(30,34,22,.66) 62%, rgba(34,38,25,.44) 100%);
-  }
-  /* Inside a panel the copy no longer needs its own narrow measure - that cap
-     was what made it read as a column floating in the middle of the screen. */
-  .hero__title { max-width: 20ch; }
-  [dir="rtl"] .hero__title { max-width: 24ch; }
-  .hero__text { max-width: 46rem; }
-}
-@media (prefers-reduced-transparency: reduce) {
-  .hero__panel { backdrop-filter: none; }
+  max-width: 46rem;
 }
 .hero__title.h-display { font-size: clamp(2.35rem, 1.6rem + 3.5vw, 4.35rem); }
 /* .eyebrow is inline-flex site-wide, which is right inside a section head but
@@ -478,22 +447,54 @@ body.is-locked { overflow: hidden; }
 .hero .eyebrow::before { background: var(--champagne-400); }
 .hero__title { color: #fff; margin-top: .9rem; max-width: 18ch; }
 [dir="rtl"] .hero__title { max-width: 22ch; }
-.hero__text  { color: rgba(246,244,236,.86); margin-top: 1.25rem; font-size: var(--t-md); max-width: 34rem; }
-.hero__actions { margin-top: 2.15rem; display: flex; flex-wrap: wrap; gap: .8rem; }
+/* Was 1.25rem under the headline and capped at 34rem inside a 46rem column,
+   which pushed the paragraph into a narrow block right beneath the title.
+   More air above it, and the full column width to run in. */
+.hero__text  { color: rgba(246,244,236,.86); margin-top: 1.6rem; font-size: var(--t-md); max-width: 42rem; line-height: 1.75; }
+.hero__actions { margin-top: 2.5rem; display: flex; flex-wrap: wrap; gap: .9rem; }
 
 /* proof row sitting under the hero copy */
 /* A grid, not a flex row: one of the four figures is the word "InBody"
    rather than a number, and flex-wrap drops it onto a line of its own. */
+/* The four figures used to sit on an open hairline rule directly under the copy,
+   which stacked yet another row of text into the same crowded column. They are a
+   glass bar now: rounded, self-contained, and visually separate from the reading
+   column, so the copy above it gets room to breathe. */
 .hero__proof {
-  margin-top: clamp(2.25rem, 1.8rem + 1.8vw, 3.25rem);
+  margin-top: clamp(2.5rem, 2rem + 2vw, 3.75rem);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
-  gap: clamp(1.1rem, 2.5vw, 2.25rem);
-  padding-top: 1.6rem;
-  border-top: 1px solid rgba(246,244,236,.2);
+  /* Explicitly four tracks, not auto-fit. auto-fit sized each track to 8.5rem
+     and only three fitted the copy column, so the fourth figure dropped onto a
+     second row and the pill grew into a tall blob. minmax(0, 1fr) lets the
+     tracks shrink to share the width instead of refusing to fit. */
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(.6rem, 1.4vw, 1.15rem);
+  padding: clamp(1.15rem, .9rem + .9vw, 1.75rem) clamp(1.35rem, 1rem + 1.4vw, 2.25rem);
+  border: 1px solid rgba(212,183,147,.26);
+  border-radius: 999px;
+  background:
+    linear-gradient(150deg, rgba(255,255,255,.13) 0%, rgba(255,255,255,.04) 22%, rgba(255,255,255,0) 52%),
+    linear-gradient(120deg, rgba(26,29,19,.62), rgba(32,36,23,.44));
+  box-shadow: 0 18px 44px -26px rgba(16,19,12,.75), inset 0 1px 0 rgba(255,255,255,.12);
+  backdrop-filter: blur(7px) saturate(1.05);
+}
+/* A pill only reads as a pill while the figures stay on one row. Once they wrap,
+   the fully-round corners look like a mistake, so soften to a rounded rectangle. */
+/* Four across stops being readable once the column is narrow: the labels are
+   full phrases, not single words. Two-by-two below that, and the fully-round
+   corners soften, because a pill only reads as a pill on one row. */
+@media (max-width: 52rem) {
+  .hero__proof {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-radius: var(--r-lg);
+    row-gap: 1.35rem;
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .hero__proof { backdrop-filter: none; background: rgba(26,29,19,.72); }
 }
 .hero__proof .stat__n { font-size: clamp(1.5rem, 1.2rem + 1.1vw, 2.15rem); }
-.hero__proof .stat__l { font-size: var(--t-xs); }
+.hero__proof .stat__l { font-size: var(--t-xs); line-height: 1.4; text-wrap: balance; }
 .hero__proof .stat__n { color: #fff; }
 .hero__proof .stat__l { color: rgba(246,244,236,.7); }
 

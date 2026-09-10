@@ -31,10 +31,6 @@ export function renderHome({ c, locale }) {
   <div class="hero__media" role="presentation"
        style="background-image:url('${asset(depth, heroPhoto)}')"></div>
   <div class="wrap hero__inner">
-    <!-- The copy sits in a panel rather than floating loose over the photograph.
-         Loose, it read as a narrow centred column with half the width unused,
-         and the headline's contrast depended on whatever was behind it. -->
-    <div class="hero__panel">
     <p class="hero__brand lat" lang="en" dir="ltr">${esc(t(s.brand.name, "en"))}</p>
     <p class="eyebrow">${esc(t(s.brand.kind, locale))}</p>
     <h1 class="h-display hero__title">${esc(t({
@@ -56,7 +52,6 @@ export function renderHome({ c, locale }) {
         <span class="stat__n">${esc(st.n)}</span>
         <span class="stat__l">${esc(t(st.label, locale))}</span>
       </div>`)}
-    </div>
     </div>
   </div>
 </section>
