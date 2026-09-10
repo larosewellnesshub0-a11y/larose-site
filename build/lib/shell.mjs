@@ -243,7 +243,7 @@ function footer({ c, locale, depth }) {
       ${columns}
 
       <div class="footer-col">
-        <h2 class="footer-col__title">${esc(t({ ar: "تواصل معانا", en: "Get in touch" }, locale))}</h2>
+        <h2 class="footer-col__title">${esc(t({ ar: "تواصل معنا", en: "Get in touch" }, locale))}</h2>
         <div class="site-footer__contact">
           <a class="footer-contact-row" href="${esc(maadi.mapsUrl || "#")}" target="_blank" rel="noopener">
             ${icon("pin")}<span>${esc(t(maadi.address, locale))}</span>
