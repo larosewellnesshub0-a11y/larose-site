@@ -161,17 +161,22 @@
   opacity: 1; visibility: visible;
   transform: translateX(calc(-50% + var(--panel-nudge, 0px))) translateY(0);
 }
-.nav__panel--wide { min-width: min(46rem, calc(100vw - 2rem)); }
-.nav__panel-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .2rem .6rem; }
-.nav__panel--wide .nav__panel-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+/* Every dropdown is the same size. The knowledge-centre panel was the only one
+   that felt right; the others were narrow single-column ribbons because width
+   was tied to whether an item happened to be flagged `mega`. Width is now the
+   same for all of them and only the column count varies with how many links
+   there are, so they read as one family of panels. */
+.nav__panel, .nav__panel--wide { min-width: min(46rem, calc(100vw - 2rem)); }
+.nav__panel-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .2rem .6rem; }
+/* Three columns for two links leaves a hole; those panels take two. */
+.nav__panel--few .nav__panel-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 /* Scroll only when the screen genuinely cannot hold the panel: a fixed 32rem
    made the tools panel scroll inside a viewport with 300px to spare. */
 .nav__panel { max-height: calc(100vh - 7rem); overflow-y: auto; overscroll-behavior: contain; }
 
-/* Nine tools in one column is tall enough to force a scroll on a laptop. Two
-   columns halves it, and the panel widens to keep the labels on one line. */
-.nav__panel--tools { min-width: min(34rem, calc(100vw - 2rem)); }
-.nav__panel--tools .nav__panel-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+/* Kept as a hook, but width now comes from .nav__panel above so the tools panel
+   matches the rest instead of being its own narrower size. */
+.nav__panel--tools .nav__panel-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
 .nav__sub {
   display: flex;

@@ -125,12 +125,16 @@ function header({ c, locale, depth, active, pagePath }) {
     }
     const wide = item.mega ? " nav__panel--wide" : "";
     /* Enough links that one column would scroll on a laptop. */
-    const tall = !item.mega && (item.children || []).length > 6 ? " nav__panel--tools" : "";
+    /* Panel width is uniform in CSS now; this only picks the column count.
+       Fewer than three links in three columns leaves an empty track. */
+    const n = (item.children || []).length;
+    const tall = !item.mega && n > 4 ? " nav__panel--tools" : "";
+    const few = !item.mega && n > 0 && n < 3 ? " nav__panel--few" : "";
     return `<li class="nav__item" data-dropdown>
       <a class="nav__link" href="${link(depth, item.href)}" aria-expanded="false"${isActive ? ' aria-current="page"' : ""}>
         ${esc(t(item.label, locale))}<i class="nav__caret" aria-hidden="true"></i>
       </a>
-      <div class="nav__panel${wide}${tall}">
+      <div class="nav__panel${wide}${tall}${few}">
         <div class="nav__panel-grid">
           ${map(children, (ch) => `<a class="nav__sub" href="${link(depth, ch.href)}">
             ${esc(ch.label)}${ch.desc ? `<span>${esc(ch.desc)}</span>` : ""}
