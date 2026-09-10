@@ -249,7 +249,7 @@ ${pageHero({
             <label class="field__label" for="booking-phone">${esc(t({ ar: "رقم الموبايل", en: "Phone number" }, locale))} <span class="req" aria-hidden="true">*</span></label>
             <input class="input" id="booking-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel"
                    aria-describedby="booking-phone-hint" data-eg-mobile required>
-            <p class="field__hint" id="booking-phone-hint">${esc(t({ ar: "رقم موبايل مصري، زي 01012345678", en: "An Egyptian mobile number, e.g. 01012345678" }, locale))}</p>
+            <p class="field__hint" id="booking-phone-hint">${esc(t({ ar: "رقم موبايل مصري، زي 01000000000", en: "An Egyptian mobile number, e.g. 01000000000" }, locale))}</p>
           </div>
           <div class="field">
             <label class="field__label" for="booking-specialty">${esc(t(s.ui.selectSpecialty, locale))}</label>

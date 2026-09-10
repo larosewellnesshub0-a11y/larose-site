@@ -71,7 +71,14 @@ SAFE_CONTEXT = [
 # Its Arabic uses feminine imperatives throughout; changing them would mean
 # rewriting the client's text, so it is excluded here and raised with them
 # instead. Nothing else on the site is exempt.
-VOICE_EXEMPT = {os.path.normpath('site/RecipeGuide/index.html')}
+# The RecipeGuide is the one sanctioned feminine-voice exception: it carries the
+# client's own published wording and the clinic asked for it to stay that way.
+# Only the landing page was exempt, so the free-guide page kept the checker red
+# on 32 hits that nobody intended to fix - which made a FAIL here mean nothing.
+VOICE_EXEMPT = {os.path.normpath(p) for p in (
+    'site/RecipeGuide/index.html',
+    'site/RecipeGuide/free/index.html',
+)}
 
 files = [f for f in glob.glob('site/**/*.html', recursive=True)
          if not os.path.basename(f).startswith('_')

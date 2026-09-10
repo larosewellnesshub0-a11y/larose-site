@@ -191,7 +191,7 @@ ${finder({ c, locale, depth })}
   <div class="wrap">
     ${sectionHead({
       eyebrow: t({ ar: "الفريق الطبي", en: "The medical team" }, locale),
-      title: t({ ar: "أطباء يفحصونك بأنفسهم، لا يكتفون بمراجعة الأوراق", en: "Doctors who examine you themselves, not just review the paperwork" }, locale),
+      title: t({ ar: "أطباء يقومون بالكشف بأحسن شكل ممكن لا يكتفون بمراجعة الاوراق فقط!", en: "Doctors who examine you themselves, not just review the paperwork" }, locale),
       lede: t({
         ar: "كل طبيب في لاروز بيقضّي وقت حقيقي في الكشف: التاريخ الطبي، التحاليل، والفحص. الخطة بتتكتب بعد كده، مش قبله.",
         en: "Every doctor at La Rose spends real time on the consultation: the history, the labs, the examination. The plan is written after that، not before it.",
@@ -210,8 +210,7 @@ ${finder({ c, locale, depth })}
 <section class="section section--sunk" id="reviews">
   <div class="wrap">
     ${sectionHead({
-      eyebrow: t({ ar: "آراء المرضى", en: "Patient reviews" }, locale),
-      title: t({ ar: "مش لازم تاخد كلامنا إحنا بس", en: "You do not have to take our word for it" }, locale),
+      title: t({ ar: "اراء المرضى", en: "Patient reviews" }, locale),
     })}
     ${ratingSummary({ c, locale, depth })}
     ${when(reviews.length, `<div class="grid grid-3" style="margin-top:2rem">
@@ -276,7 +275,7 @@ ${finder({ c, locale, depth })}
   <div class="wrap">
     ${sectionHead({
       eyebrow: t({ ar: "الفروع", en: "Branches" }, locale),
-      title: t({ ar: "المعادي دلوقتي، والتجمع والشيخ زايد قريباً", en: "Maadi now, Fifth Settlement and Sheikh Zayed soon" }, locale),
+      title: t({ ar: "المعادي والتجمع دلوقتي، والشيخ زايد قريباً", en: "Maadi and Fifth Settlement now, Sheikh Zayed soon" }, locale),
     })}
     <div class="grid grid-3">
       ${map(branches, (b) => `<article class="card card--branch" data-reveal>
@@ -306,7 +305,7 @@ ${when(articles.length, `
   <div class="wrap">
     ${sectionHead({
       eyebrow: t({ ar: "المركز المعرفي", en: "Health library" }, locale),
-      title: t({ ar: "إجابات مكتوبة بمعرفة طبية، مش نصايح إنترنت", en: "Answers written with medical knowledge, not internet advice" }, locale),
+      title: t({ ar: "معلومات ونصائح هتفرق في حياتك اليومية مبنيين على معلومات وخبرات حقيقية من أطبائنا", en: "Guidance you can use day to day, built on our doctors' real experience" }, locale),
     })}
     <div class="grid grid-3">
       ${map(articles, (a) => `<article class="card card--article" data-reveal>

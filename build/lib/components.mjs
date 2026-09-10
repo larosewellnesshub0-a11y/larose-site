@@ -299,7 +299,7 @@ export function ctaBand({ c, locale, depth, title, text }) {
     <div class="cta-band" data-reveal>
       <div class="cta-band__inner">
         <div>
-          <h2 class="h2">${esc(title || t({ ar: "ابدأ بكشف حقيقي، مش بجدول جاهز", en: "Start with a real consultation, not a printed sheet" }, locale))}</h2>
+          <h2 class="h2">${esc(title || t({ ar: "ابدأ بكشف حقيقي واحجز دلوقتي", en: "Start with a real consultation - book now" }, locale))}</h2>
           <p class="cta-band__text">${esc(text || t(s.hours.bookingNote, locale))}</p>
         </div>
         <!-- The arch wraps the buttons instead of floating beside them, so the

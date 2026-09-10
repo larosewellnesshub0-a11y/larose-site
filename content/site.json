@@ -93,7 +93,7 @@
   "hours": {
     "_note": "Clinic DAYS are derived per specialty from the doctors' schedules in doctors.json, so the booking form and the published hours cannot drift apart. Only `time` is stated here, because it is the same for every clinic. `display` remains the general fallback for pages that are not specialty-specific.",
     "display": {
-      "ar": "الأيام بتختلف حسب الطبيب والفرع · من ٣ لـ ٧ مساءً",
+      "ar": "الأيام بتختلف حسب الطبيب والفرع",
       "en": "Clinic days vary by doctor and branch · 3–7 pm"
     },
     "bookingNote": {
