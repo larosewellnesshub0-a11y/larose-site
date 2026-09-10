@@ -24,6 +24,7 @@ const PAGE_MODULES = [
   "./pages/about.mjs",
   "./pages/patients.mjs",
   "./pages/legal.mjs",
+  "./pages/sitemap.mjs",
   "./pages/tools.mjs",
   "./pages/home-visits.mjs",
   "./pages/recipe-guide.mjs",

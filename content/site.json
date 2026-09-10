@@ -112,8 +112,8 @@
     {
       "key": "specialties",
       "label": {
-        "ar": "التخصصات",
-        "en": "Specialties"
+        "ar": "التخصصات الطبية",
+        "en": "Medical Specialties"
       },
       "href": "specialties/",
       "mega": true,
@@ -122,7 +122,7 @@
     {
       "key": "doctors",
       "label": {
-        "ar": "الأطباء",
+        "ar": "أطباء لاروز",
         "en": "Our Doctors"
       },
       "href": "doctors/"
@@ -130,8 +130,8 @@
     {
       "key": "branches",
       "label": {
-        "ar": "الفروع",
-        "en": "Branches"
+        "ar": "فروع لاروز",
+        "en": "La Rose Branches"
       },
       "href": "branches/",
       "childrenFrom": "branches"
@@ -225,7 +225,7 @@
             "ar": "المقالات الطبية",
             "en": "Medical articles"
           },
-          "href": "articles/index.html",
+          "href": "articles/list.html",
           "desc": {
             "ar": "شروح مفصّلة بمعرفة طبية",
             "en": "In-depth, medically grounded explainers"
@@ -448,8 +448,8 @@
           },
           {
             "label": {
-              "ar": "الأسئلة الشائعة",
-              "en": "FAQ"
+              "ar": "أسئلة المرضى الشائعة",
+              "en": "Patient FAQs"
             },
             "href": "patients/faq.html"
           },
@@ -471,21 +471,21 @@
           {
             "label": {
               "ar": "عن لاروز",
-              "en": "About us"
+              "en": "About La Rose"
             },
             "href": "about/index.html"
           },
           {
             "label": {
-              "ar": "الأطباء",
-              "en": "Our doctors"
+              "ar": "أطباء لاروز",
+              "en": "La Rose doctors"
             },
             "href": "doctors/"
           },
           {
             "label": {
-              "ar": "الفروع",
-              "en": "Branches"
+              "ar": "فروع لاروز",
+              "en": "La Rose branches"
             },
             "href": "branches/"
           },
@@ -512,8 +512,8 @@
           },
           {
             "label": {
-              "ar": "اتصل بنا",
-              "en": "Contact"
+              "ar": "تواصل مع لاروز",
+              "en": "Contact La Rose"
             },
             "href": "contact.html"
           }
@@ -541,6 +541,13 @@
           "en": "Medical disclaimer"
         },
         "href": "legal/disclaimer.html"
+      },
+      {
+        "label": {
+          "ar": "خريطة موقع عيادات لاروز",
+          "en": "La Rose website sitemap"
+        },
+        "href": "sitemap.html"
       }
     ]
   },
@@ -609,8 +616,8 @@
       "en": "Book an appointment"
     },
     "bookShort": {
-      "ar": "احجز",
-      "en": "Book"
+      "ar": "احجز موعد",
+      "en": "Book appointment"
     },
     "whatsapp": {
       "ar": "كلّمنا على واتساب",

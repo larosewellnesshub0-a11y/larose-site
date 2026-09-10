@@ -3,7 +3,7 @@
    Every page in the site is rendered through `page()`.
    ========================================================================== */
 
-import { t, ta, esc, escJson, link, asset, rel, icon, map, when, clamp, published } from "./util.mjs";
+import { t, ta, esc, escJson, link, asset, rel, icon, map, when, published } from "./util.mjs";
 
 export function trackingHead(c) {
   const a = c?.site?.integrations?.analytics || {};
@@ -48,6 +48,23 @@ function navChildren(item, c, locale) {
   return [];
 }
 
+/* The same generic "view all" text used to point at six different hubs. Keep
+   the labels compact, but name the destination so the link still makes sense
+   out of context to readers, assistive technology and search crawlers. */
+const NAV_OVERVIEW_LABELS = {
+  specialties: { ar: "كل التخصصات الطبية", en: "All medical specialties" },
+  branches: { ar: "كل فروع لاروز", en: "All La Rose branches" },
+  patients: { ar: "دليل المريض الكامل", en: "Complete patient guide" },
+  articles: { ar: "أقسام المركز المعرفي", en: "Knowledge Centre overview" },
+  tools: { ar: "كل الأدوات الطبية", en: "All medical tools" },
+  digital: { ar: "كل خدمات لاروز ديچيتال", en: "All La Rose Digital services" },
+};
+
+function navOverviewLabel(item, locale) {
+  return t(NAV_OVERVIEW_LABELS[item.key], locale)
+    || t({ ar: `استكشف ${t(item.label, locale)}`, en: `Explore ${t(item.label, locale)}` }, locale);
+}
+
 /* --------------------------------------------------------------------------
    Utility bar
    -------------------------------------------------------------------------- */
@@ -81,9 +98,9 @@ function utilityBar({ c, locale, depth, pagePath }) {
 <div class="utility-bar">
   <div class="wrap utility-bar__inner">
     <nav class="utility-bar__links" aria-label="${esc(t({ ar: "روابط سريعة", en: "Quick links" }, locale))}">
-      <a href="${link(depth, "about/index.html")}">${esc(t({ ar: "عن لاروز", en: "About" }, locale))}</a>
-      <a href="${link(depth, "articles/")}">${esc(t({ ar: "المركز المعرفي", en: "Health Library" }, locale))}</a>
-      <a href="${link(depth, "contact.html")}">${esc(t({ ar: "اتصل بنا", en: "Contact" }, locale))}</a>
+      <a href="${link(depth, "about/index.html")}">${esc(t({ ar: "عن عيادات لاروز", en: "About La Rose" }, locale))}</a>
+      <a href="${link(depth, "articles/")}">${esc(t({ ar: "المركز المعرفي الطبي", en: "Medical Knowledge Centre" }, locale))}</a>
+      <a href="${link(depth, "contact.html")}">${esc(t({ ar: "تواصل مع لاروز", en: "Contact La Rose" }, locale))}</a>
     </nav>
     <div class="utility-bar__meta">
       <a href="tel:${esc(s.contact.phone.tel)}">${icon("phone")}<bdi class="num">${esc(s.contact.phone.display)}</bdi></a>
@@ -120,7 +137,7 @@ function header({ c, locale, depth, active, pagePath }) {
           </a>`)}
         </div>
         <div class="nav__panel-foot">
-          <a class="link-cta" href="${link(depth, item.href)}">${esc(t(s.ui.viewAll, locale))} ${icon("arrow")}</a>
+          <a class="link-cta" href="${link(depth, item.href)}">${esc(navOverviewLabel(item, locale))} ${icon("arrow")}</a>
           <a class="btn btn--sm btn--primary" href="${link(depth, "patients/booking.html")}">${esc(t(s.ui.bookShort, locale))}</a>
         </div>
       </div>
@@ -170,7 +187,7 @@ function drawer({ c, locale, depth, pagePath }) {
       </button>
       <div class="drawer-nav__panel"><div>
         <div class="drawer-nav__list">
-          <a href="${link(depth, item.href)}"><strong>${esc(t(s.ui.viewAll, locale))}</strong></a>
+          <a href="${link(depth, item.href)}"><strong>${esc(navOverviewLabel(item, locale))}</strong></a>
           ${map(children, (ch) => `<a href="${link(depth, ch.href)}">${esc(ch.label)}</a>`)}
         </div>
       </div></div>
@@ -265,7 +282,7 @@ function footer({ c, locale, depth }) {
 
   <div class="wrap site-footer__bar">
     <span>© ${year} ${esc(t(s.legal.copyright, locale))}</span>
-    <nav class="site-footer__legal" aria-label="${esc(t({ ar: "روابط قانونية", en: "Legal" }, locale))}">
+    <nav class="site-footer__legal" aria-label="${esc(t({ ar: "روابط التذييل", en: "Footer links" }, locale))}">
       ${map(s.footer.legal, (l) => `<a href="${link(depth, l.href)}">${esc(t(l.label, locale))}</a>`)}
     </nav>
   </div>
@@ -337,6 +354,91 @@ function normalisePublicUrl(url) {
   return url.replace(/\/index\.html$/, "/");
 }
 
+const META_DESCRIPTION_MAX = 155;
+
+/* Search snippets should end on a complete thought. Prefer the longest full
+   sentence that fits; if a single source sentence is too long, use a short,
+   factual page-title description instead of cutting the source mid-sentence. */
+function completeMetaDescription({ description, fallback, title, brand, locale, body }) {
+  const source = decodeHtml(description || fallback);
+  if (source.length <= META_DESCRIPTION_MAX) return source;
+
+  let sentenceEnd = 0;
+  for (const match of source.matchAll(/[.!?؟](?=\s|$)/gu)) {
+    const end = match.index + match[0].length;
+    if (end > META_DESCRIPTION_MAX) break;
+    sentenceEnd = end;
+  }
+  if (sentenceEnd) return source.slice(0, sentenceEnd).trim();
+
+  const heading = /<h1\b[^>]*>([\s\S]*?)<\/h1>/i.exec(body || "")?.[1];
+  const subject = decodeHtml(heading || title || brand).replace(/\s*\|\s*.*$/, "");
+  const subjectIsSentence = /[.!?؟]$/u.test(subject);
+  const join = subjectIsSentence ? " " : ": ";
+  const concise = locale === "ar"
+    ? `${subject}${join}معلومات واضحة من ${brand}.`
+    : `${subject}${join}${subjectIsSentence ? "Clear" : "clear"} information from ${brand}.`;
+  if (concise.length <= META_DESCRIPTION_MAX) return concise;
+
+  const shorter = locale === "ar"
+    ? `${subject}: معلومات من لاروز.`
+    : `${subject}: information from La Rose.`;
+  if (shorter.length <= META_DESCRIPTION_MAX) return shorter;
+
+  const fallbackSentence = locale === "ar"
+    ? `معلومات واضحة عن الصفحة دي من ${brand}.`
+    : `Clear information about this page from ${brand}.`;
+  return fallbackSentence;
+}
+
+function branchForPage(c, pagePath) {
+  const match = /^branches\/([^/]+)\.html$/.exec(String(pagePath || ""));
+  if (!match) return null;
+  return published(c.branches).find((branch) => t(branch.slug, "en") === match[1]) || null;
+}
+
+function branchAddress(branch, locale) {
+  if (!branch) return undefined;
+  const streetAddress = t(branch.address, locale);
+  /* An area and country do not make an address. This also keeps the announced
+     Sheikh Zayed branch free of a misleading partial PostalAddress. */
+  if (!streetAddress) return undefined;
+  const address = {
+    "@type": "PostalAddress",
+    streetAddress,
+    addressLocality: t(branch.area, locale) || undefined,
+    addressRegion: t(branch.city, locale) || undefined,
+    postalCode: t(branch.postalCode, locale) || undefined,
+    addressCountry: t(branch.country, locale) || undefined,
+  };
+  return address;
+}
+
+function branchClinicSchema({ c, locale, branch, currentUrl, organisationId }) {
+  if (!branch) return null;
+  const structuredHours = Array.isArray(branch.openingHoursSpecification)
+    ? branch.openingHoursSpecification.filter(Boolean)
+    : [];
+  const hasGeo = branch.geo
+    && Number.isFinite(Number(branch.geo.lat))
+    && Number.isFinite(Number(branch.geo.lng));
+  return {
+    "@type": "MedicalClinic",
+    "@id": `${currentUrl}#medical-clinic`,
+    name: `${t(c.site.brand.name, locale)} — ${t(branch.name, locale)}`,
+    url: currentUrl,
+    telephone: branch.phone?.tel || c.site.contact.phone.tel || undefined,
+    address: branchAddress(branch, locale),
+    geo: hasGeo ? {
+      "@type": "GeoCoordinates",
+      latitude: branch.geo.lat,
+      longitude: branch.geo.lng,
+    } : undefined,
+    openingHoursSpecification: structuredHours.length ? structuredHours : undefined,
+    parentOrganization: { "@id": organisationId },
+  };
+}
+
 function breadcrumbSchema({ c, locale, body, currentUrl, currentName }) {
   const base = `https://${c.site.brand.domain}`;
   const list = /<ol class="crumbs">([\s\S]*?)<\/ol>/.exec(body || "")?.[1];
@@ -371,19 +473,10 @@ function breadcrumbSchema({ c, locale, body, currentUrl, currentName }) {
 
 export function jsonLd({ c, locale, pagePath, schema, body = "", canonicalUrl = "", currentName = "" }) {
   const s = c.site;
-  const maadi = c.branches.find((b) => b.isPrimary);
   const base = `https://${s.brand.domain}`;
   const currentUrl = canonicalUrl || absolutePageUrl(base, locale, pagePath);
   const clinicId = `${base}/#clinic`;
   const websiteId = `${base}/#website`;
-  const address = maadi ? {
-    "@type": "PostalAddress",
-    streetAddress: t(maadi.address, locale) || undefined,
-    addressLocality: t(maadi.area, locale) || undefined,
-    addressRegion: t(maadi.city, locale) || undefined,
-    postalCode: t(maadi.postalCode, locale) || undefined,
-    addressCountry: t(maadi.country, locale) || undefined,
-  } : undefined;
   const openBranches = published(c.branches).filter((branch) => branch.status === "open");
   const areaServed = [...new Set(openBranches.flatMap((branch) => [
     t(branch.area, locale),
@@ -397,24 +490,15 @@ export function jsonLd({ c, locale, pagePath, schema, body = "", canonicalUrl = 
     s.social.instagram, s.social.facebook, s.social.youtube,
     s.social.tiktok, s.social.linktree,
   ].filter(Boolean);
-  // Reception hours are intentionally not inferred from display copy. Only a
-  // future, structured and confirmed content field is safe for search engines.
-  const openingHours = Array.isArray(maadi?.openingHoursSpecification)
-    ? maadi.openingHoursSpecification.filter(Boolean)
-    : [];
-
   const org = {
-    "@type": "MedicalClinic",
+    "@type": "MedicalOrganization",
     "@id": clinicId,
     name: t(s.brand.name, locale),
     alternateName: t(s.brand.name, locale === "ar" ? "en" : "ar"),
-    url: `${base}/${locale}/`,
+    url: `${base}/`,
     logo: `${base}/${s.brand.logo.wordmark}`,
     image: `${base}/assets/img/clinic/hero-clinic-1200.webp`,
     telephone: s.contact.phone.tel || undefined,
-    address,
-    geo: maadi?.geo ? { "@type": "GeoCoordinates", latitude: maadi.geo.lat, longitude: maadi.geo.lng } : undefined,
-    openingHoursSpecification: openingHours.length ? openingHours : undefined,
     areaServed: areaServed.length ? areaServed : undefined,
     aggregateRating: s.proof?.rating ? {
       "@type": "AggregateRating",
@@ -435,13 +519,24 @@ export function jsonLd({ c, locale, pagePath, schema, body = "", canonicalUrl = 
     inLanguage: s.i18n[locale].locale,
     publisher: { "@id": clinicId },
   };
-  const extras = schemaItems(schema).map((block) => {
+  const branch = branchForPage(c, pagePath);
+  /* branches.mjs historically supplied its own clinic node for open branches.
+     The shell now owns the canonical branch schema for every branch page, so
+     discard that legacy extra to avoid two competing MedicalClinic nodes. */
+  const extras = schemaItems(schema).filter((block) => !(branch && block?.["@type"] === "MedicalClinic")).map((block) => {
     const { "@context": ignored, ...clean } = block;
     return clean;
   });
+  const branchClinic = branchClinicSchema({ c, locale, branch, currentUrl, organisationId: clinicId });
   const graph = {
     "@context": "https://schema.org",
-    "@graph": [org, breadcrumbSchema({ c, locale, body, currentUrl, currentName }), website, ...extras],
+    "@graph": [
+      org,
+      breadcrumbSchema({ c, locale, body, currentUrl, currentName }),
+      website,
+      ...(branchClinic ? [branchClinic] : []),
+      ...extras,
+    ],
   };
   return `<script type="application/ld+json">${escJson(graph)}</script>`;
 }
@@ -472,7 +567,14 @@ export function page(opts) {
   const brandShort = t(s.brand.shortName, locale);
   const hasBrand = title && (title.includes(brand) || title.includes(brandShort));
   const fullTitle = !title ? brand : hasBrand ? title : `${title} | ${brand}`;
-  const metaDescription = clamp(description || t(s.brand.tagline, locale));
+  const metaDescription = completeMetaDescription({
+    description,
+    fallback: t(s.brand.tagline, locale),
+    title,
+    brand,
+    locale,
+    body,
+  });
   const canonical = absolutePageUrl(base, locale, pagePath);
   const arUrl = absolutePageUrl(base, "ar", pagePath);
   const enUrl = absolutePageUrl(base, "en", pagePath);
