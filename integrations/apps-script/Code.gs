@@ -15,7 +15,15 @@ var ACCEPTED = [
 ];
 var MAX_FIELD = 2000;
 var PER_PHONE_PER_HOUR = 5;   // one person re-sending a form a few times is fine
-var PER_HOUR_TOTAL = 120;     // far above real traffic, low enough to stop a flood
+/* The global cap exists to stop the sheet being flooded, and it is deliberately
+   set far higher than the clinic will ever see in an hour. It used to be 120,
+   which was low enough that a trivial script could exhaust it and every real
+   patient for the rest of that hour got "try again later". That trade is the
+   wrong way round: a flooded sheet is a few deleted rows, a refused booking is
+   a lost patient who does not come back. Apps Script cannot see the caller's IP,
+   so no cap can tell the two apart - given that, err towards accepting. */
+var PER_HOUR_TOTAL = 600;
+var FAILED_AUTH_PER_HOUR = 10;  // a token is pasted once; ten wrong tries in an hour is abuse
 
 /* Sliding one-hour counters in the script cache (no sheet writes, no quota
    cost). Returns false once the key has hit its cap for this hour. */
@@ -49,9 +57,18 @@ function ensureHeaders_(sheet) {
   if (headers.length > lastColumn) sheet.getRange(1, lastColumn + 1, 1, headers.length - lastColumn).setValues([headers.slice(lastColumn)]);
   return headers;
 }
+/* Wrong tokens are slowed down, not locked out. authorised_ runs before every
+   other check, so without this the one secret guarding every lead could be
+   guessed as fast as Apps Script will answer. A lockout is the wrong tool here:
+   Apps Script never sees the caller's IP, so "too many failures" would let
+   anyone shut the clinic out of its own leads. Waiting instead costs a person
+   who mistypes one second and caps a guessing script at a handful of tries an
+   hour. A correct token never reaches the sleep. */
 function authorised_(token) {
   var expected = PropertiesService.getScriptProperties().getProperty('READ_TOKEN') || '';
-  return !!expected && clean_(token) === expected;
+  if (expected && clean_(token) === expected) return true;
+  Utilities.sleep(underLimit_('auth', FAILED_AUTH_PER_HOUR) ? 1000 : 5000);
+  return false;
 }
 function stringValue_(value) {
   return Object.prototype.toString.call(value) === '[object Date]' && !isNaN(value.getTime()) ? value.toISOString() : String(value === null || value === undefined ? '' : value).replace(/^'(\+?\d)/, '$1');

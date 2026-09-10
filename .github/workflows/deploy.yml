@@ -34,8 +34,20 @@ jobs:
           rm -f site/_viewport.html site/_bookpages.html
           test -f site/CNAME
           test -f site/.nojekyll
-          test ! -e site/dashboard/content/pricing.json
-          test ! -e site/dashboard/content/campaigns.json
+          # snapshot-content.mjs writes ONE file, index.json, so testing for
+          # per-name files here could never fail. Assert on what it actually
+          # produces: the snapshot exists and carries no private collection.
+          test -s site/dashboard/content/index.json
+          node -e '
+            const s = require("./site/dashboard/content/index.json");
+            const leaked = ["pricing.json", "campaigns.json"].filter((n) => n in s.files);
+            const underscored = Object.keys(s.files).filter((n) => n.startsWith("_"));
+            if (leaked.length || underscored.length) {
+              console.error("Private content in the published snapshot:", [...leaked, ...underscored].join(", "));
+              process.exit(1);
+            }
+            console.log("Snapshot carries " + Object.keys(s.files).length + " public files, no private ones.");
+          '
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
