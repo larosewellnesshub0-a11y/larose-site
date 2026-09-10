@@ -402,22 +402,21 @@
 
 <!-- ============================ HERO ============================ -->
 <section class="hero">
+  <div class="hero__media" role="presentation"
+       style="background-image:url('../assets/img/clinic/hero-clinic-1200.webp')"></div>
   <div class="wrap hero__inner">
-    <div class="hero__content">
-      <p class="hero__brand lat" lang="en" dir="ltr">La Rose Wellness Hub</p>
-      <p class="eyebrow">Multi-specialty medical centre</p>
-      <h1 class="h-display hero__title">Your case is more than one specialty’s opinion</h1>
-      <p class="hero__text">At La Rose, clinical nutrition, weight management, internal medicine, surgery, dermatology and paediatrics work together, so your case is considered from more than one perspective.</p>
+    <!-- The copy sits in a panel rather than floating loose over the photograph.
+         Loose, it read as a narrow centred column with half the width unused,
+         and the headline's contrast depended on whatever was behind it. -->
+    <div class="hero__panel">
+    <p class="hero__brand lat" lang="en" dir="ltr">La Rose Wellness Hub</p>
+    <p class="eyebrow">Multi-specialty medical centre</p>
+    <h1 class="h-display hero__title">Your case is more than one specialty’s opinion</h1>
+    <p class="hero__text">La Rose is a multidisciplinary medical centre in New Maadi, bringing together clinical nutrition, weight management and sleeve alternatives, body contouring, internal medicine, liver care and endoscopy, general and bariatric surgery, dermatology and paediatrics. Because our departments consult one another, your case is considered from more than one perspective in a single visit.</p>
 
-      <div class="hero__actions">
-        <a class="btn btn--accent btn--lg" href="patients/booking">Book an appointment</a>
-        <a class="btn btn--on-dark btn--lg" href="specialties/">Explore specialties</a>
-      </div>
-    </div>
-
-    <div class="hero__visual" aria-hidden="true">
-      <div class="hero__media" role="presentation"
-           style="background-image:url('../assets/img/clinic/hero-clinic-1200.webp')"></div>
+    <div class="hero__actions">
+      <a class="btn btn--accent btn--lg" href="patients/booking">Book an appointment</a>
+      <a class="btn btn--on-dark btn--lg" href="specialties/">Explore specialties</a>
     </div>
 
     <div class="hero__proof">
@@ -437,6 +436,7 @@
         <span class="stat__n">1</span>
         <span class="stat__l">One visit can cover more than one specialty</span>
       </div>
+    </div>
     </div>
   </div>
 </section>
