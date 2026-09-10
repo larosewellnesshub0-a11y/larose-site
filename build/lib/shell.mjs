@@ -502,7 +502,13 @@ export function page(opts) {
 <meta name="twitter:description" content="${esc(metaDescription)}">
 <meta name="twitter:image" content="${esc(socialImage)}">
 
+<!-- Google reads /favicon.ico from the site root before it reads anything here,
+     and that path used to 404. It is a real file now. The 96px PNG is the size
+     Google's own guidance asks for (a multiple of 48); the SVG stays first for
+     browsers that prefer it. -->
+<link rel="icon" href="${asset(depth, "favicon.ico")}" sizes="any">
 <link rel="icon" href="${asset(depth, "assets/img/logo/favicon.svg")}" type="image/svg+xml">
+<link rel="icon" href="${asset(depth, "assets/img/logo/favicon-96.png")}" type="image/png" sizes="96x96">
 <link rel="apple-touch-icon" href="${asset(depth, "assets/img/logo/apple-touch-icon.png")}">
 ${trackingHead(c)}
 

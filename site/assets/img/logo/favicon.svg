@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="13" fill="#8E8B63"/>
+  <!-- Full-bleed on purpose. Google, Android and Safari all mask a favicon into
+       a circle or a squircle; the previous rx="13" rounded square left its own
+       corners visible inside that mask, so the icon read as a box floating in a
+       circle. A square that fills the canvas crops cleanly to whatever shape the
+       surface wants. The mark sits inside the inscribed circle (its furthest
+       point is ~25 units from centre, the circle is 32), so nothing is clipped. -->
+  <rect width="64" height="64" fill="#8E8B63"/>
   <path d="M32 12c-8.5 0-15 6.2-15 14.4 0 6.1 3.6 10.9 8.6 15.1L32 47l6.4-5.5c5-4.2 8.6-9 8.6-15.1C47 18.2 40.5 12 32 12Z"
         fill="none" stroke="#EDDADA" stroke-width="2.4"/>
   <path d="M32 41c-4-3.4-6.6-6.9-6.6-11.1 0-4.4 3-7.7 6.6-7.7s6.6 3.3 6.6 7.7c0 4.2-2.6 7.7-6.6 11.1Z" fill="#D4B793"/>
