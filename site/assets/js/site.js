@@ -620,8 +620,31 @@
       specialtySel.addEventListener("change", function () { showPanel(specialtySel.value); });
       if (specialtySel.value) showPanel(specialtySel.value);
     }
-    if (doctorSel) doctorSel.addEventListener("change", refreshDay);
+    /* A doctor only consults where they actually hold a clinic. The branch
+       select used to offer every branch whatever the doctor, so a patient could
+       ask for a doctor at a branch that doctor never attends - the request looked
+       accepted and then had to be undone by phone. schedules[doctor] is already
+       keyed by branch, so the branches a doctor does not work at are disabled,
+       and a stale selection is cleared rather than silently left wrong.
+       "Any available doctor" keeps every branch open. */
+    function refreshBranches() {
+      if (!branchSel || !doctorSel) return;
+      var byBranch = schedules[doctorSel.value];
+      var cleared = false;
+      Array.prototype.forEach.call(branchSel.options, function (opt) {
+        if (!opt.value) return;
+        var offered = !byBranch || Object.prototype.hasOwnProperty.call(byBranch, opt.value);
+        // never re-enable a branch the page itself disabled (not open yet)
+        if (opt.dataset.lockedClosed === undefined) opt.dataset.lockedClosed = opt.disabled ? "1" : "";
+        opt.disabled = opt.dataset.lockedClosed === "1" || !offered;
+        if (opt.disabled && opt.selected) cleared = true;
+      });
+      if (cleared) branchSel.value = "";
+    }
+
+    if (doctorSel) doctorSel.addEventListener("change", function () { refreshBranches(); refreshDay(); });
     if (branchSel) branchSel.addEventListener("change", refreshDay);
+    refreshBranches();
     if (daySel) daySel.addEventListener("change", validateDay);
     refreshDay();
   }

@@ -289,7 +289,23 @@ ${pageHero({
           </div>
           <div class="field">
             <label class="field__label" for="booking-time">${esc(t({ ar: "الوقت المفضّل", en: "Preferred time" }, locale))} <span class="field__opt">${esc(t({ ar: "اختياري", en: "optional" }, locale))}</span></label>
-            <input class="input" id="booking-time" name="time" type="time">
+            ${(() => {
+              /* A bare <input type="time"> accepted 02:00, and min/max on it is
+                 advisory in several browsers. The clinic runs 3:00-7:30 pm, so
+                 the field offers those slots and nothing else - valid by
+                 construction, and it still works with no JavaScript. */
+              const slots = [];
+              for (let m = 15 * 60; m <= 19 * 60 + 30; m += 15) {
+                const h = Math.floor(m / 60), mm = m % 60;
+                const value = `${String(h).padStart(2, "0")}:${String(mm).padStart(2, "0")}`;
+                const h12 = h > 12 ? h - 12 : h;
+                slots.push({ value, label: `${h12}:${String(mm).padStart(2, "0")} ${locale === "ar" ? "م" : "pm"}` });
+              }
+              return `<select class="select" id="booking-time" name="time">
+              <option value="">${esc(t({ ar: "أي وقت في مواعيد العيادة", en: "Any time during clinic hours" }, locale))}</option>
+              ${map(slots, (sl) => `<option value="${esc(sl.value)}">${esc(sl.label)}</option>`)}
+            </select>`;
+            })()}
           </div>
           <div class="field" style="grid-column:1/-1">
             <label class="field__label" for="booking-notes">${esc(t({ ar: "ملاحظات", en: "Notes" }, locale))} <span class="field__opt">${esc(t({ ar: "اختياري", en: "optional" }, locale))}</span></label>

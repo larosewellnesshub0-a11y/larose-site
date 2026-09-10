@@ -1,383 +1,380 @@
 {
- "_note": "Doctors 1–3 are REAL. Every credential is transcribed verbatim from the clinic's own 'Meet Our Specialist' artwork in `website data/doctors designs`. Nothing is inferred or embellished، a doctor's name and credentials are exactly the kind of fact a website must never invent. Doctors with `sample: true` are placeholders for specialties not yet staffed; they render with a visible 'مثال توضيحي / Sample' ribbon and must be replaced or hidden before launch.",
- "doctors": [
-  {
-   "slug": "shimaa-fouad",
-   "sample": false,
-   "published": true,
-   "featured": true,
-   "name": {
-    "ar": "د. شيماء فؤاد",
-    "en": "Dr. Shimaa Fouad"
-   },
-   "title": {
-    "ar": "طبيبة بشرية وأخصائية التغذية العلاجية والإكلينيكية، وعضو ESPEN الأوروبية",
-    "en": "Physician, Clinical & Therapeutic Nutrition Specialist, ESPEN member"
-   },
-   "credentials": {
-    "ar": [
-     "طبيبة بشرية، أخصائية التغذية العلاجية والإكلينيكية والتخسيس",
-     "عضو الجمعية الأوروبية للتغذية الإكلينيكية والتمثيل الغذائي (ESPEN)",
-     "خبرة تتجاوز ١٨ سنة",
-     "متخصصة في مقاومة الإنسولين، وتكيس المبايض، وخمول الغدة الدرقية، واضطرابات التمثيل الغذائي",
-     "السمنة المصاحبة لأمراض الروماتيزم والمناعة، وعلاج النحافة وزيادة الوزن الصحية"
-    ],
-    "en": [
-     "Physician; specialist in clinical and therapeutic nutrition and weight management",
-     "Member of the European Society for Clinical Nutrition and Metabolism (ESPEN)",
-     "Over 18 years of experience",
-     "Focus on insulin resistance, PCOS, hypothyroidism and metabolic disorders",
-     "Obesity alongside rheumatological and immune conditions; healthy weight gain"
-    ]
-   },
-   "days": {
-    "ar": "السبت · الاتنين · الثلاثاء بالمعادي · الأربعاء بالتجمع",
-    "en": "Sat · Mon · Tue in Maadi · Wed in Fifth Settlement"
-   },
-   "schedule": {
-    "maadi": [
-     6,
-     1,
-     2
-    ],
-    "fifth-settlement": [
-     3
-    ]
-   },
-   "hours": {
-    "ar": "٣ – ٧ مساءً",
-    "en": "3 – 7 pm"
-   },
-   "branches": [
-    "maadi",
-    "fifth-settlement"
-   ],
-   "specialties": [
-    "clinical-nutrition",
-    "weight-management",
-    "body-contouring"
-   ],
-   "portrait": "assets/img/doctors/shimaa-fouad.jpg",
-   "portrait2x": "assets/img/doctors/shimaa-fouad@2x.jpg",
-   "bio": {
-    "ar": "د. شيماء بتشتغل على السبب مش على الرقم. الكشف عندها بيبدأ بتحليل التركيب الجسمي بجهاز InBody، ومراجعة التحاليل والتاريخ الطبي، وبعدها بتتحدد الخطة اللي تنفع مع حياتك انت، مش جدول جاهز. خبرتها الأساسية في الحالات اللي جربت أنظمة كتير ورجعت تزيد تاني: مقاومة الإنسولين، تكيس المبايض، وخمول الغدة الدرقية.",
-    "en": "Dr. Shimaa works on the cause, not the number. Her consultation begins with an InBody body-composition analysis and a review of your labs and medical history; only then is a plan decided, one that fits your life rather than a printed sheet. Her core experience is with the cases that have tried many diets and regained the weight each time: insulin resistance, PCOS and hypothyroidism."
-   },
-   "_source": "ekshef.com — the clinic's own listing (account 9956), read 2026-09-06",
-   "ekshefClinicId": 56839
-  },
-  {
-   "slug": "alyaa-abu-taleb",
-   "sample": false,
-   "published": true,
-   "featured": true,
-   "name": {
-    "ar": "د. علياء سعيد أبوطالب",
-    "en": "Dr. Alyaa Said Abu Taleb"
-   },
-   "title": {
-    "ar": "طبيبة بشرية وأخصائية التغذية العلاجية والإكلينيكية، المعهد القومي للتغذية",
-    "en": "Physician, Clinical & Therapeutic Nutrition Specialist, National Nutrition Institute"
-   },
-   "credentials": {
-    "ar": [
-     "طبيبة بشرية، أخصائية التغذية العلاجية والإكلينيكية والتخسيس",
-     "المعهد القومي للتغذية",
-     "الدبلوم المهني للجودة التطبيقية في الرعاية الصحية، كلية الطب، جامعة عين شمس",
-     "خبرة تتجاوز ٧ سنين في المعادي",
-     "متخصصة في تغذية الأسرة: تغذية الأطفال وضعف الشهية، وتغذية الحمل والرضاعة، وبرامج إنقاص الوزن وعلاج النحافة",
-     "شاركت في المؤتمر السنوي الرابع للمعهد القومي للتغذية ٢٠٢٥",
-     "شاركت في المؤتمر السنوي الثالث عشر للجمعية العربية المصرية للتغذية الصحية والعلاجية ٢٠٢٤"
-    ],
-    "en": [
-     "Physician; specialist in clinical and therapeutic nutrition and weight management",
-     "National Nutrition Institute",
-     "Professional Diploma in Applied Quality in Healthcare, Faculty of Medicine, Ain Shams University",
-     "Over 7 years of experience in Maadi",
-     "Family nutrition: children's nutrition and poor appetite, pregnancy and breastfeeding, weight-loss programmes and healthy weight gain",
-     "Participant, 4th Annual Conference of the National Nutrition Institute, 2025",
-     "Participant, 13th Annual Conference of the Egyptian Arab Society for Healthy and Therapeutic Nutrition, 2024"
-    ]
-   },
-   "days": {
-    "ar": "المعادي: السبت · الاتنين | التجمع الخامس: الأربعاء",
-    "en": "Maadi: Sat · Mon | Fifth Settlement: Wed"
-   },
-   "schedule": {
-    "maadi": [
-     6,
-     1
-    ],
-    "fifth-settlement": [
-     3
-    ]
-   },
-   "hours": {
-    "ar": "٣ – ٧ مساءً",
-    "en": "3 – 7 pm"
-   },
-   "branches": [
-    "maadi",
-    "fifth-settlement"
-   ],
-   "specialties": [
-    "clinical-nutrition",
-    "weight-management",
-    "pediatrics"
-   ],
-   "portrait": "assets/img/doctors/alyaa-abu-taleb.jpg",
-   "portrait2x": "assets/img/doctors/alyaa-abu-taleb@2x.jpg",
-   "bio": {
-    "ar": "د. علياء بتغطي الحالات اللي محتاج تغذية متخصصة على مراحل مختلفة من العمر: تغذية الأطفال، وتغذية الأم في الحمل والرضاعة، وبرامج زيادة الوزن الصحية للنحافة، مش بس إنقاص الوزن. خريجة المعهد القومي للتغذية، وبتشتغل على مقاومة الإنسولين وحلول السمنة من غير جراحة.",
-    "en": "Dr. Alyaa covers the cases that need specialised nutrition at different stages of life: children's nutrition, maternal nutrition through pregnancy and breastfeeding, and healthy weight-gain programmes for underweight patients, not only weight loss. A graduate of the National Nutrition Institute, she works on insulin resistance and non-surgical obesity solutions."
-   },
-   "_source": "ekshef.com — the clinic's own listing (account 9956), read 2026-09-06",
-   "ekshefClinicId": 56840
-  },
-  {
-   "slug": "mohab-ashraf",
-   "sample": false,
-   "published": true,
-   "featured": true,
-   "name": {
-    "ar": "د. مهاب أشرف فؤاد",
-    "en": "Dr. Mohab Ashraf Fouad"
-   },
-   "title": {
-    "ar": "أخصائي الباطنة والسكر، وأخصائي الكبد والجهاز الهضمي والمناظير",
-    "en": "Specialist in Internal Medicine & Diabetes, Hepatology, Gastroenterology & Endoscopy"
-   },
-   "credentials": {
-    "ar": [
-     "ماجستير الباطنة العامة والكبد والجهاز الهضمي والمناظير",
-     "أخصائي الأمراض الباطنية والسكر",
-     "أخصائي الكبد والجهاز الهضمي والمناظير",
-     "خبرة تتجاوز ٦ سنين في تشخيص وعلاج أمراض الباطنة والكبد والجهاز الهضمي"
-    ],
-    "en": [
-     "MSc in General Internal Medicine, Hepatology, Gastroenterology and Endoscopy",
-     "Specialist in internal medicine and diabetes",
-     "Specialist in hepatology, gastroenterology and endoscopy",
-     "Over 6 years of experience in internal, hepatic and gastrointestinal medicine"
-    ]
-   },
-   "days": {
-    "ar": "السبت",
-    "en": "Sat"
-   },
-   "schedule": {
-    "maadi": [
-     6
-    ]
-   },
-   "hours": {
-    "ar": "٤ – ٧ مساءً",
-    "en": "4 – 7 pm"
-   },
-   "branches": [
-    "maadi"
-   ],
-   "specialties": [
-    "internal-medicine",
-    "gastroenterology-hepatology",
-    "ultrasound"
-   ],
-   "portrait": "assets/img/doctors/mohab-ashraf.jpg",
-   "portrait2x": "assets/img/doctors/mohab-ashraf@2x.jpg",
-   "bio": {
-    "ar": "د. مهاب بيعمل الكشف والسونار في نفس الزيارة بنفسه: يعني اللي بيقرا الصورة هو اللي شافك وسمع شكواك، مش تقرير بيوصلك بعد يومين. بيغطي الحموضة والارتجاع، جرثومة المعدة، القولون العصبي، دهون الكبد وارتفاع الإنزيمات، والسكر والغدة الدرقية.",
-    "en": "Dr. Mohab performs the consultation and the ultrasound himself, in the same visit: so the person reading the scan is the one who examined you and heard your history, not a report that arrives two days later. He covers reflux and heartburn, H. pylori, IBS, fatty liver and raised enzymes, diabetes and thyroid disorders."
-   },
-   "_source": "ekshef.com — the clinic's own listing (account 9956), read 2026-09-06",
-   "ekshefClinicId": 57421
-  },
-  {
-   "slug": "sample-general-surgeon",
-   "sample": true,
-   "published": false,
-   "featured": false,
-   "name": {
-    "ar": "استشاري جراحة عامة ومناظير",
-    "en": "Consultant General & Laparoscopic Surgeon"
-   },
-   "title": {
-    "ar": "استشاري الجراحة العامة والمناظير",
-    "en": "Consultant General & Laparoscopic Surgeon"
-   },
-   "credentials": {
-    "ar": [
-     "استشاري الجراحة العامة وجراحة المناظير",
-     "دكتوراه الجراحة العامة",
-     "خبرة أكتر من ١٥ سنة في جراحات الفتق والمرارة وجراحات الغدة الدرقية"
-    ],
-    "en": [
-     "Consultant in General and Laparoscopic Surgery",
-     "MD in General Surgery",
-     "Over 15 years of experience in hernia, gallbladder and thyroid surgery"
-    ]
-   },
-   "days": {
-    "ar": "الأحد · الأربعاء",
-    "en": "Sun · Wed"
-   },
-   "hours": {
-    "ar": "٤ – ٨ مساءً",
-    "en": "4 – 8 pm"
-   },
-   "branches": [
-    "maadi"
-   ],
-   "specialties": [
-    "general-surgery"
-   ],
-   "portrait": "assets/img/doctors/sample-general-surgeon.webp",
-   "bio": {
-    "ar": "المحتوى ده مثال توضيحي لشكل صفحة الطبيب. هيتم استبداله ببيانات الطبيب الحقيقي من لوحة التحكم.",
-    "en": "This is sample content showing the layout of a doctor page. It will be replaced with the real doctor's details from the dashboard."
-   },
-   "portrait2x": "assets/img/doctors/sample-general-surgeon.webp",
-   "portraitPlaceholder": true
-  },
-  {
-   "slug": "sample-bariatric-surgeon",
-   "sample": true,
-   "published": false,
-   "featured": false,
-   "name": {
-    "ar": "استشاري جراحات السمنة والمناظير",
-    "en": "Consultant Bariatric & Laparoscopic Surgeon"
-   },
-   "title": {
-    "ar": "استشاري جراحات السمنة والمناظير",
-    "en": "Consultant Bariatric & Laparoscopic Surgeon"
-   },
-   "credentials": {
-    "ar": [
-     "استشاري جراحات السمنة وجراحة المناظير",
-     "زمالة الكلية الملكية للجراحين",
-     "خبرة أكتر من ١٢ سنة في التكميم والتحويل المصغر"
-    ],
-    "en": [
-     "Consultant in Bariatric and Laparoscopic Surgery",
-     "Fellow of the Royal College of Surgeons",
-     "Over 12 years of experience in sleeve gastrectomy and mini gastric bypass"
-    ]
-   },
-   "days": {
-    "ar": "الأحد · الخميس",
-    "en": "Sun · Thu"
-   },
-   "hours": {
-    "ar": "٥ – ٩ مساءً",
-    "en": "5 – 9 pm"
-   },
-   "branches": [
-    "maadi"
-   ],
-   "specialties": [
-    "bariatric-surgery"
-   ],
-   "portrait": "assets/img/doctors/sample-bariatric-surgeon.webp",
-   "bio": {
-    "ar": "المحتوى ده مثال توضيحي لشكل صفحة الطبيب. هيتم استبداله ببيانات الطبيب الحقيقي من لوحة التحكم.",
-    "en": "This is sample content showing the layout of a doctor page. It will be replaced with the real doctor's details from the dashboard."
-   },
-   "portrait2x": "assets/img/doctors/sample-bariatric-surgeon.webp",
-   "portraitPlaceholder": true
-  },
-  {
-   "slug": "sample-dermatologist",
-   "sample": true,
-   "published": false,
-   "featured": false,
-   "name": {
-    "ar": "أخصائي الجلدية والتجميل والليزر",
-    "en": "Specialist in Dermatology, Aesthetics & Laser"
-   },
-   "title": {
-    "ar": "أخصائية الجلدية والتجميل والليزر",
-    "en": "Specialist in Dermatology, Aesthetics & Laser"
-   },
-   "credentials": {
-    "ar": [
-     "أخصائية الأمراض الجلدية والتجميل",
-     "ماجستير الأمراض الجلدية والتناسلية",
-     "خبرة أكتر من ١٠ سنين في علاج حب الشباب والتصبغات وعلاجات الليزر"
-    ],
-    "en": [
-     "Specialist in Dermatology and Aesthetic Medicine",
-     "MSc in Dermatology and Venereology",
-     "Over 10 years of experience in acne, pigmentation and laser treatments"
-    ]
-   },
-   "days": {
-    "ar": "الاتنين · الأربعاء",
-    "en": "Mon · Wed"
-   },
-   "hours": {
-    "ar": "٣ – ٨ مساءً",
-    "en": "3 – 8 pm"
-   },
-   "branches": [
-    "maadi"
-   ],
-   "specialties": [
-    "dermatology"
-   ],
-   "portrait": "assets/img/doctors/sample-dermatologist.webp",
-   "bio": {
-    "ar": "المحتوى ده مثال توضيحي لشكل صفحة الطبيب. هيتم استبداله ببيانات الطبيب الحقيقي من لوحة التحكم.",
-    "en": "This is sample content showing the layout of a doctor page. It will be replaced with the real doctor's details from the dashboard."
-   },
-   "portrait2x": "assets/img/doctors/sample-dermatologist.webp",
-   "portraitPlaceholder": true
-  },
-  {
-   "slug": "sample-pediatrician",
-   "sample": true,
-   "published": false,
-   "featured": false,
-   "name": {
-    "ar": "أخصائي طب الأطفال وحديثي الولادة",
-    "en": "Specialist in Paediatrics & Neonatology"
-   },
-   "title": {
-    "ar": "أخصائية طب الأطفال وحديثي الولادة",
-    "en": "Specialist in Paediatrics & Neonatology"
-   },
-   "credentials": {
-    "ar": [
-     "أخصائية طب الأطفال وحديثي الولادة",
-     "ماجستير طب الأطفال",
-     "خبرة أكتر من ٩ سنين في متابعة النمو والتطعيمات وحساسية الأطفال"
-    ],
-    "en": [
-     "Specialist in Paediatrics and Neonatology",
-     "MSc in Paediatrics",
-     "Over 9 years of experience in growth monitoring, vaccination and childhood allergy"
-    ]
-   },
-   "days": {
-    "ar": "السبت · الثلاثاء · الخميس",
-    "en": "Sat · Tue · Thu"
-   },
-   "hours": {
-    "ar": "١٢ ظهراً – ٤ عصراً",
-    "en": "12 pm – 4 pm"
-   },
-   "branches": [
-    "maadi"
-   ],
-   "specialties": [
-    "pediatrics"
-   ],
-   "portrait": "assets/img/doctors/sample-pediatrician.webp",
-   "bio": {
-    "ar": "المحتوى ده مثال توضيحي لشكل صفحة الطبيب. هيتم استبداله ببيانات الطبيب الحقيقي من لوحة التحكم.",
-    "en": "This is sample content showing the layout of a doctor page. It will be replaced with the real doctor's details from the dashboard."
-   },
-   "portrait2x": "assets/img/doctors/sample-pediatrician.webp",
-   "portraitPlaceholder": true
-  }
- ]
+  "_note": "Doctors 1–3 are REAL. Every credential is transcribed verbatim from the clinic's own 'Meet Our Specialist' artwork in `website data/doctors designs`. Nothing is inferred or embellished، a doctor's name and credentials are exactly the kind of fact a website must never invent. Doctors with `sample: true` are placeholders for specialties not yet staffed; they render with a visible 'مثال توضيحي / Sample' ribbon and must be replaced or hidden before launch.",
+  "doctors": [
+    {
+      "slug": "shimaa-fouad",
+      "sample": false,
+      "published": true,
+      "featured": true,
+      "name": {
+        "ar": "د. شيماء فؤاد",
+        "en": "Dr. Shimaa Fouad"
+      },
+      "title": {
+        "ar": "طبيبة بشرية وأخصائية التغذية العلاجية والإكلينيكية، وعضو ESPEN الأوروبية",
+        "en": "Physician, Clinical & Therapeutic Nutrition Specialist, ESPEN member"
+      },
+      "credentials": {
+        "ar": [
+          "طبيبة بشرية، أخصائية التغذية العلاجية والإكلينيكية والتخسيس",
+          "عضو الجمعية الأوروبية للتغذية الإكلينيكية والتمثيل الغذائي (ESPEN)",
+          "خبرة تتجاوز ١٨ سنة",
+          "متخصصة في مقاومة الإنسولين، وتكيس المبايض، وخمول الغدة الدرقية، واضطرابات التمثيل الغذائي",
+          "السمنة المصاحبة لأمراض الروماتيزم والمناعة، وعلاج النحافة وزيادة الوزن الصحية"
+        ],
+        "en": [
+          "Physician; specialist in clinical and therapeutic nutrition and weight management",
+          "Member of the European Society for Clinical Nutrition and Metabolism (ESPEN)",
+          "Over 18 years of experience",
+          "Focus on insulin resistance, PCOS, hypothyroidism and metabolic disorders",
+          "Obesity alongside rheumatological and immune conditions; healthy weight gain"
+        ]
+      },
+      "days": {
+        "ar": "السبت · الاتنين · الثلاثاء بالمعادي · الأربعاء بالتجمع",
+        "en": "Sat · Mon · Tue in Maadi · Wed in Fifth Settlement"
+      },
+      "schedule": {
+        "maadi": [
+          6,
+          1,
+          2
+        ],
+        "fifth-settlement": [
+          3
+        ]
+      },
+      "hours": {
+        "ar": "٣ – ٧ مساءً",
+        "en": "3 – 7:30 pm"
+      },
+      "branches": [
+        "maadi",
+        "fifth-settlement"
+      ],
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management",
+        "body-contouring"
+      ],
+      "portrait": "assets/img/doctors/shimaa-fouad.jpg",
+      "portrait2x": "assets/img/doctors/shimaa-fouad@2x.jpg",
+      "bio": {
+        "ar": "د. شيماء بتشتغل على السبب مش على الرقم. الكشف عندها بيبدأ بتحليل التركيب الجسمي بجهاز InBody، ومراجعة التحاليل والتاريخ الطبي، وبعدها بتتحدد الخطة اللي تنفع مع حياتك انت، مش جدول جاهز. خبرتها الأساسية في الحالات اللي جربت أنظمة كتير ورجعت تزيد تاني: مقاومة الإنسولين، تكيس المبايض، وخمول الغدة الدرقية.",
+        "en": "Dr. Shimaa works on the cause, not the number. Her consultation begins with an InBody body-composition analysis and a review of your labs and medical history; only then is a plan decided, one that fits your life rather than a printed sheet. Her core experience is with the cases that have tried many diets and regained the weight each time: insulin resistance, PCOS and hypothyroidism."
+      },
+      "_source": "ekshef.com — the clinic's own listing (account 9956), read 2026-09-06",
+      "ekshefClinicId": 56839
+    },
+    {
+      "slug": "alyaa-abu-taleb",
+      "sample": false,
+      "published": true,
+      "featured": true,
+      "name": {
+        "ar": "د. علياء سعيد أبوطالب",
+        "en": "Dr. Alyaa Said Abu Taleb"
+      },
+      "title": {
+        "ar": "طبيبة بشرية وأخصائية التغذية العلاجية والإكلينيكية، المعهد القومي للتغذية",
+        "en": "Physician, Clinical & Therapeutic Nutrition Specialist, National Nutrition Institute"
+      },
+      "credentials": {
+        "ar": [
+          "طبيبة بشرية، أخصائية التغذية العلاجية والإكلينيكية والتخسيس",
+          "المعهد القومي للتغذية",
+          "الدبلوم المهني للجودة التطبيقية في الرعاية الصحية، كلية الطب، جامعة عين شمس",
+          "خبرة تتجاوز ٧ سنين في المعادي",
+          "متخصصة في تغذية الأسرة: تغذية الأطفال وضعف الشهية، وتغذية الحمل والرضاعة، وبرامج إنقاص الوزن وعلاج النحافة",
+          "شاركت في المؤتمر السنوي الرابع للمعهد القومي للتغذية ٢٠٢٥",
+          "شاركت في المؤتمر السنوي الثالث عشر للجمعية العربية المصرية للتغذية الصحية والعلاجية ٢٠٢٤"
+        ],
+        "en": [
+          "Physician; specialist in clinical and therapeutic nutrition and weight management",
+          "National Nutrition Institute",
+          "Professional Diploma in Applied Quality in Healthcare, Faculty of Medicine, Ain Shams University",
+          "Over 7 years of experience in Maadi",
+          "Family nutrition: children's nutrition and poor appetite, pregnancy and breastfeeding, weight-loss programmes and healthy weight gain",
+          "Participant, 4th Annual Conference of the National Nutrition Institute, 2025",
+          "Participant, 13th Annual Conference of the Egyptian Arab Society for Healthy and Therapeutic Nutrition, 2024"
+        ]
+      },
+      "days": {
+        "ar": "المعادي: السبت · الاتنين | التجمع الخامس: الأربعاء",
+        "en": "Maadi: Sat · Mon | Fifth Settlement: Wed"
+      },
+      "schedule": {
+        "maadi": [
+          6,
+          1
+        ]
+      },
+      "hours": {
+        "ar": "٣ – ٧ مساءً",
+        "en": "3 – 7:30 pm"
+      },
+      "branches": [
+        "maadi",
+        "fifth-settlement"
+      ],
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management",
+        "pediatrics"
+      ],
+      "portrait": "assets/img/doctors/alyaa-abu-taleb.jpg",
+      "portrait2x": "assets/img/doctors/alyaa-abu-taleb@2x.jpg",
+      "bio": {
+        "ar": "د. علياء بتغطي الحالات اللي محتاج تغذية متخصصة على مراحل مختلفة من العمر: تغذية الأطفال، وتغذية الأم في الحمل والرضاعة، وبرامج زيادة الوزن الصحية للنحافة، مش بس إنقاص الوزن. خريجة المعهد القومي للتغذية، وبتشتغل على مقاومة الإنسولين وحلول السمنة من غير جراحة.",
+        "en": "Dr. Alyaa covers the cases that need specialised nutrition at different stages of life: children's nutrition, maternal nutrition through pregnancy and breastfeeding, and healthy weight-gain programmes for underweight patients, not only weight loss. A graduate of the National Nutrition Institute, she works on insulin resistance and non-surgical obesity solutions."
+      },
+      "_source": "ekshef.com — the clinic's own listing (account 9956), read 2026-09-06",
+      "ekshefClinicId": 56840
+    },
+    {
+      "slug": "mohab-ashraf",
+      "sample": false,
+      "published": true,
+      "featured": true,
+      "name": {
+        "ar": "د. مهاب أشرف فؤاد",
+        "en": "Dr. Mohab Ashraf Fouad"
+      },
+      "title": {
+        "ar": "أخصائي الباطنة والسكر، وأخصائي الكبد والجهاز الهضمي والمناظير",
+        "en": "Specialist in Internal Medicine & Diabetes, Hepatology, Gastroenterology & Endoscopy"
+      },
+      "credentials": {
+        "ar": [
+          "ماجستير الباطنة العامة والكبد والجهاز الهضمي والمناظير",
+          "أخصائي الأمراض الباطنية والسكر",
+          "أخصائي الكبد والجهاز الهضمي والمناظير",
+          "خبرة تتجاوز ٦ سنين في تشخيص وعلاج أمراض الباطنة والكبد والجهاز الهضمي"
+        ],
+        "en": [
+          "MSc in General Internal Medicine, Hepatology, Gastroenterology and Endoscopy",
+          "Specialist in internal medicine and diabetes",
+          "Specialist in hepatology, gastroenterology and endoscopy",
+          "Over 6 years of experience in internal, hepatic and gastrointestinal medicine"
+        ]
+      },
+      "days": {
+        "ar": "السبت",
+        "en": "Sat"
+      },
+      "schedule": {
+        "maadi": [
+          6
+        ]
+      },
+      "hours": {
+        "ar": "٤ – ٧ مساءً",
+        "en": "4 – 7 pm"
+      },
+      "branches": [
+        "maadi"
+      ],
+      "specialties": [
+        "internal-medicine",
+        "gastroenterology-hepatology",
+        "ultrasound"
+      ],
+      "portrait": "assets/img/doctors/mohab-ashraf.jpg",
+      "portrait2x": "assets/img/doctors/mohab-ashraf@2x.jpg",
+      "bio": {
+        "ar": "د. مهاب بيعمل الكشف والسونار في نفس الزيارة بنفسه: يعني اللي بيقرا الصورة هو اللي شافك وسمع شكواك، مش تقرير بيوصلك بعد يومين. بيغطي الحموضة والارتجاع، جرثومة المعدة، القولون العصبي، دهون الكبد وارتفاع الإنزيمات، والسكر والغدة الدرقية.",
+        "en": "Dr. Mohab performs the consultation and the ultrasound himself, in the same visit: so the person reading the scan is the one who examined you and heard your history, not a report that arrives two days later. He covers reflux and heartburn, H. pylori, IBS, fatty liver and raised enzymes, diabetes and thyroid disorders."
+      },
+      "_source": "ekshef.com — the clinic's own listing (account 9956), read 2026-09-06",
+      "ekshefClinicId": 57421
+    },
+    {
+      "slug": "sample-general-surgeon",
+      "sample": true,
+      "published": false,
+      "featured": false,
+      "name": {
+        "ar": "استشاري جراحة عامة ومناظير",
+        "en": "Consultant General & Laparoscopic Surgeon"
+      },
+      "title": {
+        "ar": "استشاري الجراحة العامة والمناظير",
+        "en": "Consultant General & Laparoscopic Surgeon"
+      },
+      "credentials": {
+        "ar": [
+          "استشاري الجراحة العامة وجراحة المناظير",
+          "دكتوراه الجراحة العامة",
+          "خبرة أكتر من ١٥ سنة في جراحات الفتق والمرارة وجراحات الغدة الدرقية"
+        ],
+        "en": [
+          "Consultant in General and Laparoscopic Surgery",
+          "MD in General Surgery",
+          "Over 15 years of experience in hernia, gallbladder and thyroid surgery"
+        ]
+      },
+      "days": {
+        "ar": "الأحد · الأربعاء",
+        "en": "Sun · Wed"
+      },
+      "hours": {
+        "ar": "٤ – ٨ مساءً",
+        "en": "4 – 8 pm"
+      },
+      "branches": [
+        "maadi"
+      ],
+      "specialties": [
+        "general-surgery"
+      ],
+      "portrait": "assets/img/doctors/sample-general-surgeon.webp",
+      "bio": {
+        "ar": "المحتوى ده مثال توضيحي لشكل صفحة الطبيب. هيتم استبداله ببيانات الطبيب الحقيقي من لوحة التحكم.",
+        "en": "This is sample content showing the layout of a doctor page. It will be replaced with the real doctor's details from the dashboard."
+      },
+      "portrait2x": "assets/img/doctors/sample-general-surgeon.webp",
+      "portraitPlaceholder": true
+    },
+    {
+      "slug": "sample-bariatric-surgeon",
+      "sample": true,
+      "published": false,
+      "featured": false,
+      "name": {
+        "ar": "استشاري جراحات السمنة والمناظير",
+        "en": "Consultant Bariatric & Laparoscopic Surgeon"
+      },
+      "title": {
+        "ar": "استشاري جراحات السمنة والمناظير",
+        "en": "Consultant Bariatric & Laparoscopic Surgeon"
+      },
+      "credentials": {
+        "ar": [
+          "استشاري جراحات السمنة وجراحة المناظير",
+          "زمالة الكلية الملكية للجراحين",
+          "خبرة أكتر من ١٢ سنة في التكميم والتحويل المصغر"
+        ],
+        "en": [
+          "Consultant in Bariatric and Laparoscopic Surgery",
+          "Fellow of the Royal College of Surgeons",
+          "Over 12 years of experience in sleeve gastrectomy and mini gastric bypass"
+        ]
+      },
+      "days": {
+        "ar": "الأحد · الخميس",
+        "en": "Sun · Thu"
+      },
+      "hours": {
+        "ar": "٥ – ٩ مساءً",
+        "en": "5 – 9 pm"
+      },
+      "branches": [
+        "maadi"
+      ],
+      "specialties": [
+        "bariatric-surgery"
+      ],
+      "portrait": "assets/img/doctors/sample-bariatric-surgeon.webp",
+      "bio": {
+        "ar": "المحتوى ده مثال توضيحي لشكل صفحة الطبيب. هيتم استبداله ببيانات الطبيب الحقيقي من لوحة التحكم.",
+        "en": "This is sample content showing the layout of a doctor page. It will be replaced with the real doctor's details from the dashboard."
+      },
+      "portrait2x": "assets/img/doctors/sample-bariatric-surgeon.webp",
+      "portraitPlaceholder": true
+    },
+    {
+      "slug": "sample-dermatologist",
+      "sample": true,
+      "published": false,
+      "featured": false,
+      "name": {
+        "ar": "أخصائي الجلدية والتجميل والليزر",
+        "en": "Specialist in Dermatology, Aesthetics & Laser"
+      },
+      "title": {
+        "ar": "أخصائية الجلدية والتجميل والليزر",
+        "en": "Specialist in Dermatology, Aesthetics & Laser"
+      },
+      "credentials": {
+        "ar": [
+          "أخصائية الأمراض الجلدية والتجميل",
+          "ماجستير الأمراض الجلدية والتناسلية",
+          "خبرة أكتر من ١٠ سنين في علاج حب الشباب والتصبغات وعلاجات الليزر"
+        ],
+        "en": [
+          "Specialist in Dermatology and Aesthetic Medicine",
+          "MSc in Dermatology and Venereology",
+          "Over 10 years of experience in acne, pigmentation and laser treatments"
+        ]
+      },
+      "days": {
+        "ar": "الاتنين · الأربعاء",
+        "en": "Mon · Wed"
+      },
+      "hours": {
+        "ar": "٣ – ٨ مساءً",
+        "en": "3 – 8 pm"
+      },
+      "branches": [
+        "maadi"
+      ],
+      "specialties": [
+        "dermatology"
+      ],
+      "portrait": "assets/img/doctors/sample-dermatologist.webp",
+      "bio": {
+        "ar": "المحتوى ده مثال توضيحي لشكل صفحة الطبيب. هيتم استبداله ببيانات الطبيب الحقيقي من لوحة التحكم.",
+        "en": "This is sample content showing the layout of a doctor page. It will be replaced with the real doctor's details from the dashboard."
+      },
+      "portrait2x": "assets/img/doctors/sample-dermatologist.webp",
+      "portraitPlaceholder": true
+    },
+    {
+      "slug": "sample-pediatrician",
+      "sample": true,
+      "published": false,
+      "featured": false,
+      "name": {
+        "ar": "أخصائي طب الأطفال وحديثي الولادة",
+        "en": "Specialist in Paediatrics & Neonatology"
+      },
+      "title": {
+        "ar": "أخصائية طب الأطفال وحديثي الولادة",
+        "en": "Specialist in Paediatrics & Neonatology"
+      },
+      "credentials": {
+        "ar": [
+          "أخصائية طب الأطفال وحديثي الولادة",
+          "ماجستير طب الأطفال",
+          "خبرة أكتر من ٩ سنين في متابعة النمو والتطعيمات وحساسية الأطفال"
+        ],
+        "en": [
+          "Specialist in Paediatrics and Neonatology",
+          "MSc in Paediatrics",
+          "Over 9 years of experience in growth monitoring, vaccination and childhood allergy"
+        ]
+      },
+      "days": {
+        "ar": "السبت · الثلاثاء · الخميس",
+        "en": "Sat · Tue · Thu"
+      },
+      "hours": {
+        "ar": "١٢ ظهراً – ٤ عصراً",
+        "en": "12 pm – 4 pm"
+      },
+      "branches": [
+        "maadi"
+      ],
+      "specialties": [
+        "pediatrics"
+      ],
+      "portrait": "assets/img/doctors/sample-pediatrician.webp",
+      "bio": {
+        "ar": "المحتوى ده مثال توضيحي لشكل صفحة الطبيب. هيتم استبداله ببيانات الطبيب الحقيقي من لوحة التحكم.",
+        "en": "This is sample content showing the layout of a doctor page. It will be replaced with the real doctor's details from the dashboard."
+      },
+      "portrait2x": "assets/img/doctors/sample-pediatrician.webp",
+      "portraitPlaceholder": true
+    }
+  ]
 }
