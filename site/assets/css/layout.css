@@ -456,45 +456,32 @@ body.is-locked { overflow: hidden; }
 /* proof row sitting under the hero copy */
 /* A grid, not a flex row: one of the four figures is the word "InBody"
    rather than a number, and flex-wrap drops it onto a line of its own. */
-/* The four figures used to sit on an open hairline rule directly under the copy,
-   which stacked yet another row of text into the same crowded column. They are a
-   glass bar now: rounded, self-contained, and visually separate from the reading
-   column, so the copy above it gets room to breathe. */
+/* proof row sitting under the hero copy */
+/* Four explicit tracks, not auto-fit: auto-fit sized each track by content and
+   dropped the fourth figure onto a second row. minmax(0, 1fr) lets them share
+   the width instead. Hairline dividers between them, on the inline-start edge
+   so the first never gets one, and logical so RTL needs no separate rule. */
 .hero__proof {
-  margin-top: clamp(2.5rem, 2rem + 2vw, 3.75rem);
+  margin-top: clamp(2.25rem, 1.8rem + 1.8vw, 3.25rem);
   display: grid;
-  /* Explicitly four tracks, not auto-fit. auto-fit sized each track to 8.5rem
-     and only three fitted the copy column, so the fourth figure dropped onto a
-     second row and the pill grew into a tall blob. minmax(0, 1fr) lets the
-     tracks shrink to share the width instead of refusing to fit. */
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: clamp(.6rem, 1.4vw, 1.15rem);
-  padding: clamp(1.15rem, .9rem + .9vw, 1.75rem) clamp(1.35rem, 1rem + 1.4vw, 2.25rem);
-  border: 1px solid rgba(212,183,147,.26);
-  border-radius: 999px;
-  background:
-    linear-gradient(150deg, rgba(255,255,255,.13) 0%, rgba(255,255,255,.04) 22%, rgba(255,255,255,0) 52%),
-    linear-gradient(120deg, rgba(26,29,19,.62), rgba(32,36,23,.44));
-  box-shadow: 0 18px 44px -26px rgba(16,19,12,.75), inset 0 1px 0 rgba(255,255,255,.12);
-  backdrop-filter: blur(7px) saturate(1.05);
+  gap: clamp(.75rem, 1.6vw, 1.5rem);
+  padding-top: 1.6rem;
+  border-top: 1px solid rgba(246,244,236,.2);
+  max-width: 46rem;
 }
-/* A pill only reads as a pill while the figures stay on one row. Once they wrap,
-   the fully-round corners look like a mistake, so soften to a rounded rectangle. */
-/* Four across stops being readable once the column is narrow: the labels are
-   full phrases, not single words. Two-by-two below that, and the fully-round
-   corners soften, because a pill only reads as a pill on one row. */
+.hero__proof .stat {
+  padding-inline-start: clamp(.75rem, 1.6vw, 1.5rem);
+  border-inline-start: 1px solid rgba(246,244,236,.18);
+}
+.hero__proof .stat:first-child { padding-inline-start: 0; border-inline-start: 0; }
 @media (max-width: 52rem) {
-  .hero__proof {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    border-radius: var(--r-lg);
-    row-gap: 1.35rem;
-  }
-}
-@media (prefers-reduced-transparency: reduce) {
-  .hero__proof { backdrop-filter: none; background: rgba(26,29,19,.72); }
+  .hero__proof { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 1.35rem; }
+  /* On two-by-two the third figure starts a new row, so it must lose its rule too. */
+  .hero__proof .stat:nth-child(3) { padding-inline-start: 0; border-inline-start: 0; }
 }
 .hero__proof .stat__n { font-size: clamp(1.5rem, 1.2rem + 1.1vw, 2.15rem); }
-.hero__proof .stat__l { font-size: var(--t-xs); line-height: 1.4; text-wrap: balance; }
+.hero__proof .stat__l { font-size: var(--t-xs); line-height: 1.4; }
 .hero__proof .stat__n { color: #fff; }
 .hero__proof .stat__l { color: rgba(246,244,236,.7); }
 
