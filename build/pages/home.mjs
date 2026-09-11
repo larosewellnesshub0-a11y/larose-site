@@ -339,8 +339,8 @@ ${ctaBand({ c, locale, depth })}
     active: null,
     title: null,
     description: t({
-      ar: "عيادات لاروز التخصصية في المعادي الجديدة: التغذية العلاجية، الباطنة والمناظير، الجراحة العامة وجراحات السمنة، الجلدية، وطب الأطفال. كشف شامل مع تحليل التركيب الجسمي InBody ومتابعة أسبوعية.",
-      en: "La Rose Wellness Hub in New Maadi, Cairo: clinical nutrition, internal medicine and endoscopy, general and bariatric surgery, dermatology and paediatrics. A full consultation with InBody body-composition analysis and weekly follow-up.",
+      ar: "عيادات لاروز في المعادي والتجمع الخامس: كشف بياخد وقته مع طبيب متخصص، تغذية علاجية وباطنة وأطفال وجراحة، وحجز أونلاين في دقيقة. الكشف بيشمل تحليل التركيب الجسمي InBody ومتابعة أسبوعية.",
+      en: "La Rose Wellness Hub, Maadi and Fifth Settlement: unhurried consultations in nutrition, internal medicine, paediatrics and surgery. Book online today. Every consultation includes InBody body-composition analysis and weekly follow-up.",
     }, locale),
     body,
   });

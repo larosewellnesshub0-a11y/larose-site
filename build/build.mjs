@@ -54,7 +54,7 @@ function rootIndex(c) {
      listing, so it says what the clinic actually offers. Built from the live
      specialty list, so it cannot drift out of date the way a literal would. */
   // Six is what fits inside a description; the rest are one click away.
-  const description = "عيادات لاروز التخصصية في المعادي الجديدة بتجمع التغذية العلاجية والباطنة والأطفال وتخصصات تانية في مكان واحد. اختار لغتك واعرف الخدمات والأطباء والحجز.";
+  const description = "عيادات لاروز في المعادي والتجمع الخامس: كشف بياخد وقته مع طبيب متخصص، تغذية علاجية وباطنة وأطفال وجراحة، وحجز أونلاين في دقيقة.";
   const socialImage = `${base}/assets/img/clinic/hero-clinic-1200.webp`;
   return `<!doctype html>
 <html lang="ar" dir="rtl">
@@ -82,6 +82,14 @@ function rootIndex(c) {
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(description)}">
 <meta name="twitter:image" content="${socialImage}">
+<!-- This gate is what Google crawls for https://laroseclinics.com/ , and it
+     carried no icon links at all, so the crawler fell back to /favicon.ico and
+     cached the result at 32px. The PNGs are declared largest first. -->
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/logo/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/img/logo/favicon-192.png" type="image/png" sizes="192x192">
+<link rel="icon" href="assets/img/logo/favicon-96.png" type="image/png" sizes="96x96">
+<link rel="apple-touch-icon" href="assets/img/logo/apple-touch-icon.png">
 <meta http-equiv="refresh" content="0; url=ar/">
 <script>location.replace("ar/" + location.search + location.hash);</script>
 ${trackingHead(c)}

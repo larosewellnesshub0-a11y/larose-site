@@ -152,7 +152,7 @@ function header({ c, locale, depth, active, pagePath }) {
 <header class="site-header" id="siteHeader">
   <div class="wrap site-header__inner">
     <a class="wordmark" href="${link(depth, "index.html")}" aria-label="${esc(t(s.brand.name, locale))}">
-      <img src="${asset(depth, s.brand.logo.wordmark)}" alt="" width="988" height="853">
+      <img src="${asset(depth, s.brand.logo.wordmarkSmall || s.brand.logo.wordmark)}" alt="" width="280" height="242">
       <span class="wordmark__text">
         <b>${esc(t(s.brand.name, locale))}</b>
         <i>${esc(t(s.brand.kind, locale))}</i>
@@ -204,7 +204,7 @@ function drawer({ c, locale, depth, pagePath }) {
   <div class="drawer__panel glass" role="dialog" aria-modal="true" aria-label="${esc(t(s.ui.menu, locale))}">
     <div class="drawer__head">
       <a class="wordmark" href="${link(depth, "index.html")}">
-        <img src="${asset(depth, s.brand.logo.wordmark)}" alt="${esc(t(s.brand.name, locale))}" width="988" height="853">
+        <img src="${asset(depth, s.brand.logo.wordmarkSmall || s.brand.logo.wordmark)}" alt="${esc(t(s.brand.name, locale))}" width="280" height="242">
       </a>
       <button class="burger" type="button" data-drawer-close aria-label="${esc(t(s.ui.close, locale))}"><span></span></button>
     </div>
@@ -250,7 +250,7 @@ function footer({ c, locale, depth }) {
     <div class="site-footer__grid">
 
       <div class="site-footer__brand">
-        <img src="${asset(depth, s.brand.logo.wordmarkWhite)}" alt="${esc(t(s.brand.name, locale))}" width="988" height="853">
+        <img src="${asset(depth, s.brand.logo.wordmarkWhiteSmall || s.brand.logo.wordmarkWhite)}" alt="${esc(t(s.brand.name, locale))}" width="280" height="242">
         <p class="site-footer__blurb">${esc(t(s.footer.blurb, locale))}</p>
         <div class="social">
           <a href="${esc(s.social.instagram)}" target="_blank" rel="noopener" aria-label="Instagram">${icon("instagram")}</a>
@@ -637,6 +637,7 @@ export function page(opts) {
      browsers that prefer it. -->
 <link rel="icon" href="${asset(depth, "favicon.ico")}" sizes="any">
 <link rel="icon" href="${asset(depth, "assets/img/logo/favicon.svg")}" type="image/svg+xml">
+<link rel="icon" href="${asset(depth, "assets/img/logo/favicon-192.png")}" type="image/png" sizes="192x192">
 <link rel="icon" href="${asset(depth, "assets/img/logo/favicon-96.png")}" type="image/png" sizes="96x96">
 <link rel="apple-touch-icon" href="${asset(depth, "assets/img/logo/apple-touch-icon.png")}">
 
