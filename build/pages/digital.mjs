@@ -125,6 +125,7 @@ const COPY = {
     { ar: "مكونات مألوفة ومتاحة", en: "Familiar, accessible ingredients" },
     { ar: "طريقة عملية ترجع لها بسهولة", en: "A practical format that is easy to revisit" },
     { ar: "السعرات والماكروز في مكان واضح", en: "Calories and macros in one clear place" },
+    { ar: "وقت التحضير ومستوى السهولة واضحين", en: "Prep time and difficulty stated up front" },
   ],
   forWhom: { ar: "الكتاب مناسب لمين؟", en: "Who is it for?" },
   programme: { ar: "برنامج متابعة تغذية أونلاين", en: "Online nutrition programme" },
