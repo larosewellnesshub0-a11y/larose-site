@@ -3,7 +3,7 @@
    ========================================================================== */
 
 import {
-  t, ta, esc, link, asset, icon, map, when, published, doctorsIn, specialtyImage,
+  t, ta, esc, link, asset, icon, map, when, published, doctorsIn, specialtyImage, responsiveAttrs, IMAGE_SIZES,
 } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
@@ -123,7 +123,7 @@ function overviewPanel({ c, locale, depth, sp }) {
         </div>
       </div>
       ${when(hasImage, `<div class="arch arch--ruled arch--wide" style="max-width:34rem;margin-inline:auto">
-        <img src="${asset(depth, t(spImage, locale))}" alt="${esc(t(sp.imageAlt, locale) || t(sp.name, locale))}" width="1200" height="750" loading="lazy" decoding="async">
+        <img src="${asset(depth, t(spImage, locale))}"${responsiveAttrs(t(spImage, locale), IMAGE_SIZES.capped34, (path) => asset(depth, path))} alt="${esc(t(sp.imageAlt, locale) || t(sp.name, locale))}" width="1200" height="750" loading="lazy" decoding="async">
       </div>`)}
     </div>
 

@@ -13,7 +13,7 @@
    and the page works with no script at all.
    ========================================================================== */
 
-import { t, esc, map, when, imageIfExists } from "../lib/util.mjs";
+import { t, esc, map, when, imageIfExists, responsiveAttrs, IMAGE_SIZES } from "../lib/util.mjs";
 import { trackingHead } from "../lib/shell.mjs";
 
 /* The free guide lives two levels below the site root. */
@@ -373,9 +373,9 @@ ${JSON.stringify({
         <p class="rg-hero__lede">${bi(COPY.lede)}</p>
       </div>
       <div class="rg-hero__fan">
-        ${when(spread, `<img class="rg-hero__fan-back" src="${A(spread)}" alt="" width="1200" height="1500" loading="lazy" decoding="async" aria-hidden="true">`)}
-        ${when(openBook, `<img class="rg-hero__fan-mid" src="${A(openBook)}" alt="" width="1200" height="1500" loading="lazy" decoding="async" aria-hidden="true">`)}
-        <img class="rg-hero__cover" src="${A(cover)}" alt="${esc(t(COPY.title, "en"))}" width="700" height="1050" loading="eager" fetchpriority="high" decoding="async">
+        ${when(spread, `<img class="rg-hero__fan-back" src="${A(spread)}"${responsiveAttrs(spread, IMAGE_SIZES.recipeHeroFan, A)} alt="" width="1200" height="1500" loading="lazy" decoding="async" aria-hidden="true">`)}
+        ${when(openBook, `<img class="rg-hero__fan-mid" src="${A(openBook)}"${responsiveAttrs(openBook, IMAGE_SIZES.recipeHeroFan, A)} alt="" width="1200" height="1500" loading="lazy" decoding="async" aria-hidden="true">`)}
+        <img class="rg-hero__cover" src="${A(cover)}"${responsiveAttrs(cover, IMAGE_SIZES.recipeHero, A)} alt="${esc(t(COPY.title, "en"))}" width="700" height="1050" loading="eager" fetchpriority="high" decoding="async">
       </div>
     </div>
   </section>
@@ -585,9 +585,9 @@ ${trackingHead(c)}
   <section class="rg-landing__hero"><div class="rg-wrap rg-landing__hero-grid">
     <div><p class="rg-hero__eyebrow">${bi({ ar: "كتاب لاروز الرقمي", en: "La Rose digital recipe book" })}</p><h1 class="rg-hero__title">${bi(product.name)}</h1><p class="rg-hero__count"><bdi class="num">250</bdi> ${bi({ ar: "وصفة مصرية بالسعرات والماكروز", en: "Egyptian recipes with calories and macros" })}</p><p class="rg-hero__lede">${bi(product.lede)}</p>
     <p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="${esc(whatsapp)}" target="_blank" rel="noopener">${bi(product.cta)}</a><a class="rg-btn rg-btn--dark" href="free/" data-track="recipe-guide">${bi(product.freeSample.label)}</a></p></div>
-    <img class="rg-landing__cover" src="../${esc(cover)}" alt="${esc(t(product.name, "en"))}" width="700" height="875">
+    <img class="rg-landing__cover" src="../${esc(cover)}"${responsiveAttrs(cover, IMAGE_SIZES.recipeLandingCover, (path) => `../${esc(path)}`)} alt="${esc(t(product.name, "en"))}" width="700" height="875">
   </div></section>
-  <section class="rg-landing__section"><div class="rg-wrap rg-landing__inside"><div><h2>${bi({ ar: "إيه اللي جوه الكتاب؟", en: "What is inside?" })}</h2>${list(product.inside)}</div><figure class="rg-landing__spread"><img src="../assets/img/digital/recipe-book.webp" alt="${esc(t({ ar: "صفحتان من داخل كتاب وصفات لاروز", en: "Two pages from inside the La Rose recipe book" }, "en"))}" width="600" height="750" loading="lazy" decoding="async"><figcaption>${bi({ ar: "لقطة من داخل الكتاب الكامل", en: "A look inside the full book" })}</figcaption></figure></div></section>
+  <section class="rg-landing__section"><div class="rg-wrap rg-landing__inside"><div><h2>${bi({ ar: "إيه اللي جوه الكتاب؟", en: "What is inside?" })}</h2>${list(product.inside)}</div><figure class="rg-landing__spread"><img src="../assets/img/digital/recipe-book.webp"${responsiveAttrs("assets/img/digital/recipe-book.webp", IMAGE_SIZES.recipeLandingSpread, (path) => `../${esc(path)}`)} alt="${esc(t({ ar: "صفحتان من داخل كتاب وصفات لاروز", en: "Two pages from inside the La Rose recipe book" }, "en"))}" width="600" height="750" loading="lazy" decoding="async"><figcaption>${bi({ ar: "لقطة من داخل الكتاب الكامل", en: "A look inside the full book" })}</figcaption></figure></div></section>
   <section class="rg-landing__section rg-landing__section--tint"><div class="rg-wrap"><h2>${bi({ ar: "الكتاب مناسب لمين؟", en: "Who is it for?" })}</h2>${list(product.audience)}</div></section>
   <section class="rg-landing__section"><div class="rg-wrap"><h2>${bi({ ar: "إزاي تطلبه؟", en: "How to order" })}</h2>${list([{ar:"ابعت لنا على واتساب",en:"Message us on WhatsApp"},{ar:"الفريق هيأكد معاك الطلب",en:"The team confirms your order"},{ar:"بنبعت لك الكتاب PDF ومعاه لينك سريع تفتحه بسهولة من الموبايل",en:"We send the book as a PDF and a quick link for easy access on your phone"}])}<p class="rg-cta__actions"><a class="rg-btn rg-btn--primary" href="${esc(whatsapp)}" target="_blank" rel="noopener">${bi(product.cta)}</a></p></div></section>
   <section class="rg-landing__section rg-landing__section--tint"><div class="rg-wrap"><h2>${bi({ ar: "أسئلة متكررة", en: "Frequently asked questions" })}</h2><div class="rg-landing__faq">${map(product.faq || [], (item) => `<details><summary>${bi(item.q)}</summary><p>${bi(item.a)}</p></details>`)}</div></div></section>

@@ -2,7 +2,7 @@
    About, technology, reviews and results pages
    ========================================================================== */
 
-import { t, ta, esc, link, asset, icon, map, when, published } from "../lib/util.mjs";
+import { t, ta, esc, link, asset, icon, map, when, published, responsiveAttrs, IMAGE_SIZES } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
   pageHero, sectionHead, reviewCard, ratingSummary, beforeAfter,
@@ -87,7 +87,7 @@ ${pageHero({
       </div>
       ${when(photo, `<div data-reveal style="position:sticky;top:7rem">
         <div class="arch arch--ruled arch--tall">
-          <img src="${asset(depth, photo.src)}" alt="${esc(t(photo.alt, locale))}" width="600" height="750" loading="lazy" decoding="async">
+          <img src="${asset(depth, photo.src)}"${responsiveAttrs(photo.src, IMAGE_SIZES.grid2, (path) => asset(depth, path))} alt="${esc(t(photo.alt, locale))}" width="600" height="750" loading="lazy" decoding="async">
         </div>
       </div>`)}
     </div>

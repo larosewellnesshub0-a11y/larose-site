@@ -2,7 +2,7 @@
    Branch pages
    ========================================================================== */
 
-import { t, ta, esc, link, asset, icon, map, when, published, branchCardImage } from "../lib/util.mjs";
+import { t, ta, esc, link, asset, icon, map, when, published, branchCardImage, responsiveAttrs, IMAGE_SIZES } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import { pageHero, sectionHead, specialtyCard, ctaBand } from "../lib/components.mjs";
 
@@ -11,9 +11,9 @@ function branchCard({ c, locale, depth, b }) {
   return `<article class="card card--branch" data-reveal>
     <div class="card__media arch arch--wide">
       ${branchCardImage(b)
-        ? `<img src="${asset(depth, branchCardImage(b))}" alt="${esc(t(b.name, locale))}" width="600" height="400" loading="lazy" decoding="async">`
+        ? `<img src="${asset(depth, branchCardImage(b))}"${responsiveAttrs(branchCardImage(b), IMAGE_SIZES.grid3, (path) => asset(depth, path))} alt="${esc(t(b.name, locale))}" width="600" height="400" loading="lazy" decoding="async">`
         : b.photos?.[0]
-        ? `<img src="${asset(depth, b.photos[0].src)}" alt="${esc(t(b.photos[0].alt, locale))}" width="600" height="400" loading="lazy" decoding="async">`
+        ? `<img src="${asset(depth, b.photos[0].src)}"${responsiveAttrs(b.photos[0].src, IMAGE_SIZES.grid3, (path) => asset(depth, path))} alt="${esc(t(b.photos[0].alt, locale))}" width="600" height="400" loading="lazy" decoding="async">`
         : `<div class="doctor-placeholder" style="border-radius:0;aspect-ratio:3/2">${icon("pin")}</div>`}
       ${when(b.status === "soon", `<span class="badge-sample badge-sample--soon">${esc(t(s.ui.openingSoon, locale))}</span>`)}
     </div>
@@ -156,7 +156,7 @@ ${pageHero({
         <h2 class="h3">${esc(t({ ar: "من داخل الفرع", en: "Inside the branch" }, locale))}</h2>
         <div class="grid grid-2" style="margin-top:1.5rem">
           ${map(b.photos || [], (photo) => `<div class="arch arch--wide">
-            <img src="${asset(depth, photo.src)}" alt="${esc(t(photo.alt, locale))}" width="600" height="400" loading="lazy" decoding="async">
+            <img src="${asset(depth, photo.src)}"${responsiveAttrs(photo.src, IMAGE_SIZES.branchGallery, (path) => asset(depth, path))} alt="${esc(t(photo.alt, locale))}" width="600" height="400" loading="lazy" decoding="async">
           </div>`)}
         </div>
       </div>

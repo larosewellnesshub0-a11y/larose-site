@@ -4,7 +4,7 @@
    change lands everywhere at once.
    ========================================================================== */
 
-import { t, ta, esc, link, asset, icon, sprig, stars, map, when, published, specialtyImage, bannerImage, sizeAttrs } from "./util.mjs";
+import { t, ta, esc, link, asset, icon, sprig, stars, map, when, published, specialtyImage, bannerImage, sizeAttrs, responsiveAttrs, IMAGE_SIZES } from "./util.mjs";
 
 /* --------------------------------------------------------------------------
    Section heading
@@ -65,7 +65,7 @@ export function specialtyCard({ c, locale, depth, sp }) {
   const s = c.site;
   sp = { ...sp, image: sp.image || specialtyImage(sp.slug) };
   const img = sp.image
-    ? `<img src="${asset(depth, sp.image)}" alt="" width="600" height="480" loading="lazy" decoding="async">`
+    ? `<img src="${asset(depth, sp.image)}"${responsiveAttrs(sp.image, IMAGE_SIZES.grid3, (path) => asset(depth, path))} alt="" width="600" height="480" loading="lazy" decoding="async">`
     : `<div class="card__placeholder" aria-hidden="true">${icon(sp.icon || "leaf", "card__placeholder-icon")}</div>`;
 
   return `<article class="card card--specialty" data-reveal>
@@ -202,8 +202,8 @@ export function beforeAfter({ c, locale, depth, pair, index = 0, label = null })
     </div>`;
   }
   return `<div class="ba${pair.orientation === "portrait" ? " ba--portrait" : ""}" data-before-after data-reveal>
-    <img class="ba__before" src="${asset(depth, pair.before)}"${sizeAttrs(pair.before)} alt="${esc(t(s.ui.before, locale))}" loading="lazy" decoding="async">
-    <img class="ba__after"  src="${asset(depth, pair.after)}"${sizeAttrs(pair.after)}  alt="${esc(t(s.ui.after, locale))}"  loading="lazy" decoding="async">
+    <img class="ba__before" src="${asset(depth, pair.before)}"${responsiveAttrs(pair.before, IMAGE_SIZES.grid2, (path) => asset(depth, path))}${sizeAttrs(pair.before)} alt="${esc(t(s.ui.before, locale))}" loading="lazy" decoding="async">
+    <img class="ba__after"  src="${asset(depth, pair.after)}"${responsiveAttrs(pair.after, IMAGE_SIZES.grid2, (path) => asset(depth, path))}${sizeAttrs(pair.after)}  alt="${esc(t(s.ui.after, locale))}"  loading="lazy" decoding="async">
     ${when(pair.sample, `<span class="badge-sample">${esc(t(s.ui.sample, locale))}</span>`)}
     <span class="ba__label ba__label--before">${esc(t(s.ui.before, locale))}</span>
     <span class="ba__label ba__label--after">${esc(t(s.ui.after, locale))}</span>

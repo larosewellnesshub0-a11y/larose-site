@@ -3,7 +3,7 @@
    Every other page follows the composition conventions established here.
    ========================================================================== */
 
-import { t, ta, esc, link, asset, icon, sprig, map, when, published, doctorsIn, branchCardImage } from "../lib/util.mjs";
+import { t, ta, esc, link, asset, icon, sprig, map, when, published, doctorsIn, branchCardImage, responsiveAttrs, IMAGE_SIZES } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
   sectionHead, specialtyCard, doctorCard, reviewCard, ratingSummary,
@@ -150,7 +150,7 @@ ${finder({ c, locale, depth })}
         <div class="arch arch--ruled arch--tall" style="max-width:26rem;margin-inline:auto">
           ${/* The three disciplines the integrated consultation actually
                 combines, rather than a generic waiting-room shot. */""}
-          <img src="${asset(depth, "assets/img/clinic/integrated-consultation.webp")}" alt="${esc(t({ ar: "التغذية والباطنة والسونار في زيارة واحدة داخل عيادات لاروز بالمعادي", en: "Nutrition, internal medicine and ultrasound in one visit at La Rose Maadi" }, locale))}" width="600" height="750" loading="lazy" decoding="async">
+          <img src="${asset(depth, "assets/img/clinic/integrated-consultation.webp")}"${responsiveAttrs("assets/img/clinic/integrated-consultation.webp", IMAGE_SIZES.capped26, (path) => asset(depth, path))} alt="${esc(t({ ar: "التغذية والباطنة والسونار في زيارة واحدة داخل عيادات لاروز بالمعادي", en: "Nutrition, internal medicine and ultrasound in one visit at La Rose Maadi" }, locale))}" width="600" height="750" loading="lazy" decoding="async">
         </div>
       </div>
 
@@ -284,9 +284,9 @@ ${finder({ c, locale, depth })}
       ${map(branches, (b) => `<article class="card card--branch" data-reveal>
         <div class="card__media arch arch--wide">
           ${branchCardImage(b)
-            ? `<img src="${asset(depth, branchCardImage(b))}" alt="${esc(t(b.name, locale))}" width="600" height="400" loading="lazy" decoding="async">`
+            ? `<img src="${asset(depth, branchCardImage(b))}"${responsiveAttrs(branchCardImage(b), IMAGE_SIZES.grid3, (path) => asset(depth, path))} alt="${esc(t(b.name, locale))}" width="600" height="400" loading="lazy" decoding="async">`
             : b.photos?.[0]
-            ? `<img src="${asset(depth, b.photos[0].src)}" alt="${esc(t(b.photos[0].alt, locale))}" width="600" height="400" loading="lazy" decoding="async">`
+            ? `<img src="${asset(depth, b.photos[0].src)}"${responsiveAttrs(b.photos[0].src, IMAGE_SIZES.grid3, (path) => asset(depth, path))} alt="${esc(t(b.photos[0].alt, locale))}" width="600" height="400" loading="lazy" decoding="async">`
             : `<div class="doctor-placeholder" style="border-radius:0;aspect-ratio:3/2">${icon("pin")}</div>`}
           ${when(b.status === "soon", `<span class="badge-sample badge-sample--soon">${esc(t(s.ui.openingSoon, locale))}</span>`)}
         </div>
@@ -313,7 +313,7 @@ ${when(articles.length, `
     <div class="grid grid-3">
       ${map(articles, (a) => `<article class="card card--article" data-reveal>
         <div class="card__media arch arch--wide">
-          ${a.image ? `<img src="${asset(depth, a.image)}" alt="" width="600" height="375" loading="lazy" decoding="async">` : ""}
+          ${a.image ? `<img src="${asset(depth, a.image)}"${responsiveAttrs(a.image, IMAGE_SIZES.grid3, (path) => asset(depth, path))} alt="" width="600" height="375" loading="lazy" decoding="async">` : ""}
         </div>
         <div class="card__body">
           <div class="card__meta"><span>${esc(t(a.category, locale))}</span><span>${esc(a.readingTime || "")}</span></div>

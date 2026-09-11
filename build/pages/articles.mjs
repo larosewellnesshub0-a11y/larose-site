@@ -3,7 +3,7 @@
    ========================================================================== */
 
 import {
-  t, ta, esc, link, asset, icon, map, when, published, paras,
+  t, ta, esc, link, asset, icon, map, when, published, paras, responsiveAttrs, IMAGE_SIZES,
 } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
@@ -279,7 +279,7 @@ function entryCard({ c, categories, entry, locale, depth, headingLevel = 3 }) {
   return `<article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
       ${image
-        ? `<img src="${esc(asset(depth, image))}" alt="${esc(t(entry?.imageAlt, locale) || title)}" width="600" height="375" loading="lazy" decoding="async">`
+        ? `<img src="${esc(asset(depth, image))}"${responsiveAttrs(image, IMAGE_SIZES.grid3, (path) => esc(asset(depth, path)))} alt="${esc(t(entry?.imageAlt, locale) || title)}" width="600" height="375" loading="lazy" decoding="async">`
         : `<div class="card__placeholder" aria-hidden="true">${icon(type === "tip" ? "leaf" : type === "qa" ? "user" : type === "update" ? "sparkle" : "book", "card__placeholder-icon")}</div>`}
     </div>
     <div class="card__body">
@@ -344,7 +344,7 @@ function featuredBlock({ c, categories, entry, locale, depth }) {
     <div class="grid grid-2" style="align-items:center">
       <div class="arch arch--wide">
         ${image
-          ? `<img src="${esc(asset(depth, image))}" alt="${esc(t(entry?.imageAlt, locale) || title)}" width="800" height="500" loading="lazy" decoding="async">`
+          ? `<img src="${esc(asset(depth, image))}"${responsiveAttrs(image, IMAGE_SIZES.grid2, (path) => esc(asset(depth, path)))} alt="${esc(t(entry?.imageAlt, locale) || title)}" width="800" height="500" loading="lazy" decoding="async">`
           : `<div class="card__placeholder" aria-hidden="true" style="aspect-ratio:16/10">${icon("book", "card__placeholder-icon")}</div>`}
       </div>
       <div class="card__body">
@@ -505,7 +505,7 @@ ${pageHero({
       ${updates.length ? map(updates, (entry) => `<article class="card" data-reveal>
         <div class="card__media arch arch--wide">
           ${t(entry?.image, locale)
-            ? `<img src="${esc(asset(depth, t(entry?.image, locale)))}" alt="${esc(t(entry?.imageAlt, locale) || entryTitle(entry, locale))}" width="600" height="375" loading="lazy" decoding="async">`
+            ? `<img src="${esc(asset(depth, t(entry?.image, locale)))}"${responsiveAttrs(t(entry?.image, locale), IMAGE_SIZES.narrow, (path) => esc(asset(depth, path)))} alt="${esc(t(entry?.imageAlt, locale) || entryTitle(entry, locale))}" width="600" height="375" loading="lazy" decoding="async">`
             : `<div class="card__placeholder" aria-hidden="true">${icon("sparkle", "card__placeholder-icon")}</div>`}
         </div>
         <div class="card__body">
@@ -949,7 +949,7 @@ function detailPage({ c, locale, categories, entries, entry }) {
 
 ${when(image, `<section class="section section--tight" style="padding-top:0">
   <div class="wrap wrap--narrow"><div class="arch arch--wide">
-    <img src="${esc(asset(depth, image))}" alt="${esc(t(entry?.imageAlt, locale) || title)}" width="1000" height="625" loading="eager" decoding="async">
+    <img src="${esc(asset(depth, image))}"${responsiveAttrs(image, IMAGE_SIZES.narrow, (path) => esc(asset(depth, path)))} alt="${esc(t(entry?.imageAlt, locale) || title)}" width="1000" height="625" loading="eager" decoding="async">
   </div></div>
 </section>`)}
 

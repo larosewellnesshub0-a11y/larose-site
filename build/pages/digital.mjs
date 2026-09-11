@@ -2,7 +2,7 @@
    La Rose Digital، remote services and product detail pages.
    ========================================================================== */
 
-import { t, ta, esc, link, asset, icon, map, when } from "../lib/util.mjs";
+import { t, ta, esc, link, asset, icon, map, when, responsiveAttrs, IMAGE_SIZES } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
   sectionHead, crumbs, pageHero, faqList, faqSchema, ctaBand,
@@ -187,7 +187,7 @@ function productImage({ product, locale, depth }) {
       <div class="pgal__stage">
         ${slides.map((src, i) => `<figure class="pgal__slide" data-i="${i}">
           <div class="arch arch--ruled arch--tall">
-            <img src="${esc(asset(depth, src))}" alt="${esc(captions[i] || t(product?.imageAlt, locale) || t(product?.name, locale))}" width="700" height="875" loading="${i === 0 ? "eager" : "lazy"}" decoding="async">
+            <img src="${esc(asset(depth, src))}"${responsiveAttrs(src, IMAGE_SIZES.grid2, (path) => esc(asset(depth, path)))} alt="${esc(captions[i] || t(product?.imageAlt, locale) || t(product?.name, locale))}" width="700" height="875" loading="${i === 0 ? "eager" : "lazy"}" decoding="async">
           </div>
         </figure>`).join("")}
       </div>
@@ -198,7 +198,7 @@ function productImage({ product, locale, depth }) {
   }
   if (image) {
     return `<div class="arch arch--ruled arch--tall">
-      <img src="${esc(asset(depth, image))}" alt="${esc(t(product?.imageAlt, locale) || t(product?.name, locale))}" width="700" height="875" loading="eager" decoding="async">
+      <img src="${esc(asset(depth, image))}"${responsiveAttrs(image, IMAGE_SIZES.grid2, (path) => esc(asset(depth, path)))} alt="${esc(t(product?.imageAlt, locale) || t(product?.name, locale))}" width="700" height="875" loading="eager" decoding="async">
     </div>`;
   }
   return `<div class="arch arch--ruled arch--tall">
@@ -294,7 +294,7 @@ function recipeBookPage({ c, locale, product }) {
         </div>
       </div>
       ${when(product.insideImage, `<figure class="inside-look">
-        <img src="${esc(asset(depth, t(product.insideImage, locale)))}" alt="${esc(t({ ar: "كتاب وصفات لاروز مفتوح على منضدة مطبخ، وصفحتاه فيهما وصفتان بصورهما وسعراتهما", en: "The La Rose recipe book open on a kitchen counter, both pages showing a recipe with its photograph and figures" }, locale))}" width="1200" height="1500" loading="lazy" decoding="async">
+        <img src="${esc(asset(depth, t(product.insideImage, locale)))}"${responsiveAttrs(t(product.insideImage, locale), IMAGE_SIZES.insideSplit, (path) => esc(asset(depth, path)))} alt="${esc(t({ ar: "كتاب وصفات لاروز مفتوح على منضدة مطبخ، وصفحتاه فيهما وصفتان بصورهما وسعراتهما", en: "The La Rose recipe book open on a kitchen counter, both pages showing a recipe with its photograph and figures" }, locale))}" width="1200" height="1500" loading="lazy" decoding="async">
         <figcaption>${esc(t({ ar: "صفحتان من داخل الكتاب", en: "Two pages from inside the book" }, locale))}</figcaption>
       </figure>`)}
     </div>

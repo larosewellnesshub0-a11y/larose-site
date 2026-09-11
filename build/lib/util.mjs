@@ -283,6 +283,54 @@ export function sizeAttrs(relPath) {
   return s ? ` width="${s.w}" height="${s.h}"` : "";
 }
 
+/* ---- responsive image candidates ----------------------------------------
+   The image pipeline writes smaller siblings beside the original frame, such
+   as `frame-600.webp`. Keep the discovery here so every template uses the
+   same real dimensions rather than treating the filename as a width promise.
+   `toUrl` lets a page resolve an asset relative to its own depth. */
+export function responsiveAttrs(relPath, sizes, toUrl = (p) => p) {
+  if (!relPath || !sizes) return "";
+  const match = String(relPath).match(/^(.*)(\.[^./]+)$/);
+  if (!match) return "";
+  const [, stem, ext] = match;
+  const paths = [
+    imageIfExists(relPath),
+    ...[600, 700, 900, 1200]
+      .map((width) => imageIfExists(`${stem}-${width}${ext}`))
+      .filter(Boolean),
+  ];
+  const byWidth = new Map();
+  for (const candidate of paths) {
+    const size = imageSize(candidate);
+    if (size?.w && !byWidth.has(size.w)) byWidth.set(size.w, candidate);
+  }
+  if (byWidth.size < 2) return "";
+  const srcset = [...byWidth.entries()]
+    .sort(([a], [b]) => a - b)
+    .map(([width, candidate]) => `${toUrl(candidate)} ${width}w`)
+    .join(", ");
+  return ` srcset="${srcset}" sizes="${sizes}"`;
+}
+
+/* These values deliberately mirror the CSS layout primitives: the 1240px
+   wrap, its fluid gutter, and the auto-fit 18rem / 22rem grid tracks. Keep a
+   context-specific value at the call site when a component has a tighter cap. */
+const WRAP_GUTTER = "clamp(1.15rem, 0.6rem + 2.6vw, 3rem)";
+const GRID_GAP = "clamp(1.1rem, 0.6rem + 1.6vw, 2rem)";
+export const IMAGE_SIZES = Object.freeze({
+  grid3: `(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - ${WRAP_GUTTER} - ${WRAP_GUTTER} - ${GRID_GAP} - ${GRID_GAP}) / 3), (min-width: 41rem) calc((100vw - ${WRAP_GUTTER} - ${WRAP_GUTTER} - ${GRID_GAP}) / 2), calc(100vw - ${WRAP_GUTTER} - ${WRAP_GUTTER})`,
+  grid2: `(min-width: 77.5rem) 34.75rem, (min-width: 50rem) calc((100vw - ${WRAP_GUTTER} - ${WRAP_GUTTER} - ${GRID_GAP}) / 2), calc(100vw - ${WRAP_GUTTER} - ${WRAP_GUTTER})`,
+  narrow: `(min-width: 55rem) 49rem, calc(100vw - ${WRAP_GUTTER} - ${WRAP_GUTTER})`,
+  capped34: `(min-width: 34rem) 34rem, calc(100vw - ${WRAP_GUTTER} - ${WRAP_GUTTER})`,
+  capped26: `(min-width: 26rem) 26rem, calc(100vw - ${WRAP_GUTTER} - ${WRAP_GUTTER})`,
+  insideSplit: `(min-width: 77.5rem) 27rem, (min-width: 56.25rem) 34vw, calc(100vw - ${WRAP_GUTTER} - ${WRAP_GUTTER})`,
+  branchGallery: `(min-width: 77.5rem) 33.75rem, (min-width: 52rem) calc((100vw - ${WRAP_GUTTER} - ${WRAP_GUTTER} - clamp(2rem, 5vw, 4rem)) / 2), calc(100vw - ${WRAP_GUTTER} - ${WRAP_GUTTER})`,
+  recipeHero: "(min-width: 45rem) 20rem, calc(100vw - 2.5rem)",
+  recipeHeroFan: "(min-width: 67.5rem) 14.5rem, (min-width: 45rem) 11.25rem, 1px",
+  recipeLandingCover: "(min-width: 45rem) 28rem, min(22rem, calc(100vw - 2.5rem))",
+  recipeLandingSpread: "(min-width: 24rem) 24rem, calc(100vw - 2.5rem)",
+});
+
 /** The illustrative frame for a specialty. Falls back to the shared branded
     placeholder so no card is ever image-less; a generated frame replaces it
     automatically the moment it lands on disk. */
