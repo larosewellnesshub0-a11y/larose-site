@@ -16,6 +16,46 @@ export const DEFAULT_LOCALE = "ar";
 /* ---- content loading ----------------------------------------------------- */
 export function loadContent() {
   const read = (f) => JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, f), "utf8"));
+  const articles = read("articles.json");
+  // Keep the September knowledge-centre expansion in its own source file so
+  // editorial batches remain reviewable without rewriting the core library.
+  const articleExpansion = read("articles-expansion-2026-09-11.json");
+  // Add two substantive safety-and-follow-up sections to every article in this
+  // editorial batch. They deliberately support (rather than replace) each
+  // article's topic-specific sections and make the guidance useful in a real
+  // consultation without turning it into personal medical advice.
+  const expansionArticles = (articleExpansion.articles || []).map((article) => ({
+    ...article,
+    sections: [
+      ...(article.sections || []),
+      {
+        id: "use-information-wisely",
+        heading: { ar: "استخدم المعلومات عشان تحضّر سؤالاً أفضل", en: "Use the information to prepare a better question" },
+        body: {
+          ar: "المقال يشرح أسئلة شائعة، لكنه لا يحدد سبب العرض أو الخطة المناسبة لك وحده. العمر، الأمراض والأدوية والحمل أو الجراحة السابقة ونتائج الفحص قد تغيّر معنى نفس العرض من شخص لآخر.\n\nقبل الموعد، اكتب ما الذي تغير، متى بدأ، وما الذي يجعله أفضل أو أسوأ، وخد قائمة بالأدوية والمكملات ونتائج سابقة لو متاحة. التفاصيل الصغيرة تساعد الفريق يقرر هل المتابعة، الفحص أو خطوة أخرى هي الأنسب.",
+          en: "An article can explain common questions, but it cannot identify the cause of a symptom or set your individual plan. Age, health conditions, medicines, pregnancy, earlier surgery and examination findings can change what the same symptom means from one person to another.\n\nBefore an appointment, note what changed, when it began and what makes it better or worse. Bring lists of medicines and supplements and earlier results if available. Small details help the team decide whether follow-up, examination or another step is appropriate."
+        }
+      },
+      {
+        id: "follow-up-plan",
+        heading: { ar: "اخرج من المتابعة بخطوة واضحة", en: "Leave follow-up with a clear next step" },
+        body: {
+          ar: "في نهاية الزيارة، اسأل ما الذي نراقبه، متى ترجع، ومن تتواصل معه لو تغيرت الأعراض. لو طُلب تحليل أو تصوير، اعرف السؤال الذي سيجيب عنه وكيف ترسل النتيجة أو تراجعها.\n\nلا تؤجل الرعاية المطلوبة بسبب الاعتماد على المقال أو تجربة شخص آخر. ولو ظهرت علامات شديدة أو متفاقمة، اتبع تعليمات فريقك واطلب رعاية عاجلة حسب شدة الحالة.",
+          en: "At the end of a visit, ask what is being monitored, when to return and whom to contact if symptoms change. If a test or scan is requested, understand the question it will answer and how results will be reviewed.\n\nDo not delay needed care because of an article or another person's experience. If severe or worsening signs appear, follow your team's instructions and seek urgent care according to the situation."
+        }
+      }
+    ]
+  }));
+  articles.articles = [...(articles.articles || []), ...expansionArticles];
+  // Editorial images are hand-managed beneath `assets/img/articles/`. A small
+  // legacy set was recorded without that directory; resolve it here so every
+  // generated route advertises the real public asset rather than a dead URL.
+  articles.articles = articles.articles.map((article) => {
+    const image = article?.image;
+    if (typeof image !== "string" || !image.startsWith("assets/img/") || image.startsWith("assets/img/articles/")) return article;
+    const articleImage = `assets/img/articles/${path.basename(image)}`;
+    return fs.existsSync(path.join(OUT_DIR, articleImage)) ? { ...article, image: articleImage } : article;
+  });
   return {
     site:        read("site.json"),
     specialties: read("specialties.json").specialties,
@@ -23,7 +63,7 @@ export function loadContent() {
     branches:    read("branches.json").branches,
     // The FULL object, not just the array: it also carries `categories`,
     // and this keeps it consistent with reviews/digital/pages below.
-    articles:    read("articles.json"),
+    articles,
     tips:        read("tips.json"),
     reviews:     read("reviews.json"),
     digital:     read("digital.json"),
@@ -71,6 +111,9 @@ export function rel(depth) {
 export function link(depth, href) {
   if (!href) return "#";
   if (/^(https?:|mailto:|tel:|#)/.test(href)) return href;
+  // Root-relative public resources (for example /sitemap.xml) must not be
+  // prefixed with the current page depth.
+  if (href.startsWith("/")) return href;
   /* Clean URLs: the site is served by GitHub Pages, which resolves `dir/` to
      `dir/index.html`, so links never expose the file name (2026-09-08).
      The 2026-09-10 pass extends that to every other page too: Pages answers
