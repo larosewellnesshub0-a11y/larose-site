@@ -435,7 +435,53 @@
 .rg-hero__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(200px, 20rem); gap: clamp(1.5rem, 5vw, 4rem); align-items: center; text-align: start; }
 .rg-hero__grid .rg-hero__lede { margin-inline: 0; }
 .rg-hero__cover { width: 100%; height: auto; border-radius: 1.25rem; box-shadow: var(--shadow-lg); }
-@media (max-width: 720px) { .rg-hero__grid { grid-template-columns: 1fr; text-align: center; } .rg-hero__grid .rg-hero__lede { margin-inline: auto; } .rg-hero__cover { width: min(100%, 18rem); margin-inline: auto; } }
+
+/* A photographed backdrop behind the hero. The scrim keeps the olive brand
+   colour dominant and the white text readable whatever the photo does. */
+.rg-hero--shot { position: relative; isolation: isolate; overflow: hidden; background-color: var(--olive-800); }
+.rg-hero--shot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: linear-gradient(to bottom, rgba(56, 58, 40, .92), rgba(56, 58, 40, .74)), var(--rg-hero-shot);
+  background-size: cover, cover;
+  background-position: center, center;
+}
+/* Phones get the half-width copy of the same photograph. */
+@media (max-width: 760px) {
+  .rg-hero--shot::before { background-image: linear-gradient(to bottom, rgba(56, 58, 40, .92), rgba(56, 58, 40, .74)), var(--rg-hero-shot-sm, var(--rg-hero-shot)); }
+}
+
+/* Three photographs of the book, fanned. The two behind are decorative, so
+   they are hidden from assistive tech and dropped on small screens. */
+.rg-hero__fan { position: relative; }
+.rg-hero__fan .rg-hero__cover { position: relative; z-index: 3; }
+.rg-hero__fan-back,
+.rg-hero__fan-mid {
+  position: absolute;
+  inline-size: 72%;
+  block-size: auto;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-lg);
+}
+.rg-hero__fan-back { z-index: 1; inset-block-start: -6%; inset-inline-start: -22%; transform: rotate(-6deg); }
+.rg-hero__fan-mid  { z-index: 2; inset-block-end: 0;     inset-inline-start: -14%; transform: rotate(5deg); }
+
+/* Between 720px and 1080px there is only the grid gap (5vw, so 36px at the
+   narrow end) to lean into, and a 6deg rotation adds about 11px to the bounding
+   box. Two photographs fit that budget, three do not, so the back one goes. */
+@media (max-width: 1080px) {
+  .rg-hero__fan-back { display: none; }
+  .rg-hero__fan-mid { inline-size: 56%; inset-inline-start: -6%; }
+}
+@media (max-width: 720px) {
+  .rg-hero__grid { grid-template-columns: 1fr; text-align: center; }
+  .rg-hero__grid .rg-hero__lede { margin-inline: auto; }
+  .rg-hero__cover { width: min(100%, 18rem); margin-inline: auto; }
+  .rg-hero__fan { display: flex; justify-content: center; }
+  .rg-hero__fan-back, .rg-hero__fan-mid { display: none; }
+}
 
 /* Landing: the recipe count and the inside-the-book spread. */
 .rg-hero__count { margin-block-start: .9rem; font-weight: 700; font-size: var(--t-lg); color: var(--olive-700); }

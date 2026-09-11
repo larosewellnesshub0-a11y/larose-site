@@ -264,6 +264,12 @@ export function pages({ c, locale }) {
   const canonical = `https://${s.brand.domain}/RecipeGuide/free/`;
 
   const cover = imageIfExists("assets/img/digital/recipe-book-cover.webp") || "assets/img/digital/recipe-book.webp";
+  /* Three photographs of the same book, fanned behind the cover, so the hero
+     shows what the guide actually looks like rather than one flat jacket. */
+  const spread = imageIfExists("assets/img/digital/recipe-book.webp");
+  const openBook = imageIfExists("assets/img/digital/recipe-book-open.webp");
+  const heroBackdrop = imageIfExists("assets/img/recipe-guide/hero-backdrop.webp");
+  const heroBackdropSm = imageIfExists("assets/img/recipe-guide/hero-backdrop-1200.webp") || heroBackdrop;
   const freeHtml = `<!doctype html>
 <html lang="ar" dir="rtl" class="rg lg-ar">
 <head>
@@ -359,14 +365,18 @@ ${JSON.stringify({
 </header>
 
 <main id="rg-main">
-  <section class="rg-hero">
+  <section class="rg-hero${heroBackdrop ? " rg-hero--shot" : ""}"${heroBackdrop ? ` style="--rg-hero-shot:url(&quot;${A(heroBackdrop)}&quot;);--rg-hero-shot-sm:url(&quot;${A(heroBackdropSm)}&quot;)"` : ""}>
     <div class="rg-wrap rg-hero__grid">
       <div>
         <p class="rg-hero__eyebrow">${bi(COPY.eyebrow)}</p>
         <h1 class="rg-hero__title">${bi(COPY.title)}</h1>
         <p class="rg-hero__lede">${bi(COPY.lede)}</p>
       </div>
-      <img class="rg-hero__cover" src="${A(cover)}" alt="${esc(t(COPY.title, "en"))}" width="700" height="1050" decoding="async">
+      <div class="rg-hero__fan">
+        ${when(spread, `<img class="rg-hero__fan-back" src="${A(spread)}" alt="" width="1200" height="1500" loading="lazy" decoding="async" aria-hidden="true">`)}
+        ${when(openBook, `<img class="rg-hero__fan-mid" src="${A(openBook)}" alt="" width="1200" height="1500" loading="lazy" decoding="async" aria-hidden="true">`)}
+        <img class="rg-hero__cover" src="${A(cover)}" alt="${esc(t(COPY.title, "en"))}" width="700" height="1050" decoding="async">
+      </div>
     </div>
   </section>
 
