@@ -214,7 +214,7 @@ function productCard({ c, locale, depth, product }) {
       <span class="chip chip--gold">${icon(t(product.icon, locale) || "book")} ${esc(t(COPY.service, locale))}</span>
       <h2 class="card__title"><a class="card__link" href="${esc(link(depth, `digital/${slug}.html`))}">${esc(t(product.name, locale))}</a></h2>
       <p class="card__text">${esc(t(product.short, locale))}</p>
-      <p class="card__price"><small>${esc(t(c.site.ui.priceOnConsult, locale))}</small></p>
+      <p class="card__price"><small>${esc(t(product?.priceNote || c.site.ui.priceOnConsult, locale))}</small></p>
       <div class="card__foot"><span class="link-cta">${esc(t(COPY.viewService, locale))} ${icon("arrow")}</span></div>
     </div>
   </article>`;
@@ -247,7 +247,7 @@ function recipeBookPage({ c, locale, product }) {
         <ul class="prose" style="margin-top:.75rem">
           ${map(inside, (item) => `<li>${icon("check")} ${esc(t(item, locale))}</li>`)}
         </ul>
-        <p class="card__price" style="margin-top:1.5rem"><small>${esc(t(c.site.ui.priceOnConsult, locale))}</small></p>
+        <p class="card__price" style="margin-top:1.5rem"><small>${esc(t(product?.priceNote || c.site.ui.priceOnConsult, locale))}</small></p>
         <div class="cluster" style="margin-top:1rem">
           <a class="btn btn--whatsapp btn--lg" href="${esc(t(c.site.contact.whatsapp.href, locale))}" target="_blank" rel="noopener">${icon("whatsapp")} ${esc(t(COPY.order, locale))}</a>
           <a class="btn btn--ghost btn--lg" href="${esc(link(depth, "patients/booking.html"))}">${esc(t(c.site.ui.bookNow, locale))}</a>
@@ -273,13 +273,29 @@ function recipeBookPage({ c, locale, product }) {
 
 <section class="section section--sunk">
   <div class="wrap">
-    ${sectionHead({ eyebrow: t(COPY.sampleEyebrow, locale), title: t(COPY.sampleTitle, locale), lede: t(COPY.sampleText, locale) })}
-    <div class="card" data-reveal>
-      <div class="card__body">
-        <div class="grid grid-3">
-          ${map(COPY.sampleList, (item) => `<div><span class="chip chip--gold">${icon("check")} ${esc(t(item, locale))}</span></div>`)}
+    ${/* The photograph sits BESIDE this block rather than alone across the page:
+          on its own, a 4:5 portrait of a book is a full screen of nothing but
+          book, and the reader has to scroll past it to reach the point. */""}
+    ${/* Content FIRST, photograph second - the mirror of the block at the top of
+          the page, where the photograph leads. Alternating which side carries the
+          image keeps the weight from stacking down one edge of the page. The
+          photograph also takes the narrower track: it is a 4:5 portrait, so an
+          equal split makes it tower over the text beside it. */""}
+    <div class="${product.insideImage ? "inside-split" : ""}" style="align-items:center">
+      <div>
+        ${sectionHead({ eyebrow: t(COPY.sampleEyebrow, locale), title: t(COPY.sampleTitle, locale), lede: t(COPY.sampleText, locale) })}
+        <div class="card" data-reveal>
+          <div class="card__body">
+            <div class="grid grid-2">
+              ${map(COPY.sampleList, (item) => `<div><span class="chip chip--gold">${icon("check")} ${esc(t(item, locale))}</span></div>`)}
+            </div>
+          </div>
         </div>
       </div>
+      ${when(product.insideImage, `<figure class="inside-look">
+        <img src="${esc(asset(depth, t(product.insideImage, locale)))}" alt="${esc(t({ ar: "كتاب وصفات لاروز مفتوح على منضدة مطبخ، وصفحتاه فيهما وصفتان بصورهما وسعراتهما", en: "The La Rose recipe book open on a kitchen counter, both pages showing a recipe with its photograph and figures" }, locale))}" width="1200" height="1500" loading="lazy" decoding="async">
+        <figcaption>${esc(t({ ar: "صفحتان من داخل الكتاب", en: "Two pages from inside the book" }, locale))}</figcaption>
+      </figure>`)}
     </div>
   </div>
 </section>

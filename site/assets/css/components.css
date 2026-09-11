@@ -1521,3 +1521,31 @@
   .pgal__slide { transition: none; }
   .pgal__dot::before { transition: none; }
 }
+
+/* ---- a look inside a digital product --------------------------------------
+   One photograph, sitting beside the copy rather than across the full width:
+   alone, a 4:5 portrait of a book fills the screen and the reader scrolls past
+   a page of book to reach the point. */
+.inside-look { margin: 0; }
+.inside-look img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  margin-inline: auto;
+  border-radius: var(--r-lg);
+  box-shadow: var(--sh-lg, 0 18px 44px -26px rgba(24,28,18,.55));
+}
+.inside-look figcaption {
+  margin-top: .9rem;
+  text-align: center;
+  font-size: var(--t-xs);
+  color: var(--ink-muted, #5f6150);
+}
+
+/* The copy takes the wider track and the photograph the narrower one. An even
+   split gave a 4:5 portrait the same width as the text, so the book towered over
+   it and the section leaned heavily to one side. */
+.inside-split { display: grid; gap: clamp(2rem, 5vw, 4rem); }
+@media (min-width: 900px) {
+  .inside-split { grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); }
+}

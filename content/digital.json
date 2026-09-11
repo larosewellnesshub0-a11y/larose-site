@@ -7,7 +7,7 @@
       "featured": true,
       "type": "ebook",
       "icon": "book",
-      "image": "assets/img/digital/recipe-book-cover.webp",
+      "image": "assets/img/digital/recipe-book.webp",
       "name": {
         "ar": "كتاب وصفات لاروز",
         "en": "The La Rose Recipe Book"
@@ -104,24 +104,11 @@
           "en": "A free edition with 60 recipes from the full book is available, so you can try it before you order."
         }
       },
-      "gallery": [
-        "assets/img/digital/recipe-book.webp",
-        "assets/img/digital/recipe-book-open.webp"
-      ],
-      "galleryCaptions": [
-        {
-          "ar": "غلاف كتاب الوصفات",
-          "en": "The recipe book cover"
-        },
-        {
-          "ar": "صفحتان من داخل الكتاب",
-          "en": "Two pages from inside the book"
-        },
-        {
-          "ar": "الكتاب مفتوح على منضدة المطبخ",
-          "en": "The book open on a kitchen counter"
-        }
-      ]
+      "insideImage": "assets/img/digital/recipe-book-open.webp",
+      "priceNote": {
+        "ar": "الكتاب هدية مع الكشف",
+        "en": "The book is a gift with your consultation"
+      }
     },
     {
       "slug": "online-diet",
