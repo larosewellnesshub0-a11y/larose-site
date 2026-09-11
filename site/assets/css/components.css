@@ -986,6 +986,19 @@
   .header-actions .lang-switch--header { display: inline-flex; }
 }
 
+/* Below 480px it has to go again. The English header needs 389px to lay out
+   ("Book appointment" alone is 174px), so a 360px or 375px phone was getting a
+   horizontal scrollbar on every English page. The drawer carries its own
+   language switch, so nothing becomes unreachable. */
+@media (max-width: 480px) {
+  .header-actions .lang-switch--header { display: none; }
+  /* And the header CTA goes too. "Book appointment" alone is 174px, which is
+     what pushed the English header past a 360px or 375px phone. Booking is
+     already the widest item in the fixed action bar at the bottom of every
+     phone screen, and it is in the drawer as well, so nothing is lost. */
+  .header-actions .btn { display: none; }
+}
+
 /* ==========================================================================
    19. MOBILE ACTION BAR
    Call, WhatsApp and Book, fixed to the bottom on phones. The branch-hospital
