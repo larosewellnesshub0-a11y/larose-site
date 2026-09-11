@@ -287,7 +287,7 @@ function recipeBookPage({ c, locale, product }) {
         ${sectionHead({ eyebrow: t(COPY.sampleEyebrow, locale), title: t(COPY.sampleTitle, locale), lede: t(COPY.sampleText, locale) })}
         <div class="card" data-reveal>
           <div class="card__body">
-            <div class="grid grid-2">
+            <div class="chip-pairs">
               ${map(COPY.sampleList, (item) => `<div><span class="chip chip--gold">${icon("check")} ${esc(t(item, locale))}</span></div>`)}
             </div>
           </div>

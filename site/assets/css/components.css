@@ -203,6 +203,19 @@
 .chip--gold  { background: var(--champagne-200); border-color: var(--champagne-400); color: var(--champagne-700); }
 .chip--rose  { background: var(--rose-100); border-color: var(--rose-300); color: var(--rose-700); }
 
+/* Chips laid out as an even grid: two per row inside a card, one on phones.
+   .grid-2 needs 22rem per track, which a card body never has, so the chips
+   stacked into a single column. */
+.chip-pairs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: .9rem 1.25rem;
+  align-items: start;
+}
+/* Chips here are long enough to overflow a narrow phone column, so let them
+   wrap instead of keeping the global nowrap. */
+.chip-pairs .chip { white-space: normal; max-inline-size: 100%; }
+
 /* "قريباً" / "coming soon" and "مثال توضيحي" / "sample" markers.
    These must be unmistakable — the site must never pass placeholder
    content off as real. */
