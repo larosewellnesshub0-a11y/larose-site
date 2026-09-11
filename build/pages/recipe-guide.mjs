@@ -337,7 +337,7 @@ ${JSON.stringify({
 <header class="rg-head">
   <div class="rg-wrap rg-head__inner">
     <a class="rg-brand" href="https://${esc(s.brand.domain)}/">
-      <img src="${A("assets/img/logo/larose-wordmark-280.png")}" alt="${esc(t(s.brand.name, "ar"))}" width="140" height="121">
+      <img src="${A("assets/img/logo/larose-wordmark-280.webp")}" alt="${esc(t(s.brand.name, "ar"))}" width="140" height="121">
     </a>
     <a class="rg-back" href="../">${bi({ ar: "الكتاب الكامل", en: "Full recipe book" })}</a>
     <div class="rg-search" role="search" data-rg-search hidden>
@@ -578,7 +578,7 @@ ${trackingHead(c)}
 </head>
 <body>
 <header class="rg-head"><div class="rg-wrap rg-head__inner">
-  <a class="rg-brand" href="https://${s.brand.domain}/"><img src="../assets/img/logo/larose-wordmark-280.png" alt="${esc(t(s.brand.name, "ar"))}" width="140" height="121"></a>
+  <a class="rg-brand" href="https://${s.brand.domain}/"><img src="../assets/img/logo/larose-wordmark-280.webp" alt="${esc(t(s.brand.name, "ar"))}" width="140" height="121"></a>
   <button class="rg-lang" type="button" data-rg-lang><span class="rg-en">العربية</span><span class="rg-ar">English</span></button>
 </div></header>
 <main id="rg-main" class="rg-landing">
