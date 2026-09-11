@@ -172,6 +172,29 @@ function productFor(c, slug) {
 
 function productImage({ product, locale, depth }) {
   const image = t(product?.image, locale);
+  /* A book is two things to a buyer: what it looks like, and what is inside it.
+     One cover photograph only answers the first, so where a product has extra
+     views they become slides. Radio inputs drive it, not JavaScript: with the
+     script blocked the first slide still shows and the labels still work. */
+  const extra = (product?.gallery || []).map((g) => t(g, locale)).filter(Boolean);
+  if (image && extra.length) {
+    const slides = [image, ...extra];
+    const id = `pg-${t(product?.slug, "en") || "product"}`;
+    const captions = (product?.galleryCaptions || []).map((cpt) => t(cpt, locale));
+    return `<div class="pgal" data-pgal>
+      ${slides.map((src, i) => `<input class="pgal__radio" type="radio" name="${esc(id)}" id="${esc(id)}-${i}"${i === 0 ? " checked" : ""}>`).join("")}
+      <div class="pgal__stage">
+        ${slides.map((src, i) => `<figure class="pgal__slide" data-i="${i}">
+          <div class="arch arch--ruled arch--tall">
+            <img src="${esc(asset(depth, src))}" alt="${esc(captions[i] || t(product?.imageAlt, locale) || t(product?.name, locale))}" width="700" height="875" loading="${i === 0 ? "eager" : "lazy"}" decoding="async">
+          </div>
+        </figure>`).join("")}
+      </div>
+      <div class="pgal__dots">
+        ${slides.map((src, i) => `<label class="pgal__dot" for="${esc(id)}-${i}"><span class="u-sr-only">${esc(captions[i] || String(i + 1))}</span></label>`).join("")}
+      </div>
+    </div>`;
+  }
   if (image) {
     return `<div class="arch arch--ruled arch--tall">
       <img src="${esc(asset(depth, image))}" alt="${esc(t(product?.imageAlt, locale) || t(product?.name, locale))}" width="700" height="875" loading="eager" decoding="async">

@@ -43,6 +43,7 @@
   padding-block: .7rem;
 }
 
+.rg-brand { display: inline-flex; align-items: center; min-block-size: 2.75rem; }
 .rg-brand img { display: block; block-size: 2.6rem; inline-size: auto; }
 
 .rg-search {
@@ -56,6 +57,7 @@
   grid-row: 1;
   min-inline-size: 0;
   inline-size: 100%;
+  min-block-size: 2.75rem;
   padding-block: .55rem;
   padding-inline-start: .85rem;
   padding-inline-end: 2.7rem;
@@ -77,8 +79,8 @@
   place-items: center;
   align-self: center;
   justify-self: end;
-  inline-size: 2rem;
-  block-size: 2rem;
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
   margin-inline-end: .3rem;
   border-radius: var(--r-sm);
   color: var(--ink-muted);
@@ -99,6 +101,10 @@
 }
 
 .rg-lang {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 2.75rem;
   padding-block: .45rem;
   padding-inline: .95rem;
   border: 1px solid var(--line-strong, var(--line));
@@ -175,6 +181,7 @@
   justify-content: space-between;
   padding-block: .7rem;
   padding-inline: .95rem;
+  min-block-size: 2.75rem;
   border: 1px solid var(--line);
   border-radius: var(--r-md);
   color: var(--ink-strong);
@@ -343,6 +350,10 @@
 .rg-cta__actions { display: flex; flex-wrap: wrap; gap: .7rem; justify-content: center; margin-block-start: 1.4rem; }
 
 .rg-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 2.75rem;
   padding-block: .7rem;
   padding-inline: 1.4rem;
   border: 1px solid rgba(246, 244, 236, .45);
@@ -380,6 +391,7 @@
   display: inline-flex;
   gap: .5rem;
   align-items: center;
+  min-block-size: 2.75rem;
   padding-block: .55rem;
   padding-inline: 1rem;
   border: 1px solid var(--line);
@@ -393,7 +405,7 @@
 .rg-watch__btn svg { color: #c00; flex: none; }
 
 /* ---- product landing ---------------------------------------------------- */
-.rg-back { color: var(--ink-strong); font-size: var(--t-sm); font-weight: 600; white-space: nowrap; padding: .55rem .9rem; border: 1px solid var(--line); border-radius: 999px; }
+.rg-back { display: inline-flex; align-items: center; min-block-size: 2.75rem; color: var(--ink-strong); font-size: var(--t-sm); font-weight: 600; white-space: nowrap; padding: .55rem .9rem; border: 1px solid var(--line); border-radius: 999px; }
 .rg-back:hover { background: var(--paper-sunk); }
 .rg-landing__hero { padding-block: clamp(3rem, 7vw, 7rem); background: var(--paper-sunk); }
 .rg-landing__hero-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(240px, .8fr); gap: clamp(2rem, 6vw, 5rem); align-items: center; }

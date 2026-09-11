@@ -588,6 +588,19 @@ export function page(opts) {
   const socialHeight = imageData.height || 675;
   const extraSchemas = schemaItems(schema);
   const ogType = extraSchemas.some((block) => block?.["@type"] === "Article") ? "article" : "website";
+  const fontFiles = locale === "ar"
+    ? ["PlexArabic-400", "Sondos-400"]
+    : ["Montserrat-400", "Romelio-400"];
+  const fontPreloads = fontFiles.map((file) =>
+    `<link rel="preload" as="font" type="font/woff2" href="${asset(depth, `assets/fonts/${file}.woff2`)}" crossorigin>`
+  ).join("\n");
+  /* Hero art is a CSS background, so it cannot carry fetchpriority itself.
+     Discover only the first-page hero in the head and give it the same priority
+     an LCP <img> would receive. */
+  const heroImage = body.match(/class="[^"]*\b(?:hero__media|page-hero__media)\b[^"]*"[^>]*background-image:url\(['"]?([^'"\s)]+)['"]?\)/)?.[1];
+  const heroPreload = heroImage
+    ? `<link rel="preload" as="image" href="${esc(heroImage)}" fetchpriority="high">`
+    : "";
 
   return `<!doctype html>
 <html lang="${locale}" dir="${dir}" data-forms-endpoint="${esc(s.integrations?.formsEndpoint || "")}">
@@ -626,14 +639,15 @@ export function page(opts) {
 <link rel="icon" href="${asset(depth, "assets/img/logo/favicon.svg")}" type="image/svg+xml">
 <link rel="icon" href="${asset(depth, "assets/img/logo/favicon-96.png")}" type="image/png" sizes="96x96">
 <link rel="apple-touch-icon" href="${asset(depth, "assets/img/logo/apple-touch-icon.png")}">
-${trackingHead(c)}
 
-<link rel="preload" as="font" type="font/woff2" href="${asset(depth, `assets/fonts/${locale === "ar" ? "PlexArabic-400" : "Montserrat-400"}.woff2`)}" crossorigin>
+${fontPreloads}
+${heroPreload}
 <link rel="stylesheet" href="${asset(depth, "assets/css/tokens.css")}">
 <link rel="stylesheet" href="${asset(depth, "assets/css/base.css")}">
 <link rel="stylesheet" href="${asset(depth, "assets/css/components.css")}">
 <link rel="stylesheet" href="${asset(depth, "assets/css/layout.css")}">
 
+${trackingHead(c)}
 ${jsonLd({ c, locale, pagePath, schema, body, canonicalUrl: canonical, currentName: title || brand })}
 </head>
 <body class="${bodyClass}">
@@ -651,7 +665,7 @@ ${footer({ c, locale, depth })}
 ${floatingActions({ c, locale, depth })}
 
 <script src="${asset(depth, "assets/js/track.js")}" defer></script>
-<script src="${asset(depth, "assets/js/forms.js")}" defer></script>
+${body.includes("<form") ? `<script src="${asset(depth, "assets/js/forms.js")}" defer></script>` : ""}
 <script src="${asset(depth, "assets/js/site.js")}" defer></script>
 ${body.includes("data-tool=") ? `<script src="${asset(depth, "assets/js/tools.js")}" defer></script>` : ""}
 </body>

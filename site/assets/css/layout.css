@@ -22,7 +22,7 @@
 .utility-bar a:hover { color: #fff; }
 .utility-bar__links { display: flex; align-items: center; gap: clamp(.85rem, 2vw, 1.75rem); }
 .utility-bar__meta  { display: flex; align-items: center; gap: 1rem; }
-.utility-bar__meta a { display: inline-flex; align-items: center; gap: .45em; }
+.utility-bar__meta a { display: inline-flex; align-items: center; gap: .45em; min-block-size: 2.75rem; }
 .utility-bar .ico { width: .95em; height: .95em; }
 
 .lang-switch {
@@ -240,18 +240,6 @@
   min-inline-size: 8rem;
   justify-content: center;
 }
-.header-phone {
-  display: none;
-  align-items: center;
-  gap: .5rem;
-  font-size: var(--t-sm);
-  font-weight: 600;
-  color: var(--ink-strong);
-  letter-spacing: .02em;
-}
-.header-phone svg { width: 1.05rem; height: 1.05rem; color: var(--olive-600); }
-.header-phone:hover { color: var(--olive-700); }
-
 /* -- burger ---------------------------------------------------------------- */
 .burger {
   width: 2.85rem; height: 2.85rem;
@@ -361,7 +349,7 @@
 }
 .drawer-nav__toggle .nav__caret { flex: none; }
 .drawer-nav__list { display: grid; gap: .1rem; padding-bottom: 1rem; }
-.drawer-nav__list a { padding: .6rem .9rem; border-radius: var(--r-md); font-size: var(--t-sm); color: var(--ink-muted); }
+.drawer-nav__list a { display: flex; align-items: center; min-block-size: 2.75rem; padding: .6rem .9rem; border-radius: var(--r-md); font-size: var(--t-sm); color: var(--ink-muted); }
 .drawer-nav__list a:hover { background: var(--olive-050); color: var(--olive-900); }
 .drawer-nav__panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows var(--dur-3) var(--ease-out); }
 .drawer-nav__panel > div { overflow: hidden; }
@@ -577,11 +565,9 @@ body.is-locked { overflow: hidden; }
 
 .section--sunk { background: var(--paper-sunk); }
 .section--tint { background: var(--olive-050); }
-.section--rose { background: var(--rose-100); }
 
 /* a hairline divider between same-coloured sections */
 .rule { height: 1px; background: var(--line); border: 0; margin: 0; }
-.rule--gold { background: linear-gradient(to right, transparent, var(--champagne-400) 22%, var(--champagne-400) 78%, transparent); }
 
 /* ==========================================================================
    7. CTA BAND
@@ -702,13 +688,6 @@ body.is-locked { overflow: hidden; }
 .social a:hover { background: var(--champagne-500); border-color: var(--champagne-500); color: var(--olive-950); transform: translateY(-2px); }
 .social svg { width: 1.05rem; height: 1.05rem; }
 
-.site-footer__disclaimer {
-  border-top: 1px solid rgba(246,244,236,.12);
-  padding-block: 1.75rem;
-  font-size: var(--t-xs);
-  color: rgba(246,244,236,.5);
-  line-height: var(--lh-snug);
-}
 .site-footer__bar {
   border-top: 1px solid rgba(246,244,236,.12);
   padding-block: 1.25rem;
@@ -879,7 +858,6 @@ body.is-locked { overflow: hidden; }
 /* On an interior page the name belongs in the footer and header, not repeated
    in every page hero — but the branch and contact pages benefit from it. */
 .hero__brand + .eyebrow { color: var(--champagne-400); margin-bottom: .9rem; }
-.page-hero__brand { color: var(--champagne-400); font-size: var(--t-sm); font-weight: 600; }
 
 /* The specialty tab bar is sticky, so body text scrolls directly beneath it.
    The clear-glass tint let that text read through and made both illegible.
@@ -949,6 +927,3 @@ body.is-locked { overflow: hidden; }
   background-size: cover;
   background-position: center;
 }
-
-/* Arabic hero: the English wordmark name sits under the Arabic name. */
-.hero__brand-en { display: block; margin-top: .35rem; font-family: var(--font-display); font-weight: 400; letter-spacing: .02em; opacity: .92; font-size: .82em; }
