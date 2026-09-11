@@ -232,6 +232,57 @@ export function imageIfExists(relPath) {
   } catch { return null; }
 }
 
+/* ---- intrinsic image size -------------------------------------------------
+   Every <img> needs width and height or the page reflows as images arrive.
+   Hard-coding them breaks the moment an image is regenerated at a new size, so
+   read the real dimensions off the file instead. Pure header parsing, no
+   dependency: WebP (VP8, VP8L and VP8X), PNG and JPEG are all the site uses.
+   Results are cached because the same frame appears on many pages.
+   ------------------------------------------------------------------------- */
+const sizeCache = new Map();
+
+export function imageSize(relPath) {
+  if (!relPath) return null;
+  if (sizeCache.has(relPath)) return sizeCache.get(relPath);
+  let out = null;
+  try {
+    const b = fs.readFileSync(path.join(OUT_DIR, relPath));
+    if (b.length > 30 && b.toString("ascii", 0, 4) === "RIFF" && b.toString("ascii", 8, 12) === "WEBP") {
+      const kind = b.toString("ascii", 12, 16);
+      if (kind === "VP8X") {
+        out = { w: 1 + (b[24] | (b[25] << 8) | (b[26] << 16)), h: 1 + (b[27] | (b[28] << 8) | (b[29] << 16)) };
+      } else if (kind === "VP8 ") {
+        out = { w: b.readUInt16LE(26) & 0x3fff, h: b.readUInt16LE(28) & 0x3fff };
+      } else if (kind === "VP8L") {
+        const bits = b.readUInt32LE(21);
+        out = { w: (bits & 0x3fff) + 1, h: ((bits >> 14) & 0x3fff) + 1 };
+      }
+    } else if (b.length > 24 && b.readUInt32BE(0) === 0x89504e47) {
+      out = { w: b.readUInt32BE(16), h: b.readUInt32BE(20) };
+    } else if (b.length > 4 && b[0] === 0xff && b[1] === 0xd8) {
+      let i = 2;
+      while (i < b.length - 9) {
+        if (b[i] !== 0xff) { i++; continue; }
+        const marker = b[i + 1];
+        if (marker >= 0xc0 && marker <= 0xcf && marker !== 0xc4 && marker !== 0xc8 && marker !== 0xcc) {
+          out = { w: b.readUInt16BE(i + 7), h: b.readUInt16BE(i + 5) };
+          break;
+        }
+        i += 2 + b.readUInt16BE(i + 2);
+      }
+    }
+  } catch { out = null; }
+  sizeCache.set(relPath, out);
+  return out;
+}
+
+/** width and height attributes for an <img>, or an empty string if the file
+    cannot be measured. Keeps the caller free of branching. */
+export function sizeAttrs(relPath) {
+  const s = imageSize(relPath);
+  return s ? ` width="${s.w}" height="${s.h}"` : "";
+}
+
 /** The illustrative frame for a specialty. Falls back to the shared branded
     placeholder so no card is ever image-less; a generated frame replaces it
     automatically the moment it lands on disk. */

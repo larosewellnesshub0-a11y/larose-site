@@ -54,7 +54,7 @@ function rootIndex(c) {
      listing, so it says what the clinic actually offers. Built from the live
      specialty list, so it cannot drift out of date the way a literal would. */
   // Six is what fits inside a description; the rest are one click away.
-  const description = "عيادات لاروز في المعادي والتجمع الخامس: كشف بياخد وقته مع طبيب متخصص، تغذية علاجية وباطنة وأطفال وجراحة، وحجز أونلاين في دقيقة.";
+  const description = "عيادات لاروز التخصصية في المعادي والتجمع الخامس. اختار لغتك وادخل على الخدمات والأطباء والفروع والحجز أونلاين.";
   const socialImage = `${base}/assets/img/clinic/hero-clinic-1200.webp`;
   return `<!doctype html>
 <html lang="ar" dir="rtl">

@@ -673,7 +673,7 @@ function faqPage({ c, locale, entries }) {
   const label = t(c.site.ui.tabFaq, locale);
   const title = t({
     ar: "الأسئلة الشائعة في المركز المعرفي",
-    en: "Knowledge Centre frequently asked questions",
+    en: "Medical questions and answers",
   }, locale);
   const groups = faqGroups(c, entries);
   const allFaq = groups.flatMap((group) => group.items);

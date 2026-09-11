@@ -4,8 +4,7 @@
    change lands everywhere at once.
    ========================================================================== */
 
-import { t, ta, esc, link, asset, icon, sprig, stars, map, when, published, specialtyImage, bannerImage
-} from "./util.mjs";
+import { t, ta, esc, link, asset, icon, sprig, stars, map, when, published, specialtyImage, bannerImage, sizeAttrs } from "./util.mjs";
 
 /* --------------------------------------------------------------------------
    Section heading
@@ -203,8 +202,8 @@ export function beforeAfter({ c, locale, depth, pair, index = 0, label = null })
     </div>`;
   }
   return `<div class="ba${pair.orientation === "portrait" ? " ba--portrait" : ""}" data-before-after data-reveal>
-    <img class="ba__before" src="${asset(depth, pair.before)}" alt="${esc(t(s.ui.before, locale))}" loading="lazy" decoding="async">
-    <img class="ba__after"  src="${asset(depth, pair.after)}"  alt="${esc(t(s.ui.after, locale))}"  loading="lazy" decoding="async">
+    <img class="ba__before" src="${asset(depth, pair.before)}"${sizeAttrs(pair.before)} alt="${esc(t(s.ui.before, locale))}" loading="lazy" decoding="async">
+    <img class="ba__after"  src="${asset(depth, pair.after)}"${sizeAttrs(pair.after)}  alt="${esc(t(s.ui.after, locale))}"  loading="lazy" decoding="async">
     ${when(pair.sample, `<span class="badge-sample">${esc(t(s.ui.sample, locale))}</span>`)}
     <span class="ba__label ba__label--before">${esc(t(s.ui.before, locale))}</span>
     <span class="ba__label ba__label--after">${esc(t(s.ui.after, locale))}</span>
@@ -264,7 +263,7 @@ export function finder({ c, locale, depth }) {
         <label class="field__label" for="f-specialty">${esc(t(s.ui.selectSpecialty, locale))}</label>
         <select class="select" id="f-specialty" name="specialty" data-finder-specialty>
           <option value="">${esc(t({ ar: "كل التخصصات", en: "All specialties" }, locale))}</option>
-          ${map(specs, (sp) => `<option value="${esc(sp.slug)}">${esc(t(sp.name, locale))}${!sp.staffed ? ` — ${esc(t(s.ui.comingSoon, locale))}` : ""}</option>`)}
+          ${map(specs, (sp) => `<option value="${esc(sp.slug)}">${esc(t(sp.name, locale))}${!sp.staffed ? ` · ${esc(t(s.ui.comingSoon, locale))}` : ""}</option>`)}
         </select>
       </div>
 

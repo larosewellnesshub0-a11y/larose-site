@@ -250,7 +250,7 @@ function footer({ c, locale, depth }) {
     <div class="site-footer__grid">
 
       <div class="site-footer__brand">
-        <img src="${asset(depth, s.brand.logo.wordmarkWhiteSmall || s.brand.logo.wordmarkWhite)}" alt="${esc(t(s.brand.name, locale))}" width="280" height="242">
+        <img src="${asset(depth, s.brand.logo.wordmarkWhiteSmall || s.brand.logo.wordmarkWhite)}" alt="${esc(t(s.brand.name, locale))}" width="280" height="242" loading="lazy" decoding="async">
         <p class="site-footer__blurb">${esc(t(s.footer.blurb, locale))}</p>
         <div class="social">
           <a href="${esc(s.social.instagram)}" target="_blank" rel="noopener" aria-label="Instagram">${icon("instagram")}</a>
@@ -367,13 +367,25 @@ function completeMetaDescription({ description, fallback, title, brand, locale, 
   const source = decodeHtml(description || fallback);
   if (source.length <= META_DESCRIPTION_MAX) return source;
 
+  /* Stopping at the first full stop produced snippets like "No." and "Dr.".
+     A snippet has to carry a thought, so keep extending past sentence ends that
+     leave it too short, and never treat the dot in an abbreviation as one. */
+  const MIN_USEFUL = 60;
+  const ABBREVIATIONS = /(?:^|\s)(?:Dr|Prof|Mr|Mrs|Ms|St|vs|etc|e\.g|i\.e|No)$/i;
   let sentenceEnd = 0;
   for (const match of source.matchAll(/[.!?؟](?=\s|$)/gu)) {
     const end = match.index + match[0].length;
     if (end > META_DESCRIPTION_MAX) break;
+    if (ABBREVIATIONS.test(source.slice(0, match.index))) continue;
     sentenceEnd = end;
+    if (end >= MIN_USEFUL) break;
   }
-  if (sentenceEnd) return source.slice(0, sentenceEnd).trim();
+  if (sentenceEnd >= MIN_USEFUL) return source.slice(0, sentenceEnd).trim();
+  /* No sentence boundary gives a usable length, so trim on a word instead. */
+  if (source.length > META_DESCRIPTION_MAX) {
+    const cut = source.lastIndexOf(" ", META_DESCRIPTION_MAX);
+    if (cut >= MIN_USEFUL) return source.slice(0, cut).trim();
+  }
 
   const heading = /<h1\b[^>]*>([\s\S]*?)<\/h1>/i.exec(body || "")?.[1];
   const subject = decodeHtml(heading || title || brand).replace(/\s*\|\s*.*$/, "");
@@ -429,7 +441,7 @@ function branchClinicSchema({ c, locale, branch, currentUrl, organisationId }) {
   return {
     "@type": "MedicalClinic",
     "@id": `${currentUrl}#medical-clinic`,
-    name: `${t(c.site.brand.name, locale)} — ${t(branch.name, locale)}`,
+    name: `${t(c.site.brand.name, locale)}, ${t(branch.name, locale)}`,
     url: currentUrl,
     telephone: branch.phone?.tel || c.site.contact.phone.tel || undefined,
     address: branchAddress(branch, locale),

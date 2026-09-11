@@ -375,7 +375,7 @@ ${JSON.stringify({
       <div class="rg-hero__fan">
         ${when(spread, `<img class="rg-hero__fan-back" src="${A(spread)}" alt="" width="1200" height="1500" loading="lazy" decoding="async" aria-hidden="true">`)}
         ${when(openBook, `<img class="rg-hero__fan-mid" src="${A(openBook)}" alt="" width="1200" height="1500" loading="lazy" decoding="async" aria-hidden="true">`)}
-        <img class="rg-hero__cover" src="${A(cover)}" alt="${esc(t(COPY.title, "en"))}" width="700" height="1050" decoding="async">
+        <img class="rg-hero__cover" src="${A(cover)}" alt="${esc(t(COPY.title, "en"))}" width="700" height="1050" loading="eager" fetchpriority="high" decoding="async">
       </div>
     </div>
   </section>
