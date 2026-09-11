@@ -31,6 +31,7 @@ const COPY = {
   answerBy: { ar: "الإجابة من", en: "Answered by" },
   writtenBy: { ar: "كتبه", en: "Written by" },
   related: { ar: "محتوى ممكن يهمك", en: "You may also find helpful" },
+  relatedCare: { ar: "تخصصات لها علاقة بالموضوع", en: "Related care" },
   moreTips: { ar: "نصايح الأيام اللي فاتت", en: "More daily tips" },
   faqs: { ar: "الأسئلة الشائعة", en: "Frequently asked questions" },
   general: { ar: "صحة عامة", en: "General health" },
@@ -850,6 +851,25 @@ function answerSummary(entry, locale) {
   return body.slice(0, at > 0 ? at : 155).trim().replace(/[\s،,:;\-]+$/, "");
 }
 
+/* Articles already name the specialties they relate to in content/articles.json.
+   Render those references as useful, descriptive links rather than making a
+   reader return to the general specialties hub to find the relevant care. */
+function relatedCareLinks({ c, entry, locale, depth }) {
+  const slugs = ta(entry?.specialties, "en");
+  const specialties = slugs
+    .map((slug) => published(c.specialties).find((specialty) => t(specialty.slug, "en") === slug))
+    .filter(Boolean);
+  if (!specialties.length) return "";
+  return `<section class="section section--tight" style="padding-top:0">
+  <div class="wrap wrap--narrow">
+    ${sectionHead({ title: t(COPY.relatedCare, locale) })}
+    <div class="cluster">
+      ${map(specialties, (specialty) => `<a class="chip" href="${esc(link(depth, `specialties/${t(specialty.slug, "en")}.html`))}">${esc(t(specialty.name, locale))}</a>`)}
+    </div>
+  </div>
+</section>`;
+}
+
 function detailPage({ c, locale, categories, entries, entry }) {
   const depth = 1;
   const slug = entrySlug(entry);
@@ -888,10 +908,22 @@ function detailPage({ c, locale, categories, entries, entry }) {
   // question twice and dropped the doctor's answer entirely.
   const fallbackBody = sections.map((section) => sectionBody(section, locale)).filter(Boolean).join("\n\n")
     || entryExcerpt(entry, locale);
-  const related = newest(entries
-    .filter((candidate) => entrySlug(candidate) !== slug)
-    .filter((candidate) => entryCategorySlug(candidate) === entryCategorySlug(entry)))
-    .slice(0, 3);
+  const otherEntries = entries.filter((candidate) => entrySlug(candidate) !== slug);
+  const sameCategory = otherEntries
+    .filter((candidate) => entryCategorySlug(candidate) === entryCategorySlug(entry));
+  const sameCategoryArticles = sameCategory.filter((candidate) => entryType(candidate) === "article");
+  const specialtySlugs = new Set(ta(entry?.specialties, "en"));
+  const sharedSpecialtyArticles = otherEntries.filter((candidate) =>
+    entryType(candidate) === "article"
+    && ta(candidate?.specialties, "en").some((specialty) => specialtySlugs.has(specialty))
+  );
+  /* Prefer a long-form article in the same category. The one general-health
+     Q&A has no category peer, so it falls back to a long-form article sharing
+     its existing specialty reference. */
+  const relatedPool = sameCategoryArticles.length
+    ? sameCategoryArticles
+    : sameCategory.length ? sameCategory : sharedSpecialtyArticles;
+  const related = newest(relatedPool).slice(0, 3);
 
   const body = `
 <section class="section section--tight">
@@ -963,6 +995,7 @@ ${when(faq.length, `<section class="section section--sunk">
   </div>
 </section>`)}
 
+${relatedCareLinks({ c, entry, locale, depth })}
 
 
 ${shareBlock({ c, locale, url: `${base}/${locale}/${pagePath.replace(/\.html$/, "")}`, title })}
