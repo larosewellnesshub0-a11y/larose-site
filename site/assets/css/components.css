@@ -1499,8 +1499,19 @@
   gap: clamp(2rem, 5vw, 4rem);
 }
 .article-layout > .prose { min-width: 0; }
+.article-toc { position: static; }
 @media (min-width: 900px) {
   .article-layout { grid-template-columns: minmax(13rem, 16rem) minmax(0, 1fr); }
+  .article-toc { position: sticky; top: 7rem; }
+}
+@media (max-width: 899px) {
+  /* A sticky table of contents follows the reader on a phone and can cover
+     half the viewport. Keep it in normal flow so the article always owns the
+     screen while scrolling. Two short columns keep the index useful without
+     turning it into a tall block above the first paragraph. */
+  .article-toc { position: static !important; max-height: none; overflow: visible; }
+  .article-toc .prose ol { columns: 2; column-gap: 1.5rem; }
+  .article-toc .prose ol li { break-inside: avoid; }
 }
 
 /* ---- product gallery -------------------------------------------------------
