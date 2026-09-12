@@ -20,6 +20,7 @@ export function loadContent() {
   // Keep the September knowledge-centre expansion in its own source file so
   // editorial batches remain reviewable without rewriting the core library.
   const articleExpansion = read("articles-expansion-2026-09-11.json");
+  const longformExpansion = read("articles-longform-2026-09-12.json");
   // Add two substantive safety-and-follow-up sections to every article in this
   // editorial batch. They deliberately support (rather than replace) each
   // article's topic-specific sections and make the guidance useful in a real
@@ -46,7 +47,11 @@ export function loadContent() {
       }
     ]
   }));
-  articles.articles = [...(articles.articles || []), ...expansionArticles];
+  articles.articles = [
+    ...(articles.articles || []),
+    ...expansionArticles,
+    ...(longformExpansion.articles || []),
+  ];
   // Editorial images are hand-managed beneath `assets/img/articles/`. A small
   // legacy set was recorded without that directory; resolve it here so every
   // generated route advertises the real public asset rather than a dead URL.
