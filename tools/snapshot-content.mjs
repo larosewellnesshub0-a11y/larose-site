@@ -21,7 +21,7 @@ const destination = path.join(ROOT, "site", "dashboard", "content", "index.json"
 
 /* Already visible in the built HTML, so publishing it again costs nothing. */
 const PUBLIC = new Set([
-  "articles.json", "branches.json", "digital.json", "doctors.json",
+  "articles.json", "articles-expansion-2026-09-11.json", "branches.json", "digital.json", "doctors.json",
   "pages.json", "recipe-guide.json", "reviews.json", "site.json",
   "specialties.json", "tips.json",
 ]);
