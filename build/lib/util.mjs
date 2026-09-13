@@ -19,6 +19,7 @@ export function loadContent() {
   const articles = read("articles.json");
   const fattyLiverRewrite = read("articles-fatty-liver-rewrite-2026-09-14.json");
   const ultrasoundRewrite = read("articles-ultrasound-rewrite-2026-09-14.json");
+  const darkNeckRewrite = read("articles-dark-neck-rewrite-2026-09-14.json");
   // Keep the September knowledge-centre expansion in its own source file so
   // editorial batches remain reviewable without rewriting the core library.
   const articleExpansion = read("articles-expansion-2026-09-11.json");
@@ -50,9 +51,10 @@ export function loadContent() {
     ]
   }));
   articles.articles = [
-    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows"].includes(article.slug)),
+    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance"].includes(article.slug)),
     ...(fattyLiverRewrite.articles || []),
     ...(ultrasoundRewrite.articles || []),
+    ...(darkNeckRewrite.articles || []),
     ...expansionArticles,
     ...(longformExpansion.articles || []),
   ];

@@ -26,6 +26,7 @@ ARTICLE_FILES = (
     "articles.json",
     "articles-fatty-liver-rewrite-2026-09-14.json",
     "articles-ultrasound-rewrite-2026-09-14.json",
+    "articles-dark-neck-rewrite-2026-09-14.json",
     "articles-expansion-2026-09-11.json",
     "articles-longform-2026-09-12.json",
 )
