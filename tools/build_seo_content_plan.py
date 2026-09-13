@@ -147,18 +147,38 @@ def main():
     overview["B1"].fill = PatternFill("solid", fgColor="556B5B")
 
     inventory = wb.create_sheet("Current URL inventory")
-    inventory.append(["Type", "Cluster", "Sub-cluster", "Slug", "Title (EN)", "Title (AR)", "Canonical EN", "Canonical AR", "Published", "English words", "Internal-link role"])
+    inventory.append(["Type", "Cluster", "Sub-cluster", "Slug", "Title (EN)", "Title (AR)", "Canonical EN", "Canonical AR", "Published", "English words", "Source count", "Long-form readiness", "Internal-link role"])
     for article in sorted(articles, key=lambda a: (a.get("category", ""), a.get("slug", ""))):
         cat = article.get("category", "general")
         tags = value(article.get("tags"), "en")
+        source_count = len(article.get("sources", []))
+        is_long_form = article.get("type") in {"article", "update"}
+        readiness = ("Not in long-form scope" if not is_long_form else
+                     "Ready" if words(article) >= 1200 and source_count >= 10 else
+                     f"Needs {max(0, 1200 - words(article))} words; {max(0, 10 - source_count)} sources")
         inventory.append([
             article.get("type"), cat, ", ".join(tags[:3]) if isinstance(tags, list) else "",
             article.get("slug"), value(article.get("title"), "en"), value(article.get("title"), "ar"),
             canonical(article.get("slug"), "en"), canonical(article.get("slug"), "ar"),
-            article.get("published"), words(article),
+            article.get("published"), words(article), source_count, readiness,
             "Hub" if article.get("slug", "").startswith("category-") else "Supporting page",
         ])
-    style_sheet(inventory, [12, 25, 30, 42, 54, 54, 58, 58, 12, 14, 20])
+    style_sheet(inventory, [12, 25, 30, 42, 54, 54, 58, 58, 12, 14, 14, 30, 20])
+
+    readiness_sheet = wb.create_sheet("Editorial readiness")
+    readiness_sheet.append(["Priority", "Type", "Cluster", "Slug", "Title (EN)", "Canonical EN", "English words", "Source count", "Required words", "Required sources", "Status", "Next action"])
+    long_form = [a for a in articles if a.get("type") in {"article", "update"}]
+    long_form.sort(key=lambda a: (words(a) >= 1200 and len(a.get("sources", [])) >= 10, a.get("category", ""), a.get("slug", "")))
+    for article in long_form:
+        count = words(article)
+        source_count = len(article.get("sources", []))
+        complete = count >= 1200 and source_count >= 10
+        readiness_sheet.append([
+            "Completed" if complete else "Rewrite queue", article.get("type"), article.get("category"), article.get("slug"),
+            value(article.get("title"), "en"), canonical(article.get("slug")), count, source_count, 1200, 10,
+            "Ready" if complete else "Incomplete", "Keep canonical URL; run SERP review, write original update, add numbered citations and contextual internal links." if not complete else "Monitor GSC and refresh when evidence or SERP intent changes.",
+        ])
+    style_sheet(readiness_sheet, [16, 12, 25, 42, 54, 58, 15, 14, 15, 16, 16, 76])
 
     plan = wb.create_sheet("Keyword allocation")
     headers = ["Priority", "Keyword", "Language", "Intent", "Cluster", "Sub-cluster / seed", "Local", "Keyword type", "Words", "Target status", "Locked canonical EN", "Locked canonical AR", "Assignment confidence", "Keyword Planner avg monthly searches", "Keyword Planner competition", "Keyword Planner low bid", "Keyword Planner high bid", "GSC clicks", "GSC impressions", "GSC CTR", "GSC average position", "Decision"]
