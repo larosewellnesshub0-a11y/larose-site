@@ -117,6 +117,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--keywords", type=Path, default=ROOT / "_project" / "KEYWORD-RESEARCH-2026-09-10.xlsx")
     parser.add_argument("--output", type=Path, default=ROOT / "_project" / f"SEO-CONTENT-CLUSTER-PLAN-{date.today():%Y-%m-%d}.xlsx")
+    parser.add_argument("--gsc-snapshot", type=Path, default=ROOT / "_project" / "GSC-SNAPSHOT-2026-09-14.json")
     args = parser.parse_args()
 
     articles = read_articles()
@@ -145,6 +146,21 @@ def main():
     overview["A1"].fill = PatternFill("solid", fgColor="556B5B")
     overview["B1"].font = Font(bold=True, color="FFFFFF")
     overview["B1"].fill = PatternFill("solid", fgColor="556B5B")
+
+    if args.gsc_snapshot.exists():
+        snapshot = json.loads(args.gsc_snapshot.read_text(encoding="utf-8"))
+        gsc = wb.create_sheet("GSC snapshot")
+        gsc.append(["Search Console snapshot", snapshot.get("observedOn", "")])
+        for label, key in (("Property", "property"), ("Source", "source"), ("Report range", "reportRange"), ("Last update", "lastUpdate"), ("Indexing observation", "indexingObservation"), ("Keyword Planner observation", "keywordPlannerObservation")):
+            gsc.append([label, snapshot.get(key, "")])
+        gsc.append(["Clicks", "Impressions", "CTR", "Average position"])
+        totals = snapshot.get("totals", {})
+        gsc.append([totals.get("clicks", ""), totals.get("impressions", ""), totals.get("ctr", ""), totals.get("averagePosition", "")])
+        gsc.append([])
+        gsc.append(["Query", "Clicks", "Impressions"])
+        for query, clicks, impressions in snapshot.get("queries", []):
+            gsc.append([query, clicks, impressions])
+        style_sheet(gsc, [50, 24, 18, 20])
 
     inventory = wb.create_sheet("Current URL inventory")
     inventory.append(["Type", "Cluster", "Sub-cluster", "Slug", "Title (EN)", "Title (AR)", "Canonical EN", "Canonical AR", "Published", "English words", "Source count", "Long-form readiness", "Internal-link role"])
