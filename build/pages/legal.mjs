@@ -7,6 +7,11 @@ import { page } from "../lib/shell.mjs";
 import { pageHero } from "../lib/components.mjs";
 
 const COPY = {
+  cookies: {
+    title: { ar: "سياسة ملفات تعريف الارتباط", en: "Cookie policy" },
+    eyebrow: { ar: "ملفات تعريف الارتباط والتقنيات المشابهة", en: "Cookies and similar technologies" },
+    text: { ar: "توضيح لملفات تعريف الارتباط التي قد تستخدمها خدمات التحليلات على الموقع.", en: "An explanation of cookies and similar technologies used by the website's analytics services." },
+  },
   privacy: {
     title: { ar: "سياسة الخصوصية", en: "Privacy policy" },
     eyebrow: { ar: "بياناتك وخصوصيتك", en: "Your data and privacy" },
@@ -63,8 +68,8 @@ export function pages({ c, locale }) {
 
 <h2>${esc(t({ ar: "ملفات تعريف الارتباط والتتبّع", en: "Cookies and tracking" }, locale))}</h2>
 <p>${esc(t({
-    ar: "الموقع ما بيحطّش ملفات تعريف ارتباط للتحليلات أو الإعلانات. فتحك لروابط خارجية، زي واتساب أو خرائط جوجل أو إنستجرام أو يوتيوب، بينقلك لخدمة لها سياسة خصوصية وشروط مستقلة عن الموقع.",
-    en: "The site sets no analytics or advertising cookies. Opening an external link: such as WhatsApp, Google Maps, Instagram or YouTube: takes you to a service with its own privacy policy and terms, separate from this website.",
+    ar: "الموقع يستخدم Google Analytics وMicrosoft Clarity لقياس الزيارات بشكل مجمع وتحسين الاستخدام، وقد تستخدم هذه الخدمات ملفات تعريف ارتباط أو تقنيات مشابهة. فتحك لروابط خارجية، زي واتساب أو خرائط جوجل أو إنستجرام أو يوتيوب، بينقلك لخدمة لها سياسة خصوصية وشروط مستقلة عن الموقع. راجع سياسة ملفات تعريف الارتباط للتفاصيل.",
+    en: "The website uses Google Analytics and Microsoft Clarity to measure visits in aggregate and improve usability. These services may use cookies or similar technologies. Opening an external link, such as WhatsApp, Google Maps, Instagram or YouTube, takes you to a service with its own privacy policy and terms. Read the Cookie Policy for details.",
   }, locale))}</p>
 
 <h2>${esc(t({ ar: "نماذج الحجز والتواصل", en: "Booking and contact forms" }, locale))}</h2>
@@ -86,6 +91,20 @@ export function pages({ c, locale }) {
 <h2>${esc(t({ ar: "أسئلة عن بياناتك", en: "Questions about your data" }, locale))}</h2>
 <p>${esc(t({ ar: "لو عندك سؤال عن محادثة سبق وبعتها للعيادة أو عن البيانات الموجودة فيها، تواصل مع الفريق مباشرة على رقم العيادة أو واتساب.", en: "If you have a question about a conversation you previously sent to the clinic or the information in it, contact the team directly by the clinic phone number or WhatsApp." }, locale))}</p>
 <p><a href="tel:${esc(s.contact.phone.tel)}"><bdi class="num">${esc(s.contact.phone.display)}</bdi></a> · <a href="${esc(s.contact.whatsapp.href)}" target="_blank" rel="noopener">${esc(t(s.ui.whatsapp, locale))}</a></p>`;
+
+  const cookiesContent = `
+<h2>${esc(t({ ar: "ما هي ملفات تعريف الارتباط؟", en: "What are cookies?" }, locale))}</h2>
+<p>${esc(t({ ar: "ملفات تعريف الارتباط هي ملفات نصية صغيرة قد يخزنها المتصفح عند زيارة موقع. تساعد بعض الملفات الأساسية الموقع على العمل، وتساعد ملفات أخرى على قياس استخدام الصفحات وتحسينها.", en: "Cookies are small text files a browser may store when you visit a website. Some support essential website functions; others help measure how pages are used and improved." }, locale))}</p>
+
+<h2>${esc(t({ ar: "ملفات التحليلات على هذا الموقع", en: "Analytics cookies on this website" }, locale))}</h2>
+<p>${esc(t({ ar: "يستخدم الموقع Google Analytics وMicrosoft Clarity لقياس الزيارات بصورة مجمعة، وفهم الصفحات التي يزورها الناس، واكتشاف مشاكل الاستخدام. قد تستخدم هذه الخدمات ملفات تعريف ارتباط أو تقنيات مشابهة وفقاً لإعدادات المتصفح والخدمة. لا نستخدم ملفات تعريف ارتباط للإعلانات المخصصة على الموقع.", en: "This website uses Google Analytics and Microsoft Clarity to measure visits in aggregate, understand which pages people use and identify usability issues. These services may use cookies or similar technologies according to their service and browser settings. The website does not use advertising-personalisation cookies." }, locale))}</p>
+
+<h2>${esc(t({ ar: "التحكم في ملفات تعريف الارتباط", en: "Managing cookies" }, locale))}</h2>
+<p>${esc(t({ ar: "يمكنك حذف ملفات تعريف الارتباط أو حجبها من إعدادات المتصفح. قد يؤثر الحجب على طريقة عمل بعض المواقع. يمكنك أيضاً مراجعة أدوات التحكم والخصوصية الخاصة بـ Google وMicrosoft لمعرفة الخيارات المتاحة لديهم.", en: "You can delete or block cookies in your browser settings. Blocking them may affect how some websites work. You can also review Google and Microsoft privacy controls for the choices each service provides." }, locale))}</p>
+
+<h2>${esc(t({ ar: "مزيد من المعلومات", en: "More information" }, locale))}</h2>
+<p>${esc(t({ ar: "للتفاصيل عن البيانات الشخصية وطرق التواصل معنا، راجع سياسة الخصوصية. ولشروط استخدام الموقع، راجع شروط الاستخدام.", en: "For details about personal data and how to contact us, read the privacy policy. For rules covering use of this website, read the terms of use." }, locale))}</p>
+<p><a href="${link(depth, "legal/privacy.html")}">${esc(t({ ar: "سياسة الخصوصية", en: "Privacy policy" }, locale))}</a> · <a href="${link(depth, "legal/terms.html")}">${esc(t({ ar: "شروط الاستخدام", en: "Terms of use" }, locale))}</a></p>`;
 
   const termsContent = `
 <h2>${esc(t({ ar: "الغرض من الموقع", en: "Purpose of the website" }, locale))}</h2>
@@ -142,6 +161,10 @@ export function pages({ c, locale }) {
     legalHero({ c, locale, depth, copy: COPY.privacy, href: "legal/privacy.html" }),
     privacyContent,
   );
+  const cookiesBody = legalBody(
+    legalHero({ c, locale, depth, copy: COPY.cookies, href: "legal/cookies.html" }),
+    cookiesContent,
+  );
   const termsBody = legalBody(
     legalHero({ c, locale, depth, copy: COPY.terms, href: "legal/terms.html" }),
     termsContent,
@@ -153,12 +176,21 @@ export function pages({ c, locale }) {
 
   const documents = [
     {
+      slug: "cookies",
+      copy: COPY.cookies,
+      body: cookiesBody,
+      description: {
+        ar: "سياسة ملفات تعريف الارتباط لموقع عيادات لاروز، بما في ذلك استخدام Google Analytics وMicrosoft Clarity وخيارات التحكم من المتصفح.",
+        en: "La Rose Cookie Policy: Google Analytics and Microsoft Clarity cookies, their purpose and browser controls.",
+      },
+    },
+    {
       slug: "privacy",
       copy: COPY.privacy,
       body: privacyBody,
       description: {
-        ar: "سياسة خصوصية موقع عيادات لاروز: موقع ثابت بلا تحليلات أو إعلانات، ولا يخزّن النماذج على سيرفر؛ الرسائل تُرسل من واتساب الخاص بالزائر.",
-        en: "La Rose website privacy policy: a static site with no analytics or advertising cookies and no server-side form storage; visitors send messages through WhatsApp.",
+        ar: "سياسة خصوصية موقع عيادات لاروز: موقع ثابت يستخدم تحليلات مجمعة لتحسين الاستخدام، ولا يخزّن النماذج على سيرفر؛ الرسائل تُرسل من واتساب الخاص بالزائر.",
+        en: "La Rose website privacy policy: a static site using aggregate analytics to improve usability and no server-side form storage; visitors send messages through WhatsApp.",
       },
     },
     {

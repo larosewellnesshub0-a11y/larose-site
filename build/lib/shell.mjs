@@ -317,7 +317,7 @@ function floatingActions({ c, locale, depth }) {
     ${icon("whatsapp")}<span>${esc(t(s.ui.whatsappShort, locale))}</span>
   </a>
   <a class="action-bar__item action-bar__item--cta" href="${link(depth, "patients/booking.html")}">
-    ${icon("calendar")}<span>${esc(t(s.ui.bookNow, locale))}</span>
+    ${icon("calendar")}<span>${esc(t(s.ui.bookActionBar || s.ui.bookNow, locale))}</span>
   </a>
 </nav>`;
 }

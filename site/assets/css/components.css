@@ -1045,6 +1045,8 @@
     background: var(--rose-500, #CB8587);
     color: #fff;
   }
+  /* The English booking CTA is intentionally a compact single-line label. */
+  .action-bar__item--cta span { white-space: nowrap; }
 
   /* The floating buttons and the bar would stack on top of each other. */
   .floating-actions { display: none; }

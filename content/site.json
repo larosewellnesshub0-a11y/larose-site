@@ -532,6 +532,13 @@
       },
       {
         "label": {
+          "ar": "سياسة ملفات تعريف الارتباط",
+          "en": "Cookie policy"
+        },
+        "href": "legal/cookies.html"
+      },
+      {
+        "label": {
           "ar": "شروط الاستخدام",
           "en": "Terms of use"
         },
@@ -620,6 +627,10 @@
     "bookShort": {
       "ar": "احجز موعد",
       "en": "Book appointment"
+    },
+    "bookActionBar": {
+      "ar": "احجز الآن",
+      "en": "Book Now!"
     },
     "whatsapp": {
       "ar": "كلّمنا على واتساب",
@@ -902,7 +913,7 @@
       }
     ],
     "ask": {
-      "_note": "ChatGPT and Claude accept the question in the link and open with it already typed. Gemini has no such parameter, so its button copies the question to the clipboard and opens the app - the button says so rather than pretending otherwise.",
+      "_note": "ChatGPT and Claude accept the question in the link and open with it already typed. Gemini has no such parameter, so its button copies the question to the clipboard and opens the app while retaining the shared Ask label.",
       "enabled": true,
       "heading": {
         "ar": "اسأل الذكاء الاصطناعي عن المقال",
@@ -940,8 +951,8 @@
         {
           "key": "gemini",
           "label": {
-            "ar": "انسخ السؤال وافتح Gemini",
-            "en": "Copy question & open Gemini"
+            "ar": "اسأل Gemini",
+            "en": "Ask Gemini"
           },
           "enabled": true
         }

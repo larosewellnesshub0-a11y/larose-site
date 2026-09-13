@@ -517,13 +517,13 @@ export function shareBlock({ c, locale, url, title }) {
        step explicit and let the client copy before opening the app. The same
        generated question is used by every assistant, so the paths cannot drift. */
     if (!target.prefills) {
-      return `<li class="share__item"><button class="share__btn share__btn--ai" type="button"
+      return `<li class="share__item share__item--ai"><button class="share__btn share__btn--ai" type="button"
         data-ask-copy="${esc(question)}" data-ask-url="${esc(target.url(question))}"
         data-ask-copied="${esc(t(ask.geminiCopied, locale) || "Question copied — paste it in Gemini")}" 
         data-ask-failed="${esc(t(ask.geminiCopyFailed, locale) || "Open Gemini and copy the question manually")}">
         ${icon("ai", "share__icon")}<span>${esc(label)}</span></button></li>`;
     }
-    return `<li class="share__item"><a class="share__btn share__btn--ai" href="${esc(target.url(question))}"
+    return `<li class="share__item share__item--ai"><a class="share__btn share__btn--ai" href="${esc(target.url(question))}"
       target="_blank" rel="noopener noreferrer">${icon("ai", "share__icon")}<span>${esc(label)}</span></a></li>`;
   }).join("");
 
