@@ -192,6 +192,31 @@ function sectionBody(section, locale) {
   return t(section?.body, locale) || t(section?.text, locale);
 }
 
+/* Long-form entries may nominate a small number of relevant internal links.
+   Keep the prose as plain text in content JSON and construct anchors here so
+   a translated label cannot introduce markup into a published article. */
+function sectionParas(section, locale) {
+  const links = ta(section?.links, locale);
+  const validUrl = (url) => /^(?:\.\.\/|https:\/\/laroseclinics\.com\/)/.test(url);
+  return String(sectionBody(section, locale) || "")
+    .split(/\n\s*\n/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean)
+    .map((paragraph) => {
+      let html = esc(paragraph);
+      for (const item of links) {
+        const label = t(item?.label, locale);
+        const url = t(item?.url, locale) || t(item?.url, "en");
+        if (!label || !url || !validUrl(url)) continue;
+        const escapedLabel = esc(label);
+        if (!html.includes(escapedLabel)) continue;
+        html = html.replace(escapedLabel, `<a href="${esc(url)}">${escapedLabel}</a>`);
+      }
+      return `<p>${html}</p>`;
+    })
+    .join("\n");
+}
+
 function sectionId(section, index) {
   const supplied = t(section?.id, "en") || t(section?.slug, "en") || `section-${index + 1}`;
   const safe = supplied.trim().replace(/[^A-Za-z0-9_-]+/g, "-").replace(/^-+|-+$/g, "");
@@ -1070,7 +1095,7 @@ ${when(image, `<section class="section section--tight" style="padding-top:0">
       ? `<article class="prose">${sections.length
           ? map(sections, (section, index) => `<section>
             ${when(sectionTitle(section, locale), `<h2 id="${esc(sectionId(section, index))}">${esc(sectionTitle(section, locale))}</h2>`)}
-            ${paras(sectionBody(section, locale))}
+            ${sectionParas(section, locale)}
           </section>`)
           : paras(fallbackBody)}</article>`
       : `<div class="article-layout">
@@ -1085,7 +1110,7 @@ ${when(image, `<section class="section section--tight" style="padding-top:0">
         <article class="prose">
           ${map(sections, (section, index) => `<section>
             <h2 id="${esc(sectionId(section, index))}">${esc(sectionTitle(section, locale))}</h2>
-            ${paras(sectionBody(section, locale))}
+            ${sectionParas(section, locale)}
           </section>`)}
         </article>
       </div>`}

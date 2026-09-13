@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://laroseclinics.com"
 ARTICLE_FILES = (
     "articles.json",
+    "articles-fatty-liver-rewrite-2026-09-14.json",
     "articles-expansion-2026-09-11.json",
     "articles-longform-2026-09-12.json",
 )
@@ -65,7 +66,12 @@ def read_articles():
     for filename in ARTICLE_FILES:
         with (ROOT / "content" / filename).open(encoding="utf-8") as handle:
             articles.extend(json.load(handle).get("articles", []))
-    return articles
+    # A targeted editorial replacement keeps the pre-existing canonical slug;
+    # retain the final record so the readiness sheet describes published output.
+    by_slug = {}
+    for article in articles:
+        by_slug[article.get("slug")] = article
+    return list(by_slug.values())
 
 
 def words(article):

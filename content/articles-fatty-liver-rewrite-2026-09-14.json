@@ -1,0 +1,203 @@
+{
+  "_note": "Editorial replacement for the existing fatty-liver-ultrasound canonical article. It deliberately separates detection, cause assessment and fibrosis risk so it does not duplicate the treatment or fibrosis-update pages.",
+  "articles": [
+    {
+      "slug": "fatty-liver-ultrasound",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": ["gastroenterology-hepatology", "clinical-nutrition", "weight-management"],
+      "date": "2026-09-14",
+      "readingTime": 12,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/fatty-liver-ultrasound.webp",
+      "title": {
+        "ar": "هل السونار يكشف دهون الكبد؟ ما الذي يوضحه التقرير وما الخطوة التالية",
+        "en": "Does ultrasound detect fatty liver? What the report can answer—and what comes next"
+      },
+      "excerpt": {
+        "ar": "السونار قد يكشف مظهراً متوافقاً مع دهون الكبد، لكنه لا يحدد وحده السبب أو درجة الالتهاب أو التليف. تعلّم كيف تقرأ النتيجة وما الذي يجعل المتابعة أهم.",
+        "en": "Ultrasound can detect an appearance consistent with liver fat, but it cannot alone establish the cause, inflammation or fibrosis. Learn how to read the finding and decide what matters next."
+      },
+      "sections": [
+        {
+          "id": "short-answer",
+          "heading": {"ar": "الإجابة المختصرة: السونار بداية مفيدة، وليس حكماً نهائياً", "en": "The short answer: ultrasound is a useful start, not a final verdict"},
+          "body": {
+            "ar": "نعم، سونار البطن العادي يستطيع أن يُظهر مظهراً يتوافق مع تراكم الدهون في الكبد. قد يصف التقرير زيادة في صدى أو لمعان نسيج الكبد مقارنة بما حوله، وقد يكون الفحص قد طُلب أصلاً بسبب ألم بالبطن أو متابعة تحاليل أو كشف عام. لكن عبارة «دهون على الكبد» تصف ما رآه الفحص، ولا تكفي وحدها لتحديد سبب الدهون أو مقدار الالتهاب أو وجود تليف. [1, 3]",
+            "en": "Yes. A routine abdominal ultrasound can show an appearance consistent with fat accumulating in the liver. A report may describe increased echogenicity or a brighter liver texture, and the scan may have been ordered for pain, blood tests or a general check. But the phrase “fatty liver” describes an imaging finding; on its own, it does not establish the cause, the amount of inflammation or whether fibrosis is present. [1, 3]"
+          }
+        },
+        {
+          "id": "three-questions",
+          "heading": {"ar": "لا تخلط بين ثلاثة أسئلة مختلفة", "en": "Do not merge three different questions"},
+          "body": {
+            "ar": "أفضل طريقة لفهم التقرير هي فصل ثلاثة أسئلة: هل يوجد مظهر دهني في الكبد؟ ما العوامل التي قد تفسره؟ وهل توجد مؤشرات تستدعي تقييم خطر التليف؟ السونار يساهم بقوة في السؤال الأول، بينما التاريخ المرضي والفحص والتحاليل تساعد في السؤال الثاني، وتدخل حسابات الخطر أو فحص صلابة الكبد عند الحاجة في السؤال الثالث. هذا الفصل يمنع خطأين شائعين: الاطمئنان الزائد من تقرير بسيط، أو الذعر من كلمة واحدة في التقرير. [1, 2]",
+            "en": "The clearest way to read a report is to separate three questions: Is there an imaging appearance of liver fat? What factors might explain it? Are there signs that justify assessing fibrosis risk? Ultrasound contributes most to the first question; history, examination and blood tests help with the second; risk scores or liver-stiffness tests may matter for the third. Separating them prevents both false reassurance from a short report and panic over one phrase. [1, 2]"
+          }
+        },
+        {
+          "id": "what-scan-sees",
+          "heading": {"ar": "ما الذي يراه السونار فعلاً؟", "en": "What does an ultrasound actually see?"},
+          "body": {
+            "ar": "السونار يستخدم موجات صوتية لصنع صورة للبنية العامة للأعضاء، ولا يستخدم أشعة سينية. لذلك يمكنه أيضاً إعطاء معلومات عن حجم وشكل الكبد، والمرارة والحصوات، والقنوات الصفراوية وبعض أعضاء البطن الأخرى حسب جودة الفحص والسؤال الطبي. هذه ميزة مهمة: نتيجة الدهون لا تُقرأ منفصلة عن بقية ما كُتب في التقرير أو عن سبب طلب السونار. [3, 8]",
+            "en": "Ultrasound uses sound waves—not X-rays—to create an image of organ structure. Depending on the clinical question and scan quality, it may also provide information about the liver’s size and shape, the gallbladder and stones, bile ducts and other abdominal organs. That is useful context: a fatty-liver finding should not be read separately from the rest of the report or from why the scan was requested. [3, 8]"
+          }
+        },
+        {
+          "id": "what-scan-cannot-answer",
+          "heading": {"ar": "ما الذي لا يستطيع السونار حسمه بمفرده؟", "en": "What can ultrasound not settle by itself?"},
+          "body": {
+            "ar": "السونار التقليدي لا يفحص خلايا الكبد تحت الميكروسكوب، ولذلك لا يثبت وحده وجود التهاب نشط ولا يحدد مرحلة التليف بدقة لكل شخص. كما أن حساسيته تتأثر بدرجة الدهون وبنية الجسم وخبرة الفحص، وقد تكون النتيجة طبيعية رغم وجود مرض مبكر. لا يعني ذلك أن السونار عديم القيمة؛ معناه فقط أن الإجابة المطلوبة تحدد إن كان التقرير كافياً أم يحتاج أن يُقرأ مع فحوص أخرى. [1, 2, 3]",
+            "en": "Conventional ultrasound does not inspect liver cells under a microscope, so it cannot by itself prove active inflammation or precisely stage fibrosis for every person. Its sensitivity is also affected by the degree of fat, body habitus and examination quality, and an early condition can exist despite a normal scan. That does not make ultrasound useless; it means the clinical question determines whether the report is enough or must be read alongside other tests. [1, 2, 3]"
+          }
+        },
+        {
+          "id": "why-fat-appears",
+          "heading": {"ar": "لماذا تظهر الدهون؟ الوزن جزء من الصورة وليس كل الصورة", "en": "Why does liver fat appear? Weight is part of the picture, not the whole picture"},
+          "body": {
+            "ar": "كثير من الحالات ترتبط باضطراب التمثيل الغذائي: مقاومة الإنسولين أو السكري، ارتفاع الدهون في الدم، ضغط الدم، زيادة محيط الخصر أو قلة الحركة. يُستخدم اسم MASLD حالياً عندما يجتمع تراكم الدهون مع عوامل خطورة أيضية مناسبة. لكن الحجم الظاهر للجسم لا يثبت السبب ولا ينفيه؛ يمكن أن تظهر دهون الكبد لدى أشخاص بأوزان مختلفة، ولذلك لا يصح اختصار التقييم في رقم الميزان فقط. [1, 2, 9]",
+            "en": "Many cases are linked with metabolic factors: insulin resistance or diabetes, abnormal blood lipids, raised blood pressure, a larger waist or low activity. The term MASLD is now used when liver fat occurs with relevant metabolic risk factors. But visible body size neither proves nor rules out a cause; fatty liver can occur at different weights, so an assessment should never be reduced to the number on a scale. [1, 2, 9]"
+          }
+        },
+        {
+          "id": "other-causes",
+          "heading": {"ar": "أسئلة لا ينبغي تخطيها: الكحول والأدوية والتاريخ المرضي", "en": "Questions not to skip: alcohol, medicines and medical history"},
+          "body": {
+            "ar": "التقييم الجيد لا يفترض أن كل دهون كبدية سببها واحد. يراجع الطبيب كمية وتكرار تناول الكحول، كل دواء أو مكمل، تغيرات الوزن السريعة، التغذية غير الكافية، التاريخ العائلي، وعوامل قد تجعل تحاليل فيروسية أو هرمونية أو استقلابية مناسبة. لا توقف دواءً موصوفاً من نفسك، ولا تبدأ خلطة «تنظيف الكبد» قبل أن يعرف الطبيب مكوناتها؛ بعض المنتجات العشبية والمكملات قد تؤذي الكبد. [2, 5, 10]",
+            "en": "A sound assessment does not assume that every fatty liver has one cause. A clinician reviews alcohol amount and pattern, every medicine and supplement, rapid weight changes, inadequate nutrition, family history and factors that may make viral, hormonal or metabolic tests appropriate. Do not stop a prescribed medicine independently, and do not start a “liver cleanse” before its ingredients are reviewed; herbal and dietary products can injure the liver. [2, 5, 10]"
+          }
+        },
+        {
+          "id": "blood-tests",
+          "heading": {"ar": "التحليل الطبيعي لا يساوي دائماً خطراً صفرياً", "en": "Normal blood tests do not always mean zero risk"},
+          "body": {
+            "ar": "إنزيمات الكبد قد تكون طبيعية في بعض الأشخاص الذين لديهم دهون كبد، وقد ترتفع لأسباب عديدة غير الدهون. لهذا السبب يراجع الطبيب نمط التحاليل مع الصفائح ووظائف الكبد والسكر التراكمي ودهون الدم، ولا يفسر رقماً واحداً وحده. بالنسبة لمن لديهم عوامل خطورة، قد تستخدم أدوات غير جراحية مثل FIB-4 لتحديد من قد يحتاج فحصاً أدق أو إحالة، وليس لتشخيص نفسك من الإنترنت. [1, 2, 4]",
+            "en": "Liver enzymes can be normal in some people with liver fat, and they can rise for many reasons other than fat. Clinicians therefore read the pattern with platelets, liver function, HbA1c and blood lipids rather than interpreting one number alone. For people with relevant risk factors, non-invasive tools such as FIB-4 may help identify who needs closer assessment or referral; they are not a reason to self-diagnose online. [1, 2, 4]"
+          }
+        },
+        {
+          "id": "fibrosis-risk",
+          "heading": {"ar": "دهون الكبد والتليف ليسا القياس نفسه", "en": "Liver fat and fibrosis are not the same measurement"},
+          "body": {
+            "ar": "وجود الدهون لا يساوي تليفاً، كما أن شدة لمعان الصورة لا تعطي وحدها درجة التليف. عندما تشير عوامل الخطر أو الفحص أو التحاليل إلى احتمال أعلى، قد يُطلب قياس صلابة الكبد أو تقييم متخصص آخر. هذا هو السبب في أن صفحة التحديث العلمي عن التليف لها دور مختلف عن هذه الصفحة: هنا نفهم تقرير السونار، وهناك نركز على السؤال المنفصل عن قياس الندبات. [1, 2, 6]",
+            "en": "Having liver fat is not the same as having fibrosis, and the degree of brightness on an image does not by itself provide a fibrosis stage. When risk factors, examination or tests suggest a higher likelihood, liver-stiffness measurement or another specialist assessment may be requested. That is why the site’s scientific update on fibrosis has a different role from this page: this article explains an ultrasound report, while that page focuses on the separate question of scarring. [1, 2, 6]"
+          },
+          "links": {
+            "ar": [{"label": "صفحة التحديث العلمي عن التليف", "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"}],
+            "en": [{"label": "scientific update on fibrosis", "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"}]
+          }
+        },
+        {
+          "id": "practical-plan",
+          "heading": {"ar": "ما الذي يدخل في خطة عملية بدلاً من «ديتوكس»؟", "en": "What belongs in a practical plan instead of a “detox”?"},
+          "body": {
+            "ar": "إذا كان السبب على الأرجح استقلابياً، فالخطة تُبنى حول أشياء قابلة للاستمرار: نمط أكل مناسب، حركة منتظمة، نوم، تقليل المشروبات المحلاة والكحول عند وجوده، وتحسين السكر والضغط والدهون. لا توجد عصارة أو منتج واحد «ينظف» الكبد، ولا يلزم أن تكون الخطة قاسية لكي تكون مفيدة. يختار الطبيب أو أخصائي التغذية أهدافاً واقعية مع مراعاة الوزن والعضلات والأدوية والحالات المصاحبة. [1, 4, 6]",
+            "en": "When the likely driver is metabolic, a plan is built around sustainable elements: an appropriate eating pattern, regular movement, sleep, less sugar-sweetened drink intake, alcohol reduction where relevant, and better glucose, blood-pressure and lipid control. No juice or single product “cleans” the liver, and a plan need not be extreme to be useful. A clinician or dietitian can set realistic goals while considering weight, muscle, medicines and coexisting conditions. [1, 4, 6]"
+          },
+          "links": {
+            "ar": [{"label": "خطة عملية", "url": "../articles/fatty-liver-treatment-and-follow-up.html"}],
+            "en": [{"label": "sustainable elements", "url": "../articles/fatty-liver-treatment-and-follow-up.html"}]
+          }
+        },
+        {
+          "id": "follow-up-not-repeat-scan",
+          "heading": {"ar": "المتابعة ليست تكرار السونار في كل موعد", "en": "Follow-up is not repeating the scan at every visit"},
+          "body": {
+            "ar": "موعد المتابعة ونوع الفحص يعتمد على السؤال السريري ومستوى الخطورة، وليس على جدول موحد لكل الناس. أحياناً تكون متابعة الوزن أو محيط الخصر والضغط والسكر والدهون والتحاليل أهم من إعادة صورة في وقت قريب. وأحياناً تكون الأولوية لفحص صلابة أو إحالة. الفكرة أن كل خطوة يجب أن تجيب سؤالاً سيغير الخطة، لا أن تكون مجرد تكرار للاطمئنان المؤقت. [1, 2, 6]",
+            "en": "The timing and type of follow-up depend on the clinical question and level of risk, not on one timetable for everyone. Tracking weight or waist, blood pressure, glucose, lipids and blood tests can sometimes be more useful than another image soon after the first. In other cases, stiffness testing or referral takes priority. Each step should answer a question that changes the plan—not simply repeat a test for temporary reassurance. [1, 2, 6]"
+          }
+        },
+        {
+          "id": "when-to-seek-care",
+          "heading": {"ar": "متى يحتاج الأمر لتقييم أسرع؟", "en": "When does the situation need faster assessment?"},
+          "body": {
+            "ar": "اطلب تقييماً طبياً أسرع إذا ظهر اصفرار في العين أو الجلد، بول داكن، تورم ملحوظ في البطن أو الساقين، قيء دموي، براز أسود، ارتباك، ألم شديد أو تدهور واضح في الحالة العامة. هذه العلامات لا تثبت سبباً بعينه، لكنها ليست مناسبة للانتظار على نصيحة عامة أو متابعة تغذية عادية. تواصل مع خدمة طبية عاجلة حسب الشدة. [3, 5]",
+            "en": "Seek faster medical assessment for yellow eyes or skin, dark urine, noticeable abdominal or leg swelling, vomiting blood, black stools, confusion, severe pain or clear deterioration in general health. These signs do not prove one particular cause, but they are not appropriate for waiting on general advice or a routine nutrition follow-up. Contact urgent medical care according to severity. [3, 5]"
+          }
+        },
+        {
+          "id": "appointment-checklist",
+          "heading": {"ar": "كيف تستفيد من موعدك بعد تقرير السونار؟", "en": "How to make an appointment useful after an ultrasound report"},
+          "body": {
+            "ar": "خذ تقرير السونار وصوره إن كانت متاحة، وتحاليل سابقة، وقائمة بالأدوية والمكملات، وسجل مختصر للأعراض وتغير الوزن. اسأل: هل توجد أسباب أخرى ينبغي استبعادها؟ ما مستوى خطر التليف لديّ؟ أي نتيجة سنراقبها، ومتى؟ بهذه الأسئلة يتحول التقرير من خبر مقلق إلى خطة واضحة. ولتفاصيل التغييرات اليومية والمتابعة طويلة المدى، استخدم دليل علاج دهون الكبد والمتابعة بدلاً من محاولة جمع كل الموضوع في صفحة واحدة. [1, 2, 4]",
+            "en": "Bring the ultrasound report and images if available, earlier blood tests, a list of medicines and supplements, and a short record of symptoms and weight change. Ask: Are there other causes to exclude? What is my fibrosis-risk level? Which result are we monitoring, and when? Those questions turn a worrying report into a clear plan. For day-to-day changes and longer-term follow-up, use the site’s fatty-liver treatment and follow-up guide rather than trying to put the whole topic on one page. [1, 2, 4]"
+          },
+          "links": {
+            "ar": [{"label": "دليل علاج دهون الكبد والمتابعة", "url": "../articles/fatty-liver-treatment-and-follow-up.html"}],
+            "en": [{"label": "fatty-liver treatment and follow-up guide", "url": "../articles/fatty-liver-treatment-and-follow-up.html"}]
+          }
+        },
+        {
+          "id": "reading-the-words",
+          "heading": {"ar": "اقرأ كلمات التقرير كدليل، لا كتشخيص كامل", "en": "Read report wording as evidence, not a complete diagnosis"},
+          "body": {
+            "ar": "قد يذكر التقرير «زيادة منتشرة في الصدى»، أو «مظهر دهني»، أو «كبد دهني خفيف». هذه أوصاف تصويرية مفيدة للطبيب، لكنها لا تحل محل مقابلتك أو تحاليلك. لا تحاول تحويل كل كلمة إلى درجة خطورة من خلال بحث سريع؛ اسأل من طلب الفحص عن معنى الوصف في حالتك ولماذا كان السونار مطلوباً من البداية. [3, 8]",
+            "en": "A report may say “diffuse increased echogenicity,” “fatty appearance,” or “mild fatty liver.” These are useful imaging descriptions for the clinician, but they do not replace your history or blood tests. Do not try to turn each phrase into a risk stage through a quick web search; ask the person who ordered the scan what the wording means in your case and why the ultrasound was requested in the first place. [3, 8]"
+          }
+        },
+        {
+          "id": "symptoms-and-scan",
+          "heading": {"ar": "لا تنسب كل عرض في البطن إلى الدهون", "en": "Do not attribute every abdominal symptom to liver fat"},
+          "body": {
+            "ar": "دهون الكبد قد لا تسبب أعراضاً واضحة، وكثيراً ما تُكتشف مصادفة. وجودها في التقرير لا يثبت أنها تفسير الغثيان أو ألم البطن أو الانتفاخ أو التعب. الأعراض قد يكون لها سبب آخر من الجهاز الهضمي أو المرارة أو الأدوية أو غير ذلك، ولهذا يفيد أن تصف مكان الألم ومدته وعلاقته بالأكل أو الحركة والأعراض المصاحبة بدلاً من افتراض أن كلمة «دهون» تفسر كل شيء. [3, 5, 9]",
+            "en": "Liver fat may cause no clear symptoms and is often found incidentally. Its presence on a report does not prove that it explains nausea, abdominal pain, bloating or tiredness. Symptoms can have another digestive, gallbladder, medication-related or other cause. It is more useful to describe where pain occurs, how long it lasts, its relation to meals or movement and associated symptoms than to assume that the word “fatty” explains everything. [3, 5, 9]"
+          }
+        },
+        {
+          "id": "who-benefits-most",
+          "heading": {"ar": "من يستفيد أكثر من تقييم منظم؟", "en": "Who benefits most from a structured assessment?"},
+          "body": {
+            "ar": "التقييم المنظم مهم بشكل خاص إذا كان لديك سكري من النوع الثاني، زيادة في محيط الخصر، ضغط أو دهون مرتفعة، تاريخ مرض كبدي، تحاليل غير طبيعية أو أكثر من عامل خطورة أيضي. لا يعني ذلك أن كل شخص سيحتاج فحصاً متقدماً؛ بل يساعد الطبيب على ترتيب الأولويات واختيار الأقل تدخلاً أولاً. كما أن العمر والأدوية والحمل أو الأمراض المصاحبة قد تغيّر طريقة تفسير نفس النتيجة. [1, 2, 6]",
+            "en": "A structured assessment is especially useful for people with type 2 diabetes, a larger waist, raised blood pressure or lipids, a history of liver disease, abnormal blood tests or more than one metabolic risk factor. This does not mean every person needs an advanced test; it helps the clinician set priorities and choose the least invasive appropriate step first. Age, medicines, pregnancy and other health conditions can also change how the same finding is interpreted. [1, 2, 6]"
+          }
+        },
+        {
+          "id": "avoid-shortcuts",
+          "heading": {"ar": "تجنب الاختصارات التي تعطل القرار الجيد", "en": "Avoid shortcuts that get in the way of a good decision"},
+          "body": {
+            "ar": "لا تؤجل التقييم لأنك تخطط أولاً لخفض وزن سريع ثم إعادة التحليل، ولا تفترض أن التحسن في الميزان يثبت أن الكبد أصبح سليماً. وبالمثل، لا تتعامل مع نتيجة طبيعية واحدة كأنها إذن لتجاهل عوامل الخطر. التغيير الهادئ والقابل للاستمرار مفيد، لكن المتابعة الصحيحة تربط التقدم بما يحدده الطبيب من قياسات ونتائج، لا بوعد منتج أو رقم منفرد. [1, 4, 6]",
+            "en": "Do not postpone assessment because you plan to lose weight quickly and then repeat a test, and do not assume a better scale reading proves that the liver is healthy. Likewise, do not treat one normal result as permission to ignore risk factors. Steady, sustainable change is valuable, but appropriate follow-up connects progress to the measurements and results a clinician selects—not to a product promise or a single number. [1, 4, 6]"
+          }
+        },
+        {
+          "id": "one-clear-next-step",
+          "heading": {"ar": "الهدف من الزيارة: خطوة تالية واحدة واضحة", "en": "The goal of the visit: one clear next step"},
+          "body": {
+            "ar": "بعد مناقشة التقرير، قد تكون الخطوة المناسبة ببساطة هي مراجعة تحليل أو تعديل عامل خطر قابل للعلاج أو ترتيب متابعة في وقت محدد. وقد تكون إجراء حساب خطر أو فحص صلابة أو إحالة إذا ظهرت أسباب لذلك. القرار الجيد ليس دائماً الأكثر تعقيداً؛ هو القرار الذي يجيب السؤال الموجود ويقلل احتمال تفويت شيء مهم من دون فحوص غير لازمة. [1, 2, 8]",
+            "en": "After discussing the report, the appropriate next step may be as simple as reviewing a blood test, addressing a treatable risk factor or scheduling follow-up at a defined time. It may instead involve a risk calculation, stiffness test or referral when there is a reason. A good decision is not always the most complicated one; it is the decision that answers the current question and reduces the chance of missing something important without unnecessary testing. [1, 2, 8]"
+          }
+        },
+        {
+          "id": "questions-to-write-down",
+          "heading": {"ar": "اكتب ما يهم قبل الموعد بدلاً من محاولة تذكره تحت الضغط", "en": "Write down what matters before the visit"},
+          "body": {
+            "ar": "قبل الكشف، دوّن متى تم عمل السونار ولماذا، وهل كان هناك ألم أو غثيان أو تغير في الشهية أو الوزن، وما الأدوية والمكملات التي تستخدمها بالفعل. اكتب أيضاً إن كان لديك سكر أو ضغط أو ارتفاع دهون أو تاريخ عائلي لمرض كبدي، وهل تغيّر نمط الأكل أو الحركة أو تناول الكحول في الفترة الأخيرة. هذه المعلومات لا تعني أنك تضع التشخيص بنفسك؛ هي تجعل المقابلة أكثر دقة وتقلل احتمال نسيان معلومة قد تغيّر تفسير التقرير. [1, 2, 3]\n\nاحتفظ بنسخة من التقرير ولا تكتفِ بصورة مقصوصة منه؛ الجزء الخاص بالكبد، وبقية أعضاء البطن، والانطباع النهائي قد يضيف كل منها سياقاً مهماً. لو كانت لديك نتيجة قديمة، خذها أيضاً لأن المقارنة الزمنية أحياناً أهم من قراءة نتيجة واحدة معزولة. لا تحتاج لترتيب كل شيء طبياً قبل الزيارة؛ المطلوب أن تصل المعلومات كما هي ليتم تفسيرها في سياقها الصحيح. [1, 3, 8]",
+            "en": "Before the visit, note when and why the ultrasound was done, whether there was pain, nausea or a change in appetite or weight, and which medicines and supplements you actually use. Also record diabetes, blood pressure, raised lipids, family liver history and recent changes in food, activity or alcohol intake. This is not self-diagnosis; it makes the conversation more precise and reduces the chance of overlooking information that could change how the report is interpreted. [1, 2, 3]\n\nKeep the full report rather than only a cropped image. The liver section, other abdominal findings and final impression can each add useful context. Bring an earlier result when you have one, because a comparison over time can sometimes matter more than reading one isolated report. You do not need to organise every detail medically before the visit; the aim is to bring the facts so they can be interpreted in context. [1, 3, 8]"
+          }
+        }
+      ],
+      "faq": [
+        {"q": {"ar": "هل السونار يكشف دهون الكبد بدقة؟", "en": "Can ultrasound detect fatty liver accurately?"}, "a": {"ar": "قد يكشف مظهراً متوافقاً مع الدهون، لكنه لا يحدد وحده السبب أو الالتهاب أو درجة التليف. تُقرأ النتيجة مع التاريخ والفحص والتحاليل عند الحاجة.", "en": "It can detect an appearance consistent with fat, but it does not alone identify the cause, inflammation or fibrosis stage. The result is read with history, examination and tests when appropriate."}},
+        {"q": {"ar": "هل إنزيمات الكبد الطبيعية تنفي دهون الكبد؟", "en": "Do normal liver enzymes rule out fatty liver?"}, "a": {"ar": "لا. الإنزيمات جزء من التقييم، وقد تكون طبيعية رغم وجود دهون. الطبيب يربطها بعوامل الخطورة وباقي النتائج.", "en": "No. Enzymes are one part of assessment and can be normal despite liver fat. A clinician relates them to risk factors and the rest of the findings."}},
+        {"q": {"ar": "هل أحتاج أن أكرر السونار باستمرار؟", "en": "Do I need repeated ultrasounds?"}, "a": {"ar": "ليس بالضرورة. توقيت الفحوصات يحدده السؤال الطبي ومستوى الخطورة؛ أحياناً تكون تحاليل أو قياسات أخرى أهم.", "en": "Not necessarily. Test timing is set by the clinical question and risk level; blood tests or other measurements can sometimes matter more."}}
+      ],
+      "sources": [
+        {"label": "EASL–EASD–EASO Clinical Practice Guidelines on MASLD (2024)", "url": "https://www.journal-of-hepatology.eu/article/S0168-8278(24)00129-2/fulltext"},
+        {"label": "AASLD Practice Guidance on clinical assessment and management of NAFLD", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/"},
+        {"label": "NIDDK: Diagnosis of NAFLD & NASH", "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"},
+        {"label": "NIDDK: Treatment for NAFLD & NASH", "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment"},
+        {"label": "NIDDK: Symptoms & Causes of NAFLD & NASH", "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/symptoms-causes"},
+        {"label": "NICE guideline NG49: Non-alcoholic fatty liver disease", "url": "https://www.nice.org.uk/guidance/ng49"},
+        {"label": "American College of Gastroenterology Clinical Guideline: Evaluation of Abnormal Liver Chemistries", "url": "https://pubmed.ncbi.nlm.nih.gov/27995906/"},
+        {"label": "American College of Radiology: Chronic Liver Disease appropriateness criteria", "url": "https://acsearch.acr.org/docs/3158166/Narrative/"},
+        {"label": "NIDDK: NAFLD & NASH overview", "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash"},
+        {"label": "NIH LiverTox: Herbal and Dietary Supplements", "url": "https://www.ncbi.nlm.nih.gov/books/NBK548441/"}
+      ],
+      "tags": {"ar": ["دهون الكبد", "هل السونار يكشف دهون الكبد", "MASLD", "سونار البطن", "تليف الكبد"], "en": ["fatty liver", "fatty liver ultrasound", "MASLD", "abdominal ultrasound", "liver fibrosis"]},
+      "seo": {"title": {"ar": "هل السونار يكشف دهون الكبد؟ | لاروز", "en": "Does ultrasound detect fatty liver? | La Rose"}, "description": {"ar": "هل السونار يكشف دهون الكبد؟ اعرف ما الذي يوضحه التقرير، وما الذي لا يستطيع تحديده عن الالتهاب والتليف، ومتى تحتاج متابعة.", "en": "Can ultrasound detect fatty liver? Learn what an ultrasound report can show, what it cannot establish about fibrosis, and when follow-up matters."}}
+    }
+  ]
+}

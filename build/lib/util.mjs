@@ -17,6 +17,7 @@ export const DEFAULT_LOCALE = "ar";
 export function loadContent() {
   const read = (f) => JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, f), "utf8"));
   const articles = read("articles.json");
+  const fattyLiverRewrite = read("articles-fatty-liver-rewrite-2026-09-14.json");
   // Keep the September knowledge-centre expansion in its own source file so
   // editorial batches remain reviewable without rewriting the core library.
   const articleExpansion = read("articles-expansion-2026-09-11.json");
@@ -48,7 +49,8 @@ export function loadContent() {
     ]
   }));
   articles.articles = [
-    ...(articles.articles || []),
+    ...(articles.articles || []).filter((article) => article.slug !== "fatty-liver-ultrasound"),
+    ...(fattyLiverRewrite.articles || []),
     ...expansionArticles,
     ...(longformExpansion.articles || []),
   ];
