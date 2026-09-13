@@ -28,6 +28,25 @@ const COPY = {
      the writing is authoritative. */
   contents: { ar: "فهرس الموضوع", en: "On this page" },
   sources: { ar: "المصادر الطبية", en: "Medical sources" },
+  reviewHeading: { ar: "كيف راجعنا المقال ده؟", en: "How this article was reviewed" },
+  reviewIntro: {
+    ar: "المحتوى ده للتثقيف الصحي، ومش بديل عن التشخيص أو الخطة الطبية الشخصية.",
+    en: "This content is for health education and does not replace diagnosis or an individual care plan.",
+  },
+  publicationHistory: { ar: "سجل النشر والمراجعة", en: "Publication and review history" },
+  published: { ar: "نُشر", en: "Published" },
+  updated: { ar: "آخر تحديث", en: "Last updated" },
+  author: { ar: "الكاتب المذكور في السجل", en: "Author listed in record" },
+  medicalReviewer: { ar: "المراجع المذكور في السجل", en: "Reviewer listed in record" },
+  reviewRecord: { ar: "سجل المراجعة", en: "Review record" },
+  reviewRecorded: { ar: "يوجد مراجع مذكور في سجل النشر", en: "A reviewer is listed in the publication record" },
+  noSeparateReviewer: { ar: "لا يوجد مراجع طبي منفصل مسجل للمحتوى ده", en: "No separate medical reviewer is recorded for this entry" },
+  linkedSources: { ar: "مصادر طبية مرتبطة", en: "Linked medical sources" },
+  standardsHeading: { ar: "معايير مراجعة محتوى المركز المعرفي", en: "How La Rose reviews Knowledge Centre content" },
+  standardsText: {
+    ar: "كل مادة منشورة بتوضح تاريخ النشر، والكاتب والمراجع المذكورين في السجل لو موجودين، والمصادر الطبية المرتبطة بها. تقدر تفتح سجل النشر والمراجعة داخل كل مادة لمعرفة البيانات المسجلة من غير ما نخمن تاريخ تحديث غير موثق.",
+    en: "Every published entry identifies its publication date, listed author and reviewer where available, and linked medical sources. Each full entry includes a publication record so readers can see recorded information without us guessing an unrecorded update date.",
+  },
   answerBy: { ar: "الإجابة من", en: "Answered by" },
   writtenBy: { ar: "كتبه", en: "Written by" },
   related: { ar: "محتوى ممكن يهمك", en: "You may also find helpful" },
@@ -133,6 +152,10 @@ function categoryDesc(category, locale) {
 
 function entryDate(entry) {
   return t(entry?.date, "en") || t(entry?.publishedAt, "en") || t(entry?.datePublished, "en");
+}
+
+function entryUpdatedDate(entry) {
+  return t(entry?.updatedAt, "en") || t(entry?.dateModified, "en");
 }
 
 function dateStamp(entry) {
@@ -268,6 +291,18 @@ function entryMeta({ c, locale, entry, depth, includeAuthor = false }) {
   </div>`;
 }
 
+/* Existing cover records predate individual alt fields. This localised,
+   topic-specific fallback keeps every article image meaningful to a screen
+   reader without exposing filenames or repeating a generic label. */
+function articleImageAlt(entry, locale) {
+  const supplied = t(entry?.imageAlt, locale) || t(entry?.imageAlt, "en");
+  if (supplied) return supplied;
+  const title = entryTitle(entry, locale);
+  return locale === "ar"
+    ? "صورة توضيحية لموضوع: " + title
+    : "Article illustration: " + title;
+}
+
 function entryCard({ c, categories, entry, locale, depth, headingLevel = 3 }) {
   const slug = entrySlug(entry);
   const title = entryTitle(entry, locale);
@@ -279,7 +314,7 @@ function entryCard({ c, categories, entry, locale, depth, headingLevel = 3 }) {
   return `<article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
       ${image
-        ? `<img src="${esc(asset(depth, image))}" alt="${esc(t(entry?.imageAlt, locale) || title)}" width="600" height="375" loading="lazy" decoding="async">`
+        ? `<img src="${esc(asset(depth, image))}" alt="${esc(articleImageAlt(entry, locale))}" width="600" height="375" loading="lazy" decoding="async">`
         : `<div class="card__placeholder" aria-hidden="true">${icon(type === "tip" ? "leaf" : type === "qa" ? "user" : type === "update" ? "sparkle" : "book", "card__placeholder-icon")}</div>`}
     </div>
     <div class="card__body">
@@ -316,6 +351,55 @@ function sourceList(entry, locale) {
   </ol></div>`;
 }
 
+function reviewAndHistory({ c, locale, depth, entry }) {
+  const authorDoctor = entryDoctor(c, entry);
+  const reviewerDoctor = entryDoctor(c, entry, "reviewedBy");
+  const author = entryAuthorName(entry, authorDoctor, locale);
+  const reviewer = entryAuthorName(entry, reviewerDoctor, locale, "reviewedBy");
+  const publishedDate = entryDate(entry);
+  const updatedDate = entryUpdatedDate(entry);
+  const sourceCount = ta(entry?.sources, "en").length;
+  const personLink = (doctor, name) => doctor
+    ? '<a href="' + esc(link(depth, "doctors/" + t(doctor.slug, "en") + ".html")) + '">' + esc(name) + '</a>'
+    : esc(name);
+  const authorFact = author
+    ? '<div><dt>' + esc(t(COPY.author, locale)) + '</dt><dd>' + personLink(authorDoctor, author) + '</dd></div>'
+    : "";
+  const reviewerFact = '<div><dt>' + esc(t(COPY.medicalReviewer, locale)) + '</dt><dd>'
+    + (reviewer ? personLink(reviewerDoctor, reviewer) : esc(t(COPY.noSeparateReviewer, locale))) + '</dd></div>';
+  const sourceFact = sourceCount
+    ? '<div><dt>' + esc(t(COPY.linkedSources, locale)) + '</dt><dd>' + esc(String(sourceCount)) + '</dd></div>'
+    : "";
+  const publishedItem = publishedDate
+    ? '<li><strong>' + esc(t(COPY.published, locale)) + ':</strong> ' + esc(formatDate(publishedDate, locale)) + '</li>'
+    : "";
+  const updatedItem = updatedDate && updatedDate !== publishedDate
+    ? '<li><strong>' + esc(t(COPY.updated, locale)) + ':</strong> ' + esc(formatDate(updatedDate, locale)) + '</li>'
+    : "";
+  const reviewItem = '<li><strong>' + esc(t(COPY.reviewRecord, locale)) + ':</strong> '
+    + esc(reviewer ? t(COPY.reviewRecorded, locale) : t(COPY.noSeparateReviewer, locale)) + '</li>';
+  const sourcesItem = sourceCount
+    ? '<li><strong>' + esc(t(COPY.linkedSources, locale)) + ':</strong> ' + esc(String(sourceCount)) + '</li>'
+    : "";
+  return '<section class="section section--tight article-transparency" style="padding-top:0">'
+    + '<div class="wrap wrap--narrow"><article class="card" data-reveal><div class="card__body">'
+    + '<div><p class="eyebrow">' + esc(t(COPY.library, locale)) + '</p><h2 class="h3" style="margin-top:.4rem">' + esc(t(COPY.reviewHeading, locale)) + '</h2></div>'
+    + '<p class="u-muted">' + esc(t(COPY.reviewIntro, locale)) + '</p>'
+    + '<dl class="article-transparency__facts">' + authorFact + reviewerFact + sourceFact + '</dl>'
+    + '<details class="article-transparency__history"><summary>' + esc(t(COPY.publicationHistory, locale)) + '</summary>'
+    + '<ol class="prose">' + publishedItem + updatedItem + reviewItem + sourcesItem + '</ol></details>'
+    + '</div></article></div></section>';
+}
+
+function reviewStandards({ c, locale }) {
+  return '<section class="section section--tint article-standards"><div class="wrap wrap--narrow">'
+    + '<article class="card" data-reveal><div class="card__body">'
+    + '<p class="eyebrow">' + esc(t(COPY.library, locale)) + '</p>'
+    + '<h2 class="h3">' + esc(t(COPY.standardsHeading, locale)) + '</h2>'
+    + '<p class="card__text">' + esc(t(COPY.standardsText, locale)) + '</p>'
+    + '</div></article></div></section>';
+}
+
 function hubSectionCard({ c, locale, depth, key, card }) {
   const labels = {
     articles: t(c.site.ui.articles, locale),
@@ -344,7 +428,7 @@ function featuredBlock({ c, categories, entry, locale, depth }) {
     <div class="grid grid-2" style="align-items:center">
       <div class="arch arch--wide">
         ${image
-          ? `<img src="${esc(asset(depth, image))}" alt="${esc(t(entry?.imageAlt, locale) || title)}" width="800" height="500" loading="lazy" decoding="async">`
+          ? `<img src="${esc(asset(depth, image))}" alt="${esc(articleImageAlt(entry, locale))}" width="800" height="500" loading="lazy" decoding="async">`
           : `<div class="card__placeholder" aria-hidden="true" style="aspect-ratio:16/10">${icon("book", "card__placeholder-icon")}</div>`}
       </div>
       <div class="card__body">
@@ -476,6 +560,8 @@ ${pageHero({
   </div>
 </section>
 
+${reviewStandards({ c, locale, depth })}
+
 ${ctaBand({ c, locale, depth })}`;
   return {
     path: `${locale}/articles/list.html`,
@@ -505,7 +591,7 @@ ${pageHero({
       ${updates.length ? map(updates, (entry) => `<article class="card" data-reveal>
         <div class="card__media arch arch--wide">
           ${t(entry?.image, locale)
-            ? `<img src="${esc(asset(depth, t(entry?.image, locale)))}" alt="${esc(t(entry?.imageAlt, locale) || entryTitle(entry, locale))}" width="600" height="375" loading="lazy" decoding="async">`
+            ? `<img src="${esc(asset(depth, t(entry?.image, locale)))}" alt="${esc(articleImageAlt(entry, locale))}" width="600" height="375" loading="lazy" decoding="async">`
             : `<div class="card__placeholder" aria-hidden="true">${icon("sparkle", "card__placeholder-icon")}</div>`}
         </div>
         <div class="card__body">
@@ -520,6 +606,8 @@ ${pageHero({
     </div>
   </div>
 </section>
+
+${reviewStandards({ c, locale, depth })}
 
 ${ctaBand({ c, locale, depth })}`;
   return {
@@ -744,6 +832,14 @@ function detailSchemas({ c, locale, entry, doctor, reviewer, pagePath }) {
   const date = entryDate(entry);
   const author = entryAuthorName(entry, doctor, locale);
   const reviewedBy = entryAuthorName(entry, reviewer, locale, "reviewedBy");
+  const citations = ta(entry?.sources, "en")
+    .map((source) => t(source?.url, locale) || t(source?.url, "en"))
+    .filter(Boolean);
+  const keywords = ta(entry?.tags, locale).filter(Boolean);
+  const about = [
+    entryCategorySlug(entry),
+    ...ta(entry?.specialties, "en"),
+  ].filter(Boolean);
   const person = author ? {
     "@type": "Person",
     name: author,
@@ -775,6 +871,9 @@ function detailSchemas({ c, locale, entry, doctor, reviewer, pagePath }) {
     dateModified: t(entry?.updatedAt, locale) || t(entry?.dateModified, locale) || date || undefined,
     inLanguage: c.site.i18n[locale].locale,
     articleSection: typeLabel(c, entryType(entry), locale),
+    about: about.length ? about : undefined,
+    keywords: keywords.length ? keywords.join(", ") : undefined,
+    citation: citations.length ? citations : undefined,
     author: person,
     reviewedBy: reviewedBy ? {
       "@type": "Person",
@@ -870,6 +969,33 @@ function relatedCareLinks({ c, entry, locale, depth }) {
 </section>`;
 }
 
+/* Give every entry a dense but relevant internal-link path. Category is the
+   strongest signal, then shared clinical specialties; type only breaks ties.
+   This avoids keyword-driven links to unrelated medical topics while giving
+   each entry up to six routes into the wider library. */
+function relatedEntries({ entry, entries, limit = 6 }) {
+  const slug = entrySlug(entry);
+  const category = entryCategorySlug(entry);
+  const specialties = new Set(ta(entry?.specialties, "en"));
+  const type = entryType(entry);
+  const scored = entries
+    .filter((candidate) => entrySlug(candidate) !== slug)
+    .map((candidate) => {
+      const candidateSpecialties = ta(candidate?.specialties, "en");
+      const sharedSpecialties = candidateSpecialties.filter((specialty) => specialties.has(specialty)).length;
+      const sameCategory = category && entryCategorySlug(candidate) === category;
+      const sameType = entryType(candidate) === type;
+      const score = (sameCategory ? 100 : 0)
+        + (sharedSpecialties * 35)
+        + (sameType ? 6 : 0)
+        + (entryType(candidate) === "article" ? 4 : 0);
+      return { candidate, score, date: dateStamp(candidate), title: entryTitle(candidate, "en") };
+    })
+    .sort((a, b) => b.score - a.score || b.date - a.date || a.title.localeCompare(b.title));
+  const topical = scored.filter((item) => item.score > 0);
+  return (topical.length ? topical : scored).slice(0, limit).map((item) => item.candidate);
+}
+
 function detailPage({ c, locale, categories, entries, entry }) {
   const depth = 1;
   const slug = entrySlug(entry);
@@ -908,22 +1034,7 @@ function detailPage({ c, locale, categories, entries, entry }) {
   // question twice and dropped the doctor's answer entirely.
   const fallbackBody = sections.map((section) => sectionBody(section, locale)).filter(Boolean).join("\n\n")
     || entryExcerpt(entry, locale);
-  const otherEntries = entries.filter((candidate) => entrySlug(candidate) !== slug);
-  const sameCategory = otherEntries
-    .filter((candidate) => entryCategorySlug(candidate) === entryCategorySlug(entry));
-  const sameCategoryArticles = sameCategory.filter((candidate) => entryType(candidate) === "article");
-  const specialtySlugs = new Set(ta(entry?.specialties, "en"));
-  const sharedSpecialtyArticles = otherEntries.filter((candidate) =>
-    entryType(candidate) === "article"
-    && ta(candidate?.specialties, "en").some((specialty) => specialtySlugs.has(specialty))
-  );
-  /* Prefer a long-form article in the same category. The one general-health
-     Q&A has no category peer, so it falls back to a long-form article sharing
-     its existing specialty reference. */
-  const relatedPool = sameCategoryArticles.length
-    ? sameCategoryArticles
-    : sameCategory.length ? sameCategory : sharedSpecialtyArticles;
-  const related = newest(relatedPool).slice(0, 3);
+  const related = relatedEntries({ entry, entries });
 
   const body = `
 <section class="section section--tight">
@@ -949,7 +1060,7 @@ function detailPage({ c, locale, categories, entries, entry }) {
 
 ${when(image, `<section class="section section--tight" style="padding-top:0">
   <div class="wrap wrap--narrow"><div class="arch arch--wide">
-    <img src="${esc(asset(depth, image))}" alt="${esc(t(entry?.imageAlt, locale) || title)}" width="1000" height="625" loading="eager" decoding="async">
+    <img src="${esc(asset(depth, image))}" alt="${esc(articleImageAlt(entry, locale))}" width="1000" height="625" loading="eager" decoding="async">
   </div></div>
 </section>`)}
 
@@ -987,6 +1098,8 @@ ${when(ta(entry?.sources, "en").length, `<section class="section section--tight"
     ${sourceList(entry, locale)}
   </div>
 </section>`)}
+
+${reviewAndHistory({ c, locale, depth, entry })}
 
 ${when(faq.length, `<section class="section section--sunk">
   <div class="wrap wrap--narrow">

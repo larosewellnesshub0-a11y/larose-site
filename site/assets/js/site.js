@@ -504,12 +504,24 @@
       return;
     }
 
-    /* Gemini takes no question in its URL, so the question goes to the
-       clipboard and the app opens in the new tab the anchor was going to open
-       anyway. The copy is fire-and-forget: it must never block the navigation. */
+    /* Gemini has no supported prompt-in-URL contract. Start the clipboard
+       write while the click still has user activation, then open Gemini in a
+       new tab. The visitor gets an explicit copied/failure result instead of
+       a silent best-effort operation that looks like it only opened Gemini. */
     var ask = event.target.closest ? event.target.closest("[data-ask-copy]") : null;
     if (ask) {
-      try { copyText(ask.getAttribute("data-ask-copy")); } catch (err) { /* best effort */ }
+      event.preventDefault();
+      var question = ask.getAttribute("data-ask-copy") || "";
+      var geminiUrl = ask.getAttribute("data-ask-url") || "https://gemini.google.com/app";
+      var copyResult;
+      try { copyResult = copyText(question); }
+      catch (err) { copyResult = Promise.reject(err); }
+      window.open(geminiUrl, "_blank", "noopener");
+      copyResult.then(function () {
+        flash(ask, ask.getAttribute("data-ask-copied") || "Question copied");
+      }, function () {
+        flash(ask, ask.getAttribute("data-ask-failed") || "Copy the question in Gemini");
+      });
     }
   });
 })();

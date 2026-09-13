@@ -1514,6 +1514,43 @@
   .article-toc .prose ol li { break-inside: avoid; }
 }
 
+/* ---- article review and publication record --------------------------------
+   These facts make editorial ownership visible without pretending that every
+   entry has a newer revision date. The history stays compact until a reader
+   chooses to inspect it. */
+.article-transparency__facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: .75rem 1rem;
+  margin: .25rem 0 0;
+}
+.article-transparency__facts > div {
+  border-inline-start: 2px solid var(--line);
+  padding-inline-start: .75rem;
+}
+.article-transparency__facts dt {
+  color: var(--ink-muted);
+  font-size: var(--t-xs);
+  font-weight: 700;
+}
+.article-transparency__facts dd {
+  margin: .2rem 0 0;
+  font-size: var(--t-sm);
+}
+.article-transparency__history {
+  border-top: 1px solid var(--line);
+  margin-top: .5rem;
+  padding-top: .75rem;
+}
+.article-transparency__history summary {
+  color: var(--ink);
+  cursor: pointer;
+  font-weight: 700;
+}
+.article-transparency__history .prose {
+  margin-top: .75rem;
+}
+
 /* ---- product gallery -------------------------------------------------------
    Two slides on the recipe book: the cover, and a spread from inside it. Driven
    by radio inputs rather than script, so with JavaScript blocked the first slide

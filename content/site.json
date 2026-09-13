@@ -912,6 +912,14 @@
         "ar": "اقرأ المقال ده من عيادات لاروز التخصصية واشرحلي أهم النقاط فيه ببساطة، وقوللي أنهي أسئلة المفروض أسألها لدكتوري. العنوان: {title} — الرابط: {url}",
         "en": "Read this article from La Rose Wellness Hub and explain its key points to me in plain language, then tell me which questions I should ask my own doctor. Title: {title} — Link: {url}"
       },
+      "geminiCopied": {
+        "ar": "اتنسخ السؤال — الصقه في Gemini",
+        "en": "Question copied — paste it in Gemini"
+      },
+      "geminiCopyFailed": {
+        "ar": "افتح Gemini وانسخ السؤال يدويًا",
+        "en": "Open Gemini and copy the question manually"
+      },
       "assistants": [
         {
           "key": "chatgpt",
@@ -932,8 +940,8 @@
         {
           "key": "gemini",
           "label": {
-            "ar": "اسأل Gemini",
-            "en": "Ask Gemini"
+            "ar": "انسخ السؤال وافتح Gemini",
+            "en": "Copy question & open Gemini"
           },
           "enabled": true
         }

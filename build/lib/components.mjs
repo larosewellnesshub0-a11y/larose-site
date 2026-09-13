@@ -513,11 +513,18 @@ export function shareBlock({ c, locale, url, title }) {
     const target = ASSISTANT_TARGETS[a.key];
     if (!target) return "";
     const label = t(a.label, locale) || a.key;
-    /* The question rides on the element for the copy-and-open case; it is the
-       same string the prefilled links carry, so the two paths cannot drift. */
+    /* Gemini has no supported prompt-in-URL contract. Make its required copy
+       step explicit and let the client copy before opening the app. The same
+       generated question is used by every assistant, so the paths cannot drift. */
+    if (!target.prefills) {
+      return `<li class="share__item"><button class="share__btn share__btn--ai" type="button"
+        data-ask-copy="${esc(question)}" data-ask-url="${esc(target.url(question))}"
+        data-ask-copied="${esc(t(ask.geminiCopied, locale) || "Question copied — paste it in Gemini")}" 
+        data-ask-failed="${esc(t(ask.geminiCopyFailed, locale) || "Open Gemini and copy the question manually")}">
+        ${icon("ai", "share__icon")}<span>${esc(label)}</span></button></li>`;
+    }
     return `<li class="share__item"><a class="share__btn share__btn--ai" href="${esc(target.url(question))}"
-      target="_blank" rel="noopener noreferrer"${target.prefills ? "" : ` data-ask-copy="${esc(question)}"`}
-      >${icon("ai", "share__icon")}<span>${esc(label)}</span></a></li>`;
+      target="_blank" rel="noopener noreferrer">${icon("ai", "share__icon")}<span>${esc(label)}</span></a></li>`;
   }).join("");
 
   return `<section class="section section--tight entry-share" style="padding-top:0">
