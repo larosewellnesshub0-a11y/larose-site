@@ -217,6 +217,13 @@ const CONTEXTUAL_INTERNAL_LINKS = {
     ["PCOS", "pcos-and-weight"],
     ["polycystic ovary syndrome", "pcos-and-weight"],
     ["GLP-1", "glp1-medication-guide"],
+    ["bariatric surgery", "preparing-for-bariatric-surgery"],
+    ["sleeve gastrectomy", "sleeve-gastrectomy-what-to-know"],
+    ["hair loss", "hair-loss-blood-tests-first"],
+    ["blood tests", "liver-function-tests-need-context"],
+    ["colonoscopy", "colonoscopy-preparation-what-to-ask"],
+    ["endoscopy", "gastroscopy-vs-colonoscopy-what-to-expect"],
+    ["weight management", "weight-management-first-visit"],
     ["localised fat", "local-fat-injections-do-they-work"],
     ["local fat", "local-fat-injections-do-they-work"],
     ["ultrasound", "abdominal-pelvic-ultrasound-what-it-shows"],
@@ -232,6 +239,13 @@ const CONTEXTUAL_INTERNAL_LINKS = {
     ["إن بودي", "inbody-results-explained"],
     ["الدهون الحشوية", "qa-visceral-fat-how-to-know"],
     ["تكيس المبايض", "pcos-and-weight"],
+    ["جراحة السمنة", "preparing-for-bariatric-surgery"],
+    ["تكميم المعدة", "sleeve-gastrectomy-what-to-know"],
+    ["تساقط الشعر", "hair-loss-blood-tests-first"],
+    ["تحاليل الدم", "liver-function-tests-need-context"],
+    ["منظار القولون", "colonoscopy-preparation-what-to-ask"],
+    ["المنظار", "gastroscopy-vs-colonoscopy-what-to-expect"],
+    ["إدارة الوزن", "weight-management-first-visit"],
     ["الدهون الموضعية", "local-fat-injections-do-they-work"],
     ["السونار", "abdominal-pelvic-ultrasound-what-it-shows"],
   ],
@@ -243,13 +257,16 @@ function addNaturalInternalLinks(html, locale, entry) {
   const currentSlug = entrySlug(entry);
   let inAnchor = false;
   let added = 0;
+  // Two genuinely relevant destinations in a substantial paragraph improve the
+  // reading path without turning the prose into a directory of links.
+  const maxLinksPerParagraph = 2;
   return html.split(/(<[^>]+>)/).map((part) => {
     if (part.startsWith("<a ")) { inAnchor = true; return part; }
     if (part === "</a>") { inAnchor = false; return part; }
-    if (inAnchor || part.startsWith("<") || added >= 1) return part;
+    if (inAnchor || part.startsWith("<") || added >= maxLinksPerParagraph) return part;
     let output = part;
     for (const [label, slug] of CONTEXTUAL_INTERNAL_LINKS[locale] || []) {
-      if (added >= 1 || slug === currentSlug) continue;
+      if (added >= maxLinksPerParagraph || slug === currentSlug) continue;
       const boundary = locale === "en" ? "\\b" : "";
       const pattern = new RegExp(`${boundary}${escapeRegExp(label)}${boundary}`, locale === "en" ? "i" : "");
       if (!pattern.test(output)) continue;
