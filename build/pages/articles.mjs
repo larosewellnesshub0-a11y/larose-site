@@ -274,7 +274,6 @@ function sectionParas(section, locale, entry) {
     .filter(Boolean)
     .map((paragraph) => {
       let html = esc(paragraph);
-      html = addNaturalInternalLinks(html, locale, entry);
       for (const item of links) {
         const label = t(item?.label, locale);
         const url = t(item?.url, locale) || t(item?.url, "en");
@@ -283,6 +282,7 @@ function sectionParas(section, locale, entry) {
         if (!html.includes(escapedLabel) || html.includes(`>${escapedLabel}</a>`)) continue;
         html = html.replace(escapedLabel, `<a href="${esc(url)}">${escapedLabel}</a>`);
       }
+      html = addNaturalInternalLinks(html, locale, entry);
       /* Citations remain readable as [1, 2], while each valid number points
          to its matching numbered source below. Keep invalid/out-of-range
          numbers as text so editorial mistakes cannot become broken links. */

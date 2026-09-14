@@ -22,6 +22,7 @@ export function loadContent() {
   const darkNeckRewrite = read("articles-dark-neck-rewrite-2026-09-14.json");
   const mesotherapyRewrite = read("articles-mesotherapy-rewrite-2026-09-14.json");
   const ibsRewrite = read("articles-ibs-rewrite-2026-09-14.json");
+  const bodyCompositionRewrite = read("articles-body-composition-rewrite-2026-09-14.json");
   // Keep the September knowledge-centre expansion in its own source file so
   // editorial batches remain reviewable without rewriting the core library.
   const articleExpansion = read("articles-expansion-2026-09-11.json");
@@ -30,7 +31,7 @@ export function loadContent() {
   // editorial batch. They deliberately support (rather than replace) each
   // article's topic-specific sections and make the guidance useful in a real
   // consultation without turning it into personal medical advice.
-  const expansionArticles = (articleExpansion.articles || []).map((article) => ({
+  const expansionArticles = (articleExpansion.articles || []).filter((article) => article.slug !== "body-composition-change-over-time").map((article) => ({
     ...article,
     sections: [
       ...(article.sections || []),
@@ -59,6 +60,7 @@ export function loadContent() {
     ...(darkNeckRewrite.articles || []),
     ...(mesotherapyRewrite.articles || []),
     ...(ibsRewrite.articles || []),
+    ...(bodyCompositionRewrite.articles || []),
     ...expansionArticles,
     ...(longformExpansion.articles || []),
   ];
