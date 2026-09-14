@@ -192,11 +192,17 @@ function sectionBody(section, locale) {
   return t(section?.body, locale) || t(section?.text, locale);
 }
 
+function sourceAnchorId(entry, number) {
+  const slug = String(entrySlug(entry) || "entry").replace(/[^A-Za-z0-9_-]+/g, "-");
+  return `${slug}-source-${number}`;
+}
+
 /* Long-form entries may nominate a small number of relevant internal links.
    Keep the prose as plain text in content JSON and construct anchors here so
    a translated label cannot introduce markup into a published article. */
-function sectionParas(section, locale) {
+function sectionParas(section, locale, entry) {
   const links = ta(section?.links, locale);
+  const sourceCount = ta(entry?.sources, "en").length;
   const validUrl = (url) => /^(?:\.\.\/|https:\/\/laroseclinics\.com\/)/.test(url);
   return String(sectionBody(section, locale) || "")
     .split(/\n\s*\n/)
@@ -212,6 +218,18 @@ function sectionParas(section, locale) {
         if (!html.includes(escapedLabel)) continue;
         html = html.replace(escapedLabel, `<a href="${esc(url)}">${escapedLabel}</a>`);
       }
+      /* Citations remain readable as [1, 2], while each valid number points
+         to its matching numbered source below. Keep invalid/out-of-range
+         numbers as text so editorial mistakes cannot become broken links. */
+      html = html.replace(/\[([0-9][0-9,\s–-]*)\]/g, (full, body) => {
+        const linked = body.replace(/\d+/g, (value) => {
+          const number = Number(value);
+          return Number.isInteger(number) && number >= 1 && number <= sourceCount
+            ? `<a class="citation-ref" href="#${sourceAnchorId(entry, number)}" aria-label="${esc(t(COPY.sources, locale))} ${number}">${number}</a>`
+            : value;
+        });
+        return `[${linked}]`;
+      });
       return `<p>${html}</p>`;
     })
     .join("\n");
@@ -368,10 +386,10 @@ function sourceList(entry, locale) {
   const sources = ta(entry?.sources, "en");
   if (!sources.length) return "";
   return `<div class="prose"><ol>
-    ${map(sources, (source) => {
+    ${map(sources, (source, index) => {
       const url = t(source?.url, locale) || t(source?.url, "en");
       const label = t(source?.label, locale) || url;
-      return `<li><a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a></li>`;
+      return `<li id="${esc(sourceAnchorId(entry, index + 1))}"><a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a></li>`;
     })}
   </ol></div>`;
 }
@@ -1095,7 +1113,7 @@ ${when(image, `<section class="section section--tight" style="padding-top:0">
       ? `<article class="prose">${sections.length
           ? map(sections, (section, index) => `<section>
             ${when(sectionTitle(section, locale), `<h2 id="${esc(sectionId(section, index))}">${esc(sectionTitle(section, locale))}</h2>`)}
-            ${sectionParas(section, locale)}
+            ${sectionParas(section, locale, entry)}
           </section>`)
           : paras(fallbackBody)}</article>`
       : `<div class="article-layout">
@@ -1110,7 +1128,7 @@ ${when(image, `<section class="section section--tight" style="padding-top:0">
         <article class="prose">
           ${map(sections, (section, index) => `<section>
             <h2 id="${esc(sectionId(section, index))}">${esc(sectionTitle(section, locale))}</h2>
-            ${sectionParas(section, locale)}
+            ${sectionParas(section, locale, entry)}
           </section>`)}
         </article>
       </div>`}
