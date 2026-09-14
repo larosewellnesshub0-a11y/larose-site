@@ -27,6 +27,7 @@ export function loadContent() {
   const gallstoneRewrite = read("articles-gallstones-rewrite-2026-09-14.json");
   const gallbladderSurgeryRewrite = read("articles-gallbladder-surgery-rewrite-2026-09-14.json");
   const gallbladderRecoveryRewrite = read("articles-gallbladder-recovery-rewrite-2026-09-14.json");
+  const gallbladderPregnancyRewrite = read("articles-gallbladder-pregnancy-rewrite-2026-09-15.json");
   // Keep the September knowledge-centre expansion in its own source file so
   // editorial batches remain reviewable without rewriting the core library.
   const articleExpansion = read("articles-expansion-2026-09-11.json");
@@ -35,7 +36,7 @@ export function loadContent() {
   // editorial batch. They deliberately support (rather than replace) each
   // article's topic-specific sections and make the guidance useful in a real
   // consultation without turning it into personal medical advice.
-  const expansionArticles = (articleExpansion.articles || []).filter((article) => !["body-composition-change-over-time", "bariatric-vitamin-monitoring", "gallstones-when-symptoms-need-assessment", "gallbladder-laparoscopic-or-open-surgery", "after-gallbladder-surgery-recovery-warning-signs"].includes(article.slug)).map((article) => ({
+  const expansionArticles = (articleExpansion.articles || []).filter((article) => !["body-composition-change-over-time", "bariatric-vitamin-monitoring", "gallstones-when-symptoms-need-assessment", "gallbladder-laparoscopic-or-open-surgery", "after-gallbladder-surgery-recovery-warning-signs", "gallbladder-pain-in-pregnancy-when-to-assess"].includes(article.slug)).map((article) => ({
     ...article,
     sections: [
       ...(article.sections || []),
@@ -69,6 +70,7 @@ export function loadContent() {
     ...(gallstoneRewrite.articles || []),
     ...(gallbladderSurgeryRewrite.articles || []),
     ...(gallbladderRecoveryRewrite.articles || []),
+    ...(gallbladderPregnancyRewrite.articles || []),
     ...expansionArticles,
     ...(longformExpansion.articles || []),
   ];
