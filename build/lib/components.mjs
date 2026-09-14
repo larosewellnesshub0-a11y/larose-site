@@ -156,7 +156,25 @@ export function ratingSummary({ c, locale, depth }) {
 /* --------------------------------------------------------------------------
    FAQ accordion
    -------------------------------------------------------------------------- */
-export function faqList({ c, locale, items, idPrefix = "faq" }) {
+/* Keep FAQ citations as useful links too. Article pages can use an in-page
+   fragment; the knowledge-centre FAQ index points to the matching article
+   source instead. Invalid numbers remain ordinary readable text. */
+function linkedCitationText(text, { sourceSlug = "", sourceCount = 0, citationBase = "" } = {}) {
+  const escaped = esc(text);
+  if (!sourceSlug || !Number.isInteger(sourceCount) || sourceCount < 1) return escaped;
+  const base = citationBase || "";
+  return escaped.replace(/\[([0-9][0-9,\s–-]*)\]/g, (full, body) => {
+    const linked = body.replace(/\d+/g, (value) => {
+      const number = Number(value);
+      return Number.isInteger(number) && number >= 1 && number <= sourceCount
+        ? `<a class="citation" href="${esc(base)}#${esc(sourceSlug)}-source-${number}" aria-label="Medical source ${number}">${number}</a>`
+        : value;
+    });
+    return `[${linked}]`;
+  });
+}
+
+export function faqList({ c, locale, items, idPrefix = "faq", sourceSlug = "", sourceCount = 0, citationBase = "" }) {
   if (!items || !items.length) return "";
   return `<div class="faq">
     ${map(items, (f, i) => `<div class="faq__item">
@@ -167,7 +185,7 @@ export function faqList({ c, locale, items, idPrefix = "faq" }) {
         </button>
       </h3>
       <div class="faq__a" id="${idPrefix}-${i}">
-        <div><div class="prose">${`<p>${esc(t(f.a, locale))}</p>`}</div></div>
+        <div><div class="prose">${`<p>${linkedCitationText(t(f.a, locale), { sourceSlug: f.sourceSlug || sourceSlug, sourceCount: Number.isInteger(f.sourceCount) ? f.sourceCount : sourceCount, citationBase: f.citationBase || citationBase })}</p>`}</div></div>
       </div>
     </div>`)}
   </div>`;

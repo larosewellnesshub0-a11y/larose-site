@@ -843,7 +843,12 @@ function faqGroups(c, entries) {
   const extra = new Map();
 
   entries.forEach((entry) => {
-    const items = entryFaq(entry);
+    const items = entryFaq(entry).map((item) => ({
+      ...item,
+      sourceSlug: entrySlug(entry),
+      sourceCount: ta(entry?.sources, "en").length,
+      citationBase: `../articles/${entrySlug(entry)}`,
+    }));
     if (!items.length) return;
     const slug = entryCategorySlug(entry) || "general";
     const target = groups.find((group) => group.slug === slug)
@@ -1212,7 +1217,7 @@ ${reviewAndHistory({ c, locale, depth, entry })}
 ${when(faq.length, `<section class="section section--sunk">
   <div class="wrap wrap--narrow">
     ${sectionHead({ title: t(COPY.faqs, locale) })}
-    ${faqList({ c, locale, items: faq, idPrefix: `entry-${slug}` })}
+    ${faqList({ c, locale, items: faq, idPrefix: `entry-${slug}`, sourceSlug: slug, sourceCount: ta(entry?.sources, "en").length })}
   </div>
 </section>`)}
 
