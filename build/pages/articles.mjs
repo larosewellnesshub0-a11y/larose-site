@@ -197,6 +197,70 @@ function sourceAnchorId(entry, number) {
   return `${slug}-source-${number}`;
 }
 
+/* These are concepts that readers commonly meet while moving between the
+   Knowledge Centre's established clusters. They enrich prose only when the
+   exact term is already present: the renderer never adds a "read page X"
+   sentence or changes the medical claim being made. */
+const CONTEXTUAL_INTERNAL_LINKS = {
+  en: [
+    ["insulin resistance", "insulin-resistance-adults-symptoms-testing"],
+    ["fatty liver", "fatty-liver-ultrasound"],
+    ["irritable bowel syndrome", "ibs-colon-symptoms-red-flags"],
+    ["IBS", "ibs-colon-symptoms-red-flags"],
+    ["H. pylori", "h-pylori-symptoms-tests-treatment"],
+    ["acid reflux", "acid-reflux-when-to-see-doctor"],
+    ["heartburn", "acid-reflux-when-to-see-doctor"],
+    ["gallstones", "gallstones-symptoms-and-surgery"],
+    ["body composition", "body-composition-not-scale"],
+    ["InBody", "inbody-results-explained"],
+    ["visceral fat", "qa-visceral-fat-how-to-know"],
+    ["PCOS", "pcos-and-weight"],
+    ["polycystic ovary syndrome", "pcos-and-weight"],
+    ["GLP-1", "glp1-medication-guide"],
+    ["localised fat", "local-fat-injections-do-they-work"],
+    ["local fat", "local-fat-injections-do-they-work"],
+    ["ultrasound", "abdominal-pelvic-ultrasound-what-it-shows"],
+  ],
+  ar: [
+    ["مقاومة الإنسولين", "insulin-resistance-adults-symptoms-testing"],
+    ["الكبد الدهني", "fatty-liver-ultrasound"],
+    ["القولون العصبي", "ibs-colon-symptoms-red-flags"],
+    ["جرثومة المعدة", "h-pylori-symptoms-tests-treatment"],
+    ["الحموضة", "acid-reflux-when-to-see-doctor"],
+    ["حصوات المرارة", "gallstones-symptoms-and-surgery"],
+    ["تركيب الجسم", "body-composition-not-scale"],
+    ["إن بودي", "inbody-results-explained"],
+    ["الدهون الحشوية", "qa-visceral-fat-how-to-know"],
+    ["تكيس المبايض", "pcos-and-weight"],
+    ["الدهون الموضعية", "local-fat-injections-do-they-work"],
+    ["السونار", "abdominal-pelvic-ultrasound-what-it-shows"],
+  ],
+};
+
+const escapeRegExp = (value) => String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+function addNaturalInternalLinks(html, locale, entry) {
+  const currentSlug = entrySlug(entry);
+  let inAnchor = false;
+  let added = 0;
+  return html.split(/(<[^>]+>)/).map((part) => {
+    if (part.startsWith("<a ")) { inAnchor = true; return part; }
+    if (part === "</a>") { inAnchor = false; return part; }
+    if (inAnchor || part.startsWith("<") || added >= 1) return part;
+    let output = part;
+    for (const [label, slug] of CONTEXTUAL_INTERNAL_LINKS[locale] || []) {
+      if (added >= 1 || slug === currentSlug) continue;
+      const boundary = locale === "en" ? "\\b" : "";
+      const pattern = new RegExp(`${boundary}${escapeRegExp(label)}${boundary}`, locale === "en" ? "i" : "");
+      if (!pattern.test(output)) continue;
+      output = output.replace(pattern, (matched) => `<a href="../articles/${esc(slug)}.html">${matched}</a>`);
+      added += 1;
+      break;
+    }
+    return output;
+  }).join("");
+}
+
 /* Long-form entries may nominate a small number of relevant internal links.
    Keep the prose as plain text in content JSON and construct anchors here so
    a translated label cannot introduce markup into a published article. */
@@ -210,12 +274,13 @@ function sectionParas(section, locale, entry) {
     .filter(Boolean)
     .map((paragraph) => {
       let html = esc(paragraph);
+      html = addNaturalInternalLinks(html, locale, entry);
       for (const item of links) {
         const label = t(item?.label, locale);
         const url = t(item?.url, locale) || t(item?.url, "en");
         if (!label || !url || !validUrl(url)) continue;
         const escapedLabel = esc(label);
-        if (!html.includes(escapedLabel)) continue;
+        if (!html.includes(escapedLabel) || html.includes(`>${escapedLabel}</a>`)) continue;
         html = html.replace(escapedLabel, `<a href="${esc(url)}">${escapedLabel}</a>`);
       }
       /* Citations remain readable as [1, 2], while each valid number points
