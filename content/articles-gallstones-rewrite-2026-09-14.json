@@ -1,0 +1,264 @@
+{
+  "articles": [
+    {
+      "slug": "gallstones-when-symptoms-need-assessment",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "general-surgery",
+      "specialties": [
+        "general-surgery",
+        "gastroenterology-hepatology",
+        "ultrasound"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-14",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/gallstones-cover.webp",
+      "title": {
+        "ar": "حصوات المرارة: متى تحتاج الأعراض تقييماً؟",
+        "en": "Gallstones: symptoms, assessment and useful next steps"
+      },
+      "excerpt": {
+        "ar": "وجود حصوة أو ألم أعلى البطن لا يحدد السبب أو العلاج وحده. تعرف على النمط وعلامات الخطر ودور السونار.",
+        "en": "A stone finding or upper-abdominal pain alone does not define the cause or treatment. Learn the pattern, warning signs and role of ultrasound."
+      },
+      "sections": [
+        {
+          "id": "stones-and-symptoms",
+          "heading": {
+            "ar": "الحصوة لا تفسر كل ألم",
+            "en": "A stone does not explain every pain"
+          },
+          "body": {
+            "ar": "قد توجد حصوات من غير أعراض، وقد ينتج ألم أعلى البطن أو الغثيان أو الانتفاخ عن أسباب متعددة. تبدأ المتابعة بالقصة: مكان الألم، بدايته، مدته، علاقته بالأكل، تكراره، والأعراض المصاحبة. [1, 2]\n\nوجود حصوة في تقرير سابق لا يثبت أن كل عرض جديد بسببها، كما أن غياب حصوة لا يفسر كل ألم وحده. ربط النتيجة بالقصة والفحص هو ما يحدد السؤال التالي. [1, 3]",
+            "en": "Gallstones can be present without symptoms, while upper-abdominal pain, nausea and bloating have more than one possible cause. Assessment starts with the story: where pain occurs, how it starts, how long it lasts, whether it relates to meals, whether it repeats and what comes with it. [1, 2]\n\nA stone on an earlier report does not prove that every new symptom comes from it, and the absence of a stone does not explain every pain by itself. Connecting an imaging finding with the history and examination determines the next question. [1, 3]"
+          }
+        },
+        {
+          "id": "a-pattern-worth-recording",
+          "heading": {
+            "ar": "النمط الذي يستحق التسجيل",
+            "en": "The pattern worth recording"
+          },
+          "body": {
+            "ar": "سجل نوبات الألم بدل الاعتماد على الذاكرة: الوقت، المكان، الشدة، المدة، الطعام أو الدواء القريب، القيء أو الحرارة، وما إذا كان الألم يتحسن أو يتصاعد. هذه التفاصيل تساعد على التفريق بين نمط مراري محتمل وأعراض تحتاج إلى مسار آخر. [1, 2, 4]\n\nلا تستخدم السجل لتشخيص نفسك أو منع الطعام بعشوائية. استخدامه هو تحضير سؤال أوضح للمراجعة، خصوصاً إذا كانت الأعراض تتكرر أو تؤثر في النوم أو العمل أو القدرة على الأكل والشرب. [1, 4]",
+            "en": "Record pain episodes instead of relying on memory: timing, location, severity, duration, nearby food or medicines, vomiting or fever, and whether the pain settles or escalates. These details help distinguish a possible biliary pattern from symptoms that need another path of assessment. [1, 2, 4]\n\nA record is not for self-diagnosis or random food restriction. Its use is to bring a clearer question to review, particularly when symptoms recur or affect sleep, work, eating or drinking. [1, 4]"
+          }
+        },
+        {
+          "id": "ultrasound-has-a-question",
+          "heading": {
+            "ar": "السونار له سؤال محدد",
+            "en": "Ultrasound has a defined question"
+          },
+          "body": {
+            "ar": "السونار غالباً فحص مفيد لرؤية الحصوات وبعض تغيرات المرارة أو القنوات، لكنه لا يختار العملية ولا يفسر كل ألم من دون القصة والفحص والتحاليل عند الحاجة. وقد يطلب الطبيب تحاليل دم أو تصويراً آخر إذا كان السؤال مختلفاً. [1, 3, 5]\n\nالنتيجة الطبيعية أو وجود حصوة يحتاجان تفسيراً في السياق. اسأل ما الذي أجاب عنه الفحص، وما الذي لا يستطيع الإجابة عنه، وما الخطوة التالية إذا استمرت الأعراض. [1, 3]",
+            "en": "Ultrasound is often useful for looking for stones and selected gallbladder or duct changes, but it does not choose surgery or explain every pain without the history, examination and tests when needed. A clinician may request blood tests or different imaging if the clinical question is different. [1, 3, 5]\n\nBoth a normal result and a stone finding need context. Ask which question the scan answered, what it cannot answer and what the next step is if symptoms continue. [1, 3]"
+          },
+          "links": {
+            "ar": [{"label": "فحص السونار للبطن والحوض", "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"}],
+            "en": [{"label": "Ultrasound", "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"}]
+          }
+        },
+        {
+          "id": "warning-features",
+          "heading": {
+            "ar": "علامات لا تنتظر موعداً روتينياً",
+            "en": "Features that should not wait for routine review"
+          },
+          "body": {
+            "ar": "الألم الشديد أو المستمر، الحمى أو القشعريرة، قيء متكرر، اصفرار الجلد أو العينين، بول داكن، إغماء، ارتباك أو عدم القدرة على الاحتفاظ بالسوائل يحتاج تقييماً عاجلاً بحسب الشدة. هذه العلامات لا تثبت مضاعفة محددة عبر الإنترنت، لكنها ليست مناسبة للانتظار أو العلاج المنزلي. [1, 2, 6]\n\nاطلب تقييماً أسرع أيضاً إذا كان الألم جديداً مع حمل أو مرض مزمن أو أدوية مهمة، أو إذا كان يتغير بسرعة. لا تقُد نفسك إلى موعد أو تنتظر سوناراً إذا كنت تشعر بإغماء أو تدهور واضح. [2, 6]",
+            "en": "Severe or persistent pain, fever or chills, repeated vomiting, yellow skin or eyes, dark urine, fainting, confusion or inability to keep fluids down need urgent assessment according to severity. These features do not prove one complication online, but they are not appropriate for waiting or home treatment. [1, 2, 6]\n\nSeek earlier assessment as well when pain is new during pregnancy, with chronic illness or important medicines, or when it is changing rapidly. Do not drive yourself to an appointment or wait for ultrasound if you feel faint or clearly deteriorate. [2, 6]"
+          }
+        },
+        {
+          "id": "treatment-follows-the-problem",
+          "heading": {
+            "ar": "العلاج يتبع المشكلة وليس اسم الحصوة",
+            "en": "Treatment follows the problem, not the stone label"
+          },
+          "body": {
+            "ar": "لا تحتاج كل حصوة إلى عملية، ولا يعني الألم دائماً أن الجراحة هي الخطوة التالية. القرار يتأثر بالأعراض، المضاعفات، التحاليل، التصوير، الصحة العامة والمخاطر والفائدة المتوقعة. الهدف هو قرار يطابق المشكلة الفعلية لا إزالة نتيجة من التقرير فقط. [1, 3, 7]\n\nقد يشرح الفريق المراقبة أو تغييراً مؤقتاً أو إحالة جراحية أو فحوصاً إضافية. اسأل ما الذي يجعل كل خيار مناسباً، وما الذي ينبغي مراقبته، ومتى تعود أو تطلب مساعدة أسرع. [1, 7]",
+            "en": "Not every stone needs surgery, and pain does not always make surgery the next step. The decision is influenced by symptoms, complications, tests, imaging, overall health and the expected balance of benefit and risk. The aim is a decision that matches the actual problem, not simply removing a report finding. [1, 3, 7]\n\nA team may discuss observation, temporary changes, surgical referral or additional tests. Ask what makes each option suitable, what should be monitored and when to return or seek help sooner. [1, 7]"
+          }
+        },
+        {
+          "id": "make-the-visit-useful",
+          "heading": {
+            "ar": "كيف تجعل المراجعة مفيدة؟",
+            "en": "How to make a review useful"
+          },
+          "body": {
+            "ar": "خذ تقرير السونار إن وجد، وقائمة الأدوية والمكملات، وسجل الألم والنتائج السابقة. اذكر عمليات سابقة وحمل وأمراض كبد أو دم أو قلب لأن ذلك قد يغيّر معنى الأعراض وخيارات الفحص. [1, 3, 5]\n\nاسأل ما التشخيصات التي ما زالت محتملة، وما الفحوص التي تجيب عن سؤال محدد، وهل توجد علامات تستدعي الاتصال قبل الموعد التالي. القرار الجيد يترك خطة واضحة بدلاً من طمأنة عامة أو منع أطعمة كثيرة بلا دليل. [1, 4, 7]",
+            "en": "Bring an ultrasound report if available, a medicines and supplements list, pain record and earlier results. Mention previous surgery, pregnancy, and liver, blood or heart conditions because these can change the meaning of symptoms and testing choices. [1, 3, 5]\n\nAsk which explanations remain possible, which tests answer a defined question and which signs mean contacting the team before the next appointment. A good decision leaves a clear plan instead of general reassurance or broad food avoidance without evidence. [1, 4, 7]"
+          }
+        },
+        {
+          "id": "similar-symptoms-different-paths",
+          "heading": {
+            "ar": "أعراض متشابهة ومسارات مختلفة",
+            "en": "Similar symptoms can follow different paths"
+          },
+          "body": {
+            "ar": "ألم أعلى البطن أو الغثيان قد يحدث مع الارتجاع أو القرحة أو التهاب المعدة أو البنكرياس أو الكبد أو أسباب أخرى. لا يحتاج الشخص إلى تشخيص نفسه من قائمة، لكنه يحتاج إلى معرفة أن موضع الألم وتوقيته ومدته وعلاقته بالأكل والفحص قد تغير السؤال. [1, 3, 4]\n\nالتحسن بعد وجبة أخف أو تجنب طعام لا يثبت أن الحصوة هي السبب، كما أن الانتفاخ وحده لا يثبت مرض المرارة. قد تقترح المراجعة فحوصاً موجهة أو متابعة أو إحالة بحسب القصة لا بحسب عرض واحد. [1, 2, 7]\n\nلا تبدأ مكملات تدّعي إذابة الحصوات أو حمية قاسية بسبب نتيجة بحث. قد تؤخر المنتجات التقييم أو تتداخل مع الأدوية، بينما السؤال العملي هو هل العرض يناسب مشكلة تحتاج علاجاً أو متابعة أسرع. [1, 6, 7]",
+            "en": "Upper-abdominal pain or nausea can occur with reflux, ulcer disease, gastritis, pancreatic or liver problems and other causes. A person does not need to diagnose themselves from a list, but needs to know that pain site, timing, duration, relation to food and examination can change the question. [1, 3, 4]\n\nImprovement after a lighter meal or avoiding one food does not prove that a stone caused the symptom, and bloating alone does not prove gallbladder disease. Review may suggest targeted tests, follow-up or referral according to the story rather than one symptom. [1, 2, 7]\n\nDo not start supplements claiming to dissolve stones or a severe diet because of a search result. Products can delay assessment or interact with medicines, while the practical question is whether a symptom fits a problem needing treatment or faster review. [1, 6, 7]"
+          },
+          "links": {
+            "ar": [{"label": "الارتجاع", "url": "../articles/acid-reflux-when-to-see-doctor.html"}, {"label": "جرثومة المعدة", "url": "../articles/h-pylori-symptoms-tests-treatment.html"}],
+            "en": [{"label": "reflux", "url": "../articles/acid-reflux-when-to-see-doctor.html"}, {"label": "H. pylori", "url": "../articles/h-pylori-symptoms-tests-treatment.html"}]
+          }
+        },
+        {
+          "id": "incidental-stones-and-decisions",
+          "heading": {
+            "ar": "الحصوات المكتشفة بالصدفة والقرار التالي",
+            "en": "Incidental stones and the next decision"
+          },
+          "body": {
+            "ar": "تكتشف الحصوات أحياناً عند تصوير لسبب آخر. لا يعني ذلك أن كل شخص يحتاج تدخلاً عاجلاً، ولا أن النتيجة يجب إهمالها. يناقش الفريق هل توجد أعراض توافقها، وهل حدثت مضاعفات، وما مخاطر وفائدة المراقبة أو التدخل في الحالة الفردية. [1, 3, 7]\n\nإذا أوصى الفريق بالمراقبة، اطلب شرح الأعراض التي تغير الخطة ومن تتصل به ومتى تعود. وإذا نوقشت الجراحة، اسأل عن سببها في حالتك والبدائل والتحضير والتعافي وما الذي قد لا تحله العملية إذا كان الألم من مصدر آخر. [1, 7, 8]\n\nقرار منظم لا يعني إهمالاً ولا اندفاعاً إلى عملية. هو استخدام الأعراض والاختبارات والصحة العامة لاختيار خطوة لها هدف واضح ويمكن مراجعة أثرها. [1, 3, 7]",
+            "en": "Stones are sometimes found when imaging is performed for another reason. This does not mean every person needs urgent intervention, nor that the finding should be ignored. A team considers whether matching symptoms exist, whether complications occurred, and the individual benefits and risks of observation or intervention. [1, 3, 7]\n\nIf observation is advised, ask which symptoms change the plan, whom to contact and when review happens. If surgery is discussed, ask why it is being considered in your case, alternatives, preparation, recovery, and what an operation may not resolve if pain has another source. [1, 7, 8]\n\nAn organised decision is neither neglect nor a rush to surgery. It uses symptoms, tests and overall health to choose a step with a clear purpose and a reviewable effect. [1, 3, 7]"
+          },
+          "links": {
+            "ar": [{"label": "الجراحة بالمنظار أو الجراحة المفتوحة للمرارة", "url": "../articles/gallbladder-laparoscopic-or-open-surgery.html"}],
+            "en": [{"label": "surgery", "url": "../articles/gallbladder-laparoscopic-or-open-surgery.html"}]
+          }
+        },
+        {
+          "id": "tests-work-as-a-set",
+          "heading": {
+            "ar": "الفحوص تعمل كمجموعة لا كإجابة واحدة",
+            "en": "Tests work as a set, not one answer"
+          },
+          "body": {
+            "ar": "قد يستخدم الطبيب تحاليل الدم مع السونار عندما يريد معرفة ما إذا كانت هناك علامات التهاب أو تأثير على الكبد أو القنوات أو سبب آخر للألم. لا تعني كل نتيجة غير طبيعية أن الحصوة انتقلت، ولا تعني نتيجة طبيعية أن كل احتمال انتهى. الاختبار مفيد بقدر السؤال الذي صُمم للإجابة عنه. [1, 3, 5]\n\nمن الطبيعي أن تتغير الخطة بعد نتيجة جديدة. قد يكون ذلك متابعة قريبة أو تكرار فحص أو إحالة أو علاج مختلف. اطلب شرح ما الذي تغير في مستوى القلق، وما العلامة التي تجعل الوقت مهماً، وما الذي يمكن مراقبته بأمان في المنزل بينما تنتظر التعليمات. [1, 3, 7]\n\nلا تتجاهل دواءً أو مرضاً مزمناً أو حملًا عند مناقشة الفحوص. هذه التفاصيل قد تؤثر في الاختيار والتوقيت والتفسير، وهي سبب كافٍ لعدم الاعتماد على نتائج شخص آخر أو محادثة على الإنترنت. [1, 5, 7]",
+            "en": "A clinician may use blood tests with ultrasound when asking whether there are signs of inflammation, an effect on the liver or ducts, or another cause of pain. An abnormal result does not automatically mean that a stone moved, and a normal result does not end every possibility. A test is useful to the extent that it answers the question it was designed to answer. [1, 3, 5]\n\nIt is normal for a plan to change after a new result. That may mean closer follow-up, repeat testing, referral or different treatment. Ask what changed the level of concern, which sign makes timing important, and what can be safely monitored at home while awaiting instructions. [1, 3, 7]\n\nDo not omit a medicine, chronic condition or pregnancy when discussing tests. These details can affect selection, timing and interpretation, and they are reason enough not to rely on another person’s results or an online conversation. [1, 5, 7]"
+          }
+        },
+        {
+          "id": "a-safe-plan-between-visits",
+          "heading": {
+            "ar": "خطة آمنة بين الزيارات",
+            "en": "A safe plan between visits"
+          },
+          "body": {
+            "ar": "إذا كانت الأعراض مستقرة والفريق لا يرى حاجة عاجلة، اتبع التعليمات التي تلقيتها وسجل ما يتغير بدلاً من تجربة علاجات متداخلة. قد يكون من المفيد الاحتفاظ بمعلومات الاتصال ونسخة من التقرير ومعرفة المكان المناسب لطلب المساعدة في خارج ساعات العيادة. [1, 2, 7]\n\nلا تحاول اختبار قدرتك على تحمل الألم أو تكرر وجبة أثارت نوبة فقط لتتأكد من السبب. الهدف من أي تعديل مؤقت هو الراحة والتحضير للمراجعة، وليس إثبات تشخيص أو تأخير تقييم إذا ظهرت حرارة أو اصفرار أو قيء أو ألم يتصاعد. [1, 2, 6]\n\nقبل إنهاء الزيارة، تأكد من أنك تعرف الموعد التالي وسبب المتابعة وما الذي يجب أن تحضره. حتى عندما تكون الخطة هي المراقبة، يجب أن تكون المراقبة نشطة: لها سؤال وأعراض إنذار وطريق واضح للعودة. [1, 3, 7]",
+            "en": "If symptoms are stable and the team sees no urgent need, follow the instructions given and record changes rather than trying overlapping remedies. It can help to keep contact information, a copy of the report and knowledge of the right place to seek help outside clinic hours. [1, 2, 7]\n\nDo not test how much pain you can tolerate or repeat a meal that triggered an episode simply to prove the cause. The purpose of any temporary adjustment is comfort and preparation for review, not proving a diagnosis or delaying assessment if fever, jaundice, vomiting or escalating pain appears. [1, 2, 6]\n\nBefore leaving a visit, make sure you know the next appointment, why follow-up is planned and what to bring. Even when the plan is observation, observation should be active: it has a question, warning symptoms and a clear route back. [1, 3, 7]"
+          }
+        },
+        {
+          "id": "make-the-result-actionable",
+          "heading": {
+            "ar": "كيف تتحول النتيجة إلى خطوة مفهومة؟",
+            "en": "How a result becomes an understandable next step"
+          },
+          "body": {
+            "ar": "بعد استلام التقرير، لا تكتفِ بالبحث عن كلمة حصوة أو طبيعي. اقرأ اسم الفحص والمنطقة التي تم تصويرها والوصف والخلاصة، ثم ناقشها مع الشخص الذي يعرف القصة والفحص. قد يجيب التقرير عن وجود حصوات أو عن تغيرات في المرارة، لكنه لا يضع وحده سبب النوبة أو ما إذا كان التدخل مناسباً. [1, 3, 5]\n\nيساعد سؤالان بسيطان على جعل النتيجة عملية: ما الذي ترجحه هذه النتيجة؟ وما الخطوة التالية التي قد تغيرها؟ قد تكون الإجابة متابعة الأعراض، أو تحليل دم، أو إحالة، أو توجيهات واضحة للعودة بسرعة. احتفظ بنسخة من التقرير ولا تقارن صياغته بتقرير شخص آخر؛ السياق هو الذي يعطي الكلمات معناها. [1, 3, 7]",
+            "en": "After receiving a report, do not stop at searching for the words ‘stone’ or ‘normal’. Read the test name, the area examined, the description and conclusion, then discuss them with the clinician who knows the history and examination. A report may answer whether stones or selected gallbladder changes are present, but it does not by itself establish why an episode happened or whether intervention is appropriate. [1, 3, 5]\n\nTwo simple questions make a result practical: what does this result make more or less likely, and what next step could change that answer? The response may be symptom follow-up, a blood test, referral or clear instructions for returning sooner. Keep a copy of the report and do not compare its wording with another person’s; context gives the words their meaning. [1, 3, 7]"
+          },
+          "links": {
+            "ar": [{"label": "النتيجة الطبيعية", "url": "../articles/normal-ultrasound-does-not-end-assessment.html"}],
+            "en": [{"label": "normal", "url": "../articles/normal-ultrasound-does-not-end-assessment.html"}]
+          }
+        }
+      ],
+      "faq": [],
+      "sources": [
+        {
+          "label": {
+            "ar": "NICE: مرض حصوات المرارة",
+            "en": "NICE: Gallstone disease"
+          },
+          "url": "https://www.nice.org.uk/guidance/cg188"
+        },
+        {
+          "label": {
+            "ar": "NHS Inform: حصوات المرارة",
+            "en": "NHS Inform: Gallstones"
+          },
+          "url": "https://www.nhsinform.scot/illnesses-and-conditions/stomach-liver-and-gastrointestinal-tract/gallstones/"
+        },
+        {
+          "label": {
+            "ar": "الجمعية الأوروبية لجراحة الجهاز الهضمي",
+            "en": "EASL Clinical Practice Guidelines on gallstones"
+          },
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25110360/"
+        },
+        {
+          "label": {
+            "ar": "مراجعة تشخيص ألم المرارة",
+            "en": "AAFP: Management of gallstones"
+          },
+          "url": "https://www.aafp.org/pubs/afp/issues/2005/0815/p637.html"
+        },
+        {
+          "label": {
+            "ar": "NHS: فحص السونار",
+            "en": "NHS: Ultrasound scan"
+          },
+          "url": "https://www.nhs.uk/conditions/ultrasound-scan/"
+        },
+        {
+          "label": {
+            "ar": "Mayo Clinic: أعراض حصوات المرارة",
+            "en": "Mayo Clinic: Gallstones symptoms"
+          },
+          "url": "https://www.mayoclinic.org/diseases-conditions/gallstones/symptoms-causes/syc-20354214"
+        },
+        {
+          "label": {
+            "ar": "SAGES: إرشادات جراحة المرارة",
+            "en": "SAGES: Laparoscopic biliary tract surgery guidelines"
+          },
+          "url": "https://www.sages.org/publications/guidelines/guidelines-for-the-clinical-application-of-laparoscopic-biliary-tract-surgery/"
+        },
+        {
+          "label": {
+            "ar": "إرشادات كلية الجراحين الملكية",
+            "en": "Royal College of Surgeons: Gallstone disease guidance"
+          },
+          "url": "https://www.rcseng.ac.uk/library-and-publications/rcs-publications/docs/gallstone-disease/"
+        },
+        {
+          "label": {
+            "ar": "مراجعة السونار في حصوات المرارة",
+            "en": "Review: Ultrasound in gallstone diagnosis"
+          },
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26433470/"
+        },
+        {
+          "label": {
+            "ar": "المجلس الصحي المصري: إدارة مرض حصوات المرارة",
+            "en": "Egyptian Health Council: Management of gallstone disease"
+          },
+          "url": "https://lms.ehc.gov.eg/lms/mod/book/view.php?id=239"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "حصوات المرارة",
+          "أعراض المرارة",
+          "سونار المرارة"
+        ],
+        "en": [
+          "gallstones",
+          "gallbladder symptoms",
+          "gallbladder ultrasound"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "حصوات المرارة: الأعراض والتقييم",
+          "en": "Gallstones: symptoms and assessment"
+        },
+        "description": {
+          "ar": "متى قد يناسب الألم نمط حصوات المرارة، ومتى يحتاج إلى تقييم عاجل أو سونار موجه؟",
+          "en": "When may pain fit a gallstone pattern, and when does it need urgent assessment or targeted ultrasound?"
+        }
+      }
+    }
+  ]
+}
