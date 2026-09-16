@@ -42,6 +42,7 @@ export function loadContent() {
   const fattyLiverRewrite = read("articles-fatty-liver-rewrite-2026-09-14.json");
   const ultrasoundRewrite = read("articles-ultrasound-rewrite-2026-09-14.json");
   const abdominalUltrasoundPreparationRewrite = read("articles-abdominal-ultrasound-preparation-rewrite-2026-09-17.json");
+  const liverTestsRewrite = read("articles-liver-tests-rewrite-2026-09-17.json");
   const darkNeckRewrite = read("articles-dark-neck-rewrite-2026-09-14.json");
   const darkNeckPregnancyRewrite = neutralArabicReaderAddress(read("articles-dark-neck-pregnancy-rewrite-2026-09-16.json"));
   const hPyloriBloatingRewrite = read("articles-h-pylori-bloating-rewrite-2026-09-16.json");
@@ -64,7 +65,7 @@ export function loadContent() {
   // editorial batch. They deliberately support (rather than replace) each
   // article's topic-specific sections and make the guidance useful in a real
   // consultation without turning it into personal medical advice.
-  const expansionArticles = (articleExpansion.articles || []).filter((article) => !["body-composition-change-over-time", "bariatric-vitamin-monitoring", "gallstones-when-symptoms-need-assessment", "gallbladder-laparoscopic-or-open-surgery", "after-gallbladder-surgery-recovery-warning-signs", "gallbladder-pain-in-pregnancy-when-to-assess"].includes(article.slug)).map((article) => ({
+  const expansionArticles = (articleExpansion.articles || []).filter((article) => !["body-composition-change-over-time", "bariatric-vitamin-monitoring", "gallstones-when-symptoms-need-assessment", "gallbladder-laparoscopic-or-open-surgery", "after-gallbladder-surgery-recovery-warning-signs", "gallbladder-pain-in-pregnancy-when-to-assess", "liver-function-tests-need-context"].includes(article.slug)).map((article) => ({
     ...article,
     sections: [
       ...(article.sections || []),
@@ -106,6 +107,7 @@ export function loadContent() {
     ...(gallbladderRecoveryRewrite.articles || []),
     ...(gallbladderPregnancyRewrite.articles || []),
     ...expansionArticles,
+    ...(liverTestsRewrite.articles || []),
     ...(longformExpansion.articles || []),
   ];
   // Editorial images are hand-managed beneath `assets/img/articles/`. A small
