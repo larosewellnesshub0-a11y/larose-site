@@ -284,6 +284,7 @@ function addNaturalInternalLinks(html, locale, entry) {
 function sectionParas(section, locale, entry) {
   const links = ta(section?.links, locale);
   const sourceCount = ta(entry?.sources, "en").length;
+  const automaticCitations = String(section?.citations || "").trim();
   const validUrl = (url) => /^(?:\.\.\/|https:\/\/laroseclinics\.com\/)/.test(url);
   return String(sectionBody(section, locale) || "")
     .split(/\n\s*\n/)
@@ -291,6 +292,9 @@ function sectionParas(section, locale, entry) {
     .filter(Boolean)
     .map((paragraph) => {
       let html = esc(paragraph);
+      if (automaticCitations && !/\[[0-9][0-9,\sâ€“-]*\]/.test(paragraph)) {
+        html += ` [${esc(automaticCitations)}]`;
+      }
       for (const item of links) {
         const label = t(item?.label, locale);
         const url = t(item?.url, locale) || t(item?.url, "en");

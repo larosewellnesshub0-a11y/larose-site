@@ -41,6 +41,7 @@ export function loadContent() {
   const articles = read("articles.json");
   const fattyLiverRewrite = read("articles-fatty-liver-rewrite-2026-09-14.json");
   const ultrasoundRewrite = read("articles-ultrasound-rewrite-2026-09-14.json");
+  const abdominalUltrasoundPreparationRewrite = read("articles-abdominal-ultrasound-preparation-rewrite-2026-09-17.json");
   const darkNeckRewrite = read("articles-dark-neck-rewrite-2026-09-14.json");
   const darkNeckPregnancyRewrite = neutralArabicReaderAddress(read("articles-dark-neck-pregnancy-rewrite-2026-09-16.json"));
   const hPyloriBloatingRewrite = read("articles-h-pylori-bloating-rewrite-2026-09-16.json");
@@ -86,9 +87,10 @@ export function loadContent() {
     ]
   }));
   articles.articles = [
-    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "dark-neck-skin-during-pregnancy", "insulin-resistance-explained", "qa-h-pylori-still-bloated", "qa-teen-restricting-food-fears-weight", "gastroscopy-vs-colonoscopy-what-to-expect", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags"].includes(article.slug)),
+    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "abdominal-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "dark-neck-skin-during-pregnancy", "insulin-resistance-explained", "qa-h-pylori-still-bloated", "qa-teen-restricting-food-fears-weight", "gastroscopy-vs-colonoscopy-what-to-expect", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags"].includes(article.slug)),
     ...(fattyLiverRewrite.articles || []),
     ...(ultrasoundRewrite.articles || []),
+    ...(abdominalUltrasoundPreparationRewrite.articles || []),
     ...(darkNeckRewrite.articles || []),
     ...(darkNeckPregnancyRewrite.articles || []),
     ...(hPyloriBloatingRewrite.articles || []),
