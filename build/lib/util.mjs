@@ -16,10 +16,33 @@ export const DEFAULT_LOCALE = "ar";
 /* ---- content loading ----------------------------------------------------- */
 export function loadContent() {
   const read = (f) => JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, f), "utf8"));
+  // The Knowledge Centre uses masculine or neutral Arabic reader address.
+  // Keep this targeted normalisation beside the dedicated editorial override so
+  // both rendered locales retain the same source facts without publishing
+  // feminine imperative forms on the Arabic route.
+  const neutralArabicReaderAddress = (value) => {
+    if (typeof value === "string") {
+      const replacements = [
+        ["تعرّفي", "اعرف"], ["تسجلي", "تسجل"], ["لاحظتِ", "لاحظت"],
+        ["احجزي", "احجز"], ["اكتبي", "اكتب"], ["ابدئي", "ابدأ"], ["استخدمي", "استخدم"],
+        ["تحاولي", "حاول"], ["تتلقينها", "تلقاه"], ["تغيري", "تغير"],
+        ["اتبعي", "اتبع"], ["اسألي", "اسأل"], ["اختاري", "اختار"],
+        ["راجعي", "راجع"], ["تستخدمي", "تستخدم"], ["تحجزي", "احجز"],
+        ["حضّري", "حضّر"], ["تحتاجين", "تحتاج"], ["اذكريه", "اذكره"],
+        ["تواصلي", "تواصل"], ["أخبري", "أبلغ"], ["تحدثين", "تتحدث"],
+        ["لكِ", "لك"]
+      ];
+      return replacements.reduce((text, [from, to]) => text.replaceAll(from, to), value);
+    }
+    if (Array.isArray(value)) return value.map(neutralArabicReaderAddress);
+    if (value && typeof value === "object") return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, neutralArabicReaderAddress(item)]));
+    return value;
+  };
   const articles = read("articles.json");
   const fattyLiverRewrite = read("articles-fatty-liver-rewrite-2026-09-14.json");
   const ultrasoundRewrite = read("articles-ultrasound-rewrite-2026-09-14.json");
   const darkNeckRewrite = read("articles-dark-neck-rewrite-2026-09-14.json");
+  const darkNeckPregnancyRewrite = neutralArabicReaderAddress(read("articles-dark-neck-pregnancy-rewrite-2026-09-16.json"));
   const mesotherapyRewrite = read("articles-mesotherapy-rewrite-2026-09-14.json");
   const ibsRewrite = read("articles-ibs-rewrite-2026-09-14.json");
   const bodyCompositionRewrite = read("articles-body-composition-rewrite-2026-09-14.json");
@@ -59,10 +82,11 @@ export function loadContent() {
     ]
   }));
   articles.articles = [
-    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags"].includes(article.slug)),
+    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "dark-neck-skin-during-pregnancy", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags"].includes(article.slug)),
     ...(fattyLiverRewrite.articles || []),
     ...(ultrasoundRewrite.articles || []),
     ...(darkNeckRewrite.articles || []),
+    ...(darkNeckPregnancyRewrite.articles || []),
     ...(mesotherapyRewrite.articles || []),
     ...(ibsRewrite.articles || []),
     ...(bodyCompositionRewrite.articles || []),
