@@ -31,6 +31,7 @@ ARTICLE_FILES = (
     "articles-h-pylori-bloating-rewrite-2026-09-16.json",
     "articles-insulin-resistance-rewrite-2026-09-16.json",
     "articles-teen-eating-concern-rewrite-2026-09-16.json",
+    "articles-gastroscopy-colonoscopy-rewrite-2026-09-17.json",
     "articles-mesotherapy-rewrite-2026-09-14.json",
     "articles-ibs-rewrite-2026-09-14.json",
     "articles-body-composition-rewrite-2026-09-14.json",
