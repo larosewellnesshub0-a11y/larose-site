@@ -53,6 +53,7 @@ export function loadContent() {
   const bloodPressureRewrite = read("articles-blood-pressure-rewrite-2026-09-17.json");
   const ultrasoundSafetyRewrite = read("articles-ultrasound-safety-rewrite-2026-09-17.json");
   const hPyloriRefluxIbsRewrite = read("articles-h-pylori-reflux-ibs-rewrite-2026-09-18.json");
+  const prediabetesMedicineRewrite = read("articles-prediabetes-medicine-rewrite-2026-09-18.json");
   const darkNeckRewrite = read("articles-dark-neck-rewrite-2026-09-14.json");
   const darkNeckPregnancyRewrite = neutralArabicReaderAddress(read("articles-dark-neck-pregnancy-rewrite-2026-09-16.json"));
   const hPyloriBloatingRewrite = read("articles-h-pylori-bloating-rewrite-2026-09-16.json");
@@ -98,7 +99,7 @@ export function loadContent() {
     ]
   }));
   articles.articles = [
-    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "abdominal-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "dark-neck-skin-during-pregnancy", "insulin-resistance-explained", "qa-h-pylori-still-bloated", "qa-teen-restricting-food-fears-weight", "h-pylori-reflux-ibs", "gastroscopy-vs-colonoscopy-what-to-expect", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags", "normal-ultrasound-does-not-end-assessment", "fatty-liver-fibrosis-needs-its-own-assessment", "hypothyroidism-and-weight", "kidney-stones-symptoms-and-tests", "diabetes-review-whole-health", "blood-pressure-needs-a-pattern", "ultrasound-uses-sound-not-xrays"].includes(article.slug)),
+    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "abdominal-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "dark-neck-skin-during-pregnancy", "insulin-resistance-explained", "qa-h-pylori-still-bloated", "qa-teen-restricting-food-fears-weight", "h-pylori-reflux-ibs", "qa-prediabetes-need-medicine", "gastroscopy-vs-colonoscopy-what-to-expect", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags", "normal-ultrasound-does-not-end-assessment", "fatty-liver-fibrosis-needs-its-own-assessment", "hypothyroidism-and-weight", "kidney-stones-symptoms-and-tests", "diabetes-review-whole-health", "blood-pressure-needs-a-pattern", "ultrasound-uses-sound-not-xrays"].includes(article.slug)),
     ...(fattyLiverRewrite.articles || []),
     ...(ultrasoundRewrite.articles || []),
     ...(abdominalUltrasoundPreparationRewrite.articles || []),
@@ -128,6 +129,7 @@ export function loadContent() {
     ...(bloodPressureRewrite.articles || []),
     ...(ultrasoundSafetyRewrite.articles || []),
     ...(hPyloriRefluxIbsRewrite.articles || []),
+    ...(prediabetesMedicineRewrite.articles || []),
     ...(longformExpansion.articles || []),
   ];
   // Editorial images are hand-managed beneath `assets/img/articles/`. A small
