@@ -292,6 +292,12 @@ function sectionParas(section, locale, entry) {
     .filter(Boolean)
     .map((paragraph) => {
       let html = esc(paragraph);
+      // A few legacy editorial records already contain a contextual in-site
+      // anchor. Preserve only the constrained, relative article form after
+      // escaping the paragraph; all other markup remains text. New content
+      // should continue to use section.links, but this keeps a valid natural
+      // reading-path link from being displayed as source markup.
+      html = html.replace(/&lt;a href=&quot;(\.\.\/articles\/[^&]+?\.html)&quot;&gt;(.+?)&lt;\/a&gt;/g, (_match, url, label) => `<a href="${esc(url)}">${label}</a>`);
       if (automaticCitations && !/\[[0-9][0-9,\sâ€“-]*\]/.test(paragraph)) {
         html += ` [${esc(automaticCitations)}]`;
       }
