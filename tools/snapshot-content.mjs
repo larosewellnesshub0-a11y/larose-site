@@ -25,6 +25,7 @@ const PUBLIC = new Set([
   "pages.json", "recipe-guide.json", "reviews.json", "site.json",
   "specialties.json", "tips.json",
 ]);
+PUBLIC.add("articles-food-intolerance-allergy-rewrite-2026-09-18.json");
 
 /* Must never reach the published tree. Anything starting with "_" is private
    by convention too (content/_submissions.json, content/_private/). */
