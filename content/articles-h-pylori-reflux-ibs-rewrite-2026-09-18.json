@@ -1,0 +1,158 @@
+{
+  "_note": "Canonical replacement for h-pylori-reflux-ibs. It owns the Arabic search intent of distinguishing upper-gut and bowel symptoms, while the linked H. pylori, reflux and IBS pages retain their separate diagnostic intents.",
+  "articles": [
+    {
+      "slug": "h-pylori-reflux-ibs",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": ["gastroenterology-hepatology", "internal-medicine", "clinical-nutrition"],
+      "date": "2026-09-01",
+      "updatedAt": "2026-09-18",
+      "readingTime": 13,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/h-pylori-reflux-ibs.webp",
+      "title": {"ar": "جرثومة المعدة ولا ارتجاع ولا قولون؟ إزاي تفرّق بين الحموضة والانتفاخ", "en": "H. pylori, reflux or IBS? How to separate heartburn, bloating and bowel symptoms"},
+      "excerpt": {"ar": "الحرقان والانتفاخ وألم البطن مش تشخيصات. مكان العرض وتوقيته وصلته بالأكل والتبرز وعلامات الخطر هي التي تساعد الطبيب يختار الاختبار والخطوة المناسبة.", "en": "Heartburn, bloating and abdominal pain are not diagnoses. Location, timing, links with meals and bowel movements, and warning features help a clinician choose the right question and test."},
+      "tags": {"ar": ["جرثومة المعدة", "ارتجاع المريء", "القولون العصبي", "انتفاخ وحموضة"], "en": ["H. pylori", "acid reflux", "irritable bowel syndrome", "bloating and heartburn"]},
+      "sections": [
+        {
+          "id": "start-with-pattern-not-name",
+          "heading": {"ar": "ابدأ بالنمط، مش باسم مرض", "en": "Start with the pattern, not a disease name"},
+          "body": {
+            "ar": "لما حد يقول «عندي معدة» أو «عندي قولون»، ممكن يقصد حرقان في الصدر، ألم أعلى البطن، امتلاء بعد الأكل، غازات، انتفاخ، إمساك أو إسهال. الأعراض دي تتداخل، وأحياناً أكثر من مشكلة يكون موجوداً في الوقت نفسه. لذلك لا توجد علامة واحدة تفرّق بأمان بين جرثومة المعدة والارتجاع والقولون العصبي. [1, 2, 3]\n\nالسؤال الأكثر فائدة في البداية: أين الإحساس بالضبط، ومتى يأتي، وهل يرتبط بالاستلقاء أو الوجبة أو التبرز؟ سجّل أيضاً الأدوية والمكملات الجديدة، وأي تغيير واضح في الوزن أو البراز. هذه القصة تساعد على اختيار أقل عدد من الفحوص التي تجيب عن سؤال حقيقي، بدلاً من تحليل عشوائي أو تجربة علاج من الصيدلية. [2, 3, 7]",
+            "en": "When someone says “my stomach” or “my colon,” they may mean burning in the chest, upper-abdominal pain, fullness after food, gas, bloating, constipation or diarrhoea. These symptoms overlap, and more than one problem can coexist. There is therefore no single symptom that safely separates H. pylori infection, reflux and irritable bowel syndrome (IBS). [1, 2, 3]\n\nA more useful starting question is where the sensation is, when it happens, and whether it relates to lying down, a meal or opening the bowels. Note new medicines and supplements, and any clear change in weight or stool. That story helps a clinician select the smallest set of tests that answers a real question instead of a random test or pharmacy treatment experiment. [2, 3, 7]"
+          }
+        },
+        {
+          "id": "upper-abdomen-h-pylori-question",
+          "heading": {"ar": "متى يكون سؤال جرثومة المعدة مناسباً؟", "en": "When is H. pylori the useful question?"},
+          "body": {
+            "ar": "جرثومة المعدة بكتيريا قد تسبب التهاباً أو قرحة في المعدة أو الاثني عشر، لكن كثيراً من المصابين لا تكون لديهم أعراض. ألم أو حرقان أعلى البطن، غثيان أو امتلاء قد يفتح سؤال العدوى، لكنه لا يثبتها لأن نفس الأعراض قد تأتي مع عسر الهضم أو أسباب أخرى. [1, 4, 7]\n\nعندما تكون القصة مناسبة، قد يستخدم الطبيب اختبار النفس باليوريا أو تحليل مستضد الجرثومة في البراز. بعض المضادات الحيوية والبزموت وأدوية خفض الحمض قد تجعل النتيجة غير دقيقة؛ لا توقف علاجاً بنفسك، بل اسأل الجهة التي طلبت الاختبار عن التحضير والتوقيت. تشخيص الجرثومة ثم علاجها لهما مسار مختلف عن علاج مجرد انتفاخ. [1, 4, 7]",
+            "en": "H. pylori is a bacterium that can cause inflammation or ulcers in the stomach or duodenum, although many infected people have no symptoms. Upper-abdominal pain or burning, nausea and fullness can make infection a reasonable question, but they do not prove it because the same symptoms can occur with dyspepsia and other causes. [1, 4, 7]\n\nWhen the history fits, a clinician may use a urea breath test or stool-antigen test. Antibiotics, bismuth and acid-suppressing medicines can make results inaccurate; do not stop treatment independently, but ask the service ordering the test about preparation and timing. Diagnosing and treating infection follows a different pathway from treating bloating alone. [1, 4, 7]"
+          },
+          "links": {
+            "ar": [{"label": "تشخيص الجرثومة ثم علاجها", "url": "../articles/h-pylori-symptoms-tests-treatment.html"}],
+            "en": [{"label": "Diagnosing and treating infection", "url": "../articles/h-pylori-symptoms-tests-treatment.html"}]
+          }
+        },
+        {
+          "id": "reflux-pattern",
+          "heading": {"ar": "متى يشبه النمط الارتجاع؟", "en": "When does the pattern resemble reflux?"},
+          "body": {
+            "ar": "الارتجاع يعني رجوع محتوى المعدة إلى المريء. الحرقان خلف عظمة الصدر، طعم حامض أو مر في الفم، أو رجوع محتوى المعدة، خصوصاً بعد وجبة كبيرة أو مع الاستلقاء، قد يناسب هذا النمط. الكحة أو البحة قد تحدث أحياناً، لكنهما لا يثبتان الارتجاع وحدهما لأن لهما أسباباً متعددة. [2, 5, 7]\n\nالوجبات الأصغر، ملاحظة ما يكرر العرض عندك، وتجنب الاستلقاء بعد وجبة كبيرة قد تساعد بعض الناس. لكن تحسن مؤقت مع مضاد حموضة لا يثبت التشخيص، ولا ينبغي أن يصبح استعمال الدواء لفترة طويلة خطة بلا مراجعة. صعوبة البلع المتزايدة أو ألم الصدر الجديد أو الشديد ليست أموراً نفسرها تلقائياً بالحموضة. [2, 5, 7]",
+            "en": "Reflux means stomach contents move back into the oesophagus. Burning behind the breastbone, a sour or bitter taste, or regurgitation, particularly after a large meal or when lying down, can fit that pattern. Cough or hoarseness can occur, but neither proves reflux by itself because both have several causes. [2, 5, 7]\n\nSmaller meals, noticing what repeatedly triggers symptoms, and avoiding lying down after a large meal may help some people. Temporary relief from an antacid does not establish the diagnosis, however, and long-term medicine use should not become a plan without review. Progressively difficult swallowing or new severe chest pain should not automatically be labelled heartburn. [2, 5, 7]"
+          },
+          "links": {
+            "ar": [{"label": "استعمال الدواء لفترة طويلة", "url": "../articles/qa-reflux-long-term-medicine.html"}],
+            "en": [{"label": "long-term medicine use", "url": "../articles/qa-reflux-long-term-medicine.html"}]
+          }
+        },
+        {
+          "id": "ibs-pattern",
+          "heading": {"ar": "متى يناسب النمط القولون العصبي؟", "en": "When can the pattern fit IBS?"},
+          "body": {
+            "ar": "القولون العصبي اضطراب في تواصل الأمعاء والمخ، وليس اسماً لكل غازات أو انتفاخ. النمط الذي يبحث عنه الطبيب يشمل ألماً متكرراً في البطن مع علاقة بالتبرز أو تغير في عدد مرات البراز أو شكله؛ قد يغلب عليه الإمساك أو الإسهال أو يتبادلان. الأعراض حقيقية حتى لو لم يظهر التهاب أو قرحة في اختبار آخر. [3, 6, 9]\n\nالانتفاخ وحده، أو يومان من ألم البطن، لا يكفيان لتشخيص القولون. يفيد سجل قصير يذكر توقيت الألم، شكل البراز وعدد المرات، النوم، الضغط والأدوية، بدلاً من منع أطعمة كثيرة مرة واحدة. الطعام قد يكون عاملاً لبعض الناس، لكنه ليس اختباراً منزلياً يثبت سبباً محدداً. [3, 6, 9]",
+            "en": "IBS is a disorder of gut–brain interaction, not a label for every episode of gas or bloating. The pattern clinicians look for includes recurrent abdominal pain related to bowel movements or a change in stool frequency or form; constipation, diarrhoea or both may predominate. Symptoms are real even when another test does not show inflammation or an ulcer. [3, 6, 9]\n\nBloating alone, or two days of abdominal pain, is not enough to diagnose IBS. A short record of pain timing, stool form and frequency, sleep, stress and medicines is more useful than removing many foods at once. Food can be a factor for some people, but it is not a home test that establishes one particular cause. [3, 6, 9]"
+          },
+          "links": {
+            "ar": [{"label": "سجل قصير", "url": "../articles/tip-three-column-bowel-log.html"}, {"label": "القولون العصبي", "url": "../articles/ibs-colon-symptoms-red-flags.html"}],
+            "en": [{"label": "short record", "url": "../articles/tip-three-column-bowel-log.html"}, {"label": "IBS", "url": "../articles/ibs-colon-symptoms-red-flags.html"}]
+          }
+        },
+        {
+          "id": "bloating-is-a-clue",
+          "heading": {"ar": "الانتفاخ دليل يحتاج سياقاً، وليس تشخيصاً", "en": "Bloating is a clue that needs context, not a diagnosis"},
+          "body": {
+            "ar": "الغازات والانتفاخ قد تتأثر بطريقة الأكل، الإمساك، بعض الأطعمة أو المشروبات، عدم تحمل فردي، أدوية، أو اضطرابات هضمية مختلفة. وجودهما مع حرقان لا يثبت جرثومة، ووجودهما مع تغير التبرز لا يثبت قولوناً عصبياً. المهم هو ما حدث قبل العرض وما الذي يصاحبه وما الذي تغير عن المعتاد. [3, 8, 10]\n\nلا تبدأ حمية خالية من الجلوتين لمجرد الانتفاخ إذا كان احتمال الداء البطني مطروحاً؛ التغيير قبل الفحص قد يجعل النتائج أصعب في التفسير. وكذلك لا تعني الراحة بعد حذف طعام ليوم أو يومين أن لديك حساسية أو أن هذا الطعام هو السبب الوحيد. التجربة إن كانت مناسبة ينبغي أن تكون محددة ووقتية ضمن خطة واضحة. [3, 9, 10]",
+            "en": "Gas and bloating can be influenced by eating pattern, constipation, certain foods or drinks, individual intolerance, medicines and several digestive disorders. Their presence with burning does not prove H. pylori, and their presence with altered bowel habits does not prove IBS. What matters is what happened before the symptom, what accompanies it and what has changed from usual. [3, 8, 10]\n\nDo not start a gluten-free diet simply for bloating if coeliac disease is a possible question; changing the diet before testing can make results harder to interpret. Equally, relief after removing one food for a day or two does not establish an allergy or make that food the only cause. If a trial is appropriate, it should be defined and time-limited within a clear plan. [3, 9, 10]"
+          },
+          "links": {
+            "ar": [{"label": "الداء البطني", "url": "../articles/coeliac-testing-before-gluten-free-diet.html"}],
+            "en": [{"label": "coeliac disease", "url": "../articles/coeliac-testing-before-gluten-free-diet.html"}]
+          }
+        },
+        {
+          "id": "tests-need-a-question",
+          "heading": {"ar": "كل فحص له سؤال مختلف", "en": "Every test should answer a different question"},
+          "body": {
+            "ar": "لا يوجد «تحليل قولون» واحد ولا سونار يحدد سبب كل انتفاخ. اختبار الجرثومة يبحث عن عدوى محددة بشروط تحضير محددة. تحاليل الدم أو البراز قد تكون مفيدة عندما يشير النمط إلى التهاب أو أنيميا أو سبب آخر. قرار المنظار أو التصوير يعتمد على السؤال السريري والعمر وعلامات الخطر والتاريخ، لا على القلق وحده. [1, 3, 6, 7]\n\nالسونار قد يكون مناسباً لتقييم الكبد أو المرارة أو الكلى أو بنية أخرى في البطن، لكنه لا يشخص الارتجاع أو القولون العصبي بمفرده. وبالعكس، تقرير طبيعي لا يعني أن الأعراض غير حقيقية ولا يلغي متابعة نمط مستمر. قيمة النتيجة تأتي من ربطها بالسؤال الذي طُلبت لأجله. [3, 6, 7]",
+            "en": "There is no single “colon test,” and no ultrasound identifies the cause of every episode of bloating. An H. pylori test looks for a specific infection under specific preparation conditions. Blood or stool tests may be useful when the pattern suggests inflammation, anaemia or another cause. The decision about endoscopy or imaging depends on the clinical question, age, warning features and history, not anxiety alone. [1, 3, 6, 7]\n\nUltrasound can be appropriate for the liver, gallbladder, kidneys or another abdominal structure, but it does not diagnose reflux or IBS by itself. Conversely, a normal report does not mean symptoms are unreal or remove the need to review a persistent pattern. The value of a result comes from connecting it to the question it was ordered to answer. [3, 6, 7]"
+          },
+          "links": {
+            "ar": [{"label": "سونار", "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"}, {"label": "قرار المنظار", "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"}],
+            "en": [{"label": "Ultrasound", "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"}, {"label": "decision about endoscopy", "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"}]
+          }
+        },
+        {
+          "id": "how-to-prepare-for-review",
+          "heading": {"ar": "ما الذي تكتبه قبل المراجعة؟", "en": "What should you record before a review?"},
+          "body": {
+            "ar": "لا تحتاج إلى دفتر معقد. اكتب مكان الألم أو الحرقان، وقت ظهوره، علاقته بالأكل أو الاستلقاء أو التبرز، وما إذا كان يوقظك من النوم. دوّن شكل البراز وعدد المرات، الانتفاخ، القيء إن وجد، وأسماء الأدوية والمكملات والجرعات. أحضر أيضاً تحاليل أو تقارير سابقة بدلاً من الاعتماد على الذاكرة. [2, 3, 6]\n\nهذه التفاصيل لا تطلب منك تشخيص نفسك. هي تساعد الطبيب يفرّق بين سؤال يحتاج اختبار جرثومة، ونمط حموضة، ومشكلة في حركة الأمعاء، أو سبب يحتاج تقييماً أوسع. اذكر الحمل أو الجراحة السابقة أو التاريخ العائلي لسرطان القولون أو أمراض الأمعاء الالتهابية أو الداء البطني إن وُجد. [1, 3, 6, 9]",
+            "en": "You do not need a complicated diary. Record where pain or burning occurs, when it comes, its relation to food, lying down or bowel movements, and whether it wakes you at night. Note stool form and frequency, bloating, vomiting if present, and medicine and supplement names with doses. Bring earlier tests or reports rather than relying on memory. [2, 3, 6]\n\nThose details do not ask you to diagnose yourself. They help a clinician distinguish a question needing an H. pylori test from a reflux pattern, a bowel-motility issue or a reason for broader assessment. Report pregnancy, earlier surgery and any family history of bowel cancer, inflammatory bowel disease or coeliac disease when relevant. [1, 3, 6, 9]"
+          }
+        },
+        {
+          "id": "safe-steps-while-waiting",
+          "heading": {"ar": "خطوات هادئة إلى أن تتضح الخطة", "en": "Calm steps while the plan becomes clear"},
+          "body": {
+            "ar": "إذا لم توجد علامات إنذار، قد يفيد تنظيم الوجبات بدلاً من تجويع نفسك أو حذف مجموعات كبيرة من الطعام: تناول ببطء، ولاحظ الوجبات الكبيرة أو توقيتها، واشرب سوائل مناسبة، وانتبه للإمساك. الهدف هو ملاحظة نمط قابل للنقاش، لا اختبار عشر علاجات وأغذية في أسبوع واحد. [2, 3, 9, 10]\n\nلا تبدأ مضاداً حيوياً من وصفة قديمة، ولا تكرر كورس جرثومة لأن الانتفاخ مستمر. ولا توقف دواء حموضة قبل اختبار محتمل إلا بتعليمات محددة؛ تعديل الدواء قد يؤثر في الدقة أو في راحتك. عندما يكون العرض متكرراً أو مؤثراً في الأكل أو النوم، احجز مراجعة بدلاً من إطالة التخمين. [1, 2, 4, 7]",
+            "en": "When warning features are absent, structuring meals may be more useful than starving yourself or removing broad food groups: eat slowly, notice large meals or timing, keep appropriate fluids and pay attention to constipation. The goal is to identify a pattern worth discussing, not to test ten treatments and foods in one week. [2, 3, 9, 10]\n\nDo not start antibiotics from an old prescription or repeat an H. pylori course because bloating continues. Do not stop acid medicine before a possible test without specific instructions; changing it can affect accuracy or your comfort. When symptoms recur or affect eating or sleep, arrange review rather than extending guesswork. [1, 2, 4, 7]"
+          }
+        },
+        {
+          "id": "when-to-seek-faster-care",
+          "heading": {"ar": "متى تحتاج تقييماً أسرع؟", "en": "When do you need faster assessment?"},
+          "body": {
+            "ar": "اطلب تقييماً طبياً قريباً إذا كانت الأعراض مستمرة أو تتغير بوضوح، أو إذا كان هناك صعوبة بلع، قيء متكرر، أنيميا غير مفسرة، فقدان وزن غير مقصود، أو تاريخ عائلي مهم. هذه العلامات لا تثبت مرضاً معيناً من المقال، لكنها تجعل تسمية المشكلة «قولون» أو «حموضة» من غير مراجعة غير آمنة. [2, 3, 7, 9]\n\nاطلب رعاية عاجلة عند ألم صدر جديد أو شديد خصوصاً مع ضيق نفس أو عرق أو امتداد للذراع أو الفك، أو عند قيء دموي، براز أسود، نزيف واضح، ألم بطني شديد ثابت، إغماء أو عدم القدرة على الاحتفاظ بالسوائل. لا تنتظر تجربة دايت أو موعد فحص روتيني مع هذه العلامات. [2, 5, 7]",
+            "en": "Seek timely medical assessment when symptoms persist or clearly change, or when there is difficult swallowing, repeated vomiting, unexplained anaemia, unintentional weight loss or meaningful family history. These features do not diagnose one disease from an article, but they make it unsafe to apply an IBS or heartburn label without review. [2, 3, 7, 9]\n\nSeek urgent care for new or severe chest pain, especially with breathlessness, sweating or spread to the arm or jaw; for vomiting blood, black stool, visible bleeding, severe constant abdominal pain, fainting or inability to keep fluids down. Do not wait to try a diet or for a routine test appointment with these signs. [2, 5, 7]"
+          }
+        },
+        {
+          "id": "the-right-next-question",
+          "heading": {"ar": "الخطوة التالية تكون سؤالاً محدداً", "en": "The next step should be a defined question"},
+          "body": {
+            "ar": "المراجعة الجيدة لا تنتهي بعبارة عامة مثل «معدة» أو «قولون». اسأل ما النمط الذي يبدو أقرب في حالتك، وما العلامة التي قد تغيّر الخطة، وهل الفحص المقترح يجيب عن سؤال محدد. قد تكون الخطوة اختبار جرثومة بتحضير صحيح، أو خطة للارتجاع، أو تقييم نمط القولون، أو فحصاً آخر عندما تكون القصة مختلفة. [1, 2, 3, 7]\n\nالهدف ليس مطاردة اسم مرض من الإنترنت. هو الوصول إلى تفسير عملي وآمن، ثم متابعة واضحة: ماذا تجرب، ومتى تراجع، ومتى تتواصل أسرع إذا تغيرت الأعراض. بهذه الطريقة يصبح الانتفاخ أو الحرقان معلومة مفيدة للطبيب بدلاً من أن يفرض علاجاً واحداً على أسباب مختلفة. [1, 2, 3]",
+            "en": "A useful review does not end with a broad label such as “stomach” or “colon.” Ask which pattern seems closest in your case, which feature could change the plan, and whether the proposed test answers a defined question. The next step may be properly prepared H. pylori testing, a reflux plan, assessment of an IBS pattern or another investigation when the story differs. [1, 2, 3, 7]\n\nThe goal is not to chase a disease name online. It is to reach a practical, safe explanation and a clear follow-up: what to try, when to review and when to make earlier contact if symptoms change. In this way, bloating or burning becomes useful information for the clinician rather than a reason to impose one treatment on different causes. [1, 2, 3]"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {"ar": "هل الانتفاخ وحده يعني جرثومة المعدة؟", "en": "Does bloating alone mean H. pylori?"},
+          "a": {"ar": "لا. الانتفاخ عرض شائع وله أسباب متعددة. اختبار الجرثومة يختار عندما تكون القصة الطبية مناسبة، وليس من عرض واحد. [1, 4, 10]", "en": "No. Bloating is common and has several causes. H. pylori testing is selected when the medical story fits, not from one symptom alone. [1, 4, 10]"}
+        },
+        {
+          "q": {"ar": "الحموضة تتحسن بمضاد حموضة؛ هل هذا يثبت الارتجاع؟", "en": "If an antacid helps, does that prove reflux?"},
+          "a": {"ar": "لا. التحسن قد يكون مفيداً في الخطة، لكنه لا يثبت التشخيص وحده. نمط العرض وعلامات الخطر والأدوية والتاريخ هي التي تحدد هل تحتاج مراجعة أو فحصاً. [2, 5, 7]", "en": "No. Improvement can be useful in a plan, but it does not prove the diagnosis on its own. Symptom pattern, warning features, medicines and history determine whether review or testing is useful. [2, 5, 7]"}
+        },
+        {
+          "q": {"ar": "هل السونار يثبت أن عندي قولون عصبي؟", "en": "Can ultrasound prove that I have IBS?"},
+          "a": {"ar": "لا. السونار يجيب عن أسئلة تخص أعضاء معينة في البطن، بينما القولون العصبي يعتمد على نمط الأعراض والتقييم المناسب. [3, 6, 7]", "en": "No. Ultrasound answers questions about particular abdominal organs, while IBS relies on a symptom pattern and appropriate assessment. [3, 6, 7]"}
+        },
+        {
+          "q": {"ar": "هل أوقف دواء الحموضة قبل تحليل الجرثومة؟", "en": "Should I stop acid medicine before an H. pylori test?"},
+          "a": {"ar": "بعض الأدوية قد تؤثر في دقة بعض الاختبارات، لكن لا توقفها من نفسك. اطلب تعليمات التحضير من الطبيب أو المعمل الذي اختار الاختبار. [1, 4, 7]", "en": "Some medicines can affect the accuracy of some tests, but do not stop them on your own. Get preparation instructions from the clinician or laboratory that selected the test. [1, 4, 7]"}
+        }
+      ],
+      "sources": [
+        {"label": "American College of Gastroenterology — H. pylori treatment guideline commentary (2024)", "url": "https://gi.org/journals-publications/ebgi/schoenfeld_sep2024/"},
+        {"label": "American College of Gastroenterology — GERD clinical guideline (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/34807007/"},
+        {"label": "American College of Gastroenterology — IBS clinical guideline (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/33315591/"},
+        {"label": "NIDDK — H. pylori symptoms and causes", "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/h-pylori/symptoms-causes"},
+        {"label": "NIDDK — Symptoms and causes of GER and GERD", "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/symptoms-causes"},
+        {"label": "NIDDK — Diagnosis of irritable bowel syndrome", "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/diagnosis"},
+        {"label": "NICE — Gastro-oesophageal reflux disease and dyspepsia in adults", "url": "https://www.nice.org.uk/guidance/cg184/chapter/Recommendations"},
+        {"label": "British Society of Gastroenterology — Functional dyspepsia guideline (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/35017148/"},
+        {"label": "NICE — Irritable bowel syndrome in adults", "url": "https://www.nice.org.uk/guidance/cg61/chapter/recommendations"},
+        {"label": "NIDDK — Gas in the digestive tract", "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract"}
+      ],
+      "seo": {
+        "title": {"ar": "جرثومة ولا ارتجاع ولا قولون؟", "en": "H. pylori, reflux or IBS?"},
+        "description": {"ar": "إزاي تفرّق بين الحموضة والانتفاخ وألم البطن، ومتى تحتاج اختبار جرثومة أو مراجعة؟ دليل عملي للارتجاع والقولون العصبي.", "en": "How to separate heartburn, bloating and abdominal pain, and when H. pylori testing or clinical review may be useful."}
+      }
+    }
+  ]
+}
