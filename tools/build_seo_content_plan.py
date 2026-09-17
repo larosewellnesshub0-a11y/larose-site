@@ -30,6 +30,7 @@ ARTICLE_FILES = (
     "articles-liver-tests-rewrite-2026-09-17.json",
     "articles-gerd-rewrite-2026-09-17.json",
     "articles-colonoscopy-preparation-rewrite-2026-09-17.json",
+    "articles-normal-ultrasound-rewrite-2026-09-17.json",
     "articles-dark-neck-rewrite-2026-09-14.json",
     "articles-dark-neck-pregnancy-rewrite-2026-09-16.json",
     "articles-h-pylori-bloating-rewrite-2026-09-16.json",
