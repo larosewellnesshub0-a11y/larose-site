@@ -10,11 +10,13 @@ import { t, ta, esc, link, asset, icon, sprig, stars, map, when, published, spec
    Section heading
    -------------------------------------------------------------------------- */
 export function sectionHead({ eyebrow, title, lede, center = false, level = 2 }) {
-  return `<div class="section-head${center ? " u-center" : ""}" data-reveal>
-    ${when(eyebrow, `<p class="eyebrow">${esc(eyebrow)}</p>`)}
-    <h${level} class="h2">${esc(title)}</h${level}>
-    ${when(lede, `<p class="lede">${esc(lede)}</p>`)}
-  </div>`;
+  return [
+    `<div class="section-head${center ? " u-center" : ""}" data-reveal>`,
+    eyebrow ? `  <p class="eyebrow">${esc(eyebrow)}</p>` : "",
+    `  <h${level} class="h2">${esc(title)}</h${level}>`,
+    lede ? `  <p class="lede">${esc(lede)}</p>` : "",
+    "</div>",
+  ].filter(Boolean).join("\n");
 }
 
 /* --------------------------------------------------------------------------
