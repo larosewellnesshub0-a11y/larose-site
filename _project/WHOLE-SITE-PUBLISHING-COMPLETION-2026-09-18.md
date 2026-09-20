@@ -300,6 +300,22 @@ Seventeenth locked URL, selected from the non-dermatology candidates (5 impressi
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-inbody-preparation-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 21 September 2026 — muscle-assessment-in-nutrition-care
+
+Eighteenth locked URL. `hernia-after-pregnancy-or-c-section` (5 impressions, the actual top-ranked candidate this round) was skipped — see "Proven defect: dermatology articles have no qualified reviewer on staff" and its 21 September update above, which extends the same finding to `general-surgery`/`bariatric-surgery` — so this URL was selected from the next-highest safe category (`muscle-assessment-in-nutrition-care`, clinical-nutrition, reviewed by Dr Alyaa Abu Taleb, whose real specialties include clinical-nutrition — confirmed genuinely safe before writing).
+
+- No existing registered rewrite (checked `build/lib/util.mjs` first). Short `update`-type piece (3 sections, 1 source, no citations, ~510 total words). Expanded to 5 sections/4 FAQ/5 sources/~1,103 total words.
+- **Deliberate scope split from `protecting-muscle-while-losing-weight` (article #13, completed earlier this session):** that article is the patient-facing "what to do" piece (protein targets, resistance training, GLP-1 muscle-loss context). This article owns the clinical assessment *framework* — the diagnostic sequence a clinician actually follows and why. Linked to the sibling rather than repeating its content.
+- 4 new sources verified live in Chrome, alongside the existing ESPEN/EASO sarcopenic-obesity fact sheet: Cruz-Jentoft et al. 2019 EWGSOP2 sarcopenia consensus (PubMed 30312372) — real, specific diagnostic cut-offs (grip strength <27 kg men/<16 kg women, gait speed ≤0.8 m/s, calf circumference <31 cm as a low-resource proxy) and the Find-Assess-Confirm-Severity algorithm, all directly read and confirmed from the full PMC text before citing; Aragon 2017 ISSN position stand (reused) for protein targets; Neeland 2024 GLP-1 lean-mass review (reused) for the appetite-suppressant-medicine context; NICE NG246 (reused).
+- **Self-verified a recalled numeric claim before publishing:** drafted the grip-strength/gait-speed cut-off numbers from memory, then — per this session's standing rule of never trusting recalled specifics — opened the full EWGSOP2 PMC article and confirmed both figures exactly matched (Table 3: grip strength <27 kg/<16 kg, gait speed ≤0.8 m/s) before keeping them in the final text.
+- Added real, non-filler content the site didn't have: the specific EWGSOP2 diagnostic cut-offs and screening sequence, the SARC-F five-item case-finding questionnaire, calf circumference as a low-resource screening proxy, and the primary-versus-secondary muscle-loss distinction (secondary causes are often reversible with early nutrition/movement intervention, directly countering the common assumption that muscle weakness is simply something to accept).
+- 2 editorial internal links (glp1-medication-guide, protecting-muscle-while-losing-weight) — both rendered correctly on the first build in both locales.
+- `date` preserved (2026-08-27), `updatedAt` set to 2026-09-21.
+- Gates: build (490 pages), validate (0/0), audit (101 findings, 0 blocking, em-dash count 97), Arabic voice (PASS, no fix needed). All 5 citation anchors covered.
+- Deployment and live verification: pushed to `main` (commit `6b05eb1`), deployed, live-verified: both locales serving the new content, all 5 citation anchors resolve, hreflang `<link rel="alternate">` trio correct (ar/en/x-default), both internal links render in both locales, EN translation notice present, dateModified correct.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-muscle-assessment-nutrition-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
