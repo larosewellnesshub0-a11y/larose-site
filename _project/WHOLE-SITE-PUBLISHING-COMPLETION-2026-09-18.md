@@ -83,6 +83,21 @@ Fourth locked URL. Already fully long-form and already committed/live before thi
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-dark-neck-rewrite-2026-09-14.json` only (already registered in all three required locations).
 
+## 20 September 2026 — responsive-complementary-feeding
+
+Fifth locked URL. The named 3-item queue from 18 September was exhausted after dark-neck; selected this one via a fresh `node tools/audit-article-standards.mjs` run (144 of 180 published articles still below the long-form baseline) cross-referenced against real Search Console impressions — this slug had the most (18, EN position ~6.6–8, no matching top query text in the export, so likely long-tail).
+
+- No existing registered rewrite file for this slug (checked `build/lib/util.mjs` first, per the lesson from fatty-liver-ultrasound) — this one was a genuine rewrite, not an audit-fix.
+- Preserved the existing content's real strengths (the WHO-guideline framing, the responsive-feeding concept, and the La Rose-specific clinician-review paragraph) rather than discarding them; expanded from 3 sections/540 words/1 source to 10 sections/4 FAQ/6 sources/~1,311 EN body words.
+- 6 real sources verified live in Chrome: WHO 2023 guideline (reused, reverified), CDC "Choking Hazards", AAP/HealthyChildren.org "Starting Solid Foods", ESPGHAN complementary-feeding position paper (Fewtrell 2017, PubMed), CDC "When, What, and How to Introduce Solid Foods", UNICEF "Feeding your baby: 6–12 months".
+- Arabic-first SERP check ("الأكل التكميلي للرضيع بعد الشهر السادس") showed first-page results dominated by shallow food-list blogs and one Saudi SFDA PDF; none covered the responsive-feeding/behavioural angle this article leads with, confirming a real content gap.
+- 2 editorial internal links added (iron-rich foods, growth-curve follow-up visit); both initially failed to render because the link label didn't exactly match body text (the same exact-substring-match gotcha as before) — caught and fixed before shipping.
+- Type kept as `update` (accurate — tied to the WHO guideline), `date` preserved (2026-09-05), `updatedAt` set to 2026-09-20.
+- Gates: build (490 pages), validate (0/0), audit (84 findings, 0 blocking), Arabic voice (PASS). All 6 citation anchors covered.
+- Deployment and live verification: pending — will follow immediately.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-responsive-complementary-feeding-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.

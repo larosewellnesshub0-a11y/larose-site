@@ -1,0 +1,270 @@
+{
+  "_note": "Long-form expansion of the responsive-complementary-feeding scientific update. Preserves the original WHO-guideline framing, the responsive-feeding concept and the La Rose-specific clinician reference; adds readiness signs, iron/first-foods detail, texture and choking safety, and a when-to-seek-help section with real citations.",
+  "articles": [
+    {
+      "slug": "responsive-complementary-feeding",
+      "type": "update",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-05",
+      "updatedAt": "2026-09-20",
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/responsive-complementary-feeding.webp",
+      "title": {
+        "ar": "تحديث علمي: الأكل التكميلي استجابة للطفل، مش إجبار على الطبق",
+        "en": "Scientific update: complementary feeding should respond to the child, not force the plate"
+      },
+      "excerpt": {
+        "ar": "إرشاد WHO للأكل التكميلي يضع التنوع، القوام المناسب والاستجابة لإشارات الجوع والشبع ضمن بناء علاقة صحية مع الأكل.",
+        "en": "WHO complementary-feeding guidance places variety, suitable texture and response to hunger and fullness signals within a healthy relationship with food."
+      },
+      "tags": {
+        "ar": [
+          "الأكل التكميلي",
+          "التغذية المستجيبة",
+          "تغذية الرضع",
+          "طبيب أطفال"
+        ],
+        "en": [
+          "complementary feeding",
+          "responsive feeding",
+          "infant nutrition",
+          "paediatric consultation"
+        ]
+      },
+      "sections": [
+        {
+          "id": "who-guideline",
+          "heading": {
+            "ar": "إيه الجديد في طريقة التفكير؟",
+            "en": "What has changed in the way we think"
+          },
+          "body": {
+            "ar": "إرشاد منظمة الصحة العالمية للأكل التكميلي للرضع والأطفال من عمر ٦ لحد ٢٣ شهراً يجمع الاحتياج الغذائي مع التعلم والتطور. الأكل التكميلي يبدأ عموماً حوالين عمر ٦ شهور بجانب اللبن، لما اللبن وحده ما يبقاش كافياً لكل الاحتياجات، مع مراعاة استعداد الطفل وحالته. المرحلة فرصة يتعرف على أطعمة وقوامات مختلفة، مش اختباراً لإنهاء طبق محدد. [1, 5]\n\nالإرشاد يشمل الأطفال اللي بيرضعوا طبيعياً واللي لا يرضعوا طبيعياً، لكن التطبيق يفضل فردياً. الطفل المبتسر أو اللي نموه متأثر أو عنده مرض أو صعوبة بلع قد يحتاج خطة مختلفة. عشان كده رقم العمر يفتح الحوار، لكنه ما يلغي تقييم التطور والنمو والأمان. [1]",
+            "en": "The World Health Organization guideline on complementary feeding for infants and young children aged 6–23 months brings nutritional needs together with learning and development. Complementary food generally begins around six months alongside milk, when milk alone no longer meets every need, while the child's readiness and health still matter. This period is an opportunity to encounter varied foods and textures, not a test of finishing a prescribed bowl. [1, 5]\n\nThe guidance considers both breastfed and non-breastfed children, but application remains individual. A premature child, a child with faltering growth, illness or swallowing difficulty may need a different plan. Age therefore opens the conversation without replacing assessment of development, growth and feeding safety. [1]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "readiness-signs",
+          "heading": {
+            "ar": "علامات الاستعداد قبل رقم العمر",
+            "en": "Readiness signs matter more than the number on the calendar"
+          },
+          "body": {
+            "ar": "قبل بدء الأكل التكميلي، الطبيب أو الأهل بيلاحظوا علامات محددة تدل إن الطفل جاهز فعلاً: قدرته يقعد باستقامة بمساعدة قليلة أو من غيرها، تحكمه في رأسه ورقبته، اهتمامه بالأكل زي إنه يبص للطبق أو يميل ناحيته أو يفتح فمه، وتراجع منعكس دفع اللسان اللي بيخلي الطعام يخرج تلقائياً من الفم. العلامات دي مجتمعة أهم من مجرد الوصول لعمر ستة شهور بالضبط. [3, 5]\n\nلو الطفل لسه ما وصلش لهذي العلامات حوالين الشهر السادس، أو عنده تأخر واضح في التطور، ده سؤال يستحق مناقشة مع طبيب الأطفال بدل الانتظار أو البدء المبكر بلا داعٍ. البدء قبل الاستعداد الحقيقي ممكن يزود صعوبة البلع أو رفض الطفل للأكل من الأساس. [3]\n\nما ينفعش تضيف حبوب الأطفال أو أي أكل صلب جوه الرضاعة نفسها أو تحاول «تكبير» الرضعة عشان الطفل ينام أطول؛ ده ممكن يزود خطر الاختناق ومش دليلاً علمياً على نوم أفضل. الأكل التكميلي بياخد وقته بالملعقة وقعدة منفصلة، مش إضافة مخفية للرضاعة. [3]",
+            "en": "Before starting complementary feeding, clinicians and parents look for specific signs that a child is genuinely ready: the ability to sit upright with little or no support, good head and neck control, interest in food such as watching the plate, leaning toward it or opening the mouth, and a fading tongue-thrust reflex that used to push food back out automatically. These signs together matter more than reaching exactly six months of age. [3, 5]\n\nIf a child has not shown these signs around six months, or has a clear developmental delay, that is worth discussing with a paediatrician rather than waiting passively or starting early without reason. Starting before genuine readiness can make swallowing harder or lead the child to reject food from the start. [3]\n\nDo not add infant cereal or any solid food into a bottle of milk, or try to 'bulk up' a feed to make a baby sleep longer; this can raise choking risk and is not supported evidence for better sleep. Complementary feeding takes its own time with a spoon and a separate sitting, not a hidden addition to a bottle feed. [3]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "responsive-feeding",
+          "heading": {
+            "ar": "الاستجابة غير الإهمال وغير الإجبار",
+            "en": "Responsive feeding is neither neglect nor force"
+          },
+          "body": {
+            "ar": "الأكل المستجيب معناه إن مقدم الرعاية يعرض أكل مناسباً وآمناً وينتبه لإشارات الجوع والشبع، يساعد الطفل بصبر، ويتجنب الضغط والتشتيت. الطفل ممكن يفتح فمه ويميل للأكل، أو يقفل فمه ويلف رأسه لما يشبع. بنشجعه وندي وقتاً، لكن ما نحولش الرفض لمعركة ولا نستخدم الشاشة عشان يدخل كمية من غير وعي. [1]\n\nالمسؤولية عند الكبير تفضل حقيقية: مواعيد منتظمة، تنوع، قوام يقلل خطر الاختناق، ونظافة وتحضير مناسب. الاستجابة لا تعني ترك الطفل على بسكوت أو عصير طول اليوم، ولا إن صنفاً مرفوضاً يختفي للأبد. إعادة العرض بهدوء والتدرج مع التطور يساعدوا التعلم من غير رشوة أو عقاب. [1, 6]",
+            "en": "Responsive feeding means that the caregiver offers suitable, safe food, notices hunger and fullness signals, helps patiently and avoids pressure and distraction. A child may open their mouth and lean towards food, or close the mouth and turn away when full. We encourage and allow time, but refusal should not become a battle and a screen should not be used to place food without awareness. [1]\n\nThe adult still holds real responsibility: regular opportunities, variety, textures that reduce choking risk, hygiene and appropriate preparation. Responsiveness does not mean allowing biscuits or juice throughout the day, or removing a rejected food forever. Calm re-offering and gradual progression with development support learning without bribery or punishment. [1, 6]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "iron-and-first-foods",
+          "heading": {
+            "ar": "الحديد والأطعمة الأولى مش مجرد ذوق شخصي",
+            "en": "Iron and first foods are not just a matter of taste"
+          },
+          "body": {
+            "ar": "من أهم النقاط في إرشادات التغذية التكميلية الحديثة إن كل الرضع محتاجين أطعمة غنية بالحديد من البداية، زي اللحوم المهروسة أو الحبوب المدعمة بالحديد أو البقول، لأن مخزون الحديد الطبيعي عند الطفل بيبدأ يقل حوالين الشهر السادس بينما احتياجه بيزيد مع النمو السريع. الأطفال اللي على نظام نباتي محتاجين انتباهاً إضافياً لمصادر الحديد والزنك. [4, 5]\n\nتجنب إضافة الملح أو السكر للأكل، وأجل العسل تماماً لحد بعد السنة الأولى لخطر تسمم الرضع (Infant Botulism). عصائر السكر أو المشروبات المحلاة مش ضرورية وممكن تقلل شهية الطفل للأكل المفيد. إدخال الأطعمة اللي ممكن تسبب حساسية زي البيض والفول السوداني بشكل مبكر وآمن، بدل تأجيلها بلا داعٍ، بقى جزءاً من التوصيات الحديثة حسب حالة الطفل وتاريخه العائلي؛ ناقش التوقيت المناسب مع طبيب الأطفال. [3, 4]",
+            "en": "One of the most important points in current complementary-feeding guidance is that every infant needs iron-rich foods from the start, such as pureed meats, iron-fortified cereals or legumes, because the baby's natural iron stores begin to fall around six months while growth needs keep rising. Children on a vegetarian diet need extra attention to iron and zinc sources. [4, 5]\n\nAvoid adding salt or sugar to food, and delay honey completely until after the first year because of the risk of infant botulism. Sugary juices or sweetened drinks are not necessary and can reduce appetite for more useful foods. Introducing common allergenic foods such as egg and peanut early and safely, rather than delaying them without reason, is now part of current recommendations depending on the child's situation and family history; discuss the right timing with a paediatrician. [3, 4]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أطعمة غنية بالحديد",
+                "url": "../articles/iron-rich-foods-for-children.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "iron-rich foods",
+                "url": "../articles/iron-rich-foods-for-children.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "texture-and-choking-safety",
+          "heading": {
+            "ar": "القوام والسلامة من الاختناق",
+            "en": "Texture progression and choking safety"
+          },
+          "body": {
+            "ar": "ابدأ بقوام ناعم أو مهروس تماماً من صنف واحد، وتدرج تدريجياً لقوام أكتر سماكة أو تكتلاً حسب استجابة الطفل. تجنب الأشكال المستديرة أو الصلبة زي العنب الكامل أو المكسرات الكاملة أو الحلوى الصلبة أو اللزجة، وقطّع الأكل لقطع صغيرة آمنة. خلي الطفل قاعداً باستقامة تحت إشراف مستمر أثناء الأكل، وما تسبهوش لوحده أبداً وهو بياكل. [2, 3]\n\nمهم تفرق بين الشرقة العادية (gagging) والاختناق الحقيقي (choking): الشرقة رد فعل طبيعي وصوتي وواقٍ بيساعد الطفل يتعلم التحكم في الأكل جوه فمه، بينما الاختناق الحقيقي غالباً صامت وخطير ويحتاج تدخلاً فورياً. اتعرف على إسعافات الاختناق الأولية للرضع قبل ما تبدأ الأكل التكميلي، ده جزء من التحضير مش رفاهية. [2, 3]",
+            "en": "Start with a smooth or fully pureed single-ingredient texture, and progress gradually to thicker or lumpier textures as the child responds. Avoid round or firm shapes such as whole grapes, whole nuts, hard or sticky candy, and cut food into small, safe pieces. Keep the child sitting upright under continuous supervision while eating, and never leave them alone during a meal. [2, 3]\n\nIt matters to distinguish ordinary gagging from true choking: gagging is a normal, loud and protective reflex that helps a baby learn to control food inside the mouth, while true choking is usually silent, dangerous and needs immediate action. Learn basic infant choking first aid before starting complementary feeding; this is part of preparation, not an optional extra. [2, 3]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "portions-and-frequency",
+          "heading": {
+            "ar": "الكمية وعدد الوجبات بتزيد تدريجياً مش دفعة واحدة",
+            "en": "Portion size and meal frequency build up gradually"
+          },
+          "body": {
+            "ar": "في البداية حوالين الشهر السادس، ملعقتين أو تلاتة من أكل ناعم مرة أو مرتين في اليوم كافية، مع استمرار الرضاعة الطبيعية أو اللبن الصناعي كمصدر رئيسي للطاقة والمغذيات. مع تقدم الطفل نحو الشهر الثامن، الكمية والتكرار بيزيدوا تدريجياً لنص كوب تقريباً مرتين لتلات مرات يومياً، وبيدخل وجبة خفيفة بينهم حسب شهية الطفل. [6]\n\nمفيش رقم واحد يناسب كل طفل، والزيادة التدريجية بتتبع إشارات الطفل مش جدولاً صارماً. لا تقيس النجاح بكمية الملاعق اللي اتاكلت في وجبة واحدة؛ النمط العام على مدار أيام هو اللي يهم، وطبيب الأطفال يقدر يراجع هل السرعة مناسبة لحالة طفلك تحديداً. [1, 6]",
+            "en": "At the start, around six months, two to three spoonfuls of soft food once or twice a day is enough, while breastfeeding or formula remains the main source of energy and nutrients. As the child approaches eight months, portion size and frequency gradually increase to roughly half a cup two to three times a day, with a snack sometimes added between meals depending on appetite. [6]\n\nNo single number suits every child, and the gradual increase follows the child's cues rather than a strict schedule. Do not measure success by how many spoonfuls were eaten at one sitting; the overall pattern across days matters more, and a paediatrician can review whether the pace fits your child's specific situation. [1, 6]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "purees-vs-baby-led",
+          "heading": {
+            "ar": "الهرس أو القطع الطرية: مفيش طريقة واحدة صحيحة",
+            "en": "Purées or soft finger foods: there is no single correct method"
+          },
+          "body": {
+            "ar": "بعض الأسر بتفضل تبدأ بالهرس الناعم بالملعقة، وبعضها بيميل لأسلوب «الأكل بقيادة الطفل» (baby-led weaning) واللي فيه الطفل بياكل قطعاً طرية بإيده من البداية. الإرشادات الحديثة ما بتفرضش طريقة واحدة؛ الاثنين ممكن يكونوا آمنين ومناسبين لو اتطبقوا بحرص على قواعد القوام والحجم والإشراف المستمر المذكورة قبل كده. [2, 3]\n\nاختيار الطريقة يعتمد على راحة الأسرة، استعداد الطفل الحركي، ونصيحة طبيب الأطفال في حالات معينة زي الولادة المبكرة أو تأخر التطور. تقدر كمان تمزج بين الأسلوبين حسب الموقف؛ المهم الثابت هو الأمان من الاختناق والاستجابة لإشارات الطفل، مش اسم الطريقة نفسها. [2, 3]",
+            "en": "Some families prefer starting with smooth spoon-fed purées, while others lean toward baby-led weaning, where the child self-feeds soft finger foods from the start. Current guidance does not mandate one method; both can be safe and suitable when applied carefully with the texture, size and continuous-supervision rules described above. [2, 3]\n\nChoosing a method depends on family comfort, the child's motor readiness, and a paediatrician's advice in particular situations such as prematurity or developmental delay. The two approaches can also be mixed depending on the situation; what stays constant is choking safety and responding to the child's cues, not the label of the method itself. [2, 3]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "family-action",
+          "heading": {
+            "ar": "تطبيق بسيط للأسرة",
+            "en": "A practical family response"
+          },
+          "body": {
+            "ar": "قدّم كمية صغيرة واسمح بالزيادة، وخلي الطفل قاعداً بأمان وتحت ملاحظة مستمرة. سجل الأصناف والقوامات وأي كحة أو قيء أو طفح أو إمساك، وراجع منحنى النمو بدل وزن يومي. ما تضيفش ملحاً أو سكراً أو مكملات عشوائية عشان «يقبل الأكل»، وما تؤجلش تقييم صعوبة البلع أو الاختناق المتكرر. [1, 3]\n\nد. علياء أبو طالب تراجع استعداد الطفل، النمو، الرضاعة أو اللبن، وتنوع الأكل وروتين البيت، ثم تعدّل الخطة حسب العمر والحالة. خد كارت المتابعة وقائمة الطعام والمكملات للزيارة. لو البداية مربكة أو كل وجبة بقت معركة، الاستشارة تساعد الأسرة تبني خطوات هادية وآمنة بدل التنقل بين نصائح متعارضة. [1]",
+            "en": "Offer a small amount with more available, and keep the child safely seated under continuous supervision. Record foods, textures and any coughing, vomiting, rash or constipation, and follow the growth curve rather than daily weight. Do not add salt, sugar or random supplements simply to 'make the child eat', and do not delay assessment of swallowing difficulty or recurrent choking. [1, 3]\n\nDr Alyaa Abu Taleb reviews readiness, growth, breastfeeding or milk, food variety and the family routine, then adapts the plan to age and health. Bring the child's record plus a food and supplement list. If starting feels confusing or every meal has become a battle, a consultation can help the family build calm, safe steps instead of moving between contradictory advice. [1]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "منحنى النمو",
+                "url": "../articles/child-nutrition-growth-visit.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "growth curve",
+                "url": "../articles/child-nutrition-growth-visit.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "joining-family-meals",
+          "heading": {
+            "ar": "بحلول السنة الأولى، الطفل بيقرب لأكل الأسرة",
+            "en": "By around the first birthday, the child moves closer to family food"
+          },
+          "body": {
+            "ar": "بحلول عمر السنة تقريباً، ممكن الطفل ياكل نسخة معدلة من نفس أكل الأسرة، بشرط تكون القطع طرية وحجمها آمناً ومن غير ملح زيادة أو سكر أو عسل أو توابل حادة. المشاركة في وجبات الأسرة بتساعد الطفل يتعلم من ملاحظة الكبار، وبتقلل الحاجة لتحضير أكل منفصل تماماً كل مرة. [6]\n\nده ما يعنيش إن كل أكل البيت مناسب من غير تعديل: لسه في احتياج تتأكد من درجة الملوحة والتوابل الحريفة وحجم القطع وخطر الاختناق. لو الأسرة بتاكل أكلاً حاراً أو مالحاً جداً، افصل جزء من الطبق لطفلك قبل الإضافات دي. الهدف تدريجي: مش الانتقال المفاجئ من أكل مهروس لأكل الكبار كامل في يوم واحد. [1, 6]",
+            "en": "By around the first birthday, a child can generally eat an adapted version of the same family food, provided pieces are soft, sized safely, and free of extra salt, sugar, honey or strong spices. Sharing family meals helps a child learn by watching adults, and reduces the need to prepare entirely separate food every time. [6]\n\nThis does not mean every home-cooked dish is suitable without adjustment: saltiness, spice level, piece size and choking risk still need checking. If the family eats very spicy or salty food, set aside your child's portion before those additions. The goal is gradual: not a sudden jump from puréed food to full adult meals in one day. [1, 6]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "when-to-seek-help",
+          "heading": {
+            "ar": "إمتى تحتاج مراجعة الطبيب أسرع؟",
+            "en": "When faster review with a doctor is appropriate"
+          },
+          "body": {
+            "ar": "اطلب مراجعة أقرب لو الطفل رافض الأكل تماماً لفترة طويلة، أو عنده صعوبة واضحة في البلع أو كحة متكررة أثناء الأكل، أو ظهرت علامات حساسية زي طفح جلدي واسع، تورم في الوجه أو الشفايف، صعوبة تنفس أو قيء متكرر بعد صنف معين. هذي العلامات تحتاج تقييماً حسب شدتها ومش مناسبة للانتظار أو التجربة المنزلية المتكررة لنفس الطعام. [3, 4]\n\nكمان لو لاحظت توقفاً واضحاً في منحنى النمو، أو الطفل بيبان خامل أو شاحب بشكل غير معتاد، أو فيه تاريخ عائلي لحساسية غذائية شديدة، ناقش الخطة مع طبيب الأطفال قبل إدخال أصناف جديدة بدل الاعتماد على تجربة طفل تاني أو نصيحة من الإنترنت. [1, 3]\n\nالاحتفاظ بسجل بسيط للأكل — إيه اتقدم، إمتى، وأي رد فعل ظهر — بيخلي النقاش في الزيارة أسرع وأدق من محاولة تذكر التفاصيل وقت الكشف المزدحم. ده عادة عملية، مش شرطاً إنك تشخص الحالة بنفسك قبل ما تشوف الطبيب. [1]",
+            "en": "Seek faster review if the child refuses food entirely for a long period, has clear difficulty swallowing or repeated coughing during meals, or shows signs of an allergic reaction such as widespread rash, swelling of the face or lips, breathing difficulty or repeated vomiting after a particular food. These signs need assessment according to severity and are not suitable for waiting or repeated home trials of the same food. [3, 4]\n\nAlso discuss the plan with a paediatrician before introducing new foods if you notice a clear flattening of the growth curve, unusual lethargy or pallor, or a family history of severe food allergy, rather than relying on another child's experience or online advice. [1, 3]\n\nKeeping a short food diary — what was offered, when, and any reaction — makes these conversations faster and more accurate than trying to recall details from memory during a rushed appointment. This is a practical habit, not a requirement to test yourself before seeing a clinician. [1]"
+          },
+          "links": { "ar": [], "en": [] }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل لازم أبدأ الأكل التكميلي بالضبط في الشهر السادس؟",
+            "en": "Must complementary feeding start exactly at six months?"
+          },
+          "a": {
+            "ar": "الشهر السادس نقطة إرشادية عامة، لكن علامات الاستعداد الفعلية (الجلوس، التحكم في الرأس، الاهتمام بالأكل) أهم من التاريخ بالضبط. ناقش التوقيت مع طبيب الطفل لو فيه شك. [1, 3, 5]",
+            "en": "Six months is a general guideline point, but genuine readiness signs (sitting, head control, interest in food) matter more than the exact date. Discuss timing with the child's doctor if unsure. [1, 3, 5]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أأجل الأطعمة اللي ممكن تسبب حساسية؟",
+            "en": "Should allergenic foods be delayed?"
+          },
+          "a": {
+            "ar": "لأ بالضرورة. التوصيات الحديثة بتفضل الإدخال المبكر والآمن لأصناف زي البيض والفول السوداني بدل التأجيل، حسب حالة الطفل وتاريخه العائلي. ناقش التوقيت مع الطبيب. [3, 4]",
+            "en": "Not necessarily. Current recommendations generally favour early, safe introduction of foods such as egg and peanut rather than delaying them, depending on the child's situation and family history. Discuss timing with a doctor. [3, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "طفلي بيرفض صنف جديد، هل ده طبيعي؟",
+            "en": "My child refuses a new food — is that normal?"
+          },
+          "a": {
+            "ar": "نعم، شائع جداً. إعادة العرض بهدوء عدة مرات من غير إجبار غالباً بتساعد، ورفض صنف واحد مؤقتاً مش سبباً للقلق طالما النمو والأكل العام طبيعيين. [1, 6]",
+            "en": "Yes, this is very common. Calm, repeated re-offering without force usually helps, and temporarily refusing one food is not a reason for concern as long as growth and overall eating remain normal. [1, 6]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إزاي أفرق بين الشرقة العادية والاختناق الخطير؟",
+            "en": "How do I tell ordinary gagging from dangerous choking?"
+          },
+          "a": {
+            "ar": "الشرقة العادية صوتية وبتساعد الطفل يتعلم، أما الاختناق الحقيقي غالباً صامت وخطير ويحتاج تدخلاً فورياً. اتعرف على إسعافات الاختناق للرضع قبل بدء الأكل التكميلي. [2, 3]",
+            "en": "Ordinary gagging is loud and helps the child learn, while true choking is usually silent and dangerous and needs immediate action. Learn infant choking first aid before starting complementary feeding. [2, 3]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO — Guideline for complementary feeding of infants and young children 6–23 months of age",
+          "url": "https://www.who.int/publications/i/item/9789240081864"
+        },
+        {
+          "label": "CDC — Choking Hazards | Infant and Toddler Nutrition",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html"
+        },
+        {
+          "label": "HealthyChildren.org (AAP) — When Can Babies Start Solid Foods? Readiness & Feeding Tips",
+          "url": "https://www.healthychildren.org/English/ages-stages/baby/feeding-nutrition/Pages/starting-solid-foods.aspx"
+        },
+        {
+          "label": "Fewtrell et al. — Complementary Feeding: A Position Paper by the ESPGHAN Committee on Nutrition (PubMed, 2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28027215/"
+        },
+        {
+          "label": "CDC — When, What, and How to Introduce Solid Foods",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-what-and-how-to-introduce-solid-foods.html"
+        },
+        {
+          "label": "UNICEF Parenting — Feeding your baby: 6–12 months",
+          "url": "https://www.unicef.org/parenting/food-nutrition/feeding-your-baby-6-12-months"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "الأكل التكميلي: استجابة من غير إجبار",
+          "en": "Responsive complementary feeding"
+        },
+        "description": {
+          "ar": "إرشاد WHO للأكل التكميلي يضع التنوع، القوام المناسب والاستجابة لإشارات الجوع والشبع ضمن بناء علاقة صحية مع الأكل.",
+          "en": "WHO complementary-feeding guidance places variety, suitable texture and response to hunger and fullness signals within a healthy relationship with food."
+        }
+      }
+    }
+  ]
+}
