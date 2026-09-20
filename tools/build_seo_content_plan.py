@@ -51,6 +51,7 @@ ARTICLE_FILES = (
     "articles-pcos-and-weight-rewrite-2026-09-20.json",
     "articles-preparing-for-bariatric-surgery-rewrite-2026-09-20.json",
     "articles-insulin-resistance-children-rewrite-2026-09-21.json",
+    "articles-childrens-appetite-rewrite-2026-09-21.json",
     "articles-dark-neck-rewrite-2026-09-14.json",
     "articles-dark-neck-pregnancy-rewrite-2026-09-16.json",
     "articles-h-pylori-bloating-rewrite-2026-09-16.json",
