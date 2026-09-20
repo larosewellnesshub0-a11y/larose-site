@@ -71,6 +71,7 @@ export function loadContent() {
   const vitaminB12PlantBasedRewrite = read("articles-vitamin-b12-plant-based-rewrite-2026-09-21.json");
   const glp1MedicationGuideRewrite = read("articles-glp1-medication-guide-rewrite-2026-09-21.json");
   const bariatricAssessmentMultidisciplinaryRewrite = read("articles-bariatric-assessment-multidisciplinary-rewrite-2026-09-21.json");
+  const inbodyPreparationRewrite = read("articles-inbody-preparation-rewrite-2026-09-21.json");
   const darkNeckRewrite = read("articles-dark-neck-rewrite-2026-09-14.json");
   const darkNeckPregnancyRewrite = neutralArabicReaderAddress(read("articles-dark-neck-pregnancy-rewrite-2026-09-16.json"));
   const hPyloriBloatingRewrite = read("articles-h-pylori-bloating-rewrite-2026-09-16.json");
@@ -116,7 +117,7 @@ export function loadContent() {
     ]
   }));
   articles.articles = [
-    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "abdominal-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "dark-neck-skin-during-pregnancy", "insulin-resistance-explained", "qa-h-pylori-still-bloated", "qa-teen-restricting-food-fears-weight", "h-pylori-reflux-ibs", "qa-prediabetes-need-medicine", "qa-low-ferritin-normal-cbc", "gallstones-symptoms-and-surgery", "gastroscopy-vs-colonoscopy-what-to-expect", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags", "normal-ultrasound-does-not-end-assessment", "fatty-liver-fibrosis-needs-its-own-assessment", "hypothyroidism-and-weight", "kidney-stones-symptoms-and-tests", "diabetes-review-whole-health", "blood-pressure-needs-a-pattern", "ultrasound-uses-sound-not-xrays", "silent-gallstones-usually-need-no-treatment", "h-pylori-in-children-symptoms-tests", "responsive-complementary-feeding", "inbody-results-explained", "diabetes-remission-is-not-cure", "body-composition-not-scale", "pcos-and-weight", "preparing-for-bariatric-surgery", "insulin-resistance-in-children", "childrens-appetite", "protecting-muscle-while-losing-weight", "vitamin-b12-in-plant-based-eating", "glp1-medication-guide", "bariatric-assessment-is-multidisciplinary"].includes(article.slug)),
+    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "abdominal-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "dark-neck-skin-during-pregnancy", "insulin-resistance-explained", "qa-h-pylori-still-bloated", "qa-teen-restricting-food-fears-weight", "h-pylori-reflux-ibs", "qa-prediabetes-need-medicine", "qa-low-ferritin-normal-cbc", "gallstones-symptoms-and-surgery", "gastroscopy-vs-colonoscopy-what-to-expect", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags", "normal-ultrasound-does-not-end-assessment", "fatty-liver-fibrosis-needs-its-own-assessment", "hypothyroidism-and-weight", "kidney-stones-symptoms-and-tests", "diabetes-review-whole-health", "blood-pressure-needs-a-pattern", "ultrasound-uses-sound-not-xrays", "silent-gallstones-usually-need-no-treatment", "h-pylori-in-children-symptoms-tests", "responsive-complementary-feeding", "inbody-results-explained", "diabetes-remission-is-not-cure", "body-composition-not-scale", "pcos-and-weight", "preparing-for-bariatric-surgery", "insulin-resistance-in-children", "childrens-appetite", "protecting-muscle-while-losing-weight", "vitamin-b12-in-plant-based-eating", "glp1-medication-guide", "bariatric-assessment-is-multidisciplinary", "inbody-preparation-for-reliable-follow-up"].includes(article.slug)),
     ...(fattyLiverRewrite.articles || []),
     ...(ultrasoundRewrite.articles || []),
     ...(abdominalUltrasoundPreparationRewrite.articles || []),
@@ -164,6 +165,7 @@ export function loadContent() {
     ...(vitaminB12PlantBasedRewrite.articles || []),
     ...(glp1MedicationGuideRewrite.articles || []),
     ...(bariatricAssessmentMultidisciplinaryRewrite.articles || []),
+    ...(inbodyPreparationRewrite.articles || []),
     ...(longformExpansion.articles || []),
   ];
   // Editorial images are hand-managed beneath `assets/img/articles/`. A small
