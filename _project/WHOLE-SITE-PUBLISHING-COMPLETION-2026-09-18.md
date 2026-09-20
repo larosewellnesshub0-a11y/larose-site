@@ -110,7 +110,7 @@ Sixth locked URL, selected the same way as responsive-complementary-feeding (fre
 - 3 editorial internal links (body composition, protecting muscle while losing weight, InBody preparation guide); 2 of the 3 initially failed to render (same exact-substring-match gotcha) — caught and fixed by adjusting body wording before shipping.
 - `date` preserved (2026-09-10), `updatedAt` set to 2026-09-20.
 - Gates: build (490 pages), validate (0/0), audit (85 findings, 0 blocking), Arabic voice (PASS). All 6 citation anchors covered.
-- Deployment and live verification: pending — will follow immediately.
+- Deployment and live verification: pushed to `main` (commit `d3580d8`), deployed, live-verified: HTTP 200 both locales, canonical correct, dateModified 2026-09-20, all 6 citation anchors resolve, all 3 editorial internal links render.
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-inbody-results-explained-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
