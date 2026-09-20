@@ -114,6 +114,21 @@ Sixth locked URL, selected the same way as responsive-complementary-feeding (fre
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-inbody-results-explained-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 20 September 2026 — diabetes-remission-is-not-cure
+
+Seventh locked URL, selected via fresh audit + GSC impressions (11, EN position ~8.27, already ranking reasonably).
+
+- No existing registered rewrite (checked first). Expanded from 2 sections/1 source/no citations to 8 sections/4 FAQ/5 sources/~1,206 EN body words (~1,454 total).
+- 4 new sources verified live in Chrome, alongside the existing ADA consensus report: Diabetes UK's remission page; Lean et al. 2024 Lancet Diabetes & Endocrinology 5-year DiRECT extension study (PubMed) — used its real reported numbers (46%/36% remission at 1/2 years, only 26% of 2-year responders still in remission at 5 years); Mohamed et al. 2024 systematic review on bariatric surgery and T2D remission (PMC); CDC's diabetes care schedule page.
+- Arabic-first SERP check ("هل السكر من النوع التاني بيتشفى نهائيا") showed a real mix of legitimate sources (Diabetes UK Arabic translation, Imperial College London Diabetes Centre, Mayo Clinic Arabic) alongside sensationalist "complete cure" YouTube content — reinforced the importance of staying evidence-based and not overclaiming in this specific topic.
+- Added real, non-sensational content the site didn't have: how remission actually happens (DiRECT + bariatric surgery routes with real trial numbers), relapse is common not rare (the 26%-at-5-years figure), who is more likely to achieve it, why rapid weight loss needs medical supervision (not a solo diet attempt), and explicit reassurance that not reaching the remission definition is not failure.
+- 2 editorial internal links (weight loss → weight-management-first-visit, bariatric surgery → preparing-for-bariatric-surgery); one initially failed to render (label said "weight management" but body said "weight loss") — caught and fixed.
+- `date` preserved (2026-08-20), `updatedAt` set to 2026-09-20.
+- Gates: build (490 pages), validate (0/0), audit (87 findings, 0 blocking), Arabic voice (PASS). All 5 citation anchors covered.
+- Deployment and live verification: pending — will follow immediately.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-diabetes-remission-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
