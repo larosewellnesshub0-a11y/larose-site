@@ -79,7 +79,7 @@ Fourth locked URL. Already fully long-form and already committed/live before thi
 - Found 2 smaller defects: (1) source 7 was labelled "NIDDK: PCOS" but its URL is nichd.nih.gov — a different NIH institute; corrected the label to "NICHD: PCOS" rather than changing the URL, since NICHD is the right, real, relevant source. (2) source 10 (StatPearls) had no inline citation anywhere in 18 sections; added it to the opening section's citation set.
 - `updatedAt` bumped to 2026-09-20 for the genuine correction.
 - Gates: build (490 pages), validate (0/0), audit (82 findings, 0 blocking), Arabic voice (PASS). All 10 citation anchors now covered.
-- Deployment and live verification: pending — will follow immediately.
+- Deployment and live verification: pushed to `main` (commit `1fcf2a2`), deployed, live-verified: HTTP 200 both locales, "NICHD: PCOS" label confirmed live, all 10 citation anchors resolve, dateModified 2026-09-20.
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-dark-neck-rewrite-2026-09-14.json` only (already registered in all three required locations).
 
