@@ -1,0 +1,186 @@
+{
+  "_note": "Long-form expansion of muscle-assessment-in-nutrition-care (short 'update' type, 3 sections, 1 source, no citations). Preserves the existing content in full; adds the EWGSOP2 diagnostic algorithm detail, real protein/GLP-1 literature, and citations throughout. Scoped as the clinical assessment-framework piece; links out to protecting-muscle-while-losing-weight (the patient-facing 'what to do' article, completed earlier this session) rather than duplicating it.",
+  "articles": [
+    {
+      "slug": "muscle-assessment-in-nutrition-care",
+      "type": "update",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management"
+      ],
+      "date": "2026-08-27",
+      "updatedAt": "2026-09-21",
+      "readingTime": 8,
+      "author": "shimaa-fouad",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/muscle-assessment-in-nutrition-care.webp",
+      "title": {
+        "ar": "تحديث علمي: تقييم العضلات بقى جزءاً أساسياً من رعاية التغذية",
+        "en": "Scientific update: muscle assessment belongs in nutrition care"
+      },
+      "excerpt": {
+        "ar": "موقف ESPEN وEASO يوضح إن اجتماع دهون زائدة مع ضعف الكتلة أو الوظيفة العضلية محتاج تقييماً منظماً، مش قراءة وزن فقط.",
+        "en": "The ESPEN and EASO position shows why excess fat alongside reduced muscle mass or function needs structured assessment, not a weight reading alone."
+      },
+      "sections": [
+        {
+          "id": "guideline-position",
+          "heading": {
+            "ar": "إيه اللي بتؤكده الجهات العلمية؟",
+            "en": "What the scientific bodies emphasise"
+          },
+          "body": {
+            "ar": "توافق ESPEN وEASO عن السمنة المصحوبة بنقص العضلات بيفصل بين تلات خطوات: الاشتباه أو الفحص الأولي، ثم تقييم وظيفة العضلة، وبعدها تركيب الجسم لما يكون له داعي. [1] الرسالة للمريض إن الوزن أو مؤشر الكتلة ما يقدروش وحدهم يقولوا إذا كانت العضلات محفوظة. ممكن شخص يكون عنده دهون زائدة وفي نفس الوقت قوة أو كتلة عضلية محتاجة اهتمام.\n\nنفس التسلسل موجود في الإجماع الأوروبي الأوسع عن ضعف العضلات (EWGSOP2): يبدأ بفحص أولي بسيط زي استبيان قصير أو ملاحظة صعوبة في الحركة، يليه قياس قوة القبضة كمؤشر عملي وسريع، وبعدين تأكيد التشخيص بتركيب الجسم، وأخيراً قياس سرعة المشي لتحديد شدة الحالة لو الضعف موجود فعلاً. [2] ده مش معناه إن كل واحد لازم يعمل قائمة أجهزة واختبارات. التقييم يبدأ من العمر والمرض والحركة وتغير الوزن وصعوبة القيام بالأنشطة، ثم يختار الطبيب قياساً مناسباً. تحليل المقاومة الكهربائية زي InBody يساعد في تقدير تركيب الجسم، لكنه يتقري مع الوظيفة والسياق، مش كتشخيص منفرد.",
+            "en": "The ESPEN and EASO consensus on sarcopenic obesity separates assessment into a sequence: initial suspicion or screening, evaluation of muscle function, and body composition where indicated. [1] For a patient, the key message is that weight or BMI alone cannot show whether muscle is being preserved. A person can carry excess body fat while also having muscle mass or strength that deserves attention.\n\nThe same sequence appears in the broader European consensus on muscle-wasting conditions (EWGSOP2): it starts with a simple initial screen, such as a short questionnaire or noticing difficulty with movement, followed by a grip-strength measurement as a quick, practical indicator, then diagnosis is confirmed with body composition, and finally walking speed is measured to determine severity if weakness is actually present. [2] This does not mean everybody needs a long list of devices and tests. Assessment begins with age, illness, movement, weight change and difficulty with ordinary activities, then the clinician selects suitable measures. Bioelectrical-impedance analysis such as InBody can contribute an estimate of body composition, but it is interpreted with function and context rather than used as a diagnosis by itself."
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "reference-numbers",
+          "heading": {
+            "ar": "الأرقام المرجعية مش أهداف شخصية",
+            "en": "Reference cut-offs are not personal targets"
+          },
+          "body": {
+            "ar": "الإجماع الأوروبي بيحدد قيماً مرجعية تقريبية عشان الفريق الطبي يقرر هل في داعي لخطوة تانية، زي قوة قبضة أقل من حوالي 27 كيلوجرام للرجال أو 16 كيلوجرام للسيدات، وسرعة مشي أقل من أو تساوي 0.8 متر في الثانية كعلامة على ضعف شديد يستحق تقييماً أوسع. الفحص الأولي نفسه غالباً بيبدأ باستبيان قصير من خمس أسئلة عن القوة والمشي والقيام من الكرسي وطلوع السلم والسقوط، مش جهازاً معقداً؛ الهدف تحديد مين يستحق فحصاً أعمق، مش تشخيص الجميع بنفس الطريقة. [2] الأرقام دي مرجعية للفحص، مش أهدافاً شخصية تتقارن بيها نفسك كل أسبوع، وتفسيرها يتغير حسب العمر والجنس والحالة الصحية.\n\nالمهم إن الأرقام دي بتساعد الفريق يقرر «هل نكمل الفحص الأعمق ولا لأ»، مش إنها تشخيص نهائي بمجرد المقارنة برقم واحد. شخص قوته أقل من الرقم المرجعي ممكن يكون طبيعياً تماماً حسب باقي الصورة، وشخص فوق الرقم برضو ممكن يحتاج متابعة لو في عوامل خطورة تانية.\n\nفي أماكن ملهاش جهاز InBody أو أشعة متاحة، قياس بسيط زي محيط ربلة الساق (أقل من حوالي 31 سم) ممكن يُستخدم كمؤشر مبدئي بديل، خصوصاً عند كبار السن، رغم إنه أقل دقة من الطرق المتخصصة. الفكرة إن وجود أداة بسيطة أفضل من عدم الفحص خالص، مش إن كل مكان محتاج نفس التقنية الأعلى تكلفة.",
+            "en": "The European consensus sets approximate reference values so the medical team can decide whether a further step is needed, such as grip strength below roughly 27 kilograms for men or 16 kilograms for women, and a walking speed at or below 0.8 metres per second as a sign of severe weakness warranting broader assessment. The initial screen itself is often a short five-item questionnaire covering strength, walking, rising from a chair, climbing stairs and falls, not a complex device; its purpose is identifying who deserves deeper testing, not diagnosing everyone the same way. [2] These are screening reference points, not personal targets to compare yourself against week to week, and their interpretation changes with age, sex and health status.\n\nWhat matters is that these numbers help the team decide whether to pursue deeper assessment, not that they serve as a final diagnosis from a single comparison. Someone below the reference number may still be entirely normal depending on the rest of the picture, and someone above it may still need follow-up if other risk factors are present.\n\nIn settings without access to InBody or imaging, a simple measurement such as calf circumference (below roughly 31 cm) can serve as an alternative initial indicator, particularly in older adults, even though it is less precise than specialised methods. The idea is that having a simple tool is better than no screening at all, not that every setting needs the same higher-cost technology."
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "patient-meaning",
+          "heading": {
+            "ar": "ده يغيّر خطة نزول الوزن إزاي؟",
+            "en": "How this changes a weight-loss plan"
+          },
+          "body": {
+            "ar": "الخطة ما تبقاش سباقاً على أقل رقم. لو القوة بتقل أو الأكل غير كافٍ أو تركيب الجسم بيتحرك في اتجاه غير مطلوب، بنراجع سرعة النزول، كفاية البروتين والطاقة، توزيع الوجبات، المقاومة العضلية والنوم. الأبحاث بتشاور إن كمية بروتين أعلى من المرجعية المعتادة بتحافظ على العضل بشكل أفضل وقت عجز السعرات، خصوصاً مع نشاط مقاوم. [3]\n\nمع أدوية تقلل الشهية، السؤال عن القدرة على الأكل والشرب والحركة مهم زي سؤال الميزان. مراجعات علمية حديثة عن أدوية GLP-1 بتوضح إن نسبة العضل اللي بتضيع مع النزول السريع في الوزن بتختلف كتير بين الأشخاص، وإن الفحص الوظيفي جزء أساسي من المتابعة الآمنة مع الأدوية دي، مش تفصيلة إضافية. [4] الضعف الجديد أو تدهور الأداء يستحق مراجعة حتى لو الوزن نازل.\n\nالقياس المتكرر يفيد لما يتم في ظروف متقاربة ويتقارن كاتجاه، لا كحكم على يوم واحد. القوة والقدرة على طلوع السلم أو القيام من الكرسي مؤشرات عملية جنب التقرير. والهدف يفضل فردياً؛ احتياج شابة سليمة يختلف عن شخص أكبر أو عنده مرض مزمن أو تعافٍ من جراحة.",
+            "en": "A plan should no longer become a race towards the smallest number. If strength falls, food is inadequate or body composition moves in an unwanted direction, the team reviews the pace of loss, protein and energy adequacy, meal distribution, resistance work and sleep. Research suggests protein intake above the usual reference amount preserves muscle better during an energy deficit, particularly alongside resistance activity. [3]\n\nWith medicines that suppress appetite, asking about the ability to eat, drink and move matters as much as asking about the scale. Recent scientific reviews on GLP-1 medicines show that the proportion of muscle lost during rapid weight loss varies considerably between individuals, and that functional screening is a core part of safe follow-up with these medicines, not an optional extra. [4] New weakness or poorer function warrants review even when weight is falling.\n\nRepeat measurement helps when conditions are broadly similar and the result is treated as a trend rather than a verdict on one day. Strength and practical abilities, such as climbing stairs or rising from a chair, sit alongside the report. Goals remain individual: the needs of a healthy younger adult differ from those of an older person or someone living with chronic illness or recovering from surgery."
+          },
+          "links": {
+            "ar": [{ "label": "أدوية GLP-1", "url": "../articles/glp1-medication-guide.html" }],
+            "en": [{ "label": "GLP-1 medicines", "url": "../articles/glp1-medication-guide.html" }]
+          }
+        },
+        {
+          "id": "early-detection-matters",
+          "heading": {
+            "ar": "التدخل المبكر بيفرق فعلاً",
+            "en": "Early intervention genuinely makes a difference"
+          },
+          "body": {
+            "ar": "ضعف العضلات مش دايماً مرتبط بالعمر لوحده. ممكن يكون سببه مرض مزمن، خمول حركي، أو أكل غير كافٍ من طاقة أو بروتين، وده معروف بضعف العضل «الثانوي» عكس النوع «الأولي» المرتبط بالتقدم في السن بدون سبب تاني واضح. [2] الفرق ده مهم عملياً: لو السبب ثانوي ومحدد، زي نقص بروتين أثناء نظام غذائي قاسي أو خمول مؤقت بعد مرض، التدخل المبكر بالتغذية والحركة غالباً بيقدر يوقف التدهور أو حتى يعكسه جزئياً.\n\nده عكس فكرة شائعة إن ضعف العضل حاجة نتقبلها كأمر واقع. الاكتشاف المبكر، حتى بفحص بسيط زي استبيان أو قياس قبضة، بيفتح فرصة حقيقية للتدخل قبل ما الوضع يتفاقم لدرجة أصعب في العلاج.",
+            "en": "Muscle weakness is not always linked to age alone. It can be caused by chronic illness, physical inactivity, or inadequate energy or protein intake — known as 'secondary' muscle loss, as opposed to the 'primary' type linked to ageing with no other clear cause. [2] This distinction matters practically: when the cause is secondary and specific, such as protein shortfall during a harsh diet or temporary inactivity after illness, early intervention with nutrition and movement can often halt the decline or even partially reverse it.\n\nThis runs counter to a common assumption that muscle weakness is simply something to accept as inevitable. Early detection, even through a simple screen such as a questionnaire or a grip-strength measurement, opens a real window for intervention before the situation progresses to something harder to treat."
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "clinic-step",
+          "heading": {
+            "ar": "الخطوة العملية في العيادة",
+            "en": "The practical clinic step"
+          },
+          "body": {
+            "ar": "قبل المتابعة، اكتب أي تغير في القوة أو النشاط، عدد الوجبات اللي قدرت تكمّلها، والأعراض اللي قللت أكلك. خد قائمة الأدوية وأي تحاليل قريبة. د. شيماء فؤاد تراجع المعلومات دي مع InBody والقياسات والتاريخ الغذائي، وتعدّل الخطة الأسبوعية بدل الاستمرار في عجز لا يناسب استجابة جسمك.\n\nالإرشادات البريطانية بتحط إدارة الوزن ضمن مسار علاجي متكامل يراعي الصحة العامة مش رقم الوزن وحده، وده يشمل الانتباه للعضلات كجزء من الصورة، مش تفصيلة تُترك للصدفة. [5] لو ظهرت دوخة أو ضعف شديد أو فقدان قدرة كان موجوداً قبل كده، ما تستناش موعداً روتينياً. التقييم الطبي يحدد هل السبب تغذية غير كافية، دواء، مرض أو حاجة لإحالة. المعنى العملي للتحديث بسيط: نجاح علاج الوزن يشمل الحفاظ على جسم قادر، مش مجرد الوصول لرقم أقل.",
+            "en": "Before follow-up, note any change in strength or activity, how many meals you could manage, and symptoms that reduced intake. Bring a medicine list and recent blood results. Dr Shimaa Fouad reviews this information with InBody, measurements and dietary history, then adjusts the weekly plan rather than continuing a deficit that does not suit your body's response.\n\nUK guidance places weight management within an integrated treatment pathway that considers overall health rather than the weight number alone, and this includes attention to muscle as part of the picture, not a detail left to chance. [5] Do not wait for a routine appointment if there is marked dizziness, weakness or loss of an ability you previously had. Medical assessment determines whether inadequate nutrition, medicine, illness or referral is involved. The practical meaning of this update is simple: successful weight care includes preserving a capable body, not merely reaching a lower number."
+          },
+          "links": {
+            "ar": [{ "label": "InBody والقياسات", "url": "../articles/protecting-muscle-while-losing-weight.html" }],
+            "en": [{ "label": "InBody, measurements", "url": "../articles/protecting-muscle-while-losing-weight.html" }]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الوزن الطبيعي معناه إن العضلات كويسة؟",
+            "en": "Does a normal weight mean muscle is fine?"
+          },
+          "a": {
+            "ar": "لأ بالضرورة. ممكن شخص وزنه في المدى الطبيعي وعنده ضعف عضلي محتاج تقييماً منفصلاً؛ الوزن وحده مش مؤشراً كافياً. [1, 2]",
+            "en": "Not necessarily. A person can have a normal weight and still have muscle weakness that needs separate assessment; weight alone is not a sufficient indicator. [1, 2]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إزاي أعرف إن عندي ضعف عضلي محتاج تقييماً؟",
+            "en": "How would I know if I have muscle weakness that needs assessment?"
+          },
+          "a": {
+            "ar": "صعوبة جديدة في طلوع السلم أو القيام من الكرسي، تعب غير معتاد، أو تباطؤ ملحوظ في المشي كلها علامات تستحق ذكرها للطبيب، حتى لو الوزن مستقر أو نازل. [2]",
+            "en": "New difficulty climbing stairs or rising from a chair, unusual fatigue, or a noticeable slowing in walking are all signs worth mentioning to a clinician, even if weight is stable or falling. [2]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أحتاج بروتين أكتر وأنا بخس؟",
+            "en": "Do I need more protein while losing weight?"
+          },
+          "a": {
+            "ar": "غالباً أعلى من الكمية المرجعية المعتادة، لكن الرقم الدقيق يتحدد مع أخصائية التغذية حسب حالتك، مش نسخة عامة لكل الناس. [3]",
+            "en": "Usually above the usual reference amount, but the exact number is set with a nutrition clinician based on your situation, not a generic figure for everyone. [3]"
+          }
+        },
+        {
+          "q": {
+            "ar": "أدوية إدارة الوزن بتخلي فقد العضل أكيد أكبر؟",
+            "en": "Do weight-management medicines make muscle loss automatically worse?"
+          },
+          "a": {
+            "ar": "مش بالضرورة بنفس الدرجة لكل شخص؛ النسبة بتختلف كتير بين الأفراد، وده بالظبط سبب أهمية الفحص الوظيفي مع أي دواء بيقلل الشهية، مش افتراض نتيجة واحدة للجميع. [4]",
+            "en": "Not necessarily to the same degree for everyone; the proportion varies considerably between individuals, which is exactly why functional screening matters with any appetite-reducing medicine, rather than assuming one outcome for all. [4]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "ESPEN and EASO، Sarcopenic obesity: definition and diagnostic criteria",
+          "url": "https://www.espen.org/images/files/ESPEN-Fact-Sheets/ESPEN-Fact-Sheet-Sarcopenic-Obesity.pdf"
+        },
+        {
+          "label": "Cruz-Jentoft et al. — Sarcopenia: Revised European Consensus on Definition and Diagnosis (EWGSOP2, PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30312372/"
+        },
+        {
+          "label": "Aragon et al. — International Society of Sports Nutrition Position Stand: Diets and Body Composition (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5470183/"
+        },
+        {
+          "label": "Neeland et al. — Changes in Lean Body Mass with Glucagon-like Peptide-1-based Therapies and Mitigation Strategies (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "label": "NICE، Overweight and obesity management",
+          "url": "https://www.nice.org.uk/guidance/ng246"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "تقييم العضلات",
+          "التغذية العلاجية",
+          "تركيب الجسم",
+          "دكتور تغذية علاجية"
+        ],
+        "en": [
+          "muscle assessment",
+          "clinical nutrition",
+          "body composition",
+          "muscle mass assessment"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "تقييم العضلات في خطة التغذية",
+          "en": "Muscle assessment in nutrition care"
+        },
+        "description": {
+          "ar": "موقف ESPEN وEASO يوضح إن اجتماع دهون زائدة مع ضعف الكتلة أو الوظيفة العضلية محتاج تقييماً منظماً، مش قراءة وزن فقط.",
+          "en": "The ESPEN and EASO position shows why excess fat alongside reduced muscle mass or function needs structured assessment, not a weight reading alone."
+        }
+      }
+    }
+  ]
+}
