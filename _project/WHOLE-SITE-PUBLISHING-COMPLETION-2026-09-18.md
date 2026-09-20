@@ -261,6 +261,20 @@ Fifteenth locked URL. `hair-loss-in-men-when-to-get-checked` (7 impressions, the
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-glp1-medication-guide-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 21 September 2026 — bariatric-assessment-is-multidisciplinary
+
+Sixteenth locked URL, selected from the non-dermatology candidates (5 impressions).
+
+- No existing registered rewrite (checked `build/lib/util.mjs` first). Short `update`-type piece (2 sections, 1 source, no citations, ~618 total words). Expanded to 5 sections/4 FAQ/5 sources/~1,213 total words.
+- **Deliberate scope split from `preparing-for-bariatric-surgery` (article #10, completed earlier this session, which already links here):** that article owns the whole pre-op decision journey (candidacy criteria, choosing a procedure, informed consent, life after surgery). This article is scoped to the multidisciplinary assessment process itself — who is actually on the team and what each specialist checks (surgeon, internal-medicine/obesity physician, nutrition clinician, behavioural-health specialist, anaesthesiologist), how long assessment takes, what a "not yet ready" outcome means and is not, and practical logistics (scheduling, cost, bringing a support person, the right to a second opinion). No new sources needed — all 5 were already verified live in Chrome earlier this session for `preparing-for-bariatric-surgery`: NICE NG246, Mechanick 2019 AACE/TOS/ASMBS/OMA/ASA guideline, Sogg 2016 ASMBS psychosocial evaluation guideline, Stenberg 2022 ERAS Society guideline, NIDDK bariatric surgery page.
+- Added real, non-filler content the site didn't have: the specific roles of each team member (what the nutrition clinician's eating-pattern questions actually probe, what the anaesthesiologist specifically reviews before a date is confirmed), the fact that assessment commonly spans weeks to months, that a specialist-requested delay is not a permanent refusal, and concrete patient-rights content (second opinion, additional time before consent, plain-language explanations).
+- 2 editorial internal links (preparing-for-bariatric-surgery for the psychosocial-evaluation detail, bariatric-vitamin-monitoring for the post-op nutrition follow-up) — both rendered correctly on the first build in both locales (plus the sitewide auto-linker's expected extra matches on `preparing-for-bariatric-surgery`).
+- `date` preserved (2026-08-15), `updatedAt` set to 2026-09-21.
+- Gates: build (490 pages), validate (0/0), audit (99 findings, 0 blocking, em-dash count 95), Arabic voice (PASS, no fix needed). All 5 citation anchors covered.
+- Deployment and live verification: pushed to `main` (commit `d294210`), deployed, live-verified: both locales serving the new content, all 5 citation anchors resolve, hreflang `<link rel="alternate">` trio correct (ar/en/x-default), both internal links render in both locales, EN translation notice present, dateModified correct.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-bariatric-assessment-multidisciplinary-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
