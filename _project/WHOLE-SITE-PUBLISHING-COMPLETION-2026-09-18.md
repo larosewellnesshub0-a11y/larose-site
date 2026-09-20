@@ -67,7 +67,7 @@ Third locked URL from the whole-site queue. **Note for future sessions:** before
 - **Verified all 10 sources in Chrome and found 2 broken/wrong citations**, both fixed: (1) the EASL–EASD–EASO citation pointed to `journal-of-hepatology.eu/article/S0168-8278(24)00129-2/fulltext`, which returns "Article not found" — replaced with the verified working `easl.eu` guideline page; (2) the ACR "Chronic Liver Disease appropriateness criteria" citation pointed to ACR document id `3158166`, which is actually a breast-cancer-screening-density document, completely unrelated — replaced with the correct document id `3098416` (verified: "Chronic Liver Disease", covers fibrosis staging and HCC surveillance). Also found and fixed one orphaned source (ACG abnormal-liver-chemistries guideline, source 7) that had no inline citation anywhere in the body — added it to the blood-tests section where it belongs.
 - `updatedAt` bumped to 2026-09-20 for this genuine correction (was 2026-09-18).
 - Gates: build (490 pages), validate (0/0), audit (82 findings, 0 blocking), Arabic voice (PASS). All 10 citation source anchors now covered in the rebuilt HTML.
-- Deployment and live verification: pending — will follow immediately.
+- Deployment and live verification: pushed to `main` (commit `96db808`), deployed, and live-verified: HTTP 200 both locales, canonical/hreflang correct, `dateModified` 2026-09-20, both fixed source URLs (`easl.eu`, ACR doc `3098416`) confirmed present and correct on the live page, all 10 citation anchors resolve.
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-fatty-liver-rewrite-2026-09-14.json` only (already registered in all three required locations from the prior session).
 
