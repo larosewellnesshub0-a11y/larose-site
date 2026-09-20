@@ -98,6 +98,22 @@ Fifth locked URL. The named 3-item queue from 18 September was exhausted after d
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-responsive-complementary-feeding-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 20 September 2026 — inbody-results-explained
+
+Sixth locked URL, selected the same way as responsive-complementary-feeding (fresh audit run + real GSC impressions: 12, EN queries "what does inbody score mean", "how to read inbody results", positions 50-67, weak ranking with clear room to improve).
+
+- Checked `build/lib/util.mjs` first — no existing rewrite registered, genuine expansion needed.
+- **Found a real cannibalisation risk before writing:** the sibling `inbody-preparation-for-reliable-follow-up` already owns the measurement-conditions/preparation angle. Trimmed my "why readings change" section to a brief explanation and linked out to that sibling instead of duplicating its content, keeping this URL scoped to reading/interpreting the report (the GSC query intent).
+- Expanded from 5 sections/2 sources/~800 words to 8 sections/4 FAQ/6 sources/~1,242 EN body words (~1,496 total). Preserved the existing accurate content (BIA mechanism explanation, La Rose branch details) rather than discarding it.
+- 4 new sources verified live in Chrome, alongside the 2 pre-existing ones (NIDDK, NICE): Thivel et al. 2018 (PubMed) on BIA accuracy varying with obesity degree; Cruz-Jentoft et al. 2019 EWGSOP2 sarcopenia consensus (PMC); Saunders et al. 1998 (PubMed) on hydration/exercise effects on BIA; Cleveland Clinic sarcopenia page.
+- Added a genuinely new "clinic vs. home smart scale" section (why BIA devices disagree with each other — different electrode placement and equations) — a real, common point of patient confusion not covered anywhere else on the site.
+- 3 editorial internal links (body composition, protecting muscle while losing weight, InBody preparation guide); 2 of the 3 initially failed to render (same exact-substring-match gotcha) — caught and fixed by adjusting body wording before shipping.
+- `date` preserved (2026-09-10), `updatedAt` set to 2026-09-20.
+- Gates: build (490 pages), validate (0/0), audit (85 findings, 0 blocking), Arabic voice (PASS). All 6 citation anchors covered.
+- Deployment and live verification: pending — will follow immediately.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-inbody-results-explained-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
