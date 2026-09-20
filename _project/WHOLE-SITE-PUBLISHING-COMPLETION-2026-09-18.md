@@ -125,7 +125,7 @@ Seventh locked URL, selected via fresh audit + GSC impressions (11, EN position 
 - 2 editorial internal links (weight loss → weight-management-first-visit, bariatric surgery → preparing-for-bariatric-surgery); one initially failed to render (label said "weight management" but body said "weight loss") — caught and fixed.
 - `date` preserved (2026-08-20), `updatedAt` set to 2026-09-20.
 - Gates: build (490 pages), validate (0/0), audit (87 findings, 0 blocking), Arabic voice (PASS). All 5 citation anchors covered.
-- Deployment and live verification: pending — will follow immediately.
+- Deployment and live verification: pushed to `main` (commit `27ef862`), deployed, live-verified: HTTP 200 both locales, canonical correct, dateModified 2026-09-20, all 5 citation anchors resolve, both internal links render.
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-diabetes-remission-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
