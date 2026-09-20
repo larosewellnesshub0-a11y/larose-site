@@ -56,7 +56,7 @@ Second locked URL from the whole-site queue.
 - 5 editorial internal links (functional pattern → recurrent-tummy-aches-in-children; testing decision → h-pylori-children-when-testing-considered; urgent assessment → child-vomiting-and-dehydration-warning-signs, plus 2 auto-linker additions), all confirmed rendering in both languages. All 8 numbered sources have at least one inline citation anchor (caught and fixed one unused source before shipping).
 - Registered in all three required locations (`build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`).
 - Gates: build (490 pages), validate (0/0), audit (82 findings, 0 blocking — the +2 non-blocking em-dash warnings match the sitewide source-label convention), Arabic voice (PASS).
-- Deployment and live verification: pending in this session — will follow the same commit → push → poll → curl-verify sequence as the first URL before this row is marked done.
+- Deployment and live verification: pushed to `main` (commit `3853d1c`), GitHub Actions rebuilt and deployed. Live-verified by `curl`: HTTP 200 both locales; canonical/hreflang correct; `datePublished` 2026-09-11 and `dateModified` 2026-09-20 both present; translation notice present on the EN page; all 8 citation source anchors covered; all 5 editorial internal links plus auto-linker extras render correctly.
 - No Search Console indexing request submitted.
 
 ## Required release evidence per URL
