@@ -9,7 +9,7 @@
       "category": "gastroenterology-hepatology",
       "specialties": ["gastroenterology-hepatology", "clinical-nutrition", "weight-management"],
       "date": "2026-08-31",
-      "updatedAt": "2026-09-14",
+      "updatedAt": "2026-09-20",
       "readingTime": 12,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
@@ -41,6 +41,7 @@
         },
         {
           "id": "what-scan-sees",
+          "links": {"ar": [{"label": "المرارة والحصوات", "url": "../articles/gallstones-symptoms-and-surgery.html"}], "en": [{"label": "gallbladder and stones", "url": "../articles/gallstones-symptoms-and-surgery.html"}]},
           "heading": {"ar": "ما الذي يراه السونار فعلاً؟", "en": "What does an ultrasound actually see?"},
           "body": {
             "ar": "السونار يستخدم موجات صوتية لصنع صورة للبنية العامة للأعضاء، ولا يستخدم أشعة سينية. لذلك يمكنه أيضاً إعطاء معلومات عن حجم وشكل الكبد، والمرارة والحصوات، والقنوات الصفراوية وبعض أعضاء البطن الأخرى حسب جودة الفحص والسؤال الطبي. هذه ميزة مهمة: نتيجة الدهون لا تُقرأ منفصلة عن بقية ما كُتب في التقرير أو عن سبب طلب السونار. [3, 8]",
@@ -57,6 +58,7 @@
         },
         {
           "id": "why-fat-appears",
+          "links": {"ar": [{"label": "مقاومة الإنسولين", "url": "../articles/insulin-resistance-explained.html"}], "en": [{"label": "insulin resistance", "url": "../articles/insulin-resistance-explained.html"}]},
           "heading": {"ar": "لماذا تظهر الدهون؟ الوزن جزء من الصورة وليس كل الصورة", "en": "Why does liver fat appear? Weight is part of the picture, not the whole picture"},
           "body": {
             "ar": "كثير من الحالات ترتبط باضطراب التمثيل الغذائي: مقاومة الإنسولين أو السكري، ارتفاع الدهون في الدم، ضغط الدم، زيادة محيط الخصر أو قلة الحركة. يُستخدم اسم MASLD حالياً عندما يجتمع تراكم الدهون مع عوامل خطورة أيضية مناسبة. لكن الحجم الظاهر للجسم لا يثبت السبب ولا ينفيه؛ يمكن أن تظهر دهون الكبد لدى أشخاص بأوزان مختلفة، ولذلك لا يصح اختصار التقييم في رقم الميزان فقط. [1, 2, 9]",
@@ -73,10 +75,11 @@
         },
         {
           "id": "blood-tests",
+          "links": {"ar": [{"label": "إنزيمات الكبد", "url": "../articles/liver-function-tests-need-context.html"}], "en": [{"label": "Liver enzymes", "url": "../articles/liver-function-tests-need-context.html"}]},
           "heading": {"ar": "التحليل الطبيعي لا يساوي دائماً خطراً صفرياً", "en": "Normal blood tests do not always mean zero risk"},
           "body": {
-            "ar": "إنزيمات الكبد قد تكون طبيعية في بعض الأشخاص الذين لديهم دهون كبد، وقد ترتفع لأسباب عديدة غير الدهون. لهذا السبب يراجع الطبيب نمط التحاليل مع الصفائح ووظائف الكبد والسكر التراكمي ودهون الدم، ولا يفسر رقماً واحداً وحده. بالنسبة لمن لديهم عوامل خطورة، قد تستخدم أدوات غير جراحية مثل FIB-4 لتحديد من قد يحتاج فحصاً أدق أو إحالة، وليس لتشخيص نفسك من الإنترنت. [1, 2, 4]",
-            "en": "Liver enzymes can be normal in some people with liver fat, and they can rise for many reasons other than fat. Clinicians therefore read the pattern with platelets, liver function, HbA1c and blood lipids rather than interpreting one number alone. For people with relevant risk factors, non-invasive tools such as FIB-4 may help identify who needs closer assessment or referral; they are not a reason to self-diagnose online. [1, 2, 4]"
+            "ar": "إنزيمات الكبد قد تكون طبيعية في بعض الأشخاص الذين لديهم دهون كبد، وقد ترتفع لأسباب عديدة غير الدهون. لهذا السبب يراجع الطبيب نمط التحاليل مع الصفائح ووظائف الكبد والسكر التراكمي ودهون الدم، ولا يفسر رقماً واحداً وحده. بالنسبة لمن لديهم عوامل خطورة، قد تستخدم أدوات غير جراحية مثل FIB-4 لتحديد من قد يحتاج فحصاً أدق أو إحالة، وليس لتشخيص نفسك من الإنترنت. [1, 2, 4, 7]",
+            "en": "Liver enzymes can be normal in some people with liver fat, and they can rise for many reasons other than fat. Clinicians therefore read the pattern with platelets, liver function, HbA1c and blood lipids rather than interpreting one number alone. For people with relevant risk factors, non-invasive tools such as FIB-4 may help identify who needs closer assessment or referral; they are not a reason to self-diagnose online. [1, 2, 4, 7]"
           }
         },
         {
@@ -99,8 +102,8 @@
             "en": "When the likely driver is metabolic, a plan is built around sustainable elements: an appropriate eating pattern, regular movement, sleep, less sugar-sweetened drink intake, alcohol reduction where relevant, and better glucose, blood-pressure and lipid control. No juice or single product “cleans” the liver, and a plan need not be extreme to be useful. A clinician or dietitian can set realistic goals while considering weight, muscle, medicines and coexisting conditions. [1, 4, 6]"
           },
           "links": {
-            "ar": [{"label": "خطة عملية", "url": "../articles/fatty-liver-treatment-and-follow-up.html"}],
-            "en": [{"label": "sustainable elements", "url": "../articles/fatty-liver-treatment-and-follow-up.html"}]
+            "ar": [{"label": "الخطة", "url": "../articles/fatty-liver-treatment-and-follow-up.html"}, {"label": "نمط أكل مناسب", "url": "../articles/category-clinical-nutrition.html"}, {"label": "تحسين السكر", "url": "../articles/diabetes-review-whole-health.html"}],
+            "en": [{"label": "sustainable elements", "url": "../articles/fatty-liver-treatment-and-follow-up.html"}, {"label": "appropriate eating pattern", "url": "../articles/category-clinical-nutrition.html"}, {"label": "better glucose", "url": "../articles/diabetes-review-whole-health.html"}]
           }
         },
         {
@@ -141,6 +144,7 @@
         },
         {
           "id": "symptoms-and-scan",
+          "links": {"ar": [{"label": "المرارة", "url": "../articles/gallstones-symptoms-and-surgery.html"}], "en": [{"label": "gallbladder", "url": "../articles/gallstones-symptoms-and-surgery.html"}]},
           "heading": {"ar": "لا تنسب كل عرض في البطن إلى الدهون", "en": "Do not attribute every abdominal symptom to liver fat"},
           "body": {
             "ar": "دهون الكبد قد لا تسبب أعراضاً واضحة، وكثيراً ما تُكتشف مصادفة. وجودها في التقرير لا يثبت أنها تفسير الغثيان أو ألم البطن أو الانتفاخ أو التعب. الأعراض قد يكون لها سبب آخر من الجهاز الهضمي أو المرارة أو الأدوية أو غير ذلك، ولهذا يفيد أن تصف مكان الألم ومدته وعلاقته بالأكل أو الحركة والأعراض المصاحبة بدلاً من افتراض أن كلمة «دهون» تفسر كل شيء. [3, 5, 9]",
@@ -149,6 +153,7 @@
         },
         {
           "id": "who-benefits-most",
+          "links": {"ar": [{"label": "سكري من النوع الثاني", "url": "../articles/diabetes-review-whole-health.html"}], "en": [{"label": "type 2 diabetes", "url": "../articles/diabetes-review-whole-health.html"}]},
           "heading": {"ar": "من يستفيد أكثر من تقييم منظم؟", "en": "Who benefits most from a structured assessment?"},
           "body": {
             "ar": "التقييم المنظم مهم بشكل خاص إذا كان لديك سكري من النوع الثاني، زيادة في محيط الخصر، ضغط أو دهون مرتفعة، تاريخ مرض كبدي، تحاليل غير طبيعية أو أكثر من عامل خطورة أيضي. لا يعني ذلك أن كل شخص سيحتاج فحصاً متقدماً؛ بل يساعد الطبيب على ترتيب الأولويات واختيار الأقل تدخلاً أولاً. كما أن العمر والأدوية والحمل أو الأمراض المصاحبة قد تغيّر طريقة تفسير نفس النتيجة. [1, 2, 6]",
@@ -157,6 +162,7 @@
         },
         {
           "id": "avoid-shortcuts",
+          "links": {"ar": [{"label": "خفض وزن سريع", "url": "../articles/non-surgical-weight-options.html"}], "en": [{"label": "lose weight quickly", "url": "../articles/non-surgical-weight-options.html"}]},
           "heading": {"ar": "تجنب الاختصارات التي تعطل القرار الجيد", "en": "Avoid shortcuts that get in the way of a good decision"},
           "body": {
             "ar": "لا تؤجل التقييم لأنك تخطط أولاً لخفض وزن سريع ثم إعادة التحليل، ولا تفترض أن التحسن في الميزان يثبت أن الكبد أصبح سليماً. وبالمثل، لا تتعامل مع نتيجة طبيعية واحدة كأنها إذن لتجاهل عوامل الخطر. التغيير الهادئ والقابل للاستمرار مفيد، لكن المتابعة الصحيحة تربط التقدم بما يحدده الطبيب من قياسات ونتائج، لا بوعد منتج أو رقم منفرد. [1, 4, 6]",
@@ -165,6 +171,7 @@
         },
         {
           "id": "one-clear-next-step",
+          "links": {"ar": [{"label": "فحص صلابة", "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"}], "en": [{"label": "stiffness test", "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"}]},
           "heading": {"ar": "الهدف من الزيارة: خطوة تالية واحدة واضحة", "en": "The goal of the visit: one clear next step"},
           "body": {
             "ar": "بعد مناقشة التقرير، قد تكون الخطوة المناسبة ببساطة هي مراجعة تحليل أو تعديل عامل خطر قابل للعلاج أو ترتيب متابعة في وقت محدد. وقد تكون إجراء حساب خطر أو فحص صلابة أو إحالة إذا ظهرت أسباب لذلك. القرار الجيد ليس دائماً الأكثر تعقيداً؛ هو القرار الذي يجيب السؤال الموجود ويقلل احتمال تفويت شيء مهم من دون فحوص غير لازمة. [1, 2, 8]",
@@ -186,14 +193,14 @@
         {"q": {"ar": "هل أحتاج أن أكرر السونار باستمرار؟", "en": "Do I need repeated ultrasounds?"}, "a": {"ar": "ليس بالضرورة. توقيت الفحوصات يحدده السؤال الطبي ومستوى الخطورة؛ أحياناً تكون تحاليل أو قياسات أخرى أهم.", "en": "Not necessarily. Test timing is set by the clinical question and risk level; blood tests or other measurements can sometimes matter more."}}
       ],
       "sources": [
-        {"label": "EASL–EASD–EASO Clinical Practice Guidelines on MASLD (2024)", "url": "https://www.journal-of-hepatology.eu/article/S0168-8278(24)00129-2/fulltext"},
+        {"label": "EASL–EASD–EASO Clinical Practice Guidelines on MASLD (2024)", "url": "https://easl.eu/publication/easl-easd-easo-clinical-practice-guidelines-managment-of-metabolic-dysfunction-associated-steatotic-liver-disease/"},
         {"label": "AASLD Practice Guidance on clinical assessment and management of NAFLD", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/"},
         {"label": "NIDDK: Diagnosis of NAFLD & NASH", "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"},
         {"label": "NIDDK: Treatment for NAFLD & NASH", "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment"},
         {"label": "NIDDK: Symptoms & Causes of NAFLD & NASH", "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/symptoms-causes"},
         {"label": "NICE guideline NG49: Non-alcoholic fatty liver disease", "url": "https://www.nice.org.uk/guidance/ng49"},
         {"label": "American College of Gastroenterology Clinical Guideline: Evaluation of Abnormal Liver Chemistries", "url": "https://pubmed.ncbi.nlm.nih.gov/27995906/"},
-        {"label": "American College of Radiology: Chronic Liver Disease appropriateness criteria", "url": "https://acsearch.acr.org/docs/3158166/Narrative/"},
+        {"label": "American College of Radiology: Chronic Liver Disease appropriateness criteria", "url": "https://acsearch.acr.org/docs/3098416/Narrative/"},
         {"label": "NIDDK: NAFLD & NASH overview", "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash"},
         {"label": "NIH LiverTox: Herbal and Dietary Supplements", "url": "https://www.ncbi.nlm.nih.gov/books/NBK548441/"}
       ],

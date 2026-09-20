@@ -59,6 +59,18 @@ Second locked URL from the whole-site queue.
 - Deployment and live verification: pushed to `main` (commit `3853d1c`), GitHub Actions rebuilt and deployed. Live-verified by `curl`: HTTP 200 both locales; canonical/hreflang correct; `datePublished` 2026-09-11 and `dateModified` 2026-09-20 both present; translation notice present on the EN page; all 8 citation source anchors covered; all 5 editorial internal links plus auto-linker extras render correctly.
 - No Search Console indexing request submitted.
 
+## 20 September 2026 — fatty-liver-ultrasound
+
+Third locked URL from the whole-site queue. **Note for future sessions:** before drafting a new rewrite file for any slug, check whether `build/lib/util.mjs` already has an exclusion + replacement registered for it — this one already had a substantial uncommitted rewrite (`content/articles-fatty-liver-rewrite-2026-09-14.json`, 18 sections, 10 sources, already at ~1,400 EN words) sitting locally from a prior, never-committed session. I nearly created a duplicate file and a duplicate loader registration before catching this; deleted the duplicate and worked on the existing file instead.
+
+- Already met the long-form bar (18 sections, 3 FAQ, 10 sources, ~1,400 EN words, updatedAt already 2026-09-18) before I touched it. My job was verification, not rewriting.
+- **Verified all 10 sources in Chrome and found 2 broken/wrong citations**, both fixed: (1) the EASL–EASD–EASO citation pointed to `journal-of-hepatology.eu/article/S0168-8278(24)00129-2/fulltext`, which returns "Article not found" — replaced with the verified working `easl.eu` guideline page; (2) the ACR "Chronic Liver Disease appropriateness criteria" citation pointed to ACR document id `3158166`, which is actually a breast-cancer-screening-density document, completely unrelated — replaced with the correct document id `3098416` (verified: "Chronic Liver Disease", covers fibrosis staging and HCC surveillance). Also found and fixed one orphaned source (ACG abnormal-liver-chemistries guideline, source 7) that had no inline citation anywhere in the body — added it to the blood-tests section where it belongs.
+- `updatedAt` bumped to 2026-09-20 for this genuine correction (was 2026-09-18).
+- Gates: build (490 pages), validate (0/0), audit (82 findings, 0 blocking), Arabic voice (PASS). All 10 citation source anchors now covered in the rebuilt HTML.
+- Deployment and live verification: pending — will follow immediately.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-fatty-liver-rewrite-2026-09-14.json` only (already registered in all three required locations from the prior session).
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
