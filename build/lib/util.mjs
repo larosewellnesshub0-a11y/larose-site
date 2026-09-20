@@ -63,6 +63,7 @@ export function loadContent() {
   const inbodyResultsExplainedRewrite = read("articles-inbody-results-explained-rewrite-2026-09-20.json");
   const diabetesRemissionRewrite = read("articles-diabetes-remission-rewrite-2026-09-20.json");
   const bodyCompositionNotScaleRewrite = read("articles-body-composition-not-scale-rewrite-2026-09-20.json");
+  const pcosAndWeightRewrite = read("articles-pcos-and-weight-rewrite-2026-09-20.json");
   const darkNeckRewrite = read("articles-dark-neck-rewrite-2026-09-14.json");
   const darkNeckPregnancyRewrite = neutralArabicReaderAddress(read("articles-dark-neck-pregnancy-rewrite-2026-09-16.json"));
   const hPyloriBloatingRewrite = read("articles-h-pylori-bloating-rewrite-2026-09-16.json");
@@ -108,7 +109,7 @@ export function loadContent() {
     ]
   }));
   articles.articles = [
-    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "abdominal-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "dark-neck-skin-during-pregnancy", "insulin-resistance-explained", "qa-h-pylori-still-bloated", "qa-teen-restricting-food-fears-weight", "h-pylori-reflux-ibs", "qa-prediabetes-need-medicine", "qa-low-ferritin-normal-cbc", "gallstones-symptoms-and-surgery", "gastroscopy-vs-colonoscopy-what-to-expect", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags", "normal-ultrasound-does-not-end-assessment", "fatty-liver-fibrosis-needs-its-own-assessment", "hypothyroidism-and-weight", "kidney-stones-symptoms-and-tests", "diabetes-review-whole-health", "blood-pressure-needs-a-pattern", "ultrasound-uses-sound-not-xrays", "silent-gallstones-usually-need-no-treatment", "h-pylori-in-children-symptoms-tests", "responsive-complementary-feeding", "inbody-results-explained", "diabetes-remission-is-not-cure", "body-composition-not-scale"].includes(article.slug)),
+    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "abdominal-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "dark-neck-skin-during-pregnancy", "insulin-resistance-explained", "qa-h-pylori-still-bloated", "qa-teen-restricting-food-fears-weight", "h-pylori-reflux-ibs", "qa-prediabetes-need-medicine", "qa-low-ferritin-normal-cbc", "gallstones-symptoms-and-surgery", "gastroscopy-vs-colonoscopy-what-to-expect", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags", "normal-ultrasound-does-not-end-assessment", "fatty-liver-fibrosis-needs-its-own-assessment", "hypothyroidism-and-weight", "kidney-stones-symptoms-and-tests", "diabetes-review-whole-health", "blood-pressure-needs-a-pattern", "ultrasound-uses-sound-not-xrays", "silent-gallstones-usually-need-no-treatment", "h-pylori-in-children-symptoms-tests", "responsive-complementary-feeding", "inbody-results-explained", "diabetes-remission-is-not-cure", "body-composition-not-scale", "pcos-and-weight"].includes(article.slug)),
     ...(fattyLiverRewrite.articles || []),
     ...(ultrasoundRewrite.articles || []),
     ...(abdominalUltrasoundPreparationRewrite.articles || []),
@@ -148,6 +149,7 @@ export function loadContent() {
     ...(inbodyResultsExplainedRewrite.articles || []),
     ...(diabetesRemissionRewrite.articles || []),
     ...(bodyCompositionNotScaleRewrite.articles || []),
+    ...(pcosAndWeightRewrite.articles || []),
     ...(longformExpansion.articles || []),
   ];
   // Editorial images are hand-managed beneath `assets/img/articles/`. A small
