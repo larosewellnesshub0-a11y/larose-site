@@ -71,6 +71,18 @@ Third locked URL from the whole-site queue. **Note for future sessions:** before
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-fatty-liver-rewrite-2026-09-14.json` only (already registered in all three required locations from the prior session).
 
+## 20 September 2026 — dark-neck-acanthosis-insulin-resistance
+
+Fourth locked URL. Already fully long-form and already committed/live before this session (18 sections, 3 FAQ, 10 sources, ~1,355 EN words, date 2026-09-07). Audit-only, per the same pattern as fatty-liver-ultrasound.
+
+- Verified all 10 sources live in Chrome (Mayo Clinic, DermNet, AAD, Australasian College of Dermatologists, NHS, NIDDK insulin resistance, NICHD PCOS, ACOG PCOS, ADA diagnosis, StatPearls). All real and on-topic — no dead links this time.
+- Found 2 smaller defects: (1) source 7 was labelled "NIDDK: PCOS" but its URL is nichd.nih.gov — a different NIH institute; corrected the label to "NICHD: PCOS" rather than changing the URL, since NICHD is the right, real, relevant source. (2) source 10 (StatPearls) had no inline citation anywhere in 18 sections; added it to the opening section's citation set.
+- `updatedAt` bumped to 2026-09-20 for the genuine correction.
+- Gates: build (490 pages), validate (0/0), audit (82 findings, 0 blocking), Arabic voice (PASS). All 10 citation anchors now covered.
+- Deployment and live verification: pending — will follow immediately.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-dark-neck-rewrite-2026-09-14.json` only (already registered in all three required locations).
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
