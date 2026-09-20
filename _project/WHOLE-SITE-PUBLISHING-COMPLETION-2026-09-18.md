@@ -206,6 +206,22 @@ Twelfth locked URL, selected via fresh `node tools/audit-article-standards.mjs` 
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-childrens-appetite-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 21 September 2026 — protecting-muscle-while-losing-weight
+
+Thirteenth locked URL, selected via fresh `node tools/audit-article-standards.mjs` cross-referenced against real GSC impressions (7, tied-highest among not-yet-completed candidates; already a frequent internal-link target this session from `pcos-and-weight`, `body-composition-not-scale` and `inbody-results-explained`).
+
+- No existing registered rewrite (checked `build/lib/util.mjs` first). Kept the existing article's accurate, non-alarmist content in full and expanded from 6 sections/2 sources/no citations to 6 sections/4 FAQ/5 sources/~1,087 EN body words (~1,281 total).
+- 3 new sources verified live in Chrome, alongside the 2 existing ones (ESPEN/EASO sarcopenic-obesity definition, NICE NG246): Neeland et al. 2024 review on lean-body-mass changes with GLP-1-based therapies (PubMed 38937282) — gave the real, honestly-reported heterogeneous range (some studies show 40–60% of weight lost is lean mass, others ≤15%, varying by population/drug); Aragon et al. 2017 ISSN position stand on diets and body composition (PMC5470183, reused from `body-composition-not-scale`) — gave the real protein numbers (≈1.6 g/kg outperforms the 0.8 g/kg reference intake; trained individuals in a deficit may need 2.3–3.1 g/kg fat-free mass); WHO Guidelines on Physical Activity and Sedentary Behaviour (2020) — gave the real resistance-training frequency target (≥2 days/week covering major muscle groups).
+- **Guessed a PMID from memory and got a completely unrelated paper** (a plant-nanobody article) before correcting course — confirms the standing rule that PMIDs must always be looked up via a live search result or citation snippet, never typed from recollection. Found the correct Neeland PMID (38937282) via a Google search results page's accessible link references rather than the rendered snippet text.
+- **New validator failure mode found and fixed:** `node tools/validate.mjs` flagged three "price leaked into public page" errors on the Arabic page. The site's price-redaction regex (`tools/validate.mjs`, check 8) matches any digit run followed by `ج.?م` to catch a stray Egyptian-pound price, and it has no way to distinguish that from "١.٦ **جم**" (1.6 **grams**, using the common gram abbreviation). Fixed by writing "جرام" in full wherever an Arabic gram quantity sits next to a number, instead of the abbreviation — logged in `SKILL.md` so future numeric Arabic content (protein grams, doses, etc.) uses the full word from the start.
+- Added real, non-filler content the site didn't have: the specific protein-per-kilogram targets, spreading protein across 3–4 meals rather than one large meal, the WHO resistance-training frequency target, normal first-week muscle soreness and gradual-load progression, and the honestly-reported range (not a single overstated number) for GLP-1-related lean-mass loss.
+- 3 editorial internal links (body-composition-not-scale, weight-management-first-visit, glp1-medication-guide) — all rendered correctly in both locales (the sitewide auto-linker also added extra matches of the same targets elsewhere in the body, which is expected, documented behaviour, not a defect).
+- `date` preserved (2026-09-03), `updatedAt` set to 2026-09-21.
+- Gates: build (490 pages), validate (0/0 after the price-regex fix above), audit (95 findings, 0 blocking, em-dash count 91), Arabic voice (PASS). All 5 citation anchors covered.
+- Deployment and live verification: pushed to `main` (commit `2ee5995`), deployed, live-verified: both locales serving the new content, all 5 citation anchors resolve, hreflang `<link rel="alternate">` trio correct (ar/en/x-default), all 3 internal links render in both locales, EN translation notice present, dateModified correct, no stray gram/price ambiguity live.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-protecting-muscle-while-losing-weight-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
