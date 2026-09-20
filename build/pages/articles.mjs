@@ -48,12 +48,15 @@ const COPY = {
     en: "Every published entry identifies its publication date, listed author and reviewer where available, and linked medical sources. Each full entry includes a publication record so readers can see recorded information without us guessing an unrecorded update date.",
   },
   /* The Knowledge Centre is written for an Egyptian Arabic audience first;
-     English pages are a translated rendering of that Arabic original. This
-     note is a plain translation disclosure, not a credential claim about a
-     named reviewer, since bylines here are provisional pending clinic
-     confirmation (see AGENTS.md). Keep the wording that way. */
+     English pages are a translated rendering of that Arabic original. Keep
+     this to a plain, unconditionally true provenance statement: it must not
+     become a review/accuracy-check claim (no team checked all ~180 English
+     pages against Arabic) or a credential claim about a named reviewer,
+     since bylines here are provisional pending clinic confirmation (see
+     AGENTS.md). A stronger "checked by our doctors" claim is a per-article
+     editorial decision, not a sitewide default. */
   translationNotice: {
-    en: "This is an English translation of the original Arabic article, which is the primary reference version. It has been checked against the Arabic original for medical accuracy.",
+    en: "The Arabic version of this article is the original; this English page is a translation of it.",
   },
   answerBy: { ar: "الإجابة من", en: "Answered by" },
   writtenBy: { ar: "كتبه", en: "Written by" },
