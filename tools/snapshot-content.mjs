@@ -38,6 +38,7 @@ PUBLIC.add("articles-pcos-and-weight-rewrite-2026-09-20.json");
 PUBLIC.add("articles-preparing-for-bariatric-surgery-rewrite-2026-09-20.json");
 PUBLIC.add("articles-insulin-resistance-children-rewrite-2026-09-21.json");
 PUBLIC.add("articles-childrens-appetite-rewrite-2026-09-21.json");
+PUBLIC.add("articles-protecting-muscle-while-losing-weight-rewrite-2026-09-21.json");
 
 /* Must never reach the published tree. Anything starting with "_" is private
    by convention too (content/_submissions.json, content/_private/). */
