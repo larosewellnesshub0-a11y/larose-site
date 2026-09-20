@@ -247,6 +247,20 @@ Fourteenth locked URL, selected via fresh `node tools/audit-article-standards.mj
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-vitamin-b12-plant-based-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 21 September 2026 — glp1-medication-guide
+
+Fifteenth locked URL. `hair-loss-in-men-when-to-get-checked` (7 impressions, the actual top-ranked candidate this round) was skipped — see "Proven defect: dermatology articles have no qualified reviewer on staff" above — so this URL was selected as the next-highest non-dermatology candidate (`glp1-medication-guide`, 5 impressions).
+
+- No existing registered rewrite (checked `build/lib/util.mjs` first). Kept the existing article's accurate, non-hype content in full and expanded from 6 sections/2 sources/no citations to 6 sections/4 FAQ/5 sources/~1,072 EN body words (~1,275 total).
+- 3 new sources verified live in Chrome, alongside the 2 existing ones (FDA GLP-1 safety communication, ADA Obesity/Weight-Management Standards of Care — both reverified current/live): Jastreboff et al. 2022 SURMOUNT-1 tirzepatide trial (PubMed 35658024) — real efficacy numbers (15–21% weight loss at 72 weeks by dose vs. ~3% placebo) and real discontinuation-for-adverse-events rates (2.6–7.1% by dose); Neeland et al. 2024 GLP-1 lean-mass review (PubMed 38937282, reused from `protecting-muscle-while-losing-weight`); Mechanick et al. 2019 AACE/TOS/ASMBS/OMA/ASA bariatric guideline (PubMed 31917200, reused from `preparing-for-bariatric-surgery`) for the surgical-opinion handoff.
+- **Addressed a real, sensitive patient concern directly rather than omitting it:** the article already cited an FDA safety communication in its sources but never actually used it inline. Added real content explaining the FDA reviewed reports of suicidal ideation/behaviour linked to GLP-1 medicines twice and, in a 2026 update, requested removal of that specific warning after finding no evidence of increased risk — while explicitly not dismissing the value of ordinary psychological check-ins. Verified the FDA page directly in Chrome (dated 01-13-2026, content current as of 04-03-2026) before citing it.
+- 2 editorial internal links (protecting-muscle-while-losing-weight for the lean-mass/InBody content, preparing-for-bariatric-surgery for the surgical-opinion handoff) — both rendered correctly on the first build in both locales.
+- `date` preserved (2026-08-29), `updatedAt` set to 2026-09-21.
+- Gates: build (490 pages), validate (0/0), audit (98 findings, 0 blocking, em-dash count 94), Arabic voice (PASS, no fix needed). All 5 citation anchors covered.
+- Deployment and live verification: pushed to `main` (commit `44a9043`), deployed, live-verified: both locales serving the new content, all 5 citation anchors resolve, hreflang `<link rel="alternate">` trio correct (ar/en/x-default), both internal links render in both locales, EN translation notice present, dateModified correct.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-glp1-medication-guide-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
