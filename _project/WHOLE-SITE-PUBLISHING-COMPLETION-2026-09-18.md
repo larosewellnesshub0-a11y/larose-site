@@ -129,6 +129,21 @@ Seventh locked URL, selected via fresh audit + GSC impressions (11, EN position 
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-diabetes-remission-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 20 September 2026 — body-composition-not-scale
+
+Eighth locked URL, selected via fresh audit + GSC impressions (11, similar traffic to inbody-results-explained since the two are a natural cluster).
+
+- No existing registered rewrite (checked first). Expanded from 6 sections/2 sources/no citations to 9 sections/4 FAQ/5 sources/~1,148 EN body words (~1,370 total).
+- **Deliberate scope split from `inbody-results-explained` (completed article #6 this session):** this page owns "why scale weight alone misleads and how to build a follow-up dashboard"; the sibling owns "how to read an InBody report field by field." Kept the BIA-mechanism section brief here and linked to the sibling's fuller technical explanation instead of re-deriving it, to avoid the two pages competing for the same content.
+- 3 new sources verified live in Chrome, alongside NICE NG246 (reused, already verified this session) and NIDDK bioelectrical impedance (reused): Aragon et al. 2017 ISSN position stand on diets and body composition (PMC) — slower weight loss preserves muscle better, higher protein may be needed during a deficit; Steinberg et al. 2015 JAND study on daily weighing improving weight-loss outcomes; ADA Standards of Care 2026 obesity/weight-management chapter (existing citation, label corrected to match its actual title).
+- Added genuinely new content: normal daily weight-fluctuation range, the real daily-weighing outcome data (with the caveat that it does not suit everyone), and a "non-scale progress" section on signs of improvement unrelated to the scale.
+- 3 editorial internal links (to `inbody-results-explained`, `protecting-muscle-while-losing-weight`, `inbody-preparation-for-reliable-follow-up`); 2 of 3 initially failed to render (exact-substring-match gotcha, one a case-sensitivity miss) — caught and fixed before shipping.
+- `date` preserved (2026-08-20), `updatedAt` set to 2026-09-20.
+- Gates: build (490 pages), validate (0/0), audit (88 findings, 0 blocking), Arabic voice (PASS). All 5 citation anchors covered.
+- Deployment and live verification: pending — will follow immediately.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-body-composition-not-scale-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.

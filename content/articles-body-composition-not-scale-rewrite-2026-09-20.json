@@ -1,0 +1,256 @@
+{
+  "_note": "Long-form expansion of body-composition-not-scale. Scoped to why scale weight alone misleads and why a composition/measurement dashboard matters for follow-up decisions (distinct from inbody-results-explained, which is the technical guide to reading an InBody report itself; linked there rather than re-explaining BIA mechanics in the same depth).",
+  "articles": [
+    {
+      "slug": "body-composition-not-scale",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management",
+        "body-contouring"
+      ],
+      "date": "2026-08-20",
+      "updatedAt": "2026-09-20",
+      "readingTime": 9,
+      "author": "shimaa-fouad",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/body-composition-not-scale.webp",
+      "title": {
+        "ar": "تركيب الجسم مش رقم الميزان: ليه InBody يفرق في المتابعة؟",
+        "en": "Body composition is not the scale: why InBody matters in follow-up"
+      },
+      "excerpt": {
+        "ar": "نفس الوزن ممكن يمثل أجسام مختلفة تماماً. الدهون والعضلات والمياه والقياسات بتشرح التغيير اللي رقم واحد على الميزان ممكن يخبيه.",
+        "en": "The same weight can describe very different bodies. Fat, muscle, fluid and measurements explain changes that one scale number can hide."
+      },
+      "tags": {
+        "ar": [
+          "تركيب الجسم",
+          "InBody",
+          "العضلات",
+          "الدهون"
+        ],
+        "en": [
+          "body composition",
+          "InBody",
+          "muscle",
+          "body fat"
+        ]
+      },
+      "sections": [
+        {
+          "id": "one-number",
+          "heading": {
+            "ar": "الميزان بيقول رقم واحد بس",
+            "en": "A scale gives only one number"
+          },
+          "body": {
+            "ar": "وزن الجسم هو مجموع حاجات كتير: دهون، عضلات، عظام، أعضاء، ومياه، بالإضافة لمحتوى الجهاز الهضمي في اللحظة دي. الميزان المنزلي يجمعهم كلهم في رقم واحد، فمش يقدر يقول لك إيه اللي اتغير. ممكن الدهون تقل والعضلات تتحسن فيبان الرقم ثابت، وممكن الرقم ينزل بسرعة لأن المياه قلت أو لأنك فقدت عضل. [1, 4]\n\nده لا يجعل الميزان بلا فائدة؛ هو أداة بسيطة لمتابعة الاتجاه لما يتقاس في ظروف متشابهة. المشكلة تبدأ لما نستخدمه كحكم يومي على نجاحك أو نعدّل الخطة بسبب فرق صغير. قراءة منفردة بعد وجبة مالحة، سفر، إمساك أو وقت مختلف من الدورة لا تحكي القصة. الاتجاه مع تركيب الجسم والقياسات والأعراض هو الصورة الأقرب للحقيقة. [3, 4]\n\nالفكرة إنك تغيّر طريقة تفكيرك من «هل الرقم نزل النهاردة؟» لـ«هل جسمي بيتغير في الاتجاه الصح على مدار أسابيع؟»، وده سؤال أوسع بكتير من رقم واحد وبيقلل قلق المتابعة اليومية.",
+            "en": "Body weight is the total of many things: fat, muscle, bone, organs and fluid, plus the contents of the digestive tract at that moment. A home scale combines them into one number, so it cannot say what changed. Fat may fall while muscle improves and the number appears still; the number may also drop quickly because fluid or muscle was lost. [1, 4]\n\nThat does not make weighing useless. It is a simple way to follow a trend under similar conditions. The problem begins when it becomes a daily verdict on success, or a small difference triggers a change in plan. One reading after a salty meal, travel, constipation or a different point in the menstrual cycle cannot tell the story. The trend, body composition, measurements and symptoms create a more truthful picture together. [3, 4]\n\nThe shift is from asking 'did the number go down today?' to 'is my body changing in the right direction over weeks?', a far broader question than one reading, and one that reduces the anxiety of daily monitoring."
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "what-inbody-estimates",
+          "heading": {
+            "ar": "InBody بيقيس إيه؟",
+            "en": "What InBody estimates"
+          },
+          "body": {
+            "ar": "أجهزة تحليل التركيب الجسمي بالمقاومة الكهربائية الحيوية بتمرر تيار ضعيف جداً وتقيس مقاومة أنسجة الجسم. من القراءة ومعادلات الجهاز بتطلع تقديرات لمياه الجسم والكتلة الخالية من الدهون والعضلات والدهون وتوزيعها. النتيجة مفيدة لأنها تفك الرقم الكلي لأجزاء نقدر نتابعها بدل ما نفترض إن كل نزول هو دهون. [1]\n\nلكن التحليل تقدير، مش أشعة ولا قياس مباشر لكل خلية. الترطيب، وجبة قريبة، تمرين شديد، وقت اليوم والدورة ممكن يأثروا على القراءة. عشان المقارنة تبقى عادلة، يتفضل القياس في ظروف متقاربة وبنفس الجهاز، ونتجنب تفسير فرق صغير كأنه تحول كبير. لو حابب تفهم كل بند في تقرير InBody بالتفصيل وإزاي تقرأه، فيه دليل منفصل مخصص لده. [1]",
+            "en": "Bioelectrical-impedance devices pass a very small current through the body and measure how tissues resist it. The reading and the device's equations produce estimates of body water, fat-free mass, muscle and fat, including distribution. This separates total weight into parts we can follow, rather than assuming every loss is body fat. [1]\n\nThe analysis is still an estimate, not a scan or direct count of tissue. Hydration, a recent meal, strenuous exercise, time of day and the menstrual cycle can affect the reading. Fair comparison therefore means measuring in broadly similar conditions on the same device. If you want to understand every field in an InBody report in detail and how to read it, a separate dedicated guide covers that. [1]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل منفصل مخصص",
+                "url": "../articles/inbody-results-explained.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "separate dedicated guide",
+                "url": "../articles/inbody-results-explained.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "muscle-matters",
+          "heading": {
+            "ar": "ليه بنحمي العضلات؟",
+            "en": "Why we protect muscle"
+          },
+          "body": {
+            "ar": "العضلات مش بس شكل رياضي؛ هي نسيج يساعدك تتحرك، تقوم من الكرسي، تشيل حاجاتك، وتستخدم الجلوكوز. أثناء نقص السعرات، الجسم ممكن يفقد جزء من الكتلة الخالية من الدهون مع الدهون، خصوصاً لو البروتين قليل أو مفيش مقاومة عضلية أو النزول سريع من غير متابعة. عشان كده أسرع نزول مش دايماً أحسن نزول. [2]\n\nمراجعات علمية في تغذية الرياضة بتوضح إن معدلات نزول الوزن الأبطأ بتحافظ على الكتلة العضلية بشكل أفضل عند الأشخاص الأقل دهوناً، وإن زيادة تناول البروتين (بجرعات أعلى من الاحتياج العادي) ممكن تكون مطلوبة للمحافظة على العضل أثناء نقص السعرات. لما المتابعة تبين إن جزء كبير من التغيير جاي من عضل، نراجع كفاية الغذاء، توزيع البروتين، نوع الحركة، النوم، وأي أعراض أو مرض مصاحب. [2]\n\nممكن الميزان يثبت بينما المقاسات تتحسن والعضلات تتحافظ؛ ده مش فشل. الهدف إن جسمك بعد الخطة يكون أقوى وقابل للاستمرار، مش بس أخف في يوم القياس. القرار يتاخد من نمط القراءات، مش رقم عضلة واحد معزول. حماية العضلات أثناء إنقاص الوزن موضوع يستحق تفصيلاً أوسع في دليل منفصل. [2]",
+            "en": "Muscle is not merely an athletic appearance. It helps you walk, rise from a chair, carry everyday things and use glucose. During an energy deficit, some fat-free mass can be lost alongside fat, especially when protein is inadequate, muscles receive little resistance stimulus, or loss is rapid and unsupervised. The fastest fall is therefore not always the best loss. [2]\n\nSports-nutrition reviews show that slower rates of weight loss better preserve muscle mass in leaner individuals, and that higher protein intake, above ordinary requirements, may be needed to protect muscle during an energy deficit. If follow-up suggests too much change is coming from muscle, we review food adequacy, protein distribution, movement, sleep, symptoms and associated illness. [2]\n\nThe scale can pause while measurements improve and muscle is maintained; that is not failure. The aim is to finish the plan with a stronger body and sustainable results, not simply to be lighter on one measurement day. Decisions come from the pattern, not one isolated muscle estimate. Protecting muscle while losing weight deserves fuller detail in a separate guide. [2]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حماية العضلات أثناء إنقاص الوزن",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Protecting muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fluid-noise",
+          "heading": {
+            "ar": "المياه ممكن تغيّر القصة مؤقتاً",
+            "en": "Fluid can temporarily change the story"
+          },
+          "body": {
+            "ar": "جسمك بيغيّر كمية المياه طول اليوم. الملح والكربوهيدرات، الحر، الدورة، تمرين جديد، السفر، وبعض الأدوية ممكن يغيروا احتباس السوائل. لو قست بعد تمرين أو وإنت أقل شرباً، تقديرات التركيب نفسها ممكن تتغير من غير تغير حقيقي في الدهون. دراسات على تذبذب الوزن اليومي بتوضح إن تغيراً بمقدار كيلو أو أكتر بين يوم وتاني أمر طبيعي تماماً عند أغلب الناس، مش علامة إنذار. [3, 4]\n\nالمقارنة العادلة محتاجة روتين قريب: نفس الوقت تقريباً، قبل وجبة كبيرة، ومن غير تمرين عنيف قبلها مباشرة. مش مطلوب توصل للقياس عطشانة أو تعمل تصرفات تقلل المياه عشان الرقم يبان أحسن؛ ده يزوّر المتابعة ويضرّك. قول للطبيبة لو في دورة، تورم، دواء جديد أو يوم غير معتاد. المعلومات دي تفسّر القراءة. لما نشوف مجموعة أسابيع بدل نقطتين متجاورتين، ضوضاء المياه تهدى ويظهر اتجاه الدهون والعضلات بشكل أوضح. [3]",
+            "en": "Your body changes its water content throughout the day. Salt and carbohydrate, heat, the menstrual cycle, a new workout, travel and some medicines can alter fluid retention. Measuring after exercise or when underhydrated may change composition estimates even though body fat has not meaningfully changed. Studies of daily weight variation show that a change of a kilogram or more from one day to the next is entirely normal for most people, not a warning sign. [3, 4]\n\nFair comparison needs a similar routine: roughly the same time, before a large meal, and not immediately after strenuous exercise. Do not arrive thirsty or manipulate fluid to make the reading look better. That distorts follow-up and may be harmful. Tell the clinician about your period, swelling, a new medicine or an unusual day, because context helps explain the result. When we view several weeks rather than two neighbouring points, noise from fluid shifts settles and the direction of fat and muscle becomes clearer. [3]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "daily-weighing-evidence",
+          "heading": {
+            "ar": "الوزن اليومي مفيد لبعض الناس، مرهق لناس تانية",
+            "en": "Daily weighing helps some people and burdens others"
+          },
+          "body": {
+            "ar": "دراسة معروفة تابعت أشخاص بيحاولوا ينزلوا في وزنهم لقت إن اللي وزنوا نفسهم يومياً نزلوا وزناً أكبر في المتوسط من اللي وزنوا نفسهم أقل من كده، مع تبني أكتر لعادات التحكم في الوزن. يعني الوزن اليومي، لما يتفسر صح كاتجاه مش كحكم يومي، ممكن يكون أداة مفيدة لبعض الناس. [4]\n\nلكن ده مش قاعدة تناسب الجميع. لو الوزن اليومي بيسبب قلقاً أو هوساً أو قرارات اندفاعية زي تقليل الأكل فجأة بعد رقم مرتفع، فالوتيرة الأقل أو التركيز على مؤشرات تانية غالباً أفضل نفسياً وعملياً. اسأل نفسك: الوزن اليومي بيساعدني ألتزم، ولا بيخليني أعصبي وأتخذ قرارات مش صح؟ الإجابة بتحدد الوتيرة المناسبة لك. [4]",
+            "en": "A well-known study followed people trying to lose weight and found that daily weighers lost more weight on average than those who weighed themselves less often, alongside greater adoption of weight-control behaviours. This means daily weighing, when interpreted correctly as a trend rather than a daily verdict, can be a useful tool for some people. [4]\n\nBut this is not a rule that fits everyone. If daily weighing causes anxiety, obsession or impulsive decisions such as suddenly cutting food after a higher number, a less frequent pattern or a focus on other indicators is often better both psychologically and practically. Ask yourself: does daily weighing help me stay consistent, or does it make me anxious and lead to poor decisions? The answer determines the right frequency for you. [4]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "non-scale-progress",
+          "heading": {
+            "ar": "تقدم مالوش علاقة بالميزان أحياناً",
+            "en": "Sometimes progress has nothing to do with the scale"
+          },
+          "body": {
+            "ar": "الملابس بقت أوسع، الدرج بقى أسهل، النوم اتحسن، الطاقة زادت، التحاليل اتحسنت، أو الرغبة في أكل معين قلت — كل دي علامات تقدم حقيقي حتى لو الميزان ما تحركش. تجاهل العلامات دي والتركيز على رقم واحد بس ممكن يخليك تحس بالفشل رغم إن جسمك وصحتك بيتحسنوا فعلاً. [5]\n\nاحتفظ بسجل بسيط لهذي الملاحظات جنب أي قياسات، مش عشان تعوض عن المتابعة الطبية، لكن عشان يديك صورة أوسع للمناقشة مع فريقك الطبي. أحياناً التغيير اللي بتلاحظه في حياتك اليومية بيكون مؤشراً أبكر من أي رقم في تقرير. [5]",
+            "en": "Clothes fitting looser, stairs feeling easier, better sleep, more energy, improved blood results, or reduced cravings for a particular food are all signs of real progress even if the scale has not moved. Ignoring these signs and focusing on one number alone can make you feel like you are failing even though your body and health are genuinely improving. [5]\n\nKeep a simple record of these observations alongside any measurements, not as a substitute for medical follow-up, but to give a fuller picture for discussion with your care team. Sometimes the change you notice in daily life is an earlier signal than any number in a report. [5]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "useful-dashboard",
+          "heading": {
+            "ar": "مجموعة مؤشرات، مش مسابقة أرقام",
+            "en": "A dashboard, not a numbers contest"
+          },
+          "body": {
+            "ar": "المتابعة الجيدة تجمع أكتر من مؤشر: متوسط الوزن أو اتجاهه، تركيب الجسم، محيط الخصر أو قياسات متفق عليها، قوة الجسم وأداؤه، الشبع والطاقة، النوم، وأحياناً التحاليل. مش لازم كل المؤشرات تتحسن في نفس الأسبوع. ممكن الهضم يهدى قبل الميزان، أو القوة تتحسن مع ثبات الوزن، أو القياسات تتحرك بعد فترة تأقلم. [5]\n\nحدد مع الطبيبة إيه الأهم لحالتك بدل مطاردة كل رقم. لو الهدف صحة السكر، التحاليل والعادات مهمة. لو الهدف حماية العضلات، القوة والكتلة العضلية وتناول الغذاء يهموا. ولو الهدف نحت منطقة، القياسات والصور المعيارية قد تكون أوضح من الوزن. التقرير أداة للحوار واتخاذ قرار، مش شهادة نجاح أو رسوب، ومقارنة نتيجتك بنتيجة حد تاني غالباً بلا معنى. [5]",
+            "en": "Good follow-up combines several indicators: average weight or direction, body composition, waist or agreed measurements, strength and function, hunger and energy, sleep, and sometimes blood results. They do not all have to improve in the same week. Digestion may settle before the scale changes; strength may improve while weight is stable; measurements may move after adjustment. [5]\n\nAgree which outcomes matter most for your case instead of chasing every report line. If glucose health is the priority, blood results and habits matter. If muscle protection is central, strength, muscle trend and adequate nutrition matter. If a local area is treated, standardised measurements or photographs may be more informative than weight. The report is a tool for conversation and decisions, not a pass-or-fail certificate, and comparing yours with someone else's is rarely meaningful. [5]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "follow-up",
+          "heading": {
+            "ar": "إزاي نستفيد من القياس في الخطة؟",
+            "en": "Using the measurement in a real plan"
+          },
+          "body": {
+            "ar": "خد أول قراءة كنقطة بداية، مش تعريف لجسمك. اسأل: التغيير اللي بندور عليه إيه؟ وإمتى نعيد القياس؟ وإيه الظروف اللي نخليها متشابهة؟ بين الزيارات، ركّز على السلوك المتفق عليه بدل وزن متكرر يرفع القلق. لو حصل تغيير كبير مفاجئ مع تورم أو ضيق نفس أو أعراض، ده موضوع طبي مش مجرد تحليل تركيب جسم. [1, 3]\n\nفي لاروز، InBody داخل كشف التغذية وبيتكرر في المتابعة الأسبوعية عشان الخطة تتعدل على اللي جسمك عمله فعلاً. بيتقري جنب التاريخ والتحاليل والقياسات، ومش بيستخدم لوحده لتشخيص مرض. لو الميزان محيرك أو بتخسّ بسرعة وقلقانة على العضلات، استشارة مرتبة تساعد تحوّل الأرقام لقرارات مفهومة ومناسبة ليك. لتفاصيل عملية عن التحضير للمتابعة وظروف القياس المثالية قبل كل زيارة، فيه دليل منفصل يشرح الخطوات بالتفصيل.",
+            "en": "Treat the first reading as a baseline, not a definition of your body. Ask what change you seek, when measurement will be repeated and which conditions should stay similar. Between appointments, focus on agreed actions rather than frequent weighing that raises anxiety. A sudden large change with swelling, breathlessness or other symptoms is a medical concern, not merely a body-composition issue. [1, 3]\n\nAt La Rose, InBody is included in the nutrition consultation and repeated at weekly follow-up so the plan responds to what your body actually did. It is read alongside history, blood results and measurements, and is not used alone to diagnose disease. If the scale feels confusing, or weight is falling quickly and you are concerned about muscle, a structured consultation can turn the numbers into understandable decisions that fit you. For practical detail on preparing for follow-up and the ideal measurement conditions before each visit, a separate guide covers the steps."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "التحضير للمتابعة",
+                "url": "../articles/inbody-preparation-for-reliable-follow-up.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "preparing for follow-up",
+                "url": "../articles/inbody-preparation-for-reliable-follow-up.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل InBody أدق من الميزان؟",
+            "en": "Is InBody more accurate than a scale?"
+          },
+          "a": {
+            "ar": "هو بيدي معلومات أكتر، لكنه تقدير بيتأثر بالترطيب. فائدته الأكبر في متابعة الاتجاه بنفس الجهاز وتحت ظروف متقاربة. [1, 3]",
+            "en": "It gives more information, but remains an estimate affected by hydration. Its greatest value is following a trend on the same device under similar conditions. [1, 3]"
+          }
+        },
+        {
+          "q": {
+            "ar": "ليه وزني ثابت ومقاسي بيقل؟",
+            "en": "Why is my weight stable while measurements fall?"
+          },
+          "a": {
+            "ar": "ممكن الدهون تقل مع الحفاظ على العضلات، أو المياه تغطي التغيير مؤقتاً. عشان كده بنقرأ التركيب والقياسات مع بعض. [4]",
+            "en": "Fat may be falling while muscle is maintained, or fluid may mask the change. That is why composition and measurements are read together. [4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "أوزن نفسي كل يوم؟",
+            "en": "Should I weigh myself every day?"
+          },
+          "a": {
+            "ar": "ممكن يساعد بعض الناس على الالتزام حسب دراسات علمية، لكن لو بيسبب قلقاً أو قرارات اندفاعية، اتفق على وتيرة أقل وركّز على مؤشرات تانية. [4]",
+            "en": "It can help some people stay consistent according to research, but if it causes anxiety or impulsive decisions, agree a less frequent pattern and follow other indicators. [4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل البروتين الزيادة بيساعد أحافظ على عضلاتي وأنا بنزل وزن؟",
+            "en": "Does extra protein help protect muscle during weight loss?"
+          },
+          "a": {
+            "ar": "مراجعات علمية بتوضح إن بروتين أعلى من الاحتياج المعتاد، مع نزول وزن تدريجي، بيحافظ على الكتلة العضلية بشكل أفضل من نزول سريع وبروتين قليل. ناقش الكمية المناسبة لك مع أخصائي التغذية. [2]",
+            "en": "Scientific reviews show protein above ordinary requirements, combined with gradual weight loss, preserves muscle mass better than rapid loss with low protein. Discuss the right amount for you with a dietitian. [2]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Metabolic Testing: Bioelectrical Impedance",
+          "url": "https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/diabetes-endocrinology-obesity-branch/metabolic-clinical-research-unit/metabolic-testing"
+        },
+        {
+          "label": "Aragon et al. — International Society of Sports Nutrition Position Stand: Diets and Body Composition (PMC, 2017)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5470183/"
+        },
+        {
+          "label": "NICE — Identifying and assessing overweight, obesity and central adiposity (NG246)",
+          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity"
+        },
+        {
+          "label": "Steinberg et al. — Weighing Every Day Matters: Daily Weighing Improves Weight Loss and Adoption of Weight Control Behaviors, Journal of the Academy of Nutrition and Dietetics (2015)",
+          "url": "https://www.jandonline.org/article/S2212-2672(14)01873-5/fulltext"
+        },
+        {
+          "label": "American Diabetes Association — Standards of Care in Diabetes 2026: Obesity and Weight Management",
+          "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S166/163915/8-Obesity-and-Weight-Management-for-the-Prevention"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "تركيب الجسم أهم من الميزان",
+          "en": "Why body composition beats the scale"
+        },
+        "description": {
+          "ar": "نفس الوزن ممكن يمثل أجسام مختلفة تماماً. وزن الجسم هو مجموع حاجات كتير: دهون، عضلات، عظام، أعضاء، ومياه، بالإضافة لمحتوى الجهاز الهضمي في اللحظة دي.",
+          "en": "The same weight can describe very different bodies. Body weight is the total of many things: fat, muscle, bone, organs and fluid, plus the contents of the"
+        }
+      }
+    }
+  ]
+}

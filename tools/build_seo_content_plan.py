@@ -47,6 +47,7 @@ ARTICLE_FILES = (
     "articles-responsive-complementary-feeding-rewrite-2026-09-20.json",
     "articles-inbody-results-explained-rewrite-2026-09-20.json",
     "articles-diabetes-remission-rewrite-2026-09-20.json",
+    "articles-body-composition-not-scale-rewrite-2026-09-20.json",
     "articles-dark-neck-rewrite-2026-09-14.json",
     "articles-dark-neck-pregnancy-rewrite-2026-09-16.json",
     "articles-h-pylori-bloating-rewrite-2026-09-16.json",
