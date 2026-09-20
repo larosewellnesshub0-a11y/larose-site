@@ -140,7 +140,7 @@ Eighth locked URL, selected via fresh audit + GSC impressions (11, similar traff
 - 3 editorial internal links (to `inbody-results-explained`, `protecting-muscle-while-losing-weight`, `inbody-preparation-for-reliable-follow-up`); 2 of 3 initially failed to render (exact-substring-match gotcha, one a case-sensitivity miss) — caught and fixed before shipping.
 - `date` preserved (2026-08-20), `updatedAt` set to 2026-09-20.
 - Gates: build (490 pages), validate (0/0), audit (88 findings, 0 blocking), Arabic voice (PASS). All 5 citation anchors covered.
-- Deployment and live verification: pending — will follow immediately.
+- Deployment and live verification: pushed to `main` (commit `b5374fa`), deployed, live-verified: HTTP 200 both locales, canonical correct, dateModified 2026-09-20, all 5 citation anchors resolve, all 3 internal links render.
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-body-composition-not-scale-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
