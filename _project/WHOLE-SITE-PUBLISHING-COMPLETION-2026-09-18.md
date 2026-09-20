@@ -160,6 +160,22 @@ Ninth locked URL, selected via fresh audit + GSC impressions (a PCOS/weight-mana
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-pcos-and-weight-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 21 September 2026 — preparing-for-bariatric-surgery
+
+Tenth locked URL, selected via fresh `node tools/audit-article-standards.mjs` cross-referenced against real GSC impressions (9, the highest among not-yet-completed candidates; `insulin-resistance-in-children` and `childrens-appetite` were close runners-up for a future round).
+
+- No existing registered rewrite (checked `build/lib/util.mjs` first). Kept the existing article's accurate, well-scoped framing intact and expanded from 5 sections/1 source/no citations to 6 sections/4 FAQ/5 sources/~1,087 EN body words (~1,302 total).
+- **Deliberate scope check against five siblings before writing:** `bariatric-assessment-is-multidisciplinary` (owns the multidisciplinary-team detail), `bariatric-vitamin-monitoring` (owns post-op vitamin/supplement monitoring specifics), `bariatric-follow-up-is-lifelong` (owns long-term follow-up cadence), `sleeve-gastrectomy-what-to-know` (owns sleeve-specific procedure detail) and `weight-management-first-visit` (owns the non-surgical entry point). Kept this article scoped to the pre-op decision/assessment/consent journey and linked out to all four relevant siblings instead of duplicating their content.
+- 4 new sources verified live in Chrome, alongside NICE NG246 (reused): Mechanick et al. 2019/2020 AACE/TOS/ASMBS/OMA/ASA perioperative bariatric-surgery clinical practice guideline (PubMed 31917200); Stenberg et al. 2022 ERAS Society perioperative-care guideline (PMC8885505) — sourced the real numeric candidacy criteria (BMI ≥40, or ≥35 with an obesity-related condition), smoking-cessation timing (≥4 weeks), alcohol-abstinence and preoperative low-calorie-diet detail; Sogg et al. 2016 ASMBS presurgical psychosocial evaluation guideline (PubMed 27179400); NIDDK's Weight-loss (Metabolic & Bariatric) Surgery page (candidacy criteria, patient-facing).
+- Hit a CAPTCHA wall navigating `pubmed.ncbi.nlm.nih.gov` with a query-string search (reCAPTCHA "checking your browser" page) — did not attempt to solve it, per standing policy; found the correct PMID via a Google-search snippet instead and navigated directly to the PMID URL, which loaded normally.
+- Added real, non-filler content the site didn't have: numeric BMI candidacy thresholds, when surgery should be delayed rather than proceed (uncontrolled psychiatric illness, active substance dependency, inability to commit to follow-up), a sleep-apnoea screening explanation, early-vs-late complication types (bleeding/leak vs. stricture/gallstones/deficiency), lifelong vitamin/mineral monitoring and post-op gallstone-prevention medicine, and post-op pregnancy-timing guidance (~12–18 months).
+- 4 editorial internal links (multidisciplinary assessment, sleeve gastrectomy, vitamin monitoring, lifelong follow-up); all 4 rendered correctly on the first build — no exact-substring-match or `validUrl()` failures this time, having checked both known failure modes before shipping.
+- `date` preserved (2026-09-07), `updatedAt` set to 2026-09-20.
+- Gates: build (490 pages), validate (0/0), audit (90 findings, 0 blocking, em-dash count 86), Arabic voice (PASS, no fix needed this time). All 5 citation anchors covered.
+- Deployment and live verification: pushed to `main` (commit `21f9991`), deployed, live-verified: both locales serving the new content, all 5 citation anchors resolve, hreflang `<link rel="alternate">` trio correct (ar/en/x-default), all 4 internal links render in both locales, EN translation notice present, dateModified correct.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-preparing-for-bariatric-surgery-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
