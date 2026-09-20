@@ -144,6 +144,22 @@ Eighth locked URL, selected via fresh audit + GSC impressions (11, similar traff
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-body-composition-not-scale-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 20 September 2026 — pcos-and-weight
+
+Ninth locked URL, selected via fresh audit + GSC impressions (a PCOS/weight-management cluster page with steady long-tail traffic, no single dominant top query in the export).
+
+- No existing registered rewrite (checked `build/lib/util.mjs` first). Kept the existing article's non-judgemental framing intact and expanded from 4 sections/4 sources to 7 sections/4 FAQ/5 sources/~1,184 EN body words (~1,392 total).
+- Added a new `long-term-health` section (type 2 diabetes/metabolic syndrome risk, unopposed endometrial thickening from prolonged anovulation) and a new consultation paragraph on rapid-weight-loss/muscle-protection follow-up — real, non-filler content, not padding.
+- 5 sources verified live in Chrome: WHO PCOS fact sheet (reused), Teede et al. 2023 International Evidence-based Guideline (PubMed, reused), ACOG PCOS FAQ (reused), Legro et al. 2013 Endocrine Society guideline (PMC, reused), NICHD PCOS topic page (new).
+- **Self-caught citation-numbering error before shipping:** an acanthosis-nigricans skin-sign claim was originally marked `[3]`/ACOG without confirming ACOG's FAQ actually supports that specific claim. Found via the `grep -oE '\[[0-9](, ?[0-9])*\]' ... | sort -u` audit technique (citation `3` wasn't actually appearing correctly used) — renumbered that claim to `[4]`/Legro's Endocrine Society guideline, and added new, properly `[3]`-cited content elsewhere (hormonal-contraceptives and ovulation-induction paragraphs in `medical-options`) so all sources ended up genuinely cited.
+- 3 editorial internal links (dark-neck-acanthosis-insulin-resistance, body-composition-not-scale, protecting-muscle-while-losing-weight); the `protecting-muscle-while-losing-weight` link initially failed to render for a **new reason** — the `url` value was missing the required `../articles/` prefix, so `validUrl()` in `build/pages/articles.mjs` silently rejected it (distinct from the usual exact-substring-match label gotcha). Caught by grepping the built HTML for the expected `<a href>` and confirming it was absent; fixed by adding the prefix.
+- **Voice-check failure caught before commit:** first build failed `python tools/check_voice.py` on one feminine imperative, "ناقشي مع طبيبك" ("discuss (f.) with your doctor"), in the new `medical-options` pregnancy-goal paragraph. Found via a standalone debug script re-running the checker's own patterns/word list against just this file (fed into a UTF-8 output file to avoid shell mojibake) — isolated to "WORD ناقشي". Fixed to masculine "ناقش", rebuilt, and voice check passed on rerun.
+- `date` preserved (2026-08-17), `updatedAt` set to 2026-09-20.
+- Gates: build (490 pages), validate (0/0), audit (89 findings, 0 blocking, em-dash count 85), Arabic voice (PASS after the fix above). All 5 citation anchors covered.
+- Deployment and live verification: pushed to `main` (commit `3f5c7cb`), deployed, live-verified: both locales serving the new content, all 5 citation anchors resolve, hreflang `<link rel="alternate">` trio correct (ar/en/x-default), all 3 internal links render in both locales, EN translation notice present.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-pcos-and-weight-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
