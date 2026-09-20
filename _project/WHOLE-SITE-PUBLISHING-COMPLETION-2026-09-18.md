@@ -94,7 +94,7 @@ Fifth locked URL. The named 3-item queue from 18 September was exhausted after d
 - 2 editorial internal links added (iron-rich foods, growth-curve follow-up visit); both initially failed to render because the link label didn't exactly match body text (the same exact-substring-match gotcha as before) — caught and fixed before shipping.
 - Type kept as `update` (accurate — tied to the WHO guideline), `date` preserved (2026-09-05), `updatedAt` set to 2026-09-20.
 - Gates: build (490 pages), validate (0/0), audit (84 findings, 0 blocking), Arabic voice (PASS). All 6 citation anchors covered.
-- Deployment and live verification: pending — will follow immediately.
+- Deployment and live verification: pushed to `main` (commit `6fa873b`), deployed, live-verified: HTTP 200 both locales, canonical correct, dateModified 2026-09-20, all 6 citation anchors resolve, both internal links render.
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-responsive-complementary-feeding-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
