@@ -275,6 +275,21 @@ Sixteenth locked URL, selected from the non-dermatology candidates (5 impression
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-bariatric-assessment-multidisciplinary-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 21 September 2026 — inbody-preparation-for-reliable-follow-up
+
+Seventeenth locked URL, selected from the non-dermatology candidates (5 impressions; already an inbound-link target from `inbody-results-explained` and `body-composition-not-scale`, both completed earlier this session).
+
+- No existing registered rewrite (checked `build/lib/util.mjs` first). Kept the existing article's accurate content in full and expanded from 5 sections/2 sources/no citations to 8 sections/4 FAQ/5 sources/~1,168 total words.
+- **Already well-scoped from prior work — no cannibalisation issue found:** this article owns "how to prepare for a fair repeat measurement," distinct from `inbody-results-explained` (what the report means) and `body-composition-not-scale` (why the scale alone misleads). Confirmed before writing by rereading both.
+- 3 new sources verified live in Chrome, alongside the 2 existing ones (NIDDK bioelectrical-impedance page, NICE NG246): Saunders et al. 1998 hydration-effects study in trained athletes (PubMed 9624647) — real quantified numbers (3% dehydration shifted measured body fat from 14.4% to 12.3%, then to 15.5% after rehydration, a ~3-point swing from fluid alone); Thivel et al. 2018 study on BIA accuracy versus degree of obesity in adolescents (PubMed 29914668) — correctly scoped in the text to the adolescent population it studied rather than over-generalised; Kyle et al. 2004 ESPEN BIA methodology review (PubMed 15380917) for the device-standardisation/cross-device-comparison caveat.
+- Added real, non-filler content the site didn't have: the quantified hydration-swing numbers, why comparing readings across different devices/centres is unreliable, secondary factors (large/salty meals, caffeine, alcohol, room temperature, menstrual-cycle timing), a practical measurement-day checklist (light 2–3 hour fast, avoiding skin lotion, removing metal jewellery), guidance on not over-manipulating readings in either direction (dehydrating to look leaner, or over-hydrating to look more muscular), and a realistic re-measurement cadence (2–4 weeks, not daily).
+- 2 editorial internal links (inbody-results-explained, body-composition-not-scale); the AR link to `inbody-results-explained` initially failed to render (the label phrase didn't appear verbatim in that section's AR body — the usual exact-substring-match gotcha) — fixed by adding the matching phrase to the body text, then reverified in both locales.
+- `date` preserved (2026-09-11), `updatedAt` set to 2026-09-21.
+- Gates: build (490 pages), validate (0/0), audit (100 findings, 0 blocking, em-dash count 96), Arabic voice (PASS, no fix needed). All 5 citation anchors covered.
+- Deployment and live verification: pushed to `main` (commit `ea1f2fc`), deployed, live-verified: both locales serving the new content, all 5 citation anchors resolve, hreflang `<link rel="alternate">` trio correct (ar/en/x-default), both internal links render in both locales, EN translation notice present, dateModified correct.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-inbody-preparation-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
