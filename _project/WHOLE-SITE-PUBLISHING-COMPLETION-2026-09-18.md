@@ -14,6 +14,14 @@ Each canonical article or scientific update must preserve its original date, use
 - Low ferritin with a normal CBC
 - Earlier verified releases recorded in Git history: normal ultrasound, fatty-liver fibrosis, hypothyroidism and weight, kidney stones, diabetes review, blood pressure, ultrasound safety, H. pylori/reflux/IBS, prediabetes medicine, and food intolerance versus allergy.
 
+## Proven defect: a 20-article generic template batch (2026-09-20)
+
+While starting `h-pylori-in-children-symptoms-tests`, found that `content/articles-longform-2026-09-12.json` contains a batch of exactly 20 articles sharing one 21-section generic skeleton (headings like "How to judge a claim online", "A note on online information", "Plan for review, not perfection" appear verbatim in all 20), each with **exactly 1 source** and near-identical word counts (~1,390–1,420). Prose is real (not Lorem-ipsum) and topically adapted, but is templated advice-about-seeking-advice rather than topic-specific clinical content, and is far below the 10-source standard.
+
+Affected slugs: `fat-dissolving-injections-side-effects-safety`, `inbody-test-first-visit-guide`, `ibs-symptoms-women-assessment-guide`, `ibs-symptoms-men-assessment-guide`, `severe-ibs-symptoms-red-flags`, `fatty-liver-treatment-and-follow-up`, `h-pylori-symptoms-and-testing-pathway`, `h-pylori-children-when-testing-considered`, `insulin-resistance-adults-symptoms-testing`, `insulin-resistance-children-family-assessment`, `dark-neck-skin-children-assessment`, `acne-oily-skin-gentle-routine`, `acne-in-teen-girls-assessment`, `cellulite-exercise-realistic-expectations`, `cellulite-home-care-and-safety`, `gallbladder-surgery-operation-day-guide`, `abdominal-wall-hernia-symptoms-guide`, `sleeve-gastrectomy-operation-day-recovery`, `therapeutic-nutrition-first-visit-guide`, `body-fat-percentage-context-men-women`.
+
+One of these, `h-pylori-children-when-testing-considered`, overlaps in intent with the locked next URL `h-pylori-in-children-symptoms-tests` (both are pediatric H. pylori testing-decision pages). Per Search Console, the target URL already owns the symptom-phrased query `اعراض الجرثومة عند الاطفال` (position 52, no attribution for the sibling), so this round's rewrite is scoped to **symptoms and what a parent notices**, leaving `h-pylori-children-when-testing-considered` to own **the testing-decision detail**, with a link between them — not a consolidation or redirect, which is outside what this handoff authorises. **Flagged to the user; whether to rewrite or consolidate the other 19 batch articles is their call, not queued automatically.**
+
 ## Next Arabic-first clinical queue
 
 1. `h-pylori-in-children-symptoms-tests` — Arabic query evidence: `اعراض الجرثومة عند الاطفال`; child-specific testing decision, safety signs, and follow-up.
@@ -36,6 +44,20 @@ Completed the locked next URL from the Codex handoff (`content/google search con
 - Deployment: pushed to `main` in two commits (`460981e` initial rewrite, `d67379e` follow-up fixing the translation-notice wording and expanding word count per user feedback), GitHub Actions rebuilt and deployed both times. Final live verification (`curl`, post-`d67379e`): HTTP 200 on both EN/AR; canonical/hreflang (ar/en/x-default) correct; `datePublished` 2026-08-17 and `dateModified` 2026-09-20 both present in JSON-LD; corrected translation notice present on the EN page only; all 10 citation source anchors covered with no broken/cross-article targets; all 5 editorial internal links plus the sitewide auto-linker's extras render correctly. `site/` was left unstaged/uncommitted locally both times — CI rebuilds it from source on every push, so the local generated output never needed to be committed.
 - No Search Console indexing request submitted for this or any URL.
 - Files changed: `content/articles-silent-gallstones-rewrite-2026-09-20.json` (new), `build/lib/util.mjs`, `build/pages/articles.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`, this tracker.
+
+## 20 September 2026 — h-pylori-in-children-symptoms-tests
+
+Second locked URL from the whole-site queue.
+
+- URL/slug: `h-pylori-in-children-symptoms-tests` (type: article). Canonical EN/AR preserved; original `date` 2026-09-11 preserved; `updatedAt` 2026-09-20.
+- **Found and logged a pre-existing defect before writing:** `h-pylori-children-when-testing-considered` (in the 20-article generic-template batch, see above) overlaps in intent. Resolved per advisor guidance by splitting intent along the GSC-confirmed query: this URL owns symptom recognition (`اعراض الجرثومة عند الاطفال` already lands here); the sibling keeps the testing-decision detail. Linked between them rather than merging/redirecting — that decision is the user's, not mine.
+- Also fixed genuine mojibake in the prior version's English text (`One symptom:or an online search result:cannot confirm` — colons where em-dashes belonged); isolated to this one slug in `articles.json`, not a site-wide corruption (checked).
+- 8 sections, 4 FAQ, 8 real sources verified in Chrome (ESPGHAN/NASPGHAN 2024 joint guideline, Egyptian Health Council pediatric H. pylori guideline, AAP/HealthyChildren.org, PMC review — Seo 2018, Nature Reviews Disease Primers — Thapar 2020 on paediatric functional abdominal pain, NCI H. pylori/cancer fact sheet, StatPearls, ACG patient infographic). EN body prose ~1,294 words (~1,600 including headings/FAQ/excerpt) — meets the 1,300+/rich-content standard.
+- 5 editorial internal links (functional pattern → recurrent-tummy-aches-in-children; testing decision → h-pylori-children-when-testing-considered; urgent assessment → child-vomiting-and-dehydration-warning-signs, plus 2 auto-linker additions), all confirmed rendering in both languages. All 8 numbered sources have at least one inline citation anchor (caught and fixed one unused source before shipping).
+- Registered in all three required locations (`build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`).
+- Gates: build (490 pages), validate (0/0), audit (82 findings, 0 blocking — the +2 non-blocking em-dash warnings match the sitewide source-label convention), Arabic voice (PASS).
+- Deployment and live verification: pending in this session — will follow the same commit → push → poll → curl-verify sequence as the first URL before this row is marked done.
+- No Search Console indexing request submitted.
 
 ## Required release evidence per URL
 

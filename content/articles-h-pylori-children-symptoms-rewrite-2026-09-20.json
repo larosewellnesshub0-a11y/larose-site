@@ -1,0 +1,267 @@
+{
+  "_note": "Long-form rewrite of the pediatric H. pylori symptoms article. Scoped to symptoms and what a parent notices (the GSC-confirmed query intent for this URL). Testing-decision detail belongs to the sibling h-pylori-children-when-testing-considered; this article links there rather than duplicating it.",
+  "articles": [
+    {
+      "slug": "h-pylori-in-children-symptoms-tests",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics",
+        "gastroenterology-hepatology"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-20",
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/h-pylori-reflux-ibs.webp",
+      "title": {
+        "ar": "جرثومة المعدة عند الأطفال: الأعراض والتحاليل وإمتى تقلق؟",
+        "en": "H. pylori in children: symptoms, tests and when to worry"
+      },
+      "excerpt": {
+        "ar": "وجع البطن المتكرر عند الطفل مش معناه تلقائياً جرثومة المعدة. التقييم يبدأ بالقصة وعلامات الخطر، والطبيب يحدد هل التحليل له فايدة في الحالة دي ولا لأ.",
+        "en": "Recurring tummy pain does not automatically mean a child has H. pylori. Assessment starts with the story and warning signs, then a clinician decides whether testing would answer a useful question."
+      },
+      "tags": {
+        "ar": [
+          "جرثومة المعدة عند الأطفال",
+          "وجع بطن الأطفال",
+          "تحليل جرثومة المعدة",
+          "طبيب جهاز هضمي أطفال"
+        ],
+        "en": [
+          "H. pylori in children",
+          "children's stomach pain",
+          "H. pylori test",
+          "paediatric gastroenterology"
+        ]
+      },
+      "sections": [
+        {
+          "id": "not-every-tummy-ache",
+          "heading": {
+            "ar": "مش كل وجع بطن عند الطفل سببه الجرثومة",
+            "en": "Not every child's tummy ache is caused by H. pylori"
+          },
+          "body": {
+            "ar": "جرثومة المعدة (H. pylori) بكتيريا ممكن تعيش في بطانة المعدة لسنين من غير ما تسبب أي عرض. غالبية الأطفال المصابين بيها فعلياً ما بيحسوش بحاجة، ووجع البطن المتكرر عند الأطفال له أسباب تانية كتير أشيع بكتير: نمط وظيفي مرتبط بالتوتر أو الأكل، إمساك، عدوى عابرة، أو حساسية في الأمعاء. حتى لو الوجع بيتكرر لأسابيع، اسم «جرثومة» وحده ما ينفعش يكون تفسيراً من غير كشف وقصة واضحة. [1, 5, 7, 8]\n\nالطبيب بيسأل عن مكان الوجع ووقته، هل بيصحّي الطفل من النوم، علاقته بالأكل أو دخول الحمام، وهل النمو والنشاط اتغيروا. الهدف مش إننا نلصق اسم «جرثومة» بكل وجع، لكن نعرف السؤال الحقيقي: هل فيه علامة بتحتاج فحصاً محدداً، ولا السبب الأرجح حاجة تانية تستحق الأولوية؟ [1, 5]",
+            "en": "H. pylori is a bacterium that can live in the stomach lining for years without causing any symptom. Most children who actually carry it feel nothing at all, and recurring abdominal pain in children has many far more common causes: a functional pattern linked to stress or eating, constipation, a short-lived infection, or bowel sensitivity. Even when pain recurs for weeks, the word \"H. pylori\" alone cannot explain it without an examination and a clear history. [1, 5, 7, 8]\n\nA clinician asks where and when the pain occurs, whether it wakes the child, its relationship to food or bowel movements, and whether growth or activity has changed. The aim is not to label every ache as a \"stomach germ\", but to identify the real question: is there a sign that needs a particular test, or is another, more likely cause the priority? [1, 5]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "نمط وظيفي",
+                "url": "../articles/recurrent-tummy-aches-in-children.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "functional pattern",
+                "url": "../articles/recurrent-tummy-aches-in-children.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "what-parents-notice",
+          "heading": {
+            "ar": "الأعراض اللي ممكن الأهل يلاحظوها",
+            "en": "Symptoms parents may notice"
+          },
+          "body": {
+            "ar": "ألم أو حرقان أعلى البطن، غثيان، قيء، فقدان شهية، تجشؤ متكرر أو انتفاخ ممكن يظهروا مع الجرثومة، لكن نفس الأعراض دي شائعة جداً في مشاكل معدة تانية، وبعض الأطفال المصابين بالجرثومة فعلاً ما بيشتكوش من حاجة أصلاً. لذلك عرض واحد بمفرده، أو نتيجة بحث على الإنترنت، ما يكفيش عشان تؤكد السبب في البيت. [2, 3, 6]\n\nاللي يهم أكتر هو النمط كله: هل الألم مستمر أو بيتكرر بانتظام؟ هل الطفل بقى ياكل أقل أو بيتجنب أكلات معينة؟ هل فيه تعب أو شحوب أو تغيّر ملحوظ في الوزن والنمو على منحنى النمو؟ وهل فيه تاريخ عائلي لقرحة أو جرثومة أو سرطان معدة؟ تسجيل الملاحظات دي قبل الزيارة، بتاريخ تقريبي لبداية كل عرض، بيساعد الطبيب يفرّق بين شكوى شائعة وحاجة تستحق تقييماً أوسع. [2, 3]\n\nعلامة تانية ممكن تظهر من غير ما ترتبط بوجع بطن واضح هي فقر دم بسبب نقص الحديد ما لوش تفسير واضح بعد استبعاد أسباب النظام الغذائي والنزيف المعتادة. المراجعات الطبية بتذكر فقر الدم المقاوم ده كواحد من العلامات القليلة اللي بتخلي البحث عن الجرثومة له معنى سريري واضح عند الطفل، حتى من غير وجع بطن نموذجي. لو طفلك اتشخص بفقر دم متكرر أو ما بيستجيبش لمكملات الحديد المعتادة، اذكر ده في الزيارة. [1, 4]",
+            "en": "Upper-abdominal pain or burning, nausea, vomiting, reduced appetite, frequent belching or bloating can appear with H. pylori, but the same symptoms are very common with other stomach problems, and some children who do carry the bacterium have no complaint at all. One symptom on its own, or an online search result, cannot confirm the cause at home. [2, 3, 6]\n\nThe overall pattern matters more. Is the pain constant or does it recur regularly? Has the child started eating less or avoiding certain foods? Are there changes in energy, pallor, or a noticeable shift on the growth curve? Is there a family history of ulcer disease, H. pylori or stomach cancer? Writing these observations down before the visit, with a rough start date for each symptom, helps the clinician distinguish a common complaint from a situation that needs broader assessment. [2, 3]\n\nAnother sign can appear without an obvious tummy ache: iron-deficiency anaemia with no clear explanation once diet and the usual bleeding causes have been ruled out. Medical reviews list this refractory anaemia as one of the few situations where looking for H. pylori has a clear clinical rationale in a child, even without typical abdominal pain. If your child has been diagnosed with recurring anaemia or is not responding to the usual iron supplements, mention this at the visit. [1, 4]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "functional-pain-looks-similar",
+          "heading": {
+            "ar": "الألم الوظيفي بيشبه أعراض الجرثومة أحياناً",
+            "en": "Functional pain can look similar to H. pylori symptoms"
+          },
+          "body": {
+            "ar": "نسبة كبيرة من حالات وجع البطن المتكرر عند الأطفال بتتوافق مع معايير «اضطراب وظيفي في الجهاز الهضمي»: ألم متكرر لمدة شهرين على الأقل، من غير علامة تشير لمرض عضوي، ومع فحص سريري وفحص طبيعي. الفرق مهم لأن العلاج مختلف تماماً: الاضطراب الوظيفي بيحتاج طمأنة وتعديل نمط الحياة والمتابعة، مش دايماً تحليل جرثومة أو منظاراً. [1, 5]\n\nده معناه إن وجود وجع متكرر بنمط ثابت، مع نمو طبيعي ومن غير علامات خطر، بيخلي السبب الوظيفي مرشحاً محتملاً قبل ما نفكر في الجرثومة كتفسير أول. الإرشادات الطبية الحديثة بتوضح إن البحث عن الجرثومة تحديداً في هذا النمط من الألم غالباً ما بيجاوبش سؤالاً مفيداً، لأن علاجها في الحالة دي غالباً ما بيحسنش الأعراض. [1, 5]",
+            "en": "A large share of recurring abdominal pain in children fits the criteria for a functional gastrointestinal disorder: recurring pain for at least two months, without a sign pointing to organic disease, alongside a normal clinical and physical examination. The distinction matters because the approach differs: a functional pattern needs reassurance, lifestyle adjustment and follow-up, not automatically an H. pylori test or endoscopy. [1, 5]\n\nThis means that recurring pain with a steady pattern, normal growth and no warning signs makes a functional cause a likely candidate before H. pylori is considered the first explanation. Current medical guidance notes that specifically searching for H. pylori in this pattern of pain often does not answer a useful question, because treating it in this situation usually does not improve the symptoms. [1, 5]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "testing-is-not-routine",
+          "heading": {
+            "ar": "الأعراض وحدها ما بتقررش التحليل",
+            "en": "Symptoms alone do not decide whether to test"
+          },
+          "body": {
+            "ar": "في الأطفال، البحث عن جرثومة المعدة له سبب سريري محدد، ومش مجرد محاولة تفسير ألم بطن وظيفي متكرر. الإرشاد المشترك الأحدث لجمعيتي أطفال الجهاز الهضمي الأوروبية والأمريكية بينصح صراحة ضد عمل تحليل جرثومة كخطوة أولى عند الأطفال اللي عندهم ألم بطن وظيفي من غير علامات خطر، لأن الهدف من التقييم هو تحديد السبب الحقيقي للعرض، مش مجرد إثبات وجود الجرثومة أو نفيها. [1, 2, 4]\n\nطبيب الأطفال أو طبيب الجهاز الهضمي هو اللي يحدد هل التحليل مناسب في حالة طفلك تحديداً، وأي طريقة فحص لها معنى. بشكل عام، فيه فحوصات غير جراحية (زي تحليل البراز أو اختبار النفس) وفحوصات جراحية عن طريق منظار وأخذ عينة، ولكل واحدة استخدام وحدود مختلفة عند الأطفال تحديداً. اختيار الفحص وتفسير النتيجة وتفاصيل خطوات التقييم مش موضوع المقال ده، وتقدر تلاقيها في دليل منفصل عن قرار التحليل عند الأطفال. [1, 2, 4]",
+            "en": "In children, looking for H. pylori needs a defined clinical reason; it is not simply a way to explain recurring functional abdominal pain. The latest joint guideline from the European and North American paediatric gastroenterology societies explicitly advises against H. pylori testing as a first step in children with functional abdominal pain and no warning signs, because the goal of assessment is to find the real cause of the symptom, not merely to confirm or rule out the bacterium. [1, 2, 4]\n\nA paediatrician or gastroenterology clinician decides whether testing is appropriate for your child specifically, and which method makes sense. Broadly speaking, there are non-invasive tests (such as a stool test or a breath test) and invasive tests done through endoscopy with a tissue sample, and each has different uses and limits specifically in children. Test selection, result interpretation and the details of the assessment pathway are not the focus of this article; a separate guide covers the testing decision in children in more depth. [1, 2, 4]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "قرار التحليل عند الأطفال",
+                "url": "../articles/h-pylori-children-when-testing-considered.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "the testing decision in children",
+                "url": "../articles/h-pylori-children-when-testing-considered.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "why-it-still-matters",
+          "heading": {
+            "ar": "ليه الجرثومة لسه مهمة حتى لو مش كل حالة تحتاج تحليلاً؟",
+            "en": "Why H. pylori still matters even though not every case needs testing"
+          },
+          "body": {
+            "ar": "الحذر من التحليل الروتيني ما يعنيش إن الجرثومة غير مهمة. عند الكبار، العدوى المزمنة بالجرثومة مرتبطة بزيادة خطر قرحة المعدة والاثني عشر، وعلى المدى البعيد بزيادة خطر سرطان المعدة عند نسبة من المصابين. ده جزء من سبب اهتمام الأطباء بتاريخ عائلي لقرحة أو سرطان معدة عند تقييم طفل، حتى لو القرار مش تحليلاً فورياً. [6, 8]\n\nمراجعات طبية بتوضح إن العدوى بالجرثومة عادةً بتبدأ في مرحلة الطفولة المبكرة، غالباً قبل سن الخامسة، والشخص اللي ما اتعرضش للعدوى في السنين الأولى ده فرصته يلتقطها بعد كده بتقل كتير. الجرثومة، لو اتلقطت وماتعالجتش، بتفضل موجودة لفترة طويلة، وده سبب تاني ليه ظروف السكن المزدحم أو مصادر المياه غير الموثوقة بتترافق أحياناً مع نسب إصابة أعلى داخل نفس الأسرة. المعلومة دي مش دعوة للتحليل الروتيني، لكنها بتفسر ليه بعض العائلات بتلاقي أكتر من فرد مصاب. [1, 4]\n\nعند الأطفال اللي عندهم علامات تشير فعلاً لقرحة (زي ألم يوقظ من النوم، أو قيء أو براز دموي)، أو تاريخ عائلي قوي، أو فقر دم بالحديد ما لوش تفسير تاني بعد استبعاد أسباب أخرى، الصورة بتختلف والتقييم بيتغير. المعلومة دي مش عشان تقلق كل أهل، لكن عشان توضح ليه بعض العلامات تستاهل مراجعة أقرب من غيرها. [1, 6]",
+            "en": "Caution about routine testing does not mean H. pylori is unimportant. In adults, chronic infection is linked to a higher risk of stomach and duodenal ulcers, and over the long term to a raised risk of stomach cancer in a proportion of those infected. This is part of why clinicians pay attention to a family history of ulcer disease or stomach cancer when assessing a child, even when the decision is not immediate testing. [6, 8]\n\nMedical reviews note that infection usually begins in early childhood, often before age five, and a person who avoids infection in those first years has a much lower chance of acquiring it later. Once acquired and left untreated, the bacterium tends to persist for a long time, which is part of why crowded living conditions or an unreliable water supply are sometimes associated with higher infection rates within the same household. This is not a call for routine testing, but it explains why some families find more than one member affected. [1, 4]\n\nIn children who have signs that genuinely suggest an ulcer (such as pain that wakes them from sleep, or blood in vomit or stool), a strong family history, or iron-deficiency anaemia with no other explanation after ruling out other causes, the picture differs and the assessment changes. This is not meant to worry every parent, but to explain why some signs deserve earlier review than others. [1, 6]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "treatment-in-broad-terms",
+          "heading": {
+            "ar": "العلاج لو تأكدت العدوى: خطوط عامة",
+            "en": "If infection is confirmed: broad principles of treatment"
+          },
+          "body": {
+            "ar": "لو التقييم أثبت عدوى نشطة وكان علاجها مناسباً لحالة طفلك، الطبيب يختار الخطة على حسب عمر الطفل، النتائج، الحساسية من أدوية معينة، والأدوية أو الأمراض الموجودة. ما فيش وصفة واحدة تنفع لكل الأطفال، وما ينفعش يتنقل علاج من طفل لطفل لمجرد إن الأعراض شبه بعض أو الجرعة سمعتها من حد تاني. [1, 2, 8]\n\nبعد أي خطة علاج، المتابعة بتجاوب سؤالين منفصلين: هل العدوى اتعالجت بالطريقة المناسبة؟ وهل الشكوى الأصلية اتحسنت أو لسه محتاجة تفسيراً تاني؟ ألم البطن ممكن يكون له أكتر من عامل، وعشان كده اختفاء العرض أو استمراره لوحده ما يثبتش النتيجة. الطبيب يرتب المتابعة اللي تناسب القصة والفحوص. [1, 2]",
+            "en": "When assessment confirms active infection and treatment is appropriate for your child's situation, the clinician chooses the plan according to the child's age, results, allergies to particular medicines, and current medicines or health conditions. There is no single course that suits every child, and one child's treatment should not be transferred to another merely because the symptoms sound similar or a dose was heard about from someone else. [1, 2, 8]\n\nAfter any treatment plan, follow-up addresses two separate questions: was the infection managed in the appropriate way, and has the original complaint improved or does it still need another explanation? Abdominal pain can have more than one contributor, so a symptom improving or continuing does not prove the answer on its own. The clinician arranges follow-up that fits the story and the investigations. [1, 2]"
+          },
+          "links": { "ar": [], "en": [] }
+        },
+        {
+          "id": "warning-signs",
+          "heading": {
+            "ar": "علامات إنذار تستاهل مراجعة أسرع",
+            "en": "Warning signs that deserve earlier review"
+          },
+          "body": {
+            "ar": "علامات معينة بتغير أولوية المراجعة بغض النظر عن الجرثومة: قيء دموي أو غامق، براز أسود أو دموي، ألم شديد مستمر أو ألم بيصحّي الطفل بالليل بانتظام، فقدان وزن غير مقصود أو توقف واضح في منحنى النمو، صعوبة أو ألم في البلع، وشحوب أو تعب غير مبرر. الأعراض دي ما تنفعش تتفسر في البيت على إنها جرثومة عادية أو حموضة عابرة. [1, 2, 4]\n\nقيء متكرر مع عدم القدرة على الاحتفاظ بالسوائل، إغماء، خمول غير معتاد، أو تدهور سريع يحتاجوا تقييماً عاجلاً وليس موعداً عادياً. لو فيه أي علامة من دي، اتصل بطبيب الطفل بدل ما تستنى الموعد المحجوز أو تجرب علاجاً منزلياً أولاً. [4]",
+            "en": "Certain signs change the priority of review regardless of H. pylori: vomiting blood or dark material, black or bloody stools, severe persistent pain or pain that regularly wakes the child at night, unintentional weight loss or a clear flattening of the growth curve, difficulty or pain swallowing, and unexplained pallor or fatigue. These signs should not be interpreted at home as an ordinary stomach bug or passing indigestion. [1, 2, 4]\n\nRepeated vomiting with inability to keep fluids down, fainting, unusual drowsiness or rapid deterioration need urgent assessment rather than a routine appointment. If any of these signs appear, contact the child's doctor rather than waiting for a booked appointment or trying a home remedy first. [4]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تقييماً عاجلاً",
+                "url": "../articles/child-vomiting-and-dehydration-warning-signs.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "urgent assessment",
+                "url": "../articles/child-vomiting-and-dehydration-warning-signs.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-to-see-doctor",
+          "heading": {
+            "ar": "إمتى تروح لدكتور، وإيه اللي تاخده معاك؟",
+            "en": "When to see a doctor, and what to bring"
+          },
+          "body": {
+            "ar": "احجز لطبيب أطفال لو وجع البطن بيتكرر أو مأثر على الأكل أو المدرسة أو النوم، أو لو معاه قيء، فقدان شهية، شحوب، تعب، أو تغيّر في الوزن أو النمو. خد سجل الأعراض بتوقيتاتها، أي تحاليل أو نتائج قديمة، وقائمة الأدوية والمكملات اللي الطفل بياخدها؛ التفاصيل دي بتخلي الزيارة أدق وتوفر وقتاً على الطبيب والأهل. [2, 3]\n\nاسأل في الزيارة: هل الوجع ده متوافق مع نمط وظيفي، ولا فيه علامة تستاهل تقييماً تانياً؟ وإذا كان فيه شك في الجرثومة، هل التحليل هيجاوب سؤالاً مفيداً في حالة طفلي تحديداً؟ الأسئلة دي أفضل من محاولة تشخيص الحالة من قايمة أعراض على الإنترنت، وأفضل من مقارنة حالة طفلك بتجربة قريب أو منشور على السوشيال ميديا. [1, 3]",
+            "en": "Arrange a paediatric consultation when abdominal pain recurs or affects eating, school or sleep, or occurs with vomiting, poor appetite, pallor, fatigue, or a change in weight or growth. Bring a symptom record with rough timings, any earlier test results, and a list of medicines and supplements the child takes; these details make the visit more precise and save time for both the doctor and the family. [2, 3]\n\nAsk at the visit: does this pain fit a functional pattern, or is there a sign that deserves further assessment? And if H. pylori is suspected, would testing answer a useful question in my child's specific situation? These questions are more useful than trying to diagnose the case from an online symptom list, or comparing your child's situation with a relative's experience or a social media post. [1, 3]"
+          },
+          "links": { "ar": [], "en": [] }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل كل ألم بطن متكرر عند الطفل يحتاج تحليل جرثومة المعدة؟",
+            "en": "Does every child with recurring abdominal pain need an H. pylori test?"
+          },
+          "a": {
+            "ar": "لأ. الإرشادات الحديثة بتنصح ضد التحليل كخطوة أولى في ألم البطن الوظيفي من غير علامات خطر؛ الطبيب يحدد هل التحليل هيجاوب سؤالاً مفيداً بعد معرفة نمط الألم والنمو والأعراض المصاحبة. [1, 2, 4]",
+            "en": "No. Current guidance advises against testing as a first step in functional abdominal pain without warning signs; the clinician decides whether testing will answer a useful question after understanding the pain pattern, growth and associated symptoms. [1, 2, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الانتفاخ وحده يثبت إن عند طفلي جرثومة؟",
+            "en": "Does bloating alone prove that my child has H. pylori?"
+          },
+          "a": {
+            "ar": "لأ. الانتفاخ شائع وله أسباب كثيرة، وما يثبتش عدوى محددة من غير تقييم واختبار مناسب عند الحاجة. [2, 3]",
+            "en": "No. Bloating is common and has many causes; it cannot establish a particular infection without assessment and suitable testing when needed. [2, 3]"
+          }
+        },
+        {
+          "q": {
+            "ar": "لو النتيجة إيجابية، هل هي أكيد سبب كل شكوى؟",
+            "en": "If a result is positive, is it definitely the cause of every symptom?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. الطبيب يربط النتيجة بسبب طلب الفحص والأعراض وباقي التقييم قبل ما يحدد الخطوة التالية، لأن ألم البطن ممكن يكون له أكتر من سبب في نفس الوقت. [1, 2]",
+            "en": "Not necessarily. The clinician connects the result with the reason for testing, the symptoms and the rest of the assessment before choosing what comes next, because abdominal pain can have more than one cause at the same time. [1, 2]"
+          }
+        },
+        {
+          "q": {
+            "ar": "طالما مش كل حالة تحتاج تحليلاً، يبقى الجرثومة مش خطيرة؟",
+            "en": "If not every case needs testing, does that mean H. pylori is not serious?"
+          },
+          "a": {
+            "ar": "الحذر من التحليل الروتيني بيعكس إن علاج الجرثومة نادراً ما بيحسن ألم البطن الوظيفي، مش إنها غير مهمة على الإطلاق؛ العدوى المزمنة مرتبطة بخطر قرحة وعلى المدى البعيد بخطر سرطان المعدة عند نسبة من المصابين، وده سبب أهمية تقييم علامات الإنذار والتاريخ العائلي. [1, 6, 8]",
+            "en": "Caution about routine testing reflects that treating H. pylori rarely improves functional abdominal pain, not that it is unimportant altogether; chronic infection is linked to ulcer risk and, over the long term, stomach cancer risk in a proportion of those infected, which is why warning signs and family history are assessed carefully. [1, 6, 8]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "ESPGHAN/NASPGHAN — Updated joint guidelines for management of Helicobacter pylori infection in children and adolescents (2024)",
+          "url": "https://www.espghan.org/knowledge-center/publications/Gastroenterology/2023-joint-ESPGHAN-NASPGHAN-guidelines-for-management-of-Helicobacter-pylori-infection-in-children-and-adolescents"
+        },
+        {
+          "label": "Egyptian Health Council — Diagnosis and treatment of H. pylori related diseases in children and adolescents: Recommendations",
+          "url": "https://lms.ehc.gov.eg/lms/mod/book/view.php?id=723&chapterid=4969"
+        },
+        {
+          "label": "American Academy of Pediatrics (HealthyChildren.org) — Helicobacter Pylori (H. Pylori) Infections",
+          "url": "https://www.healthychildren.org/English/health-issues/conditions/abdominal/pages/Helicobacter-Pylori-Infections.aspx"
+        },
+        {
+          "label": "Seo et al. — Diagnosis of Helicobacter pylori Infection in Children and Adolescents (PMC, 2018)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6182473/"
+        },
+        {
+          "label": "Thapar et al. — Paediatric functional abdominal pain disorders, Nature Reviews Disease Primers (2020)",
+          "url": "https://www.nature.com/articles/s41572-020-00222-5"
+        },
+        {
+          "label": "National Cancer Institute — Helicobacter pylori (H. pylori) and Cancer",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents/h-pylori-fact-sheet"
+        },
+        {
+          "label": "StatPearls (NIH Bookshelf) — Helicobacter Pylori",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK534233/"
+        },
+        {
+          "label": "American College of Gastroenterology — About Helicobacter pylori Infection (patient infographic)",
+          "url": "https://webfiles.gi.org/links/patients/ACG_H_pylori_Patient_Infographic_FINAL_2025.pdf"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "جرثومة المعدة عند الأطفال",
+          "en": "H. pylori in children"
+        },
+        "description": {
+          "ar": "وجع البطن المتكرر عند الطفل مش معناه تلقائياً جرثومة المعدة.",
+          "en": "Recurring tummy pain does not automatically mean a child has H."
+        }
+      }
+    }
+  ]
+}
