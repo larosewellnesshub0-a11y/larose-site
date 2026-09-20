@@ -28,6 +28,7 @@ const PUBLIC = new Set([
 PUBLIC.add("articles-food-intolerance-allergy-rewrite-2026-09-18.json");
 PUBLIC.add("articles-low-ferritin-normal-cbc-rewrite-2026-09-18.json");
 PUBLIC.add("articles-gallstones-symptoms-surgery-rewrite-2026-09-18.json");
+PUBLIC.add("articles-silent-gallstones-rewrite-2026-09-20.json");
 
 /* Must never reach the published tree. Anything starting with "_" is private
    by convention too (content/_submissions.json, content/_private/). */

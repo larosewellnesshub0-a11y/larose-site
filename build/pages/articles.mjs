@@ -47,6 +47,14 @@ const COPY = {
     ar: "كل مادة منشورة بتوضح تاريخ النشر، والكاتب والمراجع المذكورين في السجل لو موجودين، والمصادر الطبية المرتبطة بها. تقدر تفتح سجل النشر والمراجعة داخل كل مادة لمعرفة البيانات المسجلة من غير ما نخمن تاريخ تحديث غير موثق.",
     en: "Every published entry identifies its publication date, listed author and reviewer where available, and linked medical sources. Each full entry includes a publication record so readers can see recorded information without us guessing an unrecorded update date.",
   },
+  /* The Knowledge Centre is written for an Egyptian Arabic audience first;
+     English pages are a translated rendering of that Arabic original. This
+     note is a plain translation disclosure, not a credential claim about a
+     named reviewer, since bylines here are provisional pending clinic
+     confirmation (see AGENTS.md). Keep the wording that way. */
+  translationNotice: {
+    en: "This is an English translation of the original Arabic article, which is the primary reference version. It has been checked against the Arabic original for medical accuracy.",
+  },
   answerBy: { ar: "الإجابة من", en: "Answered by" },
   writtenBy: { ar: "كتبه", en: "Written by" },
   related: { ar: "محتوى ممكن يهمك", en: "You may also find helpful" },
@@ -1194,6 +1202,7 @@ function detailPage({ c, locale, categories, entries, entry }) {
       ${when(reviewedBySet, `<p class="u-sm u-muted" style="margin-top:.75rem">${esc(t(c.site.ui.reviewedBy, locale))}: ${reviewer
         ? `<a href="${esc(link(depth, `doctors/${t(reviewer.slug, "en")}.html`))}">${esc(reviewedBy)}</a>`
         : esc(reviewedBy)}</p>`)}
+      ${when(locale === "en", `<p class="u-sm u-muted" style="margin-top:.5rem">${esc(t(COPY.translationNotice, "en"))}</p>`)}
     </div>
   </div>
 </section>
