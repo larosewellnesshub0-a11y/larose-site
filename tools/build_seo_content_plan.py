@@ -54,6 +54,7 @@ ARTICLE_FILES = (
     "articles-childrens-appetite-rewrite-2026-09-21.json",
     "articles-protecting-muscle-while-losing-weight-rewrite-2026-09-21.json",
     "articles-vitamin-b12-plant-based-rewrite-2026-09-21.json",
+    "articles-glp1-medication-guide-rewrite-2026-09-21.json",
     "articles-dark-neck-rewrite-2026-09-14.json",
     "articles-dark-neck-pregnancy-rewrite-2026-09-16.json",
     "articles-h-pylori-bloating-rewrite-2026-09-16.json",
