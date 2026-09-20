@@ -192,6 +192,20 @@ Eleventh locked URL, selected via fresh `node tools/audit-article-standards.mjs`
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-insulin-resistance-children-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 21 September 2026 — childrens-appetite
+
+Twelfth locked URL, selected via fresh `node tools/audit-article-standards.mjs` cross-referenced against real GSC impressions (7, tied-highest among not-yet-completed candidates; already an inbound link target from the previous article, `insulin-resistance-in-children`).
+
+- No existing registered rewrite (checked `build/lib/util.mjs` first). This was already an unusually well-written article — kept all of its existing content in full and expanded from 6 sections/1 source/no citations to 6 sections/4 FAQ/5 sources/~1,052 EN body words (~1,307 total).
+- 4 new sources verified live in Chrome, alongside the existing WHO complementary-feeding guideline: Goday et al. 2019 Pediatric Feeding Disorder consensus definition (PMC6314510/PMID 30358739) — gave the real clinical line separating ordinary picky eating from a feeding disorder (impaired intake ≥2 weeks, meals regularly >30 minutes, permanent texture modification); the Ellyn Satter Institute's Division of Responsibility in Feeding (matches the article's existing "you provide food/time/place, the child decides how much/whether" framing exactly — confirmed this is literally Satter's named, citable model, not just good original advice); AAP HealthyChildren.org's picky-eating page (real data point: a food may need 10+ exposures before acceptance); CDC Growth Charts (reused).
+- Added real, non-filler content the site didn't have: the 2-week/30-minute Pediatric Feeding Disorder threshold, the explicit four-part Satter division-of-responsibility breakdown (what/when/where vs. how-much/whether), food-neophobia's typical age range (2 to school age), sensory/texture sensitivity as a real difference rather than stubbornness, and when anaemia testing is and is not routine for a selective eater.
+- 4 editorial internal links (child-nutrition-growth-visit, responsive-complementary-feeding, iron-rich-foods-for-children, and a reciprocal link to insulin-resistance-in-children, article #11, which already links here) — **all 4 rendered correctly on the first build**, no exact-substring-match or `validUrl()` failures this time.
+- `date` preserved (2026-09-05), `updatedAt` set to 2026-09-21.
+- Gates: build (490 pages), validate (0/0), audit (94 findings, 0 blocking, em-dash count 90), Arabic voice (PASS, no fix needed). All 5 citation anchors covered.
+- Deployment and live verification: pushed to `main` (commit `e7513b3`), deployed, live-verified: both locales serving the new content, all 5 citation anchors resolve, hreflang `<link rel="alternate">` trio correct (ar/en/x-default), all 4 internal links render in both locales, EN translation notice present, dateModified correct.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-childrens-appetite-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
