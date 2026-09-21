@@ -316,6 +316,21 @@ Eighteenth locked URL. `hernia-after-pregnancy-or-c-section` (5 impressions, the
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-muscle-assessment-nutrition-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 21 September 2026 — body-contouring-safety-first
+
+Nineteenth locked URL, selected via fresh `node tools/audit-article-standards.mjs` cross-referenced against real GSC impressions (3, highest among candidates outside the flagged dermatology/general-surgery/bariatric-surgery categories).
+
+- **Checked the reviewer-attribution question before writing, given the two active defect findings above:** `category: "body-contouring"` is genuinely staffed — Dr Shimaa Fouad's own `doctors.json` entry lists `body-contouring` as a specialty — so unlike the dermatology/surgery cases, a real qualified clinician exists for this category. This specific article's `reviewedBy` is `mohab-ashraf` (internal medicine) rather than Shimaa, which is a narrower, more defensible edge case (general medical safety/contraindication review) than "no qualified clinician exists at all," and was not treated as blocking.
+- No existing registered rewrite (checked `build/lib/util.mjs` first). Short `update`-type piece (3 sections, 1 source, no citations, ~510 total words). Expanded to 4 sections/4 FAQ/5 sources/~1,072 total words.
+- 4 new sources verified live in Chrome, alongside the existing FDA non-invasive body-contouring page: Mazzoni et al. 2019 review of the five FDA-cleared modalities — cryolipolysis, laser, HIFEM, radiofrequency, HIFU (PubMed 31168833); Mah et al. 2025 systematic review and meta-analysis of paradoxical adipose hyperplasia after cryolipolysis (PMC12662051/PMID 41322038) — real pooled incidence (0.22%, ~1 in 455 sessions, higher than manufacturer-reported figures), onset timing (2–4 months post-treatment), and the fact it typically requires surgical correction rather than resolving on its own; Lim et al. 2023 FDA MAUDE adverse-event database analysis (PubMed 35916105) — real device-report patterns (paradoxical adipose hyperplasia most common for cooling devices, burns most common for muscle-stimulation devices); NICE NG246 (reused) for the "contouring sits outside the weight-management pathway" framing.
+- Added real, non-filler content the site didn't have: the specific complication name and quantified incidence for cryolipolysis, the FDA device-report adverse-event breakdown by modality, realistic result-timeline expectations (gradual over weeks, often multiple sessions), named contraindications by modality (pregnancy, cold-related blood disorders, pacemakers), and provider-training as a distinct safety factor from device clearance.
+- 1 editorial internal link (body-composition-not-scale) — initially failed to render in both locales because the link was placed on the wrong section (the label text existed in a different paragraph than the one carrying the `links` field, a new variant of the exact-substring-match gotcha — the label can be textually correct yet still fail if attached to the wrong section object). Fixed by moving the `links` field to the section whose body actually contains the phrase, then reverified.
+- `date` preserved (2026-08-31), `updatedAt` set to 2026-09-21.
+- Gates: build (490 pages), validate (0/0), audit (103 findings, 0 blocking, em-dash count 99), Arabic voice (PASS, no fix needed). All 5 citation anchors covered.
+- Deployment and live verification: pushed to `main` (commit `8664165`), deployed, live-verified: both locales serving the new content, all 5 citation anchors resolve, hreflang `<link rel="alternate">` trio correct (ar/en/x-default), the internal link renders in both locales, EN translation notice present, dateModified correct.
+- No Search Console indexing request submitted.
+- Files changed: `content/articles-body-contouring-safety-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
