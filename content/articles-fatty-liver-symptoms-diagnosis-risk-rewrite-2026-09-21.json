@@ -1,0 +1,183 @@
+{
+  "articles": [
+    {
+      "slug": "fatty-liver-symptoms-diagnosis-risk",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "internal-medicine",
+        "clinical-nutrition",
+        "ultrasound"
+      ],
+      "date": "2026-09-10",
+      "updatedAt": "2026-09-21",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/fatty-liver-ultrasound.webp",
+      "title": {
+        "ar": "الكبد الدهني: الأعراض والتشخيص وإمتى يبقى خطر؟",
+        "en": "Fatty liver: symptoms, diagnosis and when it becomes serious"
+      },
+      "excerpt": {
+        "ar": "دهون الكبد غالباً ما تعملش أعراضاً واضحة. الأهم مش وجود الدهون وحده، لكن هل فيه التهاب أو تليف وعوامل خطر محتاجة متابعة منظمة.",
+        "en": "Fatty liver often causes no clear symptoms. The key question is not simply whether fat is present, but whether inflammation, scarring or metabolic risks need structured follow-up."
+      },
+      "sections": [
+        {
+          "id": "often-silent",
+          "heading": {
+            "ar": "ممكن يكون موجوداً من غير وجع",
+            "en": "It can be present without pain"
+          },
+          "body": {
+            "ar": "ناس كتير يكتشفوا دهون الكبد صدفة في سونار أو تحاليل اتعملت لسبب تاني. غالباً ما يكونش فيه أي عرض، وأحياناً يظهر تعب أو إحساس غير محدد في أعلى يمين البطن، لكن الأعراض دي مش خاصة بالكبد وما تكفيش للتشخيص [3, 5]. غياب الوجع كمان ما يقولش إن درجة التليف صفر.\n\nالاسم الحديث يربط الحالة غالباً بعوامل التمثيل الغذائي زي زيادة الدهون حول الوسط، اضطراب السكر أو دهون الدم والضغط. لكن وجود عامل خطر مش تشخيصاً، ووجود دهون في السونار محتاج مراجعة أسباب تانية زي بعض الأدوية، مثل الكورتيزون أو هرمونات الإستروجين، وتاريخ الكحول والحالة الصحية، من غير لوم أو افتراض إن السبب الأكل وحده [3].",
+            "en": "Many people discover fatty liver incidentally on an ultrasound or blood tests requested for another reason. There is often no symptom at all. Fatigue or vague discomfort in the upper right abdomen can occur, but these are not specific to the liver and cannot establish a diagnosis [3, 5]. Absence of pain also does not show that there is no scarring.\n\nCurrent terminology often connects the condition with metabolic factors such as central adiposity, altered glucose, abnormal blood lipids and blood pressure. A risk factor is not a diagnosis, however, and fat reported on ultrasound still requires review of other causes, including some medicines such as corticosteroids or oestrogen-containing treatments, alcohol exposure and general health, without blame or an assumption that food is the only explanation [3]."
+          },
+          "links": {
+            "ar": [{ "label": "دهون الدم", "url": "../articles/high-cholesterol-results-and-next-steps" }],
+            "en": [{ "label": "abnormal blood lipids", "url": "../articles/high-cholesterol-results-and-next-steps" }]
+          }
+        },
+        {
+          "id": "how-diagnosis-starts",
+          "heading": {
+            "ar": "التشخيص يجمع التاريخ والتحاليل والتصوير",
+            "en": "Diagnosis combines history, blood tests and imaging"
+          },
+          "body": {
+            "ar": "السونار ممكن يوضح تغيراً يتماشى مع تراكم الدهون، لكنه ما يقيسش الالتهاب ولا يحدد التليف بدقة في كل حالة [1]. تحاليل إنزيمات الكبد تضيف معلومة عن إصابة الخلايا، لكن ممكن تكون قريبة من الطبيعي مع وجود المرض. عشان كده ورقة سونار أو إنزيم منفرد ما يكملوش الصورة.\n\nالطبيب يراجع التاريخ والفحص وتحاليل الكبد والسكر والدهون والصفائح ومؤشرات أخرى حسب الحالة. ممكن يستخدم نتائج تحاليل عادية في درجة حسابية زي FIB-4 أو APRI لتقدير احتمال التليف [1]، وبعدها يختار فحصاً لمرونة الكبد أو تصويراً إضافياً لو له داعي. عينة الكبد هي الفحص الوحيد اللي يقدر يثبت التشخيص بدقة، لكنها مش مطلوبة لكل شخص؛ مكانها يتحدد لما الأسئلة الأهم ما تتجاوبش بوسائل أبسط [1].",
+            "en": "Ultrasound can show changes consistent with fat accumulation, but it cannot measure inflammation or define fibrosis accurately in every case [1]. Liver-enzyme tests add information about cell injury, yet results may be close to normal while disease is present. One ultrasound phrase or enzyme value therefore cannot complete the picture.\n\nThe clinician reviews history, examination, liver tests, glucose, blood lipids, platelets and other markers according to the case. Routine results can be combined in a score such as FIB-4 or APRI to estimate the likelihood of fibrosis [1], followed by a liver-stiffness test or other imaging when useful. A liver biopsy is the only test that can confirm the diagnosis precisely, but it is not needed for everyone; it is reserved for situations where important questions remain after less invasive assessment [1]."
+          },
+          "links": {
+            "ar": [{ "label": "إنزيمات الكبد", "url": "../articles/liver-function-tests-need-context" }],
+            "en": [{ "label": "Liver-enzyme tests", "url": "../articles/liver-function-tests-need-context" }]
+          }
+        },
+        {
+          "id": "what-makes-it-serious",
+          "heading": {
+            "ar": "درجة التليف أهم من كلمة «دهون» وحدها",
+            "en": "Fibrosis matters more than the word “fat” alone"
+          },
+          "body": {
+            "ar": "الكبد الدهني مش درجة واحدة. عند بعض الناس يفضل تراكم الدهون من غير إصابة متقدمة، وعند ناس تانية يحصل التهاب وندبات تتطور مع الوقت. التليف المتقدم هو اللي يرفع القلق من مضاعفات الكبد، لذلك تقييم احتماله أهم من محاولة معرفة نسبة الدهون من وصف السونار وحده [1].\n\nالسكر، بعض أنماط زيادة الوزن، ضغط ودهون دم غير مضبوطين، والعمر أو أمراض مصاحبة زي متلازمة تكيس المبايض أو انقطاع النفس الانسدادي أثناء النوم أو قصور الغدة الدرقية ممكن يرفعوا الحاجة لتقييم أدق [5]، لكنهم ما يحكمواش وحدهم إن التليف موجود. المتابعة تعتمد على مستوى الخطر ونتائج الفحوص، ومواعيدها يحددها الطبيب. التحسن في إنزيم واحد ما يثبتش وحده إن الندبات اختفت.",
+            "en": "Fatty liver is not one uniform stage. In some people, fat accumulation remains without advanced injury; in others, inflammation and scar tissue develop over time. Advanced fibrosis drives much of the concern about liver complications, so estimating its likelihood matters more than trying to infer a fat percentage from the wording of an ultrasound report [1].\n\nDiabetes, some patterns of excess weight, poorly controlled blood pressure or lipids, age and associated conditions such as polycystic ovary syndrome, obstructive sleep apnea or an underactive thyroid can increase the need for closer assessment [5], but none proves that fibrosis is present. Follow-up depends on the risk level and test results, with timing set by the clinician. Improvement in one enzyme value does not on its own prove that scarring has disappeared."
+          },
+          "links": {
+            "ar": [{ "label": "التليف", "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment" }],
+            "en": [{ "label": "fibrosis", "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment" }]
+          }
+        },
+        {
+          "id": "care-plan",
+          "heading": {
+            "ar": "الخطة تعالج الكبد والصحة اللي حواليه",
+            "en": "Care addresses the liver and the health around it"
+          },
+          "body": {
+            "ar": "الخطة عادة تربط التغذية والحركة وإدارة الوزن بعوامل السكر والضغط ودهون الدم والنوم، حسب احتياج كل حالة، وهو النهج اللي توصي بيه إرشادات المتابعة الأوروبية كخط أول قبل أي علاج تاني [2]. خسارة حوالي 3 إلى 5% من الوزن ممكن تقلل دهون الكبد، وخسارة توصل لـ7 إلى 10% ممكن تحسن الالتهاب والتليف، لكن الأفضل إنها تكون تدريجية لأن فقدان الوزن السريع ممكن يزود الضرر [4]. الهدف مش «تنضيف الكبد» بمشروب أو مكمل، لكن تقليل العوامل اللي تضغط عليه ومتابعة العلامات المهمة. أي علاج طبي يتحدد بعد معرفة درجة الخطر والأمراض والأدوية الأخرى.\n\nمكمل مكتوب عليه «ديتوكس» ما يثبتش إنه آمن للكبد [4]، وبعض المنتجات ممكن تكون جزءاً من المشكلة. الطبيب يحتاج يعرف كل الأعشاب والمكملات والأدوية المستخدمة عشان يراجع الضرر والتداخلات المحتملة. الخطة الواقعية تبني عادات قابلة للمتابعة وتراجع النتائج، من غير وعد بإخفاء الدهون أو التليف في مدة معينة.",
+            "en": "Care commonly connects nutrition, movement and weight management with glucose, blood pressure, blood lipids and sleep according to individual need, the approach European clinical practice guidelines recommend as first-line management before any other treatment [2]. Losing around 3% to 5% of body weight can reduce fat in the liver, and losing 7% to 10% can improve inflammation and fibrosis, although weight loss is best kept gradual, since rapid weight loss can worsen liver injury [4]. The aim is not to “cleanse” the liver with a drink or supplement, but to reduce pressures on it and monitor meaningful markers. Any medical treatment is selected only after risk, other conditions and existing medicines are understood.\n\nA product labelled “detox” is not proved safe for the liver [4], and some products can contribute to injury. The clinician needs a complete list of herbs, supplements and medicines in order to review possible harm and interactions. A realistic plan builds actions that can be followed and checks the response, without promising that fat or fibrosis will disappear within a set period."
+          },
+          "links": {
+            "ar": [{ "label": "الضغط", "url": "../articles/blood-pressure-needs-a-pattern" }],
+            "en": [{ "label": "blood pressure", "url": "../articles/blood-pressure-needs-a-pattern" }]
+          }
+        },
+        {
+          "id": "when-to-see-doctor",
+          "heading": {
+            "ar": "إمتى تروح لدكتور؟",
+            "en": "When to see a doctor"
+          },
+          "body": {
+            "ar": "احجز لو تقرير السونار ذكر دهون كبد لأول مرة، إنزيمات الكبد متغيرة، أو عندك سكر أو ضغط أو دهون دم أو زيادة حول الوسط. خد التقارير والصور لو موجودة، التحاليل القديمة وقائمة كل الأدوية والمكملات. الزيارة تحدد هل المطلوب تأكيد السبب، تقدير التليف أو متابعة فقط.\n\nاصفرار العين، بول غامق مع براز فاتح، تورم البطن أو الرجلين، قيء دموي، براز أسود، تشوش أو نعاس غير معتاد، وإغماء أو ألم شديد يحتاجوا تقييماً عاجلاً حسب شدتهم [5]. العلامات دي ما ينفعش تستنى موعد تغذية أو إعادة سونار روتينية. الطبيب يقيّم الحالة الحالية حتى لو تقرير قديم كان مطمئناً.",
+            "en": "Arrange a consultation when an ultrasound first reports fatty liver, liver enzymes have changed, or diabetes, blood pressure, abnormal lipids or central weight are present. Bring reports and images when available, previous blood results and a complete medicine and supplement list. The visit establishes whether the cause needs confirmation, fibrosis assessment or monitoring alone.\n\nYellow eyes, dark urine with pale stools, swelling of the abdomen or legs, vomiting blood, black stools, confusion or unusual drowsiness, fainting or severe pain require urgent assessment according to severity [5]. These signs should not wait for a nutrition appointment or a routine repeat ultrasound. A clinician assesses the current condition even if an older report was reassuring."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل إنزيمات الكبد الطبيعية تستبعد الكبد الدهني؟",
+            "en": "Do normal liver enzymes rule out fatty liver?"
+          },
+          "a": {
+            "ar": "لأ. الإنزيمات جزء من التقييم، وممكن تكون قريبة من الطبيعي مع وجود دهون أو تليف. الطبيب يجمعها مع باقي الصورة [1].",
+            "en": "No. Enzymes are one part of assessment and may be close to normal despite fat or fibrosis. The clinician combines them with the rest of the picture [1]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل السونار يحدد درجة تليف الكبد؟",
+            "en": "Can a routine ultrasound grade liver fibrosis?"
+          },
+          "a": {
+            "ar": "السونار العادي ممكن يظهر علامات متقدمة، لكنه مش كافياً لقياس التليف بدقة. الطبيب يختار درجات حسابية زي FIB-4 أو فحص مرونة عند الحاجة [1].",
+            "en": "Routine ultrasound may show advanced features but cannot measure fibrosis accurately. A clinician may select blood-based scores such as FIB-4 or a stiffness test when needed [1]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أي تعب أو وجع يمين سببه الكبد الدهني؟",
+            "en": "Is every episode of fatigue or right-sided discomfort caused by fatty liver?"
+          },
+          "a": {
+            "ar": "لأ. الأعراض دي لها أسباب كتير ومش خاصة بالكبد. التشخيص يحتاج تاريخاً وكشفاً وفحوصات مناسبة، مش العرض وحده [3, 5].",
+            "en": "No. These symptoms have many causes and are not specific to the liver. Diagnosis requires a history, examination and appropriate tests, not the symptom alone [3, 5]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK، Diagnosis of Fatty Liver Disease",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"
+        },
+        {
+          "label": "EASL–EASD–EASO، Clinical Practice Guidelines on MASLD",
+          "url": "https://easl.eu/publication/easl-easd-easo-clinical-practice-guidelines-managment-of-metabolic-dysfunction-associated-steatotic-liver-disease/"
+        },
+        {
+          "label": "NIDDK، Symptoms and Causes of NAFLD",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/symptoms-causes"
+        },
+        {
+          "label": "NIDDK، Treatment for NAFLD",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment"
+        },
+        {
+          "label": "Mayo Clinic، Fatty Liver Disease (MASLD)",
+          "url": "https://www.mayoclinic.org/diseases-conditions/fatty-liver-disease-masld/symptoms-causes/syc-20354567"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "الكبد الدهني",
+          "أعراض الكبد الدهني",
+          "تليف الكبد",
+          "سونار الكبد"
+        ],
+        "en": [
+          "fatty liver",
+          "fatty liver symptoms",
+          "liver fibrosis",
+          "liver ultrasound"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "الكبد الدهني: أعراض وتشخيص وخطورة",
+          "en": "Fatty liver: symptoms and risk"
+        },
+        "description": {
+          "ar": "دهون الكبد غالباً ما تعملش أعراضاً واضحة. ناس كتير يكتشفوا دهون الكبد صدفة في سونار أو تحاليل اتعملت لسبب تاني.",
+          "en": "Fatty liver often causes no clear symptoms. Many people discover fatty liver incidentally on an ultrasound or blood tests requested for another reason."
+        }
+      }
+    }
+  ],
+  "_note": "Long-form expansion of fatty-liver-symptoms-diagnosis-risk. Preserves the existing 5-section structure and Egyptian-voice prose in full; adds 3 verified sources (NIDDK Symptoms & Causes, NIDDK Treatment, Mayo Clinic MASLD overview) beyond the original 2 (NIDDK Diagnosis, EASL-EASD-EASO guidelines), weaves inline citations and a few sourced clauses (FIB-4/APRI scoring, 3-5%/7-10% weight-loss targets, additional risk factors, cirrhosis red-flag symptoms) into claims already made in the text, corrects reviewedBy to the clinician whose specialties actually include gastroenterology-hepatology, and adds internal links."
+}

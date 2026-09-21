@@ -68,6 +68,7 @@ ARTICLE_FILES = (
     "articles-cellulite-realistic-options-and-limits-rewrite-2026-09-21.json",
     "articles-body-contouring-vs-weight-loss-rewrite-2026-09-21.json",
     "articles-high-cholesterol-results-and-next-steps-rewrite-2026-09-21.json",
+    "articles-fatty-liver-symptoms-diagnosis-risk-rewrite-2026-09-21.json",
     "articles-dark-neck-rewrite-2026-09-14.json",
     "articles-dark-neck-pregnancy-rewrite-2026-09-16.json",
     "articles-h-pylori-bloating-rewrite-2026-09-16.json",
