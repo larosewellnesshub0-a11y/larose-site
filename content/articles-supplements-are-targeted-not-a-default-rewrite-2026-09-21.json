@@ -1,0 +1,170 @@
+{
+  "_note": "Rewrite of the supplements-are-targeted-not-a-default scientific update (article #30 in the whole-site rewrite programme). Expanded from 2 sections/1 source/1 FAQ to 4 sections/5 sources/3 FAQ. reviewedBy corrected from mohab-ashraf (internal-medicine, gastroenterology-hepatology, ultrasound; no clinical-nutrition) to shimaa-fouad, the author, who carries clinical-nutrition in doctors.json. All 5 sources verified live in Chrome 2026-09-21 (curl returned false-positive 403/404s from NIH/FDA bot protection; pages load fine in-browser). Original date preserved, updatedAt set to the rewrite date.",
+  "articles": [
+  {
+  "slug": "supplements-are-targeted-not-a-default",
+  "title": {
+    "ar": "تحديث علمي: المكملات تتاخد لسبب واضح، مش كروتين للجميع",
+    "en": "Scientific update: supplements should answer a clear need, not become a default"
+  },
+  "excerpt": {
+    "ar": "المكمل ممكن يسد احتياجاً محدداً، لكنه ما يعوضش تنوع الأكل، ووجوده للبيع مش دليل إنه مناسب لكل شخص.",
+    "en": "A supplement can meet a specific need, but it cannot replace dietary variety, and being on sale does not make it suitable for everyone."
+  },
+  "category": "clinical-nutrition",
+  "specialties": [
+    "clinical-nutrition",
+    "internal-medicine"
+  ],
+  "tags": {
+    "ar": [
+      "المكملات الغذائية",
+      "نقص العناصر",
+      "سلامة التغذية",
+      "دكتور تغذية علاجية"
+    ],
+    "en": [
+      "dietary supplements",
+      "nutrient deficiency",
+      "nutrition safety",
+      "clinical nutrition"
+    ]
+  },
+  "type": "update",
+  "date": "2026-08-26",
+  "updatedAt": "2026-09-21",
+  "readingTime": 7,
+  "author": "shimaa-fouad",
+  "reviewedBy": "shimaa-fouad",
+  "image": "assets/img/articles/supplements-are-targeted-not-a-default.webp",
+  "featured": false,
+  "published": true,
+  "sections": [
+    {
+      "id": "what-settled",
+      "heading": {
+        "ar": "إيه اللي استقر؟",
+        "en": "What has settled"
+      },
+      "body": {
+        "ar": "مكتب المكملات الغذائية في المعاهد الصحية الأمريكية واضح: بعض المكملات تساعد لما الأكل ما يغطيش احتياجاً معيناً أو في مرحلة صحية لها احتياج خاص، لكنها ما تاخدش مكان تنوع الأكل [1]. وكلمة «طبيعي» أو وجود المنتج على الرف ما يثبتوش إنه مفيد أو مناسب ليك، فبعض الأعشاب الـ«طبيعية» زي الكافا أثبتت إنها ممكن تضر الكبد [2].\n\nكمان، هيئة الغذاء والدواء الأمريكية ما بتراجعش سلامة أو فاعلية المكمل قبل ما يتباع؛ المصنّع هو المسؤول عن إثبات إن المنتج آمن وإن الادعاءات على العبوة صحيحة [3]. القرار الأفضل يبدأ من سبب الاستخدام، أكلك، أعراضك، أدويتك، وأي تحليل له داعي. التعب أو تساقط الشعر مثلاً لهم أسباب كتير، فبدء مجموعة مكملات عشوائية ممكن يضيّع وقت التشخيص أو يتداخل مع علاج أو تحليل.",
+        "en": "The US National Institutes of Health Office of Dietary Supplements is clear: supplements can help when food does not cover a particular need or a life stage creates a specific requirement, but they do not replace dietary variety [1]. A product being labelled ‘natural’ or simply being available does not prove that it will help or suit you: some ‘natural’ herbs, such as kava, have been shown to harm the liver [2].\n\nThe US Food and Drug Administration also does not review a supplement’s safety or effectiveness before it reaches the market; the manufacturer is responsible for showing the product is safe and that its label claims are accurate [3]. A better decision starts with the reason for use, your diet, symptoms, medicines and any test that is actually indicated. Fatigue or hair loss, for example, has many possible causes. Starting a collection of supplements at random can delay diagnosis or interfere with a treatment or test."
+      },
+      "links": {
+        "ar": [
+          { "label": "تساقط الشعر", "url": "../articles/hair-loss-blood-tests-first" }
+        ],
+        "en": [
+          { "label": "hair loss", "url": "../articles/hair-loss-blood-tests-first" }
+        ]
+      }
+    },
+    {
+      "id": "when-a-deficiency-is-real",
+      "heading": {
+        "ar": "امتى النقص بيبقى حقيقي؟",
+        "en": "When is a deficiency real?"
+      },
+      "body": {
+        "ar": "الحديد وفيتامين D مثالين كويسين: النقص فيهم بيتأكد بتحليل دم، مش بحدس أو حسب الأعراض بس. مستوى فيتامين D في الدم لازم يكون فوق ٥٠ نانومول/لتر (٢٠ نانوجرام/مل) عشان يبقى كافي للعظم والصحة العامة، وأقل من ٣٠ نانومول/لتر (١٢ نانوجرام/مل) يعتبر نقص فعلي [5]. أما نقص الحديد فبيتطور تدريجي: الجسم بيستهلك مخزونه الأول، وبعدين تظهر أعراض زي التعب والدوخة وضعف التركيز لما المخزون يخلص [4].\n\nلو مافيش تحليل يثبت النقص، أخد جرعة عالية من غير داعي ممكن يعمل ضرر بدل ما يفيد: زيادة فيتامين D ممكن تسبب غثيان وحصوات كلى، وزيادة الحديد ممكن تسبب اضطراب معدي أو تضر الكبد. وفي حالات نادرة زي داء ترسب الأصبغة الدموية، مكملات الحديد ممنوعة أساساً [4, 5].",
+        "en": "Iron and vitamin D are good examples: a deficiency in either is confirmed by a blood test, not guessed from symptoms alone. A blood level of vitamin D needs to be above 50 nmol/L (20 ng/mL) to be adequate for bone and overall health, and below 30 nmol/L (12 ng/mL) counts as a real deficiency [5]. Iron deficiency develops gradually: the body uses its stored iron first, and symptoms such as fatigue, dizziness and poor concentration appear only once that store runs out [4].\n\nWithout a test confirming the deficiency, taking a high dose without reason can cause harm rather than help: too much vitamin D can cause nausea and kidney stones, and too much iron can upset the stomach or harm the liver. In rare cases, such as hereditary hemochromatosis, iron supplements are not safe to take at all [4, 5]."
+      }
+    },
+    {
+      "id": "practical-check",
+      "heading": {
+        "ar": "حوّل العبوات لقائمة مفهومة",
+        "en": "Turn the bottles into a useful list"
+      },
+      "body": {
+        "ar": "صوّر اسم كل منتج ومكوناته وجرعته، واكتب ليه بدأته ومين نصحك بيه. خد القائمة للطبيب أو أخصائي التغذية، خصوصاً لو بتاخد أدوية أو عندك مرض مزمن أو داخل على تحليل أو إجراء. ما توقفش مكمل موصوف لحالة معروفة من نفسك.\n\nالمكملات ممكن كمان تتعارض مع أدوية بتاخدها: الحديد مثلاً بيقلل امتصاص أدوية الغدة الدرقية زي الليفوثيروكسين، وفيتامين D بجرعات عالية ممكن يقلل فاعلية أدوية الكوليسترول (الستاتين) [4, 5]. ولو قدامك عملية جراحية، لازم تقول لطبيبك عن كل مكمل بتاخده بدري، لأن بعضها بيزود خطر النزيف أو بيأثر على التخدير [1].\n\nالهدف مش منع كل مكمل؛ الهدف إن كل واحد يبقى له سبب ومدة ومراجعة. لو السبب نقص مثبت بالتحليل، زي نقص فيتامين ب12 عند اللي بياكلوا نباتي، الخطة تراجع العلاج ومصدر النقص وإمتى إعادة التقييم بدل استمرار عبوة وراء عبوة من غير نقطة نهاية.",
+        "en": "Photograph each product name, ingredient panel and dose, then note why you started it and who advised it. Bring that list to the clinician or dietitian, especially if you take medicines, live with a chronic condition, or are preparing for a test or procedure. Do not stop a supplement prescribed for a known condition on your own.\n\nSupplements can also interact with medicines you take: iron, for example, reduces the absorption of thyroid medicines such as levothyroxine, and high-dose vitamin D can reduce how well cholesterol-lowering statins work [4, 5]. If you have surgery scheduled, tell your clinician about every supplement you take well in advance, since some increase bleeding risk or affect anaesthesia [1].\n\nThe aim is not to reject every supplement. It is to give each one a reason, duration and review point. When a deficiency is confirmed by testing, such as vitamin B12 deficiency in people eating a plant-based diet, the plan should address treatment, the cause of the deficiency and when to reassess rather than continuing bottle after bottle without an endpoint."
+      },
+      "links": {
+        "ar": [
+          { "label": "نقص فيتامين ب12", "url": "../articles/vitamin-b12-in-plant-based-eating" }
+        ],
+        "en": [
+          { "label": "vitamin B12 deficiency", "url": "../articles/vitamin-b12-in-plant-based-eating" }
+        ]
+      }
+    },
+    {
+      "id": "quality-and-when-to-ask",
+      "heading": {
+        "ar": "الجودة، ومتى تسأل قبل ما تبدأ",
+        "en": "Quality, and when to ask before you start"
+      },
+      "body": {
+        "ar": "المكملات مش بتتراقب زي الأدوية: مافيش موافقة من الهيئة قبل ما تنزل السوق، والشركة المصنّعة هي اللي مسؤولة عن الجودة والالتزام بقواعد التصنيع الجيد [2, 3]. وده بيفسر ليه بعض المنتجات في السوق طلعت فيها جرعات مختلفة عن المكتوب على العبوة، أو مكونات مش متسجلة أصلاً [2]. اختيار منتج من شركة معروفة ومراجَعة ما بيضمنش الفاعلية، لكنه بيقلل من احتمال وجود تلوث أو خطأ في التصنيع.\n\nلو حامل أو بترضّعي أو بتفكري تجيبي مكمل لطفلك، خلي القرار مع طبيبك، لأن معظم المكملات ما اتعملش عليها دراسات كافية في الحمل والرضاعة والأطفال [1, 2]. وفي كل الحالات، لو حسيت بأي عرض جانبي غريب بعد مكمل جديد، وقّف وكلّم طبيبك أو أخصائي التغذية بدل ما تستنى يعدي.",
+        "en": "Supplements are not regulated like medicines: there is no pre-market approval, and the manufacturer is responsible for quality and following good manufacturing practice [2, 3]. This is part of why some products on the market have been found to contain different doses than the label states, or ingredients not listed at all [2]. Choosing a product from a well-known, tested brand does not guarantee it will work, but it does reduce the chance of contamination or a manufacturing error.\n\nIf you are pregnant, breastfeeding, or considering a supplement for your child, leave the decision to your clinician, since most supplements have not been studied enough in pregnancy, breastfeeding or childhood [1, 2]. In every case, if you notice an unusual side effect after starting a new supplement, stop and contact your clinician or dietitian rather than waiting it out."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ar": "هل لازم أعمل تحاليل قبل أي مكمل؟",
+        "en": "Do I need blood tests before every supplement?"
+      },
+      "a": {
+        "ar": "لأ. بعض الاحتياجات تتحدد من المرحلة الصحية أو التاريخ الغذائي، وبعضها يحتاج تحليلاً موجهاً زي فيتامين D والحديد. الطبيب يحدد الاختبار لما نتيجته هتغيّر القرار [1].",
+        "en": "No. Some needs are identified from life stage or dietary history, while others, such as vitamin D and iron, require a targeted test. A clinician selects testing when the result will change the decision [1]."
+      }
+    },
+    {
+      "q": {
+        "ar": "المصدر الطبيعي يعني إن زيادة الجرعة مش هتضر؟",
+        "en": "If a nutrient comes from a natural source, does a higher dose stop being risky?"
+      },
+      "a": {
+        "ar": "لأ. حتى الفيتامينات والمعادن الطبيعية بتضر لو اتاخدت بكميات كبيرة: زيادة فيتامين D ممكن تسبب غثيان وحصوات كلى، وزيادة الحديد ممكن تضر الكبد وتوصل لحالات خطيرة في الجرعات العالية جداً [4, 5].",
+        "en": "No. Even naturally occurring vitamins and minerals cause harm at high amounts: too much vitamin D can cause nausea and kidney stones, and too much iron can damage the liver and, at very high doses, become dangerous [4, 5]."
+      }
+    },
+    {
+      "q": {
+        "ar": "آمن آخد أكتر من مكمل في نفس الوقت؟",
+        "en": "Is it safe to take several supplements at once?"
+      },
+      "a": {
+        "ar": "مش دايماً. بعض المكملات بتتعارض مع بعض أو مع أدوية بتاخدها، وبعض المنتجات في السوق فيها جرعات أو مكونات مختلفة عن المكتوب على العبوة. اعرض القائمة كاملة على طبيبك أو أخصائي التغذية قبل ما تجمع بين أكتر من منتج [2, 3].",
+        "en": "Not always. Some supplements interact with each other or with medicines you take, and some products on the market have been found to contain different doses or ingredients than the label states. Show your full list to your clinician or dietitian before combining more than one product [2, 3]."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "label": "NIH Office of Dietary Supplements، Dietary Supplements: What You Need to Know",
+      "url": "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/"
+    },
+    {
+      "label": "NCCIH، Using Dietary Supplements Wisely",
+      "url": "https://www.nccih.nih.gov/health/using-dietary-supplements-wisely"
+    },
+    {
+      "label": "FDA، Dietary Supplements",
+      "url": "https://www.fda.gov/food/dietary-supplements"
+    },
+    {
+      "label": "NIH Office of Dietary Supplements، Iron: Fact Sheet for Consumers",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-Consumer/"
+    },
+    {
+      "label": "NIH Office of Dietary Supplements، Vitamin D: Fact Sheet for Consumers",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminD-Consumer/"
+    }
+  ],
+  "seo": {
+    "title": {
+      "ar": "المكملات: حسب الحاجة مش للجميع",
+      "en": "Supplements: targeted, not default"
+    },
+    "description": {
+      "ar": "المكمل ممكن يسد احتياجاً محدداً، لكنه ما يعوضش تنوع الأكل، ووجوده للبيع مش دليل إنه مناسب لكل شخص.",
+      "en": "A supplement can meet a specific need, but it cannot replace dietary variety, and being on sale does not make it suitable for everyone."
+    }
+  }
+  }
+  ]
+}
