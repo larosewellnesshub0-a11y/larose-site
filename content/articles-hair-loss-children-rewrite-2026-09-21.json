@@ -1,0 +1,181 @@
+{
+  "articles": [
+    {
+      "slug": "hair-loss-in-children-when-to-check",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": ["pediatrics", "dermatology", "clinical-nutrition"],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-21",
+      "readingTime": 10,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/hair-loss-blood-tests-first.webp",
+      "title": {
+        "ar": "تساقط الشعر عند الأطفال: إمتى يكون عارضاً وإمتى يحتاج كشفاً؟",
+        "en": "Hair loss in children: when can it be temporary, and when does it need a check?"
+      },
+      "excerpt": {
+        "ar": "شعر على الفرشة أو بقعة خفيفة في فروة الرأس مش تشخيص واحد. شكل التساقط، حالة الجلد، النمو والصحة العامة هم اللي يوجّهوا التقييم بدل منتج سريع.",
+        "en": "Hair on a brush or a thinning patch on the scalp is not one diagnosis. The pattern of loss, the skin, growth and overall health guide assessment better than a quick product."
+      },
+      "sections": [
+        {
+          "id": "notice-the-pattern",
+          "heading": { "ar": "الشكل بيفرق", "en": "The pattern matters" },
+          "body": {
+            "ar": "كل الناس بتفقد جزءاً من الشعر، لكن بقع واضحة أو تكسر أو تغير ملحوظ بعد شعر ثابت يستحقوا وصفاً أدق. هل التساقط في بقعة مستديرة محددة، ولا منتشر وخفيف في كل الفروة؟ هل الفروة فيها حكة أو قشور أو احمرار، وهل النمو والطاقة والأكل اتغيروا؟ شكل التساقط وقصته بيوجّهوا للسبب أكتر من عدّ الشعر الساقط وحده.",
+            "en": "Everyone sheds some hair, but clear patches, breakage or a noticeable change after stable hair deserve a precise description. Is the loss a round, well-defined patch, or diffuse and spread across the whole scalp? Is the scalp itchy, scaly or red, and have growth, energy or eating changed? The shape and story of the loss usually point to a cause more reliably than counting shed hairs."
+          }
+        },
+        {
+          "id": "tinea-capitis-and-traction",
+          "heading": {
+            "ar": "فطريات الفروة والشد الزايد على الشعر",
+            "en": "Ringworm of the scalp and hair pulled too tight"
+          },
+          "body": {
+            "ar": "سعفة أو فطريات فروة الرأس (Tinea capitis) من أشهر أسباب التساقط في بقع عند الأطفال، وأكتر عمر بيحصل فيه بين ٣ و٧ سنين [2]. سببها فطريات جلدية، وبتظهر كبقع رمادية بقشور خفيفة، أو قشرة منتشرة شبه القشرة العادية، أو شعر مكسور قصير على شكل «نقط سودة» في الفروة [2]. الأشكال الملتهبة أكتر (زي الكيريون والفافوس) ممكن تسبب انتفاخ وحتى ندوب لو التشخيص اتأخر [2]. وبما إن الكريمات الموضعية ما بتوصلش لجذر الشعرة جوه الجلد، سعفة الفروة محتاجة دواء فطريات بالفم، ويفضّل تأكيد التشخيص بمسحة وزرع قبل بداية العلاج [1, 2].\n\nالشد المستمر (Traction alopecia) بيسبب خفة الشعر عند خط الفروة أو أطرافها بسبب الضفائر أو الكعكة المشدودة، وبيتحسن لما التسريحة تتغير لأخف [4, 5]. أما هوس نتف الشعر (Trichotillomania) فعادة الطفل ما يكونش واعي إنه بيعمله، وبيظهر كبقع شعرها متفاوت الطول ومكسور مع فروة تحتها طبيعية [4, 5]؛ الأطفال الصغيرين غالباً بيتجاوزوه لوحدهم، والأطفال الأكبر والمراهقين ممكن يستفيدوا من دعم سلوكي.",
+            "en": "Tinea capitis — a fungal infection of the scalp, sometimes called ringworm — is one of the most common causes of patchy hair loss in children, with peak incidence between ages 3 and 7 [2]. It is caused by dermatophyte fungi and can look like fine grey scaly patches, dandruff-like scaling, or scattered short broken-off hairs known as \"black dots\" [2]. More inflamed forms (kerion, favus) can cause swelling and scarring if diagnosis is delayed [2]. Because topical antifungal creams do not reach the fungus deep inside the hair follicle, tinea capitis needs an oral antifungal course, ideally confirmed by scraping and culture before treatment starts [1, 2].\n\nTraction alopecia is thinning along the hairline or at the edges of the scalp from tight braids, ponytails or buns, and it improves once the style is loosened [4, 5]. Trichotillomania is a hair-pulling or twisting habit, often outside the child's awareness, that leaves patches with hairs of different, broken lengths over a normal-looking scalp [4, 5]; younger children often grow out of it, while older children and teens may benefit from behavioural support."
+          }
+        },
+        {
+          "id": "alopecia-areata-explained",
+          "heading": {
+            "ar": "لما تكون البقع بسبب الثعلبة المناعية",
+            "en": "When bald patches are alopecia areata"
+          },
+          "body": {
+            "ar": "الثعلبة المناعية (Alopecia areata) حالة يهاجم فيها الجهاز المناعي بصيلات الشعر، فتظهر بقع صلع مستديرة أو بيضاوية ناعمة من غير قشور أو احمرار أو ندوب [3, 5]. من العلامات المفيدة وجود شعرات قصيرة على شكل «علامة تعجب» (أعرض من فوق وأرفع عند الفروة) عند حافة البقعة النشطة [3]. الثعلبة اللي تبدأ قبل سن ١٠ سنين غالباً بتاخد مسار أوسع وأقل توقعاً من اللي بيبدأ بعد كده [3]. كتير من الأطفال شعرهم بيرجع ينبت خلال شهور من غير علاج، خصوصاً لو البقع محدودة، لكن طبيب الجلدية ممكن يقترح علاج موضعي أو حقن مضاد للالتهاب لو البقع استمرت أو زادت [3, 5].",
+            "en": "Alopecia areata is an autoimmune condition where the immune system attacks hair follicles, producing smooth, round or oval bald patches with no scale, redness or scarring [3, 5]. A useful clue is short \"exclamation-point\" hairs — narrower near the scalp — at the edge of an active patch [3]. Onset before age 10 tends to run a more extensive and less predictable course than onset later in childhood [3]. Many children regrow hair within months without treatment, especially with limited patches, but a dermatologist can offer topical or injected anti-inflammatory treatment when patches persist or spread [3, 5]."
+          }
+        },
+        {
+          "id": "telogen-effluvium-and-iron",
+          "heading": {
+            "ar": "التساقط بعد المرض وعلاقته بالحديد",
+            "en": "Shedding after illness, and the iron connection"
+          },
+          "body": {
+            "ar": "التساقط المنتشر (Telogen effluvium) بيحصل بعد مسبب — غالباً حمى شديدة أو مرض ملحوظ — بحوالي شهرين لتلاتة، ومن غير ما يعمل بقع صلع واضحة أو فروة فيها ندوب [4]. عند الأطفال، أشهر مسبب هو مرض بحمى سابقة، وبعده نقص الحديد كسبب تاني شائع [4]. وبما إن العلاقة متأخرة، الأهل غالباً ما بيربطوش التساقط بمرض أو فترة أكل ضعيف حصلت قبلها بأسابيع. لو القصة أو الفحص أشاروا للنمط ده، تحليل صورة دم ومخزون حديد يبقى منطقي — راجع <a href=\"../articles/iron-deficiency-in-children.html\">مقالنا عن نقص الحديد عند الأطفال</a> عشان تعرف طريقة التقييم والعلاج. وغالباً التساقط ده بيتحسن لوحده على شهور لما دورة الشعر ترجع لطبيعتها.",
+            "en": "Telogen effluvium is diffuse shedding that follows a trigger — commonly a high fever or significant illness — by around two to three months, without producing clear bald patches or a scarred scalp [4]. In children, the most frequent trigger is a preceding febrile illness, followed by iron-deficiency anaemia as the next most common cause [4]. Because the connection is delayed, parents often do not link the shedding back to an illness or a period of poor eating weeks earlier. When the story or examination suggests this pattern, a blood count and iron studies are reasonable — see our guide to <a href=\"../articles/iron-deficiency-in-children.html\">iron deficiency in children</a> for how that assessment and treatment work. Left alone, telogen effluvium usually improves on its own over several months as the hair cycle resets."
+          }
+        },
+        {
+          "id": "careful-assessment",
+          "heading": { "ar": "الكشف يوجه التحاليل", "en": "The examination guides testing" },
+          "body": {
+            "ar": "الطبيب بيفحص الفروة وشكل التساقط، ويسأل عن مرض سابق وأدوية وأكل الطفل وتاريخ العيلة وتسريحات الشعر. فحص بلمبة وود ومسحة بمحلول البوتاسيوم أو زرع فطريات ممكن يأكد أو يستبعد سعفة الفروة قبل بداية العلاج [1, 2]. التحاليل — صورة دم كاملة ومخزون حديد، وأحياناً وظائف الغدة الدرقية أو مؤشرات مناعية — تتطلب لما القصة أو الفحص يشيروا لسبب داخلي، مش كقائمة ثابتة لكل طفل عنده تساقط شعر [4].",
+            "en": "The clinician examines the scalp and hair pattern, and asks about earlier illness, medicines, eating, family history and hairstyles. Wood's-lamp examination and a potassium-hydroxide scraping or fungal culture can confirm or rule out tinea capitis before starting treatment [1, 2]. Blood tests — a complete blood count, iron studies, and sometimes thyroid or autoimmune markers — are selected when the story or examination points to an internal cause, not run as a fixed list on every child with hair loss [4]."
+          }
+        },
+        {
+          "id": "avoid-random-remedies",
+          "heading": {
+            "ar": "المكملات والخلطات مش بديل",
+            "en": "Supplements and mixtures are not substitutes"
+          },
+          "body": {
+            "ar": "خلطات الفروة أو مكملات بتتاخد من غير تقييم ممكن تهيّج الجلد أو تأخر التشخيص، وكريمات الفطريات الموضعية وحدها ما بتكفيش لعلاج سعفة الفروة من غير كورس بالفم [2]. اختار تسريحة مريحة وتجنب الشد والحرارة المتكررة، وحافظ على أكل متنوع — راجع <a href=\"../articles/iron-rich-foods-for-children.html\">مقالنا عن الأكل الغني بالحديد للأطفال</a> لمصادر عملية يومية. لو اتضح سبب، الخطة والمتابعة يتحددوا عليه من غير وعود برجوع سريع للشعر.",
+            "en": "Scalp mixtures or supplements started without assessment can irritate the skin or delay diagnosis, and repeated topical antifungal creams alone will not clear tinea capitis without an oral course [2]. Choose comfortable styling, avoid tight pulling and repeated heat, and keep food varied — our guide to <a href=\"../articles/iron-rich-foods-for-children.html\">iron-rich food for children</a> covers practical everyday sources. When a cause is identified, it guides the plan and follow-up without promises of rapid regrowth."
+          }
+        },
+        {
+          "id": "when-to-see-doctor",
+          "heading": { "ar": "إمتى تروح لدكتور؟", "en": "When to see a doctor" },
+          "body": {
+            "ar": "احجز كشفاً لو في بقع صلع أو التهاب في الفروة أو ألم أو صديد أو حكة شديدة، أو لو التساقط باستمرار بيزيد. راجع بسرعة لو معه شحوب أو تعب أو نزول وزن أو تغيّر في النمو (مقالنا عن <a href=\"../articles/child-growth-is-a-trajectory.html\">قراءة منحنى نمو الطفل كمسار مش رقم واحد</a> بيوضح شكل التغيّر الحقيقي). خد أسماء الأدوية والمكملات وصوراً للبقعة لو موجودة توضح التغيّر بمرور الوقت.",
+            "en": "Arrange a visit for bald patches, scalp inflammation, pain, discharge or severe itch, or hair loss that keeps getting worse. Seek review sooner if there is pallor, fatigue, weight loss or a change in growth (our piece on <a href=\"../articles/child-growth-is-a-trajectory.html\">reading a child's growth curve as a trajectory, not a single number</a> explains what a real change looks like). Bring medicine and supplement names and, if possible, photographs showing how the patch has changed over time."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل كل تساقط شعر عند الأطفال سببه نقص حديد؟",
+            "en": "Is every case of hair loss in a child caused by low iron?"
+          },
+          "a": {
+            "ar": "لأ. نقص الحديد سبب محتمل من كام سبب — منها سعفة الفروة والثعلبة المناعية والشد ونتف الشعر — والتقييم هو اللي يحدد هل التحليل له داعي [1, 4].",
+            "en": "No. Low iron is one possible cause among several — including tinea capitis, alopecia areata, traction and trichotillomania — and assessment determines whether testing is useful [1, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل سعفة فروة الرأس معدية؟",
+            "en": "Is ringworm of the scalp contagious?"
+          },
+          "a": {
+            "ar": "أيوه. سعفة الفروة ممكن تنتقل بين الأطفال عن طريق المشط أو القبعة المشتركة أو التلامس القريب، فالعلاج مع مراجعة المقربين مهمين مع بعض [2].",
+            "en": "Yes. Tinea capitis can spread between children through shared combs, hats or close contact, so treating it and checking close contacts both matter [2]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الشعر بيرجع ينبت بعد الثعلبة المناعية؟",
+            "en": "Will hair grow back after alopecia areata?"
+          },
+          "a": {
+            "ar": "غالباً أيوه، خصوصاً لو البقع محدودة، لكن المسار ممكن يكون غير متوقع، واللي بيبدأ قبل سن ١٠ سنين غالباً بياخد شكل أوسع [3].",
+            "en": "Often yes, especially with a few limited patches, though the course can be unpredictable, and onset before age 10 tends to be more extensive [3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الشامبو هو سبب التساقط؟",
+            "en": "Is shampoo the cause of the hair loss?"
+          },
+          "a": {
+            "ar": "غالباً الشامبو يوضح الشعر اللي كان هيسقط أثناء الغسيل، لكن المنتج المهيج ممكن يزعج فروة حساسة.",
+            "en": "Shampoo often makes existing shed hair visible during washing, although an irritating product can upset a sensitive scalp."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل المكملات آمنة لمجرد إن شعر ابني بيقع؟",
+            "en": "Are supplements safe just because my child's hair is shedding?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. النوع والجرعة يتحددوا بعد معرفة هل في احتياج فعلي، ومن غير تقييم ممكن تأخر التشخيص الحقيقي [2].",
+            "en": "Not necessarily. Type and dose depend on whether there is a real need, and taking them without assessment can delay the real diagnosis [2]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "American Academy of Dermatology، Hair loss: diagnosis and treatment",
+          "url": "https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat"
+        },
+        {
+          "label": "Leung AKC, Hon KL, Leong KF, Barankin B, Lam JM, Tinea Capitis: An Updated Review، Recent Pat Inflamm Allergy Drug Discov 2020;14(1):58-68، PMID 31906842",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31906842/"
+        },
+        {
+          "label": "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS/NIH)، Alopecia Areata",
+          "url": "https://www.niams.nih.gov/health-topics/alopecia-areata"
+        },
+        {
+          "label": "Al-Refu K, Hair Loss in Children: Common and Uncommon Causes; Clinical and Epidemiological Study in Jordan، Int J Trichology 2013;5(4):185-189، PMID 24778527",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999647/"
+        },
+        {
+          "label": "American Academy of Pediatrics (HealthyChildren.org)، Hair Loss (Alopecia) in Children",
+          "url": "https://www.healthychildren.org/English/health-issues/conditions/skin/Pages/Hair-Loss-Alopecia.aspx"
+        }
+      ],
+      "tags": {
+        "ar": ["تساقط الشعر عند الأطفال", "صلع الأطفال", "فروة رأس الطفل", "كشف جلدية أطفال"],
+        "en": ["hair loss in children", "child bald patches", "child scalp", "paediatric dermatology"]
+      },
+      "seo": {
+        "title": { "ar": "تساقط شعر الأطفال: إمتى تكشف؟", "en": "Hair loss in children: when to check" },
+        "description": {
+          "ar": "شعر على الفرشة أو بقعة خفيفة في فروة الرأس مش تشخيص واحد. شكل التساقط، حالة الجلد، النمو والصحة العامة هم اللي يوجّهوا التقييم.",
+          "en": "Hair on a brush or a thinning patch on the scalp is not one diagnosis. The pattern of loss, the skin, growth and overall health guide assessment."
+        }
+      }
+    }
+  ]
+}
