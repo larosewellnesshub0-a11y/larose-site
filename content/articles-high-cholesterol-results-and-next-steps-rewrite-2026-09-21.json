@@ -1,0 +1,155 @@
+{
+  "_note": "Long-form expansion of high-cholesterol-results-and-next-steps. Preserves the existing 5-section structure and Egyptian-voice prose in full; adds 4 verified NHLBI sources beyond the original single CDC reference, weaves inline citations into claims already made in the text, corrects reviewedBy to the clinician whose specialties actually include internal-medicine, and adds internal links.",
+  "articles": [
+    {
+      "slug": "high-cholesterol-results-and-next-steps",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "internal-medicine",
+      "specialties": ["internal-medicine", "clinical-nutrition", "weight-management"],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-21",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/high-cholesterol-results-and-next-steps.webp",
+      "title": {
+        "ar": "الكوليسترول العالي: نفهم التحليل ونقرر هل الأكل وحده كفاية",
+        "en": "High cholesterol: understanding the test and deciding whether food changes are enough"
+      },
+      "excerpt": {
+        "ar": "الكوليسترول غالباً ما يعملش أعراضاً، والرقم الكلي مش القصة كلها. القرار يعتمد على أجزاء التحليل وخطر القلب والسكري والضغط والتاريخ العائلي.",
+        "en": "High cholesterol usually causes no symptoms, and total cholesterol is not the whole story. Decisions depend on the lipid pattern, cardiovascular risk, diabetes, blood pressure and family history."
+      },
+      "sections": [
+        {
+          "id": "what-cholesterol-is",
+          "heading": {
+            "ar": "الجسم محتاج الكوليسترول، لكن طريقة نقله تفرق",
+            "en": "The body needs cholesterol, but how it is carried matters"
+          },
+          "body": {
+            "ar": "الكوليسترول مادة دهنية الجسم بيصنعها وبيستخدمها في وظائف مهمة، وبتتنقل في الدم داخل جسيمات تسمى البروتينات الدهنية أهمها الكوليسترول الضار (LDL) والكوليسترول النافع (HDL) [1, 2]. تحليل الدهون عادة يشمل الكوليسترول الكلي وأنواعاً من البروتينات الدهنية والدهون الثلاثية، والمستوى الكلي المثالي تقريباً 150 مجم/دل بينما فوق 200 مجم/دل بيعتبر مرتفعاً [1]. ارتفاع بعض الجسيمات يرتبط بتراكمها في جدران الشرايين مع الوقت، بينما أجزاء أخرى لها معنى مختلف.\n\nعشان كده ما ينفعش تحكم من الرقم الكلي وحده أو تفرح بجزء واحد وتتجاهل الباقي. الطبيب يقرأ النمط كله، وقد يراجع تحاليل إضافية في حالات مختارة حسب التاريخ العائلي والخطر.",
+            "en": "Cholesterol is a fatty substance made by the body and used for important functions. It travels in blood within particles called lipoproteins, mainly “bad” LDL cholesterol and “good” HDL cholesterol [1, 2]. A lipid profile usually includes total cholesterol, types of lipoprotein and triglycerides, and a total level near 150 mg/dL is considered optimal while above 200 mg/dL may be considered high [1]. Higher levels of some particles are associated with gradual build-up in artery walls, while other components carry a different meaning.\n\nThis is why total cholesterol alone cannot make the decision, and one reassuring component should not erase the rest. The clinician reads the full pattern and may consider additional tests in selected cases according to family history and risk."
+          }
+        },
+        {
+          "id": "silent-risk",
+          "heading": {
+            "ar": "غالباً مفيش عرض يحذّرك",
+            "en": "There is usually no warning symptom"
+          },
+          "body": {
+            "ar": "الكوليسترول العالي غالباً ما يسببش صداعاً أو دوخة أو ألماً يقدر الشخص يحس بيه، وأغلب الناس ما يعرفوش إن عندهم ارتفاع غير من خلال تحليل روتيني [3]. أول علامة ما ينفعش تكون مشكلة في الشرايين. في حالات نادرة جداً مع ارتفاع شديد وراثي (فرط كوليسترول عائلي)، ممكن تظهر انتفاخات دهنية صغيرة تحت الجلد عند المرفق أو الركبة، أو حلقة رمادية حوالين القرنية [3]، لكن دي علامات نادرة مش أعراض عامة. وفي نفس الوقت، نتيجة عالية مرة واحدة مش سبباً للهلع قبل مراجعة ظروف التحليل والصورة الكاملة.\n\nألم الصدر أو ضيق النفس أو ضعف مفاجئ في ناحية من الجسم مش «أعراض كوليسترول» بسيطة؛ دي أعراض تحتاج تقييماً عاجلاً لاحتمالات القلب أو المخ. ما تستناش تعديل الأكل يعالج عرضاً حاداً.",
+            "en": "High cholesterol usually does not cause a headache, dizziness or pain that a person can feel, and most people do not know they have it until a routine blood test [3]. This is why testing matters when risk factors are present; an artery problem should not be the first warning. In very rare cases of severe inherited high cholesterol (familial hypercholesterolemia), small fatty bumps can appear under the skin at the elbows or knees, or a greyish ring can appear around the cornea [3], but these are rare signs, not general symptoms. At the same time, one high result is not a reason for panic before the testing context and full picture are reviewed.\n\nChest pain, breathlessness or sudden weakness on one side are not minor 'cholesterol symptoms'. They need urgent assessment for heart or brain causes. Do not wait for food changes to treat an acute symptom."
+          }
+        },
+        {
+          "id": "causes-and-risk",
+          "heading": {
+            "ar": "الجينات والصحة العامة يدخلوا مع الأكل",
+            "en": "Genes and general health sit alongside food"
+          },
+          "body": {
+            "ar": "نوعية الدهون في الأكل، قلة الحركة والتدخين ممكن يأثروا على التحليل، لكن الجينات والعمر والسكري والغدة والكلى والكبد وبعض الأدوية لهم دور برضه [4]. أدوية زي حاصرات بيتا وبعض مدرات البول والستيرويدات ممكن ترفع الكوليسترول الضار كأثر جانبي [4]، فمراجعة قائمة الأدوية كاملة مهمة. شخص نحيف ممكن يكون عنده كوليسترول مرتفع، وشخص وزنه زائد ممكن يكون تحليله مختلف؛ الشكل الخارجي مش فحصاً للدهون.\n\nارتفاع شديد أو تاريخ عائلي لجلطات في سن صغير يخلّي الطبيب يفكر في سبب وراثي (فرط كوليسترول عائلي) ويقيّم الأسرة بشكل أدق [4]. مراجعة الغدة والسكر والضغط والأدوية تمنع إننا نختصر المشكلة في طبق واحد.",
+            "en": "The type of fat in food, limited activity and smoking can affect the profile, but genes, age, diabetes, thyroid, kidney and liver health, and some medicines also contribute [4]. Medicines such as beta-blockers, some diuretics and steroids can raise “bad” LDL cholesterol as a side effect [4], so reviewing the full medicine list matters. A thin person can have high cholesterol, while a person with excess weight may have a different pattern; appearance is not a lipid test.\n\nA markedly raised result or family history of cardiovascular events at a young age may prompt assessment for an inherited cause (familial hypercholesterolemia) and closer family review [4]. Checking thyroid, glucose, blood pressure and medicines prevents the problem being reduced to one plate."
+          },
+          "links": {
+            "ar": [
+              { "label": "الغدة", "url": "../articles/hypothyroidism-and-weight" },
+              { "label": "الكبد", "url": "../articles/liver-function-tests-need-context" }
+            ],
+            "en": [
+              { "label": "thyroid", "url": "../articles/hypothyroidism-and-weight" },
+              { "label": "liver", "url": "../articles/liver-function-tests-need-context" }
+            ]
+          }
+        },
+        {
+          "id": "what-helps",
+          "heading": {
+            "ar": "التغيير العملي أوسع من منع البيض",
+            "en": "Useful change is broader than banning eggs"
+          },
+          "body": {
+            "ar": "الخطة الغذائية تركز على النمط: تقليل الدهون المشبعة والمتحولة لأقل من 10% من السعرات اليومية، وزيادة مصادر الألياف والخضار والبقول والحبوب الكاملة، واختيار مصادر دهون غير مشبعة وبروتين تناسب الحالة [5]. الحركة المنتظمة ووقف التدخين وإدارة الوزن عند الحاجة يخدموا خطر القلب كله، مش رقماً واحداً؛ وحتى خسارة بسيطة من 3 إلى 5% من الوزن ممكن تحسّن الكوليسترول الضار وترفع النافع [5].\n\nما تمنعش أصناف كثيرة من غير ما تشوف يومك بالكامل، وما تستبدلش كل الدهون بمنتجات عالية السكر أو نشويات مكررة. أخصائي التغذية يقدر يحول التوصيات لوجبات مصرية واقعية تناسب السكر والضغط والكلى وأدوية الشخص.",
+            "en": "Nutrition care focuses on the pattern: reducing saturated and trans fats to less than 10% of daily calories, increasing fibre sources, vegetables, pulses and whole grains, and choosing unsaturated fats and protein sources suited to the person [5]. Regular movement, stopping smoking and weight management when needed support overall cardiovascular risk, not one number; even losing 3% to 5% of body weight can lower “bad” LDL cholesterol and raise “good” HDL cholesterol [5].\n\nDo not remove many foods without reviewing the whole day, and do not replace all fat with high-sugar products or refined carbohydrate. A nutrition specialist can turn recommendations into realistic Egyptian meals that account for diabetes, blood pressure, kidney health and medicines."
+          },
+          "links": {
+            "ar": [{ "label": "إدارة الوزن", "url": "../articles/non-surgical-weight-options" }],
+            "en": [{ "label": "weight management", "url": "../articles/non-surgical-weight-options" }]
+          }
+        },
+        {
+          "id": "medicine-and-follow-up",
+          "heading": {
+            "ar": "هل الأكل كفاية؟ الإجابة تعتمد على مستوى الخطر",
+            "en": "Is food change enough? The answer depends on risk"
+          },
+          "body": {
+            "ar": "بعض الناس يقدروا يبدأوا بتعديل نمط الحياة مع إعادة التحليل، وناس تانية تستفيد من دواء من البداية لأن خطر القلب أو الجلطات أعلى. وجود مرض شرايين أو سكري أو كلى، مستوى الدهون، العمر والضغط والتدخين والتاريخ العائلي يدخلوا في القرار [4]. الستاتين هو الدواء الأكثر استخداماً لخفض الكوليسترول الضار، وفي حالات فرط الكوليسترول العائلي أو عدم كفاية الستاتين وحده، فيه أدوية تانية زي مثبطات PCSK9 [5]. الدواء مش عقوبة، والأكل مش بديل مضمون لكل درجة خطر.\n\nفي الزيارة، هات التحليل السابق والحالي وقائمة الأدوية وتاريخ العيلة. اسأل عن الهدف المناسب ليك وموعد إعادة التحليل والآثار الجانبية اللي تستدعي تواصلاً. ما توقفش علاج الدهون لما الرقم يتحسن من نفسك؛ التحسن قد يكون دليلاً إن الخطة شغالة، وقرار الاستمرار أو التعديل يحتاج مراجعة.",
+            "en": "Some people can begin with lifestyle changes and repeat testing, while others benefit from medicine from the start because cardiovascular risk is higher. Existing artery disease, diabetes or kidney disease, lipid levels, age, blood pressure, smoking and family history all inform the decision [4]. Statins are the most commonly used medicine to lower “bad” LDL cholesterol, and in familial hypercholesterolemia or when a statin alone is not enough, other options such as PCSK9 inhibitors may be added [5]. Medicine is not a punishment, and food is not a guaranteed substitute at every level of risk.\n\nBring current and previous results, a medicine list and family history to the visit. Ask about your appropriate target, when to repeat the profile and which side effects warrant contact. Do not stop lipid treatment yourself when the number improves; improvement may show that the plan is working, and continuation or adjustment needs review."
+          },
+          "links": {
+            "ar": [{ "label": "سكري", "url": "../articles/diabetes-review-whole-health" }],
+            "en": [{ "label": "diabetes", "url": "../articles/diabetes-review-whole-health" }]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الكوليسترول العالي يعمل صداعاً أو دوخة؟",
+            "en": "Does high cholesterol cause headaches or dizziness?"
+          },
+          "a": {
+            "ar": "غالباً لأ. الكوليسترول العالي عادة صامت، والصداع أو الدوخة لهم أسباب كثيرة. التحليل وعوامل الخطورة هم أساس التقييم [3].",
+            "en": "Usually not. High cholesterol is typically silent, while headaches and dizziness have many causes. Testing and risk factors guide assessment [3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أنا نحيف، ينفع يكون عندي كوليسترول؟",
+            "en": "Can I have high cholesterol if I am thin?"
+          },
+          "a": {
+            "ar": "أيوه. الجينات والعمر وأمراض وأدوية مختلفة تؤثر على الدهون، وشكل الجسم ما يستبعدش ارتفاعها [4].",
+            "en": "Yes. Genes, age, several health conditions and medicines affect lipids, and body shape does not rule out a high result [4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أصوم قبل تحليل الدهون؟",
+            "en": "Must I fast before a lipid profile?"
+          },
+          "a": {
+            "ar": "مش كل تحليل دهون يحتاج صياماً، لكن الطبيب أو المعمل ممكن يطلبه لسؤال معين أو لإعادة نتيجة. اتبع تعليمات الطلب نفسه.",
+            "en": "Not every lipid profile requires fasting, although a clinician or laboratory may request it for a particular question or repeat result. Follow the instructions for your test."
+          }
+        }
+      ],
+      "sources": [
+        { "label": "CDC، About Cholesterol", "url": "https://www.cdc.gov/cholesterol/about/index.html" },
+        { "label": "NHLBI، What is Blood Cholesterol?", "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol" },
+        { "label": "NHLBI، Blood Cholesterol, Symptoms", "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/symptoms" },
+        { "label": "NHLBI، Blood Cholesterol, Causes and Risk Factors", "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/causes" },
+        { "label": "NHLBI، Blood Cholesterol, Treatment", "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/treatment" }
+      ],
+      "tags": {
+        "ar": ["الكوليسترول العالي", "تحليل الدهون", "الدهون الثلاثية", "صحة القلب"],
+        "en": ["high cholesterol", "lipid profile", "triglycerides", "heart health"]
+      },
+      "seo": {
+        "title": {
+          "ar": "كوليسترول مرتفع: الخطوة الجاية",
+          "en": "High cholesterol: next steps"
+        },
+        "description": {
+          "ar": "الكوليسترول غالباً ما يعملش أعراضاً، والرقم الكلي مش القصة كلها.",
+          "en": "High cholesterol usually causes no symptoms, and total cholesterol is not the whole story."
+        }
+      }
+    }
+  ]
+}
