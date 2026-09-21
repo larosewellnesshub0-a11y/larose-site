@@ -51,6 +51,7 @@ PUBLIC.add("articles-weight-management-first-visit-rewrite-2026-09-21.json");
 PUBLIC.add("articles-loose-skin-or-localised-fat-rewrite-2026-09-21.json");
 PUBLIC.add("articles-coeliac-testing-before-gluten-free-diet-rewrite-2026-09-21.json");
 PUBLIC.add("articles-cellulite-is-a-skin-structure-feature-rewrite-2026-09-21.json");
+PUBLIC.add("articles-cellulite-realistic-options-and-limits-rewrite-2026-09-21.json");
 
 /* Must never reach the published tree. Anything starting with "_" is private
    by convention too (content/_submissions.json, content/_private/). */
