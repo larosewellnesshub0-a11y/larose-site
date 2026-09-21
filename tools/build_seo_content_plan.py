@@ -61,6 +61,7 @@ ARTICLE_FILES = (
     "articles-body-contouring-safety-rewrite-2026-09-21.json",
     "articles-iron-deficiency-children-rewrite-2026-09-21.json",
     "articles-hair-loss-children-rewrite-2026-09-21.json",
+    "articles-weight-management-first-visit-rewrite-2026-09-21.json",
     "articles-dark-neck-rewrite-2026-09-14.json",
     "articles-dark-neck-pregnancy-rewrite-2026-09-16.json",
     "articles-h-pylori-bloating-rewrite-2026-09-16.json",

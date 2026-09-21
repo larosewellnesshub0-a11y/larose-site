@@ -1,0 +1,150 @@
+{
+  "articles": [
+    {
+      "slug": "weight-management-first-visit",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "weight-management",
+      "specialties": ["weight-management", "clinical-nutrition", "internal-medicine"],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-21",
+      "readingTime": 7,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/weight-visit-cover.webp",
+      "title": {
+        "ar": "أول زيارة لإدارة الوزن: إيه اللي بيحصل خطوة بخطوة؟",
+        "en": "A first weight-management visit: what actually happens, step by step?"
+      },
+      "excerpt": {
+        "ar": "أول جلسة لإدارة الوزن مش مجرد وقوف على الميزان. اعرف إيه اللي بيتسأل، إيه اللي بيتقاس، وليه ممكن يتطلب تحاليل، وإيه اللي تقدر تجهزه قبل الزيارة.",
+        "en": "A first weight-management visit is more than stepping on a scale. Here is what the conversation covers, what gets measured, why blood tests are often part of it, and what to bring."
+      },
+      "sections": [
+        {
+          "id": "the-conversation",
+          "heading": { "ar": "بتبدأ إزاي؟ بسؤال مش بمحاضرة", "en": "How it starts: a question, not a lecture" },
+          "body": {
+            "ar": "أول زيارة عادة بتبدأ بسؤال بسيط زي \"تحب نتكلم عن الوزن إزاي؟\" قبل أي حاجة تانية. الفكرة إن الحديث عن الوزن من غير إذن ممكن يوصل بشكل قاسي حتى لو النية كويسة، وده بيأخر بعض الناس عن طلب المساعدة أصلاً [1]. بعد كده بييجي سؤال عن الوزن على مدار السنين، الحالات الصحية والأدوية اللي بتاخدها، الأكل والنوم والحركة، ومحاولات سابقة لو حصلت وإيه اللي نفع فيها وإيه اللي ماعملش فرق. الهدف مش استجواب، لكن فهم الصورة الكاملة قبل أي اقتراح.",
+            "en": "A first visit usually opens with something as simple as \"how would you like to talk about weight?\" before anything else. Raising weight without that permission can land harshly even with good intentions, and it is part of why some people delay asking for help in the first place [1]. From there the conversation covers weight history over time, health conditions and medicines already in use, eating, sleep and movement patterns, and any earlier attempts — what helped and what did not. The point is not an interrogation; it is understanding the full picture before any suggestion is made."
+          }
+        },
+        {
+          "id": "whats-measured",
+          "heading": { "ar": "إيه اللي بيتقاس؟", "en": "What gets measured" },
+          "body": {
+            "ar": "غير الطول والوزن ومؤشر كتلة الجسم (BMI)، محيط الخصر بيتقاس غالباً لو الـ BMI بين 25 و35، لأنه بيدي فكرة عن دهون البطن اللي البMI لوحده ما بيوضحهاش [3]. ضغط الدم بيتقاس في الذراعين الاتنين في أول زيارة. مقاييس زي InBody لو متاحة بتديك تفاصيل أكتر عن نسبة العضل والدهون — شرحنا ده بالتفصيل في <a href=\"../articles/inbody-results-explained.html\">مقالنا عن قراءة نتائج InBody</a>. البMI بيفضل نقطة بداية مش الحكم النهائي؛ لو حابب تفهم ليه، <a href=\"../articles/obesity-care-beyond-bmi.html\">مقالنا عن رعاية السمنة غير الBMI</a> بيشرح إيه اللي البMI ممكن يفوّته.",
+            "en": "Beyond height, weight and BMI, waist circumference is often measured when BMI falls between 25 and 35, since it adds information about abdominal fat that BMI alone does not capture [3]. Blood pressure is checked in both arms at a first visit. Tools like InBody, where available, add detail on muscle and fat composition — we cover reading that report in <a href=\"../articles/inbody-results-explained.html\">our guide to InBody results</a>. BMI stays a starting point, not the final word; for why, <a href=\"../articles/obesity-care-beyond-bmi.html\">our piece on obesity care beyond BMI</a> explains what it can miss."
+          }
+        },
+        {
+          "id": "why-blood-tests",
+          "heading": { "ar": "ليه ممكن تتطلب تحاليل من أول زيارة؟", "en": "Why blood tests are often part of a first visit" },
+          "body": {
+            "ar": "تحاليل زي سكر صايم أو HbA1c، دهون الدم، ووظائف الكبد (ALT) بتتطلب غالباً من البداية، مش لأن في مشكلة أكيدة، لكن عشان تدي صورة عن حالات مرتبطة بالوزن زي مقاومة الأنسولين أو الكبد الدهني ممكن تكون موجودة من غير أعراض واضحة [3]. لو النتائج طلعت خارج المعدل الطبيعي، ده جزء من الخطة مش عائق ليها — و<a href=\"../articles/hypothyroidism-and-weight.html\">مقالنا عن الغدة الدرقية والوزن</a> بيغطي حالة تانية شائعة بتتفحص في نفس السياق.",
+            "en": "Fasting glucose or HbA1c, a lipid panel, and liver function (ALT) are often requested from the start — not because a problem is assumed, but because they help surface weight-related conditions such as insulin resistance or fatty liver that can exist without obvious symptoms [3]. A result outside the normal range becomes part of the plan, not a barrier to it — and <a href=\"../articles/hypothyroidism-and-weight.html\">our piece on thyroid function and weight</a> covers another common condition checked in the same context."
+          }
+        },
+        {
+          "id": "readiness",
+          "heading": { "ar": "مش كل حد لازم يبدأ نفس الخطوة", "en": "Not everyone starts at the same step" },
+          "body": {
+            "ar": "جزء من أول زيارة بيتحقق من الاستعداد فعلاً للتغيير دلوقتي، مش بس السؤال عن الرغبة. حد جاي في وقت ضغط شغل كبير أو أزمة صحية تانية ممكن يحتاج خطوة أصغر أو توقيت مختلف، وده مش فشل [1]. الطبيب أو أخصائي التغذية بيوازن بين الهدف طويل المدى والخطوة اللي ممكن تتنفذ فعلاً دلوقتي.",
+            "en": "Part of a first visit checks actual readiness for change right now, not just willingness in principle. Someone arriving during major work pressure or another health crisis may need a smaller step or a different timing, and that is not a failure [1]. The clinician balances the longer-term goal against the step that is realistically doable now."
+          }
+        },
+        {
+          "id": "not-everything-at-once",
+          "heading": { "ar": "أول زيارة نادراً ما بتغطي كل حاجة", "en": "A first visit rarely covers everything" },
+          "body": {
+            "ar": "نموذج التقييم المعروف في الرعاية الأولية (Ask, Assess, Advise, Agree, Assist) بيتصمم أصلاً كتدخل بسيط ومختصر مش خطة شاملة في جلسة واحدة [1]. بعض الأطباء بيشوفوا إن الجلسة الأولى ينفع تركز على خطوة أو اتنين بس، وإن الباقي يتبني عليه في المتابعة بدل ما يتحشر كله مرة واحدة [2]. يعني لو خرجت من أول زيارة وحاسس إن في حاجات لسه ما اتكلمتوش فيها بالتفصيل، ده طبيعي مش تقصير.",
+            "en": "The well-known primary-care model (Ask, Assess, Advise, Agree, Assist) was designed as a brief, minimal intervention rather than a single comprehensive session [1]. Some clinicians argue a first visit works better focused on just one or two steps, with the rest built up over follow-up rather than crammed into one sitting [2]. So leaving a first visit with things still uncovered in detail is normal, not a shortfall."
+          }
+        },
+        {
+          "id": "what-a-plan-may-include",
+          "heading": { "ar": "إيه اللي ممكن يكون في الخطة؟", "en": "What a plan may include" },
+          "body": {
+            "ar": "الخطة غالباً بتبدأ بتعديلات في الأكل والحركة والنوم، وممكن تتوسع لتحويل لأخصائي تغذية أو متابعة دورية. الدواء مش الخطوة الأولى الافتراضية؛ بيترتبط بمعايير محددة زي الـ BMI أو وجود حالات مصاحبة زي مقاومة الأنسولين، وشرحناه بالتفصيل في <a href=\"../articles/glp1-medication-guide.html\">مقالنا عن أدوية GLP-1</a>. في بعض الحالات، الخيارات غير الجراحية زي الميزوثيرابي أو الإجراءات المساندة بتتناقش كجزء من صورة أوسع — <a href=\"../articles/non-surgical-weight-options.html\">مقالنا عن خيارات إدارة الوزن غير الجراحية</a> بيوضح إمتى بتترشح تلك الخيارات ومتى لأ.",
+            "en": "A plan usually starts with adjustments to food, movement and sleep, and may expand to a nutrition referral or scheduled follow-up. Medicine is not the default first step; it connects to specific criteria such as BMI thresholds or co-existing conditions like insulin resistance, which we cover in <a href=\"../articles/glp1-medication-guide.html\">our guide to GLP-1 medication</a>. In some cases non-surgical options such as mesotherapy or supporting procedures come up as part of a wider picture — <a href=\"../articles/non-surgical-weight-options.html\">our piece on non-surgical weight-management options</a> explains when those fit and when they do not."
+          }
+        },
+        {
+          "id": "beyond-the-scale",
+          "heading": { "ar": "أرقام تانية غير الميزان", "en": "Numbers beyond the scale" },
+          "body": {
+            "ar": "أنظمة زي Edmonton Obesity Staging System بتحاول ترتب الخطورة الصحية المرتبطة بالوزن بناءً على حالات مصاحبة فعلية مش رقم الوزن لوحده، وده بيوضح ليه اتنين بنفس الـ BMI ممكن ياخدوا أولويات مختلفة في المتابعة [4]. السمنة نفسها معترف بيها عالمياً كحالة صحية مزمنة مرتبطة بزيادة خطر السكري وأمراض القلب من بين حالات تانية [5]، وده سبب إضافي ليه التقييم بياخد وقته من غير استعجال لرقم واحد بس.",
+            "en": "Staging tools such as the Edmonton Obesity Staging System try to rank weight-related health risk based on actual co-existing conditions rather than weight alone, which is why two people with the same BMI can be prioritised differently for follow-up [4]. Obesity itself is recognised globally as a chronic health condition linked to higher risk of diabetes and heart disease among others [5], which is part of why assessment takes its time instead of rushing to a single number."
+          }
+        },
+        {
+          "id": "what-to-bring",
+          "heading": { "ar": "إيه اللي تجهزه قبل الزيارة", "en": "What to bring" },
+          "body": {
+            "ar": "هات قائمة بالأدوية والمكملات اللي بتاخدها حالياً، ووصف صادق ليوم أو يومين عاديين من الأكل والنوم (مش يوم مثالي)، ونتايج تحاليل أو أشعة سابقة لو موجودة، وتقارير InBody قديمة لو عندك. في La Rose، د. شيماء فؤاد بتربط التاريخ الصحي والتحاليل بالتغذية وقياسات الجسم، ود. مهاب أشرف بيراجع العوامل الباطنية لو السكر أو الكبد أو الغدة الدرقية جزء من الصورة.",
+            "en": "Bring a list of medicines and supplements currently in use, an honest description of two or three ordinary days of eating and sleep (not an idealised day), any earlier lab or imaging results, and older InBody reports if you have them. At La Rose, Dr Shimaa Fouad connects history and tests with nutrition and body-composition care, while Dr Mohab Ashraf reviews internal-medicine factors when glucose, liver or thyroid health is part of the picture."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": { "ar": "هل لازم أصوم قبل أول زيارة؟", "en": "Do I need to fast before the first visit?" },
+          "a": {
+            "ar": "مش شرط لأول جلسة نفسها، لكن لو محتمل تتطلب تحليل سكر صايم أو دهون الدم في نفس اليوم، هيتقال لك قبلها بوقت كافي. لو مش متأكد، تقدر تسأل عند الحجز.",
+            "en": "Not necessarily for the visit itself, but if a same-day fasting glucose or lipid test is likely, you would be told in advance. If unsure, it is fine to ask when booking."
+          }
+        },
+        {
+          "q": { "ar": "هل الدواء هو الحل الأول اللي هيتعرض عليا؟", "en": "Is medicine the first solution offered?" },
+          "a": {
+            "ar": "لأ. الدواء بيتناقش لما يكون مناسب لمعايير محددة، مش كخطوة افتراضية أولى. غالباً الخطة بتبدأ بتعديلات في الأكل والحركة والنوم، وتتوسع حسب الحالة.",
+            "en": "No. Medicine is discussed when it fits specific criteria, not as a default first step. A plan usually starts with food, movement and sleep adjustments and expands based on the individual case."
+          }
+        },
+        {
+          "q": { "ar": "هل رقم البMI العالي وحده كافي إني أبدأ دواء؟", "en": "Is a high BMI number alone enough to start medicine?" },
+          "a": {
+            "ar": "لأ، الـ BMI نقطة بداية للتقييم مش قرار نهائي بمفرده. القرار بيتبني على الصورة الكاملة: محيط الخصر، نتايج التحاليل، الحالات المصاحبة، والتاريخ الصحي.",
+            "en": "No, BMI is a starting point for assessment, not a decision on its own. The decision is based on the fuller picture: waist circumference, lab results, co-existing conditions and health history."
+          }
+        },
+        {
+          "q": { "ar": "جربت قبل كده وما نفعش، هل ده هيأثر على أول زيارة؟", "en": "I have tried before and it did not work — does that affect the first visit?" },
+          "a": {
+            "ar": "العكس؛ المحاولات السابقة وإيه اللي نفع وإيه اللي ماعملش فرق معلومة مهمة بتساعد في بناء خطة مختلفة، مش سبب لتقييم سلبي.",
+            "en": "The opposite — earlier attempts, and what did or did not help, are useful information that shapes a different plan. They are not a reason for a negative judgement."
+          }
+        },
+        {
+          "q": { "ar": "هل أول زيارة بتنتهي بخطة كاملة من نفس اليوم؟", "en": "Does the first visit end with a complete plan on the same day?" },
+          "a": {
+            "ar": "مش دايماً، وده طبيعي. الجلسة الأولى غالباً بتركز على فهم الصورة وخطوة أو اتنين تبدأ بيهم، والباقي بيتبني تدريجياً في المتابعة.",
+            "en": "Not always, and that is normal. The first session usually focuses on understanding the picture and one or two starting steps, with the rest built up gradually over follow-up."
+          }
+        }
+      ],
+      "sources": [
+        { "label": "Vallis M، Piccinini-Vallis H، Sharma AM، Freedhoff Y، Modified 5 As: Minimal intervention for obesity counseling in primary care، Can Fam Physician 2013، PMID 23341653", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3555649/" },
+        { "label": "Sturgiss E، van Weel C، The 5 As framework for obesity management: Do we need a more intricate model؟، Can Fam Physician 2017، PMID 28701434", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5507219/" },
+        { "label": "Wharton S، Lau DCW، Vallis M، Sharma AM، et al.، Obesity in adults: a clinical practice guideline، CMAJ 2020، PMID 32753461", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7828878/" },
+        { "label": "Padwal RS، Pajewski NM، Allison DB، Sharma AM، Using the Edmonton obesity staging system to predict mortality in a population-representative cohort، CMAJ 2011، PMID 21844111", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3185097/" },
+        { "label": "World Health Organization، Obesity and overweight fact sheet", "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight" }
+      ],
+      "tags": {
+        "ar": ["أول زيارة لإدارة الوزن", "تقييم إدارة الوزن", "عيادة الوزن"],
+        "en": ["weight management visit", "weight loss clinic assessment", "weight care"]
+      },
+      "seo": {
+        "title": {
+          "ar": "أول زيارة لإدارة الوزن: إيه اللي بيحصل خطوة بخطوة؟ | La Rose",
+          "en": "A First Weight-Management Visit: What Happens, Step by Step? | La Rose"
+        },
+        "description": {
+          "ar": "إيه اللي بيتسأل، إيه اللي بيتقاس، وليه ممكن تتطلب تحاليل من أول زيارة لإدارة الوزن في La Rose.",
+          "en": "What gets asked, what gets measured, and why blood tests are often part of a first weight-management visit at La Rose."
+        }
+      }
+    }
+  ]
+}
