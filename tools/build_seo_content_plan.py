@@ -58,6 +58,7 @@ ARTICLE_FILES = (
     "articles-bariatric-assessment-multidisciplinary-rewrite-2026-09-21.json",
     "articles-inbody-preparation-rewrite-2026-09-21.json",
     "articles-muscle-assessment-nutrition-rewrite-2026-09-21.json",
+    "articles-body-contouring-safety-rewrite-2026-09-21.json",
     "articles-dark-neck-rewrite-2026-09-14.json",
     "articles-dark-neck-pregnancy-rewrite-2026-09-16.json",
     "articles-h-pylori-bloating-rewrite-2026-09-16.json",
