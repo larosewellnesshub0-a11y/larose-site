@@ -50,6 +50,27 @@ While selecting the 22nd URL, re-checked `content/doctors.json` precisely (`shim
 
 **Not fixing this myself** — same reasoning as the other three findings: whether to reassign these to `alyaa-abu-taleb`, use a generic "clinical team" byline, or leave as-is is a staffing/attribution decision for the user, not a content edit. **Practical effect on this queue:** `pediatrics` is now also excluded from automatic selection, alongside `dermatology`, `general-surgery`, and `bariatric-surgery`, until the user decides. This selection-process mistake will not repeat for future categories — going forward, "checked doctors.json" means reading the actual `specialties` array value, not recalling it.
 
+## Proven defect: the reviewer-attribution problem is sitewide, not category-scoped (2026-09-21, comprehensive scan)
+
+Ran a full scan of every published article's `category` against its `reviewedBy`'s actual `specialties` array in `content/doctors.json`, across every `content/articles*.json` file. Result: **140 of 177 published articles (79%) are reviewed by a clinician whose listed specialties do not include that article's category.** Per category:
+
+| Category | Correctly staffed | Mismatched |
+| --- | --- | --- |
+| clinical-nutrition | 21 (alyaa-abu-taleb 15, shimaa-fouad 6) | 11 (mohab-ashraf) |
+| gastroenterology-hepatology | 5 (mohab-ashraf) | 28 (shimaa-fouad) |
+| weight-management | 2 (shimaa-fouad) | 14 (mohab-ashraf) |
+| body-contouring | 5 (shimaa-fouad) | 10 (mohab-ashraf) |
+| internal-medicine | 1 (mohab-ashraf) | 16 (shimaa-fouad) |
+| pediatrics | 3 (alyaa-abu-taleb) | 21 (shimaa-fouad 18, mohab-ashraf 3) |
+| dermatology | 0 | 17 (shimaa-fouad 13, mohab-ashraf 4) |
+| general-surgery | 0 | 12 (shimaa-fouad 10, mohab-ashraf 2) |
+| bariatric-surgery | 0 | 7 (mohab-ashraf 4, shimaa-fouad 3) |
+| general | 0 | 2 |
+
+This supersedes the narrower per-category findings above (dermatology-only, then +general-surgery/bariatric-surgery, then +pediatrics) — the pattern is sitewide, not limited to those four categories. Even the categories treated as "safe" for this session's queue (clinical-nutrition, gastroenterology-hepatology, weight-management, body-contouring) turn out to have a majority-mismatched `reviewedBy` on a per-article basis; only a specific article's own `reviewedBy` value, checked against `doctors.json`, tells you whether that one article is correctly staffed — the category name alone does not.
+
+**Practical effect on this queue, revised:** category-level exclusion is no longer a sufficient filter. Every candidate URL's specific `reviewedBy` must be checked against `doctors.json` `specialties` before writing, regardless of category, and only genuinely correctly-staffed candidates should be selected. This is more conservative than the earlier category-blanket approach and will narrow the available queue further. **Not fixing the underlying attribution data myself** — same reasoning as every prior finding in this section: reassigning 140 bylines, or changing the byline model entirely (e.g. dropping named-reviewer claims sitewide in favour of "clinical team"), is a business/staffing decision for the user, not a content edit to make unilaterally mid-queue.
+
 ## Next Arabic-first clinical queue
 
 1. `h-pylori-in-children-symptoms-tests` — Arabic query evidence: `اعراض الجرثومة عند الاطفال`; child-specific testing decision, safety signs, and follow-up.
