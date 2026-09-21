@@ -331,6 +331,20 @@ Nineteenth locked URL, selected via fresh `node tools/audit-article-standards.mj
 - No Search Console indexing request submitted.
 - Files changed: `content/articles-body-contouring-safety-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
 
+## 21 September 2026 — iron-deficiency-in-children
+
+Twentieth locked URL, selected via fresh `node tools/audit-article-standards.mjs` cross-referenced against real GSC impressions, excluding completed slugs and the flagged dermatology/general-surgery/bariatric-surgery categories.
+
+- **Checked reviewer attribution before writing:** `category: "pediatrics"`, `reviewedBy: shimaa-fouad` (clinical-nutrition, weight-management, pediatrics — pediatrics is one of her real listed specialties per `doctors.json`). Genuinely staffed, non-blocking.
+- No existing registered rewrite (checked `build/lib/util.mjs` first). Short `article`-type piece (5 sections, 3 FAQ, 1 uncited source, ~550 total words). Expanded to 5 sections/5 FAQ/5 sources/~1,450 total words.
+- 4 new sources verified live in Chrome, alongside the existing NIH ODS Iron Fact Sheet for Consumers: Powers et al., AAP clinical report "Prevention, Screening, Diagnosis, and Treatment of Iron Deficiency and Iron Deficiency Anemia in Infants, Children, and Adolescents" (Pediatrics 2026;158(1):e2026077414, PMID 42324084, published June 2026) — a genuinely new, very current guideline; MedlinePlus (NIH/NLM) "Iron overdose" for the accidental-poisoning content already in the original treatment section; Garcia-Casal et al., "Diagnosing anemia" CDC/NIH review (PMID 37061792) for the ferritin-and-inflammation point; Nelson et al., Kansas J Med 2025 case report of a 2-year-old with critical anaemia from excessive cow's-milk intake (PMID 40547493).
+- **Never-guess-PMID rule applied strictly again:** an initial Google AI-overview snippet for the AAP report did not show a PMID; navigated to the actual PubMed record (`pubmed.ncbi.nlm.nih.gov/42324084/`) to confirm title, authors, journal and PMID before citing, rather than trusting the snippet.
+- Added real, non-filler content the site didn't have: the AAP's June-2026-updated screening ages (breastfed infants 9–12 months, formula-fed infants 15–18 months at milk transition, risk-factor assessment to age 4) **plus its new recommendation for universal adolescent screening at ≥1 year postmenarche and no later than age 14** — added as its own FAQ item since it's a genuinely new, previously-absent piece of guidance relevant to this Egyptian-audience pediatric readership; the quantified cow's-milk-anaemia case (half a gallon/day, Hb 2.0 g/dL, PICU transfusion) as concrete motivation for the existing "set a daily milk amount" advice; explicit overdose symptoms and poison-control guidance (previously only "keep it out of reach" with no detail on what overdose looks like or what to do).
+- 4 editorial internal links, each scoped to avoid duplicating the sibling it points to rather than repeating its content: `child-growth-is-a-trajectory` (growth-curve context for the iron-role section), `childrens-appetite` (behavioural-vs-medical appetite differential), `qa-child-refuses-meat-iron` (meat-refusal-does-not-equal-confirmed-deficiency myth), `vitamin-b12-in-plant-based-eating` (practical detail for fully plant-based families). All 4 rendered correctly in both locales on the first build — no exact-substring-match or wrong-section link failures this time.
+- `date` preserved (2026-09-07), `updatedAt` set to 2026-09-21.
+- Gates: build (490 pages), validate (0/0), audit (103 findings, 0 blocking, em-dash count 99, unchanged from prior round), Arabic voice (PASS, no fix needed). All 5 citation anchors covered in both languages.
+- Files changed: `content/articles-iron-deficiency-children-rewrite-2026-09-21.json` (new), `build/lib/util.mjs`, `tools/build_seo_content_plan.py`, `tools/snapshot-content.mjs`.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.
