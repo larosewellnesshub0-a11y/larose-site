@@ -79,6 +79,7 @@ export function loadContent() {
   const weightManagementFirstVisitRewrite = read("articles-weight-management-first-visit-rewrite-2026-09-21.json");
   const looseSkinLocalisedFatRewrite = read("articles-loose-skin-or-localised-fat-rewrite-2026-09-21.json");
   const coeliacTestingBeforeGlutenFreeDietRewrite = read("articles-coeliac-testing-before-gluten-free-diet-rewrite-2026-09-21.json");
+  const celluliteSkinStructureRewrite = read("articles-cellulite-is-a-skin-structure-feature-rewrite-2026-09-21.json");
   const darkNeckRewrite = read("articles-dark-neck-rewrite-2026-09-14.json");
   const darkNeckPregnancyRewrite = neutralArabicReaderAddress(read("articles-dark-neck-pregnancy-rewrite-2026-09-16.json"));
   const hPyloriBloatingRewrite = read("articles-h-pylori-bloating-rewrite-2026-09-16.json");
@@ -124,7 +125,7 @@ export function loadContent() {
     ]
   }));
   articles.articles = [
-    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "abdominal-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "dark-neck-skin-during-pregnancy", "insulin-resistance-explained", "qa-h-pylori-still-bloated", "qa-teen-restricting-food-fears-weight", "h-pylori-reflux-ibs", "qa-prediabetes-need-medicine", "qa-low-ferritin-normal-cbc", "gallstones-symptoms-and-surgery", "gastroscopy-vs-colonoscopy-what-to-expect", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags", "normal-ultrasound-does-not-end-assessment", "fatty-liver-fibrosis-needs-its-own-assessment", "hypothyroidism-and-weight", "kidney-stones-symptoms-and-tests", "diabetes-review-whole-health", "blood-pressure-needs-a-pattern", "ultrasound-uses-sound-not-xrays", "silent-gallstones-usually-need-no-treatment", "h-pylori-in-children-symptoms-tests", "responsive-complementary-feeding", "inbody-results-explained", "diabetes-remission-is-not-cure", "body-composition-not-scale", "pcos-and-weight", "preparing-for-bariatric-surgery", "insulin-resistance-in-children", "childrens-appetite", "protecting-muscle-while-losing-weight", "vitamin-b12-in-plant-based-eating", "glp1-medication-guide", "bariatric-assessment-is-multidisciplinary", "inbody-preparation-for-reliable-follow-up", "muscle-assessment-in-nutrition-care", "body-contouring-safety-first", "iron-deficiency-in-children", "hair-loss-in-children-when-to-check", "weight-management-first-visit", "loose-skin-or-localised-fat", "coeliac-testing-before-gluten-free-diet"].includes(article.slug)),
+    ...(articles.articles || []).filter((article) => !["fatty-liver-ultrasound", "abdominal-pelvic-ultrasound-what-it-shows", "abdominal-ultrasound-what-it-shows", "dark-neck-acanthosis-insulin-resistance", "dark-neck-skin-during-pregnancy", "insulin-resistance-explained", "qa-h-pylori-still-bloated", "qa-teen-restricting-food-fears-weight", "h-pylori-reflux-ibs", "qa-prediabetes-need-medicine", "qa-low-ferritin-normal-cbc", "gallstones-symptoms-and-surgery", "gastroscopy-vs-colonoscopy-what-to-expect", "mesotherapy-needs-an-ingredient-level-check", "ibs-colon-symptoms-red-flags", "normal-ultrasound-does-not-end-assessment", "fatty-liver-fibrosis-needs-its-own-assessment", "hypothyroidism-and-weight", "kidney-stones-symptoms-and-tests", "diabetes-review-whole-health", "blood-pressure-needs-a-pattern", "ultrasound-uses-sound-not-xrays", "silent-gallstones-usually-need-no-treatment", "h-pylori-in-children-symptoms-tests", "responsive-complementary-feeding", "inbody-results-explained", "diabetes-remission-is-not-cure", "body-composition-not-scale", "pcos-and-weight", "preparing-for-bariatric-surgery", "insulin-resistance-in-children", "childrens-appetite", "protecting-muscle-while-losing-weight", "vitamin-b12-in-plant-based-eating", "glp1-medication-guide", "bariatric-assessment-is-multidisciplinary", "inbody-preparation-for-reliable-follow-up", "muscle-assessment-in-nutrition-care", "body-contouring-safety-first", "iron-deficiency-in-children", "hair-loss-in-children-when-to-check", "weight-management-first-visit", "loose-skin-or-localised-fat", "coeliac-testing-before-gluten-free-diet", "cellulite-is-a-skin-structure-feature"].includes(article.slug)),
     ...(fattyLiverRewrite.articles || []),
     ...(ultrasoundRewrite.articles || []),
     ...(abdominalUltrasoundPreparationRewrite.articles || []),
@@ -180,6 +181,7 @@ export function loadContent() {
     ...(weightManagementFirstVisitRewrite.articles || []),
     ...(looseSkinLocalisedFatRewrite.articles || []),
     ...(coeliacTestingBeforeGlutenFreeDietRewrite.articles || []),
+    ...(celluliteSkinStructureRewrite.articles || []),
     ...(longformExpansion.articles || []),
   ];
   // Editorial images are hand-managed beneath `assets/img/articles/`. A small

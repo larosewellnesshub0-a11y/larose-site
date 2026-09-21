@@ -64,6 +64,7 @@ ARTICLE_FILES = (
     "articles-weight-management-first-visit-rewrite-2026-09-21.json",
     "articles-loose-skin-or-localised-fat-rewrite-2026-09-21.json",
     "articles-coeliac-testing-before-gluten-free-diet-rewrite-2026-09-21.json",
+    "articles-cellulite-is-a-skin-structure-feature-rewrite-2026-09-21.json",
     "articles-dark-neck-rewrite-2026-09-14.json",
     "articles-dark-neck-pregnancy-rewrite-2026-09-16.json",
     "articles-h-pylori-bloating-rewrite-2026-09-16.json",
