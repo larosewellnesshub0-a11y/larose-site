@@ -1,5 +1,5 @@
 {
-  "_note": "Canonical Arabic-first rewrite for gallstones: ultrasound finding, symptom assessment, safety and surgical-decision intent.",
+  "_note": "Canonical long-form educational article on gallstones: symptoms, ultrasound assessment, surgery decisions, and emergency signs. Replaces legacy overview record.",
   "articles": [
     {
       "slug": "gallstones-symptoms-and-surgery",
@@ -13,57 +13,64 @@
         "ultrasound"
       ],
       "date": "2026-09-07",
-      "updatedAt": "2026-09-18",
-      "readingTime": 13,
+      "updatedAt": "2026-09-24",
+      "readingTime": 14,
       "author": "mohab-ashraf",
-      "reviewedBy": "shimaa-fouad",
       "image": "assets/img/articles/gallstones-symptoms-and-surgery.webp",
       "title": {
-        "ar": "حصوات المرارة في السونار: متى تحتاج تقييماً عاجلاً؟",
-        "en": "Gallstones on ultrasound: when to seek urgent care"
+        "ar": "أعراض حصوات المرارة ومتى تحتاج إلى تدخل جراحي: الدليل الطبي الكامل",
+        "en": "Gallstone symptoms and surgery: when to watch, when to operate, and when to seek urgent care"
       },
       "excerpt": {
-        "ar": "وجود حصوة في السونار لا يعني عملية تلقائياً، لكن ألم المرارة الحقيقي أو الحمى أو الاصفرار يحتاجون تقييماً منظماً وسريعاً حسب الشدة.",
-        "en": "A gallstone on ultrasound does not automatically mean surgery, but genuine biliary pain, fever or jaundice need organised and sometimes urgent assessment."
+        "ar": "دليل إكلينيكي متكامل يوضح الفارق بين حصوات المرارة الصامتة ونوبات المغص المراري، ودور السونار في التشخيص، ومتى تصبح الجراحة بالمنظار ضرورة طبية أو تدخلاً طارئاً.",
+        "en": "A comprehensive clinical guide explaining the difference between silent gallstones and biliary colic, the diagnostic role of ultrasound, and when laparoscopic surgery is indicated versus watchful waiting."
       },
       "tags": {
         "ar": [
           "حصوات المرارة",
-          "ألم المرارة",
-          "سونار المرارة",
-          "عملية المرارة",
-          "نتوءات المرارة"
+          "المغص المراري",
+          "استئصال المرارة",
+          "سونار البطن",
+          "الجراحة العامة"
         ],
         "en": [
           "gallstones",
-          "gallbladder pain",
-          "gallbladder ultrasound",
+          "biliary colic",
           "cholecystectomy",
-          "gallbladder polyps"
+          "abdominal ultrasound",
+          "general surgery"
         ]
       },
       "sections": [
         {
           "id": "finding-is-not-plan",
           "heading": {
-            "ar": "حصوة في السونار ليست قراراً تلقائياً بالعملية",
-            "en": "A stone on ultrasound is not an automatic operation decision"
+            "ar": "اكتشاف حصوة المرارة بالصدفة ملاحظة طبية وليس قرارا جراحيا فوريا",
+            "en": "An incidental gallstone finding is an observation, not an automatic surgical plan"
           },
           "body": {
-            "ar": "حصوات المرارة رواسب صلبة تتكوّن داخل المرارة، وكثير من الناس يكتشفونها صدفة في سونار تم لسبب آخر ولا تكون لديهم نوبات ألم مراري. وجود الحصوة مهم في التقرير، لكنه لا يثبت أن كل انتفاخ أو حموضة أو ألم بطن سببه المرارة، ولا يعني أن كل شخص يحتاج استئصالاً فوراً. القرار يبدأ بسؤالين: هل توجد أعراض أو مضاعفات متوافقة؟ وهل هناك سبب يجعل المتابعة أو الجراحة مفيدة في هذه الحالة؟ [1, 2, 3]\n\nلا تفسر كلمة حصوة من لقطة التقرير وحدها. سبب طلب السونار، مكان الألم ومدته، الفحص، التحاليل والأدوية والحمل أو الأمراض المصاحبة قد تغير معنى النتيجة. خذ التقرير كاملاً إلى طبيبك بدل مقارنة حجم الحصوة أو عددها بتجربة شخص آخر. [1, 2, 4]",
-            "en": "Gallstones are solid deposits that form inside the gallbladder. Many people learn about them incidentally during an ultrasound ordered for another reason and never have biliary attacks. The finding matters, but it does not prove that every episode of bloating, reflux or abdominal pain comes from the gallbladder, nor does it mean every person needs immediate removal. The decision begins with two questions: Are there fitting symptoms or complications, and is there a reason that follow-up or surgery would help in this case? [1, 2, 3]\n\nDo not interpret the word ‘stone’ from a cropped report alone. Why the ultrasound was requested, the location and duration of pain, examination, blood tests, medicines, pregnancy and other conditions can all change its meaning. Bring the complete report to review rather than comparing the number or size of stones with another person’s experience. [1, 2, 4]"
+            "ar": "عندما يُظهر فحص السونار للبطن، الذي قد يُجرى بالصدفة كفحص دوري أو لتقييم انتفاخ عابر أو لأسباب أخرى، وجود حصوات في المرارة، فإن رد الفعل الأول الشائع لدى كثيرين هو القلق الشديد [4, 6]. ويعتقد عدد غير قليل من الناس أن مجرد اكتشاف الحصوة يعني بالضرورة حتمية استئصال المرارة جراحياً في أقرب وقت قبل حدوث انفجار أو مضاعفات خطيرة. ولكن في واقع الممارسة الإكلينيكية، فإن الاكتشاف التصويري العابر هو مجرد ملاحظة جسدية مجردة، ولا يعني تلقائياً وجود مرض نشط أو خطة جراحية مستعجلة [1, 2].\n\nتعمل المرارة البشرية كمستودع عضلي يقوم بتخزين العصارة الصفراوية التي يفرزها الكبد باستمرار وتركيزها، ثم تفريغها في الاثني عشر استجابةً للدهون الغذائية للمساعدة في الهضم. وتتشكل حصوات المرارة نتيجة اختلال التوازن الكيميائي في مكونات الصفراء، مما يؤدي إلى زيادة تشبع الكوليسترول أو ترسب أملاح البيليروبين [2]. وعند شريحة واسعة من حاملي الحصوات، تظل هذه التكوينات سابحة بهدوء داخل تجويف المرارة دون أن تحتك بجدارها المخاطي، أو تسد القناة المرارية، أو تعيق تدفق العصارة إطلاقاً [1, 3].\n\nوتؤكد الإرشادات الإكلينيكية العالمية، بما فيها توصيات المعهد الوطني للتميز في الرعاية الصحية البريطاني (NICE)، أن الحصوات الصامتة المكتشفة بالمصادفة لا تستدعي إجراء استئصال وقائي للمرارة، كما لا تتطلب إخضاع المريض لفحوصات سونار متكررة ترهقه نفسياً بلا مبرر [1]. إن التوصية العلمية المعتمدة هي طمأنة المريض مع تقديم توعية إكلينيكية دقيقة توضح طبيعة الأعراض المرارية الحقيقية، حتى يكون على دراية تامة بالوقت الصحيح الذي يستوجب مراجعة الطبيب المتخصص إذا طرأ أي تغيير [1, 2].",
+            "en": "When an abdominal ultrasound examination performed for routine screening, non-specific bloating, or fertility evaluation reveals gallstones, the immediate patient reaction is often anxiety [4, 6]. Many people assume that detecting a stone in the gallbladder mandates prompt surgical excision before something ruptures. In clinical reality, an incidental imaging finding is merely a physical observation; it does not automatically represent active disease or an urgent surgical plan [1, 2].\n\nThe human gallbladder functions as a reservoir that concentrates and stores bile produced continuously by the liver, discharging it into the duodenum in response to dietary fats. Gallstones form when chemical imbalances in bile composition lead to cholesterol supersaturation or pigment precipitation [2]. In a substantial proportion of people carrying gallstones, these crystalline deposits float silently within the gallbladder lumen without irritating the mucosal lining, obstructing the cystic duct, or impeding bile flow [1, 3].\n\nGlobal clinical guidelines, including comprehensive recommendations from the National Institute for Health and Care Excellence (NICE), state that true silent gallstones discovered incidentally require neither routine prophylactic cholecystectomy nor continuous, anxiety-inducing ultrasound monitoring [1]. Instead, the standard recommendation is clinical reassurance coupled with clear, proactive patient education: understanding the specific nature of biliary symptoms so that if changes occur, the patient knows precisely when to seek targeted medical review [1, 2]."
           },
           "links": {
             "ar": [
               {
-                "label": "سونار",
+                "label": "فحص السونار للبطن",
                 "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+              },
+              {
+                "label": "الحصوات الصامتة",
+                "url": "../articles/silent-gallstones-usually-need-no-treatment.html"
               }
             ],
             "en": [
               {
-                "label": "ultrasound",
+                "label": "abdominal ultrasound examination",
                 "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+              },
+              {
+                "label": "silent gallstones",
+                "url": "../articles/silent-gallstones-usually-need-no-treatment.html"
               }
             ]
           }
@@ -71,32 +78,32 @@
         {
           "id": "typical-pain",
           "heading": {
-            "ar": "ما شكل الألم المراري المحتمل؟",
-            "en": "What can typical biliary pain feel like?"
+            "ar": "التعرف على المغص المراري النموذجي: سمات الألم وتوقيته وموقعه في أعلى البطن",
+            "en": "Recognizing typical biliary colic: characteristics, timing, and upper abdominal pain"
           },
           "body": {
-            "ar": "الألم المراري المحتمل يكون غالباً ثابتاً وشديداً في أعلى يمين البطن أو منتصفه، وقد يمتد للظهر أو الكتف الأيمن، وقد يصاحبه غثيان أو قيء. قد يظهر بعد وجبة لكنه ليس اختباراً منزلياً: ألم بعد الأكل وحده لا يشخص حصوة، والدهون ليست سبباً مؤكداً لكل نوبة. ما يفيد الطبيب هو توقيت البداية، المدة، هل تكررت النوبة، ما الذي صاحبها، وهل تغيرت قدرتك على الأكل أو الشرب أو الحركة. [1, 2, 3]\n\nالحموضة، عسر الهضم، القولون، قرحة المعدة، التهاب البنكرياس أو أسباب أخرى قد تتداخل في العرض. لذلك لا تبدأ مضاداً حيوياً أو مسكناً قوياً أو حمية قاسية لتثبت التشخيص. دوّن مكان الألم وعلاقته بالأكل والحرارة أو القيء والتبرز، واذهب بالمعلومات إلى تقييم سريري. [2, 3, 5]",
-            "en": "Possible biliary pain is often steady and substantial in the upper right or middle abdomen. It can travel to the back or right shoulder and may come with nausea or vomiting. It may occur after a meal, but that is not a home diagnostic test: pain after food alone does not diagnose a stone, and fat is not a proven trigger for every episode. What helps a clinician is onset, duration, recurrence, accompanying symptoms and whether eating, drinking or moving has become difficult. [1, 2, 3]\n\nReflux, dyspepsia, bowel conditions, ulcer disease, pancreatitis and other causes can overlap. Do not start an antibiotic, strong pain medicine or a restrictive diet in an attempt to prove the diagnosis. Record pain location, relation to eating, fever, vomiting and bowel changes, then take that record for clinical assessment. [2, 3, 5]"
+            "ar": "إن التمييز الحاسم بين وجود حصوات صامتة لا ضرر منها وبين المرض المراري الفعلي يعتمد في المقام الأول على معرفة النمط الإكلينيكي الفريد للمغص المراري [2, 3]. يحدث المغص المراري الحقيقي عندما تنقبض المرارة لدفع العصارة، فتتحرك إحدى الحصوات وتسد مؤقتاً عنق المرارة أو مخرج قناتها (القناة المرارية الكيسية)، مما يؤدي إلى زيادة حادة ومفاجئة في الضغط داخل تجويف المرارة [2, 7]. وينتج عن ذلك ألم حشوي مميز يختلف اختلافاً جوهرياً عن اضطرابات الجهاز الهضمي المعتادة.\n\nيتصف المغص المراري النموذجي بأنه ألم ثابت ومستمر، يشبه العصر أو الثقل الشديد في أعلى الجانب الأيمن من البطن أو في منطقة فم المعدة أسفل عظم القص مباشرة [2, 3]. وخلافاً للتقلصات المعوية العادية التي تأتي وتختفي كل بضع ثوانٍ، يتصاعد الألم المراري تدريجياً خلال 15 إلى 60 دقيقة ليصل إلى ذروة ثابتة وشديدة تستمر لعدة ساعات متواصلة دون انقطاع، قبل أن يهدأ تدريجياً مع ارتخاء المرارة أو عودة الحصوة إلى قاعها [2, 3]. ويميل هذا الألم بصورة مميزة إلى الانتقال أو التسميع نحو الظهر وأسفل لوح الكتف الأيمن [2].\n\nغالباً ما تبدأ نوبات الألم في ساعات المساء المتأخرة أو أثناء الليل، وتحديداً بعد تناول وجبة دسمة أو غنية بالدهون بساعة إلى ثلاث ساعات، مع إمكانية حدوثها أحياناً دون مقدمات غذائية واضحة [2, 5]. وفي المقابل، فإن الشكاوى اليومية المبهمة مثل الانتفاخ البسيط المتكرر، أو تقلصات القولون المتنقلة، أو الحموضة وحرقة المعدة، أو الغازات العابرة واضطراب الإخراج، هي أعراض ترتبط في الغالب بحالات وظيفية أخرى مثل متلازمة القولون العصبي أو ارتجاع المريء [1, 4]. واستئصال المرارة لعلاج مثل هذه الأعراض الهضمية غير المرارية لن يحقق للمريض الراحة المرجوة [1].",
+            "en": "Distinguishing harmless incidental stones from active gallstone disease centers on recognizing the distinctive clinical pattern of biliary colic [2, 3]. Biliary colic occurs when a gallbladder contraction pushes a stone temporarily against the cystic duct outlet, creating transient mechanical obstruction and increased intraluminal pressure [2, 7]. This produces a specific visceral discomfort that differs markedly from ordinary gastrointestinal complaints.\n\nClassic biliary colic typically presents as a steady, aching, or intensely gripping pain located in the right upper quadrant of the abdomen or the epigastrium just below the breastbone [2, 3]. Rather than fluctuating in brief wave-like spikes every few seconds like intestinal cramps, biliary pain usually builds over 15 to 60 minutes to a plateau, persists continuously at high intensity for one to several hours, and then gradually subsides as the gallbladder relaxes or the stone dislodges back into the lumen [2, 3]. The pain frequently radiates around the right lower ribcage to the right shoulder blade or back [2].\n\nAttacks often arise late in the evening or during the night, frequently one to three hours following a meal rich in dietary fats, though they can occasionally occur unpredictably [2, 5]. In contrast, vague daily complaints such as mild generalized abdominal bloating, chronic lower abdominal cramps, heartburn, excessive gas, or irregular bowel movements are far more characteristic of functional conditions like irritable bowel syndrome or acid reflux [1, 4]. Removing the gallbladder for non-biliary functional symptoms does not resolve the patient's underlying discomfort [1]."
           },
           "links": {
             "ar": [
               {
-                "label": "القولون",
+                "label": "متلازمة القولون العصبي",
                 "url": "../articles/ibs-colon-symptoms-red-flags.html"
               },
               {
-                "label": "عسر الهضم",
+                "label": "ارتجاع المريء",
                 "url": "../articles/acid-reflux-when-to-see-doctor.html"
               }
             ],
             "en": [
               {
-                "label": "Reflux",
-                "url": "../articles/acid-reflux-when-to-see-doctor.html"
+                "label": "irritable bowel syndrome",
+                "url": "../articles/ibs-colon-symptoms-red-flags.html"
               },
               {
-                "label": "bowel conditions",
-                "url": "../articles/ibs-colon-symptoms-red-flags.html"
+                "label": "acid reflux",
+                "url": "../articles/acid-reflux-when-to-see-doctor.html"
               }
             ]
           }
@@ -104,23 +111,23 @@
         {
           "id": "what-ultrasound-and-tests-do",
           "heading": {
-            "ar": "السونار والتحاليل يجيب كل منهما عن سؤال مختلف",
-            "en": "Ultrasound and blood tests answer different questions"
+            "ar": "دور فحص السونار والتحاليل المعملية في تقييم حصوات المرارة والقنوات الصفراوية",
+            "en": "The role of ultrasound and laboratory testing in evaluating gallstones and the biliary tree"
           },
           "body": {
-            "ar": "سونار البطن هو فحص شائع لرؤية حصوات المرارة وتفاصيل مثل جدار المرارة أو اتساع القنوات بحسب السؤال وجودة الصورة. عند ألم أو اصفرار أو قيء قد يراجع الطبيب أيضاً تحاليل الدم المتعلقة بالالتهاب ووظائف الكبد والبنكرياس، وقد يطلب تصويراً آخر أو منظاراً للقنوات في ظروف محددة. ليس الهدف أن يحصل كل شخص على كل الفحوص، بل أن نعرف هل المشكلة داخل المرارة، أو في القناة الصفراوية، أو لها تفسير آخر. [2, 4, 5, 6]\n\nتقرير يقول حصوات لا يخبر وحده إن كانت هي سبب الألم اليوم، وتقرير لا يثبت حصوات لا يلغي تلقائياً الأعراض المهمة. لا تؤجل التقييم إذا كان الألم شديداً أو يتغير، ولا تطلب منظاراً أو عملية فقط لأن كلمة مخيفة ظهرت في التقرير. اسأل: ما السؤال الذي أجاب عنه السونار، وما السؤال الذي بقي مفتوحاً؟ [2, 4, 6]",
-            "en": "Abdominal ultrasound is commonly used to see gallstones and details such as the gallbladder wall or bile-duct dilatation, depending on the question and image quality. With pain, jaundice or vomiting, a clinician may also review blood tests related to inflammation, liver function and the pancreas, and may select other imaging or duct endoscopy in particular circumstances. The purpose is not for everyone to have every test, but to determine whether the question concerns the gallbladder, a bile duct or another explanation. [2, 4, 5, 6]\n\nA report saying stones does not alone tell us whether they cause today’s pain, and a report that does not establish stones does not automatically dismiss important symptoms. Do not delay assessment for severe or changing pain, and do not request an endoscopy or operation simply because a frightening word appeared in the report. Ask: Which question did the ultrasound answer, and which question remains open? [2, 4, 6]"
+            "ar": "يتطلب الوصول إلى تشخيص إكلينيكي دقيق الربط الواعي بين التاريخ المرضي للمريض والفحوصات التشخيصية الموجهة. ويُعد فحص البطن بالموجات فوق الصوتية (السونار) الفحص التصويري الأول والموصى به عادةً عند الاشتباه في حصوات المرارة، حيث يتيح رؤية الحصوات وظلالها الصوتية وتغيرات جدار المرارة بوضوح مع ميزة الأمان التام وخلوه من الإشعاع المؤين [4, 6]. ورغم أن السونار هو الوسيلة التصويرية الأساسية لتقييم الحصوات وجدار المرارة، إلا أن الربط الإكلينيكي بين نتائج الأشعة وأعراض المريض والتحاليل المعملية يظل أمراً ضرورياً لا غنى عنه [4, 6].\n\nولا تقتصر قيمة السونار على رصد وجود الحصوات ومظهرها فحسب، بل تتيح للطبيب فحص الخصائص التركيبية للمرارة، مثل قياس سماكة جدارها أو التحقق من وجود سوائل حولها، وتقييم موضع الألم أثناء الفحص [6, 10]. ومع ذلك، فإن فحص السونار، رغم قيمته التصويرية، لا يضمن رؤية مسار القنوات الصفراوية بالكامل في كل الأوقات ولا يستبعد كافة التغيرات الالتهابية بمفرده، حيث قد تتأثر جودة الرؤية بوجود غازات في البطن أو بطبيعة بنية الجسم والتحضير [4, 6]. كما أن الأشعة المقطعية، رغم دورها المهم في التقييم العام لطوارئ البطن، قد لا تُظهر بعض حصوات المرارة بوضوح إذا كانت كثافتها مقاربة للسائل الصفراوي المحيط بها [4, 6].\n\nولا يلزم إجراء تحاليل دم بصورة تلقائية لكل شخص تكتشف لديه حصوة صامتة تماماً دون أعراض، لكنها تصبح وسيلة تقييم مهمة عند وجود ألم أو اشتباه في التهاب حاد أو اضطراب في تصريف القنوات الصفراوية [1, 4, 10]. وفي تلك الحالات، قد يطلب الطبيب تحاليل تشمل صورة الدم للتحقق من مؤشرات الالتهاب، مع وظائف الكبد لتقييم إنزيمات الكبد والقنوات الصفراوية [4, 10]. ورغم أن النتائج المخبرية الطبيعية توفر معلومات أولية مطمئنة، إلا أنها لا تغني عن التقييم الإكلينيكي للأعراض؛ وفي المقابل، يساعد وجود ارتفاع في مؤشرات مثل البيليروبين أو الفوسفاتيز القلوي في توجيه الطبيب نحو مدى الحاجة لفحوصات تصويرية تكميلية أو استشارة متخصصة [4, 5, 10].",
+            "en": "Accurate clinical assessment requires combining careful medical history with targeted diagnostic testing. Transabdominal ultrasound is widely recognized as a usually appropriate, first-line imaging test for suspected gallstone disease, providing clear evaluation of calculi, acoustic shadowing, and gallbladder wall findings while avoiding ionizing radiation [4, 6]. While ultrasound is the primary imaging modality to visualize stones and assess wall changes, clinical correlation with patient symptoms and laboratory results remains essential [4, 6].\n\nBeyond identifying the presence and appearance of calculi, a focused ultrasound examination allows clinicians to inspect structural features of the gallbladder, such as wall thickness or surrounding fluid, and assess localized tenderness over the gallbladder during the scan [6, 10]. While ultrasound provides valuable structural detail, it cannot categorically rule out every inflammatory change or guarantee complete visualization of the entire biliary tree on its own, as image clarity can be influenced by bowel gas, patient anatomy, or preparation [4, 6]. In addition, while computed tomography (CT) is widely used for broad emergency abdominal assessment, certain gallstones can be difficult to distinguish on CT if their composition has a radiodensity similar to surrounding bile [4, 6].\n\nLaboratory blood tests are not routinely required for every person with a truly silent, incidental gallstone, but they become an important clinical tool when symptoms, suspected acute inflammation, or biliary obstruction are being evaluated [1, 4, 10]. In such situations, clinicians may request blood tests: such as a complete blood count to check for inflammatory markers, alongside a liver chemistry panel to assess hepatic and biliary enzymes [4, 10]. While normal laboratory findings provide reassuring baseline information, they do not replace clinical history; conversely, abnormal results, such as elevated bilirubin or alkaline phosphatase, help guide whether further imaging or specialist ductal evaluation is warranted [4, 5, 10]."
           },
           "links": {
             "ar": [
               {
-            "label": "تحاليل الدم",
+                "label": "وظائف الكبد",
                 "url": "../articles/liver-function-tests-need-context.html"
               }
             ],
             "en": [
               {
-                "label": "blood tests",
+                "label": "liver chemistry panel",
                 "url": "../articles/liver-function-tests-need-context.html"
               }
             ]
@@ -129,24 +136,24 @@
         {
           "id": "silent-versus-symptomatic",
           "heading": {
-            "ar": "الحصوة الصامتة تختلف عن حصوة تسبب نوبات",
-            "en": "A silent stone differs from a stone causing attacks"
+            "ar": "الحصوات الصامتة مقابل المرض المصحوب بأعراض: متى تكون الملاحظة الواعية هي الخيار الصائب؟",
+            "en": "Silent gallstones versus symptomatic disease: when watchful waiting is the right choice"
           },
           "body": {
-            "ar": "كثير من الحصوات لا تسبب عرضاً واضحاً، وقد تكون المتابعة هي الأنسب بدلاً من جراحة روتينية لمجرد اكتشافها. أما تكرار نوبات ألم متوافقة، أو التهاب المرارة، أو انسداد القنوات أو مضاعفات أخرى، فيغير النقاش. لا توجد قاعدة آمنة تقول إن حجم الحصوة وحده، أو وجبة واحدة مؤلمة، يقرر العملية؛ التاريخ المرضي والنتائج وحالتك العامة جزء من القرار. [1, 2, 3, 7]\n\nإذا كنت تعرف أن لديك حصوات ولم يحدث ألم نموذجي، لا تعيش على قائمة ممنوعات خوفاً منها. احتفظ بسجل مختصر إن ظهر ألم، واتفق في المراجعة على ما يستدعي اتصالاً أسرع. أما إذا كانت النوبات متكررة أو تعطل العمل والنوم أو الأكل، فهذه معلومة مهمة للجراح أو طبيب الجهاز الهضمي، وليست شيئاً يجب تحمله في البيت. [1, 2, 7]",
-            "en": "Many stones cause no clear symptom, and follow-up may be more appropriate than routine surgery solely because they were found. Recurrent fitting pain attacks, gallbladder inflammation, bile-duct obstruction or other complications change the discussion. There is no safe rule that the size of a stone alone, or one painful meal, decides on an operation. History, results and overall health are all part of the decision. [1, 2, 3, 7]\n\nIf you know you have stones but have not had typical pain, do not live on a fearful forbidden-food list. Keep a short record if pain occurs and agree at review what requires earlier contact. If attacks recur or interfere with work, sleep or eating, that information matters to a surgeon or digestive specialist and is not something you should simply endure at home. [1, 2, 7]"
+            "ar": "الخط الفاصل الجوهري في التعامل الطبي مع حصوات المرارة يكمن في التمييز الصارم بين الحصوات الصامتة غير المصحوبة بأعراض وبين المرض المراري المصحوب بأعراض سريرية حقيقية [1, 2]. فالغالبية العظمى من الأشخاص الذين تُكتشف لديهم حصوات صامتة بالصدفة تظل هذه الحصوات لديهم دون أي أعراض، كما أن حدوث مضاعفات حادة ومفاجئة دون نوبات تحذيرية سابقة يُعد أمراً غير شائع [1, 2]. وبناءً على ذلك، فإن إخضاع المريض لعملية جراحية لاستئصال المرارة في غياب الأعراض يعرضه لمخاطر التخدير والجراحة دون جدوى طبية حقيقية [1, 7].\n\nعلاوة على ذلك، لا تؤيد المعايير الطبية المعتمدة إلزام المريض بفحوصات سونار روتينية متكررة كل 6 إلى 12 شهراً لمجرد مراقبة حصوة صامتة ومستقرة [1]. فمثل هذه المتابعات الدورية المتكررة قلما تغير مجرى القرار الطبي طالما غابت الأعراض، وغالباً ما تتسبب في خلق قلق مرضي مستمر ومصاريف غير مبررة للمريض [1]. إن الملاحظة الواعية (Watchful Waiting) هي النهج الطبي الموصى به: وهو أن يعيش الشخص حياته الطبيعية دون حميات قاسية أو إجراءات غير لازمة، مع تزويده بفهم إكلينيكي واضح لطبيعة الألم المراري لمراجعة الطبيب عند ظهوره فقط [1, 2].\n\nوفي الممارسة الإكلينيكية، فإن الحالات الاستثنائية التي قد يُناقش فيها استئصال المرارة وقائياً في غياب الأعراض تعد غير شائعة وتخضع لتقييم فردي دقيق للمخاطر [1, 7]. وبدلاً من تطبيق قاعدة جراحية تلقائية، يقوم الطبيب المتخصص بمراجعة أي موجودات تشريحية أو سياقات طبية مصاحبة غير معتادة: مثل بعض التغيرات التركيبية النادرة في التصوير أو الحالات الصحية المحددة: كل حالة على حدة [1, 7]. أما في الحالات المعتادة للحصوات الصامتة المكتشفة عرضاً، فإن الإرشادات الطبية تؤكد على طمأنة المريض وتجنب الجراحة غير المبررة والالتزام بالملاحظة الواعية [1, 2].",
+            "en": "The fundamental dividing line in gallstone management lies strictly between asymptomatic gallstones and documented symptomatic disease [1, 2]. For the vast majority of individuals who learn they have gallstones during an incidental ultrasound, the stones remain entirely asymptomatic throughout life, and developing severe acute complications without preceding warning symptoms is uncommon [1, 2]. Consequently, routine prophylactic gallbladder removal for silent gallstones exposes patients to surgical and anesthetic risks without clinical benefit [1, 7].\n\nFurthermore, clinical consensus does not support subjecting patients with completely silent gallstones to arbitrary, repetitive ultrasound surveillance every six to twelve months [1]. Periodic serial scans rarely alter clinical management in the absence of new symptoms and serve primarily to generate unnecessary health anxiety [1]. Watchful waiting, or expectant management, is the established standard of care: living normally without dietary extremes or prophylactic procedures, supported by explicit guidance on what genuine biliary pain feels like [1, 2].\n\nIn clinical practice, potential exceptions where prophylactic gallbladder removal might be considered in the absence of symptoms are uncommon and involve distinct, individualized risk assessments [1, 7]. Rather than following an automatic formula, a specialist reviews unusual coexisting anatomical or medical features: such as rare structural findings on imaging or specific underlying hematologic conditions: on a case-by-case basis [1, 7]. For the standard presentation of asymptomatic incidental gallstones, current guidelines emphasize reassurance, avoiding unnecessary surgical risk, and observing without routine intervention [1, 2]."
           },
           "links": {
             "ar": [
               {
-                "label": "الجهاز الهضمي",
-                "url": "../articles/category-gastroenterology-hepatology.html"
+                "label": "استئصال المرارة",
+                "url": "../articles/gallbladder-laparoscopic-or-open-surgery.html"
               }
             ],
             "en": [
               {
-                "label": "digestive specialist",
-                "url": "../articles/category-gastroenterology-hepatology.html"
+                "label": "gallbladder removal",
+                "url": "../articles/gallbladder-laparoscopic-or-open-surgery.html"
               }
             ]
           }
@@ -154,32 +161,24 @@
         {
           "id": "when-surgery-considered",
           "heading": {
-            "ar": "متى يناقش الطبيب استئصال المرارة؟",
-            "en": "When might gallbladder removal be discussed?"
+            "ar": "متى تصبح عملية المرارة ضرورة طبية: التعامل مع المغص المتكرر والالتهاب الحاد",
+            "en": "When gallbladder surgery is indicated: managing recurrent colic and acute inflammation"
           },
           "body": {
-            "ar": "استئصال المرارة بالمنظار هو علاج شائع عندما تُنسب أعراض أو مضاعفات للحصوات بعد تقييم مناسب، لكن توقيت العملية وطريقتها والتحضير لها ليست واحدة للجميع. الجراح يراجع النوبات، السونار، التحاليل، العمليات السابقة، الأدوية خصوصاً مميعات الدم، الحمل والأمراض المزمنة، ويشرح الفوائد والمخاطر والبدائل الواقعية. هذا ليس حكماً بأن المرارة يجب أن تُزال في كل حالة. [1, 2, 7, 8]\n\nاسأل في الموعد: ما الذي يجعل الأعراض متوافقة مع المرارة؟ هل توجد علامة على مشكلة في القنوات؟ ما الذي أتوقعه قبل العملية وبعدها؟ ومن أتصل به لو عادت الأعراض؟ هذه أسئلة عملية أفضل من وعد شخصي بأن العملية ستحل كل ألم أو انتفاخ. [2, 7, 8]",
-            "en": "Laparoscopic gallbladder removal is a common treatment when symptoms or complications are attributed to stones after suitable assessment, but its timing, technique and preparation are not identical for everyone. The surgeon reviews attacks, ultrasound, tests, earlier operations, medicines—especially blood thinners—pregnancy and chronic conditions, and explains realistic benefits, risks and alternatives. This is not a verdict that every gallbladder must be removed. [1, 2, 7, 8]\n\nAt the appointment, ask: What makes the symptoms fit the gallbladder? Is there a sign of a duct problem? What should I expect before and after surgery? Whom do I contact if symptoms return? These practical questions are better than a personal promise that an operation will solve every pain or episode of bloating. [2, 7, 8]"
+            "ar": "بمجرد أن يبدأ المريض في مواجهة نوبات مغص مراري حقيقية وموثقة، يتغير المسار الطبي لإدارة الحالة بصورة كاملة [1, 2]. وتؤكد الأدلة الإكلينيكية أنه بمجرد حدوث نوبة أولى من المغص المراري، فإن تكرار نوبات الألم يظل أمراً وارداً ومحتملاً، كما تحمل الحصوات المصحوبة بأعراض خطراً مستمراً لحدوث مضاعفات مثل التهاب المرارة الحاد أو انسداد القنوات الصفراوية أو التهاب البنكرياس المراري [1, 5, 10]. ولهذا السبب، فإن الحصوات المصحوبة بأعراض تستوجب تقييماً جراحياً متخصصاً لمناقشة مدى ملاءمة التدخل العلاجي [1, 7].\n\nتعد عملية استئصال المرارة بالمنظار (Laparoscopic Cholecystectomy)، التي تُجرى عبر فتحات دقيقة في جدار البطن تحت التخدير الكلي، النهج الجراحي المعتمد والشائع عالمياً للتعامل مع أمراض المرارة المصحوبة بأعراض [5, 7, 8]. وتوضح إرشادات جمعية جراحي الجهاز الهضمي والتنظير الأمريكية (SAGES) والجمعية العالمية لجراحة الطوارئ (WSES) أن استئصال المرارة بالمنظار يعالج المصدر الأساسي للحصوات ونوبات المغص المراري، مع بقاء المتابعة الإكلينيكية مهمة في حال ظهور أي أعراض صفراوية أخرى [7, 10]. أما البدائل غير الجراحية، مثل أدوية إذابة الحصوات، فذات فائدة محدودة للغاية ولا تناسب أغلب الحالات، وتُحجز عموماً فقط لفئات مختارة لا تسمح حالتهم الصحية بالجراحة [5].\n\nويعتمد توقيت التدخل الجراحي على التقييم الإكلينيكي الفردي لكل مريض [1, 10]. ففي حالات المغص المتكرر دون وجود التهاب حاد، تُجدول العملية جراحياً في توقيت ملائم ومستقر بعد مناظرة الجراح [1, 7]. أما عند تأكيد حدوث التهاب المرارة الحاد: المصحوب بألم مستمر وحمى وارتفاع كرات الدم البيضاء وعلامات التهابية بالسونار: فإن الإرشادات العالمية تحث على التدخل الجراحي المبكر بالمنظار خلال أيام الدخول الأولى في المستشفى، مع تحديد التوقيت الدقيق فردياً بواسطة الفريق الجراحي وفق حالة المريض ومدة الأعراض ومدى استقراره [1, 10]. إن إجراء الجراحة المبكرة وفق الإرشادات يقلل فترة التعافي الكلية ويخفض معدلات التحويل إلى جراحة مفتوحة مقارنة بالتأجيل غير المبرر [1, 10].",
+            "en": "Once a patient experiences genuine, documented biliary colic, the natural history of gallstone disease changes substantially [1, 2]. Clinical evidence demonstrates that once an initial episode of biliary colic occurs, future symptom recurrence is possible, and symptomatic gallstones carry an ongoing risk of complications such as acute cholecystitis, bile duct obstruction, or gallstone pancreatitis [1, 5, 10]. For this reason, documented symptomatic gallstones merit specialist surgical review to evaluate the benefits of definitive treatment [1, 7].\n\nLaparoscopic cholecystectomy, the surgical removal of the gallbladder through several small abdominal incisions under general anesthesia, is the widely established surgical approach for managing symptomatic gallstone disease [5, 7, 8]. The Society of American Gastrointestinal and Endoscopic Surgeons (SAGES) and the World Society of Emergency Surgery (WSES) note that laparoscopic cholecystectomy treats the primary gallbladder source of stones and recurrent colic episodes, although comprehensive clinical follow-up remains important for any residual or new biliary symptoms [7, 10]. Non-surgical alternatives, such as oral dissolution therapy, have very narrow utility, are rarely suitable, and are generally reserved only for specific individuals unable to undergo surgery [5].\n\nTiming of surgery depends directly on clinical acuity and individual patient assessment [1, 10]. For elective recurrent colic without active inflammation, surgery is scheduled electively at a convenient interval after surgical consultation [1, 7]. When acute cholecystitis is confirmed by sustained pain, fever, leukocytosis, and sonographic wall inflammation, modern international guidelines strongly advocate early laparoscopic cholecystectomy during the index admission, typically within the first few days of presentation, while timing is individualized by the surgical team based on patient stability, symptom duration, and operative conditions [1, 10]. Early intervention within guidelines helps shorten total hospital recovery, lower open conversion risks, and reduce overall morbidity compared to unselected delayed interval operations [1, 10]."
           },
           "links": {
             "ar": [
               {
                 "label": "استئصال المرارة بالمنظار",
                 "url": "../articles/gallbladder-laparoscopic-or-open-surgery.html"
-              },
-              {
-                "label": "العملية",
-                "url": "../articles/gallbladder-surgery-operation-day-guide.html"
               }
             ],
             "en": [
               {
-                "label": "Laparoscopic gallbladder removal",
+                "label": "Laparoscopic cholecystectomy",
                 "url": "../articles/gallbladder-laparoscopic-or-open-surgery.html"
-              },
-              {
-                "label": "operation",
-                "url": "../articles/gallbladder-surgery-operation-day-guide.html"
               }
             ]
           }
@@ -187,12 +186,12 @@
         {
           "id": "pregnancy-and-special-contexts",
           "heading": {
-            "ar": "الحمل والأدوية والظروف الخاصة تحتاج خطة منفصلة",
-            "en": "Pregnancy, medicines and special contexts need an individual plan"
+            "ar": "حصوات المرارة أثناء فترة الحمل، والظروف الأيضية، وسياقات الرعاية الخاصة",
+            "en": "Gallstones in pregnancy, metabolic conditions, and specific health contexts"
           },
           "body": {
-            "ar": "الحمل أو فترة ما بعد الولادة، السكري، أدوية إنقاص الوزن، مميعات الدم، جراحة سابقة في البطن أو مرض كبد أو بنكرياس قد تؤثر في معنى الألم أو اختيار الفحوص أو توقيت التدخل. لا توقف دواءً موصوفاً، ولا تؤخر الإبلاغ عن ألم شديد أو حرارة لأنك حامل أو لأنك تخاف من الجراحة. الفريق المعالج يوازن بين الأعراض ونتائج الفحوص وسلامة الأم والجنين عندما ينطبق ذلك. [2, 5, 7, 9]\n\nالألم أعلى البطن في الحمل ليس تشخيص مرارة تلقائياً، كما أن وجود حصوة لا يفسر كل غثيان. اذكر عمر الحمل، الأدوية، تاريخ الحصوات ونتائج السونار عند التواصل، واتبع توجيه رعاية عاجلة إذا كان الألم شديداً أو مع قيء مستمر أو اصفرار أو تدهور. [2, 5, 9]",
-            "en": "Pregnancy or the postpartum period, diabetes, weight-loss medicines, blood thinners, previous abdominal surgery or liver and pancreas conditions can affect what pain means, which tests are selected or the timing of intervention. Do not stop a prescribed medicine or delay reporting severe pain or fever because you are pregnant or worried about surgery. The care team weighs symptoms, results and maternal-fetal safety where relevant. [2, 5, 7, 9]\n\nUpper-abdominal pain in pregnancy is not automatically a gallbladder diagnosis, just as a stone does not explain every episode of nausea. State gestational age, medicines, stone history and ultrasound results when contacting care, and follow urgent-care advice if pain is severe or comes with persistent vomiting, jaundice or deterioration. [2, 5, 9]"
+            "ar": "قد تتقاطع أمراض حصوات المرارة مع ظروف فسيولوجية وأيضية تتطلب تقييماً إكلينيكياً خاصاً ومتوازناً [2, 9]. فخلال فترة الحمل، يمكن للتغيرات الهرمونية الطبيعية أن تؤثر على تركيب العصارة الصفراوية وحركية تفريغ المرارة، مما يجعل الأعراض المرارية محط اهتمام أثناء متابعة الحمل [2]. وعند شعور الحامل بأي ألم في أعلى البطن أو اشتباه في أعراض مرارية، فإن التقييم الطبي المباشر بواسطة الفريق المتابع أمر أساسي، ولا ينبغي أبداً إهمال الأعراض أو محاولة التعامل معها ذاتياً دون استشارة طبية متخصصة [2, 9].\n\nوعند حدوث أعراض مرارية ملحوظة أو اشتباه في التهاب أو مضاعفات أثناء الحمل، تتطلب الرعاية تنسيقاً دقيقاً ومتكاملاً بين أطباء النساء والتوليد وأطباء الجهاز الهضمي والجراحة [9]. واستناداً إلى رأي اللجنة رقم 775 الصادر عن الكلية الأمريكية لأطباء النساء والتوليد (ACOG) بشأن الجراحة غير التوليدية أثناء الحمل، فإن التدخل الجراحي المستدعي طبياً لا ينبغي تأخيره أو الامتناع عنه لمجرد وجود الحمل، بصرف النظر عن ثلث الحمل الحالي [9]. وتُتخذ القرارات العلاجية بصورة فردية لتحقيق التوازن بين راحة الأم وسلامة الحمل والجنين، مع تأجيل الإجراءات الاختيارية البحتة لما بعد الولادة [9].\n\nوبالمثل، يضع الأطباء الحالات الأيضية المصاحبة في الحسبان عند تقييم حصوات المرارة [2, 5]. وتُعد الحالات الصحية مثل مرض السكري أو السمنة أو التغيرات السريعة في الوزن بعد جراحات السمنة عوامل إكلينيكية مهمة يراعيها الطبيب عند تقييم الأعراض وتحديد خطة الفحص أو الإحالة الجراحية المناسبة [2, 5, 10]. ويضمن هذا التقييم الفردي موازنة المخاطر والفوائد لكل مريض بناءً على تاريخه الطبي الشامل [2, 5].",
+            "en": "Gallstone disease may intersect with distinct physiological and metabolic circumstances that require tailored clinical evaluation [2, 9]. During pregnancy, hormonal changes can influence bile composition and gallbladder motility, making biliary symptoms a potential consideration during gestational care [2]. When pregnant individuals experience upper abdominal discomfort or suspected biliary symptoms, careful evaluation by the obstetric and medical team is essential, and symptoms should never be self-managed or dismissed without professional assessment [2, 9].\n\nWhen significant biliary disease, acute cholecystitis, or complex biliary symptoms occur during pregnancy, management involves close multidisciplinary coordination between obstetricians, gastroenterologists, and surgeons [9]. In accordance with American College of Obstetricians and Gynecologists (ACOG) Committee Opinion 775 on nonobstetric surgery during pregnancy, medically indicated surgery should not be withheld or unnecessarily delayed solely because a patient is pregnant, regardless of the trimester of pregnancy [9]. Clinical decisions are individualized to balance maternal symptom relief, underlying disease severity, and fetal well-being, while truly elective procedures are typically postponed until after delivery [9].\n\nSimilarly, clinicians account for coexisting metabolic conditions when assessing gallstones [2, 5]. Factors such as diabetes mellitus, obesity, or rapid weight changes following bariatric interventions represent important health contexts that physicians consider when evaluating abdominal symptoms and planning investigation or surgical referral [2, 5, 10]. Rather than relying on generic assumptions, individual clinical evaluation ensures that symptom severity, overall medical history, and procedural risks are balanced appropriately [2, 5]."
           },
           "links": {
             "ar": [
@@ -203,7 +202,7 @@
             ],
             "en": [
               {
-                "label": "Pregnancy",
+                "label": "pregnancy",
                 "url": "../articles/gallbladder-pain-in-pregnancy-when-to-assess.html"
               }
             ]
@@ -212,64 +211,64 @@
         {
           "id": "urgent-signs",
           "heading": {
-            "ar": "متى لا تنتظر موعداً عادياً؟",
-            "en": "When should you not wait for a routine appointment?"
+            "ar": "علامات التحذير العاجلة: متى تشير أعراض المرارة إلى مضاعفات تتطلب الطوارئ فوراً؟",
+            "en": "Urgent red flags: identifying signs of gallbladder complications that require immediate emergency care"
           },
           "body": {
-            "ar": "اطلب تقييماً عاجلاً بحسب شدة الحالة مع ألم شديد أو مستمر لا يهدأ، حرارة أو رعشة، اصفرار العين أو الجلد، بول غامق، براز فاتح جداً، قيء متكرر، إغماء أو تدهور عام. قيء دموي أو براز أسود أو ألم صدر أو ضيق نفس يحتاج أيضاً رعاية عاجلة. هذه العلامات لا تثبت تشخيصاً واحداً، لكنها قد تشير إلى التهاب أو انسداد أو مشكلة أخرى لا تصلح لتجربة طعام أو دواء في البيت. [1, 2, 5, 6]\n\nإذا كان الألم أخف لكنه يتكرر، لا تنتظر حتى تصبح النوبة شديدة. سجل التفاصيل ورتب مراجعة مناسبة، خصوصاً إذا بدأ الألم يوقظك من النوم أو يمنعك من الأكل أو الشرب. [1, 2, 3]",
-            "en": "Seek urgent assessment according to severity for severe or persistent pain that does not settle, fever or chills, yellow eyes or skin, dark urine, very pale stool, repeated vomiting, fainting or general deterioration. Vomiting blood, black stool, chest pain or breathlessness also need urgent care. These signs do not prove one diagnosis, but they can indicate inflammation, obstruction or another problem that is not suitable for a home food or medicine experiment. [1, 2, 5, 6]\n\nIf pain is milder but recurring, do not wait until an attack becomes severe. Record the details and arrange appropriate review, especially if pain begins to wake you from sleep or prevents eating or drinking. [1, 2, 3]"
+            "ar": "في حين أن نوبة المغص المراري غير المعقدة تمثل تجربة مؤلمة ولكنها تزول تلقائياً مع الوقت، فإن حدوث مضاعفات ميكانيكية أو التهابية لحصوات المرارة يعد حالة طبية وجراحية طارئة تتطلب التوجه الفوري إلى المستشفى دون تأخير [2, 10]. ويجب على المرضى والمحيطين بهم معرفة الفوارق الواضحة بين المغص الذي يمكن تقييمه في عيادة متخصصة وبين العلامات التحذيرية التي تستوجب دخول قسم الطوارئ فوراً [2, 8, 10].\n\nأولى هذه العلامات هي استمرار الألم الشديد في أعلى يمين البطن أو فم المعدة لعدة ساعات متواصلة دون أي تحسن، وهو ما يستوجب تقييماً طبياً عاجلاً [2, 10]. فخلافاً للمغص العابر الذي يخف تدريجياً، يثير الألم المستمر والمتصاعد اشتباهاً إكلينيكياً قوياً في حدوث التهاب حاد في جدار المرارة نتيجة انحشار مطول للحصوة، مما يتطلب تقييماً فورياً في المستشفى بدلاً من انتظار موعد بالعيادة [10]. ثانياً، ظهور أعراض جهازية واضحة، وفي مقدمتها ارتفاع درجة الحرارة (الحمى)، أو القشعريرة والرجفة الشديدة، أو القيء المتكرر الذي يمنع المريض تماماً من شرب السوائل، إذ يدل ذلك على انتشار العدوى والالتهاب [2, 10].\n\nثالثاً، ملاحظة اصفرار في بياض العينين أو الجلد (اليرقان)، وخاصة إذا ترافق مع تغير لون البول ليصبح داكناً كلون الشاي وتحول لون البراز إلى لون باهت يشبه الطين أو الصلصال [2, 4, 8]. تشير هذه العلامات مباشرة إلى احتمال انسداد القناة المرارية الجامعة بحصوة متحركة، وهو ما قد يؤدي إلى التهاب صاعد خطير في القنوات الصفراوية (Acute Cholangitis) أو التهاب حاد في البنكرياس نتيجة قرب المجرى المشترك [2, 10]. رابعاً، التحجر التام والشديد في جدار البطن أو الشعور بالدوخة الحادة وفقدان الاتزان [10]. وعند ملاحظة أي من هذه المؤشرات، يجب عدم الانتظار لموعد كشف عادي، بل التوجه فوراً إلى أقرب طوارئ مستشفى [2, 8, 10].",
+            "en": "While ordinary biliary colic is painful but physically self-limited, mechanical gallstone complications represent medical and surgical emergencies that demand immediate hospital evaluation [2, 10]. Patients, families, and primary care clinicians must clearly recognize the critical warning signs that separate a manageable outpatient consultation from an urgent emergency room presentation [2, 8, 10].\n\nFirst, any right upper quadrant or epigastric abdominal pain that persists continuously and severely for several hours without subsiding is an alarming sign requiring urgent medical assessment [2, 10]. While uncomplicated biliary colic typically wanes, unrelenting severe pain raises strong clinical suspicion of acute cholecystitis from prolonged ductal impaction or acute biliary inflammation, which requires urgent hospital evaluation rather than an outpatient clinic wait [10]. Second, the emergence of systemic symptoms, specifically high fever, shaking chills, sweating, or severe nausea with persistent vomiting preventing oral hydration, indicates progressive infection or systemic inflammatory response [2, 10].\n\nThird, noticeable yellowing of the whites of the eyes or skin (jaundice), especially when accompanied by abnormally dark amber-colored urine and pale, clay-colored bowel movements, points directly to possible common bile duct obstruction (choledocholithiasis) where a stone impedes bile drainage [2, 4, 8]. Common bile duct obstruction risks acute cholangitis, a life-threatening biliary infection, as well as acute gallstone pancreatitis [2, 10]. Fourth, extreme abdominal tenderness, abdominal wall rigidity, or acute dizziness and confusion represent critical red flags [10]. If any of these signs appear, patients must not wait for a routine clinic appointment, but should proceed immediately to the nearest hospital emergency department [2, 8, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "after-surgery-questions",
+          "heading": {
+            "ar": "ما بعد عملية استئصال المرارة بالمنظار: الهضم، ومراحل التعافي، وطبيعة الحياة اليومية",
+            "en": "What to expect after laparoscopic cholecystectomy: digestion, recovery, and long-term life"
+          },
+          "body": {
+            "ar": "من أكثر المخاوف الشائعة التي تدور في أذهان المرضى المقبلين على جراحة المرارة هو التساؤل عن كيفية تعامل الجسم مع هضم الطعام واستمرار الحياة بصورة طبيعية بعد استئصال هذا العضو [5, 8]. ومن المهم علمياً إدراك أن الكبد هو المصنع الحقيقي للعصارة الصفراوية، ويستمر في إنتاجها بكفاءة كاملة سواء وُجدت المرارة أو استؤصلت [2, 5]. وبعد استئصال المرارة، تصبح العصارة تتدفق مباشرة وبصورة تدريجية مستمرة من الكبد عبر القنوات الصفراوية نحو الأمعاء الدقيقة، بدلاً من تخزينها بكميات مركزة وتفريغها دفعة واحدة بعد الوجبات الدسمة [5, 8].\n\nيتكيف الجهاز الهضمي البشري عموماً مع هذا التغير الوظيفي مع مرور الوقت [5, 8]. ولا يواجه كثير من الأشخاص قيوداً غذائية دائمة بعد اكتمال التعافي من الجراحة [5, 8]. وفي بعض الأحيان، قد يلاحظ المريض تغيرات مؤقتة في نمط الإخراج، مثل ليونة البراز أو بعض الانزعاج الهضمي خصوصاً بعد الوجبات الدسمة، نظراً للتدفق المستمر للعصارة الصفراوية في الأمعاء [5, 8]. وعادةً ما ينصح الأطباء بخطوات غذائية متوازنة في مرحلة التعافي الأولى، مثل تناول وجبات أصغر حجماً والاعتدال في الأطعمة الدسمة، ومراقبة استجابة الجهاز الهضمي [5, 8].\n\nأما من ناحية التعافي الجراحي، فإن استئصال المرارة بالمنظار يرتبط عموماً بفترات إقامة أقصر في المستشفى وتعافٍ أسرع مقارنة بالجراحة المفتوحة [7, 8]. واعتماداً على الحالة الصحية الفردية وظروف العملية وإرشادات الفريق الجراحي، يغادر العديد من المرضى المستشفى المجهز في نفس اليوم أو بعد فترة ملاحظة قصيرة [7, 11]. ويُعد الانزعاج البسيط حول جروح المنظار متوقعاً في البداية وتتم إدارته لبضعة أيام بمسكنات الألم الموصوفة من الفريق الطبي [8, 11]. كما أن العودة التدريجية للأنشطة اليومية الخفيفة، والعودة المشروطة للعمل خلال أسبوع إلى أسبوعين، واستئناف الجهد البدني تختلف بناءً على وتيرة الالتئام الفردية وتعليمات الخروج المحددة من الفريق الجراحي [7, 11].",
+            "en": "A common concern among patients contemplating gallbladder removal is how their body will digest food and function normally without this organ [5, 8]. It is reassuring to understand that the liver continuously produces bile regardless of whether the gallbladder is present [2, 5]. Following cholecystectomy, bile trickles continuously directly from the liver through the common bile duct into the small intestine, rather than being concentrated and stored for bolus release after heavy meals [5, 8].\n\nThe human digestive system generally adapts well to this physiological adjustment over time [5, 8]. Many individuals experience no significant long-term dietary limitations after recovering from surgery [5, 8]. In some instances, patients may notice temporary changes in bowel habits, such as looser stools or digestive discomfort, particularly after richer or high-fat meals, as bile flows continuously into the intestine [5, 8]. Clinicians typically suggest sensible dietary adjustments during early recovery, such as eating smaller, balanced meals and moderating fatty foods, while observing how the digestive tract responds [5, 8].\n\nFrom an operative recovery perspective, laparoscopic cholecystectomy generally involves shorter hospital stays and a faster recuperation than traditional open surgery [7, 8]. Depending on individual health, operative circumstances, and surgical team guidance, many patients are discharged the same day or following a brief observational stay in an equipped hospital [7, 11]. Mild incisional soreness is common initially and is usually managed for a few days with pain relief recommended by the hospital team [8, 11]. Resuming light daily activities, driving, returning to work within one to two weeks conditionally, and engaging in physical exertion vary based on individual healing and the operating team's specific discharge instructions [7, 11]."
           },
           "links": {
             "ar": [
               {
-                "label": "رعاية عاجلة",
-                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+                "label": "التعافي الجراحي",
+                "url": "../articles/after-gallbladder-surgery-recovery-warning-signs.html"
               }
             ],
             "en": [
               {
-                "label": "urgent care",
-                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+                "label": "operative recovery",
+                "url": "../articles/after-gallbladder-surgery-recovery-warning-signs.html"
               }
             ]
           }
         },
-      {
-        "id": "after-surgery-questions",
-        "heading": {
-          "ar": "بعد العملية: المتابعة لا تعني نسخ تجربة شخص آخر",
-          "en": "After surgery: follow-up is not another person’s recovery story"
-        },
-        "body": {
-          "ar": "بعد استئصال المرارة قد تختلف سرعة التعافي والتعليمات المتعلقة بالأكل، النشاط، الجرح والعودة للعمل بين الأشخاص ونوع الإجراء والحالة وقت العملية. لا تفترض أن ما ناسب قريباً أو منشوراً على الإنترنت يناسبك. اتبع تعليمات الفريق الذي أجرى العملية، واسأل عن الأدوية التي تستمر أو تتوقف، العناية بالجرح، ومتى تتواصل إذا زاد الألم أو ظهرت حرارة أو قيء أو مشكلة في الأكل أو الشرب. [7, 8, 10]\n\nوجود غازات أو تغير في التبرز بعد العملية لا يثبت وحده وجود مضاعفة، لكن الأعراض الشديدة أو المتزايدة أو التي تمنع الشرب تحتاج تقييماً. احتفظ بتقرير الخروج وقائمة الأدوية وموعد المراجعة. المتابعة الجيدة تشرح ما هو متوقع في حالتك وما الذي لا ينبغي الانتظار معه. [7, 8, 10]",
-          "en": "After gallbladder removal, the pace of recovery and instructions about food, activity, wounds and return to work can differ with the person, procedure and condition at operation. Do not assume that a relative’s or internet poster’s recovery applies to you. Follow the operating team’s instructions, and ask which medicines continue or stop, how to care for the wound, and when to make earlier contact for increasing pain, fever, vomiting or trouble eating or drinking. [7, 8, 10]\n\nGas or a change in bowel habit after surgery does not by itself prove a complication, but severe, worsening or drinking-limiting symptoms need assessment. Keep the discharge summary, medicine list and review date. Good follow-up explains what is expected in your situation and what should not wait. [7, 8, 10]"
-        },
-        "links": {
-          "ar": [{"label": "التعافي", "url": "../articles/after-gallbladder-surgery-recovery-warning-signs.html"}],
-          "en": [{"label": "recovery", "url": "../articles/after-gallbladder-surgery-recovery-warning-signs.html"}]
-        }
-      },
-      {
-        "id": "clear-next-step",
+        {
+          "id": "clear-next-step",
           "heading": {
-            "ar": "اخرج من المراجعة بخطوة واضحة",
-            "en": "Leave review with one clear next step"
+            "ar": "الخطوة التالية الواضحة: التقييم الطبي المنظم والتنسيق العلاجي في عيادات لاروز",
+            "en": "Clear next steps: structured evaluation and care coordination at La Rose"
           },
           "body": {
-          "ar": "خذ تقرير السونار كاملاً، تحاليل سابقة، قائمة الأدوية والمكملات وسجل النوبات. اسأل ما الذي يرجح أن يفسر الألم، هل هناك تحليل أو صورة أخرى لها سؤال واضح، وهل تحتاج متابعة أو إحالة أو مناقشة جراحة. إن تقررت عملية، اسأل عن التحضير والتعافي وعلامات الاتصال المبكر، بدلاً من الاعتماد على تجربة شخص آخر أو فيديو قصير. [2, 4, 7, 8]\n\nالهدف ليس أن تشخص نفسك من كلمة حصوات، ولا أن تؤجل عرضاً مهماً خوفاً من العملية. الهدف أن يعرف الفريق إن كانت الحصوات عرضية، أو صامتة، أو مرتبطة بمضاعفة تحتاج خطوة أسرع. أي عرض أو نتيجة جديدة يستحق أن يراجعها الفريق بدلاً من تخمين معناها وحدك. [1, 2, 3]",
-          "en": "Bring the complete ultrasound report, earlier tests, a medicine and supplement list, and an attack record. Ask what is most likely to explain the pain, whether another test or image has a defined question, and whether you need follow-up, referral or a surgical discussion. If an operation is selected, ask about preparation, recovery and signs requiring earlier contact rather than relying on another person’s experience or a short video. [2, 4, 7, 8]\n\nThe aim is neither to diagnose yourself from the word ‘gallstones’ nor to delay an important symptom through fear of surgery. The aim is for the team to determine whether the stones are symptomatic, silent or related to a complication needing a faster step. Bring any new symptom or result to the team rather than guessing its meaning alone. [1, 2, 3]"
+            "ar": "إن التعامل الآمن والمطمئن مع مخاوف حصوات المرارة يبدأ بالتشخيص الإكلينيكي الدقيق والموضوعي بدلاً من القلق غير المستند إلى حقائق أو التسرع في اتخاذ قرارات جراحية غير لازمة [1, 4]. فإذا كنت قد اكتشفت وجود حصوات في المرارة مصادفة أثناء فحص سونار روتيني، أو إذا كنت تعاني من آلام وانزعاج متكرر في أعلى البطن بعد الوجبات، فإن التقييم الطبي المنظم مع طبيب الجهاز الهضمي هو الخطوة الأولى الأكثر أماناً وحكمة [1, 2].\n\nفي عيادات لاروز التخصصية، يقدم الدكتور مهاب أشرف فؤاد، أخصائي الأمراض الباطنة والجهاز الهضمي والكبد، استشارة إكلينيكية متخصصة لتقييم الأعراض والتمييز بين الاشتباه في الآلام المرارية والاضطرابات الهضمية الوظيفية الأخرى [4, 6]. وعندما تقتضي الضرورة الطبية، يُجرى فحص السونار الموجه للبطن داخل العيادة للمساعدة في فحص بنية المرارة ورصد علامات وجود الحصوات أو تغيرات الجدار دون إشعاع [4, 6]. ويعتمد نهجنا على التوعية الطبية الصادقة وطمأنة من يحملون حصوات صامتة لا تحتاج إلى أي تدخل جراحي [1, 2].\n\nأما بالنسبة للمرضى الذين يتبين من تقييمهم الإكلينيكي وجود أعراض مرارية نشطة أو مضاعفات تستدعي رأياً جراحياً، فإن عيادتنا تنسق التحويل لمناظرة استشاري الجراحة العامة، مع توجيه المريض إلى مستشفى مجهز تتوفر فيه الإمكانات اللازمة لإجراء الجراحة بأمان عند إقرارها [1, 7]. نحن نؤمن بالطب القائم على الدليل: الطمأنة الواثقة حين تكون الملاحظة هي الخيار السليم، والتحري الدقيق عند الشك في الأعراض، والتنسيق الجراحي المنظم متى دعت الحاجة الطبية [1, 2, 7]. يمكنك حجز استشارتك التخصصية من خلال قنوات التواصل المعتمدة.",
+            "en": "Navigating gallstone concerns successfully begins with an accurate, objective diagnostic assessment rather than unguided worry or hasty intervention [1, 4]. If you have experienced an incidental gallstone discovery on a routine scan, or if you are troubled by recurrent upper abdominal discomfort following meals, an organized gastroenterology evaluation is the sensible first step [1, 2].\n\nAt La Rose Specialized Clinics, Dr. Mohab Ashraf Fouad, specialist in internal medicine, gastroenterology, and hepatology, provides focused clinical consultations to evaluate abdominal symptoms and differentiate suspected biliary pain from functional digestive conditions [4, 6]. When clinically indicated, in-clinic abdominal ultrasound imaging is conducted to assess gallbladder morphology and look for visible sonographic signs of calculi or wall changes without ionizing radiation [4, 6]. Our clinical approach emphasizes patient education, explaining your exact findings in straightforward terms and reassuring those with silent gallstones who require no operative treatment [1, 2].\n\nFor patients whose history, clinical examination, and imaging point to symptomatic gallstone disease or complications requiring surgical assessment, our clinic coordinates referral for specialized general surgery consultation, directing patients to an equipped hospital where surgical procedures can be safely performed [1, 7]. We believe in deliberate, evidence-based care: reassuring where watchful waiting is appropriate, investigating carefully when symptoms suggest active disease, and coordinating with surgical specialists when operative management is indicated [1, 2, 7]. You can schedule your gastroenterology consultation through our clinic booking channels."
           },
           "links": {
             "ar": [
               {
-                "label": "التعافي",
-                "url": "../articles/after-gallbladder-surgery-recovery-warning-signs.html"
+                "label": "قنوات التواصل المعتمدة",
+                "url": "../patients/booking.html"
               }
             ],
             "en": [
               {
-                "label": "recovery",
-                "url": "../articles/after-gallbladder-surgery-recovery-warning-signs.html"
+                "label": "clinic booking channels",
+                "url": "../patients/booking.html"
               }
             ]
           }
@@ -278,85 +277,132 @@
       "faq": [
         {
           "q": {
-            "ar": "هل كل حصوة مرارة تحتاج عملية؟",
-            "en": "Does every gallstone need surgery?"
+            "ar": "هل تختفي حصوات المرارة تلقائياً أو يمكن تفتيتها بالأدوية؟",
+            "en": "Do gallstones disappear on their own or can they be dissolved with medications?"
           },
           "a": {
-            "ar": "لا. الحصوات التي تظهر بالصدفة من غير أعراض لا تعني تلقائياً جراحة، بينما الأعراض المتوافقة أو المضاعفات تغير القرار بعد تقييم مناسب. [1, 2, 3]",
-            "en": "No. Stones found incidentally without symptoms do not automatically mean surgery, while fitting symptoms or complications change the decision after suitable assessment. [1, 2, 3]"
+            "ar": "لا تختفي حصوات المرارة المتكونة من تلقاء نفسها في المعتاد [1, 2]. وتظل الأدوية المذيبة ذات فعالية محدودة وتقتصر على حالات خاصة جداً لحصوات معينة لدى مرضى تحول حالتهم الصحية دون إجراء الجراحة [4, 5]. ونظراً لأن الحصوات تعود للظهور بصورة شائعة بعد التوقف عن العلاج الدوائي مع حاجته لفترات طويلة، فإنه لا يمثل بديلاً روتينياً عن الاستئصال الجراحي عند وجود دواعي التدخل [4, 5].",
+            "en": "Fully formed gallstones do not typically disappear on their own [1, 2]. Medical dissolution therapies, such as oral bile acid medications, have very limited clinical effectiveness and are only considered in narrow circumstances for specific small, non-calcified stones in individuals who cannot undergo surgery [4, 5]. Because stones frequently recur after non-surgical treatment is stopped and the process requires long treatment periods, medication is not a routine substitute for surgery [4, 5]."
           }
         },
         {
           "q": {
-            "ar": "هل الألم بعد الأكل يثبت أنه من المرارة؟",
-            "en": "Does pain after eating prove it is from the gallbladder?"
+            "ar": "هل يجب أن ألتزم بفحص سونار كل 6 أشهر لمراقبة حصوة المرارة الصامتة؟",
+            "en": "Should I undergo an ultrasound scan every 6 months to monitor a silent gallstone?"
           },
           "a": {
-            "ar": "لا. توقيت الألم جزء من القصة لكنه لا يشخص السبب وحده؛ مكان الألم ومدته وتكراره والقيء أو الحرارة والنتائج مهمة أيضاً. [1, 2, 3]",
-            "en": "No. Timing is part of the story but does not diagnose the cause on its own; location, duration, recurrence, vomiting, fever and results matter too. [1, 2, 3]"
+            "ar": "لا توصي الإرشادات الإكلينيكية المعتمدة بإجراء فحوصات سونار دورية كل 6 أو 12 شهراً لمجرد مراقبة حصوة صامتة ومستقرة تماماً [1, 6]. فالمسح المتكرر في غياب أي أعراض هضمية أو ألم لا يغير خطة العلاج بل يولد قلقاً لا مبرر له [1]. والقاعدة الطبية المعتمدة هي أن تكتفي بالملاحظة وممارسة حياتك بشكل طبيعي مع استشارة الطبيب فوراً إذا طرأت نوبات ألم فعلي [1, 2, 3].",
+            "en": "Current clinical guidelines do not recommend repetitive serial ultrasound surveillance every six or twelve months solely to monitor documented silent gallstones [1, 6]. In the absence of new symptoms, frequent routine scanning rarely alters management and tends to cause unnecessary health anxiety [1]. The recognized evidence-based approach is expectant management: living normally without anxiety or dietary deprivation, while remaining clearly informed about genuine biliary symptoms so you know when a medical assessment is needed [1, 2, 3]."
           }
         },
         {
           "q": {
-            "ar": "متى أتعامل مع ألم المرارة كحالة عاجلة؟",
-            "en": "When should gallbladder pain be treated as urgent?"
+            "ar": "ما الفرق بين المغص المراري العابر والتهاب المرارة الحاد؟",
+            "en": "What is the clinical difference between biliary colic and acute cholecystitis?"
           },
           "a": {
-            "ar": "الألم الشديد أو المستمر، الحمى أو الرعشة، الاصفرار، القيء المتكرر، بول داكن، براز فاتح جداً أو تدهور عام يحتاج تقييماً عاجلاً حسب الشدة. [1, 2, 5, 6]",
-            "en": "Severe or persistent pain, fever or chills, jaundice, repeated vomiting, dark urine, very pale stool or general deterioration need urgent assessment according to severity. [1, 2, 5, 6]"
+            "ar": "المغص المراري هو نوبة ألم ناتجة عن انسداد مؤقت في مخرج المرارة، ويستمر عادة من ساعة إلى بضع ساعات ثم يزول تدريجياً دون أن يرافقه ارتفاع في الحرارة أو التهاب في جدار المرارة [2, 10]. أما التهاب المرارة الحاد فهو مضاعفة تحدث عند استمرار انسداد القناة لساعات طويلة، مما يسبب التهاباً ميكروبياً وتورماً في جدار المرارة، ويظهر على شكل ألم متواصل وشديد لعدة ساعات مترافقاً مع حمى وارتفاع في كرات الدم البيضاء وعلامات تظهر بوضوح في فحص السونار [1, 6, 10].",
+            "en": "Uncomplicated biliary colic is a transient mechanical pain episode caused by temporary ductal impaction; it typically resolves within one to several hours without causing persistent wall inflammation or fever [2, 10]. In contrast, acute cholecystitis occurs when prolonged ductal obstruction leads to sustained intraluminal hypertension, mucosal ischemia, and bacterial inflammation, resulting in continuous severe pain lasting several hours, fever, elevated white blood cell counts, and prominent inflammatory changes visible on ultrasound [1, 6, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل يعني استئصال المرارة الحرمان الدائم من تناول الدهون؟",
+            "en": "Does having my gallbladder removed mean I can never eat fats again?"
+          },
+          "a": {
+            "ar": "لا، فاستئصال المرارة لا يتطلب في المعتاد امتناعاً دائماً عن تناول الدهون [5, 8]. يستمر الكبد في إفراز العصارة الصفراوية باستمرار وتوصيلها إلى الأمعاء، وغالباً ما يعود الشخص إلى نمطه الغذائي المعتاد مع الوقت [5, 7]. وخلال فترة التعافي الأولى، يساعد الاعتدال في الأطعمة الدسمة أو المقليات وتناول وجبات أصغر حجماً في تقليل أي اضطراب هضمي مؤقت حتى يتكيف الجسم [5, 8, 11].",
+            "en": "No, gallbladder removal does not usually require permanent elimination of dietary fats [5, 8]. The liver continues producing bile continuously, discharging it directly into the small intestine, and digestive habits generally return to normal over time [5, 7]. During early recovery, moderating very rich or fried foods and eating smaller, balanced meals can help minimize temporary digestive looseness while your body adapts [5, 8, 11]."
           }
         }
       ],
       "sources": [
         {
-          "label": "NICE — Gallstone disease: diagnosis and management",
+          "label": {
+            "ar": "المعهد الوطني للتميز في الرعاية الصحية (NICE): إرشادات تشخيص وإدارة مرض حصوات المرارة (CG188)",
+            "en": "National Institute for Health and Care Excellence (NICE): Gallstone disease: diagnosis and management (CG188)"
+          },
           "url": "https://www.nice.org.uk/guidance/cg188"
         },
         {
-          "label": "NIDDK — Symptoms and causes of gallstones",
+          "label": {
+            "ar": "المعهد الوطني للسكري وأمراض الجهاز الهضمي والكلى (NIDDK): أعراض وأسباب حصوات المرارة",
+            "en": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK): Symptoms and causes of gallstones"
+          },
           "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/symptoms-causes"
         },
         {
-          "label": "Mayo Clinic — Gallstones: symptoms and causes",
+          "label": {
+            "ar": "مايو كلينك: حصوات المرارة، الأعراض والأسباب وخيارات التدخل",
+            "en": "Mayo Clinic: Gallstones: Symptoms and causes"
+          },
           "url": "https://www.mayoclinic.org/diseases-conditions/gallstones/symptoms-causes/syc-20354214"
         },
         {
-          "label": "NIDDK — Diagnosis of gallstones",
+          "label": {
+            "ar": "المعهد الوطني للسكري وأمراض الجهاز الهضمي والكلى (NIDDK): تشخيص حصوات المرارة ومسالكها",
+            "en": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK): Diagnosis of gallstones"
+          },
           "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/diagnosis"
         },
         {
-          "label": "NIDDK — Treatment for gallstones",
+          "label": {
+            "ar": "المعهد الوطني للسكري وأمراض الجهاز الهضمي والكلى (NIDDK): علاج حصوات المرارة وخيارات الجراحة",
+            "en": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK): Treatment for gallstones"
+          },
           "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/treatment"
         },
         {
-          "label": "ACR Appropriateness Criteria — Right upper quadrant pain",
+          "label": {
+            "ar": "الكلية الأمريكية للأشعة (ACR): معايير الملاءمة لألم الربع العلوي الأيمن من البطن",
+            "en": "American College of Radiology (ACR): Appropriateness Criteria: Right Upper Quadrant Pain"
+          },
           "url": "https://acsearch.acr.org/docs/69474/Narrative/"
         },
         {
-          "label": "SAGES — Guidelines for laparoscopic biliary tract surgery",
+          "label": {
+            "ar": "جمعية جراحي الجهاز الهضمي والتنظير الأمريكية (SAGES): إرشادات جراحة المسالك الصفراوية بالمنظار",
+            "en": "Society of American Gastrointestinal and Endoscopic Surgeons (SAGES): Guidelines for the clinical application of laparoscopic biliary tract surgery"
+          },
           "url": "https://www.sages.org/publications/guidelines/guidelines-for-the-clinical-application-of-laparoscopic-biliary-tract-surgery/"
         },
         {
-          "label": "NHS — Gallbladder removal",
-          "url": "https://www.nhs.uk/conditions/gallbladder-removal/"
+          "label": {
+            "ar": "هيئة الخدمات الصحية الوطنية البريطانية (NHS): عملية استئصال المرارة والتعافي منها",
+            "en": "National Health Service (NHS): Gallbladder removal (cholecystectomy)"
+          },
+          "url": "https://www.nhs.uk/tests-and-treatments/gallbladder-removal/"
         },
         {
-          "label": "ACOG — Gallbladder disease and pregnancy",
-          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/08/nonobstetric-surgery-during-pregnancy"
+          "label": {
+            "ar": "الكلية الأمريكية لأطباء النساء والتوليد (ACOG): الرأي رقم 775، الجراحة غير التوليدية أثناء الحمل",
+            "en": "American College of Obstetricians and Gynecologists (ACOG): Committee Opinion 775: Nonobstetric surgery during pregnancy"
+          },
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/04/nonobstetric-surgery-during-pregnancy"
         },
         {
-          "label": "World Society of Emergency Surgery — Acute calculus cholecystitis guidelines",
-          "url": "https://wjes.biomedcentral.com/articles/10.1186/s13017-020-00336-w"
+          "label": {
+            "ar": "الجمعية العالمية لجراحة الطوارئ (WSES): إرشادات 2020 لتشخيص وإدارة التهاب المرارة الحاد",
+            "en": "World Society of Emergency Surgery (WSES): 2020 guidelines for the diagnosis and management of acute cholecystitis"
+          },
+          "url": "https://wjes.biomedcentral.com/articles/10.1186/s13017-020-00336-x"
+        },
+        {
+          "label": {
+            "ar": "هيئة الخدمات الصحية الوطنية البريطانية (NHS): التعافي بعد استئصال المرارة",
+            "en": "NHS - Recovering from gallbladder removal"
+          },
+          "url": "https://www.nhs.uk/tests-and-treatments/gallbladder-removal/recovery/"
         }
       ],
       "seo": {
         "title": {
-          "ar": "حصوات المرارة: ألم، سونار وقرار العملية",
-          "en": "Gallstones: pain, ultrasound and surgery decisions"
+          "ar": "حصوات المرارة: متى تحتاج عملية؟",
+          "en": "Gallstones: symptoms and surgery"
         },
         "description": {
-          "ar": "افهم متى تكون حصوة المرارة صامتة، ما الذي يرجح الألم المراري، ومتى تحتاج تقييماً عاجلاً أو مناقشة الجراحة.",
-          "en": "Understand when gallstones are silent, what makes biliary pain more likely, and when urgent assessment or a surgical discussion is useful."
+          "ar": "تعرف على الفرق بين حصوة المرارة الصامتة ونوبة الألم الحقيقية، ودور السونار، ومتى تستدعي الأعراض جراحة أو تدخلاً عاجلاً.",
+          "en": "Learn the difference between silent gallstones and true biliary pain, how ultrasound guides decisions, and when surgery or urgent care is needed."
         }
       }
     }
