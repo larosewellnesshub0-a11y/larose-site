@@ -1,0 +1,306 @@
+{
+  "_note": "Canonical long-form rewrite of bloating-when-to-see-doctor. Scoped to persistent bloating versus transient gas, distinguishing subjective bloating from objective distension, common digestive causes (constipation, IBS, intolerances), female-specific persistent bloating evaluation per NICE NG12, acute bowel obstruction versus ordinary constipation red flags, clinician-directed diagnostic pathway, and restrained clinical booking path at La Rose Clinics.",
+  "articles": [
+    {
+      "slug": "bloating-when-to-see-doctor",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-24",
+      "readingTime": 11,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/bloating-cover.webp",
+      "title": {
+        "ar": "انتفاخ البطن المستمر: متى تزور الطبيب؟",
+        "en": "Persistent abdominal bloating: when to see a doctor"
+      },
+      "excerpt": {
+        "ar": "الانتفاخ العابر عرض هضمي شائع يرتبط غالباً بالأكل أو الغازات، لكن استمراره أو تكراره يستدعي تقييماً سريرياً دقيقاً. تعرّف على الفارق بين الانتفاخ والتمدد الظاهر، وأهم الأسباب من القولون إلى اضطرابات الحركة، وعلامات الإنذار الحمراء التي تتطلب رعاية عاجلة.",
+        "en": "Occasional bloating is a common digestive complaint often tied to meals or gas, but persistent or recurrent symptoms require careful clinical evaluation. Understand the difference between bloating and visible distension, common causes from IBS to motility disorders, and the red-flag signs that need urgent medical attention."
+      },
+      "tags": {
+        "ar": [
+          "انتفاخ البطن",
+          "انتفاخ البطن المستمر",
+          "أسباب الغازات",
+          "متى تزور طبيب الجهاز الهضمي",
+          "القولون العصبي",
+          "تمدد البطن"
+        ],
+        "en": [
+          "abdominal bloating",
+          "persistent bloating",
+          "causes of intestinal gas",
+          "when to see a gastroenterologist",
+          "irritable bowel syndrome",
+          "abdominal distension"
+        ]
+      },
+      "sections": [
+        {
+          "id": "bloating-vs-distension",
+          "heading": {
+            "ar": "الانتفاخ العابر في مقابل الامتلاء المستمر: الفارق بين الإحساس والتمدد الظاهر",
+            "en": "Transient bloating versus persistent fullness: separating sensation from visible distension"
+          },
+          "body": {
+            "ar": "يُعد انتفاخ البطن من أكثر الشكاوى الهضمية شيوعاً في الممارسة الطبية، إلا أن الكثيرين يخلطون بين الانتفاخ كعَرَض حسي ذاتي وتمدد البطن كعلامة سريرية موضوعية قابلة للقياس [1, 5, 10]. يُعرّف الانتفاخ سريرياً بأنه شعور داخلي بالامتلاء، أو الضغط، أو احتباس الغازات داخل تجويف البطن، وقد يصفه الشخص بأنه إحساس بضيق في الملابس أو ثقل مزعج بعد الوجبات، حتى وإن لم يطرأ أي تغير ملحوظ على محيط الخصر الحقيقي [1, 5, 9, 10]. في المقابل، يشير تمدد البطن (Abdominal Distension) إلى زيادة مرئية وفعلية في محيط البطن، بحيث يلاحظ المريض أو الطبيب بروز جدار البطن للأمام بشكل تدريجي أو نوبي خلال اليوم [5, 9, 10]. يوضح التقييم السريري المتخصص أن هذين العَرَضين قد يتزامنان لدى كثير من المرضى، غير أنهما قد يظهران بشكل منفصل، حيث يشعر بعض الأفراد بانتفاخ شديد ومؤلم دون أي زيادة في الحجم، بينما يلاحظ آخرون تمدداً حقيقياً دون شعور حاد بالألم [5, 10].\n\nمن الناحية الفسيولوجية، يحتوي الجهاز الهضمي للإنسان السليم في أي لحظة على كمية محدودة من الغازات تتراوح عادة بين 100 و200 سنتيمتر مكعب، موزعة على المعدة والأمعاء الدقيقة والقولون [1, 5, 10]. تنتج هذه الغازات إما عن ابتلاع الهواء أثناء الأكل والشرب والتنفس (Aerophagia)، أو عن طريق التخمير الطبيعي الذي تقوم به بكتيريا الميكروبيوم النافعة في القولون لبقايا الكربوهيدرات والألياف غير المهضومة [1, 5, 10]. في الحالات الطبيعية، يتخلص الجسم من الغاز الزائد بسلاسة إما عبر التجشؤ من المعدة، أو الامتصاص المباشر للغازات عبر بطانة الأمعاء إلى الدورة الدموية ثم التخلص منها عبر الرئتين، أو خروجها عبر المستقيم كريح طبيعية دون ألم أو إزعاج [1, 5, 9]. الانتفاخ العابر البسيط يحدث غالباً بعد وجبة دسمة أو سريعة، أو بعد تناول أطعمة غنية بالسكريات المخمرة مثل البقوليات والكرنب والمشروبات الغازية، ويزول هذا الانتفاخ تلقائياً خلال ساعات معدودة بمجرد هضم الطعام ومرور الغازات [1, 4, 9].\n\nيتحول الانتفاخ إلى مشكلة سريرية تستحق اهتماماً طبياً عندما يصبح مزمناً أو متكرراً، كأن يظهر عدة أيام في الأسبوع، أو يستمر لأسابيع وشهور متتالية دون ارتباط واضح بوجبة معينة [4, 5, 9, 10]. أظهرت الأبحاث الفسيولوجية الحديثة أن غالبية الأشخاص الذين يعانون من انتفاخ وظيفي مزمن لا يحملون كميات إضافية ضخمة من الغازات داخل أمعائهم، بل يعانون من اضطراب في كيفية التعامل مع الغاز وحركته، أو من زيادة في حساسية الأعصاب الحشوية (Visceral Hypersensitivity)؛ حيث تستجيب مستقبلات الألم في جدار الأمعاء لأحجام الغاز الطبيعية تماماً وكأنها تمدد مفرط [5, 10]. كما كشفت الدراسات الفسيولوجية عن آلية عصبية عضلية شائعة تُعرف باسم خلل التآزر بين الحجاب الحاجز وجدار البطن (Abdomino-phrenic Dyssynergia) [5, 10]. لتوضيح هذه الآلية ببساطة: في الحالة الطبيعية عندما يدخل الطعام أو يتجمع القليل من الغاز، يستجيب الجسم بتنسيق تلقائي حيث يرتفع الحجاب الحاجز لأعلى قليلاً وتتماسك عضلات البطن لتحافظ على شكلها واستقرارها. أما لدى المصابين بهذا الخلل الحركي، فيحدث العكس تماماً وبصورة لا إرادية؛ إذ ينقبض الحجاب الحاجز ويهبط إلى الأسفل بينما ترتخي عضلات جدار البطن الأمامي وتبرز للخارج، مما يدفع الأحشاء الداخلية إلى الأمام ويؤدي إلى بروز ملحوظ وانتفاخ مشدود، حتى ولو كان الحجم الفعلي للغازات داخل الأمعاء طبيعياً تماماً ولا يتجاوز المعدلات المعتادة [5, 10].",
+            "en": "Abdominal bloating is one of the most frequent gastrointestinal complaints encountered in clinical practice, yet patients and clinicians often conflate bloating as a subjective sensation with abdominal distension as an objective physical sign [1, 5, 10]. Clinically, bloating is defined as an internal sensation of abdominal fullness, tightness, trapped gas, or increased pressure, often described by individuals as an uncomfortable sensation that makes their clothing feel excessively snug after meals, even when no measurable change in waist circumference has occurred [1, 5, 9, 10]. In contrast, true abdominal distension refers to a visible, measurable increase in abdominal girth, in which the anterior abdominal wall protrudes outward, frequently fluctuating or progressing over the course of a single day [5, 9, 10]. Clinical evidence demonstrates that while bloating and visible distension frequently coexist, they represent distinct physiological phenomena: some patients experience intense, distressing sensations of bloating without any demonstrable expansion of their abdomen, whereas others demonstrate marked visible distension with minimal subjective discomfort [5, 10].\n\nUnder normal physiological conditions, the healthy human gastrointestinal tract contains a relatively small and tightly regulated volume of gas at any given moment, generally estimated between 100 and 200 millilitres distributed throughout the stomach, small intestine, and colon [1, 5, 10]. This gas arises from two primary physiological sources: swallowed atmospheric air (aerophagia) during eating, drinking, or speaking, and the endogenous biochemical fermentation of undigested carbohydrates, starches, and soluble fibres by the dense microbial community residing in the large intestine [1, 5, 10]. The healthy digestive tract disposes of this gas continuously and smoothly through physiological belching, mucosal diffusion of gases into the mesenteric bloodstream for exhalation through the lungs, and the silent, painless passage of flatus through the rectum [1, 5, 9]. Benign episodic bloating occurs commonly after large, hurried meals, the consumption of highly carbonated beverages, or meals heavy in fermentable legumes and cruciferous vegetables; such episodes typically resolve spontaneously within several hours once digestion progresses and flatus or stool is evacuated [1, 4, 9].\n\nBloating crosses the threshold into a persistent clinical problem requiring medical assessment when it becomes recurrent or chronic—persisting across multiple days each week, continuing over several weeks or months, or failing to resolve with routine lifestyle adjustments [4, 5, 9, 10]. Detailed motility and imaging investigations reveal that the majority of patients suffering from chronic functional bloating do not actually harbour enormous volumes of excess gas within their intestinal lumen. Instead, they exhibit abnormal gas transit dynamics, impaired intestinal clearance, or heightened visceral hypersensitivity, wherein the sensory afferent nerves of the enteric nervous system perceive physiological volumes of luminal gas as intensely painful and distending [5, 10]. Furthermore, physiological and electromyographic studies have identified a frequent behavioural-neuromuscular reflex known as abdomino-phrenic dyssynergia [5, 10]. Under normal conditions, when food or modest gas enters the gut, the body accommodates by relaxing the diaphragm upward while the anterior abdominal wall muscles contract slightly to maintain abdominal tone and profile. In patients with abdomino-phrenic dyssynergia, this reflex operates in reverse: the diaphragm paradoxically contracts and descends downward while the anterior abdominal wall muscles inappropriately relax and protrude, actively shoving intra-abdominal contents forward and generating noticeable, tight distension even when the true volume of luminal gas is entirely normal [5, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "common-causes-ibs-constipation",
+          "heading": {
+            "ar": "الأسباب الهضمية الشائعة: الإمساك ومتلازمة القولون العصبي واضطرابات الحركة",
+            "en": "Common digestive causes: constipation, irritable bowel syndrome, and motility changes"
+          },
+          "body": {
+            "ar": "يرتبط انتفاخ البطن المستمر بمجموعة واسعة من الاضطرابات الوظيفية والعضوية في الجهاز الهضمي، ويأتي الإمساك المزمن على رأس هذه الأسباب في الممارسة اليومية [1, 5, 11]. عندما تتباطأ حركة الأمعاء وتتراكم الفضلات الصلبة في القولون والمستقيم، فإن هذا الاحتباس لا يمنع التخلص الطبيعي من الغازات فحسب، بل يمنح البكتيريا القولونية وقتاً أطول بكثير لتخمير المواد العضوية وإنتاج غازات إضافية [1, 5, 11]. كما أن وجود كتلة برازية محتبسة في المستقيم يُحدث تنبيهاً مستمراً للمستقبلات العصبية، مما يطلق منعكسات تبطئ حركة الأمعاء الدقيقة وتزيد من الإحساس بالامتلاء والضغط المزعج في أعلى وأسفل البطن [5, 11]. في كثير من الحالات، يؤدي علاج الإمساك المزمن وتنظيم حركة الأمعاء إلى اختفاء الانتفاخ المستمر أو تراجعه بشكل كبير دون الحاجة لأي علاجات معقدة أخرى [5, 11].\n\nكما تُعد متلازمة القولون العصبي سبباً رئيساً آخر للانتفاخ المتكرر والمزمن [5, 7, 10, 12]. في متلازمة القولون العصبي، لا يقتصر العرض على الانتفاخ فحسب، بل يرتبط عادة بوجود ألم أو مغص متكرر في البطن يتزامن مع تغير في عدد مرات التبرز أو في طبيعة وشكل البراز، سواء بالتحول إلى إمساك (IBS-C)، أو إسهال (IBS-D)، أو نمط مختلط ومتبادل بينهما (IBS-M) [7, 10, 12]. يعاني مرضى القولون العصبي من اضطراب في محور التواصل العصبي بين الدماغ والأمعاء، مما يجعل حركة العضلات المعوية غير منتظمة ويزيد من استجابة الجهاز العصبي المركزي للمنبهات الهضمية العادية [7, 10, 12]. يلاحظ الكثير من هؤلاء المرضى أن انتفاخ البطن يكون في أدنى مستوياته عند الاستيقاظ صباحاً، ثم يتزايد تدريجياً على مدار ساعات النهار ليصل إلى ذروته في المساء، مترافقاً مع تمدد مرئي واضح [5, 7, 10].\n\nتتضمن الأسباب الشائعة أيضاً عدم تحمل الطعام وسوء امتصاص الكربوهيدرات، وفي مقدمتها عدم تحمل اللاكتوز نتيجة نقص إنزيم اللاكتاز في الأمعاء الدقيقة، مما يؤدي إلى وصول سكر الحليب غير المهضوم إلى القولون حيث تتغذى عليه البكتيريا وتنتج كميات ملحوظة من غازات الهيدروجين والميثان مصحوبة بسحب الماء وحدوث إسهال أو غازات حابسة [1, 5, 13]. وبالمثل، فإن استهلاك كميات كبيرة من الكربوهيدرات قصيرة السلسلة القابلة للتخمير (المعروفة بمجموعة FODMAPs) يسبب انتفاخاً واضحاً لدى الأشخاص الذين يمتلكون أمعاء شديدة الحساسية [5, 7, 10]. كما يدخل في الحسبان اضطراب فرط نمو البكتيريا في الأمعاء الدقيقة (SIBO)، حيث تهاجر البكتيريا القولونية إلى الأمعاء الدقيقة وتخمر السكريات في مكان غير معتاد، إلا أن هذا التشخيص يتطلب معايير سريرية دقيقة وتوجيهاً متخصصاً لتجنب استخدام المضادات الحيوية العشوائية دون داعٍ [5, 10].",
+            "en": "Persistent abdominal bloating is linked to an extensive spectrum of functional and organic gastrointestinal conditions, among which chronic constipation is arguably the most common and under-recognized driver in daily medical practice [1, 5, 11]. When colonic transit slows and hard stool accumulates in the sigmoid colon and rectum, the mechanical retention does far more than physically impede the downward evacuation of gas [1, 5, 11]. Stasis prolongs the incubation window for colonic bacteria to ferment luminal residue, markedly escalating gas generation, while persistent rectal distension by impacted stool triggers retrograde inhibitory neural reflexes that impair small-bowel transit and heighten visceral perception throughout the abdomen [5, 11]. In numerous clinical presentations, establishing effective bowel regularity and resolving underlying constipation results in dramatic alleviation or complete resolution of daily bloating without necessitating complex interventions [5, 11].\n\nIrritable bowel syndrome (IBS) represents another paramount cause of chronic, recurrent abdominal bloating and distension [5, 7, 10, 12]. In irritable bowel syndrome, bloating does not exist in isolation; it characteristically pairs with recurrent abdominal pain or cramping directly linked to defecation and accompanied by a clear disturbance in bowel frequency or stool consistency, whether presenting as constipation-predominant (IBS-C), diarrhoea-predominant (IBS-D), or an alternating mixed bowel pattern (IBS-M) [7, 10, 12]. Patients with irritable bowel syndrome exhibit profound dysregulation along the brain-gut-microbiome axis, leading to discoordinated enteric smooth-muscle contractions and marked visceral hypersensitivity to normal physiological distension [7, 10, 12]. Typically, individuals report that their abdominal profile is flat and comfortable upon awakening in the morning, followed by progressive postprandial bloating and visible abdominal distension that intensifies across the afternoon and peaks in the evening hours [5, 7, 10].\n\nFood intolerance and selective carbohydrate malabsorption syndromes also frequently underlie recurrent postprandial bloating, with lactose intolerance standing out as a prime example [1, 5, 13]. When enterocytes produce insufficient lactase enzyme, ingested dairy lactose travels unabsorbed into the distal ileum and colon, drawing osmotic fluid into the intestinal lumen while serving as a rapid metabolic substrate for colonic anaerobes that liberate significant volumes of hydrogen, methane, and carbon dioxide gases [1, 5, 13]. Similarly, excessive dietary loads of fermentable oligosaccharides, disaccharides, monosaccharides, and polyols (FODMAPs) can provoke distressing distension and gas in susceptible, hypersensitive guts [5, 7, 10]. Small intestinal bacterial overgrowth (SIBO) is another motility-related consideration, occurring when colonic-type flora proliferate within the small bowel and ferment carbohydrates prematurely, although confirming this condition requires disciplined clinical evaluation rather than unvalidated home testing kits or empiric, self-administered antibiotics [5, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "متلازمة القولون العصبي",
+                "url": "../articles/ibs-colon-symptoms-red-flags.html"
+              },
+              {
+                "label": "عدم تحمل الطعام",
+                "url": "../articles/food-intolerance-vs-allergy.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "irritable bowel syndrome",
+                "url": "../articles/ibs-colon-symptoms-red-flags.html"
+              },
+              {
+                "label": "food intolerance",
+                "url": "../articles/food-intolerance-vs-allergy.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "female-specific-persistent-bloating",
+          "heading": {
+            "ar": "أسباب تستدعي الانتباه عند السيدات: متى يرتبط الانتفاخ المستمر بالحوض؟",
+            "en": "Specific considerations for women: when persistent bloating warrants pelvic assessment"
+          },
+          "body": {
+            "ar": "تحظى شكوى انتفاخ البطن المستمر بأهمية سريرية خاصة ومزدوجة لدى السيدات، حيث تتقاطع العوامل الهرمونية الفسيولوجية العابرة مع احتمالات وجود أسباب حوضية أو نسائية تستوجب تقييماً طبياً واعياً وغير متسرع [4, 6, 9, 10]. من الطبيعي أن تلاحظ الكثير من النساء انتفاخاً دورياً مرتبطاً بتغيرات الدورة الشهرية، حيث تؤدي تقلبات هرموني الإستروجين والبروجستيرون في المرحلة الأصفرية السابقة للطمث إلى احتباس نسبي للأملاح والسوائل في الأنسجة وتباطؤ طفيف في حركة الأمعاء، وهو أمر حميد ومؤقت ينحسر تلقائياً مع بدء نزول دم الحيض [4, 9]. كما أن استخدام بعض العلاجات الهرمونية أو فترات التغير الهرموني المحيطة بانقطاع الطمث قد تصاحبها تغيرات مماثلة في الإحساس بامتلاء البطن [4, 9].\n\nغير أن الإرشادات السريرية الدولية—وعلى رأسها تحديثات إرشادات المعهد الوطني للتميز في الصحة والرعاية البريطاني (NICE NG12)—تؤكد على نمط محدد من الانتفاخ يستدعي انتباهاً سريرياً خاصاً [6]. وفقاً لهذه التوصيات، يُعد تمدد البطن المستمر أو المتكرر بحد ذاته (خاصة إذا تكرر أكثر من 12 مرة في الشهر) عَرَضاً منفرداً كافياً لتوجيه التقييم في الرعاية الأولية لاستبعاد أسباب المبيض والحوض دون اشتراط وجود أعراض أخرى [6]. كما تُميز الإرشادات في مسار الفحص بحسب الفئة العمرية؛ ففي سن 40 عاماً فما فوق يُطلب تحليل بروتين CA125 في الدم كخطوة أولى، مع ترتيب سونار عاجل بناءً على مستويات التحليل الخاصة بكل مرحلة عمرية، بينما للسيدات في سن 39 عاماً أو أقل توصي الإرشادات بعدم الاعتماد على CA125 منفرداً وتفضيل إجراء سونار مباشر للبطن والحوض نظراً لعدم دقة هذا المؤشر بمفرده في السن الأصغر [6]. وتولي الإرشادات اهتماماً استثنائياً لمن تبلغ 50 عاماً أو أكثر وتظهر عليها أعراض جديدة تشبه القولون العصبي، لأن متلازمة القولون العصبي نادراً جداً ما تبدأ لأول مرة في هذا العمر [6, 7].\n\nتوضح التوصيات أن هذا المسار يمثل معايير إرشادية بريطانية، ويبقى للطبيب المعالج في مصر تقدير الخطوات التشخيصية المناسبة لكل حالة وفق الفحص الإكلينيكي والسياق الفردي، دون تحويل ذلك لقاعدة مسح عشوائي شامل [6]. وبالإضافة إلى تمدد البطن المستمر منفرداً، تشمل الأعراض التي تسترعي اهتمام الطبيب: الشبع المبكر بعد كميات طعام قليلة (Early Satiety)، أو وجود ألم دائم في الحوض والبطن، أو زيادة ملحوظة في الإلحاح والتكرار البولي، أو فقدان غير مبرر في الوزن [6, 9]. كما أن هناك أسباباً حميدة وشائعة قد تضغط ميكانيكياً وتُحدث انتفاخاً، مثل ألياف الرحم، أو أكياس المبيض، أو بطانة الرحم المهاجرة [9, 10]. يتم التقييم الطبي بهدوء ودون قلق غير مبرر، حيث يقوم الطبيب بالفحص السريري الدقيق لمنطقة البطن، ويقرر مدى الحاجة لإجراء سونار البطن والحوض وتحليل CA125 وفق المعايير الإكلينيكية المناسبة [6, 9].",
+            "en": "Persistent abdominal bloating warrants heightened clinical vigilance and careful discernment in female patients, where benign cyclical hormonal fluctuations intersect with potential pelvic and gynaecological pathologies that require prompt, structured medical evaluation [4, 6, 9, 10]. Many women experience transient, cyclical bloating corresponding to specific phases of the menstrual cycle, driven by natural fluctuations in oestrogen and progesterone during the premenstrual luteal phase that induce mild tissue fluid retention and subtle slowing of intestinal motility; such changes are benign and typically resolve spontaneously with the onset of menses [4, 9]. Similarly, the use of oral contraceptives, hormone replacement therapy, or the physiological hormonal shifts of perimenopause can alter gut sensory perception and fluid balance [4, 9].\n\nHowever, international clinical guidelines—notably the updated suspected cancer guidance from the UK's National Institute for Health and Care Excellence (NICE NG12)—highlight a distinct distension pattern requiring targeted clinical attention [6]. Under NICE NG12, unexplained persistent or frequent abdominal distension alone (particularly occurring more than 12 times per month) is an individual qualifying presentation that warrants primary-care investigation for ovarian and pelvic pathology, without requiring secondary symptoms to coexist [6]. Importantly, the updated guidance distinguishes diagnostic pathways by age: for women aged 40 and over with qualifying persistent symptoms, measuring serum CA125 is recommended, with urgent ultrasound arranged according to age-specific CA125 thresholds; conversely, for women aged 39 or under, the guideline cautions against relying on CA125 in isolation due to its limited accuracy in younger cohorts and advises considering direct-access abdominal and pelvic ultrasound [6]. Furthermore, special vigilance is directed toward women aged 50 or over who present with new symptoms resembling irritable bowel syndrome, as first-onset IBS is exceptionally uncommon at this age [6, 7].\n\nIt is important to emphasize that while NICE NG12 establishes recognized UK guideline benchmarks, an Egyptian clinician determines the individualized diagnostic work-up based on history, physical examination, and local clinical context, rather than applying an automated screening protocol to all women [6]. In addition to persistent distension occurring as an isolated feature, other qualifying symptoms in the guideline include early satiety, ongoing pelvic or abdominal pain, and increased urinary urgency or frequency [6, 9]. Prevalent benign conditions—such as uterine fibroids, ovarian cysts, or pelvic endometriosis—can also exert mechanical mass effect resulting in chronic distension [9, 10]. Evaluating these presentations involves a calm, structured clinical approach: a careful examination, selective CA125 testing where age-appropriate, and targeted abdominal and pelvic ultrasound when clinically indicated, ensuring diagnostic clarity without fear-based overreaction [6, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "سونار البطن والحوض",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "abdominal and pelvic ultrasound",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "red-flag-symptoms-when-to-seek-care",
+          "heading": {
+            "ar": "علامات الإنذار الحمراء: متى تصبح مراجعة الطبيب العاجلة أو الطارئة ضرورية؟",
+            "en": "Red-flag warning signs: when urgent or emergency medical evaluation is necessary"
+          },
+          "body": {
+            "ar": "من الضروري التمييز بوضوح بين الانتفاخ المزمن غير المريح الذي يمكن تقييمه عبر مواعيد عيادات خارجية منتظمة، وبين ظهور علامات إنذار حمراء (Red Flags) تنبه إلى احتمالية وجود مرض عضوي متقدم أو حالة حادة تستوجب تدخلاً طبياً عاجلاً [1, 4, 6, 7, 9, 10]. لا تعني كل نوبة انتفاخ أو تمدد في البطن وجود خطر يهدد الحياة، ولا ينبغي التوجه لأقسام الطوارئ لمجرد الشعور بغازات مزعجة بعد الأكل؛ إلا أن تجاهل الأعراض التحذيرية الواضحة قد يؤخر تشخيص حالات تستلزم علاجاً سريعاً ومباشراً [4, 9, 10].\n\nتشمل علامات الخطر التي تستدعي حجز استشارة طبية متخصصة ومبكرة دون تأخير: الفقدان التدريجي غير المبرر في الوزن دون اتباع حمية غذائية، ووجود أنيميا نقص الحديد غير المفسرة في تحاليل الدم، وصعوبة أو ألم أثناء بلع الطعام (Dysphagia)، والقيء المتكرر أو المستمر لعدة أيام، والإسهال المزمن أو الإسهال الليلي الذي يوقظ المريض من نومه العميق [4, 6, 7, 9, 10]. كما يُعد ظهور أعراض انتفاخ وتغير في التبرز لأول مرة لدى شخص تجاوز سن الخمسين، أو وجود تاريخ عائلي مباشر للإصابة بسرطان القولون، أو سرطان المبيض، أو أمراض الأمعاء الالتهابية (مثل داء كرون أو التهاب القولون التقرحي)، أو الداء البطني، من المؤشرات السريرية القوية التي تستوجب إجراء فحوصات متخصصة بدقة [6, 7, 9, 10]. كذلك فإن ملاحظة تجمع سريع للسوائل في تجويف البطن (الاستسقاء / Ascites)، أو الإحساس بوجود كتلة غير معتادة عند لمس البطن، يستدعي مراجعة سريعة لدى الطبيب [6, 9, 10].\n\nفي المقابل، هناك فارق سريري جوهري بين الإمساك المعتاد وحالات الطوارئ الحادة؛ فالإمساك الشائع يتسم بتباعد مرات التبرز وجفاف البراز وصعوبة إخراجه مع بقاء القدرة على إخراج الغازات، ولا يستوجب وحده التوجه للطوارئ [11]. بينما يشير التوقف التام والمفاجئ عن إخراج البراز وخروج الغازات معاً (Obstipation)، إذا ترافق مع ألم بطني حاد ومغص متصاعد وتمدد مؤلم وقيء متكرر خاصة القيء الصفراوي، إلى احتمالية حدوث انسداد معوي ميكانيكي حاد (Bowel Obstruction) [4, 9, 10]. هذه المتلازمة الحادة لا ترتبط بعدد أيام محددة بل بالصورة السريرية الكلية وتستدعي التوجه الفوري إلى قسم الطوارئ بالمستشفى دون أي إبطاء [4, 9, 10]. كما تتطلب الحالات الطارئة رعاية فورية عند حدوث ألم حاد ومفاجئ لا يهدأ ويزداد باللمس، أو ظهور علامات نزيف هضمي مثل قيء دموي أو براز أسود قطراني كريه الرائحة (Melena)، أو ارتفاع شديد في الحرارة مصحوباً بتخشب في جدار البطن [1, 4, 9].",
+            "en": "It is clinically essential to draw a clear, unambiguous boundary between uncomfortable chronic functional bloating that can be evaluated during routine outpatient consultations and the emergence of objective red-flag alarm features that signal potential underlying organic disease requiring expedited or emergency intervention [1, 4, 6, 7, 9, 10]. Not every episode of postprandial fullness or abdominal distension indicates a grave pathology, and patients should never be driven to emergency departments for simple trapped intestinal gas; conversely, overlooking established clinical alarm symptoms risks delaying the identification of serious conditions that benefit immensely from early diagnosis [4, 9, 10].\n\nSubacute red-flag warning signs that mandate an expedited outpatient medical evaluation by an internal medicine specialist or gastroenterologist include: unintentional, progressive weight loss occurring without intentional caloric restriction; documented, unexplained iron-deficiency anaemia on blood testing; progressive difficulty or pain when swallowing food (dysphagia or odynophagia); persistent or intractable vomiting over multiple days; and chronic, watery diarrhoea or nocturnal diarrhoea that consistently awakens the patient from sound sleep [4, 6, 7, 9, 10]. Furthermore, new-onset persistent bloating or a distinct change in bowel habits appearing for the first time in an individual aged fifty or older, or in someone with a first-degree family history of colorectal cancer, ovarian malignancy, inflammatory bowel disease, or celiac disease, strongly warrants comprehensive secondary investigation [6, 7, 9, 10]. Similarly, the rapid onset of abdominal distension secondary to demonstrable intra-peritoneal fluid accumulation (ascites) or the presence of a palpable, distinct abdominal or pelvic mass requires prioritized medical investigation [6, 9, 10].\n\nCrucially, a vital clinical distinction must be drawn between ordinary constipation and acute surgical emergencies [11]. Routine constipation features infrequent bowel movements, hard stools, and straining, but the patient remains entirely able to pass intestinal gas (flatus) and does not experience intractable vomiting or acute peritoneal abdominal distension [11]. In stark contrast, the complete inability to pass either stool or flatus (obstipation), when paired with progressive severe abdominal distension, crescendo cramping pain, and repeated or bilious vomiting, points toward acute mechanical bowel obstruction [4, 9, 10]. Emergency evaluation is determined by this acute clinical constellation rather than an arbitrary calendar threshold of missed bowel movements; when this syndrome appears, immediate emergency department presentation is mandatory [4, 9, 10]. Emergency care is equally urgent for sudden-onset severe unrelenting abdominal pain, peritoneal rigidity or guarding, high fevers, or signs of gastrointestinal hemorrhage such as vomiting blood or passing melena (pitch-black, foul-smelling stools) [1, 4, 9]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "clinical-diagnostic-pathway",
+          "heading": {
+            "ar": "مسار الفحص والتشخيص الطبي: ماذا يتوقع المريض في عيادة الجهاز الهضمي؟",
+            "en": "The clinical diagnostic pathway: what a patient should expect during assessment"
+          },
+          "body": {
+            "ar": "عندما يقصد المريض عيادة أمراض الباطنة والجهاز الهضمي لتقييم انتفاخ البطن المستمر، يبدأ الطبيب مساراً تشخيصياً منهجياً وموجهاً يهدف إلى فهم السبب الفعلي للأعراض وتجنب إجراء فحوصات عشوائية أو مكلفة لا مبرر لها [2, 5, 7, 10]. تبدأ الاستشارة بتدوين تاريخ مرضي مفصل يراجع نمط الانتفاخ وتوقيته، وعلاقته بتناول وجبات معينة أو التبرز، وطبيعة قوام البراز باستخدام مقياس بريستول لشكل البراز (Bristol Stool Form Scale) [2, 5, 7, 10]. كما يدقق الطبيب في التاريخ الدوائي الكامل، حيث تؤدي العديد من الأدوية الشائعة—مثل مضادات الالتهاب غير الستيرويدية، ومسكنات الألم الأفيونية، والمكملات المحتوية على الحديد، وأدوية السكر كالميتفورمين، وحاصرات قنوات الكالسيوم—إلى بطء في حركة الأمعاء أو زيادة تكوين الغازات كأثر جانبي مثبت [2, 5, 10].\n\nيعقب ذلك فحص سريري دقيق لمنطقة البطن، يقوم خلاله الطبيب بمعاينة شكل البطن ورصد أي تمدد موضعي أو عام، واستخدام السماعة الطبية لسماع أصوات الأمعاء والتأكد من نشاط حركتها، والقرع على الجدار للتفرقة بين الرنين الطبلي الدال على تجمع الغازات وبين الأصوات الكاتمة التي تدل على تراكم السوائل (الاستسقاء) أو الكتل [2, 5, 10]. بناءً على نتائج القصة والفحص، يحدد الطبيب ما إذا كانت هناك حاجة لأي تحاليل معملية وماهيتها بحسب السياق الإكلينيكي الفردي؛ فقد تشمل الفحوصات المختارة صورة دم كاملة (CBC) لاستبعاد فقر الدم، أو مؤشرات الالتهاب (مثل CRP أو سرعة الترسيب)، أو تحليل براز وفحص الكالبروتكتين في البراز لاستبعاد الالتهاب المعوي في حال وجود إسهال أو علامات تحذيرية، دون أن يعني ذلك إلزام كل مريض بإجراء جميع هذه التحاليل [2, 5, 7, 10]. ومن الأهمية بمكان إجراء فحوصات الداء البطني (السيلياك) عبر تحليل الأجسام المضادة (tTG-IgA) قبل الشروع في أي حمية، إذ إن إيقاف الجلوتين المسبق يعطل دقة هذا الفحص الهام [7, 8].\n\nفي حالات سريرية منتقاة، قد يوجه الطبيب المريض لإجراء اختبارات النفس بالهيدروجين والميثان لتشخيص عدم تحمل اللاكتوز أو التأكد من احتمالية فرط نمو البكتيريا بالأمعاء الدقيقة [2, 5, 10]. أما الفحوصات التصويرية والتدخلية، فتُستخدم بحكمة وفقاً لدواعي واضحة؛ حيث يمثل سونار البطن وسيلة تشخيصية ممتازة وغير مؤلمة لفحص الكبد والمرارة والبنكرياس والكلى وأعضاء الحوض واستبعاد وجود حصوات أو أكياس أو سوائل [2, 5, 10]. بينما يُحجز إجراء منظار المعدة أو القولون للحالات التي تظهر فيها علامات الإنذار الحمراء، أو عند بدء الأعراض في سن متقدمة، أو لتأكيد تشخيص قرحة نشطة أو التهاب مزمن بالأنسجة [2, 5, 7, 10]. وتوضح الجمعيات الطبية لأمراض الحساسية والجهاز الهضمي عدم التوصية بالاعتماد على اختبارات الأجسام المضادة IgG المروجة تجارياً كأداة لتشخيص عدم تحمل الأغذية أو الانتفاخ، حيث تعكس هذه الأجسام في كثير من الأحيان مجرد تعرض طبيعي للجهاز المناعي للأطعمة، والاعتماد عليها يقود غالباً لقيود غذائية لا مبرر لها دون فائدة طبية حقيقية [5, 10, 13, 14].",
+            "en": "When a patient consults an internal medicine or gastroenterology specialist for persistent abdominal bloating, the clinician initiates a methodical, evidence-based diagnostic pathway aimed at uncovering the physiological cause while steering clear of uncoordinated, indiscriminate testing [2, 5, 7, 10]. The consultation opens with a thorough clinical history detailing the exact timeline and chronicity of bloating, its relationship to specific meals or stress, and daily bowel patterns classified objectively via the Bristol Stool Form Scale [2, 5, 7, 10]. The specialist carefully audits all concurrent medications, recognizing that several common pharmacological agents—including non-steroidal anti-inflammatory drugs (NSAIDs), opioid analgesics, oral iron supplements, metformin, and calcium channel blockers—frequently induce altered intestinal motility, delayed transit, or luminal gas pooling as recognized adverse effects [2, 5, 10].\n\nA structured physical examination follows, wherein the physician systematically inspects the abdomen for localized or generalized asymmetry, auscultates for hypoactive or high-pitched bowel sounds, and percusses the abdominal quadrants to distinguish the resonant tympany of gaseous distension from the dullness characteristic of solid masses or fluid accumulation (ascites) [2, 5, 10]. Guided by the clinical history and physical examination, the physician determines whether laboratory testing is warranted and selects specific investigations based on individual clinical context rather than ordering a universal battery for every patient. Potential selective tests may include a complete blood count (CBC) to screen for occult anaemia, inflammatory markers (such as CRP or ESR), or stool examinations and faecal calprotectin if diarrhea or inflammatory features are suspected [2, 5, 7, 10]. Crucially, formal testing for coeliac disease via serological tissue transglutaminase immunoglobulin A (tTG-IgA) must be executed while the patient maintains regular dietary gluten intake, as premature gluten elimination compromises test sensitivity and confounds the diagnostic picture [7, 8].\n\nIn select clinical scenarios, standardized hydrogen and methane breath testing may be employed to assess for specific carbohydrate malabsorption syndromes or small intestinal bacterial overgrowth [2, 5, 10]. Diagnostic imaging and endoscopic examinations are reserved for precise indications: transabdominal ultrasound provides a non-invasive, radiation-free evaluation of the liver parenchyma, biliary tree, pancreas, kidneys, and pelvic structures to rule out structural anomalies, cholelithiasis, or ascites [2, 5, 10]. Meanwhile, diagnostic gastroscopy or colonoscopy is indicated whenever alarm features are identified, when symptoms develop in older adults, or when histological tissue confirmation of mucosal disease is required [2, 5, 7, 10]. Major gastroenterology and allergy clinical guidelines advise against commercial direct-to-consumer food IgG panels for diagnosing bloating or food sensitivities, pointing out that food-specific IgG antibodies commonly reflect physiological exposure rather than intolerance, and relying on them frequently leads to unnecessary nutritional restriction without medical benefit [5, 10, 13, 14]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "فحوصات الداء البطني (السيلياك)",
+                "url": "../articles/coeliac-testing-before-gluten-free-diet.html"
+              },
+              {
+                "label": "منظار المعدة أو القولون",
+                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "testing for coeliac disease",
+                "url": "../articles/coeliac-testing-before-gluten-free-diet.html"
+              },
+              {
+                "label": "gastroscopy or colonoscopy",
+                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "evidence-based-relief-and-la-rose-care",
+          "heading": {
+            "ar": "خطوات عملية لتخفيف الانتفاخ ومسار التقييم المتخصص في عيادات لاروز",
+            "en": "Evidence-based strategies for relief and specialist care at La Rose Clinics"
+          },
+          "body": {
+            "ar": "يقوم التعامل الفعّال مع انتفاخ البطن المستمر على الجمع بين التعديلات السلوكية والغذائية القائمة على الأدلة العلمية، وبين التدخل العلاجي المتخصص المصمم خصيصاً لكل مريض بعد استبعاد الأسباب العضوية الخطيرة [3, 4, 5, 7, 10]. من الناحية السلوكية، يساعد تناول الطعام ببطء في بيئة مريحة ومضغ اللقيمات جيداً مع إبقاء الفم مغلقاً على تقليل كميات الهواء المبتلعة بشكل ملموس، كما يُنصح بتجنب الشرب عبر الماصة البلاستيكية، والابتعاد عن مضغ اللبان (العلكة)، والحد من المشروبات الغازية والأطعمة المحلاة بالمحليات الصناعية (مثل السوربيتول والمانيتول) التي يصعب امتصاصها في الأمعاء وتتغذى عليها بكتيريا التخمير [1, 3, 4, 5]. كما تشير الدلائل الإكلينيكية إلى أن ممارسة نشاط بدني معتدل، مثل المشي الخفيف بعد الوجبات، قد تساعد في تنشيط حركة الأمعاء وتسهيل مرور الغازات لدى كثير من الأفراد وتخفيف الشعور بالثقل [3, 4, 10].\n\nمن الناحية الغذائية، يُعد التعامل مع الإمساك حجر الزاوية في التخلص من الانتفاخ؛ ويتحقق ذلك بزيادة شرب الماء على مدار اليوم وإدخال الألياف الغذائية القابلة للذوبان تدريجياً، مثل الشوفان وبذور الكتان أو مكملات السيليوم، مع الحذر من زيادة الألياف الخشنة غير القابلة للذوبان فجأة لأنها قد تفاقم الغازات [3, 4, 7, 11]. للمرضى المصابين بالقولون العصبي، قد تكون تجربة حمية منخفضة الفودماب (Low-FODMAP Diet) مفيدة جداً لتخفيف الانتفاخ، غير أن هذه الحمية يجب أن تُطبق تحت إشراف أخصائي تغذية علاجية لفترة مؤقتة تتراوح بين أربعة وستة أسابيع فقط، تليها مرحلة إعادة إدخال منظمة لتحديد الأطعمة المحفزة بدقة وتفادي الحرمان الغذائي المزمن [5, 7, 10]. كما يمكن للطبيب وصف علاجات دوائية داعمة مؤقتة، مثل مادة السيميثيكون التي تعمل على تجميع فقاعات الغاز الصغيرة لتسهيل خروجها، أو مضادات التقلصات الموجهة لحركة الأمعاء، أو معدلات حركة الجهاز الهضمي والأدوية المنظمة لمحور الدماغ والأمعاء بجرعات منخفضة لتخفيف فرط التحسس الحشوي [3, 5, 7, 10].\n\nفي عيادات لاروز بالمعادي، يقدم د. مهاب أشرف فؤاد، أخصائي الأمراض الباطنية والسكر وأخصائي الكبد والجهاز الهضمي والمناظير، تقييماً طبياً متكاملاً للمرضى الذين يعانون من انتفاخ البطن المستمر والاضطرابات الهضمية المزمنة. تتميز الزيارة في العيادة بإجراء الكشف الإكلينيكي المفصل مع إمكانية عمل فحص سونار البطن بالموجات فوق الصوتية خلال الزيارة نفسها بواسطة الطبيب المعالج عند وجود دواعي طبية؛ مما يمنحه رؤية تصويرية مباشرة للأعضاء الباطنية وربطها بالشكوى السريرية للمريض دون تأخير، مع توجيه الحالة لفحوصات الحوض التخصصية عند الحاجة. يتم تصميم الخطة العلاجية بعناية ودون وعود مبالغ فيها، بالتركيز على السبب الدقيق وراء الانتفاخ وتنظيم حركة القولون وتقديم إرشادات غذائية مدروسة. عندما تحتاج إلى تقييم منظم ووضوح طبي مطمئن، يمكنك طلب حجز موعد استشارة الجهاز الهضمي لبدء مسار الفحص المتخصص.",
+            "en": "Effective, durable management of persistent abdominal bloating relies on a coordinated combination of evidence-based lifestyle and dietary interventions, complemented by targeted clinical therapy tailored to the individual after ruling out serious underlying organic conditions [3, 4, 5, 7, 10]. From a behavioural standpoint, eating meals unhurriedly in a calm posture and chewing food thoroughly with the mouth closed substantially diminishes aerophagia (air swallowing); patients are similarly advised to avoid drinking through straws, eliminate chewing gum, and curtail carbonated beverages and products sweetened with poorly absorbable polyols such as sorbitol, xylitol, and mannitol, which fuel rapid microbial fermentation [1, 3, 4, 5]. Clinical evidence also indicates that modest physical activity, such as light walking after meals, can help support intestinal motility, encourage the passage of trapped gas, and reduce sensations of abdominal heaviness in many individuals [3, 4, 10].\n\nFrom a nutritional perspective, optimizing bowel regularity is paramount: proactive management of constipation with consistent daily hydration and the gradual introduction of soluble dietary fibre—such as oat bran, crushed flaxseeds, or psyllium husk—enhances stool clearance without producing excessive gaseous distension, whereas abruptly increasing coarse insoluble fibre frequently exacerbates gas and discomfort [3, 4, 7, 11]. For individuals suffering from irritable bowel syndrome, a structured trial of a low-FODMAP diet can offer meaningful relief; however, this approach should strictly follow a time-limited elimination phase of four to six weeks under the guidance of a nutrition professional, followed by systematic food reintroduction to identify specific physiological triggers while safeguarding long-term nutritional variety and gut microbiome diversity [5, 7, 10]. Pharmacologically, clinicians may approve targeted symptomatic agents, such as simethicone to lower the surface tension of gas bubbles and facilitate coalescence, smooth-muscle antispasmodics, or low-dose gut-brain neuromodulating agents to down-regulate visceral hypersensitivity [3, 5, 7, 10].\n\nAt La Rose Clinics in Maadi, Dr. Mohab Ashraf Fouad, Specialist in Internal Medicine & Diabetes, Hepatology, Gastroenterology & Endoscopy, provides comprehensive clinical assessments for patients struggling with persistent bloating, functional distension, and complex digestive complaints. A key feature of the clinic's care model is that Dr. Mohab provides a comprehensive clinical evaluation with the availability of in-clinic abdominal ultrasound during the same visit when clinically indicated; this allows the evaluating physician to directly assess abdominal organs in real time when needed, while coordinating specialized pelvic imaging separately if clinical findings warrant it. Treatment strategies are formulated realistically without unwarranted promises, concentrating on clarifying the root physiological cause, restoring regular motility, and delivering practical nutritional guidance. When you need structured medical clarity and expert clinical oversight, you can request a gastroenterology consultation to begin your diagnostic assessment."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد استشارة الجهاز الهضمي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a gastroenterology consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "ما الفرق بين انتفاخ البطن الطبيعي المؤقت والانتفاخ المستمر الذي يحتاج استشارة طبية؟",
+            "en": "What is the difference between normal occasional bloating and persistent bloating that requires a medical visit?"
+          },
+          "a": {
+            "ar": "الانتفاخ العابر أمر فسيولوجي شائع يحدث غالباً بعد تناول وجبات كبيرة أو غنية بالبقوليات والمشروبات الغازية، ويزول تلقائياً في غضون ساعات قليلة بمجرد هضم الطعام وخروج الغازات أو البراز دون أن يعطل الحياة اليومية [1, 4, 9]. أما الانتفاخ المستمر فيتكرر عدة أيام في الأسبوع، أو يستمر لأسابيع وشهور متواصلة، وقد يزداد تدريجياً على مدار النهار مصحوباً ببروز واضح في البطن أو ألم واضطراب في الإخراج [4, 5, 10]. هذا النمط المستمر يستدعي تقييماً سريرياً لدى طبيب الجهاز الهضمي لاستبعاد اضطرابات الحركة أو الإمساك أو القولون العصبي أو الأسباب العضوية الأخرى [5, 10].",
+            "en": "Occasional transient bloating is a normal physiological occurrence that commonly follows large meals, carbonated beverages, or gas-producing legumes, resolving spontaneously within several hours once digestion occurs and gas or stool is passed [1, 4, 9]. In contrast, persistent bloating recurs multiple days per week, lasts for consecutive weeks or months, and often intensifies throughout the day with visible distension or altered bowel habits [4, 5, 10]. This ongoing pattern warrants formal medical evaluation by a gastroenterologist to identify underlying motility issues, constipation, irritable bowel syndrome, or other organic causes [5, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل يجب الامتناع عن أطعمة معينة أو إيقاف الجلوتين فور الشعور بالانتفاخ المستمر؟",
+            "en": "Should I eliminate gluten or multiple foods as soon as I experience persistent bloating?"
+          },
+          "a": {
+            "ar": "لا يُنصح ببدء حمية صارمة أو إيقاف الجلوتين من تلقاء نفسك بمجرد الشعور بالانتفاخ؛ لأن الامتناع العشوائي عن الجلوتين قبل إجراء الفحوصات الطبية قد يؤدي إلى سلبية كاذبة في تحاليل الأجسام المضادة للداء البطني (السيلياك)، مما يعطل التشخيص الدقيق [7, 8]. كما أن الحرمان الواسع من مجموعات غذائية دون استشارة طبية يسبب نقصاً في العناصر الغذائية الأساسية ويزيد من صعوبة معرفة السبب الحقيقي [7, 13]. الخطوة السليمة هي تدوين مفكرة بسيطة للأطعمة والأعراض، ومناقشة الطبيب حول الفحوصات المناسبة أو الحاجة لحمية موجهة تحت إشراف متخصص [3, 7, 8, 13].",
+            "en": "You should not initiate an unsupervised restrictive diet or stop eating gluten simply because of persistent bloating. Eliminating dietary gluten prior to completing formal medical investigations causes antibody levels to decline rapidly, potentially producing falsely reassuring negative results on coeliac serology and delaying an accurate diagnosis [7, 8]. Furthermore, broadly eliminating entire food groups without professional oversight risks nutritional deficiencies and complicates identifying the true trigger [7, 13]. The proper step is keeping a brief symptom and food log to review with a gastroenterologist, who can guide targeted testing and supervise structured, temporary dietary trials if clinically indicated [3, 7, 8, 13]."
+          }
+        },
+        {
+          "q": {
+            "ar": "متى يكون انتفاخ البطن عند السيدات مؤشراً يستدعي فحصاً لأعضاء الحوض؟",
+            "en": "When does bloating in women indicate the need for a pelvic and gynaecological assessment?"
+          },
+          "a": {
+            "ar": "توضح التحديثات الإكلينيكية البريطانية (NICE NG12) أن تمدد البطن المستمر أو المتكرر بحد ذاته (خاصة أكثر من 12 مرة شهرياً) يُعد عَرَضاً منفرداً يستوجب التقييم الطبي دون اشتراط وجود أعراض أخرى [6]. وتفصل الإرشادات الفحوصات وفق العمر: للسيدات في سن 40 عاماً فما فوق يُطلب تحليل بروتين CA125 وترتيب سونار بناءً على نتائجه العمرية، بينما للسيدات في سن 39 عاماً أو أقل توصي بعدم الاعتماد على CA125 منفرداً وتفضيل السونار المباشر، مع اهتمام خاص بمن تبلغ 50 عاماً أو أكثر وتظهر عليها أعراض جديدة تشبه القولون العصبي لأن ظهوره لأول مرة في هذا السن نادر جداً [6, 7]. ويبقى للطبيب المعالج تقدير الفحوصات المناسبة—مثل سونار البطن والحوض وتحليل CA125—بناءً على التقييم السريري الشامل دون مبالغة أو قلق غير مبرر [6, 9, 10].",
+            "en": "Updated UK clinical guidance (NICE NG12) clarifies that persistent or frequent abdominal distension alone (particularly more than 12 times per month) is an individual symptom that warrants medical assessment without requiring coexisting symptoms [6]. The guideline specifies age-dependent pathways: measuring serum CA125 for women aged 40 and over (with ultrasound guided by age-specific CA125 thresholds), while advising against using CA125 in isolation for women aged 39 or under in favor of direct ultrasound, alongside heightened vigilance for women aged 50 and over presenting with new IBS-like symptoms where first-time IBS is rare [6, 7]. The treating clinician determines the appropriate work-up based on comprehensive evaluation, ordering pelvic ultrasound or CA125 as clinically indicated without unwarranted alarm [6, 9, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تحاليل حساسية الطعام التجارية عبر الدم (IgG) مفيدة لمعرفة سبب الانتفاخ؟",
+            "en": "Are commercial food intolerance blood tests (IgG panels) useful for identifying the cause of bloating?"
+          },
+          "a": {
+            "ar": "لا يُنصح بالاعتماد على تحاليل الأجسام المضادة IgG المروجة تجارياً لتشخيص سبب الانتفاخ أو عدم تحمل الأغذية؛ حيث توضح الجمعيات الطبية المتخصصة في أمراض الجهاز الهضمي والحساسية أن وجود أجسام IgG يعكس في كثير من الأحيان مجرد تعرض طبيعي للجهاز المناعي للأطعمة وليس دليلاً على مرض أو عدم تحمل حقيقي [5, 10, 13, 14]. الاعتماد على هذه الاختبارات يؤدي غالباً إلى منع أطعمة مغذية بلا مبرر دون علاج المشكلة الحقيقية؛ لذا يعتمد التشخيص السليم على الفحص السريري، واستبعاد اضطرابات الحركة أو نقص الإنزيمات مثل اللاكتوز، والمتابعة الطبية الموجهة [2, 5, 10, 13].",
+            "en": "Direct-to-consumer food sensitivity panels measuring IgG antibodies are not recommended for investigating bloating or gastrointestinal symptoms. Clinical guidelines from allergy and gastroenterology societies note that circulating IgG antibodies commonly reflect physiological exposure rather than intolerance or disease [5, 10, 13, 14]. Relying on these unvalidated commercial panels frequently prompts unwarranted, highly restrictive diets that cause nutritional deficits without treating the underlying gut disorder; clinical management relies instead on history, objective evaluation of motility, targeted diagnostic tests, and guided dietary adjustments [2, 5, 10, 13]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Symptoms & Causes of Gas in the Digestive Tract",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Gas in the Digestive Tract",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract/diagnosis"
+        },
+        {
+          "label": "NIDDK — Treatment for Gas in the Digestive Tract",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract/treatment"
+        },
+        {
+          "label": "NHS — Bloating",
+          "url": "https://www.nhs.uk/conditions/bloating/"
+        },
+        {
+          "label": "American College of Gastroenterology — Belching, Bloating & Flatulence",
+          "url": "https://gi.org/topics/belching-bloating-and-flatulence/"
+        },
+        {
+          "label": "NICE — Suspected cancer: recognition and referral (NG12)",
+          "url": "https://www.nice.org.uk/guidance/ng12/chapter/recommendations-organised-by-site-of-cancer"
+        },
+        {
+          "label": "NICE — Irritable bowel syndrome in adults: diagnosis and management (CG61)",
+          "url": "https://www.nice.org.uk/guidance/cg61/chapter/1-Recommendations"
+        },
+        {
+          "label": "NICE — Coeliac disease: recognition, assessment and management (NG20)",
+          "url": "https://www.nice.org.uk/guidance/ng20/chapter/Recommendations"
+        },
+        {
+          "label": "Cleveland Clinic — Bloated Stomach: Causes, Symptoms & How to Get Rid of It",
+          "url": "https://my.clevelandclinic.org/health/symptoms/21740-bloated-stomach"
+        },
+        {
+          "label": "Mari et al. — Bloating and Abdominal Distension: Clinical Approach and Management (Adv Ther, PMC6824367)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6824367/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Constipation",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Irritable Bowel Syndrome",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/symptoms-causes"
+        },
+        {
+          "label": "NHS — Food intolerance",
+          "url": "https://www.nhs.uk/conditions/food-intolerance/"
+        },
+        {
+          "label": "AAAAI — The Myth of IgG Food Panel Testing",
+          "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "الانتفاخ المستمر: متى تزور الطبيب؟",
+          "en": "Bloating: when to see a doctor"
+        },
+        "description": {
+          "ar": "دليل طبي شامل حول أسباب انتفاخ البطن المستمر، والفرق بين الغازات العابرة وتمدد البطن، وعلامات الخطر التي تستدعي فحصاً سريرياً في عيادة الجهاز الهضمي.",
+          "en": "Clinical guide to persistent abdominal bloating, distinguishing gas from distension, identifying alarm signs, and knowing when to see a gastroenterologist."
+        }
+      }
+    }
+  ]
+}

@@ -87,6 +87,7 @@ export function loadContent() {
   const supplementsTargetedRewrite = read("articles-supplements-are-targeted-not-a-default-rewrite-2026-09-21.json");
   const localFatInjectionsRewrite = read("articles-local-fat-injections-do-they-work-rewrite-2026-09-21.json");
   const hPyloriSymptomsTestsTreatmentRewrite = read("articles-h-pylori-symptoms-tests-treatment-rewrite-2026-09-21.json");
+  const bloatingWhenToSeeDoctorRewrite = read("articles-bloating-when-to-see-doctor-rewrite-2026-09-23.json");
   const darkNeckRewrite = read("articles-dark-neck-rewrite-2026-09-14.json");
   const darkNeckPregnancyRewrite = neutralArabicReaderAddress(read("articles-dark-neck-pregnancy-rewrite-2026-09-16.json"));
   const hPyloriBloatingRewrite = read("articles-h-pylori-bloating-rewrite-2026-09-16.json");
@@ -109,7 +110,7 @@ export function loadContent() {
   // editorial batch. They deliberately support (rather than replace) each
   // article's topic-specific sections and make the guidance useful in a real
   // consultation without turning it into personal medical advice.
-  const expansionArticles = (articleExpansion.articles || []).filter((article) => !["body-composition-change-over-time", "bariatric-vitamin-monitoring", "gallstones-when-symptoms-need-assessment", "gallbladder-laparoscopic-or-open-surgery", "after-gallbladder-surgery-recovery-warning-signs", "gallbladder-pain-in-pregnancy-when-to-assess", "liver-function-tests-need-context", "gerd-and-reflux-difference", "colonoscopy-preparation-what-to-ask", "food-intolerance-vs-allergy"].includes(article.slug)).map((article) => ({
+  const expansionArticles = (articleExpansion.articles || []).filter((article) => !["body-composition-change-over-time", "bariatric-vitamin-monitoring", "gallstones-when-symptoms-need-assessment", "gallbladder-laparoscopic-or-open-surgery", "after-gallbladder-surgery-recovery-warning-signs", "gallbladder-pain-in-pregnancy-when-to-assess", "liver-function-tests-need-context", "gerd-and-reflux-difference", "colonoscopy-preparation-what-to-ask", "food-intolerance-vs-allergy", "bloating-when-to-see-doctor"].includes(article.slug)).map((article) => ({
     ...article,
     sections: [
       ...(article.sections || []),
@@ -196,6 +197,7 @@ export function loadContent() {
     ...(supplementsTargetedRewrite.articles || []),
     ...(localFatInjectionsRewrite.articles || []),
     ...(hPyloriSymptomsTestsTreatmentRewrite.articles || []),
+    ...(bloatingWhenToSeeDoctorRewrite.articles || []),
     ...(longformExpansion.articles || []),
   ];
   // Editorial images are hand-managed beneath `assets/img/articles/`. A small
