@@ -1,0 +1,331 @@
+{
+  "_note": "Canonical long-form rewrite of h-pylori-symptoms-tests-treatment. Scoped to primary symptoms, non-invasive active infection testing vs blood serology pitfalls, the role of endoscopy and biopsy testing, clinician-selected combination therapy, and test-of-cure protocols. Sibling pages retain distinct intents: qa-h-pylori-still-bloated (post-treatment bloating and dysbiosis), h-pylori-in-children-symptoms-tests (pediatric assessment), and h-pylori-reflux-ibs (differential diagnosis between upper gut, reflux, and IBS).",
+  "articles": [
+    {
+      "slug": "h-pylori-symptoms-tests-treatment",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "internal-medicine"
+      ],
+      "date": "2026-09-10",
+      "updatedAt": "2026-09-23",
+      "readingTime": 11,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/h-pylori-reflux-ibs.webp",
+      "title": {
+        "ar": "جرثومة المعدة: الأعراض والتحاليل وإمتى تحتاج علاج؟",
+        "en": "H. pylori: symptoms, tests and when treatment is needed"
+      },
+      "excerpt": {
+        "ar": "أعراض جرثومة المعدة مش مميزة لوحدها، وبعض الناس ما عندهمش أعراض أصلاً. الاختبار المناسب يثبت العدوى النشطة، والطبيب يختار العلاج والمتابعة.",
+        "en": "H. pylori symptoms are not distinctive on their own, and some people have none. The right test identifies active infection, then a clinician selects treatment and follow-up."
+      },
+      "tags": {
+        "ar": [
+          "جرثومة المعدة",
+          "تحليل جرثومة المعدة",
+          "اختبار النفس باليوريا",
+          "علاج جرثومة المعدة",
+          "قرحة المعدة",
+          "منظار المعدة"
+        ],
+        "en": [
+          "H. pylori",
+          "H. pylori test",
+          "urea breath test",
+          "H. pylori treatment",
+          "peptic ulcer",
+          "gastroscopy"
+        ]
+      },
+      "sections": [
+        {
+          "id": "infection-and-symptoms",
+          "heading": {
+            "ar": "العدوى ممكن تكون ساكتة أو تعمل أعراضاً غير محددة",
+            "en": "The infection may be silent or cause non-specific symptoms"
+          },
+          "body": {
+            "ar": "جرثومة المعدة (Helicobacter pylori) بكتيريا حلزونية دقيقة متكيفة مع العيش في بطانة المعدة الحامضية. البكتيريا دي بتفرز إنزيم اليورييز، اللي بيحول اليوريا لمادة قلوية بتعادل الحمض في محيطها المباشر، وده بيسمح لها تستقر وتستمر في جدار المعدة لسنين طويلة لو ما تمش القضاء عليها بعلاج متخصص [4, 7, 10, 12]. الدراسات الوبائية بتوضح إن الجرثومة منتشرة عالمياً، ومعدل انتشارها بيختلف كثيراً بين البلدان والمجتمعات [4, 7, 10]. ورغم الانتشار الواسع ده، الغالبية العظمى من المصابين ما بتظهرش عليهم أي أعراض أو مشاكل صحية واضحة طوال حياتهم [4, 12]. وجود البكتيريا في حد ذاته حقيقة ميكروبيولوجية، لكنه مش سبب تلقائي لكل وجع أو انتفاخ في البطن.\n\nلما تظهر الأعراض، بتكون عادة ناتجة عن التهاب مزمن في بطانة المعدة أو تشكل قرحة المعدة أو الاثني عشر [1, 2, 4, 11]. الشكوى الأكثر شيوعاً هي ألم أو حرقان في أعلى البطن (فم المعدة)، بيزيد أحياناً لما تكون المعدة فاضية أو يصحّي الشخص من النوم بالليل [2, 4, 11, 12]. ممكن يظهر كمان إحساس بالامتلاء المبكر بعد وجبة صغيرة، غثيان، تجشؤ متكرر، انتفاخ، أو فقدان في الشهية [2, 4, 12]. النقطة الأهم إن ولا عرض من الأعراض دي يعتبر مميزاً للجرثومة بمفردها؛ نفس الأعراض بتظهر مع عسر الهضم الوظيفي، أو التهاب المعدة الناتج عن مسكنات الألم غير الستيرويدية زي الإيبوبروفين، أو حصوات المرارة، أو قرحة المعدة غير المرتبطة بالجرثومة [2, 9, 11].\n\nبسبب التشابه الكبير في أعراض الجهاز الهضمي العلوي، التقييم السليم يعتمد على إثبات وجود العدوى بالفحص المعتمد، مش على التخمين من مجرد الشكوى [8, 10]. إرشادات إجماع ماستريخت السادس ومؤتمر هيوستن تؤكد إن بدء علاج الجرثومة بالمضادات الحيوية اعتماداً على الأعراض وحدها من غير تحليل مؤكد يعرض الشخص لمخاطر الآثار الجانبية ومقاومة المضادات من غير فائدة طبية حقيقية [7, 8, 10]. التحليل المناسب هو الخطوة الوحيدة اللي تجاوب سؤال العدوى النشطة قبل أي قرار علاجي.",
+            "en": "Helicobacter pylori (H. pylori) is a spiral-shaped, flagellated bacterium adapted to colonise the acidic mucus layer of the human stomach lining. By producing the enzyme urease, it converts gastric urea into ammonia and carbon dioxide, neutralising stomach acid in its immediate microenvironment and allowing it to establish lifelong persistence unless actively eradicated [4, 7, 10, 12]. Epidemiological surveys indicate that H. pylori is common worldwide, and prevalence varies substantially across regions and communities [4, 7, 10]. Yet the overwhelming majority of infected people never develop noticeable symptoms or overt clinical illness throughout their lives [4, 12]. Carrying the organism is therefore a microbiological finding rather than an automatic explanation for every sensation of discomfort in the abdomen.\n\nWhen symptoms do occur, they typically stem from progressive inflammation of the stomach lining (chronic gastritis) or mucosal ulceration in the stomach or duodenum [1, 2, 4, 11]. The most frequent complaint is an ache or burning sensation in the upper abdomen, often between the navel and breastbone, which may worsen when the stomach is empty or wake a person during the night [2, 4, 11, 12]. Other common symptoms include postprandial fullness, early satiety, nausea, excessive belching, bloating, and reduced appetite [2, 4, 12]. Importantly, none of these manifestations is unique to H. pylori. Identical clinical features occur in non-ulcer functional dyspepsia, medication-induced gastric irritation from non-steroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen, gallstone disease, or a peptic ulcer that arose without any bacterial involvement [2, 9, 11].\n\nBecause upper-gastrointestinal sensations overlap extensively across different conditions, an accurate assessment depends on identifying objective evidence rather than guessing from symptoms alone [8, 10]. International consensus statements, including the Maastricht VI report and the Houston Consensus, stress that treating dyspepsia empirically without verifying active bacterial infection risks unnecessary antibiotic exposure, adverse drug effects, and progressive antimicrobial resistance [7, 8, 10]. A suitable test must establish whether active bacteria are truly present before any clinical decision is made."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "قرحة المعدة أو الاثني عشر",
+                "url": "../articles/h-pylori-reflux-ibs.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "stomach or duodenum",
+                "url": "../articles/h-pylori-reflux-ibs.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "active-infection-vs-antibody-tests",
+          "heading": {
+            "ar": "اختبارات العدوى النشطة في مقابل تحاليل الأجسام المضادة",
+            "en": "Active infection tests versus blood antibody testing"
+          },
+          "body": {
+            "ar": "تشخيص جرثومة المعدة بدقة يحتاج اختبارات تكتشف وجود بكتيريا حية نشطة في الوقت الحالي، مش مجرد أثر مناعي قديم. الخياران الأساسيان غير الجراحيين المعتمدان في الإرشادات الطبية العالمية هما اختبار النفس باليوريا (Urea Breath Test) وتحليل مستضد الجرثومة في البراز (Stool Antigen Test) باستخدام الأجسام المضادة أحادية النسيلة في المعمل [5, 7, 8, 10]. في اختبار النفس، يتناول الشخص محلولاً يحتوي على يوريا موسومة بالكربون-13 غير المشع؛ لو الجرثومة نشطة في المعدة، إنزيم اليورييز بيكسر اليوريا ويخرج ثاني أكسيد الكربون الموسوم مع هواء الزفير ليتم قياسه بجهاز دقيق [5, 8, 10]. أما تحليل البراز فبيكشف مباشرة عن بروتينات البكتيريا نفسها التي تفرزها في الفضلات [5, 8, 12]. تختلف دقة الاختبارين حسب نوع الفحص والتحضير، وكلاهما مفيد للكشف عن العدوى النشطة عند استخدامه بطريقة صحيحة [7, 8, 10].\n\nفي المقابل، تحاليل الأجسام المضادة في الدم (سيرولوجي IgG) شائعة الاستخدام في بعض المعامل لكنها مصدر متكرر للتشخيص الخاطئ والارتباك. تحليل الدم بيوضح إن جهاز المناعة تعامل مع الجرثومة في مرحلة ما من حياتك، لكنه ما يقدرش يحدد هل العدوى موجودة دلوقتي ولا انتهت من زمان [6, 7, 8]. الأجسام المضادة بتفضل موجودة في مجرى الدم لشهور أو سنين طويلة حتى بعد الشفاء التام وزوال البكتيريا بالكامل [7, 8, 10]. لهذا السبب، إرشادات الكلية الأمريكية للجهاز الهضمي (ACG) لسنة 2024 وإجماع مؤتمر هيوستن ينصحان بوضوح بعدم الاعتماد على تحاليل الدم في تشخيص العدوى أو متابعة الشفاء [6, 8]. الاعتماد على كلمة «إيجابي» في تحليل الدم يؤدي في حالات كتير لتناول مضادات حيوية متكررة بلا أي داعٍ طبي [6, 8].\n\nدقة اختبار النفس وتحليل مستضد البراز ترتبط بشكل وثيق بالتوقف المؤقت عن أدوية معينة قبل التحليل. أدوية تقليل الحموضة من فئة مثبطات مضخة البروتون (زي أوميبرازول وبانتوبرازول وإيزوميبرازول) بتقلل نشاط إنزيم اليورييز، وده ممكن يدي نتيجة سلبية كاذبة في نسبة تصل لـ30 إلى 40% من المصابين بالفعل [5, 7, 8]. كما أن المضادات الحيوية ومركبات البزموت بتقلل عدد البكتيريا مؤقتاً وتؤثر على دقة الفحص [5, 6, 8]. الإرشادات الطبية تشترط التوقف عن أدوية مثبطات مضخة البروتون لمدة أسبوعين على الأقل (14 يوماً)، والتوقف عن المضادات الحيوية والبزموت لمدة 4 أسابيع كاملة (28 يوماً) قبل إجراء اختبار النفس أو تحليل البراز [6, 7, 8]. لو الأعراض متعبة خلال فترة التوقف، يقدر الطبيب يصف مضادات حموضة بسيطة أو فئة مضادات الهيستامين H2 زي الفاموتيدين بجرعة محددة حتى يوم أو يومين قبل الفحص [8].",
+            "en": "Detecting active H. pylori infection requires diagnostic tools that demonstrate living bacteria rather than historical exposure. The two primary non-invasive options recommended by gastroenterology guidelines are the urea breath test (UBT) and the laboratory stool antigen test (SAT) using monoclonal enzyme immunoassay [5, 7, 8, 10]. In the urea breath test, the patient ingests a solution containing urea labelled with carbon-13 (a safe, non-radioactive isotope); if active bacteria are present in the stomach, bacterial urease rapidly splits the urea, releasing labelled carbon dioxide that is absorbed into the bloodstream and measured in exhaled breath samples [5, 8, 10]. The stool antigen test directly detects specific bacterial structural proteins shed into the stool [5, 8, 12]. Both tests are useful for detecting active infection, although their accuracy depends on the test used and correct preparation [7, 8, 10].\n\nIn contrast, blood tests that measure circulating antibodies (serology IgG) against H. pylori are widely misused and frequently cause clinical confusion. While a blood antibody test confirms that the immune system has encountered the bacterium at some point in life, it cannot determine whether an active infection is present right now [6, 7, 8]. Antibodies can remain detectable in the bloodstream for months, years, or even decades following successful antibiotic eradication or spontaneous clearance [7, 8, 10]. For this reason, the 2024 American College of Gastroenterology (ACG) guideline and the Houston Consensus explicitly advise against blood serology for routine diagnostic evaluation or confirming cure [6, 8]. Relying on a positive blood test repeatedly leads to unnecessary antibiotic courses for an infection that was cleared years earlier [6, 8].\n\nAccurate results from the urea breath test and stool antigen test depend strictly on medication preparation. Proton pump inhibitors (PPIs) such as omeprazole, esomeprazole, and pantoprazole alter bacterial distribution and suppress urease enzyme activity, which can produce falsely negative test results in up to thirty to forty percent of infected patients [5, 7, 8]. Antibiotics and bismuth subsalicylate formulations directly diminish bacterial numbers in the stomach lining, also causing false negatives [5, 6, 8]. Guidelines therefore mandate that PPIs be held for at least two weeks (fourteen days) before testing, and that all antibiotics and bismuth preparations be discontinued for at least four weeks (twenty-eight days) before undergoing either a breath or stool test [6, 7, 8]. If symptom control is necessary during the washout window, a clinician may approve short-acting antacids or H2-receptor antagonists like famotidine up to one to two days before testing [8]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "role-of-endoscopy",
+          "heading": {
+            "ar": "المنظار مش مطلوب لكل شخص: متى يكون فحص بطانة المعدة ضرورياً؟",
+            "en": "Endoscopy is not required for everyone: when is direct inspection necessary?"
+          },
+          "body": {
+            "ar": "غالبية المرضى الذين يعانون من أعراض بسيطة في أعلى البطن مش محتاجين يبدأوا بمنظار كخطوة أولى. في الفئات العمرية الأصغر سناً وعند غياب علامات الإنذار، الإرشادات السريرية تنصح بمسار «الفحص والعلاج» غير الجراحي: إجراء اختبار النفس أو تحليل البراز، وبدء العلاج لو ثبتت العدوى النشطة [7, 9, 10]. الفحص غير الجراحي يجنب المريض إجراءات غير ضرورية، خصوصاً لما تتشابه الشكوى مع الارتجاع أو القولون العصبي من غير علامات إنذار. لكن منظار المعدة (Esophagogastroduodenoscopy) يفضل الوسيلة الأدق والأهم متى ما استدعت الحالة فحصاً مباشراً لبطانة الجهاز الهضمي [1, 5, 9]. المنظار يسمح لطبيب الجهاز الهضمي برؤية المريء وجدار المعدة والاثني عشر بوضوح تحت مهدئ خفيف، ورصد أي تقرحات نشطة، أو نزيف، أو التهابات متقدمة [1, 2, 5, 11].\n\nأثناء فحص المنظار، يستطيع الطبيب أخذ عينات نسيجية دقيقة وصغيرة جداً من مناطق محددة في المعدة لفحصها مخبرياً بعدة طرق [5, 6, 7]. العينات يمكن فحصها فوراً داخل غرفة المناظير باختبار اليورييز السريع (CLO test)، أو إرسالها لمعمل الباثولوجي للفحص المجهري النسيجي بأصباغ مخصصة، وهو المعيار الذهبي لتقييم درجة الالتهاب، وضمور الغدد، أو التغيرات النسيجية في جدار المعدة [5, 7, 10]. في بعض الحالات المتكررة، يمكن عمل مزرعة بكتيرية أو تحليل جيني (PCR) من العينة للتحقق من وجود طفرات جينية تسبب مقاومة لمضادات حيوية معينة زي الكلاريثرومايسين، وده بيساعد الطبيب يختار خطة علاج بديلة بدقة [5, 6, 7].\n\nاللجوء للمنظار يصبح خطوة عاجلة ولا تقبل التأخير في وجود علامات الإنذار أو الخطر، بغض النظر عن سن المريض [2, 4, 9, 11]. علامات الخطر تشمل قيء مدمم أو داكن يشبه تفل القهوة، أو براز أسود قطراني كريه الرائحة (Melena)، أو صعوبة وألم أثناء البلع، أو فقدان وزن غير مبرر وسريع، أو قيء متكرر مستمر، أو أنيميا نقص حديد غير مفسرة [2, 4, 6, 9]. وقد يُنصح بالمنظار عند ظهور عسر هضم جديد في سن أكبر بحسب الإرشادات المحلية وعوامل الخطر الفردية، أو لو فيه تاريخ عائلي مباشر لأورام المعدة [6, 7, 9]. في الحالات دي، البدء العشوائي للمضادات الحيوية من غير منظار قد يخفي قرحة نازفة أو مشكلة جراحية تستحق تدخلاً سريعاً [6, 9].",
+            "en": "Most patients with straightforward upper-abdominal complaints do not need an invasive procedure as their first diagnostic step. In younger individuals without alarm features, clinical guidelines endorse a non-invasive 'test-and-treat' strategy: identifying active infection via breath or stool testing and treating confirmed cases appropriately [7, 9, 10]. Non-invasive testing avoids unnecessary procedures, especially when symptoms overlap with reflux or irritable bowel syndrome without any red flags. However, diagnostic upper endoscopy (also known as an esophagogastroduodenoscopy or gastroscopy) remains the gold standard when direct visualisation of the mucosal tissue is required [1, 5, 9]. A gastroscopy allows an experienced gastroenterologist to directly examine the lining of the oesophagus, stomach, and duodenum under light sedation, pinpointing mucosal erosion, active bleeding, ulcer craters, or suspicious structural abnormalities [1, 2, 5, 11].\n\nDuring an endoscopy, the specialist can collect tiny, painless tissue biopsies from specific areas of the gastric antrum and corpus for multiple diagnostic assessments [5, 6, 7]. Biopsy specimens can be examined immediately at the bedside using a rapid urease test (CLO test), or sent to pathology for histopathological evaluation with special stains, which reliably verifies tissue inflammation, glandular atrophy, and intestinal metaplasia [5, 7, 10]. In tertiary centres, biopsies can also be used for bacterial culture or molecular polymerase chain reaction (PCR) testing to identify point mutations responsible for clarithromycin or fluoroquinolone resistance, providing invaluable guidance for treatment planning in challenging or recurrent infections [5, 6, 7].\n\nDirect endoscopic examination becomes urgent when red-flag alarm features are present, regardless of age [2, 4, 9, 11]. These warning signs include vomiting blood or dark brown material resembling coffee grounds, passing black tarry stools (melena), progressive or painful swallowing (dysphagia or odynophagia), unintentional significant weight loss, persistent intractable vomiting, or unexplained iron-deficiency anaemia [2, 4, 6, 9]. The age at which new-onset dyspepsia warrants endoscopy varies by guideline and individual risk, so clinicians consider age alongside the full clinical picture, or who have a first-degree family history of gastric cancer [6, 7, 9]. In these high-risk scenarios, initiating empirical antibiotics without an endoscopy risks delaying the identification of a bleeding ulcer or early neoplasm [6, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الارتجاع أو القولون العصبي",
+                "url": "../articles/h-pylori-reflux-ibs.html"
+              },
+              {
+                "label": "منظار المعدة",
+                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "reflux or irritable bowel syndrome",
+                "url": "../articles/h-pylori-reflux-ibs.html"
+              },
+              {
+                "label": "gastroscopy",
+                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "clinician-selected-treatment",
+          "heading": {
+            "ar": "علاج جرثومة المعدة: خطة يختارها الطبيب وليست وصفة عشوائية",
+            "en": "H. pylori treatment: a clinician-selected regimen, not an off-the-shelf prescription"
+          },
+          "body": {
+            "ar": "القضاء على جرثومة المعدة تحدٍ دوائي منظم لا يمكن تحقيقه بمضاد حيوي واحد أو فوار حموضة من الصيدلية [3, 5, 6]. لأن البكتيريا بتعيش داخل طبقة المخاط الكثيفة المبطنة للمعدة وتستطيع تكوين مقاومة دوائية سريعة لو تعرضت لجرعات غير كافية، الإرشادات الدولية تشدد على استخدام علاج مركب متعدد الأدوية [6, 7, 10]. بروتوكولات العلاج تجمع بين دواء قوي لتثبيط حمض المعدة مع مضادين أو ثلاثة مضادات حيوية تعمل بتناغم وتكامل [5, 6, 7]. رفع درجة حموضة المعدة باستخدام جرعات عالية من مثبطات مضخة البروتون (PPI) أو حاصرات الحمض التنافسية للبوتاسيوم (P-CAB) يخرج البكتيريا من حالة السكون ويدفعها للانقسام النشط، وده اللي بيخلي المضادات الحيوية زي الأموكسيسيلين فعّالة في القضاء عليها [6, 7, 10].\n\nبسبب الارتفاع الكبير في معدلات مقاومة المضادات الحيوية عالمياً وفي منطقة الشرق الأوسط ومصر—خصوصاً ضد عقار الكلاريثرومايسين والميترونيدازول—تغيرت الإرشادات العلاجية بشكل جوهري [6, 7, 10]. دليل الكلية الأمريكية للجهاز الهضمي (ACG) لعام 2024 وإجماع ماستريخت السادس الأوروبي ينصحان بعدم استخدام العلاج الثلاثي التقليدي (الذي يحتوي على كلاريثرومايسين وأموكسيسيلين ومثبط حموضة) كخيار تجريبي أول إلا في المناطق التي يثبت فيها أن نسبة المقاومة للكلاريثرومايسين أقل من 15% [6, 7]. في المقابل، يوصى بالعلاج الرباعي المعتمد على البزموت (Bismuth Quadruple Therapy) لمدة 14 يوماً كخط أول مفضل [6, 7]. هذا البروتوكول يشمل مثبط مضخة البروتون مرتين يومياً، مع أملاح البزموت، والتتراسيكلين، والميترونيدازول بجرعات منتظمة يحددها الطبيب بدقة [6, 7]. للمرضى الذين يعانون من حساسية البنسلين أو صعوبة في تناول البزموت، يختار الطبيب بدائل مدروسة مثل العلاج الرباعي المتزامن غير المعتمد على البزموت، أو بروتوكولات تعتمد على الريفابوتين كخطوط بديلة [5, 6, 7].\n\nمدة العلاج والالتزام التام بالجرعات هما العامل الحاسم في نجاح التخلص من الجرثومة. الدراسات السريرية أثبتت أن تقصير مدة العلاج إلى 7 أو 10 أيام يرفع احتمالية فشل العلاج بشكل كبير؛ البروتوكول الموصى به حالياً يستمر لمدة 14 يوماً كاملة [6, 7, 10]. مهم المريض يعرف الآثار الجانبية المتوقعة والمؤقتة—زي تحول لون البراز أو اللسان للون الأسود الداكن بسبب البزموت، أو طعم معدني في الفم من الميترونيدازول، أو ليونة خفيفة في البراز—حتى لا يوقف المريض العلاج فجأة قبل اكتماله [5, 6]. تجربة وصفة علاجية مخصصة لشخص آخر، أو استعمال بقايا أدوية قديمة، خطأ جسيم يسبب فشل العلاج وظهور سلالات بكتيرية عنيدة شديدة المقاومة [5, 6].",
+            "en": "Eradicating H. pylori is a demanding pharmacological challenge that can never be accomplished with a single antibiotic or over-the-counter antacid [3, 5, 6]. Because the bacterium embeds itself within the dense mucosal gel layer of the stomach wall and rapidly acquires mutational resistance under subtherapeutic pressure, international guidelines emphasize multidrug combination therapy [6, 7, 10]. Treatment protocols deliberately combine potent acid suppression with two or three distinct antimicrobial agents acting synergistically [5, 6, 7]. Elevating the intragastric pH above six using high-dose proton pump inhibitors or modern potassium-competitive acid blockers (P-CABs) destabilises the bacterium's acid-protective mechanisms and triggers active bacterial replication, making cell-wall synthesis inhibitors like amoxicillin vastly more effective [6, 7, 10].\n\nDue to escalating worldwide resistance to clarithromycin and metronidazole—which is notably high across Mediterranean, Middle Eastern, and Egyptian populations—treatment paradigms have fundamentally shifted [6, 7, 10]. The 2024 ACG guideline and European Maastricht VI consensus explicitly discourage the empirical use of traditional clarithromycin triple therapy (a PPI, clarithromycin, and amoxicillin) unless local resistance to clarithromycin is confirmed to be under fifteen percent [6, 7]. Instead, fourteen days of optimized Bismuth Quadruple Therapy (BQT) is widely recommended as the premier first-line empiric regimen [6, 7]. This regimen consists of a standard- or double-dose PPI twice daily, bismuth subcitrate or subsalicylate four times daily, tetracycline four times daily, and metronidazole three to four times daily [6, 7]. For patients unable to take bismuth or with documented allergies, clinicians select tailored alternatives such as concomitant non-bismuth quadruple therapy, high-dose dual amoxicillin regimens, or rifabutin-containing rescue protocols [5, 6, 7].\n\nTreatment duration and patient compliance are critical determinants of eradication success. Robust clinical trials demonstrate that shortening antibiotic courses to seven or ten days produces unacceptable treatment failure rates; a full fourteen-day course is now the international standard of care [6, 7, 10]. Patients must understand expected, harmless side effects—such as temporary blackening of the stool or tongue from bismuth, a transient metallic taste in the mouth from metronidazole, or mild gastrointestinal loosening—so they do not discontinue treatment prematurely [5, 6]. Sharing another person's prescription, taking leftover antibiotics from a family member, or altering doses without medical supervision guarantees treatment failure and fuels multidrug-resistant bacterial strains [5, 6]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "test-of-cure-and-recovery",
+          "heading": {
+            "ar": "اختبار التأكد من الشفاء: متى وكيف يتم؟",
+            "en": "Test of cure and post-treatment recovery: timing and interpretation"
+          },
+          "body": {
+            "ar": "انتهاء كورس الـ14 يوماً من الأدوية لا يعني بالضرورة زوال الجرثومة بالكامل. حتى مع بروتوكول علاجي مناسب، ممكن تستمر العدوى لدى بعض المرضى بسبب مقاومة المضادات أو عوامل أخرى [6, 7, 8]. لهذا السبب، إجماع الجمعيات الطبية مثل مؤتمر هيوستن والكلية الأمريكية للجهاز الهضمي يوصي بشكل قاطع بعمل اختبار تأكد من الشفاء لكل مريض تلقى علاج الجرثومة [6, 7, 8]. الاعتماد على تحسن الأعراض خادع جداً؛ اختفاء الحرقان أو ألم المعدة غالباً بيكون نتيجة مؤقتة لأدوية خفض الحمض وشفاء جزئي لبطانة المعدة، مش دليل قاطع على القضاء على البكتيريا [6, 8].\n\nاختبار التأكد من الشفاء يتطلب توقيتاً دقيقاً لضمان صحة النتيجة. يجب إجراء التحليل بعد مرور 4 أسابيع كاملة (28 يوماً) على الأقل من انتهاء آخر جرعة مضاد حيوي أو بزموت، وبعد أسبوعين (14 يوماً) من التوقف عن أدوية مثبطات مضخة البروتون [6, 7, 8]. الفحوصات المعتمدة لمتابعة الشفاء هي اختبار النفس باليوريا أو تحليل مستضد الجرثومة في البراز [5, 7, 8]. تحليل الأجسام المضادة في الدم ممنوع تماماً لتقييم الشفاء، لأن الأجسام المضادة تفضل إيجابية لشهور أو سنين حتى بعد التعافي التام [7, 8, 10]. لو الحالة كانت تعاني من قرحة معدة كبيرة تستلزم منظار متابعة للتأكد من التئامها واستبعاد أي ورم، يمكن أخذ عينات أثناء المنظار لفحص اليورييز والأنسجة كبديل لتأكيد الشفاء [5, 6].\n\nكثير من الناس يشعرون بالقلق لو لاحظوا استمرار الانتفاخ بعد العلاج رغم التزامهم بكل الجرعات. المهم معرفته إن وجود أعراض مستمرة مش معناه تلقائياً إن العلاج فشل. بطانة المعدة بتحتاج أسابيع أو شهور عشان تتعافى تماماً من الالتهاب النسيجي المزمن بعد موت البكتيريا، وكورس المضادات القوي قد يسبب تغيراً عابراً في توازن البكتيريا النافعة بالأمعاء [7, 10]. فضلاً عن أن عسر الهضم الوظيفي أو متلازمة القولون العصبي ممكن يكونوا موجودين بالتوازي مع الجرثومة [7, 9]. مراجعة الطبيب المتخصص تفرّق بدقة بين التعافي البطيء للأنسجة، وتأثير المضادات المؤقت، أو بقاء العدوى الذي يحتاج بروتوكول علاج إنقاذي من الخط الثاني [6, 7].",
+            "en": "Completing a fourteen-day course of medication does not guarantee that H. pylori has been completely eliminated. Even with an appropriate treatment regimen, infection can persist in some patients because of antibiotic resistance or other factors [6, 7, 8]. For this reason, clinical consensus guidelines—including the Houston Consensus and the American College of Gastroenterology recommendations—strongly state that every treated patient should undergo formal confirmation of eradication [6, 7, 8]. Relying on how a person feels is deceptive: a marked reduction in burning or epigastric discomfort often reflects the soothing effect of acid-suppressive therapy or partial mucosal healing, rather than the total clearance of the underlying bacteria [6, 8].\n\nA test of cure must be conducted within a strict diagnostic timeframe to prevent inaccurate readings. The test must be scheduled at least four weeks (twenty-eight days) after completing the entire course of antibiotics and bismuth, and at least two weeks (fourteen days) after stopping proton pump inhibitors [6, 7, 8]. The preferred modalities for post-treatment verification are the laboratory monoclonal stool antigen test or the urea breath test [5, 7, 8]. Blood antibody testing must never be used to evaluate treatment outcome, as IgG antibodies linger for months or years irrespective of successful cure [7, 8, 10]. If a follow-up gastroscopy is already clinically required—for example, to confirm the complete healing of a large gastric ulcer and rule out malignancy—biopsies taken during the procedure for rapid urease testing and histopathology will serve as confirmation [5, 6].\n\nPatients are often puzzled when mild bloating persists after treatment despite taking every dose correctly. It is essential to recognize that ongoing sensations do not necessarily indicate persistent infection. The delicate gastric lining requires weeks or months to fully resolve chronic histological gastritis after the bacteria are gone, and a potent two-week antibiotic regimen can temporarily alter the commensal gut microbiome [7, 10]. Furthermore, functional dyspepsia or irritable bowel symptoms can exist alongside H. pylori [7, 9]. A dedicated medical review evaluates whether persistent complaints stem from slow tissue recovery, post-antibiotic dysbiosis, or an unresolved infection requiring second-line rescue therapy [6, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "استمرار الانتفاخ بعد العلاج",
+                "url": "../articles/qa-h-pylori-still-bloated.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "bloating persists after treatment",
+                "url": "../articles/qa-h-pylori-still-bloated.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "differentiating-gut-conditions",
+          "heading": {
+            "ar": "التمييز بين جرثومة المعدة والارتجاع والقولون العصبي",
+            "en": "Distinguishing H. pylori from reflux and irritable bowel syndrome"
+          },
+          "body": {
+            "ar": "الخلط بين جرثومة المعدة ومشاكل الجهاز الهضمي الأخرى سبب متكرر للأخطاء التشخيصية والعلاج غير المناسب. في المحادثات اليومية، يتم ربط أي حرقان أو انتفاخ أو عسر هضم فوراً باسم «الجرثومة»، في حين أن السبب الحقيقي قد يكون ارتجاع المريء أو القولون العصبي [2, 9, 10]. الطبيب يفرّق بين الحالات دي بالنظر للمكان الدقيق للعرض وتوقيته ومحفزاته [2, 9]. ارتجاع المريء يتميز بحرقان صاعد خلف عظمة الصدر (القص) باتجاه الحلق، مع إحساس بطعم حامضي في الفم، وغالباً بيزيد مع الانحناء للأمام أو الاستلقاء بعد وجبة دسمة [2, 9, 11]. أما ألم والتهاب جرثومة المعدة فيتركز في أعلى البطن (فم المعدة) ويرتبط غالباً بفراغ المعدة أو ملامسة الحمض للبطانة الملتهبة [2, 4, 11].\n\nبنفس المبدأ، اضطرابات أسفل البطن لا يجب تحميلها على بكتيريا المعدة. القولون العصبي اضطراب في محور التواصل بين الأمعاء والدماغ، ويتميز بوجود مغص أو ألم متكرر في أسفل البطن يرتبط بدخول الحمام، مع تغير ملحوظ في عدد مرات التبرز أو قوام البراز زي الإمساك أو الإسهال أو التناوب بينهما [9, 10]. ورغم أن الجرثومة تسبب امتلاءً وتجشؤاً في أعلى المعدة، إلا أنها لا تؤثر مباشرة على حركة القولون أو حساسية الأمعاء الدقيقة والغليظة [7, 9]. الأشخاص الذين يعانون من أعراض القولون العصبي مش هيستفيدوا من تكرار كورسات المضادات الحيوية الخاصة بالمعدة إلا لو ثبتت عدوى نشطة حقيقية [7, 9]. التقييم السريري الدقيق يضع كل عرض في مكانه التشريحي الصحيح، ويضمن علاج كل مشكلة بأسلوبها المتخصص [9, 10].",
+            "en": "A frequent source of diagnostic error in clinical practice is confusing H. pylori infection with other common gastrointestinal disorders. In daily conversations, symptoms like 'burning', 'bloating', and 'indigestion' are often attributed reflexively to H. pylori, when they may actually stem from gastro-oesophageal reflux disease (GERD) or irritable bowel syndrome (IBS) [2, 9, 10]. Clinicians distinguish these conditions by evaluating the precise anatomical location and physiological triggers of the symptoms [2, 9]. Gastro-oesophageal reflux typically causes retrosternal acid reflux—a rising burning sensation behind the breastbone toward the throat, often accompanied by acid regurgitation and aggravated by bending forward or lying supine after a large meal [2, 9, 11]. In contrast, H. pylori-associated pain is concentrated in the epigastric region (upper abdomen) and is frequently related to gastric emptying and mucosal acid contact [2, 4, 11].\n\nSimilarly, lower-abdominal complaints must not be mistaken for stomach bacterial disease. Irritable bowel syndrome is a disorder of gut-brain interaction characterized by recurrent lower abdominal cramping or pain linked to bowel movements, along with distinct shifts in stool frequency or appearance, such as constipation, diarrhoea, or alternating patterns [9, 10]. While H. pylori can cause upper abdominal fullness and belching, it does not directly drive lower bowel disturbances or chronic colonic hypersensitivity [7, 9]. Patients struggling with irritable bowel syndrome symptoms do not benefit from repeated H. pylori antibiotic treatments unless active bacterial gastritis is objectively demonstrated [7, 9]. A careful medical history prevents misattributing colon or oesophageal complaints to the stomach, ensuring that each patient receives targeted, effective management [9, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "ارتجاع المريء",
+                "url": "../articles/acid-reflux-when-to-see-doctor.html"
+              },
+              {
+                "label": "أعراض القولون العصبي",
+                "url": "../articles/ibs-colon-symptoms-red-flags.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "acid reflux",
+                "url": "../articles/acid-reflux-when-to-see-doctor.html"
+              },
+              {
+                "label": "irritable bowel syndrome symptoms",
+                "url": "../articles/ibs-colon-symptoms-red-flags.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-to-seek-clinic-assessment",
+          "heading": {
+            "ar": "متى تستشير الطبيب؟ التقييم المتخصص في عيادات لاروز",
+            "en": "When to seek medical assessment: specialist care at La Rose Clinics"
+          },
+          "body": {
+            "ar": "حجز استشارة مع طبيب باطنة وجهاز هضمي خطوة ضرورية لو ألم أو حرقان أعلى البطن مستمر لأكثر من أسبوعين إلى ثلاثة أسابيع، أو بيتكرر بانتظام، أو بيصحّيك من النوم ومأثر على أكلك الطبيعي [2, 4, 8]. الاستشارة مهمة أيضاً لو عندك نتيجة تحليل معملي غير واضحة—زي تحليل دم إيجابي غير مفهوم سياقه—أو لو الأعراض مستمرة بعد كورس علاج سابق من غير اختبار تأكيد [6, 8]. قبل الموعد، جهز كل تقارير التحاليل السابقة، وصور أو تقارير المناظير لو اتعملت، وقائمة كاملة بكل الأدوية والمكملات بجرعاتها. ولو الشكوى تخص طفلاً صغيراً، فتقييم جرثومة المعدة عند الأطفال له اعتبارات خاصة وإرشادات مختلفة في طب أطفال الجهاز الهضمي.\n\nفي المقابل، فيه علامات خطر حمراء تستدعي تقييماً طبياً عاجلاً أو التوجه للطوارئ فوراً من غير تأجيل [2, 4, 11]. اطلب رعاية عاجلة لو ظهر قيء دموي أو قيء بلون بني داكن شبه تفل القهوة، أو براز أسود قطراني، أو ألم حاد ومفاجئ في البطن لا يهدأ، أو دوخة شديدة وإغماء، أو قيء مستمر يمنع شرب السوائل، أو فقدان وزن سريع غير مبرر [2, 4, 6, 11]. العلامات دي قد تشير لمضاعفات حادة زي نزيف قرحة أو انثقاب في جدار المعدة، وتحتاج تدخلاً سريعاً في مستشفى مجهز [2, 11].\n\nفي عيادات لاروز، يقدم د. مهاب أشرف فؤاد، أخصائي الأمراض الباطنية والجهاز الهضمي والكبد والمناظير، تقييماً سريرياً شاملاً للمرضى الذين يعانون من عسر الهضم المزمن، وحرقان المعدة، وحالات جرثومة المعدة النشطة أو المتكررة. الرعاية في العيادة تركز على فهم السبب الحقيقي للأعراض، واختيار اختبارات العدوى النشطة الدقيقة بعيداً عن تحاليل الدم المضللة، وتحديد الحالات التي تحتاج منظاراً فعلياً، مع تصميم بروتوكول علاجي رباعي لمدة 14 يوماً يناسب تاريخك الدوائي لتقليل المقاومة والآثار الجانبية. لما تحتاج وضوحاً طبياً وخطة متابعة دقيقة، تقدر تقدم طلب حجز موعد لبدء التقييم المتخصص.",
+            "en": "Arranging a consultation with an internal medicine or gastroenterology specialist is indicated whenever upper-abdominal burning, gnawing pain, or post-meal discomfort persists for more than two to three weeks, recurs regularly, or interferes with restful sleep and normal nutrition [2, 4, 8]. Professional guidance is equally essential if you have received an ambiguous laboratory result—such as an unexplained positive blood antibody report—or if symptoms continue following a previous, unverified antibiotic course [6, 8]. Before your visit, gather all earlier laboratory printouts, endoscopy reports, and a complete, dated list of medications and dietary supplements. If the person experiencing abdominal pain is a young child, remember that assessing H. pylori in children follows distinct pediatric gastroenterology protocols and requires tailored decision-making.\n\nCertain severe warning symptoms require immediate or urgent medical evaluation rather than an outpatient appointment [2, 4, 11]. Seek emergency assessment at once if you experience vomiting blood or dark brown material, passing black tarry stools, a sudden onset of severe, unrelenting abdominal pain, episodes of dizziness or fainting, persistent inability to keep liquids down, or rapid unintentional weight loss [2, 4, 6, 11]. These critical red flags point toward serious acute complications, including peptic ulcer perforation or active gastrointestinal haemorrhage, which require prompt intervention in a hospital setting [2, 11].\n\nAt La Rose Clinics, internal medicine and gastroenterology specialist Dr. Mohab Ashraf provides evidence-based consultations for individuals experiencing persistent dyspepsia, chronic stomach burning, and complex H. pylori infections. Clinical care at the clinic focuses on clarifying the true cause of upper-gut discomfort, selecting reliable active-infection testing while avoiding misleading serology, identifying when diagnostic gastroscopy is genuinely indicated, and customizing fourteen-day eradication protocols to maximize clearance and mitigate drug resistance. When you need clear answers and an organized follow-up plan, you can request an appointment to begin a thorough clinical evaluation."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "جرثومة المعدة عند الأطفال",
+                "url": "../articles/h-pylori-in-children-symptoms-tests.html"
+              },
+              {
+                "label": "طلب حجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "H. pylori in children",
+                "url": "../articles/h-pylori-in-children-symptoms-tests.html"
+              },
+              {
+                "label": "request an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل تحليل الدم كافي لتشخيص جرثومة المعدة والتأكد من علاجها؟",
+            "en": "Is a blood antibody test sufficient to diagnose and monitor H. pylori?"
+          },
+          "a": {
+            "ar": "لا. تحاليل الأجسام المضادة في الدم (IgG) لا تفرّق بين عدوى نشطة حالية وعدوى قديمة انتهت، لأن الأجسام المضادة تبقى في مجرى الدم لشهور أو سنين بعد الشفاء التام. الإرشادات الطبية المعتمدة توصي باختبارات العدوى النشطة مثل اختبار النفس باليوريا أو تحليل مستضد البراز، وتحذر من استخدام تحليل الدم لتقييم نجاح العلاج [6, 7, 8].",
+            "en": "No. Blood antibody tests (IgG) cannot distinguish between an active current infection and a past exposure that has resolved, because circulating antibodies remain in the bloodstream for months or years after bacterial clearance. Clinical practice guidelines recommend active infection tests such as the urea breath test or stool antigen test, and advise against using blood serology to monitor treatment success [6, 7, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الانتفاخ المستمر بعد انتهاء العلاج يعني أن الجرثومة ما زالت موجودة؟",
+            "en": "Does persistent bloating after completing treatment mean H. pylori is still present?"
+          },
+          "a": {
+            "ar": "ليس بالضرورة. الانتفاخ وحده لا يثبت فشل العلاج، مثلما أن اختفاء الحرقان وحده لا يثبت القضاء على البكتيريا. بطانة المعدة تحتاج وقتاً للتعافي بعد الالتهاب، والمضادات الحيوية قد تسبب تغيراً مؤقتاً في بكتيريا الأمعاء، أو قد يتزامن وجود عسر هضم وظيفي أو قولون عصبي. التأكد يتطلب إجراء اختبار تأكد من الشفاء في التوقيت السليم [5, 7, 8].",
+            "en": "Not necessarily. Bloating alone does not prove treatment failure, just as symptom relief alone does not prove bacterial eradication. The gastric lining requires time to heal from chronic inflammation, antibiotics can temporarily disrupt the gut microbiome, or an overlapping condition like functional dyspepsia or irritable bowel syndrome may coexist. Confirmation requires an objective test of cure at the correct time [5, 7, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لماذا يجب إيقاف أدوية الحموضة والمضادات الحيوية قبل تحليل جرثومة المعدة؟",
+            "en": "Why must acid-suppressing medicines and antibiotics be stopped before testing?"
+          },
+          "a": {
+            "ar": "لأن مثبطات مضخة البروتون (PPI) تقلل حموضة المعدة وتثبط نشاط البكتيريا مؤقتاً، بينما المضادات الحيوية والبزموت تقلل عدد الجراثيم في بطانة المعدة، وهو ما قد يعطي نتيجة سلبية كاذبة في اختبار النفس أو البراز رغم وجود العدوى. الإرشادات توصي بوقف مثبطات مضخة البروتون لمدة أسبوعين، والمضادات الحيوية أو البزموت لمدة 4 أسابيع قبل التحليل بعد استشارة الطبيب [6, 7, 8].",
+            "en": "Because proton pump inhibitors (PPIs) suppress bacterial load and urease activity, while antibiotics and bismuth compounds diminish bacterial numbers in the stomach lining, which can produce a false-negative result on breath or stool tests despite active infection. Guidelines recommend stopping PPIs for at least 2 weeks and antibiotics or bismuth for at least 4 weeks before testing, under medical supervision [6, 7, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل يحتاج كل مريض مصاب بجرثومة المعدة إلى إجراء منظار للمعدة؟",
+            "en": "Does every patient with H. pylori infection require a gastroscopy?"
+          },
+          "a": {
+            "ar": "لا. المرضى الأصغر سناً الذين يعانون من أعراض عسر هضم بسيطة دون أي علامات إنذار يبدأون عادة باختبارات غير جراحية مثل اختبار النفس أو تحليل البراز. منظار المعدة يكون ضرورياً عند وجود علامات خطر مثل القيء المدمم، والبراز الأسود، وصعوبة البلع، وفقدان الوزن غير المبرر، وفقر الدم، أو عند ظهور عسر هضم جديد في سن أكبر بحسب الإرشادات المحلية وعوامل الخطر [1, 5, 9].",
+            "en": "No. Younger patients with uncomplicated dyspeptic symptoms and no warning signs typically begin with non-invasive tests such as the urea breath test or stool antigen test. A gastroscopy becomes necessary when alarm features appear, such as vomiting blood, black stools, difficulty swallowing, unexplained weight loss, anemia, or new-onset dyspepsia at an age or risk level for which local guidance advises endoscopy [1, 5, 9]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK، Diagnosis of Gastritis & Gastropathy",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastritis-gastropathy/diagnosis"
+        },
+        {
+          "label": "NIDDK، Symptoms & Causes of Peptic Ulcers (Stomach Ulcers)",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/symptoms-causes"
+        },
+        {
+          "label": "NIDDK، Treatment for Peptic Ulcers",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/treatment"
+        },
+        {
+          "label": "Mayo Clinic، Helicobacter pylori (H. pylori) infection - Symptoms & causes",
+          "url": "https://www.mayoclinic.org/diseases-conditions/h-pylori/symptoms-causes/syc-20356171"
+        },
+        {
+          "label": "Mayo Clinic، Helicobacter pylori (H. pylori) infection - Diagnosis & treatment",
+          "url": "https://www.mayoclinic.org/diseases-conditions/h-pylori/diagnosis-treatment/drc-20356177"
+        },
+        {
+          "label": "American College of Gastroenterology (ACG)، ACG Clinical Guideline: Treatment of Helicobacter pylori Infection (2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39626064/"
+        },
+        {
+          "label": "Maastricht VI/Florence Consensus Report، Management of Helicobacter pylori infection (Gut 2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35944925/"
+        },
+        {
+          "label": "Houston Consensus Conference، Testing for Helicobacter pylori Infection in the United States (CGH 2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29559361/"
+        },
+        {
+          "label": "NICE، Gastro-oesophageal reflux disease and dyspepsia in adults: investigation and management (CG184)",
+          "url": "https://www.nice.org.uk/guidance/cg184"
+        },
+        {
+          "label": "World Gastroenterology Organisation، WGO Global Guidelines: Helicobacter pylori",
+          "url": "https://www.worldgastroenterology.org/guidelines/helicobacter-pylori"
+        },
+        {
+          "label": "NHS، Stomach ulcer",
+          "url": "https://www.nhs.uk/conditions/stomach-ulcer/"
+        },
+        {
+          "label": "Cleveland Clinic، H. Pylori Infection: Symptoms, Causes & Treatments",
+          "url": "https://my.clevelandclinic.org/health/diseases/21463-h-pylori-infection"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "جرثومة المعدة: أعراض وتحاليل وعلاج",
+          "en": "H. pylori: symptoms, tests and care"
+        },
+        "description": {
+          "ar": "دليل شامل لجرثومة المعدة: الأعراض الشائعة، الفرق بين اختبارات العدوى النشطة وتحاليل الدم، دور المنظار، بروتوكولات العلاج واختبار التأكد من الشفاء.",
+          "en": "A clinical guide to H. pylori: symptoms, active breath and stool tests versus blood antibodies, when endoscopy is needed, treatment selection and test of cure."
+        }
+      }
+    }
+  ]
+}

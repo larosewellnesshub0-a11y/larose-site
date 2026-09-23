@@ -71,6 +71,7 @@ ARTICLE_FILES = (
     "articles-fatty-liver-symptoms-diagnosis-risk-rewrite-2026-09-21.json",
     "articles-supplements-are-targeted-not-a-default-rewrite-2026-09-21.json",
     "articles-local-fat-injections-do-they-work-rewrite-2026-09-21.json",
+    "articles-h-pylori-symptoms-tests-treatment-rewrite-2026-09-21.json",
     "articles-dark-neck-rewrite-2026-09-14.json",
     "articles-dark-neck-pregnancy-rewrite-2026-09-16.json",
     "articles-h-pylori-bloating-rewrite-2026-09-16.json",

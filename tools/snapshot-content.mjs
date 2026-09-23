@@ -57,6 +57,7 @@ PUBLIC.add("articles-high-cholesterol-results-and-next-steps-rewrite-2026-09-21.
 PUBLIC.add("articles-fatty-liver-symptoms-diagnosis-risk-rewrite-2026-09-21.json");
 PUBLIC.add("articles-supplements-are-targeted-not-a-default-rewrite-2026-09-21.json");
 PUBLIC.add("articles-local-fat-injections-do-they-work-rewrite-2026-09-21.json");
+PUBLIC.add("articles-h-pylori-symptoms-tests-treatment-rewrite-2026-09-21.json");
 
 /* Must never reach the published tree. Anything starting with "_" is private
    by convention too (content/_submissions.json, content/_private/). */
