@@ -3,32 +3,11 @@
   "articles": [
     {
       "slug": "bariatric-follow-up-is-lifelong",
-      "title": {
-        "ar": "متابعة جراحة السمنة طول العمر: ليه ما بتنتهيش بعد نزول الوزن؟",
-        "en": "Lifelong bariatric follow-up: why it continues after weight loss"
-      },
-      "excerpt": {
-        "ar": "متابعة جراحة السمنة طول العمر بتحمي التغذية والصحة العامة، وتراجع الأدوية والأعراض والوزن والدعم النفسي حتى بعد استقرار النتيجة.",
-        "en": "Lifelong bariatric follow-up protects nutrition and general health and reviews medicines, symptoms, weight and psychological support even after results settle."
-      },
+      "title": {"ar": "متابعة جراحة السمنة طول العمر: ليه ما بتنتهيش بعد نزول الوزن؟", "en": "Lifelong bariatric follow-up: why it continues after weight loss"},
+      "excerpt": {"ar": "ليه متابعة جراحة السمنة بتكمّل طول العمر حتى بعد ما الوزن يثبت: التحاليل، والمكملات، والأدوية، والصحة النفسية، وإمتى تطلب تقييم عاجل.", "en": "Lifelong bariatric follow-up protects nutrition and general health and reviews medicines, symptoms, weight and psychological support even after results settle."},
       "category": "bariatric-surgery",
-      "specialties": [
-        "bariatric-surgery",
-        "clinical-nutrition",
-        "internal-medicine"
-      ],
-      "tags": {
-        "ar": [
-          "تكميم المعدة",
-          "جراحة السمنة",
-          "متابعة جراحة السمنة"
-        ],
-        "en": [
-          "sleeve gastrectomy",
-          "bariatric surgery",
-          "bariatric follow-up"
-        ]
-      },
+      "specialties": ["bariatric-surgery", "clinical-nutrition", "internal-medicine"],
+      "tags": {"ar": ["تكميم المعدة", "جراحة السمنة", "متابعة جراحة السمنة"], "en": ["sleeve gastrectomy", "bariatric surgery", "bariatric follow-up"]},
       "type": "update",
       "date": "2026-08-14",
       "readingTime": 10,
@@ -38,281 +17,42 @@
       "featured": false,
       "published": true,
       "sections": [
-        {
-          "id": "bariatric-follow-up-is-lifelong-section-1",
-          "heading": {
-            "ar": "المتابعة ما بتنتهيش لما الوزن يثبت",
-            "en": "Follow-up does not end when weight settles"
-          },
-          "body": {
-            "ar": "متابعة جراحة السمنة طول العمر مش مجرد وزن على الميزان. بعد ما سرعة النزول تهدى، يفضل مهم مراجعة التغذية والمكملات والتحاليل والأدوية والأعراض والحركة والصحة النفسية. المتابعة بتدور على المشاكل بدري وبتعدّل الخطة مع تغير ظروفك، ومش معناها إن العملية فشلت. [2, 6, 8, 9, 11]\n\nالتكميم ليس يوماً واحداً؛ يبدأ بتقييم وتحضير ثم متابعة غذائية وجراحية وطبية طويلة المدى. ممكن تبحث عن “عملية تكميم المعدة بالمنظار”، لكن صيغة البحث لا تؤكد تشخيصاً ولا تحدد إجراءً آمناً أو علاجاً مناسباً. الهدف من المقال إنك تجهز لحديث أوضح مع الطبيب: ما التفاصيل المهمة، وما الذي قد يدخل في التقييم، ومتى نسرّع الخطوة. لا يغني ذلك عن الفحص أو التحاليل أو الخطة الفردية.\n\nالأهداف الصحية، تاريخ الوزن، الأدوية، النوم، الصحة النفسية، جراحات سابقة والدعم في البيت تدخل في التحضير. سجل باختصار متى بدأت المشكلة، هل تأتي وتذهب، ما الذي يغيرها، ما الذي جربته وكيف أثرت على النوم أو الشغل أو الدراسة أو الأكل أو الحركة. التسجيل ليس اختباراً لك؛ هو نقطة بداية أوضح للفريق.\n\nالتدخين، أدوية السيولة أو السكر، الحمل أو خططه، نقص العناصر والتاريخ الجراحي يجب مناقشتها مع الفريق. العرض أو القياس نفسه قد يعني شيئاً مختلفاً من شخص لآخر. لذلك لا تجعل نتيجة صديق أو روتين مشهور أو قائمة على الإنترنت إجابة شخصية لك. الخطة الآمنة تبدأ بوضع المشكلة داخل القصة الصحية الكاملة.\n\nوده معناه إن الصورة دي مش بتتقرأ من رقم واحد؛ لازم تسأل ليه، وإزاي، وإيه اللي هيتغير، عشان كده كلامك مع الفريق كمان بيفرق، وهتلاقي الخطة أوضح لما بتقول اللي مقلقك. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "Lifelong bariatric follow-up is more than a scale reading. After rapid weight loss slows, nutrition, supplements, blood tests, medicines, symptoms, movement and psychological health still need review. Follow-up looks for problems early and adapts the plan as circumstances change; it does not mean surgery failed. [2, 6, 8, 9, 11]\n\nSleeve surgery is not one day; it begins with assessment and preparation, then long-term nutrition, surgical and medical follow-up. People may arrive after searching “sleeve gastrectomy surgery day”, but a search phrase cannot confirm a diagnosis, identify a safe procedure or choose a treatment. This guide is designed to make a clinical conversation more useful: it explains which observations matter, what a clinician may consider and which changes should move the conversation sooner. It does not replace examination, testing or an individual plan.\n\nHealth goals, weight history, medicines, sleep, mental wellbeing, earlier surgery and home support all inform preparation. A short, factual record is often more useful than trying to remember everything at once. Note when the concern began, whether it is constant or episodic, what changes it, what has already been tried and how it affects sleep, work, school, eating or activity. This is not homework to earn care; it gives the clinician a clearer starting point.\n\nSmoking, blood-thinning or diabetes medicines, pregnancy or plans, nutrient deficiencies and surgical history should be discussed with the team. The same symptom or measurement can mean something different from one person to another. For that reason, avoid using a friend’s result, an influencer’s routine or a single online checklist as a personal answer. A safe plan begins by putting the concern beside the wider health story. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-follow-up-is-lifelong-section-2",
-          "heading": {
-            "ar": "احتفظ بسجل العملية طول العمر",
-            "en": "Keep a lifelong operation record"
-          },
-          "body": {
-            "ar": "احتفظ باسم العملية وتاريخها وتقريرها واسم المركز وأي مضاعفات حصلت. خلي مع السجل قائمة المكملات والأدوية وآخر التحاليل. لو غيرت مدينة أو طبيب، المعلومات دي بتساعد الفريق الجديد يفهم التشريح والمخاطر بدل ما يبدأ من تخمين. [2, 8, 9]\n\nالتقييم غالباً يبدأ بالقصة والفحص وتحديد هل الأنسب متابعة أو تحليل أو تصوير أو إحالة أو عدم الحاجة لفحص فوري. التحاليل ليست درجة نجاح، والنتيجة الطبيعية لا تنهي كل سؤال دائماً؛ كل فحص يجيب عن سؤال محدد. اسأل ما السؤال، وكيف تستعد، ومتى ستراجع النتيجة.\n\nأثناء انتظار التقييم، اختر خطوات قليلة الخطورة ولا تخفي معلومات مهمة أو تخلق مشكلة جديدة. حاول ثبات الروتين قدر الإمكان، ولا تبدأ دواءً موصوفاً أو مكملات بجرعات عالية من نصيحة الإنترنت، ولا تغير أشياء كثيرة مرة واحدة. لو الأكل أو الحركة أو العناية أو تسجيل الأعراض مناسب، استخدمه كمعلومة للمتابعة لا كاختبار إرادة.\n\nالوعد الكبير قد يكون مغرياً عندما تكون المشكلة مزعجة أو ظاهرة. احذر المنتجات مجهولة المصدر، أدوية الآخرين، الحرمان القاسي، الحقن غير الواضحة، التحاليل المتكررة من غير خطة أو النصيحة التي تقول إن علامة واحدة تثبت مرضاً واحداً. كلمات مثل طبيعي وسريع ومضمون ليست تقييماً طبياً. خذ اسم المنتج أو صورته أو ملصقه للموعد.\n\nالمهم هنا إنك ما تستعجلش؛ ده قرار فيه تفاصيل، ودي تفاصيل بتختلف. اسأل إيه اللي مناسب، وليه مناسب، وإزاي هيتراجع، عشان كده لازم تكون الخطة اللي قدامك مفهومة ومش مجرد كلام عام. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "Keep the procedure name, date, report, centre and any complications. Store supplement and medicine lists and recent results with that record. If you move or change clinician, this information helps the new team understand altered anatomy and risks instead of guessing. [2, 8, 9]\n\nAssessment usually starts with listening carefully and deciding whether examination, observation, laboratory tests, imaging, referral or no immediate test is the most useful next step. Tests are not a scorecard and a normal-looking result does not always end the conversation; each result answers a particular clinical question. Ask what question is being asked, how to prepare and when the result will be discussed.\n\nWhile waiting for assessment, choose low-risk steps that do not hide important information or create a new problem. Keep routines as steady as practical, do not begin prescription medicines or high-dose supplements from online advice, and avoid changing many things at the same time. If food, movement, skin care or symptom tracking is relevant, use it as information for follow-up rather than a test of discipline.\n\nA dramatic promise can be especially tempting when a concern is uncomfortable or visible. Be careful with unknown-source products, borrowed medicines, extreme restriction, unverified injections, repeated self-testing or advice that says one sign proves one condition. “Natural”, “fast” and “guaranteed” are marketing words, not a clinical assessment. Bring product names, photographs and labels to the appointment rather than guessing. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-follow-up-is-lifelong-section-3",
-          "heading": {
-            "ar": "التحاليل والمكملات حسب الإجراء",
-            "en": "Blood tests and supplements follow the procedure"
-          },
-          "body": {
-            "ar": "كل عمليات السمنة ممكن تأثر في التغذية بدرجات مختلفة. التكميم ما بيحوّلش الأمعاء، لكن قلة الأكل أو القيء أو عدم التحمل ممكن يساهموا في النقص. نوع التحاليل وتوقيتها والمكملات بيتحددوا حسب الإجراء والنتائج والأعراض؛ ما توقفش المكمل لأنك حاسس كويس بس. [7, 8, 9]\n\nالخطة الجيدة تشرح الفائدة المتوقعة وحدودها والبدائل والمخاطر المحتملة وكيف ستتم المتابعة. الاختيار المناسب يختلف مع العمر والحمل والأدوية والأمراض والإجراءات السابقة والأولويات. من حقك أن تسأل ما الذي قد يغير الخطة، وما الذي نراقبه، ومن تتواصل معه بين الزيارات.\n\nخذ خطاً زمنياً قصيراً، وقائمة الأدوية والمكملات والنتائج المهمة وأسئلتك. لو الصور أو سجل يومي مفيدين، اسأل العيادة عن الشكل المناسب. اذكر حتى المنتجات أو العلاجات التي تبدو محرجة أو اشتريتها أونلاين؛ قد تؤثر فعلاً في الأمان. الهدف ليس أن تصل بتشخيص، بل بقصة دقيقة.\n\nبعد الجراحة، ألم صدر، ضيق نفس، حرارة، نبض سريع مستمر، قيء لا يتوقف، ألم شديد متزايد أو عدم القدرة على الشرب يحتاج تقييماً عاجلاً. لو لم تكن متأكداً من درجة الاستعجال، اطلب نصيحة طبية بدلاً من محاولة حسمها من مقال. الأولوية تتغير حسب العمر والحمل والأمراض وسرعة تغير الأعراض.\n\nلو خطوة مش واضحة، قول ده للفريق. لازم تعرف هتعمل إيه، وإمتى، وليه، وإزاي تتصرف لو فيه تغيير. كده بتقلل التخمين، وكمان بتخلي اللي حواليك فاهمين الخطة دي من غير مبالغة. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [3, 10]",
-            "en": "All bariatric procedures can affect nutrition to different degrees. A sleeve does not bypass intestine, but reduced intake, vomiting or intolerance can still contribute to deficiency. Tests, timing and supplements depend on the operation, results and symptoms; do not stop a supplement simply because you feel well. [7, 8, 9]\n\nA useful plan explains the expected benefit, limits, alternatives, possible harms and how progress will be reviewed. The right option can differ according to pregnancy, age, other conditions, current medicines, previous procedures and personal priorities. It is reasonable to ask what would make the plan change, what should be monitored and who to contact between appointments. Clear questions support informed decisions.\n\nBring a short timeline, a list of medicines and supplements, relevant results and questions you do not want to forget. If photographs or a diary would help, ask the clinic what format is useful. Mention anything that feels embarrassing, including over-the-counter products or treatments bought online; those details can materially affect safety. The goal is not to arrive with a diagnosis, but with an accurate story.\n\nAfter surgery, chest pain, breathlessness, fever, persistent fast pulse, relentless vomiting, increasing severe pain or inability to drink need urgent assessment. If you are unsure how urgent a change is, seek medical advice rather than trying to sort it out through an article. Urgency depends on the whole situation, including age, pregnancy, health conditions and how quickly symptoms are changing. [3, 10]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-follow-up-is-lifelong-section-4",
-          "heading": {
-            "ar": "الأدوية والأمراض المزمنة ممكن تتغير",
-            "en": "Medicines and chronic conditions can change"
-          },
-          "body": {
-            "ar": "نزول الوزن وتغير الأكل ممكن يغيّروا احتياج أدوية السكر والضغط وغيرها. ما توقفش علاجاً أو تقلل جرعة من نفسك؛ خلي الطبيب المسؤول يراجع القراءات والأعراض ووظائف الأعضاء. رجوع عرض قديم أو ظهور عرض جديد محتاج تقييم، مش افتراض إنه طبيعي بعد الجراحة. [1, 2, 6]\n\nقبل نهاية الزيارة اسأل ماذا يعني تحسن في هذه الحالة: هل هو عرض أخف، روتين أكثر أماناً، اتجاه مع الوقت، نتيجة تقرأ في سياقها أم معرفة علامات الخطر؟ اتفق على موعد مراجعة وما الذي ستأخذه معك. هكذا لا تتحول الخطة إلى تعليمات غامضة صعبة التطبيق أو التقييم.\n\nالمقال يساعدك في تحضير الأسئلة، لكنه لا ينبغي أن يؤخر الرعاية أو ينسخ علاج شخص آخر. المعلومات الصحية تتغير والظروف الفردية تفرق. استخدمه مع نصيحة الطبيب الذي يستطيع الفحص ومراجعة تاريخك وشرح ما يناسبك.\n\nلو اقترح الفريق خياراً، اسأل ما الدليل المناسب لهذه المشكلة، وما شكل الفائدة المتوقعة في الحياة الواقعية، وما الذي ما زال غير مؤكد. الإجابة المسؤولة قد تكون أننا نحتاج معلومات أكثر أولاً، أو أن الخطوة قد تساعد جزءاً من المشكلة وليس كلها. هذا ليس نقصاً في الرعاية؛ هو طريقة لتجنب علاج غير لازم وتوقعات غير واقعية. اسأل عن مصدر موثوق أو إرشاد للمريض لو تحب أن تقرأ بين الزيارات.\n\nالنتيجة مش وعد، وده فرق لازم يبقى واضح. فيه عوامل كتير بتتغير، وعشان كده المتابعة دي بتراجع إيه اللي اتحسن وإيه اللي محتاج تعديل، مش بس رقم واحد. لما بتسأل بتاخد قرار أهدى. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "Weight loss and dietary change can alter requirements for diabetes, blood-pressure and other medicines. Do not stop or reduce treatment yourself; the responsible clinician should review readings, symptoms and organ function. Return of an old symptom or a new symptom needs assessment, not an assumption that it is normal after surgery. [1, 2, 6]\n\nBefore leaving a visit, ask what “better” means in this case. It might mean relief of a symptom, a safer routine, a trend over time, a result reviewed in context or simply knowing which warning signs matter. Agree on a review point and on what information to bring back. This prevents a plan from becoming a vague instruction that is difficult to follow or evaluate.\n\nEducational pages are useful for preparing questions, not for delaying care or copying another person’s treatment. Health information changes and individual circumstances matter. Use this page together with the advice of the clinician who can examine you, review your history and explain what applies to your situation.\n\nWhen an option is suggested, ask what evidence supports it for the particular concern, what the likely benefit looks like in real life and what uncertainty remains. A responsible answer may be “we need more information first” or “this may help one part of the problem but not all of it.” That is not a failure to provide care; it is a way of avoiding unnecessary treatment and making expectations honest. Ask whether a reputable guideline or patient-information source is available if you would like to read more between visits. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-follow-up-is-lifelong-section-5",
-          "heading": {
-            "ar": "الوزن والصحة النفسية من غير لوم",
-            "en": "Weight and psychological health without blame"
-          },
-          "body": {
-            "ar": "رجوع جزء من الوزن أو صعوبة الالتزام مش سبب للوم. الفريق يراجع النوم والأدوية والأكل والحركة والضغط النفسي والتغيرات التشريحية لو لزم، وبعدها يناقش خيارات واقعية. الدعم السلوكي والنفسي يمتد قبل وبعد الجراحة، خصوصاً لو ظهر أكل قهري أو اكتئاب أو قلق أو استخدام ضار لمادة. [4, 6]\n\nانظر لمن يقدم الادعاء، وهل يذكر المادة أو الطريقة بوضوح، وهل يشرح المخاطر، وهل يعترف بأن الناس احتياجاتهم مختلفة. تجربة شخص قد تشرح ما مر به، لكنها لا تثبت أن الإجراء آمن أو مناسب للجميع. قبل دفع مال أو تغيير روتين، توقف عند رسالة تعتمد على الخوف أو الإحراج أو عرض محدود أو تركيبة سرية أو نتيجة مضمونة. الرعاية الموثوقة تترك مساحة للأسئلة والموافقة الواعية.\n\nالروتين القابل للاستمرار غالباً يبنى من خطوات صغيرة تناسب الحياة الحقيقية: النوم والشغل ووجبات الأسرة والوصول للرعاية والأعراض والحالة النفسية. ليس مفيداً أن نصنع خطة لا يمكن تنفيذها إلا بصورة مثالية لأيام قليلة. لو التوصية تبدو مستحيلة، قل ذلك في المتابعة. يمكن للفريق تحديد العائق أو تعديل الخطوة أو تقديم أولوية أخرى. الملاحظة الصادقة تحسن الخطة أكثر من المعاناة في صمت.\n\nالأرقام والصور وسجل الأعراض قد تفيد لو جُمعت بظروف متقاربة، لكنها ليست القصة كلها. قد تتذبذب لأسباب عادية ولا تقيس الكرامة أو الجهد أو كل جوانب الصحة. ناقش التغير مع الطبيب الذي يعرف لماذا تم جمعها. لو المتابعة نفسها تزيد القلق أو تدفع لسلوك مقيد أو قهري أو غير آمن، اذكر ذلك مبكراً. أداة المتابعة ينبغي أن تخدم الرعاية لا أن تضيق الحياة.\n\nما تستناش لو فيه عرض شديد؛ ده مش وقت تجربة حلول من نفسك. اسأل الفريق إيه اللي يستدعي الطوارئ وإيه اللي ينفع ينتظر، وإزاي تتواصل. كده هتكون عارف، وكمان اللي معاك هيعرف يتصرف. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "Weight regain or difficulty following the plan is not a reason for blame. The team reviews sleep, medicines, eating, movement, stress and anatomy where relevant, then discusses realistic options. Behavioural and psychological support extends before and after surgery, especially with compulsive eating, depression, anxiety or harmful substance use. [4, 6]\n\nCheck who is making a claim, whether they name the active ingredient or method, whether they explain risks and whether they acknowledge that different people need different care. Testimonials can describe an experience but cannot show that an intervention is safe or suitable for everyone. Before spending money or changing a routine, pause when the message relies on fear, shame, a countdown, a secret formula or a guarantee. Reliable care should leave room for questions and informed consent.\n\nA sustainable routine is usually built from small decisions that fit actual life: sleep, work, family meals, access to care, symptoms and emotional wellbeing. It is not useful to create a plan that can only be followed perfectly for a few days. If a recommendation feels impossible, say so at follow-up. The team can often help identify the barrier, adapt the step or decide that a different priority comes first. Honest feedback improves the plan more than silent struggle.\n\nNumbers, photographs and symptom scores can be useful when collected consistently, but they should not become the whole story. They may fluctuate for ordinary reasons and they do not measure dignity, effort or every aspect of health. Discuss changes with the clinician who knows why they were collected. If tracking makes anxiety worse or leads to restrictive, compulsive or unsafe behaviour, mention that early. A follow-up tool should support care, not make daily life narrower. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-follow-up-is-lifelong-section-6",
-          "heading": {
-            "ar": "مراحل الحياة بتغيّر الاحتياج",
-            "en": "Life stages change follow-up needs"
-          },
-          "body": {
-            "ar": "الحمل، التقدم في السن، مرض جديد، عملية تانية، أو تغير كبير في القدرة على الأكل كلهم أسباب لمراجعة الخطة. احتياجات التغذية والأدوية ممكن تتغير، والتنسيق بين الجراحة والتغذية والطبيب المتابع يمنع نصائح متعارضة. ما تستخدمش خطة قديمة كأنها ثابتة للأبد. [2, 8, 9]\n\nاذكر لكل طبيب أو مختص مهم في رعايتك الأمراض والأدوية والمكملات والإجراءات ذات الصلة. هذا مهم خصوصاً قبل الجراحة وأثناء الحمل وعند بدء دواء جديد أو وجود أكثر من تخصص. القائمة الكاملة تقلل سوء الفهم الذي يمكن تجنبه. كما تساعد الفريق في تنسيق السؤال الذي تجيب عنه كل زيارة بدلاً من تكرار فحص أو إعطاء نصيحة تتعارض مع جزء آخر من الخطة.\n\nلو شككت أن دواءً أو مكملاً أو إجراءً مرتبط بعرض، تواصل مع الطبيب أو الصيدلي الذي يستطيع إرشادك بأمان. إيقاف أو مضاعفة علاج موصوف من غير توجيه قد يخلق خطراً آخر. احتفظ باسم المنتج والجرعة والتوقيت للحديث. لو كان هناك اشتباه حساسية شديدة أو أثر جانبي خطير أو عرض طارئ، اطلب رعاية عاجلة حسب الحالة.\n\nالسؤال الجيد محدد: ما الذي نحاول تفسيره أو استبعاده أو متابعته أو تحسينه؟ هذا يسهل معرفة هل مقال أو فيديو أو منشور مفيد فعلاً. المحتوى العام قد يطمئن، لكنه لا يستطيع أن يحسب الفحص أو النتيجة الخاصة بك. احتفظ بالمصدر الموثوق لمناقشته بدلاً من استخدامه لوصف علاج لنفسك.\n\nالخطة دي بتتراجع مع الأكل والأعراض والتحاليل. مش كل منتج ينفع لكل شخص، وعشان كده لازم تسأل إيه اللي محتاجه، وليه، وإمتى هيتراجع. ده بيخلي المتابعة كمان عملية ومش مبنية على التخمين. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "Pregnancy, ageing, a new illness, another operation or a major change in eating ability all justify plan review. Nutrition and medicine needs can change, and coordination among surgical, nutrition and medical teams reduces conflicting advice. Do not treat an old plan as permanent. [2, 8, 9]\n\nTell each clinician involved in your care about relevant diagnoses, medicines, supplements and procedures. This is especially important before surgery, during pregnancy, when starting a new medicine or when several specialties are involved. A complete list reduces avoidable misunderstandings. It also helps the team coordinate which question each appointment is answering instead of repeating a test or giving advice that conflicts with another part of the plan.\n\nIf you think a medicine, supplement or procedure may be linked to a symptom, contact the clinician or pharmacist who can advise safely. Stopping or doubling a prescribed treatment without guidance can create a separate risk. Keep the package, name, dose and timing available for the conversation. If there is a suspected severe allergy, serious side effect or emergency symptom, seek urgent care according to the situation.\n\nA good question is specific: what are we trying to explain, rule out, monitor or improve? That makes it easier to tell whether a new article, video or social-media post is relevant. Broad health content can be reassuring, but it cannot take account of an examination or a result that is unique to you. Save reliable information for discussion rather than using it to self-prescribe. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-follow-up-is-lifelong-section-7",
-          "heading": {
-            "ar": "خطة مراجعة واضحة وعلامات الخطر",
-            "en": "A clear review plan and warning signs"
-          },
-          "body": {
-            "ar": "راجع التغذية والمتابعة بعد تكميم المعدة، وافهم مراقبة فيتامينات جراحة السمنة، واقرأ التقييم المتعدد التخصصات لجراحة السمنة. اتفق على مين يطلب التحاليل ومين يراجعها وإمتى تتواصل. ألم شديد، قيء متكرر، نزيف، ضيق نفس أو عدم القدرة على الشرب محتاجين رعاية عاجلة؛ للمتابعة المعتادة استخدم حجز موعد ومعاك سجلك. [2, 6, 8, 9]\n\nالخطط الصحية غالباً تحتاج تعديلاً. قد تتغير لأن الأعراض هدأت أو النتيجة أضافت سياقاً أو ظهر أثر جانبي أو لم يكن الروتين عملياً. المراجعة جزء طبيعي من الرعاية الآمنة وليست دليلاً أن شخصاً فشل. سجل باختصار ما تحسن وما ساء وما كان صعباً؛ سيعطي الموعد التالي بداية إنسانية ومفيدة.\n\nأفضل خطوة تالية هي التي تناسب السؤال الطبي وظروفك. قل ما يهمك، بما فيه الألم أو القلق أو الوقت أو خصوصية الموضوع أو مسؤوليات الأسرة أو تجربة صحية سابقة صعبة. هذه الأولويات تساعد في تحويل المعلومة العامة إلى خطة سليمة طبياً ويمكن تنفيذها في الواقع.\n\nالتكميم ليس يوماً واحداً؛ يبدأ بتقييم وتحضير ثم متابعة غذائية وجراحية وطبية طويلة المدى. العملية الهادئة المبنية على دليل عادة أكثر أماناً وفائدة من إجابة سريعة. سجل النمط، خذ السياق للموعد، اسأل ما الذي سيجيب عنه كل خطوة، واطلب الرعاية العاجلة عند ظهور علامات الخطر.\n\nقبل الخطوة الجاية، اكتب إيه اللي فهمته وإيه اللي لسه مش واضح. ده بيساعدك تسأل إزاي هتبدأ، وإمتى هتراجع، وليه الاختيار ده. عشان كده القرار المشترك كمان بيبقى أقرب لحياتك وخطتك دي. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "Review nutrition and follow-up after sleeve gastrectomy, understand bariatric vitamin monitoring, and read multidisciplinary bariatric assessment. Agree who orders and reviews tests and when to call. Severe pain, repeated vomiting, bleeding, breathlessness or inability to drink need urgent care; for routine follow-up use book an appointment and bring your record. [2, 6, 8, 9]\n\nHealth plans often need adjustment. A plan may change because symptoms settle, results add context, a side effect appears or the practical routine is not workable. Review is a normal part of safe care, not evidence that someone has failed. Keep a short list of what improved, what worsened and what was difficult; it gives the next appointment a useful, human starting point.\n\nThe best next step is the one that matches the clinical question and your circumstances. Say what matters to you, including pain, uncertainty, time, practical concerns, privacy, family responsibilities or a previous difficult healthcare experience. Those priorities help turn general information into a plan that is both medically sensible and realistically workable.\n\nSleeve surgery is not one day; it begins with assessment and preparation, then long-term nutrition, surgical and medical follow-up. A calm, evidence-aware process is usually safer and more useful than a quick answer. Record the relevant pattern, bring the context, ask what the next step is designed to answer and seek urgent care when warning signs appear. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "التغذية والمتابعة بعد تكميم المعدة",
-                "url": "../articles/sleeve-gastrectomy-nutrition-follow-up.html"
-              },
-              {
-                "label": "مراقبة فيتامينات جراحة السمنة",
-                "url": "../articles/bariatric-vitamin-monitoring.html"
-              },
-              {
-                "label": "التقييم المتعدد التخصصات لجراحة السمنة",
-                "url": "../articles/bariatric-assessment-is-multidisciplinary.html"
-              },
-              {
-                "label": "حجز موعد",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "nutrition and follow-up after sleeve gastrectomy",
-                "url": "../articles/sleeve-gastrectomy-nutrition-follow-up.html"
-              },
-              {
-                "label": "bariatric vitamin monitoring",
-                "url": "../articles/bariatric-vitamin-monitoring.html"
-              },
-              {
-                "label": "multidisciplinary bariatric assessment",
-                "url": "../articles/bariatric-assessment-is-multidisciplinary.html"
-              },
-              {
-                "label": "book an appointment",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "bariatric-follow-up-is-lifelong-section-1", "heading": {"ar": "المتابعة ما بتنتهيش لما الوزن يثبت", "en": "Follow-up does not end when weight settles"}, "body": {"ar": "متابعة جراحة السمنة طول العمر مش مجرد وزن على الميزان. بعد ما سرعة النزول تهدى، يفضل مهم مراجعة التغذية والمكملات والتحاليل والأدوية والأعراض والحركة والصحة النفسية. المتابعة بتدور على المشاكل بدري وبتعدّل الخطة مع تغير ظروفك، ومش معناها إن العملية فشلت. [2, 6, 8, 9, 11]\n\nإرشادات BOMSS البريطانية بتوصي إن المتابعة تكون مع مركز الجراحة في أول سنتين، وبعد كده تكمّل متابعة الحالة الغذائية مرة في السنة على الأقل طول العمر، في إطار رعاية مشتركة بين المركز والطبيب المتابع. يعني خروجك من متابعة المركز مش نهاية المتابعة، لكنه نقل ليها لمكان تاني بخطة واضحة. [8, 9]\n\nالسبب إن نقص الفيتامينات والمعادن ممكن يحصل بالراحة ومن غير أعراض واضحة في الأول، والتعب أو تساقط الشعر أو التنميل ممكن يظهروا بعد ما النقص يكون بقى واضح. التحليل الدوري بيلحق النقص قبل ما يعمل ضرر، وبيسمح بتعديل الجرعة بدل التخمين. [7, 8, 9]\n\nلو عملت تكميم، التفاصيل الخاصة بالأكل والمكملات بعد العملية دي موجودة في التغذية والمتابعة بعد تكميم المعدة. المقال ده بيركّز على الصورة الأكبر: إزاي المتابعة تفضل منظمة سنين، مش شهور بس. [6, 8]", "en": "Lifelong bariatric follow-up is not just a number on the scale. After rapid weight loss slows, nutrition, supplements, blood tests, medicines, symptoms, activity and psychological health still matter. Follow-up looks for problems early and adapts the plan as life changes; it does not mean the operation failed. [2, 6, 8, 9, 11]\n\nThe UK BOMSS guidance recommends follow-up with the bariatric surgery centre for the first two years, after which nutritional status should be monitored at least annually for life as part of shared care between the centre and the clinician who follows you. Leaving the centre's follow-up is therefore not the end of follow-up; it is a handover with a clear plan. [8, 9]\n\nThe reason is that vitamin and mineral deficiencies can develop slowly and without obvious early symptoms, while tiredness, hair thinning or tingling may appear only once a deficiency is established. Regular testing catches deficiencies before they cause harm and allows doses to be adjusted instead of guessed. [7, 8, 9]\n\nIf you had a sleeve, the specific eating and supplement details after surgery are covered in nutrition and follow-up after sleeve gastrectomy. This article focuses on the bigger picture: how follow-up stays organised for years, not just months. [6, 8]"}, "links": {"ar": [{"label": "التغذية والمتابعة بعد تكميم المعدة", "url": "../articles/sleeve-gastrectomy-nutrition-follow-up.html"}], "en": [{"label": "nutrition and follow-up after sleeve gastrectomy", "url": "../articles/sleeve-gastrectomy-nutrition-follow-up.html"}]}},
+        {"id": "bariatric-follow-up-is-lifelong-section-2", "heading": {"ar": "احتفظ بسجل العملية طول العمر", "en": "Keep a lifelong operation record"}, "body": {"ar": "احتفظ باسم العملية وتاريخها وتقريرها واسم المركز وأي مضاعفات حصلت. خلي مع السجل قائمة المكملات والأدوية وآخر التحاليل. لو غيرت مدينة أو طبيب، المعلومات دي بتساعد الفريق الجديد يفهم التشريح والمخاطر بدل ما يبدأ من تخمين. [2, 8, 9]\n\nنوع العملية بيفرق فعلاً: التكميم غير تحويل المسار، وغير عمليات التحويل الأوسع زي تحويل الاثنى عشر. كل نوع ليه تأثير مختلف على امتصاص الأكل والفيتامينات، وعلى الأدوية اللي ممكن تتاخد بأمان، وعلى الأعراض اللي محتاجة تقييم. لو اتعملك أكتر من عملية، أو عملية تعديل بعد عملية قديمة، سجّل الاتنين. [5, 8, 9]\n\nالأسهل إنك تعمل ملف واحد، ورقي أو على الموبايل، فيه تقرير العملية، ونتايج التحاليل بتواريخها، وأسماء المكملات وجرعاتها، وأي أدوية بدأت أو اتوقفت. ولما تروح لأي دكتور، حتى لو في تخصص تاني، قوله إنك عامل جراحة سمنة ونوعها، لأن ده ممكن يغيّر اختيار الدوا أو تفسير التحليل. [6, 8]\n\nولو احتجت طوارئ في مكان غير المركز اللي عملت فيه العملية، الملف ده بيوفّر وقت كبير على الفريق اللي أول مرة يشوفك. [8, 9]", "en": "Keep the operation name, date, report, centre and any complications. Store your supplement and medicine list and recent results with that record. If you change city or clinician, this information helps the new team understand anatomy and risks instead of guessing. [2, 8, 9]\n\nThe type of operation genuinely matters: a sleeve differs from a gastric bypass, and both differ from more extensive procedures such as a duodenal switch. Each affects absorption of food and vitamins differently, changes which medicines can be used safely, and changes which symptoms need assessment. If you have had more than one operation, or a revision after an earlier procedure, record both. [5, 8, 9]\n\nThe simplest approach is a single file, on paper or on your phone, holding the operation report, dated test results, supplement names and doses, and any medicines started or stopped. When you see any clinician, even in another specialty, mention that you have had bariatric surgery and which type, because it can change the choice of medicine or how a result is interpreted. [6, 8]\n\nIf you need emergency care somewhere other than the centre that performed the operation, that file saves a great deal of time for a team meeting you for the first time. [8, 9]"}},
+        {"id": "bariatric-follow-up-is-lifelong-section-3", "heading": {"ar": "التحاليل والمكملات حسب الإجراء", "en": "Blood tests and supplements follow the procedure"}, "body": {"ar": "كل عمليات السمنة ممكن تأثر في التغذية بدرجات مختلفة. التكميم ما بيحوّلش الأمعاء، لكن قلة الأكل أو القيء أو عدم التحمل ممكن يساهموا في النقص. نوع التحاليل وتوقيتها والمكملات بيتحددوا حسب الإجراء والنتائج والأعراض؛ ما توقفش المكمل لأنك حاسس كويس بس. [7, 8, 9]\n\nإرشادات BOMSS بتذكر إن أشهر أنواع النقص عند الناس اللي عندهم سمنة شديدة هي الأنيميا، ونقص مخزون الحديد (الفيريتين)، والفولات، وفيتامين B12، وفيتامين D. عشان كده التحاليل الدورية غالباً بتشمل صورة الدم والفيريتين والفولات وB12 وفيتامين D والكالسيوم والغدة الجار درقية، مع وظائف الكلى والكبد، اللي الإرشادات بتقترح متابعتها بعد 3 و6 و12 شهر في السنة الأولى وبعدها مرة في السنة على الأقل. الفريق هو اللي بيحدد القايمة المناسبة ليك. [8, 9]\n\nالمكملات اللي بيوصفها الفريق، زي الفيتامينات المتعددة والكالسيوم وفيتامين D وB12، غالباً بتكمّل مدى الحياة، وجرعاتها بتتعدّل على حسب التحاليل. متبدّلش نوع المكمل ولا تزوّد جرعته من نفسك، لأن الزيادة كمان ممكن تضر. [7, 8, 9]\n\nوالترجيع المتكرر بعد أي عملية سمنة محتاج تقييم سريع، لأن الإرشادات بتنبّه إن نقص فيتامين B1 (الثيامين) ممكن يحصل بسرعة مع القيء المستمر، ولو اتشك فيه العلاج بيبدأ فوراً. تفاصيل التحاليل موجودة في مراقبة فيتامينات جراحة السمنة. [8, 9]", "en": "Every bariatric operation can affect nutrition to a different degree. A sleeve does not reroute the intestine, but low intake, vomiting or food intolerance can contribute to deficiency. The tests, their timing and the supplements depend on the procedure, results and symptoms; do not stop a supplement just because you feel well. [7, 8, 9]\n\nThe BOMSS guidance notes that the commonest deficiencies in people with severe obesity are anaemia, low iron stores (ferritin), folate, vitamin B12 and vitamin D. Regular tests therefore often include a blood count, ferritin, folate, B12, vitamin D, calcium and parathyroid hormone, together with kidney and liver function, which the guidance suggests checking at 3, 6 and 12 months in the first year and then at least annually. Your team decides the list that suits you. [8, 9]\n\nSupplements prescribed by the team, such as a multivitamin, calcium, vitamin D and B12, usually continue for life, with doses adjusted according to results. Do not switch products or increase doses yourself, because excess can also cause harm. [7, 8, 9]\n\nRepeated vomiting after any bariatric operation needs prompt assessment, because the guidance warns that vitamin B1 (thiamine) deficiency can develop quickly with persistent vomiting, and treatment starts immediately if it is suspected. Test details are in bariatric vitamin monitoring. [8, 9]"}, "links": {"ar": [{"label": "مراقبة فيتامينات جراحة السمنة", "url": "../articles/bariatric-vitamin-monitoring.html"}], "en": [{"label": "bariatric vitamin monitoring", "url": "../articles/bariatric-vitamin-monitoring.html"}]}},
+        {"id": "bariatric-follow-up-is-lifelong-section-4", "heading": {"ar": "الأدوية والأمراض المزمنة ممكن تتغير", "en": "Medicines and chronic conditions can change"}, "body": {"ar": "نزول الوزن وتغير الأكل ممكن يغيّروا احتياج أدوية السكر والضغط وغيرها. ما توقفش علاجاً أو تقلل جرعة من نفسك؛ خلي الطبيب المسؤول يراجع القراءات والأعراض ووظائف الأعضاء. رجوع عرض قديم أو ظهور عرض جديد محتاج تقييم، مش افتراض إنه طبيعي بعد الجراحة. [1, 2, 6]\n\nأدوية السكر بالذات محتاجة متابعة قريبة في الشهور الأولى، لأن الأكل بيقل فجأة وممكن السكر يوطى لو الجرعة فضلت زي ما هي. سجّل قراءاتك وخدها معاك، وبلّغ فوراً لو حصلتلك رعشة أو عرق أو دوخة. وبرضه أدوية الضغط ممكن تحتاج تعديل مع نزول الوزن. [1, 2]\n\nفيه أدوية بتضايق المعدة، زي بعض المسكنات المضادة للالتهاب، والفريق غالباً بيحذّر منها بعد جراحة السمنة، فاسأل قبل ما تاخد أي مسكن من الصيدلية. وبعد عمليات التحويل، امتصاص بعض الأدوية ممكن يتغير، فقول لأي دكتور بيكتبلك علاج إنك عامل العملية. [2, 6]\n\nوالأمراض المزمنة زي انقطاع النفس أثناء النوم، وارتجاع المريء، ودهون الكبد ممكن تتحسن أو تتغير بعد العملية، وده محتاج إعادة تقييم منظمة، مش إيقاف علاج أو جهاز لأنك حاسس بتحسن. [1, 2, 11]", "en": "Weight loss and changed eating can alter the need for diabetes, blood-pressure and other medicines. Do not stop treatment or reduce a dose yourself; the responsible clinician should review readings, symptoms and organ function. A returning or new symptom needs assessment rather than an assumption that it is normal after surgery. [1, 2, 6]\n\nDiabetes medicines in particular need close follow-up in the early months, because intake falls suddenly and blood sugar can drop if the dose stays the same. Record your readings and bring them, and report shaking, sweating or dizziness straight away. Blood-pressure medicines may also need adjustment as weight falls. [1, 2]\n\nSome medicines irritate the stomach, such as certain anti-inflammatory painkillers, and teams often advise caution with them after bariatric surgery, so ask before buying any painkiller over the counter. After bypass-type operations, absorption of some medicines can change, so tell anyone prescribing for you that you have had surgery. [2, 6]\n\nLong-term conditions such as sleep apnoea, reflux and fatty liver may improve or change after surgery, and that needs structured reassessment rather than stopping a treatment or device because you feel better. [1, 2, 11]"}},
+        {"id": "bariatric-follow-up-is-lifelong-section-5", "heading": {"ar": "الوزن والصحة النفسية من غير لوم", "en": "Weight and psychological health without blame"}, "body": {"ar": "رجوع جزء من الوزن أو صعوبة الالتزام مش سبب للوم. الفريق يراجع النوم والأدوية والأكل والحركة والضغط النفسي والتغيرات التشريحية لو لزم، وبعدها يناقش خيارات واقعية. الدعم السلوكي والنفسي يمتد قبل وبعد الجراحة، خصوصاً لو ظهر أكل قهري أو اكتئاب أو قلق أو استخدام ضار لمادة. [4, 6]\n\nالتقييم النفسي قبل العملية جزء من التقييم متعدد التخصصات، والتوصيات بتشجّع إن الدعم ده يكمل بعدها كمان، لأن التغيرات الكبيرة في الجسم والأكل والعلاقات ممكن تكون مرهقة حتى لو النتيجة كويسة. التقييم المتعدد التخصصات لجراحة السمنة بيشرح دور كل فرد في الفريق. [4, 6]\n\nلو لقيت نفسك بتاكل كميات صغيرة طول اليوم من غير ما تحس بجوع، أو بترجع لعادات قديمة وقت الضغط، أو المزاج نازل بشكل مستمر، اتكلم عن ده في المتابعة زي ما بتتكلم عن أي عرض جسدي. ولو فيه أفكار إيذاء النفس، ده طارئ ومحتاج مساعدة فورية. [4, 6]\n\nوالكحول ليه وضع خاص بعد بعض عمليات السمنة، لأن تأثيره ممكن يبقى أسرع وأقوى، فالفريق بينصح بالحذر أو التجنب. اسأل عن ده بوضوح بدل ما تعتمد على تجارب حد تاني. [6, 11]", "en": "Regaining some weight or finding the plan difficult is not a reason for blame. The team can review sleep, medicines, eating, activity, stress and, when needed, anatomical changes before discussing realistic options. Behavioural and psychological support can continue before and after surgery, especially with compulsive eating, depression, anxiety or harmful substance use. [4, 6]\n\nThe psychological assessment before surgery is part of multidisciplinary bariatric assessment, and recommendations encourage that support to continue afterwards, because large changes in body, eating and relationships can be demanding even when the outcome is good. That article explains the role of each team member. [4, 6]\n\nIf you find yourself eating small amounts all day without hunger, returning to old habits under stress, or noticing a persistently low mood, raise it at follow-up just as you would any physical symptom. Thoughts of self-harm are an emergency and need immediate help. [4, 6]\n\nAlcohol needs particular care after some bariatric operations, because its effect can be faster and stronger, so teams advise caution or avoidance. Ask about this directly rather than relying on someone else's experience. [6, 11]"}, "links": {"ar": [{"label": "التقييم المتعدد التخصصات لجراحة السمنة", "url": "../articles/bariatric-assessment-is-multidisciplinary.html"}], "en": [{"label": "multidisciplinary bariatric assessment", "url": "../articles/bariatric-assessment-is-multidisciplinary.html"}]}},
+        {"id": "bariatric-follow-up-is-lifelong-section-6", "heading": {"ar": "مراحل الحياة بتغيّر الاحتياج", "en": "Life stages change follow-up needs"}, "body": {"ar": "الحمل، التقدم في السن، مرض جديد، عملية تانية، أو تغير كبير في القدرة على الأكل كلهم أسباب لمراجعة الخطة. احتياجات التغذية والأدوية ممكن تتغير، والتنسيق بين الجراحة والتغذية والطبيب المتابع يمنع نصائح متعارضة. ما تستخدمش خطة قديمة كأنها ثابتة للأبد. [2, 8, 9]\n\nبالنسبة للحمل، إرشادات BOMSS بتنصح بتأجيله أول 12 لـ18 شهر بعد العملية، لحد ما الوزن يستقر والأكل يبقى متنوع ومغذي. ولو فيه تخطيط لحمل بعد كده، الفريق محتاج يعرف بدري عشان يراجع التحاليل ويعدّل المكملات قبل الحمل وأثناءه، وبعض الأدوية ووسائل منع الحمل بالفم ممكن امتصاصها يتأثر بعد بعض العمليات. [8, 9]\n\nومع التقدم في السن، صحة العضم والعضلات بتبقى أهم، والكالسيوم وفيتامين D والبروتين والحركة بيلعبوا دور كبير في الوقاية من هشاشة العضم. ولو اتشخّصت بمرض جديد أو احتجت عملية تانية، قول للفريق الجديد عن جراحة السمنة، وقول لفريق السمنة عن التشخيص الجديد. [2, 7, 9]\n\nوأي تغيير كبير في الأكل، زي الصيام لفترات طويلة أو رجيم جديد، يستاهل استشارة أخصائي التغذية الأول، عشان البروتين والسوايل والمكملات يفضلوا كفاية. [2, 13]", "en": "Pregnancy, ageing, a new illness, another operation or a major change in eating ability can all require a plan review. Nutrition and medicine needs may change, and coordination between surgery, nutrition and the treating clinician prevents conflicting advice. Do not treat an old plan as permanent. [2, 8, 9]\n\nFor pregnancy, the BOMSS guidance advises avoiding it for the first 12 to 18 months after surgery, until weight has stabilised and eating is varied and nutritious. If a pregnancy is planned after that, the team needs to know early so tests can be reviewed and supplements adjusted before and during pregnancy, and absorption of some medicines and oral contraceptives can be affected after some operations. [8, 9]\n\nWith age, bone and muscle health become more important, and calcium, vitamin D, protein and activity all play a large part in protecting against osteoporosis. If you are diagnosed with a new condition or need another operation, tell the new team about your bariatric surgery, and tell the bariatric team about the new diagnosis. [2, 7, 9]\n\nAny major change in eating, such as long fasting periods or a new diet, is worth discussing with a dietitian first, so protein, fluids and supplements remain adequate. [2, 13]"}},
+        {"id": "bariatric-follow-up-is-lifelong-section-7", "heading": {"ar": "خطة مراجعة واضحة وعلامات الخطر", "en": "A clear review plan and warning signs"}, "body": {"ar": "اتفق على مين يطلب التحاليل ومين يراجعها وإمتى تتواصل. الخطة الواضحة بتحدد: مواعيد الزيارات الجاية، والتحاليل المطلوبة في كل زيارة، والمكملات وجرعاتها، والشخص اللي تكلمه لو ظهر عرض جديد. اكتب الخطة دي واحتفظ بيها في نفس ملف العملية. [2, 6, 8, 9]\n\nاطلب تقييم عاجل لو حصل: ألم شديد في البطن، أو ترجيع متكرر، أو إنك مش قادر تشرب سوايل، أو نزيف أو براز أسود، أو ضيق نفس، أو ألم في الصدر، أو تنميل أو ضعف في الرجلين، أو لخبطة في التفكير أو المشي. بعض العلامات دي ممكن تكون مشكلة جراحية، وبعضها نقص فيتامين حاد محتاج علاج سريع. [6, 8, 9]\n\nولو المتابعة وقفت لأي سبب، ارجعلها حتى لو عدّت سنين. ابدأ بتحاليل أساسية ومراجعة المكملات والأدوية، ومحدش هيلومك على الانقطاع. ولو العملية لسه قريبة، اقرا يوم عملية التكميم والتعافي بعدها عشان تعرف مرحلة البداية. [6, 8, 10]\n\nللمتابعة المعتادة ومراجعة التحاليل والمكملات تقدر تستخدم حجز موعد ومعاك سجلك الكامل. الأعراض الشديدة متستناش ميعاد. [6, 8]", "en": "Agree who orders tests, who reviews them and when to make contact. A clear plan sets out the next visits, the tests at each visit, supplements and their doses, and the person to call if a new symptom appears. Write that plan down and keep it in the same file as your operation record. [2, 6, 8, 9]\n\nSeek urgent assessment for severe abdominal pain, repeated vomiting, being unable to keep fluids down, bleeding or black stools, breathlessness, chest pain, numbness or weakness in the legs, or confusion or unsteady walking. Some of these signs may point to a surgical problem, and others to an acute vitamin deficiency that needs rapid treatment. [6, 8, 9]\n\nIf follow-up has lapsed for any reason, return to it even after years. Start with baseline tests and a review of supplements and medicines, and nobody will blame you for the gap. If surgery is still recent, read sleeve surgery day and early recovery to understand the starting stage. [6, 8, 10]\n\nFor routine follow-up and a review of tests and supplements, use book an appointment and bring your full record. Severe symptoms should not wait for an appointment. [6, 8]"}, "links": {"ar": [{"label": "يوم عملية التكميم والتعافي بعدها", "url": "../articles/sleeve-gastrectomy-operation-day-recovery.html"}, {"label": "حجز موعد", "url": "../patients/booking.html"}], "en": [{"label": "sleeve surgery day and early recovery", "url": "../articles/sleeve-gastrectomy-operation-day-recovery.html"}, {"label": "book an appointment", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "لو وزني ثبت، ليه أكمّل متابعة؟",
-            "en": "Why continue follow-up after weight stabilises?"
-          },
-          "a": {
-            "ar": "عشان المتابعة بتراجع التغذية والتحاليل والمكملات والأدوية والأعراض، مش الوزن بس. [6, 8, 9]",
-            "en": "Because follow-up reviews nutrition, blood tests, supplements, medicines and symptoms, not weight alone. [6, 8, 9]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل التكميم محتاج متابعة غذائية؟",
-            "en": "Does a sleeve need nutrition follow-up?"
-          },
-          "a": {
-            "ar": "آه. قلة المدخول وتغير التحمل ممكن يعملوا نقصاً حتى من غير تحويل للأمعاء. [7, 8, 9]",
-            "en": "Yes. Reduced intake and altered tolerance can cause deficiency even without intestinal bypass. [7, 8, 9]"
-          }
-        },
-        {
-          "q": {
-            "ar": "مين يطلب التحاليل بعد ما أسيب مركز الجراحة؟",
-            "en": "Who orders tests after discharge from the surgical centre?"
-          },
-          "a": {
-            "ar": "اتفق على مسؤولية واضحة ضمن رعاية مشتركة، واحتفظ بتقرير العملية وجدول المتابعة. [8, 9]",
-            "en": "Agree clear responsibility within shared care and keep the operation report and monitoring schedule. [8, 9]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل أوقف دواء الضغط أو السكر بعد نزول الوزن؟",
-            "en": "Can I stop diabetes or blood-pressure medicine after weight loss?"
-          },
-          "a": {
-            "ar": "ما توقفش دواء من نفسك؛ الطبيب يراجع القراءات والأعراض ويعدّل العلاج بأمان. [1, 2]",
-            "en": "Do not stop medicine yourself; the clinician reviews readings and symptoms and adjusts treatment safely. [1, 2]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل رجوع الوزن معناه إن العملية فشلت؟",
-            "en": "Does weight regain mean surgery failed?"
-          },
-          "a": {
-            "ar": "مش بالضرورة. محتاج مراجعة محترمة للعوامل الطبية والغذائية والسلوكية والتشريحية من غير لوم. [2, 4, 6]",
-            "en": "Not necessarily. It calls for a respectful review of medical, nutritional, behavioural and anatomical factors without blame. [2, 4, 6]"
-          }
-        },
-        {
-          "q": {
-            "ar": "إيه اللي آخده لموعد المتابعة؟",
-            "en": "What should I bring to follow-up?"
-          },
-          "a": {
-            "ar": "خد تقرير العملية وقائمة الأدوية والمكملات والنتائج الحديثة ووصفاً واضحاً للأعراض. [2, 8, 9]",
-            "en": "Bring the operation report, medicine and supplement lists, recent results and a clear symptom description. [2, 8, 9]"
-          }
-        }
+        {"q": {"ar": "لو وزني ثبت، ليه أكمّل متابعة؟", "en": "Why continue follow-up after weight stabilises?"}, "a": {"ar": "عشان المتابعة بتراجع التغذية والتحاليل والمكملات والأدوية والأعراض، مش الوزن بس، والنقص ممكن يحصل من غير أعراض في الأول. [6, 8, 9]", "en": "Because follow-up reviews nutrition, blood tests, supplements, medicines and symptoms, not weight alone. [6, 8, 9]"}},
+        {"q": {"ar": "هل التكميم محتاج متابعة غذائية؟", "en": "Does a sleeve need nutrition follow-up?"}, "a": {"ar": "آه. قلة الأكل وتغير التحمل ممكن يعملوا نقص حتى من غير تحويل للأمعاء. [7, 8, 9]", "en": "Yes. Reduced intake and altered tolerance can cause deficiency even without intestinal bypass. [7, 8, 9]"}},
+        {"q": {"ar": "مين يطلب التحاليل بعد ما أسيب مركز الجراحة؟", "en": "Who orders tests after discharge from the surgical centre?"}, "a": {"ar": "اتفقوا على مسؤولية واضحة في رعاية مشتركة، واحتفظ بتقرير العملية وجدول المتابعة. BOMSS بتوصي بمتابعة سنوية على الأقل بعد أول سنتين. [8, 9]", "en": "Agree clear responsibility within shared care and keep the operation report and follow-up schedule. BOMSS recommends at least annual monitoring after the first two years. [8, 9]"}},
+        {"q": {"ar": "هل أوقف دواء الضغط أو السكر بعد نزول الوزن؟", "en": "Can I stop diabetes or blood-pressure medicine after weight loss?"}, "a": {"ar": "متوقفش أي دوا من نفسك؛ الدكتور بيراجع القراءات والأعراض وبيعدّل العلاج بأمان. [1, 2]", "en": "Do not stop medicine yourself; the clinician reviews readings and symptoms and adjusts treatment safely. [1, 2]"}},
+        {"q": {"ar": "هل رجوع الوزن معناه إن العملية فشلت؟", "en": "Does weight regain mean surgery failed?"}, "a": {"ar": "مش لازم. محتاج مراجعة محترمة للعوامل الطبية والغذائية والسلوكية والتشريحية من غير لوم. [2, 4, 6]", "en": "Not necessarily. It calls for a respectful review of medical, nutritional, behavioural and anatomical factors without blame. [2, 4, 6]"}},
+        {"q": {"ar": "إيه اللي آخده لموعد المتابعة؟", "en": "What should I bring to follow-up?"}, "a": {"ar": "خد تقرير العملية، وقايمة الأدوية والمكملات، وآخر النتايج، ووصف واضح للأعراض. [2, 8, 9]", "en": "Bring the operation report, medicine and supplement lists, recent results and a clear symptom description. [2, 8, 9]"}},
+        {"q": {"ar": "إمتى ينفع الحمل بعد جراحة السمنة؟", "en": "When is pregnancy advisable after bariatric surgery?"}, "a": {"ar": "إرشادات BOMSS بتنصح بتأجيل الحمل أول 12 لـ18 شهر بعد العملية، وبإن الفريق يعرف بدري بأي تخطيط لحمل عشان يراجع التحاليل والمكملات. [8, 9]", "en": "BOMSS guidance advises avoiding pregnancy for the first 12 to 18 months after surgery, and telling the team early about any plan so tests and supplements can be reviewed. [8, 9]"}}
       ],
       "sources": [
-        {
-          "label": "NIDDK — Weight-loss (Metabolic & Bariatric) Surgery",
-          "url": "https://www.niddk.nih.gov/health-information/weight-management/bariatric-surgery"
-        },
-        {
-          "label": "Mechanick et al. — Clinical practice guidelines for perioperative nutrition, metabolic, and nonsurgical support of bariatric patients (PubMed)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/31917200/"
-        },
-        {
-          "label": "Stenberg et al. — ERAS Society recommendations for perioperative care in bariatric surgery, 2021 update (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885505/"
-        },
-        {
-          "label": "Sogg et al. — Recommendations for the presurgical psychosocial evaluation of bariatric surgery patients (PubMed)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/27179400/"
-        },
-        {
-          "label": "ASMBS — Bariatric Surgery Procedures",
-          "url": "https://asmbs.org/patients/bariatric-surgery-procedures/"
-        },
-        {
-          "label": "ASMBS — Life After Bariatric Surgery",
-          "url": "https://asmbs.org/patients/life-after-bariatric-surgery/"
-        },
-        {
-          "label": "ASMBS — Integrated Health Nutritional Guidelines: Micronutrients",
-          "url": "https://asmbs.org/resources/integrated-health-nutritional-guidelines/"
-        },
-        {
-          "label": "BOMSS — Post-bariatric surgery nutritional guidance for GPs",
-          "url": "https://bomss.org/bomss-post-bariatric-surgery-nutritional-guidance-for-gps/"
-        },
-        {
-          "label": "O’Kane et al. — BOMSS biochemical monitoring and micronutrient replacement guidelines, 2020 update (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583474/"
-        },
-        {
-          "label": "MedlinePlus — Vertical sleeve gastrectomy",
-          "url": "https://medlineplus.gov/ency/article/007435.htm"
-        },
-        {
-          "label": "MedlinePlus — Weight Loss Surgery",
-          "url": "https://medlineplus.gov/weightlosssurgery.html"
-        },
-        {
-          "label": "Cleveland Clinic — Gastric Sleeve Surgery",
-          "url": "https://my.clevelandclinic.org/health/treatments/22931-gastric-sleeve-surgery"
-        },
-        {
-          "label": "Mayo Clinic — Gastric bypass diet: What to eat after the surgery",
-          "url": "https://www.mayoclinic.org/tests-procedures/gastric-bypass-surgery/in-depth/gastric-bypass-diet/art-20048472?p=1"
-        }
+        {"label": "NIDDK — Weight-loss (Metabolic & Bariatric) Surgery", "url": "https://www.niddk.nih.gov/health-information/weight-management/bariatric-surgery"},
+        {"label": "Mechanick et al. — Clinical practice guidelines for perioperative nutrition, metabolic, and nonsurgical support of bariatric patients (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/31917200/"},
+        {"label": "Stenberg et al. — ERAS Society recommendations for perioperative care in bariatric surgery, 2021 update (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885505/"},
+        {"label": "Sogg et al. — Recommendations for the presurgical psychosocial evaluation of bariatric surgery patients (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/27179400/"},
+        {"label": "ASMBS — Bariatric Surgery Procedures", "url": "https://asmbs.org/patients/bariatric-surgery-procedures/"},
+        {"label": "ASMBS — Life After Bariatric Surgery", "url": "https://asmbs.org/patients/life-after-bariatric-surgery/"},
+        {"label": "ASMBS — Integrated Health Nutritional Guidelines: Micronutrients", "url": "https://asmbs.org/resources/integrated-health-nutritional-guidelines/"},
+        {"label": "BOMSS — Post-bariatric surgery nutritional guidance for GPs", "url": "https://bomss.org/bomss-post-bariatric-surgery-nutritional-guidance-for-gps/"},
+        {"label": "O’Kane et al. — BOMSS biochemical monitoring and micronutrient replacement guidelines, 2020 update (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583474/"},
+        {"label": "MedlinePlus — Vertical sleeve gastrectomy", "url": "https://medlineplus.gov/ency/article/007435.htm"},
+        {"label": "MedlinePlus — Weight Loss Surgery", "url": "https://medlineplus.gov/weightlosssurgery.html"},
+        {"label": "Cleveland Clinic — Gastric Sleeve Surgery", "url": "https://my.clevelandclinic.org/health/treatments/22931-gastric-sleeve-surgery"},
+        {"label": "MedlinePlus — Your diet after gastric bypass surgery", "url": "https://medlineplus.gov/ency/patientinstructions/000173.htm"}
       ],
-      "seo": {
-        "title": {
-          "ar": "متابعة جراحة السمنة طول العمر",
-          "en": "Lifelong follow-up after bariatric surgery"
-        },
-        "description": {
-          "ar": "ليه متابعة جراحة السمنة بتستمر طول العمر؟ اعرف دور التحاليل والمكملات ومراجعة الأدوية والأعراض والوزن والسجل الجراحي بأمان.",
-          "en": "Why does bariatric follow-up continue for life? Understand blood tests, supplements, medicine review, symptoms, weight and the operation record."
-        }
-      },
+      "seo": {"title": {"ar": "متابعة جراحة السمنة طول العمر", "en": "Lifelong follow-up after bariatric surgery"}, "description": {"ar": "متابعة جراحة السمنة مدى الحياة: التحاليل والمكملات حسب نوع العملية، ومراجعة الأدوية، والصحة النفسية، والحمل، وعلامات الخطر.", "en": "Why does bariatric follow-up continue for life? Understand blood tests, supplements, medicine review, symptoms, weight and the operation record."}},
       "updatedAt": "2026-09-27",
       "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "تم توسيع الدليل وتحديث مصادره ومراجعته طبياً لتوضيح القرار والمخاطر والمتابعة.",
-            "en": "The guide was expanded, its sources updated, and it was medically re-reviewed to clarify decisions, risks and follow-up."
-          }
-        }
+        {"date": "2026-09-27", "note": {"ar": "إعادة كتابة كاملة بالعامية المصرية بمحتوى محدد من إرشادات BOMSS عن مدة المتابعة والتحاليل والحمل بدل الفقرات العامة المكررة، مع توزيع الروابط الداخلية، وسؤال شائع جديد، واستبدال رابط Mayo Clinic المحجوب بمصدر MedlinePlus.", "en": "Fully rewritten in Egyptian Arabic with specific BOMSS-based content on follow-up duration, tests and pregnancy replacing repeated generic paragraphs, redistributed internal links, a new FAQ, and the blocked Mayo Clinic link replaced with a MedlinePlus source."}}
       ]
     }
   ]
