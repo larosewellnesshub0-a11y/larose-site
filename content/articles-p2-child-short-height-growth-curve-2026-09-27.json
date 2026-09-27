@@ -1,0 +1,233 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of child-short-height-growth-curve; replaces the entry from content/articles.json. Expanded growth-curve interpretation, measurement, causes, warning signs, targeted assessment, FAQs, internal links, and medically re-reviewed sources.",
+  "articles": [
+    {
+      "slug": "child-short-height-growth-curve",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": ["pediatrics", "clinical-nutrition"],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/child-short-height-growth-curve.webp",
+      "title": {
+        "ar": "طفلي قصير؟ إزاي نفهم منحنى النمو وإمتى نقيّمه",
+        "en": "Is my child short? Understanding the growth curve"
+      },
+      "excerpt": {
+        "ar": "قصر القامة عند الأطفال مش بيتحكم عليه بالمقارنة. افهم منحنى النمو، سرعة الطول، القياس الصح، وإمتى التباطؤ أو الأعراض يحتاجوا تقييماً.",
+        "en": "Short stature is not judged by comparison alone. Learn how growth curves, height velocity, accurate measurement and symptoms guide assessment."
+      },
+      "tags": {
+        "ar": ["طول الطفل", "قصر القامة", "منحنى النمو", "سرعة النمو", "تغذية الأطفال"],
+        "en": ["child height", "short stature", "growth curve", "growth velocity", "children's nutrition"]
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا شرح منحنى النمو والقياس والأسباب وخطوات التقييم، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the explanation of growth curves, measurement, causes and assessment steps, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "curve-not-classroom-comparison",
+          "heading": {
+            "ar": "منحنى النمو أهم من مقارنة الطفل بزمايله",
+            "en": "The growth curve matters more than classroom comparison"
+          },
+          "body": {
+            "ar": "لما تقول «طفلي قصير»، أول سؤال مش بيكون: واقف رقم كام وسط الفصل؟ السؤال الأدق هو: طوله فين على منحنى مناسب للسن والجنس، وإزاي اتحركت نقاطه مع الوقت؟ النسبة المئوية بتوصف مكان القياس مقارنة بأطفال من نفس السن والجنس؛ ما بتديش تشخيصاً لوحدها، وما بتقولش إن كل طفل تحت خط معين مريض. نقطة واحدة ممكن تلفت النظر، لكن سلسلة قياسات مظبوطة هي اللي بتوضح هل الطفل محافظ على مساره، ولا بدأ يعبر خطوط المنحنى لأسفل. عشان كده صفحة نمو الطفل خط بيتتابع بتشرح فكرة المسار بشكل مختصر، بينما الصفحة دي بتركز على سؤال قصر القامة نفسه. [1, 2, 3, 4]\n\nمنظمة الصحة العالمية بتنشر معايير للطول أو القامة بالنسبة للسن من الولادة لحد خمس سنين، وCDC بيوضح استخدام معايير WHO للطفل الأصغر من سنتين ثم مراجع النمو المناسبة بعد كده. الانتقال عند سن سنتين كمان بيغيّر طريقة القياس من طول وهو نايم إلى قامة وهو واقف، وده ممكن يعمل فرقاً صغيراً في الرقم أو النسبة من غير ما يكون حصل توقف حقيقي في النمو. الطبيب بيقرأ الطول مع الوزن ومؤشر كتلة الجسم عند السن المناسب، وتاريخ الولادة والتطور والأمراض والأدوية وطول الأبوين؛ يعني المنحنى أداة فحص ضمن صورة كاملة، مش حكم نهائي ولا توقع مضمون لطول الطفل لما يكبر. [1, 2, 3, 4]",
+            "en": "When a parent says, “My child is short,” the first useful question is not where the child stands in the class. It is where the height plots on an age- and sex-appropriate chart and how those points have moved over time. A percentile describes the measurement's position relative to children of the same age and sex; it does not diagnose disease by itself, and it does not mean that every child below a particular line is unwell. One point may prompt attention, but a series of accurate measurements shows whether a child is tracking along a path or crossing centile lines downward. Our page A child’s growth is a trajectory explains that general principle briefly, while this page stays focused on short stature. [1, 2, 3, 4]\n\nThe World Health Organization publishes length- and height-for-age standards from birth to five years, while CDC explains the use of WHO standards under age two and the relevant reference charts thereafter. Around age two, measurement also changes from recumbent length to standing height; that transition can produce a small shift in the number or percentile without true growth failure. Clinicians interpret height alongside weight, age-appropriate body mass index, birth and developmental history, illnesses, medicines and parental heights. A growth chart is therefore a screening tool within a full clinical picture, not a final verdict or a guaranteed prediction of adult height. [1, 2, 3, 4]"
+          },
+          "links": {
+            "ar": [{"label": "نمو الطفل خط بيتتابع", "url": "../articles/child-growth-is-a-trajectory.html"}],
+            "en": [{"label": "A child’s growth is a trajectory", "url": "../articles/child-growth-is-a-trajectory.html"}]
+          }
+        },
+        {
+          "id": "accurate-height-and-velocity",
+          "heading": {
+            "ar": "القياس الصح وسرعة النمو يغيّروا معنى الرقم",
+            "en": "Accurate measurement and growth velocity change the meaning"
+          },
+          "body": {
+            "ar": "فرق سنتيمتر واحد ممكن يبان كبير على المنحنى، خصوصاً في طفل صغير. القياس في العيادة بيتعمل من غير حذاء، على سطح ثابت، وبأداة مناسبة؛ الرضيع بيتقاس وهو نايم على لوح طول، والطفل اللي يقدر يقف بثبات بيتقاس واقفاً ورأسه وجسمه في الوضع الصحيح. تاريخ الميلاد والجنس لازم يتسجلوا بدقة، ولو الطفل اتولد بدري الطبيب بياخد ده في الاعتبار بالطريقة المناسبة لسنه. قياس على حيطة فيها وزرة، أو بشعر مرتفع، أو بحذاء، أو والطفل مثني ركبته ممكن يطلع رقم مضلل. ولو رقم جديد مختلف بشكل مش منطقي، إعادة القياس صح أذكى من بناء استنتاج كبير على خطأ محتمل. [2, 3, 7, 10]\n\nسرعة النمو معناها التغير في الطول خلال مدة معروفة، ومش ممكن تتحسب بجد من قياسين قريبين جداً. التغير الطبيعي خلال أسابيع أصغر من دقة القياس المنزلي غالباً؛ المتابعة المبالغ فيها ممكن تضخم اختلافات الطريقة وتزود قلق الأسرة. NICE بينصح، لما يكون فيه قلق على النمو الخطي، إن متابعة الطول ما تبقاش أكتر من مرة كل تلات شهور، لكن الطبيب ممكن يختار توقيتاً مختلفاً حسب السن وشدة العلامات. خد معاك كارت التطعيم أو سجل المدرسة وأي قياسات بتاريخها، وما تعتمدش على الذاكرة. نفس الجهاز والطريقة كل مرة بيساعدوا، لكن قراءة السرعة وتوقيت القياس يفضلوا جزءاً من تقييم الطبيب. [3, 7, 10, 11]",
+            "en": "A difference of one centimetre can look substantial on a chart, especially in a young child. Clinical measurement is taken without shoes, on a firm surface and with age-appropriate equipment. An infant is measured lying on a length board; a child who can stand reliably is measured upright with the head and body positioned correctly. Date of birth and sex must be recorded accurately, and prematurity is considered in an age-appropriate way. Measuring against a wall with skirting, with raised hair or shoes, or while the knees are bent can produce a misleading result. If a new value is implausibly different, repeating the measurement correctly is wiser than building a major conclusion on a possible error. [2, 3, 7, 10]\n\nGrowth velocity means the change in height across a known interval; it cannot be estimated meaningfully from two readings taken very close together. Normal change over a few weeks is often smaller than the error of home measurement, so excessive checking can magnify technique differences and increase family anxiety. When there is concern about linear growth, NICE advises monitoring length or height no more often than every three months, although the clinician may select a different interval according to age and the seriousness of the findings. Bring vaccination or school records and every dated measurement rather than relying on memory. Consistent equipment and technique help, but interpreting velocity and choosing the interval remain clinical tasks. [3, 7, 10, 11]"
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "normal-short-patterns",
+          "heading": {
+            "ar": "إمتى القصر يبقى نمطاً عائلياً أو تأخراً طبيعياً؟",
+            "en": "When is short stature a family pattern or normal delay?"
+          },
+          "body": {
+            "ar": "أطفال كتير قصار لكن أصحاء. في قصر القامة العائلي، الطفل غالباً بيكبر بسرعة مناسبة ويمشي قريب من مساره، وطول واحد أو الاتنين من الأبوين بيكون قصيراً. وفي التأخر البنيوي للنمو والبلوغ، الطفل ممكن يبقى أقصر من زمايله ويبدأ طفرة البلوغ متأخر، وغالباً تلاقي حد في العيلة كان «بيطول متأخر». النمطين دول مش بيتشخصوا من جملة واحدة أو معادلة على الإنترنت؛ الطبيب لازم يتأكد إن سرعة النمو مناسبة، وإن مفيش أعراض أو فرق كبير عن الطول المتوقع من الأسرة. تاريخ سن البلوغ عند الأب والأم مهم زي طولهم، لأن توقيت البلوغ بيغيّر شكل منحنى الطول خلال المراهقة. [5, 6, 11, 12]\n\nطول منتصف الأبوين بيدي نطاقاً تقريبياً للإمكان الوراثي، مش وعداً بسنتيمترات محددة. الجينات ليها دور كبير، لكن الصحة العامة والتغذية والأمراض وتوقيت البلوغ بيأثروا على المسار. كمان طفل كان صغيراً بالنسبة لعمر الحمل ومكملش نمو اللحاق المتوقع محتاج قراءة مختلفة عن طفل اتولد بطول مناسب وماشي على منحنى عائلي قصير. اللي يطمن أكتر هو اجتماع قصة عائلية منطقية مع نمو مستمر وفحص طبيعي؛ واللي يفتح باب التقييم هو بطء السرعة، أو نزول المسار، أو عدم تناسب أجزاء الجسم، أو أعراض تانية. ما ينفعش نسمي الطفل «متأخر عائلياً» قبل ما نستبعد العلامات اللي بتقول إن فيه سبب طبي. [5, 6, 8, 9]",
+            "en": "Many short children are healthy. In familial short stature, the child usually grows at an appropriate rate, follows a low but steady path and has one or two short parents. With constitutional delay of growth and puberty, a child may be shorter than peers and enter the pubertal growth spurt later; there is often a relative who was also a “late bloomer.” Neither pattern can be diagnosed from one sentence or an online formula. The clinician must confirm an appropriate growth rate, absence of concerning symptoms and a trajectory that is reasonably consistent with family height. The parents' ages at puberty matter alongside their heights because pubertal timing changes the shape of the adolescent height curve. [5, 6, 11, 12]\n\nMid-parental height provides a broad estimate of genetic potential, not a promise of a precise number of centimetres. Genes have a major role, but general health, nutrition, illness and pubertal timing influence the path. A child born small for gestational age who has not shown expected catch-up needs a different interpretation from one born at an appropriate length who follows a short family trajectory. Reassurance is stronger when a coherent family pattern, continuing growth and a normal examination occur together. Slow velocity, downward deflection, disproportion or other symptoms widen the assessment. A child should not be labelled a normal late grower until signs of a medical cause have been considered. [5, 6, 8, 9]"
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "nutrition-and-medical-causes",
+          "heading": {
+            "ar": "الوزن والأعراض بيساعدوا نفهم الأسباب المحتملة",
+            "en": "Weight and symptoms help frame the possible causes"
+          },
+          "body": {
+            "ar": "قصر القامة له أسباب كتير، ومش كل سبب هرمونات. نقص المدخول لفترة طويلة أو صعوبة الأكل والبلع أو مشكلة امتصاص ممكن يأثروا على الوزن وبعدين الطول، بينما بعض اضطرابات الغدد ممكن تبطّأ الطول مع وزن محفوظ أو زائد نسبياً. الأمراض المزمنة في الجهاز الهضمي أو الكلى أو القلب أو الدم، وقصور الغدة الدرقية، وبعض الاضطرابات الوراثية أو العظمية، وأدوية معينة زي الاستخدام الطويل للكورتيزون، كلها أمثلة الطبيب بيفكر فيها حسب القصة والفحص. الشكل ده مش قاعدة تشخّص في البيت؛ هو بس بيوضح ليه لازم نشوف الوزن والطول مع بعض بدل ما نطلب «تحليل هرمون نمو» مباشرة. [5, 8, 9, 12]\n\nلو الشهية هي المشكلة الأساسية، صفحة شهية الأطفال بتفصل إمتى التغير طبيعي وإمتى يحتاج كشف. ولو فيه إسهال مزمن أو انتفاخ أو ألم بطن أو نقص حديد أو تاريخ عائلي للسيلياك، الطبيب ممكن يفكر في فحوص موجهة؛ مرض السيلياك ممكن يظهر ببطء النمو وقصر القامة حتى لو الشكوى الهضمية مش هي الأوضح. ما توقفش الجلوتين قبل استكمال تقييم السيلياك لأن ده ممكن يقلل دقة التحاليل؛ راجع ما توقفش الجلوتين قبل استكمال فحوص السيلياك بدل تجربة منع عشوائية. والمكملات أو فاتح الشهية ما بيعالجوش قصور الغدة أو مرضاً مزمناً أو اضطراب نمو، وزيادة الأكل مش هتزوّد طول طفل احتياجه متغطي ونموه طبيعي. [5, 12, 13]",
+            "en": "Short stature has many causes, and not every cause is hormonal. Persistently low intake, feeding or swallowing difficulty, or malabsorption may affect weight before height, whereas some endocrine disorders may slow linear growth while weight is relatively preserved or increased. Chronic gastrointestinal, kidney, heart or blood disease, hypothyroidism, certain genetic or skeletal conditions, and medicines such as prolonged corticosteroid treatment are examples considered according to the history and examination. This pattern is not a home diagnostic rule; it explains why height and weight are interpreted together instead of moving immediately to a “growth hormone test.” [5, 8, 9, 12]\n\nIf appetite is the main concern, Children’s appetite explains when variation is ordinary and when it warrants assessment. Chronic diarrhoea, bloating, abdominal pain, iron deficiency or a family history of coeliac disease may prompt targeted investigation. Coeliac disease can present with slow growth and short stature even when digestive symptoms are not the leading complaint. Do not remove gluten before coeliac assessment is complete because that can reduce test accuracy; see do not stop gluten before coeliac testing is complete rather than starting an unsupervised elimination. Supplements and appetite products cannot treat hypothyroidism, chronic disease or a growth disorder, and extra food does not make a well-nourished child with normal growth become taller. [5, 12, 13]"
+          },
+          "links": {
+            "ar": [
+              {"label": "شهية الأطفال", "url": "../articles/childrens-appetite.html"},
+              {"label": "ما توقفش الجلوتين قبل استكمال فحوص السيلياك", "url": "../articles/coeliac-testing-before-gluten-free-diet.html"}
+            ],
+            "en": [
+              {"label": "Children’s appetite", "url": "../articles/childrens-appetite.html"},
+              {"label": "do not stop gluten before coeliac testing is complete", "url": "../articles/coeliac-testing-before-gluten-free-diet.html"}
+            ]
+          }
+        },
+        {
+          "id": "warning-signs-and-timing",
+          "heading": {
+            "ar": "علامات تقول ما تستناش المتابعة الروتينية",
+            "en": "Signs that should not wait for routine follow-up"
+          },
+          "body": {
+            "ar": "اطلب تقييماً قريباً لو الطفل بطل يزيد في الطول، أو نزل عن مساره بوضوح، أو طوله بعيد جداً عن النطاق المتوقع من طول الأبوين. نفس الكلام لو القصر معاه نزول وزن، تعب أو شحوب، إسهال أو قيء أو ألم بطن مستمر، إمساك شديد، عطش وتبول زائدين، صداع متكرر أو تغير في النظر، التهابات متكررة، ألم عظام، أو ضعف في النشاط والتطور. عدم تناسب الذراعين أو الرجلين مع الجذع، ملامح جسم مختلفة، أو طفل اتولد صغيراً وما لحقش بالنمو المتوقع يستحقوا ذكرهم للطبيب. ولأن البلوغ جزء من قراءة الطول، ظهور علاماته بدري جداً أو تأخرها عن المتوقع سبب للمراجعة كمان. [5, 7, 8, 9, 12, 14]\n\nقصر القامة وحده غالباً مش حالة طوارئ، لكن حالة الطفل العامة ممكن تغيّر الأولوية. صعوبة التنفس، لون أزرق أو رمادي أو شحوب شديد، إغماء أو صعوبة إيقاظ الطفل، تشنج، أو قلة بول واضحة مع علامات جفاف يستحقوا مساعدة طبية عاجلة حسب شدة الحالة، مش انتظار موعد منحنى النمو. ولو الطفل باين عليه مرض شديد أو بيتدهور بسرعة، اتبع تعليمات خدمة الطوارئ المحلية. الهدف مش التخويف؛ الهدف نفصل سؤال الطول المزمن عن علامة حادة محتاجة تتشاف بسرعة. [15]",
+            "en": "Arrange timely assessment if the child seems to have stopped gaining height, clearly falls away from the previous trajectory or is far below the range suggested by parental heights. The same applies when short stature occurs with weight loss, fatigue or pallor, persistent diarrhoea, vomiting or abdominal pain, severe constipation, increased thirst and urination, recurrent headache or visual change, recurrent infections, bone pain, or reduced activity and development. Disproportion between limbs and trunk, unusual physical features, or being born small without expected catch-up should be mentioned. Because puberty shapes the height trajectory, signs that begin very early or have not appeared when expected also merit review. [5, 7, 8, 9, 12, 14]\n\nShort stature alone is rarely an emergency, but the child's general condition can change the priority. Breathing difficulty, blue or grey colour or marked pallor, fainting or difficulty waking, a seizure, or markedly reduced urination with dehydration signs call for urgent medical help according to severity rather than waiting for a growth appointment. If the child appears seriously unwell or is deteriorating quickly, follow the local emergency service's instructions. This is not meant to alarm families; it separates a chronic height question from an acute sign that needs prompt attention. [15]"
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "clinical-assessment-and-tests",
+          "heading": {
+            "ar": "التقييم يبدأ بالقصة والفحص، مش بباقة تحاليل",
+            "en": "Assessment begins with history and examination, not a test bundle"
+          },
+          "body": {
+            "ar": "في الزيارة، الطبيب بيراجع كل القياسات القديمة وتاريخ الحمل والولادة وعمر الحمل، النمو والتطور، الأكل والهضم والنوم، الأمراض المزمنة، والأدوية. بيسأل عن طول الأبوين وتوقيت بلوغهم، ويفحص الطول والوزن وتناسب الجسم وعلامات عامة ومرحلة البلوغ لما السن يناسب. زيارة تغذية الطفل والنمو بتوضح إيه المعلومات اللي تحضّرها من غير ما توسع الصفحة دي في تفاصيل يوميات الأكل. أحياناً إعادة قياس مظبوطة ومتابعة في موعد محدد تكون الخطوة الصح، وأحياناً القصة أو الفحص يبرروا تحاليل أو إحالة لطبيب غدد أطفال أو تخصص تاني. [5, 7, 8, 10, 11]\n\nالفحوص بتتوجه للسؤال السريري، وممكن تشمل صورة دم، مؤشرات التهاب، وظائف كبد وكلى، فحوص الغدة الدرقية، تحاليل سيلياك، أو مؤشرات محور هرمون النمو حسب الحالة. أشعة عمر العظام لليد والرسغ بتقارن نضج العظام بالعمر الزمني وبتساعد في فهم المسار وتوقيت النمو المتبقي، لكنها مش آلة بتتنبأ بالطول النهائي من غير هامش خطأ. تحليل عشوائي لهرمون النمو ما يشخصش النقص لأن إفرازه بيطلع وينزل؛ واختبارات التنبيه وتفسير IGF-1 وغيرهم قرارات تخصصية بعد تقييم مناسب. الدراسات والإرشادات بتوضح إن الفحص الشامل العشوائي لطفل قصير لكنه سليم وسرعته طبيعية عائده محدود، عشان كده الاختيار الموجه أحسن من طلب كل حاجة مرة واحدة. [8, 10, 11, 12]",
+            "en": "At the visit, the clinician reviews all earlier measurements, pregnancy and birth history, gestational age, growth and development, eating, digestion, sleep, chronic illness and medicines. Parental heights and pubertal timing are discussed, while examination considers height, weight, body proportions, general signs and pubertal stage when age-appropriate. A child nutrition and growth visit explains what information to prepare without expanding this page into a detailed food diary guide. Sometimes a careful repeat measurement and review at a defined interval are the correct next steps; sometimes the history or examination supports tests or referral to paediatric endocrinology or another specialty. [5, 7, 8, 10, 11]\n\nInvestigations are directed at the clinical question and may include a blood count, inflammatory markers, liver and kidney function, thyroid tests, coeliac screening, or markers of the growth-hormone axis according to the case. A hand and wrist bone-age x-ray compares skeletal maturation with chronological age and helps interpret the trajectory and remaining growth, but it is not a machine that predicts final height without uncertainty. A random growth hormone level cannot diagnose deficiency because secretion is pulsatile; stimulation testing and interpretation of IGF-1 and related markers are specialist decisions after appropriate assessment. Reviews and guidance show that indiscriminate screening has a low yield in a well child who is short but growing at a normal rate, which is why targeted testing is more useful than ordering everything at once. [8, 10, 11, 12]"
+          },
+          "links": {
+            "ar": [{"label": "زيارة تغذية الطفل والنمو", "url": "../articles/child-nutrition-growth-visit.html"}],
+            "en": [{"label": "A child nutrition and growth visit", "url": "../articles/child-nutrition-growth-visit.html"}]
+          }
+        },
+        {
+          "id": "treatment-support-and-next-step",
+          "heading": {
+            "ar": "العلاج للسبب، والدعم النفسي جزء من الخطة",
+            "en": "Treatment follows the cause, and emotional support matters"
+          },
+          "body": {
+            "ar": "الخطة بتختلف حسب النتيجة. لو الطفل ماشي على نمط عائلي أو تأخر بنيوي طبيعي، المتابعة والشرح ممكن يكونوا أهم من أي دواء. لو فيه نقص غذائي مثبت، مرض سيلياك، قصور غدة، مرض مزمن، أو دواء مأثر على النمو، علاج السبب ومراقبة الاستجابة هما الأساس. هرمون النمو مش حقنة لزيادة طول أي طفل قصير؛ له استخدامات طبية محددة، وفائدته ومخاطره وتوقعات الاستجابة لازم تتناقش مع متخصص بعد تشخيص واضح. بلاش شراء مكملات أو منتجات بتوعد بسنتيمترات، وما تستخدمش خطة طفل تاني. النوم الكافي والأكل المتوازن والنشاط بيدعموا الصحة والنمو الطبيعي، لكنهم ما يلغوش الوراثة ولا يعالجوا اضطراباً هرمونياً. [5, 6, 8, 12]\n\nاحمِ الطفل كمان من إن الطول يبقى هويته كلها. بلاش تعليقات مستمرة، قياس قدام الناس، أو وعود إنه «أكيد هيلحق»؛ اسمع لو فيه تنمر، واتكلم مع المدرسة، وركز على مهاراته وراحته. لو عندك قياسات بتوضح تباطؤاً، أو أعراض مقلقة، أو مجرد قلق مستمر محتاج تفسير منظم، تقدر تبدأ بطلب حجز كشف أطفال وتغذية في العيادة. خد معاك القياسات القديمة، تاريخ الميلاد والولادة، طول الأبوين، قائمة الأدوية والمكملات، وملاحظات مختصرة عن الأكل والهضم والبلوغ. العيادة تساعد في القياس والتقييم الأولي، والطبيب المعالج هو اللي يقرر المتابعة أو الفحوص أو الإحالة المناسبة من غير وعود بطول معين. [5, 7, 12]",
+            "en": "The plan depends on the findings. When a child follows familial short stature or normal constitutional delay, observation and explanation may matter more than medicine. If there is a confirmed nutritional deficiency, coeliac disease, hypothyroidism, chronic illness or a medicine affecting growth, treating the cause and monitoring response are central. Growth hormone is not an injection for making every short child taller. It has defined medical indications, and expected benefit, limitations and risks require specialist discussion after a clear diagnosis. Do not buy supplements or products promising centimetres or copy another child's plan. Adequate sleep, balanced food and activity support health and normal growth, but they cannot cancel genetics or treat an endocrine disorder. [5, 6, 8, 12]\n\nProtect the child from having height become their whole identity. Avoid constant comments, measuring in front of others or promises that they will “definitely catch up.” Listen for bullying, involve the school when needed, and emphasize the child's abilities and comfort. If dated measurements suggest slowing, symptoms are concerning, or persistent worry needs a structured explanation, you can begin by requesting a paediatric and nutrition appointment at the clinic. Bring earlier measurements, birth details, parental heights, medicine and supplement lists, and brief notes about eating, digestion and puberty. The clinic can provide measurement and initial assessment; the treating clinician decides on observation, testing or referral without promising a particular height. [5, 7, 12]"
+          },
+          "links": {
+            "ar": [{"label": "طلب حجز كشف أطفال وتغذية", "url": "../patients/booking.html"}],
+            "en": [{"label": "requesting a paediatric and nutrition appointment", "url": "../patients/booking.html"}]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل وجود طفلي تحت النسبة التالتة معناه إن عنده مرض؟",
+            "en": "Does being below the third percentile mean my child has a disease?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. النسبة المنخفضة بتستحق قراءة في سياق سرعة النمو وطول الأبوين والولادة والوزن والأعراض والفحص. طفل قصير محافظ على مساره وباقي صورته مطمئنة يختلف عن طفل بينزل عبر الخطوط أو نموه تباطأ. الطبيب هو اللي يفرق بين نمط طبيعي وسبب محتاج بحث، ومش رقم واحد لوحده. [2, 5, 6, 12]",
+            "en": "Not necessarily. A low percentile needs interpretation alongside growth velocity, parental height, birth history, weight, symptoms and examination. A short child who steadily follows a reassuring trajectory differs from one who crosses downward or slows. The clinician distinguishes a normal pattern from a cause needing investigation; one number cannot do that alone. [2, 5, 6, 12]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل قصر الطفل معناه نقص فيتامينات أو إنه مش بياكل كفاية؟",
+            "en": "Does short stature mean vitamin deficiency or inadequate food?"
+          },
+          "a": {
+            "ar": "لأ كقاعدة عامة. نقص التغذية سبب محتمل، بس فيه أنماط عائلية وتأخر بلوغ طبيعي وأمراض مزمنة واضطرابات غدد أو وراثة وأسباب تانية. الوزن وتاريخ الأكل والأعراض بيوجهوا السؤال. ما تبدأش فيتاميناً أو حديداً أو فاتح شهية عشوائي؛ الطبيب يحدد هل فيه نقص فعلاً وإزاي يتعالج من غير ما نغطي على السبب. [5, 8, 9, 12]",
+            "en": "No, not as a general rule. Undernutrition is one possibility, but familial patterns, normal delayed puberty, chronic disease, endocrine or genetic disorders and other causes also exist. Weight, food history and symptoms guide the question. Do not start a vitamin, iron or appetite product at random; the clinician determines whether a deficiency exists and how to treat it without masking the cause. [5, 8, 9, 12]"
+          }
+        },
+        {
+          "q": {
+            "ar": "أقيس طول طفلي كل أسبوع عشان أحسب سرعة النمو؟",
+            "en": "Should I measure my child's height every week to calculate growth velocity?"
+          },
+          "a": {
+            "ar": "مش مفيد غالباً. الزيادة الأسبوعية أصغر من خطأ القياس المعتاد، فهتلاحظ ضوضاء أكتر من نمو حقيقي. استخدم طريقة ثابتة وسجل التاريخ، وسيب للطبيب اختيار الفترة المناسبة. عند القلق على النمو الخطي، NICE بينصح إن قياس الطول ما يتكررش أكتر من كل تلات شهور، مع تعديل الخطة حسب حالة الطفل. [3, 7, 10]",
+            "en": "Usually not. Weekly change is smaller than ordinary measurement error, so the result is more noise than true growth. Use a consistent method, record the date and let the clinician select the interval. When linear growth is a concern, NICE advises measuring length or height no more often than every three months, with the plan adjusted to the child's circumstances. [3, 7, 10]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أشعة عمر العظام بتقول طول الطفل النهائي بالضبط؟",
+            "en": "Does a bone-age x-ray predict final height exactly?"
+          },
+          "a": {
+            "ar": "لأ. الأشعة بتساعد الطبيب يقارن نضج العظام بالعمر الزمني ويفهم هل النضج متأخر أو متقدم، وده يدخل مع المنحنى والبلوغ وطول الأسرة في تقدير المسار. أي توقع للطول النهائي فيه هامش عدم يقين، وممكن يتغير لو ظهر مرض أو اتغير توقيت البلوغ؛ عشان كده النتيجة مش وعداً برقم محدد. [8, 9, 12, 14]",
+            "en": "No. The x-ray helps compare skeletal maturity with chronological age and shows whether maturation appears delayed or advanced. That information is combined with the curve, puberty and family height to estimate the path. Any adult-height prediction has uncertainty and can change with illness or pubertal timing, so the result is not a promise of a precise number. [8, 9, 12, 14]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل كل طفل قصير ممكن ياخد هرمون نمو؟",
+            "en": "Can every short child receive growth hormone?"
+          },
+          "a": {
+            "ar": "لأ. أغلب الأطفال القصار ما عندهمش نقص هرمون نمو، والعلاج له تشخيصات واستخدامات طبية محددة، ومش كل طفل يستجيب بنفس الدرجة. قرار الاختبارات والعلاج يتعمل مع متخصص بعد قياسات موثوقة وتقييم كامل ومناقشة الفايدة والحدود والمخاطر والمتابعة. تحليل هرمون نمو عشوائي أو رغبة في سنتيمترات زيادة مش كفاية لبدء العلاج. [5, 8, 11, 12]",
+            "en": "No. Most short children do not have growth hormone deficiency, and treatment has defined diagnoses and indications; responses also vary. Testing and treatment decisions belong with a specialist after reliable measurements, full assessment and discussion of benefits, limits, risks and monitoring. A random growth hormone result or a wish for extra centimetres is not enough to begin therapy. [5, 8, 11, 12]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل النوم والرياضة وأكل البروتين يزودوا طول الطفل؟",
+            "en": "Will sleep, exercise and protein make a child taller?"
+          },
+          "a": {
+            "ar": "النوم الكافي والحركة وأكل متنوع فيه طاقة وبروتين وعناصر مناسبة للسن بيدعموا صحة الطفل ويخلّوه يحقق إمكان نموه الطبيعي، لكن مفيش أكل أو تمرين يضمن طولاً معيناً أو يتجاوز الوراثة. ولو فيه سيلياك أو قصور غدة أو مرض مزمن، العادات الصحية لوحدها مش بديل لعلاج السبب. اسأل الطبيب عن احتياج طفلك بدل إضافة بروتين أو مكمل من نفسك. [5, 12, 13]",
+            "en": "Adequate sleep, activity and a varied age-appropriate diet with sufficient energy, protein and micronutrients support health and the child's natural growth potential. No food or exercise guarantees a particular height or overrides genetics. If coeliac disease, hypothyroidism or chronic illness is present, healthy habits do not replace treatment of the cause. Ask the clinician about the child's needs rather than adding protein or supplements independently. [5, 12, 13]"
+          }
+        }
+      ],
+      "sources": [
+        {"label": "CDC — Introduction to Growth Chart Training", "url": "https://www.cdc.gov/growth-chart-training/hcp/training/index.html"},
+        {"label": "CDC — What Are Clinical Growth Charts?", "url": "https://www.cdc.gov/growth-chart-training/hcp/overview/what-are-clinical-growth-charts.html"},
+        {"label": "CDC — Using WHO Growth Standard Charts", "url": "https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/who-using.html"},
+        {"label": "WHO — Child Growth Standards: Length/Height-for-Age", "url": "https://www.who.int/toolkits/child-growth-standards/standards/length-height-for-age"},
+        {"label": "Endocrine Society — Growth and Short Stature", "url": "https://www.endocrine.org/patient-engagement/endocrine-library/growth-and-short-stature"},
+        {"label": "Pediatric Endocrine Society — Constitutional Growth Delay and Familial Short Stature", "url": "https://pedsendo.org/patient-resource/constitutional-growth-delay/"},
+        {"label": "NICE NG75 — Faltering Growth: Recommendations", "url": "https://www.nice.org.uk/guidance/ng75/chapter/Recommendations"},
+        {"label": "Growth Hormone Research Society — Diagnosis, Genetics, and Therapy of Short Stature in Children", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6979443/"},
+        {"label": "American College of Medical Genetics — Genetic Evaluation of Short Stature", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3111030/"},
+        {"label": "British Journal of General Practice — Assessment of Childhood Short Stature: a GP Guide", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10049590/"},
+        {"label": "Frontiers in Endocrinology — Short Stature Diagnosis and Referral", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5768898/"},
+        {"label": "MedlinePlus Medical Encyclopedia — Short Stature", "url": "https://medlineplus.gov/ency/article/003271.htm"},
+        {"label": "NIDDK — Symptoms and Causes of Celiac Disease", "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/symptoms-causes"},
+        {"label": "NHS — Early or Delayed Puberty", "url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/"},
+        {"label": "NHS — When to Get Urgent Medical Help for Babies and Children Under 5", "url": "https://www.nhs.uk/baby/health/when-to-get-urgent-medical-help-for-babies-and-children-under-5/"}
+      ],
+      "seo": {
+        "title": {
+          "ar": "قصر القامة عند الأطفال ومنحنى النمو",
+          "en": "Child Short Stature and the Growth Curve"
+        },
+        "description": {
+          "ar": "دليل لفهم قصر القامة عند الأطفال ومنحنى النمو وسرعة الطول والقياس الصحيح، مع علامات تستدعي تقييم طبي وخطوات الفحص المناسبة.",
+          "en": "Learn how growth curves, height velocity and accurate measurement guide assessment of child short stature, including warning signs and next steps."
+        }
+      }
+    }
+  ]
+}
