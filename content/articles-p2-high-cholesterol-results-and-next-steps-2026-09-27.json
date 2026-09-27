@@ -1,0 +1,331 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of high-cholesterol-results-and-next-steps; replaces the entry from content/articles-high-cholesterol-results-and-next-steps-rewrite-2026-09-21.json. Expanded interpretation, cardiovascular-risk context, lifestyle and medicine decisions, safety guidance, FAQs, verified sources, and a clear next-step pathway.",
+  "articles": [
+    {
+      "slug": "high-cholesterol-results-and-next-steps",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "internal-medicine",
+      "specialties": [
+        "internal-medicine",
+        "clinical-nutrition",
+        "weight-management"
+      ],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/high-cholesterol-results-and-next-steps.webp",
+      "title": {
+        "ar": "الكوليسترول العالي: نفهم النتيجة والخطوة الجاية",
+        "en": "High cholesterol: understanding results and next steps"
+      },
+      "excerpt": {
+        "ar": "نتيجة الكوليسترول العالي مش رقم منفصل. افهم LDL وHDL والدهون الثلاثية، وإزاي خطر القلب وحالتك الصحية يحددوا هل تعديل الأكل كفاية ولا محتاج علاج ومتابعة.",
+        "en": "A high cholesterol result is not an isolated number. Learn how LDL, HDL, triglycerides and overall cardiovascular risk shape decisions about food, medicine and follow-up."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسع الشرح في قراءة تحليل الدهون وتقدير خطر القلب وخيارات العلاج والمتابعة، واتراجع طبياً من جديد.",
+            "en": "The explanation of lipid results, cardiovascular risk, treatment choices and follow-up was expanded and medically re-reviewed."
+          }
+        }
+      ],
+      "tags": {
+        "ar": [
+          "الكوليسترول العالي",
+          "تحليل الدهون",
+          "الدهون الثلاثية",
+          "صحة القلب"
+        ],
+        "en": [
+          "high cholesterol",
+          "lipid profile",
+          "triglycerides",
+          "heart health"
+        ]
+      },
+      "sections": [
+        {
+          "id": "read-the-whole-lipid-profile",
+          "heading": {
+            "ar": "اقرأ تحليل الدهون كله، مش الكوليسترول الكلي بس",
+            "en": "Read the whole lipid profile, not total cholesterol alone"
+          },
+          "body": {
+            "ar": "الكوليسترول مادة شمعية الجسم بيصنعها وبيحتاجها لبناء الخلايا وصناعة هرمونات مهمة. عشان الكوليسترول ما بيدوبش في الدم، بيتنقل جوه جسيمات اسمها البروتينات الدهنية. تحليل الدهون بيعرض عادة الكوليسترول الكلي، وLDL، وHDL، والدهون الثلاثية. LDL بينقل الكوليسترول للأنسجة، وزيادته ترتبط بتراكم الترسبات جوه الشرايين مع الوقت. HDL بيساعد في نقل جزء من الكوليسترول بعيداً عن الأنسجة، لكن رقم HDL المطمئن مش بيلغي ضرر LDL المرتفع ولا يتحول لهدف علاجي منفصل لوحده [1, 2, 7, 10].\n\nالدهون الثلاثية نوع مختلف من الدهون، وممكن تعلى مع السكريات الزايدة، أو زيادة الوزن، أو السكري غير المنضبط، أو الكحول، أو أسباب وأدوية تانية. الرقم الكلي لوحده ممكن يخبي نمطين مختلفين تماماً؛ شخص عنده LDL عالي، وشخص تاني ارتفاعه الأساسي في الدهون الثلاثية. عشان كده هتلاحظ إن الطبيب بيركز على مكونات التحليل وعلى النتيجة القديمة للمقارنة، مش على خانة واحدة عليها علامة حمراء. وحدات القياس والمجالات المرجعية كمان ممكن تختلف حسب البلد والمعمل، فالأصح ما تنقلش هدف شخص تاني لنفسك [2, 6, 7, 11].\n\nالنتيجة دي مش تشخيصاً لانسداد موجود، ومش اختباراً بيحدد لوحده إنك هتتعرض لجلطة. هي جزء مهم من تقدير احتمال أمراض القلب والشرايين على المدى الجاي. معنى نفس رقم LDL بيتغير حسب السن، والضغط، والتدخين، والسكري، ووظائف الكلى، والتاريخ العائلي، ووجود مرض شرايين معروف. القراءة الهادية للصورة كلها أدق من الخوف من كلمة «عالي» أو الاطمئنان لرقم واحد [6, 8, 9, 10].",
+            "en": "Cholesterol is a waxy substance that the body makes and needs for cell structure and important hormones. Because it does not dissolve in blood, it travels inside particles called lipoproteins. A lipid profile usually reports total cholesterol, LDL, HDL and triglycerides. LDL carries cholesterol to tissues, and higher exposure is associated with plaque accumulating inside arteries over time. HDL helps move some cholesterol away from tissues, but a reassuring HDL value does not cancel the risk associated with raised LDL and is not a stand-alone treatment target [1, 2, 7, 10].\n\nTriglycerides are a different type of fat. They may rise with excess sugars, weight gain, poorly controlled diabetes, alcohol, other conditions or certain medicines. Total cholesterol alone can therefore hide two very different patterns: one person may mainly have raised LDL, while another has predominantly high triglycerides. This is why a clinician reviews every component and compares earlier results rather than reacting to one red-marked box. Measurement units and laboratory reference ranges can also vary, so another person's target should not simply be copied [2, 6, 7, 11].\n\nThis result does not diagnose an existing blockage, and it cannot by itself predict that a heart attack or stroke will occur. It is one important part of estimating future cardiovascular risk. The meaning of the same LDL value changes with age, blood pressure, smoking, diabetes, kidney function, family history and whether artery disease is already present. Reading that complete picture is more accurate than panicking at the word “high” or taking comfort from one favourable number [6, 8, 9, 10]."
+          }
+        },
+        {
+          "id": "confirm-result-and-context",
+          "heading": {
+            "ar": "قبل القرار: اتأكد من النتيجة وظروف التحليل",
+            "en": "Before deciding: confirm the result and its context"
+          },
+          "body": {
+            "ar": "مش كل تحليل دهون لازم يتعمل مع صيام. التحليل من غير صيام مناسب في مواقف كتير للتقييم الأولي، لكن الطبيب أو المعمل ممكن يطلب صياماً لما تكون الدهون الثلاثية عالية، أو النتيجة غير متوقعة، أو فيه سؤال محدد محتاج قياساً أدق. اتبع تعليمات الطلب نفسه، وقل للطبيب لو التحليل اتعمل أثناء مرض حاد، أو بعد تغيير كبير في الأكل أو الوزن، أو بعد بدء دواء جديد؛ الظروف دي ممكن تغير التفسير أو تخلي إعادة القياس مفيدة [6, 7, 8].\n\nالخطوة الجاية مش دايماً إعادة التحليل فوراً. الطبيب الأول بيراجع هل النتيجة متسقة مع تحاليل سابقة، وهل فيه سبب ثانوي ممكن يرفع الدهون. قصور الغدة الدرقية، والسكري، وبعض أمراض الكلى أو الكبد، والحمل، وبعض الأدوية ممكن يغيروا نمط الدهون. من أمثلة الأدوية اللي تستحق المراجعة بعض الستيرويدات، ومدرات البول، وحاصرات بيتا، وأدوية أخرى حسب الحالة. ما توقفش أي دواء من نفسك؛ المطلوب إنك تعرض قائمة كاملة تشمل المكملات عشان الطبيب يربط التوقيت بالنتيجة [4, 6, 11].\n\nلو عندك أعراض أو نتائج توجّه للغدة، اقرأ صفحة الغدة الدرقية والوزن عشان تفهم ليه التشخيص محتاج تحليل وسياق، مش افتراض من الوزن وحده. ولو ظهر ارتفاع في إنزيمات الكبد، صفحة تحليل وظائف الكبد عالي تشرح معنى الأرقام من غير ما نخلط بينها وبين الكوليسترول. هنا بنلخص العلاقة فقط؛ تقييم الغدة أو الكبد له أسئلته وفحوصه الخاصة [4, 6, 11].",
+            "en": "Not every lipid profile requires fasting. A non-fasting sample is suitable for initial assessment in many situations, although the clinician or laboratory may request fasting when triglycerides are high, a result is unexpected or a specific question needs clarification. Follow the instructions on your own request. Tell the clinician if testing occurred during an acute illness, after a major dietary or weight change, or soon after starting a medicine, because those circumstances may affect interpretation or make a repeat measurement useful [6, 7, 8].\n\nThe next step is not always an immediate repeat test. The clinician first checks whether the result fits previous measurements and whether a secondary cause may be raising lipids. Hypothyroidism, diabetes, certain kidney or liver conditions, pregnancy and some medicines can alter the pattern. Examples worth reviewing include some steroids, diuretics, beta blockers and other agents depending on the situation. Do not stop a medicine yourself; bring a complete list, including supplements, so its timing can be compared with the result [4, 6, 11].\n\nIf symptoms or results point towards thyroid disease, the page on thyroid and weight explains why diagnosis needs testing and context rather than assumptions based on weight. If liver enzymes are also raised, the page on high liver tests explains those numbers without confusing them with cholesterol. These neighbouring issues are only summarised here because thyroid and liver assessment each requires its own questions and investigations [4, 6, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الغدة الدرقية والوزن",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              },
+              {
+                "label": "تحليل وظائف الكبد عالي",
+                "url": "../articles/liver-function-tests-need-context.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "thyroid and weight",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              },
+              {
+                "label": "high liver tests",
+                "url": "../articles/liver-function-tests-need-context.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cardiovascular-risk-and-family-history",
+          "heading": {
+            "ar": "رقم LDL مهم، لكن مستوى الخطر هو اللي يوجّه الخطة",
+            "en": "LDL matters, but overall risk guides the plan"
+          },
+          "body": {
+            "ar": "الطبيب ما بيسألش «الكوليسترول كام؟» وبس. بيسأل كمان: هل حصلت جلطة قلب أو مخ قبل كده؟ هل فيه ذبحة، دعامة، أو مرض شرايين؟ هل عندك سكري، ضغط، مرض كلى مزمن، أو تدخين؟ السن، الجنس البيولوجي، القراءات الحالية، وبعض تفاصيل التاريخ الصحي بيدخلوا في أدوات تقدير الخطر. الأدوات دي بتساعد الحوار، لكنها مش بديل للحكم الإكلينيكي ومش بتدي ضماناً لشخص بعينه [8, 9, 10, 11].\n\nوجود مرض شرايين معروف بيغيّر الأولوية؛ هنا العلاج هدفه تقليل خطر حدث تاني، مش مجرد تحسين ورقة التحليل. أما لو ما حصلش مرض شرايين قبل كده، فالقرار اسمه وقاية أولية وبيعتمد على اجتماع عوامل الخطر مع مستوى الدهون وتفضيلات الشخص. عشان كده شخصان بنفس LDL ممكن يخرجوا بخطتين مختلفتين. صفحة متابعة السكر تشرح ليه تقييم مريض السكري ما يقفش عند HbA1c، لأن الضغط والكلى والدهون جزء من حماية القلب والجسم كله [8, 9, 10].\n\nالتاريخ العائلي مهم خصوصاً لو حصلت أمراض قلب أو جلطات في سن صغير، أو لو LDL شديد الارتفاع ومتكرر. ده ممكن يخلّي الطبيب يفكر في فرط كوليسترول عائلي، وهو اضطراب وراثي يحتاج تقييماً منظماً وقد يستدعي فحص أقارب الدرجة الأولى. العلامات الجلدية أو الحلقة حول القرنية ممكن تظهر في بعض الحالات الشديدة، لكنها مش موجودة عند كل شخص. غيابها ما ينفيش السبب الوراثي، وتشخيصه ما يتعملش من صورة أو رقم منفرد [3, 4, 6, 10].",
+            "en": "A clinician does not ask only, “What is the cholesterol number?” They also ask whether you have previously had a heart attack or stroke, angina, a stent or another artery condition, and whether diabetes, high blood pressure, chronic kidney disease or smoking is present. Age, biological sex, current measurements and parts of the medical history feed into risk-estimation tools. These tools support a shared discussion; they do not replace clinical judgement or guarantee an outcome for an individual [8, 9, 10, 11].\n\nEstablished artery disease changes the priority because treatment aims to reduce the chance of another event, not merely improve a laboratory sheet. If artery disease has not occurred, the decision is primary prevention and depends on the combination of risk factors, lipid levels and the person's preferences. Two people with the same LDL can therefore receive different plans. The page on diabetes review explains why assessment in diabetes extends beyond HbA1c: blood pressure, kidneys and lipids are all part of protecting cardiovascular and overall health [8, 9, 10].\n\nFamily history matters particularly when heart disease or stroke occurred at a young age, or when LDL is repeatedly very high. That pattern may prompt assessment for familial hypercholesterolaemia, an inherited disorder that can require structured evaluation and testing of first-degree relatives. Skin deposits or a ring around the cornea can occur in some severe cases, but they are not present in everyone. Their absence does not exclude an inherited cause, and diagnosis should not be made from a photograph or one isolated number [3, 4, 6, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "متابعة السكر",
+                "url": "../articles/diabetes-review-whole-health.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "diabetes review",
+                "url": "../articles/diabetes-review-whole-health.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "food-movement-and-smoking",
+          "heading": {
+            "ar": "التغيير المفيد نمط كامل، مش منع صنف واحد",
+            "en": "Useful change is a whole pattern, not banning one food"
+          },
+          "body": {
+            "ar": "لما تسأل «آكل إيه؟»، البداية مش قائمة ممنوعات طويلة. الأهم هو نمط اليوم كله: قلل الدهون المشبعة والمتحولة، واختار دهوناً غير مشبعة، وخضاراً وفاكهة، وبقولاً، وحبوباً كاملة، ومصادر بروتين مناسبة لحالتك. الألياف القابلة للذوبان الموجودة في أطعمة زي الشوفان والبقول ممكن تساعد ضمن النمط العام. وفي المقابل، استبدال الدهون بحلويات أو مشروبات سكرية أو نشويات مكررة مش خطوة مفيدة للدهون الثلاثية أو صحة القلب [5, 8, 10, 13].\n\nالبيض أو الجبن أو اللحمة مش هم القصة لوحدهم؛ الكمية، وطريقة التحضير، وباقي الوجبات، ووجود سكري أو مرض كلى أو كبد كلها تفرق. ابعد عن «ديتوكس» أو مكمل يعدك إنه ينضف الشرايين، وما تبدأش جرعات كبيرة من مكملات أو أعشاب عشان تحليل واحد. الدليل وخطورة التداخلات بيختلفوا من منتج للتاني، والطبيب محتاج يعرف كل حاجة بتاخدها قبل ما يختار دواء أو يفسر أثراً جانبياً [5, 8, 11].\n\nالحركة المنتظمة، والنوم الكفاية، ووقف التدخين، وإدارة الوزن لو محتاج، بيخدموا خطر القلب كله. الهدف الواقعي عادة تغييرات تقدر تكمل عليها، مش أسبوع قاسٍ وبعده رجوع لنفس النمط. لو الوزن جزء من الخطة، صفحة إدارة الوزن من غير جراحة بتشرح الخيارات والمتابعة في نطاقها من غير ما نختصر الكوليسترول في الميزان. الشخص النحيف ممكن يكون عنده LDL عالي، والشخص اللي وزنه زايد محتاج برضه تقييم عوامل الخطر بدل اللوم [4, 5, 8, 13].",
+            "en": "When asking what to eat, the starting point is not a long forbidden-food list. The overall daily pattern matters most: reduce saturated and trans fats; choose unsaturated fats, vegetables, fruit, pulses, whole grains and protein sources suited to your health. Soluble fibre in foods such as oats and pulses can contribute within that pattern. Replacing fat with sweets, sugary drinks or refined carbohydrates, however, does not help triglycerides or cardiovascular health [5, 8, 10, 13].\n\nEggs, cheese or meat are not the whole story. Quantity, preparation, the rest of the diet and the presence of diabetes, kidney disease or liver disease all matter. Avoid “detox” products or supplements claiming to clean arteries, and do not start large doses of a supplement or herb because of one result. Evidence and interaction risks differ between products, and the clinician needs to know everything you take before selecting a medicine or interpreting a possible adverse effect [5, 8, 11].\n\nRegular activity, adequate sleep, stopping smoking and weight management when needed all support overall cardiovascular risk. A realistic plan usually consists of changes you can sustain, rather than a harsh week followed by a return to the previous pattern. If weight is part of the plan, the page on non-surgical weight management explains its options and follow-up without reducing cholesterol care to the scale. A thin person can have raised LDL, while a person with excess weight still deserves assessment of risk factors rather than blame [4, 5, 8, 13]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "إدارة الوزن من غير جراحة",
+                "url": "../articles/non-surgical-weight-options.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "non-surgical weight management",
+                "url": "../articles/non-surgical-weight-options.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-medicine-is-considered",
+          "heading": {
+            "ar": "إمتى الأكل وحده ما يكونش كفاية؟",
+            "en": "When might food changes alone not be enough?"
+          },
+          "body": {
+            "ar": "بعض الناس يقدروا يبدأوا بتعديل نمط الحياة ثم يعيدوا التقييم، لكن ناس تانية تستفيد من دواء من البداية لأن خطرهم أعلى. ده يشمل غالباً من عنده مرض شرايين معروف، أو مستويات شديدة الارتفاع، أو مزيج مهم من عوامل الخطر. الإرشادات بتستخدم تقدير الخطر والمناقشة المشتركة عشان توزن الفائدة المتوقعة والآثار الجانبية وتفضيلات الشخص. القرار النهائي للطبيب المعالج بعد ما يشوف الحالة، مش لرقم ثابت من مقال [8, 9, 10, 11].\n\nالستاتين هو أكتر نوع دواء استخداماً لخفض LDL وتقليل أحداث القلب والشرايين عند الأشخاص المناسبين. اختيار النوع والجرعة بيعتمد على مقدار الخفض المطلوب، والعمر، ووظائف الكبد والكلى، والأدوية الأخرى، واحتمال الحمل، وتجربة الشخص السابقة. لو الاستجابة مش كفاية، أو الستاتين مش محتمل رغم تقييم السبب والمحاولات المناسبة، فيه أدوية أخرى ممكن تتضاف أو تتستخدم في حالات مختارة. المقال مش مكان لاختيار دواء بعينه أو مقارنة جرعات؛ ده محتاج وصفاً ومتابعة [5, 8, 10, 11].\n\nوجع العضلات له أسباب كتير ومش كل وجع أثناء الستاتين سببه الدواء. لكن ألم شديد أو ضعف واضح، خصوصاً لو مع بول غامق أو مرض عام، يستدعي تواصلاً سريعاً وتقييماً طبياً. ما توقفش العلاج أو تقلل الجرعة من نفسك لمجرد قراءة تجربة على الإنترنت؛ الطبيب ممكن يراجع التوقيت، والتداخلات، والغدة، ويقرر هل يعيد التحليل أو يغيّر النوع أو الجرعة. ولو فيه حمل، أو تخطيط للحمل، أو رضاعة، لازم مناقشة الدواء بسرعة لأن FDA ما زالت بتنصح أغلب الحوامل بإيقاف الستاتين تحت إشراف مهني، مع استثناءات نادرة يقررها المتخصص [5, 11, 12].",
+            "en": "Some people can begin with lifestyle changes and then reassess, while others benefit from medicine from the outset because their risk is higher. This often includes people with established artery disease, markedly elevated levels or an important combination of risk factors. Guidelines use risk estimation and shared discussion to weigh expected benefit, adverse effects and personal preferences. The final decision belongs to the treating clinician after reviewing the individual, not to a fixed number quoted in an article [8, 9, 10, 11].\n\nStatins are the most commonly used medicines for lowering LDL and reducing cardiovascular events in suitable patients. The choice and dose depend on the reduction needed, age, liver and kidney function, other medicines, pregnancy potential and previous experience. If response is insufficient, or a statin remains unsuitable despite evaluating the cause and trying appropriate approaches, other medicines can be added or used in selected situations. An article cannot choose a particular medicine or compare doses for you; prescribing and monitoring are required [5, 8, 10, 11].\n\nMuscle pain has many causes, and not every ache while taking a statin is caused by the medicine. Severe pain or clear weakness, especially with dark urine or systemic illness, warrants prompt contact and medical assessment. Do not stop treatment or reduce the dose yourself after reading someone else's experience. A clinician can review timing, interactions and thyroid status, and decide whether to repeat tests or change the medicine or dose. Pregnancy, plans for pregnancy or breastfeeding should be discussed promptly: the FDA still advises that most pregnant patients stop statins under professional supervision, with rare exceptions determined by specialists [5, 11, 12]."
+          }
+        },
+        {
+          "id": "follow-up-and-targets",
+          "heading": {
+            "ar": "المتابعة تقيس الاستجابة والأمان، مش نجاحك كشخص",
+            "en": "Follow-up measures response and safety, not personal success"
+          },
+          "body": {
+            "ar": "قبل المتابعة، خد معاك التحليل الحالي والقديم، وقائمة الأدوية والمكملات، وقياسات الضغط أو السكر لو مطلوبة، وأي تاريخ عائلي مهم. اسأل الطبيب: إيه الجزء اللي محتاج يتغير؟ إيه الهدف المناسب لمستوى خطري؟ إمتى نعيد التحليل؟ وهل فيه تحاليل أمان مطلوبة؟ توقيت إعادة الدهون بيعتمد على الخطة؛ الإرشادات بتسمح بإعادة القياس بعد بدء العلاج أو تعديل الجرعة لتقييم الالتزام والاستجابة، وبعد كده يتحدد التكرار حسب الاستقرار والخطر [8, 10, 13].\n\nما تتوقعش إن كل مكونات التحليل تتحرك في نفس الاتجاه أو بنفس السرعة. LDL ممكن ينخفض بوضوح بينما الدهون الثلاثية تتأثر أكتر بالسكر أو الوزن أو ضبط السكري. لو النتيجة ما اتحسنتش زي المتوقع، ده مش معناه تلقائياً إن الدواء «فشل». الطبيب بيراجع الانتظام، وطريقة أخذ الدواء، والتداخلات، والأسباب الثانوية، وهل القياس قابل للمقارنة بالقديم. أحياناً تعديل بسيط يحل المشكلة، وأحياناً الخطة تحتاج إضافة علاج أو إحالة لمتخصص [4, 5, 8, 11].\n\nلما الرقم يتحسن، ما توقفش الدواء من نفسك. التحسن غالباً معناه إن الخطة شغالة، والتوقف ممكن يسمح للدهون تعلى تاني. وبرضه ما تغيّرش أكلك أو جرعتك كل كام يوم بناءً على نتيجة منزلية أو معلومة متفرقة؛ الكوليسترول بيتقاس في معمل ويتفسر كنمط عبر الوقت. اتفق على خطوة مكتوبة: إيه اللي هتعمله لحد الموعد، وإيه الأعراض اللي تستدعي اتصالاً، ومين هيراجع النتيجة الجديدة [5, 8, 10, 13].",
+            "en": "Before follow-up, bring current and previous results, a list of medicines and supplements, requested blood pressure or glucose records, and relevant family history. Ask: Which component needs to change? What target fits my level of risk? When should testing be repeated? Are any safety tests needed? Timing depends on the plan. Guidelines support repeating lipids after starting treatment or changing a dose to assess adherence and response, with later frequency determined by stability and risk [8, 10, 13].\n\nDo not expect every component to move in the same direction or at the same speed. LDL may fall clearly while triglycerides respond more to sugars, weight or diabetes control. If the result does not improve as expected, that does not automatically mean the medicine has “failed”. The clinician reviews adherence, how it is taken, interactions, secondary causes and whether the new measurement is comparable with the old one. Sometimes a small adjustment resolves the issue; sometimes the plan needs another treatment or specialist input [4, 5, 8, 11].\n\nWhen the number improves, do not stop medicine yourself. Improvement often means the plan is working, and stopping may allow lipids to rise again. Likewise, do not change food or dosage every few days based on a home reading or a fragment of information; cholesterol is measured in a laboratory and interpreted as a pattern over time. Agree on a written next step: what you will do until the next appointment, which symptoms warrant contact and who will review the new result [5, 8, 10, 13]."
+          }
+        },
+        {
+          "id": "urgent-signs-and-next-step",
+          "heading": {
+            "ar": "إمتى تحتاج رعاية عاجلة، وإزاي تبدأ الخطوة الجاية؟",
+            "en": "When is urgent care needed, and how do you take the next step?"
+          },
+          "body": {
+            "ar": "الكوليسترول العالي نفسه غالباً صامت، فما تستناش صداعاً أو دوخة عشان تتابعه. وفي الناحية التانية، ألم أو ضغط مفاجئ في الصدر، ضيق نفس شديد، عرق بارد مع ألم، أو ألم ممتد للذراع أو الفك مش نتيجة تحليل تتناقش فيها في موعد روتيني. اطلب رعاية طارئة حسب نظام الطوارئ المحلي. كذلك اعوجاج مفاجئ في الوجه، ضعف أو تنميل في ناحية، لخبطة كلام، فقدان توازن مفاجئ، أو صداع شديد غير معتاد يحتاج تصرفاً فورياً لاحتمال جلطة مخ؛ ما تستناش الأعراض تختفي [3, 14, 15].\n\nلو مفيش عرض طارئ، النتيجة العالية غالباً محتاجة موعداً منظماً مش هلعاً. في الزيارة، الطبيب يثبت النمط، ويراجع عوامل الخطر والأسباب الثانوية، ويتفق معاك هل البداية تعديل نمط حياة، أو دواء، أو الاثنين، وإمتى تتكرر التحاليل. التقييم الفردي مهم لأن شدة الارتفاع، ووجود سكري أو مرض كلى أو شرايين، والتاريخ العائلي، والحمل أو التخطيط له بيغيروا القرار [6, 8, 10, 12].\n\nفي العيادة، التقييم يبدأ بتاريخ مرضي وفحص ومراجعة التحاليل والأدوية، من غير وعود بنتيجة مضمونة ومن غير اختصار الخطة في منع أكل معين. لو محتاج ترتب مراجعة للنتيجة وتخرج بهدف واضح وخطة متابعة تناسب حالتك، تقدر تطلب حجز موعد باطنة. خد معاك نسخة التحليل وأي نتائج قديمة وقائمة بكل علاج أو مكمل؛ التفاصيل دي بتخلي المناقشة أدق وتقلل القرارات المبنية على التخمين [6, 8, 13].",
+            "en": "High cholesterol itself is usually silent, so do not wait for a headache or dizziness before following it up. Conversely, sudden chest pain or pressure, severe breathlessness, cold sweating with pain, or pain spreading to an arm or jaw is not a laboratory result to discuss at a routine appointment. Seek emergency care through your local emergency system. Sudden facial droop, weakness or numbness on one side, speech difficulty, sudden loss of balance or an unusual severe headache also requires immediate action for possible stroke; do not wait for symptoms to disappear [3, 14, 15].\n\nWithout an emergency symptom, a high result usually needs an organised appointment rather than panic. The clinician confirms the pattern, reviews risk factors and secondary causes, and agrees whether to begin with lifestyle change, medicine or both, as well as when to repeat testing. Individual assessment matters because the degree of elevation, diabetes, kidney or artery disease, family history, pregnancy or plans for pregnancy all change the decision [6, 8, 10, 12].\n\nAt the clinic, assessment begins with a medical history, examination and review of tests and medicines, without promising a guaranteed result or reducing the plan to banning one food. If you need a structured review of the result and want to leave with a clear target and follow-up plan suited to your health, you can request an internal medicine appointment. Bring the current report, earlier results and a list of every medicine or supplement; those details make the discussion more precise and reduce decisions based on guesswork [6, 8, 13]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد باطنة",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request an internal medicine appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الكوليسترول العالي بيعمل صداع أو دوخة؟",
+            "en": "Does high cholesterol cause headaches or dizziness?"
+          },
+          "a": {
+            "ar": "غالباً لأ. ارتفاع الكوليسترول عادة ما بيعملش أعراض واضحة، والصداع أو الدوخة لهم أسباب كتير محتاجة تقييمها لو مستمرة أو شديدة. ما تستخدمش وجود العرض أو غيابه بدل تحليل الدهون وتقدير عوامل الخطر [1, 3].",
+            "en": "Usually not. High cholesterol generally causes no obvious symptoms, while headaches and dizziness have many other possible causes that deserve assessment if persistent or severe. Do not use the presence or absence of a symptom instead of lipid testing and risk assessment [1, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أصوم قبل تحليل الدهون؟",
+            "en": "Must I fast before a lipid profile?"
+          },
+          "a": {
+            "ar": "مش دايماً. التحليل من غير صيام مناسب في مواقف كتير، لكن الطبيب أو المعمل ممكن يطلب صياماً لو الدهون الثلاثية عالية أو فيه سؤال معين محتاج توضيح. اتبع تعليمات طلبك، وما تعيدش التحليل بصيام من نفسك قبل ما تعرف هل الإعادة مطلوبة [6, 7, 8].",
+            "en": "Not always. Non-fasting testing is suitable in many situations, although a clinician or laboratory may request fasting when triglycerides are high or a specific question needs clarification. Follow the instructions for your test, and do not repeat it fasting without first checking whether repetition is needed [6, 7, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أنا نحيف وباكل كويس؛ ينفع يكون عندي كوليسترول عالي؟",
+            "en": "Can I have high cholesterol if I am thin and eat well?"
+          },
+          "a": {
+            "ar": "أيوه. الجينات، والسن، والغدة، والسكري، وأمراض الكلى أو الكبد، وبعض الأدوية ممكن يأثروا على الدهون. شكل الجسم أو جودة الأكل وحدهم ما يستبعدوش الارتفاع، عشان كده الطبيب بيراجع النتيجة والتاريخ الصحي مع بعض [4, 6, 11].",
+            "en": "Yes. Genes, age, thyroid disease, diabetes, kidney or liver conditions and some medicines can affect lipids. Body shape or diet quality alone cannot exclude a high result, so the clinician reviews the measurement alongside the medical history [4, 6, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل HDL العالي يلغي مشكلة LDL العالي؟",
+            "en": "Does a high HDL cancel out a high LDL?"
+          },
+          "a": {
+            "ar": "لأ. HDL جزء من الصورة، لكنه مش ممحاة لارتفاع LDL ولا سبب لتجاهل بقية عوامل الخطر. القرار بيتبني على نمط الدهون كله، ووجود أمراض شرايين أو سكري أو ضغط، والتدخين، والعمر، والتاريخ العائلي [2, 6, 10].",
+            "en": "No. HDL is part of the picture, but it does not erase raised LDL or justify ignoring other risk factors. Decisions use the complete lipid pattern together with artery disease, diabetes, blood pressure, smoking, age and family history [2, 6, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو بدأت ستاتين، هل هافضل عليه طول العمر؟",
+            "en": "If I start a statin, will I take it for life?"
+          },
+          "a": {
+            "ar": "مدة العلاج تعتمد على سبب وصفه ومستوى الخطر والاستجابة والتحمل. ناس كتير تحتاج علاجاً طويل المدى لأن الدواء بيقلل الخطر طول ما الخطة مستمرة، لكن قرار الاستمرار أو التعديل فردي. ما توقفش الدواء لما الرقم يتحسن من نفسك؛ راجع الطبيب الأول [5, 8, 10, 11].",
+            "en": "Duration depends on why it was prescribed, the level of risk, response and tolerability. Many people need long-term treatment because risk reduction continues while the plan is maintained, but continuation or adjustment is individual. Do not stop when the number improves without first reviewing it with the clinician [5, 8, 10, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى أعيد تحليل الكوليسترول بعد تغيير الأكل أو الدواء؟",
+            "en": "When should cholesterol be rechecked after changing food or medicine?"
+          },
+          "a": {
+            "ar": "الموعد مش واحد لكل الناس. بيتحدد حسب شدة الارتفاع، والخطة، وهل اتغيرت جرعة دواء، ومدى ثبات الحالة. الإرشادات بتستخدم إعادة القياس بعد بدء العلاج أو تعديله لتقييم الاستجابة والانتظام، وبعدها متابعة دورية حسب الخطر؛ خليك على الموعد المكتوب من طبيبك [8, 10, 13].",
+            "en": "There is no single interval for everyone. Timing depends on the degree of elevation, the plan, whether a medicine dose changed and how stable the situation is. Guidelines repeat measurement after starting or adjusting treatment to assess response and adherence, then monitor according to risk; follow the interval your clinician records [8, 10, 13]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "CDC — About Cholesterol",
+          "url": "https://www.cdc.gov/cholesterol/about/index.html"
+        },
+        {
+          "label": "NHLBI — What Is Blood Cholesterol?",
+          "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol"
+        },
+        {
+          "label": "NHLBI — Blood Cholesterol: Symptoms",
+          "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/symptoms"
+        },
+        {
+          "label": "NHLBI — Blood Cholesterol: Causes and Risk Factors",
+          "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/causes"
+        },
+        {
+          "label": "NHLBI — Blood Cholesterol: Treatment",
+          "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/treatment"
+        },
+        {
+          "label": "NHLBI — Blood Cholesterol: Diagnosis",
+          "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/diagnosis"
+        },
+        {
+          "label": "MedlinePlus — Cholesterol Levels Medical Test",
+          "url": "https://medlineplus.gov/lab-tests/cholesterol-levels/"
+        },
+        {
+          "label": "NICE NG238 — Cardiovascular Disease: Risk Assessment and Reduction, Including Lipid Modification",
+          "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations"
+        },
+        {
+          "label": "USPSTF — Statin Use for Primary Prevention of Cardiovascular Disease in Adults",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication"
+        },
+        {
+          "label": "2018 AHA/ACC Guideline on the Management of Blood Cholesterol — PubMed PMID 30423393",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30423393/"
+        },
+        {
+          "label": "Endocrine Society — Lipid Management Guideline",
+          "url": "https://www.endocrine.org/clinical-practice-guidelines/lipid-management-guideline"
+        },
+        {
+          "label": "FDA — Statins During Pregnancy Drug Safety Communication",
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-requests-removal-strongest-warning-against-using-cholesterol-lowering-statins-during-pregnancy"
+        },
+        {
+          "label": "NHLBI — Living With High Blood Cholesterol",
+          "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/living-with"
+        },
+        {
+          "label": "CDC — About Heart Disease",
+          "url": "https://www.cdc.gov/heart-disease/about/index.html"
+        },
+        {
+          "label": "CDC — Signs and Symptoms of Stroke",
+          "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "الكوليسترول العالي: النتيجة والخطوة الجاية",
+          "en": "High cholesterol results and next steps"
+        },
+        "description": {
+          "ar": "افهم نتيجة الكوليسترول العالي وLDL وHDL والدهون الثلاثية، وإزاي خطر القلب يحدد تعديل الأكل أو الدواء وموعد المتابعة مع الطبيب.",
+          "en": "Understand high cholesterol, LDL, HDL and triglyceride results, how cardiovascular risk guides food or medicine choices, and when to follow up."
+        }
+      }
+    }
+  ]
+}

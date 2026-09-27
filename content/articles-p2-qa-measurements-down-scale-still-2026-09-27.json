@@ -1,0 +1,344 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-measurements-down-scale-still; replaces the entry from content/articles.json. Expanded the bilingual answer with measurement technique, trend interpretation, safety guidance, cited FAQs, verified sources, internal links, and medical re-review.",
+  "articles": [
+    {
+      "slug": "qa-measurements-down-scale-still",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management"
+      ],
+      "date": "2026-08-21",
+      "updatedAt": "2026-09-27",
+      "readingTime": 11,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/qa-measurements-down-scale-still.webp",
+      "title": {
+        "ar": "مقاساتي بتقل والميزان ثابت: هل الدايت مش شغال؟",
+        "en": "My measurements are down but the scale is still: is my plan working?"
+      },
+      "excerpt": {
+        "ar": "نزول المقاسات مع ثبات الوزن ممكن يكون تقدم حقيقي، بس لازم تقارن القياسات بطريقة ثابتة وتقرأ اتجاه الوزن والمياه والقوة والأعراض مع بعض.",
+        "en": "Smaller measurements with stable weight can be real progress, but measurements, weight trend, fluid, strength and symptoms need to be read together."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا شرح أسباب نزول المقاسات مع ثبات الميزان وطريقة المتابعة وعلامات الخطر، واتراجع طبياً من جديد.",
+            "en": "We expanded the explanation of smaller measurements with stable scale weight, follow-up methods and warning signs, and medically re-reviewed it."
+          }
+        }
+      ],
+      "tags": {
+        "ar": [
+          "ثبات الوزن",
+          "نزول المقاسات",
+          "محيط الخصر",
+          "تركيب الجسم",
+          "متابعة الدايت"
+        ],
+        "en": [
+          "stable weight",
+          "smaller measurements",
+          "waist circumference",
+          "body composition",
+          "diet follow-up"
+        ]
+      },
+      "sections": [
+        {
+          "id": "short-answer",
+          "heading": {
+            "ar": "الإجابة المختصرة: لأ، ثبات الميزان مش معناه إن الخطة فشلت",
+            "en": "The short answer: no, a stable scale does not mean the plan failed"
+          },
+          "body": {
+            "ar": "لو مقاس الوسط أو اللبس بقى أوسع والميزان ثابت، ده ممكن يكون تغيير حقيقي ومفيد، ومش لازم معناه إن الدايت مش شغال. وزن الجسم رقم مجمّع: دهون، وعضلات، وعظام، ومياه، وكمان أكل وسوائل لسه في الجهاز الهضمي. الميزان المنزلي بيجمع كل ده في رقم واحد، فمش بيقول إيه المكوّن اللي زاد وإيه اللي قل. ممكن دهون تقل مع الحفاظ على الكتلة الخالية من الدهون، وفي نفس الوقت تغيّر المياه يخلي الوزن الكلي قريب من مكانه. [1, 2]\n\nبس نزول المقاس لوحده مش إثبات أكيد إن كل التغيير دهون. شريط القياس ممكن يتحرك بسبب مكانه، وشدّه، والتنفس، ووقت اليوم، والانتفاخ. عشان كده الأفضل تتعامل مع المقاس كجزء من صورة: اتجاه الوزن عبر أسابيع، قياس متكرر بنفس الطريقة، القوة والحركة، الشبع والطاقة، والأعراض أو التحاليل اللي الطبيب طلبها. مؤشرات الجسم مش مسابقة، ومش لازم كلها تتغير في نفس الأسبوع. [2, 4, 5]\n\nالسؤال المفيد مش «ليه الرقم ما نزلش النهارده؟» لكن «إيه الاتجاه لما أقارن ظروف شبه بعض، وهل صحتي ووظيفتي ماشيين في الاتجاه المطلوب؟». قراءة واحدة ما تستاهلش عقاب بالأكل أو تمرين مرهق. لو المقاسات بتقل باستمرار والطاقة والقوة مناسبين، سجّل ده كتقدم محتمل وراجعه بهدوء. ولو الوزن والمقاسات ثابتين فعلاً، ده وقت مراجعة الخطة، مش الحكم على نفسك. [5, 11]",
+            "en": "If your waist measurement or clothing fit is smaller while scale weight is stable, that can be a real and useful change; it does not automatically mean the eating plan has failed. Body weight is a combined number made up of fat, muscle, bone and water, plus food and fluid still in the digestive tract. A home scale puts all of that into one reading, so it cannot tell you which component rose and which fell. Fat may decrease while fat-free mass is maintained, while a fluid shift keeps total weight near the same point. [1, 2]\n\nA smaller measurement alone does not prove that every change was fat, however. A tape reading can move because of its position, tension, breathing, time of day or bloating. It is better to treat circumference as one part of a picture: the weight trend across weeks, a repeatable measurement, strength and mobility, hunger and energy, and any symptoms or laboratory results requested by the clinician. Body indicators are not a contest, and they do not all have to improve in the same week. [2, 4, 5]\n\nThe useful question is not, “Why did the number not fall today?” but, “What is the direction when I compare similar conditions, and are health and function moving towards the agreed goal?” One reading does not justify punishing food restriction or exhausting exercise. If measurements are consistently falling and energy and strength remain suitable, record that as possible progress and review it calmly. If weight and measurements truly remain unchanged, that calls for a plan review, not a judgement about you. [5, 11]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "why-scale-and-waist-disagree",
+          "heading": {
+            "ar": "ليه المقاس والميزان ممكن يحكوا قصتين مختلفتين؟",
+            "en": "Why can measurements and scale weight tell different stories?"
+          },
+          "body": {
+            "ar": "الدهون بتتغير ببطء مقارنة بحركة المياه اليومية. وجبة مالحة أو غنية بالكربوهيدرات، تمرين جديد، حر الجو، سفر، إمساك، مرض عابر، بعض الأدوية أو توقيت الدورة الشهرية ممكن يغيّروا كمية المياه أو محتوى الجهاز الهضمي مؤقتاً. التغيير ده ممكن يغطي على اتجاه أصغر في الدهون لحد ما المياه ترجع لنمطها المعتاد. ده تفسير محتمل، مش تشخيص من الرقم وحده؛ تورّم واضح أو زيادة سريعة مع أعراض محتاجين تقييم منفصل. [2, 9]\n\nالتمرين كمان ممكن يغيّر الصورة. لما تبدأ مقاومة مناسبة، الهدف يكون الحفاظ على العضلات والقوة أو تحسينهم أثناء فقدان الدهون. مراجعة منهجية وجدت إن إضافة تمارين المقاومة لتقييد الطاقة بتحمي الكتلة الخالية من الدهون وتحسن القوة، حتى لو فرق وزن الجسم الكلي ما كانش كبير. ده ما يثبتش إن كل شخص ميزانه ثابت بيبني عضل، لكنه يوضح ليه الرقم الكلي مش كفاية عشان يصف التغيير. [7]\n\nمكان نزول الدهون مش ثابت بين الناس، والخصر ممكن يتغير قبل مناطق تانية أو بعدها. كمان اللبس بيدي إشارة عملية لكنه مش أداة معايرة؛ القماش والغسيل وطريقة اللبس يفرقوا. استخدم نفس البنطلون كملاحظة مساعدة، مش كقياس طبي. لو عايز تفهم الفرق بين الوزن والدهون والعضلات والمياه من غير ما تحمّل سؤال المقاسات أكتر من نطاقه، اقرأ تركيب الجسم مش رقم الميزان. [1, 2]",
+            "en": "Fat changes slowly compared with everyday fluid movement. A salty or carbohydrate-rich meal, new exercise, hot weather, travel, constipation, a short illness, some medicines or menstrual timing can temporarily change body water or digestive contents. That change can conceal a smaller movement in fat until fluid returns towards its usual pattern. This is a possible explanation, not a diagnosis from a number alone; visible swelling or rapid gain with symptoms needs separate assessment. [2, 9]\n\nExercise can also change the picture. When suitable resistance work begins, the aim may be to maintain or improve muscle and strength while fat is lost. A systematic review found that adding resistance exercise to dietary restriction protected fat-free mass and improved strength even when the difference in total body-weight change was small. That does not prove that every person with stable weight is building muscle, but it shows why the total number cannot fully describe change. [7]\n\nWhere fat is lost differs between people, and the waist may change before or after other areas. Clothing fit offers a practical clue but is not a calibrated tool; fabric, washing and how an item is worn all matter. Use the same garment as a supporting observation, not a medical measurement. To understand weight, fat, muscle and water without making this page duplicate the whole subject, read Body composition is not the scale. [1, 2]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تركيب الجسم مش رقم الميزان",
+                "url": "../articles/body-composition-not-scale.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Body composition is not the scale",
+                "url": "../articles/body-composition-not-scale.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "measure-waist-repeatably",
+          "heading": {
+            "ar": "إزاي تقيس الوسط من غير ما شريط القياس يضللك؟",
+            "en": "How do you measure your waist without letting the tape mislead you?"
+          },
+          "body": {
+            "ar": "اختار بروتوكول واحد والتزم بيه. استخدم شريط ما بيتمددش، وقف بشكل طبيعي، وخلي البطن مرتاحة من غير شفطها لجوه. حط الشريط على نفس العلامة التشريحية كل مرة، وخليه أفقي وملاصق للجلد من غير ضغط. سجّل القياس بعد زفير طبيعي، مش مع حبس النفس. منظمة الصحة العالمية بتوضح إن بروتوكولات الخصر لازم تحدد موضع الشريط بدقة، بينما الإرشادات الصحية ممكن تستخدم مواضع مختلفة؛ المهم في متابعة نفسك إنك ما تبدلش الطريقة بين مرة والتانية. [4]\n\nقِس في وقت قريب من بعضه، وبظروف قابلة للتكرار، ويفضل قبل وجبة كبيرة وبعيد عن انتفاخ غير معتاد. لو الرقم مفاجئ، كرر القياس مرة أو اتنين بعد ما تفك الشريط وترجعه، وسجّل النتيجة المتقاربة بدل اختيار أصغر رقم. ما تشدش الشريط عشان «تحسن» النتيجة. فرق بسيط جداً ممكن يكون خطأ قياس، فبص للاتجاه عبر أكتر من موعد بدل مقارنة يومين متتاليين. [2, 4]\n\nمحيط الوسط مفيد لأنه يضيف معلومة عن توزيع الدهون ومخاطر الصحة الأيضية لا يقدمها مؤشر كتلة الجسم وحده، لكن مش صورة مباشرة للدهون الحشوية ولا تشخيص لمرض. NICE بتوصي باستخدام الوزن والطول والخصر بحساسية وبعد موافقة الشخص، وبقراءة النتيجة ضمن تقييم أوسع. ولو هدفك منطقة غير الوسط، اتفق مع المختص على نقطة واضحة وطريقة ثابتة بدل نقل الشريط كل مرة للمكان اللي يدي أحسن رقم. [3, 5]",
+            "en": "Choose one protocol and keep it. Use a non-stretch tape, stand naturally and leave the abdomen relaxed rather than pulling it in. Place the tape at the same anatomical landmark each time, keep it horizontal and let it touch without compressing the skin. Record the value after a normal exhalation, not while holding your breath. The World Health Organization explains that waist protocols must define the tape site precisely, while health guidelines may use different landmarks; for your own follow-up, the key is not switching methods between readings. [4]\n\nMeasure at a similar time and under repeatable conditions, preferably before a large meal and away from unusual bloating. If the number is surprising, remove and replace the tape and repeat it once or twice, then record the close result instead of selecting the smallest value. Do not tighten the tape to improve the result. A very small difference may be measurement error, so examine the direction across more than one appointment instead of comparing two consecutive days. [2, 4]\n\nWaist circumference is useful because it adds information about fat distribution and metabolic health risk that body mass index alone does not provide, but it is not a direct image of visceral fat or a diagnosis of disease. NICE recommends using weight, height and waist sensitively, with permission, and interpreting them within a broader assessment. If the target is somewhere other than the waist, agree a clear landmark and repeatable method with the professional instead of moving the tape to whichever place gives the most flattering number. [3, 5]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "weigh-for-a-trend",
+          "heading": {
+            "ar": "خلّي الميزان يرصد اتجاه، مش يحكم على يومك",
+            "en": "Let the scale show a trend, not judge your day"
+          },
+          "body": {
+            "ar": "لو هتتابع في البيت، استخدم نفس الميزان على أرض صلبة وفي نفس الوقت تقريباً، وبملابس متشابهة، ويفضل بعد دخول الحمام وقبل الأكل أو الشرب. ما تقارنش وزن الصبح بوزن آخر اليوم كأنهم نفس الاختبار. اكتب أي ظرف غير معتاد زي وجبة مالحة، تمرين شاق، سفر، إمساك أو مرض. الهدف مش إزالة كل التذبذب؛ الهدف تعرف إن بعض الحركة ضوضاء مؤقتة فلا تغيّر الخطة بسببها. [2]\n\nالوزن اليومي مناسب لبعض الناس ومش مناسب لغيرهم. دراسة متابعة داخل برنامج لإنقاص الوزن ربطت الوزن اليومي بسلوكيات متابعة أكتر وفقدان وزن أكبر في المتوسط، لكنها ما تثبتش إن الوزن اليومي مطلوب للجميع أو إنه سبب النتيجة لوحده. لو الرقم بيساعدك تشوف المتوسط بهدوء، ممكن تستخدمه حسب الخطة. لو بيشغلك طول اليوم أو يخليك تقلل الأكل فجأة أو تكرر القياس، اتفق على تكرار أقل. [6]\n\nاعمل مقارنة بين متوسطات أو نقاط متباعدة بطريقة متفق عليها، مش بين أعلى قراءة وأقل قراءة اخترتهم بعد النتيجة. وحدد قبل القياس: إيه اللي هيخلينا نكمل؟ وإيه اللي هيخلينا نراجع؟ ده يمنع مطاردة الرقم. ما فيش تكرار واحد مثالي لكل شخص؛ تاريخ اضطراب الأكل، القلق، الأدوية، الحمل أو الرضاعة، والهدف الصحي يغيروا الطريقة المناسبة. الطبيب أو أخصائي التغذية يقدر يقترح متابعة من غير ميزان متكرر لو ده أأمن وأفيد. [5, 6]",
+            "en": "If you monitor at home, use the same scale on a firm floor at roughly the same time, in similar clothing, preferably after using the bathroom and before food or drink. Do not compare a morning weight with an evening weight as though they were the same test. Record unusual circumstances such as a salty meal, hard exercise, travel, constipation or illness. The aim is not to remove every fluctuation; it is to recognise that some movement is temporary noise so it does not trigger a plan change. [2]\n\nDaily weighing suits some people and not others. A longitudinal study within a weight-loss programme associated daily weighing with more self-monitoring behaviours and greater average weight loss, but it does not prove that daily weighing is required for everyone or caused the result by itself. If the number helps you view an average calmly, you may use it as agreed. If it occupies the day, prompts sudden restriction or leads to repeated checking, agree a lower frequency. [6]\n\nCompare averages or appropriately spaced points chosen in advance, rather than selecting the highest and lowest readings after seeing the result. Decide before weighing what would support continuing and what would prompt review; this prevents chasing a number. There is no single ideal frequency for everyone. An eating-disorder history, anxiety, medicines, pregnancy or breastfeeding, and the health goal all change the suitable approach. A doctor or nutrition clinician can suggest monitoring without frequent weighing when that is safer and more useful. [5, 6]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "body-composition-in-context",
+          "heading": {
+            "ar": "تحليل تركيب الجسم يساعد، بس ما يديش حكم نهائي",
+            "en": "Body-composition analysis can help, but it is not a final verdict"
+          },
+          "body": {
+            "ar": "أجهزة المقاومة الكهربائية الحيوية زي InBody بتمرر تيار صغير جداً وتقيس مقاومة الأنسجة، وبعدها تستخدم معادلات عشان تقدّر مياه الجسم والكتلة الخالية من الدهون وكتلة الدهون. الجهاز ما بيشوفش الدهون أو العضلات مباشرة. دقة الرقم بتتأثر بنوع الجهاز والمعادلة وشكل الجسم وتوزيع المياه، عشان كده النتيجة اللي فيها أرقام عشرية تفضل تقديراً، مش حقيقة مطلقة. [1, 2]\n\nفايدته الأكبر في المتابعة لما تستخدم نفس الجهاز والبروتوكول، وتقارن على فاصل مناسب، وتقرأ التقرير مع المقاس والقوة والأعراض. الأكل والشرب، التمرين، الحرارة، وقت اليوم، الوقوف أو الاستلقاء وتغيّر السوائل ممكن يغيّروا المقاومة. لو اختبار اتعمل في ظروف مختلفة، سجّل ده؛ مش لازم ترمي النتيجة، لكن ما تعتمدش عليها في تغيير كبير لوحدها. دليل التحضير لتحليل InBody يشرح إزاي تعمل مقارنة أهدى وقابلة للتكرار. [1, 2]\n\nلو التقرير قال إن العضلات زادت مع نزول الدهون والوزن ثابت، اعتبر ده احتمالاً محتاج يتأكد بالاتجاه، مش قصة مكتملة من قراءتين. اسأل: هل التغيير أكبر من تباين الجهاز؟ هل القوة والحركة اتحسنوا؟ وهل الظروف كانت متشابهة؟ الإجماع الأوروبي على الساركوبينيا بيحط قوة العضلات أولاً، وبيستخدم كمية أو جودة العضلات لتأكيد التشخيص والأداء البدني لتحديد الشدة. يعني وظيفة الجسم مهمة، ومفيش خانة واحدة في التقرير تشخّص ضعف العضلات. [2, 8]",
+            "en": "Bioelectrical impedance devices such as InBody pass a very small current through the body, measure tissue impedance and then use equations to estimate body water, fat-free mass and fat mass. The device does not directly see fat or muscle. The number is influenced by device type, prediction equation, body shape and fluid distribution, so a result displayed to decimal places remains an estimate rather than an absolute fact. [1, 2]\n\nIts greatest follow-up value comes from using the same device and protocol, comparing across a suitable interval, and reading the report alongside circumference, strength and symptoms. Food and drink, exercise, heat, time of day, standing or lying position and fluid shifts can alter impedance. If a test was performed under different conditions, record that context; the result does not have to be discarded, but it should not drive a large change by itself. The guide to preparing for an InBody measurement explains how to make comparison calmer and more repeatable. [1, 2]\n\nIf a report suggests muscle rose while fat fell and weight remained stable, treat that as a possibility to confirm through the trend, not a complete story from two readings. Ask whether the change exceeds device variation, whether strength and movement improved, and whether testing conditions matched. The European consensus on sarcopenia places muscle strength first, using muscle quantity or quality to confirm diagnosis and physical performance to grade severity. Function matters, and no single report field diagnoses muscle weakness. [2, 8]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل التحضير لتحليل InBody",
+                "url": "../articles/inbody-preparation-for-reliable-follow-up.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "guide to preparing for an InBody measurement",
+                "url": "../articles/inbody-preparation-for-reliable-follow-up.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "do-not-overcorrect",
+          "heading": {
+            "ar": "ما تغيّرش الخطة بعنف عشان قراءة واحدة",
+            "en": "Do not overcorrect the plan because of one reading"
+          },
+          "body": {
+            "ar": "أكتر رد فعل يضر هو إنك تقلل الأكل فجأة أو تزود التمرين كعقاب. الخطة القاسية ممكن تقلل البروتين والعناصر الغذائية والطاقة للحركة، وتخلّي الحفاظ على العضلات أصعب. إرشادات CDC بتركز على خطة فيها أكل صحي وحركة ونوم وإدارة ضغط، وبتوضح إن النزول التدريجي عادة أسهل في الاستمرار من النزول الأسرع. المعدل المناسب مش رقم واحد للجميع؛ الأمراض والأدوية والعمر وتاريخ الأكل والحمل والرضاعة يغيروا القرار. [11]\n\nراجع الأساسيات الأول: هل القياس اتعمل بنفس الطريقة؟ هل بتسجل المشروبات والسناكس من غير لوم؟ هل الجوع شديد أو الوجبات قليلة جداً؟ هل النوم أو الحركة أو دواء جديد اتغيروا؟ الهدف مش التفتيش عن غلطة، لكن اكتشاف عامل ممكن يتعدل بأمان. لو بدأت تمرين مقاومة، ما تعتبرش بطء نزول الوزن فشلاً؛ حماية الكتلة الخالية من الدهون وتحسن القوة ممكن يكونوا نتيجة مهمة. حماية العضلات أثناء إنقاص الوزن بتشرح البروتين والحركة والتعافي بالتفصيل من غير ما تدي وصفة واحدة لكل الناس. [7, 11]\n\nما توقفش دواء، وما تغيّرش جرعة دواء للوزن أو الغدة أو السكر أو مدر للبول من نفسك بسبب الميزان. وما تستخدمش ملين أو مدر سوائل عشان رقم مؤقت. لو الأكل قليل جداً، أو فيه دوخة، ضعف جديد، قيء، إمساك شديد أو تراجع واضح في التمرين، راجع الطبيب أسرع؛ دي معلومات عن أمان الخطة، مش علامات لازم تتجاهلها عشان المقاس نزل. [9, 10]",
+            "en": "The most harmful reaction is suddenly cutting food or adding exercise as punishment. An aggressive plan can reduce protein, nutrients and energy for movement, making muscle preservation harder. CDC guidance emphasises a plan involving healthy eating, activity, sleep and stress management, and notes that gradual loss is generally easier to maintain than faster loss. A suitable rate is not one number for everyone; illness, medicines, age, eating history, pregnancy and breastfeeding change the decision. [11]\n\nReview the foundations first. Was the measurement taken the same way? Are drinks and snacks recorded without blame? Is hunger severe or are meals very small? Did sleep, movement or a new medicine change? The aim is not to hunt for a mistake, but to find a factor that can be adjusted safely. If resistance exercise has begun, do not call slower scale loss a failure; protecting fat-free mass and improving strength may be important outcomes. Protecting muscle during weight loss explains protein, movement and recovery in detail without prescribing one formula for everyone. [7, 11]\n\nDo not stop a medicine or change the dose of a weight, thyroid, diabetes or diuretic medicine by yourself because of the scale. Do not use a laxative or water tablet to alter a temporary number. If intake is very low, or there is dizziness, new weakness, vomiting, severe constipation or a clear fall in exercise capacity, seek earlier clinical review. These are signals about the safety of the plan, not symptoms to ignore because circumference fell. [9, 10]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حماية العضلات أثناء إنقاص الوزن",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Protecting muscle during weight loss",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-to-review-or-seek-care",
+          "heading": {
+            "ar": "إمتى تراجع الخطة، وإمتى تحتاج تقييم أسرع؟",
+            "en": "When should you review the plan, and when is faster assessment needed?"
+          },
+          "body": {
+            "ar": "لو الوزن والمقاسات ما اتحركوش عبر عدة أسابيع من قياسات متقاربة الظروف، راجع الخطة مع المختص بدل ما تفترض إن «الحرق وقف». خد سجل بسيط للأكل والشرب، الجوع، النوم، الحركة، الأدوية، الإمساك، ومواعيد القياس. ممكن يكون المطلوب توضيح الحصص، تعديل هدف أو نشاط، علاج عرض بيمنع الالتزام، أو التأكد إن الخطة واقعية. وفي أوقات تانية يكون الثبات المتوقع جزءاً من المسار. القرار يعتمد على التاريخ والفحص، مش على معادلة من الإنترنت. [5, 11]\n\nاطلب موعداً طبياً لو فيه فقدان وزن من غير قصد، فقدان شهية مستمر، تعب غير معتاد، ضعف بيزيد، صعوبة جديدة في القيام من الكرسي أو أداء مهامك، أو أعراض هضمية مستمرة. فقدان الوزن غير المقصود له أسباب كتير، منها مشكلات هضمية أو هرمونية أو نفسية أو آثار أدوية وأمراض أخرى؛ تحليل تركيب الجسم ما يشخّصهاش وما ينفعش يؤخر الفحص. [8, 10]\n\nالزيادة السريعة المصحوبة بتورم ممكن تكون سوائل مش دهون. اطلب تقييماً أسرع لو التورم مفاجئ أو شديد أو مؤلم أو ظهر في أكتر من مكان. ولو فيه ضيق نفس شديد، ألم أو ثقل بالصدر، سعال بدم، إغماء أو ارتباك، اطلب رعاية طارئة فوراً حسب نظام الطوارئ المحلي، وما تستناش موعد الوزن التالي. ولو القياس بيقود لتجويع، قيء متعمد، نوبات أكل أو تمرين قهري، قول للطبيب بوضوح؛ أمان علاقتك بالأكل أهم من جمع أرقام أكتر. [9, 10]",
+            "en": "If weight and measurements have not moved across several weeks of readings taken under comparable conditions, review the plan with the professional instead of assuming that metabolism has stopped. Bring a simple record of food and drink, hunger, sleep, movement, medicines, constipation and measurement times. The answer may be clarifying portions, adjusting a goal or activity, treating a symptom that obstructs the plan, or checking whether the plan is realistic. At other times, a stable period is an expected part of the course. The decision depends on history and examination, not an online formula. [5, 11]\n\nArrange medical assessment for unintentional weight loss, persistently reduced appetite, unusual fatigue, increasing weakness, new difficulty rising from a chair or doing ordinary tasks, or continuing digestive symptoms. Unintentional weight loss has many possible causes, including digestive, hormonal and mental-health problems, medicine effects and other illnesses. Body-composition analysis cannot diagnose them and should not delay examination. [8, 10]\n\nRapid gain with swelling may reflect fluid rather than fat. Seek faster assessment if swelling is sudden, severe, painful or affects more than one area. If there is severe breathlessness, chest pain or heaviness, coughing blood, fainting or confusion, seek emergency care immediately through local emergency services; do not wait for the next weigh-in. If measuring drives starvation, self-induced vomiting, binge episodes or compulsive exercise, tell a clinician clearly. The safety of your relationship with food matters more than collecting more numbers. [9, 10]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "next-step",
+          "heading": {
+            "ar": "حوّل القياسات لسؤال واضح في المتابعة",
+            "en": "Turn the measurements into a clear follow-up question"
+          },
+          "body": {
+            "ar": "قبل المتابعة، اكتب الهدف بجملة: «عايز أعرف هل المقاس بيتغير مع الحفاظ على القوة»، أو «عايز أفهم ليه الوزن والمقاس مش ماشيين مع بعض». خد قراءاتك القديمة، وحدد الميزان أو الجهاز المستخدم، ودوّن توقيت القياس وأي ظروف مختلفة. أول زيارة لإدارة الوزن بتشرح إيه اللي ممكن يدخل في التقييم من تاريخ الوزن والأكل والنوم والحركة للأدوية والقياسات والفحوصات المطلوبة حسب الحالة. [2, 5]\n\nاسأل المختص: هل فرق المقاس أكبر من خطأ القياس المتوقع؟ هل اتجاه الوزن كفاية للحكم؟ إيه المؤشر الأهم للهدف الحالي؟ وإمتى نعيد القياس بحيث النتيجة تغيّر قراراً فعلاً؟ ممكن تكون الخطوة الاستمرار، أو تحسين طريقة القياس، أو تعديل جزء من الطعام والحركة، أو فحص أعراض ودواء. ما فيش اختبار منزلي يختار الإجابة من غير سياق. [2, 5]\n\nلو محتاج تربط المقاسات واتجاه الوزن بالأكل والقوة والأعراض في تقييم فردي، تقدر تحجز موعد من صفحة احجز موعد. ذكر العيادة هنا خطوة عملية عامة بس، مش وعد بنتيجة ولا تأكيد إنك محتاج تحليل معين. أخصائي التغذية أو الطبيب المعالج هو اللي يقرر هل التغيير مطمئن، وهل الخطة تحتاج تعديل، وإيه أنسب وقت للمراجعة. خد معاك أسئلتك الحقيقية حتى لو كانت «أنا متقدم ولا لأ؟»؛ المتابعة الجيدة تحول السؤال لمؤشرات قابلة للمراجعة من غير ما رقم واحد يحكم عليك. [5, 11]",
+            "en": "Before follow-up, write the goal in one sentence: “I want to know whether my measurement is changing while strength is maintained,” or, “I want to understand why weight and circumference are moving differently.” Bring earlier readings, identify the scale or device used, and note measurement time and any different circumstances. A first weight-management visit explains what may enter the assessment, from weight history, eating, sleep and movement to medicines, measurements and tests indicated for the individual. [2, 5]\n\nAsk the professional whether the circumference difference is greater than expected measurement error, whether the weight trend is sufficient to judge, which indicator matters most for the current goal, and when repeating the measurement would genuinely inform a decision. The next step might be continuing, improving technique, adjusting part of food or movement, or assessing symptoms and medicines. No home test can choose that answer without context. [2, 5]\n\nIf you need to connect measurements and weight trend with food, strength and symptoms in an individual assessment, you can use the book an appointment page. The clinic is mentioned here only as a general practical step, not a promise of a result or confirmation that you need a particular test. The nutrition clinician or treating doctor decides whether the change is reassuring, whether the plan needs adjustment and when review is useful. Bring the real question even if it is simply, “Am I making progress?” Good follow-up turns that into reviewable indicators without allowing one number to judge you. [5, 11]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أول زيارة لإدارة الوزن",
+                "url": "../articles/weight-management-first-visit.html"
+              },
+              {
+                "label": "احجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "A first weight-management visit",
+                "url": "../articles/weight-management-first-visit.html"
+              },
+              {
+                "label": "book an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل نزول مقاس الوسط مع ثبات الوزن معناه إني بخسر دهون؟",
+            "en": "Does a smaller waist with stable weight mean I am losing fat?"
+          },
+          "a": {
+            "ar": "ممكن، لكنه مش إثبات منفرد. الميزان بيجمع الدهون والعضلات والمياه ومحتوى الجهاز الهضمي، والخصر نفسه بيتأثر بطريقة وضع الشريط والتنفس والانتفاخ. لو الاتجاه متكرر بنفس الطريقة، ومعاه قوة وطاقة مناسبين أو تحسن في مؤشرات الصحة، يبقى معلومة مفيدة. تأكيد معنى التغيير يحتاج قراءة المقاس مع اتجاه الوزن والسياق، مش تحويل فرق واحد لتشخيص. [1, 2, 4]",
+            "en": "Possibly, but it is not proof by itself. The scale combines fat, muscle, water and digestive contents, while waist measurement is affected by tape position, breathing and bloating. A repeated direction using the same method, alongside suitable strength and energy or improving health indicators, is useful information. Confirming what the change means requires reading circumference with the weight trend and context, not turning one difference into a diagnosis. [1, 2, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "قد إيه أقيس وزني ومحيط وسطي؟",
+            "en": "How often should I measure my weight and waist?"
+          },
+          "a": {
+            "ar": "مفيش تكرار واحد مناسب للجميع. الوزن اليومي ممكن يساعد شخص يشوف متوسط بهدوء، وممكن يزود القلق عند شخص تاني. قياس الوسط عادة مش محتاج يتكرر كل يوم لأن الفروق الصغيرة ممكن تكون من الطريقة أو الانتفاخ. اتفق على جدول يخدم قراراً واضحاً، واستخدم نفس الميزان ونفس موضع الشريط وظروف متقاربة. لو القياس بيغيّر أكلك أو مزاجك بعنف، قلل تكراره وناقش بديل مع المختص. [4, 6]",
+            "en": "There is no single frequency suitable for everyone. Daily weighing may help one person view an average calmly and may increase anxiety for another. Waist measurement usually does not need daily repetition because small differences may come from technique or bloating. Agree a schedule that serves a clear decision, using the same scale, tape location and comparable conditions. If measuring sharply changes eating or mood, reduce its frequency and discuss an alternative with the professional. [4, 6]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل التمرين ممكن يثبت الميزان رغم إن المقاس بيقل؟",
+            "en": "Can exercise keep the scale stable while measurements fall?"
+          },
+          "a": {
+            "ar": "آه، ده احتمال، خصوصاً لو تمارين المقاومة ساعدت تحافظ على الكتلة الخالية من الدهون بينما الدهون بتقل، وكمان التمرين الجديد ممكن يغيّر المياه مؤقتاً. لكن ما ينفعش نفترض إن ثبات أي ميزان معناه بناء عضل. بص على الاتجاه، وطريقة القياس، والقوة والأداء، ولو بتستخدم تحليل تركيب الجسم قارنه بنفس الجهاز وظروف متقاربة. [2, 7, 8]",
+            "en": "Yes, it is possible, particularly if resistance exercise helps preserve fat-free mass while fat decreases; new exercise can also shift fluid temporarily. But stable scale weight should not automatically be labelled muscle gain. Examine the trend, measurement method, strength and performance, and if body-composition analysis is used, compare on the same device under similar conditions. [2, 7, 8]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أعمل InBody كل أسبوع عشان أتأكد؟",
+            "en": "Should I have an InBody test every week to make sure?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. أجهزة المقاومة الكهربائية بتقدّر المكونات من الإشارة والمياه والمعادلات، فالفاصل القصير ممكن يلتقط ضوضاء السوائل أكتر من تغير حقيقي في الأنسجة. التكرار يتحدد حسب الهدف، والجهاز، وحجم التغيير المتوقع، وهل النتيجة هتغيّر قراراً. الأهم نفس الجهاز وبروتوكول قابل للتكرار، وقراءة النتيجة مع المقاس والقوة والأعراض، مش البحث عن تقرير أحسن كل أسبوع. [1, 2]",
+            "en": "Not necessarily. Bioelectrical impedance devices estimate components from the signal, body water and equations, so a short interval may capture fluid noise more than real tissue change. Frequency depends on the goal, device, expected size of change and whether the result would alter a decision. More important are the same device, a repeatable protocol, and interpreting the result with circumference, strength and symptoms rather than seeking a better report every week. [1, 2]"
+          }
+        },
+        {
+          "q": {
+            "ar": "لو الميزان ثابت، هل أقلل الأكل أكتر؟",
+            "en": "If the scale is stable, should I eat less?"
+          },
+          "a": {
+            "ar": "ما تقللش الأكل تلقائياً بسبب قراءة واحدة. راجع الأول اتجاه عدة أسابيع، دقة القياس، الجوع، الطاقة، البروتين، النوم، الحركة، الأدوية والأعراض. تقليل قاسٍ ممكن يضر التغذية والأداء ويصعّب الحفاظ على العضلات. لو الوزن والمقاسات ثابتين فعلاً، المختص يراجع الخطة والهدف ويقرر هل تعديل الطعام أو الحركة مناسب، بدل نسخ عجز سعرات من شخص تاني. [7, 11]",
+            "en": "Do not automatically eat less because of one reading. First review the trend across several weeks, measurement quality, hunger, energy, protein, sleep, movement, medicines and symptoms. Aggressive restriction can harm nutrition and performance and make muscle preservation harder. If weight and measurements are truly stable, the professional can review the plan and goal and decide whether adjusting food or movement is appropriate instead of copying another person's energy deficit. [7, 11]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه العلامات اللي تخلي تغير الوزن أو المقاس محتاج كشف طبي؟",
+            "en": "Which signs make a weight or measurement change need medical assessment?"
+          },
+          "a": {
+            "ar": "احجز تقييماً لو فيه فقدان وزن من غير قصد، فقدان شهية، ضعف متزايد، تعب غير معتاد أو صعوبة جديدة في مهامك. الزيادة السريعة مع تورم محتاجة مراجعة أسرع. ضيق النفس الشديد، ألم أو ثقل الصدر، سعال بدم، إغماء أو ارتباك يستلزم رعاية طارئة فوراً حسب النظام المحلي. ما تستناش قياساً جديداً، لأن الميزان وتحليل تركيب الجسم ما يشخصوش السبب. [9, 10]",
+            "en": "Arrange assessment for unintentional weight loss, reduced appetite, increasing weakness, unusual fatigue or new difficulty with ordinary tasks. Rapid gain with swelling needs faster review. Severe breathlessness, chest pain or heaviness, coughing blood, fainting or confusion requires immediate emergency care through local services. Do not wait for a new measurement, because a scale and body-composition test cannot diagnose the cause. [9, 10]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Metabolic Testing: Body Composition and Bioelectrical Impedance",
+          "url": "https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/diabetes-endocrinology-obesity-branch/metabolic-clinical-research-unit/metabolic-testing"
+        },
+        {
+          "label": "Gonzalez et al. — Methodological Standards for Body Composition Assessment (PMC, 2026)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197919/"
+        },
+        {
+          "label": "CDC — BMI Frequently Asked Questions",
+          "url": "https://www.cdc.gov/bmi/faq/"
+        },
+        {
+          "label": "WHO — Waist Circumference and Waist–Hip Ratio: Expert Consultation",
+          "url": "https://www.who.int/publications/i/item/9789241501491"
+        },
+        {
+          "label": "NICE — Identifying and Assessing Overweight, Obesity and Central Adiposity (NG246)",
+          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity"
+        },
+        {
+          "label": "Steinberg et al. — Weighing Every Day Matters: Daily Weighing and Weight-control Behaviours (PubMed, 2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25683820/"
+        },
+        {
+          "label": "Resistance Exercise During Dietary Weight Loss in Overweight and Obesity: Systematic Review and Meta-analysis (PMC, 2025)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406911/"
+        },
+        {
+          "label": "Cruz-Jentoft et al. — Sarcopenia: Revised European Consensus on Definition and Diagnosis (PMC, 2019)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6322506/"
+        },
+        {
+          "label": "NHS — Swollen Ankles, Feet and Legs (Oedema)",
+          "url": "https://www.nhs.uk/conditions/oedema/"
+        },
+        {
+          "label": "NHS — Unintentional Weight Loss",
+          "url": "https://www.nhs.uk/symptoms/unintentional-weight-loss/"
+        },
+        {
+          "label": "CDC — Steps for Losing Weight",
+          "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "مقاساتي بتقل والميزان ثابت: هل الدايت شغال؟",
+          "en": "Measurements down but scale still: is it working?"
+        },
+        "description": {
+          "ar": "مقاساتك بتقل والميزان ثابت؟ افهم فرق الدهون والعضلات والمياه، وطريقة قياس الوسط والوزن صح، وإمتى تراجع الخطة أو تحتاج كشف طبي.",
+          "en": "Measurements shrinking while scale weight stays still? Learn how fat, muscle and fluid affect the trend, how to measure fairly, and when to seek review."
+        }
+      }
+    }
+  ]
+}
+

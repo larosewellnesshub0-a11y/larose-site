@@ -1,0 +1,326 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of insulin-resistance-adults-symptoms-testing; replaces the entry from content/articles-longform-2026-09-12.json. Expanded the placeholder into a cited bilingual guide to symptoms, glucose-based testing, risk assessment, management and red flags.",
+  "articles": [
+    {
+      "slug": "insulin-resistance-adults-symptoms-testing",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "internal-medicine",
+      "specialties": [
+        "internal-medicine",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-12",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا شرح أعراض مقاومة الإنسولين والتحاليل والتقييم العملي، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the explanation of insulin-resistance symptoms, testing and practical assessment, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "image": "assets/img/articles/insulin-resistance-adults-cover.webp",
+      "title": {
+        "ar": "مقاومة الإنسولين عند الكبار: الأعراض والتحاليل",
+        "en": "Insulin resistance in adults: symptoms and tests"
+      },
+      "excerpt": {
+        "ar": "مقاومة الإنسولين غالباً ما بتعملش أعراض واضحة، والتعب أو زيادة الوزن لوحدهم ما يثبتوهاش. افهم إمتى نطلب سكر صايم أو HbA1c، وإزاي الطبيب بيقرأ النتيجة مع عوامل الخطورة.",
+        "en": "Insulin resistance often causes no obvious symptoms, and tiredness or weight gain alone cannot confirm it. Learn when fasting glucose, HbA1c or an oral glucose tolerance test may help and how results fit the wider risk picture."
+      },
+      "tags": {
+        "ar": [
+          "مقاومة الإنسولين",
+          "أعراض مقاومة الإنسولين",
+          "تحليل مقاومة الإنسولين",
+          "السكر التراكمي",
+          "مرحلة ما قبل السكر"
+        ],
+        "en": [
+          "insulin resistance",
+          "insulin resistance symptoms",
+          "insulin resistance testing",
+          "HbA1c",
+          "prediabetes"
+        ]
+      },
+      "sections": [
+        {
+          "id": "what-insulin-resistance-means",
+          "heading": {
+            "ar": "يعني إيه مقاومة الإنسولين، وهل هي نفسها مرحلة ما قبل السكر؟",
+            "en": "What insulin resistance means, and whether it is the same as prediabetes"
+          },
+          "body": {
+            "ar": "الإنسولين هرمون بيطلع من البنكرياس وبيساعد الجلوكوز يدخل خلايا العضلات والدهون، وكمان بينظم تعامل الكبد مع الجلوكوز. في مقاومة الإنسولين، الخلايا ما بتستجيبش للهرمون بالكفاءة المتوقعة؛ فيحاول البنكرياس يعوّض ويفرز كمية أكبر. التعويض ده ممكن يحافظ على سكر الدم في المدى الطبيعي فترة، عشان كده مقاومة الإنسولين مش معناها تلقائياً إن عندك سكر أو حتى مرحلة ما قبل السكر [1, 6].\n\nمرحلة ما قبل السكر تعريفها مختلف: تحليل الجلوكوز أو HbA1c بيكون أعلى من الطبيعي، لكنه لسه أقل من نطاق تشخيص السكري. ولو قدرة البنكرياس على التعويض قلت مع الوقت، الجلوكوز ممكن يعلى تدريجياً ويوصل للسكري من النوع التاني. المسار مش حتمي، والسرعة والاحتمال بيختلفوا جداً من شخص للتاني حسب الجينات، العمر، توزيع الدهون، الحركة، النوم، الأدوية وحالات صحية تانية [1, 2].\n\nالمهم كمان إن مقاومة الإنسولين جزء من صورة أوسع، مش تشخيص منفصل يختصر صحتك كلها. ممكن تيجي مع ضغط مرتفع، دهون ثلاثية عالية، كوليسترول HDL منخفض أو دهون بطن، وهي ملامح بتتجمع أحياناً تحت اسم متلازمة الأيض. عشان كده التقييم المفيد ما يبصش للسكر بس؛ بيشوف ضغط الدم والدهون والتاريخ العائلي والتدخين ومخاطر القلب كمان. لو عندك سكري بالفعل، صفحة متابعة السكر: أكثر من HbA1c بتشرح نطاق المتابعة الأوسع من رقم واحد [1, 7].",
+            "en": "Insulin is a pancreatic hormone that helps glucose enter muscle and fat cells and regulates how the liver handles glucose. With insulin resistance, those tissues do not respond as effectively as expected, so the pancreas tries to compensate by releasing more insulin. That compensation may keep blood glucose within the usual range for a time. Insulin resistance therefore does not automatically mean that you have diabetes or even prediabetes [1, 6].\n\nPrediabetes has a different definition: glucose or HbA1c is above the usual range but below the diagnostic range for diabetes. If the pancreas can no longer compensate adequately, glucose may rise over time and eventually reach the type 2 diabetes range. This progression is not inevitable, and its likelihood and pace differ greatly with genetics, age, fat distribution, activity, sleep, medicines and other health conditions [1, 2].\n\nInsulin resistance is also one part of a wider health picture, not a stand-alone label that summarises a person’s health. It may occur alongside high blood pressure, raised triglycerides, low HDL cholesterol or a larger waist. These features may cluster as metabolic syndrome. A useful assessment therefore looks beyond glucose to blood pressure, lipids, family history, smoking and cardiovascular risk. If you already have diabetes, Diabetes review: beyond HbA1c explains the broader follow-up that matters beyond one number [1, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "متابعة السكر: أكثر من HbA1c",
+                "url": "../articles/diabetes-review-whole-health.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Diabetes review: beyond HbA1c",
+                "url": "../articles/diabetes-review-whole-health.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "symptoms-and-signs",
+          "heading": {
+            "ar": "الأعراض: ليه التعب والجوع وزيادة الوزن ما يكفوش للتشخيص؟",
+            "en": "Symptoms: why tiredness, hunger and weight gain cannot make the diagnosis"
+          },
+          "body": {
+            "ar": "أغلب الناس اللي عندهم مقاومة إنسولين أو مرحلة ما قبل السكر ما بيحسوش بأعراض واضحة. دي نقطة أساسية لأن قوائم السوشيال ميديا بتربط التعب، النعاس بعد الأكل، الجوع، الرغبة في الحلويات، صعوبة نزول الوزن أو تشوش التركيز بمقاومة الإنسولين كأنها علامات مؤكدة. الأعراض دي حقيقية ومهمة، بس مش مخصوصة للمشكلة دي؛ ممكن تحصل مع نوم غير كفاية، أنيميا، اضطراب بالغدة الدرقية، أدوية، ضغط نفسي أو أسباب تانية محتاجة تقييمها الخاص [1, 12].\n\nفيه علامات بتزود الاشتباه لكنها برضه ما تثبتش التشخيص لوحدها. منها اسمرار وسُمك مخملي في جلد الرقبة أو الإبط، المعروف بالشواك الأسود، أو وجود مجموعة عوامل زي ضغط مرتفع ودهون دم غير صحية ومحيط خصر كبير. الشكل أو الوزن ما ينفعوش يحكموا: شخص بوزن أعلى ممكن يكون سكره طبيعي، وشخص جسمه نحيف ممكن يبقى عنده مقاومة إنسولين أو سكري. القياس والتحليل في السياق أهم من الانطباع [1, 6, 7].\n\nأما العطش الشديد، التبول المتكرر، زغللة النظر، فقدان وزن من غير قصد، التهابات متكررة أو جروح بتلتئم ببطء، فدي أقرب لأعراض ارتفاع السكر، مش دليل مبكر محدد على مقاومة الإنسولين. ظهورها يستحق تحليل جلوكوز وتقييماً طبياً قريباً، خصوصاً لو الأعراض جديدة أو بتزيد. ما تستناش ظهور أعراض عشان تعمل فحص لو عوامل الخطورة عندك تستدعيه [2, 12].",
+            "en": "Most people with insulin resistance or prediabetes have no obvious symptoms. This matters because social-media lists often present fatigue, sleepiness after meals, hunger, sweet cravings, difficulty losing weight or poor concentration as if they confirm insulin resistance. These experiences are real and worth discussing, but they are nonspecific. Inadequate sleep, anaemia, thyroid disease, medicines, psychological strain and many other conditions can cause similar symptoms and need their own assessment [1, 12].\n\nSome findings raise suspicion but still cannot establish the diagnosis alone. They include dark, thickened, velvety skin around the neck or armpits, called acanthosis nigricans, or a cluster of high blood pressure, unhealthy blood lipids and a larger waist. Appearance and body weight are not diagnostic: a person in a larger body may have normal glucose, while a lean person may have insulin resistance or diabetes. Measurements and laboratory results interpreted in context matter more than an impression [1, 6, 7].\n\nMarked thirst, frequent urination, blurred vision, unintentional weight loss, recurrent infections or slowly healing wounds are more consistent with high glucose than with an early, specific sign of insulin resistance. They warrant prompt glucose testing and medical assessment, particularly when new or worsening. Do not wait for symptoms before discussing screening when your risk factors already make testing appropriate [2, 12]."
+          }
+        },
+        {
+          "id": "who-should-be-tested",
+          "heading": {
+            "ar": "مين يناقش التحاليل مع الطبيب؟ عوامل الخطورة أهم من اختبار الأعراض",
+            "en": "Who should discuss testing? Risk factors matter more than a symptom quiz"
+          },
+          "body": {
+            "ar": "قرار الفحص بيتبني على العمر وعوامل الخطورة، مش على اختبار أونلاين. الإرشادات الأمريكية الحديثة بتوصي بتقييم خطر مرحلة ما قبل السكر والسكري عند البالغين من غير أعراض، وبتعتبر بدء الفحص من سن 35 مناسباً عموماً. كمان بيتناقش الفحص في أي سن لو فيه زيادة وزن أو سمنة مع عامل إضافي، زي قريب من الدرجة الأولى عنده سكري، قلة حركة، ضغط مرتفع، اضطراب دهون، مرض قلبي وعائي، تاريخ سكر حمل، تكيس مبايض أو حالات مرتبطة بمقاومة الإنسولين [2]. توصية USPSTF بتغطي تحديداً البالغين من 35 لـ70 سنة اللي عندهم زيادة وزن أو سمنة، والطبيب بيفصّل القرار حسب الشخص [5].\n\nأدوية معينة ممكن تغيّر الخطر أو توقيت المتابعة، ومنها الاستخدام المتكرر أو الطويل للكورتيزون وبعض مضادات الذهان وبعض علاجات HIV. ما توقفش دواء موصوف عشان القلق من السكر؛ اذكر اسمه وجرعته للطبيب عشان يحدد هل محتاج فحص ومتى. كمان نتيجة طبيعية قديمة مش ضمان دائم لو حصل تغير في الوزن أو الأدوية أو الأعراض [1, 2].\n\nتكيس المبايض مثال مهم: مقاومة الإنسولين شائعة في الصورة المرضية، لكن الإرشاد الدولي بيقول إن تحاليل الإنسولين المتاحة فائدتها السريرية محدودة ومش موصى بيها روتينياً، بينما اختبار تحمل الجلوكوز له مكان أوضح لتقييم السكر في حالات التكيس. التفاصيل الخاصة بالعلاقة والخطة موجودة في تكيس المبايض والوزن: نفهم العلاقة وإيه اللي يساعد، من غير ما نحول كل عرض هرموني لتشخيص ذاتي [11].",
+            "en": "Testing decisions are based on age and risk factors, not an online symptom quiz. Current US guidance recommends assessing the risk of prediabetes and diabetes in asymptomatic adults and generally starting screening at age 35. Testing is also considered at any age when overweight or obesity occurs with an additional factor such as a first-degree relative with diabetes, physical inactivity, hypertension, abnormal lipids, cardiovascular disease, a history of gestational diabetes, polycystic ovary syndrome or another condition associated with insulin resistance [2]. The USPSTF recommendation specifically covers adults aged 35 to 70 who have overweight or obesity, with clinicians individualising decisions [5].\n\nCertain medicines can change risk or the timing of follow-up, including repeated or long-term glucocorticoids, some antipsychotics and some HIV treatments. Do not stop prescribed medicine because of concern about glucose; give the clinician its name and dose so they can decide whether and when testing is appropriate. An old normal result is not a permanent guarantee if weight, medicines, symptoms or other risks have changed [1, 2].\n\nPCOS is an important example. Insulin resistance is common in its biology, but the international guideline says clinically available insulin assays have limited clinical relevance and are not recommended routinely; an oral glucose tolerance test has a clearer role in assessing glycaemic status in PCOS. PCOS and weight: understanding the link and what helps covers that relationship and its practical management without turning every hormonal symptom into a self-diagnosis [11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تكيس المبايض والوزن: نفهم العلاقة وإيه اللي يساعد",
+                "url": "../articles/pcos-and-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "PCOS and weight: understanding the link and what helps",
+                "url": "../articles/pcos-and-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "tests-and-results",
+          "heading": {
+            "ar": "التحاليل المفيدة: سكر صايم وHbA1c واختبار تحمل الجلوكوز",
+            "en": "Useful tests: fasting glucose, HbA1c and the oral glucose tolerance test"
+          },
+          "body": {
+            "ar": "في الممارسة اليومية، الطبيب غالباً بيدوّر على أثر مقاومة الإنسولين على الجلوكوز ومخاطر الصحة، مش بيحاول يثبتها بتحليل إنسولين منفرد. NIDDK بيوضح إن الاختبار المباشر لمقاومة الإنسولين بيُستخدم أساساً في الأبحاث. عشان كده تحليل الإنسولين الصايم أو معادلة HOMA-IR مش معيار تشخيص موحّد لكل البالغين، والرقم ما يتقراش من غير طريقة المعمل والسياق [1, 11].\n\nالاختبارات المعتمدة لاكتشاف مرحلة ما قبل السكر أو السكري هي جلوكوز البلازما صايم، وHbA1c، وأحياناً اختبار تحمل الجلوكوز بجرعة 75 جرام. HbA1c بيلخّص متوسط التعرض للجلوكوز خلال نحو 3 شهور ومش محتاج صيام. السكر الصايم لقطة بعد صيام 8 ساعات على الأقل. اختبار التحمل بيقيس الاستجابة بعد ساعتين، وقد يكتشف اضطراباً ما ظهرش في الاختبارين التانيين، لكنه بياخد وقت وتحضير أكتر [2, 3, 4].\n\nعند البالغ غير الحامل، نطاق ما قبل السكر حسب ADA هو HbA1c من 5.7% لـ6.4%، أو سكر صايم من 100 لـ125 mg/dL، أو سكر بعد ساعتين من 140 لـ199 mg/dL. حدود السكري هي HbA1c عند 6.5% أو أعلى، أو سكر صايم 126 mg/dL أو أعلى، أو بعد ساعتين 200 mg/dL أو أعلى. من غير أعراض واضحة أو أزمة ارتفاع سكر، التشخيص محتاج تأكيد بنتيجة غير طبيعية تانية. الاختبارات مش دايماً تتفق، فبيكرر الطبيب الاختبار الأعلى أو يختار اختباراً تاني حسب الحالة [2, 3].\n\nHbA1c ممكن يبقى مضللاً مع أنيميا أو تغير عمر كرات الدم، بعض أنواع الهيموجلوبين، حمل، نزيف أو نقل دم، وبعض أمراض الكلى أو الكبد. لو HbA1c مش راكب مع قياسات الجلوكوز، الطبيب بيفكر في التداخل ويعتمد أكتر على جلوكوز البلازما. تقييم الكبد له مساره الخاص؛ صفحة الكبد الدهني: الأعراض والتشخيص وإمتى يبقى خطر؟ بتشرح إمتى يحتاج الموضوع تقييماً منفصلاً [2, 4].",
+            "en": "In routine care, clinicians usually look for the effect of insulin resistance on glucose and broader health risk instead of trying to prove it with a single insulin measurement. NIDDK explains that direct testing for insulin resistance is used mainly in research. A fasting insulin result or HOMA-IR calculation is therefore not a universally standardised diagnostic criterion for every adult, and the number cannot be interpreted apart from the assay and clinical context [1, 11].\n\nThe established tests for detecting prediabetes or diabetes are fasting plasma glucose, HbA1c and, in selected situations, a 75-g oral glucose tolerance test. HbA1c summarises average glucose exposure over roughly three months and does not require fasting. Fasting glucose is a snapshot after at least eight hours without caloric intake. The tolerance test measures the two-hour response and can reveal abnormal glucose handling missed by the other tests, although it requires more time and preparation [2, 3, 4].\n\nFor a nonpregnant adult, ADA prediabetes ranges are HbA1c 5.7% to 6.4%, fasting glucose 100 to 125 mg/dL, or two-hour glucose 140 to 199 mg/dL. Diabetes thresholds are HbA1c at least 6.5%, fasting glucose at least 126 mg/dL, or two-hour glucose at least 200 mg/dL. Without unequivocal symptoms or a hyperglycaemic crisis, diagnosis requires a second abnormal result. Tests do not always agree, so the clinician may repeat the result above the threshold or select another test for the situation [2, 3].\n\nHbA1c can be misleading when anaemia, altered red-cell turnover, some haemoglobin variants, pregnancy, bleeding or transfusion, and some kidney or liver conditions are present. If HbA1c does not fit plasma glucose results, the clinician considers interference and may rely more on plasma glucose. Liver assessment has its own pathway; Fatty liver: symptoms, diagnosis and when it becomes serious explains when that concern needs separate evaluation [2, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الكبد الدهني: الأعراض والتشخيص وإمتى يبقى خطر؟",
+                "url": "../articles/fatty-liver-symptoms-diagnosis-risk.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Fatty liver: symptoms, diagnosis and when it becomes serious",
+                "url": "../articles/fatty-liver-symptoms-diagnosis-risk.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "whole-assessment",
+          "heading": {
+            "ar": "الطبيب بيقيّم الصورة كاملة، مش رقم الإنسولين بس",
+            "en": "The clinician assesses the whole picture, not just an insulin number"
+          },
+          "body": {
+            "ar": "الزيارة المنظمة بتبدأ بسؤال واضح: هل الهدف فحص شخص من غير أعراض، تفسير أعراض ارتفاع سكر، متابعة نتيجة سابقة، ولا تقييم مخاطر القلب والأيض؟ الطبيب بيسأل عن تاريخ العيلة، سكر الحمل، تكيس المبايض، النوم والشخير، الحركة والتدخين، تغير الوزن، ونمط الأكل من غير لوم. كمان بيراجع الأدوية والمكملات لأن بعضها يغيّر الجلوكوز أو يربك تفسير التحليل [1, 2, 5].\n\nالفحص ممكن يشمل ضغط الدم، الوزن ومحيط الخصر، وفحص الجلد لو فيه شواك أسود، لكن ولا قياس منهم يشخّص مقاومة الإنسولين لوحده. التحاليل بتتحدد حسب السؤال، وقد تشمل HbA1c أو جلوكوز البلازما، ودهون الدم؛ والطبيب قد يطلب وظائف كبد أو تحاليل تانية لو التاريخ أو الفحص بيدّي سبب واضح. مفيش باقة واحدة لازم كل الناس تعملها، وتكرار تحاليل إنسولين من غير قرار هيتغير بالنتيجة ممكن يزود الحيرة بدل ما يحلها [1, 3, 7].\n\nالوزن جزء من السياق، مش حكم على السلوك أو الصحة. مؤشر كتلة الجسم ما بيوصفش توزيع الدهون أو العضلات أو الضغط أو الجلوكوز، ومحيط الخصر نفسه لازم يتقري مع باقي الصورة. لو محور الزيارة هو الوزن، رعاية السمنة ما تقفش عند مؤشر الكتلة بتشرح ليه التقييم المحترم بيشوف الوظيفة والمضاعفات والأهداف الشخصية. في الآخر، الخطة بتتبني على المشكلة المثبتة: مرحلة ما قبل السكر، ضغط، دهون، نوم، دواء مؤثر أو سبب تاني، مش على ملصق غامض [2, 7].",
+            "en": "An organised visit starts with a clear question: is this screening in someone without symptoms, investigation of possible hyperglycaemia, follow-up of an earlier result, or assessment of cardiometabolic risk? The clinician asks about family history, gestational diabetes, PCOS, sleep and snoring, activity, smoking, weight change and eating patterns without blame. Medicines and supplements also matter because some alter glucose or complicate interpretation [1, 2, 5].\n\nExamination may include blood pressure, weight, waist circumference and a skin check when acanthosis nigricans is present, but none diagnoses insulin resistance alone. Tests are selected to answer the clinical question and may include HbA1c or plasma glucose and a lipid profile. Liver tests or other investigations may be appropriate when the history or examination supplies a reason. There is no single panel everyone must have, and repeatedly measuring insulin without a decision that would change can add confusion rather than clarity [1, 3, 7].\n\nWeight is part of the context, not a judgement about behaviour or health. BMI does not describe fat distribution, muscle, blood pressure or glucose, and waist circumference must also be read with the rest of the picture. When weight is the main concern, Scientific update: obesity care goes beyond BMI explains why respectful assessment considers function, complications and personal priorities. The resulting plan should address what is actually established—prediabetes, blood pressure, lipids, sleep, a medicine effect or another cause—rather than a vague label [2, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "رعاية السمنة ما تقفش عند مؤشر الكتلة",
+                "url": "../articles/obesity-care-beyond-bmi.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Scientific update: obesity care goes beyond BMI",
+                "url": "../articles/obesity-care-beyond-bmi.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "what-helps",
+          "heading": {
+            "ar": "إيه اللي يساعد فعلاً؟ خطوات عملية من غير حرمان أو وعود",
+            "en": "What actually helps: practical steps without restriction or promises"
+          },
+          "body": {
+            "ar": "الهدف مش مطاردة أقل رقم إنسولين، لكنه تحسين حساسية الجسم للإنسولين وتقليل احتمال ارتفاع الجلوكوز ومخاطر القلب بطريقة تقدر تكمل عليها. الحركة المنتظمة بتزود استجابة العضلات للإنسولين حتى قبل تغير كبير في الوزن. منظمة الصحة العالمية بتنصح البالغين عموماً بـ150 لـ300 دقيقة أسبوعياً من نشاط هوائي متوسط، مع تمارين تقوية للعضلات يومين أو أكتر، لكن البداية تتعدل حسب اللياقة والألم وأمراض القلب أو أي مانع طبي [8, 10]. حتى تقسيم الجلوس الطويل بحركة قصيرة خطوة مفيدة.\n\nالأكل المناسب مش قائمة منع واحدة. نمط فيه خضار، بقول، حبوب كاملة، فاكهة كاملة، مصادر بروتين مناسبة ودهون غير مشبعة، مع تقليل المشروبات السكرية والأطعمة شديدة التصنيع، غالباً أسهل للاستمرار من حمية قاسية. لو عندك زيادة وزن ومرحلة ما قبل السكر، فقدان بسيط ومستمر للوزن قد يقلل الخطر، لكن مش كل شخص محتاج ينقص وزن، والهدف يتحدد مع الفريق من غير وصم [1, 8].\n\nدراسة برنامج الوقاية من السكري شملت أشخاصاً عندهم ارتفاع في السكر الصايم وبعد التحميل، ووجدت إن برنامج نمط حياة مكثف بهدف حركة أسبوعية منتظمة وفقد وزن متواضع خفّض حدوث السكري مقارنة بالعلاج الوهمي. النتيجة تخص مجموعة عالية الخطورة وبرنامجاً منظماً؛ مش وعداً فردياً ولا سبباً لحرمان سريع [9]. النوم الكافي، علاج انقطاع النفس لو موجود، إيقاف التدخين ودعم الصحة النفسية ممكن يكونوا أجزاء مهمة من الخطة [1].\n\nالأدوية مش علاجاً تلقائياً لمجرد إن تحليل الإنسولين عالي. الميتفورمين أو أدوية الوزن أو غيرها قد تناسب أشخاصاً محددين عندهم مرحلة ما قبل السكر أو مخاطر أعلى، بعد مناقشة الفوائد والآثار الجانبية والحمل ووظائف الكلى وباقي الأدوية. ما تبدأش أو توقف دواء من نفسك، وما تستخدمش مكمل أو حقن مجهولة على أساس وعد بإزالة مقاومة الإنسولين [8, 9].",
+            "en": "The aim is not to chase the lowest insulin number; it is to improve insulin sensitivity and reduce the likelihood of rising glucose and cardiovascular harm in a way that can be sustained. Regular activity improves the muscles’ response to insulin even before substantial weight change. WHO generally advises adults to accumulate 150 to 300 minutes of moderate aerobic activity each week plus muscle strengthening on at least two days, but the starting point should be adapted for fitness, pain, heart disease and any medical limitation [8, 10]. Even breaking up long periods of sitting with brief movement is useful.\n\nThere is no single forbidden-food list. A pattern built around vegetables, pulses, whole grains, whole fruit, suitable protein sources and unsaturated fats, while reducing sugary drinks and heavily processed foods, is usually more sustainable than severe restriction. For a person with overweight and prediabetes, modest sustained weight loss may lower risk, but not everyone needs to lose weight and goals should be agreed without stigma [1, 8].\n\nThe Diabetes Prevention Program enrolled people with raised fasting and post-load glucose. Its intensive lifestyle programme, which targeted regular weekly activity and modest weight loss, reduced the development of diabetes compared with placebo. That finding applies to a high-risk study group receiving structured support; it is not an individual promise or a reason for rapid restriction [9]. Adequate sleep, treating sleep apnoea when present, stopping smoking and supporting mental health may also belong in the plan [1].\n\nMedicines are not automatic treatment for a high insulin result. Metformin, weight-management medicines or other therapies may suit selected people with prediabetes or higher risk after discussing benefits, adverse effects, pregnancy, kidney function and other medicines. Do not start or stop a medicine on your own, and avoid supplements or unverified injections promoted as removing insulin resistance [8, 9]."
+          }
+        },
+        {
+          "id": "follow-up-and-red-flags",
+          "heading": {
+            "ar": "المتابعة وعلامات الخطر: إمتى نراجع وإمتى نطلب مساعدة عاجلة؟",
+            "en": "Follow-up and red flags: when to review and when to seek urgent help"
+          },
+          "body": {
+            "ar": "لو النتيجة في نطاق مرحلة ما قبل السكر، المتابعة مش معناها إعادة كل التحاليل كل أسبوع. إرشادات ADA بتقترح مراقبة تطور السكري مرة سنوياً على الأقل، مع تعديل الميعاد حسب مستوى النتيجة وعوامل الخطورة وتغير الصحة أو الأدوية. لو النتيجة طبيعية، الفترة بتعتمد على العمر والخطر؛ وقد يكون كل 3 سنين مناسباً لبعض البالغين، وأقرب من كده لو الخطر أعلى أو ظهرت أعراض [2, 5, 8]. اتفق مع الطبيب على التحليل التالي، معناه، وإيه القرار اللي هيتغير بناءً عليه.\n\nاطلب تقييماً عاجلاً لو ظهر عطش شديد مع تبول كثير وقيء أو ألم بطن، تنفس سريع أو عميق، جفاف واضح، نعاس شديد، ارتباك أو ضعف بيتفاقم بسرعة. دي ممكن تكون علامات ارتفاع سكر شديد أو أزمة أيضية، ومش وقت تحليل إنسولين صايم أو انتظار موعد روتيني. ألم الصدر، ضيق النفس المفاجئ، إغماء أو أعراض جلطة برضه طوارئ مستقلة وتحتاج خدمة الطوارئ المناسبة فوراً [2, 12].\n\nلو مفيش طوارئ لكن عندك أعراض جديدة، نتيجة سكر أعلى من الطبيعي، تاريخ سكر حمل، أو مجموعة مخاطر محتاجة ترتيب، جهّز قائمة الأدوية والنتائج السابقة وملخصاً لتوقيت الأعراض. في العيادة، يقدر طبيب الباطنة يحدد هل المطلوب HbA1c أو سكر صايم أو اختبار تحمل، ويراجع الضغط والدهون والعوامل المصاحبة. تقدر تستخدم طلب حجز موعد باطنة وسكر لو محتاج تبدأ تقييماً منظماً؛ القرار النهائي للفحوص والعلاج بيكون بعد مراجعة حالتك الفردية [1, 3].",
+            "en": "If a result is in the prediabetes range, follow-up does not mean repeating every test every week. ADA guidance suggests monitoring for progression to diabetes at least annually, with timing adjusted to the result, risk factors and changes in health or medicines. After a normal result, the interval depends on age and risk; every three years may be reasonable for some adults, while higher risk or new symptoms justify earlier testing [2, 5, 8]. Agree with the clinician which test comes next, what it means and which decision would change because of it.\n\nSeek urgent assessment for marked thirst and frequent urination accompanied by vomiting or abdominal pain, rapid or deep breathing, obvious dehydration, profound drowsiness, confusion or rapidly worsening weakness. These can signal severe hyperglycaemia or a metabolic emergency; this is not the time for a fasting insulin test or a routine appointment. Chest pain, sudden breathlessness, fainting or stroke symptoms are separate emergencies and require the appropriate emergency service immediately [2, 12].\n\nWhen there is no emergency but you have new symptoms, an above-range glucose result, a history of gestational diabetes or several risks that need sorting out, bring a medicine list, earlier results and a short symptom timeline. An internal-medicine clinician can decide whether HbA1c, fasting glucose or an oral glucose tolerance test is appropriate and review blood pressure, lipids and related factors. You can request an internal medicine and diabetes appointment to begin an organised assessment; final testing and treatment decisions follow review of your individual situation [1, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد باطنة وسكر",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request an internal medicine and diabetes appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل تحليل الإنسولين الصايم يشخّص مقاومة الإنسولين؟",
+            "en": "Does a fasting insulin test diagnose insulin resistance?"
+          },
+          "a": {
+            "ar": "مش لوحده. قياس مقاومة الإنسولين المباشر بيُستخدم أساساً في الأبحاث، وتحاليل الإنسولين المتاحة ما عندهاش حد تشخيص موحّد ينطبق على كل البالغين. الطبيب غالباً بيركز على HbA1c وسكر البلازما وعوامل الخطورة، ويطلب تحاليل إضافية لما يكون لها سؤال وقرار واضح [1, 11].",
+            "en": "Not by itself. Direct measurement of insulin resistance is used mainly in research, and available insulin assays do not provide one standard diagnostic threshold for every adult. Clinicians usually focus on HbA1c, plasma glucose and the risk context, adding tests only when they answer a defined clinical question [1, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل مقاومة الإنسولين بتسبب أعراض واضحة؟",
+            "en": "Does insulin resistance cause obvious symptoms?"
+          },
+          "a": {
+            "ar": "غالباً لأ؛ ناس كتير ما عندهاش أعراض. التعب والجوع والنعاس بعد الأكل وصعوبة نزول الوزن أعراض غير محددة وممكن يكون لها أسباب كتير. العطش الشديد والتبول المتكرر وفقدان الوزن غير المقصود أقرب لارتفاع السكر ويحتاجوا تقييماً قريباً [1, 12].",
+            "en": "Usually not; many people have no symptoms. Fatigue, hunger, sleepiness after meals and difficulty losing weight are nonspecific and have many possible causes. Marked thirst, frequent urination and unintentional weight loss are more suggestive of high glucose and warrant prompt assessment [1, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو HbA1c طبيعي، هل كده مفيش مقاومة إنسولين؟",
+            "en": "Does a normal HbA1c rule out insulin resistance?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. الجسم ممكن يعوّض بإفراز إنسولين أكتر ويحافظ على الجلوكوز فترة، والاختبارات المختلفة مش دايماً بتحدد نفس الناس. كمان HbA1c ممكن يتأثر بحالات الدم والهيموجلوبين. الطبيب يقرأه مع سكر صايم أو اختبار تحمل عند اللزوم ومع عوامل الخطورة [1, 3, 4].",
+            "en": "Not necessarily. The body may compensate with more insulin and keep glucose in range for a time, and different glucose tests do not always identify the same people. HbA1c can also be affected by red-cell or haemoglobin conditions. The clinician interprets it with risk factors and, when appropriate, fasting glucose or an oral glucose tolerance test [1, 3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه الفرق بين مقاومة الإنسولين ومرحلة ما قبل السكر؟",
+            "en": "What is the difference between insulin resistance and prediabetes?"
+          },
+          "a": {
+            "ar": "مقاومة الإنسولين بتوصف ضعف استجابة الخلايا للإنسولين. مرحلة ما قبل السكر بتتوصف بنتيجة جلوكوز أو HbA1c في نطاق محدد أعلى من الطبيعي وأقل من السكري. ممكن توجد مقاومة مع جلوكوز طبيعي، ومش كل شخص عنده مرحلة ما قبل السكر هيتطور حتماً للسكري [1, 2].",
+            "en": "Insulin resistance describes reduced cellular responsiveness to insulin. Prediabetes is defined by glucose or HbA1c within specified ranges above normal but below diabetes. Insulin resistance can exist while glucose remains normal, and not everyone with prediabetes inevitably progresses to diabetes [1, 2]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أمنع النشويات تماماً؟",
+            "en": "Do I need to eliminate carbohydrates completely?"
+          },
+          "a": {
+            "ar": "لأ. مفيش توصية عامة بمنع كل النشويات، والحرمان القاسي صعب يستمر وممكن يقلل جودة الغذاء. الأهم نوع وكمية وتوزيع الأكل داخل نمط متوازن يناسب صحتك وثقافتك وأدويتك. لو عندك سكري أو مرض كلوي أو حمل، الخطة لازم تتفصّل مع الفريق المعالج [8, 9].",
+            "en": "No. There is no general recommendation to remove all carbohydrate, and severe restriction is difficult to sustain and may reduce dietary quality. What matters is the type, amount and pattern of food within a balanced approach suited to your health, culture and medicines. Diabetes, kidney disease or pregnancy requires an individual plan with the treating team [8, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل كل شخص عنده مقاومة إنسولين محتاج ميتفورمين؟",
+            "en": "Does everyone with insulin resistance need metformin?"
+          },
+          "a": {
+            "ar": "لأ. الميتفورمين له دليل في مجموعات معينة عالية الخطورة عندها مرحلة ما قبل السكر، لكنه مش وصفة تلقائية لعرض أو رقم إنسولين. القرار بيتأثر بنتائج الجلوكوز والعمر والخطر والحمل ووظائف الكلى والآثار الجانبية، وبيتعمل مع الطبيب بعد تجربة أو مناقشة بدائل مناسبة [8, 9].",
+            "en": "No. Metformin has evidence in selected higher-risk groups with prediabetes, but it is not an automatic prescription for a symptom or insulin number. The decision depends on glucose results, age, overall risk, pregnancy, kidney function and adverse effects, and is made with the clinician after discussing suitable alternatives [8, 9]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Insulin Resistance & Prediabetes",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance"
+        },
+        {
+          "label": "American Diabetes Association — Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026",
+          "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes"
+        },
+        {
+          "label": "NIDDK — Diabetes & Prediabetes Tests",
+          "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/diabetes/diabetes-prediabetes"
+        },
+        {
+          "label": "NIDDK — The A1C Test & Diabetes",
+          "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test"
+        },
+        {
+          "label": "USPSTF — Prediabetes and Type 2 Diabetes: Screening",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes"
+        },
+        {
+          "label": "CDC — About Insulin Resistance and Type 2 Diabetes",
+          "url": "https://www.cdc.gov/diabetes/about/insulin-resistance-type-2-diabetes.html"
+        },
+        {
+          "label": "NHLBI — Metabolic Syndrome",
+          "url": "https://www.nhlbi.nih.gov/health/metabolic-syndrome"
+        },
+        {
+          "label": "American Diabetes Association — Prevention or Delay of Diabetes: Standards of Care in Diabetes—2026",
+          "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S50/163924/3-Prevention-or-Delay-of-Diabetes-and-Associated"
+        },
+        {
+          "label": "Diabetes Prevention Program Research Group — Reduction in the Incidence of Type 2 Diabetes with Lifestyle Intervention or Metformin",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
+        },
+        {
+          "label": "WHO — Guidelines on Physical Activity and Sedentary Behaviour: At a Glance",
+          "url": "https://www.who.int/poland/publications/i/item/9789240014886"
+        },
+        {
+          "label": "2023 International Evidence-based Guideline for Polycystic Ovary Syndrome",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10477934/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Diabetes",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/symptoms-causes"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "مقاومة الإنسولين: الأعراض والتحاليل للكبار",
+          "en": "Insulin resistance: symptoms and tests in adults"
+        },
+        "description": {
+          "ar": "دليل عملي لأعراض مقاومة الإنسولين عند الكبار، ومتى نطلب السكر الصايم أو HbA1c، وإزاي الطبيب يفسر النتائج مع عوامل الخطورة.",
+          "en": "A practical guide to insulin resistance symptoms, when fasting glucose, HbA1c or an oral glucose tolerance test may help, and how results are interpreted."
+        }
+      }
+    }
+  ]
+}
