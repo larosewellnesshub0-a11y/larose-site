@@ -17,8 +17,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "وسعنا الإجابة عشان توضح معنى مخزون الحديد القليل مع صورة دم طبيعية، وإزاي نبحث عن السبب ونتابع العلاج بأمان، واتراجعت طبيا من جديد.",
-            "en": "We expanded the answer to explain low iron stores with a normal CBC, how to investigate the cause, and how to follow treatment safely, and medically re-reviewed it."
+            "ar": "وسعنا الإجابة عشان توضح معنى مخزون الحديد القليل مع صورة دم طبيعية، وإزاي نبحث عن السبب ونتابع العلاج بأمان، واتراجعت طبيا من جديد. اتضاف سؤالين شائعين عن الصيام قبل تحليل الفيريتين وأسباب ارتفاعه، بمصادرهم.",
+            "en": "We expanded the answer to explain low iron stores with a normal CBC, how to investigate the cause, and how to follow treatment safely, and medically re-reviewed it. Added two cited FAQs on fasting before a ferritin test and causes of high ferritin."
           }
         }
       ],
@@ -282,7 +282,9 @@
             "ar": "اطلب رعاية عاجلة مع قيء دموي، براز أسود قطراني أو نزيف واضح، إغماء، ألم صدر، ضيق نفس شديد، ضعف سريع ومتزايد، أو ألم بطن حاد. العلامات دي ما ينفعش تتفسر في البيت على إنها مجرد نقص مخزون أو أثر من المكمل [7, 11].",
             "en": "Seek urgent care for vomiting blood, black tarry stool or visible bleeding, fainting, chest pain, severe breathlessness, rapidly worsening weakness, or acute abdominal pain. These signs should not be explained at home as depleted stores or a simple supplement effect [7, 11]."
           }
-        }
+        },
+        {"q": {"ar": "لازم أكون صايم قبل تحليل الفيريتين؟", "en": "Do I need to fast before a ferritin test?"}, "a": {"ar": "ممكن الدكتور يطلب منك تصوم (من غير أكل ولا شرب) 12 ساعة قبل التحليل، فاسأل قبل ما تروح المعمل [3].", "en": "Your provider may ask you to fast (not eat or drink) for 12 hours before the test, so check before you go to the lab. [3]"}},
+        {"q": {"ar": "ممكن الفيريتين يطلع عالي لسبب غير زيادة الحديد؟", "en": "Can ferritin be high for reasons other than too much iron?"}, "a": {"ar": "أيوه. الفيريتين العالي ممكن يكون من زيادة الحديد في الجسم، بس الالتهاب، زي اللي بيحصل مع عدوى أو بعد عملية، ممكن يرفعه هو كمان. علشان كده الدكتور بيقرا النتيجة مع باقي تحاليل الحديد [3].", "en": "Yes. High ferritin can come from too much iron in the body, but inflammation, such as from an infection or surgery, can also raise it. That is why the result is read together with the rest of the iron tests. [3]"}}
       ],
       "sources": [
         {
