@@ -29,8 +29,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "اتوسّع التحديث بأدلة اللياقة مقابل الوزن، وأرقام النشاط والخطوات، وتمارين التقوية، والسكر بعد الأكل والمزاج، وعلامات الأمان، مع مصادر موثقة وأسئلة شائعة، واتراجع طبياً من جديد.",
-            "en": "The update was expanded with fitness-versus-weight evidence, activity and step targets, strength exercise, post-meal glucose and mood, and safety signs, with verified sources and FAQs, and was medically re-reviewed."
+            "ar": "اتوسّع التحديث بأدلة اللياقة مقابل الوزن، وأرقام النشاط والخطوات، وتمارين التقوية، والسكر بعد الأكل والمزاج، وعلامات الأمان، مع مصادر موثقة وأسئلة شائعة، واتراجع طبياً من جديد. اتضاف سؤالين شائعين عن كمية الحركة في الأسبوع وإزاي تفرّق بين المجهود المتوسط والعنيف، بمصادرهم.",
+            "en": "The update was expanded with fitness-versus-weight evidence, activity and step targets, strength exercise, post-meal glucose and mood, and safety signs, with verified sources and FAQs, and was medically re-reviewed. Added two cited FAQs on weekly activity targets and telling moderate from vigorous effort."
           }
         }
       ],
@@ -237,7 +237,9 @@
             "ar": "ممكن يفيد. تحليل تجميعي لتجارب على مرضى الكبد الدهني المرتبط بالتمثيل الغذائي لقى إن التمرين حسّن إنزيمات الكبد ومؤشرات التليف والكوليسترول، رغم إن فرق الوزن ما كانش ذو دلالة إحصائية. المتابعة بالتحاليل والتقييم الطبي بتحدد التحسن الفعلي عندك [11].",
             "en": "It may. A meta-analysis of trials in metabolic dysfunction-associated fatty liver disease found that exercise improved liver enzymes, fibrosis markers and cholesterol even though the weight difference was not statistically significant. Follow-up tests and medical assessment show your own actual improvement [11]."
           }
-        }
+        },
+        {"q": {"ar": "أتحرك قد إيه في الأسبوع؟", "en": "How much activity should I aim for each week?"}, "a": {"ar": "الإرشادات بتقول على الأقل 150 دقيقة نشاط متوسط في الأسبوع أو 75 دقيقة نشاط عنيف، مع تمارين تقوية لكل العضلات الكبيرة (الرجلين والوسط والضهر والبطن والصدر والكتاف والدراعات) يومين على الأقل في الأسبوع. وقلّل القعدة الطويلة، وقطّعها بأي حركة [2].", "en": "Guidelines advise at least 150 minutes of moderate intensity activity a week or 75 minutes of vigorous activity, plus strengthening activities that work all the major muscle groups (legs, hips, back, abdomen, chest, shoulders and arms) on at least 2 days a week. Reduce long periods of sitting and break them up with some activity. [2]"}},
+        {"q": {"ar": "أعرف إزاي إن المجهود متوسط ولا عنيف؟", "en": "How can I tell moderate from vigorous activity?"}, "a": {"ar": "في المجهود المتوسط تقدر تتكلم بس مش هتقدر تغني، زي المشي السريع أو العجلة أو الرقص. وفي المجهود العنيف مش هتقدر تقول أكتر من كام كلمة من غير ما تاخد نفسك، زي الجري أو السباحة أو طلوع السلم [2].", "en": "With moderate activity you can still talk, but not sing, for example brisk walking, riding a bike or dancing. With vigorous activity you will not be able to say more than a few words without pausing for breath, for example running, swimming or walking up the stairs. [2]"}}
       ],
       "sources": [
         {
