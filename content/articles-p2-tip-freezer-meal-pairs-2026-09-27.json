@@ -165,7 +165,9 @@
             "ar": "اطلب مساعدة لو فيه إسهال دموي، إسهال أكتر من 3 أيام، قيء متكرر مانع السوائل، حرارة عالية، أو علامات جفاف. الحمل مع حرارة وأعراض شبه الإنفلونزا، أو الأعراض عند طفل صغير أو كبير سن أو شخص مناعته ضعيفة، تستحق تواصل أبكر [10, 11].",
             "en": "Seek help for bloody diarrhoea, diarrhoea beyond three days, repeated vomiting that prevents fluids, high fever, or dehydration. Fever with flu-like symptoms during pregnancy, or symptoms in a young child, older adult, or immunocompromised person, justify earlier contact [10, 11]."
           }
-        }
+        },
+        {"q": {"ar": "مين محتاج ياخد باله أكتر من الأكل المتخزن؟", "en": "Who needs to take extra care with stored meals?"}, "a": {"ar": "الناس الأكثر عرضة للتسمم الغذائي هم الكبار فوق 65 سنة، والأطفال تحت 5 سنين، واللي مناعتهم ضعيفة، والحوامل. لو حد من دول في البيت، التزم أكتر بغسيل الإيدين والأسطح، وحط الأكل في التلاجة بسرعة بعد الطبخ، وفك التلج بطريقة آمنة مش على الرخامة [10].", "en": "People at higher risk of food poisoning include adults 65 and older, children under 5, people with weakened immune systems, and pregnant women. If any of them live with you, be stricter about washing hands and surfaces, refrigerating food promptly after cooking, and thawing frozen food safely rather than on the counter. [10]"}},
+        {"q": {"ar": "أفصل اللحمة النية عن الأكل المطبوخ وأنا بجهز الوجبات؟", "en": "Should I keep raw meat apart from cooked food while preparing meals?"}, "a": {"ar": "أيوه. من المفاتيح الخمسة لأكل أأمن عند منظمة الصحة العالمية: النضافة، وفصل النيء عن المطبوخ، والطبخ كويس، وحفظ الأكل في درجة حرارة آمنة، واستخدام مية وخامات سليمة. فصل اللحمة النية والبيض عن باقي الأكل بيمنع انتقال الميكروبات، وبعدها اغسل إيدك والأسطح كويس [5, 10].", "en": "Yes. WHO's five keys to safer food are keep clean, separate raw and cooked, cook thoroughly, keep food at safe temperatures, and use safe water and raw materials. Keeping raw meat and eggs away from other foods avoids cross-contamination, and you should wash your hands and surfaces afterwards. [5, 10]"}}
       ],
       "sources": [
         {"label": "Ducrot et al. — Meal planning, diet quality and body weight status (PMC5288891)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5288891/"},
@@ -191,8 +193,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "اتوسّع الدليل بشرح تركيب وجبات الفريزر والتبريد والفك والتسخين الآمن، واتراجع طبياً من جديد.",
-            "en": "The guide was expanded with freezer-meal assembly and safe cooling, thawing, and reheating, and was medically re-reviewed."
+            "ar": "اتوسّع الدليل بشرح تركيب وجبات الفريزر والتبريد والفك والتسخين الآمن، واتراجع طبياً من جديد. اتضاف سؤالين شائعين عن الفئات الأكثر عرضة وفصل النيء عن المطبوخ، بمصادرهم.",
+            "en": "The guide was expanded with freezer-meal assembly and safe cooling, thawing, and reheating, and was medically re-reviewed. Added two cited FAQs on higher-risk groups and separating raw from cooked food."
           }
         }
       ]
