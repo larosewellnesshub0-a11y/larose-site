@@ -1,0 +1,203 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-binge-eating-episodes; replaces the entry from content/articles.json. Expanded the brief answer into a cited bilingual guide to recognising loss-of-control eating, responding safely, and knowing when specialist or urgent help is needed.",
+  "articles": [
+    {
+      "slug": "qa-binge-eating-episodes",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": ["clinical-nutrition", "weight-management"],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/clinical-nutrition-2.webp",
+      "title": {
+        "ar": "بيجيلي نوبات باكل فيها بسرعة ومبعرفش أوقف، ده طبيعي؟",
+        "en": "I have episodes when I eat quickly and cannot stop. Is that normal?"
+      },
+      "excerpt": {
+        "ar": "نوبة الأكل مع فقدان السيطرة مش ضعف إرادة. اعرف الفرق عن الأكل الزيادة، وإيه تعمل بعدها، وإمتى تحتاج تقييماً متخصصاً أو مساعدة عاجلة.",
+        "en": "An eating episode with loss of control is not weak willpower. Learn how it differs from overeating, what to do afterwards, and when specialist or urgent help is needed."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا الإجابة بشرح نوبات الأكل وفقدان السيطرة والخطوات الآمنة والعلاج، واتراجعت طبياً من جديد.",
+            "en": "We expanded the answer with guidance on binge episodes, loss of control, safe next steps and treatment, and medically re-reviewed it."
+          }
+        }
+      ],
+      "tags": {
+        "ar": ["نوبات الأكل", "فقدان السيطرة على الأكل", "اضطراب نهم الطعام", "اضطرابات الأكل", "التغذية العلاجية"],
+        "en": ["binge eating episodes", "loss of control eating", "binge-eating disorder", "eating disorders", "clinical nutrition"]
+      },
+      "sections": [
+        {
+          "id": "short-answer-loss-of-control",
+          "heading": {
+            "ar": "الإجابة المختصرة: النوبة تستحق اهتمام، ومش معناها إن إرادتك ضعيفة",
+            "en": "The short answer: the episode deserves attention and is not weak willpower"
+          },
+          "body": {
+            "ar": "لو بتاكل بسرعة وبتحس وقتها إنك مش قادر توقف أو تتحكم في إيه أو قد إيه بتاكل، ما تتجاهلش الإحساس ده. فقدان السيطرة هو جزء أساسي من وصف نوبة الأكل، لكنه لوحده ما يكفيش عشان تشخّص نفسك باضطراب نهم الطعام. المختص بيسأل كمان عن كمية الأكل بالنسبة للموقف، مدة النوبة، التكرار، الضيق بعدها، وأي محاولة للتعويض [1, 4, 6]. نوبة واحدة أو وجبة كبيرة في مناسبة مش معناها تلقائياً إن عندك اضطراب، لكن تكرار فقدان السيطرة أو تأثيره على يومك سبب كفاية لطلب تقييم.\n\nالموضوع مش عيب في الشخصية ولا نقص انضباط. اضطرابات الأكل حالات صحية ونفسية معقدة، ومصادر المعاهد الصحية بتوضح إن عوامل وراثية وبيولوجية ونفسية وسلوكية واجتماعية ممكن تدخل في الصورة؛ مفيش سبب واحد نقدر نلومه [1, 2, 12]. النوبة ممكن تحصل بعد حرمان طويل، ضغط، مشاعر صعبة، أو وسط عادات ومواقف اتكررت، وممكن أكتر من عامل يكون موجود في نفس الوقت.\n\nكمان شكل الجسم ما يحكمش. اضطراب الأكل ممكن يظهر عند أوزان وأشكال مختلفة، والشخص ممكن يبدو بصحة كويسة ومع ذلك يكون متأذياً أو محتاج دعماً [2, 6]. ما تستناش الوزن يتغير عشان تتكلم. السؤال المفيد دلوقتي هو: هل فيه فقدان سيطرة متكرر أو ضيق أو سلوك تعويضي؟ الإجابة هي اللي توجه الخطوة الجاية، مش رقم الميزان ولا حكمك على إرادتك [2, 3].",
+            "en": "If you eat rapidly and feel unable to stop or control what or how much you are eating, do not dismiss that experience. Loss of control is central to the description of a binge episode, but it is not enough on its own to diagnose binge-eating disorder. A clinician also asks about the amount relative to the situation, how long the episode lasts, recurrence, distress afterwards and any attempt to compensate [1, 4, 6]. One episode or a large meal at a celebration does not automatically mean that you have a disorder, but recurrent loss of control or disruption to daily life is enough reason to seek assessment.\n\nThis is not a character defect or lack of discipline. Eating disorders are complex physical and mental-health conditions. Health institutes describe genetic, biological, psychological, behavioural and social factors as possible contributors; there is no single factor to blame [1, 2, 12]. An episode may follow prolonged restriction, stress, difficult feelings or repeated situational cues, and several factors may be present together.\n\nBody shape does not decide whether the problem is real. Eating disorders can occur across body weights and shapes, and someone who appears healthy may still be unwell or need support [2, 6]. Do not wait for weight to change before speaking up. The useful questions are whether loss of control recurs, causes distress or is followed by compensatory behaviour. Those answers guide the next step—not the scale or a judgement about willpower [2, 3]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "binge-versus-overeating",
+          "heading": {
+            "ar": "إيه الفرق بين نوبة الأكل ووجبة كبيرة أو أكل زيادة؟",
+            "en": "How is a binge episode different from a large meal or overeating?"
+          },
+          "body": {
+            "ar": "كلنا ممكن ناكل أكتر من المعتاد في عزومة، عيد، أو يوم كانت فيه الوجبة متأخرة. الإحساس بالتخمة أو الندم بعد وجبة كبيرة مش كفاية وحده عشان نسميها نوبة. في وصف نوبة الأكل، بيكون فيه إحساس واضح إن السيطرة ضاعت أثناء فترة محدودة، مع أكل كمية أكبر من اللي أغلب الناس كانت هتاكلها في ظروف مشابهة [1, 6, 8]. ممكن تلاقي نفسك بتاكل أسرع من المعتاد، تكمل رغم الشبع، تاكل من غير جوع جسدي، أو تاكل لوحدك عشان الإحراج، وبعدها تحس بضيق أو ذنب أو اشمئزاز [2, 4, 6]. مش لازم كل العلامات تظهر في كل مرة.\n\nحجم الوجبة لوحده ممكن يكون مضلل لأن الاحتياج والسياق مختلفين. شخص ما أكلش لساعات طويلة أو عمل مجهود كبير ممكن ياكل كمية أكبر من يوم عادي من غير فقدان سيطرة. وفي المقابل، بعض الناس يوصفوا فقدان سيطرة حقيقي حتى لو مش قادرين يحددوا إن الكمية كانت كبيرة بوضوح. عشان كده التقييم ما يعتمدش على صورة طبق أو رقم سعرات؛ بيعتمد على وصف صادق للإحساس والسياق والتكرار [10, 12].\n\nلو محتار هل الدافع كان جوعاً أو مشاعر أو الاتنين، دليل إزاي أعرف الجوع الجسدي من الأكل العاطفي؟ يساعدك تلاحظ الإشارات من غير ما يحولها لاختبار تشخيصي. الصفحة الحالية تركيزها مختلف: إحساس إنك مش قادر توقف وما يحدث بعده. سجّل الوصف بكلمات بسيطة زي «بدأت بعد وقت طويل من غير أكل، أكلت بسرعة، وحسيت إني مش قادر أهدّى أو أوقف» بدل كلمات لوم زي «أنا ضعيف» [3, 10].",
+            "en": "Anyone may eat more than usual at a gathering, celebration or after a delayed meal. Fullness or regret after a large meal is not enough by itself to call it a binge. A binge episode includes a clear sense of lost control during a limited period, together with eating an amount larger than most people would eat under similar circumstances [1, 6, 8]. You may eat more rapidly than usual, continue despite fullness, eat without physical hunger or eat alone because of embarrassment, then feel distress, guilt or disgust [2, 4, 6]. Every feature does not have to appear each time.\n\nMeal size alone can mislead because needs and circumstances differ. Someone who has not eaten for many hours or has been very active may eat more than on an ordinary day without losing control. Conversely, some people describe genuine loss of control even when they cannot establish that the quantity was objectively large. Assessment therefore does not rely on a plate photograph or calorie number; it considers an honest account of the experience, context and recurrence [10, 12].\n\nIf you are unsure whether physical hunger, emotion or both were involved, How can I tell physical hunger from emotional eating? can help you observe the signals without turning them into a diagnostic test. This page has a different focus: the feeling that you cannot stop and what follows. Use a simple description such as “It began after a long period without food, I ate quickly, and I felt unable to slow down or stop,” instead of blame such as “I am weak” [3, 10]."
+          },
+          "links": {
+            "ar": [{"label": "إزاي أعرف الجوع الجسدي من الأكل العاطفي؟", "url": "../articles/qa-physical-or-emotional-hunger.html"}],
+            "en": [{"label": "How can I tell physical hunger from emotional eating?", "url": "../articles/qa-physical-or-emotional-hunger.html"}]
+          }
+        },
+        {
+          "id": "when-pattern-needs-assessment",
+          "heading": {
+            "ar": "إمتى النمط ممكن يكون اضطراب نهم طعام أو اضطراب أكل تاني؟",
+            "en": "When might the pattern be binge-eating disorder or another eating disorder?"
+          },
+          "body": {
+            "ar": "اضطراب نهم الطعام مش اسم لأي أكل زيادة. التشخيص بيتطلب نوبات متكررة مع فقدان سيطرة وضيق واضح، ويقيّم المختص التكرار والمدة وباقي المعايير من خلال مقابلة كاملة. كمعلومة تساعدك تفهم ليه نوبة واحدة مش تشخيصاً، يذكر NIDDK إن النمط التشخيصي يتضمن عادة نوبة على الأقل أسبوعياً لمدة 3 شهور؛ لكن الرقم ده مش دعوة إنك تستنى 3 شهور قبل طلب المساعدة [1]. لو النوبات بتتكرر، بتستخبى بسببها، أو بتأثر على الشغل أو الدراسة أو العلاقات، اتكلم بدري مع مختص.\n\nالفرق عن النهام العصبي مهم. في اضطراب نهم الطعام ما بيكونش فيه استخدام منتظم لسلوك تعويضي بعد النوبات. لو بتتعمد القيء، تستخدم ملينات أو مدرات بول، تصوم كعقاب، أو تتمرن بشكل قهري عشان «تلغي» الأكل، لازم تقول للمختص بوضوح؛ ده ممكن يوجه التقييم لاضطراب مختلف ويغيّر احتياجات الأمان والمتابعة الطبية [2, 3, 6]. ما تحاولش تختار التشخيص بنفسك، لأن ناس كتير يكون عندها أعراض مؤذية حتى لو ما طابقتش كل معايير اسم محدد.\n\nالتقييم مهم كمان لو فيه اكتئاب أو قلق، أفكار قوية عن شكل الجسم، عزلة، استخدام مواد، أو ضيق شديد. صفحة إمتى الأكل العاطفي يحتاج مساعدة متخصصة؟ بتشرح بالتفصيل إمتى دور التغذية يكفي كبداية وإمتى لازم مختص صحة نفسية يكون جزءاً أساسياً من الفريق. هنا الخلاصة: فقدان السيطرة المتكرر يستحق تقييماً، والسلوك التعويضي لازم يتقال، والوزن الطبيعي ما يستبعدش المشكلة [2, 3, 10].",
+            "en": "Binge-eating disorder is not a label for any occasion of overeating. Diagnosis requires recurrent episodes with loss of control and marked distress, and a professional assesses frequency, duration and the other criteria through a complete interview. To show why one episode is not a diagnosis, NIDDK notes that the diagnostic pattern generally includes at least one episode a week for 3 months; this threshold is not a reason to wait 3 months before asking for help [1]. Speak with a professional early when episodes recur, lead to secrecy or affect work, study or relationships.\n\nThe distinction from bulimia nervosa matters. Binge-eating disorder does not involve regular compensatory behaviour after episodes. Tell the clinician clearly if you induce vomiting, use laxatives or diuretics, fast as punishment or exercise compulsively to “cancel” eating. These behaviours can point towards a different disorder and change physical-safety and monitoring needs [2, 3, 6]. Do not try to choose the diagnosis yourself; many people have harmful symptoms even when they do not meet every criterion for one named condition.\n\nAssessment also matters when depression, anxiety, intense body-image concerns, isolation, substance use or marked distress is present. When does emotional eating need specialist help? explains in more detail when nutrition care may be a starting point and when an eating-disorder-informed mental-health professional must be central to the team. The essentials here are that recurrent loss of control deserves assessment, compensatory behaviour must be disclosed and a weight in the usual range does not rule out a problem [2, 3, 10]."
+          },
+          "links": {
+            "ar": [{"label": "إمتى الأكل العاطفي يحتاج مساعدة متخصصة؟", "url": "../articles/qa-emotional-eating-needs-specialist.html"}],
+            "en": [{"label": "When does emotional eating need specialist help?", "url": "../articles/qa-emotional-eating-needs-specialist.html"}]
+          }
+        },
+        {
+          "id": "during-and-after-episode",
+          "heading": {
+            "ar": "وقت النوبة وبعدها: خطوات آمنة من غير عقاب",
+            "en": "During and after an episode: safe steps without punishment"
+          },
+          "body": {
+            "ar": "أثناء النوبة، لو تقدر تعمل وقفة من غير ما تدخل في شدّ مع نفسك، ابعد ثواني عن الشاشة أو العبوة وخد نفساً أبطأ. اسأل: هل أنا في خطر جسدي دلوقتي؟ هل فيه ألم شديد، شرقة، قيء، دوخة أو ارتباك؟ لو مفيش خطر فوري، حاول تقعد في مكان ثابت وتبطّأ خطوة واحدة، من غير وعد إنك لازم توقف فوراً ومن غير شتيمة لنفسك. الوقفة مش اختبار إرادة ولا علاجاً كاملاً؛ هي مجرد فرصة تلاحظ اللي حاصل وتطلب مساعدة لو محتاج [3, 7].\n\nبعد النوبة، ما تعاقبش نفسك بتخطي الوجبة التالية، صيام طويل، تمرين قاسٍ، قيء أو ملينات. إرشادات علاج نهم الطعام بتبني انتظاماً في الوجبات والسناكات، وبتحذر من الرجيم الهادف لخسارة الوزن أثناء العلاج لأنه ممكن يثير نوبات جديدة [3, 5]. ارجع لفرصة الأكل الطبيعية التالية واشرب سوائل بشكل معتدل حسب احتياجك وحالتك الطبية. لو عندك سكري أو مرض مزمن أو دواء بيتأثر بالأكل، ما تعدلش الجرعة أو الخطة من نفسك؛ تواصل مع طبيبك المعالج.\n\nلما تهدى، اكتب كام سطر محايد لو ده مش بيزود الوسواس: إمتى حصلت النوبة، آخر وجبة كانت إمتى، إيه الشعور أو الموقف قبلها، هل كان فيه فقدان سيطرة، وإيه حصل بعدها. ما تحتاجش وزن الطعام أو عد سعرات. لو التسجيل بيزود الذنب أو الحرمان، سيبه. الهدف جمع معلومة تساعدك والمختص، مش عمل محضر ضد نفسك [3, 10, 11].",
+            "en": "During an episode, if you can pause without entering a struggle with yourself, look away from the screen or package for a few seconds and take a slower breath. Ask whether you are in immediate physical danger: Is there severe pain, choking, vomiting, dizziness or confusion? If there is no immediate danger, try sitting somewhere stable and slowing down one step, without demanding that you stop instantly or insulting yourself. The pause is not a test of willpower or a complete treatment; it is simply an opportunity to notice what is happening and seek help if needed [3, 7].\n\nAfterwards, do not punish yourself by skipping the next meal, fasting for a long period, exercising harshly, vomiting or using laxatives. Binge-eating treatment guidance builds regular meals and snacks and advises against dieting for weight loss during treatment because restriction can trigger further episodes [3, 5]. Return to the next ordinary eating opportunity and drink fluids moderately according to your needs and medical condition. If you have diabetes, another chronic condition or medicine affected by food, do not alter doses or your care plan yourself; contact the treating clinician.\n\nWhen things are calmer, write a few neutral lines if recording does not increase obsessive thoughts: when the episode occurred, when you last ate, the feeling or event beforehand, whether control felt lost and what happened afterwards. You do not need to weigh food or count calories. Stop recording if it increases guilt or restriction. The purpose is to gather information that helps you and the clinician, not to build a case against yourself [3, 10, 11]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "assessment-without-blame",
+          "heading": {
+            "ar": "التقييم بيمشي إزاي؟ أسئلة وفحص من غير لوم",
+            "en": "What does assessment involve? Questions and checks without blame"
+          },
+          "body": {
+            "ar": "التقييم المناسب غالباً يبدأ مع طبيب أو مختص صحة نفسية عنده خبرة باضطرابات الأكل، وممكن يشارك مختص تغذية علاجية مدرّب على التعامل مع الأكل المضطرب. هيتسأل عن بداية النوبات وتكرارها ومدتها، إحساس فقدان السيطرة، السرعة، الأكل في السر، الضيق، وأي قيء أو ملينات أو صيام أو تمرين للتعويض. كمان مهم تحكي عن انتظام الوجبات، فترات الحرمان، النوم، الأدوية والمكملات، تغير الوزن، صورة الجسم، المزاج، القلق، الصدمة، واستخدام المواد [1, 7, 10]. الإجابة الصادقة أنفع من محاولة تقديم يوم أكل «مثالي».\n\nحسب الأعراض، الطبيب ممكن يراجع النبض والضغط والحالة العامة، ويطلب فحوصات موجهة لو فيه قيء متكرر، إغماء، تغير سريع في الوزن، جفاف، أو احتمال اضطراب أملاح أو مشكلة مصاحبة. مفيش تحليل دم واحد يشخّص نوبة الأكل، ومش كل شخص محتاج نفس الفحوصات [7, 9]. أدوات الفرز ممكن تساعد في فتح النقاش، لكن NICE بتقول إنها ما تتستخدمش لوحدها للحكم هل فيه اضطراب أكل أم لأ [3].\n\nخد معاك قائمة الأدوية، وأي تقارير حديثة مرتبطة بالأعراض، ووصفاً لكام نوبة. قول بوضوح لو فيه خوف من الوزن، سلوك تعويضي، اكتئاب، إيذاء نفس، أو إحساس إنك مش آمن. المختص يحدد التشخيص ومستوى الرعاية بالتعاون معاك؛ وممكن البداية تكون عيادات خارجية، لكن عدم الاستقرار الجسدي أو النفسي يحتاج رعاية أسرع أو أكتر كثافة [2, 3, 9].",
+            "en": "Appropriate assessment usually begins with a doctor or mental-health professional experienced in eating disorders, with an eating-disorder-informed clinical nutrition professional involved when appropriate. Expect questions about when episodes began, frequency and duration, the sense of lost control, speed, secretive eating, distress, and any vomiting, laxative use, fasting or exercise used to compensate. Meal regularity, restriction, sleep, medicines and supplements, weight history, body image, mood, anxiety, trauma and substance use also matter [1, 7, 10]. An honest account is more useful than trying to present a “perfect” day of eating.\n\nDepending on symptoms, a doctor may check pulse, blood pressure and general physical status, then order targeted tests when there is recurrent vomiting, fainting, rapid weight change, dehydration or possible electrolyte disturbance or another condition. No single blood test diagnoses a binge episode, and not everyone needs the same tests [7, 9]. Screening tools may open a conversation, but NICE says they should not be used alone to determine whether an eating disorder is present [3].\n\nBring a medicine list, any recent reports related to the symptoms and a description of a few episodes. State clearly if there is fear of weight gain, compensatory behaviour, depression, self-harm or a sense that you are unsafe. The clinician establishes diagnosis and level of care with you. Outpatient care may be a starting point, but physical or psychological instability needs faster or more intensive support [2, 3, 9]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "treatment-and-team",
+          "heading": {
+            "ar": "العلاج الفعّال مش ورقة ممنوعات: إيه اللي ممكن يساعد؟",
+            "en": "Effective care is not a prohibition list: what can help?"
+          },
+          "body": {
+            "ar": "العلاج بيتحدد حسب التشخيص وشدة النوبات والحالة الجسدية والنفسية وتفضيلاتك. إرشادات NICE بتوصي للبالغين المصابين باضطراب نهم الطعام بمساعدة ذاتية موجهة تركز على الاضطراب كخطوة أولى مناسبة في حالات كثيرة، ثم علاج معرفي سلوكي موجه لاضطرابات الأكل في مجموعة أو بشكل فردي لو المساعدة الذاتية مش مناسبة أو ما نفعتش [3]. العلاج بيشتغل على انتظام الأكل، معرفة المحفزات، الأفكار عن الجسم، التعامل مع المشاعر ومنع الانتكاس؛ وخسارة الوزن مش هدف العلاج النفسي الأساسي [3, 5].\n\nالمراجعات العلمية بتدعم العلاج النفسي، وخصوصاً التدخلات المعرفية السلوكية، لتقليل نوبات الأكل والضيق، مع اختلاف الاستجابة والسرعة بين الأشخاص [10, 11, 12]. مختص التغذية العلاجية يقدر يساعد في بناء وجبات كافية ومنتظمة وتقليل الحرمان والقواعد الجامدة، لكنه مش بديل عن مختص صحة نفسية لما يكون فيه اضطراب أكل أو اكتئاب أو قلق أو صدمة محتاجة علاج. الطبيب يتابع الصحة الجسدية وأي حالات أو أدوية مصاحبة. التعاون بين التخصصات غالباً أنسب من تحميل تخصص واحد كل الأدوار [2, 7].\n\nبعض الأدوية ممكن تدخل في علاج اضطراب نهم الطعام أو حالات مصاحبة عند أشخاص معينين، لكنها مش وصفة تلقائية لكل نوبة ومش تبدأها أو تستعمل دواء شخص تاني من نفسك. الطبيب يراجع التشخيص، الفوائد والمخاطر، التداخلات، الصحة القلبية والنفسية، وإمكانية إساءة الاستخدام حسب الدواء [2, 7, 10]. العلاج الدوائي ما يلغيّش دعم الأكل المنتظم والعلاج النفسي المناسب، والقرار الفردي يفضل مع الطبيب المعالج.",
+            "en": "Treatment depends on the diagnosis, episode severity, physical and mental health, and your preferences. NICE recommends binge-eating-disorder-focused guided self-help as an appropriate first step for many adults, followed by group or individual eating-disorder-focused cognitive behavioural therapy when guided self-help is unsuitable or ineffective [3]. Treatment works on regular eating, recognising triggers, beliefs about the body, ways of managing emotions and relapse prevention; weight loss is not the primary target of the psychological treatment [3, 5].\n\nResearch reviews support psychotherapy, particularly cognitive-behavioural approaches, for reducing binge episodes and eating-disorder distress, although response and pace differ among people [10, 11, 12]. A clinical nutrition professional can help establish adequate, regular meals and reduce restriction and rigid rules, but does not replace an eating-disorder-informed mental-health professional when an eating disorder, depression, anxiety or trauma needs therapy. A doctor monitors physical health and accompanying conditions or medicines. Collaboration is often more suitable than expecting one discipline to perform every role [2, 7].\n\nSome medicines may be considered for diagnosed binge-eating disorder or accompanying conditions in selected people, but they are not an automatic prescription for every episode. Do not start a medicine yourself or use someone else's prescription. The doctor reviews diagnosis, benefits and harms, interactions, cardiac and mental health, and misuse potential according to the specific medicine [2, 7, 10]. Medication does not replace support for regular eating and suitable psychological treatment, and the individual decision remains with the treating clinician."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "urgent-help-and-next-step",
+          "heading": {
+            "ar": "علامات الخطر والخطوة الجاية من غير تأجيل",
+            "en": "Red flags and the next step without delay"
+          },
+          "body": {
+            "ar": "نوبة الأكل وحدها مش دايماً طوارئ، لكن أعراض معينة ما ينفعش تستنى موعداً عادياً. اطلب تقييماً عاجلاً لو فيه إغماء أو ارتباك، ألم صدر أو خفقان شديد، صعوبة تنفس، شرقة مستمرة، ألم بطن شديد، قيء دموي، ضعف شديد، جفاف واضح أو عدم قدرة على الاحتفاظ بالسوائل. القيء المتعمد المتكرر، استخدام الملينات أو مدرات البول، أو تدهور جسدي سريع يحتاج تقييماً طبياً عاجلاً حسب الشدة، لأن اضطراب السوائل والأملاح ممكن يبقى خطيراً [2, 3, 9]. لو الخطر شديد أو مفاجئ، اتصل بخدمات الطوارئ المحلية أو روح لأقرب قسم طوارئ.\n\nلو فيه أفكار بإيذاء النفس أو الانتحار، أو حاسس إنك مش قادر تضمن أمانك، اطلب مساعدة فورية من الطوارئ المحلية أو أقرب طوارئ، وخلي شخصاً موثوقاً يفضل معاك لو أمكن. ما تستناش موعد تغذية روتيني في وجود خطر فوري [2, 9]. ولو مفيش طارئ لكن النوبات متكررة أو مرهقة أو بتأثر على حياتك، اطلب تقييماً قريباً من مختص مناسب؛ التدخل المبكر مهم، ومش لازم تستنى تشخيصاً كاملاً أو تغيراً في الوزن [2, 3, 4].\n\nفي العيادة، البداية تقدر تكون مراجعة منظمة لمواعيد الأكل وكفايته، النوبات، الحالة الجسدية والنفسية، والأدوية، مع إحالة لمختص صحة نفسية عند الحاجة. العيادة ما ينفعش تعدك بنتيجة ولا تستبدل رعاية الطوارئ، لكنها تقدر تساعد في تحديد أول خطوة والتخصص المناسب. لو مفيش خطر عاجل ومحتاج تبدأ، تقدر تستخدم طلب حجز استشارة تغذية علاجية وتذكر من البداية إن الشكوى الأساسية هي نوبات أكل مع فقدان سيطرة [1, 3, 7].",
+            "en": "A binge episode is not always an emergency, but certain symptoms should not wait for a routine appointment. Seek urgent assessment for fainting or confusion, chest pain or severe palpitations, breathing difficulty, persistent choking, severe abdominal pain, vomiting blood, profound weakness, clear dehydration or inability to keep fluids down. Repeated self-induced vomiting, misuse of laxatives or diuretics, or rapid physical deterioration needs urgent medical assessment according to severity because fluid and electrolyte disturbances can be dangerous [2, 3, 9]. If danger is severe or sudden, contact local emergency services or go to the nearest emergency department.\n\nIf you have thoughts of self-harm or suicide, or cannot keep yourself safe, seek immediate help from local emergency services or the nearest emergency department, and ask a trusted person to stay with you if possible. Do not wait for a routine nutrition visit when there is immediate danger [2, 9]. If there is no emergency but episodes are recurrent, distressing or disrupting your life, request timely assessment from an appropriate professional. Early care matters, and you do not need to wait for a complete diagnosis or weight change [2, 3, 4].\n\nAt a clinic, the starting point can be a structured review of meal timing and adequacy, episodes, physical and mental health, and medicines, with referral to a mental-health professional when needed. A clinic cannot promise an outcome or replace emergency care, but it can help identify the first step and the appropriate discipline. If there is no immediate danger and you need a starting point, you can request a clinical nutrition consultation and state from the outset that the main concern is eating episodes with loss of control [1, 3, 7]."
+          },
+          "links": {
+            "ar": [{"label": "طلب حجز استشارة تغذية علاجية", "url": "../patients/booking.html"}],
+            "en": [{"label": "request a clinical nutrition consultation", "url": "../patients/booking.html"}]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {"ar": "هل نوبة واحدة معناها إن عندي اضطراب نهم الطعام؟", "en": "Does one episode mean that I have binge-eating disorder?"},
+          "a": {
+            "ar": "لأ. نوبة واحدة أو وجبة أكلت فيها زيادة مش كفاية للتشخيص. المختص بيقيّم فقدان السيطرة، التكرار عبر مدة، الضيق، العلامات المصاحبة، وتأثير النمط على حياتك. اطلب مساعدة قبل اكتمال أي مدة لو النوبة مخوفاك أو بتتكرر أو فيه تعويض [1, 3, 6].",
+            "en": "No. One episode or one occasion of overeating is not enough for diagnosis. A professional assesses loss of control, recurrence over time, distress, accompanying features and effects on your life. Seek help before any time threshold is reached if the episode concerns you, recurs or involves compensation [1, 3, 6]."
+          }
+        },
+        {
+          "q": {"ar": "لازم أكون أكلت كمية ضخمة عشان يكون فقدان السيطرة مهماً؟", "en": "Must I eat an enormous amount for loss of control to matter?"},
+          "a": {
+            "ar": "التشخيص الرسمي بيفحص الكمية بالنسبة للوقت والظروف مع فقدان السيطرة، لكن صعوبة تقدير الكمية مش معناها إن ضيقك أقل. احكي للمختص إيه اللي حصل وإحساسك أثناءه بدل ما تحاول تثبت رقم. فقدان السيطرة المتكرر يستحق نقاشاً حتى لو مش متأكد من حجم الأكل [1, 10, 12].",
+            "en": "Formal diagnosis considers the amount relative to the time and circumstances together with loss of control, but difficulty estimating quantity does not erase your distress. Tell the clinician what happened and how it felt instead of trying to prove a number. Recurrent loss of control deserves discussion even when you are unsure of the amount [1, 10, 12]."
+          }
+        },
+        {
+          "q": {"ar": "أقلل أكلي أو أصوم اليوم اللي بعد النوبة؟", "en": "Should I eat less or fast the day after an episode?"},
+          "a": {
+            "ar": "ما تعاقبش نفسك بحرمان أو صيام تعويضي. ارجع لفرص أكل منتظمة وكافية، لأن القيود القاسية والجوع ممكن يغذوا الحلقة. لو عندك مرض أو دواء يفرض مواعيد أكل معينة، اتبع خطة طبيبك وما تعدلهاش من نفسك [3, 5].",
+            "en": "Do not punish yourself with restriction or compensatory fasting. Return to adequate, regular eating opportunities because harsh restriction and hunger can maintain the cycle. If a condition or medicine requires specific meal timing, follow the treating clinician's plan and do not alter it yourself [3, 5]."
+          }
+        },
+        {
+          "q": {"ar": "ممكن اضطراب نهم الطعام يحصل ووزني طبيعي؟", "en": "Can binge-eating disorder occur at a weight in the usual range?"},
+          "a": {
+            "ar": "أيوه. اضطرابات الأكل ممكن تظهر عند أوزان وأشكال جسم مختلفة، والوزن وحده ما يقيسش فقدان السيطرة أو الضيق أو الخطورة. ما تستناش زيادة الوزن؛ اتكلم مع مختص لو النوبات متكررة أو مؤثرة عليك [2, 6].",
+            "en": "Yes. Eating disorders can occur across body weights and shapes, and weight alone does not measure loss of control, distress or risk. Do not wait for weight gain; speak with a professional when episodes recur or affect you [2, 6]."
+          }
+        },
+        {
+          "q": {"ar": "هل الدواء لوحده يوقف نوبات الأكل؟", "en": "Can medicine alone stop binge episodes?"},
+          "a": {
+            "ar": "مش كل شخص محتاج دواء، والدواء مش خطوة تبدأها من نفسك. العلاج النفسي الموجه للاضطراب والأكل المنتظم من الأسس المهمة، وبعض الأدوية تُناقش لحالات مختارة بعد تشخيص ومراجعة المخاطر والتداخلات والحالة النفسية والجسدية [3, 7, 10].",
+            "en": "Not everyone needs medicine, and it is not something to start yourself. Eating-disorder-focused psychological care and regular eating are important foundations. Selected medicines may be discussed after diagnosis and review of risks, interactions, and physical and mental health [3, 7, 10]."
+          }
+        },
+        {
+          "q": {"ar": "إزاي أقول لشخص قريب من غير ما أحس بإحراج؟", "en": "How can I tell someone close to me without feeling overwhelmed by shame?"},
+          "a": {
+            "ar": "ابدأ بجملة مباشرة وبسيطة: «بيحصل معايا أكل سريع وإحساس إني مش قادر أوقف، ومحتاج مساعدتك أطلب تقييماً». اختار شخصاً موثوقاً وحدد طلباً واضحاً، زي إنه يسمع من غير حكم أو ييجي معاك للموعد. الدعم ما يستبدلش المختص، لكنه ممكن يسهل أول خطوة [2, 4].",
+            "en": "Start with a simple direct sentence: “I have episodes of rapid eating when I feel unable to stop, and I need help arranging an assessment.” Choose someone you trust and make a specific request, such as listening without judgement or accompanying you. Support does not replace professional care, but it can make the first step easier [2, 4]."
+          }
+        }
+      ],
+      "sources": [
+        {"label": "NIDDK — Binge Eating Disorder", "url": "https://www.niddk.nih.gov/health-information/weight-management/binge-eating-disorder"},
+        {"label": "National Institute of Mental Health — Eating Disorders: What You Need to Know", "url": "https://www.nimh.nih.gov/health/publications/eating-disorders"},
+        {"label": "NICE — Eating disorders: recognition and treatment (NG69), recommendations", "url": "https://www.nice.org.uk/guidance/ng69/chapter/Recommendations"},
+        {"label": "NHS — Overview: Binge eating disorder", "url": "https://www.nhs.uk/mental-health/conditions/binge-eating/overview/"},
+        {"label": "NHS — Treatment: Binge eating disorder", "url": "https://www.nhs.uk/mental-health/conditions/binge-eating/treatment/"},
+        {"label": "Mayo Clinic — Binge-eating disorder: symptoms and causes", "url": "https://www.mayoclinic.org/diseases-conditions/binge-eating-disorder/symptoms-causes/syc-20353627"},
+        {"label": "Mayo Clinic — Binge-eating disorder: diagnosis and treatment", "url": "https://www.mayoclinic.org/diseases-conditions/binge-eating-disorder/diagnosis-treatment/drc-20353633"},
+        {"label": "MedlinePlus Medical Encyclopedia — Binge eating disorder", "url": "https://www.medlineplus.gov/ency/article/003265.htm"},
+        {"label": "Royal College of Psychiatrists — Medical Emergencies in Eating Disorders (MEED)", "url": "https://www.rcpsych.ac.uk/improving-care/campaigning-for-better-mental-health-policy/college-reports/2022-college-reports/cr233"},
+        {"label": "Keshen et al. — Binge eating disorder: updated overview for primary care practitioners (PMC9197289)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9197289/"},
+        {"label": "Moustafa et al. — Treatment of Binge-Eating Disorder Across the Lifespan: updated review (PMC11150297)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11150297/"},
+        {"label": "Giel et al. — Binge eating disorder (Nature Reviews Disease Primers; PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/35301358/"}
+      ],
+      "seo": {
+        "title": {
+          "ar": "نوبات الأكل وفقدان السيطرة: إمتى تطلب مساعدة؟",
+          "en": "Binge eating and loss of control: when to get help"
+        },
+        "description": {
+          "ar": "اعرف علامات نوبات الأكل وفقدان السيطرة، والفرق عن الأكل الزيادة، وإيه تعمل بعدها، وإمتى تحتاج تقييماً متخصصاً أو مساعدة عاجلة.",
+          "en": "Learn the signs of binge eating and loss of control, how it differs from overeating, what to do next, and when to seek specialist or urgent help."
+        }
+      }
+    }
+  ]
+}

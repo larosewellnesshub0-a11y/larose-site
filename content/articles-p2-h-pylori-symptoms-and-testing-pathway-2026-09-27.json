@@ -1,0 +1,333 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of h-pylori-symptoms-and-testing-pathway; replaces the entry from content/articles-longform-2026-09-12.json. Expanded into a cited bilingual symptom-to-testing and test-of-cure pathway with red flags and internal links.",
+  "articles": [
+    {
+      "slug": "h-pylori-symptoms-and-testing-pathway",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "internal-medicine"
+      ],
+      "date": "2026-09-12",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/h-pylori-testing-cover.webp",
+      "title": {
+        "ar": "جرثومة المعدة: الأعراض والتحاليل وخطوات التشخيص",
+        "en": "H. pylori symptoms, tests and diagnosis pathway"
+      },
+      "excerpt": {
+        "ar": "أعراض جرثومة المعدة مش مميزة لوحدها. اعرف إمتى التحليل مناسب، والفرق بين تحليل النفس والبراز والمنظار، وإزاي تتجنب نتيجة سلبية مضللة.",
+        "en": "H. pylori symptoms are not specific. Learn when testing fits, how breath, stool and endoscopy tests differ, and how to avoid a misleading negative result."
+      },
+      "tags": {
+        "ar": [
+          "جرثومة المعدة أعراض وتحاليل",
+          "تحليل جرثومة المعدة",
+          "اختبار النفس والبراز"
+        ],
+        "en": [
+          "H. pylori symptoms and testing",
+          "H. pylori test",
+          "breath and stool tests"
+        ]
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا مسار الأعراض والتحاليل والتحضير والمتابعة بعد العلاج، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the symptom, testing, preparation and post-treatment pathway and medically re-reviewed the content."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "symptoms-are-not-a-diagnosis",
+          "heading": {
+            "ar": "أعراض جرثومة المعدة: ليه الإحساس لوحده ما يشخّصش؟",
+            "en": "H. pylori symptoms: why symptoms alone cannot diagnose it"
+          },
+          "body": {
+            "ar": "جرثومة المعدة، أو Helicobacter pylori، بكتيريا بتعيش في بطانة المعدة. ناس كتير عندهم العدوى من غير أي أعراض، وناس تانية ممكن يحصل لهم التهاب بالمعدة أو قرحة. لما تظهر شكوى، ممكن تكون ألم أو حرقان أعلى البطن، إحساس بالشبع بسرعة، امتلاء بعد الأكل، غثيان، انتفاخ أو تجشؤ. المشكلة إن الأعراض دي مش بصمة خاصة بالجرثومة؛ ممكن تظهر مع عسر الهضم، الارتجاع، أدوية مسكنة، قرحة لسبب تاني، أو اضطرابات هضمية مختلفة [1, 2, 7].\n\nعشان كده، شكل الألم أو توقيته ما يثبتش العدوى وما ينفيهاش. حتى وجود حموضة أو انتفاخ بعد وجبة معينة مش معناه إن الجرثومة هي السبب. مقال الفرق بين جرثومة المعدة والارتجاع والقولون العصبي بيفصل تداخل الأعراض من غير ما يحوّل كل شكوى لتشخيص واحد. التشخيص العملي محتاج سؤال واضح: هل فيه سبب طبي لاختبار عدوى نشطة، وهل النتيجة هتغيّر الخطة؟ [1, 7, 9].\n\nقبل الزيارة، دوّن مكان الألم ومدته وعلاقته بالأكل، وهل فيه قيء أو فقدان شهية أو تغير في البراز. خد كمان قائمة أدوية الحموضة، المضادات الحيوية، البزموت، والأسبرين أو المسكنات المضادة للالتهاب. التفاصيل دي بتساعد الطبيب يفرّق بين أعراض محتاجة اختبار غير جراحي وأعراض محتاجة تقييم أوسع أو منظار. ما تبدأش مضاداً حيوياً من نفسك لمجرد إن الأعراض شبه تجربة شخص تاني [2, 3, 12].",
+            "en": "Helicobacter pylori is a bacterium that lives in the stomach lining. Many infected people have no symptoms, while others develop gastritis or a peptic ulcer. When symptoms occur, they may include upper-abdominal pain or burning, early fullness during a meal, uncomfortable fullness afterwards, nausea, bloating or belching. None of these is unique to H. pylori: the same symptoms can occur with functional dyspepsia, reflux, anti-inflammatory pain medicines, ulcers from another cause and several other digestive conditions [1, 2, 7].\n\nThe character or timing of pain therefore cannot prove or exclude infection. The guide to the difference between H. pylori, reflux and IBS explains this symptom overlap without forcing every complaint into one diagnosis. The practical question is whether there is a clinical reason to test for active infection and whether the result will change management [1, 7, 9].\n\nBefore an appointment, note where the pain occurs, how long it lasts, its relation to meals, and whether vomiting, appetite loss or stool changes accompany it. Bring a list of acid suppressants, antibiotics, bismuth, aspirin and anti-inflammatory painkillers. Those details help the clinician decide whether a non-invasive test fits or whether broader assessment or endoscopy is needed. Do not start antibiotics simply because your symptoms resemble somebody else's experience [2, 3, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الفرق بين جرثومة المعدة والارتجاع والقولون العصبي",
+                "url": "../articles/h-pylori-reflux-ibs.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "difference between H. pylori, reflux and IBS",
+                "url": "../articles/h-pylori-reflux-ibs.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "who-should-be-tested",
+          "heading": {
+            "ar": "إمتى نفكر في التحليل، وإمتى التقييم ييجي الأول؟",
+            "en": "When testing is considered, and when assessment comes first"
+          },
+          "body": {
+            "ar": "فكرة «أحلل احتياطي» مش دايماً مفيدة. إرشادات الجهاز الهضمي بتربط الاختبار بنية العلاج لو ثبتت عدوى نشطة. الطبيب ممكن يفكر في التحليل مع عسر هضم مستمر من غير علامات خطر، أو قرحة حالية أو قديمة ما اتأكدش بعدها اختفاء الجرثومة. فيه مواقف تانية بتدخل في القرار، زي أنيميا نقص الحديد من غير سبب واضح، بعض حالات نقص الصفائح المناعي، وجود تغيرات معينة ببطانة المعدة، تاريخ عائلي لسرطان المعدة، أو استخدام طويل لبعض المسكنات؛ لكن كل موقف له سياقه ومش قائمة تعملها لنفسك [5, 6, 7].\n\nالعمر، التاريخ العائلي، بلد المنشأ، أدوية المسكنات، والنتائج السابقة ممكن يغيّروا نقطة البداية. ولو فيه علامة خطر، الطبيب قد يفضّل منظاراً وتقييم السبب بدل مسار «حلّل وعالج» البسيط. راجع دليل ارتجاع المريء: متى تزور الطبيب لو الحرقان هو الشكوى الأساسية، لأن الارتجاع له مسار مختلف حتى لو بعض الإحساس متشابه [4, 5, 10].\n\nما نختبرش لمجرد إن فرداً في البيت عنده أعراض؛ لكن إرشادات حديثة بتذكر إن أفراد البيت البالغين لشخص ثبتت إصابته ممكن يدخلوا ضمن الفئات اللي يناقش معها الطبيب اختباراً غير مصلي، خصوصاً مع عوامل خطر أخرى. القرار فردي، والاختبار الإيجابي معناه التزام بعلاج كامل ومتابعة للتأكد من الشفاء. لو ما فيش نية أو قدرة على استكمال المسار، الاختبار العشوائي ممكن يضيف قلقاً من غير فائدة واضحة [5, 6, 7].",
+            "en": "Gastroenterology guidance connects testing with an intention to treat if active infection is confirmed. A clinician may consider testing for persistent dyspepsia without alarm features, or for a current or previous peptic ulcer when eradication was never documented. Other situations can influence the decision, including unexplained iron-deficiency anaemia, selected cases of immune thrombocytopenia, certain stomach-lining changes, a family history of gastric cancer or long-term use of some anti-inflammatory medicines. Each needs clinical context; it is not a self-testing checklist [5, 6, 7].\n\nAge, family history, country of origin, painkiller exposure and previous results can change the starting point. If alarm features are present, a clinician may favour endoscopy and assessment of the underlying cause instead of a simple test-and-treat route. Read acid reflux: when to see a doctor if heartburn is the main problem, because reflux follows a different pathway even though some sensations overlap [4, 5, 10].\n\nTesting is not automatically required because somebody at home has symptoms. However, recent guidance includes adult household members of a person with confirmed H. pylori among groups with whom a clinician may discuss non-serological testing, especially when other risk factors exist. The decision is individual, and a positive test means committing to a complete treatment course and follow-up confirmation. Random testing without a plan to complete that pathway can add anxiety without clear benefit [5, 6, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "ارتجاع المريء: متى تزور الطبيب",
+                "url": "../articles/acid-reflux-when-to-see-doctor.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "acid reflux: when to see a doctor",
+                "url": "../articles/acid-reflux-when-to-see-doctor.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "choosing-active-infection-test",
+          "heading": {
+            "ar": "اختبار النفس ولا تحليل البراز ولا تحليل الدم؟",
+            "en": "Breath, stool or blood test?"
+          },
+          "body": {
+            "ar": "اختبار النفس باليوريا وتحليل مستضد الجرثومة في البراز بيدوروا على عدوى نشطة، وعادةً هما الاختياران غير الجراحيين الأساسيين. في اختبار النفس بتبلع مادة فيها يوريا موسومة؛ لو الجرثومة موجودة بتحولها لثاني أكسيد الكربون يظهر في عينة النفس. تحليل البراز بيدور على بروتينات مرتبطة بالجرثومة. الاتنين ممكن يُستخدموا للتشخيص، وكمان لإثبات اختفاء العدوى بعد العلاج لما يتعملوا في التوقيت والتحضير الصح [1, 3, 4].\n\nتحليل الأجسام المضادة في الدم مختلف. النتيجة ممكن تفضل إيجابية بعد عدوى قديمة حتى لو الجرثومة اختفت، عشان كده ما ينفعش لتأكيد نجاح العلاج. بعض الإرشادات تسمح بسيرولوجي معملي مُعتمد في ظروف محددة، لكن الاختبارات السريعة غير المعتمدة مش بديل تلقائي لاختبار يثبت عدوى نشطة. ما تفسّرش كلمة «إيجابي» من غير ما تعرف اسم الاختبار، توقيته، والأدوية اللي كنت واخدها [1, 4, 8].\n\nالاختيار بين النفس والبراز بيعتمد على المتاح، قدرة الشخص على إعطاء العينة، التعليمات المحلية، والأدوية الحالية. الاتنين غير مؤلمين تقريباً، لكن كل معمل له طريقة تحضير وجمع محددة. ولو الانتفاخ هو العرض الغالب، دليل الانتفاخ المستمر: متى تزور الطبيب بيساعدك تفهم ليه أسباب الانتفاخ أوسع من الجرثومة. التحليل المناسب يجاوب سؤالاً محدداً؛ هو مش مسح شامل لكل أسباب ألم أو غازات البطن [1, 3, 9].",
+            "en": "The urea breath test and stool antigen test look for active infection and are the main non-invasive choices in many pathways. In a breath test, you swallow labelled urea; if H. pylori is present, it converts the urea and labelled carbon dioxide can be measured in your breath. A stool antigen test looks for proteins related to the bacterium. Both can support initial diagnosis and, when performed with the correct timing and preparation, can confirm eradication after treatment [1, 3, 4].\n\nAn antibody blood test is different. Antibodies may remain positive after an old infection has cleared, so serology cannot confirm cure. Some guidance permits validated laboratory serology in selected settings, but an unvalidated rapid blood test is not an automatic substitute for a test of active infection. Never interpret the word 'positive' without knowing which test was used, when it was taken and which medicines you were using [1, 4, 8].\n\nThe choice between breath and stool testing depends on availability, ability to provide a sample, local laboratory instructions and current medicines. Both are essentially non-invasive, but each laboratory has specific preparation and collection requirements. If bloating is the dominant symptom, persistent bloating: when to see a doctor explains why its possible causes extend well beyond H. pylori. The right test answers one defined question; it is not a general screen for every cause of abdominal pain or gas [1, 3, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الانتفاخ المستمر: متى تزور الطبيب",
+                "url": "../articles/bloating-when-to-see-doctor.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "persistent bloating: when to see a doctor",
+                "url": "../articles/bloating-when-to-see-doctor.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-endoscopy-fits",
+          "heading": {
+            "ar": "إمتى المنظار والخزعة يكونوا أنسب؟",
+            "en": "When endoscopy and biopsy may be more appropriate"
+          },
+          "body": {
+            "ar": "المنظار العلوي مش مطلوب لكل شخص عايز يعرف عنده جرثومة ولا لأ. هو فحص أوسع بيشوف المريء والمعدة والاثني عشر، والطبيب ممكن ياخد خلاله عينات صغيرة من بطانة المعدة لتحليل الجرثومة وفحص النسيج. ميزته إنه يجاوب أسئلة مش هيجاوبها تحليل النفس أو البراز: هل فيه قرحة أو نزيف أو التهاب واضح؟ هل فيه تغير محتاج عينة؟ لكنه إجراء تدخلي أكتر، عشان كده ما بيتعملش لمجرد استبدال اختبار غير جراحي مناسب [3, 9].\n\nالمنظار ممكن يدخل المسار مع نزيف أو أنيميا، قيء مستمر، فقدان وزن غير مفسر، صعوبة بلع، تاريخ عائلي مهم، عوامل خطر لمرض بالمعدة، أو أعراض مستمرة محتاجة رؤية مباشرة. العمر وحده مش قاعدة عالمية واحدة؛ الإرشادات والظروف المحلية والتاريخ الكامل بيحددوا القرار. مقال منظار المعدة: الإجراء والخزعة والتهدئة يشرح تجربة الفحص نفسها من غير ما يكرر مسار تحليل الجرثومة [5, 7, 10].\n\nحتى اختبارات الخزعة ممكن تتأثر بأدوية تقلل كثافة الجرثومة أو بعلاج قريب، والطبيب بيحدد أماكن وعدد العينات حسب السؤال. لو المنظار مطلوب لسبب مستقل، اختبار الجرثومة بالخزعة ممكن يبقى جزءاً منه. أما لو السؤال الوحيد هو عدوى نشطة وما فيش علامات خطر، غالباً يبدأ النقاش باختبار نفس أو براز مناسب. القرار النهائي للطبيب بعد مراجعة الأعراض، السن، الأدوية والنتائج السابقة [3, 7, 8].",
+            "en": "Upper endoscopy is not required for everyone who wants to know whether they have H. pylori. It is a broader examination of the oesophagus, stomach and duodenum, during which a clinician can take small stomach-lining biopsies for H. pylori testing and tissue assessment. Its advantage is answering questions that breath and stool tests cannot: Is there an ulcer, bleeding or visible inflammation? Is there a change that needs sampling? Because it is more invasive, it is not used merely to replace a suitable non-invasive test [3, 9].\n\nEndoscopy may enter the pathway with bleeding or anaemia, persistent vomiting, unexplained weight loss, difficulty swallowing, an important family history, risk factors for stomach disease or persistent symptoms needing direct inspection. Age alone is not one universal rule; local guidance and the full history shape the decision. Gastroscopy: procedure, biopsy and sedation explains the examination experience without duplicating the H. pylori testing pathway [5, 7, 10].\n\nBiopsy-based tests can also be affected by medicines that suppress bacterial density or by recent treatment, and the clinician chooses biopsy sites and number according to the question. If endoscopy is already indicated for another reason, biopsy testing for H. pylori may be incorporated. If the only question is active infection and there are no alarm features, discussion commonly begins with an appropriate breath or stool test. The clinician makes the final choice after reviewing symptoms, age, medicines and previous results [3, 7, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "منظار المعدة: الإجراء والخزعة والتهدئة",
+                "url": "../articles/gastroscopy-procedure-biopsy-sedation.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Gastroscopy: procedure, biopsy and sedation",
+                "url": "../articles/gastroscopy-procedure-biopsy-sedation.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "preparing-and-avoiding-false-negative",
+          "heading": {
+            "ar": "التحضير الصح: إزاي نتجنب نتيجة سلبية مضللة؟",
+            "en": "Correct preparation: avoiding a misleading negative result"
+          },
+          "body": {
+            "ar": "بعض الأدوية بتقلل عدد الجراثيم مؤقتاً، فالاختبار يطلع سلبياً رغم إن العدوى لسه موجودة. أهمها مثبطات مضخة البروتون المستخدمة للحموضة، والمضادات الحيوية، وأدوية البزموت. الإرشادات الحديثة لاختبار التأكد بعد العلاج بتطلب عادةً مرور أربع أسابيع على الأقل بعد انتهاء المضادات والبزموت، وإيقاف مثبط مضخة البروتون أسبوعين قبل الاختبار لتقليل السلبية الكاذبة. لكن ما توقفش دواءً ضرورياً لوحدك؛ اسأل الطبيب عن بديل مؤقت وتعليمات تناسب حالتك [5, 6, 8].\n\nقبل أي اختبار، قول للطبيب أو المعمل كل اللي أخدته في الأسابيع الأخيرة، حتى لو كان كورس مضاد لالتهاب أسنان، علاجاً من صيدلية، أو دواء حموضة من غير روشتة. اسأل بالاسم: إيه المطلوب إيقافه؟ لمدة كام؟ وهل أقدر أستخدم دواء من فئة تانية مؤقتاً؟ تعليمات الصيام لا تتاخد من مقال عام، لأنها تختلف حسب نوع اختبار النفس وطريقة المعمل [1, 4, 9].\n\nلو النتيجة سلبية لكن التحضير ما كانش صحيح، أو الأعراض وعوامل الخطورة لسه مثيرة للشك، السلبية مش نهاية تلقائية للتقييم. الطبيب ممكن يعيد الاختبار بعد فترة الغسل المناسبة، يختار اختباراً مختلفاً، أو يبحث عن سبب تاني للأعراض. وبالعكس، ما تعالجش نتيجة قديمة أو غير واضحة من غير معرفة هل بتدل على عدوى نشطة. احتفظ بصورة التقرير فيها اسم الفحص والتاريخ والقيمة المرجعية بدل نقل كلمة «موجب» أو «سالب» بس [1, 7, 8].",
+            "en": "Some medicines temporarily suppress the number of organisms, allowing a test to appear negative even though infection remains. Important examples include proton-pump inhibitors used for acid symptoms, antibiotics and bismuth medicines. For post-treatment confirmation, current guidance generally requires at least four weeks after antibiotics and bismuth, and two weeks off a proton-pump inhibitor, to reduce false negatives. Do not stop an essential medicine on your own; ask the treating clinician about a temporary alternative and instructions appropriate to you [5, 6, 8].\n\nBefore any test, tell the clinician or laboratory everything taken in recent weeks, including an antibiotic course for a dental infection, pharmacy treatment or non-prescription acid medicine. Ask specifically which medicine must be withheld, for how long, and whether another class can be used temporarily. Do not take fasting instructions from a general article because requirements vary with the breath-test method and laboratory protocol [1, 4, 9].\n\nIf a result is negative after incorrect preparation, or symptoms and risk factors still raise concern, the negative does not automatically end assessment. A clinician may repeat the test after the appropriate washout period, select another method or investigate a different cause. Conversely, do not treat an old or unclear result without establishing whether it represents active infection. Keep the complete report showing the test name, date and reference information instead of relaying only the word 'positive' or 'negative' [1, 7, 8]."
+          }
+        },
+        {
+          "id": "reading-results-and-treatment",
+          "heading": {
+            "ar": "قراءة النتيجة والعلاج: ليه الروشتة مش واحدة للكل؟",
+            "en": "Results and treatment: why one prescription does not fit everyone"
+          },
+          "body": {
+            "ar": "النتيجة الإيجابية لاختبار نشط معناها إن الجرثومة اتكشفت، لكن الطبيب لسه محتاج يربطها بالأعراض وبأي قرحة أو عوامل خطورة. الإرشادات بتوصي بعلاج العدوى المثبتة، والعلاج بيجمع عادةً دواءً قوياً لتقليل حمض المعدة مع أكتر من مضاد، وأحياناً بزموت. اختيار التركيبة والمدة يعتمد على الإرشادات المحلية، حساسية البكتيريا إن كانت متاحة، حساسية البنسلين، الحمل أو الرضاعة، تداخلات الأدوية، والمضادات اللي استخدمتها قبل كده [5, 7, 12].\n\nمقاومة المضادات غيّرت العلاج؛ عشان كده نسخ روشتة قديمة أو وصفة قريب ممكن يفشل ويزود المقاومة. قل للطبيب لو أخدت قبل كده ماكروليد لعلاج الصدر أو الجيوب، أو كينولون، أو علاج جرثومة سابق، واذكر أي حساسية دوائية وما حصل وقتها بالضبط. ما تبدّلش مضاداً أو جرعة من نفسك، وما توقفش الكورس أول ما تتحسن. لو الآثار الجانبية صعبة، تواصل مع الفريق بدل حذف دواء من التركيبة [5, 6, 11].\n\nالنتيجة السلبية الموثوقة معناها إن الاختبار ما كشفش عدوى نشطة وقتها؛ مش معناها إن كل أسباب الألم اتنفت. الطبيب ممكن يراجع الارتجاع، عسر الهضم الوظيفي، تأثير المسكنات، المرارة أو أسباباً تانية حسب النمط. أما استمرار الانتفاخ بعد علاج ناجح فمش دليل وحده إن الجرثومة لسه موجودة؛ الأعراض ممكن تتأخر أو يكون لها سبب موازي، والفيصل هو اختبار الشفاء المناسب والتقييم السريري [1, 6, 9].",
+            "en": "A positive active-infection test means H. pylori was detected, but the clinician still relates it to symptoms, any ulcer and individual risk factors. Guidelines recommend treating confirmed infection. Therapy usually combines powerful acid suppression with more than one antibiotic and sometimes bismuth. The regimen and duration depend on local guidance, susceptibility information when available, penicillin allergy, pregnancy or breastfeeding, medicine interactions and antibiotics used previously [5, 7, 12].\n\nAntibiotic resistance has changed treatment, so copying an old prescription or a relative's regimen can fail and further select resistance. Tell the clinician about previous macrolides for chest or sinus infections, quinolones, and any earlier H. pylori treatment. Describe drug allergies and exactly what happened. Do not substitute an antibiotic, alter doses or stop the course when symptoms improve. If adverse effects are difficult, contact the clinical team instead of removing one medicine from the combination [5, 6, 11].\n\nA reliable negative result means that the test did not detect active infection at that time; it does not rule out every cause of pain. Depending on the pattern, a clinician may review reflux, functional dyspepsia, painkiller effects, gallbladder disease or other possibilities. Persistent bloating after successful treatment does not by itself prove that H. pylori remains. Symptoms may take time to settle or have a parallel cause; an appropriate test of cure and clinical assessment provide the answer [1, 6, 9]."
+          }
+        },
+        {
+          "id": "test-of-cure-and-failed-treatment",
+          "heading": {
+            "ar": "اختبار الشفاء مش اختياري: نعمله إمتى ولو العلاج فشل؟",
+            "en": "Test of cure matters: timing and what happens after failure"
+          },
+          "body": {
+            "ar": "تحسن الحرقان أو الألم مش دليل كافي إن الجرثومة اختفت، وغياب التحسن مش دليل أكيد إن العلاج فشل. الإرشادات الحديثة بتوصي بإثبات الشفاء لكل شخص اتعالج، باختبار نفس باليوريا أو مستضد البراز، أو اختبار بالخزعة لو فيه سبب مستقل للمنظار. يتعمل الاختبار بعد أربع أسابيع على الأقل من انتهاء العلاج، مع مراعاة فترة إيقاف الأدوية المؤثرة قبل الفحص. تحليل الأجسام المضادة في الدم ما ينفعش هنا لأنه ممكن يفضل إيجابياً مدة طويلة [1, 5, 6].\n\nقبل اختبار الشفاء، اتفق على تاريخ واضح من يوم آخر جرعة مضاد أو بزموت، وراجع دواء الحموضة. لو النتيجة إيجابية، ما تكررّش نفس التركيبة تلقائياً. الطبيب بيراجع الالتزام، القيء أثناء الكورس، الجرعات اللي فاتت، تداخلات الأدوية، والمضادات السابقة. بعد فشل علاج أو أكتر، قد يحتاج اختيار نظام إنقاذ مختلف أو اختبار حساسية للمضادات حسب المتاح [6, 8, 11].\n\nخد معاك أسماء كل الأدوية أو صور العلب والتواريخ؛ عبارة «أخدت العلاج الثلاثي» مش كفاية لأن التركيبات بتختلف. اسأل من البداية: إمتى هنعمل اختبار الشفاء؟ مين هيراجع النتيجة؟ وإيه الخطة لو فضلت إيجابية؟ تنظيم الخطوات دي بيمنع إن العلاج ينتهي من غير تأكد. حتى بعد ثبوت الشفاء، استمرار عرض معين محتاج تقييمه في مساره بدل تكرار مضادات بلا دليل [6, 11, 12].",
+            "en": "Improvement in burning or pain is not enough to prove eradication, and lack of improvement does not necessarily mean treatment failed. Current guidance recommends proof of cure for everyone treated, using a urea breath test, stool antigen test or biopsy-based test when there is an independent reason for endoscopy. Testing is performed at least four weeks after therapy ends, with the required washout of medicines that affect accuracy. An antibody blood test is unsuitable because it can remain positive for a long time [1, 5, 6].\n\nBefore the test of cure, set a clear date based on the final antibiotic or bismuth dose and review acid-suppressing medicine. If the result is positive, do not automatically repeat the same combination. The clinician reviews adherence, vomiting during treatment, missed doses, medicine interactions and all earlier antibiotic exposure. After one or more failures, a different rescue regimen or antimicrobial-susceptibility testing may be appropriate, depending on availability [6, 8, 11].\n\nBring the names of every medicine, photographs of the packages and the dates taken. Saying 'I used triple therapy' is not enough because combinations vary. Ask at the outset when the test of cure will happen, who will review it and what the plan is if it stays positive. Defining those steps prevents treatment from ending without confirmation. Even after eradication is proven, a persistent symptom deserves assessment on its own pathway rather than repeated antibiotics without evidence [6, 11, 12]."
+          }
+        },
+        {
+          "id": "red-flags-and-next-step",
+          "heading": {
+            "ar": "علامات الخطر والخطوة الجاية",
+            "en": "Red flags and the next step"
+          },
+          "body": {
+            "ar": "اطلب تقييماً عاجلاً لو فيه قيء دم أحمر أو مادة شبه تفل القهوة، براز أسود قطراني أو دم واضح، ألم بطن مفاجئ شديد ومستمر، دوخة شديدة أو إغماء، نبض سريع مع ضعف، أو صعوبة في الاحتفاظ بالسوائل. العلامات دي ممكن تشير لنزيف أو ثقب أو جفاف ومش مناسبة لانتظار تحليل جرثومة روتيني أو موعد عادي [1, 2, 10].\n\nرتب تقييماً طبياً قريباً لو فيه فقدان وزن من غير قصد، قيء متكرر، صعوبة أو ألم مع البلع، شبع مبكر مستمر، أنيميا أو إرهاق غير مفسر، كتلة، أو أعراض جديدة بتزيد. مستوى الاستعجال بيتغير مع السن، الحمل، أدوية السيولة، الأمراض المزمنة، تاريخ القرحة أو سرطان المعدة في العيلة. لو مش متأكد من شدة الحالة، اطلب توجيهاً طبياً فورياً بدل الاعتماد على المقال [2, 5, 10].\n\nلو الأعراض مستقرة ومن غير علامات خطر، حضّر خطاً زمنياً قصيراً، قائمة الأدوية والمضادات السابقة، وتقارير التحاليل أو المناظير القديمة. في العيادة، يبدأ الطبيب بالقصة والفحص، وبعدها يحدد هل الأنسب اختبار نفس، تحليل براز، منظار، أو مسار تاني للأعراض. تقدر تعمل طلب حجز استشارة جهاز هضمي لمناقشة الخطوة المناسبة؛ ذكر العيادة هنا هدفه تسهيل الوصول لتقييم فردي، مش وعداً بنتيجة أو افتراضاً إن كل شكوى سببها الجرثومة [3, 5, 7].",
+            "en": "Seek urgent assessment for vomiting red blood or coffee-ground material, black tarry stool or visible blood, sudden severe and persistent abdominal pain, marked dizziness or fainting, a rapid pulse with weakness, or inability to keep fluids down. These can signal bleeding, perforation or dehydration and are not situations in which to wait for a routine H. pylori test or appointment [1, 2, 10].\n\nArrange prompt medical assessment for unintentional weight loss, repeated vomiting, painful or difficult swallowing, persistent early fullness, anaemia or unexplained fatigue, a mass, or new and worsening symptoms. Urgency changes with age, pregnancy, blood-thinning medicines, chronic conditions and a personal or family history of ulcer or stomach cancer. If you are unsure how severe the situation is, obtain immediate medical advice rather than relying on this article [2, 5, 10].\n\nIf symptoms are stable and there are no alarm features, prepare a short timeline, a list of medicines and previous antibiotics, and old test or endoscopy reports. At the clinic, the clinician starts with history and examination, then decides whether a breath test, stool test, endoscopy or another symptom pathway fits. You can request a gastroenterology consultation to discuss the appropriate next step; the clinic is mentioned here only to make individual assessment easier to access, not to promise an outcome or assume that H. pylori causes every complaint [3, 5, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز استشارة جهاز هضمي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a gastroenterology consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل جرثومة المعدة بتعمل أعراض عند كل المصابين؟",
+            "en": "Does H. pylori cause symptoms in everyone who has it?"
+          },
+          "a": {
+            "ar": "لأ. ناس كتير عندهم العدوى من غير أعراض، بينما بعض الناس يحصل لهم التهاب معدة أو قرحة وأعراض زي ألم أعلى البطن أو الشبع المبكر أو الغثيان. وجود الأعراض أو غيابها ما يثبتش العدوى؛ الاختبار بيتحدد حسب السبب الطبي والسياق [1, 2, 7].",
+            "en": "No. Many infected people have no symptoms, while some develop gastritis or an ulcer with upper-abdominal pain, early fullness or nausea. The presence or absence of symptoms cannot establish infection; testing is chosen according to the clinical reason and context [1, 2, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه أدق تحليل لجرثومة المعدة؟",
+            "en": "What is the most accurate H. pylori test?"
+          },
+          "a": {
+            "ar": "ما فيش اختبار واحد أنسب لكل موقف. اختبار النفس باليوريا وتحليل مستضد البراز خيارات قوية للعدوى النشطة، والخزعة مناسبة لو المنظار مطلوب لسبب تاني. الدقة تعتمد كمان على التحضير، توقيت الأدوية، وطريقة المعمل؛ عشان كده الطبيب بيختار الاختبار للسؤال المطلوب [1, 3, 8].",
+            "en": "No single test is best in every situation. Urea breath and stool antigen tests are strong options for active infection, while biopsy testing fits when endoscopy is required for another reason. Accuracy also depends on preparation, medicine timing and laboratory method, so the clinician matches the test to the question [1, 3, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تحليل الدم الإيجابي معناه إني محتاج علاج؟",
+            "en": "Does a positive blood test mean I need treatment?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. تحليل الأجسام المضادة ممكن يفضل إيجابياً بعد عدوى قديمة، وما يقدرش يثبت إن الجرثومة نشطة دلوقتي أو إنها اختفت بعد العلاج. اعرض التقرير على الطبيب؛ قد يحتاج اختبار نفس أو براز لتوضيح العدوى النشطة بدل بدء مضادات من نتيجة غير مكتملة [1, 4, 8].",
+            "en": "Not necessarily. Antibody tests can remain positive after an old infection and cannot show whether H. pylori is active now or has cleared after treatment. Show the report to a clinician; a breath or stool test may be needed to establish active infection instead of starting antibiotics from an incomplete result [1, 4, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أوقف دواء الحموضة قبل التحليل بكام يوم؟",
+            "en": "How long should I stop acid medicine before testing?"
+          },
+          "a": {
+            "ar": "إرشادات كتير بتطلب إيقاف مثبط مضخة البروتون أسبوعين قبل اختبار النفس أو البراز، والانتظار أربع أسابيع بعد المضادات والبزموت، خصوصاً لاختبار الشفاء. لكن ما توقفش علاجاً ضرورياً من نفسك؛ نوع الدواء وحالتك وتعليمات المعمل ممكن تغيّر الخطة، والطبيب يحدد بديلاً مؤقتاً لو مناسب [5, 6, 8].",
+            "en": "Many guidelines require two weeks off a proton-pump inhibitor before breath or stool testing and four weeks after antibiotics or bismuth, especially for proof of cure. Do not stop essential treatment yourself; the medicine, your condition and the laboratory protocol may alter the plan, and a clinician can advise a temporary alternative when appropriate [5, 6, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تحسن الأعراض بعد العلاج يغني عن إعادة التحليل؟",
+            "en": "Can symptom improvement replace a test of cure?"
+          },
+          "a": {
+            "ar": "لأ. الأعراض ممكن تتحسن والجرثومة تفضل موجودة، أو تفضل الأعراض رغم نجاح العلاج بسبب مشكلة تانية. المطلوب إثبات الشفاء باختبار نفس أو مستضد براز في التوقيت الصح، أو اختبار بالخزعة لو فيه داعٍ مستقل للمنظار. تحليل الدم مش مناسب لإثبات الشفاء [1, 5, 6].",
+            "en": "No. Symptoms may improve while infection persists, or continue after successful eradication because another problem is present. Cure should be confirmed with a correctly timed breath or stool antigen test, or a biopsy-based test if endoscopy is independently indicated. Blood antibody testing cannot prove cure [1, 5, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو تحليل الشفاء فضل إيجابي، أكرر نفس العلاج؟",
+            "en": "If the test of cure stays positive, should I repeat the same treatment?"
+          },
+          "a": {
+            "ar": "ما تكررّش نفس الروشتة لوحدك. الطبيب بيراجع الأدوية والجرعات والالتزام والآثار الجانبية وكل مضاد استخدمته قبل كده، وبعدها يختار نظاماً مختلفاً أو يطلب اختبار حساسية حسب المتاح. مقاومة المضادات سبب مهم للفشل، وتكرار نفس التركيبة عشوائياً ممكن يقلل فرصة النجاح [6, 11, 12].",
+            "en": "Do not repeat the same prescription yourself. The clinician reviews the medicines, doses, adherence, adverse effects and every antibiotic used previously, then chooses a different regimen or susceptibility testing where available. Antibiotic resistance is an important cause of failure, and blindly repeating the same combination can reduce the chance of success [6, 11, 12]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "MedlinePlus — Helicobacter pylori (H. pylori) Tests",
+          "url": "https://medlineplus.gov/lab-tests/helicobacter-pylori-h-pylori-tests/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Peptic Ulcers",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Peptic Ulcers",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/diagnosis"
+        },
+        {
+          "label": "NICE CG184 — Gastro-oesophageal reflux disease and dyspepsia: recommendations",
+          "url": "https://www.nice.org.uk/guidance/cg184/chapter/recommendations"
+        },
+        {
+          "label": "American College of Gastroenterology — 2024 H. pylori Guideline Highlights",
+          "url": "https://gi.org/wp-content/uploads/2025/01/ACG-Hpylori-Guidelines-Highlights-2024-FINAL.pdf.pdf"
+        },
+        {
+          "label": "American College of Gastroenterology — 2024 H. pylori Guideline Evidence-Based Update",
+          "url": "https://gi.org/journals-publications/ebgi/schoenfeld_sep2024/"
+        },
+        {
+          "label": "World Gastroenterology Organisation — Helicobacter pylori Global Guideline",
+          "url": "https://www.worldgastroenterology.org/guidelines/helicobacter-pylori/helicobacter-pylori-english"
+        },
+        {
+          "label": "Irish Helicobacter pylori Working Group — Adult Diagnosis and Treatment Consensus",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11198963/"
+        },
+        {
+          "label": "Mayo Clinic — H. pylori Infection: Diagnosis and Treatment",
+          "url": "https://www.mayoclinic.org/diseases-conditions/h-pylori/diagnosis-treatment/drc-20356177"
+        },
+        {
+          "label": "NHS — Stomach Ulcer",
+          "url": "https://www.nhs.uk/conditions/stomach-ulcer/"
+        },
+        {
+          "label": "AGA Clinical Practice Update — Refractory H. pylori Infection",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8281326/"
+        },
+        {
+          "label": "NIDDK — Treatment for Peptic Ulcers",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/treatment"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "جرثومة المعدة: الأعراض والتحاليل والتشخيص",
+          "en": "H. pylori symptoms, tests and diagnosis"
+        },
+        "description": {
+          "ar": "دليل واضح لأعراض جرثومة المعدة وتحاليل النفس والبراز والمنظار، مع التحضير الصحيح، تفسير النتيجة، اختبار الشفاء، وعلامات الخطر.",
+          "en": "A clear guide to H. pylori symptoms, breath and stool tests, endoscopy, correct preparation, result interpretation, proof of cure and red flags."
+        }
+      }
+    }
+  ]
+}

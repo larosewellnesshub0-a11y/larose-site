@@ -1,0 +1,327 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of fatty-liver-treatment-and-follow-up; replaces the entry from content/articles-longform-2026-09-12.json. Expanded into an evidence-based treatment, fibrosis-risk and measurable follow-up pathway with aligned bilingual citations and internal links.",
+  "articles": [
+    {
+      "slug": "fatty-liver-treatment-and-follow-up",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-12",
+      "updatedAt": "2026-09-27",
+      "readingTime": 11,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/fatty-liver-treatment-cover.webp",
+      "title": {
+        "ar": "علاج الكبد الدهني والمتابعة: خطة واقعية خطوة بخطوة",
+        "en": "Fatty liver treatment and follow-up: a practical plan"
+      },
+      "excerpt": {
+        "ar": "علاج الكبد الدهني مش ديتوكس ولا حل سريع؛ هو تقييم للتليف، وخطوات أكل وحركة قابلة للاستمرار، وضبط السكر والدهون، ومتابعة ليها هدف واضح.",
+        "en": "Fatty liver treatment is not a detox or quick fix. It combines fibrosis assessment, sustainable habits, metabolic care and follow-up with clear goals."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسع شرح علاج الكبد الدهني وتقييم التليف وخطة المتابعة العملية، واتراجع المحتوى طبياً من جديد.",
+            "en": "The explanation of fatty-liver treatment, fibrosis assessment and practical follow-up was expanded and medically re-reviewed."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "treatment-starts-with-risk",
+          "heading": {
+            "ar": "علاج الكبد الدهني بيبدأ بتحديد المرحلة، مش بوصفة واحدة",
+            "en": "Fatty liver treatment starts with the stage, not one prescription"
+          },
+          "body": {
+            "ar": "الكبد الدهني اسم لطيف واسع، مش تشخيص بدرجة خطورة واحدة. الاسم الحديث للحالة المرتبطة بعوامل التمثيل الغذائي هو MASLD، وقد تكون الصورة مجرد تراكم دهون، أو دهون مع التهاب وإصابة في الخلايا تُسمى MASH، أو تليف بدرجات مختلفة. معظم الناس ما بيحسوش بأعراض واضحة، وشدة التعب أو الوجع ما بتقيسش كمية الدهون ولا درجة الندبات. عشان كده هدف العلاج الأول مش إنك «تنضف الكبد» بسرعة؛ الهدف إن الطبيب يعرف السبب، ويقدّر احتمال التليف، ويحدد إيه اللي محتاج متابعة فعلية [1, 4, 5, 8].\n\nلو لسه السؤال الأساسي عندك هو هل الأعراض أو السونار يثبتوا الحالة، صفحة أعراض الكبد الدهني وتشخيصه وتقدير الخطورة بتشرح نطاق التشخيص بالتفصيل. هنا هنركز على اللي بيحصل بعد الاشتباه أو التشخيص: إزاي نبني خطة قابلة للاستمرار، وإيه اللي نقيسه، وإمتى الخطة تتغير. وجود دهون في تقرير سونار مش معناه تلقائياً التهاباً أو تليفاً، ووجود إنزيمات طبيعية مش كفاية لوحده لاستبعاد تليف مهم [1, 2, 4].\n\nالخطة كمان لازم تراجع احتمالات تانية. الطبيب بيسأل عن الكحول من غير حكم، وكل الأدوية والمكملات، وفيروسات الكبد، والتغير السريع في الوزن، وأمراض أو أسباب أقل شيوعاً حسب السن والقصة. الشخص اللي عنده سكر من النوع التاني أو سمنة مع عوامل أيضية إضافية قد يحتاج تقديراً أدق للتليف حتى لو حاسس إنه كويس. البداية المنظمة بتمنع خطأين شائعين: إهمال نتيجة مهمة، أو تحويل كل دهون بسيطة لحالة مخيفة [2, 4, 5, 7].",
+            "en": "Fatty liver is a broad label, not one diagnosis with one level of risk. The newer term for disease associated with metabolic factors is MASLD. It may involve fat accumulation alone, fat with inflammation and liver-cell injury known as MASH, or different degrees of fibrosis. Most people have no clear symptoms, and the intensity of fatigue or discomfort does not measure liver fat or scarring. Treatment therefore does not begin with a rapid “cleanse”; it begins by clarifying the cause, estimating fibrosis risk and deciding what genuinely needs monitoring [1, 4, 5, 8].\n\nIf your first question is whether symptoms or ultrasound establish the condition, the page on fatty liver symptoms, diagnosis and risk explains that diagnostic scope in detail. Steatosis on a routine ultrasound does not automatically establish inflammation or fibrosis, and normal liver enzymes alone are not enough to exclude clinically important fibrosis [1, 2, 4].\n\nThe plan must also consider other explanations. A clinician asks about alcohol without judgement, all medicines and supplements, viral hepatitis, rapid weight change and less common causes suggested by age or history. A person with type 2 diabetes, or obesity plus additional metabolic risk, may need closer fibrosis assessment even while feeling well. This avoids both neglect and unnecessary alarm [2, 4, 5, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أعراض الكبد الدهني وتشخيصه وتقدير الخطورة",
+                "url": "../articles/fatty-liver-symptoms-diagnosis-risk.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "fatty liver symptoms, diagnosis and risk",
+                "url": "../articles/fatty-liver-symptoms-diagnosis-risk.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fibrosis-assessment",
+          "heading": {
+            "ar": "تقدير التليف هو اللي بينظم شدة المتابعة",
+            "en": "Fibrosis assessment determines how intensive follow-up should be"
+          },
+          "body": {
+            "ar": "بعد تأكيد أو ترجيح دهون الكبد، أهم سؤال طويل المدى هو احتمال وجود تليف متقدم. الطبيب ممكن يبدأ بتحاليل موجودة أصلاً، زي العمر وALT وAST وعدد الصفائح، عشان يحسب مؤشر غير جراحي زي FIB-4. النتيجة مش تشخيص نهائي ولا رقم يتفسر بعيد عن السن والمرض الحاد والسياق؛ هي أداة فرز تساعد تحدد مين احتمال التليف المتقدم عنده منخفض، ومين محتاج خطوة تانية أو رأي متخصص [2, 4, 6, 7].\n\nلو النتيجة غير مطمئنة أو غير حاسمة، الخطوة التالية قد تكون فحص صلابة الكبد بالموجات، أو اختبار دم متخصص، أو تقييم كبد أوسع حسب المتاح والحالة. أحياناً النتائج ما بتتفقش مع بعض؛ مثلاً سونار يصف دهوناً مع حساب منخفض، أو إنزيمات مستمرة مع تصوير عادي. الاختلاف ده مش دعوة لتكرار كل فحص عشوائياً، لكنه سبب لمراجعة جودة الفحص وتوقيته والسؤال اللي كل أداة بتجاوبه. خزعة الكبد مش مطلوبة لكل شخص، وقد تُناقش فقط لما تكون معلوماتها هتغير التشخيص أو العلاج [2, 4, 5, 6].\n\nصفحة تقييم تليف الكبد الدهني بتفصل الفرق بين الدهون والندبات، وصفحة سونار الكبد الدهني بتوضح حدود السونار العادي. الخلاصة هنا إن درجة لمعان الكبد في التقرير ما تعادلش درجة التليف، وإن تحسن الإنزيمات أو شكل الصورة ما يغنيش تلقائياً عن إعادة تقدير الخطر في الوقت اللي يحدده الطبيب. المتابعة الأخف مناسبة للخطر المنخفض المستقر، بينما الاشتباه في تليف متقدم يحتاج مساراً متخصصاً ومراقبة لمضاعفات الكبد حسب المرحلة [2, 4, 6].",
+            "en": "After liver fat is confirmed or considered likely, the most important long-term question is the chance of advanced fibrosis. A clinician may begin with already available information, including age, ALT, AST and platelet count, to calculate a non-invasive score such as FIB-4. The result is neither a final diagnosis nor a number to interpret without age, acute illness and clinical context. It is a triage tool that helps identify people unlikely to have advanced fibrosis and those who need a second step or specialist review [2, 4, 6, 7].\n\nWhen the first result is indeterminate or concerning, the next step may be liver-stiffness imaging, a specialised blood test or broader liver assessment, depending on availability and the individual situation. When results disagree, the clinician reviews test quality, timing and the question each tool answers rather than repeating everything at random. Liver biopsy is not routine for everyone and may be discussed only when the information is likely to change diagnosis or treatment [2, 4, 5, 6].\n\nThe page on fatty liver fibrosis assessment covers the distinction between fat and scarring, while the page on fatty liver ultrasound explains the limits of routine imaging. The key point here is that ultrasound brightness does not equal fibrosis stage, and an improvement in enzymes or appearance does not automatically remove the need to reassess risk at the interval chosen by the clinician. Stable low-risk disease can usually have lighter follow-up, whereas suspected advanced fibrosis needs specialist care and stage-appropriate surveillance for liver complications [2, 4, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تقييم تليف الكبد الدهني",
+                "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"
+              },
+              {
+                "label": "سونار الكبد الدهني",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "fatty liver fibrosis assessment",
+                "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"
+              },
+              {
+                "label": "fatty liver ultrasound",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sustainable-food-and-movement",
+          "heading": {
+            "ar": "الأكل والحركة علاج فعلي لما يكونوا قابلين للاستمرار",
+            "en": "Food and movement are real treatment when they are sustainable"
+          },
+          "body": {
+            "ar": "التغيير اليومي هو أساس العلاج لمعظم حالات MASLD، بس ده مش معناه حمية عقاب أو قائمة ممنوعات واحدة لكل الناس. النمط المفيد عادة يقلل المشروبات السكرية والسكريات المضافة والأكل شديد التصنيع، ويزود الخضار والبقول والحبوب الكاملة ومصادر البروتين المناسبة والدهون غير المشبعة بما يناسب السكر والكلى وأي ظروف تانية. المهم هو نمط تقدر تكمله، مش أسبوع مثالي وبعده ارتداد. أخصائي التغذية العلاجية يقدر يحول المبادئ لخطة تناسب الوجبات المصرية، مواعيد الشغل، الميزانية الصحية والأدوية من غير تجويع [3, 4, 5, 8].\n\nالحركة برضه مش اختبار لياقة. النشاط الهوائي والمقاومة ممكن يساعدوا دهون الكبد واللياقة والسكر حتى لو الميزان اتحرك ببطء، والبداية تتحدد حسب السن والمفاصل والقلب والأمراض المصاحبة. ممكن تبدأ بفترات أقصر وتتدرج، وتقلل وقت القعدة الطويلة، وتختار نوعاً تقدر تكرره. لو فيه ألم صدر، نهجان غير معتاد، دوخة، أو قيود طبية معروفة، ناقش البداية مع الطبيب بدل تطبيق برنامج شديد من فيديو [4, 5, 7].\n\nلو فيه زيادة وزن، النزول التدريجي المستمر غالباً يفيد تراكم الدهون، وقد يحتاج تحسن الالتهاب أو التليف نزولاً أكبر عند بعض الناس؛ لكن الهدف يتحدد بشكل فردي، ومش لازم تحول نسبة منشورة لهدف ذاتي. النزول السريع جداً قد يضيّع عضلات ويكون صعب الاستمرار، بينما الحفاظ على العضلات والنوم الكافي وتوزيع الوجبات بواقعية يدعموا الخطة. ولو الوزن في النطاق المعتاد، العلاج ما يبقاش «اخس وخلاص»؛ التركيز يكون على جودة الغذاء، الحركة، محيط الوسط، والعوامل الأيضية [3, 4, 5].",
+            "en": "Daily habits are the foundation of treatment for most people with MASLD, but that does not mean a punitive diet or one prohibited-food list for everyone. A helpful pattern generally limits sugar-sweetened drinks, added sugars and highly processed foods while including vegetables, pulses, whole grains, suitable protein sources and unsaturated fats, adjusted for diabetes, kidney health and other conditions. The goal is a pattern you can continue, not one perfect week followed by rebound. A clinical dietitian can adapt these principles to daily life [3, 4, 5, 8].\n\nMovement is not a fitness test either. Aerobic and resistance activity can support liver fat, fitness and glucose even when the scale changes slowly, and the starting level should reflect age, joints, cardiovascular health and other conditions. Shorter sessions can be built up gradually; prolonged sitting can be interrupted; and the best activity is one that can be repeated. Discuss new activity with a clinician if symptoms or medical limitations affect safety [4, 5, 7].\n\nWhen excess weight is present, gradual sustained loss usually improves liver fat, while improvement in inflammation or fibrosis may require a larger change for some people. The individual target should be agreed clinically rather than turning a published percentage into a self-prescribed demand. Very rapid loss may reduce muscle and be hard to maintain, whereas protecting muscle, sleeping adequately and arranging meals realistically support the plan. At a usual weight, food quality, movement and metabolic factors still matter [3, 4, 5]."
+          }
+        },
+        {
+          "id": "metabolic-health",
+          "heading": {
+            "ar": "عالج السكر والضغط والدهون مع الكبد، مش بعده",
+            "en": "Treat glucose, blood pressure and lipids alongside the liver"
+          },
+          "body": {
+            "ar": "MASLD جزء من صورة صحية أوسع عند ناس كتير. السكر من النوع التاني، ضغط الدم، الدهون الثلاثية والكوليسترول، التدخين وانقطاع النفس أثناء النوم ممكن يغيروا الخطر والخطة. أمراض القلب والأوعية سبب مهم للمضاعفات في المجموعة دي، لذلك متابعة الكبد من غير ضبط عوامل القلب والسكر تبقى خطة ناقصة. الطبيب بيرتب الأولويات حسب أعلى خطر فعلي، مش حسب الرقم اللي لفت النظر في آخر تحليل [4, 5, 6, 7].\n\nده معناه إن علاج السكر أو الضغط أو الكوليسترول المناسب ما يتوقفش لمجرد وجود كبد دهني. بعض الناس بتخاف من كل دواء بعد ارتفاع إنزيم، لكن القرار بيتبني على اسم الدواء والجرعة ونمط التحاليل والفائدة المتوقعة، مش على فكرة عامة إن «الأدوية بتتعب الكبد». ما توقفش دواء موصوف وما تضاعفش جرعة من نفسك. لو ظهر تغير بعد بدء علاج، الطبيب يراجع التوقيت والأسباب البديلة ويقرر هل نكمل أو نعدل أو نطلب فحصاً إضافياً [4, 5, 7].\n\nالمتابعة المفيدة ممكن تشمل الوزن أو محيط الوسط لو مناسبين، وضغط الدم، والسكر التراكمي، ودهون الدم، والنوم والنشاط. مش كل مؤشر لازم يتحسن في نفس الأسبوع. أحياناً النجاح الأول يكون تثبيت السكر، أو استمرار الحركة، أو نزول محيط الوسط، أو إن التحاليل تمشي في اتجاه أفضل. الاتفاق على أولويتين أو ثلاثة أسهل وأدق من متابعة قائمة طويلة بتسبب قلق ومش بتغير القرار [4, 5, 7, 8].",
+            "en": "MASLD is part of a wider health picture for many people. Type 2 diabetes, blood pressure, triglycerides and cholesterol, smoking and obstructive sleep apnoea can change both risk and treatment. Cardiovascular disease is an important source of complications in this population, so monitoring the liver without managing heart and metabolic risk is incomplete care. Priorities follow overall risk, not one result [4, 5, 6, 7].\n\nThis also means that appropriate treatment for diabetes, blood pressure or cholesterol should not be stopped simply because fatty liver is present. Some people become afraid of every medicine after an enzyme rises, but the decision depends on the medicine, dose, test pattern and expected benefit, not the broad idea that “medicines harm the liver.” Do not stop a prescribed medicine or double a dose yourself. If a change follows a new treatment, the clinician reviews timing and alternative explanations before deciding whether to continue, adjust or investigate further [4, 5, 7].\n\nUseful monitoring may include weight or waist size when appropriate, blood pressure, HbA1c, blood lipids, sleep and activity. Every marker does not have to improve in the same week. The first meaningful change may be steadier glucose, consistent movement, a smaller waist or laboratory values moving in a better direction. A few agreed priorities are more workable than an anxiety-provoking list [4, 5, 7, 8]."
+          }
+        },
+        {
+          "id": "medicines-and-supplements",
+          "heading": {
+            "ar": "الأدوية لها شروط، والمكملات مش ديتوكس آمن",
+            "en": "Medicines have criteria, and supplements are not a safe detox"
+          },
+          "body": {
+            "ar": "مفيش قرص واحد مناسب لكل شخص عنده دهون كبد. أدوية السكر أو السمنة قد تُستخدم لو لها داعٍ معتمد عند الشخص، وقد تفيد الوزن والعوامل الأيضية، لكن اختيارها وموانعها ومتابعتها مسؤولية الطبيب. وجراحات السمنة قد تكون خياراً لبعض المصابين بالسمنة ضمن تقييم متعدد التخصصات، مش علاجاً تلقائياً لمجرد ظهور الدهون في السونار. وجود تليف متقدم أو تشمع يغير الأمان وطريقة الاختيار [4, 5].\n\nفيه علاج موجّه اسمه resmetirom حصل على موافقة FDA لفئة محددة: بالغون عندهم MASH غير مصحوب بتشمع ومع تليف متوسط إلى متقدم، ويُستخدم مع الأكل والحركة. دي مش موافقة لكل كبد دهني، والموافقة المعجّلة مرتبطة بمعايير واضحة ومتابعة متخصصة، كما إن توفر الدواء واعتماده المحلي ممكن يختلف. ذكره هنا عشان نصحح فكرة إن كل الأدوية «ممنوعة» أو إن كل شخص محتاجها؛ الطبيب هو اللي يحدد انطباق التشخيص والمرحلة والفوائد والتداخلات [5, 9].\n\nأما خلطات تنظيف الكبد، الشاي المركز، مستخلصات التخسيس والمكملات مجهولة المكونات فمش بديل للعلاج. كلمة «طبيعي» ما تضمنش الأمان؛ قاعدة LiverTox التابعة للـNIH توثق إن أعشاباً ومكملات متعددة ارتبطت بإصابة الكبد، وإن اختلاف المكونات أو التلوث أو خطأ الملصق يصعّب توقع الضرر. خُد صورة العبوة وقائمة المكونات للزيارة، وما توقفش علاجاً موصوفاً عشان مكمل من الإنترنت [3, 4, 10].",
+            "en": "There is no single tablet for everyone with fatty liver. Diabetes or obesity medicines may be used when a person has an approved indication, and some can help weight and metabolic factors, but selection, contraindications and monitoring belong with the treating clinician. Advanced fibrosis or cirrhosis changes treatment safety and selection [4, 5].\n\nA targeted medicine called resmetirom has FDA approval for a defined group: adults with noncirrhotic MASH and moderate-to-advanced fibrosis, used alongside diet and exercise. This is not approval for every person with fatty liver. The accelerated approval has specific criteria and needs specialist monitoring, while local approval and availability may differ. It is mentioned to correct both the claim that every medicine is forbidden and the idea that everyone needs one; the clinician must establish whether the diagnosis, stage, likely benefit and interactions fit [5, 9].\n\n“Liver cleanse” mixtures, concentrated teas, weight-loss extracts and supplements with uncertain ingredients are not treatment substitutes. “Natural” does not guarantee safe: NIH LiverTox documents liver injury linked to multiple herbs and supplements, while variable ingredients, contamination and inaccurate labelling make harm difficult to predict. Bring a photograph of the package and ingredient list to the appointment, and never replace a prescribed treatment with an online supplement [3, 4, 10]."
+          }
+        },
+        {
+          "id": "measurable-follow-up",
+          "heading": {
+            "ar": "المتابعة الناجحة لها سؤال وموعد ومعيار واضح",
+            "en": "Successful follow-up has a question, a time point and a clear measure"
+          },
+          "body": {
+            "ar": "مفيش جدول متابعة واحد ينفع للجميع. المدة بتتحدد حسب احتمال التليف، وجود السكر أو عوامل أيضية أخرى، ثبات التحاليل، الدواء المستخدم، والقدرة على تنفيذ الخطة. شخص خطره منخفض ونتائجه مستقرة ممكن يحتاج مراجعة متباعدة، بينما نتيجة غير حاسمة أو اشتباه في تليف أو تغير دوائي يحتاج متابعة أقرب. الإرشادات نفسها بتستخدم مسارات ومواعيد مختلفة، وده سبب إن الطبيب يكتب لك إمتى تراجع وإيه المطلوب قبل الزيارة [4, 5, 6, 7].\n\nفي المراجعة، الطبيب قد يقارن الأعراض، الوزن أو محيط الوسط لو مناسب، ضغط الدم، ALT وAST، الصفائح، السكر والدهون، ويعيد حساب خطر التليف في الوقت المناسب. تحاليل وظائف الكبد محتاجة تتقري في سياقها لأنها ما بتقولش كلها نفس الحاجة: بعض النتائج تعكس إصابة خلايا، وأخرى تساعد في تقييم وظيفة الكبد أو انسداد القنوات. الاتجاه عبر الوقت أهم من ورقة واحدة، لكن انخفاض الإنزيمات وحده ما يثبتش اختفاء الالتهاب أو التليف [2, 4, 6].\n\nقبل ما تخرج من الزيارة، اسأل: إيه هدف الخطوة الحالية؟ إمتى نعيد التحليل أو تقدير التليف؟ إيه النتيجة اللي هتغير الخطة؟ ومين تتواصل معاه لو ظهر عرض جديد؟ احتفظ بقائمة أدوية ومكملات محدثة ونتائج مرتبة بالتاريخ. ما تكررّش السونار كل فترة قصيرة لمجرد الاطمئنان؛ التصوير العادي مش مقياساً دقيقاً للتغيرات الصغيرة في دهون الكبد، وتوقيته لازم يخدم سؤالاً سريرياً [2, 4, 5].",
+            "en": "There is no single follow-up schedule for everyone. Timing depends on fibrosis risk, diabetes or other metabolic factors, stability of laboratory results, treatment being used and how workable the plan is. A person with low risk and stable findings may need less frequent review, while an indeterminate result, suspected fibrosis or a medication change may need an earlier check. The clinician should document when to return and what is needed beforehand [4, 5, 6, 7].\n\nAt review, the clinician may compare symptoms, weight or waist size when appropriate, blood pressure, ALT and AST, platelets, glucose and lipids, and repeat fibrosis-risk assessment at a suitable time. The page explaining why liver function tests need context shows that these results do not all answer the same question: some reflect cell injury, while others help assess liver function or bile-duct obstruction. The trend is more useful than one sheet, but lower enzymes alone do not prove that inflammation or fibrosis has disappeared [2, 4, 6].\n\nBefore leaving the appointment, ask: what is the purpose of the current step? When should laboratory or fibrosis assessment be repeated? Which result would change the plan? Who should be contacted if a new symptom appears? Keep an updated medicine and supplement list and arrange results by date. Do not repeat ultrasound at short intervals only for reassurance; routine imaging is not a precise measure of small changes in liver fat, and its timing should answer a clinical question [2, 4, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تحاليل وظائف الكبد محتاجة تتقري في سياقها",
+                "url": "../articles/liver-function-tests-need-context.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "liver function tests need context",
+                "url": "../articles/liver-function-tests-need-context.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "urgent-warning-signs",
+          "heading": {
+            "ar": "إمتى ما تستناش موعد المتابعة العادي؟",
+            "en": "When should you not wait for a routine follow-up?"
+          },
+          "body": {
+            "ar": "دهون الكبد البسيطة غالباً مش حالة طوارئ، لكن ظهور أعراض معينة يغيّر الأولوية. اطلب تقييماً عاجلاً لو ظهر اصفرار جديد في العين أو الجلد، قيء دموي، براز أسود قطراني، تشوش أو نعاس غير معتاد، ألم شديد أو قيء مستمر، أو انتفاخ سريع بالبطن مع ضيق نفس. تورم الرجلين الجديد، حرارة مع تدهور عام، أو قلة بول واضحة برضه محتاجين تواصلاً طبياً سريعاً لأن السبب ممكن يكون مرض كبد متقدم أو مشكلة تانية خطيرة [1, 8, 11].\n\nما تحاولش تحدد مرحلة الكبد من العلامة وحدها، وما تنتظرش إن موعداً روتينياً يحل موقفاً بيتدهور بالساعات. لو فيه فقدان وعي، نزيف واضح، صعوبة تنفس أو تشوش حاد، اتجه لخدمة الطوارئ المناسبة. الاستعجال بيتأثر بسرعة البداية، شدة العرض، الحمل، الأدوية المميعة للدم، وأمراض القلب والكلى؛ لو مش متأكد، اطلب توجيهاً طبياً بدل الاعتماد على المقال [11].\n\nفي المقابل، تعب مستمر، ثقل ناحية اليمين، ارتفاع تحاليل متكرر، أو تقرير دهون من غير علامات الخطر عادة يحتاجوا موعداً منظماً مش طوارئ. جهّز النتائج القديمة وقائمة الدواء، واذكر أي كحول أو أعشاب بصراحة عشان التقييم يبقى أدق. الفصل بين الطوارئ والمتابعة المخططة بيساعدك تاخد مستوى الرعاية المناسب من غير تهوين ولا هلع [1, 2, 8].",
+            "en": "Uncomplicated liver fat is usually not an emergency, but certain symptoms change the priority. Seek urgent assessment for new yellowing of the eyes or skin, vomiting blood, black tarry stools, confusion or unusual drowsiness, severe pain or persistent vomiting, or rapidly increasing abdominal swelling with breathlessness. New leg swelling, fever with marked deterioration or clearly reduced urine also need prompt medical advice because the cause could be advanced liver disease or another serious condition [1, 8, 11].\n\nDo not try to determine the liver stage from one sign, and do not wait for a routine appointment when a condition is deteriorating over hours. Loss of consciousness, obvious bleeding, difficulty breathing or acute confusion require the appropriate emergency service. Urgency also depends on speed of onset, severity, pregnancy, blood-thinning medicines, and heart or kidney disease. If uncertain, obtain medical guidance rather than relying on an article [11].\n\nBy contrast, persistent fatigue, vague right-sided discomfort, repeatedly raised tests or a report of steatosis without alarm features usually call for an organised appointment rather than emergency attendance. Bring previous results and a medicine list, and discuss alcohol and herbs honestly so the assessment is accurate. Separating emergencies from planned follow-up helps you obtain the right level of care without minimising the problem or creating unnecessary panic [1, 2, 8]."
+          }
+        },
+        {
+          "id": "practical-next-step",
+          "heading": {
+            "ar": "خطوتك الجاية: حوّل التقرير لخطة تقدر تتابعها",
+            "en": "Your next step: turn the report into a plan you can follow"
+          },
+          "body": {
+            "ar": "لو عندك تقرير كبد دهني أو تحاليل متغيرة، ابدأ بجمع الورق بالتواريخ، وقائمة كل دواء ومكمل، وأي قياسات سكر أو ضغط متاحة. اكتب باختصار التغيرات في الوزن والحركة والأكل، وأي تاريخ عائلي لمرض كبد. في الزيارة، اطلب إجابة واضحة على أربع نقاط: هل التشخيص مرجح؟ هل اتراجعت الأسباب الأخرى؟ إيه تقدير خطر التليف؟ وإيه معيار النجاح وموعد المراجعة؟ الأسئلة دي بتحول النصيحة العامة لخطة شخصية قابلة للقياس [2, 4, 6, 7].\n\nفي العيادة، التقييم المناسب ممكن يجمع القصة والفحص، مراجعة التحاليل والتصوير، وتنسيق التغذية العلاجية أو فحص إضافي لما يكون له داعٍ. مش كل شخص محتاج نفس التحاليل، ومش كل زيارة لازم تنتهي بدواء أو سونار. الهدف هو ترتيب الخطر، اختيار تغييرات واقعية، وضبط السكر والضغط والدهون بالتعاون مع الأطباء المعالجين، ثم تحديد نقطة مراجعة معقولة [4, 5, 7].\n\nلو محتاج تبدأ المسار ده، تقدر تطلب حجز استشارة للكبد والجهاز الهضمي. خُد معاك النتائج السابقة بدل تكرارها من غير سبب، واسأل قبل الزيارة لو فيه تجهيز لفحص محدد. الحجز مش وعد بنتيجة ولا بديل عن الطوارئ؛ هو خطوة منظمة عشان الطبيب يراجع الحالة كاملة ويحدد معاك المتابعة المناسبة [2, 4].",
+            "en": "If you have a fatty-liver report or changing laboratory results, begin by arranging documents by date and listing every medicine and supplement, plus any available glucose or blood-pressure readings. Briefly note changes in weight, activity and eating, and any family history of liver disease. At the appointment, seek clear answers to four points: is the diagnosis likely, have alternative causes been considered, what is the estimated fibrosis risk, and what measure and review date define progress? These questions turn broad advice into an individual, measurable plan [2, 4, 6, 7].\n\nAppropriate clinic assessment may combine history and examination, review of laboratory tests and imaging, and coordination with clinical nutrition or additional testing when indicated. Not everyone needs the same tests, and every visit does not need to end with a medicine or ultrasound. The aim is to organise risk, choose realistic changes, manage glucose, blood pressure and lipids with the relevant clinicians, and set a reasonable review point [4, 5, 7].\n\nIf you need to start this pathway, you can request a liver and gastroenterology consultation. Bring earlier results rather than repeating them without a reason, and ask before the visit whether a planned test requires preparation. Booking is not a promise of an outcome or a substitute for emergency care; it is a structured step so the clinician can review the full picture and agree suitable follow-up with you [2, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حجز استشارة للكبد والجهاز الهضمي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a liver and gastroenterology consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الكبد الدهني ممكن يتحسن فعلاً؟",
+            "en": "Can fatty liver genuinely improve?"
+          },
+          "a": {
+            "ar": "أيوه، دهون الكبد والعوامل الأيضية ممكن تتحسن مع تغييرات مستمرة في الأكل والحركة، ونزول وزن تدريجي لما يكون مناسباً، وضبط السكر والدهون والضغط. درجة التحسن والوقت مختلفين من شخص للتاني، ووجود تليف يغيّر الهدف والمتابعة. عشان كده ما تقيسش النجاح بعرض واحد أو سونار سريع؛ اتفق مع الطبيب على مؤشرات وموعد مراجعة [3, 4, 5].",
+            "en": "Yes. Liver fat and metabolic factors can improve with sustained changes in food and activity, gradual weight loss when appropriate, and management of glucose, lipids and blood pressure. The degree and timing differ between people, while fibrosis changes the goals and follow-up. Do not judge progress by one symptom or an early ultrasound; agree on measures and a review point with the clinician [3, 4, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو إنزيمات الكبد رجعت طبيعية، أوقف المتابعة؟",
+            "en": "Can I stop follow-up if liver enzymes return to normal?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. ALT وAST ممكن يكونوا طبيعيين مع وجود دهون أو حتى تليف مهم، وانخفاضهم ما يثبتش لوحده إن كل الإصابة اختفت. الطبيب بيقرأ الاتجاه مع الصفائح، عوامل السكر والوزن، نتائج تقدير التليف وأي تصوير مناسب. قرار تقليل أو استمرار المتابعة بيتحدد حسب الخطر الكامل، مش رقم إنزيم منفرد [2, 4, 6].",
+            "en": "Not necessarily. ALT and AST can be normal despite steatosis or clinically important fibrosis, and lower values alone do not prove that all liver injury has resolved. The clinician reads the trend alongside platelets, glucose and weight factors, fibrosis-risk results and appropriate imaging. Follow-up is reduced or continued according to overall risk, not one enzyme value [2, 4, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أكرر السونار كل كام شهر؟",
+            "en": "Do I need an ultrasound every few months?"
+          },
+          "a": {
+            "ar": "غالباً لأ. السونار العادي مفيد لاكتشاف مظهر الدهون وبعض التغيرات، لكنه مش مقياساً دقيقاً للفروق الصغيرة ولا يحدد الالتهاب أو درجة التليف. توقيت إعادته يعتمد على السؤال الطبي والنتائج والخطر، بينما المتابعة قد تعتمد أكتر على عوامل الأيض وتحاليل موجهة وإعادة تقدير التليف. ما تكررّش تصويراً لمجرد القلق من غير خطة لاستخدام النتيجة [2, 4, 6].",
+            "en": "Usually not. Routine ultrasound can identify the appearance of liver fat and some structural changes, but it is not a precise measure of small changes and cannot establish inflammation or fibrosis stage. Repeat timing depends on the clinical question, findings and risk, while follow-up may rely more on metabolic measures, targeted blood tests and repeat fibrosis assessment. Avoid repeating imaging only for reassurance when there is no plan for using the result [2, 4, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الشخص بوزن طبيعي يحتاج ينزل وزن عشان يعالج الكبد الدهني؟",
+            "en": "Does a person at a usual weight need weight loss to treat fatty liver?"
+          },
+          "a": {
+            "ar": "مش كل شخص محتاج هدف نزول وزن. الكبد الدهني ممكن يحصل مع وزن في النطاق المعتاد، وساعتها الطبيب بيراجع محيط الوسط، جودة الأكل، الحركة، السكر والدهون والأسباب الأخرى. قد يكون الهدف تحسين تركيب الوجبات واللياقة وتقليل دهون البطن مع الحفاظ على العضلات بدل مطاردة رقم أقل على الميزان. الخطة تتفصل حسب الحالة [4, 5].",
+            "en": "Not everyone needs a weight-loss target. Fatty liver can occur at a weight within the usual range, so the clinician reviews waist distribution, food quality, activity, glucose, lipids and other causes. The goal may be better meal composition and fitness with less abdominal fat while preserving muscle, rather than pursuing a lower number on the scale. The plan should be individualised [4, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أمنع الدهون تماماً أو أعمل ديتوكس؟",
+            "en": "Must I avoid all fat or do a detox?"
+          },
+          "a": {
+            "ar": "لأ. الجسم محتاج أنواعاً مناسبة من الدهون، والخطة عادة بتركز على جودة النمط كله وتقليل السكريات المضافة والمشروبات السكرية والأكل شديد التصنيع، مش منع كل الدهون. مفيش دليل إن خلطة ديتوكس بتشيل دهون الكبد، وبعض الأعشاب والمكملات ارتبطت بإصابة كبدية. راجع أي منتج مع الطبيب أو الصيدلي قبل استخدامه [3, 4, 10].",
+            "en": "No. The body needs appropriate dietary fats, and care generally focuses on the quality of the whole eating pattern and limiting added sugars, sugary drinks and highly processed food, not eliminating all fat. Detox mixtures have not been shown to remove liver fat, and some herbs and supplements are linked to liver injury. Review any product with a clinician or pharmacist before using it [3, 4, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل فيه دواء لكل حالات الكبد الدهني؟",
+            "en": "Is there a medicine for every case of fatty liver?"
+          },
+          "a": {
+            "ar": "لأ. علاج العوامل المصاحبة زي السكر أو السمنة بيتختار لو له داعٍ مناسب، والعلاج الموجّه resmetirom معتمد من FDA لفئة محددة من البالغين عندهم MASH غير مصحوب بتشمع وتليف متوسط إلى متقدم، مش لكل شخص عنده دهون. تحديد المرحلة والتداخلات والتوفر المحلي والمتابعة لازم يكون مع متخصص [5, 9].",
+            "en": "No. Medicines for associated diabetes or obesity are selected when there is an appropriate indication. The targeted medicine resmetirom has FDA approval for a defined group of adults with noncirrhotic MASH and moderate-to-advanced fibrosis, not for everyone with steatosis. Stage, interactions, local availability and monitoring must be assessed by a specialist [5, 9]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Nonalcoholic Fatty Liver Disease (NAFLD) & NASH overview",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash"
+        },
+        {
+          "label": "NIDDK — Diagnosis of NAFLD & NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"
+        },
+        {
+          "label": "NIDDK — Treatment for NAFLD & NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment"
+        },
+        {
+          "label": "AASLD Practice Guidance on the Clinical Assessment and Management of NAFLD",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/"
+        },
+        {
+          "label": "EASL–EASD–EASO Clinical Practice Guidelines on MASLD: Executive Summary (2024)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519095/"
+        },
+        {
+          "label": "NICE NG49 — Non-alcoholic fatty liver disease: assessment and management",
+          "url": "https://www.nice.org.uk/guidance/ng49/chapter/recommendations"
+        },
+        {
+          "label": "AGA — Clinical Care Pathway for Risk Stratification and Management of NAFLD",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8819923/"
+        },
+        {
+          "label": "NHS — Non-alcoholic fatty liver disease (NAFLD/MASLD)",
+          "url": "https://www.nhs.uk/conditions/non-alcoholic-fatty-liver-disease/"
+        },
+        {
+          "label": "FDA — Approval of resmetirom for noncirrhotic NASH with liver fibrosis",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-patients-liver-scarring-due-fatty-liver-disease"
+        },
+        {
+          "label": "NIH LiverTox — Herbal and Dietary Supplements",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK548441/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Cirrhosis",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/cirrhosis/symptoms-causes"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "علاج الكبد الدهني",
+          "متابعة الكبد الدهني",
+          "تليف الكبد",
+          "دهون الكبد",
+          "MASLD"
+        ],
+        "en": [
+          "fatty liver treatment",
+          "fatty liver follow-up",
+          "liver fibrosis",
+          "MASLD",
+          "MASH"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "علاج الكبد الدهني والمتابعة خطوة بخطوة",
+          "en": "Fatty liver treatment and follow-up plan"
+        },
+        "description": {
+          "ar": "دليل عملي لعلاج الكبد الدهني: تقييم التليف، الأكل والحركة، ضبط السكر والدهون، مواعيد المتابعة، والأعراض اللي محتاجة رعاية عاجلة.",
+          "en": "A practical guide to fatty liver treatment, fibrosis risk, food, activity, metabolic care, follow-up tests and warning signs needing urgent help."
+        }
+      }
+    }
+  ]
+}

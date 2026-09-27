@@ -1,0 +1,340 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of tip-reflux-time-stamp; replaces the entry from content/articles.json. Expanded the short timing tip into a medically re-reviewed bilingual reflux diary guide with safety-netting, aligned internal links, FAQs, and authoritative sources.",
+  "articles": [
+    {
+      "slug": "tip-reflux-time-stamp",
+      "type": "tip",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology"
+      ],
+      "date": "2026-08-28",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/tip-reflux-time-stamp.webp",
+      "title": {
+        "ar": "سجّل وقت الحموضة: دليل بسيط ليوميات الارتجاع",
+        "en": "Time-stamp heartburn: a practical reflux diary"
+      },
+      "excerpt": {
+        "ar": "لو الحموضة بتصحّيك أو بتتكرر، سجل وقت آخر لقمة والاستلقاء وبداية العرض لمدة قصيرة. الدليل ده يوضح إيه اللي تكتبه وإزاي تراجعه بأمان مع الطبيب.",
+        "en": "If heartburn wakes you or keeps returning, briefly record your last mouthful, lying-down time and symptom onset. Learn what to note and how to review it safely with a clinician."
+      },
+      "faq": [
+        {
+          "q": {
+            "ar": "أسجّل الحموضة لمدة قد إيه؟",
+            "en": "How long should I keep a heartburn diary?"
+          },
+          "a": {
+            "ar": "ابدأ بأسبوع أو أسبوعين لو الأعراض بتحصل على فترات؛ المدة دي غالباً بتغطي أيام شغل وإجازة من غير ما تحوّل التسجيل لعبء. لو موعدك أقرب، سجّل اللي تقدر عليه وخد السجل معاك. ما تأجلش تقييماً مطلوباً عشان تكمل عدد أيام معين، واطلب مساعدة أسرع لو ظهرت علامة خطر [1, 2, 6].",
+            "en": "Start with one or two weeks if symptoms are intermittent; that usually captures workdays and days off without turning tracking into a burden. If your appointment is sooner, record what you can and bring it. Do not delay an indicated assessment just to complete a set number of days, and seek faster help if an alarm feature appears [1, 2, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أكتب كل مكوّن في الأكل؟",
+            "en": "Must I list every ingredient in each meal?"
+          },
+          "a": {
+            "ar": "مش لازم في البداية. اكتب وقت الوجبة، حجمها التقريبي، وهل كانت دسمة أو حارة أو فيها مشروب لاحظت إنه بيضايقك. التفاصيل الكتير ممكن تخلي السجل صعب وتوهمك إن صنفاً واحداً هو السبب. لو ظهر نمط ثابت، الطبيب أو أخصائي التغذية يحدد هل محتاج تجربة غذائية أدق [3, 4, 7].",
+            "en": "Not initially. Record the meal time, approximate size, and whether it was rich, spicy or included a drink you noticed was troublesome. Excess detail can make the diary hard to sustain and imply that one ingredient is necessarily responsible. If a repeatable pattern appears, a clinician or dietitian can decide whether a more focused food trial is useful [3, 4, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو الحموضة ظهرت بعد أكلة، أمنعها فوراً؟",
+            "en": "If heartburn follows a food once, should I stop it immediately?"
+          },
+          "a": {
+            "ar": "مرة واحدة مش كفاية عشان تثبت علاقة. بصّ على تكرار النمط، حجم الوجبة، الوقت قبل النوم، وأي عوامل اتغيرت في نفس اليوم. ما تمنعش مجموعات أكل كاملة من نفسك، خصوصاً لو أكلك محدود أصلاً. ناقش تجربة محددة وقابلة للرجوع مع المختص لو نفس الارتباط اتكرر [3, 4, 5].",
+            "en": "One episode is not enough to establish a relationship. Look for repetition and consider meal size, the interval before bed and other factors that changed that day. Do not remove whole food groups independently, particularly if your diet is already limited. Discuss a defined, reversible trial with a professional if the same association recurs [3, 4, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل السجل يثبت إن عندي ارتجاع؟",
+            "en": "Can the diary prove that I have reflux?"
+          },
+          "a": {
+            "ar": "لأ. السجل بيرتب القصة وبيوضح علاقة محتملة بين الأكل والنوم والأعراض، لكنه مش اختبار تشخيص. تشخيص الارتجاع بيعتمد على الأعراض والتاريخ والفحص، وأحياناً تجربة علاج منظمة أو منظار أو قياس ارتجاع حسب السؤال. ممكن أعراض تانية تشبه الحموضة، عشان كده التفسير للطبيب [2, 5, 10, 12].",
+            "en": "No. A diary organizes the history and may show a relationship among eating, sleep and symptoms, but it is not a diagnostic test. Reflux assessment uses symptoms, history and examination, sometimes with a structured treatment trial, endoscopy or reflux monitoring depending on the question. Other conditions can resemble heartburn, so interpretation belongs with a clinician [2, 5, 10, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أكتب في السجل لو خدت دواء للحموضة؟",
+            "en": "Should I record reflux medicine in the diary?"
+          },
+          "a": {
+            "ar": "أيوه. اكتب الاسم أو المادة الفعالة، الجرعة، وقت الاستخدام بالنسبة للأكل، وهل كان الدواء موصوفاً أو من غير وصفة، وبعد قد إيه العرض اتغير. ما تزودش الجرعة وما توقفش علاجاً موصوفاً بسبب السجل. لو الاحتياج بيتكرر أو العلاج مش نافع، راجع الطبيب أو الصيدلي [3, 5, 8].",
+            "en": "Yes. Record the name or active ingredient, dose, timing relative to food, whether it was prescribed or over the counter, and when the symptom changed. Do not increase the dose or stop prescribed treatment because of the diary. If use keeps recurring or treatment is not helping, review it with a clinician or pharmacist [3, 5, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل رفع الرأس بمخدات زيادة كفاية للحموضة الليلية؟",
+            "en": "Are extra pillows enough for night-time heartburn?"
+          },
+          "a": {
+            "ar": "الهدف هو رفع الرأس والجزء العلوي من الجسم بشكل ثابت، مش ثني الرقبة بس. بعض الإرشادات بتقترح إسفيناً مناسباً أو رفع رأس السرير، والأدلة بتشير لفائدة محتملة مع تفاوت جودة الدراسات. سجّل الطريقة والنتيجة، وخد بالك من الأمان والراحة، وناقش استمرار الأعراض الليلية مع الطبيب [3, 4, 11].",
+            "en": "The aim is stable elevation of the head and upper torso, not merely bending the neck. Guidance suggests a suitable wedge or raising the head of the bed, and evidence indicates possible benefit although study quality varies. Record the method and response, keep comfort and safety in mind, and discuss continuing night symptoms with a clinician [3, 4, 11]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Symptoms & Causes of GER & GERD in Adults",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Diagnosis of GER & GERD in Adults",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/diagnosis"
+        },
+        {
+          "label": "NIDDK — Treatment for GER & GERD in Adults",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/treatment"
+        },
+        {
+          "label": "NIDDK — Eating, Diet & Nutrition for GER & GERD",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition"
+        },
+        {
+          "label": "American College of Gastroenterology — Clinical guideline for GERD (2022, full text)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/"
+        },
+        {
+          "label": "American Gastroenterological Association — Personalized evaluation and management of GERD (2022)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9838103/"
+        },
+        {
+          "label": "NICE — Gastro-oesophageal reflux disease and dyspepsia in adults (CG184)",
+          "url": "https://www.nice.org.uk/guidance/cg184/chapter/Recommendations"
+        },
+        {
+          "label": "NHS — Heartburn and acid reflux",
+          "url": "https://www.nhs.uk/conditions/heartburn-and-acid-reflux/"
+        },
+        {
+          "label": "MedlinePlus — Gastroesophageal Reflux Disease",
+          "url": "https://medlineplus.gov/gerd.html"
+        },
+        {
+          "label": "American Heart Association — Warning Signs of a Heart Attack",
+          "url": "https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack"
+        },
+        {
+          "label": "Schuitenmaker et al. — Systematic review of treatments for nocturnal gastroesophageal reflux",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10078437/"
+        },
+        {
+          "label": "American Society for Gastrointestinal Endoscopy — GERD diagnosis and management guideline",
+          "url": "https://www.asge.org/home/resources/publications/guidelines/american-society-for-gastrointestinal-endoscopy-guideline-on-the-diagnosis-and-management-of-gerd--summary-and-recommendations"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "الحموضة",
+          "ارتجاع المريء",
+          "سجل أعراض الحموضة",
+          "الحموضة الليلية",
+          "توقيت الأكل والنوم",
+          "طبيب جهاز هضمي"
+        ],
+        "en": [
+          "heartburn",
+          "acid reflux",
+          "reflux symptom diary",
+          "night-time heartburn",
+          "meal and sleep timing",
+          "gastroenterology consultation"
+        ]
+      },
+      "sections": [
+        {
+          "id": "what-the-diary-can-and-cannot-do",
+          "heading": {
+            "ar": "سجل الحموضة بيساعد في إيه، وما يثبتش إيه؟",
+            "en": "What a heartburn diary can and cannot tell you"
+          },
+          "body": {
+            "ar": "الحموضة هي إحساس حارق غالباً بيبدأ خلف عظمة الصدر وممكن يطلع ناحية الحلق، والارتجاع هو رجوع محتوى المعدة للمريء أو الفم. الاتنين ممكن يحصلوا بعد الأكل أو مع الاستلقاء، بس مش كل حرقان معناه مرض ارتجاع مزمن. صفحة الحموضة ولا ارتجاع المريء؟ بتشرح الفرق بالتفصيل، وهنا هنركز على تسجيل الوقت بطريقة تخلي وصفك أوضح [1, 8, 9].\n\nالسجل مش جهاز قياس ومش بيشخّص المرض. فائدته إنه يحوّل جملة عامة زي «الحموضة بتجيلي بالليل» لمعلومات مرتبة: آخر مرة أكلت إمتى، نمت إمتى، العرض بدأ إمتى، وإيه اللي حصل بعده. الطبيب بيجمع النمط ده مع تاريخك الصحي والأدوية والفحص، وممكن يقرر إن التقييم السريري كفاية أو إن فيه سؤال محتاج فحصاً موجهاً [2, 5, 6].\n\nخلي التسجيل قصيراً وعملياً. أسبوع أو أسبوعين غالباً أسهل من مفكرة مفتوحة من غير نهاية، ومش مطلوب تستنى حدوث العرض كل يوم. لو فيه أيام من غير حموضة، اكتبها برضه؛ غياب العرض مع توقيت أو سلوك معين ممكن يبقى مفيد زي وجوده. الهدف إنك تلاحظ نمطاً محتملاً، مش إنك تراقب كل لقمة أو تلوم نفسك على كل مرة [2, 6].",
+            "en": "Heartburn is a burning sensation that usually begins behind the breastbone and may rise toward the throat, while reflux is the return of stomach contents into the oesophagus or mouth. Either may occur after eating or on lying down, but not every episode of burning means chronic reflux disease. Our page heartburn or reflux? explains that distinction; this guide focuses on recording time clearly [1, 8, 9].\n\nA diary is not a measuring device and cannot diagnose disease. Its value is turning a broad statement such as “I get heartburn at night” into an organized account: when you last ate, when you lay down, when symptoms began and what happened next. A clinician combines that pattern with your health history, medicines and examination, then decides whether clinical assessment is enough or a targeted test should answer a specific question [2, 5, 6].\n\nKeep tracking brief and practical. One or two weeks is usually easier than an open-ended diary, and symptoms need not happen every day. Record symptom-free days too; absence of symptoms with a particular timing or habit can be as informative as their presence. The purpose is to notice a possible pattern, not to monitor every mouthful or blame yourself for each episode [2, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الحموضة ولا ارتجاع المريء؟",
+                "url": "../articles/gerd-and-reflux-difference.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "heartburn or reflux?",
+                "url": "../articles/gerd-and-reflux-difference.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "three-times-plus-symptom-detail",
+          "heading": {
+            "ar": "ابدأ بتلات أوقات، وبعدها وصف بسيط للعرض",
+            "en": "Start with three times, then add a simple symptom description"
+          },
+          "body": {
+            "ar": "في كل ليلة أو نوبة، اكتب تلات أوقات أساسية: وقت آخر لقمة أو مشروب فيه سعرات، وقت ما استلقيت فعلاً مش وقت دخول السرير، ووقت بداية الحرقان أو الرجوع. لو صحيت من النوم، اكتب الساعة وهل صحيت بسبب الحرقان ولا لاحظته بعد ما صحيت لسبب تاني. الفرق ده مهم عشان ما نفترضش إن الارتجاع هو اللي قطع النوم من غير دليل [2, 5, 11].\n\nبعد الوقت، وصف العرض بكلمتين: حرقان خلف الصدر، طعم حامض، رجوع سائل أو أكل، كحة، بحة، غثيان، أو ألم. اكتب شدته بمقياس بسيط من صفر لعشرة، وقد إيه استمر، وهل أثّر على النوم أو الأكل أو الشغل. الكحة والبحة ممكن يتناقشوا ضمن الصورة، لكن وجودهم لوحده ما يثبتش إن السبب ارتجاع، لأن الأعراض دي ليها تفسيرات تانية [1, 5, 6].\n\nسجّل الوضع وقت البداية: واقف، قاعد، منحني، مستلقي على الظهر، أو على جنب. ولو العرض بدأ بعد مجهود أو مع توتر، اكتب ده من غير استنتاج. خليك وصفي: «بدأ بعد الاستلقاء بأربعين دقيقة» أدق من «الأكل ده بوّظ معدتي». الوصف المحايد بيسيب للطبيب مساحة يقارن الاحتمالات بدل ما يبدأ من تشخيص محسوم [2, 6].",
+            "en": "For each night or episode, record three core times: the last mouthful of food or a caloric drink, when you actually lay down rather than merely went to bed, and when burning or regurgitation began. If you woke during the night, note the time and whether burning woke you or you noticed it after waking for another reason. That distinction helps avoid assuming reflux disrupted sleep without evidence [2, 5, 11].\n\nNext, describe the symptom in a few words: burning behind the breastbone, sour taste, liquid or food returning, cough, hoarseness, nausea or pain. Give it a simple zero-to-ten severity score, its duration, and whether it affected sleep, eating or work. Cough and hoarseness can be discussed as part of the picture, but neither alone proves reflux because these symptoms have other explanations [1, 5, 6].\n\nRecord your position at onset: standing, sitting, bending, lying on your back or on one side. If symptoms began after exertion or during stress, record that without drawing a conclusion. Stay descriptive: “began forty minutes after lying down” is more useful than “that food ruined my stomach.” Neutral wording leaves room for the clinician to compare explanations rather than start with a settled diagnosis [2, 6]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "meal-size-and-personal-triggers",
+          "heading": {
+            "ar": "سجّل حجم الوجبة قبل ما تعمل قايمة ممنوعات",
+            "en": "Record meal size before creating a banned-food list"
+          },
+          "body": {
+            "ar": "جنب وقت الوجبة، اكتب حجمها بكلمة واحدة: خفيفة، عادية، أو كبيرة. ممكن تضيف لو كانت دسمة أو حارة، أو فيها قهوة أو شوكولاتة أو نعناع أو مشروب لاحظت قبل كده إنه بيرتبط بالأعراض. المصادر الطبية بتذكر محفزات شائعة، لكنها كمان بتأكد إن الاستجابة شخصية؛ مفيش قايمة واحدة لازم كل مريض يمنعها [3, 4, 7, 8].\n\nما تغيّرش عشر حاجات في نفس الوقت. لو قللت أصناف كتير، وبكّرت العشا، وصغّرت الكمية، ورفعت السرير في ليلة واحدة، مش هتعرف إيه اللي فرّق. الأفضل تثبت الروتين قدر الإمكان، وبعد ملاحظة نمط متكرر تناقش تغييراً واحداً واضحاً وآمناً. ما تعملش تجربة إعادة تعريض لو صنف سبب قبل كده حساسية حقيقية أو صعوبة تنفس؛ دي مش حموضة عادية [4, 5, 6].\n\nالمسافة بين الأكل والاستلقاء تستحق التسجيل لو الأعراض ليلية. إرشادات NIDDK بتذكر إن إنهاء الوجبة قبل الاستلقاء أو النوم بتلات ساعات ممكن يحسن الأعراض عند بعض الناس، والإرشادات الأمريكية بتنصح بتجنب الوجبات خلال ساعتين أو تلاتة قبل النوم. اعتبرها نقطة للملاحظة والنقاش، مش قانوناً يعاقبك أو يضمن اختفاء العرض [4, 5, 11].",
+            "en": "Beside the meal time, describe its size with one word: light, usual or large. You can add whether it was rich or spicy, or contained coffee, chocolate, mint or a drink that you have previously associated with symptoms. Medical sources list common triggers but also emphasize individual response; there is no single avoidance list that applies to everyone [3, 4, 7, 8].\n\nDo not change ten variables together. If you remove many foods, eat earlier, reduce portions and elevate the bed on the same night, you will not know what made a difference. Keep the routine reasonably stable, then discuss one clear, safe change after seeing a repeated pattern. Do not deliberately re-expose yourself to something that previously caused a true allergic reaction or breathing difficulty; that is not an ordinary heartburn experiment [4, 5, 6].\n\nThe food-to-lying-down interval is worth recording when symptoms occur at night. NIDDK notes that finishing meals at least three hours before lying down or bed may improve symptoms for some people, while US guidance advises avoiding meals within two to three hours of bedtime. Treat this as an observation and discussion point, not a rule that punishes you or guarantees symptom relief [4, 5, 11]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "sleep-position-and-night-pattern",
+          "heading": {
+            "ar": "اربط الوقت بوضع النوم، بس من غير مبالغة في النتيجة",
+            "en": "Connect timing with sleep position without overstating the result"
+          },
+          "body": {
+            "ar": "لو الحموضة بتظهر بالليل، سجّل هل كنت مسطحاً ولا رافع الرأس والجزء العلوي من الجسم، وعلى الظهر ولا الجنب. رفع الرأس بإسفين مناسب أو رفع رأس السرير مذكور في إرشادات العلاج، وفيه دراسات بتشير لتحسن بعض الأعراض الليلية، لكن جودة الأدلة مش متساوية. مخدات كتير تحت الرقبة بس ممكن تبقى غير مريحة ومش هي نفس رفع الجذع [3, 5, 7, 11].\n\nالمراجعات العلمية لقت إن النوم على الجنب الشمال ممكن يقلل التعرض الحمضي عند بعض مرضى الارتجاع الليلي مقارنة بأوضاع تانية، بس ده مش اختبار تشخيص ولا حل يناسب كل جسم أو كل مشكلة صحية. لو عندك إصابة أو ألم كتف أو ظهر أو مشكلة تنفس، ما تجبرش نفسك على وضع مؤلم؛ اسأل الطبيب عن الأنسب [5, 11].\n\nاكتب كمان وقت الاستيقاظ، عدد المرات، وهل فيه طعم راجع أو كحة مع الاستلقاء. ما تسجلش كلمة «اختناق» من غير وصف: هل كان فيه سعال؟ نهجان؟ صفير؟ صعوبة بلع؟ التفاصيل بتفرق لأن مشاكل النوم والتنفس والقلب ممكن تتداخل مع إحساس الليل. تكرار الاستيقاظ يستحق مراجعة حتى لو السجل مش قادر يحدد السبب [1, 2, 6].",
+            "en": "If heartburn appears at night, record whether you were flat or had your head and upper torso elevated, and whether you were on your back or side. A suitable wedge or raising the head of the bed appears in treatment guidance, and studies suggest improvement in some night symptoms, although the evidence is not uniformly strong. Several pillows that only bend the neck can be uncomfortable and are not the same as elevating the torso [3, 5, 7, 11].\n\nScientific reviews report that left-side sleeping may reduce acid exposure in some people with nocturnal reflux compared with other positions, but it is neither a diagnostic test nor a solution suitable for every body or health condition. If you have an injury, shoulder or back pain, or a breathing condition, do not force a painful position; ask a clinician what is appropriate [5, 11].\n\nAlso record when you woke, how often, and whether a returning taste or cough occurred while lying down. Do not write “choking” without description: was there coughing, breathlessness, wheeze or trouble swallowing? The detail matters because sleep, respiratory and cardiac problems can overlap with night sensations. Repeated waking deserves review even if the diary cannot identify its cause [1, 2, 6]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "read-pattern-not-single-night",
+          "heading": {
+            "ar": "إزاي تقرأ النمط من غير ما تشخّص نفسك؟",
+            "en": "How to read the pattern without diagnosing yourself"
+          },
+          "body": {
+            "ar": "بعد كام يوم، اعمل مراجعة بسيطة: كام نوبة حصلت؟ كام واحدة كانت بعد وجبة كبيرة؟ وكام واحدة بدأت قريب من الاستلقاء؟ بصّ للأيام اللي مفيهاش عرض كمان. لو نفس العامل ظهر مرة واحدة، اعتبره ملاحظة. لو تكرر في ظروف متشابهة، اعتبره سؤالاً للطبيب، مش إثباتاً للسبب [2, 5, 6].\n\nفرّق بين الارتباط والسبب. ممكن الحموضة تظهر بعد قهوة متأخرة، لكن اليوم نفسه كان فيه وجبة أكبر ونوم أسرع ودواء اتاخد بشكل مختلف. وممكن تتحسن ليلة لأن العرض بطبيعته بيتغير، مش لأن خطوة واحدة عالجت المرض. عشان كده السجل المختصر المتكرر أفضل من ذاكرة ليلة مزعجة، لكنه يفضل جزءاً من التقييم مش بديلاً عنه [2, 5].\n\nاكتب ملخصاً من أربع سطور بدل ما تسلم الطبيب صفحات أرقام بس: أكثر عرض بيتكرر، تكراره الأسبوعي، علاقته الأقوى بالأكل أو الاستلقاء، وإيه اللي جربته ونتيجته. لو النمط غير واضح، دي نتيجة مفيدة برضه؛ مش لازم تخترع محفزاً. الطبيب ممكن يراجع احتمال ارتجاع أو سبب تاني، ويحدد هل المتابعة أو تجربة علاج أو اختبار هتجاوب السؤال [2, 6, 12].",
+            "en": "After several days, make a simple review: how many episodes occurred, how many followed a large meal, and how many began soon after lying down? Include symptom-free days. If a factor appeared once, treat it as an observation. If it recurred under similar circumstances, treat it as a question for the clinician, not proof of cause [2, 5, 6].\n\nSeparate association from causation. Heartburn may follow late coffee, but that day may also have included a larger meal, a shorter interval before sleep and different medicine use. One night may improve because symptoms naturally vary, not because one action treated the condition. A short repeated record is more reliable than memory of one uncomfortable night, but it remains one part of assessment rather than a substitute [2, 5].\n\nWrite a four-line summary instead of giving the clinician pages of times alone: the most frequent symptom, weekly frequency, its strongest relationship with food or lying down, and what you tried with the result. An unclear pattern is useful too; you do not need to invent a trigger. The clinician can consider reflux or another cause and decide whether follow-up, a treatment trial or testing will answer the question [2, 6, 12]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "record-medicines-safely",
+          "heading": {
+            "ar": "دوّن الدواء والتوقيت، وما تعدلش العلاج لوحدك",
+            "en": "Record medicine and timing without changing treatment yourself"
+          },
+          "body": {
+            "ar": "في خانة الدواء، اكتب المادة الفعالة لو تعرفها، الجرعة، الساعة، وعلاقتها بالوجبة. صوّر العبوة لو الاسم صعب. اكتب كمان مضاد الحموضة أو العلاج اللي بيتاخد من غير وصفة، والمسكنات والمكملات؛ بعض الأدوية ممكن تزود أعراضاً شبيهة بالارتجاع أو تغيّر قرار العلاج. ما تعتبرش عدم التحسن دليلاً تلقائياً إنك محتاج جرعة أكبر [1, 3, 5].\n\nلو الدواء موصوف، ما توقفوش وما تغيّرش ميعاده أو جرعته من نفسك عشان تعمل «اختبار». ولو منتج من غير وصفة، اتبع الملصق واسأل الصيدلي عن التداخلات والمدة المناسبة. الاحتياج اليومي لمضاد حموضة أو استمرار الأعراض رغم العلاج يستحق مراجعة، لأن الخطة ممكن تحتاج ضبط الاستخدام أو مراجعة التشخيص، مش مجرد تكرار الشراء [3, 5, 7, 8].\n\nصفحة دواء الحموضة لفترة طويلة بتناقش الاستمرار أو التقليل ومراجعة السبب بتفصيل منفصل. في السجل الحالي، المطلوب بس توثّق إيه اللي اتاخد وإمتى وإيه اللي حصل بعده. الطبيب هو اللي يقرر إذا كان التحسن يدعم خطة معينة، أو إذا كان عدم الاستجابة محتاج فحصاً أو تفسيراً مختلفاً [2, 5, 6].",
+            "en": "In the medicine field, record the active ingredient if known, dose, clock time and relationship to the meal. Photograph the package if the name is difficult. Include antacids or other non-prescription products, pain medicines and supplements; some medicines can worsen reflux-like symptoms or alter treatment decisions. Do not treat lack of improvement as automatic evidence that you need a higher dose [1, 3, 5].\n\nIf treatment was prescribed, do not stop it or change its timing or dose to create a personal “test.” For a non-prescription product, follow the label and ask a pharmacist about interactions and appropriate duration. Daily reliance on an antacid or persistent symptoms despite treatment deserve review because the plan may require correcting use or reconsidering the diagnosis, not simply repeated purchasing [3, 5, 7, 8].\n\nOur page long-term acid-reflux medicine separately discusses continuation, reduction and review of the indication. In this diary, simply document what you took, when you took it and what happened afterwards. The clinician decides whether the response supports a particular plan, or whether non-response calls for testing or another explanation [2, 5, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دواء الحموضة لفترة طويلة",
+                "url": "../articles/qa-reflux-long-term-medicine.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "long-term acid-reflux medicine",
+                "url": "../articles/qa-reflux-long-term-medicine.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "red-flags-override-the-diary",
+          "heading": {
+            "ar": "علامات ما تستناش عليها السجل",
+            "en": "Warning signs that override the diary"
+          },
+          "body": {
+            "ar": "ألم أو ضغط الصدر الجديد أو الشديد ما ينفعش تفترض إنه حموضة، خصوصاً لو معاه ضيق نفس أو عرق بارد أو دوخة أو إغماء أو ألم ممتد للذراع أو الفك أو الظهر. اطلب الرعاية العاجلة المناسبة فوراً حسب مكانك. تحسن الألم بعد مضاد حموضة ما يستبعدش سبباً قلبياً، والسجل مش وسيلة لفرز الطوارئ في البيت [9, 10].\n\nصعوبة أو ألم البلع، إحساس إن الأكل بيقف، قيء مستمر، قيء فيه دم أو شكله زي تفل القهوة، براز أسود أو دموي، فقدان شهية أو وزن من غير قصد، أو تدهور واضح محتاجين تقييماً طبياً من غير تأجيل عشان تكمل اليوميات. صفحة ارتجاع المريء: إمتى تراجع طبيب؟ بتفصل درجات الاستعجال من غير ما نكرر الموضوع كله هنا [1, 5, 8].\n\nحتى من غير العلامات دي، احجز مراجعة لو الحموضة بتتكرر، بتصحّيك، بتأثر على الأكل أو النوم، أو مش بتتحسن مع الخطوات والعلاج المستخدم بالطريقة الصحيحة. خُد السجل معاك، بس شكله المرتب ما يديكش إحساساً زائفاً بالأمان. القرار بيتحدد من الصورة كلها، وأي تدهور جديد يغيّر الأولوية [1, 2, 6, 12].",
+            "en": "Do not assume new or severe chest pain or pressure is heartburn, especially with shortness of breath, cold sweating, dizziness, fainting, or pain spreading to an arm, jaw or back. Seek the appropriate emergency care immediately where you live. Improvement after an antacid does not exclude a cardiac cause, and a diary cannot triage an emergency at home [9, 10].\n\nDifficult or painful swallowing, food sticking, persistent vomiting, vomit containing blood or resembling coffee grounds, black or bloody stool, unexplained loss of appetite or weight, or clear deterioration need medical assessment without waiting to complete the diary. Our page acid reflux: when should you see a doctor? explains levels of urgency without repeating that entire topic here [1, 5, 8].\n\nEven without those features, arrange a review when heartburn keeps returning, wakes you, interferes with eating or sleep, or does not improve with appropriate measures and correctly used treatment. Bring the diary, but do not let a tidy record create false reassurance. The whole clinical picture guides the decision, and any new deterioration changes the priority [1, 2, 6, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "ارتجاع المريء: إمتى تراجع طبيب؟",
+                "url": "../articles/acid-reflux-when-to-see-doctor.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "acid reflux: when should you see a doctor?",
+                "url": "../articles/acid-reflux-when-to-see-doctor.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "bring-a-useful-summary",
+          "heading": {
+            "ar": "حوّل اليوميات لملخص مفيد في الزيارة",
+            "en": "Turn the diary into a useful appointment summary"
+          },
+          "body": {
+            "ar": "قبل الزيارة، حط دايرة حوالين أكتر نمط اتكرر، واكتب عدد النوبات في الأسبوع، أقوى عرض، وهل فيه استيقاظ من النوم. هات قائمة الأدوية والمكملات وصور العبوات، واذكر إمتى بدأت المشكلة وهل اتغير الوزن أو الشهية أو البلع. لو عملت خطوة بسيطة زي تبكير الوجبة أو رفع الرأس، اكتب المدة والنتيجة بدل كلمة «نفعت» أو «منفعتش» [2, 5, 6].\n\nحضّر تلات أسئلة: هل الوصف يرجح ارتجاعاً ولا محتاجين نفكر في سبب تاني؟ هل طريقة ووقت استخدام الدواء مناسبين؟ وإيه العلامة اللي تخليني أطلب مساعدة قبل المتابعة؟ مش كل شخص محتاج منظار أو قياس حموضة، لكن الفحوص بتبقى مفيدة لما تجاوب سؤالاً محدداً، زي وجود علامة إنذار أو عدم وضوح التشخيص أو استمرار الأعراض رغم خطة مناسبة [2, 5, 12].\n\nلو محتاج تبدأ تقييماً منظماً، تقدر تستخدم طلب حجز استشارة الجهاز الهضمي وتاخد ملخص السجل للعيادة. ذكر العيادة هنا خطوة عملية بس، مش وعد بتشخيص أو فحص أو نتيجة. لو فيه ألم صدر شديد، نزيف، إغماء، أو صعوبة بلع متزايدة، اطلب الرعاية العاجلة المناسبة بدل انتظار حجز روتيني [1, 2, 10].",
+            "en": "Before the visit, circle the most repeated pattern and write the weekly episode count, strongest symptom and whether sleep was interrupted. Bring a medicine and supplement list with package photographs, and say when the problem began and whether weight, appetite or swallowing changed. If you tried a simple step such as an earlier meal or head elevation, record its duration and result instead of writing only “worked” or “did not work” [2, 5, 6].\n\nPrepare three questions: does the description favor reflux or should another cause be considered, are medicine use and timing appropriate, and which change should prompt help before follow-up? Not everyone needs endoscopy or reflux monitoring, but tests are useful when they answer a defined question, such as an alarm feature, diagnostic uncertainty or symptoms continuing despite an appropriate plan [2, 5, 12].\n\nIf you need to begin a structured assessment, you can request a gastroenterology consultation and bring the diary summary to the clinic. The clinic is mentioned only as a practical next step, not a promise of a diagnosis, test or outcome. With severe chest pain, bleeding, fainting or increasing swallowing difficulty, seek appropriate urgent care instead of waiting for a routine booking [1, 2, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز استشارة الجهاز الهضمي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a gastroenterology consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "سجل الحموضة: توقيت الأكل والنوم والأعراض",
+          "en": "Heartburn diary: track meals, sleep and symptoms"
+        },
+        "description": {
+          "ar": "اعرف إزاي تسجل وقت الحموضة وآخر وجبة والاستلقاء والأدوية، وإزاي تراجع النمط بأمان مع الطبيب من غير منع أطعمة أو تشخيص نفسك.",
+          "en": "Learn how to track heartburn, meals, lying down and medicines, then review patterns with a clinician without self-diagnosing or over-restricting food."
+        }
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا الدليل بتفاصيل عملية لتسجيل توقيت الحموضة والأكل والنوم والأدوية وعلامات الخطر، واتراجع طبياً من جديد.",
+            "en": "We expanded the guide with practical detail on tracking heartburn, meals, sleep, medicines and warning signs, and medically re-reviewed it."
+          }
+        }
+      ]
+    }
+  ]
+}

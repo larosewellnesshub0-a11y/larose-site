@@ -1,0 +1,337 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of body-fat-percentage-context-men-women; replaces the entry from content/articles-longform-2026-09-12.json. Expanded into a bilingual evidence-linked guide to sex context, measurement limits, trends, fat distribution, and safety.",
+  "articles": [
+    {
+      "slug": "body-fat-percentage-context-men-women",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "body-contouring",
+      "specialties": [
+        "clinical-nutrition",
+        "body-contouring"
+      ],
+      "date": "2026-09-12",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/body-fat-percentage-cover.webp",
+      "title": {
+        "ar": "نسبة الدهون في الجسم للرجال والنساء: إزاي تقرأ الرقم؟",
+        "en": "Body-fat percentage in men and women: reading the number"
+      },
+      "excerpt": {
+        "ar": "نسبة الدهون تقدير بيتأثر بالجنس والعمر وطريقة القياس والسوائل. افهم إيه اللي يقوله الرقم، وإيه اللي ما يقدرش يثبته، وإزاي تتابع التغير بأمان.",
+        "en": "Body-fat percentage is an estimate shaped by sex, age, method and fluid balance. Learn what it can show, what it cannot prove and how to track change safely."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّع الدليل بشرح فرق السياق بين الرجال والنساء وطرق القياس وقراءة الاتجاه وعلامات الخطر، واتراجع طبياً من جديد.",
+            "en": "The guide was expanded with clearer context for men and women, measurement methods, trend interpretation and warning signs, and was medically re-reviewed."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-the-percentage-means",
+          "heading": {
+            "ar": "نسبة الدهون معناها إيه؟",
+            "en": "What does body-fat percentage mean?"
+          },
+          "body": {
+            "ar": "نسبة الدهون في الجسم هي تقدير لكمية الدهون كنسبة من وزن الجسم كله. يعني لو الوزن اتغير، النسبة ممكن تتحرك عشان كتلة الدهون اتغيرت، أو عشان المية والكتلة الخالية من الدهون اتغيروا، أو الاتنين مع بعض. جسمك كمان فيه عضلات وعظام وأعضاء ومية؛ عشان كده الرقم مش وصف كامل للصحة، ومش تشخيص لوحده. بعض الدهون ضروري للطاقة وحماية الأعضاء ووظائف هرمونية، والمشكلة الطبية مش مجرد وجود الدهون لكن كميتها وتوزيعها وسياقها الصحي [1, 5].\n\nفي المتوسط بتكون نسبة الدهون عند النساء أعلى من الرجال، بينما الرجال غالباً عندهم كتلة خالية من الدهون وعضلات أكتر. فيه كمان فروق معتادة في مكان تخزين الدهون؛ لكن المتوسطات السكانية ما ينفعش تتحول لحكم على شخص بعينه. الدراسات بتوضح إن العلاقة بين نسبة الدهون ومؤشر كتلة الجسم بتختلف حسب الجنس والعمر والخلفية السكانية، وإن توزيع الدهون ممكن يدي معنى مختلف حتى لو الوزن أو المؤشر متشابه [2, 3, 4].\n\nالأهم إنك تسأل: الرقم اتقاس إزاي؟ وهل الهدف متابعة تغير حقيقي، ولا تقييم خطر صحي، ولا فهم تكوين الجسم قبل خطة علاج؟ رقم واحد من غير السؤال ده ممكن يعمل قلق أو ثقة زيادة من غير سبب. الطبيب بيقراه جنب التاريخ الصحي، الفحص، محيط الخصر، الضغط، التحاليل عند الحاجة، الحركة والقوة، مش بدل الحاجات دي [9, 10].",
+            "en": "Body-fat percentage estimates fat mass as a proportion of total body weight. If weight changes, the percentage can move because fat mass changed, because water and fat-free mass changed, or because both changed. The body also contains muscle, bone, organs and water, so this number is not a complete description of health and cannot diagnose a condition on its own. Some fat is necessary for energy storage, organ protection and hormonal functions; the clinical question concerns its amount, distribution and health context, not simply whether fat exists [1, 5].\n\nOn average, women have a higher body-fat percentage than men, while men generally have more fat-free mass and muscle. Typical patterns of fat storage also differ, but population averages should not become a verdict on an individual. Research shows that the relationship between body-fat percentage and BMI varies with sex, age and population background, and that fat distribution may carry different meaning even when weight or BMI is similar [2, 3, 4].\n\nThe useful questions are how the number was measured and why it was measured. Is the goal to follow real change, assess health risk or understand body composition before a care plan? A number without that question can create either unnecessary alarm or false reassurance. A clinician reads it alongside health history, examination, waist circumference, blood pressure, laboratory results when indicated, movement and strength—not in place of them [9, 10]."
+          }
+        },
+        {
+          "id": "no-single-ideal-number",
+          "heading": {
+            "ar": "ليه مفيش رقم مثالي واحد للكل؟",
+            "en": "Why is there no single ideal number?"
+          },
+          "body": {
+            "ar": "جداول الإنترنت ساعات تحط حدود دقيقة جداً وتديها أسماء زي رياضي أو مقبول أو مرتفع. المشكلة إن الحدود دي ممكن تكون مبنية على جهاز أو عينة سكانية أو هدف مختلف، ومش كلها حدود تشخيصية متفق عليها. أبحاث كبيرة لقت إن نسب الدهون المقابلة لنفس فئات مؤشر كتلة الجسم اختلفت باختلاف الجنس والعمر والمجموعة السكانية. ده معناه إن الرقم ما يتفسرش بعيد عن الشخص والطريقة، ومش معناه إنك تختار أقل نسبة ممكنة كهدف [2, 3].\n\nالعمر بيفرق لأن تركيب الجسم وتوزيع الدهون والعضلات بيتغيروا مع الوقت. سن البلوغ والحمل وما بعد الولادة وانقطاع الطمث والتقدم في السن والرياضة المكثفة ممكن يغيروا السياق. كمان بعض الأمراض والأدوية واحتباس السوائل بيأثروا في الوزن أو القياس. لو الجهاز طبع نطاقاً مرجعياً، اعتبره معلومة عن النموذج اللي بيستخدمه الجهاز، مش شهادة نجاح أو فشل [4, 5, 6].\n\nمؤشر كتلة الجسم نفسه أداة فحص سريعة مبنية على الوزن والطول، لكنه ما بيفصلش الدهون عن العضلات والعظام وما بيحددش مكان الدهون. عشان تفهم الفرق بين الوزن ومكونات الجسم من غير ما نكرر موضوع كامل هنا، اقرأ دليل تركيب الجسم مش رقم الميزان. الهدف الواقعي بيتحدد من الصحة والوظيفة والاتجاه مع الوقت، مش من مقارنة نفسك بصورة أو جدول عام [9, 10].",
+            "en": "Online charts sometimes draw very precise boundaries and label them athletic, acceptable or high. The problem is that those boundaries may come from a particular device, study population or purpose, and they are not all agreed diagnostic thresholds. Large studies found that body-fat percentages corresponding to the same BMI categories varied by sex, age and population group. The number therefore cannot be interpreted away from the person and method, and this does not mean the lowest achievable percentage is the best target [2, 3].\n\nAge matters because body composition, muscle and fat distribution change across life. Puberty, pregnancy, the postpartum period, menopause, ageing and intensive athletic training can all alter the context. Some illnesses, medicines and fluid retention also affect weight or the measurement. If a device prints a reference range, treat it as information generated by that device's model, not as a certificate of success or failure [4, 5, 6].\n\nBMI itself is a quick screening measure based on weight and height, but it does not separate fat from muscle and bone or show where fat is stored. To understand the distinction without repeating a neighbouring topic here, read Body composition is not the scale. A realistic goal comes from health, function and the direction over time, not from comparing yourself with a photograph or a general chart [9, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تركيب الجسم مش رقم الميزان",
+                "url": "../articles/body-composition-not-scale.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Body composition is not the scale",
+                "url": "../articles/body-composition-not-scale.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "measurement-methods",
+          "heading": {
+            "ar": "الطريقة بتغيّر النتيجة",
+            "en": "The method changes the result"
+          },
+          "body": {
+            "ar": "مفيش جهاز منزلي بيشوف الدهون مباشرة. أجهزة المقاومة الكهربائية الحيوية، ومنها موازين وأجهزة تحليل تركيب الجسم، بتمرر تياراً صغيراً جداً وتقيس مقاومة الأنسجة، وبعدها تستخدم معادلات لتقدير مية الجسم والكتلة الخالية من الدهون وكتلة الدهون. النتيجة بتعتمد على نوع الجهاز، أماكن الأقطاب، المعادلة، العمر والجنس المدخلين، وحالة السوائل. الطريقة مفيدة للمتابعة لما تتعمل بشكل ثابت، لكنها تقدير مش حقيقة مطلقة [1, 5, 6].\n\nفحص DXA بيستخدم جرعة منخفضة من الأشعة ليفصل العظام والكتلة اللينة والدهون، وله بروتوكولات وضبط جودة وحدود برضه. قياس ثنايا الجلد محتاج تدريب ومواقع قياس ومعادلة مناسبة، والقياس بالإزاحة الهوائية أو الطرق البحثية بيجاوب عن أسئلة مختلفة. حتى الطرق المرجعية ممكن تختلف بسبب الجهاز والبروتوكول وتحليل الصورة؛ عشان كده تبديل الطريقة في نص المتابعة بيكسر المقارنة [5, 8].\n\nدراسات مقارنة أجهزة BIA الاستهلاكية مع DXA والرنين لقت إن بعض الأجهزة بتقدّر الوزن كويس لكن ممكن تنحاز في تقدير الدهون أو العضلات على مستوى الفرد. ده ما يخليش القياس بلا قيمة، لكنه يمنعنا من جمع رقم من ميزان البيت مع رقم من جهاز عيادة كأنهم سلسلة واحدة. اكتب اسم الجهاز والطريقة والتاريخ، وقارن نفس الطريقة بنفس الظروف قدر الإمكان [6, 7].",
+            "en": "A home device does not see fat directly. Bioelectrical impedance analysis, including body-composition scales and analysers, passes a very small current and measures tissue resistance, then uses equations to estimate body water, fat-free mass and fat mass. The result depends on device type, electrode positions, prediction equation, the entered age and sex, and fluid status. The method can support follow-up when used consistently, but it remains an estimate rather than an absolute truth [1, 5, 6].\n\nDXA uses low-dose X-rays to separate bone, lean soft tissue and fat, and it too has protocols, quality control requirements and limitations. Skinfold assessment depends on training, measurement sites and a suitable equation, while air-displacement and research methods answer somewhat different questions. Even reference methods can differ because of equipment, protocol and image analysis, so changing method halfway through follow-up breaks the comparison [5, 8].\n\nStudies comparing consumer BIA devices with DXA and MRI found that some devices measured weight well but could show individual bias in estimated fat or muscle. That does not make every measurement useless; it means a home-scale percentage and a clinic-device result should not be combined as if they were one continuous series. Record the device, method and date, and compare like with like under similar conditions whenever possible [6, 7]."
+          }
+        },
+        {
+          "id": "standardise-follow-up",
+          "heading": {
+            "ar": "ثبّت ظروف القياس قبل ما تحكم",
+            "en": "Standardise conditions before judging change"
+          },
+          "body": {
+            "ar": "أجهزة BIA مبنية على مية الجسم، فالأكل والشرب والملح والكربوهيدرات والتمرين والحر والمرض ودخول الحمام ممكن يغيّروا القراءة من غير تغير مماثل في الدهون. وقت اليوم بيفرق كمان. عند النساء، الدورة الشهرية ممكن تصاحبها تغيرات في السوائل؛ لكن بدل افتراض إن كل فرق سببه الدورة، سجّل التوقيت والظروف وراجع الاتجاه في قياسات متكررة [5, 6].\n\nللمقارنة الأنضف، استخدم نفس الجهاز ونفس وضع الجسم وفي وقت قريب من اليوم، واتبع تعليمات المكان بخصوص الأكل والشرب والتمرين. ما تجففش نفسك وما تمنعش الأكل عشان تطلع نتيجة أحسن؛ ده بيشوّه القياس وممكن يضرك. لو كان اليوم مختلفاً بسبب تمرين شديد، سفر، مرض، تورم، وجبة كبيرة أو دواء جديد، دوّن ده جنب النتيجة بدل ما تتصرف على أساسها فوراً [5, 6, 7].\n\nدليل التحضير لقياس InBody بشكل أدق بيوضح خطوات التحضير والمتابعة بالتفصيل، فهنا الخلاصة: القياس العادل محتاج شروط متقاربة وفاصل زمني له معنى. تكرار القياس كل شوية ممكن يلقط ضوضاء السوائل أكتر من تغير النسيج. الطبيب أو أخصائي التغذية يحدد إمتى الإعادة مفيدة حسب الهدف وهل النتيجة هتغير قراراً فعلاً [5, 6].",
+            "en": "BIA depends on body water, so food, drink, salt, carbohydrate, exercise, heat, illness and using the toilet can alter a reading without an equivalent change in fat. Time of day also matters. In women, the menstrual cycle may coincide with fluid changes; rather than assuming every difference is caused by the cycle, record timing and circumstances and review the pattern across repeated measurements [5, 6].\n\nFor a cleaner comparison, use the same device, the same body position and a similar time of day, and follow the provider's instructions about food, drink and exercise. Do not dehydrate yourself or avoid food to produce a better-looking result; that distorts the measurement and may be harmful. If the day was unusual because of hard exercise, travel, illness, swelling, a large meal or a new medicine, record that context beside the result instead of acting on it immediately [5, 6, 7].\n\nPreparing for an InBody test explains the practical preparation and follow-up details, so the central point here is simple: a fair comparison needs similar conditions and a meaningful interval. Repeating the measurement too frequently may capture fluid noise more than tissue change. The treating doctor or nutrition clinician should decide when repetition is useful according to the goal and whether a new result would actually change a decision [5, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "التحضير لقياس InBody بشكل أدق",
+                "url": "../articles/inbody-preparation-for-reliable-follow-up.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Preparing for an InBody test",
+                "url": "../articles/inbody-preparation-for-reliable-follow-up.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "distribution-and-waist",
+          "heading": {
+            "ar": "مكان الدهون مهم زي النسبة",
+            "en": "Fat distribution matters as well as percentage"
+          },
+          "body": {
+            "ar": "نفس نسبة الدهون ممكن تتوزع بشكل مختلف. الدهون تحت الجلد مش هي نفسها الدهون الحشوية حوالين الأعضاء، ولا الرقم الكلي بيحدد وحده مكان التخزين. دراسات التصوير بتوضح فروقاً في المتوسط بين الرجال والنساء في توزيع الدهون، لكن فيه تداخل كبير بين الأفراد. عشان كده ما ينفعش تستنتج نوع الدهون من شكل الجسم أو الجنس بس، وما ينفعش تعتبر إن نسبة إجمالية منخفضة تستبعد كل خطر أيضي [4, 11].\n\nمحيط الخصر أداة بسيطة بتضيف معلومة عن الدهون المركزية لما يتقاس بطريقة ثابتة. منظمة الصحة العالمية وNICE بيستخدموه ضمن تقييم أوسع، مش كتشخيص منفرد. المكان اللي بتحط فيه الشريط وطريقة التنفس وشد الشريط بيأثروا في الرقم، والنطاقات المرجعية ممكن تختلف حسب الجنس والخلفية السكانية والسياق. ضغط الدم والسكر والدهون في الدم والتاريخ العائلي والنوم والنشاط والأدوية ممكن يكونوا أهم من مطاردة خانة واحدة في التقرير [9, 10, 11].\n\nلو تقرير الجهاز فيه visceral fat score، فده تقدير خاص بخوارزمية الجهاز ومش صورة مباشرة لكل الدهون حوالين الأعضاء. دليل دهون البطن الحشوية ومحيط الخصر وInBody بيفصل معنى القياسات دي وحدودها. هنا الرسالة إن النسبة الكلية والتوزيع سؤالان مرتبطان لكن مش متطابقين، والطبيب يجمع بينهم حسب الهدف الصحي [4, 10, 11].",
+            "en": "The same body-fat percentage can be distributed differently. Subcutaneous fat is not the same as visceral fat around the organs, and a total percentage does not identify the storage site by itself. Imaging studies show average differences between men and women in fat distribution, but individuals overlap substantially. You cannot infer fat type from body shape or sex alone, and a lower total percentage does not exclude every metabolic risk [4, 11].\n\nWaist circumference is a simple measure that can add information about central fat when taken consistently. WHO and NICE use it within a wider assessment, not as an isolated diagnosis. Tape position, breathing and tension affect the result, while reference thresholds can vary with sex, population background and context. Blood pressure, glucose, blood lipids, family history, sleep, activity and medicines may matter more than chasing one report category [9, 10, 11].\n\nIf a device report includes a visceral-fat score, that is an estimate created by the device's algorithm, not a direct image of all fat around the organs. Visceral fat score, waist and InBody explains these measurements and their limits in detail. The practical message here is that total percentage and distribution are related but different questions, and the clinician combines them according to the health goal [4, 10, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دهون البطن الحشوية ومحيط الخصر وInBody",
+                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Visceral fat score, waist and InBody",
+                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "read-the-trend",
+          "heading": {
+            "ar": "اقرأ الاتجاه مع العضلات والوظيفة",
+            "en": "Read the trend with muscle and function"
+          },
+          "body": {
+            "ar": "تغير النسبة مش دايماً معناه إن كتلة الدهون اتحركت بنفس المقدار. لو الدهون قلت والعضلات اتصانت، النسبة والوزن ممكن يتحسنوا بسرعات مختلفة. ولو الوزن نزل بسرعة بسبب مية أو كتلة خالية من الدهون، شكل الرقم ممكن يبان مشجع وهو محتاج مراجعة. بص على كتلة الدهون بالكيلو، والكتلة الخالية من الدهون، والوزن، ومحيط متفق عليه، والقوة والأداء، وكل ده على أكتر من نقطة زمنية [5, 6, 9].\n\nاسأل إيه الهدف اللي القياس بيخدمه. في خطة خفض الوزن، ممكن يكون الهدف تقليل الدهون مع الحفاظ على القوة والقدرة على طلوع السلم وأداء النشاط المعتاد. في شخص وزنه منخفض أو عنده مرض مزمن، الأولوية ممكن تكون منع فقدان إضافي وبناء تغذية مناسبة. ما تاخدش قرار حرمان أو تدريب عنيف أو مكمل من قراءة واحدة، وما تعتبرش إن العضلات المقدّرة على الجهاز هي نفس القوة الفعلية [5, 9].\n\nدليل الحفاظ على العضلات أثناء خسارة الوزن بيدخل في الأكل والبروتين وتمارين المقاومة والمتابعة من غير ما نكرر التفاصيل هنا. في زيارتك، اتفق على مؤشرين أو ثلاثة واضحين وفاصل متابعة مناسب. الاتجاه المفيد هو اللي يتماشى مع صحتك ووظيفتك من غير أعراض مقلقة، مش اللي يوصل لأقل نسبة بأسرع وقت [5, 10].",
+            "en": "A change in percentage does not always mean fat mass moved by the same amount. If fat falls while muscle is preserved, percentage and weight may improve at different speeds. If weight drops quickly because of water or fat-free mass, the number may look encouraging while the plan needs review. Look at fat mass in kilograms, fat-free mass, weight, an agreed circumference, strength and performance across more than one time point [5, 6, 9].\n\nAsk what goal the measurement serves. During weight loss, the goal may be to reduce fat while maintaining strength, stair climbing and usual activity. For someone with low weight or chronic illness, the priority may be preventing further loss and restoring suitable nutrition. Do not start severe restriction, intense training or a supplement because of one reading, and do not treat device-estimated muscle as identical to actual strength [5, 9].\n\nProtecting muscle while losing weight covers food, protein, resistance exercise and monitoring without duplicating those details here. At the appointment, agree two or three useful indicators and a suitable review interval. A helpful direction is one that supports health and function without concerning symptoms, not the route to the lowest percentage in the shortest time [5, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الحفاظ على العضلات أثناء خسارة الوزن",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Protecting muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-the-number-misleads",
+          "heading": {
+            "ar": "إمتى توقف الحساب وتطلب تقييماً؟",
+            "en": "When should you stop calculating and seek assessment?"
+          },
+          "body": {
+            "ar": "نسبة الدهون ما تفسرش وحدها نزول وزن من غير قصد، فقدان شهية مستمر، ضعف جديد، دوخة متكررة أو صعوبة في أداء حاجات كنت بتعملها بسهولة. الأعراض دي محتاجة تقييم للسبب بدل محاولة تصليح الرقم بالأكل أو المكملات من نفسك. فقدان الوزن غير المقصود له أسباب كتير، منها مشاكل هضمية أو هرمونية أو نفسية أو آثار أدوية وأمراض أخرى، وجهاز تركيب الجسم ما يقدرش يشخّصها [9, 13].\n\nالزيادة السريعة مع تورم ممكن تكون سوائل مش دهون. اطلب تقييماً أسرع لو التورم مفاجئ أو شديد أو مؤلم، أو في ناحية واحدة، أو موجود في أماكن تانية. ولو التورم جاي مع ضيق نفس شديد أو ألم أو ثقل في الصدر أو إغماء أو كحة بدم، اطلب رعاية طارئة فوراً حسب نظام الطوارئ المحلي؛ ما تستناش قياساً جديداً أو موعد متابعة عادي [12].\n\nكمان لو الرقم بقى سبباً في منع الأكل بقسوة، نوبات أكل، قيء متعمد، تمرين عقابي أو خوف مسيطر من الطعام، قول للطبيب بوضوح. إيقاف القياسات المتكررة وطلب دعم مناسب ممكن يكونوا جزءاً من الأمان. النسبة أداة، مش حكم على جسمك أو التزامك، وأي قرار فردي عن الهدف أو تكرار القياس يرجع للطبيب المعالج [9, 10].",
+            "en": "Body-fat percentage cannot by itself explain unintentional weight loss, persistent loss of appetite, new weakness, repeated dizziness or difficulty with tasks that used to be easy. These changes need assessment for a cause rather than an attempt to correct the number with food or supplements on your own. Unintentional loss has many possible causes, including digestive or hormonal problems, mental-health conditions, medicine effects and other illnesses; a body-composition device cannot diagnose them [9, 13].\n\nRapid weight gain with swelling may reflect fluid rather than fat. Seek faster assessment if swelling is sudden, severe, painful, one-sided or present in other areas. If swelling occurs with severe breathlessness, chest pain or heaviness, fainting or coughing blood, seek emergency care immediately through local emergency services; do not wait for another measurement or a routine follow-up appointment [12].\n\nTell a clinician clearly if the number starts driving severe food restriction, binge episodes, self-induced vomiting, punishment exercise or overwhelming fear of eating. Pausing repeated measurements and arranging suitable support may be part of safety. The percentage is a tool, not a verdict on your body or commitment, and individual decisions about targets or measurement frequency belong with the treating clinician [9, 10]."
+          }
+        },
+        {
+          "id": "practical-next-step",
+          "heading": {
+            "ar": "حوّل الرقم لسؤال وخطوة مفيدة",
+            "en": "Turn the number into a useful question and next step"
+          },
+          "body": {
+            "ar": "قبل الزيارة، هات التقارير القديمة لو موجودة، واكتب اسم الجهاز وتاريخ ووقت القياس وأي ظروف مختلفة زي مرض أو تمرين شديد أو تورم. خُد قائمة بالأدوية والمكملات، ودوّن في جملة واحدة إيه اللي عايز تفهمه: هل التغير غالباً دهون؟ هل القوة ثابتة؟ هل محيط الخصر بيتغير؟ كده الطبيب يقدر يحدد إذا كان القياس قابل للمقارنة وإيه المعلومات الناقصة [5, 6].\n\nاسأل عن معنى النتيجة بالنسبة لهدفك، وحجم التغير اللي ممكن يتجاوز تذبذب الطريقة، والمؤشرات اللي هتتراجع معاها. ممكن تكون الخطوة هي تكرار القياس بشروط أحسن، أو متابعة الوزن والخصر والقوة، أو مراجعة الأكل والحركة، أو فحص وتحاليل موجهة لو فيه أعراض. مش كل رقم محتاج علاج أو إجراء، ومش كل اختلاف بين الرجال والنساء يحتاج تصحيح؛ القرار بيتحدد من القصة الصحية كلها [2, 5, 10].\n\nلو محتاج تربط نسبة الدهون وتوزيعها بالوزن والأعراض والهدف الصحي، تقدر تبدأ من طلب حجز موعد. ذكر العيادة هنا خطوة عملية عامة فقط، مش وعد بنتيجة أو توصية بإجراء معين. التقييم الفردي مع الطبيب هو اللي يحدد أنسب طريقة قياس، وهل النتيجة محتاجة متابعة، وإيه هدف آمن وواقعي ليك [9, 10].",
+            "en": "Before an appointment, bring earlier reports if available and record the device, date, time and any unusual circumstances such as illness, hard exercise or swelling. Bring a list of medicines and supplements, and write the question you want answered in one sentence: did fat probably change, is strength stable, or is waist circumference moving? This helps the clinician decide whether the readings are comparable and what information is missing [5, 6].\n\nAsk what the result means for your goal, how large a change is likely to exceed method variation and which other indicators should be reviewed with it. The next step may be repeating the measurement under better conditions, following weight, waist and strength, reviewing food and movement, or arranging an examination and targeted tests if symptoms are present. Not every number needs treatment or a procedure, and not every difference between men and women needs correction; the whole health story determines the decision [2, 5, 10].\n\nIf you need to connect body-fat percentage and distribution with weight, symptoms and a health goal, you can start at the book an appointment page. The clinic is mentioned here only as a general practical next step, not as a promise of an outcome or a recommendation for a particular procedure. Individual assessment with the treating clinician determines the suitable measurement method, whether follow-up is needed and what goal is safe and realistic for you [9, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "إيه النسبة الطبيعية للدهون عند الرجال والنساء؟",
+            "en": "What is a normal body-fat percentage for men and women?"
+          },
+          "a": {
+            "ar": "مفيش حد واحد متفق عليه يناسب كل الرجال وكل النساء. المتوسطات والنطاقات بتختلف حسب العمر والخلفية السكانية وطريقة القياس والغرض من الجدول، والنساء عادةً عندهم نسبة أعلى من الرجال في المتوسط. استخدم نطاق الجهاز كبداية للنقاش، مش تشخيصاً أو هدفاً جاهزاً، وخلي الطبيب يربطه بالصحة والخصر والقوة والتحاليل عند الحاجة [2, 3, 4].",
+            "en": "There is no single agreed boundary suitable for every man and woman. Averages and ranges vary with age, population background, measurement method and the purpose of the chart, while women generally have a higher percentage than men on average. Use the device range as a starting point for discussion, not a diagnosis or ready-made target, and let the clinician relate it to health, waist, strength and tests when needed [2, 3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ليه جهازين طلعوا نسبتين مختلفتين في نفس الأسبوع؟",
+            "en": "Why did two devices give different percentages in the same week?"
+          },
+          "a": {
+            "ar": "ممكن يكون لكل جهاز ترددات وأقطاب ومعادلات وسكان مرجعيون مختلفون، وكمان السوائل والأكل والتمرين ووقت اليوم بيغيروا قراءة BIA. ما تجمعش النتيجتين في خط متابعة واحد وما تفترضش إن الفرق تغير دهون حقيقي. اختار جهازاً واحداً للاتجاه، وثبّت الظروف، وسجّل اسم الجهاز والتوقيت [5, 6, 7].",
+            "en": "Devices may use different frequencies, electrodes, equations and reference populations, while fluid, food, exercise and time of day also affect BIA. Do not combine both results into one trend or assume the gap is a real fat change. Choose one device for the main series, standardise conditions, and record the device and timing [5, 6, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل نسبة الدهون أدق من مؤشر كتلة الجسم؟",
+            "en": "Is body-fat percentage more accurate than BMI?"
+          },
+          "a": {
+            "ar": "هي بتجاوب عن سؤال مختلف. مؤشر كتلة الجسم أداة فحص سريعة من الوزن والطول لكنه ما بيفصلش العضلات عن الدهون. نسبة الدهون بتحاول تقدّر مكوّناً إضافياً، لكن دقتها مرتبطة بالطريقة والمعادلة والسوائل. الأفضل مش اختيار فائز بينهم؛ الطبيب يستخدم القياس المناسب مع الخصر والفحص وعوامل الخطر حسب السؤال [1, 5, 9, 10].",
+            "en": "It answers a different question. BMI is a quick screening measure from weight and height but does not separate muscle from fat. Body-fat percentage estimates an additional component, but its accuracy depends on method, equation and fluid status. The answer is not to declare one winner; a clinician uses the suitable measure with waist, examination and risk factors according to the question [1, 5, 9, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الدورة الشهرية بتبوّظ قياس نسبة الدهون؟",
+            "en": "Does the menstrual cycle invalidate a body-fat measurement?"
+          },
+          "a": {
+            "ar": "مش بالضرورة، لكن تغير السوائل حوالين الدورة ممكن يضيف تذبذباً خصوصاً مع BIA. سجّل توقيت الدورة وأي تورم، وقارن القياسات في ظروف متشابهة بدل تفسير فرق صغير كدهون جديدة. لو فيه احتباس سوائل واضح أو أعراض غير معتادة، الأولوية لتقييم السبب مش لمعاد القياس [5, 6, 12].",
+            "en": "Not necessarily, but fluid changes around the menstrual cycle may add variation, especially with BIA. Record cycle timing and swelling, and compare readings under similar conditions rather than calling a small difference new fat. If there is marked fluid retention or an unusual symptom, assessing the cause matters more than the measurement schedule [5, 6, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل نزول نسبة الدهون مع ثبات الوزن يعتبر تقدماً؟",
+            "en": "Is a lower body-fat percentage with stable weight progress?"
+          },
+          "a": {
+            "ar": "ممكن، لو الاتجاه متكرر بنفس الطريقة ومعاه ثبات أو تحسن في القوة والخصر والصحة. ممكن الدهون تقل والكتلة الخالية من الدهون تتصان، لكن فرق السوائل أو خطأ الجهاز ممكن يعمل نفس الشكل في قراءة واحدة. راجع أكتر من نقطة زمنية ومؤشرات متعددة قبل ما تغيّر الخطة [5, 6, 9].",
+            "en": "It can be, if the direction repeats with the same method and strength, waist and health are stable or improving. Fat may fall while fat-free mass is preserved, but fluid variation or device error can create the same pattern in one reading. Review more than one time point and several indicators before changing the plan [5, 6, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى نسبة الدهون القليلة تبقى مقلقة؟",
+            "en": "When can a low body-fat percentage be concerning?"
+          },
+          "a": {
+            "ar": "الرقم القليل محتاج مراجعة لو جاي مع نزول وزن من غير قصد، ضعف أو دوخة، فقدان شهية، اضطراب شديد في الأكل، تراجع الأداء أو أعراض هرمونية. ما تحاولش تزود أو تقلل الرقم بمكمل أو حرمان من نفسك؛ الجهاز ممكن يكون منحازاً والسبب ممكن يحتاج فحصاً مستقلاً. الطبيب يراجع القياس والأعراض والتغذية والأدوية ويحدد الخطوة المناسبة [5, 9, 13].",
+            "en": "A low number needs review when it accompanies unintentional loss, weakness or dizziness, poor appetite, severe disordered eating, declining performance or hormonal symptoms. Do not try to raise or lower it through a supplement or restriction on your own; the device may be biased and the cause may need separate assessment. A clinician should review the measurement, symptoms, nutrition and medicines and choose the next step [5, 9, 13]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Metabolic Testing: Body Composition and Bioelectrical Impedance",
+          "url": "https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/diabetes-endocrinology-obesity-branch/metabolic-clinical-research-unit/metabolic-testing"
+        },
+        {
+          "label": "Gallagher et al. — Healthy Percentage Body Fat Ranges (PubMed, 2000)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10966886/"
+        },
+        {
+          "label": "Heo et al. — Body-fat Percentage Cutoffs by Sex, Age and Race-Ethnicity (PubMed, 2012)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22301924/"
+        },
+        {
+          "label": "Schorr et al. — Sex Differences in Body Composition and Cardiometabolic Risk (PMC, 2018)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6022328/"
+        },
+        {
+          "label": "Gonzalez et al. — Methodological Standards for Body Composition Assessment (PMC, 2026)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197919/"
+        },
+        {
+          "label": "Kyle et al. — Bioelectrical Impedance Analysis, Part I: Principles and Methods (PubMed, 2004)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15380917/"
+        },
+        {
+          "label": "Achamrah et al. — Consumer BIA Devices Compared with MRI and DXA (PMC, 2019)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6452160/"
+        },
+        {
+          "label": "International Society for Clinical Densitometry — 2023 Adult Official Positions",
+          "url": "https://iscd.org/official-positions-2023/"
+        },
+        {
+          "label": "CDC — About Body Mass Index",
+          "url": "https://www.cdc.gov/bmi/about/index.html"
+        },
+        {
+          "label": "NICE — Identifying and Assessing Overweight, Obesity and Central Adiposity (NG246)",
+          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity"
+        },
+        {
+          "label": "WHO — Waist Circumference and Waist–Hip Ratio: Expert Consultation",
+          "url": "https://www.who.int/publications/i/item/9789241501491"
+        },
+        {
+          "label": "NHS — Swollen Ankles, Feet and Legs (Oedema)",
+          "url": "https://www.nhs.uk/conditions/oedema/"
+        },
+        {
+          "label": "NHS — Unintentional Weight Loss",
+          "url": "https://www.nhs.uk/symptoms/unintentional-weight-loss/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "نسبة الدهون في الجسم للرجال والنساء",
+          "تركيب الجسم",
+          "قياس الدهون"
+        ],
+        "en": [
+          "body fat percentage for men and women",
+          "body composition",
+          "body fat measurement"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "نسبة الدهون في الجسم للرجال والنساء",
+          "en": "Body-fat percentage in men and women"
+        },
+        "description": {
+          "ar": "افهم نسبة الدهون في الجسم للرجال والنساء، وليه بتختلف حسب العمر وطريقة القياس، وإزاي تقرأ الاتجاه مع الخصر والعضلات من غير حكم من رقم واحد.",
+          "en": "Understand body-fat percentage in men and women, why method and age matter, and how to read trends alongside waist, muscle and health context."
+        }
+      }
+    }
+  ]
+}
