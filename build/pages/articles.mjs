@@ -1148,6 +1148,12 @@ function relatedCareLinks({ c, entry, locale, depth }) {
    strongest signal, then shared clinical specialties; type only breaks ties.
    This avoids keyword-driven links to unrelated medical topics while giving
    each entry up to six routes into the wider library. */
+function pairHash(a, b) {
+  let h = 2166136261;
+  for (const ch of `${a}|${b}`) h = Math.imul(h ^ ch.codePointAt(0), 16777619);
+  return h >>> 0;
+}
+
 function relatedEntries({ entry, entries, limit = 6 }) {
   const slug = entrySlug(entry);
   const category = entryCategorySlug(entry);
@@ -1164,9 +1170,13 @@ function relatedEntries({ entry, entries, limit = 6 }) {
         + (sharedSpecialties * 35)
         + (sameType ? 6 : 0)
         + (entryType(candidate) === "article" ? 4 : 0);
-      return { candidate, score, date: dateStamp(candidate), title: entryTitle(candidate, "en") };
+      return { candidate, score, spread: pairHash(slug, entrySlug(candidate)), title: entryTitle(candidate, "en") };
     })
-    .sort((a, b) => b.score - a.score || b.date - a.date || a.title.localeCompare(b.title));
+    /* Equal scores used to fall back to newest-first, so every page in a large
+       category linked the same few recent entries and older ones were left
+       with almost no inbound links. A stable per-pair hash spreads those links
+       across the whole category while keeping each page's list deterministic. */
+    .sort((a, b) => b.score - a.score || a.spread - b.spread || a.title.localeCompare(b.title));
   const topical = scored.filter((item) => item.score > 0);
   return (topical.length ? topical : scored).slice(0, limit).map((item) => item.candidate);
 }
