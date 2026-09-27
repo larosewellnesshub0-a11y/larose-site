@@ -7,10 +7,7 @@
       "published": true,
       "featured": false,
       "category": "clinical-nutrition",
-      "specialties": [
-        "clinical-nutrition",
-        "weight-management"
-      ],
+      "specialties": ["clinical-nutrition", "weight-management"],
       "date": "2026-07-23",
       "updatedAt": "2026-09-27",
       "readingTime": 9,
@@ -18,311 +15,42 @@
       "reviewedBy": "alyaa-abu-taleb",
       "image": "assets/img/articles/qa-pcos-weight-regain.webp",
       "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "وسّعنا الإجابة بشرح أسباب رجوع الوزن مع التكيس والتقييم وخطة التثبيت وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
-            "en": "We expanded the answer to cover why weight returns with PCOS, reassessment, maintenance planning and warning signs, and medically re-reviewed the content."
-          }
-        }
+        {"date": "2026-09-27", "note": {"ar": "وسّعنا الإجابة بشرح أسباب رجوع الوزن مع التكيس والتقييم وخطة التثبيت وعلامات الخطر، واتراجع المحتوى طبياً من جديد.", "en": "We expanded the answer to cover why weight returns with PCOS, reassessment, maintenance planning and warning signs, and medically re-reviewed the content."}}
       ],
-      "title": {
-        "ar": "عندي تكيس وبعمل دايت، ليه وزني بينزل ويرجع؟",
-        "en": "I have PCOS and keep dieting. Why does my weight go down and return?"
-      },
-      "excerpt": {
-        "ar": "رجوع الوزن مع تكيس المبايض مش فشل شخصي، ومش سببه هرمون واحد. افهم دور الشهية والدايت القاسي والنوم وإزاي تعمل خطة تثبيت قابلة للاستمرار.",
-        "en": "Weight regain with PCOS is not personal failure or the work of one hormone. Understand appetite, restrictive diets, sleep and a maintainable plan."
-      },
+      "title": {"ar": "عندي تكيس وبعمل دايت، ليه وزني بينزل ويرجع؟", "en": "I have PCOS and keep dieting. Why does my weight go down and return?"},
+      "excerpt": {"ar": "رجوع الوزن مع تكيس المبايض مش فشل شخصي، ومش سببه هرمون واحد. افهم دور الشهية والدايت القاسي والنوم وإزاي تعمل خطة تثبيت قابلة للاستمرار.", "en": "Weight regain with PCOS is not personal failure or the work of one hormone. Understand appetite, restrictive diets, sleep and a maintainable plan."},
       "sections": [
-        {
-          "id": "direct-answer",
-          "heading": {
-            "ar": "الإجابة المختصرة: التكيس جزء من الصورة، مش حكم بالفشل",
-            "en": "The short answer: PCOS is part of the picture, not a verdict"
-          },
-          "body": {
-            "ar": "أيوه، تكيس المبايض ممكن يخلّي إدارة الوزن أصعب عند بعض الناس، بس مش معناه إن نزول الوزن مستحيل ولا إن كل رجوع سببه التكيس. المتلازمة بتختلف من شخص للتاني، وممكن ترتبط بمقاومة الإنسولين واضطراب النوم والمزاج وزيادة قابلية تراكم الدهون عند بعض الحالات. وفي نفس الوقت، رجوع الوزن بعد أي محاولة نزول بيحصل كمان من تداخل الشهية والروتين والبيئة ونوع الخطة، سواء فيه تكيس أو لأ. عشان كده الإجابة الأدق مش «هرموناتك بايظة» ومش «إرادتك ضعيفة»؛ هي إن جسمك وظروفك والخطة كلهم محتاجين يتراجعوا مع بعض. [1, 2, 4, 7]\n\nالنزول السريع أول الدايت ممكن يشمل مياه ومحتوى الجهاز الهضمي، وبعده السرعة بتهدى طبيعياً. لو الخطة قائمة على منع مجموعات أكل كاملة أو جوع طول اليوم، غالباً هتكون صعبة وسط الشغل والعزومات والدورة والتعب. لما ترجع تاكل بصورة أقرب لحياتك المعتادة، جزء من المياه يرجع بسرعة، وبعدها الدهون ممكن تزيد تدريجياً لو المتوسط اليومي بقى أعلى من احتياج الجسم. ده تفسير بيولوجي وسلوكي، مش شهادة إنك «بوّظت كل حاجة». [4, 5, 6]\n\nالمهم تفرّق بين تذبذب كام يوم وبين اتجاه مستمر لأسابيع. الدورة والملح والكربوهيدرات والإمساك والتمرين يقدروا يغيّروا المياه، فالميزان المنفرد ما يقولش إيه اللي اتغير. تابع الاتجاه بهدوء، وراجع المقاسات والقوة والجوع والنوم والأعراض. صفحة تكيس المبايض والوزن بتشرح الصورة العامة للتشخيص والعلاج؛ هنا تركيزنا على دايرة النزول والرجوع وإزاي نكسرها. [2, 4]",
-            "en": "Yes, PCOS can make weight management harder for some people, but it does not make weight loss impossible or mean that every regain is caused by PCOS. The syndrome varies widely and may be associated with insulin resistance, disturbed sleep or mood, and a greater tendency to store fat in some people. Weight regain after any loss also reflects an interaction among appetite, routine, environment and the type of plan, whether PCOS is present or not. The accurate explanation is neither “your hormones are broken” nor “your willpower is weak”; your biology, circumstances and plan need to be reviewed together. [1, 2, 4, 7]\n\nA rapid early fall during a diet can include water and digestive contents, after which the pace naturally slows. A plan based on removing whole food groups or staying hungry all day is usually hard to carry through work, social meals, periods and fatigue. When eating returns closer to ordinary life, some water can return quickly; body fat may then rise gradually if average intake exceeds the body's needs. This is a biological and behavioural explanation, not proof that you “ruined everything”. [4, 5, 6]\n\nSeparate a fluctuation over a few days from a trend over several weeks. Menstrual changes, salt, carbohydrate, constipation and exercise can all alter water, so one scale reading cannot identify what changed. Follow the trend calmly and consider measurements, strength, hunger, sleep and symptoms. PCOS and weight explains the broader diagnosis-and-treatment picture; this answer focuses on the loss-regain cycle and how to interrupt it. [2, 4]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "تكيس المبايض والوزن",
-                "url": "../articles/pcos-and-weight.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "PCOS and weight",
-                "url": "../articles/pcos-and-weight.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "pcos-and-insulin",
-          "heading": {
-            "ar": "إيه اللي ممكن يعمله التكيس فعلاً؟",
-            "en": "What can PCOS actually contribute?"
-          },
-          "body": {
-            "ar": "الإنسولين بيساعد الجلوكوز يدخل الخلايا. مع مقاومة الإنسولين، الخلايا ما تستجيبش بالكفاءة المعتادة، والجسم ممكن يفرز إنسولين أكتر عشان يحافظ على السكر. المقاومة عامل مهم في التكيس عند ناس كتير، بس درجتها مش واحدة عند كل المصابات، ومش ممكن تعرفها من شكل البطن أو اشتهاء الحلويات. الإرشاد الدولي بيقول إن تحاليل الإنسولين المتاحة فائدتها محدودة في الرعاية الروتينية؛ التشخيص والمتابعة ما يتبنوش على رقم إنسولين منفرد. مقال مقاومة الإنسولين وسبب ثبات الوزن بيفصّل الاختبارات وحدودها من غير ما نكرر نطاقه هنا. [2, 3]\n\nالتكيس كمان ممكن يتزامن مع نوم غير مريح أو انقطاع النفس أثناء النوم، قلق أو اكتئاب، وعدم انتظام الدورة. الحاجات دي تقدر تغيّر الطاقة والجوع والقدرة على التخطيط والحركة، لكنها مش موجودة بنفس الشكل عند الجميع. النوم القليل أو الرديء مرتبط بمشاكل صحية وتمثيل غذائي أسوأ، لكن علاج النوم مش وعد آلي بنزول الوزن. لو فيه شخير عالٍ مع توقف نفس ملحوظ، اختناق ليلي أو نعاس شديد بالنهار، اطلب تقييماً بدل ما تعتبر الإرهاق كسل. [1, 2, 9]\n\nالأهم إن التكيس مش إعفاء من مراجعة عوامل تانية، ومش شماعة لكل زيادة. دواء جديد، حمل، اضطراب غدة درقية، نوبات أكل، قلة حركة بسبب ألم أو ضغط نفسي، أو نمط أكل شديد التقييد ممكن يغيّر الاتجاه. الطبيب بيربط تاريخ الدورة والأعراض والأدوية والنوم وفحوص السكر والدهون المناسبة، ويستبعد الأسباب المشابهة حسب الحالة. ما تبدأش مكمل أو ميتفورمين أو دواء وزن من تجربة حد؛ القرار يتحدد حسب الهدف، المخاطر وخطة الحمل. [1, 2, 3]",
-            "en": "Insulin helps glucose enter cells. With insulin resistance, cells do not respond as efficiently and the body may release more insulin to keep glucose controlled. Insulin resistance is important in many people with PCOS, but its degree is not identical in everyone and cannot be identified from abdominal shape or sugar cravings. The international guideline says currently available insulin assays have limited value in routine care; diagnosis and follow-up should not be built around one insulin result. Insulin resistance and why weight can feel stuck explains testing and its limits without duplicating that scope here. [2, 3]\n\nPCOS can also coexist with disrupted sleep or obstructive sleep apnoea, anxiety or depression, and irregular periods. These can affect energy, hunger, planning and movement, but they are not present in the same way for everyone. Short or poor-quality sleep is associated with poorer health and metabolism, but improving sleep is not an automatic promise of weight loss. Loud snoring with witnessed breathing pauses, choking at night or marked daytime sleepiness needs assessment rather than being dismissed as laziness. [1, 2, 9]\n\nPCOS should not prevent a review of other factors or become the explanation for every gain. A new medicine, pregnancy, thyroid disease, binge episodes, reduced movement because of pain or distress, or a severely restrictive eating pattern may change the trend. The clinician connects cycle history, symptoms, medicines, sleep, and appropriate glucose and lipid testing, excluding similar conditions according to the individual picture. Do not start a supplement, metformin or weight-management medicine because it helped someone else; the decision depends on goals, risks and pregnancy plans. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "مقاومة الإنسولين وسبب ثبات الوزن",
-                "url": "../articles/insulin-resistance-explained.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Insulin resistance and why weight can feel stuck",
-                "url": "../articles/insulin-resistance-explained.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "after-weight-loss",
-          "heading": {
-            "ar": "بعد النزول، الجسم ما بيفضلش واقف مكانه",
-            "en": "After weight loss, the body does not stand still"
-          },
-          "body": {
-            "ar": "لما وزن الجسم يقل، احتياجه للطاقة بيقل جزئياً لأن فيه جسم أصغر بيتحرّك ويتغذى. وفيه كمان استجابات عصبية وهرمونية ممكن تزود الشهية وتقلل الإحساس بالشبع وتخفض صرف الطاقة بدرجة تختلف بين الناس. المراجعات العلمية بتوضح إن زيادة الشهية قد تكون أقوى عملياً من تباطؤ الصرف، وده يفسر ليه نفس الخطة اللي بدت سهلة في أول شهر تبقى محتاجة مجهود أكبر بعد فترة. المصطلح ده مش معناه إن الأيض «اتدمر» أو إن الجسم كسر قوانين الطاقة؛ معناه إن الخطة لازم تنتقل من مرحلة نزول مؤقت لمرحلة صيانة طويلة. [4, 5, 6, 7]\n\nالجوع مش مجرد قرار واعٍ. ممكن الحصص تكبر بالتدريج، اللقيمات تزيد، أو الحركة اليومية التلقائية تقل من غير ما تلاحظ. الضغط، السهر، سفر أو تغيير شغل يضيفوا حمل جديد على روتين كان شغال. عشان كده لوم النفس بيخفي معلومات مفيدة: إمتى الجوع أعلى؟ إيه الوجبة اللي ما بتشبعش؟ هل بقى تحضير الأكل مستحيلاً؟ هل التمرين العنيف بيخليك منهك وجعان باقي اليوم؟ الإجابات دي بتحدد تعديل قابل للتنفيذ. [4, 6, 8]\n\nوبرضه مش كل رجوع دهون. بعد منع شديد للكربوهيدرات أو أكل قليل جداً، رجوع الجليكوجين والمياه يحرّك الميزان بسرعة. تحليل تركيب الجسم نفسه تقديري ويتأثر بالسوائل. عشان كده تركيب الجسم مش رقم الميزان بيساعدك تقرأ الاتجاه من غير حكم سريع. استخدم نفس الميزان وظروفاً متقاربة، وبص لمتوسط أو اتجاه أسابيع بدل مطاردة أقل رقم ظهر. [4, 5]",
-            "en": "When body weight falls, energy needs partly fall because a smaller body is being maintained and moved. Neural and hormonal responses may also increase appetite, reduce satiety and lower energy expenditure to a degree that differs among individuals. Scientific reviews suggest that increased appetite may be more influential in practice than the slowing of expenditure, which helps explain why the same plan that felt easy in the first month can require more effort later. This does not mean metabolism is “destroyed” or that the body breaks energy laws; it means a plan must move from temporary loss into long-term maintenance. [4, 5, 6, 7]\n\nHunger is not only a conscious decision. Portions may gradually grow, unplanned bites may increase, or spontaneous daily movement may fall without being obvious. Stress, short sleep, travel or a job change can add a new burden to a routine that previously worked. Self-blame hides useful information: when is hunger strongest, which meal is not satisfying, has food preparation become impractical, or does very hard exercise leave you exhausted and hungry for the rest of the day? Those answers point to a workable adjustment. [4, 6, 8]\n\nNot every return is body fat. After severe carbohydrate restriction or very low intake, restoration of glycogen and water can move the scale quickly. Body-composition analysis is also an estimate affected by fluid. Body composition is not the scale helps interpret the trend without a snap judgement. Use the same scale under similar conditions and look at an average or several-week direction rather than chasing the lowest number ever seen. [4, 5]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "تركيب الجسم مش رقم الميزان",
-                "url": "../articles/body-composition-not-scale.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Body composition is not the scale",
-                "url": "../articles/body-composition-not-scale.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "diet-cycle",
-          "heading": {
-            "ar": "الدايت القاسي بيكسب الجولة ويخسر الاستمرار",
-            "en": "A harsh diet can win the week and lose the long term"
-          },
-          "body": {
-            "ar": "الخطة الشديدة بتدي قواعد واضحة ونتيجة سريعة، وده ممكن يحسسك إنها الوحيدة اللي «بتنفع». بس لو بتمنع خبز وفاكهة وألبان وكل أكل اجتماعي من غير سبب طبي، أو بتسيبك جعان ومش قادر تركز، فهي ما اختبرتش أهم سؤال: هل تقدر تعيش عليها بعد ما الحماس الأول يهدى؟ إرشاد التكيس ما بيفضلش تركيبة دايت واحدة لكل الناس، وبيشجع أسلوباً مرناً يناسب الثقافة والتفضيلات ويستخدم تحديد أهداف وحل مشكلات ومنع الانتكاس. [2]\n\nدايرة المنع ثم الانفلات مش دليل طمع. الحرمان، الانشغال بالأكل، الإحساس إن وجبة واحدة «بوظت اليوم»، ثم محاولة التعويض بتجويع أو تمرين عقابي يقدروا يطولوا الدايرة. لو فيه فقد سيطرة متكرر، أكل كمية كبيرة مع ضيق، قيء متعمد، استخدام ملينات، أو خوف مسيطر من الطعام، قول للمختص بوضوح. ساعتها تشديد الدايت ممكن يضر، والأولوية تقييم علاقة الأكل والصحة النفسية وخطة آمنة. التكيس نفسه مرتبط بعبء نفسي واضطرابات أكل أعلى، فالموضوع يستحق سؤالاً محترماً مش حكماً. [1, 2]\n\nابدأ من الوجبات اللي بتتكرر فعلاً. وجود بروتين مناسب، خضار أو فاكهة أو بقول للألياف، ونشويات ودهون بكمية تناسب الحالة ممكن يدعم الشبع والتغذية. مفيش مكوّن «يلغي» التكيس، ومفيش داعي لمنع الجلوتين أو الألبان تلقائياً. لو وجبة معينة بتفتح الجوع بسرعة، عدّل تكوينها أو توقيتها مع المختص بدل قائمة ممنوعات جديدة. والتحسن في جودة الأكل والحركة له قيمة صحية حتى لو الوزن ما نزلش كل أسبوع. [1, 2, 8]",
-            "en": "A severe plan gives clear rules and a quick result, which can make it feel like the only approach that “works”. But if it removes bread, fruit, dairy and all social eating without a medical reason, or leaves you hungry and unable to concentrate, it has not passed the most important test: can it continue after the first burst of motivation fades? PCOS guidance does not favour one dietary composition for everyone. It supports a flexible approach that fits culture and preferences and uses goal-setting, problem-solving and relapse prevention. [2]\n\nA restrict-then-rebound cycle is not proof of greed. Deprivation, constant thoughts about food, believing one meal has “ruined the day”, and then compensating through starvation or punitive exercise can prolong the cycle. Tell the clinician clearly about repeated loss of control, eating a large amount with distress, self-induced vomiting, laxative use or an overwhelming fear of food. Tightening the diet can then cause harm; the priority is assessment of eating and mental health and a safer plan. PCOS itself is associated with a greater psychological and eating-disorder burden, so this deserves a respectful question rather than judgement. [1, 2]\n\nStart with meals that genuinely recur. Suitable protein, vegetables, fruit or pulses for fibre, and carbohydrate and fat amounts fitted to the person can support satiety and nutrition. No ingredient cancels PCOS, and gluten or dairy do not need automatic removal. If a particular meal is followed quickly by hunger, adjust its composition or timing with a clinician instead of adding another forbidden list. Better food quality and movement have health value even when the scale does not fall every week. [1, 2, 8]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "reassessment",
-          "heading": {
-            "ar": "بدل ما تبدأ دايت جديد، راجع الخريطة",
-            "en": "Before starting another diet, review the map"
-          },
-          "body": {
-            "ar": "اكتب خطاً زمنياً بسيطاً: الوزن التقريبي قبل الخطة، مدة النزول، إمتى بدأ الرجوع، وإيه اللي اتغير وقتها في الدورة والنوم والشغل والحركة والأدوية. ضيف يومين أو تلاتة واقعيين من الأكل من غير تجميل، ومستوى الجوع قبل وبعد الوجبات. الهدف مش عدّ كل لقمة للأبد؛ الهدف نكتشف هل الفطار ضعيف، هل فترات طويلة من غير أكل بتنتهي بجوع شديد، أو هل أيام الضغط مختلفة تماماً عن أيام الهدوء. المتابعة المنتظمة ومراجعة الأهداف أفضل من انتظار زيادة كبيرة ثم بدء خطة طوارئ. [2, 6, 8]\n\nراجع كمان هل تشخيص التكيس اتعمل بمعايير واضحة ولا اتقال من سونار وحده. اسأل إيه الفحوص المطلوبة حسب حالتك: ضغط، سكر ودهون، واختبارات تستبعد أسباباً مشابهة لو الأعراض تشير لها. ما تطلبش باقة هرمونات أو إنسولين متكررة من نفسك. لو الدورة متأخرة وفيه احتمال حمل، اعمل اختبار وتواصل مع الطبيب قبل تغيير دواء أو بدء خطة نزول. ولو بدأ دواء جديد قبل الزيادة، ما توقفوش وحدك؛ اكتب الاسم والجرعة والموعد وناقش البدائل مع الواصف. [1, 2, 3]\n\nحدد هدف المرحلة. أحياناً أول هدف مفيد هو وقف الاتجاه الصاعد، تنظيم وجبات ونوم، أو استرجاع القوة، مش خسارة سريعة جديدة. تابع مؤشر أو اتنين تقدر تتصرف بناءً عليهم: اتجاه الوزن الأسبوعي، محيط متفق عليه، انتظام الدورة، الشبع، أداء المشي أو المقاومة، ونتيجة معمل طلبها الطبيب. لو القياس اليومي بيزود القلق أو الحرمان، قلل وتيرته واتفق على طريقة أهدى. [2, 6, 8]",
-            "en": "Write a simple timeline: approximate weight before the plan, how long loss continued, when regain began, and what changed then in periods, sleep, work, movement and medicines. Add two or three honest ordinary days of eating and hunger before and after meals. The purpose is not to count every bite forever; it is to see whether breakfast is inadequate, long gaps end in intense hunger, or stressful days look completely different from calmer days. Regular follow-up and goal review are more useful than waiting for a large regain and then starting an emergency plan. [2, 6, 8]\n\nAlso review whether PCOS was diagnosed using clear criteria or named from an ultrasound alone. Ask which checks fit your situation: blood pressure, glucose and lipids, plus tests for similar conditions if symptoms point that way. Do not order repeated hormone or insulin panels yourself. If a period is late and pregnancy is possible, take a test and contact the clinician before changing medicine or beginning a weight-loss plan. If a new medicine preceded the gain, do not stop it alone; record the name, dose and timing and discuss alternatives with the prescriber. [1, 2, 3]\n\nDefine the goal of this phase. Sometimes the most useful first target is stopping the upward trend, organising meals and sleep, or restoring strength, not another rapid loss. Follow one or two indicators that can inform action: a weekly weight trend, an agreed circumference, cycle regularity, satiety, walking or resistance performance, and a laboratory result requested by the clinician. If daily weighing increases anxiety or restriction, reduce its frequency and agree a calmer method. [2, 6, 8]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "maintenance-plan",
-          "heading": {
-            "ar": "اعمل خطة تثبيت من أول يوم، مش بعد الوصول",
-            "en": "Build maintenance from day one, not after arrival"
-          },
-          "body": {
-            "ar": "خطة التثبيت مش نسخة أكثر صرامة من الدايت. هي نسخة تقدر تعيش بيها في الأسبوع العادي والأسبوع الملخبط. اختار تغييرين أو تلاتة محددين: فطار يشبعك، مصدر بروتين وخضار في وجبة متكررة، تجهيز اختيار سريع، أو مشي في وقت واقعي. جهّز خطة «لو حصل»: لو اتأخرت في الشغل، إيه الوجبة المتاحة؟ لو فات تمرين، إزاي ترجع من غير عقاب؟ التعثر المتوقع فرصة لحل مشكلة، مش سبب لبدء الاثنين من الصفر. [2, 6, 8]\n\nالحركة مفيدة للصحة حتى لو الميزان ثابت. اختار نشاطاً تقدر تكرره، وقلل الجلوس، وضيف تقوية تدريجية للمجموعات العضلية حسب صحتك وقدرتك. حماية العضلات أثناء إنقاص الوزن مهمة لأن النزول ممكن يشمل كتلة خالية من الدهون، لكن التفاصيل لها صفحتها عشان ما نحوّلش الإجابة لوصفة تمرين أو بروتين عامة. ألم صدر، إغماء أو ضيق نفس شديد أثناء المجهود محتاج توقف ورعاية عاجلة. ولو عندك إصابة أو مرض مزمن أو انقطاع طويل، ابدأ بتوجيه مناسب. [4, 10]\n\nالدعم والمتابعة جزء من العلاج، مش علامة عجز. اتفق إمتى تراجع الخطة وإيه الحد اللي يستدعي تواصلاً أبكر. راجع الجوع والطاقة والقوة والدورة والنوم والنتايج المطلوبة، مش الوزن وحده. لو فيه دواء وزن مناسب، الطبيب يناقش فائدته وأضراره واستمراره وخطة الحمل؛ وما تبدأش أو توقف أو تعيد جرعة من نفسك. النجاح مش إن الوزن ما يتحركش أبداً، لكن إنك تلاحظ الاتجاه بدري وتعرف تعدّل بخطوات صغيرة بدل دايرة الحرمان والرجوع. [2, 4, 6]",
-            "en": "A maintenance plan is not a stricter version of a diet. It is a version you can use during an ordinary week and a disrupted one. Choose two or three specific actions: a satisfying breakfast, protein and vegetables in a recurring meal, a prepared quick option, or walking at a realistic time. Make an “if this happens” plan: if work runs late, what meal is available; if exercise is missed, how will you resume without punishment? An expected lapse is a problem-solving opportunity, not a reason to restart from zero on Monday. [2, 6, 8]\n\nMovement benefits health even when weight is stable. Choose activity you can repeat, reduce sitting, and add gradual strengthening for major muscle groups according to health and ability. Protecting muscle during weight loss matters because loss can include fat-free mass, but the detailed nutrition and exercise decisions belong in that linked guide rather than turning this answer into a universal prescription. Chest pain, fainting or severe breathlessness during exertion calls for stopping and urgent care. With injury, chronic disease or a long break from activity, begin with suitable guidance. [4, 10]\n\nSupport and follow-up are part of treatment, not proof of inadequacy. Agree when to review the plan and what threshold should prompt earlier contact. Review hunger, energy, strength, periods, sleep and requested results, not weight alone. If a weight-management medicine is appropriate, the prescriber discusses benefit, harm, continuation and pregnancy plans; do not start, stop or restart a dose yourself. Success is not a weight that never moves, but noticing a trend early and knowing how to adjust through small actions instead of returning to restriction and rebound. [2, 4, 6]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "حماية العضلات أثناء إنقاص الوزن",
-                "url": "../articles/protecting-muscle-while-losing-weight.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Protecting muscle during weight loss",
-                "url": "../articles/protecting-muscle-while-losing-weight.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "red-flags-next-step",
-          "heading": {
-            "ar": "إمتى تحتاج مراجعة أسرع، وإيه الخطوة الجاية؟",
-            "en": "When do you need faster review, and what comes next?"
-          },
-          "body": {
-            "ar": "راجع الطبيب قريباً لو الزيادة سريعة ومن غير تفسير، أو معها تورم، ضعف جديد، خفقان، إحساس واضح بالبرد، إمساك شديد، إفراز لبن من الثدي من غير رضاعة، أو تغير سريع في الشعر أو الصوت. غياب الدورة لفترة طويلة أو نزيف متكرر أو غزير محتاج تقييم للسبب واحتمال الحمل والأنيميا وحماية بطانة الرحم، مش مجرد دايت. الألم الحاد المفاجئ أسفل البطن، نزيف شديد مع دوخة أو إغماء، أو أعراض حمل مع ألم أو نزيف تستدعي رعاية عاجلة حسب الشدة. [1, 2, 11]\n\nالزيادة السريعة مع تورم شديد أو مفاجئ ممكن تكون سوائل مش دهون. اطلب رعاية طارئة فوراً لو التورم مصحوب بضيق نفس أو صعوبة تنفس، ثقل أو ألم بالصدر، كحة بدم، إغماء أو ارتباك. ولو القلق أو الاكتئاب وصل لأفكار إيذاء النفس، اطلب مساعدة طارئة من خدمات الطوارئ المحلية وشخص موثوق. دي مواقف ما ينفعش تستنى عليها ميعاد تغذية روتيني ولا تحاول تعالجها بتقليل الأكل. [1, 2, 11]\n\nللزيارة غير الطارئة، خد معاك خط الوزن والدورة، قائمة الأدوية والمكملات، التحاليل السابقة، ووصفاً واقعياً للأكل والنوم والحركة. المركز الطبي ممكن يساعد في تنظيم تقييم تغذية إكلينيكية ومتابعة الوزن وإحالة التخصص المناسب، من غير وعد بنتيجة محددة ومن غير استبدال طبيب النساء أو الباطنة. لو محتاج بداية مرتبة، استخدم طلب حجز موعد واذكر إن السؤال عن التكيس ورجوع الوزن. قرار التحاليل والدواء والهدف يفضل مع الطبيب المعالج بعد مراجعة حالتك وخطة الحمل. [1, 2, 8]",
-            "en": "Arrange a prompt medical review if gain is rapid and unexplained, or occurs with swelling, new weakness, palpitations, marked cold intolerance, severe constipation, milk discharge when not breastfeeding, or quickly changing hair growth or voice. A prolonged absence of periods or frequent or heavy bleeding needs assessment of the cause, pregnancy possibility, anaemia and womb-lining protection, not simply another diet. Sudden severe lower-abdominal pain, heavy bleeding with dizziness or fainting, or possible pregnancy with pain or bleeding needs urgent care according to severity. [1, 2, 11]\n\nRapid gain with severe or sudden swelling may be fluid rather than fat. Seek emergency care immediately when swelling occurs with breathlessness or difficulty breathing, chest heaviness or pain, coughing blood, fainting or confusion. If anxiety or depression reaches thoughts of self-harm, seek emergency help through local services and a trusted person. These situations should not wait for a routine nutrition appointment or be treated by eating less. [1, 2, 11]\n\nFor a non-emergency visit, bring the weight and cycle timeline, medicine and supplement list, previous tests, and an honest description of food, sleep and movement. A medical centre can help organise clinical-nutrition assessment, weight follow-up and referral to the appropriate specialty, without promising a particular result or replacing gynaecology or internal-medicine care. If you need an organised start, use the appointment request and say that the question concerns PCOS and weight regain. Decisions about tests, medicine and goals remain with the treating clinician after reviewing your circumstances and pregnancy plans. [1, 2, 8]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "طلب حجز موعد",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "appointment request",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "direct-answer", "heading": {"ar": "الإجابة المختصرة: التكيس جزء من الصورة، مش حكم بالفشل", "en": "The short answer: PCOS is part of the picture, not a verdict"}, "body": {"ar": "أيوه، تكيس المبايض ممكن يخلّي إدارة الوزن أصعب عند بعض الناس، بس مش معناه إن نزول الوزن مستحيل ولا إن كل رجوع سببه التكيس. المتلازمة بتختلف من شخص للتاني، وممكن ترتبط بمقاومة الإنسولين واضطراب النوم والمزاج وزيادة قابلية تراكم الدهون عند بعض الحالات. وفي نفس الوقت، رجوع الوزن بعد أي محاولة نزول بيحصل كمان من تداخل الشهية والروتين والبيئة ونوع الخطة، سواء فيه تكيس أو لأ. عشان كده الإجابة الأدق مش «هرموناتك بايظة» ومش «إرادتك ضعيفة»؛ هي إن جسمك وظروفك والخطة كلهم محتاجين يتراجعوا مع بعض. [1, 2, 4, 7]\n\nالنزول السريع أول الدايت ممكن يشمل مياه ومحتوى الجهاز الهضمي، وبعده السرعة بتهدى طبيعياً. لو الخطة قائمة على منع مجموعات أكل كاملة أو جوع طول اليوم، غالباً هتكون صعبة وسط الشغل والعزومات والدورة والتعب. لما ترجع تاكل بصورة أقرب لحياتك المعتادة، جزء من المياه يرجع بسرعة، وبعدها الدهون ممكن تزيد تدريجياً لو المتوسط اليومي بقى أعلى من احتياج الجسم. ده تفسير بيولوجي وسلوكي، مش شهادة إنك «بوّظت كل حاجة». [4, 5, 6]\n\nالمهم تفرّق بين تذبذب كام يوم وبين اتجاه مستمر لأسابيع. الدورة والملح والكربوهيدرات والإمساك والتمرين يقدروا يغيّروا المياه، فالميزان المنفرد ما يقولش إيه اللي اتغير. تابع الاتجاه بهدوء، وراجع المقاسات والقوة والجوع والنوم والأعراض. صفحة تكيس المبايض والوزن بتشرح الصورة العامة للتشخيص والعلاج؛ هنا تركيزنا على دايرة النزول والرجوع وإزاي نكسرها. [2, 4]", "en": "Yes, PCOS can make weight management harder for some people, but it does not make weight loss impossible or mean that every regain is caused by PCOS. The syndrome varies widely and may be associated with insulin resistance, disturbed sleep or mood, and a greater tendency to store fat in some people. Weight regain after any loss also reflects an interaction among appetite, routine, environment and the type of plan, whether PCOS is present or not. The accurate explanation is neither “your hormones are broken” nor “your willpower is weak”; your biology, circumstances and plan need to be reviewed together. [1, 2, 4, 7]\n\nA rapid early fall during a diet can include water and digestive contents, after which the pace naturally slows. A plan based on removing whole food groups or staying hungry all day is usually hard to carry through work, social meals, periods and fatigue. When eating returns closer to ordinary life, some water can return quickly; body fat may then rise gradually if average intake exceeds the body's needs. This is a biological and behavioural explanation, not proof that you “ruined everything”. [4, 5, 6]\n\nSeparate a fluctuation over a few days from a trend over several weeks. Menstrual changes, salt, carbohydrate, constipation and exercise can all alter water, so one scale reading cannot identify what changed. Follow the trend calmly and consider measurements, strength, hunger, sleep and symptoms. PCOS and weight explains the broader diagnosis-and-treatment picture; this answer focuses on the loss-regain cycle and how to interrupt it. [2, 4]"}, "links": {"ar": [{"label": "تكيس المبايض والوزن", "url": "../articles/pcos-and-weight.html"}], "en": [{"label": "PCOS and weight", "url": "../articles/pcos-and-weight.html"}]}},
+        {"id": "pcos-and-insulin", "heading": {"ar": "إيه اللي ممكن يعمله التكيس فعلاً؟", "en": "What can PCOS actually contribute?"}, "body": {"ar": "الإنسولين بيساعد الجلوكوز يدخل الخلايا. مع مقاومة الإنسولين، الخلايا ما تستجيبش بالكفاءة المعتادة، والجسم ممكن يفرز إنسولين أكتر عشان يحافظ على السكر. المقاومة عامل مهم في التكيس عند ناس كتير، بس درجتها مش واحدة عند كل المصابات، ومش ممكن تعرفها من شكل البطن أو اشتهاء الحلويات. الإرشاد الدولي بيقول إن تحاليل الإنسولين المتاحة فائدتها محدودة في الرعاية الروتينية؛ التشخيص والمتابعة ما يتبنوش على رقم إنسولين منفرد. مقال مقاومة الإنسولين وسبب ثبات الوزن بيفصّل الاختبارات وحدودها من غير ما نكرر نطاقه هنا. [2, 3]\n\nالتكيس كمان ممكن يتزامن مع نوم غير مريح أو انقطاع النفس أثناء النوم، قلق أو اكتئاب، وعدم انتظام الدورة. الحاجات دي تقدر تغيّر الطاقة والجوع والقدرة على التخطيط والحركة، بس هي مش موجودة بنفس الشكل عند الجميع. النوم القليل أو الرديء مرتبط بمشاكل صحية وتمثيل غذائي أسوأ، بس علاج النوم مش وعد آلي بنزول الوزن. لو فيه شخير عالٍ مع توقف نفس ملحوظ، اختناق ليلي أو نعاس شديد بالنهار، اطلب تقييماً بدل ما تعتبر الإرهاق كسل. [1, 2, 9]\n\nالأهم إن التكيس مش إعفاء من مراجعة عوامل تانية، ومش شماعة لكل زيادة. دواء جديد، حمل، اضطراب غدة درقية، نوبات أكل، قلة حركة بسبب ألم أو ضغط نفسي، أو نمط أكل شديد التقييد ممكن يغيّر الاتجاه. الطبيب بيربط تاريخ الدورة والأعراض والأدوية والنوم وفحوص السكر والدهون المناسبة، ويستبعد الأسباب المشابهة حسب الحالة. ما تبدأش مكمل أو ميتفورمين أو دواء وزن من تجربة حد؛ القرار يتحدد حسب الهدف، المخاطر وخطة الحمل. [1, 2, 3]", "en": "Insulin helps glucose enter cells. With insulin resistance, cells do not respond as efficiently and the body may release more insulin to keep glucose controlled. Insulin resistance is important in many people with PCOS, but its degree is not identical in everyone and cannot be identified from abdominal shape or sugar cravings. The international guideline says currently available insulin assays have limited value in routine care; diagnosis and follow-up should not be built around one insulin result. Insulin resistance and why weight can feel stuck explains testing and its limits without duplicating that scope here. [2, 3]\n\nPCOS can also coexist with disrupted sleep or obstructive sleep apnoea, anxiety or depression, and irregular periods. These can affect energy, hunger, planning and movement, but they are not present in the same way for everyone. Short or poor-quality sleep is associated with poorer health and metabolism, but improving sleep is not an automatic promise of weight loss. Loud snoring with witnessed breathing pauses, choking at night or marked daytime sleepiness needs assessment rather than being dismissed as laziness. [1, 2, 9]\n\nPCOS should not prevent a review of other factors or become the explanation for every gain. A new medicine, pregnancy, thyroid disease, binge episodes, reduced movement because of pain or distress, or a severely restrictive eating pattern may change the trend. The clinician connects cycle history, symptoms, medicines, sleep, and appropriate glucose and lipid testing, excluding similar conditions according to the individual picture. Do not start a supplement, metformin or weight-management medicine because it helped someone else; the decision depends on goals, risks and pregnancy plans. [1, 2, 3]"}, "links": {"ar": [{"label": "مقاومة الإنسولين وسبب ثبات الوزن", "url": "../articles/insulin-resistance-explained.html"}], "en": [{"label": "Insulin resistance and why weight can feel stuck", "url": "../articles/insulin-resistance-explained.html"}]}},
+        {"id": "after-weight-loss", "heading": {"ar": "بعد النزول، الجسم ما بيفضلش واقف مكانه", "en": "After weight loss, the body does not stand still"}, "body": {"ar": "لما وزن الجسم يقل، احتياجه للطاقة بيقل جزئياً لأن فيه جسم أصغر بيتحرّك ويتغذى. وفيه كمان استجابات عصبية وهرمونية ممكن تزود الشهية وتقلل الإحساس بالشبع وتخفض صرف الطاقة بدرجة تختلف بين الناس. المراجعات العلمية بتوضح إن زيادة الشهية ممكن تكون أقوى عملياً من تباطؤ الصرف، وده يفسر ليه نفس الخطة اللي بدت سهلة في أول شهر تبقى محتاجة مجهود أكبر بعد فترة. المصطلح ده مش معناه إن الأيض «اتدمر» أو إن الجسم كسر قوانين الطاقة؛ معناه إن الخطة لازم تنتقل من مرحلة نزول مؤقت لمرحلة صيانة طويلة. [4, 5, 6, 7]\n\nالجوع مش مجرد قرار واعٍ. ممكن الحصص تكبر بالتدريج، اللقيمات تزيد، أو الحركة اليومية التلقائية تقل من غير ما تلاحظ. الضغط، السهر، سفر أو تغيير شغل يضيفوا حمل جديد على روتين كان شغال. عشان كده لوم النفس بيخفي معلومات مفيدة: إمتى الجوع أعلى؟ إيه الوجبة اللي ما بتشبعش؟ هل بقى تحضير الأكل مستحيلاً؟ هل التمرين العنيف بيخليك منهك وجعان باقي اليوم؟ الإجابات دي بتحدد تعديل قابل للتنفيذ. [4, 6, 8]\n\nوبرضه مش كل رجوع دهون. بعد منع شديد للكربوهيدرات أو أكل قليل جداً، رجوع الجليكوجين والمياه يحرّك الميزان بسرعة. تحليل تركيب الجسم نفسه تقديري ويتأثر بالسوائل. عشان كده تركيب الجسم مش رقم الميزان بيساعدك تقرأ الاتجاه من غير حكم سريع. استخدم نفس الميزان وظروفاً متقاربة، وبص لمتوسط أو اتجاه أسابيع بدل مطاردة أقل رقم ظهر. [4, 5]", "en": "When body weight falls, energy needs partly fall because a smaller body is being maintained and moved. Neural and hormonal responses may also increase appetite, reduce satiety and lower energy expenditure to a degree that differs among individuals. Scientific reviews suggest that increased appetite may be more influential in practice than the slowing of expenditure, which helps explain why the same plan that felt easy in the first month can require more effort later. This does not mean metabolism is “destroyed” or that the body breaks energy laws; it means a plan must move from temporary loss into long-term maintenance. [4, 5, 6, 7]\n\nHunger is not only a conscious decision. Portions may gradually grow, unplanned bites may increase, or spontaneous daily movement may fall without being obvious. Stress, short sleep, travel or a job change can add a new burden to a routine that previously worked. Self-blame hides useful information: when is hunger strongest, which meal is not satisfying, has food preparation become impractical, or does very hard exercise leave you exhausted and hungry for the rest of the day? Those answers point to a workable adjustment. [4, 6, 8]\n\nNot every return is body fat. After severe carbohydrate restriction or very low intake, restoration of glycogen and water can move the scale quickly. Body-composition analysis is also an estimate affected by fluid. Body composition is not the scale helps interpret the trend without a snap judgement. Use the same scale under similar conditions and look at an average or several-week direction rather than chasing the lowest number ever seen. [4, 5]"}, "links": {"ar": [{"label": "تركيب الجسم مش رقم الميزان", "url": "../articles/body-composition-not-scale.html"}], "en": [{"label": "Body composition is not the scale", "url": "../articles/body-composition-not-scale.html"}]}},
+        {"id": "diet-cycle", "heading": {"ar": "الدايت القاسي بيكسب الجولة ويخسر الاستمرار", "en": "A harsh diet can win the week and lose the long term"}, "body": {"ar": "الخطة الشديدة بتدي قواعد واضحة ونتيجة سريعة، وده ممكن يحسسك إنها الوحيدة اللي «بتنفع». بس لو بتمنع خبز وفاكهة وألبان وكل أكل اجتماعي من غير سبب طبي، أو بتسيبك جعان ومش قادر تركز، فهي ما اختبرتش أهم سؤال: هل تقدر تعيش عليها بعد ما الحماس الأول يهدى؟ إرشاد التكيس ما بيفضلش تركيبة دايت واحدة لكل الناس، وبيشجع أسلوباً مرناً يناسب الثقافة والتفضيلات ويستخدم تحديد أهداف وحل مشكلات ومنع الانتكاس. [2]\n\nدايرة المنع ثم الانفلات مش دليل طمع. الحرمان، الانشغال بالأكل، الإحساس إن وجبة واحدة «بوظت اليوم»، ثم محاولة التعويض بتجويع أو تمرين عقابي يقدروا يطولوا الدايرة. لو فيه فقد سيطرة متكرر، أكل كمية كبيرة مع ضيق، قيء متعمد، استخدام ملينات، أو خوف مسيطر من الطعام، قول للمختص بوضوح. ساعتها تشديد الدايت ممكن يضر، والأولوية تقييم علاقة الأكل والصحة النفسية وخطة آمنة. التكيس نفسه مرتبط بعبء نفسي واضطرابات أكل أعلى، فالموضوع يستحق سؤالاً محترماً مش حكماً. [1, 2]\n\nابدأ من الوجبات اللي بتتكرر فعلاً. وجود بروتين مناسب، خضار أو فاكهة أو بقول للألياف، ونشويات ودهون بكمية تناسب الحالة ممكن يدعم الشبع والتغذية. مفيش مكوّن «يلغي» التكيس، ومفيش داعي لمنع الجلوتين أو الألبان تلقائياً. لو وجبة معينة بتفتح الجوع بسرعة، عدّل تكوينها أو توقيتها مع المختص بدل قائمة ممنوعات جديدة. والتحسن في جودة الأكل والحركة له قيمة صحية حتى لو الوزن ما نزلش كل أسبوع. [1, 2, 8]", "en": "A severe plan gives clear rules and a quick result, which can make it feel like the only approach that “works”. But if it removes bread, fruit, dairy and all social eating without a medical reason, or leaves you hungry and unable to concentrate, it has not passed the most important test: can it continue after the first burst of motivation fades? PCOS guidance does not favour one dietary composition for everyone. It supports a flexible approach that fits culture and preferences and uses goal-setting, problem-solving and relapse prevention. [2]\n\nA restrict-then-rebound cycle is not proof of greed. Deprivation, constant thoughts about food, believing one meal has “ruined the day”, and then compensating through starvation or punitive exercise can prolong the cycle. Tell the clinician clearly about repeated loss of control, eating a large amount with distress, self-induced vomiting, laxative use or an overwhelming fear of food. Tightening the diet can then cause harm; the priority is assessment of eating and mental health and a safer plan. PCOS itself is associated with a greater psychological and eating-disorder burden, so this deserves a respectful question rather than judgement. [1, 2]\n\nStart with meals that genuinely recur. Suitable protein, vegetables, fruit or pulses for fibre, and carbohydrate and fat amounts fitted to the person can support satiety and nutrition. No ingredient cancels PCOS, and gluten or dairy do not need automatic removal. If a particular meal is followed quickly by hunger, adjust its composition or timing with a clinician instead of adding another forbidden list. Better food quality and movement have health value even when the scale does not fall every week. [1, 2, 8]"}, "links": {"ar": [], "en": []}},
+        {"id": "reassessment", "heading": {"ar": "بدل ما تبدأ دايت جديد، راجع الخريطة", "en": "Before starting another diet, review the map"}, "body": {"ar": "اكتب خطاً زمنياً بسيطاً: الوزن التقريبي قبل الخطة، مدة النزول، إمتى بدأ الرجوع، وإيه اللي اتغير وقتها في الدورة والنوم والشغل والحركة والأدوية. ضيف يومين أو تلاتة واقعيين من الأكل من غير تجميل، ومستوى الجوع قبل وبعد الوجبات. الهدف مش عدّ كل لقمة للأبد؛ الهدف نكتشف هل الفطار ضعيف، هل فترات طويلة من غير أكل بتنتهي بجوع شديد، أو هل أيام الضغط مختلفة تماماً عن أيام الهدوء. المتابعة المنتظمة ومراجعة الأهداف أفضل من انتظار زيادة كبيرة ثم بدء خطة طوارئ. [2, 6, 8]\n\nراجع كمان هل تشخيص التكيس اتعمل بمعايير واضحة ولا اتقال من سونار وحده. اسأل إيه الفحوص المطلوبة حسب حالتك: ضغط، سكر ودهون، واختبارات تستبعد أسباباً مشابهة لو الأعراض تشير لها. ما تطلبش باقة هرمونات أو إنسولين متكررة من نفسك. لو الدورة متأخرة وفيه احتمال حمل، اعمل اختبار وتواصل مع الطبيب قبل تغيير دواء أو بدء خطة نزول. ولو بدأ دواء جديد قبل الزيادة، ما توقفوش وحدك؛ اكتب الاسم والجرعة والموعد وناقش البدائل مع الواصف. [1, 2, 3]\n\nحدد هدف المرحلة. أحياناً أول هدف مفيد هو وقف الاتجاه الصاعد، تنظيم وجبات ونوم، أو استرجاع القوة، مش خسارة سريعة جديدة. تابع مؤشر أو اتنين تقدر تتصرف بناءً عليهم: اتجاه الوزن الأسبوعي، محيط متفق عليه، انتظام الدورة، الشبع، أداء المشي أو المقاومة، ونتيجة معمل طلبها الطبيب. لو القياس اليومي بيزود القلق أو الحرمان، قلل وتيرته واتفق على طريقة أهدى. [2, 6, 8]", "en": "Write a simple timeline: approximate weight before the plan, how long loss continued, when regain began, and what changed then in periods, sleep, work, movement and medicines. Add two or three honest ordinary days of eating and hunger before and after meals. The purpose is not to count every bite forever; it is to see whether breakfast is inadequate, long gaps end in intense hunger, or stressful days look completely different from calmer days. Regular follow-up and goal review are more useful than waiting for a large regain and then starting an emergency plan. [2, 6, 8]\n\nAlso review whether PCOS was diagnosed using clear criteria or named from an ultrasound alone. Ask which checks fit your situation: blood pressure, glucose and lipids, plus tests for similar conditions if symptoms point that way. Do not order repeated hormone or insulin panels yourself. If a period is late and pregnancy is possible, take a test and contact the clinician before changing medicine or beginning a weight-loss plan. If a new medicine preceded the gain, do not stop it alone; record the name, dose and timing and discuss alternatives with the prescriber. [1, 2, 3]\n\nDefine the goal of this phase. Sometimes the most useful first target is stopping the upward trend, organising meals and sleep, or restoring strength, not another rapid loss. Follow one or two indicators that can inform action: a weekly weight trend, an agreed circumference, cycle regularity, satiety, walking or resistance performance, and a laboratory result requested by the clinician. If daily weighing increases anxiety or restriction, reduce its frequency and agree a calmer method. [2, 6, 8]"}, "links": {"ar": [], "en": []}},
+        {"id": "maintenance-plan", "heading": {"ar": "اعمل خطة تثبيت من أول يوم، مش بعد الوصول", "en": "Build maintenance from day one, not after arrival"}, "body": {"ar": "خطة التثبيت مش نسخة أكثر صرامة من الدايت. هي نسخة تقدر تعيش بيها في الأسبوع العادي والأسبوع الملخبط. اختار تغييرين أو تلاتة محددين: فطار يشبعك، مصدر بروتين وخضار في وجبة متكررة، تجهيز اختيار سريع، أو مشي في وقت واقعي. جهّز خطة «لو حصل»: لو اتأخرت في الشغل، إيه الوجبة المتاحة؟ لو فات تمرين، إزاي ترجع من غير عقاب؟ التعثر المتوقع فرصة لحل مشكلة، مش سبب لبدء الاثنين من الصفر. [2, 6, 8]\n\nالحركة مفيدة للصحة حتى لو الميزان ثابت. اختار نشاطاً تقدر تكرره، وقلل الجلوس، وضيف تقوية تدريجية للمجموعات العضلية حسب صحتك وقدرتك. حماية العضلات أثناء إنقاص الوزن مهمة لأن النزول ممكن يشمل كتلة خالية من الدهون، بس التفاصيل لها صفحتها عشان ما نحوّلش الإجابة لوصفة تمرين أو بروتين عامة. ألم صدر، إغماء أو ضيق نفس شديد أثناء المجهود محتاج توقف ورعاية عاجلة. ولو عندك إصابة أو مرض مزمن أو انقطاع طويل، ابدأ بتوجيه مناسب. [4, 10]\n\nالدعم والمتابعة جزء من العلاج، مش علامة عجز. اتفق إمتى تراجع الخطة وإيه الحد اللي يستدعي تواصلاً أبكر. راجع الجوع والطاقة والقوة والدورة والنوم والنتايج المطلوبة، مش الوزن وحده. لو فيه دواء وزن مناسب، الطبيب يناقش فائدته وأضراره واستمراره وخطة الحمل؛ وما تبدأش أو توقف أو تعيد جرعة من نفسك. النجاح مش إن الوزن ما يتحركش أبداً، بس إنك تلاحظ الاتجاه بدري وتعرف تعدّل بخطوات صغيرة بدل دايرة الحرمان والرجوع. [2, 4, 6]", "en": "A maintenance plan is not a stricter version of a diet. It is a version you can use during an ordinary week and a disrupted one. Choose two or three specific actions: a satisfying breakfast, protein and vegetables in a recurring meal, a prepared quick option, or walking at a realistic time. Make an “if this happens” plan: if work runs late, what meal is available; if exercise is missed, how will you resume without punishment? An expected lapse is a problem-solving opportunity, not a reason to restart from zero on Monday. [2, 6, 8]\n\nMovement benefits health even when weight is stable. Choose activity you can repeat, reduce sitting, and add gradual strengthening for major muscle groups according to health and ability. Protecting muscle during weight loss matters because loss can include fat-free mass, but the detailed nutrition and exercise decisions belong in that linked guide rather than turning this answer into a universal prescription. Chest pain, fainting or severe breathlessness during exertion calls for stopping and urgent care. With injury, chronic disease or a long break from activity, begin with suitable guidance. [4, 10]\n\nSupport and follow-up are part of treatment, not proof of inadequacy. Agree when to review the plan and what threshold should prompt earlier contact. Review hunger, energy, strength, periods, sleep and requested results, not weight alone. If a weight-management medicine is appropriate, the prescriber discusses benefit, harm, continuation and pregnancy plans; do not start, stop or restart a dose yourself. Success is not a weight that never moves, but noticing a trend early and knowing how to adjust through small actions instead of returning to restriction and rebound. [2, 4, 6]"}, "links": {"ar": [{"label": "حماية العضلات أثناء إنقاص الوزن", "url": "../articles/protecting-muscle-while-losing-weight.html"}], "en": [{"label": "Protecting muscle during weight loss", "url": "../articles/protecting-muscle-while-losing-weight.html"}]}},
+        {"id": "red-flags-next-step", "heading": {"ar": "إمتى تحتاج مراجعة أسرع، وإيه الخطوة الجاية؟", "en": "When do you need faster review, and what comes next?"}, "body": {"ar": "راجع الطبيب قريباً لو الزيادة سريعة ومن غير تفسير، أو معها تورم، ضعف جديد، خفقان، إحساس واضح بالبرد، إمساك شديد، إفراز لبن من الثدي من غير رضاعة، أو تغير سريع في الشعر أو الصوت. غياب الدورة لفترة طويلة أو نزيف متكرر أو غزير محتاج تقييم للسبب واحتمال الحمل والأنيميا وحماية بطانة الرحم، مش مجرد دايت. الألم الحاد المفاجئ أسفل البطن، نزيف شديد مع دوخة أو إغماء، أو أعراض حمل مع ألم أو نزيف تستدعي رعاية عاجلة حسب الشدة. [1, 2, 11]\n\nالزيادة السريعة مع تورم شديد أو مفاجئ ممكن تكون سوائل مش دهون. اطلب رعاية طارئة فوراً لو التورم مصحوب بضيق نفس أو صعوبة تنفس، ثقل أو ألم بالصدر، كحة بدم، إغماء أو ارتباك. ولو القلق أو الاكتئاب وصل لأفكار إيذاء النفس، اطلب مساعدة طارئة من خدمات الطوارئ المحلية وشخص موثوق. دي مواقف ما ينفعش تستنى عليها ميعاد تغذية روتيني ولا تحاول تعالجها بتقليل الأكل. [1, 2, 11]\n\nللزيارة غير الطارئة، خد معاك خط الوزن والدورة، قائمة الأدوية والمكملات، التحاليل السابقة، ووصفاً واقعياً للأكل والنوم والحركة. المركز الطبي ممكن يساعد في تنظيم تقييم تغذية إكلينيكية ومتابعة الوزن وإحالة التخصص المناسب، من غير وعد بنتيجة محددة ومن غير استبدال طبيب النساء أو الباطنة. لو محتاج بداية مرتبة، استخدم طلب حجز موعد واذكر إن السؤال عن التكيس ورجوع الوزن. قرار التحاليل والدواء والهدف يفضل مع الطبيب المعالج بعد مراجعة حالتك وخطة الحمل. [1, 2, 8]", "en": "Arrange a prompt medical review if gain is rapid and unexplained, or occurs with swelling, new weakness, palpitations, marked cold intolerance, severe constipation, milk discharge when not breastfeeding, or quickly changing hair growth or voice. A prolonged absence of periods or frequent or heavy bleeding needs assessment of the cause, pregnancy possibility, anaemia and womb-lining protection, not simply another diet. Sudden severe lower-abdominal pain, heavy bleeding with dizziness or fainting, or possible pregnancy with pain or bleeding needs urgent care according to severity. [1, 2, 11]\n\nRapid gain with severe or sudden swelling may be fluid rather than fat. Seek emergency care immediately when swelling occurs with breathlessness or difficulty breathing, chest heaviness or pain, coughing blood, fainting or confusion. If anxiety or depression reaches thoughts of self-harm, seek emergency help through local services and a trusted person. These situations should not wait for a routine nutrition appointment or be treated by eating less. [1, 2, 11]\n\nFor a non-emergency visit, bring the weight and cycle timeline, medicine and supplement list, previous tests, and an honest description of food, sleep and movement. A medical centre can help organise clinical-nutrition assessment, weight follow-up and referral to the appropriate specialty, without promising a particular result or replacing gynaecology or internal-medicine care. If you need an organised start, use the appointment request and say that the question concerns PCOS and weight regain. Decisions about tests, medicine and goals remain with the treating clinician after reviewing your circumstances and pregnancy plans. [1, 2, 8]"}, "links": {"ar": [{"label": "طلب حجز موعد", "url": "../patients/booking.html"}], "en": [{"label": "appointment request", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "هل رجوع الوزن مع التكيس معناه إن الحرق باظ؟",
-            "en": "Does regain with PCOS mean my metabolism is broken?"
-          },
-          "a": {
-            "ar": "لأ. بعد النزول، احتياج الطاقة يقل جزئياً وقد تزيد الشهية ويقل الشبع، لكن ده تكيف بدرجات مختلفة مش «تلف» دائم. راجع الاتجاه والأكل والحركة والنوم والأدوية والأعراض مع المختص بدل اختبار عشوائي أو دايت أقسى. [4, 5, 7]",
-            "en": "No. After weight loss, energy needs partly fall and appetite may rise while satiety falls, but this is adaptation of varying degree, not permanent “damage”. Review the trend, food, movement, sleep, medicines and symptoms with a clinician instead of ordering random tests or using a harsher diet. [4, 5, 7]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل لازم أمنع النشويات عشان وزني ما يرجعش؟",
-            "en": "Must I remove carbohydrates to prevent regain?"
-          },
-          "a": {
-            "ar": "مش لمجرد وجود التكيس. مفيش تركيبة دايت واحدة ثبت إنها الأفضل لكل الحالات. كمية ونوع وتوزيع النشويات يتحددوا حسب احتياجك وأعراضك ونتايجك، والأهم نمط متوازن تقدر تكرره من غير حرمان مؤذٍ. [2, 4]",
-            "en": "Not simply because PCOS is present. No single dietary composition has proved best for everyone. Carbohydrate amount, type and distribution should fit your needs, symptoms and results; the priority is a balanced pattern that can be repeated without harmful restriction. [2, 4]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل تحليل الإنسولين يفسر لوحده ليه الوزن رجع؟",
-            "en": "Can an insulin test alone explain why weight returned?"
-          },
-          "a": {
-            "ar": "لأ. مقاومة الإنسولين مهمة في التكيس عند ناس كتير، لكن التحاليل المتاحة ليها محدودية ومش اختبار منفرد لسبب رجوع الوزن. الطبيب يختار تقييم السكر والمخاطر حسب التاريخ والأعراض، ويراجع عوامل تانية زي النوم والأدوية والأكل والحركة. [2, 3]",
-            "en": "No. Insulin resistance is important for many people with PCOS, but available assays have limitations and are not a stand-alone explanation for regain. The clinician selects glucose and risk assessment from history and symptoms and reviews sleep, medicines, eating and movement too. [2, 3]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل الزيادة السريعة بعد يوم مفتوح كلها دهون؟",
-            "en": "Is a rapid rise after one flexible day all body fat?"
-          },
-          "a": {
-            "ar": "غالباً قراءة يوم أو يومين بتتأثر بالمياه والملح والكربوهيدرات ومحتوى الأمعاء، وما تقدرش تحدد تغير الدهون. ارجع لروتينك المعتاد من غير تجويع تعويضي، وراقب اتجاه أسابيع في ظروف قياس متقاربة. [4, 5]",
-            "en": "A one- or two-day reading is often affected by water, salt, carbohydrate and bowel contents and cannot identify a change in body fat. Return to the usual routine without compensatory starvation and follow a several-week trend under similar measurement conditions. [4, 5]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل أدوية التكيس أو الوزن تمنع الرجوع نهائياً؟",
-            "en": "Do PCOS or weight medicines prevent regain permanently?"
-          },
-          "a": {
-            "ar": "مفيش دواء يضمن نتيجة دائمة لكل شخص. الدواء ممكن يناسب هدفاً محدداً بعد تقييم، لكن فائدته وأضراره والاستمرار عليه وخطة الحمل لازم يتراجعوا مع الواصف. ما تبدأش أو توقف أو تعيد الدواء من نفسك. [1, 2, 7]",
-            "en": "No medicine guarantees a permanent result for everyone. A medicine may fit a defined goal after assessment, but benefit, harm, duration and pregnancy plans must be reviewed with the prescriber. Do not start, stop or restart it independently. [1, 2, 7]"
-          }
-        },
-        {
-          "q": {
-            "ar": "إمتى رجوع الوزن يحتاج كشف قريب؟",
-            "en": "When does weight regain need a prompt medical review?"
-          },
-          "a": {
-            "ar": "لو الزيادة سريعة أو غير مفسرة، أو معها تورم أو ضعف أو خفقان أو تغير واضح في الدورة، راجع الطبيب قريباً. تورم مفاجئ مع ضيق نفس أو ألم صدر أو إغماء يحتاج رعاية طارئة فوراً؛ ما تعتبرهوش دهون ولا تستنى ميعاد ميزان. [1, 2, 11]",
-            "en": "Prompt review is appropriate for rapid or unexplained gain, especially with swelling, weakness, palpitations or a marked cycle change. Sudden swelling with breathlessness, chest pain or fainting requires immediate emergency care; do not assume it is body fat or wait for another weigh-in. [1, 2, 11]"
-          }
-        }
+        {"q": {"ar": "هل رجوع الوزن مع التكيس معناه إن الحرق باظ؟", "en": "Does regain with PCOS mean my metabolism is broken?"}, "a": {"ar": "لأ. بعد النزول، احتياج الطاقة يقل جزئياً وقد تزيد الشهية ويقل الشبع، بس ده تكيف بدرجات مختلفة مش «تلف» دائم. راجع الاتجاه والأكل والحركة والنوم والأدوية والأعراض مع المختص بدل اختبار عشوائي أو دايت أقسى. [4, 5, 7]", "en": "No. After weight loss, energy needs partly fall and appetite may rise while satiety falls, but this is adaptation of varying degree, not permanent “damage”. Review the trend, food, movement, sleep, medicines and symptoms with a clinician instead of ordering random tests or using a harsher diet. [4, 5, 7]"}},
+        {"q": {"ar": "هل لازم أمنع النشويات عشان وزني ما يرجعش؟", "en": "Must I remove carbohydrates to prevent regain?"}, "a": {"ar": "مش لمجرد وجود التكيس. مفيش تركيبة دايت واحدة ثبت إنها الأفضل لكل الحالات. كمية ونوع وتوزيع النشويات يتحددوا حسب احتياجك وأعراضك ونتايجك، والأهم نمط متوازن تقدر تكرره من غير حرمان مؤذٍ. [2, 4]", "en": "Not simply because PCOS is present. No single dietary composition has proved best for everyone. Carbohydrate amount, type and distribution should fit your needs, symptoms and results; the priority is a balanced pattern that can be repeated without harmful restriction. [2, 4]"}},
+        {"q": {"ar": "هل تحليل الإنسولين يفسر لوحده ليه الوزن رجع؟", "en": "Can an insulin test alone explain why weight returned?"}, "a": {"ar": "لأ. مقاومة الإنسولين مهمة في التكيس عند ناس كتير، بس التحاليل المتاحة ليها محدودية ومش اختبار منفرد لسبب رجوع الوزن. الطبيب يختار تقييم السكر والمخاطر حسب التاريخ والأعراض، ويراجع عوامل تانية زي النوم والأدوية والأكل والحركة. [2, 3]", "en": "No. Insulin resistance is important for many people with PCOS, but available assays have limitations and are not a stand-alone explanation for regain. The clinician selects glucose and risk assessment from history and symptoms and reviews sleep, medicines, eating and movement too. [2, 3]"}},
+        {"q": {"ar": "هل الزيادة السريعة بعد يوم مفتوح كلها دهون؟", "en": "Is a rapid rise after one flexible day all body fat?"}, "a": {"ar": "غالباً قراءة يوم أو يومين بتتأثر بالمياه والملح والكربوهيدرات ومحتوى الأمعاء، وما تقدرش تحدد تغير الدهون. ارجع لروتينك المعتاد من غير تجويع تعويضي، وراقب اتجاه أسابيع في ظروف قياس متقاربة. [4, 5]", "en": "A one- or two-day reading is often affected by water, salt, carbohydrate and bowel contents and cannot identify a change in body fat. Return to the usual routine without compensatory starvation and follow a several-week trend under similar measurement conditions. [4, 5]"}},
+        {"q": {"ar": "هل أدوية التكيس أو الوزن تمنع الرجوع نهائياً؟", "en": "Do PCOS or weight medicines prevent regain permanently?"}, "a": {"ar": "مفيش دواء يضمن نتيجة دائمة لكل شخص. الدواء ممكن يناسب هدفاً محدداً بعد تقييم، بس فائدته وأضراره والاستمرار عليه وخطة الحمل لازم يتراجعوا مع الواصف. ما تبدأش أو توقف أو تعيد الدواء من نفسك. [1, 2, 7]", "en": "No medicine guarantees a permanent result for everyone. A medicine may fit a defined goal after assessment, but benefit, harm, duration and pregnancy plans must be reviewed with the prescriber. Do not start, stop or restart it independently. [1, 2, 7]"}},
+        {"q": {"ar": "إمتى رجوع الوزن يحتاج كشف قريب؟", "en": "When does weight regain need a prompt medical review?"}, "a": {"ar": "لو الزيادة سريعة أو غير مفسرة، أو معها تورم أو ضعف أو خفقان أو تغير واضح في الدورة، راجع الطبيب قريباً. تورم مفاجئ مع ضيق نفس أو ألم صدر أو إغماء يحتاج رعاية طارئة فوراً؛ ما تعتبرهوش دهون ولا تستنى ميعاد ميزان. [1, 2, 11]", "en": "Prompt review is appropriate for rapid or unexplained gain, especially with swelling, weakness, palpitations or a marked cycle change. Sudden swelling with breathlessness, chest pain or fainting requires immediate emergency care; do not assume it is body fat or wait for another weigh-in. [1, 2, 11]"}}
       ],
       "sources": [
-        {
-          "label": "WHO — Polycystic ovary syndrome",
-          "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome"
-        },
-        {
-          "label": "Teede et al. — 2023 International Evidence-based Guideline for PCOS (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10477934/"
-        },
-        {
-          "label": "NIDDK — Insulin Resistance & Prediabetes",
-          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance"
-        },
-        {
-          "label": "Hall and Kahan — Maintenance of Lost Weight and Long-term Management of Obesity (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5764193/"
-        },
-        {
-          "label": "Greenway — Physiological Adaptations to Weight Loss and Factors Favouring Weight Regain (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4766925/"
-        },
-        {
-          "label": "NIH Working Group — Innovative Research to Improve Maintenance of Weight Loss (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5841916/"
-        },
-        {
-          "label": "Endocrine Society — Obesity Pathogenesis Scientific Statement (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5546881/"
-        },
-        {
-          "label": "CDC — Steps for Losing Weight",
-          "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html"
-        },
-        {
-          "label": "NHLBI — Sleep Deprivation and Deficiency",
-          "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation"
-        },
-        {
-          "label": "WHO — Guidelines on Physical Activity and Sedentary Behaviour: At a Glance",
-          "url": "https://www.who.int/publications/i/item/9789240014886"
-        },
-        {
-          "label": "NHS — Swollen Ankles, Feet and Legs (Oedema)",
-          "url": "https://www.nhs.uk/conditions/oedema/"
-        }
+        {"label": "WHO — Polycystic ovary syndrome", "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome"},
+        {"label": "Teede et al. — 2023 International Evidence-based Guideline for PCOS (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10477934/"},
+        {"label": "NIDDK — Insulin Resistance & Prediabetes", "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance"},
+        {"label": "Hall and Kahan — Maintenance of Lost Weight and Long-term Management of Obesity (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5764193/"},
+        {"label": "Greenway — Physiological Adaptations to Weight Loss and Factors Favouring Weight Regain (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4766925/"},
+        {"label": "NIH Working Group — Innovative Research to Improve Maintenance of Weight Loss (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5841916/"},
+        {"label": "Endocrine Society — Obesity Pathogenesis Scientific Statement (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5546881/"},
+        {"label": "CDC — Steps for Losing Weight", "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html"},
+        {"label": "NHLBI — Sleep Deprivation and Deficiency", "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation"},
+        {"label": "WHO — Guidelines on Physical Activity and Sedentary Behaviour: At a Glance", "url": "https://www.who.int/publications/i/item/9789240014886"},
+        {"label": "NHS — Swollen Ankles, Feet and Legs (Oedema)", "url": "https://www.nhs.uk/conditions/oedema/"}
       ],
-      "tags": {
-        "ar": [
-          "تكيس المبايض",
-          "رجوع الوزن",
-          "خطة غذائية",
-          "دكتور تغذية علاجية"
-        ],
-        "en": [
-          "PCOS",
-          "weight regain",
-          "nutrition plan",
-          "clinical nutrition"
-        ]
-      },
-      "seo": {
-        "title": {
-          "ar": "رجوع الوزن مع تكيس المبايض: الأسباب والحل",
-          "en": "PCOS weight regain: causes and next steps"
-        },
-        "description": {
-          "ar": "اعرف ليه الوزن ممكن يرجع مع تكيس المبايض، ودور الشهية والدايت القاسي والنوم، وإزاي تعمل خطة تثبيت آمنة وتعرف علامات الخطر.",
-          "en": "Learn why weight can return with PCOS, how appetite, restrictive diets and sleep contribute, and how to build a safer maintenance plan."
-        }
-      }
+      "tags": {"ar": ["تكيس المبايض", "رجوع الوزن", "خطة غذائية", "دكتور تغذية علاجية"], "en": ["PCOS", "weight regain", "nutrition plan", "clinical nutrition"]},
+      "seo": {"title": {"ar": "رجوع الوزن مع تكيس المبايض: الأسباب والحل", "en": "PCOS weight regain: causes and next steps"}, "description": {"ar": "اعرف ليه الوزن ممكن يرجع مع تكيس المبايض، ودور الشهية والدايت القاسي والنوم، وإزاي تعمل خطة تثبيت آمنة وتعرف علامات الخطر.", "en": "Learn why weight can return with PCOS, how appetite, restrictive diets and sleep contribute, and how to build a safer maintenance plan."}}
     }
   ]
 }

@@ -7,10 +7,7 @@
       "published": true,
       "featured": false,
       "category": "clinical-nutrition",
-      "specialties": [
-        "clinical-nutrition",
-        "weight-management"
-      ],
+      "specialties": ["clinical-nutrition", "weight-management"],
       "date": "2026-09-02",
       "updatedAt": "2026-09-27",
       "readingTime": 9,
@@ -18,297 +15,43 @@
       "reviewedBy": "alyaa-abu-taleb",
       "image": "assets/img/articles/tip-enrich-one-weight-gain-meal.webp",
       "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "وسّعنا النص بخطوات عملية لتدعيم وجبة واحدة، ومتابعة التقبّل، وعلامات الأمان، واتراجع طبياً من جديد.",
-            "en": "We expanded the guide with practical steps for enriching one meal, monitoring tolerance, and recognising safety signs, and it was medically re-reviewed."
-          }
-        }
+        {"date": "2026-09-27", "note": {"ar": "وسّعنا النص بخطوات عملية لتدعيم وجبة واحدة، ومتابعة التقبّل، وعلامات الأمان، واتراجع طبياً من جديد.", "en": "We expanded the guide with practical steps for enriching one meal, monitoring tolerance, and recognising safety signs, and it was medically re-reviewed."}}
       ],
-      "title": {
-        "ar": "زوّد وجبة واحدة لزيادة الوزن بدل تكبير اليوم كله",
-        "en": "Enrich one meal for weight gain, not the whole day"
-      },
-      "excerpt": {
-        "ar": "لو هدفك زيادة الوزن وشهيتك صغيرة، ابدأ بوجبة ثابتة وزوّدها بإضافة مغذية ومركزة. الدليل ده بيساعدك تختار الوجبة والإضافة، تتابع التقبّل، وتعرف إمتى تحتاج تقييماً طبياً.",
-        "en": "If you want to gain weight but have a small appetite, start with one dependable meal and one nutritious, concentrated addition. This guide explains how to choose it, monitor tolerance, and know when medical assessment matters."
-      },
-      "tags": {
-        "ar": [
-          "زيادة الوزن",
-          "ضعف الشهية",
-          "وجبة عالية الطاقة",
-          "تدعيم الوجبات",
-          "تغذية علاجية"
-        ],
-        "en": [
-          "weight gain",
-          "small appetite",
-          "energy-dense meal",
-          "food fortification",
-          "clinical nutrition"
-        ]
-      },
+      "title": {"ar": "زوّد وجبة واحدة لزيادة الوزن بدل تكبير اليوم كله", "en": "Enrich one meal for weight gain, not the whole day"},
+      "excerpt": {"ar": "لو هدفك زيادة الوزن وشهيتك صغيرة، ابدأ بوجبة ثابتة وزوّدها بإضافة مغذية ومركزة. الدليل ده بيساعدك تختار الوجبة والإضافة، تتابع التقبّل، وتعرف إمتى تحتاج تقييماً طبياً.", "en": "If you want to gain weight but have a small appetite, start with one dependable meal and one nutritious, concentrated addition. This guide explains how to choose it, monitor tolerance, and know when medical assessment matters."},
+      "tags": {"ar": ["زيادة الوزن", "ضعف الشهية", "وجبة عالية الطاقة", "تدعيم الوجبات", "تغذية علاجية"], "en": ["weight gain", "small appetite", "energy-dense meal", "food fortification", "clinical nutrition"]},
       "sections": [
-        {
-          "id": "who-this-step-is-for",
-          "heading": {
-            "ar": "الفكرة ببساطة: إضافة صغيرة لوجبة ثابتة",
-            "en": "The idea in plain terms: one small addition to a dependable meal"
-          },
-          "body": {
-            "ar": "لو شهيتك صغيرة وبتحاول تزود وزنك، أول رد فعل ممكن يبقى إنك تكبّر كل طبق أو تجبر نفسك على وجبات ضخمة. المشكلة إن الحجم الكبير ممكن يشبعك بدري ويخلي باقي اليوم أصعب. الفكرة هنا أبسط: اختار وجبة بتاكلها أغلب الأيام وبتتقبلها كويس، وزوّد لها مكوّناً واحداً مركزاً في الطاقة والعناصر الغذائية. ممكن يبقى طحينة، زيت زيتون، جبنة، زبادي كامل الدسم، لبن بودرة مضاف للأكل، أفوكادو، أو مكسرات مطحونة حسب الوجبة وحالتك. الإرشادات الصحية لزيادة الوزن بتدعم الزيادة التدريجية، الوجبات الأصغر المتكررة، وإضافة أطعمة مغذية أعلى في الطاقة بدل الاعتماد على حلويات أو مشروبات سكرية بس [1, 2, 3].\n\nده مش نظاماً علاجياً كاملاً ولا وصفة تناسب كل واحد. هو تجربة صغيرة ومنظمة لشخص بالغ بيقدر يبلع بأمان، وما عندوش منع طبي للمكوّن، وهدفه يرفع مدخوله بهدوء. تدعيم الأكل معناه إن نفس الحجم تقريباً يشيل طاقة أو بروتين أكتر؛ وده مختلف عن إنك تزود حجم الطبق. كثافة الطاقة هي مقدار الطاقة في وزن معين من الطعام، وبتتأثر خصوصاً بنسبة الدهون والمياه، عشان كده إضافة كمية صغيرة من مكوّن مركز ممكن تغيّر الوجبة من غير حجم ضخم [8, 9]. ولو وزنك بينزل من غير قصد، أو أكلك كان شبه متوقف، ما تعتبرش الخطوة دي بديلاً عن الكشف؛ السبب لازم يتفهم الأول [3, 5, 7].",
-            "en": "If your appetite is small and you are trying to gain weight, you may enlarge every plate or force down large meals. A bigger volume can make you full early and leave the rest of the day harder. Instead, choose a meal you eat most days and tolerate well, then add one ingredient that concentrates energy and useful nutrients. Depending on the meal and your health needs, that might be tahini, olive oil, cheese, full-fat yogurt, milk powder stirred into food, avocado, or ground nuts. Healthy weight-gain guidance supports gradual change, smaller frequent meals, and nutritious higher-energy additions instead of relying only on sweets or sugary drinks [1, 2, 3].\n\nThis is not a complete treatment plan or a formula for everyone. It is a structured experiment for an adult who can swallow safely, has no medical reason to avoid the ingredient, and needs a gentler way to raise intake. Fortifying food means putting more energy or protein into roughly the same volume; that is different from simply making the plate larger. Energy density describes the energy in a given weight of food and is influenced especially by fat and water, so a concentrated addition can change a meal without creating a huge portion [8, 9]. If your weight is falling without intent or you have eaten almost nothing for a prolonged period, do not treat this step as a substitute for assessment; the reason needs to be understood first [3, 5, 7]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "check-the-goal-first",
-          "heading": {
-            "ar": "قبل ما تزود: اتأكد إن الهدف مناسب ليك",
-            "en": "Before adding anything, check that the goal fits you"
-          },
-          "body": {
-            "ar": "مش كل شخص شايف نفسه رفيع محتاج يزود وزنه، ومش كل نقص وزن سببه قلة الأكل. مؤشر كتلة الجسم بيصنّف أقل من 18.5 كنقص وزن عند البالغين، لكنه أداة فحص مش تشخيصاً؛ لازم يتقري مع مسار الوزن، القوة، الأعراض، الحالة الصحية، وتكوين الجسم [6]. لو وزنك ثابت من سنين، طاقتك كويسة، وأكلك متنوع، التقييم هيختلف عن شخص هدومه وسعت بسرعة، شهيته اختفت، أو فقد قوته. عشان كده الهدف الأفضل مش رقم تختاره عشوائياً، لكنه اتجاه متفق عليه مع الطبيب أو أخصائي التغذية لما يكون فيه داعٍ واضح.\n\nقبل التجربة، اسأل نفسك: هل الوزن نزل من غير ما أغيّر أكلي أو نشاطي؟ هل عندي إسهال مستمر، قيء، ألم، صعوبة بلع، خفقان، عطش أو تبول زيادة، حرارة، كحة مستمرة، تعب شديد، أو مزاج منخفض؟ هل بدأت دواء جديداً؟ وهل التحكم في الأكل مرتبط بخوف شديد من الوزن أو ضيق نفسي؟ نزول الوزن غير المقصود له أسباب هضمية وهرمونية ونفسية ودوائية وغيرها، ومحتاج تقييماً بدل تغطيته بإضافات غذائية [5, 12]. لو عايز الصورة الأوسع عن الزيادة التدريجية وفاتح الشهية، اقرأ زيادة الوزن الصحية: هل تبدأ فاتح شهية؟ الصفحة دي بتشرح القرار العام، بينما النص الحالي مركز على تنفيذ خطوة وجبة واحدة [1, 2].",
-            "en": "Not everyone who sees themselves as slim needs to gain weight, and low weight is not always caused by eating too little. For adults, a BMI below 18.5 is categorised as underweight, but BMI is a screening measure rather than a diagnosis; it must be read alongside weight history, strength, symptoms, health conditions, and body composition [6]. Someone whose weight has been stable for years, with good energy and a varied diet, is different from someone whose clothes have quickly become loose, appetite has disappeared, or strength has declined. A sensible goal is therefore not an arbitrary number but a direction agreed with a clinician or dietitian when there is a clear reason to gain.\n\nBefore trying this, ask: has weight fallen without a change in food or activity? Do I have persistent diarrhoea, vomiting, pain, trouble swallowing, palpitations, increased thirst or urination, fever, a persistent cough, marked fatigue, or low mood? Did I start a new medicine? Is food restriction tied to intense fear of weight or emotional distress? Unintentional loss has digestive, hormonal, psychological, medication-related, and other possible causes, and it needs assessment rather than being covered up with food additions [5, 12]. For the broader strategy around gradual gain and appetite stimulants, read Healthy weight gain: should you take an appetite stimulant?; that page addresses the overall decision, while this guide stays focused on carrying out the one-meal step [1, 2]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "زيادة الوزن الصحية: هل تبدأ فاتح شهية؟",
-                "url": "../articles/qa-healthy-weight-gain.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Healthy weight gain: should you take an appetite stimulant?",
-                "url": "../articles/qa-healthy-weight-gain.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "choose-anchor-meal",
-          "heading": {
-            "ar": "اختار وجبة الارتكاز الصح",
-            "en": "Choose the right anchor meal"
-          },
-          "body": {
-            "ar": "وجبة الارتكاز هي وجبة موجودة فعلاً في يومك، مش وجبة مثالية على الورق. اختار حاجة بتاكلها أربع أو خمس مرات في الأسبوع، وقتها هادي نسبياً، ومعدتك بتتقبلها. الفطار ينفع لو بتصحى جعان؛ الغدا ينفع لو هو أكتر وجبة ثابتة؛ والعشا الخفيف ينفع لو الصبح صعب. ما تختارش أصعب وجبة عندك ولا الوقت اللي بتبقى فيه متوتر أو مستعجل. الخطة الناجحة لازم تكون قابلة للتكرار، لأن تكرار تغيير صغير بيديك معلومة أوضح من يوم واحد مليان أكل وبعده أيام مفيهاش انتظام [1, 2].\n\nسجّل شكل الوجبة قبل التعديل: مصدر نشويات زي عيش أو رز أو بطاطس، مصدر بروتين زي بيض أو فول أو عدس أو جبنة أو فراخ أو سمك، وأي خضار أو فاكهة موجودة. مش لازم كل طبق يبقى مثالياً، بس مهم الإضافة ما تزقّش البروتين والخضار بره اليوم. الإرشادات الخاصة بالدعم الغذائي بتشدد إن المدخول الكلي يفضل متوازناً ويغطي الطاقة والبروتين والألياف والفيتامينات والمعادن، لأن رفع الطاقة وحدها مش كفاية لو جودة الأكل ضعيفة [3]. لو السوائل بتقفّل شهيتك، جرّب تخلي أغلب الشرب بين الوجبات بدل قبل وجبة الارتكاز مباشرة، مع الحفاظ على سوائل كفاية خلال اليوم؛ دي ملاحظة عملية مش قاعدة لكل الناس [1, 2].",
-            "en": "An anchor meal is a meal that already exists in your real day, not an ideal meal on paper. Choose something you eat four or five times a week, at a calm time, and that usually sits comfortably. Breakfast can work if you wake hungry; lunch can work if it is your most dependable meal; a light evening meal can work if mornings are difficult. Do not choose your hardest meal or the time when you are usually rushed or tense. The plan needs to be repeatable, because repeating one modest change gives clearer information than one very large eating day followed by several inconsistent days [1, 2].\n\nNote what the meal contains before changing it: a carbohydrate food such as bread, rice, or potato; a protein source such as eggs, beans, lentils, cheese, chicken, or fish; and whatever vegetables or fruit are present. Every plate need not be perfect, but the addition should not push protein and produce out of the rest of the day. Nutrition-support guidance stresses that total intake should remain a balanced mixture of energy, protein, fibre, vitamins, and minerals; raising energy alone is not enough if overall food quality is poor [3]. If drinks blunt your appetite, try having most fluids between meals rather than immediately before the anchor meal while still drinking enough across the day; this is a practical trial, not a universal rule [1, 2]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "match-one-addition",
-          "heading": {
-            "ar": "طابق إضافة واحدة مع الوجبة",
-            "en": "Match one addition to the meal"
-          },
-          "body": {
-            "ar": "ابدأ بإضافة واحدة بس عشان تعرف طعمها وتأثيرها على الشبع والهضم. مع الفول أو الحمص، ممكن طحينة أو زيت زيتون. مع البيض أو البطاطس، ممكن جبنة أو لبنة كاملة الدسم. مع الشوفان أو الزبادي، ممكن لبن بودرة، زبدة مكسرات، أو مكسرات مطحونة. مع الرز أو المكرونة، ممكن زيت، صوص قائم على الزبادي، جبنة، أو كمية إضافية صغيرة من مصدر البروتين. ومع ساندوتش، ممكن أفوكادو أو جبنة أو طحينة حسب الحشو. مستشفيات تابعة للـNHS بتستخدم نفس مبدأ تدعيم أطعمة مألوفة بإضافات زي الجبنة، اللبن البودرة، أو الدهون المناسبة لرفع الطاقة والبروتين من غير مضاعفة الحجم [9].\n\nاختيار الإضافة لازم يراعي الطبق كله. الزيت يرفع الطاقة لكنه ما يضيفش بروتيناً أو مجموعة كبيرة من المغذيات؛ الجبنة أو الزبادي أو اللبن البودرة ممكن يضيفوا طاقة وبروتيناً، لكن قد لا يناسبوا حساسية اللبن أو عدم تحمله أو بعض التعليمات الطبية. الطحينة والمكسرات مغذيتان ومركزتان، لكن السمسم والمكسرات والفول السوداني من مسببات الحساسية المهمة. اقرأ الملصق، وما تجربش طعاماً معروف إن عندك حساسية منه؛ تورم الشفايف أو اللسان، صفير النفس، صعوبة التنفس، دوخة شديدة، أو إغماء بعد الأكل يستدعي تصرفاً إسعافياً فورياً [11]. لو عندك مرض كلوي أو كبدي متقدم، سكري محتاج ضبط دقيق، مشاكل بلع، أو حمية علاجية محددة، خلي أخصائيك يختار الإضافة والكمية [3].",
-            "en": "Start with only one addition so you can judge its taste and its effect on fullness and digestion. With beans or hummus, that might be tahini or olive oil. With eggs or potatoes, it might be cheese or full-fat labneh. With oats or yogurt, it might be milk powder, nut butter, or ground nuts. With rice or pasta, it might be oil, a yogurt-based sauce, cheese, or a small extra amount of the protein food. In a sandwich, avocado, cheese, or tahini may fit the filling. NHS hospital dietetic guidance uses the same principle of fortifying familiar foods with additions such as cheese, milk powder, or suitable fats to raise energy and protein without doubling volume [9].\n\nThe addition must fit the whole meal. Oil raises energy but does not add protein or a broad range of nutrients; cheese, yogurt, or milk powder can add both energy and protein but may not suit milk allergy, intolerance, or certain medical instructions. Tahini and nuts are nutritious and concentrated, but sesame, tree nuts, and peanuts are major allergens. Read labels and never test a food you know you are allergic to; lip or tongue swelling, wheezing, breathing difficulty, severe dizziness, or fainting after eating requires immediate emergency action [11]. If you have advanced kidney or liver disease, diabetes requiring precise management, swallowing difficulty, or a prescribed therapeutic diet, let your clinician or dietitian choose the addition and amount [3]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "seven-day-test",
-          "heading": {
-            "ar": "اختبرها سبعة أيام وسجّل اللي يهم",
-            "en": "Test it for seven days and record what matters"
-          },
-          "body": {
-            "ar": "حط الإضافة في نفس الوجبة لمدة أسبوع تقريباً، من غير ما تغيّر خمس حاجات تانية في نفس الوقت. مش مطلوب ميزان مطبخ ولا حسابات معقدة. بعد الوجبة بساعتين اكتب أربع ملاحظات قصيرة: كملت الوجبة ولا لأ، الشبع كان مريح ولا مزعج، ظهر انتفاخ أو ألم أو إسهال أو غثيان، وقدرت تكمل أكلك المعتاد باقي اليوم ولا الإضافة قفلت شهيتك. ممكن تستخدم تقييم من صفر لعشرة للشبع أو الأعراض، لكن المهم الثبات مش دقة الرقم. التدعيم الناجح هو اللي يرفع المدخول ويتكرر من غير ما يقلل وجبات تانية أو يعمل أعراض مستمرة [2, 3, 9].\n\nما تحكمش من وزن يوم واحد؛ السوائل، الملح، وقت القياس، والإخراج بيغيروا الرقم. لو هتتابع، استخدم نفس الميزان وفي ظروف متشابهة مرة أو مرتين أسبوعياً، وركز على الاتجاه خلال أسابيع مع الطاقة والقوة وقدرتك على الأكل. خلي التعديل تدريجياً: لو الأسبوع كان مريحاً والهدف ما زال مناسباً، ممكن تثبت الإضافة أو تناقش إضافة تانية صغيرة في وجبة مختلفة. لو حسيت بامتلاء من أول لقمتين، شبع ممتد لساعات، غثيان أو قيء أو انتفاخ شديد، ما تزقّش الكمية؛ الشبع المبكر المستمر ممكن يظهر مع اضطرابات في حركة المعدة ويحتاج تقييماً [4]. كمان تمارين المقاومة قد تساعد على دعم العضلات، لكن نوع النشاط وحجمه يتحدد حسب حالتك؛ الإرشادات العامة للبالغين بتشمل تقوية العضلات يومين أسبوعياً [1, 2, 10].",
-            "en": "Put the addition into the same meal for about a week without changing five other things at once. You do not need kitchen scales or complicated calculations. About two hours after the meal, write four brief observations: whether you finished it, whether fullness felt comfortable or unpleasant, whether bloating, pain, diarrhoea, or nausea appeared, and whether you could eat normally for the rest of the day or the addition suppressed later appetite. You can rate fullness or symptoms from zero to ten, but consistency matters more than precision. Successful fortification raises intake and remains repeatable without displacing other meals or causing persistent symptoms [2, 3, 9].\n\nDo not judge progress from one day's weight; fluid, salt, timing, and bowel movements all shift the number. If you monitor, use the same scale under similar conditions once or twice weekly and look at the trend over several weeks alongside energy, strength, and ability to eat. Advance gradually: if the week felt comfortable and the goal still makes sense, keep the addition or discuss a second small addition in another meal. If you feel full after only a few bites, stay full for hours, or develop nausea, vomiting, or major bloating, do not force the amount; persistent early satiety can occur with disorders of stomach movement and deserves assessment [4]. Resistance exercise may also support muscle, but its type and volume should fit your health; general adult guidance includes muscle-strengthening activity on two days each week [1, 2, 10]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "when-not-to-self-manage",
-          "heading": {
-            "ar": "إمتى ما ينفعش تعتمد على التجربة لوحدها؟",
-            "en": "When should you not manage this experiment alone?"
-          },
-          "body": {
-            "ar": "وقّف فكرة التجربة المنزلية واطلب تقييماً قريباً لو الوزن بينزل من غير قصد، الشهية قليلة بقالها فترة، الملابس وسعت، القوة قلت، الجروح بتلتئم ببطء، أو بقيت بتتعب وتبرد كتير. نقص التغذية ممكن يحصل حتى لو مؤشر كتلة الجسم مش منخفض، ومسار الوزن والأعراض مهمين [5, 7]. ولو عندك ألم بطن شديد مفاجئ، قيء فيه دم أو شكله زي تفل القهوة، قيء مستمر، إغماء، صعوبة تنفس، جفاف واضح، أو أعراض حساسية شديدة، اطلب رعاية عاجلة وما تستناش تأثير تعديل الوجبة [4, 11]. صعوبة أو ألم البلع، الكحة أو الشرقة مع الأكل، والإحساس إن الطعام واقف محتاجين تقييم بلع قبل تدعيم القوام عشوائياً [3].\n\nفيه احتياط مهم كمان: لو أكلت قليلاً جداً أو مفيش تقريباً لعدة أيام، أو عندك نقص وزن شديد، ما تبدأش زيادة كبيرة ومفاجئة من نفسك. إرشادات NICE بتوضح إن إعادة التغذية بعد قلة مدخول ممتدة قد تحتاج بداية حذرة ومتابعة سوائل وأملاح وفيتامينات تحت إشراف طبي، وبتحدد عوامل لخطر متلازمة إعادة التغذية [3]. ولو مش عارف النحافة وراثية ولا بسبب مشكلة، اقرأ إزاي أعرف النحافة وراثية ولا بسبب مشكلة صحية؟ عشان تجهز مسار الوزن والأعراض للكشف بدل ما تطلب تحاليل عشوائية. الطفل، الحامل، كبير السن الهش، والمريض بعد جراحة أو مرض حاد محتاجين خطة مخصصة؛ النص ده موجه أساساً للبالغ المستقر اللي يقدر يأكل ويبلع بأمان [2, 3, 5].",
-            "en": "Pause the home experiment and arrange prompt assessment if weight is falling without intent, appetite has been low for a while, clothes have become loose, strength has declined, wounds heal slowly, or you are often tired or cold. Undernutrition can occur even when BMI is not low, so weight trajectory and symptoms matter [5, 7]. Seek urgent care rather than waiting for a meal adjustment if you have sudden severe abdominal pain, blood or coffee-ground material in vomit, persistent vomiting, fainting, breathing difficulty, clear dehydration, or a severe allergic reaction [4, 11]. Pain or difficulty on swallowing, coughing or choking with food, and a feeling that food is stuck require swallowing assessment before the texture is fortified at random [3].\n\nThere is another important precaution: if you have eaten very little or almost nothing for several days, or are severely underweight, do not make a large sudden increase on your own. NICE guidance explains that restarting nutrition after prolonged low intake may require a cautious beginning and monitoring of fluids, electrolytes, and vitamins under clinical supervision, and it defines factors associated with refeeding risk [3]. If you are unsure whether low weight runs in the family or reflects illness, read Is being underweight inherited or caused by illness? to prepare your weight history and symptoms for assessment instead of ordering random tests. Children, pregnant people, frail older adults, and anyone recovering from surgery or acute illness need an individual plan; this guide is aimed mainly at a stable adult who can eat and swallow safely [2, 3, 5]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "إزاي أعرف النحافة وراثية ولا بسبب مشكلة صحية؟",
-                "url": "../articles/qa-underweight-inherited-or-illness.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Is being underweight inherited or caused by illness?",
-                "url": "../articles/qa-underweight-inherited-or-illness.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "next-step",
-          "heading": {
-            "ar": "الخطوة التالية: حوّل الملاحظات لخطة مناسبة",
-            "en": "The next step: turn your observations into a suitable plan"
-          },
-          "body": {
-            "ar": "بعد أسبوع، بص على النتيجة بهدوء. لو الإضافة كانت مقبولة، ما سببتش أعراضاً، وما ألغتش وجبات تانية، يبقى عندك عادة صغيرة قابلة للاستمرار. لو كانت تقيلة، جرّب كمية أصغر أو إضافة مختلفة بعد مراجعة الحساسية والتعليمات الطبية. لو مفيش فرق في المدخول أو الاتجاه، ما تكدّسش إضافات بلا نهاية؛ راجع الهدف، الوجبات الباقية، البروتين، النشاط، النوم، وأي أعراض. الدعم الغذائي بيتحدد حسب الاحتياج والحالة الأساسية والتقبّل، وبيتراجع مع التقدم، مش بمجرد قائمة ثابتة من الأطعمة [3].\n\nخد معاك للزيارة وزناتك القليلة المأخوذة في ظروف متشابهة، صورة أو وصف وجبة الارتكاز، اسم الإضافة وكميتها التقريبية، وملاحظات الشبع والهضم. في العيادة، التقييم ممكن يراجع مسار الوزن، الأدوية، الأعراض، نمط الأكل، والاحتياجات الفردية قبل تحديد هل تدعيم الطعام كفاية ولا فيه سبب محتاج فحص أو تدخل مختلف [2, 3, 5]. لو محتاج مساعدة منظمة، تقدر تستخدم طلب حجز موعد تغذية علاجية لمناقشة الملاحظات ووضع خطوة تالية مناسبة. الهدف مش وعد بزيادة رقم معين؛ الهدف خطة آمنة وقابلة للتنفيذ، وتعديلها حسب استجابة جسمك وتوجيه الطبيب أو أخصائي التغذية.",
-            "en": "After a week, review the result calmly. If the addition was acceptable, caused no symptoms, and did not cancel later meals, you have found a small habit that may be sustainable. If it felt heavy, try a smaller amount or a different addition after checking allergies and medical instructions. If intake or the longer trend has not changed, do not stack additions indefinitely; revisit the goal, the rest of the meals, protein, activity, sleep, and any symptoms. Nutrition support is matched to need, the underlying condition, and tolerance, then reviewed as progress changes; it is not simply a fixed list of foods [3].\n\nBring a few weights taken under similar conditions, a photo or description of the anchor meal, the addition and its approximate amount, and your fullness and digestion notes to the appointment. A clinical assessment can review the weight trajectory, medicines, symptoms, eating pattern, and individual needs before deciding whether food fortification is enough or whether a cause needs testing or another intervention [2, 3, 5]. If you need structured help, you can request a clinical nutrition appointment to discuss your observations and choose a suitable next step. The aim is not a promise of a particular number on the scale; it is a safe, workable plan that changes with your response and your treating clinician's or dietitian's advice."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "طلب حجز موعد تغذية علاجية",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "request a clinical nutrition appointment",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "who-this-step-is-for", "heading": {"ar": "الفكرة ببساطة: إضافة صغيرة لوجبة ثابتة", "en": "The idea in plain terms: one small addition to a dependable meal"}, "body": {"ar": "لو شهيتك صغيرة وبتحاول تزود وزنك، أول رد فعل ممكن يبقى إنك تكبّر كل طبق أو تجبر نفسك على وجبات ضخمة. المشكلة إن الحجم الكبير ممكن يشبعك بدري ويخلي باقي اليوم أصعب. الفكرة هنا أبسط: اختار وجبة بتاكلها أغلب الأيام وبتتقبلها كويس، وزوّد لها مكوّناً واحداً مركزاً في الطاقة والعناصر الغذائية. ممكن يبقى طحينة، زيت زيتون، جبنة، زبادي كامل الدسم، لبن بودرة مضاف للأكل، أفوكادو، أو مكسرات مطحونة حسب الوجبة وحالتك. الإرشادات الصحية لزيادة الوزن بتدعم الزيادة التدريجية، الوجبات الأصغر المتكررة، وإضافة أطعمة مغذية أعلى في الطاقة بدل الاعتماد على حلويات أو مشروبات سكرية بس [1, 2, 3].\n\nده مش نظاماً علاجياً كاملاً ولا وصفة تناسب كل واحد. هو تجربة صغيرة ومنظمة لشخص بالغ بيقدر يبلع بأمان، وما عندوش منع طبي للمكوّن، وهدفه يرفع مدخوله بهدوء. تدعيم الأكل معناه إن نفس الحجم تقريباً يشيل طاقة أو بروتين أكتر؛ وده مختلف عن إنك تزود حجم الطبق. كثافة الطاقة هي مقدار الطاقة في وزن معين من الطعام، وبتتأثر خصوصاً بنسبة الدهون والمياه، عشان كده إضافة كمية صغيرة من مكوّن مركز ممكن تغيّر الوجبة من غير حجم ضخم [8, 9]. ولو وزنك بينزل من غير قصد، أو أكلك كان شبه متوقف، ما تعتبرش الخطوة دي بديلاً عن الكشف؛ السبب لازم يتفهم الأول [3, 5, 7].", "en": "If your appetite is small and you are trying to gain weight, you may enlarge every plate or force down large meals. A bigger volume can make you full early and leave the rest of the day harder. Instead, choose a meal you eat most days and tolerate well, then add one ingredient that concentrates energy and useful nutrients. Depending on the meal and your health needs, that might be tahini, olive oil, cheese, full-fat yogurt, milk powder stirred into food, avocado, or ground nuts. Healthy weight-gain guidance supports gradual change, smaller frequent meals, and nutritious higher-energy additions instead of relying only on sweets or sugary drinks [1, 2, 3].\n\nThis is not a complete treatment plan or a formula for everyone. It is a structured experiment for an adult who can swallow safely, has no medical reason to avoid the ingredient, and needs a gentler way to raise intake. Fortifying food means putting more energy or protein into roughly the same volume; that is different from simply making the plate larger. Energy density describes the energy in a given weight of food and is influenced especially by fat and water, so a concentrated addition can change a meal without creating a huge portion [8, 9]. If your weight is falling without intent or you have eaten almost nothing for a prolonged period, do not treat this step as a substitute for assessment; the reason needs to be understood first [3, 5, 7]."}, "links": {"ar": [], "en": []}},
+        {"id": "check-the-goal-first", "heading": {"ar": "قبل ما تزود: اتأكد إن الهدف مناسب ليك", "en": "Before adding anything, check that the goal fits you"}, "body": {"ar": "مش كل شخص شايف نفسه رفيع محتاج يزود وزنه، ومش كل نقص وزن سببه قلة الأكل. مؤشر كتلة الجسم بيصنّف أقل من 18.5 كنقص وزن عند البالغين، بس هو أداة فحص مش تشخيصاً؛ لازم يتقري مع مسار الوزن، القوة، الأعراض، الحالة الصحية، وتكوين الجسم [6]. لو وزنك ثابت من سنين، طاقتك كويسة، وأكلك متنوع، التقييم هيختلف عن شخص هدومه وسعت بسرعة، شهيته اختفت، أو فقد قوته. عشان كده الهدف الأفضل مش رقم تختاره عشوائياً، بس هو اتجاه متفق عليه مع الطبيب أو أخصائي التغذية لما يكون فيه داعٍ واضح.\n\nقبل التجربة، اسأل نفسك: هل الوزن نزل من غير ما أغيّر أكلي أو نشاطي؟ هل عندي إسهال مستمر، قيء، ألم، صعوبة بلع، خفقان، عطش أو تبول زيادة، حرارة، كحة مستمرة، تعب شديد، أو مزاج منخفض؟ هل بدأت دواء جديداً؟ وهل التحكم في الأكل مرتبط بخوف شديد من الوزن أو ضيق نفسي؟ نزول الوزن غير المقصود له أسباب هضمية وهرمونية ونفسية ودوائية وغيرها، ومحتاج تقييماً بدل تغطيته بإضافات غذائية [5, 12]. لو عايز الصورة الأوسع عن الزيادة التدريجية وفاتح الشهية، اقرأ زيادة الوزن الصحية: هل تبدأ فاتح شهية؟ الصفحة دي بتشرح القرار العام، بينما النص الحالي مركز على تنفيذ خطوة وجبة واحدة [1, 2].", "en": "Not everyone who sees themselves as slim needs to gain weight, and low weight is not always caused by eating too little. For adults, a BMI below 18.5 is categorised as underweight, but BMI is a screening measure rather than a diagnosis; it must be read alongside weight history, strength, symptoms, health conditions, and body composition [6]. Someone whose weight has been stable for years, with good energy and a varied diet, is different from someone whose clothes have quickly become loose, appetite has disappeared, or strength has declined. A sensible goal is therefore not an arbitrary number but a direction agreed with a clinician or dietitian when there is a clear reason to gain.\n\nBefore trying this, ask: has weight fallen without a change in food or activity? Do I have persistent diarrhoea, vomiting, pain, trouble swallowing, palpitations, increased thirst or urination, fever, a persistent cough, marked fatigue, or low mood? Did I start a new medicine? Is food restriction tied to intense fear of weight or emotional distress? Unintentional loss has digestive, hormonal, psychological, medication-related, and other possible causes, and it needs assessment rather than being covered up with food additions [5, 12]. For the broader strategy around gradual gain and appetite stimulants, read Healthy weight gain: should you take an appetite stimulant?; that page addresses the overall decision, while this guide stays focused on carrying out the one-meal step [1, 2]."}, "links": {"ar": [{"label": "زيادة الوزن الصحية: هل تبدأ فاتح شهية؟", "url": "../articles/qa-healthy-weight-gain.html"}], "en": [{"label": "Healthy weight gain: should you take an appetite stimulant?", "url": "../articles/qa-healthy-weight-gain.html"}]}},
+        {"id": "choose-anchor-meal", "heading": {"ar": "اختار وجبة الارتكاز الصح", "en": "Choose the right anchor meal"}, "body": {"ar": "وجبة الارتكاز هي وجبة موجودة فعلاً في يومك، مش وجبة مثالية على الورق. اختار حاجة بتاكلها أربع أو خمس مرات في الأسبوع، وقتها هادي نسبياً، ومعدتك بتتقبلها. الفطار ينفع لو بتصحى جعان؛ الغدا ينفع لو هو أكتر وجبة ثابتة؛ والعشا الخفيف ينفع لو الصبح صعب. ما تختارش أصعب وجبة عندك ولا الوقت اللي بتبقى فيه متوتر أو مستعجل. الخطة الناجحة لازم تكون قابلة للتكرار، لأن تكرار تغيير صغير بيديك معلومة أوضح من يوم واحد مليان أكل وبعده أيام مفيهاش انتظام [1, 2].\n\nسجّل شكل الوجبة قبل التعديل: مصدر نشويات زي عيش أو رز أو بطاطس، مصدر بروتين زي بيض أو فول أو عدس أو جبنة أو فراخ أو سمك، وأي خضار أو فاكهة موجودة. مش لازم كل طبق يبقى مثالياً، بس مهم الإضافة ما تزقّش البروتين والخضار بره اليوم. الإرشادات الخاصة بالدعم الغذائي بتشدد إن المدخول الكلي يفضل متوازناً ويغطي الطاقة والبروتين والألياف والفيتامينات والمعادن، لأن رفع الطاقة وحدها مش كفاية لو جودة الأكل ضعيفة [3]. لو السوائل بتقفّل شهيتك، جرّب تخلي أغلب الشرب بين الوجبات بدل قبل وجبة الارتكاز مباشرة، مع الحفاظ على سوائل كفاية خلال اليوم؛ دي ملاحظة عملية مش قاعدة لكل الناس [1, 2].", "en": "An anchor meal is a meal that already exists in your real day, not an ideal meal on paper. Choose something you eat four or five times a week, at a calm time, and that usually sits comfortably. Breakfast can work if you wake hungry; lunch can work if it is your most dependable meal; a light evening meal can work if mornings are difficult. Do not choose your hardest meal or the time when you are usually rushed or tense. The plan needs to be repeatable, because repeating one modest change gives clearer information than one very large eating day followed by several inconsistent days [1, 2].\n\nNote what the meal contains before changing it: a carbohydrate food such as bread, rice, or potato; a protein source such as eggs, beans, lentils, cheese, chicken, or fish; and whatever vegetables or fruit are present. Every plate need not be perfect, but the addition should not push protein and produce out of the rest of the day. Nutrition-support guidance stresses that total intake should remain a balanced mixture of energy, protein, fibre, vitamins, and minerals; raising energy alone is not enough if overall food quality is poor [3]. If drinks blunt your appetite, try having most fluids between meals rather than immediately before the anchor meal while still drinking enough across the day; this is a practical trial, not a universal rule [1, 2]."}, "links": {"ar": [], "en": []}},
+        {"id": "match-one-addition", "heading": {"ar": "طابق إضافة واحدة مع الوجبة", "en": "Match one addition to the meal"}, "body": {"ar": "ابدأ بإضافة واحدة بس عشان تعرف طعمها وتأثيرها على الشبع والهضم. مع الفول أو الحمص، ممكن طحينة أو زيت زيتون. مع البيض أو البطاطس، ممكن جبنة أو لبنة كاملة الدسم. مع الشوفان أو الزبادي، ممكن لبن بودرة، زبدة مكسرات، أو مكسرات مطحونة. مع الرز أو المكرونة، ممكن زيت، صوص قائم على الزبادي، جبنة، أو كمية إضافية صغيرة من مصدر البروتين. ومع ساندوتش، ممكن أفوكادو أو جبنة أو طحينة حسب الحشو. مستشفيات تابعة للـNHS بتستخدم نفس مبدأ تدعيم أطعمة مألوفة بإضافات زي الجبنة، اللبن البودرة، أو الدهون المناسبة لرفع الطاقة والبروتين من غير مضاعفة الحجم [9].\n\nاختيار الإضافة لازم يراعي الطبق كله. الزيت يرفع الطاقة لكنه ما يضيفش بروتيناً أو مجموعة كبيرة من المغذيات؛ الجبنة أو الزبادي أو اللبن البودرة ممكن يضيفوا طاقة وبروتيناً، بس ممكن ما يناسبوش حساسية اللبن أو عدم تحمله أو بعض التعليمات الطبية. الطحينة والمكسرات مغذيتان ومركزتان، بس السمسم والمكسرات والفول السوداني من مسببات الحساسية المهمة. اقرأ الملصق، وما تجربش طعاماً معروف إن عندك حساسية منه؛ تورم الشفايف أو اللسان، صفير النفس، صعوبة التنفس، دوخة شديدة، أو إغماء بعد الأكل يستدعي تصرفاً إسعافياً فورياً [11]. لو عندك مرض كلوي أو كبدي متقدم، سكري محتاج ضبط دقيق، مشاكل بلع، أو حمية علاجية محددة، خلي أخصائيك يختار الإضافة والكمية [3].", "en": "Start with only one addition so you can judge its taste and its effect on fullness and digestion. With beans or hummus, that might be tahini or olive oil. With eggs or potatoes, it might be cheese or full-fat labneh. With oats or yogurt, it might be milk powder, nut butter, or ground nuts. With rice or pasta, it might be oil, a yogurt-based sauce, cheese, or a small extra amount of the protein food. In a sandwich, avocado, cheese, or tahini may fit the filling. NHS hospital dietetic guidance uses the same principle of fortifying familiar foods with additions such as cheese, milk powder, or suitable fats to raise energy and protein without doubling volume [9].\n\nThe addition must fit the whole meal. Oil raises energy but does not add protein or a broad range of nutrients; cheese, yogurt, or milk powder can add both energy and protein but may not suit milk allergy, intolerance, or certain medical instructions. Tahini and nuts are nutritious and concentrated, but sesame, tree nuts, and peanuts are major allergens. Read labels and never test a food you know you are allergic to; lip or tongue swelling, wheezing, breathing difficulty, severe dizziness, or fainting after eating requires immediate emergency action [11]. If you have advanced kidney or liver disease, diabetes requiring precise management, swallowing difficulty, or a prescribed therapeutic diet, let your clinician or dietitian choose the addition and amount [3]."}, "links": {"ar": [], "en": []}},
+        {"id": "seven-day-test", "heading": {"ar": "اختبرها سبعة أيام وسجّل اللي يهم", "en": "Test it for seven days and record what matters"}, "body": {"ar": "حط الإضافة في نفس الوجبة لمدة أسبوع تقريباً، من غير ما تغيّر خمس حاجات تانية في نفس الوقت. مش مطلوب ميزان مطبخ ولا حسابات معقدة. بعد الوجبة بساعتين اكتب أربع ملاحظات قصيرة: كملت الوجبة ولا لأ، الشبع كان مريح ولا مزعج، ظهر انتفاخ أو ألم أو إسهال أو غثيان، وقدرت تكمل أكلك المعتاد باقي اليوم ولا الإضافة قفلت شهيتك. ممكن تستخدم تقييم من صفر لعشرة للشبع أو الأعراض، بس المهم الثبات مش دقة الرقم. التدعيم الناجح هو اللي يرفع المدخول ويتكرر من غير ما يقلل وجبات تانية أو يعمل أعراض مستمرة [2, 3, 9].\n\nما تحكمش من وزن يوم واحد؛ السوائل، الملح، وقت القياس، والإخراج بيغيروا الرقم. لو هتتابع، استخدم نفس الميزان وفي ظروف متشابهة مرة أو مرتين أسبوعياً، وركز على الاتجاه خلال أسابيع مع الطاقة والقوة وقدرتك على الأكل. خلي التعديل تدريجياً: لو الأسبوع كان مريحاً والهدف ما زال مناسباً، ممكن تثبت الإضافة أو تناقش إضافة تانية صغيرة في وجبة مختلفة. لو حسيت بامتلاء من أول لقمتين، شبع ممتد لساعات، غثيان أو قيء أو انتفاخ شديد، ما تزقّش الكمية؛ الشبع المبكر المستمر ممكن يظهر مع اضطرابات في حركة المعدة ويحتاج تقييماً [4]. كمان تمارين المقاومة ممكن تساعد على دعم العضلات، بس نوع النشاط وحجمه يتحدد حسب حالتك؛ الإرشادات العامة للبالغين بتشمل تقوية العضلات يومين أسبوعياً [1, 2, 10].", "en": "Put the addition into the same meal for about a week without changing five other things at once. You do not need kitchen scales or complicated calculations. About two hours after the meal, write four brief observations: whether you finished it, whether fullness felt comfortable or unpleasant, whether bloating, pain, diarrhoea, or nausea appeared, and whether you could eat normally for the rest of the day or the addition suppressed later appetite. You can rate fullness or symptoms from zero to ten, but consistency matters more than precision. Successful fortification raises intake and remains repeatable without displacing other meals or causing persistent symptoms [2, 3, 9].\n\nDo not judge progress from one day's weight; fluid, salt, timing, and bowel movements all shift the number. If you monitor, use the same scale under similar conditions once or twice weekly and look at the trend over several weeks alongside energy, strength, and ability to eat. Advance gradually: if the week felt comfortable and the goal still makes sense, keep the addition or discuss a second small addition in another meal. If you feel full after only a few bites, stay full for hours, or develop nausea, vomiting, or major bloating, do not force the amount; persistent early satiety can occur with disorders of stomach movement and deserves assessment [4]. Resistance exercise may also support muscle, but its type and volume should fit your health; general adult guidance includes muscle-strengthening activity on two days each week [1, 2, 10]."}, "links": {"ar": [], "en": []}},
+        {"id": "when-not-to-self-manage", "heading": {"ar": "إمتى ما ينفعش تعتمد على التجربة لوحدها؟", "en": "When should you not manage this experiment alone?"}, "body": {"ar": "وقّف فكرة التجربة المنزلية واطلب تقييماً قريباً لو الوزن بينزل من غير قصد، الشهية قليلة بقالها فترة، الملابس وسعت، القوة قلت، الجروح بتلتئم ببطء، أو بقيت بتتعب وتبرد كتير. نقص التغذية ممكن يحصل حتى لو مؤشر كتلة الجسم مش منخفض، ومسار الوزن والأعراض مهمين [5, 7]. ولو عندك ألم بطن شديد مفاجئ، قيء فيه دم أو شكله زي تفل القهوة، قيء مستمر، إغماء، صعوبة تنفس، جفاف واضح، أو أعراض حساسية شديدة، اطلب رعاية عاجلة وما تستناش تأثير تعديل الوجبة [4, 11]. صعوبة أو ألم البلع، الكحة أو الشرقة مع الأكل، والإحساس إن الطعام واقف محتاجين تقييم بلع قبل تدعيم القوام عشوائياً [3].\n\nفيه احتياط مهم كمان: لو أكلت قليلاً جداً أو مفيش تقريباً لعدة أيام، أو عندك نقص وزن شديد، ما تبدأش زيادة كبيرة ومفاجئة من نفسك. إرشادات NICE بتوضح إن إعادة التغذية بعد قلة مدخول ممتدة ممكن تحتاج بداية حذرة ومتابعة سوائل وأملاح وفيتامينات تحت إشراف طبي، وبتحدد عوامل لخطر متلازمة إعادة التغذية [3]. ولو مش عارف النحافة وراثية ولا بسبب مشكلة، اقرأ إزاي أعرف النحافة وراثية ولا بسبب مشكلة صحية؟ عشان تجهز مسار الوزن والأعراض للكشف بدل ما تطلب تحاليل عشوائية. الطفل، الحامل، كبير السن الهش، والمريض بعد جراحة أو مرض حاد محتاجين خطة مخصصة؛ النص ده موجه أساساً للبالغ المستقر اللي يقدر يأكل ويبلع بأمان [2, 3, 5].", "en": "Pause the home experiment and arrange prompt assessment if weight is falling without intent, appetite has been low for a while, clothes have become loose, strength has declined, wounds heal slowly, or you are often tired or cold. Undernutrition can occur even when BMI is not low, so weight trajectory and symptoms matter [5, 7]. Seek urgent care rather than waiting for a meal adjustment if you have sudden severe abdominal pain, blood or coffee-ground material in vomit, persistent vomiting, fainting, breathing difficulty, clear dehydration, or a severe allergic reaction [4, 11]. Pain or difficulty on swallowing, coughing or choking with food, and a feeling that food is stuck require swallowing assessment before the texture is fortified at random [3].\n\nThere is another important precaution: if you have eaten very little or almost nothing for several days, or are severely underweight, do not make a large sudden increase on your own. NICE guidance explains that restarting nutrition after prolonged low intake may require a cautious beginning and monitoring of fluids, electrolytes, and vitamins under clinical supervision, and it defines factors associated with refeeding risk [3]. If you are unsure whether low weight runs in the family or reflects illness, read Is being underweight inherited or caused by illness? to prepare your weight history and symptoms for assessment instead of ordering random tests. Children, pregnant people, frail older adults, and anyone recovering from surgery or acute illness need an individual plan; this guide is aimed mainly at a stable adult who can eat and swallow safely [2, 3, 5]."}, "links": {"ar": [{"label": "إزاي أعرف النحافة وراثية ولا بسبب مشكلة صحية؟", "url": "../articles/qa-underweight-inherited-or-illness.html"}], "en": [{"label": "Is being underweight inherited or caused by illness?", "url": "../articles/qa-underweight-inherited-or-illness.html"}]}},
+        {"id": "next-step", "heading": {"ar": "الخطوة التالية: حوّل الملاحظات لخطة مناسبة", "en": "The next step: turn your observations into a suitable plan"}, "body": {"ar": "بعد أسبوع، بص على النتيجة بهدوء. لو الإضافة كانت مقبولة، ما سببتش أعراضاً، وما ألغتش وجبات تانية، يبقى عندك عادة صغيرة قابلة للاستمرار. لو كانت تقيلة، جرّب كمية أصغر أو إضافة مختلفة بعد مراجعة الحساسية والتعليمات الطبية. لو مفيش فرق في المدخول أو الاتجاه، ما تكدّسش إضافات بلا نهاية؛ راجع الهدف، الوجبات الباقية، البروتين، النشاط، النوم، وأي أعراض. الدعم الغذائي بيتحدد حسب الاحتياج والحالة الأساسية والتقبّل، وبيتراجع مع التقدم، مش بمجرد قائمة ثابتة من الأطعمة [3].\n\nخد معاك للزيارة وزناتك القليلة المأخوذة في ظروف متشابهة، صورة أو وصف وجبة الارتكاز، اسم الإضافة وكميتها التقريبية، وملاحظات الشبع والهضم. في العيادة، التقييم ممكن يراجع مسار الوزن، الأدوية، الأعراض، نمط الأكل، والاحتياجات الفردية قبل تحديد هل تدعيم الطعام كفاية ولا فيه سبب محتاج فحص أو تدخل مختلف [2, 3, 5]. لو محتاج مساعدة منظمة، تقدر تستخدم طلب حجز موعد تغذية علاجية لمناقشة الملاحظات ووضع خطوة تالية مناسبة. الهدف مش وعد بزيادة رقم معين؛ الهدف خطة آمنة وقابلة للتنفيذ، وتعديلها حسب استجابة جسمك وتوجيه الطبيب أو أخصائي التغذية.", "en": "After a week, review the result calmly. If the addition was acceptable, caused no symptoms, and did not cancel later meals, you have found a small habit that may be sustainable. If it felt heavy, try a smaller amount or a different addition after checking allergies and medical instructions. If intake or the longer trend has not changed, do not stack additions indefinitely; revisit the goal, the rest of the meals, protein, activity, sleep, and any symptoms. Nutrition support is matched to need, the underlying condition, and tolerance, then reviewed as progress changes; it is not simply a fixed list of foods [3].\n\nBring a few weights taken under similar conditions, a photo or description of the anchor meal, the addition and its approximate amount, and your fullness and digestion notes to the appointment. A clinical assessment can review the weight trajectory, medicines, symptoms, eating pattern, and individual needs before deciding whether food fortification is enough or whether a cause needs testing or another intervention [2, 3, 5]. If you need structured help, you can request a clinical nutrition appointment to discuss your observations and choose a suitable next step. The aim is not a promise of a particular number on the scale; it is a safe, workable plan that changes with your response and your treating clinician's or dietitian's advice."}, "links": {"ar": [{"label": "طلب حجز موعد تغذية علاجية", "url": "../patients/booking.html"}], "en": [{"label": "request a clinical nutrition appointment", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "هل أبدأ بزيت ولا بمصدر بروتين؟",
-            "en": "Should I start with oil or a protein-containing food?"
-          },
-          "a": {
-            "ar": "الإجابة بتعتمد على شكل وجبتك وباقي يومك. الزيت يرفع كثافة الطاقة بحجم صغير، لكنه مش بديل للبروتين أو الفيتامينات والمعادن. لو وجبتك ناقصها بروتين، إضافة زي الزبادي أو الجبنة أو اللبن البودرة أو مصدر نباتي مناسب قد تكون أنفع؛ ولو البروتين موجود والحجم هو المشكلة، دهون مناسبة قد تكون أسهل. الخطة لازم تبص للمدخول الكلي والحالة الصحية، خصوصاً مع أمراض الكلى أو الكبد أو السكري [3, 9].",
-            "en": "It depends on the meal and the rest of your day. Oil raises energy density in a small volume, but it does not replace protein, vitamins, or minerals. If the meal lacks protein, yogurt, cheese, milk powder, or a suitable plant protein may be more useful; if protein is already present and volume is the barrier, an appropriate fat may be easier. The decision should consider total intake and health conditions, particularly kidney or liver disease or diabetes [3, 9]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل لازم أحسب الطاقة في كل معلقة؟",
-            "en": "Do I need to calculate the energy in every spoonful?"
-          },
-          "a": {
-            "ar": "مش لازم لمعظم الناس في البداية. ثبّت الإضافة والوجبة، وسجّل هل قدرت تكمّل وهل ظهرت أعراض وهل باقي اليوم اتأثر. الحساب التفصيلي ممكن يفيد لو أخصائي التغذية محتاج يقارن مدخولك باحتياجات محددة، لكنه مش شرط عشان تختبر عادة واحدة. الأهم إن الإضافة تكون مغذية، قابلة للتكرار، وجزءاً من نمط متوازن مش مجرد سكر إضافي [1, 2, 3].",
-            "en": "Usually not at the start. Keep the meal and addition consistent, then record whether you finished, whether symptoms appeared, and whether the rest of the day was affected. Detailed calculation can help when a dietitian needs to compare intake with specific requirements, but it is not necessary to test one habit. What matters is that the addition is nutritious, repeatable, and part of a balanced pattern rather than simply extra sugar [1, 2, 3]."
-          }
-        },
-        {
-          "q": {
-            "ar": "لو شبعت بسرعة، أزود مشروب مع الوجبة؟",
-            "en": "If I get full quickly, should I add a drink with the meal?"
-          },
-          "a": {
-            "ar": "ممكن المشروب المغذي يساعد بعض الناس، لكنه عند ناس تانية يملأ المعدة ويقلل الأكل الصلب. جرّب كمية صغيرة بين الوجبات بدل قبل وجبة الارتكاز، وراقب التقبّل. لو الشبع بييجي بعد لقيمات قليلة أو يفضل لساعات، خصوصاً مع غثيان أو قيء أو ألم أو انتفاخ واضح، ما تعالجش الموضوع بمشروبات أكتر بس؛ الشبع المبكر المستمر محتاج تقييماً طبياً [1, 2, 4].",
-            "en": "A nourishing drink helps some people, but for others it fills the stomach and reduces solid food. Try a small amount between meals rather than before the anchor meal and watch tolerance. If fullness starts after only a few bites or lasts for hours, especially with nausea, vomiting, pain, or marked bloating, do not respond only by adding more drinks; persistent early satiety needs medical assessment [1, 2, 4]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل الطحينة والمكسرات مناسبين لكل الناس؟",
-            "en": "Are tahini and nuts suitable for everyone?"
-          },
-          "a": {
-            "ar": "لأ. هما إضافات مركزة ومغذية، لكن السمسم والمكسرات والفول السوداني من مسببات الحساسية الرئيسية. تجنب أي مكوّن عندك حساسية معروفة منه، واقرأ الملصق عشان احتمالات وجوده أو اختلاطه بمنتج تاني. لو ظهر تورم في الوجه أو اللسان، صعوبة تنفس، صفير، دوخة شديدة، أو إغماء بعد الأكل، اتبع خطة الطوارئ الموصوفة ليك واطلب إسعافاً فوراً [11].",
-            "en": "No. They are concentrated, nutritious additions, but sesame, tree nuts, and peanuts are major allergens. Avoid any ingredient to which you have a known allergy, and read labels for its presence or possible cross-contact. If facial or tongue swelling, breathing difficulty, wheezing, severe dizziness, or fainting occurs after eating, follow your prescribed emergency plan and seek emergency help immediately [11]."
-          }
-        },
-        {
-          "q": {
-            "ar": "إمتى أضيف وجبة تانية؟",
-            "en": "When should I enrich a second meal?"
-          },
-          "a": {
-            "ar": "بعد ما الإضافة الأولى تبقى مريحة ومتكررة وما تقللش باقي أكلك. أسبوع بيدي ملاحظات أولية، لكن اتجاه الوزن والقوة بيتقري على مدة أطول. لو الهدف لسه مناسب ومفيش أعراض، ناقش تثبيت الإضافة أو إضافة خطوة صغيرة تانية. لو الوزن مستمر في النزول أو محتاج زيادة كبيرة عشان تلحق الهدف، ما تسرعش وحدك؛ راجع السبب والاحتياجات مع مختص [2, 3, 5].",
-            "en": "Only after the first addition is comfortable, repeatable, and does not reduce the rest of your intake. A week gives early tolerance information, while weight and strength trends need longer observation. If the goal still fits and there are no symptoms, discuss keeping the first change or adding one more small step. If weight keeps falling or you seem to need a large rapid increase, do not accelerate alone; review the cause and requirements with a professional [2, 3, 5]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل ينفع أطبق الفكرة بعد فترة طويلة من قلة الأكل؟",
-            "en": "Can I use this approach after a long period of very low intake?"
-          },
-          "a": {
-            "ar": "لو أكلك كان قليلاً جداً أو شبه متوقف لعدة أيام، أو عندك نقص وزن شديد أو فقد كبير حديثاً، ما تبدأش قفزة غذائية من نفسك. بعض الناس بيكون عندهم خطر اضطراب السوائل والأملاح مع إعادة التغذية، وبيحتاجوا بداية ومتابعة محسوبين طبياً. NICE بتضع معايير واضحة للخطر وطريقة إدخال الدعم بحذر؛ تواصل مع طبيب أو فريق تغذية قبل التنفيذ [3].",
-            "en": "If intake has been very low or almost absent for several days, or you are severely underweight or have had substantial recent loss, do not make a sudden nutritional jump on your own. Some people are at risk of fluid and electrolyte disturbances during refeeding and need a clinically planned start and monitoring. NICE provides specific risk criteria and cautious introduction guidance, so contact a clinician or nutrition team before proceeding [3]."
-          }
-        }
+        {"q": {"ar": "هل أبدأ بزيت ولا بمصدر بروتين؟", "en": "Should I start with oil or a protein-containing food?"}, "a": {"ar": "الإجابة بتعتمد على شكل وجبتك وباقي يومك. الزيت يرفع كثافة الطاقة بحجم صغير، بس هو مش بديل للبروتين أو الفيتامينات والمعادن. لو وجبتك ناقصها بروتين، إضافة زي الزبادي أو الجبنة أو اللبن البودرة أو مصدر نباتي مناسب ممكن تكون أنفع؛ ولو البروتين موجود والحجم هو المشكلة، دهون مناسبة ممكن تكون أسهل. الخطة لازم تبص للمدخول الكلي والحالة الصحية، خصوصاً مع أمراض الكلى أو الكبد أو السكري [3, 9].", "en": "It depends on the meal and the rest of your day. Oil raises energy density in a small volume, but it does not replace protein, vitamins, or minerals. If the meal lacks protein, yogurt, cheese, milk powder, or a suitable plant protein may be more useful; if protein is already present and volume is the barrier, an appropriate fat may be easier. The decision should consider total intake and health conditions, particularly kidney or liver disease or diabetes [3, 9]."}},
+        {"q": {"ar": "هل لازم أحسب الطاقة في كل معلقة؟", "en": "Do I need to calculate the energy in every spoonful?"}, "a": {"ar": "مش لازم لمعظم الناس في البداية. ثبّت الإضافة والوجبة، وسجّل هل قدرت تكمّل وهل ظهرت أعراض وهل باقي اليوم اتأثر. الحساب التفصيلي ممكن يفيد لو أخصائي التغذية محتاج يقارن مدخولك باحتياجات محددة، بس هو مش شرط عشان تختبر عادة واحدة. الأهم إن الإضافة تكون مغذية، قابلة للتكرار، وجزءاً من نمط متوازن مش مجرد سكر إضافي [1, 2, 3].", "en": "Usually not at the start. Keep the meal and addition consistent, then record whether you finished, whether symptoms appeared, and whether the rest of the day was affected. Detailed calculation can help when a dietitian needs to compare intake with specific requirements, but it is not necessary to test one habit. What matters is that the addition is nutritious, repeatable, and part of a balanced pattern rather than simply extra sugar [1, 2, 3]."}},
+        {"q": {"ar": "لو شبعت بسرعة، أزود مشروب مع الوجبة؟", "en": "If I get full quickly, should I add a drink with the meal?"}, "a": {"ar": "ممكن المشروب المغذي يساعد بعض الناس، بس هو عند ناس تانية يملأ المعدة ويقلل الأكل الصلب. جرّب كمية صغيرة بين الوجبات بدل قبل وجبة الارتكاز، وراقب التقبّل. لو الشبع بييجي بعد لقيمات قليلة أو يفضل لساعات، خصوصاً مع غثيان أو قيء أو ألم أو انتفاخ واضح، ما تعالجش الموضوع بمشروبات أكتر بس؛ الشبع المبكر المستمر محتاج تقييماً طبياً [1, 2, 4].", "en": "A nourishing drink helps some people, but for others it fills the stomach and reduces solid food. Try a small amount between meals rather than before the anchor meal and watch tolerance. If fullness starts after only a few bites or lasts for hours, especially with nausea, vomiting, pain, or marked bloating, do not respond only by adding more drinks; persistent early satiety needs medical assessment [1, 2, 4]."}},
+        {"q": {"ar": "هل الطحينة والمكسرات مناسبين لكل الناس؟", "en": "Are tahini and nuts suitable for everyone?"}, "a": {"ar": "لأ. هما إضافات مركزة ومغذية، بس السمسم والمكسرات والفول السوداني من مسببات الحساسية الرئيسية. تجنب أي مكوّن عندك حساسية معروفة منه، واقرأ الملصق عشان احتمالات وجوده أو اختلاطه بمنتج تاني. لو ظهر تورم في الوجه أو اللسان، صعوبة تنفس، صفير، دوخة شديدة، أو إغماء بعد الأكل، اتبع خطة الطوارئ الموصوفة ليك واطلب إسعافاً فوراً [11].", "en": "No. They are concentrated, nutritious additions, but sesame, tree nuts, and peanuts are major allergens. Avoid any ingredient to which you have a known allergy, and read labels for its presence or possible cross-contact. If facial or tongue swelling, breathing difficulty, wheezing, severe dizziness, or fainting occurs after eating, follow your prescribed emergency plan and seek emergency help immediately [11]."}},
+        {"q": {"ar": "إمتى أضيف وجبة تانية؟", "en": "When should I enrich a second meal?"}, "a": {"ar": "بعد ما الإضافة الأولى تبقى مريحة ومتكررة وما تقللش باقي أكلك. أسبوع بيدي ملاحظات أولية، بس اتجاه الوزن والقوة بيتقري على مدة أطول. لو الهدف لسه مناسب ومفيش أعراض، ناقش تثبيت الإضافة أو إضافة خطوة صغيرة تانية. لو الوزن مستمر في النزول أو محتاج زيادة كبيرة عشان تلحق الهدف، ما تسرعش وحدك؛ راجع السبب والاحتياجات مع مختص [2, 3, 5].", "en": "Only after the first addition is comfortable, repeatable, and does not reduce the rest of your intake. A week gives early tolerance information, while weight and strength trends need longer observation. If the goal still fits and there are no symptoms, discuss keeping the first change or adding one more small step. If weight keeps falling or you seem to need a large rapid increase, do not accelerate alone; review the cause and requirements with a professional [2, 3, 5]."}},
+        {"q": {"ar": "هل ينفع أطبق الفكرة بعد فترة طويلة من قلة الأكل؟", "en": "Can I use this approach after a long period of very low intake?"}, "a": {"ar": "لو أكلك كان قليلاً جداً أو شبه متوقف لعدة أيام، أو عندك نقص وزن شديد أو فقد كبير حديثاً، ما تبدأش قفزة غذائية من نفسك. بعض الناس بيكون عندهم خطر اضطراب السوائل والأملاح مع إعادة التغذية، وبيحتاجوا بداية ومتابعة محسوبين طبياً. NICE بتضع معايير واضحة للخطر وطريقة إدخال الدعم بحذر؛ تواصل مع طبيب أو فريق تغذية قبل التنفيذ [3].", "en": "If intake has been very low or almost absent for several days, or you are severely underweight or have had substantial recent loss, do not make a sudden nutritional jump on your own. Some people are at risk of fluid and electrolyte disturbances during refeeding and need a clinically planned start and monitoring. NICE provides specific risk criteria and cautious introduction guidance, so contact a clinician or nutrition team before proceeding [3]."}}
       ],
       "sources": [
-        {
-          "label": "NHS — Healthy ways to gain weight",
-          "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/healthy-ways-to-gain-weight/"
-        },
-        {
-          "label": "Mayo Clinic — Underweight? See how to add pounds healthfully",
-          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429?p=1"
-        },
-        {
-          "label": "NICE — Nutrition support for adults (CG32): recommendations",
-          "url": "https://www.nice.org.uk/guidance/cg32/chapter/Recommendations"
-        },
-        {
-          "label": "NIDDK — Symptoms and causes of gastroparesis",
-          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/symptoms-causes"
-        },
-        {
-          "label": "NHS — Unintentional weight loss",
-          "url": "https://www.nhs.uk/symptoms/unintentional-weight-loss/"
-        },
-        {
-          "label": "CDC — Adult BMI categories",
-          "url": "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html"
-        },
-        {
-          "label": "NHS — Malnutrition: symptoms",
-          "url": "https://www.nhs.uk/conditions/malnutrition/symptoms/"
-        },
-        {
-          "label": "Karl and Roberts — Energy density, energy intake, and body weight regulation in adults (Adv Nutr, PMC4224224)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4224224/"
-        },
-        {
-          "label": "Guy's and St Thomas' NHS Foundation Trust — Increasing the calories in your diet",
-          "url": "https://www.guysandstthomas.nhs.uk/health-information/increasing-calories-your-diet"
-        },
-        {
-          "label": "CDC — Adult activity: an overview",
-          "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"
-        },
-        {
-          "label": "FDA — Food allergies: what you need to know",
-          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies-what-you-need-know"
-        },
-        {
-          "label": "NIMH — Eating disorders: what you need to know",
-          "url": "https://www.nimh.nih.gov/health/publications/eating-disorders"
-        }
+        {"label": "NHS — Healthy ways to gain weight", "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/healthy-ways-to-gain-weight/"},
+        {"label": "Mayo Clinic — Underweight? See how to add pounds healthfully", "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429?p=1"},
+        {"label": "NICE — Nutrition support for adults (CG32): recommendations", "url": "https://www.nice.org.uk/guidance/cg32/chapter/Recommendations"},
+        {"label": "NIDDK — Symptoms and causes of gastroparesis", "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/symptoms-causes"},
+        {"label": "NHS — Unintentional weight loss", "url": "https://www.nhs.uk/symptoms/unintentional-weight-loss/"},
+        {"label": "CDC — Adult BMI categories", "url": "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html"},
+        {"label": "NHS — Malnutrition: symptoms", "url": "https://www.nhs.uk/conditions/malnutrition/symptoms/"},
+        {"label": "Karl and Roberts — Energy density, energy intake, and body weight regulation in adults (Adv Nutr, PMC4224224)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4224224/"},
+        {"label": "Guy's and St Thomas' NHS Foundation Trust — Increasing the calories in your diet", "url": "https://www.guysandstthomas.nhs.uk/health-information/increasing-calories-your-diet"},
+        {"label": "CDC — Adult activity: an overview", "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"},
+        {"label": "FDA — Food allergies: what you need to know", "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies-what-you-need-know"},
+        {"label": "NIMH — Eating disorders: what you need to know", "url": "https://www.nimh.nih.gov/health/publications/eating-disorders"}
       ],
-      "seo": {
-        "title": {
-          "ar": "وجبة عالية الطاقة لزيادة الوزن",
-          "en": "Enrich one meal for healthy weight gain"
-        },
-        "description": {
-          "ar": "دليل عملي لزيادة الوزن مع شهية صغيرة: اختار وجبة ثابتة، زوّدها بإضافة مغذية، تابع التقبّل، واعرف العلامات اللي تحتاج تقييماً طبياً.",
-          "en": "A practical guide to enriching one dependable meal for gradual weight gain, monitoring tolerance, and recognising when medical assessment is needed."
-        }
-      }
+      "seo": {"title": {"ar": "وجبة عالية الطاقة لزيادة الوزن", "en": "Enrich one meal for healthy weight gain"}, "description": {"ar": "دليل عملي لزيادة الوزن مع شهية صغيرة: اختار وجبة ثابتة، زوّدها بإضافة مغذية، تابع التقبّل، واعرف العلامات اللي تحتاج تقييماً طبياً.", "en": "A practical guide to enriching one dependable meal for gradual weight gain, monitoring tolerance, and recognising when medical assessment is needed."}}
     }
   ]
 }

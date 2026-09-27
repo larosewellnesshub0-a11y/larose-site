@@ -7,352 +7,49 @@
       "published": true,
       "featured": false,
       "category": "internal-medicine",
-      "specialties": [
-        "internal-medicine",
-        "clinical-nutrition"
-      ],
+      "specialties": ["internal-medicine", "clinical-nutrition"],
       "date": "2026-08-23",
       "updatedAt": "2026-09-27",
       "readingTime": 10,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
       "image": "assets/img/articles/hypothyroidism-and-weight.webp",
-      "title": {
-        "ar": "زيادة الوزن وكسل الغدة الدرقية: إمتى يكون التحليل مفيد؟",
-        "en": "Weight gain and hypothyroidism: when is thyroid testing useful?"
-      },
-      "excerpt": {
-        "ar": "كسل الغدة ممكن يساهم في زيادة الوزن، بس مش هو التفسير التلقائي لكل زيادة. اعرف إمتى تحليل TSH يفيد، وإزاي تتفهم النتيجة، وليه هرمون الغدة مش دواء تخسيس.",
-        "en": "An underactive thyroid can contribute to weight gain, but it is not the automatic explanation for every gain. Learn when TSH helps, how results are interpreted and why thyroid hormone is not a weight-loss medicine."
-      },
+      "title": {"ar": "زيادة الوزن وكسل الغدة الدرقية: إمتى يكون التحليل مفيد؟", "en": "Weight gain and hypothyroidism: when is thyroid testing useful?"},
+      "excerpt": {"ar": "كسل الغدة ممكن يساهم في زيادة الوزن، بس مش هو التفسير التلقائي لكل زيادة. اعرف إمتى تحليل TSH يفيد، وإزاي تتفهم النتيجة، وليه هرمون الغدة مش دواء تخسيس.", "en": "An underactive thyroid can contribute to weight gain, but it is not the automatic explanation for every gain. Learn when TSH helps, how results are interpreted and why thyroid hormone is not a weight-loss medicine."},
       "sections": [
-        {
-          "id": "short-answer",
-          "heading": {
-            "ar": "الإجابة المختصرة: زيادة الوزن لوحدها ما تثبتش كسل الغدة",
-            "en": "The short answer: weight gain alone does not prove hypothyroidism"
-          },
-          "body": {
-            "ar": "كسل الغدة الدرقية معناه إن الغدة مش بتنتج هرمونات كفاية لاحتياجات الجسم، وده ممكن يبطّأ بعض الوظائف وييجي مع تعب، إحساس بالبرد، إمساك أو زيادة في الوزن. بس الميزان لوحده ما يقدرش يقول إن الغدة هي السبب. علاقة الغدة بالوزن معقدة، وجزء من الزيادة المصاحبة للقصور ممكن يكون من احتباس الملح والمياه، مش دهون بس. كمان النوم، الحركة، الشهية، أدوية، إمساك، حمل أو فترة بعد الولادة، وأسباب صحية تانية ممكن تغيّر الوزن [1, 2, 6].\n\nالسؤال المفيد مش «هل كل زيادة وزن سببها الغدة؟»، لكن «هل فيه أعراض أو تاريخ مرضي يخلي فحص الغدة مناسب دلوقتي؟». الطبيب بيربط توقيت الزيادة بباقي الصورة: هل حصلت بالتدريج ولا فجأة؟ هل معاها تورم، تعب جديد، برد غير معتاد أو تغير في الشعر والجلد؟ وهل بدأت بعد دواء أو تغيير كبير في الروتين؟ لو الزيادة سريعة أو مش مفهومة، صفحة زيادة الوزن المفاجئة من غير سبب بتشرح الفرق بين الدهون والسوائل وباقي الاحتمالات من غير ما تحصر المشكلة في الغدة [1, 2, 4].\n\nوده مهم عشان التشخيص الذاتي ممكن يمشي في اتجاهين غلط: شخص يلوم الغدة رغم إن التحاليل طبيعية، أو شخص عنده أعراض واضحة ويأجل التقييم لأنه فاكر إن الموضوع مجرد أكل. لا شكل الجسم ولا فيديو على الإنترنت ولا نجاح قريبك مع علاج معيّن يثبت التشخيص. التاريخ، الفحص وتحاليل موجهة هم اللي بيحددوا هل الغدة جزء من الصورة ولا لأ [3, 4, 6].",
-            "en": "Hypothyroidism means the thyroid does not produce enough hormone. It can slow some body functions and occur with fatigue, cold intolerance, constipation or weight gain. The scale alone cannot show that the thyroid is the cause. Some weight associated with hypothyroidism may reflect salt and water retention rather than fat alone. Sleep, activity, appetite, medicines, constipation, pregnancy or the postpartum period, and other conditions can also change weight [1, 2, 6].\n\nThe useful question is whether symptoms or history make thyroid testing appropriate now. A clinician connects the timing of the gain with the rest of the picture: Was it gradual or sudden? Is there swelling, new fatigue, unusual cold intolerance, or a change in hair or skin? Did it begin after a medicine or a major routine change? If the gain is rapid or unexplained, sudden weight gain without an obvious cause explains how fluid, tissue and other possibilities are separated without reducing the issue to the thyroid [1, 2, 4].\n\nSelf-diagnosis can mislead in two directions: someone may blame the thyroid despite normal tests, while someone with meaningful symptoms may delay assessment because they assume the issue is only food. Body shape, an online video or a relative’s response to treatment cannot establish the diagnosis. History, examination and targeted tests determine whether thyroid function is involved [3, 4, 6]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "زيادة الوزن المفاجئة من غير سبب",
-                "url": "../articles/qa-sudden-unexplained-weight-gain.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "sudden weight gain without an obvious cause",
-                "url": "../articles/qa-sudden-unexplained-weight-gain.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "what-tsh-can-tell",
-          "heading": {
-            "ar": "تحليل TSH وFree T4 بيقولوا إيه؟",
-            "en": "What do TSH and free T4 tell us?"
-          },
-          "body": {
-            "ar": "في أغلب البالغين اللي مفيش شك عندهم في مشكلة بالغدة النخامية، التقييم بيبدأ بتحليل TSH من عينة دم. هرمون TSH بيطلع من الغدة النخامية وبيوجّه الغدة الدرقية. لما TSH يكون أعلى من المدى المرجعي، المعمل أو الطبيب ممكن يقيس Free T4 في نفس العينة عشان يفرّق بين أنماط النتائج. لو فيه احتمال لمشكلة نخامية، أو ظروف خاصة، اختيار التحاليل ممكن يختلف. عشان كده مفيش «باكدج غدة» ثابت مناسب لكل الناس [3, 4, 9].\n\nتحليل T3 مش بديل تلقائي لـTSH وFree T4 عند الاشتباه في القصور، وسونار الرقبة ما بيقيسش وظيفة الغدة. الأجسام المضادة، ومنها TPO antibodies، ممكن تساعد في سؤال محدد عن سبب مناعي لما TSH يكون مرتفعاً، لكن تكرارها من غير هدف مش وسيلة لمتابعة الوزن أو ضبط الجرعة. NICE بتنصح كمان إن الشخص يقول للطبيب عن تناول البيوتين بجرعات عالية لأن بعض المكملات ممكن تدي نتائج معملية عالية أو منخفضة بشكل مضلل [3, 4, 9].\n\nالمدى المرجعي بيتحدد حسب المعمل، والنتيجة لازم تتقري مع السن، الأعراض، التاريخ المرضي، الحمل لو ده ينطبق، الأدوية وأي مرض حاد. المرض الحاد نفسه ممكن يغيّر بعض القراءات، عشان كده توقيت التحليل مهم. ما تقارنش نتيجتك بصورة نتيجة على السوشيال ميديا، وما تعتبرش سهماً أحمر جنب رقم واحد تشخيصاً كاملاً. احتفظ باسم المعمل، التاريخ، النتائج السابقة والجرعة الحالية لو بتاخد علاج؛ الاتجاه عبر الوقت أحياناً أفيد من قراءة معزولة [3, 4, 7].",
-            "en": "For most adults in whom pituitary disease is not suspected, assessment begins with a blood TSH measurement. TSH is produced by the pituitary and signals the thyroid. When TSH is above the laboratory reference range, the laboratory or clinician may measure free T4 in the same sample to distinguish different result patterns. If pituitary disease is possible, or special circumstances apply, the test selection can differ. There is therefore no fixed “thyroid panel” that suits everyone [3, 4, 9].\n\nT3 is not an automatic substitute for TSH and free T4 when hypothyroidism is suspected, and a neck ultrasound does not measure thyroid function. Antibodies, including TPO antibodies, can help answer a defined question about an autoimmune cause when TSH is raised, but repeating them without purpose is not a way to track weight or adjust a dose. NICE also recommends asking about high biotin intake because some supplements can produce misleadingly high or low laboratory results [3, 4, 9].\n\nThe reference range is laboratory-specific, and a result must be read alongside age, symptoms, medical history, pregnancy where relevant, medicines and any acute illness. Acute illness itself can affect some readings, so timing matters. Do not compare your result with a screenshot on social media or treat one red arrow as a complete diagnosis. Keep the laboratory name, date, earlier results and current dose if you use treatment; the trend over time may be more informative than an isolated reading [3, 4, 7]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "symptoms-and-other-causes",
-          "heading": {
-            "ar": "الأعراض بتوجّه التقييم، بس مش قائمة تشخيص ذاتي",
-            "en": "Symptoms guide assessment but are not a self-diagnosis checklist"
-          },
-          "body": {
-            "ar": "كسل الغدة ممكن يظهر مع تعب، إحساس بالبرد أكتر من المعتاد، إمساك، جفاف الجلد، شعر أخف أو أجف، بطء في التفكير أو النبض، انتفاخ بالوجه، أو تغيرات في الدورة لو ده ينطبق. المشكلة إن كل عرض من دول شائع وله أسباب كتير. وجود عرض واحد ما يثبتش القصور، لكن مجموعة أعراض جديدة، تغير واضح عن طبيعتك، تاريخ عائلي أو مرض مناعي ممكن يخلي الاختبار منطقياً. NICE بتأكد إن الاشتباه السريري بيتبني على الصورة الكاملة، مش على عرض واحد منفصل [1, 4, 6].\n\nتوقيت الأعراض بيفرق. كسل الغدة غالباً بيتطور بالتدريج، بينما قفزة سريعة في الوزن مع تورم الرجلين، ضيق نفس أو قلة بول محتاجة تفكير أوسع في احتباس السوائل وأسباب تانية. لو التعب بدأ بعد سهر طويل، أو الإمساك ظهر مع قلة مياه وحركة، أو الوزن اتحرك بعد دواء جديد، ده مش معناه إن الغدة مستبعدة، لكنه يمنع القفز لاستنتاج واحد. صفحة حاسس إن دوائي بيزوّد وزني، أوقفه؟ بتشرح إزاي تراجع التوقيت مع الطبيب من غير وقف مفاجئ للعلاج [1, 4, 6].\n\nجهّز خطاً زمنياً بسيطاً: إمتى بدأ الوزن يتغير، وإمتى ظهرت الأعراض، وهل اتغير دواء أو مكمل أو نوم أو حركة. اكتب أسماء الأدوية الفعلية والجرعات بدل «دواء الضغط الأزرق». قياسات وزن قليلة في ظروف متشابهة أفضل من وزن نفسك مرات كتير يومياً. المعلومة المنظمة بتساعد الطبيب يختار تحليل مناسب أو يدور على سبب تاني بدل طلب فحوص كتير عشوائية [3, 4, 9].",
-            "en": "Hypothyroidism may occur with fatigue, greater-than-usual cold intolerance, constipation, dry skin, thinner or drier hair, slower thinking or heart rate, facial puffiness, or menstrual change where relevant. The difficulty is that every one of these features is common and has many possible causes. One symptom does not establish hypothyroidism, but a new cluster of symptoms, a clear change from usual, family history or autoimmune disease may make testing reasonable. NICE emphasises that clinical suspicion comes from the overall picture rather than one isolated symptom [1, 4, 6].\n\nTiming matters. Hypothyroidism usually develops gradually, whereas a rapid jump in weight with leg swelling, breathlessness or reduced urination requires broader consideration of fluid retention and other causes. If fatigue followed prolonged poor sleep, constipation appeared with reduced fluid and movement, or weight changed after a new medicine, that does not rule thyroid disease in or out; it simply prevents an immediate single-cause conclusion. I think my medicine is making me gain weight. Should I stop it? explains how to review timing with a clinician without abruptly stopping treatment [1, 4, 6].\n\nPrepare a simple timeline: when weight began to change, when symptoms appeared, and whether a medicine, supplement, sleep pattern or activity level changed. Record actual medicine names and doses rather than “the blue blood-pressure tablet.” A few weights obtained under comparable conditions are more useful than checking repeatedly every day. Organised information helps the clinician choose an appropriate test or investigate another cause instead of ordering a large untargeted panel [3, 4, 9]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "حاسس إن دوائي بيزوّد وزني، أوقفه؟",
-                "url": "../articles/qa-medicine-causing-weight-gain.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "I think my medicine is making me gain weight. Should I stop it?",
-                "url": "../articles/qa-medicine-causing-weight-gain.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "reading-the-result",
-          "heading": {
-            "ar": "النتيجة مش مجرد «طبيعي» أو «غير طبيعي»",
-            "en": "A result is more than “normal” or “abnormal”"
-          },
-          "body": {
-            "ar": "لما TSH يكون مرتفعاً وFree T4 منخفضاً، ده نمط يتماشى عادة مع قصور أولي واضح في الغدة، لكن الطبيب لسه بيراجع السياق والسبب والخطة المناسبة. لما TSH يكون مرتفعاً وFree T4 داخل المدى، ممكن يتوصف النمط بقصور تحت إكلينيكي. الاسم ما يعنيش تلقائياً إن كل عرض سببه الغدة أو إن كل شخص لازم يبدأ علاج فوراً. القرار بيتأثر بدرجة الارتفاع، تكرار النتيجة، الأعراض، السن، أمراض القلب، الأجسام المضادة، والحمل أو التخطيط له لو ده ينطبق [4, 5, 7].\n\nأحياناً الطبيب يطلب إعادة التحليل بدل قرار فوري، خصوصاً لو النتيجة بسيطة أو الظروف ممكن تكون أثرت عليها. NICE بتنصح إن إعادة الاختبار بسبب أعراض جديدة أو أسوأ ما تكونش قبل ست أسابيع من آخر اختبار، لأن التكرار السريع ممكن يزود الضوضاء من غير معلومة مفيدة. ده مش رقم ثابت لكل متابعة علاج، لكنه مثال على إن توقيت التحليل جزء من تفسيره، والطبيب هو اللي يحدد الموعد حسب الحالة [4].\n\nلو النتيجة طبيعية، ده ما يقولش إن زيادة الوزن خيالية أو إنك فشلت؛ معناه إن قصور الغدة مش مدعوم بالتحاليل في الوقت ده. ساعتها التقييم يرجع للصورة الأوسع: سوائل، أدوية، نوم، حركة، شهية، صحة نفسية أو حالات تانية حسب الأعراض والفحص. ولو النتيجة غير طبيعية، برضه ما نفترضش إنها تفسر كل كيلو. النتيجة بتجاوب عن وظيفة الغدة، مش عن كل العوامل اللي أثرت في الوزن [2, 4, 6].",
-            "en": "When TSH is raised and free T4 is low, the pattern is usually consistent with overt primary hypothyroidism, although the clinician still reviews context, cause and the appropriate plan. When TSH is raised while free T4 remains within range, the pattern may be described as subclinical hypothyroidism. The label does not automatically mean every symptom comes from the thyroid or that everyone should start treatment immediately. Decisions are influenced by the degree and persistence of TSH elevation, symptoms, age, cardiovascular disease, antibodies, and pregnancy or pregnancy planning where relevant [4, 5, 7].\n\nSometimes the clinician repeats testing rather than making an immediate decision, particularly when the change is mild or circumstances may have affected it. NICE advises that retesting prompted by new or worsening symptoms should be no sooner than six weeks after the last test, because very rapid repetition can add noise without useful information. That is not a universal interval for every treatment follow-up; it illustrates that timing is part of interpretation, and the clinician selects the interval for the individual situation [4].\n\nIf results are normal, that does not mean the weight change is imaginary or that you failed. It means hypothyroidism is not supported by those tests at that time. Assessment then returns to the wider picture: fluid, medicines, sleep, activity, appetite, mental health or other conditions suggested by symptoms and examination. If results are abnormal, they still should not be assumed to explain every kilogram. The tests answer a question about thyroid function, not every factor that affected weight [2, 4, 6]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "treatment-not-weight-loss",
-          "heading": {
-            "ar": "هرمون الغدة بيعالج نقصاً مؤكداً، مش وسيلة تخسيس",
-            "en": "Thyroid hormone treats confirmed deficiency, not weight loss"
-          },
-          "body": {
-            "ar": "لو اتأكد قصور الغدة وقرر الطبيب إن العلاج مناسب، ليفوثيروكسين هو العلاج الأول المعتاد للقصور الأولي. الهدف إن الهرمون وTSH يوصلوا للمدى المطلوب وتتحسن الأعراض بأمان، مش إن الجرعة ترفع الحرق فوق الطبيعي. الجرعة بتتحدد حسب عوامل منها السن، شدة القصور، الوزن المستخدم للحساب في بعض الحالات، وجود مرض بالقلب، الحمل وأدوية تانية. عشان كده ما ينفعش تنسخ جرعة حد قريب منك حتى لو الأعراض متشابهة [4, 5, 7].\n\nاستخدام هرمون الغدة مع تحاليل طبيعية عشان نزول الوزن ممكن يعمل زيادة هرمون مصطنعة. النتيجة ممكن تشمل خفقان، قلق، أرق، فقد عضل أو عظم واضطراب في ضربات القلب. ونزول الوزن الناتج عن جرعة زائدة مش خطة آمنة ولا مستدامة. ما تعتبرش سرعة النبض، الرعشة أو قلة الشهية دليلاً إن العلاج «اشتغل»؛ دي أعراض محتاجة مراجعة الجرعة والتقييم [2, 5, 7].\n\nحتى بعد تصحيح القصور، مش واقعي نتوقع إن كل الوزن يختفي. جزء مرتبط بالسوائل ممكن يتحسن، لكن الوزن يفضل متأثراً بالأكل، الحركة، النوم، العضلات، الأدوية والحالة الصحية العامة. العلاج الناجح بيتقاس بوظيفة الغدة والأعراض والأمان، مش بالميزان وحده. لو هدفك أوسع من علاج القصور، أول زيارة لإدارة الوزن بتوضح إزاي بيتعمل تقييم منفصل ومحترم من غير خلط هرمون الغدة بخطة التخسيس [2, 4, 5].",
-            "en": "If hypothyroidism is confirmed and the clinician decides treatment is appropriate, levothyroxine is the usual first-line treatment for primary hypothyroidism. The goal is to bring thyroid hormone and TSH into the intended range and improve symptoms safely, not to push metabolism above normal. Dosing depends on factors such as age, severity, the weight measure used for calculation in some circumstances, cardiovascular disease, pregnancy and other medicines. This is why you should not copy a relative’s dose even when symptoms sound similar [4, 5, 7].\n\nUsing thyroid hormone for weight loss when thyroid tests are normal can create artificial hormone excess. Consequences can include palpitations, anxiety, insomnia, muscle or bone loss and abnormal heart rhythms. Weight loss produced by excessive dosing is neither a safe nor a sustainable plan. Do not interpret a racing heart, tremor or loss of appetite as proof that treatment is “working”; these are reasons to review the dose and clinical situation [2, 5, 7].\n\nEven after hypothyroidism is corrected, it is not realistic to expect every kilogram to disappear. A fluid-related component may improve, while weight remains influenced by food, activity, sleep, muscle, medicines and overall health. Successful treatment is judged through thyroid function, symptoms and safety rather than the scale alone. If your goal extends beyond correcting hypothyroidism, a first weight-management visit shows how a separate, respectful assessment can be made without confusing thyroid replacement with a weight-loss plan [2, 4, 5]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "أول زيارة لإدارة الوزن",
-                "url": "../articles/weight-management-first-visit.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "a first weight-management visit",
-                "url": "../articles/weight-management-first-visit.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "taking-and-monitoring-treatment",
-          "heading": {
-            "ar": "طريقة أخذ العلاج والمتابعة ممكن يفرقوا في النتيجة",
-            "en": "How treatment is taken and monitored can affect the result"
-          },
-          "body": {
-            "ar": "لو الطبيب وصف ليفوثيروكسين، خده بالطريقة اللي شرحها الطبيب أو الصيدلي وثبّت روتينك قدر الإمكان. الأكل وبعض المنتجات ممكن يغيّروا الامتصاص، والحديد والكالسيوم وبعض أدوية المعدة والمكملات ممكن تحتاج فاصل زمني. بدل ما تحفظ قاعدة من الإنترنت يمكن ما تناسبش كل أدويتك، ورّي الطبيب أو الصيدلي القائمة كاملة واسأل عن التوقيت المناسب. ما توقفش العلاج، وما تضاعفش الجرعة لو نسيت قرصاً، إلا حسب التعليمات اللي اتقالت لك [4, 5, 7].\n\nبعد بداية العلاج أو تغيير الجرعة، الجسم والتحاليل محتاجين وقت قبل الحكم. المتابعة بتراجع TSH، وأحياناً Free T4 حسب الحالة، مع الأعراض وطريقة أخذ الدواء والتداخلات. لو النتيجة ما اتحسنتش زي المتوقع، السؤال مش دايماً «نزوّد الجرعة؟»؛ الطبيب ممكن يراجع الالتزام، التوقيت، الأدوية، الامتصاص أو صحة التشخيص قبل أي تعديل. تغيير الجرعة من نفسك عشان الميزان ثابت ممكن يحوّل العلاج من تعويض نقص إلى زيادة مؤذية [4, 5].\n\nسجّل اسم المستحضر والجرعة ووقت أخذه وأي جرعات فاتت قبل التحليل، وبلّغ الفريق لو حصل حمل، تغيير كبير في الوزن، مرض جديد أو بدأت دواء آخر. لو الأعراض مستمرة رغم وصول التحاليل للمدى المطلوب، الطبيب بيدور على تفسيرات أخرى بدل رفع الهرمون بلا نهاية. المتابعة الجيدة بتفصل بين أعراض الغدة وأعراض ممكن تكون من نوم، أنيميا، دواء أو سبب تاني [4, 5, 7].",
-            "en": "If levothyroxine is prescribed, take it as your clinician or pharmacist explained and keep the routine consistent. Food can alter absorption, while iron, calcium, some stomach medicines and supplements may need separation from the dose. Show the complete medicine list to the clinician or pharmacist and ask about suitable timing. Do not stop treatment or double a dose after a missed tablet unless that matches your instructions [4, 5, 7].\n\nAfter treatment starts or a dose changes, the body and laboratory values need time before they can be judged. Follow-up reviews TSH, and sometimes free T4, together with symptoms, dosing routine and interactions. If the result does not improve as expected, the clinician may review consistency, timing, other medicines, absorption or the diagnosis before changing it. Altering the dose yourself because the scale is unchanged can turn replacement into harmful excess [4, 5].\n\nRecord the product, dose, dosing time and missed doses before testing, and report pregnancy, a major weight change, a new illness or another medicine. If symptoms persist despite tests reaching the intended range, the clinician looks for other explanations instead of increasing hormone indefinitely. Good follow-up separates thyroid symptoms from problems related to sleep, anaemia, medicine or another cause [4, 5, 7]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "ultrasound-red-flags",
-          "heading": {
-            "ar": "السونار له دور مختلف، وفي علامات ما تستناش معاها",
-            "en": "Ultrasound has a different role, and some signs should not wait"
-          },
-          "body": {
-            "ar": "سونار الرقبة بيشوف شكل الغدة، التضخم والعُقد لما يكون فيه سؤال سريري واضح، لكنه ما يقيسش إفراز الهرمون وما يثبتش كسل الغدة. ممكن يكون TSH غير طبيعي والسونار شكله عادي، أو يكون فيه عقدة ووظيفة الغدة طبيعية. عشان كده طلب السونار بدل تحليل الدم، أو استخدام صورته لتحديد جرعة الهرمون، بيخلط بين التركيب والوظيفة [3, 4, 8].\n\nاطلب تقييماً طبياً أسرع لو فيه كتلة جديدة أو بتكبر بسرعة في الرقبة، بحة مستمرة، صعوبة بلع أو ضيق نفس. واطلب رعاية عاجلة لو زيادة الوزن أو التورم جايين مع ألم صدر، إغماء، ضيق نفس واضح، ارتباك، ضعف شديد أو قلة بول ملحوظة. الأعراض دي مش معناها إن أسوأ احتمال مؤكد، لكنها ما ينفعش تستنى برنامج وزن أو موعد تحليل روتيني؛ سببها محتاج يتقيّم مباشرة [4, 6, 8].\n\nفي الحمل أو التخطيط له، لو عندك تاريخ مرض درقي، نتيجة غير طبيعية أو بتاخد علاج، تواصل مع الفريق المعالج بدري وما تعدلش الجرعة بنفسك. احتياجات المتابعة ممكن تختلف في المرحلة دي. وبشكل عام، لو الأعراض بتسوء بسرعة أو حالتك مختلفة بوضوح عن المعتاد، ما تعتمدش على المقال أو تطبيق تحاليل عشان يحدد درجة الاستعجال [1, 4, 6].",
-            "en": "A neck ultrasound examines thyroid structure, enlargement and nodules when there is a clear clinical question. It does not measure hormone production or prove hypothyroidism. TSH can be abnormal while ultrasound anatomy appears normal, or a nodule can be present while thyroid function remains normal. Ordering ultrasound instead of blood testing, or using its image to determine a hormone dose, confuses structure with function [3, 4, 8].\n\nSeek faster medical assessment for a new or rapidly growing neck lump, persistent hoarseness, difficulty swallowing or breathlessness. Seek urgent care when weight gain or swelling occurs with chest pain, fainting, marked breathlessness, confusion, profound weakness or clearly reduced urination. These features do not mean the worst explanation is certain, but they should not wait for a weight programme or routine blood-test appointment; the cause needs direct assessment [4, 6, 8].\n\nDuring pregnancy or pregnancy planning, contact the treating team early if you have thyroid history, an abnormal result or use thyroid treatment, and do not alter the dose yourself. Monitoring needs may differ in this setting. More generally, if symptoms are worsening quickly or your condition is clearly different from usual, do not rely on an article or laboratory app to decide how urgently you should be assessed [1, 4, 6]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "next-step",
-          "heading": {
-            "ar": "خطوتك الجاية: تقييم منظم بدل مطاردة التحاليل",
-            "en": "Your next step: structured assessment instead of chasing tests"
-          },
-          "body": {
-            "ar": "قبل الموعد، حضّر نتائج TSH وFree T4 القديمة إن وجدت، قائمة الأدوية والمكملات بجرعاتها، وتوقيت تغير الوزن والأعراض. اكتب أسئلتك ببساطة: هل القصة تجعل تحليل الغدة مناسباً؟ إيه معنى النتيجة في حالتي؟ هل محتاج إعادة التحليل؟ وهل فيه سبب تاني للوزن أو التعب يحتاج تقييم؟ الأسئلة دي بتساعد على قرار مشترك بدل طلب كل تحليل متاح [3, 4, 9].\n\nلو التحاليل أكدت القصور، الخطة بتحدد العلاج والمتابعة حسب حالتك. ولو كانت طبيعية، ده بيوجّه البحث بعيداً عن الغدة من غير تجاهل شكواك. في الحالتين، ما تبدأش هرمون غدة أو مكمل يود، وما توقفش علاجاً موصوفاً، من نفسك. القرارات الفردية لازم تفضل مع الطبيب المعالج لأنه شايف الأعراض والفحص والأدوية والنتائج مع بعض [1, 4, 7].\n\nلو محتاج تجمع القصة والنتائج في زيارة واحدة، تقدر تطلب حجز موعد لتقييم باطنة في العيادة. الهدف من الزيارة مش وعد بنزول وزن ولا حزمة تحاليل جاهزة؛ الهدف تحديد هل الغدة جزء من المشكلة، تفسير النتائج في سياقها، ووضع خطوة متابعة مناسبة وآمنة [3, 4, 6].",
-            "en": "Before an appointment, gather any earlier TSH and free T4 results, a list of medicines and supplements with doses, and the timing of weight and symptom changes. Write down simple questions: Does my history make thyroid testing appropriate? What does the result mean in my situation? Does it need repeating? Could another cause of weight change or fatigue require assessment? These questions support shared decisions instead of requesting every available test [3, 4, 9].\n\nIf tests confirm hypothyroidism, the plan defines treatment and monitoring for your circumstances. If they are normal, that guides the search away from the thyroid without dismissing your concern. In either situation, do not start thyroid hormone or an iodine supplement, and do not stop prescribed treatment, on your own. Individual decisions remain with the treating clinician because they can consider symptoms, examination, medicines and results together [1, 4, 7].\n\nIf you need to bring the history and results together, you can request an internal-medicine assessment at the clinic. The purpose is not a weight-loss promise or a ready-made test package; it is to decide whether thyroid function is part of the problem, interpret results in context and choose an appropriate, safe next step [3, 4, 6]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "طلب حجز موعد لتقييم باطنة",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "request an internal-medicine assessment",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "short-answer", "heading": {"ar": "الإجابة المختصرة: زيادة الوزن لوحدها ما تثبتش كسل الغدة", "en": "The short answer: weight gain alone does not prove hypothyroidism"}, "body": {"ar": "كسل الغدة الدرقية معناه إن الغدة مش بتنتج هرمونات كفاية لاحتياجات الجسم، وده ممكن يبطّأ بعض الوظائف وييجي مع تعب، إحساس بالبرد، إمساك أو زيادة في الوزن. بس الميزان لوحده ما يقدرش يقول إن الغدة هي السبب. علاقة الغدة بالوزن معقدة، وجزء من الزيادة المصاحبة للقصور ممكن يكون من احتباس الملح والمياه، مش دهون بس. كمان النوم، الحركة، الشهية، أدوية، إمساك، حمل أو فترة بعد الولادة، وأسباب صحية تانية ممكن تغيّر الوزن [1, 2, 6].\n\nالسؤال المفيد مش «هل كل زيادة وزن سببها الغدة؟»، بس «هل فيه أعراض أو تاريخ مرضي يخلي فحص الغدة مناسب دلوقتي؟». الطبيب بيربط توقيت الزيادة بباقي الصورة: هل حصلت بالتدريج ولا فجأة؟ هل معاها تورم، تعب جديد، برد غير معتاد أو تغير في الشعر والجلد؟ وهل بدأت بعد دواء أو تغيير كبير في الروتين؟ لو الزيادة سريعة أو مش مفهومة، صفحة زيادة الوزن المفاجئة من غير سبب بتشرح الفرق بين الدهون والسوائل وباقي الاحتمالات من غير ما تحصر المشكلة في الغدة [1, 2, 4].\n\nوده مهم عشان التشخيص الذاتي ممكن يمشي في اتجاهين غلط: شخص يلوم الغدة رغم إن التحاليل طبيعية، أو شخص عنده أعراض واضحة ويأجل التقييم لأنه فاكر إن الموضوع مجرد أكل. لا شكل الجسم ولا فيديو على الإنترنت ولا نجاح قريبك مع علاج معيّن يثبت التشخيص. التاريخ، الفحص وتحاليل موجهة هم اللي بيحددوا هل الغدة جزء من الصورة ولا لأ [3, 4, 6].", "en": "Hypothyroidism means the thyroid does not produce enough hormone. It can slow some body functions and occur with fatigue, cold intolerance, constipation or weight gain. The scale alone cannot show that the thyroid is the cause. Some weight associated with hypothyroidism may reflect salt and water retention rather than fat alone. Sleep, activity, appetite, medicines, constipation, pregnancy or the postpartum period, and other conditions can also change weight [1, 2, 6].\n\nThe useful question is whether symptoms or history make thyroid testing appropriate now. A clinician connects the timing of the gain with the rest of the picture: Was it gradual or sudden? Is there swelling, new fatigue, unusual cold intolerance, or a change in hair or skin? Did it begin after a medicine or a major routine change? If the gain is rapid or unexplained, sudden weight gain without an obvious cause explains how fluid, tissue and other possibilities are separated without reducing the issue to the thyroid [1, 2, 4].\n\nSelf-diagnosis can mislead in two directions: someone may blame the thyroid despite normal tests, while someone with meaningful symptoms may delay assessment because they assume the issue is only food. Body shape, an online video or a relative’s response to treatment cannot establish the diagnosis. History, examination and targeted tests determine whether thyroid function is involved [3, 4, 6]."}, "links": {"ar": [{"label": "زيادة الوزن المفاجئة من غير سبب", "url": "../articles/qa-sudden-unexplained-weight-gain.html"}], "en": [{"label": "sudden weight gain without an obvious cause", "url": "../articles/qa-sudden-unexplained-weight-gain.html"}]}},
+        {"id": "what-tsh-can-tell", "heading": {"ar": "تحليل TSH وFree T4 بيقولوا إيه؟", "en": "What do TSH and free T4 tell us?"}, "body": {"ar": "في أغلب البالغين اللي مفيش شك عندهم في مشكلة بالغدة النخامية، التقييم بيبدأ بتحليل TSH من عينة دم. هرمون TSH بيطلع من الغدة النخامية وبيوجّه الغدة الدرقية. لما TSH يكون أعلى من المدى المرجعي، المعمل أو الطبيب ممكن يقيس Free T4 في نفس العينة عشان يفرّق بين أنماط النتائج. لو فيه احتمال لمشكلة نخامية، أو ظروف خاصة، اختيار التحاليل ممكن يختلف. عشان كده مفيش «باكدج غدة» ثابت مناسب لكل الناس [3, 4, 9].\n\nتحليل T3 مش بديل تلقائي لـTSH وFree T4 عند الاشتباه في القصور، وسونار الرقبة ما بيقيسش وظيفة الغدة. الأجسام المضادة، ومنها TPO antibodies، ممكن تساعد في سؤال محدد عن سبب مناعي لما TSH يكون مرتفعاً، بس تكرارها من غير هدف مش وسيلة لمتابعة الوزن أو ضبط الجرعة. NICE بتنصح كمان إن الشخص يقول للطبيب عن تناول البيوتين بجرعات عالية لأن بعض المكملات ممكن تدي نتائج معملية عالية أو منخفضة بشكل مضلل [3, 4, 9].\n\nالمدى المرجعي بيتحدد حسب المعمل، والنتيجة لازم تتقري مع السن، الأعراض، التاريخ المرضي، الحمل لو ده ينطبق، الأدوية وأي مرض حاد. المرض الحاد نفسه ممكن يغيّر بعض القراءات، عشان كده توقيت التحليل مهم. ما تقارنش نتيجتك بصورة نتيجة على السوشيال ميديا، وما تعتبرش سهماً أحمر جنب رقم واحد تشخيصاً كاملاً. احتفظ باسم المعمل، التاريخ، النتائج السابقة والجرعة الحالية لو بتاخد علاج؛ الاتجاه عبر الوقت أحياناً أفيد من قراءة معزولة [3, 4, 7].", "en": "For most adults in whom pituitary disease is not suspected, assessment begins with a blood TSH measurement. TSH is produced by the pituitary and signals the thyroid. When TSH is above the laboratory reference range, the laboratory or clinician may measure free T4 in the same sample to distinguish different result patterns. If pituitary disease is possible, or special circumstances apply, the test selection can differ. There is therefore no fixed “thyroid panel” that suits everyone [3, 4, 9].\n\nT3 is not an automatic substitute for TSH and free T4 when hypothyroidism is suspected, and a neck ultrasound does not measure thyroid function. Antibodies, including TPO antibodies, can help answer a defined question about an autoimmune cause when TSH is raised, but repeating them without purpose is not a way to track weight or adjust a dose. NICE also recommends asking about high biotin intake because some supplements can produce misleadingly high or low laboratory results [3, 4, 9].\n\nThe reference range is laboratory-specific, and a result must be read alongside age, symptoms, medical history, pregnancy where relevant, medicines and any acute illness. Acute illness itself can affect some readings, so timing matters. Do not compare your result with a screenshot on social media or treat one red arrow as a complete diagnosis. Keep the laboratory name, date, earlier results and current dose if you use treatment; the trend over time may be more informative than an isolated reading [3, 4, 7]."}, "links": {"ar": [], "en": []}},
+        {"id": "symptoms-and-other-causes", "heading": {"ar": "الأعراض بتوجّه التقييم، بس مش قائمة تشخيص ذاتي", "en": "Symptoms guide assessment but are not a self-diagnosis checklist"}, "body": {"ar": "كسل الغدة ممكن يظهر مع تعب، إحساس بالبرد أكتر من المعتاد، إمساك، جفاف الجلد، شعر أخف أو أجف، بطء في التفكير أو النبض، انتفاخ بالوجه، أو تغيرات في الدورة لو ده ينطبق. المشكلة إن كل عرض من دول شائع وله أسباب كتير. وجود عرض واحد ما يثبتش القصور، بس مجموعة أعراض جديدة، تغير واضح عن طبيعتك، تاريخ عائلي أو مرض مناعي ممكن يخلي الاختبار منطقياً. NICE بتأكد إن الاشتباه السريري بيتبني على الصورة الكاملة، مش على عرض واحد منفصل [1, 4, 6].\n\nتوقيت الأعراض بيفرق. كسل الغدة غالباً بيتطور بالتدريج، بينما قفزة سريعة في الوزن مع تورم الرجلين، ضيق نفس أو قلة بول محتاجة تفكير أوسع في احتباس السوائل وأسباب تانية. لو التعب بدأ بعد سهر طويل، أو الإمساك ظهر مع قلة مياه وحركة، أو الوزن اتحرك بعد دواء جديد، ده مش معناه إن الغدة مستبعدة، بس هو يمنع القفز لاستنتاج واحد. صفحة حاسس إن دوائي بيزوّد وزني، أوقفه؟ بتشرح إزاي تراجع التوقيت مع الطبيب من غير وقف مفاجئ للعلاج [1, 4, 6].\n\nجهّز خطاً زمنياً بسيطاً: إمتى بدأ الوزن يتغير، وإمتى ظهرت الأعراض، وهل اتغير دواء أو مكمل أو نوم أو حركة. اكتب أسماء الأدوية الفعلية والجرعات بدل «دواء الضغط الأزرق». قياسات وزن قليلة في ظروف متشابهة أفضل من وزن نفسك مرات كتير يومياً. المعلومة المنظمة بتساعد الطبيب يختار تحليل مناسب أو يدور على سبب تاني بدل طلب فحوص كتير عشوائية [3, 4, 9].", "en": "Hypothyroidism may occur with fatigue, greater-than-usual cold intolerance, constipation, dry skin, thinner or drier hair, slower thinking or heart rate, facial puffiness, or menstrual change where relevant. The difficulty is that every one of these features is common and has many possible causes. One symptom does not establish hypothyroidism, but a new cluster of symptoms, a clear change from usual, family history or autoimmune disease may make testing reasonable. NICE emphasises that clinical suspicion comes from the overall picture rather than one isolated symptom [1, 4, 6].\n\nTiming matters. Hypothyroidism usually develops gradually, whereas a rapid jump in weight with leg swelling, breathlessness or reduced urination requires broader consideration of fluid retention and other causes. If fatigue followed prolonged poor sleep, constipation appeared with reduced fluid and movement, or weight changed after a new medicine, that does not rule thyroid disease in or out; it simply prevents an immediate single-cause conclusion. I think my medicine is making me gain weight. Should I stop it? explains how to review timing with a clinician without abruptly stopping treatment [1, 4, 6].\n\nPrepare a simple timeline: when weight began to change, when symptoms appeared, and whether a medicine, supplement, sleep pattern or activity level changed. Record actual medicine names and doses rather than “the blue blood-pressure tablet.” A few weights obtained under comparable conditions are more useful than checking repeatedly every day. Organised information helps the clinician choose an appropriate test or investigate another cause instead of ordering a large untargeted panel [3, 4, 9]."}, "links": {"ar": [{"label": "حاسس إن دوائي بيزوّد وزني، أوقفه؟", "url": "../articles/qa-medicine-causing-weight-gain.html"}], "en": [{"label": "I think my medicine is making me gain weight. Should I stop it?", "url": "../articles/qa-medicine-causing-weight-gain.html"}]}},
+        {"id": "reading-the-result", "heading": {"ar": "النتيجة مش مجرد «طبيعي» أو «غير طبيعي»", "en": "A result is more than “normal” or “abnormal”"}, "body": {"ar": "لما TSH يكون مرتفعاً وFree T4 منخفضاً، ده نمط يتماشى عادة مع قصور أولي واضح في الغدة، بس الطبيب لسه بيراجع السياق والسبب والخطة المناسبة. لما TSH يكون مرتفعاً وFree T4 داخل المدى، ممكن يتوصف النمط بقصور تحت إكلينيكي. الاسم ما يعنيش تلقائياً إن كل عرض سببه الغدة أو إن كل شخص لازم يبدأ علاج فوراً. القرار بيتأثر بدرجة الارتفاع، تكرار النتيجة، الأعراض، السن، أمراض القلب، الأجسام المضادة، والحمل أو التخطيط له لو ده ينطبق [4, 5, 7].\n\nأحياناً الطبيب يطلب إعادة التحليل بدل قرار فوري، خصوصاً لو النتيجة بسيطة أو الظروف ممكن تكون أثرت عليها. NICE بتنصح إن إعادة الاختبار بسبب أعراض جديدة أو أسوأ ما تكونش قبل ست أسابيع من آخر اختبار، لأن التكرار السريع ممكن يزود الضوضاء من غير معلومة مفيدة. ده مش رقم ثابت لكل متابعة علاج، بس هو مثال على إن توقيت التحليل جزء من تفسيره، والطبيب هو اللي يحدد الموعد حسب الحالة [4].\n\nلو النتيجة طبيعية، ده ما يقولش إن زيادة الوزن خيالية أو إنك فشلت؛ معناه إن قصور الغدة مش مدعوم بالتحاليل في الوقت ده. ساعتها التقييم يرجع للصورة الأوسع: سوائل، أدوية، نوم، حركة، شهية، صحة نفسية أو حالات تانية حسب الأعراض والفحص. ولو النتيجة غير طبيعية، برضه ما نفترضش إنها تفسر كل كيلو. النتيجة بتجاوب عن وظيفة الغدة، مش عن كل العوامل اللي أثرت في الوزن [2, 4, 6].", "en": "When TSH is raised and free T4 is low, the pattern is usually consistent with overt primary hypothyroidism, although the clinician still reviews context, cause and the appropriate plan. When TSH is raised while free T4 remains within range, the pattern may be described as subclinical hypothyroidism. The label does not automatically mean every symptom comes from the thyroid or that everyone should start treatment immediately. Decisions are influenced by the degree and persistence of TSH elevation, symptoms, age, cardiovascular disease, antibodies, and pregnancy or pregnancy planning where relevant [4, 5, 7].\n\nSometimes the clinician repeats testing rather than making an immediate decision, particularly when the change is mild or circumstances may have affected it. NICE advises that retesting prompted by new or worsening symptoms should be no sooner than six weeks after the last test, because very rapid repetition can add noise without useful information. That is not a universal interval for every treatment follow-up; it illustrates that timing is part of interpretation, and the clinician selects the interval for the individual situation [4].\n\nIf results are normal, that does not mean the weight change is imaginary or that you failed. It means hypothyroidism is not supported by those tests at that time. Assessment then returns to the wider picture: fluid, medicines, sleep, activity, appetite, mental health or other conditions suggested by symptoms and examination. If results are abnormal, they still should not be assumed to explain every kilogram. The tests answer a question about thyroid function, not every factor that affected weight [2, 4, 6]."}, "links": {"ar": [], "en": []}},
+        {"id": "treatment-not-weight-loss", "heading": {"ar": "هرمون الغدة بيعالج نقصاً مؤكداً، مش وسيلة تخسيس", "en": "Thyroid hormone treats confirmed deficiency, not weight loss"}, "body": {"ar": "لو اتأكد قصور الغدة وقرر الطبيب إن العلاج مناسب، ليفوثيروكسين هو العلاج الأول المعتاد للقصور الأولي. الهدف إن الهرمون وTSH يوصلوا للمدى المطلوب وتتحسن الأعراض بأمان، مش إن الجرعة ترفع الحرق فوق الطبيعي. الجرعة بتتحدد حسب عوامل منها السن، شدة القصور، الوزن المستخدم للحساب في بعض الحالات، وجود مرض بالقلب، الحمل وأدوية تانية. عشان كده ما ينفعش تنسخ جرعة حد قريب منك حتى لو الأعراض متشابهة [4, 5, 7].\n\nاستخدام هرمون الغدة مع تحاليل طبيعية عشان نزول الوزن ممكن يعمل زيادة هرمون مصطنعة. النتيجة ممكن تشمل خفقان، قلق، أرق، فقد عضل أو عظم واضطراب في ضربات القلب. ونزول الوزن الناتج عن جرعة زائدة مش خطة آمنة ولا مستدامة. ما تعتبرش سرعة النبض، الرعشة أو قلة الشهية دليلاً إن العلاج «اشتغل»؛ دي أعراض محتاجة مراجعة الجرعة والتقييم [2, 5, 7].\n\nحتى بعد تصحيح القصور، مش واقعي نتوقع إن كل الوزن يختفي. جزء مرتبط بالسوائل ممكن يتحسن، بس الوزن يفضل متأثراً بالأكل، الحركة، النوم، العضلات، الأدوية والحالة الصحية العامة. العلاج الناجح بيتقاس بوظيفة الغدة والأعراض والأمان، مش بالميزان وحده. لو هدفك أوسع من علاج القصور، أول زيارة لإدارة الوزن بتوضح إزاي بيتعمل تقييم منفصل ومحترم من غير خلط هرمون الغدة بخطة التخسيس [2, 4, 5].", "en": "If hypothyroidism is confirmed and the clinician decides treatment is appropriate, levothyroxine is the usual first-line treatment for primary hypothyroidism. The goal is to bring thyroid hormone and TSH into the intended range and improve symptoms safely, not to push metabolism above normal. Dosing depends on factors such as age, severity, the weight measure used for calculation in some circumstances, cardiovascular disease, pregnancy and other medicines. This is why you should not copy a relative’s dose even when symptoms sound similar [4, 5, 7].\n\nUsing thyroid hormone for weight loss when thyroid tests are normal can create artificial hormone excess. Consequences can include palpitations, anxiety, insomnia, muscle or bone loss and abnormal heart rhythms. Weight loss produced by excessive dosing is neither a safe nor a sustainable plan. Do not interpret a racing heart, tremor or loss of appetite as proof that treatment is “working”; these are reasons to review the dose and clinical situation [2, 5, 7].\n\nEven after hypothyroidism is corrected, it is not realistic to expect every kilogram to disappear. A fluid-related component may improve, while weight remains influenced by food, activity, sleep, muscle, medicines and overall health. Successful treatment is judged through thyroid function, symptoms and safety rather than the scale alone. If your goal extends beyond correcting hypothyroidism, a first weight-management visit shows how a separate, respectful assessment can be made without confusing thyroid replacement with a weight-loss plan [2, 4, 5]."}, "links": {"ar": [{"label": "أول زيارة لإدارة الوزن", "url": "../articles/weight-management-first-visit.html"}], "en": [{"label": "a first weight-management visit", "url": "../articles/weight-management-first-visit.html"}]}},
+        {"id": "taking-and-monitoring-treatment", "heading": {"ar": "طريقة أخذ العلاج والمتابعة ممكن يفرقوا في النتيجة", "en": "How treatment is taken and monitored can affect the result"}, "body": {"ar": "لو الطبيب وصف ليفوثيروكسين، خده بالطريقة اللي شرحها الطبيب أو الصيدلي وثبّت روتينك قدر الإمكان. الأكل وبعض المنتجات ممكن يغيّروا الامتصاص، والحديد والكالسيوم وبعض أدوية المعدة والمكملات ممكن تحتاج فاصل زمني. بدل ما تحفظ قاعدة من الإنترنت يمكن ما تناسبش كل أدويتك، ورّي الطبيب أو الصيدلي القائمة كاملة واسأل عن التوقيت المناسب. ما توقفش العلاج، وما تضاعفش الجرعة لو نسيت قرصاً، إلا حسب التعليمات اللي اتقالت لك [4, 5, 7].\n\nبعد بداية العلاج أو تغيير الجرعة، الجسم والتحاليل محتاجين وقت قبل الحكم. المتابعة بتراجع TSH، وأحياناً Free T4 حسب الحالة، مع الأعراض وطريقة أخذ الدواء والتداخلات. لو النتيجة ما اتحسنتش زي المتوقع، السؤال مش دايماً «نزوّد الجرعة؟»؛ الطبيب ممكن يراجع الالتزام، التوقيت، الأدوية، الامتصاص أو صحة التشخيص قبل أي تعديل. تغيير الجرعة من نفسك عشان الميزان ثابت ممكن يحوّل العلاج من تعويض نقص إلى زيادة مؤذية [4, 5].\n\nسجّل اسم المستحضر والجرعة ووقت أخذه وأي جرعات فاتت قبل التحليل، وبلّغ الفريق لو حصل حمل، تغيير كبير في الوزن، مرض جديد أو بدأت دواء آخر. لو الأعراض مستمرة رغم وصول التحاليل للمدى المطلوب، الطبيب بيدور على تفسيرات أخرى بدل رفع الهرمون بلا نهاية. المتابعة الجيدة بتفصل بين أعراض الغدة وأعراض ممكن تكون من نوم، أنيميا، دواء أو سبب تاني [4, 5, 7].", "en": "If levothyroxine is prescribed, take it as your clinician or pharmacist explained and keep the routine consistent. Food can alter absorption, while iron, calcium, some stomach medicines and supplements may need separation from the dose. Show the complete medicine list to the clinician or pharmacist and ask about suitable timing. Do not stop treatment or double a dose after a missed tablet unless that matches your instructions [4, 5, 7].\n\nAfter treatment starts or a dose changes, the body and laboratory values need time before they can be judged. Follow-up reviews TSH, and sometimes free T4, together with symptoms, dosing routine and interactions. If the result does not improve as expected, the clinician may review consistency, timing, other medicines, absorption or the diagnosis before changing it. Altering the dose yourself because the scale is unchanged can turn replacement into harmful excess [4, 5].\n\nRecord the product, dose, dosing time and missed doses before testing, and report pregnancy, a major weight change, a new illness or another medicine. If symptoms persist despite tests reaching the intended range, the clinician looks for other explanations instead of increasing hormone indefinitely. Good follow-up separates thyroid symptoms from problems related to sleep, anaemia, medicine or another cause [4, 5, 7]."}, "links": {"ar": [], "en": []}},
+        {"id": "ultrasound-red-flags", "heading": {"ar": "السونار له دور مختلف، وفي علامات ما تستناش معاها", "en": "Ultrasound has a different role, and some signs should not wait"}, "body": {"ar": "سونار الرقبة بيشوف شكل الغدة، التضخم والعُقد لما يكون فيه سؤال سريري واضح، بس هو ما يقيسش إفراز الهرمون وما يثبتش كسل الغدة. ممكن يكون TSH غير طبيعي والسونار شكله عادي، أو يكون فيه عقدة ووظيفة الغدة طبيعية. عشان كده طلب السونار بدل تحليل الدم، أو استخدام صورته لتحديد جرعة الهرمون، بيخلط بين التركيب والوظيفة [3, 4, 8].\n\nاطلب تقييماً طبياً أسرع لو فيه كتلة جديدة أو بتكبر بسرعة في الرقبة، بحة مستمرة، صعوبة بلع أو ضيق نفس. واطلب رعاية عاجلة لو زيادة الوزن أو التورم جايين مع ألم صدر، إغماء، ضيق نفس واضح، ارتباك، ضعف شديد أو قلة بول ملحوظة. الأعراض دي مش معناها إن أسوأ احتمال مؤكد، بس هي ما ينفعش تستنى برنامج وزن أو موعد تحليل روتيني؛ سببها محتاج يتقيّم مباشرة [4, 6, 8].\n\nفي الحمل أو التخطيط له، لو عندك تاريخ مرض درقي، نتيجة غير طبيعية أو بتاخد علاج، تواصل مع الفريق المعالج بدري وما تعدلش الجرعة بنفسك. احتياجات المتابعة ممكن تختلف في المرحلة دي. وبشكل عام، لو الأعراض بتسوء بسرعة أو حالتك مختلفة بوضوح عن المعتاد، ما تعتمدش على المقال أو تطبيق تحاليل عشان يحدد درجة الاستعجال [1, 4, 6].", "en": "A neck ultrasound examines thyroid structure, enlargement and nodules when there is a clear clinical question. It does not measure hormone production or prove hypothyroidism. TSH can be abnormal while ultrasound anatomy appears normal, or a nodule can be present while thyroid function remains normal. Ordering ultrasound instead of blood testing, or using its image to determine a hormone dose, confuses structure with function [3, 4, 8].\n\nSeek faster medical assessment for a new or rapidly growing neck lump, persistent hoarseness, difficulty swallowing or breathlessness. Seek urgent care when weight gain or swelling occurs with chest pain, fainting, marked breathlessness, confusion, profound weakness or clearly reduced urination. These features do not mean the worst explanation is certain, but they should not wait for a weight programme or routine blood-test appointment; the cause needs direct assessment [4, 6, 8].\n\nDuring pregnancy or pregnancy planning, contact the treating team early if you have thyroid history, an abnormal result or use thyroid treatment, and do not alter the dose yourself. Monitoring needs may differ in this setting. More generally, if symptoms are worsening quickly or your condition is clearly different from usual, do not rely on an article or laboratory app to decide how urgently you should be assessed [1, 4, 6]."}, "links": {"ar": [], "en": []}},
+        {"id": "next-step", "heading": {"ar": "خطوتك الجاية: تقييم منظم بدل مطاردة التحاليل", "en": "Your next step: structured assessment instead of chasing tests"}, "body": {"ar": "قبل الموعد، حضّر نتائج TSH وFree T4 القديمة إن وجدت، قائمة الأدوية والمكملات بجرعاتها، وتوقيت تغير الوزن والأعراض. اكتب أسئلتك ببساطة: هل القصة تجعل تحليل الغدة مناسباً؟ إيه معنى النتيجة في حالتي؟ هل محتاج إعادة التحليل؟ وهل فيه سبب تاني للوزن أو التعب يحتاج تقييم؟ الأسئلة دي بتساعد على قرار مشترك بدل طلب كل تحليل متاح [3, 4, 9].\n\nلو التحاليل أكدت القصور، الخطة بتحدد العلاج والمتابعة حسب حالتك. ولو كانت طبيعية، ده بيوجّه البحث بعيداً عن الغدة من غير تجاهل شكواك. في الحالتين، ما تبدأش هرمون غدة أو مكمل يود، وما توقفش علاجاً موصوفاً، من نفسك. القرارات الفردية لازم تفضل مع الطبيب المعالج لأنه شايف الأعراض والفحص والأدوية والنتائج مع بعض [1, 4, 7].\n\nلو محتاج تجمع القصة والنتائج في زيارة واحدة، تقدر تطلب حجز موعد لتقييم باطنة في العيادة. الهدف من الزيارة مش وعد بنزول وزن ولا حزمة تحاليل جاهزة؛ الهدف تحديد هل الغدة جزء من المشكلة، تفسير النتائج في سياقها، ووضع خطوة متابعة مناسبة وآمنة [3, 4, 6].", "en": "Before an appointment, gather any earlier TSH and free T4 results, a list of medicines and supplements with doses, and the timing of weight and symptom changes. Write down simple questions: Does my history make thyroid testing appropriate? What does the result mean in my situation? Does it need repeating? Could another cause of weight change or fatigue require assessment? These questions support shared decisions instead of requesting every available test [3, 4, 9].\n\nIf tests confirm hypothyroidism, the plan defines treatment and monitoring for your circumstances. If they are normal, that guides the search away from the thyroid without dismissing your concern. In either situation, do not start thyroid hormone or an iodine supplement, and do not stop prescribed treatment, on your own. Individual decisions remain with the treating clinician because they can consider symptoms, examination, medicines and results together [1, 4, 7].\n\nIf you need to bring the history and results together, you can request an internal-medicine assessment at the clinic. The purpose is not a weight-loss promise or a ready-made test package; it is to decide whether thyroid function is part of the problem, interpret results in context and choose an appropriate, safe next step [3, 4, 6]."}, "links": {"ar": [{"label": "طلب حجز موعد لتقييم باطنة", "url": "../patients/booking.html"}], "en": [{"label": "request an internal-medicine assessment", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "هل كسل الغدة بيسبب زيادة وزن؟",
-            "en": "Can hypothyroidism cause weight gain?"
-          },
-          "a": {
-            "ar": "ممكن يساهم في زيادة الوزن، وجزء من الزيادة ممكن يكون بسبب احتباس الملح والمياه، بس ما يفسرش كل زيادة وما يتشخصش من الميزان لوحده. الأعراض، الفحص وTSH مع Free T4 عند الحاجة هم اللي بيحددوا هل الغدة جزء من الصورة [1, 2, 3].",
-            "en": "It can contribute, and part of the gain may relate to salt and water retention, but it does not explain every gain and cannot be diagnosed from the scale alone. Symptoms, examination and TSH with free T4 when appropriate determine whether thyroid function is part of the picture [1, 2, 3]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل أعمل TSH بس ولا أطلب تحاليل غدة كاملة؟",
-            "en": "Should I have TSH alone or request a complete thyroid panel?"
-          },
-          "a": {
-            "ar": "في أغلب البالغين بيبدأ التقييم بـTSH، ولو طلع أعلى من المدى بيتقاس Free T4 في نفس العينة. اختيار مختلف ممكن يلزم لو فيه شك في الغدة النخامية أو ظرف خاص. ما تطلبش T3 أو أجساماً مضادة أو سونار بشكل تلقائي؛ كل فحص لازم يجاوب عن سؤال واضح [3, 4, 9].",
-            "en": "For most adults assessment starts with TSH, and free T4 is measured in the same sample if TSH is above range. A different approach may be needed when pituitary disease or a special circumstance is suspected. Do not automatically request T3, antibodies or ultrasound; each test should answer a defined question [3, 4, 9]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل TSH عالي شوية معناه إني لازم أبدأ علاج؟",
-            "en": "Does a mildly raised TSH mean I must start treatment?"
-          },
-          "a": {
-            "ar": "مش بالضرورة. الطبيب بيربط درجة ارتفاع TSH بـFree T4، تكرار النتيجة، الأعراض، السن، أمراض القلب، الأجسام المضادة، والحمل أو التخطيط له لو ده ينطبق. أحياناً إعادة التحليل في توقيت مناسب تكون الخطوة الصح بدل علاج فوري [4, 5, 7].",
-            "en": "Not necessarily. The clinician considers the degree of TSH elevation alongside free T4, whether the result persists, symptoms, age, cardiovascular disease, antibodies, and pregnancy or pregnancy planning where relevant. Sometimes appropriately timed repeat testing is the right next step rather than immediate treatment [4, 5, 7]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل ينفع آخد هرمون الغدة عشان أخس وتحاليلي طبيعية؟",
-            "en": "Can I take thyroid hormone for weight loss if my tests are normal?"
-          },
-          "a": {
-            "ar": "لأ. هرمون الغدة بيعالج نقصاً مؤكداً، واستخدامه بزيادة عشان التخسيس ممكن يسبب خفقان، قلق، فقد عضل أو عظم واضطراب في ضربات القلب. ما تبدأش العلاج أو تغيّر الجرعة من نفسك، وما تعتبرش الأعراض الجانبية علامة نجاح [2, 5, 7].",
-            "en": "No. Thyroid hormone treats confirmed deficiency, and excessive use for weight loss can cause palpitations, anxiety, muscle or bone loss and abnormal heart rhythms. Do not start treatment or alter a dose yourself, and do not interpret adverse effects as success [2, 5, 7]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل سونار الغدة يثبت الكسل؟",
-            "en": "Does a thyroid ultrasound prove hypothyroidism?"
-          },
-          "a": {
-            "ar": "لأ. السونار بيشوف شكل الغدة والتضخم أو العقد لما يكون فيه داعٍ، إنما وظيفة الغدة بتتقيّم أساساً بتحاليل الدم والسياق الطبي. ممكن السونار يكون طبيعياً مع تحليل غير طبيعي، أو تظهر عقدة ووظيفة الغدة تفضل طبيعية [3, 4, 8].",
-            "en": "No. Ultrasound examines thyroid structure, enlargement or nodules when indicated, whereas function is assessed mainly through blood tests and clinical context. Ultrasound may look normal with an abnormal blood test, or a nodule may be present while thyroid function remains normal [3, 4, 8]."
-          }
-        },
-        {
-          "q": {
-            "ar": "إمتى لازم أطلب مساعدة بسرعة؟",
-            "en": "When should I seek help quickly?"
-          },
-          "a": {
-            "ar": "اطلب تقييماً أسرع لو فيه كتلة جديدة أو سريعة النمو بالرقبة، بحة مستمرة أو صعوبة بلع. واطلب رعاية عاجلة مع ألم صدر، إغماء، ضيق نفس واضح، ارتباك، ضعف شديد، تورم سريع أو قلة بول ملحوظة. ما تستناش تحليل روتيني عشان يفسر العلامات دي [4, 6, 8].",
-            "en": "Seek faster assessment for a new or rapidly growing neck lump, persistent hoarseness or swallowing difficulty. Seek urgent care for chest pain, fainting, marked breathlessness, confusion, profound weakness, rapid swelling or clearly reduced urination. Do not wait for a routine thyroid test to explain these signs [4, 6, 8]."
-          }
-        }
+        {"q": {"ar": "هل كسل الغدة بيسبب زيادة وزن؟", "en": "Can hypothyroidism cause weight gain?"}, "a": {"ar": "ممكن يساهم في زيادة الوزن، وجزء من الزيادة ممكن يكون بسبب احتباس الملح والمياه، بس ما يفسرش كل زيادة وما يتشخصش من الميزان لوحده. الأعراض، الفحص وTSH مع Free T4 عند الحاجة هم اللي بيحددوا هل الغدة جزء من الصورة [1, 2, 3].", "en": "It can contribute, and part of the gain may relate to salt and water retention, but it does not explain every gain and cannot be diagnosed from the scale alone. Symptoms, examination and TSH with free T4 when appropriate determine whether thyroid function is part of the picture [1, 2, 3]."}},
+        {"q": {"ar": "هل أعمل TSH بس ولا أطلب تحاليل غدة كاملة؟", "en": "Should I have TSH alone or request a complete thyroid panel?"}, "a": {"ar": "في أغلب البالغين بيبدأ التقييم بـTSH، ولو طلع أعلى من المدى بيتقاس Free T4 في نفس العينة. اختيار مختلف ممكن يلزم لو فيه شك في الغدة النخامية أو ظرف خاص. ما تطلبش T3 أو أجساماً مضادة أو سونار بشكل تلقائي؛ كل فحص لازم يجاوب عن سؤال واضح [3, 4, 9].", "en": "For most adults assessment starts with TSH, and free T4 is measured in the same sample if TSH is above range. A different approach may be needed when pituitary disease or a special circumstance is suspected. Do not automatically request T3, antibodies or ultrasound; each test should answer a defined question [3, 4, 9]."}},
+        {"q": {"ar": "هل TSH عالي شوية معناه إني لازم أبدأ علاج؟", "en": "Does a mildly raised TSH mean I must start treatment?"}, "a": {"ar": "مش بالضرورة. الطبيب بيربط درجة ارتفاع TSH بـFree T4، تكرار النتيجة، الأعراض، السن، أمراض القلب، الأجسام المضادة، والحمل أو التخطيط له لو ده ينطبق. أحياناً إعادة التحليل في توقيت مناسب تكون الخطوة الصح بدل علاج فوري [4, 5, 7].", "en": "Not necessarily. The clinician considers the degree of TSH elevation alongside free T4, whether the result persists, symptoms, age, cardiovascular disease, antibodies, and pregnancy or pregnancy planning where relevant. Sometimes appropriately timed repeat testing is the right next step rather than immediate treatment [4, 5, 7]."}},
+        {"q": {"ar": "هل ينفع آخد هرمون الغدة عشان أخس وتحاليلي طبيعية؟", "en": "Can I take thyroid hormone for weight loss if my tests are normal?"}, "a": {"ar": "لأ. هرمون الغدة بيعالج نقصاً مؤكداً، واستخدامه بزيادة عشان التخسيس ممكن يسبب خفقان، قلق، فقد عضل أو عظم واضطراب في ضربات القلب. ما تبدأش العلاج أو تغيّر الجرعة من نفسك، وما تعتبرش الأعراض الجانبية علامة نجاح [2, 5, 7].", "en": "No. Thyroid hormone treats confirmed deficiency, and excessive use for weight loss can cause palpitations, anxiety, muscle or bone loss and abnormal heart rhythms. Do not start treatment or alter a dose yourself, and do not interpret adverse effects as success [2, 5, 7]."}},
+        {"q": {"ar": "هل سونار الغدة يثبت الكسل؟", "en": "Does a thyroid ultrasound prove hypothyroidism?"}, "a": {"ar": "لأ. السونار بيشوف شكل الغدة والتضخم أو العقد لما يكون فيه داعٍ، إنما وظيفة الغدة بتتقيّم أساساً بتحاليل الدم والسياق الطبي. ممكن السونار يكون طبيعياً مع تحليل غير طبيعي، أو تظهر عقدة ووظيفة الغدة تفضل طبيعية [3, 4, 8].", "en": "No. Ultrasound examines thyroid structure, enlargement or nodules when indicated, whereas function is assessed mainly through blood tests and clinical context. Ultrasound may look normal with an abnormal blood test, or a nodule may be present while thyroid function remains normal [3, 4, 8]."}},
+        {"q": {"ar": "إمتى لازم أطلب مساعدة بسرعة؟", "en": "When should I seek help quickly?"}, "a": {"ar": "اطلب تقييماً أسرع لو فيه كتلة جديدة أو سريعة النمو بالرقبة، بحة مستمرة أو صعوبة بلع. واطلب رعاية عاجلة مع ألم صدر، إغماء، ضيق نفس واضح، ارتباك، ضعف شديد، تورم سريع أو قلة بول ملحوظة. ما تستناش تحليل روتيني عشان يفسر العلامات دي [4, 6, 8].", "en": "Seek faster assessment for a new or rapidly growing neck lump, persistent hoarseness or swallowing difficulty. Seek urgent care for chest pain, fainting, marked breathlessness, confusion, profound weakness, rapid swelling or clearly reduced urination. Do not wait for a routine thyroid test to explain these signs [4, 6, 8]."}}
       ],
       "sources": [
-        {
-          "label": {
-            "ar": "وزارة الصحة السعودية: كسل الغدة الدرقية",
-            "en": "Saudi Ministry of Health: Hypothyroidism"
-          },
-          "url": "https://www.moh.gov.sa/healthawareness/educationalcontent/diseases/endocrinology/pages/004.aspx"
-        },
-        {
-          "label": {
-            "ar": "American Thyroid Association: الغدة والوزن",
-            "en": "American Thyroid Association: Thyroid and Weight"
-          },
-          "url": "https://www.thyroid.org/thyroid-and-weight/"
-        },
-        {
-          "label": {
-            "ar": "American Thyroid Association: تحاليل وظيفة الغدة",
-            "en": "American Thyroid Association: Thyroid Function Tests"
-          },
-          "url": "https://www.thyroid.org/thyroid-function-tests/"
-        },
-        {
-          "label": {
-            "ar": "NICE: تقييم وإدارة مرض الغدة الدرقية",
-            "en": "NICE: Thyroid disease assessment and management"
-          },
-          "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
-        },
-        {
-          "label": {
-            "ar": "ATA: إرشادات علاج قصور الغدة",
-            "en": "ATA: Guidelines for the treatment of hypothyroidism"
-          },
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25266247/"
-        },
-        {
-          "label": {
-            "ar": "NHS: قصور الغدة الدرقية",
-            "en": "NHS: Underactive thyroid"
-          },
-          "url": "https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/"
-        },
-        {
-          "label": {
-            "ar": "AACE وATA: الإرشادات السريرية لقصور الغدة",
-            "en": "AACE and ATA: Hypothyroidism clinical practice guideline"
-          },
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23246686/"
-        },
-        {
-          "label": {
-            "ar": "Mayo Clinic: تشخيص تضخم الغدة وعلاجه",
-            "en": "Mayo Clinic: Goiter diagnosis and treatment"
-          },
-          "url": "https://www.mayoclinic.org/diseases-conditions/goiter/diagnosis-treatment/drc-20351834"
-        },
-        {
-          "label": {
-            "ar": "NIDDK: اختبارات الغدة الدرقية",
-            "en": "NIDDK: Thyroid tests"
-          },
-          "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid"
-        },
-        {
-          "label": {
-            "ar": "Endocrine Society: هرمونات الغدة الدرقية وجارات الدرقية",
-            "en": "Endocrine Society: Thyroid and parathyroid hormones"
-          },
-          "url": "https://www.endocrine.org/patient-engagement/endocrine-library/hormones-and-endocrine-function/thyroid-and-parathyroid-hormones"
-        }
+        {"label": {"ar": "وزارة الصحة السعودية: كسل الغدة الدرقية", "en": "Saudi Ministry of Health: Hypothyroidism"}, "url": "https://www.moh.gov.sa/healthawareness/educationalcontent/diseases/endocrinology/pages/004.aspx"},
+        {"label": {"ar": "American Thyroid Association: الغدة والوزن", "en": "American Thyroid Association: Thyroid and Weight"}, "url": "https://www.thyroid.org/thyroid-and-weight/"},
+        {"label": {"ar": "American Thyroid Association: تحاليل وظيفة الغدة", "en": "American Thyroid Association: Thyroid Function Tests"}, "url": "https://www.thyroid.org/thyroid-function-tests/"},
+        {"label": {"ar": "NICE: تقييم وإدارة مرض الغدة الدرقية", "en": "NICE: Thyroid disease assessment and management"}, "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"},
+        {"label": {"ar": "ATA: إرشادات علاج قصور الغدة", "en": "ATA: Guidelines for the treatment of hypothyroidism"}, "url": "https://pubmed.ncbi.nlm.nih.gov/25266247/"},
+        {"label": {"ar": "NHS: قصور الغدة الدرقية", "en": "NHS: Underactive thyroid"}, "url": "https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/"},
+        {"label": {"ar": "AACE وATA: الإرشادات السريرية لقصور الغدة", "en": "AACE and ATA: Hypothyroidism clinical practice guideline"}, "url": "https://pubmed.ncbi.nlm.nih.gov/23246686/"},
+        {"label": {"ar": "Mayo Clinic: تشخيص تضخم الغدة وعلاجه", "en": "Mayo Clinic: Goiter diagnosis and treatment"}, "url": "https://www.mayoclinic.org/diseases-conditions/goiter/diagnosis-treatment/drc-20351834"},
+        {"label": {"ar": "NIDDK: اختبارات الغدة الدرقية", "en": "NIDDK: Thyroid tests"}, "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid"},
+        {"label": {"ar": "Endocrine Society: هرمونات الغدة الدرقية وجارات الدرقية", "en": "Endocrine Society: Thyroid and parathyroid hormones"}, "url": "https://www.endocrine.org/patient-engagement/endocrine-library/hormones-and-endocrine-function/thyroid-and-parathyroid-hormones"}
       ],
-      "tags": {
-        "ar": [
-          "كسل الغدة الدرقية",
-          "زيادة الوزن",
-          "تحليل TSH",
-          "دكتور باطنة"
-        ],
-        "en": [
-          "hypothyroidism",
-          "weight gain",
-          "TSH test",
-          "internal medicine"
-        ]
-      },
-      "seo": {
-        "title": {
-          "ar": "زيادة الوزن وكسل الغدة: إمتى تعمل تحليل؟",
-          "en": "Weight gain and hypothyroidism: when to test"
-        },
-        "description": {
-          "ar": "هل زيادة الوزن بسبب كسل الغدة؟ اعرف إمتى يفيد تحليل TSH وFree T4، وإزاي تتفهم النتيجة، وليه هرمون الغدة مش علاجاً للتخسيس.",
-          "en": "Can hypothyroidism explain weight gain? Learn when TSH and free T4 help, how results are read, and why thyroid hormone is not a weight-loss treatment."
-        }
-      },
+      "tags": {"ar": ["كسل الغدة الدرقية", "زيادة الوزن", "تحليل TSH", "دكتور باطنة"], "en": ["hypothyroidism", "weight gain", "TSH test", "internal medicine"]},
+      "seo": {"title": {"ar": "زيادة الوزن وكسل الغدة: إمتى تعمل تحليل؟", "en": "Weight gain and hypothyroidism: when to test"}, "description": {"ar": "هل زيادة الوزن بسبب كسل الغدة؟ اعرف إمتى يفيد تحليل TSH وFree T4، وإزاي تتفهم النتيجة، وليه هرمون الغدة مش علاجاً للتخسيس.", "en": "Can hypothyroidism explain weight gain? Learn when TSH and free T4 help, how results are read, and why thyroid hormone is not a weight-loss treatment."}},
       "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "اتوسع المقال بشرح التحاليل وتفسير النتايج والعلاج والمتابعة وعلامات الخطر، واتراجع طبياً من جديد.",
-            "en": "The article was expanded with testing, result interpretation, treatment, follow-up and red flags, and was medically re-reviewed."
-          }
-        }
+        {"date": "2026-09-27", "note": {"ar": "اتوسع المقال بشرح التحاليل وتفسير النتايج والعلاج والمتابعة وعلامات الخطر، واتراجع طبياً من جديد.", "en": "The article was expanded with testing, result interpretation, treatment, follow-up and red flags, and was medically re-reviewed."}}
       ]
     }
   ]

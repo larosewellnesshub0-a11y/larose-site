@@ -7,321 +7,52 @@
       "published": true,
       "featured": false,
       "category": "clinical-nutrition",
-      "specialties": [
-        "clinical-nutrition",
-        "weight-management",
-        "internal-medicine"
-      ],
+      "specialties": ["clinical-nutrition", "weight-management", "internal-medicine"],
       "date": "2026-09-11",
       "updatedAt": "2026-09-27",
       "readingTime": 9,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
       "image": "assets/img/articles/body-composition-not-scale.webp",
-      "title": {
-        "ar": "التحضير لتحليل InBody: إزاي تخلي المتابعة أدق؟",
-        "en": "Preparing for an InBody test: a more reliable follow-up"
-      },
-      "excerpt": {
-        "ar": "تحليل InBody بيتأثر بالمياه والأكل والتمرين وتوقيت القياس. اعرف إزاي تثبّت الظروف، وإيه اللي تبلّغ عنه، وإمتى النتيجة تحتاج مراجعة طبية.",
-        "en": "InBody results are affected by fluid, food, exercise and timing. Learn how to standardise conditions, what to report and when a result needs medical review."
-      },
+      "title": {"ar": "التحضير لتحليل InBody: إزاي تخلي المتابعة أدق؟", "en": "Preparing for an InBody test: a more reliable follow-up"},
+      "excerpt": {"ar": "تحليل InBody بيتأثر بالمياه والأكل والتمرين وتوقيت القياس. اعرف إزاي تثبّت الظروف، وإيه اللي تبلّغ عنه، وإمتى النتيجة تحتاج مراجعة طبية.", "en": "InBody results are affected by fluid, food, exercise and timing. Learn how to standardise conditions, what to report and when a result needs medical review."},
       "sections": [
-        {
-          "id": "what-a-fair-comparison-means",
-          "heading": {
-            "ar": "المقارنة العادلة أهم من مطاردة قراءة مثالية",
-            "en": "A fair comparison matters more than a perfect reading"
-          },
-          "body": {
-            "ar": "تحليل InBody هو نوع من تحليل المقاومة الكهربائية الحيوية، أو BIA. الجهاز بيمرر تياراً ضعيفاً جداً وبيقيس مقاومة أنسجة الجسم، وبعد كده بيستخدم معادلات عشان يقدّر مياه الجسم والكتلة الخالية من الدهون وكتلة الدهون. يعني الجهاز ما بيشوفش الدهون أو العضلات بشكل مباشر، والرقم اللي ظاهر بدقة عشرية يفضل تقديراً مبنياً على نموذج. الترطيب، شكل الجسم، نوع الجهاز، أماكن الأقطاب والمعادلة المستخدمة كلهم ممكن يأثروا على النتيجة. [1, 2]\n\nعشان كده هدف التحضير مش إنك تطلع «أفضل رقم»، ولا إنك تعمل يوماً مثالياً صعب يتكرر. الهدف إن الظروف قبل كل متابعة تبقى قريبة من بعضها، بحيث فرق الأكل أو المياه أو التمرين ما يغطيش الاتجاه الحقيقي. المعايير الحديثة بتشدد على تسجيل وقت القياس، الصيام أو الأكل القريب، الترطيب، النشاط، الأدوية، وضع الجسم ونوع الجهاز عند تفسير القياسات المتكررة. [1, 3]\n\nقراءة واحدة ما تشخّصش زيادة دهون، نقص عضلات، جفافاً أو احتباس سوائل. قيمتها بتزيد لما تتقارن بنتيجة سابقة على نفس الجهاز، مع الهدف الصحي والأعراض والقوة والمقاسات. ولو ظروف اليوم مختلفة بوضوح، النتيجة مش «فاشلة»؛ بس لازم الاختلاف يتسجل ويتاخد في الاعتبار قبل تغيير الخطة. [1, 3]",
-            "en": "InBody is a form of bioelectrical impedance analysis, or BIA. The device passes a very small current through the body, measures tissue impedance, then uses equations to estimate body water, fat-free mass and fat mass. It does not directly see fat or muscle, and a value displayed to a decimal place remains a model-based estimate. Hydration, body shape, device type, electrode placement and the selected equation can all influence the result. [1, 2]\n\nPreparation is therefore not about producing the “best number” or creating a perfect day that cannot be repeated. It is about keeping conditions reasonably similar before each follow-up so that changes in food, fluid or exercise do not obscure the underlying direction. Current methodological standards emphasise documenting measurement time, fasting or recent intake, hydration, activity, medicines, body position and device details when repeated measurements are interpreted. [1, 3]\n\nOne reading cannot diagnose fat gain, muscle loss, dehydration or fluid retention. It becomes more useful when compared with an earlier reading on the same device and considered alongside the health goal, symptoms, strength and measurements. If today's conditions were clearly different, the result is not a failed test; the difference simply needs to be recorded and considered before the plan changes. [1, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "build-a-repeatable-baseline",
-          "heading": {
-            "ar": "ابدأ بخط أساس تقدر تكرره",
-            "en": "Start with a baseline you can repeat"
-          },
-          "body": {
-            "ar": "قبل أول قياس، اسأل المكان عن تعليمات الجهاز واتبعها؛ الأجهزة والبروتوكولات مش كلها واحدة. اختار وقتاً تقدر ترجع فيه غالباً، زي نفس الجزء من اليوم، وحاول تثبّت المسافة بين آخر وجبة والقياس من زيارة للتانية. البس هدوماً خفيفة وقريبة من بعض في كل مرة، وادخل بيانات الطول والسن وغيرها بدقة لو الفريق طلبها. الأخطاء في البيانات أو اختلاف الجهاز ممكن يغيروا التقدير حتى لو جسمك ما اتغيرش. [1, 7, 8]\n\nخد صورة أو نسخة من التقرير واكتب التاريخ، الساعة، اسم أو موديل الجهاز لو ظاهر، وهل القياس كان واقفاً أو نايم حسب تصميمه. سجّل كمان أي ظرف غير معتاد: سفر طويل، حر شديد، تمرين قوي، سهرة، وجبة كبيرة، مرض، قيء أو إسهال، دورة شهرية، تورم أو دواء جديد. السجل البسيط ده بيفرق بين تغير محتمل في الجسم وبين تغير محتمل في ظروف القياس. [1, 2]\n\nلو هتغيّر مكان المتابعة أو الجهاز، اعتبر القراءة الجديدة خط أساس جديد بدل ما توصل الخطين ببعض كأنهم سلسلة واحدة. الدراسات والإرشادات بتوضح إن اختلاف الترددات والأقطاب والمعادلات والمعايرة ممكن يعمل فرقاً بين جهازين، وإن المتابعة الطولية تحتاج حذر حتى مع جهاز واحد. الثبات يقلل الضوضاء، لكنه ما يلغيهاش بالكامل. [1, 3]",
-            "en": "Before the first measurement, ask the provider for that device's instructions and follow them; devices and protocols are not all identical. Choose a time you can usually revisit, such as the same part of the day, and try to keep the interval between the last meal and measurement similar from visit to visit. Wear similarly light clothing each time, and provide accurate height, age and other requested details. Input errors or a different device can alter an estimate even when the body has not changed. [1, 7, 8]\n\nKeep a photograph or copy of the report and record the date, time, device name or model if shown, and whether its design required standing or lying down. Also note unusual circumstances: long travel, marked heat, hard exercise, a late night, a large meal, illness, vomiting or diarrhoea, menstrual timing, swelling or a new medicine. That short record helps distinguish a possible body change from a possible change in testing conditions. [1, 2]\n\nIf the follow-up site or device changes, treat the new reading as a new baseline rather than joining both series as though they were one. Guidance and studies show that frequencies, electrodes, equations and calibration can differ between instruments, and even longitudinal use of one device needs cautious interpretation. Consistency reduces noise; it does not remove it completely. [1, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "food-fluid-and-bathroom",
-          "heading": {
-            "ar": "الأكل والشرب والحمام: ثبّت الروتين من غير حرمان",
-            "en": "Food, fluid and the bathroom: standardise without restriction"
-          },
-          "body": {
-            "ar": "الأكل أو الشرب قريب من القياس ممكن يغيّر الوزن وتوزيع السوائل، لكن حجم التأثير مش واحد في كل دراسة أو كل شخص. تجربة حديثة بعد شرب سوائل لقت تغيرات مع الوقت في تقديرات المياه والعضلات والدهون، بينما دراسة صغيرة على رجال أكبر سناً ما لقتش فرقاً مهماً بعد فطار محدد. الرسالة العملية مش صياماً قاسياً؛ هي إنك تتبع تعليمات المكان وتكرر مسافة زمنية متقاربة من آخر أكل وشرب كل مرة. [5, 6]\n\nاشرب بطريقتك المعتادة الآمنة خلال اليوم السابق. ما تقللش المياه عشان نسبة الدهون تبان أحسن، وما تشربش كمية كبيرة فجأة عشان كتلة العضلات تبان أعلى. دراسة على رياضيين بيّنت إن الجفاف وإعادة الترطيب اتفسروا في BIA كتغير كبير في الدهون رغم إن التغير الأساسي كان سوائل. التلاعب بالمياه بيشوّش القرار وممكن يعرّضك لضرر، خصوصاً مع الحر أو المرض أو أدوية بتأثر على السوائل. [4, 5]\n\nاستخدام الحمام قبل القياس جزء شائع من بروتوكولات التوحيد، وبيخلي وزن محتوى المثانة أقل اختلافاً بين الزيارات. اعمله لو محتاج ومن غير إجبار أو تأخير دواء أو شرب موصوف طبياً. ولو عندك تعليمات صيام لتحليل دم أو إجراء تاني في نفس اليوم، اسأل الفريق إزاي ينسق القياسين؛ ما تفترضش إن تعليمات InBody تلغي تعليمات طبية أهم. [1, 7, 8]",
-            "en": "Eating or drinking close to measurement can alter weight and fluid distribution, but the size of the effect is not identical in every study or every person. A recent fluid-ingestion experiment found time-related changes in estimates of water, muscle and fat, while a small study in older men found no important difference after a defined breakfast. The practical message is not severe fasting: follow the provider's instructions and repeat a similar interval from the last food and drink each time. [5, 6]\n\nDrink in your usual safe pattern during the preceding day. Do not restrict water to make body-fat percentage look better, and do not suddenly drink a large amount to make muscle mass appear higher. A study in athletes showed that dehydration and rehydration were interpreted by BIA as large changes in fat even though the main change was fluid. Manipulating water obscures decisions and may be harmful, particularly during heat, illness or use of medicines that affect fluid balance. [4, 5]\n\nUsing the bathroom before measurement is a common part of standardisation protocols and reduces differences in bladder contents between visits. Do so when needed without forcing it or delaying prescribed fluids or medicines. If you also have fasting instructions for a blood test or another procedure that day, ask the care team how to coordinate both; do not assume that InBody preparation overrides a more important medical instruction. [1, 7, 8]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "exercise-alcohol-caffeine",
-          "heading": {
-            "ar": "التمرين والكافيين والكحول ممكن يغيّروا السوائل",
-            "en": "Exercise, caffeine and alcohol can change fluid balance"
-          },
-          "body": {
-            "ar": "التمرين الشديد قبل القياس ممكن يغير العرق، حرارة الجلد، تدفق الدم وتوزيع السوائل، وكل ده يدخل في المقاومة اللي الجهاز بيقيسها. بيان سريري لجمعية طب السمنة بيذكر تجنب التمرين اللي يسبب عرقاً لمدة 8 ساعات قبل BIA، وتجنب كميات كبيرة من الكافيين أو الكحول لمدة 12 ساعة. دي إرشادات عامة منشورة، لكن تعليمات جهازك وحالتك الطبية ييجوا الأول. [1, 8]\n\nلو ميعادك بعد شغل بدني أو تمرين وما ينفعش تغيّره، ما تحاولش تصلح الوضع بتجفيف أو شرب مبالغ فيه. قل للفريق نوع النشاط وميعاده وهل عرقت أكتر من المعتاد. ممكن الفريق يسجل الظرف ويقرأ النتيجة بحذر، أو يعيد القياس في يوم أنسب لو الرقم هيغيّر قراراً مهماً. مش كل خروج عن الروتين يفرض إلغاء الموعد. [1, 4]\n\nالكافيين والكحول مش مجرد تفاصيل في قائمة؛ ممكن يرتبطوا بالشرب والنوم والتبول والترطيب. الأفضل تثبّت روتينك وتبعد عن الكميات غير المعتادة، مش إنك تعمل قواعد قاسية من نفسك. ولو الامتناع أو تغيير التوقيت ممكن يتعارض مع علاج، أو عندك اعتماد على الكحول، ما توقفش فجأة عشان الاختبار؛ كلم الطبيب بأمان ووضوح. [1, 8]",
-            "en": "Hard exercise before measurement can change sweating, skin temperature, blood flow and fluid distribution, all of which feed into the impedance the device measures. An Obesity Medicine Association clinical statement advises avoiding sweat-producing exercise for eight hours before BIA and avoiding large amounts of caffeine or alcohol for 12 hours. These are published general instructions; directions for the actual device and the person's medical situation come first. [1, 8]\n\nIf the appointment follows physical work or exercise and cannot be moved, do not try to correct the situation by dehydrating or overdrinking. Tell the team what activity occurred, when it ended and whether sweating was unusual. They may record the circumstances and interpret cautiously, or repeat the measurement on a more suitable day if the number would affect an important decision. Every departure from routine does not automatically require cancellation. [1, 4]\n\nCaffeine and alcohol are not merely checklist details; they can be associated with drinking, sleep, urination and hydration. Aim for a repeatable routine and avoid unusual amounts rather than inventing severe rules. If abstaining or changing timing could conflict with treatment, or if alcohol dependence is a concern, do not stop abruptly for the test; discuss it safely and openly with a doctor. [1, 8]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "clothing-contact-and-position",
-          "heading": {
-            "ar": "وقت القياس: هدوم خفيفة، تلامس كويس ووضع ثابت",
-            "en": "At measurement: light clothing, good contact and consistent position"
-          },
-          "body": {
-            "ar": "البس هدوماً خفيفة شبه اللي لبستها في الزيارة السابقة، وشيل الحذاء والجوارب أو المجوهرات والمعادن لو الفريق طلب. بيان طب السمنة بيضم إزالة المعدن ضمن التحضير، والمعايير المنهجية بتوضح إن نوع القطب ومكانه ووضع الجسم وحرارة الجلد ممكن يأثروا على الدقة. ما تحطش كريم أو زيت على اليدين أو القدمين قبل جهاز بيعتمد على تلامسهم بالأقطاب لو تعليمات المكان بتقول كده. [1, 8]\n\nقف أو نام بالطريقة اللي يطلبها المشغّل، وخليك ثابت أثناء الثواني القليلة للقياس. في الأجهزة اللي تحتاج راحة قبل القراءة، مدة الراحة ووضع الأطراف لازم يتكرروا. ما تغيّرش وضع إيدك أو رجلك عشان تحاول تحسن رقماً قطاعياً؛ التوزيع على الذراعين والرجلين تقدير حساس لمسار التيار والتلامس. [1, 2]\n\nلو عندك جرح أو جبيرة أو طرف صناعي أو صعوبة في الوقوف أو مسك المقابض، قول قبل البدء. ولو عندك جهاز طبي مزروع، اسأل الفريق والطبيب عن ملاءمة القياس واتبع تعليمات الشركة واللوائح المحلية؛ المعايير الحديثة بتذكر إن بعض أجهزة تنظيم القلب أو الأجهزة القلبية المزروعة قد تمنع الاستخدام حسب القواعد المحلية. ما تعتمدش على صفحة عامة عشان تحسم سلامة جهاز مزروع بعينه. [1]",
-            "en": "Wear light clothing similar to the previous visit, and remove shoes, socks, jewellery or metal items when the team requests it. The obesity-medicine statement includes removing metal in preparation, while methodological standards explain that electrode type and placement, body position and skin temperature can influence precision. Avoid cream or oil on hands or feet before a contact-electrode device if the provider's instructions say so. [1, 8]\n\nStand or lie as the operator directs and remain still during the short measurement. For devices requiring rest before a reading, repeat the rest period and limb position. Do not alter hand or foot position in an attempt to improve a segmental value; arm and leg distributions are estimates sensitive to the electrical path and contact. [1, 2]\n\nTell the team beforehand about a wound, cast, prosthesis, difficulty standing or difficulty holding the handles. If you have an implanted medical device, ask the team and your doctor whether measurement is suitable and follow manufacturer instructions and local rules; current standards note that pacemakers or other implanted cardiac devices may preclude use depending on local regulations. A general webpage should not decide the safety of a specific implant. [1]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "illness-medicines-cycle-and-swelling",
-          "heading": {
-            "ar": "المرض والأدوية والدورة والتورم محتاجين سياق",
-            "en": "Illness, medicines, menstrual timing and swelling need context"
-          },
-          "body": {
-            "ar": "الحمى أو القيء أو الإسهال، الحر الشديد، تورم الأطراف، أمراض القلب أو الكلى أو الكبد وبعض الأدوية ممكن يغيروا كمية السوائل أو توزيعها. في الظروف دي، افتراضات BIA تبقى أضعف والنتيجة ممكن تعكس السوائل أكتر من تغير الدهون أو العضلات. إرشادات ESPEN بتقول إن القياس في وجود ترطيب غير طبيعي أو عند أطراف نطاق الوزن يحتاج حذراً، ودراسة على مراهقين عندهم سمنة لقت إن الدقة في تتبع التغير قلت مع ارتفاع درجة السمنة وحجم التغير. [3, 9]\n\nما توقفش مدراً للبول أو دواء ضغط أو سكر أو أي علاج عشان الورقة تبان أنضف. خد الدواء زي ما الطبيب وصف، وسجّل اسمه وتوقيته والتغيرات الجديدة. قرار تأجيل القياس أو تفسيره بيتاخد حسب الحالة، مش بقاعدة واحدة. لو المرض مؤقت والقياس روتيني، أحياناً إعادة القياس بعد الاستقرار تبقى أوضح؛ ولو القياس معمول أصلاً لمتابعة السوائل في مرض معين، الطبيب هو اللي يحدد البروتوكول. [1, 3]\n\nبالنسبة للدورة الشهرية، الدراسات مش كلها لقت تأثيراً مهماً على تقديرات التركيب؛ دراسة بأجهزة تلامس ما لقتش اختلافاً معنوياً بين مراحل الدورة. مع ذلك، الوزن والأعراض واحتباس السوائل ممكن يتغيروا عند بعض الناس. سجّل المرحلة أو وجود انتفاخ لو ده نمط واضح عندك، وحاول تقارن في ظروف قريبة من غير ما تعتبر توقيت الدورة سبباً مؤكداً لأي فرق. [10]",
-            "en": "Fever, vomiting or diarrhoea, marked heat, limb swelling, heart, kidney or liver disease and some medicines can alter the amount or distribution of body fluid. In these circumstances, BIA assumptions are weaker and the output may reflect fluid more than a change in fat or muscle. ESPEN guidance advises caution with abnormal hydration and at the extremes of weight, while a study in adolescents with obesity found poorer tracking accuracy as obesity and the magnitude of change increased. [3, 9]\n\nDo not stop a diuretic, blood-pressure medicine, diabetes medicine or any treatment to make the report look cleaner. Take medicines as prescribed and record the name, timing and recent changes. Whether to postpone or reinterpret a measurement depends on the individual situation, not one universal rule. If illness is temporary and testing is routine, repeating after recovery may sometimes be clearer; if bioimpedance is being used specifically to monitor fluid in a medical condition, the doctor defines the protocol. [1, 3]\n\nStudies have not consistently found a meaningful menstrual-cycle effect on composition estimates; one contact-electrode study found no significant differences between cycle phases. Weight, symptoms and fluid retention can still vary for some people. Record cycle timing or bloating if it is a clear personal pattern, and compare under similar conditions where practical without treating menstrual timing as a proven explanation for every difference. [10]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "read-the-follow-up-not-one-number",
-          "heading": {
-            "ar": "بعد القياس: راجع الاتجاه قبل ما تغيّر الخطة",
-            "en": "After measurement: review the trend before changing the plan"
-          },
-          "body": {
-            "ar": "لو النتيجة الجديدة مختلفة، ابدأ بسؤالين: هل اتقاس نفس الجهاز؟ وهل الظروف كانت قريبة؟ بعد كده راجع الوزن ومحيط الخصر والقوة والأداء والأكل والأعراض حسب هدفك. تحليل InBody: بيقيس إيه وإزاي تقرأ النتيجة؟ بيشرح خانات التقرير وحدودها، عشان صفحة التحضير دي ما تتحولش لدليل تفسير كامل. ما تغيّرش أكلك أو تمرينك أو دواءك بسبب خانة واحدة من غير مراجعة المختص. [1, 2]\n\nفرق صغير بين زيارتين ممكن يكون ضمن تذبذب الطريقة، ومفيش حد واحد ينفع لكل جهاز ولكل جسم عشان نقول إن أي فرق فوقه حقيقي. دراسة الثبات على جهاز متعدد الترددات لقت ثباتاً جيداً في ظروف منظمة، لكن ده ما يمنعش التباين اليومي أو يحوّل التقدير لقياس مباشر. اسأل المختص: هل التغير أكبر من المتوقع للطريقة، وهل مؤشرات تانية ماشية في نفس الاتجاه؟ [7]\n\nميعاد إعادة القياس يتحدد حسب السؤال وهل النتيجة هتغير قراراً، مش عشان تطمّن من رقم جديد كل يومين. ولو الميزان ثابت، ده مش معناه تلقائياً إن الجسم ثابت؛ تركيب الجسم مش رقم الميزان بيوضح إزاي الدهون والعضلات والمياه ممكن تتحرك بطرق مختلفة. القياس المفيد أداة حوار ومتابعة، مش شهادة نجاح أو فشل. [1, 3]",
-            "en": "If a new result is different, start with two questions: was the same device used, and were conditions similar? Then review weight, waist, strength, function, intake and symptoms according to the goal. InBody results explained: how to read your report covers the report fields and their limits so this preparation page does not become a complete interpretation guide. Do not change food, exercise or medicine because of one field without review by the treating clinician. [1, 2]\n\nA small difference between visits may sit within method variation, and there is no single threshold that proves a real change for every device and every body. A reliability study of a multifrequency device found good reliability under organised conditions, but that does not remove day-to-day variation or turn an estimate into a direct measurement. Ask whether the change exceeds what is expected from the method and whether other indicators point in the same direction. [7]\n\nThe repeat interval should be based on the question and whether the answer would change a decision, not on seeking reassurance from a new number every few days. Stable scale weight also does not automatically mean the body is unchanged; body composition is not the scale explains how fat, muscle and fluid can move differently. A useful measurement supports a conversation and follow-up; it is not a certificate of success or failure. [1, 3]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "تحليل InBody: بيقيس إيه وإزاي تقرأ النتيجة؟",
-                "url": "../articles/inbody-results-explained.html"
-              },
-              {
-                "label": "تركيب الجسم مش رقم الميزان",
-                "url": "../articles/body-composition-not-scale.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "InBody results explained: how to read your report",
-                "url": "../articles/inbody-results-explained.html"
-              },
-              {
-                "label": "body composition is not the scale",
-                "url": "../articles/body-composition-not-scale.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "red-flags-and-next-step",
-          "heading": {
-            "ar": "إمتى الرقم يستنى وإمتى الأعراض ما تستناش؟",
-            "en": "When can the number wait, and when should symptoms not wait?"
-          },
-          "body": {
-            "ar": "قراءة غريبة من غير أعراض غالباً تبدأ بمراجعة ظروف القياس ومناقشة المختص، مش بذعر أو تغيير عنيف في الأكل. لكن نزول وزن مستمر من غير قصد، ضعف جديد، فقدان شهية أو تعب غير معتاد محتاجين تقييماً طبياً للسبب؛ تحليل تركيب الجسم ما يشخّصش السبب وما ينفعش يؤخر الكشف. NHS بيوضح إن فقدان الوزن غير المقصود له أسباب كتير، منها مشكلات هضمية أو هرمونية أو نفسية وآثار أدوية وحالات تانية. [12]\n\nالتورم المفاجئ أو الشديد أو المؤلم، أو التورم اللي بيزيد أو بيظهر في أكتر من مكان، محتاج مراجعة أسرع. ومع ضيق نفس شديد أو صعوبة تنفس أو ألم أو ثقل بالصدر أو إغماء أو كحة بدم، اطلب رعاية طارئة فوراً حسب خدمات الطوارئ المحلية. ما تستناش إعادة InBody عشان تعرف هل ده «مياه»؛ التقرير مش بديل عن التقييم العاجل. [11]\n\nلو هدفك متابعة التغذية أو الوزن أو القوة وعايز تحط بروتوكول يتكرر ويناسب علاجك، تقدر تبدأ من صفحة احجز موعد وتاخد معاك تقاريرك السابقة وسجل الظروف. ذكر العيادة هنا خطوة عامة فقط؛ المختص المعالج هو اللي يقرر هل القياس مناسب، إمتى يتكرر، وإزاي يتقري مع باقي الصورة. [1, 3]",
-            "en": "An unusual reading without symptoms usually begins with reviewing measurement conditions and discussing it with a clinician, not panic or an extreme change in eating. Continuing unintentional weight loss, new weakness, poor appetite or unusual fatigue need medical assessment for a cause; a body-composition report cannot diagnose that cause and should not delay care. The NHS notes many possible causes of unintentional loss, including digestive, hormonal and mental-health conditions, medicine effects and other illnesses. [12]\n\nSudden, severe or painful swelling, or swelling that is worsening or appearing in more than one area, needs faster review. With severe breathlessness, difficulty breathing, chest pain or heaviness, fainting or coughing blood, seek emergency care immediately through local emergency services. Do not wait for another InBody result to decide whether this is “water”; the report is not a substitute for urgent assessment. [11]\n\nIf your goal is to follow nutrition, weight or strength and you want a repeatable protocol that fits your treatment, you can start at the book an appointment page and bring earlier reports plus your conditions log. The clinic is mentioned only as a general next step; the treating clinician decides whether measurement is suitable, when it should be repeated and how it fits the wider picture. [1, 3]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "احجز موعد",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "book an appointment",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "what-a-fair-comparison-means", "heading": {"ar": "المقارنة العادلة أهم من مطاردة قراءة مثالية", "en": "A fair comparison matters more than a perfect reading"}, "body": {"ar": "تحليل InBody هو نوع من تحليل المقاومة الكهربائية الحيوية، أو BIA. الجهاز بيمرر تياراً ضعيفاً جداً وبيقيس مقاومة أنسجة الجسم، وبعد كده بيستخدم معادلات عشان يقدّر مياه الجسم والكتلة الخالية من الدهون وكتلة الدهون. يعني الجهاز ما بيشوفش الدهون أو العضلات بشكل مباشر، والرقم اللي ظاهر بدقة عشرية يفضل تقديراً مبنياً على نموذج. الترطيب، شكل الجسم، نوع الجهاز، أماكن الأقطاب والمعادلة المستخدمة كلهم ممكن يأثروا على النتيجة. [1, 2]\n\nعشان كده هدف التحضير مش إنك تطلع «أفضل رقم»، ولا إنك تعمل يوماً مثالياً صعب يتكرر. الهدف إن الظروف قبل كل متابعة تبقى قريبة من بعضها، بحيث فرق الأكل أو المياه أو التمرين ما يغطيش الاتجاه الحقيقي. المعايير الحديثة بتشدد على تسجيل وقت القياس، الصيام أو الأكل القريب، الترطيب، النشاط، الأدوية، وضع الجسم ونوع الجهاز عند تفسير القياسات المتكررة. [1, 3]\n\nقراءة واحدة ما تشخّصش زيادة دهون، نقص عضلات، جفافاً أو احتباس سوائل. قيمتها بتزيد لما تتقارن بنتيجة سابقة على نفس الجهاز، مع الهدف الصحي والأعراض والقوة والمقاسات. ولو ظروف اليوم مختلفة بوضوح، النتيجة مش «فاشلة»؛ بس لازم الاختلاف يتسجل ويتاخد في الاعتبار قبل تغيير الخطة. [1, 3]", "en": "InBody is a form of bioelectrical impedance analysis, or BIA. The device passes a very small current through the body, measures tissue impedance, then uses equations to estimate body water, fat-free mass and fat mass. It does not directly see fat or muscle, and a value displayed to a decimal place remains a model-based estimate. Hydration, body shape, device type, electrode placement and the selected equation can all influence the result. [1, 2]\n\nPreparation is therefore not about producing the “best number” or creating a perfect day that cannot be repeated. It is about keeping conditions reasonably similar before each follow-up so that changes in food, fluid or exercise do not obscure the underlying direction. Current methodological standards emphasise documenting measurement time, fasting or recent intake, hydration, activity, medicines, body position and device details when repeated measurements are interpreted. [1, 3]\n\nOne reading cannot diagnose fat gain, muscle loss, dehydration or fluid retention. It becomes more useful when compared with an earlier reading on the same device and considered alongside the health goal, symptoms, strength and measurements. If today's conditions were clearly different, the result is not a failed test; the difference simply needs to be recorded and considered before the plan changes. [1, 3]"}, "links": {"ar": [], "en": []}},
+        {"id": "build-a-repeatable-baseline", "heading": {"ar": "ابدأ بخط أساس تقدر تكرره", "en": "Start with a baseline you can repeat"}, "body": {"ar": "قبل أول قياس، اسأل المكان عن تعليمات الجهاز واتبعها؛ الأجهزة والبروتوكولات مش كلها واحدة. اختار وقتاً تقدر ترجع فيه غالباً، زي نفس الجزء من اليوم، وحاول تثبّت المسافة بين آخر وجبة والقياس من زيارة للتانية. البس هدوماً خفيفة وقريبة من بعض في كل مرة، وادخل بيانات الطول والسن وغيرها بدقة لو الفريق طلبها. الأخطاء في البيانات أو اختلاف الجهاز ممكن يغيروا التقدير حتى لو جسمك ما اتغيرش. [1, 7, 8]\n\nخد صورة أو نسخة من التقرير واكتب التاريخ، الساعة، اسم أو موديل الجهاز لو ظاهر، وهل القياس كان واقفاً أو نايم حسب تصميمه. سجّل كمان أي ظرف غير معتاد: سفر طويل، حر شديد، تمرين قوي، سهرة، وجبة كبيرة، مرض، قيء أو إسهال، دورة شهرية، تورم أو دواء جديد. السجل البسيط ده بيفرق بين تغير محتمل في الجسم وبين تغير محتمل في ظروف القياس. [1, 2]\n\nلو هتغيّر مكان المتابعة أو الجهاز، اعتبر القراءة الجديدة خط أساس جديد بدل ما توصل الخطين ببعض كأنهم سلسلة واحدة. الدراسات والإرشادات بتوضح إن اختلاف الترددات والأقطاب والمعادلات والمعايرة ممكن يعمل فرقاً بين جهازين، وإن المتابعة الطولية تحتاج حذر حتى مع جهاز واحد. الثبات يقلل الضوضاء، بس هو ما يلغيهاش بالكامل. [1, 3]", "en": "Before the first measurement, ask the provider for that device's instructions and follow them; devices and protocols are not all identical. Choose a time you can usually revisit, such as the same part of the day, and try to keep the interval between the last meal and measurement similar from visit to visit. Wear similarly light clothing each time, and provide accurate height, age and other requested details. Input errors or a different device can alter an estimate even when the body has not changed. [1, 7, 8]\n\nKeep a photograph or copy of the report and record the date, time, device name or model if shown, and whether its design required standing or lying down. Also note unusual circumstances: long travel, marked heat, hard exercise, a late night, a large meal, illness, vomiting or diarrhoea, menstrual timing, swelling or a new medicine. That short record helps distinguish a possible body change from a possible change in testing conditions. [1, 2]\n\nIf the follow-up site or device changes, treat the new reading as a new baseline rather than joining both series as though they were one. Guidance and studies show that frequencies, electrodes, equations and calibration can differ between instruments, and even longitudinal use of one device needs cautious interpretation. Consistency reduces noise; it does not remove it completely. [1, 3]"}, "links": {"ar": [], "en": []}},
+        {"id": "food-fluid-and-bathroom", "heading": {"ar": "الأكل والشرب والحمام: ثبّت الروتين من غير حرمان", "en": "Food, fluid and the bathroom: standardise without restriction"}, "body": {"ar": "الأكل أو الشرب قريب من القياس ممكن يغيّر الوزن وتوزيع السوائل، بس حجم التأثير مش واحد في كل دراسة أو كل شخص. تجربة حديثة بعد شرب سوائل لقت تغيرات مع الوقت في تقديرات المياه والعضلات والدهون، بينما دراسة صغيرة على رجال أكبر سناً ما لقتش فرقاً مهماً بعد فطار محدد. الرسالة العملية مش صياماً قاسياً؛ هي إنك تتبع تعليمات المكان وتكرر مسافة زمنية متقاربة من آخر أكل وشرب كل مرة. [5, 6]\n\nاشرب بطريقتك المعتادة الآمنة خلال اليوم السابق. ما تقللش المياه عشان نسبة الدهون تبان أحسن، وما تشربش كمية كبيرة فجأة عشان كتلة العضلات تبان أعلى. دراسة على رياضيين بيّنت إن الجفاف وإعادة الترطيب اتفسروا في BIA كتغير كبير في الدهون رغم إن التغير الأساسي كان سوائل. التلاعب بالمياه بيشوّش القرار وممكن يعرّضك لضرر، خصوصاً مع الحر أو المرض أو أدوية بتأثر على السوائل. [4, 5]\n\nاستخدام الحمام قبل القياس جزء شائع من بروتوكولات التوحيد، وبيخلي وزن محتوى المثانة أقل اختلافاً بين الزيارات. اعمله لو محتاج ومن غير إجبار أو تأخير دواء أو شرب موصوف طبياً. ولو عندك تعليمات صيام لتحليل دم أو إجراء تاني في نفس اليوم، اسأل الفريق إزاي ينسق القياسين؛ ما تفترضش إن تعليمات InBody تلغي تعليمات طبية أهم. [1, 7, 8]", "en": "Eating or drinking close to measurement can alter weight and fluid distribution, but the size of the effect is not identical in every study or every person. A recent fluid-ingestion experiment found time-related changes in estimates of water, muscle and fat, while a small study in older men found no important difference after a defined breakfast. The practical message is not severe fasting: follow the provider's instructions and repeat a similar interval from the last food and drink each time. [5, 6]\n\nDrink in your usual safe pattern during the preceding day. Do not restrict water to make body-fat percentage look better, and do not suddenly drink a large amount to make muscle mass appear higher. A study in athletes showed that dehydration and rehydration were interpreted by BIA as large changes in fat even though the main change was fluid. Manipulating water obscures decisions and may be harmful, particularly during heat, illness or use of medicines that affect fluid balance. [4, 5]\n\nUsing the bathroom before measurement is a common part of standardisation protocols and reduces differences in bladder contents between visits. Do so when needed without forcing it or delaying prescribed fluids or medicines. If you also have fasting instructions for a blood test or another procedure that day, ask the care team how to coordinate both; do not assume that InBody preparation overrides a more important medical instruction. [1, 7, 8]"}, "links": {"ar": [], "en": []}},
+        {"id": "exercise-alcohol-caffeine", "heading": {"ar": "التمرين والكافيين والكحول ممكن يغيّروا السوائل", "en": "Exercise, caffeine and alcohol can change fluid balance"}, "body": {"ar": "التمرين الشديد قبل القياس ممكن يغير العرق، حرارة الجلد، تدفق الدم وتوزيع السوائل، وكل ده يدخل في المقاومة اللي الجهاز بيقيسها. بيان سريري لجمعية طب السمنة بيذكر تجنب التمرين اللي يسبب عرقاً لمدة 8 ساعات قبل BIA، وتجنب كميات كبيرة من الكافيين أو الكحول لمدة 12 ساعة. دي إرشادات عامة منشورة، بس تعليمات جهازك وحالتك الطبية ييجوا الأول. [1, 8]\n\nلو ميعادك بعد شغل بدني أو تمرين وما ينفعش تغيّره، ما تحاولش تصلح الوضع بتجفيف أو شرب مبالغ فيه. قل للفريق نوع النشاط وميعاده وهل عرقت أكتر من المعتاد. ممكن الفريق يسجل الظرف ويقرأ النتيجة بحذر، أو يعيد القياس في يوم أنسب لو الرقم هيغيّر قراراً مهماً. مش كل خروج عن الروتين يفرض إلغاء الموعد. [1, 4]\n\nالكافيين والكحول مش مجرد تفاصيل في قائمة؛ ممكن يرتبطوا بالشرب والنوم والتبول والترطيب. الأفضل تثبّت روتينك وتبعد عن الكميات غير المعتادة، مش إنك تعمل قواعد قاسية من نفسك. ولو الامتناع أو تغيير التوقيت ممكن يتعارض مع علاج، أو عندك اعتماد على الكحول، ما توقفش فجأة عشان الاختبار؛ كلم الطبيب بأمان ووضوح. [1, 8]", "en": "Hard exercise before measurement can change sweating, skin temperature, blood flow and fluid distribution, all of which feed into the impedance the device measures. An Obesity Medicine Association clinical statement advises avoiding sweat-producing exercise for eight hours before BIA and avoiding large amounts of caffeine or alcohol for 12 hours. These are published general instructions; directions for the actual device and the person's medical situation come first. [1, 8]\n\nIf the appointment follows physical work or exercise and cannot be moved, do not try to correct the situation by dehydrating or overdrinking. Tell the team what activity occurred, when it ended and whether sweating was unusual. They may record the circumstances and interpret cautiously, or repeat the measurement on a more suitable day if the number would affect an important decision. Every departure from routine does not automatically require cancellation. [1, 4]\n\nCaffeine and alcohol are not merely checklist details; they can be associated with drinking, sleep, urination and hydration. Aim for a repeatable routine and avoid unusual amounts rather than inventing severe rules. If abstaining or changing timing could conflict with treatment, or if alcohol dependence is a concern, do not stop abruptly for the test; discuss it safely and openly with a doctor. [1, 8]"}, "links": {"ar": [], "en": []}},
+        {"id": "clothing-contact-and-position", "heading": {"ar": "وقت القياس: هدوم خفيفة، تلامس كويس ووضع ثابت", "en": "At measurement: light clothing, good contact and consistent position"}, "body": {"ar": "البس هدوماً خفيفة شبه اللي لبستها في الزيارة السابقة، وشيل الحذاء والجوارب أو المجوهرات والمعادن لو الفريق طلب. بيان طب السمنة بيضم إزالة المعدن ضمن التحضير، والمعايير المنهجية بتوضح إن نوع القطب ومكانه ووضع الجسم وحرارة الجلد ممكن يأثروا على الدقة. ما تحطش كريم أو زيت على اليدين أو القدمين قبل جهاز بيعتمد على تلامسهم بالأقطاب لو تعليمات المكان بتقول كده. [1, 8]\n\nقف أو نام بالطريقة اللي يطلبها المشغّل، وخليك ثابت أثناء الثواني القليلة للقياس. في الأجهزة اللي تحتاج راحة قبل القراءة، مدة الراحة ووضع الأطراف لازم يتكرروا. ما تغيّرش وضع إيدك أو رجلك عشان تحاول تحسن رقماً قطاعياً؛ التوزيع على الذراعين والرجلين تقدير حساس لمسار التيار والتلامس. [1, 2]\n\nلو عندك جرح أو جبيرة أو طرف صناعي أو صعوبة في الوقوف أو مسك المقابض، قول قبل البدء. ولو عندك جهاز طبي مزروع، اسأل الفريق والطبيب عن ملاءمة القياس واتبع تعليمات الشركة واللوائح المحلية؛ المعايير الحديثة بتذكر إن بعض أجهزة تنظيم القلب أو الأجهزة القلبية المزروعة ممكن تمنع الاستخدام حسب القواعد المحلية. ما تعتمدش على صفحة عامة عشان تحسم سلامة جهاز مزروع بعينه. [1]", "en": "Wear light clothing similar to the previous visit, and remove shoes, socks, jewellery or metal items when the team requests it. The obesity-medicine statement includes removing metal in preparation, while methodological standards explain that electrode type and placement, body position and skin temperature can influence precision. Avoid cream or oil on hands or feet before a contact-electrode device if the provider's instructions say so. [1, 8]\n\nStand or lie as the operator directs and remain still during the short measurement. For devices requiring rest before a reading, repeat the rest period and limb position. Do not alter hand or foot position in an attempt to improve a segmental value; arm and leg distributions are estimates sensitive to the electrical path and contact. [1, 2]\n\nTell the team beforehand about a wound, cast, prosthesis, difficulty standing or difficulty holding the handles. If you have an implanted medical device, ask the team and your doctor whether measurement is suitable and follow manufacturer instructions and local rules; current standards note that pacemakers or other implanted cardiac devices may preclude use depending on local regulations. A general webpage should not decide the safety of a specific implant. [1]"}, "links": {"ar": [], "en": []}},
+        {"id": "illness-medicines-cycle-and-swelling", "heading": {"ar": "المرض والأدوية والدورة والتورم محتاجين سياق", "en": "Illness, medicines, menstrual timing and swelling need context"}, "body": {"ar": "الحمى أو القيء أو الإسهال، الحر الشديد، تورم الأطراف، أمراض القلب أو الكلى أو الكبد وبعض الأدوية ممكن يغيروا كمية السوائل أو توزيعها. في الظروف دي، افتراضات BIA تبقى أضعف والنتيجة ممكن تعكس السوائل أكتر من تغير الدهون أو العضلات. إرشادات ESPEN بتقول إن القياس في وجود ترطيب غير طبيعي أو عند أطراف نطاق الوزن يحتاج حذراً، ودراسة على مراهقين عندهم سمنة لقت إن الدقة في تتبع التغير قلت مع ارتفاع درجة السمنة وحجم التغير. [3, 9]\n\nما توقفش مدراً للبول أو دواء ضغط أو سكر أو أي علاج عشان الورقة تبان أنضف. خد الدواء زي ما الطبيب وصف، وسجّل اسمه وتوقيته والتغيرات الجديدة. قرار تأجيل القياس أو تفسيره بيتاخد حسب الحالة، مش بقاعدة واحدة. لو المرض مؤقت والقياس روتيني، أحياناً إعادة القياس بعد الاستقرار تبقى أوضح؛ ولو القياس معمول أصلاً لمتابعة السوائل في مرض معين، الطبيب هو اللي يحدد البروتوكول. [1, 3]\n\nبالنسبة للدورة الشهرية، الدراسات مش كلها لقت تأثيراً مهماً على تقديرات التركيب؛ دراسة بأجهزة تلامس ما لقتش اختلافاً معنوياً بين مراحل الدورة. ومع كده، الوزن والأعراض واحتباس السوائل ممكن يتغيروا عند بعض الناس. سجّل المرحلة أو وجود انتفاخ لو ده نمط واضح عندك، وحاول تقارن في ظروف قريبة من غير ما تعتبر توقيت الدورة سبباً مؤكداً لأي فرق. [10]", "en": "Fever, vomiting or diarrhoea, marked heat, limb swelling, heart, kidney or liver disease and some medicines can alter the amount or distribution of body fluid. In these circumstances, BIA assumptions are weaker and the output may reflect fluid more than a change in fat or muscle. ESPEN guidance advises caution with abnormal hydration and at the extremes of weight, while a study in adolescents with obesity found poorer tracking accuracy as obesity and the magnitude of change increased. [3, 9]\n\nDo not stop a diuretic, blood-pressure medicine, diabetes medicine or any treatment to make the report look cleaner. Take medicines as prescribed and record the name, timing and recent changes. Whether to postpone or reinterpret a measurement depends on the individual situation, not one universal rule. If illness is temporary and testing is routine, repeating after recovery may sometimes be clearer; if bioimpedance is being used specifically to monitor fluid in a medical condition, the doctor defines the protocol. [1, 3]\n\nStudies have not consistently found a meaningful menstrual-cycle effect on composition estimates; one contact-electrode study found no significant differences between cycle phases. Weight, symptoms and fluid retention can still vary for some people. Record cycle timing or bloating if it is a clear personal pattern, and compare under similar conditions where practical without treating menstrual timing as a proven explanation for every difference. [10]"}, "links": {"ar": [], "en": []}},
+        {"id": "read-the-follow-up-not-one-number", "heading": {"ar": "بعد القياس: راجع الاتجاه قبل ما تغيّر الخطة", "en": "After measurement: review the trend before changing the plan"}, "body": {"ar": "لو النتيجة الجديدة مختلفة، ابدأ بسؤالين: هل اتقاس نفس الجهاز؟ وهل الظروف كانت قريبة؟ بعد كده راجع الوزن ومحيط الخصر والقوة والأداء والأكل والأعراض حسب هدفك. تحليل InBody: بيقيس إيه وإزاي تقرأ النتيجة؟ بيشرح خانات التقرير وحدودها، عشان صفحة التحضير دي ما تتحولش لدليل تفسير كامل. ما تغيّرش أكلك أو تمرينك أو دواءك بسبب خانة واحدة من غير مراجعة المختص. [1, 2]\n\nفرق صغير بين زيارتين ممكن يكون ضمن تذبذب الطريقة، ومفيش حد واحد ينفع لكل جهاز ولكل جسم عشان نقول إن أي فرق فوقه حقيقي. دراسة الثبات على جهاز متعدد الترددات لقت ثباتاً جيداً في ظروف منظمة، بس ده ما يمنعش التباين اليومي أو يحوّل التقدير لقياس مباشر. اسأل المختص: هل التغير أكبر من المتوقع للطريقة، وهل مؤشرات تانية ماشية في نفس الاتجاه؟ [7]\n\nميعاد إعادة القياس يتحدد حسب السؤال وهل النتيجة هتغير قراراً، مش عشان تطمّن من رقم جديد كل يومين. ولو الميزان ثابت، ده مش معناه تلقائياً إن الجسم ثابت؛ تركيب الجسم مش رقم الميزان بيوضح إزاي الدهون والعضلات والمياه ممكن تتحرك بطرق مختلفة. القياس المفيد أداة حوار ومتابعة، مش شهادة نجاح أو فشل. [1, 3]", "en": "If a new result is different, start with two questions: was the same device used, and were conditions similar? Then review weight, waist, strength, function, intake and symptoms according to the goal. InBody results explained: how to read your report covers the report fields and their limits so this preparation page does not become a complete interpretation guide. Do not change food, exercise or medicine because of one field without review by the treating clinician. [1, 2]\n\nA small difference between visits may sit within method variation, and there is no single threshold that proves a real change for every device and every body. A reliability study of a multifrequency device found good reliability under organised conditions, but that does not remove day-to-day variation or turn an estimate into a direct measurement. Ask whether the change exceeds what is expected from the method and whether other indicators point in the same direction. [7]\n\nThe repeat interval should be based on the question and whether the answer would change a decision, not on seeking reassurance from a new number every few days. Stable scale weight also does not automatically mean the body is unchanged; body composition is not the scale explains how fat, muscle and fluid can move differently. A useful measurement supports a conversation and follow-up; it is not a certificate of success or failure. [1, 3]"}, "links": {"ar": [{"label": "تحليل InBody: بيقيس إيه وإزاي تقرأ النتيجة؟", "url": "../articles/inbody-results-explained.html"}, {"label": "تركيب الجسم مش رقم الميزان", "url": "../articles/body-composition-not-scale.html"}], "en": [{"label": "InBody results explained: how to read your report", "url": "../articles/inbody-results-explained.html"}, {"label": "body composition is not the scale", "url": "../articles/body-composition-not-scale.html"}]}},
+        {"id": "red-flags-and-next-step", "heading": {"ar": "إمتى الرقم يستنى وإمتى الأعراض ما تستناش؟", "en": "When can the number wait, and when should symptoms not wait?"}, "body": {"ar": "قراءة غريبة من غير أعراض غالباً تبدأ بمراجعة ظروف القياس ومناقشة المختص، مش بذعر أو تغيير عنيف في الأكل. بس نزول وزن مستمر من غير قصد، ضعف جديد، فقدان شهية أو تعب غير معتاد محتاجين تقييماً طبياً للسبب؛ تحليل تركيب الجسم ما يشخّصش السبب وما ينفعش يؤخر الكشف. NHS بيوضح إن فقدان الوزن غير المقصود له أسباب كتير، منها مشكلات هضمية أو هرمونية أو نفسية وآثار أدوية وحالات تانية. [12]\n\nالتورم المفاجئ أو الشديد أو المؤلم، أو التورم اللي بيزيد أو بيظهر في أكتر من مكان، محتاج مراجعة أسرع. ومع ضيق نفس شديد أو صعوبة تنفس أو ألم أو ثقل بالصدر أو إغماء أو كحة بدم، اطلب رعاية طارئة فوراً حسب خدمات الطوارئ المحلية. ما تستناش إعادة InBody عشان تعرف هل ده «مياه»؛ التقرير مش بديل عن التقييم العاجل. [11]\n\nلو هدفك متابعة التغذية أو الوزن أو القوة وعايز تحط بروتوكول يتكرر ويناسب علاجك، تقدر تبدأ من صفحة احجز موعد وتاخد معاك تقاريرك السابقة وسجل الظروف. ذكر العيادة هنا خطوة عامة فقط؛ المختص المعالج هو اللي يقرر هل القياس مناسب، إمتى يتكرر، وإزاي يتقري مع باقي الصورة. [1, 3]", "en": "An unusual reading without symptoms usually begins with reviewing measurement conditions and discussing it with a clinician, not panic or an extreme change in eating. Continuing unintentional weight loss, new weakness, poor appetite or unusual fatigue need medical assessment for a cause; a body-composition report cannot diagnose that cause and should not delay care. The NHS notes many possible causes of unintentional loss, including digestive, hormonal and mental-health conditions, medicine effects and other illnesses. [12]\n\nSudden, severe or painful swelling, or swelling that is worsening or appearing in more than one area, needs faster review. With severe breathlessness, difficulty breathing, chest pain or heaviness, fainting or coughing blood, seek emergency care immediately through local emergency services. Do not wait for another InBody result to decide whether this is “water”; the report is not a substitute for urgent assessment. [11]\n\nIf your goal is to follow nutrition, weight or strength and you want a repeatable protocol that fits your treatment, you can start at the book an appointment page and bring earlier reports plus your conditions log. The clinic is mentioned only as a general next step; the treating clinician decides whether measurement is suitable, when it should be repeated and how it fits the wider picture. [1, 3]"}, "links": {"ar": [{"label": "احجز موعد", "url": "../patients/booking.html"}], "en": [{"label": "book an appointment", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "هل لازم أصوم قبل تحليل InBody؟",
-            "en": "Do I have to fast before an InBody test?"
-          },
-          "a": {
-            "ar": "مفيش مدة واحدة تنفع لكل جهاز وكل حالة. الأكل والسوائل ممكن يأثروا، لكن الدراسات لقت أحجام تأثير مختلفة. اتبع تعليمات المكان، وحاول تثبّت المدة من آخر وجبة في كل متابعة. ما تعملش صياماً قاسياً، وما تؤخرش دواء أو شرباً موصوفاً من غير سؤال الطبيب. [1, 5, 6]",
-            "en": "There is no single fasting duration for every device and every clinical situation. Food and fluid can matter, although studies report different effect sizes. Follow the provider's instructions and keep the interval from the last meal similar at each follow-up. Do not use severe fasting or delay prescribed medicine or fluid without asking the doctor. [1, 5, 6]"
-          }
-        },
-        {
-          "q": {
-            "ar": "أشرب مياه قبل القياس ولا لأ؟",
-            "en": "Should I drink water before measurement?"
-          },
-          "a": {
-            "ar": "حافظ على روتين شرب عادي وآمن واتبع تعليمات المكان. المطلوب تشابه الظروف، مش منع المياه طول اليوم ولا شرب كمية كبيرة مرة واحدة. الجفاف وإعادة الترطيب ممكن يبانوا كتغير في الدهون أو العضلات، فقول للفريق لو شربك كان مختلفاً بوضوح. [4, 5]",
-            "en": "Keep a normal, safe drinking routine and follow the provider's instructions. The aim is similar conditions, not avoiding water all day or drinking a large amount at once. Dehydration and rehydration can appear as changes in fat or muscle, so tell the team if intake was clearly unusual. [4, 5]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل التمرين قبل InBody يبوّظ النتيجة؟",
-            "en": "Does exercise before InBody ruin the result?"
-          },
-          "a": {
-            "ar": "التمرين الشديد والعرق ممكن يغيروا السوائل وحرارة الجلد والمقاومة، فالمقارنة تبقى أقل عدلاً. بيان سريري بيقترح تجنب تمرين يسبب عرقاً 8 ساعات قبل القياس. لو حصل تمرين، مش لازم تلغي النتيجة تلقائياً؛ سجّل نوعه وميعاده وخلي المختص يقرر هل يعيد القياس. [1, 8]",
-            "en": "Hard exercise and sweating can alter fluid, skin temperature and impedance, making comparison less fair. One clinical statement advises avoiding sweat-producing exercise for eight hours before measurement. If exercise occurred, do not automatically discard the result; record its type and timing and let the clinician decide whether to repeat it. [1, 8]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل ينفع أقارن نتيجتين من جهازين مختلفين؟",
-            "en": "Can I compare results from two different devices?"
-          },
-          "a": {
-            "ar": "المقارنة المباشرة ممكن تبقى مضللة لأن الأجهزة تختلف في الترددات والأقطاب والمعادلات والمعايرة. لو الجهاز اتغير، احتفظ بالنتيجتين لكن اعتبر الجديدة خط أساس لسلسلة جديدة، وركّز على الاتجاه داخل نفس الجهاز مع مؤشرات تانية. [1, 2, 3]",
-            "en": "A direct comparison may mislead because devices differ in frequencies, electrodes, equations and calibration. If the device changes, retain both reports but treat the new one as the baseline of a new series, then follow the trend within that device alongside other indicators. [1, 2, 3]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل الدورة الشهرية لازم تكون في نفس اليوم من الشهر؟",
-            "en": "Must testing occur at the same point in the menstrual cycle?"
-          },
-          "a": {
-            "ar": "مش شرط عام. دراسة بأجهزة تلامس ما لقتش فرقاً معنوياً في تقديرات التركيب بين مراحل الدورة، لكن بعض الناس بيلاحظوا تورماً أو تغير وزن. لو عندك نمط واضح، سجّله وحاول تثبّت التوقيت لما يكون عملياً، من غير اعتبار الدورة تفسيراً مؤكداً لكل فرق. [10]",
-            "en": "Not as a universal requirement. A contact-electrode study found no significant composition differences between cycle phases, although some people notice swelling or weight changes. If you have a clear pattern, record it and keep timing similar where practical without treating the cycle as a proven explanation for every difference. [10]"
-          }
-        },
-        {
-          "q": {
-            "ar": "إمتى أعيد القياس لو النتيجة غريبة؟",
-            "en": "When should I repeat an unusual result?"
-          },
-          "a": {
-            "ar": "راجع الأول الجهاز والوقت والأكل والشرب والتمرين والمرض والأدوية. لو الفرق هيغيّر قراراً، المختص ممكن يعيد القياس في ظروف أقرب لخط الأساس؛ مفيش مدة ثابتة للجميع. أما نزول الوزن غير المقصود أو التورم المفاجئ أو ضيق النفس، فمحتاجين تقييماً طبياً ومش انتظار قياس جديد. [1, 11, 12]",
-            "en": "First review the device, timing, food, fluid, exercise, illness and medicines. If the difference would change a decision, the clinician may repeat the test under conditions closer to baseline; there is no fixed interval for everyone. Unintentional loss, sudden swelling or breathlessness require medical assessment rather than waiting for another measurement. [1, 11, 12]"
-          }
-        }
+        {"q": {"ar": "هل لازم أصوم قبل تحليل InBody؟", "en": "Do I have to fast before an InBody test?"}, "a": {"ar": "مفيش مدة واحدة تنفع لكل جهاز وكل حالة. الأكل والسوائل ممكن يأثروا، بس الدراسات لقت أحجام تأثير مختلفة. اتبع تعليمات المكان، وحاول تثبّت المدة من آخر وجبة في كل متابعة. ما تعملش صياماً قاسياً، وما تؤخرش دواء أو شرباً موصوفاً من غير سؤال الطبيب. [1, 5, 6]", "en": "There is no single fasting duration for every device and every clinical situation. Food and fluid can matter, although studies report different effect sizes. Follow the provider's instructions and keep the interval from the last meal similar at each follow-up. Do not use severe fasting or delay prescribed medicine or fluid without asking the doctor. [1, 5, 6]"}},
+        {"q": {"ar": "أشرب مياه قبل القياس ولا لأ؟", "en": "Should I drink water before measurement?"}, "a": {"ar": "حافظ على روتين شرب عادي وآمن واتبع تعليمات المكان. المطلوب تشابه الظروف، مش منع المياه طول اليوم ولا شرب كمية كبيرة مرة واحدة. الجفاف وإعادة الترطيب ممكن يبانوا كتغير في الدهون أو العضلات، فقول للفريق لو شربك كان مختلفاً بوضوح. [4, 5]", "en": "Keep a normal, safe drinking routine and follow the provider's instructions. The aim is similar conditions, not avoiding water all day or drinking a large amount at once. Dehydration and rehydration can appear as changes in fat or muscle, so tell the team if intake was clearly unusual. [4, 5]"}},
+        {"q": {"ar": "هل التمرين قبل InBody يبوّظ النتيجة؟", "en": "Does exercise before InBody ruin the result?"}, "a": {"ar": "التمرين الشديد والعرق ممكن يغيروا السوائل وحرارة الجلد والمقاومة، فالمقارنة تبقى أقل عدلاً. بيان سريري بيقترح تجنب تمرين يسبب عرقاً 8 ساعات قبل القياس. لو حصل تمرين، مش لازم تلغي النتيجة تلقائياً؛ سجّل نوعه وميعاده وخلي المختص يقرر هل يعيد القياس. [1, 8]", "en": "Hard exercise and sweating can alter fluid, skin temperature and impedance, making comparison less fair. One clinical statement advises avoiding sweat-producing exercise for eight hours before measurement. If exercise occurred, do not automatically discard the result; record its type and timing and let the clinician decide whether to repeat it. [1, 8]"}},
+        {"q": {"ar": "هل ينفع أقارن نتيجتين من جهازين مختلفين؟", "en": "Can I compare results from two different devices?"}, "a": {"ar": "المقارنة المباشرة ممكن تبقى مضللة لأن الأجهزة تختلف في الترددات والأقطاب والمعادلات والمعايرة. لو الجهاز اتغير، احتفظ بالنتيجتين بس اعتبر الجديدة خط أساس لسلسلة جديدة، وركّز على الاتجاه داخل نفس الجهاز مع مؤشرات تانية. [1, 2, 3]", "en": "A direct comparison may mislead because devices differ in frequencies, electrodes, equations and calibration. If the device changes, retain both reports but treat the new one as the baseline of a new series, then follow the trend within that device alongside other indicators. [1, 2, 3]"}},
+        {"q": {"ar": "هل الدورة الشهرية لازم تكون في نفس اليوم من الشهر؟", "en": "Must testing occur at the same point in the menstrual cycle?"}, "a": {"ar": "مش شرط عام. دراسة بأجهزة تلامس ما لقتش فرقاً معنوياً في تقديرات التركيب بين مراحل الدورة، بس بعض الناس بيلاحظوا تورماً أو تغير وزن. لو عندك نمط واضح، سجّله وحاول تثبّت التوقيت لما يكون عملياً، من غير اعتبار الدورة تفسيراً مؤكداً لكل فرق. [10]", "en": "Not as a universal requirement. A contact-electrode study found no significant composition differences between cycle phases, although some people notice swelling or weight changes. If you have a clear pattern, record it and keep timing similar where practical without treating the cycle as a proven explanation for every difference. [10]"}},
+        {"q": {"ar": "إمتى أعيد القياس لو النتيجة غريبة؟", "en": "When should I repeat an unusual result?"}, "a": {"ar": "راجع الأول الجهاز والوقت والأكل والشرب والتمرين والمرض والأدوية. لو الفرق هيغيّر قراراً، المختص ممكن يعيد القياس في ظروف أقرب لخط الأساس؛ مفيش مدة ثابتة للجميع. أما نزول الوزن غير المقصود أو التورم المفاجئ أو ضيق النفس، فمحتاجين تقييماً طبياً ومش انتظار قياس جديد. [1, 11, 12]", "en": "First review the device, timing, food, fluid, exercise, illness and medicines. If the difference would change a decision, the clinician may repeat the test under conditions closer to baseline; there is no fixed interval for everyone. Unintentional loss, sudden swelling or breathlessness require medical assessment rather than waiting for another measurement. [1, 11, 12]"}}
       ],
       "sources": [
-        {
-          "label": "Gonzalez et al. — Methodological Standards for Body Composition Assessment (PMC, 2026)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197919/"
-        },
-        {
-          "label": "Kyle et al. — Bioelectrical Impedance Analysis, Part I: Principles and Methods (PubMed, 2004)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/15380917/"
-        },
-        {
-          "label": "Kyle et al. — Bioelectrical Impedance Analysis, Part II: Utilization in Clinical Practice (PubMed, 2004)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/15556267/"
-        },
-        {
-          "label": "Saunders et al. — Effects of Hydration Changes on Bioelectrical Impedance (PubMed, 1998)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/9624647/"
-        },
-        {
-          "label": "Schierbauer et al. — Acute Fluid Intake and Bioelectrical Impedance Assessment (PubMed, 2023)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37110132/"
-        },
-        {
-          "label": "Vilaça et al. — Effect of Fluid and Food Intake on Body Composition Evaluation in Older Adults (PubMed, 2009)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/19262949/"
-        },
-        {
-          "label": "McLester et al. — Intra- and Inter-Day Reliability of Multifrequency Bioelectrical Impedance (PMC, 2018)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6226074/"
-        },
-        {
-          "label": "Obesity Medicine Association — Body Composition and BIA Clinical Practice Statement (PMC, 2022)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10661987/"
-        },
-        {
-          "label": "Thivel et al. — BIA Tracking Accuracy and Degree of Obesity in Adolescents (PubMed, 2018)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/29914668/"
-        },
-        {
-          "label": "Cumberledge et al. — Menstrual Cycle and Contact-Electrode BIA (PMC, 2018)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5841670/"
-        },
-        {
-          "label": "NHS — Swollen Ankles, Feet and Legs (Oedema)",
-          "url": "https://www.nhs.uk/conditions/oedema/"
-        },
-        {
-          "label": "NHS — Unintentional Weight Loss",
-          "url": "https://www.nhs.uk/symptoms/unintentional-weight-loss/"
-        }
+        {"label": "Gonzalez et al. — Methodological Standards for Body Composition Assessment (PMC, 2026)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197919/"},
+        {"label": "Kyle et al. — Bioelectrical Impedance Analysis, Part I: Principles and Methods (PubMed, 2004)", "url": "https://pubmed.ncbi.nlm.nih.gov/15380917/"},
+        {"label": "Kyle et al. — Bioelectrical Impedance Analysis, Part II: Utilization in Clinical Practice (PubMed, 2004)", "url": "https://pubmed.ncbi.nlm.nih.gov/15556267/"},
+        {"label": "Saunders et al. — Effects of Hydration Changes on Bioelectrical Impedance (PubMed, 1998)", "url": "https://pubmed.ncbi.nlm.nih.gov/9624647/"},
+        {"label": "Schierbauer et al. — Acute Fluid Intake and Bioelectrical Impedance Assessment (PubMed, 2023)", "url": "https://pubmed.ncbi.nlm.nih.gov/37110132/"},
+        {"label": "Vilaça et al. — Effect of Fluid and Food Intake on Body Composition Evaluation in Older Adults (PubMed, 2009)", "url": "https://pubmed.ncbi.nlm.nih.gov/19262949/"},
+        {"label": "McLester et al. — Intra- and Inter-Day Reliability of Multifrequency Bioelectrical Impedance (PMC, 2018)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6226074/"},
+        {"label": "Obesity Medicine Association — Body Composition and BIA Clinical Practice Statement (PMC, 2022)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10661987/"},
+        {"label": "Thivel et al. — BIA Tracking Accuracy and Degree of Obesity in Adolescents (PubMed, 2018)", "url": "https://pubmed.ncbi.nlm.nih.gov/29914668/"},
+        {"label": "Cumberledge et al. — Menstrual Cycle and Contact-Electrode BIA (PMC, 2018)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5841670/"},
+        {"label": "NHS — Swollen Ankles, Feet and Legs (Oedema)", "url": "https://www.nhs.uk/conditions/oedema/"},
+        {"label": "NHS — Unintentional Weight Loss", "url": "https://www.nhs.uk/symptoms/unintentional-weight-loss/"}
       ],
-      "tags": {
-        "ar": [
-          "تحضير تحليل InBody",
-          "قبل تحليل InBody",
-          "تركيب الجسم",
-          "نسبة الدهون"
-        ],
-        "en": [
-          "InBody preparation",
-          "before an InBody test",
-          "body composition follow-up",
-          "body-fat percentage"
-        ]
-      },
+      "tags": {"ar": ["تحضير تحليل InBody", "قبل تحليل InBody", "تركيب الجسم", "نسبة الدهون"], "en": ["InBody preparation", "before an InBody test", "body composition follow-up", "body-fat percentage"]},
       "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "اتوسّع الدليل بخطوات أوضح للتحضير والمقارنة الآمنة وعلامات الخطر، واتراجع طبياً من جديد.",
-            "en": "The guide was expanded with clearer preparation, safer comparison and warning-sign guidance, and was medically re-reviewed."
-          }
-        }
+        {"date": "2026-09-27", "note": {"ar": "اتوسّع الدليل بخطوات أوضح للتحضير والمقارنة الآمنة وعلامات الخطر، واتراجع طبياً من جديد.", "en": "The guide was expanded with clearer preparation, safer comparison and warning-sign guidance, and was medically re-reviewed."}}
       ],
-      "seo": {
-        "title": {
-          "ar": "التحضير لتحليل InBody: خطوات لنتيجة أدق",
-          "en": "How to prepare for an InBody test"
-        },
-        "description": {
-          "ar": "اعرف إزاي تحضّر لتحليل InBody وتثبّت الأكل والشرب والتمرين ووقت القياس، عشان تقارن المتابعة بشكل أدق وتعرف إمتى تحتاج مراجعة طبية.",
-          "en": "Learn how to prepare for an InBody test, standardise food, fluid, exercise and timing, compare follow-ups fairly, and recognise warning signs."
-        }
-      }
+      "seo": {"title": {"ar": "التحضير لتحليل InBody: خطوات لنتيجة أدق", "en": "How to prepare for an InBody test"}, "description": {"ar": "اعرف إزاي تحضّر لتحليل InBody وتثبّت الأكل والشرب والتمرين ووقت القياس، عشان تقارن المتابعة بشكل أدق وتعرف إمتى تحتاج مراجعة طبية.", "en": "Learn how to prepare for an InBody test, standardise food, fluid, exercise and timing, compare follow-ups fairly, and recognise warning signs."}}
     }
   ]
 }
-

@@ -7,345 +7,52 @@
       "published": true,
       "featured": false,
       "category": "weight-management",
-      "specialties": [
-        "weight-management",
-        "clinical-nutrition"
-      ],
+      "specialties": ["weight-management", "clinical-nutrition"],
       "date": "2026-09-07",
       "updatedAt": "2026-09-27",
       "readingTime": 11,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
       "image": "assets/img/articles/glp1-medication-guide.webp",
-      "title": {
-        "ar": "هل ينفع أستخدم أدوية التخسيس أثناء الحمل أو الرضاعة؟",
-        "en": "Can I use weight-loss medicine during pregnancy or breastfeeding?"
-      },
-      "excerpt": {
-        "ar": "أدوية التخسيس ما بتتستخدمش لإنقاص الوزن أثناء الحمل، لكن قرار الرضاعة بيختلف حسب المادة وشكل الدواء وعمر الطفل. اعرف تعمل إيه لو حصل حمل فجأة وإزاي تناقش الرجوع للعلاج بعد الولادة.",
-        "en": "Weight-loss medicines are not used to pursue weight loss during pregnancy, while breastfeeding decisions differ by drug, formulation and infant age. Learn what to do after an unexpected exposure and how postpartum treatment is assessed."
-      },
+      "title": {"ar": "هل ينفع أستخدم أدوية التخسيس أثناء الحمل أو الرضاعة؟", "en": "Can I use weight-loss medicine during pregnancy or breastfeeding?"},
+      "excerpt": {"ar": "أدوية التخسيس ما بتتستخدمش لإنقاص الوزن أثناء الحمل، بس قرار الرضاعة بيختلف حسب المادة وشكل الدواء وعمر الطفل. اعرف تعمل إيه لو حصل حمل فجأة وإزاي تناقش الرجوع للعلاج بعد الولادة.", "en": "Weight-loss medicines are not used to pursue weight loss during pregnancy, while breastfeeding decisions differ by drug, formulation and infant age. Learn what to do after an unexpected exposure and how postpartum treatment is assessed."},
       "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "وسعنا الإجابة عشان تشرح الحمل والتعرض غير المقصود والرضاعة والرجوع للعلاج بعد الولادة، واتراجعت طبياً من جديد.",
-            "en": "We expanded the answer to cover pregnancy, unintended exposure, breastfeeding and restarting treatment after birth, and medically re-reviewed it."
-          }
-        }
+        {"date": "2026-09-27", "note": {"ar": "وسعنا الإجابة عشان تشرح الحمل والتعرض غير المقصود والرضاعة والرجوع للعلاج بعد الولادة، واتراجعت طبياً من جديد.", "en": "We expanded the answer to cover pregnancy, unintended exposure, breastfeeding and restarting treatment after birth, and medically re-reviewed it."}}
       ],
       "sections": [
-        {
-          "id": "short-answer",
-          "heading": {
-            "ar": "الإجابة المختصرة: الحمل غير الرضاعة، واسم المادة هو اللي يفرق",
-            "en": "The short answer: pregnancy and breastfeeding are different, and the active ingredient matters"
-          },
-          "body": {
-            "ar": "لو السؤال عن استخدام دواء بهدف إنقاص الوزن أثناء الحمل، فالإجابة لأ. الحمل مش وقت عمل عجز سعرات أو نزول وزن مقصود، والنشرات المعتمدة لأدوية زي سيماجلوتايد وتيرزيباتيد وليراجلوتايد، وكمان التركيبات الفموية زي فينترمين/توبيراميت ونالتريكسون/بوبروبيون وأورليستات، بتطلب وقف علاج الوزن لما الحمل يتأكد أو بتعتبره ممنوعاً أثناء الحمل [1, 2, 3, 4, 5, 6, 7]. ده ما معناهش إن وجود زيادة وزن أو سمنة يتساب من غير متابعة؛ معناه إن الهدف بيتغير لتغذية كفاية، وزيادة وزن حمل مناسبة للحالة، وحركة آمنة، وضبط السكر والضغط وأي مرض مصاحب مع فريق النساء والباطنة [1].\n\nالرضاعة قصتها أدق. مش كل الأدوية زي بعض، ومش كل أشكال نفس المادة زي بعض. بعض التركيبات الفموية غير موصى بيها بوضوح، بينما ظهرت بيانات أحدث عن كميات قليلة جداً أو غير قابلة للقياس من بعض الحقن في اللبن، لكن بيانات تأثيرها الطويل على الطفل وإدرار اللبن لسه محدودة [2, 3, 5, 6, 8, 9, 10]. عشان كده ما تبدأش أو ترجع لدواء من نفسك، وما توقفش الرضاعة تلقائياً لمجرد إنك أخدت جرعة. القرار بيتعمل باسم المادة وشكلها، سبب العلاج، عمر الطفل وهل مولود كامل ولا مبتسر، نمط الرضاعة، تغذية الأم، والبدائل المتاحة [8, 9, 10].",
-            "en": "If the question is whether a medicine should be used to produce weight loss during pregnancy, the answer is no. Pregnancy is not a time for an intentional calorie deficit or active weight reduction. Current labeling for semaglutide, tirzepatide and liraglutide, as well as oral medicines such as phentermine/topiramate, naltrexone/bupropion and orlistat, directs discontinuation when pregnancy is recognized or lists pregnancy as a contraindication [1, 2, 3, 4, 5, 6, 7]. This does not mean that obesity or excess weight should go unmonitored. It means the goal changes to adequate nutrition, an appropriate pattern of gestational weight gain, safe movement, and management of diabetes, hypertension or other conditions with the obstetric and medical team [1].\n\nBreastfeeding is more nuanced. Medicines differ, and even formulations of the same active ingredient can differ. Some oral combinations are explicitly not recommended, while newer evidence has found very low or unmeasurable milk concentrations after certain injections; however, information about long-term infant outcomes and milk production remains limited [2, 3, 5, 6, 8, 9, 10]. Do not start or restart treatment on your own, and do not automatically stop breastfeeding because of one dose. A sound decision considers the exact ingredient and formulation, the reason for treatment, the infant's age and prematurity, the extent of breastfeeding, maternal nutrition and available alternatives [8, 9, 10]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "why-pregnancy-is-different",
-          "heading": {
-            "ar": "ليه أدوية التخسيس بتتوقف وقت الحمل؟",
-            "en": "Why are weight-loss medicines stopped during pregnancy?"
-          },
-          "body": {
-            "ar": "السبب الأساسي مش مجرد إن الدواء جديد؛ الهدف العلاجي نفسه مختلف. تكوين المشيمة ونمو الجنين وتغير حجم الدم وأنسجة الأم محتاجين طاقة وبروتين وحديد وفولات وعناصر دقيقة بشكل منتظم. الأدوية اللي بتقلل الشهية أو تبطّأ المعدة أو تقلل امتصاص الدهون ممكن تصعّب الوصول للاحتياجات دي، خصوصاً لو فيه قيء أو غثيان أو أكل قليل. عشان كده الإرشادات بتفصل بين علاج السمنة قبل الحمل وبين رعاية الوزن والتغذية أثناء الحمل [1, 2, 3, 4, 7].\n\nوفيه سبب تاني: معلومات الأمان البشرية مش كاملة لمعظم أدوية الوزن. النشرات بتذكر إشارات من دراسات الحيوانات لبعض الأدوية، ومخاطر بشرية معروفة لبعض المكونات. أوضح مثال هو توبيراميت الموجود مع فينترمين؛ التعرض له في بداية الحمل مرتبط بزيادة خطر عيوب خلقية ومنها شق الشفة أو سقف الحلق، وده سبب وجود اختبار حمل قبل العلاج وشهرياً مع الاستمرار عليه [6]. أما بيانات GLP-1 البشرية المبكرة فهي مطمئنة جزئياً بعد التعرض غير المقصود، لكنها مش كفاية عشان نحول الدواء لعلاج آمن أثناء الحمل [11].\n\nلو كنت بتخطط للحمل، راجع دليل إبر التخسيس قبل الحمل بقد إيه لأنه بيشرح مدد التوقف الخاصة بكل مادة. هنا التركيز على الحمل القائم والرضاعة، ومهم ما تستخدمش مدة عامة من الإنترنت لكل الأدوية؛ بعضها طويل المفعول وبعضها محتاج وقف تدريجي لتجنب مشكلة زي التشنجات [2, 6].",
-            "en": "The main reason is not simply that these medicines are new; the therapeutic objective itself changes. Placental development, fetal growth, expanding blood volume and maternal tissue changes require reliable energy, protein, iron, folate and micronutrient intake. Medicines that suppress appetite, delay gastric emptying or reduce fat absorption can make those needs harder to meet, especially when nausea, vomiting or low intake is already present. Guidance therefore separates obesity treatment before conception from weight and nutrition care during pregnancy [1, 2, 3, 4, 7].\n\nA second reason is that human safety information remains incomplete for most weight-management medicines. Labels describe reproductive signals from animal studies for several agents and established human risks for particular components. The clearest example is topiramate in the phentermine/topiramate combination: early pregnancy exposure is associated with an increased risk of congenital malformations, including oral clefts, which is why pregnancy testing is recommended before treatment and monthly during use [6]. Early human GLP-1 data offer some reassurance after unintended exposure, but they are not sufficient to establish these medicines as safe pregnancy treatments [11].\n\nIf you are planning conception, see weight-loss medicines before pregnancy: stopping timelines and preconception care for ingredient-specific washout periods. This page focuses on an established pregnancy and breastfeeding. Do not apply one internet timeline to every medicine; their persistence differs, and some products require gradual withdrawal to avoid problems such as seizures [2, 6]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "دليل إبر التخسيس قبل الحمل بقد إيه",
-                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "weight-loss medicines before pregnancy: stopping timelines and preconception care",
-                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "unexpected-pregnancy",
-          "heading": {
-            "ar": "لو اكتشفت الحمل وإنت بتاخد الدواء: اعمل إيه دلوقتي؟",
-            "en": "If pregnancy starts while you are taking medicine: what to do now"
-          },
-          "body": {
-            "ar": "أول خطوة إنك ما تاخدش جرعة جديدة من دواء إنقاص الوزن لحد ما تتواصل بسرعة مع الطبيب اللي وصفه وطبيب النساء. جهّز اسم المنتج والمادة الفعالة، التركيز والجرعة، تاريخ آخر جرعة، أول يوم في آخر دورة، وأي أدوية أو مكملات تانية. لو الدواء فينترمين/توبيراميت، التقييم العاجل مهم جداً بسبب خطر التوبيراميت المعروف، لكن ما تغيّرش طريقة وقف جرعة عالية من نفسك لأن النشرة نفسها بتطلب وقفاً تدريجياً في ظروف معينة لتقليل احتمال التشنج [6]. أدوية سيماجلوتايد وتيرزيباتيد وليراجلوتايد وعلاج نالتريكسون/بوبروبيون بتتوقف لما الحمل يتعرف عليه وفق النشرات [2, 3, 4, 5].\n\nخد بالك: التعرض لا يساوي تلقائياً إن ضرراً حصل، ومش سبب تحكم على الحمل لوحده. دراسة رصدية مستقبلية شملت حالات تعرض لـ GLP-1 في أول الحمل ما لقتش زيادة واضحة في العيوب الخلقية الكبرى مقارنة بمجموعات مناسبة، لكن العدد كان محدود والباحثون أكدوا الحاجة لبيانات أكبر [11]. دي معلومة للطمأنة المتوازنة، مش تصريح باستكمال الدواء. الطبيب هيقدّر توقيت التعرض، نوع المادة، الأمراض المصاحبة، ويحدد متابعة الحمل المناسبة من غير تحاليل أو سونار زائد بلا داعٍ.\n\nلو فيه قيء شديد مستمر، عدم قدرة على الاحتفاظ بالسوائل، دوخة أو إغماء، ألم بطن شديد، نزيف مهبلي، أو أعراض هبوط سكر مع علاج للسكري، اطلب تقييماً عاجلاً. الجفاف، النزيف، والألم الشديد محتاجين تقييم بسبب الأعراض نفسها، مش لمجرد اسم دواء الوزن [1, 2, 3].",
-            "en": "First, withhold further doses of the weight-loss medicine until you promptly contact the prescriber and your obstetric clinician. Gather the product and active-ingredient names, strength and dose, date of the last dose, first day of the last menstrual period, and every other medicine or supplement used. If the product is phentermine/topiramate, urgent review is especially important because of topiramate's established risk, but do not improvise withdrawal from a high dose: its label requires gradual discontinuation in some circumstances to reduce seizure risk [6]. Semaglutide, tirzepatide, liraglutide and naltrexone/bupropion weight-management products are discontinued when pregnancy is recognized according to their labels [2, 3, 4, 5].\n\nExposure does not automatically mean harm occurred, and it is not enough by itself to determine a pregnancy outcome. A prospective observational study of first-trimester GLP-1 exposure did not find a clear increase in major birth defects compared with relevant reference groups, but the sample was limited and the researchers emphasized the need for larger studies [11]. That is balanced reassurance, not permission to continue treatment. Your clinician can interpret the exposure timing, ingredient and coexisting conditions, then arrange appropriate pregnancy follow-up without unnecessary scans or tests.\n\nSeek urgent assessment for persistent severe vomiting, inability to keep fluids down, dizziness or fainting, severe abdominal pain, vaginal bleeding, or symptoms of low blood glucose when diabetes medicines are involved. Dehydration, bleeding and severe pain need evaluation because of the symptoms themselves, not merely because a weight medicine was taken [1, 2, 3]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "medicine-groups",
-          "heading": {
-            "ar": "القرار حسب المجموعة: الحقن مش زي الأقراص",
-            "en": "Decisions by medicine group: injections are not the same as tablets"
-          },
-          "body": {
-            "ar": "مجموعة GLP-1 والدواء المزدوج GIP/GLP-1 تشمل مواد زي سيماجلوتايد وليراجلوتايد وتيرزيباتيد. دي أدوية مختلفة في مدة بقائها، شكلها، واستعمالها للسكري أو الوزن. وقت الحمل، منتجات الوزن منها بتتوقف [2, 3, 4]. لو محتاج تفهم الاختلافات العامة، دليل أدوية GLP-1 لإنقاص الوزن بيشرح آلية العمل والمتابعة والأعراض الجانبية من غير ما يكرر تفاصيل الحمل هنا [2, 3, 4].\n\nالأقراص كمان مش مجموعة واحدة. فينترمين/توبيراميت ممنوع في الحمل وله برنامج أمان واختبارات حمل بسبب خطر التوبيراميت، والرضاعة غير موصى بيها أثناء استخدامه لأن المادتين موجودتين في اللبن وممكن تحصل آثار على الطفل [6]. نالتريكسون/بوبروبيون يتوقف عند معرفة الحمل؛ ومكوناته ونواتج تكسيرها بتوصل للبن، فلازم قرار الرضاعة يتراجع مع الطبيب بدل استخدامه كحبوب تخسيس بشكل تلقائي [5]. أورليستات ممنوع أثناء الحمل، وممكن كمان يقلل امتصاص فيتامينات ذائبة في الدهون؛ وجوده في لبن الإنسان غير معروف، فالحذر والمراجعة الفردية مطلوبين أثناء الرضاعة [7].\n\nالمهم هنا إن الاسم التجاري وحده مش كفاية. نفس المادة ممكن تتباع لاستعمال السكر أو الوزن، والسيماجلوتايد موجود كحقن وكأقراص فيها مساعد امتصاص مختلف. اكتب المادة والشكل بالضبط، وما تبدلش من منتج للتاني باعتباره بديل آمن. ولو الدواء أصلاً لضبط السكر مش للوزن، لازم طبيب السكر والنساء يحطوا بديل أو خطة متابعة؛ وقف علاج السكر من غير خطة ممكن يضر الأم والحمل [1, 2].",
-            "en": "The GLP-1 class and dual GIP/GLP-1 agonists include ingredients such as semaglutide, liraglutide and tirzepatide. These medicines differ in persistence, formulation, and whether they are used for diabetes or weight management. Weight-management products are discontinued during pregnancy [2, 3, 4]. For their general mechanisms, monitoring and adverse effects, the GLP-1 medicines: a practical guide covers the broader treatment questions without repeating the pregnancy detail here [2, 3, 4].\n\nTablets are not one interchangeable group either. Phentermine/topiramate is contraindicated in pregnancy and has a safety program and pregnancy-testing requirements because of topiramate risk. Breastfeeding is not recommended during its use because both components enter human milk and infant effects may occur [6]. Naltrexone/bupropion is stopped when pregnancy is recognized; its components and metabolites enter milk, so lactation needs clinician review rather than automatic use as a slimming tablet [5]. Orlistat is contraindicated in pregnancy and can also reduce absorption of fat-soluble vitamins. Its presence in human milk is unknown, requiring caution and individual review during lactation [7].\n\nThe brand name alone is therefore not enough. The same ingredient may be marketed for diabetes or weight management, and semaglutide is available as injections and as tablets containing a distinct absorption enhancer. Record the exact active ingredient and formulation, and do not switch products as though one were a safe substitute. If the medicine was prescribed for glucose control rather than weight alone, the diabetes and obstetric clinicians need to establish an alternative or monitoring plan; untreated hyperglycemia can itself harm the mother and pregnancy [1, 2]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "دليل أدوية GLP-1 لإنقاص الوزن",
-                "url": "../articles/glp1-medication-guide.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "GLP-1 medicines: a practical guide",
-                "url": "../articles/glp1-medication-guide.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "breastfeeding-evidence",
-          "heading": {
-            "ar": "أثناء الرضاعة: إيه اللي معروف وإيه اللي لسه ناقص؟",
-            "en": "During breastfeeding: what is known and what remains uncertain?"
-          },
-          "body": {
-            "ar": "أحدث البيانات بتخلّي الإجابة أدق من كلمة ينفع أو ما ينفعش. في دراسة صغيرة على 8 أمهات بياخدوا حقن سيماجلوتايد، المادة ما اتقاستش في عينات اللبن، والأطفال كانوا أكبر من حديثي الولادة وبيتغذوا تغذية مختلطة؛ الدراسة ما تجاوبش لوحدها عن مولود جديد بيرضع حصرياً أو عن الاستخدام الطويل [8, 12]. LactMed بيفرق بين حقن سيماجلوتايد وبين الأقراص اللي فيها مادة SNAC؛ النسخة الفموية غير مناسبة مع الرضاعة بسبب احتمال وصول مساعد الامتصاص وتراكمه، بينما الحقن ممكن تتناقش طبياً مع متابعة تغذية الأم ونمو الطفل [2, 8].\n\nبالنسبة لتيرزيباتيد، بيانات حديثة لجرعة واحدة لقت إن أغلب عينات اللبن كانت من غير مستوى قابل للقياس والباقي فيه كمية صغيرة جداً، لكن الدراسة ما قاستش أثر الاستخدام المتكرر ولا عندها بيانات كفاية عن الطفل أو إدرار اللبن. عشان كده الملصق بيطلب موازنة فوايد الرضاعة واحتياج الأم للعلاج والمخاطر المحتملة، وLactMed بينصح بالحذر خصوصاً مع مولود جديد أو مبتسر [3, 9]. أما ليراجلوتايد، فمفيش بيانات بشرية مباشرة كفاية في اللبن؛ حجمه الجزيئي يخلي الامتصاص عند الطفل متوقع يبقى قليل، لكن الحذر برضه مطلوب [4, 10].\n\nفيه سؤال تاني غير انتقال الدواء: هل كبح الشهية هيخلي الأم تاكل وتشرب أقل من احتياجاتها؟ لو الشهية ضعفت جداً أو فيه قيء وجفاف، ده ممكن يأثر على التعافي والتغذية وربما إدرار اللبن. عشان كده القرار مش تحليل لبن بس؛ لازم يشمل نمط الرضاعة ونمو الطفل وقدرة الأم على تغذية نفسها [8, 9, 12].",
-            "en": "Newer evidence makes the answer more precise than a simple yes or no. In a small study of eight mothers using injectable semaglutide, the medicine was not measurable in milk samples. Their infants were older than newborns and mixed-fed, so the study cannot by itself answer questions about an exclusively breastfed newborn or long-term treatment [8, 12]. LactMed distinguishes injectable semaglutide from tablets containing the absorption enhancer SNAC: the oral formulation is not recommended during breastfeeding because of possible enhancer transfer and accumulation, while an injection may be discussed clinically with attention to maternal nutrition and infant growth [2, 8].\n\nFor tirzepatide, recent single-dose data found no measurable medicine in most milk samples and only a very small amount in the remainder. The study did not establish repeated-dose exposure or provide sufficient information about infant effects or milk production. The label therefore asks clinicians to balance breastfeeding benefits, maternal clinical need and possible infant effects, while LactMed advises particular caution for newborn or preterm infants [3, 9]. For liraglutide, adequate direct human milk data are absent. Its molecular size suggests low transfer and poor infant absorption, but caution is still appropriate [4, 10].\n\nDrug transfer is not the only question. Could appetite suppression leave the mother eating or drinking too little? Marked appetite loss, vomiting or dehydration could compromise recovery and nutrition and might affect milk supply. A lactation decision therefore considers feeding pattern, infant growth and the mother's ability to nourish herself, not only a milk concentration [8, 9, 12]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "postpartum-timing",
-          "heading": {
-            "ar": "إمتى ممكن ترجع للعلاج بعد الولادة؟",
-            "en": "When can treatment be reconsidered after birth?"
-          },
-          "body": {
-            "ar": "مفيش أسبوع واحد مناسب لكل الناس. بعد الولادة الجسم بيتعافى من الحمل والولادة، والنوم والسوائل والأكل وإدرار اللبن بيتغيروا بسرعة. قبل أي رجوع للدواء، الطبيب بيسأل: هل الرضاعة حصرية ولا مختلطة ولا انتهت؟ الطفل مولود في معاده ولا مبتسر؟ نموه كويس؟ هل الأم عندها سكر نوع تاني أو ضغط أو انقطاع نفس أثناء النوم يخلي للعلاج فائدة طبية عاجلة، ولا الهدف نزول وزن تجميلي سريع؟ وإيه وضع الأكل والبروتين والحديد والسوائل والمزاج؟ [1, 3, 8, 9, 10].\n\nلو الرضاعة مستمرة، غالباً بيتاخد قرار محافظ أكتر مع المولود الجديد أو المبتسر، ومع أي مشكلة نمو أو إدرار. بعض الأقراص مش موصى بيها بوضوح أثناء الرضاعة، بينما بعض الحقن ممكن تتناقش فقط بعد مراجعة فردية واعية بحدود البيانات. لو الرضاعة انتهت، ده يشيل جزء من المعادلة لكنه ما يخليش الدواء مناسب تلقائياً؛ لسه لازم مراجعة الأمراض، الموانع، التداخلات، خطة منع الحمل، والنية في حمل قريب [2, 3, 5, 6, 8, 9].\n\nالجوع مع الرضاعة طبيعي وممكن يبقى قوي، ومش دليل إن الإرادة ضعيفة. صفحة برضع وجعان طول الوقت وعايز أخس، أعمل إيه من غير ما أتعب؟ بتشرح تنظيم الوجبات والسوائل والشبع من غير ما تدخل في اختيار الدواء. البداية الآمنة غالباً تثبيت روتين أكل واقعي، متابعة التعافي والنوم قدر الإمكان، ثم تقييم دوائي هادي بدل سباق مع الميزان [1].",
-            "en": "There is no single postpartum week that suits everyone. The body is recovering from pregnancy and birth while sleep, hydration, intake and milk production change rapidly. Before restarting medicine, a clinician asks: Is breastfeeding exclusive, mixed or complete? Was the infant born at term or prematurely? Is growth satisfactory? Does the mother have type 2 diabetes, hypertension or sleep apnoea that creates a more urgent medical reason for treatment, or is the goal rapid cosmetic weight loss? How adequate are food, protein, iron, fluids and emotional wellbeing? [1, 3, 8, 9, 10].\n\nIf breastfeeding continues, decisions are generally more conservative with a newborn or preterm infant and whenever growth or milk supply is a concern. Some tablets are explicitly not recommended during lactation, whereas discussion of certain injections is possible only after an individualized review that acknowledges evidence gaps. Once breastfeeding has ended, one part of the decision disappears, but treatment is not automatically suitable. Medical conditions, contraindications, interactions, contraception and plans for another pregnancy still require review [2, 3, 5, 6, 8, 9].\n\nStrong hunger during breastfeeding is normal and is not a failure of willpower. I am breastfeeding, hungry all the time and want to lose weight. What can I do safely? explains meal structure, hydration and satiety without drifting into medicine selection. A safe start is usually a realistic eating routine, attention to recovery and sleep where possible, and then a calm medication assessment rather than a race against the scale [1]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "برضع وجعان طول الوقت وعايز أخس، أعمل إيه من غير ما أتعب؟",
-                "url": "../articles/qa-breastfeeding-hunger.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "I am breastfeeding, hungry all the time and want to lose weight. What can I do safely?",
-                "url": "../articles/qa-breastfeeding-hunger.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "contraception-fertility",
-          "heading": {
-            "ar": "منع الحمل والخصوبة: ما تستناش دورة منتظمة عشان تسأل",
-            "en": "Contraception and fertility: do not wait for regular periods to ask"
-          },
-          "body": {
-            "ar": "التبويض ممكن يرجع قبل أول دورة بعد الولادة، ونزول الوزن أو تحسن مقاومة الإنسولين ممكن يغيّر انتظام التبويض عند ناس عندهم تكيس مبايض. عشان كده عدم انتظام الدورة مش وسيلة منع حمل، والرضاعة نفسها مش ضمان إلا بشروط طبية محددة ولفترة محدودة. لو فيه احتمال حمل، ناقش وسيلة مناسبة قبل بدء دواء وزن، وخلّي الطبيب عارف لو فيه نية لحمل قريب [1, 3].\n\nتيرزيباتيد له نقطة عملية مهمة: بسبب تأخير تفريغ المعدة، النشرة بتطلب من مستخدمي حبوب منع الحمل التحول لوسيلة غير فموية أو إضافة وسيلة عازلة لمدة 4 أسابيع بعد بدء العلاج و4 أسابيع بعد كل زيادة جرعة [3]. ده مش تحذير عام بنفس الصيغة لكل أدوية GLP-1، فلا تنقل التعليمات من دواء للتاني. وفينترمين/توبيراميت محتاج اختبار حمل قبل البداية وشهرياً مع وسيلة فعالة، لأن التشوهات المرتبطة بالتوبيراميت ممكن تبدأ بدري قبل معرفة الحمل [6].\n\nلو عندك عدم انتظام دورة أو أعراض تكيس، صفحة تكيس المبايض والوزن: نفهم العلاقة وإيه اللي يساعد بتشرح التشخيص والعلاج الأوسع، لكن ما تستخدمش تحسن الدورة كإشارة إن الحمل مستبعد. سجّل اسم وسيلة المنع وأي قيء أو إسهال شديد ممكن يقلل امتصاص الحبوب، وناقش ده مع طبيب النساء أو الصيدلي. الخطة الجيدة بتجمع هدف الوزن وخطة الإنجاب بدل ما كل واحد يمشي لوحده [3, 6].",
-            "en": "Ovulation can return before the first postpartum period, and weight loss or improved insulin sensitivity may change ovulatory regularity in people with PCOS. Irregular periods are therefore not contraception, and breastfeeding itself is reliable only under specific clinical criteria and for a limited interval. If pregnancy is possible, discuss an appropriate method before starting a weight medicine and tell the prescriber about any near-term pregnancy plan [1, 3].\n\nTirzepatide has an important practical issue. Because it delays gastric emptying, its label advises people using oral hormonal contraceptives to switch to a non-oral method or add a barrier method for four weeks after starting treatment and for four weeks after each dose escalation [3]. This exact instruction does not automatically apply to every GLP-1 medicine, so do not transfer directions from one drug to another. Phentermine/topiramate requires a pregnancy test before initiation and monthly testing with effective contraception because topiramate-associated malformations can begin early, before pregnancy is recognized [6].\n\nIf periods are irregular or PCOS symptoms are present, PCOS and weight: understanding the link and what helps covers the broader diagnostic and treatment pathway. Do not interpret a more regular or irregular cycle as proof that pregnancy cannot occur. Record the contraceptive method and any severe vomiting or diarrhea that might impair pill absorption, then discuss it with the obstetric clinician or pharmacist. A good plan connects weight goals with reproductive plans instead of treating them separately [3, 6]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "تكيس المبايض والوزن: نفهم العلاقة وإيه اللي يساعد",
-                "url": "../articles/pcos-and-weight.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "PCOS and weight: understanding the link and what helps",
-                "url": "../articles/pcos-and-weight.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "next-step",
-          "heading": {
-            "ar": "خطوتك الجاية: مراجعة مشتركة بدل قرار سريع",
-            "en": "Your next step: a coordinated review rather than a rushed decision"
-          },
-          "body": {
-            "ar": "قبل الزيارة، صوّر علبة الدواء أو اكتب المادة الفعالة، الجرعة، آخر مرة اتاخدت، سبب وصفها، وكل علاج أو مكمل تاني. دوّن هل فيه حمل مؤكد أو احتمال حمل، عمر الحمل لو معروف، وهل الرضاعة حصرية أو مختلطة، وعمر الطفل وهل اتولد مبتسر. كمان سجّل القيء، الإسهال، الدوخة، كمية الأكل والسوائل، وأي ملاحظة على إدرار اللبن أو نمو الطفل. المعلومات دي أهم من رقم الميزان لوحده [2, 3, 5, 6, 8, 9].\n\nالمراجعة المنظمة بتفصل بين 3 أسئلة: هل الدواء لازم يتوقف حالاً بسبب الحمل؟ هل فيه مرض زي السكري محتاج بديل آمن بدل مجرد الإيقاف؟ وهل الرجوع بعد الولادة مناسب دلوقتي ولا التأجيل أفضل بسبب الرضاعة أو التغذية أو خطط حمل جديدة؟ القرار ممكن يحتاج تنسيق بين طبيب النساء، طبيب السكر أو الباطنة، طبيب الطفل، وأخصائي إدارة الوزن. ما تعتمدش على تجربة صديق، ولا على كلمة حقن أو طبيعي، ولا على منشور قديم لأن بيانات الرضاعة والنشرات بتتحدث [1, 2, 3, 8, 9].\n\nفي العيادة، التقييم هدفه ترتيب المخاطر والبدائل من غير وعود بنزول معين ومن غير ضغط لإيقاف الرضاعة. لو محتاج تناقش دواء الوزن مع الحمل أو الرضاعة، تقدر تطلب حجز استشارة لإدارة الوزن وتاخد معاك قائمة العلاج وتفاصيل الحمل أو الرضاعة. ولو فيه نزيف، ألم شديد، إغماء، جفاف واضح، أو هبوط سكر، اتجه لخدمة عاجلة بدل انتظار موعد عادي [1, 2, 3].",
-            "en": "Before the visit, photograph the medicine package or record the active ingredient, dose, last dose date, prescribing reason, and every other medicine or supplement. Note whether pregnancy is confirmed or possible, gestational age if known, whether breastfeeding is exclusive or mixed, the infant's age, and any prematurity. Also record vomiting, diarrhea, dizziness, food and fluid intake, and any concern about milk supply or infant growth. These details matter more than the scale number alone [2, 3, 5, 6, 8, 9].\n\nA structured review separates three questions: Must the medicine stop now because of pregnancy? Is a condition such as diabetes present that needs a pregnancy-compatible alternative instead of simple withdrawal? Is postpartum restart suitable now, or is deferral preferable because of breastfeeding, nutrition or another pregnancy plan? Coordination may involve obstetric, diabetes or internal-medicine, pediatric and weight-management clinicians. Do not rely on a friend's experience, the word injection or natural, or an old social post, because lactation evidence and product labels change [1, 2, 3, 8, 9].\n\nAt the clinic, assessment is meant to organize risks and alternatives without promising a particular amount of weight loss or pressuring anyone to stop breastfeeding. If you need to discuss weight medicine during pregnancy or lactation, you can request a weight-management consultation and bring the treatment list and pregnancy or feeding details. For bleeding, severe pain, fainting, marked dehydration or low blood glucose, seek urgent care rather than waiting for a routine appointment [1, 2, 3]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "طلب حجز استشارة لإدارة الوزن",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "request a weight-management consultation",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "short-answer", "heading": {"ar": "الإجابة المختصرة: الحمل غير الرضاعة، واسم المادة هو اللي يفرق", "en": "The short answer: pregnancy and breastfeeding are different, and the active ingredient matters"}, "body": {"ar": "لو السؤال عن استخدام دواء بهدف إنقاص الوزن أثناء الحمل، فالإجابة لأ. الحمل مش وقت عمل عجز سعرات أو نزول وزن مقصود، والنشرات المعتمدة لأدوية زي سيماجلوتايد وتيرزيباتيد وليراجلوتايد، وكمان التركيبات الفموية زي فينترمين/توبيراميت ونالتريكسون/بوبروبيون وأورليستات، بتطلب وقف علاج الوزن لما الحمل يتأكد أو بتعتبره ممنوعاً أثناء الحمل [1, 2, 3, 4, 5, 6, 7]. ده ما معناهش إن وجود زيادة وزن أو سمنة يتساب من غير متابعة؛ معناه إن الهدف بيتغير لتغذية كفاية، وزيادة وزن حمل مناسبة للحالة، وحركة آمنة، وضبط السكر والضغط وأي مرض مصاحب مع فريق النساء والباطنة [1].\n\nالرضاعة قصتها أدق. مش كل الأدوية زي بعض، ومش كل أشكال نفس المادة زي بعض. بعض التركيبات الفموية غير موصى بيها بوضوح، بينما ظهرت بيانات أحدث عن كميات قليلة جداً أو غير قابلة للقياس من بعض الحقن في اللبن، بس بيانات تأثيرها الطويل على الطفل وإدرار اللبن لسه محدودة [2, 3, 5, 6, 8, 9, 10]. عشان كده ما تبدأش أو ترجع لدواء من نفسك، وما توقفش الرضاعة تلقائياً لمجرد إنك أخدت جرعة. القرار بيتعمل باسم المادة وشكلها، سبب العلاج، عمر الطفل وهل مولود كامل ولا مبتسر، نمط الرضاعة، تغذية الأم، والبدائل المتاحة [8, 9, 10].", "en": "If the question is whether a medicine should be used to produce weight loss during pregnancy, the answer is no. Pregnancy is not a time for an intentional calorie deficit or active weight reduction. Current labeling for semaglutide, tirzepatide and liraglutide, as well as oral medicines such as phentermine/topiramate, naltrexone/bupropion and orlistat, directs discontinuation when pregnancy is recognized or lists pregnancy as a contraindication [1, 2, 3, 4, 5, 6, 7]. This does not mean that obesity or excess weight should go unmonitored. It means the goal changes to adequate nutrition, an appropriate pattern of gestational weight gain, safe movement, and management of diabetes, hypertension or other conditions with the obstetric and medical team [1].\n\nBreastfeeding is more nuanced. Medicines differ, and even formulations of the same active ingredient can differ. Some oral combinations are explicitly not recommended, while newer evidence has found very low or unmeasurable milk concentrations after certain injections; however, information about long-term infant outcomes and milk production remains limited [2, 3, 5, 6, 8, 9, 10]. Do not start or restart treatment on your own, and do not automatically stop breastfeeding because of one dose. A sound decision considers the exact ingredient and formulation, the reason for treatment, the infant's age and prematurity, the extent of breastfeeding, maternal nutrition and available alternatives [8, 9, 10]."}, "links": {"ar": [], "en": []}},
+        {"id": "why-pregnancy-is-different", "heading": {"ar": "ليه أدوية التخسيس بتتوقف وقت الحمل؟", "en": "Why are weight-loss medicines stopped during pregnancy?"}, "body": {"ar": "السبب الأساسي مش مجرد إن الدواء جديد؛ الهدف العلاجي نفسه مختلف. تكوين المشيمة ونمو الجنين وتغير حجم الدم وأنسجة الأم محتاجين طاقة وبروتين وحديد وفولات وعناصر دقيقة بشكل منتظم. الأدوية اللي بتقلل الشهية أو تبطّأ المعدة أو تقلل امتصاص الدهون ممكن تصعّب الوصول للاحتياجات دي، خصوصاً لو فيه قيء أو غثيان أو أكل قليل. عشان كده الإرشادات بتفصل بين علاج السمنة قبل الحمل وبين رعاية الوزن والتغذية أثناء الحمل [1, 2, 3, 4, 7].\n\nوفيه سبب تاني: معلومات الأمان البشرية مش كاملة لمعظم أدوية الوزن. النشرات بتذكر إشارات من دراسات الحيوانات لبعض الأدوية، ومخاطر بشرية معروفة لبعض المكونات. أوضح مثال هو توبيراميت الموجود مع فينترمين؛ التعرض له في بداية الحمل مرتبط بزيادة خطر عيوب خلقية ومنها شق الشفة أو سقف الحلق، وده سبب وجود اختبار حمل قبل العلاج وشهرياً مع الاستمرار عليه [6]. أما بيانات GLP-1 البشرية المبكرة فهي مطمئنة جزئياً بعد التعرض غير المقصود، بس هي مش كفاية عشان نحول الدواء لعلاج آمن أثناء الحمل [11].\n\nلو كنت بتخطط للحمل، راجع دليل إبر التخسيس قبل الحمل بقد إيه لأنه بيشرح مدد التوقف الخاصة بكل مادة. هنا التركيز على الحمل القائم والرضاعة، ومهم ما تستخدمش مدة عامة من الإنترنت لكل الأدوية؛ بعضها طويل المفعول وبعضها محتاج وقف تدريجي لتجنب مشكلة زي التشنجات [2, 6].", "en": "The main reason is not simply that these medicines are new; the therapeutic objective itself changes. Placental development, fetal growth, expanding blood volume and maternal tissue changes require reliable energy, protein, iron, folate and micronutrient intake. Medicines that suppress appetite, delay gastric emptying or reduce fat absorption can make those needs harder to meet, especially when nausea, vomiting or low intake is already present. Guidance therefore separates obesity treatment before conception from weight and nutrition care during pregnancy [1, 2, 3, 4, 7].\n\nA second reason is that human safety information remains incomplete for most weight-management medicines. Labels describe reproductive signals from animal studies for several agents and established human risks for particular components. The clearest example is topiramate in the phentermine/topiramate combination: early pregnancy exposure is associated with an increased risk of congenital malformations, including oral clefts, which is why pregnancy testing is recommended before treatment and monthly during use [6]. Early human GLP-1 data offer some reassurance after unintended exposure, but they are not sufficient to establish these medicines as safe pregnancy treatments [11].\n\nIf you are planning conception, see weight-loss medicines before pregnancy: stopping timelines and preconception care for ingredient-specific washout periods. This page focuses on an established pregnancy and breastfeeding. Do not apply one internet timeline to every medicine; their persistence differs, and some products require gradual withdrawal to avoid problems such as seizures [2, 6]."}, "links": {"ar": [{"label": "دليل إبر التخسيس قبل الحمل بقد إيه", "url": "../articles/weight-loss-medicines-before-pregnancy.html"}], "en": [{"label": "weight-loss medicines before pregnancy: stopping timelines and preconception care", "url": "../articles/weight-loss-medicines-before-pregnancy.html"}]}},
+        {"id": "unexpected-pregnancy", "heading": {"ar": "لو اكتشفت الحمل وإنت بتاخد الدواء: اعمل إيه دلوقتي؟", "en": "If pregnancy starts while you are taking medicine: what to do now"}, "body": {"ar": "أول خطوة إنك ما تاخدش جرعة جديدة من دواء إنقاص الوزن لحد ما تتواصل بسرعة مع الطبيب اللي وصفه وطبيب النساء. جهّز اسم المنتج والمادة الفعالة، التركيز والجرعة، تاريخ آخر جرعة، أول يوم في آخر دورة، وأي أدوية أو مكملات تانية. لو الدواء فينترمين/توبيراميت، التقييم العاجل مهم جداً بسبب خطر التوبيراميت المعروف، بس ما تغيّرش طريقة وقف جرعة عالية من نفسك لأن النشرة نفسها بتطلب وقفاً تدريجياً في ظروف معينة لتقليل احتمال التشنج [6]. أدوية سيماجلوتايد وتيرزيباتيد وليراجلوتايد وعلاج نالتريكسون/بوبروبيون بتتوقف لما الحمل يتعرف عليه وفق النشرات [2, 3, 4, 5].\n\nخد بالك: التعرض مش معناه تلقائياً إن فيه ضرر حصل، ومش سبب تحكم على الحمل لوحده. دراسة رصدية مستقبلية شملت حالات تعرض لـ GLP-1 في أول الحمل ما لقتش زيادة واضحة في العيوب الخلقية الكبرى مقارنة بمجموعات مناسبة، بس العدد كان محدود والباحثون أكدوا الحاجة لبيانات أكبر [11]. دي معلومة للطمأنة المتوازنة، مش تصريح باستكمال الدواء. الطبيب هيقدّر توقيت التعرض، نوع المادة، الأمراض المصاحبة، ويحدد متابعة الحمل المناسبة من غير تحاليل أو سونار زائد بلا داعٍ.\n\nلو فيه قيء شديد مستمر، عدم قدرة على الاحتفاظ بالسوائل، دوخة أو إغماء، ألم بطن شديد، نزيف مهبلي، أو أعراض هبوط سكر مع علاج للسكري، اطلب تقييماً عاجلاً. الجفاف، النزيف، والألم الشديد محتاجين تقييم بسبب الأعراض نفسها، مش لمجرد اسم دواء الوزن [1, 2, 3].", "en": "First, withhold further doses of the weight-loss medicine until you promptly contact the prescriber and your obstetric clinician. Gather the product and active-ingredient names, strength and dose, date of the last dose, first day of the last menstrual period, and every other medicine or supplement used. If the product is phentermine/topiramate, urgent review is especially important because of topiramate's established risk, but do not improvise withdrawal from a high dose: its label requires gradual discontinuation in some circumstances to reduce seizure risk [6]. Semaglutide, tirzepatide, liraglutide and naltrexone/bupropion weight-management products are discontinued when pregnancy is recognized according to their labels [2, 3, 4, 5].\n\nExposure does not automatically mean harm occurred, and it is not enough by itself to determine a pregnancy outcome. A prospective observational study of first-trimester GLP-1 exposure did not find a clear increase in major birth defects compared with relevant reference groups, but the sample was limited and the researchers emphasized the need for larger studies [11]. That is balanced reassurance, not permission to continue treatment. Your clinician can interpret the exposure timing, ingredient and coexisting conditions, then arrange appropriate pregnancy follow-up without unnecessary scans or tests.\n\nSeek urgent assessment for persistent severe vomiting, inability to keep fluids down, dizziness or fainting, severe abdominal pain, vaginal bleeding, or symptoms of low blood glucose when diabetes medicines are involved. Dehydration, bleeding and severe pain need evaluation because of the symptoms themselves, not merely because a weight medicine was taken [1, 2, 3]."}, "links": {"ar": [], "en": []}},
+        {"id": "medicine-groups", "heading": {"ar": "القرار حسب المجموعة: الحقن مش زي الأقراص", "en": "Decisions by medicine group: injections are not the same as tablets"}, "body": {"ar": "مجموعة GLP-1 والدواء المزدوج GIP/GLP-1 تشمل مواد زي سيماجلوتايد وليراجلوتايد وتيرزيباتيد. دي أدوية مختلفة في مدة بقائها، شكلها، واستعمالها للسكري أو الوزن. وقت الحمل، منتجات الوزن منها بتتوقف [2, 3, 4]. لو محتاج تفهم الاختلافات العامة، دليل أدوية GLP-1 لإنقاص الوزن بيشرح آلية العمل والمتابعة والأعراض الجانبية من غير ما يكرر تفاصيل الحمل هنا [2, 3, 4].\n\nالأقراص كمان مش مجموعة واحدة. فينترمين/توبيراميت ممنوع في الحمل وله برنامج أمان واختبارات حمل بسبب خطر التوبيراميت، والرضاعة غير موصى بيها أثناء استخدامه لأن المادتين موجودتين في اللبن وممكن تحصل آثار على الطفل [6]. نالتريكسون/بوبروبيون يتوقف عند معرفة الحمل؛ ومكوناته ونواتج تكسيرها بتوصل للبن، فلازم قرار الرضاعة يتراجع مع الطبيب بدل استخدامه كحبوب تخسيس بشكل تلقائي [5]. أورليستات ممنوع أثناء الحمل، وممكن كمان يقلل امتصاص فيتامينات ذائبة في الدهون؛ وجوده في لبن الإنسان غير معروف، فالحذر والمراجعة الفردية مطلوبين أثناء الرضاعة [7].\n\nالمهم هنا إن الاسم التجاري وحده مش كفاية. نفس المادة ممكن تتباع لاستعمال السكر أو الوزن، والسيماجلوتايد موجود كحقن وكأقراص فيها مساعد امتصاص مختلف. اكتب المادة والشكل بالضبط، وما تبدلش من منتج للتاني باعتباره بديل آمن. ولو الدواء أصلاً لضبط السكر مش للوزن، لازم طبيب السكر والنساء يحطوا بديل أو خطة متابعة؛ وقف علاج السكر من غير خطة ممكن يضر الأم والحمل [1, 2].", "en": "The GLP-1 class and dual GIP/GLP-1 agonists include ingredients such as semaglutide, liraglutide and tirzepatide. These medicines differ in persistence, formulation, and whether they are used for diabetes or weight management. Weight-management products are discontinued during pregnancy [2, 3, 4]. For their general mechanisms, monitoring and adverse effects, the GLP-1 medicines: a practical guide covers the broader treatment questions without repeating the pregnancy detail here [2, 3, 4].\n\nTablets are not one interchangeable group either. Phentermine/topiramate is contraindicated in pregnancy and has a safety program and pregnancy-testing requirements because of topiramate risk. Breastfeeding is not recommended during its use because both components enter human milk and infant effects may occur [6]. Naltrexone/bupropion is stopped when pregnancy is recognized; its components and metabolites enter milk, so lactation needs clinician review rather than automatic use as a slimming tablet [5]. Orlistat is contraindicated in pregnancy and can also reduce absorption of fat-soluble vitamins. Its presence in human milk is unknown, requiring caution and individual review during lactation [7].\n\nThe brand name alone is therefore not enough. The same ingredient may be marketed for diabetes or weight management, and semaglutide is available as injections and as tablets containing a distinct absorption enhancer. Record the exact active ingredient and formulation, and do not switch products as though one were a safe substitute. If the medicine was prescribed for glucose control rather than weight alone, the diabetes and obstetric clinicians need to establish an alternative or monitoring plan; untreated hyperglycemia can itself harm the mother and pregnancy [1, 2]."}, "links": {"ar": [{"label": "دليل أدوية GLP-1 لإنقاص الوزن", "url": "../articles/glp1-medication-guide.html"}], "en": [{"label": "GLP-1 medicines: a practical guide", "url": "../articles/glp1-medication-guide.html"}]}},
+        {"id": "breastfeeding-evidence", "heading": {"ar": "أثناء الرضاعة: إيه اللي معروف وإيه اللي لسه ناقص؟", "en": "During breastfeeding: what is known and what remains uncertain?"}, "body": {"ar": "أحدث البيانات بتخلّي الإجابة أدق من كلمة ينفع أو ما ينفعش. في دراسة صغيرة على 8 أمهات بياخدوا حقن سيماجلوتايد، المادة ما اتقاستش في عينات اللبن، والأطفال كانوا أكبر من حديثي الولادة وبيتغذوا تغذية مختلطة؛ الدراسة ما تجاوبش لوحدها عن مولود جديد بيرضع حصرياً أو عن الاستخدام الطويل [8, 12]. LactMed بيفرق بين حقن سيماجلوتايد وبين الأقراص اللي فيها مادة SNAC؛ النسخة الفموية غير مناسبة مع الرضاعة بسبب احتمال وصول مساعد الامتصاص وتراكمه، بينما الحقن ممكن تتناقش طبياً مع متابعة تغذية الأم ونمو الطفل [2, 8].\n\nبالنسبة لتيرزيباتيد، بيانات حديثة لجرعة واحدة لقت إن أغلب عينات اللبن كانت من غير مستوى قابل للقياس والباقي فيه كمية صغيرة جداً، بس الدراسة ما قاستش أثر الاستخدام المتكرر ولا عندها بيانات كفاية عن الطفل أو إدرار اللبن. عشان كده الملصق بيطلب موازنة فوايد الرضاعة واحتياج الأم للعلاج والمخاطر المحتملة، وLactMed بينصح بالحذر خصوصاً مع مولود جديد أو مبتسر [3, 9]. أما ليراجلوتايد، فمفيش بيانات بشرية مباشرة كفاية في اللبن؛ حجمه الجزيئي يخلي الامتصاص عند الطفل متوقع يبقى قليل، بس الحذر برضه مطلوب [4, 10].\n\nفيه سؤال تاني غير انتقال الدواء: هل كبح الشهية هيخلي الأم تاكل وتشرب أقل من احتياجاتها؟ لو الشهية ضعفت جداً أو فيه قيء وجفاف، ده ممكن يأثر على التعافي والتغذية وربما إدرار اللبن. عشان كده القرار مش تحليل لبن بس؛ لازم يشمل نمط الرضاعة ونمو الطفل وقدرة الأم على تغذية نفسها [8, 9, 12].", "en": "Newer evidence makes the answer more precise than a simple yes or no. In a small study of eight mothers using injectable semaglutide, the medicine was not measurable in milk samples. Their infants were older than newborns and mixed-fed, so the study cannot by itself answer questions about an exclusively breastfed newborn or long-term treatment [8, 12]. LactMed distinguishes injectable semaglutide from tablets containing the absorption enhancer SNAC: the oral formulation is not recommended during breastfeeding because of possible enhancer transfer and accumulation, while an injection may be discussed clinically with attention to maternal nutrition and infant growth [2, 8].\n\nFor tirzepatide, recent single-dose data found no measurable medicine in most milk samples and only a very small amount in the remainder. The study did not establish repeated-dose exposure or provide sufficient information about infant effects or milk production. The label therefore asks clinicians to balance breastfeeding benefits, maternal clinical need and possible infant effects, while LactMed advises particular caution for newborn or preterm infants [3, 9]. For liraglutide, adequate direct human milk data are absent. Its molecular size suggests low transfer and poor infant absorption, but caution is still appropriate [4, 10].\n\nDrug transfer is not the only question. Could appetite suppression leave the mother eating or drinking too little? Marked appetite loss, vomiting or dehydration could compromise recovery and nutrition and might affect milk supply. A lactation decision therefore considers feeding pattern, infant growth and the mother's ability to nourish herself, not only a milk concentration [8, 9, 12]."}, "links": {"ar": [], "en": []}},
+        {"id": "postpartum-timing", "heading": {"ar": "إمتى ممكن ترجع للعلاج بعد الولادة؟", "en": "When can treatment be reconsidered after birth?"}, "body": {"ar": "مفيش أسبوع واحد مناسب لكل الناس. بعد الولادة الجسم بيتعافى من الحمل والولادة، والنوم والسوائل والأكل وإدرار اللبن بيتغيروا بسرعة. قبل أي رجوع للدواء، الطبيب بيسأل: هل الرضاعة حصرية ولا مختلطة ولا انتهت؟ الطفل مولود في معاده ولا مبتسر؟ نموه كويس؟ هل الأم عندها سكر نوع تاني أو ضغط أو انقطاع نفس أثناء النوم يخلي للعلاج فائدة طبية عاجلة، ولا الهدف نزول وزن تجميلي سريع؟ وإيه وضع الأكل والبروتين والحديد والسوائل والمزاج؟ [1, 3, 8, 9, 10].\n\nلو الرضاعة مستمرة، غالباً بيتاخد قرار محافظ أكتر مع المولود الجديد أو المبتسر، ومع أي مشكلة نمو أو إدرار. بعض الأقراص مش موصى بيها بوضوح أثناء الرضاعة، بينما بعض الحقن ممكن تتناقش فقط بعد مراجعة فردية واعية بحدود البيانات. لو الرضاعة انتهت، ده يشيل جزء من المعادلة لكنه ما يخليش الدواء مناسب تلقائياً؛ لسه لازم مراجعة الأمراض، الموانع، التداخلات، خطة منع الحمل، والنية في حمل قريب [2, 3, 5, 6, 8, 9].\n\nالجوع مع الرضاعة طبيعي وممكن يبقى قوي، ومش دليل إن الإرادة ضعيفة. صفحة برضع وجعان طول الوقت وعايز أخس، أعمل إيه من غير ما أتعب؟ بتشرح تنظيم الوجبات والسوائل والشبع من غير ما تدخل في اختيار الدواء. البداية الآمنة غالباً تثبيت روتين أكل واقعي، متابعة التعافي والنوم قدر الإمكان، ثم تقييم دوائي هادي بدل سباق مع الميزان [1].", "en": "There is no single postpartum week that suits everyone. The body is recovering from pregnancy and birth while sleep, hydration, intake and milk production change rapidly. Before restarting medicine, a clinician asks: Is breastfeeding exclusive, mixed or complete? Was the infant born at term or prematurely? Is growth satisfactory? Does the mother have type 2 diabetes, hypertension or sleep apnoea that creates a more urgent medical reason for treatment, or is the goal rapid cosmetic weight loss? How adequate are food, protein, iron, fluids and emotional wellbeing? [1, 3, 8, 9, 10].\n\nIf breastfeeding continues, decisions are generally more conservative with a newborn or preterm infant and whenever growth or milk supply is a concern. Some tablets are explicitly not recommended during lactation, whereas discussion of certain injections is possible only after an individualized review that acknowledges evidence gaps. Once breastfeeding has ended, one part of the decision disappears, but treatment is not automatically suitable. Medical conditions, contraindications, interactions, contraception and plans for another pregnancy still require review [2, 3, 5, 6, 8, 9].\n\nStrong hunger during breastfeeding is normal and is not a failure of willpower. I am breastfeeding, hungry all the time and want to lose weight. What can I do safely? explains meal structure, hydration and satiety without drifting into medicine selection. A safe start is usually a realistic eating routine, attention to recovery and sleep where possible, and then a calm medication assessment rather than a race against the scale [1]."}, "links": {"ar": [{"label": "برضع وجعان طول الوقت وعايز أخس، أعمل إيه من غير ما أتعب؟", "url": "../articles/qa-breastfeeding-hunger.html"}], "en": [{"label": "I am breastfeeding, hungry all the time and want to lose weight. What can I do safely?", "url": "../articles/qa-breastfeeding-hunger.html"}]}},
+        {"id": "contraception-fertility", "heading": {"ar": "منع الحمل والخصوبة: ما تستناش دورة منتظمة عشان تسأل", "en": "Contraception and fertility: do not wait for regular periods to ask"}, "body": {"ar": "التبويض ممكن يرجع قبل أول دورة بعد الولادة، ونزول الوزن أو تحسن مقاومة الإنسولين ممكن يغيّر انتظام التبويض عند ناس عندهم تكيس مبايض. عشان كده عدم انتظام الدورة مش وسيلة منع حمل، والرضاعة نفسها مش ضمان إلا بشروط طبية محددة ولفترة محدودة. لو فيه احتمال حمل، ناقش وسيلة مناسبة قبل بدء دواء وزن، وخلّي الطبيب عارف لو فيه نية لحمل قريب [1, 3].\n\nتيرزيباتيد له نقطة عملية مهمة: بسبب تأخير تفريغ المعدة، النشرة بتطلب من مستخدمي حبوب منع الحمل التحول لوسيلة غير فموية أو إضافة وسيلة عازلة لمدة 4 أسابيع بعد بدء العلاج و4 أسابيع بعد كل زيادة جرعة [3]. ده مش تحذير عام بنفس الصيغة لكل أدوية GLP-1، فلا تنقل التعليمات من دواء للتاني. وفينترمين/توبيراميت محتاج اختبار حمل قبل البداية وشهرياً مع وسيلة فعالة، لأن التشوهات المرتبطة بالتوبيراميت ممكن تبدأ بدري قبل معرفة الحمل [6].\n\nلو عندك عدم انتظام دورة أو أعراض تكيس، صفحة تكيس المبايض والوزن: نفهم العلاقة وإيه اللي يساعد بتشرح التشخيص والعلاج الأوسع، بس ما تستخدمش تحسن الدورة كإشارة إن الحمل مستبعد. سجّل اسم وسيلة المنع وأي قيء أو إسهال شديد ممكن يقلل امتصاص الحبوب، وناقش ده مع طبيب النساء أو الصيدلي. الخطة الجيدة بتجمع هدف الوزن وخطة الإنجاب بدل ما كل واحد يمشي لوحده [3, 6].", "en": "Ovulation can return before the first postpartum period, and weight loss or improved insulin sensitivity may change ovulatory regularity in people with PCOS. Irregular periods are therefore not contraception, and breastfeeding itself is reliable only under specific clinical criteria and for a limited interval. If pregnancy is possible, discuss an appropriate method before starting a weight medicine and tell the prescriber about any near-term pregnancy plan [1, 3].\n\nTirzepatide has an important practical issue. Because it delays gastric emptying, its label advises people using oral hormonal contraceptives to switch to a non-oral method or add a barrier method for four weeks after starting treatment and for four weeks after each dose escalation [3]. This exact instruction does not automatically apply to every GLP-1 medicine, so do not transfer directions from one drug to another. Phentermine/topiramate requires a pregnancy test before initiation and monthly testing with effective contraception because topiramate-associated malformations can begin early, before pregnancy is recognized [6].\n\nIf periods are irregular or PCOS symptoms are present, PCOS and weight: understanding the link and what helps covers the broader diagnostic and treatment pathway. Do not interpret a more regular or irregular cycle as proof that pregnancy cannot occur. Record the contraceptive method and any severe vomiting or diarrhea that might impair pill absorption, then discuss it with the obstetric clinician or pharmacist. A good plan connects weight goals with reproductive plans instead of treating them separately [3, 6]."}, "links": {"ar": [{"label": "تكيس المبايض والوزن: نفهم العلاقة وإيه اللي يساعد", "url": "../articles/pcos-and-weight.html"}], "en": [{"label": "PCOS and weight: understanding the link and what helps", "url": "../articles/pcos-and-weight.html"}]}},
+        {"id": "next-step", "heading": {"ar": "خطوتك الجاية: مراجعة مشتركة بدل قرار سريع", "en": "Your next step: a coordinated review rather than a rushed decision"}, "body": {"ar": "قبل الزيارة، صوّر علبة الدواء أو اكتب المادة الفعالة، الجرعة، آخر مرة اتاخدت، سبب وصفها، وكل علاج أو مكمل تاني. دوّن هل فيه حمل مؤكد أو احتمال حمل، عمر الحمل لو معروف، وهل الرضاعة حصرية أو مختلطة، وعمر الطفل وهل اتولد مبتسر. كمان سجّل القيء، الإسهال، الدوخة، كمية الأكل والسوائل، وأي ملاحظة على إدرار اللبن أو نمو الطفل. المعلومات دي أهم من رقم الميزان لوحده [2, 3, 5, 6, 8, 9].\n\nالمراجعة المنظمة بتفصل بين 3 أسئلة: هل الدواء لازم يتوقف حالاً بسبب الحمل؟ هل فيه مرض زي السكري محتاج بديل آمن بدل مجرد الإيقاف؟ وهل الرجوع بعد الولادة مناسب دلوقتي ولا التأجيل أفضل بسبب الرضاعة أو التغذية أو خطط حمل جديدة؟ القرار ممكن يحتاج تنسيق بين طبيب النساء، طبيب السكر أو الباطنة، طبيب الطفل، وأخصائي إدارة الوزن. ما تعتمدش على تجربة صديق، ولا على كلمة حقن أو طبيعي، ولا على منشور قديم لأن بيانات الرضاعة والنشرات بتتحدث [1, 2, 3, 8, 9].\n\nفي العيادة، التقييم هدفه ترتيب المخاطر والبدائل من غير وعود بنزول معين ومن غير ضغط لإيقاف الرضاعة. لو محتاج تناقش دواء الوزن مع الحمل أو الرضاعة، تقدر تطلب حجز استشارة لإدارة الوزن وتاخد معاك قائمة العلاج وتفاصيل الحمل أو الرضاعة. ولو فيه نزيف، ألم شديد، إغماء، جفاف واضح، أو هبوط سكر، اتجه لخدمة عاجلة بدل انتظار موعد عادي [1, 2, 3].", "en": "Before the visit, photograph the medicine package or record the active ingredient, dose, last dose date, prescribing reason, and every other medicine or supplement. Note whether pregnancy is confirmed or possible, gestational age if known, whether breastfeeding is exclusive or mixed, the infant's age, and any prematurity. Also record vomiting, diarrhea, dizziness, food and fluid intake, and any concern about milk supply or infant growth. These details matter more than the scale number alone [2, 3, 5, 6, 8, 9].\n\nA structured review separates three questions: Must the medicine stop now because of pregnancy? Is a condition such as diabetes present that needs a pregnancy-compatible alternative instead of simple withdrawal? Is postpartum restart suitable now, or is deferral preferable because of breastfeeding, nutrition or another pregnancy plan? Coordination may involve obstetric, diabetes or internal-medicine, pediatric and weight-management clinicians. Do not rely on a friend's experience, the word injection or natural, or an old social post, because lactation evidence and product labels change [1, 2, 3, 8, 9].\n\nAt the clinic, assessment is meant to organize risks and alternatives without promising a particular amount of weight loss or pressuring anyone to stop breastfeeding. If you need to discuss weight medicine during pregnancy or lactation, you can request a weight-management consultation and bring the treatment list and pregnancy or feeding details. For bleeding, severe pain, fainting, marked dehydration or low blood glucose, seek urgent care rather than waiting for a routine appointment [1, 2, 3]."}, "links": {"ar": [{"label": "طلب حجز استشارة لإدارة الوزن", "url": "../patients/booking.html"}], "en": [{"label": "request a weight-management consultation", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "هل جرعة واحدة من إبرة تخسيس قبل ما أعرف إني حامل معناها إن الجنين اتضر؟",
-            "en": "Does one weight-loss injection before I knew I was pregnant mean the fetus was harmed?"
-          },
-          "a": {
-            "ar": "لأ، التعرض وحده ما يثبتش إن ضرراً حصل. أوقف الجرعات الجديدة مؤقتاً، وتواصل بسرعة مع الطبيب ومعاك اسم المادة والجرعة والتاريخ. بيانات رصدية عن GLP-1 في أول الحمل مطمئنة جزئياً، لكنها محدودة ومش سبب لاستكمال العلاج؛ المتابعة بتتحدد حسب المادة وتوقيت التعرض والحالة الصحية [2, 3, 11].",
-            "en": "No. Exposure alone does not prove that harm occurred. Withhold further doses and promptly contact the clinician with the ingredient, dose and date. Observational early-pregnancy GLP-1 data are partly reassuring but limited and do not justify continuing treatment; follow-up depends on the ingredient, exposure timing and medical context [2, 3, 11]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل سيماجلوتايد آمن مع الرضاعة الطبيعية؟",
-            "en": "Is semaglutide safe while breastfeeding?"
-          },
-          "a": {
-            "ar": "الإجابة حسب الشكل والحالة. دراسة صغيرة ما لقتش سيماجلوتايد قابل للقياس في اللبن بعد الحقن عند أمهات أطفالهم أكبر ورضاعتهم مختلطة، لكن البيانات الطويلة وحديثي الولادة محدودة. LactMed بيسمح بمناقشة الحقن طبياً، بينما الأقراص اللي فيها SNAC غير موصى بيها مع الرضاعة. القرار فردي ومحتاج متابعة تغذية الأم ونمو الطفل [2, 8, 12].",
-            "en": "It depends on formulation and circumstances. A small study found no measurable semaglutide in milk after injections among mothers of older, mixed-fed infants, but newborn and long-term data remain limited. LactMed supports clinical consideration of injections, whereas SNAC-containing oral tablets are not recommended during breastfeeding. The decision is individualized and includes maternal nutrition and infant growth [2, 8, 12]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل تيرزيباتيد أو مونجارو ينفع أثناء الرضاعة؟",
-            "en": "Can tirzepatide or Mounjaro be used during breastfeeding?"
-          },
-          "a": {
-            "ar": "دراسة جرعة واحدة لقت إن تيرزيباتيد كان غير قابل للقياس في أغلب عينات اللبن وقليل جداً في الباقي، لكن ما فيش بيانات كفاية عن الجرعات المتكررة أو تأثيره على الطفل وإدرار اللبن. LactMed بيقول إن احتياج الأم للعلاج مش سبب تلقائي لوقف الرضاعة، مع حذر أكبر لحديث الولادة والمبتسر. لازم القرار يبقى مع الطبيب، مش بداية ذاتية للتخسيس [3, 9].",
-            "en": "A single-dose study found tirzepatide unmeasurable in most milk samples and very low in the remainder, but repeated-dose, infant-effect and milk-production data are insufficient. LactMed says a maternal clinical need is not automatically a reason to stop breastfeeding, while advising extra caution for newborn or preterm infants. This requires clinician review, not self-starting for weight loss [3, 9]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل أقدر أستخدم أورليستات لأنه مش حقنة وامتصاصه قليل؟",
-            "en": "Can I use orlistat because it is not an injection and is minimally absorbed?"
-          },
-          "a": {
-            "ar": "مش أثناء الحمل؛ النشرة بتعتبر أورليستات ممنوعاً لأن نزول الوزن نفسه مش هدف مناسب، ولأنه يقلل امتصاص الدهون والفيتامينات الذائبة فيها. أثناء الرضاعة وجوده في اللبن غير معروف، وتأثيره على تغذية الأم مهم، فلا تعتبر قلة امتصاصه تصريحاً للاستخدام من نفسك [7].",
-            "en": "Not during pregnancy. Its label lists pregnancy as a contraindication because weight loss is not an appropriate goal and because it reduces absorption of fat and fat-soluble vitamins. During breastfeeding its presence in human milk is unknown and maternal nutrition matters, so minimal systemic absorption is not permission for unsupervised use [7]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل ينفع أوقف فينترمين وتوبيراميت مرة واحدة لو اختبار الحمل طلع إيجابي؟",
-            "en": "Can I stop phentermine/topiramate abruptly after a positive pregnancy test?"
-          },
-          "a": {
-            "ar": "الدواء ممنوع في الحمل وعايز تواصل فوري مع الطبيب، لكن الجرعة العالية من التركيبة ممكن تحتاج وقف تدريجي لأن التوقف المفاجئ عن التوبيراميت قد يسبب تشنجات. ما تاخدش جرعة جديدة ولا تعمل جدول من نفسك؛ اتصل بالطبيب في نفس اليوم عشان يحدد الخطة، واطلب مساعدة عاجلة لو حصل تشنج [6].",
-            "en": "The medicine is contraindicated in pregnancy and requires immediate clinician contact, but the highest combination dose may need gradual withdrawal because abrupt topiramate discontinuation can precipitate seizures. Do not take another dose or invent a taper; contact the prescriber the same day for instructions, and seek emergency help for a seizure [6]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل لازم أفطم عشان أبدأ دواء للتخسيس بعد الولادة؟",
-            "en": "Must I wean before starting a weight-loss medicine postpartum?"
-          },
-          "a": {
-            "ar": "مش كل قرار علاجي معناه فطام، ومش كل دواء مناسب مع استمرار الرضاعة. بعض الأقراص غير موصى بيها بوضوح، وبعض الحقن عندها بيانات أحدث تسمح بمناقشة فردية، خصوصاً لو فيه احتياج طبي. عمر الطفل، الولادة المبكرة، الرضاعة الحصرية، النمو، إدرار اللبن وتغذية الأم كلهم بيفرقوا. ناقش البدائل قبل تغيير الرضاعة [2, 3, 5, 6, 8, 9, 10].",
-            "en": "Not every treatment decision requires weaning, and not every medicine is appropriate while breastfeeding continues. Some tablets are explicitly not recommended, while newer evidence allows individualized discussion of certain injections, especially when a medical need exists. Infant age, prematurity, exclusive feeding, growth, milk supply and maternal nutrition all matter. Discuss alternatives before changing breastfeeding [2, 3, 5, 6, 8, 9, 10]."
-          }
-        }
+        {"q": {"ar": "هل جرعة واحدة من إبرة تخسيس قبل ما أعرف إني حامل معناها إن الجنين اتضر؟", "en": "Does one weight-loss injection before I knew I was pregnant mean the fetus was harmed?"}, "a": {"ar": "لأ، التعرض وحده ما يثبتش إن ضرراً حصل. أوقف الجرعات الجديدة مؤقتاً، وتواصل بسرعة مع الطبيب ومعاك اسم المادة والجرعة والتاريخ. بيانات رصدية عن GLP-1 في أول الحمل مطمئنة جزئياً، بس هي محدودة ومش سبب لاستكمال العلاج؛ المتابعة بتتحدد حسب المادة وتوقيت التعرض والحالة الصحية [2, 3, 11].", "en": "No. Exposure alone does not prove that harm occurred. Withhold further doses and promptly contact the clinician with the ingredient, dose and date. Observational early-pregnancy GLP-1 data are partly reassuring but limited and do not justify continuing treatment; follow-up depends on the ingredient, exposure timing and medical context [2, 3, 11]."}},
+        {"q": {"ar": "هل سيماجلوتايد آمن مع الرضاعة الطبيعية؟", "en": "Is semaglutide safe while breastfeeding?"}, "a": {"ar": "الإجابة حسب الشكل والحالة. دراسة صغيرة ما لقتش سيماجلوتايد قابل للقياس في اللبن بعد الحقن عند أمهات أطفالهم أكبر ورضاعتهم مختلطة، بس البيانات الطويلة وحديثي الولادة محدودة. LactMed بيسمح بمناقشة الحقن طبياً، بينما الأقراص اللي فيها SNAC غير موصى بيها مع الرضاعة. القرار فردي ومحتاج متابعة تغذية الأم ونمو الطفل [2, 8, 12].", "en": "It depends on formulation and circumstances. A small study found no measurable semaglutide in milk after injections among mothers of older, mixed-fed infants, but newborn and long-term data remain limited. LactMed supports clinical consideration of injections, whereas SNAC-containing oral tablets are not recommended during breastfeeding. The decision is individualized and includes maternal nutrition and infant growth [2, 8, 12]."}},
+        {"q": {"ar": "هل تيرزيباتيد أو مونجارو ينفع أثناء الرضاعة؟", "en": "Can tirzepatide or Mounjaro be used during breastfeeding?"}, "a": {"ar": "دراسة جرعة واحدة لقت إن تيرزيباتيد كان غير قابل للقياس في أغلب عينات اللبن وقليل جداً في الباقي، بس ما فيش بيانات كفاية عن الجرعات المتكررة أو تأثيره على الطفل وإدرار اللبن. LactMed بيقول إن احتياج الأم للعلاج مش سبب تلقائي لوقف الرضاعة، مع حذر أكبر لحديث الولادة والمبتسر. لازم القرار يبقى مع الطبيب، مش بداية ذاتية للتخسيس [3, 9].", "en": "A single-dose study found tirzepatide unmeasurable in most milk samples and very low in the remainder, but repeated-dose, infant-effect and milk-production data are insufficient. LactMed says a maternal clinical need is not automatically a reason to stop breastfeeding, while advising extra caution for newborn or preterm infants. This requires clinician review, not self-starting for weight loss [3, 9]."}},
+        {"q": {"ar": "هل أقدر أستخدم أورليستات لأنه مش حقنة وامتصاصه قليل؟", "en": "Can I use orlistat because it is not an injection and is minimally absorbed?"}, "a": {"ar": "مش أثناء الحمل؛ النشرة بتعتبر أورليستات ممنوعاً لأن نزول الوزن نفسه مش هدف مناسب، ولأنه يقلل امتصاص الدهون والفيتامينات الذائبة فيها. أثناء الرضاعة وجوده في اللبن غير معروف، وتأثيره على تغذية الأم مهم، فلا تعتبر قلة امتصاصه تصريحاً للاستخدام من نفسك [7].", "en": "Not during pregnancy. Its label lists pregnancy as a contraindication because weight loss is not an appropriate goal and because it reduces absorption of fat and fat-soluble vitamins. During breastfeeding its presence in human milk is unknown and maternal nutrition matters, so minimal systemic absorption is not permission for unsupervised use [7]."}},
+        {"q": {"ar": "هل ينفع أوقف فينترمين وتوبيراميت مرة واحدة لو اختبار الحمل طلع إيجابي؟", "en": "Can I stop phentermine/topiramate abruptly after a positive pregnancy test?"}, "a": {"ar": "الدواء ممنوع في الحمل وعايز تواصل فوري مع الطبيب، بس الجرعة العالية من التركيبة ممكن تحتاج وقف تدريجي لأن التوقف المفاجئ عن التوبيراميت ممكن يسبب تشنجات. ما تاخدش جرعة جديدة ولا تعمل جدول من نفسك؛ اتصل بالطبيب في نفس اليوم عشان يحدد الخطة، واطلب مساعدة عاجلة لو حصل تشنج [6].", "en": "The medicine is contraindicated in pregnancy and requires immediate clinician contact, but the highest combination dose may need gradual withdrawal because abrupt topiramate discontinuation can precipitate seizures. Do not take another dose or invent a taper; contact the prescriber the same day for instructions, and seek emergency help for a seizure [6]."}},
+        {"q": {"ar": "هل لازم أفطم عشان أبدأ دواء للتخسيس بعد الولادة؟", "en": "Must I wean before starting a weight-loss medicine postpartum?"}, "a": {"ar": "مش كل قرار علاجي معناه فطام، ومش كل دواء مناسب مع استمرار الرضاعة. بعض الأقراص غير موصى بيها بوضوح، وبعض الحقن عندها بيانات أحدث تسمح بمناقشة فردية، خصوصاً لو فيه احتياج طبي. عمر الطفل، الولادة المبكرة، الرضاعة الحصرية، النمو، إدرار اللبن وتغذية الأم كلهم بيفرقوا. ناقش البدائل قبل تغيير الرضاعة [2, 3, 5, 6, 8, 9, 10].", "en": "Not every treatment decision requires weaning, and not every medicine is appropriate while breastfeeding continues. Some tablets are explicitly not recommended, while newer evidence allows individualized discussion of certain injections, especially when a medical need exists. Infant age, prematurity, exclusive feeding, growth, milk supply and maternal nutrition all matter. Discuss alternatives before changing breastfeeding [2, 3, 5, 6, 8, 9, 10]."}}
       ],
       "sources": [
-        {
-          "label": "ACOG — Obesity and Pregnancy",
-          "url": "https://www.acog.org/womens-health/faqs/obesity-and-pregnancy"
-        },
-        {
-          "label": "DailyMed — WEGOVY (semaglutide) Prescribing Information",
-          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b"
-        },
-        {
-          "label": "DailyMed — ZEPBOUND (tirzepatide) Prescribing Information",
-          "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b"
-        },
-        {
-          "label": "DailyMed — SAXENDA (liraglutide) Prescribing Information",
-          "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3946d389-0926-4f77-a708-0acb8153b143"
-        },
-        {
-          "label": "DailyMed — CONTRAVE (naltrexone/bupropion) Prescribing Information",
-          "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=485ff360-32c8-11df-928b-0002a5d5c51b&type=display"
-        },
-        {
-          "label": "DailyMed — QSYMIA (phentermine/topiramate) Prescribing Information",
-          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=40dd5602-53da-45ac-bb4b-15789aba40f9"
-        },
-        {
-          "label": "DailyMed — XENICAL (orlistat) Prescribing Information",
-          "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e"
-        },
-        {
-          "label": "NIH LactMed — Semaglutide",
-          "url": "https://www.ncbi.nlm.nih.gov/books/NBK500980/"
-        },
-        {
-          "label": "NIH LactMed — Tirzepatide",
-          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK581488/"
-        },
-        {
-          "label": "NIH LactMed — Liraglutide",
-          "url": "https://www.ncbi.nlm.nih.gov/books/NBK500977/"
-        },
-        {
-          "label": "Dao et al. — GLP-1 receptor agonists in early pregnancy and reproductive safety (BMJ Open, PMC11043712)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11043712/"
-        },
-        {
-          "label": "Diab et al. — Subcutaneous Semaglutide during Breastfeeding (Nutrients, PMC11397063)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397063/"
-        }
+        {"label": "ACOG — Obesity and Pregnancy", "url": "https://www.acog.org/womens-health/faqs/obesity-and-pregnancy"},
+        {"label": "DailyMed — WEGOVY (semaglutide) Prescribing Information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b"},
+        {"label": "DailyMed — ZEPBOUND (tirzepatide) Prescribing Information", "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b"},
+        {"label": "DailyMed — SAXENDA (liraglutide) Prescribing Information", "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3946d389-0926-4f77-a708-0acb8153b143"},
+        {"label": "DailyMed — CONTRAVE (naltrexone/bupropion) Prescribing Information", "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=485ff360-32c8-11df-928b-0002a5d5c51b&type=display"},
+        {"label": "DailyMed — QSYMIA (phentermine/topiramate) Prescribing Information", "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=40dd5602-53da-45ac-bb4b-15789aba40f9"},
+        {"label": "DailyMed — XENICAL (orlistat) Prescribing Information", "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e"},
+        {"label": "NIH LactMed — Semaglutide", "url": "https://www.ncbi.nlm.nih.gov/books/NBK500980/"},
+        {"label": "NIH LactMed — Tirzepatide", "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK581488/"},
+        {"label": "NIH LactMed — Liraglutide", "url": "https://www.ncbi.nlm.nih.gov/books/NBK500977/"},
+        {"label": "Dao et al. — GLP-1 receptor agonists in early pregnancy and reproductive safety (BMJ Open, PMC11043712)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11043712/"},
+        {"label": "Diab et al. — Subcutaneous Semaglutide during Breastfeeding (Nutrients, PMC11397063)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11397063/"}
       ],
-      "tags": {
-        "ar": [
-          "أدوية التخسيس والحمل",
-          "إبر التخسيس والرضاعة",
-          "سيماجلوتايد والرضاعة",
-          "تيرزيباتيد والرضاعة",
-          "حمل غير مخطط",
-          "إدارة الوزن بعد الولادة"
-        ],
-        "en": [
-          "weight-loss medicine and pregnancy",
-          "weight-loss injections and breastfeeding",
-          "semaglutide breastfeeding",
-          "tirzepatide breastfeeding",
-          "unplanned pregnancy",
-          "postpartum weight management"
-        ]
-      },
-      "seo": {
-        "title": {
-          "ar": "أدوية التخسيس أثناء الحمل والرضاعة",
-          "en": "Weight-Loss Medicines in Pregnancy and Breastfeeding"
-        },
-        "description": {
-          "ar": "دليل طبي عن أدوية التخسيس أثناء الحمل والرضاعة: إمتى توقف الدواء، تعمل إيه مع حمل مفاجئ، وإزاي يتحدد الرجوع للعلاج بعد الولادة بأمان.",
-          "en": "Medical guide to weight-loss medicines in pregnancy and breastfeeding, accidental exposure, lactation evidence, and safe postpartum review."
-        }
-      }
+      "tags": {"ar": ["أدوية التخسيس والحمل", "إبر التخسيس والرضاعة", "سيماجلوتايد والرضاعة", "تيرزيباتيد والرضاعة", "حمل غير مخطط", "إدارة الوزن بعد الولادة"], "en": ["weight-loss medicine and pregnancy", "weight-loss injections and breastfeeding", "semaglutide breastfeeding", "tirzepatide breastfeeding", "unplanned pregnancy", "postpartum weight management"]},
+      "seo": {"title": {"ar": "أدوية التخسيس أثناء الحمل والرضاعة", "en": "Weight-Loss Medicines in Pregnancy and Breastfeeding"}, "description": {"ar": "دليل طبي عن أدوية التخسيس أثناء الحمل والرضاعة: إمتى توقف الدواء، تعمل إيه مع حمل مفاجئ، وإزاي يتحدد الرجوع للعلاج بعد الولادة بأمان.", "en": "Medical guide to weight-loss medicines in pregnancy and breastfeeding, accidental exposure, lactation evidence, and safe postpartum review."}}
     }
   ]
 }
