@@ -597,3 +597,110 @@ New URLs: `gallbladder-polyps-ultrasound-next-steps`, `after-colonoscopy-food-bl
 - `node build/build.mjs`, `node tools/validate.mjs`, `node tools/audit.mjs`, and `python tools/check_voice.py` pass.
 - Commit, successful GitHub Pages deployment, and live HTTP/page-content verification.
 - No Search Console indexing request unless the user gives fresh permission for that exact URL.
+
+## 2026-09-27 release status
+
+- Commit ea60275 (deploy success, live AR+EN verified): 17 Phase 1 articles and 28 Phase 2 rewrites.
+- Commit 87ae458 (deploy success, live AR+EN verified): 6 Phase 2 rewrites and 3 replacement covers (live webp matches local md5).
+  - The rewrites: high-cholesterol-results-and-next-steps, insulin-resistance-adults-symptoms-testing, qa-mesotherapy-safety, qa-snoring-breathing-pauses-weight, qa-emotional-eating-needs-specialist, qa-measurements-down-scale-still.
+- Phase 1: 19 of 20 shortlist topics published. gallbladder-sludge-vs-stones-ultrasound and incidental-kidney-cyst-ultrasound are drafting (Codex) and their ChatGPT covers are generating.
+- Phase 2: 37 queue entries done. 83 staffed entries remain, and 37 entries with no staffed reviewer are skipped. The next batch drafting: h-pylori-reflux-ibs, loose-skin-or-localised-fat, ibs-colon-symptoms-red-flags, child-short-height-growth-curve.
+- GSC: Quota Exceeded confirmed again at ~05:45 EDT. Indexing requests for all new and updated URLs are deferred to the next quota day. They are already in sitemap.xml with the new dates.
+- ~06:05: Batch 6 accepted (all ALL CHECKS PASS, reviewer matches category, no prices):
+  - Phase 1 (new, reviewer mohab-ashraf): gallbladder-sludge-vs-stones-ultrasound (register 8.92), incidental-kidney-cyst-ultrasound (register 5.17); Arabic intros spot-read OK.
+  - Phase 2 (date kept, history +1): h-pylori-reflux-ibs (9.50), loose-skin-or-localised-fat (6.52), ibs-colon-symptoms-red-flags (7.11), child-short-height-growth-curve (6.68).
+  - Covers: gallbladder cover accepted on sight. The first kidney cover was rejected because its printout looked like a pregnancy scan; the regenerated cover (kidney with one simple cyst) was accepted.
+- Release build: 542 pages, validate 0/0, audit 0 blocking, check_voice PASS. The 4 slugs were added to p2_accepted.txt (41 lines).
+- ~06:20: Commit e863b2e deployed (success) and was live-verified AR+EN: the 2 new articles pass all checks and their covers return 200; the 4 P2 pages pass everything except the non-applicable cover check, and all 58 of their images return 200. Phase 1 now has 22 published new articles.
+- ~06:20: P2 batch 7 accepted (all ALL CHECKS PASS, reviewer matches category, date kept, history +1, no prices):
+  - hair-loss-in-children-when-to-check (10.22)
+  - qa-physical-or-emotional-hunger (4.72)
+  - body-contouring-vs-weight-loss (6.26)
+  - cellulite-realistic-options-and-limits (4.91; Arabic spot-read OK)
+  - body-composition-change-over-time (7.00)
+  - h-pylori-in-children-symptoms-tests (5.57)
+- ~06:25: Commit b655a98 (P2 batch 7) deployed (success) and was live-verified AR+EN for all 6 slugs; only the non-applicable cover check failed. All 100 images return 200. P2 batch 8 launched with Codex:
+  - child-nutrition-growth-visit
+  - endoscopy-in-children-when-considered
+  - iron-rich-foods-for-children
+  - qa-child-fussy-eating
+  - qa-fatty-liver-without-overweight
+  - qa-gestational-diabetes-food
+- ~06:36: P2 batch 8 accepted (all ALL CHECKS PASS, reviewer matches category, date kept, history +1, no prices; the "سعرات" and "سيريال" hits mean calories and cereal):
+  - child-nutrition-growth-visit (10.15)
+  - endoscopy-in-children-when-considered (13.31)
+  - iron-rich-foods-for-children (6.75)
+  - qa-child-fussy-eating (9.23)
+  - qa-fatty-liver-without-overweight (7.88)
+  - qa-gestational-diabetes-food (6.15)
+- ~06:45: Commit 0b5a29a (P2 batch 8) deployed (success) and was live-verified AR+EN for all 6 slugs; only the non-applicable cover check failed. All 104 images return 200.
+- P2 batch 9 launched with Codex (8 workers):
+  - qa-reflux-long-term-medicine
+  - qa-sleep-weight-plateau
+  - qa-thyroid-dose-weight
+  - tip-child-two-jobs
+  - tip-photograph-medicine-boxes
+  - qa-normal-glucose-insulin
+  - tip-protein-backup-portions
+  - dark-neck-skin-children-assessment
+- agy (gemini-3.8-flash-high) P2 workers are scheduled for 06:59, after the quota reset (needs a line-by-line review):
+  - h-pylori-children-when-testing-considered
+  - inbody-test-first-visit-guide
+  - therapeutic-nutrition-first-visit-guide
+  - colonoscopy-preparation-what-to-ask
+- ~06:52: P2 batch 9 accepted (all ALL CHECKS PASS, reviewer matches category, date kept, history +1, no prices; the qa-thyroid-dose-weight Arabic was spot-read OK: Egyptian register, advises against self-adjusting the dose):
+  - qa-reflux-long-term-medicine (4.92)
+  - qa-sleep-weight-plateau (4.31)
+  - qa-thyroid-dose-weight (3.57)
+  - tip-child-two-jobs (7.05)
+  - tip-photograph-medicine-boxes (5.52)
+  - qa-normal-glucose-insulin (6.67)
+  - tip-protein-backup-portions (8.36)
+  - dark-neck-skin-children-assessment (7.33)
+- ~06:57: Commit abbc891 (P2 batch 9) deployed (success) and was live-verified AR+EN for all 8 slugs; only the non-applicable cover check failed. All 140 images return 200.
+- P2 batch 10 launched with Codex (8 workers):
+  - hypothyroidism-and-weight
+  - local-fat-injections-do-they-work
+  - fatty-liver-symptoms-diagnosis-risk
+  - qa-prediabetes-need-medicine
+  - h-pylori-symptoms-tests-treatment
+  - recurrent-tummy-aches-in-children
+  - qa-fatty-liver-normal-enzymes
+  - qa-kidney-stone-pass-at-home
+- ~07:20: P2 batch 10 released: 8 Codex drafts plus 4 agy drafts. Every draft passed review_p2 with no price hits.
+- agy review, done line by line:
+  - h-pylori-children: sources [7] and [8] replaced with verified PMC sources (Wang 2025 meta-analysis; Nguyen 2023 review), and the iron-mechanism wording softened.
+  - colonoscopy-prep: [2] is now ASGE Saltzman 2015 and [8] is ESGE Hassan 2019. [10] was relabelled to Jacobson 2025 USMSTF. The unsupported "20–25%" figure and the NICE NG148 misattribution were rewritten.
+  - therapeutic-nutrition: the "wasting syndrome" phrase was fixed and the InBody prep line softened. Clinic instructions now govern.
+  - inbody: sources verified.
+- Commit 71dcf39 (P2 batch 10, 12 slugs) deployed successfully and was live-verified in AR and EN. The only failure was the cover check, which doesn't apply to P2 pages. All 202 images return 200.
+- P2 batch 11 was drafted by 8 Codex workers and 4 agy workers. The agy workers got the strict-sources addendum (`_project/briefs/phase2-rewrite-brief-agy.md`).
+  - Codex slugs: qa-mesotherapy-guaranteed-result, tip-child-texture-bridge, ibs-symptoms-women-assessment-guide, liver-function-tests-need-context, bloating-when-to-see-doctor, acid-reflux-when-to-see-doctor, child-vomiting-and-dehydration-warning-signs, childhood-constipation-when-to-assess.
+  - agy slugs: h-pylori-after-treatment-follow-up, heartburn-in-pregnancy-when-to-assess, hernia-in-children-when-to-assess, ibs-symptoms-in-pregnancy-when-to-check.
+- Batch 11 review:
+  - All 12 pass review_p2.
+  - The price scan found no real hits.
+  - Every agy source returns 200 and its title matches its label; the PubMed items were checked with esummary.
+  - The addendum worked: no fabricated sources this time.
+  - Fixes made:
+    - hernia: "فتق الفخذ" (femoral hernia) was used for inguinal hernia 9 times; changed to "الفتق الإربي".
+    - heartburn: the unsourced "more than half" prevalence figure was softened to "a large proportion".
+    - H. pylori follow-up: repeat endoscopy is now described as "generally recommended" instead of "strictly mandated".
+    - The 4-week and 2-week retest washouts match the guidelines.
+- Commit 0aeb05b (P2 batch 11, 12 slugs) deployed successfully and was live-verified in AR and EN on all 24 pages.
+  - The only failure was the cover check, which doesn't apply to P2 pages.
+  - All 234 images return 200.
+  - The live hernia AR page has 0 instances of "فتق الفخذ" and 24 of "الفتق الإربي".
+  - The heartburn prevalence figure is removed on the live page.
+- P2 batch 12 (launched 07:52) reviewed and released.
+  - Codex: non-surgical-weight-options, stubborn-localised-fat, vitamin-d-in-children-when-to-assess, weight-management-first-visit, qa-fast-weight-loss-before-event, qa-h-pylori-test-after-treatment, qa-injection-nausea-constipation, qa-unknown-slimming-pills.
+  - agy: qa-hungry-soon-after-meal, qa-intermittent-fasting-suitable, qa-medicine-causing-weight-gain, qa-vitamin-d-fatigue.
+  - All 12 passed review_p2; price hits were false positives only (سعرات etc.).
+  - agy sources: all URLs return 200 with matching titles; PubMed items checked via pmid_check.
+  - Figures checked against the sources: Liu 2022 NEJM (139 patients, 8:00-16:00), Welton 2020 (27 trials, 0.8-13.0%), Sutton 2018 (eTRF 8-14h, 5 weeks), Nowak 2016 and Roy 2014 (vitamin D and fatigue).
+  - Line-by-line fixes on agy drafts (AR + EN):
+    - vitamin-d-fatigue: 4-12 weeks → about 4-5 weeks (matches the trials); NHS 4,000 IU "serious harm" → "can be harmful" with the NHS reason; ferritin "iron in the marrow" → "body iron stores".
+    - intermittent-fasting: metabolic switch 10-14h → roughly 12h or more; late eating "promotes visceral fat" and early-TRE "far better" softened to what small studies show; hypoglycaemia wording aligned.
+    - hungry-soon-after-meal: unsourced "3-5 hours satiety" → "for hours".
+    - medicine-causing-weight-gain: "impossible to be fat" → "very unlikely"; one MSA phrase converted to Egyptian.
+  - weight-management-first-visit has two older source records; the P2 file supersedes both. Correction: after ea91450 the built page still showed the 09-21 copy (an older duplicate record shadowed the P2 rewrite); fixed in the build loop, and all 194 accepted P2 pages now show dateModified 2026-09-27.

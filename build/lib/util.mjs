@@ -208,6 +208,9 @@ export function loadContent() {
     for (const rewrite of read(f).articles || []) {
       const at = articles.articles.findIndex((article) => article.slug === rewrite.slug);
       if (at === -1) throw new Error(`${f}: no existing article with slug ${rewrite.slug}`);
+      // A slug can still carry an older expansion record plus a dated rewrite;
+      // the rewrite must replace both, or the later one wins the page.
+      articles.articles = articles.articles.filter((article, i) => i === at || article.slug !== rewrite.slug);
       articles.articles[at] = rewrite;
     }
   }
