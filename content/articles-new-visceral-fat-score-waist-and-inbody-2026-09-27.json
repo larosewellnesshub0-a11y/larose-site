@@ -7,329 +7,50 @@
       "published": true,
       "featured": false,
       "category": "weight-management",
-      "specialties": [
-        "weight-management",
-        "clinical-nutrition"
-      ],
+      "specialties": ["weight-management", "clinical-nutrition"],
       "date": "2026-09-27",
       "updatedAt": "2026-09-27",
       "readingTime": 10,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
       "image": "assets/img/articles/visceral-fat-score-waist-and-inbody-cover.webp",
-      "title": {
-        "ar": "رقم الدهون الحشوية في InBody وقياس الخصر",
-        "en": "Visceral fat score, waist and InBody"
-      },
-      "excerpt": {
-        "ar": "رقم الدهون الحشوية في InBody ومحيط الخصر ممكن ما يتحركوش مع بعض. افهم كل قياس بيمثل إيه، وإزاي توحّد الطريقة وتقرأ الاتجاه من غير ما تعتبر أي رقم تشخيصاً.",
-        "en": "An InBody visceral-fat value and waist circumference may not move together. Learn what each estimate represents, how to standardise measurement and how to read the trend without treating either number as a diagnosis."
-      },
-      "tags": {
-        "ar": [
-          "رقم الدهون الحشوية في InBody",
-          "الدهون الحشوية بتتقاس إزاي",
-          "مستوى الدهون الحشوية الطبيعي",
-          "قياس الدهون الحشوية بالخصر",
-          "حساب الدهون الحشوية",
-          "محيط الخصر"
-        ],
-        "en": [
-          "visceral fat score",
-          "InBody visceral fat",
-          "waist circumference",
-          "waist-to-height ratio",
-          "visceral fat measurement",
-          "central adiposity"
-        ]
-      },
+      "title": {"ar": "رقم الدهون الحشوية في InBody وقياس الخصر", "en": "Visceral fat score, waist and InBody"},
+      "excerpt": {"ar": "رقم الدهون الحشوية في InBody ومحيط الخصر ممكن ما يتحركوش مع بعض. افهم كل قياس بيمثل إيه، وإزاي توحّد الطريقة وتقرأ الاتجاه من غير ما تعتبر أي رقم تشخيصاً.", "en": "An InBody visceral-fat value and waist circumference may not move together. Learn what each estimate represents, how to standardise measurement and how to read the trend without treating either number as a diagnosis."},
+      "tags": {"ar": ["رقم الدهون الحشوية في InBody", "الدهون الحشوية بتتقاس إزاي", "مستوى الدهون الحشوية الطبيعي", "قياس الدهون الحشوية بالخصر", "حساب الدهون الحشوية", "محيط الخصر"], "en": ["visceral fat score", "InBody visceral fat", "waist circumference", "waist-to-height ratio", "visceral fat measurement", "central adiposity"]},
       "sections": [
-        {
-          "id": "two-estimates-not-a-diagnosis",
-          "heading": {
-            "ar": "رقمين لنفس المنطقة، لكن مش نفس القياس",
-            "en": "Two numbers about one region, but not the same measurement"
-          },
-          "body": {
-            "ar": "لما تقرير InBody يكتب مستوى أو مساحة تقديرية للدهون الحشوية، الجهاز ما بيشوفش الدهون حوالين الأعضاء بعينه. تحليل المقاومة الكهربائية الحيوية (Bioelectrical Impedance Analysis أو BIA) بيمرر تياراً كهربائياً ضعيفاً، يقيس مقاومة أنسجة الجسم، وبعد كده خوارزمية الجهاز تقدّر مكونات الجسم وتوزيع الدهون. عشان كده الرقم ناتج عن قياس كهربائي ومعادلة، مش صورة مباشرة للبطن. دراسات قارنت تقدير BIA بالتصوير المقطعي لقت ارتباطاً مفيداً على مستوى مجموعات، لكن الاتفاق عند الفرد كان محدوداً ومختلفاً حسب الجنس وتركيب الجسم والجهاز [4, 5, 9].\n\nمحيط الخصر مختلف: هو شريط حوالين البطن يلتقط الحجم الخارجي الناتج من الدهون الحشوية ودهون تحت الجلد والعضلات وشكل القفص الصدري ومحتوى الأمعاء معاً. رغم بساطته، بيدي معلومة إضافية عن تراكم الدهون المركزي والخطر الأيضي فوق اللي يقوله الوزن أو مؤشر كتلة الجسم وحده. لكنه برضه ما يفصلش الدهون الحشوية عن باقي مكونات البطن وما يحددش دهون عضو بعينه [2, 3, 6].\n\nإذن السؤال المفيد مش «أنهي رقم هو الحقيقة؟»، لكن «هل اتقاس كل رقم بطريقة قابلة للتكرار، وهل اتجاه القياسين متوافق عبر الوقت، وهل الصورة متفقة مع الضغط والسكر والدهون بالدم والتاريخ الصحي؟». لا رقم InBody ولا شريط الخصر يشخّص مرضاً بمفرده، والنتيجة غير المتوقعة تستحق مراجعة الظروف والسياق قبل القلق أو تغيير الخطة [1, 3, 8].",
-            "en": "When an InBody report gives a visceral-fat level or estimated area, the device is not looking directly at fat around the organs. Bioelectrical impedance analysis (BIA) sends a weak electrical current through the body, measures tissue impedance, and then uses the device's algorithm to estimate body components and fat distribution. The result is therefore derived from an electrical measurement and an equation, not a direct abdominal image. Studies comparing BIA estimates with computed tomography have found useful group-level associations, but limited individual agreement that varies with sex, body composition and device [4, 5, 9].\n\nWaist circumference is different. A tape around the abdomen captures external size produced by visceral fat, subcutaneous fat, muscle, body frame and bowel contents together. Despite its simplicity, it adds information about central adiposity and metabolic risk beyond weight or body mass index alone. It still cannot separate visceral from subcutaneous fat or quantify fat around a particular organ [2, 3, 6].\n\nThe useful question is therefore not, “Which number is the truth?” but, “Was each number measured repeatably, do their trends agree over time, and does the pattern fit blood pressure, glucose, blood lipids and health history?” Neither an InBody value nor a tape measurement diagnoses disease by itself. An unexpected result should prompt a review of conditions and context before worry or a change in plan [1, 3, 8]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "إزاي تعرف إذا عندك دهون حشوية حوالين الأعضاء؟",
-                "url": "../articles/qa-visceral-fat-how-to-know.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "How can you tell whether you have visceral fat around your organs?",
-                "url": "../articles/qa-visceral-fat-how-to-know.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "read-the-report-label-first",
-          "heading": {
-            "ar": "قبل ما تسأل عن الطبيعي: اقرأ اسم البند والوحدة",
-            "en": "Before asking what is normal, read the field name and unit"
-          },
-          "body": {
-            "ar": "عبارة «رقم الدهون الحشوية» مش وحدة طبية موحّدة بين كل الأجهزة. ورقة ممكن تعرض Visceral Fat Level كدرجة بلا وحدة، وورقة تانية تعرض مساحة تقديرية، بينما بعض التقارير تكتفي بنسبة الخصر إلى الحوض أو رسم توزيع الدهون. حتى دراسات BIA نفسها استخدمت أجهزة ومعادلات ومخرجات مختلفة، وده سبب مهم إنك ما تنقلش حداً رقمياً من صورة على الإنترنت إلى تقرير مختلف [4, 5, 10].\n\nابدأ بثلاث حاجات مكتوبة على ورقتك: اسم الجهاز أو الموديل، اسم البند بالضبط، والوحدة أو النطاق المرجعي المطبوع. لو البند «مستوى»، قارنه بالنطاق الخاص بنفس التقرير والموديل، مش بالسنتيمتر المربع ولا بنسبة الدهون الكلية. ولو البند «مساحة»، ما تحولوش بنفسك إلى مستوى. صفحة تفسير InBody الرسمية نفسها تعرض نطاقاً مرجعياً لمستوى الدهون الحشوية في نموذج تقرير محدد؛ وجود النطاق مفيد لتفسير الورقة دي، لكنه لا يجعل الدرجة معياراً عالمياً لكل أجهزة BIA [13].\n\nحتى لما القراءة تقع خارج النطاق المطبوع، معناها «إشارة تحتاج سياق»، مش تشخيص تلقائي لسكر أو كبد دهني أو مرض قلب. والعكس صحيح: رقم داخل النطاق لا يلغي عوامل خطر أخرى أو أعراضاً أو تحاليل غير طبيعية. دوّن الرقم كما هو، من غير تقريب انتقائي، وخلي المقارنة التالية على نفس الجهاز ونفس نوع التقرير قدر الإمكان [1, 8, 10].",
-            "en": "“Visceral fat score” is not one standard medical unit shared by every device. One sheet may show a unitless Visceral Fat Level, another may show an estimated area, while some reports show only waist-to-hip ratio or a fat-distribution graphic. BIA studies themselves use different devices, equations and outputs, which is an important reason not to transfer a numerical cutoff from an online image to a different report [4, 5, 10].\n\nStart with three items printed on your own sheet: device or model, exact field name, and unit or displayed reference band. If it is a “level,” compare it with the band for that report and model, not with square centimetres or total body-fat percentage. If it is an “area,” do not convert it into a level yourself. InBody's official result interpretation page displays a reference band for visceral-fat level on a particular report format; that band helps interpret that sheet, but it does not turn the score into a universal standard for every BIA device [13].\n\nEven when a reading is outside the printed band, it is a signal that needs context, not an automatic diagnosis of diabetes, fatty liver or heart disease. The reverse also applies: a reading inside the band does not cancel other risk factors, symptoms or abnormal blood results. Record the value as printed without selective rounding, and use the same device and report type for the next comparison whenever possible [1, 8, 10]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "شرح بنود تقرير InBody بالكامل",
-                "url": "../articles/inbody-results-explained.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "A guide to the full InBody report",
-                "url": "../articles/inbody-results-explained.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "waist-measurement-method",
-          "heading": {
-            "ar": "قياس الخصر بالبيت: اختار بروتوكول وثبّته",
-            "en": "Measuring waist at home: choose one protocol and keep it"
-          },
-          "body": {
-            "ar": "لقياس قابل للمقارنة، قف مستقيم وخلّي البطن مرتاح من غير شفط. حط شريطاً غير مطاطي أفقياً حول الجذع، وخد القراءة بعد زفير طبيعي من غير ما الشريط يضغط الجلد. بروتوكول منظمة الصحة العالمية يستخدم منتصف المسافة بين آخر ضلع وأعلى عظمة الحوض، وبروتوكول أمريكي شائع يستخدم أعلى عظمة الحوض. الاتنين مستخدمين، لكن مكان الشريط ممكن يغيّر الرقم؛ الأهم في المتابعة إنك تختار علامة تشريحية واضحة وتكررها [2, 3, 7].\n\nقيس في وقت متشابه، ويفضل قبل وجبة كبيرة، وابعد عن القياس وقت انتفاخ واضح. كرر القراءة مرتين بعد إعادة وضع الشريط؛ لو الفرق ملحوظ، اعمل قراءة ثالثة وسجّل الطريقة والوقت. ما تشدش الشريط عشان الرقم يقل، وما تنقلش مكانه كل مرة للجزء الأرفع. القياس الذاتي ممكن يكون قريباً من قياس المختص، لكنه يميل أحياناً للتقليل، وده سبب إضافي للتركيز على الاتجاه بنفس الطريقة بدل مقارنة رقمين اتاخدوا ببروتوكولين [3, 7].\n\nنسبة الخصر إلى الطول تتحسب بقسمة الخصر على الطول بنفس الوحدة. إرشادات NICE للبالغين ذوي مؤشر كتلة جسم أقل من 35 تصنف أقل من 0.5 كدهون مركزية صحية، ومن 0.5 إلى 0.59 كزيادة، و0.6 أو أكثر كزيادة أعلى، مع الرسالة البسيطة إن الخصر يفضل أقل من نصف الطول. دي أداة لتقدير الخطر، وليست حساباً لكمية الدهون الحشوية بالكيلو أو تشخيصاً منفرداً [1].",
-            "en": "For a comparable measurement, stand upright and keep the abdomen relaxed without pulling it in. Place a non-stretch tape horizontally around the trunk and read it after a normal breath out, without compressing the skin. The World Health Organization protocol uses the midpoint between the lowest rib and the top of the hip bone; a common US protocol uses the top of the hip bone. Both are used, but tape location can alter the number. For follow-up, choose a clear anatomical landmark and repeat it [2, 3, 7].\n\nMeasure at a similar time, preferably before a large meal, and avoid measuring during obvious bloating. Repeat the reading after repositioning the tape; if the difference is noticeable, take a third and record the method and time. Do not tighten the tape to lower the result or move it to the narrowest point each time. Self-measurement can agree reasonably with a trained measurement, but people sometimes underestimate it. That is another reason to focus on a same-method trend instead of comparing two numbers taken with different protocols [3, 7].\n\nWaist-to-height ratio is waist divided by height in the same unit. For adults with a BMI below 35, NICE classifies below 0.5 as healthy central adiposity, 0.5 to 0.59 as increased, and 0.6 or more as higher central adiposity, with the simple message to keep waist below half of height. This estimates risk; it is not a calculation of kilograms of visceral fat or a diagnosis on its own [1]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "طريقة ثابتة لتكرار قياس الخصر",
-                "url": "../articles/tip-repeatable-waist-measure.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "A repeatable way to measure your waist",
-                "url": "../articles/tip-repeatable-waist-measure.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "when-numbers-disagree",
-          "heading": {
-            "ar": "ليه InBody والخصر ممكن يختلفوا؟",
-            "en": "Why can InBody and waist disagree?"
-          },
-          "body": {
-            "ar": "الاختلاف مش غريب لأن القياسين مبنيين على حاجتين مختلفتين. InBody يبدأ من المقاومة الكهربائية ونموذج رياضي، بينما الشريط يسجل الحجم الخارجي. ممكن الخصر يقل بسبب نقص دهون تحت الجلد أو تغير محتوى الأمعاء من غير حركة واضحة في تقدير الدهون الحشوية. وممكن تقدير الجهاز يتحرك بينما الخصر ثابت بسبب اختلاف الترطيب أو الأكل أو التمرين أو حرارة الجلد أو لأن معادلة الجهاز حساسة للتغير في مكونات الجسم [4, 9, 10].\n\nلو رقم الجهاز ارتفع مرة واحدة والخصر ثابت، راجع أولاً هل الجهاز نفسه اتغير، وهل القياس كان بعد أكل أو تمرين، وهل في جفاف أو احتباس سوائل. لو الخصر زاد وحده، راجع مكان الشريط والتوقيت والانتفاخ والإمساك قبل تفسيره كزيادة دهون. أما لو الاتجاهين ارتفعوا تدريجياً تحت ظروف ثابتة، فالإشارة لزيادة الدهون المركزية تبقى أقوى، لكنها ما زالت تحتاج قراءة مع الوزن والتاريخ وعوامل الخطر [3, 9, 10].\n\nولو الاتجاهين نزلوا على مدار أسابيع، ده دليل متابعة عملي أقوى من فرق صغير بين زيارتين متقاربتين. لا تحاول تجبر الرقمين يتطابقوا؛ هما مش معمولين عشان يطلعوا نفس الوحدة. كمان ما تقارنش نتيجتك برقم شخص تاني، لأن العمر والجنس والطول وتركيب الجسم والسكان اللي اتبنت عليهم المعادلة ممكن يأثروا في التقدير [4, 5, 6].",
-            "en": "Disagreement is unsurprising because the two measurements begin with different information. InBody starts with electrical impedance and a mathematical model, while a tape records external size. Waist may fall because subcutaneous fat or bowel contents change without a clear movement in estimated visceral fat. The device estimate may move while waist is stable because hydration, food, exercise or skin temperature differed, or because the device equation responds to another change in body composition [4, 9, 10].\n\nIf the device value rises once while waist is stable, first check whether the device changed, whether testing followed food or exercise, and whether dehydration or fluid retention was present. If waist alone rises, review tape position, timing, bloating and constipation before calling it fat gain. If both trends rise gradually under standardised conditions, the signal for increasing central adiposity is stronger, but it should still be interpreted with weight, health history and risk factors [3, 9, 10].\n\nIf both trends fall over several weeks, that is stronger practical follow-up evidence than a small difference between neighbouring visits. Do not force the two numbers to match; they were not designed to produce the same unit. Do not compare your result with somebody else's either, because age, sex, height, body composition and the population used to build an equation can all affect the estimate [4, 5, 6]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "build-a-clean-trend",
-          "heading": {
-            "ar": "إزاي تعمل اتجاه ينفع يتفسر؟",
-            "en": "How to build a trend that can be interpreted"
-          },
-          "body": {
-            "ar": "اعتبر أول قياس نقطة بداية، مش حكماً نهائياً. قبل الإعادة، استخدم نفس جهاز InBody إن أمكن، وفي وقت قريب من المرة السابقة، وبنفس التحضير اللي طلبه المكان. تجنب وجبة كبيرة أو تمريناً شديداً قبل القياس مباشرة، وما تغيّرش شرب المياه عمداً عشان تحسن النتيجة. لو في دواء جديد، تورم، دورة شهرية، مرض حاد، أو يوم مختلف بوضوح، سجّل ده عشان الطبيب يعرف إن المقارنة فيها ضوضاء [9, 10].\n\nللخصر، ثبّت نقطة الشريط ووضع الوقوف ومرحلة التنفس والتوقيت. سجّل الرقم من غير ما تختار أقل قراءة، واكتب بجانبه إن كان في انتفاخ أو إمساك. مش لازم تعيد القياس كل يوم؛ التغير الحقيقي في الدهون عادة يُقرأ كاتجاه عبر مدة مناسبة للخطة، بينما القياس المفرط ممكن يخليك تلاحق فروقاً صغيرة سببها الطريقة أو السوائل [2, 3, 7].\n\nاعمل سجلاً بسيطاً فيه التاريخ، موديل الجهاز، بند الدهون الحشوية ووحدته، محيط الخصر ومكانه، الوزن، وأي ظرف مؤثر. لما يتغير جهاز أو بروتوكول، علّم بداية سلسلة جديدة بدل وصل الرقمين كأنهما متكافئان. والمقارنة الأفضل هي أنت مع نفسك، بنفس الأدوات والظروف، مع قرار مسبق عن إمتى النتيجة هتغير سؤالاً أو خطة [3, 9, 10].",
-            "en": "Treat the first measurement as a baseline, not a final verdict. At repeat testing, use the same InBody device where possible, at a similar time, and follow the same preparation requested by the testing site. Avoid a large meal or strenuous exercise immediately beforehand, and do not deliberately manipulate fluid intake to improve the result. Record a new medicine, swelling, menstruation, acute illness or an obviously unusual day so the clinician knows that the comparison contains extra noise [9, 10].\n\nFor waist, keep the tape landmark, standing position, breathing phase and timing consistent. Record the number without selecting only the lowest reading, and note bloating or constipation. Daily repetition is unnecessary; meaningful fat change is generally interpreted as a trend over a period appropriate to the plan, whereas excessive measuring can make you chase small differences caused by technique or fluid [2, 3, 7].\n\nKeep a simple log with date, device model, visceral-fat field and unit, waist and measurement site, weight, and any relevant condition. When the device or protocol changes, mark the start of a new series instead of joining the values as though they were equivalent. The best comparison is you with yourself under similar conditions, with an advance decision about when the result would change a question or plan [3, 9, 10]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "ليه تركيب الجسم أهم من رقم الميزان وحده؟",
-                "url": "../articles/body-composition-not-scale.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Why body composition adds more than scale weight alone",
-                "url": "../articles/body-composition-not-scale.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "what-the-number-cannot-tell-you",
-          "heading": {
-            "ar": "الرقم ما يقدرش يقول إيه؟",
-            "en": "What can the number not tell you?"
-          },
-          "body": {
-            "ar": "الرقم ما يقدرش يحدد وحده إن كان عندك دهون على الكبد، مقاومة إنسولين، سكر، ضغط أو مشكلة قلب. الدهون المركزية مرتبطة بخطر أعلى لهذه المشكلات على مستوى السكان، لكن تقييم الفرد يعتمد كمان على التاريخ العائلي، التدخين، الحركة، النوم، ضغط الدم، وتحاليل يختارها الطبيب حسب الحالة. ممكن شخص يكون وزنه ضمن النطاق المعتاد وخصره مرتفع، وممكن شخص عضلي يكون مؤشر كتلة جسمه مرتفع من غير نفس نمط الدهون [1, 8, 11].\n\nالرقم كمان ما يفسرش كل كِبر في البطن. الانتفاخ، الإمساك، الحمل، تضخم عضو أو تجمع السوائل أسباب مختلفة تماماً، وبعضها يغيّر الخصر أو يربك BIA من غير تغير حقيقي في الدهون. لو البطن كبر بسرعة، أو في تورم واضح أو ضيق نفس، ما تعتبرش ده «دهون حشوية زادت» وتنتظر موعد قياس جديد؛ اطلب تقييماً طبياً [9, 14].\n\nاطلب رعاية عاجلة لو كِبر أو انتفاخ البطن مصحوب بألم شديد مفاجئ، قيء مستمر أو دموي، قيء يشبه لون القهوة، عدم القدرة على إخراج براز أو غازات، صعوبة شديدة في التنفس، إغماء، أو براز أسود أو دموي. دي علامات لا يفسرها رقم تركيب الجسم، وتحتاج مساراً طبياً منفصلاً. وفي غياب الطوارئ، استمرار تغير غير مفسر أو أعراض جديدة يستحق موعداً منظماً بدل التشخيص الذاتي [14].",
-            "en": "The number cannot determine by itself whether you have fatty liver, insulin resistance, diabetes, hypertension or heart disease. Central adiposity is associated with greater population-level risk of these conditions, but individual assessment also includes family history, smoking, movement, sleep, blood pressure and tests selected by a clinician for the situation. Someone can have weight in the usual range but a raised waist, while a muscular person can have a high BMI without the same fat pattern [1, 8, 11].\n\nThe number also cannot explain every enlarged abdomen. Bloating, constipation, pregnancy, an enlarged organ or fluid accumulation are entirely different causes, and some may change waist or disturb BIA without a true fat change. If the abdomen enlarges quickly, or there is clear swelling or breathlessness, do not assume “visceral fat increased” and wait for another measurement; seek medical assessment [9, 14].\n\nSeek urgent care when abdominal enlargement or bloating comes with sudden severe pain, persistent or bloody vomiting, vomit resembling coffee grounds, inability to pass stool or gas, severe difficulty breathing, fainting, or black or bloody stool. A body-composition value cannot explain these warning signs, which require a separate medical pathway. Without an emergency, a persistent unexplained change or new symptoms still deserves a structured appointment rather than self-diagnosis [14]."
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "turn-measurements-into-a-decision",
-          "heading": {
-            "ar": "حوّل القياسات لسؤال طبي واضح",
-            "en": "Turn the measurements into a clear clinical question"
-          },
-          "body": {
-            "ar": "خد معاك التقرير القديم والجديد وسجل الخصر، واسأل: هل المقارنة اتعملت بنفس الجهاز والظروف؟ هل الاختلاف أكبر من التذبذب المتوقع؟ هل في عامل يفسره؟ وإيه المؤشر اللي هنستخدمه لاتخاذ القرار المرة الجاية؟ الطبيب ممكن يراجع الضغط والتاريخ والأدوية والنوم والحركة، ويحدد إذا كانت تحاليل أو تقييمات أخرى مطلوبة. الفكرة إن القياس يفتح سؤالاً مناسباً، مش إنه يفرض تشخيصاً [1, 3, 8].\n\nلو القياسان مختلفان، ما تبدأش حمية قاسية ولا تمريناً مفرطاً عشان تصلح رقم جلسة واحدة. اتفق على هدف صحي وسلوك قابل للاستمرار وموعد منطقي للمراجعة، وراقب الاتجاه بدل البحث عن درجة مثالية. التصوير المقطعي أو الرنين يقدر يميّز الأنسجة الداخلية بصورة أفضل، لكنه مش فحص متابعة روتيني لمجرد إن شريط الخصر وBIA مختلفين؛ قرار التصوير له سؤال طبي وفوائد وحدود يحددها الطبيب [4, 6].\n\nالفريق الطبي في لاروز يقدر يراجع معاك اسم البند والوحدة وطريقة قياس الخصر والسياق الصحي، ويشرح أي رقم يستحق المتابعة من غير وعود أو تشخيص من الجهاز وحده. احجز استشارة لو الاتجاه مستمر، أو النتيجة مش مفهومة، أو في عوامل خطر تحتاج خطة فردية. ولو في أي علامة عاجلة مذكورة فوق، اطلب الرعاية العاجلة بدل انتظار حجز روتيني [1, 14].",
-            "en": "Bring the old and new reports plus your waist log, and ask: Was comparison made on the same device under similar conditions? Is the difference larger than expected variation? Is there a plausible explanation? Which indicator will be used for a decision next time? A clinician may review blood pressure, history, medicines, sleep and movement, then decide whether blood tests or other assessments are needed. The measurement should open the right question, not impose a diagnosis [1, 3, 8].\n\nWhen the two measurements disagree, do not start an extreme diet or excessive exercise to correct one session's number. Agree on a health goal, sustainable actions and a sensible review point, then watch the trend rather than searching for a perfect score. CT or MRI can distinguish internal tissues more directly, but imaging is not routine follow-up simply because a tape and BIA disagree; imaging should answer a clinical question, with benefits and limits considered by the treating clinician [4, 6].\n\nThe medical team at La Rose can review the field name, unit, waist method and health context with you, explaining which number is worth following without promises or a device-only diagnosis. Book a consultation when the trend persists, the result remains unclear, or risk factors need an individual plan. If any urgent warning sign listed above is present, seek urgent care instead of waiting for a routine booking [1, 14]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "احجز استشارة مع الفريق الطبي",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Book a consultation",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "two-estimates-not-a-diagnosis", "heading": {"ar": "رقمين لنفس المنطقة، لكن مش نفس القياس", "en": "Two numbers about one region, but not the same measurement"}, "body": {"ar": "لما تقرير InBody يكتب مستوى أو مساحة تقديرية للدهون الحشوية، الجهاز ما بيشوفش الدهون حوالين الأعضاء بعينه. تحليل المقاومة الكهربائية الحيوية (Bioelectrical Impedance Analysis أو BIA) بيمرر تياراً كهربائياً ضعيفاً، يقيس مقاومة أنسجة الجسم، وبعد كده خوارزمية الجهاز تقدّر مكونات الجسم وتوزيع الدهون. عشان كده الرقم ناتج عن قياس كهربائي ومعادلة، مش صورة مباشرة للبطن. دراسات قارنت تقدير BIA بالتصوير المقطعي لقت ارتباطاً مفيداً على مستوى مجموعات، بس الاتفاق عند الفرد كان محدوداً ومختلفاً حسب الجنس وتركيب الجسم والجهاز [4, 5, 9].\n\nمحيط الخصر مختلف: هو شريط حوالين البطن يلتقط الحجم الخارجي الناتج من الدهون الحشوية ودهون تحت الجلد والعضلات وشكل القفص الصدري ومحتوى الأمعاء معاً. رغم بساطته، بيدي معلومة إضافية عن تراكم الدهون المركزي والخطر الأيضي فوق اللي يقوله الوزن أو مؤشر كتلة الجسم وحده. بس هو برضه ما يفصلش الدهون الحشوية عن باقي مكونات البطن وما يحددش دهون عضو بعينه [2, 3, 6].\n\nإذن السؤال المفيد مش «أنهي رقم هو الحقيقة؟»، بس «هل اتقاس كل رقم بطريقة قابلة للتكرار، وهل اتجاه القياسين متوافق عبر الوقت، وهل الصورة متفقة مع الضغط والسكر والدهون بالدم والتاريخ الصحي؟». لا رقم InBody ولا شريط الخصر يشخّص مرضاً بمفرده، والنتيجة غير المتوقعة تستحق مراجعة الظروف والسياق قبل القلق أو تغيير الخطة [1, 3, 8].", "en": "When an InBody report gives a visceral-fat level or estimated area, the device is not looking directly at fat around the organs. Bioelectrical impedance analysis (BIA) sends a weak electrical current through the body, measures tissue impedance, and then uses the device's algorithm to estimate body components and fat distribution. The result is therefore derived from an electrical measurement and an equation, not a direct abdominal image. Studies comparing BIA estimates with computed tomography have found useful group-level associations, but limited individual agreement that varies with sex, body composition and device [4, 5, 9].\n\nWaist circumference is different. A tape around the abdomen captures external size produced by visceral fat, subcutaneous fat, muscle, body frame and bowel contents together. Despite its simplicity, it adds information about central adiposity and metabolic risk beyond weight or body mass index alone. It still cannot separate visceral from subcutaneous fat or quantify fat around a particular organ [2, 3, 6].\n\nThe useful question is therefore not, “Which number is the truth?” but, “Was each number measured repeatably, do their trends agree over time, and does the pattern fit blood pressure, glucose, blood lipids and health history?” Neither an InBody value nor a tape measurement diagnoses disease by itself. An unexpected result should prompt a review of conditions and context before worry or a change in plan [1, 3, 8]."}, "links": {"ar": [{"label": "إزاي تعرف إذا عندك دهون حشوية حوالين الأعضاء؟", "url": "../articles/qa-visceral-fat-how-to-know.html"}], "en": [{"label": "How can you tell whether you have visceral fat around your organs?", "url": "../articles/qa-visceral-fat-how-to-know.html"}]}},
+        {"id": "read-the-report-label-first", "heading": {"ar": "قبل ما تسأل عن الطبيعي: اقرأ اسم البند والوحدة", "en": "Before asking what is normal, read the field name and unit"}, "body": {"ar": "عبارة «رقم الدهون الحشوية» مش وحدة طبية موحّدة بين كل الأجهزة. ورقة ممكن تعرض Visceral Fat Level كدرجة بلا وحدة، وورقة تانية تعرض مساحة تقديرية، بينما بعض التقارير تكتفي بنسبة الخصر إلى الحوض أو رسم توزيع الدهون. حتى دراسات BIA نفسها استخدمت أجهزة ومعادلات ومخرجات مختلفة، وده سبب مهم إنك ما تنقلش حداً رقمياً من صورة على الإنترنت إلى تقرير مختلف [4, 5, 10].\n\nابدأ بثلاث حاجات مكتوبة على ورقتك: اسم الجهاز أو الموديل، اسم البند بالضبط، والوحدة أو النطاق المرجعي المطبوع. لو البند «مستوى»، قارنه بالنطاق الخاص بنفس التقرير والموديل، مش بالسنتيمتر المربع ولا بنسبة الدهون الكلية. ولو البند «مساحة»، ما تحولوش بنفسك إلى مستوى. صفحة تفسير InBody الرسمية نفسها تعرض نطاقاً مرجعياً لمستوى الدهون الحشوية في نموذج تقرير محدد؛ وجود النطاق مفيد لتفسير الورقة دي، بس ده مش بيخلي الدرجة معيار عالمي لكل أجهزة BIA [13].\n\nحتى لما القراءة تقع خارج النطاق المطبوع، معناها «إشارة تحتاج سياق»، مش تشخيص تلقائي لسكر أو كبد دهني أو مرض قلب. والعكس صحيح: رقم داخل النطاق مش بيلغي عوامل خطر أخرى أو أعراضاً أو تحاليل غير طبيعية. دوّن الرقم كما هو، من غير تقريب انتقائي، وخلي المقارنة التالية على نفس الجهاز ونفس نوع التقرير قدر الإمكان [1, 8, 10].", "en": "“Visceral fat score” is not one standard medical unit shared by every device. One sheet may show a unitless Visceral Fat Level, another may show an estimated area, while some reports show only waist-to-hip ratio or a fat-distribution graphic. BIA studies themselves use different devices, equations and outputs, which is an important reason not to transfer a numerical cutoff from an online image to a different report [4, 5, 10].\n\nStart with three items printed on your own sheet: device or model, exact field name, and unit or displayed reference band. If it is a “level,” compare it with the band for that report and model, not with square centimetres or total body-fat percentage. If it is an “area,” do not convert it into a level yourself. InBody's official result interpretation page displays a reference band for visceral-fat level on a particular report format; that band helps interpret that sheet, but it does not turn the score into a universal standard for every BIA device [13].\n\nEven when a reading is outside the printed band, it is a signal that needs context, not an automatic diagnosis of diabetes, fatty liver or heart disease. The reverse also applies: a reading inside the band does not cancel other risk factors, symptoms or abnormal blood results. Record the value as printed without selective rounding, and use the same device and report type for the next comparison whenever possible [1, 8, 10]."}, "links": {"ar": [{"label": "شرح بنود تقرير InBody بالكامل", "url": "../articles/inbody-results-explained.html"}], "en": [{"label": "A guide to the full InBody report", "url": "../articles/inbody-results-explained.html"}]}},
+        {"id": "waist-measurement-method", "heading": {"ar": "قياس الخصر بالبيت: اختار بروتوكول وثبّته", "en": "Measuring waist at home: choose one protocol and keep it"}, "body": {"ar": "لقياس قابل للمقارنة، قف مستقيم وخلّي البطن مرتاح من غير شفط. حط شريطاً غير مطاطي أفقياً حول الجذع، وخد القراءة بعد زفير طبيعي من غير ما الشريط يضغط الجلد. بروتوكول منظمة الصحة العالمية يستخدم منتصف المسافة بين آخر ضلع وأعلى عظمة الحوض، وبروتوكول أمريكي شائع يستخدم أعلى عظمة الحوض. الاتنين مستخدمين، بس مكان الشريط ممكن يغيّر الرقم؛ الأهم في المتابعة إنك تختار علامة تشريحية واضحة وتكررها [2, 3, 7].\n\nقيس في وقت متشابه، ويفضل قبل وجبة كبيرة، وابعد عن القياس وقت انتفاخ واضح. كرر القراءة مرتين بعد إعادة وضع الشريط؛ لو الفرق ملحوظ، اعمل قراءة ثالثة وسجّل الطريقة والوقت. ما تشدش الشريط عشان الرقم يقل، وما تنقلش مكانه كل مرة للجزء الأرفع. القياس الذاتي ممكن يكون قريباً من قياس المختص، بس هو يميل أحياناً للتقليل، وده سبب إضافي للتركيز على الاتجاه بنفس الطريقة بدل مقارنة رقمين اتاخدوا ببروتوكولين [3, 7].\n\nنسبة الخصر إلى الطول تتحسب بقسمة الخصر على الطول بنفس الوحدة. إرشادات NICE للبالغين ذوي مؤشر كتلة جسم أقل من 35 تصنف أقل من 0.5 كدهون مركزية صحية، ومن 0.5 إلى 0.59 كزيادة، و0.6 أو أكثر كزيادة أعلى، مع الرسالة البسيطة إن الخصر يفضل أقل من نصف الطول. دي أداة لتقدير الخطر، وليست حساباً لكمية الدهون الحشوية بالكيلو أو تشخيصاً منفرداً [1].", "en": "For a comparable measurement, stand upright and keep the abdomen relaxed without pulling it in. Place a non-stretch tape horizontally around the trunk and read it after a normal breath out, without compressing the skin. The World Health Organization protocol uses the midpoint between the lowest rib and the top of the hip bone; a common US protocol uses the top of the hip bone. Both are used, but tape location can alter the number. For follow-up, choose a clear anatomical landmark and repeat it [2, 3, 7].\n\nMeasure at a similar time, preferably before a large meal, and avoid measuring during obvious bloating. Repeat the reading after repositioning the tape; if the difference is noticeable, take a third and record the method and time. Do not tighten the tape to lower the result or move it to the narrowest point each time. Self-measurement can agree reasonably with a trained measurement, but people sometimes underestimate it. That is another reason to focus on a same-method trend instead of comparing two numbers taken with different protocols [3, 7].\n\nWaist-to-height ratio is waist divided by height in the same unit. For adults with a BMI below 35, NICE classifies below 0.5 as healthy central adiposity, 0.5 to 0.59 as increased, and 0.6 or more as higher central adiposity, with the simple message to keep waist below half of height. This estimates risk; it is not a calculation of kilograms of visceral fat or a diagnosis on its own [1]."}, "links": {"ar": [{"label": "طريقة ثابتة لتكرار قياس الخصر", "url": "../articles/tip-repeatable-waist-measure.html"}], "en": [{"label": "A repeatable way to measure your waist", "url": "../articles/tip-repeatable-waist-measure.html"}]}},
+        {"id": "when-numbers-disagree", "heading": {"ar": "ليه InBody والخصر ممكن يختلفوا؟", "en": "Why can InBody and waist disagree?"}, "body": {"ar": "الاختلاف مش غريب لأن القياسين مبنيين على حاجتين مختلفتين. InBody يبدأ من المقاومة الكهربائية ونموذج رياضي، بينما الشريط يسجل الحجم الخارجي. ممكن الخصر يقل بسبب نقص دهون تحت الجلد أو تغير محتوى الأمعاء من غير حركة واضحة في تقدير الدهون الحشوية. وممكن تقدير الجهاز يتحرك بينما الخصر ثابت بسبب اختلاف الترطيب أو الأكل أو التمرين أو حرارة الجلد أو لأن معادلة الجهاز حساسة للتغير في مكونات الجسم [4, 9, 10].\n\nلو رقم الجهاز ارتفع مرة واحدة والخصر ثابت، راجع أولاً هل الجهاز نفسه اتغير، وهل القياس كان بعد أكل أو تمرين، وهل في جفاف أو احتباس سوائل. لو الخصر زاد وحده، راجع مكان الشريط والتوقيت والانتفاخ والإمساك قبل تفسيره كزيادة دهون. أما لو الاتجاهين ارتفعوا تدريجياً تحت ظروف ثابتة، فالإشارة لزيادة الدهون المركزية تبقى أقوى، بس لسه محتاجة تتقرا مع الوزن والتاريخ وعوامل الخطر [3, 9, 10].\n\nولو الاتجاهين نزلوا على مدار أسابيع، ده دليل متابعة عملي أقوى من فرق صغير بين زيارتين متقاربتين. لا تحاول تجبر الرقمين يتطابقوا؛ هما مش معمولين عشان يطلعوا نفس الوحدة. كمان ما تقارنش نتيجتك برقم شخص تاني، لأن العمر والجنس والطول وتركيب الجسم والسكان اللي اتبنت عليهم المعادلة ممكن يأثروا في التقدير [4, 5, 6].", "en": "Disagreement is unsurprising because the two measurements begin with different information. InBody starts with electrical impedance and a mathematical model, while a tape records external size. Waist may fall because subcutaneous fat or bowel contents change without a clear movement in estimated visceral fat. The device estimate may move while waist is stable because hydration, food, exercise or skin temperature differed, or because the device equation responds to another change in body composition [4, 9, 10].\n\nIf the device value rises once while waist is stable, first check whether the device changed, whether testing followed food or exercise, and whether dehydration or fluid retention was present. If waist alone rises, review tape position, timing, bloating and constipation before calling it fat gain. If both trends rise gradually under standardised conditions, the signal for increasing central adiposity is stronger, but it should still be interpreted with weight, health history and risk factors [3, 9, 10].\n\nIf both trends fall over several weeks, that is stronger practical follow-up evidence than a small difference between neighbouring visits. Do not force the two numbers to match; they were not designed to produce the same unit. Do not compare your result with somebody else's either, because age, sex, height, body composition and the population used to build an equation can all affect the estimate [4, 5, 6]."}, "links": {"ar": [], "en": []}},
+        {"id": "build-a-clean-trend", "heading": {"ar": "إزاي تعمل اتجاه ينفع يتفسر؟", "en": "How to build a trend that can be interpreted"}, "body": {"ar": "اعتبر أول قياس نقطة بداية، مش حكماً نهائياً. قبل الإعادة، استخدم نفس جهاز InBody إن أمكن، وفي وقت قريب من المرة السابقة، وبنفس التحضير اللي طلبه المكان. تجنب وجبة كبيرة أو تمريناً شديداً قبل القياس مباشرة، وما تغيّرش شرب المياه عمداً عشان تحسن النتيجة. لو في دواء جديد، تورم، دورة شهرية، مرض حاد، أو يوم مختلف بوضوح، سجّل ده عشان الطبيب يعرف إن المقارنة فيها ضوضاء [9, 10].\n\nللخصر، ثبّت نقطة الشريط ووضع الوقوف ومرحلة التنفس والتوقيت. سجّل الرقم من غير ما تختار أقل قراءة، واكتب بجانبه إن كان في انتفاخ أو إمساك. مش لازم تعيد القياس كل يوم؛ التغير الحقيقي في الدهون عادة يُقرأ كاتجاه عبر مدة مناسبة للخطة، بينما القياس المفرط ممكن يخليك تلاحق فروقاً صغيرة سببها الطريقة أو السوائل [2, 3, 7].\n\nاعمل سجلاً بسيطاً فيه التاريخ، موديل الجهاز، بند الدهون الحشوية ووحدته، محيط الخصر ومكانه، الوزن، وأي ظرف مؤثر. لما يتغير جهاز أو بروتوكول، علّم بداية سلسلة جديدة بدل وصل الرقمين كأنهما متكافئان. والمقارنة الأفضل هي أنت مع نفسك، بنفس الأدوات والظروف، مع قرار مسبق عن إمتى النتيجة هتغير سؤالاً أو خطة [3, 9, 10].", "en": "Treat the first measurement as a baseline, not a final verdict. At repeat testing, use the same InBody device where possible, at a similar time, and follow the same preparation requested by the testing site. Avoid a large meal or strenuous exercise immediately beforehand, and do not deliberately manipulate fluid intake to improve the result. Record a new medicine, swelling, menstruation, acute illness or an obviously unusual day so the clinician knows that the comparison contains extra noise [9, 10].\n\nFor waist, keep the tape landmark, standing position, breathing phase and timing consistent. Record the number without selecting only the lowest reading, and note bloating or constipation. Daily repetition is unnecessary; meaningful fat change is generally interpreted as a trend over a period appropriate to the plan, whereas excessive measuring can make you chase small differences caused by technique or fluid [2, 3, 7].\n\nKeep a simple log with date, device model, visceral-fat field and unit, waist and measurement site, weight, and any relevant condition. When the device or protocol changes, mark the start of a new series instead of joining the values as though they were equivalent. The best comparison is you with yourself under similar conditions, with an advance decision about when the result would change a question or plan [3, 9, 10]."}, "links": {"ar": [{"label": "ليه تركيب الجسم أهم من رقم الميزان وحده؟", "url": "../articles/body-composition-not-scale.html"}], "en": [{"label": "Why body composition adds more than scale weight alone", "url": "../articles/body-composition-not-scale.html"}]}},
+        {"id": "what-the-number-cannot-tell-you", "heading": {"ar": "الرقم ما يقدرش يقول إيه؟", "en": "What can the number not tell you?"}, "body": {"ar": "الرقم ما يقدرش يحدد وحده إن كان عندك دهون على الكبد، مقاومة إنسولين، سكر، ضغط أو مشكلة قلب. الدهون المركزية مرتبطة بخطر أعلى للمشكلات دي على مستوى السكان، بس تقييم الفرد يعتمد كمان على التاريخ العائلي، التدخين، الحركة، النوم، ضغط الدم، وتحاليل يختارها الطبيب حسب الحالة. ممكن شخص يكون وزنه ضمن النطاق المعتاد وخصره مرتفع، وممكن شخص عضلي يكون مؤشر كتلة جسمه مرتفع من غير نفس نمط الدهون [1, 8, 11].\n\nالرقم كمان ما يفسرش كل كِبر في البطن. الانتفاخ، الإمساك، الحمل، تضخم عضو أو تجمع السوائل أسباب مختلفة تماماً، وبعضها يغيّر الخصر أو يربك BIA من غير تغير حقيقي في الدهون. لو البطن كبر بسرعة، أو في تورم واضح أو ضيق نفس، ما تعتبرش ده «دهون حشوية زادت» وتنتظر موعد قياس جديد؛ اطلب تقييماً طبياً [9, 14].\n\nاطلب رعاية عاجلة لو كِبر أو انتفاخ البطن مصحوب بألم شديد مفاجئ، قيء مستمر أو دموي، قيء يشبه لون القهوة، عدم القدرة على إخراج براز أو غازات، صعوبة شديدة في التنفس، إغماء، أو براز أسود أو دموي. دي علامات رقم تركيب الجسم مبيفسرهاش، وتحتاج مساراً طبياً منفصلاً. وفي غياب الطوارئ، استمرار تغير غير مفسر أو أعراض جديدة يستحق موعداً منظماً بدل التشخيص الذاتي [14].", "en": "The number cannot determine by itself whether you have fatty liver, insulin resistance, diabetes, hypertension or heart disease. Central adiposity is associated with greater population-level risk of these conditions, but individual assessment also includes family history, smoking, movement, sleep, blood pressure and tests selected by a clinician for the situation. Someone can have weight in the usual range but a raised waist, while a muscular person can have a high BMI without the same fat pattern [1, 8, 11].\n\nThe number also cannot explain every enlarged abdomen. Bloating, constipation, pregnancy, an enlarged organ or fluid accumulation are entirely different causes, and some may change waist or disturb BIA without a true fat change. If the abdomen enlarges quickly, or there is clear swelling or breathlessness, do not assume “visceral fat increased” and wait for another measurement; seek medical assessment [9, 14].\n\nSeek urgent care when abdominal enlargement or bloating comes with sudden severe pain, persistent or bloody vomiting, vomit resembling coffee grounds, inability to pass stool or gas, severe difficulty breathing, fainting, or black or bloody stool. A body-composition value cannot explain these warning signs, which require a separate medical pathway. Without an emergency, a persistent unexplained change or new symptoms still deserves a structured appointment rather than self-diagnosis [14]."}, "links": {"ar": [], "en": []}},
+        {"id": "turn-measurements-into-a-decision", "heading": {"ar": "حوّل القياسات لسؤال طبي واضح", "en": "Turn the measurements into a clear clinical question"}, "body": {"ar": "خد معاك التقرير القديم والجديد وسجل الخصر، واسأل: هل المقارنة اتعملت بنفس الجهاز والظروف؟ هل الاختلاف أكبر من التذبذب المتوقع؟ هل في عامل يفسره؟ وإيه المؤشر اللي هنستخدمه لاتخاذ القرار المرة الجاية؟ الطبيب ممكن يراجع الضغط والتاريخ والأدوية والنوم والحركة، ويحدد إذا كانت تحاليل أو تقييمات أخرى مطلوبة. الفكرة إن القياس يفتح سؤالاً مناسباً، مش إنه يفرض تشخيصاً [1, 3, 8].\n\nلو القياسان مختلفان، ما تبدأش حمية قاسية ولا تمريناً مفرطاً عشان تصلح رقم جلسة واحدة. اتفق على هدف صحي وسلوك قابل للاستمرار وموعد منطقي للمراجعة، وراقب الاتجاه بدل البحث عن درجة مثالية. التصوير المقطعي أو الرنين يقدر يميّز الأنسجة الداخلية بصورة أفضل، بس هو مش فحص متابعة روتيني لمجرد إن شريط الخصر وBIA مختلفين؛ قرار التصوير له سؤال طبي وفوائد وحدود يحددها الطبيب [4, 6].\n\nالفريق الطبي في لاروز يقدر يراجع معاك اسم البند والوحدة وطريقة قياس الخصر والسياق الصحي، ويشرح أي رقم يستحق المتابعة من غير وعود أو تشخيص من الجهاز وحده. احجز استشارة لو الاتجاه مستمر، أو النتيجة مش مفهومة، أو في عوامل خطر تحتاج خطة فردية. ولو في أي علامة عاجلة مذكورة فوق، اطلب الرعاية العاجلة بدل انتظار حجز روتيني [1, 14].", "en": "Bring the old and new reports plus your waist log, and ask: Was comparison made on the same device under similar conditions? Is the difference larger than expected variation? Is there a plausible explanation? Which indicator will be used for a decision next time? A clinician may review blood pressure, history, medicines, sleep and movement, then decide whether blood tests or other assessments are needed. The measurement should open the right question, not impose a diagnosis [1, 3, 8].\n\nWhen the two measurements disagree, do not start an extreme diet or excessive exercise to correct one session's number. Agree on a health goal, sustainable actions and a sensible review point, then watch the trend rather than searching for a perfect score. CT or MRI can distinguish internal tissues more directly, but imaging is not routine follow-up simply because a tape and BIA disagree; imaging should answer a clinical question, with benefits and limits considered by the treating clinician [4, 6].\n\nThe medical team at La Rose can review the field name, unit, waist method and health context with you, explaining which number is worth following without promises or a device-only diagnosis. Book a consultation when the trend persists, the result remains unclear, or risk factors need an individual plan. If any urgent warning sign listed above is present, seek urgent care instead of waiting for a routine booking [1, 14]."}, "links": {"ar": [{"label": "احجز استشارة مع الفريق الطبي", "url": "../patients/booking.html"}], "en": [{"label": "Book a consultation", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "رقم الدهون الحشوية الطبيعي في InBody كام؟",
-            "en": "What is a normal visceral-fat score on InBody?"
-          },
-          "a": {
-            "ar": "مافيش رقم عالمي ينفع لكل جهاز وكل نوع تقرير. شوف اسم البند والوحدة والنطاق المرجعي المطبوع على نفس ورقة وموديل InBody؛ بعض الأوراق تعرض «مستوى» وبعضها مساحة تقديرية. صفحة InBody الرسمية تعرض أقل من 10 لنموذج تقرير معيّن، لكن ما ينفعش تنقل الحد إلى جهاز أو مخرج مختلف. وحتى داخل النطاق، النتيجة مش شهادة خلو من الخطر؛ تتقري مع الخصر وعوامل الخطر والتاريخ [4, 10, 13].",
-            "en": "There is no universal number that applies to every device and report type. Check the field name, unit and reference band printed for that InBody model; some sheets show a “level” and others an estimated area. InBody's official page shows below 10 for one report format, but that cutoff should not be transferred to a different device or output. Even an in-range result is not a certificate of no risk; it belongs with waist, risk factors and history [4, 10, 13]."
-          }
-        },
-        {
-          "q": {
-            "ar": "الدهون الحشوية بتتقاس إزاي؟",
-            "en": "How is visceral fat measured?"
-          },
-          "a": {
-            "ar": "التصوير المقطعي والرنين يقدروا يميّزوا الأنسجة الداخلية بصورة مباشرة أكتر، لكنهم مش مطلوبين عادة لمتابعة الوزن من غير سؤال طبي. محيط الخصر يقدّر الدهون المركزية والخطر بشكل عملي لكنه لا يعزل الدهون الحشوية. BIA زي InBody يقيس المقاومة الكهربائية ثم يستخدم معادلة لتقدير الدهون؛ يعني مفيد للمتابعة المتكررة تحت ظروف ثابتة، لكنه مش صورة ولا تشخيصاً مستقلاً [3, 4, 6].",
-            "en": "CT and MRI can distinguish internal tissues more directly, but they are not usually required for routine weight follow-up without a clinical question. Waist circumference is a practical estimate of central adiposity and risk but does not isolate visceral fat. BIA devices such as InBody measure electrical impedance and use an equation to estimate fat, making them useful for repeated follow-up under standardised conditions but neither an image nor an independent diagnosis [3, 4, 6]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل ينفع أحسب الدهون الحشوية في البيت؟",
-            "en": "Can I calculate visceral fat at home?"
-          },
-          "a": {
-            "ar": "مافيش معادلة منزلية تحسب كمية الدهون حوالين الأعضاء بدقة. تقدر تقيس الخصر وتحسب نسبة الخصر إلى الطول عشان تتابع الدهون المركزية والخطر؛ اقسم الخصر على الطول بنفس الوحدة. NICE تستخدم أقل من 0.5 كتصنيف صحي للدهون المركزية عند البالغين ذوي BMI أقل من 35، لكن الناتج مش نسبة دهون حشوية ولا يغني عن التقييم الطبي [1, 3].",
-            "en": "No home formula accurately calculates the amount of fat around your organs. You can measure waist and calculate waist-to-height ratio to follow central adiposity and risk by dividing waist by height in the same unit. NICE uses below 0.5 as healthy central adiposity for adults with BMI below 35, but the result is not a visceral-fat percentage and does not replace clinical assessment [1, 3]."
-          }
-        },
-        {
-          "q": {
-            "ar": "ليه الدهون الحشوية عالية في InBody والخصر طبيعي؟",
-            "en": "Why is InBody visceral fat high when my waist seems normal?"
-          },
-          "a": {
-            "ar": "ممكن لأنك بتقارن درجة مشتقة من خوارزمية بحد خصر مأخوذ من مصدر أو بروتوكول مختلف، أو لأن الترطيب والأكل والتمرين والجهاز أثروا على BIA، أو لأن قياس الخصر نفسه اتاخد في مكان غير ثابت. أعد المقارنة بنفس الجهاز وبطريقة خصر محددة، وراجع الوحدة والنطاق وعوامل الخطر مع الطبيب بدل اعتبار واحد منهم صح والتاني غلط [3, 4, 9, 10].",
-            "en": "You may be comparing an algorithm-derived score with a waist cutoff taken from a different source or protocol. Hydration, food, exercise and device can affect BIA, while the waist itself may have been taken at an inconsistent site. Repeat on the same device with a defined waist method, then review unit, reference band and risk factors with a clinician instead of declaring one right and the other wrong [3, 4, 9, 10]."
-          }
-        },
-        {
-          "q": {
-            "ar": "إيه طريقة قياس الدهون الحشوية بالخصر؟",
-            "en": "How do I use waist circumference to assess visceral fat?"
-          },
-          "a": {
-            "ar": "استخدم شريطاً غير مطاطي، قف والبطن مرتاح، وخد القياس بعد زفير طبيعي من غير ضغط الجلد. اختار منتصف المسافة بين آخر ضلع وأعلى عظمة الحوض، أو بروتوكولاً تشريحياً واضحاً يستخدمه طبيبك، وثبّته كل مرة. الخصر يقدّر الدهون المركزية والخطر ولا يقيس الدهون الحشوية مباشرة؛ نسبة الخصر إلى الطول تضيف تفسيراً عملياً [1, 2, 3].",
-            "en": "Use a non-stretch tape, stand with the abdomen relaxed, and read after a normal breath out without compressing skin. Choose the midpoint between the lowest rib and top of the hip bone, or another clear anatomical protocol used by your clinician, and keep it every time. Waist estimates central adiposity and risk rather than directly measuring visceral fat; waist-to-height ratio adds practical interpretation [1, 2, 3]."
-          }
-        },
-        {
-          "q": {
-            "ar": "أعيد InBody وقياس الخصر إمتى؟",
-            "en": "When should I repeat InBody and waist measurement?"
-          },
-          "a": {
-            "ar": "التوقيت يعتمد على هدف وخطة المتابعة، ومش لازم القياس اليومي. اتفق مع الطبيب على مدة تسمح بتغير له معنى، وكرر InBody على نفس الجهاز وفي ظروف متشابهة، وكرر الخصر بنفس النقطة والتوقيت. لو حصل كِبر سريع بالبطن أو ألم شديد أو قيء مستمر أو ضيق نفس أو نزيف، ما تستناش موعد القياس؛ اطلب تقييماً عاجلاً [3, 9, 14].",
-            "en": "Timing depends on the goal and follow-up plan; daily measurement is unnecessary. Agree with the clinician on an interval long enough for meaningful change, repeat InBody on the same device under similar conditions, and repeat waist at the same site and time. If abdominal size increases rapidly or there is severe pain, persistent vomiting, breathlessness or bleeding, do not wait for the measurement date; seek urgent assessment [3, 9, 14]."
-          }
-        }
+        {"q": {"ar": "رقم الدهون الحشوية الطبيعي في InBody كام؟", "en": "What is a normal visceral-fat score on InBody?"}, "a": {"ar": "مافيش رقم عالمي ينفع لكل جهاز وكل نوع تقرير. شوف اسم البند والوحدة والنطاق المرجعي المطبوع على نفس ورقة وموديل InBody؛ بعض الأوراق تعرض «مستوى» وبعضها مساحة تقديرية. صفحة InBody الرسمية تعرض أقل من 10 لنموذج تقرير معيّن، بس مينفعش تنقل الحد إلى جهاز أو مخرج مختلف. وحتى داخل النطاق، النتيجة مش شهادة خلو من الخطر؛ تتقري مع الخصر وعوامل الخطر والتاريخ [4, 10, 13].", "en": "There is no universal number that applies to every device and report type. Check the field name, unit and reference band printed for that InBody model; some sheets show a “level” and others an estimated area. InBody's official page shows below 10 for one report format, but that cutoff should not be transferred to a different device or output. Even an in-range result is not a certificate of no risk; it belongs with waist, risk factors and history [4, 10, 13]."}},
+        {"q": {"ar": "الدهون الحشوية بتتقاس إزاي؟", "en": "How is visceral fat measured?"}, "a": {"ar": "التصوير المقطعي والرنين يقدروا يميّزوا الأنسجة الداخلية بصورة مباشرة أكتر، بس هم مش مطلوبين عادة لمتابعة الوزن من غير سؤال طبي. محيط الخصر يقدّر الدهون المركزية والخطر بشكل عملي، بس مبيعزلش الدهون الحشوية. BIA زي InBody يقيس المقاومة الكهربائية ثم يستخدم معادلة لتقدير الدهون؛ يعني مفيد للمتابعة المتكررة تحت ظروف ثابتة، بس هو مش صورة ولا تشخيصاً مستقلاً [3, 4, 6].", "en": "CT and MRI can distinguish internal tissues more directly, but they are not usually required for routine weight follow-up without a clinical question. Waist circumference is a practical estimate of central adiposity and risk but does not isolate visceral fat. BIA devices such as InBody measure electrical impedance and use an equation to estimate fat, making them useful for repeated follow-up under standardised conditions but neither an image nor an independent diagnosis [3, 4, 6]."}},
+        {"q": {"ar": "هل ينفع أحسب الدهون الحشوية في البيت؟", "en": "Can I calculate visceral fat at home?"}, "a": {"ar": "مافيش معادلة منزلية تحسب كمية الدهون حوالين الأعضاء بدقة. تقدر تقيس الخصر وتحسب نسبة الخصر إلى الطول عشان تتابع الدهون المركزية والخطر؛ اقسم الخصر على الطول بنفس الوحدة. NICE تستخدم أقل من 0.5 كتصنيف صحي للدهون المركزية عند البالغين ذوي BMI أقل من 35، بس الناتج مش نسبة دهون حشوية ومبيغنيش عن التقييم الطبي [1, 3].", "en": "No home formula accurately calculates the amount of fat around your organs. You can measure waist and calculate waist-to-height ratio to follow central adiposity and risk by dividing waist by height in the same unit. NICE uses below 0.5 as healthy central adiposity for adults with BMI below 35, but the result is not a visceral-fat percentage and does not replace clinical assessment [1, 3]."}},
+        {"q": {"ar": "ليه الدهون الحشوية عالية في InBody والخصر طبيعي؟", "en": "Why is InBody visceral fat high when my waist seems normal?"}, "a": {"ar": "ممكن لأنك بتقارن درجة مشتقة من خوارزمية بحد خصر مأخوذ من مصدر أو بروتوكول مختلف، أو لأن الترطيب والأكل والتمرين والجهاز أثروا على BIA، أو لأن قياس الخصر نفسه اتاخد في مكان غير ثابت. أعد المقارنة بنفس الجهاز وبطريقة خصر محددة، وراجع الوحدة والنطاق وعوامل الخطر مع الطبيب بدل اعتبار واحد منهم صح والتاني غلط [3, 4, 9, 10].", "en": "You may be comparing an algorithm-derived score with a waist cutoff taken from a different source or protocol. Hydration, food, exercise and device can affect BIA, while the waist itself may have been taken at an inconsistent site. Repeat on the same device with a defined waist method, then review unit, reference band and risk factors with a clinician instead of declaring one right and the other wrong [3, 4, 9, 10]."}},
+        {"q": {"ar": "إيه طريقة قياس الدهون الحشوية بالخصر؟", "en": "How do I use waist circumference to assess visceral fat?"}, "a": {"ar": "استخدم شريطاً غير مطاطي، قف والبطن مرتاح، وخد القياس بعد زفير طبيعي من غير ضغط الجلد. اختار منتصف المسافة بين آخر ضلع وأعلى عظمة الحوض، أو بروتوكولاً تشريحياً واضحاً يستخدمه طبيبك، وثبّته كل مرة. الخصر يقدّر الدهون المركزية والخطر ومبيقيسش الدهون الحشوية مباشرة؛ نسبة الخصر إلى الطول تضيف تفسيراً عملياً [1, 2, 3].", "en": "Use a non-stretch tape, stand with the abdomen relaxed, and read after a normal breath out without compressing skin. Choose the midpoint between the lowest rib and top of the hip bone, or another clear anatomical protocol used by your clinician, and keep it every time. Waist estimates central adiposity and risk rather than directly measuring visceral fat; waist-to-height ratio adds practical interpretation [1, 2, 3]."}},
+        {"q": {"ar": "أعيد InBody وقياس الخصر إمتى؟", "en": "When should I repeat InBody and waist measurement?"}, "a": {"ar": "التوقيت يعتمد على هدف وخطة المتابعة، ومش لازم القياس اليومي. اتفق مع الطبيب على مدة تسمح بتغير له معنى، وكرر InBody على نفس الجهاز وفي ظروف متشابهة، وكرر الخصر بنفس النقطة والتوقيت. لو حصل كِبر سريع بالبطن أو ألم شديد أو قيء مستمر أو ضيق نفس أو نزيف، ما تستناش موعد القياس؛ اطلب تقييماً عاجلاً [3, 9, 14].", "en": "Timing depends on the goal and follow-up plan; daily measurement is unnecessary. Agree with the clinician on an interval long enough for meaningful change, repeat InBody on the same device under similar conditions, and repeat waist at the same site and time. If abdominal size increases rapidly or there is severe pain, persistent vomiting, breathlessness or bleeding, do not wait for the measurement date; seek urgent assessment [3, 9, 14]."}}
       ],
       "sources": [
-        {
-          "label": "NICE — Identifying and assessing overweight, obesity and central adiposity (NG246)",
-          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity"
-        },
-        {
-          "label": "World Health Organization — Waist circumference and waist–hip ratio: report of a WHO expert consultation",
-          "url": "https://www.who.int/publications-detail-redirect/9789241501491"
-        },
-        {
-          "label": "Ross et al. — Waist circumference as a vital sign in clinical practice: a Consensus Statement (Nature Reviews Endocrinology, PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7027970/"
-        },
-        {
-          "label": "Browning et al. — Measurement of visceral fat and abdominal obesity by single-frequency bioelectrical impedance and CT (BMJ Open, PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8506854/"
-        },
-        {
-          "label": "Zhang et al. — Bioelectrical impedance analysis versus quantitative CT and anthropometry for body composition (Nutrition & Metabolism, PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8154961/"
-        },
-        {
-          "label": "Shuster et al. — The clinical importance of visceral adiposity: a critical review of measurement methods (British Journal of Radiology, PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3473928/"
-        },
-        {
-          "label": "Ferreira-Hermosillo et al. — Waist circumference measurement sites and association with visceral fat (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10118742/"
-        },
-        {
-          "label": "NIDDK — Am I at a Healthy Weight?",
-          "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/am-i-healthy-weight"
-        },
-        {
-          "label": "Holmes and Racette — The utility of body composition assessment in nutrition and clinical practice (Nutrients, PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8399582/"
-        },
-        {
-          "label": "Tinsley et al. — Reliability, biological variability and accuracy of multi-frequency BIA (InBody 770) (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11649400/"
-        },
-        {
-          "label": "Cleveland Clinic — Visceral Fat: What It Is and How to Get Rid of It",
-          "url": "https://my.clevelandclinic.org/health/articles/24147-visceral-fat"
-        },
-        {
-          "label": "Mayo Clinic — Belly fat in men: Why weight loss matters",
-          "url": "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/belly-fat/art-20045685"
-        },
-        {
-          "label": "InBody — InBody Results Interpretation (adult report, model 270)",
-          "url": "https://qr.inbody.com/ri/270/adult/en"
-        },
-        {
-          "label": "NHS — Bloating",
-          "url": "https://www.nhs.uk/conditions/bloating/"
-        }
+        {"label": "NICE — Identifying and assessing overweight, obesity and central adiposity (NG246)", "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity"},
+        {"label": "World Health Organization — Waist circumference and waist–hip ratio: report of a WHO expert consultation", "url": "https://www.who.int/publications-detail-redirect/9789241501491"},
+        {"label": "Ross et al. — Waist circumference as a vital sign in clinical practice: a Consensus Statement (Nature Reviews Endocrinology, PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7027970/"},
+        {"label": "Browning et al. — Measurement of visceral fat and abdominal obesity by single-frequency bioelectrical impedance and CT (BMJ Open, PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8506854/"},
+        {"label": "Zhang et al. — Bioelectrical impedance analysis versus quantitative CT and anthropometry for body composition (Nutrition & Metabolism, PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8154961/"},
+        {"label": "Shuster et al. — The clinical importance of visceral adiposity: a critical review of measurement methods (British Journal of Radiology, PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3473928/"},
+        {"label": "Ferreira-Hermosillo et al. — Waist circumference measurement sites and association with visceral fat (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10118742/"},
+        {"label": "NIDDK — Am I at a Healthy Weight?", "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/am-i-healthy-weight"},
+        {"label": "Holmes and Racette — The utility of body composition assessment in nutrition and clinical practice (Nutrients, PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8399582/"},
+        {"label": "Tinsley et al. — Reliability, biological variability and accuracy of multi-frequency BIA (InBody 770) (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11649400/"},
+        {"label": "Cleveland Clinic — Visceral Fat: What It Is and How to Get Rid of It", "url": "https://my.clevelandclinic.org/health/articles/24147-visceral-fat"},
+        {"label": "Mayo Clinic — Belly fat in men: Why weight loss matters", "url": "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/belly-fat/art-20045685"},
+        {"label": "InBody — InBody Results Interpretation (adult report, model 270)", "url": "https://qr.inbody.com/ri/270/adult/en"},
+        {"label": "NHS — Bloating", "url": "https://www.nhs.uk/conditions/bloating/"}
       ],
-      "seo": {
-        "title": {
-          "ar": "رقم الدهون الحشوية في InBody والخصر",
-          "en": "Visceral fat score, waist and InBody"
-        },
-        "description": {
-          "ar": "افهم رقم الدهون الحشوية في InBody، وطريقة قياس الخصر، وليه النتيجتين ممكن يختلفوا، وإزاي تتابع الاتجاه من غير تشخيص ذاتي.",
-          "en": "Understand InBody visceral-fat scores, waist measurement, why the two may disagree, and how to follow a reliable trend without self-diagnosis."
-        }
-      }
+      "seo": {"title": {"ar": "رقم الدهون الحشوية في InBody والخصر", "en": "Visceral fat score, waist and InBody"}, "description": {"ar": "افهم رقم الدهون الحشوية في InBody، وطريقة قياس الخصر، وليه النتيجتين ممكن يختلفوا، وإزاي تتابع الاتجاه من غير تشخيص ذاتي.", "en": "Understand InBody visceral-fat scores, waist measurement, why the two may disagree, and how to follow a reliable trend without self-diagnosis."}}
     }
   ]
 }
