@@ -1,0 +1,337 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of endoscopy-in-children-when-considered; replaces the entry from content/articles.json. Expanded into a cited bilingual guide to indications, alternatives, preparation, biopsies, safety, recovery, and urgent warning signs.",
+  "articles": [
+    {
+      "slug": "endoscopy-in-children-when-considered",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics",
+        "gastroenterology-hepatology"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 11,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/h-pylori-reflux-ibs.webp",
+      "title": {
+        "ar": "منظار المعدة عند الأطفال: إمتى الطبيب يفكر فيه؟",
+        "en": "Endoscopy in children: when might a doctor consider it?"
+      },
+      "excerpt": {
+        "ar": "منظار المعدة عند الأطفال مش أول خطوة لكل وجع بطن. اعرف إمتى ممكن يجاوب سؤالاً مهماً، وإزاي الطفل بيتحضّر له، ودور العينات والنتائج وعلامات الخطر.",
+        "en": "Endoscopy is not the first step for every child with tummy pain. Learn when it may answer an important question, how children prepare, why biopsies matter, and which warning signs need urgent care."
+      },
+      "sections": [
+        {
+          "id": "what-endoscopy-means",
+          "heading": {
+            "ar": "يعني إيه منظار للأطفال، وإيه الفرق بين أنواعه؟",
+            "en": "What does paediatric endoscopy mean, and how do the types differ?"
+          },
+          "body": {
+            "ar": "كلمة «منظار» بتوصف أكتر من إجراء، ومهم تعرف الطبيب يقصد إيه بالضبط. منظار الجهاز الهضمي العلوي، أو منظار المعدة، بيستخدم أنبوبة مرنة رفيعة عليها كاميرا عشان يشوف المريء والمعدة وأول جزء من الأمعاء الدقيقة. منظار القولون بيدخل من فتحة الشرج عشان يفحص القولون وغالباً نهاية الأمعاء الدقيقة. فيه إجراءات تانية متخصصة، بس مش هي المقصودة تلقائياً لما طفل يشتكي من وجع بطن. كل نوع له سؤال طبي وتحضير مختلفين [1, 10].\n\nالمنظار ممكن يبقى تشخيصي: الطبيب بيشوف بطانة الجهاز الهضمي، يصوّر أي تغيّر، وياخد عينات صغيرة لو محتاج. وممكن يبقى علاجي في مواقف محددة، زي وقف نزيف أو إزالة جسم غريب. الكاميرا بتشوف السطح الداخلي، إنما مش بتفحص كل أعضاء البطن؛ عشان كده السونار أو الأشعة أو التحاليل ممكن تجاوب أسئلة المنظار ما يجاوبهاش، والعكس صحيح. الاختيار مش مسابقة بين الفحوصات، لكنه اختيار الأداة اللي تجاوب السؤال بأقل عبء مناسب للطفل [1, 10].\n\nسن الطفل وحجمه وحالته الصحية بيفرقوا في المعدات والفريق وطريقة المتابعة. الإرشادات بتشدد إن الإجراء يتعمل بفريق عنده خبرة بالأطفال وتجهيزات مناسبة لحجمهم، مع توثيق واضح لسبب الإجراء، مداه، العينات، النتائج الأولية وأي مشكلة حصلت. ده معناه إن كلمة «منظار بسيط» ما بتلغي ضرورة خطة أطفال كاملة قبل الإجراء وبعده [1, 2].",
+            "en": "The word “endoscopy” describes more than one procedure, so it is important to know exactly what the clinician means. Upper gastrointestinal endoscopy, or gastroscopy, uses a thin flexible tube with a camera to examine the oesophagus, stomach and first part of the small intestine. Colonoscopy enters through the anus to examine the colon and usually the end of the small intestine. Other specialised procedures exist, but they are not automatically what is meant when a child has tummy pain. Each procedure answers a different clinical question and requires different preparation [1, 10].\n\nEndoscopy may be diagnostic: the clinician examines the digestive lining, records visible changes and takes tiny tissue samples when needed. It may also be therapeutic in selected situations, such as controlling bleeding or removing a foreign object. The camera sees the inner surface; it does not examine every abdominal organ. Ultrasound, imaging or laboratory tests can therefore answer questions that endoscopy cannot, and the reverse is also true. The choice is not a competition between tests. It is about selecting the tool that can answer the question with an appropriate burden for the child [1, 10].\n\nA child’s age, size and health affect the equipment, team and monitoring required. Guidance emphasises performance by a team experienced with children and equipped for their size, with clear documentation of the indication, extent of examination, biopsies, initial findings and any adverse event. Calling it a “simple scope” does not remove the need for a complete paediatric plan before and after the procedure [1, 2]."
+          }
+        },
+        {
+          "id": "not-automatic",
+          "heading": {
+            "ar": "وجع البطن المتكرر مش معناه منظار تلقائي",
+            "en": "Recurring tummy pain does not automatically mean endoscopy"
+          },
+          "body": {
+            "ar": "وجع البطن شائع عند الأطفال، وفي أطفال كتير بيكون عندهم نمط وظيفي من غير التهاب أو قرحة ظاهرة. عشان كده الطبيب بيبدأ بالقصة: مكان الوجع، مدته، علاقته بالأكل والتبرز، وجود قيء أو إسهال، تأثيره على النوم والمدرسة، والأدوية اللي اتاخدت. كمان بيفحص الطفل ويراجع الطول والوزن على منحنى النمو. لو الصورة مطمئنة ومفيش علامات إنذار، المنظار غالباً مش أول خطوة لمجرد إن الألم اتكرر [3].\n\nالقرار الصح بيتبني على سؤالين: إيه المرض المحتمل اللي المنظار يقدر يثبته أو يستبعده؟ وهل النتيجة هتغيّر العلاج أو المتابعة؟ لو مفيش سؤال واضح، الإجراء ممكن يضيف تخديراً وقلقاً من غير فائدة متوقعة. ولو فيه قرائن قوية على مرض عضوي، تأجيله لمجرد الخوف برضه مش مفيد. صفحة وجع بطن متكرر عند الأطفال بتشرح نمط الألم والنمو والتبرز بتفصيل أكبر، من غير ما تحوّل كل وجع إلى تشخيص واحد [2, 3].\n\nعلامات زي نزول الوزن أو تباطؤ النمو، صعوبة أو ألم البلع، قيء مستمر، نزيف هضمي، أنيميا مش متفسرة، إسهال مزمن، حرارة مستمرة، أو تاريخ عائلي مهم ممكن تزود احتمال احتياج تقييم متخصص. لكنها مش «قائمة حجز منظار»؛ الطبيب بيربطها بالعمر والفحص والتحاليل. وحتى غيابها مش قاعدة مطلقة لو القصة بتتغير. المطلوب قرار فردي متوازن، مش اختبار بيتطلبه كل طفل بنفس الأعراض [1, 3].",
+            "en": "Tummy pain is common in children, and many have a functional pattern without visible inflammation or an ulcer. The clinician therefore begins with the story: where the pain occurs, how long it lasts, its relationship to meals and bowel movements, vomiting or diarrhoea, effects on sleep and school, and medicines already used. Examination and the child’s height and weight trajectory also matter. When the picture is reassuring and there are no alarm features, endoscopy is usually not the first step simply because pain has recurred [3].\n\nA sound decision asks two questions: what suspected condition could endoscopy confirm or exclude, and would the result change treatment or follow-up? Without a clear question, a procedure may add anaesthesia and anxiety without a likely benefit. When there is persuasive evidence of organic disease, delaying solely because of fear is not helpful either. Our guide to recurring tummy aches in children explains pain patterns, growth and bowel habits in more detail without turning every ache into one diagnosis [2, 3].\n\nFeatures such as weight loss or faltering growth, painful or difficult swallowing, persistent vomiting, gastrointestinal bleeding, unexplained anaemia, chronic diarrhoea, persistent fever or an important family history may increase the need for specialist assessment. They are not a self-service “endoscopy checklist”; the clinician interprets them with age, examination and test results. Their absence is not an absolute rule when the story is evolving. The decision should be individual and balanced rather than identical for every child with similar symptoms [1, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "وجع بطن متكرر عند الأطفال",
+                "url": "../articles/recurrent-tummy-aches-in-children.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "recurring tummy aches in children",
+                "url": "../articles/recurrent-tummy-aches-in-children.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-considered",
+          "heading": {
+            "ar": "إمتى الطبيب ممكن يفكر في المنظار؟",
+            "en": "When might the clinician consider endoscopy?"
+          },
+          "body": {
+            "ar": "منظار المعدة ممكن يتناقش لما الأعراض أو النتائج تشير لمشكلة في المريء أو المعدة أو الاثنا عشر وتكون رؤية البطانة أو العينات مهمة. أمثلة ده تشمل صعوبة البلع، تعلق الأكل، نزيف علوي، قيء مستمر من غير تفسير، أنيميا أو نقص نمو مع اشتباه مرض عضوي، أو اشتباه التهاب بالمريء. وفي حالات تانية الطبيب بيستخدمه للمتابعة أو العلاج، مش لمجرد البحث العشوائي عن سبب [1, 4, 7].\n\nمنظار القولون له أسباب مختلفة، زي نزيف سفلي مش متفسر، إسهال مزمن مع قرائن التهابية، أو اشتباه مرض التهاب الأمعاء. لما الاشتباه في مرض التهاب الأمعاء عند طفل يبقى حقيقياً، التقييم المتخصص ممكن يشمل منظاراً علوياً ومنظار قولون مع عينات وتصويراً للأمعاء الدقيقة؛ اختيار الخطوات وترتيبها مسؤولية فريق الجهاز الهضمي للأطفال [11]. الإمساك وحده غالباً بيتقيّم من القصة والفحص، وصفحة إمساك الأطفال: إمتى يحتاج الطفل كشفاً؟ بتغطي المسار ده من غير ما تدخله في نطاق المنظار [3].\n\nفيه فرق مهم بين منظار مخطط له وبين طوارئ إزالة جسم غريب. ابتلاع بطارية زرارية، أكتر من مغناطيس قوي، أو جسم عالق مع سيلان لعاب أو صعوبة بلع أو تنفس محتاج تقييماً فورياً، ومش مناسب تستنى موعد عيادة أو تحاول تخلي الطفل يرجّع. مكان الجسم ونوعه ووقت ابتلاعه وأعراض الطفل هم اللي بيحددوا سرعة التدخل. البطارية العالقة في المريء ممكن تعمل إصابة خطيرة بسرعة، والإرشادات بتتعامل مع إزالتها كطوارئ [1, 12].",
+            "en": "Upper endoscopy may be discussed when symptoms or results point to a problem in the oesophagus, stomach or duodenum and seeing the lining or obtaining tissue is important. Examples include difficult swallowing, food impaction, upper gastrointestinal bleeding, persistent unexplained vomiting, anaemia or faltering growth with concern for organic disease, or suspected oesophageal inflammation. In other situations, clinicians use endoscopy for surveillance or treatment, not as an indiscriminate search for a cause [1, 4, 7].\n\nColonoscopy has different indications, including unexplained lower gastrointestinal bleeding, chronic diarrhoea with inflammatory evidence, or suspected inflammatory bowel disease. When concern for inflammatory bowel disease in a child is genuine, specialist assessment may include upper endoscopy, ileocolonoscopy with biopsies and small-bowel imaging; the paediatric gastroenterology team decides which steps are required and in what order [11]. Constipation alone is usually assessed through history and examination, and our guide to childhood constipation: when does a child need assessment? covers that pathway without drifting into endoscopy [3].\n\nThere is an important distinction between planned endoscopy and emergency foreign-object removal. Swallowing a button battery, more than one high-powered magnet, or an object that becomes stuck with drooling, difficulty swallowing or breathing needs immediate assessment. Do not wait for a clinic appointment or try to make the child vomit. Object type and location, time since ingestion and the child’s symptoms determine urgency. A button battery lodged in the oesophagus can cause severe injury rapidly, and guidance treats its removal as an emergency [1, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "إمساك الأطفال: إمتى يحتاج الطفل كشفاً؟",
+                "url": "../articles/childhood-constipation-when-to-assess.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "childhood constipation: when does a child need assessment?",
+                "url": "../articles/childhood-constipation-when-to-assess.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "tests-before-decision",
+          "heading": {
+            "ar": "إيه اللي ممكن يحصل قبل القرار، وإمتى التحاليل تكفي؟",
+            "en": "What may happen before the decision, and when can tests be enough?"
+          },
+          "body": {
+            "ar": "قبل المنظار، الطبيب ممكن يطلب تحاليل دم أو براز أو تصوير حسب السؤال، ومش لازم كل طفل يعمل نفس الباقة. التحاليل بتدور على قرائن زي أنيميا أو التهاب أو سيلياك، بينما السونار بيشوف أعضاء معينة خارج تجويف المعدة والأمعاء. نتيجة واحدة خارجة عن الطبيعي مش معناها تلقائياً منظار، ونتيجة طبيعية مش معناها إن كل الأسباب اتقفلت؛ المعنى بيطلع من جمع القصة والفحص والنتائج [3, 5, 11].\n\nفي السيلياك، الإرشادات الحديثة بتسمح بتشخيص بعض الأطفال من غير عينة أمعاء لو تحاليل محددة حققت شروطاً دقيقة واتأكدت بعينة دم تانية وتحت إشراف متخصص. أطفال تانيون بيحتاجوا منظاراً وعينات من أماكن محددة في الاثنا عشر. عشان كده ما توقفش الجلوتين قبل اكتمال التقييم؛ تغييره بدري ممكن يغيّر التحاليل والأنسجة ويصعّب الوصول لتشخيص واضح [5].\n\nجرثومة المعدة مثال تاني على أهمية السؤال الصح. الإرشادات لا تشجع أسلوب «اختبر وعالج» لكل طفل عنده وجع بطن. الهدف الأساسي هو معرفة سبب الأعراض، مش مجرد البحث عن الجرثومة. لو فيه سبب حقيقي للفحص الغازي، العينات ممكن تُستخدم للتشخيص واختيار علاج مبني على حساسية المضاد. اقرأ جرثومة المعدة عند الأطفال: إمتى نفكر في التحليل؟ لو محتاج تفاصيل أكتر عن الاختبار، لأن الصفحة دي مركزة على قرار المنظار نفسه [6].\n\nالارتجاع كمان مش معناه منظار لكل طفل. المنظار ممكن يساعد لو فيه علامات إنذار، أعراض مستمرة رغم خطة مناسبة، أو احتياج لاستبعاد التهاب مريء من سبب مختلف، لكنه ما يقيسش كل نوبات الارتجاع وما ينفيش المرض لو شكله طبيعي. الطبيب بيختار بين تجربة علاج موجهة أو قياس ارتجاع أو منظار حسب السن والنمط والسؤال المطلوب [4].",
+            "en": "Before endoscopy, the clinician may request blood tests, stool tests or imaging according to the question; every child does not need the same panel. Laboratory tests may look for evidence of anaemia, inflammation or coeliac disease, while ultrasound assesses selected organs outside the stomach and bowel lumen. One abnormal result does not automatically mean endoscopy, and a normal result does not close every possibility. Meaning comes from combining the story, examination and results [3, 5, 11].\n\nFor coeliac disease, current guidance allows diagnosis without an intestinal biopsy in some children when specific blood results meet strict criteria, are confirmed in a second sample and are managed by a specialist. Other children need endoscopy with biopsies from defined sites in the duodenum. Do not stop gluten before assessment is complete; changing the diet too early can alter blood and tissue findings and make a secure diagnosis harder [5].\n\nH. pylori is another example of asking the right question. Guidelines do not support a “test and treat” approach for every child with tummy pain. The primary aim is to identify the cause of symptoms, not merely to look for the organism. When there is a genuine indication for invasive assessment, biopsies can support diagnosis and antibiotic-susceptibility-led treatment. Read H. pylori in children: when might testing be considered? for more about testing, because this page stays focused on the endoscopy decision [6].\n\nReflux does not mean every child needs endoscopy either. The procedure may help when alarm features are present, symptoms persist despite an appropriate plan, or another cause of oesophageal inflammation must be excluded. It does not measure every reflux episode and a normal appearance does not rule out all reflux disease. The clinician chooses among a directed treatment trial, reflux monitoring and endoscopy according to age, pattern and the question that needs answering [4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "جرثومة المعدة عند الأطفال: إمتى نفكر في التحليل؟",
+                "url": "../articles/h-pylori-children-when-testing-considered.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "H. pylori in children: when might testing be considered?",
+                "url": "../articles/h-pylori-children-when-testing-considered.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "biopsies-and-results",
+          "heading": {
+            "ar": "ليه الطبيب ممكن ياخد عينات حتى لو الشكل طبيعي؟",
+            "en": "Why might the clinician take biopsies when everything looks normal?"
+          },
+          "body": {
+            "ar": "الكاميرا بتوضح شكل البطانة، لكن بعض الأمراض بتظهر تحت الميكروسكوب أكتر من العين المجردة. العينة قطعة نسيج صغيرة جداً بتتاخد بأداة من جوه المنظار، والطفل ما بيحسش بقطعها أثناء الإجراء. عدد العينات ومكانها بيتحدد حسب السؤال؛ عينة من المعدة مش بديل لعينة من المريء أو الاثنا عشر. وجود خطة عينات قبل البدء بيساعد أخصائي الباثولوجي يفسّر النتيجة صح [2, 5, 7, 10].\n\nفي التهاب المريء اليوزيني، مثلاً، الأعراض ممكن تختلف حسب السن: رضيع يرفض الأكل أو طفل أكبر عنده صعوبة بلع أو أكل بيعلق. التشخيص بيعتمد على الأعراض وعينات المريء، وممكن شكل المريء ما يكونش كفاية لوحده. وفي السيلياك، مكان وعدد عينات الاثنا عشر مهمين لو الطفل مش داخل مسار التشخيص من غير عينة. أما اشتباه التهاب الأمعاء فبيحتاج توزيع عينات من أجزاء متعددة، مش عينة عشوائية واحدة [5, 7, 11].\n\nبعد الإجراء فيه نوعان من النتيجة. النتيجة الأولية بتوصف اللي الطبيب شافه، زي التهاب أو قرحة أو ضيق، وممكن تتقال للأسرة في نفس اليوم. نتيجة الأنسجة بتحتاج تحضير وفحص عند أخصائي باثولوجي، فبتطلع بعدين حسب نظام المعمل والحالة. الشكل الطبيعي ما يضمنش عينة طبيعية، والعكس ممكن يحصل؛ عشان كده القرار النهائي ما يتاخدش من صورة واحدة أو جملة سريعة بعد الإفاقة [2, 10].\n\nقبل الموافقة، اسأل: إيه الأماكن اللي هتتفحص؟ هل متوقع عينات؟ مين هيشرح التقرير النهائي؟ وإيه الخطوة لو النتيجة طبيعية؟ الأسئلة دي بتمنع إن المنظار يبقى «نهاية الطريق». هو جزء من مسار تشخيص، وقيمته الحقيقية بتظهر لما النتيجة ترتبط بالأعراض والتحاليل والنمو وتؤدي لخطة واضحة [2].",
+            "en": "The camera shows the appearance of the lining, but some diseases are more apparent under a microscope than to the naked eye. A biopsy is a very small tissue sample collected with an instrument passed through the scope; the child does not feel the tissue being sampled during the procedure. The number and location of biopsies depend on the question. A stomach sample cannot substitute for an oesophageal or duodenal sample. Planning biopsy sites helps the pathologist interpret the findings correctly [2, 5, 7, 10].\n\nIn eosinophilic oesophagitis, for example, symptoms vary by age: an infant may refuse feeds, while an older child may struggle to swallow or have food become stuck. Diagnosis depends on symptoms and oesophageal biopsies, and appearance alone may be insufficient. In coeliac disease, the number and location of duodenal samples matter when the child does not qualify for a no-biopsy pathway. Suspected inflammatory bowel disease requires sampling from several segments rather than one random biopsy [5, 7, 11].\n\nThere are two layers of results after the procedure. The initial report describes what the clinician saw, such as inflammation, an ulcer or narrowing, and may be discussed with the family that day. Tissue requires preparation and microscopic examination by a pathologist, so those results arrive later according to the laboratory and case. A normal visual appearance does not guarantee normal histology, and the reverse can occur; final decisions should not be based on one photograph or a brief comment immediately after recovery [2, 10].\n\nBefore consent, ask which areas will be examined, whether biopsies are expected, who will explain the final report and what happens if results are normal. These questions prevent endoscopy from being treated as “the end of the road.” It is one part of a diagnostic pathway, and its real value comes from connecting findings with symptoms, tests and growth to produce a clear plan [2]."
+          }
+        },
+        {
+          "id": "preparation-and-anaesthesia",
+          "heading": {
+            "ar": "التحضير والتخدير: خطة بتتظبط على الطفل",
+            "en": "Preparation and anaesthesia: a plan tailored to the child"
+          },
+          "body": {
+            "ar": "لو المنظار اتقرر، المركز بيدي تعليمات امتناع عن الأكل والشرب حسب سن الطفل ووقت الإجراء ونوع التخدير. اتبع التعليمات المكتوبة بالحرف؛ ما تعتمدش على مدة سمعتها من أسرة تانية، وما تمددش الصيام من نفسك لأن الطفل ممكن يتعب أو يجف. لو الطفل أكل أو شرب بالغلط، قول للفريق بوضوح؛ هم يقرروا هل الإجراء يتأجل حفاظاً على مجرى التنفس [8, 9].\n\nقبل اليوم المحدد، بلغ الفريق عن أي حساسية، ربو، شخير شديد أو توقف نفس أثناء النوم، مرض قلب أو رئة، مشكلة سابقة مع التخدير، اضطراب نزف، أسنان متحركة، وكل دواء أو مكمل. لو ظهر برد أو كحة أو حرارة أو قيء جديد، كلم المركز بدل ما تخفي العرض أو تلغي من نفسك. الأطفال ذوو المخاطر الإضافية محتاجين تقييم وترتيبات مناسبة، وأحياناً مكاناً فيه دعم أعلى [8, 9].\n\nأغلب إجراءات الأطفال بتحتاج تهدئة عميقة أو تخديراً عاماً حسب العمر والإجراء وسياسة المركز والحالة. الفريق المسؤول لازم يراجع الطفل قبلها، يراقب التنفس والأكسجين والدورة الدموية، ويبقى جاهزاً للتعامل مع مجرى الهواء. الخطة مش جرعة ثابتة لكل الأطفال. هدفها إن الإجراء يتم بأمان ومن غير حركة مؤذية، مع رجوع الطفل لمستوى وعي مناسب قبل الخروج [8, 9].\n\nحضّر الطفل بكلام بسيط وصادق يناسب سنه: «الدكتور هيستخدم كاميرا صغيرة يشوف بيها بطنك وإنت نايم»، من غير تهويل أو وعد إنه مش هيحس بأي حاجة بعدين. خد معاك التقارير، قائمة الأدوية، كارت النمو، وأي تعليمات طلبها المركز. اتفق كمان مين هيرجع بالطفل للبيت ومين يتابعه أول يوم، لأن أثر التخدير ممكن يخلي النشاط والتركيز مختلفين مؤقتاً [8].",
+            "en": "If endoscopy is agreed, the centre gives fasting instructions based on the child’s age, procedure time and anaesthesia plan. Follow the written instructions exactly. Do not use a fasting interval heard from another family, and do not prolong fasting independently because the child may become uncomfortable or dehydrated. If the child accidentally eats or drinks, tell the team clearly; they decide whether postponement is needed to protect the airway [8, 9].\n\nBefore the appointment, tell the team about allergies, asthma, severe snoring or pauses in breathing during sleep, heart or lung disease, a previous anaesthetic problem, a bleeding disorder, loose teeth, and every medicine or supplement. If a new cold, cough, fever or vomiting develops, contact the centre instead of hiding the symptom or cancelling without advice. Children with additional risk need appropriate assessment and arrangements, sometimes in a setting with higher-level support [8, 9].\n\nMost paediatric procedures require deep sedation or general anaesthesia according to age, procedure, centre policy and the child’s condition. The responsible team should assess the child, monitor breathing, oxygen and circulation, and be able to manage the airway. The plan is not one fixed dose for every child. Its purpose is to complete the procedure safely without harmful movement and ensure recovery to an appropriate level of consciousness before discharge [8, 9].\n\nPrepare the child with simple, honest, age-appropriate language: “The doctor will use a small camera to look at your tummy while you are asleep,” without frightening detail or promising there will be no sensation afterwards. Bring reports, a medicine list, growth records and anything the centre requests. Arrange who will take the child home and supervise the first day, because anaesthesia may temporarily affect activity and concentration [8]."
+          }
+        },
+        {
+          "id": "risks-and-aftercare",
+          "heading": {
+            "ar": "بعد المنظار: المتوقع وإمتى ما تستناش",
+            "en": "After endoscopy: what to expect and when not to wait"
+          },
+          "body": {
+            "ar": "بعد منظار المعدة، الطفل بيتابع في الإفاقة لحد ما التنفس والوعي والحركة يبقوا مناسبين للخروج. ممكن يحصل وجع حلق بسيط، انتفاخ أو غثيان مؤقت. بعد منظار القولون ممكن يبقى فيه غازات أو مغص بسيط. الفريق بيوضح إمتى يبدأ شرب وأكل، وإمتى يرجع للمدرسة والنشاط، وإزاي يتعامل مع الأدوية. اتبع ورقة الخروج الخاصة بالمركز لأنها مبنية على اللي اتعمل فعلاً [8, 10].\n\nالمنظار إجراء شائع وآمن عموماً لما يتعمل بالاختيار والتجهيز المناسبين، لكنه مش من غير مخاطر. المشاكل الممكنة تشمل تفاعل أو مشكلة تنفس مرتبطة بالتخدير، نزيف، عدوى أو ثقب في جدار الجهاز الهضمي. الخطر بيتغير حسب حالة الطفل ونوع الإجراء؛ إزالة جسم أو توسيع ضيق مش زي منظار تشخيصي بعينات صغيرة. قبل الموافقة، الفريق المفروض يشرح الفائدة المتوقعة والبدائل والمخاطر الخاصة بالحالة [1, 8, 9, 10].\n\nاطلب رعاية عاجلة بعد المنظار لو الطفل عنده صعوبة تنفس، ألم صدر أو بطن شديد أو بيزيد، قيء متكرر أو دموي، براز أسود أو دم واضح بكمية مقلقة، حرارة مع تدهور، بطن منتفخة جداً، إغماء أو خمول غير معتاد، أو مش قادر يشرب. وجع الحلق الخفيف مختلف عن صعوبة بلع بتسوء. لو مش متأكد، استخدم رقم الطوارئ اللي في ورقة الخروج أو اطلب تقييماً عاجلاً [10].\n\nقبل المنظار نفسه، القيء الأخضر أو الدموي، علامات الجفاف، ألم شديد ثابت، أو عدم القدرة على الاحتفاظ بالسوائل محتاجين تقييماً عاجلاً ومش انتظار موعد مخطط. صفحة قيء الطفل والجفاف: علامات مهمة بتشرح التفاصيل اللي تساعدك توصف الحالة، لكنها ما تستبدلش الطوارئ لما الطفل بيتدهور [3].",
+            "en": "After upper endoscopy, the child is monitored in recovery until breathing, consciousness and movement are suitable for discharge. A mild sore throat, bloating or temporary nausea can occur. Gas or mild cramps may follow colonoscopy. The team explains when to restart drinks and food, when school and activity can resume, and how medicines should be handled. Follow the centre’s discharge sheet because it reflects what was actually done [8, 10].\n\nEndoscopy is generally safe when appropriately selected and prepared, but it is not risk-free. Possible problems include an anaesthetic reaction or breathing event, bleeding, infection or a perforation in the digestive wall. Risk varies with the child and procedure; removing an object or dilating a narrowing is different from diagnostic examination with small biopsies. Before consent, the team should explain the expected benefit, alternatives and case-specific risks [1, 8, 9, 10].\n\nSeek urgent care after endoscopy if the child has difficulty breathing; severe or worsening chest or abdominal pain; repeated or bloody vomiting; black stool or a concerning amount of visible blood; fever with deterioration; a very swollen abdomen; fainting or unusual lethargy; or cannot drink. A mild sore throat is different from worsening swallowing difficulty. If uncertain, use the emergency contact on the discharge instructions or obtain urgent assessment [10].\n\nBefore any planned endoscopy, green or bloody vomit, dehydration signs, severe constant pain or inability to keep fluids down also require urgent assessment rather than waiting for the appointment. Our guide to child vomiting and dehydration: important warning signs explains the details that help describe the situation, but it does not replace emergency care when a child is deteriorating [3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "قيء الطفل والجفاف: علامات مهمة",
+                "url": "../articles/child-vomiting-and-dehydration-warning-signs.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "child vomiting and dehydration: important warning signs",
+                "url": "../articles/child-vomiting-and-dehydration-warning-signs.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "shared-decision-next-step",
+          "heading": {
+            "ar": "خلي القرار مشترك والخطوة الجاية واضحة",
+            "en": "Make the decision shared and the next step clear"
+          },
+          "body": {
+            "ar": "قبل ما توافق، اطلب من الطبيب يقول السؤال الطبي في جملة واحدة: «إحنا بنعمل المنظار عشان نعرف أو نستبعد إيه؟». اسأل إيه البدائل، وإيه اللي ممكن يحصل لو استنيت، وهل النتيجة هتغيّر العلاج. اعرف نوع المنظار، مكانه، خطة التخدير، احتمال العينات، ومين هيتابع نتيجة الباثولوجي. لو الإجابات مش واضحة، من حقك تطلب شرحاً بلغة أبسط قبل القرار [1, 2, 8].\n\nخد معاك ملخصاً صغيراً: بداية الأعراض، مرات تكرارها، علاقتها بالأكل والتبرز، الوزن والطول، الأدوية والمكملات، التحاليل السابقة، وأي حساسية أو تجربة تخدير. ما تبدأش دواء معدة، مضاداً حيوياً، حمية خالية من الجلوتين أو منع أكل واسع عشان «تجهز» للمنظار من نفسك؛ التغيير ممكن يطمس القرائن أو يضر التغذية. الطبيب المعالج هو اللي يحدد إيه يستمر وإيه يتوقف وإمتى [4, 5, 6].\n\nلو الأعراض متكررة من غير طوارئ، تقدر تطلب حجز موعد أطفال في العيادة عشان يبدأ التقييم من القصة والفحص والنمو، وبعدها يتحدد هل محتاج رأي جهاز هضمي أطفال أو فحص تاني أو منظار في مركز مجهز. ذكر العيادة هنا خطوة تنظيمية بس؛ المقال ما يقدرش يقرر الإجراء لطفل بعينه، والقرار النهائي يفضل للطبيب المعالج مع الأسرة [1, 3].",
+            "en": "Before agreeing, ask the clinician to state the medical question in one sentence: “What are we trying to find or exclude with this endoscopy?” Ask about alternatives, what may happen if you wait, and whether the result will change treatment. Clarify the procedure type and location, anaesthesia plan, likely biopsies and who will follow up pathology. If the answers are unclear, you are entitled to a simpler explanation before deciding [1, 2, 8].\n\nBring a short summary of symptom onset and frequency, links with food and bowel movements, height and weight, medicines and supplements, earlier tests, allergies and previous anaesthetic experiences. Do not independently start stomach medicine, antibiotics, a gluten-free diet or broad food restriction to “prepare” for endoscopy. Such changes can obscure evidence or impair nutrition. The treating clinician decides what should continue or stop and when [4, 5, 6].\n\nFor recurring symptoms without an emergency, you can request a paediatric appointment at the clinic so assessment begins with history, examination and growth. The clinician can then decide whether paediatric gastroenterology input, another test or endoscopy in an equipped centre is appropriate. This clinic mention is only an organisational next step; an article cannot decide the procedure for an individual child, and the final choice remains with the treating clinician and family [1, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حجز موعد أطفال في العيادة",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a paediatric appointment at the clinic",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل كل وجع بطن متكرر عند الطفل محتاج منظار؟",
+            "en": "Does every child with recurring tummy pain need endoscopy?"
+          },
+          "a": {
+            "ar": "لأ. أغلب القرارات بتبدأ بقصة الأعراض والفحص ومنحنى النمو، وبعدها تحاليل أو تصوير موجه لو محتاج. المنظار بيتناقش لما فيه سؤال عضوي واضح يقدر يجاوبه أو لما علامات معينة تخلّي فائدته المتوقعة أكبر. التكرار لوحده مش سبب كفاية [1, 3].",
+            "en": "No. Decisions usually begin with the symptom history, examination and growth trajectory, followed by directed laboratory tests or imaging when needed. Endoscopy is discussed when there is a clear organic question it can answer or when particular features make its expected benefit greater. Recurrence alone is not enough [1, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل المنظار يوضح كل أسباب القيء أو الوجع؟",
+            "en": "Can endoscopy show every cause of vomiting or pain?"
+          },
+          "a": {
+            "ar": "مش كل الأسباب. المنظار بيشوف بطانة أجزاء محددة من الجهاز الهضمي ويقدر ياخد عينات، لكنه ما يشوفش كل أعضاء البطن وما يقيسش كل اضطراب حركة أو نوبة ارتجاع. الطبيب ممكن يختار تحاليل أو سونار أو تصوير أو فحص وظيفي حسب السؤال [1, 4, 10].",
+            "en": "No. Endoscopy examines the lining of defined parts of the digestive tract and can obtain biopsies, but it does not see every abdominal organ or measure every motility disorder or reflux episode. The clinician may choose laboratory tests, ultrasound, other imaging or a functional test according to the question [1, 4, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أخذ العينة معناه إن الطبيب شاكك في ورم؟",
+            "en": "Does taking a biopsy mean the clinician suspects a tumour?"
+          },
+          "a": {
+            "ar": "لأ. العينات جزء معتاد من مناظير أطفال كتير عشان أمراض الالتهاب والسيلياك والتهاب المريء اليوزيني وجرثومة المعدة ممكن تحتاج فحص نسيج، وأحياناً البطانة شكلها عادي بالكاميرا. سبب العينة ومكانها بيتحددوا بالسؤال الطبي، فاسأل الفريق إيه المتوقع قبل الإجراء [2, 5, 6, 7].",
+            "en": "No. Biopsies are a routine part of many paediatric endoscopies because inflammatory conditions, coeliac disease, eosinophilic oesophagitis and H. pylori may require tissue assessment, sometimes when the lining looks normal on camera. The clinical question determines why and where samples are taken, so ask the team what is planned [2, 5, 6, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الطفل بيكون صاحي وقت منظار المعدة؟",
+            "en": "Is a child awake during upper endoscopy?"
+          },
+          "a": {
+            "ar": "الخطة بتختلف حسب العمر والحالة والإجراء والمركز، لكن أطفال كتير بيعملوا المنظار بتهدئة عميقة أو تخدير عام مع مراقبة مستمرة. فريق التخدير أو التهدئة يشرح الخطة والمخاطر الخاصة بالطفل. ما تقارنش تجربته بخطة شخص بالغ أو طفل تاني [8, 9].",
+            "en": "The plan varies with age, health, procedure and centre, but many children have deep sedation or general anaesthesia with continuous monitoring. The anaesthesia or sedation team explains the child-specific plan and risks. Do not assume it will match an adult’s experience or another child’s plan [8, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أوقف الجلوتين أو دواء المعدة قبل المنظار؟",
+            "en": "Should gluten or stomach medicine be stopped before endoscopy?"
+          },
+          "a": {
+            "ar": "ما توقفش أو تبدأ حاجة من نفسك. وقف الجلوتين قبل تقييم السيلياك ممكن يغيّر التحاليل والعينات، وبعض أدوية المعدة أو المضادات ممكن تغيّر اختبارات تانية. ابعت للفريق قائمة كاملة واسأل عن كل دواء وأكل مطلوب قبل الموعد؛ التعليمات بتتظبط على سبب المنظار [5, 6].",
+            "en": "Do not stop or start anything independently. Removing gluten before coeliac assessment can alter blood and biopsy findings, while some stomach medicines or antibiotics can affect other tests. Send the team a complete list and ask specifically about medicines and diet before the appointment; instructions depend on the indication [5, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه العلامات اللي تستدعي طوارئ بدل انتظار موعد المنظار؟",
+            "en": "Which signs need emergency care instead of waiting for endoscopy?"
+          },
+          "a": {
+            "ar": "صعوبة التنفس، ابتلاع بطارية زرارية أو مغناطيسات قوية، قيء أخضر أو دموي، براز أسود أو نزيف واضح، ألم شديد مستمر، بطن منتفخة جداً، خمول غير معتاد أو عدم القدرة على الشرب محتاجين تقييماً عاجلاً. ما تستناش موعداً مخططاً وما تحاولش تعمل قيء في البيت بعد ابتلاع جسم غريب [1, 10, 12].",
+            "en": "Difficulty breathing; swallowing a button battery or high-powered magnets; green or bloody vomit; black stool or visible bleeding; severe constant pain; a very swollen abdomen; unusual lethargy; or inability to drink require urgent assessment. Do not wait for a planned appointment or induce vomiting at home after a foreign-object ingestion [1, 10, 12]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "ESGE/ESPGHAN — Pediatric gastrointestinal endoscopy guideline: executive summary",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27617420/"
+        },
+        {
+          "label": "NASPGHAN/ESPGHAN PEnQuIN — Pediatric endoscopy reporting elements guideline",
+          "url": "https://naspghan.org/wp-content/uploads/2022/03/Pediatric_Endoscopy_Quality_Improvement_Network.6.pdf"
+        },
+        {
+          "label": "AAP/NASPGHAN — Chronic abdominal pain in children clinical report",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15735475/"
+        },
+        {
+          "label": "NASPGHAN/ESPGHAN — Pediatric gastroesophageal reflux clinical practice guideline",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29470322/"
+        },
+        {
+          "label": "ESPGHAN — Guidelines for diagnosing coeliac disease 2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31568151/"
+        },
+        {
+          "label": "ESPGHAN/NASPGHAN — Updated H. pylori guidelines for children and adolescents",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39148213/"
+        },
+        {
+          "label": "ESPGHAN — Diagnosis and management of eosinophilic oesophagitis in children",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38923067/"
+        },
+        {
+          "label": "AAP/AAPD — Guidelines for monitoring and management of paediatric sedation",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27354454/"
+        },
+        {
+          "label": "NASPGHAN — Pediatric endoscopy and high-risk patients clinical report",
+          "url": "https://naspghan.org/files/Pediatric_Endoscopy_and_High_risk_Patients__A.26.pdf"
+        },
+        {
+          "label": "NIDDK — Upper GI endoscopy",
+          "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/upper-gi-endoscopy"
+        },
+        {
+          "label": "ESPGHAN — Revised Porto criteria for paediatric inflammatory bowel disease",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24231644/"
+        },
+        {
+          "label": "ESPGHAN — Button battery ingestion in childhood position paper",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33555169/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "منظار المعدة عند الأطفال",
+          "أسباب منظار المعدة للأطفال",
+          "تحضير الطفل للمنظار",
+          "عينات منظار الأطفال",
+          "وجع بطن متكرر للأطفال"
+        ],
+        "en": [
+          "endoscopy in children",
+          "paediatric gastroscopy",
+          "preparing a child for endoscopy",
+          "paediatric endoscopy biopsies",
+          "recurring tummy pain"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "منظار المعدة عند الأطفال: إمتى يحتاجه الطفل؟",
+          "en": "Endoscopy in children: when is it considered?"
+        },
+        "description": {
+          "ar": "دليل للأهل عن منظار المعدة عند الأطفال: إمتى يفكر فيه الطبيب، والفحوصات قبله، والتحضير والتخدير والعينات، وعلامات الخطر بعد الإجراء.",
+          "en": "A parent’s guide to paediatric endoscopy: when it is considered, tests beforehand, preparation, anaesthesia, biopsies, recovery, and urgent warning signs."
+        }
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا شرح إمتى منظار الأطفال يتطلب، والتحضير والعينات والأمان وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded when paediatric endoscopy is considered, preparation, biopsies, safety, and warning signs, and medically re-reviewed the content."
+          }
+        }
+      ]
+    }
+  ]
+}

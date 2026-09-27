@@ -1,0 +1,320 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of iron-rich-foods-for-children; replaces the entry from content/articles-expansion-2026-09-11.json. Expanded age-aware food choices, absorption, practical meals, selective and vegetarian eating, safety, red flags, verified sources, internal links, and corrected the paediatrics reviewer.",
+  "articles": [
+    {
+      "slug": "iron-rich-foods-for-children",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/iron-foods-cover.webp",
+      "title": {
+        "ar": "أكل غني بالحديد للأطفال: اختيارات عملية لكل سن",
+        "en": "Iron-rich foods for children: practical choices by age"
+      },
+      "excerpt": {
+        "ar": "دليل عملي لاختيار أكل غني بالحديد للأطفال، وتحسين امتصاصه، وتركيب وجبات واقعية وآمنة من غير ضغط أو مكملات عشوائية.",
+        "en": "A practical guide to choosing iron-rich foods for children, improving absorption, and building realistic, age-safe meals without pressure or unplanned supplements."
+      },
+      "sections": [
+        {
+          "id": "why-iron-foods-matter",
+          "heading": {
+            "ar": "ليه الحديد مهم، وليه الاحتياج مش رقم واحد لكل الأطفال؟",
+            "en": "Why iron matters, and why children do not all need the same amount"
+          },
+          "body": {
+            "ar": "الحديد بيدخل في تكوين الهيموجلوبين اللي بينقل الأكسجين، وكمان له دور في النمو ووظائف المخ والعضلات. عشان كده وجود مصادر حديد بانتظام مهم في أكل الطفل، خصوصاً وقت النمو السريع. بس الاحتياج بيتغير حسب السن والجنس ومرحلة النمو: القيم المرجعية مثلاً أعلى في النصف التاني من السنة الأولى، وبتتغير تاني في المراهقة، خصوصاً بعد بداية الدورة الشهرية [1, 11]. الأرقام المرجعية مفيدة للتخطيط، لكنها مش دعوة إنك تحسب كل لقمة أو تحوّل السفرة لجدول حسابات؛ الطفل بياكل على مدار أيام، والتنوع والاستمرار أهم من مطاردة رقم في وجبة واحدة.\n\nفيه فرق بين الوقاية بالأكل وبين علاج نقص اتأكد. الطفل السليم اللي بينمو كويس غالباً يستفيد من نمط فيه مصدر حديد متكرر ضمن أكل متنوع. أما الشحوب، التعب، قلة النشاط، اشتهاء التلج أو التراب، أو تباطؤ النمو فمش بيتشخّصوا من شكل الطفل ولا من قائمة أكله لوحدها. نقص الحديد ممكن يبدأ قبل الأنيميا الواضحة، ومش كل أنيميا سببها الحديد؛ الطبيب بيجمع السن والنمو والأعراض والأكل والفحص، ويقرر هل التحاليل مطلوبة [1, 7, 11]. هدف الصفحة دي يساعدك تختار وتقدّم الأكل، مش يشخّص نقصاً ولا يحدد جرعة علاج.",
+            "en": "Iron is needed to make haemoglobin, which carries oxygen, and it also supports growth, brain function and muscle function. Regular iron sources therefore matter, especially during rapid growth. Requirements vary with age, sex and stage of development: reference values are relatively high in the second half of infancy and change again during adolescence, particularly after menstruation begins [1, 11]. Those values help professionals plan diets, but they are not a reason to calculate every mouthful or turn meals into an accounting exercise. Children eat across days, so variety and consistency matter more than hitting a number in one meal.\n\nThere is also an important difference between preventing deficiency with food and treating a confirmed deficiency. A healthy child who is growing steadily usually benefits from a varied pattern containing regular iron sources. Pallor, tiredness, reduced activity, cravings for ice or soil, or faltering growth cannot be diagnosed from appearance or a food list alone. Iron stores may fall before obvious anaemia develops, and not every anaemia is caused by iron. A clinician combines age, growth, symptoms, diet and examination, then decides whether tests are indicated [1, 7, 11]. This page is designed to help you choose and serve food; it does not diagnose deficiency or set a treatment dose."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "animal-and-plant-sources",
+          "heading": {
+            "ar": "مصادر حيوانية ونباتية: التنوع أقوى من بطل واحد",
+            "en": "Animal and plant sources: variety beats a single hero food"
+          },
+          "body": {
+            "ar": "الحديد في الأكل له صورتين أساسيتين. الحديد الهيمي موجود في اللحمة والفراخ والسمك والمأكولات البحرية، والجسم بيمتصه عادةً بسهولة أكبر. الحديد غير الهيمي موجود في العدس والفول والحمص واللوبيا والفاصوليا والتوفو، والخضار الورقي، والمكسرات والبذور، والحبوب والدقيق أو السيريال المدعم حسب المنتج المتاح. البيض فيه حديد برضه، لكنه واحد ضمن مصادر اليوم ومش بديل سحري لكل المصادر [1, 2, 4]. كلمة «مدعم» مهمة: بص على الملصق عشان تعرف هل المنتج مضاف له حديد فعلاً، وما تعتمدش على شكل العبوة أو كلمة صحي لوحدها.\n\nعملياً، ممكن تلف بين كفتة طرية أو لحمة مفرومة، فراخ، سمك من غير شوك، عدس، فول مهروس، حمص، أو سيريال مدعم مناسب للسن. كمية الطفل مش لازم تشبه طبق الكبير؛ ابدأ بكمية صغيرة مناسبة لعمره وسيبه يطلب زيادة. السبانخ مفيدة كجزء من التنوع، لكن امتصاص الحديد منها أقل بسبب مركبات نباتية بتقلل التوافر الحيوي، فمش منطقي نخليها العلاج الوحيد أو نقيس نجاح اليوم على أكلها [1]. وكمان الطفل مش لازم ياكل لحمة كل يوم عشان ياخد حديد؛ المهم إن الأسبوع فيه مصادر مختلفة ومتكررة، وإن الأكل النباتي يتخطط له كويس بدل ما يتحول لقائمة ضيقة [4, 10].",
+            "en": "Food contains two main forms of iron. Haem iron is present in meat, poultry, fish and seafood and is generally absorbed more readily. Non-haem iron is found in lentils, fava beans, chickpeas, cowpeas and other beans, tofu, leafy vegetables, nuts and seeds, and fortified cereals or flours where available. Eggs also contain iron, but they are one contributor rather than a magical substitute for every other source [1, 2, 4]. The word “fortified” matters: check the label to confirm that iron has actually been added instead of relying on package design or a general health claim.\n\nIn practice, a family can rotate soft kofta or minced meat, poultry, boneless fish, lentils, mashed beans, hummus, or an age-appropriate fortified cereal. A child's portion does not need to resemble an adult plate; begin with a small age-suitable amount and let the child ask for more. Spinach is a useful part of a varied diet, but compounds in plants reduce the bioavailability of its iron, so it should not be treated as the sole remedy or the measure of a successful day [1]. A child does not have to eat meat every day to obtain iron either. What matters is having varied, repeated sources across the week and planning plant-based eating deliberately instead of allowing it to become a very narrow list [4, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "improve-absorption",
+          "heading": {
+            "ar": "إزاي تساعد الجسم يمتص الحديد من الوجبة؟",
+            "en": "How can you help the body absorb iron from a meal?"
+          },
+          "body": {
+            "ar": "فيتامين سي بيحسّن امتصاص الحديد غير الهيمي، ففكّر في الوجبة كزوج بسيط: مصدر حديد نباتي ومعاه فاكهة أو خضار غني بفيتامين سي. ممكن عدس مع طماطم أو فلفل، فول مع طماطم، حمص مع فلفل، أو سيريال مدعم ومعاه فراولة أو برتقالة مناسبة للسن. مش لازم عصير، ومش لازم مكمل فيتامين سي؛ الفاكهة أو الخضار العاديين يحققوا الفكرة ضمن يوم متنوع [1, 2]. وجود لحمة أو فراخ أو سمك في وجبة مختلطة ممكن يساعد كمان على الاستفادة من الحديد غير الهيمي الموجود في باقي الأكل [1].\n\nالشاي والقهوة مش مشروبات مناسبة للأطفال، والبوليفينولات فيها ممكن تقلل امتصاص الحديد؛ ما تقدمهمش مع الوجبة. اللبن غذاء مفيد، لكن الحديد فيه قليل، والكميات الكبيرة ممكن تشبع الطفل وتزيح الوجبات الغنية بالحديد. المطلوب مش منع اللبن أو فصل كل ذرة كالسيوم عن كل وجبة؛ المطلوب إن اللبن ما يبقاش بديل مستمر للأكل، وإن اليوم يفضل فيه مساحة لوجبات متنوعة [1, 5, 7]. لو الطفل معتمد على اللبن ورافض أغلب الأكل، المشكلة أوسع من «نزود سبانخ»، ووقتها راجع دليل الطفل بيشرب لبن كتير ومش بياكل عشان تفهم دائرة الشبع واللبن وخطر نقص الحديد من غير ما نكررها هنا.",
+            "en": "Vitamin C improves absorption of non-haem iron, so think of a simple meal pairing: a plant iron source alongside a fruit or vegetable rich in vitamin C. Examples include lentils with tomato or pepper, fava beans with tomato, chickpeas with pepper, or fortified cereal with age-appropriate strawberries or orange. Juice and vitamin C supplements are not required; ordinary fruit or vegetables can provide the pairing within a varied day [1, 2]. Meat, poultry or fish in a mixed meal can also improve absorption of non-haem iron from the other foods [1].\n\nTea and coffee are not suitable drinks for children, and their polyphenols can reduce iron absorption, so do not serve them with meals. Milk is nutritious, but it contains little iron, and large amounts can fill a child up and displace iron-rich meals. The answer is not to ban milk or separate every trace of calcium from every meal. The useful goal is to prevent milk from repeatedly replacing food and to preserve room in the day for varied meals [1, 5, 7]. If a child relies on milk and refuses most food, the issue is broader than adding spinach. Our guide to a child drinking too much milk and not eating explains the cycle of fullness, milk and iron risk without duplicating it here."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل الطفل بيشرب لبن كتير ومش بياكل",
+                "url": "../articles/child-too-much-milk-iron-appetite.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "guide to a child drinking too much milk and not eating",
+                "url": "../articles/child-too-much-milk-iron-appetite.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "build-real-meals",
+          "heading": {
+            "ar": "ركّب وجبة واقعية من أكل البيت",
+            "en": "Build a realistic meal from ordinary family food"
+          },
+          "body": {
+            "ar": "مش محتاج قائمة أكلات غريبة أو طبق مثالي. ابدأ بمصدر حديد، ضيف حاجة فيها فيتامين سي، وكمل الوجبة بمصدر طاقة وخضار أو فاكهة حسب المقبول. الفطار ممكن يبقى سيريال مدعم ولبن مناسب للسن مع فاكهة، أو بيضة مع عيش وطماطم. الغدا ممكن يبقى رز وعدس مع سلطة طماطم وفلفل، أو مكرونة بصلصة لحمة، أو سمك من غير شوك مع بطاطس وخضار. العشا ممكن يشمل فول مهروس مع طماطم وعيش، أو حمص مع خضار طري. الأمثلة دي أفكار تركيب، مش وصفات علاج ولا حصص ثابتة لكل طفل [1, 2, 4].\n\nكرّر المصدر بأشكال مختلفة بدل ما تحكم من أول رفض: العدس ممكن شوربة أو جزء من رز، واللحمة ممكن مفرومة طرية بدل قطعة ناشفة، والفول ممكن مهروس. حافظ على مواعيد وجبات وسناكس متوقعة، وقدّم كمية صغيرة من الصنف الجديد جنب صنف الطفل عارفه. إنت تختار إيه وإمتى يتقدم، والطفل يقرر ياكل قد إيه من المعروض؛ الضغط، المطاردة بالمعلقة، أو رشوة الحلو غالباً بيزودوا صراع السفرة بدل ما يبنوا قبولاً هادياً [6]. وبص للصورة عبر أيام، مش لوجبة واحدة: يوم خفيف مش كارثة، لكن نمط ضيق جداً ومستمر يستحق مراجعة.",
+            "en": "You do not need unusual ingredients or a perfect plate. Start with an iron source, add something containing vitamin C, then complete the meal with an energy food and a vegetable or fruit the child can manage. Breakfast could be an age-appropriate fortified cereal with milk and fruit, or an egg with bread and tomato. Lunch could be rice and lentils with tomato and pepper salad, pasta with a meat sauce, or boneless fish with potato and vegetables. Supper might include mashed fava beans with tomato and bread, or hummus with soft vegetables. These are meal-building ideas, not treatment recipes or fixed portions for every child [1, 2, 4].\n\nRepeat a source in different forms instead of deciding after the first refusal. Lentils can be served as soup or mixed with rice, meat can be tender and minced rather than a dry piece, and beans can be mashed. Keep meals and snacks predictable, and offer a small amount of the unfamiliar food beside something the child knows. The adult decides what and when food is offered; the child decides how much to eat from what is available. Pressure, chasing with a spoon or bribing with sweets usually increases mealtime conflict rather than building calm acceptance [6]. Look at the pattern across several days rather than one meal. A light day is not a crisis, but a persistently tiny food list deserves review."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "selective-and-vegetarian-eating",
+          "heading": {
+            "ar": "لو الطفل انتقائي أو مش بياكل لحمة",
+            "en": "If the child is selective or does not eat meat"
+          },
+          "body": {
+            "ar": "رفض اللحمة مش معناه تلقائياً نقص حديد. ساعات المشكلة في القوام الليفي أو المضغ أو الريحة، وساعات الطفل بيقبل مصدر تاني عادي. جرّب لحمة مفرومة طرية، فراخ مفتتة، سمك من غير شوك، بيض، عدس، فول، حمص، توفو أو حبوب مدعمة، واختار القوام حسب السن ومهارة الأكل. بلاش إخفاء كل الأكل طول الوقت بشكل يمنع الطفل يتعرف عليه، لكن ينفع تدمج مصدر حديد في أكلة مألوفة مع استمرار عرضه بصورة واضحة ومن غير ضغط [4, 6]. لو ده هو السؤال الأساسي عندك، اقرأ طفلي مش بياكل لحمة: هل عنده نقص حديد؟ لأنه بيفصّل البدائل وعلامات التقييم من غير ما نحوّل الصفحة دي لتشخيص.\n\nالنظام النباتي ممكن يتخطط له، لكن محتاج انتباه لأن امتصاص الحديد النباتي أقل، والأكل الغني بالحبوب والبقول فيه مركبات بتقلل التوافر الحيوي. التنويع، مصادر مدعمة، ووجود فيتامين سي مع الوجبة بيساعدوا، بينما النظام النباتي الصرف يحتاج مراجعة موثوقة لفيتامين ب12 وعناصر تانية، مش الحديد بس [1, 10]. اطلب مساعدة متخصصة لو القائمة أقل من كام صنف محدود، أو الطفل يشرق أو يكح مع الأكل، أو يرفض قوامات كاملة، أو الوجبة بتطول جداً، أو الوزن والطول مش ماشيين في مسارهم. دي ممكن تكون صعوبة تغذية أو بلع، ومجرد إضافة وصفة غنية بالحديد مش هتحل السبب.",
+            "en": "Refusing meat does not automatically mean iron deficiency. The difficulty may be a fibrous texture, chewing or smell, and some children readily accept another source. Try tender minced meat, shredded poultry, boneless fish, eggs, lentils, fava beans, chickpeas, tofu or fortified cereal, with texture matched to age and feeding skill. Avoid hiding every food so completely that the child never learns about it, although an iron source can be incorporated into a familiar dish while it continues to be offered visibly and without pressure [4, 6]. If this is your main question, read Child refuses meat: is it iron deficiency? for alternatives and assessment signs without turning this page into a diagnostic guide.\n\nA vegetarian pattern can be planned, but it needs attention because plant iron is less readily absorbed and compounds in grains and pulses reduce bioavailability. Variety, fortified sources and vitamin C with meals can help. A vegan pattern also needs reliable review of vitamin B12 and other nutrients, not iron alone [1, 10]. Seek specialist help when the food list has narrowed to only a few items, the child coughs or chokes during eating, entire textures are rejected, meals take an unusually long time, or height and weight are not following their trajectory. Those features may point to a feeding or swallowing difficulty, and simply adding an iron-rich recipe will not address the cause."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طفلي مش بياكل لحمة: هل عنده نقص حديد؟",
+                "url": "../articles/qa-child-refuses-meat-iron.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Child refuses meat: is it iron deficiency?",
+                "url": "../articles/qa-child-refuses-meat-iron.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "age-and-food-safety",
+          "heading": {
+            "ar": "السن والقوام والأمان جزء من اختيار المصدر",
+            "en": "Age, texture and safety are part of choosing the source"
+          },
+          "body": {
+            "ar": "حوالي عمر ٦ شهور، مع ظهور علامات الاستعداد للأكل، اللبن وحده ما يبقاش كفاية لتغطية كل الاحتياجات، وندخل أكل تكميلي غني بالعناصر ومنها الحديد مع استمرار الرضاعة المناسبة للطفل [2, 3]. الرضيع المبتسر أو منخفض الوزن، أو اللي له ظروف صحية معينة، ممكن يحتاج خطة مختلفة يحددها طبيبه. ما تستخدمش لبن البقر كمشروب أساسي قبل عمر سنة، وما تبدأش مكمل من نفسك. ولأن تفاصيل الرضع تشمل الاستعداد والقوام وعدد الوجبات، راجع دليل أول أطعمة غنية بالحديد للرضيع من ٦ لـ١٢ شهر بدل تطبيق نصائح طفل أكبر على رضيع.\n\nمصدر الحديد المفيد لازم يتقدم بأمان. اطبخ اللحمة أو الفراخ لحد ما تبقى طرية، شيل الجلد والعظم وشوك السمك، وافرُم أو فتّت أو اهرس حسب مهارة الطفل. الحبوب الكاملة والمكسرات والبذور وقطع اللحمة الكبيرة أو الناشفة ممكن تسبب شرقاً؛ للأطفال الصغيرين استخدم المكسرات والبذور مطحونة ناعماً أو زبدة ملساء موزعة بطبقة رفيعة، مش معلقة متكتلة، مع مراعاة الحساسية والخطة المناسبة لإدخال مسبباتها [12]. خلي الطفل قاعد مستقيم وهادي، وراقبه طول وقت الأكل. الأكل في العربية أو أثناء الجري واللعب يزود الخطر. الأمان مش معناه تأخير القوام للأبد؛ بيتدرج مع تطور مهارات الطفل وتوجيه طبيبه [3, 12].",
+            "en": "At around 6 months, once developmental signs of readiness are present, milk alone no longer meets every nutritional need. Complementary foods containing key nutrients, including iron, are introduced while age-appropriate milk feeding continues [2, 3]. A premature or low-birth-weight infant, or a baby with particular health conditions, may need a different plan from their clinician. Do not use cow's milk as the main drink before 12 months, and do not start a supplement independently. Because infant guidance also covers readiness, textures and meal frequency, see our guide to iron-rich first foods for babies aged 6 to 12 months rather than applying advice for an older child to an infant.\n\nAn iron source is only useful if it is served safely. Cook meat or poultry until tender, remove skin, bones and fish bones, then mince, shred or mash it according to the child's feeding ability. Whole nuts and seeds, large or tough meat pieces and other hard foods can be choking hazards. For young children, nuts and seeds need to be finely ground or a smooth butter spread thinly rather than offered as a sticky spoonful, while also following appropriate allergy-introduction advice [12]. Keep the child seated upright and calm, and supervise throughout eating. Eating in a moving car or while running and playing increases risk. Safety does not mean delaying texture progression indefinitely; textures advance with the child's developing skills and clinical guidance [3, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل أول أطعمة غنية بالحديد للرضيع من ٦ لـ١٢ شهر",
+                "url": "../articles/iron-rich-first-foods-6-to-12-months.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "guide to iron-rich first foods for babies aged 6 to 12 months",
+                "url": "../articles/iron-rich-first-foods-6-to-12-months.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-food-is-not-enough",
+          "heading": {
+            "ar": "إمتى الأكل مش كفاية، وإيه الخطوة الجاية؟",
+            "en": "When is food not enough, and what is the next step?"
+          },
+          "body": {
+            "ar": "لو التحاليل أثبتت نقص حديد أو أنيميا، تحسين الأكل مهم لإصلاح السبب الغذائي ومنع رجوعه، لكنه غالباً مش بديل عن علاج محسوب. نوع المستحضر والجرعة والمدة والمتابعة بيتحددوا حسب وزن الطفل وعمره وشدة النقص وسببه؛ تركيز الحديد بيختلف بين المنتجات، والزيادة ممكن تكون سامة [7, 9, 11]. ما تديش حديد «للاحتياط»، وما تستخدمش وصفة طفل تاني. لو فيه احتمال إن الطفل بلع حبوب أو شرب كمية زيادة، اتصل بالطوارئ أو مركز السموم فوراً وخد العبوة معاك، حتى لو شكله كويس أو الأعراض هديت [9].\n\nاطلب تقييماً عاجلاً لو الطفل عنده صعوبة تنفس وهو مرتاح، إغماء، خمول شديد أو صعب تصحيه، ضربات قلب سريعة بوضوح، نزيف مستمر، قيء دموي، أو براز أسود قطراني من غير تفسير معروف. وحدد موعداً قريباً لو فيه شحوب أو تعب مستمر، اشتهاء حاجات مش أكل، دورة غزيرة عند المراهق، ألم بطن أو إسهال مزمن، دم في البراز، تباطؤ نمو، أو قائمة أكل شديدة الضيق [5, 7, 11]. قبل الزيارة، اكتب أكل وشرب ٣ أيام، وكميات اللبن التقريبية، والمكملات، والأعراض وقياسات النمو السابقة. في العيادة، التقييم يبدأ بالتاريخ والفحص والنمو، والتحاليل تتطلب سبباً طبياً. لو محتاج مراجعة منظمة، تقدر تطلب حجز استشارة أطفال عشان الطبيب يحدد هل المطلوب تعديل أكل، تحاليل، أو علاج ومتابعة.",
+            "en": "If tests confirm iron deficiency or anaemia, improving food remains important for correcting a dietary driver and preventing recurrence, but it is often not a substitute for calculated treatment. The formulation, dose, duration and monitoring depend on the child's weight, age, severity and cause. Iron concentration differs between products, and excess iron can be toxic [7, 9, 11]. Do not give iron “just in case” or copy another child's prescription. If a child may have swallowed tablets or drunk an excessive amount, contact emergency services or a poison centre immediately and take the container with you, even if the child looks well or early symptoms settle [9].\n\nSeek urgent assessment for difficulty breathing at rest, fainting, profound lethargy or difficulty waking, an obviously racing heart, continuing bleeding, vomiting blood, or unexplained black tarry stool. Arrange a timely appointment for persistent pallor or fatigue, cravings for non-food items, heavy menstrual bleeding in an adolescent, chronic abdominal pain or diarrhoea, blood in stool, faltering growth, or an extremely restricted food list [5, 7, 11]. Before the visit, record three ordinary days of food and drink, approximate milk volumes, supplements, symptoms and previous growth measurements. In clinic, assessment begins with history, examination and growth review; tests need a clinical reason. If you need a structured review, you can request a paediatric consultation so the clinician can decide whether food changes, tests, treatment or follow-up are appropriate."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تطلب حجز استشارة أطفال",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a paediatric consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل السبانخ وحدها كفاية عشان الطفل ياخد حديد؟",
+            "en": "Is spinach alone enough to provide a child's iron?"
+          },
+          "a": {
+            "ar": "لأ. السبانخ فيها حديد غير هيمي، لكن امتصاصه أقل بسبب مركبات نباتية، فتبقى جزء من التنوع مش العلاج الوحيد. لف بين اللحمة أو الفراخ أو السمك لو مقبولين، والبقول والتوفو والحبوب المدعمة، وقدّم فيتامين سي مع المصادر النباتية [1, 2]. لو فيه أعراض أو تحليل غير طبيعي، الأكل وحده ما يحددش التشخيص أو العلاج.",
+            "en": "No. Spinach contains non-haem iron, but plant compounds reduce its absorption, so it belongs in a varied diet rather than serving as the sole remedy. Rotate accepted meat, poultry or fish with pulses, tofu and fortified cereals, and pair plant sources with vitamin C [1, 2]. If symptoms or an abnormal result are present, food alone cannot establish the diagnosis or treatment."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الطفل لازم ياكل لحمة كل يوم؟",
+            "en": "Does a child need to eat meat every day?"
+          },
+          "a": {
+            "ar": "مش لازم. اللحمة مصدر لحديد سهل الامتصاص، لكن الطفل ممكن ياخد الحديد من مصادر متنوعة تشمل الفراخ والسمك والبيض والبقول والتوفو والحبوب المدعمة. الكفاية بتعتمد على السن والكميات وباقي اليوم، والنظام النباتي محتاج تخطيط أدق لأن امتصاص الحديد غير الهيمي أقل [1, 4, 10].",
+            "en": "Not necessarily. Meat provides readily absorbed iron, but children can obtain iron from varied sources including poultry, fish, eggs, pulses, tofu and fortified cereals. Adequacy depends on age, amounts and the rest of the diet. Vegetarian patterns need more deliberate planning because non-haem iron is less readily absorbed [1, 4, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه أحسن حاجة أقدمها مع العدس أو الفول؟",
+            "en": "What is useful to serve with lentils or beans?"
+          },
+          "a": {
+            "ar": "ضيف فاكهة أو خضار غني بفيتامين سي في نفس الوجبة، زي الطماطم أو الفلفل أو البرتقال أو الفراولة حسب السن والقدرة على الأكل؛ ده بيساعد امتصاص الحديد النباتي. مش لازم عصير أو مكمل. ابعد الشاي والقهوة عن الطفل والوجبة، وخلي اللبن ما يزاحمش الأكل طول اليوم [1, 2].",
+            "en": "Add an age-appropriate vitamin-C-rich fruit or vegetable to the meal, such as tomato, pepper, orange or strawberries; this helps absorption of plant iron. Juice and a supplement are not required. Keep tea and coffee away from the child and the meal, and avoid allowing milk to displace food throughout the day [1, 2]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل رفض اللحمة معناه إن الطفل محتاج تحليل؟",
+            "en": "Does refusing meat mean a child needs a blood test?"
+          },
+          "a": {
+            "ar": "رفض صنف واحد لوحده مش تشخيص. الطبيب يبص على السن، والنمو، وباقي مصادر الحديد، وكمية اللبن، والأعراض وعوامل الخطر قبل ما يقرر. التحليل يبقى أهم مع شحوب أو تعب مستمر، اشتهاء حاجات مش أكل، نمو متباطئ، فقد دم، أو نظام شديد الضيق [5, 7, 11].",
+            "en": "Refusing one food is not a diagnosis. A clinician considers age, growth, other iron sources, milk intake, symptoms and risk factors before deciding. Testing becomes more relevant with persistent pallor or fatigue, cravings for non-food items, faltering growth, blood loss, or an extremely restricted diet [5, 7, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أدي مكمل حديد عشان أضمن الاحتياج؟",
+            "en": "Should I give an iron supplement to make sure needs are met?"
+          },
+          "a": {
+            "ar": "ما تبدأش مكمل أو جرعة علاج من نفسك. بعض الرضع لهم احتياجات وقائية يحددها الطبيب حسب عمر الحمل ونوع الرضاعة، وده مختلف عن علاج نقص مؤكد. المستحضرات تركيزها مختلف، وزيادة الحديد ممكن تكون خطيرة جداً؛ احفظه مقفول وبعيد تماماً عن الأطفال [2, 9, 11].",
+            "en": "Do not start a supplement or treatment dose independently. Some infants have preventive needs determined by a clinician according to gestational age and milk feeding, which is different from treating confirmed deficiency. Products have different concentrations, and excess iron can be very dangerous; keep it locked completely out of children's reach [2, 9, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الأكل يعالج أنيميا نقص الحديد لوحده؟",
+            "en": "Can food alone treat iron-deficiency anaemia?"
+          },
+          "a": {
+            "ar": "الأكل الغني بالحديد مهم، لكنه غالباً مش كفاية لو النقص أو الأنيميا اتأكدوا. الطفل ممكن يحتاج حديد بجرعة محسوبة مع علاج السبب ومتابعة الاستجابة والمخزون. ما توقفش علاجاً موصوفاً لمجرد إن الشهية أو النشاط اتحسنوا، وما تستخدمش خطة طفل تاني [7, 11].",
+            "en": "Iron-rich food is important, but it is often insufficient once deficiency or anaemia is confirmed. A child may need a calculated iron dose together with correction of the cause and monitoring of response and stores. Do not stop prescribed treatment simply because appetite or energy improves, and do not copy another child's plan [7, 11]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIH Office of Dietary Supplements — Iron: Fact Sheet for Health Professionals",
+          "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+        },
+        {
+          "label": "CDC — Iron: Infant and Toddler Nutrition",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/vitamins-minerals/iron.html"
+        },
+        {
+          "label": "World Health Organization — Guideline for complementary feeding of infants and young children 6–23 months of age",
+          "url": "https://www.who.int/publications/i/item/9789240081864"
+        },
+        {
+          "label": "NHS — What to feed young children",
+          "url": "https://www.nhs.uk/baby/weaning-and-feeding/what-to-feed-young-children/"
+        },
+        {
+          "label": "American Academy of Pediatrics HealthyChildren — Iron Deficiency and Anemia in Babies, Children & Teens",
+          "url": "https://www.healthychildren.org/english/health-issues/conditions/chronic/pages/anemia-and-your-child.aspx"
+        },
+        {
+          "label": "American Academy of Pediatrics HealthyChildren — How do I help my picky eater try more healthy foods?",
+          "url": "https://www.healthychildren.org/English/tips-tools/ask-the-pediatrician/Pages/How-Do-I-Help-My-Picky-Eater-Try-More-Foods.aspx"
+        },
+        {
+          "label": "Royal Children's Hospital Melbourne — Clinical Practice Guideline: Iron deficiency",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Iron_deficiency/"
+        },
+        {
+          "label": "World Health Organization — Guideline on use of ferritin concentrations to assess iron status",
+          "url": "https://www.who.int/publications/i/item/9789240000124"
+        },
+        {
+          "label": "MedlinePlus Medical Encyclopedia — Iron overdose",
+          "url": "https://medlineplus.gov/ency/article/002659.htm"
+        },
+        {
+          "label": "German Society for Paediatric and Adolescent Medicine — Vegetarian diets in childhood and adolescence (PMID 31722049)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31722049/"
+        },
+        {
+          "label": "Powers JM, Heeney MM, Hord J, et al. — Prevention, Screening, Diagnosis, and Treatment of Iron Deficiency and Iron Deficiency Anemia in Infants, Children, and Adolescents (Pediatrics 2026; PMID 42324084)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42324084/"
+        },
+        {
+          "label": "CDC — Choking Hazards: Infant and Toddler Nutrition",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "حديد للأطفال",
+          "أكل غني بالحديد",
+          "تغذية الأطفال"
+        ],
+        "en": [
+          "iron rich foods for children",
+          "child nutrition",
+          "iron assessment"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "أكل غني بالحديد للأطفال: دليل عملي",
+          "en": "Iron-rich foods for children: practical guide"
+        },
+        "description": {
+          "ar": "دليل عملي لأكل غني بالحديد للأطفال، ومصادره الحيوانية والنباتية، وتحسين الامتصاص، ووجبات مناسبة للسن، وإمتى تحتاج رأي الطبيب.",
+          "en": "A practical guide to iron-rich foods for children, better absorption, age-safe meals, selective eating, and when clinical advice is needed."
+        }
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا اختيارات الأكل وطرق تحسين الامتصاص والوجبات المناسبة لكل سن وعلامات التقييم، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded food choices, absorption guidance, age-appropriate meals and assessment signs, and medically re-reviewed the content."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-fatty-liver-without-overweight; replaces the entry from content/articles.json. Expanded into a bilingual, source-verified guide to lean MASLD, fibrosis assessment, practical management, and red flags.",
+  "articles": [
+    {
+      "slug": "qa-fatty-liver-without-overweight",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "internal-medicine",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/gastro-2.webp",
+      "title": {
+        "ar": "وزني طبيعي: ينفع يكون عندي دهون على الكبد؟",
+        "en": "Can I have fatty liver at a normal weight?"
+      },
+      "excerpt": {
+        "ar": "أيوه، دهون الكبد ممكن تحصل مع وزن طبيعي. اعرف ليه مؤشر الكتلة مش الصورة كلها، وإزاي يتقيّم السبب وخطر التليّف من غير دايت قاسي أو مكملات عشوائية.",
+        "en": "Yes, fatty liver can occur at a normal weight. Learn why BMI is not the whole picture, how causes and fibrosis risk are assessed, and why harsh diets or random supplements are not the answer."
+      },
+      "sections": [
+        {
+          "id": "yes-normal-weight-does-not-rule-it-out",
+          "heading": {
+            "ar": "الإجابة المختصرة: أيوه، الوزن الطبيعي ما يستبعدش دهون الكبد",
+            "en": "The short answer: yes, normal weight does not rule out fatty liver"
+          },
+          "body": {
+            "ar": "أيوه، ينفع يكون عندك دهون على الكبد حتى لو وزنك داخل المدى الطبيعي ومظهرك الخارجي رفيع. زيادة الوزن عامل خطر مهم، لكنها مش شرط للتشخيص. الأطباء كانوا بيستخدموا اسم الكبد الدهني غير الكحولي، والاسم الأحدث هو مرض الكبد الدهني المرتبط بخلل التمثيل الغذائي (MASLD) لما تكون الدهون موجودة ومعاها عامل أيضي واحد أو أكتر، بعد ما الطبيب يراجع الأسباب التانية والسياق الكامل [1, 2, 3]. كلمة «وزني طبيعي» بتوصف علاقة الطول بالوزن، لكنها ما بتقولش لوحدها الدهون متوزعة فين، ولا كمية العضلات، ولا ضغط الدم والسكر والدهون الثلاثية [3, 8, 9].\n\nوده مش معناه إن كل شخص وزنه طبيعي محتاج يعمل سونار أو تحاليل من غير سبب. الفحص العام لكل الناس الرفيعة مش موصى به؛ التفكير في التشخيص بيبدأ لما تظهر دهون بالصدفة في تصوير، أو إنزيمات كبد غير مفسرة، أو سكر أو دهون أو ضغط مرتفع، أو تاريخ عائلي وسياق يخلي الطبيب يشك [2, 3]. الرسالة المهمة بسيطة: الميزان مش شهادة إن الكبد سليم، ووجود دهون مش حكم إن فيه تليّف. المطلوب تقييم هادي يفرّق بين وجود الدهون ودرجة الخطر، بدل الذعر أو التجاهل [1, 3].",
+            "en": "Yes. Fat can build up in the liver even when your weight falls within the normal range and you look lean. Excess weight is an important risk factor, but it is not required for the diagnosis. Clinicians previously used the term non-alcoholic fatty liver disease; the newer term is metabolic dysfunction-associated steatotic liver disease (MASLD) when liver fat occurs with at least one cardiometabolic risk factor after other causes and the wider context have been considered [1, 2, 3]. “My weight is normal” describes a relationship between height and weight. It does not show where fat is stored, muscle mass, blood pressure, glucose or triglycerides [3, 8, 9].\n\nThis does not mean every lean person needs an ultrasound or blood tests without a clinical reason. Routine population screening of all lean adults is not recommended. Assessment begins when fat is found incidentally on imaging, liver enzymes are unexplained, diabetes, abnormal lipids or high blood pressure are present, or family history and the clinical context raise concern [2, 3]. The useful message is simple: the scale is not a certificate of liver health, and finding fat is not proof of fibrosis. A calm assessment should separate the presence of fat from the severity of risk, avoiding both panic and dismissal [1, 3]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "why-it-happens-in-lean-people",
+          "heading": {
+            "ar": "ليه ده بيحصل؟ دهون البطن ومقاومة الإنسولين والجينات مش باينين على الميزان",
+            "en": "Why it happens: visceral fat, insulin resistance and genes are not visible on the scale"
+          },
+          "body": {
+            "ar": "مؤشر كتلة الجسم أداة مفيدة على مستوى السكان، بس مش تحليل لتركيب الجسم. ممكن الوزن يبقى طبيعي مع دهون حشوية حوالين أعضاء البطن، أو كتلة عضلية قليلة، أو زيادة حديثة في محيط الوسط حتى لو الرقم على الميزان لسه في المدى الطبيعي. الدهون الحشوية ونقص حساسية الجسم للإنسولين ممكن يزودوا وصول الأحماض الدهنية للكبد وتصنيع الدهون جواه. عشان كده الطبيب بيبص لمحيط الوسط واتجاه الوزن مع الوقت، مش للوزن الحالي بس [2, 3, 9]. صفحة مقاومة الإنسولين بتشرح بالتفصيل إزاي الخلايا والجلوكوز والدهون بيدخلوا في نفس الدائرة؛ هنا المهم إن مقاومة الإنسولين ممكن تكون موجودة من غير سمنة واضحة، وما تتشخصش من شكل الجسم أو عرض واحد [1, 2].\n\nعوامل تانية ممكن تشارك: السكر من النوع التاني أو مقدماته، الدهون الثلاثية أو الكوليسترول غير المنضبط، ضغط الدم، قلة الحركة، مشروبات محلاة كتير، واستعداد وراثي. وجود عامل واحد ما يثبتش السبب لوحده، وغياب العلامات المشهورة ما يوقفش التفكير فيه [1, 3, 8]. كمان «رفيع» مش دايماً معناها «صحي أيضياً»، و«عنده دهون كبد» مش معناها إنه عمل حاجة غلط. الهدف نفهم العوامل القابلة للتعديل من غير لوم، ونحدد إذا كان فيه سبب تاني محتاج علاج مختلف [3, 9].",
+            "en": "BMI is useful at population level, but it is not a body-composition test. A person can have a normal BMI alongside visceral fat around the abdominal organs, low muscle mass, or a recent increase in waist size even while the scale remains in range. Visceral fat and reduced insulin sensitivity can increase the delivery and production of fatty acids in the liver. This is why a clinician considers waist size and the direction of weight over time, not only today’s number [2, 3, 9]. The page insulin resistance explained describes how cells, glucose and fat interact; the key point is that insulin resistance can occur without visible obesity and cannot be diagnosed from body shape or one symptom [1, 2].\n\nOther contributors may include type 2 diabetes or prediabetes, high triglycerides or poorly controlled cholesterol, high blood pressure, physical inactivity, frequent sugar-sweetened drinks and genetic susceptibility. No single factor proves the cause, and the absence of familiar risk factors does not eliminate it [1, 3, 8]. “Lean” does not always mean “metabolically healthy,” and having liver fat does not mean someone has failed. The aim is to identify modifiable factors without blame and check whether another cause needs different treatment [3, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "صفحة مقاومة الإنسولين",
+                "url": "../articles/insulin-resistance-explained.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "insulin resistance explained",
+                "url": "../articles/insulin-resistance-explained.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "confirm-cause-not-label",
+          "heading": {
+            "ar": "قبل ما نسميها MASLD: الطبيب بيراجع أسباب الدهون التانية",
+            "en": "Before calling it MASLD: the clinician checks other causes of liver fat"
+          },
+          "body": {
+            "ar": "لما الدهون تظهر عند شخص وزنه طبيعي، أهم خطوة مش إننا نفترض إنها بسبب الأكل وخلاص. الطبيب بيسأل عن نمط شرب الكحول بصراحة ومن غير حكم، لأن الكمية والتكرار ممكن يغيروا اسم الحالة وطريقة التعامل. وبيسأل كمان عن أدوية موصوفة ومكملات وأعشاب؛ أدوية معينة ممكن ترتبط بتراكم الدهون أو إصابة الكبد، لكن ده مش سبب إنك توقف دواء مهم من نفسك. خُد قائمة بكل حاجة بتستخدمها، وسيب قرار التعديل للطبيب اللي وصف العلاج أو بيتابع الحالة [2, 3, 12].\n\nالتقييم ممكن يشمل، حسب السن والتاريخ والأعراض، استبعاد التهاب الكبد الفيروسي، اضطرابات الغدة الدرقية، السيلياك، أو أسباب وراثية ونادرة. مش كل شخص محتاج نفس القائمة الطويلة من التحاليل؛ الفحوص بتتوجه حسب السياق والعلامات [2, 3, 4]. مهم كمان تقول للطبيب لو حصل فقدان وزن سريع جداً، صيام طويل، تغذية وريدية، جراحة سمنة، أو مرض حديث؛ لأن كلمة «دهون» في تقرير الأشعة مش تشخيصاً نهائياً للسبب [3]. ما تبدأش «ديتوكس» أو خلطة تنظيف كبد. بعض المنتجات العشبية والمكملات نفسها ممكن تأذي الكبد، وعبارة «طبيعي» مش ضمان للأمان [6, 12].",
+            "en": "When liver fat is found in a person of normal weight, the first step is not to assume diet is the whole explanation. The clinician asks about alcohol pattern without judgement because amount and frequency may change the diagnostic category and management. They also review medicines, supplements and herbal products. Some medicines can be associated with steatosis or liver injury, but do not stop an important treatment yourself. Bring a complete list and let the treating clinician decide whether anything should change [2, 3, 12].\n\nDepending on age, history and symptoms, assessment may consider viral hepatitis, thyroid disorders, coeliac disease or uncommon inherited causes. Not everyone needs the same long panel; testing follows context and specific clues [2, 3, 4]. Mention very rapid weight loss, prolonged fasting, intravenous nutrition, bariatric surgery or recent illness. “Fatty” on an imaging report is not a final diagnosis of its cause [3]. Do not start a liver “detox.” Some herbal products and supplements can injure the liver, and “natural” does not guarantee safety [6, 12]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "symptoms-and-red-flags",
+          "heading": {
+            "ar": "الأعراض غالباً ساكتة: إيه اللي يستنى كشف وإيه اللي يحتاج رعاية عاجلة؟",
+            "en": "Symptoms are often silent: what needs an appointment and what needs urgent care?"
+          },
+          "body": {
+            "ar": "دهون الكبد في مراحلها الأولى غالباً ما بتعملش أعراض واضحة، وناس كتير بتكتشفها بالصدفة في سونار أو تحاليل اتعملت لسبب تاني. لو ظهرت أعراض فهي ممكن تبقى عامة، زي إرهاق أو إحساس غير محدد بعدم الارتياح ناحية أعلى يمين البطن؛ والأعراض دي ليها أسباب كتير، فما ينفعش تشخّص نفسك منها [5, 7, 8]. احجز تقييماً منظماً لو التقرير ذكر دهون، أو إنزيمات الكبد فضلت غير طبيعية، أو عندك سكر أو ضغط أو دهون مرتفعة، أو تاريخ عائلي لمرض كبد متقدم. ما تستناش الوجع عشان تتحرك، لأن شدة الأعراض ما بتقيسش مقدار التليّف [2, 3, 5].\n\nفي المقابل، اصفرار العين أو الجلد، بول غامق مع براز فاتح، قيء دم أو براز أسود، لخبطة أو نعاس غير معتاد، تورم جديد وسريع في البطن أو الرجلين، نزيف غير معتاد، أو ألم شديد مفاجئ مع تدهور عام محتاجين تقييماً عاجلاً، وممكن يستدعوا الطوارئ حسب الشدة. العلامات دي مش معناها تلقائياً إن السبب دهون الكبد، لكنها ممكن تشير لمشكلة كبد متقدمة أو انسداد أو نزيف أو سبب حاد تاني، فمش وقت انتظار موعد روتيني أو تجربة علاج منزلي [7, 8]. لو الأعراض شديدة، الوعي متأثر، أو فيه قيء دم، اطلب رعاية طارئة فوراً. القرار النهائي عن مستوى الاستعجال بيتحدد من الفريق الطبي اللي يقدر يفحصك [7, 8].",
+            "en": "Early fatty liver usually causes no clear symptoms, and many people discover it incidentally during an ultrasound or blood tests requested for another reason. When symptoms occur, they may be nonspecific, such as fatigue or vague discomfort in the upper right abdomen. Many conditions can cause these symptoms, so they cannot diagnose fatty liver on their own [5, 7, 8]. Arrange a structured review if a report mentions steatosis, liver enzymes remain abnormal, you have diabetes, high blood pressure or abnormal lipids, or there is a family history of advanced liver disease. Do not wait for pain before acting, because symptom intensity does not measure the amount of fibrosis [2, 3, 5].\n\nBy contrast, yellow eyes or skin, dark urine with pale stools, vomiting blood or passing black stools, confusion or unusual drowsiness, new rapidly increasing abdominal or leg swelling, unusual bleeding, or sudden severe pain with marked illness needs urgent assessment and may require emergency care depending on severity. These signs do not automatically mean fatty liver is the cause, but they can signal advanced liver dysfunction, obstruction, bleeding or another acute condition. This is not the time to wait for a routine appointment or try a home remedy [7, 8]. If symptoms are severe, consciousness is affected, or there is vomiting of blood, seek emergency care immediately. The treating medical team should determine the appropriate level of urgency after assessment [7, 8]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "tests-and-ultrasound",
+          "heading": {
+            "ar": "التشخيص بيتجمع من القصة والتحاليل والتصوير، مش من اختبار واحد",
+            "en": "Diagnosis combines history, blood tests and imaging—not one test"
+          },
+          "body": {
+            "ar": "التقييم بيبدأ بقصة واضحة: الوزن ومحيط الوسط مع الوقت، الأمراض المزمنة، الضغط، نمط الأكل والحركة، الكحول، الأدوية والمكملات، والتاريخ العائلي. الفحص ممكن يدور على توزيع الدهون وكتلة العضلات وضغط الدم وعلامات مرض كبد متقدم. التحاليل غالباً بتضم ALT وAST ومؤشرات تانية للكبد، صورة دم وصفائح، سكر صايم أو تراكمي، ودهون الدم؛ وتتوسع حسب السؤال السريري. تحليل وظائف الكبد مش اختباراً واحداً ولا يثبت سبب الدهون، والقيم الطبيعية ما تستبعدش المرض أو التليّف [2, 3, 4]. دليل تحليل وظائف الكبد بيوضح ليه كل رقم بيتقري وسط الصورة كلها، مش منفصل عنها.\n\nالسونار العادي ممكن يلقط مظهراً متوافقاً مع الدهون، خصوصاً لما تكون الكمية أوضح، لكنه أقل حساسية للدرجات البسيطة، وما يقدرش وحده يفرق بثقة بين دهون بسيطة والتهاب دهني أو يحدد مرحلة التليّف [2, 4]. صفحة هل السونار يكشف دهون الكبد؟ بتفصل حدود التقرير والخطوة اللي بعده، عشان ما يتحولش وصف الأشعة لحكم أكبر من قدرته. أحياناً الطبيب يستخدم قياس صلابة الكبد بالموجات أو الرنين، ونادراً خزعة كبد لما يفضل السبب أو مرحلة الإصابة غير واضحين وتكون النتيجة هتغير القرار [1, 2, 3]. ترتيب الاختبارات بيتحدد حسب احتمالك الشخصي ونتائجك؛ مش كل شخص محتاج كل فحص [1, 4].",
+            "en": "Assessment begins with a clear history: changes in weight and waist size, long-term conditions, blood pressure, eating and activity patterns, alcohol, medicines and supplements, and family history. Examination may consider fat distribution, muscle mass, blood pressure and signs of advanced liver disease. Blood work often includes ALT, AST and other liver markers, a full blood count with platelets, fasting glucose or HbA1c, and a lipid profile, with additional tests guided by the clinical question. Liver function tests are not a single test and do not establish the cause of steatosis; normal values do not exclude disease or fibrosis [2, 3, 4]. The guide to understanding liver function tests explains why each value must be read in context rather than alone.\n\nConventional ultrasound can detect an appearance consistent with steatosis, particularly when fat is more marked, but it is less sensitive for mild disease. It cannot reliably distinguish simple fat from steatohepatitis or stage fibrosis by itself [2, 4]. The page does ultrasound detect fatty liver? explains the report’s limits and what may come next, so an imaging description is not asked to answer more than it can. A clinician may use liver-stiffness imaging such as elastography or magnetic resonance methods; liver biopsy is reserved for selected cases where the cause or injury stage remains uncertain and the answer would change management [1, 2, 3]. Testing is arranged according to individual probability and results; not everybody needs every test [1, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل تحليل وظائف الكبد",
+                "url": "../articles/liver-function-tests-need-context.html"
+              },
+              {
+                "label": "هل السونار يكشف دهون الكبد؟",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "understanding liver function tests",
+                "url": "../articles/liver-function-tests-need-context.html"
+              },
+              {
+                "label": "does ultrasound detect fatty liver?",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fibrosis-risk-matters",
+          "heading": {
+            "ar": "السؤال الأهم بعد وجود الدهون: هل فيه خطر تليّف؟",
+            "en": "The key question after finding fat: is there a risk of fibrosis?"
+          },
+          "body": {
+            "ar": "وجود الدهون ووجود الندبات مش نفس الحاجة. أغلب القرارات المهمة بتتبني على احتمال التليّف المتقدم، لأن التليّف هو اللي يرتبط أكتر بمضاعفات الكبد على المدى الطويل. الوزن الطبيعي ما يديش إعفاء من تقييم الخطر؛ إرشادات الأشخاص الرفيعة بتوصي إن اللي اتأكد عنده كبد دهني يتعمل له تصنيف لخطر التليّف بدل ما الحالة تتوصف إنها بسيطة لمجرد شكل الجسم [1, 2, 3]. شرح الفرق بين دهون الكبد والتليّف بيلخص السؤال ده من غير ما نكرر تفاصيل الصفحة هنا.\n\nالطبيب ممكن يبدأ بحساب غير جراحي زي FIB-4، وده بيستخدم السن وAST وALT وعدد الصفائح. النتيجة مش تشخيص منفرد: السن، المرض الحاد، والسياق بيأثروا على دقتها، والقيمة المتوسطة أو المرتفعة غالباً محتاجة اختباراً ثانياً زي قياس صلابة الكبد أو مراجعة متخصص، مش استنتاجاً منزلياً [1, 2, 10]. لو الاختبارات غير متوافقة، الطبيب بيجمعها مع التاريخ والفحص وقد يطلب اختباراً إضافياً. الإنزيمات الطبيعية مطمئنة في سياقها بس ما توقفش التقييم، لأن مرضاً مهماً وتليّفاً ممكن يكونوا موجودين مع aminotransferases داخل مجال المعمل [2]. ولو اتأكد تليّف متقدم أو تشمع، المتابعة بتتغير وقد تشمل مراقبة مضاعفات محددة تحت إشراف متخصص؛ دي خطة منفصلة عن مجرد متابعة الدهون [1, 2, 3].",
+            "en": "Liver fat and liver scarring are not the same thing. The probability of advanced fibrosis drives many of the important decisions because fibrosis is more closely linked with long-term liver outcomes. Normal weight does not provide an exemption from risk assessment. Guidance for lean patients recommends fibrosis stratification once fatty liver is established rather than labelling the condition harmless because of body shape [1, 2, 3]. The explanation of the difference between fatty liver and fibrosis summarises this issue without repeating that neighboring page in full.\n\nA clinician may begin with a non-invasive score such as FIB-4, which uses age, AST, ALT and the platelet count. The result is not a diagnosis on its own: age, acute illness and clinical setting affect interpretation, while an intermediate or high value commonly calls for a second test such as liver-stiffness measurement or specialist review rather than a conclusion made at home [1, 2, 10]. When non-invasive tests disagree, the clinician combines them with the history and examination and may arrange another test. Normal enzymes can be reassuring in context but do not cancel assessment, because clinically important disease and fibrosis may occur while aminotransferases fall within the laboratory range [2]. If advanced fibrosis or cirrhosis is confirmed, follow-up changes and may include surveillance for specific complications under specialist care. That is a different pathway from monitoring steatosis alone [1, 2, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الفرق بين دهون الكبد والتليّف",
+                "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "difference between fatty liver and fibrosis",
+                "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "management-without-harsh-weight-loss",
+          "heading": {
+            "ar": "العلاج مش إنك تخس وخلاص: خطة مناسبة لجسمك وخطرك",
+            "en": "Treatment is not simply “lose weight”: the plan must fit your body and risk"
+          },
+          "body": {
+            "ar": "لو وزنك طبيعي، ما تبدأش دايت قاسي ولا تحاول توصل لوزن أقل من المناسب عشان تقرير السونار. الخطة بتتظبط على تركيب الجسم، محيط الوسط، وجود دهون حشوية أو نقص عضلات، ومرحلة الكبد. بعض الأشخاص الرفيعة اللي عندهم دهون بطن أو زيادة حديثة ممكن يستفيدوا من نزول بسيط ومتابَع، لكن شخص تاني محتاج يثبت وزنه ويبني عضلات ويحسن جودة الأكل. القرار فردي، خصوصاً لو فيه نحافة زائدة، سن كبير، فقدان عضلات أو مرض مزمن [1, 3, 6].\n\nالأساس غالباً نمط أكل متوازن قابل للاستمرار: خضار وبقول وحبوب كاملة مناسبة، بروتين كفاية، دهون غير مشبعة، وتقليل المشروبات السكرية والأكل فائق التصنيع بدل «منع» عشوائي لقوائم طويلة. الحركة الهوائية وتمارين المقاومة بيساعدوا الصحة الأيضية وقد يقللوا دهون الكبد حتى من غير تغير كبير على الميزان؛ البداية تتحدد حسب اللياقة وأي مرض بالقلب أو المفاصل [1, 2, 3]. كمان لازم السكر والضغط والدهون يتعالجوا كويس، والتدخين يتوقف، والكحول يتناقش بوضوح مع الطبيب. ما تستخدمش فيتامين E أو أدوية سكر أو حقن وزن كعلاج للكبد من نفسك؛ فائدتها ومخاطرها بتختلف حسب وجود التهاب مثبت، سكر، تليّف، والاعتماد الرسمي للدواء [1, 2, 3, 6]. المتابعة تقيس الاتجاه: التحاليل، عوامل الخطر، وأحياناً اختبار التليّف، مش شكل الجسم بس [1, 10].",
+            "en": "If your weight is normal, do not begin a severe diet or try to become underweight because of an ultrasound report. The plan should reflect body composition, waist size, visceral fat or low muscle mass, and the stage of liver disease. Some lean people with central fat or recent weight gain may benefit from modest supervised loss, while another person needs weight stability, muscle building and better food quality. The decision is individual, especially with low BMI, older age, muscle loss or chronic illness [1, 3, 6].\n\nThe foundation is usually a balanced pattern that can be sustained: suitable vegetables, pulses and whole grains, enough protein, unsaturated fats, and fewer sugar-sweetened drinks and ultra-processed foods rather than arbitrary exclusion of long food lists. Aerobic activity and resistance training support metabolic health and may reduce liver fat even without a large change on the scale; the starting level should reflect fitness and any heart or joint disease [1, 2, 3]. Diabetes, blood pressure and lipids also need good management, smoking should stop, and alcohol should be discussed clearly with the clinician. Do not self-prescribe vitamin E, diabetes medicines or weight-loss injections as liver treatment. Benefits, harms and eligibility differ according to biopsy-confirmed inflammation, diabetes, fibrosis and the medicine’s approved indication [1, 2, 3, 6]. Follow-up measures direction through laboratory results, risk factors and sometimes repeat fibrosis assessment—not appearance alone [1, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "next-step",
+          "heading": {
+            "ar": "خطوتك الجاية: اجمع الصورة بدل ما تحارب رقم الميزان",
+            "en": "Your next step: assemble the full picture instead of fighting the scale"
+          },
+          "body": {
+            "ar": "لو تقريرك قال دهون على الكبد ووزنك طبيعي، حضّر نسخة من السونار وأي تحاليل قديمة، واكتب الأدوية والمكملات، تغير الوزن ومحيط الوسط، والأمراض الموجودة في العيلة. دوّن كمان أي سكر أو ضغط أو دهون مرتفعة، وتفاصيل الأعراض لو موجودة. في الزيارة، اسأل: هل الوصف متوافق فعلاً مع MASLD؟ إيه الأسباب التانية اللي تنطبق عليّ؟ هل أحتاج حساب خطر تليّف أو قياس صلابة؟ وإمتى نعيد التقييم؟ الأسئلة دي بتحول كلمة مقلقة في التقرير لخطة مفهومة [1, 3, 4].\n\nفي العيادة، تقييم الباطنة والجهاز الهضمي ممكن يجمع القصة والفحص والنتائج ويحدد إذا كان السونار أو تحاليل إضافية أو تقييم تليّف له داعٍ. ذكر العيادة هنا هو فقط للخطوة العملية الأخيرة؛ مفيش اختبار واحد أو وعد بنتيجة ثابتة لكل الناس. لو محتاج تبدأ مراجعة منظمة، تقدر تستخدم طلب حجز استشارة باطنة وجهاز هضمي، مع العلم إن القرار النهائي عن الفحوص والعلاج بيتاخد مع الطبيب بعد الكشف [1, 2]. ولو عندك أي علامة خطر من اللي فوق، ما تستناش موعداً روتينياً واتجه للرعاية العاجلة المناسبة. الخلاصة: وزنك الطبيعي ما يمنعش دهون الكبد، لكنه كمان ما يبررش علاجاً قاسياً. التشخيص الصحيح، تقدير التليّف، وحماية العضلات والصحة الأيضية هم اللي يحددوا الخطوة المفيدة [1, 3, 6].",
+            "en": "If your report says fatty liver and your weight is normal, bring the ultrasound report and previous blood results, and list medicines, supplements, changes in weight and waist size, and relevant family conditions. Note any diabetes, high blood pressure or abnormal lipids and describe symptoms if present. At the visit, ask: does this pattern truly fit MASLD; which alternative causes apply to me; do I need fibrosis scoring or liver-stiffness testing; and when should assessment be repeated? These questions turn a worrying phrase in a report into an understandable plan [1, 3, 4].\n\nAt the clinic, an internal-medicine and gastroenterology assessment can combine the history, examination and results, then decide whether ultrasound, further blood tests or fibrosis assessment is indicated. The clinic is mentioned only here as the practical next step; no single test or fixed outcome applies to everyone. If you want to begin a structured review, you can request an internal medicine and gastroenterology consultation, understanding that testing and treatment decisions are made with the clinician after examination [1, 2]. If any warning sign described above is present, do not wait for a routine appointment; use appropriate urgent care. The central message is that normal weight does not prevent fatty liver, but it also does not justify harsh treatment. Correct diagnosis, fibrosis risk and protection of muscle and metabolic health determine the useful next step [1, 3, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز استشارة باطنة وجهاز هضمي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request an internal medicine and gastroenterology consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الوزن الطبيعي معناه إن دهون الكبد بسيطة؟",
+            "en": "Does normal weight mean fatty liver must be mild?"
+          },
+          "a": {
+            "ar": "لأ. الوزن ما يحددش كمية الالتهاب أو التليّف، وممكن شخص رفيع يكون عنده خطر محتاج متابعة. وفي نفس الوقت، مجرد ظهور الدهون ما يثبتش إن فيه تليّف. الطبيب بيستخدم التاريخ والتحاليل وحسابات الخطر، وأحياناً قياس صلابة الكبد، عشان يفرق بين وجود الدهون ومرحلة الإصابة [1, 2, 3].",
+            "en": "No. Weight does not determine the amount of inflammation or fibrosis, and a lean person can have risk that needs follow-up. At the same time, finding fat does not prove fibrosis. The clinician uses history, blood tests, risk scores and sometimes liver-stiffness measurement to separate the presence of fat from the stage of injury [1, 2, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أخس رغم إن مؤشر الكتلة طبيعي؟",
+            "en": "Must I lose weight if my BMI is normal?"
+          },
+          "a": {
+            "ar": "مش تلقائياً. لو فيه دهون بطن أو زيادة وزن حديثة، الطبيب ممكن يقترح نزولاً بسيطاً ومراقَباً. لكن لو جسمك رفيع أو العضلات قليلة، الأولوية ممكن تبقى تثبيت الوزن، تحسين الأكل، وتمارين مقاومة مناسبة. ما تعملش عجز سعرات قاسي من نفسك؛ الهدف صحة الكبد والعضلات، مش أقل رقم على الميزان [1, 3, 6].",
+            "en": "Not automatically. With central fat or recent weight gain, a clinician may suggest modest supervised loss. If you are already lean or have low muscle mass, the priority may instead be weight stability, better food quality and suitable resistance exercise. Do not impose a severe calorie deficit yourself; the goal is healthier liver and muscle, not the lowest scale number [1, 3, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل إنزيمات الكبد الطبيعية تستبعد الدهون أو التليّف؟",
+            "en": "Do normal liver enzymes rule out steatosis or fibrosis?"
+          },
+          "a": {
+            "ar": "لأ. ALT وAST ممكن يفضلوا داخل مجال المعمل مع وجود دهون، وأحياناً مع مرض متقدم. الأرقام مفيدة، بس بتتقري مع الصفائح والسن وعوامل الخطر والتصوير. ما تعتبرش التحليل الطبيعي تصريحاً بتجاهل تقرير السونار، وما تعتبرش الارتفاع تشخيصاً لسبب واحد [2, 3, 4].",
+            "en": "No. ALT and AST may remain within the laboratory range despite steatosis and sometimes advanced disease. The values are useful but must be read with platelets, age, risk factors and imaging. A normal result is not permission to ignore an ultrasound finding, while an elevated value does not diagnose one particular cause [2, 3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل السونار يقدر يقول إذا كان عندي التهاب أو تليّف؟",
+            "en": "Can ultrasound tell whether I have inflammation or fibrosis?"
+          },
+          "a": {
+            "ar": "السونار العادي ممكن يوصف مظهراً متوافقاً مع الدهون، لكنه ما يثبتش التهاباً دهنياً وما يحددش مرحلة التليّف بدقة. تقدير التليّف بيبدأ غالباً بحسابات دم غير جراحية، وبعدها قياس صلابة أو اختبار تاني لو النتيجة تستدعي. الخزعة بتتساب لحالات مختارة لما الإجابة هتغير الخطة [1, 2, 3, 4].",
+            "en": "Conventional ultrasound may describe an appearance consistent with liver fat, but it cannot prove steatohepatitis or accurately stage fibrosis. Fibrosis assessment often begins with non-invasive blood-based scores, followed by stiffness measurement or another test when indicated. Biopsy is reserved for selected situations in which the answer would change management [1, 2, 3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل محتاج تحليل جينات عشان وزني طبيعي؟",
+            "en": "Do I need genetic testing because my weight is normal?"
+          },
+          "a": {
+            "ar": "غالباً مش بشكل روتيني. الاستعداد الوراثي موجود، لكن الدليل الحالي ما يدعمش فحص المتغيرات الجينية لكل شخص رفيع عنده دهون كبد. الطبيب يفكر في اختبارات موجهة لو التاريخ العائلي أو السن أو الفحص أو نمط التحاليل يشير لمرض وراثي محدد، مش لمجرد إن مؤشر الكتلة طبيعي [3, 9].",
+            "en": "Usually not as a routine step. Genetic susceptibility exists, but current evidence does not support variant testing for every lean person with fatty liver. A clinician considers targeted tests when family history, age, examination or the laboratory pattern suggests a specific inherited disorder—not simply because BMI is normal [3, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل مكملات تنظيف الكبد أو الأعشاب تساعد؟",
+            "en": "Do liver-cleansing supplements or herbs help?"
+          },
+          "a": {
+            "ar": "مافيش «تنظيف» سريع يعالج السبب أو يقيس التليّف، وبعض الأعشاب والمكملات مرتبطة بإصابة الكبد أو بتداخلات مع الأدوية. ما تبدأش منتجاً لمجرد إنه مكتوب عليه طبيعي، وورّي الطبيب كل عبوة بتاخدها. العلاج بيتوجه للسبب، عوامل الخطر ومرحلة الكبد، مش لخلطة عامة [6, 12].",
+            "en": "There is no quick “cleanse” that treats the cause or assesses fibrosis, and some herbs and supplements are linked with liver injury or medicine interactions. Do not start a product merely because it is labelled natural; show the clinician everything you take. Treatment targets the cause, risk factors and liver stage, not a generic mixture [6, 12]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "EASL–EASD–EASO — 2024 Clinical Practice Guidelines on MASLD (Executive Summary)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519095/"
+        },
+        {
+          "label": "AASLD — Practice Guidance on the Clinical Assessment and Management of NAFLD",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/"
+        },
+        {
+          "label": "AGA — Diagnosis and Management of NAFLD in Lean Individuals: Expert Review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9398982/"
+        },
+        {
+          "label": "NIDDK — Diagnosis of NAFLD & NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of NAFLD & NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Treatment for NAFLD & NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment"
+        },
+        {
+          "label": "NHS — Non-alcoholic Fatty Liver Disease (MASLD)",
+          "url": "https://www.nhs.uk/conditions/non-alcoholic-fatty-liver-disease/"
+        },
+        {
+          "label": "Mayo Clinic — Fatty Liver Disease (MASLD): Symptoms and Causes",
+          "url": "https://www.mayoclinic.org/diseases-conditions/fatty-liver-disease-masld/symptoms-causes/syc-20354567"
+        },
+        {
+          "label": "Young et al. — Prevalence and Profile of NAFLD in Lean Adults: Systematic Review and Meta-analysis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7327210/"
+        },
+        {
+          "label": "AGA — Clinical Care Pathway for Risk Stratification and Management of NAFLD",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8819923/"
+        },
+        {
+          "label": "NICE NG49 — Non-alcoholic Fatty Liver Disease: Assessment and Management",
+          "url": "https://www.nice.org.uk/guidance/ng49/chapter/Recommendations"
+        },
+        {
+          "label": "NIH LiverTox — Herbal and Dietary Supplements",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK548441/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "دهون الكبد",
+          "وزن طبيعي",
+          "الكبد الدهني النحيف",
+          "تليّف الكبد",
+          "مقاومة الإنسولين",
+          "دكتور جهاز هضمي"
+        ],
+        "en": [
+          "fatty liver",
+          "normal weight",
+          "lean MASLD",
+          "liver fibrosis",
+          "insulin resistance",
+          "gastroenterology consultation"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "دهون الكبد مع وزن طبيعي: الأسباب والفحوص",
+          "en": "Fatty liver at normal weight: causes and tests"
+        },
+        "description": {
+          "ar": "دهون الكبد ممكن تظهر مع وزن طبيعي. اعرف دور دهون البطن ومقاومة الإنسولين، والفحوص اللي تقيّم السبب وخطر التليّف من غير دايت قاسي.",
+          "en": "Fatty liver can occur at a normal weight. Learn how metabolic risks, ultrasound, blood tests and fibrosis assessment guide a safe, individual plan."
+        }
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا الإجابة بشرح دهون الكبد مع الوزن الطبيعي، وتقييم السبب والتليّف والخطوات الآمنة، واتراجعت طبياً من جديد.",
+            "en": "Expanded the answer with lean fatty liver causes, fibrosis assessment and safe next steps, and medically re-reviewed it."
+          }
+        }
+      ]
+    }
+  ]
+}

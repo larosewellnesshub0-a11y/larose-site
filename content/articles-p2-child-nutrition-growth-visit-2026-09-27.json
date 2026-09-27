@@ -1,0 +1,351 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of child-nutrition-growth-visit; replaces the entry from content/articles-expansion-2026-09-11.json. Expanded the visit guide with growth interpretation, preparation, feeding assessment, targeted testing, red flags, follow-up, verified sources, and matched internal links.",
+  "articles": [
+    {
+      "slug": "child-nutrition-growth-visit",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/child-nutrition-cover.webp",
+      "title": {
+        "ar": "زيارة تغذية الطفل ومتابعة النمو: إيه اللي يحصل فيها؟",
+        "en": "Child nutrition and growth visit: what happens?"
+      },
+      "excerpt": {
+        "ar": "زيارة تغذية الطفل مش حكم من وزن واحد أو طبق واحد. اعرف إزاي بيتراجع منحنى النمو والأكل والأعراض، وإيه اللي تحضّره عشان تطلع بخطة واضحة وآمنة.",
+        "en": "A child nutrition visit is not a verdict based on one weight or one plate. Learn how growth, eating and symptoms are assessed, what to bring, and how a safe plan is built."
+      },
+      "sections": [
+        {
+          "id": "what-the-visit-answers",
+          "heading": {
+            "ar": "الزيارة بتجاوب على سؤال، مش بتدي حكماً من رقم",
+            "en": "The visit answers a question; it does not judge one number"
+          },
+          "body": {
+            "ar": "أهل كتير بييجوا قلقانين لأن الطفل أصغر من صاحبه، وزنه زاد بسرعة، أو أكله بقى أقل. أول خطوة مش وصف نظام جاهز؛ الأول بنحدد السؤال: هل مسار النمو اتغير فعلاً؟ هل الأكل مناسب للسن؟ وهل فيه عرض طبي أو صعوبة أكل محتاجة تقييم؟ وزن واحد أو صورة الطفل أو كمية وجبة واحدة ما يجاوبوش لوحدهم. منحنى النمو أداة فرز ومتابعة، مش درجة نجاح ولا تشخيص منفرد [1, 2, 13].\n\nفي الزيارة بيتقاس الوزن والطول أو الارتفاع بطريقة مناسبة للسن، ومحيط الرأس للرضيع لما يكون مناسب، ثم القياسات الحالية والقديمة بتتحط على المنحنى الملائم. بعد سن سنتين، مؤشر كتلة الجسم بالنسبة للسن ممكن يضيف سياق، لكنه برضه ما يتقراش بعيد عن الطول، البلوغ، تركيب الجسم، التاريخ العائلي والحالة الصحية. الطفل الموجود على مئين منخفض وثابت ممكن يكون مختلف تماماً عن طفل كان ماشي على مسار ثم بدأ ينزل منه. عشان كده مقال نمو الطفل مسار مش مقارنة بيوضح فكرة الاتجاه، والزيارة بتطبقها على بيانات طفلك الحقيقية [1, 2, 3, 13].",
+            "en": "Many families arrive worried because a child is smaller than a friend, has gained weight quickly, or has started eating less. The first step is not a ready-made diet. It is to define the question: has the growth trajectory truly changed, is intake appropriate for age, and is there a medical symptom or feeding difficulty that needs assessment? One weight, a photograph, or the amount eaten at one meal cannot answer those questions alone. A growth chart is a screening and monitoring tool, not a school grade or a diagnosis by itself [1, 2, 13].\n\nAt the visit, weight and recumbent length or standing height are measured with age-appropriate technique; head circumference is included for infants when relevant. Current and earlier measurements are then plotted on the suitable chart. From age two, BMI-for-age may add context, but it is still interpreted alongside height, pubertal stage, body build, family history, and health. A child who has tracked steadily on a lower centile can be very different from one whose measurements have started crossing downward. Our guide Child growth is a trajectory, not a comparison explains that principle; the visit applies it to your child's real records [1, 2, 3, 13]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "نمو الطفل مسار مش مقارنة",
+                "url": "../articles/child-growth-is-a-trajectory.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Child growth is a trajectory, not a comparison",
+                "url": "../articles/child-growth-is-a-trajectory.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "prepare-before-visit",
+          "heading": {
+            "ar": "تحضّر إيه قبل الموعد عشان الصورة تبقى حقيقية؟",
+            "en": "What should you prepare so the picture is accurate?"
+          },
+          "body": {
+            "ar": "هات كارت متابعة الطفل أو أي ورق فيه وزن وطول وتاريخ القياس، مش الأرقام من الذاكرة بس. مهم كمان وزن الولادة، مدة الحمل، طريقة الرضاعة، الأمراض أو العمليات السابقة، وأي تغيّر واضح في مقاس الهدوم أو النشاط. لو القياسات اتعملت على أجهزة مختلفة، الطبيب بياخد ده في الاعتبار بدل ما يبني قرار كبير على فرق صغير ممكن يكون سببه الجهاز أو الهدوم. القياس المتكرر في البيت كل يوم غالباً يزود القلق؛ توقيت المتابعة بيتحدد حسب السن ودرجة القلق [2, 3].\n\nدوّن يومين أو تلاتة عاديين من الأكل والشرب قبل الزيارة من غير ما تحاول تخليهم مثاليين. اكتب المواعيد، الكمية التقريبية، اللبن والعصير والمية، السناك، مدة الوجبة، وهل فيه شاشة أو مطاردة أو إجبار. سجّل كمان القيء، ألم البطن، شكل وتكرار البراز، الكحة أو الشرقة مع الأكل، والأصناف أو القوامات اللي الطفل بيرفضها. هات أسماء وصور عبوات الأدوية والفيتامينات والمكملات والجرعات؛ كلمة «فيتامين» وحدها مش كفاية. اليوميات دي بتساعد تفرّق بين شهية متقلبة عادية، مشروبات بتشبع قبل الوجبة، ونمط محتاج تقييم أوسع [3, 5, 7].",
+            "en": "Bring the child's health record or any document showing the measurement, date, and whether it was weight or height; memory alone is less reliable. Birth weight, gestational age, early feeding, previous illness or surgery, and any clear change in clothing size or activity also matter. Measurements taken on different equipment can vary, so the clinician considers technique before making a major decision from a small difference. Daily weighing at home usually adds anxiety; the timing of repeat measurements depends on age and the level of concern [2, 3].\n\nRecord two or three ordinary days of food and drinks without trying to make them look ideal. Include timings, approximate amounts, milk, juice, water, snacks, meal duration, screens, chasing, or pressure. Also note vomiting, abdominal pain, stool pattern, coughing or choking with food, and any foods or textures the child refuses. Bring the names, package photographs, and doses of medicines, vitamins, and supplements; the word “vitamin” alone is not enough. This diary helps distinguish ordinary appetite variation, drinks that displace meals, and a pattern needing broader assessment [3, 5, 7]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "history-and-examination",
+          "heading": {
+            "ar": "القصة والفحص بيشرحوا الرقم",
+            "en": "History and examination explain the number"
+          },
+          "body": {
+            "ar": "الطبيب بيسأل من إمتى القلق بدأ وهل التغير حصل بعد عدوى، دخول حضانة، دواء جديد، ضغط في البيت أو المدرسة، أو تغيير في الروتين. بيتراجع الإحساس بالجوع والشبع، المضغ والبلع، تطور القوامات، الحساسية، آلام الأسنان أو الفم، النوم، الحركة، التبول، البراز، والدورة للمراهق حسب الحالة. التاريخ العائلي للطول وبداية البلوغ مهم، لأن الجينات بتأثر في شكل المسار، بس ده ما يمنعش البحث عن سبب لو المسار نفسه اتغير [3, 7, 13].\n\nالفحص مش مجرد الوقوف على الميزان. الطبيب بيقيّم تناسب الوزن مع الطول، علامات الترطيب، الشحوب، الفم والأسنان، الجلد والشعر، البطن، التنفس، العضلات والعظام، وعلامات التطور أو البلوغ حسب السن والشكوى. لو الطفل عنده حالة مزمنة أو احتياج نمائي، الأكل بيتفهم جوه الصورة دي. أحياناً المشكلة الأساسية طبية، وأحياناً غذائية أو مرتبطة بمهارة المضغ والبلع أو الضغط وقت الأكل، وأكتر من عامل ممكن يكون موجود مع بعض. إطار اضطرابات التغذية عند الأطفال نفسه بيقسم التقييم لأربع نواحي مترابطة: طبية، غذائية، مهارات الأكل، ونفسية اجتماعية [3, 7].",
+            "en": "The clinician asks when the concern began and whether it followed an infection, starting nursery, a new medicine, stress at home or school, or a routine change. The history covers hunger and fullness, chewing and swallowing, texture progression, allergies, dental or mouth pain, sleep, movement, urination, stools, and menstruation in an adolescent when relevant. Family height and the timing of puberty matter because genetics shape the trajectory, but they do not remove the need to investigate a genuine change in that trajectory [3, 7, 13].\n\nThe examination is more than standing on a scale. It considers weight in proportion to height, hydration, pallor, mouth and teeth, skin and hair, abdomen, breathing, muscles and bones, development, and pubertal signs according to age and the presenting concern. If a child has a chronic condition or developmental need, eating is interpreted within that context. The main factor may be medical, nutritional, related to chewing or swallowing skill, or connected with distress at meals; several can coexist. The consensus framework for paediatric feeding disorder therefore assesses four connected domains: medical, nutritional, feeding skill, and psychosocial function [3, 7]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "food-and-mealtime-assessment",
+          "heading": {
+            "ar": "تقييم الأكل: القيمة والقوام والعلاقة حوالين السفرة",
+            "en": "Assessing food: nutrients, texture, and the mealtime relationship"
+          },
+          "body": {
+            "ar": "مراجعة الأكل مش مسابقة سعرات ولا سؤال «بيخلص طبقه؟». بيتراجع تنوع المجموعات الغذائية، مصادر البروتين والحديد، الأطعمة الغنية بالطاقة لو محتاجها، الفاكهة والخضار، اللبن والمشروبات، وتكرار الوجبات والسناك. السن والمرحلة مهمين جداً: احتياج رضيع بدأ الأكل التكميلي غير طفل مدرسة أو مراهق. للرضع من ٦ لـ٢٣ شهر، القوام والتنوع والاستجابة لإشارات الجوع والشبع جزء من التغذية، مش تفاصيل جانبية [4, 5].\n\nالطبيب بيسأل مين بيقدم الأكل، الطفل بيقعد فين، الوجبة بتطول قد إيه، وإيه اللي بيحصل لما يرفض. اختلاف الكمية من يوم ليوم ورفض صنف جديد في الأول ممكن يكونوا طبيعيين. التقديم الهادي المتكرر والاختيارات المناسبة للسن أحسن من الإجبار أو الرشوة، والطفل مش لازم يفضّي الطبق [5, 6]. لكن رفض قوامات كاملة، أكل أصناف قليلة جداً، وجبات طويلة مرهقة، أو اعتماد على مكمل عشان يحافظ على التغذية محتاج فهم أوسع. مقال شهية الأطفال: إمتى نقلق؟ بيفصّل السلوك اليومي؛ هنا بنستخدمه كجزء واحد من زيارة النمو، مش كتشخيص مسبق [6, 7].",
+            "en": "A food review is not a calorie contest or a question of whether the plate is finished. It considers variety across food groups, sources of protein and iron, energy-dense foods when needed, fruit and vegetables, milk and other drinks, and the pattern of meals and snacks. Age and developmental stage matter: an infant beginning complementary feeding has different needs from a schoolchild or adolescent. For infants aged 6–23 months, texture, diversity, and a responsive approach to hunger and fullness cues are part of nutrition, not minor details [4, 5].\n\nThe clinician asks who offers food, where the child sits, how long meals last, and what happens after refusal. Eating different amounts on different days and initially rejecting a new food can be normal. Calm repeated exposure and age-appropriate choices are preferable to force or bribery, and a child does not have to clear the plate [5, 6]. However, refusal of whole texture groups, an extremely narrow range, exhausting prolonged meals, or reliance on a supplement to maintain nutrition deserves a wider assessment. Our article Children's appetite: when should we worry? explores everyday behaviour; here it remains one component of a growth visit rather than a diagnosis made in advance [6, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "شهية الأطفال: إمتى نقلق؟",
+                "url": "../articles/childrens-appetite.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Children's appetite: when should we worry?",
+                "url": "../articles/childrens-appetite.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "targeted-tests-not-panels",
+          "heading": {
+            "ar": "هل كل طفل محتاج تحاليل وفيتامينات؟",
+            "en": "Does every child need tests and vitamins?"
+          },
+          "body": {
+            "ar": "لأ. لو الطفل شكله كويس، فحصه مطمّن، ومساره ثابت، باقة تحاليل كبيرة عشوائية غالباً مش بتجاوب على سؤال واضح. الإرشادات بتوصي إن الفحوصات تتحدد من القصة والفحص ومسار النمو؛ لأن البحث الواسع من غير مؤشر ممكن يطلع نتائج عابرة، يزود القلق، ويعمل تدخلات مش لازمة. في بطء النمو، الطبيب ممكن يفكر في فحص بول أو سيلياك حسب العلامات، ثم يضيف فحوصات موجهة لو فيه دليل عليها، بدل «تحليل كل حاجة» [3, 8].\n\nمثلاً الشحوب والتعب، الاعتماد الكبير على اللبن، أكل محدود، أو دورة غزيرة عند المراهق ممكن يوجهوا لتقييم صورة الدم ومخزون الحديد. مقال نقص الحديد عند الأطفال بيشرح الموضوع بالتفصيل، لكن المكمل ما يتاخدش كاختبار منزلي؛ الحديد الزائد ممكن يضر، والجرعة بتتحدد حسب السن والنتيجة والسبب [10]. ألم العظام، ضعف العضلات، قلة التعرض للشمس أو مشاكل الامتصاص ممكن يغيروا تقييم فيتامين د، بس الجرعات العالية مش آمنة لمجرد الشك [11]. ولو فيه إسهال مزمن أو انتفاخ أو ضعف نمو، السيلياك احتمال من احتمالات كتير؛ ما توقفش الجلوتين قبل ما الطبيب يحدد الفحص لأن ده ممكن يصعّب التشخيص [8].",
+            "en": "No. If a child appears well, examination is reassuring, and the trajectory is steady, a large untargeted laboratory panel is unlikely to answer a clear question. Guidance recommends selecting investigations from the history, examination, and growth pattern; broad testing without an indication can produce incidental results, amplify worry, and prompt unnecessary interventions. With faltering growth, a clinician may consider urine testing or coeliac assessment when the presentation supports them, then add focused tests for specific clues instead of “testing everything” [3, 8].\n\nFor example, pallor and fatigue, heavy milk intake, a very restricted diet, or heavy menstruation in an adolescent may prompt a blood count and iron-status assessment. Our guide Iron deficiency in children covers that topic in depth, but a supplement should not be used as a home diagnostic trial: excess iron can harm, and dosing depends on age, results, and cause [10]. Bone pain, muscle weakness, limited sun exposure, or malabsorption may change the assessment of vitamin D, but high doses are not safe merely because deficiency is suspected [11]. Chronic diarrhoea, bloating, or slow growth can make coeliac disease one possibility among many; do not remove gluten before a clinician plans testing because doing so can complicate diagnosis [8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "نقص الحديد عند الأطفال",
+                "url": "../articles/iron-deficiency-in-children.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Iron deficiency in children",
+                "url": "../articles/iron-deficiency-in-children.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "individual-plan",
+          "heading": {
+            "ar": "الخطة بتتغيّر حسب النمط، مش حسب القلق لوحده",
+            "en": "The plan follows the pattern, not worry alone"
+          },
+          "body": {
+            "ar": "بعد جمع الصورة، الخطة ممكن تكون طمأنة مع تنظيم بسيط، أو تعديل تركيبة الوجبات، أو علاج إمساك أو ألم بيقفّل الشهية، أو إحالة لتقييم بلع أو تخصص أطفال مناسب. الأهداف بتبقى محددة: تحسّن راحة الوجبة، توسيع القوام تدريجياً، علاج نقص مثبت، أو متابعة سرعة النمو في مدة منطقية. مش الهدف دفع الوزن لأعلى مئين ولا تنحيف طفل بينمو عشان شكل معين. وكمان ما ينفعش نفس الورقة لكل الأعمار والبيوت [3, 7].\n\nلو التقييم أثبت إن الطاقة أقل من الاحتياج، البداية غالباً بتكون تقوية الأكل المعتاد بطريقة مناسبة للسن، مع الحفاظ على مواعيد واضحة وتجنب إن المشروبات أو السناك المستمر يلغوا الجوع. دليل وجبات عالية السعرات للطفل ناقص الوزن بيدخل في التفاصيل العملية للحالة دي؛ ربطه هنا بيوفر خطوة تالية من غير ما نفترض إن كل طفل قصير أو خفيف محتاج سعرات أكتر. المكملات الغذائية السائلة ممكن يكون لها دور في بطء نمو مستمر بعد تقييم، لكنها مش بديل تلقائي للأكل وبتحتاج مراجعة عشان ما تقللش الشهية لباقي الوجبات. الإرشادات كمان بتشدد على خطة مشتركة فيها هدف وموعد مراجعة واضح [3].",
+            "en": "Once the picture is assembled, the plan may be reassurance with a small routine change, adjustment of meal composition, treatment of constipation or pain that suppresses appetite, or referral for swallowing or another appropriate paediatric assessment. Goals are specific: make meals more comfortable, advance textures gradually, treat a documented deficiency, or monitor growth velocity over a meaningful interval. The aim is not to push every child toward a higher centile or make a growing child thinner for appearance. The same handout cannot fit every age or household [3, 7].\n\nIf assessment shows that energy intake is below need, the first step is often to enrich familiar food in an age-appropriate way while keeping a clear eating rhythm and preventing drinks or constant snacks from erasing appetite. Our guide Calorie-dense meals for an underweight child provides practical detail for that situation; linking to it here offers a next step without assuming every shorter or lighter child needs more calories. Oral nutritional supplements can have a role in continuing faltering growth after assessment, but they are not an automatic substitute for food and need review so they do not displace meals. Guidance also emphasises a shared plan with a defined goal and a clear review date [3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "وجبات عالية السعرات للطفل ناقص الوزن",
+                "url": "../articles/underweight-child-calorie-dense-meals.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Calorie-dense meals for an underweight child",
+                "url": "../articles/underweight-child-calorie-dense-meals.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "red-flags",
+          "heading": {
+            "ar": "علامات ما تستناش معاها زيارة تغذية عادية",
+            "en": "Warning signs that should not wait for a routine nutrition visit"
+          },
+          "body": {
+            "ar": "اطلب تقييماً طبياً عاجلاً لو الطفل عنده صعوبة تنفس، ازرقاق، اختناق فعلي، أو مش قادر يبلع سوائل بأمان. الكحة أو الشرقة المتكررة مع الأكل، صوت مبلول بعد البلع، رجوع أكل من الأنف، التهابات صدر متكررة، أو إحساس إن الأكل واقف علامات محتاجة تقييم بلع؛ تغيير القوام أو استخدام مُكثّف من نفسك ممكن ما يكونش مناسباً [7, 12]. اتصل بالطوارئ فوراً لو مجرى النفس مسدود أو الطفل مش قادر يتنفس أو يصدر صوت.\n\nالجفاف، خمول شديد أو صعوبة إيقاظ الطفل، قيء متكرر يمنع السوائل، قيء أخضر، دم في القيء أو البراز، ألم بطن شديد مستمر، أو فقدان وزن سريع محتاجين رعاية عاجلة حسب الشدة. الإمساك مع قيء أو انتفاخ شديد أو دم أو فقدان وزن ما يتعاملش معاه كسلوك أكل بس [9]. بطء الطول الواضح، نزول مستمر على المنحنى، إسهال مزمن، عطش وتبول زائد، تأخر أو فقدان مهارة مكتسبة، حرارة مستمرة، أو تعب وشحوب ملحوظين يستدعوا موعد أطفال قريب حتى لو الطفل لسه بياكل. زيارة التغذية الروتينية مفيدة للحالات المستقرة، بس علامات الخطر أولويتها التقييم الطبي المناسب [3, 8, 12].",
+            "en": "Seek urgent medical assessment if a child has breathing difficulty, blue colour, true choking, or cannot swallow fluids safely. Repeated coughing or choking with meals, a wet voice after swallowing, food returning through the nose, recurrent chest infections, or a sensation that food is stuck warrant swallowing assessment; changing texture or adding thickener without advice may be unsuitable [7, 12]. Call emergency services immediately if the airway is blocked or the child cannot breathe or make sound.\n\nDehydration, profound lethargy or difficulty waking, repeated vomiting that prevents fluids, green vomit, blood in vomit or stool, constant severe abdominal pain, or rapid weight loss need urgent care according to severity. Constipation accompanied by vomiting, marked distension, blood, or weight loss should not be treated as a feeding behaviour alone [9]. Clear slowing of height, a sustained downward growth trajectory, chronic diarrhoea, excessive thirst and urination, delayed or lost developmental skills, persistent fever, or marked fatigue and pallor deserve a prompt paediatric appointment even if the child still eats. A routine nutrition visit helps stable concerns, but warning signs take priority for the appropriate medical assessment [3, 8, 12]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "follow-up-and-next-step",
+          "heading": {
+            "ar": "المتابعة: بنقيس التغيير من غير ضغط على الطفل",
+            "en": "Follow-up: measuring change without pressuring the child"
+          },
+          "body": {
+            "ar": "الخطة المفيدة بتقول هنعمل إيه، ليه، وإمتى نراجع النتيجة. المتابعة ممكن تشمل الوزن، والطول على فترات أطول، الأعراض، راحة الوجبة، تنوع الأكل، الالتزام العملي، ونتائج التحاليل لو كانت مطلوبة. الوزن اليومي أو الأسبوعي من غير داعٍ ممكن يحول كل فرق بسيط لمصدر خوف؛ الإرشادات بتحدد التكرار حسب عمر الطفل ودرجة بطء النمو، والطول عادة محتاج وقت أطول عشان التغيير يبقى له معنى [3]. لو ظهرت أعراض جديدة أو الخطة ما نفعتش، الطبيب بيراجع الفرضية بدل ما يلوم الطفل أو الأسرة.\n\nفي العيادة، زيارة تغذية ونمو الطفل تبدأ بقياسات دقيقة، مراجعة المنحنى، التاريخ الغذائي والطبي، والفحص المناسب، وبعدها بيتحدد هل المطلوب طمأنة، تعديل عملي، فحوصات موجهة أو إحالة. ما فيش نتيجة مضمونة ولا خطة واحدة لكل الأطفال، والقرار النهائي للطبيب المعالج بعد تقييم الطفل. لو القلق مستمر والطفل حالته مستقرة، تقدر تطلب حجز زيارة تغذية ونمو للطفل وتحضر السجلات واليوميات المذكورة. المحتوى ده للتوعية ومش بديل عن الكشف، ومع أي علامة خطر استخدم الرعاية العاجلة المناسبة بدل انتظار الموعد [2, 3].",
+            "en": "A useful plan states what will be done, why, and when the result will be reviewed. Follow-up may cover weight, height at longer intervals, symptoms, mealtime comfort, dietary variety, what the family could realistically implement, and test results when tests were indicated. Daily or unnecessary weekly weighing can turn minor variation into fear; guidance sets frequency according to age and the degree of growth concern, while height generally needs a longer interval before change is meaningful [3]. If new symptoms appear or the plan does not work, the clinician revisits the working explanation instead of blaming the child or family.\n\nAt the clinic, a child nutrition and growth visit begins with accurate measurements, review of the trajectory, medical and dietary history, and an appropriate examination. Only then is it decided whether the child needs reassurance, a practical adjustment, targeted investigations, or referral. No outcome is guaranteed and no single plan suits every child; the treating clinician makes the final decision after assessment. If concern continues and the child is stable, you can request a child nutrition and growth appointment and bring the records and diary described above. This information is educational and does not replace an examination; use appropriate urgent care rather than waiting for the appointment when a warning sign is present [2, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تطلب حجز زيارة تغذية ونمو للطفل",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a child nutrition and growth appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل مئين منخفض معناه إن الطفل عنده سوء تغذية؟",
+            "en": "Does a low centile mean a child is malnourished?"
+          },
+          "a": {
+            "ar": "مش لوحده. المئين بيوصف مكان القياس مقارنة بمرجع مناسب، لكنه مش درجة نجاح. طفل صغير بطبيعته وماشي بثبات على مساره يختلف عن طفل بدأ ينزل عبر خطوط المنحنى أو عنده أعراض. الطبيب بيراجع الوزن مع الطول، القياسات القديمة، طول الأبوين، الولادة، التطور، الأكل والفحص قبل ما يحدد هل فيه مشكلة [1, 3, 13].",
+            "en": "Not by itself. A centile describes where a measurement sits against a suitable reference; it is not a grade. A naturally smaller child who tracks steadily differs from a child whose measurements begin crossing downward or who has symptoms. The clinician reviews weight with height, earlier records, parental height, birth history, development, intake, and examination before deciding whether a problem exists [1, 3, 13]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أوزن الطفل في البيت قبل الزيارة وكل يوم بعدها؟",
+            "en": "Should I weigh my child at home before the visit and every day afterwards?"
+          },
+          "a": {
+            "ar": "غالباً لأ. السوائل، الهدوم، وقت القياس والجهاز يعملوا فروق صغيرة مالهاش معنى، والقياس الزائد بيزود القلق. هات القياسات القديمة بتاريخها، وخلي الفريق يقيس بطريقة ثابتة ويحدد ميعاد الإعادة حسب السن ودرجة القلق. في بطء النمو، الإرشادات نفسها بتنصح بعدم القياس أكتر من اللازم [2, 3].",
+            "en": "Usually not. Hydration, clothing, time of day, and equipment create small differences that may be meaningless, while excessive weighing increases anxiety. Bring dated earlier measurements, let the team use consistent technique, and agree on timing according to age and concern. Faltering-growth guidance specifically advises against weighing more often than needed [2, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم الطفل يكون صايم عشان زيارة التغذية؟",
+            "en": "Does my child need to fast for a nutrition visit?"
+          },
+          "a": {
+            "ar": "لا، مش لمجرد الكشف. خليه ياكل ويشرب بروتينه العادي عشان اليوميات والسلوك يعكسوا الواقع، إلا لو الفريق قال تعليمات مختلفة لفحص محدد. الجوع المتعمد ممكن يخلي الوجبة في يوم الزيارة مش ممثلة للنمط. هات أسماء المكملات والدواء، وما تشيلش الجلوتين من الأكل لوحدك لو السيلياك احتمال مطروح [3, 8].",
+            "en": "No, not for the consultation alone. Keep the child's ordinary eating and drinking pattern so the diary and behaviour reflect reality, unless the team gives different instructions for a specific test. Deliberate hunger can make the visit-day meal unrepresentative. Bring medicine and supplement names, and do not remove gluten independently if coeliac disease is being considered [3, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الانتقائية في الأكل محتاجة تحاليل؟",
+            "en": "Does selective eating require blood tests?"
+          },
+          "a": {
+            "ar": "مش دايماً. الطبيب بيشوف مدى التنوع، الكمية، مدة المشكلة، النمو، الأعراض والفحص. لو الطفل نشيط ومساره ثابت وبيأكل من مجموعات كفاية، ممكن يبدأ التعامل من روتين الوجبات والتعرض الهادي. لكن أكل أصناف قليلة جداً، اعتماد على مكمل، شحوب، تعب، ألم، أو تغير نمو ممكن يبرر فحوصات موجهة، مش باقة عشوائية [3, 6, 7, 10].",
+            "en": "Not always. The clinician considers range, amount, duration, growth, symptoms, and examination. If a child is active, tracks steadily, and eats across enough groups, management may begin with routine and calm exposure. An extremely narrow range, reliance on supplements, pallor, fatigue, pain, or changed growth may justify targeted tests, not an indiscriminate panel [3, 6, 7, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل آخد معايا فيديو للطفل وهو بياكل؟",
+            "en": "Should I bring a video of my child eating?"
+          },
+          "a": {
+            "ar": "ممكن يفيد لو بيبين الجلسة والقوام وطريقة المضغ أو كحة بتحصل عادة ومش ظهرت في الكشف، بشرط ما تعرّضش الطفل للخطر ولا تحاول تكرر الشرقة للتصوير. الفيديو مش بديل عن الملاحظة المتخصصة أو تقييم البلع. مع كحة متكررة، صوت مبلول، اختناق أو تغير تنفس وقت الأكل، اطلب تقييماً طبياً مناسباً [7, 12].",
+            "en": "It can help if it shows seating, texture, chewing, or a usual cough that did not occur in clinic, provided the child is never put at risk and choking is never recreated for the camera. Video does not replace skilled observation or swallowing assessment. Repeated coughing, a wet voice, choking, or altered breathing during meals needs appropriate medical assessment [7, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى أتوقع أشوف نتيجة من الخطة؟",
+            "en": "When should I expect to see a result from the plan?"
+          },
+          "a": {
+            "ar": "ده بيختلف حسب السن، السؤال والهدف. راحة الوجبة أو انتظام البراز ممكن يتغيروا قبل ما يظهر فرق معتبر في الطول أو الوزن، والطول محتاج وقت أطول من تغيرات يومية. اتفق على هدف وموعد مراجعة بدل وزن الطفل كل يوم. لو الأعراض زادت، ظهر فقدان وزن أو علامة خطر، أو الخطة ما جابتش التحسن المتوقع، راجع الطبيب قبل الموعد المحدد [3, 9].",
+            "en": "It depends on age, the concern, and the goal. Mealtime comfort or bowel regularity may change before a meaningful difference in weight or height appears, and linear growth needs more time than day-to-day variation. Agree on a goal and review date instead of weighing daily. Contact the clinician sooner if symptoms worsen, weight loss or a warning sign appears, or progress is not as expected [3, 9]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Health Organization — Child Growth Standards",
+          "url": "https://www.who.int/tools/child-growth-standards/standards/p"
+        },
+        {
+          "label": "CDC — Introduction to Growth Chart Training",
+          "url": "https://www.cdc.gov/growth-chart-training/hcp/training/index.html"
+        },
+        {
+          "label": "NICE — Faltering growth: recognition and management (NG75), recommendations",
+          "url": "https://www.nice.org.uk/guidance/ng75/chapter/Recommendations"
+        },
+        {
+          "label": "World Health Organization — Guideline for complementary feeding of infants and young children 6–23 months",
+          "url": "https://www.who.int/publications-detail-redirect/9789240081864"
+        },
+        {
+          "label": "CDC — Tips for Mealtime Routines",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/mealtime/index.html"
+        },
+        {
+          "label": "CDC — Picky Eaters and What to Do",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/picky-eaters.html"
+        },
+        {
+          "label": "Goday et al. — Pediatric Feeding Disorder: Consensus Definition and Conceptual Framework (PMC6314510)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6314510/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Celiac Disease",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Constipation in Children",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation-children/symptoms-causes"
+        },
+        {
+          "label": "NIH Office of Dietary Supplements — Iron Fact Sheet for Consumers",
+          "url": "https://ods.od.nih.gov/factsheets/iron-consumer/"
+        },
+        {
+          "label": "NIH Office of Dietary Supplements — Vitamin D Fact Sheet for Consumers",
+          "url": "https://ods.od.nih.gov/factsheets/VITAMIND-Consumer/"
+        },
+        {
+          "label": "Oxford Health NHS Foundation Trust — Eating, Drinking and Swallowing (Dysphagia)",
+          "url": "https://oxfordhealth.nhs.uk/cit/resources/eating-drinking/"
+        },
+        {
+          "label": "American Academy of Pediatrics, HealthyChildren.org — Understanding Growth Charts",
+          "url": "https://www.healthychildren.org/English/health-issues/conditions/Glands-Growth-Disorders/Pages/growth-charts-by-the-numbers.aspx"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "تغذية الطفل",
+          "منحنى نمو الطفل",
+          "زيارة تغذية أطفال",
+          "متابعة نمو الطفل"
+        ],
+        "en": [
+          "child nutrition visit",
+          "child growth chart",
+          "paediatric nutrition",
+          "child growth assessment"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "زيارة تغذية الطفل ومتابعة النمو: دليل عملي",
+          "en": "Child nutrition and growth visit: a practical guide"
+        },
+        "description": {
+          "ar": "اعرف بشكل عملي إيه اللي بيحصل في زيارة تغذية الطفل ومتابعة النمو، وإزاي تتحضر لها، وإمتى يحتاج الطفل تحاليل أو تقييماً عاجلاً.",
+          "en": "Learn what happens at a child nutrition and growth visit, how to prepare, when tests may help, and which warning signs need urgent assessment."
+        }
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا شرح قياسات النمو وتحضير الزيارة وتقييم الأكل والفحوصات وعلامات الخطر والمتابعة، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded growth measurement, visit preparation, feeding assessment, testing, warning signs and follow-up, and medically re-reviewed the content."
+          }
+        }
+      ]
+    }
+  ]
+}
