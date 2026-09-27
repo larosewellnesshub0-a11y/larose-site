@@ -20,8 +20,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "وسّعنا الإجابة بشرح معنى الإنزيمات الطبيعية وخطوات تقييم التليّف والمتابعة، واتراجعت طبياً من جديد.",
-            "en": "We expanded the answer to explain normal enzymes, fibrosis assessment and follow-up, and medically re-reviewed it."
+            "ar": "وسّعنا الإجابة بشرح معنى الإنزيمات الطبيعية وخطوات تقييم التليّف والمتابعة، واتراجعت طبياً من جديد. اتضاف سؤالين شائعين عن أعراض الكبد الدهني ومين أكتر عرضة ليه، بمصادرهم.",
+            "en": "We expanded the answer to explain normal enzymes, fibrosis assessment and follow-up, and medically re-reviewed it. Added two cited FAQs on fatty liver symptoms and who is more at risk."
           }
         }
       ],
@@ -240,7 +240,9 @@
             "ar": "مجرد تقرير الدهون غالباً مش طوارئ. اطلب تقييماً عاجلاً مع اصفرار جديد، قيء دموي، براز أسود، تورم سريع في البطن أو الرجلين، تشوش، إغماء، ألم شديد أو قيء مستمر. شدة العرض وسرعة تدهوره أهم من انتظار تحليل أو سونار جديد [6, 10].",
             "en": "A fatty-liver report alone is usually not an emergency. Seek urgent assessment for new jaundice, vomiting blood, black stool, rapidly increasing abdominal or leg swelling, confusion, fainting, severe pain or persistent vomiting. Symptom severity and rapid worsening matter more than waiting for another blood test or scan [6, 10]."
           }
-        }
+        },
+        {"q": {"ar": "الكبد الدهني بيعمل أعراض؟", "en": "Does fatty liver cause symptoms?"}, "a": {"ar": "غالبًا لأ؛ هو مرض ساكت بأعراض قليلة أو من غير أعراض. ولو فيه أعراض ممكن تحس بتعب أو انزعاج في الجزء اليمين فوق من البطن. والمشكلة إن ممكن يحصل تليف متقدم من غير ما الشخص ياخد باله، علشان كده غياب الأعراض مع إنزيمات طبيعية مش كفاية للطمأنينة [6].", "en": "Usually not; it is a silent disease with few or no symptoms. When symptoms occur, you may feel tired or have discomfort in the upper right side of the abdomen. People can develop cirrhosis without realising it, so no symptoms plus normal enzymes is not enough reassurance on its own. [6]"}},
+        {"q": {"ar": "مين أكتر عرضة للكبد الدهني؟", "en": "Who is more likely to develop fatty liver?"}, "a": {"ar": "الناس اللي عندهم زيادة وزن أو سمنة، أو مقاومة إنسولين أو سكر نوع تاني، أو دهون دم مش مظبوطة، أو متلازمة الأيض وعلاماتها زي الوسط الكبير والضغط العالي وسكر الدم العالي. وكل ما الحالات دي تزيد، فرصة الالتهاب الدهني في الكبد بتزيد [6].", "en": "People with overweight or obesity, insulin resistance or type 2 diabetes, abnormal blood fat levels, or metabolic syndrome and its traits such as a large waist, high blood pressure and raised blood glucose. Having more of these conditions increases the chance of developing NASH. [6]"}}
       ],
       "sources": [
         {
