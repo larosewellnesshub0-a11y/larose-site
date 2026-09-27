@@ -7,337 +7,52 @@
       "published": true,
       "featured": false,
       "category": "clinical-nutrition",
-      "specialties": [
-        "clinical-nutrition",
-        "weight-management"
-      ],
+      "specialties": ["clinical-nutrition", "weight-management"],
       "date": "2026-09-03",
       "updatedAt": "2026-09-27",
       "readingTime": 10,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
       "image": "assets/img/articles/protecting-muscle-while-losing-weight.webp",
-      "title": {
-        "ar": "إزاي تحافظ على العضلات وإنت بتخس؟",
-        "en": "How to protect muscle while losing weight"
-      },
-      "excerpt": {
-        "ar": "نزول الوزن مش سباق على أقل رقم. اعرف إزاي الأكل الكافي والبروتين المناسب وتمارين المقاومة ومتابعة القوة يساعدوا جسمك يخسر دهون ويحافظ على العضلات.",
-        "en": "Weight loss is not a race to the lowest number. Learn how adequate food, suitable protein, resistance exercise and strength follow-up can help preserve muscle."
-      },
+      "title": {"ar": "إزاي تحافظ على العضلات وإنت بتخس؟", "en": "How to protect muscle while losing weight"},
+      "excerpt": {"ar": "نزول الوزن مش سباق على أقل رقم. اعرف إزاي الأكل الكافي والبروتين المناسب وتمارين المقاومة ومتابعة القوة يساعدوا جسمك يخسر دهون ويحافظ على العضلات.", "en": "Weight loss is not a race to the lowest number. Learn how adequate food, suitable protein, resistance exercise and strength follow-up can help preserve muscle."},
       "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "اتوسّع الدليل بشرح عملي أدق لحماية العضلات مع نزول الوزن والأدوية وعلامات الخطر، واتراجع طبياً من جديد.",
-            "en": "The guide was expanded with clearer practical advice on protecting muscle during weight loss, medicine use and warning signs, and was medically re-reviewed."
-          }
-        }
+        {"date": "2026-09-27", "note": {"ar": "اتوسّع الدليل بشرح عملي أدق لحماية العضلات مع نزول الوزن والأدوية وعلامات الخطر، واتراجع طبياً من جديد.", "en": "The guide was expanded with clearer practical advice on protecting muscle during weight loss, medicine use and warning signs, and was medically re-reviewed."}}
       ],
       "sections": [
-        {
-          "id": "what-you-are-protecting",
-          "heading": {
-            "ar": "الهدف مش الحفاظ على رقم عضلات وخلاص",
-            "en": "The goal is more than preserving a muscle number"
-          },
-          "body": {
-            "ar": "العضلات هي اللي بتساعدك تقوم من الكرسي، تمشي، تطلع السلم، تشيل حاجاتك وتحافظ على استقلالك. وهي كمان نسيج نشط بيدخل في استخدام الجلوكوز والطاقة. أثناء إنقاص الوزن، الجسم عادةً ما بيفقدش دهون بس؛ جزء من التغيير ممكن ييجي من المياه والكتلة الخالية من الدهون، والكتلة دي تشمل العضلات لكنها مش مرادف كامل ليها. عشان كده نزول الميزان بسرعة مش دليل لوحده إن النتيجة أفضل. [1, 11]\n\nالتوافق العلمي بين ESPEN وEASO بيوصف السمنة المصحوبة بنقص العضلات على إنها اجتماع دهون زائدة مع كتلة عضلية ووظيفة عضلية منخفضتين. التقييم بيبدأ بالوظيفة، وبعدها تركيب الجسم عند الحاجة؛ يعني القوة والحركة مهمين جنب أي رقم في التقرير. ده يفسر ليه ممكن شخص يخس فعلاً، لكن الخطة تحتاج تعديل لو قوته بتقل أو أنشطته العادية بقت أصعب. [1, 9]\n\nحماية العضلات مش معناها تمنع نزول الوزن، ولا معناها لازم تبقى لاعب رياضي. معناها إن العجز الغذائي والحركة والمتابعة يتظبطوا بحيث الاتجاه يخدم صحتك وقدرتك، مش الميزان وحده. تابع هل طلوع السلم أسهل، وهل بتقدر تكرر نفس التمرين، وهل التعب والجوع محتملين. التغير المفيد ممكن يبان في المقاس والقوة والصحة حتى لو الميزان بيتحرك بهدوء. [2, 3]",
-            "en": "Muscle helps you rise from a chair, walk, climb stairs, carry everyday items and maintain independence. It is also active tissue involved in glucose and energy use. During weight loss, the body usually does not lose fat alone. Some change may come from water and fat-free mass, which includes muscle but is not exactly the same thing. A rapid fall on the scale therefore does not prove that the result is better. [1, 11]\n\nThe ESPEN and EASO consensus defines sarcopenic obesity as excess fat alongside low muscle mass and impaired muscle function. Assessment starts with function, followed by body composition when indicated, so strength and movement matter alongside any report value. This explains why someone may genuinely lose weight yet need a plan adjustment if strength falls or ordinary activities become harder. [1, 9]\n\nProtecting muscle does not mean preventing weight loss or becoming an athlete. It means setting the energy deficit, movement and follow-up so the direction supports health and capability rather than the scale alone. Notice whether stairs feel easier, whether you can repeat the same exercise, and whether fatigue and hunger remain manageable. Useful change may appear in measurements, strength and health even when scale weight moves gradually. [2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "measure-a-trend",
-          "heading": {
-            "ar": "اقرأ الاتجاه من كذا مؤشر",
-            "en": "Read the trend from several indicators"
-          },
-          "body": {
-            "ar": "الميزان بيجمع الدهون والعضلات والعظام والأعضاء والمياه في رقم واحد. تحليل المقاومة الكهربائية الحيوية زي InBody بيفصل تقديرات للدهون والكتلة الخالية من الدهون والمياه، لكنه مش بيشوف العضلة مباشرة، والنتيجة ممكن تتأثر بالترطيب والأكل والتمرين وتوقيت القياس. عشان المقارنة تبقى أنضف، استخدم نفس الجهاز وفي ظروف متقاربة، وما تغيّرش أكلك أو شربك عشان تطلع ورقة أحسن. [11, 12]\n\nمقال تركيب الجسم مش رقم الميزان بيوضح حدود الأرقام دي بالتفصيل. هنا المهم إن قراءة واحدة ما تثبتش إنك فقدت عضلاً، وإن ثبات الوزن ممكن يحصل مع نقص دهون والحفاظ على الكتلة الخالية من الدهون. راقب الاتجاه على فترة مناسبة، وضم له محيطاً متفقاً عليه، أداء التمرين، سهولة الحركة، الطاقة، الشهية والأعراض. لو كل المؤشرات ماشية في اتجاه مختلف عن الجهاز، ما ينفعش تبني قراراً كبيراً على خانة واحدة. [11, 12]\n\nولو فيه شك حقيقي في ضعف العضلات، صفحة تقييم العضلات في رعاية التغذية بتشرح الفرق بين الفحص والقياس والتشخيص. التوافق الأوروبي بيحط قوة العضلات في المقدمة، ويستخدم كمية العضلات أو جودتها لتأكيد التشخيص والأداء لتقدير الشدة. يعني صعوبة جديدة في القيام من الكرسي أو بطء واضح في المشي أهم من مطاردة نسبة مثالية على الإنترنت. التقييم السريري هو اللي يربط الرقم بوظيفتك وصحتك. [1, 9]",
-            "en": "A scale combines fat, muscle, bone, organs and water into one number. Bioelectrical impedance tools such as InBody separate estimates of fat, fat-free mass and water, but they do not see muscle directly. Hydration, food, exercise and measurement timing can affect the result. For a cleaner comparison, use the same device under similar conditions, and do not manipulate food or fluid intake to produce a better-looking report. [11, 12]\n\nThe guide Body composition is not the scale explains these limitations in detail. The central point here is that one reading cannot prove muscle loss, while stable weight can occur as fat falls and fat-free mass is maintained. Follow the trend over a suitable interval and combine it with an agreed circumference, exercise performance, ease of movement, energy, appetite and symptoms. If every indicator points in a different direction from the device, do not make a major decision from one field. [11, 12]\n\nWhen there is a genuine concern about weakness, Muscle assessment in nutrition care explains the difference between screening, measurement and diagnosis. European consensus places muscle strength first, using muscle quantity or quality to confirm diagnosis and performance to grade severity. New difficulty rising from a chair or a clear slowing of walking therefore matters more than chasing an ideal percentage found online. Clinical assessment connects the number with function and health. [1, 9]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "تركيب الجسم مش رقم الميزان",
-                "url": "../articles/body-composition-not-scale.html"
-              },
-              {
-                "label": "تقييم العضلات في رعاية التغذية",
-                "url": "../articles/muscle-assessment-in-nutrition-care.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Body composition is not the scale",
-                "url": "../articles/body-composition-not-scale.html"
-              },
-              {
-                "label": "Muscle assessment in nutrition care",
-                "url": "../articles/muscle-assessment-in-nutrition-care.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "avoid-an-aggressive-deficit",
-          "heading": {
-            "ar": "اعمل عجز مناسب، مش تجويع",
-            "en": "Use an appropriate deficit, not starvation"
-          },
-          "body": {
-            "ar": "عشان الوزن ينزل، بيكون فيه فرق بين الطاقة اللي الجسم بياخدها واللي بيستخدمها، لكن الفرق الأكبر مش دايماً أحسن. لما الأكل يقل بعنف، سهل إن البروتين والفيتامينات والمعادن والسوائل ما يكفوش، وسهل كمان إن الحركة والأداء يقلوا. النزول السريع في البداية ممكن يشمل مياه ومحتوى الجهاز الهضمي، فمش دليل إن الدهون وحدها اختفت. NICE بتوصي بخطة غذائية متوازنة ومناسبة للشخص، وتحذر من الأنظمة شديدة الانخفاض في الطاقة خارج خدمة متخصصة وبشروط ومتابعة محددة. [2]\n\nمعدل النزول المناسب مش رقماً واحداً لكل الناس. CDC بيذكر إن النزول التدريجي المنتظم غالباً أسهل في الاستمرار من النزول الأسرع، لكن العمر ووزن البداية والأمراض والأدوية وتاريخ اضطراب الأكل والحمل أو الرضاعة يغيروا القرار. شخص كبير في السن أو عنده ضعف أو بيتعافى من مرض مش زي شخص أصغر وصحته مستقرة. عشان كده ما تنسخش عجزاً أو جدولاً من حد تاني. [3, 9]\n\nعلامات إن الخطة محتاجة مراجعة تشمل جوعاً شديداً طول اليوم، دوخة متكررة، تعباً غير معتاد، ضعفاً جديداً، برودة مستمرة، تدهور التمرين، إمساكاً شديداً أو أكل كميات صغيرة جداً لفترة. دي مش علامات نجاح لمجرد إن الميزان نزل. اكتب الأعراض والأكل الفعلي، وراجع المختص المعالج عشان يحدد هل المطلوب تعديل الكمية أو توزيع الوجبات أو الدواء، أو البحث عن سبب طبي تاني. [2, 3]",
-            "en": "Weight loss requires a difference between energy intake and use, but a larger deficit is not always better. When intake is cut harshly, protein, vitamins, minerals and fluid may become inadequate, while movement and performance can fall. An early rapid drop can include water and digestive contents, so it does not show that fat alone disappeared. NICE recommends a nutritionally balanced, individual plan and restricts very-low-energy diets to specialist services with defined indications and support. [2]\n\nA suitable pace is not one number for everyone. The CDC notes that gradual, steady loss is generally more sustainable than faster loss, but age, starting weight, illness, medicines, eating-disorder history, pregnancy and breastfeeding all change the decision. An older adult with weakness or someone recovering from illness needs a different approach from a younger adult in stable health. Do not copy another person's deficit or schedule. [3, 9]\n\nSigns that the plan needs review include severe daily hunger, recurrent dizziness, unusual fatigue, new weakness, persistent cold, worsening exercise performance, severe constipation or managing only very small amounts of food for an extended period. These are not successes simply because weight fell. Record symptoms and actual intake, then ask the treating clinician whether food amount, meal distribution or medicine needs adjustment, or whether another medical cause should be investigated. [2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "protein-in-real-meals",
-          "heading": {
-            "ar": "خلّي البروتين مناسب وموزع وقابل للتنفيذ",
-            "en": "Make protein suitable, distributed and practical"
-          },
-          "body": {
-            "ar": "البروتين بيوفر أحماضاً أمينية يستخدمها الجسم في صيانة الأنسجة وبنائها، لكنه مش زر سحري يحافظ على العضلات من غير حركة أو طاقة كفاية. مراجعة منهجية في بالغين عندهم زيادة وزن أو سمنة وبيحاولوا يخسوا لقت إن زيادة البروتين ساعدت في تقليل فقد الكتلة العضلية، لكن التأثير على القوة والوظيفة ما كانش واضحاً بنفس الدرجة. ومراجعة تانية مع تمارين المقاومة لقت إن الفائدة الإضافية لزيادة البروتين بتقل بعد إجمالي قريب من 1.6 جرام لكل كيلوجرام يومياً عند بالغين أصحاء بيتدربوا. الرقم ده مش وصفة عامة لكل شخص. [4, 5]\n\nالكمية المناسبة بتتحدد حسب حجم الجسم وتركيبه، العمر، النشاط، إجمالي الأكل، القدرة على المضغ والهضم، وحالة الكلى والكبد وأي مرض حاد. أحياناً حساب البروتين على وزن حالي مرتفع جداً يطلع رقماً غير عملي، فيستخدم المختص وزناً مرجعياً أو هدفاً مختلفاً. ولو عندك مرض كلى أو تعليمات طبية بتحدد البروتين، ما تزودوش من نفسك. الهدف كفاية مناسبة لحالتك، مش أكبر رقم تقدر توصله. [2, 4]\n\nعملياً، حط مصدراً واضحاً في الوجبات: بيض أو ألبان، سمك، فراخ أو لحم، أو بقول ومنتجات صويا حسب صحتك وتفضيلاتك. توزيع المصادر على اليوم غالباً أسهل من محاولة تعويض كل حاجة في وجبة واحدة. الخضار والفاكهة والنشويات والدهون المناسبة بتكمل الوجبة ومش بتلغي البروتين. ولو الشهية قليلة، ابدأ بالجزء المغذي واتفق على وجبات أصغر بدل إجبار نفسك على طبق ضخم. [4, 5]",
-            "en": "Protein supplies amino acids used to maintain and build tissue, but it is not a magic switch that preserves muscle without movement or adequate energy. A systematic review in adults with overweight or obesity pursuing weight loss found that enhanced protein intake helped limit muscle-mass decline, although effects on strength and physical function were less clear. Another meta-analysis in resistance-trained healthy adults found that added benefit from protein supplementation diminished beyond a total intake of about 1.6 grams per kilogram per day. That figure is not a universal prescription. [4, 5]\n\nThe suitable amount depends on body size and composition, age, activity, total intake, ability to chew and digest, kidney and liver health, and acute illness. Calculating from a very high current body weight can sometimes produce an impractical amount, so a clinician may use a reference weight or another target. If you have kidney disease or medical instructions limiting protein, do not increase it independently. The goal is an amount suitable for your condition, not the largest number you can reach. [2, 4]\n\nIn practice, include a clear source at meals: eggs or dairy, fish, poultry or meat, or pulses and soy foods according to health and preference. Distributing sources through the day is often easier than trying to compensate in one meal. Suitable vegetables, fruit, carbohydrate and fats complete the meal and do not cancel the protein. When appetite is low, start with the nourishing part and agree smaller meals instead of forcing one large plate. [4, 5]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "resistance-and-recovery",
-          "heading": {
-            "ar": "ادّي العضلة سبب تفضل موجودة",
-            "en": "Give muscle a reason to stay"
-          },
-          "body": {
-            "ar": "تمارين المقاومة بتدي العضلة إشارة إنها مطلوبة. مراجعة منهجية حديثة قارنت تقييد الأكل لوحده بتقييد الأكل مع تمارين مقاومة عند بالغين عندهم زيادة وزن أو سمنة. إضافة المقاومة حافظت على الكتلة الخالية من الدهون بشكل أفضل، زودت فقد الدهون وحسنت القوة، حتى لما فرق وزن الجسم الكلي ما كانش كبيراً بين المجموعتين. دي نقطة مهمة: الميزان ممكن ما يكافئش التمرين فوراً رغم إن تركيب الجسم والقوة بيتحسنوا. [6]\n\nمش شرط البداية تكون جيم أو أوزان كبيرة. تمارين بوزن الجسم، أربطة مقاومة، أجهزة أو أوزان حرة كلها ممكن تنفع لو الحركة مناسبة وآمنة. WHO وNHS بيوصوا البالغين بأنشطة تقوية تشمل المجموعات العضلية الأساسية يومين على الأقل في الأسبوع، جنب النشاط الهوائي. ده هدف عام يتبني بالتدريج، مش اختبار لازم تنجح فيه من أول أسبوع. المشي ممتاز للقلب والحركة والاستمرار، لكنه ما يديش دايماً نفس حافز التقوية لكل العضلات. [7, 8]\n\nابدأ بحركات تقدر تعملها بتحكم ومن غير ألم حاد، وسيب وقتاً للتعافي. زوّد التكرار أو المقاومة أو صعوبة الحركة تدريجياً بدل ما تزود كل حاجة مرة واحدة. النوم والأكل الكافي والراحة جزء من الاستجابة، وبرنامج عنيف مع عجز شديد ممكن يقلل الأداء بدل ما يبني القوة. لو عندك مرض قلب أو ضغط غير منضبط، إصابة، مشكلة مفاصل، دوخة أو انقطاع طويل عن الرياضة، خُد توجيهاً مناسباً قبل البداية. [7, 8]",
-            "en": "Resistance exercise signals that muscle is needed. A recent systematic review compared dietary restriction alone with dietary restriction plus resistance exercise in adults with overweight or obesity. Adding resistance exercise better protected fat-free mass, increased fat loss and improved strength, even when the difference in total body-weight change between groups was small. That matters because the scale may not immediately reward exercise while body composition and strength improve. [6]\n\nThe starting point does not have to be a gym or heavy weights. Body-weight movements, resistance bands, machines or free weights can all work when the movement is suitable and safe. WHO and NHS guidance recommends muscle-strengthening activity for all major muscle groups on at least two days each week, alongside aerobic activity. This is a general target to build towards, not a test to pass in the first week. Walking is excellent for cardiovascular health, movement and consistency, but it may not provide the same strengthening stimulus to every muscle. [7, 8]\n\nBegin with movements you can control without sharp pain and allow recovery time. Increase repetitions, resistance or movement difficulty gradually rather than changing everything at once. Sleep, adequate food and rest are part of the response; an aggressive programme combined with a severe deficit can reduce performance rather than build strength. Seek suitable guidance before starting if you have heart disease, uncontrolled blood pressure, an injury, joint problems, dizziness or a long break from exercise. [7, 8]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "medicines-and-low-appetite",
-          "heading": {
-            "ar": "مع أدوية إنقاص الوزن، راقب الأكل والقوة",
-            "en": "With weight-loss medicine, monitor intake and strength"
-          },
-          "body": {
-            "ar": "أدوية إدارة الوزن ممكن تقلل الجوع وتزود الشبع عند الشخص المناسب، وده يساعد تنفيذ الخطة. لكن لو الشبع خلاك تعدي اليوم على لقيمات قليلة، أو القيء والإمساك والتعب قللوا أكلك وحركتك، البروتين والسوائل والعناصر الغذائية ممكن ما يكفوش. الجرعة الأعلى مش إنجاز لو الوظيفة والتغذية بيتأثروا، وما ينفعش تغير الجرعة أو توقف العلاج وترجعه من نفسك. [2, 10]\n\nالدراسات عن أدوية GLP-1 وتركيب الجسم بتبين إن الوزن المفقود يشمل دهوناً وكتلة خالية من الدهون بدرجات مختلفة. لكن الكتلة الخالية من الدهون مش كلها عضلات، وطريقة القياس والترطيب وحجم نزول الدهون بيأثروا في التفسير. المراجعات العلمية بتطلب قياسات أفضل للقوة والوظيفة، مش تحويل نسبة واحدة من تجربة لقاعدة تنطبق على كل مستخدم. الفكرة العملية إن الدواء ما يلغيّش أهمية الأكل والمقاومة والمتابعة. [10, 11]\n\nدليل أدوية GLP-1 بيفصل الاختيار والأعراض والمتابعة، فهنا خليك مركز على علامات العضلات: هل قدرتك على التمرين قلت؟ هل بقيت تقوم من الكرسي بصعوبة؟ هل بتفوت وجبات كتير أو مش قادر تحتفظ بالسوائل؟ سجّل الأكل والشرب والأعراض، وكلم الواصف بدري لو المدخول قليل جداً أو الضعف بيزيد. قيء مستمر، ألم بطن شديد أو عدم القدرة على الاحتفاظ بالسوائل يحتاج تواصلاً طبياً عاجلاً حسب الشدة. [2, 10]",
-            "en": "Weight-management medicines can reduce hunger and increase fullness in a suitable person, making a plan easier to follow. If fullness leaves you managing only a few bites all day, or vomiting, constipation and fatigue reduce food and movement, protein, fluid and micronutrients may become inadequate. A higher dose is not an achievement when nourishment and function are suffering. Do not change the dose, stop treatment or restart it independently. [2, 10]\n\nStudies of GLP-1 medicines and body composition show that lost weight can include both fat and fat-free mass in varying proportions. Fat-free mass is not all skeletal muscle, while the measurement method, hydration and the scale of fat loss affect interpretation. Scientific reviews call for better assessment of strength and function rather than turning one trial percentage into a rule for every user. The practical message is that medicine does not remove the need for nourishment, resistance exercise and follow-up. [10, 11]\n\nThe GLP-1 medicines guide covers selection, side effects and follow-up in detail, so focus here on muscle-related clues. Has exercise capacity fallen? Is rising from a chair harder? Are you regularly missing meals or unable to keep fluids down? Record food, drink and symptoms, and contact the prescriber early if intake is very low or weakness is increasing. Persistent vomiting, severe abdominal pain or inability to retain fluids needs urgent medical advice according to severity. [2, 10]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "دليل أدوية GLP-1",
-                "url": "../articles/glp1-medication-guide.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "GLP-1 medicines guide",
-                "url": "../articles/glp1-medication-guide.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "red-flags-and-special-situations",
-          "heading": {
-            "ar": "إمتى تحتاج مراجعة أسرع؟",
-            "en": "When do you need faster review?"
-          },
-          "body": {
-            "ar": "ضعف بسيط بعد تمرين جديد غير ضعف بيتزايد كل أسبوع أو بيمنعك تعمل حاجاتك العادية. راجع الطبيب قريباً لو فيه فقدان وزن من غير قصد، فقدان شهية مستمر، سقوط، صعوبة جديدة في القيام من الكرسي أو المشي، تورم، خفقان، أو تعب شديد مش متناسب مع يومك. الأسباب ممكن تشمل أكل غير كافٍ، أثر دواء، أنيميا، مشكلة هرمونات، عدوى أو مرضاً تاني، وتحليل تركيب الجسم ما يحددش السبب. [1, 9]\n\nاطلب رعاية عاجلة لو الضعف ظهر فجأة، خصوصاً لو في ناحية واحدة، أو صاحبه لخبطة كلام أو ارتباك أو إغماء أو ألم صدر أو ضيق نفس شديد. ومع دواء لإنقاص الوزن، عدم القدرة على الاحتفاظ بالسوائل، قيء مستمر أو ألم بطن شديد محتاج تقييم عاجل حسب الشدة. ما تستناش موعد قياس جديد، وما تحاولش تصلح العرض بمكمل أو تمرين أقوى من نفسك. [8, 10]\n\nفي مواقف محتاجة خطة أدق من المقال العام: عمر متقدم، مرض كلى أو كبد، حمل أو رضاعة، تعافٍ من جراحة، اضطراب أكل، أو فقد عضلات موجود قبل بداية الخطة. ساعتها هدف الوزن وسرعة النزول وكمية البروتين ونوع الحركة لازم يتحددوا مع الفريق المعالج. قرارات زي بدء مكمل، رفع بروتين، أو تغيير الدواء تتأجل للتقييم الفردي، لأن اللي يحمي عضلات شخص ممكن ما يكونش مناسباً لغيره. [2, 4, 9]",
-            "en": "Mild soreness after a new exercise is different from weakness that worsens each week or prevents ordinary tasks. Arrange medical review for unintentional weight loss, persistent loss of appetite, falls, new difficulty rising from a chair or walking, swelling, palpitations, or severe fatigue out of proportion to the day. Causes can include inadequate intake, a medicine effect, anaemia, a hormonal problem, infection or another illness; body-composition analysis cannot identify the cause. [1, 9]\n\nSeek urgent care for sudden weakness, especially on one side, or weakness with speech difficulty, confusion, fainting, chest pain or severe breathlessness. With weight-loss medicine, inability to keep fluids down, persistent vomiting or severe abdominal pain also needs urgent assessment according to severity. Do not wait for another measurement appointment or try to correct the symptom with a supplement or harder exercise on your own. [8, 10]\n\nSome situations need a more precise plan than a general article can provide: older age, kidney or liver disease, pregnancy or breastfeeding, surgical recovery, an eating disorder, or muscle loss that existed before the plan began. Weight goals, pace, protein amount and activity then belong with the treating team. Decisions such as starting a supplement, raising protein or changing medicine should wait for individual assessment because what protects one person's muscle may not suit another. [2, 4, 9]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "build-a-reviewable-plan",
-          "heading": {
-            "ar": "حوّل النصايح لخطة تقدر تراجعها",
-            "en": "Turn the advice into a plan you can review"
-          },
-          "body": {
-            "ar": "ابدأ بأربع خانات بسيطة لمدة أسبوع أو اتنين: الوجبات ومصادر البروتين، تمارين المقاومة أو الحركة، أي أعراض، ومؤشر وظيفة واحد زي سهولة طلوع السلم أو عدد مرات القيام من كرسي بتحكم. ما تحتاجش يوم مثالي؛ التسجيل الصادق هو اللي يوضح فين المشكلة. لو الجوع شديد أو الأداء بينزل، المعلومة دي أهم من محاولة إخفائها عشان الميزان شكله كويس. [2, 3]\n\nصفحة أول زيارة لإدارة الوزن بتوضح إيه اللي يتراجع في البداية وإيه اللي تاخده معاك. حضّر قائمة الأدوية والمكملات، أي تحاليل حديثة، تقارير تركيب جسم سابقة لو موجودة، ووصف يوم عادي من الأكل والنوم والحركة. اتفق مع المختص على هدف قابل للمراجعة: اتجاه وزن مناسب، حد أدنى عملي للبروتين، مقاومة تناسبك، وعلامات واضحة تستدعي تعديل الخطة. ما تغيّرش الأكل أو التمرين أو الدواء بسبب قراءة منفردة من غير مراجعة. [2, 9, 12]\n\nلو محتاج تربط نزول الوزن بالقوة والأكل والأعراض في تقييم فردي، تقدر تبدأ من صفحة احجز موعد في العيادة. ذكر العيادة هنا خطوة عملية عامة فقط، ومش وعداً بنتيجة. الطبيب أو مختص التغذية المعالج هو اللي يحدد هل محتاج تعديل غذاء، تقييم سبب ضعف، تغيير دواء أو إحالة لتمرين علاجي. النجاح هنا إنك تخس بشكل يخدم صحتك وتفضل قادر تعيش يومك، مش إنك توصل لأقل رقم بأي طريقة. [1, 2]",
-            "en": "Start with four simple fields for one or two weeks: meals and protein sources, resistance exercise or movement, symptoms, and one functional marker such as ease of climbing stairs or controlled chair rises. You do not need a perfect day; an honest record shows where the problem lies. If hunger is severe or performance is falling, that information matters more than hiding it to make the scale look good. [2, 3]\n\nThe page A first weight-management visit explains what is reviewed at the start and what to bring. Prepare a medicine and supplement list, recent test results, earlier body-composition reports if available, and a description of an ordinary day of food, sleep and movement. Agree a reviewable goal with the clinician: a suitable weight trend, a practical minimum protein plan, resistance work that fits you, and clear signs that should trigger adjustment. Do not change food, exercise or medicine because of one isolated reading without review. [2, 9, 12]\n\nIf you need to connect weight change with strength, food and symptoms in an individual assessment, you can start at the book an appointment page for the clinic. The clinic is mentioned only as a general practical step, not a promise of a result. The treating doctor or nutrition clinician decides whether you need a food adjustment, investigation of weakness, a medicine change or referral for therapeutic exercise. Success means losing weight in a way that supports health while remaining able to live your day, not reaching the lowest number by any means. [1, 2]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "أول زيارة لإدارة الوزن",
-                "url": "../articles/weight-management-first-visit.html"
-              },
-              {
-                "label": "احجز موعد",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "A first weight-management visit",
-                "url": "../articles/weight-management-first-visit.html"
-              },
-              {
-                "label": "book an appointment",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "what-you-are-protecting", "heading": {"ar": "الهدف مش الحفاظ على رقم عضلات وخلاص", "en": "The goal is more than preserving a muscle number"}, "body": {"ar": "العضلات هي اللي بتساعدك تقوم من الكرسي، تمشي، تطلع السلم، تشيل حاجاتك وتحافظ على استقلالك. وهي كمان نسيج نشط بيدخل في استخدام الجلوكوز والطاقة. أثناء إنقاص الوزن، الجسم عادةً ما بيفقدش دهون بس؛ جزء من التغيير ممكن ييجي من المياه والكتلة الخالية من الدهون، والكتلة دي تشمل العضلات لكنها مش مرادف كامل ليها. عشان كده نزول الميزان بسرعة مش دليل لوحده إن النتيجة أفضل. [1, 11]\n\nالتوافق العلمي بين ESPEN وEASO بيوصف السمنة المصحوبة بنقص العضلات على إنها اجتماع دهون زائدة مع كتلة عضلية ووظيفة عضلية منخفضتين. التقييم بيبدأ بالوظيفة، وبعدها تركيب الجسم عند الحاجة؛ يعني القوة والحركة مهمين جنب أي رقم في التقرير. ده يفسر ليه ممكن شخص يخس فعلاً، بس الخطة تحتاج تعديل لو قوته بتقل أو أنشطته العادية بقت أصعب. [1, 9]\n\nحماية العضلات مش معناها تمنع نزول الوزن، ولا معناها لازم تبقى لاعب رياضي. معناها إن العجز الغذائي والحركة والمتابعة يتظبطوا بحيث الاتجاه يخدم صحتك وقدرتك، مش الميزان وحده. تابع هل طلوع السلم أسهل، وهل بتقدر تكرر نفس التمرين، وهل التعب والجوع محتملين. التغير المفيد ممكن يبان في المقاس والقوة والصحة حتى لو الميزان بيتحرك بهدوء. [2, 3]", "en": "Muscle helps you rise from a chair, walk, climb stairs, carry everyday items and maintain independence. It is also active tissue involved in glucose and energy use. During weight loss, the body usually does not lose fat alone. Some change may come from water and fat-free mass, which includes muscle but is not exactly the same thing. A rapid fall on the scale therefore does not prove that the result is better. [1, 11]\n\nThe ESPEN and EASO consensus defines sarcopenic obesity as excess fat alongside low muscle mass and impaired muscle function. Assessment starts with function, followed by body composition when indicated, so strength and movement matter alongside any report value. This explains why someone may genuinely lose weight yet need a plan adjustment if strength falls or ordinary activities become harder. [1, 9]\n\nProtecting muscle does not mean preventing weight loss or becoming an athlete. It means setting the energy deficit, movement and follow-up so the direction supports health and capability rather than the scale alone. Notice whether stairs feel easier, whether you can repeat the same exercise, and whether fatigue and hunger remain manageable. Useful change may appear in measurements, strength and health even when scale weight moves gradually. [2, 3]"}, "links": {"ar": [], "en": []}},
+        {"id": "measure-a-trend", "heading": {"ar": "اقرأ الاتجاه من كذا مؤشر", "en": "Read the trend from several indicators"}, "body": {"ar": "الميزان بيجمع الدهون والعضلات والعظام والأعضاء والمياه في رقم واحد. تحليل المقاومة الكهربائية الحيوية زي InBody بيفصل تقديرات للدهون والكتلة الخالية من الدهون والمياه، بس هو مش بيشوف العضلة مباشرة، والنتيجة ممكن تتأثر بالترطيب والأكل والتمرين وتوقيت القياس. عشان المقارنة تبقى أنضف، استخدم نفس الجهاز وفي ظروف متقاربة، وما تغيّرش أكلك أو شربك عشان تطلع ورقة أحسن. [11, 12]\n\nمقال تركيب الجسم مش رقم الميزان بيوضح حدود الأرقام دي بالتفصيل. هنا المهم إن قراءة واحدة ما تثبتش إنك فقدت عضلاً، وإن ثبات الوزن ممكن يحصل مع نقص دهون والحفاظ على الكتلة الخالية من الدهون. راقب الاتجاه على فترة مناسبة، وضم له محيطاً متفقاً عليه، أداء التمرين، سهولة الحركة، الطاقة، الشهية والأعراض. لو كل المؤشرات ماشية في اتجاه مختلف عن الجهاز، ما ينفعش تبني قراراً كبيراً على خانة واحدة. [11, 12]\n\nولو فيه شك حقيقي في ضعف العضلات، صفحة تقييم العضلات في رعاية التغذية بتشرح الفرق بين الفحص والقياس والتشخيص. التوافق الأوروبي بيحط قوة العضلات في المقدمة، ويستخدم كمية العضلات أو جودتها لتأكيد التشخيص والأداء لتقدير الشدة. يعني صعوبة جديدة في القيام من الكرسي أو بطء واضح في المشي أهم من مطاردة نسبة مثالية على الإنترنت. التقييم السريري هو اللي يربط الرقم بوظيفتك وصحتك. [1, 9]", "en": "A scale combines fat, muscle, bone, organs and water into one number. Bioelectrical impedance tools such as InBody separate estimates of fat, fat-free mass and water, but they do not see muscle directly. Hydration, food, exercise and measurement timing can affect the result. For a cleaner comparison, use the same device under similar conditions, and do not manipulate food or fluid intake to produce a better-looking report. [11, 12]\n\nThe guide Body composition is not the scale explains these limitations in detail. The central point here is that one reading cannot prove muscle loss, while stable weight can occur as fat falls and fat-free mass is maintained. Follow the trend over a suitable interval and combine it with an agreed circumference, exercise performance, ease of movement, energy, appetite and symptoms. If every indicator points in a different direction from the device, do not make a major decision from one field. [11, 12]\n\nWhen there is a genuine concern about weakness, Muscle assessment in nutrition care explains the difference between screening, measurement and diagnosis. European consensus places muscle strength first, using muscle quantity or quality to confirm diagnosis and performance to grade severity. New difficulty rising from a chair or a clear slowing of walking therefore matters more than chasing an ideal percentage found online. Clinical assessment connects the number with function and health. [1, 9]"}, "links": {"ar": [{"label": "تركيب الجسم مش رقم الميزان", "url": "../articles/body-composition-not-scale.html"}, {"label": "تقييم العضلات في رعاية التغذية", "url": "../articles/muscle-assessment-in-nutrition-care.html"}], "en": [{"label": "Body composition is not the scale", "url": "../articles/body-composition-not-scale.html"}, {"label": "Muscle assessment in nutrition care", "url": "../articles/muscle-assessment-in-nutrition-care.html"}]}},
+        {"id": "avoid-an-aggressive-deficit", "heading": {"ar": "اعمل عجز مناسب، مش تجويع", "en": "Use an appropriate deficit, not starvation"}, "body": {"ar": "عشان الوزن ينزل، بيكون فيه فرق بين الطاقة اللي الجسم بياخدها واللي بيستخدمها، بس الفرق الأكبر مش دايماً أحسن. لما الأكل يقل بعنف، سهل إن البروتين والفيتامينات والمعادن والسوائل ما يكفوش، وسهل كمان إن الحركة والأداء يقلوا. النزول السريع في البداية ممكن يشمل مياه ومحتوى الجهاز الهضمي، فمش دليل إن الدهون وحدها اختفت. NICE بتوصي بخطة غذائية متوازنة ومناسبة للشخص، وتحذر من الأنظمة شديدة الانخفاض في الطاقة خارج خدمة متخصصة وبشروط ومتابعة محددة. [2]\n\nمعدل النزول المناسب مش رقماً واحداً لكل الناس. CDC بيذكر إن النزول التدريجي المنتظم غالباً أسهل في الاستمرار من النزول الأسرع، بس العمر ووزن البداية والأمراض والأدوية وتاريخ اضطراب الأكل والحمل أو الرضاعة يغيروا القرار. شخص كبير في السن أو عنده ضعف أو بيتعافى من مرض مش زي شخص أصغر وصحته مستقرة. عشان كده ما تنسخش عجزاً أو جدولاً من حد تاني. [3, 9]\n\nعلامات إن الخطة محتاجة مراجعة تشمل جوعاً شديداً طول اليوم، دوخة متكررة، تعباً غير معتاد، ضعفاً جديداً، برودة مستمرة، تدهور التمرين، إمساكاً شديداً أو أكل كميات صغيرة جداً لفترة. دي مش علامات نجاح لمجرد إن الميزان نزل. اكتب الأعراض والأكل الفعلي، وراجع المختص المعالج عشان يحدد هل المطلوب تعديل الكمية أو توزيع الوجبات أو الدواء، أو البحث عن سبب طبي تاني. [2, 3]", "en": "Weight loss requires a difference between energy intake and use, but a larger deficit is not always better. When intake is cut harshly, protein, vitamins, minerals and fluid may become inadequate, while movement and performance can fall. An early rapid drop can include water and digestive contents, so it does not show that fat alone disappeared. NICE recommends a nutritionally balanced, individual plan and restricts very-low-energy diets to specialist services with defined indications and support. [2]\n\nA suitable pace is not one number for everyone. The CDC notes that gradual, steady loss is generally more sustainable than faster loss, but age, starting weight, illness, medicines, eating-disorder history, pregnancy and breastfeeding all change the decision. An older adult with weakness or someone recovering from illness needs a different approach from a younger adult in stable health. Do not copy another person's deficit or schedule. [3, 9]\n\nSigns that the plan needs review include severe daily hunger, recurrent dizziness, unusual fatigue, new weakness, persistent cold, worsening exercise performance, severe constipation or managing only very small amounts of food for an extended period. These are not successes simply because weight fell. Record symptoms and actual intake, then ask the treating clinician whether food amount, meal distribution or medicine needs adjustment, or whether another medical cause should be investigated. [2, 3]"}, "links": {"ar": [], "en": []}},
+        {"id": "protein-in-real-meals", "heading": {"ar": "خلّي البروتين مناسب وموزع وقابل للتنفيذ", "en": "Make protein suitable, distributed and practical"}, "body": {"ar": "البروتين بيوفر أحماضاً أمينية يستخدمها الجسم في صيانة الأنسجة وبنائها، بس هو مش زر سحري يحافظ على العضلات من غير حركة أو طاقة كفاية. مراجعة منهجية في بالغين عندهم زيادة وزن أو سمنة وبيحاولوا يخسوا لقت إن زيادة البروتين ساعدت في تقليل فقد الكتلة العضلية، بس التأثير على القوة والوظيفة ما كانش واضحاً بنفس الدرجة. ومراجعة تانية مع تمارين المقاومة لقت إن الفائدة الإضافية لزيادة البروتين بتقل بعد إجمالي قريب من 1.6 جرام لكل كيلوجرام يومياً عند بالغين أصحاء بيتدربوا. الرقم ده مش وصفة عامة لكل شخص. [4, 5]\n\nالكمية المناسبة بتتحدد حسب حجم الجسم وتركيبه، العمر، النشاط، إجمالي الأكل، القدرة على المضغ والهضم، وحالة الكلى والكبد وأي مرض حاد. أحياناً حساب البروتين على وزن حالي مرتفع جداً يطلع رقماً غير عملي، فيستخدم المختص وزناً مرجعياً أو هدفاً مختلفاً. ولو عندك مرض كلى أو تعليمات طبية بتحدد البروتين، ما تزودوش من نفسك. الهدف كفاية مناسبة لحالتك، مش أكبر رقم تقدر توصله. [2, 4]\n\nعملياً، حط مصدراً واضحاً في الوجبات: بيض أو ألبان، سمك، فراخ أو لحم، أو بقول ومنتجات صويا حسب صحتك وتفضيلاتك. توزيع المصادر على اليوم غالباً أسهل من محاولة تعويض كل حاجة في وجبة واحدة. الخضار والفاكهة والنشويات والدهون المناسبة بتكمل الوجبة ومش بتلغي البروتين. ولو الشهية قليلة، ابدأ بالجزء المغذي واتفق على وجبات أصغر بدل إجبار نفسك على طبق ضخم. [4, 5]", "en": "Protein supplies amino acids used to maintain and build tissue, but it is not a magic switch that preserves muscle without movement or adequate energy. A systematic review in adults with overweight or obesity pursuing weight loss found that enhanced protein intake helped limit muscle-mass decline, although effects on strength and physical function were less clear. Another meta-analysis in resistance-trained healthy adults found that added benefit from protein supplementation diminished beyond a total intake of about 1.6 grams per kilogram per day. That figure is not a universal prescription. [4, 5]\n\nThe suitable amount depends on body size and composition, age, activity, total intake, ability to chew and digest, kidney and liver health, and acute illness. Calculating from a very high current body weight can sometimes produce an impractical amount, so a clinician may use a reference weight or another target. If you have kidney disease or medical instructions limiting protein, do not increase it independently. The goal is an amount suitable for your condition, not the largest number you can reach. [2, 4]\n\nIn practice, include a clear source at meals: eggs or dairy, fish, poultry or meat, or pulses and soy foods according to health and preference. Distributing sources through the day is often easier than trying to compensate in one meal. Suitable vegetables, fruit, carbohydrate and fats complete the meal and do not cancel the protein. When appetite is low, start with the nourishing part and agree smaller meals instead of forcing one large plate. [4, 5]"}, "links": {"ar": [], "en": []}},
+        {"id": "resistance-and-recovery", "heading": {"ar": "ادّي العضلة سبب تفضل موجودة", "en": "Give muscle a reason to stay"}, "body": {"ar": "تمارين المقاومة بتدي العضلة إشارة إنها مطلوبة. مراجعة منهجية حديثة قارنت تقييد الأكل لوحده بتقييد الأكل مع تمارين مقاومة عند بالغين عندهم زيادة وزن أو سمنة. إضافة المقاومة حافظت على الكتلة الخالية من الدهون بشكل أفضل، زودت فقد الدهون وحسنت القوة، حتى لما فرق وزن الجسم الكلي ما كانش كبيراً بين المجموعتين. دي نقطة مهمة: الميزان ممكن ما يكافئش التمرين فوراً رغم إن تركيب الجسم والقوة بيتحسنوا. [6]\n\nمش شرط البداية تكون جيم أو أوزان كبيرة. تمارين بوزن الجسم، أربطة مقاومة، أجهزة أو أوزان حرة كلها ممكن تنفع لو الحركة مناسبة وآمنة. WHO وNHS بيوصوا البالغين بأنشطة تقوية تشمل المجموعات العضلية الأساسية يومين على الأقل في الأسبوع، جنب النشاط الهوائي. ده هدف عام يتبني بالتدريج، مش اختبار لازم تنجح فيه من أول أسبوع. المشي ممتاز للقلب والحركة والاستمرار، بس هو ما يديش دايماً نفس حافز التقوية لكل العضلات. [7, 8]\n\nابدأ بحركات تقدر تعملها بتحكم ومن غير ألم حاد، وسيب وقتاً للتعافي. زوّد التكرار أو المقاومة أو صعوبة الحركة تدريجياً بدل ما تزود كل حاجة مرة واحدة. النوم والأكل الكافي والراحة جزء من الاستجابة، وبرنامج عنيف مع عجز شديد ممكن يقلل الأداء بدل ما يبني القوة. لو عندك مرض قلب أو ضغط غير منضبط، إصابة، مشكلة مفاصل، دوخة أو انقطاع طويل عن الرياضة، خُد توجيهاً مناسباً قبل البداية. [7, 8]", "en": "Resistance exercise signals that muscle is needed. A recent systematic review compared dietary restriction alone with dietary restriction plus resistance exercise in adults with overweight or obesity. Adding resistance exercise better protected fat-free mass, increased fat loss and improved strength, even when the difference in total body-weight change between groups was small. That matters because the scale may not immediately reward exercise while body composition and strength improve. [6]\n\nThe starting point does not have to be a gym or heavy weights. Body-weight movements, resistance bands, machines or free weights can all work when the movement is suitable and safe. WHO and NHS guidance recommends muscle-strengthening activity for all major muscle groups on at least two days each week, alongside aerobic activity. This is a general target to build towards, not a test to pass in the first week. Walking is excellent for cardiovascular health, movement and consistency, but it may not provide the same strengthening stimulus to every muscle. [7, 8]\n\nBegin with movements you can control without sharp pain and allow recovery time. Increase repetitions, resistance or movement difficulty gradually rather than changing everything at once. Sleep, adequate food and rest are part of the response; an aggressive programme combined with a severe deficit can reduce performance rather than build strength. Seek suitable guidance before starting if you have heart disease, uncontrolled blood pressure, an injury, joint problems, dizziness or a long break from exercise. [7, 8]"}, "links": {"ar": [], "en": []}},
+        {"id": "medicines-and-low-appetite", "heading": {"ar": "مع أدوية إنقاص الوزن، راقب الأكل والقوة", "en": "With weight-loss medicine, monitor intake and strength"}, "body": {"ar": "أدوية إدارة الوزن ممكن تقلل الجوع وتزود الشبع عند الشخص المناسب، وده يساعد تنفيذ الخطة. بس لو الشبع خلاك تعدي اليوم على لقيمات قليلة، أو القيء والإمساك والتعب قللوا أكلك وحركتك، البروتين والسوائل والعناصر الغذائية ممكن ما يكفوش. الجرعة الأعلى مش إنجاز لو الوظيفة والتغذية بيتأثروا، وما ينفعش تغير الجرعة أو توقف العلاج وترجعه من نفسك. [2, 10]\n\nالدراسات عن أدوية GLP-1 وتركيب الجسم بتبين إن الوزن المفقود يشمل دهوناً وكتلة خالية من الدهون بدرجات مختلفة. بس الكتلة الخالية من الدهون مش كلها عضلات، وطريقة القياس والترطيب وحجم نزول الدهون بيأثروا في التفسير. المراجعات العلمية بتطلب قياسات أفضل للقوة والوظيفة، مش تحويل نسبة واحدة من تجربة لقاعدة تنطبق على كل مستخدم. الفكرة العملية إن الدواء ما يلغيّش أهمية الأكل والمقاومة والمتابعة. [10, 11]\n\nدليل أدوية GLP-1 بيفصل الاختيار والأعراض والمتابعة، فهنا خليك مركز على علامات العضلات: هل قدرتك على التمرين قلت؟ هل بقيت تقوم من الكرسي بصعوبة؟ هل بتفوت وجبات كتير أو مش قادر تحتفظ بالسوائل؟ سجّل الأكل والشرب والأعراض، وكلم الواصف بدري لو المدخول قليل جداً أو الضعف بيزيد. قيء مستمر، ألم بطن شديد أو عدم القدرة على الاحتفاظ بالسوائل يحتاج تواصلاً طبياً عاجلاً حسب الشدة. [2, 10]", "en": "Weight-management medicines can reduce hunger and increase fullness in a suitable person, making a plan easier to follow. If fullness leaves you managing only a few bites all day, or vomiting, constipation and fatigue reduce food and movement, protein, fluid and micronutrients may become inadequate. A higher dose is not an achievement when nourishment and function are suffering. Do not change the dose, stop treatment or restart it independently. [2, 10]\n\nStudies of GLP-1 medicines and body composition show that lost weight can include both fat and fat-free mass in varying proportions. Fat-free mass is not all skeletal muscle, while the measurement method, hydration and the scale of fat loss affect interpretation. Scientific reviews call for better assessment of strength and function rather than turning one trial percentage into a rule for every user. The practical message is that medicine does not remove the need for nourishment, resistance exercise and follow-up. [10, 11]\n\nThe GLP-1 medicines guide covers selection, side effects and follow-up in detail, so focus here on muscle-related clues. Has exercise capacity fallen? Is rising from a chair harder? Are you regularly missing meals or unable to keep fluids down? Record food, drink and symptoms, and contact the prescriber early if intake is very low or weakness is increasing. Persistent vomiting, severe abdominal pain or inability to retain fluids needs urgent medical advice according to severity. [2, 10]"}, "links": {"ar": [{"label": "دليل أدوية GLP-1", "url": "../articles/glp1-medication-guide.html"}], "en": [{"label": "GLP-1 medicines guide", "url": "../articles/glp1-medication-guide.html"}]}},
+        {"id": "red-flags-and-special-situations", "heading": {"ar": "إمتى تحتاج مراجعة أسرع؟", "en": "When do you need faster review?"}, "body": {"ar": "ضعف بسيط بعد تمرين جديد غير ضعف بيتزايد كل أسبوع أو بيمنعك تعمل حاجاتك العادية. راجع الطبيب قريباً لو فيه فقدان وزن من غير قصد، فقدان شهية مستمر، سقوط، صعوبة جديدة في القيام من الكرسي أو المشي، تورم، خفقان، أو تعب شديد مش متناسب مع يومك. الأسباب ممكن تشمل أكل غير كافٍ، أثر دواء، أنيميا، مشكلة هرمونات، عدوى أو مرضاً تاني، وتحليل تركيب الجسم ما يحددش السبب. [1, 9]\n\nاطلب رعاية عاجلة لو الضعف ظهر فجأة، خصوصاً لو في ناحية واحدة، أو صاحبه لخبطة كلام أو ارتباك أو إغماء أو ألم صدر أو ضيق نفس شديد. ومع دواء لإنقاص الوزن، عدم القدرة على الاحتفاظ بالسوائل، قيء مستمر أو ألم بطن شديد محتاج تقييم عاجل حسب الشدة. ما تستناش موعد قياس جديد، وما تحاولش تصلح العرض بمكمل أو تمرين أقوى من نفسك. [8, 10]\n\nفي مواقف محتاجة خطة أدق من المقال العام: عمر متقدم، مرض كلى أو كبد، حمل أو رضاعة، تعافٍ من جراحة، اضطراب أكل، أو فقد عضلات موجود قبل بداية الخطة. ساعتها هدف الوزن وسرعة النزول وكمية البروتين ونوع الحركة لازم يتحددوا مع الفريق المعالج. قرارات زي بدء مكمل، رفع بروتين، أو تغيير الدواء تتأجل للتقييم الفردي، لأن اللي يحمي عضلات شخص ممكن ما يكونش مناسباً لغيره. [2, 4, 9]", "en": "Mild soreness after a new exercise is different from weakness that worsens each week or prevents ordinary tasks. Arrange medical review for unintentional weight loss, persistent loss of appetite, falls, new difficulty rising from a chair or walking, swelling, palpitations, or severe fatigue out of proportion to the day. Causes can include inadequate intake, a medicine effect, anaemia, a hormonal problem, infection or another illness; body-composition analysis cannot identify the cause. [1, 9]\n\nSeek urgent care for sudden weakness, especially on one side, or weakness with speech difficulty, confusion, fainting, chest pain or severe breathlessness. With weight-loss medicine, inability to keep fluids down, persistent vomiting or severe abdominal pain also needs urgent assessment according to severity. Do not wait for another measurement appointment or try to correct the symptom with a supplement or harder exercise on your own. [8, 10]\n\nSome situations need a more precise plan than a general article can provide: older age, kidney or liver disease, pregnancy or breastfeeding, surgical recovery, an eating disorder, or muscle loss that existed before the plan began. Weight goals, pace, protein amount and activity then belong with the treating team. Decisions such as starting a supplement, raising protein or changing medicine should wait for individual assessment because what protects one person's muscle may not suit another. [2, 4, 9]"}, "links": {"ar": [], "en": []}},
+        {"id": "build-a-reviewable-plan", "heading": {"ar": "حوّل النصايح لخطة تقدر تراجعها", "en": "Turn the advice into a plan you can review"}, "body": {"ar": "ابدأ بأربع خانات بسيطة لمدة أسبوع أو اتنين: الوجبات ومصادر البروتين، تمارين المقاومة أو الحركة، أي أعراض، ومؤشر وظيفة واحد زي سهولة طلوع السلم أو عدد مرات القيام من كرسي بتحكم. ما تحتاجش يوم مثالي؛ التسجيل الصادق هو اللي يوضح فين المشكلة. لو الجوع شديد أو الأداء بينزل، المعلومة دي أهم من محاولة إخفائها عشان الميزان شكله كويس. [2, 3]\n\nصفحة أول زيارة لإدارة الوزن بتوضح إيه اللي يتراجع في البداية وإيه اللي تاخده معاك. حضّر قائمة الأدوية والمكملات، أي تحاليل حديثة، تقارير تركيب جسم سابقة لو موجودة، ووصف يوم عادي من الأكل والنوم والحركة. اتفق مع المختص على هدف قابل للمراجعة: اتجاه وزن مناسب، حد أدنى عملي للبروتين، مقاومة تناسبك، وعلامات واضحة تستدعي تعديل الخطة. ما تغيّرش الأكل أو التمرين أو الدواء بسبب قراءة منفردة من غير مراجعة. [2, 9, 12]\n\nلو محتاج تربط نزول الوزن بالقوة والأكل والأعراض في تقييم فردي، تقدر تبدأ من صفحة احجز موعد في العيادة. ذكر العيادة هنا خطوة عملية عامة فقط، ومش وعداً بنتيجة. الطبيب أو مختص التغذية المعالج هو اللي يحدد هل محتاج تعديل غذاء، تقييم سبب ضعف، تغيير دواء أو إحالة لتمرين علاجي. النجاح هنا إنك تخس بشكل يخدم صحتك وتفضل قادر تعيش يومك، مش إنك توصل لأقل رقم بأي طريقة. [1, 2]", "en": "Start with four simple fields for one or two weeks: meals and protein sources, resistance exercise or movement, symptoms, and one functional marker such as ease of climbing stairs or controlled chair rises. You do not need a perfect day; an honest record shows where the problem lies. If hunger is severe or performance is falling, that information matters more than hiding it to make the scale look good. [2, 3]\n\nThe page A first weight-management visit explains what is reviewed at the start and what to bring. Prepare a medicine and supplement list, recent test results, earlier body-composition reports if available, and a description of an ordinary day of food, sleep and movement. Agree a reviewable goal with the clinician: a suitable weight trend, a practical minimum protein plan, resistance work that fits you, and clear signs that should trigger adjustment. Do not change food, exercise or medicine because of one isolated reading without review. [2, 9, 12]\n\nIf you need to connect weight change with strength, food and symptoms in an individual assessment, you can start at the book an appointment page for the clinic. The clinic is mentioned only as a general practical step, not a promise of a result. The treating doctor or nutrition clinician decides whether you need a food adjustment, investigation of weakness, a medicine change or referral for therapeutic exercise. Success means losing weight in a way that supports health while remaining able to live your day, not reaching the lowest number by any means. [1, 2]"}, "links": {"ar": [{"label": "أول زيارة لإدارة الوزن", "url": "../articles/weight-management-first-visit.html"}, {"label": "احجز موعد", "url": "../patients/booking.html"}], "en": [{"label": "A first weight-management visit", "url": "../articles/weight-management-first-visit.html"}, {"label": "book an appointment", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "هل لازم أستخدم بروتين بودرة وأنا بخس؟",
-            "en": "Do I need protein powder while losing weight?"
-          },
-          "a": {
-            "ar": "مش بالضرورة. ناس كتير يقدروا يغطوا احتياجهم من أكل عادي موزع على الوجبات. المكمل ممكن يبقى أداة عملية لو الأكل مش كفاية أو الشهية قليلة، لكنه مش أحسن تلقائياً من الطعام. راجع المكونات والجرعة وحالة الكلى والكبد وأي أدوية مع المختص قبل الاستخدام. [4, 5]",
-            "en": "Not necessarily. Many people can meet their needs through ordinary food distributed across meals. A supplement may be a practical tool when intake is inadequate or appetite is low, but it is not automatically better than food. Review ingredients, dose, kidney and liver health, and medicines with a clinician before use. [4, 5]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل المشي لوحده كفاية لحماية العضلات؟",
-            "en": "Is walking alone enough to protect muscle?"
-          },
-          "a": {
-            "ar": "المشي مفيد جداً للقلب والحركة والاستمرار، لكنه مش دايماً بيدي كل العضلات مقاومة كفاية للحفاظ على القوة. الإرشادات بتضيف أنشطة تقوية للمجموعات العضلية الأساسية يومين على الأقل أسبوعياً. البداية ونوع التمرين يتظبطوا حسب صحتك ومفاصلك وقدرتك. [6, 7, 8]",
-            "en": "Walking is very useful for cardiovascular health, movement and consistency, but it may not give every muscle enough resistance to preserve strength. Guidelines add strengthening activity for the major muscle groups on at least two days each week. The starting level and exercise type should fit your health, joints and ability. [6, 7, 8]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل ثبات الوزن مع تحسن المقاس والقوة يعتبر تقدماً؟",
-            "en": "Is stable weight with better measurements and strength still progress?"
-          },
-          "a": {
-            "ar": "أيوه، ممكن يبقى تقدماً حقيقياً لو الدهون أو المقاسات بتتحسن والقوة والكتلة الخالية من الدهون محفوظين. المياه كمان ممكن تغطي اتجاهاً قصير المدى. راقب أكتر من مؤشر وعلى فترة مناسبة بدل الحكم من يوم واحد أو جهازين مختلفين. [6, 11, 12]",
-            "en": "Yes. It can be genuine progress when fat or measurements improve while strength and fat-free mass are maintained. Fluid can also hide a short-term trend. Follow several indicators over a suitable period instead of judging from one day or comparing two different devices. [6, 11, 12]"
-          }
-        },
-        {
-          "q": {
-            "ar": "إيه كمية البروتين المناسبة وقت نزول الوزن؟",
-            "en": "How much protein is suitable during weight loss?"
-          },
-          "a": {
-            "ar": "مفيش رقم واحد لكل الناس. الأبحاث بتدعم إن كمية أعلى من المدخول المنخفض ممكن تساعد في الحفاظ على الكتلة العضلية، لكن الرقم يتغير مع حجم الجسم والعمر والنشاط وإجمالي الأكل والكلى والكبد. خلي المختص يحسب هدفاً عملياً لحالتك بدل نسخ رقم من الإنترنت. [4, 5]",
-            "en": "There is no single number for everyone. Evidence supports adequate or enhanced intake to help preserve muscle, but the target changes with body size, age, activity, total intake, and kidney and liver health. Ask a clinician to set a practical target for your situation rather than copying a number online. [4, 5]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل أدوية GLP-1 بتسبب فقد عضلات أكيد؟",
-            "en": "Do GLP-1 medicines inevitably cause muscle loss?"
-          },
-          "a": {
-            "ar": "لأ، مش نتيجة واحدة مؤكدة بنفس الدرجة لكل شخص. الدراسات بتسجل تغيراً في الكتلة الخالية من الدهون مع نزول الوزن، لكن دي مش كلها عضلات، والقياس والسن والصحة والأكل والحركة بيفرقوا. تابع القوة والمدخول والأعراض مع الواصف بدل الاعتماد على نسبة عامة. [10, 11]",
-            "en": "No single outcome occurs to the same degree in everyone. Studies report changes in fat-free mass during weight loss, but this is not all skeletal muscle, and measurement, age, health, food and activity matter. Follow strength, intake and symptoms with the prescriber rather than relying on a general percentage. [10, 11]"
-          }
-        },
-        {
-          "q": {
-            "ar": "إمتى الضعف أثناء الرجيم يبقى علامة خطر؟",
-            "en": "When is weakness during dieting a warning sign?"
-          },
-          "a": {
-            "ar": "الضعف اللي بيزيد، يسبب سقوطاً أو يصعّب المشي والقيام من الكرسي محتاج مراجعة. ولو ظهر فجأة، خصوصاً في ناحية واحدة، أو مع لخبطة كلام أو إغماء أو ألم صدر أو ضيق نفس شديد، اطلب رعاية طارئة فوراً. ما تفسرش كل ضعف على إنه نقص بروتين من غير تقييم. [1, 8, 9]",
-            "en": "Worsening weakness, falls, or new difficulty walking or rising from a chair needs review. Sudden weakness, especially on one side, or weakness with speech difficulty, fainting, chest pain or severe breathlessness requires immediate emergency care. Do not assume every episode of weakness is simply low protein without assessment. [1, 8, 9]"
-          }
-        }
+        {"q": {"ar": "هل لازم أستخدم بروتين بودرة وأنا بخس؟", "en": "Do I need protein powder while losing weight?"}, "a": {"ar": "مش بالضرورة. ناس كتير يقدروا يغطوا احتياجهم من أكل عادي موزع على الوجبات. المكمل ممكن يبقى أداة عملية لو الأكل مش كفاية أو الشهية قليلة، بس هو مش أحسن تلقائياً من الطعام. راجع المكونات والجرعة وحالة الكلى والكبد وأي أدوية مع المختص قبل الاستخدام. [4, 5]", "en": "Not necessarily. Many people can meet their needs through ordinary food distributed across meals. A supplement may be a practical tool when intake is inadequate or appetite is low, but it is not automatically better than food. Review ingredients, dose, kidney and liver health, and medicines with a clinician before use. [4, 5]"}},
+        {"q": {"ar": "هل المشي لوحده كفاية لحماية العضلات؟", "en": "Is walking alone enough to protect muscle?"}, "a": {"ar": "المشي مفيد جداً للقلب والحركة والاستمرار، بس هو مش دايماً بيدي كل العضلات مقاومة كفاية للحفاظ على القوة. الإرشادات بتضيف أنشطة تقوية للمجموعات العضلية الأساسية يومين على الأقل أسبوعياً. البداية ونوع التمرين يتظبطوا حسب صحتك ومفاصلك وقدرتك. [6, 7, 8]", "en": "Walking is very useful for cardiovascular health, movement and consistency, but it may not give every muscle enough resistance to preserve strength. Guidelines add strengthening activity for the major muscle groups on at least two days each week. The starting level and exercise type should fit your health, joints and ability. [6, 7, 8]"}},
+        {"q": {"ar": "هل ثبات الوزن مع تحسن المقاس والقوة يعتبر تقدماً؟", "en": "Is stable weight with better measurements and strength still progress?"}, "a": {"ar": "أيوه، ممكن يبقى تقدماً حقيقياً لو الدهون أو المقاسات بتتحسن والقوة والكتلة الخالية من الدهون محفوظين. المياه كمان ممكن تغطي اتجاهاً قصير المدى. راقب أكتر من مؤشر وعلى فترة مناسبة بدل الحكم من يوم واحد أو جهازين مختلفين. [6, 11, 12]", "en": "Yes. It can be genuine progress when fat or measurements improve while strength and fat-free mass are maintained. Fluid can also hide a short-term trend. Follow several indicators over a suitable period instead of judging from one day or comparing two different devices. [6, 11, 12]"}},
+        {"q": {"ar": "إيه كمية البروتين المناسبة وقت نزول الوزن؟", "en": "How much protein is suitable during weight loss?"}, "a": {"ar": "مفيش رقم واحد لكل الناس. الأبحاث بتدعم إن كمية أعلى من المدخول المنخفض ممكن تساعد في الحفاظ على الكتلة العضلية، بس الرقم يتغير مع حجم الجسم والعمر والنشاط وإجمالي الأكل والكلى والكبد. خلي المختص يحسب هدفاً عملياً لحالتك بدل نسخ رقم من الإنترنت. [4, 5]", "en": "There is no single number for everyone. Evidence supports adequate or enhanced intake to help preserve muscle, but the target changes with body size, age, activity, total intake, and kidney and liver health. Ask a clinician to set a practical target for your situation rather than copying a number online. [4, 5]"}},
+        {"q": {"ar": "هل أدوية GLP-1 بتسبب فقد عضلات أكيد؟", "en": "Do GLP-1 medicines inevitably cause muscle loss?"}, "a": {"ar": "لأ، مش نتيجة واحدة مؤكدة بنفس الدرجة لكل شخص. الدراسات بتسجل تغيراً في الكتلة الخالية من الدهون مع نزول الوزن، بس دي مش كلها عضلات، والقياس والسن والصحة والأكل والحركة بيفرقوا. تابع القوة والمدخول والأعراض مع الواصف بدل الاعتماد على نسبة عامة. [10, 11]", "en": "No single outcome occurs to the same degree in everyone. Studies report changes in fat-free mass during weight loss, but this is not all skeletal muscle, and measurement, age, health, food and activity matter. Follow strength, intake and symptoms with the prescriber rather than relying on a general percentage. [10, 11]"}},
+        {"q": {"ar": "إمتى الضعف أثناء الرجيم يبقى علامة خطر؟", "en": "When is weakness during dieting a warning sign?"}, "a": {"ar": "الضعف اللي بيزيد، يسبب سقوطاً أو يصعّب المشي والقيام من الكرسي محتاج مراجعة. ولو ظهر فجأة، خصوصاً في ناحية واحدة، أو مع لخبطة كلام أو إغماء أو ألم صدر أو ضيق نفس شديد، اطلب رعاية طارئة فوراً. ما تفسرش كل ضعف على إنه نقص بروتين من غير تقييم. [1, 8, 9]", "en": "Worsening weakness, falls, or new difficulty walking or rising from a chair needs review. Sudden weakness, especially on one side, or weakness with speech difficulty, fainting, chest pain or severe breathlessness requires immediate emergency care. Do not assume every episode of weakness is simply low protein without assessment. [1, 8, 9]"}}
       ],
       "sources": [
-        {
-          "label": "Donini et al. — ESPEN and EASO Consensus on Sarcopenic Obesity Definition and Diagnosis (PubMed, 2022)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35196654/"
-        },
-        {
-          "label": "NICE — Overweight and Obesity Management: Physical Activity and Diet (NG246)",
-          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Physical-activity-and-diet"
-        },
-        {
-          "label": "CDC — Steps for Losing Weight",
-          "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html"
-        },
-        {
-          "label": "Kokura et al. — Enhanced Protein Intake for Maintaining Muscle During Weight Loss: Systematic Review and Meta-analysis (PubMed, 2024)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39002131/"
-        },
-        {
-          "label": "Morton et al. — Protein Supplementation and Resistance-training Gains: Systematic Review and Meta-regression (PubMed, 2018)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/"
-        },
-        {
-          "label": "Resistance Exercise During Dietary Weight Loss in Overweight and Obesity: Systematic Review and Meta-analysis (PMC, 2025)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406911/"
-        },
-        {
-          "label": "WHO — Guidelines on Physical Activity and Sedentary Behaviour",
-          "url": "https://www.who.int/publications/i/item/9789240015128"
-        },
-        {
-          "label": "NHS — Physical Activity Guidelines for Adults Aged 19 to 64",
-          "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/"
-        },
-        {
-          "label": "Cruz-Jentoft et al. — Sarcopenia: Revised European Consensus on Definition and Diagnosis (PMC, 2019)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6322506/"
-        },
-        {
-          "label": "Neeland et al. — Changes in Lean Body Mass With GLP-1-based Therapies and Mitigation Strategies (PubMed, 2024)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
-        },
-        {
-          "label": "Heymsfield et al. — Body-composition Principles and Fat-free Mass Change With GLP-1 Therapies (PubMed, 2024)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39372917/"
-        },
-        {
-          "label": "Gonzalez et al. — Methodological Standards for Body-composition Assessment (PMC, 2026)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197919/"
-        }
+        {"label": "Donini et al. — ESPEN and EASO Consensus on Sarcopenic Obesity Definition and Diagnosis (PubMed, 2022)", "url": "https://pubmed.ncbi.nlm.nih.gov/35196654/"},
+        {"label": "NICE — Overweight and Obesity Management: Physical Activity and Diet (NG246)", "url": "https://www.nice.org.uk/guidance/ng246/chapter/Physical-activity-and-diet"},
+        {"label": "CDC — Steps for Losing Weight", "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html"},
+        {"label": "Kokura et al. — Enhanced Protein Intake for Maintaining Muscle During Weight Loss: Systematic Review and Meta-analysis (PubMed, 2024)", "url": "https://pubmed.ncbi.nlm.nih.gov/39002131/"},
+        {"label": "Morton et al. — Protein Supplementation and Resistance-training Gains: Systematic Review and Meta-regression (PubMed, 2018)", "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/"},
+        {"label": "Resistance Exercise During Dietary Weight Loss in Overweight and Obesity: Systematic Review and Meta-analysis (PMC, 2025)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406911/"},
+        {"label": "WHO — Guidelines on Physical Activity and Sedentary Behaviour", "url": "https://www.who.int/publications/i/item/9789240015128"},
+        {"label": "NHS — Physical Activity Guidelines for Adults Aged 19 to 64", "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/"},
+        {"label": "Cruz-Jentoft et al. — Sarcopenia: Revised European Consensus on Definition and Diagnosis (PMC, 2019)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6322506/"},
+        {"label": "Neeland et al. — Changes in Lean Body Mass With GLP-1-based Therapies and Mitigation Strategies (PubMed, 2024)", "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"},
+        {"label": "Heymsfield et al. — Body-composition Principles and Fat-free Mass Change With GLP-1 Therapies (PubMed, 2024)", "url": "https://pubmed.ncbi.nlm.nih.gov/39372917/"},
+        {"label": "Gonzalez et al. — Methodological Standards for Body-composition Assessment (PMC, 2026)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197919/"}
       ],
-      "tags": {
-        "ar": [
-          "حماية العضلات",
-          "نزول الوزن",
-          "البروتين",
-          "تمارين المقاومة"
-        ],
-        "en": [
-          "muscle preservation",
-          "weight loss",
-          "protein",
-          "resistance exercise"
-        ]
-      },
-      "seo": {
-        "title": {
-          "ar": "إزاي تحافظ على العضلات وإنت بتخس؟",
-          "en": "How to protect muscle while losing weight"
-        },
-        "description": {
-          "ar": "اعرف إزاي تحافظ على العضلات أثناء نزول الوزن بالأكل الكافي والبروتين المناسب وتمارين المقاومة، وإمتى الضعف يحتاج مراجعة طبية.",
-          "en": "Learn how adequate food, suitable protein and resistance exercise help protect muscle during weight loss, and when weakness needs medical review."
-        }
-      }
+      "tags": {"ar": ["حماية العضلات", "نزول الوزن", "البروتين", "تمارين المقاومة"], "en": ["muscle preservation", "weight loss", "protein", "resistance exercise"]},
+      "seo": {"title": {"ar": "إزاي تحافظ على العضلات وإنت بتخس؟", "en": "How to protect muscle while losing weight"}, "description": {"ar": "اعرف إزاي تحافظ على العضلات أثناء نزول الوزن بالأكل الكافي والبروتين المناسب وتمارين المقاومة، وإمتى الضعف يحتاج مراجعة طبية.", "en": "Learn how adequate food, suitable protein and resistance exercise help protect muscle during weight loss, and when weakness needs medical review."}}
     }
   ]
 }
