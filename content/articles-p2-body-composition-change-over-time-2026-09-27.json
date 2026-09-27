@@ -1,0 +1,359 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of body-composition-change-over-time; replaces the entry from content/articles-body-composition-rewrite-2026-09-14.json. Expanded fair longitudinal interpretation, added cited FAQs and booking guidance, and replaced three mismatched PubMed citations.",
+  "articles": [
+    {
+      "slug": "body-composition-change-over-time",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/body-composition-cover.webp",
+      "title": {
+        "ar": "تغيّر تركيب الجسم مع الوقت: إزاي تقرأ القياسات؟",
+        "en": "Body composition change over time: how to read it"
+      },
+      "excerpt": {
+        "ar": "قياسات تركيب الجسم بتفيد لما تقارن نفس الطريقة في ظروف متشابهة وتبص للاتجاه مع القوة والصحة، مش لما تحكم على جسمك من رقم واحد.",
+        "en": "Body-composition measurements help when the same method is compared under similar conditions and read with strength and health trends—not as a verdict from one number."
+      },
+      "sections": [
+        {
+          "id": "what-the-number-estimates",
+          "heading": {
+            "ar": "الرقم تقدير لسؤال محدد",
+            "en": "A number is an estimate for a defined question"
+          },
+          "body": {
+            "ar": "تقرير تركيب الجسم قد يعرض الوزن، كتلة الدهون، الكتلة الخالية من الدهون، ماء الجسم أو تقديراً لدهون البطن. دي مش قياسات متطابقة ولا تشخيصاً منفرداً. تختلف طريقة الحصول على الرقم بين قياس المقاومة الكهربائية الحيوية BIA وقياس DXA والقياسات اليدوية، ولذلك مينفعش مقارنة أي رقمين كما لو كانا يملكان نفس المعنى. [3, 4, 5]\n\nمؤشر كتلة الجسم ومحيط الخصر قد يساعدان في الحديث عن الخطر الصحي على مستوى السكان أو المتابعة، بس هما مش بيحددوا كمية الدهون حوالين كل عضو، ومش بيشرحوا الصحة لوحدهم. لا توجد قراءة منزلية تبرهن وحدها أن شخصاً لديه أو مش لديه دهون حشوية. [1, 2, 6]\n\nابدأ بالسؤال: ما اللي نحاول متابعته؟ قد يكون الهدف معرفة إن كان برنامج غذائي وحركي يحافظ على الكتلة العضلية، أو متابعة تغير الوزن، أو وضع محيط الخصر في سياق ضغط الدم والسكر. السؤال هو اللي يحدد إن كان القياس مفيداً، مش جاذبية الرقم في التطبيق. [2, 7]\n\nببساطة، كلمة «قياس» هنا مش معناها إن الجهاز شاف الدهون أو العضلات مباشرة. أغلب الأجهزة بتقيس خاصية جسدية، زي مقاومة مرور تيار بسيط، وبعدها بتحوّلها لتقدير بمعادلة مبنية على مجموعة مرجعية. عشان كده ممكن جهازين يطلعوا رقمين مختلفين لنفس الشخص في اليوم نفسه، وده مش دليل تلقائي إن واحد منهم بايظ؛ هو تذكير إنك تتابع الاتجاه داخل نفس النظام وتربطه بالسؤال الصحي الأصلي. [3, 4, 5]",
+            "en": "A body-composition report may show weight, fat mass, fat-free mass, body water or an estimate related to abdominal fat. Those are not interchangeable measurements or stand-alone diagnoses. Bioelectrical impedance analysis (BIA), DXA and tape measurements obtain or estimate numbers differently, so two readings should not be compared as if they mean exactly the same thing. [3, 4, 5]\n\nBMI and waist circumference can help frame health risk at a population level or during follow-up, but neither tells us precisely how much fat surrounds each organ or explains health on its own. No home reading by itself proves that a person does or does not have visceral fat. [1, 2, 6]\n\nStart with the question being followed. It might be whether a nutrition and movement plan is preserving lean mass, whether weight is changing, or how waist measurement fits alongside blood pressure and glucose. The question—not the appeal of a number in an app—determines whether a measurement is useful. [2, 7]\n\nIn plain terms, a ‘measurement’ here does not mean the device directly saw fat or muscle. Most devices measure a physical property, such as resistance to a small current, then convert it into an estimate using an equation developed in a reference group. Two devices can therefore give different values for the same person on the same day. That does not automatically mean one is broken; it means the trend should stay within one system and remain tied to the original health question. [3, 4, 5]"
+          }
+        },
+        {
+          "id": "compare-like-with-like",
+          "heading": {
+            "ar": "قارن القياسات المتشابهة فقط",
+            "en": "Compare like with like"
+          },
+          "body": {
+            "ar": "للمقارنة العادلة، استخدم الجهاز نفسه قدر الإمكان، وفي وقت متشابه من اليوم، وبنفس طريقة التحضير اللي أوصى بها المكان. الأكل والشرب والتمرين القريب والدورة الشهرية وتغير السوائل قد تؤثر في بعض طرق القياس، خصوصاً BIA اللي يعتمد في تقديراته على مرور تيار كهربائي بسيط وماء الجسم. ده مش بيخلي الجهاز من غير فايدة؛ بل يحدد مقدار الحذر في تفسير فرق صغير. [4, 5, 8]\n\nالنتيجة المختلفة بعد يوم أو يومين مش معناها إن الدهون زادت أو العضلات اختفت. قبل تغيير خطة غذائية أو علاج بسبب رقم واحد، راجع ظروف القياس والاتجاه في عدة نقاط، وما إذا كان تغير الوزن أو الأعراض أو الأداء يدعمه. القياس المتكرر بلا خطة قد يزيد القلق أكثر مما يزيد الفهم. [4, 7]\n\nإذا كانت المقارنة بين جهازين أو مركزين ضرورية، سجّل اسم الطريقة والتاريخ والظروف بدلاً من دمج السلاسل في رسم واحد. ده يحافظ على فائدة المتابعة من غير ادعاء دقة غير موجودة. [3, 4]\n\nاعمل لنفسك قاعدة سهلة قبل كل مرة: نفس الجهاز، وقت قريب من المعتاد، ملابس متقاربة، وبعد دخول الحمام لو دي تعليمات المكان. سجّل لو كان فيه تمرين قوي، وجبة كبيرة، سفر، مرض قصير أو تورم؛ الحاجات دي بتفسّر ليه قراءة واحدة ممكن تتحرك. مش لازم تحقق ظروف معمل مثالية، بس لازم تعرف إيه اللي اتغيّر عشان المقارنة تبقى أمينة. [3, 4, 8]",
+            "en": "For a fair comparison, use the same device where possible, at a similar time of day and with the preparation instructions given by the centre. Recent food, drinks, exercise, menstrual-cycle timing and fluid shifts can affect some methods, especially BIA, which uses a small electrical current and body-water assumptions in its estimates. That does not make a device useless; it sets the caution needed when reading a small difference. [4, 5, 8]\n\nA different result one or two days later does not mean fat suddenly increased or muscle disappeared. Before changing food, exercise or treatment because of one value, check the measurement conditions, the direction across several points, and whether weight, symptoms or function support the change. Repeated measurement without a plan can increase anxiety more than understanding. [4, 7]\n\nIf comparison between two devices or centres is unavoidable, record the method, date and conditions instead of merging the series into one graph. That protects the value of follow-up without claiming precision the measurement cannot provide. [3, 4]\n\nUse a simple pre-measurement rule: the same device, a similar time, comparable clothing, and after using the toilet if that is part of the centre’s instructions. Record any hard exercise, large meal, travel, short illness or swelling because these can explain why one reading moves. Laboratory-perfect conditions are not required, but knowing what changed makes the comparison more honest. [3, 4, 8]"
+          }
+        },
+        {
+          "id": "waist-is-risk-context",
+          "heading": {
+            "ar": "محيط الخصر سياق للخطر، مش خريطة للدهون",
+            "en": "Waist size is risk context, not a fat map"
+          },
+          "body": {
+            "ar": "محيط الخصر وسيلة بسيطة ومفيدة لو تم بالطريقة نفسها في كل مرة، لكنه مش تصويراً للدهون الحشوية. قد يستخدمه الطبيب مع الوزن وضغط الدم والسكر ودهون الدم والتاريخ الصحي لتقدير الخطر ومناقشة الخطوات المناسبة. تختلف نقاط التفسير حسب الجنس والأصل السكاني والإرشاد المستخدم، وعشان كده لا تتعامل مع حد رقمي واحد كحكم عالمي على صحة فرد. [2, 6, 7]\n\nخذ القياس في موضع متفق عليه وبشريط غير مشدود، وسجّل التاريخ. لا تقارنه بصورة قديمة أو قياس مأخوذ بطريقة مختلفة. إذا تغير محيط الخصر بوضوح أو ظهرت أعراض جديدة، فالسؤال السريري أهم من محاولة تخمين نوع الدهون من شكل البطن. [2, 6]\n\nالسونار قد يجيب عن سؤال محدد مثل مظهر الكبد أو سبب عرض بطني، لكنه مش مسحاً روتينياً لكمية الدهون الحشوية. اختيار التصوير الأفضل أن يتبع سؤالاً سيغير الرعاية. [7, 9]",
+            "en": "Waist circumference is a simple and useful measure when taken the same way each time, but it is not an image of visceral fat. A clinician may read it with weight, blood pressure, glucose, blood lipids and health history to discuss risk and next steps. Interpretive thresholds vary by sex, population background and guidance, so one cut-off should not be treated as a universal verdict on an individual. [2, 6, 7]\n\nMeasure at an agreed site with a non-stretched tape and record the date. Do not compare it with an old photograph or a measurement taken differently. If waist size changes materially or new symptoms appear, the clinical question matters more than guessing the kind of fat from abdominal shape. [2, 6]\n\nUltrasound can answer a defined question, such as liver appearance or a cause of abdominal symptoms, but it is not a routine survey of visceral-fat quantity. Imaging should follow a question that would change care. [7, 9]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الدهون الحشوية",
+                "url": "../articles/qa-visceral-fat-how-to-know.html"
+              },
+              {
+                "label": "السونار",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "visceral fat",
+                "url": "../articles/qa-visceral-fat-how-to-know.html"
+              },
+              {
+                "label": "Ultrasound",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "lean-mass-needs-context",
+          "heading": {
+            "ar": "الكتلة العضلية محتاجة سياق كمان",
+            "en": "Lean mass needs context too"
+          },
+          "body": {
+            "ar": "الأفضل ما تستخدمش تقدير الكتلة العضلية لوعد بأن البرنامج بنى عضلاً أو لإدانة الجسم عند تغير بسيط. تتأثر الكتلة الخالية من الدهون بالماء، وقد تكون الاختلافات القصيرة بين القراءة والأخرى أقرب إلى تغير السوائل أو اختلاف الطريقة من تغير نسيج فعلي. يكتمل المعنى لما تُقرأ النتيجة مع القوة والقدرة على الحركة والنوم والأكل والهدف العلاجي. [3, 4, 5]\n\nعند فقدان الوزن المقصود، قد يهتم الفريق بالوتيرة، مدخول البروتين، التمرين المناسب والحالة الطبية، لا بنسبة دهون مثالية منشورة على الإنترنت. وعند فقدان وزن غير مقصود أو ضعف أو تعب أو تغير شهية، لا تعالج المسألة بمحاولة رفع رقم جهاز فقط؛ تحتاج إلى تقييم للسبب. [7, 10]\n\nيمكن أن تساعد خطة التغذية العلاجية في تحويل نتيجة التقرير إلى سؤال عملي: ما التغيير الآمن اللي نختبره، ومتى نعيد القياس، وما المؤشرات الأخرى اللي تهم؟ ده أفضل من إضافة مكملات أو قيود كثيرة بسبب تقرير واحد. [7, 10]\n\nولو الوزن ثابت، ده مش معناه إن مفيش أي تغيير، وبرده مش معناه إن إعادة توزيع الدهون والعضلات حصلت أكيد. القوة، مقاس الخصر، القدرة على أداء التمرين، انتظام الأكل والقياسات المتكررة مع بعض بيدّوا صورة أوضح. تمارين المقاومة أثناء فقدان الوزن ممكن تساعد في الحفاظ على الكتلة الخالية من الدهون، بس نوع التمرين وشدته لازم يناسبوا حالتك وقدرتك وخطة الطبيب. [6, 7, 11]",
+            "en": "A lean-mass estimate should not be used to promise that a programme built muscle or to judge a body after a small change. Fat-free mass is affected by water, and short-interval differences can reflect fluid shifts or method variation more than a tissue change. Meaning comes from reading the result with strength, function, sleep, food intake and the treatment goal. [3, 4, 5]\n\nDuring intentional weight loss, a team may consider pace, protein intake, suitable exercise and medical context—not an ideal body-fat percentage found online. With unintentional weight loss, weakness, fatigue or appetite change, the answer is not simply trying to raise a device number; the cause needs assessment. [7, 10]\n\nClinical nutrition can turn a report into a practical question: which safe change should be tried, when should measurement be repeated, and what other markers matter? That is more useful than adding many supplements or restrictions because of one report. [7, 10]\n\nA stable body weight does not mean nothing changed, but it also does not prove that fat and muscle were redistributed. Strength, waist size, exercise capacity, consistent food intake and repeated measurements together provide a clearer picture. Resistance exercise during weight loss can help preserve fat-free mass, but its type and intensity need to suit the person’s health, ability and clinician-led plan. [6, 7, 11]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "التغذية العلاجية",
+                "url": "../articles/therapeutic-nutrition-first-visit-guide.html"
+              },
+              {
+                "label": "فقدان الوزن المقصود",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Clinical nutrition",
+                "url": "../articles/therapeutic-nutrition-first-visit-guide.html"
+              },
+              {
+                "label": "intentional weight loss",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "choose-the-right-tool",
+          "heading": {
+            "ar": "اختر الأداة بحسب القرار",
+            "en": "Choose a tool according to the decision"
+          },
+          "body": {
+            "ar": "مفيش جهاز أفضل في كل موقف. قد تكون متابعة الوزن ومحيط الخصر كافية لخطة روتينية، وقد تكون BIA مناسبة للاتجاهات عند ثبات الظروف، وقد يطلب اختصاصي DXA أو فحصاً آخر لسؤال مختلف. الدقة والإتاحة والتعرض للأشعة وسهولة التكرار كلها جزء من القرار، وليست منافسة لإظهار التقرير الأكثر تفصيلاً. [3, 4, 5]\n\nلا تفترض أن فحصاً أدق سيؤدي دائماً إلى خطة أفضل. لو الرقم مش هيغير النصيحة أو المتابعة أو قرار الفحص، قد لا تكون له فائدة عملية. من الجيد أن تسأل قبل الموعد: إيه اللي القياس ده هيغيره؟ ما حدود دقته؟ وهل توجد تحضيرات أو أسباب لتأجيله؟ [3, 7]\n\nالمقالة دي مش ممكن تختار فحص مناسب لشخص بعينه. الحمل، أجهزة مزروعة، أمراض كلوية أو قلبية، أدوية، العمر والهدف الطبي قد تغير ما يناسب الشخص. [3, 4]",
+            "en": "There is no single best device for every situation. Weight and waist follow-up may be enough for a routine plan, BIA may be useful for trends when conditions are consistent, and a specialist may select DXA or another assessment for a different question. Accuracy, availability, radiation exposure and repeatability all belong in the decision; this is not a competition for the most detailed-looking report. [3, 4, 5]\n\nDo not assume a more precise test always produces a better plan. If a number would not change advice, follow-up or a testing decision, it may have little practical value. Before an appointment, it is reasonable to ask what this measurement could change, how accurate it is, and whether preparation or a reason to postpone applies. [3, 7]\n\nThis article cannot choose an individual test. Pregnancy, implanted devices, kidney or heart conditions, medicines, age and the medical goal can change what is appropriate. [3, 4]"
+          }
+        },
+        {
+          "id": "build-a-useful-trend",
+          "heading": {
+            "ar": "ابنِ اتجاهاً يمكن استخدامه",
+            "en": "Build a trend that can be used"
+          },
+          "body": {
+            "ar": "ضع جدولاً للمتابعة يناسب الهدف بدلاً من وزن نفسك أو مسح الجهاز كل يوم. اكتب التاريخ، الطريقة، الظروف، الوزن أو محيط الخصر إن كانا جزءاً من الخطة، وما اللي تغير في النشاط والأكل والنوم والأعراض. بعد عدة نقاط، يصبح ممكناً مناقشة اتجاه بدلاً من رد فعل على رقم عابر. [2, 4, 7]\n\nعرّف مسبقاً ما اللي سيستدعي مراجعة الخطة. قد يكون ده ثباتاً غير متوقع، تعباً، دوخة، فقدان وزن غير مقصود، اضطراباً في الأكل أو تغيراً في التحاليل. ده يجعل المتابعة أداة للرعاية لا مراقبة للجسم. [7, 10]\n\nإذا كان التقرير يسبب قلقاً أو يدفعك إلى تقييد الطعام أو تجنب الحركة، أخبر الفريق. الرقم اللي يضر علاقتك بالطعام أو جسمك يحتاج طريقة استخدام مختلفة أو توقفاً مؤقتاً، لا مزيداً من القياسات. [7, 10]\n\nاتفق من البداية على مدة مراجعة منطقية بدل ما تسأل الجهاز كل يوم. المدة مش رقم ثابت لكل الناس؛ بتتحدد حسب الهدف، طريقة القياس، سرعة التغيير المتوقعة وهل النتيجة هتغيّر قرار فعلاً. لو الفروق أصغر من التذبذب المعتاد للجهاز أو حصلت في ظروف مختلفة، الأفضل تعتبرها ضوضاء محتملة لحد ما الاتجاه يتكرر. [3, 4, 7]",
+            "en": "Set a follow-up schedule that fits the goal rather than weighing or scanning every day. Record the date, method, conditions, weight or waist if they are part of the plan, and what changed in activity, food, sleep and symptoms. After several points, a trend can be discussed instead of reacting to a passing number. [2, 4, 7]\n\nDefine in advance what would trigger a review. That might be an unexpected plateau, fatigue, dizziness, unintentional loss, distress around eating or a change in laboratory results. This makes follow-up a care tool rather than body surveillance. [7, 10]\n\nIf a report is increasing anxiety or driving food restriction or avoidance of movement, tell the team. A number that harms a relationship with food or body needs a different use—or a pause—not more measurement. [7, 10]\n\nAgree on a sensible review interval instead of asking the device for an answer every day. There is no single interval for everyone; it depends on the goal, the method, the expected pace of change and whether the result would alter a decision. If differences are smaller than the device’s usual variation or were obtained under different conditions, treat them as possible noise until the direction repeats. [3, 4, 7]"
+          }
+        },
+        {
+          "id": "when-the-context-changes",
+          "heading": {
+            "ar": "متى يحتاج الرقم إلى سياق طبي أوسع؟",
+            "en": "When does a number need broader medical context?"
+          },
+          "body": {
+            "ar": "لا تفسر تغير تركيب الجسم بعيداً عن بقية الصحة. احتباس السوائل أو تورم جديد، ضعف ملحوظ، فقدان شهية، تعب غير معتاد أو تغير سريع غير مقصود في الوزن مش مشكلات تقرير أو تطبيق يقدر يحلها. قد يحتاج الأمر إلى تاريخ مرضي وفحص وتحاليل موجهة، لأن المعنى يعتمد على السبب والأدوية والحالة الطبية، لا على نسبة واحدة. [7, 10]\n\nوبالمثل، لا تجعل قراءة مقبولة تؤجل مناقشة عرض جديد. ضغط الدم أو السكر أو دهون الدم أو آلام البطن أو ضيق النفس لها مسارات تقييمها الخاصة. القياس قد يكون جزءاً من المتابعة، لكنه مش بيستبدل التقييم السريري ولا يحدد أولوية الرعاية. [2, 7, 10]\n\nلما يستخدم الشخص التقرير مع فريقه، يمكن أن يصبح وسيلة ألطف وأكثر دقة: ملاحظة اتجاه، اختبار تغيير معقول، ثم مراجعة أثره على الحياة والصحة بدلاً من محاكمة الجسم. [4, 7]",
+            "en": "Do not interpret a body-composition change apart from the rest of health. Fluid retention or new swelling, marked weakness, appetite loss, unusual fatigue or rapid unintentional weight change are not problems a report or an app can solve. They may need history, examination and targeted tests because meaning depends on cause, medicines and medical context—not one percentage. [7, 10]\n\nLikewise, a reassuring-looking reading should not delay discussion of a new symptom. Blood pressure, glucose, blood lipids, abdominal pain and breathlessness each have their own assessment paths. A measurement can be part of follow-up, but it does not replace clinical assessment or determine how urgent care is. [2, 7, 10]\n\nUsed with a care team, a report can become a calmer, more precise tool: notice a trend, test a reasonable change, then review its effect on daily life and health rather than judging a body. [4, 7]"
+          }
+        },
+        {
+          "id": "bring-the-right-questions",
+          "heading": {
+            "ar": "اذهب بأسئلة واضحة",
+            "en": "Bring clear questions to follow-up"
+          },
+          "body": {
+            "ar": "هات التقارير السابقة لو موجودة، بس متفترضش إن كل رقم لازم يتحسن في الاتجاه نفسه. اسأل: ما الهدف الصحي اللي نتابعه؟ هل قورنت النتائج بالطريقة نفسها؟ ما حجم التغير اللي يستحق الانتباه؟ ونعمل إيه لو الهدف متحققش؟ دي الأسئلة تربط التقرير بقرار قابل للتنفيذ. [3, 4, 7]\n\nاطلب تقييماً أسرع إذا كان هناك ألم شديد أو عرض جديد ومقلق أو إغماء أو جفاف أو فقدان وزن غير مقصود مستمر؛ تقرير تركيب الجسم مش بيفسر الأعراض دي. المتابعة الجيدة تترك خطوة تالية واضحة وتعرف متى تحتاج الأعراض إلى رعاية بدلاً من انتظار القياس القادم. [7, 10]\n\nالفكرة مش الوصول إلى نسبة مثالية أو مظهر واحد. الهدف واقعي وصحي ومراجعته ممكنة: دعم الوظيفة، تقليل الخطر في سياقه، وتجنب الوعود اللي أي جهاز مش هيقدر يأكدها. [1, 2, 7]\n\nلو محتاج تربط الأرقام بهدف صحي وخطوة قابلة للمراجعة، تقدر تطلب حجز موعد لمراجعة قياسات تركيب الجسم. في العيادة، القرار يبدأ من التاريخ الصحي والأعراض والهدف، وبعدها يتحدد هل القياس الحالي مفيد، وإمتى يتكرر، وإيه المؤشرات التانية اللي تستحق المتابعة. ده مش وعد بنتيجة معينة، والقرار الفردي يفضل مع الطبيب المعالج. [7, 10, 12]",
+            "en": "Bring earlier reports if available, but do not assume every number should improve in the same direction. Ask: which health goal are we following, were results compared with the same method, what size of change deserves attention, and what happens if the goal is not met? Those questions connect a report to an actionable decision. [3, 4, 7]\n\nSeek earlier assessment for severe pain, a new worrying symptom, fainting, dehydration or continuing unintentional weight loss; a body-composition report does not explain those symptoms. Good follow-up leaves a clear next step and identifies when symptoms need care rather than waiting for the next measurement. [7, 10]\n\nThe purpose is not an ideal percentage or one appearance. It is a realistic, health-centred goal that can be reviewed: support function, reduce risk in context, and avoid promises no device can confirm. [1, 2, 7]\n\nIf you need to connect the numbers to a health goal and a reviewable next step, you can book an appointment to review body-composition measurements. At the clinic, the decision starts with health history, symptoms and the goal; only then can the team decide whether the current measurement is useful, when to repeat it and which other markers matter. This is not a promise of a particular result, and individual decisions remain with the treating clinician. [7, 10, 12]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حجز موعد لمراجعة قياسات تركيب الجسم",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book an appointment to review body-composition measurements",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل جهاز تركيب الجسم بيقيس الدهون الحشوية مباشرة؟",
+            "en": "Does a body-composition device directly measure visceral fat?"
+          },
+          "a": {
+            "ar": "لأ. بعض الأجهزة بتعرض تقديراً مرتبطاً بدهون البطن، بس ده مش صورة مباشرة للدهون حوالين الأعضاء. المعادلة والجهاز وشكل الجسم كلهم بيأثروا في التقدير، فاقرأه مع محيط الخصر وعوامل الخطر، ومتحوّلوش لتشخيص لوحده. [3, 5, 6]",
+            "en": "No. Some devices display an estimate related to abdominal fat, but it is not a direct image of fat around the organs. The equation, device and body shape all affect that estimate, so read it alongside waist size and risk factors rather than turning it into a diagnosis by itself. [3, 5, 6]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل نتيجة واحدة كفاية عشان أغيّر الخطة؟",
+            "en": "Is one result enough to change a plan?"
+          },
+          "a": {
+            "ar": "غالباً لأ. راجع الجهاز ووقت القياس والأكل والشرب والتمرين وأي تغيّر في السوائل، وبعدها شوف هل نفس الاتجاه اتكرر وهل القوة أو الخصر أو التحاليل ماشية معاه. تغيير كبير بسبب قراءة منفردة ممكن يبقى رد فعل على تذبذب القياس، إلا لو الطبيب شايف سبب سريري واضح. [3, 4, 8]",
+            "en": "Usually not. Check the device, timing, food, drink, exercise and any fluid change, then ask whether the direction repeated and whether strength, waist or laboratory results support it. A major change based on one reading may be a reaction to measurement variation unless the clinician identifies a clear clinical reason. [3, 4, 8]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إزاي الوزن يثبت والدهون أو الكتلة الخالية من الدهون تتغيّر؟",
+            "en": "How can weight stay stable while fat or fat-free mass changes?"
+          },
+          "a": {
+            "ar": "الوزن هو مجموع مكونات كتير، منها الماء والدهون والأنسجة الخالية من الدهون ومحتوى الجهاز الهضمي. ممكن مكوّن يزيد والتاني يقل، وممكن الجهاز نفسه يفسّر تغيّر الماء كتغيّر في الكتلة الخالية من الدهون. عشان تعرف الفرق الحقيقي، محتاج قياسات متكررة في ظروف ثابتة ومعاها القوة والخصر والسياق الصحي. [3, 4, 8]",
+            "en": "Body weight combines water, fat, fat-free tissues and digestive contents. One component can rise while another falls, and a device may interpret a water shift as a change in fat-free mass. Repeated measurements under consistent conditions, together with strength, waist and health context, are needed to judge whether the difference is meaningful. [3, 4, 8]"
+          }
+        },
+        {
+          "q": {
+            "ar": "كل قد إيه أكرر قياس تركيب الجسم؟",
+            "en": "How often should body composition be measured?"
+          },
+          "a": {
+            "ar": "مفيش جدول واحد مناسب للكل. التكرار يتحدد حسب الهدف وطريقة القياس والمدة اللي متوقع يظهر فيها تغيير حقيقي، وكمان هل النتيجة هتغيّر قرار في الخطة. القياس اليومي غالباً بيكبّر الضوضاء والقلق؛ اتفق مع الطبيب أو أخصائي التغذية على موعد مراجعة له معنى. [3, 4, 7]",
+            "en": "There is no universal schedule. Frequency depends on the goal, the measurement method, the time needed for a real change to emerge and whether the result would change the plan. Daily scanning often magnifies noise and anxiety, so agree on a meaningful review point with the treating clinician or nutrition professional. [3, 4, 7]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الشرب أو الأكل أو التمرين قبل القياس يغيّر النتيجة؟",
+            "en": "Can food, drink or exercise before measurement change the result?"
+          },
+          "a": {
+            "ar": "آه، خصوصاً مع أجهزة BIA اللي بتبني تقديرها على توصيل الكهرباء وماء الجسم. الأكل والسوائل والتمرين وتوزيع الماء خلال اليوم ممكن يحرّكوا القراءة، بس حجم التأثير مش واحد في كل جهاز أو شخص. اتبع تعليمات المكان وكرر القياس في ظروف متشابهة بدل ما تحاول تصحح الرقم بنفسك. [3, 4, 8]",
+            "en": "Yes, especially with BIA devices that estimate composition from electrical conduction and body water. Food, fluids, exercise and fluid distribution across the day can shift a reading, although the size of the effect differs by device and person. Follow the centre’s instructions and repeat under similar conditions rather than trying to correct the number yourself. [3, 4, 8]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى تغيّر الوزن أو تركيب الجسم يحتاج مراجعة طبية أسرع؟",
+            "en": "When does a weight or body-composition change need earlier medical review?"
+          },
+          "a": {
+            "ar": "اطلب تقييماً أسرع لو فيه فقدان وزن مستمر من غير قصد، تورم جديد أو بيزيد، ضعف واضح، إغماء، ضيق نفس، ألم شديد، جفاف أو فقدان شهية مستمر. دي أعراض محتاجة تقييم السبب، ومش المفروض تستنى القياس الجاي عشان تفسرها. لو الأعراض شديدة أو مفاجئة، اتبع مسار الرعاية العاجلة المحلي. [10, 12]",
+            "en": "Seek earlier assessment for continuing unintentional weight loss, new or worsening swelling, marked weakness, fainting, breathlessness, severe pain, dehydration or persistent appetite loss. These symptoms need assessment of their cause and should not wait for the next scan. If symptoms are severe or sudden, use the local urgent-care pathway. [10, 12]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": {
+            "ar": "مراكز مكافحة الأمراض والوقاية منها: فئات مؤشر كتلة الجسم للبالغين",
+            "en": "CDC: Adult BMI Categories"
+          },
+          "url": "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html"
+        },
+        {
+          "label": {
+            "ar": "منظمة الصحة العالمية: محيط الخصر ونسبة الخصر إلى الورك",
+            "en": "WHO: Waist Circumference and Waist-Hip Ratio"
+          },
+          "url": "https://www.who.int/publications/i/item/9789241501491"
+        },
+        {
+          "label": {
+            "ar": "دليل خبراء لطرق تقييم تركيب الجسم واستخدامها السريري",
+            "en": "Expert guide: Methodological standards for body-composition assessment"
+          },
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197919/"
+        },
+        {
+          "label": {
+            "ar": "مراجعة: دقة واستخدام وتوحيد قياس المقاومة الكهربائية الحيوية",
+            "en": "Ward: BIA accuracy, clinical utility and standardisation"
+          },
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30297760/"
+        },
+        {
+          "label": {
+            "ar": "دراسة مقارنة أجهزة BIA الاستهلاكية بالرنين وDXA",
+            "en": "Study: Consumer BIA devices compared with MRI and DXA"
+          },
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6452160/"
+        },
+        {
+          "label": {
+            "ar": "بيان توافقي: محيط الخصر كعلامة حيوية في الممارسة",
+            "en": "Consensus statement: Waist circumference as a vital sign"
+          },
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32020062/"
+        },
+        {
+          "label": {
+            "ar": "NICE: تقييم وإدارة زيادة الوزن والسمنة",
+            "en": "NICE: Overweight and obesity management (NG246)"
+          },
+          "url": "https://www.nice.org.uk/guidance/ng246"
+        },
+        {
+          "label": {
+            "ar": "تجربة عشوائية: تأثير تناول السوائل على قياس BIA",
+            "en": "Trial: Acute fluid intake and BIA body-composition assessment"
+          },
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10143694/"
+        },
+        {
+          "label": {
+            "ar": "NHS: فحص الموجات فوق الصوتية",
+            "en": "NHS: Ultrasound scan"
+          },
+          "url": "https://www.nhs.uk/tests-and-treatments/ultrasound-scan/"
+        },
+        {
+          "label": {
+            "ar": "NHS: فقدان الوزن غير المقصود",
+            "en": "NHS: Unintentional weight loss"
+          },
+          "url": "https://www.nhs.uk/symptoms/unintentional-weight-loss/"
+        },
+        {
+          "label": {
+            "ar": "مراجعة منهجية: تمارين المقاومة أثناء فقدان الوزن",
+            "en": "Systematic review: Resistance exercise during dietary weight loss"
+          },
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40909191/"
+        },
+        {
+          "label": {
+            "ar": "NHS: تورم الساقين واحتباس السوائل",
+            "en": "NHS: Swollen ankles, feet and legs (oedema)"
+          },
+          "url": "https://www.nhs.uk/conditions/oedema/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "تركيب الجسم",
+          "دهون الجسم",
+          "محيط الخصر",
+          "تغذية علاجية"
+        ],
+        "en": [
+          "body composition",
+          "body fat",
+          "waist circumference",
+          "clinical nutrition"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "تركيب الجسم مع الوقت: إزاي تقرأ التغيير؟",
+          "en": "Body composition over time: reading change fairly"
+        },
+        "description": {
+          "ar": "دليل عملي لفهم قياسات تركيب الجسم مع الوقت، ومقارنة الدهون والكتلة العضلية ومحيط الخصر بعدل، ومعرفة إمتى التغيير يحتاج مراجعة طبية.",
+          "en": "A practical guide to tracking body composition over time, comparing fat, lean mass and waist fairly, and knowing when a change needs medical review."
+        }
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا الدليل عشان يشرح تغيّر تركيب الجسم مع الوقت، وثبّتْنا طريقة المقارنة وعلامات المراجعة، واتراجع طبياً من جديد.",
+            "en": "We expanded the guide to explain body-composition change over time, standardised fair comparison and review triggers, and medically re-reviewed it."
+          }
+        }
+      ]
+    }
+  ]
+}

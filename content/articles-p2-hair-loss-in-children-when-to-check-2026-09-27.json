@@ -1,0 +1,209 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of hair-loss-in-children-when-to-check; replaces the entry from content/articles-hair-loss-children-rewrite-2026-09-21.json. Expanded pattern-based assessment, common causes, targeted testing, red flags, FAQs, verified sources and internal links, with corrected paediatrics reviewer.",
+  "articles": [
+    {
+      "slug": "hair-loss-in-children-when-to-check",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": ["pediatrics", "dermatology", "clinical-nutrition"],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا شرح أشكال تساقط الشعر عند الأطفال وأسبابه وخطوات التقييم وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the patterns, causes, assessment steps and warning signs of hair loss in children, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "image": "assets/img/articles/hair-loss-blood-tests-first.webp",
+      "title": {
+        "ar": "تساقط الشعر عند الأطفال: إمتى يحتاج كشف؟",
+        "en": "Hair loss in children: when does it need a check?"
+      },
+      "excerpt": {
+        "ar": "تساقط الشعر عند الأطفال له أشكال وأسباب مختلفة. اعرف إيه اللي تلاحظه في الفروة، وإمتى يحتاج كشفاً قريباً أو تقييماً عاجلاً.",
+        "en": "Hair loss in children has several patterns and causes. Learn what to notice on the scalp and when a routine, prompt or urgent assessment is appropriate."
+      },
+      "sections": [
+        {
+          "id": "start-with-pattern",
+          "heading": {
+            "ar": "شكل تساقط الشعر عند الطفل هو أول دليل",
+            "en": "The pattern of a child's hair loss is the first clue"
+          },
+          "body": {
+            "ar": "وجود شعر على المخدة أو في المشط مش تشخيص لوحده. المهم تسأل: هل فيه بقعة محددة ولا الخفة منتشرة في الفروة كلها؟ الشعر واقع من الجذر ولا مكسور بأطوال مختلفة؟ الجلد ناعم وطبيعي، ولا فيه قشور أو احمرار أو حكة أو ألم؟ وهل الرموش أو الحواجب أو الأظافر اتغيروا؟ القصة والفحص بيساعدوا الطبيب يقسم المشكلة إلى تساقط موضعي أو منتشر، ومع ندبة أو من غير ندبة، وده أذكى من عدّ كل شعرة وقعت [1, 2, 7, 8].\n\nفي أول شهور العمر، سقوط جزء من شعر المولود شائع، وممكن يبقى أوضح خلف الرأس بسبب دورة الشعر والاحتكاك، وغالباً بيرجع ينمو. لكن بقعة موجودة من الولادة، جلد لامع أو متندب، أو تساقط مستمر بعد مرحلة الرضاعة يستحق تقييم [1]. في الطفل الأكبر، صوّر المكان كل أسبوعين تقريباً بنفس الإضاءة ومن غير شد الشعر، وسجل بداية التغير وأي مرض أو حرارة أو دواء جديد أو تسريحة مشدودة. ما تعملش اختبار شد قوي في البيت؛ لأن الشعر الهش ممكن يتكسر ويشوّش الصورة. أغلب أسباب تساقط شعر الأطفال غير ندبية ويمكن التعامل معاها لما السبب يتحدد، بس كلمة «تساقط» لوحدها ما تقولش العلاج المناسب [2, 7, 8, 11].",
+            "en": "Hair on a pillow or in a brush is not a diagnosis by itself. Ask whether there is one defined patch or thinning across the whole scalp. Is hair coming away from the root or breaking at different lengths? Is the skin smooth and normal, or scaly, red, itchy or painful? Have the eyelashes, eyebrows or nails changed? History and examination help the clinician classify loss as focal or diffuse and scarring or nonscarring; that is more useful than counting every shed hair [1, 2, 7, 8].\n\nDuring the first months of life, losing some newborn hair is common and may be most visible at the back because of the hair cycle and friction; it usually grows again. A patch present from birth, shiny or scarred skin, or continuing loss beyond infancy deserves assessment [1]. In an older child, take a photograph about every two weeks in similar light without pulling the hair, and note when the change began, recent illness or fever, new medicines and tight hairstyles. Do not perform a forceful pull test at home because fragile hair may break and confuse the pattern. Most childhood causes are nonscarring and can be managed once identified, but the word “shedding” alone cannot select the right treatment [2, 7, 8, 11]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "scaly-patches-tinea",
+          "heading": {
+            "ar": "بقعة بقشور وشعر مكسور: فطريات الفروة احتمال مهم",
+            "en": "A scaly patch with broken hairs: scalp ringworm matters"
+          },
+          "body": {
+            "ar": "سعفة فروة الرأس أو تينيا كابيتس عدوى فطرية بتظهر غالباً في سن المدرسة وقبلها. ممكن تعمل بقعة رمادية عليها قشور، قشرة منتشرة شبه قشرة الشعر العادية، نقط سودة من شعر مكسور عند سطح الجلد، حكة، أو غدد متضخمة خلف الرقبة. الشكل مش دايماً حلقة واضحة، وعشان كده ممكن تتلخبط مع الإكزيما أو القشرة. النوع الملتهب ممكن يعمل كتلة طرية ومؤلمة اسمها كيريون، وأحياناً إفرازات؛ التأخير الشديد في الحالة الملتهبة يرفع احتمال الندبة وفقد الشعر الدائم [2, 3, 9].\n\nالعدوى ممكن تنتقل بالمخالطة أو مشاركة المشط والقبعة والفوطة، وأحياناً من حيوان مصاب. ما تشاركوش الأدوات الشخصية، ونضفوا الأمشاط حسب إرشاد الطبيب، وافحصوا الحيوان عند البيطري لو عنده بقع شعر ناقصة. شامبو أو كريم فطريات لوحده ما بيوصلش للعدوى داخل جذر الشعرة؛ علاج سعفة الفروة عادة محتاج دواء بالفم يختاره الطبيب حسب الطفل ونوع الفطر، وقد يضيف شامبو لتقليل الانتقال [1, 3, 9]. الطبيب ممكن يستخدم منظار جلد أو يفحص شعر وقشور بمحلول هيدروكسيد البوتاسيوم ويطلب مزرعة فطريات. ما تبدأش كورتيزون أو خلطة زيت على بقعة ملتهبة قبل الكشف، لأن الشكل ممكن يهدأ مؤقتاً بينما السبب مستمر. كتلة مؤلمة طرية، صديد، حرارة، أو طفل باين عليه التعب محتاج تقييماً سريعاً في نفس اليوم [2, 3].",
+            "en": "Tinea capitis, or scalp ringworm, is a fungal infection seen mainly in preschool and school-age children. It may cause a grey scaly patch, diffuse scale that resembles ordinary dandruff, black dots where hairs have broken at skin level, itch, or enlarged glands at the back of the neck. It does not always form a clear ring and can be mistaken for eczema or dandruff. An inflammatory form can produce a tender boggy swelling called a kerion, sometimes with discharge; substantial delay in an inflamed case increases the risk of scarring and permanent loss [2, 3, 9].\n\nInfection can spread through close contact, shared combs, hats or towels, and sometimes from an infected animal. Do not share personal items, clean combs as the clinician advises, and seek veterinary assessment if a pet has missing-fur patches. Antifungal shampoo or cream alone cannot reach infection inside the hair root. Scalp ringworm generally needs an oral medicine selected by the clinician for the child and likely fungus, with shampoo sometimes added to reduce spread [1, 3, 9]. The clinician may use a dermatoscope, examine hairs and scale with potassium hydroxide, or request fungal culture. Do not apply a steroid or oil mixture to an inflamed patch before assessment because its appearance may briefly settle while the cause remains. A painful boggy swelling, pus, fever, or a child who seems unwell needs prompt same-day assessment [2, 3]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "smooth-patches-alopecia-areata",
+          "heading": {
+            "ar": "بقعة ناعمة من غير قشور: الثعلبة المناعية مش عدوى",
+            "en": "A smooth patch without scale: alopecia areata is not an infection"
+          },
+          "body": {
+            "ar": "الثعلبة المناعية بتحصل لما المناعة تهاجم بصيلة الشعر، فغالباً تظهر بقعة أو أكتر مستديرة أو بيضاوية، ناعمة، ومن غير قشور أو صديد. ممكن الطبيب يلاقي شعرات قصيرة أرفع ناحية الفروة، أو نقط دقيقة في الأظافر. الحالة مش معدية ومش بسبب قلة النظافة، ومش ذنب الطفل أو الأهل. أحياناً تمتد للرموش أو الحواجب أو مساحة أكبر من فروة الرأس، ومسارها صعب التوقع: شعر أطفال كتير بيرجع ينمو، لكن ممكن تظهر بقع جديدة أو يحصل تكرار [1, 4, 5].\n\nطبيب الأطفال أو الجلدية غالباً يقدر يشخص النمط بالفحص ومنظار الجلد، والخزعة نادراً ما تكون مطلوبة في الطفل. التحاليل مش باقة ثابتة لكل حالة؛ الطبيب يطلبها لو القصة أو الفحص يوحوا بمشكلة مصاحبة زي اضطراب الغدة أو نقص محدد [2, 5, 7]. قرار المتابعة أو العلاج بيعتمد على عمر الطفل، مساحة ومدة التساقط، الأماكن المصابة، وتأثير الحالة عليه. ممكن تكون المراقبة مناسبة لبقع محدودة حديثة، وممكن يقترح طبيب الجلدية علاجاً موضعياً أو خيارات تانية للحالات الأوسع؛ ما تستخدمش علاج شخص بالغ أو مينوكسيديل أو كورتيزون من نفسك. اسأل الطفل بهدوء عن التعليقات أو التنمر، وسيبه يختار إزاي يتعامل مع شكل البقعة، لأن الدعم النفسي جزء حقيقي من الرعاية مش تفصيلة جانبية [2, 5].",
+            "en": "Alopecia areata occurs when the immune system attacks hair follicles. It usually causes one or more round or oval smooth patches without scale or pus. A clinician may see short hairs that narrow toward the scalp or fine pits in the nails. It is not contagious, is not caused by poor hygiene and is nobody's fault. It can involve eyelashes, eyebrows or a larger scalp area, and its course is difficult to predict: many children regrow hair, but new patches or recurrence can occur [1, 4, 5].\n\nA paediatrician or dermatologist can often recognize the pattern by examination and dermoscopy; biopsy is rarely required in a child. Blood tests are not a fixed panel for every case. They are selected when the history or examination suggests an associated issue such as thyroid disease or a specific deficiency [2, 5, 7]. Observation or treatment depends on the child's age, extent and duration of loss, affected sites and impact on the child. Watching a recent limited patch may be appropriate, whereas a dermatologist may discuss topical or other options for broader disease. Do not use an adult's medicine, minoxidil or a steroid without clinical direction. Ask the child calmly about comments or bullying and give them a voice in how the patch is handled; psychosocial support is a real part of care rather than an optional extra [2, 5]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "traction-breakage-pulling",
+          "heading": {
+            "ar": "الشد والتكسر ونتف الشعر ليهم أشكال مختلفة",
+            "en": "Traction, breakage and hair pulling have different patterns"
+          },
+          "body": {
+            "ar": "الضفائر والكعكة وذيل الحصان المشدودين باستمرار ممكن يعملوا ثعلبة الشد، خصوصاً عند خط الشعر والجوانب. الألم أو لسعة الفروة أثناء التسريحة معناهم إنها مشدودة زيادة. في المرحلة المبكرة، تخفيف الشد وتغيير مكان التسريحة وترك الشعر يرتاح بيدي فرصة للتحسن؛ لكن الشد المزمن ممكن يعمل ندبة وفقد دائم. اختار تسريحات أريح، وفك أي تسريحة مؤلمة فوراً، وقلل الحرارة والفرد الكيميائي على شعر متكسر [1, 6, 12]. ده مش معناه منع كل ضفيرة، لكن معناه إن الراحة أهم من شكل ثابت بيتكرر كل يوم.\n\nهوس نتف الشعر بيعمل بقع غير منتظمة فيها شعر مكسور بأطوال مختلفة، وغالباً الجلد تحتها طبيعي. الطفل الصغير ممكن يلف أو يشد الشعر من غير وعي وقت النوم أو التركيز، بينما الطفل الأكبر ممكن يخبي السلوك بسبب إحراج أو توتر. ما تعاقبوش وما تحولش الكشف لتحقيق؛ الطبيب لازم يفرق بين النتف وبين الفطريات والثعلبة وأسباب التكسر، وبعدها الدعم السلوكي أو النفسي يتحدد حسب السن وتأثير العادة [1, 2]. التكسر ممكن يحصل كمان من حرارة متكررة أو احتكاك أو تعامل خشن مع الشعر المبلول. وجود حواجب أو رموش ناقصة، جروح، أكل الشعر، ألم بطن، أو تأثير واضح على المدرسة والمزاج يستحق ذكره للطبيب بصراحة عشان الخطة تبقى آمنة ومتكاملة [2, 8].",
+            "en": "Repeatedly tight braids, buns and ponytails can cause traction alopecia, especially along the hairline and sides. Pain or scalp stinging during styling means it is too tight. At an early stage, reducing tension, changing the position of styles and allowing hair to rest gives recovery a chance; long-standing traction can scar and become permanent. Choose more comfortable styles, undo a painful style immediately, and reduce heat or chemical straightening on breaking hair [1, 6, 12]. This does not mean banning every braid; it means comfort matters more than a fixed style repeated every day.\n\nTrichotillomania produces irregular patches containing broken hairs of different lengths, often over normal-looking skin. A young child may twist or pull without awareness while falling asleep or concentrating, whereas an older child may hide the behaviour through embarrassment or stress. Do not punish the child or turn the visit into an interrogation. The clinician first distinguishes pulling from fungal infection, alopecia areata and other causes of breakage, then considers behavioural or mental-health support according to age and impact [1, 2]. Breakage can also follow repeated heat, friction or rough handling of wet hair. Missing eyebrows or lashes, skin wounds, eating pulled hair, abdominal pain, or a clear effect on school or mood should be mentioned honestly so care can be safe and coordinated [2, 8]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "diffuse-shedding-health-nutrition",
+          "heading": {
+            "ar": "التساقط المنتشر بعد المرض أو مع مشكلة صحية",
+            "en": "Diffuse shedding after illness or with a health problem"
+          },
+          "body": {
+            "ar": "التساقط الكربي أو تيلوجين إفلوفيوم بيخلّي الشعر يخف من الفروة كلها بدل بقعة صلع واضحة. غالباً يبدأ بعد حرارة عالية، مرض ملحوظ، عملية، ضغط جسدي، أو تغير غذائي بفترة؛ التأخير بين المسبب والتساقط بيخلي العلاقة مش واضحة للأهل. الفروة نفسها عادة تبقى طبيعية، والشعر الجديد يبان تدريجياً لما دورة النمو تتوازن، لكن التشخيص لازم يفرق بينه وبين تكسر الشعر أو بداية سبب تاني [1, 2, 7, 8]. دوّن المرض والأدوية والتغيرات اللي حصلت في الشهور السابقة بدل ما تركز على آخر كام يوم بس.\n\nنقص الحديد واحد من الاحتمالات، لكنه مش تفسير تلقائي لكل تساقط. شحوب أو تعب أو أكل محدود أو دورة غزيرة عند المراهق ممكن يخلوا التحليل منطقياً، ودليل نقص الحديد عند الأطفال بيفصل الأعراض والتحاليل والعلاج من غير ما نكرر الموضوع هنا [2, 8, 11]. تباطؤ الطول أو الوزن، إسهال مزمن، ألم بطن متكرر، تغير البلوغ، أعراض غدة، أو مرض مزمن يوجّهوا التقييم ناحية صحة الطفل كلها؛ شرح منحنى نمو الطفل كمسار مش رقم واحد يساعدك تجمع القياسات القديمة قبل الزيارة. الطبيب ممكن يختار صورة دم ومخزون حديد أو وظائف غدة أو تحاليل تانية حسب القصة والفحص، مش كقائمة ثابتة لكل طفل [2, 7, 8]. ما تبدأش حديد أو زنك أو فيتامين لمجرد وجود شعر في المشط، لأن الجرعة والاحتياج لازم يتأكدوا الأول.",
+            "en": "Telogen effluvium causes thinning across the scalp rather than one clear bald patch. It often begins some time after a high fever, significant illness, surgery, physical stress or nutritional change; the delay between trigger and shedding makes the connection easy to miss. The scalp itself usually looks normal and new growth appears gradually as the hair cycle settles, but assessment must distinguish this pattern from breakage or another emerging cause [1, 2, 7, 8]. Record illnesses, medicines and changes over the preceding months instead of focusing only on the last few days.\n\nIron deficiency is one possibility, not the automatic explanation for every shed hair. Pallor, tiredness, a very restricted diet or heavy periods in an adolescent may make testing reasonable, and our guide to iron deficiency in children covers symptoms, tests and treatment without duplicating that topic here [2, 8, 11]. Slower height or weight gain, chronic diarrhoea, recurrent abdominal pain, altered puberty, thyroid symptoms or chronic illness direct attention to the child's overall health; reading a child's growth curve as a trajectory, not one number can help you gather earlier measurements before the visit. A clinician may choose a blood count, ferritin, thyroid studies or other tests according to the history and examination, not as a fixed panel for every child [2, 7, 8]. Do not start iron, zinc or a vitamin merely because hair appears in the brush; need and dose must be established first."
+          },
+          "links": {
+            "ar": [
+              {"label": "دليل نقص الحديد عند الأطفال", "url": "../articles/iron-deficiency-in-children.html"},
+              {"label": "شرح منحنى نمو الطفل كمسار مش رقم واحد", "url": "../articles/child-growth-is-a-trajectory.html"}
+            ],
+            "en": [
+              {"label": "guide to iron deficiency in children", "url": "../articles/iron-deficiency-in-children.html"},
+              {"label": "reading a child's growth curve as a trajectory, not one number", "url": "../articles/child-growth-is-a-trajectory.html"}
+            ]
+          }
+        },
+        {
+          "id": "assessment-targeted-care",
+          "heading": {
+            "ar": "الكشف يختار التحاليل والعلاج، مش العكس",
+            "en": "The examination selects tests and treatment, not the reverse"
+          },
+          "body": {
+            "ar": "في الزيارة، الطبيب بيسأل عن بداية التساقط وسرعته، مرض أو حرارة أو عملية، أدوية ومكملات، الأكل، النمو، الدورة عند المراهق، تاريخ العيلة، التسريحات، الحكة وعادات النتف. الفحص يشمل الفروة والشعر والحواجب والرموش والأظافر والجلد، وقد يشمل الوزن والطول وعلامات عامة. منظار الجلد واختبار شد بسيط وفحص الفطريات أدوات بتتحدد حسب الشكل؛ الخزعة أو التحاليل الواسعة مش خطوة أولى معتادة لكل طفل [2, 7, 8, 12]. خد صور التطور، وأسماء كل منتج ودواء، ونتائج قديمة بدل ما تبدأ حاجات جديدة قبل الموعد.\n\nالعلاج يتبع السبب: مضاد فطريات بالفم لسعفة مؤكدة أو مرجحة يختاره الطبيب، تخفيف الشد لثعلبة الشد، دعم سلوكي للنتف، أو خطة جلدية للثعلبة المناعية [1, 2, 3, 5, 6]. الأكل المتنوع مهم للصحة، ومقال الأكل الغني بالحديد للأطفال فيه أفكار عملية لو أكل الطفل محدود، لكنه مش وصفة لعلاج كل أنواع التساقط. مكملات البيوتين بيتم تسويقها للشعر رغم إن الدليل عند غير المصاب بنقص ضعيف، والجرعات العالية ممكن تدي نتائج خاطئة في بعض التحاليل ومنها تحاليل هرمونات؛ لازم تقول للطبيب والمعمل عن أي مكمل [10]. كمان الزيوت والخلطات ممكن تهيّج الجلد أو تأخر التشخيص. استخدم شامبو لطيف، فك التشابك بهدوء، وابعد عن الشد والحرارة لحد ما السبب يتوضح، من غير وعود بموعد محدد لرجوع الشعر.",
+            "en": "At the visit, the clinician asks when loss began and how quickly it changed, about illness, fever or surgery, medicines and supplements, food, growth, menstruation in an adolescent, family history, hairstyles, itch and pulling habits. Examination includes the scalp, hair, eyebrows, lashes, nails and skin, and may include height, weight and general signs. Dermoscopy, a gentle pull test and fungal sampling are selected according to the pattern; biopsy or broad blood testing is not the routine first step for every child [2, 7, 8, 12]. Bring progress photographs, the names of every product and medicine, and earlier results rather than starting something new before the appointment.\n\nTreatment follows the cause: a clinician-selected oral antifungal for confirmed or likely scalp ringworm, reduced tension for traction, behavioural support for pulling, or a dermatology plan for alopecia areata [1, 2, 3, 5, 6]. A varied diet supports health, and our article on iron-rich food for children offers practical ideas when eating is limited, but it is not a prescription for every type of loss. Biotin supplements are promoted for hair despite limited evidence in people without deficiency, and high doses can produce false results in some laboratory tests, including hormone tests; tell the clinician and laboratory about every supplement [10]. Oils and mixtures can also irritate skin or delay diagnosis. Use gentle shampoo, detangle carefully, and avoid pulling and heat while the cause is clarified, without promises about a fixed date for regrowth."
+          },
+          "links": {
+            "ar": [{"label": "مقال الأكل الغني بالحديد للأطفال", "url": "../articles/iron-rich-foods-for-children.html"}],
+            "en": [{"label": "article on iron-rich food for children", "url": "../articles/iron-rich-foods-for-children.html"}]
+          }
+        },
+        {
+          "id": "when-to-seek-care",
+          "heading": {
+            "ar": "إمتى تحجز، وإمتى الحالة تستعجل؟",
+            "en": "When should you book, and when is it urgent?"
+          },
+          "body": {
+            "ar": "احجز موعداً قريباً لو فيه بقعة صلع جديدة، تساقط منتشر مستمر، شعر بيتكسر من غير سبب واضح، حكة أو قشور مش بتتحسن، فقد رموش أو حواجب، أو المشكلة مأثرة على نفسية الطفل ومدرسته. التقييم مهم كمان لو التساقط مع شحوب أو تعب أو نزول وزن أو تباطؤ نمو أو أعراض مزمنة. جلد لامع أو ندبة، فقد سريع لمساحة كبيرة، أو علاج سابق مش نافع يستحقوا إحالة جلدية أسرع لأن بعض الأسباب النادرة ممكن تضر البصيلة لو اتأخر التشخيص [2, 7, 8].\n\nاطلب تقييماً في نفس اليوم لو فيه كتلة طرية ومؤلمة في الفروة، صديد، احمرار منتشر، حرارة، أو الطفل باين عليه المرض؛ دي ممكن تكون سعفة ملتهبة أو عدوى محتاجة علاج سريع [2, 3, 9]. واتبع خدمات الطوارئ المحلية لو فيه صعوبة تنفس، تورم بالوجه بعد منتج أو دواء، إغماء، خمول شديد، أو تدهور سريع في الحالة العامة؛ الأولوية هنا للحالة الحادة مش للشعر. في العيادة، تقدر تبدأ بطلب حجز كشف أطفال وتغذية عشان يتراجع نمط التساقط وصحة الطفل العامة، والطبيب المعالج يقرر هل محتاج فحص فطريات أو تحاليل موجهة أو إحالة جلدية. خد معاك الصور، القياسات القديمة، وأسماء الأدوية والمكملات، وما توقفش دواء موصوف قبل ما تسأل طبيبه [1, 2].",
+            "en": "Arrange a timely appointment for a new bald patch, persistent diffuse shedding, unexplained breakage, itch or scale that does not settle, loss of lashes or brows, or an effect on the child's wellbeing or school life. Assessment also matters when loss accompanies pallor, tiredness, weight loss, slowing growth or chronic symptoms. Shiny or scarred skin, rapid loss over a large area, or failure of previous treatment merits faster dermatology review because some uncommon causes can damage follicles if diagnosis is delayed [2, 7, 8].\n\nSeek same-day assessment for a tender boggy scalp swelling, pus, spreading redness, fever, or a child who looks unwell; this could be inflammatory ringworm or another infection needing prompt care [2, 3, 9]. Follow local emergency services for breathing difficulty, facial swelling after a product or medicine, fainting, profound lethargy, or rapidly worsening general condition; the acute illness takes priority over the hair. At the clinic, you can begin by requesting a paediatric and nutrition appointment so the pattern and the child's general health can be reviewed. The treating clinician decides whether fungal sampling, targeted blood tests or dermatology referral is appropriate. Bring photographs, earlier growth measurements, and medicine and supplement names, and do not stop a prescribed medicine before asking its prescriber [1, 2]."
+          },
+          "links": {
+            "ar": [{"label": "طلب حجز كشف أطفال وتغذية", "url": "../patients/booking.html"}],
+            "en": [{"label": "requesting a paediatric and nutrition appointment", "url": "../patients/booking.html"}]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {"ar": "هل كل تساقط شعر عند الأطفال سببه نقص الحديد؟", "en": "Is every case of hair loss in a child caused by iron deficiency?"},
+          "a": {
+            "ar": "لأ. نقص الحديد احتمال واحد وسط أسباب زي فطريات الفروة، الثعلبة المناعية، الشد، النتف، والتساقط بعد مرض. الشحوب والتعب ونمط الأكل والنمو ممكن يبرروا صورة دم ومخزون حديد، لكن الطبيب هو اللي يختار التحليل حسب القصة والفحص؛ مكمل الحديد من غير إثبات مش اختباراً تشخيصياً [1, 2, 8, 11].",
+            "en": "No. Iron deficiency is one possibility among scalp ringworm, alopecia areata, traction, pulling and shedding after illness. Pallor, tiredness, eating pattern and growth may justify a blood count and ferritin, but the clinician selects tests from the history and examination. An unprescribed iron supplement is not a diagnostic test [1, 2, 8, 11]."
+          }
+        },
+        {
+          "q": {"ar": "هل فطريات فروة الرأس معدية؟", "en": "Is scalp ringworm contagious?"},
+          "a": {
+            "ar": "أيوه، ممكن تنتقل بالمخالطة أو مشاركة الأمشاط والقبعات والفوط، وأحياناً من حيوان مصاب. ما تشاركوش الأدوات، وابدأوا العلاج اللي وصفه الطبيب، واسأله هل حد قريب محتاج فحص. شامبو الفطريات ممكن يقلل الانتقال لكنه مش بديل للدواء بالفم اللي تحتاجه سعفة الفروة عادة [1, 3, 9].",
+            "en": "Yes. It can spread through close contact, shared combs, hats or towels, and sometimes from an infected animal. Avoid sharing personal items, start the prescribed treatment, and ask whether close contacts need checking. Antifungal shampoo may reduce spread but does not replace the oral medicine generally required for tinea capitis [1, 3, 9]."
+          }
+        },
+        {
+          "q": {"ar": "هل الشعر بيرجع ينمو بعد الثعلبة المناعية؟", "en": "Does hair grow back after alopecia areata?"},
+          "a": {
+            "ar": "ممكن، وكتير من الأطفال أصحاب البقع المحدودة بيحصل عندهم نمو من جديد، بس المسار مش مضمون: ممكن يتأخر النمو أو تظهر بقع تانية أو تتكرر الحالة. عمر الطفل ومساحة ومدة التساقط وتأثر الرموش أو الأظافر بيساعدوا طبيب الجلدية يناقش التوقعات والخطة من غير وعد بنتيجة ثابتة [4, 5].",
+            "en": "It can. Many children with limited patches regrow hair, but the course is not guaranteed: regrowth may be slow, other patches can appear and the condition may recur. Age, extent and duration of loss, and lash or nail involvement help the dermatologist discuss expectations and options without promising a fixed result [4, 5]."
+          }
+        },
+        {
+          "q": {"ar": "هل غسل الشعر أو الشامبو بيزود التساقط؟", "en": "Does washing or shampoo make the hair loss worse?"},
+          "a": {
+            "ar": "الغسيل غالباً بيجمع الشعر اللي كان دخل مرحلة السقوط بالفعل، فيبان العدد مرة واحدة، لكنه مش سبب أغلب أنواع التساقط. المنتج المهيج ممكن يعمل احمراراً أو حكة وتكسر، والتعامل العنيف مع الشعر المبلول يزود التكسر. استخدم شامبو لطيف وفك التشابك بهدوء، واعرض الفروة على الطبيب لو فيها التهاب أو قشور مستمرة [1, 12].",
+            "en": "Washing often gathers hairs that had already entered the shedding phase, making them visible together, but it does not cause most hair-loss disorders. An irritating product can cause redness, itch or breakage, and rough handling of wet hair can increase breakage. Use a gentle shampoo, detangle carefully, and seek assessment for persistent inflammation or scale [1, 12]."
+          }
+        },
+        {
+          "q": {"ar": "هل البيوتين أو فيتامينات الشعر آمنة للطفل؟", "en": "Are biotin or hair vitamins safe for a child?"},
+          "a": {
+            "ar": "ما تبدأهاش لمجرد التساقط. الدليل على تحسين الشعر بالبيوتين عند شخص ما عندوش نقص محدود، والجرعات العالية ممكن تشوّش بعض نتائج المعمل ومنها تحاليل هرمونات. كمان المنتج المركب ممكن يحتوي جرعات أو عناصر الطفل مش محتاجها. خُد العبوة للطبيب وحددوا الأول هل فيه نقص حقيقي وإيه الجرعة المناسبة [10].",
+            "en": "Do not start them simply because hair is shedding. Evidence that biotin improves hair in someone without deficiency is limited, and high doses can interfere with laboratory results, including hormone tests. Combination products may also contain doses or ingredients the child does not need. Show the container to the clinician and first establish whether a deficiency and a suitable dose exist [10]."
+          }
+        },
+        {
+          "q": {"ar": "إيه اللي آخده معايا في زيارة الطبيب؟", "en": "What should I bring to the appointment?"},
+          "a": {
+            "ar": "خد صوراً مؤرخة تبين التغير، وأسماء الأدوية والمكملات ومنتجات الشعر، وملخصاً لأي حرارة أو مرض أو عملية في الشهور اللي فاتت، وملاحظات عن التسريحات والحكة والنتف. قياسات الطول والوزن القديمة وتاريخ الدورة للمراهق لو له علاقة بيساعدوا كمان. المعلومات دي بتخلي الفحص يوجّه التحاليل بدل طلب باقة عشوائية [2, 7, 8].",
+            "en": "Bring dated photographs, names of medicines, supplements and hair products, a brief record of fever, illness or surgery over recent months, and notes about hairstyles, itch or pulling. Earlier height and weight measurements and relevant menstrual history in an adolescent also help. This information lets the examination direct testing instead of prompting a random panel [2, 7, 8]."
+          }
+        }
+      ],
+      "sources": [
+        {"label": "American Academy of Pediatrics (HealthyChildren.org) — Hair Loss (Alopecia) in Children", "url": "https://www.healthychildren.org/English/health-issues/conditions/skin/Pages/Hair-Loss-Alopecia.aspx"},
+        {"label": "Xu L, Liu KX, Senna MM — A Practical Approach to the Diagnosis and Management of Hair Loss in Children and Adolescents (Front Med, PMCID PMC5522886)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5522886/"},
+        {"label": "Leung AKC et al. — Tinea Capitis: An Updated Review (PMID 31906842)", "url": "https://pubmed.ncbi.nlm.nih.gov/31906842/"},
+        {"label": "NIAMS/NIH — Alopecia Areata", "url": "https://www.niams.nih.gov/health-topics/alopecia-areata"},
+        {"label": "American Academy of Dermatology — Alopecia Areata: Diagnosis and Treatment", "url": "https://www.aad.org/public/diseases/hair-loss/types/alopecia/treatment"},
+        {"label": "Afifi L, Oparaugo NC, Hogeling M — Review of Traction Alopecia in the Pediatric Patient (PMID 34467569)", "url": "https://pubmed.ncbi.nlm.nih.gov/34467569/"},
+        {"label": "Castelo-Soccio L — Diagnosis and Management of Hair Loss in Children (PMID 27214199)", "url": "https://pubmed.ncbi.nlm.nih.gov/27214199/"},
+        {"label": "Cranwell W, Sinclair R — Common Causes of Paediatric Alopecia (PMID 31195774)", "url": "https://pubmed.ncbi.nlm.nih.gov/31195774/"},
+        {"label": "NHS — Ringworm", "url": "https://www.nhs.uk/conditions/ringworm/"},
+        {"label": "NIH Office of Dietary Supplements — Biotin Fact Sheet for Consumers", "url": "https://ods.od.nih.gov/factsheets/Biotin-Consumer/"},
+        {"label": "Al-Refu K — Hair Loss in Children: Common and Uncommon Causes (Int J Trichology, PMCID PMC3999647)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999647/"},
+        {"label": "American Academy of Dermatology — Hair Loss: Diagnosis and Treatment", "url": "https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat"}
+      ],
+      "tags": {
+        "ar": ["تساقط الشعر عند الأطفال", "صلع الأطفال", "فروة رأس الطفل", "كشف جلدية أطفال"],
+        "en": ["hair loss in children", "child bald patches", "child scalp", "paediatric dermatology"]
+      },
+      "seo": {
+        "title": {
+          "ar": "تساقط الشعر عند الأطفال: إمتى يحتاج كشف؟",
+          "en": "Hair Loss in Children: When to Get It Checked"
+        },
+        "description": {
+          "ar": "دليل عملي عن تساقط الشعر عند الأطفال: أشكال البقع والتكسر والفطريات والثعلبة، وإمتى يحتاج الطفل كشفاً قريباً أو تقييماً عاجلاً.",
+          "en": "A practical guide to hair loss in children, including patches, breakage, ringworm, alopecia areata, warning signs and when to arrange assessment."
+        }
+      }
+    }
+  ]
+}
