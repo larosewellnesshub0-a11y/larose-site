@@ -1,0 +1,334 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of h-pylori-children-when-testing-considered; replaces the entry from content/articles-longform-2026-09-12.json. Expanded clinical indications, ESPGHAN/NASPGHAN guidelines on testing vs non-testing, why test-and-treat is avoided in children, refractory iron deficiency, endoscopy and biopsy indications, test preparation, verified sources, internal links, and pediatric medical re-review.",
+  "articles": [
+    {
+      "slug": "h-pylori-children-when-testing-considered",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics",
+        "gastroenterology-hepatology"
+      ],
+      "date": "2026-09-12",
+      "updatedAt": "2026-09-27",
+      "readingTime": 13,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا دواعي فحص جرثومة المعدة عند الأطفال وتوصيات الجمعيات الدولية وتحذير فحص الدم والعلاجات العشوائية، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the clinical indications for H. pylori testing in children, international guideline recommendations, cautions on blood testing and indiscriminate treatment, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "image": "assets/img/articles/h-pylori-children-testing-cover.webp",
+      "title": {
+        "ar": "جرثومة المعدة عند الأطفال: إمتى الطبيب بيفكر في التحليل؟",
+        "en": "H. pylori in children: when might a clinician consider testing?"
+      },
+      "excerpt": {
+        "ar": "وجع البطن المتكرر مش معناه تلقائياً جرثومة معدة. اعرف إمتى التوصيات الطبية بتنصح بالتحليل، وليه فحص الدم مش كافي، وإزاي الطبيب بيحدد السبب الحقيقي للأعراض.",
+        "en": "Recurrent tummy pain does not automatically mean H. pylori. Learn when clinical guidelines recommend testing, why blood antibody tests are unsuitable, and how a clinician determines the true cause of symptoms."
+      },
+      "tags": {
+        "ar": [
+          "جرثومة المعدة عند الأطفال",
+          "تحليل جرثومة المعدة للأطفال",
+          "ألم البطن عند الأطفال",
+          "إرشادات جرثومة المعدة للأطفال",
+          "منظار المعدة للأطفال"
+        ],
+        "en": [
+          "H. pylori in children",
+          "H. pylori testing in children",
+          "childhood abdominal pain",
+          "pediatric H. pylori guidelines",
+          "pediatric endoscopy"
+        ]
+      },
+      "sections": [
+        {
+          "id": "why-not-every-tummy-ache-needs-testing",
+          "heading": {
+            "ar": "ليه مش كل طفل بيشتكي من بطنه بيحتاج تحليل جرثومة المعدة؟",
+            "en": "Why not every child with abdominal pain needs H. pylori testing"
+          },
+          "body": {
+            "ar": "لما الطفل يشتكي من وجع متكرر في بطنه، أول فكرة بتيجي في بال أسر كتير هي إننا لازم نجري نعمل تحليل جرثومة المعدة فوراً. الفكرة دي منتشرة جداً وشائعة، بس الطب القائم على الدليل وتوصيات جمعيات أطفال الجهاز الهضمي الدولية، خصوصاً التوصيات المشتركة للجمعية الأوروبية والجمعية الأمريكية لأمراض الجهاز الهضمي والكبد والتغذية عند الأطفال (ESPGHAN وNASPGHAN)، بيقولوا كلام مختلف ومهم جداً لكل أب وأم يعرفوه [1, 2, 3]. القاعدة الطبية الأساسية بتقول: الهدف من الكشف الطبي إننا نعرف السبب الحقيقي للوجع اللي عند الطفل، مش إننا ندور بس على وجود بكتيريا وخلاص [1, 2, 3]. جرثومة المعدة، أو بكتيريا الهيليكوباكتر بيلوري، بتعيش في بطانة المعدة عند ملايين الأطفال حول العالم كاستعمار بكتيري صامت، من غير ما تعمل أي التهاب حقيقي بالأنسجة أو قرح، ومن غير ما تسبب أي ضرر صحي خالص [3, 4, 8].\n\nعشان كده، مجرد إننا نلاقي الجرثومة في تحليل لطفل بطنه بتوجعه ده مش إثبات أبداً إنها هي اللي عامله الوجع [1, 3, 4]. التوصيات الطبية الدولية بتأكد بقوة إن استراتيجية «حلّل وعالج» الشائعة عند الكبار مرفوضة ومش مناسبة خالص عند الأطفال [1, 2, 3]. مينفعش نطلب تحليل من غير سبب سريري قوي ومحدد، لأن الفحص العشوائي بيخلينا ندي كورسات مضادات حيوية تقيلة ومركبة لطفل عنده بكتيريا صامتة مش مسببة له أي مشكلة، بينما السبب الفعلي لألم بطنه يفضل زي ما هو من غير علاج ولا تشخيص صح [1, 3, 8]. لو حابب تفهم الأعراض العامة والصورة الكاملة للعدوى، تقدر تشوف دليلنا عن أعراض وتحاليل جرثومة المعدة عند الأطفال، وده هيساعدك تستوعب الإطار العام قبل ما ندخل في الشروط الدقيقة اللي الطبيب بيفكر فيها قبل أي فحص [1, 4].\n\nطبيب الأطفال المتخصص لما بيبدأ الكشف مش بيبدأ بكتابة لستة تحاليل، إنما بيقعد يسمع تفاصيل القصة كلها بهدوء: الوجع بيبدأ إمتى، بيستمر قد إيه، مكانه فين بالظبط، وهل بيصحّي الطفل من النوم، وهل مرتبط بنوع أكل معين أو دخول الحمام [1, 3, 5]. وبيفحص بطن الطفل ويراجع منحنى النمو والوزن والطول عبر الزيارات بعناية كبيرة [1, 3, 6]. لو الطفل نموه ماشي في مساره السليم وبطنه مفيهاش أي علامة خطر، التسرع في طلب تحليل الجرثومة بيكون خطوة مش مفيدة وبتشتت الأسرة وتدخل الطفل في دوامة قلق وأدوية ملوش أي عازة بيها [1, 2, 4].",
+            "en": "When a child complains of recurrent tummy aches, the immediate reaction of many families is that an urgent test for stomach bacteria must be performed. While this instinct is very common, evidence-based medicine and pediatric gastroenterology guidelines—specifically the joint clinical recommendations from the European and North American societies for pediatric gastroenterology, hepatology, and nutrition (ESPGHAN and NASPGHAN)—emphasize a very different and vital principle [1, 2, 3]. The primary goal of medical investigation in a child is to determine the true cause of the symptoms, not simply to search for the presence of a bacterium [1, 2, 3]. Helicobacter pylori colonizes the gastric mucosa of millions of children worldwide as silent colonization, producing neither microscopic tissue inflammation nor peptic ulcers, and causing no clinical harm whatsoever [3, 4, 8].\n\nConsequently, finding the organism on a random test in a child with tummy aches does not prove that the bacterium is responsible for the pain [1, 3, 4]. International pediatric guidelines strongly state that the “test-and-treat” strategy commonly applied in adult medicine is not recommended in children [1, 2, 3]. Testing should never be ordered without a precise and substantiated clinical justification, because indiscriminate screening leads to prescribing intensive, multi-antibiotic regimens to children with innocent colonization, while the actual underlying cause of their abdominal discomfort remains unrecognized and unaddressed [1, 3, 8]. To explore the broader clinical spectrum of pediatric infection, you can consult our detailed overview on H. pylori symptoms and tests in children, which provides valuable background before evaluating the precise criteria clinicians use to consider testing [1, 4].\n\nA specialized pediatrician does not initiate an assessment by ordering a battery of laboratory tests; rather, the consultation opens by carefully listening to the complete history: when pain starts, how long it lasts, its precise location, whether it awakens the child at night, and how it correlates with meals or bowel movements [1, 3, 5]. The clinician examines the abdomen thoroughly and reviews the child's growth curve, weight, and height across serial visits [1, 3, 6]. When a child exhibits steady growth and has no warning signs on examination, hastily ordering an H. pylori test is unhelpful, placing undue stress on the family and subjecting the child to unnecessary investigations [1, 2, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أعراض وتحاليل جرثومة المعدة عند الأطفال",
+                "url": "../articles/h-pylori-in-children-symptoms-tests.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "H. pylori symptoms and tests in children",
+                "url": "../articles/h-pylori-in-children-symptoms-tests.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-testing-is-clinically-indicated",
+          "heading": {
+            "ar": "إمتى التوصيات الطبية بتنصح فعلاً بفحص جرثومة المعدة عند الأطفال؟",
+            "en": "When clinical guidelines actually recommend testing in children"
+          },
+          "body": {
+            "ar": "السؤال المنطقي اللي كل ولي أمر بيسأله: إمتى الطبيب بيقول فعلاً إن فيه داعي سريري واضح ومبرر لفحص جرثومة المعدة عند الطفل؟ الإرشادات الدولية المحدثة حددت الحالات دي بوضوح شديد عشان تحمي الأطفال من الفحوصات غير اللازمة [1, 2, 3]. الداعي الأساسي الأول هو وجود أدلة على مرض القرحة الهضمية (Peptic Ulcer Disease) في المعدة أو الإثني عشر؛ يعني لما الطفل يعاني من أعراض عضوية شديدة ومستمرة تستوجب عمل منظار للمعدة، وساعتها الطبيب بيشوف القرحة أو التآكل بعينه وبياخد عينات عشان يتأكد هل الجرثومة هي السبب [1, 2, 3, 5]. لو ثبت وجود قرحة مع الجرثومة، هنا بيكون العلاج واجباً وضرورياً للقضاء على العدوى وشفاء جدار المعدة [1, 3, 10].\n\nالداعي التاني اللي بتدعمه الأدلة الطبية القوية هو حالات أنيميا نقص الحديد عند الأطفال اللي بتكون معندة ومستمرة ومش بتستجيب للعلاج التعويضي المنتظم بالحديد عن طريق الفم، بعد ما الطبيب يستبعد الأسباب الشائعة التانية زي قلة الأكل الغني بالحديد أو حساسية القمح (الداء البطني / السيلياك) أو فقد الدم الخفي في البراز [1, 3, 7]. في الحالات المعندة دي، وجود الجرثومة ممكن يقلل امتصاص الحديد أو يسبب نزيف بسيط مش ظاهر من بطانة المعدة، وعلاجها بيساعد في استعادة مستويات الحديد الطبيعية لما يثبت وجودها [1, 7]. كمان بتدخل بعض الحالات النادرة زي فرفرية نقص الصفائح المناعية المزمنة (ITP) بعد مراجعة دقيقة بين استشاري أمراض دم الأطفال وطبيب الجهاز الهضمي، أو لو الطفل بيشتكي من أعراض هضمية عضوية وعنده تاريخ عائلي مباشر لإصابة قريب من الدرجة الأولى (زي الأب أو الأم) بسرطان المعدة [1, 2, 3, 8].\n\nفي المقابل، التوصيات بتأكد إن مجرد إصابة حد من الكبار في نفس البيت مش سبب يخلينا نحلل للأطفال الأصحاء اللي مبيشتكوش من حاجة خالص [1, 3, 4]. فكرة مسح أفراد العائلة كلهم بدون أعراض فكرة مش صحيحة وبتعرض الطفل لمضادات حيوية هو في غنى تام عنها [1, 3, 8]. التقييم الطبي السليم بيبدأ من الطفل نفسه وشكواه وفحصه السريري، مش من وسواس التحاليل أو تجارب الآخرين [1, 4].",
+            "en": "A reasonable question every parent asks is: under what precise clinical circumstances does a physician actually recommend investigating H. pylori in a child? Updated international guidelines define these specific indications carefully to safeguard pediatric patients from unnecessary medicalization [1, 2, 3]. The primary indication is the clinical suspicion and investigation of peptic ulcer disease in the stomach or duodenum; specifically, when a child experiences substantial organic upper gastrointestinal symptoms that warrant diagnostic endoscopy, allowing the specialist to inspect the mucosa directly and obtain biopsies to confirm whether H. pylori is the underlying driver [1, 2, 3, 5]. When a peptic ulcer or erosive disease is documented alongside active infection, eradication therapy is mandatory to cure the ulcer and prevent recurrence [1, 3, 10].\n\nThe second major indication supported by strong evidence is refractory iron deficiency in children that fails to respond to appropriate, supervised oral iron supplementation, provided other prevalent causes—such as nutritional insufficiency, celiac disease, or occult gastrointestinal bleeding—have been thoroughly excluded [1, 3, 7]. In these treatment-resistant scenarios, H. pylori infection may reduce iron absorption or cause minor hidden blood loss from the stomach lining, and clearing proven infection supports hematological recovery [1, 7]. Less frequent indications include chronic immune thrombocytopenia (ITP) evaluated collaboratively with pediatric hematologists, or organic upper abdominal complaints in a child with a documented first-degree family history of gastric malignancy [1, 2, 3, 8].\n\nConversely, clinical guidelines emphasize that an adult household member being treated for H. pylori is not a valid reason to screen asymptomatic children [1, 3, 4]. Indiscriminate family screening in the absence of symptoms is contrary to pediatric recommendations and exposes healthy children to multi-drug regimens without therapeutic justification [1, 3, 8]. Proper clinical assessment always centers on the child’s individual symptoms, physical examination, and growth, rather than routine household anxiety [1, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أنيميا نقص الحديد عند الأطفال",
+                "url": "../articles/iron-deficiency-in-children.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "iron deficiency in children",
+                "url": "../articles/iron-deficiency-in-children.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "functional-pain-vs-h-pylori",
+          "heading": {
+            "ar": "وجع البطن الوظيفي والجرثومة: ليه التحليل العشوائي ممكن يشتت العلاج؟",
+            "en": "Functional abdominal pain versus H. pylori: why indiscriminate testing confuses care"
+          },
+          "body": {
+            "ar": "أكتر سبب بيخلي الأسر تقلق وتروح لعيادة الأطفال هو وجع البطن المتكرر، خصوصاً الألم اللي بييجي ويروح حوالين السرة [3, 4, 6]. الغالبية العظمى من أطفال المدارس والمراهقين اللي بيشتكوا من النوع ده من الوجع بيكون عندهم ما يُعرف باضطرابات ألم البطن الوظيفية، زي القولون العصبي أو عسر الهضم الوظيفي أو الإمساك المزمن الخفي [3, 5, 6]. كلمة «وظيفي» مش معناها خالص إن الطفل بيمثّل أو بيدّعي التعب؛ الوجع حقيقي جداً ومزعج للطفل، بس سببه اضطراب في حركة الأمعاء أو زيادة حساسية الأعصاب في جدار البطن ومحور التواصل العصبي بين المخ والأمعاء [5, 6]. تفاصيل الحالات دي مشروحة بعمق في دليل وجع البطن المتكرر عند الأطفال، ومهم نراجعها عشان نفهم طبيعة الألم ده من غير هلع [5, 6].\n\nالمشكلة الكبيرة بتحصل لما الأهل يجروا يعملوا للطفل اللي عنده وجع وظيفي تحليل جرثومة معدة عشوائي ويطلع إيجابي [1, 3, 6]. هنا الأسرة بتفرح وفاكرة إنها مسكت «سر اللغز»، والطفل ممكن يتوصف له كورس علاج ثلاثي تقيل لمدة 14 يوم فيه جرعات عالية من مطهرات ومضادات حيوية شديدة [1, 3, 8]. اللي بيحصل بعد كده بيكون تجربة سيئة ومرهقة جداً للطفل: بيعاني من طعم معدني مر، غثيان شديد، قيء، إسهال متعب، وتدمير لتوازن البكتيريا النافعة في أمعائه، وبعد ما يخلص الـ 14 يوم يرجع وجع البطن يظهر بنفس الطريقة وبنفس الشدة من غير أي تحسن [1, 3, 6, 8]! ليه ده بيحصل؟ لأن الجرثومة كانت مجرد ضيف صامت في المعدة ملهاش أي علاقة بالوجع، والسبب الفعلي الحقيقي زي الإمساك أو التوتر والضغوط المدرسية فضل زي ما هو من غير علاج [1, 4, 6].\n\nعشان كده إرشادات الجمعيات الطبية المتخصصة في أطفال الجهاز الهضمي بتنص بحسم: ممنوع فحص جرثومة المعدة للأطفال المصابين بألم بطن وظيفي مفيش معاه علامات خطر [1, 2, 3, 6]. الفحص في الحالة دي مش بيحل المشكلة، بالعكس بيخلق مشكلة جديدة وبيشتت مسار العلاج [1, 3, 6]. الطبيب الواعي بيركز على استبعاد الأسباب العضوية بالفحص الدقيق، وبيبدأ في علاج الإمساك وتنظيم الأكل وشرب السوائل ودعم الطفل نفسياً للتغلب على آلام البطن الوظيفية بأمان [3, 6].",
+            "en": "The most frequent concern prompting parents to seek pediatric advice is recurrent tummy pain, particularly intermittent periumbilical cramping that comes and goes [3, 4, 6]. In the vast majority of school-aged children and adolescents, this presentation represents a functional abdominal pain disorder, such as irritable bowel syndrome, functional dyspepsia, or chronic functional constipation [3, 5, 6]. The term “functional” does not mean that the pain is imaginary or that the child is fabricating distress; the physical discomfort is very real, driven by dysmotility, visceral hypersensitivity, and altered signaling along the brain-gut-microbiome axis [5, 6]. These dynamics are discussed thoroughly in our guide to recurrent tummy aches in children, providing an essential clinical context for evaluating chronic pain without alarm [5, 6].\n\nThe central clinical dilemma arises when an unguided H. pylori test is ordered for a child experiencing routine functional pain, returning a positive result [1, 3, 6]. Families often feel relieved, mistakenly believing they have uncovered the definitive explanation, and the child is promptly prescribed an intensive 14-day triple therapy regimen combining acid suppression with two high-dose antibiotics [1, 3, 8]. What frequently follows is a distressing period for the child: a persistent metallic taste, nausea, vomiting, significant diarrhoea, and extensive disruption of the protective intestinal microbiota—only for the original abdominal pain to persist completely unaltered once the antibiotics finish [1, 3, 6, 8]. Why? Because H. pylori was merely an innocent bystander, while the true functional gut disturbance, dietary imbalance, or school-related stress went unmanaged [1, 4, 6].\n\nFor these reasons, major pediatric gastroenterology guidelines deliver an explicit recommendation: do not test for H. pylori in children with functional abdominal pain disorders in the absence of alarm signs [1, 2, 3, 6]. Indiscriminate testing does not resolve symptoms; rather, it introduces medication-related harms and distracts from appropriate care [1, 3, 6]. A thoughtful pediatric evaluation focuses on ruling out organic disease through careful physical examination, managing constipation, optimizing hydration and nutrition, and supporting the child through evidence-based behavioral and digestive care [3, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "وجع البطن المتكرر عند الأطفال",
+                "url": "../articles/recurrent-tummy-aches-in-children.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "recurrent tummy aches in children",
+                "url": "../articles/recurrent-tummy-aches-in-children.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "why-blood-antibody-tests-are-discouraged",
+          "heading": {
+            "ar": "فحص الدم للأجسام المضادة: ليه الأطباء ما بيعتمدوش عليه للأطفال؟",
+            "en": "Blood antibody testing: why pediatric guidelines advise against it"
+          },
+          "body": {
+            "ar": "كتير من المعامل بتعرض تحاليل دم سريعة للأجسام المضادة لجرثومة المعدة (IgG وIgM)، وكتير من الأهالي بيفتكروا إن سحب عينة دم صغيرة هي أسهل وأسرع وسيلة عشان يطمنوا على طفلهم [1, 3, 5]. بس الحقيقة العلمية اللي بتأكدها جمعيات أطفال الجهاز الهضمي هي إن تحاليل الدم دي مرفوضة تماماً ومش موصى بيها لتشخيص جرثومة المعدة عند الأطفال [1, 3, 5, 8]. الفحص ده مينفعش تعتمد عليه عشان تاخد قرار علاج، والاعتماد عليه خطأ سريري بيوقع أسر كتير في علاجات مضرة [1, 5, 8].\n\nالسبب ببساطة إن فحص الدم بيقيس الأجسام المضادة اللي جهاز المناعة كونها في أي وقت، ومش بيقيس وجود البكتيريا الحية في المعدة دلوقتي خالص [1, 5, 8, 9]. الأجسام المضادة دي ممكن تفضل موجودة وبتلف في دم الطفل لشهور أو سنين طويلة حتى لو الجرثومة مش موجودة، أو لو كان جسمه اتخلص منها زمان من غير ما يحس [5, 8, 9]. يعني النتيجة الإيجابية في الدم مش معناها أبداً إن فيه عدوى نشطة محتاجة مضادات حيوية [1, 5, 8]. ده غير إن دقة فحص الدم عند الأطفال الصغيرين منخفضة جداً بسبب طبيعة نمو جهازهم المناعي، والنتيجة بتطلع مشكوك فيها في نسب كتير [1, 3, 5]. وبرضه مينفعش خالص نستخدم فحص الدم بعد كورس العلاج عشان نتأكد من الشفاء، لأنه هيفضل إيجابي حتى لو البكتيريا ماتت تماماً [1, 5, 8].\n\nلو الطبيب المتخصص شاف إن فيه ضرورة سريرية لفحص غير جراحي يكشف وجود عدوى نشطة، التوصيات بتحدد طريقتين معتمدتين بس: اختبار نفَس اليوريا بالكربون 13 (13C-Urea Breath Test) للأطفال الكبار اللي يقدروا يتعاونوا وينفخوا في الكيس المخصص، أو فحص مستضد الجرثومة في البراز (Stool Antigen Test) باستخدام طريقة معملية معتمدة ودقيقة (Monoclonal ELISA) [1, 2, 5]. أي كروت سريعة بتتباع في الصيدليات أو فحص دم تجاري ملوش أي قيمة تشخيصية حقيقية لصحة طفلك [1, 3, 5].",
+            "en": "Many commercial laboratories offer rapid antibody blood panels (IgG and IgM serology) for H. pylori, and parents frequently believe a simple blood draw is the easiest, least invasive way to check their child's stomach [1, 3, 5]. However, established clinical consensus across pediatric gastroenterology societies firmly advises against using antibody-based blood tests to diagnose active H. pylori in children [1, 3, 5, 8]. Serology is considered unreliable for pediatric clinical decision-making, and relying on it frequently leads to unwarranted antibiotic exposure [1, 5, 8].\n\nThe fundamental physiological reason is that blood tests detect circulating antibodies produced by the immune system, not active, living bacteria within the gastric lumen [1, 5, 8, 9]. Once exposed, IgG antibodies can persist in a child's circulation for many months or even years, long after the infection has spontaneously cleared or been treated [5, 8, 9]. Consequently, a positive antibody result in blood does not prove that an active infection is present today or that it requires treatment [1, 5, 8]. Furthermore, serological assays demonstrate substantially lower sensitivity and specificity in young children due to age-dependent immunological development, yielding high rates of false-positive and false-negative readings [1, 3, 5]. Serology is also completely useless for assessing treatment success, as antibody titers remain elevated regardless of eradication [1, 5, 8].\n\nWhen a pediatric specialist determines that a non-invasive test for active infection is clinically indicated, guidelines endorse only two validated modalities: the 13C-urea breath test for children capable of reliable cooperative breathing, or a laboratory-based monoclonal stool antigen enzyme immunoassay (ELISA) [1, 2, 5]. Rapid in-office fingerprick cassettes and commercial blood panels should never be used to establish a diagnosis or guide antibiotic treatment in pediatric care [1, 3, 5]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "endoscopy-and-biopsy-gold-standard",
+          "heading": {
+            "ar": "منظار المعدة والعينات: إمتى بيبقى الخطوة التشخيصية الأساسية؟",
+            "en": "Endoscopy and biopsies: when it becomes the primary diagnostic step"
+          },
+          "body": {
+            "ar": "في طب أطفال الجهاز الهضمي، لما الطبيب بيشك إن الأعراض سببها مرض عضوي حقيقي في الجزء العلوي من القناة الهضمية، بيكون المعيار الذهبي المعتمد دولياً هو عمل منظار الجهاز الهضمي عند الأطفال مع أخذ عينات نسيجية من بطانة المعدة [1, 2, 3, 5]. في مقالنا المتخصص عن هذا الإجراء، بنوضح للأهل بالتفصيل إزاي المنظار بيتعمل بأمان وتحت إشراف استشاري تخدير وأطفال من غير ما الطفل يحس بأي وجع [1, 5]. السؤال المهم هنا: ليه المنظار هو الأساس للتشخيص الأولي عند الأطفال بدل ما نكتفي بتحليل براز بسيط؟\n\nالسبب إن المنظار مش مجرد فحص عشان نقول الجرثومة موجودة ولا مش موجودة، المنظار بيدي الطبيب رؤية بصرية مباشرة وكاملة لبطانة المريء والمعدة والإثني عشر [1, 2, 3, 10]. الطبيب بيشوف بعينه هل فيه قرحة صريحة، أو تآكل في جدار المعدة، أو علامات التهاب حُبيبي نتوئي، ولا البطانة سليمة ومفيهاش أي مرض عضوي [1, 3, 10]. كمان المنظار بيسمح بأخذ عينات من كذا مكان في المعدة (على الأقل عينتين من الغار وعينتين من جسم المعدة)، وده بيدينا تلات فوائد سريرية أساسية لا يمكن الحصول عليها بأي فحص تاني [1, 2, 3, 5].\n\nالفائدة الأولى هي الفحص الباثولوجي المجهري (Histology) اللي بيأكد وجود التهاب نسيجي حقيقي ومكان البكتيريا بوضوح [1, 3, 5]. والفائدة التانية هي اختبار اليورييز السريع للنسيج اللي بيدي مؤشراً سريعاً [1, 5, 11]. أما الفائدة التالتة والأهم فهي إمكانية عمل مزرعة بكتيرية أو فحص جزيئي (PCR) لتحديد حساسية الجرثومة للمضادات الحيوية (Antibiotic Susceptibility Testing) [1, 2, 3, 8]. في ظل الانتشار الكبير لمقاومة البكتيريا لمضادات زي الكلارينثروميسين والمترونيدازول في منطقتنا والعالم، معرفة حساسية البكتيريا بتخلي الطبيب يختار أنسب تركيبة علاجية من أول مرة، وتمنع تكرار المضادات الحيوية وفشل العلاج [1, 2, 3, 8]. المنظار مش بيتعمل لوجع عابر، لكنه بيتحجز للحالات اللي تستاهل تقييماً دقيقاً [1, 3, 5].",
+            "en": "In pediatric gastroenterology, when organic upper gastrointestinal pathology is suspected, the internationally recognized gold standard for evaluation is upper endoscopy in children combined with targeted mucosal biopsies [1, 2, 3, 5]. As outlined in our dedicated guide to pediatric endoscopy, modern procedures are performed under controlled procedural sedation or light general anesthesia, prioritizing safety, comfort, and precision [1, 5]. A crucial question for families is why endoscopy serves as the primary diagnostic foundation in children rather than relying solely on a simple stool test.\n\nThe decisive advantage is that endoscopy provides direct visual inspection of the esophageal, gastric, and duodenal mucosa [1, 2, 3, 10]. The specialist directly visualizes whether peptic ulcers, mucosal erosions, or nodular gastritis are present, or whether the lining appears entirely healthy and free of structural damage [1, 3, 10]. Crucially, endoscopy allows systematic biopsy sampling—obtaining at least two biopsies from the antrum and two from the gastric corpus—delivering three essential diagnostic findings unobtainable through non-invasive screening [1, 2, 3, 5].\n\nFirst, histopathology allows pathologists to examine tissue under the microscope, confirming whether true active gastritis is present and identifying the bacteria in situ [1, 3, 5]. Second, rapid urease testing on biopsy specimens offers quick diagnostic confirmation [1, 5, 11]. Third and most critically, biopsy specimens enable bacterial culture or molecular polymerase chain reaction (PCR) testing for antimicrobial susceptibility [1, 2, 3, 8]. Given high global and regional resistance rates to clarithromycin and metronidazole, tailoring antibiotic therapy according to susceptibility testing maximizes primary eradication success and prevents repeated ineffective treatment courses [1, 2, 3, 8]. Endoscopy is never undertaken for routine functional discomfort; it is reserved for children with clinical indications requiring rigorous evaluation [1, 3, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "منظار الجهاز الهضمي عند الأطفال",
+                "url": "../articles/endoscopy-in-children-when-considered.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "endoscopy in children",
+                "url": "../articles/endoscopy-in-children-when-considered.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "test-preparation-and-confirming-cure",
+          "heading": {
+            "ar": "إزاي نتحضر للتحليل صح، وإمتى نتأكد من زوال الجرثومة؟",
+            "en": "Proper test preparation and how to confirm eradication"
+          },
+          "body": {
+            "ar": "التحضير السليم قبل الفحص خطوة حاسمة كتير من الأسر ما بياخدوش بالهم منها، وده اللي بيخلي تحاليل كتير تطلع سلبية كاذبة والطفل عنده عدوى، أو العكس تماماً [1, 5, 8, 11]. فيه قاعدتين زمنيتين محددتين بدقة في التوصيات الدولية لازم كل أسرة تلتزم بيهم قبل إجراء أي اختبار نشط لجرثومة المعدة سواء كان تحليل مستضد البراز أو اختبار النفَس أو حتى عينات المنظار [1, 2, 5, 11]. القاعدة الأولى: لازم توقف أدوية مثبطات مضخة البروتون للحموضة (PPIs) زي الأوميبرازول والإيزوميبرازول والبانتوبرازول ومشتقاتهم لمدة أسبوعين كاملين على الأقل قبل ميعاد الفحص [1, 2, 5, 11]. الأدوية دي بتقلل نشاط إنزيم البكتيريا وبتخليها تخمل مؤقتاً، فالتحليل يطلع سلبي بالخطأ والجرثومة لسه موجودة في المعدة [1, 5, 11].\n\nالقاعدة التانية: لازم توقف أي مضاد حيوي أو مركبات البزموت لمدة 4 أسابيع كاملة على الأقل قبل إجراء التحليل [1, 2, 5, 8]. لو الطفل كان بياخد مضاد حيوي عشان دور برد أو نزلة معوية وعملت التحليل في نفس الأسبوع، النتيجة هتكون مضللة ومش هتقدر تبني عليها أي قرار سريري موثوق [1, 5, 8]. عشان كده احرص إنك تقول للطبيب على كل دواء خده الطفل خلال الشهر اللي فات عشان يحدد الميعاد السليم والآمن لإجراء الفحص [1, 5, 11].\n\nطب بعد ما الطفل ياخد كورس العلاج، إزاي وإمتى نتأكد إنه شفي من الجرثومة؟ التوصيات الطبية بتوضح إن فحص تأكيد الشفاء (Test of Cure) ضروري خصوصاً لو كان عند الطفل قرحة هضمية سابقة أو مضاعفات أو أعراض مستمرة [1, 2, 3]. الفحص ده بيتعمل باختبار مستضد البراز بالمعمل أو اختبار النفَس، ولازم يستنى مدة من 4 إلى 8 أسابيع كاملة بعد آخر حبة مضاد حيوي، وبعد إيقاف أدوية الحموضة بأسبوعين على الأقل [1, 2, 5, 12]. مينفعش خالص تستعجل وتعمل التحليل بعد أسبوع من العلاج، ومينفعش تستخدم فحص الدم نهائياً للتأكد من الشفاء [1, 5, 8, 12]. المتابعة المنظمة بالتوقيتات السليمة دي هي اللي بتضمن أمان الطفل وبتطمن الأسرة إن العلاج نجح بالفعل [1, 2, 12].",
+            "en": "Correct preparation before testing is an essential clinical prerequisite that families often overlook, frequently leading to false-negative results that delay appropriate care [1, 5, 8, 11]. Pediatric guidelines delineate two strict washout intervals that must be observed prior to performing any active H. pylori diagnostic test, whether a stool antigen assay, a urea breath test, or endoscopic biopsies [1, 2, 5, 11]. First, proton pump inhibitors (PPIs) such as omeprazole, esomeprazole, and pantoprazole must be discontinued for at least two full weeks before testing [1, 2, 5, 11]. These medications suppress bacterial density and urease enzyme activity, prompting false-negative readings while viable organisms remain in the stomach [1, 5, 11].\n\nSecond, all systemic antibiotics and bismuth-containing agents must be discontinued for at least four full weeks prior to diagnostic testing [1, 2, 5, 8]. If a child recently completed an antibiotic course for an unrelated respiratory illness or gastroenteritis and undergoes testing immediately, the result will be unreliable and cannot support clinical decisions [1, 5, 8]. Always provide the evaluating physician with a comprehensive list of all prescription and over-the-counter medications administered during the preceding month to ensure proper timing [1, 5, 11].\n\nFollowing completion of an eradication regimen, when and how should cure be confirmed? Clinical guidelines state that post-treatment confirmation of eradication is indicated for children treated for documented peptic ulcer disease, complicated infections, or persistent clinical symptoms [1, 2, 3]. Confirmation testing must be scheduled at least 4 to 8 weeks after the final antibiotic dose, and at least 2 weeks after stopping PPIs [1, 2, 5, 12]. The test must utilize either a validated laboratory stool antigen test or a 13C-urea breath test; blood serology must never be employed for post-treatment verification [1, 5, 8, 12]. Disciplined adherence to these timelines ensures clear clinical verification that infection has been eradicated [1, 2, 12]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "alarm-signs-and-la-rose-pediatric-evaluation",
+          "heading": {
+            "ar": "علامات الإنذار وخطوات التقييم المنظم في عيادات لاروز",
+            "en": "Warning signs and structured pediatric assessment at La Rose Clinics"
+          },
+          "body": {
+            "ar": "رغم إن أغلب آلام البطن عند الأطفال بتكون حميدة أو وظيفية وبتتحسن بالروتين والتنظيم، فيه علامات إنذار حمراء واضحة لازم كل أسرة تنتبه ليها كويس لأنها بتدل على مشكلة عضوية أو نزيف يستدعي رعاية طبية عاجلة من غير أي انتظار [1, 3, 4, 9, 10]. لو ظهرت أي علامة من دول، مينفعش نستنى ميعاد عادي ولا نقعد نسأل في جروبات، لازم الطفل يتشاف طبياً فوراً: لو الطفل بيرجع دم أو مادة بنية غامقة شبه تفل القهوة، أو بيخرج براز أسود قطراني كريه الرائحة، أو بيشتكي من وجع شديد مفاجئ ومستمر مش بيهدأ خالص [3, 9, 10].\n\nكمان لازم تراجع دكتور الأطفال بسرعة لو الطفل عنده قيء أخضر صفراوي، أو قيء متكرر مخليه مش قادر يشرب أي سوائل وبدأ يبان عليه علامات جفاف زي جفاف الشفايف وقلة التبول والخمول الشديد [3, 4, 10]. وبرضه لو لاحظت إن الطفل بينزل في الوزن من غير دايت، أو معدل نموه على منحنى الطول والوزن واقف ومش بيزيد طبيعي، أو عنده وجع بطن بيصحيه من النوم بالليل بانتظام، أو شحوب شديد وإرهاق دائم مش مفسر [1, 3, 4, 7]. العلامات دي بتخلي الطبيب يبدأ تقييماً موجهاً وسريعاً لاستبعاد القرح أو الالتهابات العضوية أو المشكلات الجراحية [1, 3, 10].\n\nفي عيادات لاروز بالمعادي، بتقدم د. علياء أبو طالب، استشاري طب الأطفال، تقييماً إكلينيكياً شاملاً ومتكاملاً للأطفال اللي بيعانوا من آلام البطن المتكررة والاضطرابات الهضمية ومتابعة النمو. الكشف في العيادة بيركز على تقييم الطفل ككل: مراجعة القصة المرضية بدقة، متابعة منحنيات النمو والوزن، التفرقة الواعية بين ألم البطن الوظيفي والأسباب العضوية، واختيار الفحوصات الضرورية فقط من غير إرهاق الطفل بتحاليل أو أدوية عشوائية مالهاش داعي. لما تحتاج لرأي طبي متخصص يطمنك ويرسم مساراً آمناً لصحة طفلك، تقدر بكل سهولة تعمل طلب حجز استشارة طب الأطفال لبدء الكشف المنظم.",
+            "en": "Although the majority of childhood abdominal complaints represent benign or functional disorders responsive to routine lifestyle measures, objective red-flag warning signs exist that warrant immediate or expedited clinical care [1, 3, 4, 9, 10]. If any of these alarm features emerge, evaluation should never be deferred: vomiting blood or dark material resembling coffee grounds, passing black tarry stools (melena), or developing severe, unrelenting abdominal pain [3, 9, 10].\n\nPrompt pediatric assessment is likewise essential if a child exhibits bilious (green) vomiting, persistent vomiting preventing oral fluid intake, or symptoms of dehydration such as reduced urination, dry mucous membranes, and marked lethargy [3, 4, 10]. Furthermore, unintentional weight loss, growth faltering across serialized height and weight charts, abdominal pain that consistently awakens the child from deep sleep, and progressive pallor or unexplained fatigue demand structured secondary investigation to rule out peptic ulcers, systemic disease, or surgical emergencies [1, 3, 4, 7, 10].\n\nAt La Rose Clinics in Maadi, Dr. Alyaa Abu Taleb, Consultant Pediatrician, provides comprehensive, evidence-based assessments for children presenting with recurrent abdominal pain, gastrointestinal concerns, and growth-related challenges. Consultations emphasize a whole-child perspective: evaluating symptom chronicity, reviewing growth trajectories, distinguishing functional gut disorders from organic pathology, and ordering only targeted investigations rather than subjecting children to indiscriminate testing or empiric medication. When your child requires structured clinical clarity and reassurance, you can request a paediatric consultation to begin an organized clinical evaluation."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز استشارة طب الأطفال",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a paediatric consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل لو طفل عنده وجع بطن متكرر لازم نعمل له تحليل جرثومة المعدة فوراً؟",
+            "en": "If a child has recurrent tummy aches, should we test for H. pylori immediately?"
+          },
+          "a": {
+            "ar": "لأ، مش لازم خالص. أغلب حالات وجع البطن المتكرر عند أطفال المدارس بتكون ناتجة عن اضطرابات وظيفية شائعة زي القولون العصبي أو الإمساك، ومش بسبب جرثومة المعدة [3, 4, 6]. التوصيات الطبية الدولية بتنصح بعدم فحص الجرثومة كخطوة أولى في وجع البطن المعتاد اللي مفيش معاه علامات خطر، لأن وجود البكتيريا ممكن يكون صامت ومش هو سبب الوجع، والأصح فحص نمو الطفل ومعرفة السبب الفعلي وعلاجه بهدوء [1, 3, 4, 6].",
+            "en": "No, not at all. Most cases of recurrent tummy pain in school-aged children arise from common functional disorders such as irritable bowel syndrome, functional abdominal pain, or constipation, rather than H. pylori [3, 4, 6]. International clinical guidelines advise against testing for H. pylori as a first-line response to ordinary pain without warning signs, because carrying the bacterium can be completely asymptomatic and unrelated to the discomfort; care should focus instead on evaluating growth and identifying the true cause [1, 3, 4, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ليه الإرشادات العالمية بترفض مبدأ «حلّل وعالج» بجرثومة المعدة عند الأطفال؟",
+            "en": "Why do international guidelines reject a “test-and-treat” approach for children?"
+          },
+          "a": {
+            "ar": "لأن نسبة كبيرة من الأطفال حول العالم ممكن يحملوا الجرثومة في معدتهم كاستعمار بكتيري صامت من غير أي التهاب أو قرحة أو ضرر صحي خالص [1, 3, 8]. تطبيق مبدأ «حلّل وعالج» بيخلي أطفال كتير ياخدوا كورسات مضادات حيوية قوية ومكثفة لمدة أسبوعين هما في غنى عنها، وده بيعمل أعراضاً جانبية زي الإسهال والغثيان ويضر توازن بكتيريا الأمعاء النافعة، وبيزود مقاومة البكتيريا للمضادات من غير ما يحل سبب الوجع الحقيقي [1, 2, 3, 8].",
+            "en": "Because a substantial proportion of children harbour H. pylori in their stomach as asymptomatic colonization without developing mucosal inflammation, ulceration, or harm [1, 3, 8]. Applying a “test-and-treat” policy results in many children receiving aggressive two-week multi-antibiotic regimens they do not need, triggering adverse effects such as diarrhoea and nausea, disrupting the gut microbiome, and driving antimicrobial resistance without resolving the genuine underlying cause of pain [1, 2, 3, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "عملنا للطفل تحليل دم وطلع إيجابي، هل ده يثبت وجود عدوى نشطة محتاجة علاج؟",
+            "en": "We did a blood antibody test for our child and it was positive; does that prove an active infection needing treatment?"
+          },
+          "a": {
+            "ar": "لأ، فحص الأجسام المضادة في الدم (IgG) مش بيثبت وجود عدوى نشطة في المعدة دلوقتي [1, 3, 5]. الأجسام المضادة دي بتدل بس على إن الجهاز المناعي اتعرض للجرثومة في وقت ما، وممكن تفضل موجودة وبتلف في الدم لشهور أو سنين طويلة حتى لو البكتيريا مش موجودة خالص [5, 8, 9]. التوصيات الطبية بتمنع استخدام تحليل الدم لتشخيص الجرثومة أو تقييم الشفاء عند الأطفال، وتوجيه العلاج بناءً عليه خطأ سريري [1, 3, 5, 8].",
+            "en": "No, an antibody blood test (serology for IgG) does not prove an active current gastric infection [1, 3, 5]. Circulating antibodies merely indicate that the immune system encountered the bacterium at some point in the past, and they can remain detectable in blood for months or years even after the organism has been completely cleared [5, 8, 9]. International guidelines explicitly advise against using serology to diagnose infection or confirm cure in children, and treating based on a blood test alone is considered inappropriate practice [1, 3, 5, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو الأب أو الأم عندهم جرثومة، هل لازم نفحص باقي أطفال البيت؟",
+            "en": "If a parent has H. pylori, should all children in the household be screened?"
+          },
+          "a": {
+            "ar": "لأ، التوصيات الطبية بتأكد إن مفيش أي داعي لفحص الأطفال اللي مبيشتكوش من أعراض حتى لو حد من الوالدين أو الإخوة عنده جرثومة [1, 3, 4]. الجرثومة ممكن تتنقل بين أفراد الأسرة، بس وجودها عند الطفل الصامت مش خطر ومش محتاج علاج طالما مفيش قرحة أو أعراض مرضية [3, 4, 9]. الأهم هو الاهتمام بالنظافة العامة وغسل الإيدين كويس، والتركيز على فحص الطفل بس لما تظهر عليه أعراض حقيقية تستدعي كشفاً طبياً [1, 3, 4].",
+            "en": "No, clinical guidelines clearly state that there is no indication to screen asymptomatic children simply because a parent or sibling has been diagnosed with H. pylori [1, 3, 4]. While intra-familial transmission can happen, carrying the bacterium asymptomatically does not pose an acute risk and requires no therapy in the absence of peptic ulcer disease or clinical indications [3, 4, 9]. The best approach is maintaining routine hygiene and handwashing, reserving medical evaluation for children who actually develop concerning symptoms [1, 3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى بنحتاج نعمل تحليل للتأكد من الشفاء بعد انتهاء كورس العلاج؟",
+            "en": "When is a follow-up test needed to confirm eradication after completing treatment?"
+          },
+          "a": {
+            "ar": "فحص تأكيد الشفاء بيتعمل في الحالات اللي كان فيها قرحة هضمية مثبتة أو نزيف أو أعراض شديدة محتاجة متابعة دقيقة [1, 2, 3]. الفحص لازم يتعمل بعد 4 إلى 8 أسابيع كاملة من آخر جرعة مضاد حيوي، وبعد توقف أدوية الحموضة (PPIs) بأسبوعين على الأقل [1, 2, 5, 12]. وبيستخدم فيه فحص مستضد البراز بالمعمل أو اختبار النفَس، وممنوع نهائياً الاعتماد على تحليل الدم للتأكد من الشفاء [1, 5, 8, 12].",
+            "en": "Confirmation of eradication is indicated for children treated for documented peptic ulcer disease, complicated infections, or persistent clinical symptoms requiring structured follow-up [1, 2, 3]. The test must be scheduled at least 4 to 8 weeks after finishing the final dose of antibiotics and at least 2 weeks after discontinuing proton pump inhibitors [1, 2, 5, 12]. It is performed using a monoclonal stool antigen test or a 13C-urea breath test, never an antibody blood test [1, 5, 8, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه الأدوية اللي لازم توقفها قبل فحص جرثومة المعدة عشان النتيجة ما تطلعش سلبية غلط؟",
+            "en": "Which medicines must be stopped before testing to avoid a false-negative result?"
+          },
+          "a": {
+            "ar": "لازم توقف أدوية مثبطات مضخة البروتون للحموضة (زي أوميبرازول وبانتوبرازول وإيزوميبرازول) لمدة أسبوعين كاملين قبل أي فحص نشط للجرثومة [1, 5, 11]. كمان لازم توقف أي مضادات حيوية ومركبات البزموت لمدة 4 أسابيع على الأقل قبل ميعاد التحليل [1, 5, 8, 11]. عدم الالتزام بالمدد دي بيخلي البكتيريا تخمل وتطلع النتيجة سلبية بالخطأ رغم وجود العدوى، فعرف الطبيب بكل الأدوية اللي طفلك بياخدها [1, 5, 8].",
+            "en": "Proton pump inhibitors (such as omeprazole, pantoprazole, and esomeprazole) must be stopped for at least two full weeks before any active H. pylori test [1, 5, 11]. Furthermore, all antibiotics and bismuth-containing medications must be discontinued for at least four full weeks before testing [1, 5, 8, 11]. Failing to observe these washout windows suppresses bacterial activity, producing false-negative results despite ongoing infection; always review all recent medications with the clinician [1, 5, 8]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Homan et al. — Updated joint ESPGHAN/NASPGHAN guidelines for management of H. pylori infection in children and adolescents (PubMed, 2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39148213/"
+        },
+        {
+          "label": "ESPGHAN — 2024 updated joint ESPGHAN/NASPGHAN H. pylori guideline publication page",
+          "url": "https://www.espghan.org/knowledge-center/publications/Gastroenterology/2023-joint-ESPGHAN-NASPGHAN-guidelines-for-management-of-Helicobacter-pylori-infection-in-children-and-adolescents"
+        },
+        {
+          "label": "Jones et al. — Joint ESPGHAN/NASPGHAN Guidelines for the Management of Helicobacter pylori in Children and Adolescents (Update 2016, PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28541262/"
+        },
+        {
+          "label": "American Academy of Pediatrics (HealthyChildren.org) — Helicobacter Pylori Infections",
+          "url": "https://www.healthychildren.org/English/health-issues/conditions/abdominal/pages/Helicobacter-Pylori-Infections.aspx"
+        },
+        {
+          "label": "Seo et al. — Diagnosis of Helicobacter pylori Infection in Children and Adolescents (PMC, 2018)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6182473/"
+        },
+        {
+          "label": "Thapar et al. — Paediatric functional abdominal pain disorders (Nature Reviews Disease Primers, 2020)",
+          "url": "https://www.nature.com/articles/s41572-020-00222-5"
+        },
+        {
+          "label": "Wang et al. — Impact of Helicobacter pylori infection on iron deficiency anemia in children: systematic review and meta-analysis (Front Microbiol, 2025)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12222266/"
+        },
+        {
+          "label": "Nguyen, Kotilea, Bontems & Miendje Deyi — Helicobacter pylori Infections in Children (Antibiotics, 2023)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10525885/"
+        },
+        {
+          "label": "StatPearls, NCBI Bookshelf — Helicobacter Pylori",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK534233/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Peptic Ulcers",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Peptic Ulcers",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/diagnosis"
+        },
+        {
+          "label": "NIDDK — Treatment for Peptic Ulcers",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/treatment"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "جرثومة المعدة عند الأطفال: إمتى بنحلل؟",
+          "en": "H. pylori testing in children: when?"
+        },
+        "description": {
+          "ar": "دليل يوضح إمتى الطبيب بيفكر في تحليل جرثومة المعدة عند الأطفال، وليه بنبعد عن الفحص العشوائي في وجع البطن الشائع، وأهمية المنظار في تشخيص القرحة.",
+          "en": "A clinical guide explaining when pediatricians consider H. pylori testing in children, why routine screening is avoided, and how causes are investigated."
+        }
+      }
+    }
+  ]
+}

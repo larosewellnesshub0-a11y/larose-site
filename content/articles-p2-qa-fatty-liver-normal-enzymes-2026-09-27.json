@@ -1,0 +1,313 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-fatty-liver-normal-enzymes; replaces the entry from content/articles.json. Expanded the short answer into a bilingual, cited guide to normal enzymes, ultrasound findings, fibrosis assessment, follow-up and urgent warning signs.",
+  "articles": [
+    {
+      "slug": "qa-fatty-liver-normal-enzymes",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "clinical-nutrition"
+      ],
+      "date": "2026-08-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا الإجابة بشرح معنى الإنزيمات الطبيعية وخطوات تقييم التليّف والمتابعة، واتراجعت طبياً من جديد.",
+            "en": "We expanded the answer to explain normal enzymes, fibrosis assessment and follow-up, and medically re-reviewed it."
+          }
+        }
+      ],
+      "image": "assets/img/articles/qa-fatty-liver-normal-enzymes.webp",
+      "title": {
+        "ar": "دهون الكبد مع إنزيمات طبيعية: هل فيه خطر؟",
+        "en": "Fatty liver with normal enzymes: is there still a risk?"
+      },
+      "excerpt": {
+        "ar": "إنزيمات الكبد الطبيعية خبر مطمّن جزئياً، بس مش بتنفي وجود الدهون أو التليّف. اعرف إيه اللي بيقوله السونار، وإزاي الطبيب بيقدّر الخطر والخطوة الجاية.",
+        "en": "Normal liver enzymes are partly reassuring, but they do not rule out liver fat or fibrosis. Learn what ultrasound shows and how a clinician assesses risk and the next step."
+      },
+      "sections": [
+        {
+          "id": "short-answer",
+          "heading": {
+            "ar": "الإجابة المختصرة: النتيجتان مش متناقضتين",
+            "en": "The short answer: the two results are not contradictory"
+          },
+          "body": {
+            "ar": "لأ، إنزيمات الكبد الطبيعية مش معناها إن تقرير الدهون غلط أو إن الكبد خالي تماماً من التليّف. السونار وتحاليل الدم بيبصوا على حاجات مختلفة: السونار العادي ممكن يلقط مظهراً يتماشى مع تراكم الدهون، بينما إنزيمات زي ALT وAST بتعكس تسرّب مواد من خلايا الكبد وقت الإصابة. ممكن الدهون تكون موجودة من غير ارتفاع واضح وقت التحليل، وممكن كمان يبقى فيه تليّف مهم عند بعض الناس رغم إن الإنزيمات جوه المجال المكتوب في ورقة المعمل. عشان كده إرشادات NICE بتقول صراحة إن تحاليل الكبد الروتينية ما تتستخدمش لوحدها لنفي دهون الكبد أو لتقدير التليّف المتقدم [1, 2].\n\nالجزء المطمّن هو إن التحليل الطبيعي ما بيديش علامة حالية على ارتفاع الإنزيمات، وده معلومة مفيدة فعلاً. بس هو مش شهادة شاملة على صحة الكبد، ومش بيجاوب وحده عن سبب المظهر الدهني أو درجة الندبات. الإرشادات الحديثة بتوصي إن اكتشاف الدهون بالصدفة يتبعه فهم السبب المحتمل وتقدير خطر التليّف، خصوصاً مع السكر من النوع التاني أو زيادة دهون البطن أو ضغط ودهون دم غير منضبطين. المعنى العملي بسيط: ما تفزعش من كلمة «دهون»، وما تعتبرش كلمة «طبيعي» نهاية الموضوع؛ اجمع النتيجتين مع التاريخ الصحي والفحص وباقي التحاليل [2, 3].",
+            "en": "No. Normal liver enzymes do not mean that the fatty-liver report is wrong or that fibrosis is certainly absent. Ultrasound and blood tests look at different things. Routine ultrasound may detect an appearance consistent with fat accumulation, while enzymes such as ALT and AST reflect substances released from liver cells during injury. Fat may be present without a clear enzyme rise at the time of testing, and some people can have clinically important fibrosis even when their enzymes sit inside the laboratory's printed range. NICE therefore explicitly advises against using routine liver blood tests alone to rule out fatty liver or assess advanced fibrosis [1, 2].\n\nThe reassuring part is that a normal result shows no current enzyme elevation, which is genuinely useful information. It is not, however, a complete certificate of liver health and cannot by itself identify the cause of the fatty appearance or the amount of scarring. Current guidance recommends that an incidental fatty-liver finding should prompt consideration of its likely cause and an assessment of fibrosis risk, especially in the presence of type 2 diabetes, central adiposity, raised blood pressure or abnormal blood lipids. The practical message is balanced: do not panic about the word “fatty,” but do not let the word “normal” close the assessment; read both findings alongside medical history, examination and the rest of the results [2, 3]."
+          }
+        },
+        {
+          "id": "what-normal-enzymes-mean",
+          "heading": {
+            "ar": "إنزيمات طبيعية بتقول إيه، وما بتقولش إيه؟",
+            "en": "What do normal enzymes say—and what do they not say?"
+          },
+          "body": {
+            "ar": "ALT وAST بيتسمّوا غالباً «إنزيمات الكبد»، لكنهم مش قياس مباشر لكل وظائف الكبد. ارتفاعهم ممكن يحصل لما خلايا الكبد تتأذى، وانخفاضهم للمجال المرجعي معناه إن الارتفاع مش ظاهر في العينة دي. النتيجة بتتأثر كمان بالمجال اللي المعمل مستخدمه، وتوقيت التحليل، والسن، والأدوية، وأي مرض حاد قريب. عشان كده الطبيب بيشوف الرقم نفسه واتجاهه مع الوقت، مش كلمة طبيعي أو عالي بس. وبيفرّق بين إنزيمات الإصابة وبين مؤشرات تانية زي البيليروبين والألبومين والتجلط والصفائح، لأن كل واحدة بتجاوب عن سؤال مختلف [2, 9].\n\nالكبد الدهني غالباً بيكون ساكت، وناس كتير ما عندهمش أعراض واضحة حتى لو الحالة محتاجة متابعة. التعب أو إحساس مبهم أعلى يمين البطن ممكن يحصل، بس مش خاص بدهون الكبد ومش بيحدد شدتها. وبرضه عدم وجود وجع مش دليل إن التليّف صفر. لو التحاليل اتكررت، المقارنة المفيدة لازم تكون بالتواريخ والقيم الفعلية وظروف التحليل، مع تجنب تفسير فرق صغير من نفسك. الطبيب ممكن يعيد جزءاً من التحاليل أو يطلب مؤشرات تانية حسب القصة، لكنه مش لازم يكرر كل حاجة لمجرد القلق. الهدف إن كل فحص يجاوب سؤالاً واضحاً بدل ما نطارد رقم منفرد [5, 6, 9].",
+            "en": "ALT and AST are commonly called “liver enzymes,” but they are not direct measures of every liver function. They may rise when liver cells are injured, while a value inside the reference interval means that an elevation was not detected in that sample. Interpretation is also influenced by the laboratory's range, timing, age, medicines and a recent acute illness. A clinician therefore considers the actual value and its trend, not only the flags “normal” or “high.” They also distinguish injury enzymes from other measures such as bilirubin, albumin, clotting results and platelets, because each answers a different question [2, 9].\n\nFatty liver is often silent, and many people have no clear symptoms even when structured follow-up is worthwhile. Tiredness or vague discomfort in the upper right abdomen can occur, but neither is specific to fatty liver or a measure of severity. Similarly, having no pain does not prove that fibrosis is absent. When tests are repeated, useful comparison requires the dates, actual values and clinical circumstances, rather than self-interpreting a small fluctuation. A clinician may repeat selected tests or request other markers according to the history, but does not necessarily need to repeat everything because of anxiety alone. The aim is for each test to answer a defined question instead of chasing one isolated number [5, 6, 9]."
+          }
+        },
+        {
+          "id": "what-ultrasound-shows",
+          "heading": {
+            "ar": "السونار شاف دهون، بس حدوده فين؟",
+            "en": "Ultrasound saw fat, but where are its limits?"
+          },
+          "body": {
+            "ar": "السونار العادي بيستخدم الصوت عشان يكوّن صورة، وممكن يصف الكبد إنه أكثر سطوعاً أو إن المظهر يتماشى مع تراكم الدهون. ده فحص شائع ومفيد، بس ما يقدرش يثبت وجود التهاب دهني نشط، وما يقيسش درجة التليّف بدقة، وحساسيته أقل لما كمية الدهون بسيطة. جودة الصورة كمان ممكن تتأثر ببنية الجسم والجهاز وخبرة الفاحص. عشان كده كلمة «mild» أو «grade» في التقرير ما تتحولش لوحدها لتوقع عن المستقبل، وإعادة السونار بسرعة مش بالضرورة تجاوب السؤال الناقص [4, 5].\n\nالتقرير لازم يتقري مع سبب الفحص والصور لو متاحة والنتائج القديمة. الطبيب كمان بيراجع هل فيه سبب تاني لتراكم الدهون، زي نمط شرب كحول ينطبق على الحالة، دواء معين، فقدان وزن سريع، سوء تغذية أو مرض أقل شيوعاً. ده مش معناه إن كل شخص محتاج قائمة ضخمة من التحاليل؛ الاختيار بيتفصل على القصة وعوامل الخطر. ولو عايز تفهم صياغة التقرير من غير ما نخرج لنطاق التليّف والعلاج، راجع دليل سونار دهون الكبد، لأنه بيوضح دور الصورة وحدودها والخطوات العملية بعد النتيجة [3, 5, 6].",
+            "en": "Routine ultrasound uses sound to create an image and may describe the liver as brighter or its appearance as consistent with fat accumulation. It is common and useful, but it cannot establish active steatohepatitis, cannot stage fibrosis accurately, and is less sensitive when the amount of fat is mild. Image quality can also be influenced by body habitus, equipment and operator factors. A word such as “mild” or a “grade” in the report should not therefore be converted into a prediction about the future, and repeating ultrasound quickly will not necessarily answer the missing question [4, 5].\n\nThe report should be read with the reason for the scan, images when available and earlier results. The clinician also reviews whether another cause of liver fat may apply, such as the relevant pattern of alcohol use, a medicine, rapid weight loss, malnutrition or a less common condition. This does not mean that everyone needs an enormous test panel; selection is tailored to the history and risk factors. If you want to understand the report wording without drifting into the separate subjects of fibrosis and treatment, see the fatty-liver ultrasound guide, which explains the role and limits of imaging and the practical steps after a result [3, 5, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل سونار دهون الكبد",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "fatty-liver ultrasound guide",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fibrosis-risk-assessment",
+          "heading": {
+            "ar": "السؤال الأهم: هل خطر التليّف محتاج خطوة تانية؟",
+            "en": "The key question: does fibrosis risk need another step?"
+          },
+          "body": {
+            "ar": "التليّف معناه ندبات، وهو مختلف عن الدهون ومختلف عن ارتفاع الإنزيمات. الطبيب غالباً بيبدأ بتقييم بسيط يجمع السن مع AST وALT وعدد الصفائح في حساب زي FIB-4. الحساب مش تشخيص، وما ينفعش تدخّل أرقامك في موقع وتاخد قرار علاجي؛ دقته وحدوده بتختلف مع السن، والحمل، والمرض الحاد، وبعض الحالات المصاحبة. فائدته الأساسية إنه يساعد يفرّق بين احتمال منخفض ممكن يتابع بخطة منظمة، ونتيجة غير حاسمة أو أعلى تحتاج مراجعة أو اختباراً إضافياً [2, 4].\n\nلو السؤال لسه مفتوح، ممكن الطبيب يختار فحص صلابة الكبد بالموجات المرنة أو وسيلة غير جراحية تانية. الصلابة مش مرادفاً آلياً للتليّف، لأنها ممكن تتأثر بالالتهاب والاحتقان وجودة القياس، فنتيجتها برضه بتتقري في السياق. العينة مش فحصاً روتينياً لكل واحد عنده دهون؛ مكانها في حالات مختارة لما الاختبارات غير الجراحية ما تحسمش سؤالاً مهماً أو لما فيه احتمال لمرض تاني. شرح تقييم تليف الكبد بيفصّل الفرق بين الدهون والندبات من غير ما يكرر موضوع العلاج. أهم نقطة هنا إن الإنزيم الطبيعي ما يلغييش مسار تقييم التليّف لما عوامل الخطر تستدعيه [1, 2, 3, 5].",
+            "en": "Fibrosis means scarring; it is different from liver fat and from an enzyme elevation. A clinician often starts with a simple assessment that combines age, AST, ALT and platelet count in a score such as FIB-4. The score is not a diagnosis, and entering your numbers into a website should not become a treatment decision. Its performance and limitations vary with age, pregnancy, acute illness and some accompanying conditions. Its main value is helping separate a low likelihood that may suit structured follow-up from an indeterminate or higher result that warrants review or another test [2, 4].\n\nIf the question remains open, the clinician may select liver-stiffness measurement with elastography or another non-invasive method. Stiffness is not automatically synonymous with fibrosis because inflammation, congestion and measurement quality can influence it, so its result also needs context. Biopsy is not routine for everyone with fatty liver; it has a selected role when non-invasive tests do not settle an important question or another disease remains possible. The liver-fibrosis assessment guide explains the difference between fat and scarring without repeating the treatment topic. The central point here is that a normal enzyme result does not cancel a fibrosis pathway when the person's risk profile makes one appropriate [1, 2, 3, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "شرح تقييم تليف الكبد",
+                "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "liver-fibrosis assessment guide",
+                "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "whole-health-review",
+          "heading": {
+            "ar": "إيه اللي الطبيب بيراجعه غير الكبد؟",
+            "en": "What does the clinician review beyond the liver?"
+          },
+          "body": {
+            "ar": "الاسم الحديث MASLD بيربط الدهون بوجود عامل أو أكثر من عوامل الصحة الأيضية، زي السكر أو مقاومة الإنسولين، زيادة محيط الوسط، ضغط مرتفع، أو اضطراب الدهون في الدم. وجود العامل ما يثبتش التليّف، وعدم وجود زيادة وزن ما ينفيش دهون الكبد. الطبيب بيسأل عن الوزن وتغيّره، الحركة، الأكل، النوم، الأمراض والأدوية، وتاريخ العيلة لما يكون مهماً. بيراجع كمان الضغط، السكر التراكمي أو قياسات السكر، والدهون والصفائح وباقي تحاليل الكبد حسب الحالة، لأن الخطة لازم تهتم بخطر القلب والأوعية والصحة العامة جنب الكبد [2, 3, 6].\n\nالكحول لازم يتناقش بصراحة ومن غير لوم، لأن الكمية والنمط ممكن يغيّروا تفسير الدهون والخطة. وقائمة الأدوية والمكملات مهمة برضه؛ بعض المنتجات والأعشاب ممكن تأذي الكبد، بس ده مش سبب إنك توقف دواء موصوف من نفسك. خد اسم كل دواء ومكمل وجرعته، وسيب قرار الاستمرار أو التعديل للطبيب اللي فاهم السبب اللي اتوصف عشانه. ممكن كمان يحتاج يستبعد التهاباً فيروسياً أو سبباً مناعياً أو وراثياً لو التاريخ أو النتائج يلمّحوا لكده، لكن الفحوص بتتحدد فردياً مش كقائمة ثابتة لكل الناس [3, 5, 9].",
+            "en": "The current term MASLD links steatotic liver disease with one or more cardiometabolic factors, such as altered glucose or insulin resistance, increased waist size, raised blood pressure or abnormal blood lipids. A risk factor does not prove fibrosis, and the absence of excess weight does not rule out liver fat. The clinician asks about weight and its change, activity, food pattern, sleep, conditions, medicines and relevant family history. Blood pressure, glycated haemoglobin or other glucose measures, lipids, platelets and the rest of the liver panel may also be reviewed according to the case, because a plan should address cardiovascular and general health alongside the liver [2, 3, 6].\n\nAlcohol should be discussed honestly and without blame because the amount and pattern can change both interpretation and management. A full medicine and supplement list matters too; some products and herbs can injure the liver, but that is not a reason to stop prescribed treatment on your own. Bring each product's name and dose, and leave continuation or adjustment to the clinician who understands why it was prescribed. Viral hepatitis, autoimmune disease or a genetic cause may also need exclusion when the history or results point that way, but testing is selected individually rather than ordered as one fixed panel for everyone [3, 5, 9]."
+          }
+        },
+        {
+          "id": "what-to-do-now",
+          "heading": {
+            "ar": "تعمل إيه دلوقتي من غير ديتوكس أو حمية قاسية؟",
+            "en": "What can you do now without a detox or crash diet?"
+          },
+          "body": {
+            "ar": "ابدأ بخطوات قابلة للاستمرار: قلل المشروبات المحلّاة والأكل شديد التصنيع، وخلي الوجبات فيها خضار وحبوب كاملة ومصادر بروتين ودهون غير مشبعة تناسب حالتك، وزوّد الحركة تدريجياً حسب قدرتك الطبية. لو عندك زيادة وزن، النزول التدريجي ممكن يقلل دهون الكبد، والتحسن الأكبر في الالتهاب والندبات عادة يحتاج نزولاً أكبر تحت إشراف مناسب. بس الهدف مش رقم سريع ولا تجويع؛ فقدان الوزن السريع وسوء التغذية ممكن يضروا. والحركة مفيدة حتى لو الميزان ما اتغيرش بالشكل اللي متوقعه [7, 8].\n\nبلاش تشتري «منظف كبد»، وما تبدأش فيتامين أو عشبة أو دواء من الإنترنت عشان السونار. سلامة المكمل مش مضمونة من كلمة طبيعي، وبعض الأعشاب ممكن تعمل إصابة كبدية أو تتداخل مع علاج. وفي المقابل، ما توقفش دواء للسكر أو الضغط أو الدهون لمجرد إن التقرير قال دهون؛ علاج المخاطر المصاحبة جزء أساسي من الرعاية، والقرار بيتراجع مع الطبيب. دليل علاج دهون الكبد ومتابعتها بيوسّع تفاصيل نمط الحياة والمتابعة من غير ما يحوّل الصفحة دي لوصفة عامة. خطتك ممكن تختلف حسب الوزن والسكر والتليّف والأدوية، فخلّي القرار فردياً [1, 2, 7, 10].",
+            "en": "Start with sustainable steps: reduce sugar-sweetened drinks and highly processed foods; build meals around vegetables, whole grains, suitable protein sources and unsaturated fats; and increase activity gradually within your medical ability. If you have excess weight, gradual loss can reduce liver fat, while greater improvement in inflammation and scarring usually needs more loss under suitable supervision. The aim is not a rapid number or starvation. Rapid loss and malnutrition can worsen liver health, and physical activity can still help even when the scale does not change as expected [7, 8].\n\nDo not buy a “liver cleanse,” or start a vitamin, herb or internet medicine because of the scan. The word “natural” does not establish supplement safety, and some herbs can injure the liver or interact with treatment. Conversely, do not stop a medicine for diabetes, blood pressure or lipids simply because the report mentions fat; treating accompanying risks is central to care, and changes belong in a clinician review. The fatty-liver treatment and follow-up guide expands on lifestyle and monitoring without turning this page into a universal prescription. Your plan may differ with weight, glucose, fibrosis risk and medicines, so decisions should remain individual [1, 2, 7, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل علاج دهون الكبد ومتابعتها",
+                "url": "../articles/fatty-liver-treatment-and-follow-up.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "fatty-liver treatment and follow-up guide",
+                "url": "../articles/fatty-liver-treatment-and-follow-up.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "follow-up-and-red-flags",
+          "heading": {
+            "ar": "المتابعة إمتى، وإيه العلامات اللي ما تستناش؟",
+            "en": "When is follow-up due, and which signs should not wait?"
+          },
+          "body": {
+            "ar": "مفيش جدول واحد يناسب كل الناس. توقيت إعادة التحاليل أو تقدير التليّف بيعتمد على نتيجة التقييم الأول، والسن، ووجود سكر أو عوامل أيضية، وأي تغير في الأعراض أو الأدوية. بعض المسارات بتعيد التقييم غير الجراحي دورياً عند الخطر المنخفض، بينما النتيجة غير الحاسمة أو المرتفعة ممكن تحتاج خطوة أقرب أو إحالة. اتفق مع الطبيب على اسم الفحص، وميعاده، وإيه التغير اللي هيبدّل الخطة. صور التقرير والتحاليل القديمة والقيم بالتواريخ أهم من الاعتماد على الذاكرة [1, 2, 4].\n\nدهون الكبد البسيطة غالباً مش طوارئ. بس اصفرار جديد في العين أو الجلد، بول غامق مع براز فاتح، تورم سريع أو واضح في البطن أو الرجلين، قيء دموي، براز أسود، تشوش أو نعاس غير معتاد، إغماء، ألم شديد أو قيء مستمر محتاجين تقييماً عاجلاً حسب الشدة. ما تستناش ميعاد متابعة روتيني أو إعادة سونار لو الأعراض دي ظهرت. ولو مفيش علامات خطر، رتّب مراجعة منظمة بدل ما تعمل فحوص متفرقة؛ الطبيعي القديم ما يفسرش عرضاً جديداً، والتقرير الدهني لوحده ما يثبتش سبب أي ألم [6, 10].",
+            "en": "There is no single schedule for everyone. Timing of repeat blood tests or fibrosis assessment depends on the first risk assessment, age, diabetes or other metabolic factors, and any change in symptoms or medicines. Some pathways repeat non-invasive assessment periodically when risk is low, while an indeterminate or higher result may need an earlier next step or referral. Agree with the clinician on the test name, timing and the change that would alter the plan. Copies of the scan and dated laboratory values are more useful than memory alone [1, 2, 4].\n\nUncomplicated fatty liver is usually not an emergency. New yellowing of the eyes or skin, dark urine with pale stool, rapid or marked swelling of the abdomen or legs, vomiting blood, black stool, confusion or unusual drowsiness, fainting, severe pain or persistent vomiting need urgent assessment according to severity. Do not wait for a routine follow-up or repeat scan if these appear. Without warning signs, arrange a structured review instead of collecting disconnected tests. An old normal result cannot explain a new symptom, while a fatty-liver report alone cannot prove the cause of every pain [6, 10]."
+          }
+        },
+        {
+          "id": "prepare-for-review",
+          "heading": {
+            "ar": "حضّر للمراجعة وخلي الخطوة الجاية واضحة",
+            "en": "Prepare for review and make the next step clear"
+          },
+          "body": {
+            "ar": "قبل الزيارة، خد تقرير السونار والصور لو موجودة، وكل تحاليل الكبد والسكر والدهون وصورة الدم القديمة، مع قائمة الأدوية والمكملات والجرعات. اكتب باختصار هل فيه تغير في الوزن، ضغط، سكر، شرب كحول لو بينطبق، أو أعراض جديدة. اسأل أربع أسئلة عملية: هل المظهر فعلاً يتماشى مع دهون؟ هل فيه سبب تاني محتاج استبعاد؟ إيه تقدير خطر التليّف؟ وإمتى نعيد القياس أو نغيّر الخطة؟ الإجابات دي أهم من محاولة استخراج نسبة دهون أو حكم نهائي من ورقة واحدة [2, 3, 5].\n\nلو محتاج تربط التقرير بتاريخك وفحصك وتعرف هل المطلوب متابعة ولا تقييم إضافي، تقدر تطلب حجز موعد لتقييم دهون الكبد. في العيادة، القرار بيتبني على الحالة الفردية ومن غير وعد بنتيجة أو فحص زائد لمجرد الاطمئنان. الصفحة دي للتثقيف ومش بديل عن كشف، خصوصاً لو فيه حمل، مرض حاد، دواء جديد، أو علامات إنذار. الخلاصة: الإنزيمات الطبيعية مطمّنة في جزء محدد، بس الأمان الحقيقي بييجي من تقييم السبب وخطر التليّف وخطة متابعة مفهومة [1, 2, 5].",
+            "en": "Before the visit, bring the ultrasound report and images when available, all earlier liver, glucose, lipid and full-blood-count results, plus a list of medicines, supplements and doses. Briefly note weight change, blood pressure, glucose, alcohol use where relevant and new symptoms. Ask four practical questions: Does the appearance genuinely fit liver fat? Is another cause worth excluding? What is my fibrosis-risk assessment? When should we repeat a measure or change the plan? Those answers are more useful than trying to extract a fat percentage or final verdict from one sheet of paper [2, 3, 5].\n\nIf you need to connect the report with your history and examination and decide whether monitoring or further assessment is appropriate, you can request an appointment for fatty-liver assessment. In the clinic, decisions are based on the individual situation, without promising an outcome or ordering an extra test solely for reassurance. This page is educational and cannot replace an examination, particularly with pregnancy, acute illness, a new medicine or warning signs. The bottom line is that normal enzymes are reassuring about one defined part of the picture, while meaningful reassurance comes from assessing the cause, fibrosis risk and a follow-up plan you understand [1, 2, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد لتقييم دهون الكبد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request an appointment for fatty-liver assessment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل إنزيمات الكبد الطبيعية تنفي دهون الكبد؟",
+            "en": "Do normal liver enzymes rule out fatty liver?"
+          },
+          "a": {
+            "ar": "لأ. السونار والإنزيمات بيقيسوا جوانب مختلفة، وممكن الدهون تبقى موجودة من غير ارتفاع واضح في ALT أو AST. التحليل الطبيعي مفيد ومطمّن جزئياً، بس بيتقري مع التقرير والتاريخ وعوامل الخطر، مش كوسيلة وحيدة لنفي الحالة [1, 2, 5].",
+            "en": "No. Ultrasound and enzymes assess different aspects, and liver fat may be present without a clear ALT or AST elevation. A normal result is useful and partly reassuring, but it is interpreted with imaging, history and risk factors—not used alone to rule out the condition [1, 2, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الإنزيمات الطبيعية تنفي تليّف الكبد؟",
+            "en": "Do normal enzymes rule out liver fibrosis?"
+          },
+          "a": {
+            "ar": "لأ. الإنزيمات ما بتقيسش الندبات مباشرة، وبعض الناس ممكن يكون عندهم تليّف مهم مع قيم جوه المجال المرجعي. الطبيب بيقدّر الخطر بأداة مناسبة، وممكن يضيف فحص صلابة لو النتيجة أو عوامل الخطر محتاجين خطوة تانية [2, 3, 4].",
+            "en": "No. Enzymes do not directly measure scarring, and some people can have important fibrosis with values inside the reference interval. A clinician uses an appropriate risk tool and may add a stiffness test when the result or risk profile calls for another step [2, 3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل كل شخص عنده دهون كبد محتاج فايبروسكان؟",
+            "en": "Does everyone with fatty liver need FibroScan?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. البداية غالباً تاريخ وفحص وتحاليل وحساب غير جراحي، وبعدها الطبيب بيقرر هل قياس الصلابة هيضيف معلومة تغيّر الخطة. العمر والمرض الحاد وجودة القياس بيأثروا على التفسير، فالفحص مش خدمة تلقائية لكل تقرير دهون [2, 4, 5].",
+            "en": "Not necessarily. Assessment often starts with history, examination, laboratory results and a non-invasive score; the clinician then decides whether stiffness measurement would add information that changes the plan. Age, acute illness and measurement quality affect interpretation, so it is not automatic for every fatty-liver report [2, 4, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أوقف دواء الدهون أو السكر عشان أحمي الكبد؟",
+            "en": "Should I stop a lipid or diabetes medicine to protect my liver?"
+          },
+          "a": {
+            "ar": "ما توقفش علاجاً موصوفاً من نفسك. ضبط السكر والضغط ودهون الدم جزء مهم من تقليل الخطر العام، والطبيب بيراجع الفائدة والضرر والجرعة والبدائل حسب حالتك. خد قائمة الأدوية والمكملات للزيارة، واطلب نصيحة عاجلة لو شكيت في أثر جانبي شديد [1, 2, 9].",
+            "en": "Do not stop prescribed treatment on your own. Managing glucose, blood pressure and blood lipids is an important part of overall risk reduction, while a clinician reviews benefit, harm, dose and alternatives for your case. Bring a complete medicine and supplement list, and seek prompt advice for a suspected serious adverse effect [1, 2, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أخس بسرعة عشان الدهون تختفي؟",
+            "en": "Do I need to lose weight quickly so the liver fat disappears?"
+          },
+          "a": {
+            "ar": "لأ. لو فيه زيادة وزن، النزول التدريجي مع أكل متوازن وحركة مناسبة ممكن يحسّن دهون الكبد، بينما النزول السريع وسوء التغذية ممكن يضروا. الهدف بيتحدد مع الطبيب حسب صحتك ومخاطر التليّف، والحركة مفيدة حتى لو الوزن ما نزلش بسرعة [7, 8].",
+            "en": "No. If excess weight is present, gradual loss through balanced eating and suitable activity can improve liver fat, while rapid loss and malnutrition can cause harm. The target is individualised according to health and fibrosis risk, and activity remains useful even when weight does not fall quickly [7, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى دهون الكبد تحتاج طوارئ؟",
+            "en": "When does fatty liver require urgent care?"
+          },
+          "a": {
+            "ar": "مجرد تقرير الدهون غالباً مش طوارئ. اطلب تقييماً عاجلاً مع اصفرار جديد، قيء دموي، براز أسود، تورم سريع في البطن أو الرجلين، تشوش، إغماء، ألم شديد أو قيء مستمر. شدة العرض وسرعة تدهوره أهم من انتظار تحليل أو سونار جديد [6, 10].",
+            "en": "A fatty-liver report alone is usually not an emergency. Seek urgent assessment for new jaundice, vomiting blood, black stool, rapidly increasing abdominal or leg swelling, confusion, fainting, severe pain or persistent vomiting. Symptom severity and rapid worsening matter more than waiting for another blood test or scan [6, 10]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NICE — Non-alcoholic fatty liver disease: assessment and management (NG49)",
+          "url": "https://www.nice.org.uk/guidance/ng49/chapter/recommendations"
+        },
+        {
+          "label": "AASLD Practice Guidance on the clinical assessment and management of NAFLD",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/"
+        },
+        {
+          "label": "EASL–EASD–EASO Clinical Practice Guidelines on MASLD: Executive Summary",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519095/"
+        },
+        {
+          "label": "AGA — Clinical Care Pathway for NAFLD risk stratification and management",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8819923/"
+        },
+        {
+          "label": "NIDDK — Diagnosis of NAFLD and NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"
+        },
+        {
+          "label": "NIDDK — Symptoms and causes of NAFLD and NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Treatment for NAFLD and NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment"
+        },
+        {
+          "label": "NIDDK — Eating, diet and nutrition for NAFLD and NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition"
+        },
+        {
+          "label": "American College of Gastroenterology — Evaluation of Abnormal Liver Chemistries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27995906/"
+        },
+        {
+          "label": "NHS — Non-alcoholic fatty liver disease",
+          "url": "https://www.nhs.uk/conditions/non-alcoholic-fatty-liver-disease/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "دهون الكبد",
+          "إنزيمات الكبد الطبيعية",
+          "سونار الكبد",
+          "تليف الكبد"
+        ],
+        "en": [
+          "fatty liver",
+          "normal liver enzymes",
+          "liver ultrasound",
+          "liver fibrosis"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "دهون الكبد مع إنزيمات طبيعية: هل فيه خطر؟",
+          "en": "Fatty liver with normal enzymes: is there risk?"
+        },
+        "description": {
+          "ar": "هل إنزيمات الكبد الطبيعية تنفي الدهون أو التليّف؟ افهم معنى السونار، تقييم خطر التليّف، خطوات المتابعة، وعلامات الخطر المهمة.",
+          "en": "Do normal liver enzymes rule out fat or fibrosis? Understand ultrasound findings, fibrosis-risk assessment, follow-up and warning signs."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of recurrent-tummy-aches-in-children; replaces the entry from content/articles.json. Expanded the bilingual guide with a structured symptom assessment, functional-pain explanation, red flags, targeted testing, practical support, internal links, and medically re-reviewed sources.",
+  "articles": [
+    {
+      "slug": "recurrent-tummy-aches-in-children",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics",
+        "gastroenterology-hepatology",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا الدليل عشان يشرح نمط وجع البطن المتكرر، وعلامات الخطر، وخطوات التقييم والعلاج، واتراجع طبياً من جديد.",
+            "en": "We expanded the guide to cover recurrent pain patterns, red flags, assessment and treatment steps, and medically re-reviewed it."
+          }
+        }
+      ],
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/childrens-appetite.webp",
+      "title": {
+        "ar": "وجع البطن المتكرر عند الأطفال: إمتى يكون وظيفي وإمتى يحتاج كشف؟",
+        "en": "Recurrent tummy aches in children: functional pain or another cause?"
+      },
+      "excerpt": {
+        "ar": "وجع البطن المتكرر عند الأطفال مش معناه تلقائياً قولون عصبي أو جرثومة. اعرف إزاي تلاحظ النمط، وإيه علامات الخطر، وإمتى يحتاج الطفل كشفاً أو فحوصات موجهة.",
+        "en": "Recurrent tummy aches do not automatically mean IBS or H. pylori. Learn how to track the pattern, recognise red flags and know when a child needs assessment or targeted tests."
+      },
+      "sections": [
+        {
+          "id": "what-recurrent-pain-means",
+          "heading": {
+            "ar": "وجع متكرر مش اسم تشخيص",
+            "en": "Recurrent pain is a pattern, not a diagnosis"
+          },
+          "body": {
+            "ar": "لما الطفل يقول إن بطنه بتوجعه أكتر من مرة، أول سؤال مش «عنده قولون ولا لأ؟»؛ السؤال الصح هو: الوجع بييجي إزاي، بقاله قد إيه، وإيه اللي بيحصل معاه؟ نفس الشكوى ممكن تظهر مع إمساك، عدوى عابرة، إسهال مستمر، مشكلة في المسالك البولية، أو اضطراب من اضطرابات التفاعل بين المخ والأمعاء. عشان كده تكرار العرض لوحده ما يثبتش سبباً بعينه [2, 4, 6].\n\nالألم الوظيفي أو اضطراب التفاعل بين المخ والأمعاء ألم حقيقي، مش تمثيل ومش «في دماغ الطفل». الفكرة إن الأمعاء ممكن تبقى أكثر حساسية، وحركتها وإشاراتها مع المخ تتأثر من غير ما يكون فيه تلف ظاهر في الجهاز الهضمي. القولون العصبي واحد من الأنماط دي، لكنه بيجمع وجع البطن مع تغيّر واضح في التبرز، ومش بيتقال لمجرد انتفاخ أو يومين وجع [1, 7].\n\nالطبيب يقدر يشخّص نمطاً وظيفياً بشكل إيجابي بعد تقييم مناسب، مش بعد سلسلة فحوصات بلا نهاية. وفي نفس الوقت، وجود ألم وظيفي ما يمنعش إن الطفل يكون عنده سبب تاني قابل للعلاج؛ الاتنين ممكن يتداخلوا. الهدف إننا نفهم القصة كاملة، نراجع النمو والفحص، ونتعامل مع تأثير الألم على الأكل والنوم والمدرسة من غير تهوين ولا تهويل [4, 6, 7].",
+            "en": "When a child reports tummy pain more than once, the first question is not, “Is this IBS?” The useful questions are how the pain appears, how long the pattern has been present, and what happens alongside it. The same complaint can occur with constipation, a short-lived infection, persistent diarrhoea, a urinary problem or a disorder of gut–brain interaction. Recurrence alone therefore does not establish one cause [2, 4, 6].\n\nFunctional pain, or a disorder of gut–brain interaction, is real pain. It is neither pretending nor “all in the child’s head.” The gut may become more sensitive, and its movement and signalling with the brain may change without visible injury in the digestive tract. IBS is one such pattern, but it combines abdominal pain with a meaningful change in bowel habits; it should not be applied to bloating or a couple of painful days [1, 7].\n\nA clinician can make a positive functional diagnosis after an appropriate assessment, rather than only after an endless series of tests. At the same time, functional pain does not prevent a child from having another treatable problem; the two may overlap. The aim is to understand the whole story, review growth and examination findings, and address the effect on eating, sleep and school without dismissing or catastrophising the pain [4, 6, 7]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "map-the-pattern",
+          "heading": {
+            "ar": "ارسم خريطة بسيطة للنمط قبل الكشف",
+            "en": "Map the pattern before the appointment"
+          },
+          "body": {
+            "ar": "سجّل لمدة أسبوع أو أسبوعين وقت الوجع ومكانه ومدته، من غير ما تسأل الطفل عنه كل شوية. لاحظ هل بيظهر قبل الأكل أو بعده، قبل المدرسة، أثناء الليل، أو مع دخول الحمام. اكتب شكل البراز بشكل بسيط: صلب، عادي، ولا سايل؛ وعدد المرات؛ وهل الطفل بيحزق، بيمنع نفسه، أو بيتّسخ منه اللبس. دوّن كمان القيء، الحرارة، التبول، الشهية، والنشاط [2, 4, 9].\n\nمكان الألم لوحده مش دايماً بيحدد العضو، خصوصاً عند الطفل الصغير، لكن ثبات الألم في مكان محدد ناحية اليمين، الألم اللي بيصحّي الطفل باستمرار، أو ارتباطه بقيء أو إسهال ليلي تفاصيل تغيّر التقييم. اسأل بهدوء عن أي دواء أو مكمل جديد، عدوى أو سفر قريب، وعن وجود سيلياك أو التهاب أمعاء أو قرحة في العيلة [2, 4].\n\nالسجل أداة تساعد، مش امتحان للطفل ولا دعوة لمنع أكلات كتير. الأفضل تكتب ملاحظات قصيرة وتسيب الطفل يكمل يومه الطبيعي قدر الإمكان. خد معاك كارت النمو، التحاليل أو التقارير القديمة، وأسماء كل الأدوية والمكملات. المعلومات دي بتخلي الطبيب يفرّق أسرع بين وجع مرتبط بالتبرز، نمط وظيفي، أو علامة محتاجة بحث موجه [2, 11].",
+            "en": "For one or two weeks, record when the pain starts, where it is felt and how long it lasts, without repeatedly asking the child about it. Notice whether it appears before or after food, before school, at night or around a bowel movement. Describe stool simply as hard, usual or loose; note frequency and whether the child strains, withholds or soils underwear. Also record vomiting, fever, urination, appetite and activity [2, 4, 9].\n\nPain location alone does not always identify an organ, particularly in a younger child. However, persistent pain in a particular area on the right, pain that repeatedly wakes the child, or pain associated with vomiting or night-time diarrhoea changes the assessment. Ask calmly about new medicines or supplements, recent infection or travel, and a family history of coeliac disease, inflammatory bowel disease or peptic ulcer disease [2, 4].\n\nThe diary is a tool, not a test for the child or a reason to ban many foods. Keep notes brief and let the child continue ordinary activities as much as possible. Bring the growth record, previous tests or reports, and the names of every medicine and supplement. These details help the clinician distinguish pain related to bowel movements, a functional pattern and a clue requiring targeted investigation [2, 11]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "bowel-growth-food-clues",
+          "heading": {
+            "ar": "التبرز والنمو والأكل: تلات مفاتيح مهمة",
+            "en": "Bowel habits, growth and food: three important clues"
+          },
+          "body": {
+            "ar": "الإمساك مش معناه بس إن الطفل ما بيدخلش الحمام. ممكن يعمل برازاً صلباً ومؤلماً، يحبس نفسه، يعمل كميات كبيرة على فترات، أو ينزل براز سايل حوالين كتلة متحجرة فيبان كأنه إسهال. لو الوجع اختفى بعد علاج الإمساك بشكل مناسب، ده يرجّح إن الإمساك هو المحرك الأساسي بدل تشخيص القولون العصبي. للتفاصيل، اقرأ إمساك الأطفال: إمتى نعدّل الروتين وإمتى يحتاج الطفل كشفاً؟ [2, 8, 9].\n\nالإسهال اللي بيطول، الدم، أو التبرز اللي بيصحّي الطفل من النوم له تقييم مختلف عن يوم إسهال بعد أكل أو عدوى. كذلك الشهية القليلة يومين مش زي نزول الوزن أو بطء الطول. منحنى النمو بيحط القياسات المتكررة في سياقها؛ قياس واحد مش تشخيص، لكن تغيّر المسار مع الوقت معلومة مهمة للطبيب [2, 11, 13].\n\nالأكل ممكن يغيّر الأعراض، بس العلاقة مش دايماً معناها حساسية أو عدم تحمل. ما تمنعش اللبن أو الجلوتين أو مجموعات أكل كاملة كتجربة عشوائية، لأن ده ممكن يضغط تغذية الطفل ويشوّش بعض التحاليل. لو الأعراض مستمرة، الطبيب أو أخصائي التغذية يحدد هل فيه اختبار أو تجربة غذائية محددة، لمدة واضحة، مع متابعة الأعراض والنمو [3, 10].",
+            "en": "Constipation does not only mean that a child rarely uses the toilet. A child may pass hard painful stool, withhold, produce very large stools at intervals, or leak loose stool around an impacted mass so that it looks like diarrhoea. If pain resolves when constipation is properly treated, constipation is more likely to be the main driver than IBS. For the focused guide, read Childhood constipation: when to adjust the routine and when to arrange assessment [2, 8, 9].\n\nProlonged diarrhoea, blood, or bowel movements that wake a child from sleep need a different assessment from one loose day after food or an infection. Likewise, a brief dip in appetite is different from weight loss or slowing height gain. A growth chart puts repeated measurements into context; one measurement is not a diagnosis, but a change in trajectory over time is useful clinical information [2, 11, 13].\n\nFood can influence symptoms, but an association does not automatically mean allergy or intolerance. Do not remove milk, gluten or entire food groups as an unsupervised experiment, because this may compromise nutrition and complicate some tests. If symptoms persist, a clinician or dietitian can decide whether a targeted test or time-limited dietary trial is appropriate, with symptoms and growth monitored [3, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "إمساك الأطفال: إمتى نعدّل الروتين وإمتى يحتاج الطفل كشفاً؟",
+                "url": "../articles/childhood-constipation-when-to-assess.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Childhood constipation: when to adjust the routine and when to arrange assessment",
+                "url": "../articles/childhood-constipation-when-to-assess.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "stress-school-and-real-pain",
+          "heading": {
+            "ar": "المدرسة والتوتر ممكن يأثروا، بس الوجع حقيقي",
+            "en": "School and stress may influence real pain"
+          },
+          "body": {
+            "ar": "لو الوجع بيظهر صباح المدرسة ويهدى في الإجازة، ما تقولش للطفل إنه بيمثل. التوتر يقدر يزوّد حساسية الأمعاء وانتباه المخ للألم، والألم نفسه يقدر يعمل قلق من المدرسة أو الحمام؛ يعني العلاقة ماشية في الاتجاهين. اسأل عن النوم، ضغط الدراسة، التنمر، الخوف من حمام المدرسة، وأي تغيير في البيت من غير تحقيق أو لوم [1, 4, 5].\n\nالهدف مش إننا نختار بين «سبب نفسي» و«سبب عضوي» بسرعة. الطبيب يراجع علامات الخطر والنمو والفحص أولاً، وبعدها يشرح للطفل والأسرة إزاي المخ والأمعاء بيتواصلوا. فهم الآلية بيطمن الطفل من غير ما ينكر الوجع، وبيساعده يرجع تدريجياً للأكل والنوم والمدرسة واللعب بدل ما يبقى اليوم كله مبني على انتظار النوبة [4, 5, 6].\n\nفي بعض الأطفال اللي عندهم اضطراب وظيفي، تدخلات زي العلاج السلوكي المعرفي أو التنويم الموجّه للأمعاء ممكن تساعد على التعامل مع الأعراض وتقليل تعطيل الحياة، وده مش معناه إن الألم خيالي. اختيار التدخل بيكون مع الفريق المعالج حسب السن، شدة التأثير، وتفضيل الأسرة والطفل؛ ومش كل طفل محتاج نفس الخطة [3, 5].",
+            "en": "If pain appears on school mornings and eases during holidays, do not tell the child that they are pretending. Stress can increase gut sensitivity and the brain’s attention to pain, while pain itself can create anxiety about school or using the toilet; the relationship can work in both directions. Ask about sleep, school pressure, bullying, fear of the school toilet and changes at home without interrogation or blame [1, 4, 5].\n\nThe goal is not to choose too quickly between a “psychological” and an “organic” cause. A clinician first reviews red flags, growth and examination findings, then explains how the brain and gut communicate. Understanding the mechanism can reassure the child without denying pain, and supports a gradual return to food, sleep, school and play rather than organising the whole day around the next episode [4, 5, 6].\n\nFor some children with a functional disorder, approaches such as cognitive behavioural therapy or gut-directed hypnotherapy may improve coping and reduce disruption. That does not mean the pain is imaginary. The treating team chooses an approach according to age, impact and family and child preferences; not every child needs the same plan [3, 5]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "red-flags",
+          "heading": {
+            "ar": "علامات الخطر: إمتى التقييم يبقى عاجل؟",
+            "en": "Red flags: when assessment becomes urgent"
+          },
+          "body": {
+            "ar": "اطلب تقييماً عاجلاً لو الألم شديد وثابت أو بيزيد بسرعة، أو لو البطن منتفخة ومؤلمة بوضوح، أو فيه قيء أخضر، قيء دموي، براز أسود أو دم واضح. الألم اللي بيركّز أسفل يمين البطن وبيزيد مع الحركة، أو ألم الخصية أو تورمها مع وجع البطن، محتاج تقييم سريع ومش مناسب للانتظار في البيت [2, 12].\n\nالطفل اللي مش قادر يشرب أو يحتفظ بالسوائل، بوله قل بوضوح، بقى خامل أو صعب تصحيه، أو حالته بتتدهور يحتاج رعاية عاجلة. الحرارة المستمرة، صعوبة التنفس، الإغماء، تيبّس البطن، أو ألم مع شحوب شديد برضه علامات ما تتفسرش على إنها قولون أو توتر. السن يفرق؛ الرضيع أو الطفل الصغير جداً ممكن ما يعرفش يحدد الألم، فالتغيّر الواضح في الرضاعة، النشاط، البكاء، أو شكل البطن مهم [4, 12].\n\nأما العلامات اللي تستدعي كشفاً قريباً حتى لو الطفل مستقر فهي نزول الوزن أو تباطؤ النمو، قيء متكرر، إسهال ليلي أو مزمن، صعوبة بلع، حرارة من غير تفسير، تأخر البلوغ، ألم ثابت ناحية اليمين، أو تاريخ عائلي قوي لسيلياك أو التهاب أمعاء. العلامات دي لا تثبت مرضاً بعينه، لكنها تغيّر سرعة ونطاق التقييم [2, 4].",
+            "en": "Seek urgent assessment when pain is severe and constant or rapidly worsening, when the abdomen is clearly swollen and tender, or when there is green vomit, bloody vomit, black stool or visible blood. Pain that settles in the lower right abdomen and worsens with movement, or testicular pain or swelling alongside abdominal pain, needs prompt assessment rather than waiting at home [2, 12].\n\nA child who cannot drink or keep fluids down, passes markedly less urine, becomes lethargic or difficult to wake, or is deteriorating needs urgent care. Persistent fever, breathing difficulty, fainting, abdominal rigidity, or pain with marked pallor should not be attributed to IBS or stress. Age matters: an infant or very young child may not localise pain, so clear changes in feeding, activity, crying or abdominal appearance are important [4, 12].\n\nFeatures requiring a timely appointment even when the child is stable include weight loss or slowing growth, repeated vomiting, night-time or chronic diarrhoea, swallowing difficulty, unexplained fever, delayed puberty, persistent right-sided pain, or a strong family history of coeliac or inflammatory bowel disease. These signs do not establish a particular disease, but they change the speed and scope of assessment [2, 4]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "clinical-assessment-and-tests",
+          "heading": {
+            "ar": "الكشف الأول بيحدد هل الفحوصات هتضيف حاجة",
+            "en": "The first assessment determines whether tests add value"
+          },
+          "body": {
+            "ar": "الزيارة تبدأ بقصة الأعراض، الأدوية، العيلة، الأكل، التبرز والتبول، وبعدها قياس الطول والوزن ومراجعة منحنى النمو وفحص البطن وباقي العلامات المناسبة. لو الطفل نموه ماشي كويس، فحصه مطمئن، ومفيش علامات خطر، أطفال كتير مش بيحتاجوا باقة كبيرة من التحاليل أو الأشعات. الفحوصات بتتحدد حسب السؤال الطبي، مش حسب عدد مرات الوجع بس [2, 4, 6].\n\nلو القصة فيها إسهال مستمر، دم، أنيميا محتملة، فقدان وزن، أو تاريخ عائلي مهم، الطبيب ممكن يطلب تحاليل دم أو براز موجهة. لو فيه اشتباه سيلياك، لازم الطفل يفضل بياكل جلوتين أثناء التشخيص عشان التحاليل تبقى قابلة للتفسير؛ ما تبدأش حمية خالية من الجلوتين قبل ما الطبيب يكمّل الخطة [2, 10, 13].\n\nوجع البطن المتكرر لوحده مش سبب لطلب تحليل جرثومة أو سونار أو منظار لكل طفل. لو بتسأل عن الجرثومة، اقرأ جرثومة المعدة عند الأطفال: الأعراض والتحاليل وإمتى تقلق؟ ولو الطبيب اقترح تصويراً، دليل سونار البطن للأطفال بيكشف إيه؟ دليل التحضير والأمان واستخدامات الفحص يشرح دوره وحدوده. أما منظار المعدة عند الأطفال: إمتى الطبيب يفكر فيه وإيه اللي يحصل قبل القرار؟ فيلخّص إمتى الإجراء ممكن يجاوب سؤالاً مهماً. القرار النهائي للطبيب المعالج حسب القصة والفحص [2, 4, 14].",
+            "en": "The visit begins with the symptom, medicine, family, food, bowel and urinary history, followed by height and weight measurements, review of the growth trajectory, an abdominal examination and other relevant signs. When growth is steady, examination is reassuring and no red flags are present, many children do not need a broad panel of tests or scans. Investigations are chosen for a clinical question, not simply for the number of painful episodes [2, 4, 6].\n\nWhen the story includes persistent diarrhoea, blood, possible anaemia, weight loss or a significant family history, the clinician may request targeted blood or stool tests. If coeliac disease is being considered, the child needs to keep eating gluten during diagnosis so results remain interpretable; do not start a gluten-free diet before the clinician completes the plan [2, 10, 13].\n\nRecurrent abdominal pain alone is not a reason to order an H. pylori test, ultrasound or endoscopy for every child. For the infection question, read H. pylori in children: symptoms, tests and when to worry. If imaging is proposed, What Does Abdominal Ultrasound for Children Show? Uses and Preparation explains its role and limits. Endoscopy in children: when might a doctor consider it? summarises when the procedure may answer an important question. The treating clinician makes the final decision from the history and examination [2, 4, 14]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "جرثومة المعدة عند الأطفال: الأعراض والتحاليل وإمتى تقلق؟",
+                "url": "../articles/h-pylori-in-children-symptoms-tests.html"
+              },
+              {
+                "label": "سونار البطن للأطفال بيكشف إيه؟ دليل التحضير والأمان واستخدامات الفحص",
+                "url": "../articles/abdominal-ultrasound-for-children.html"
+              },
+              {
+                "label": "منظار المعدة عند الأطفال: إمتى الطبيب يفكر فيه وإيه اللي يحصل قبل القرار؟",
+                "url": "../articles/endoscopy-in-children-when-considered.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "H. pylori in children: symptoms, tests and when to worry",
+                "url": "../articles/h-pylori-in-children-symptoms-tests.html"
+              },
+              {
+                "label": "What Does Abdominal Ultrasound for Children Show? Uses and Preparation",
+                "url": "../articles/abdominal-ultrasound-for-children.html"
+              },
+              {
+                "label": "Endoscopy in children: when might a doctor consider it?",
+                "url": "../articles/endoscopy-in-children-when-considered.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "treatment-and-daily-routine",
+          "heading": {
+            "ar": "الخطة بتتعالج على السبب وتأثيره، مش على اسم واحد",
+            "en": "Treatment follows the cause and its impact, not one label"
+          },
+          "body": {
+            "ar": "الخطة بتختلف حسب النمط. لو الإمساك هو الأساس، علاجه ومتابعة البراز أهم من أدوية المغص العشوائية. لو التشخيص اضطراباً وظيفياً، الطبيب يشرح الحالة ويحدد هدفاً عملياً: نوم أفضل، حضور المدرسة، أكل متوازن، وقدرة الطفل يرجع لنشاطه حتى لو التحسن تدريجي. بعض الحالات تستفيد من تعديل غذائي موجه، دواء محدد، أو تدخل نفسي موجّه للأمعاء؛ الدليل مش بنفس القوة لكل اختيار، وعشان كده القرار فردي [3, 5, 9].\n\nفي البيت، حافظ على مواعيد أكل ونوم وحمام معقولة، وشجّع الطفل من غير عقاب أو مكافآت مرتبطة باختفاء الوجع. ما تجعلش الراحة الطويلة من المدرسة هي الحل التلقائي كل مرة لو الطبيب مطمّن؛ الرجوع التدريجي للروتين جزء من التعافي. اتفق مع المدرسة على دخول الحمام وشرب المياه والتعامل الهادئ مع النوبة بدل لفت الانتباه أو التشكيك [4, 5, 9].\n\nما تديش أعشاباً، ملينات، أدوية قولون، أو مكملات وبروبيوتك من نفسك. كلمة «طبيعي» على العبوة ما تضمنش إنه مناسب للسن أو خالي من التداخلات. الطبيب يحدد إذا كان المنتج له دليل للحالة دي، الجرعة والمدة، وإزاي نعرف إنه نافع. راجع الخطة لو الألم بيزيد، ظهر عرض جديد، أو بقى بيعطّل حياة الطفل رغم الالتزام [3, 5].",
+            "en": "The plan differs by pattern. If constipation is central, treating it and monitoring stool matters more than random pain remedies. When the diagnosis is a functional disorder, the clinician explains the condition and sets practical goals: better sleep, school attendance, balanced eating and a return to activity even if improvement is gradual. Some children may benefit from a targeted dietary change, a specific medicine or a gut-directed psychological therapy; evidence is not equally strong for every option, so decisions are individual [3, 5, 9].\n\nAt home, keep reasonable meal, sleep and toilet routines, and encourage the child without punishment or rewards tied to the pain disappearing. If the clinician is reassuring, prolonged absence from school should not become the automatic response to every episode; a graded return to routine can be part of recovery. Agree with school on toilet access, drinking water and a calm response to episodes without drawing attention or expressing disbelief [4, 5, 9].\n\nDo not start herbs, laxatives, IBS medicines, supplements or probiotics on your own. “Natural” on a label does not guarantee that a product is age-appropriate or free of interactions. The clinician can decide whether an option has evidence for this child, the dose and duration, and how benefit will be judged. Review the plan if pain worsens, a new symptom appears, or daily life remains disrupted despite following it [3, 5]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "next-step",
+          "heading": {
+            "ar": "الخطوة الجاية: كشف منظم بدل تجارب متفرقة",
+            "en": "Next step: an organised review rather than scattered experiments"
+          },
+          "body": {
+            "ar": "لو وجع البطن بيتكرر، مأثر على الأكل أو النوم أو المدرسة، أو محتاج مسكنات كتير، احجز كشف أطفال في العيادة عشان الطبيب يراجع النمط والنمو والفحص ويحدد الخطوة المناسبة. خد السجل القصير، كارت النمو، النتائج القديمة، وأسماء الأدوية والمكملات. الهدف مش طلب كل الفحوصات، لكن اختيار الحاجة اللي هتغيّر القرار فعلاً [2, 4].\n\nلو فيه علامة خطر من اللي فوق، ما تستناش موعداً عادياً واتجه للتقييم العاجل المناسب. ولو الطفل مستقر، ما تبدأش حمية قاسية أو علاج من تجربة شخص تاني قبل الزيارة. المتابعة مهمة كمان: لو الخطة ما حسّنتش الوظيفة اليومية، أو ظهر عرض جديد، الطبيب يعيد التقييم ويقرر هل محتاج إحالة أو فحص إضافي [4, 6].",
+            "en": "If tummy pain keeps returning, affects eating, sleep or school, or repeatedly requires pain relief, Book a paediatric appointment at the clinic so the clinician can review the pattern, growth and examination and choose the next step. Bring the brief diary, growth record, previous results, and medicine and supplement names. The aim is not to order every test, but to choose what would genuinely change the decision [2, 4].\n\nIf any red flag described above is present, do not wait for a routine appointment; seek the appropriate urgent assessment. When the child is stable, avoid starting a severe restriction or copying someone else’s treatment before the visit. Follow-up also matters: if the plan does not improve daily function or a new feature appears, the clinician can reassess and decide whether referral or another test is needed [4, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز كشف أطفال",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a paediatric appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل وجع البطن قبل المدرسة معناه إن الطفل بيمثل؟",
+            "en": "Does pain before school mean a child is pretending?"
+          },
+          "a": {
+            "ar": "لأ. التوتر ممكن يزوّد ألم حقيقي من خلال تواصل المخ والأمعاء، والألم نفسه ممكن يعمل خوفاً من المدرسة. راقب النمط بهدوء، وراجع التبرز والنمو وعلامات الخطر، واتكلم مع الطفل والمدرسة من غير لوم [1, 4, 5].",
+            "en": "No. Stress may amplify real pain through gut–brain communication, and pain itself may create fear of school. Observe the pattern calmly, review bowel habits, growth and red flags, and speak with the child and school without blame [1, 4, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الرضيع ممكن يتشخّص قولون عصبي؟",
+            "en": "Can an infant be diagnosed with IBS?"
+          },
+          "a": {
+            "ar": "ما تحطش اسم القولون العصبي على بكاء أو مغص رضيع. معايير القولون العصبي المنشورة للأطفال بتعتمد على طفل يقدر يوصف الألم وعلاقته بالتبرز، والرضيع محتاج تقييماً مناسباً لسنه للأكل والنمو والقيء والبراز والفحص [1, 2, 7].",
+            "en": "Do not apply an IBS label to an infant’s crying or colic. Published childhood IBS criteria rely on a child describing pain and its relationship to bowel movements; an infant needs an age-appropriate review of feeding, growth, vomiting, stool and examination [1, 2, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل كل وجع متكرر يحتاج سونار بطن؟",
+            "en": "Does every recurrent tummy ache need an ultrasound?"
+          },
+          "a": {
+            "ar": "لأ. لو النمو والفحص مطمئنين ومفيش علامات خطر، التصوير غالباً مش بيكون أول خطوة. السونار مفيد لما الطبيب عنده سؤال محدد عن عضو أو علامة، لكنه ما بيكشفش كل أسباب الألم الوظيفي أو مشاكل بطانة المعدة [2, 4].",
+            "en": "No. When growth and examination are reassuring and there are no red flags, imaging is often not the first step. Ultrasound is useful when the clinician has a specific question about an organ or sign, but it cannot show every functional or stomach-lining cause [2, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أمنع الجلوتين عشان أشوف الوجع هيروح؟",
+            "en": "Should I remove gluten to see whether the pain stops?"
+          },
+          "a": {
+            "ar": "مش قبل التقييم. تحاليل السيلياك بتحتاج إن الطفل يكون بياكل جلوتين عشان النتيجة تتفسر صح، والمنع العشوائي ممكن يصعّب التشخيص ويضيّق الأكل بلا داعي. ناقش الأعراض مع الطبيب قبل أي حمية استبعادية [10].",
+            "en": "Not before assessment. Coeliac tests require the child to be eating gluten for results to be interpreted properly, and unsupervised restriction can complicate diagnosis and narrow the diet unnecessarily. Discuss symptoms with the clinician before any exclusion diet [10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل البروبيوتك أو الأعشاب آمنة لأي طفل عنده مغص؟",
+            "en": "Are probiotics or herbs safe for any child with tummy pain?"
+          },
+          "a": {
+            "ar": "مش كل منتج مناسب لكل سن أو لكل سبب، والدليل بيختلف من منتج للتاني. حتى المنتج الطبيعي ممكن يعمل آثاراً جانبية أو يتداخل مع دواء. اسأل الطبيب عن المنتج نفسه، الجرعة، المدة، وإيه النتيجة اللي هتحدد الاستمرار أو التوقف [3, 5].",
+            "en": "No product suits every age or cause, and evidence differs between products. Even a natural product can cause adverse effects or interact with medicine. Ask the clinician about the exact product, dose, duration, and the outcome that will determine whether to continue or stop [3, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى أراجع الطبيب حتى لو مفيش طوارئ؟",
+            "en": "When should I arrange a review even if it is not an emergency?"
+          },
+          "a": {
+            "ar": "احجز كشفاً لو الوجع بيتكرر أو مستمر، بيعطّل المدرسة أو النوم أو الأكل، أو معاه إمساك أو إسهال مستمر، قيء متكرر، تعب، شحوب، أو تغيّر في الوزن والنمو. الكشف المبكر ينظم القصة ويمنع التجارب العشوائية [2, 4, 11].",
+            "en": "Arrange a visit when pain is recurrent or persistent, disrupts school, sleep or eating, or occurs with ongoing constipation or diarrhoea, repeated vomiting, fatigue, pallor, or a change in weight or growth. Early review organises the story and avoids random experiments [2, 4, 11]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Definition & Facts for Irritable Bowel Syndrome in Children",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome-children/definition-facts"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Irritable Bowel Syndrome in Children",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome-children/diagnosis"
+        },
+        {
+          "label": "NIDDK — Treatment for Irritable Bowel Syndrome in Children",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome-children/treatment"
+        },
+        {
+          "label": "Royal Children's Hospital Melbourne — Clinical Practice Guideline: Chronic Abdominal Pain",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Abdominal_pain_-_chronic/"
+        },
+        {
+          "label": "ESPGHAN/NASPGHAN — Guideline for Treatment of IBS and Functional Abdominal Pain-NOS in Children (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40444524/"
+        },
+        {
+          "label": "AAP/NASPGHAN — Chronic Abdominal Pain in Children: Clinical Report (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15735475/"
+        },
+        {
+          "label": "Rome IV — Functional Disorders: Children and Adolescents (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27144632/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Constipation in Children",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation-children/symptoms-causes"
+        },
+        {
+          "label": "NICE — Constipation in Children and Young People: Recommendations (CG99)",
+          "url": "https://www.nice.org.uk/guidance/cg99/chapter/Recommendations"
+        },
+        {
+          "label": "NICE — Coeliac Disease: Recognition, Assessment and Management (NG20)",
+          "url": "https://www.nice.org.uk/guidance/ng20/chapter/Recommendations"
+        },
+        {
+          "label": "CDC — Growth Charts",
+          "url": "https://www.cdc.gov/growthcharts/index.htm"
+        },
+        {
+          "label": "Royal Children's Hospital Melbourne — Clinical Practice Guideline: Acute Abdominal Pain",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Abdominal_pain_-_acute/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Chronic Diarrhea in Children",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/chronic-diarrhea-children/symptoms-causes"
+        },
+        {
+          "label": "ESPGHAN/NASPGHAN — Updated Guideline for H. pylori in Children and Adolescents (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39148213/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "وجع البطن المتكرر عند الأطفال",
+          "ألم البطن الوظيفي عند الأطفال",
+          "القولون العصبي عند الأطفال",
+          "علامات خطر ألم البطن",
+          "نمو الطفل"
+        ],
+        "en": [
+          "recurrent tummy aches in children",
+          "functional abdominal pain in children",
+          "IBS in children",
+          "abdominal pain red flags",
+          "child growth"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "وجع البطن المتكرر عند الأطفال: إمتى تكشف؟",
+          "en": "Recurrent tummy aches in children: when to seek care"
+        },
+        "description": {
+          "ar": "دليل لوجع البطن المتكرر عند الأطفال: إزاي تلاحظ النمط، وتفهم الألم الوظيفي، وتعرف علامات الخطر وإمتى يحتاج الطفل كشفاً مناسباً.",
+          "en": "A practical guide to recurrent tummy aches in children: patterns, functional pain, red flags, and when to arrange medical assessment."
+        }
+      }
+    }
+  ]
+}
