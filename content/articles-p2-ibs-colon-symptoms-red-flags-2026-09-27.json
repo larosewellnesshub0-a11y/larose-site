@@ -44,8 +44,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "وسّعنا شرح نمط القولون العصبي وعلامات الخطر والفحوص والخطوات العملية، واتراجع المحتوى طبياً من جديد.",
-            "en": "We expanded the IBS pattern, red flags, testing and practical next steps, and the content was medically re-reviewed."
+            "ar": "وسّعنا شرح نمط القولون العصبي وعلامات الخطر والفحوص والخطوات العملية، واتراجع المحتوى طبياً من جديد. اتضاف سؤالين شائعين عن مهيّجات القولون العصبي وإمتى الأعراض تستاهل كشف، بمصادرهم.",
+            "en": "We expanded the IBS pattern, red flags, testing and practical next steps, and the content was medically re-reviewed. Added two cited FAQs on common IBS triggers and when ongoing symptoms need checking."
           }
         }
       ],
@@ -277,7 +277,9 @@
             "ar": "راجع التشخيص لو ظهر عرض جديد مختلف، أو دم، أو نقص وزن، أو حمى، أو قيء متكرر، أو ألم ثابت بيزيد، أو لو الخطة ما جابتش التحسن المتوقع. التشخيص الإيجابي مفيد، بس أي معلومة جديدة ممكن تغيّر الأولوية أو الفحوص. [1, 3, 8]",
             "en": "Review the diagnosis if a distinctly new symptom, bleeding, weight loss, fever, repeated vomiting or steadily worsening constant pain appears, or if the plan does not produce the expected improvement. A positive diagnosis is useful, but new information can change priorities or investigations. [1, 3, 8]"
           }
-        }
+        },
+        {"q": {"ar": "إيه أشهر حاجات بتهيّج القولون العصبي؟", "en": "What commonly triggers IBS flare-ups?"}, "a": {"ar": "الأعراض بتتحسن أيام وتسوء أيام، وممكن الأكل أو الشرب يهيّجها. ومن أشهر المهيّجات: الكحول، والكافيين، وأكلات معينة زي الحراق أو الدسم، والضغط والقلق [4].", "en": "Symptoms can be better on some days and worse on others (flare-ups), and they may be triggered by food or drink. Common triggers include alcohol, caffeine, certain foods such as spicy or fatty food, and stress and anxiety. [4]"}},
+        {"q": {"ar": "إمتى أكشف لو الأعراض مستمرة؟", "en": "When should ongoing symptoms be checked?"}, "a": {"ar": "لو الأعراض مكمّلة أكتر من 4 أسابيع اكشف. ولازم تكشف بسرعة لو الوزن نزل كتير من غير سبب، أو فيه نزيف من الشرج أو إسهال بدم، أو كتلة أو ورم في البطن، أو نهجان مع ضربات قلب واضحة وجلد باهت [4].", "en": "See a doctor if symptoms have lasted more than 4 weeks. Get urgent help if you have lost a lot of weight for no reason, are bleeding from your bottom or have bloody diarrhoea, have a hard lump or swelling in your tummy, or have shortness of breath, palpitations and paler skin than usual. [4]"}}
       ],
       "sources": [
         {
