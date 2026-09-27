@@ -31,6 +31,22 @@ This is a generated bilingual static site. Work from source, not from output.
 8. `site/` contains generated documents and assets. Build commands may rewrite
    generated output. Manual edits to generated HTML will be lost on the next
    build.
+9. Clean URLs only. Canonicals, hreflang, sitemap entries, JSON-LD and
+   internal links point to `https://laroseclinics.com/<locale>/<path>` without
+   `.html` (since e84b27e for canonicals and 054614c for links). The `.html`
+   files still resolve and declare the clean canonical. GSC rows for `.html`
+   URLs under "Alternate page with proper canonical" or "Duplicate, Google
+   chose different canonical" come from crawls before those commits. They are
+   expected, so do not "Validate fix" them.
+10. Content changes to existing articles go in a new
+    `content/articles-p2-<slug>-<date>.json` override. Keep `date`, set
+    `updatedAt`, append a `history` note, and set `reviewedBy`/`author` to the
+    staffed clinician for the category (see
+    `_project/briefs/phase2-rewrite-brief.md`). Do not invent a reviewer. When
+    no staffed clinician matches, skip the article.
+11. Drafts may be delegated to Codex or Antigravity. Claude re-runs every gate
+    and the Phase 2 checker on the result before accepting it. Review
+    Antigravity output line by line.
 
 See `PROJECT.md` for the source map and `_project/LAUNCH.md` for the deployment
 runbook.
