@@ -1,0 +1,314 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of acid-reflux-when-to-see-doctor; replaces the entry from content/articles.json. Expanded the bilingual triage pathway, evidence base, FAQs and aligned internal links, and completed medical re-review metadata.",
+  "articles": [
+    {
+      "slug": "acid-reflux-when-to-see-doctor",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "internal-medicine",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا دليل إمتى ارتجاع المريء يحتاج دكتور، وحدّثنا علامات الخطر وخطوات الفحص والعلاج، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the guide to when acid reflux needs a doctor, updated warning signs, assessment and treatment steps, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "image": "assets/img/articles/acid-reflux-when-to-see-doctor.webp",
+      "title": {
+        "ar": "ارتجاع المريء والحموضة: إمتى تروح للدكتور؟",
+        "en": "Acid reflux and heartburn: when should you see a doctor?"
+      },
+      "excerpt": {
+        "ar": "الحموضة العابرة ممكن تتحسن بخطوات بسيطة، بس تكرارها أو صعوبة البلع أو النزيف أو نزول الوزن يغيّر القرار. اعرف إمتى تتابع، وإمتى تحتاج كشفاً قريباً أو رعاية عاجلة.",
+        "en": "Occasional heartburn may improve with simple measures, but recurrence, swallowing difficulty, bleeding or weight loss changes the plan. Learn when to monitor, book a review or seek urgent care."
+      },
+      "sections": [
+        {
+          "id": "occasional-or-needs-review",
+          "heading": {
+            "ar": "الحموضة مرة مش زي نمط بيتكرر",
+            "en": "One episode of heartburn is not the same as a recurring pattern"
+          },
+          "body": {
+            "ar": "الارتجاع بيحصل لما محتوى المعدة يرجع للمريء. ممكن تحس بحرقان ورا عظمة الصدر، أو طعم حامض أو مر، أو رجوع سائل ناحية الزور. نوبة عابرة بعد وجبة كبيرة أو قبل النوم مش معناها لوحدها إن عندك مرض مزمن. مرض ارتجاع المريء بيبقى السؤال الأقرب لما الرجوع يعمل أعراضاً متكررة ومزعجة أو يسبب مضاعفات مع الوقت. عشان تفهم الفرق في المصطلحات من غير ما نكرر نطاق صفحة تانية، اقرأ الفرق بين الحموضة وارتجاع المريء. [1, 2, 11]\n\nالمهم مش رقم واحد محفوظ ينطبق على الكل؛ المهم نمط الأعراض وتأثيره. دوّن بتحصل كام مرة، إمتى بدأت، وهل بتصحّيك من النوم أو بتعطّل الأكل والشغل. لاحظ كمان علاقتها بحجم الوجبة، الاستلقاء، الانحناء، المجهود، وأي دواء جديد. لو الحموضة بقت شديدة أو متكررة، أو بقيت محتاج دواء من غير وصفة باستمرار، فده وقت مناسب لمراجعة طبيب بدل ما تكرر نفس الحل من نفسك. [6, 9, 10]\n\nالكحة والبحة وإحساس كتلة في الزور ممكن يظهروا مع الارتجاع، بس مش مخصوصين له. مشاكل الأنف أو الصدر أو الصوت وأسباب تانية ممكن تعمل نفس الشكوى. والتحسن بمضاد حموضة معلومة مفيدة، لكنه مش اختبار يثبت التشخيص. خُد الصورة كاملة للطبيب: الأعراض الأساسية، مدتها، الأدوية، والأعراض اللي بتحصل بعيداً عن الأكل. [1, 3, 7]",
+            "en": "Reflux happens when stomach contents move back into the oesophagus. You may notice burning behind the breastbone, a sour or bitter taste, or liquid rising toward the throat. A single episode after a large or late meal does not by itself mean you have a chronic disease. Gastro-oesophageal reflux disease becomes the more relevant question when reflux repeatedly causes troublesome symptoms or leads to complications over time. For the terminology without duplicating a neighboring page, read the difference between heartburn and reflux. [1, 2, 11]\n\nNo single frequency threshold replaces context; the pattern and its effect matter. Record how often symptoms occur, when they began, and whether they wake you or interfere with eating, work or sleep. Note any relationship to meal size, lying down, bending, exertion or a new medicine. If heartburn becomes severe or frequent, or you repeatedly need nonprescription medicine, arrange a medical review rather than continuing the same remedy indefinitely on your own. [6, 9, 10]\n\nCough, hoarseness and a lump sensation can occur with reflux, but they are not specific to it. Nasal, chest, voice and other disorders can cause similar complaints. Improvement after an antacid is useful history, but it is not a diagnostic test. Give the clinician the whole picture: your main symptoms, their duration, your medicines and any complaints occurring away from meals. [1, 3, 7]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الفرق بين الحموضة وارتجاع المريء",
+                "url": "../articles/gerd-and-reflux-difference.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "difference between heartburn and reflux",
+                "url": "../articles/gerd-and-reflux-difference.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "emergency-chest-pain-or-bleeding",
+          "heading": {
+            "ar": "إمتى الحرقان يبقى طوارئ مش موعد عيادة؟",
+            "en": "When is burning an emergency rather than a clinic appointment?"
+          },
+          "body": {
+            "ar": "ألم أو ضغط الصدر الجديد أو الشديد ما ينفعش يتسمى حموضة في البيت، حتى لو بدأ بعد الأكل أو خفّ شوية بمضاد حموضة. اطلب إسعافاً أو رعاية طارئة فوراً لو الألم مع ضيق نفس، عرق بارد، دوخة أو إغماء، غثيان شديد، أو امتداد للذراع أو الكتف أو الظهر أو الرقبة أو الفك. أعراض القلب ممكن تبدأ كضغط أو امتلاء أو حرقان، ومش لازم تبقى بالصورة الدرامية اللي الناس متخيلاها. [11, 13]\n\nالنزيف كمان ما يستناش تجربة علاج منزلي. القيء اللي فيه دم أحمر أو شكله زي تفل القهوة، والبراز الأسود القطراني، والنزيف الواضح مع ضعف أو دوخة محتاجين تقييماً عاجلاً. ولو القيء متكرر لدرجة إنك مش قادر تحتفظ بسوائل، أو فيه ألم شديد ثابت في الصدر أو أعلى البطن، اختار الرعاية العاجلة المناسبة. درجة الاستعجال بتتحدد من الصورة كلها، لكن وجود نزيف واضح أو هبوط أو إغماء يميل للطوارئ. [9, 12]\n\nالقاعدة العملية: ما تستخدمش موقعاً أو دواءً عشان تستبعد القلب أو النزيف. الطوارئ هدفها تستبعد الأسباب الخطيرة بسرعة؛ وبعد كده، لو السبب العاجل اتستبعد، ممكن تقييم الارتجاع يكمل بشكل منظم. لو مش متأكد هل ألم الصدر عاجل، الأفضل تتواصل مع خدمة الطوارئ المحلية بدل ما تسوق بنفسك أو تنتظر تشوف الدواء هيعمل إيه. [13]",
+            "en": "New or severe chest pain or pressure should not be labelled heartburn at home, even if it started after food or improved slightly with an antacid. Call emergency services or seek emergency care immediately when pain occurs with shortness of breath, cold sweating, dizziness or fainting, marked nausea, or pain spreading to an arm, shoulder, back, neck or jaw. Heart-related symptoms may feel like pressure, fullness or burning and do not always match the dramatic picture people expect. [11, 13]\n\nBleeding should not wait for a home-treatment trial either. Vomit containing red blood or material resembling coffee grounds, black tarry stool, or visible bleeding with weakness or dizziness needs urgent assessment. Repeated vomiting that prevents you keeping fluids down, or severe constant pain in the chest or upper abdomen, also warrants appropriate urgent care. The whole picture determines urgency, but obvious bleeding, collapse or fainting points toward emergency evaluation. [9, 12]\n\nThe practical rule is not to use a website or medicine to rule out heart disease or bleeding. Emergency assessment is designed to exclude dangerous causes promptly; once an urgent cause has been considered, reflux evaluation can continue in an organised way. If you are unsure whether chest pain is an emergency, contact your local emergency service rather than driving yourself or waiting to see what a remedy does. [13]"
+          }
+        },
+        {
+          "id": "prompt-medical-assessment",
+          "heading": {
+            "ar": "علامات محتاجة كشفاً قريباً حتى لو الألم محتمل",
+            "en": "Features that need prompt assessment even if discomfort is tolerable"
+          },
+          "body": {
+            "ar": "صعوبة البلع، وجع مع البلع، أو إحساس إن الأكل بيقف في الصدر مش حموضة عادية تتساب للمراقبة. احجز تقييماً قريباً، واطلب مساعدة أسرع لو مش قادر تبلع سوائل أو اللعاب. كمان القيء المتكرر، فقدان الشهية المستمر، نزول الوزن من غير قصد، أنيميا غير مفسرة، أو أعراض بتزيد بسرعة كلها بتغيّر مسار التقييم. العلامات دي مش معناها تلقائياً إن فيه مرض خطير، بس معناها إن العلاج الذاتي وحده مش كفاية. [1, 3, 6]\n\nراجع طبيب قريب لو الأعراض بدأت لأول مرة بشكل مختلف عن المعتاد، أو رجعت بعد فترة هدوء بصورة أقوى، أو استمرت رغم استخدام العلاج بالطريقة اللي اتوصف بيها. وجود تاريخ لقرحة أو نزيف، جراحة في أعلى الجهاز الهضمي، مرض مزمن مهم، أو تاريخ عائلي له صلة لازم يدخل في القرار. قول للطبيب كمان عن المسكنات، الحديد، أدوية هشاشة العظام، وأي علاج أو مكمل جديد؛ بعض الأدوية ممكن تزود أعراض أعلى الجهاز الهضمي، لكن ما توقفش دواءً موصوفاً من نفسك. [3, 9]\n\nلو العرض الأساسي كحة أو بحة أو إحساس بالحلق من غير حرقان أو رجوع واضح، ما تفترضش إن زيادة دواء الحمض هي الإجابة. الإرشادات بتشجع تقييم أسباب تانية، وأحياناً إثبات الارتجاع باختبار مناسب قبل علاج طويل. القرار بيتحدد حسب القصة والفحص، مش حسب قوة التخمين. [6, 7]",
+            "en": "Difficulty swallowing, pain on swallowing, or a feeling that food sticks in the chest is not routine heartburn to simply watch. Arrange prompt assessment, and seek faster help if you cannot swallow fluids or saliva. Repeated vomiting, persistent appetite loss, unintentional weight loss, unexplained anaemia, or symptoms that are rapidly worsening also change the assessment pathway. These features do not automatically mean serious disease, but they do mean self-treatment alone is insufficient. [1, 3, 6]\n\nArrange a timely review if symptoms begin in a distinctly new way, return more strongly after a quiet period, or continue despite using treatment as directed. A history of ulcer or bleeding, upper gastrointestinal surgery, an important long-term condition, or relevant family history should inform the decision. Tell the clinician about painkillers, iron, osteoporosis treatments, and any new medicine or supplement; some medicines can worsen upper gastrointestinal symptoms, but do not stop prescribed treatment independently. [3, 9]\n\nWhen cough, hoarseness or throat sensation is the main complaint without clear heartburn or regurgitation, do not assume that escalating acid medicine is the answer. Guidelines encourage assessment for other causes and, in some situations, objective reflux testing before long-term treatment. The choice depends on the history and examination, not the strength of a guess. [6, 7]"
+          }
+        },
+        {
+          "id": "recurring-symptoms-routine-review",
+          "heading": {
+            "ar": "إمتى تحجز مراجعة روتينية منظمة؟",
+            "en": "When should you arrange a structured routine review?"
+          },
+          "body": {
+            "ar": "لو مفيش علامة عاجلة، احجز مراجعة لما الحموضة أو الرجوع يبقوا متكررين، شديدين، مأثرين على النوم أو الأكل، أو محتاجين دواء من غير وصفة بشكل متكرر. بعض المصادر بتستخدم حدوث الأعراض مرتين أو أكتر في الأسبوع كإشارة لاحتمال مرض الارتجاع، بس الرقم مش تشخيص لوحده. عرض أقل تكراراً لكنه شديد أو مع صعوبة بلع أهم من عرض خفيف بيتكرر، والطبيب بيربط التكرار بالتأثير وعلامات الخطر. [10, 11]\n\nالمراجعة مفيدة كمان لو بقيت بتتفادى وجبات كتير خوفاً من الحرقان، أو نومك اتلخبط، أو بتصحى بطعم راجع، أو الأعراض مأثرة على شغلك وتمرينك. لو بتاخد علاجاً يومياً بقالك مدة من غير ما حد يراجع سبب الاستمرار والجرعة، ده سبب منطقي للمراجعة حتى لو العلاج بيريّحك. الهدف مش وقف دواء مفيد؛ الهدف التأكد إن له داعياً، وإن الجرعة والخطة لسه مناسبين. [7, 8, 9]\n\nحاول ما تجمعش كل ألم بطن أو انتفاخ تحت اسم الارتجاع. لو عندك كمان انتفاخ واضح أو تغير في التبرز أو ألم بيتحسن بعد الحمام، قول ده منفصل. صفحة جرثومة المعدة والارتجاع والقولون بتوضح ليه الأعراض المتداخلة محتاجة أسئلة وفحوص مختلفة، من غير ما تحول كل شكوى لتحليل جرثومة أو منظار. [3, 6]",
+            "en": "When no urgent feature is present, arrange review if heartburn or regurgitation is frequent, severe, disrupting sleep or eating, or repeatedly requires nonprescription medicine. Some sources use symptoms occurring twice a week or more as a clue to possible GERD, but that number is not a diagnosis by itself. A less frequent symptom that is severe or accompanied by swallowing difficulty matters more than a mild recurring symptom; a clinician considers frequency alongside impact and warning features. [10, 11]\n\nReview is also useful if you avoid many meals for fear of burning, your sleep is disrupted, you wake with regurgitation, or symptoms affect work or exercise. If you have taken daily treatment for a long period without anyone reviewing the reason and dose, that is a reasonable reason to book even when it helps. The goal is not to stop a useful medicine; it is to confirm that it remains indicated and that the dose and plan still fit. [7, 8, 9]\n\nAvoid grouping every abdominal pain or episode of bloating under reflux. If you also have visible bloating, a bowel-habit change or pain that improves after a bowel movement, describe it separately. Our H. pylori, reflux and IBS comparison explains why overlapping symptoms require different questions and tests, without turning every complaint into an H. pylori test or endoscopy. [3, 6]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "جرثومة المعدة والارتجاع والقولون",
+                "url": "../articles/h-pylori-reflux-ibs.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "H. pylori, reflux and IBS comparison",
+                "url": "../articles/h-pylori-reflux-ibs.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "safe-steps-while-monitoring",
+          "heading": {
+            "ar": "خطوات آمنة تجرّبها من غير قائمة ممنوعات",
+            "en": "Safe steps to try without a universal banned-food list"
+          },
+          "body": {
+            "ar": "لو الأعراض بسيطة ومفيش علامة خطر، جرّب تغييراً واحداً واضحاً وسجّل النتيجة. خلّي آخر وجبة قبل الاستلقاء أو النوم بوقت كفاية؛ إرشادات NIDDK بتذكر ثلاث ساعات للأعراض الليلية. الوجبات الأصغر ممكن تساعد لو الوجبة الكبيرة محفز واضح، ورفع رأس السرير بطريقة ثابتة ممكن يفيد بعض الناس اللي الأعراض بتصحيهم. وسجّل الأكل أو المشروب اللي بيتكرر بعده العرض بدل ما تمنع حاجات كتير مرة واحدة. [5, 9, 10]\n\nمفيش قائمة واحدة لازم كل شخص يمنعها. القهوة أو الشوكولاتة أو النعناع أو الأكل الدسم أو الحار ممكن يزودوا الأعراض عند بعض الناس، لكن المنع الواسع من غير علاقة متكررة ممكن يصعّب الأكل من غير فايدة واضحة. اختبر محفزاً واحداً، وراجع النتيجة. ولو عندك زيادة وزن، الطبيب ممكن يناقش إدارة الوزن كجزء من الخطة؛ الحموضة مش مبرر لدايت قاسٍ أو نزول سريع، والقرار بيتفصل حسب صحتك واحتياجاتك. [5, 6]\n\nالتدخين والكحول ممكن يزودوا الأعراض، والملابس الضيقة أو الاستلقاء بعد الأكل ممكن يكون لهم دور عند بعض الناس. بس تعديل العادات ما يبقاش سبب لتأخير كشف محتاجه. لو ظهر صعوبة بلع أو نزيف أو نزول وزن أو ألم صدر جديد، وقف تجربة التغييرات واختار مستوى الرعاية المناسب. [5, 10, 11]",
+            "en": "If symptoms are mild and there is no warning feature, test one clear change and record the result. Leave enough time between the last meal and lying down or sleeping; NIDDK guidance specifies three hours for symptoms occurring at night. Smaller meals may help when a large meal is a clear trigger, and stable elevation of the bed head may help some people whose symptoms wake them. Record any food or drink repeatedly linked to symptoms instead of removing many items at once. [5, 9, 10]\n\nThere is no single list that everyone must avoid. Coffee, chocolate, mint, high-fat or spicy food may worsen symptoms in some people, but broad restriction without a repeatable link can make eating difficult without clear benefit. Test one suspected trigger and review the result. If you have excess weight, a clinician may discuss weight management as part of care; heartburn is not a reason for a harsh diet or rapid weight loss, and the decision should reflect your health and needs. [5, 6]\n\nSmoking and alcohol can worsen symptoms, while tight clothing or lying down after food may contribute for some people. Lifestyle adjustment should never delay a needed assessment. If swallowing difficulty, bleeding, unintentional weight loss or new chest pain appears, stop experimenting with habit changes and choose the appropriate level of care. [5, 10, 11]"
+          }
+        },
+        {
+          "id": "medicine-needs-purpose-and-review",
+          "heading": {
+            "ar": "دواء الحموضة محتاج هدف وميعاد مراجعة",
+            "en": "Reflux medicine needs a purpose and a review point"
+          },
+          "body": {
+            "ar": "مضادات الحموضة والألجينات ممكن تدي راحة قصيرة لبعض الأعراض، وفيه أدوية تانية بتقلل إفراز الحمض زي حاصرات H2 ومثبطات مضخة البروتون. الاختيار مش واحد لكل الناس؛ بيتأثر بنمط العرض، الأدوية التانية، الحمل لو له صلة، وأمراض مزمنة. اسأل الصيدلي أو الطبيب عن الملاءمة وطريقة الاستخدام بدل ما تخلط منتجات أو تزود الجرعة. وما تستخدمش استجابة الدواء كبرهان إن السبب ارتجاع أو إن ألم الصدر آمن. [4, 9, 10]\n\nمثبطات مضخة البروتون أدوية فعالة وآمنة عموماً لما يكون لها داعٍ واضح، والإرشادات بتدعم تجربة علاج محددة لبعض الناس اللي عندهم حرقان أو رجوع مزعج من غير علامات خطر. بس التجربة ليها سؤال: هل الأعراض اتحسنت؟ وإمتى تراجع الخطة؟ لو مفيش تحسن كفاية، الحل مش تلقائياً مضاعفة العلاج من نفسك؛ الطبيب يراجع التوقيت والالتزام والتشخيص، وبعدها يقرر تعديل العلاج أو الفحص. [6, 7]\n\nلو العلاج مستمر، استخدم أقل جرعة فعالة حسب خطة الطبيب، وراجع سبب الاستمرار دورياً. ما توقفش علاجاً موصوفاً فجأة لمجرد إنك قرأت عن آثار جانبية؛ بعض الناس ممكن يحسوا بأعراض مؤقتة بسبب زيادة إفراز الحمض بعد الإيقاف. وفيه حالات محتاجة علاجاً مستمراً وما يناسبهاش الإيقاف. قرار التقليل أو الاستمرار بيتاخد مع الطبيب بناءً على الداعي والمخاطر والفوايد، مش الخوف وحده. [7, 8, 9]",
+            "en": "Antacids and alginates can provide short relief for some symptoms, while other medicines reduce acid production, including H2-receptor blockers and proton-pump inhibitors. The choice is not identical for everyone; it depends on the symptom pattern, other medicines, pregnancy where relevant, and long-term conditions. Ask a pharmacist or clinician about suitability and use rather than combining products or increasing doses. Do not treat a response as proof that the cause is reflux or that chest pain is safe. [4, 9, 10]\n\nProton-pump inhibitors are generally effective and safe when there is a clear indication, and guidelines support a defined treatment trial for selected people with troublesome heartburn or regurgitation and no alarm features. The trial needs a question: did symptoms improve, and when will the plan be reviewed? If improvement is inadequate, the answer is not automatically to increase treatment yourself; a clinician reviews timing, adherence and the diagnosis before deciding on adjustment or testing. [6, 7]\n\nWhen treatment continues, use the lowest effective dose under the clinician's plan and periodically review the indication. Do not abruptly stop prescribed treatment simply because you read about adverse effects; some people experience temporary symptoms from rebound acid secretion after discontinuation. Certain conditions need continued treatment and are unsuitable for withdrawal. The decision to reduce or continue belongs with the treating clinician and should reflect indication, risks and benefits rather than fear alone. [7, 8, 9]"
+          }
+        },
+        {
+          "id": "diagnosis-and-tests",
+          "heading": {
+            "ar": "مش كل حموضة محتاجة منظار",
+            "en": "Not every episode of heartburn needs an endoscopy"
+          },
+          "body": {
+            "ar": "في حالات كتير، الطبيب بيبدأ بالتاريخ المرضي وشكل الأعراض والفحص، وممكن يوصي بخطة عادات وعلاج محددة من غير فحوص من البداية. الفحص بيبقى أنسب لما فيه علامة خطر، أو احتمال سبب تاني، أو الأعراض ما اتحسنتش زي المتوقع. عشان كده طلب أكبر باقة تحاليل مش دايماً أدق؛ كل فحص لازم يجاوب سؤالاً ممكن يغيّر القرار. [3, 6, 7]\n\nمنظار الجهاز الهضمي العلوي بيشوف بطانة المريء والمعدة والاثني عشر، وممكن ياخد عينات عند الحاجة. الطبيب ممكن يطلبه مع صعوبة البلع أو النزيف أو القيء المستمر أو نزول الوزن، أو لما يكون محتاج يبحث عن التهاب أو ضيق أو سبب مختلف. المنظار مهم في مكانه، لكنه مش اختباراً إجبارياً لكل حرقان عابر، وكمان المنظار الطبيعي ما يجاوبش كل أسئلة الارتجاع. [3, 12]\n\nقياس الارتجاع بالحموضة أو المقاومة ممكن يثبت أو ينفي ارتجاعاً غير واضح في حالات مختارة، وقياس حركة المريء له أسئلة مختلفة، خصوصاً قبل بعض الإجراءات أو مع مشاكل البلع. السونار ما يشوفش رجوع محتوى المعدة ولا بطانة المريء، لكنه ممكن يكون مناسباً لو القصة بتشير للمرارة أو الكبد أو سبب تاني في أعلى البطن. واختبار جرثومة المعدة بيسأل عن عدوى مختلفة؛ إيجابيته أو سلبيته ما تثبتش الارتجاع. [3, 6, 7]",
+            "en": "In many cases, a clinician begins with the medical history, symptom pattern and examination, and may recommend defined lifestyle and treatment steps without immediate testing. Investigation is more useful when a warning feature is present, another cause is possible, or symptoms have not improved as expected. Ordering the largest panel is not necessarily more accurate; each test should answer a question that could change the decision. [3, 6, 7]\n\nUpper gastrointestinal endoscopy examines the lining of the oesophagus, stomach and duodenum and can collect samples when needed. A clinician may request it for swallowing difficulty, bleeding, persistent vomiting or unintentional weight loss, or when looking for inflammation, narrowing or another cause. Endoscopy is valuable when indicated but is not compulsory for every passing episode of heartburn, and a normal endoscopy does not answer every reflux question. [3, 12]\n\nAcid or impedance reflux monitoring can confirm or exclude unclear reflux in selected situations, while oesophageal manometry answers different questions, particularly before some procedures or when swallowing is impaired. Ultrasound does not show stomach contents refluxing or the oesophageal lining, although it may suit a question about the gallbladder, liver or another upper-abdominal cause. H. pylori testing asks about a different infection; a positive or negative result does not establish reflux. [3, 6, 7]"
+          }
+        },
+        {
+          "id": "prepare-and-next-step",
+          "heading": {
+            "ar": "حضّر للمراجعة وخلي الخطوة الجاية واضحة",
+            "en": "Prepare for review and make the next step clear"
+          },
+          "body": {
+            "ar": "قبل الموعد، اكتب لمدة أسبوع أو اتنين وقت الحرقان أو الرجوع، علاقته بالوجبات والنوم، ومدته وشدته وإيه اللي خففه. سجّل صعوبة البلع أو القيء أو تغير الشهية والوزن والبراز، وخد قائمة بكل الأدوية والمكملات والجرعات، بما فيها علاج الحموضة والمسكنات. ما تغيّرش كذا حاجة في نفس الوقت؛ سجل بسيط وواضح بيساعد أكتر من محاولة تذكر كل التفاصيل وقت الكشف. [3, 7, 9]\n\nاسأل الطبيب أربع أسئلة عملية: هل النمط فعلاً يرجح الارتجاع ولا فيه احتمال تاني؟ إيه هدف العلاج ومدة تجربته؟ هل أي فحص مقترح هيغيّر الخطة؟ وإيه العلامة اللي لو ظهرت أتواصل أسرع؟ اتفق كمان على ميعاد مراجعة الاستجابة، وما تعملوش لو الأعراض ما اتحسنتش أو رجعت. القرار ممكن يكون تعديل عادة واحدة، تجربة علاج مضبوطة، منظاراً أو قياس ارتجاع، أو تقييم سبب تاني؛ مش كل الناس بتمشي في نفس المسار. [3, 6, 7]\n\nلو الأعراض متكررة أو مأثرة على أكلك أو نومك ومفيش علامة طوارئ، تقدر تستخدم طلب حجز موعد استشارة الجهاز الهضمي عشان تبدأ تقييماً منظماً في العيادة. ذكر العيادة هنا للخطوة العملية بس، ومش وعد بتشخيص أو نتيجة. لو عندك ألم صدر جديد أو شديد، نزيف، إغماء، أو عدم قدرة على بلع السوائل، اختار الرعاية العاجلة المناسبة وما تستناش موعداً روتينياً. [9, 13]",
+            "en": "Before the appointment, record one or two weeks of burning or regurgitation: timing in relation to meals and sleep, duration, severity and what relieved it. Note swallowing difficulty, vomiting, appetite or weight change, and stool changes, and bring a list of every medicine, supplement and dose, including reflux remedies and painkillers. Avoid changing several variables at once; a short, clear record is more useful than trying to remember everything during the visit. [3, 7, 9]\n\nAsk four practical questions: does the pattern truly suggest reflux or is another cause possible, what is the treatment goal and trial duration, would a proposed test change the plan, and which new feature should prompt earlier contact? Agree on a time to review the response and what to do if symptoms fail to improve or return. The next step might be one habit change, a structured treatment trial, endoscopy or reflux monitoring, or assessment for another cause; people do not all follow the same pathway. [3, 6, 7]\n\nIf symptoms recur or affect eating or sleep and there is no emergency feature, you can request a gastroenterology consultation to begin an organised clinical assessment. The clinic is mentioned only as a practical next step, not as a promise of a diagnosis or outcome. For new or severe chest pain, bleeding, fainting, or inability to swallow fluids, seek the appropriate urgent care rather than waiting for a routine appointment. [9, 13]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد استشارة الجهاز الهضمي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a gastroenterology consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الحموضة كل يوم طبيعية؟",
+            "en": "Is daily heartburn normal?"
+          },
+          "a": {
+            "ar": "الحموضة اليومية أو المتكررة تستحق مراجعة، خصوصاً لو بتصحّيك أو بتأثر على الأكل أو محتاج لها دواء باستمرار. التكرار لوحده ما يثبتش مرض الارتجاع، بس يخلي الاستمرار في العلاج الذاتي من غير خطة أقل أماناً. [2, 10, 11]",
+            "en": "Daily or recurrent heartburn deserves review, particularly when it wakes you, affects eating or repeatedly requires medicine. Frequency alone does not prove GERD, but it makes indefinite self-treatment without a plan less appropriate. [2, 10, 11]"
+          }
+        },
+        {
+          "q": {
+            "ar": "لو مضاد الحموضة ريّحني، أقدر أستبعد القلب؟",
+            "en": "If an antacid helps, can I rule out a heart problem?"
+          },
+          "a": {
+            "ar": "لأ. التحسن ممكن يكون معلومة، لكنه مش اختبار للقلب ولا ضمان إن ألم الصدر آمن. ألم أو ضغط الصدر الجديد أو الشديد، خصوصاً مع ضيق نفس أو عرق أو دوخة أو امتداد للذراع أو الفك، محتاج رعاية عاجلة. [11, 13]",
+            "en": "No. Relief is useful history but is not a heart test or proof that chest pain is safe. New or severe chest pain or pressure, especially with breathlessness, sweating, dizziness, or spread to an arm or jaw, needs urgent care. [11, 13]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الكحة أو البحة معناها ارتجاع صامت؟",
+            "en": "Does cough or hoarseness mean silent reflux?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. الكحة والبحة وإحساس الزور ليهم أسباب كتير، ووجودهم من غير حرقان أو رجوع واضح ما يثبتش الارتجاع. الطبيب ممكن يراجع أسباب الأنف والصدر والصوت، ويختار اختباراً موجهاً لو إثبات الارتجاع هيغيّر العلاج. [1, 6, 7]",
+            "en": "Not necessarily. Cough, hoarseness and throat sensations have many causes, and their presence without clear heartburn or regurgitation does not establish reflux. A clinician may consider nasal, chest and voice causes and choose targeted testing when confirming reflux would change treatment. [1, 6, 7]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم منظار لو الحموضة بقالها فترة؟",
+            "en": "Is endoscopy always needed when heartburn has lasted a while?"
+          },
+          "a": {
+            "ar": "مش دايماً. المنظار بيبقى أهم مع صعوبة البلع أو النزيف أو القيء المستمر أو نزول الوزن، أو لما الأعراض ما تستجيبش لخطة مناسبة أو التشخيص يبقى غير واضح. الطبيب بيختاره لما النتيجة هتجاوب سؤالاً وتغيّر القرار. [3, 6, 12]",
+            "en": "Not always. Endoscopy becomes more important with swallowing difficulty, bleeding, persistent vomiting or weight loss, or when symptoms do not respond to an appropriate plan or the diagnosis remains unclear. A clinician selects it when the result can answer a question and change management. [3, 6, 12]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل جرثومة المعدة هي سبب الحموضة؟",
+            "en": "Is H. pylori the cause of heartburn?"
+          },
+          "a": {
+            "ar": "جرثومة المعدة والارتجاع حالتان مختلفتان وممكن يتواجدوا مع بعض. الحموضة وحدها ما تثبتش الجرثومة، ونتيجة اختبار الجرثومة ما تشخّصش الارتجاع. الطبيب بيطلب اختبار الجرثومة لما القصة تجاوب سؤالاً مناسباً، مش كتحليل تلقائي لكل حرقان. [3, 9]",
+            "en": "H. pylori infection and reflux are different conditions and can coexist. Heartburn alone does not prove H. pylori, and an H. pylori result does not diagnose reflux. A clinician requests testing when the history raises the relevant question, not automatically for every burning symptom. [3, 9]"
+          }
+        },
+        {
+          "q": {
+            "ar": "أوقف دواء الارتجاع لو استخدمته مدة طويلة؟",
+            "en": "Should I stop reflux medicine after long-term use?"
+          },
+          "a": {
+            "ar": "ما توقفوش أو تقلل الجرعة من نفسك. الطبيب بيراجع سبب العلاج، هل الداعي لسه موجود، وأقل جرعة فعالة، وفيه حالات لازم تكمل. الإيقاف ممكن يعمل زيادة مؤقتة في أعراض الحمض عند بعض الناس، عشان كده الخطة فردية. [7, 8, 9]",
+            "en": "Do not stop it or reduce the dose independently. A clinician reviews the indication, whether it still applies, and the lowest effective dose, while some conditions require continued treatment. Stopping can cause temporary rebound acid symptoms in some people, so the plan is individual. [7, 8, 9]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Symptoms & Causes of GER & GERD in Adults",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Definition & Facts for GER & GERD in Adults",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/definition-facts"
+        },
+        {
+          "label": "NIDDK — Diagnosis of GER & GERD in Adults",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/diagnosis"
+        },
+        {
+          "label": "NIDDK — Treatment for GER & GERD in Adults",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/treatment"
+        },
+        {
+          "label": "NIDDK — Eating, Diet & Nutrition for GER & GERD",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition"
+        },
+        {
+          "label": "American College of Gastroenterology — GERD clinical guideline (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34807007/"
+        },
+        {
+          "label": "American Gastroenterological Association — Personalized approach to GERD (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35123084/"
+        },
+        {
+          "label": "American Gastroenterological Association — PPI de-prescribing update (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35183361/"
+        },
+        {
+          "label": "NICE — Gastro-oesophageal reflux disease and dyspepsia in adults (CG184)",
+          "url": "https://www.nice.org.uk/guidance/cg184/chapter/Recommendations"
+        },
+        {
+          "label": "NHS — Heartburn and acid reflux",
+          "url": "https://www.nhs.uk/conditions/heartburn-and-acid-reflux/"
+        },
+        {
+          "label": "MedlinePlus — Gastroesophageal Reflux Disease",
+          "url": "https://medlineplus.gov/gerd.html"
+        },
+        {
+          "label": "NIDDK — Upper GI Endoscopy",
+          "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/upper-gi-endoscopy"
+        },
+        {
+          "label": "American Heart Association — Warning Signs of a Heart Attack",
+          "url": "https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "ارتجاع المريء",
+          "الحموضة",
+          "متى أزور الطبيب",
+          "صعوبة البلع",
+          "ألم الصدر"
+        ],
+        "en": [
+          "acid reflux",
+          "heartburn",
+          "when to see a doctor",
+          "difficulty swallowing",
+          "chest pain"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "ارتجاع المريء: إمتى تروح للدكتور؟",
+          "en": "Acid reflux: when to see a doctor"
+        },
+        "description": {
+          "ar": "اعرف إمتى الحموضة وارتجاع المريء يحتاجوا كشفاً، وإيه علامات الخطر اللي تستدعي رعاية عاجلة، وإزاي تستعد لمراجعة طبيب الجهاز الهضمي.",
+          "en": "Learn when acid reflux needs medical review, which warning signs require urgent care, and how to prepare for a focused gastroenterology assessment."
+        }
+      }
+    }
+  ]
+}

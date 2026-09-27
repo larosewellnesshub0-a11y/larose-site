@@ -1,0 +1,317 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of child-vomiting-and-dehydration-warning-signs; replaces the entry from content/articles-expansion-2026-09-11.json. Expanded the bilingual guide with dehydration assessment, safe oral rehydration, urgent red flags, clinical evaluation, internal links, and medically re-reviewed sources.",
+  "articles": [
+    {
+      "slug": "child-vomiting-and-dehydration-warning-signs",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا الدليل عشان يشرح علامات الجفاف، وتعويض السوائل بأمان، وإمتى القيء يحتاج رعاية عاجلة، واتراجع طبياً من جديد.",
+            "en": "We expanded the guide to explain dehydration signs, safe fluid replacement, and when vomiting needs urgent care, and medically re-reviewed it."
+          }
+        }
+      ],
+      "readingTime": 10,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/child-vomiting-cover.webp",
+      "title": {
+        "ar": "قيء الأطفال والجفاف: علامات الخطر وإمتى تروح للطوارئ؟",
+        "en": "Child vomiting and dehydration: warning signs"
+      },
+      "excerpt": {
+        "ar": "قيء الطفل مش تشخيص لوحده، والأهم هو قدرته على الشرب والتبول والنشاط. اعرف علامات الجفاف، وإزاي تقدم محلول الإماهة، وإمتى ما ينفعش تستنى في البيت.",
+        "en": "Vomiting is a symptom, not a diagnosis. Learn how drinking, urine output and activity reveal dehydration, how to offer oral rehydration, and which warning signs cannot wait at home."
+      },
+      "sections": [
+        {
+          "id": "vomiting-is-a-symptom",
+          "heading": {
+            "ar": "القيء عرض مش تشخيص: ابدأ بوصف الصورة كاملة",
+            "en": "Vomiting is a symptom: start with the whole picture"
+          },
+          "body": {
+            "ar": "القيء عند الأطفال شائع، لكنه مش مرض واحد ولا معناه تلقائياً نزلة معوية. العدوى من الأسباب الشائعة، وخصوصاً لما القيء ييجي مع إسهال وحرارة أو مخالطة حد عنده نفس الأعراض. لكن القيء من غير إسهال، أو القيء اللي شكله أو توقيته غير معتاد، ممكن يحتاج التفكير في أسباب تانية داخل البطن أو خارجه. عشان كده لون القيء، عمر الطفل، الألم، الوعي، التنفس، التبول، والأدوية أو احتمال ابتلاع مادة كلها تفاصيل أهم من محاولة تسمية السبب في البيت [1, 4, 8, 10].\n\nسجّل إمتى بدأ القيء، وعدد المرات تقريباً، وهل الطفل بيحتفظ بأي سوائل، وإمتى عمل بول آخر مرة. لاحظ هل فيه إسهال أو حرارة أو وجع بطن، وهل الوجع منتشر ولا ثابت في مكان واحد. صوّر لون القيء لو كان أخضر أو فيه دم من غير ما تأخر طلب المساعدة. قول للطبيب عن أي خبطة في الرأس، دواء جديد، مرض مزمن، جراحة سابقة في البطن، أو احتمال إن الطفل وصل لمنظف أو دواء أو جسم غريب [1, 4, 8].\n\nالنشاط بين المرات مهم: طفل رجع مرة ثم رجع يلعب ويشرب مش زي طفل خامل أو بيزداد سوءاً. كذلك مدة الأعراض بتغيّر التقييم؛ نزلة المعدة البسيطة غالباً يتحسن فيها القيء خلال يوم أو يومين، لكن استمرار القيء أو تكراره محتاج مراجعة السبب. لو المشكلة بقت نمطاً متكرراً مع وجع بطن بين النوبات، اقرأ وجع البطن المتكرر عند الأطفال: إمتى يكون وظيفي وإمتى يحتاج كشف؟ من غير ما تعتبر كل نوبة قولوناً أو جرثومة [1, 3, 8].",
+            "en": "Vomiting is common in children, but it is not one disease and does not automatically mean gastroenteritis. Infection is a frequent cause, especially when vomiting comes with diarrhoea, fever or contact with someone who has similar symptoms. Vomiting without diarrhoea, or vomiting with an unusual colour or pattern, can point to causes inside or outside the abdomen. The colour of the vomit, the child's age, pain, alertness, breathing, urine output, medicines and possible ingestion therefore matter more than trying to name the cause at home [1, 4, 8, 10].\n\nRecord when vomiting began, roughly how often it occurs, whether any fluid stays down and when the child last passed urine. Note diarrhoea or fever, and whether abdominal pain is general or fixed in one area. If the vomit looks green or bloody, a photograph may help describe the colour, but do not delay seeking care to take one. Tell the clinician about a head injury, new medicine, chronic condition, previous abdominal surgery, or any chance that the child reached a cleaning product, medicine or foreign object [1, 4, 8].\n\nActivity between episodes is useful context: a child who vomits once then returns to play and drinking is different from one who is lethargic or worsening. Duration also changes the assessment. Vomiting from uncomplicated gastroenteritis commonly improves within one or two days, while persistent or recurrent vomiting needs the cause reviewed. If this has become a recurring pattern with abdominal pain between episodes, read Recurrent tummy aches in children: functional pain or another cause? without assuming that every episode is IBS or H. pylori [1, 3, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "وجع البطن المتكرر عند الأطفال: إمتى يكون وظيفي وإمتى يحتاج كشف؟",
+                "url": "../articles/recurrent-tummy-aches-in-children.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Recurrent tummy aches in children: functional pain or another cause?",
+                "url": "../articles/recurrent-tummy-aches-in-children.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "dehydration-signs",
+          "heading": {
+            "ar": "علامات الجفاف: راقب الطفل كله مش علامة واحدة",
+            "en": "Dehydration signs: assess the whole child, not one clue"
+          },
+          "body": {
+            "ar": "الجفاف بيحصل لما السوائل اللي بتخرج أكتر من اللي الطفل يقدر يعوضه. القيء يقلل اللي داخل، والإسهال أو الحرارة ممكن يزوّدوا الفقد. العطش، جفاف الفم واللسان، قلة الدموع، قلة البول أو الحفاضات المبلولة، البول الغامق، والعين الغائرة كلها قرائن مهمة. كمان راقب السلوك: العصبية غير المعتادة، قلة اللعب، النعاس، أو صعوبة الإيقاظ علامات أهم من مجرد إن الشفايف ناشفة [1, 2, 9].\n\nما تعتمدش على علامة واحدة عشان تقول إن الجفاف بسيط أو شديد. العلامات السريرية مش كاملة الدقة لوحدها، والطبيب بيجمع القصة مع النبض والتنفس والدورة الدموية والوزن والفحص. لو فيه وزن حديث قبل المرض، مقارنته بالوزن الحالي بتساعد على تقدير الفقد، لكن ما تحاولش تحسب نسبة الجفاف في البيت أو تأخر الكشف عشان توزن الطفل. وجود علامات أكتر أو تدهورها مع الوقت يرفع القلق [9, 13].\n\nالرضع، وخصوصاً الأصغر من ستة أشهر، ممكن يتدهوروا أسرع. الخطر أعلى كمان لو الطفل مش قادر يحتفظ بالسوائل، وقف الرضاعة، عنده إسهال متكرر، سوء تغذية، مرض كلوي أو قلبي أو مشكلة مزمنة معقدة، أو بياخد دواء يؤثر في السوائل. اليافوخ الغائر عند الرضيع، برودة الأطراف، شحوب أو تبقع الجلد، تنفس سريع، نبض سريع، قلة استجابة، أو إغماء علامات تستدعي تقييماً عاجلاً؛ دي ممكن تكون علامات جفاف شديد أو صدمة، ومش مناسبة لتجربة سوائل منزلية أطول [1, 2, 9].",
+            "en": "Dehydration develops when fluid losses exceed what a child can replace. Vomiting reduces intake, while diarrhoea or fever may add further losses. Thirst, a dry mouth and tongue, few tears, less urine or fewer wet nappies, dark urine and sunken eyes are useful clues. Behaviour matters too: unusual irritability, reduced play, increasing sleepiness or difficulty waking the child can be more important than dry lips alone [1, 2, 9].\n\nDo not use one sign to decide that dehydration is mild or severe. Bedside signs are imperfect in isolation, so clinicians combine the history with pulse, breathing, circulation, weight and examination. When a reliable pre-illness weight is available, comparing it with the current weight helps estimate loss, but do not try to calculate a dehydration percentage at home or delay care while looking for a scale. A larger cluster of signs or deterioration over time raises concern [9, 13].\n\nInfants, particularly those younger than six months, may deteriorate faster. Risk is also higher when a child cannot retain fluid, has stopped breastfeeding, has frequent diarrhoea, malnutrition, kidney or heart disease, a complex chronic condition, or takes medicine that affects fluid balance. A sunken fontanelle in an infant, cold limbs, pale or mottled skin, rapid breathing, a fast pulse, reduced responsiveness or fainting require urgent assessment. These can indicate severe dehydration or shock and are not a reason to extend a home fluid trial [1, 2, 9]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "oral-rehydration-at-home",
+          "heading": {
+            "ar": "تعويض السوائل في البيت: رشفات صغيرة ومحلول مضبوط",
+            "en": "Rehydration at home: small frequent sips and the right solution"
+          },
+          "body": {
+            "ar": "لو الطفل واعي، مفيش علامة خطر، وبيقدر يبلع، فمحلول الإماهة الفموي الجاهز حسب تعليمات العبوة هو الاختيار الأساسي لتعويض الماء والأملاح المفقودة. قدمه بكميات صغيرة ومتكررة بالمعلقة أو الكوباية أو السرنجة الفموية المناسبة للسن، بدل كمية كبيرة مرة واحدة ممكن تحفز قيئاً جديداً. لو رجّع بعد محاولة، ما تعتبرش إن العلاج فشل من أول مرة؛ ارجع لكميات أصغر وببطء، واطلب نصيحة طبية لو مش قادر يحتفظ حتى بالرشفات أو حالته بتسوء [1, 4, 5, 7, 12].\n\nحضّر كيس المحلول بكمية الميه المكتوبة عليه بالضبط. ما تزودش البودرة، وما تخففش المحلول أو اللبن الصناعي من نفسك، وما تعملش خلطة ملح وسكر بالتخمين. العصير، المشروبات الغازية، ومشروبات الرياضة مش بديل مكافئ لمحلول الإماهة، وتركيز السكر فيها ممكن يزود الإسهال. اسأل الصيدلي أو الطبيب عن المنتج المناسب للسن، خصوصاً للرضيع أو للطفل اللي عنده مرض مزمن [1, 2, 3, 5, 6].\n\nاستمر في الرضاعة الطبيعية على فترات متقاربة، وما توقفش اللبن المعتاد أو تخفف تركيز اللبن الصناعي من غير توجيه. أثناء مرحلة تعويض جفاف واضح، الطبيب ممكن يدي تعليمات محددة عن السوائل والأكل حسب الحالة. بعد ما الطفل يتعوض ويقدر يشرب، ارجع لأكله المعتاد تدريجياً حسب تقبله؛ مش لازم نظام تجويع أو منع اللبن بشكل روتيني. العلاج بالفم بينجح مع أطفال كتير، لكن الجفاف الشديد، الصدمة، التدهور، أو القيء المستمر للمحلول قد يحتاج تعويضاً بأنبوبة أو وريد داخل منشأة صحية [1, 6, 7, 10, 12].",
+            "en": "If the child is alert, has no red flag and can swallow, correctly prepared oral rehydration solution is the main way to replace lost water and salts. Offer small, frequent amounts with a spoon, cup or age-appropriate oral syringe rather than one large drink that may trigger more vomiting. If the child vomits after an attempt, do not assume treatment has failed immediately; restart more slowly with smaller amounts. Obtain medical advice if even tiny sips will not stay down or the child is worsening [1, 4, 5, 7, 12].\n\nMix each sachet with exactly the amount of water stated on the packet. Do not add extra powder, dilute the solution or formula independently, or improvise a salt-and-sugar mixture by guesswork. Juice, fizzy drinks and sports drinks are not equivalent to oral rehydration solution, and their sugar concentration can worsen diarrhoea. Ask a pharmacist or clinician which product is suitable for the child's age, particularly for an infant or a child with a chronic condition [1, 2, 3, 5, 6].\n\nContinue breastfeeding frequently, and do not routinely stop usual milk or weaken formula without clinical direction. During correction of clear dehydration, the clinician may give specific fluid and food instructions for that child. Once rehydrated and able to drink, return gradually to the usual diet as tolerated; routine starvation or milk avoidance is unnecessary. Oral treatment succeeds for many children, but severe dehydration, shock, deterioration or persistent vomiting of oral solution may require tube or intravenous rehydration in a healthcare setting [1, 6, 7, 10, 12]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "emergency-red-flags",
+          "heading": {
+            "ar": "علامات ما ينفعش تستنى: طوارئ أو تقييم عاجل",
+            "en": "Signs that cannot wait: emergency or urgent assessment"
+          },
+          "body": {
+            "ar": "القيء الأخضر الغامق اللي يشبه لون الصفراء علامة طوارئ لأنه ممكن يشير لانسداد في الأمعاء لحد ما يثبت العكس. القيء الدموي، أو اللي شكله زي تفل القهوة، برضه محتاج تقييماً عاجلاً. ما تستناش لو فيه ألم بطن شديد أو ثابت أو مركز في مكان واحد، بطن منتفخة ومؤلمة، تيبس أو ألم يزيد مع الحركة، أو براز أسود أو دم واضح. توقف القيء بعد دواء لا يستبعد سبباً خطيراً لو العلامات دي موجودة [1, 3, 8, 10].\n\nاطلب طوارئ فوراً لو الطفل صعب يصحى، مش بيرد كعادته، أغمي عليه، عنده تشنج، صعوبة تنفس، لون أزرق أو رمادي أو شحوب وتبقع واضح، أو أطراف باردة مع تدهور. تيبس الرقبة مع حرارة أو حساسية شديدة للضوء، صداع مفاجئ شديد، قيء بعد إصابة رأس، أو قيء مع اضطراب في الوعي علامات مش لازم تتفسر كنزلة معدة. لو فيه احتمال ابتلاع سم أو منظف أو جرعة دواء، تواصل فوراً مع خدمة الطوارئ أو مركز السموم المحلي، وما تحاولش تخليه يرجع [2, 3, 8].\n\nالرضيع الصغير جداً، الطفل اللي عنده مرض مزمن معقد، أو اللي حالته بتتغير بسرعة يستحق عتبة أقل للتقييم. كذلك حرارة واضحة في رضيع أقل من ثلاثة أشهر، أو حرارة عالية مع مظهر مريض في طفل أكبر، تحتاج تواصلاً عاجلاً حسب السن والحالة. لو إحساسك إن الطفل «مش طبيعي» رغم إنك مش قادر تحدد علامة واحدة، خُد القلق بجد واطلب تقييماً؛ الإرشادات نفسها بتعتمد على تدهور الصورة العامة مش على رقم واحد فقط [1, 8, 10].",
+            "en": "Dark green, bile-coloured vomit is an emergency sign because it may indicate intestinal obstruction until proved otherwise. Bloody vomit, or material that resembles coffee grounds, also needs urgent assessment. Do not wait when there is severe, constant or localised abdominal pain; a swollen tender abdomen; rigidity or pain worsened by movement; black stool; or visible blood. Vomiting that stops after medicine does not exclude a serious cause when these features remain [1, 3, 8, 10].\n\nSeek emergency help immediately if the child is difficult to wake, is not responding normally, faints, has a seizure, struggles to breathe, develops blue or grey colouring or marked pallor and mottling, or has cold limbs while deteriorating. Neck stiffness with fever or marked light sensitivity, a sudden severe headache, vomiting after a head injury, or vomiting with altered awareness should not be labelled a stomach bug. If poisoning, a cleaning product or a medicine overdose is possible, contact emergency services or the local poison centre immediately and do not induce vomiting [2, 3, 8].\n\nA very young infant, a child with a complex chronic condition, or any child changing rapidly deserves a lower threshold for assessment. A clear fever in an infant younger than three months, or high fever with an unwell appearance in an older child, also needs urgent age-appropriate advice. If your overall impression is that the child is simply \"not right\" even though you cannot name one sign, take that concern seriously and seek assessment; guidance relies on deterioration in the whole clinical picture, not one number alone [1, 8, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "same-day-medical-advice",
+          "heading": {
+            "ar": "إمتى تكلم طبيب في نفس اليوم حتى من غير علامة طوارئ؟",
+            "en": "When to obtain same-day advice without an emergency sign"
+          },
+          "body": {
+            "ar": "اطلب نصيحة طبية في نفس اليوم لو الطفل بيرجع بشكل متكرر ومش قادر يحتفظ بكمية كفاية من السوائل، بوله قل بوضوح، وقف الرضاعة أو الزجاجة، أو ظهرت عليه علامات جفاف حتى لو لسه صاحي. الرضيع تحت سنة، وخصوصاً تحت ستة أشهر، محتاج انتباهاً أسرع. كذلك تواصل لو القيء مستمر أكتر من يومين، أو ماشي عكس المتوقع وبيزيد بدل ما يتحسن، أو رجع بعد تحسن مع أعراض جديدة [1, 2, 3].\n\nوجود دم أو مخاط في الإسهال، ألم موضّع، حرارة مستمرة، فقدان وزن، عطش وتبول زائدين قبل القيء، صداع صباحي متكرر، أو قيء بيصحّي الطفل من النوم يغيّر المسار ويحتاج تقييماً. القيء من غير إسهال ممكن يبدأ قبل الإسهال في نزلة معوية، لكنه برضه يفتح احتمالات تانية؛ لذلك ما تكررّش تشخيص «فيروس» أياماً من غير مراجعة لو الصورة مش بتتحسن [1, 8, 10].\n\nلو الطفل عنده سكر، مرض كلى أو قلب، اضطراب أيضي، ضعف مناعة، أو جراحة سابقة في الجهاز الهضمي، اتبع خطة الفريق المعالج واتصل بدري لأن الجفاف واضطراب الأملاح ممكن يبقوا أخطر. نفس الكلام لو مش قادر تراقب الطفل أو توفر له سوائل مناسبة في البيت. الحدود الزمنية مش بديل عن حالة الطفل: ممكن طفل يحتاج كشفاً بعد ساعات بسبب تدهور واضح، بينما طفل تاني مستقر يتحسن مع متابعة وسوائل. القرار النهائي حسب العمر، الفحص، الخسائر، والقدرة على الشرب [1, 9, 10].",
+            "en": "Seek same-day medical advice if vomiting is frequent and the child cannot retain enough fluid, urine output has clearly fallen, breast or bottle feeds have stopped, or dehydration signs appear even while the child is still awake. An infant younger than one year, especially younger than six months, needs earlier attention. Also make contact when vomiting lasts beyond two days, is worsening rather than following an improving course, or returns after improvement with new symptoms [1, 2, 3].\n\nBlood or mucus in diarrhoea, localised pain, persistent fever, weight loss, excessive thirst and urination before vomiting, recurrent morning headache, or vomiting that wakes the child changes the pathway and needs assessment. Vomiting without diarrhoea can precede diarrhoea early in gastroenteritis, but it also broadens the possible causes; do not keep repeating a \"virus\" label for days when the pattern is not improving [1, 8, 10].\n\nWhen a child has diabetes, kidney or heart disease, a metabolic disorder, immune suppression or previous gastrointestinal surgery, follow the treating team's sick-day plan and contact them early because dehydration and electrolyte disturbance may be more dangerous. The same applies when reliable observation or suitable fluids cannot be provided at home. Time thresholds do not replace the child's condition: one child may need assessment within hours because of clear deterioration, while another remains stable and improves with fluids and observation. Age, examination, losses and drinking ability guide the final decision [1, 9, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "clinical-assessment-treatment",
+          "heading": {
+            "ar": "في الكشف: التقييم موجه، والعلاج بيتحدد حسب الشدة والسبب",
+            "en": "At assessment: tests and treatment follow severity and cause"
+          },
+          "body": {
+            "ar": "الطبيب يبدأ بمجرى التنفس والدورة الدموية والوعي، ثم يراجع كمية الشرب والقيء والإسهال والبول والوزن السابق إن وُجد. الفحص بيشمل علامات الجفاف والبطن، ومعاه فحص عصبي أو تنفسي أو غيره حسب القصة. أطفال كتير عندهم نزلة معوية بسيطة مش محتاجين تحاليل أو أشعة روتينية؛ الفحوصات بتتطلب لما التشخيص مش واضح، أو فيه علامة خطر، صدمة، حاجة لسوائل وريدية، أو احتمال اضطراب أملاح أو سكر [1, 4, 9, 10].\n\nالأولوية هي تعويض السوائل بالطريق الأقل تدخلاً اللي ينجح بأمان. محلول الإماهة بالفم هو البداية في حالات مناسبة، وأحياناً يتاخد بأنبوبة أنف للمعدة لو الشرب صعب. السوائل الوريدية بتبقى ضرورية مع الصدمة أو الجفاف الشديد أو التدهور أو فشل التعويض المعوي. مقارنة الدراسات بتوضح إن التعويض الفموي مناسب وفعال لكثير من أطفال النزلة المعوية، لكنه مش اختبار قوة ولا لازم يستمر في البيت لما الطفل بيفشل أو بيتدهور [1, 7, 12].\n\nأدوية القيء مش خطوة تلقائية لكل طفل. أوندانسيترون مثلاً ممكن يستخدمه الفريق في الطوارئ لبعض الأطفال الأكبر من ستة أشهر المصابين بقيء مع نزلة معوية وجفاف بسيط إلى متوسط أو بعد فشل محاولة تعويض مناسبة، لكن اختيار الطفل والجرعة وموانع الاستعمال قرار طبي. ما تستخدمش وصفة قديمة أو دواء طفل تاني، وما تعتبرش توقف القيء دليلاً إن السبب الخطير اختفى [7, 8, 11].\n\nلو القيء مزمن أو متكرر، ضعف النمو، صعوبة البلع، نزيف، أو نتائج موجهة، الطبيب قد يناقش فحوصات تخصصية بدل علاج الأعراض فقط. صفحة منظار المعدة عند الأطفال: إمتى يحتاجه الطفل؟ تشرح دور المنظار وحدوده، لكن القيء الحاد وحده لا يعني إن كل طفل محتاج منظار [8].",
+            "en": "The clinician begins with airway, circulation and alertness, then reviews drinking, vomiting, diarrhoea, urine output and any reliable pre-illness weight. Examination covers hydration and the abdomen, with neurological, respiratory or other assessment guided by the history. Many children with uncomplicated gastroenteritis need no routine blood tests or imaging. Investigations become relevant when the diagnosis is unclear, a red flag or shock is present, intravenous fluid is required, or an electrolyte or glucose disturbance is possible [1, 4, 9, 10].\n\nThe priority is fluid replacement by the least invasive route that works safely. Oral rehydration solution is first-line in suitable cases, and it can sometimes be given through a nasogastric tube when drinking is difficult. Intravenous fluid is needed for shock, severe dehydration, deterioration or failed enteral rehydration. Comparative evidence shows that oral treatment is appropriate and effective for many children with gastroenteritis, but it is not a test of endurance and should not be prolonged at home when the child is failing or worsening [1, 7, 12].\n\nAntiemetic medicine is not automatic for every child. Ondansetron, for example, may be used by an emergency team for selected children older than six months with gastroenteritis-related vomiting and mild-to-moderate dehydration, or after a suitable oral rehydration attempt fails. Selection, dose and contraindications remain clinical decisions. Do not use an old prescription or another child's medicine, and do not treat cessation of vomiting as proof that a serious cause has disappeared [7, 8, 11].\n\nWhen vomiting is chronic or recurrent, growth is faltering, swallowing is difficult, bleeding occurs or directed findings raise concern, the clinician may discuss specialist tests rather than treating symptoms alone. Endoscopy in children: when is it considered? explains the role and limits of a scope, but acute vomiting alone does not mean that every child needs endoscopy [8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "منظار المعدة عند الأطفال: إمتى يحتاجه الطفل؟",
+                "url": "../articles/endoscopy-in-children-when-considered.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Endoscopy in children: when is it considered?",
+                "url": "../articles/endoscopy-in-children-when-considered.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "practical-next-step",
+          "heading": {
+            "ar": "خطة عملية للمراقبة والخطوة الجاية",
+            "en": "A practical monitoring plan and next step"
+          },
+          "body": {
+            "ar": "لو الطفل مستقر ومفيش علامات خطر، اعمل سجل بسيط للساعات الجاية: مرات القيء، الرشفات اللي احتفظ بها، البول أو الحفاضات، الحرارة، الإسهال، والنشاط. استخدم محلول الإماهة بالطريقة الصحيحة، كمل الرضاعة، وراجع الطفل بانتظام بدل الاعتماد على إنه نام وخلاص. ما تجبرش الأكل، لكن بعد التعويض اسمح بالأكل المعتاد حسب الشهية. اغسل الإيدين بالماء والصابون، نظف الأسطح اللي اتلوثت، وما تشاركش المناشف أو أدوات الأكل لو فيه احتمال عدوى معدية [1, 2, 3, 10].\n\nقبل ما تكلم الطبيب، جهّز عمر الطفل ووزنه التقريبي، وقت بداية الأعراض، آخر مرة تبول فيها، عدد مرات القيء والإسهال، لون القيء، ووجود حرارة أو ألم. اذكر الأمراض والأدوية والحساسيات وأي تعرض محتمل لعدوى أو طعام ملوث أو مادة سامة. المعلومات دي تساعد الفريق يحدد هل المتابعة المنزلية آمنة، هل محتاج كشفاً في نفس اليوم، ولا طوارئ فوراً [1, 4].\n\nلو ظهرت علامة خطر، ما تستخدمش حجز عيادة عادي وما تستناش رد رسالة؛ اطلب الطوارئ المناسبة فوراً. أما لو القيء متكرر أو مستمر والطفل مستقر من غير علامة طوارئ، تقدر تطلب حجز موعد أطفال في العيادة عشان يتم تقييم القصة، الجفاف، النمو، والفحص، وبعدها الطبيب المعالج يحدد الخطة أو الإحالة المناسبة. ذكر العيادة هنا للتنظيم فقط؛ المقال ما يقدرش يشخّص طفلاً بعينه، وأي قرار عن دواء أو كمية سوائل علاجية أو فحوصات لازم يتظبط على سنه وحالته [1, 8, 9].",
+            "en": "When the child is stable and has no red flags, keep a simple record: vomiting episodes, sips retained, urine or wet nappies, temperature, diarrhoea and activity. Use oral rehydration solution correctly, continue breastfeeding and reassess regularly rather than assuming that sleep means recovery. Do not force food, but once rehydrated allow the usual diet according to appetite. Wash hands with soap and water, clean contaminated surfaces, and avoid sharing towels or utensils when infection is possible [1, 2, 3, 10].\n\nBefore contacting a clinician, have the child's age and weight, symptom start time, last urine output, number of vomiting and diarrhoea episodes, vomit colour, fever and pain ready. Mention medical conditions, medicines, allergies and possible exposure to infection, contaminated food or a toxic substance. These details help the team decide whether home observation is safe, same-day assessment is needed or emergency care is required [1, 4].\n\nIf a red flag appears, do not use a routine clinic booking or wait for a message reply; seek the appropriate emergency care immediately. For recurrent or persistent vomiting in a stable child without an emergency sign, you can request a paediatric appointment at the clinic to review the history, hydration, growth and examination. The treating clinician can then choose the plan or referral. This clinic mention is organisational only: an article cannot diagnose an individual child, and decisions about medicine, therapeutic fluid volumes or tests must be tailored to age and condition [1, 8, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حجز موعد أطفال في العيادة",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a paediatric appointment at the clinic",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الميه لوحدها كفاية مع قيء الطفل؟",
+            "en": "Is plain water enough when a child is vomiting?"
+          },
+          "a": {
+            "ar": "المياه ممكن تكون جزءاً من السوائل لطفل مناسب، لكنها ما تعوضش الأملاح والجلوكوز بالنسب المصممة لمساعدة الامتصاص بعد خسائر القيء أو الإسهال. محلول الإماهة الفموي المحضّر حسب العبوة هو الاختيار المفضل لما فيه خطر جفاف. الرضيع أو الطفل المريض أو اللي عنده خسائر مستمرة محتاج نصيحة عن النوع والكمية، ومش مناسب تعويضه بكميات كبيرة من المياه وحدها [1, 5, 6].",
+            "en": "Water can form part of fluid intake for an appropriate child, but it does not replace salts and glucose in the proportions designed to support absorption after vomiting or diarrhoea losses. Correctly prepared oral rehydration solution is preferred when dehydration is a risk. An infant, an unwell child or one with continuing losses needs advice on fluid type and volume rather than large amounts of water alone [1, 5, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو الطفل رجّع بعد محلول الإماهة، أوقفه؟",
+            "en": "Should oral rehydration stop if the child vomits after a sip?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. جرّب ترجع لرشفات أصغر ومتكررة وبهدوء بدل كمية كبيرة مرة واحدة. بعض الأطفال يحتفظوا بجزء من السائل حتى مع القيء. لكن لو كل المحاولات بترجع، الطفل مش قادر يبلع، البول قليل، أو النشاط بيقل، اطلب تقييماً طبياً؛ القيء المستمر لمحلول الإماهة ممكن يحتاج تعويضاً بأنبوبة أو وريد [1, 4, 7, 12].",
+            "en": "Not necessarily. Restart calmly with smaller, more frequent sips rather than one large drink; some fluid may still be retained. If every attempt comes back, the child cannot swallow, urine output falls or activity declines, obtain medical assessment. Persistent vomiting of oral rehydration solution may require tube or intravenous replacement [1, 4, 7, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أوقف الرضاعة الطبيعية أو اللبن الصناعي لحد ما القيء يخلص؟",
+            "en": "Should breastfeeding or formula stop until vomiting ends?"
+          },
+          "a": {
+            "ar": "لأ، الرضاعة الطبيعية بتستمر عادة بكميات أو مرات تناسب تحمل الطفل، واللبن الصناعي ما يتخففش من نفسك. لو فيه جفاف واضح أو الطفل مش قادر يحتفظ بالرضعات، الفريق يحدد خطة محلول الإماهة وإمتى يرجع اللبن والأكل. الأمراض المزمنة والرضع الصغيرين محتاجين تعليمات فردية أسرع [1, 2, 7].",
+            "en": "No. Breastfeeding usually continues in amounts and intervals the child can tolerate, and formula should not be diluted independently. If clear dehydration is present or feeds will not stay down, the clinical team should direct oral rehydration and the return to milk and food. Young infants and children with chronic conditions need earlier individual advice [1, 2, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ينفع أدي دواء للقيء من وصفة قديمة؟",
+            "en": "Can I give an anti-vomiting medicine from an old prescription?"
+          },
+          "a": {
+            "ar": "ما تبدأش دواء من وصفة قديمة أو من طفل تاني. بعض أدوية القيء لها دور في حالات مختارة وتحت تقييم طبي، لكن السن والوزن والسبب والأمراض المصاحبة وموانع الدواء بتفرق. الأهم إن الدواء ممكن يوقف العرض من غير ما يستبعد انسداداً أو التهاباً أو سبباً عصبياً، فلازم علامات الخطر تفضل هي اللي توجه القرار [7, 8, 11].",
+            "en": "Do not start medicine from an old prescription or another child. Some antiemetics have a role in selected, clinically assessed cases, but age, weight, cause, other conditions and contraindications matter. More importantly, medicine may suppress vomiting without excluding obstruction, infection or a neurological cause, so red flags must continue to guide the decision [7, 8, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ليه القيء الأخضر عند الطفل علامة طوارئ؟",
+            "en": "Why is green vomit an emergency sign in a child?"
+          },
+          "a": {
+            "ar": "اللون الأخضر الغامق ممكن يكون عصارة صفراوية، وده قد يظهر مع انسداد في الجهاز الهضمي. الإرشادات بتتعامل مع القيء الأخضر كاحتمال انسداد لحد ما يتفحص الطفل ويثبت العكس. ما تقدمش أكل أو دواء عشان تختبر الموضوع، وما تستناش نوبة تانية؛ اطلب تقييماً عاجلاً [1, 3, 8].",
+            "en": "Dark green vomit may contain bile and can occur with gastrointestinal obstruction. Guidance treats bilious green vomiting as possible obstruction until the child is examined and another explanation is established. Do not offer food or medicine to test the situation, and do not wait for another episode; obtain urgent assessment [1, 3, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى يرجع الطفل للأكل المعتاد؟",
+            "en": "When can the child return to usual food?"
+          },
+          "a": {
+            "ar": "الأولوية لو فيه جفاف هي تعويض السوائل، مع استمرار الرضاعة الطبيعية. بعد ما الطفل يتعوض ويقدر يحتفظ بالسوائل، ارجع للأكل المعتاد حسب الشهية بدل تجويعه أو فرض حمية شديدة. تجنب العصير والمشروبات الغازية أثناء الإسهال، وما تمنعش اللبن أو مجموعات أكل كاملة بشكل روتيني من غير سبب طبي [1, 3, 7, 10].",
+            "en": "When dehydration is present, fluid replacement comes first while breastfeeding continues. Once the child is rehydrated and retaining fluid, return to the usual diet according to appetite rather than imposing starvation or a highly restrictive diet. Avoid juice and fizzy drinks during diarrhoea, and do not routinely remove milk or whole food groups without a clinical reason [1, 3, 7, 10]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NICE — Diarrhoea and vomiting caused by gastroenteritis in under 5s: recommendations (CG84)",
+          "url": "https://www.nice.org.uk/guidance/cg84/chapter/Recommendations"
+        },
+        {
+          "label": "NHS — Dehydration",
+          "url": "https://www.nhs.uk/conditions/dehydration/"
+        },
+        {
+          "label": "NHS — Diarrhoea and vomiting",
+          "url": "https://www.nhs.uk/symptoms/diarrhoea-and-vomiting/"
+        },
+        {
+          "label": "CDC — Managing acute gastroenteritis among children: oral rehydration, maintenance and nutritional therapy",
+          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5216a1.htm"
+        },
+        {
+          "label": "WHO — Oral rehydration salts",
+          "url": "https://www.who.int/publications/i/item/WHO-FCH-CAH-06.1"
+        },
+        {
+          "label": "WHO — Guideline on management of pneumonia and diarrhoea in children up to 10 years of age",
+          "url": "https://www.who.int/publications/i/item/9789240103412"
+        },
+        {
+          "label": "ESPGHAN/ESPID — Evidence-based guidelines for acute gastroenteritis in children: 2014 update",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24739189/"
+        },
+        {
+          "label": "Royal Children's Hospital Melbourne — Clinical practice guideline: vomiting",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/"
+        },
+        {
+          "label": "Royal Children's Hospital Melbourne — Clinical practice guideline: dehydration",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Dehydration/"
+        },
+        {
+          "label": "Royal Children's Hospital Melbourne — Clinical practice guideline: gastroenteritis",
+          "url": "https://www.rch.org.au/clinicalguide/guideline_index/Gastroenteritis/"
+        },
+        {
+          "label": "Canadian Paediatric Society — Emergency department use of oral ondansetron for gastroenteritis-related vomiting",
+          "url": "https://cps.ca/en/documents/position/oral-ondansetron"
+        },
+        {
+          "label": "Cochrane Review — Oral versus intravenous rehydration for dehydration due to gastroenteritis in children",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16856044/"
+        },
+        {
+          "label": "Freedman et al. — Non-invasive diagnosis of clinically significant dehydration in children: meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25641247/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "قيء الأطفال",
+          "جفاف الأطفال",
+          "علامات الجفاف عند الطفل",
+          "محلول الإماهة الفموي",
+          "متى يذهب الطفل للطوارئ"
+        ],
+        "en": [
+          "child vomiting",
+          "child dehydration",
+          "dehydration warning signs",
+          "oral rehydration solution",
+          "when a child needs emergency care"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "قيء الأطفال والجفاف: علامات الخطر والطوارئ",
+          "en": "Child vomiting and dehydration warning signs"
+        },
+        "description": {
+          "ar": "دليل للأهل عن قيء الأطفال وعلامات الجفاف، وطريقة تقديم محلول الإماهة بأمان، وإمتى يحتاج الطفل كشفاً عاجلاً أو الذهاب للطوارئ فوراً.",
+          "en": "A parent guide to child vomiting, dehydration signs, safe oral rehydration, and when a child needs same-day assessment or emergency care."
+        }
+      }
+    }
+  ]
+}

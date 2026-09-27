@@ -1,0 +1,337 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of ibs-symptoms-women-assessment-guide; replaces the entry from content/articles-longform-2026-09-12.json. Expanded into a cited bilingual guide to symptom patterns, women-specific differentials, assessment, red flags and individualised management.",
+  "articles": [
+    {
+      "slug": "ibs-symptoms-women-assessment-guide",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "internal-medicine"
+      ],
+      "date": "2026-09-12",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/ibs-women-cover.webp",
+      "title": {
+        "ar": "أعراض القولون العصبي عند النساء: دليل التقييم",
+        "en": "IBS symptoms in women: an assessment guide"
+      },
+      "excerpt": {
+        "ar": "ألم البطن والانتفاخ وتغيّر التبرز ممكن يتأثروا بالدورة، بس مش كل عرض سببه القولون العصبي. اعرف النمط المهم، الفحوصات المحتملة، وإمتى تحتاج تقييم أسرع.",
+        "en": "Abdominal pain, bloating and bowel changes may vary with the menstrual cycle, but IBS is not the only possible cause. Learn which patterns, tests and warning signs matter."
+      },
+      "tags": {
+        "ar": [
+          "أعراض القولون العصبي عند النساء",
+          "القولون والدورة الشهرية",
+          "تقييم الجهاز الهضمي"
+        ],
+        "en": [
+          "IBS symptoms in women",
+          "IBS and periods",
+          "digestive assessment"
+        ]
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا دليل أعراض القولون العصبي عند النساء والتقييم وعلامات الخطر، واتراجع طبياً من جديد.",
+            "en": "We expanded the guide to IBS symptoms in women, assessment and warning signs, and medically re-reviewed it."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-ibs-pattern-means",
+          "heading": {
+            "ar": "إيه النمط اللي يخلّي الطبيب يفكر في القولون العصبي؟",
+            "en": "What pattern makes a clinician consider IBS?"
+          },
+          "body": {
+            "ar": "القولون العصبي مش مجرد غازات، ومش اسم لأي وجع بطن من غير سبب واضح. هو اضطراب مزمن في تفاعل المخ والأمعاء، وبيظهر عادة كألم متكرر في البطن مرتبط بالتبرز، ومعاه تغيّر في عدد مرات دخول الحمام أو شكل البراز. ممكن يكون النمط إمساك غالب، أو إسهال غالب، أو متبادل بين الاتنين. الانتفاخ، الإحساس إن الإخراج ما خلصش، والمخاط الفاتح ممكن يظهروا كمان، لكن وجودهم لوحدهم مش كفاية للتشخيص [1, 2, 3].\n\nالطبيب بيدوّر على قصة متماسكة مع الوقت، مش على عرض ظهر يومين بعد أكلة مختلفة. من المعايير المستخدمة إن الألم يكون موجوداً في المتوسط مرة أسبوعياً خلال آخر 3 شهور، وإن بداية الأعراض ترجع إلى 6 شهور على الأقل، لكنك مش محتاج تستنى المدة دي عشان تطلب تقييم لو الأعراض مقلقة أو معطلة ليومك. المهم توصف هل الألم بيتغير بعد التبرز، وهل البراز بقى أصلب أو أطرى، وهل العدد زاد أو قل، وهل فيه أيام طبيعية بين النوبات [3, 5, 6].\n\nالقولون العصبي ما بيعملش تلف ظاهر في الأمعاء، لكنه ممكن يسبب ألم حقيقي وتأثير واضح على النوم والشغل والخروج. وكون التوتر أو قلة النوم بيزودوا الأعراض مش معناه إن المشكلة متخيلة؛ محور المخ والأمعاء جزء فعلي من طريقة الإحساس والحركة الهضمية. في نفس الوقت، التشخيص الإيجابي بالنمط والفحص المناسب أحسن من افتراض إن أي أعراض متكررة هي قولون عصبي من غير مراجعة البدائل [1, 2, 6].",
+            "en": "Irritable bowel syndrome is not simply gas, and it is not a label for every unexplained stomach ache. It is a chronic disorder of gut-brain interaction, typically involving recurrent abdominal pain related to bowel movements together with a change in stool frequency or form. The bowel pattern may be predominantly constipated, predominantly diarrhoeal, or mixed. Bloating, a sense of incomplete evacuation and pale mucus may also occur, but none of these features alone establishes the diagnosis [1, 2, 3].\n\nA clinician looks for a coherent pattern over time, not a symptom that appeared for two days after an unusual meal. Commonly used criteria describe pain occurring, on average, at least weekly during the previous three months, with symptom onset at least six months earlier. You do not need to wait for that duration before seeking advice if symptoms are worrying or disruptive. Useful details include whether pain changes after a bowel movement, whether stools became harder or looser, whether frequency increased or decreased, and whether normal days occur between episodes [3, 5, 6].\n\nIBS does not visibly damage the bowel, but it can cause genuine pain and substantial disruption to sleep, work and social life. Symptoms worsening with stress or poor sleep does not make them imaginary; gut-brain signalling is part of digestive sensation and movement. At the same time, a positive diagnosis based on the right pattern and assessment is safer than assuming every recurrent bowel complaint is IBS without considering alternatives [1, 2, 6]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "women-cycle-and-pelvic-clues",
+          "heading": {
+            "ar": "ليه الأعراض عند بعض النساء بتتغير مع الدورة؟",
+            "en": "Why can symptoms change around the menstrual cycle?"
+          },
+          "body": {
+            "ar": "كتير من النساء المصابين بالقولون العصبي بيلاحظوا زيادة الألم أو الانتفاخ أو تغيّر التبرز قبل الدورة أو أثناءها. المراجعات العلمية لقت اختلافات بين النساء والرجال في بعض الأنماط، خصوصاً الألم والإمساك، ووصفت زيادة أعراض الجهاز الهضمي حول الحيض عند جزء من المصابين. ده يساعد في فهم التوقيت، لكنه مش اختبار يثبت القولون العصبي، ومش معنى ارتباط الأعراض بالدورة إن السبب هرمونات وبس [2, 8].\n\nعشان كده سجل بسيط لمدة دورتين أو تلاتة ممكن يكون مفيد: يوم الدورة، مكان الألم، علاقته بالأكل والتبرز، شكل البراز، الانتفاخ، وأي ألم بالحوض أو التبول أو العلاقة الزوجية. اكتب كمان الأدوية، ومنها المسكنات ومكملات الحديد، لأنها ممكن تغيّر المعدة أو التبرز. السجل هدفه يوضح النمط، مش إنك تراقب كل لقمة أو تلوم نفسك على يوم صعب [3, 8, 9].\n\nفيه أعراض محتاجة توسيع السؤال بعيداً عن القولون. ألم الحوض اللي يزيد مع الدورة، ألم أثناء التبرز أو التبول وقتها، ألم أثناء العلاقة، أو نزيف دورة شديد ممكن يظهر مع بطانة الرحم المهاجرة ويحتاج تقييماً نسائياً مناسباً. والحمل أو احتمال الحمل يغير تفسير الألم واختيار الفحوصات والأدوية. وجود مشكلة نسائية لا يمنع وجود قولون عصبي في نفس الوقت، والعكس صحيح؛ الطبيب بيربط القصتين بدل ما يجبر كل الأعراض على تشخيص واحد [9, 13].",
+            "en": "Many women with IBS notice more pain, bloating or altered bowel habits before or during a period. Scientific reviews report sex-related differences in some symptom patterns, particularly pain and constipation, and describe increased gastrointestinal symptoms around menstruation in a proportion of people with IBS. That timing can help explain the pattern, but it is not a diagnostic test for IBS and does not prove that hormones are the only cause [2, 8].\n\nA simple record across two or three cycles can therefore be useful: note the day of the cycle, pain location, its relationship to meals and bowel movements, stool form, bloating, and any pelvic, urinary or sexual pain. Include medicines such as painkillers and iron supplements because these can alter the stomach or bowel. The purpose is to reveal a pattern, not to monitor every mouthful or blame yourself for a difficult day [3, 8, 9].\n\nSome clues should widen the question beyond IBS. Pelvic pain that worsens around periods, pain with bowel movements or urination during that time, pain during sex, or heavy menstrual bleeding can occur with endometriosis and deserves appropriate gynaecological assessment. Pregnancy or possible pregnancy also changes how pain, tests and medicines are approached. A gynaecological condition and IBS can coexist; one does not rule out the other. A clinician should connect both stories instead of forcing every symptom into a single diagnosis [9, 13]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "symptoms-that-overlap",
+          "heading": {
+            "ar": "مش كل انتفاخ أو إمساك يبقى قولون عصبي",
+            "en": "Not every episode of bloating or constipation is IBS"
+          },
+          "body": {
+            "ar": "أعراض القولون العصبي بتتشابه مع مشاكل تانية، عشان كده تفاصيل النمط بتفرق. الإمساك من غير ألم متكرر مرتبط بالتبرز قد يكون إمساكاً وظيفياً أكتر من كونه قولوناً عصبياً. الإسهال بعد عدوى، آثار دواء جديد، عدم تحمل اللاكتوز، الداء البطني، أو التهاب الأمعاء ممكن يعملوا صورة قريبة. صفحة الانتفاخ المستمر: إمتى تزور الطبيب؟ بتشرح فرق الإحساس بالانتفاخ عن التمدد الظاهر وعلامات الخطر من غير ما نكرر نطاقها هنا [2, 3, 7].\n\nالأكل يستحق ملاحظة هادئة، مش قائمة منع طويلة. عدم التحمل عادة يعمل أعراضاً هضمية مرتبطة بكمية طعام معيّن، بينما حساسية الطعام المناعية ممكن تعمل شرى أو تورم أو صفير أو أعراضاً سريعة وخطيرة. دليل الفرق بين عدم تحمل الطعام والحساسية يشرح الحدود دي بالتفصيل. ما توقفش الجلوتين قبل تقييم احتمال الداء البطني، لأن الحمية الخالية من الجلوتين قبل التحاليل ممكن تغيّر النتيجة وتخلي التشخيص أصعب [7, 11].\n\nعند النساء، الانتفاخ أو ألم أسفل البطن ممكن كمان يتداخل مع أسباب بالحوض أو المسالك. الانتفاخ المستمر الجديد، الشبع السريع، ألم الحوض أو البطن، أو تكرار وإلحاح التبول يحتاجوا مناقشة طبية، وخصوصاً لو بدأ نمط يشبه القولون العصبي لأول مرة بعد سن الخمسين. ده مش معناه تلقائياً وجود مرض خطير، لكنه سبب واضح لعدم الاكتفاء بالتشخيص الذاتي [9, 10].",
+            "en": "IBS symptoms overlap with other conditions, which is why the exact pattern matters. Constipation without recurrent pain related to bowel movements may fit functional constipation better than IBS. Diarrhoea after an infection, an adverse effect of a new medicine, lactose intolerance, coeliac disease or inflammatory bowel disease can produce a similar picture. The persistent bloating: when to see a doctor guide explains the difference between the sensation of bloating and visible distension, as well as its warning signs, without duplicating that topic here [2, 3, 7].\n\nFood deserves calm observation rather than a long exclusion list. Intolerance usually causes digestive symptoms related to the amount of a particular food, whereas immune-mediated food allergy may cause hives, swelling, wheeze or a rapid severe reaction. The food intolerance versus allergy guide explains those boundaries in detail. Do not stop gluten before assessment for possible coeliac disease, because a gluten-free diet before testing can change the results and make diagnosis harder [7, 11].\n\nIn women, bloating or lower abdominal pain may also overlap with pelvic or urinary causes. New persistent distension, early satiety, pelvic or abdominal pain, or urinary urgency and frequency should be discussed with a clinician, particularly when an IBS-like pattern begins for the first time after age 50. This does not automatically mean a serious disease is present; it is a clear reason not to rely on self-diagnosis [9, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الانتفاخ المستمر: إمتى تزور الطبيب؟",
+                "url": "../articles/bloating-when-to-see-doctor.html"
+              },
+              {
+                "label": "الفرق بين عدم تحمل الطعام والحساسية",
+                "url": "../articles/food-intolerance-vs-allergy.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "persistent bloating: when to see a doctor",
+                "url": "../articles/bloating-when-to-see-doctor.html"
+              },
+              {
+                "label": "food intolerance versus allergy",
+                "url": "../articles/food-intolerance-vs-allergy.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "assessment-and-tests",
+          "heading": {
+            "ar": "التقييم المنظم: أسئلة وفحص وتحاليل حسب الحالة",
+            "en": "A structured assessment: history, examination and selective tests"
+          },
+          "body": {
+            "ar": "التقييم بيبدأ بسؤال واضح: هل النمط يطابق القولون العصبي، وهل فيه علامة تغيّر المسار؟ الطبيب بيسأل عن مدة الألم ومكانه، علاقته بالتبرز، شكل البراز وعدده، النزف، الوزن، الشهية، الحرارة، الأعراض الليلية، السفر أو العدوى، والأدوية. التاريخ العائلي للداء البطني أو التهاب الأمعاء أو سرطان القولون مهم. عند النساء، توقيت الدورة، احتمال الحمل، نزيف غير معتاد، وألم الحوض أو البول أو العلاقة ممكن يحددوا هل نحتاج مساراً نسائياً بجانب تقييم الجهاز الهضمي [3, 5, 9].\n\nالفحص ممكن يشمل العلامات الحيوية وفحص البطن والبحث عن شحوب أو جفاف أو كتلة أو موضع ألم محدد. لو الصورة نموذجية ومفيش علامات خطر، الإرشادات بتدعم تشخيصاً إيجابياً مع فحوص محدودة بدل سلسلة فحوص عشوائية. حسب القصة، ممكن يطلب الطبيب صورة دم، مؤشرات التهاب، وتحاليل الداء البطني. مع الإسهال المشتبه إنه قولون عصبي، بعض الإرشادات بتدعم تحليل كالبروتين الواقي في البراز لاستبعاد التهاب الأمعاء عند ملاءمته [3, 5, 6].\n\nالمنظار أو الأشعة أو اختبارات التنفس مش مطلوبة لكل شخص. قرارها بيعتمد على العمر، علامات الخطر، التاريخ العائلي، نتيجة الفحص والتحاليل، وهل النتيجة هتغيّر الخطة. وسونار البطن ما بيشخّصش القولون العصبي، لكنه ممكن يجاوب سؤالاً مختلفاً لو فيه ألم موضّع أو اشتباه في عضو آخر. دليل سونار البطن والحوض: بيكشف إيه؟ يشرح إمكانياته وحدوده، خصوصاً إن نتيجة طبيعية لا تستبعد كل أسباب ألم الأمعاء أو الحوض [3, 5, 13].",
+            "en": "Assessment begins with a focused question: does the pattern fit IBS, and is there anything that changes the pathway? A clinician asks about the duration and location of pain, its relationship to defecation, stool form and frequency, bleeding, weight, appetite, fever, night symptoms, travel or infection, and medicines. A family history of coeliac disease, inflammatory bowel disease or colorectal cancer matters. In women, cycle timing, possible pregnancy, unusual bleeding, pelvic pain, urinary pain or pain during sex may indicate that a gynaecological pathway is needed alongside digestive assessment [3, 5, 9].\n\nExamination may include vital signs, abdominal examination, and checking for pallor, dehydration, a mass or localised tenderness. When the pattern is typical and warning features are absent, guidelines support a positive diagnosis with limited tests rather than an indiscriminate series of investigations. Depending on the history, a clinician may request a full blood count, inflammatory markers and coeliac serology. In suspected IBS with diarrhoea, some guidelines support a stool marker such as faecal calprotectin when appropriate to help exclude inflammatory bowel disease [3, 5, 6].\n\nEndoscopy, imaging and breath tests are not required for everyone. Their use depends on age, warning signs, family history, examination and test results, and whether the answer would change management. Abdominal ultrasound does not diagnose IBS, although it may answer a different question when pain is localised or another organ is suspected. The abdominal and pelvic ultrasound: what does it show? guide explains its abilities and limits, including why a normal scan cannot exclude every bowel or pelvic cause of pain [3, 5, 13]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "سونار البطن والحوض: بيكشف إيه؟",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "abdominal and pelvic ultrasound: what does it show?",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "red-flags-and-urgent-care",
+          "heading": {
+            "ar": "علامات ما ينفعش ننسبها للقولون من غير تقييم",
+            "en": "Warning signs that should not be attributed to IBS without assessment"
+          },
+          "body": {
+            "ar": "اطلب تقييماً طبياً قريباً لو فيه نزف من الشرج، براز أسود، نقص وزن من غير قصد، أنيميا، كتلة محسوسة، حرارة مستمرة، إسهال بيصحّيك من النوم، أو تاريخ عائلي مهم لسرطان القولون أو التهاب الأمعاء أو الداء البطني. ظهور أعراض جديدة لأول مرة في سن أكبر، أو تغيّر واضح ومستمر عن نمط معروف، يستحق مراجعة بدل ما تفترض إنه نفس القولون القديم [3, 5, 10, 12].\n\nاطلب رعاية عاجلة لو الألم شديد أو بيزيد بسرعة، البطن قاسية أو شديدة الحساسية، فيه إغماء أو دوخة شديدة، قيء متكرر يمنع السوائل، قيء دموي، نزف غزير، أو انتفاخ مؤلم مع توقف خروج البراز والغاز. ولو فيه احتمال حمل مع ألم حاد بأسفل البطن، نزف، ألم بالكتف، ضعف شديد أو إغماء، ما تستناش موعداً عادياً. درجة الاستعجال بتتحدد حسب الصورة الكاملة، ومقال أونلاين ما يقدرش يفحصك [3, 12, 13].\n\nعند النساء، انتفاخ بطني مستمر أو متكرر مع شبع سريع، فقدان شهية، ألم بالحوض أو البطن، أو إلحاح وتكرار البول يحتاج تقييماً، خصوصاً لو الأعراض جديدة أو متكررة كتير. إرشادات NICE تلفت الانتباه كمان للأعراض اللي تبدو كقولون عصبي لأول مرة بعد سن الخمسين لأن البداية الجديدة في السن ده أقل شيوعاً. الهدف مش التخويف؛ الهدف إن علامة مختلفة تاخد مسارها الصح في الوقت المناسب [10].",
+            "en": "Arrange prompt medical assessment for rectal bleeding, black stools, unintentional weight loss, anaemia, a palpable mass, persistent fever, diarrhoea that wakes you from sleep, or an important family history of colorectal cancer, inflammatory bowel disease or coeliac disease. Symptoms beginning for the first time at an older age, or a clear persistent change from an established pattern, deserve review rather than being assumed to be the same old IBS [3, 5, 10, 12].\n\nSeek urgent care for severe or rapidly worsening pain, a rigid or very tender abdomen, fainting or severe dizziness, repeated vomiting that prevents fluids, vomiting blood, heavy bleeding, or painful distension with inability to pass stool or gas. If pregnancy is possible and there is acute lower abdominal pain, bleeding, shoulder pain, marked weakness or fainting, do not wait for a routine appointment. Urgency depends on the full clinical picture, which an online article cannot examine [3, 12, 13].\n\nIn women, persistent or frequent abdominal distension accompanied by early satiety, reduced appetite, pelvic or abdominal pain, or urinary urgency and frequency warrants assessment, especially when new or frequent. NICE also highlights IBS-like symptoms appearing for the first time after age 50 because new-onset IBS is less common at that age. This guidance is not intended to cause alarm; it ensures that a different pattern follows the right pathway at the right time [10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "symptom-diary-preparation",
+          "heading": {
+            "ar": "حضّر للموعد من غير ما تحوّل يومك لمعمل",
+            "en": "Prepare for the appointment without turning life into a laboratory"
+          },
+          "body": {
+            "ar": "قبل الموعد بأسبوعين تقريباً، اكتب ملاحظات قصيرة تكفي لرؤية النمط: وقت الألم ومكانه، شدته، هل بيتحسن أو يزيد بعد التبرز، عدد مرات الحمام، وشكل البراز باستخدام وصف بسيط من صلب ومتكتل إلى مائي. سجل الانتفاخ، الإلحاح، الإحساس بعدم اكتمال الإخراج، والأيام اللي مفيهاش أعراض. عند النساء، ضيف يوم الدورة وأي نزيف أو ألم حوض أو بول. مفيش داعي لحساب كل مكوّن في الوجبة أو تصويرها [3, 5, 9].\n\nاكتب الأكل المختلف أو الوجبة اللي سبقت عرضاً واضحاً، بس ما تعتبرش التزامن دليلاً على حساسية. دوّن الأدوية والمكملات والجرعات، خصوصاً الحديد، الماغنسيوم، المسكنات، المضادات الحيوية، أدوية السكر أو التخسيس، والملينات أو أدوية الإسهال. ما توقفش علاجاً موصوفاً فجأة؛ خذ القائمة للطبيب عشان يراجع التوقيت والآثار الجانبية والتداخلات المحتملة [3, 4].\n\nحضّر تلات أسئلة عملية: إيه التشخيص الأقرب وليه؟ إيه البدائل اللي محتاجين نستبعدها؟ وإيه العلامة اللي لو ظهرت تغيّر الخطة أو تستدعي تواصلاً أسرع؟ خذ نتائج التحاليل أو الأشعة السابقة وتاريخ العائلة المهم. السجل المفيد مختصر وصادق؛ لو المتابعة نفسها بتزود القلق أو بتدفعك لمنع أكل كتير، قل ده للطبيب لأن الخطة لازم تساعد حياتك، مش تضيقها [3, 6].",
+            "en": "For roughly two weeks before the appointment, keep brief notes that are sufficient to show the pattern: when and where pain occurs, its intensity, whether it improves or worsens after a bowel movement, bowel frequency, and stool form from hard and lumpy to watery. Record bloating, urgency, incomplete evacuation and symptom-free days. For women, add the day of the menstrual cycle and any unusual bleeding, pelvic pain or urinary pain. There is no need to count every calorie or photograph every meal [3, 5, 9].\n\nNote an unusual food or the meal before a clear episode, but do not treat timing alone as proof of allergy. List medicines, supplements and doses, especially iron, magnesium, painkillers, antibiotics, diabetes or weight-management medicines, laxatives and antidiarrhoeals. Do not abruptly stop prescribed treatment; bring the list so the clinician can review timing, adverse effects and possible interactions [3, 4].\n\nPrepare three practical questions: what is the leading diagnosis and why, what alternatives need to be excluded, and which new finding would change the plan or require earlier contact? Bring previous test or imaging results and relevant family history. A useful diary is short and honest. If tracking itself increases anxiety or drives broad food restriction, say so, because the plan should support daily life rather than narrow it [3, 6]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "individual-treatment-plan",
+          "heading": {
+            "ar": "العلاج بيتحدد حسب النمط، مش حسب النوع وحده",
+            "en": "Treatment follows the symptom pattern, not sex alone"
+          },
+          "body": {
+            "ar": "مفيش علاج واحد مناسب لكل حالات القولون العصبي. الخطة بتتحدد حسب العرض الغالب، شدته، تأثيره على الحياة، الحمل أو التخطيط له، الأمراض والأدوية المصاحبة، وتجربتك السابقة. البداية غالباً فيها شرح التشخيص، وجبات منتظمة، وقت كفاية للأكل، حركة مناسبة، نوم أحسن، ومراجعة كمية ونوع الألياف. الألياف الذائبة ممكن تناسب بعض حالات الإمساك، بينما زيادة النخالة أو الألياف الخشنة فجأة ممكن تزود الانتفاخ عند بعض الناس [4, 5, 6].\n\nلو الخطوات العامة ما كفتش، ممكن يناقش الطبيب تجربة غذائية محدودة ومتابعة، ومنها نظام قليل الفودماب تحت إشراف شخص عنده خبرة غذائية، وبعدها إعادة إدخال منظمة بدل منع دائم. الأدوية بتختلف بين الإمساك والإسهال والألم، وبعضها له احتياطات مهمة أو لا يناسب الحمل والرضاعة أو أمراضاً معينة. عشان كده ما تبدأش دواء أو أعشاب أو مضاداً حيوياً من تجربة شخص تاني [4, 5, 6].\n\nالعلاجات الموجهة لمحور المخ والأمعاء، زي العلاج المعرفي السلوكي أو التنويم الموجه للأمعاء، ممكن تساعد بعض الحالات، وده مش معناه إن الألم نفسي أو وهمي. الهدف تهدئة دوائر الحساسية والتوتر المرتبطة بالأعراض. اتفق مع الطبيب على هدف قابل للقياس ووقت للمراجعة: ألم أقل، تبرز أقرب لطبيعتك، خروج أسهل من البيت، أو نوم أحسن. لو الخطة ما نفعتش أو ظهر عرض جديد، المراجعة جزء طبيعي من العلاج [4, 6].",
+            "en": "There is no single treatment for every person with IBS. The plan depends on the predominant symptom, severity, impact on daily life, pregnancy or plans for pregnancy, other conditions and medicines, and previous experience. Early steps often include explaining the diagnosis, regular meals, enough time to eat, suitable activity, better sleep, and reviewing the amount and type of fibre. Soluble fibre may suit some people with constipation, while suddenly adding bran or coarse insoluble fibre can worsen bloating for some [4, 5, 6].\n\nIf general measures are insufficient, a clinician may discuss a limited, monitored dietary trial, including a low-FODMAP approach delivered by someone with dietary expertise and followed by structured reintroduction rather than permanent broad restriction. Medicines differ for constipation, diarrhoea and pain, and some have important precautions or may not suit pregnancy, breastfeeding or particular health conditions. Do not start a medicine, herb or antibiotic because it helped someone else [4, 5, 6].\n\nGut-brain therapies, such as cognitive behavioural therapy or gut-directed hypnotherapy, may help selected people; that does not mean pain is psychological or imagined. These approaches aim to modify sensitivity and stress-related symptom circuits. Agree on a measurable goal and review point with the clinician: less pain, bowel movements closer to your usual pattern, greater freedom to leave home, or better sleep. If a plan does not help or a new symptom appears, reassessment is a normal part of treatment [4, 6]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "next-step",
+          "heading": {
+            "ar": "الخطوة الجاية: تقييم يربط الأمعاء بالدورة وباقي الصورة",
+            "en": "Next step: an assessment that connects bowel, cycle and context"
+          },
+          "body": {
+            "ar": "لو الألم والانتفاخ وتغيّر التبرز بيتكرروا، الخطوة المفيدة مش إنك تثبت لنفسك إنه قولون عصبي، لكن إنك تعرض النمط بوضوح. خذ سجل الأعراض والدورة، قائمة الأدوية، وأي نتائج سابقة. التقييم الجيد يحدد هل الصورة متوافقة مع القولون العصبي، هل فيه سبب غذائي أو دوائي محتمل، وهل أعراض الحوض أو البول محتاجة مساراً موازياً. الفحوص بتتختار لسؤال محدد، ومش كل شخص محتاج نفس التحاليل أو سونار أو منظار [3, 5, 9].\n\nفي العيادة، ممكن يبدأ المسار بمراجعة القصة والفحص ثم مناقشة الفحوص أو الإحالة المناسبة حسب الموجود، من غير وعود بنتيجة معينة. القرار النهائي للعلاج أو الفحص لازم يفضل فردياً مع الطبيب المعالج، خصوصاً مع الحمل أو الرضاعة أو مرض مزمن أو أدوية متعددة. لو ظهرت علامة خطر، استخدم الرعاية العاجلة المناسبة بدل انتظار حجز روتيني [3, 10, 13].\n\nلو محتاج تبدأ مناقشة منظمة عن أعراض القولون العصبي عند النساء، تقدر تستخدم طلب حجز موعد تقييم للجهاز الهضمي. الحجز مش بديل للطوارئ، والمقال مش تشخيص؛ هو طريقة تساعدك توصل للزيارة بصورة أوضح وأسئلة أحسن [3, 5].",
+            "en": "If pain, bloating and bowel changes keep recurring, the useful next step is not proving to yourself that this is IBS, but presenting the pattern clearly. Bring a bowel-and-cycle symptom record, a medicine list and previous results. A good assessment asks whether the picture fits IBS, whether a food or medicine may contribute, and whether pelvic or urinary symptoms need a parallel pathway. Tests should answer a defined question; not everyone needs the same blood tests, ultrasound or endoscopy [3, 5, 9].\n\nAt the clinic, the pathway may begin with history and examination, followed by discussion of appropriate tests or referral according to the findings, without promising a particular result. Decisions about treatment or investigation remain individual and should be made with the treating clinician, especially during pregnancy or breastfeeding, with chronic disease, or when several medicines are used. If a warning sign appears, use appropriate urgent care rather than waiting for a routine booking [3, 10, 13].\n\nIf you need to begin a structured discussion about IBS symptoms in women, you can request a gastroenterology assessment appointment. Booking is not a substitute for emergency care, and this article is not a diagnosis; it is a way to arrive with a clearer story and better questions [3, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد تقييم للجهاز الهضمي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a gastroenterology assessment appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل زيادة الأعراض وقت الدورة تثبت إن عندي قولون عصبي؟",
+            "en": "Does worsening around my period prove that I have IBS?"
+          },
+          "a": {
+            "ar": "لأ. أعراض الجهاز الهضمي ممكن تزيد حول الدورة عند بعض النساء، سواء فيه قولون عصبي أو لأ. التشخيص بيعتمد على ألم متكرر مرتبط بالتبرز وتغيّر في شكل البراز أو عدده مع مراجعة العلامات الأخرى. لو فيه ألم حوض واضح، ألم مع التبرز وقت الدورة، نزيف شديد أو ألم أثناء العلاقة، ناقش كمان احتمال سبب نسائي [2, 8, 9].",
+            "en": "No. Gastrointestinal symptoms may worsen around menstruation in women with or without IBS. Diagnosis depends on recurrent pain related to bowel movements and a change in stool form or frequency, considered alongside other findings. Marked pelvic pain, pain with bowel movements during periods, heavy bleeding or pain during sex also deserves discussion of a gynaecological cause [2, 8, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل القولون العصبي بيظهر في السونار أو المنظار؟",
+            "en": "Can IBS be seen on ultrasound or colonoscopy?"
+          },
+          "a": {
+            "ar": "القولون العصبي اضطراب في تفاعل المخ والأمعاء ومش له علامة تشريحية محددة تظهر في السونار أو المنظار. التشخيص بيعتمد على النمط والفحص، مع فحوص مختارة لاستبعاد بدائل عند الحاجة. السونار أو المنظار ممكن يكون له دور لو فيه سؤال مختلف أو علامة خطر، لكن النتيجة الطبيعية وحدها لا تثبت ولا تنفي القولون العصبي [1, 3, 5].",
+            "en": "IBS is a disorder of gut-brain interaction and has no specific structural sign on ultrasound or colonoscopy. Diagnosis rests on the symptom pattern and examination, with selected tests used when needed to assess alternatives. Ultrasound or endoscopy may be appropriate for a different question or a warning sign, but a normal result alone neither proves nor excludes IBS [1, 3, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أوقف الجلوتين أو الألبان قبل ما أروح للطبيب؟",
+            "en": "Should I stop gluten or dairy before seeing a clinician?"
+          },
+          "a": {
+            "ar": "ما توقفش الجلوتين قبل تقييم الداء البطني، لأن الامتناع ممكن يغيّر نتائج التحاليل. وبالنسبة للألبان، سجل العلاقة والكمية بدل منع مجموعة غذائية كاملة فوراً. الطبيب أو مختص التغذية يقدر يحدد هل نحتاج اختباراً أو تجربة منظمة وإعادة إدخال، عشان ما يحصلش حرمان غير لازم أو تضيع علامة مهمة [7, 11].",
+            "en": "Do not stop gluten before assessment for coeliac disease because avoidance can alter test results. For dairy, record the relationship and amount rather than immediately excluding an entire food group. A clinician or dietitian can decide whether testing or a structured elimination and reintroduction is appropriate, avoiding unnecessary restriction or loss of a useful diagnostic clue [7, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه التحاليل اللي كل مريض قولون عصبي محتاجها؟",
+            "en": "Which tests does everyone with suspected IBS need?"
+          },
+          "a": {
+            "ar": "مفيش باقة واحدة تناسب الكل. القصة والفحص والعمر ونمط الإمساك أو الإسهال وعلامات الخطر بيحددوا المطلوب. بعض الإرشادات تقترح صورة دم ومؤشرات التهاب وتحاليل الداء البطني، ومع الإسهال قد يناسب تحليل التهاب بالبراز. المنظار والأشعة واختبارات التنفس بتتطلب سؤالاً محدداً، ومش روتين لكل حالة [3, 5, 6].",
+            "en": "There is no single test panel for everyone. History, examination, age, the constipation or diarrhoea pattern, and warning signs determine what is useful. Some guidelines advise a full blood count, inflammatory markers and coeliac serology; a stool inflammatory marker may suit some people with diarrhoea. Endoscopy, imaging and breath tests need a specific indication and are not routine for every case [3, 5, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل القلق هو سبب القولون العصبي؟",
+            "en": "Is anxiety the cause of IBS?"
+          },
+          "a": {
+            "ar": "القولون العصبي مش وهم ومش نتيجة ضعف نفسي. هو اضطراب معقد في تفاعل المخ والأمعاء، وممكن التوتر أو القلق يزودوا الإحساس والحركة عند بعض الناس، زي ما الألم المستمر نفسه ممكن يزود القلق. العلاج ممكن يجمع خطوات هضمية وغذائية وعلاجاً موجهاً لمحور المخ والأمعاء حسب الاحتياج [1, 2, 4, 6].",
+            "en": "IBS is not imaginary or a sign of psychological weakness. It is a complex disorder of gut-brain interaction. Stress or anxiety may amplify sensation and bowel activity for some people, while persistent symptoms can themselves increase anxiety. Treatment may combine digestive, dietary and gut-brain approaches according to individual needs [1, 2, 4, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى الانتفاخ عند النساء يحتاج تقييماً أسرع؟",
+            "en": "When does bloating in women need faster assessment?"
+          },
+          "a": {
+            "ar": "الانتفاخ الجديد المستمر أو المتكرر مع شبع سريع، فقدان شهية، ألم بالحوض أو البطن، أو إلحاح وتكرار البول يستحق تقييماً، وخصوصاً لو بدأ نمط يشبه القولون لأول مرة بعد سن الخمسين. النزف، فقدان الوزن، الأنيميا، القيء المتكرر أو الألم الشديد المتصاعد يسرّع التقييم أكتر، والطوارئ الشديدة ما تستناش موعداً عادياً [3, 10, 12].",
+            "en": "New persistent or frequent bloating with early satiety, reduced appetite, pelvic or abdominal pain, or urinary urgency and frequency warrants assessment, especially if an IBS-like pattern first appears after age 50. Bleeding, weight loss, anaemia, repeated vomiting or severe escalating pain requires faster assessment, and a severe emergency should not wait for a routine appointment [3, 10, 12]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Definition & Facts for Irritable Bowel Syndrome",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/definition-facts"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Irritable Bowel Syndrome",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Irritable Bowel Syndrome",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/diagnosis"
+        },
+        {
+          "label": "NIDDK — Treatment for Irritable Bowel Syndrome",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/treatment"
+        },
+        {
+          "label": "NICE CG61 — Irritable bowel syndrome in adults: recommendations",
+          "url": "https://www.nice.org.uk/guidance/cg61/chapter/recommendations"
+        },
+        {
+          "label": "American College of Gastroenterology — Clinical Guideline: Management of Irritable Bowel Syndrome",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33315591/"
+        },
+        {
+          "label": "AGA Clinical Practice Update — Belching, Abdominal Bloating and Distention",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37452811/"
+        },
+        {
+          "label": "Adeyemo et al. — Meta-analysis of IBS symptoms in women and men",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20662786/"
+        },
+        {
+          "label": "ACOG — Endometriosis",
+          "url": "https://www.acog.org/womens-health/faqs/endometriosis"
+        },
+        {
+          "label": "NICE NG12 — Suspected cancer recognition and referral: ovarian cancer recommendations",
+          "url": "https://www.nice.org.uk/guidance/ng12/chapter/recommendations-organised-by-site-of-cancer"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Celiac Disease",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/diagnosis"
+        },
+        {
+          "label": "NHS — Symptoms of irritable bowel syndrome",
+          "url": "https://www.nhs.uk/conditions/irritable-bowel-syndrome-ibs/symptoms/"
+        },
+        {
+          "label": "ACOG — Chronic Pelvic Pain",
+          "url": "https://www.acog.org/womens-health/faqs/chronic-pelvic-pain"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "أعراض القولون العصبي عند النساء: دليل التقييم",
+          "en": "IBS symptoms in women: assessment guide"
+        },
+        "description": {
+          "ar": "دليل عملي لأعراض القولون العصبي عند النساء، علاقتها بالدورة، خطوات التشخيص، الفحوصات المحتملة، وعلامات الخطر اللي تستدعي تقييماً أسرع.",
+          "en": "A practical guide to IBS symptoms in women, menstrual patterns, diagnosis, selective tests, and warning signs that need faster medical assessment."
+        }
+      }
+    }
+  ]
+}

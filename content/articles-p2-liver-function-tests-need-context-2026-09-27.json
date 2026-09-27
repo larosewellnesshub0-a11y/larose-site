@@ -1,0 +1,325 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of liver-function-tests-need-context; replaces the entry from content/articles-liver-tests-rewrite-2026-09-17.json. Expanded bilingual interpretation, trend and pattern context, medication review, urgent guidance, FAQs, internal pathways, and booking, with medical re-review.",
+  "articles": [
+    {
+      "slug": "liver-function-tests-need-context",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "internal-medicine"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا شرح أنماط تحاليل وظائف الكبد وخطوات المتابعة وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the explanation of liver-test patterns, follow-up steps and warning signs, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "image": "assets/img/articles/liver-tests-cover.webp",
+      "title": {
+        "ar": "تحليل وظائف الكبد عالي: إيه معنى النتيجة؟",
+        "en": "High liver tests: what does the result mean?"
+      },
+      "excerpt": {
+        "ar": "ارتفاع ALT أو AST أو البيليروبين مش تشخيص من ورقة واحدة. افهم إيه اللي بيقيسه كل تحليل، وإزاي بيتقري النمط، وإمتى تحتاج متابعة أسرع.",
+        "en": "A high ALT, AST or bilirubin result is not a diagnosis from one sheet. Learn what each test measures, how patterns are read and when faster assessment matters."
+      },
+      "sections": [
+        {
+          "id": "what-the-panel-can-and-cannot-say",
+          "heading": {
+            "ar": "تحليل وظائف الكبد مش اختبار نجاح أو رسوب",
+            "en": "A liver panel is not a pass-or-fail test"
+          },
+          "citations": "1, 2, 3, 6",
+          "body": {
+            "ar": "اسم «وظائف الكبد» ممكن يخليك تتخيل إن ده اختبار واحد بيقول الكبد سليم أو تعبان، لكن دي في الحقيقة مجموعة قياسات، وكل قياس بيجاوب عن سؤال مختلف. ALT وAST إنزيمات بتساعد الطبيب يفهم هل فيه تهيج أو إصابة في خلايا، وALP وGGT والبيليروبين بيساعدوا في تقييم نمط مرتبط بتصريف الصفراء أو أسباب تانية، بينما الألبومين وزمن البروثرومبين أو INR بيدّوا معلومات عن تصنيع بروتينات معينة وقدرة التجلط. عشان كده، كلمة «عالي» جنب رقم واحد مش اسم مرض ومش مقياس كامل لكفاءة الكبد. [1, 2, 3, 6]\n\nالطبيب ممكن يطلب اللوحة عشان عرض زي اصفرار أو ألم، أو لمتابعة دواء أو مرض معروف، أو عشان نتيجة قديمة محتاجة مقارنة. النتيجة بتتقري مع سبب الطلب، وباقي الأرقام، والأعراض، والفحص، والنتائج السابقة. فيه أمراض كبد ممكن تكون موجودة مع إنزيمات طبيعية، وفيه ارتفاع بسيط ومؤقت من غير مرض مزمن؛ الاتنين بيوضحوا ليه الورقة لوحدها مش كفاية. لو التقرير وصل على الموبايل، احتفظ به كامل وما تقصش خانة واحدة عشان تسأل عنها بعيد عن اسم المعمل ومداه المرجعي وتاريخ السحب. [1, 3, 6]\n\nالمهم هنا إنك ما تحاولش تحوّل الرقم لتشخيص بنفسك، وما تعتبرش كل ارتفاع حالة طوارئ. اسأل: إيه القياس اللي اتغير؟ هل باقي اللوحة طبيعية؟ هل فيه أعراض؟ وهل ده جديد ولا كان موجود قبل كده؟ الإجابات دي هي اللي بتحدد إن كانت الخطوة مراجعة روتينية، إعادة منظمة، فحوص موجهة، أو تقييم أسرع. [2, 3, 6]",
+            "en": "The name “liver function tests” can sound like one pass-or-fail check, but it describes a group of measurements that answer different questions. ALT and AST are enzymes that can help a clinician assess possible cell irritation or injury. ALP, GGT and bilirubin can help identify a pattern involving bile flow or other causes. Albumin and prothrombin time or INR provide information about protein production and clotting. A single value marked “high” is therefore neither the name of a disease nor a complete measure of how well the liver is working. [1, 2, 3, 6]\n\nA clinician may request the panel because of jaundice or pain, to monitor a medicine or known condition, or to compare with an earlier result. Interpretation depends on why the test was ordered, the other values, symptoms, examination and previous results. Some liver conditions can exist with normal enzyme values, while a small temporary rise may occur without chronic disease. Both situations show why an isolated number is insufficient. Keep the complete report, including the laboratory name, reference interval and collection date, rather than sharing a cropped result. [1, 3, 6]\n\nThe useful questions are: Which measurement changed? Are the other values normal? Are symptoms present? Is this new or part of a previous trend? Those answers help determine whether the next step is routine review, a planned repeat, targeted investigation or faster assessment. Do not convert the number into a diagnosis yourself, but do not ignore a result that the requesting clinician asked you to follow. [2, 3, 6]"
+          }
+        },
+        {
+          "id": "alt-ast-and-other-markers",
+          "heading": {
+            "ar": "ALT وAST وALP والبيليروبين: كل رقم بيحكي جزء مختلف",
+            "en": "ALT, AST, ALP and bilirubin tell different parts of the story"
+          },
+          "citations": "1, 2, 3, 4, 6",
+          "body": {
+            "ar": "ALT موجود بتركيز أكبر في الكبد، فارتفاعه ممكن يوجّه الانتباه لإصابة خلايا الكبد، لكنه مش بيحدد السبب. AST موجود في الكبد وكمان في العضلات وأنسجة تانية، وعشان كده ارتفاعه لوحده ما يثبتش إن المصدر هو الكبد. الطبيب بيبص عادةً على العلاقة بين ALT وAST، ومقدار كل ارتفاع بالنسبة للحد المرجعي في نفس المعمل، وباقي اللوحة. النسبة أو الرقم مش وصفة جاهزة للتشخيص، لأنها بتتغير مع السياق الطبي. [2, 3, 4, 6]\n\nALP ممكن يرتفع في نمط مرتبط بالقنوات الصفراوية، لكنه كمان له مصادر خارج الكبد زي العظام. وجود GGT مرتفع معاه قد يساعد في ترجيح مصدر كبدي أو صفراوي، لكنه برضه مش تشخيص منفرد. البيليروبين ناتج من تكسير خلايا الدم وبيعالجه الكبد وبيخرجه في الصفراء؛ ارتفاعه له صور وأسباب مختلفة، والطبيب قد يحتاج يعرف الجزء المباشر وغير المباشر بدل ما يكتفي بكلمة «بيليروبين عالي». اصفرار العينين أو الجلد مع بول غامق وأعراض جديدة له أهمية أكبر من ارتفاع معزول بسيط من غير أعراض. [1, 2, 3, 6]\n\nالألبومين وINR بيتأثروا بتصنيع الكبد، لكن كمان فيه عوامل تانية بتغيرهم؛ سوء التغذية، فقد البروتين، بعض الأدوية، أو اضطرابات التجلط ممكن تدخل في الصورة. عشان كده الطبيب ما بيجمعش الأرقام عشوائياً، لكنه بيميز نمط يغلب عليه ارتفاع إنزيمات الخلايا عن نمط صفراوي أو تغير في مؤشرات التصنيع. النمط بيوجّه الأسئلة والفحوص، لكنه ما يغنيش عن التاريخ المرضي والفحص. [1, 3, 4]",
+            "en": "ALT is more concentrated in the liver, so a rise can direct attention to hepatocellular injury, but it does not identify the cause. AST is present in the liver and also in muscle and other tissues; an isolated AST rise does not prove that the liver is the source. Clinicians consider the relationship between ALT and AST, the size of each rise relative to that laboratory’s reference interval, and the rest of the panel. A ratio or number is not a stand-alone diagnostic formula because its meaning changes with context. [2, 3, 4, 6]\n\nALP may rise in a pattern involving the bile ducts, but it also has non-liver sources such as bone. A raised GGT alongside it can support a liver or biliary source, although it still does not establish one diagnosis. Bilirubin comes from red-cell breakdown and is processed by the liver and excreted in bile. Different bilirubin fractions and patterns have different causes, so a clinician may distinguish direct from indirect bilirubin rather than stop at “high bilirubin.” Yellow eyes or skin, dark urine and new symptoms carry more clinical weight than a small isolated rise without symptoms. [1, 2, 3, 6]\n\nAlbumin and INR can reflect liver synthetic function, but other factors can alter them, including nutrition, protein loss, medicines and clotting disorders. Clinicians therefore look for a predominantly hepatocellular pattern, a cholestatic pattern or a change in synthetic markers rather than simply adding numbers together. The pattern guides the next questions and tests, but it never replaces the medical history and examination. [1, 3, 4]"
+          }
+        },
+        {
+          "id": "range-size-and-trend",
+          "heading": {
+            "ar": "المدى المرجعي وحجم الارتفاع والاتجاه عبر الوقت",
+            "en": "Reference intervals, size of change and the trend over time"
+          },
+          "citations": "2, 3, 4, 6, 8",
+          "body": {
+            "ar": "علامة H في التقرير معناها إن الرقم خارج المدى المرجعي اللي المعمل بيستخدمه، مش إنها بتحدد شدة المرض لوحدها. المديات بتختلف حسب طريقة القياس والسكان اللي اتبنى عليهم المرجع، وقد تختلف حسب السن والجنس والحمل. عشان كده ما تقارنش نتيجتك بجدول من الإنترنت أو بنتيجة شخص تاني، وما تنقلش رقم من معمل لمعمل كأن الحدود واحدة. الطبيب بيستخدم الحد الأعلى المطبوع في تقريرك وبيشوف مقدار الزيادة بالنسبة له. [2, 3, 6, 8]\n\nحجم الارتفاع مهم، لكن الأهم مش الرقم بس. ارتفاع كبير مع أعراض جديدة ممكن يحتاج تحرك سريع، بينما تغير صغير من غير أعراض قد يحتاج مراجعة هادئة وإعادة في توقيت محدد. وفي المقابل، ما ينفعش تطمّن نفسك لمجرد إن الارتفاع بسيط لو هو مستمر أو لو فيه عوامل خطر أو نتائج تانية غير طبيعية. الطبيب بيوازن بين الرقم، سرعة ظهوره، النمط، الأعراض، والأمراض المصاحبة؛ وده سبب إن توصية المتابعة بتختلف من شخص للتاني. [3, 4, 8]\n\nالاتجاه عبر الوقت غالباً بيفيد أكتر من قراءة منفصلة. نتيجة قديمة من نفس المعمل، لو متاحة، بتوضح هل الرقم ثابت، بيتحسن، أو بيزيد. لكن ما تكررش التحليل كل كام يوم من نفسك عشان تطارد التذبذب الطبيعي؛ توقيت الإعادة بيتحدد حسب السبب المحتمل ودرجة الارتفاع والأعراض. خد معاك التقارير القديمة كاملة، وسجل أي مرض حاد، مجهود شديد، أو دواء جديد قريب من كل تحليل، لأن التفاصيل دي ممكن تفسر اختلافاً وتمنع استنتاج غلط. [2, 3, 4]",
+            "en": "An H flag means that the value is outside the reference interval used by that laboratory; it does not grade disease severity on its own. Intervals vary with the measurement method and reference population and may also differ by age, sex and pregnancy. Do not compare your result with a generic internet table or another person’s report, and do not assume two laboratories use identical limits. A clinician uses the upper limit printed on your own report and considers how far the result is above it. [2, 3, 6, 8]\n\nThe size of the rise matters, but the number is not the only factor. A marked change with new symptoms may need prompt action, while a small asymptomatic change may allow planned review and repeat testing. Conversely, a mild abnormality should not be dismissed if it persists or appears alongside risk factors or other abnormal results. Clinicians balance the value, speed of change, pattern, symptoms and accompanying conditions, which is why follow-up differs between people. [3, 4, 8]\n\nThe trend over time is often more informative than one reading. A prior result from the same laboratory, when available, can show whether a value is stable, improving or rising. Repeating tests every few days without advice can simply capture ordinary variation; timing should reflect the possible cause, degree of change and symptoms. Bring complete older reports and note any acute illness, strenuous activity or new product near each test date. Those details can explain a difference and prevent a misleading conclusion. [2, 3, 4]"
+          }
+        },
+        {
+          "id": "causes-and-metabolic-context",
+          "heading": {
+            "ar": "الأسباب المحتملة كتير، والسياق بيمنع التخمين",
+            "en": "Many causes are possible, and context prevents guesswork"
+          },
+          "citations": "3, 4, 5, 7",
+          "body": {
+            "ar": "التحاليل غير الطبيعية ممكن ترتبط بدهون الكبد المرتبطة بعوامل أيضية، التهاب فيروسي، تأثير كحول لو ده ينطبق، مشكلة في مسار الصفراء، مرض مناعي أو وراثي، أو إصابة بسبب دواء أو مكمل. AST كمان ممكن يتأثر بإصابة عضلية أو مجهود شديد. القائمة دي مش معمولة عشان تختار منها تشخيص؛ هي بتوضح ليه نفس الرقم ممكن يبقى له معنى مختلف من شخص للتاني، وليه الأسئلة المنظمة أهم من البحث عن أشهر سبب. [3, 4, 5, 7]\n\nلو عندك سكر، ضغط، اضطراب دهون، زيادة في محيط الخصر، أو نتيجة سونار بتذكر تشحم، الطبيب هيقيّم الصورة الأيضية مع التحاليل. هنا دليل دهون الكبد بالسونار بيوضح إيه اللي ممكن الصورة تبينه وإيه اللي ما تقدرش تحسمه. وجود دهون مش معناه تلقائياً التهاب أو تليف، وإنزيمات طبيعية مش كفاية لنفي كل درجات الخطر. قرار تقييم التليف له أدواته وسياقه، ومش بيتاخد من ALT وحده. [3, 5]\n\nولو سؤالك بالتحديد هو إزاي ممكن دهون الكبد تظهر مع تحليل طبيعي، صفحة دهون الكبد مع إنزيمات طبيعية بتلخص النقطة دي من غير ما نكرر موضوعها هنا. في موعدك، اذكر التاريخ العائلي، نقل دم أو إجراءات سابقة لو كانت مهمة، سفر أو تعرض محتمل لعدوى، الأمراض المزمنة، تغير الوزن، وأي ألم أو حكة أو اصفرار. الطبيب بيختار فحوصاً موجهة حسب الاحتمال، مش «باقة» ثابتة لكل واحد. [3, 4, 5]",
+            "en": "Abnormal results can be associated with metabolic dysfunction-associated steatotic liver disease, viral hepatitis, alcohol where relevant, a bile-flow problem, an immune or inherited condition, or injury related to a medicine or supplement. AST can also change after muscle injury or strenuous exercise. This list is not an invitation to choose a diagnosis; it explains why the same value can mean different things in different people and why structured questions are more useful than selecting the most familiar cause. [3, 4, 5, 7]\n\nIf you have diabetes, high blood pressure, altered lipids, increased waist circumference or an ultrasound report mentioning steatosis, the clinician will assess metabolic context alongside the blood tests. The fatty-liver ultrasound guide explains what imaging may show and what it cannot establish. Liver fat does not automatically mean inflammation or fibrosis, and normal enzymes cannot exclude every level of risk. Fibrosis assessment uses its own tools and clinical context rather than ALT alone. [3, 5]\n\nIf your specific question is how fatty liver can coexist with a normal panel, the page on fatty liver with normal enzymes covers that neighbouring topic without duplicating it here. At review, mention relevant family history, previous transfusions or procedures, possible infection exposure or travel, long-term conditions, weight change, pain, itching or jaundice. The clinician selects targeted investigations according to probability instead of ordering one fixed “liver package” for everyone. [3, 4, 5]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل دهون الكبد بالسونار",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              },
+              {
+                "label": "دهون الكبد مع إنزيمات طبيعية",
+                "url": "../articles/qa-fatty-liver-normal-enzymes.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "fatty-liver ultrasound guide",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              },
+              {
+                "label": "fatty liver with normal enzymes",
+                "url": "../articles/qa-fatty-liver-normal-enzymes.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "medicines-supplements-and-repeat-testing",
+          "heading": {
+            "ar": "الأدوية والمكملات وإعادة التحليل: ما تغيّرش حاجة لوحدك",
+            "en": "Medicines, supplements and repeat testing: do not change them alone"
+          },
+          "citations": "2, 3, 4, 7, 8",
+          "body": {
+            "ar": "جهّز قائمة دقيقة بكل دواء موصوف أو من غير وصفة، مع الجرعة ووقت البداية لو تعرف. ضيف المسكنات، المضادات الحيوية الحديثة، أدوية التخسيس، منتجات الجيم، الفيتامينات، الأعشاب، ومشروبات أو كبسولات «تنظيف الكبد». كلمة «طبيعي» مش معناها إن المنتج مستحيل يأثر، وبعض المنتجات المركبة بيكون محتواها أو جرعتها مش واضحين. قاعدة LiverTox بتوثق إن إصابة الكبد الدوائية ممكن ترتبط بأدوية ومكملات متنوعة، لكن إثبات العلاقة محتاج توقيتاً ونمطاً واستبعاد أسباب تانية. [3, 7]\n\nما توقفش دواءً موصوفاً من نفسك، خصوصاً علاج السكر أو الضغط أو السيولة أو الصرع، وما تبدأش ديتوكس عشان تخفض رقم التحليل. إيقاف علاج مهم فجأة ممكن يسبب ضرراً، والمكمل الجديد ممكن يعقّد الصورة. الطبيب بيوازن فائدة العلاج مع احتمال علاقته بالنتيجة، وقد يقرر الاستمرار، التعديل، الاستبدال، أو المتابعة. لو بدأت منتجاً جديداً قبل ظهور الأعراض أو الارتفاع، اذكر اسمه وصور العبوة والمكونات بدل ما تعتمد على الذاكرة. [2, 3, 7, 8]\n\nإعادة التحليل مفيدة لما يكون لها سؤال واضح: هل التغير استمر بعد انتهاء مرض حاد؟ هل رجع الرقم ناحية الطبيعي بعد قرار علاجي آمن؟ هل ظهر نمط جديد؟ اسأل عن الصيام، التمرين، وتوقيت الأدوية لأن التحضير بيختلف حسب التحاليل المصاحبة، مش لأن كل لوحة كبد لازم لها صيام. وما تحاولش «تحسّن» النتيجة بتجويع نفسك أو وقف علاجات قبل السحب؛ الهدف إن التحليل يعكس وضعك الحقيقي بشكل يمكن تفسيره. [2, 3, 4, 8]",
+            "en": "Prepare an accurate list of every prescribed and non-prescribed product, including dose and start date when known. Include pain medicines, recent antibiotics, weight-loss products, gym supplements, vitamins, herbs and “liver cleanse” drinks or capsules. Natural does not mean incapable of causing harm, and multi-ingredient products may have uncertain contents. LiverTox documents that drug-induced liver injury can be associated with many medicines and supplements, but assessing causality requires timing, pattern and consideration of competing causes. [3, 7]\n\nDo not stop prescribed treatment independently, especially medicines for diabetes, blood pressure, anticoagulation or epilepsy, and do not start a detox to lower a laboratory value. Abruptly withholding important treatment can cause harm, while a new supplement can obscure the picture. A clinician balances the medicine’s benefit against its possible relationship to the result and may continue, adjust, replace or monitor it. If a new product preceded the symptoms or test change, bring its name, package photographs and ingredient list rather than relying on memory. [2, 3, 7, 8]\n\nA repeat test is useful when it answers a defined question: Did a change persist after an acute illness resolved? Did the value move towards normal after a safe clinical decision? Has the pattern changed? Ask about fasting, exercise and medicine timing because preparation may depend on accompanying tests; every liver panel does not automatically require fasting. Do not starve yourself or withhold treatment to produce a “better” result. The aim is a sample that reflects your real condition and can be interpreted reliably. [2, 3, 4, 8]"
+          }
+        },
+        {
+          "id": "clinical-review-and-next-tests",
+          "heading": {
+            "ar": "الطبيب بيراجع إيه، وممكن يطلب إيه بعد كده؟",
+            "en": "What does the clinician review, and what might come next?"
+          },
+          "citations": "1, 3, 4, 5, 7",
+          "body": {
+            "ar": "المراجعة المنظمة بتبدأ بسبب طلب التحليل ووجود أعراض من عدمه. الطبيب بيسأل عن توقيت أي ألم أو غثيان أو حكة أو اصفرار، عدوى أو حرارة قريبة، تغير الوزن، الأمراض المزمنة، الكحول لو ينطبق، الأدوية والمكملات، والتاريخ العائلي. بعد كده بيراجع النمط ومقدار الارتفاع والنتائج القديمة، وبيعمل فحصاً مناسباً. المعلومات دي بتحدد هل الموضوع محتاج إعادة فقط، تحليل موجه، تصوير، حساب خطر تليف، أو إحالة متخصصة. [1, 3, 4, 5]\n\nالفحوص الإضافية مش واحدة لكل الناس. حسب النمط والسياق، الطبيب قد يطلب صورة دم، سكر ودهون، مؤشرات فيروسية، دراسات حديد، أو تحاليل مناعية، وقد يستخدم أدوات غير جراحية لتقدير خطر التليف. كل اختبار لازم يجاوب عن احتمال معقول؛ طلب كل شيء مرة واحدة ممكن يطلع نتائج عرضية تزود القلق من غير ما تحسن القرار. ولو النتيجة واضحة الارتباط بمرض حاد انتهى، قد يكون الاتجاه عبر الوقت أهم من توسيع الفحوص فوراً. [3, 4, 5]\n\nقبل الموعد، اكتب أربع أسئلة: إيه النمط الموجود؟ هل التغير محتاج سرعة؟ إيه السبب المرجح وإيه اللي لازم نستبعده؟ ومتى نعيد أو نراجع؟ خد النتيجة كاملة، أي نتائج قديمة، وقائمة المنتجات. ما تستناش من الطبيب «دواء للإنزيم» من غير تشخيص؛ العلاج بيتوجّه للسبب، وقد تكون الخطوة متابعة أو تعديل عامل خطر أو إيقاف منتج تحت إشراف بدل حبة تخفض الرقم فقط. [3, 4, 7]",
+            "en": "A structured review begins with why the test was ordered and whether symptoms are present. The clinician asks about the timing of pain, nausea, itching or jaundice; recent fever or infection; weight change; long-term conditions; alcohol where relevant; medicines and supplements; and family history. They then assess the pattern, degree of change and older results and perform an appropriate examination. This information determines whether the next step is simply a repeat, a targeted blood test, imaging, non-invasive fibrosis assessment or specialist referral. [1, 3, 4, 5]\n\nAdditional investigations are not identical for everyone. Depending on pattern and context, a clinician may request a blood count, glucose and lipids, viral markers, iron studies or immune tests, and may use non-invasive tools to estimate fibrosis risk. Each test should answer a reasonable possibility. Ordering everything at once can produce incidental abnormalities that add anxiety without improving the decision. If the change clearly accompanied an acute illness that has resolved, the trend may be more informative than immediate broad testing. [3, 4, 5]\n\nBefore the appointment, write down four questions: What pattern is present? How quickly does it need attention? What is the leading explanation and what must be excluded? When should it be repeated or reviewed? Bring the full report, older results and product list. Do not expect a generic “enzyme medicine” without a diagnosis. Treatment addresses the cause and may involve monitoring, modifying a risk factor or stopping a product under supervision rather than taking a tablet solely to lower a number. [3, 4, 7]"
+          }
+        },
+        {
+          "id": "ultrasound-has-a-separate-question",
+          "heading": {
+            "ar": "السونار والتحليل بيجاوبوا عن سؤالين مختلفين",
+            "en": "Ultrasound and blood tests answer different questions"
+          },
+          "citations": "3, 5, 9, 10",
+          "body": {
+            "ar": "سونار البطن بيصوّر شكل الكبد والمرارة والقنوات الصفراوية وأعضاء تانية، فممكن يساعد لما النمط أو الأعراض يخلّوا الطبيب يسأل عن دهون ظاهرة، توسع قنوات، حصوات، أو سبب تشريحي معين. لكنه ما بيقيسش ALT أو قدرة الكبد على تصنيع البروتين، وما يقدرش يحدد كل درجات الالتهاب أو التليف. والعكس صحيح: تحليل الدم ما بيورّيش شكل المرارة أو القنوات. عشان كده الاتنين ممكن يكملوا بعض، لكن واحد مش بديل تلقائي عن التاني. [3, 5, 10]\n\nمش كل ارتفاع محتاج سونار فوراً، ومش كل سونار طبيعي بيقفل التقييم. قرار التصوير بيعتمد على النمط، استمراره، الأعراض والفحص. لو الطبيب طلب الفحص، صفحة تحضير سونار البطن بتشرح تعليمات الموعد، بينما دليل سونار البطن والحوض بيوضح نطاق التصوير وحدوده. اقرأ تعليمات الحجز نفسها لأن الصيام أو امتلاء المثانة بيتغير حسب نوع الفحص، وما تفترضش إن تعليمات تحليل الدم هي نفسها تعليمات التصوير. [9, 10]\n\nالتقرير الإشعاعي محتاج يتربط بالسؤال السريري. عبارة زي «كبد دهني» ما تفسرش وحدها سبب ارتفاع الإنزيم، وعبارة «سونار طبيعي» مش بتستبعد كل سبب معملي. الطبيب اللي طلب الفحص بيجمع الأعراض والفحص والتحاليل والصورة، وبعدها بيقرر إذا كانت المتابعة كفاية أو فيه خطوة تانية. التقسيم ده بيمنع إنك تحجز فحصاً عشوائياً أو تتأخر مستني صورة مش هتجاوب عن السؤال الحالي. [3, 5, 10]",
+            "en": "Abdominal ultrasound shows the appearance of the liver, gallbladder, bile ducts and other organs. It can help when the pattern or symptoms raise a question about visible steatosis, duct dilatation, gallstones or another structural cause. It does not measure ALT or the liver’s protein production, and it cannot determine every degree of inflammation or fibrosis. Conversely, a blood test does not show the shape of the gallbladder or ducts. The two approaches can complement each other, but neither automatically substitutes for the other. [3, 5, 10]\n\nNot every elevation needs immediate ultrasound, and a normal scan does not always end assessment. Imaging decisions depend on the pattern, persistence, symptoms and examination. If imaging is requested, the abdominal-ultrasound preparation page explains appointment instructions, while the abdominal and pelvic ultrasound guide describes the scan’s scope and limits. Follow the instructions for your booked examination because fasting or bladder preparation varies by scan type; do not assume that blood-test instructions also apply to imaging. [9, 10]\n\nThe imaging report must be connected to the clinical question. “Fatty liver” does not by itself explain every enzyme rise, while “normal ultrasound” does not exclude every biochemical cause. The requesting clinician combines symptoms, examination, laboratory results and imaging, then decides whether follow-up is sufficient or another step is needed. This approach avoids arranging random scans or waiting for imaging that cannot answer the current question. [3, 5, 10]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تحضير سونار البطن",
+                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+              },
+              {
+                "label": "دليل سونار البطن والحوض",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "abdominal-ultrasound preparation page",
+                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+              },
+              {
+                "label": "abdominal and pelvic ultrasound guide",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "urgent-signs-and-next-step",
+          "heading": {
+            "ar": "إمتى ما تستناش، وإزاي تاخد الخطوة الجاية؟",
+            "en": "When not to wait, and how to take the next step"
+          },
+          "citations": "1, 2, 3, 8, 9",
+          "body": {
+            "ar": "اطلب تقييماً عاجلاً لو ظهر اصفرار جديد في العينين أو الجلد، ارتباك أو نعاس غير معتاد، إغماء، نزيف أو قيء دموي أو براز أسود، ألم بطن شديد أو بيزيد، قيء متكرر يمنع السوائل، أو تدهور عام واضح. البول الغامق أو البراز الفاتح مع اصفرار أو ألم كمان محتاجين تقييماً سريعاً. العلامات دي ما ينفعش تستنى إعادة روتينية لمجرد إنك شايف رقم التحليل؛ اتبع خدمة الطوارئ المناسبة لحالتك. [1, 2, 8, 9]\n\nلو مفيش علامة خطر، النتيجة العالية مش معناها كارثة مؤكدة، لكنها برضه مش ورقة تتساب. تواصل مع الطبيب أو الجهة اللي طلبت التحليل في التوقيت المتفق عليه، واذكر أي عرض جديد أو دواء أو مكمل. ما تزودش جرعة مسكن، وما تبدأش أعشاباً، وما توقفش علاجاً موصوفاً عشان «تريح الكبد». احتفظ بنسخة كاملة من النتيجة وسجل تاريخها؛ المتابعة المنظمة بتحوّل الرقم لسؤال طبي واضح بدل دوامة بحث وقلق. [2, 3, 7, 8]\n\nلو محتاج تجمع النتائج والأعراض والأدوية في مراجعة واحدة، تقدر تطلب حجز موعد لتقييم منظم في العيادة. التقييم بيحدد إيه المهم، وإيه اللي ممكن يتابع بهدوء، وهل فيه داعٍ لإعادة التحليل أو فحص موجه. القرار النهائي بيتفصل حسب حالتك مع الطبيب المعالج، من غير وعود بنتيجة معينة ومن غير فحوص ثابتة لكل الناس. [1, 3, 4]",
+            "en": "Seek urgent assessment for new yellowing of the eyes or skin, confusion or unusual drowsiness, fainting, bleeding, vomiting blood or passing black stools, severe or worsening abdominal pain, repeated vomiting that prevents fluids, or clear general deterioration. Dark urine or pale stool together with jaundice or pain also needs prompt review. These signs should not wait for a routine repeat simply because the laboratory number is available; use the urgent-care service appropriate to your condition. [1, 2, 8, 9]\n\nIf no warning sign is present, a high result does not mean certain catastrophe, but it should not be abandoned. Contact the clinician or service that requested the test at the agreed time and report any new symptom, medicine or supplement. Do not increase a pain-medicine dose, start herbs or stop prescribed treatment to “rest the liver.” Keep a complete dated copy of the result. Structured follow-up turns a number into a clear clinical question rather than a cycle of searching and anxiety. [2, 3, 7, 8]\n\nIf you need to bring results, symptoms and medicines together in one review, you can request an appointment for a structured clinic assessment. The consultation can identify what matters, what can be followed calmly and whether a repeat or targeted investigation is appropriate. The final decision is individual and belongs with the treating clinician, without promising a particular outcome or applying the same test bundle to everyone. [1, 3, 4]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل ارتفاع ALT معناه إن عندي دهون على الكبد؟",
+            "en": "Does a high ALT mean I have fatty liver?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. دهون الكبد سبب محتمل، لكن ALT ممكن يرتفع مع أسباب تانية، ومقداره ما يحددش وجود دهون أو تليف لوحده. الطبيب بيقرأه مع عوامل الخطر وباقي اللوحة والأعراض، وقد يختار تصويراً أو تقييماً إضافياً لو السياق يستدعي. [3, 4, 5]",
+            "en": "Not necessarily. Fatty liver is one possible cause, but ALT can rise for other reasons, and its level alone does not establish fat or fibrosis. A clinician interprets it with risk factors, the rest of the panel and symptoms, and may choose imaging or further assessment when context supports it. [3, 4, 5]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تحليل وظائف الكبد الطبيعي ينفي كل أمراض الكبد؟",
+            "en": "Does a normal liver panel rule out every liver condition?"
+          },
+          "a": {
+            "ar": "لأ. التحليل الطبيعي مطمئن في سياقات كتير، لكنه مش بيستبعد كل حالة ولا كل درجة من التليف. معنى النتيجة بيتحدد بسبب طلبها والأعراض وعوامل الخطر والفحص؛ والطبيب بيقرر هل كفاية ولا فيه تقييم تاني مطلوب. [1, 3, 5, 6]",
+            "en": "No. A normal panel is reassuring in many settings, but it does not exclude every condition or every degree of fibrosis. Meaning depends on why it was ordered, symptoms, risk factors and examination; the clinician decides whether it is sufficient or another assessment is appropriate. [1, 3, 5, 6]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أصوم قبل تحليل وظائف الكبد؟",
+            "en": "Do I need to fast before liver function tests?"
+          },
+          "a": {
+            "ar": "مش كل لوحة كبد محتاجة صيام، لكن الطبيب أو المعمل ممكن يطلبه لو فيه تحاليل مصاحبة أو تعليمات خاصة. اتبع تعليمات طلبك، واسأل عن الماء والأدوية بدل ما توقف علاجاً أو تصوم من نفسك. [2, 6]",
+            "en": "Not every liver panel requires fasting, although it may be requested because of accompanying tests or specific instructions. Follow the directions for your own order and ask about water and medicines rather than fasting or withholding treatment independently. [2, 6]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أعيد التحليل بسرعة عشان أتأكد؟",
+            "en": "Should I repeat the test quickly to make sure?"
+          },
+          "a": {
+            "ar": "الإعادة ممكن تكون مفيدة، لكن توقيتها بيتحدد حسب مقدار الارتفاع والنمط والأعراض والسبب المحتمل. إعادة عشوائية بعد أيام قد تلتقط تذبذباً من غير ما تجاوب عن سؤال. اسأل الطبيب إيه اللي هتوضحه الإعادة وإمتى تعملها. [2, 3, 4]",
+            "en": "Repeating can be useful, but timing depends on the degree and pattern of change, symptoms and likely cause. An unplanned repeat after a few days may capture variation without answering a clinical question. Ask what the repeat is intended to show and when it should be done. [2, 3, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل التمرين الشديد ممكن يرفع AST؟",
+            "en": "Can strenuous exercise raise AST?"
+          },
+          "a": {
+            "ar": "أيوه، AST موجود في العضلات كمان، فإصابة عضلية أو مجهود شديد قريب من التحليل ممكن يدخل في تفسير النتيجة. ده مش سبب لتفترض إن الارتفاع من التمرين؛ اذكر التوقيت والأعراض للطبيب عشان يراجع باقي النمط. [2, 3, 4]",
+            "en": "Yes. AST is also present in muscle, so muscle injury or strenuous activity near the test can affect interpretation. Do not assume exercise explains the result; report the timing and symptoms so the clinician can review the rest of the pattern. [2, 3, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى ارتفاع البيليروبين يبقى محتاج مساعدة عاجلة؟",
+            "en": "When does high bilirubin need urgent help?"
+          },
+          "a": {
+            "ar": "الرقم بيتقري في سياقه، لكن اصفرار جديد مع ألم شديد، حرارة، قيء متكرر، ارتباك، نزيف، تدهور واضح، بول غامق أو براز فاتح محتاج تقييماً سريعاً. ما تستناش موعد إعادة روتيني لو العلامات دي موجودة. [1, 2, 8, 9]",
+            "en": "The number is interpreted in context, but new jaundice with severe pain, fever, repeated vomiting, confusion, bleeding, marked deterioration, dark urine or pale stool needs prompt assessment. Do not wait for a routine repeat when these warning signs are present. [1, 2, 8, 9]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Liver Function Tests",
+          "url": "https://my.clevelandclinic.org/health/diagnostics/17662-liver-function-tests"
+        },
+        {
+          "label": "NCBI Bookshelf: Liver Function Tests",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK482489/"
+        },
+        {
+          "label": "American College of Gastroenterology: Clinical Guideline—Evaluation of Abnormal Liver Chemistries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27995906/"
+        },
+        {
+          "label": "British Society of Gastroenterology: Guidelines on the management of abnormal liver blood tests",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5754852/"
+        },
+        {
+          "label": "NIDDK: Diagnosis of NAFLD & NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"
+        },
+        {
+          "label": "MedlinePlus: Liver function tests",
+          "url": "https://medlineplus.gov/lab-tests/liver-function-tests/"
+        },
+        {
+          "label": "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK547852/"
+        },
+        {
+          "label": "NIDDK: Symptoms & Causes of Cirrhosis",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/cirrhosis/symptoms-causes"
+        },
+        {
+          "label": "American College of Radiology: Acute nonlocalized abdominal pain",
+          "url": "https://acsearch.acr.org/docs/69467/Narrative/"
+        },
+        {
+          "label": "RadiologyInfo.org: Abdominal ultrasound",
+          "url": "https://www.radiologyinfo.org/en/info/abdominus"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "تحليل وظائف الكبد",
+          "ارتفاع إنزيمات الكبد",
+          "ALT",
+          "AST",
+          "تحليل الكبد"
+        ],
+        "en": [
+          "liver function tests",
+          "high liver enzymes",
+          "ALT",
+          "AST",
+          "liver test results"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "تحليل وظائف الكبد عالي: إيه معنى النتيجة؟",
+          "en": "High liver tests: what does the result mean?"
+        },
+        "description": {
+          "ar": "دليل لفهم ارتفاع تحليل وظائف الكبد ونتائج ALT وAST والبيليروبين، وإزاي الطبيب بيقرا النمط، وإمتى تحتاج متابعة أو تقييم عاجل.",
+          "en": "Understand high ALT, AST and bilirubin results, how clinicians read the pattern, what follow-up may involve and which warning signs need urgent assessment."
+        }
+      }
+    }
+  ]
+}
