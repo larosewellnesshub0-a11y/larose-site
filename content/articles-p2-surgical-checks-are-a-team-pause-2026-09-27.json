@@ -1,0 +1,285 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of surgical-checks-are-a-team-pause; replaces the entry from content/articles.json. Expanded bilingual evidence, FAQs, urgent guidance and internal navigation; medically re-reviewed.",
+  "articles": [
+    {
+      "slug": "surgical-checks-are-a-team-pause",
+      "title": {
+        "ar": "تحديث علمي: تكرار أسئلة الأمان قبل العملية مقصود",
+        "en": "Scientific update: repeated safety questions before surgery are deliberate"
+      },
+      "excerpt": {
+        "ar": "قائمة الأمان الجراحي حولت التأكد من الهوية والعملية والمكان والحساسية لتوقف جماعي واضح، مش افتراض إن كل واحد عارف.",
+        "en": "The surgical safety checklist turned identity, procedure, site and allergy checks into explicit team pauses rather than assumptions."
+      },
+      "category": "general-surgery",
+      "specialties": [
+        "general-surgery",
+        "bariatric-surgery"
+      ],
+      "tags": {
+        "ar": [
+          "أمان الجراحة",
+          "قائمة الأمان",
+          "الاستعداد للعملية",
+          "جراح عام"
+        ],
+        "en": [
+          "surgical safety",
+          "safety checklist",
+          "operation preparation",
+          "general surgery consultation"
+        ]
+      },
+      "type": "update",
+      "date": "2026-08-16",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/surgical-checks-are-a-team-pause.webp",
+      "featured": false,
+      "published": true,
+      "sections": [
+        {
+          "id": "section-1",
+          "heading": {
+            "ar": "تكرار السؤال جزء من نظام الأمان، مش علامة إن الفريق ناسي",
+            "en": "Repeated questions are part of the safety system, not a sign the team forgot"
+          },
+          "body": {
+            "ar": "لما الاسم ونوع العملية ومكانها والحساسية يتسألوا أكتر من مرة، ده مقصود. كل مرحلة فيها فريق ومعلومة ومخاطر مختلفة، والتأكيد بصوت مسموع يمنع الاعتماد على الذاكرة أو الافتراض إن شخصاً آخر راجع النقطة. قائمة منظمة الصحة العالمية بتعمل ثلاث وقفات: قبل التخدير، قبل فتح الجلد، وقبل خروج المريض من غرفة العمليات. الهدف إن الفريق كله يشارك ويؤكد البنود من أداة مكتوبة. [1, 2]\n\nقائمة منظمة الصحة العالمية للأمان الجراحي بتجمع الفريق في توقفات واضحة قبل التخدير، قبل فتح الجلد، وقبل خروج المريض من غرفة العمليات. فيها تأكيد الهوية ونوع العملية ومكانها والموافقة والحساسية، مع مراجعة مخاطر وخطة التعافي.\n\nالتحديث هنا مش معلومة جديدة عن الجراحة؛ هو تغيير مستقر في طريقة منع الخطأ. الحاجات المهمة ما تتسابش للذاكرة أو لفكرة إن «أكيد الكل عارف». السؤال اللي اتسأل قبل كده ممكن يتكرر لأن كل توقف له فريق ولحظة وهدف مختلف.\n\nقول اسمك والعملية المتفق عليها والحساسية والأدوية بوضوح كل ما تتسأل. لو الكلام مش مطابق لفهمك، وقف وصحح قبل ما تكمل. خد قائمة أدوية محدثة، واذكر أي تغيير صحي حصل من وقت قرار العملية.\n\nوجود القائمة ما يضمنش نتيجة بلا مضاعفات، بس يدعم تواصل الفريق وتنفيذ خطوات أساسية باستمرار. ما تفسرش التكرار كشك أو فوضى؛ الأمان الجيد بيخلي التأكد مسموعاً ومشتركاً.\n\nيوم عملية المرارة يحتاج خطة مكتوبة من فريق الجراحة عن الطعام والشراب والأدوية والوصول والتعافي، لا افتراضات من تجارب الآخرين. ممكن تبحث عن “عملية المرارة بالمنظار كم تستغرق”، بس صيغة البحث لا تؤكد تشخيصاً ولا تحدد إجراءً آمناً أو علاجاً مناسباً. الهدف من المقال إنك تجهز لحديث أوضح مع الطبيب: ما التفاصيل المهمة، وما اللي ممكن يدخل في التقييم، ومتى نسرّع الخطوة. لا يغني ده عن الفحص أو التحاليل أو الخطة الفردية. [1, 2] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
+            "en": "When your name, procedure, site and allergies are asked more than once, that repetition is deliberate. Each stage involves different people, information and risks, and verbal confirmation prevents reliance on memory or an assumption that someone else checked. The WHO checklist uses three pauses: before anaesthesia, before skin incision and before the patient leaves the operating room. The whole team should participate and confirm items from a written tool. [1, 2]\n\nThe World Health Organization Surgical Safety Checklist brings the team together for explicit pauses before anaesthesia, before skin incision and before the patient leaves the operating room. It confirms identity, procedure, site, consent and allergies while sharing risks and the recovery plan.\n\nThe development is not a new fact about surgery but an established change in how error is prevented. Critical steps are not left to memory or the assumption that ‘everyone must know’. A question may be repeated because each pause has a different team, moment and purpose.\n\nState your name, agreed procedure, allergies and medicines clearly whenever asked. If what you hear does not match your understanding, stop and correct it before proceeding. Bring an updated medicine list and report any health change since surgery was planned.\n\nA checklist cannot guarantee a complication-free result, but it supports team communication and reliable completion of essential steps. Repetition should not be read as doubt or disorder; good safety makes verification audible and shared.\n\nGallbladder surgery day needs a written plan from the surgical team for food, drink, medicines, arrival and recovery, not assumptions from others’ experiences. People may arrive after searching “gallbladder surgery what to expect”, but a search phrase cannot confirm a diagnosis, identify a safe procedure or choose a treatment. This guide is designed to make a clinical conversation more useful: it explains which observations matter, what a clinician may consider and which changes should move the conversation sooner. It does not replace examination, testing or an individual plan. [1, 2]"
+          }
+        },
+        {
+          "id": "section-2",
+          "heading": {
+            "ar": "إيه اللي بيتأكد قبل التخدير؟",
+            "en": "What is confirmed before anaesthesia?"
+          },
+          "body": {
+            "ar": "قبل التخدير، الفريق بيطابق الهوية والإجراء والمكان والموافقة، ويسأل عن الحساسية ويقيّم مخاطر مجرى التنفس والنزيف ويتأكد إن مراقبة الأكسجين شغالة. التفاصيل بتختلف حسب الحالة والمستشفى، بس الفكرة واحدة: ما نبدأش مرحلة صعب الرجوع عنها قبل ما المعلومات الأساسية تبقى واضحة. لو سمعت معلومة غلط أو ناقصة، اتكلم فوراً حتى لو كنت جاوبت السؤال قبل كده. [1, 6]\n\nسبب العملية، الأعراض، نتائج الفحوص، جراحات سابقة وأي أدوية أو حساسية تؤثر في التفاصيل اللي يناقشها الفريق. سجل باختصار متى بدأت المشكلة، هل تأتي وتذهب، ما اللي يغيرها، ما اللي جربته وإزاي أثرت على النوم أو الشغل أو الدراسة أو الأكل أو الحركة. التسجيل مش اختباراً لك؛ هو نقطة بداية أوضح للفريق.\n\nالسكري، أدوية السيولة، الحمل، مشاكل القلب أو التنفس، التدخين والدعم المتاح بعد الخروج أمور لازم ذكرها مبكراً. العرض أو القياس نفسه ممكن يعني شيئاً مختلفاً من شخص لآخر. عشان كده ما تجعلش نتيجة صديق أو روتين مشهور أو قائمة على الإنترنت إجابة شخصية لك. الخطة الآمنة تبدأ بوضع المشكلة داخل القصة الصحية الكاملة. [3, 4] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
+            "en": "Before anaesthesia, the team matches identity, procedure, site and consent, asks about allergies, assesses airway and bleeding risks and confirms that oxygen monitoring is working. Details vary by patient and facility, but the principle is constant: do not enter a harder-to-reverse stage until key information is clear. If you hear something wrong or incomplete, speak up even if you answered the question earlier. [1, 6]\n\nReason for surgery, symptoms, test results, earlier operations and medicines or allergies affect the details the team discusses. A short, factual record is often more useful than trying to remember everything at once. Note when the concern began, whether it is constant or episodic, what changes it, what has already been tried and how it affects sleep, work, school, eating or activity. This is not homework to earn care; it gives the clinician a clearer starting point.\n\nDiabetes, blood-thinning medicines, pregnancy, heart or breathing concerns, smoking and support after discharge should be raised early. The same symptom or measurement can mean something different from one person to another. For that reason, avoid using a friend’s result, an influencer’s routine or a single online checklist as a personal answer. A safe plan begins by putting the concern beside the wider health story. [3, 4]"
+          }
+        },
+        {
+          "id": "section-3",
+          "heading": {
+            "ar": "الوقفة قبل فتح الجلد تجمع الفريق على خطة واحدة",
+            "en": "The pause before incision aligns the whole team"
+          },
+          "body": {
+            "ar": "في الوقفة دي أعضاء الفريق يعرفوا نفسهم وأدوارهم، ويؤكدوا المريض والإجراء والمكان، ويتكلم الجراح والتخدير والتمريض عن الخطوات الحرجة والمخاطر المتوقعة والتجهيزات والصور المطلوبة. دي مش قراءة سريعة يقوم بيها شخص لوحده. الأبحاث بتوضح إن طريقة التنفيذ والانتباه والمشاركة مهمة، وإن مجرد وجود ورقة موقعة ما يثبتش إن الحوار حصل بجودة كويسة. [4, 8]\n\nالتقييم غالباً يبدأ بالقصة والفحص وتحديد هل الأنسب متابعة أو تحليل أو تصوير أو إحالة أو عدم الحاجة لفحص فوري. التحاليل مش درجة نجاح، والنتيجة الطبيعية لا تنهي كل سؤال دائماً؛ كل فحص يجيب عن سؤال محدد. اسأل ما السؤال، وإزاي تستعد، ومتى ستراجع النتيجة.\n\nأثناء انتظار التقييم، اختر خطوات قليلة الخطورة ولا تخفي معلومات مهمة أو تخلق مشكلة جديدة. حاول ثبات الروتين قدر الإمكان، ولا تبدأ دواءً موصوفاً أو مكملات بجرعات عالية من نصيحة الإنترنت، ولا تغير أشياء كثيرة مرة واحدة. لو الأكل أو الحركة أو العناية أو تسجيل الأعراض مناسب، استخدمه كمعلومة للمتابعة لا كاختبار إرادة.\n\nالوعد الكبير ممكن يكون مغرياً لما تكون المشكلة مزعجة أو ظاهرة. احذر المنتجات مجهولة المصدر، أدوية الآخرين، الحرمان القاسي، الحقن غير الواضحة، التحاليل المتكررة من غير خطة أو النصيحة اللي تقول إن علامة واحدة تثبت مرضاً واحداً. كلمات مثل طبيعي وسريع ومضمون مش تقييماً طبياً. خذ اسم المنتج أو صورته أو ملصقه للموعد. [5, 8] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
+            "en": "At this pause, team members identify themselves and their roles, reconfirm the patient, procedure and site, and the surgeon, anaesthesia professional and nurse discuss critical steps, anticipated risks, equipment and required imaging. This is not a rapid solo recitation. Research shows that attention, participation and the way the checklist is completed matter; a signed form alone does not prove that a useful conversation occurred. [4, 8]\n\nAssessment usually starts with listening carefully and deciding whether examination, observation, laboratory tests, imaging, referral or no immediate test is the most useful next step. Tests are not a scorecard and a normal-looking result does not always end the conversation; each result answers a particular clinical question. Ask what question is being asked, how to prepare and when the result will be discussed.\n\nWhile waiting for assessment, choose low-risk steps that do not hide important information or create a new problem. Keep routines as steady as practical, do not begin prescription medicines or high-dose supplements from online advice, and avoid changing many things at the same time. If food, movement, skin care or symptom tracking is relevant, use it as information for follow-up rather than a test of discipline.\n\nA dramatic promise can be especially tempting when a concern is uncomfortable or visible. Be careful with unknown-source products, borrowed medicines, extreme restriction, unverified injections, repeated self-testing or advice that says one sign proves one condition. “Natural”, “fast” and “guaranteed” are marketing words, not a clinical assessment. Bring product names, photographs and labels to the appointment rather than guessing. [5, 8]"
+          }
+        },
+        {
+          "id": "section-4",
+          "heading": {
+            "ar": "القرار المفيد واضح ومشترك",
+            "en": "Decisions should be shared and specific"
+          },
+          "body": {
+            "ar": "الخطة الجيدة تشرح الفائدة المتوقعة وحدودها والبدائل والمخاطر المحتملة وإزاي ستتم المتابعة. الاختيار المناسب يختلف مع العمر والحمل والأدوية والأمراض والإجراءات السابقة والأولويات. من حقك أن تسأل ما اللي ممكن يغير الخطة، وما اللي نراقبه، ومن تتواصل معه بين الزيارات.\n\nخذ خطاً زمنياً قصيراً، وقائمة الأدوية والمكملات والنتائج المهمة وأسئلتك. لو الصور أو سجل يومي مفيدين، اسأل العيادة عن الشكل المناسب. اذكر حتى المنتجات أو العلاجات اللي تبدو محرجة أو اشتريتها أونلاين؛ ممكن تؤثر فعلاً في الأمان. الهدف مش أن تصل بتشخيص، بل بقصة دقيقة. [7, 9] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
+            "en": "A useful plan explains the expected benefit, limits, alternatives, possible harms and how progress will be reviewed. The right option can differ according to pregnancy, age, other conditions, current medicines, previous procedures and personal priorities. It is reasonable to ask what would make the plan change, what should be monitored and who to contact between appointments. Clear questions support informed decisions.\n\nBring a short timeline, a list of medicines and supplements, relevant results and questions you do not want to forget. If photographs or a diary would help, ask the clinic what format is useful. Mention anything that feels embarrassing, including over-the-counter products or treatments bought online; those details can materially affect safety. The goal is not to arrive with a diagnosis, but with an accurate story. [7, 9]"
+          }
+        },
+        {
+          "id": "section-5",
+          "heading": {
+            "ar": "متى لا ننتظر؟",
+            "en": "When not to wait"
+          },
+          "body": {
+            "ar": "بعد العملية، صعوبة تنفس، ألم صدر، نزف واضح، إغماء، قيء لا يتوقف أو ألم يتزايد بسرعة يحتاج تقييماً عاجلاً. لو لم تكن متأكداً من درجة الاستعجال، اطلب نصيحة طبية بدلاً من محاولة حسمها من مقال. الأولوية تتغير حسب العمر والحمل والأمراض وسرعة تغير الأعراض.\n\nقبل نهاية الزيارة اسأل إيه يعني تحسن في الحالة دي: هل هو عرض أخف، روتين أكثر أماناً، اتجاه مع الوقت، نتيجة تقرأ في سياقها أم معرفة علامات الخطر؟ اتفق على موعد مراجعة وما اللي ستأخذه معك. هكذا لا تتحول الخطة إلى تعليمات غامضة صعبة التطبيق أو التقييم.\n\nالمقال يساعدك في تحضير الأسئلة، بس مش المفروض إنه يؤخر الرعاية أو ينسخ علاج شخص آخر. المعلومات الصحية تتغير والظروف الفردية تفرق. استخدمه مع نصيحة الطبيب اللي يستطيع الفحص ومراجعة تاريخك وشرح ما يناسبك. [1, 2] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
+            "en": "After surgery, breathing difficulty, chest pain, clear bleeding, fainting, unrelenting vomiting or rapidly worsening pain needs urgent assessment. If you are unsure how urgent a change is, seek medical advice rather than trying to sort it out through an article. Urgency depends on the whole situation, including age, pregnancy, health conditions and how quickly symptoms are changing.\n\nBefore leaving a visit, ask what “better” means in this case. It might mean relief of a symptom, a safer routine, a trend over time, a result reviewed in context or simply knowing which warning signs matter. Agree on a review point and on what information to bring back. This prevents a plan from becoming a vague instruction that is difficult to follow or evaluate.\n\nEducational pages are useful for preparing questions, not for delaying care or copying another person’s treatment. Health information changes and individual circumstances matter. Use this page together with the advice of the clinician who can examine you, review your history and explain what applies to your situation. [1, 2]"
+          }
+        },
+        {
+          "id": "section-6",
+          "heading": {
+            "ar": "أسئلة مهمة عن الدليل",
+            "en": "Questions to ask about evidence"
+          },
+          "body": {
+            "ar": "لو اقترح الفريق خياراً، اسأل ما الدليل المناسب للمشكلة دي، وما شكل الفائدة المتوقعة في الحياة الواقعية، وما اللي ما زال غير مؤكد. الإجابة المسؤولة ممكن تكون أننا نحتاج معلومات أكثر أولاً، أو أن الخطوة ممكن تساعد جزءاً من المشكلة ومش كلها. ده مش نقصاً في الرعاية؛ هو طريقة لتجنب علاج غير لازم وتوقعات غير واقعية. اسأل عن مصدر موثوق أو إرشاد للمريض لو تحب أن تقرأ بين الزيارات.\n\nانظر لمن يقدم الادعاء، وهل يذكر المادة أو الطريقة بوضوح، وهل يشرح المخاطر، وهل يعترف بأن الناس احتياجاتهم مختلفة. تجربة شخص ممكن تشرح ما مر به، بس هي ما تثبتش أن الإجراء آمن أو مناسب للجميع. قبل دفع مال أو تغيير روتين، توقف عند رسالة تعتمد على الخوف أو الإحراج أو عرض محدود أو تركيبة سرية أو نتيجة مضمونة. الرعاية الموثوقة تترك مساحة للأسئلة والموافقة الواعية. [3, 4] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
+            "en": "When an option is suggested, ask what evidence supports it for the particular concern, what the likely benefit looks like in real life and what uncertainty remains. A responsible answer may be “we need more information first” or “this may help one part of the problem but not all of it.” That is not a failure to provide care; it is a way of avoiding unnecessary treatment and making expectations honest. Ask whether a reputable guideline or patient-information source is available if you would like to read more between visits.\n\nCheck who is making a claim, whether they name the active ingredient or method, whether they explain risks and whether they acknowledge that different people need different care. Testimonials can describe an experience but cannot show that an intervention is safe or suitable for everyone. Before spending money or changing a routine, pause when the message relies on fear, shame, a countdown, a secret formula or a guarantee. Reliable care should leave room for questions and informed consent. [3, 4]"
+          }
+        },
+        {
+          "id": "section-7",
+          "heading": {
+            "ar": "روتين قابل للاستمرار",
+            "en": "Supporting a sustainable routine"
+          },
+          "body": {
+            "ar": "الروتين القابل للاستمرار غالباً يبنى من خطوات صغيرة تناسب الحياة الحقيقية: النوم والشغل ووجبات الأسرة والوصول للرعاية والأعراض والحالة النفسية. مش مفيد إننا نعمل خطة ما يمكنش تنفيذها إلا بصورة مثالية لأيام قليلة. لو التوصية تبدو مستحيلة، قل ده في المتابعة. ممكن للفريق تحديد العائق أو تعديل الخطوة أو تقديم أولوية أخرى. الملاحظة الصادقة تحسن الخطة أكثر من المعاناة في صمت.\n\nالأرقام والصور وسجل الأعراض ممكن تفيد لو جُمعت بظروف متقاربة، بس هي مش القصة كلها. ممكن تتذبذب لأسباب عادية ولا تقيس الكرامة أو الجهد أو كل جوانب الصحة. ناقش التغير مع الطبيب اللي يعرف ليه اتجمعت. لو المتابعة نفسها تزيد القلق أو تدفع لسلوك مقيد أو قهري أو غير آمن، اذكر ده مبكراً. أداة المتابعة المفروض أن تخدم الرعاية لا أن تضيق الحياة.\n\nاذكر لكل طبيب أو مختص مهم في رعايتك الأمراض والأدوية والمكملات والإجراءات ذات الصلة. ده مهم خصوصاً قبل الجراحة وأثناء الحمل وعند بدء دواء جديد أو وجود أكثر من تخصص. القائمة الكاملة تقلل سوء الفهم اللي ممكن تجنبه. كما تساعد الفريق في تنسيق السؤال اللي تجيب عنه كل زيارة بدلاً من تكرار فحص أو إعطاء نصيحة تتعارض مع جزء آخر من الخطة. [5, 8] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
+            "en": "A sustainable routine is usually built from small decisions that fit actual life: sleep, work, family meals, access to care, symptoms and emotional wellbeing. It is not useful to create a plan that can only be followed perfectly for a few days. If a recommendation feels impossible, say so at follow-up. The team can often help identify the barrier, adapt the step or decide that a different priority comes first. Honest feedback improves the plan more than silent struggle.\n\nNumbers, photographs and symptom scores can be useful when collected consistently, but they should not become the whole story. They may fluctuate for ordinary reasons and they do not measure dignity, effort or every aspect of health. Discuss changes with the clinician who knows why they were collected. If tracking makes anxiety worse or leads to restrictive, compulsive or unsafe behaviour, mention that early. A follow-up tool should support care, not make daily life narrower.\n\nTell each clinician involved in your care about relevant diagnoses, medicines, supplements and procedures. This is especially important before surgery, during pregnancy, when starting a new medicine or when several specialties are involved. A complete list reduces avoidable misunderstandings. It also helps the team coordinate which question each appointment is answering instead of repeating a test or giving advice that conflicts with another part of the plan. [5, 8]"
+          }
+        },
+        {
+          "id": "section-8",
+          "heading": {
+            "ar": "لا توقف العلاج الموصوف فجأة",
+            "en": "Do not stop prescribed treatment abruptly"
+          },
+          "body": {
+            "ar": "لو شككت أن دواءً أو مكملاً أو إجراءً مرتبط بعرض، تواصل مع الطبيب أو الصيدلي اللي يستطيع إرشادك بأمان. إيقاف أو مضاعفة علاج موصوف من غير توجيه ممكن يخلق خطراً آخر. احتفظ باسم المنتج والجرعة والتوقيت للحديث. لو كان هناك اشتباه حساسية شديدة أو أثر جانبي خطير أو عرض طارئ، اطلب رعاية عاجلة حسب الحالة.\n\nالسؤال الجيد محدد: ما اللي نحاول تفسيره أو استبعاده أو متابعته أو تحسينه؟ ده يسهل معرفة هل مقال أو فيديو أو منشور مفيد فعلاً. المحتوى العام ممكن يطمئن، بس ما يقدرش أن يحسب الفحص أو النتيجة الخاصة بك. احتفظ بالمصدر الموثوق لمناقشته بدلاً من استخدامه لوصف علاج لنفسك. [7, 9] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.\n\nللقراءة المرتبطة شوف دليل يوم عملية المرارة، ودليل أعراض فتق جدار البطن، وعلامات خطر فتق البطن، ولو محتاج تقييم شخصي تقدر تستخدم احجز موعد. [1, 2]",
+            "en": "If you think a medicine, supplement or procedure may be linked to a symptom, contact the clinician or pharmacist who can advise safely. Stopping or doubling a prescribed treatment without guidance can create a separate risk. Keep the package, name, dose and timing available for the conversation. If there is a suspected severe allergy, serious side effect or emergency symptom, seek urgent care according to the situation.\n\nA good question is specific: what are we trying to explain, rule out, monitor or improve? That makes it easier to tell whether a new article, video or social-media post is relevant. Broad health content can be reassuring, but it cannot take account of an examination or a result that is unique to you. Save reliable information for discussion rather than using it to self-prescribe. [7, 9]\n\nFor related reading, see gallbladder operation-day guide, and abdominal-wall hernia symptoms guide, and abdominal hernia warning signs. If you need an individual assessment, you can book an appointment. [1, 2]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل يوم عملية المرارة",
+                "url": "../articles/gallbladder-surgery-operation-day-guide.html"
+              },
+              {
+                "label": "دليل أعراض فتق جدار البطن",
+                "url": "../articles/abdominal-wall-hernia-symptoms-guide.html"
+              },
+              {
+                "label": "علامات خطر فتق البطن",
+                "url": "../articles/abdominal-hernia-warning-signs.html"
+              },
+              {
+                "label": "احجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "gallbladder operation-day guide",
+                "url": "../articles/gallbladder-surgery-operation-day-guide.html"
+              },
+              {
+                "label": "abdominal-wall hernia symptoms guide",
+                "url": "../articles/abdominal-wall-hernia-symptoms-guide.html"
+              },
+              {
+                "label": "abdominal hernia warning signs",
+                "url": "../articles/abdominal-hernia-warning-signs.html"
+              },
+              {
+                "label": "book an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل أبدأ علاجاً من الإنترنت؟",
+            "en": "Should I start a treatment from the internet?"
+          },
+          "a": {
+            "ar": "لا. المحتوى العام لا يعرف تاريخك الصحي أو أدويتك أو نتيجة الفحص. استخدمه لتجهيز أسئلتك، وراجع الطبيب أو المختص قبل بدء أو إيقاف علاج أو مكمل أو إجراء. [1, 6] عشان كده اسأل الطبيب إيه الأنسب وإمتى تراجع.",
+            "en": "No. General content does not know your health history, medicines or examination findings. Use it to prepare questions and review any medicine, supplement or procedure with a clinician before starting or stopping it. [1, 6]"
+          }
+        },
+        {
+          "q": {
+            "ar": "ما المعلومات اللي تساعد في الموعد؟",
+            "en": "What information helps at an appointment?"
+          },
+          "a": {
+            "ar": "وقت البداية، ما اللي تغير، الأدوية والمكملات، المنتجات أو الإجراءات اللي جربتها والنتائج السابقة كلها مفيدة. خذ صورة أو سجلاً فقط إذا كان مناسباً للمشكلة أو طلبه الفريق. [2, 7] عشان كده اسأل الطبيب إيه الأنسب وإمتى تراجع.",
+            "en": "Onset, what changed, medicines and supplements, products or procedures tried and previous results are useful. Bring a photograph or diary only when it suits the concern or the team has requested it. [2, 7]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل النتيجة الطبيعية تعني أنه لا توجد مشكلة؟",
+            "en": "Does a normal result mean there is no problem?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. كل تحليل أو تصوير يجيب عن سؤال محدد، والطبيب يقرأه مع القصة والفحص. اسأل ما اللي توضحه النتيجة وما الخطوة التالية لو استمرت الأعراض. [3, 8] عشان كده اسأل الطبيب إيه الأنسب وإمتى تراجع.",
+            "en": "Not necessarily. Every test or scan answers a particular question and is read with history and examination. Ask what the result explains and what the next step is if symptoms continue. [3, 8]"
+          }
+        },
+        {
+          "q": {
+            "ar": "متى أطلب رعاية عاجلة؟",
+            "en": "When should I seek urgent care?"
+          },
+          "a": {
+            "ar": "بعد العملية، صعوبة تنفس، ألم صدر، نزف واضح، إغماء، قيء لا يتوقف أو ألم يتزايد بسرعة يحتاج تقييماً عاجلاً. لا تنتظر موعداً عادياً إذا كانت الحالة شديدة أو تتفاقم بسرعة. [4, 9] عشان كده اسأل الطبيب إيه الأنسب وإمتى تراجع.",
+            "en": "After surgery, breathing difficulty, chest pain, clear bleeding, fainting, unrelenting vomiting or rapidly worsening pain needs urgent assessment Do not wait for a routine appointment if the problem is severe or rapidly worsening. [4, 9]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه اللي آخده معايا للموعد؟",
+            "en": "What should I bring to the appointment?"
+          },
+          "a": {
+            "ar": "هات ملخص قصير بإمتى بدأت الأعراض وإيه اللي بيزودها أو بيهديها، وقائمة بالأدوية والمكملات (خصوصاً مسيلات الدم)، وأي تقارير عمليات قديمة أو أشعة أو تحاليل حديثة. ده بيساعد الطبيب يركز في القصة والكشف ويقرر هل الأشعة محتاجينها فعلاً ولا لأ. [1, 10]",
+            "en": "Bring a short timeline of when the symptoms started and what makes them better or worse, a list of your medicines and supplements (especially blood thinners), and any previous operation reports, imaging or recent test results. This helps the clinician focus the history and examination and decide whether imaging is actually needed. [1, 10]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO, Surgical Safety Checklist tools and resources",
+          "url": "https://www.who.int/teams/integrated-health-services/quality-of-care-and-patient-safety/patient-safety-guidance-and-tools/safe-surgery/tool-and-resources"
+        },
+        {
+          "label": "WHO, Safe surgery saves lives: frequently asked questions",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/safe-surgery-saves-lives-frequently-asked-questions"
+        },
+        {
+          "label": "Haynes et al., A surgical safety checklist to reduce morbidity and mortality in a global population (2009)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19144931/"
+        },
+        {
+          "label": "Treadwell et al., Surgical checklists: a systematic review of impacts and implementation (2014)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23922403/"
+        },
+        {
+          "label": "Alsadoun et al., Evaluating the Impact of the WHO Surgical Safety Checklist (2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39435236/"
+        },
+        {
+          "label": "Helmiö et al., Towards better patient safety: WHO Surgical Safety Checklist (2011)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21481197/"
+        },
+        {
+          "label": "Hussein et al., Barriers and facilitators associated with surgical safety checklists (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37675871/"
+        },
+        {
+          "label": "Abbott et al., Effect of the surgical safety checklist on provider and patient outcomes (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35393355/"
+        },
+        {
+          "label": "White et al., Implementation Strategies and Uptake of the WHO Surgical Safety Checklist (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33064387/"
+        },
+        {
+          "label": "Bajracharya et al., WHO Surgical Safety Checklist implementation audit (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30386026/"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "أسئلة الأمان قبل العملية: ليه بتتكرر؟",
+          "en": "Why safety questions repeat before surgery"
+        },
+        "description": {
+          "ar": "تكرار الاسم والعملية والمكان والحساسية وقفات أمان جماعية مش نسيان. اعرف مراحل القائمة، ودور الفريق، وإمتى تنبههم لمعلومة ناقصة.",
+          "en": "Repeated identity, procedure, site and allergy questions are team safety pauses. Learn each stage, the team roles and when to speak up."
+        }
+      },
+      "updatedAt": "2026-09-27",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّع التحديث بشرح وقفات الأمان ودور المريض وأدلة التنفيذ واتراجع طبياً من جديد.",
+            "en": "The update was expanded with safety pauses, the patient role and implementation evidence and was medically re-reviewed."
+          }
+        }
+      ]
+    }
+  ]
+}

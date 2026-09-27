@@ -1,0 +1,300 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of melasma-and-sun-protection; replaces the entry from content/articles-expansion-2026-09-11.json. Expanded clinical pathophysiology, ultraviolet and visible light triggers, iron-oxide tinted photoprotection, evidence-based clinician-directed therapies, dangers of unverified peels, red flags for atypical pigmented lesions, FAQs, verified authoritative sources and internal links with assigned reviewer.",
+  "articles": [
+    {
+      "slug": "melasma-and-sun-protection",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "dermatology",
+      "specialties": [
+        "dermatology"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "shimaa-fouad",
+      "reviewedBy": "alyaa-abu-taleb",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا أسباب كلف الوجه وطرق الحماية بواقي الشمس الملون والخيارات العلاجية الطبية وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the pathophysiology of facial melasma, tinted sunscreen protection, evidence-based therapies and red flags, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "image": "assets/img/articles/melasma-cover.webp",
+      "title": {
+        "ar": "كلف الوجه والحماية من الشمس: إزاي تسيطر على التصبغ بخطة واقعية؟",
+        "en": "Facial melasma and sun protection: realistic clinical management"
+      },
+      "excerpt": {
+        "ar": "كلف الوجه حالة تصبغ مزمنة مرتبطة بالأشعة فوق البنفسجية والضوء المرئي، خصوصاً من الشمس، وببعض التغيرات الهرمونية. اعرف إزاي واقي الشمس الملون ممكن يساعد، وإيه العلاجات اللي الطبيب ممكن يناقشها، وإزاي تحط توقعات واقعية للتحسن.",
+        "en": "Melasma is a long-term pigment condition linked to ultraviolet rays, visible light mainly from the sun, and hormonal changes. Learn how tinted sunscreen can help, which medical treatments a doctor may consider, and how to set realistic goals for long-term control."
+      },
+      "tags": {
+        "ar": [
+          "كلف الوجه",
+          "تصبغات البشرة",
+          "واقي الشمس الملون",
+          "أكاسيد الحديد",
+          "عناية بالبشرة"
+        ],
+        "en": [
+          "facial melasma",
+          "skin pigmentation",
+          "tinted sunscreen",
+          "iron oxides",
+          "skincare"
+        ]
+      },
+      "sections": [
+        {
+          "id": "understanding-melasma-beyond-surface",
+          "heading": {
+            "ar": "كلف الوجه والتصبغات: إيه اللي بيحصل في طبقات الجلد؟",
+            "en": "Understanding facial melasma: what is happening within skin layers?"
+          },
+          "body": {
+            "ar": "كلف الوجه (Melasma) حالة تصبغ مزمنة وشائعة، وممكن تكون مزعجة، خصوصاً عند الستات وأصحاب البشرة المتوسطة والداكنة [1, 2, 11, 12]. بيظهر غالباً كبقع مسطحة لونها بني فاتح أو غامق أو بني مائل للرمادي، وحدودها غير منتظمة. البقع عادة بتظهر بشكل متشابه على الناحيتين في الجبهة والخدين وعظمة الأنف وفوق الشفة العليا والذقن [2, 11, 12]. أبحاث عينات الجلد بتشير إن الكلف مش مجرد زيادة ميلانين قريب من السطح؛ ممكن كمان يرتبط بزيادة نشاط الخلايا الصبغية (Melanocytes)، وتغيرات من الشمس في طبقات أعمق، وتغير في الطبقة الفاصلة بين الجلد السطحي والعميق، وزيادة بعض الشعيرات الدموية الصغيرة [1, 8, 12].\n\nالأطباء بيوصفوا الكلف كسطحي (Epidermal)، أو عميق (Dermal)، أو مختلط (Mixed)، حسب مكان الصبغة في الجلد [2, 8, 11]. التصنيف ده ممكن يساعد في وضع توقعات للعلاج: الصبغة القريبة من السطح ممكن تستجيب للكريمات بسهولة أكتر، أما الصبغة الأعمق أو المختلطة فممكن تحتاج وقتاً أطول وحماية مستمرة من الشمس [2, 8, 10]. الاستشارة بتشمل فحص الجلد ومراجعة التاريخ المرضي والأدوية والتحاليل المناسبة عشان الطبيب يفرق بين الكلف وأسباب التصبغ التانية. ده مهم لأن آثار حب الشباب والندبات والكلف ممكن يتشابهوا، لكن خطتهم مش واحدة [2, 8, 12].",
+            "en": "Facial melasma is a common, long-term pigment condition that can be upsetting, especially for women and people with medium to dark skin (Fitzpatrick skin types III to V) [1, 2, 11, 12]. It usually appears as uneven light-brown, dark-brown, or gray-brown flat patches. The patches often appear in a similar pattern on both sides of the forehead, cheeks, bridge of the nose, skin above the upper lip, and chin [2, 11, 12]. Research on skin samples suggests that melasma involves more than extra melanin near the surface. It may also involve overactive pigment-making cells (melanocytes), sun-related changes in deeper skin, changes in the layer separating the upper and deeper skin, and an increase in tiny blood vessels [1, 8, 12].\n\nDoctors often describe melasma as epidermal, dermal, or mixed, depending on where the pigment sits in the skin [2, 8, 11]. This classification can help set expectations: pigment closer to the surface may respond more readily to creams, while deeper or mixed pigment can be harder to lighten and may need longer-term sun protection and treatment [2, 8, 10]. A consultation includes examining the skin and reviewing the history, medicines, and relevant tests so the doctor can distinguish melasma from other causes of pigmentation. That matters because acne marks, scars, and melasma can look similar but do not need exactly the same plan [2, 8, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الفرق بين آثار حب الشباب والندبات",
+                "url": "../articles/acne-marks-and-scars-what-is-the-difference.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "difference between acne marks and scars",
+                "url": "../articles/acne-marks-and-scars-what-is-the-difference.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sun-light-and-heat-triggers",
+          "heading": {
+            "ar": "الشمس والضوء المرئي والحرارة: المحفزات اللي كتير بيغفل عنها",
+            "en": "Ultraviolet radiation, visible light, and heat: overlooked pigment triggers"
+          },
+          "body": {
+            "ar": "كتير من المصابين بالكلف بيلاحظوا إن البقع بتغمق بعد وقت في الشمس أو يوم على البحر، حتى مع استخدام واقي شمس تقليدي [1, 3, 4, 11]. السبب إن الأشعة فوق البنفسجية بنوعيها (UVA وUVB) مش المحفز الوحيد لإنتاج الميلانين [1, 3, 5]. الضوء المرئي، وخصوصاً الجزء الأزرق البنفسجي الموجود أساساً في ضوء الشمس، ممكن يزود التصبغ ويخليه يستمر مدة أطول، والتأثير ده بيبان أكتر في البشرة المتوسطة والداكنة [3, 4, 5]. الأدلة المذكورة هنا مش معناها إن ضوء شاشات الموبايل أو الكمبيوتر سبب مهم للكلف؛ التركيز العملي بيكون على الضوء المرئي اللي جاي من الشمس.\n\nالباحثين بيدرسوا كمان دور الحرارة والأشعة تحت الحمراء في الكلف، لكن الآلية وحجم التأثير لسه مش محسومين [1, 3, 8]. بعض الناس بيلاحظوا زيادة اللون بعد حرارة شديدة، زي الوقوف فترة طويلة قدام فرن أو التمرين في جو حار؛ عشان كده متابعة المحفزات الشخصية وتقليل التعرض المزعج ممكن يساعد [1, 3, 8]. الحمل وحبوب منع الحمل مرتبطين بالكلف عند بعض الناس، والباحثين شايفين إن تغير الهرمونات ممكن يأثر في نشاط الخلايا الصبغية، من غير ما يكون ده التفسير الوحيد [2, 6, 11]. وده ممكن يتزامن مع تغيرات جلدية تانية زي حب الشباب في الحمل أو اسمرار الرقبة أثناء الحمل. الخطة الواقعية بتجمع بين الحماية من الشمس وملاحظة المحفزات اللي بتزود الحالة [1, 2, 3].",
+            "en": "Many people with melasma notice that patches become darker after time in the sun or a day at the beach, even when they use a standard high-SPF sunscreen [1, 3, 4, 11]. This is because ultraviolet A (UVA) and ultraviolet B (UVB) are not the only kinds of light that may increase melanin production [1, 3, 5]. Visible light, especially blue-violet light found mainly in sunlight, can deepen pigment and make it last longer. This effect may be more noticeable in medium to dark skin [3, 4, 5]. The cited evidence does not mean that light from phones or computer screens is a meaningful melasma trigger; the practical focus is visible light from the sun.\n\nResearchers are also studying whether heat and infrared radiation contribute to melasma, but the mechanism and size of any effect are not settled [1, 3, 8]. Some people report darker patches after strong heat, such as long periods near an oven or hard exercise in hot weather. Tracking personal triggers and reducing exposure that seems to worsen the patches may help [1, 3, 8]. Pregnancy and birth-control pills are linked with melasma in some people. Researchers think hormonal changes may affect pigment-making cells, but hormones are not the only explanation [2, 6, 11]. These changes can occur alongside other pregnancy-related skin concerns, such as acne in pregnancy or dark neck skin during pregnancy. A realistic plan combines sun protection with attention to personal triggers [1, 2, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حب الشباب في الحمل",
+                "url": "../articles/acne-in-pregnancy-safe-assessment.html"
+              },
+              {
+                "label": "اسمرار الرقبة أثناء الحمل",
+                "url": "../articles/dark-neck-skin-during-pregnancy.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "acne in pregnancy",
+                "url": "../articles/acne-in-pregnancy-safe-assessment.html"
+              },
+              {
+                "label": "dark neck skin during pregnancy",
+                "url": "../articles/dark-neck-skin-during-pregnancy.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gold-standard-photoprotection-iron-oxides",
+          "heading": {
+            "ar": "الحماية من الشمس: إزاي واقي الشمس الملون بأكاسيد الحديد ممكن يساعد؟",
+            "en": "Sun protection: how tinted sunscreen with iron oxides can help"
+          },
+          "body": {
+            "ar": "الحماية المنتظمة من الشمس جزء أساسي من علاج الكلف، وبتساعد العلاجات التانية تشتغل وتحافظ على نتيجتها [2, 3, 4, 5, 11]. واقي الشمس الشفاف واسع المدى بيحمي من الأشعة فوق البنفسجية، لكنه عادة ما بيغطيش الضوء المرئي بنفس الدرجة [3, 4, 5]. عشان كده الطبيب ممكن يرشح واقي شمس ملون فيه أكاسيد الحديد (Iron Oxides)، خصوصاً لو الضوء المرئي بيزود التصبغ [2, 3, 4, 5]. الصبغات المعدنية بتدي لون قريب من كريم الأساس وبتساعد على امتصاص وتشتيت جزء من الضوء المرئي، وده ممكن يقلل رجوع اللون مع الاستمرار [2, 3, 4, 11].\n\nطريقة الاستخدام بتفرق: اختار واقي واسع المدى بمعامل حماية (SPF 50) أو أعلى وحماية من UVA، ولو أمكن منتج ملون مناسب للون البشرة [3, 4, 5]. استخدم كمية كفاية على الوجه والرقبة؛ قاعدة الخطين على صباعين وسيلة عملية لتقدير الكمية، وحط الواقي قبل الخروج بحوالي ربع ساعة [3, 5, 11]. كرر الاستخدام كل ساعتين وإنت برة، وبعد السباحة أو العرق الشديد حسب تعليمات المنتج [3, 5, 11]. كمان استخدم برنيطة بحواف عريضة ونظارة شمس، ودور على الضل، وقلل الشمس المباشرة بين 10 الصبح و4 العصر [2, 3, 11]. الحماية اليومية عادة مستمرة لأن الكلف ممكن يرجع، لكن ده مش معناه إن كل تعرض بسيط هيلغي التحسن [2, 3, 12].",
+            "en": "Regular sun protection is a central part of melasma care. It can help other treatments work and help maintain their results [2, 3, 4, 5, 11]. A clear broad-spectrum sunscreen protects against ultraviolet rays, but it usually does not cover visible light to the same degree [3, 4, 5]. A doctor may therefore suggest a tinted sunscreen containing iron oxides, especially when visible light seems to deepen the pigment [2, 3, 4, 5]. These mineral pigments give the product a foundation-like tint and help absorb or scatter some visible light. With consistent use, they may reduce pigment returning [2, 3, 4, 11].\n\nHow the product is used matters. Choose a broad-spectrum sunscreen with SPF 50 or higher and good UVA protection; when possible, choose a tint that suits the skin tone [3, 4, 5]. Apply enough to cover the face and neck. The two-finger rule is a practical guide to the amount, and applying it about fifteen minutes before going outside gives it time to settle [3, 5, 11]. Reapply about every two hours while outdoors and after swimming or heavy sweating, following the product label [3, 5, 11]. Add a wide-brimmed hat, sunglasses, and shade, and limit direct sun between 10:00 AM and 4:00 PM when practical [2, 3, 11]. Daily protection is usually an ongoing habit because melasma can return, but one brief exposure does not mean all progress is lost [2, 3, 12]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "medical-treatments-doctor-may-consider",
+          "heading": {
+            "ar": "الخيارات الطبية الموضعية اللي ممكن يفكر فيها طبيب الجلدية",
+            "en": "Evidence-based topical therapies a dermatologist may consider"
+          },
+          "body": {
+            "ar": "بعد ما الحماية من الشمس تبقى منتظمة، الطبيب ممكن يختار علاجاً حسب شكل الكلف، التاريخ المرضي، الأدوية، والحمل أو الرضاعة [2, 6, 7, 9, 10, 13]. الهيدروكينون (Hydroquinone) من العلاجات الموضعية المعروفة؛ بيقلل عمل إنزيم التيروزيناز اللي له دور في إنتاج الميلانين [2, 6, 9, 10]. لكنه مش كريم تفتيح للاستخدام المفتوح. الطبيب بيحدد التركيز والمدة ويراقب التهيج، لأن الاستخدام الطويل من غير متابعة ممكن يسبب التمغّر الخارجي (Exogenous Ochronosis)، وهو لون أزرق رمادي صعب العلاج. كمان بيتجنب أثناء الحمل والرضاعة [2, 6, 10]. وفي بعض الحالات الطبيب ممكن يختار تركيبة ثلاثية فيها هيدروكينون وريتينويد وكورتيزون خفيف لمدة محددة [2, 6, 9].\n\nبدائل الهيدروكينون تشمل حمض الأزليك (Azelaic acid)، وده ممكن يقلل إنتاج الصبغة والالتهاب، ويُستخدم في الحمل أو الرضاعة بتوجيه الطبيب [2, 6, 10]. حمض الترانيكساميك الموضعي (Tranexamic acid) خيار تاني قيد الاستخدام لتقليل بعض الإشارات المرتبطة بالالتهاب والأوعية [2, 6, 7]. للحالات الشديدة اللي ما استجابتش للعلاج الموضعي، الطبيب ممكن يناقش حمض الترانيكساميك بالفم مع أشخاص مختارين فقط. العلاج ده محتاج مراجعة التاريخ الشخصي والعائلي للجلطات وأمراض القلب والكلى قبل وصفه [2, 6, 7]. فيتامين سي والنياسيناميد وحمض الكوجيك مكونات موضعية ممكن تساعد بعض الناس، لكن اختيارها وتحمل البشرة ليها بيختلف من شخص للتاني [2, 6, 10].",
+            "en": "After sun protection is established, a doctor may choose treatment based on the pattern of melasma, medical history, medicines, and pregnancy or breastfeeding [2, 6, 7, 9, 10, 13]. Hydroquinone is a well-known topical treatment that reduces the action of tyrosinase, an enzyme involved in making melanin [2, 6, 9, 10]. It is not an open-ended lightening cream. A doctor sets the strength and duration and watches for irritation, because long unsupervised use may cause exogenous ochronosis, a blue-gray discoloration that can be hard to treat. It is also avoided during pregnancy and breastfeeding [2, 6, 10]. In some cases, a doctor may prescribe a time-limited triple combination of hydroquinone, a retinoid, and a mild corticosteroid [2, 6, 9].\n\nAlternatives include azelaic acid, which may reduce pigment production and inflammation and can be considered during pregnancy or breastfeeding with medical guidance [2, 6, 10]. Topical tranexamic acid is another option used to reduce some signals linked to inflammation and blood vessels [2, 6, 7]. For severe melasma that has not improved with creams, a doctor may discuss oral tranexamic acid with carefully selected patients. Before prescribing it, the doctor needs to review personal and family history of blood clots as well as heart and kidney conditions [2, 6, 7]. Vitamin C, niacinamide, and kojic acid are other topical ingredients that may help some people, although benefit and skin tolerance vary [2, 6, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "what-to-avoid-and-in-office-procedures",
+          "heading": {
+            "ar": "محاذير التقشير العشوائي وجلسات الليزر: تجنب النتائج العكسية",
+            "en": "Avoiding aggressive peels and lasers: preventing rebound hyperpigmentation"
+          },
+          "body": {
+            "ar": "التقشير المنزلي القوي، الفرك، وخلطات التفتيح مجهولة المصدر ممكن تهيج بشرة مريض الكلف وتزود المشكلة [1, 2, 6, 9, 12]. بعض المنتجات غير الموثوقة ممكن تحتوي على كورتيزون قوي أو مركبات زئبق من غير ما يكون ده واضح على العبوة. ممكن يحصل تفتيح مؤقت، وبعده ترقق في الجلد، ظهور شعيرات دموية، ضعف في حاجز الجلد، أو رجوع التصبغ بشكل أصعب [2, 6, 12]. فرك الوجه بالليفة أو استخدام أحماض قوية في البيت ممكن يعمل التهاباً، والالتهاب نفسه ممكن يسيب لوناً أغمق، خصوصاً في البشرة المتوسطة والداكنة. ده اسمه التصبغ بعد الالتهاب [1, 2, 8].\n\nالإجراءات الطبية زي التقشير الكيميائي والليزر محتاجة تقييم حذر، ومش مناسبة لكل شخص [2, 6, 9, 10]. لو الطبيب المتخصص شايف إن التقشير مناسب، بيختار نوعاً سطحياً وتركيزاً مضبوطاً لتقليل خطر الحرق والالتهاب [2, 6, 9]. الليزر والعلاج بالضوء مش حل سريع للكلف؛ الحرارة والتهيج ممكن يزودوا اللون بدل ما يقللوه [2, 6, 10]. بعض أنواع الليزر منخفض الطاقة اتدرست للحالات اللي ما استجابتش للعلاجات المعتادة، لكن النتائج ممكن تختلف، والانتكاس أو زيادة التصبغ يفضلوا احتمالاً. أي إجراء من النوع ده محتاج متخصص مناسب مع استمرار الحماية من الشمس [2, 6, 10].",
+            "en": "Strong home peels, abrasive scrubs, and unregulated lightening mixtures can irritate melasma-prone skin and make the problem worse [1, 2, 6, 9, 12]. Some unverified products may contain a strong corticosteroid or a mercury compound without making that clear on the label. They may give temporary lightening, followed by thinning skin, visible small blood vessels, a weakened skin barrier, or pigment that returns and is harder to treat [2, 6, 12]. Scrubbing with a loofah or using strong acids at home can inflame the skin. The inflammation itself may leave darker marks, especially in medium to dark skin; this is called post-inflammatory hyperpigmentation [1, 2, 8].\n\nMedical procedures such as chemical peels and lasers need careful assessment and are not suitable for everyone [2, 6, 9, 10]. If an appropriately trained doctor thinks a peel is suitable, a superficial peel and controlled concentration may reduce the risk of burns and deeper inflammation [2, 6, 9]. Lasers and light treatments are not quick cures for melasma; heat and irritation can deepen pigment instead of improving it [2, 6, 10]. Some low-energy laser methods have been studied for cases that did not improve with standard treatment, but results vary and relapse or darker pigment remain possible. Any such procedure needs an appropriately trained specialist and continued sun protection [2, 6, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "red-flags-and-la-rose-care",
+          "heading": {
+            "ar": "علامات الإنذار للبقع المشبوهة ومسار التقييم في عيادات لاروز",
+            "en": "Warning signs for atypical pigmented lesions and specialist care at La Rose"
+          },
+          "body": {
+            "ar": "مهم نفرق بين كلف الوجه المعتاد وبين بقعة فيها علامات تستدعي تقييماً عاجلاً لاستبعاد ورم جلدي [2, 11, 12, 13]. الكلف غالباً بيظهر كبقع مسطحة ومتشابهة على الناحيتين، من غير بروز أو قرحة أو نزيف [2, 11, 12]. اطلب تقييماً طبياً عاجلاً لو شامة أو بقعة واحدة فيها علامة من قاعدة ABCDE: الناحيتين مش شبه بعض (Asymmetry)، حواف مشرشرة أو غير منتظمة (Border)، أكتر من لون زي الأسود أو الأزرق أو البني أو الأحمر (Color)، قطر أكبر من 6 مليمترات (Diameter)، أو تغير سريع في الحجم أو الشكل مع بروز أو نزيف أو قشور أو إحساس جديد (Evolving) [11, 12]. الطبيب هو اللي يحدد بعد الفحص إذا كانت البقعة محتاجة عينة نسيجية لاستبعاد الميلانوما [11, 12].\n\nلو الشكل أقرب لكلف معتاد، الاستشارة الجلدية ممكن توضح التشخيص وتقلل التجارب العشوائية [2, 6, 10, 12]. استشارة الجلدية في عيادات لاروز تشمل فحص الجلد وفروة الرأس، مراجعة التاريخ المرضي والأدوية والتحاليل المتاحة، وتقييم إذا كان السبب موضعياً أو مرتبطاً بعامل داخلي. بعد كده الطبيب يكتب خطة واضحة، وممكن ينسق مع فِرق التغذية أو الباطنة لو الحالة محتاجة. الخدمة المعلنة ما بتشملش وعداً بأجهزة أو ليزر أو تقشير. تقدر تبدأ بطلب حجز موعد استشارة جلدية عشان تناقش التشخيص وخيارات العناية المناسبة.",
+            "en": "It is important to separate usual facial melasma from a pigmented spot with warning signs that needs urgent assessment to rule out skin cancer [2, 11, 12, 13]. Melasma usually appears as flat patches in a similar pattern on both sides of the face, without a raised area, ulcer, or bleeding [2, 11, 12]. Seek urgent medical assessment if one mole or spot has an ABCDE warning sign: the halves are Asymmetrical, the Border is irregular or notched, the Color varies and includes black, blue, brown, or red, the Diameter is over six millimeters, or it is Evolving quickly in size or shape or develops elevation, bleeding, crusting, or a new sensation [11, 12]. After examining it, a doctor decides whether a biopsy is needed to rule out melanoma [11, 12].\n\nIf the pattern looks more like ordinary melasma, a dermatology consultation can clarify the diagnosis and reduce risky trial and error [2, 6, 10, 12]. At La Rose Clinics, the listed dermatology consultation includes examination of the skin and scalp, review of the medical history, medicines, and available tests, and assessment of whether the cause seems local or linked to an internal factor. The doctor then provides a written plan and may coordinate with the nutrition or internal-medicine teams when relevant. The listed service does not promise devices, lasers, or peels. You can request a dermatology consultation to discuss the diagnosis and suitable care options."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد استشارة جلدية",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a dermatology consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل كلف الوجه ممكن يختفي نهائياً ولا بيرجع تاني؟",
+            "en": "Can facial melasma be permanently cured, or does it recur?"
+          },
+          "a": {
+            "ar": "الكلف حالة مزمنة وممكن ترجع بعد ما لونها يخف. العلاج ممكن يحسن البقع بدرجات مختلفة، لكن الجلد ممكن يكوّن صبغة تاني مع الشمس أو بعض التغيرات الهرمونية [1, 2, 8]. الحماية اليومية من الشمس، ومنها الواقي الملون المناسب، وخطة المتابعة ممكن يساعدوا على الحفاظ على التحسن وتقليل الانتكاس [2, 3, 11].",
+            "en": "Melasma is a long-term condition that can return after the color fades. Treatment may lighten the patches to different degrees, but the skin can make pigment again after sun exposure or some hormonal changes [1, 2, 8]. Daily sun protection, including a suitable tinted sunscreen, and a maintenance plan may help preserve improvement and reduce relapse [2, 3, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ليه واقي الشمس العادي من غير لون مش كافي لوحده لمريض الكلف؟",
+            "en": "Why is standard untinted sunscreen insufficient for melasma management?"
+          },
+          "a": {
+            "ar": "واقي الشمس الشفاف واسع المدى بيوفر حماية من UVA وUVB، لكنه عادة ما بيحميش من الضوء المرئي بنفس الدرجة [3, 4, 5]. الواقي الملون اللي فيه أكاسيد الحديد بيمتص أو يشتت جزءاً من الضوء المرئي، خصوصاً ضوء الشمس، وعشان كده ممكن يكون مفيداً أكتر لبعض حالات الكلف [2, 3, 4, 11].",
+            "en": "A clear broad-spectrum sunscreen protects against UVA and UVB, but it usually does not protect against visible light to the same degree [3, 4, 5]. A tinted sunscreen with iron oxides absorbs or scatters some visible light, mainly from the sun, so it may be more helpful for some people with melasma [2, 3, 4, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل كريمات التفتيح اللي فيها هيدروكينون آمنة للاستخدام المستمر من غير دكتور؟",
+            "en": "Are hydroquinone-containing creams safe for continuous unsupervised use?"
+          },
+          "a": {
+            "ar": "لأ. الهيدروكينون علاج مش مرطب تجميلي يومي، واستخدامه شهور من غير متابعة ممكن يسبب تهيجاً أو زيادة في اللون، ويرفع احتمال التمغّر الخارجي (Exogenous Ochronosis)، وهو تصبغ أزرق رمادي صعب العلاج [2, 6, 10]. الطبيب هو اللي يحدد التركيز ومدة الكورس وهل فيه حاجة لفترة راحة [2, 6, 9].",
+            "en": "No. Hydroquinone is a treatment rather than an everyday cosmetic moisturizer. Using it for months without follow-up can cause irritation or worsening color and can increase the risk of exogenous ochronosis, a blue-gray discoloration that is hard to treat [2, 6, 10]. A doctor should set the strength, course length, and whether a treatment break is needed [2, 6, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إزاي تفرق بين كلف الوجه وبين تصبغات ما بعد الالتهاب؟",
+            "en": "How do you distinguish facial melasma from post-inflammatory hyperpigmentation?"
+          },
+          "a": {
+            "ar": "الكلف بيظهر كبقع بنية متماثلة على الخدين والجبهة والأنف ومرتبط بالشمس والهرمونات ومن غير سابق جرح أو حبوب في نفس النقطة [2, 11, 12]. أما تصبغات ما بعد الالتهاب فبتظهر كبقع داكنة في مكان حبة حب شباب قديمة، أو حرق، أو تقشير عنيف، وبتكون محددة في مكان الإصابة الأولانية ومش بالضرورة متماثلة في الوجه [1, 8, 12].",
+            "en": "Melasma manifests as symmetrical, reticulated brownish patches across the forehead, cheeks, and upper lip, closely associated with ultraviolet exposure and hormonal shifts without antecedent tissue damage [2, 11, 12]. In contrast, post-inflammatory hyperpigmentation occurs strictly at the anatomical sites of prior cutaneous injury, such as resolved acne papules, burns, or harsh chemical peeling, lacking symmetric distribution [1, 8, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى البقعة الداكنة في الوجه تحتاج فحصاً عاجلاً لاستبعاد الأورام؟",
+            "en": "When does a dark facial macule require urgent evaluation to exclude malignancy?"
+          },
+          "a": {
+            "ar": "اطلب فحصاً عاجلاً لو البقعة مش متماثلة، أو حوافها مشرشرة، أو فيها ألوان مختلفة، أو بتكبر بسرعة، أو بدأت تنزف أو تتقرح أو تعمل حكة مستمرة [11, 12]. العلامات دي محتاجة كشفاً سريعاً، والطبيب يحدد بعد الفحص إذا كانت محتاجة عينة نسيجية لاستبعاد الميلانوما [2, 11, 12].",
+            "en": "Seek urgent assessment if a pigmented spot is asymmetrical, has irregular notched borders or several colors, grows quickly, bleeds, develops an ulcer, or causes persistent itching [11, 12]. These signs need prompt examination; the doctor then decides whether a biopsy is needed to rule out melanoma [2, 11, 12]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Passeron T et al. — Melasma, a photoaging disorder (Pigment Cell Melanoma Res, 2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29285880/"
+        },
+        {
+          "label": "Sarkar R et al. — Delphi consensus on melasma management by international experts and pigmentary disorders society (J Eur Acad Dermatol Venereol, 2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40996222/"
+        },
+        {
+          "label": "Morgado-Carrasco D et al. — Melasma: The need for tailored photoprotection to improve clinical outcomes (Photodermatol Photoimmunol Photomed, 2022)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9790748/"
+        },
+        {
+          "label": "Lyons AB et al. — Photoprotection beyond ultraviolet radiation: A review of tinted sunscreens (J Am Acad Dermatol, 2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32335182/"
+        },
+        {
+          "label": "Abdel Azim S et al. — Sunscreens part 1: Mechanisms and efficacy (J Am Acad Dermatol, 2025)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38772426/"
+        },
+        {
+          "label": "Ocampo-Candiani J et al. — Latin American consensus on the treatment of melasma (Int J Dermatol, 2025)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11840225/"
+        },
+        {
+          "label": "Bala HR et al. — Oral Tranexamic Acid for the Treatment of Melasma: A Review (Dermatol Surg, 2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29677015/"
+        },
+        {
+          "label": "Artzi O et al. — The pathogenesis of melasma and implications for treatment (J Cosmet Dermatol, 2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34411403/"
+        },
+        {
+          "label": "Rendon M et al. — Treatment of melasma (J Am Acad Dermatol, 2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16631968/"
+        },
+        {
+          "label": "Mahajan VK et al. — Medical therapies for melasma (J Cosmet Dermatol, 2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35854432/"
+        },
+        {
+          "label": "MedlinePlus — Melasma",
+          "url": "https://medlineplus.gov/ency/article/000836.htm"
+        },
+        {
+          "label": "American Academy of Dermatology — Melasma Overview",
+          "url": "https://www.aad.org/public/diseases/a-z/melasma-overview"
+        },
+        {
+          "label": "American Academy of Dermatology — Melasma Treatment",
+          "url": "https://www.aad.org/public/diseases/a-z/melasma-treatment"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "كلف الوجه وعلاجه: الحماية من الشمس والتصبغ",
+          "en": "Facial melasma and sun protection guide"
+        },
+        "description": {
+          "ar": "دليل طبي متكامل حول كلف الوجه والتصبغات، ودور واقي الشمس الملون بأكاسيد الحديد، والخيارات الطبية الآمنة ومحاذير التقشير وعلامات الخطر.",
+          "en": "Clinical guide on facial melasma, explaining the role of tinted iron-oxide sunscreens, safe medical therapies, peeling risks, and alarm signs."
+        }
+      }
+    }
+  ]
+}

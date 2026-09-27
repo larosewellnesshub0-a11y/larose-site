@@ -1,0 +1,315 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-eight-glasses-water; replaces the entry from content/articles.json. Expanded physiological fluid balance, debunked 8-glass myth, dehydration markers, hyponatremia safety, FAQs, internal links, and completed medical re-review.",
+  "articles": [
+    {
+      "slug": "qa-eight-glasses-water",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "general",
+      "specialties": [
+        "clinical-nutrition",
+        "internal-medicine"
+      ],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "shimaa-fouad",
+      "reviewedBy": "alyaa-abu-taleb",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا تفاصيل احتياج الجسم الحقيقي من السوائل، وقاعدة الـ 8 أكواب، وعلامات الجفاف وزيادة الشرب، مع مراجعة طبية شاملة.",
+            "en": "We expanded the real physiological fluid needs, the 8-glass myth, dehydration markers, overhydration risks, and completed a comprehensive medical re-review."
+          }
+        }
+      ],
+      "image": "assets/img/articles/clinical-nutrition-2.webp",
+      "title": {
+        "ar": "هل لازم تشرب 8 أكواب مياه يومياً؟",
+        "en": "Does everyone need eight glasses of water a day? The medical facts"
+      },
+      "excerpt": {
+        "ar": "قاعدة الـ 8 أكواب مياه مش رقم ثابت لكل جسم. اعرف إزاي احتياج السوائل بيتغير، وإيه اللي يتحسب ضمنه، وعلامات الجفاف ومخاطر الإفراط في الشرب.",
+        "en": "The 8-glass rule is not a fixed requirement for every body. Learn how daily fluid needs vary, what foods count, hydration signs, and overhydration risks."
+      },
+      "tags": {
+        "ar": [
+          "شرب المياه",
+          "الترطيب",
+          "احتياج السوائل",
+          "صحة عامة"
+        ],
+        "en": [
+          "drinking water",
+          "hydration",
+          "fluid needs",
+          "general health"
+        ]
+      },
+      "sections": [
+        {
+          "id": "answer",
+          "heading": {
+            "ar": "إجابة د. شيماء فؤاد: أصل قاعدة الـ 8 أكواب مياه يومياً",
+            "en": "Dr Shimaa Fouad answers: where did the 8-glass rule come from?"
+          },
+          "body": {
+            "ar": "مفيش كمية واحدة من المياه تناسب كل الناس كل يوم. قاعدة 8 أكواب في اليوم إرشاد بسيط، مش شرطاً طبياً ثابتاً، وما اتبنتش على تجربة أثبتت إن كل شخص محتاج نفس الكمية بالضبط من المياه الصافية. مراجعات الأدلة ما لقتش سبب يخلي شخصاً بالغاً وصحته كويسة، وعايش في جو معتدل ومجهوده خفيف، يجبر نفسه على 8 أكواب من المياه بغض النظر عن العطش والأكل والمشروبات التانية [1, 2, 3].\n\nالقاعدة غالباً مرتبطة بإرشادات تغذية قديمة كانت بتقدّر إجمالي احتياج المياه على حسب السعرات. لكن جزءاً مهماً اتنسى بسهولة: الإجمالي بيشمل المياه الموجودة في الأكل والمشروبات التانية، مش كوبايات المياه الصافية بس [1, 2, 6]. الهرمونات ومركز العطش في المخ والكلى بيشتغلوا مع بعض لضبط المياه والأملاح مع تغير الاحتياج، لكن النظام ده ممكن يبقى أقل دقة عند كبار السن أو وقت المرض [1, 2, 6, 12].\n\nالترطيب مش لازم يتحول لمسابقة عد زجاجات. عند أغلب البالغين الأصحاء، الطريقة العملية هي متابعة العطش والوجبات والنشاط والجو، وتوزيع الشرب على اليوم من غير إجبار على كميات كبيرة [1, 3, 4]. بعض الأمراض محتاجة نصيحة خاصة زي ما هنوضح تحت.",
+            "en": "There is no single amount of water that suits every person every day. The rule of eight glasses a day is a simple guide, not a fixed medical requirement, and it was not based on a trial showing that everyone needs that exact amount of plain water. Reviews of the evidence find no reason for a healthy adult in a mild climate with light activity to force eight glasses of plain water regardless of thirst, food, and other drinks [1, 2, 3].\n\nThe rule is often linked to older nutrition guidance that estimated total water needs from calorie intake. An important part was easily missed: total water includes water from food and other drinks, not only glasses of plain water [1, 2, 6]. Hormones, the brain's thirst system, and the kidneys work together to adjust water and salts as needs change, although this system can be less reliable in older people or during illness [1, 2, 6, 12].\n\nHydration does not need to become a bottle-counting contest. For most healthy adults, a practical approach is to notice thirst, meals, activity, and the weather, then spread drinks through the day without forcing large amounts [1, 3, 4]. People with some medical conditions need individual advice, as explained below."
+          }
+        },
+        {
+          "id": "individual-variation",
+          "heading": {
+            "ar": "ليه احتياجك اليومي من السوائل بيتغير ومش رقم ثابت؟",
+            "en": "Why daily fluid requirements vary and cannot be a single fixed number"
+          },
+          "body": {
+            "ar": "احتياج السوائل بيتغير من يوم للتاني ومن شخص للتاني. حجم الجسم والكتلة العضلية بيأثروا على كمية المياه الموجودة في الأنسجة. الشخص الأكبر أو اللي عنده عضلات أكتر وبيتحرك كتير ممكن يحتاج سوائل أكتر من شخص جسمه أصغر أو نشاطه هادي [2, 3, 6]. وده سبب من أسباب إن رقماً واحداً ما يوصفش احتياج كل الناس.\n\nالجو والنشاط بيفرقوا برضه. الحر والرطوبة بيزودوا العرق، والجسم كمان بيفقد مياه مع التنفس. عشان كده الشغل على مكتب والشغل البدني بره ممكن يعملوا فرقاً كبيراً في الفقد [2, 3, 4, 11]. نوع الهدوم ومدة التمرين ومعدل العرق عند كل شخص بيغيروا الاحتياج أكتر، وممكن نفس الشخص يشرب كميات مختلفة في يومين مختلفين.\n\nالسخونية والإسهال والقيء ممكن يفقدوا الجسم مياه وأملاحاً بسرعة. التعويض لازم يناسب اللي اتفقد، والأعراض الشديدة ممكن تحتاج محلول إماهة بالفم أو رأياً طبياً بدل المياه الصافية لوحدها [3, 4, 5, 11]. الحمل والرضاعة ممكن يزودوا الاحتياج برضه لأن المياه بتدعم أنسجة الحمل وإنتاج اللبن [3, 4, 5, 11].",
+            "en": "Fluid needs change from one day to another and from one person to another. Body size and muscle mass affect the amount of water held in the body's tissues. Someone who is larger or has more muscle and is physically active may need more fluid than someone with a smaller body or a quiet routine [2, 3, 6]. This is one reason a single target cannot describe everyone.\n\nWeather and activity also matter. Heat and humidity increase sweating, while the body also loses water through breathing. Work at a desk and physical work outdoors can therefore lead to very different losses [2, 3, 4, 11]. Clothing, exercise length, and an individual's sweat rate can change needs further, so the same person may drink quite different amounts on two different days.\n\nFever, diarrhoea, and vomiting can quickly remove both water and salts. Replacement needs to match the loss, and severe symptoms may need oral rehydration solution or medical advice rather than plain water alone [3, 4, 5, 11]. Pregnancy and breastfeeding can also raise fluid needs because water supports pregnancy tissues and milk production [3, 4, 5, 11]."
+          }
+        },
+        {
+          "id": "what-counts-as-fluid",
+          "heading": {
+            "ar": "إيه اللي بيتحسب ضمن السوائل اليومية؟ مش مياه صافية بس",
+            "en": "What counts toward your daily fluid intake? More than plain water"
+          },
+          "body": {
+            "ar": "السوائل اليومية بتيجي من مصادر أكتر من مياه الحنفية أو الزجاجات. أبحاث أنماط الأكل المعتادة بتشير إن الأكل بيوفر غالباً حوالي 20% إلى 30% من إجمالي المياه، والنسبة بتختلف حسب نوع الأكل [2, 4, 6]. والباقي ممكن ييجي من المياه الصافية والمشروبات التانية.\n\nالفاكهة والخضار زي الخيار والخس والطماطم والبطيخ والبرتقال فيهم مياه كتير وعناصر غذائية. الشوربة والزبادي واللبن بيضيفوا سوائل برضه [2, 4, 6]. كل ده بيتحسب ضمن الإجمالي، لكن نوع الأكل نفسه يفضل مهماً؛ الشوربة المالحة أو الحلو المسكر مش زي المياه الصافية من ناحية التغذية.\n\nالشاي والقهوة والأعشاب من غير سكر بيتحسبوا برضه. الكافيين ممكن يزود البول لفترة قصيرة عند بعض الناس، خصوصاً اللي مش متعودين عليه، لكن الكوباية المعتدلة لسه بتوفر سوائل [2, 4, 6]. المشروبات الغازية والعصاير المعلبة فيها مياه، لكن استخدامها كتير بيضيف سكراً وسعرات، فمش أفضل مصدر أساسي للترطيب [2, 4, 10].",
+            "en": "Daily fluid comes from more than tap or bottled water. Research on ordinary eating patterns suggests that food often provides about 20% to 30% of total water intake, although the share varies with what a person eats [2, 4, 6]. The rest can come from plain water and other drinks.\n\nFruit and vegetables such as cucumber, lettuce, tomatoes, watermelon, and oranges contain a lot of water as well as nutrients. Soups, yoghurt, and milk also add fluid [2, 4, 6]. They are part of the daily total, but the overall diet still matters; a salty soup or a sugary dessert is not nutritionally the same as plain water.\n\nTea, coffee, and unsweetened herbal drinks also count. Caffeine can briefly increase urine output in some people, especially those who do not use it often, but a moderate cup still provides fluid [2, 4, 6]. Sugary soft drinks and packaged juices also contain water, yet frequent use adds sugar and calories, so they are not the best main source of hydration [2, 4, 10]."
+          }
+        },
+        {
+          "id": "body-signals-hydration",
+          "heading": {
+            "ar": "إشارات جسمك: العطش ولون البول والإن بادي",
+            "en": "Your body's signals: thirst, urine colour and InBody assessment"
+          },
+          "body": {
+            "ar": "بدل الاعتماد على عد الكوبايات بس، استخدم أكتر من علامة عملية. العطش هو الإشارة الأساسية اللي بتنبه الشخص السليم للشرب لما الدم يبقى أكتر تركيزاً. عند بالغين أصحاء كتير، الاستجابة للعطش دليل معقول، لكن ممكن تكون أقل دقة مع كبر السن أو المرض أو الحمل أو المجهود الشديد أو الحر القوي [1, 2, 7, 12].\n\nلون البول ممكن يدي فكرة تقريبية، مش تشخيصاً. الأصفر الفاتح غالباً يمشي مع ترطيب كفاية، واللون الأصفر الأغمق ممكن يشير إن الجسم محتاج سوائل أكتر. الأدوية والفيتامينات والأكل وبعض الأمراض ممكن يغيروا اللون أو الريحة برضه [3, 4, 5, 11]. البول الشفاف مرة من وقت للتاني مش مشكلة، لكن لو شفاف زي المياه طول اليوم فممكن تكون الكمية أكتر من احتياج الجسم.\n\nالترطيب بيأثر كمان على فحوصات تركيب الجسم بالكهرباء. تغير مياه الجسم بيغير المقاومة وممكن يحرك تقدير العضلات والدهون، عشان كده اتبع تعليمات تحضير فحص الإن بادي [3, 5, 11]. جفاف الفم والتعب والدوخة ممكن يحصلوا مع الجفاف، لكن لهم أسباب تانية برضه. الأعراض المستمرة أو الشديدة محتاجة تقييماً بدل الاعتماد على لون البول لوحده.",
+            "en": "Instead of counting cups alone, use several practical clues. Thirst is the main signal that tells a healthy adult to drink when the blood becomes more concentrated. For many healthy adults, responding to thirst is a reasonable guide, but it may be less dependable in older age, illness, pregnancy, heavy exercise, or very hot weather [1, 2, 7, 12].\n\nUrine colour can offer a rough clue, not a diagnosis. Pale yellow often goes with adequate hydration, while darker yellow urine may suggest that more fluid is needed. Medicines, vitamins, foods, and some illnesses can also change the colour or smell [3, 4, 5, 11]. Clear urine once in a while is not a problem, but water-clear urine throughout the day may mean intake is more than the body needs.\n\nHydration can also affect bioelectrical body-composition tests. Changes in body water alter electrical resistance and can shift the estimated muscle and fat readings, so follow the stated InBody preparation instructions [3, 5, 11]. Dry mouth, tiredness, and lightheadedness can occur with dehydration, but they have other causes too. Persistent or severe symptoms need assessment rather than relying on urine colour alone."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تحضير فحص الإن بادي",
+                "url": "../articles/inbody-preparation-for-reliable-follow-up.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "InBody preparation",
+                "url": "../articles/inbody-preparation-for-reliable-follow-up.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "kidney-and-metabolic-health",
+          "heading": {
+            "ar": "صحة الكلى وحصوات المسالك: إمتى الشرب بيفرق بجد؟",
+            "en": "Kidney and metabolic health: when fluid volume truly matters"
+          },
+          "body": {
+            "ar": "الكلى بتخرج الفضلات، وبتساعد في ضبط الضغط، وبتوازن المياه والمعادن. لما الشرب يقل، الكلى بتركز البول عشان توفر المياه. البول المركز ممكن يسهل تكوين بلورات من مواد بتعمل حصوات زي الكالسيوم والأوكسالات وحمض اليوريك [2, 6, 9, 12].\n\nعند الناس اللي بتكوّن حصوات كلى، السوائل الكفاية جزء مهم من الوقاية. الإرشادات بتستخدم كتير هدفاً لكمية البول حوالي 2 إلى 2.5 لتر في اليوم، وده ممكن يحتاج شرب أكتر لأن جزءاً من المياه بيضيع مع العرق والتنفس [6, 9, 11]. الخطة المناسبة بتختلف حسب نوع الحصوة والجو والتاريخ الصحي والأدوية. مقال حصوات الكلى وأعراضها بيشرح الوقاية وعلامات المغص الكلوي اللي محتاجة تقييماً سريعاً.\n\nالأبحاث بتدرس كمان العلاقة بين قلة السوائل لفترة طويلة، وهرمون الفازوبريسين، وصحة الكلى، والضغط، وصحة التمثيل الغذائي. الدراسات دي بتشير لروابط محتملة، لكنها ما تثبتش إن إجبار الجسم على مياه زيادة يمنع كل مشكلة في الكلى أو التمثيل الغذائي [2, 6, 9, 10]. السوائل الكفاية ممكن تساعد تمنع الإمساك، لكن الشرب فوق احتياج الجسم ما يفضلش يضيف فائدة.",
+            "en": "The kidneys remove wastes, help control blood pressure, and keep water and minerals in balance. When intake falls, they make urine more concentrated to save water. More concentrated urine can make it easier for stone-forming substances such as calcium, oxalate, and uric acid to form crystals [2, 6, 9, 12].\n\nFor people who form kidney stones, enough fluid is an important part of prevention. Guidance often uses a urine-output goal of about 2 to 2.5 litres a day, which may require drinking more than that because some water is lost in sweat and breathing [6, 9, 11]. The right plan can differ with the stone type, climate, medical history, and medicines. Our guide on kidney stones and symptoms explains prevention and the warning signs of renal colic that need prompt assessment.\n\nResearch is also studying links between long-term low fluid intake, vasopressin, kidney health, blood pressure, and metabolic health. These studies suggest possible associations, but they do not show that forcing extra water prevents every kidney or metabolic problem [2, 6, 9, 10]. Adequate fluid may help prevent constipation, while drinking beyond the body's needs does not keep adding benefit."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حصوات الكلى وأعراضها",
+                "url": "../articles/kidney-stones-symptoms-and-tests.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "kidney stones and symptoms",
+                "url": "../articles/kidney-stones-symptoms-and-tests.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "overhydration-and-hyponatremia",
+          "heading": {
+            "ar": "الإفراط في الشرب وتسمم المياه: إيه خطورة شرب كميات ضخمة؟",
+            "en": "Overhydration and water intoxication: the risks of forced drinking"
+          },
+          "body": {
+            "ar": "شرب كمية كبيرة جداً من المياه الصافية في وقت قصير ممكن يخفف الصوديوم في الدم ويعمل نقص صوديوم، واللي بيتسمى أحياناً تسمم المياه [1, 7, 8, 12]. الرقم المتداول إن الكلى السليمة ممكن تخرج تقريباً 800 إلى 1,000 ملليلتر في الساعة مجرد تقدير، مش هدفاً آمناً للشرب كل ساعة. القدرة بتتغير حسب حجم الجسم ووظائف الكلى والأدوية والمجهود وعوامل تانية، عشان كده إجبار النفس على مياه قريبة من المعدل ده ممكن يفضل غير آمن [1, 7, 8, 12].\n\nالصوديوم بيساعد يضبط حركة المياه بين الدم والخلايا. نقص الصوديوم بيتعرّف عادةً لما صوديوم الدم ينزل عن 135 ملليمول/لتر. لو الصوديوم نزل بسرعة، المياه ممكن تدخل الخلايا؛ وانتفاخ خلايا المخ ممكن يعمل صداعاً وغثياناً وقيئاً ولخبطة وتشنجات أو فقدان وعي [7, 8, 12]. الأعراض دي بعد شرب مياه كتير محتاجة رعاية طبية عاجلة في نفس اليوم، وبعض الناس ممكن تحتاج دخول المستشفى.\n\nنقص الصوديوم المرتبط بالرياضة خطر معروف في سباقات التحمل الطويلة لما الشخص يشرب أكتر من عطشه ويزيد وزنه من المياه. وممكن يحصل برضه مع أنظمة «الديتوكس» المتطرفة أو بعض الأمراض والأدوية [7, 8]. في مواقف تحمل كتير، إرشادات الخبراء بتنصح بالشرب حسب العطش بدل جدول إجباري، مع مراعاة النصيحة الخاصة بالحالة والسباق.",
+            "en": "Drinking a very large amount of plain water in a short time can dilute sodium in the blood and cause hyponatraemia, sometimes called water intoxication [1, 7, 8, 12]. The often-quoted figure that healthy kidneys can clear roughly 800 to 1,000 millilitres an hour is only an estimate, not a safe hourly target. Capacity changes with body size, kidney function, medicines, exercise, and other factors, so forcing water close to that rate can still be unsafe [1, 7, 8, 12].\n\nSodium helps control the movement of water between the blood and cells. Hyponatraemia is generally defined as blood sodium below 135 mmol/L. If sodium falls quickly, water can move into cells; swelling in the brain may cause headache, nausea, vomiting, confusion, seizures, or loss of consciousness [7, 8, 12]. These symptoms after heavy water intake need same-day urgent medical care, and some people need hospital admission.\n\nExercise-associated hyponatraemia is a particular risk during long endurance events when someone drinks beyond thirst and gains water weight. It can also occur with extreme “detox” routines or certain illnesses and medicines [7, 8]. For many endurance settings, consensus guidance recommends drinking to thirst rather than following a forced schedule, while allowing for individual medical and event advice."
+          }
+        },
+        {
+          "id": "medical-restrictions",
+          "heading": {
+            "ar": "أمراض بتحتاج تقليل السوائل: القلب والكلى والكبد",
+            "en": "Medical conditions requiring fluid limits: heart, kidneys and liver"
+          },
+          "body": {
+            "ar": "نصيحة شرب مياه كتير ما تناسبش كل الناس. بعض مرضى فشل القلب بيحتاجوا حداً للسوائل لأن القلب ما بيضخش الدم بكفاءة، والسوائل الزيادة ممكن تزود ضيق النفس أو التورم [6, 8, 12]. الزيادة المفاجئة في ضيق النفس أو التورم أو الوزن محتاجة رأياً طبياً.\n\nمرض الكلى المتقدم وتليف الكبد مع وجود مياه في البطن ممكن يعملوا احتباس مياه وأملاح برضه. إجبار الجسم على مياه زيادة ممكن يزود الحمل من السوائل ويوصل لعلاج في المستشفى [6, 8, 11, 12]. الطبيب ممكن يحدد كمية يومية تشمل المياه والشاي والشوربة والمشروبات التانية. الحد بيختلف من شخص للتاني؛ ما ينفعش يتنسخ من خطة مريض تاني.\n\nبعض الأدوية النفسية ومدرات البول وأدوية الضغط بتغير كمان طريقة تعامل الكلى مع المياه والصوديوم [5, 6, 8, 12]. لو عندك مرض في القلب أو الكلى أو الكبد، امشِ على نصيحة فريق العلاج للسوائل بدل ما تزودها من نفسك. ضيق النفس الجديد أو اللخبطة أو التورم المفاجئ محتاجين نصيحة طبية في نفس اليوم، وصعوبة التنفس الشديدة محتاجة رعاية طوارئ.",
+            "en": "Advice to drink a lot of water does not suit everyone. Some people with heart failure need a fluid limit because the heart cannot move blood efficiently and extra fluid can add to breathlessness or swelling [6, 8, 12]. A sudden increase in breathlessness, swelling, or rapid weight gain needs medical advice.\n\nAdvanced kidney disease and liver cirrhosis with fluid in the abdomen can also cause water and salt retention. Forcing extra water may worsen fluid overload and can lead to hospital treatment [6, 8, 11, 12]. A clinician may set a daily allowance that includes water, tea, soup, and other drinks. The limit is individual; it should not be copied from another patient's plan.\n\nSome psychiatric medicines, water tablets (diuretics), and blood-pressure medicines also change how the kidneys handle water and sodium [5, 6, 8, 12]. If you have heart, kidney, or liver disease, follow the fluid advice from your treating team rather than increasing intake on your own. New shortness of breath, confusion, or sudden swelling needs same-day medical advice, and severe breathing difficulty needs emergency care."
+          }
+        },
+        {
+          "id": "clinical-guidance-next-steps",
+          "heading": {
+            "ar": "إزاي ترتب شرب السوائل على مدار يومك وخطواتك الجاية",
+            "en": "Structuring daily fluid intake and sensible next steps"
+          },
+          "body": {
+            "ar": "روتين بسيط غالباً يكفي: خليك موفر مياه، واشرب لما تعطش، وزود السوائل مع الحر أو الرياضة. الفاكهة والخضار والشوربة واللبن والشاي والقهوة كلهم ممكن يشاركوا في الإجمالي، حسب باقي الأكل [1, 3, 4, 6]. مش لازم تبدأ كل يوم بكوباية مفروضة أو تشرب بين الوجبات إلا لو ده مريح ليك.\n\nلو عندك أهداف للوزن أو سكر الدم أو أهداف صحية تانية، زيارة التغذية العلاجية ممكن تساعد في مراجعة الوجبات والنشاط والأدوية والأمراض. المختص يقدر يقترح نطاقاً عملياً للسوائل بدل ادعاء حساب احتياج واحد دقيق من تركيب الجسم لوحده [2, 3, 6, 10]. مرضى القلب أو الكلى أو الكبد يجيبوا تعليمات السوائل من الطبيب المعالج.\n\nالعطش الشديد المستمر، أو التبول الكتير، أو تكرار دخول الحمام بالليل، أو نقص الوزن من غير سبب، أو الدوخة، أو التورم محتاجين تقييماً طبياً. الأعراض دي لها أسباب مختلفة، منها ارتفاع السكر أو مشاكل الكلى أو الأدوية أو اضطرابات الهرمونات [5, 8, 11, 12]. تقدر تستخدم رابط الحجز عشان ترتب استشارة في العيادة لمراجعة الصحة والتغذية.",
+            "en": "A simple routine is usually enough: keep water available, drink when thirsty, and add fluids during hot weather or exercise. Fruit, vegetables, soups, milk, tea, and coffee can all contribute, depending on the rest of the diet [1, 3, 4, 6]. There is no need to start every day with a prescribed glass or to drink between meals unless that helps you personally.\n\nIf you have weight, blood-sugar, or other health goals, a therapeutic nutrition visit can help review your meals, activity, medicines, and medical conditions. The clinician can suggest a practical fluid range rather than claim to calculate one exact requirement from body composition alone [2, 3, 6, 10]. People with heart, kidney, or liver disease should bring the fluid instructions from their treating doctor.\n\nPersistent intense thirst, frequent urination, repeated night-time urination, unexplained weight loss, dizziness, or swelling deserves medical assessment. These symptoms can have several causes, including high blood sugar, kidney problems, medicines, or hormone conditions [5, 8, 11, 12]. You can use the booking link to arrange a clinic consultation for a health and nutrition review."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "زيارة التغذية العلاجية",
+                "url": "../articles/therapeutic-nutrition-first-visit-guide.html"
+              },
+              {
+                "label": "حجز موعد في العيادة",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "therapeutic nutrition visit",
+                "url": "../articles/therapeutic-nutrition-first-visit-guide.html"
+              },
+              {
+                "label": "book a clinic consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الشاي والقهوة بيسببوا جفاف ولا بيتحسبوا من السوائل اليومية؟",
+            "en": "Do tea and coffee cause dehydration or count toward daily fluids?"
+          },
+          "a": {
+            "ar": "الشاي والقهوة بيتحسبوا ضمن السوائل اليومية. الكافيين ممكن يزود البول لفترة قصيرة، خصوصاً عند شخص مش متعود عليه، لكن الكوباية المعتدلة لسه بتوفر سوائل أكتر من اللي بيتفقد بسبب التأثير ده [2, 4, 6]. الكافيين بكميات كبيرة ممكن يعمل مشاكل تانية، فده مش معناه إن الكمية مفتوحة.",
+            "en": "Tea and coffee count toward the daily fluid total. Caffeine can briefly increase urine output, especially in someone who does not use it often, but a moderate cup still provides more fluid than is lost through that effect [2, 4, 6]. Large amounts of caffeine may cause other problems, so this does not mean intake is unlimited."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل شرب مياه كتير على الريق الصبح بيذيب دهون البطن أو بينضف السموم؟",
+            "en": "Does drinking lots of water on an empty stomach burn belly fat or detox the body?"
+          },
+          "a": {
+            "ar": "مفيش دليل كويس إن شرب لترات مياه على الريق بيحرق دهون البطن أو «ينضف السموم». الكبد والكلى بيعالجوا ويخرجوا فضلات كتير بشكل طبيعي [1, 2, 6, 10]. كوباية الصبح عادية لو بتحبها، لكنها مش بديل لأكل متوازن أو رعاية وزن مبنية على الدليل.",
+            "en": "There is no good evidence that drinking litres of water on an empty stomach burns fat from the abdomen or “detoxes” the body. The liver and kidneys normally process and remove many waste products [1, 2, 6, 10]. A morning glass is fine if you enjoy it, but it does not replace a balanced eating plan or evidence-based weight care."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه كمية المياه المطلوبة لو بتلعب رياضة أو بتعرق كتير في الصيف؟",
+            "en": "How much fluid is needed during exercise or heavy sweating in summer?"
+          },
+          "a": {
+            "ar": "الاحتياج بيتوقف على معدل العرق ومدة التمرين والجو والهدوم والحالة الصحية. في تمارين كتير، توفير السوائل والشرب حسب العطش طريقة عملية؛ قاعدة ثابتة كل 15 إلى 20 دقيقة ما تناسبش كل الناس [3, 4, 7, 12]. التمرين الطويل أو الشديد في الحر ممكن يحتاج كمان صوديوم وكربوهيدرات أو أملاحاً تانية، فاتبع إرشادات الحدث والطبيب.",
+            "en": "Needs depend on sweat rate, exercise length, weather, clothing, and the person's health. During many sessions, regular access to fluid and drinking to thirst is practical; a fixed 15-to-20-minute rule does not fit everyone [3, 4, 7, 12]. Long or intense exercise in heat may also require sodium and other carbohydrates or electrolytes, so follow event and medical guidance."
+          }
+        },
+        {
+          "q": {
+            "ar": "ليه كبار السن مش بيحسوا بالعطش بنفس القوة وبيتعرضوا للجفاف أسرع؟",
+            "en": "Why do older adults feel less thirst and face higher dehydration risks?"
+          },
+          "a": {
+            "ar": "الإحساس بالعطش وقدرة الكلى على توفير المياه ممكن يبقوا أقل دقة مع السن. الأدوية ومشاكل الذاكرة وصعوبة الحركة والمرض ممكن يزودوا الخطر [2, 5, 6, 11]. توفير مشروبات وتذكير منتظم ممكن يساعد، لكن أي شخص عنده حد سوائل موصوف يمشي على خطة الطبيب.",
+            "en": "Thirst sensation and the kidneys' ability to conserve water can become less reliable with age. Medicines, memory problems, mobility limits, and illness can add to the risk [2, 5, 6, 11]. Regular access to drinks and reminders may help, but anyone with a prescribed fluid limit needs to follow their clinician's plan."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو لون البول شفاف خالص زي المياه، هل ده معناه ترطيب مثالي؟",
+            "en": "If urine is completely clear like water, does that mean ideal hydration?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. البول الشفاف من وقت للتاني ممكن يحصل بعد الشرب ومش علامة ضرر لوحده. لو فضل شفاف زي المياه طول اليوم، فالكمية ممكن تكون أكتر من احتياج الجسم، لكن الأدوية والأمراض ممكن تأثر على البول برضه [3, 4, 5, 8]. الأصفر الفاتح دليل تقريبي مفيد لناس كتير، مش هدفاً طبياً مثالياً.",
+            "en": "Not necessarily. Clear urine once in a while can happen after drinking and is not by itself a sign of harm. If it stays water-clear all day, intake may be more than the body needs, but medicines and health conditions can also affect urine [3, 4, 5, 8]. Pale yellow is a useful rough guide for many people, not a perfect medical target."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى يكون العطش الشديد المستمر علامة خطر محتاجة فحص طبي عاجل؟",
+            "en": "When is persistent excessive thirst a red flag requiring urgent medical assessment?"
+          },
+          "a": {
+            "ar": "رتب تقييماً طبياً بسرعة لو العطش القوي ما بيهداش ومعاه تبول متكرر بكميات كبيرة، أو دخول الحمام بالليل كتير، أو نقص وزن من غير سبب، أو تعب، أو زغللة. الأعراض دي ممكن تحصل مع ارتفاع السكر أو مشكلة هرمونات أو مرض في الكلى أو أسباب تانية [5, 6, 8, 12]. اللخبطة أو التشنجات أو الإغماء أو الضعف الشديد محتاجين رعاية طبية عاجلة في نفس اليوم، وبعض الناس ممكن تحتاج دخول المستشفى.",
+            "en": "Arrange prompt medical assessment if strong thirst does not settle and comes with frequent large amounts of urine, repeated night-time urination, unexplained weight loss, fatigue, or blurred vision. These symptoms may occur with high blood sugar, a hormone problem, kidney disease, or other causes [5, 6, 8, 12]. Confusion, seizures, fainting, or severe weakness needs same-day urgent medical care; some people need hospital admission."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Valtin H. 'Drink at least eight glasses of water a day.' Really? Is there scientific evidence for '8 x 8'? Am J Physiol Regul Integr Comp Physiol. 2002;283(5):R993-R1004.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12376390/"
+        },
+        {
+          "label": "Popkin BM, D'Anci KE, Rosenberg IH. Water, hydration, and health. Nutr Rev. 2010;68(8):439-458.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2908954/"
+        },
+        {
+          "label": "Armstrong LE, Johnson EC. Water Intake, Water Balance, and the Elusive Daily Water Requirements. Nutrients. 2018;10(12):1928.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6315424/"
+        },
+        {
+          "label": "NHS. Water, drinks and hydration. 2023.",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+        },
+        {
+          "label": "MedlinePlus. Dehydration. National Library of Medicine. 2023.",
+          "url": "https://medlineplus.gov/dehydration.html"
+        },
+        {
+          "label": "MedlinePlus Medical Encyclopedia. Water in diet. National Library of Medicine. 2024.",
+          "url": "https://medlineplus.gov/ency/article/002471.htm"
+        },
+        {
+          "label": "Hew-Butler T, Rosner MH, Fowkes-Godek S, et al. Statement of the 3rd International Exercise-Associated Hyponatremia Consensus Development Conference, Carlsbad, California, 2015. Br J Sports Med. 2015;49(22):1432-1446.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26227507/"
+        },
+        {
+          "label": "Spasovski G, Vanholder R, Allolio B, et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. Intensive Care Med. 2014;40(3):320-331.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24569125/"
+        },
+        {
+          "label": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK). Eating, Diet, & Nutrition for Kidney Stones. 2024.",
+          "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/eating-diet-nutrition"
+        },
+        {
+          "label": "Dmitrieva NI, Boehm M, Yancey PH. Long-term health outcomes associated with hydration status. Nat Rev Nephrol. 2024;20(5):281-294.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13592372/"
+        },
+        {
+          "label": "NHS. Dehydration. 2023.",
+          "url": "https://www.nhs.uk/conditions/dehydration/"
+        },
+        {
+          "label": "MedlinePlus. Fluid and Electrolyte Balance. National Library of Medicine. 2023.",
+          "url": "https://medlineplus.gov/fluidandelectrolytebalance.html"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "هل لازم تشرب 8 أكواب مياه يومياً؟ | عيادات لا روز",
+          "en": "Do You Really Need 8 Glasses of Water a Day? | La Rose"
+        },
+        "description": {
+          "ar": "اعرف حقيقة قاعدة شرب 8 أكواب مياه يومياً، وإزاي احتياج السوائل بيتغير، وعلامات الجفاف ومخاطر الإفراط في الشرب مع استشاريي التغذية في لا روز.",
+          "en": "Discover the scientific facts behind the 8-glass water myth, how to judge your daily fluid needs, dehydration signs and overhydration risks at La Rose."
+        }
+      }
+    }
+  ]
+}

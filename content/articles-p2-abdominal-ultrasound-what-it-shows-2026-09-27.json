@@ -1,0 +1,318 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of abdominal-ultrasound-what-it-shows; replaces the entry from content/articles-abdominal-ultrasound-preparation-rewrite-2026-09-17.json. Rewritten in everyday Egyptian Arabic, expanded FAQs, corrected internal links, added booking, and medically re-reviewed.",
+  "articles": [
+    {
+      "slug": "abdominal-ultrasound-what-it-shows",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "ultrasound",
+        "gastroenterology-hepatology",
+        "internal-medicine"
+      ],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/abdominal-ultrasound-what-it-shows.webp",
+      "title": {
+        "ar": "تحضير سونار البطن: الصيام والماء والأدوية قبل الموعد",
+        "en": "Preparing for an abdominal ultrasound: fasting, water and medicines"
+      },
+      "excerpt": {
+        "ar": "تحضير سونار البطن بيختلف حسب الجزء المطلوب تصويره. اعرف الصيام والماء والأدوية، وإيه اللي هيحصل يوم الفحص، مع أولوية تعليمات حجزك.",
+        "en": "Abdominal ultrasound preparation depends on the area being examined. Learn about fasting, water, medicines and what happens on the day, while following your own appointment instructions."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّع دليل التحضير واتكتب بالمصري اليومي، مع إضافة أسئلة شائعة وروابط أوضح، واتراجع طبياً من جديد.",
+            "en": "The preparation guide was expanded in everyday Egyptian Arabic, with clearer links and FAQs, and was medically re-reviewed."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "start-with-your-booking-instructions",
+          "heading": {
+            "ar": "تحضير سونار البطن بيبدأ من نوع الفحص المكتوب",
+            "en": "Abdominal ultrasound preparation starts with the exact scan ordered"
+          },
+          "body": {
+            "ar": "تحضير سونار البطن مش ورقة واحدة تنفع لكل الناس. ممكن طلب الفحص يكون لأعلى البطن، أو للكلى والمسالك، أو للبطن والحوض مع بعض. كل اختيار له تحضير مختلف: فحص المرارة غالباً محتاج صيام، وفحص الحوض أو المثانة ممكن يحتاج شرب مية وحبس البول، وفي فحوص تانية مفيهاش تحضير خاص. عشان كده رسالة الحجز أو تعليمات المكان اللي هيعمل الفحص هي المرجع الأول، حتى لو لقيت نصيحة مختلفة على الإنترنت [2, 5, 9, 10].\n\nالسونار بيستخدم موجات صوتية عالية التردد عشان يكوّن صورة مباشرة للأعضاء من غير أشعة سينية أو إشعاع مؤين. المسبار بيتحرك فوق جل على الجلد، والجل بيمنع الهوا بين المسبار والجسم عشان الموجات تدخل وترجع للجهاز بوضوح [1, 2, 9]. الفحص ممكن يشوف الكبد والمرارة والقنوات المرارية والكلى والطحال وأجزاء من البنكرياس والشريان الأورطي، حسب السؤال الطبي وإمكانية الرؤية [1, 3, 5, 10]. لو المطلوب شرح أوسع للنتائج مش للتحضير، دليل سونار البطن والحوض الأوسع بيفصل الأعضاء اللي بتظهر وإزاي التقرير بيتقري مع الأعراض [1, 3].\n\nقبل الموعد، بص على اسم الفحص كامل، مش كلمة «سونار» بس. اسأل: هل الفحص أعلى البطن فقط؟ هل داخل فيه الحوض أو المسالك؟ هل فيه تعليمات خاصة بسبب السن أو الحمل أو حالة صحية؟ الخطوة دي بسيطة بس بتمنع إنك تصوم من غير داعي، أو توصل بمثانة فاضية في فحص محتاجها مليانة [2, 5, 9].",
+            "en": "Abdominal ultrasound preparation is not identical for every patient. The order may cover the upper abdomen, the kidneys and urinary tract, or the abdomen and pelvis together. Each version can require different preparation: gallbladder imaging often involves fasting, pelvic or bladder imaging may require drinking water and holding urine, and some ultrasound examinations need no special preparation. Your appointment message or the instructions from the facility performing the scan therefore take priority over generic advice found online [2, 5, 9, 10].\n\nUltrasound uses high-frequency sound waves to create real-time images without X-rays or ionising radiation. A handheld transducer moves over gel on the skin; the gel removes air between the probe and the body so sound can travel into tissue and return to the machine [1, 2, 9]. Depending on the clinical question and the available acoustic view, the examination may assess the liver, gallbladder, bile ducts, kidneys, spleen, parts of the pancreas and the abdominal aorta [1, 3, 5, 10]. For a broader explanation of findings rather than preparation, the broader abdominal and pelvic ultrasound guide describes which organs may be seen and how a report is interpreted alongside symptoms [1, 3].\n\nBefore the appointment, read the full name of the ordered study, not just the word “ultrasound.” Ask whether it is limited to the upper abdomen, whether it includes the pelvis or urinary tract, and whether age, pregnancy or a medical condition changes the instructions. This simple check prevents unnecessary fasting and avoids arriving with an empty bladder for an examination that needs it full [2, 5, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل سونار البطن والحوض الأوسع",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "broader abdominal and pelvic ultrasound guide",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fasting-and-clear-fluids",
+          "heading": {
+            "ar": "الصيام: كام ساعة وإيه المسموح تشربه؟",
+            "en": "Fasting: how long and what can you drink?"
+          },
+          "body": {
+            "ar": "لو الفحص لأعلى البطن أو المرارة، أماكن كتير بتطلب صيام قبل الموعد. السبب مش اختبار قوة تحمّل؛ الأكل بيخلي المرارة تنقبض، والغازات اللي بتزيد مع الأكل ممكن تحجب أجزاء عميقة زي البنكرياس. التحضير الصح بيدي فرصة أحسن لصورة واضحة، وخصوصاً للمرارة [1, 4, 10]. مستشفى جايز وسانت توماس مثلاً بيطلب ست ساعات من غير أكل، مع السماح بسوايل صافية، ومصادر طبية تانية بتأكد إن المدة وطريقة التحضير بيتغيروا حسب نوع الفحص والحالة [3, 4, 5, 10].\n\nده مش معناه تختار رقم ثابت لنفسك. لو رسالة الحجز قالت ست ساعات، امشِ عليها. لو قالت مدة مختلفة، اتبعها هي. المية العادية أو السوايل الصافية ممكن تكون مسموحة في بعض المواعيد، بس اللبن، القهوة بلبن، المشروبات الغازية، والسوايل اللي فيها سعرات ممكن تبقى ممنوعة لأنها بتأثر في تحضير المرارة أو تزود الغاز [4, 10]. متفترضش إن «صيام» معناه ممنوع نقطة مية؛ ومتفترضش برضه إن كل السوائل مسموحة. اسأل فريق الحجز لو الجملة مش واضحة.\n\nحاول تاكل وجبة عادية قبل بداية الصيام، من غير ما تعمل وليمة تقيلة عشان تعوض. دوّن ساعة آخر أكل وآخر مشروب غير المية، وخد رسالة الموعد معاك. لو نسيت وكلت، قول للفاحص بوضوح إيه اللي حصل وإمتى. القرار ممكن يكون استكمال الفحص، تعديل الجزء المطلوب، أو إعادة الموعد حسب السؤال الطبي وجودة الصورة؛ متخبيش المعلومة عشان التقرير يتقري في سياقه [3, 5, 10].",
+            "en": "Many facilities request fasting when the examination covers the upper abdomen or gallbladder. This is not a test of endurance. Eating makes the gallbladder contract, while food-related bowel gas can obscure deeper structures such as the pancreas. Correct preparation improves the chance of obtaining useful images, especially of the gallbladder [1, 4, 10]. Guy’s and St Thomas’ NHS Foundation Trust, for example, requests six hours without food while allowing clear fluids; other medical sources stress that the duration and preparation method depend on the examination and the patient's circumstances [3, 4, 5, 10].\n\nDo not choose a fasting period for yourself. If your appointment message says six hours, follow it. If it gives a different interval, follow that instruction instead. Plain water or clear fluids may be permitted for some appointments, while milk, milky coffee, fizzy drinks and calorie-containing fluids may be excluded because they can affect gallbladder preparation or add gas [4, 10]. Do not assume that “fasting” means absolutely no water, and do not assume that every drink is acceptable. Ask the booking team whenever the wording is unclear.\n\nHave a normal meal before the fasting period rather than an unusually heavy meal intended to compensate. Note the time of your last food and your last non-water drink, and bring the appointment instructions. If you accidentally eat, tell the examiner exactly what you consumed and when. Depending on the clinical question and image quality, the team may continue, modify the examination or arrange another appointment. Honest information allows the report to be interpreted in context [3, 5, 10]."
+          }
+        },
+        {
+          "id": "water-and-full-bladder",
+          "heading": {
+            "ar": "المية والمثانة: إمتى تشرب وإمتى متحبسش البول؟",
+            "en": "Water and the bladder: when to drink and when not to hold urine"
+          },
+          "body": {
+            "ar": "لما الطلب يشمل الحوض أو المثانة، ممكن يطلبوا منك تشرب كمية محددة من المية قبل الموعد ومتدخلش الحمام. المثانة المليانة بتعمل نافذة صوتية تساعد في رؤية أعضاء الحوض وجدار المثانة. ميدلاين بلس وNHS بيشرحوا إن بعض فحوص المسالك والحوض محتاجة مثانة مليانة، بينما فحوص تانية مفيهاش نفس الشرط [2, 9]. عشان كده تعليمات شخص جاي لفحص المرارة مش شرط تنفع لشخص جاي لفحص البطن والحوض.\n\nمتشربش كمية ضخمة من نفسك، ومتفضلش حابس البول لو عندك ألم شديد. المطلوب عادة بيكون امتلاء مريح، مش معاناة. اسأل عن الكمية والتوقيت في رسالة الحجز، وخد بالك إن المشروبات الغازية مش بديل مناسب للمية في تحضير البطن لأنها بتزود فقاعات الغاز [10]. لو عندك فشل قلبي، مرض كلى، تقييد سوائل، قسطرة بول، أو صعوبة في التحكم في البول، بلغ فريق الحجز قبل ما تزود السوائل؛ الخطة هنا محتاجة تتظبط حسب حالتك، مش بنصيحة عامة.\n\nالفرق ده مهم كمان لو الطلب مكتوب فيه كلى أو مسالك. السونار ممكن يشارك ضمن تقييم بعض مشكلات الكلى، بس تشخيص حصوات الكلى بيعتمد على القصة المرضية والفحص وتحاليل البول أو الدم وتصوير مناسب، والأشعة المقطعية بتدخل كتير لتحديد مكان الحصوة والانسداد [8]. يعني امتلاء المثانة بيساعد فحص معين، بس مش ضمان إن كل حصوة هتظهر ولا بديل عن باقي التقييم.",
+            "en": "When the order includes the pelvis or bladder, you may be asked to drink a stated amount of water before the appointment and avoid urinating. A full bladder creates an acoustic window that can improve views of pelvic organs and the bladder wall. MedlinePlus and the NHS explain that some urinary and pelvic examinations require a full bladder, while other ultrasound examinations do not [2, 9]. Instructions given to someone having gallbladder imaging therefore may not apply to a combined abdominal and pelvic study.\n\nDo not drink an extreme volume on your own, and do not continue holding urine if you develop severe pain. The aim is generally a comfortably full bladder, not distress. Check the amount and timing in your appointment message, and remember that fizzy drinks are not a good substitute for water during abdominal preparation because they add gas [10]. If you have heart failure, kidney disease, a fluid restriction, a urinary catheter or difficulty controlling urination, tell the booking team before increasing fluids. Preparation needs to be adapted to your condition rather than copied from general advice.\n\nThis distinction also matters when the order mentions the kidneys or urinary tract. Ultrasound may form part of the assessment of some kidney problems, but diagnosing kidney stones uses the history, examination, urine or blood tests, and suitable imaging; CT is commonly used to define a stone's location and any obstruction [8]. A full bladder can help a particular examination, but it does not guarantee that every stone will be visible and it does not replace the rest of the assessment."
+          }
+        },
+        {
+          "id": "medicines-diabetes-and-special-circumstances",
+          "heading": {
+            "ar": "الأدوية والسكر والحمل والأطفال: الأمان قبل جودة الصورة",
+            "en": "Medicines, diabetes, pregnancy and children: safety comes first"
+          },
+          "body": {
+            "ar": "متوقفش دواء موصوف من نفسك عشان السونار. إرشادات مراكز طبية بتسمح عادة بالأدوية المعتادة مع كمية صغيرة من المية، بس التعليمات الفردية من الطبيب أو مكان الفحص لها الأولوية [4, 10]. بعض الأدوية مرتبطة بميعاد دقيق، وبعض الحالات مينفعش معاها صيام طويل. لما تتصل بالحجز، قول أسماء الأدوية ومواعيدها بدل ما تقول «باخد علاج» بس، واسأل تحديداً عن جرعة الصبح.\n\nلو عندك سكر وبتاخد إنسولين أو دواء ممكن ينزل السكر، متغيرش الجرعة ومتدخلش صيام من غير خطة. مركز NHS المفتوح في المصادر بينصح بموعد بدري لمرضى النوع الأول، ومراكز تانية بتطلب التواصل المسبق لو الصيام هيعمل مشكلة [10]. الفكرة العملية إن فريقك الطبي يوازن بين التحضير ومنع هبوط السكر. خليك عارف أعراض الهبوط المعتادة عندك، وخد جهاز القياس وعلاج الهبوط اللي وصفه لك فريق السكر. لو السكر نزل أو حسيت بأعراض مقلقة، عالج الحالة حسب خطتك الطبية وبلغ المكان؛ سلامتك أهم من إكمال فحص روتيني.\n\nالسونار التشخيصي من غير إشعاع مؤين، وده سبب استخدامه الواسع، بما فيه أثناء الحمل، بس كل فحص محتاج سبب طبي وشخص مدرّب [1, 2, 9]. لو فيه حمل أو احتمال حمل، قول للفريق عشان يختار نوع الفحص المناسب للسؤال. وتحضير الطفل مش نسخة مصغرة من تحضير الكبير: مدة الامتناع عن الأكل، السوائل، ومواعيد العلاج تتحدد من المركز حسب سن الطفل وحالته. متطبقش تعليمات بالغ على طفل من غير تأكيد.",
+            "en": "Do not stop a prescribed medicine on your own because of an ultrasound appointment. Medical centres commonly allow usual medicines with a small amount of water, but individual instructions from your clinician or imaging facility take priority [4, 10]. Some medicines are time-critical, and some medical conditions make prolonged fasting unsafe. When contacting the booking team, provide medicine names and schedules rather than simply saying that you take treatment, and ask specifically about the morning dose.\n\nIf you have diabetes and use insulin or another glucose-lowering medicine, do not alter the dose or begin fasting without a plan. The NHS centre cited here recommends an early appointment for people with type 1 diabetes, while other centres advise advance contact if fasting could cause difficulty [10]. The practical goal is to balance image preparation with prevention of low blood glucose. Know your usual warning symptoms, and bring your glucose-monitoring equipment and the hypo treatment advised by your diabetes team. If your glucose falls or concerning symptoms occur, follow your medical plan and notify the facility; safety is more important than completing a routine scan.\n\nDiagnostic ultrasound does not use ionising radiation, which contributes to its wide use, including during pregnancy, but examinations should still have a medical purpose and be performed by trained professionals [1, 2, 9]. Tell the team if pregnancy is known or possible so they can select an examination appropriate to the question. A child's preparation is not simply a smaller version of an adult's plan: fasting, fluids and medicine timing are set by the facility according to age and medical circumstances. Never apply adult instructions to a child without confirmation."
+          }
+        },
+        {
+          "id": "what-ultrasound-can-and-cannot-answer",
+          "heading": {
+            "ar": "السونار بيشوف إيه، وإيه اللي ممكن ميبانش؟",
+            "en": "What ultrasound can show, and what may remain unseen"
+          },
+          "body": {
+            "ar": "سونار البطن ممتاز في تصوير أعضاء وأنسجة معينة، وبيساعد في البحث عن حصوات المرارة، تغيّرات في الكبد، اتساع قنوات، أكياس، أو تضخم بعض الأعضاء، حسب سبب الطلب [1, 3, 5, 7]. وفي تقييم حصوات المرارة، NIDDK بيذكر إن السونار هو أفضل اختبار تصويري للعثور عليها، مع ربط الصورة بالأعراض والفحص والتحاليل [7]. لو التقرير ذكر دهون على الكبد، دليل دهون الكبد بالسونار بيوضح ليه النتيجة محتاجة تقييم عوامل التمثيل الغذائي وتحاليل مناسبة، مش حكم منفرد من صورة واحدة [6].\n\nفيه حدود مهمة: الهوا والغاز بيعطلوا مرور الموجات، والعظام بتحجبها، فالأمعاء المليانة غاز أو جزء عميق من البنكرياس ممكن يبقوا صعبين في الرؤية [1, 4]. والسونار العادي ممكن يبيّن وجود دهون بالكبد، بس التصوير الروتيني مبيحددش لوحده وجود التهاب أو درجة تليف؛ NIDDK بيفصل بين رؤية الدهون وبين اختبارات تقييم الالتهاب والتليف [6]. كمان السونار مش منظار للمعدة أو القولون، ومش بيشخص كل سبب لألم البطن أو الانتفاخ.\n\nعشان كده نتيجة مطمئنة خبر كويس، بس مش معناها إهمال أعراض مستمرة. الطبيب بيربط التقرير بمكان الألم ومدته والفحص والتحاليل، وممكن يختار اختبار تاني لو السؤال مش مناسب للسونار أو لو الرؤية محدودة [1, 5, 10]. مقال السونار الطبيعي لا ينهي التقييم بيوضح الخطوة دي من غير تخويف: النتيجة الطبيعية جزء من الصورة، مش الصورة كلها.",
+            "en": "Abdominal ultrasound is effective for selected organs and tissues. Depending on the reason for the order, it can help look for gallstones, liver changes, dilated ducts, cysts or enlargement of certain organs [1, 3, 5, 7]. For gallstones, NIDDK describes ultrasound as the best imaging test for finding them, with the image interpreted alongside symptoms, examination and laboratory tests [7]. If the report mentions liver fat, the fatty liver ultrasound guide explains why that finding needs assessment of metabolic factors and relevant blood tests rather than being treated as a complete diagnosis by itself [6].\n\nImportant limits remain. Air and gas disrupt sound waves, and bone blocks them, so gas-filled bowel or a deep part of the pancreas may be difficult to see [1, 4]. Routine ultrasound may show fat in the liver, but routine imaging alone cannot determine inflammation or the degree of fibrosis; NIDDK distinguishes seeing liver fat from tests that assess inflammation and scarring [6]. Standard abdominal ultrasound is also not an endoscopic view of the stomach or colon and cannot diagnose every cause of pain or bloating.\n\nA reassuring result is good news, but persistent symptoms still deserve attention. The clinician combines the report with the location and duration of pain, physical findings and laboratory results, and may select another test when the question is not suited to ultrasound or the view was limited [1, 5, 10]. The article normal ultrasound does not end assessment explains this calmly: a normal result is one part of the clinical picture, not the entire picture."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل دهون الكبد بالسونار",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              },
+              {
+                "label": "السونار الطبيعي لا ينهي التقييم",
+                "url": "../articles/normal-ultrasound-does-not-end-assessment.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "fatty liver ultrasound guide",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              },
+              {
+                "label": "normal ultrasound does not end assessment",
+                "url": "../articles/normal-ultrasound-does-not-end-assessment.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "scan-day-step-by-step",
+          "heading": {
+            "ar": "يوم الفحص: هتدخل ومعاك إيه وهيحصل إزاي؟",
+            "en": "On the day: what to bring and what happens step by step"
+          },
+          "body": {
+            "ar": "البس هدوم مريحة وسهلة تتكشف عند البطن، وسيب الحُلي اللي فوق منطقة الفحص في البيت لو تقدر. خد طلب الطبيب، رسالة التحضير، قائمة الأدوية، وأي تقارير أو صور قديمة مرتبطة بنفس المشكلة. المقارنة ممكن تساعد الطبيب يعرف لو ملاحظة معينة جديدة ولا ثابتة. لو عندك حساسية، مشكلة حركة، احتياج لمترجم، أو رغبة في وجود مرافق حسب سياسة المكان، اسأل قبل الموعد عشان الترتيب يبقى جاهز [1, 2, 10].\n\nجوا الغرفة هتستلقي غالباً على ضهرك، والفاحص هيحط جل على الجلد ويحرك المسبار فوق البطن. ممكن يطلب منك تلف على جنبك، تاخد نفس، تحبسه ثواني، أو تغير وضعك عشان يجيب زوايا أوضح [2, 5, 10]. الفحص الخارجي غالباً مش مؤلم، بس ضغط المسبار على مكان موجوع ممكن يعمل انزعاج مؤقت. قول فوراً لو الضغط وجعك؛ التواصل بيساعد الفاحص يعدل الحركة من غير ما تسكت على ألم [1, 2, 5].\n\nبعد الفحص بيتشال الجل، وغالباً تقدر ترجع للأكل والشرب والنشاط المعتاد إلا لو عندك فحص تاني أو تعليمات مختلفة [4]. وقت النتيجة بيختلف حسب نظام المكان: أحياناً التقرير بيتجهز قريب، وأحياناً بيتبعت للطبيب المحوّل عشان يناقشه معاك [1, 2, 10]. متعتمدش على لقطة الشاشة ولا تعليق سريع لوحده. التقرير النهائي والسياق الطبي هم الأساس، وأي خطوة علاجية تتحدد مع الطبيب.",
+            "en": "Wear comfortable clothing that allows easy access to the abdomen, and leave jewellery over the scanning area at home if practical. Bring the clinician's request, your preparation message, a medicine list, and any previous reports or images related to the same problem. Comparison may help establish whether a finding is new or stable. If you have an allergy, mobility need, need an interpreter, or want a chaperone where policy allows, ask before the appointment so arrangements can be made [1, 2, 10].\n\nIn the room, you will usually lie on your back while the examiner applies gel and moves the transducer over the abdomen. You may be asked to roll onto one side, breathe in, hold your breath briefly or change position to obtain clearer angles [2, 5, 10]. An external scan is usually painless, although probe pressure over an already tender area can be temporarily uncomfortable. Say so immediately if pressure hurts; communication lets the examiner adjust the movement rather than expecting you to tolerate pain silently [1, 2, 5].\n\nAfter the examination, the gel is wiped away and you can usually return to normal food, drink and activity unless another test or a separate instruction requires otherwise [4]. Result timing varies by facility: a report may be prepared promptly or sent to the referring clinician for discussion [1, 2, 10]. Do not rely on a screen image or a brief informal comment alone. The final report and clinical context matter, and treatment decisions belong in a discussion with your clinician."
+          }
+        },
+        {
+          "id": "urgent-symptoms-do-not-wait-to-fast",
+          "heading": {
+            "ar": "أعراض طارئة؟ متستناش الصيام ولا موعد سونار روتيني",
+            "en": "Urgent symptoms: do not wait to fast for a routine scan"
+          },
+          "body": {
+            "ar": "تعليمات التحضير معمولة لموعد روتيني، مش عشان تأخر تقييم حالة طارئة. اطلب رعاية عاجلة لو ألم البطن شديد أو بيزيد بسرعة، أو مستمر لساعات، خصوصاً لو معاه قيء متكرر، سخونية أو رعشة، اصفرار العين أو الجلد، بول غامق أو براز فاتح. NIDDK بيعتبر العلامات دي مع نوبة المرارة سبباً للتقييم السريع لأنها ممكن تشير لالتهاب أو انسداد ومضاعفات محتاجة تدخل طبي [11].\n\nكمان الإغماء، دوخة شديدة، قيء دم، براز أسود، بطن قاسية جداً، أو عدم القدرة على الاحتفاظ بسوايل محتاجين تقييم عاجل. متقعدش في البيت عشان «تكمل ساعات الصيام»، ومتستناش مكان أشعة خارجي يفتح. فريق الطوارئ هيختار الفحوص المناسبة حسب حالتك، والسونار ممكن يكون جزء من الخطة أو ممكن تحتاج تصوير أو تحاليل تانية. نوع الفحص بيتحدد بعد تقييمك، مش العكس [3, 5].\n\nلو الأعراض أخف بس متكررة، احجز تقييماً منظماً بدل تكرار سونار من نفسك. ألم أعلى يمين البطن بعد الأكل، مثلاً، محتاج قصة مرضية وفحص وتحاليل مع التصوير. دليل أعراض وحصوات المرارة بيساعدك تفهم النمط والأسئلة المهمة، من غير ما يحول أي ألم بسيط لتشخيص جاهز [7, 11]. والسونار لوحده مبيستبدلش الكشف ولا يحدد علاج من غير باقي المعلومات.",
+            "en": "Preparation instructions are designed for a routine appointment, not to delay assessment of an emergency. Seek urgent care for severe or rapidly worsening abdominal pain, or pain lasting for hours, especially with repeated vomiting, fever or chills, yellowing of the eyes or skin, dark urine or pale stools. NIDDK identifies these features during or after a gallbladder attack as reasons for prompt assessment because they may signal inflammation, obstruction or another serious complication [11].\n\nFainting, severe dizziness, vomiting blood, black stools, a very rigid abdomen, or inability to keep fluids down also require urgent assessment. Do not remain at home merely to complete a fasting interval, and do not wait for a routine imaging centre to open. An emergency team will select investigations based on your condition; ultrasound may be part of the plan, or other imaging and laboratory tests may be needed. The test follows the clinical assessment, not the other way around [3, 5].\n\nIf symptoms are milder but recurrent, arrange a structured clinical review rather than repeatedly ordering scans for yourself. Right upper abdominal pain after meals, for example, needs a history, examination and relevant laboratory tests alongside imaging. The gallstone symptoms and surgery guide can help you understand the pattern and useful questions without turning every mild pain into a diagnosis [7, 11]. Ultrasound alone does not replace an examination or determine treatment without the rest of the information."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل أعراض وحصوات المرارة",
+                "url": "../articles/gallstones-symptoms-and-surgery.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "gallstone symptoms and surgery guide",
+                "url": "../articles/gallstones-symptoms-and-surgery.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "final-preparation-checklist-and-booking",
+          "heading": {
+            "ar": "قائمة سريعة قبل ما تخرج وحجز التقييم",
+            "en": "A final checklist before leaving home and booking an assessment"
+          },
+          "body": {
+            "ar": "قبل ما تخرج، راجع الخمس نقط دول: اسم الفحص كامل؛ ساعة بداية الصيام لو مطلوب؛ نوع وكمية السوائل المسموحة؛ هل المثانة لازم تبقى مليانة؛ وخطة أدوية الصبح أو السكر. خد الطلب والتقارير القديمة وقائمة العلاج، والبس هدوم مريحة. لو خالفت التحضير بالغلط، أو الموعد اتأخر والصيام بقى مرهق، كلم الفريق بدل ما تاخد قرار لوحدك [2, 4, 10].\n\nفي عيادات لاروز، الخطوة المناسبة بتبدأ بكشف يربط الأعراض والفحص السريري بأي تصوير مطلوب. توفر سونار البطن بيتحدد حسب الداعي الطبي، ونتيجته بتتفسر مع التحاليل والتاريخ المرضي، من غير وعد إن فحص واحد هيشرح كل شكوى [1, 5]. لو عندك طلب سونار ومش فاهم التحضير، أو عندك ألم بطن متكرر ومحتاج تعرف هل السونار مناسب أصلاً، تقدر تستخدم طلب حجز موعد استشارة الجهاز الهضمي وتكتب في الملاحظات اسم الفحص والأدوية المهمة.\n\nخلي معاك سؤالين للزيارة: «إيه السؤال الطبي اللي السونار المفروض يجاوب عليه؟» و«لو النتيجة طبيعية والأعراض مستمرة، إيه الخطوة اللي بعدها؟». الأسئلة دي بتخلي الفحص جزء من خطة واضحة بدل ما يبقى ورقة منفصلة. ولو ظهرت علامة طارئة من القسم السابق، سيب الحجز الروتيني واتجه للرعاية العاجلة فوراً [5, 11].",
+            "en": "Before leaving home, check five points: the full examination name; the time fasting begins if required; the type and amount of fluid permitted; whether your bladder should be full; and the plan for morning or diabetes medicines. Bring the request, previous reports and medicine list, and wear comfortable clothing. If you accidentally break preparation or a delay makes fasting difficult, contact the team rather than making a medical decision alone [2, 4, 10].\n\nAt La Rose Clinics, the appropriate next step begins with an assessment that connects symptoms and physical findings with any imaging that is needed. The availability of abdominal ultrasound depends on clinical indication, and its result is interpreted with laboratory tests and medical history, without promising that one test will explain every complaint [1, 5]. If you have an ultrasound request but do not understand the preparation, or recurrent abdominal pain and need to know whether ultrasound is suitable, you can request a gastroenterology consultation and include the examination name and important medicines in the notes.\n\nBring two questions to the visit: “What clinical question is the ultrasound meant to answer?” and “If the result is normal but symptoms continue, what comes next?” These questions keep imaging within a clear plan rather than treating the report as an isolated document. If any urgent feature described above develops, skip routine booking and seek urgent care immediately [5, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد استشارة الجهاز الهضمي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a gastroenterology consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "ينفع أشرب مية وأنا صايم لسونار البطن؟",
+            "en": "Can I drink water while fasting for an abdominal ultrasound?"
+          },
+          "a": {
+            "ar": "أحياناً آه، بس القرار حسب نوع الفحص وتعليمات المكان. مراكز طبية كتير بتسمح بمية أو سوايل صافية مع صيام الأكل، بينما فحوص تانية لها تعليمات أدق [3, 4, 10]. راجع رسالة الحجز، واسأل لو كلمة «صيام» مش موضحة. متبدلش المية بمشروب غازي أو لبن من نفسك.",
+            "en": "Sometimes, but it depends on the examination and the facility's instructions. Many medical centres allow water or clear fluids while food is withheld, while other studies have more specific rules [3, 4, 10]. Check your appointment message and ask if the word “fasting” is not explained. Do not substitute a fizzy or milky drink for water on your own."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو كلت بالغلط قبل السونار ألغيه؟",
+            "en": "If I accidentally eat before the scan, should I cancel it?"
+          },
+          "a": {
+            "ar": "متلغيش ومتخبيش المعلومة. اتصل بالمكان وقلهم أكلت إيه وإمتى. الصيام ممكن يحسن رؤية المرارة وأعضاء أعلى البطن، بس تأثير الأكل والقرار العملي بيعتمدوا على السؤال الطبي ونوع الحجز [3, 5, 10]. الفريق هو اللي يحدد هل الفحص يكمل ولا الموعد يتغير.",
+            "en": "Do not automatically cancel and do not hide the information. Contact the facility and explain what you ate and when. Fasting may improve views of the gallbladder and upper abdominal organs, but the practical effect and next step depend on the clinical question and booking type [3, 5, 10]. Let the team decide whether to proceed or rearrange."
+          }
+        },
+        {
+          "q": {
+            "ar": "آخد دوائي الصبح قبل سونار البطن؟",
+            "en": "Should I take my morning medicine before an abdominal ultrasound?"
+          },
+          "a": {
+            "ar": "الأدوية المعتادة بتكون مسموحة في مراكز كتير مع رشفة مية، بس متوقفش ولا تعدل علاج موصوف من نفسك [4, 10]. اسأل عن دوائك بالاسم، خصوصاً الإنسولين وأدوية السكر أو أي دواء مرتبط بميعاد. لو التعليمات المكتوبة مختلفة، امشِ على الخطة اللي أكدها طبيبك أو فريق الفحص.",
+            "en": "Many centres allow regular medicines with a small sip of water, but do not stop or alter prescribed treatment on your own [4, 10]. Ask about each medicine by name, especially insulin, diabetes treatment or any time-critical medicine. If written instructions differ, follow the plan confirmed by your clinician or imaging team."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم المثانة تبقى مليانة في كل سونار بطن؟",
+            "en": "Does the bladder need to be full for every abdominal ultrasound?"
+          },
+          "a": {
+            "ar": "لأ. المثانة المليانة مطلوبة في بعض فحوص الحوض أو المسالك، ومش قاعدة لكل سونار بطن [2, 9]. بص على اسم الفحص وتعليمات الحجز. لو عندك تقييد سوائل أو قسطرة أو ألم مع حبس البول، بلغ المكان قبل ما تشرب كمية إضافية.",
+            "en": "No. A full bladder is requested for some pelvic or urinary examinations, not for every abdominal ultrasound [2, 9]. Check the study name and booking instructions. If you have a fluid restriction, catheter or pain when holding urine, contact the facility before drinking extra water."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل النتيجة الطبيعية معناها مفيش سبب لألم البطن؟",
+            "en": "Does a normal result mean there is no cause for abdominal pain?"
+          },
+          "a": {
+            "ar": "لأ. النتيجة الطبيعية بتطمن على الحاجات اللي الفحص قدر يشوفها، بس الغاز ممكن يحجب أجزاء، والسونار مش مناسب لكل أمراض المعدة أو الأمعاء ومش بيحدد التهاب أو تليف الكبد من صورة روتينية لوحدها [1, 6]. لو الألم مستمر، راجع الطبيب عشان يربط النتيجة بالأعراض والفحص ويختار الخطوة المناسبة.",
+            "en": "No. A normal result is reassuring for the structures adequately seen, but gas can obscure areas, ultrasound is not suited to every stomach or bowel disorder, and routine imaging alone cannot define liver inflammation or fibrosis [1, 6]. If pain continues, review the result with your clinician so it can be linked to symptoms and examination findings and an appropriate next step can be chosen."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "RadiologyInfo.org — Abdominal Ultrasound",
+          "url": "https://www.radiologyinfo.org/en/info/abdominus"
+        },
+        {
+          "label": "NHS — Ultrasound scan",
+          "url": "https://www.nhs.uk/tests-and-treatments/ultrasound-scan/"
+        },
+        {
+          "label": "Mayo Clinic — Abdominal ultrasound",
+          "url": "https://www.mayoclinic.org/tests-procedures/abdominal-ultrasound/about/pac-20392738"
+        },
+        {
+          "label": "Johns Hopkins Medicine — Abdominal Ultrasound",
+          "url": "https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/abdominal-ultrasound"
+        },
+        {
+          "label": "Cleveland Clinic — Abdominal Ultrasound: What It Is, Purpose, Procedure & Results",
+          "url": "https://my.clevelandclinic.org/health/diagnostics/4994-abdominal-ultrasound"
+        },
+        {
+          "label": "NIDDK — Diagnosis of NAFLD & NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Gallstones",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/diagnosis"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Kidney Stones",
+          "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/diagnosis"
+        },
+        {
+          "label": "MedlinePlus — Ultrasound: Medical Test",
+          "url": "https://medlineplus.gov/lab-tests/sonogram/"
+        },
+        {
+          "label": "Guy's and St Thomas' NHS Foundation Trust — Abdominal ultrasound scan",
+          "url": "https://www.guysandstthomas.nhs.uk/health-information/abdominal-ultrasound-scan"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Gallstones",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/symptoms-causes"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "سونار البطن",
+          "تحضير سونار البطن",
+          "الصيام قبل السونار",
+          "شرب الماء قبل السونار",
+          "ألم البطن"
+        ],
+        "en": [
+          "abdominal ultrasound",
+          "abdominal ultrasound preparation",
+          "ultrasound fasting",
+          "water before ultrasound",
+          "abdominal pain"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "تحضير سونار البطن: الصيام والماء | لاروز",
+          "en": "Abdominal ultrasound preparation guide"
+        },
+        "description": {
+          "ar": "تحضير سونار البطن بالمصري: اعرف الصيام والماء وامتلاء المثانة والأدوية، وإيه اللي هيحصل يوم الفحص، مع علامات تستدعي رعاية عاجلة.",
+          "en": "Prepare for an abdominal ultrasound: fasting, water, bladder filling, medicines, what happens on the day, and symptoms that need urgent care."
+        }
+      }
+    }
+  ]
+}

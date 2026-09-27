@@ -1,0 +1,174 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of hair-loss-blood-tests-first; replaces the entry from content/articles.json. Expanded the diagnostic pathway, safety guidance, FAQs, citations, and internal navigation.",
+  "articles": [
+    {
+      "slug": "hair-loss-blood-tests-first",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "dermatology",
+      "specialties": ["dermatology", "clinical-nutrition", "internal-medicine"],
+      "date": "2026-09-04",
+      "updatedAt": "2026-09-27",
+      "readingTime": 7,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/hair-loss-blood-tests-first.webp",
+      "title": {
+        "ar": "تحاليل تساقط الشعر: إيه اللي يتعمل الأول؟",
+        "en": "Hair-loss blood tests: what should come first?"
+      },
+      "excerpt": {
+        "ar": "تحاليل تساقط الشعر مش باقة ثابتة لكل الناس. القصة، شكل التساقط وفحص فروة الرأس هم اللي يحددوا التحاليل المفيدة قبل أي مكمل أو علاج.",
+        "en": "Hair-loss blood tests are not one fixed panel for everyone. The history, loss pattern and scalp examination determine which tests are useful before supplements or treatment."
+      },
+      "tags": {
+        "ar": ["تحاليل تساقط الشعر", "فحص فروة الرأس", "مخزون الحديد", "البيوتين"],
+        "en": ["hair-loss blood tests", "scalp examination", "iron stores", "biotin"]
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسع الدليل بشرح اختيار تحاليل تساقط الشعر حسب النمط والأعراض، واتراجع طبياً من جديد.",
+            "en": "The guide was expanded to explain symptom- and pattern-led hair-loss testing and was medically re-reviewed."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "pattern-before-panel",
+          "heading": {"ar": "قبل التحاليل: نفهم شكل التساقط", "en": "Before tests: understand the pattern"},
+          "body": {
+            "ar": "لما تسأل عن تحاليل تساقط الشعر، أهم نقطة إن التساقط عرض مش تشخيص واحد. ممكن تلاحظ خفة تدريجية في فرق الشعر أو أعلى الرأس، كمية شعر أكتر وقت الغسيل، بقعة ملساء ظهرت فجأة، أو شعر بيتكسر من المنتصف. كل صورة من دول ليها احتمالات مختلفة، ومش كل احتمال بيظهر في تحليل دم. الأكاديمية الأمريكية للأمراض الجلدية بتوضح إن الوصول للسبب يبدأ بأسئلة عن بداية المشكلة وسرعتها، وبعدها فحص فروة الرأس والأظافر ومناطق الشعر التانية [1, 2].\n\nالفحص بيدور على توزيع الخفة، سلامة فتحات البصيلات، القشور والاحمرار والألم، وهل فيه تندب أو تكسر. البقع الدائرية ممكن توجه لنمط مناعي زي الثعلبة، بينما شد الشعر المتكرر ممكن يعمل تساقطاً في مناطق الشد، والخفة البطيئة في نمط معروف ممكن تكون وراثية [5, 10]. عشان كده طلب باقة كبيرة قبل الفحص ممكن يطلع أرقام كتير من غير ما يجاوب السؤال الأساسي: الشعر بيقع بأي نمط وليه دلوقتي؟",
+            "en": "When you ask about hair-loss blood tests, the key point is that hair loss is a symptom, not one diagnosis. You may notice gradual thinning along the part or crown, more hair during washing, a smooth patch that appeared suddenly, or shafts breaking midway. These patterns have different possibilities, and not every possibility appears in blood work. The American Academy of Dermatology explains that finding the cause begins with questions about onset and speed, followed by examination of the scalp, nails and other hair-bearing areas [1, 2].\n\nThe examination looks at distribution, follicular openings, scale, redness, pain, scarring and breakage. Round patches may point toward an immune-mediated condition such as alopecia areata, repeated pulling may cause loss where tension occurs, and slow thinning in a familiar distribution may be inherited [5, 10]. Ordering a large panel before that examination can therefore produce many numbers without answering the main question: what pattern is occurring, and why now?"
+          },
+          "links": {
+            "ar": [{"label": "التساقط الكربي", "url": "../articles/telogen-effluvium-sudden-hair-shedding.html"}],
+            "en": [{"label": "Telogen effluvium", "url": "../articles/telogen-effluvium-sudden-hair-shedding.html"}]
+          }
+        },
+        {
+          "id": "timeline-and-clues",
+          "heading": {"ar": "التوقيت والأعراض بيوجهوا الاختيار", "en": "Timing and symptoms guide selection"},
+          "body": {
+            "ar": "اكتب إمتى بدأت المشكلة وهل حصل قبلها مرض بحرارة، عملية، ولادة، ضغط شديد، نزول وزن سريع، تغيير كبير في الأكل أو دواء جديد. التساقط الكربي مثلاً بيكون منتشراً، وقد يظهر بعد فترة من ضغط جسدي أو نفسي بدل ما يبدأ في نفس اليوم [8, 11]. صور فرق الشعر أو خط الشعر في نفس الإضاءة كل فترة أنفع من عد كل شعرة؛ العد اليومي بيتغير مع طول الشعر وموعد الغسيل وممكن يزود القلق من غير ما يثبت تشخيصاً.\n\nقول للطبيب لو فيه تعب، دوخة، شحوب، إحساس غير معتاد بالبرد أو الحر، خفقان، تغير وزن، اضطراب دورة عند الست، أعراض هضمية، أكل محدود، حكة أو ألم في الفروة. واذكر تاريخ العيلة وتسريحات الشد والصبغات والحرارة. المصادر الطبية بتذكر إن المرض، بعض الأدوية، مشاكل الغدة، ضعف التغذية والضغط من الأسباب المحتملة، لكن وجود عامل واحد ما يثبتش وحده إنه السبب [6, 7, 12]. القصة الكاملة هي اللي بتحول التحليل من رقم عشوائي لسؤال طبي مفيد.",
+            "en": "Write down when the problem began and whether it followed a feverish illness, surgery, childbirth, major stress, rapid weight loss, a large dietary change or a new medicine. Telogen effluvium, for example, is diffuse and may appear after a delay following physical or emotional stress rather than on the same day [8, 11]. Periodic photographs of the part or hairline in consistent lighting are more useful than counting every strand; daily counts vary with hair length and wash timing and can increase anxiety without proving a diagnosis.\n\nTell the clinician about fatigue, dizziness, pallor, unusual cold or heat intolerance, palpitations, weight change, menstrual change in a woman, digestive symptoms, restricted eating, itch or scalp pain. Include family history, tight styles, chemical processing and heat. Medical sources list illness, certain medicines, thyroid problems, poor nutrition and stress among possible contributors, but the presence of one factor does not establish it as the cause [6, 7, 12]. A complete history turns a laboratory result from a random number into an answer to a useful clinical question."
+          }
+        },
+        {
+          "id": "targeted-tests",
+          "heading": {"ar": "إيه التحاليل اللي ممكن تتطلب؟", "en": "Which tests might be requested?"},
+          "body": {
+            "ar": "مفيش قائمة واحدة لازم تتعمل لكل شخص. لو التساقط منتشر ومعاه أعراض أو عوامل خطورة، الطبيب ممكن يفكر في صورة دم ومؤشرات الحديد أو وظائف الغدة، ويضيف فحوصات تانية بس لما القصة والفحص يبرروا ده. لو فيه بقعة ملساء، التهاب، قشور أو تندب، ففحص الجلد بالمنظار أو عينة صغيرة من الفروة أحياناً يكون أوضح من توسيع تحاليل الدم [1, 5]. الهدف إن كل اختبار يجاوب سؤالاً محدداً ويغير القرار لو طلع غير طبيعي.\n\nكمان النتيجة ما تتقراش منفصلة. رقم قريب من حد المعمل مش معناه تلقائياً إن ده سبب التساقط، ونتيجة طبيعية مش معناها إن الشكوى وهمية. الأكاديمية الأمريكية للأمراض الجلدية بتذكر إن تحليل الدم أو عينة الفروة قد يلزموا لما الطبيب يشك في مرض، نقص عنصر، اضطراب هرموني أو عدوى [1]. أما التساقط الوراثي أو الشد أو بعض أمراض الفروة فالتشخيص بيعتمد بدرجة كبيرة على النمط والفحص. ما تعيدش التحاليل كل أسبوع، وما تطلبش هرمونات أو فيتامينات من غير سبب واضح؛ راجع النتيجة في سياق الأعراض والأدوية.",
+            "en": "There is no single list that everyone must complete. When shedding is diffuse and accompanied by symptoms or risk factors, a clinician may consider a blood count, iron measures or thyroid function, adding other investigations only when the history and examination justify them. If there is a smooth patch, inflammation, scale or scarring, dermoscopic examination or a small scalp biopsy may sometimes be more informative than expanding the blood panel [1, 5]. Each test should answer a defined question and be capable of changing the decision if abnormal.\n\nA result also cannot be read in isolation. A value near a laboratory boundary does not automatically prove that it caused the shedding, while normal results do not make the complaint imaginary. The American Academy of Dermatology notes that blood testing or scalp biopsy may be needed when disease, nutrient deficiency, hormonal imbalance or infection is suspected [1]. Inherited loss, traction and several scalp disorders rely heavily on pattern and examination. Do not repeat tests weekly or request broad hormone and vitamin panels without a reason; interpret findings in the context of symptoms and medicines."
+          }
+        },
+        {
+          "id": "iron-thyroid-nutrition",
+          "heading": {"ar": "الحديد والغدة والتغذية: مش مجرد رقم", "en": "Iron, thyroid and nutrition: more than a number"},
+          "body": {
+            "ar": "الحديد عنصر أساسي لتكوين الهيموجلوبين ووظائف الجسم، لكن مكمل الحديد مش خطوة تلقائية لكل تساقط شعر. التاريخ اللي فيه دورة غزيرة، نزيف، أكل فقير بالحديد أو أعراض أنيميا ممكن يخلي تقييم صورة الدم وحالة الحديد منطقياً، وبعدها الطبيب يفسر النتيجة ويبحث عن سبب النقص بدل ما يكتفي بعلبة مكمل [13]. الزيادة من الحديد ممكن تضر، والأكاديمية الأمريكية للأمراض الجلدية بتنصح إن مكمل الحديد أو الزنك أو البيوتين يتاخد عند ثبوت نقص، مش لمجرد وجود تساقط [1].\n\nوظائف الغدة برضه تتطلب تفسيراً مع الأعراض والتاريخ والعلاج الموجود. ما توقفش دواء غدة أو أي دواء موصوف من نفسك لو لاحظت تساقطاً؛ الطبيب يراجع العلاقة والتوقيت ويقرر إن كان محتاج تعديل أو فحص. ولو حصل نزول وزن سريع أو الأكل بقى قليل جداً، راجع كفاية الطاقة والبروتين وتنوع الوجبات، لأن الضغط الغذائي ممكن يشارك في تساقط منتشر [2, 12]. صفحة تساقط الشعر أثناء نزول الوزن الطبي بتشرح الجزء ده بالتفصيل من غير ما نحول كل حالة لمشكلة تغذية.",
+            "en": "Iron is essential for haemoglobin and normal body function, but an iron supplement is not an automatic step for every episode of hair loss. A history of heavy periods, bleeding, low-iron intake or anaemia symptoms may make a blood count and iron assessment reasonable; the clinician then interprets the result and looks for the reason for deficiency rather than stopping at a supplement bottle [13]. Excess iron can be harmful, and the American Academy of Dermatology advises taking iron, zinc or biotin supplements when a deficiency is demonstrated, not merely because shedding is present [1].\n\nThyroid results likewise require interpretation alongside symptoms, history and existing treatment. Do not stop thyroid medicine or another prescription on your own after noticing hair loss; a clinician reviews the relationship and timing and decides whether adjustment or investigation is appropriate. If weight fell rapidly or intake became very low, review energy, protein and dietary variety because nutritional stress can contribute to diffuse shedding [2, 12]. The page on hair loss during medical weight loss explains that specific issue without turning every case into a nutrition problem."
+          },
+          "links": {
+            "ar": [{"label": "تساقط الشعر أثناء نزول الوزن الطبي", "url": "../articles/qa-hair-loss-during-medical-weight-loss.html"}],
+            "en": [{"label": "hair loss during medical weight loss", "url": "../articles/qa-hair-loss-during-medical-weight-loss.html"}]
+          }
+        },
+        {
+          "id": "biotin-and-supplements",
+          "heading": {"ar": "البيوتين ممكن يربك النتيجة", "en": "Biotin can confuse a result"},
+          "body": {
+            "ar": "مكملات الشعر والجلد والأظافر ممكن تحتوي على بيوتين من غير ما الاسم الكبير على العبوة يوضح ده. المعاهد الوطنية للصحة بتذكر إن نقص البيوتين نادر، وإن الدليل على تحسين الشعر عند الناس اللي ما عندهمش نقص محدود [9]. الأهم قبل التحاليل إن البيوتين الإضافي ممكن يتداخل مع بعض طرق القياس المعملية. هيئة الغذاء والدواء الأمريكية حذرت من نتائج غير صحيحة في اختبارات معينة، ومنها بعض اختبارات القلب، لأن التأثير ممكن ما يتلاحظش [8].\n\nنوع الجهاز، الاختبار، كمية البيوتين ووقت آخر جرعة كلهم بيفرقوا، فمفيش مدة توقف واحدة آمنة ننقلها لكل الناس. صوّر واجهة العبوة وقائمة المكونات، وقل للطبيب والمعمل اسم المنتج ووقت آخر جرعة، وسيب تعليمات الإيقاف أو الاستمرار لهم. ما تأجلش تحليلاً عاجلاً، وما توقفش منتجاً موصوفاً لحالة طبية من نفسك. دليل البيوتين قبل تحليل الدم بيوضح ليه الإفصاح أهم من التخمين، وإزاي تتصرف لو النتيجة مش راكبة على الأعراض [8, 9, 14].",
+            "en": "Hair, skin and nail supplements may contain biotin even when the large print on the bottle does not make this obvious. The National Institutes of Health notes that biotin deficiency is rare and that evidence for improving hair in people without deficiency is limited [9]. More importantly before testing, supplemental biotin can interfere with some laboratory measurement methods. The US Food and Drug Administration has warned about incorrect results in certain assays, including some cardiac tests, because the effect can go unnoticed [8].\n\nThe analyser, assay, amount of biotin and time of the last dose all matter, so one stopping interval cannot safely be copied to everyone. Photograph the front and ingredient panel, tell the clinician and laboratory the product and last-dose time, and let them give instructions about pausing or continuing it. Do not delay an urgent test or stop a product prescribed for a medical condition by yourself. The guide to biotin before blood tests explains why disclosure is more useful than guessing and what to do when a result does not fit the symptoms [8, 9, 14]."
+          },
+          "links": {
+            "ar": [{"label": "البيوتين قبل تحليل الدم", "url": "../articles/biotin-before-blood-tests.html"}],
+            "en": [{"label": "biotin before blood tests", "url": "../articles/biotin-before-blood-tests.html"}]
+          }
+        },
+        {
+          "id": "after-results",
+          "heading": {"ar": "بعد النتايج: اربطها بالفحص", "en": "After results: connect them to the examination"},
+          "body": {
+            "ar": "خد التحاليل القديمة والجديدة مع بعض، لأن الاتجاه عبر الوقت أحياناً أهم من قراءة منفردة. الطبيب يقارنها بالأعراض، الأدوية، الأكل وشكل الفروة، ويحدد هل فيه سبب واضح محتاج علاج، سبب محتمل محتاج تأكيد، أو نتيجة مالهاش علاقة مباشرة بالتساقط. لو الرقم مش منطقي أو متعارض مع حالتك، اذكر المكملات ومنها البيوتين قبل ما تبدأ علاجاً جديداً؛ الإرشادات المعملية بتشدد على التعاون بين المريض والطبيب والمعمل عند الشك في تداخل [14].\n\nالتحاليل الطبيعية لا تستبعد احتمال التساقط الوراثي أو الثعلبة أو الشد أو التهاب الفروة، والنتيجة غير الطبيعية ما تمنعش وجود سببين مع بعض. الأكاديمية الأمريكية للأمراض الجلدية بتذكر مثال إن الست بعد الولادة ممكن يكون عندها تساقط واضح ومعاه بداية خفة وراثية أقل وضوحاً [1]. الخطة بالتالي ممكن تجمع علاج السبب المثبت، عناية لطيفة بالشعر، متابعة بالصور، وإحالة لجلدية لما النمط محتاج فحصاً متخصصاً. ما تستناش رجوع الكثافة في أيام؛ دورة الشعر بطيئة والاستجابة بتحتاج متابعة واقعية، والتغيير يتقاس على مدى مناسب مش يوم بيوم.",
+            "en": "Bring old and new results together because the trend over time can be more informative than one reading. The clinician compares them with symptoms, medicines, intake and scalp appearance, deciding whether there is a clear cause to treat, a possibility needing confirmation, or an abnormality unrelated to the shedding. If a value seems implausible or conflicts with the clinical picture, disclose supplements including biotin before starting new treatment; laboratory guidance stresses cooperation among patient, clinician and laboratory when interference is suspected [14].\n\nNormal tests do not exclude inherited loss, alopecia areata, traction or scalp inflammation, and an abnormal result does not prevent two causes from coexisting. The American Academy of Dermatology gives the example of a woman after childbirth who may have obvious shedding alongside less obvious early hereditary thinning [1]. A plan may therefore combine treatment of a confirmed cause, gentle hair care, photographic follow-up and dermatology referral when the pattern needs specialist examination. Do not expect density to return within days; the hair cycle is slow and response needs realistic follow-up."
+          }
+        },
+        {
+          "id": "red-flags-and-next-step",
+          "heading": {"ar": "إمتى تكشف بسرعة؟", "en": "When should you seek prompt assessment?"},
+          "body": {
+            "ar": "احجز فحصاً أسرع لو ظهر تساقط مفاجئ في بقع، فقدان حواجب أو رموش، ألم شديد، صديد، قشور كثيفة، احمرار ممتد، أو جلد لامع ومتندب. راجع بسرعة كمان لو التساقط معاه تعب شديد، دوخة أو إغماء، خفقان، نزيف واضح، فقدان وزن غير مقصود أو أعراض عامة مقلقة. البقع المفاجئة ممكن تكون ثعلبة، والجلد المتندب أو الالتهاب المؤلم محتاجين تقييم جلدية مبكر عشان بعض الأنماط ممكن تسبب فقداً دائماً لو اتأخر التعامل معها [5, 6, 10].\n\nقبل الزيارة، جهز خطاً زمنياً مختصراً، قائمة الأدوية والمكملات، صور العبوات، التحاليل السابقة وصور الشعر في إضاءة ثابتة. د. مهاب أشرف يقدر يراجع الأعراض العامة والنتائج ويحدد لو محتاج باطنة أو تغذية بالتوازي، مع توجيهك لجلدية عند وجود نمط أو علامة في الفروة تستلزم التخصص. طلب حجز موعد تقييم طبي هو بداية لتنظيم الأسئلة، مش وعد بعمل كل التحاليل أو وصف منتج بعينه [1, 7].",
+            "en": "Arrange prompt assessment for sudden patches, loss of eyebrows or eyelashes, severe pain, discharge, heavy scale, spreading redness, or shiny scarred skin. Seek timely review as well when shedding accompanies profound fatigue, dizziness or fainting, palpitations, visible bleeding, unintended weight loss or other concerning general symptoms. Sudden patches may represent alopecia areata, while scarring skin or painful inflammation deserves early dermatology assessment because some patterns can cause permanent loss when care is delayed [5, 6, 10].\n\nBefore the visit, prepare a short timeline, medicine and supplement list, package photographs, prior tests and consistent photographs of the hair. Dr Mohab Ashraf can review general symptoms and laboratory findings and decide whether internal medicine or nutrition input is needed alongside referral to dermatology when a scalp pattern or sign requires that specialty. Request a medical assessment to organize the questions; it is not a promise that every test will be ordered or that a particular product will be prescribed [1, 7]."
+          },
+          "links": {
+            "ar": [{"label": "طلب حجز موعد تقييم طبي", "url": "../patients/booking.html"}],
+            "en": [{"label": "Request a medical assessment", "url": "../patients/booking.html"}]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {"ar": "هل أعمل باقة تحاليل تساقط الشعر كاملة من نفسي؟", "en": "Should I order a complete hair-loss panel myself?"},
+          "a": {
+            "ar": "الأفضل لأ. البداية بالقصة وفحص الفروة بتحدد إذا كانت صورة الدم أو مؤشرات الحديد أو الغدة أو فحوصات تانية هتجاوب سؤالاً حقيقياً. بعض الأسباب تتشخص من النمط، والمنظار أو عينة الفروة قد يكونوا أهم من توسيع تحاليل الدم [1, 5].",
+            "en": "Usually not. History and scalp examination determine whether a blood count, iron measures, thyroid testing or another investigation will answer a real question. Some causes are identified by pattern, and dermoscopy or scalp biopsy may matter more than broad blood testing [1, 5]."
+          }
+        },
+        {
+          "q": {"ar": "لو التحاليل طبيعية، يبقى تساقط الشعر مش حقيقي؟", "en": "If tests are normal, does that mean the hair loss is not real?"},
+          "a": {
+            "ar": "لأ خالص. التساقط الوراثي، الثعلبة، شد الشعر وبعض أمراض الفروة ممكن يكونوا موجودين مع تحاليل دم طبيعية. النتيجة الطبيعية بتجاوب الأسئلة اللي الاختبار معمول عشانها بس؛ شكل التساقط والفحص لسه أساسيين [1, 2, 5].",
+            "en": "No. Inherited loss, alopecia areata, traction and several scalp diseases can occur with normal blood results. A normal result answers only the question that assay was designed to answer; pattern and examination remain essential [1, 2, 5]."
+          }
+        },
+        {
+          "q": {"ar": "هل نقص الحديد هو السبب دايماً؟", "en": "Is iron deficiency always the cause?"},
+          "a": {
+            "ar": "مش دايماً. نقص الحديد احتمال يتقيم حسب الأعراض، النزيف، الأكل والنتائج، لكنه واحد من أسباب كتير وممكن يتزامن مع نمط تاني. ما تبدأش حديد من نفسك؛ الزيادة ممكن تضر ولازم سبب أي نقص يتفهم [1, 13].",
+            "en": "Not always. Iron deficiency is considered according to symptoms, bleeding, intake and results, but it is one of many possibilities and can coexist with another pattern. Do not start iron on your own; excess can harm and the cause of deficiency should be understood [1, 13]."
+          }
+        },
+        {
+          "q": {"ar": "أوقف البيوتين قبل التحليل بكام يوم؟", "en": "How many days before testing should I stop biotin?"},
+          "a": {
+            "ar": "ما تستخدمش رقماً عاماً لكل الحالات. المدة تعتمد على المنتج والكمية والاختبار وطريقة المعمل، وأحياناً التحليل عاجل وما ينفعش يتأجل. قول للطبيب والمعمل كل التفاصيل واتبع تعليماتهم، وما توقفش علاجاً موصوفاً من نفسك [8, 9, 14].",
+            "en": "Do not apply one universal number. Timing depends on the product, amount, assay and laboratory method, and an urgent test may not be delayable. Give the clinician and laboratory all details, follow their instructions and do not stop prescribed treatment independently [8, 9, 14]."
+          }
+        },
+        {
+          "q": {"ar": "هل شامبو أو مكمل ممكن يغني عن معرفة السبب؟", "en": "Can a shampoo or supplement replace finding the cause?"},
+          "a": {
+            "ar": "لأ. الشامبو ممكن يحسن شكل الشعر أو القشور في حالات معينة، لكنه ما يشخصش سبب التساقط ولا يلغي ضرورة التقييم. والمكمل يفيد عند احتياج محدد، بينما بعض العناصر بزيادة ممكن تضر أو تربك التحاليل. اختار عناية لطيفة، وابعد عن الشد والحرارة العالية والخلطات المهيجة لحد ما تتضح الصورة. العلاج بيتحدد بعد معرفة النمط والسبب، وده بيمنع تضييع وقت على منتج مش مناسب [1, 3, 9].",
+            "en": "No. A shampoo may improve appearance or scale in selected situations, but it cannot diagnose the cause. A supplement may help a defined need, while excess nutrients can harm or confuse testing. Treatment follows identification of the pattern and cause [1, 3, 9]."
+          }
+        }
+      ],
+      "sources": [
+        {"label": "American Academy of Dermatology — Hair loss: Diagnosis and treatment", "url": "https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat"},
+        {"label": "American Academy of Dermatology — Hair loss: Who gets and causes", "url": "https://www.aad.org/public/diseases/hair-loss/causes/18-causes"},
+        {"label": "American Academy of Dermatology — Female pattern hair loss", "url": "https://www.aad.org/public/diseases/hair-loss/types/female-pattern"},
+        {"label": "American Academy of Dermatology — Male pattern hair loss", "url": "https://www.aad.org/public/diseases/hair-loss/treatment/male-pattern-hair-loss-treatment"},
+        {"label": "American Academy of Dermatology — Alopecia areata overview", "url": "https://www.aad.org/public/diseases/hair-loss/types/alopecia"},
+        {"label": "NHS — Hair loss", "url": "https://www.nhs.uk/symptoms/hair-loss/"},
+        {"label": "Mayo Clinic — Hair loss: Symptoms and causes", "url": "https://www.mayoclinic.org/diseases-conditions/hair-loss/symptoms-causes/syc-20372926"},
+        {"label": "US FDA — Biotin interference with troponin lab tests", "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference"},
+        {"label": "NIH Office of Dietary Supplements — Biotin: Fact sheet for health professionals", "url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/"},
+        {"label": "American Academy of Dermatology — Hairstyles that pull can lead to hair loss", "url": "https://www.aad.org/public/diseases/hair-loss/causes/hairstyles"},
+        {"label": "Rebora — Telogen effluvium: a comprehensive review (2019)", "url": "https://pubmed.ncbi.nlm.nih.gov/31686886/"},
+        {"label": "MedlinePlus Medical Encyclopedia — Hair loss", "url": "https://medlineplus.gov/ency/article/003246.htm"},
+        {"label": "NIH Office of Dietary Supplements — Iron: Fact sheet for health professionals", "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"},
+        {"label": "Li et al. — AACC Guidance Document on Biotin Interference in Laboratory Tests (2020)", "url": "https://pubmed.ncbi.nlm.nih.gov/32445355/"}
+      ],
+      "seo": {
+        "title": {"ar": "تحاليل تساقط الشعر: إيه المطلوب؟", "en": "Hair-loss blood tests: what is needed?"},
+        "description": {
+          "ar": "دليل عملي يشرح تحاليل تساقط الشعر، وإزاي يحدد الفحص تحاليل الحديد والغدة، وليه لازم تبلغ الطبيب والمعمل عن البيوتين قبل التحليل.",
+          "en": "A practical guide to hair-loss blood tests, how examination guides iron and thyroid testing, and why clinicians and labs need to know about biotin."
+        }
+      }
+    }
+  ]
+}

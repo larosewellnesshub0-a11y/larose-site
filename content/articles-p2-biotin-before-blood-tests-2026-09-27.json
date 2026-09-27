@@ -1,0 +1,173 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of biotin-before-blood-tests; replaces the entry from content/articles.json. Expanded the laboratory-safety update with practical disclosure steps, verified evidence, FAQs, and internal navigation.",
+  "articles": [
+    {
+      "slug": "biotin-before-blood-tests",
+      "type": "update",
+      "published": true,
+      "featured": false,
+      "category": "dermatology",
+      "specialties": ["dermatology", "clinical-nutrition"],
+      "date": "2026-09-03",
+      "updatedAt": "2026-09-27",
+      "readingTime": 7,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/biotin-before-blood-tests.webp",
+      "title": {
+        "ar": "البيوتين قبل التحاليل: ليه لازم تقول للمعمل؟",
+        "en": "Biotin before blood tests: why the laboratory needs to know"
+      },
+      "excerpt": {
+        "ar": "البيوتين الموجود في مكملات شعر وأظافر كتير ممكن يغيّر دقة بعض التحاليل. اعرف إيه اللي تقوله للطبيب والمعمل، وليه ما توقفش أي علاج بالتخمين.",
+        "en": "Biotin in many hair and nail supplements can affect the accuracy of some blood tests. Learn what to tell the clinician and laboratory and why not to stop treatment by guesswork."
+      },
+      "tags": {
+        "ar": ["البيوتين", "تحاليل الدم", "مكملات الشعر", "سلامة التحاليل"],
+        "en": ["biotin", "blood tests", "hair supplements", "laboratory safety"]
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسع التحديث بشرح تداخل البيوتين مع بعض التحاليل وخطوات الإفصاح الآمنة، واتراجع طبياً من جديد.",
+            "en": "The update was expanded to explain biotin interference and safe disclosure steps and was medically re-reviewed."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "why-this-matters",
+          "heading": {"ar": "المشكلة في دقة التحليل، مش اسم الفيتامين", "en": "The issue is test accuracy, not the vitamin's name"},
+          "body": {
+            "ar": "البيوتين فيتامين من مجموعة فيتامينات ب، وموجود طبيعياً في أطعمة كتير، لكنه كمان بيتباع في مكملات منفردة وفي خلطات للشعر والجلد والأظافر. التحذير الطبي مش معناه إن البيوتين سام لكل شخص أو إن الأكل العادي مشكلة. المقصود إن الكمية الإضافية من المكمل ممكن تتداخل مع بعض طرق التحليل المعملي وتخلي الرقم الظاهر أعلى أو أقل من الحقيقة، حسب تصميم الاختبار [1, 2, 3].\n\nهيئة الغذاء والدواء الأمريكية بتقول إن التداخل ممكن يعمل نتائج غير صحيحة ما تتكشفش بسهولة، وذكرت قلقاً خاصاً من بعض اختبارات التروبونين المستخدمة عند الاشتباه في مشكلة بالقلب [1]. ده مهم لأن الطبيب بيتعامل مع النتيجة على إنها معلومة عن جسمك، بينما المشكلة أحياناً بتكون في طريقة القياس بوجود بيوتين إضافي. مفيش داعي للذعر: مش كل اختبار بيتأثر، ومش كل جهاز أو كمية يعملوا نفس التأثير. المطلوب إن المعلومة توصل للطبيب والمعمل قبل سحب العينة أو تفسيرها.",
+            "en": "Biotin is a B vitamin found naturally in many foods and also sold alone or in hair, skin and nail combinations. The medical warning does not mean biotin is toxic to everyone or that ordinary food is a problem. It means supplemental biotin can interfere with some laboratory methods and make the reported value falsely higher or lower, depending on assay design [1, 2, 3].\n\nThe US Food and Drug Administration says this interference can cause incorrect results that may go undetected and has highlighted concern about certain troponin tests used when a heart problem is suspected [1]. That matters because the clinician treats the result as information about your body, while the problem may sometimes be the measurement method in the presence of supplemental biotin. There is no need to panic: not every test is affected, and different analysers and amounts do not behave identically. The practical goal is to ensure the clinician and laboratory know before the sample is drawn or interpreted."
+          }
+        },
+        {
+          "id": "how-interference-happens",
+          "heading": {"ar": "إزاي البيوتين يغيّر رقم المعمل؟", "en": "How can biotin change a laboratory value?"},
+          "body": {
+            "ar": "تحاليل مناعية كتير بتستخدم رابطة بين البيوتين ومادة اسمها ستربتافيدين كجزء من طريقة التقاط المادة اللي بيقيسها الجهاز. لما يبقى فيه بيوتين إضافي في عينة الدم، ممكن يدخل في النظام ده ويشوّش الإشارة. حسب شكل الاختبار، النتيجة ممكن تظهر منخفضة كذباً أو مرتفعة كذباً؛ عشان كده ما ينفعش نفترض إن التداخل له اتجاه واحد [3, 6, 7].\n\nحجم التأثير بيتغير مع كمية المكمل، وقت آخر جرعة، سرعة تخلص الجسم منه، نوع الاختبار والشركة المصنعة للجهاز. إرشاد الجمعية الأمريكية للكيمياء السريرية بيأكد إن تركيز البيوتين اللازم للتداخل مختلف من اختبار لمصنع لآخر، وإن التعاون بين المعمل والطبيب والمريض جزء أساسي من منع الخطأ [3]. هيئة الغذاء والدواء كمان أصدرت إرشاداً للمصنعين عن اختبار قابلية الأجهزة للتداخل وإبلاغ المستخدمين [5]. المعنى العملي بسيط: منشور عام على الإنترنت ما يقدرش يعرف الجهاز اللي هيستخدمه معملك، فالتعليمات لازم تيجي من الجهة اللي طالبة وبتعمل التحليل.",
+            "en": "Many immunoassays use binding between biotin and a substance called streptavidin as part of the system that captures the target being measured. When extra biotin is present in a blood sample, it can enter that system and distort the signal. Depending on assay format, a result may be falsely low or falsely high, so interference cannot be assumed to move every value in one direction [3, 6, 7].\n\nThe size of the effect varies with supplement amount, time since the last dose, clearance, assay and instrument manufacturer. The American Association for Clinical Chemistry guidance stresses that the biotin concentration capable of causing interference differs among tests and manufacturers and that cooperation between laboratory, clinician and patient is central to preventing error [3]. The FDA has also issued guidance for manufacturers on testing devices for interference and communicating findings to users [5]. In practical terms, a general social-media instruction cannot know which analyser your laboratory uses; advice must come from the clinician and laboratory responsible for the test."
+          }
+        },
+        {
+          "id": "which-tests",
+          "heading": {"ar": "أنهي تحاليل ممكن تتأثر؟", "en": "Which tests may be affected?"},
+          "body": {
+            "ar": "المراجع المعملية بتذكر إن التداخل ممكن يحصل في اختبارات مناعية مختلفة، ومنها بعض قياسات الغدة والهرمونات ومؤشرات القلب وغيرها، لكن القائمة تعتمد على المنصة المستخدمة وممكن تتغير لما الشركات تعدّل الاختبارات [1, 3, 6]. جمعية الغدة الدرقية الأمريكية بتوضح إن البيوتين ممكن يخلي بعض نتائج وظائف الغدة تبدو غير طبيعية رغم إن مستوى الهرمون الحقيقي طبيعي [4]. ده سبب إضافي لذكر المكمل بدل محاولة تفسير نتيجة غريبة من نفسك.\n\nوجود اسم تحليل في قائمة عامة مش معناه إن نتيجتك أكيد غلط، وغيابه من قائمة قديمة مش ضمان إن كل الطرق آمنة. المعمل يقدر يراجع نشرة الجهاز وحد التداخل المعروف، والطبيب يقدر يقارن الرقم بالأعراض والنتائج السابقة. لو التحليل عاجل، خصوصاً مع ألم صدر أو أعراض خطيرة، ما تأجلش الرعاية عشان كنت واخد بيوتين؛ قول للمسعف والطبيب والمعمل فوراً وسيبهم يختاروا الطريقة والتصرف المناسب [1, 5]. ولو المشكلة مرتبطة بوظائف الغدة والوزن، دليل قصور الغدة الدرقية والوزن بيوضح ليه التشخيص ما يعتمدش على عرض واحد.",
+            "en": "Laboratory references report that interference can occur in different immunoassays, including selected thyroid and other hormone measurements, cardiac markers and additional tests, but the exact list depends on the platform and can change when manufacturers modify assays [1, 3, 6]. The American Thyroid Association explains that biotin can make several thyroid-function measurements appear abnormal even when the true hormone levels are normal [4]. That is another reason to disclose the supplement instead of trying to interpret an unexpected result yourself.\n\nSeeing a test name on a general list does not prove your result is wrong, while absence from an old list does not guarantee that every method is unaffected. The laboratory can review its analyser information and known interference threshold, and the clinician can compare the value with symptoms and prior results. If testing is urgent, especially with chest pain or dangerous symptoms, do not delay care because you took biotin; immediately tell emergency staff, the clinician and laboratory and let them select the appropriate method and response [1, 5]. If the concern involves thyroid function and weight, the guide to hypothyroidism and weight explains why diagnosis cannot rest on one symptom."
+          },
+          "links": {
+            "ar": [{"label": "قصور الغدة الدرقية والوزن", "url": "../articles/hypothyroidism-and-weight.html"}],
+            "en": [{"label": "hypothyroidism and weight", "url": "../articles/hypothyroidism-and-weight.html"}]
+          }
+        },
+        {
+          "id": "before-the-test",
+          "heading": {"ar": "اعمل إيه قبل سحب العينة؟", "en": "What should you do before the sample is taken?"},
+          "body": {
+            "ar": "راجع كل المكملات اللي بتاخدها، مش العبوة المكتوب عليها بيوتين بس. ممكن تلاقيه ضمن خليط للشعر أو الأظافر، مالتي فيتامين أو منتج له اسم تسويقي ما يوضحش المكونات. صوّر واجهة العبوة وقائمة المكونات، وسجل الكمية المكتوبة ووقت آخر جرعة. قول التفاصيل للطبيب اللي طلب التحليل وللمعمل قبل السحب؛ كلمة «فيتامينات شعر» لوحدها مش كفاية عشان يعرفوا المحتوى [2, 3].\n\nاعمل مراجعة بسيطة قبل الموعد: بص على العبوات الموجودة في البيت، والتقط صورة واضحة للمكونات، واكتب إذا كان المنتج يومي ولا بيتاخد على فترات. لو الاسم مختلف عن آخر زيارة أو الكمية اتغيرت، وضح ده. ما تعتمدش على الذاكرة، وما تفترضش إن المكمل غير مهم عشان اتباع من غير روشتة. المعلومة دي بتساعد المعمل يراجع حساسية الاختبار، وبتساعد الطبيب يفسر أي اختلاف عن الأعراض أو النتايج القديمة [3, 7].\n\nما توقفش دواء أو مكمل موصوف لحالة طبية بالتخمين، وما تختارش مدة توقف من تجربة شخص تاني. بعض الجهات بتذكر فترات محددة لاختبارات معينة، لكن المدة المناسبة تتأثر بالكمية وطريقة القياس ووظائف الجسم ومدى استعجال الفحص، والإرشاد المعملي نفسه بيطلب تواصلاً مباشراً لما يكون فيه احتمال تداخل [3, 13]. لو نسيت وكنت أخدت الجرعة، اذكر المعلومة وما تلغي الموعد بشكل تلقائي. اتصل بالجهة الطالبة أو بلغ المعمل عند الوصول؛ هم يقرروا هل يسحبوا العينة، يؤجلوا اختباراً بعينه، أو يستخدموا طريقة بديلة.",
+            "en": "Review every supplement you take, not only a bottle labelled biotin. It may appear inside a hair or nail combination, multivitamin or branded product whose front label does not reveal the ingredients. Photograph the front and ingredient panel and record the listed amount and time of the last dose. Give those details to both the requesting clinician and laboratory before collection; saying only “hair vitamins” does not identify the contents [2, 3].\n\nDo not stop a medicine or supplement prescribed for a medical condition by guesswork, and do not copy another person's stopping interval. Some organizations provide time windows for particular tests, but the appropriate interval varies with amount, measurement method, body clearance and urgency, while laboratory guidance calls for direct communication when interference is possible [3, 13]. If you forgot and already took it, do not hide that information or automatically cancel the appointment. Contact the requesting service or tell the laboratory on arrival; they decide whether to collect, postpone a particular assay or use an alternative method."
+          }
+        },
+        {
+          "id": "after-an-unexpected-result",
+          "heading": {"ar": "لو النتيجة مش راكبة على الأعراض", "en": "When a result does not fit the symptoms"},
+          "body": {
+            "ar": "أحياناً رقم يطلع مختلف جداً عن التحاليل القديمة أو ما يفسرش حالة الشخص. ده ما يثبتش إن البيوتين هو السبب، لكنه سبب لازم يتذكر ضمن احتمالات الخطأ المعملي لو الشخص بياخد مكمل. الإرشادات المنشورة بتقترح إن المعمل والطبيب يراجعوا نوع الاختبار والتوقيت، وقد يلجأوا لإعادة التحليل بعد وقت مناسب أو لمنصة مختلفة، حسب الحالة [3, 13]. القرار ده مهني؛ ما تعالجش الرقم بنفسك ولا تكرر فحوصات كتير في معامل مختلفة من غير تنسيق.\n\nقبل بدء دواء جديد أو تغيير جرعة علاج مزمن بسبب نتيجة مفاجئة، تأكد إن الطبيب عارف كل المكملات. احتفظ بصورة للعبوة حتى لو خلصت، لأن الاسم التجاري وحده ممكن يتغير بينما المكونات هي المهمة. لو التحليل كان متعلقاً بتساقط الشعر، ارجع خطوة للخلف: شكل التساقط وفحص الفروة والتاريخ هم اللي يحددوا معنى النتائج. دليل تحاليل تساقط الشعر بيشرح اختيار الاختبارات الموجهة بدل الباقة العشوائية [9]. ولو فيه اشتباه في نتيجة قلبية خاطئة مع أعراض طارئة، الأولوية للرعاية العاجلة وليس انتظار إعادة روتينية [1].",
+            "en": "A value may occasionally differ greatly from earlier tests or fail to fit the person's clinical condition. This does not prove biotin caused it, but supplement use should be considered among possible laboratory interferences. Published guidance suggests that the laboratory and clinician review assay type and timing and may repeat testing after an appropriate interval or on a different platform, depending on the situation [3, 13]. That is a professional decision; do not treat the number yourself or order many uncoordinated repeats from different laboratories.\n\nBefore starting a new medicine or changing long-term treatment because of a surprising result, make sure the clinician knows about every supplement. Keep a photograph even after the pack is finished because brand names can change while ingredients are what matter. If the test concerned hair loss, step back to the clinical question: pattern, scalp examination and history determine what results mean. The guide to hair-loss blood tests explains targeted selection instead of a random panel [9]. If a possibly affected cardiac result occurs alongside emergency symptoms, urgent care takes priority over waiting for routine repeat testing [1]."
+          },
+          "links": {
+            "ar": [{"label": "تحاليل تساقط الشعر", "url": "../articles/hair-loss-blood-tests-first.html"}],
+            "en": [{"label": "hair-loss blood tests", "url": "../articles/hair-loss-blood-tests-first.html"}]
+          }
+        },
+        {
+          "id": "biotin-and-hair",
+          "heading": {"ar": "هل البيوتين حل لتساقط الشعر؟", "en": "Is biotin a solution for hair loss?"},
+          "body": {
+            "ar": "نقص البيوتين الحقيقي ممكن يكون له أعراض في الشعر والجلد والأعصاب، لكنه نادر. ورقة المعاهد الوطنية للصحة بتقول إن الادعاءات الشائعة عن تحسين الشعر والجلد والأظافر عند الناس عموماً مدعومة بعدد محدود من التقارير، ومفيش تجارب قوية كفاية تثبت فائدة عامة للمكمل عند غياب النقص [2]. عشان كده وجود تساقط ما يساويش تلقائياً احتياج لبيوتين، والجرعة الكبيرة مش معناها نتيجة أحسن.\n\nتساقط الشعر له أسباب كتير: نمط وراثي، تساقط كربي بعد مرض أو ضغط، بقع مناعية، شد متكرر، التهاب فروة، دواء، أو مشكلة صحية وغذائية. الأكاديمية الأمريكية للأمراض الجلدية بتبدأ التقييم بالقصة والفحص، وتوصي بالمكملات عند ثبوت احتياج بدل الاستخدام العشوائي [9, 10]. لو التساقط منتشر بعد حدث واضح، اقرأ عن التساقط المفاجئ بعد مرض أو ضغط، لكن خليه شرحاً للنمط مش تشخيصاً ذاتياً. المنتج اللي يحسن شكل الشعرة ما يعالجش بالضرورة سبب سقوطها من البصيلة، وكثرة المكملات ممكن تضيف تداخلات من غير فائدة مؤكدة.",
+            "en": "True biotin deficiency can cause hair, skin and neurological symptoms, but it is rare. The National Institutes of Health fact sheet says popular claims about improving hair, skin and nails in the general population rest on only limited reports, without sufficient strong trials to establish a general benefit when deficiency is absent [2]. Hair shedding therefore does not automatically equal a need for biotin, and a larger amount does not mean a better result.\n\nHair loss has many causes: inherited pattern loss, telogen effluvium after illness or stress, immune-mediated patches, repeated traction, scalp inflammation, medicines, or a medical or nutritional problem. The American Academy of Dermatology starts with history and examination and recommends supplements for a demonstrated need rather than random use [9, 10]. If shedding is diffuse after a clear event, read about sudden hair shedding after illness or stress, but use it to understand the pattern rather than diagnose yourself. A product that improves the look of the shaft does not necessarily treat loss from the follicle, and multiple supplements can add interference without proven benefit."
+          },
+          "links": {
+            "ar": [{"label": "التساقط المفاجئ بعد مرض أو ضغط", "url": "../articles/telogen-effluvium-sudden-hair-shedding.html"}],
+            "en": [{"label": "sudden hair shedding after illness or stress", "url": "../articles/telogen-effluvium-sudden-hair-shedding.html"}]
+          }
+        },
+        {
+          "id": "next-step",
+          "heading": {"ar": "خطوة عملية وآمنة", "en": "A practical and safe next step"},
+          "body": {
+            "ar": "اعمل قائمة واحدة فيها كل دواء ومكمل، سبب استخدامه، الكمية المكتوبة ووقت آخر جرعة. خليك محتفظ بصور العبوات على الموبايل وحدّثها لما المنتج يتغير. قبل أي تحليل، اسأل سؤالاً مباشراً: هل أي مكوّن في قائمتي ممكن يؤثر على الطريقة اللي المعمل بيستخدمها؟ لو فيه تعليمات، اطلبها مكتوبة عشان ما تعتمدش على الذاكرة. وفي الطوارئ قول عن البيوتين من غير ما تؤخر الفحص [1, 3, 5].\n\nلو بدأت المكمل عشان تساقط الشعر، د. مهاب أشرف يقدر يراجع الأعراض العامة، التحاليل والأدوية، ويوجهك لجلدية لما شكل الفروة أو النمط محتاج تخصصاً. الهدف مش منع كل المكملات ولا طلب كل التحاليل؛ الهدف إن القرار يتبني على معلومة كاملة ونتيجة موثوقة. طلب حجز موعد مراجعة طبية مناسب لو النتيجة غير متوقعة، لو فيه علاج هيتغير بسببها، أو لو التساقط مستمر ومش مفهوم [8, 9].",
+            "en": "Keep one list of every medicine and supplement, why you use it, the labelled amount and time of the last dose. Store package photographs on your phone and update them when a product changes. Before testing, ask directly whether anything on your list can affect the method used by that laboratory. If there are instructions, request them in writing rather than relying on memory. In an emergency, disclose biotin without delaying assessment [1, 3, 5].\n\nIf you began the supplement for hair loss, Dr Mohab Ashraf can review general symptoms, laboratory results and medicines and direct you to dermatology when the scalp appearance or pattern needs that specialty. The aim is not to ban all supplements or order every test; it is to make decisions from complete information and reliable results. Request a medical review when a result is unexpected, treatment may change because of it, or shedding remains unexplained [8, 9]."
+          },
+          "links": {
+            "ar": [{"label": "طلب حجز موعد مراجعة طبية", "url": "../patients/booking.html"}],
+            "en": [{"label": "Request a medical review", "url": "../patients/booking.html"}]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {"ar": "هل البيوتين يبوظ كل تحاليل الدم؟", "en": "Does biotin affect every blood test?"},
+          "a": {
+            "ar": "لأ. التأثير مرتبط باختبارات معينة بتستخدم تقنيات حساسة للبيوتين، وبيختلف حسب الجهاز والكمية والتوقيت. ما تفترضش إن كل نتيجة غلط أو آمنة؛ اذكر المكمل للطبيب والمعمل عشان يراجعوا الطريقة المستخدمة [1, 3, 5].",
+            "en": "No. Interference is linked to selected assays that use biotin-sensitive technology and varies by instrument, amount and timing. Do not assume every result is wrong or unaffected; disclose the supplement so the clinician and laboratory can review the method [1, 3, 5]."
+          }
+        },
+        {
+          "q": {"ar": "هل البيوتين نفسه بيغيّر هرمونات الغدة؟", "en": "Does biotin itself change thyroid hormone levels?"},
+          "a": {
+            "ar": "التحذير هنا عن قياس المعمل: البيوتين ممكن يخلي بعض نتائج وظائف الغدة تبدو غير طبيعية وهي مش ممثلة للمستوى الحقيقي. الطبيب يقارن النتيجة بالأعراض ويعرف طريقة التحليل قبل أي تغيير في العلاج [4, 6].",
+            "en": "The warning here concerns laboratory measurement: biotin can make certain thyroid-function results look abnormal without reflecting the true level. The clinician compares the result with symptoms and the assay method before changing treatment [4, 6]."
+          }
+        },
+        {
+          "q": {"ar": "أوقف البيوتين قد إيه قبل التحليل؟", "en": "How long should I stop biotin before a test?"},
+          "a": {
+            "ar": "مفيش مدة واحدة تنفع لكل منتج واختبار. الكمية، وقت آخر جرعة، نوع الجهاز واستعجال التحليل كلهم بيفرقوا. اسأل الطبيب والمعمل واتبع تعليماتهم؛ ما توقفش علاجاً موصوفاً ولا تؤجل تحليلاً عاجلاً من نفسك [3, 13].",
+            "en": "There is no single interval for every product and assay. Amount, last-dose timing, analyser and urgency all matter. Ask the clinician and laboratory and follow their instructions; do not stop prescribed treatment or delay an urgent test independently [3, 13]."
+          }
+        },
+        {
+          "q": {"ar": "لو عملت التحليل ونسيت أقول عن البيوتين، أعمل إيه؟", "en": "What if I forgot to mention biotin before testing?"},
+          "a": {
+            "ar": "اتصل بالطبيب أو المعمل وقل اسم المنتج والكمية ووقت آخر جرعة. ما تعتبرش النتيجة باطلة تلقائياً وما تعيدهاش من نفسك؛ هم يراجعوا الاختبار والسياق ويقرروا لو محتاج إعادة بتوقيت أو طريقة مختلفة [3, 7].",
+            "en": "Contact the clinician or laboratory with the product name, amount and time of the last dose. Do not automatically discard or repeat the result yourself; they review the assay and context and decide whether repetition at another time or by another method is needed [3, 7]."
+          }
+        },
+        {
+          "q": {"ar": "هل آخد بيوتين لمجرد إن شعري بيقع؟", "en": "Should I take biotin simply because my hair is shedding?"},
+          "a": {
+            "ar": "مش تلقائياً. نقص البيوتين نادر، والدليل على فائدة المكمل للشعر عند غياب النقص محدود. افهم نمط التساقط وافحص الفروة، وراجع الأكل والأدوية والتغييرات الصحية القريبة، وبعدها يتحدد لو فيه نقص أو سبب تاني محتاج علاج مختلف. كده تتجنب مكمل مش لازم وتأخير التشخيص الحقيقي [2, 9, 10].",
+            "en": "Not automatically. Biotin deficiency is rare, and evidence for hair benefit without deficiency is limited. Identify the pattern and examine the scalp first; then determine whether there is a deficiency or another cause needing different care [2, 9, 10]."
+          }
+        }
+      ],
+      "sources": [
+        {"label": "US FDA — Biotin interference with troponin lab tests", "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference"},
+        {"label": "NIH Office of Dietary Supplements — Biotin: Fact sheet for health professionals", "url": "https://ods.od.nih.gov/factsheets/Biotin-HealthProfessional/"},
+        {"label": "Li et al. — AACC Guidance Document on Biotin Interference in Laboratory Tests (2020)", "url": "https://pubmed.ncbi.nlm.nih.gov/32445355/"},
+        {"label": "American Thyroid Association — Thyroid Function Tests", "url": "https://www.thyroid.org/thyroid-function-tests/"},
+        {"label": "US FDA — Testing for Biotin Interference in In Vitro Diagnostic Devices", "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/testing-biotin-interference-in-vitro-diagnostic-devices"},
+        {"label": "Samarasinghe et al. — Biotin Interference with Routine Clinical Immunoassays (2017)", "url": "https://pubmed.ncbi.nlm.nih.gov/28534685/"},
+        {"label": "Colon and Greene — Biotin Interference in Clinical Immunoassays (2018)", "url": "https://pubmed.ncbi.nlm.nih.gov/33636825/"},
+        {"label": "MedlinePlus Medical Encyclopedia — Hair loss", "url": "https://medlineplus.gov/ency/article/003246.htm"},
+        {"label": "American Academy of Dermatology — Hair loss: Diagnosis and treatment", "url": "https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat"},
+        {"label": "NHS — Hair loss", "url": "https://www.nhs.uk/symptoms/hair-loss/"},
+        {"label": "Mayo Clinic — Hair loss: Symptoms and causes", "url": "https://www.mayoclinic.org/diseases-conditions/hair-loss/symptoms-causes/syc-20372926"},
+        {"label": "Kaczorowska-Hac et al. — Effect of biotin interference on blood hormone assays (2019)", "url": "https://pubmed.ncbi.nlm.nih.gov/30855699/"},
+        {"label": "Trambas et al. — Best practices in mitigating biotin interference (2019)", "url": "https://pubmed.ncbi.nlm.nih.gov/31473202/"}
+      ],
+      "seo": {
+        "title": {"ar": "البيوتين قبل التحاليل: مهم تقول للمعمل", "en": "Biotin before blood tests: tell the lab"},
+        "description": {
+          "ar": "اعرف إزاي البيوتين في مكملات الشعر ممكن يغيّر بعض نتائج التحاليل، وإيه المعلومات اللي تقولها للطبيب والمعمل قبل سحب العينة.",
+          "en": "Learn how biotin in hair supplements can alter some blood-test results and what information to give your clinician and laboratory before testing."
+        }
+      }
+    }
+  ]
+}

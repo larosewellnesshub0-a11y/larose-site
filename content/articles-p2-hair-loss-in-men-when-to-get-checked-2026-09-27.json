@@ -1,0 +1,154 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of hair-loss-in-men-when-to-get-checked; replaces the entry from articles.json. Expanded the differential diagnosis, examination pathway, safety guidance, FAQs, citations, and internal navigation.",
+  "articles": [
+    {
+      "slug": "hair-loss-in-men-when-to-get-checked",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "dermatology",
+      "specialties": ["dermatology", "internal-medicine", "clinical-nutrition"],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 8,
+      "author": "shimaa-fouad",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/hair-loss-blood-tests-first.webp",
+      "title": {
+        "ar": "تساقط الشعر عند الرجال: إمتى يحتاج كشف؟",
+        "en": "Hair loss in men: when should you get checked?"
+      },
+      "excerpt": {
+        "ar": "تراجع خط الشعر بالتدريج شائع، لكن التساقط المفاجئ أو البقع أو التهاب فروة الرأس محتاجين تقييم مختلف. اعرف شكل الصلع الوراثي، العلامات اللي تستاهل كشف، وإزاي الطبيب بيفرق بين الأسباب.",
+        "en": "Gradual hairline recession is common, but sudden shedding, patches, or an inflamed scalp need a different assessment. Learn the pattern of hereditary loss, the signs worth checking, and how clinicians separate possible causes."
+      },
+      "tags": {
+        "ar": ["تساقط الشعر عند الرجال", "الصلع الوراثي", "تراجع خط الشعر", "كشف فروة الرأس", "أسباب تساقط الشعر"],
+        "en": ["hair loss in men", "male pattern hair loss", "receding hairline", "scalp examination", "hair loss causes"]
+      },
+      "sections": [
+        {
+          "id": "pattern-and-pace",
+          "heading": {"ar": "الشكل والسرعة أهم من عدد الشعرات", "en": "Pattern and pace matter more than a hair count"},
+          "body": {
+            "ar": "تساقط الشعر عند الرجال مش تشخيص واحد. الصلع الوراثي، أو تساقط الشعر النمطي، غالبًا بيبدأ بالتدريج عند الصدغين أو بخفة في قمة الرأس، وبعدها خط الشعر ممكن يرجع لورا على شكل واضح. البصيلات في المناطق دي بتنتج شعر أرفع وأقصر مع الوقت، بينما جوانب الرأس وخلفه غالبًا يفضلوا أكثف. وجود نفس الشكل في العيلة بيدعم الاحتمال، بس وراثة الحالة مش جاية من ناحية واحدة من الأسرة ومش معناها إن مسار كل شخص هيكون زي قريبه [1, 6, 9].\n\nالمهم تلاحظ الاتجاه على شهور، مش تحكم من يوم واحد أو من شعر موجود في البانيو. الإضاءة، طول الشعر، وطريقة التسريح ممكن يغيروا الشكل جدًا. صور كل شهرين أو تلاتة من قدام وفوق والجنب، في نفس النور ونفس المسافة، ممكن تساعد الطبيب يشوف هل فيه تقدم حقيقي. أما خصل كتير بتنزل فجأة، بقعة ظهرت بسرعة، أو شعر بيتكسر بدل ما يقع من الجذر، فدول مش الشكل المعتاد للصلع الوراثي وبيفتحوا أسباب تانية [2, 3, 5, 7].\n\nلو عايز تفهم الفرق بين التساقط التدريجي والتحاليل الموجهة، مقال تحاليل تساقط الشعر: نبدأ بإيه؟ بيوضح ليه شكل المشكلة بييجي قبل قائمة التحاليل. ولو التساقط منتشر وبدأ بعد مرض أو ضغط، دليل التساقط الكربي المفاجئ بيفصل النمط ده من غير ما يفترض التشخيص من الصورة وحدها [2, 5, 8].",
+            "en": "Hair loss in men is not one diagnosis. Hereditary or male pattern hair loss usually develops gradually at the temples or crown, and the hairline may recede in a recognizable shape. Follicles in those areas produce progressively finer, shorter hairs, while the sides and back often remain denser. A similar pattern in relatives supports the possibility, but inheritance is not limited to one side of the family and does not mean that every relative follows the same course [1, 6, 9].\n\nWhat matters is the trend across months, not one day or the hairs seen in the shower. Lighting, hair length, and styling can change the appearance substantially. Photographs every few months from the front, crown, and sides, using the same light and distance, can help a clinician judge true progression. By contrast, handfuls of sudden shedding, a rapidly appearing patch, or hair breaking along the shaft do not fit the usual pattern and raise different possibilities [2, 3, 5, 7].\n\nIf you want to understand why pattern comes before a laboratory list, Hair-loss blood tests: what should come first? explains targeted testing. If shedding is diffuse and began after illness or stress, Sudden telogen effluvium discusses that pattern without trying to diagnose it from a photograph alone [2, 5, 8]."
+          },
+          "links": {
+            "ar": [
+              {"label": "تحاليل تساقط الشعر: نبدأ بإيه؟", "url": "../articles/hair-loss-blood-tests-first.html"},
+              {"label": "التساقط الكربي المفاجئ", "url": "../articles/telogen-effluvium-sudden-hair-shedding.html"}
+            ],
+            "en": [
+              {"label": "Hair-loss blood tests: what should come first?", "url": "../articles/hair-loss-blood-tests-first.html"},
+              {"label": "Sudden telogen effluvium", "url": "../articles/telogen-effluvium-sudden-hair-shedding.html"}
+            ]
+          }
+        },
+        {
+          "id": "signs-not-pattern-loss",
+          "heading": {"ar": "علامات بتقول إن القصة مش مجرد صلع وراثي", "en": "Clues that this may not be simple pattern loss"},
+          "body": {
+            "ar": "الصلع الوراثي المعتاد بيكون تدريجي ومن غير ألم أو التهاب واضح. عشان كده بقع دائرية ناعمة ظهرت فجأة، فقدان في اللحية أو الحواجب، أو تغييرات في الأظافر يستاهلوا كشف؛ الصلع البقعي حالة مناعية ممكن تصيب شعر الرأس أو الوجه ومسارها مش متوقع من شخص للتاني [10, 11]. القشور اللي بتنتشر مع شعر مكسور واحمرار أو تورم ممكن تشير لعدوى أو التهاب، والطبيب هو اللي يفرق بالفحص بدل تجربة كريمات أو زيوت عشوائية [3, 7].\n\nبرضه الحكة الشديدة، الحرقان، الوجع، الصديد، أو جلد ناعم لامع كأنه اتندب علامات مهمة. بعض أنواع الالتهاب الندبي ممكن تضر البصيلة بصورة دائمة، فالتأخير هنا أهم من شكل خط الشعر نفسه. شد الشعر المستمر، التسريحات المحكمة، والاحتكاك المتكرر ممكن يعملوا فقدانًا مختلفًا؛ استمرار الشد لوقت طويل ممكن يخلي الرجوع أصعب [3, 4].\n\nافتكر إن المشكلة ممكن تكون أكتر من نمط في نفس الوقت. راجل عنده صلع وراثي تدريجي ممكن يمر كمان بتساقط منتشر بعد حرارة عالية أو عملية، أو يكون عنده التهاب في الفروة. وجود تاريخ عائلي ما يلغيّش العلامات الجديدة، وما ينفعش تستخدمه كسبب لتأجيل الكشف لو الشكل أو السرعة اتغيروا [2, 5, 7].",
+            "en": "Typical hereditary loss is gradual and does not usually cause obvious pain or inflammation. Smooth round patches that appear suddenly, loss in the beard or eyebrows, or nail changes deserve examination because alopecia areata is an immune-mediated condition that can affect scalp or facial hair and follows an unpredictable course [10, 11]. Spreading scale with broken hairs, redness, or swelling can suggest infection or inflammation; examination is safer than trying random creams or oils [3, 7].\n\nSevere itch, burning, pain, discharge, or smooth shiny skin that appears scarred are also important. Some inflammatory scarring disorders can permanently damage follicles, so delay matters more than the cosmetic shape of the hairline. Repeated pulling, tight styling, or friction can create a different form of loss, and prolonged traction can eventually make regrowth less likely [3, 4].\n\nMore than one pattern can occur together. A man with gradual hereditary thinning can also develop diffuse shedding after a high fever or operation, or have a separate scalp disorder. Family history does not cancel new warning signs and should not be used to postpone assessment when the shape or speed changes [2, 5, 7]."
+          }
+        },
+        {
+          "id": "diffuse-shedding-health",
+          "heading": {"ar": "التساقط المنتشر ممكن يعكس تغيير في الجسم", "en": "Diffuse shedding can reflect a change elsewhere in the body"},
+          "body": {
+            "ar": "لما الكثافة تقل في الفروة كلها بدل الصدغين والقمة بس، الطبيب بيسأل عن الشهور اللي سبقت البداية. مرض مع حرارة، عملية، ضغط جسدي أو نفسي شديد، نزول وزن سريع، أكل قليل لفترة، أو دواء جديد ممكن يسبقوا تساقطًا منتشرًا. التساقط الكربي عادة بيبان بعد الحدث بمدة، وده سبب إن الربط بين آخر شامبو وبين التساقط ممكن يكون مضلل [5, 7, 9, 12].\n\nأعراض الجسم بتفرق. التعب الملحوظ، الشحوب، الدوخة، الخفقان، تغير الوزن من غير قصد، حساسية شديدة للبرد أو الحر، أو أعراض هضمية تستاهل تتقال للطبيب. بعض الحالات زي نقص الحديد أو اضطراب الغدة الدرقية ممكن تدخل في الاحتمالات، لكن وجود تساقط وحده ما يثبتش أي نقص. التحاليل الصح بتتحدد من التاريخ والفحص، ومش كل راجل محتاج نفس القائمة [2, 8, 12].\n\nراجع كل الأدوية والمكملات بصدق، بما فيها اللي بتاخده من غير روشتة أو للجيم. بعض الأدوية والمكملات ممكن ترتبط بالتساقط، والزيادة في عناصر معينة مش حل آمن وقد تزود المشكلة. ما توقفش علاج موصوف فجأة؛ الطبيب اللي وصفه يوازن التوقيت والفائدة والمخاطر ويقرر هل فيه بديل [3, 4, 5, 7].",
+            "en": "When density falls across the whole scalp rather than mainly at the temples and crown, the clinician asks about the months before it began. Feverish illness, surgery, major physical or emotional strain, rapid weight loss, prolonged restricted eating, or a new medicine can precede diffuse shedding. Telogen effluvium often becomes visible after the trigger, which is why blaming the most recent shampoo can be misleading [5, 7, 9, 12].\n\nGeneral symptoms matter. Marked fatigue, pallor, dizziness, palpitations, unintended weight change, pronounced cold or heat intolerance, or digestive symptoms should be mentioned. Conditions such as iron deficiency or thyroid disease can enter the differential, but shedding alone does not prove any deficiency. Appropriate tests are selected from the history and examination; every man does not need the same panel [2, 8, 12].\n\nReview all medicines and supplements honestly, including nonprescription and gym products. Some medicines and supplements can be associated with loss, while excessive intake of certain nutrients is not a safe solution and may worsen the problem. Do not stop prescribed treatment abruptly; the prescriber should weigh the timing, benefits, risks, and possible alternatives [3, 4, 5, 7]."
+          }
+        },
+        {
+          "id": "what-happens-at-check",
+          "heading": {"ar": "إيه اللي بيحصل في الكشف؟", "en": "What happens during an assessment?"},
+          "body": {
+            "ar": "الكشف الجيد بيبدأ بحكاية مرتبة: إمتى لاحظت التغيير، هل بدأ فجأة ولا بالتدريج، أنهي مناطق اتأثرت، وهل فيه حكة أو ألم. الطبيب بيسأل عن العيلة، الأمراض والعمليات الحديثة، نمط الأكل وتغير الوزن، روتين الشعر، وكل دواء ومكمل. بعد كده بيفحص خط الشعر والقمة والجوانب، فروة الرأس، الشعرة نفسها، وأحيانًا الحواجب واللحية والأظافر [2, 8, 11].\n\nممكن يعمل اختبار شد بسيط عشان يشوف هل فيه تساقط نشط، ويستخدم تكبير أو منظار جلد عشان يقارن سمك الشعر وفتحات البصيلات. كتير من حالات الصلع الوراثي الواضحة بتتحدد بالتاريخ والشكل من غير تحاليل واسعة. لو النمط مش معتاد، أو فيه التهاب أو أعراض عامة، ممكن الطبيب يطلب تحاليل دم موجهة، فحصًا للشعرة، اختبارًا للعدوى، أو عينة صغيرة من الفروة [2, 8, 9].\n\nالهدف مش اسم سريع ولا أكبر عدد من التحاليل؛ الهدف إن كل خطوة تجاوب سؤالًا وتغير قرارًا. خُد صور قديمة لو موجودة، واكتب توقيت الأحداث الصحية والأدوية. مقال البيوتين قبل التحاليل مهم لو بتستخدم مكمل شعر، لأن المكمل ده ممكن يتداخل مع بعض نتائج المعمل ولازم يتقال للطبيب والمعمل [2, 8].",
+            "en": "A useful assessment starts with an organized story: when the change was noticed, whether it was sudden or gradual, which areas are involved, and whether itch or pain is present. The clinician asks about family history, recent illness or surgery, eating pattern and weight change, hair practices, and every medicine or supplement. Examination then covers the hairline, crown, sides, scalp, hair shafts, and sometimes the eyebrows, beard, and nails [2, 8, 11].\n\nA gentle pull test may show whether active shedding is present, while magnification or a dermatoscope can compare shaft thickness and follicle openings. Many clear cases of male pattern loss can be recognized from history and pattern without broad laboratory testing. If the pattern is atypical, inflamed, or accompanied by general symptoms, targeted blood tests, hair examination, infection testing, or a small scalp biopsy may be considered [2, 8, 9].\n\nThe goal is not a quick label or the largest test panel; each step should answer a question and change a decision. Bring older photographs if available and note the timing of illnesses and medicines. Biotin before blood tests is important reading if you use a hair supplement, because biotin can interfere with some laboratory results and should be disclosed to the clinician and laboratory [2, 8]."
+          },
+          "links": {
+            "ar": [{"label": "البيوتين قبل التحاليل", "url": "../articles/biotin-before-blood-tests.html"}],
+            "en": [{"label": "Biotin before blood tests", "url": "../articles/biotin-before-blood-tests.html"}]
+          }
+        },
+        {
+          "id": "treatment-decisions",
+          "heading": {"ar": "العلاج بيتحدد بعد النوع والتوقعات", "en": "Treatment depends on the diagnosis and realistic expectations"},
+          "body": {
+            "ar": "مش كل تساقط محتاج علاج، ومش كل علاج ينفع لكل سبب. لو النمط وراثي والطبيب أكد التشخيص، ممكن يناقش المينوكسيديل الموضعي؛ ممكن يساعد بعض الرجال على إبطاء الفقد أو تحسين النمو، لكنه مش بيرجع كل الشعر، ممكن يهيّج الفروة، وفائدته عادة بتحتاج استمرار الاستخدام. الاختيار لازم يراعي حالة الجلد والأدوية والتوقعات [1, 8, 9, 12].\n\nالطبيب قد يفكر في فيناسترايد كعلاج موصوف لبعض الرجال بعد مناقشة الفوائد والآثار المحتملة، ومنها آثار جنسية أو مزاجية عند بعض الناس. الست الحامل أو اللي ممكن تكون حامل ما تلمسش الأقراص المكسورة أو المطحونة. القرار هنا فردي ومحتاج متابعة، ومش مناسب تبدأه من نصيحة على الإنترنت أو من شخص تاني [1, 8]. إجراءات زي زراعة الشعر أو حقن البلازما ليها تقييمات وحدود ومخاطر وتكاليف علاجية مختلفة، ومفيش إجراء يوقف تقدم النمط الوراثي تلقائيًا [1, 8, 9].\n\nلو السبب التهابًا، عدوى، صلعًا بقعيًا، نقصًا مثبتًا، أو دواءً، الخطة مختلفة تمامًا. عشان كده شراء مجموعة منتجات قبل معرفة النوع ممكن يضيع وقت ويهيّج الجلد. الطبيب يشرح اللي ممكن يتحسن، المدة الواقعية للمراجعة، علامات التوقف، وإمتى يعيد تقييم التشخيص [2, 3, 10, 11].",
+            "en": "Not every episode requires treatment, and no treatment fits every cause. If examination confirms hereditary loss, a clinician may discuss topical minoxidil. It can help some men slow loss or improve growth, but it does not restore every hair, can irritate the scalp, and its benefit generally depends on continued use. Choice should reflect scalp condition, other medicines, and realistic expectations [1, 8, 9, 12].\n\nA doctor may consider prescription finasteride for selected men after discussing potential benefits and adverse effects, including possible sexual or mood effects in some people. A woman who is pregnant or could become pregnant should not handle crushed or broken tablets. This is an individual, monitored decision, not something to start from an online tip or another person's prescription [1, 8]. Procedures such as transplantation or platelet-rich plasma have separate assessments, limitations, and risks, and a procedure does not automatically stop hereditary loss from progressing [1, 8, 9].\n\nIf the cause is inflammation, infection, alopecia areata, a confirmed deficiency, or a medicine, the plan is entirely different. Buying a bundle of products before identifying the type can waste time and irritate skin. The clinician should explain what may improve, a realistic review interval, stopping signs, and when the diagnosis needs reconsideration [2, 3, 10, 11]."
+          }
+        },
+        {
+          "id": "safe-care",
+          "heading": {"ar": "عناية هادية من غير وعود", "en": "Gentle care without miracle claims"},
+          "body": {
+            "ar": "وأنت مستني التقييم، عامل الشعر اللي خف على إنه هش. استخدم شامبو لطيف يناسب الفروة وبلسم يقلل التشابك، ونشف من غير فرك قوي. قلل السشوار السخن، الفرد والصبغات المتكررة، والتسريحات أو أغطية الرأس اللي بتشد الشعر. التمشيط الهادي مش هيوقف الصلع الوراثي، لكنه يقلل التكسر والضغط الإضافي [4].\n\nكل أكل متنوع وكفاية بدل ما تبدأ جرعات عشوائية من مكملات الشعر. البروتين والحديد وعناصر تانية مهمة للصحة، لكن المكمل يفيد لما يكون فيه احتياج حقيقي أو نقص مثبت. جرعات زائدة من بعض العناصر ممكن تزود التساقط، وكلمة طبيعي مش معناها آمن. لو الأكل محدود، الوزن بينزل بسرعة، أو عندك مرض مزمن، ناقش ده مع طبيب أو مختص تغذية [3, 4, 12].\n\nالتساقط ممكن يأثر على الثقة والمزاج حتى لو مش خطر جسدي. ده سبب كافي إنك تتكلم عنه من غير إحراج. تغطية المنطقة، تغيير التسريحة، أو اختيار عدم العلاج قرارات شخصية محترمة. ما فيش علاج مضمون لكل شخص، وأي إعلان يعد بنتيجة مؤكدة أو فورية لازم يتاخد بحذر [1, 9, 12].",
+            "en": "While awaiting assessment, treat thinning hair as fragile. Use a gentle shampoo suitable for the scalp and conditioner to reduce tangling, and dry without forceful rubbing. Reduce high heat, repeated chemical processing, and styles or headwear that pull. Gentle grooming will not stop hereditary loss, but it can reduce breakage and added stress [4].\n\nChoose adequate, varied food rather than random high-dose hair supplements. Protein, iron, and other nutrients matter for health, but supplementation is useful when there is a genuine need or confirmed deficiency. Excessive amounts of some nutrients can worsen loss, and “natural” does not mean harmless. If intake is restricted, weight is falling rapidly, or chronic illness is present, discuss this with a clinician or nutrition professional [3, 4, 12].\n\nHair loss can affect confidence and mood even when it is not physically dangerous. That is a valid reason to discuss it without embarrassment. Covering an area, changing style, or choosing no treatment are all legitimate personal decisions. No therapy is guaranteed for every person, so claims of certain or instant results deserve caution [1, 9, 12]."
+          }
+        },
+        {
+          "id": "when-to-book",
+          "heading": {"ar": "إمتى تحجز، وإمتى تستعجل؟", "en": "When to book, and when to seek faster care"},
+          "body": {
+            "ar": "احجز كشفًا عاديًا لو خط الشعر أو القمة بيتغيروا وعايز تعرف النمط قبل ما تختار علاج، أو لو التساقط مستمر ومسبب لك قلق. احجز أسرع لو التساقط مفاجئ أو منتشر بكثافة، لو ظهرت بقع، لو فقدت شعرًا من اللحية أو الحواجب، أو لو الفروة فيها ألم أو حرقان أو احمرار أو قشور شديدة أو صديد. الجلد اللامع أو الندبات وتقدم الفراغ بسرعة محتاجين تقييم جلدية مبكر [2, 7, 10, 11].\n\nلو فيه حرارة، تورم سريع، إفرازات منتشرة، أو علامات عدوى واضحة، اطلب رعاية عاجلة. ولو التساقط مصحوب بدوخة شديدة، ضيق نفس، خفقان، ضعف واضح، نزول وزن غير مقصود، أو أعراض عامة جديدة، ما تعتبرش الشعر مشكلة تجميلية منفصلة؛ التقييم الطبي يحدد هل فيه سبب عام محتاج علاج [2, 7, 8].\n\nفي الزيارة، خُد قائمة بكل الأدوية والمكملات وصور قديمة لو عندك. في عيادات لاروز، تقدر تطلب حجز تقييم طبي مبدئي لمراجعة التاريخ الصحي والأكل والأدوية وتحديد التخصص الأنسب، مع تحويل الجلدية لما يكون فحص الفروة المتخصص مطلوب. الصفحة دي للتوعية ومش بديل عن التشخيص، خصوصًا إن مراجعة د. شيماء للموضوع لا تستبدل قراءة طبيب جلدية للحالة نفسها [2, 12].",
+            "en": "Book a routine assessment if your hairline or crown is changing and you want to understand the pattern before choosing treatment, or if ongoing loss is causing concern. Seek an earlier appointment for sudden or heavy diffuse shedding, patches, loss from the beard or eyebrows, or scalp pain, burning, redness, marked scale, or discharge. Shiny skin, scarring, or rapidly advancing bare areas warrant early dermatology review [2, 7, 10, 11].\n\nIf there is fever, rapidly spreading swelling, widespread discharge, or clear signs of infection, seek urgent care. If loss comes with severe dizziness, breathlessness, palpitations, marked weakness, unintended weight loss, or new systemic symptoms, do not treat it as a separate cosmetic issue; medical assessment determines whether a general condition needs treatment [2, 7, 8].\n\nBring a list of every medicine and supplement and older photographs if available. At La Rose Clinics, you can request an initial medical assessment to review health history, eating pattern, and medicines and identify the most appropriate specialty, with dermatology referral when specialist scalp examination is needed. This page is educational rather than diagnostic, and Dr Shimaa's review of the topic does not replace a dermatologist reading the individual case [2, 12]."
+          },
+          "links": {
+            "ar": [{"label": "طلب حجز تقييم طبي مبدئي", "url": "../patients/booking.html"}],
+            "en": [{"label": "request an initial medical assessment", "url": "../patients/booking.html"}]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {"ar": "هل تراجع خط الشعر طبيعي عند كل الرجال؟", "en": "Is a receding hairline normal for every man?"},
+          "a": {"ar": "هو شائع، لكن مش كل تراجع له نفس السبب أو السرعة. الصلع الوراثي غالبًا تدريجي وبيظهر عند الصدغين والقمة، بينما البقع أو الالتهاب أو التساقط السريع محتاجين تفسير مختلف. لو التغيير مضايقك أو بيتقدم بسرعة، الكشف يحدد النمط بدل التخمين [1, 6, 9].", "en": "It is common, but not every recession has the same cause or pace. Hereditary loss is usually gradual at the temples and crown, while patches, inflammation, or rapid shedding need a different explanation. If change is distressing or progressing quickly, examination can identify the pattern rather than relying on guesswork [1, 6, 9]."}
+        },
+        {
+          "q": {"ar": "هل التاريخ العائلي كفاية لتشخيص الصلع الوراثي؟", "en": "Is family history enough to diagnose male pattern loss?"},
+          "a": {"ar": "لأ. التاريخ العائلي معلومة مفيدة، لكن الطبيب كمان بيشوف توزيع الخفة، سرعة التغيير، حالة الفروة، والتاريخ الصحي. ممكن يكون عند الشخص صلع وراثي وسبب تاني في نفس الوقت، عشان كده الشكل والفحص أهم من اسم قريب عنده نفس المشكلة [2, 6, 8].", "en": "No. Family history is useful, but the clinician also considers distribution, speed, scalp findings, and medical history. Hereditary loss and another cause can coexist, so the pattern and examination matter more than the name of a relative with similar loss [2, 6, 8]."}
+        },
+        {
+          "q": {"ar": "هل كل تساقط شعر محتاج تحاليل؟", "en": "Does every case of hair loss need blood tests?"},
+          "a": {"ar": "مش بالضرورة. النمط الوراثي الواضح ممكن يتحدد من القصة والفحص. التحاليل بتكون موجهة لما فيه تساقط منتشر، أعراض عامة، أكل محدود، مرض حديث، أو شك في نقص أو اضطراب هرموني. اختيار التحليل لازم يجاوب سؤالًا، مش يبقى باقة ثابتة لكل الناس [2, 8, 9].", "en": "Not necessarily. A clear hereditary pattern may be identified from history and examination. Tests are targeted when diffuse shedding, systemic symptoms, restricted intake, recent illness, or suspected deficiency or hormonal disorder makes them useful. A test should answer a clinical question rather than form a fixed panel for everyone [2, 8, 9]."}
+        },
+        {
+          "q": {"ar": "هل بقعة صلع مفاجئة هي نفس الصلع الوراثي؟", "en": "Is a sudden bald patch the same as hereditary loss?"},
+          "a": {"ar": "غالبًا لأ. البقعة الدائرية الناعمة ممكن تكون صلعًا بقعيًا، والقشور مع شعر مكسور ممكن تفتح احتمال عدوى، بينما الوجع أو الندبات يغيروا الأولوية. التشخيص محتاج فحص الفروة وأحيانًا تكبير أو اختبارات موجهة [7, 10, 11].", "en": "Usually not. A smooth round patch may be alopecia areata, scale with broken hairs may raise concern for infection, and pain or scarring changes the priority. Diagnosis requires scalp examination and sometimes magnification or targeted testing [7, 10, 11]."}
+        },
+        {
+          "q": {"ar": "هل أبدأ مكمل شعر من نفسي؟", "en": "Should I start a hair supplement on my own?"},
+          "a": {"ar": "الأفضل لأ. المكمل بيفيد احتياجًا محددًا، لكنه ما يعالجش كل أنماط التساقط، والزيادة في بعض العناصر ممكن تضر أو تزود التساقط. قول للطبيب والمعمل عن أي بيوتين أو مكملات قبل التحاليل، وما تسيبش الإعلان يحل مكان تقييم السبب [2, 3, 4].", "en": "It is better not to. A supplement can address a defined need but does not treat every pattern, and excessive amounts of some nutrients can cause harm or worsen loss. Tell the clinician and laboratory about biotin and other supplements before testing, and do not let marketing replace assessment of the cause [2, 3, 4]."}
+        },
+        {
+          "q": {"ar": "هل قص الشعر أو غسله أقل بيوقف التساقط؟", "en": "Will cutting hair or washing less stop shedding?"},
+          "a": {"ar": "لأ، القص بيغير طول الشعرة مش دورة البصيلة، وتقليل الغسيل ما يوقفش السبب. الشعر اللي كان داخل مرحلة السقوط هيظهر وقت الغسيل فيبان العدد أكبر. العناية الهادية تقلل التكسر والشد، لكن علاج السبب يعتمد على التشخيص [2, 4, 5].", "en": "No. Cutting changes shaft length, not the follicle cycle, and washing less does not stop the cause. Hairs already ready to shed may collect and appear together during washing. Gentle care reduces breakage and traction, but treatment of the cause depends on diagnosis [2, 4, 5]."}
+        }
+      ],
+      "sources": [
+        {"label": "American Academy of Dermatology — What is male pattern hair loss, and can it be treated?", "url": "https://www.aad.org/public/diseases/hair-loss/treatment/male-pattern-hair-loss-treatment"},
+        {"label": "American Academy of Dermatology — Hair loss: Diagnosis and treatment", "url": "https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat"},
+        {"label": "American Academy of Dermatology — Hair loss: Who gets and causes", "url": "https://www.aad.org/public/diseases/hair-loss/causes/18-causes"},
+        {"label": "American Academy of Dermatology — Hair loss: Tips for managing", "url": "https://www.aad.org/public/diseases/hair-loss/treatment/tips"},
+        {"label": "American Academy of Dermatology — Do you have hair loss or hair shedding?", "url": "https://www.aad.org/public/diseases/hair-loss/insider/shedding"},
+        {"label": "MedlinePlus Genetics — Androgenetic alopecia", "url": "https://www.medlineplus.gov/genetics/condition/androgenetic-alopecia/"},
+        {"label": "Mayo Clinic — Hair loss: Symptoms and causes", "url": "https://www.mayoclinic.org/diseases-conditions/hair-loss/symptoms-causes/syc-20372926"},
+        {"label": "Mayo Clinic — Hair loss: Diagnosis and treatment", "url": "https://www.mayoclinic.org/diseases-conditions/hair-loss/diagnosis-treatment/drc-20372932"},
+        {"label": "Cleveland Clinic — Male Pattern Baldness (Androgenic Alopecia)", "url": "https://my.clevelandclinic.org/health/diseases/24515-male-pattern-baldness-androgenic-alopecia"},
+        {"label": "NIAMS — Alopecia Areata: Symptoms, Types, and Causes", "url": "https://www.niams.nih.gov/health-topics/alopecia-areata"},
+        {"label": "NIAMS — Alopecia Areata: Diagnosis, Treatment, and Steps to Take", "url": "https://www.niams.nih.gov/health-topics/alopecia-areata/diagnosis-treatment-and-steps-to-take"},
+        {"label": "NHS — Hair loss", "url": "https://www.nhs.uk/symptoms/hair-loss/"}
+      ],
+      "seo": {
+        "title": {"ar": "تساقط الشعر عند الرجال: إمتى تكشف؟", "en": "Hair loss in men: when to get checked"},
+        "description": {"ar": "دليل عملي يفرق بين الصلع الوراثي والتساقط المفاجئ والبقع، ويوضح علامات التهاب الفروة، خطوات الكشف، وإمتى تحتاج تقييم طبي أسرع.", "en": "A practical guide to hereditary thinning, sudden shedding, bald patches, scalp warning signs, examination, and when men should seek medical assessment."}
+      },
+      "history": [
+        {"date": "2026-09-27", "note": {"ar": "اتوسع الدليل في أسباب تساقط الشعر عند الرجال وعلامات الكشف وخطوات التقييم، واتراجع طبيًا من جديد.", "en": "Expanded the guide to causes of hair loss in men, warning signs, and the assessment pathway, with a new medical review."}}
+      ]
+    }
+  ]
+}

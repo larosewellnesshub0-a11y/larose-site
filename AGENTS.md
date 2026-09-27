@@ -42,11 +42,44 @@ This is a generated bilingual static site. Work from source, not from output.
     `content/articles-p2-<slug>-<date>.json` override. Keep `date`, set
     `updatedAt`, append a `history` note, and set `reviewedBy`/`author` to the
     staffed clinician for the category (see
-    `_project/briefs/phase2-rewrite-brief.md`). Do not invent a reviewer. When
-    no staffed clinician matches, skip the article.
+    `_project/briefs/phase2-rewrite-brief.md`). Do not invent a reviewer.
+    Since 2026-09-27 (user decision) topics with no staffed specialty
+    (dermatology, general and bariatric surgery, general) are assigned to the
+    closest of the three real doctors (alyaa-abu-taleb, shimaa-fouad,
+    mohab-ashraf) per `_project/briefs/phase2-unstaffed-reviewer-map-2026-09-27.md`.
+    Those pages still need that doctor's own read-through.
+    **Reviewer rule (user decision, 2026-09-27, applies site-wide):** the
+    reviewer is never the author. Articles by mohab-ashraf are reviewed by
+    shimaa-fouad, articles by shimaa-fouad by alyaa-abu-taleb, and articles by
+    alyaa-abu-taleb by shimaa-fouad. Every file under `content/` was audited
+    and fixed to this rule (288 fixes). Re-check it with any new file.
 11. Drafts may be delegated to Codex or Antigravity. Claude re-runs every gate
     and the Phase 2 checker on the result before accepting it. Review
-    Antigravity output line by line.
+    Antigravity output line by line. Workers sometimes edit files outside
+    their list, so diff `git status` against a pre-run snapshot before
+    accepting their work.
+12. Never put HTML (including `<bdi class="num">`) in `seo.title`,
+    `seo.description` or `alt`. Use plain digits there.
+13. Dermatology service claims: only consultation (exam, history,
+    medication and lab review, local vs internal cause, written plan), the
+    acne programme and hair-loss treatment, working with the nutrition and
+    internal medicine teams. Do not claim dermoscopy, trichoscopy, lasers,
+    peels, devices or procedures at La Rose. General education that says "a
+    dermatologist may use dermoscopy" is fine. The plain-language and
+    overclaim rules are in `_project/briefs/phase2-batch16-dehype-brief.md`.
+14. Arabic spelling and grammar: proofread against
+    `_project/briefs/arabic-proofreading-brief.md` (hamzat al-wasl, typos,
+    agreement, Arabic punctuation, masculine second person) while keeping
+    the Egyptian register.
+15. Never put `<bdi>` (or any HTML) in content JSON string fields. The build
+    HTML-escapes text fields, so it shows up on the page as literal `&lt;bdi`
+    (1,751 escaped tags reached the build on 2026-09-27 before this was
+    caught). The templates handle numeral direction. After any bulk edit,
+    `grep -rl "&lt;bdi" site` must return nothing.
+16. Never rewrite content files with `json.dumps`. It reformats some files and
+    turns small edits into whole-file diffs. Edit the raw string literals,
+    re-parse with `json.loads` to check, and write with `newline=""` so the
+    line endings are kept.
 
 See `PROJECT.md` for the source map and `_project/LAUNCH.md` for the deployment
 runbook.

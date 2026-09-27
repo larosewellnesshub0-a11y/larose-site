@@ -1,0 +1,314 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of body-contouring-safety-first; replaces the entry from content/articles-body-contouring-safety-rewrite-2026-09-21.json. Expanded 5-modality mechanisms, complication incidence, PAH data, contraindications, red flags, FAQs, internal links, and completed medical re-review.",
+  "articles": [
+    {
+      "slug": "body-contouring-safety-first",
+      "type": "update",
+      "published": true,
+      "featured": false,
+      "category": "body-contouring",
+      "specialties": [
+        "body-contouring"
+      ],
+      "date": "2026-08-31",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "shimaa-fouad",
+      "reviewedBy": "alyaa-abu-taleb",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا مراجعة أمان التقنيات الخمس ومعدلات المضاعفات وفرط النمو المتناقض وموانع الاستخدام، مع مراجعة طبية شاملة.",
+            "en": "We expanded the safety profiles across five modalities, complication rates, paradoxical hyperplasia, contraindications, and completed a comprehensive medical re-review."
+          }
+        }
+      ],
+      "image": "assets/img/articles/body-contouring-safety-first.webp",
+      "title": {
+        "ar": "أمان نحت الجسم غير الجراحي: التقنيات والمضاعفات وموانع الاستخدام",
+        "en": "Non-surgical body contouring safety: modalities, risks and contraindications"
+      },
+      "excerpt": {
+        "ar": "نحت الجسم إجراء طبي شكلي مش علاج للسمنة. اعرف أمان التقنيات الخمس المعتمدة، وفرط النمو المتناقض بعد التبريد، وموانع الاستخدام والأسئلة الضرورية قبل الجلسة.",
+        "en": "Body contouring is a cosmetic procedure, not an obesity treatment. Learn the safety profiles of 5 cleared modalities, paradoxical hyperplasia, and key contraindications."
+      },
+      "tags": {
+        "ar": [
+          "أمان نحت الجسم",
+          "أجهزة النحت",
+          "الدهون الموضعية",
+          "نحت الجسم"
+        ],
+        "en": [
+          "body-contouring safety",
+          "contouring devices",
+          "localised fat",
+          "body contouring"
+        ]
+      },
+      "sections": [
+        {
+          "id": "fda-position",
+          "heading": {
+            "ar": "نحت الجسم إجراء طبي شكلي، مش علاج للسمنة",
+            "en": "Body contouring is a cosmetic medical procedure, not an obesity treatment"
+          },
+          "body": {
+            "ar": "هيئة الغذاء والدواء الأمريكية بتوضح إن نحت الجسم غير الجراحي إجراء تجميلي هدفه يغير محيط أو شكل منطقة صغيرة محددة، مش علاج للسمنة. الأجهزة دي ممكن تستهدف جيب دهني موضعي أو مظهر السيلوليت في البطن أو الأجناب أو الفخذين، لكنها مش بتنزل وزن الجسم كله ومش بديل للفوائد الصحية اللي ممكن تيجي مع نزول الوزن [1, 2, 5].\n\nإدارة زيادة الوزن مسار طبي مختلف، وممكن تشمل تغذية علاجية، وتعديل نمط الحياة، وأدوية معتمدة، أو جراحة حسب تقييم الطبيب. الهدف هنا تحسين الصحة ومؤشرات زي السكر وضغط الدم وصحة الكبد والقلب. أما النحت غير الجراحي فهو خطوة تجميلية اختيارية، وغالباً بيتناقش بعد استقرار الوزن [1, 5, 6].\n\nعشان كده، سؤال «هخس كام كيلو بعد الجلسة؟» مش هو المقياس المناسب. النتيجة ممكن تكون بسيطة، أو مؤقتة، أو ما تبانش عند بعض الناس. فهم الفرق من البداية بيساعدك تحط توقعات واقعية وتختار الهدف المناسب لصحتك وشكل جسمك [1, 2, 5].",
+            "en": "The US Food and Drug Administration (FDA) describes non-invasive body contouring as cosmetic treatment intended to change the shape or circumference of a small, defined area, not as treatment for obesity. These devices may target a small pocket of fat or the appearance of cellulite on the abdomen, flanks, or thighs, but they do not lower overall body weight or replace the health benefits that may come with weight loss [1, 2, 5].\n\nWeight management is a different medical pathway. It may include nutrition care, lifestyle changes, approved medicines, or surgery, depending on a clinician's assessment. Its goals include improving health measures such as blood sugar, blood pressure, and liver and heart health. Non-surgical contouring is an optional cosmetic step, often considered after weight has become stable [1, 5, 6].\n\nFor that reason, asking 'how many kilograms will I lose?' is not the right way to judge a session. The change may be small or temporary, and some people may see no clear change. Understanding this early can help you set realistic expectations and choose a goal that fits your health and appearance concerns [1, 2, 5]."
+          }
+        },
+        {
+          "id": "five-modalities-mechanisms",
+          "heading": {
+            "ar": "التقنيات الخمس المعتمدة: إزاي كل جهاز بيتعامل مع الأنسجة؟",
+            "en": "The five cleared modalities: how each device interacts with tissue"
+          },
+          "body": {
+            "ar": "فيه خمس تقنيات رئيسية حصلت على موافقات رقابية لنحت الجسم غير الجراحي، وكل واحدة بتشتغل بطريقة مختلفة. التبريد، أو Cryolipolysis، بيعرض الخلايا الدهنية لبرودة محسوبة عشان تبدأ تتكسر تدريجياً، مع إن إصابة الجلد تفضل ممكنة لو الاستخدام كان غلط. والتردد الحراري، Radiofrequency، بيسخن الأنسجة تحت الجلد بهدف شدها وتحفيز الكولاجين، وممكن يأثر على حجم الخلايا الدهنية [1, 2, 6, 11].\n\nالتقنية التالتة هي الموجات فوق الصوتية المركزة، Ultrasound، اللي بتوصل طاقة صوتية للدهون تحت الجلد. التقنية الرابعة هي الليزر منخفض أو متوسط المستوى، Laser، اللي بيستخدم أطوال موجية ضوئية للتأثير على الخلايا الدهنية أو تسخين الأنسجة. أما التقنية الخامسة فهي المجالات الكهرومغناطيسية عالية الكثافة، HIFEM، اللي بتعمل انقباضات عضلية قوية ومتكررة بهدف تقوية العضلات [1, 2, 6, 9].\n\nعشان الطرق دي مختلفة، فكل تقنية ليها نتائج متوقعة ومحاذير ومخاطر خاصة. الجهاز اللي ممكن يناسب تجمع دهني طري مش بالضرورة يناسب شخص مشكلته الأساسية ترهل الجلد أو ضعف العضلات [2, 6, 9, 11].",
+            "en": "Five main technologies have regulatory clearance for non-surgical body contouring, and each works differently. Cryolipolysis uses controlled cold to damage fat cells so the body can clear them gradually, although skin injury can still occur if it is used incorrectly. Radiofrequency heats tissue beneath the skin with the aim of tightening it, encouraging collagen production, and possibly reducing fat-cell volume [1, 2, 6, 11].\n\nFocused ultrasound sends sound energy into fat beneath the skin. Low- or mid-level laser treatment uses selected light wavelengths to affect fat-cell membranes or heat tissue. High-intensity focused electromagnetic energy (HIFEM) causes repeated strong muscle contractions with the aim of strengthening muscle [1, 2, 6, 9].\n\nBecause these methods work differently, each has its own likely response, reasons to avoid treatment, and possible harms. A device that may suit a soft pocket of fat may not suit someone whose main concern is loose skin or weak muscle [2, 6, 9, 11]."
+          }
+        },
+        {
+          "id": "cryolipolysis-and-pah",
+          "heading": {
+            "ar": "تجميد الدهون وفرط النمو المتناقض: إيه حقيقة المشكلة دي؟",
+            "en": "Cryolipolysis and paradoxical adipose hyperplasia: what the evidence shows"
+          },
+          "body": {
+            "ar": "تقنية التبريد شائعة، ومخاطرها المحتملة موصوفة في الدراسات الطبية. الأعراض المؤقتة المعتادة ممكن تشمل احمرار، وتورم، وتغير الإحساس، وكدمات، وألم خفيف يستمر أيام أو أسابيع. وفيه مضاعفة أقل شيوعاً لكنها مهمة اسمها فرط النمو الدهني المتناقض، Paradoxical Adipose Hyperplasia؛ بدل ما الدهون تقل، النسيج المعالج بيكبر ويتصلب في كتلة واضحة ممكن تاخد شكل قالب الجهاز، وغالباً بتبان بعد شهرين لأربع شهور [1, 3, 7, 8].\n\nالمراجعات الحديثة بتشير إن المشكلة دي ممكن تكون أكتر من التقديرات القديمة؛ مراجعة منهجية حديثة لقت حوالي حالة لكل 455 مريض، ومالقتش فرق مؤكد إحصائياً بين الرجالة والستات. هي مش سرطان، لكن التقارير المنشورة بتوضح إنها غالباً ما بتروحش مع الوقت أو الأكل أو الرياضة [3, 7, 8, 10].\n\nالتصحيح غالباً بيحتاج جراحة، وعادة شفط دهون، بعد ما الأنسجة تستقر لعدة شهور. وده مهم جداً لشخص اختار التبريد عشان يتجنب الجراحة. لازم الطبيب يشرح الاحتمال ده بوضوح وياخد موافقة واعية قبل الجلسة [1, 3, 7, 8].",
+            "en": "Cryolipolysis is widely used, and its possible harms are described in medical studies. Common short-term effects include redness, swelling, altered sensation, bruising, and mild soreness that can last for days or weeks. A less common but important complication is paradoxical adipose hyperplasia (PAH): instead of shrinking, the treated fat grows and hardens into a clear mass that may match the applicator shape. It often becomes noticeable two to four months later [1, 3, 7, 8].\n\nRecent reviews suggest PAH may be more common than older industry estimates. One recent systematic review found about 1 case in every 455 patients, and did not find a statistically clear difference between men and women. PAH is not cancer, but published reports indicate that it usually does not go away with time, diet, or exercise [3, 7, 8, 10].\n\nCorrection often involves surgery, usually liposuction, after the tissue has settled for several months. That can be especially important to someone who chose cooling to avoid surgery. The clinician should explain this risk clearly and obtain informed consent before treatment [1, 3, 7, 8]."
+          }
+        },
+        {
+          "id": "thermal-and-energy-risks",
+          "heading": {
+            "ar": "مخاطر الحرارة والليزر والموجات: الحروق وتغير لون الجلد",
+            "en": "Thermal, laser and acoustic risks: burns and pigment changes"
+          },
+          "body": {
+            "ar": "العلاجات اللي بتستخدم الحرارة أو الضوء أو الموجات، زي التردد الحراري والليزر والموجات فوق الصوتية، ممكن تعمل إصابة حرارية لو الإعدادات أو مكان التطبيق أو المتابعة كانوا غلط. البلاغات في قاعدة بيانات هيئة الغذاء والدواء الأمريكية MAUDE شملت حروق سطحية وأعمق، وفقاقيع، وندبات مستمرة بعد أجهزة الطاقة والتحفيز العضلي [2, 4, 7, 11].\n\nممكن كمان تظهر بقع أغمق أو أفتح بعد الالتهاب، خصوصاً في درجات البشرة الداكنة. الحرارة الزيادة ممكن تأثر على الخلايا الصبغية، وتغير اللون قد يحتاج شهور من العناية بالجلد. والموجات المركزة لو اتوجهت بزاوية غلط أو قريب من العظم ممكن تعمل ألم عصبي حاد، أو تورم عميق، أو ضعف مؤقت [2, 4, 7, 12].\n\nالألم الحارق الشديد مش دليل إن العلاج شغال أحسن. ممكن يكون إنذار بإصابة حرارية، وساعتها لازم المشغل يوقف الطاقة، ويفحص الجلد، ويتبع خطوات التبريد والأمان الخاصة بالجهاز [2, 4, 11, 12].",
+            "en": "Treatments that use heat, light, or sound waves—such as radiofrequency, laser, and focused ultrasound—can cause heat injury when settings, placement, or monitoring are wrong. Reports in the US FDA MAUDE database include surface and deeper skin burns, blisters, and lasting scars after energy-based and muscle-stimulation treatments [2, 4, 7, 11].\n\nDark or light patches after inflammation can also occur, especially in darker skin tones. Too much heat can disturb pigment-producing cells, and the colour change may need months of skin care. Focused ultrasound placed at the wrong angle or too close to bone may also cause sharp nerve pain, deep swelling, or temporary weakness [2, 4, 7, 12].\n\nStrong burning pain is not proof that a treatment is working better. It can warn of heat injury, so the operator should stop the energy, check the skin, and follow the device's cooling and safety steps [2, 4, 11, 12]."
+          }
+        },
+        {
+          "id": "contraindications-medical-history",
+          "heading": {
+            "ar": "موانع الاستخدام: التاريخ الطبي اللي لازم تقوله قبل الجلسة",
+            "en": "Medical contraindications: the history you must disclose before treatment"
+          },
+          "body": {
+            "ar": "أجهزة نحت الجسم مش مناسبة لكل الناس، وسبب تأجيل أو تجنب العلاج بيختلف حسب التقنية. غالباً بيتجنب العلاج أثناء الحمل والرضاعة لأن بيانات الأمان محدودة. والتبريد ما ينفعش مع حالات مرتبطة بالبرد زي Cryoglobulinemia، وحساسية البرد، وParoxysmal cold hemoglobinuria، وظاهرة رينود الشديدة، لأن البرودة ممكن تسبب ضرر خطير [1, 2, 8, 11].\n\nالمجالات الكهرومغناطيسية أو التردد الحراري ممكن ما يناسبوش شخص عنده منظم ضربات، أو جهاز صدمات مزروع، أو محفز أعصاب، أو معدن مزروع، أو شبكة جراحية بالبطن. المنع الدقيق بيعتمد على الجهاز والزرعة، فلازم الطبيب يراجع تعليمات الاتنين. والفتق البطني أو السري غير المعالج محتاج تقييم طبي قبل التبريد بالشفط أو تحفيز العضلات لأن الضغط أو الانقباض ممكن يزوده [1, 2, 7, 9].\n\nقول للطبيب عن أي عملية سابقة في البطن، أو ندبات، أو أدوية سيولة، أو ضعف إحساس، أو مرض نشط في الكبد أو الكلى أو الجلد. المعلومات دي بتساعده يقرر هل يؤجل الجلسة، أو يعدل الخطة، أو يقترح بديل [1, 2, 4, 11].",
+            "en": "Body-contouring devices are not suitable for everyone, and the reasons to avoid treatment depend on the technology. Treatment is generally avoided during pregnancy and breastfeeding because safety data are limited. Cryolipolysis should not be used in people with cold-related conditions such as cryoglobulinemia, cold urticaria, paroxysmal cold haemoglobinuria, or severe Raynaud phenomenon, because cooling may cause serious harm [1, 2, 8, 11].\n\nElectromagnetic or radiofrequency treatment may be unsuitable for people with pacemakers, defibrillators, nerve stimulators, metal implants, or abdominal surgical mesh. The exact restriction depends on the device and implant, so the clinician must check both manufacturers' guidance. An unrepaired abdominal or umbilical hernia also needs medical assessment before vacuum cooling or muscle stimulation because pressure or contraction may worsen it [1, 2, 7, 9].\n\nTell the clinician about previous abdominal operations, scars, blood-thinning medicines, reduced sensation, and active liver, kidney, or skin disease. This history helps the clinician decide whether to postpone treatment, adjust the plan, or recommend another option [1, 2, 4, 11]."
+          }
+        },
+        {
+          "id": "loose-skin-vs-fat-diagnosis",
+          "heading": {
+            "ar": "التشخيص قبل الإجراء: دهون ولا جلد مترهل ولا سيلوليت؟",
+            "en": "Accurate assessment before treatment: fat, skin laxity or cellulite?"
+          },
+          "body": {
+            "ar": "الفحص المباشر ممكن يساعد يحدد هل المشكلة الأساسية جيب دهني، أو جلد مترهل، أو سيلوليت، أو خليط بينهم. لو المشكلة الأساسية جلد مرتخي بعد نزول وزن كبير، تجميد الدهون ممكن ما يحسنش الشكل، وممكن يخلي الترهل أوضح بعد ما طبقة الدهون تقل [1, 2, 6, 12].\n\nراجع دليل جلد مترهل أو دهون موضعية عشان تعرف إزاي الطبيب بيفرق بينهم أثناء الفحص. السيلوليت له بنية مختلفة فيها حبال ليفية بتشد الجلد لجوه؛ ومقال بنية الجلد وتكوين السيلوليت بيوضح ليه تقليل الدهون مش بالضرورة يفك الحبال دي [2, 6, 11].\n\nالطبيب المدرب ممكن يفحص سمك الجلد ودرجة الترهل ودعم العضلات وإنت واقف ومسترخي، وبعدها يشرح التحسن الواقعي. مطابقة العلاج لنوع النسيج مهمة، لأن الطريقة غير المناسبة ممكن تدي فايدة قليلة أو تخلي المشكلة أوضح [1, 2, 6, 11].",
+            "en": "An in-person assessment can help identify whether the concern comes mainly from a pocket of fat, loose skin, cellulite, or a mixture. If the main issue is loose skin after major weight loss, fat freezing may not improve the contour and could make sagging look more obvious after the fat layer becomes smaller [1, 2, 6, 12].\n\nRead our guide on loose skin or localised fat to see how clinicians compare these problems during an examination. Cellulite has a different structure, with fibrous bands pulling the skin inward; our article on skin structure and cellulite explains why reducing fat does not necessarily release those bands [2, 6, 11].\n\nA trained clinician can examine skin thickness, looseness, and muscle support while you stand and relax, then explain what change is realistic. Matching the treatment to the tissue matters because the wrong method may give little benefit or make the concern more noticeable [1, 2, 6, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "جلد مترهل أو دهون موضعية",
+                "url": "../articles/loose-skin-or-localised-fat.html"
+              },
+              {
+                "label": "بنية الجلد وتكوين السيلوليت",
+                "url": "../articles/cellulite-is-a-skin-structure-feature.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "loose skin or localised fat",
+                "url": "../articles/loose-skin-or-localised-fat.html"
+              },
+              {
+                "label": "skin structure and cellulite",
+                "url": "../articles/cellulite-is-a-skin-structure-feature.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "injections-and-unapproved-methods",
+          "heading": {
+            "ar": "الحقن الموضعي والخلطات غير المرخصة: حدود الأمان والفاعلية",
+            "en": "Local injections and unapproved mixtures: safety limits and efficacy"
+          },
+          "body": {
+            "ar": "إعلانات نحت الجسم كتير منها بيروج لحقن إذابة الدهون خارج الاستخدام المرخص، وخلطات الميزوثيرابي، ومنتجات تخسيس غير منظمة. هيئة الغذاء والدواء الأمريكية وافقت على حمض الديوكسيكوليك لاستخدام محدد: تقليل الدهون المتوسطة أو الشديدة تحت الذقن. لكنها ما وافقتش على خلطات الميزوثيرابي أو حقن إذابة الدهون في مناطق كبيرة زي البطن أو الفخذين [1, 2, 6, 7].\n\nحقن مادة مجهولة أو خليط غير موحد في مكان غير طبي ممكن يسبب عدوى بكتيرية، وقرح جلدية، وتلف أعمق في الأنسجة، وندبات. بعض الحالات المنشورة احتاجت جراحة ومضادات حيوية لفترة طويلة. راجع مقال أمان حقن إذابة الدهون عشان تعرف أهم الأسئلة قبل أي علاج بالحقن [1, 6, 7, 11].\n\nما توافقش على الحقن لو مش قادر تتأكد من اسم المادة، والعبوة الأصلية، وحالتها التنظيمية، ومؤهلات الطبيب. وضوح معلومات المنتج والشخص اللي هيحقنه خطوة أمان مهمة [1, 6, 7].",
+            "en": "Marketing for body contouring often includes off-label fat-dissolving injections, mesotherapy mixtures, and unregulated slimming products. The US FDA has approved deoxycholic acid for a specific use: reducing moderate-to-severe fat under the chin. It has not approved mixed mesotherapy products or fat-dissolving injections for large areas such as the abdomen or thighs [1, 2, 6, 7].\n\nUnknown or mixed substances injected in non-medical settings can cause bacterial infections, skin ulcers, deeper tissue damage, and scars. Some reported cases have needed surgery and long courses of antibiotics. Read our article on the safety of fat-dissolving injections for the main checks to discuss before any injectable treatment [1, 6, 7, 11].\n\nDo not accept an injection if the substance, original packaging, regulatory status, or clinician's qualifications cannot be verified. Clear information about the product and the person giving it is an important safety check [1, 6, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أمان حقن إذابة الدهون",
+                "url": "../articles/fat-dissolving-injections-side-effects-safety.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "safety of fat-dissolving injections",
+                "url": "../articles/fat-dissolving-injections-side-effects-safety.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "patient-checklist-and-next-steps",
+          "heading": {
+            "ar": "خطواتك الآمنة قبل الجلسة والأسئلة الضرورية لمقدم الخدمة",
+            "en": "Your safe pre-session checklist and key questions for your provider"
+          },
+          "body": {
+            "ar": "قبل ما تبدأ أي جلسة لنحت الجسم، حضر أسئلة واضحة للطبيب. اسأل عن الاسم الدقيق للجهاز، وهل هو مرخص للمنطقة والهدف اللي بتناقشهم، ومين هيشغله. واتأكد من مؤهلات الشخص وتدريبه على الجهاز ده [1, 2, 4, 11].\n\nاسأل عن التحسن الواقعي المتوقع لنوع جسمك والمنطقة المستهدفة. ولو فيه صور قبل وبعد، لازم تكون بإضاءة ووضع وزوايا متشابهة. واعرف إمتى النتيجة ممكن تبان، وإيه خطة المتابعة لو ظهر ألم أو حرق أو تورم أو مشكلة غير متوقعة [2, 3, 4, 10].\n\nلو حسيت بضغط تجاري لشراء باقة قبل تقييم طبي، خد خطوة لورا واطلب رأي محايد. في عياداتنا، استشارة التغذية ومتابعة الوزن ممكن تشمل مراجعة التاريخ الصحي والأدوية والتحاليل المتاحة، والتنسيق مع فريق الباطنة عند الحاجة. تقدر تعمل حجز موعد في العيادة لمناقشة هل هدفك محتاج مسار صحة ووزن ولا تقييم منفصل عند مقدم خدمة تجميلية مناسب [1, 5, 6, 11].",
+            "en": "Before agreeing to body contouring, prepare a short checklist for the treating clinician. Ask for the exact device name, whether it is cleared for the body area and purpose being discussed, and who will operate it. Check that person's qualifications and training on that device [1, 2, 4, 11].\n\nAsk what change is realistic for your body type and target area. If photographs are used, they should have similar lighting, posture, and angles. Also ask when a result might appear and what the follow-up plan is if pain, burns, swelling, or another unexpected problem develops [2, 3, 4, 10].\n\nIf you feel pressured to buy a package before a medical assessment, step back and seek an independent opinion. At our clinics, nutrition and weight consultations can include a review of your health history, medicines, and available tests, with internal-medicine input when needed. You can book a clinic consultation to discuss whether your goal needs health and weight care or a separate assessment from an appropriate cosmetic provider [1, 5, 6, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حجز موعد في العيادة",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book a clinic consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل نحت الجسم غير الجراحي بديل آمن لشفط الدهون أو جراحات شد البطن؟",
+            "en": "Is non-surgical body contouring a safe alternative to liposuction or tummy tuck surgery?"
+          },
+          "a": {
+            "ar": "لأ، هو مش بديل مباشر للجراحة ومش بيدي نفس النتائج؛ النحت غير الجراحي مناسب بس للتجمعات الدهنية الصغيرة المحدودة عند شخص وزنه مستقر، بينما شفط الدهون بيشيل أحجام أكبر وجراحات الشد بتعالج ترهل الجلد الزائد والعضلات المتباعدة، ولكل إجراء منهم دواعي ومخاطر خاصة [1, 2, 5, 6].",
+            "en": "No. It does not replace surgery and gives smaller changes. It suits small, limited fat pockets in someone whose weight is stable. Liposuction removes larger amounts of fat, and a tummy tuck (abdominoplasty) repairs loose skin and separated muscles; each has its own reasons and risks [1, 2, 5, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه هو فرط النمو الدهني المتناقض، وهل بيختفي لوحده بدون جراحة؟",
+            "en": "What is paradoxical adipose hyperplasia, and does it resolve on its own without surgery?"
+          },
+          "a": {
+            "ar": "فرط النمو الدهني المتناقض مضاعفة غير شائعة بعد تجميد الدهون، فيها النسيج المعالج بيكبر ويتصلب بدل ما يقل. التقارير المنشورة بتوضح إنه غالباً ما بيروحش مع الوقت أو الرياضة، والتصحيح عادة بيحتاج شفط دهون جراحي بعد ما الأنسجة تستقر لعدة شهور [1, 3, 7, 8].",
+            "en": "Paradoxical adipose hyperplasia is an uncommon complication after cryolipolysis in which the treated fat grows and hardens instead of shrinking. Published reports suggest it usually does not go away with time or exercise, and correction commonly involves surgical liposuction after the tissue has settled for several months [1, 3, 7, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل ممكن أجهزة النحت تسبب حروق دائمة أو تلف في الأعصاب الحسية؟",
+            "en": "Can contouring devices cause permanent burns or sensory nerve injury?"
+          },
+          "a": {
+            "ar": "نعم، الأجهزة المعتمدة على الحرارة أو الليزر أو الموجات الصوتية ممكن تعمل حروق جلدية وفقاقيع وتندب لو استخدمت بإعدادات غير صحيحة أو جهاز غير مرخص، والتبريد أو الموجات ممكن تعمل تنميلاً مؤقتاً أو تلفاً عصبياً سطحياً لو ما اتراعتش مناطق مرور الأعصاب الرئيسية [2, 4, 7, 11].",
+            "en": "Yes. Radiofrequency, laser, or focused-ultrasound devices can cause skin burns, blisters, and scars when the settings, placement, or equipment are unsafe. Cryolipolysis and sound-wave treatments may also cause numbness or irritation of nerves near the skin [2, 4, 7, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "بعد كام جلسة بتبان نتيجة النحت غير الجراحي، وهل النتيجة دايمة؟",
+            "en": "After how many sessions do non-surgical results appear, and are they permanent?"
+          },
+          "a": {
+            "ar": "التغير ممكن يظهر تدريجياً خلال 6–12 أسبوع لأن الجسم محتاج وقت يتخلص من الخلايا المتأثرة ويعيد تشكيل الكولاجين. النتيجة ممكن تستمر مدة أطول مع ثبات الوزن، لكن زيادة الوزن بعد كده ممكن تكبر الخلايا الدهنية الباقية [1, 2, 6, 10].",
+            "en": "Changes may appear gradually over 6 to 12 weeks because the body needs time to clear damaged cells and remodel collagen. A result may last longer when weight stays stable, but later weight gain can enlarge the remaining fat cells [1, 2, 6, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل ينفع الحامل أو اللي مركبة شريحة أو شبكة تعمل جلسات نحت؟",
+            "en": "Can pregnant women or individuals with metal implants or mesh undergo contouring?"
+          },
+          "a": {
+            "ar": "غالباً الجلسات بتتأجل أثناء الحمل لأن بيانات الأمان محدودة. ولو فيه شرائح أو مسامير أو منظم ضربات أو شبكة جراحية، لازم الطبيب يراجع نوع الزرعة وتعليمات الجهاز؛ بعض أجهزة التردد الحراري أو المجالات الكهرومغناطيسية ما بتكونش مناسبة بسبب احتمال تسخين المعدن أو التأثير على جهاز مزروع [1, 2, 7, 9].",
+            "en": "Treatment is generally postponed during pregnancy because safety data are limited. With metal plates, screws, a pacemaker, or surgical mesh, the clinician must check the implant and device instructions; some radiofrequency or electromagnetic treatments may be unsuitable because of possible metal heating or interference with an implanted device [1, 2, 7, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه العلامات غير الطبيعية بعد الجلسة اللي بتستدعي استشارة طبية فورية؟",
+            "en": "What abnormal post-session symptoms require immediate medical consultation?"
+          },
+          "a": {
+            "ar": "لو ظهر ألم شديد مستمر مش بيخف بالمسكنات البسيطة، أو فقاقيع أو قرح، أو احمرار بينتشر مع سخونة أو صديد، أو كتلة صلبة بتكبر، الحالة محتاجة رعاية طبية عاجلة في نفس اليوم؛ وبعض الناس ممكن يحتاجوا دخول المستشفى. ما تحطش وصفات منزلية على المنطقة قبل التقييم [1, 4, 7, 11].",
+            "en": "Severe pain that does not improve with simple pain relief, blisters or ulcers, spreading redness with warmth or pus, or a firm lump that keeps growing needs same-day urgent medical care; some people may need hospital admission. Do not apply home remedies before the area is assessed [1, 4, 7, 11]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Food and Drug Administration (FDA). Non-Invasive Body Contouring Technologies. 2024.",
+          "url": "https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/non-invasive-body-contouring-technologies"
+        },
+        {
+          "label": "Mazzoni D, Lin MJ, Dubin DP, Khorasani H. Review of non-invasive body contouring devices for fat reduction, skin tightening and muscle definition. Australas J Dermatol. 2019;60(4):278-283.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31168833/"
+        },
+        {
+          "label": "Mah AE, Razeghi P, Li C, et al. Incidence of Paradoxical Adipose Hyperplasia After Cryolipolysis: A Systematic Review and Meta-Analysis. Aesthet Surg J Open Forum. 2025;7:ojaf001.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12662051/"
+        },
+        {
+          "label": "Lim et al. FDA MAUDE Database Reported Adverse Events on Noninvasive Body Contouring, Cellulite Treatment, and Muscle Stimulation from 2015 to 2021. Dermatol Surg. 2022.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35916105/"
+        },
+        {
+          "label": "National Institute for Health and Care Excellence (NICE). Overweight and obesity management (NICE guideline NG246). 2023.",
+          "url": "https://www.nice.org.uk/guidance/ng246"
+        },
+        {
+          "label": "Alizadeh Z, Halabchi F, Mazaheri R, Abolhasani M, Tabesh M. Review of the Mechanisms and Effects of Noninvasive Body Contouring Devices on Cellulite and Subcutaneous Fat. Int J Endocrinol Metab. 2016;14(4):e36727.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5236497/"
+        },
+        {
+          "label": "Wulkan AJ, Vazirnia A, Avram MM. Complications With Noninvasive Fat and Cellulite Reduction Devices: A Cross-sectional Analysis of the US Food and Drug Administration Manufacturer and User Facility Device Experience Database. Dermatol Surg. 2022;48(7):727-732.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35778250/"
+        },
+        {
+          "label": "Hedayati B, Juhasz M, Chu S, Mesinkovska NA. Adverse Events Associated With Cryolipolysis: A Systematic Review of the Literature. Dermatol Surg. 2020;46(Suppl 1):S8-S15.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32976167/"
+        },
+        {
+          "label": "Kohan J, Vyas K, Erotocritou M, et al. High-Intensity Focused Electromagnetic (HIFEM) Energy With and Without Radiofrequency for Noninvasive Body Contouring: A Systematic Review. Aesthetic Plast Surg. 2024;48(5):915-926.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37957393/"
+        },
+        {
+          "label": "Friedmann DP, Kommera J, Durga P, et al. Evaluating Real-world Use and Adverse Events From 3262 Patients Treated With 18,203 Cycles of Cryolipolysis for Localized Fat Reduction: A Multilocation Practice Retrospective Chart Review. Aesthet Surg J. 2025;45(5):512-521.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39829238/"
+        },
+        {
+          "label": "Mysore V, Deepthi M, Chandrashekar BS, et al. Standard operating protocol for utilizing energy-based devices in aesthetic practice. J Cosmet Dermatol. 2024;23(12):3974-3987.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39233487/"
+        },
+        {
+          "label": "Lin F, Vachiramon V, Casabona G, et al. Microfocused Ultrasound With Visualization for Body Indications: A Global Expert Consensus on Best Practices for Treatment of the Abdomen and Arms. J Cosmet Dermatol. 2025;24(10):3450-3461.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40995829/"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "أمان نحت الجسم والمضاعفات قبل الجلسة | عيادات لا روز",
+          "en": "Body Contouring Safety, Risks and Contraindications | La Rose"
+        },
+        "description": {
+          "ar": "اعرف أمان نحت الجسم غير الجراحي ومخاطر التقنيات الخمس وفرط النمو المتناقض وموانع الاستخدام الضرورية قبل اتخاذ القرار مع استشاريي لا روز.",
+          "en": "Explore non-surgical body contouring safety, five cleared modalities, paradoxical hyperplasia risks and essential medical contraindications at La Rose."
+        }
+      }
+    }
+  ]
+}

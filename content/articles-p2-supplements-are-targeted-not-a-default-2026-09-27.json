@@ -1,0 +1,288 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of supplements-are-targeted-not-a-default; replaces the entry from articles-supplements-are-targeted-not-a-default-rewrite-2026-09-21.json. Expanded evidence, practical guidance, FAQs, internal links, and clinician review.",
+  "articles": [
+    {
+      "slug": "supplements-are-targeted-not-a-default",
+      "title": {
+        "ar": "المكملات الغذائية حسب الحاجة، مش روتين للجميع",
+        "en": "Dietary supplements should be targeted, not automatic"
+      },
+      "excerpt": {
+        "ar": "المكملات الغذائية ممكن تسد احتياج محدد، لكنها مش بديل للأكل ولا مناسبة تلقائيا لكل شخص. القرار يبدأ بسبب واضح ومراجعة الأدوية والتحاليل.",
+        "en": "Dietary supplements can meet a defined need, but they do not replace food and are not automatically right for everyone. Start with a clear reason, medication review and indicated tests."
+      },
+      "category": "clinical-nutrition",
+      "specialties": [
+        "clinical-nutrition",
+        "internal-medicine"
+      ],
+      "tags": {
+        "ar": [
+          "المكملات الغذائية",
+          "نقص العناصر",
+          "سلامة التغذية",
+          "دكتور تغذية علاجية"
+        ],
+        "en": [
+          "dietary supplements",
+          "nutrient deficiency",
+          "nutrition safety",
+          "clinical nutrition"
+        ]
+      },
+      "type": "update",
+      "date": "2026-08-26",
+      "updatedAt": "2026-09-27",
+      "readingTime": 7,
+      "author": "shimaa-fouad",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/supplements-are-targeted-not-a-default.webp",
+      "featured": false,
+      "published": true,
+      "sections": [
+        {
+          "id": "what-settled",
+          "heading": {
+            "ar": "إيه اللي استقر؟",
+            "en": "What has settled"
+          },
+          "body": {
+            "ar": "مكتب المكملات الغذائية في المعاهد الصحية الأمريكية واضح: بعض المكملات تساعد لما الأكل ما يغطيش احتياجاً معيناً أو في مرحلة صحية لها احتياج خاص، لكنها ما تاخدش مكان تنوع الأكل [1]. وكلمة «طبيعي» أو وجود المنتج على الرف ما يثبتوش إنه مفيد أو مناسب ليك، فبعض الأعشاب الـ«طبيعية» زي الكافا أثبتت إنها ممكن تضر الكبد [2].\n\nكمان، هيئة الغذاء والدواء الأمريكية ما بتراجعش سلامة أو فاعلية المكمل قبل ما يتباع؛ المصنّع هو المسؤول عن إثبات إن المنتج آمن وإن الادعاءات على العبوة صحيحة [3]. القرار الأفضل يبدأ من سبب الاستخدام، أكلك، أعراضك، أدويتك، وأي تحليل له داعي. التعب أو تساقط الشعر مثلاً لهم أسباب كتير، فبدء مجموعة مكملات عشوائية ممكن يضيّع وقت التشخيص أو يتداخل مع علاج أو تحليل.\n\nالمكملات الغذائية اسم واسع يشمل فيتامينات ومعادن وأعشاب وأحماض أمينية ومنتجات مركزة. وجود المنتج من غير روشتة ما يخليهوش خفيف أو مضمون، وكلمة طبيعي ما تقولش حاجة كفاية عن الجرعة أو النقاوة أو التداخلات. اسأل الأول: إيه الهدف المحدد؟ وإيه الدليل إن العنصر ده هو المشكلة فعلا؟ [1, 2, 6].",
+            "en": "The US National Institutes of Health Office of Dietary Supplements is clear: supplements can help when food does not cover a particular need or a life stage creates a specific requirement, but they do not replace dietary variety [1]. A product being labelled ‘natural’ or simply being available does not prove that it will help or suit you: some ‘natural’ herbs, such as kava, have been shown to harm the liver [2].\n\nThe US Food and Drug Administration also does not review a supplement’s safety or effectiveness before it reaches the market; the manufacturer is responsible for showing the product is safe and that its label claims are accurate [3]. A better decision starts with the reason for use, your diet, symptoms, medicines and any test that is actually indicated. Fatigue or hair loss, for example, has many possible causes. Starting a collection of supplements at random can delay diagnosis or interfere with a treatment or test.\n\nDietary supplements cover vitamins, minerals, herbs, amino acids and concentrated products. Availability without prescription does not make a product mild or assured, and “natural” says too little about dose, purity or interactions. First ask: what is the specific goal, and what evidence shows this ingredient addresses the actual problem? [1, 2, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تساقط الشعر",
+                "url": "../articles/hair-loss-blood-tests-first.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "hair loss",
+                "url": "../articles/hair-loss-blood-tests-first.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-a-deficiency-is-real",
+          "heading": {
+            "ar": "امتى النقص بيبقى حقيقي؟",
+            "en": "When is a deficiency real?"
+          },
+          "body": {
+            "ar": "الحديد وفيتامين D مثالين كويسين: النقص فيهم بيتأكد بتحليل دم، مش بحدس أو حسب الأعراض بس. مستوى فيتامين D في الدم لازم يكون فوق ٥٠ نانومول/لتر (٢٠ نانوجرام/مل) عشان يبقى كافي للعظم والصحة العامة، وأقل من ٣٠ نانومول/لتر (١٢ نانوجرام/مل) يعتبر نقص فعلي [5]. أما نقص الحديد فبيتطور تدريجي: الجسم بيستهلك مخزونه الأول، وبعدين تظهر أعراض زي التعب والدوخة وضعف التركيز لما المخزون يخلص [4].\n\nلو مافيش تحليل يثبت النقص، أخد جرعة عالية من غير داعي ممكن يعمل ضرر بدل ما يفيد: زيادة فيتامين D ممكن تسبب غثيان وحصوات كلى، وزيادة الحديد ممكن تسبب اضطراب معدي أو تضر الكبد. وفي حالات نادرة زي داء ترسب الأصبغة الدموية، مكملات الحديد ممنوعة أساساً [4, 5].",
+            "en": "Iron and vitamin D are good examples: a deficiency in either is confirmed by a blood test, not guessed from symptoms alone. A blood level of vitamin D needs to be above 50 nmol/L (20 ng/mL) to be adequate for bone and overall health, and below 30 nmol/L (12 ng/mL) counts as a real deficiency [5]. Iron deficiency develops gradually: the body uses its stored iron first, and symptoms such as fatigue, dizziness and poor concentration appear only once that store runs out [4].\n\nWithout a test confirming the deficiency, taking a high dose without reason can cause harm rather than help: too much vitamin D can cause nausea and kidney stones, and too much iron can upset the stomach or harm the liver. In rare cases, such as hereditary hemochromatosis, iron supplements are not safe to take at all [4, 5]."
+          }
+        },
+        {
+          "id": "practical-check",
+          "heading": {
+            "ar": "حوّل العبوات لقائمة مفهومة",
+            "en": "Turn the bottles into a useful list"
+          },
+          "body": {
+            "ar": "صوّر اسم كل منتج ومكوناته وجرعته، واكتب ليه بدأته ومين نصحك بيه. خد القائمة للطبيب أو أخصائي التغذية، خصوصاً لو بتاخد أدوية أو عندك مرض مزمن أو داخل على تحليل أو إجراء. ما توقفش مكمل موصوف لحالة معروفة من نفسك.\n\nالمكملات ممكن كمان تتعارض مع أدوية بتاخدها: الحديد مثلاً بيقلل امتصاص أدوية الغدة الدرقية زي الليفوثيروكسين، وفيتامين D بجرعات عالية ممكن يقلل فاعلية أدوية الكوليسترول (الستاتين) [4, 5]. ولو قدامك عملية جراحية، لازم تقول لطبيبك عن كل مكمل بتاخده بدري، لأن بعضها بيزود خطر النزيف أو بيأثر على التخدير [1].\n\nالهدف مش منع كل مكمل؛ الهدف إن كل واحد يبقى له سبب ومدة ومراجعة. لو السبب نقص مثبت بالتحليل، زي نقص فيتامين ب12 عند اللي بياكلوا نباتي، الخطة تراجع العلاج ومصدر النقص وإمتى إعادة التقييم بدل استمرار عبوة وراء عبوة من غير نقطة نهاية.\n\nراجع المكونات كلها، لأن منتج للطاقة ومولتي فيتامين ومشروب مدعم ممكن يكرروا نفس العنصر. اكتب الجرعة من خانة Supplement Facts وعدد الحصص الحقيقي، وما تعتمدش على اسم المنتج. خد القائمة معاك للصيدلي أو الطبيب، خصوصا مع مميعات الدم وأدوية السكر والضغط والغدة والمناعة أو قبل أي إجراء [1, 7, 8].",
+            "en": "Photograph each product name, ingredient panel and dose, then note why you started it and who advised it. Bring that list to the clinician or dietitian, especially if you take medicines, live with a chronic condition, or are preparing for a test or procedure. Do not stop a supplement prescribed for a known condition on your own.\n\nSupplements can also interact with medicines you take: iron, for example, reduces the absorption of thyroid medicines such as levothyroxine, and high-dose vitamin D can reduce how well cholesterol-lowering statins work [4, 5]. If you have surgery scheduled, tell your clinician about every supplement you take well in advance, since some increase bleeding risk or affect anaesthesia [1].\n\nThe aim is not to reject every supplement. It is to give each one a reason, duration and review point. When a deficiency is confirmed by testing, such as vitamin B12 deficiency in people eating a plant-based diet, the plan should address treatment, the cause of the deficiency and when to reassess rather than continuing bottle after bottle without an endpoint.\n\nReview every ingredient because an energy product, multivitamin and fortified drink may duplicate the same nutrient. Record the amount from the Supplement Facts panel and the actual number of servings, not the product name. Bring the list to a pharmacist or clinician, especially with blood thinners, diabetes, blood-pressure, thyroid or immune medicines, or before a procedure [1, 7, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "نقص فيتامين ب12",
+                "url": "../articles/vitamin-b12-in-plant-based-eating.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "vitamin B12 deficiency",
+                "url": "../articles/vitamin-b12-in-plant-based-eating.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "evidence-before-the-bottle",
+          "heading": {
+            "ar": "الدليل قبل العبوة",
+            "en": "Put the evidence before the bottle"
+          },
+          "body": {
+            "ar": "قبل الشراء، فرّق بين ثلاث حاجات: احتياج غذائي معروف، نقص مثبت، وادعاء تسويقي. الاحتياج المعروف ممكن يرتبط بمرحلة حياة أو نظام غذائي، والنقص المثبت يحتاج علاج سببه ومتابعة الاستجابة. أما ادعاء زي «ديتوكس» أو «حرق» أو «دعم المناعة» من غير نتيجة محددة ودليل مناسب، فمش تشخيص ولا سبب كفاية للاستخدام [1, 2, 9].\n\nحتى لما دراسة تلاقي فائدة، المنتج اللي في السوق ممكن يختلف في المكونات والجرعة عن المنتج المدروس. اسأل هل الدراسة على بشر يشبهوا حالتك، وهل النتيجة مهمة فعلا، وهل في أضرار أو تداخلات. غياب الدليل القوي مش معناه إن المنتج أكيد ما بيعملش حاجة، لكنه معناه إن اليقين أقل ولازم الحذر يزيد [2, 6].",
+            "en": "Before buying, separate three things: a recognised nutritional need, a confirmed deficiency and a marketing claim. A recognised need may relate to life stage or diet; a confirmed deficiency requires treatment of its cause and follow-up of response. A vague claim such as “detox,” “fat burn” or “immune support” without a defined outcome and suitable evidence is neither a diagnosis nor enough reason to use a product [1, 2, 9].\n\nEven when a study finds benefit, the product on sale may differ in ingredients and dose from what was studied. Ask whether the research involved people like you, whether the outcome matters, and whether harms or interactions were measured. Lack of strong evidence does not prove a product does nothing, but it lowers certainty and increases the need for caution [2, 6]."
+          }
+        },
+        {
+          "id": "interactions-and-lab-tests",
+          "heading": {
+            "ar": "التداخلات والتحاليل والعمليات",
+            "en": "Interactions, laboratory tests and procedures"
+          },
+          "body": {
+            "ar": "المكمل ممكن يغيّر امتصاص دواء أو تكسيره أو إخراجه من الجسم، فيزوّد تأثيره أو يقلله. فيتامين K مثلا ممكن يقلل تأثير الوارفارين، وعشبة سانت جون ممكن تقلل فاعلية أدوية متعددة. عشان كده سؤال «طبيعي ولا لأ؟» أقل فائدة من سؤال «بيتفاعل مع إيه؟» [1, 7, 8].\n\nبعض المنتجات تتداخل كمان مع التحاليل. البيوتين بجرعات موجودة في منتجات الشعر والأظافر ممكن يسبب نتائج معملية مضللة في اختبارات معينة، بما فيها بعض تحاليل القلب والهرمونات. ما توقفش علاج موصوف من نفسك، لكن بلّغ الطبيب والمعمل بكل منتج وجرعته قبل التحليل أو الجراحة بوقت كفاية [7, 8].\n\nلو ظهر ضيق نفس، تورم في الوجه، إغماء، ألم صدر، نزيف غير معتاد، اصفرار، قيء شديد أو تدهور سريع بعد منتج جديد، أوقف المنتج واطلب رعاية عاجلة. الأعراض الأخف برضه تستحق تسجيل اسم المنتج والدفعة ومراجعتها بدل تجربة منتج تاني فوقه [6, 8].",
+            "en": "A supplement can alter how a medicine is absorbed, metabolised or cleared, making its effect stronger or weaker. Vitamin K can reduce warfarin’s effect, while St John’s wort can reduce the effectiveness of several medicines. “What can it interact with?” is therefore more useful than “Is it natural?” [1, 7, 8].\n\nSome products also interfere with laboratory tests. Biotin amounts found in hair-and-nail products can produce misleading results in certain tests, including some cardiac and hormone assays. Do not stop prescribed treatment on your own, but tell the clinician and laboratory every product and amount well before testing or surgery [7, 8].\n\nBreathing difficulty, facial swelling, fainting, chest pain, unusual bleeding, jaundice, severe vomiting or rapid deterioration after a new product needs urgent care and the product should be stopped. Milder effects still deserve documentation of the product and batch and a review rather than adding another product on top [6, 8]."
+          }
+        },
+        {
+          "id": "a-targeted-decision",
+          "heading": {
+            "ar": "قرار له هدف ومدة ونقطة مراجعة",
+            "en": "A decision with a goal, duration and review point"
+          },
+          "body": {
+            "ar": "القرار المستهدف يتكتب في سطر: العنصر ده مطلوب عشان سبب محدد، بالجرعة اللي حددها المختص، ولمدة أو لحد مراجعة معينة. نقطة المراجعة ممكن تكون تحسن عرض، إعادة تحليل، تغير مرحلة صحية، أو التأكد إن السبب اتعالج. الاستمرار التلقائي سنين لمجرد إن العبوة خلصت واشتريت غيرها مش متابعة [1, 10].\n\nفي الحمل والرضاعة والأطفال وكبار السن ومرضى الكلى أو الكبد، مساحة الأمان ممكن تختلف، والبيانات عن أعشاب كتير محدودة. نفس الكلام قبل العمليات أو مع أدوية كتير. لو المنتج له فائدة محتملة حقيقية، المراجعة الفردية بتحافظ عليها وتقلل الضرر؛ ولو مفيش هدف واضح، أبسط خطوة آمنة غالبا إنك ما تبدأش قبل ما تسأل [2, 6, 7].",
+            "en": "A targeted decision fits in one sentence: this ingredient is being used for a defined reason, at the amount selected by a professional, until a specified review. The review may assess symptom response, repeat a test, account for a life-stage change or confirm that the cause was corrected. Automatically continuing for years because one bottle finished and another was bought is not follow-up [1, 10].\n\nSafety margins may differ in pregnancy, breastfeeding, childhood, older age and kidney or liver disease, while evidence for many herbs is limited. The same caution applies before surgery or with several medicines. If a product has a plausible benefit, individual review protects that benefit while reducing harm; if there is no clear goal, the simplest safe step is usually not to start before asking [2, 6, 7]."
+          }
+        },
+        {
+          "id": "quality-and-when-to-ask",
+          "heading": {
+            "ar": "الجودة، ومتى تسأل قبل ما تبدأ",
+            "en": "Quality, and when to ask before you start"
+          },
+          "body": {
+            "ar": "المكملات مش بتتراقب زي الأدوية: مافيش موافقة من الهيئة قبل ما تنزل السوق، والشركة المصنّعة هي اللي مسؤولة عن الجودة والالتزام بقواعد التصنيع الجيد [2, 3]. وده بيفسر ليه بعض المنتجات في السوق طلعت فيها جرعات مختلفة عن المكتوب على العبوة، أو مكونات مش متسجلة أصلاً [2]. اختيار منتج من شركة معروفة ومراجَعة ما بيضمنش الفاعلية، لكنه بيقلل من احتمال وجود تلوث أو خطأ في التصنيع.\n\nفي الحمل أو الرضاعة، أو لو بتفكر تجيب مكمل لطفلك، خلي القرار مع طبيبك، لأن معظم المكملات ما اتعملش عليها دراسات كافية في الحمل والرضاعة والأطفال [1, 2]. وفي كل الحالات، لو حسيت بأي عرض جانبي غريب بعد مكمل جديد، وقّف وكلّم طبيبك أو أخصائي التغذية بدل ما تستنى يعدي.\n\nقبل ما تبدأ، اعمل مراجعة سريعة من خمس أسئلة: هل عندي سبب محدد؟ هل الأكل أو التحليل يثبت الاحتياج؟ هل المنتج بيكرر مكون موجود عندي؟ هل يتعارض مع دواء أو مرض أو تحليل قريب؟ وإمتى هراجع القرار؟ لو سؤال منهم من غير إجابة، وقف عنده بدل ما تعتبر العبوة تجربة بسيطة. احتفظ بصورة الملصق عشان المقارنة تبقى دقيقة في الزيارة [1, 6, 8].\n\nخلي بالك كمان من الوعود الكبيرة واللغة المستعجلة. منتج بيقول إنه يعالج مرض، يضمن نزول وزن، أو يغني عن دواء محتاج مراجعة شديدة؛ المكمل ما يتاخدش بديل لعلاج موصوف ولا سبب لتأخير تشخيص. ولو الدافع عرض عام زي التعب أو ضعف التركيز، تقييم النوم والأكل والأدوية والأسباب الطبية أهم من افتراض إن المشكلة نقص فيتامين واحد [1, 3, 9].\n\nلو محتاج تربط المعلومات دي بتاريخك الصحي وخطتك الحالية، تقدر تحجز تقييم وتراجع القرار مع الطبيب أو أخصائي التغذية.",
+            "en": "Supplements are not regulated like medicines: there is no pre-market approval, and the manufacturer is responsible for quality and following good manufacturing practice [2, 3]. This is part of why some products on the market have been found to contain different doses than the label states, or ingredients not listed at all [2]. Choosing a product from a well-known, tested brand does not guarantee it will work, but it does reduce the chance of contamination or a manufacturing error.\n\nIf you are pregnant, breastfeeding, or considering a supplement for your child, leave the decision to your clinician, since most supplements have not been studied enough in pregnancy, breastfeeding or childhood [1, 2]. In every case, if you notice an unusual side effect after starting a new supplement, stop and contact your clinician or dietitian rather than waiting it out.\n\nBefore starting, use five quick questions: Do I have a specific reason? Does diet or testing support the need? Does the product duplicate something I already take? Could it interact with a medicine, condition or upcoming test? When will I review the decision? If one answer is missing, pause there rather than treating the bottle as a harmless experiment. Keep a photo of the label so the visit uses exact information [1, 6, 8].\n\nBe cautious with sweeping promises and urgent language. A product claiming to treat disease, guarantee weight loss or replace medicine deserves particular scrutiny; a supplement should not replace prescribed treatment or delay diagnosis. When the reason is a broad symptom such as fatigue or poor concentration, reviewing sleep, food, medicines and medical causes matters more than assuming one vitamin is missing [1, 3, 9].\n\nIf you need to connect this information with your health history and current plan, you can book an assessment and review the decision with the clinician or dietitian."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز تقييم",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book an assessment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل لازم أعمل تحاليل قبل أي مكمل؟",
+            "en": "Do I need blood tests before every supplement?"
+          },
+          "a": {
+            "ar": "لأ. بعض الاحتياجات تتحدد من المرحلة الصحية أو التاريخ الغذائي، وبعضها يحتاج تحليلاً موجهاً زي فيتامين D والحديد. الطبيب يحدد الاختبار لما نتيجته هتغيّر القرار [1].",
+            "en": "No. Some needs are identified from life stage or dietary history, while others, such as vitamin D and iron, require a targeted test. A clinician selects testing when the result will change the decision [1]."
+          }
+        },
+        {
+          "q": {
+            "ar": "المصدر الطبيعي يعني إن زيادة الجرعة مش هتضر؟",
+            "en": "If a nutrient comes from a natural source, does a higher dose stop being risky?"
+          },
+          "a": {
+            "ar": "لأ. حتى الفيتامينات والمعادن الطبيعية بتضر لو اتاخدت بكميات كبيرة: زيادة فيتامين D ممكن تسبب غثيان وحصوات كلى، وزيادة الحديد ممكن تضر الكبد وتوصل لحالات خطيرة في الجرعات العالية جداً [4, 5].",
+            "en": "No. Even naturally occurring vitamins and minerals cause harm at high amounts: too much vitamin D can cause nausea and kidney stones, and too much iron can damage the liver and, at very high doses, become dangerous [4, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "آمن آخد أكتر من مكمل في نفس الوقت؟",
+            "en": "Is it safe to take several supplements at once?"
+          },
+          "a": {
+            "ar": "مش دايماً. بعض المكملات بتتعارض مع بعض أو مع أدوية بتاخدها، وبعض المنتجات في السوق فيها جرعات أو مكونات مختلفة عن المكتوب على العبوة. اعرض القائمة كاملة على طبيبك أو أخصائي التغذية قبل ما تجمع بين أكتر من منتج [2, 3].",
+            "en": "Not always. Some supplements interact with each other or with medicines you take, and some products on the market have been found to contain different doses or ingredients than the label states. Show your full list to your clinician or dietitian before combining more than one product [2, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل كلمة طبيعي معناها إن المنتج آمن؟",
+            "en": "Does “natural” mean a product is safe?"
+          },
+          "a": {
+            "ar": "لأ. المادة الطبيعية ممكن تعمل أثر قوي أو سمية أو تداخل مع دواء، وجودة المنتجات بتختلف. الأمان يعتمد على المكون والجرعة والحالة الصحية والأدوية وطريقة التصنيع [2, 6].",
+            "en": "No. A natural substance can have strong effects, toxicity or medicine interactions, and product quality varies. Safety depends on the ingredient, amount, health condition, medicines and manufacturing [2, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل المكمل ممكن يبوظ نتيجة تحليل؟",
+            "en": "Can a supplement distort a laboratory result?"
+          },
+          "a": {
+            "ar": "أيوه. بعض المكونات زي البيوتين ممكن تتداخل مع طرق قياس معملية معينة وتطلع نتيجة مضللة. بلغ الطبيب والمعمل باسم كل منتج وجرعته قبل التحليل، وما توقفش علاج موصوف من نفسك [7, 8].",
+            "en": "Yes. Ingredients such as biotin can interfere with some laboratory methods and create misleading results. Tell the clinician and laboratory every product and amount before testing, and do not stop prescribed treatment on your own [7, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أختار المكمل من عدد المكونات الأكبر؟",
+            "en": "Should I choose the product with the most ingredients?"
+          },
+          "a": {
+            "ar": "لأ. المكونات الكتير تزود فرصة التكرار والتداخل وتصعب معرفة سبب أي عرض جانبي. الأفضل منتج يطابق احتياج واضح وبكمية مفهومة، بعد مراجعة الأكل والأدوية والتحاليل المطلوبة [1, 3].",
+            "en": "No. More ingredients increase duplication and interaction risk and make side effects harder to trace. Prefer a product that matches a clear need in a known amount after reviewing diet, medicines and indicated tests [1, 3]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIH Office of Dietary Supplements، Dietary Supplements: What You Need to Know",
+          "url": "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/"
+        },
+        {
+          "label": "NCCIH، Using Dietary Supplements Wisely",
+          "url": "https://www.nccih.nih.gov/health/using-dietary-supplements-wisely"
+        },
+        {
+          "label": "FDA، Dietary Supplements",
+          "url": "https://www.fda.gov/food/dietary-supplements"
+        },
+        {
+          "label": "NIH Office of Dietary Supplements، Iron: Fact Sheet for Consumers",
+          "url": "https://ods.od.nih.gov/factsheets/Iron-Consumer/"
+        },
+        {
+          "label": "NIH Office of Dietary Supplements، Vitamin D: Fact Sheet for Consumers",
+          "url": "https://ods.od.nih.gov/factsheets/VitaminD-Consumer/"
+        },
+        {
+          "label": "FDA — Mixing Medications and Dietary Supplements Can Endanger Your Health",
+          "url": "https://www.fda.gov/consumers/consumer-updates/mixing-medications-and-dietary-supplements-can-endanger-your-health"
+        },
+        {
+          "label": "NCCIH — Safe Use of Complementary Health Products and Practices",
+          "url": "https://www.nccih.nih.gov/health/safety"
+        },
+        {
+          "label": "FDA — FDA 101: Dietary Supplements",
+          "url": "https://www.fda.gov/consumers/consumer-updates/fda-101-dietary-supplements"
+        },
+        {
+          "label": "NCCIH — How Medications and Supplements Can Interact",
+          "url": "https://www.nccih.nih.gov/health/know-science/how-medications-and-supplements-can-interact/learn-more"
+        },
+        {
+          "label": "NIH Office of Dietary Supplements — Frequently Asked Questions",
+          "url": "https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions/"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "المكملات الغذائية حسب الحاجة مش للجميع",
+          "en": "Dietary supplements: targeted, not automatic"
+        },
+        "description": {
+          "ar": "دليل آمن للمكملات الغذائية: إمتى يكون لها هدف، إزاي تراجع المكونات والتداخلات والتحاليل، وليه الطبيعي مش معناه آمن بشكل عملي.",
+          "en": "A safety guide to targeted supplements, ingredient review, medicine and test interactions, and why natural does not automatically mean safe."
+        }
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسع دليل المكملات الغذائية بالدليل والتداخلات ونقطة المراجعة، واتراجع طبيا من جديد.",
+            "en": "The dietary-supplement guide was expanded with evidence checks, interactions and review points, and medically re-reviewed."
+          }
+        }
+      ]
+    }
+  ]
+}

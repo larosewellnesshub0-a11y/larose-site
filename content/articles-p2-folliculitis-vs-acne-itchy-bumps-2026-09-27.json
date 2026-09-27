@@ -1,0 +1,298 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of folliculitis-vs-acne-itchy-bumps; replaces the entry from content/articles.json. Expanded clinical differentiation between folliculitis and acne vulgaris, fungal and bacterial types, daily habits, clinical evaluation, warning signs, FAQs, verified authoritative sources and internal links with assigned reviewer.",
+  "articles": [
+    {
+      "slug": "folliculitis-vs-acne-itchy-bumps",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "dermatology",
+      "specialties": [
+        "dermatology"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "shimaa-fouad",
+      "reviewedBy": "alyaa-abu-taleb",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا الفروق الطبية بين التهاب البصيلات وحب الشباب، وأسباب الحبوب اللي بتحك وطرق التقييم والخيارات العلاجية، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the clinical distinctions between folliculitis and acne, causes of itchy papules, assessment pathways and management options, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "image": "assets/img/articles/acne-care-is-gentle-not-aggressive.webp",
+      "title": {
+        "ar": "حبيبات بتحك: إمتى تكون التهاب بصيلات مش حب شباب؟",
+        "en": "Itchy bumps: when is it folliculitis rather than acne?"
+      },
+      "excerpt": {
+        "ar": "مش كل حبة بتظهر في الوش أو الضهر بتكون حب شباب عادي. الحبوب اللي بتحك وبتشبه بعضها ممكن تكون التهاب في بصيلات الشعر بسبب فطريات أو بكتيريا أو احتكاك. اعرف إزاي تفرق بينهم، وإمتى تحتاج كشفاً متخصصاً.",
+        "en": "Not every bump appearing on the face, chest, or back is classic acne vulgaris. Uniform itchy bumps often point to hair follicle inflammation caused by yeast, bacteria, or friction. Learn how to tell them apart and when clinical evaluation is needed."
+      },
+      "tags": {
+        "ar": [
+          "حبيبات بتحك",
+          "التهاب بصيلات الشعر",
+          "حب الشباب",
+          "فطريات الجلد",
+          "عناية بالبشرة"
+        ],
+        "en": [
+          "itchy bumps",
+          "folliculitis",
+          "acne vulgaris",
+          "fungal acne",
+          "skincare"
+        ]
+      },
+      "sections": [
+        {
+          "id": "acne-vs-folliculitis-core-difference",
+          "heading": {
+            "ar": "الفرق الأساسي بين حب الشباب والتهاب بصيلات الشعر",
+            "en": "The main difference between acne and folliculitis"
+          },
+          "body": {
+            "ar": "كتير من الناس لما بتطلع لهم حبوب حمرا أو رؤوس بيضا في الوش أو الصدر أو الكتف بيفترضوا إن ده حب شباب [1, 8, 10]. بس حب الشباب والتهاب بصيلات الشعر مش نفس المشكلة، والخلط بينهم ممكن يخلي الشخص يجرب غسولاً ومقشرات أو مضادات حيوية شهور من غير تحسن، وممكن الجلد يتهيج أكتر [1, 2, 8]. حب الشباب بيبدأ لما الدهون وخلايا الجلد الميتة تسد بصيلات الشعر، ومن أوضح علاماته الرؤوس البيضا والسودا المعروفة بالكوميدون (Comedones) [1, 8, 10, 11]. كمان شكله بيكون متنوع في نفس المكان: رؤوس سودا، وحبيبات حمرا، وحبوب فيها صديد، وأحياناً كتل أعمق ومؤلمة. الحكة عادةً مش العرض الأساسي [1, 8, 11].\n\nأما التهاب بصيلات الشعر (Folliculitis) فهو التهاب أو عدوى حوالين المكان اللي بتطلع منه الشعرة [7, 8, 9]. من العلامات اللي بتخلي الطبيب يفكر فيه إن الحبوب غالباً بتكون شبه بعض في الحجم والشكل: حبيبات حمرا صغيرة أو حبوب فيها نقطة صديد، وكل واحدة طالعة حوالين شعرة [2, 7, 8, 9]. ممكن كمان تعمل حكة أو لسعة وحرقان، خصوصاً مع العرق والحرارة والاحتكاك [2, 8, 9]. عشان كده الطبيب بيفحص وجود الرؤوس السودا والبيضا، وكمان شكل الحبوب حوالين الشعر. حبوب متشابهة وبتحك من غير رؤوس سودا ممكن ترجح التهاب البصيلات، لكن الكشف مهم لأن الحالتين ممكن يجتمعوا [2, 8]. لحد ما السبب يتحدد، العناية الهادية أفضل لحاجز الجلد من الفرك أو تغيير المنتجات كل شوية [1, 10, 11].",
+            "en": "When red bumps or small pus-filled spots appear on the face, chest, shoulders, or back, many people assume they have acne [1, 8, 10]. But acne and folliculitis are different problems, and mixing them up can lead to months of acne cleansers, exfoliating acids, or antibiotics that do not help and may irritate the skin [1, 2, 8]. Acne starts when oil and dead skin cells block hair follicles and bacteria add to the inflammation. Its clearest clue is comedones: closed whiteheads and open blackheads [1, 8, 10, 11]. Acne also tends to show several types of spot at once, such as blackheads, red bumps, pus-filled spots, and sometimes deeper tender lumps. Itching is usually not the main symptom [1, 8, 11].\n\nFolliculitis is inflammation or infection around the part of the skin where a hair grows [7, 8, 9]. A useful clue is that the bumps often look very similar in size and shape. They may be small red domes or tiny pus-filled spots, each sitting around a hair [2, 7, 8, 9]. Folliculitis can also cause clear itching, stinging, or burning, especially with sweat, heat, or rubbing [2, 8, 9]. A clinician therefore checks the skin for blackheads and whiteheads as well as the pattern around the hairs. A group of similar itchy bumps without blackheads may point more toward folliculitis, but an examination is needed because the two conditions can overlap [2, 8]. Until the cause is clear, gentle acne care is safer for the skin barrier than harsh scrubbing or repeated product changes [1, 10, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "العناية بحب الشباب تكون هادية مش عنيفة",
+                "url": "../articles/acne-care-is-gentle-not-aggressive.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "gentle rather than aggressive acne care",
+                "url": "../articles/acne-care-is-gentle-not-aggressive.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "pityrosporum-malassezia-fungal-folliculitis",
+          "heading": {
+            "ar": "حبوب فطرية بتشبه حب الشباب: حكاية بصيلات مالاسيزيا",
+            "en": "Fungal bumps resembling acne: the story of Malassezia folliculitis"
+          },
+          "body": {
+            "ar": "التهاب بصيلات مالاسيزيا (Malassezia folliculitis) من الحالات اللي ممكن تشبه حب الشباب. كان اسمه زمان التهاب بصيلات بيتروسبورم، وعلى الإنترنت بيتقال عليه «حب الشباب الفطري»، مع إنه التهاب بصيلات مش حب شباب [2, 3, 4, 8]. مالاسيزيا نوع من الخمائر اللي بتعيش بشكل طبيعي على الجلد وبتستفيد من الدهون اللي بتفرزها الغدد الدهنية [2, 4]. لو زادت جوه بصيلة الشعر ممكن تعمل التهاباً يظهر كحبيبات صغيرة شبه بعض وبتحك، أو حبوب سطحية فيها صديد [2, 3, 8]. بتظهر أكتر في المناطق الدهنية واللي بتعرق، زي أعلى الصدر والضهر والكتفين والرقبة، وأحياناً الجبهة وخط الشعر [2, 3, 8].\n\nالحبوب دي ممكن تتفهم غلط على إنها حب شباب في الصدر أو الضهر، فيستخدم الشخص مضاداً حيوياً من نوع التتراسيكلين [2, 4, 8]. المضاد الحيوي مش بيعالج الخمائر، وممكن يغير التوازن الطبيعي للكائنات على الجلد، وده ممكن يخلي التهاب مالاسيزيا يزيد عند بعض الناس [2, 4, 8]. العرق الكتير، والرياضة، والجو الحار الرطب، والهدوم الرياضية الصناعية الضيقة، والزيوت التقيلة على الجسم ممكن كمان توفر ظروف تساعد الخمائر على النمو [2, 3, 4]. الطبيب ممكن يفكر في التهاب مالاسيزيا لما تكون فيه حبوب متشابهة وبتحك على الجسم، ومش بتتحسن مع عناية حب الشباب المعتادة أو بتزيد بعد المضاد الحيوي [2, 3, 8].",
+            "en": "Malassezia folliculitis is one condition that can look like acne. It used to be called Pityrosporum folliculitis and is often called “fungal acne” online, although it is folliculitis rather than acne [2, 3, 4, 8]. Malassezia is a type of yeast that normally lives on the skin and uses oils from the oil glands [2, 4]. If too much of it grows inside a hair follicle, it can cause inflammation. The result may be groups of small, similar-looking itchy bumps or shallow pus-filled spots [2, 3, 8]. They are more common on oily, sweaty areas such as the upper chest, upper back, shoulders, neck, and sometimes the forehead or hairline [2, 3, 8].\n\nThe bumps may be mistaken for acne on the chest or back, leading someone to use a tetracycline-type antibiotic [2, 4, 8]. Antibiotics do not treat yeast and may change the normal mix of organisms on the skin, which can allow Malassezia folliculitis to get worse in some people [2, 4, 8]. Heavy sweating, exercise, hot humid weather, tight synthetic sports clothing, and heavy body oils may also help create conditions in which the yeast grows [2, 3, 4]. A clinician may consider Malassezia folliculitis when a group of similar itchy bumps on the trunk does not improve with usual acne care or becomes worse after antibiotics [2, 3, 8]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "bacterial-folliculitis-and-shaving-bumps",
+          "heading": {
+            "ar": "التهاب البصيلات البكتيري وحبوب الحلاقة والاحتكاك اليومي",
+            "en": "Bacterial folliculitis, shaving bumps, and daily friction"
+          },
+          "body": {
+            "ar": "بجانب السبب الفطري، فيه أسباب تانية مهمة بتعمل التهاب البصيلات، وعلى رأسها الالتهاب البكتيري السطحي [7, 8, 9]. التهاب البصيلات البكتيري غالباً بتسببه بكتيريا المكورات العنقودية الذهبية (Staphylococcus aureus)، وبيظهر على هيئة بثور صفراء صغيرة محاطة بهالة حمراء من الالتهاب، مع إحساس بالحرقة أو الوجع الخفيف عند لمس الشعرة [7, 9]. النوع ده ممكن يحصل في أي مكان فيه شعر، زي منطقة اللحية، والفخذين، والإبطين، وفروة الرأس [7, 9]. وفيه نوع بكتيري مميز بيظهر بعد استخدام حمامات الجاكوزي أو حمامات السباحة الدافئة غير المعقمة كويس بالكلور، وبتسببه بكتيريا الزائفة الزنجارية (Pseudomonas aeruginosa)، وبيظهر بعد يوم أو يومين في الأماكن اللي كانت متغطية بملابس السباحة المبلولة [7, 9].\n\nفيه كمان مشكلة شائعة جداً اسمها التهاب البصيلات الكاذب في منطقة اللحية (Pseudofolliculitis barbae)، ودي بتظهر أساساً عند الرجالة اللي بيحلقوا شعر الدقن والرقبة بشكل قريب جداً من سطح الجلد بالموس، خصوصاً اللي طبيعة شعرهم كيرلي أو مجعد [5, 6]. اللي بيحصل هنا مش عدوى ميكروبية في الأول، بل إن الشعرة المحلوقة بزاوية حادة بتلف وترجع تغرز سنها في الجلد المحيط بالبصيلة كجسم غريب، فبتعمل حبيبات حمراء ملتهبة ومؤلمة جداً وممكن تعمل بقعاً داكنة وتندبات مع الوقت [5, 6]. وكمان الاحتكاك الميكانيكي المستمر (Mechanical folliculitis) بسبب البناطيل الجينز الضيقة أو حزام الشنطة التقيل أو فرك الجلد المستمر بيعمل تهيجاً مباشراً في البصيلة [8, 9]. التمييز بين الحالات دي وبين تقييم حب الشباب العميق المؤلم بيساعد الطبيب يحدد هل المشكلة محتاجة تعديل عادات الحلاقة، ولا تعاملاً مع بكتيريا محددة، ولا خطة متكاملة لمشكلة جلدية تانية [1, 5, 7, 8].",
+            "en": "Folliculitis can also have other causes, including a shallow bacterial infection [7, 8, 9]. Bacterial folliculitis is often linked to Staphylococcus aureus. It may appear as small pus-filled spots with a red rim and cause mild pain or burning around a hair [7, 9]. It can develop anywhere hair grows, including the beard area, scalp, buttocks, thighs, and armpits [7, 9]. Hot-tub folliculitis is another form. It is linked to Pseudomonas aeruginosa in poorly chlorinated hot tubs or warm pools and may appear within 24 to 48 hours, often under areas covered by wet swimwear [7, 9].\n\nShaving bumps, called pseudofolliculitis barbae, can also look like acne or an infection. They are more common after a very close shave, especially in people with curly or coarse facial hair [5, 6]. This problem starts when a cut hair curves back or grows into nearby skin and triggers inflammation rather than starting as an infection. It can cause painful red bumps, pus-filled spots, dark marks, and sometimes raised scars [5, 6]. Repeated rubbing or pressure from tight jeans, sports gear, heavy backpack straps, or tight collars may also irritate follicles [8, 9]. Telling these patterns apart from deep painful acne helps the clinician decide whether the plan should focus on shaving habits, a possible bacterial cause, or another skin problem [1, 5, 7, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تقييم حب الشباب العميق المؤلم",
+                "url": "../articles/deep-painful-acne-when-to-assess.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "assessment of deep painful acne",
+                "url": "../articles/deep-painful-acne-when-to-assess.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "safe-daily-habits-and-what-to-avoid",
+          "heading": {
+            "ar": "خطوات العناية اليومية السليمة: إيه اللي تعمله وإيه اللي تبعد عنه؟",
+            "en": "Safe daily skincare habits: what to do and what to avoid"
+          },
+          "body": {
+            "ar": "سواء الحبوب سببها حب الشباب أو التهاب البصيلات، روتين يومي هادي ممكن يهدي الجلد ويقلل فرصة الآثار اللي بتفضل [1, 2, 7, 9]. حاول ما تعصرش الحبوب أو تفرقعها، وابعد عن الليفة الخشنة أو فرش الجسم على الصدر والضهر [1, 9, 10]. العصر ممكن يقطع جدار البصيلة ويدفع الالتهاب والميكروبات لطبقات أعمق، فيزود احتمال الدمامل المؤلمة أو البقع الداكنة أو الندبات [1, 5, 9]. الفرك العنيف ممكن كمان يضعف حاجز الجلد ويزود الاحمرار والتهيج [1, 10, 11].\n\nغيّر الهدوم المبلولة بالعرق بعد التمرين بوقت قريب، وخد دش بمية فاترة وغسول لطيف. العرق والدهون المحبوسة تحت قماش صناعي ضيق ممكن يساعدوا الخمائر والبكتيريا على النمو [2, 3, 7, 9]. لو زيوت الجسم التقيلة أو الكريمات السميكة أو زيوت الشعر بتوصل للجبهة أو الرقبة أو الكتف، فكر تستبدلها بمنتج خفيف مائي ومكتوب عليه إنه مش بيسد المسام (Non-comedogenic) [1, 2, 8, 10]. في الحلاقة، استخدم شفرة نظيفة بنصل واحد، واحلق في اتجاه نمو الشعر، وما تشدش الجلد، واستخدم جل حلاقة من غير كحول [5, 6]. روتين بسيط في البيت ممكن يدعم حاجز الجلد لحد ما السبب يتحدد [1, 10, 11].",
+            "en": "Whether the bumps come from acne or follicle inflammation, a gentle daily routine can calm the skin and reduce the chance of lasting marks [1, 2, 7, 9]. Try not to squeeze, pick, or pop them, and avoid rough loofahs or body brushes on the chest and back [1, 9, 10]. Squeezing can break the follicle wall and push inflammation and germs deeper into the skin, increasing the chance of painful boils, dark marks, or scars [1, 5, 9]. Hard scrubbing can also damage the skin barrier and cause more redness and irritation [1, 10, 11].\n\nChange out of sweaty clothes soon after exercise and shower with lukewarm water and a mild cleanser. Sweat and oil trapped under tight synthetic fabric may encourage yeast and bacteria to grow [2, 3, 7, 9]. If heavy body oils, thick creams, or hair pomades reach the forehead, neck, or shoulders, consider switching to a light water-based product labelled non-comedogenic [1, 2, 8, 10]. For shaving, use a clean single-blade razor, move it in the direction of hair growth, avoid pulling the skin tight, and use an alcohol-free shaving gel [5, 6]. A simple home routine can support the skin barrier while the cause of the bumps is being worked out [1, 10, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "روتين العناية المنزلية الآمنة لحب الشباب",
+                "url": "../articles/acne-safe-home-care-and-when-to-check.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "safe home care routine for acne",
+                "url": "../articles/acne-safe-home-care-and-when-to-check.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "clinical-assessment-and-treatment-options",
+          "heading": {
+            "ar": "التقييم السريري في العيادة والخيارات اللي بيفكر فيها الطبيب",
+            "en": "Clinical assessment in the clinic and treatments a doctor may consider"
+          },
+          "body": {
+            "ar": "لما الحبوب اللي بتحك ترجع كتير أو ما تهداش، استشارة الجلدية ممكن تساعد في تحديد السبب المرجح بدل التجارب المتكررة [1, 2, 7, 8]. الطبيب بيسأل الحبوب بدأت إمتى، وهل الحكة ولا الوجع هو العرض الأساسي، وإيه الأدوية والمكملات المستخدمة، وهل شكلها بيتغير بعد الرياضة أو السباحة أو الحلاقة أو المضادات الحيوية [1, 2, 7, 8]. الاستشارة بتشمل فحص الجلد وفروة الرأس، ومراجعة التاريخ الصحي والأدوية وأي تحاليل موجودة لها علاقة بالمشكلة. الهدف هو تحديد هل السبب غالباً موضعي في الجلد ولا مرتبط بعامل داخلي، وبعدها تاخد خطة مكتوبة. لو الشكل مش معتاد أو العلاج ما نفعش، الطبيب ممكن يقرر إن فيه احتياج لكحت جلدي أو مسحة بكتيرية أو فحص تاني [2, 3, 7, 8].\n\nالعلاج بيتحدد حسب السبب المرجح؛ والأمثلة هنا اختيارات ممكن الطبيب يفكر فيها، مش علاجات تبدأها من نفسك [1, 2, 3, 7, 12]. في التهاب مالاسيزيا، ممكن الطبيب يفكر في غسول مضاد للفطريات زي الكيتوكونازول، أو دواء مضاد للفطريات بالفم لو الحالة منتشرة أو صعبة العلاج، بعد مراجعة المخاطر الطبية ووظائف الكبد واحتمال الحمل [2, 3, 4]. في التهاب البصيلات البكتيري السطحي، ممكن يكون غسول البنزويل بيروكسايد أو مضاد حيوي موضعي موجه مناسباً في بعض الحالات [1, 7, 12]. ولو التشخيص حب شباب، الإرشادات بتشمل تركيبات زي ريتينويد موضعي مع البنزويل بيروكسايد أو حمض الأزليك. المضاد الحيوي الموضعي عادةً ما بيتستخدمش لوحده بسبب مقاومة المضادات [1, 11, 12].",
+            "en": "When itchy bumps keep returning or do not settle, a dermatology consultation can help identify the likely cause instead of relying on repeated trial and error [1, 2, 7, 8]. The clinician asks when the bumps began, whether itching or pain is the main symptom, which medicines and supplements you use, and whether the pattern changes after exercise, swimming, shaving, or antibiotics [1, 2, 7, 8]. The consultation includes a skin and scalp examination and a review of your history, medicines, and any relevant laboratory results. The aim is to decide whether the cause is likely to be local to the skin or linked to an internal factor, and to give you a written plan. If the appearance is unusual or treatment has failed, the clinician may decide that a skin scraping, bacterial swab, or another test is needed [2, 3, 7, 8].\n\nTreatment depends on the likely cause; the examples here are options a doctor may consider, not products to start on your own [1, 2, 3, 7, 12]. For Malassezia folliculitis, a doctor may consider an antifungal wash such as ketoconazole, or an oral antifungal for a widespread or hard-to-treat case after checking medical risks, liver health, and pregnancy status [2, 3, 4]. For shallow bacterial folliculitis, a benzoyl peroxide wash or a targeted topical antibiotic may be considered when appropriate [1, 7, 12]. If the diagnosis is acne, guidelines include combinations such as a topical retinoid with benzoyl peroxide or azelaic acid. Topical antibiotics are generally not used alone because of antibiotic resistance [1, 11, 12]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "red-flags-and-booking",
+          "heading": {
+            "ar": "علامات الإنذار اللي تستدعي رعاية سريعة ومسار الكشف في لاروز",
+            "en": "Warning signs requiring prompt care and the consultation pathway at La Rose"
+          },
+          "body": {
+            "ar": "فيه علامات إنذار محتاجة رعاية طبية عاجلة في نفس اليوم، وبعض الناس ممكن تحتاج دخول المستشفى [1, 7, 9, 11]. اطلب مساعدة عاجلة لو الحبوب الصغيرة اتحولت بسرعة لتورمات كبيرة ومؤلمة جداً تحت الجلد، أو لو مساحة من الاحمرار والسخونة والتصلب بتنتشر حواليها. التغيرات دي ممكن تشير لدمل عميق أو مجموعة دمامل أو التهاب خلوي محتاج تقييماً وعلاجاً بسرعة [7, 9]. السخونية، والرعشة، والغدد المؤلمة والمتورمة في الرقبة أو الفخذ، أو كمية كبيرة من الصديد بريحة وحشة محتاجين رعاية عاجلة كمان [7, 9]. اطلب المساعدة بسرعة لو فيه تورم واضح في منتصف الوش أو حوالين العين، وخد رأي طبي بدري لو عندك سكر أو ضعف مناعة [7, 9].\n\nلو الحبوب مش حالة عاجلة لكنها مستمرة في الحكة، أو بتنتشر على الجسم، أو بترجع بعد الحلاقة، أو بتسيب بقعاً داكنة، احجز تقييماً عادياً في الجلدية [1, 2, 7, 8]. في عيادات لاروز، الاستشارة بتشمل فحص الجلد وفروة الرأس، وأسئلة عن الأعراض والعادات اليومية، ومراجعة الأدوية وأي تحاليل لها علاقة بالمشكلة. الطبيب بيفكر هل السبب غالباً موضعي ولا داخلي، وبيديك خطة مكتوبة. وفريق الجلدية ممكن ينسق مع فريقي التغذية والباطنة لما يكون ده مناسباً. تقدر تطلب استشارة جلدية من رابط الحجز.",
+            "en": "Some warning signs need same-day urgent medical care; some people may need hospital admission [1, 7, 9, 11]. Seek urgent help if small bumps quickly become large, very painful swellings under the skin, or if an area of redness, warmth, and firmness is spreading around them. These changes may point to a deep boil, a cluster of boils, or cellulitis that needs prompt assessment and treatment [7, 9]. Fever, shaking chills, painful swollen glands in the neck or groin, or a large amount of bad-smelling pus also need urgent care [7, 9]. Get prompt help as well for marked swelling around the middle of the face or eyes, and seek advice early if you have diabetes or a weakened immune system [7, 9].\n\nIf the bumps are not urgent but keep itching, spread across the body, return after shaving, or leave dark marks, book a routine dermatology assessment [1, 2, 7, 8]. At La Rose Clinics, the consultation includes examination of the skin and scalp, questions about symptoms and daily habits, and a review of medicines and relevant laboratory results. The clinician considers whether the cause is likely to be local or internal and provides a written plan. Dermatology can also coordinate with the nutrition and internal-medicine teams when that is relevant. You can request a dermatology consultation through the booking link."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد استشارة جلدية",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a dermatology consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الحكة الشديدة في الحبوب معناها إنها مش حب شباب عادي؟",
+            "en": "Does intense itching in bumps mean it is not typical acne vulgaris?"
+          },
+          "a": {
+            "ar": "غالباً الحكة القوية والمستمرة مش من العلامات المعتادة لحب الشباب. الحبوب الملتهبة ممكن توجع، لكن الحكة نادراً ما بتكون الشكوى الأساسية [1, 8, 11]. الحبوب الصغيرة المتشابهة اللي بتحك، خصوصاً في أعلى الصدر أو الضهر أو الكتف أو خط الشعر، ممكن تخلي الطبيب يفكر في التهاب البصيلات، ومنه نوع مالاسيزيا، أو تهيج تلامسي. الكشف يفضل مهماً لأن الأعراض ممكن تتشابه [2, 3, 8].",
+            "en": "Usually, strong ongoing itching is not a typical feature of acne. Inflamed acne can feel tender or sore, but itching is rarely the main complaint [1, 8, 11]. Similar-looking small bumps that itch, especially on the upper chest, back, shoulders, or hairline, may make a clinician consider folliculitis, including Malassezia folliculitis, or contact irritation. An examination is still needed because symptoms can overlap [2, 3, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ليه مضادات حب الشباب الحيوية ممكن تزود التهاب بصيلات مالاسيزيا؟",
+            "en": "Why can typical acne antibiotics worsen Malassezia folliculitis?"
+          },
+          "a": {
+            "ar": "مضادات حب الشباب الحيوية بتشتغل ضد البكتيريا، مش الخمائر أو الفطريات [2, 4, 8]. المضادات واسعة المدى ممكن تغير التوازن الطبيعي للكائنات على الجلد. ومع قلة منافسة البكتيريا، خمائر مالاسيزيا ممكن تنمو بسهولة أكتر جوه البصيلات، فتزيد الحبوب والحكة [2, 4, 8].",
+            "en": "Acne antibiotics act against bacteria, not yeast or fungi [2, 4, 8]. Broad-spectrum antibiotics can change the normal balance of organisms on the skin. With less bacterial competition, Malassezia yeast may grow more easily inside follicles and an itchy outbreak can become worse [2, 4, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إزاي تفرق بين حبوب الحلاقة والتهاب البصيلات البكتيري؟",
+            "en": "How do you distinguish shaving bumps from bacterial folliculitis?"
+          },
+          "a": {
+            "ar": "حبوب الحلاقة، أو ما يعرف بالتهاب البصيلات الكاذب، بتحصل أساساً بسبب نمو الشعر للداخل وانغراز طرف الشعرة المحلوقة في الجلد كجسم غريب، وبتكون مرتبطة ارتباطاً مباشراً بطريقة وتوقيت الحلاقة ومكانها [5, 6]. أما التهاب البصيلات البكتيري فهو عدوى ميكروبية بتعمل صديداً واضحاً وألم وحرقان وممكن تظهر في أماكن مش بتتحلق خالص، ومحتاجة تقييماً إكلينيكياً عشان الطبيب يحدد نوع الغسول أو العلاج المناسب [7, 9].",
+            "en": "Shaving bumps, or pseudofolliculitis barbae, happen when a closely cut curved hair grows back into nearby skin. The bumps therefore follow the place and timing of close shaving [5, 6]. Bacterial folliculitis is an infection within a follicle and may cause tender pus-filled spots, including on skin that has not been shaved. A clinician can assess the pattern and decide whether an antiseptic or another treatment is appropriate [7, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل عصر الحبوب أو فركها بالليفة بيساعدها تختفي أسرع؟",
+            "en": "Does popping or scrubbing bumps with a loofah help them clear faster?"
+          },
+          "a": {
+            "ar": "لأ. الفرك الخشن أو عصر الحبوب ممكن يقطع جدار البصيلة ويدفع الالتهاب والصديد والميكروبات لطبقات أعمق، وده ممكن يزود خطر الخراريج المؤلمة [1, 9, 10]. التهيج ده ممكن كمان يسيب بقعاً داكنة بعد ما الحبة تهدى. الغسيل الهادي بغسول لطيف وبالإيدين اختيار أأمن [1, 5, 9, 10].",
+            "en": "No. Rough scrubbing or popping can break the follicle wall and push inflammation, pus, and germs deeper into the skin, which may increase the risk of painful abscesses [1, 9, 10]. This trauma can also leave dark marks after the bump settles. Gentle washing with a mild cleanser and your hands is a safer approach [1, 5, 9, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى الحبوب اللي بتحك تحتاج كشف جلدية متخصص بدل خلطات الصيدلية؟",
+            "en": "When do itchy bumps require a specialist dermatology visit rather than pharmacy mixtures?"
+          },
+          "a": {
+            "ar": "احجز تقييماً في الجلدية لو الحبوب مستمرة أكتر من أسبوعين رغم العناية الهادية، أو الحكة بتعطل النوم أو اليوم، أو بتزيد بعد مضادات حب الشباب، أو بتسيب بقعاً أو ندبات [1, 2, 7, 8]. السخونية أو زيادة الوجع أو الاحمرار اللي بينتشر محتاجين رعاية طبية عاجلة في نفس اليوم. الطبيب يقدر يفحص الجلد، ويراجع التاريخ الصحي والأدوية، ويقرر هل فيه احتياج لفحوصات تانية، ويديك خطة مكتوبة [1, 7, 8, 12].",
+            "en": "Book a dermatology assessment if the bumps last more than two weeks despite gentle care, if itching interrupts sleep or daily life, if they flare after acne antibiotics, or if they leave dark marks or scars [1, 2, 7, 8]. Fever, worsening pain, or spreading redness needs same-day urgent medical care. The clinician can examine the skin, review your history and medicines, decide whether further tests are needed, and give you a written plan [1, 7, 8, 12]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Reynolds RV et al. — Guidelines of care for the management of acne vulgaris (J Am Acad Dermatol, 2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38300170/"
+        },
+        {
+          "label": "Draelos ZD et al. — Malassezia Folliculitis Presentation, Diagnosis, and Treatment: A Review of \"Fungal Acne\" (J Drugs Dermatol, 2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42081639/"
+        },
+        {
+          "label": "Henning MAS et al. — Position statement: Recommendations on the diagnosis and treatment of Malassezia folliculitis (J Eur Acad Dermatol Venereol, 2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36912427/"
+        },
+        {
+          "label": "Saunte DML et al. — Malassezia-Associated Skin Diseases, the Use of Diagnostics and Treatment (Front Cell Infect Microbiol, 2020)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7098993/"
+        },
+        {
+          "label": "Ogunbiyi A — Pseudofolliculitis barbae; current treatment options (Clin Cosmet Investig Dermatol, 2019)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6585396/"
+        },
+        {
+          "label": "Patel TS et al. — Pseudofolliculitis Barbae (JAMA Dermatol, 2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35475875/"
+        },
+        {
+          "label": "Lin HS et al. — Interventions for bacterial folliculitis and boils (furuncles and carbuncles) (Cochrane Database Syst Rev, 2021)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8130991/"
+        },
+        {
+          "label": "Del Rosso JQ et al. — When Acne is Not Acne (Dermatol Clin, 2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27015783/"
+        },
+        {
+          "label": "MedlinePlus — Folliculitis",
+          "url": "https://medlineplus.gov/ency/article/000823.htm"
+        },
+        {
+          "label": "MedlinePlus — Acne",
+          "url": "https://medlineplus.gov/acne.html"
+        },
+        {
+          "label": "NHS — Acne",
+          "url": "https://www.nhs.uk/conditions/acne/"
+        },
+        {
+          "label": "NICE — Acne vulgaris: management (NG198)",
+          "url": "https://www.nice.org.uk/guidance/ng198/chapter/Recommendations"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "حبيبات بتحك: التهاب بصيلات ولا حب شباب؟",
+          "en": "Itchy bumps: folliculitis or acne?"
+        },
+        "description": {
+          "ar": "دليل طبي للتمييز بين حب الشباب والتهاب بصيلات الشعر البكتيري والفطري، وأسباب الحبوب اللي بتحك وطرق التقييم السريري وعلامات الخطر.",
+          "en": "Clinical guide distinguishing acne from bacterial and fungal folliculitis, identifying itchy papules, safe skin habits, and when to seek care."
+        }
+      }
+    }
+  ]
+}
