@@ -18,8 +18,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "وسّعنا الإجابة عشان تشرح فروق التحاليل وحدود الإنسولين الصايم وHOMA-IR، واتراجعت طبياً من جديد.",
-            "en": "We expanded the answer to explain test differences and the limits of fasting insulin and HOMA-IR, and medically re-reviewed it."
+            "ar": "وسّعنا الإجابة عشان تشرح فروق التحاليل وحدود الإنسولين الصايم وHOMA-IR، واتراجعت طبياً من جديد. وضفنا سؤال «صايم ولا فاطر» لتحليل مقاومة الإنسولين وعنوان بحث أوضح.",
+            "en": "We expanded the answer to explain test differences and the limits of fasting insulin and HOMA-IR, and medically re-reviewed it. We added a question on fasting before the insulin resistance test and a clearer search title."
           }
         }
       ],
@@ -190,6 +190,16 @@
       "faq": [
         {
           "q": {
+            "ar": "تحليل مقاومة الإنسولين بيتعمل وأنا صايم ولا فاطر؟",
+            "en": "Is the insulin resistance test done fasting or after eating?"
+          },
+          "a": {
+            "ar": "في الغالب صايم. الإنسولين الصايم وHOMA-IR بيتحسبوا من عينة سكر وإنسولين وانت صايم، والأكل قبل العينة بيرفع الاتنين فالقراءة ما تبقاش معبّرة [6, 7]. سكر الصايم نفسه بيتعمل بعد صيام 8 ساعات على الأقل، وغالباً الصبح [3]، أما التراكمي HbA1c فعادة مش محتاج صيام [4]. مدة الصيام بالظبط وتوقيت الأدوية بيحددهم الطبيب والمعمل، وما توقفش دواء من نفسك. وخلي بالك إن مفيش «رقم طبيعي» واحد لـHOMA-IR ينفع لكل الناس، فالنتيجة تتقري مع مرجع المعمل وحالتك [7, 8].",
+            "en": "Usually fasting. Fasting insulin and HOMA-IR are calculated from a fasting glucose and insulin sample, and eating beforehand raises both, so the reading stops being meaningful [6, 7]. Fasting plasma glucose itself is taken after at least 8 hours without food, usually in the morning [3], while HbA1c ordinarily needs no fast [4]. The exact fasting time and medicine timing are set by the clinician and laboratory, so do not stop any medicine yourself. There is also no single \"normal\" HOMA-IR value that fits everyone, so the result is read against the laboratory reference and your own situation [7, 8]."
+          }
+        },
+        {
+          "q": {
             "ar": "لو السكر الصايم طبيعي والإنسولين عالي، ده يثبت مقاومة الإنسولين؟",
             "en": "If fasting glucose is normal and insulin is high, does that prove insulin resistance?"
           },
@@ -321,12 +331,12 @@
       },
       "seo": {
         "title": {
-          "ar": "هل تحليل واحد يثبت مقاومة الإنسولين؟",
-          "en": "Can one test prove insulin resistance?"
+          "ar": "تحليل مقاومة الإنسولين: صايم ولا فاطر؟ وهل تحليل واحد يكفي؟",
+          "en": "Insulin resistance test: fasting or not, and is one test enough?"
         },
         "description": {
-          "ar": "هل فيه تحليل واحد يثبت مقاومة الإنسولين؟ اعرف دور السكر الصايم والتراكمي وHOMA-IR، وليه تفسير النتيجة محتاج تاريخاً صحياً وفحصاً مناسباً.",
-          "en": "No single routine test proves insulin resistance. Learn what fasting glucose, HbA1c, fasting insulin and HOMA-IR can show, and why context matters."
+          "ar": "تحليل مقاومة الإنسولين بيتعمل صايم ولا فاطر؟ وهل رقم واحد يثبته؟ اعرف دور السكر الصايم والتراكمي والإنسولين الصايم وHOMA-IR، وليه مفيش رقم طبيعي واحد لكل الناس.",
+          "en": "Is the insulin resistance test done fasting? Learn what fasting glucose, HbA1c, fasting insulin and HOMA-IR show, why one number is not proof, and why no single normal value fits all."
         }
       }
     }
