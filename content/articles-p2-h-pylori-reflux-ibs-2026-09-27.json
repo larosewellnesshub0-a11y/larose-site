@@ -21,8 +21,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "وسّعنا مقارنة أعراض جرثومة المعدة والارتجاع والقولون، وحدّثنا خطوات الفحص وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
-            "en": "We expanded the comparison of H. pylori, reflux and IBS symptoms, updated testing and warning-sign guidance, and medically re-reviewed the content."
+            "ar": "وسّعنا مقارنة أعراض جرثومة المعدة والارتجاع والقولون، وحدّثنا خطوات الفحص وعلامات الخطر، واتراجع المحتوى طبياً من جديد. اتضاف سؤالين شائعين عن طرق كشف جرثومة المعدة وإزاي اختبار النفس بيشتغل، بمصادرهم.",
+            "en": "We expanded the comparison of H. pylori, reflux and IBS symptoms, updated testing and warning-sign guidance, and medically re-reviewed the content. Added two cited FAQs on H. pylori test options and how the breath test works."
           }
         }
       ],
@@ -269,7 +269,9 @@
             "ar": "لا. أعراض اضطرابات تواصل الأمعاء والمخ حقيقية، والتوتر ممكن يغيّر شدتها عند بعض الناس من غير ما يلغي التقييم الطبي أو يحوّلها لوهم. سجّل العلاقة لو لاحظتها، لكن ما تستخدمهاش عشان تتجاهل تغيراً جديداً أو علامة خطر. [3, 6, 8, 9]",
             "en": "No. Symptoms of disorders of gut–brain interaction are real, and stress may change their intensity in some people without replacing medical assessment or making them imaginary. Record the relationship if you notice it, but do not use it to dismiss a new change or warning feature. [3, 6, 8, 9]"
           }
-        }
+        },
+        {"q": {"ar": "جرثومة المعدة بتتكشف بإيه؟", "en": "Which tests can detect H. pylori?"}, "a": {"ar": "فيه أكتر من طريقة: اختبار النفس، وتحليل البراز، وتحليل الدم اللي بيدوّر على علامات العدوى أو مضاعفات القرحة، وعينة من بطانة المعدة بتتاخد أثناء منظار الجهاز الهضمي العلوي. والدكتور بيختار الطريقة حسب حالتك [4].", "en": "There are several options: a urea breath test, a stool test, blood tests that look for signs of infection or complications of peptic ulcers, and biopsies of the stomach lining taken during upper GI endoscopy. Your doctor chooses the method based on your situation. [4]"}},
+        {"q": {"ar": "اختبار النفس بيشتغل إزاي؟", "en": "How does the breath test work?"}, "a": {"ar": "بتبلع كبسولة أو سائل أو بودنج فيه مادة اليوريا متعلّمة بذرة كربون مخصوصة. لو الجرثومة موجودة بتحوّل اليوريا لثاني أكسيد الكربون، واللي بيتقاس بعد كده في النفس اللي بتطلّعه [4].", "en": "You swallow a capsule, liquid or pudding containing urea labelled with a special carbon atom. If the bacteria are present, they convert the urea into carbon dioxide, which is then detected in the breath you exhale. [4]"}}
       ],
       "sources": [
         {
