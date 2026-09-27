@@ -1,0 +1,316 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of child-growth-is-a-trajectory; replaces the entry from content/articles.json. Expanded with WHO MGRS origin, 5-19 reference, centile interpretation, NICE NG75 thresholds, faltering weight, age-normal growth speed, FAQs, 11 verified sources; reviewer set to the staffed paediatric clinician.",
+  "articles": [
+    {
+      "slug": "child-growth-is-a-trajectory",
+      "type": "update",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics",
+        "clinical-nutrition"
+      ],
+      "date": "2026-08-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 7,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/child-growth-is-a-trajectory.webp",
+      "title": {
+        "ar": "تحديث علمي: نمو الطفل خط بيتتابع، مش مقارنة بصورة واحدة",
+        "en": "Scientific update: a child’s growth is a trajectory, not a single comparison"
+      },
+      "excerpt": {
+        "ar": "معايير النمو الحديثة بتستخدم الوزن والطول وسرعة التغير مع الوقت؛ قياس واحد أو مقارنة بزميل الطفل ما يكفوش للحكم. اعرف إمتى التغيير في المنحنى يستاهل تقييم.",
+        "en": "Modern growth standards use weight, height and change over time; one measurement or a comparison with a classmate cannot make the judgement. Learn when a change on the chart needs assessment."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّع التحديث بشرح أصل معايير منظمة الصحة العالمية، ومعنى النسب المئوية، وحدود القلق في إرشادات NICE، وتعثر الوزن، وسرعة النمو الطبيعية حسب السن، مع مصادر موثقة وأسئلة شائعة، واتراجع طبياً من جديد.",
+            "en": "The update was expanded with the origin of WHO standards, what centiles mean, NICE thresholds for concern, faltering weight and normal growth speed by age, with verified sources and FAQs, and was medically re-reviewed."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "own-curve",
+          "heading": {
+            "ar": "كل طفل له نقاط بتترسم مع الوقت",
+            "en": "Each child has points plotted over time"
+          },
+          "body": {
+            "ar": "لما الأب أو الأم يقارنوا طفلهم بابن الجيران أو بزميله في الفصل، السؤال بيبقى: «هو أقصر؟ هو أخف؟». لكن منحنى النمو معمول عشان يجاوب سؤال تاني: «الطفل ده ماشي إزاي مع نفسه؟». منحنيات النمو بتوضح نمط زيادة الطول والوزن مع الوقت، وهل الطفل بينمو بشكل متناسق [10]. ومعايير منظمة الصحة العالمية فيها منحنيات للطول والوزن والوزن مقابل الطول ومؤشر كتلة الجسم ومحيط الراس، وكمان معايير لسرعة النمو [2].\n\nالقياس الواحد بيقول الطفل فين النهارده. أما تتابع النقاط فبيقول هل ماشي في اتجاه متوقع، ولا حصل تغيير محتاج فهم. KidsHealth بتدي مثال: طفل كان ماشي على نفس النمط لحد سنتين، وبعدين بدأ ينمو أبطأ بكتير من غيره، والتغيير ده ممكن يكون علامة على مشكلة صحية الدكتور يقدر يشوفها من المنحنى [10].\n\nومعايير سرعة النمو بتساعد إن الطبيب ما يستناش لحد ما الطفل يعدي حد معين عشان يلاحظ نقص التغذية أو زيادة الوزن، لأنها بتكشف الطفل وهو في طريقه للمشكلة [1].",
+            "en": "When parents compare their child with a neighbour's child or a classmate, the question becomes ‘is he shorter? is he lighter?’. A growth chart is built to answer a different question: ‘how is this child doing against himself?’. Growth charts show the pattern of height and weight gain over time, and whether a child is growing proportionately [10]. The World Health Organization standards include charts for length or height, weight, weight-for-length, body mass index and head circumference, as well as growth-velocity standards [2].\n\nOne measurement shows where a child is today. Repeated points show whether the direction is expected or has changed in a way that needs understanding. KidsHealth gives an example: a child who grew along the same pattern until age 2 and then started growing much more slowly than other children, a change that might point to a health problem a doctor could see on the chart [10].\n\nGrowth-velocity standards mean a doctor does not have to wait until a child crosses a fixed threshold to notice undernutrition or overweight, because they help identify a child who is on the way to becoming under- or over-nourished [1]."
+          }
+        },
+        {
+          "id": "what-standards-mean",
+          "heading": {
+            "ar": "المعايير دي جت منين؟",
+            "en": "Where do these standards come from?"
+          },
+          "body": {
+            "ar": "معايير منظمة الصحة العالمية للأطفال من الولادة لحد 5 سنين اتبنت على دراسة في 6 دول من مناطق مختلفة من العالم: البرازيل وغانا والهند والنرويج وعُمان والولايات المتحدة، وشملت 8440 طفل اتربوا في ظروف قللت معوقات النمو زي سوء التغذية والعدوى [1]. والفكرة إنها بتوصف إزاي الأطفال المفروض ينموا لما احتياجاتهم تتلبى، مش مجرد متوسط للأطفال الموجودين [1]. وكمان المعايير دي بتعتبر الطفل اللي بيرضع رضاعة طبيعية هو النموذج المرجعي للنمو والتطور الطبيعي، عشان كده منحنى الرضيع بيتقرا في ضوء طريقة رضاعته وتاريخه الصحي [1].\n\nالمنظمة بتقول إن المعايير دي ينفع تتطبق على كل الأطفال في أي مكان، بغض النظر عن العرق أو المستوى الاجتماعي أو نوع الرضاعة [1]. وللأطفال والمراهقين من 5 لـ19 سنة فيه مرجع نمو تاني اتعمل عشان يتصل بسلاسة بمعايير ما قبل المدرسة عند 5 سنين، ويتماشى مع حدود زيادة الوزن والسمنة عند البالغين عند 19 سنة [3].\n\nفي بريطانيا مثلاً، منحنيات UK-WHO بتوصف النمو الأمثل للأطفال الأصحاء اللي بيرضعوا طبيعي، ومنحنى من 2 لـ18 سنة فيه أدوات لتقدير البلوغ ومؤشر كتلة الجسم ومقارنة الطول بطول الأبوين [5, 6].",
+            "en": "The World Health Organization standards for children from birth to 5 years were built on a study in 6 countries from different regions of the world: Brazil, Ghana, India, Norway, Oman and the United States. It included 8,440 children raised in environments that minimised constraints to growth such as poor diets and infection [1]. The aim was to describe how children should grow when their needs are met, not simply to average the children who happen to exist [1]. The standards also establish the breastfed infant as the normative model for growth and development, so an infant's chart is read in light of feeding and health history [1].\n\nWHO says these standards can be applied to all children everywhere, regardless of ethnicity, socioeconomic status or type of feeding [1]. For children and adolescents aged 5 to 19 there is a separate growth reference, built to join smoothly with the preschool standards at age 5 and to line up with the adult overweight and obesity cut-offs at 19 [3].\n\nIn the UK, for example, the UK-WHO charts describe optimal growth for healthy breastfed children, and the 2 to 18 year chart includes tools for puberty assessment, a BMI centile lookup and a comparison with parental height [5, 6]."
+          }
+        },
+        {
+          "id": "centile-not-grade",
+          "heading": {
+            "ar": "النسبة المئوية مش درجة امتحان",
+            "en": "A centile is not an exam grade"
+          },
+          "body": {
+            "ar": "النسب المئوية على المنحنى بتوضح الطفل فين مقارنة بأطفال من نفس السن والنوع. كل ما الرقم يعلى، الطفل أكبر من غيره في الطول أو الوزن، وكل ما يقل يبقى أصغر [10]. لكن ده مقياس مكان، مش تقييم إن الطفل «كويس» أو «وحش».\n\nMedlinePlus بتقول إن بعض الأطفال بيبقوا صغيرين بالنسبة لسنهم وفي نفس الوقت بينموا بشكل طبيعي، وبعضهم قصيرين أو طوال لأن أهاليهم كده [8]. عشان كده الأطباء بيقروا المنحنى مع صحة الطفل العامة وبيئته وتاريخ العيلة: هل بيحقق مراحل التطور؟ فيه علامات تانية إنه مش كويس؟ طول ووزن الأبوين والإخوات إيه؟ اتولد بدري؟ بدأ البلوغ؟ [10].\n\nوالعكس كمان صحيح: وجود الطفل على نسبة عالية مش ضمان إن كل حاجة تمام، لأن منظمة الصحة العالمية بتعتبر زيادة الوزن عند الأطفال شكل من أشكال سوء التغذية زي نقص الوزن بالظبط [11]. ولو القلق عندك على الطول تحديداً، اقرا مقال قِصر الطول ومنحنى النمو.",
+            "en": "Centiles on the chart show where a child stands compared with children of the same age and sex. The higher the number, the bigger the child is than others for height or weight; the lower it is, the smaller [10]. It is a measure of position, not a verdict that a child is ‘good’ or ‘bad’.\n\nMedlinePlus notes that some children are small for their age but still developing normally, and some are short or tall because their parents are [8]. That is why doctors read the chart alongside the child's overall well-being, environment and family background: are milestones being met? are there other signs of ill health? how tall and heavy are the parents and siblings? was the child born early? has puberty started? [10].\n\nThe reverse is also true: a high centile is no guarantee that all is well, because WHO counts childhood overweight as a form of malnutrition just as it counts undernutrition [11]. If height is your specific worry, read the article on short height and the growth curve."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "قِصر الطول ومنحنى النمو",
+                "url": "../articles/child-short-height-growth-curve.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "short height and the growth curve",
+                "url": "../articles/child-short-height-growth-curve.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-to-worry",
+          "heading": {
+            "ar": "إمتى التغيير في المنحنى يستاهل تقييم؟",
+            "en": "When does a change on the chart need assessment?"
+          },
+          "body": {
+            "ar": "إرشادات NICE البريطانية للنمو المتعثر بتحط حدود واضحة للأطباء. بعد أول أيام الحياة، القلق بيبدأ لو وزن الطفل نزل مسافة أو أكتر بين خطوط المنحنى لو وزن الولادة كان تحت الخط التاسع، أو مسافتين أو أكتر لو كان بين الخط التاسع والخط 91، أو 3 مسافات لو كان فوق الخط 91، أو لو الوزن الحالي تحت الخط التاني للسن [4].\n\nوفي أول أيام بعد الولادة، طبيعي الطفل يخس شوية، والخسارة دي غالباً بتقف بعد 3 أو 4 أيام، وأغلب الأطفال بيرجعوا لوزن الولادة قبل ما يكملوا 3 أسابيع. لو الطفل خس أكتر من 10% من وزن الولادة أو ما رجعش لوزنه في 3 أسابيع، الإرشادات بتطلب تقييم ودعم للرضاعة [4].\n\nوبالنسبة للطول، لو فيه قلق، بيتحسب متوسط طول الأبوين. ولو طول الطفل أقل من المتوقع من طول أهله بأكتر من مسافتين على المنحنى، ده ممكن يشير لنقص تغذية أو اضطراب نمو أساسي [4]. وMedlinePlus بتوضح إن النمو البطيء جداً أو السريع جداً ممكن أحياناً يكون علامة على مشكلة في الغدد أو مرض [8].",
+            "en": "The UK NICE guideline on faltering growth sets clear thresholds for clinicians. After the early days of life, concern starts if a child's weight falls across 1 or more centile spaces when birth weight was below the 9th centile, 2 or more spaces when it was between the 9th and 91st, or 3 or more spaces when it was above the 91st, or if current weight is below the 2nd centile for age [4].\n\nIn the first days after birth some weight loss is normal; it usually stops after about 3 or 4 days, and most babies are back to birth weight by 3 weeks. If a baby loses more than 10% of birth weight, or has not regained it by 3 weeks, the guideline calls for assessment and feeding support [4].\n\nFor height, when there is concern the mid-parental height is worked out. If the child's height centile is more than 2 centile spaces below what parental heights predict, this could suggest undernutrition or a primary growth disorder [4]. MedlinePlus explains that very slow or very fast growth can sometimes signal a gland problem or disease [8]."
+          }
+        },
+        {
+          "id": "faltering-weight",
+          "heading": {
+            "ar": "لما الوزن يتعثر: الصورة الأوسع",
+            "en": "When weight falters: the wider picture"
+          },
+          "body": {
+            "ar": "MedlinePlus بتستخدم مصطلح «تعثر الوزن» بدل «فشل النمو» القديم، وبتعرّفه بإن وزن الطفل الحالي أو معدل زيادته أقل بكتير من أطفال في نفس السن والنوع [7]. من المعايير اللي بتذكرها: انخفاض الوزن أو مؤشر كتلة الجسم بدرجة واضحة عن مساره، أو بطء شديد في زيادة الوزن عند الأطفال تحت سنتين [7].\n\nالأسباب ممكن تكون طبية زي مشاكل جينية أو هرمونية أو في أعضاء الجسم، وممكن تكون متعلقة بالأكل نفسه. والأطفال اللي وزنهم بيزيد ببطء كتير بيبقى عندهم قلة اهتمام بالرضاعة أو الأكل، وممكن يظهر إمساك أو عياط زيادة أو خمول أو عصبية [7]. ونقص بعض العناصر زي الحديد ممكن يأثر على الشهية والطاقة، وده موضوع مقال نقص الحديد عند الأطفال.\n\nالكشف المنتظم للطفل بيساعد يكتشف تعثر الوزن بدري، والنمو ممكن يكمل طبيعي لو السبب اتحدد واتعالج في وقته [7]. وعلى المستوى العالمي، منظمة الصحة العالمية بتقدّر إن 149 مليون طفل تحت 5 سنين كانوا أقصر من سنهم سنة 2022، و37 مليون عندهم زيادة وزن أو سمنة [11].",
+            "en": "MedlinePlus uses the term ‘faltering weight’ in place of the older ‘failure to thrive’, and defines it as a child whose current weight or rate of weight gain is much lower than that of other children of similar age and sex [7]. Its criteria include a marked fall in weight or BMI from the child's previous track, or very slow weight gain in children under 2 [7].\n\nCauses can be medical, such as genetic, hormonal or organ problems, or related to eating itself. Babies who gain weight poorly often lack interest in feeding, and constipation, excessive crying, sleepiness or irritability may appear [7]. A shortage of nutrients such as iron can affect appetite and energy, which is the subject of the article on iron deficiency in children.\n\nRegular check-ups help detect faltering weight early, and normal growth can continue if the cause is found and treated in time [7]. Globally, WHO estimates that 149 million children under 5 were too short for their age in 2022, and 37 million were overweight or living with obesity [11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "نقص الحديد عند الأطفال",
+                "url": "../articles/iron-deficiency-in-children.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "iron deficiency in children",
+                "url": "../articles/iron-deficiency-in-children.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "bring-records",
+          "heading": {
+            "ar": "خد القياسات القديمة معاك",
+            "en": "Bring earlier measurements"
+          },
+          "body": {
+            "ar": "احتفظ بكارت التطعيم أو أي سجل فيه وزن وطول وتاريخ القياس، وما تعتمدش على رقم من الذاكرة. منحنى النمو بيتبني من كل القياسات من الولادة [7]، والقياس نفسه محتاج أداة وطريقة مناسبة للسن، ولذلك منظمة الصحة العالمية عاملة تدريب كامل للعاملين الصحيين على قياس الوزن والطول وتفسير النتايج [2].\n\nالطبيعي إن سرعة النمو تتغير مع السن: بين سنة وسنتين الطفل بيزيد حوالي 2.2 كيلو بس، ونفس الزيادة تقريباً كل سنة من 2 لـ5 سنين، ومن 2 لـ10 سنين النمو بيبقى ثابت، وبعدين بتيجي طفرة نمو أخيرة مع بداية البلوغ ما بين 9 و15 سنة [9]. يعني إن الطفل «بقى ياكل أقل» بعد السنة الأولى ممكن يكون طبيعي مع بطء النمو، ومقال شهية الأطفال بيشرح ده بالتفصيل.\n\nلو الطفل فقد وزن، أو وقف نموه، أو بقى خامل، أو عنده قيء أو إسهال مستمر، أو صعوبة بلع، أو عطش وتبول زيادة، أو رجع في مهارة كان بيعملها، ما تستناش قياس المدرسة الجاي [7, 8]. التقييم المبكر بيدور على السبب بدل الضغط على الطفل عشان «يخلص الطبق».",
+            "en": "Keep the vaccination card or any record showing weight, height and the date of measurement rather than relying on memory. A growth chart is built from every measurement since birth [7], and measuring itself needs age-appropriate equipment and technique, which is why WHO runs a full training course for health workers on measuring weight and length or height and interpreting the results [2].\n\nIt is normal for growth speed to change with age: between ages 1 and 2 a toddler gains only about 2.2 kg, with about the same gain each year from 2 to 5; growth is steady from 2 to 10, and a final growth spurt begins with puberty, somewhere between 9 and 15 [9]. A child who ‘eats less’ after the first year may therefore be normal as growth slows, and the article on children's appetite explains this in detail.\n\nDo not wait for the next school measurement if the child loses weight, stops growing, becomes unusually tired, has persistent vomiting or diarrhoea, swallowing difficulty, marked thirst and urination, or loses a skill [7, 8]. Early assessment looks for the cause rather than pressuring the child to ‘finish the plate’."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "شهية الأطفال",
+                "url": "../articles/childrens-appetite.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "children's appetite",
+                "url": "../articles/childrens-appetite.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "leave-with-next-step",
+          "heading": {
+            "ar": "اطلع من الزيارة بصورة واضحة",
+            "en": "Leave the visit with a clear picture"
+          },
+          "body": {
+            "ar": "في زيارة الأطفال والتغذية، القياسات الجديدة بتترسم جنب القديمة، وبيتقارن الطول بطول الأبوين، ويتراجع الأكل والنشاط والنوم والتطور، عشان القرار يتبني على مسار مش على رقم واحد [4, 10]. ولو فيه زيادة وزن مع علامات تانية، ممكن يتقيم خطر مقاومة الإنسولين، ودي موضوع مقال مقاومة الإنسولين عند الأطفال [3, 11].\n\nلو عندك قلق على نمو طفلك وعايز تقييم فردي، تقدر تحجز موعد في العيادة ومعاك كل القياسات القديمة. ده خطوة عملية عامة مش وعد بنتيجة، والفريق المعالج بيحدد المناسب لحالة طفلك بعد التقييم [4].",
+            "en": "At a paediatric and nutrition visit, new measurements are plotted next to earlier ones, height is compared with parental height, and eating, activity, sleep and development are reviewed, so decisions rest on a trajectory rather than one number [4, 10]. If there is excess weight with other signs, insulin-resistance risk may be assessed, which is covered in the article on insulin resistance in children [3, 11].\n\nIf you are worried about your child's growth and want an individual assessment, you can book an appointment at the clinic and bring all earlier measurements. This is a practical next step, not a promised result, and the treating team will decide what suits your child after assessment [4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "مقاومة الإنسولين عند الأطفال",
+                "url": "../articles/insulin-resistance-in-children.html"
+              },
+              {
+                "label": "تحجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "insulin resistance in children",
+                "url": "../articles/insulin-resistance-in-children.html"
+              },
+              {
+                "label": "book an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل النسبة المئوية القليلة معناها إن الطفل مريض؟",
+            "en": "Does a low centile mean a child is ill?"
+          },
+          "a": {
+            "ar": "مش لوحدها. بعض الأطفال صغيرين بالنسبة لسنهم وبينموا طبيعي، وبعضهم قصيرين لأن أهاليهم كده. اتجاه النمو، وتناسب القياسات، وتاريخ العيلة، والأعراض هم اللي بيحددوا هل فيه داعي لتقييم إضافي [8, 10].",
+            "en": "Not by itself. Some children are small for their age and growing normally, and some are short because their parents are. Growth direction, proportional measurements, family pattern and symptoms decide whether further assessment is needed [8, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ابني أقصر من زمايله. أقلق؟",
+            "en": "My son is shorter than his classmates. Should I worry?"
+          },
+          "a": {
+            "ar": "المقارنة بالزمايل مش المقياس. المهم هل طوله ماشي على نفس خطه مع الوقت، وهل مناسب لطول الأبوين. لو طوله أقل من المتوقع من طول أهله بأكتر من مسافتين على المنحنى، أو نموه بطأ فجأة، يستاهل تقييم [4, 10].",
+            "en": "Comparing with classmates is not the measure. What matters is whether his height follows the same line over time and fits parental height. If it is more than 2 centile spaces below what parental heights predict, or growth suddenly slows, it deserves assessment [4, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "طفلي عنده سنتين وبياكل أقل من الأول. ده طبيعي؟",
+            "en": "My 2-year-old eats less than before. Is that normal?"
+          },
+          "a": {
+            "ar": "غالباً أيوه، لأن سرعة النمو بتقل بعد السنة الأولى، والطفل بيزيد حوالي 2.2 كيلو بس في السنة التانية. لكن لو الوزن نزل، أو المنحنى بيقع، أو فيه أعراض تانية، لازم تقييم [7, 9].",
+            "en": "Often yes, because growth slows after the first year and a toddler gains only about 2.2 kg in the second year. But if weight drops, the curve is falling, or there are other symptoms, assessment is needed [7, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل معايير منظمة الصحة العالمية تنفع لأطفالنا في مصر؟",
+            "en": "Do WHO standards apply to children in Egypt?"
+          },
+          "a": {
+            "ar": "المنظمة بتقول إن معاييرها ينفع تتطبق على كل الأطفال في أي مكان بغض النظر عن العرق أو المستوى الاجتماعي أو نوع الرضاعة، لأنها مبنية على أطفال من 6 دول نموا في ظروف صحية مناسبة [1].",
+            "en": "WHO says its standards can be applied to all children everywhere regardless of ethnicity, socioeconomic status or type of feeding, because they are based on children from 6 countries who grew up in healthy conditions [1]."
+          }
+        },
+        {
+          "q": {
+            "ar": "المولود خس بعد الولادة. إمتى أقلق؟",
+            "en": "My newborn lost weight after birth. When should I worry?"
+          },
+          "a": {
+            "ar": "خسارة بسيطة في أول أيام طبيعية وغالباً بتقف بعد 3 أو 4 أيام، وأغلب الأطفال بيرجعوا لوزن الولادة في 3 أسابيع. لو خس أكتر من 10% أو ما رجعش لوزنه في 3 أسابيع، محتاج تقييم ودعم للرضاعة [4].",
+            "en": "Some loss in the first days is normal and usually stops after 3 or 4 days, with most babies back to birth weight by 3 weeks. If a baby loses more than 10% or has not regained it by 3 weeks, assessment and feeding support are needed [4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "طفلي وزنه زيادة بس طوله كويس. محتاج متابعة؟",
+            "en": "My child is heavy but tall. Does that need follow-up?"
+          },
+          "a": {
+            "ar": "الوزن بيتقرا مع الطول من خلال مؤشر كتلة الجسم حسب السن، مش الوزن لوحده. منظمة الصحة العالمية بتعتبر زيادة الوزن عند الأطفال شكل من أشكال سوء التغذية، فالمتابعة المنتظمة للمنحنى بتفرق [2, 11].",
+            "en": "Weight is read together with height through BMI-for-age, not weight alone. WHO counts childhood overweight as a form of malnutrition, so regular follow-up of the chart matters [2, 11]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO — Child growth standards: questions and answers",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/child-growth-standards"
+        },
+        {
+          "label": "WHO — Child growth standards (tools and training course)",
+          "url": "https://www.who.int/tools/child-growth-standards"
+        },
+        {
+          "label": "de Onis et al. — Development of a WHO growth reference for school-aged children and adolescents (Bull World Health Organ 2007, PMC2636412)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2636412/"
+        },
+        {
+          "label": "NICE NG75 — Faltering growth: recognition and management of faltering growth in children (Recommendations)",
+          "url": "https://www.nice.org.uk/guidance/ng75/chapter/Recommendations"
+        },
+        {
+          "label": "RCPCH — UK-WHO growth charts, 0–4 years",
+          "url": "https://www.rcpch.ac.uk/resources/uk-who-growth-charts-0-4-years"
+        },
+        {
+          "label": "RCPCH — UK-WHO growth charts, 2–18 years",
+          "url": "https://www.rcpch.ac.uk/resources/uk-who-growth-charts-2-18-years"
+        },
+        {
+          "label": "MedlinePlus Medical Encyclopedia — Faltering weight",
+          "url": "https://medlineplus.gov/ency/article/000991.htm"
+        },
+        {
+          "label": "MedlinePlus — Growth Disorders",
+          "url": "https://medlineplus.gov/growthdisorders.html"
+        },
+        {
+          "label": "MedlinePlus Medical Encyclopedia — Normal growth and development",
+          "url": "https://medlineplus.gov/ency/article/002456.htm"
+        },
+        {
+          "label": "Nemours KidsHealth — Growth Charts",
+          "url": "https://kidshealth.org/en/parents/growth-charts.html"
+        },
+        {
+          "label": "WHO — Malnutrition fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/malnutrition"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "منحنى النمو",
+          "نمو الأطفال",
+          "تعثر الوزن",
+          "تغذية الطفل",
+          "طبيب أطفال"
+        ],
+        "en": [
+          "growth chart",
+          "child growth",
+          "faltering weight",
+          "child nutrition",
+          "paediatric consultation"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "منحنى نمو الطفل: إزاي تقرا الطول والوزن صح",
+          "en": "Child growth chart: reading height and weight over time"
+        },
+        "description": {
+          "ar": "نمو الطفل بيتقرا كمسار مش كقياس واحد: معايير منظمة الصحة العالمية، ومعنى النسب المئوية، وإمتى نزول المنحنى أو قِصر الطول يستاهل تقييم.",
+          "en": "Child growth is read as a trajectory, not one measurement: WHO standards, what centiles mean, and when a falling curve or short height needs checking."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of movement-benefits-beyond-the-scale; replaces the entry from content/articles.json. Expanded with fitness-vs-BMI, strength, steps, post-meal walking, depression and fatty-liver evidence, WHO/NHS/NIDDK guidance, safety signs, FAQs, 12 verified sources; reviewer set to the staffed weight-management clinician.",
+  "articles": [
+    {
+      "slug": "movement-benefits-beyond-the-scale",
+      "type": "update",
+      "published": true,
+      "featured": false,
+      "category": "weight-management",
+      "specialties": [
+        "weight-management",
+        "clinical-nutrition"
+      ],
+      "date": "2026-08-23",
+      "updatedAt": "2026-09-27",
+      "readingTime": 7,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/movement-benefits-beyond-the-scale.webp",
+      "title": {
+        "ar": "تحديث علمي: الحركة لها مكاسب صحية حتى لو الميزان ما اتحركش كتير",
+        "en": "Scientific update: movement has health benefits even when the scale barely changes"
+      },
+      "excerpt": {
+        "ar": "فايدة النشاط ما بتتقاسش بالوزن لوحده: اللياقة والقلب والسكر والكبد والنوم والمزاج والعضلات بيستفيدوا من الحركة المنتظمة، حتى لو الميزان ثابت.",
+        "en": "Activity is not judged by weight alone: fitness, heart, glucose, liver, sleep, mood and muscle all benefit from regular movement, even when the scale stays still."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّع التحديث بأدلة اللياقة مقابل الوزن، وأرقام النشاط والخطوات، وتمارين التقوية، والسكر بعد الأكل والمزاج، وعلامات الأمان، مع مصادر موثقة وأسئلة شائعة، واتراجع طبياً من جديد.",
+            "en": "The update was expanded with fitness-versus-weight evidence, activity and step targets, strength exercise, post-meal glucose and mood, and safety signs, with verified sources and FAQs, and was medically re-reviewed."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "more-than-calories",
+          "heading": {
+            "ar": "الحركة مش عقاب للأكل",
+            "en": "Movement is not punishment for eating"
+          },
+          "body": {
+            "ar": "ناس كتير بتقيس فايدة المشي أو التمرين بسؤال واحد: الميزان نزل ولا لأ؟ ولو ما نزلش، الحركة بتبان «ملهاش لازمة». منظمة الصحة العالمية بتلخص فوايد ثابتة للنشاط البدني عند البالغين، منها تقليل خطر الوفاة المبكرة وأمراض القلب والضغط والسكر من النوع التاني وبعض أنواع السرطان، وتحسين الصحة النفسية والنوم والقدرات الذهنية [1]. وخدمة NHS البريطانية بتقول إن النشاط المنتظم ممكن يقلل خطر الوفاة المبكرة لحد 30% [3].\n\nولا حاجة من دول بتظهر على الميزان مباشرة. الوزن بيتأثر بالمياه والهضم وتوقيت القياس، بينما اللياقة والقوة والقدرة على المشي وطلوع السلم بيتحسنوا في مسار تاني خالص [1, 4]. عشان كده الحركة مش «دفع تمن» وجبة، ولا عقاب على أكل زيادة. هي علاج قائم بذاته بيخدم القلب والعضلات والمزاج، حتى لو الرقم على الميزان ثابت. ولو عايز تفهم ليه الميزان لوحده بيضلل، اقرا مقال تركيب الجسم أهم من الميزان.",
+            "en": "Many people judge a walk or a workout by one question: did the scale go down? If it did not, the movement feels ‘pointless’. The World Health Organization summarises established benefits of physical activity in adults, including lower risk of early death, heart disease, high blood pressure, type 2 diabetes and some cancers, along with better mental health, sleep and thinking [1]. The NHS says regular activity can lower the risk of early death by up to 30% [3].\n\nNone of these show up directly on the scale. Weight is affected by fluid, digestion and the time of measurement, while fitness, strength and the ability to walk or climb stairs improve on a completely different track [1, 4]. Movement is therefore not ‘payment’ for a meal or a punishment for eating more. It is a treatment in its own right that serves the heart, the muscles and mood, even when the number on the scale stays still. If you want to understand why the scale alone misleads, read the article on body composition not the scale."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تركيب الجسم أهم من الميزان",
+                "url": "../articles/body-composition-not-scale.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "body composition not the scale",
+                "url": "../articles/body-composition-not-scale.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fitness-and-risk",
+          "heading": {
+            "ar": "اللياقة بتفرق حتى مع نفس الوزن",
+            "en": "Fitness matters even at the same weight"
+          },
+          "body": {
+            "ar": "مراجعة منهجية وتحليل تجميعي منشور في المجلة البريطانية للطب الرياضي سنة 2025 قارن الناس حسب الوزن واللياقة القلبية التنفسية مع بعض. النتيجة إن الأشخاص اللي عندهم زيادة وزن أو سمنة وفي نفس الوقت لياقتهم كويسة ما كانش عندهم خطر وفاة مختلف إحصائياً عن أصحاب الوزن الطبيعي اللي لياقتهم كويسة. أما قليلين اللياقة، في كل فئات الوزن، فكان خطر الوفاة عندهم تقريباً الضعف لـ3 أضعاف [6].\n\nالباحثين استنتجوا إن اللياقة مؤشر قوي لخطر الوفاة من أمراض القلب ومن كل الأسباب، وإنها بتقلل الخطر المرتبط بزيادة الوزن والسمنة [6]. الدراسة دي رصدية، يعني بتوضح ارتباط مش سبب مؤكد، لكنها بتدعم فكرة إن خطة الوزن الناجحة لازم تتابع اللياقة جنب الرقم [1, 6].\n\nوبالنسبة للكبد، تحليل تجميعي لتجارب على مرضى الكبد الدهني المرتبط بالتمثيل الغذائي لقى إن التمرين حسّن إنزيمات الكبد ومؤشرات التليف والكوليسترول مقارنة بالعلاج المعتاد، في حين إن الفرق في الوزن بين المجموعتين ما كانش ذو دلالة إحصائية [11]. يعني الكبد ممكن يستفيد قبل ما الميزان يقول حاجة واضحة.",
+            "en": "A systematic review and meta-analysis published in the British Journal of Sports Medicine in 2025 compared people by weight and cardiorespiratory fitness together. People with overweight or obesity who were fit did not have a statistically different risk of death from fit people of normal weight. Unfit people, in every weight group, had roughly two to three times the risk [6].\n\nThe researchers concluded that fitness is a strong predictor of death from heart disease and from all causes, and that it lessens the risk linked to overweight and obesity [6]. The study is observational, so it shows an association rather than proven cause, but it supports the idea that a successful weight plan should track fitness alongside the number [1, 6].\n\nFor the liver, a meta-analysis of trials in people with metabolic dysfunction-associated fatty liver disease found that exercise improved liver enzymes, fibrosis markers and cholesterol compared with standard therapy, while the difference in weight between the groups was not statistically significant [11]. The liver can benefit before the scale says anything clear."
+          }
+        },
+        {
+          "id": "how-much",
+          "heading": {
+            "ar": "قد إيه حركة كفاية؟",
+            "en": "How much movement is enough?"
+          },
+          "body": {
+            "ar": "الإرشادات بتتفق على أرقام واضحة للبالغين. NHS بتنصح بـ150 دقيقة على الأقل في الأسبوع من النشاط المتوسط، أو 75 دقيقة من النشاط الشديد، موزعين على 4 أو 5 أيام أو كل يوم، مع تمارين تقوية لكل مجموعات العضلات الكبيرة يومين على الأقل في الأسبوع، وتقليل وقت القعدة الطويلة [2]. ومنظمة الصحة العالمية بتقول إن أي نشاط أحسن من مفيش، وإن كل حركة بتتحسب [1].\n\nلو عدد الخطوات أسهل ليك، تحليل تجميعي لـ15 دراسة لقى إن زيادة الخطوات اليومية مرتبطة بخطر وفاة أقل بالتدريج، وإن الفايدة بتثبت تقريباً عند 6000 لـ8000 خطوة يومياً لمن هم فوق 60 سنة، و8000 لـ10000 خطوة لمن هم أصغر [9]. والمهم إن أكبر فرق بيحصل عند الناس اللي بيبدأوا من عدد خطوات قليل [9].\n\nيعني الخطة مش لازم تبدأ بالرقم النهائي. NIDDK بيقترح مثلاً تبدأ بمشي 5 دقايق كذا مرة في اليوم، وتزود تدريجياً لـ10 دقايق 3 مرات في اليوم، وبعدها تزود السرعة [4].\n\nوخلي عندك نشاط بديل للأيام اللي الجو فيها وحش أو عندك إصابة بسيطة، زي المشي جوه البيت أو تمارين وزن الجسم، عشان الخطة ما تقفش أول ما حاجة تتغير [4]. وقلل القعدة الطويلة كمان: قوم اتحرك دقايق كل شوية لو شغلك مكتبي، لأن NHS بتعتبر تقليل وقت القعدة جزء من الإرشادات نفسها، مش حاجة إضافية [2].",
+            "en": "Guidelines agree on clear numbers for adults. The NHS recommends at least 150 minutes a week of moderate activity or 75 minutes of vigorous activity, spread over 4 to 5 days or every day, with strengthening activities for all the major muscle groups on at least 2 days a week, and less time spent sitting for long periods [2]. The World Health Organization says some activity is better than none and that all movement counts [1].\n\nIf step counts are easier for you, a meta-analysis of 15 studies found that more daily steps were linked with progressively lower risk of death, with the benefit levelling off at roughly 6,000 to 8,000 steps a day for people aged 60 and over, and 8,000 to 10,000 steps for younger adults [9]. The biggest difference appears in people who start from a low step count [9].\n\nSo the plan does not have to begin at the final number. NIDDK suggests, for example, starting with 5-minute walks several times a day, gradually building to 10 minutes 3 times a day, and then increasing the pace [4].\n\nKeep a backup activity for days when the weather is bad or you have a minor injury, such as walking indoors or body-weight exercises, so the plan does not stop the moment something changes [4]. Cut down long sitting too: get up and move for a few minutes regularly if you work at a desk, because the NHS treats reducing sitting time as part of the guidelines themselves, not an extra [2]."
+          }
+        },
+        {
+          "id": "strength-and-muscle",
+          "heading": {
+            "ar": "تمارين المقاومة بتحمي العضلات",
+            "en": "Strength exercise protects muscle"
+          },
+          "body": {
+            "ar": "تمارين التقوية مش للرياضيين بس. مراجعة منهجية منشورة في المجلة البريطانية للطب الرياضي لقت إن تمارين تقوية العضلات مرتبطة بخطر أقل للوفاة من كل الأسباب ومن أمراض القلب والسرطان والسكر. أكبر انخفاض في الخطر، حوالي 10 لـ20%، كان عند حوالي 30 لـ60 دقيقة في الأسبوع، والجمع بين التقوية والنشاط الهوائي ارتبط بخطر أقل من غيرهم [7].\n\nNHS بتوضح إن التقوية مش لازم تكون في جيم: شيل أكياس المشتريات التقيلة، واليوجا، والبيلاتس، وتمارين وزن الجسم زي الضغط، والأستك المطاطي، وشغل الجنينة التقيل كلها أمثلة [2]. والتمرين يتعمل لحد ما تحتاج راحة قصيرة قبل ما تكرر [2].\n\nالكلام ده مهم بشكل خاص أثناء خسارة الوزن، لأن جزء من الوزن اللي بينزل ممكن يكون عضلات. مقال الحفاظ على العضلات أثناء خسارة الوزن بيشرح إزاي البروتين وتمارين المقاومة بيشتغلوا مع بعض [2, 7].\n\nلو أول مرة تعمل تمارين تقوية، ابدأ بوزن خفيف أو بوزن جسمك بس، وركز على الحركة الصح قبل ما تزود التكرار أو التقل. NIDDK بينصح إنك تزود تمارين تقوية العضلات تدريجياً، ويوم راحة بين تمرين نفس العضلات بيدي فرصة للتعافي [4]. والأهم إنك تلاقي نوع تمرين تحبه وتقدر تكمل عليه أسابيع وشهور، مش أسبوع واحد [4, 5].",
+            "en": "Strength exercise is not only for athletes. A systematic review in the British Journal of Sports Medicine found that muscle-strengthening activities were associated with lower risk of death from all causes, heart disease, cancer and diabetes. The largest reduction in risk, about 10 to 20%, was seen at around 30 to 60 minutes a week, and combining strengthening with aerobic activity was linked with lower risk than either alone [7].\n\nThe NHS explains that strengthening does not require a gym: carrying heavy shopping bags, yoga, pilates, body-weight exercises such as push-ups, resistance bands and heavy gardening all count [2]. Each exercise should be done until you need a short rest before repeating it [2].\n\nThis matters especially during weight loss, because part of the weight lost may be muscle. The article on protecting muscle while losing weight explains how protein and resistance exercise work together [2, 7].\n\nIf strength exercise is new to you, start with light weights or just your body weight, and focus on correct form before adding repetitions or load. NIDDK advises increasing muscle-strengthening activity gradually, and a rest day between sessions for the same muscles gives time to recover [4]. Above all, find a type of exercise you enjoy and can keep up for weeks and months, not just one week [4, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الحفاظ على العضلات أثناء خسارة الوزن",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "protecting muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sugar-and-mood",
+          "heading": {
+            "ar": "السكر بعد الأكل والمزاج: مكاسب بتحصل بسرعة",
+            "en": "Glucose after meals and mood: gains that come quickly"
+          },
+          "body": {
+            "ar": "بعض فوايد الحركة بتظهر في نفس اليوم. تحليل تجميعي لتجارب قارنت القعدة الطويلة بفواصل قصيرة متكررة من الوقوف أو المشي الخفيف، لقى إن الفواصل دي قللت السكر بعد الأكل، وإن المشي الخفيف كان أفضل من الوقوف لوحده، وقلل كمان الإنسولين [8]. التجارب دي كانت على مدى يوم واحد، فهي بتوضح أثر فوري مش نتيجة طويلة المدى [8]. لو دي نقطة تهمك، اقرا نصيحة المشي بعد أتقل وجبة.\n\nوعلى مستوى المزاج، مراجعة منهجية منشورة في BMJ سنة 2024 شملت 218 دراسة لقت إن التمرين علاج فعال للاكتئاب، وإن المشي أو الجري الخفيف واليوجا وتمارين القوة كانوا من أكتر الأنواع فايدة، مع إن درجة الثقة في الأدلة كانت منخفضة [10]. ده ما بيعنيش إن الحركة بديل للعلاج النفسي أو الدوائي لما يكونوا مطلوبين، لكنها إضافة حقيقية [10].\n\nوالنوم كمان من الفوايد اللي منظمة الصحة العالمية بتذكرها للبالغين [1]. ولو الوزن ثابت رغم الالتزام، مقال النوم وثبات الوزن بيشرح العلاقة بينهم.",
+            "en": "Some benefits of movement appear the same day. A meta-analysis of trials comparing prolonged sitting with frequent short breaks of standing or light walking found that these breaks lowered blood glucose after meals, that light walking was better than standing alone, and that it also reduced insulin [8]. These trials lasted a single day, so they show an immediate effect rather than a long-term result [8]. If this matters to you, read the tip on walking after your hardest meal.\n\nFor mood, a systematic review in the BMJ in 2024 covering 218 studies found that exercise is an effective treatment for depression, with walking or jogging, yoga and strength training among the most helpful types, although confidence in the evidence was low [10]. This does not make movement a substitute for psychological or medical treatment when those are needed, but it is a real addition [10].\n\nSleep is also among the benefits the World Health Organization lists for adults [1]. If your weight is stuck despite effort, the article on sleep and a weight plateau explains the link."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "المشي بعد أتقل وجبة",
+                "url": "../articles/tip-walk-after-hardest-meal.html"
+              },
+              {
+                "label": "النوم وثبات الوزن",
+                "url": "../articles/qa-sleep-weight-plateau.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "walking after your hardest meal",
+                "url": "../articles/tip-walk-after-hardest-meal.html"
+              },
+              {
+                "label": "sleep and a weight plateau",
+                "url": "../articles/qa-sleep-weight-plateau.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "safe-start",
+          "heading": {
+            "ar": "ابدأ بأمان وبحركة تقدر تكررها",
+            "en": "Start safely with movement you can repeat"
+          },
+          "body": {
+            "ar": "المشي، والعجلة، وشغل البيت، والحركة طول اليوم كلهم نشاط بيتحسب، والتمرين المنظم اختيار مهم لكنه مش الشكل الوحيد [1, 5]. ابدأ بمستوى يناسب لياقتك ومفاصلك، وزوّد تدريجياً عشان توصل لنشاط أقوى من غير إصابة [4]. وNHS بتنصح تكلم الطبيب الأول لو بقالك فترة ما اتمرنتش، أو عندك مرض مزمن أو قلق صحي [2].\n\nفيه علامات لازم توقف عندها فوراً. NHS بتقول تطلب إسعاف فوراً لو حصل ألم أو ضغط في الصدر ما بيروحش، أو ألم بيمتد للدراع أو الرقبة أو الفك أو الضهر، أو ألم صدر مع عرق أو غثيان أو دوخة أو ضيق نفس [12]. ولو ألم الصدر بيروح ويجي، لازم تقييم طبي [12].\n\nسجل جنب الوزن حاجات تانية: عدد الدقايق أو الخطوات، والطاقة، والنوم، والقدرة على طلوع السلم. الأرقام دي بتوري التقدم لما الميزان يكون ساكت [1, 9].",
+            "en": "Walking, cycling, housework and movement throughout the day all count as activity; structured exercise matters but is not the only form [1, 5]. Start at a level that suits your fitness and joints, and build gradually so you can reach more intense activity without injury [4]. The NHS advises speaking to a doctor first if you have not exercised for some time, or if you have a long-term condition or health concerns [2].\n\nSome signs mean you should stop at once. The NHS says to get emergency help immediately for chest pain or pressure that does not go away, pain that spreads to the arm, neck, jaw or back, or chest pain with sweating, nausea, light-headedness or breathlessness [12]. Chest pain that comes and goes also needs medical assessment [12].\n\nAlongside weight, record other things: minutes or steps, energy, sleep, and how easily you manage stairs. These numbers show progress when the scale is silent [1, 9]."
+          }
+        },
+        {
+          "id": "leave-with-next-step",
+          "heading": {
+            "ar": "اطلع بخطة حركة مناسبة ليك",
+            "en": "Leave with a movement plan that suits you"
+          },
+          "body": {
+            "ar": "الخطة الكويسة بتبدأ من وضعك الحالي: مستوى نشاطك، وحالة مفاصلك، وأي أمراض مزمنة، والأدوية اللي بتاخدها، ووقتك الفعلي خلال الأسبوع [2, 4]. وبعدين بتحط هدف صغير تقدر تحققه، زي مشي قصير بعد الأكل أو يومين تقوية، وتزود تدريجياً [4, 7].\n\nفي زيارة إدارة الوزن ممكن يتقاس تركيب الجسم والعضلات عشان التقدم يتشاف بأكتر من رقم، وتتظبط خطة الأكل مع خطة الحركة [4, 6]. لو محتاج تقييم فردي، تقدر تحجز موعد في العيادة. ده خطوة عملية عامة مش وعد بنتيجة، والفريق المعالج بيحدد المناسب لحالتك بعد التقييم [2].",
+            "en": "A good plan starts from where you are now: your current activity, your joints, any long-term conditions, the medicines you take and the time you really have each week [2, 4]. It then sets a small goal you can achieve, such as a short walk after meals or two strength sessions, and builds gradually [4, 7].\n\nAt a weight-management visit, body composition and muscle can be measured so progress is seen through more than one number, and the eating plan can be matched to the movement plan [4, 6]. If you need an individual assessment, you can book an appointment at the clinic. This is a practical next step, not a promised result, and the treating team will decide what suits your situation after assessment [2]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تحجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "بتمشى كل يوم والوزن ما نزلش. أوقف؟",
+            "en": "I walk every day and my weight has not dropped. Should I stop?"
+          },
+          "a": {
+            "ar": "لأ. الحركة المنتظمة ليها فوايد على القلب والسكر والنوم والمزاج واللياقة حتى لو الوزن ثابت، واللياقة الكويسة مرتبطة بخطر أقل مهما كان الوزن. تابع مؤشرات تانية جنب الميزان وراجع خطة الأكل مع المختص [1, 6].",
+            "en": "No. Regular movement benefits the heart, glucose, sleep, mood and fitness even when weight is stable, and good fitness is linked with lower risk whatever your weight. Track other markers alongside the scale and review your eating plan with a professional [1, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لازم أروح جيم عشان أعمل تمارين تقوية؟",
+            "en": "Do I need a gym for strength exercise?"
+          },
+          "a": {
+            "ar": "مش شرط. NHS بتذكر أمثلة زي شيل الأكياس التقيلة، والأستك المطاطي، وتمارين وزن الجسم، واليوجا. المهم تشغل العضلات الكبيرة يومين على الأقل في الأسبوع [2, 7].",
+            "en": "Not necessarily. The NHS lists examples such as carrying heavy bags, resistance bands, body-weight exercises and yoga. What matters is working the major muscles on at least 2 days a week [2, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل 10000 خطوة رقم لازم؟",
+            "en": "Is 10,000 steps a must?"
+          },
+          "a": {
+            "ar": "لأ. تحليل تجميعي لقى إن الفايدة بتثبت تقريباً عند 6000 لـ8000 خطوة لمن هم فوق 60 سنة و8000 لـ10000 للأصغر، وإن أي زيادة من عدد قليل ليها فايدة. ابدأ من مستواك وزود تدريجياً [4, 9].",
+            "en": "No. A meta-analysis found the benefit levels off at roughly 6,000 to 8,000 steps for people over 60 and 8,000 to 10,000 for younger adults, and that any increase from a low count helps. Start from your level and build gradually [4, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "الحركة القصيرة بتفرق فعلاً؟",
+            "en": "Do short bouts of movement really help?"
+          },
+          "a": {
+            "ar": "أيوه. منظمة الصحة العالمية بتقول إن كل حركة بتتحسب، وفواصل المشي الخفيف أثناء القعدة الطويلة قللت السكر بعد الأكل في التجارب. NIDDK بيقترح كمان تقسيم النشاط لفترات قصيرة لو وقتك ضيق [1, 4, 8].",
+            "en": "Yes. The World Health Organization says all movement counts, and light walking breaks during long sitting lowered glucose after meals in trials. NIDDK also suggests splitting activity into short bouts if time is limited [1, 4, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى أوقف التمرين وأطلب مساعدة؟",
+            "en": "When should I stop exercising and get help?"
+          },
+          "a": {
+            "ar": "لو حصل ألم أو ضغط في الصدر ما بيروحش، أو ألم بيمتد للدراع أو الفك، أو ضيق نفس أو دوخة أو عرق مع ألم الصدر، اطلب إسعاف فوراً. ولو بقالك فترة ما اتمرنتش أو عندك مرض مزمن، كلم الطبيب قبل ما تبدأ [2, 12].",
+            "en": "If you get chest pain or pressure that does not go away, pain spreading to the arm or jaw, or breathlessness, light-headedness or sweating with chest pain, get emergency help at once. If you have not exercised for a while or have a long-term condition, speak to a doctor before you start [2, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "عندي كبد دهني. التمرين هيفيد لو الوزن نزل شوية بس؟",
+            "en": "I have fatty liver. Will exercise help if I lose only a little weight?"
+          },
+          "a": {
+            "ar": "ممكن يفيد. تحليل تجميعي لتجارب على مرضى الكبد الدهني المرتبط بالتمثيل الغذائي لقى إن التمرين حسّن إنزيمات الكبد ومؤشرات التليف والكوليسترول، رغم إن فرق الوزن ما كانش ذو دلالة إحصائية. المتابعة بالتحاليل والتقييم الطبي بتحدد التحسن الفعلي عندك [11].",
+            "en": "It may. A meta-analysis of trials in metabolic dysfunction-associated fatty liver disease found that exercise improved liver enzymes, fibrosis markers and cholesterol even though the weight difference was not statistically significant. Follow-up tests and medical assessment show your own actual improvement [11]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO — Physical activity fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "label": "NHS — Physical activity guidelines for adults aged 19 to 64",
+          "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/"
+        },
+        {
+          "label": "NHS — Benefits of exercise",
+          "url": "https://www.nhs.uk/live-well/exercise/exercise-health-benefits/"
+        },
+        {
+          "label": "NIDDK — Health Tips for Adults",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-adults"
+        },
+        {
+          "label": "MedlinePlus — Exercise and Physical Fitness",
+          "url": "https://medlineplus.gov/exerciseandphysicalfitness.html"
+        },
+        {
+          "label": "Weeldreyer et al. — Cardiorespiratory fitness, body mass index and mortality: a systematic review and meta-analysis (Br J Sports Med 2025, PMC11874340)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11874340/"
+        },
+        {
+          "label": "Momma et al. — Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases (Br J Sports Med 2022, PMC9209691)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9209691/"
+        },
+        {
+          "label": "Buffey et al. — The acute effects of interrupting prolonged sitting time with standing and light-intensity walking on cardiometabolic biomarkers (Sports Med 2022, PMC9325803)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9325803/"
+        },
+        {
+          "label": "Paluch et al. — Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts (Lancet Public Health 2022, PMC9289978)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9289978/"
+        },
+        {
+          "label": "Noetel et al. — Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials (BMJ 2024, PMC10870815)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10870815/"
+        },
+        {
+          "label": "Exercise versus standard therapy in steatotic liver disease spectrum: systematic review, meta-analysis and meta-regression (J Clin Med 2026, PMC13412719)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13412719/"
+        },
+        {
+          "label": "NHS — Chest pain",
+          "url": "https://www.nhs.uk/conditions/chest-pain/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "النشاط البدني",
+          "صحة العضلات",
+          "اللياقة القلبية",
+          "إدارة الوزن",
+          "علاج السمنة بدون جراحة"
+        ],
+        "en": [
+          "physical activity",
+          "muscle health",
+          "cardiorespiratory fitness",
+          "weight management",
+          "non-surgical weight management"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "فوايد الحركة أكبر من الميزان: اللياقة والقلب والعضلات",
+          "en": "Movement benefits beyond the scale: fitness, heart, muscle"
+        },
+        "description": {
+          "ar": "الوزن ثابت رغم المشي؟ اعرف إزاي الحركة بتفيد اللياقة والقلب والسكر والكبد والمزاج والعضلات، وقد إيه نشاط كفاية، وإمتى توقف وتطلب مساعدة.",
+          "en": "Weight stuck despite walking? How movement helps fitness, heart, glucose, liver, mood and muscle, how much is enough, and when to stop and get help."
+        }
+      }
+    }
+  ]
+}

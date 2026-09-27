@@ -1,0 +1,329 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of obesity-care-beyond-bmi; replaces the entry from content/articles.json. Expanded with the 2025 Lancet clinical-obesity definition, NICE waist-to-height guidance, EOSS, stigma consensus, treatment and progress sections, FAQs, 14 verified sources; reviewer set to the staffed weight-management clinician.",
+  "articles": [
+    {
+      "slug": "obesity-care-beyond-bmi",
+      "type": "update",
+      "published": true,
+      "featured": false,
+      "category": "weight-management",
+      "specialties": [
+        "weight-management",
+        "clinical-nutrition",
+        "internal-medicine"
+      ],
+      "date": "2026-08-29",
+      "updatedAt": "2026-09-27",
+      "readingTime": 7,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/obesity-care-beyond-bmi.webp",
+      "title": {
+        "ar": "تحديث علمي: رعاية السمنة ما تقفش عند مؤشر كتلة الجسم",
+        "en": "Scientific update: obesity care goes beyond BMI"
+      },
+      "excerpt": {
+        "ar": "تعريف السمنة الإكلينيكية الجديد وإرشادات NICE بيحطوا محيط الخصر ووظائف الأعضاء والأمراض المصاحبة في قلب القرار، بدل ما الحالة تتختصر في رقم BMI. اعرف ده بيغير إيه في التقييم والعلاج.",
+        "en": "The new definition of clinical obesity and NICE guidance place waist size, organ function and related disease at the centre of decisions instead of reducing care to a BMI number. Learn what this changes in assessment and treatment."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّع التحديث بشرح تعريف السمنة الإكلينيكية لسنة 2025، ونسبة الخصر للطول، والتقييم الكامل، والعلاج، ومؤشرات التحسن، مع مصادر موثقة وأسئلة شائعة، واتراجع طبياً من جديد.",
+            "en": "The update was expanded to cover the 2025 clinical obesity definition, waist-to-height ratio, full assessment, treatment and progress markers, with verified sources and FAQs, and was medically re-reviewed."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "why-bmi-is-not-enough",
+          "heading": {
+            "ar": "ليه مؤشر كتلة الجسم لوحده مش كفاية؟",
+            "en": "Why BMI on its own is not enough"
+          },
+          "body": {
+            "ar": "مؤشر كتلة الجسم (BMI) بيتحسب من الوزن والطول، وده بيخليه أداة سريعة ورخيصة لفرز الناس على مستوى المجتمع. منظمة الصحة العالمية بتعتبر السمنة مرضاً مزمناً معقداً، وبتستخدم BMI كتعريف عملي للبالغين [9]. المشكلة إن الرقم ده ما بيفرقش بين الدهون والعضلات والعظم والمياه، وما بيقولش الدهون متخزنة فين في الجسم [2, 4].\n\nعشان كده ممكن شخصين عندهم نفس الـBMI بالظبط يكونوا في وضع صحي مختلف تماماً. واحد عضلاته كتير وضغطه وسكره مظبوطين، والتاني دهونه متركزة حوالين البطن وعنده ارتفاع في السكر أو دهون على الكبد أو ضيق نفس وقت النوم. تقرير لجنة Lancet سنة 2025 عن تعريف السمنة الإكلينيكية قال بوضوح إن الـBMI مقياس بديل للدهون، ومحتاج يتأكد بقياس تاني زي محيط الخصر أو نسبة الخصر للطول، أو بقياس مباشر للدهون لما يكون متاح [4].\n\nده مش معناه إن الـBMI ملوش لازمة. هو نقطة بداية مفيدة، وبيدخل في قرارات زي إمتى يتناقش دواء أو جراحة. لكن التحديث العلمي الحقيقي إن الرقم بيفتح الكلام، مش بيقفله، والقرار العلاجي محتاج صورة أوسع بكتير [1, 5].",
+            "en": "Body mass index (BMI) is calculated from weight and height, which makes it a quick and inexpensive way to screen populations. The World Health Organization describes obesity as a chronic, complex disease and uses BMI as the practical adult definition [9]. The limitation is that the number does not distinguish fat from muscle, bone or water, and it does not show where fat is stored in the body [2, 4].\n\nTwo people with exactly the same BMI can therefore be in very different health situations. One may carry a lot of muscle with normal blood pressure and glucose; the other may carry fat around the abdomen with raised glucose, fatty liver or breathing problems during sleep. The 2025 Lancet Commission on clinical obesity stated plainly that BMI is a surrogate for body fat and should be confirmed with another measure, such as waist circumference or waist-to-height ratio, or with direct fat measurement where available [4].\n\nThis does not make BMI useless. It is a helpful starting point and still enters decisions such as when to discuss medicine or surgery. The real scientific update is that the number opens the conversation rather than closing it, and a treatment decision needs a much wider picture [1, 5]."
+          }
+        },
+        {
+          "id": "waist-and-fat-distribution",
+          "heading": {
+            "ar": "محيط الخصر وتوزيع الدهون بيضيفوا معلومة مهمة",
+            "en": "Waist size and fat distribution add important information"
+          },
+          "body": {
+            "ar": "إرشاد NICE الحالي (NG246) بينصح بقياس نسبة الخصر للطول مع الـBMI عند البالغين اللي الـBMI بتاعهم أقل من 35. الرسالة البسيطة: خلي محيط وسطك أقل من نص طولك. النسبة من 0.5 لحد أقل من 0.6 معناها زيادة في المخاطر الصحية بسبب الدهون المركزية، و0.6 أو أكتر معناها خطر أعلى [2].\n\nالإرشاد نفسه بيوضح إن ناس من أصول معينة، منها أصول الشرق الأوسط وجنوب آسيا وأفريقيا، بيبدأ عندهم الخطر الأيضي عند BMI أقل، فبيستخدم حدود أقل للتصنيف عندهم [2]. ده مهم لينا في مصر، لأن رقم يبان «مقبول» على جدول عام ممكن يكون وراه خطر فعلي. بيان إجماع دولي عن محيط الخصر كمان اعتبره «علامة حيوية» لازم تتقاس بشكل روتيني، لأنه عند نفس الـBMI، الخصر الأكبر بيرتبط بخطر قلبي وأيضي أعلى [7].\n\nالقياس الصح ليه طريقة: بيتاخد على الجلد أو هدوم خفيفة، في نفس المكان كل مرة، ومع نهاية زفير طبيعي. تفاصيل الدهون الحشوية وقراءات الأجهزة موجودة في مقال دهون البطن الحشوية وقياس الخصر، وهناك هتلاقي ليه الرقم محتاج يتقرا مع الفحص والتحاليل مش لوحده [7].",
+            "en": "Current NICE guidance (NG246) recommends measuring waist-to-height ratio alongside BMI in adults with a BMI below 35. The simple message is to keep your waist to less than half your height. A ratio from 0.5 to below 0.6 indicates increased health risk from central fat, and 0.6 or more indicates high risk [2].\n\nThe same guidance notes that people from some family backgrounds, including Middle Eastern, South Asian and African backgrounds, develop metabolic risk at a lower BMI, so lower classification thresholds are used for them [2]. That matters in Egypt, because a number that looks acceptable on a generic chart may hide real risk. An international consensus statement also described waist circumference as a vital sign that should be measured routinely, because at the same BMI a larger waist is linked with higher cardiometabolic risk [7].\n\nMeasurement technique matters: take it on skin or light clothing, at the same point each time, at the end of a normal breath out. The details of visceral fat and device readings are covered in the article on visceral fat, waist and InBody, which explains why the number needs to be read alongside examination and blood tests rather than on its own [7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دهون البطن الحشوية وقياس الخصر",
+                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "visceral fat, waist and InBody",
+                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "clinical-and-preclinical-obesity",
+          "heading": {
+            "ar": "السمنة الإكلينيكية وما قبل الإكلينيكية: الفرق إيه؟",
+            "en": "Clinical and preclinical obesity: what is the difference?"
+          },
+          "body": {
+            "ar": "لجنة Lancet اقترحت تقسيماً جديداً بيفصل بين حاجتين. «السمنة ما قبل الإكلينيكية» معناها زيادة في الدهون مع وظائف أعضاء ونشاط يومي لسه سليمين، لكن مع خطر أعلى لأمراض قدام. أما «السمنة الإكلينيكية» فهي مرض مزمن قائم، فيه الدهون الزايدة بتأثر فعلاً على وظيفة عضو أو أكتر، أو بتحد من أنشطة الحياة اليومية زي الحركة والاستحمام واللبس [4].\n\nاللجنة حطت معايير محددة للبالغين، منها مثلاً ضيق النفس، أو علامات فشل القلب، أو ارتفاع السكر أو الضغط، أو دهون الكبد مع تليف، أو ألم وتيبس في الركبة أو الورك بسبب الوزن [4]. الفكرة إن التشخيص يتبني على الصحة والوظيفة، مش على الشكل ولا على الرقم لوحده.\n\nقبلها بسنين، نظام Edmonton لتصنيف السمنة (EOSS) قدّم فكرة قريبة: بيصنف الحالة من صفر لأربعة حسب الأمراض المصاحبة والحالة النفسية والقدرة الوظيفية. دراسة على عينة كبيرة من البالغين لقت إن المرحلة دي بتتوقع خطر الوفاة أحسن من الـBMI [6]. التطبيق العملي: الشخص في المرحلة ما قبل الإكلينيكية ممكن يحتاج متابعة ووقاية وتقليل خطر، والشخص في المرحلة الإكلينيكية محتاج علاج فعلي للمرض ومضاعفاته [4, 6].",
+            "en": "The Lancet Commission proposed a new division between two situations. Preclinical obesity means excess fat with organ function and daily activity still preserved, but with a higher risk of future disease. Clinical obesity is an established chronic illness in which excess fat is already affecting the function of one or more organs, or limiting daily activities such as moving, bathing and dressing [4].\n\nThe Commission set out specific adult criteria, including breathlessness, signs of heart failure, raised glucose or blood pressure, fatty liver with fibrosis, and knee or hip pain and stiffness caused by weight [4]. The point is that diagnosis rests on health and function, not on appearance or a number alone.\n\nYears earlier, the Edmonton Obesity Staging System (EOSS) offered a related idea, staging the condition from zero to four according to related diseases, mental health and functional ability. A study of a large population cohort found that this stage predicted mortality better than BMI [6]. In practice, someone with preclinical obesity may need monitoring, prevention and risk reduction, while someone with clinical obesity needs active treatment of the disease and its complications [4, 6]."
+          }
+        },
+        {
+          "id": "what-a-full-assessment-includes",
+          "heading": {
+            "ar": "التقييم الكامل بيشمل إيه؟",
+            "en": "What a full assessment includes"
+          },
+          "body": {
+            "ar": "الإرشاد الكندي لعلاج السمنة عند البالغين بيقترح إن التقييم يدور على الأسباب والعوامل اللي بتحافظ على زيادة الوزن، وعلى المضاعفات، وعلى العوائق اللي ممكن تمنع العلاج [5]. ده بيشمل تاريخ الوزن من الطفولة، المحاولات اللي فاتت وسبب وقفها، النوم والتوتر والمزاج، نمط الأكل ونوبات الأكل الزايد، والأدوية اللي ممكن تزود الوزن زي بعض أدوية الاكتئاب أو الكورتيزون أو علاجات السكر [5, 10].\n\nالفحص ممكن يشمل الضغط والخصر، وتقييم المفاصل والتنفس. أما التحاليل فبيطلبها الطبيب حسب الحالة، زي السكر التراكمي أو الصائم، الدهون، وظائف الكبد، ووظائف الغدة الدرقية لو فيه أعراض بتشاور عليها [2, 5]. خدمة NHS بتفكر إن السمنة بترتبط بالسكر من النوع التاني، أمراض القلب، بعض أنواع السرطان، وتأثير على الصحة النفسية كمان [10].\n\nلو دي أول مرة تروح عيادة وزن، مقال أول زيارة لإدارة الوزن بيشرح الأسئلة والقياسات خطوة بخطوة. والمهم إن التقييم يطلع بقائمة أولويات: إيه المشكلة الصحية الأهم دلوقتي، وإيه اللي ممكن يتحسن بسرعة، وإيه اللي محتاج وقت [5].",
+            "en": "The Canadian adult obesity guideline suggests that assessment should look for the causes and factors that maintain weight gain, for complications, and for barriers that may get in the way of treatment [5]. That includes weight history since childhood, previous attempts and why they stopped, sleep, stress and mood, eating patterns and episodes of overeating, and medicines that can increase weight, such as some antidepressants, steroids or diabetes treatments [5, 10].\n\nExamination may include blood pressure and waist, with a check of joints and breathing. Blood tests are chosen by the clinician according to the situation, such as HbA1c or fasting glucose, lipids, liver tests, and thyroid function where symptoms point that way [2, 5]. The NHS reminds readers that obesity is linked with type 2 diabetes, heart disease, some cancers and effects on mental health as well [10].\n\nIf this is your first time at a weight clinic, the guide to a first weight-management visit explains the questions and measurements step by step. What matters is that assessment ends with a list of priorities: the most important health problem now, what can improve quickly, and what needs time [5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أول زيارة لإدارة الوزن",
+                "url": "../articles/weight-management-first-visit.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "first weight-management visit",
+                "url": "../articles/weight-management-first-visit.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "respectful-language",
+          "heading": {
+            "ar": "الاحترام واللغة جزء من العلاج",
+            "en": "Respect and language are part of treatment"
+          },
+          "body": {
+            "ar": "بيان إجماع دولي وقّع عليه عشرات الجمعيات العلمية سنة 2020 قال إن وصم الوزن بيأذي الصحة، وإن الافتراض إن السمنة بس نتيجة كسل أو قلة إرادة مش متوافق مع العلم [8]. الوصم بيخلي ناس كتير تأجل زيارة الطبيب، أو تتجنب الفحوص، أو يحسوا بخجل يمنعهم يتكلموا عن أعراض مهمة. كمان ممكن يخلي مقدم الرعاية يربط أي عرض بالوزن ويفوّت تشخيص تاني [8].\n\nعشان كده جمعية EASO وإرشادات NICE بيأكدوا على لغة محترمة تحط الشخص قبل الحالة، وعلى طلب الإذن قبل الكلام عن الوزن [1, 3]. من حقك تسأل: القياس ده ليه؟ وهيغير إيه في الخطة؟ ومن حقك تقول لو الوقوف على الميزان بيسبب لك ضغط، وتتفقوا على طريقة تناسبك.\n\nفي نفس الوقت، الاحترام مش معناه تجاهل المضاعفات. الرعاية الجيدة بتقول الحقيقة الطبية بوضوح، من غير لوم، وبتحط أهداف صحية واقعية زي تحسين السكر أو الضغط أو النوم أو القدرة على المشي، مش شكل معين أو رقم مثالي [5, 8].",
+            "en": "An international consensus statement endorsed by dozens of scientific societies in 2020 stated that weight stigma harms health, and that assuming obesity is simply the result of laziness or lack of willpower is inconsistent with the evidence [8]. Stigma leads many people to delay seeing a doctor, avoid tests, or feel too ashamed to mention important symptoms. It can also lead clinicians to attribute every symptom to weight and miss another diagnosis [8].\n\nThis is why EASO and NICE emphasise respectful, person-first language and asking permission before discussing weight [1, 3]. You are entitled to ask why a measurement is needed and what it will change in the plan. You can also say if stepping on the scale causes distress and agree on an approach that works for you.\n\nAt the same time, respect does not mean ignoring complications. Good care states the medical facts clearly without blame, and sets realistic health goals such as better glucose, blood pressure, sleep or walking ability, rather than a particular appearance or an ideal number [5, 8]."
+          }
+        },
+        {
+          "id": "treatment-options",
+          "heading": {
+            "ar": "خيارات العلاج بتتحدد حسب الصورة الكاملة",
+            "en": "Treatment options follow the whole picture"
+          },
+          "body": {
+            "ar": "الإرشاد الكندي بيوصف العلاج كأساس من التغذية والحركة والدعم النفسي والسلوكي، ويتضاف عليه حسب الحاجة الدواء أو الجراحة [5]. قوة الخدمات الوقائية الأمريكية (USPSTF) بتوصي بتحويل البالغين اللي عندهم BMI من 30 أو أكتر لبرامج سلوكية مكثفة ومتعددة العناصر، لأنها بتحسن الوزن وبعض عوامل الخطر [13].\n\nالأدوية ليها مكان معروف. المعهد الأمريكي NIDDK بيوضح إنها بتتناقش عادة لما الـBMI يكون 30 أو أكتر، أو 27 أو أكتر مع مشكلة صحية مرتبطة بالوزن، وإنها بتشتغل مع تغييرات الأكل والحركة مش بدلها [12]. وNICE بيحدد إمتى يتناقش الدواء أو جراحات السمنة، مع مراعاة الحدود الأقل لبعض الأصول العرقية [14]. لو بتفكر في دواء، اقرا مقال أدوية الوزن مش كورس قصير عشان تفهم ليه الاستمرار والمتابعة جزء من الخطة.\n\nوخلال أي نزول في الوزن، الحفاظ على العضلات مهم، خصوصاً مع الأدوية الحديثة أو الأكل القليل جداً. مقال الحفاظ على العضلات أثناء خسارة الوزن بيشرح دور البروتين وتمارين المقاومة. القرار في الآخر مشترك: الفوايد والأضرار والبدائل بتتناقش بصراحة، واختيارك جزء أساسي منه [11, 12].",
+            "en": "The Canadian guideline describes treatment as a foundation of nutrition, physical activity and psychological and behavioural support, with medicine or surgery added when needed [5]. The US Preventive Services Task Force (USPSTF) recommends that adults with a BMI of 30 or more be offered or referred to intensive, multicomponent behavioural programmes, because they improve weight and some risk factors [13].\n\nMedicines have a defined place. NIDDK explains that they are usually discussed when BMI is 30 or more, or 27 or more with a weight-related health problem, and that they work alongside changes in eating and activity rather than replacing them [12]. NICE sets out when medicines or obesity surgery should be discussed, taking account of lower thresholds for some ethnic backgrounds [14]. If you are considering medicine, read why weight medicines are not a short course to understand why continuity and follow-up are part of the plan.\n\nDuring any weight loss, protecting muscle matters, particularly with newer medicines or very low intakes. The article on protecting muscle while losing weight explains the role of protein and resistance exercise. In the end the decision is shared: benefits, harms and alternatives are discussed openly, and your choice is a central part of it [11, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أدوية الوزن مش كورس قصير",
+                "url": "../articles/weight-medicines-are-not-a-short-course.html"
+              },
+              {
+                "label": "الحفاظ على العضلات أثناء خسارة الوزن",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "weight medicines are not a short course",
+                "url": "../articles/weight-medicines-are-not-a-short-course.html"
+              },
+              {
+                "label": "protecting muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "measuring-progress",
+          "heading": {
+            "ar": "إزاي تقيس التحسن بعيد عن الميزان بس؟",
+            "en": "How to measure progress beyond the scale"
+          },
+          "body": {
+            "ar": "لو التشخيص مبني على الصحة والوظيفة، يبقى التحسن كمان لازم يتقاس بنفس المنطق. مؤشرات مفيدة ممكن تشمل محيط الخصر، الضغط، السكر التراكمي، إنزيمات الكبد، جودة النوم، ألم المفاصل، والقدرة على المشي أو طلوع السلم [4, 5]. نزول الوزن نفسه مهم، والإرشادات بتذكر إن نزول بسيط نسبياً ممكن يحسن عوامل خطر كتير، لكن الرقم مش المقياس الوحيد [11].\n\nفيه ناس الوزن عندها بيقف فترة بينما الخصر أو السكر بيتحسن، وده تقدم حقيقي يستاهل يتسجل. وفيه ناس بتنزل بسرعة لكن بتخسر عضلات أو بتتعب، وده محتاج مراجعة للخطة مش احتفال بس [5]. المتابعة المنتظمة بتسمح بتعديل الخطة بدل ما تتلام لو خطوة ما نفعتش.\n\nلو محتاج تقييم فردي يربط القياسات والتحاليل والتغذية في خطة واحدة، تقدر تحجز موعد في العيادة. ذكر العيادة هنا خطوة عملية عامة، مش وعد بنتيجة معينة، والفريق المعالج هو اللي يحدد القياسات والخطوات المناسبة لحالتك [1, 5].",
+            "en": "If diagnosis is based on health and function, progress should be measured the same way. Useful markers can include waist circumference, blood pressure, HbA1c, liver enzymes, sleep quality, joint pain, and the ability to walk or climb stairs [4, 5]. Weight loss itself matters, and guidelines note that relatively modest loss can improve many risk factors, but the number is not the only measure [11].\n\nSome people see their weight pause for a while as their waist or glucose improves, and that is real progress worth recording. Others lose weight quickly but lose muscle or feel unwell, which calls for a review of the plan rather than simple celebration [5]. Regular follow-up allows the plan to be adjusted instead of the person being blamed when a step does not work.\n\nIf you need an individual assessment that brings measurements, blood tests and nutrition into one plan, you can book an appointment at the clinic. This is a practical next step rather than a promised result, and the treating team will decide which measurements and steps suit your situation [1, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تحجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "لو الـBMI بتاعي طبيعي، ممكن يكون عندي خطر مرتبط بالدهون؟",
+            "en": "If my BMI is normal, can I still have fat-related risk?"
+          },
+          "a": {
+            "ar": "أيوه، ممكن. الـBMI ما بيوضحش توزيع الدهون، والدهون المتركزة حوالين البطن بترتبط بخطر أيضي حتى عند BMI يبان طبيعي. عشان كده NICE بينصح بقياس نسبة الخصر للطول، وبيستخدم حدود أقل لناس من أصول الشرق الأوسط [2, 7].",
+            "en": "Yes, it is possible. BMI does not show fat distribution, and fat concentrated around the abdomen is linked with metabolic risk even at a BMI that looks normal. This is why NICE recommends measuring waist-to-height ratio and uses lower thresholds for people of Middle Eastern background [2, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "يعني إيه سمنة إكلينيكية؟",
+            "en": "What does clinical obesity mean?"
+          },
+          "a": {
+            "ar": "حسب لجنة Lancet سنة 2025، هي حالة الدهون الزايدة فيها بتأثر فعلاً على وظيفة عضو، زي القلب أو الكبد أو المفاصل أو التنفس، أو بتحد من أنشطة يومية أساسية. الحالة دي محتاجة علاج فعلي، مش مجرد وقاية [4].",
+            "en": "According to the 2025 Lancet Commission, it is a condition in which excess fat is already affecting the function of an organ, such as the heart, liver, joints or breathing, or limiting basic daily activities. It needs active treatment rather than prevention alone [4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إزاي أقيس نسبة الخصر للطول في البيت؟",
+            "en": "How can I measure my waist-to-height ratio at home?"
+          },
+          "a": {
+            "ar": "قيس وسطك بشريط قياس في منتصف المسافة بين آخر ضلع وأعلى عظمة الحوض، مع نهاية زفير طبيعي، واقسمه على طولك بنفس الوحدة. لو الناتج 0.5 أو أكتر، ده سبب كويس تناقش المخاطر مع الطبيب [2, 7].",
+            "en": "Measure your waist with a tape halfway between the lowest rib and the top of the hip bone, at the end of a normal breath out, then divide by your height in the same unit. A result of 0.5 or more is a good reason to discuss risk with a clinician [2, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أنزل وزن كبير عشان صحتي تتحسن؟",
+            "en": "Do I need to lose a lot of weight for my health to improve?"
+          },
+          "a": {
+            "ar": "مش شرط. نزول بسيط نسبياً ممكن يحسن الضغط والسكر وعوامل خطر تانية عند ناس كتير. الأهم إن الهدف يتحدد حسب مشكلتك الصحية، ويتقاس بمؤشرات زي الخصر والتحاليل والنوم والحركة مش الميزان بس [5, 11].",
+            "en": "Not necessarily. Relatively modest weight loss can improve blood pressure, glucose and other risk factors in many people. What matters is setting the goal around your health problem and measuring it with markers such as waist, blood tests, sleep and movement, not only the scale [5, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ينفع أطلب ما يتكلموش معايا عن الوزن في كل زيارة؟",
+            "en": "Can I ask not to discuss weight at every visit?"
+          },
+          "a": {
+            "ar": "أيوه. الإرشادات بتشجع على طلب الإذن قبل الكلام عن الوزن وعلى لغة محترمة. تقدر تتفق مع الطبيب إمتى القياس مفيد فعلاً وإمتى ممكن يتأجل، طالما مش هيأثر على قرار طبي مهم [1, 3, 8].",
+            "en": "Yes. Guidelines encourage asking permission before discussing weight and using respectful language. You can agree with your clinician when a measurement is genuinely useful and when it can wait, as long as it does not affect an important medical decision [1, 3, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل التقييم معناه إني هاخد دواء؟",
+            "en": "Does an assessment mean I will be given medicine?"
+          },
+          "a": {
+            "ar": "لا. التقييم ممكن يطلع بخطة تغذية وحركة، أو متابعة، أو علاج لمرض مصاحب، أو مناقشة دواء أو جراحة لو مناسبين. الدواء بيتقرر حسب الـBMI والحالة الصحية والفوايد والأضرار واختيارك [12, 14].",
+            "en": "No. An assessment may lead to a nutrition and activity plan, follow-up, treatment of a related condition, or a discussion of medicine or surgery if suitable. Medicine is decided according to BMI, health status, benefits, harms and your choice [12, 14]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NICE — Overweight and obesity management (NG246)",
+          "url": "https://www.nice.org.uk/guidance/ng246"
+        },
+        {
+          "label": "NICE — Identifying and assessing overweight, obesity and central adiposity (NG246)",
+          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity"
+        },
+        {
+          "label": "EASO — Clinical Practice Guidelines",
+          "url": "https://easo.org/easo-resources/clinical-practice-guidelines/"
+        },
+        {
+          "label": "Rubino et al. — Definition and diagnostic criteria of clinical obesity (Lancet Diabetes Endocrinol 2025, PMC11870235)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11870235/"
+        },
+        {
+          "label": "Wharton et al. — Obesity in adults: a clinical practice guideline (CMAJ, PMC7828878)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7828878/"
+        },
+        {
+          "label": "Padwal et al. — Edmonton Obesity Staging System and mortality (CMAJ, PMC3185097)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3185097/"
+        },
+        {
+          "label": "Ross et al. — Waist circumference as a vital sign in clinical practice (Nat Rev Endocrinol, PMC7027970)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7027970/"
+        },
+        {
+          "label": "Rubino et al. — Joint international consensus statement for ending stigma of obesity (Nat Med, PMC7154011)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7154011/"
+        },
+        {
+          "label": "World Health Organization — Obesity and overweight fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        },
+        {
+          "label": "NHS — Overweight and obesity in adults",
+          "url": "https://www.nhs.uk/conditions/overweight-and-obesity/"
+        },
+        {
+          "label": "NIDDK — Treatment for Overweight & Obesity",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/treatment"
+        },
+        {
+          "label": "NIDDK — Prescription Medications to Treat Overweight & Obesity",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
+        },
+        {
+          "label": "USPSTF — Weight Loss to Prevent Obesity-Related Morbidity and Mortality in Adults: Behavioral Interventions",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/obesity-in-adults-interventions"
+        },
+        {
+          "label": "NICE — Overweight and obesity management: medicines and surgery (NG246)",
+          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "رعاية السمنة",
+          "مؤشر كتلة الجسم",
+          "السمنة الإكلينيكية",
+          "محيط الخصر",
+          "الصحة الأيضية"
+        ],
+        "en": [
+          "obesity care",
+          "BMI",
+          "clinical obesity",
+          "waist-to-height ratio",
+          "metabolic health"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "رعاية السمنة أكبر من BMI: التعريف الجديد",
+          "en": "Obesity care beyond BMI: the new approach"
+        },
+        "description": {
+          "ar": "ليه مؤشر كتلة الجسم لوحده مش كفاية؟ اعرف تعريف السمنة الإكلينيكية الجديد، وأهمية محيط الخصر، والتقييم الكامل وخيارات العلاج الآمنة.",
+          "en": "Why BMI alone is not enough: the new clinical obesity definition, why waist size matters, what a full assessment covers and how treatment is chosen."
+        }
+      }
+    }
+  ]
+}
