@@ -6,51 +6,409 @@
       "published": true,
       "featured": false,
       "category": "general-surgery",
-      "specialties": ["general-surgery", "gastroenterology-hepatology", "ultrasound"],
+      "specialties": [
+        "general-surgery",
+        "gastroenterology-hepatology",
+        "ultrasound"
+      ],
       "date": "2026-09-11",
       "updatedAt": "2026-09-27",
       "readingTime": 9,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
       "image": "assets/img/articles/gallstones-symptoms-and-surgery.webp",
-      "title": {"ar": "ألم المرارة أثناء الحمل: إمتى يحتاج تقييم منسّق؟", "en": "Gallbladder pain in pregnancy: when it needs coordinated assessment"},
-      "excerpt": {"ar": "ألم أعلى البطن أو الغثيان في الحمل له أسباب كثيرة، ومش كل مرة تكون المرارة. ربط الأعراض بالفحص والتحاليل والتصوير المناسب مع متابعة الحمل هو اللي يحدد الخطوة الآمنة.", "en": "Upper-abdominal pain or nausea in pregnancy has many possible causes. Coordinating symptoms, examination, tests and suitable imaging with pregnancy care helps identify the safe next step without assuming the gallbladder is responsible."},
+      "title": {
+        "ar": "ألم المرارة أثناء الحمل: إمتى يحتاج تقييم منسّق؟",
+        "en": "Gallbladder pain in pregnancy: when it needs coordinated assessment"
+      },
+      "excerpt": {
+        "ar": "ألم أعلى البطن أو الغثيان في الحمل له أسباب كثيرة، ومش كل مرة تكون المرارة. ربط الأعراض بالفحص والتحاليل والتصوير المناسب مع متابعة الحمل هو اللي يحدد الخطوة الآمنة.",
+        "en": "Upper-abdominal pain or nausea in pregnancy has many possible causes. Coordinating symptoms, examination, tests and suitable imaging with pregnancy care helps identify the safe next step without assuming the gallbladder is responsible."
+      },
       "sections": [
-        {"id": "start-with-the-whole-story", "heading": {"ar": "ابدأ بالحكاية كاملة، مش باسم عضو واحد", "en": "Start with the full story, not one organ name"}, "body": {"ar": "الغثيان والحموضة والانتفاخ ووجع أعلى البطن حاجات منتشرة جداً في الحمل، بس مكان الوجع لوحده مش دليل إن المرارة هي السبب. أي وجع جديد أو بيتكرر محتاج يتوصف بوضوح: بدأ إمتى، وفضل قد إيه، وجه بعد الأكل ولا لأ، وكان معاه ترجيع أو حرارة أو اصفرار في الجلد والعين أو تغيير في لون البول. ووجود حصوة في تقرير قديم مش معناه إن كل عرض جديد سببه الحصوة دي. [1, 2]\n\nفي الحمل، فيه أعراض هضمية ممكن تتشابه مع مشاكل تانية محتاجة تقييم سريع وبعيدة خالص عن الجهاز الهضمي، زي ارتفاع الضغط المرتبط بالحمل. عشان كده الدكتور بيربط الحكاية بالكشف وشهر الحمل وقياس الضغط والتحاليل الموجودة، بدل ما الرعاية تتأخر عشان تفسير واحد على النت بان مقنع. [3, 4]", "en": "Nausea, heartburn, bloating and upper-abdominal pain are common in pregnancy, but the location of pain alone does not prove that the gallbladder is responsible. A new or recurring episode needs a clear description: when it started, how long it lasted, whether it followed food, and whether vomiting, fever, jaundice or a change in urine appeared. A stone on an older report does not make every new symptom a gallstone symptom. [1, 2]\n\nDuring pregnancy, digestive symptoms can resemble problems that need prompt assessment outside gastroenterology. The clinician therefore joins the story to examination, pregnancy stage, blood pressure and available results instead of delaying care because one online explanation sounds plausible. [3, 4]"}},
-        {"id": "patterns-are-clues-not-a-diagnosis", "heading": {"ar": "شكل الوجع دليل، مش تشخيص", "en": "A pain pattern is a clue, not a diagnosis"}, "body": {"ar": "وجع المرارة ممكن يكون في أعلى يمين البطن أو في النص، وساعات بييجي معاه غثيان، بس الكلام ده لوحده مش كفاية عشان نقول إنها المرارة. تقييم الوجع بيشوف شدته، وبيزيد ولا بيقل، وعلاقته بالأكل والحركة، ومعاه الكشف والتحاليل لو لزم الأمر، والمقال عن أعراض حصوات المرارة وتقييمها بيشرح الصورة دي بالتفصيل. وأهم حاجة: متجربش تعرف السبب بإنك تاكل وجبة فيها دهون كتير، خصوصاً لو الوجع كان شديد أو جه معاه ترجيع أو حرارة. [1, 5]\n\nتسجيل النوبة على الموبايل بيفرق كتير: الساعة كام، وأكلت إيه قبلها، والوجع كان شديد قد إيه، وكان فيه ترجيع أو حرارة، والوجع راح لوحده ولا فضل مستمر. التفاصيل دي بتساعد الدكتور يفرّق بين عرض عابر وبين مشكلة محتاجة سونار أو تحاليل أو كشف مباشر. [2, 5]", "en": "Gallbladder pain may be felt in the upper right or middle abdomen and may come with nausea, but those words alone cannot diagnose it. Assessment considers severity, direction of change, links with food or movement, examination and blood tests when needed. Do not test the cause with a fatty meal if pain was severe or came with vomiting or fever; our guide to gallstone symptom assessment covers the pattern in more detail. [1, 5]\n\nA phone note can help: record timing, the preceding food, pain severity, vomiting, fever, and whether pain settled or continued. These details help distinguish a passing symptom from one needing ultrasound, blood tests or direct examination. [2, 5]"}, "links": {"ar": [{"label": "أعراض حصوات المرارة وتقييمها", "url": "../articles/gallstones-when-symptoms-need-assessment.html"}], "en": [{"label": "gallstone symptom assessment", "url": "../articles/gallstones-when-symptoms-need-assessment.html"}]}},
-        {"id": "urgent-signs-do-not-wait-for-a-scan", "heading": {"ar": "علامات متستناش سونار روتيني", "en": "Signs that should not wait for a routine scan"}, "body": {"ar": "لو فيه وجع شديد أو مستمر، أو حرارة، أو ترجيع بيتكرر، أو اصفرار في العين أو الجلد، أو إغماء، أو صعوبة في التنفس، أو مش قادر تحتفظ بالسوايل، يبقى لازم تقييم عاجل. العلامات دي مش بتحدد السبب من صفحة على النت، بس محتاجة كشف مباشر حسب شدتها، وخصوصاً في الحمل. [3, 4, 6]\n\nوكمان لازم تكلم فريق متابعة الحمل فوراً لو فيه صداع شديد، أو زغللة في النظر، أو ورم مفاجئ في الوش أو الإيدين، أو وجع أعلى البطن مع إحساس عام إن الحالة مش كويسة. متفترضش إن العرض هضمي بس عشان فيه غثيان أو حصوة قديمة؛ لو ظهرت علامة خطر، الطوارئ أو مسار الرعاية العاجلة القريب هو الاختيار الصح. [3, 4]", "en": "Seek urgent assessment for severe or persistent pain, fever, repeated vomiting, yellow eyes or skin, fainting, breathing difficulty, or inability to keep fluids down. These signs do not name the cause from a webpage, but they need direct assessment according to severity, especially during pregnancy. [3, 4, 6]\n\nAlso contact the pregnancy-care team for severe headache, visual disturbance, sudden swelling, or upper-abdominal pain with feeling unwell. Do not assume a symptom is digestive simply because nausea or an old stone is present; use the local urgent-care pathway when a warning sign occurs. [3, 4]"}},
-        {"id": "ultrasound-has-a-specific-job", "heading": {"ar": "السونار بيجاوب على سؤال محدد", "en": "Ultrasound answers a specific question"}, "body": {"ar": "سونار البطن غالباً بيكون فحص مهم لما السؤال يكون عن حصوات المرارة أو تغييرات في المرارة نفسها، ومش بيستخدم أشعة مؤينة. بس السونار لوحده مش بيفسر كل وجع أو غثيان، ومش بيقرر العلاج من غير ما يترِبط بالأعراض والكشف والتحاليل. ولو عايز تفهم سونار البطن والحوض بيوضح إيه وإيه اللي مبيقدرش يشوفه، اقرا التقرير مع الدكتور اللي طلب الفحص وعارف سببه. [2, 7]\n\nساعات بيبقى فيه تحضير عشان الصورة تطلع أوضح، بس المرجع هو تعليمات الحجز وفريق متابعة الحمل؛ متصومش ولا توقف دوا من دماغك. ولو التقرير طلع طبيعي والأعراض لسه موجودة أو اتغيرت، فالنتيجة جاوبت على سؤال الفحص بس، ومش معناها إن المتابعة الطبية خلصت. [2, 7]", "en": "Abdominal ultrasound is usually an important test when the question concerns gallstones or gallbladder changes, and it does not use ionising radiation. It cannot, however, explain every pain or nausea episode by itself, and it cannot set treatment without symptoms, examination and tests. Read the report with the clinician who knows why it was requested, and it helps to know what abdominal and pelvic ultrasound can show and what it cannot. [2, 7]\n\nPreparation may be needed for a clearer image, but booking instructions and the pregnancy team are the reference; do not fast or stop a medicine on your own. If a report is normal while symptoms persist or change, it answers the scan question but does not cancel clinical follow-up. [2, 7]"}, "links": {"ar": [{"label": "سونار البطن والحوض بيوضح إيه", "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"}], "en": [{"label": "what abdominal and pelvic ultrasound can show", "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"}]}},
-        {"id": "tests-and-examination-complete-the-picture", "heading": {"ar": "التحاليل والكشف بيكمّلوا الصورة", "en": "Examination and tests complete the picture"}, "body": {"ar": "فريق الرعاية ممكن يطلب تحاليل دم أو بول أو تقييم إضافي حسب الأعراض والكشف. التحاليل دي مش خطوة أوتوماتيك مع كل وجع، ونتيجتها لوحدها مش معناها إن فيه مشكلة في المرارة. السؤال العملي اللي تسأله: الفحص ده بيدوّر على إيه، ومين هيراجع النتيجة، وإمتى الخطة ممكن تتغير؟ [1, 5, 8]\n\nخد معاك في الزيارة تقارير السونار القديمة، وقايمة بكل الأدوية والمكملات، وأي نتيجة تحاليل جديدة. ولازم تذكر كمان الأدوية اللي بتتاخد من الصيدلية من غير روشتة، لأن تغيير دوا أو إضافة مكمل في الحمل مش طريقة مناسبة عشان نخمّن سبب الوجع. [5, 8]", "en": "The team may request blood or urine tests or another assessment according to symptoms and examination. These are not automatic for every pain episode, and do not by themselves mean there is a gallbladder problem. A useful question is: what is this test looking for, who will review it, and when does the plan change? [1, 5, 8]\n\nBring earlier ultrasound reports, a list of medicines and supplements, and recent results to the visit. Mention non-prescription products too, because changing a medicine or adding a supplement in pregnancy is not an appropriate way to guess the cause of pain. [5, 8]"}},
-        {"id": "incidental-stones-and-real-symptoms", "heading": {"ar": "حصوة ظهرت بالصدفة غير حصوة بتفسر الأعراض", "en": "An incidental stone is different from a stone causing symptoms"}, "body": {"ar": "ممكن حصوة تظهر في السونار وهي مش السبب في الانتفاخ أو الغثيان أو الوجع اللي مش بالشكل المعتاد، وده اللي بنشرحه في موضوع حصوة ظهرت في السونار ومعاها انتفاخ بس. قرار المتابعة أو العلاج بيعتمد على الحكاية والأعراض والمضاعفات والكشف، مش على كلمة «حصوة» لوحدها. ده بيحميك من إنك تربط كل عرض بالمرارة، ومن إنك تتجاهل سبب تاني محتاج اهتمام. [1, 9]\n\nده مش معناه إنك تتجاهل الأعراض. معناه إنك توصفها بدقة وتراجعها لما تتكرر أو تتغير، عشان الدكتور يعرف هل ليها علاقة بالمرارة ولا محتاجة طريق تقييم مختلف. واحتفاظك بنسخة من التقرير وتاريخ الفحص أفيد بكتير من الاعتماد على الذاكرة. [1, 9]", "en": "A stone can appear on ultrasound without causing bloating, nausea or atypical pain. The decision to observe or treat depends on the story, symptoms, complications and examination, not on the word stone alone. This prevents both attributing every symptom to the gallbladder and missing another cause that needs attention; the same logic applies to an ultrasound stone with bloating only. [1, 9]\n\nThat does not mean ignoring symptoms. It means describing them precisely and reviewing them when they recur or change, so the clinician can decide whether the gallbladder is involved or a different assessment route is needed. Keeping a copy of the report and test date is more useful than relying on memory. [1, 9]"}, "links": {"ar": [{"label": "حصوة ظهرت في السونار ومعاها انتفاخ بس", "url": "../articles/qa-gallstone-bloating-only.html"}], "en": [{"label": "an ultrasound stone with bloating only", "url": "../articles/qa-gallstone-bloating-only.html"}]}},
-        {"id": "coordinated-care-changes-the-decision", "heading": {"ar": "تنسيق المتابعة جزء من القرار", "en": "Coordinated care is part of the decision"}, "body": {"ar": "لو اتأكد إن فيه مشكلة في المرارة، الخطوة الجاية بتعتمد على شدة الأعراض، ووجود التهاب أو انسداد، ونتايج الفحوصات، وشهر الحمل، والحالة الصحية العامة. مفيش توقيت واحد أو قرار واحد يناسب كل الحوامل. والتنسيق بين دكتور متابعة الحمل ودكتور الجهاز الهضمي أو الجراحة بيخلي القرار مبني على الصورة كاملة. [4, 6, 8]\n\nاسأل بوضوح: مين اللي بيتابع الحالة دلوقتي، وتكلم مين لو الوجع رجع، وإيه اللي يستاهل مراجعة أسرع. وجود خطة مكتوبة بيمنع تضارب التعليمات، خصوصاً لو الرعاية اتنقلت بين الطوارئ والعيادة وفريق الحمل. [4, 8]", "en": "When a gallbladder problem is confirmed, the next step depends on symptom severity, inflammation or obstruction, test findings, pregnancy stage and overall health. There is no one timing or decision that suits every pregnant person. Coordination between maternity care, gastroenterology and surgery makes the decision rest on the full picture. [4, 6, 8]\n\nAsk clearly who is coordinating care now, whom to contact if pain returns, and what needs earlier review. A written plan prevents conflicting instructions, especially when care moves between urgent care, clinic and the pregnancy team. [4, 8]"}},
-        {"id": "surgery-is-a-discussion-not-a-default", "heading": {"ar": "الجراحة قرار حسب الحالة، مش أوتوماتيك", "en": "Surgery is a case-based discussion, not a default"}, "body": {"ar": "الحمل مش معناه إن أي إجراء مستحيل، ومش معناه برضه إن كل وجع محتاج عملية. لو اتفتح كلام عن استئصال المرارة، الفريق بيشرح ليه بيقترحه، وإيه البدائل، وإيه المخاطر المعروفة، وإيه اللي ممكن يغيّر التوقيت أو الطريقة. ومقال عام مينفعش يحسب الفايدة أو الخطورة لحالة بعينها. [6, 8, 10]\n\nاذكر كل دوا أو حساسية أو عملية قديمة، والتزم بتعليمات الصيام والأدوية اللي فريقك بيديهالك. فهم الفرق بين الجراحة بالمنظار أو الجراحة المفتوحة للمرارة بيساعدك تسأل صح، بس الطريقة المناسبة بتتحدد من تقييم الحالة، مش من صفحة على النت ولا من تجربة حد تاني. [8, 10]", "en": "Pregnancy does not mean every procedure is impossible, and it does not mean every pain episode needs surgery. If gallbladder removal is discussed, the team should explain why it is proposed, alternatives, recognised risks, and what could change timing or approach. A general article cannot calculate an individual benefit or risk. [6, 8, 10]\n\nMention every medicine, allergy and previous operation, and follow the fasting and medicine instructions your team gives. Understanding laparoscopic or open gallbladder surgery helps you ask questions, but the appropriate approach follows assessment rather than a webpage or another person's experience. [8, 10]"}, "links": {"ar": [{"label": "الجراحة بالمنظار أو الجراحة المفتوحة للمرارة", "url": "../articles/gallbladder-laparoscopic-or-open-surgery.html"}], "en": [{"label": "laparoscopic or open gallbladder surgery", "url": "../articles/gallbladder-laparoscopic-or-open-surgery.html"}]}},
-        {"id": "make-the-appointment-useful", "heading": {"ar": "جهّز للزيارة عشان تخرج بخطوة واضحة", "en": "Make the appointment end with a clear next step"}, "body": {"ar": "قبل الزيارة، اكتب تواريخ النوبات وكانت بتفضل قد إيه، وهل كان فيه حرارة أو ترجيع أو اصفرار، وخد التقارير والأدوية معاك. وفي آخر الكشف اسأل: إيه الاحتمالات اللي بنراجعها؟ محتاج فحص؟ النتيجة هتتراجع إزاي وإمتى؟ أراقب إيه في البيت، وأكلم مين لو الأعراض اتغيرت؟ ولو عايز حد يراجع التقارير معاك وينسّق الخطوة الجاية مع فريق متابعة الحمل، احجز كشف في عيادات لاروز وخد معاك كل الأوراق. [5, 8]\n\nالمقال ده بيساعدك تجهّز سؤال أحسن، بس مش بديل عن الكشف ومش بيحط تشخيص. متأجلش الرعاية اللي محتاجها عشان النوبة هديت شوية، أو عشان تجربة حد على النت شبه حالتك. [3, 5]", "en": "Before the appointment, note episode dates and duration, whether fever, vomiting or jaundice occurred, and bring reports and medicines. At the end ask: what possibilities are we reviewing? Do I need a test? How and when will the result be reviewed? What should I monitor at home, and whom do I contact if symptoms change? If you would like someone to review your reports and coordinate the next step with your pregnancy care, book a clinic visit at La Rose and bring all your paperwork. [5, 8]\n\nThis article helps prepare a better question, but it cannot replace examination or provide a diagnosis. Do not delay needed care because an episode briefly settled or an online experience sounded similar. [3, 5]"}, "links": {"ar": [{"label": "احجز كشف في عيادات لاروز", "url": "../patients/booking.html"}], "en": [{"label": "book a clinic visit at La Rose", "url": "../patients/booking.html"}]}},
-        {"id": "after-treatment-keep-pregnancy-care-connected", "heading": {"ar": "بعد العلاج، متابعة الحمل لازم تفضل مربوطة بالخطة", "en": "After treatment, keep pregnancy care connected"}, "body": {"ar": "سواء الخطة كانت متابعة، أو علاج للأعراض، أو إجراء بعد تقييم الفريق، احتفظ بالتقرير وتعليمات المتابعة. بلّغ فريق الحمل بأي تشخيص أو زيارة طوارئ أو دوا جديد، ومتوقفش دوا موصوف ولا تبدأ منتج جديد من نفسك. [4, 6, 8]\n\nلو اتعملت جراحة، التعافي محتاج تعليمات العملية المكتوبة وطريقة تواصل واضحة، مش جدول ثابت من مقال عام، وفي موضوع التعافي بعد جراحة المرارة وعلامات التواصل السريع هتلاقي العلامات اللي تستاهل تكلم الفريق بسببها. وأي تغيير في الوجع، أو حرارة، أو ترجيع يمنع السوايل، أو اصفرار، أو نهجان، يستاهل تقييم بدري حسب شدته. [6, 10]", "en": "Whether the plan is observation, symptom treatment or a procedure after team assessment, keep the report and follow-up instructions. Tell the maternity team about any diagnosis, urgent-care visit or new medicine, and do not stop a prescribed medicine or start a new product on your own. [4, 6, 8]\n\nIf surgery is performed, recovery needs the operation's written instructions and a clear contact route, not a fixed timeline from a general article; our page on recovery after gallbladder surgery and warning signs lists when to call the team. Changing pain, fever, vomiting that prevents fluids, jaundice or breathlessness deserve earlier assessment according to severity. [6, 10]"}, "links": {"ar": [{"label": "التعافي بعد جراحة المرارة وعلامات التواصل السريع", "url": "../articles/after-gallbladder-surgery-recovery-warning-signs.html"}], "en": [{"label": "recovery after gallbladder surgery and warning signs", "url": "../articles/after-gallbladder-surgery-recovery-warning-signs.html"}]}},
-        {"id": "protect-the-decision-from-common-shortcuts", "heading": {"ar": "ابعد عن الاختصارات اللي بتلخبط القرار", "en": "Avoid shortcuts that can distort the decision"}, "body": {"ar": "متاخدش قرار من رقم واحد في تحليل، أو صورة سونار، أو رأي ناقص على النت. ومتأخرش التقييم عشان الوجع جه بعد أكلة إنت شايف إنها السبب، أو عشان حد تاني عدّى بتجربة شبهها. التفاصيل اللي شكلها صغيرة، زي شهر الحمل وشدة النوبة والحرارة والأدوية ونتيجة الكشف، هي اللي بتخلي الخطة آمنة ومناسبة لحالتك. [1, 3, 5]\n\nلو التعليمات جاية من مصدرين ومختلفة عن بعض، كلم فريق متابعة الحمل أو الجهة اللي طلبت الفحص عشان يوضحوها. واحتفاظك باسم الدكتور ومكان الفحص وتاريخ النتيجة بيخلي التنسيق أسرع لو احتجت مراجعة بين المواعيد. [4, 8]", "en": "Do not make a decision from one blood-test number, one ultrasound image or an incomplete online opinion. Do not delay assessment because pain followed a food you believe caused it, or because another person had a similar experience. Details that seem small—pregnancy stage, episode severity, fever, medicines and examination—are what make a plan safe and suited to you. [1, 3, 5]\n\nIf instructions from two sources differ, contact the maternity team or the service that requested the test for clarification. Keeping the clinician's name, test location and result date makes coordination faster if review is needed between appointments. [4, 8]"}}
+        {
+          "id": "start-with-the-whole-story",
+          "heading": {
+            "ar": "ابدأ بالحكاية كاملة، مش باسم عضو واحد",
+            "en": "Start with the full story, not one organ name"
+          },
+          "body": {
+            "ar": "الغثيان والحموضة والانتفاخ ووجع أعلى البطن حاجات منتشرة جداً في الحمل، بس مكان الوجع لوحده مش دليل إن المرارة هي السبب. أي وجع جديد أو بيتكرر محتاج يتوصف بوضوح: بدأ إمتى، وفضل قد إيه، وجه بعد الأكل ولا لأ، وكان معاه ترجيع أو حرارة أو اصفرار في الجلد والعين أو تغيير في لون البول. ووجود حصوة في تقرير قديم مش معناه إن كل عرض جديد سببه الحصوة دي. [1, 2]\n\nفي الحمل، فيه أعراض هضمية ممكن تتشابه مع مشاكل تانية محتاجة تقييم سريع وبعيدة خالص عن الجهاز الهضمي، زي ارتفاع الضغط المرتبط بالحمل. عشان كده الدكتور بيربط الحكاية بالكشف وشهر الحمل وقياس الضغط والتحاليل الموجودة، بدل ما الرعاية تتأخر عشان تفسير واحد على النت بان مقنع. [3, 4]",
+            "en": "Nausea, heartburn, bloating and upper-abdominal pain are common in pregnancy, but the location of pain alone does not prove that the gallbladder is responsible. A new or recurring episode needs a clear description: when it started, how long it lasted, whether it followed food, and whether vomiting, fever, jaundice or a change in urine appeared. A stone on an older report does not make every new symptom a gallstone symptom. [1, 2]\n\nDuring pregnancy, digestive symptoms can resemble problems that need prompt assessment outside gastroenterology. The clinician therefore joins the story to examination, pregnancy stage, blood pressure and available results instead of delaying care because one online explanation sounds plausible. [3, 4]"
+          }
+        },
+        {
+          "id": "gallbladder-symptoms-in-pregnancy",
+          "heading": {
+            "ar": "أعراض المرارة للحامل: إيه اللي يلفت النظر؟",
+            "en": "Gallbladder symptoms in pregnancy: what to notice"
+          },
+          "body": {
+            "ar": "أشهر عرض للمرارة هو وجع في أعلى يمين البطن أو في النص تحت الضلوع، بييجي فجأة ويكون شديد، وممكن يفضل من دقايق لكذا ساعة، وساعات يوصل للكتف اليمين أو للضهر. كتير بييجي بعد وجبة تقيلة أو فيها دهون، وممكن يكون معاه غثيان أو ترجيع. الحمل نفسه من العوامل اللي بتزود فرصة تكوين الحصوات، عشان كده السؤال ده بيتكرر كتير في الشهور دي. [8, 9]\n\nالمشكلة إن جزء من الأعراض دي بيتشابه مع حاجات تانية في الحمل: الحموضة وحرقان المعدة، والغثيان العادي، وكمان وجع أعلى البطن اللي ممكن يكون علامة على ما قبل تسمم الحمل، خصوصاً لو معاه صداع أو زغللة أو ورم مفاجئ. عشان كده الوجع اللي في أعلى البطن في الحمل مينفعش يتفسر إنه مرارة من غير قياس ضغط وكشف. [3, 4]\n\nفيه علامات بتقول إن الموضوع ممكن يكون عدى النوبة البسيطة: حرارة أو رعشة، أو اصفرار في العين أو الجلد، أو بول غامق أو براز فاتح، أو وجع مستمر ما بيهداش بعد كام ساعة. أي علامة من دول محتاجة تقييم في نفس اليوم. [4, 9]",
+            "en": "The best-known gallbladder symptom is pain in the upper right or middle of the abdomen, under the ribs. It tends to come on suddenly, can be severe, may last from minutes to several hours, and sometimes spreads to the right shoulder or back. It often follows a large or fatty meal and may come with nausea or vomiting. Pregnancy itself is one of the factors that raises the chance of forming gallstones, which is why this question comes up so often in these months. [8, 9]\n\nThe difficulty is that some of these symptoms overlap with other pregnancy complaints: heartburn, ordinary pregnancy nausea, and upper abdominal pain that can be a sign of preeclampsia, especially with headache, visual changes or sudden swelling. Upper abdominal pain in pregnancy should not be labelled as gallbladder pain without a blood pressure check and an examination. [3, 4]\n\nSome signs suggest more than a simple attack: fever or shivering, yellowing of the eyes or skin, dark urine or pale stools, or constant pain that does not settle after a few hours. Any of these needs same-day assessment. [4, 9]"
+          }
+        },
+        {
+          "id": "patterns-are-clues-not-a-diagnosis",
+          "heading": {
+            "ar": "شكل الوجع دليل، مش تشخيص",
+            "en": "A pain pattern is a clue, not a diagnosis"
+          },
+          "body": {
+            "ar": "وجع المرارة ممكن يكون في أعلى يمين البطن أو في النص، وساعات بييجي معاه غثيان، بس الكلام ده لوحده مش كفاية عشان نقول إنها المرارة. تقييم الوجع بيشوف شدته، وبيزيد ولا بيقل، وعلاقته بالأكل والحركة، ومعاه الكشف والتحاليل لو لزم الأمر، والمقال عن أعراض حصوات المرارة وتقييمها بيشرح الصورة دي بالتفصيل. وأهم حاجة: متجربش تعرف السبب بإنك تاكل وجبة فيها دهون كتير، خصوصاً لو الوجع كان شديد أو جه معاه ترجيع أو حرارة. [1, 5]\n\nتسجيل النوبة على الموبايل بيفرق كتير: الساعة كام، وأكلت إيه قبلها، والوجع كان شديد قد إيه، وكان فيه ترجيع أو حرارة، والوجع راح لوحده ولا فضل مستمر. التفاصيل دي بتساعد الدكتور يفرّق بين عرض عابر وبين مشكلة محتاجة سونار أو تحاليل أو كشف مباشر. [2, 5]",
+            "en": "Gallbladder pain may be felt in the upper right or middle abdomen and may come with nausea, but those words alone cannot diagnose it. Assessment considers severity, direction of change, links with food or movement, examination and blood tests when needed. Do not test the cause with a fatty meal if pain was severe or came with vomiting or fever; our guide to gallstone symptom assessment covers the pattern in more detail. [1, 5]\n\nA phone note can help: record timing, the preceding food, pain severity, vomiting, fever, and whether pain settled or continued. These details help distinguish a passing symptom from one needing ultrasound, blood tests or direct examination. [2, 5]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أعراض حصوات المرارة وتقييمها",
+                "url": "../articles/gallstones-when-symptoms-need-assessment.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "gallstone symptom assessment",
+                "url": "../articles/gallstones-when-symptoms-need-assessment.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "urgent-signs-do-not-wait-for-a-scan",
+          "heading": {
+            "ar": "علامات متستناش سونار روتيني",
+            "en": "Signs that should not wait for a routine scan"
+          },
+          "body": {
+            "ar": "لو فيه وجع شديد أو مستمر، أو حرارة، أو ترجيع بيتكرر، أو اصفرار في العين أو الجلد، أو إغماء، أو صعوبة في التنفس، أو مش قادر تحتفظ بالسوايل، يبقى لازم تقييم عاجل. العلامات دي مش بتحدد السبب من صفحة على النت، بس محتاجة كشف مباشر حسب شدتها، وخصوصاً في الحمل. [3, 4, 6]\n\nوكمان لازم تكلم فريق متابعة الحمل فوراً لو فيه صداع شديد، أو زغللة في النظر، أو ورم مفاجئ في الوش أو الإيدين، أو وجع أعلى البطن مع إحساس عام إن الحالة مش كويسة. متفترضش إن العرض هضمي بس عشان فيه غثيان أو حصوة قديمة؛ لو ظهرت علامة خطر، الطوارئ أو مسار الرعاية العاجلة القريب هو الاختيار الصح. [3, 4]",
+            "en": "Seek urgent assessment for severe or persistent pain, fever, repeated vomiting, yellow eyes or skin, fainting, breathing difficulty, or inability to keep fluids down. These signs do not name the cause from a webpage, but they need direct assessment according to severity, especially during pregnancy. [3, 4, 6]\n\nAlso contact the pregnancy-care team for severe headache, visual disturbance, sudden swelling, or upper-abdominal pain with feeling unwell. Do not assume a symptom is digestive simply because nausea or an old stone is present; use the local urgent-care pathway when a warning sign occurs. [3, 4]"
+          }
+        },
+        {
+          "id": "ultrasound-has-a-specific-job",
+          "heading": {
+            "ar": "السونار بيجاوب على سؤال محدد",
+            "en": "Ultrasound answers a specific question"
+          },
+          "body": {
+            "ar": "سونار البطن غالباً بيكون فحص مهم لما السؤال يكون عن حصوات المرارة أو تغييرات في المرارة نفسها، ومش بيستخدم أشعة مؤينة. بس السونار لوحده مش بيفسر كل وجع أو غثيان، ومش بيقرر العلاج من غير ما يترِبط بالأعراض والكشف والتحاليل. ولو عايز تفهم سونار البطن والحوض بيوضح إيه وإيه اللي مبيقدرش يشوفه، اقرا التقرير مع الدكتور اللي طلب الفحص وعارف سببه. [2, 7]\n\nساعات بيبقى فيه تحضير عشان الصورة تطلع أوضح، بس المرجع هو تعليمات الحجز وفريق متابعة الحمل؛ متصومش ولا توقف دوا من دماغك. ولو التقرير طلع طبيعي والأعراض لسه موجودة أو اتغيرت، فالنتيجة جاوبت على سؤال الفحص بس، ومش معناها إن المتابعة الطبية خلصت. [2, 7]",
+            "en": "Abdominal ultrasound is usually an important test when the question concerns gallstones or gallbladder changes, and it does not use ionising radiation. It cannot, however, explain every pain or nausea episode by itself, and it cannot set treatment without symptoms, examination and tests. Read the report with the clinician who knows why it was requested, and it helps to know what abdominal and pelvic ultrasound can show and what it cannot. [2, 7]\n\nPreparation may be needed for a clearer image, but booking instructions and the pregnancy team are the reference; do not fast or stop a medicine on your own. If a report is normal while symptoms persist or change, it answers the scan question but does not cancel clinical follow-up. [2, 7]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "سونار البطن والحوض بيوضح إيه",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "what abdominal and pelvic ultrasound can show",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "tests-and-examination-complete-the-picture",
+          "heading": {
+            "ar": "التحاليل والكشف بيكمّلوا الصورة",
+            "en": "Examination and tests complete the picture"
+          },
+          "body": {
+            "ar": "فريق الرعاية ممكن يطلب تحاليل دم أو بول أو تقييم إضافي حسب الأعراض والكشف. التحاليل دي مش خطوة أوتوماتيك مع كل وجع، ونتيجتها لوحدها مش معناها إن فيه مشكلة في المرارة. السؤال العملي اللي تسأله: الفحص ده بيدوّر على إيه، ومين هيراجع النتيجة، وإمتى الخطة ممكن تتغير؟ [1, 5, 8]\n\nخد معاك في الزيارة تقارير السونار القديمة، وقايمة بكل الأدوية والمكملات، وأي نتيجة تحاليل جديدة. ولازم تذكر كمان الأدوية اللي بتتاخد من الصيدلية من غير روشتة، لأن تغيير دوا أو إضافة مكمل في الحمل مش طريقة مناسبة عشان نخمّن سبب الوجع. [5, 8]",
+            "en": "The team may request blood or urine tests or another assessment according to symptoms and examination. These are not automatic for every pain episode, and do not by themselves mean there is a gallbladder problem. A useful question is: what is this test looking for, who will review it, and when does the plan change? [1, 5, 8]\n\nBring earlier ultrasound reports, a list of medicines and supplements, and recent results to the visit. Mention non-prescription products too, because changing a medicine or adding a supplement in pregnancy is not an appropriate way to guess the cause of pain. [5, 8]"
+          }
+        },
+        {
+          "id": "incidental-stones-and-real-symptoms",
+          "heading": {
+            "ar": "حصوة ظهرت بالصدفة غير حصوة بتفسر الأعراض",
+            "en": "An incidental stone is different from a stone causing symptoms"
+          },
+          "body": {
+            "ar": "ممكن حصوة تظهر في السونار وهي مش السبب في الانتفاخ أو الغثيان أو الوجع اللي مش بالشكل المعتاد، وده اللي بنشرحه في موضوع حصوة ظهرت في السونار ومعاها انتفاخ بس. قرار المتابعة أو العلاج بيعتمد على الحكاية والأعراض والمضاعفات والكشف، مش على كلمة «حصوة» لوحدها. ده بيحميك من إنك تربط كل عرض بالمرارة، ومن إنك تتجاهل سبب تاني محتاج اهتمام. [1, 9]\n\nده مش معناه إنك تتجاهل الأعراض. معناه إنك توصفها بدقة وتراجعها لما تتكرر أو تتغير، عشان الدكتور يعرف هل ليها علاقة بالمرارة ولا محتاجة طريق تقييم مختلف. واحتفاظك بنسخة من التقرير وتاريخ الفحص أفيد بكتير من الاعتماد على الذاكرة. [1, 9]",
+            "en": "A stone can appear on ultrasound without causing bloating, nausea or atypical pain. The decision to observe or treat depends on the story, symptoms, complications and examination, not on the word stone alone. This prevents both attributing every symptom to the gallbladder and missing another cause that needs attention; the same logic applies to an ultrasound stone with bloating only. [1, 9]\n\nThat does not mean ignoring symptoms. It means describing them precisely and reviewing them when they recur or change, so the clinician can decide whether the gallbladder is involved or a different assessment route is needed. Keeping a copy of the report and test date is more useful than relying on memory. [1, 9]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حصوة ظهرت في السونار ومعاها انتفاخ بس",
+                "url": "../articles/qa-gallstone-bloating-only.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "an ultrasound stone with bloating only",
+                "url": "../articles/qa-gallstone-bloating-only.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "coordinated-care-changes-the-decision",
+          "heading": {
+            "ar": "تنسيق المتابعة جزء من القرار",
+            "en": "Coordinated care is part of the decision"
+          },
+          "body": {
+            "ar": "لو اتأكد إن فيه مشكلة في المرارة، الخطوة الجاية بتعتمد على شدة الأعراض، ووجود التهاب أو انسداد، ونتايج الفحوصات، وشهر الحمل، والحالة الصحية العامة. مفيش توقيت واحد أو قرار واحد يناسب كل الحوامل. والتنسيق بين دكتور متابعة الحمل ودكتور الجهاز الهضمي أو الجراحة بيخلي القرار مبني على الصورة كاملة. [4, 6, 8]\n\nاسأل بوضوح: مين اللي بيتابع الحالة دلوقتي، وتكلم مين لو الوجع رجع، وإيه اللي يستاهل مراجعة أسرع. وجود خطة مكتوبة بيمنع تضارب التعليمات، خصوصاً لو الرعاية اتنقلت بين الطوارئ والعيادة وفريق الحمل. [4, 8]",
+            "en": "When a gallbladder problem is confirmed, the next step depends on symptom severity, inflammation or obstruction, test findings, pregnancy stage and overall health. There is no one timing or decision that suits every pregnant person. Coordination between maternity care, gastroenterology and surgery makes the decision rest on the full picture. [4, 6, 8]\n\nAsk clearly who is coordinating care now, whom to contact if pain returns, and what needs earlier review. A written plan prevents conflicting instructions, especially when care moves between urgent care, clinic and the pregnancy team. [4, 8]"
+          }
+        },
+        {
+          "id": "surgery-is-a-discussion-not-a-default",
+          "heading": {
+            "ar": "الجراحة قرار حسب الحالة، مش أوتوماتيك",
+            "en": "Surgery is a case-based discussion, not a default"
+          },
+          "body": {
+            "ar": "الحمل مش معناه إن أي إجراء مستحيل، ومش معناه برضه إن كل وجع محتاج عملية. لو اتفتح كلام عن استئصال المرارة، الفريق بيشرح ليه بيقترحه، وإيه البدائل، وإيه المخاطر المعروفة، وإيه اللي ممكن يغيّر التوقيت أو الطريقة. ومقال عام مينفعش يحسب الفايدة أو الخطورة لحالة بعينها. [6, 8, 10]\n\nاذكر كل دوا أو حساسية أو عملية قديمة، والتزم بتعليمات الصيام والأدوية اللي فريقك بيديهالك. فهم الفرق بين الجراحة بالمنظار أو الجراحة المفتوحة للمرارة بيساعدك تسأل صح، بس الطريقة المناسبة بتتحدد من تقييم الحالة، مش من صفحة على النت ولا من تجربة حد تاني. [8, 10]",
+            "en": "Pregnancy does not mean every procedure is impossible, and it does not mean every pain episode needs surgery. If gallbladder removal is discussed, the team should explain why it is proposed, alternatives, recognised risks, and what could change timing or approach. A general article cannot calculate an individual benefit or risk. [6, 8, 10]\n\nMention every medicine, allergy and previous operation, and follow the fasting and medicine instructions your team gives. Understanding laparoscopic or open gallbladder surgery helps you ask questions, but the appropriate approach follows assessment rather than a webpage or another person's experience. [8, 10]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الجراحة بالمنظار أو الجراحة المفتوحة للمرارة",
+                "url": "../articles/gallbladder-laparoscopic-or-open-surgery.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "laparoscopic or open gallbladder surgery",
+                "url": "../articles/gallbladder-laparoscopic-or-open-surgery.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "make-the-appointment-useful",
+          "heading": {
+            "ar": "جهّز للزيارة عشان تخرج بخطوة واضحة",
+            "en": "Make the appointment end with a clear next step"
+          },
+          "body": {
+            "ar": "قبل الزيارة، اكتب تواريخ النوبات وكانت بتفضل قد إيه، وهل كان فيه حرارة أو ترجيع أو اصفرار، وخد التقارير والأدوية معاك. وفي آخر الكشف اسأل: إيه الاحتمالات اللي بنراجعها؟ محتاج فحص؟ النتيجة هتتراجع إزاي وإمتى؟ أراقب إيه في البيت، وأكلم مين لو الأعراض اتغيرت؟ ولو عايز حد يراجع التقارير معاك وينسّق الخطوة الجاية مع فريق متابعة الحمل، احجز كشف في عيادات لاروز وخد معاك كل الأوراق. [5, 8]\n\nالمقال ده بيساعدك تجهّز سؤال أحسن، بس مش بديل عن الكشف ومش بيحط تشخيص. متأجلش الرعاية اللي محتاجها عشان النوبة هديت شوية، أو عشان تجربة حد على النت شبه حالتك. [3, 5]",
+            "en": "Before the appointment, note episode dates and duration, whether fever, vomiting or jaundice occurred, and bring reports and medicines. At the end ask: what possibilities are we reviewing? Do I need a test? How and when will the result be reviewed? What should I monitor at home, and whom do I contact if symptoms change? If you would like someone to review your reports and coordinate the next step with your pregnancy care, book a clinic visit at La Rose and bring all your paperwork. [5, 8]\n\nThis article helps prepare a better question, but it cannot replace examination or provide a diagnosis. Do not delay needed care because an episode briefly settled or an online experience sounded similar. [3, 5]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز كشف في عيادات لاروز",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book a clinic visit at La Rose",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "after-treatment-keep-pregnancy-care-connected",
+          "heading": {
+            "ar": "بعد العلاج، متابعة الحمل لازم تفضل مربوطة بالخطة",
+            "en": "After treatment, keep pregnancy care connected"
+          },
+          "body": {
+            "ar": "سواء الخطة كانت متابعة، أو علاج للأعراض، أو إجراء بعد تقييم الفريق، احتفظ بالتقرير وتعليمات المتابعة. بلّغ فريق الحمل بأي تشخيص أو زيارة طوارئ أو دوا جديد، ومتوقفش دوا موصوف ولا تبدأ منتج جديد من نفسك. [4, 6, 8]\n\nلو اتعملت جراحة، التعافي محتاج تعليمات العملية المكتوبة وطريقة تواصل واضحة، مش جدول ثابت من مقال عام، وفي موضوع التعافي بعد جراحة المرارة وعلامات التواصل السريع هتلاقي العلامات اللي تستاهل تكلم الفريق بسببها. وأي تغيير في الوجع، أو حرارة، أو ترجيع يمنع السوايل، أو اصفرار، أو نهجان، يستاهل تقييم بدري حسب شدته. [6, 10]",
+            "en": "Whether the plan is observation, symptom treatment or a procedure after team assessment, keep the report and follow-up instructions. Tell the maternity team about any diagnosis, urgent-care visit or new medicine, and do not stop a prescribed medicine or start a new product on your own. [4, 6, 8]\n\nIf surgery is performed, recovery needs the operation's written instructions and a clear contact route, not a fixed timeline from a general article; our page on recovery after gallbladder surgery and warning signs lists when to call the team. Changing pain, fever, vomiting that prevents fluids, jaundice or breathlessness deserve earlier assessment according to severity. [6, 10]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "التعافي بعد جراحة المرارة وعلامات التواصل السريع",
+                "url": "../articles/after-gallbladder-surgery-recovery-warning-signs.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "recovery after gallbladder surgery and warning signs",
+                "url": "../articles/after-gallbladder-surgery-recovery-warning-signs.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "protect-the-decision-from-common-shortcuts",
+          "heading": {
+            "ar": "ابعد عن الاختصارات اللي بتلخبط القرار",
+            "en": "Avoid shortcuts that can distort the decision"
+          },
+          "body": {
+            "ar": "متاخدش قرار من رقم واحد في تحليل، أو صورة سونار، أو رأي ناقص على النت. ومتأخرش التقييم عشان الوجع جه بعد أكلة إنت شايف إنها السبب، أو عشان حد تاني عدّى بتجربة شبهها. التفاصيل اللي شكلها صغيرة، زي شهر الحمل وشدة النوبة والحرارة والأدوية ونتيجة الكشف، هي اللي بتخلي الخطة آمنة ومناسبة لحالتك. [1, 3, 5]\n\nلو التعليمات جاية من مصدرين ومختلفة عن بعض، كلم فريق متابعة الحمل أو الجهة اللي طلبت الفحص عشان يوضحوها. واحتفاظك باسم الدكتور ومكان الفحص وتاريخ النتيجة بيخلي التنسيق أسرع لو احتجت مراجعة بين المواعيد. [4, 8]",
+            "en": "Do not make a decision from one blood-test number, one ultrasound image or an incomplete online opinion. Do not delay assessment because pain followed a food you believe caused it, or because another person had a similar experience. Details that seem small—pregnancy stage, episode severity, fever, medicines and examination—are what make a plan safe and suited to you. [1, 3, 5]\n\nIf instructions from two sources differ, contact the maternity team or the service that requested the test for clarification. Keeping the clinician's name, test location and result date makes coordination faster if review is needed between appointments. [4, 8]"
+          }
+        }
       ],
       "faq": [
-        {"q": {"ar": "هل الغثيان في الحمل معناه إن فيه حصوات مرارة؟", "en": "Does nausea in pregnancy mean gallstones?"}, "a": {"ar": "لأ. الغثيان له أسباب كتير، وبيتفهم مع شكل الوجع والكشف والنتايج، مش بيتربط بالمرارة لوحدها. راجع بسرعة لو جه معاه وجع شديد أو ترجيع بيتكرر أو أي علامة خطر. [3, 4]", "en": "No. Nausea has many causes and is interpreted with pain pattern, examination and results rather than the gallbladder alone. Seek earlier assessment if it comes with severe pain, repeated vomiting or warning signs. [3, 4]"}},
-        {"q": {"ar": "هل السونار لوحده بيقرر إن العملية لازمة؟", "en": "Does ultrasound alone decide that surgery is needed?"}, "a": {"ar": "لأ. السونار مهم في تقييم المرارة، بس القرار بيجمع الأعراض والمضاعفات والتحاليل والكشف وشهر الحمل، مع تنسيق بين فريق الرعاية. [1, 6, 8]", "en": "No. Ultrasound is important for gallbladder assessment, but the decision combines symptoms, complications, tests, examination and pregnancy stage with care-team coordination. [1, 6, 8]"}},
-        {"q": {"ar": "أوقف دوا الغثيان قبل الكشف؟", "en": "Should I stop nausea medicine before review?"}, "a": {"ar": "متغيرش ولا توقف أي دوا من نفسك. خد معاك قايمة كاملة بالأدوية والمكملات، والتزم بتعليمات الدكتور أو فريق الحمل في أي تعديل. [5, 8]", "en": "Do not change or stop a medicine on your own. Bring a complete medicine and supplement list, and follow the clinician's or maternity team's instructions for any change. [5, 8]"}},
-        {"q": {"ar": "هل سونار المرارة آمن أثناء الحمل؟", "en": "Is gallbladder ultrasound safe during pregnancy?"}, "a": {"ar": "السونار بيعتمد على موجات صوتية ومش بيستخدم أشعة مؤينة، وعشان كده بيعتبر من الفحوصات الأساسية لتقييم المرارة في الحمل. بس ده مش معناه إنه يتعمل من غير سبب؛ الدكتور بيطلبه لما يكون فيه سؤال واضح عايز يجاوب عليه. [2, 5, 7]", "en": "Ultrasound uses sound waves rather than ionising radiation, which is why it is a first-line test for gallbladder assessment in pregnancy. That does not mean it should be done without a reason; the clinician requests it when there is a clear question to answer. [2, 5, 7]"}},
-        {"q": {"ar": "ينفع تتعمل عملية مرارة أثناء الحمل؟", "en": "Can gallbladder surgery be done during pregnancy?"}, "a": {"ar": "لما تكون العملية لازمة فعلاً، إرشادات جمعيات الجراحة زي SAGES بتقول إن استئصال المرارة بالمنظار ممكن يتعمل أثناء الحمل مع احتياطات خاصة. بس التوقيت والطريقة بيتحددوا بالتنسيق بين الجراح وفريق متابعة الحمل حسب الحالة وشهر الحمل، مش بقاعدة عامة. [6, 8, 10]", "en": "When surgery is clearly needed, surgical society guidance such as SAGES states that laparoscopic gallbladder removal can be performed during pregnancy with specific precautions. Timing and approach are still decided jointly by the surgeon and the maternity team according to the case and pregnancy stage, not by a general rule. [6, 8, 10]"}}
+        {
+          "q": {
+            "ar": "إيه أعراض المرارة للحامل؟",
+            "en": "What are the symptoms of gallbladder problems in pregnancy?"
+          },
+          "a": {
+            "ar": "غالباً وجع شديد في أعلى يمين البطن أو في النص، بييجي بعد الأكل وممكن يفضل ساعات، ومعاه غثيان أو ترجيع. الحرارة أو اصفرار العين أو الجلد أو الوجع المستمر محتاجين كشف في نفس اليوم، ووجع أعلى البطن في الحمل لازم معاه قياس ضغط عشان ما يتلخبطش مع ما قبل تسمم الحمل. [3, 4, 9]",
+            "en": "Usually severe pain in the upper right or middle abdomen, often after eating, lasting up to several hours, with nausea or vomiting. Fever, yellowing of the eyes or skin, or constant pain need same-day assessment, and upper abdominal pain in pregnancy also needs a blood pressure check so preeclampsia is not missed. [3, 4, 9]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الغثيان في الحمل معناه إن فيه حصوات مرارة؟",
+            "en": "Does nausea in pregnancy mean gallstones?"
+          },
+          "a": {
+            "ar": "لأ. الغثيان له أسباب كتير، وبيتفهم مع شكل الوجع والكشف والنتايج، مش بيتربط بالمرارة لوحدها. راجع بسرعة لو جه معاه وجع شديد أو ترجيع بيتكرر أو أي علامة خطر. [3, 4]",
+            "en": "No. Nausea has many causes and is interpreted with pain pattern, examination and results rather than the gallbladder alone. Seek earlier assessment if it comes with severe pain, repeated vomiting or warning signs. [3, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل السونار لوحده بيقرر إن العملية لازمة؟",
+            "en": "Does ultrasound alone decide that surgery is needed?"
+          },
+          "a": {
+            "ar": "لأ. السونار مهم في تقييم المرارة، بس القرار بيجمع الأعراض والمضاعفات والتحاليل والكشف وشهر الحمل، مع تنسيق بين فريق الرعاية. [1, 6, 8]",
+            "en": "No. Ultrasound is important for gallbladder assessment, but the decision combines symptoms, complications, tests, examination and pregnancy stage with care-team coordination. [1, 6, 8]"
+          }
+        },
+        {
+          "q": {
+            "ar": "أوقف دوا الغثيان قبل الكشف؟",
+            "en": "Should I stop nausea medicine before review?"
+          },
+          "a": {
+            "ar": "متغيرش ولا توقف أي دوا من نفسك. خد معاك قايمة كاملة بالأدوية والمكملات، والتزم بتعليمات الدكتور أو فريق الحمل في أي تعديل. [5, 8]",
+            "en": "Do not change or stop a medicine on your own. Bring a complete medicine and supplement list, and follow the clinician's or maternity team's instructions for any change. [5, 8]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل سونار المرارة آمن أثناء الحمل؟",
+            "en": "Is gallbladder ultrasound safe during pregnancy?"
+          },
+          "a": {
+            "ar": "السونار بيعتمد على موجات صوتية ومش بيستخدم أشعة مؤينة، وعشان كده بيعتبر من الفحوصات الأساسية لتقييم المرارة في الحمل. بس ده مش معناه إنه يتعمل من غير سبب؛ الدكتور بيطلبه لما يكون فيه سؤال واضح عايز يجاوب عليه. [2, 5, 7]",
+            "en": "Ultrasound uses sound waves rather than ionising radiation, which is why it is a first-line test for gallbladder assessment in pregnancy. That does not mean it should be done without a reason; the clinician requests it when there is a clear question to answer. [2, 5, 7]"
+          }
+        },
+        {
+          "q": {
+            "ar": "ينفع تتعمل عملية مرارة أثناء الحمل؟",
+            "en": "Can gallbladder surgery be done during pregnancy?"
+          },
+          "a": {
+            "ar": "لما تكون العملية لازمة فعلاً، إرشادات جمعيات الجراحة زي SAGES بتقول إن استئصال المرارة بالمنظار ممكن يتعمل أثناء الحمل مع احتياطات خاصة. بس التوقيت والطريقة بيتحددوا بالتنسيق بين الجراح وفريق متابعة الحمل حسب الحالة وشهر الحمل، مش بقاعدة عامة. [6, 8, 10]",
+            "en": "When surgery is clearly needed, surgical society guidance such as SAGES states that laparoscopic gallbladder removal can be performed during pregnancy with specific precautions. Timing and approach are still decided jointly by the surgeon and the maternity team according to the case and pregnancy stage, not by a general rule. [6, 8, 10]"
+          }
+        }
       ],
       "sources": [
-        {"label": {"ar": "NICE: تشخيص وعلاج حصوات المرارة", "en": "NICE: Gallstone disease diagnosis and management"}, "url": "https://www.nice.org.uk/guidance/cg188/chapter/Recommendations"},
-        {"label": {"ar": "RadiologyInfo: سونار البطن", "en": "RadiologyInfo: Abdominal ultrasound"}, "url": "https://www.radiologyinfo.org/en/info/abdominus"},
-        {"label": {"ar": "ACOG: علامات وأعراض ما قبل تسمم الحمل", "en": "ACOG: Preeclampsia and high blood pressure during pregnancy"}, "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"},
-        {"label": {"ar": "NHS: متى تطلب مساعدة عاجلة في الحمل", "en": "NHS: Urgent advice in pregnancy"}, "url": "https://www.nhs.uk/pregnancy/related-conditions/common-symptoms/stomach-pain/"},
-        {"label": {"ar": "ACOG: التصوير التشخيصي أثناء الحمل", "en": "ACOG: Guidelines for diagnostic imaging during pregnancy"}, "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/10/guidelines-for-diagnostic-imaging-during-pregnancy-and-lactation"},
-        {"label": {"ar": "SAGES: الإرشاد للجراحة بالمنظار أثناء الحمل", "en": "SAGES: Guidelines for laparoscopy during pregnancy"}, "url": "https://www.sages.org/publications/guidelines/guidelines-for-the-use-of-laparoscopy-during-pregnancy/"},
-        {"label": {"ar": "ACR: ملاءمة تصوير ألم أعلى البطن", "en": "ACR Appropriateness Criteria: Right upper quadrant pain"}, "url": "https://acsearch.acr.org/docs/69474/Narrative/"},
-        {"label": {"ar": "دراسة في PubMed عن مرض المرارة أثناء الحمل", "en": "PubMed: Gallstone disease in pregnancy"}, "url": "https://pubmed.ncbi.nlm.nih.gov/20628231/"},
-        {"label": {"ar": "NHS Inform: حصوات المرارة", "en": "NHS Inform: Gallstones"}, "url": "https://www.nhsinform.scot/illnesses-and-conditions/stomach-liver-and-gastrointestinal-tract/gallstones/"},
-        {"label": {"ar": "EAES: إرشاد جراحة استئصال المرارة بالمنظار", "en": "EAES: Laparoscopic cholecystectomy clinical guideline"}, "url": "https://pubmed.ncbi.nlm.nih.gov/33447897/"}
+        {
+          "label": {
+            "ar": "NICE: تشخيص وعلاج حصوات المرارة",
+            "en": "NICE: Gallstone disease diagnosis and management"
+          },
+          "url": "https://www.nice.org.uk/guidance/cg188/chapter/Recommendations"
+        },
+        {
+          "label": {
+            "ar": "RadiologyInfo: سونار البطن",
+            "en": "RadiologyInfo: Abdominal ultrasound"
+          },
+          "url": "https://www.radiologyinfo.org/en/info/abdominus"
+        },
+        {
+          "label": {
+            "ar": "ACOG: علامات وأعراض ما قبل تسمم الحمل",
+            "en": "ACOG: Preeclampsia and high blood pressure during pregnancy"
+          },
+          "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+        },
+        {
+          "label": {
+            "ar": "NHS: متى تطلب مساعدة عاجلة في الحمل",
+            "en": "NHS: Urgent advice in pregnancy"
+          },
+          "url": "https://www.nhs.uk/pregnancy/related-conditions/common-symptoms/stomach-pain/"
+        },
+        {
+          "label": {
+            "ar": "ACOG: التصوير التشخيصي أثناء الحمل",
+            "en": "ACOG: Guidelines for diagnostic imaging during pregnancy"
+          },
+          "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/10/guidelines-for-diagnostic-imaging-during-pregnancy-and-lactation"
+        },
+        {
+          "label": {
+            "ar": "SAGES: الإرشاد للجراحة بالمنظار أثناء الحمل",
+            "en": "SAGES: Guidelines for laparoscopy during pregnancy"
+          },
+          "url": "https://www.sages.org/publications/guidelines/guidelines-for-the-use-of-laparoscopy-during-pregnancy/"
+        },
+        {
+          "label": {
+            "ar": "ACR: ملاءمة تصوير ألم أعلى البطن",
+            "en": "ACR Appropriateness Criteria: Right upper quadrant pain"
+          },
+          "url": "https://acsearch.acr.org/docs/69474/Narrative/"
+        },
+        {
+          "label": {
+            "ar": "دراسة في PubMed عن مرض المرارة أثناء الحمل",
+            "en": "PubMed: Gallstone disease in pregnancy"
+          },
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20628231/"
+        },
+        {
+          "label": {
+            "ar": "NHS Inform: حصوات المرارة",
+            "en": "NHS Inform: Gallstones"
+          },
+          "url": "https://www.nhsinform.scot/illnesses-and-conditions/stomach-liver-and-gastrointestinal-tract/gallstones/"
+        },
+        {
+          "label": {
+            "ar": "EAES: إرشاد جراحة استئصال المرارة بالمنظار",
+            "en": "EAES: Laparoscopic cholecystectomy clinical guideline"
+          },
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33447897/"
+        }
       ],
-      "tags": {"ar": ["ألم المرارة للحامل", "حصوات المرارة والحمل", "سونار المرارة", "تقييم الحمل"], "en": ["gallbladder pain in pregnancy", "gallstones in pregnancy", "pregnancy ultrasound", "gallbladder assessment"]},
-      "seo": {"title": {"ar": "ألم المرارة والحمل", "en": "Gallbladder pain in pregnancy"}, "description": {"ar": "وجع أعلى البطن أو الغثيان في الحمل له أسباب كتير. اعرف دور الأعراض والسونار والتنسيق مع متابعة الحمل، والعلامات اللي محتاجة تقييم عاجل.", "en": "Upper-abdominal pain or nausea in pregnancy has many causes. Learn the role of symptoms, ultrasound and coordinated maternity care, plus signs that need urgent assessment."}},
+      "tags": {
+        "ar": [
+          "ألم المرارة للحامل",
+          "حصوات المرارة والحمل",
+          "سونار المرارة",
+          "تقييم الحمل"
+        ],
+        "en": [
+          "gallbladder pain in pregnancy",
+          "gallstones in pregnancy",
+          "pregnancy ultrasound",
+          "gallbladder assessment"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "أعراض المرارة للحامل: إمتى الوجع يحتاج كشف؟",
+          "en": "Gallbladder symptoms in pregnancy: when to get checked"
+        },
+        "description": {
+          "ar": "أعراض المرارة للحامل: وجع أعلى يمين البطن بعد الأكل وغثيان، وإزاي يتفرّق عن الحموضة وما قبل تسمم الحمل، وإمتى الحرارة أو الاصفرار محتاجين كشف في نفس اليوم.",
+          "en": "Gallbladder symptoms in pregnancy: upper-right pain after meals and nausea, how they differ from heartburn and preeclampsia, and when fever or jaundice needs same-day care."
+        }
+      },
       "history": [
-        {"date": "2026-09-27", "note": {"ar": "إعادة صياغة النص العربي بالعامية المصرية، وإضافة سؤالين شائعين عن أمان السونار والجراحة أثناء الحمل، ورابط الحجز، مع الحفاظ على كل المعلومات والمراجع.", "en": "Arabic text rewritten in everyday Egyptian register; two FAQs added on ultrasound safety and surgery in pregnancy, plus a booking link; all facts and citations kept."}}
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "إعادة صياغة النص العربي بالعامية المصرية، وإضافة سؤالين شائعين عن أمان السونار والجراحة أثناء الحمل، ورابط الحجز، مع الحفاظ على كل المعلومات والمراجع. وإضافة قسم وسؤال عن أعراض المرارة للحامل وتحديث عنوان ووصف البحث.",
+            "en": "Arabic text rewritten in everyday Egyptian register; two FAQs added on ultrasound safety and surgery in pregnancy, plus a booking link; all facts and citations kept. Added a section and FAQ on gallbladder symptoms in pregnancy and refreshed the search title and description."
+          }
+        }
       ]
     }
   ]
