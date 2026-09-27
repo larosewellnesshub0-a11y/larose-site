@@ -1,0 +1,351 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of non-surgical-weight-options; replaces the entry from content/articles.json. Expanded into a bilingual, cited decision guide covering structured care, medicines, endoscopic options, surgery, safety, and follow-up.",
+  "articles": [
+    {
+      "slug": "non-surgical-weight-options",
+      "type": "article",
+      "published": true,
+      "featured": true,
+      "category": "weight-management",
+      "specialties": [
+        "weight-management",
+        "bariatric-surgery",
+        "clinical-nutrition"
+      ],
+      "date": "2026-08-26",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/non-surgical-weight-options.webp",
+      "title": {
+        "ar": "بدائل التكميم من غير جراحة: إزاي تختار الطريق المناسب؟",
+        "en": "Non-surgical alternatives to sleeve surgery: how to choose"
+      },
+      "excerpt": {
+        "ar": "بدائل التكميم مش اختيار واحد: فيه خطة سلوكية وتغذية علاجية، أدوية بوصفة، وإجراءات بالمنظار. اعرف دور كل طريق وحدوده وإمتى تقييم الجراحة يبقى مهم.",
+        "en": "Sleeve alternatives are not one treatment: options include structured lifestyle and nutrition care, prescription medicines, and endoscopic procedures. Learn each route’s role, limits, and when a surgical assessment matters."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا المقارنة بين بدائل التكميم، وأضافنا معايير الاختيار والأمان والمتابعة، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the comparison of sleeve alternatives, added selection, safety and follow-up guidance, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "tags": {
+        "ar": [
+          "بدائل التكميم",
+          "إدارة الوزن",
+          "أدوية إنقاص الوزن",
+          "جراحات السمنة"
+        ],
+        "en": [
+          "sleeve alternatives",
+          "weight management",
+          "weight-loss medication",
+          "bariatric surgery"
+        ]
+      },
+      "sections": [
+        {
+          "id": "what-alternative-means",
+          "heading": {
+            "ar": "بديل التكميم معناه إيه فعلاً؟",
+            "en": "What does a sleeve alternative actually mean?"
+          },
+          "body": {
+            "ar": "بديل التكميم مش إجراء سحري يدي نفس تأثير العملية من غير مجهود أو آثار جانبية. المعنى الأدق هو طريق علاجي غير جراحي لإدارة زيادة الوزن أو السمنة لما حالتك وأهدافك يسمحوا بده. الطريق ممكن يجمع بين تغذية علاجية، تغيير سلوك، حركة ونوم أحسن، وأحياناً دواء بوصفة أو إجراء بالمنظار. كل أداة بتشتغل بطريقة مختلفة، وليها شروط متابعة وحدود مختلفة؛ عشان كده السؤال المفيد مش «إيه الأقوى؟» بس، لكن «إيه الأنسب لمشكلتي الصحية دلوقتي؟» [1, 3, 4].\n\nالسمنة مرض مزمن ومتداخل، مش ضعف إرادة. الجينات، إشارات الجوع والشبع، النوم، البيئة، بعض الأدوية، والحالة النفسية أو المرضية ممكن يأثروا في الوزن. مؤشر كتلة الجسم بيدي نقطة بداية، لكن مش بيحكي القصة كلها؛ محيط الخصر، توزيع الدهون، ضغط الدم، السكر، الدهون، الكبد، انقطاع النفس أثناء النوم والحركة اليومية ممكن يغيروا القرار. وعلشان ده، شخصان بنفس الوزن ممكن يحتاجوا خطتين مختلفتين تماماً [1, 2].\n\nالتكميم نفسه بيغيّر شكل المعدة جراحياً وقراره طويل المدى. الدواء ممكن يتعدل أو يتوقف تحت إشراف، والإجراء بالمنظار له طبيعة ومخاطر ومتابعة مختلفة، أما الخطة السلوكية فبتفضل أساس كل المسارات. مفيش طريق «من غير متابعة»: حتى عدم اختيار عملية محتاج أهداف واضحة وموعد لإعادة التقييم لو الصحة أو الاستجابة اتغيرت [3, 4, 13].",
+            "en": "A sleeve alternative is not a magic procedure that reproduces surgery without effort or adverse effects. More accurately, it is a non-surgical treatment route for overweight or obesity when your health and goals make that reasonable. The route may combine medical nutrition therapy, behaviour change, movement and better sleep, sometimes with a prescription medicine or an endoscopic procedure. Each tool works differently and has different eligibility, monitoring and limitations, so the useful question is not only “Which is strongest?” but “Which fits my health problem now?” [1, 3, 4].\n\nObesity is a chronic, complex disease, not a failure of willpower. Genetics, hunger and fullness signals, sleep, the environment, some medicines, and psychological or medical conditions can affect weight. BMI offers a starting point but does not tell the whole story; waist size, fat distribution, blood pressure, glucose, lipids, liver health, sleep apnoea and everyday mobility can change the decision. Two people at the same weight may therefore need entirely different plans [1, 2].\n\nSleeve gastrectomy physically changes the stomach and is a long-term surgical decision. Medicine can be adjusted or stopped under supervision, an endoscopic procedure has its own nature, risks and follow-up, and behavioural care remains the foundation across all routes. There is no genuinely “follow-up-free” option: even choosing not to have surgery needs clear goals and a point for reassessment if health or response changes [3, 4, 13]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "assessment-before-choice",
+          "heading": {
+            "ar": "قبل الاختيار: قيّم الصحة مش الميزان بس",
+            "en": "Before choosing: assess health, not just the scale"
+          },
+          "body": {
+            "ar": "التقييم الكويس بيبدأ بتاريخ الوزن: إمتى زاد، إيه المحاولات اللي نفعت ولو مؤقتاً، إيه اللي عطّلها، وهل فيه نهم أكل أو أكل عاطفي أو اضطراب أكل محتاج مسار متخصص. الطبيب بيراجع الأمراض والأدوية والمكملات، وبيسأل عن النوم والشخير والحركة والألم والتدخين وخطط الحمل. القياسات عادة تشمل الوزن والطول ومؤشر الكتلة ومحيط الخصر، وبعدها تحاليل أو فحوصات حسب الأعراض وعوامل الخطورة، مش قائمة واحدة لكل الناس [2, 3].\n\nالهدف لازم يبقى صحي وقابل للقياس. ممكن يكون تحسين السكر أو الضغط، تقليل ألم الركبة، نوم أحسن، حركة أسهل، أو تحضير آمن لإجراء؛ رقم الميزان جزء من المتابعة لكنه مش النتيجة الوحيدة. وبرضه لازم تتفقوا من البداية على علامة نجاح معقولة، وإمتى الخطة تتعدل، وإمتى يتضاف دواء أو يتطلب رأي منظار أو جراحة. ده يمنع إنك تفضل شهور بتكرر نفس الخطة وهي مش بتخدمك [3, 4].\n\nلو عايز تعرف شكل البداية عملياً، صفحة أول زيارة لإدارة الوزن بتشرح إيه اللي يتراجع وإيه اللي تجهزه. خد معاك أسماء الأدوية ونتايج التحاليل الحديثة، واكتب أي أعراض زي زيادة سريعة غير مفسرة، خفقان، ضعف شديد، تغير الدورة، أو شخير مع توقف نفس. مفيش تحليل واحد يختار العلاج لوحده، لكن تجميع الصورة بيساعد الطبيب يستبعد أسباب مهمة ويحدد مستوى التدخل المناسب [2, 3].",
+            "en": "A good assessment starts with your weight history: when weight changed, which previous attempts helped even temporarily, what disrupted them, and whether binge eating, emotional eating or a possible eating disorder needs a dedicated pathway. The clinician reviews conditions, medicines and supplements and asks about sleep, snoring, mobility, pain, smoking and pregnancy plans. Measurements usually include weight, height, BMI and waist, followed by tests selected for symptoms and risk factors rather than one universal panel [2, 3].\n\nThe goal should be health-focused and measurable. It may be better glucose or blood pressure, less knee pain, better sleep, easier movement or safe preparation for a procedure; the scale is part of follow-up but not the only outcome. You should also agree at the outset on a reasonable marker of benefit, when to modify the plan, and when to add medicine or request an endoscopic or surgical opinion. This avoids repeating an unhelpful plan for months [3, 4].\n\nFor a practical picture of the starting point, A first weight-management visit explains what is reviewed and what to prepare. Bring the names of medicines and recent test results, and note symptoms such as rapid unexplained gain, palpitations, marked weakness, menstrual change, or snoring with breathing pauses. No single test selects treatment by itself, but the combined picture helps the clinician exclude important causes and choose an appropriate level of intervention [2, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أول زيارة لإدارة الوزن",
+                "url": "../articles/weight-management-first-visit.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "A first weight-management visit",
+                "url": "../articles/weight-management-first-visit.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "structured-lifestyle-care",
+          "heading": {
+            "ar": "التغذية العلاجية والسلوك والحركة: الأساس مش الخطة الضعيفة",
+            "en": "Nutrition, behaviour and movement: the foundation, not the weak option"
+          },
+          "body": {
+            "ar": "الخطة المنظمة مش ورقة ممنوعات ولا دايت قاسي. هي أكل مناسب لاحتياجك وثقافتك ويومك، مع طريقة واقعية للوجبات، ومهارات للتعامل مع الجوع والمناسبات والضغط النفسي، ومتابعة منتظمة. البرامج الموثوقة بتحط هدف واقعي، دعم مستمر، وخطة لتثبيت النتيجة بدل وعد سريع. لو خطة بتطلب حرمان شديد، منتجات مجهولة، أو بتوعد إن الوزن هينزل من مكان واحد، دي علامة إنك تسأل أكتر قبل ما تبدأ [3, 4].\n\nالحركة بتتحدد حسب القدرة والأمراض؛ البداية ممكن تكون مشي متدرج أو نشاط بسيط في البيت، مش اختبار لياقة. النشاط الهوائي مفيد للقلب والنوم والصحة حتى لو الميزان اتحرك ببطء، وتمارين المقاومة مهمة للعضلات والقوة. مراجعة منهجية حديثة لقت إن إضافة تمارين المقاومة أثناء نزول الوزن بتقلل فقد الكتلة الخالية من الدهون وبتحسن القوة، لكن البرنامج لازم يتكيف مع المفاصل والقلب واللياقة والألم [6, 7].\n\nحماية العضلات معناها كمان أكل كفاية وجودة بروتين مناسبة للحالة، وتجنب نزول سريع غير متابع. المقال التفصيلي إزاي تحافظ على العضلات أثناء نزول الوزن يشرح العلامات والمتابعة من غير ما يحوّل الموضوع لوصفة ثابتة للجميع. النوم والضغط النفسي ومواعيد الشغل مش تفاصيل جانبية؛ لو مش داخلين في الخطة، الالتزام هيبقى أصعب. ولو التغذية وحدها ما حققتش تحسن كفاية، ده مش معناه إنك فشلت؛ ممكن البيولوجيا أو شدة المرض تحتاج أداة إضافية مع استمرار نفس الأساس [3, 6, 7].",
+            "en": "Structured care is not a forbidden-food sheet or a crash diet. It uses eating choices suited to your needs, culture and day, a workable meal pattern, skills for hunger, social occasions and stress, and regular review. Credible programmes set realistic goals, provide continuing support and include maintenance rather than a rapid promise. Severe restriction, unknown products or claims of losing weight from one body part are reasons to ask more questions before enrolling [3, 4].\n\nMovement is matched to ability and medical conditions; the starting point may be gradual walking or simple home activity, not a fitness test. Aerobic activity benefits the heart, sleep and health even if scale change is slow, while resistance exercise supports muscle and strength. A recent systematic review found that adding resistance exercise during dietary weight loss reduced loss of fat-free mass and improved strength, but the programme still needs adapting for joints, cardiovascular health, fitness and pain [6, 7].\n\nProtecting muscle also means adequate nourishment and protein quality appropriate to the individual, while avoiding rapid, unmonitored loss. The detailed guide How to protect muscle while losing weight explains practical signs and monitoring without turning them into one prescription for everyone. Sleep, stress and working hours are not side notes; adherence is harder when the plan ignores them. If nutrition alone does not produce enough health improvement, that is not personal failure. Biology or disease severity may require another tool while the same foundation continues [3, 6, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "إزاي تحافظ على العضلات أثناء نزول الوزن",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "How to protect muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "weight-management-medicines",
+          "heading": {
+            "ar": "أدوية إدارة الوزن: أداة بوصفة ومتابعة",
+            "en": "Weight-management medicines: a prescribed, monitored tool"
+          },
+          "body": {
+            "ar": "أدوية إدارة الوزن أنواع، ومش كلها حقن ومش كلها بتشتغل بنفس الطريقة. بعضها بيأثر في الشهية أو الشبع، وبعضها بيقلل امتصاص جزء من الدهون. الطبيب بيختار حسب مؤشر الكتلة والمضاعفات، التاريخ المرضي، الأدوية التانية، احتمالات الحمل، والآثار الجانبية أو موانع الاستعمال. الدواء بيتاخد مع خطة أكل وحركة، مش بدلهم، والاستجابة بتختلف بوضوح من شخص للتاني [5].\n\nقبل البداية اسأل: ليه الدواء ده مناسب؟ إيه خطة زيادة الجرعة إن وجدت؟ إيه الأعراض المتوقعة؟ وإيه معيار الاستمرار أو التغيير؟ نقص الشهية القوي ممكن يخلي السوائل أو البروتين والطاقة أقل من المطلوب لو مفيش تخطيط، وعشان كده متابعة الأكل والعضلات والأعراض مهمة. مدة العلاج مش «كورس» ثابت؛ السمنة مزمنة عند ناس كتير، ودراسة متابعة بعد إيقاف سيماجلوتايد أظهرت رجوع جزء كبير من الوزن المفقود في مجموعة الدراسة، وده يدعم مناقشة خطة الاستمرار أو التوقف قبل البداية بدل قرار مفاجئ [5, 10]. صفحة لو بدأت دواء لإدارة الوزن هعتمد عليه طول العمر؟ بتفصل النقطة دي من غير تعميم [10].\n\nابعد عن شراء حقن من إعلان أو مصدر مجهول، وما تنقلش جرعة حد تاني. إدارة الغذاء والدواء الأمريكية حذرت من نسخ غير معتمدة وأخطاء جرعات ومنتجات مزيفة؛ المنتج غير المعتمد ما بيعديش نفس مراجعة الجودة والفعالية والأمان [8]. ولو فيه حمل أو تخطيط له، لازم الطبيب يعرف قبل الوصفة؛ أدوية إدارة الوزن غير موصى بيها أثناء الحمل، وبعضها محتاج إيقاف قبل الحمل بمدة محددة حسب النشرة [5, 9].",
+            "en": "Weight-management medicines are a group, not all injections and not all working in the same way. Some affect appetite or fullness, while another reduces absorption of some dietary fat. The clinician chooses according to BMI and complications, medical history, other medicines, pregnancy possibility, adverse effects and contraindications. Medicine accompanies an eating and activity plan rather than replacing it, and response varies substantially between people [5].\n\nBefore starting, ask why this medicine fits, whether dose escalation is required, which symptoms to expect, and what will trigger continuation or change. Strong appetite reduction can leave fluid, protein or energy intake inadequate without planning, so food, muscle and symptom monitoring matter. Treatment length is not one fixed “course.” Obesity is chronic for many people, and an extension study after semaglutide withdrawal found that its study group regained a substantial part of prior weight loss. That supports discussing continuation or stopping before treatment rather than making an abrupt decision later [5, 10]. If I start weight-management medicine, will I depend on it for life? explores this issue without a one-size-fits-all answer [10].\n\nDo not buy injections from an advertisement or unknown source, and never copy another person’s dose. The US FDA has warned about unapproved versions, dosing errors and counterfeit products; an unapproved product has not undergone the same review for quality, effectiveness and safety [8]. Tell the prescriber about pregnancy or plans for it before treatment. Weight-management medicines are not recommended during pregnancy, and some require a medicine-specific stopping interval before a planned pregnancy [5, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "لو بدأت دواء لإدارة الوزن هعتمد عليه طول العمر؟",
+                "url": "../articles/qa-weight-medicine-dependence.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "If I start weight-management medicine, will I depend on it for life?",
+                "url": "../articles/qa-weight-medicine-dependence.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "endoscopic-and-contouring-options",
+          "heading": {
+            "ar": "إجراءات المنظار ونحت الجسم: مش نفس الحاجة",
+            "en": "Endoscopic procedures and body contouring are not the same"
+          },
+          "body": {
+            "ar": "في إجراءات سمنة بالمنظار بتدخل للمعدة عن طريق الفم من غير شقوق جراحية في البطن. من أمثلتها تكميم المعدة بالمنظار، اللي بيستخدم غرز لتقليل حجم المعدة. لكنه إجراء طبي متخصص، مش جلسة بسيطة ولا هو التكميم الجراحي نفسه. إرشادات NICE بتعتبر الأدلة على أمانه وفعاليته كافية بشروط الحوكمة والموافقة والمتابعة، والمراجعات العلمية بتحطه ضمن مسار متعدد التخصصات مع اختيار دقيق للمريض [11, 12].\n\nاسأل بالاسم عن الإجراء المقترح: هل مؤقت ولا طويل الأثر؟ هل محتاج تخدير؟ مين هيعمله؟ إيه المخاطر وخطة الأكل والمتابعة؟ وإيه البديل لو الاستجابة أقل من الهدف؟ مش كل إجراء متاح في كل مركز، ومش كل شخص مناسب له. وجود ارتجاع، فتق، جراحة سابقة، اضطراب أكل أو مرض مصاحب ممكن يغيّر التقييم، والطبيب المتخصص هو اللي يربط الفايدة المحتملة بالمخاطر [11, 12].\n\nأما أجهزة أو حقن نحت الجسم فبتستهدف دهون موضعية أو شكل منطقة، ومش بتعالج السمنة أو إشارات الجوع ولا أمراض الوزن. الفرق بين نحت الجسم ونزول الوزن مهم قبل ما تقارن أي إعلان بخطة طبية. النحت ما يتقاسش بنفس أهداف علاج السمنة، ومش بديل للتكميم أو للأدوية أو للتغذية العلاجية. لو احتياجك الأساسي سكر أو ضغط أو دهون كبد أو انقطاع نفس، يبقى لازم الخطة تتوجه للصحة والوزن الكلي، مش سنتيمترات منطقة واحدة [1, 3].",
+            "en": "Some obesity procedures are performed endoscopically through the mouth without abdominal incisions. One example is endoscopic sleeve gastroplasty, which uses sutures to reduce stomach volume. It is still a specialist medical procedure, not a simple session and not the same as surgical sleeve gastrectomy. NICE considers evidence on its safety and efficacy adequate when governance, consent and follow-up arrangements are in place, while scientific reviews place it inside multidisciplinary care with careful patient selection [11, 12].\n\nAsk for the proposed procedure by name: is its effect temporary or longer term, does it require anaesthesia, who performs it, what are the risks and eating and follow-up plans, and what happens if response falls short? Not every procedure is available in every centre or suitable for every person. Reflux, a hernia, previous surgery, an eating disorder or another condition may change assessment, and the relevant specialist must balance potential benefit against risk [11, 12].\n\nBody-contouring devices or local fat injections instead target localised fat or the shape of one area. They do not treat obesity, hunger signalling or weight-related disease. The difference between body contouring and weight loss matters before comparing an advertisement with medical care. Contouring is not measured by the same goals as obesity treatment and is not an alternative to sleeve surgery, medicine or nutrition therapy. If the main concern is glucose, blood pressure, fatty liver or sleep apnoea, the plan must address health and overall weight rather than centimetres in one area [1, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الفرق بين نحت الجسم ونزول الوزن",
+                "url": "../articles/body-contouring-vs-weight-loss.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "The difference between body contouring and weight loss",
+                "url": "../articles/body-contouring-vs-weight-loss.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-surgery-needs-discussion",
+          "heading": {
+            "ar": "إمتى رأي جراحة السمنة يبقى مهم؟",
+            "en": "When does a bariatric surgical opinion matter?"
+          },
+          "body": {
+            "ar": "رفض العملية من البداية أو اعتبارها آخر عقاب ممكن يضيّع فرصة تقييم مفيد. إرشادات ASMBS وIFSO بتوصي بالجراحة الأيضية وجراحة السمنة عند مؤشر كتلة أكبر من 35 بصرف النظر عن شدة الأمراض المصاحبة، وبتقول إنها تتناقش عند مؤشر 30 إلى 34.9 مع مرض أيضي. إرشادات NICE لها مسار إحالة وحدود خاصة بها وبتؤكد التقييم الشامل في خدمة متخصصة. الأرقام دي بداية للنقاش مش قرار عملية تلقائي، وبتتأثر بالسياق الصحي والسكان والإرشاد المحلي [13, 14].\n\nالجراحة ممكن تقدم نزول أكبر وأكثر ثباتاً لبعض حالات السمنة الشديدة، لكنها لها مخاطر عملية والتزام غذائي ومكملات ومتابعة طويلة. الاختيار بين التكميم والتحويل أو غيرهم يعتمد على الارتجاع والسكر وعادات الأكل والتاريخ الجراحي وتقييم الفريق. صفحة تكميم المعدة: إزاي بيتعمل وإيه اللي تعرفه قبل القرار؟ بتشرح نطاق التكميم بالتفصيل، وهنا يكفي تعرف إن استشارة الجراح مش معناها موافقة مسبقة؛ هي فرصة لمقارنة الفايدة والمخاطر ببدائل واقعية [13, 14].\n\nلو عندك سمنة شديدة مع سكر غير منضبط، انقطاع نفس، ضغط، كبد دهني متقدم، أو تأثير كبير على الحركة وجودة الحياة، ما تأجلش التقييم عشان تجربة إعلان جديد. وفي المقابل، زيادة وزن بسيطة أو هدف شكلي مش سبب كافي لوحده لعملية. القرار الجيد ممكن ينتهي بجراحة، أو علاج غير جراحي محدد المدة مع نقطة مراجعة، أو علاج مشكلة طبية أو نفسية الأول [13, 14].",
+            "en": "Rejecting surgery at the outset or treating it as a final punishment can remove a useful assessment. The ASMBS/IFSO guideline recommends metabolic and bariatric surgery at BMI above 35 regardless of comorbidity severity and says it should be considered at BMI 30–34.9 with metabolic disease. NICE uses its own referral pathway and thresholds and stresses comprehensive specialist assessment. These numbers start a discussion; they do not create an automatic operation, and population, medical context and local guidance still matter [13, 14].\n\nSurgery can provide greater and more durable loss for some people with severe obesity, but it brings operative risks, dietary commitments, supplementation and long-term follow-up. Choice between sleeve, bypass or another procedure depends on reflux, diabetes, eating patterns, surgical history and team assessment. Sleeve gastrectomy: how is it done, and what should you know before deciding? explains sleeve surgery in detail. The key point here is that seeing a surgeon is not prior consent; it is an opportunity to compare benefits and risks with realistic alternatives [13, 14].\n\nIf you have severe obesity with poorly controlled diabetes, sleep apnoea, hypertension, advanced fatty liver disease, or major effects on mobility and quality of life, do not keep delaying assessment for each new advertised option. Conversely, a small amount of excess weight or a cosmetic aim is not enough by itself to justify surgery. A sound decision may be surgery, a time-defined non-surgical trial with a review point, or treatment of a medical or psychological issue first [13, 14]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تكميم المعدة: إزاي بيتعمل وإيه اللي تعرفه قبل القرار؟",
+                "url": "../articles/sleeve-gastrectomy-what-to-know.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Sleeve gastrectomy: how is it done, and what should you know before deciding?",
+                "url": "../articles/sleeve-gastrectomy-what-to-know.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "safety-and-next-step",
+          "heading": {
+            "ar": "الأمان وخطوتك الجاية",
+            "en": "Safety and your next step"
+          },
+          "body": {
+            "ar": "أثناء أي خطة، اطلب مساعدة عاجلة لو ظهر ألم بطن شديد ومستمر، قيء متكرر مانع السوائل، علامات جفاف أو إغماء، صعوبة تنفس، تورم بالوجه أو اللسان، ألم صدر، أو أفكار بإيذاء النفس. ومع أدوية GLP-1 خصوصاً، ألم بطن شديد مستمر ممكن يمتد للظهر، أو ألم أعلى البطن مع اصفرار أو حرارة، محتاج تقييم سريع لاحتمال التهاب البنكرياس أو مشكلة بالمرارة؛ ما تزودش الجرعة وما تعالجش العرض لوحدك [5, 9].\n\nقبل الزيارة اعمل قائمة قصيرة: هدفك الصحي، محاولاتك السابقة، كل الأدوية والمكملات، الأمراض والعمليات، الأعراض، وخطط الحمل. اسأل الطبيب عن بديلين أو تلاتة مناسبين لحالتك، الفايدة الواقعية لكل واحد، المخاطر، طريقة المتابعة، ومعيار التغيير. ما تبدأش أكتر من تغيير كبير في نفس الوقت من غير خطة، عشان تعرف إيه اللي نفع وإيه اللي سبب عرض. القرار المشترك أحسن من إنك تدخل الزيارة طالب اسم حقنة أو رافض الجراحة من غير ما تسمع المقارنة [3, 5, 13].\n\nفي العيادة، البداية المنطقية هي تقييم طبي وتغذوي يحدد هل الأنسب خطة منظمة، دواء بوصفة، إحالة لإجراء بالمنظار، أو رأي جراح سمنة. الفريق ما يقدرش يضمن نتيجة، لكنه يقدر يساعدك تفهم الاختيارات ويحدد نقطة متابعة واضحة. لو مستعد تبدأ مقارنة شخصية مبنية على تاريخك وتحاليلك، تقدر تطلب حجز استشارة لإدارة الوزن؛ وخلي قرار العلاج النهائي مع الطبيب المعالج بعد الفحص [3, 4].",
+            "en": "During any route, seek urgent help for severe persistent abdominal pain, repeated vomiting that prevents fluid intake, dehydration or fainting, breathing difficulty, swelling of the face or tongue, chest pain, or thoughts of self-harm. With GLP-1 medicines in particular, severe persistent abdominal pain that may radiate to the back, or upper abdominal pain with jaundice or fever, needs prompt assessment for pancreatitis or gallbladder disease. Do not increase the dose or manage the symptom alone [5, 9].\n\nBefore a visit, make a short list: your health goal, previous attempts, every medicine and supplement, conditions and operations, symptoms, and pregnancy plans. Ask the clinician for two or three options that fit your case, the realistic benefit and risks of each, how follow-up works, and what would trigger a change. Avoid launching several major changes at once without a plan, because it becomes hard to tell what helped or caused a symptom. Shared decision-making is more useful than arriving for a named injection or rejecting surgery before hearing a fair comparison [3, 5, 13].\n\nIn clinic, a sensible starting point is a medical and nutrition assessment that decides whether structured care, prescribed medicine, referral for an endoscopic procedure or a bariatric surgical opinion fits best. A team cannot promise an outcome, but it can help you understand the options and set a clear review point. If you are ready for an individual comparison based on your history and tests, you can request a weight-management consultation; leave the final treatment decision to your treating clinician after examination [3, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز استشارة لإدارة الوزن",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a weight-management consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الحقن بتدي نفس نتيجة التكميم؟",
+            "en": "Do injections give the same result as sleeve surgery?"
+          },
+          "a": {
+            "ar": "لأ، مفيش مساواة ثابتة بين الاتنين. الاستجابة للدواء بتختلف حسب النوع والشخص والاستمرار، بينما التكميم تغيير جراحي وله فوايد ومخاطر والتزام طويل مختلف. المقارنة الصح تبقى على حالتك ومضاعفاتك وهدفك، مش على رقم من إعلان أو تجربة شخص تاني [5, 10, 13].",
+            "en": "No fixed equivalence exists. Medicine response varies by drug, person and continuation, while sleeve gastrectomy is a surgical change with different benefits, risks and long-term commitments. Compare them for your health, complications and goals, not an advertised number or somebody else’s experience [5, 10, 13]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل ينفع أبدأ دواء من غير تحاليل أو كشف؟",
+            "en": "Can I start medicine without tests or a clinical assessment?"
+          },
+          "a": {
+            "ar": "ما تبدأش دواء إدارة وزن من نفسك. الطبيب محتاج يراجع الأمراض والأدوية والحمل أو التخطيط له وموانع الاستعمال، ويطلب الفحوصات اللي حالتك محتاجاها. الشراء من مصدر مجهول أو نسخ جرعة شخص تاني يزود احتمال المنتج المزيف وخطأ الجرعة وتأخير التعامل مع الأعراض [5, 8, 9].",
+            "en": "Do not start weight-management medicine by yourself. A clinician needs to review conditions, medicines, pregnancy or plans for it and contraindications, then select tests that your case requires. An unknown source or another person’s dose increases the risks of counterfeit product, dosing error and delayed response to adverse symptoms [5, 8, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو وقفت دواء الوزن، هل الوزن لازم يرجع كله؟",
+            "en": "If I stop weight medicine, must all the weight return?"
+          },
+          "a": {
+            "ar": "مش لازم كل شخص يرجع نفس المقدار، لكن رجوع جزء من الوزن شائع ومثبت بعد إيقاف بعض الأدوية. ده عشان إشارات الشهية والمرض المزمن ممكن ترجع، مش عشان إرادتك ضعيفة. ناقش من الأول مدة العلاج، وخطة التثبيت، وإزاي الإيقاف أو التغيير يتم تحت متابعة [5, 10].",
+            "en": "Not everyone regains the same amount, but regain is common and documented after stopping some medicines. Hunger signalling and the chronic disease can re-emerge; this is not weak willpower. Discuss treatment duration, maintenance and how any stop or switch will be supervised from the outset [5, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تكميم المعدة بالمنظار هو التكميم الجراحي؟",
+            "en": "Is endoscopic sleeve gastroplasty the same as surgical sleeve gastrectomy?"
+          },
+          "a": {
+            "ar": "لأ. الإجراء بالمنظار بيستخدم غرز داخلية عن طريق الفم لتقليل حجم المعدة، بينما التكميم الجراحي بيستأصل جزء منها. الاتنين محتاجين اختيار ومتابعة، لكن طبيعتهم ومخاطرهم ونتايجهم مختلفة. الطبيب المتخصص يحدد هل الإجراء متاح ومناسب لحالتك [11, 12, 13].",
+            "en": "No. The endoscopic procedure places internal sutures through the mouth to reduce stomach volume, whereas surgical sleeve gastrectomy removes part of the stomach. Both require selection and follow-up, but their nature, risks and outcomes differ. A relevant specialist decides whether an endoscopic option is available and suitable [11, 12, 13]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أجهزة النحت أو حقن الدهون الموضعية بديل للتكميم؟",
+            "en": "Are contouring devices or local fat injections an alternative to sleeve surgery?"
+          },
+          "a": {
+            "ar": "لأ. الحاجات دي بتستهدف شكل أو دهون منطقة محددة، مش السمنة كمرض، ومش بتعالج الجوع أو السكر أو الضغط أو انقطاع النفس. ممكن يتناقش دور تجميلي منفصل في حالة مناسبة، لكن ما ينفعش يتحسب كعلاج للوزن الكلي أو بديل لعملية سمنة [1, 3].",
+            "en": "No. These approaches target the appearance or fat of a limited area, not obesity as a disease, and they do not treat hunger, diabetes, hypertension or sleep apnoea. A separate cosmetic role may be discussed in a suitable case, but it should not be presented as total-weight treatment or an alternative to bariatric surgery [1, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى أطلب رأي جراح حتى لو أنا مفضّل طريق من غير جراحة؟",
+            "en": "When should I request a surgical opinion even if I prefer a non-surgical route?"
+          },
+          "a": {
+            "ar": "اطلب تقييم لو السمنة شديدة، أو فيه مرض أيضي أو مضاعفات مهمة، أو المحاولات غير الجراحية ما حققتش تحسن كافي ومستمر. الاستشارة مش التزام بعملية؛ هي مقارنة منظمة بين الفايدة والمخاطر والبدائل. حدود الإحالة بتختلف بين الإرشادات، والقرار النهائي فردي مع فريق متعدد التخصصات [13, 14].",
+            "en": "Request assessment when obesity is severe, important metabolic disease or complications are present, or non-surgical attempts have not produced sufficient durable improvement. A consultation does not commit you to an operation; it provides a structured comparison of benefits, risks and alternatives. Referral thresholds vary by guideline, and the final decision is individual and multidisciplinary [13, 14]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO — Obesity and overweight",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        },
+        {
+          "label": "NICE NG246 — Identifying and assessing overweight, obesity and central adiposity",
+          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity"
+        },
+        {
+          "label": "NIDDK — Choosing a Safe & Successful Weight-loss Program",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program"
+        },
+        {
+          "label": "NIDDK — Treatment for Overweight & Obesity",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/treatment"
+        },
+        {
+          "label": "NIDDK — Prescription Medications to Treat Overweight & Obesity",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
+        },
+        {
+          "label": "CDC — Physical Activity and Your Weight and Health",
+          "url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/"
+        },
+        {
+          "label": "Binmahfoz et al. — Resistance exercise during dietary weight loss: systematic review and meta-analysis (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40909191/"
+        },
+        {
+          "label": "FDA — Concerns with unapproved GLP-1 drugs used for weight loss",
+          "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss"
+        },
+        {
+          "label": "FDA — Wegovy (semaglutide) prescribing information",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215256s024lbl.pdf"
+        },
+        {
+          "label": "Wilding et al. — Weight regain after withdrawal of semaglutide: STEP 1 extension (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35441470/"
+        },
+        {
+          "label": "NICE HTG711 — Endoscopic sleeve gastroplasty for obesity",
+          "url": "https://www.nice.org.uk/guidance/htg711/resources/endoscopic-sleeve-gastroplasty-for-obesity-pdf-1809600576881605"
+        },
+        {
+          "label": "Strategies to Manage Obesity: Endoscopic Bariatric and Metabolic Therapies (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11844021/"
+        },
+        {
+          "label": "ASMBS/IFSO — 2022 Indications for Metabolic and Bariatric Surgery (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9834364/"
+        },
+        {
+          "label": "NICE NG246 — Medicines and surgery",
+          "url": "https://www.nice.org.uk/guidance/NG246/chapter/medicines-and-surgery"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "بدائل التكميم من غير جراحة: دليل الاختيار",
+          "en": "Non-surgical weight-loss options: a decision guide"
+        },
+        "description": {
+          "ar": "دليل عملي لبدائل التكميم من غير جراحة: التغذية العلاجية، أدوية إدارة الوزن، إجراءات المنظار، وحدود كل اختيار وإمتى تحتاج رأي جراح.",
+          "en": "Compare structured nutrition care, weight-management medicines, endoscopic procedures and surgery, including benefits, limits, safety and follow-up."
+        }
+      }
+    }
+  ]
+}

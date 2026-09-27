@@ -1,0 +1,343 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-fast-weight-loss-before-event; replaces the entry from content/articles.json. Expanded the short answer into a bilingual, medically re-reviewed guide to realistic event timelines, safer short-term actions, harmful shortcuts, red flags, and sustainable follow-up.",
+  "articles": [
+    {
+      "slug": "qa-fast-weight-loss-before-event",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "weight-management",
+      "specialties": [
+        "weight-management",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا الإجابة عشان توضح النزول الواقعي قبل المناسبة، والخطوات الآمنة، والحلول المؤذية، وعلامات الخطر، واتراجعت طبياً من جديد.",
+            "en": "We expanded the answer to explain realistic pre-event weight loss, safer steps, harmful shortcuts, and warning signs, and medically re-reviewed it."
+          }
+        }
+      ],
+      "image": "assets/img/articles/weight-management-3.webp",
+      "title": {
+        "ar": "عندي مناسبة قريبة، إيه أسرع طريقة آمنة أخس بيها؟",
+        "en": "I have an event coming up. What is the fastest safe way to lose weight?"
+      },
+      "excerpt": {
+        "ar": "التخسيس السريع قبل مناسبة مش معناه تجويع أو تنشيف الجسم. اعرف إيه المتوقع فعلاً، وإزاي تقلل الانتفاخ وتحافظ على صحتك وعضلاتك.",
+        "en": "Fast weight loss before an event should not mean starvation or dehydration. Learn what is realistic, how to reduce bloating, and how to protect your health and muscle."
+      },
+      "sections": [
+        {
+          "id": "short-answer-realistic-rate",
+          "heading": {
+            "ar": "الإجابة المختصرة: مفيش رقم سريع وآمن لكل الناس",
+            "en": "The short answer: there is no fast, safe number for everyone"
+          },
+          "body": {
+            "ar": "لو المناسبة بعد كام يوم أو أسبوعين، مفيش طريقة مضمونة تخليك تفقد كمية كبيرة من الدهون بأمان. المعدل التدريجي اللي بيتذكر غالباً للبالغين هو حوالي رطل إلى رطلين في الأسبوع، يعني تقريباً نص كيلو إلى كيلو، والناس اللي بتنزل بهدوء بتكون فرصتها أحسن في الحفاظ على النتيجة. بس ده نطاق عام مش وصفة أو وعد؛ نقطة البداية، السن، الأدوية، الحركة، النوم، والحالات الصحية كلها بتغيّر المتوقع [1, 2].\n\nالهدف العملي قبل المناسبة يبقى أصغر: تبدأ عادات تقدر تكملها، تقلل حاجات بتزود الانتفاخ واحتباس المياه عندك، وتحافظ على طاقتك بدل ما تدخل اليوم مرهق أو عطشان. حتى نزول بسيط أو ثبات مع إحساس أخف في الملابس ممكن يكون نتيجة معقولة. ما تقارنش نفسك بصورة أو تجربة حد تاني، وما تحوّلش تاريخ المناسبة لاختبار لقيمتك. برنامج آمن لازم يكون مناسب لصحتك، فيه أكل متوازن وحركة قابلة للتنفيذ وخطة للاستمرار، مش مجرد سباق مع الميزان [1, 2].\n\nلو محتاج نزول سريع لسبب طبي حقيقي، زي تجهيز إجراء علاجي، ده موقف مختلف بيتقيّم ويتابع طبياً. إرشادات NICE بتحصر الأنظمة شديدة الانخفاض في الطاقة في احتياج سريري محدد وتحت خدمة متخصصة، مش عشان فستان أو صورة أو مناسبة اجتماعية [3].",
+            "en": "If the event is only days or two weeks away, there is no guaranteed way to lose a large amount of body fat safely. A commonly cited gradual range for adults is roughly half to one kilogram per week, and people who lose at a steady pace are more likely to maintain it. This is a general range, not a prescription or promise: starting point, age, medicines, activity, sleep and health conditions all change what is realistic [1, 2].\n\nA more practical pre-event goal is smaller: begin habits you can continue, reduce things that worsen your own bloating or fluid retention, and protect your energy rather than arriving exhausted or dehydrated. Even a modest loss, or stable weight with clothes feeling more comfortable, may be a reasonable outcome. Do not compare yourself with another person's photograph or story, and do not turn the event date into a test of your worth. A safe programme should fit your health, include balanced food and feasible movement, and have a maintenance plan; it is not merely a race with the scale [1, 2].\n\nRapid loss for a genuine medical reason, such as preparation for a procedure, is a different situation that requires clinical assessment and follow-up. NICE restricts very-low-energy diets to a specific, clinically assessed need within a specialist service, not a dress, photograph or social deadline [3]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "fat-fluid-and-scale",
+          "heading": {
+            "ar": "الميزان السريع غالباً بيحكي عن مياه، مش دهون بس",
+            "en": "A fast scale change often reflects fluid, not fat alone"
+          },
+          "body": {
+            "ar": "وزنك في أي لحظة هو دهون وعضلات ومياه ومحتوى الجهاز الهضمي مع بعض. في أول أيام تغيير الأكل، خصوصاً لما الكربوهيدرات تقل فجأة، مخزون الجليكوجين والمياه المرتبطة بيه ممكن يقلوا، فيبان نزول سريع. مراجعة علمية عن علاجات السمنة بتوضح إن جزءاً كبيراً من البداية السريعة في بعض الأنظمة قليلة الكربوهيدرات بيرجع للجليكوجين والمياه، وبعدها السرعة بتهدى. ده معناه إن الرقم اللي ظهر مش كله دهون، وإن جزءاً منه ممكن يرجع لما نمط الأكل يرجع لطبيعته [9].\n\nالملح العالي كمان ممكن يزود احتباس المياه والانتفاخ مؤقتاً، فالتقليل المعقول من الأكل شديد الملوحة والمصنّع قد يخلي الشكل والإحساس أريح. لكن مش معنى كده تمنع الملح تماماً أو تقلل الشرب؛ المطلوب نمط متوازن، مش تنشيف الجسم. جمعية القلب الأمريكية بتربط الصوديوم الزائد باحتباس المياه والانتفاخ وزيادة مؤقتة في الوزن [11].\n\nعشان كده تابع الاتجاه، مش قراءة يوم واحد. زن نفسك في ظروف متقاربة لو المتابعة ما بتسببش لك توتر، وخد بالك من المقاس والطاقة والقوة كمان. مقال تركيب الجسم مش رقم الميزان بيفصل إزاي تفرق بين تغير الدهون والعضلات والمياه من غير ما تدي رقم واحد أكبر من حجمه [9, 11].",
+            "en": "Your weight at any moment combines fat, muscle, fluid and the contents of your digestive tract. During the first days of changing food intake, especially after a sudden carbohydrate reduction, glycogen stores and their associated water may fall and create a rapid scale change. A scientific review of obesity treatments notes that much of the early difference seen with some lower-carbohydrate diets reflects glycogen and water, after which the rate slows. The number is therefore not all body fat, and part of it can return when eating patterns normalise [9].\n\nHigh sodium intake can also increase temporary fluid retention and bloating, so reasonably reducing very salty and highly processed foods may help you feel and look more comfortable. That does not mean eliminating salt or restricting fluids; the aim is a balanced pattern, not drying out the body. The American Heart Association links excess sodium with water retention, bloating and temporary weight gain [11].\n\nFollow the trend rather than one day's reading. Weigh under broadly similar conditions if monitoring does not make you anxious, and notice clothing fit, energy and strength too. Body composition is not the scale explains how to distinguish trends in fat, muscle and fluid without giving one number more meaning than it deserves [9, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تركيب الجسم مش رقم الميزان",
+                "url": "../articles/body-composition-not-scale.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Body composition is not the scale",
+                "url": "../articles/body-composition-not-scale.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "practical-pre-event-plan",
+          "heading": {
+            "ar": "خطة بسيطة للفترة اللي قبل المناسبة",
+            "en": "A simple plan for the time before the event"
+          },
+          "body": {
+            "ar": "ابدأ بتنظيم اليوم بدل حذف الأكل. خلي الوجبات منتظمة بقدر يناسب شغلك، وحط فيها مصدر بروتين زي البيض أو الزبادي أو البقول أو السمك أو الفراخ، مع خضار أو فاكهة ومصدر نشويات مناسب. استبدال المشروبات السكرية بالمياه أو مشروب من غير سكر، وتقليل الوجبات شديدة التصنيع، خطوتين أوضح من قائمة منع طويلة. الإرشادات الصحية بتدعم نمطاً متنوعاً فيه خضار وفاكهة وحبوب كاملة ومصادر بروتين، مع تقليل السكر المضاف والدهون المشبعة والصوديوم [4].\n\nما تبدأش أطعمة أو مكملات غريبة قبل المناسبة. لو أكل معين بيعمل لك انتفاخاً معروفاً، قلل الكمية مؤقتاً من غير ما تمنع مجموعة غذائية كاملة. كل بهدوء، وسيب وقتاً مناسباً بين الوجبة الكبيرة والنوم، وخطط للأيام المزدحمة عشان الجوع الشديد ما يخليكش تاكل بعشوائية. دوّن كام يوم من الأكل والشرب والنوم والحركة؛ التسجيل البسيط بيساعدك تشوف نمطك وتختار تغييرين أو تلاتة واقعيين بدل عشر قرارات صعب تكملها [1, 2].\n\nاشرب حسب عطشك واحتياجك المعتاد، وزوّد السوائل في الحر أو مع النشاط بالطريقة المناسبة لحالتك. لون بول غامق، دوخة، جفاف الفم أو قلة التبول مش علامات نجاح. لو عندك فشل قلبي أو كلوي، أو الطبيب محدد لك سوائل أو ملح، اتبع تعليماته لأن النصايح العامة مش بديل عن خطتك الطبية [14].",
+            "en": "Start by organising the day rather than deleting food. Keep meals reasonably regular for your schedule and include a protein source such as eggs, yoghurt, pulses, fish or poultry, alongside vegetables or fruit and a suitable carbohydrate source. Replacing sugary drinks with water or an unsweetened drink and reducing highly processed meals are clearer steps than a long ban list. Health guidance supports a varied pattern containing vegetables, fruit, whole grains and protein sources while limiting added sugar, saturated fat and sodium [4].\n\nDo not introduce unfamiliar foods or supplements just before the event. If a particular food reliably causes bloating, reduce its portion temporarily without removing an entire food group. Eat unhurriedly, leave a sensible interval between a large meal and bedtime, and plan for busy days so extreme hunger does not lead to chaotic eating. Record a few days of food, drinks, sleep and activity; simple tracking can reveal your pattern and help you choose two or three realistic changes instead of ten decisions you cannot sustain [1, 2].\n\nDrink according to thirst and your usual needs, adjusting appropriately for heat or activity. Dark urine, dizziness, dry mouth or passing less urine are not signs of success. If you have heart or kidney failure, or a clinician has set fluid or sodium limits, follow that advice because general guidance cannot replace your medical plan [14]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "shortcuts-to-avoid",
+          "heading": {
+            "ar": "حلول شكلها سريع لكن مش بتخسّس دهون بأمان",
+            "en": "Shortcuts that look fast but do not safely reduce body fat"
+          },
+          "body": {
+            "ar": "بلاش ملينات، مدرات بول، قيء متعمد، ساونا طويلة، لبس حراري، أو منع مياه عشان رقم الميزان. الحاجات دي بتغيّر السوائل أو محتوى الأمعاء، مش كمية الدهون اللي الجسم خزنها. الملينات ممكن تعمل جفافاً واضطراب أملاح وانسداداً أو ضعفاً واضطراباً في ضربات القلب، واستخدامها من غير سبب طبي مش وسيلة تخسيس [12]. كمان الأنظمة اللي توعدك بنزول ضخم في وقت قصير علامة تحذير، مش دليل قوة البرنامج [2].\n\nمنع الأكل بعنف أو الاعتماد على عصير أو صنف واحد ممكن يقلل الطاقة والبروتين والعناصر الغذائية، ويزود الصداع والتعب والإمساك، وبعد المناسبة يرجع الجوع بقوة. إرشادات NICE بتقول إن النظام قليل أو شديد الانخفاض في الطاقة لازم يكون كامل غذائياً، محدود المدة، وتحت دعم ومتابعة متخصصين؛ وبتطلب مراجعة الأدوية واحتمال اضطراب الأكل قبل بدايته [3].\n\nالنزول السريع له مخاطر أبعد من يوم المناسبة. المعهد الأمريكي NIDDK بيوضح إن فقد الوزن بسرعة أو الامتناع الطويل عن الأكل ممكن يرفع احتمال تكوّن حصوات المرارة ويعطل تفريغها الطبيعي، وإن تكرار النزول والرجوع له علاقة بمشاكل المرارة برضه [5]. لو خطة ما تقدرش تعملها بعد المناسبة، غالباً مش هي الحل اللي جسمك محتاجه قبلها.",
+            "en": "Avoid laxatives, diuretics, self-induced vomiting, prolonged sauna use, heat suits or fluid restriction to change the scale. These alter fluid or bowel contents, not the amount of stored body fat. Laxatives can cause dehydration, electrolyte disturbance, blockage, weakness and abnormal heart rhythm; using them without a medical indication is not a weight-loss method [12]. Programmes promising a dramatic loss in a very short period are also a warning sign, not proof of effectiveness [2].\n\nSeverely restricting food or living on juice or one food can reduce energy, protein and micronutrient intake, worsen headache, fatigue and constipation, and leave hunger rebounding after the event. NICE says low- and very-low-energy diets must be nutritionally complete, time limited and delivered with specialist support and follow-up; medicines and possible eating disorders should be reviewed before starting [3].\n\nRapid loss also carries risks beyond the event day. The US NIDDK explains that losing weight quickly or going for long periods without eating may raise the chance of gallstones and impair normal gallbladder emptying; repeated loss and regain is also linked with gallstone problems [5]. If a plan cannot reasonably continue after the event, it is unlikely to be what your body needs before it."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "movement-muscle-and-sleep",
+          "heading": {
+            "ar": "الحركة والنوم يحسنوا النتيجة من غير عقاب",
+            "en": "Movement and sleep can improve the outcome without punishment"
+          },
+          "body": {
+            "ar": "المشي أو أي نشاط متوسط تقدر تعمله بأمان مفيد للصحة والطاقة، لكن ما تحاولش تعوض الأكل بتمرين عنيف فجأة. الإرشادات للبالغين بتستهدف على المدى الطويل 150 دقيقة أسبوعياً من نشاط متوسط، مع تقوية العضلات يومين أو أكتر، بس البداية تتدرج حسب لياقتك ومفاصلك وقلبك وأي مرض مزمن [4, 7]. لو كنت غير نشيط، عشر أو خمس عشرة دقيقة مشي ممكن تكون بداية أحسن من حصة قاسية تعمل إصابة قبل المناسبة.\n\nوقت نقص الأكل، العضلات محتاجة سبب عشان تفضل: غذاء كفاية، بروتين مناسب، ومقاومة عضلية قابلة للتكرار. مراجعة منهجية لقت إن التدخلات اللي فيها تمرين كانت الأكثر ثباتاً في حماية الكتلة الخالية من الدهون أثناء النزول، وإن كفاية البروتين مهمة كمان [10]. دليل إزاي تحافظ على العضلات وإنت بتخس؟ بيدخل في التفاصيل من غير ما يحوّل الصفحة دي لبرنامج تمرين أو حساب بروتين شخصي [10].\n\nالنوم مش وقت ضايع من الخطة. البالغ من 18 إلى 60 سنة محتاج عادة سبع ساعات أو أكتر، والنوم الكفاية بيدعم المزاج والانتباه وصحة التمثيل الغذائي. ثبت معاد نوم وصحيان قدر الإمكان، وابعد الوجبة الكبيرة والكافيين المتأخر والشاشة قبل النوم. ليلة نوم أحسن قبل المناسبة أفيد من سهر وتمرين عقابي [1, 8].",
+            "en": "Walking or another moderate activity you can do safely supports health and energy, but do not suddenly try to exercise away food with punishing sessions. Long-term adult guidance aims for 150 minutes of moderate activity each week plus muscle strengthening on two or more days, but the starting point should progress according to fitness, joints, heart health and chronic conditions [4, 7]. If you have been inactive, a 10- or 15-minute walk may be a better beginning than a severe class that causes injury before the event.\n\nDuring an energy deficit, muscle needs reasons to remain: adequate food, suitable protein and repeatable resistance work. A systematic review found that interventions containing exercise showed the most consistent benefit for preserving fat-free mass during weight loss, with adequate protein also important [10]. How to protect muscle while losing weight covers the detail without turning this page into a personal exercise prescription or protein calculation [10].\n\nSleep is not time lost from the plan. Adults aged 18 to 60 generally need at least seven hours, and sufficient sleep supports mood, attention and metabolic health. Keep sleep and wake times as regular as possible, and avoid a large meal, late caffeine and screens close to bedtime. A better night's sleep before the event is more useful than staying up for a punishment workout [1, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "إزاي تحافظ على العضلات وإنت بتخس؟",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "How to protect muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "who-needs-clinical-review",
+          "heading": {
+            "ar": "مين لازم يراجع الخطة مع طبيب قبل ما يبدأ؟",
+            "en": "Who should have the plan clinically reviewed before starting?"
+          },
+          "body": {
+            "ar": "راجع طبيبك قبل تغيير كبير لو عندك سكر، ضغط، مرض قلب أو كلى أو كبد، حصوات مرارة، أو بتاخد أدوية ممكن تتأثر بالأكل والسوائل. نفس الكلام ينطبق على الحمل أو الرضاعة، السن الصغير أو الكبير، وزن منخفض، عملية قريبة، أو تاريخ اضطراب أكل. تغيير مواعيد الوجبات أو كمية الكربوهيدرات مثلاً ممكن يحتاج تعديل دواء السكر عشان تتجنب الهبوط، وده ما يتعملش بالتجربة [2, 3, 5].\n\nحقن أو أقراص إدارة الوزن مش حل تجميلي يبدأ قبل مناسبة. اختيار الدواء قرار بينك وبين الطبيب بعد تقييم الوزن والمخاطر والحالات المصاحبة، والدواء بيكون جزءاً من برنامج أكل وحركة ومتابعة. ما تاخدش دواء حد تاني، وما تزودش الجرعة، وما توقفش علاجك الحالي من نفسك عشان الميزان يتحرك أسرع [6].\n\nلو وزنك بيزيد فجأة من غير تفسير، أو عندك تورم، ضيق نفس، خفقان، ضعف شديد، تغيرات واضحة في الدورة أو أعراض غدة، الأول نفهم السبب بدل ما نفترض إن الحل تجويع. قائمة الأدوية، تاريخ محاولاتك، ويومين عاديين من الأكل والنوم بيساعدوا الطبيب يبني قراراً مناسباً. الموعد القريب ممكن يكون دافع لبدء رعاية صحية، بس مش سبب لتجاوز التقييم [2, 6].",
+            "en": "Check with your clinician before a major change if you have diabetes, high blood pressure, heart, kidney or liver disease, gallstones, or medicines that may be affected by food or fluid intake. The same applies during pregnancy or breastfeeding, at younger or older ages, with low body weight, before surgery, or with an eating-disorder history. Changing meal timing or carbohydrate intake can, for example, require adjustment of diabetes treatment to avoid low glucose; that should not be done by trial and error [2, 3, 5].\n\nWeight-management injections or tablets are not cosmetic fixes to begin for an event. Choosing medication is a decision between you and a clinician after assessing weight, risk and related conditions, and medicine forms part of an eating, activity and follow-up programme. Never take another person's medicine, increase a dose, or stop current treatment yourself to move the scale faster [6].\n\nIf weight is rising suddenly without explanation, or you have swelling, breathlessness, palpitations, severe weakness, marked menstrual changes or thyroid-type symptoms, the priority is to understand the cause rather than assume starvation is the answer. A medicine list, history of earlier attempts, and two ordinary days of eating and sleep help the clinician make an appropriate decision. A coming event can prompt you to begin health care, but it is not a reason to bypass assessment [2, 6]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "red-flags-and-eating-distress",
+          "heading": {
+            "ar": "علامات توقف الخطة وتطلب مساعدة",
+            "en": "Warning signs that mean stop the plan and seek help"
+          },
+          "body": {
+            "ar": "وقف الخطة واطلب تقييماً عاجلاً لو حصل إغماء أو ارتباك، ألم صدر، ضيق نفس، ضربات قلب سريعة أو غير منتظمة، ضعف شديد، قيء مستمر، عدم القدرة على الاحتفاظ بالسوائل، أو قلة شديدة في البول. الدوخة المستمرة مع بول غامق وجفاف الفم ممكن تعني جفافاً محتاج تعويض وتقييم، مش نزول ناجح. الجفاف الشديد قد يظهر مع تشوش أو نبض سريع، وده يستحق مساعدة عاجلة [14].\n\nخد الموضوع بجدية كمان لو بقيت خايف من كل وجبة، بتاكل قليلاً جداً، بتجبر نفسك على القيء، بتستخدم ملينات، بتتمرن بإفراط، أو الميزان بقى مسيطر على يومك ومزاجك. دي سلوكيات ممكن تدخل ضمن اضطراب أكل، وهو حالة صحة نفسية تستحق دعماً متخصصاً، وممكن تحصل لأي شخص مهما كان وزنه أو شكله [13].\n\nلو في أفكار بإيذاء النفس أو خطر فوري، اطلب الطوارئ المحلية فوراً وخلي شخصاً موثوقاً يفضل معاك. ولو العلامات مش طارئة لكن بتتكرر، كلم طبيب أو متخصص صحة نفسية قريباً. المناسبة هتعدي؛ سلامتك وعلاقتك بالأكل والجسم أهم من أي مقاس أو صورة [3, 13].",
+            "en": "Stop the plan and seek urgent assessment for fainting or confusion, chest pain, breathlessness, a fast or irregular heartbeat, severe weakness, persistent vomiting, inability to keep fluids down, or markedly reduced urination. Ongoing dizziness with dark urine and a dry mouth may indicate dehydration that needs replacement and assessment, not successful loss. Severe dehydration can present with confusion or a rapid pulse and needs urgent help [14].\n\nTake it seriously if you become afraid of every meal, eat very little, make yourself vomit, use laxatives, exercise excessively, or find that the scale controls your day and mood. These behaviours may be part of an eating disorder, a mental health condition that deserves specialist support and can affect a person at any weight or appearance [13].\n\nIf there are thoughts of self-harm or immediate danger, contact local emergency services now and ask a trusted person to stay with you. If the signs are not an emergency but keep recurring, speak with a doctor or mental health professional soon. The event will pass; your safety and relationship with food and your body matter more than any clothing size or photograph [3, 13]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "event-day-and-next-step",
+          "heading": {
+            "ar": "يوم المناسبة والخطوة اللي بعدها",
+            "en": "The event day and the next step"
+          },
+          "body": {
+            "ar": "يوم المناسبة، كل وجبة عادية تعرف إنها مريحة لك، واشرب بشكل طبيعي، وما تجربش صياماً طويلاً أو مكملات أو تمريناً جديداً. لو هتقف أو تتحرك كتير، خليك مجهز بمياه ووجبة أو سناك مناسب بدل ما تدخل اليوم من غير طاقة. اختار لبساً مريحاً ومقاسه مناسب دلوقتي؛ راحتك وثقتك مش لازم يستنوا رقم الميزان. وبعد المناسبة ارجع لروتينك من الوجبة التالية، من غير عقاب أو تعويض [1, 4].\n\nلو عايز تحوّل الدافع المؤقت لخطة صحية، أول زيارة لإدارة الوزن بتساعد ترتب التاريخ الصحي والأدوية والتحاليل والأكل والحركة والنوم، وتحدد هدفاً مناسباً من غير وعود سريعة. وجود متابعة بيساعد على اختيار خطوات محددة ومراجعتها بدل ما تفضل تجرب أنظمة متضاربة لوحدك [1, 2].\n\nفي العيادة، التقييم بيبدأ بفهم حالتك وهدفك، والقرار النهائي بيتاخد مع الطبيب أو أخصائي التغذية حسب صحتك، مش حسب تاريخ المناسبة وحده. تقدر طلب حجز موعد لإدارة الوزن لو محتاج تقييماً فردياً وخطة تكمل بعد اليوم الكبير. لحد الموعد، ما تغيّرش دواء موصوف ولا تبدأ نظاماً شديداً من نفسك [2, 3, 6].",
+            "en": "On the event day, eat ordinary meals you know are comfortable for you, drink normally, and do not experiment with prolonged fasting, supplements or a new workout. If you will stand or move for hours, carry water and a suitable meal or snack instead of entering the day without energy. Choose comfortable clothing that fits now; comfort and confidence do not have to wait for a scale number. After the event, return to your routine from the next meal without punishment or compensation [1, 4].\n\nIf you want to turn temporary motivation into health care, a first weight-management visit can organise your health history, medicines, tests, eating, activity and sleep, then set a suitable goal without rapid promises. Follow-up helps you choose specific steps and review them instead of repeatedly trying conflicting plans alone [1, 2].\n\nAt the clinic, assessment starts with understanding your health and goal, and the final decision is made with the clinician or nutrition professional according to your needs, not the event date alone. You can request a weight-management appointment if you need an individual assessment and a plan that continues after the big day. Until then, do not change prescribed medicine or begin a severe diet on your own [2, 3, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أول زيارة لإدارة الوزن",
+                "url": "../articles/weight-management-first-visit.html"
+              },
+              {
+                "label": "طلب حجز موعد لإدارة الوزن",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "a first weight-management visit",
+                "url": "../articles/weight-management-first-visit.html"
+              },
+              {
+                "label": "request a weight-management appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "ممكن أخس كام كيلو في أسبوع قبل المناسبة؟",
+            "en": "How many kilograms can I lose in one week before an event?"
+          },
+          "a": {
+            "ar": "مفيش رقم مضمون لكل شخص. المعدل التدريجي الشائع للبالغين حوالي نص كيلو إلى كيلو في الأسبوع، لكنه تقدير عام مش هدفاً لازم توصله. أي نزول أكبر في أول أيام ممكن يكون جزء منه مياه وجليكوجين أو محتوى الأمعاء، مش دهون صافية. حالتك الصحية ونقطة البداية والأدوية بيغيروا المتوقع، فبلاش تضغط جسمك عشان رقم محدد [1, 9].",
+            "en": "There is no guaranteed number for everyone. A commonly cited gradual adult range is about half to one kilogram per week, but it is a general estimate, not a target you must reach. A larger early drop may partly reflect water, glycogen or bowel contents rather than pure fat. Health, starting point and medicines change what is realistic, so do not force your body towards a fixed number [1, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الصيام المتقطع هو أسرع اختيار؟",
+            "en": "Is intermittent fasting the fastest option?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. توقيت الأكل أداة ممكن تناسب ناس وما تناسبش غيرهم، لكنه مش سحراً، والنتيجة تعتمد على النمط كله وقدرتك تكمله. لو الصيام بيعمل دوخة أو نهم، أو عندك سكر أو حمل أو رضاعة أو تاريخ اضطراب أكل، ما تبدأوش من غير مراجعة طبية. اختار نظاماً متوازناً يناسب يومك وصحتك بدل مطاردة اسم دايت [2, 3].",
+            "en": "Not necessarily. Meal timing is a tool that may suit some people and not others; it is not magic, and the result depends on the whole pattern and whether it is sustainable. If fasting causes dizziness or bingeing, or you have diabetes, pregnancy, breastfeeding or an eating-disorder history, do not begin without clinical advice. Choose a balanced pattern that fits your day and health rather than chasing a diet label [2, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أمنع النشويات والملح تماماً عشان شكلي يتغير بسرعة؟",
+            "en": "Should I completely cut carbohydrates and salt to change my appearance quickly?"
+          },
+          "a": {
+            "ar": "لأ. القطع المفاجئ ممكن يغيّر المياه على الميزان، لكنه مش دليل على فقد دهون بنفس السرعة. قلل الأكل شديد الملوحة والمشروبات السكرية بشكل معقول، وخلي النشويات من مصادر وكميات مناسبة لخطة متوازنة. منع الملح أو السوائل بعنف ممكن يسبب تعباً وجفافاً، خصوصاً في الحر أو مع الحركة [4, 9, 11, 14].",
+            "en": "No. A sudden cut can shift scale water, but it does not prove that body fat is falling at the same speed. Reasonably reduce very salty foods and sugary drinks, and include carbohydrate sources and portions that fit a balanced plan. Severe sodium or fluid restriction may cause fatigue and dehydration, particularly in heat or during activity [4, 9, 11, 14]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ينفع أبدأ حقن تخسيس قبل المناسبة بكام أسبوع؟",
+            "en": "Can I start weight-loss injections a few weeks before the event?"
+          },
+          "a": {
+            "ar": "مش لمجرد المناسبة. أدوية إدارة الوزن ليها معايير وموانع وآثار جانبية، وبتتختار مع الطبيب كجزء من علاج طويل المدى، مش تجربة قصيرة أو دواء مستعار. البداية والجرعة والمتابعة لازم يبقوا طبيين، وما ينفعش تزود الجرعة عشان تستعجل النتيجة [6].",
+            "en": "Not merely because of an event. Weight-management medicines have criteria, contraindications and side effects, and are chosen with a clinician as part of longer-term treatment, not a brief experiment or borrowed medicine. Starting, dosing and monitoring require medical oversight; never increase a dose to hurry the result [6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أوزن نفسي كل يوم؟",
+            "en": "Should I weigh myself every day?"
+          },
+          "a": {
+            "ar": "ينفع لو الرقم بيساعدك تشوف الاتجاه بهدوء، وفي نفس الظروف تقريباً، من غير ما تغيّر أكلك بعنف كل يوم. لو الوزن اليومي بيزود القلق أو يخليك تمنع الأكل، قلل مرات القياس وركز على متوسط الأسبوع والمقاس والطاقة والقوة. المتابعة المفيدة بتقيس التقدم، مش بتعاقبك [1, 2].",
+            "en": "You can if the number helps you observe a calm trend under broadly similar conditions without making severe daily food changes. If daily weighing increases anxiety or triggers restriction, weigh less often and focus on the weekly trend, clothing fit, energy and strength. Useful monitoring measures progress; it does not punish you [1, 2]."
+          }
+        },
+        {
+          "q": {
+            "ar": "المناسبة بعد يومين؛ إيه اللي أقدر أعمله من غير ما أضر نفسي؟",
+            "en": "The event is in two days; what can I do without harming myself?"
+          },
+          "a": {
+            "ar": "ما تحاولش تخسر دهوناً كتير في يومين. كل أكل مألوفاً ومنتظماً، قلل الوجبات شديدة الملوحة اللي بتنفخك، اشرب طبيعياً، نام كويس، واعمل حركة خفيفة لو مناسبة لصحتك. بلاش ملينات أو مدرات أو ساونا أو تجويع. اختار لبساً مريحاً، وبعد المناسبة ابدأ هدفاً أطول مع متخصص لو محتاج [1, 11, 12, 14].",
+            "en": "Do not try to lose substantial body fat in two days. Eat familiar regular meals, reduce very salty foods that bloat you, drink normally, sleep well, and use gentle movement if appropriate for your health. Avoid laxatives, diuretics, sauna dehydration and starvation. Choose comfortable clothing, then begin a longer-term goal with a professional after the event if needed [1, 11, 12, 14]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "CDC — Steps for Losing Weight",
+          "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html"
+        },
+        {
+          "label": "NIDDK — Choosing a Safe & Successful Weight-loss Program",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program"
+        },
+        {
+          "label": "NICE NG246 — Physical activity and diet in overweight and obesity management",
+          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Physical-activity-and-diet"
+        },
+        {
+          "label": "NIDDK — Eating & Physical Activity to Lose or Maintain Weight",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/eating-physical-activity"
+        },
+        {
+          "label": "NIDDK — Dieting & Gallstones",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/dieting"
+        },
+        {
+          "label": "NIDDK — Prescription Medications to Treat Overweight & Obesity",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
+        },
+        {
+          "label": "CDC — Physical Activity and Your Weight and Health",
+          "url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/"
+        },
+        {
+          "label": "CDC — About Sleep",
+          "url": "https://www.cdc.gov/sleep/about/"
+        },
+        {
+          "label": "Ruban et al. — Current treatments for obesity, Clinical Medicine (2019), PMC6542229",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6542229/"
+        },
+        {
+          "label": "Roth et al. — Exercise, dietary supplements and fat-free mass during weight loss: systematic review and meta-analysis (2022), PMC9396077",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9396077/"
+        },
+        {
+          "label": "American Heart Association — Effects of Excess Sodium",
+          "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/effects-of-excess-sodium-infographic"
+        },
+        {
+          "label": "NHS — Laxatives",
+          "url": "https://www.nhs.uk/medicines/laxatives/"
+        },
+        {
+          "label": "NHS — Eating disorders overview",
+          "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/"
+        },
+        {
+          "label": "NHS — Dehydration",
+          "url": "https://www.nhs.uk/conditions/dehydration/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "التخسيس السريع",
+          "نزول آمن",
+          "رجيم المناسبات",
+          "علاج السمنة بدون جراحة"
+        ],
+        "en": [
+          "rapid weight loss",
+          "safe weight loss",
+          "event diet",
+          "non-surgical weight management"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "التخسيس السريع قبل مناسبة: إيه الآمن؟",
+          "en": "Fast Weight Loss Before an Event: What Is Safe?"
+        },
+        "description": {
+          "ar": "عايز تخس بسرعة قبل مناسبة؟ اعرف المعدل الواقعي، وخطوات تقلل الانتفاخ بأمان، وليه التجويع ومدرات البول والملينات ممكن يضروك.",
+          "en": "Need to lose weight before an event? Learn what is realistic, safer ways to reduce bloating, which shortcuts can harm you, and when to seek help."
+        }
+      }
+    }
+  ]
+}

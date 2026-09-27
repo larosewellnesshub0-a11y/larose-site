@@ -1,0 +1,323 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-medicine-causing-weight-gain; replaces the entry from content/articles.json. Expanded into a comprehensive cited bilingual guide on medicine-related weight changes, mechanisms, fluid vs tissue gain, safe clinician review, and routine interactions.",
+  "articles": [
+    {
+      "slug": "qa-medicine-causing-weight-gain",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "internal-medicine",
+      "specialties": [
+        "internal-medicine",
+        "clinical-nutrition",
+        "weight-management"
+      ],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/internal-medicine-2.webp",
+      "title": {
+        "ar": "حاسس إن دوائي بيزوّد وزني، أوقفه؟",
+        "en": "I think my medicine is causing weight gain. Should I stop it?"
+      },
+      "excerpt": {
+        "ar": "لو حاسس إن دوائك بيزوّد وزنك ما توقفوش من نفسك أبداً. اعرف إزاي الأدوية بتأثر على الشهية أو حبس السوائل، والفرق بين الدهون والوذمة، وإزاي تراجع طبيبك بأمان.",
+        "en": "If you suspect your prescription medicine is causing weight gain, never stop taking it on your own. Learn how treatments affect weight and how to consult your doctor."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "تم تحديث الدليل وتوسيعه لمراجعة أسباب زيادة الوزن مع الأدوية وكيفية التنسيق مع الطبيب بأمان، مع إعادة التدقيق الطبي.",
+            "en": "Expanded into a comprehensive cited guide on medicine-related weight changes and safe clinician coordination, with medical re-review."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "short-answer-never-stop",
+          "heading": {
+            "ar": "الإجابة الطبية المباشرة: ما توقفش علاجك من نفسك أبداً",
+            "en": "The direct clinical answer: never stop your medicine on your own"
+          },
+          "body": {
+            "ar": "لو حسيت إن وزنك بدأ يزيد بعد ما بدأت دواء جديد، أول نصيحة طبية لازم تسمعها هي: ما توقفش الدواء من دماغك خالص. الوقف المفاجئ لأدوية كتير ممكن يسبب انتكاسة صحية شديدة أو أعراض انسحاب خطيرة تفوق بكتير أثر الكيلوجرامات الزائدة. مثلاً، لو وقفت أدوية الكورتيزون فجأة، ده ممكن يعمل قصور حاد في الغدة الكظرية وهبوط في الضغط، ولو وقفت علاجات الاكتئاب أو القلق فجأة، ممكن تظهر أعراض انتكاسة نفسية واضطرابات في النوم ومشاعر قلق متزايدة. نفس الكلام بينطبق على علاجات الضغط والسكري والصرع، لأن التوقف العشوائي بيعرض أعضاءك الحيوية لمخاطر كبيرة [1, 2, 4, 6].\n\nكمان لازم تعرف إن زيادة الوزن مش بالضرورة تكون بسبب الدواء لوحده؛ وارد جداً تكون الزيادة دي حصلت بالصدفة في نفس التوقيت بسبب تغير في نظام أكلك، أو قلة حركتك بسبب التعب أو المرض اللي بتاخد علشانه العلاج، أو احتباس سوائل مؤقت. الطبيب المعالج هو الشخص الوحيد اللي يقدر يراجع حالتك ويحدد هل الدواء ده هو المتهم الحقيقي ولا فيه عامل تاني. خطتك الصح هي إنك تكتب ملاحظاتك ومخاوفك وتتكلم مع طبيبك بهدوء، عشان توازنوا سوا بين الفائدة العلاجية اللي بيقدمها الدواء لصحتك وبين الآثار الجانبية، وساعتها ممكن يقلل الجرعة، أو يغيّر توقيت القرص، أو يدورلك على بديل آمن مش بيزوّد الوزن خالص [1, 2, 4, 6].",
+            "en": "If you feel that your weight started climbing after beginning a new prescription, the primary clinical rule is simple: never stop your medicine on your own. Abruptly quitting many prescribed drugs can trigger severe disease relapses or dangerous withdrawal reactions that far outweigh the cosmetic or metabolic impact of a few extra kilograms. For instance, stopping corticosteroids suddenly can precipitate acute adrenal insufficiency and dangerous blood pressure drops, while abruptly halting antidepressants or anxiolytics can cause acute discontinuation symptoms, insomnia, and worsening emotional distress. The same caution applies to blood pressure, diabetes, and epilepsy medications, where sudden interruption exposes vital organs to severe hazards [1, 2, 4, 6].\n\nIt is also crucial to recognise that weight gain may not be driven by the drug alone. The change often coincides with shifts in eating habits, reduced physical activity due to the illness being treated, or temporary fluid retention. Your prescribing clinician is the only person qualified to evaluate your overall health and determine whether the pharmaceutical agent is truly responsible or if another concurrent factor is at play. The correct strategy is to record your observations and consult your doctor calmly to weigh the therapeutic benefits against potential side effects; your physician can then safely adjust the dosage, modify the administration timing, or switch you to a weight-neutral alternative [1, 2, 4, 6]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "mechanisms-of-weight-gain",
+          "heading": {
+            "ar": "إزاي الأدوية بتزوّد الوزن؟ الطرق الحيوية وراء التغيير",
+            "en": "How medicines cause weight gain: the biological mechanisms"
+          },
+          "body": {
+            "ar": "الأدوية مش بتخلق دهون من الهوا، لكنها بتأثر في كيمياء الجسم والمسارات الحيوية بطرق مختلفة بتخلي كفة ميزان الطاقة تميل نحو التخزين. أول وأشهر آلية هي فتح الشهية وزيادة الإحساس بالجوع؛ بعض العلاجات بتأثر بشكل مباشر في مراكز الشبع والجوع في المخ، فتلاقي نفسك جعان طول الوقت، أو بتشتهي أكلات معينة غنية بالنشويات والسكريات، وبتاكل وجبات أكبر من غير ما تحس بالشبع المعتاد. ده بيخلي مدخول السعرات اليومية يزيد تدريجياً، ومع الوقت بيتراكم على شكل دهون في أنسجة الجسم [1, 2, 10].\n\nالآلية التانية هي تقليل معدل الحرق اليومي أو التسبب في الخمول والنعاس. بعض الأدوية، زي بعض مضادات الحساسية المهدئة، أو مهدئات الأعصاب، أو بعض حاصرات بيتا القديمة للضغط، ممكن تسبب إحساساً بالتعب أو بطء النبض والخمول البدني. لما تكون دايخ وكسلان، حركتك العفوية وخطواتك اليومية بتقل جداً، فصرف السعرات بيقل حتى لو أكلك فضل زي ما هو [1, 8, 10].\n\nالآلية التالتة هي احتباس السوائل وتراكم الأملاح في الأنسجة؛ بعض الأدوية بتخلي الكلى تحتفظ بالصوديوم والمياه، وده بيظهر كرقم كبير وسريع على الميزان وتورم في الرجلين، وده مش دهون خالص بل سوائل محبوسة. وأخيراً، فيه أدوية بتأثر على أيض الجلوكوز وتخزين الدهون في الخلايا، زي الأنسولين أو السلفونيل يوريا، اللي بيساعدوا الخلايا تمتص السكر من الدم بكفاءة، فلو الأكل مش محسوب، السكر ده بيتخزن كطاقة دهنية [1, 2, 10].",
+            "en": "Medications do not generate body fat out of thin air; rather, they alter bodily chemistry and metabolic pathways in ways that shift the overall energy balance toward storage. The first and most prevalent mechanism is appetite stimulation. Certain pharmaceutical compounds directly interact with hunger and satiety centres in the central nervous system, making you feel persistently hungry or triggering intense cravings for carbohydrate-dense and sugary foods, leading to larger meal portions without typical fullness cues. Over time, this elevated caloric intake accumulates as adipose tissue [1, 2, 10].\n\nA second mechanism involves decreased daily energy expenditure or drug-induced lethargy and sedation. Several medications—including sedating antihistamines, psychiatric tranquilizers, and certain older beta-blockers used for cardiovascular disease—can cause fatigue, a slower heart rate, or daytime drowsiness. When you feel chronically tired, your spontaneous non-exercise movement drops markedly, reducing total daily energy burn even if your dietary portion sizes remain identical [1, 8, 10].\n\nA third distinct mechanism is fluid retention and sodium reabsorption. Specific drugs prompt the kidneys to retain extra sodium and water, which reflects as an abrupt jump on the bathroom scale and visible puffiness in the lower limbs; this represents fluid volume rather than adipose tissue. Lastly, treatments like insulin and sulfonylureas improve glucose uptake into tissues so effectively that any excess dietary energy is readily cleared from the bloodstream and deposited into fat stores [1, 2, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "common-medication-classes",
+          "heading": {
+            "ar": "أشهر مجموعات الأدوية المرتبطة بزيادة الوزن في الممارسة السريرية",
+            "en": "Common medication classes associated with weight gain in clinical practice"
+          },
+          "body": {
+            "ar": "فيه مجموعات دوائية معروفة في المراجع الطبية باحتمالية تأثيرها على الوزن، ومع ذلك استجابة كل مريض بتختلف تماماً عن غيره؛ مش كل شخص بياخد الدواء ده هيزيد في الوزن حتماً. أول مجموعة هي الكورتيزونات الجهازية، زي بريدنيزولون وأقراص وحقن الكورتيزون التانية؛ الأدوية دي بتفتح الشهية بشكل ملحوظ، وبتحبس الصوديوم والمياه، ومع الاستخدام الطويل بتعمل إعادة توزيع للدهون بحيث تتركز في الوش والرقبة والبطن. المريض بيلاحظ زيادة سريعة في المقاسات وامتلاء الوجنتين مع استمرار العلاج بجرعات عالية [1, 6, 7, 10].\n\nالمجموعة التانية هي أدوية الصحة النفسية والأعصاب؛ بتشمل بعض مضادات الاكتئاب، زي ميرتازابين اللي معروف عنه إنه بيزود الرغبة في الأكل والنوم، ومضادات الاكتئاب ثلاثية الحلقات، بالإضافة لمضادات الذهان زي أولانزابين وكلوزابين وريسبيريدون، اللي بتأثر بقوة في مراكز الشهية وأيض الدهون. كمان بعض مثبتات المزاج زي الليثيوم وفالبروات الصوديوم، وعلاجات آلام الأعصاب والصرع زي جابابنتين، بترتبط بزيادة الشهية والوزن عند نسبة من المرضى [1, 4, 5, 9, 10].\n\nالمجموعة التالتة هي بعض علاجات السكري وأمراض القلب؛ حقن الأنسولين وأقراص السلفونيل يوريا بتحسن امتصاص السكر وبتمنع فقدانه في البول، وده بيحتاج ضبط دقيق لكميات الأكل عشان الوزن ما يزيدش. ومن أدوية الضغط، بعض حاصرات بيتا القديمة، زي أتينولول وميتوبرولول، ممكن تقلل معدل الأيض وتزود الوزن بمقدار طفيف، بينما حاصرات قنوات الكالسيوم ممكن تعمل تورم في الكاحلين بسبب توسيع الأوعية مش دهون حقيقية. برضه بعض أقراص منع الحمل الهرمونية ممكن تسبب احتباس سوائل بسيط عند بداية استخدامها [1, 2, 8, 10].",
+            "en": "Several medication classes are recognised in clinical guidelines for their potential to influence body weight, although individual patient responses vary widely; not everyone prescribed these agents will gain weight. The first prominent class is systemic corticosteroids, such as oral prednisolone and steroid injections. These potent anti-inflammatory agents noticeably stimulate appetite, promote sodium and water retention, and with prolonged courses lead to central fat redistribution around the face, neck, and abdomen, often presenting as full cheeks and abdominal prominence [1, 6, 7, 10].\n\nA second major group encompasses psychiatric and neurological medications. This includes specific antidepressants like mirtazapine, which is well known for increasing appetite and causing drowsiness, tricyclic antidepressants, and second-generation antipsychotics such as olanzapine, clozapine, and risperidone, which strongly impact hypothalamic appetite circuits and metabolic regulation. Mood stabilizers like lithium and sodium valproate, alongside nerve pain and anticonvulsant drugs like gabapentin, are also documented to increase hunger and weight in susceptible individuals [1, 4, 5, 9, 10].\n\nA third category involves specific diabetes and cardiovascular therapies. Injectable insulin and sulfonylurea oral agents restore effective glucose utilization and eliminate glycosuria, necessitating attentive dietary portion control to avoid surplus fat deposition. Among antihypertensive drugs, older beta-blockers such as atenolol and metoprolol can modestly slow metabolic expenditure, whereas calcium channel blockers may induce ankle swelling via vascular vasodilation rather than genuine adipose tissue. Additionally, certain hormonal contraceptive pills can induce mild fluid retention during the initial treatment cycles [1, 2, 8, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "fat-versus-fluid-retention",
+          "heading": {
+            "ar": "دهون ولا مياه؟ إزاي تفرق بين السوائل المحبوسة والوزن الحقيقي",
+            "en": "Fat versus fluid retention: how to tell water accumulation from real tissue"
+          },
+          "body": {
+            "ar": "نقطة جوهرية لازم تركز فيها لما تلاقي الميزان بيتحرك بسرعة: هل الزيادة دي دهون حقيقية ولا احتباس سوائل ووذمة؟ تراكم دهون الجسم عملية بيولوجية بتحتاج وقت وأسابيع عشان تتكون، لأن كل كيلوجرام دهون بيعادل فائضاً كبيراً من السعرات الحرارية المستهلكة. بالتالي، لو لقيت وزنك نط فجأة 2 أو 3 كيلو في يومين أو تلاتة بس، صعب جداً يكون دهون بس؛ الاحتمال الأكبر إن جسمك بيحبس مياه وسوائل في الأنسجة، وده بيتطلب فحصاً طبياً مختلفاً تماماً [2, 10, 11].\n\nهتلاحظ علامات احتباس السوائل بوضوح لو بصيت على رجليك وكاحليك؛ لما تلاقي الحذاء أو الشراب بيسيب علامة حفر غائرة في الجلد بتفضل ثواني بعد ما تضغط عليها، أو الخواتم بقت ضيقة فجأة على صوابعك، فده دليل وذمة وارتشاح سوائل. بعض الأدوية، زي مسكنات الالتهاب أو الكورتيزون أو بعض أدوية الضغط، بتساعد في تجمع السائل ده. لو عايز تقرأ تفاصيل أكتر عن إزاي تتأكد من قراءة الميزان والعلامات التحذيرية، راجع دليلنا عن زيادة الوزن المفاجئة من غير تفسير عشان تفهم إمتى تكون السوائل علامة على مشكلة في القلب أو الكلى أو الكبد [2, 10, 11].\n\nالعلامات الحمراء اللي ما تستناش معاها خالص بتشمل: زيادة سريعة ومفاجئة في الوزن مصحوبة بنهجان أو ضيق في التنفس خصوصاً وإنت نايم على ضهرك، أو تورم شديد ممتد في الساقين، أو ألم وضغط في الصدر، أو قلة ملحوظة في كمية البول اليومية. الأعراض دي مش مجرد زيادة وزن عادية، دي إشارات بتطلب تقييماً طبياً عاجلاً وفورياً لاستبعاد قصور القلب الحاد أو مشاكل الكلى قبل ما تفكر في أي دواء أو حمية [2, 10, 11].",
+            "en": "A vital distinction when evaluating changes on the scale is separating genuine adipose tissue from fluid retention and edema. Accumulating true body fat is a slow biological process requiring weeks of sustained positive caloric balance, as every kilogram of body fat represents thousands of surplus calories. Consequently, an abrupt gain of 2 to 3 kilograms over two or three days is very unlikely to be fat alone; it almost certainly represents fluid expansion in tissue compartments, demanding a totally different clinical assessment [2, 10, 11].\n\nYou can identify peripheral fluid retention by inspecting your feet, ankles, and lower legs. If your shoes or socks leave deep, persistent indentations in the skin after pressure, or if rings suddenly feel tight on your fingers, you are likely experiencing peripheral edema. Various medications—including non-steroidal anti-inflammatory drugs, corticosteroids, and certain calcium channel blockers—can encourage fluid accumulation. For detailed guidance on accurate weighing protocols and red flag signals, explore our guide on sudden unexplained weight gain to recognize when swelling warrants urgent cardiovascular, renal, or hepatic investigation [2, 10, 11].\n\nRed flag symptoms that must never be ignored include rapid weight gain accompanied by shortness of breath (especially when lying flat), extensive progressive lower-limb swelling, chest discomfort, or a noticeable reduction in daily urine output. These manifestations are not routine cosmetic side effects; they represent critical signals requiring immediate urgent medical evaluation to exclude acute heart failure or severe kidney impairment before adjusting medications or altering diets [2, 10, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "زيادة الوزن المفاجئة من غير تفسير",
+                "url": "../articles/qa-sudden-unexplained-weight-gain.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "sudden unexplained weight gain",
+                "url": "../articles/qa-sudden-unexplained-weight-gain.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "coexisting-medical-causes",
+          "heading": {
+            "ar": "أسباب صحية تانية ممكن تحصل مع الدواء وتلخبط التشخيص",
+            "en": "Coexisting medical conditions that can confound medication-related weight gain"
+          },
+          "body": {
+            "ar": "مش كل كيلوجرام بتكسبه بيكون بالضرورة ذنب الدواء الموصوف؛ في ممارستنا كأطباء باطنة، بنشوف كتير مرضى بيتهموا علاجهم الجديد، بينما الفحص والتحاليل بيكشفوا وجود اضطراب صحي كامن ظهر في نفس الوقت أو كان موجوداً من قبل وبدأ يظهر أثره بوضوح. من أشهر الحالات دي كسل وخمول الغدة الدرقية، اللي بيقلل إفراز هرمون الثيروكسين فبيبطئ عمليات الأيض ويسبب زيادة طفيفة في الوزن مع تعب مستمر، وإحساس مفرط بالبرد، وإمساك، وجفاف الجلد. لو شاكك في النقطة دي، تقدر تقرأ دليلنا المتخصص عن خمول الغدة الدرقية وزيادة الوزن عشان تفهم إمتى تكون تحاليل الدم ضرورية ومفيدة [1, 2, 10].\n\nسبب هرموني تاني مهم هو متلازمة كوشينج، اللي بتنتج عن ارتفاع مستويات هرمون الكورتيزول في الجسم لفترات طويلة. المتلازمة دي ممكن تكون ناتجة عن مشكلة داخلية في الغدة النخامية أو الكظرية، لكن السبب الأكثر شيوعاً هو استخدام أدوية الكورتيزون بجرعات عالية لفترات ممتدة. نمط الزيادة هنا بيكون مميز جداً: امتلاء الوجه بشكل دائري، وتراكم الدهون في أعلى الظهر والبطن، مع بقاء الذراعين والساقين نحيفتين، وضعف في العضلات وظهور خطوط بنفسجية عريضة على الجلد وكدمات سريعة. الطبيب بيفرق بين الحالات دي بفحوصات دقيقة [1, 2, 10, 12].\n\nكمان متلازمة تكيس المبايض عند السيدات واضطرابات مقاومة الأنسولين بتعمل بطء في حرق الدهون وزيادة محيط الخصر، وممكن تتزامن مع بداية أدوية تانية. عشان كده تقييم الطبيب الباطني الشامل مهم جداً؛ هو اللي بيقدر يفصل بين أثر الدواء الحقيقي وبين الاضطرابات الهرمونية دي من خلال الفحص السريري والتحاليل الموجهة، بدل ما توقف علاجاً مهماً من غير داعٍ [1, 2, 10, 12].",
+            "en": "Not every extra kilogram is necessarily the fault of your prescribed medication. In clinical internal medicine practice, we often encounter patients who attribute their weight gain entirely to a recently started tablet, only for structured evaluation to reveal an underlying endocrine or metabolic disorder that developed concurrently. A classic example is hypothyroidism, where underactive thyroid hormone secretion slows down basal metabolic rate, causing modest weight gain accompanied by chronic fatigue, heightened cold sensitivity, constipation, and dry skin. If you suspect this connection, explore our specialized guide on hypothyroidism and weight gain to understand when targeted blood testing is warranted [1, 2, 10].\n\nAnother critical endocrine condition is Cushing's syndrome, caused by prolonged exposure to high levels of cortisol. While this can arise endogenously from pituitary or adrenal pathology, the most frequent clinical presentation is iatrogenic—resulting from extended high-dose oral, injectable, or topical corticosteroid therapy. The pattern of weight gain in Cushing's is characteristic: a rounded 'moon' face, fat deposition between the shoulders and across the abdomen, alongside thinning limbs, muscle weakness, easy bruising, and wide violaceous skin striae. Clinicians differentiate these nuances through meticulous clinical examination and targeted hormonal assays [1, 2, 10, 12].\n\nAdditionally, conditions such as polycystic ovary syndrome (PCOS) and systemic insulin resistance impair lipolysis and expand waist circumference, frequently overlapping with the introduction of new treatments. A comprehensive internal medicine consultation separates direct pharmaceutical side effects from coexisting endocrine pathology through rational diagnostics, avoiding the inappropriate discontinuation of vital therapies [1, 2, 10, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "خمول الغدة الدرقية وزيادة الوزن",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "hypothyroidism and weight gain",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "lifestyle-and-routine-interactions",
+          "heading": {
+            "ar": "تفاعل الدواء مع روتينك اليومي: النوم، الأكل، والحركة العفوية",
+            "en": "Interactions with daily routine: sleep, eating patterns, and spontaneous movement"
+          },
+          "body": {
+            "ar": "أوقات كتير الدواء مش بيزوّد الوزن بطريقة كيميائية مباشرة، لكنه بيغيّر روتين يومك وسلوكياتك بشكل غير محسوس. مثلاً، لو العلاج بيخليك تنعس بالنهار أو يسبب دوخة بسيطة، بتلاقي نفسك بتلغي المشي المعتاد، وبتعتمد أكتر على المواصلات، وبتفضل قاعد على الكنبة بالساعات. النقصان ده في النشاط الحركي العفوي اليومي (اللي بيتسمى النشاط اليومي غير التمارين) بيقلل حرق مئات السعرات الحرارية كل أسبوع، وده بيخلق فائضاً تدريجياً بيتحول لدهون [1, 3, 4].\n\nعامل النوم برضه بيلعب دوراً كبيراً جداً؛ لو الدواء بيسبب قلقاً أو أرقاً ليلياً، السهر الطويل بيفتح وقت فراغ للأكل والتسالي بالليل، وبيغيّر توازن هرمونات الجوع زي الجريلين واللبتين، فتصحى تاني يوم مشتهي سكريات وأكلات دسمة عشان تعوّض هبوط طاقتك. ولو عايز تفهم أكتر إزاي جودة وساعات النوم بتأثر على ثبات الميزان ومقاومة الجسم للتخسيس، تقدر تراجع مقالنا عن قلة النوم وثبات الوزن عشان تعرف حلولاً عملية للنوم المنتظم [1, 3, 4].\n\nالتغذية نفسها بتتأثر بتغيير المزاج وتحسن المرض؛ بعض المرضى اللي كانوا بيعانوا من اكتئاب حاد أو قرحة معدة أو مرض مزمن كان عندهم فقدان شهية وضعف شديد قبل العلاج، فلما بدأ الدواء يشتغل وبدأوا يتعافوا، رجعت شهيتهم الطبيعية ولقوا نفسهم بياكلوا كويس، وده بيعتبر علامة تعافي مش أثراً ضاراً. ومع ذلك، المبادئ التوجيهية بتنصح بوضع خطة تغذية واضحة مع أخصائي تغذية علاجية عشان الزيادة تكون محسوبة وصحية وتدعم العضلات مش مجرد تراكم دهون ضارة [1, 3, 4].",
+            "en": "In many scenarios, pharmaceuticals do not induce weight gain through isolated chemical pathways; rather, they subtly modify daily habits, routine, and unconscious behaviors. For example, if a medicine causes daytime somnolence or mild lightheadedness, you may subconsciously reduce daily walking, opt for lifts over stairs, and spend prolonged hours seated. This reduction in non-exercise activity thermogenesis (NEAT) diminishes daily caloric expenditure by hundreds of calories per week, gradually accumulating as adipose tissue [1, 3, 4].\n\nSleep patterns also exert a profound influence on metabolic stability. If a medication disrupts sleep architecture or induces nocturnal restlessness, prolonged wakefulness expands opportunities for late-night snacking. Concurrently, sleep deprivation alters ghrelin and leptin balance, intensifying cravings for energy-dense, refined carbohydrate foods the following morning. To delve deeper into how sleep duration impacts the scale and metabolic rate, consult our detailed analysis on sleep loss and weight plateaus for practical lifestyle modifications [1, 3, 4].\n\nFurthermore, nutritional intake frequently shifts in response to therapeutic recovery. Patients suffering from major depressive disorder, active peptic inflammation, or debilitating systemic illness often present with severe anorexia and involuntary weight loss prior to treatment; as pharmacotherapy successfully restores mental health and somatic comfort, appetite returns toward baseline. This rebound in oral intake reflects clinical recovery rather than an adverse reaction. Nonetheless, established obesity guidelines recommend structured dietary support from a clinical nutritionist to ensure weight restoration remains healthy and lean-mass supporting [1, 3, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "قلة النوم وثبات الوزن",
+                "url": "../articles/qa-sleep-weight-plateau.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "sleep loss and weight plateaus",
+                "url": "../articles/qa-sleep-weight-plateau.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "safe-doctor-review-and-booking",
+          "heading": {
+            "ar": "إزاي طبيبك بيتعامل مع المشكلة؟ خطوات المراجعة الآمنة والتجهيز للعيادة",
+            "en": "How your doctor addresses the problem: safe review steps and clinic preparation"
+          },
+          "body": {
+            "ar": "لما تتكلم مع طبيبك المعالج أو تزور عيادة الباطنة العامة، الدكتور مش هيقولك سيب الدواء وخلاص؛ هو بيستخدم خيارات طبية مدروسة ومنظمة عشان يحميك. الخيار الأول هو تقييم الجرعة الحالية؛ أحياناً تقليل الجرعة للحد الأدنى الفعال علاجياً بيكون كافياً لتخفيف فتح الشهية أو احتباس السوائل. الخيار التاني هو تعديل ميعاد تناول الدواء، زي أخذه مع وجبة رئيسية مشبعة أو قبل النوم لتفادي نوبات الجوع النهاري. والخيار التالت هو التحويل لبديل مكافئ علاجياً من نفس الفئة أو فئة تانية مش بتسبب زيادة الوزن [1, 2, 3, 10].\n\nعشان استشارتك تكون مفيدة ومركزة، جهّز معاك الآتي في ورقة واضحة: قائمة دقيقة بكل الأدوية والمكملات اللي بتاخدها بجرعاتها وتاريخ بدايتها، وميزانك التقريبي قبل وبعد بداية العلاج، وتسجيل لأي أعراض تانية ظهرت زي التورم أو الخمول أو تغيرات النوم. الطبيب هيقوم بفحص الضغط، وفحص الساقين لاستبعاد الوذمة، وطلب تحاليل وظائف الكلى والكبد والغدة الدرقية والسكر لو لزم الأمر للتأكد من سلامتك [1, 2, 3, 10].\n\nلو حاسس بحيرة أو بتعاني من تغير مفاجئ في وزنك ومحتاج تقييماً باطنياً متخصصاً يراجع أدويتك ويعمل فحصاً دقيقاً ويحطلك خطة تغذية متكاملة، تقدر تتواصل مع المركز الطبي وتعمل حجز موعد استشارة طبية عشان تراجع كل أدويتك مع طبيب الباطنة والتغذية وتوصل للحل الأنسب لصحتك بأمان [1, 2, 3, 10].",
+            "en": "When you consult your treating physician or an internal medicine clinic, the doctor will not simply advise you to abandon treatment; instead, structured clinical strategies are employed to safeguard your health. The first option is re-evaluating the dosage; lowering the dose to the lowest effective therapeutic threshold is often sufficient to minimize appetite stimulation or fluid buildup. The second option involves adjusting administration timing, such as taking the dose with a substantial satiating meal or at bedtime to bypass daytime snacking triggers. The third strategy is transitioning to an evidence-based, weight-neutral alternative within the same therapeutic class [1, 2, 3, 10].\n\nTo make your consultation as productive as possible, prepare a concise log: record the exact names, dosages, and start dates of all prescription medications and over-the-counter supplements, your approximate baseline weight before starting treatment, and any new physical observations like swelling, fatigue, or altered sleep patterns. Your doctor will conduct a targeted physical exam, assess for peripheral edema, and order rational baseline laboratory tests—such as kidney function, liver panels, blood glucose, and thyroid levels—if clinically indicated [1, 2, 3, 10].\n\nIf you are feeling uncertain or experiencing unexpected weight changes and require a thorough clinical review of your regimen combined with structured nutritional guidance, you can contact our center to book an in-person medical consultation to review all your prescriptions with an internal medicine specialist and determine the safest path forward [1, 2, 3, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حجز موعد استشارة طبية",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book an in-person medical consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "ينفع أفوّت جرعة الدواء يوم بعد يوم عشان وزني ما يزيدش؟",
+            "en": "Can I skip my medicine dose every other day to prevent weight gain?"
+          },
+          "a": {
+            "ar": "إياك تعمل كده خالص! تفويت الجرعات العشوائي بيخلي تركيز الدواء في دمك غير مستقر، وده بيفقد العلاج فاعليته الطبية تماماً وممكن يرجع المرض الأساسي بشكل أشد. كمان تفويت الجرعات مش بيمنع زيادة الوزن بل بيعرضك لأعراض انسحاب مزعجة، والحل السليم هو التنسيق مع طبيبك لتعديل الجرعة بأسلوب علمي أو تغيير الدواء لبديل آمن [4, 6].",
+            "en": "Never do this! Randomly skipping doses causes unstable drug concentrations in your bloodstream, stripping the medication of its therapeutic efficacy and risking severe rebound flare-ups of your underlying condition. Moreover, skipping doses does not reliably prevent weight gain and exposes you to distressing withdrawal effects; the only safe solution is working with your doctor to formally adjust the regimen or select an alternative [4, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "زيادة الوزن بسبب الأدوية بتظهر في خلال قد إيه؟",
+            "en": "How quickly does medicine-induced weight gain usually appear?"
+          },
+          "a": {
+            "ar": "المدة بتعتمد بشكل أساسي على نوع الزيادة؛ لو الزيادة ناتجة عن احتباس سوائل ومياه، ممكن تلاحظ قفزة سريعة على الميزان وتورماً في الكاحلين خلال أيام أو أسبوعين من بداية العلاج. أما لو الزيادة ناتجة عن فتح الشهية وتراكم الدهون، فهي بتتطور بالتدريج وببطء على مدار عدة أسابيع أو شهور مع زيادة كميات الأكل وقلة الحركة [2, 10, 11].",
+            "en": "The timeline depends primarily on the underlying physiological mechanism. If the weight change is driven by fluid retention, you may notice an abrupt jump on the scale and visible ankle swelling within days or a couple of weeks of starting therapy. Conversely, if the gain stems from appetite stimulation and gradual fat accumulation, it develops progressively over several weeks or months alongside increased food intake and reduced energy expenditure [2, 10, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو الدكتور غيّر لي الدواء لبديل تاني، هخس الوزن الزائد تلقائياً؟",
+            "en": "If my doctor switches me to another medicine, will I lose the extra weight automatically?"
+          },
+          "a": {
+            "ar": "لو الزيادة كانت عبارة عن احتباس سوائل ووذمة، فالجسم بيتخلص من السوائل الزائدة بسرعة نسبياً بعد توقف الدواء المسبب تحت إشراف الطبيب. لكن لو الزيادة كانت دهوناً حقيقية تراكمت في الجسم، التخلص منها مش بيحصل تلقائياً؛ هتحتاج تلتزم بنظام غذائي متوازن مع زيادة نشاطك البدني اليومي عشان تحرق الدهون دي تدريجياً وبأمان [1, 2, 3].",
+            "en": "If the extra weight was primarily fluid retention and edema, the body typically sheds the accumulated water relatively quickly once the offending drug is stopped or replaced under clinical supervision. However, if genuine adipose tissue was accumulated, weight loss does not occur automatically; you will need to adopt a structured, balanced nutrition plan and increase daily physical activity to burn off the stored fat gradually and safely [1, 2, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ليه أدوية الكورتيزون زي بريدنيزولون بتزوّد الوزن وتفتح الشهية؟",
+            "en": "Why do corticosteroids like prednisolone increase appetite and weight?"
+          },
+          "a": {
+            "ar": "الكورتيزونات بتأثر في هرمونات الجسم ومراكز المخ؛ هي بتفتح الشهية بشكل مباشر، وبترفع مستويات السكر في الدم فبتزود إفراز الأنسولين وتخزين الدهون، وكمان بتخلي الكلى تحتفظ بالصوديوم والمياه. ومع الاستمرار لفترات طويلة بجرعات عالية، بتعيد توزيع الدهون نحو البطن والوجه وأعلى الظهر، وده بيتطلب متابعة طبية دقيقة وتجنب الوقف المفاجئ للعلاج [1, 6, 7, 12].",
+            "en": "Corticosteroids exert multi-system metabolic effects: they directly stimulate central appetite centres, elevate blood glucose levels—thereby promoting insulin secretion and fat storage—and prompt renal sodium and water reabsorption. With extended high-dose regimens, they also redistribute adipose tissue toward the face, trunk, and upper back, requiring meticulous clinical oversight and strict avoidance of abrupt discontinuation [1, 6, 7, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ينفع آخد مدر بول من الصيدلية من نفسي لو حسيت بتورم في رجلي؟",
+            "en": "Can I take an over-the-counter diuretic if my legs feel swollen after starting a medicine?"
+          },
+          "a": {
+            "ar": "أوعى تعمل كده أبداً؛ أخذ مدرات البول من غير وصفة طبية خطير جداً وممكن يسبب جفافاً حاداً، وهبوطاً في ضغط الدم، واضطراباً في أملاح الدم زي البوتاسيوم والصوديوم، وممكن يضر الكلى. لازم الدكتور يفحص رجليك وقلبك وكليتك الأول عشان يعرف سبب السائل ويحدد العلاج الآمن [2, 11].",
+            "en": "Never take unprescribed diuretics. Taking water pills without medical supervision is hazardous and can precipitate acute dehydration, severe blood pressure drops, electrolyte imbalances (such as abnormal potassium or sodium levels), and renal strain. A physician must evaluate your cardiovascular and renal systems first to identify the root cause of the edema and prescribe appropriate therapy safely [2, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل كل مضادات الاكتئاب بتزوّد الوزن بنفس الدرجة؟",
+            "en": "Do all antidepressants cause weight gain to the same extent?"
+          },
+          "a": {
+            "ar": "لا خالص، مضادات الاكتئاب بتختلف جداً في تأثيرها على الشهية والأيض. بعض الأنواع زي ميرتازابين ومضادات الاكتئاب ثلاثية الحلقات بترتبط باحتمالية أعلى لفتح الشهية وزيادة الوزن، بينما أنواع تانية بتعتبر محايدة نسبياً للوزن، وبعض الأدوية ممكن تسد الشهية طفيفاً في البداية. عشان كده الطبيب النفسي بيقدر يختار الدواء الأنسب لظروفك الصحية [1, 4, 5].",
+            "en": "Not at all; antidepressants differ substantially in their receptor binding profiles and metabolic effects. Specific agents like mirtazapine and tricyclic antidepressants carry a higher propensity for appetite stimulation and weight gain, whereas other modern classes are generally weight-neutral, and some medications may even suppress appetite initially. Your doctor can select the agent best aligned with your clinical and metabolic profile [1, 4, 5]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) — Factors Affecting Weight & Health (2023).",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/factors-affecting-weight-health"
+        },
+        {
+          "label": "MedlinePlus Medical Encyclopedia — Weight gain - unintentional (2024).",
+          "url": "https://medlineplus.gov/ency/article/003084.htm"
+        },
+        {
+          "label": "National Institute for Health and Care Excellence (NICE) — Obesity: identification, assessment and management (Clinical Guideline CG189, updated 2023).",
+          "url": "https://www.nice.org.uk/guidance/cg189"
+        },
+        {
+          "label": "NHS — Antidepressants: Side effects (2024).",
+          "url": "https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/medicines-and-psychiatry/antidepressants/side-effects/"
+        },
+        {
+          "label": "NHS — Side effects of mirtazapine (2024).",
+          "url": "https://www.nhs.uk/medicines/mirtazapine/side-effects-of-mirtazapine/"
+        },
+        {
+          "label": "NHS — Steroids (2023).",
+          "url": "https://www.nhs.uk/conditions/steroids/"
+        },
+        {
+          "label": "NHS — Prednisolone tablets and liquid: steroid medicine (2024).",
+          "url": "https://www.nhs.uk/medicines/prednisolone/"
+        },
+        {
+          "label": "NHS — Beta blockers (2024).",
+          "url": "https://www.nhs.uk/medicines/beta-blockers/"
+        },
+        {
+          "label": "NHS — Side effects of gabapentin (2024).",
+          "url": "https://www.nhs.uk/medicines/gabapentin/side-effects-of-gabapentin/"
+        },
+        {
+          "label": "Cleveland Clinic — Unexplained Weight Gain & Causes of Rapid Weight Gain (2024).",
+          "url": "https://my.clevelandclinic.org/health/symptoms/unexplained-weight-gain"
+        },
+        {
+          "label": "MedlinePlus — Edema (2024).",
+          "url": "https://medlineplus.gov/edema.html"
+        },
+        {
+          "label": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) — Cushing's Syndrome (2024).",
+          "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/cushings-syndrome"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "زيادة الوزن",
+          "آثار الأدوية",
+          "مراجعة العلاج",
+          "دكتور باطنة"
+        ],
+        "en": [
+          "weight gain",
+          "medicine side effects",
+          "treatment review",
+          "internal medicine consultation"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "دواء بيزوّد الوزن: توقفه ولا تتصرف إزاي؟",
+          "en": "Medicine causing weight gain: should you stop it?"
+        },
+        "description": {
+          "ar": "لو حاسس إن دوائك بيزوّد وزنك ما توقفوش من نفسك أبداً. اعرف إزاي الأدوية بتأثر في الشهية والمياه، وإمتى تكون الزيادة سوائل، وخطوات مراجعة طبيبك بأمان.",
+          "en": "If you think your medicine is causing weight gain, never stop it yourself. Learn how drugs affect appetite and fluid, and how to review it safely."
+        }
+      }
+    }
+  ]
+}

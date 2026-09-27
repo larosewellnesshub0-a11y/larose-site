@@ -1,0 +1,340 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of weight-management-first-visit; replaces the entry from content/articles-weight-management-first-visit-rewrite-2026-09-21.json. Expanded the bilingual first-visit guide with a fuller assessment pathway, safety guidance, aligned internal links, verified sources, and medical re-review.",
+  "articles": [
+    {
+      "slug": "weight-management-first-visit",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "weight-management",
+      "specialties": [
+        "weight-management",
+        "clinical-nutrition",
+        "internal-medicine"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/weight-visit-cover.webp",
+      "title": {
+        "ar": "أول زيارة لإدارة الوزن: إيه اللي بيحصل خطوة بخطوة؟",
+        "en": "A first weight-management visit: what happens step by step?"
+      },
+      "excerpt": {
+        "ar": "أول زيارة لإدارة الوزن مش مجرد رقم على الميزان. اعرف إيه اللي بيتسأل وبيتقاس، إمتى التحاليل تفيد، وإزاي تجهز لتقييم يحترم صحتك وظروفك.",
+        "en": "A first weight-management visit is more than a number on the scale. Learn what is discussed and measured, when tests help, and how to prepare for an assessment shaped around your health and circumstances."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّع الدليل بشرح أدق للتقييم والقياسات والتحاليل والخطة وعلامات الخطر في أول زيارة، واتراجع طبياً من جديد.",
+            "en": "The guide was expanded with clearer detail on assessment, measurements, tests, planning and warning signs at a first visit, and was medically re-reviewed."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "permission-and-purpose",
+          "heading": {
+            "ar": "الزيارة بتبدأ بهدفك وإذنك، مش بالميزان",
+            "en": "The visit starts with your goal and permission, not the scale"
+          },
+          "body": {
+            "ar": "أول زيارة لإدارة الوزن المفروض تبدأ بسؤالين واضحين: إيه اللي جابك دلوقتي، وهل مناسب نتكلم عن الوزن؟ طلب الإذن مش مجاملة شكلية؛ إرشادات NICE بتوصي إن الكلام والقياسات يحصلوا بعد موافقة الشخص، وبأسلوب حساس من غير لوم أو اختزال كل شكوى في الوزن. لو عندك ألم، تعب أو عرض تاني، الطبيب لازم يسمعه ويقيّمه بدل ما يفترض تلقائياً إن الميزان هو السبب [1].\n\nهدفك ممكن يكون تحسين السكر أو الضغط، حركة أسهل، نوم أحسن، تقليل ألم المفاصل، حماية العضلات، أو فهم زيادة حصلت من غير سبب واضح. وممكن تكون لسه مش جاهز لتغيير كبير. نموذج الـ5As بيبدأ بالسؤال والتقييم، وبعدها نصيحة متفق عليها ومساعدة عملية؛ يعني القرار بيتبني معاك، مش بيتقال لك في صورة محاضرة جاهزة. خبراتك السابقة مهمة، حتى لو النتيجة ما استمرتش، لأنها بتوضح إيه اللي ساعد وإيه اللي عطّل الخطة [3].\n\nكمان من حقك تقول إن الوقوف على الميزان بيسبب لك ضغط، أو تطلب معرفة ليه قياس معيّن مطلوب وإزاي هيغيّر القرار. ممكن القياس يفضل مهماً طبياً، لكن شرحه واحترام خصوصيتك جزء من الرعاية. الزيارة النافعة ما بتقيسش الالتزام من شكلك، وما بتعتبرش إنك فشلت؛ هي بتحاول تفهم عوامل صحية وبيولوجية ونفسية واجتماعية بتأثر في الوزن وفي قدرتك على المتابعة [1, 2, 8].",
+            "en": "A first weight-management visit should begin with two questions: what brought you now, and is it all right to discuss weight? NICE recommends asking permission before weight discussions and measurements, using sensitive language and avoiding the assumption that every complaint is caused by weight. Pain, fatigue or another symptom deserves assessment rather than automatic attribution to the scale [1].\n\nYour goal may be better glucose or blood pressure, easier movement, improved sleep, less joint pain, muscle protection, or explaining a change that does not make sense. You may not be ready for a major change. The 5As approach begins by asking and assessing, then moves to agreed advice and practical help. Decisions are built with you. Earlier attempts matter even when their effects did not last because they show what helped and what obstructed the plan [3].\n\nYou can explain that weighing is stressful, or ask why a measurement is needed and how it may change a decision. The measurement may still help, but explanation and privacy are part of care. A useful visit does not judge commitment from appearance or label an earlier attempt as failure. It considers health, biological, psychological and social factors that affect weight and continuing care [1, 2, 8]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "health-and-weight-story",
+          "heading": {
+            "ar": "القصة الصحية أهم من يوم أكل مثالي",
+            "en": "Your health story matters more than a perfect food day"
+          },
+          "body": {
+            "ar": "بعد تحديد الهدف، الطبيب أو مختص التغذية بيسأل عن اتجاه الوزن على مدار السنين، وإمتى حصلت الزيادة أو النزول، وهل التغيير كان تدريجي ولا سريع. هيتسأل كمان عن المحاولات السابقة: كانت إيه، استمرت قد إيه، هل سببت جوعاً شديداً أو دوخة، وإيه اللي حصل لما توقفت. المطلوب وصف صادق، مش إجابة نموذجية. يوم عادي من الأكل والشرب والنوم والحركة أفيد من يوم متظبط مخصوص قبل الموعد [2, 5].\n\nالتاريخ الطبي بيشمل السكر والضغط والدهون والكبد، مشاكل التنفس أثناء النوم، آلام المفاصل، اضطرابات الغدة لو فيه أعراض، والحالة النفسية أو علاقة صعبة بالأكل. الطبيب ممكن يسأل عن نوبات أكل بفقدان السيطرة، تقييد شديد، قيء متعمد أو خوف مسيطر من الوزن؛ الأسئلة دي عشان الأمان واختيار المسار المناسب، مش للحكم. النوم، الشغل بنظام ورديات، الضغط النفسي، التدخين، ومقدار الحركة في اليوم ممكن يغيّروا الخطة [2, 13].\n\nخد معاك أسماء الأدوية والمكملات والجرعات، مش مجرد شكل العلبة. أدوية مختلفة ممكن تأثر في الشهية أو السوائل أو الوزن، لكن ما توقفش دواء من نفسك. التاريخ العائلي للسكري وأمراض القلب، وأي حمل أو تخطيط له لو ده ينطبق، كمان بيغيروا اختيار الفحوص أو العلاج. ولو عندك شك في الغدة، صفحة زيادة الوزن وكسل الغدة الدرقية بتشرح إمتى تحليل TSH يفيد من غير ما نفترض إن الغدة سبب كل زيادة [2, 11].",
+            "en": "The clinician asks how weight changed over the years, when gains or losses occurred, and whether a change was gradual or rapid. Earlier attempts are reviewed: what they involved, how long they lasted, whether they caused severe hunger or dizziness, and what happened afterward. An ordinary day of food, drink, sleep and movement is more useful than a specially perfected day before the appointment [2, 5].\n\nHistory covers glucose, blood pressure, lipids and liver health, breathing during sleep, joint pain, thyroid concerns when symptoms support them, mental health and a difficult relationship with food. The clinician may ask about loss-of-control eating, severe restriction, self-induced vomiting or overwhelming fear of weight. These safety questions are not judgement. Sleep, shift work, stress, smoking and everyday movement can alter the plan [2, 13].\n\nBring medicine and supplement names and doses. They can affect appetite, fluid or weight, but do not stop one yourself. Family history of diabetes or cardiovascular disease, and pregnancy or pregnancy planning where relevant, may change tests or treatment. If thyroid function is a concern, Weight gain and hypothyroidism explains when TSH testing helps without assuming the thyroid causes every gain [2, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "زيادة الوزن وكسل الغدة الدرقية",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Weight gain and hypothyroidism",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "measurements-in-context",
+          "heading": {
+            "ar": "إيه اللي بيتقاس، وإيه اللي الرقم ما يقدرش يقوله؟",
+            "en": "What is measured, and what can the number not tell you?"
+          },
+          "body": {
+            "ar": "الطول والوزن بيسمحوا بحساب مؤشر كتلة الجسم (BMI)، وهو أداة فحص بتربط الوزن بالطول. لكنه مش تشخيص لوحده، وما بيفرقش مباشرة بين الدهون والعضلات أو يشرح توزيع الدهون. CDC بتأكد إن الـBMI مؤشر واحد لازم يتقري مع عوامل صحية تانية. عشان كده الرقم بيساعد في فتح أسئلة، لكنه ما يختصرش صحتك ولا يحدد العلاج بمفرده [4].\n\nإرشادات NICE بتوصي بقياس محيط الخصر عند البالغين اللي الـBMI عندهم أقل من 35 عشان يتحسب معدل الخصر للطول؛ القياس بيدي معلومة إضافية عن الدهون المركزية. ضغط الدم مهم برضه لأن ارتفاعه غالباً ما بيسببش أعراض واضحة. القياسات لازم تتعمل بأداة مناسبة ووضع صحيح، ولو الكُف مش مناسب للذراع فالقراءة ممكن تتأثر. الطبيب ممكن يكرر قراءة مرتفعة أو يرتب قياسات لاحقة بدل تشخيص من رقم واحد [1, 13].\n\nلو فيه تحليل تركيب جسم زي InBody، ممكن يضيف تقديرات للدهون والكتلة الخالية من الدهون والمياه، لكن النتيجة بتتأثر بالترطيب والأكل والتمرين والتوقيت، ومش بديل عن التاريخ والفحص. قارن على نفس الجهاز وفي ظروف متشابهة لو الطبيب شايف القياس مفيد. دليل رعاية السمنة أكبر من مؤشر BMI بيوسع الفكرة: اتنين بنفس الرقم ممكن يكون عندهم مخاطر وأولويات مختلفة تماماً، فالصحة والوظيفة والأعراض أهم من مطاردة تصنيف واحد [2, 7].",
+            "en": "Height and weight allow calculation of body mass index (BMI), a screening tool that relates weight to height. It is not a diagnosis by itself and does not directly distinguish fat from muscle or show fat distribution. The CDC describes BMI as one indicator that must be considered with other health factors. It can open useful questions, but it cannot summarise your health or select treatment on its own [4].\n\nNICE recommends measuring waist circumference in adults with a BMI below 35 so that waist-to-height ratio can be calculated, adding information about central adiposity. Blood pressure also matters because high readings often cause no obvious symptoms. Measurements need suitable equipment and positioning; a cuff that does not fit the arm may affect the result. A clinician may repeat a high reading or arrange later measurements rather than diagnose from one number [1, 13].\n\nIf body-composition analysis such as InBody is available, it may add estimates of fat, fat-free mass and water. Hydration, food, exercise and timing can alter the result, however, and it cannot replace history and examination. Compare on the same device under similar conditions when the clinician considers the measurement useful. Obesity care goes beyond BMI develops the central point: two people with the same number can have very different risks and priorities, so health, function and symptoms matter more than chasing one category [2, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "رعاية السمنة أكبر من مؤشر BMI",
+                "url": "../articles/obesity-care-beyond-bmi.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Obesity care goes beyond BMI",
+                "url": "../articles/obesity-care-beyond-bmi.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "tests-are-targeted",
+          "heading": {
+            "ar": "التحاليل بتجاوب عن سؤال، مش باكدج ثابت لكل الناس",
+            "en": "Tests answer a question; there is no fixed panel for everyone"
+          },
+          "body": {
+            "ar": "مش كل شخص محتاج نفس التحاليل في أول زيارة، ومش لازم تكون صايم لمجرد إن عندك موعد. الاختيار بيتبني على السن، التاريخ، الأعراض، القياسات، الأمراض الموجودة، الأدوية، ونتايج سابقة. في تقييم البالغين، الإرشادات الكندية بتشمل قياس ضغط الدم وفحوصاً أساسية زي سكر صايم أو HbA1c، دهون الدم، وإنزيم الكبد ALT، مع فحوص إضافية حسب الاشتباه السريري [2].\n\nتحليل TSH مش اختبار تلقائي لكل زيادة وزن، لكنه ممكن يكون مناسب لو فيه أعراض أو تاريخ يشير لمشكلة في الغدة. نفس الفكرة تنطبق على اختبارات تانية: الطبيب يطلبها لما النتيجة هتجاوب سؤالاً أو تغيّر الخطة. تحليل عشوائي كبير ممكن يطلع اختلافات بسيطة مالهاش معنى، ويعمل قلق أو إعادة فحوص من غير فائدة. ولو عندك تحاليل حديثة، هاتها عشان ما تتكررش من غير داعٍ [2].\n\nاسأل: التحليل ده بيدور على إيه، هل محتاج صيام، وهل دواء أو مكمل ممكن يأثر عليه؟ بعض فحوص الدهون أو السكر قد تحتاج ترتيبات مختلفة حسب المعمل والسؤال الطبي، فخد التعليمات من الجهة المعالجة بدل ما تصوم من نفسك. والنتيجة خارج المدى مش حكم نهائي ولا دليل إنك أهملت؛ الطبيب بيربطها بالأعراض والفحص وباقي الأرقام، وبعدها يقرر هل تتكرر، تتأكد باختبار تاني، أو تدخل في الخطة [2, 13].",
+            "en": "Not everyone needs the same tests at a first visit, and you do not need to fast simply because you have an appointment. Selection depends on age, history, symptoms, measurements, existing conditions, medicines and earlier results. Canadian adult obesity guidance includes blood-pressure measurement and core laboratory assessment such as fasting glucose or HbA1c, a lipid profile and liver enzyme ALT, with additional tests guided by clinical suspicion [2].\n\nTSH is not an automatic test for every weight gain, although it may be appropriate when symptoms or history raise a thyroid question. The same principle applies elsewhere: a clinician orders a test when its result can answer a question or alter the plan. A large untargeted panel can find small variations that have little meaning and lead to anxiety or unnecessary repetition. Bring recent results so that tests are not repeated without a reason [2].\n\nAsk what each test is looking for, whether fasting is required, and whether a medicine or supplement may affect it. Lipid and glucose tests may need different arrangements depending on the laboratory and clinical question, so follow instructions from the treating service rather than fasting on your own. A result outside its reference range is not a final verdict or proof of neglect. The clinician connects it with symptoms, examination and the rest of the results before deciding whether to repeat it, confirm it another way or incorporate it into the plan [2, 13]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "building-the-plan",
+          "heading": {
+            "ar": "الخطة مش ورقة ممنوعات ولا وصفة تلقائية",
+            "en": "The plan is not a banned-food list or an automatic prescription"
+          },
+          "body": {
+            "ar": "نهاية التقييم ممكن تبدأ بخطوة أو اتنين قابلين للتنفيذ، مش تغيير الحياة كلها في يوم واحد. الخطوات ممكن تخص تركيب الوجبات، مواعيد الأكل، حركة تناسب قدرتك، النوم، أو طريقة متابعة بسيطة. البرامج المدعومة بالدليل عادة بتجمع أكتر من عنصر: أهداف واضحة، مساعدة في حل العوائق، متابعة للسلوك والنتايج، ودعم مستمر بدل نصيحة عابرة. USPSTF لقت فائدة من التدخلات السلوكية المكثفة متعددة المكونات للبالغين المصابين بالسمنة، وNIDDK بتوضح إن الخطة الجيدة تتفصل للصحة والتفضيلات والقيم [5, 6].\n\nالهدف ما يلزمش يكون رقم وزن فقط. ممكن تتفقوا على انتظام وجبة، زيادة حركة تدريجية، تحسن ضغط أو سكر، نوم أفضل، أو الحفاظ على القوة أثناء النزول. مقال إزاي تحافظ على العضلات وإنت بتخس؟ بيشرح البروتين والمقاومة والمتابعة بتفصيل أكبر؛ هنا يكفي إن أي عجز غذائي شديد أو ضعف جديد لازم يتراجع، لأن أسرع نزول مش بالضرورة أحسن نتيجة [5, 10].\n\nالدواء مش خطوة افتراضية لكل شخص، ومش بديل للأكل والحركة والدعم السلوكي. لما يكون مناسب، الاختيار بيتأثر بالمؤشرات الصحية، الحالات المصاحبة، الأدوية الأخرى، موانع الاستعمال، الأعراض الجانبية والتفضيلات، وبيتقرر مع الطبيب. والجراحة أو الإحالة لخدمة متخصصة ليهم معايير ومسار منفصل. أول زيارة ممكن تنتهي بجمع معلومات أو طلب فحوص قبل اختيار علاج؛ ده تنظيم للقرار، مش تأخير أو تقصير [2, 9].",
+            "en": "Assessment may end with one or two workable steps, not an attempt to change an entire life in one day. Steps may address meal structure, eating times, movement suited to ability, sleep or a simple monitoring method. Evidence-based programmes generally combine several elements: clear goals, help solving barriers, monitoring of behaviours and outcomes, and continuing support rather than one-off advice. The USPSTF found benefit from intensive multicomponent behavioural interventions for adults with obesity, while NIDDK explains that a sound plan is tailored to health, preferences and values [5, 6].\n\nThe goal does not have to be a weight number alone. You might agree on a regular meal, gradual movement, better blood pressure or glucose, improved sleep, or preserving strength during loss. How to protect muscle while losing weight explains protein, resistance exercise and monitoring in greater depth. For this visit, the key point is that an extreme food deficit or new weakness deserves review because the fastest loss is not necessarily the best outcome [5, 10].\n\nMedicine is not an automatic first step for everyone and does not replace food, movement and behavioural support. When it is appropriate, selection depends on health indicators, related conditions, other medicines, contraindications, adverse effects and preferences, and is decided with the treating clinician. Surgery or referral to a specialist service follows a separate assessment pathway. A first visit may therefore end with information gathering or tests before treatment is selected. That is an organised decision, not delay or inadequate care [2, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "إزاي تحافظ على العضلات وإنت بتخس؟",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "How to protect muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "prepare-for-the-visit",
+          "heading": {
+            "ar": "جهّز معلومات قليلة بس مفيدة",
+            "en": "Prepare a small amount of useful information"
+          },
+          "body": {
+            "ar": "قبل الموعد، اكتب قائمة قصيرة بالأدوية والمكملات والجرعات، وأي حساسية دواء، والعمليات أو الأمراض المهمة. خد التحاليل والتقارير الحديثة لو موجودة، وتقارير قياس قديمة لو المقارنة مفيدة. دوّن تقريباً إمتى بدأ التغيير في الوزن وإيه اللي حصل حواليه: دواء جديد، تغيير شغل، إصابة، ضغط نفسي، نوم أقل، توقف تدخين أو تغير في الشهية. مش محتاج تعمل جدول مثالي ولا تحسب كل لقمة [2, 5].\n\nجهّز وصف يوم أو يومين عاديين: مواعيد النوم والاستيقاظ، الوجبات والمشروبات، الحركة، وأكتر وقت بتحس فيه بجوع أو أكل من غير تحكم. لو تسجيل الأكل بيزود القلق أو عندك تاريخ اضطراب أكل، قول ده بدل ما تجبر نفسك عليه. اكتب سؤالين أو تلاتة أهمهم بالنسبة لك، زي: هل التغيير ممكن يكون سوائل؟ هل دوائي له دور؟ إيه أول مؤشر نتابعه؟ وإمتى نراجع الخطة؟ [5, 13].\n\nما تبدأش صياماً أو حمية قاسية عشان «تحسن» القياس، وما توقفش دواء، وما تقللش المياه قبل تحليل تركيب الجسم إلا لو فيه تعليمات طبية محددة. التقييم محتاج يشوف وضعك الحقيقي بأمان. ولو تقدر، هات قياسات منزلية قليلة اتعملت بنفس الظروف بدل أرقام كثيرة من موازين مختلفة. الصراحة عن الوقت والميزانية والقدرة على الطبخ والحركة بتساعد المختص يختار خطوة قابلة للاستمرار [3, 5].",
+            "en": "Before the appointment, list medicines, supplements and doses, allergies, and important conditions or operations. Bring recent results and earlier measurement reports when comparison may help. Note when the weight change began and what happened around it: a new medicine, job change, injury, stress, less sleep, smoking cessation or an appetite change. You do not need a perfect spreadsheet [2, 5].\n\nDescribe one or two ordinary days: sleep, meals and drinks, movement, and when hunger or loss-of-control eating is most likely. If food recording increases anxiety or you have an eating-disorder history, say so rather than forcing it. Write two or three important questions, such as whether a change could be fluid, whether a medicine contributes, which indicator to follow, and when to review the plan [5, 13].\n\nDo not fast or follow a harsh diet to improve a measurement, stop medicine, or restrict water before body-composition analysis without specific instructions. The assessment needs a safe view of ordinary life. A few home measurements under comparable conditions are better than many figures from different scales. Honesty about time, finances, cooking and movement helps the clinician choose a sustainable step [3, 5]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "when-not-to-wait",
+          "heading": {
+            "ar": "إمتى ما تستناش موعد إدارة وزن روتيني؟",
+            "en": "When should you not wait for a routine weight visit?"
+          },
+          "body": {
+            "ar": "الزيادة السريعة في الوزن مش دايماً دهون. لو حصلت في أيام قليلة ومعاها تورم في الرجلين أو البطن، ضيق نفس، أو قلة واضحة في البول، ممكن تكون احتباس سوائل وتحتاج تواصلاً طبياً سريعاً. MedlinePlus بتوضح إن الزيادة السريعة قد تكون علامة على احتباس سوائل خطير، وإن تورم القدمين مع ضيق النفس محتاج تقييم. برضه فقدان وزن من غير قصد، قيء مستمر، ضعف بيزيد، إغماء، أو عدم القدرة على الأكل والشرب يستاهلوا مراجعة طبية بدل انتظار خطة تخسيس [11].\n\nاطلب رعاية طارئة فوراً لو عندك ألم أو ضغط مفاجئ في الصدر ما بيروحش، خصوصاً لو ممتد للذراع أو الفك أو الظهر، أو مصحوب بعرق أو غثيان أو دوخة أو ضيق نفس. دي مش أعراض تتفسر على إنها قلة لياقة أو زيادة وزن من غير فحص [12].\n\nلو مفيش علامة عاجلة بس التغيير سريع أو غير مفهوم، احجز تقييماً طبياً قريباً وخد معاك خطاً زمنياً للأعراض والأدوية والقياسات. الطبيب المعالج هو اللي يحدد هل الأولوية لفحوص قلب أو كلى أو كبد أو غدة، مراجعة دواء، أو استكمال تقييم إدارة الوزن. ما تعالجش زيادة مفاجئة بتجويع أو مدرات بول من نفسك [2, 11].",
+            "en": "Rapid weight gain is not always fat. If it develops over a few days with swelling of the legs or abdomen, breathlessness, or a clear reduction in urination, fluid retention is possible and prompt medical contact is appropriate. MedlinePlus notes that rapid gain can signal dangerous fluid retention and that swollen feet with shortness of breath needs assessment. Unintentional weight loss, persistent vomiting, worsening weakness, fainting, or inability to eat and drink also deserves medical review rather than waiting for a weight-loss plan [11].\n\nSeek emergency care immediately for sudden chest pain or pressure that does not go away, especially when it spreads to an arm, the jaw or back, or occurs with sweating, nausea, light-headedness or shortness of breath. These symptoms should not be explained away as poor fitness or excess weight without assessment [12].\n\nIf no emergency sign is present but the change is fast or unexplained, arrange a prompt medical assessment and bring a timeline of symptoms, medicines and measurements. The treating clinician decides whether heart, kidney, liver or thyroid assessment, medicine review, or continued weight-management evaluation comes first. Do not try to treat a sudden gain by starvation or taking diuretics on your own [2, 11]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "leave-with-next-step",
+          "heading": {
+            "ar": "اخرج بخطوة واضحة وطريقة مراجعة",
+            "en": "Leave with a clear next step and a review method"
+          },
+          "body": {
+            "ar": "قبل ما الزيارة تخلص، اتأكد إنك فاهم ملخص التقييم: إيه اللي معروف، إيه اللي لسه محتاج يتأكد، وإيه أول خطوة. اسأل مين هيراجع التحاليل وإمتى، وإيه العلامات اللي تخليك تتواصل بدري. الهدف الأول يفضل محدداً وقابلاً للمراجعة، زي تعديل وجبة واحدة، إضافة حركة مناسبة، تثبيت مواعيد نوم، أو تسجيل عرض معيّن. الدعم والمتابعة جزء من الخطة، لأن تدخلات إدارة الوزن الفعالة مش نصيحة مرة واحدة [5, 6].\n\nاتفقوا كمان على مؤشرات النجاح المناسبة: ممكن تشمل ضغط الدم، السكر، محيط الخصر، القدرة على المشي أو طلوع السلم، النوم، القوة، أو اتجاه الوزن على فترة. نظام Edmonton لتصنيف السمنة بيوضح ليه تأثير الوزن على الصحة والوظيفة والأمراض المصاحبة يضيف معلومات أكتر من الـBMI وحده. المتابعة بتراجع الفائدة والأعراض والعوائق، وتعدّل الخطة بدل ما تلوم الشخص لو خطوة ما نفعتش [2, 7].\n\nلو محتاج تقييم فردي، تقدر تستخدم صفحة احجز موعد لطلب زيارة بالعيادة. ذكر العيادة هنا خطوة عملية عامة، مش وعداً بنتيجة أو علاج محدد. خد معاك معلوماتك وأسئلتك، والطبيب أو مختص التغذية المعالج هيحدد القياسات والفحوص والخطوة المناسبة لحالتك. الخلاصة إن أول زيارة الناجحة مش اللي تديك أكبر عدد تعليمات؛ هي اللي تخرج منها فاهم الصورة، عارف الخطوة الجاية، وعندك موعد واضح لمراجعتها [3, 5].",
+            "en": "Before leaving, make sure you understand what is known, what needs confirmation and the first step. Ask who will review results, when, and which signs should prompt earlier contact. The first goal should be specific and reviewable, such as changing one meal, adding suitable movement, regularising sleep or recording a symptom. Support and follow-up matter because effective weight-management care is more than one episode of advice [5, 6].\n\nAgree on progress markers too. These may include blood pressure, glucose, waist, walking or stair ability, sleep, strength, or a weight trend. The Edmonton Obesity Staging System illustrates why health, function and related disease add information beyond BMI. Follow-up reviews benefits, symptoms and obstacles, then adjusts the plan rather than blaming the person when a step does not work [2, 7].\n\nFor individual assessment, use the book an appointment page to request a clinic visit. This is a practical next step, not a promised result or treatment. Bring your information and questions; the treating doctor or nutrition clinician will choose suitable measurements, tests and next steps. A successful first visit leaves you understanding the picture, knowing the next step and having a clear review point [3, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل لازم أصوم قبل أول زيارة لإدارة الوزن؟",
+            "en": "Do I need to fast before my first weight-management visit?"
+          },
+          "a": {
+            "ar": "مش لمجرد إن عندك زيارة. ممكن الطبيب يطلب سكر صايم أو فحصاً تاني يحتاج ترتيباً، لكن ده يتحدد حسب تاريخك وموعد المعمل، ويفضل تاخد تعليمات واضحة قبل الصيام. روح للموعد عادي ما لم يُطلب غير كده، وخد التحاليل الحديثة معاك. ما تقللش المياه أو الأكل عشان رقم الميزان أو تحليل تركيب الجسم يبان مختلف [2, 13].",
+            "en": "Not simply because you have an appointment. A clinician may request fasting glucose or another test that needs preparation, but that depends on your history and the laboratory arrangement, and you should receive clear instructions first. Attend normally unless told otherwise and bring recent results. Do not restrict food or water merely to change the scale or a body-composition reading [2, 13]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل هيتكتب لي نظام أكل كامل من أول يوم؟",
+            "en": "Will I receive a complete meal plan on the first day?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. أحياناً المعلومات كفاية لخطوة غذائية أولى، وأحياناً لازم تتراجع أعراض أو تحاليل أو علاقة مضطربة بالأكل قبل خطة تفصيلية. الخطة المدعومة بالدليل بتراعي صحتك وتفضيلاتك وقدرتك على التنفيذ، وبتتراجع مع الوقت؛ ورقة ممنوعات ثابتة لكل الناس مش هي معيار جودة الزيارة [5, 6].",
+            "en": "Not necessarily. Sometimes there is enough information for an initial food-related step; sometimes symptoms, tests or a difficult relationship with food need assessment before a detailed plan. An evidence-based plan reflects your health, preferences and ability to carry it out, then is reviewed over time. A standard banned-food sheet for everyone is not the measure of a good visit [5, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل BMI عالي لوحده معناه إني محتاج دواء؟",
+            "en": "Does a high BMI alone mean that I need medicine?"
+          },
+          "a": {
+            "ar": "لأ. الـBMI أداة فحص، والقرار ما بيتاخدش منه وحده. الطبيب بيراجع محيط الخصر، الحالات المصاحبة، الأدوية، محاولات سابقة، موانع الاستعمال، الفائدة المتوقعة والأعراض الجانبية والتفضيلات. لما دواء إدارة الوزن يكون مناسب، بيستخدم مع خطة تشمل الأكل والحركة والمتابعة، والطبيب المعالج هو اللي يختار أو يرفض أو يغيّر العلاج [4, 9].",
+            "en": "No. BMI is a screening tool and does not make the decision by itself. The clinician reviews waist measures, related conditions, other medicines, earlier attempts, contraindications, expected benefit, adverse effects and preferences. When weight-management medicine is suitable, it is used with a plan for food, movement and follow-up. The treating clinician decides whether to select, avoid or change treatment [4, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تحليل InBody ضروري في أول زيارة؟",
+            "en": "Is an InBody analysis essential at the first visit?"
+          },
+          "a": {
+            "ar": "لأ، مش شرط. التاريخ الصحي، الفحص، الطول والوزن ومحيط الخصر وضغط الدم ممكن يكونوا أهم في البداية. تحليل تركيب الجسم قد يضيف تقديراً للدهون والكتلة الخالية من الدهون والمياه، لكنه بيتأثر بالترطيب والتوقيت ومش بيشخّص سبب زيادة الوزن. الطبيب يحدد هل هيفيد القرار، والأفضل مقارنة الاتجاه على نفس الجهاز وفي ظروف متشابهة [2, 4].",
+            "en": "No. Health history, examination, height, weight, waist and blood pressure may matter more at the start. Body-composition analysis can add estimates of fat, fat-free mass and water, but hydration and timing affect it and it cannot diagnose the cause of weight gain. The clinician decides whether it will inform care; trends are best compared on the same device under similar conditions [2, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "جربت أخس قبل كده والوزن رجع؛ هل ده يعتبر فشل؟",
+            "en": "I lost weight before and regained it. Does that count as failure?"
+          },
+          "a": {
+            "ar": "مش فشل ولا سبب للوم. رجوع الوزن معلومة بتساعد نفهم هل الخطة كانت شديدة، هل الدعم وقف، هل النوم أو الدواء أو الظروف اتغيروا، وإيه اللي كان قابل للاستمرار. السمنة حالة مزمنة ومعقدة، والتدخلات الفعالة غالباً فيها متابعة ودعم للحفاظ على السلوك والنتيجة. احكي التجربة زي ما حصلت عشان الخطة الجديدة تتعلم منها [6, 8].",
+            "en": "It is not failure and not a reason for blame. Regain helps clarify whether the plan was too severe, support ended, sleep, medicine or circumstances changed, and which parts were sustainable. Obesity is a chronic, complex condition, and effective interventions commonly include follow-up and maintenance support. Describe what happened honestly so that the new plan can learn from it [6, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى زيادة الوزن تحتاج كشف طبي سريع بدل انتظار الموعد؟",
+            "en": "When does weight gain need prompt medical assessment rather than waiting?"
+          },
+          "a": {
+            "ar": "لو الزيادة سريعة خلال أيام ومعاها تورم، ضيق نفس أو قلة بول، تواصل طبياً بسرعة لأنها ممكن تكون سوائل مش دهون. واطلب طوارئ فوراً لو فيه ألم أو ضغط صدر مستمر، خصوصاً مع عرق أو غثيان أو دوخة أو ضيق نفس. ما تبدأش مدر بول أو توقف علاج من نفسك؛ شدة الأعراض هي اللي تحدد سرعة ومكان التقييم [11, 12].",
+            "en": "If gain develops rapidly over days with swelling, breathlessness or reduced urination, seek prompt medical advice because it may represent fluid rather than fat. Seek emergency care immediately for persistent chest pain or pressure, particularly with sweating, nausea, light-headedness or shortness of breath. Do not start a diuretic or stop treatment yourself; symptom severity determines the urgency and setting of assessment [11, 12]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NICE — Identifying and assessing overweight, obesity and central adiposity (NG246)",
+          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity"
+        },
+        {
+          "label": "Wharton et al. — Obesity in adults: a clinical practice guideline (CMAJ, PMC7828878)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7828878/"
+        },
+        {
+          "label": "Vallis et al. — Modified 5 As: Minimal intervention for obesity counseling in primary care (Can Fam Physician, PMC3555649)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3555649/"
+        },
+        {
+          "label": "CDC — Adult BMI Categories",
+          "url": "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html"
+        },
+        {
+          "label": "NIDDK — Choosing a Safe and Successful Weight-loss Program",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program"
+        },
+        {
+          "label": "USPSTF — Weight Loss to Prevent Obesity-Related Morbidity and Mortality in Adults: Behavioral Interventions",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/obesity-in-adults-interventions"
+        },
+        {
+          "label": "Padwal et al. — Edmonton Obesity Staging System and mortality (CMAJ, PMC3185097)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3185097/"
+        },
+        {
+          "label": "World Health Organization — Obesity and overweight fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        },
+        {
+          "label": "NIDDK — Prescription Medications to Treat Overweight and Obesity",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
+        },
+        {
+          "label": "NICE — Overweight and obesity management: physical activity and diet (NG246)",
+          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Physical-activity-and-diet"
+        },
+        {
+          "label": "MedlinePlus — Weight gain, unintentional",
+          "url": "https://www.medlineplus.gov/ency/article/003084.htm"
+        },
+        {
+          "label": "NHS — Chest pain",
+          "url": "https://www.nhs.uk/symptoms/chest-pain/"
+        },
+        {
+          "label": "NHS — Overweight and obesity in adults",
+          "url": "https://www.nhs.uk/conditions/overweight-and-obesity/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "أول زيارة لإدارة الوزن",
+          "تقييم إدارة الوزن",
+          "عيادة الوزن"
+        ],
+        "en": [
+          "weight management visit",
+          "weight loss clinic assessment",
+          "weight care"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "أول زيارة لإدارة الوزن: إيه اللي بيحصل؟",
+          "en": "First weight-management visit: what happens?"
+        },
+        "description": {
+          "ar": "دليل عملي لأول زيارة لإدارة الوزن: الأسئلة والقياسات والتحاليل المحتملة، وإزاي تجهز بشكل واضح لخطة آمنة ومناسبة لصحتك وظروفك.",
+          "en": "A practical guide to your first weight-management visit: questions, measurements, possible tests, preparation and a safe, individual care plan."
+        }
+      }
+    }
+  ]
+}

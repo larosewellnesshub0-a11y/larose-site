@@ -1,0 +1,310 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-injection-nausea-constipation; replaces the entry from content/articles.json. Expanded the brief Q&A into a bilingual, medically re-reviewed guide to symptom severity, self-care, red flags, and prescriber-led dose decisions.",
+  "articles": [
+    {
+      "slug": "qa-injection-nausea-constipation",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "weight-management",
+      "specialties": [
+        "weight-management",
+        "clinical-nutrition"
+      ],
+      "date": "2026-08-18",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا الإجابة عشان توضح التعامل مع الغثيان والإمساك وعلامات الخطر وقرار الجرعة، واتراجعت طبيًا من جديد.",
+            "en": "We expanded the answer to cover nausea, constipation, warning signs, and dose decisions, and medically re-reviewed it."
+          }
+        }
+      ],
+      "image": "assets/img/articles/qa-injection-nausea-constipation.webp",
+      "title": {
+        "ar": "حقنة التخسيس عاملالي غثيان وإمساك: أكمل ولا أوقف؟",
+        "en": "Weight-loss injection nausea and constipation: what now?"
+      },
+      "excerpt": {
+        "ar": "الغثيان والإمساك ممكن يحصلوا مع بعض حقن إدارة الوزن، بس قرار الجرعة بيتحدد حسب شدة الأعراض وقدرتك على الأكل والشرب وعلامات الخطر. اعرف إيه اللي تراقبه وإمتى تكلم الطبيب أو تطلب مساعدة عاجلة.",
+        "en": "Nausea and constipation can occur with some weight-management injections, but the next-dose decision depends on severity, hydration, food intake, and warning signs. Learn what to track and when to contact the prescriber or seek urgent care."
+      },
+      "sections": [
+        {
+          "id": "short-answer-continue-or-stop",
+          "heading": {
+            "ar": "الإجابة المختصرة: ما تزودش أو توقف من نفسك",
+            "en": "The short answer: do not increase or stop on your own"
+          },
+          "body": {
+            "ar": "لو حقنة إدارة الوزن عاملالك غثيان وإمساك، ما تزودش الجرعة وما تكررهاش بدري، وفي نفس الوقت ما تعتبرش إن أي غثيان بسيط معناه إن العلاج لازم يتوقف نهائيًا. الغثيان والإمساك من الأعراض المعروفة مع أدوية من فئة GLP-1 ومع الأدوية المزدوجة GLP-1/GIP، لكن التصرف الصح بيعتمد على اسم المادة، الجرعة، إمتى بدأت الأعراض، شدتها، وهل لسه قادر تشرب وتاكل وتخرج غازات وبراز بشكل مقبول [1, 2, 3].\n\nكلم الطبيب اللي وصف العلاج قبل الجرعة الجاية لو الأعراض جديدة بعد بداية العلاج أو بعد زيادة الجرعة، أو لو مستمرة ومضايقاك. الطبيب ممكن يقرر يثبت الجرعة مدة أطول، يأجل الزيادة، يقللها، يوقفها مؤقتًا، يغير العلاج أو يوقفه؛ دي اختيارات طبية مش جدول ثابت ينفع لكل الناس. إرشادات الملصق الرسمي والتوصيات العملية بتربط تصعيد الجرعة بمدى التحمل، وبتشدد إن الأعراض الشديدة أو المستمرة محتاجة تقييم بدل الضغط على الجسم عشان يكمل نفس الخطة [1, 2, 7].\n\nقبل ما تكلم الطبيب، جهز اسم الدواء والمادة الفعالة، تركيز القلم، تاريخ آخر جرعة وأي زيادة قريبة، وعدد مرات القيء والتبرز، وقدرتك على الاحتفاظ بالسوائل. لو بتاخد الدواء للسكري كمان، ما توقفوش فجأة من غير توجيه لأن تغيير العلاج ممكن يأثر على سكر الدم. الخلاصة: الأعراض الخفيفة غالبًا تسمح بمراجعة هادية وسريعة، لكن علامات الخطر اللي هنشرحها تحت ما تستناش ميعاد الجرعة أو المتابعة العادية [1, 3, 7].",
+            "en": "If a weight-management injection is causing nausea and constipation, do not increase the dose or repeat it early, but do not assume that every mild episode means treatment must end permanently. Nausea and constipation are recognised effects of GLP-1 medicines and dual GLP-1/GIP medicines. The right response depends on the active ingredient, dose, when symptoms began, their severity, and whether you can still drink, eat, pass wind, and pass stool reasonably [1, 2, 3].\n\nContact the prescriber before the next dose if symptoms started after beginning treatment or a dose increase, or if they persist and bother you. The clinician may keep the dose unchanged for longer, delay an increase, reduce it, pause treatment, switch treatment, or stop it. Those are clinical choices, not a universal schedule. Official labels and practical recommendations link dose escalation to tolerability and call for assessment when symptoms are severe or persistent rather than pushing through the same plan [1, 2, 7].\n\nBefore calling, have the medicine and active ingredient, pen strength, last-dose date, any recent increase, vomiting and bowel-movement frequency, and your ability to keep fluids down. If the medicine also treats diabetes, do not stop it suddenly without instructions because changing treatment may affect blood glucose. In short, mild symptoms usually allow a prompt, calm review, while the warning signs described below should not wait for the next scheduled dose or routine appointment [1, 3, 7]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "why-nausea-and-constipation-happen",
+          "heading": {
+            "ar": "ليه الغثيان والإمساك ممكن يظهروا مع الحقن؟",
+            "en": "Why can nausea and constipation happen with injections?"
+          },
+          "body": {
+            "ar": "بعض حقن إدارة الوزن بتقلل الشهية وبتبطّأ خروج الأكل من المعدة بدرجات مختلفة. ده جزء من تأثيرها، لكنه ممكن يخليك تحس بالشبع أسرع، امتلاء، تجشؤ أو غثيان، خصوصًا مع وجبة كبيرة أو دسمة. الملصقات الرسمية للسيماغلوتايد والتيرزيباتايد بتذكر تأخير إفراغ المعدة، وبتسجل الغثيان والقيء والإمساك وألم البطن ضمن الأعراض الهضمية المعروفة [1, 2]. بطء حركة الجهاز الهضمي، قلة كمية الأكل، قلة السوائل بسبب الغثيان، وتغيير نوعية الوجبات ممكن يجتمعوا ويخلوا البراز أنشف أو أقل تكرارًا [4, 6, 8].\n\nالأعراض كتيرًا ما تبدأ في أول أسابيع العلاج أو بعد رفع الجرعة، والتوصيات العملية بتوضح إنها غالبًا بتكون خفيفة أو متوسطة وبتتحسن مع الوقت عند ناس كتير. لكن كلمة «غالبًا» مش معناها إنك تتجاهل عرض قوي أو مختلف عن المعتاد. استمرار القيء، ألم شديد، أو إمساك مع انتفاخ وتوقف الغازات مش مجرد مرحلة متوقعة لازم تستحملها [7, 9, 10].\n\nكمان مش كل غثيان أو إمساك سببه الحقنة لوحدها. مكملات الحديد أو الكالسيوم، بعض المسكنات، أدوية تانية، قلة الحركة، الجفاف، قصور الغدة الدرقية، السكري أو مشكلة هضمية مستقلة ممكن يكونوا جزء من الصورة [4, 8]. عشان كده مهم ما تشخصش نفسك من التوقيت بس. الطبيب بيربط بداية الأعراض بالجرعة وباقي الأدوية والتاريخ الصحي، وبيسأل هل النمط اتغير فعلًا عن الطبيعي عندك. الهدف مش إنك تستحمل بأي ثمن، ومش إنك تلغي علاج مفيد من أول إحساس بسيط؛ الهدف إن الخطة تتظبط على استجابتك بأمان [3, 7, 8].",
+            "en": "Some weight-management injections reduce appetite and slow the movement of food out of the stomach to varying degrees. That is part of their effect, but it can also produce earlier fullness, a heavy sensation, belching, or nausea, especially after a large or rich meal. Official semaglutide and tirzepatide labels describe delayed gastric emptying and list nausea, vomiting, constipation, and abdominal pain among recognised gastrointestinal effects [1, 2]. Slower gastrointestinal movement, eating less, drinking less because of nausea, and changing food choices can combine to make stool harder or less frequent [4, 6, 8].\n\nSymptoms often appear during the first weeks of treatment or after dose escalation, and practical recommendations report that they are mild or moderate and improve over time for many people. However, “often” does not mean that a strong or unusual symptom should be ignored. Continuing vomiting, severe pain, or constipation with swelling and no wind is not simply an expected phase to endure [7, 9, 10].\n\nThe injection may not be the only cause. Iron or calcium supplements, some pain medicines, other prescriptions, low activity, dehydration, hypothyroidism, diabetes, or a separate digestive problem may contribute [4, 8]. Timing alone cannot establish the diagnosis. The clinician connects symptom onset to the dose, other medicines, and health history, and asks whether bowel habits have genuinely changed from your own baseline. The aim is neither to tolerate symptoms regardless of harm nor to abandon a useful treatment after one mild sensation; it is to adapt the plan safely to your response [3, 7, 8]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "severity-and-red-flags",
+          "heading": {
+            "ar": "إزاي تفرق بين عرض بسيط وعلامة خطر؟",
+            "en": "How to separate mild symptoms from warning signs"
+          },
+          "body": {
+            "ar": "الغثيان البسيط معناه إنك متضايق لكن لسه قادر تشرب رشفات، تحتفظ بالسوائل، وتاكل كمية صغيرة من غير قيء متكرر. والإمساك مش معناه عدد أيام بس؛ بص كمان لصعوبة خروج البراز، قوامه، الحزق، والإحساس إن الإخراج ما اكتملش. الطبيعي بيختلف من شخص للتاني، فالمقارنة المفيدة هي بالتغيير عن عادتك أنت، مش بجدول شخص تاني [4, 8].\n\nاطلب تقييمًا طبيًا عاجلًا لو فيه ألم بطن شديد أو مستمر، خصوصًا لو ممتد للظهر، مع أو من غير قيء؛ التهاب البنكرياس عرض غير شائع لكنه مهم، والتحذيرات الرسمية بتطلب إيقاف العلاج طبيًا لو اشتبه فيه الطبيب [1, 2, 3, 9]. اطلب مساعدة عاجلة كمان لو القيء متكرر ومش قادر تحتفظ حتى برشفات، البول قل بوضوح أو بقى غامق، فيه دوخة شديدة أو إغماء أو تشوش، لأن فقد السوائل ممكن يسبب جفافًا ومشاكل بالكلى [1, 2, 7].\n\nانتفاخ شديد أو متزايد مع ألم وقيء وتوقف خروج البراز والغازات محتاج تقييم فوري لاحتمال انسداد أو بطء شديد في الأمعاء؛ ما تعالجوش بجرعات عشوائية من ملين [4, 10]. وجود دم في البراز، براز أسود، حرارة مع ألم مستمر، أو قيء بلون غير معتاد برضه يستدعي تقييمًا سريعًا [4, 8]. تورم اللسان أو الحلق، صعوبة التنفس، صفير أو طفح منتشر بعد الحقن حالة طوارئ لاحتمال حساسية شديدة [1, 2, 3].\n\nلو عندك سكري وبتاخد إنسولين أو دواء ممكن ينزل السكر، رعشة وعرق وخفقان وتشوش أو دوخة ممكن يكونوا هبوط سكر مش مجرد غثيان. افحص السكر حسب خطتك واتبع تعليمات الطوارئ اللي مديهالك فريقك [1, 2, 3]. ما تسوقش بنفسك لو عندك إغماء، تشوش، صعوبة تنفس أو ألم شديد؛ اطلب خدمة الطوارئ المناسبة لمكانك.",
+            "en": "Mild nausea is uncomfortable, but you can still take sips, keep fluids down, and eat a small amount without repeated vomiting. Constipation is not defined only by a number of days; hard stool, straining, difficult passage, and incomplete emptying matter too. Normal frequency varies, so the useful comparison is a change from your own baseline, not somebody else’s schedule [4, 8].\n\nSeek urgent medical assessment for severe or persistent abdominal pain, particularly pain extending to the back, with or without vomiting. Pancreatitis is uncommon but important, and official warnings call for clinical discontinuation when a clinician suspects it [1, 2, 3, 9]. Urgent help is also needed for repeated vomiting with an inability to retain even small sips, clearly reduced or dark urine, severe dizziness, fainting, or confusion because fluid loss may cause dehydration and kidney injury [1, 2, 7].\n\nSevere or increasing abdominal swelling with pain, vomiting, and inability to pass stool or wind needs immediate assessment for obstruction or profound bowel slowing; do not respond with random high doses of a laxative [4, 10]. Blood in stool, black stool, fever with continuing pain, or unusually coloured vomit also warrants prompt evaluation [4, 8]. Swelling of the tongue or throat, breathing difficulty, wheeze, or a widespread rash after an injection is an emergency because it may be a severe allergic reaction [1, 2, 3].\n\nIf you have diabetes and use insulin or another medicine that can lower glucose, shaking, sweating, palpitations, confusion, or dizziness may reflect low blood glucose rather than nausea alone. Check glucose according to your plan and follow the emergency instructions from your team [1, 2, 3]. Do not drive yourself if you are faint, confused, struggling to breathe, or in severe pain; call the emergency service appropriate to your location."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "managing-mild-nausea",
+          "heading": {
+            "ar": "لو الغثيان بسيط: خطوات عملية لحد ما تكلم الطبيب",
+            "en": "For mild nausea: practical steps while contacting the clinician"
+          },
+          "body": {
+            "ar": "لو مفيش علامة خطر والأعراض بسيطة، صغّر الوجبة وكل ببطء، ووقف أول ما تحس بشبع مريح بدل ما تكمل الطبق. قسم أكلك على كميات أصغر خلال اليوم، وابعد مؤقتًا عن الوجبات الكبيرة جدًا أو الدسمة أو المقلية لو لاحظت إنها بتزود الغثيان. خليك قاعد شوية بعد الأكل بدل النوم فورًا، واختار أكل بسيط تقدر تتحمله بدل ما تجبر نفسك على وجبة كاملة. التوصيات العملية لإدارة أعراض GLP-1 بتركز على حجم الوجبة، البطء، والتوقف عند الشبع، مع الحفاظ على السوائل [7].\n\nاشرب رشفات صغيرة ومتكررة بدل كمية كبيرة مرة واحدة. المياه أو السوائل المناسبة لحالتك أهم من محاولة تحقيق رقم عام؛ الاحتياج بيتغير مع الجو، النشاط، أمراض القلب أو الكلى، وتعليمات الطبيب. لو كل رشفة بترجع، أو البول بيقل، دي مش مرحلة تكمل فيها نصائح منزلية [1, 2, 7]. تجنب الكحول، وما تضيفش أعشاب أو مكملات للغثيان من نفسك؛ بعضها ممكن يتداخل مع الأدوية أو يهيج المعدة.\n\nما تبدأش دواء للغثيان عشوائيًا. الاختيار بيتأثر بباقي أدويتك، ضربات القلب، الحمل المحتمل، وأسباب الغثيان الأخرى، وبعض الأدوية نفسها ممكن تزود الإمساك. اسأل الطبيب أو الصيدلي عن الخيار المناسب لو احتجته، وقل له إنك بتاخد حقنة لإدارة الوزن [7].\n\nاكتب إيه اللي أكلته قبل الغثيان، توقيت الحقنة، وهل العرض بدأ بعد رفع الجرعة. المعلومة دي بتساعد أكتر من وصف «تعبان» بس. لو الغثيان استمر، بقى أقوى، منعك من الأكل والشرب، أو احتجت دواء مضاد للغثيان باستمرار، راجع الخطة بدل ما تغطي العرض وتكمل نفس التصعيد تلقائيًا [3, 7].",
+            "en": "If there is no warning sign and symptoms are mild, reduce portion size, eat slowly, and stop at comfortable fullness rather than finishing the plate. Spread intake across smaller meals and temporarily avoid very large, rich, or fried meals if you notice that they worsen nausea. Do not lie down immediately after eating, and choose simple foods you can tolerate instead of forcing a full meal. Practical GLP-1 adverse-effect guidance emphasises meal size, slower eating, stopping at fullness, and maintaining fluid intake [7].\n\nTake small, frequent sips instead of a large drink at once. Water or other fluids suitable for your health are more useful than chasing a universal target; needs differ with weather, activity, heart or kidney conditions, and clinical instructions. If every sip comes back up or urine output falls, home measures are no longer enough [1, 2, 7]. Avoid alcohol, and do not add herbs or supplements for nausea on your own because some may interact with medicines or irritate the stomach.\n\nDo not start an anti-nausea medicine at random. Selection depends on your other medicines, heart rhythm, possible pregnancy, and alternative causes of nausea, and some anti-nausea treatments can themselves worsen constipation. Ask the clinician or pharmacist what is appropriate and tell them you use a weight-management injection [7].\n\nRecord what you ate before nausea, injection timing, and whether symptoms followed a dose increase. That information is more useful than saying only that you feel unwell. If nausea continues, intensifies, prevents eating or drinking, or requires continuing anti-nausea medicine, the treatment plan needs review rather than simply masking symptoms and continuing automatic escalation [3, 7]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "managing-mild-constipation",
+          "heading": {
+            "ar": "لو الإمساك بسيط: سوائل وألياف وحركة من غير مبالغة",
+            "en": "For mild constipation: fluids, fibre, and movement without overdoing it"
+          },
+          "body": {
+            "ar": "ابدأ بتسجيل آخر مرة دخلت الحمام، شكل البراز، وهل فيه ألم أو دم أو انتفاخ. زود السوائل على مدار اليوم بالقدر المناسب لحالتك، خصوصًا لو كمية أكلك قلت. الألياف بتساعد ناس كتير، بس زيادتها فجأة مع شرب قليل ممكن تزود الانتفاخ وعدم الراحة. زودها بالتدريج من أكل زي الخضار، الفاكهة، الحبوب الكاملة أو البقول اللي بتتحملها، وخلي السوائل ماشية معاها [5, 6, 8].\n\nالحركة الخفيفة المنتظمة ممكن تساعد حركة الأمعاء لو حالتك تسمح. خصص وقت هادي للحمام، وما تتجاهلش الرغبة في التبرز، وممكن وضع القدمين على مسند صغير يسهّل الوضع لبعض الناس [5]. لكن ما تحولش النصايح دي لاختبار قوة: لو الحركة بتعمل دوخة، أو الأكل والألياف بيزودوا ألمًا أو انتفاخًا شديدًا، وقف واطلب تقييم.\n\nما تاخدش ملين من تجربة حد تاني، وما تجمعش أكتر من نوع عشان نتيجة أسرع. الملينات أنواع مختلفة، والاختيار بيعتمد على شدة الإمساك، وظائف الكلى، باقي الأدوية، وهل فيه احتمال انسداد. NIDDK والكلية الأمريكية للجهاز الهضمي بيوضحوا إن العلاج الدوائي للإمساك بيتدرج حسب السبب والاستجابة، وإن التغيير المستمر أو الجديد في عادة الإخراج يستحق مناقشة مع الطبيب [5, 8].\n\nلو مفيش براز لكن لسه فيه غازات ومن غير ألم شديد أو قيء، تواصل مع الطبيب أو الصيدلي عشان يحدد هل محتاج علاج قصير المدى وإيه النوع المناسب. لو مفيش براز ولا غازات مع ألم وانتفاخ أو قيء، ما تضيفش ألياف أو ملين وانت مستني؛ اطلب تقييمًا عاجلًا [4, 10]. الهدف إنك تعالج الإمساك بأمان من غير ما تخفي مشكلة أهم أو تسبب جفافًا إضافيًا.",
+            "en": "Start by recording the last bowel movement, stool form, and whether there is pain, blood, or swelling. Increase fluids across the day as appropriate for your health, especially if food intake has fallen. Fibre helps many people, but a sudden increase with too little fluid may worsen bloating and discomfort. Increase it gradually through tolerated vegetables, fruit, whole grains, or pulses, and pair the change with fluids [5, 6, 8].\n\nRegular gentle movement may support bowel activity if your health allows. Give yourself unhurried toilet time, do not ignore the urge to pass stool, and consider a small footstool because positioning helps some people [5]. Do not turn these measures into a test of endurance: if movement makes you dizzy, or food and fibre produce marked pain or swelling, stop and seek assessment.\n\nDo not take a laxative based on somebody else’s experience or combine several products for a faster result. Laxatives work in different ways, and selection depends on severity, kidney function, other medicines, and whether obstruction is possible. NIDDK and the American College of Gastroenterology describe a stepwise approach based on cause and response, and recommend discussing a new or persistent change in bowel habit with a healthcare professional [5, 8].\n\nIf you have not passed stool but can still pass wind and have no severe pain or vomiting, contact the clinician or pharmacist to decide whether short-term treatment is needed and which type fits. If neither stool nor wind is passing and pain, swelling, or vomiting is present, do not add fibre or a laxative while waiting; seek urgent assessment [4, 10]. The aim is to relieve constipation safely without masking a more important problem or adding further dehydration."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "what-clinician-reviews",
+          "heading": {
+            "ar": "الطبيب هيراجع إيه قبل قرار الجرعة؟",
+            "en": "What will the clinician review before deciding about the dose?"
+          },
+          "body": {
+            "ar": "قرار الجرعة مش مبني على الغثيان والإمساك لوحدهم. الطبيب هيسأل عن اسم المادة وتركيزها، سبب وصفها، تاريخ البداية والزيادات، علاقتها بالأعراض، وهل حصل قيء أو جفاف أو تغيير واضح في الإخراج. هيراجع أدوية السكري، الضغط، المسكنات، الحديد والكالسيوم وأي مكملات؛ لأن بعضها ممكن يغير السكر أو يزيد الإمساك أو يتأثر بتأخير إفراغ المعدة [1, 2, 4]. هيسأل كمان عن ألم أعلى البطن أو الظهر، مشاكل المرارة أو البنكرياس، أمراض الكلى، وجراحة أو إجراء قريب يحتاج تخديرًا [1, 2, 9].\n\nلو عايز تعرف ليه التاريخ الصحي والدوائي مهم من البداية، اقرأ أول زيارة لإدارة الوزن: إيه اللي بيحصل خطوة بخطوة؟ لأنه بيوضح إن اختيار العلاج والمتابعة أوسع من رقم الميزان. ولو فيه حمل، احتمال حمل، تخطيط للحمل أو رضاعة، بلغ الطبيب فورًا واقرأ ينفع أستخدم دواء لإدارة الوزن أثناء الحمل أو الرضاعة؟ من غير ما تعتمد على المقال بدل التواصل الطبي؛ تعليمات الحمل والرضاعة بتختلف حسب المادة والظرف [1, 2, 3].\n\nبعد المراجعة، الطبيب ممكن يطلب فحصًا أو تحاليل لو شايف علامات جفاف، مشكلة بالكلى، سكر غير مستقر أو سبب تاني للأعراض. مش كل شخص محتاج تحاليل أو أشعة، ومش كل ألم محتاج نفس الاختبار. الخطة ممكن تركز على تعديل الوجبات والسوائل وعلاج الإمساك، أو تغيير سرعة تصعيد الجرعة، أو توقف مؤقت، أو اختيار بديل. أي قرار من دول لازم يتسجل بوضوح: إمتى الجرعة التالية، إيه اللي تعمل لو الأعراض رجعت، وإيه العلامة اللي تخليك تطلب مساعدة عاجلة [1, 2, 7].",
+            "en": "A dose decision is not based on nausea and constipation alone. The clinician will ask for the active ingredient and strength, why it was prescribed, start and escalation dates, the relation to symptoms, and whether vomiting, dehydration, or a clear bowel change occurred. They will review diabetes and blood-pressure medicines, pain medicines, iron, calcium, and supplements because some may alter glucose, worsen constipation, or be affected by delayed gastric emptying [1, 2, 4]. They will also ask about upper abdominal or back pain, gallbladder or pancreatic problems, kidney disease, and any approaching surgery or procedure requiring anaesthesia [1, 2, 9].\n\nFor why medical and medicine history matter from the beginning, read A first weight-management visit: what actually happens, step by step? It explains why selection and monitoring go beyond the scale. If pregnancy, possible pregnancy, pregnancy planning, or breastfeeding is relevant, tell the clinician promptly and read Can I use weight-management medicine during pregnancy or breastfeeding? without treating the article as a substitute for direct advice; instructions differ by medicine and circumstance [1, 2, 3].\n\nAfter review, the clinician may examine you or request tests if there are signs of dehydration, kidney problems, unstable glucose, or another cause. Not everyone needs blood tests or imaging, and not every pain needs the same test. The plan may focus on meals, fluids, and constipation treatment, change the pace of dose escalation, include a temporary pause, or use an alternative. Whatever the decision, it should be recorded clearly: when the next dose is due, what to do if symptoms return, and which sign should trigger urgent help [1, 2, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أول زيارة لإدارة الوزن: إيه اللي بيحصل خطوة بخطوة؟",
+                "url": "../articles/weight-management-first-visit.html"
+              },
+              {
+                "label": "ينفع أستخدم دواء لإدارة الوزن أثناء الحمل أو الرضاعة؟",
+                "url": "../articles/qa-weight-medicine-pregnancy-breastfeeding.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "A first weight-management visit: what actually happens, step by step?",
+                "url": "../articles/weight-management-first-visit.html"
+              },
+              {
+                "label": "Can I use weight-management medicine during pregnancy or breastfeeding?",
+                "url": "../articles/qa-weight-medicine-pregnancy-breastfeeding.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "prepare-and-next-step",
+          "heading": {
+            "ar": "حضّر متابعة مفيدة وخد الخطوة الجاية بأمان",
+            "en": "Prepare a useful review and take the next step safely"
+          },
+          "body": {
+            "ar": "اعمل مذكرة بسيطة لمدة كام يوم فيها وقت الحقنة، الجرعة المكتوبة على القلم، الوجبات، كمية السوائل بشكل تقريبي، مرات الغثيان أو القيء، وآخر مرات التبرز وشكل البراز. سجل كمان الألم ومكانه، الانتفاخ، خروج الغازات، الدوخة والبول. ما تحتاجش جدول مثالي؛ تفاصيل قليلة وصادقة بتساعد الطبيب يشوف العلاقة بين الجرعة والأعراض ويقرر هل الرعاية المنزلية كفاية ولا محتاج فحص [4, 7, 8].\n\nلو قلقان إن مناقشة التوقف معناها اعتماد طول العمر، اقرأ لو بدأت دواء لإدارة الوزن، هفضل معتمد عليه طول عمري؟ الصفحة دي بتشرح الفرق بين علاج حالة مزمنة وبين الإدمان، من غير ما تجاوب بدل طبيبك على جرعتك الجاية. ما تقارنش استجابتك بحد على السوشيال ميديا، وما تستخدمش قلم أو جرعة شخص تاني. حتى الأدوية من نفس الفئة ليها تعليمات وتركيزات ومخاطر مختلفة [1, 2, 3].\n\nلو مفيش علامة خطر، تواصل مع الطبيب اللي وصف الحقنة قبل ميعاد الجرعة التالية، واطلب تعليمات واضحة ومكتوبة. لو مش قادر توصله والأعراض بتسوء، استخدم خدمة رعاية عاجلة بدل ما تجرب تعديل الجرعة وحدك. ولو فيه أي علامة من علامات الخطر المذكورة فوق، اطلب تقييمًا عاجلًا دلوقتي.\n\nفي العيادة، ممكن تتراجع الأعراض، الترطيب، نمط الأكل والإخراج، الأدوية المصاحبة وقياسات المتابعة كصورة واحدة؛ لكن مفيش وعد إن كل شخص هيكمل نفس الدواء أو إن عرضًا معينًا هيتحل بنفس الطريقة. قرار الاستمرار أو التعديل فردي وبيطلع بعد تقييم سريري. لو حابب ترتب تقييمًا، تقدر تستخدم احجز موعد، مع العلم إن الحجز مش بديل عن الطوارئ لو فيه ألم شديد، قيء متكرر، جفاف، توقف غازات أو صعوبة تنفس [1, 2, 9, 10].",
+            "en": "Keep a simple record for a few days: injection time, the dose printed on the pen, meals, approximate fluid intake, nausea or vomiting episodes, and the timing and form of bowel movements. Also note pain and its location, swelling, passage of wind, dizziness, and urine output. It need not be perfect; a small amount of honest detail helps the clinician see the relationship between dose and symptoms and decide whether home care is enough or an examination is needed [4, 7, 8].\n\nIf discussing stopping makes you worry about lifelong dependence, read If I start weight-management medicine, will I depend on it for life? It explains the difference between treating a chronic condition and addiction without answering the next-dose question in place of your clinician. Do not compare your response with somebody on social media, and never use another person’s pen or dose. Even medicines in the same broad class have different instructions, strengths, and risks [1, 2, 3].\n\nIf no warning sign is present, contact the clinician who prescribed the injection before the next dose and ask for clear, written instructions. If they are unavailable and symptoms are worsening, use an urgent-care service rather than experimenting with the dose. If any warning sign described above is present, seek urgent assessment now.\n\nAt the clinic, symptoms, hydration, eating and bowel patterns, accompanying medicines, and follow-up measurements can be reviewed together. There is no promise that everyone will continue the same medicine or that one symptom has the same solution for everyone. Continuing or changing treatment is an individual decision after clinical assessment. To arrange an assessment, use Book an appointment, while remembering that booking is not an alternative to emergency care for severe pain, repeated vomiting, dehydration, inability to pass wind, or breathing difficulty [1, 2, 9, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "لو بدأت دواء لإدارة الوزن، هفضل معتمد عليه طول عمري؟",
+                "url": "../articles/qa-weight-medicine-dependence.html"
+              },
+              {
+                "label": "احجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "If I start weight-management medicine, will I depend on it for life?",
+                "url": "../articles/qa-weight-medicine-dependence.html"
+              },
+              {
+                "label": "Book an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الغثيان والإمساك معناه إن الحقنة مش مناسبة ليا؟",
+            "en": "Do nausea and constipation mean the injection is unsuitable for me?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. الاتنين أعراض معروفة مع بعض أدوية GLP-1 وGLP-1/GIP، وكثير من الأعراض الهضمية بيكون خفيف أو مؤقت. لكن الاستمرار بيتحدد حسب الشدة، القدرة على الشرب والأكل، وجود علامات خطر، والفائدة من العلاج. راجع الطبيب قبل زيادة الجرعة أو تغييرها [1, 2, 7].",
+            "en": "Not necessarily. Both are recognised with some GLP-1 and GLP-1/GIP medicines, and many gastrointestinal symptoms are mild or temporary. Whether treatment continues depends on severity, the ability to drink and eat, warning signs, and treatment benefit. Review it before increasing or changing the dose [1, 2, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "آخد الجرعة الجاية لو الأعراض لسه موجودة؟",
+            "en": "Should I take the next dose if symptoms are still present?"
+          },
+          "a": {
+            "ar": "ما ينفعش قرار واحد لكل الأدوية وكل الحالات. تواصل مع الطبيب اللي وصف العلاج قبل الميعاد، خصوصًا لو الأعراض بدأت بعد زيادة أو بتمنع الأكل والشرب. هو اللي يحدد تثبيت الجرعة أو تأجيل الزيادة أو التوقف المؤقت أو غيره. لو فيه علامة خطر، اطلب تقييمًا عاجلًا بدل انتظار الرد الروتيني [1, 2, 7].",
+            "en": "There is no single answer for every medicine and circumstance. Contact the prescriber before it is due, especially if symptoms followed an increase or prevent eating and drinking. The clinician decides whether to keep, delay, reduce, or pause treatment. If a warning sign is present, seek urgent assessment instead of waiting for routine advice [1, 2, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ينفع آخد ملين من الصيدلية؟",
+            "en": "Can I take an over-the-counter laxative?"
+          },
+          "a": {
+            "ar": "ممكن الطبيب أو الصيدلي يرشح علاجًا قصير المدى بعد ما يعرف وظائف الكلى، باقي الأدوية، شدة الإمساك وهل فيه احتمال انسداد. ما تجمعش ملينات وما تستخدمش جرعة عالية عشوائيًا. لو الإمساك مع ألم شديد أو قيء أو انتفاخ وتوقف غازات، اطلب تقييمًا عاجلًا وما تبدأش ملينًا بنفسك [4, 5, 8, 10].",
+            "en": "A clinician or pharmacist may recommend short-term treatment after considering kidney function, other medicines, severity, and whether obstruction is possible. Do not combine laxatives or take a random high dose. Constipation with severe pain, vomiting, swelling, and no wind needs urgent assessment rather than self-treatment [4, 5, 8, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أزود الألياف بسرعة عشان الإمساك يتحسن؟",
+            "en": "Should I increase fibre quickly to relieve constipation?"
+          },
+          "a": {
+            "ar": "الأفضل تزود الألياف بالتدريج ومع سوائل مناسبة لحالتك؛ الزيادة المفاجئة ممكن تزود الانتفاخ وعدم الراحة، خصوصًا لو شربك قليل. لو فيه ألم شديد أو قيء أو توقف غازات، ما تزودش ألياف وانت مستني لأن الحالة محتاجة تقييم لاستبعاد انسداد [4, 6, 10].",
+            "en": "Increase fibre gradually and with fluids appropriate to your health. A sudden increase can worsen bloating and discomfort, particularly if fluid intake is low. If severe pain, vomiting, or inability to pass wind is present, do not add fibre while waiting because obstruction must be assessed [4, 6, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى ألم البطن يبقى طوارئ؟",
+            "en": "When does abdominal pain become an emergency?"
+          },
+          "a": {
+            "ar": "الألم الشديد أو المستمر، خصوصًا لو ممتد للظهر أو مع قيء متكرر، محتاج تقييمًا عاجلًا لاحتمال التهاب البنكرياس أو سبب مهم تاني. الألم مع انتفاخ وتوقف براز وغازات، دم أو براز أسود، إغماء، جفاف واضح أو صعوبة تنفس برضه ما يستناش متابعة عادية [1, 2, 4, 9, 10].",
+            "en": "Severe or persistent pain, especially if it extends to the back or accompanies repeated vomiting, needs urgent assessment for pancreatitis or another important cause. Pain with swelling and no stool or wind, blood or black stool, fainting, clear dehydration, or breathing difficulty should not wait for routine follow-up [1, 2, 4, 9, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه المعلومات اللي أقولها للطبيب؟",
+            "en": "What information should I give the clinician?"
+          },
+          "a": {
+            "ar": "قول اسم المادة وتركيز القلم، تاريخ آخر جرعة وأي زيادة قريبة، توقيت بداية الغثيان، مرات القيء، آخر تبرز وخروج الغازات، وقدرتك على الشرب والبول. اذكر كل الأدوية والمكملات والحمل المحتمل وأي تاريخ للمرارة أو البنكرياس أو الكلى؛ التفاصيل دي بتوجه التقييم وقرار الجرعة [1, 2, 4, 7].",
+            "en": "Give the active ingredient and pen strength, last dose and any recent increase, nausea onset, vomiting episodes, last bowel movement and passage of wind, fluid tolerance, and urine output. Include every medicine and supplement, possible pregnancy, and any gallbladder, pancreatic, or kidney history because these details guide assessment and dose decisions [1, 2, 4, 7]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "FDA — Wegovy (semaglutide) Prescribing Information, revised January 2026",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215256s030lbl.pdf"
+        },
+        {
+          "label": "FDA — Zepbound (tirzepatide) Prescribing Information, revised August 2026",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s041lbl.pdf"
+        },
+        {
+          "label": "NHS — Semaglutide: use, side effects, and safety advice",
+          "url": "https://www.nhs.uk/medicines/semaglutide/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Constipation",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Treatment for Constipation",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/treatment"
+        },
+        {
+          "label": "NIDDK — Eating, Diet & Nutrition for Constipation",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition"
+        },
+        {
+          "label": "Gorgojo-Martínez et al. — Clinical Recommendations to Manage Gastrointestinal Adverse Events with GLP-1 Receptor Agonists (J Clin Med, PMC9821052)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9821052/"
+        },
+        {
+          "label": "American College of Gastroenterology — Constipation and Defecation Problems",
+          "url": "https://gi.org/topics/constipation-and-defection-problems/"
+        },
+        {
+          "label": "MHRA — Strengthened warnings on acute pancreatitis with GLP-1 and dual GLP-1/GIP receptor agonists",
+          "url": "https://www.gov.uk/drug-safety-update/glp-1-receptor-agonists-and-dual-glp-1-slash-gip-receptor-agonists-strengthened-warnings-on-acute-pancreatitis-including-necrotising-and-fatal-cases"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Intestinal Pseudo-obstruction",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/intestinal-pseudo-obstruction/symptoms-causes"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "حقن إدارة الوزن",
+          "الغثيان",
+          "الإمساك",
+          "علاج السمنة بدون جراحة"
+        ],
+        "en": [
+          "weight-management injections",
+          "nausea",
+          "constipation",
+          "non-surgical weight management"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "غثيان وإمساك مع حقن التخسيس: أكمل ولا أوقف؟",
+          "en": "Weight-loss injection nausea and constipation"
+        },
+        "description": {
+          "ar": "غثيان وإمساك بعد حقنة التخسيس؟ اعرف إمتى تكلم الطبيب قبل الجرعة الجاية، وإيه الخطوات البسيطة وعلامات الخطر اللي محتاجة تقييم عاجل.",
+          "en": "Nausea or constipation after a weight-loss injection? Learn what to do, when to call the prescriber, and which warning signs need urgent care."
+        }
+      }
+    }
+  ]
+}
