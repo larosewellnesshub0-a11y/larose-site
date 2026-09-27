@@ -3,33 +3,11 @@
   "articles": [
     {
       "slug": "surgical-checks-are-a-team-pause",
-      "title": {
-        "ar": "تحديث علمي: تكرار أسئلة الأمان قبل العملية مقصود",
-        "en": "Scientific update: repeated safety questions before surgery are deliberate"
-      },
-      "excerpt": {
-        "ar": "قائمة الأمان الجراحي حولت التأكد من الهوية والعملية والمكان والحساسية لتوقف جماعي واضح، مش افتراض إن كل واحد عارف.",
-        "en": "The surgical safety checklist turned identity, procedure, site and allergy checks into explicit team pauses rather than assumptions."
-      },
+      "title": {"ar": "تحديث علمي: تكرار أسئلة الأمان قبل العملية مقصود", "en": "Scientific update: repeated safety questions before surgery are deliberate"},
+      "excerpt": {"ar": "قائمة الأمان الجراحي حولت التأكد من الهوية والعملية والمكان والحساسية لتوقف جماعي واضح، مش افتراض إن كل واحد عارف.", "en": "The surgical safety checklist turned identity, procedure, site and allergy checks into explicit team pauses rather than assumptions."},
       "category": "general-surgery",
-      "specialties": [
-        "general-surgery",
-        "bariatric-surgery"
-      ],
-      "tags": {
-        "ar": [
-          "أمان الجراحة",
-          "قائمة الأمان",
-          "الاستعداد للعملية",
-          "جراح عام"
-        ],
-        "en": [
-          "surgical safety",
-          "safety checklist",
-          "operation preparation",
-          "general surgery consultation"
-        ]
-      },
+      "specialties": ["general-surgery", "bariatric-surgery"],
+      "tags": {"ar": ["أمان الجراحة", "قائمة الأمان", "الاستعداد للعملية", "جراح عام"], "en": ["surgical safety", "safety checklist", "operation preparation", "general surgery consultation"]},
       "type": "update",
       "date": "2026-08-16",
       "readingTime": 9,
@@ -39,246 +17,38 @@
       "featured": false,
       "published": true,
       "sections": [
-        {
-          "id": "section-1",
-          "heading": {
-            "ar": "تكرار السؤال جزء من نظام الأمان، مش علامة إن الفريق ناسي",
-            "en": "Repeated questions are part of the safety system, not a sign the team forgot"
-          },
-          "body": {
-            "ar": "لما الاسم ونوع العملية ومكانها والحساسية يتسألوا أكتر من مرة، ده مقصود. كل مرحلة فيها فريق ومعلومة ومخاطر مختلفة، والتأكيد بصوت مسموع يمنع الاعتماد على الذاكرة أو الافتراض إن شخصاً آخر راجع النقطة. قائمة منظمة الصحة العالمية بتعمل ثلاث وقفات: قبل التخدير، قبل فتح الجلد، وقبل خروج المريض من غرفة العمليات. الهدف إن الفريق كله يشارك ويؤكد البنود من أداة مكتوبة. [1, 2]\n\nقائمة منظمة الصحة العالمية للأمان الجراحي بتجمع الفريق في توقفات واضحة قبل التخدير، قبل فتح الجلد، وقبل خروج المريض من غرفة العمليات. فيها تأكيد الهوية ونوع العملية ومكانها والموافقة والحساسية، مع مراجعة مخاطر وخطة التعافي.\n\nالتحديث هنا مش معلومة جديدة عن الجراحة؛ هو تغيير مستقر في طريقة منع الخطأ. الحاجات المهمة ما تتسابش للذاكرة أو لفكرة إن «أكيد الكل عارف». السؤال اللي اتسأل قبل كده ممكن يتكرر لأن كل توقف له فريق ولحظة وهدف مختلف.\n\nقول اسمك والعملية المتفق عليها والحساسية والأدوية بوضوح كل ما تتسأل. لو الكلام مش مطابق لفهمك، وقف وصحح قبل ما تكمل. خد قائمة أدوية محدثة، واذكر أي تغيير صحي حصل من وقت قرار العملية.\n\nوجود القائمة ما يضمنش نتيجة بلا مضاعفات، بس يدعم تواصل الفريق وتنفيذ خطوات أساسية باستمرار. ما تفسرش التكرار كشك أو فوضى؛ الأمان الجيد بيخلي التأكد مسموعاً ومشتركاً.\n\nيوم عملية المرارة يحتاج خطة مكتوبة من فريق الجراحة عن الطعام والشراب والأدوية والوصول والتعافي، لا افتراضات من تجارب الآخرين. ممكن تبحث عن “عملية المرارة بالمنظار كم تستغرق”، بس صيغة البحث لا تؤكد تشخيصاً ولا تحدد إجراءً آمناً أو علاجاً مناسباً. الهدف من المقال إنك تجهز لحديث أوضح مع الطبيب: ما التفاصيل المهمة، وما اللي ممكن يدخل في التقييم، ومتى نسرّع الخطوة. لا يغني ده عن الفحص أو التحاليل أو الخطة الفردية. [1, 2] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
-            "en": "When your name, procedure, site and allergies are asked more than once, that repetition is deliberate. Each stage involves different people, information and risks, and verbal confirmation prevents reliance on memory or an assumption that someone else checked. The WHO checklist uses three pauses: before anaesthesia, before skin incision and before the patient leaves the operating room. The whole team should participate and confirm items from a written tool. [1, 2]\n\nThe World Health Organization Surgical Safety Checklist brings the team together for explicit pauses before anaesthesia, before skin incision and before the patient leaves the operating room. It confirms identity, procedure, site, consent and allergies while sharing risks and the recovery plan.\n\nThe development is not a new fact about surgery but an established change in how error is prevented. Critical steps are not left to memory or the assumption that ‘everyone must know’. A question may be repeated because each pause has a different team, moment and purpose.\n\nState your name, agreed procedure, allergies and medicines clearly whenever asked. If what you hear does not match your understanding, stop and correct it before proceeding. Bring an updated medicine list and report any health change since surgery was planned.\n\nA checklist cannot guarantee a complication-free result, but it supports team communication and reliable completion of essential steps. Repetition should not be read as doubt or disorder; good safety makes verification audible and shared.\n\nGallbladder surgery day needs a written plan from the surgical team for food, drink, medicines, arrival and recovery, not assumptions from others’ experiences. People may arrive after searching “gallbladder surgery what to expect”, but a search phrase cannot confirm a diagnosis, identify a safe procedure or choose a treatment. This guide is designed to make a clinical conversation more useful: it explains which observations matter, what a clinician may consider and which changes should move the conversation sooner. It does not replace examination, testing or an individual plan. [1, 2]"
-          }
-        },
-        {
-          "id": "section-2",
-          "heading": {
-            "ar": "إيه اللي بيتأكد قبل التخدير؟",
-            "en": "What is confirmed before anaesthesia?"
-          },
-          "body": {
-            "ar": "قبل التخدير، الفريق بيطابق الهوية والإجراء والمكان والموافقة، ويسأل عن الحساسية ويقيّم مخاطر مجرى التنفس والنزيف ويتأكد إن مراقبة الأكسجين شغالة. التفاصيل بتختلف حسب الحالة والمستشفى، بس الفكرة واحدة: ما نبدأش مرحلة صعب الرجوع عنها قبل ما المعلومات الأساسية تبقى واضحة. لو سمعت معلومة غلط أو ناقصة، اتكلم فوراً حتى لو كنت جاوبت السؤال قبل كده. [1, 6]\n\nسبب العملية، الأعراض، نتائج الفحوص، جراحات سابقة وأي أدوية أو حساسية تؤثر في التفاصيل اللي يناقشها الفريق. سجل باختصار متى بدأت المشكلة، هل تأتي وتذهب، ما اللي يغيرها، ما اللي جربته وإزاي أثرت على النوم أو الشغل أو الدراسة أو الأكل أو الحركة. التسجيل مش اختباراً لك؛ هو نقطة بداية أوضح للفريق.\n\nالسكري، أدوية السيولة، الحمل، مشاكل القلب أو التنفس، التدخين والدعم المتاح بعد الخروج أمور لازم ذكرها مبكراً. العرض أو القياس نفسه ممكن يعني شيئاً مختلفاً من شخص لآخر. عشان كده ما تجعلش نتيجة صديق أو روتين مشهور أو قائمة على الإنترنت إجابة شخصية لك. الخطة الآمنة تبدأ بوضع المشكلة داخل القصة الصحية الكاملة. [3, 4] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
-            "en": "Before anaesthesia, the team matches identity, procedure, site and consent, asks about allergies, assesses airway and bleeding risks and confirms that oxygen monitoring is working. Details vary by patient and facility, but the principle is constant: do not enter a harder-to-reverse stage until key information is clear. If you hear something wrong or incomplete, speak up even if you answered the question earlier. [1, 6]\n\nReason for surgery, symptoms, test results, earlier operations and medicines or allergies affect the details the team discusses. A short, factual record is often more useful than trying to remember everything at once. Note when the concern began, whether it is constant or episodic, what changes it, what has already been tried and how it affects sleep, work, school, eating or activity. This is not homework to earn care; it gives the clinician a clearer starting point.\n\nDiabetes, blood-thinning medicines, pregnancy, heart or breathing concerns, smoking and support after discharge should be raised early. The same symptom or measurement can mean something different from one person to another. For that reason, avoid using a friend’s result, an influencer’s routine or a single online checklist as a personal answer. A safe plan begins by putting the concern beside the wider health story. [3, 4]"
-          }
-        },
-        {
-          "id": "section-3",
-          "heading": {
-            "ar": "الوقفة قبل فتح الجلد تجمع الفريق على خطة واحدة",
-            "en": "The pause before incision aligns the whole team"
-          },
-          "body": {
-            "ar": "في الوقفة دي أعضاء الفريق يعرفوا نفسهم وأدوارهم، ويؤكدوا المريض والإجراء والمكان، ويتكلم الجراح والتخدير والتمريض عن الخطوات الحرجة والمخاطر المتوقعة والتجهيزات والصور المطلوبة. دي مش قراءة سريعة يقوم بيها شخص لوحده. الأبحاث بتوضح إن طريقة التنفيذ والانتباه والمشاركة مهمة، وإن مجرد وجود ورقة موقعة ما يثبتش إن الحوار حصل بجودة كويسة. [4, 8]\n\nالتقييم غالباً يبدأ بالقصة والفحص وتحديد هل الأنسب متابعة أو تحليل أو تصوير أو إحالة أو عدم الحاجة لفحص فوري. التحاليل مش درجة نجاح، والنتيجة الطبيعية لا تنهي كل سؤال دائماً؛ كل فحص يجيب عن سؤال محدد. اسأل ما السؤال، وإزاي تستعد، ومتى ستراجع النتيجة.\n\nأثناء انتظار التقييم، اختر خطوات قليلة الخطورة ولا تخفي معلومات مهمة أو تخلق مشكلة جديدة. حاول ثبات الروتين قدر الإمكان، ولا تبدأ دواءً موصوفاً أو مكملات بجرعات عالية من نصيحة الإنترنت، ولا تغير أشياء كثيرة مرة واحدة. لو الأكل أو الحركة أو العناية أو تسجيل الأعراض مناسب، استخدمه كمعلومة للمتابعة لا كاختبار إرادة.\n\nالوعد الكبير ممكن يكون مغرياً لما تكون المشكلة مزعجة أو ظاهرة. احذر المنتجات مجهولة المصدر، أدوية الآخرين، الحرمان القاسي، الحقن غير الواضحة، التحاليل المتكررة من غير خطة أو النصيحة اللي تقول إن علامة واحدة تثبت مرضاً واحداً. كلمات مثل طبيعي وسريع ومضمون مش تقييماً طبياً. خذ اسم المنتج أو صورته أو ملصقه للموعد. [5, 8] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
-            "en": "At this pause, team members identify themselves and their roles, reconfirm the patient, procedure and site, and the surgeon, anaesthesia professional and nurse discuss critical steps, anticipated risks, equipment and required imaging. This is not a rapid solo recitation. Research shows that attention, participation and the way the checklist is completed matter; a signed form alone does not prove that a useful conversation occurred. [4, 8]\n\nAssessment usually starts with listening carefully and deciding whether examination, observation, laboratory tests, imaging, referral or no immediate test is the most useful next step. Tests are not a scorecard and a normal-looking result does not always end the conversation; each result answers a particular clinical question. Ask what question is being asked, how to prepare and when the result will be discussed.\n\nWhile waiting for assessment, choose low-risk steps that do not hide important information or create a new problem. Keep routines as steady as practical, do not begin prescription medicines or high-dose supplements from online advice, and avoid changing many things at the same time. If food, movement, skin care or symptom tracking is relevant, use it as information for follow-up rather than a test of discipline.\n\nA dramatic promise can be especially tempting when a concern is uncomfortable or visible. Be careful with unknown-source products, borrowed medicines, extreme restriction, unverified injections, repeated self-testing or advice that says one sign proves one condition. “Natural”, “fast” and “guaranteed” are marketing words, not a clinical assessment. Bring product names, photographs and labels to the appointment rather than guessing. [5, 8]"
-          }
-        },
-        {
-          "id": "section-4",
-          "heading": {
-            "ar": "القرار المفيد واضح ومشترك",
-            "en": "Decisions should be shared and specific"
-          },
-          "body": {
-            "ar": "الخطة الجيدة تشرح الفائدة المتوقعة وحدودها والبدائل والمخاطر المحتملة وإزاي ستتم المتابعة. الاختيار المناسب يختلف مع العمر والحمل والأدوية والأمراض والإجراءات السابقة والأولويات. من حقك أن تسأل ما اللي ممكن يغير الخطة، وما اللي نراقبه، ومن تتواصل معه بين الزيارات.\n\nخذ خطاً زمنياً قصيراً، وقائمة الأدوية والمكملات والنتائج المهمة وأسئلتك. لو الصور أو سجل يومي مفيدين، اسأل العيادة عن الشكل المناسب. اذكر حتى المنتجات أو العلاجات اللي تبدو محرجة أو اشتريتها أونلاين؛ ممكن تؤثر فعلاً في الأمان. الهدف مش أن تصل بتشخيص، بل بقصة دقيقة. [7, 9] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
-            "en": "A useful plan explains the expected benefit, limits, alternatives, possible harms and how progress will be reviewed. The right option can differ according to pregnancy, age, other conditions, current medicines, previous procedures and personal priorities. It is reasonable to ask what would make the plan change, what should be monitored and who to contact between appointments. Clear questions support informed decisions.\n\nBring a short timeline, a list of medicines and supplements, relevant results and questions you do not want to forget. If photographs or a diary would help, ask the clinic what format is useful. Mention anything that feels embarrassing, including over-the-counter products or treatments bought online; those details can materially affect safety. The goal is not to arrive with a diagnosis, but with an accurate story. [7, 9]"
-          }
-        },
-        {
-          "id": "section-5",
-          "heading": {
-            "ar": "متى لا ننتظر؟",
-            "en": "When not to wait"
-          },
-          "body": {
-            "ar": "بعد العملية، صعوبة تنفس، ألم صدر، نزف واضح، إغماء، قيء لا يتوقف أو ألم يتزايد بسرعة يحتاج تقييماً عاجلاً. لو لم تكن متأكداً من درجة الاستعجال، اطلب نصيحة طبية بدلاً من محاولة حسمها من مقال. الأولوية تتغير حسب العمر والحمل والأمراض وسرعة تغير الأعراض.\n\nقبل نهاية الزيارة اسأل إيه يعني تحسن في الحالة دي: هل هو عرض أخف، روتين أكثر أماناً، اتجاه مع الوقت، نتيجة تقرأ في سياقها أم معرفة علامات الخطر؟ اتفق على موعد مراجعة وما اللي ستأخذه معك. هكذا لا تتحول الخطة إلى تعليمات غامضة صعبة التطبيق أو التقييم.\n\nالمقال يساعدك في تحضير الأسئلة، بس مش المفروض إنه يؤخر الرعاية أو ينسخ علاج شخص آخر. المعلومات الصحية تتغير والظروف الفردية تفرق. استخدمه مع نصيحة الطبيب اللي يستطيع الفحص ومراجعة تاريخك وشرح ما يناسبك. [1, 2] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
-            "en": "After surgery, breathing difficulty, chest pain, clear bleeding, fainting, unrelenting vomiting or rapidly worsening pain needs urgent assessment. If you are unsure how urgent a change is, seek medical advice rather than trying to sort it out through an article. Urgency depends on the whole situation, including age, pregnancy, health conditions and how quickly symptoms are changing.\n\nBefore leaving a visit, ask what “better” means in this case. It might mean relief of a symptom, a safer routine, a trend over time, a result reviewed in context or simply knowing which warning signs matter. Agree on a review point and on what information to bring back. This prevents a plan from becoming a vague instruction that is difficult to follow or evaluate.\n\nEducational pages are useful for preparing questions, not for delaying care or copying another person’s treatment. Health information changes and individual circumstances matter. Use this page together with the advice of the clinician who can examine you, review your history and explain what applies to your situation. [1, 2]"
-          }
-        },
-        {
-          "id": "section-6",
-          "heading": {
-            "ar": "أسئلة مهمة عن الدليل",
-            "en": "Questions to ask about evidence"
-          },
-          "body": {
-            "ar": "لو اقترح الفريق خياراً، اسأل ما الدليل المناسب للمشكلة دي، وما شكل الفائدة المتوقعة في الحياة الواقعية، وما اللي ما زال غير مؤكد. الإجابة المسؤولة ممكن تكون أننا نحتاج معلومات أكثر أولاً، أو أن الخطوة ممكن تساعد جزءاً من المشكلة ومش كلها. ده مش نقصاً في الرعاية؛ هو طريقة لتجنب علاج غير لازم وتوقعات غير واقعية. اسأل عن مصدر موثوق أو إرشاد للمريض لو تحب أن تقرأ بين الزيارات.\n\nانظر لمن يقدم الادعاء، وهل يذكر المادة أو الطريقة بوضوح، وهل يشرح المخاطر، وهل يعترف بأن الناس احتياجاتهم مختلفة. تجربة شخص ممكن تشرح ما مر به، بس هي ما تثبتش أن الإجراء آمن أو مناسب للجميع. قبل دفع مال أو تغيير روتين، توقف عند رسالة تعتمد على الخوف أو الإحراج أو عرض محدود أو تركيبة سرية أو نتيجة مضمونة. الرعاية الموثوقة تترك مساحة للأسئلة والموافقة الواعية. [3, 4] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
-            "en": "When an option is suggested, ask what evidence supports it for the particular concern, what the likely benefit looks like in real life and what uncertainty remains. A responsible answer may be “we need more information first” or “this may help one part of the problem but not all of it.” That is not a failure to provide care; it is a way of avoiding unnecessary treatment and making expectations honest. Ask whether a reputable guideline or patient-information source is available if you would like to read more between visits.\n\nCheck who is making a claim, whether they name the active ingredient or method, whether they explain risks and whether they acknowledge that different people need different care. Testimonials can describe an experience but cannot show that an intervention is safe or suitable for everyone. Before spending money or changing a routine, pause when the message relies on fear, shame, a countdown, a secret formula or a guarantee. Reliable care should leave room for questions and informed consent. [3, 4]"
-          }
-        },
-        {
-          "id": "section-7",
-          "heading": {
-            "ar": "روتين قابل للاستمرار",
-            "en": "Supporting a sustainable routine"
-          },
-          "body": {
-            "ar": "الروتين القابل للاستمرار غالباً يبنى من خطوات صغيرة تناسب الحياة الحقيقية: النوم والشغل ووجبات الأسرة والوصول للرعاية والأعراض والحالة النفسية. مش مفيد إننا نعمل خطة ما يمكنش تنفيذها إلا بصورة مثالية لأيام قليلة. لو التوصية تبدو مستحيلة، قل ده في المتابعة. ممكن للفريق تحديد العائق أو تعديل الخطوة أو تقديم أولوية أخرى. الملاحظة الصادقة تحسن الخطة أكثر من المعاناة في صمت.\n\nالأرقام والصور وسجل الأعراض ممكن تفيد لو جُمعت بظروف متقاربة، بس هي مش القصة كلها. ممكن تتذبذب لأسباب عادية ولا تقيس الكرامة أو الجهد أو كل جوانب الصحة. ناقش التغير مع الطبيب اللي يعرف ليه اتجمعت. لو المتابعة نفسها تزيد القلق أو تدفع لسلوك مقيد أو قهري أو غير آمن، اذكر ده مبكراً. أداة المتابعة المفروض أن تخدم الرعاية لا أن تضيق الحياة.\n\nاذكر لكل طبيب أو مختص مهم في رعايتك الأمراض والأدوية والمكملات والإجراءات ذات الصلة. ده مهم خصوصاً قبل الجراحة وأثناء الحمل وعند بدء دواء جديد أو وجود أكثر من تخصص. القائمة الكاملة تقلل سوء الفهم اللي ممكن تجنبه. كما تساعد الفريق في تنسيق السؤال اللي تجيب عنه كل زيارة بدلاً من تكرار فحص أو إعطاء نصيحة تتعارض مع جزء آخر من الخطة. [5, 8] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.",
-            "en": "A sustainable routine is usually built from small decisions that fit actual life: sleep, work, family meals, access to care, symptoms and emotional wellbeing. It is not useful to create a plan that can only be followed perfectly for a few days. If a recommendation feels impossible, say so at follow-up. The team can often help identify the barrier, adapt the step or decide that a different priority comes first. Honest feedback improves the plan more than silent struggle.\n\nNumbers, photographs and symptom scores can be useful when collected consistently, but they should not become the whole story. They may fluctuate for ordinary reasons and they do not measure dignity, effort or every aspect of health. Discuss changes with the clinician who knows why they were collected. If tracking makes anxiety worse or leads to restrictive, compulsive or unsafe behaviour, mention that early. A follow-up tool should support care, not make daily life narrower.\n\nTell each clinician involved in your care about relevant diagnoses, medicines, supplements and procedures. This is especially important before surgery, during pregnancy, when starting a new medicine or when several specialties are involved. A complete list reduces avoidable misunderstandings. It also helps the team coordinate which question each appointment is answering instead of repeating a test or giving advice that conflicts with another part of the plan. [5, 8]"
-          }
-        },
-        {
-          "id": "section-8",
-          "heading": {
-            "ar": "لا توقف العلاج الموصوف فجأة",
-            "en": "Do not stop prescribed treatment abruptly"
-          },
-          "body": {
-            "ar": "لو شككت أن دواءً أو مكملاً أو إجراءً مرتبط بعرض، تواصل مع الطبيب أو الصيدلي اللي يستطيع إرشادك بأمان. إيقاف أو مضاعفة علاج موصوف من غير توجيه ممكن يخلق خطراً آخر. احتفظ باسم المنتج والجرعة والتوقيت للحديث. لو كان هناك اشتباه حساسية شديدة أو أثر جانبي خطير أو عرض طارئ، اطلب رعاية عاجلة حسب الحالة.\n\nالسؤال الجيد محدد: ما اللي نحاول تفسيره أو استبعاده أو متابعته أو تحسينه؟ ده يسهل معرفة هل مقال أو فيديو أو منشور مفيد فعلاً. المحتوى العام ممكن يطمئن، بس ما يقدرش أن يحسب الفحص أو النتيجة الخاصة بك. احتفظ بالمصدر الموثوق لمناقشته بدلاً من استخدامه لوصف علاج لنفسك. [7, 9] وده بيساعدك تفهم إيه اللي بيحصل وإمتى لازم تتحرك، من غير ما تحاول تشخّص نفسك أو تنسخ خطة شخص تاني.\n\nللقراءة المرتبطة شوف دليل يوم عملية المرارة، ودليل أعراض فتق جدار البطن، وعلامات خطر فتق البطن، ولو محتاج تقييم شخصي تقدر تستخدم احجز موعد. [1, 2]",
-            "en": "If you think a medicine, supplement or procedure may be linked to a symptom, contact the clinician or pharmacist who can advise safely. Stopping or doubling a prescribed treatment without guidance can create a separate risk. Keep the package, name, dose and timing available for the conversation. If there is a suspected severe allergy, serious side effect or emergency symptom, seek urgent care according to the situation.\n\nA good question is specific: what are we trying to explain, rule out, monitor or improve? That makes it easier to tell whether a new article, video or social-media post is relevant. Broad health content can be reassuring, but it cannot take account of an examination or a result that is unique to you. Save reliable information for discussion rather than using it to self-prescribe. [7, 9]\n\nFor related reading, see gallbladder operation-day guide, and abdominal-wall hernia symptoms guide, and abdominal hernia warning signs. If you need an individual assessment, you can book an appointment. [1, 2]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "دليل يوم عملية المرارة",
-                "url": "../articles/gallbladder-surgery-operation-day-guide.html"
-              },
-              {
-                "label": "دليل أعراض فتق جدار البطن",
-                "url": "../articles/abdominal-wall-hernia-symptoms-guide.html"
-              },
-              {
-                "label": "علامات خطر فتق البطن",
-                "url": "../articles/abdominal-hernia-warning-signs.html"
-              },
-              {
-                "label": "احجز موعد",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "gallbladder operation-day guide",
-                "url": "../articles/gallbladder-surgery-operation-day-guide.html"
-              },
-              {
-                "label": "abdominal-wall hernia symptoms guide",
-                "url": "../articles/abdominal-wall-hernia-symptoms-guide.html"
-              },
-              {
-                "label": "abdominal hernia warning signs",
-                "url": "../articles/abdominal-hernia-warning-signs.html"
-              },
-              {
-                "label": "book an appointment",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "section-1", "heading": {"ar": "تكرار السؤال جزء من نظام الأمان، مش علامة إن الفريق ناسي", "en": "Repeated questions are part of the safety system, not a sign the team forgot"}, "body": {"ar": "لو اتسألت عن اسمك، والعملية اللي هتعملها، والجهة، والحساسية من الأدوية أكتر من مرة في نفس اليوم، فالتكرار ده مقصود. كل مرحلة فيها ناس مختلفين، ومعلومات مختلفة، ومخاطر مختلفة، والتأكيد بالكلام بيمنع الاعتماد على الذاكرة أو على افتراض إن حد تاني اتأكد قبل كده. [1, 2]\n\nالفكرة دي مش اجتهاد من مستشفى معينة. منظمة الصحة العالمية عملت قايمة أمان جراحي بتجمع الفريق في وقفات محددة قبل التخدير، وقبل فتح الجلد، وقبل ما المريض يخرج من أوضة العمليات، وفي كل وقفة بيتراجع بنود مكتوبة بصوت عالي. [1, 2]\n\nعشان كده السؤال نفسه ممكن يتكرر من الممرضة في الاستقبال، وبعدين من طبيب التخدير، وبعدين من الجراح. ده مش لخبطة، ده معناه كل واحد بيتأكد بنفسه قبل الخطوة اللي هو مسؤول عنها. [1, 6]\n\nالمقال ده بيشرح القايمة دي بتتكون من إيه، والأبحاث قالت إيه عن أثرها، وإيه اللي بيخليها تنفع فعلاً، ودورك انت كمريض فيها. [2, 4]", "en": "When you are asked your name, your planned procedure, its side and your medicine allergies more than once on the same day, that repetition is deliberate. Each stage involves different people, different information and different risks, and saying it out loud prevents reliance on memory or on the assumption that someone else already checked. [1, 2]\n\nThis is not one hospital's habit. The World Health Organization developed a surgical safety checklist that brings the team together at set pauses before anaesthesia, before the skin incision and before the patient leaves the operating room, and at each pause written items are reviewed aloud. [1, 2]\n\nThat is why the same question may come from the admitting nurse, then the anaesthetist, then the surgeon. It is not confusion; it means each person confirms for themselves before the step they are responsible for. [1, 6]\n\nThis article explains what the checklist contains, what research has found about its effect, what makes it work in practice and your role in it as a patient. [2, 4]"}},
+        {"id": "section-2", "heading": {"ar": "القايمة جات منين؟", "en": "Where the checklist came from"}, "body": {"ar": "منظمة الصحة العالمية طلعت قايمة الأمان الجراحي ضمن مبادرة اسمها «الجراحة الآمنة بتنقذ الأرواح»، والهدف كان تقليل المضاعفات والوفيات اللي ممكن تتجنب في العمليات حوالين العالم. [2]\n\nالقايمة قصيرة عن قصد، ومقسومة على تلات مراحل: مرحلة قبل التخدير، ومرحلة قبل فتح الجلد، ومرحلة قبل خروج المريض من أوضة العمليات. كل مرحلة ليها بنود قليلة ومحددة بتتقال بصوت عالي. [1, 2]\n\nمنظمة الصحة العالمية بتشجع المستشفيات إنها تعدّل القايمة على حسب ظروفها، فتضيف بنود أو تغير الترتيب، بس من غير ما تشيل خطوات الأمان الأساسية. عشان كده ممكن تلاحظ الشكل مختلف شوية من مستشفى للتانية. [1, 2]\n\nوالقايمة مش معمولة عشان تغطي كل حاجة في العملية. هي أداة بتضمن الحد الأدنى من الخطوات المهمة، وبتفضل الإجراءات التانية للتعقيم والتخدير والتمريض شغالة جنبها زي ما هي. [1, 2]\n\nالفكرة الأساسية إن الخطوات الحرجة ما تتسابش للذاكرة أو للافتراض إن «أكيد حد عملها»، وإن أي حد في الفريق يقدر يوقف الخطوة لو فيه حاجة مش مظبوطة. [2, 6]", "en": "The WHO introduced the surgical safety checklist as part of an initiative called Safe Surgery Saves Lives, aiming to reduce avoidable complications and deaths from surgery around the world. [2]\n\nThe checklist is deliberately short and divided into three phases: one before anaesthesia, one before the skin incision and one before the patient leaves the operating room. Each phase has a few specific items spoken aloud. [1, 2]\n\nThe WHO encourages hospitals to adapt the checklist to their own setting, adding items or changing the order, without removing the core safety steps. That is why the format may look a little different from one hospital to another. [1, 2]\n\nThe checklist is not designed to cover everything in an operation. It is a tool that secures a minimum set of important steps, while the other procedures for sterility, anaesthesia and nursing continue alongside it as usual. [1, 2]\n\nThe core idea is that critical steps are not left to memory or to the assumption that someone must have done them, and that anyone on the team can stop the step if something is not right. [2, 6]"}},
+        {"id": "section-3", "heading": {"ar": "قبل التخدير: التأكد من الأساسيات", "en": "Before anaesthesia: confirming the basics"}, "body": {"ar": "قبل ما التخدير يبدأ، الفريق بيتأكد من هويتك، والعملية المطلوبة، والجهة أو المكان، وإنك موقّع على الموافقة. ولو العملية ليها جهة يمين وشمال، ممكن يتعلم على المكان بقلم قبل العملية. [1, 2]\n\nوبيتسأل تاني عن الحساسية من الأدوية، وبيتأكد إن أجهزة التخدير اتراجعت وإن جهاز قياس الأكسجين متركب وشغال. الخطوات دي بتتعمل قبل ما تنام، عشان وقتها لسه تقدر ترد وتصحح. [1, 2]\n\nالفريق كمان بيسأل نفسه أسئلة عن المخاطر المتوقعة: هل فيه صعوبة متوقعة في مجرى الهوا أو خطر استنشاق؟ وهل فيه احتمال نزيف كبير محتاج تجهيز محاليل أو دم؟ الأسئلة دي بتخلي الفريق جاهز قبل ما المشكلة تحصل مش بعدها. [1, 2]\n\nالمبدأ هنا بسيط: ما ندخلش في مرحلة صعب نرجع منها إلا لما المعلومات المهمة تبقى واضحة. ولو سمعت حاجة غلط أو ناقصة، قولها حتى لو كنت جاوبت على نفس السؤال قبل كده. [1, 6]", "en": "Before anaesthesia starts, the team confirms your identity, the planned procedure, the site and that you have signed the consent. If the operation has a right and left side, the site may be marked with a pen beforehand. [1, 2]\n\nThey ask again about medicine allergies and confirm that the anaesthesia equipment has been checked and that the oxygen monitor is attached and working. These steps happen before you are asleep, while you can still answer and correct. [1, 2]\n\nThe team also asks itself about expected risks: is a difficult airway or a risk of aspiration expected? Is there a chance of major blood loss that needs fluids or blood prepared? These questions prepare the team before a problem happens rather than after. [1, 2]\n\nThe principle is simple: do not enter a stage that is hard to reverse until the key information is clear. If you hear something wrong or incomplete, say so, even if you answered the same question earlier. [1, 6]"}},
+        {"id": "section-4", "heading": {"ar": "قبل فتح الجلد: وقفة الفريق كله", "en": "Before the incision: the whole team pauses"}, "body": {"ar": "الوقفة دي بتتعمل وانت نايم، وبيشارك فيها الجراح وطبيب التخدير والتمريض مع بعض. كل واحد في الفريق بيعرّف نفسه باسمه ودوره، وده بيسهّل إن أي حد يتكلم لو شاف مشكلة. [1, 2]\n\nبعدين بيتأكدوا تاني من المريض والعملية والمكان، وبيتأكدوا إن المضاد الحيوي الوقائي اتدى في الوقت المناسب لو كان مطلوب، وإن الأشعة المهمة معروضة وجاهزة لو العملية محتاجاها. [1, 2]\n\nكل تخصص بيقول المتوقع من ناحيته: الجراح بيقول الخطوات الحرجة والمدة المتوقعة واحتمال النزيف، وطبيب التخدير بيقول أي مخاوف خاصة بالمريض، والتمريض بيأكد التعقيم وجاهزية الأجهزة. [1, 2]\n\nحسب الأبحاث، الوقفة دي مش المفروض تبقى قراية سريعة من شخص واحد. الانتباه ومشاركة الفريق وطريقة التنفيذ هي اللي بتفرق، والورقة الموقّعة لوحدها مش دليل إن النقاش المفيد حصل. [4, 8]", "en": "This pause happens while you are asleep, and the surgeon, anaesthetist and nursing staff take part together. Each team member introduces themselves by name and role, which makes it easier for anyone to speak up if they see a problem. [1, 2]\n\nThey then reconfirm the patient, procedure and site, check that preventive antibiotics were given at the right time if needed, and confirm that essential imaging is displayed and ready if the operation needs it. [1, 2]\n\nEach discipline states what it expects: the surgeon describes the critical steps, expected duration and possible blood loss, the anaesthetist raises any patient-specific concerns, and nursing confirms sterility and equipment readiness. [1, 2]\n\nResearch shows this pause should not be a rapid recitation by one person. Attention, team participation and how the pause is carried out are what make the difference, and a signed form alone does not prove a useful conversation took place. [4, 8]"}},
+        {"id": "section-5", "heading": {"ar": "قبل الخروج من أوضة العمليات", "en": "Before leaving the operating room"}, "body": {"ar": "المرحلة التالتة بتتعمل قبل ما المريض يخرج من أوضة العمليات. التمريض بيأكد بصوت عالي اسم العملية اللي اتعملت فعلاً، لأنها ساعات بتختلف عن المخطط لو الجراح لقى حاجة غير متوقعة. [1, 2]\n\nوبيتأكدوا إن عدد الأدوات والشاش والإبر مظبوط، عشان ما يتنسيش حاجة جوه الجسم، وإن أي عينة اتاخدت عليها اسم المريض صح قبل ما تروح المعمل. [1, 2]\n\nولو حصلت أي مشكلة في الأجهزة أثناء العملية، بتتسجل عشان تتصلح قبل ما حد تاني يستخدمها. وده جزء من الأمان للمرضى اللي جايين بعدك كمان، لأن الجهاز اللي عطل مرة ممكن يعطل تاني في عملية جاية لو محدش بلّغ عنه. [1]\n\nوفي الآخر، الجراح وطبيب التخدير والتمريض بيراجعوا مع بعض أهم النقط اللي محتاجة متابعة في الإفاقة وبعد العملية، عشان الفريق اللي هيستلم المريض يعرف يركز على إيه. [1, 2]", "en": "The third phase happens before the patient leaves the operating room. The nurse confirms aloud the name of the procedure actually performed, because it sometimes differs from the plan if the surgeon found something unexpected. [1, 2]\n\nThe team confirms that the counts of instruments, swabs and needles are correct, so nothing is left inside the body, and that any specimen is labelled with the correct patient name before it goes to the laboratory. [1, 2]\n\nAny equipment problem during the operation is recorded so it can be fixed before anyone else uses it. This is part of safety for the patients who come after you too, because equipment that failed once may fail again in a later operation if nobody reports it. [1]\n\nFinally, the surgeon, anaesthetist and nursing staff review together the key points that need attention in recovery and after the operation, so the team receiving the patient knows what to focus on. [1, 2]"}},
+        {"id": "section-6", "heading": {"ar": "الأبحاث قالت إيه؟", "en": "What the research found"}, "body": {"ar": "أشهر دراسة عن القايمة اتنشرت سنة 2009، واتعملت في تمن مستشفيات في تمن مدن حوالين العالم، في بلاد غنية وبلاد دخلها أقل. الباحثين قارنوا أكتر من 3700 مريض قبل استخدام القايمة بحوالي 3900 مريض بعد استخدامها. [3]\n\nفي الدراسة دي، نسبة الوفيات بعد العمليات نزلت من 1.5% لـ 0.8%، ونسبة المضاعفات أثناء الإقامة في المستشفى نزلت من 11% لـ 7%. ده فرق كبير، بس الدراسة كانت مقارنة قبل وبعد، مش تجربة عشوائية، فممكن حاجات تانية تكون ساهمت في التحسن. [3]\n\nالمراجعات المنهجية اللي جمعت دراسات كتير بعد كده لقت إن القايمة مرتبطة غالباً بتحسن في المضاعفات وفي التواصل بين الفريق، بس النتايج مش واحدة في كل مكان، والأثر بيعتمد جامد على طريقة التطبيق. [4, 5, 8]\n\nودراسة من فنلندا سألت فرق العمليات عن رأيهم، وكتير منهم شافوا إن القايمة حسّنت أمان المرضى والتواصل جوه أوضة العمليات. يعني الفايدة مش في الأرقام بس، وكمان في إحساس الفريق إنه يقدر يتكلم. [6]\n\nوخلي بالك: النسب دي متوسطات لمرضى كتير في مستشفيات مختلفة، مش رقم خاص بيك. خطر أي عملية بيختلف حسب نوعها وحالتك الصحية، والجراح وطبيب التخدير هما اللي يقدروا يشرحوا لك المخاطر في حالتك انت. [3, 5]", "en": "The best-known study of the checklist was published in 2009 and took place in eight hospitals in eight cities around the world, in both high-income and lower-income countries. The researchers compared more than 3,700 patients before the checklist was introduced with about 3,900 patients afterwards. [3]\n\nIn that study, the death rate after surgery fell from 1.5% to 0.8%, and the rate of inpatient complications fell from 11% to 7%. That is a large difference, but the study compared before and after rather than being a randomised trial, so other factors may have contributed to the improvement. [3]\n\nSystematic reviews that later pooled many studies found the checklist is often associated with fewer complications and better team communication, but the results are not the same everywhere, and the effect depends heavily on how it is implemented. [4, 5, 8]\n\nA study from Finland asked operating teams for their views, and many felt the checklist improved patient safety and communication in the operating room. So the benefit is not only in the numbers but also in the team feeling able to speak up. [6]\n\nKeep in mind that these percentages are averages for many patients in different hospitals, not a figure for you personally. The risk of any operation varies with its type and your health, and your surgeon and anaesthetist are the ones who can explain the risks in your own case. [3, 5]"}},
+        {"id": "section-7", "heading": {"ar": "ليه طريقة التطبيق أهم من الورقة؟", "en": "Why how it is used matters more than the paper"}, "body": {"ar": "القايمة مش سحر. لو اتعاملت على إنها ورقة لازم تتمضي وخلاص، أو اتقرت بسرعة وكل واحد مشغول في حاجة تانية، بتفقد جزء كبير من فايدتها. [4, 7]\n\nالأبحاث اللي درست العوائق لقت إن ضغط الوقت، والتدرج الوظيفي اللي بيخلي الأصغر يتردد يتكلم، وقلة التدريب، وإحساس بعض الناس إن القايمة تكرار ملوش لازمة، كلها بتقلل الالتزام. وفي المقابل، دعم القيادة والتدريب ومشاركة الفريق كله بيزودوه. [7]\n\nطريقة إدخال القايمة في المستشفى كمان بتفرق. وحسب الأبحاث، التدريب وتعديل القايمة على ظروف المكان، ووجود ناس بتشجع عليها من جوه الفريق، بيرفعوا نسبة استخدامها صح. [9]\n\nعشان كده مستشفيات كتير بتعمل مراجعات دورية تشوف فيها القايمة بتتطبق كاملة ولا فيه بنود بتتفوت. المراجعات دي بتساعد الفريق يلاقي الخطوات اللي محتاجة تحسين بدل ما يفترض إن كله تمام. [10]", "en": "The checklist is not magic. If it is treated as a form that simply has to be signed, or read quickly while everyone is busy with something else, it loses much of its value. [4, 7]\n\nResearch on barriers found that time pressure, hierarchy that makes junior staff hesitant to speak, lack of training and a feeling among some staff that the checklist is pointless repetition all reduce compliance. In contrast, leadership support, training and whole-team participation increase it. [7]\n\nThe way the checklist is introduced into a hospital also matters. Research shows that training, adapting the checklist to the local setting and having champions within the team raise the rate of proper use. [9]\n\nThat is why many hospitals run periodic audits to see whether the checklist is completed in full or whether some items are skipped. These audits help the team find the steps that need improvement instead of assuming everything is fine. [10]"}},
+        {"id": "section-8", "heading": {"ar": "دورك انت كمريض", "en": "Your role as a patient"}, "body": {"ar": "انت جزء من نظام الأمان ده. قول اسمك كامل، والعملية اللي متفق عليها، والجهة، وأي حساسية، بوضوح كل مرة تتسأل. ولو اللي سمعته مش مطابق للي فهمته، وقّف واسأل قبل ما حاجة تكمل. [1, 2]\n\nخد معاك قايمة محدثة بكل أدويتك والمكملات، وقول للفريق لو حصل أي تغير في صحتك من ساعة ما العملية اتحددت، زي دور برد أو سخونية أو دوا جديد. [2, 6]\n\nالقايمة ما بتضمنش إن العملية تعدي من غير أي مضاعفات، بس بتقلل الأخطاء اللي ممكن تتجنب وبتدعم التواصل. فتكرار الأسئلة ما يتفهمش على إنه شك أو لخبطة، ده علامة إن الفريق شغال بنظام. [3, 4]\n\nوافتكر إن القايمة بتتأكد إنك موقّع على الموافقة، بس فهم العملية نفسها بيحصل قبل كده في كلامك مع الجراح. اسأل عن سبب العملية، والبدائل، والمخاطر المتوقعة، وهتروّح إمتى، قبل ما تمضي، ومتترددش تطلب شرح تاني لو حاجة مش واضحة. [1, 2]\n\nلو هتعمل عملية مرارة، اقرا دليل يوم عملية المرارة. ولو عندك انتفاخ في البطن، اقرا دليل أعراض فتق جدار البطن وعلامات خطر فتق البطن. ولو محتاج تقييم جراحي، تقدر تحجز موعد مع الجراح. [1, 2]", "en": "You are part of this safety system. State your full name, the agreed procedure, the side and any allergies clearly every time you are asked. If what you hear does not match your understanding, stop and ask before anything continues. [1, 2]\n\nBring an up-to-date list of all your medicines and supplements, and tell the team about any change in your health since the operation was planned, such as a cold, a fever or a new medicine. [2, 6]\n\nThe checklist does not guarantee an operation without complications, but it reduces avoidable errors and supports communication. Repeated questions should not be read as doubt or disorder; they are a sign the team is working to a system. [3, 4]\n\nRemember that the checklist confirms you have signed the consent, but understanding the operation itself happens earlier, in your conversation with the surgeon. Ask about the reason for the operation, the alternatives, the expected risks and when you will go home before you sign, and do not hesitate to ask for another explanation if something is unclear. [1, 2]\n\nIf you are having gallbladder surgery, read our gallbladder operation-day guide. If you have a bulge in the abdomen, read the abdominal-wall hernia symptoms guide and abdominal hernia warning signs. If you need a surgical assessment, you can book an appointment with the surgeon. [1, 2]"}, "links": {"ar": [{"label": "دليل يوم عملية المرارة", "url": "../articles/gallbladder-surgery-operation-day-guide.html"}, {"label": "دليل أعراض فتق جدار البطن", "url": "../articles/abdominal-wall-hernia-symptoms-guide.html"}, {"label": "علامات خطر فتق البطن", "url": "../articles/abdominal-hernia-warning-signs.html"}, {"label": "تحجز موعد", "url": "../patients/booking.html"}], "en": [{"label": "gallbladder operation-day guide", "url": "../articles/gallbladder-surgery-operation-day-guide.html"}, {"label": "abdominal-wall hernia symptoms guide", "url": "../articles/abdominal-wall-hernia-symptoms-guide.html"}, {"label": "abdominal hernia warning signs", "url": "../articles/abdominal-hernia-warning-signs.html"}, {"label": "book an appointment", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "هل أبدأ علاجاً من الإنترنت؟",
-            "en": "Should I start a treatment from the internet?"
-          },
-          "a": {
-            "ar": "لا. المحتوى العام لا يعرف تاريخك الصحي أو أدويتك أو نتيجة الفحص. استخدمه لتجهيز أسئلتك، وراجع الطبيب أو المختص قبل بدء أو إيقاف علاج أو مكمل أو إجراء. [1, 6] عشان كده اسأل الطبيب إيه الأنسب وإمتى تراجع.",
-            "en": "No. General content does not know your health history, medicines or examination findings. Use it to prepare questions and review any medicine, supplement or procedure with a clinician before starting or stopping it. [1, 6]"
-          }
-        },
-        {
-          "q": {
-            "ar": "ما المعلومات اللي تساعد في الموعد؟",
-            "en": "What information helps at an appointment?"
-          },
-          "a": {
-            "ar": "وقت البداية، ما اللي تغير، الأدوية والمكملات، المنتجات أو الإجراءات اللي جربتها والنتائج السابقة كلها مفيدة. خذ صورة أو سجلاً فقط إذا كان مناسباً للمشكلة أو طلبه الفريق. [2, 7] عشان كده اسأل الطبيب إيه الأنسب وإمتى تراجع.",
-            "en": "Onset, what changed, medicines and supplements, products or procedures tried and previous results are useful. Bring a photograph or diary only when it suits the concern or the team has requested it. [2, 7]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل النتيجة الطبيعية تعني أنه لا توجد مشكلة؟",
-            "en": "Does a normal result mean there is no problem?"
-          },
-          "a": {
-            "ar": "مش بالضرورة. كل تحليل أو تصوير يجيب عن سؤال محدد، والطبيب يقرأه مع القصة والفحص. اسأل ما اللي توضحه النتيجة وما الخطوة التالية لو استمرت الأعراض. [3, 8] عشان كده اسأل الطبيب إيه الأنسب وإمتى تراجع.",
-            "en": "Not necessarily. Every test or scan answers a particular question and is read with history and examination. Ask what the result explains and what the next step is if symptoms continue. [3, 8]"
-          }
-        },
-        {
-          "q": {
-            "ar": "متى أطلب رعاية عاجلة؟",
-            "en": "When should I seek urgent care?"
-          },
-          "a": {
-            "ar": "بعد العملية، صعوبة تنفس، ألم صدر، نزف واضح، إغماء، قيء لا يتوقف أو ألم يتزايد بسرعة يحتاج تقييماً عاجلاً. لا تنتظر موعداً عادياً إذا كانت الحالة شديدة أو تتفاقم بسرعة. [4, 9] عشان كده اسأل الطبيب إيه الأنسب وإمتى تراجع.",
-            "en": "After surgery, breathing difficulty, chest pain, clear bleeding, fainting, unrelenting vomiting or rapidly worsening pain needs urgent assessment Do not wait for a routine appointment if the problem is severe or rapidly worsening. [4, 9]"
-          }
-        },
-        {
-          "q": {
-            "ar": "إيه اللي آخده معايا للموعد؟",
-            "en": "What should I bring to the appointment?"
-          },
-          "a": {
-            "ar": "هات ملخص قصير بإمتى بدأت الأعراض وإيه اللي بيزودها أو بيهديها، وقائمة بالأدوية والمكملات (خصوصاً مسيلات الدم)، وأي تقارير عمليات قديمة أو أشعة أو تحاليل حديثة. ده بيساعد الطبيب يركز في القصة والكشف ويقرر هل الأشعة محتاجينها فعلاً ولا لأ. [1, 10]",
-            "en": "Bring a short timeline of when the symptoms started and what makes them better or worse, a list of your medicines and supplements (especially blood thinners), and any previous operation reports, imaging or recent test results. This helps the clinician focus the history and examination and decide whether imaging is actually needed. [1, 10]"
-          }
-        }
+        {"q": {"ar": "ليه بيسألوني عن اسمي والعملية أكتر من مرة؟", "en": "Why am I asked my name and procedure more than once?"}, "a": {"ar": "ده مقصود. قايمة الأمان الجراحي فيها وقفات قبل التخدير وقبل فتح الجلد وقبل الخروج من أوضة العمليات، وكل شخص بيتأكد بنفسه قبل الخطوة اللي هو مسؤول عنها. [1, 2]", "en": "It is deliberate. The surgical safety checklist has pauses before anaesthesia, before the incision and before leaving the operating room, and each person confirms for themselves before the step they are responsible for. [1, 2]"}},
+        {"q": {"ar": "هل القايمة بتقلل المضاعفات فعلاً؟", "en": "Does the checklist really reduce complications?"}, "a": {"ar": "أشهر دراسة لقت نزول في الوفيات والمضاعفات بعد استخدامها، والمراجعات بعد كده لقت تحسن في أماكن كتير، بس الأثر بيعتمد على طريقة التطبيق ومش واحد في كل مكان. [3, 4, 8]", "en": "The best-known study found fewer deaths and complications after it was introduced, and later reviews found improvement in many settings, but the effect depends on how it is used and is not the same everywhere. [3, 4, 8]"}},
+        {"q": {"ar": "ليه ممكن يعلّموا على مكان العملية بالقلم؟", "en": "Why might they mark the operation site with a pen?"}, "a": {"ar": "لو العملية ليها جهة يمين وشمال أو مكان محدد، العلامة بتساعد الفريق يتأكد من المكان الصح، وده من بنود الأمان قبل التخدير. [1, 2]", "en": "If the operation has a right and left side or a specific site, the mark helps the team confirm the correct place, and it is one of the safety items before anaesthesia. [1, 2]"}},
+        {"q": {"ar": "أعمل إيه لو سمعت معلومة غلط عن العملية؟", "en": "What should I do if I hear wrong information about my operation?"}, "a": {"ar": "قولها فوراً بوضوح، حتى لو كنت جاوبت قبل كده. الغرض من الوقفات إن أي حد، بما فيهم انت، يقدر يوقف الخطوة لو فيه حاجة مش مظبوطة. [1, 6]", "en": "Say so immediately and clearly, even if you answered before. The purpose of the pauses is that anyone, including you, can stop the step if something is not right. [1, 6]"}},
+        {"q": {"ar": "هل القايمة بتضمن إن العملية تعدي من غير مشاكل؟", "en": "Does the checklist guarantee a problem-free operation?"}, "a": {"ar": "لأ. هي بتقلل الأخطاء اللي ممكن تتجنب وبتحسن التواصل، بس أي عملية ليها مخاطر خاصة بيها، والجراح بيشرحها لك قبل الموافقة. [3, 4]", "en": "No. It reduces avoidable errors and improves communication, but every operation has its own risks, which the surgeon explains before you give consent. [3, 4]"}}
       ],
       "sources": [
-        {
-          "label": "WHO, Surgical Safety Checklist tools and resources",
-          "url": "https://www.who.int/teams/integrated-health-services/quality-of-care-and-patient-safety/patient-safety-guidance-and-tools/safe-surgery/tool-and-resources"
-        },
-        {
-          "label": "WHO, Safe surgery saves lives: frequently asked questions",
-          "url": "https://www.who.int/news-room/questions-and-answers/item/safe-surgery-saves-lives-frequently-asked-questions"
-        },
-        {
-          "label": "Haynes et al., A surgical safety checklist to reduce morbidity and mortality in a global population (2009)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/19144931/"
-        },
-        {
-          "label": "Treadwell et al., Surgical checklists: a systematic review of impacts and implementation (2014)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23922403/"
-        },
-        {
-          "label": "Alsadoun et al., Evaluating the Impact of the WHO Surgical Safety Checklist (2024)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39435236/"
-        },
-        {
-          "label": "Helmiö et al., Towards better patient safety: WHO Surgical Safety Checklist (2011)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/21481197/"
-        },
-        {
-          "label": "Hussein et al., Barriers and facilitators associated with surgical safety checklists (2023)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37675871/"
-        },
-        {
-          "label": "Abbott et al., Effect of the surgical safety checklist on provider and patient outcomes (2022)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/35393355/"
-        },
-        {
-          "label": "White et al., Implementation Strategies and Uptake of the WHO Surgical Safety Checklist (2021)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33064387/"
-        },
-        {
-          "label": "Bajracharya et al., WHO Surgical Safety Checklist implementation audit (2018)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30386026/"
-        }
+        {"label": "WHO, Surgical Safety Checklist tools and resources", "url": "https://www.who.int/teams/integrated-health-services/quality-of-care-and-patient-safety/patient-safety-guidance-and-tools/safe-surgery/tool-and-resources"},
+        {"label": "WHO, Safe surgery saves lives: frequently asked questions", "url": "https://www.who.int/news-room/questions-and-answers/item/safe-surgery-saves-lives-frequently-asked-questions"},
+        {"label": "Haynes et al., A surgical safety checklist to reduce morbidity and mortality in a global population (2009)", "url": "https://pubmed.ncbi.nlm.nih.gov/19144931/"},
+        {"label": "Treadwell et al., Surgical checklists: a systematic review of impacts and implementation (2014)", "url": "https://pubmed.ncbi.nlm.nih.gov/23922403/"},
+        {"label": "Alsadoun et al., Evaluating the Impact of the WHO Surgical Safety Checklist (2024)", "url": "https://pubmed.ncbi.nlm.nih.gov/39435236/"},
+        {"label": "Helmiö et al., Towards better patient safety: WHO Surgical Safety Checklist (2011)", "url": "https://pubmed.ncbi.nlm.nih.gov/21481197/"},
+        {"label": "Hussein et al., Barriers and facilitators associated with surgical safety checklists (2023)", "url": "https://pubmed.ncbi.nlm.nih.gov/37675871/"},
+        {"label": "Abbott et al., Effect of the surgical safety checklist on provider and patient outcomes (2022)", "url": "https://pubmed.ncbi.nlm.nih.gov/35393355/"},
+        {"label": "White et al., Implementation Strategies and Uptake of the WHO Surgical Safety Checklist (2021)", "url": "https://pubmed.ncbi.nlm.nih.gov/33064387/"},
+        {"label": "Bajracharya et al., WHO Surgical Safety Checklist implementation audit (2018)", "url": "https://pubmed.ncbi.nlm.nih.gov/30386026/"}
       ],
-      "seo": {
-        "title": {
-          "ar": "أسئلة الأمان قبل العملية: ليه بتتكرر؟",
-          "en": "Why safety questions repeat before surgery"
-        },
-        "description": {
-          "ar": "تكرار الاسم والعملية والمكان والحساسية وقفات أمان جماعية مش نسيان. اعرف مراحل القائمة، ودور الفريق، وإمتى تنبههم لمعلومة ناقصة.",
-          "en": "Repeated identity, procedure, site and allergy questions are team safety pauses. Learn each stage, the team roles and when to speak up."
-        }
-      },
+      "seo": {"title": {"ar": "أسئلة الأمان قبل العملية: ليه بتتكرر؟", "en": "Why safety questions repeat before surgery"}, "description": {"ar": "تكرار الاسم والعملية والمكان والحساسية وقفات أمان جماعية مش نسيان. اعرف مراحل القائمة، ودور الفريق، وإمتى تنبههم لمعلومة ناقصة.", "en": "Repeated identity, procedure, site and allergy questions are team safety pauses. Learn each stage, the team roles and when to speak up."}},
       "updatedAt": "2026-09-27",
       "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "اتوسّع التحديث بشرح وقفات الأمان ودور المريض وأدلة التنفيذ واتراجع طبياً من جديد.",
-            "en": "The update was expanded with safety pauses, the patient role and implementation evidence and was medically re-reviewed."
-          }
-        }
+        {"date": "2026-09-27", "note": {"ar": "اتكتب المقال من جديد عشان يشرح مراحل قايمة الأمان الجراحي التلاتة، ونتايج الأبحاث عنها، وإيه اللي بيخليها تنفع، ودور المريض، واتراجعت الصياغة العربية بالعامية المصرية.", "en": "The article was rewritten to explain the three phases of the surgical safety checklist, the research findings, what makes it work and the patient's role, and the Arabic was revised into Egyptian Arabic."}}
       ]
     }
   ]

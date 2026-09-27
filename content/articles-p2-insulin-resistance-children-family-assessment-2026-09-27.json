@@ -7,324 +7,51 @@
       "published": true,
       "featured": false,
       "category": "pediatrics",
-      "specialties": [
-        "pediatrics",
-        "clinical-nutrition"
-      ],
+      "specialties": ["pediatrics", "clinical-nutrition"],
       "date": "2026-09-12",
       "updatedAt": "2026-09-27",
       "readingTime": 10,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
       "image": "assets/img/articles/insulin-resistance-children-cover.webp",
-      "title": {
-        "ar": "مقاومة الإنسولين عند الأطفال: تقييم وخطة للأسرة",
-        "en": "Insulin resistance in children: a family assessment plan"
-      },
-      "excerpt": {
-        "ar": "تقييم مقاومة الإنسولين عند الطفل بيجمع منحنى النمو والبلوغ والتاريخ العائلي والأعراض، وبعدها الطبيب يحدد هل فحص السكر أو متابعة الأسرة هي الخطوة المناسبة.",
-        "en": "Assessing insulin resistance in a child brings together growth, puberty, family history and symptoms before deciding whether glucose tests or family follow-up are appropriate."
-      },
-      "tags": {
-        "ar": [
-          "مقاومة الإنسولين للأطفال",
-          "تقييم طبي منظم",
-          "معلومات صحية موثوقة"
-        ],
-        "en": [
-          "insulin resistance in children",
-          "organised assessment",
-          "health education"
-        ]
-      },
+      "title": {"ar": "مقاومة الإنسولين عند الأطفال: تقييم وخطة للأسرة", "en": "Insulin resistance in children: a family assessment plan"},
+      "excerpt": {"ar": "تقييم مقاومة الإنسولين عند الطفل بيجمع منحنى النمو والبلوغ والتاريخ العائلي والأعراض، وبعدها الطبيب يحدد هل فحص السكر أو متابعة الأسرة هي الخطوة المناسبة.", "en": "Assessing insulin resistance in a child brings together growth, puberty, family history and symptoms before deciding whether glucose tests or family follow-up are appropriate."},
+      "tags": {"ar": ["مقاومة الإنسولين للأطفال", "تقييم طبي منظم", "معلومات صحية موثوقة"], "en": ["insulin resistance in children", "organised assessment", "health education"]},
       "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "وسّعنا مسار تقييم مقاومة الإنسولين عند الأطفال وخطة الأسرة وعلامات الخطر، وراجعنا المحتوى طبياً من جديد.",
-            "en": "We expanded the childhood insulin-resistance assessment pathway, family plan and warning signs, and medically re-reviewed the content."
-          }
-        }
+        {"date": "2026-09-27", "note": {"ar": "وسّعنا مسار تقييم مقاومة الإنسولين عند الأطفال وخطة الأسرة وعلامات الخطر، وراجعنا المحتوى طبياً من جديد.", "en": "We expanded the childhood insulin-resistance assessment pathway, family plan and warning signs, and medically re-reviewed the content."}}
       ],
       "sections": [
-        {
-          "id": "what-family-assessment-can-answer",
-          "heading": {
-            "ar": "التقييم يجاوب سؤال محدد، مش يحط لافتة على الطفل",
-            "en": "Assessment answers a question; it does not label a child"
-          },
-          "body": {
-            "ar": "مقاومة الإنسولين معناها إن خلايا العضلات والدهون والكبد ما بتستجيبش للإنسولين بالكفاءة المعتادة، فالبنكرياس ممكن يطلع إنسولين أكتر عشان يحافظ على سكر الدم. المرحلة دي غالباً ما لهاش أعراض واضحة، ومش معناها تلقائياً إن الطفل عنده مقدمات سكر أو سكر نوع تاني. كمان حساسية الإنسولين بتقل بشكل مؤقت عند أطفال كتير وقت البلوغ، فالعمر ومرحلة النمو بيغيّروا معنى القياسات والنتائج. [2, 3, 8]\n\nعشان كده، تقييم مقاومة الإنسولين عند الأطفال مش محاولة لإثبات تشخيص من شكل الجسم أو رقم إنسولين منفرد. السؤال المفيد هو: هل عند الطفل عوامل خطورة أو أعراض تستدعي فحص سكر دلوقتي؟ وهل فيه تغير في النمو أو الضغط أو النوم أو الجلد محتاج يتفهم ضمن الصورة؟ صفحة مقاومة الإنسولين عند الأطفال: إمتى نفحص؟ بتشرح معايير الفحص والتحاليل بالتفصيل، بينما الصفحة دي بتركز على إزاي الأسرة تجمع المعلومات وتشارك في قرار آمن. [1, 3, 8]\n\nالنتيجة النهائية للتقييم ممكن تكون طمأنة ومتابعة منحنى النمو، أو فحص سكر محدد، أو مراجعة أقرب، أو إحالة لتخصص أطفال مناسب. مش كل طفل وزنه زايد يحتاج نفس التحاليل، ومش كل طفل وزنه في المدى المعتاد مستبعد تماماً لو عنده أعراض واضحة أو تاريخ قوي. التقييم الجيد يفرّق بين عامل خطورة وتشخيص، وبين متابعة وقائية وحالة محتاجة علاج، ويشرح للأسرة إيه المعروف وإيه اللي لسه محتاج إجابة. [1, 3, 11]",
-            "en": "Insulin resistance means that cells in muscle, fat and the liver do not respond to insulin as effectively as expected, so the pancreas may release more insulin to keep blood glucose within range. This stage often causes no obvious symptoms, and it does not automatically mean that a child has prediabetes or type 2 diabetes. Insulin sensitivity also falls temporarily in many children during puberty, so age and developmental stage change how measurements and results should be understood. [2, 3, 8]\n\nFor that reason, a childhood insulin-resistance assessment is not an attempt to prove a diagnosis from body shape or one insulin value. The useful questions are whether the child has risk factors or symptoms that make glucose testing appropriate now, and whether changes in growth, blood pressure, sleep or skin need to be understood as part of the same picture. Insulin resistance in children: when to test? explains screening criteria and tests in detail; this page focuses on how a family gathers information and participates in a safe decision. [1, 3, 8]\n\nThe outcome may be reassurance and growth monitoring, a focused glucose test, an earlier review, or referral to an appropriate pediatric service. Not every child with excess weight needs the same tests, and a child in the usual weight range is not completely excluded when clear symptoms or a strong history are present. A sound assessment separates a risk factor from a diagnosis and preventive follow-up from a condition that needs treatment. It should leave the family knowing what is established and what still needs an answer. [1, 3, 11]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "مقاومة الإنسولين عند الأطفال: إمتى نفحص؟",
-                "url": "../articles/insulin-resistance-in-children.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Insulin resistance in children: when to test?",
-                "url": "../articles/insulin-resistance-in-children.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "prepare-the-family-story",
-          "heading": {
-            "ar": "حضّر قصة النمو والعيلة قبل الزيارة",
-            "en": "Prepare the growth and family story before the visit"
-          },
-          "body": {
-            "ar": "ابدأ بقياسات الطول والوزن القديمة لو متاحة، خصوصاً قياسات المتابعة المدرسية أو طبيب الأطفال. منحنى النمو بيورّي الاتجاه مع الوقت، لكنه أداة ضمن التقييم ومش تشخيص لوحده. سجّل إمتى حصل تغير ملحوظ في الوزن أو الشهية أو النشاط، وهل الطول مستمر في مساره ولا سرعته قلت. بطء زيادة الطول مع استمرار زيادة الوزن يستحق انتباه مختلف عن طفل بيطول كويس، لأن بعض الأسباب الهرمونية النادرة غالباً بيكون معاها تأثر في الطول. [1, 8]\n\nاكتب تاريخ السكر النوع التاني عند الأب أو الأم أو الإخوات أو الأجداد، وهل الأم كان عندها سكر قبل الحمل أو سكر حمل. جهّز أسماء الأدوية والمكملات، لأن أدوية معينة ممكن تغيّر الوزن أو سكر الدم، لكن ما توقفش دواء موصوف من نفسك. اذكر الشخير وتوقف النفس الملحوظ أثناء النوم، ضغط الدم أو الدهون لو اتقاسوا، عدم انتظام الدورة أو علامات زيادة الهرمونات عند المراهقات، وأي نتيجة سابقة للكبد أو السكر. التفاصيل دي بتساعد الطبيب يختار سؤالاً واضحاً بدل طلب باقة تحاليل بلا هدف. [2, 3, 8, 10]\n\nاسمرار وسُمك الجلد في الرقبة أو تحت الإبط ممكن يكون شواكاً أسود ويرتبط بمقاومة الإنسولين، لكنه مش وسخ ومش إثبات للسكر. صوّر التغير في إضاءة ثابتة لو ده هيساعد في توضيح بدايته، وتجنب الفرك والخلطات. صفحة اسمرار الرقبة عند الأطفال بتشرح الأسباب والعناية ومتى يحتاج الجلد تقييماً منفصلاً. كمان اسأل الطفل بهدوء عن التنمر أو القلق من الجسم؛ وصمة الوزن ممكن تزود العزلة والأكل المضطرب وتخلي الطفل يتجنب الحركة أو الرعاية. [2, 8, 9]",
-            "en": "Start with earlier height and weight measurements when available, including school or pediatric records. A growth chart shows direction over time, but it contributes to an assessment rather than diagnosing a condition by itself. Note when weight, appetite or activity changed and whether height continues along its trajectory or has slowed. Reduced height velocity alongside continuing weight gain deserves different attention from a child who is growing taller as expected, because the uncommon endocrine causes of weight gain are often accompanied by impaired linear growth. [1, 8]\n\nRecord type 2 diabetes in parents, siblings or grandparents and whether the mother had diabetes before pregnancy or gestational diabetes. Prepare the names of medicines and supplements, because some medicines can affect weight or glucose, but do not stop a prescribed medicine on your own. Mention snoring or observed breathing pauses during sleep, earlier blood pressure or lipid readings, irregular periods or signs of androgen excess in adolescents, and previous liver or glucose results. These details help the clinician ask a defined question instead of ordering an unfocused test panel. [2, 3, 8, 10]\n\nDarker, thicker skin on the neck or underarms may be acanthosis nigricans and can be associated with insulin resistance, but it is neither dirt nor proof of diabetes. A photograph in consistent lighting can help show when it changed; avoid scrubbing and unverified mixtures. Dark neck skin in children explains causes, skin care and when the skin needs a separate assessment. Also ask the child calmly about bullying or body worries. Weight stigma can increase isolation and disordered eating and can make a child avoid movement or health care. [2, 8, 9]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "اسمرار الرقبة عند الأطفال",
-                "url": "../articles/dark-neck-skin-children-assessment.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Dark neck skin in children",
-                "url": "../articles/dark-neck-skin-children-assessment.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "what-happens-during-assessment",
-          "heading": {
-            "ar": "إيه اللي بيحصل في التقييم السريري؟",
-            "en": "What happens during the clinical assessment?"
-          },
-          "body": {
-            "ar": "الزيارة غالباً تبدأ بكلام مع ولي الأمر والطفل عن سبب القلق، بداية التغير، الأعراض، الأدوية، النوم، الحركة، الأكل والمدرسة. الطبيب بيراجع الطول والوزن على منحنى مناسب للسن والجنس، وسرعة التغير بدل رقم يوم واحد، وبيقيس الضغط ويفحص العلامات اللي لها علاقة بالسؤال. مرحلة البلوغ مهمة لأن التغيرات الطبيعية فيها ممكن تقلل حساسية الإنسولين مؤقتاً وتؤثر في تفسير النتيجة. [1, 3, 8]\n\nالهدف مش مراقبة طبق الطفل ولا اختبار إرادة الأسرة. اسأل عن سبب كل قياس أو تحليل، وإيه النتيجة اللي هتغيّر الخطة. في طفل من غير أعراض، بعض الإرشادات التخصصية توصي بفحص موجّه بعد بداية البلوغ أو من سن 10 سنين عند وجود زيادة وزن حسب المئين مع عامل خطورة إضافي؛ وفي المقابل، لجنة USPSTF بتقول إن الدليل ما زال غير كافٍ للحكم على فائدة وضرر الفحص العام لكل الأطفال والمراهقين من غير أعراض. الاختلاف ده سبب إضافي إن القرار يبقى فردياً ومبنياً على عوامل الطفل، مش حملة تحاليل للجميع. [3, 11]\n\nممكن التقييم يلفت النظر لضغط مرتفع، دهون غير طبيعية، اشتباه كبد دهني، مشكلة نوم، أو احتياج لدعم نفسي أو غذائي. ده لا يعني إن كل طفل لازم يعمل كل الفحوص. الطبيب يختار اللي له سبب واضح حسب السن والنمو والفحص، ويحدد مين هيراجع النتيجة. لو المراهق مناسب سنياً، وقت قصير يتكلم فيه مع الطبيب على انفراد ممكن يساعده يشارك مخاوف عن الأكل أو الجسم أو الأدوية بأمان، مع استمرار دور الأسرة بشكل داعم. [3, 8, 10]",
-            "en": "A visit usually begins with the parent and child discussing the concern, when the change began, symptoms, medicines, sleep, movement, food and school. The clinician reviews height and weight on an age- and sex-appropriate chart, looks at the rate of change rather than one day's number, measures blood pressure and examines signs relevant to the question. Pubertal stage matters because normal developmental changes can temporarily reduce insulin sensitivity and affect interpretation. [1, 3, 8]\n\nThe purpose is not to police the child's plate or test the family's willpower. Ask why each measurement or test is being considered and which result would change the plan. In an asymptomatic child, some specialty guidelines recommend targeted screening after puberty starts or from age 10 when an age-specific weight criterion and another risk factor are present. In contrast, the USPSTF concludes that evidence is insufficient to determine the benefits and harms of population screening in all asymptomatic children and adolescents. That difference is another reason to make an individual decision from the child's risk profile rather than order tests for everyone. [3, 11]\n\nAssessment may identify high blood pressure, abnormal lipids, possible fatty liver disease, a sleep concern, or a need for psychological or nutrition support. This does not mean every child needs every investigation. The clinician selects tests with a clear reason according to age, growth and examination, then identifies who will review the results. When developmentally appropriate, brief time for an adolescent to speak with the clinician alone can help them disclose food, body or medicine concerns safely, while the family continues in a supportive role. [3, 8, 10]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "tests-and-results-in-context",
-          "heading": {
-            "ar": "التحاليل بتجاوب عن السكر، مش عن قيمة الطفل",
-            "en": "Tests answer glucose questions, not a child's worth"
-          },
-          "body": {
-            "ar": "لما فحص السكر يكون مناسباً، الاختيارات المستخدمة تشمل سكر الدم الصايم، والسكر التراكمي، أو اختبار تحمّل الجلوكوز بعد ساعتين، وأحياناً السكر العشوائي مع أعراض واضحة. كل اختبار بيشوف جانب مختلف، وممكن نتيجتان ما يتطابقوش تماماً. السكر التراكمي بيعكس متوسطاً تقريبياً خلال الشهور السابقة، لكنه ممكن يتأثر ببعض أنواع الأنيميا أو اختلافات الهيموجلوبين؛ واختبار التحمل يحتاج تحضيراً ووقتاً. الطبيب يختار الاختبار حسب السؤال وحالة الطفل. [3, 6, 10]\n\nتحليل الإنسولين الصايم أو حسابات مبنية عليه ما عندهمش حد موحّد وموثوق يشخّص مقاومة الإنسولين عند كل الأطفال. النتيجة بتتأثر بالبلوغ وطريقة المعمل والاختلاف الطبيعي، والإرشادات بتوضح إن قياس الإنسولين مش فحصاً روتينياً لتقييم سمنة الأطفال. رقم عالي لوحده ما يثبتش المرض، ورقم منخفض أو طبيعي ما ينفيش ارتفاع السكر لو فيه أعراض. كمان جهاز قياس منزلي أو ساعة ذكية مش بديل عن تحليل تشخيصي معملي يطلبه الطبيب. [2, 8]\n\nلو ظهرت نتيجة غير طبيعية من غير أعراض صريحة، غالباً بتحتاج تأكيداً في يوم تاني أو باختبار مناسب قبل تثبيت التشخيص. اطلب نسخة من النتيجة، واسأل: هل الطفل كان صايم بالطريقة المطلوبة؟ هل مرض حاد أو دواء أو مشكلة دم ممكن تأثر؟ وإمتى نعيد القياس؟ زيارة تغذية ونمو للطفل ممكن تساعد تجمع منحنى النمو ونمط اليوم والنتائج في خطة واحدة بدل تفسير كل رقم بعيد عن سياقه. ما تبدأش ميتفورمين أو مكمل أو نظام علاجي من نتيجة واحدة؛ اختيار العلاج مسؤولية الطبيب بعد تحديد التشخيص والهدف. [3, 6, 8, 10]",
-            "en": "When glucose testing is appropriate, the available tests include fasting plasma glucose, A1C, or a two-hour oral glucose tolerance test, and sometimes random plasma glucose when clear symptoms are present. Each test examines a different aspect, and two results may not align perfectly. A1C estimates average exposure over previous months but can be affected by some anaemias or haemoglobin variants; the tolerance test requires preparation and time. The clinician chooses according to the question and the child's circumstances. [3, 6, 10]\n\nFasting insulin and calculations derived from it do not have one reliable, standard threshold that diagnoses insulin resistance in every child. Values are influenced by puberty, laboratory method and normal biological variation, and guidelines state that insulin measurement is not a routine test in pediatric obesity assessment. One high result does not prove disease, while a low or usual result does not exclude high glucose when symptoms are present. A home glucose meter or wearable device is also not a substitute for a diagnostic laboratory test ordered by a clinician. [2, 8]\n\nAn abnormal result without unequivocal symptoms generally needs confirmation on another day or with an appropriate second test before a diagnosis is established. Ask for a copy and ask whether fasting preparation was correct, whether an acute illness, medicine or blood condition could affect it, and when it should be repeated. A child nutrition and growth visit can bring the growth trajectory, daily pattern and results into one plan rather than interpreting each number in isolation. Do not start metformin, a supplement or a therapeutic diet from one result. Treatment selection belongs with the clinician after the diagnosis and goal are clear. [3, 6, 8, 10]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "زيارة تغذية ونمو للطفل",
-                "url": "../articles/child-nutrition-growth-visit.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "A child nutrition and growth visit",
-                "url": "../articles/child-nutrition-growth-visit.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "urgent-signs-and-faster-review",
-          "heading": {
-            "ar": "إمتى نسرّع التقييم وإمتى نطلب رعاية عاجلة؟",
-            "en": "When should assessment be faster or urgent?"
-          },
-          "body": {
-            "ar": "مقاومة الإنسولين نفسها غالباً صامتة، لكن أعراض ارتفاع السكر تغيّر درجة الاستعجال. احجز تقييماً قريباً لو الطفل بيشرب أو يتبول أكتر بوضوح، بيصحى يتبول بعد ما كان جافاً، بينزل وزن من غير قصد، تعبان بشكل غير معتاد، أو رؤيته مشوشة. ما تفترضش إن الأعراض بسبب الحر أو المدرسة أو إن الطفل وزنه زايد، وما تستناش موعد متابعة روتيني لو الأعراض بتزيد. السكر النوع الأول ممكن يظهر في أي وزن، والتمييز بين أنواعه يحتاج تقييماً طبياً. [7, 10, 12]\n\nاطلب رعاية عاجلة فوراً لو العطش أو التبول أو نزول الوزن جُم معاهم قيء متكرر، ألم بطن، تنفس سريع أو عميق، رائحة نفس فاكهية، جفاف، خمول شديد، ارتباك أو إغماء. العلامات دي ممكن تحصل مع حماض كيتوني سكري أو اضطراب شديد في السكر، ودي حالة ما ينفعش تتقيم بمقال أو تستنى تحليل عادي. لو الطفل مش قادر يشرب أو حالته بتتدهور بسرعة، الأولوية للطوارئ حتى لو ما فيش تشخيص سابق. [3, 10, 12]\n\nمراجعة أسرع، لكن مش بالضرورة طوارئ، مناسبة كمان لو الوزن زاد بسرعة مع بطء واضح في الطول، أو الشخير مع توقف نفس، أو ضغط مرتفع متكرر، أو اسمرار الجلد ظهر بسرعة وانتشر، أو بدأ التغير بعد دواء جديد. ما توقفش الدواء فجأة؛ تواصل مع واصفه. ولو مش عارف هل الحالة عاجلة، اتصل بخدمة طبية واذكر العمر والأعراض ومدتها وقدرة الطفل على الشرب واليقظة والتنفس بدل محاولة حسمها من رقم إنسولين أو صورة جلد. [1, 8, 12]",
-            "en": "Insulin resistance itself is often silent, but symptoms of high glucose change the urgency. Arrange prompt assessment when a child is clearly drinking or urinating more, starts wetting after previously being dry, loses weight unintentionally, is unusually tired, or has blurred vision. Do not assume these changes are caused by hot weather, school or excess weight, and do not wait for a routine follow-up if they are progressing. Type 1 diabetes can occur at any body size, and distinguishing diabetes types requires clinical assessment. [7, 10, 12]\n\nSeek urgent care immediately when thirst, urination or weight loss occurs with repeated vomiting, abdominal pain, fast or deep breathing, fruity-smelling breath, dehydration, marked drowsiness, confusion or fainting. These findings can occur with diabetic ketoacidosis or another severe glucose disturbance; they cannot be assessed through an article or left for a routine blood test. If the child cannot drink or is deteriorating quickly, emergency care takes priority even without a previous diagnosis. [3, 10, 12]\n\nEarlier review, though not necessarily emergency care, is also appropriate when weight rises quickly while height growth clearly slows, snoring includes breathing pauses, blood pressure is repeatedly high, skin darkening appears quickly and spreads, or the change follows a new medicine. Do not stop that medicine abruptly; contact the prescriber. If urgency is unclear, call a medical service and report the child's age, symptoms, duration, ability to drink, alertness and breathing rather than trying to decide from an insulin number or skin photograph. [1, 8, 12]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "family-plan-after-assessment",
-          "heading": {
-            "ar": "بعد التقييم: خطة للعيلة من غير لوم أو حرمان",
-            "en": "After assessment: a family plan without blame or restriction"
-          },
-          "body": {
-            "ar": "لو التقييم بيقول إن تعديل نمط اليوم مفيد، التغيير يبدأ من البيت كله مش من طبق عقاب للطفل. اختاروا خطوة أو اتنين قابلين للاستمرار: مياه بدل المشروبات السكرية في أغلب الأيام، مواعيد أكل أهدى، خضار وفاكهة وحبوب كاملة وبقول ومصادر بروتين متنوعة، وحركة يحبها الطفل. النوم الكافي وتقليل الشاشات وقت النوم جزء من الصورة برضه. الخطة لازم تفضل مناسبة للنمو والثقافة وظروف الأسرة، ومش لازم كل حاجة تتغير مرة واحدة. [2, 5, 10]\n\nالحركة مش عقاب على الأكل، والميزان مش تقرير نجاح يومي. ركّزوا على الطاقة والقوة والنوم والتركيز والمشاركة، وابعدوا عن التعليقات على شكل الجسم أو المقارنة بالإخوات. الدعم الأسري مهم، لكن الطفل الأكبر محتاج صوت في اختيار الأهداف، ومحتاج خصوصية مناسبة لسنه. البرامج السلوكية الشاملة والمتكررة أقوى من نصيحة سريعة، ووصمة الوزن ما بتحفزش التغيير؛ بالعكس ممكن تزود العزلة والأكل المضطرب وتجنب الرعاية. [4, 9, 10]\n\nما تمنعوش النشويات أو الفاكهة، وما تبدأوش صياماً أو كيتو أو عدّ سعرات أو مكملات من غير خطة متخصصة. الطفل محتاج طاقة وعناصر للنمو، والهدف الطبي ممكن يكون تحسين جودة اليوم أو تثبيت مسار الوزن مع استمرار الطول، مش نزولاً سريعاً. صفحة وجبات العيلة بعد تقييم مقاومة الإنسولين بتشرح الوجبات والمشروبات والحركة من غير ما تكرر خطوات التشخيص هنا. لو الطبيب وصف دواء أو إحالة، اسأل عن الهدف، الفائدة المتوقعة، الآثار الجانبية، بدائل الخطة، وإزاي هتتم المتابعة؛ ما تستخدمش دواء شخص تاني. [2, 4, 5, 10]",
-            "en": "When assessment shows that daily routines should change, the starting point is the whole household rather than a punishment plate for one child. Choose one or two sustainable steps: water instead of sugar-sweetened drinks most days, calmer meal times, vegetables, whole fruit, whole grains, pulses and varied protein sources, plus movement the child enjoys. Adequate sleep and fewer screens around bedtime also matter. The plan must remain appropriate for growth, culture and family circumstances, and everything does not need to change at once. [2, 5, 10]\n\nMovement is not punishment for eating, and the scale is not a daily report card. Focus on energy, strength, sleep, concentration and participation, while avoiding comments about body shape or comparisons with siblings. Family support matters, but an older child needs a voice in choosing goals and age-appropriate privacy. Comprehensive, repeated behavioral support is stronger than one brief instruction, and weight stigma does not motivate healthy change; it can increase isolation, disordered eating and avoidance of care. [4, 9, 10]\n\nDo not ban carbohydrates or fruit, and do not begin fasting, keto, calorie counting or supplements without a specialist plan. A growing child needs adequate energy and nutrients, and the clinical goal may be a healthier daily pattern or a steadier weight trajectory while height continues rather than rapid loss. Family meals after an insulin-resistance assessment covers meals, drinks and movement without repeating diagnostic steps here. If a clinician prescribes medicine or referral, ask about the goal, expected benefit, adverse effects, alternatives and follow-up; never use another person's medicine. [2, 4, 5, 10]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "وجبات العيلة بعد تقييم مقاومة الإنسولين",
-                "url": "../articles/child-insulin-resistance-family-meals.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Family meals after an insulin-resistance assessment",
-                "url": "../articles/child-insulin-resistance-family-meals.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "follow-up-and-next-step",
-          "heading": {
-            "ar": "اخرج من الزيارة بخطة متابعة واضحة",
-            "en": "Leave the visit with a clear follow-up plan"
-          },
-          "body": {
-            "ar": "قبل نهاية الزيارة، اتفقوا على السؤال اللي جاوب عنه التقييم: هل الفحص طبيعي ويكفي تتبع النمو؟ هل فيه مقدمات سكر محتاجة متابعة؟ هل النتيجة لازم تتأكد؟ ولا فيه تشخيص مختلف يحتاج إحالة؟ اكتب اسم التحليل وموعده وطريقة التحضير، ومين هيتابع النتيجة. لو الفحص طبيعي لكن عوامل الخطورة مستمرة، الطبيب يحدد توقيت الإعادة؛ بعض الإرشادات تقترح كل سنتين أو تلاتة على الأقل، وأقرب لو مؤشر الكتلة بيزيد أو الملف الأيضي بيسوء، لكن الموعد مش قاعدة واحدة لكل طفل. [2, 3]\n\nاختاروا مؤشرات متابعة مفيدة غير اللوم: اتجاه الطول والوزن عبر شهور، ضغط الدم لو كان مرتفعاً، نتيجة معملية لها هدف، النوم، القدرة على الحركة، أو انتظام الوجبات. ما توزنوش الطفل يومياً وما تعيدوش التحاليل كل أسابيع من غير سبب. اسألوا إمتى نحتاج طبيب غدد أطفال، أو تغذية أطفال، أو دعم نفسي، وإيه العلامة اللي تستدعي اتصالاً قبل الموعد. لو الخطة صعبة بسبب المدرسة أو ميزانية البيت أو مواعيد الأسرة، قولوا ده بوضوح عشان تتعدل لخطة قابلة للتنفيذ. [3, 4, 10]\n\nلو محتاج بداية منظمة، تقدر تطلب حجز موعد لتقييم الطفل في العيادة. الفريق الطبي يقدر يراجع قصة النمو والتاريخ العائلي والأعراض والأدوية والنتائج السابقة، وبعد الفحص يحدد هل فيه تحليل مناسب أو متابعة أو إحالة. ذكر العيادة هنا مش وعداً بنتيجة ولا بديل عن الطوارئ، والقرار النهائي بيتفصّل حسب الطفل. خُد معاك أسئلتك وقياسات النمو وأسماء الأدوية، واطلب شرحاً بسيطاً للخطوة الجاية عشان الطفل والأسرة يشاركوا فيها من غير خوف أو لوم. [1, 3, 10]",
-            "en": "Before the visit ends, agree on the question the assessment has answered. Is screening within range so growth monitoring is enough? Is there prediabetes that needs follow-up? Does a result require confirmation, or is there a different diagnosis that needs referral? Record the test name, timing, preparation and who will review it. If screening is within range but risk factors remain, the clinician sets the interval. Some guidance suggests at least every two to three years, and sooner when BMI is rising or the cardiometabolic profile worsens, but the timing is not one rule for every child. [2, 3]\n\nChoose useful follow-up markers rather than blame: height and weight trajectory over months, blood pressure when it was elevated, a laboratory result with a purpose, sleep, ability to move, or meal regularity. Do not weigh the child daily or repeat tests every few weeks without a reason. Ask when pediatric endocrinology, pediatric nutrition or psychological support would help and which change should prompt contact before the planned review. If school, household budget or family schedules make the plan difficult, say so openly so it can be adapted into something workable. [3, 4, 10]\n\nIf you need an organised starting point, you can request an appointment for your child's assessment at the clinic. The clinical team can review the growth story, family history, symptoms, medicines and earlier results, then decide after examination whether focused testing, monitoring or referral is appropriate. Mentioning the clinic here is not a promise of an outcome or an alternative to emergency care; the final decision is tailored to the child. Bring questions, growth records and medicine names, and ask for a plain-language explanation of the next step so the child and family can take part without fear or blame. [1, 3, 10]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "طلب حجز موعد لتقييم الطفل في العيادة",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "request an appointment for your child's assessment at the clinic",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "what-family-assessment-can-answer", "heading": {"ar": "التقييم يجاوب سؤال محدد، مش يحط لافتة على الطفل", "en": "Assessment answers a question; it does not label a child"}, "body": {"ar": "مقاومة الإنسولين معناها إن خلايا العضلات والدهون والكبد ما بتستجيبش للإنسولين بالكفاءة المعتادة، فالبنكرياس ممكن يطلع إنسولين أكتر عشان يحافظ على سكر الدم. المرحلة دي غالباً ما لهاش أعراض واضحة، ومش معناها تلقائياً إن الطفل عنده مقدمات سكر أو سكر نوع تاني. كمان حساسية الإنسولين بتقل بشكل مؤقت عند أطفال كتير وقت البلوغ، فالعمر ومرحلة النمو بيغيّروا معنى القياسات والنتائج. [2, 3, 8]\n\nعشان كده، تقييم مقاومة الإنسولين عند الأطفال مش محاولة لإثبات تشخيص من شكل الجسم أو رقم إنسولين منفرد. السؤال المفيد هو: هل عند الطفل عوامل خطورة أو أعراض تستدعي فحص سكر دلوقتي؟ وهل فيه تغير في النمو أو الضغط أو النوم أو الجلد محتاج يتفهم ضمن الصورة؟ صفحة مقاومة الإنسولين عند الأطفال: إمتى نفحص؟ بتشرح معايير الفحص والتحاليل بالتفصيل، بينما الصفحة دي بتركز على إزاي الأسرة تجمع المعلومات وتشارك في قرار آمن. [1, 3, 8]\n\nالنتيجة النهائية للتقييم ممكن تكون طمأنة ومتابعة منحنى النمو، أو فحص سكر محدد، أو مراجعة أقرب، أو إحالة لتخصص أطفال مناسب. مش كل طفل وزنه زايد يحتاج نفس التحاليل، ومش كل طفل وزنه في المدى المعتاد مستبعد تماماً لو عنده أعراض واضحة أو تاريخ قوي. التقييم الجيد يفرّق بين عامل خطورة وتشخيص، وبين متابعة وقائية وحالة محتاجة علاج، ويشرح للأسرة إيه المعروف وإيه اللي لسه محتاج إجابة. [1, 3, 11]", "en": "Insulin resistance means that cells in muscle, fat and the liver do not respond to insulin as effectively as expected, so the pancreas may release more insulin to keep blood glucose within range. This stage often causes no obvious symptoms, and it does not automatically mean that a child has prediabetes or type 2 diabetes. Insulin sensitivity also falls temporarily in many children during puberty, so age and developmental stage change how measurements and results should be understood. [2, 3, 8]\n\nFor that reason, a childhood insulin-resistance assessment is not an attempt to prove a diagnosis from body shape or one insulin value. The useful questions are whether the child has risk factors or symptoms that make glucose testing appropriate now, and whether changes in growth, blood pressure, sleep or skin need to be understood as part of the same picture. Insulin resistance in children: when to test? explains screening criteria and tests in detail; this page focuses on how a family gathers information and participates in a safe decision. [1, 3, 8]\n\nThe outcome may be reassurance and growth monitoring, a focused glucose test, an earlier review, or referral to an appropriate pediatric service. Not every child with excess weight needs the same tests, and a child in the usual weight range is not completely excluded when clear symptoms or a strong history are present. A sound assessment separates a risk factor from a diagnosis and preventive follow-up from a condition that needs treatment. It should leave the family knowing what is established and what still needs an answer. [1, 3, 11]"}, "links": {"ar": [{"label": "مقاومة الإنسولين عند الأطفال: إمتى نفحص؟", "url": "../articles/insulin-resistance-in-children.html"}], "en": [{"label": "Insulin resistance in children: when to test?", "url": "../articles/insulin-resistance-in-children.html"}]}},
+        {"id": "prepare-the-family-story", "heading": {"ar": "حضّر قصة النمو والعيلة قبل الزيارة", "en": "Prepare the growth and family story before the visit"}, "body": {"ar": "ابدأ بقياسات الطول والوزن القديمة لو متاحة، خصوصاً قياسات المتابعة المدرسية أو طبيب الأطفال. منحنى النمو بيورّي الاتجاه مع الوقت، بس هو أداة ضمن التقييم ومش تشخيص لوحده. سجّل إمتى حصل تغير ملحوظ في الوزن أو الشهية أو النشاط، وهل الطول مستمر في مساره ولا سرعته قلت. بطء زيادة الطول مع استمرار زيادة الوزن يستحق انتباه مختلف عن طفل بيطول كويس، لأن بعض الأسباب الهرمونية النادرة غالباً بيكون معاها تأثر في الطول. [1, 8]\n\nاكتب تاريخ السكر النوع التاني عند الأب أو الأم أو الإخوات أو الأجداد، وهل الأم كان عندها سكر قبل الحمل أو سكر حمل. جهّز أسماء الأدوية والمكملات، لأن أدوية معينة ممكن تغيّر الوزن أو سكر الدم، بس ما توقفش دواء موصوف من نفسك. اذكر الشخير وتوقف النفس الملحوظ أثناء النوم، ضغط الدم أو الدهون لو اتقاسوا، عدم انتظام الدورة أو علامات زيادة الهرمونات عند المراهقات، وأي نتيجة سابقة للكبد أو السكر. التفاصيل دي بتساعد الطبيب يختار سؤالاً واضحاً بدل طلب باقة تحاليل بلا هدف. [2, 3, 8, 10]\n\nاسمرار وسُمك الجلد في الرقبة أو تحت الإبط ممكن يكون شواكاً أسود ويرتبط بمقاومة الإنسولين، بس هو مش وسخ ومش إثبات للسكر. صوّر التغير في إضاءة ثابتة لو ده هيساعد في توضيح بدايته، وتجنب الفرك والخلطات. صفحة اسمرار الرقبة عند الأطفال بتشرح الأسباب والعناية ومتى يحتاج الجلد تقييماً منفصلاً. كمان اسأل الطفل بهدوء عن التنمر أو القلق من الجسم؛ وصمة الوزن ممكن تزود العزلة والأكل المضطرب وتخلي الطفل يتجنب الحركة أو الرعاية. [2, 8, 9]", "en": "Start with earlier height and weight measurements when available, including school or pediatric records. A growth chart shows direction over time, but it contributes to an assessment rather than diagnosing a condition by itself. Note when weight, appetite or activity changed and whether height continues along its trajectory or has slowed. Reduced height velocity alongside continuing weight gain deserves different attention from a child who is growing taller as expected, because the uncommon endocrine causes of weight gain are often accompanied by impaired linear growth. [1, 8]\n\nRecord type 2 diabetes in parents, siblings or grandparents and whether the mother had diabetes before pregnancy or gestational diabetes. Prepare the names of medicines and supplements, because some medicines can affect weight or glucose, but do not stop a prescribed medicine on your own. Mention snoring or observed breathing pauses during sleep, earlier blood pressure or lipid readings, irregular periods or signs of androgen excess in adolescents, and previous liver or glucose results. These details help the clinician ask a defined question instead of ordering an unfocused test panel. [2, 3, 8, 10]\n\nDarker, thicker skin on the neck or underarms may be acanthosis nigricans and can be associated with insulin resistance, but it is neither dirt nor proof of diabetes. A photograph in consistent lighting can help show when it changed; avoid scrubbing and unverified mixtures. Dark neck skin in children explains causes, skin care and when the skin needs a separate assessment. Also ask the child calmly about bullying or body worries. Weight stigma can increase isolation and disordered eating and can make a child avoid movement or health care. [2, 8, 9]"}, "links": {"ar": [{"label": "اسمرار الرقبة عند الأطفال", "url": "../articles/dark-neck-skin-children-assessment.html"}], "en": [{"label": "Dark neck skin in children", "url": "../articles/dark-neck-skin-children-assessment.html"}]}},
+        {"id": "what-happens-during-assessment", "heading": {"ar": "إيه اللي بيحصل في التقييم السريري؟", "en": "What happens during the clinical assessment?"}, "body": {"ar": "الزيارة غالباً تبدأ بكلام مع ولي الأمر والطفل عن سبب القلق، بداية التغير، الأعراض، الأدوية، النوم، الحركة، الأكل والمدرسة. الطبيب بيراجع الطول والوزن على منحنى مناسب للسن والجنس، وسرعة التغير بدل رقم يوم واحد، وبيقيس الضغط ويفحص العلامات اللي لها علاقة بالسؤال. مرحلة البلوغ مهمة لأن التغيرات الطبيعية فيها ممكن تقلل حساسية الإنسولين مؤقتاً وتؤثر في تفسير النتيجة. [1, 3, 8]\n\nالهدف مش مراقبة طبق الطفل ولا اختبار إرادة الأسرة. اسأل عن سبب كل قياس أو تحليل، وإيه النتيجة اللي هتغيّر الخطة. في طفل من غير أعراض، بعض الإرشادات التخصصية توصي بفحص موجّه بعد بداية البلوغ أو من سن 10 سنين عند وجود زيادة وزن حسب المئين مع عامل خطورة إضافي؛ وفي المقابل، لجنة USPSTF بتقول إن الدليل ما زال غير كافٍ للحكم على فائدة وضرر الفحص العام لكل الأطفال والمراهقين من غير أعراض. الاختلاف ده سبب إضافي إن القرار يبقى فردياً ومبنياً على عوامل الطفل، مش حملة تحاليل للجميع. [3, 11]\n\nممكن التقييم يلفت النظر لضغط مرتفع، دهون غير طبيعية، اشتباه كبد دهني، مشكلة نوم، أو احتياج لدعم نفسي أو غذائي. ده مش معناه إن كل طفل لازم يعمل كل الفحوص. الطبيب يختار اللي له سبب واضح حسب السن والنمو والفحص، ويحدد مين هيراجع النتيجة. لو المراهق مناسب سنياً، وقت قصير يتكلم فيه مع الطبيب على انفراد ممكن يساعده يشارك مخاوف عن الأكل أو الجسم أو الأدوية بأمان، مع استمرار دور الأسرة بشكل داعم. [3, 8, 10]", "en": "A visit usually begins with the parent and child discussing the concern, when the change began, symptoms, medicines, sleep, movement, food and school. The clinician reviews height and weight on an age- and sex-appropriate chart, looks at the rate of change rather than one day's number, measures blood pressure and examines signs relevant to the question. Pubertal stage matters because normal developmental changes can temporarily reduce insulin sensitivity and affect interpretation. [1, 3, 8]\n\nThe purpose is not to police the child's plate or test the family's willpower. Ask why each measurement or test is being considered and which result would change the plan. In an asymptomatic child, some specialty guidelines recommend targeted screening after puberty starts or from age 10 when an age-specific weight criterion and another risk factor are present. In contrast, the USPSTF concludes that evidence is insufficient to determine the benefits and harms of population screening in all asymptomatic children and adolescents. That difference is another reason to make an individual decision from the child's risk profile rather than order tests for everyone. [3, 11]\n\nAssessment may identify high blood pressure, abnormal lipids, possible fatty liver disease, a sleep concern, or a need for psychological or nutrition support. This does not mean every child needs every investigation. The clinician selects tests with a clear reason according to age, growth and examination, then identifies who will review the results. When developmentally appropriate, brief time for an adolescent to speak with the clinician alone can help them disclose food, body or medicine concerns safely, while the family continues in a supportive role. [3, 8, 10]"}, "links": {"ar": [], "en": []}},
+        {"id": "tests-and-results-in-context", "heading": {"ar": "التحاليل بتجاوب عن السكر، مش عن قيمة الطفل", "en": "Tests answer glucose questions, not a child's worth"}, "body": {"ar": "لما فحص السكر يكون مناسباً، الاختيارات المستخدمة تشمل سكر الدم الصايم، والسكر التراكمي، أو اختبار تحمّل الجلوكوز بعد ساعتين، وأحياناً السكر العشوائي مع أعراض واضحة. كل اختبار بيشوف جانب مختلف، وممكن نتيجتان ما يتطابقوش تماماً. السكر التراكمي بيعكس متوسطاً تقريبياً خلال الشهور السابقة، بس هو ممكن يتأثر ببعض أنواع الأنيميا أو اختلافات الهيموجلوبين؛ واختبار التحمل يحتاج تحضيراً ووقتاً. الطبيب يختار الاختبار حسب السؤال وحالة الطفل. [3, 6, 10]\n\nتحليل الإنسولين الصايم أو حسابات مبنية عليه ما عندهمش حد موحّد وموثوق يشخّص مقاومة الإنسولين عند كل الأطفال. النتيجة بتتأثر بالبلوغ وطريقة المعمل والاختلاف الطبيعي، والإرشادات بتوضح إن قياس الإنسولين مش فحصاً روتينياً لتقييم سمنة الأطفال. رقم عالي لوحده ما يثبتش المرض، ورقم منخفض أو طبيعي ما ينفيش ارتفاع السكر لو فيه أعراض. كمان جهاز قياس منزلي أو ساعة ذكية مش بديل عن تحليل تشخيصي معملي يطلبه الطبيب. [2, 8]\n\nلو ظهرت نتيجة غير طبيعية من غير أعراض صريحة، غالباً بتحتاج تأكيداً في يوم تاني أو باختبار مناسب قبل تثبيت التشخيص. اطلب نسخة من النتيجة، واسأل: هل الطفل كان صايم بالطريقة المطلوبة؟ هل مرض حاد أو دواء أو مشكلة دم ممكن تأثر؟ وإمتى نعيد القياس؟ زيارة تغذية ونمو للطفل ممكن تساعد تجمع منحنى النمو ونمط اليوم والنتائج في خطة واحدة بدل تفسير كل رقم بعيد عن سياقه. ما تبدأش ميتفورمين أو مكمل أو نظام علاجي من نتيجة واحدة؛ اختيار العلاج مسؤولية الطبيب بعد تحديد التشخيص والهدف. [3, 6, 8, 10]", "en": "When glucose testing is appropriate, the available tests include fasting plasma glucose, A1C, or a two-hour oral glucose tolerance test, and sometimes random plasma glucose when clear symptoms are present. Each test examines a different aspect, and two results may not align perfectly. A1C estimates average exposure over previous months but can be affected by some anaemias or haemoglobin variants; the tolerance test requires preparation and time. The clinician chooses according to the question and the child's circumstances. [3, 6, 10]\n\nFasting insulin and calculations derived from it do not have one reliable, standard threshold that diagnoses insulin resistance in every child. Values are influenced by puberty, laboratory method and normal biological variation, and guidelines state that insulin measurement is not a routine test in pediatric obesity assessment. One high result does not prove disease, while a low or usual result does not exclude high glucose when symptoms are present. A home glucose meter or wearable device is also not a substitute for a diagnostic laboratory test ordered by a clinician. [2, 8]\n\nAn abnormal result without unequivocal symptoms generally needs confirmation on another day or with an appropriate second test before a diagnosis is established. Ask for a copy and ask whether fasting preparation was correct, whether an acute illness, medicine or blood condition could affect it, and when it should be repeated. A child nutrition and growth visit can bring the growth trajectory, daily pattern and results into one plan rather than interpreting each number in isolation. Do not start metformin, a supplement or a therapeutic diet from one result. Treatment selection belongs with the clinician after the diagnosis and goal are clear. [3, 6, 8, 10]"}, "links": {"ar": [{"label": "زيارة تغذية ونمو للطفل", "url": "../articles/child-nutrition-growth-visit.html"}], "en": [{"label": "A child nutrition and growth visit", "url": "../articles/child-nutrition-growth-visit.html"}]}},
+        {"id": "urgent-signs-and-faster-review", "heading": {"ar": "إمتى نسرّع التقييم وإمتى نطلب رعاية عاجلة؟", "en": "When should assessment be faster or urgent?"}, "body": {"ar": "مقاومة الإنسولين نفسها غالباً صامتة، بس أعراض ارتفاع السكر تغيّر درجة الاستعجال. احجز تقييماً قريباً لو الطفل بيشرب أو يتبول أكتر بوضوح، بيصحى يتبول بعد ما كان جافاً، بينزل وزن من غير قصد، تعبان بشكل غير معتاد، أو رؤيته مشوشة. ما تفترضش إن الأعراض بسبب الحر أو المدرسة أو إن الطفل وزنه زايد، وما تستناش موعد متابعة روتيني لو الأعراض بتزيد. السكر النوع الأول ممكن يظهر في أي وزن، والتمييز بين أنواعه يحتاج تقييماً طبياً. [7, 10, 12]\n\nاطلب رعاية عاجلة فوراً لو العطش أو التبول أو نزول الوزن جُم معاهم قيء متكرر، ألم بطن، تنفس سريع أو عميق، رائحة نفس فاكهية، جفاف، خمول شديد، ارتباك أو إغماء. العلامات دي ممكن تحصل مع حماض كيتوني سكري أو اضطراب شديد في السكر، ودي حالة ما ينفعش تتقيم بمقال أو تستنى تحليل عادي. لو الطفل مش قادر يشرب أو حالته بتتدهور بسرعة، الأولوية للطوارئ حتى لو ما فيش تشخيص سابق. [3, 10, 12]\n\nمراجعة أسرع، بس مش بالضرورة طوارئ، مناسبة كمان لو الوزن زاد بسرعة مع بطء واضح في الطول، أو الشخير مع توقف نفس، أو ضغط مرتفع متكرر، أو اسمرار الجلد ظهر بسرعة وانتشر، أو بدأ التغير بعد دواء جديد. ما توقفش الدواء فجأة؛ تواصل مع واصفه. ولو مش عارف هل الحالة عاجلة، اتصل بخدمة طبية واذكر العمر والأعراض ومدتها وقدرة الطفل على الشرب واليقظة والتنفس بدل محاولة حسمها من رقم إنسولين أو صورة جلد. [1, 8, 12]", "en": "Insulin resistance itself is often silent, but symptoms of high glucose change the urgency. Arrange prompt assessment when a child is clearly drinking or urinating more, starts wetting after previously being dry, loses weight unintentionally, is unusually tired, or has blurred vision. Do not assume these changes are caused by hot weather, school or excess weight, and do not wait for a routine follow-up if they are progressing. Type 1 diabetes can occur at any body size, and distinguishing diabetes types requires clinical assessment. [7, 10, 12]\n\nSeek urgent care immediately when thirst, urination or weight loss occurs with repeated vomiting, abdominal pain, fast or deep breathing, fruity-smelling breath, dehydration, marked drowsiness, confusion or fainting. These findings can occur with diabetic ketoacidosis or another severe glucose disturbance; they cannot be assessed through an article or left for a routine blood test. If the child cannot drink or is deteriorating quickly, emergency care takes priority even without a previous diagnosis. [3, 10, 12]\n\nEarlier review, though not necessarily emergency care, is also appropriate when weight rises quickly while height growth clearly slows, snoring includes breathing pauses, blood pressure is repeatedly high, skin darkening appears quickly and spreads, or the change follows a new medicine. Do not stop that medicine abruptly; contact the prescriber. If urgency is unclear, call a medical service and report the child's age, symptoms, duration, ability to drink, alertness and breathing rather than trying to decide from an insulin number or skin photograph. [1, 8, 12]"}, "links": {"ar": [], "en": []}},
+        {"id": "family-plan-after-assessment", "heading": {"ar": "بعد التقييم: خطة للعيلة من غير لوم أو حرمان", "en": "After assessment: a family plan without blame or restriction"}, "body": {"ar": "لو التقييم بيقول إن تعديل نمط اليوم مفيد، التغيير يبدأ من البيت كله مش من طبق عقاب للطفل. اختاروا خطوة أو اتنين قابلين للاستمرار: مياه بدل المشروبات السكرية في أغلب الأيام، مواعيد أكل أهدى، خضار وفاكهة وحبوب كاملة وبقول ومصادر بروتين متنوعة، وحركة يحبها الطفل. النوم الكافي وتقليل الشاشات وقت النوم جزء من الصورة برضه. الخطة لازم تفضل مناسبة للنمو والثقافة وظروف الأسرة، ومش لازم كل حاجة تتغير مرة واحدة. [2, 5, 10]\n\nالحركة مش عقاب على الأكل، والميزان مش تقرير نجاح يومي. ركّزوا على الطاقة والقوة والنوم والتركيز والمشاركة، وابعدوا عن التعليقات على شكل الجسم أو المقارنة بالإخوات. الدعم الأسري مهم، بس الطفل الأكبر محتاج صوت في اختيار الأهداف، ومحتاج خصوصية مناسبة لسنه. البرامج السلوكية الشاملة والمتكررة أقوى من نصيحة سريعة، ووصمة الوزن ما بتحفزش التغيير؛ بالعكس ممكن تزود العزلة والأكل المضطرب وتجنب الرعاية. [4, 9, 10]\n\nما تمنعوش النشويات أو الفاكهة، وما تبدأوش صياماً أو كيتو أو عدّ سعرات أو مكملات من غير خطة متخصصة. الطفل محتاج طاقة وعناصر للنمو، والهدف الطبي ممكن يكون تحسين جودة اليوم أو تثبيت مسار الوزن مع استمرار الطول، مش نزولاً سريعاً. صفحة وجبات العيلة بعد تقييم مقاومة الإنسولين بتشرح الوجبات والمشروبات والحركة من غير ما تكرر خطوات التشخيص هنا. لو الطبيب وصف دواء أو إحالة، اسأل عن الهدف، الفائدة المتوقعة، الآثار الجانبية، بدائل الخطة، وإزاي هتتم المتابعة؛ ما تستخدمش دواء شخص تاني. [2, 4, 5, 10]", "en": "When assessment shows that daily routines should change, the starting point is the whole household rather than a punishment plate for one child. Choose one or two sustainable steps: water instead of sugar-sweetened drinks most days, calmer meal times, vegetables, whole fruit, whole grains, pulses and varied protein sources, plus movement the child enjoys. Adequate sleep and fewer screens around bedtime also matter. The plan must remain appropriate for growth, culture and family circumstances, and everything does not need to change at once. [2, 5, 10]\n\nMovement is not punishment for eating, and the scale is not a daily report card. Focus on energy, strength, sleep, concentration and participation, while avoiding comments about body shape or comparisons with siblings. Family support matters, but an older child needs a voice in choosing goals and age-appropriate privacy. Comprehensive, repeated behavioral support is stronger than one brief instruction, and weight stigma does not motivate healthy change; it can increase isolation, disordered eating and avoidance of care. [4, 9, 10]\n\nDo not ban carbohydrates or fruit, and do not begin fasting, keto, calorie counting or supplements without a specialist plan. A growing child needs adequate energy and nutrients, and the clinical goal may be a healthier daily pattern or a steadier weight trajectory while height continues rather than rapid loss. Family meals after an insulin-resistance assessment covers meals, drinks and movement without repeating diagnostic steps here. If a clinician prescribes medicine or referral, ask about the goal, expected benefit, adverse effects, alternatives and follow-up; never use another person's medicine. [2, 4, 5, 10]"}, "links": {"ar": [{"label": "وجبات العيلة بعد تقييم مقاومة الإنسولين", "url": "../articles/child-insulin-resistance-family-meals.html"}], "en": [{"label": "Family meals after an insulin-resistance assessment", "url": "../articles/child-insulin-resistance-family-meals.html"}]}},
+        {"id": "follow-up-and-next-step", "heading": {"ar": "اخرج من الزيارة بخطة متابعة واضحة", "en": "Leave the visit with a clear follow-up plan"}, "body": {"ar": "قبل نهاية الزيارة، اتفقوا على السؤال اللي جاوب عنه التقييم: هل الفحص طبيعي ويكفي تتبع النمو؟ هل فيه مقدمات سكر محتاجة متابعة؟ هل النتيجة لازم تتأكد؟ ولا فيه تشخيص مختلف يحتاج إحالة؟ اكتب اسم التحليل وموعده وطريقة التحضير، ومين هيتابع النتيجة. لو الفحص طبيعي بس عوامل الخطورة مستمرة، الطبيب يحدد توقيت الإعادة؛ بعض الإرشادات تقترح كل سنتين أو تلاتة على الأقل، وأقرب لو مؤشر الكتلة بيزيد أو الملف الأيضي بيسوء، بس الموعد مش قاعدة واحدة لكل طفل. [2, 3]\n\nاختاروا مؤشرات متابعة مفيدة غير اللوم: اتجاه الطول والوزن عبر شهور، ضغط الدم لو كان مرتفعاً، نتيجة معملية لها هدف، النوم، القدرة على الحركة، أو انتظام الوجبات. ما توزنوش الطفل يومياً وما تعيدوش التحاليل كل أسابيع من غير سبب. اسألوا إمتى نحتاج طبيب غدد أطفال، أو تغذية أطفال، أو دعم نفسي، وإيه العلامة اللي تستدعي اتصالاً قبل الموعد. لو الخطة صعبة بسبب المدرسة أو ميزانية البيت أو مواعيد الأسرة، قولوا ده بوضوح عشان تتعدل لخطة قابلة للتنفيذ. [3, 4, 10]\n\nلو محتاج بداية منظمة، تقدر تطلب حجز موعد لتقييم الطفل في العيادة. الفريق الطبي يقدر يراجع قصة النمو والتاريخ العائلي والأعراض والأدوية والنتائج السابقة، وبعد الفحص يحدد هل فيه تحليل مناسب أو متابعة أو إحالة. ذكر العيادة هنا مش وعداً بنتيجة ولا بديل عن الطوارئ، والقرار النهائي بيتفصّل حسب الطفل. خُد معاك أسئلتك وقياسات النمو وأسماء الأدوية، واطلب شرحاً بسيطاً للخطوة الجاية عشان الطفل والأسرة يشاركوا فيها من غير خوف أو لوم. [1, 3, 10]", "en": "Before the visit ends, agree on the question the assessment has answered. Is screening within range so growth monitoring is enough? Is there prediabetes that needs follow-up? Does a result require confirmation, or is there a different diagnosis that needs referral? Record the test name, timing, preparation and who will review it. If screening is within range but risk factors remain, the clinician sets the interval. Some guidance suggests at least every two to three years, and sooner when BMI is rising or the cardiometabolic profile worsens, but the timing is not one rule for every child. [2, 3]\n\nChoose useful follow-up markers rather than blame: height and weight trajectory over months, blood pressure when it was elevated, a laboratory result with a purpose, sleep, ability to move, or meal regularity. Do not weigh the child daily or repeat tests every few weeks without a reason. Ask when pediatric endocrinology, pediatric nutrition or psychological support would help and which change should prompt contact before the planned review. If school, household budget or family schedules make the plan difficult, say so openly so it can be adapted into something workable. [3, 4, 10]\n\nIf you need an organised starting point, you can request an appointment for your child's assessment at the clinic. The clinical team can review the growth story, family history, symptoms, medicines and earlier results, then decide after examination whether focused testing, monitoring or referral is appropriate. Mentioning the clinic here is not a promise of an outcome or an alternative to emergency care; the final decision is tailored to the child. Bring questions, growth records and medicine names, and ask for a plain-language explanation of the next step so the child and family can take part without fear or blame. [1, 3, 10]"}, "links": {"ar": [{"label": "طلب حجز موعد لتقييم الطفل في العيادة", "url": "../patients/booking.html"}], "en": [{"label": "request an appointment for your child's assessment at the clinic", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "هل اسمرار رقبة الطفل يثبت مقاومة الإنسولين؟",
-            "en": "Does a child's dark neck prove insulin resistance?"
-          },
-          "a": {
-            "ar": "لأ. الجلد الداكن السميك أو المخملي ممكن يكون شواكاً أسود ويرتبط بمقاومة الإنسولين، لكن له أسباب تانية ومش بيقيس سكر الدم. الطبيب بيفحص الشكل والتوزيع، ويراجع النمو والبلوغ والأدوية والتاريخ العائلي قبل ما يقرر هل فيه تحليل مناسب. ما تفركش الجلد بعنف وما تبدأش خلطة تفتيح أو دواء من العلامة لوحدها. [2, 8]",
-            "en": "No. Dark, thick or velvety skin may be acanthosis nigricans and can be associated with insulin resistance, but it has other causes and does not measure blood glucose. A clinician examines its appearance and distribution and reviews growth, puberty, medicines and family history before deciding whether a test is appropriate. Do not scrub the skin or start a lightening mixture or medicine from this sign alone. [2, 8]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل كل طفل وزنه زايد يحتاج تحليل إنسولين صايم؟",
-            "en": "Does every child with excess weight need a fasting insulin test?"
-          },
-          "a": {
-            "ar": "لأ. الإرشادات ما بتنصحش بقياس الإنسولين الصايم بشكل روتيني لتقييم سمنة الأطفال، لأنه ما فيش حد موحّد يفصل بدقة بين الطبيعي ومقاومة الإنسولين، والنتيجة بتتأثر بالبلوغ وطريقة المعمل. قرار فحص السكر بيتبني على السن ومنحنى النمو والأعراض وعوامل الخطورة، والطبيب ممكن يختار سكر صايم أو تراكمي أو اختبار تحمل حسب السؤال. [3, 8]",
-            "en": "No. Guidelines do not recommend routine fasting-insulin measurement in pediatric obesity assessment because there is no standard threshold that reliably separates usual insulin sensitivity from resistance, and results vary with puberty and laboratory method. A glucose-testing decision is based on age, growth trajectory, symptoms and risk factors; the clinician may choose fasting glucose, A1C or a tolerance test according to the question. [3, 8]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل نتيجة السكر الطبيعية تلغي القلق نهائياً؟",
-            "en": "Does a normal glucose result end the concern permanently?"
-          },
-          "a": {
-            "ar": "مش دايماً. النتيجة الطبيعية بتجاوب عن وقت وسؤال محددين، لكن عوامل الخطورة ومسار النمو ممكن يستمروا. الطبيب يحدد هل تكفي متابعة روتينية أو يحتاج الفحص يتكرر بعد مدة، وقد يقرّب الموعد لو الوزن بيزيد بسرعة أو ظهرت أعراض أو ساءت مؤشرات تانية. لو فيه عطش وتبول ونزول وزن أو تدهور واضح، اطلب تقييماً حتى لو تحليل قديم كان طبيعياً. [2, 3, 12]",
-            "en": "Not always. A result within range answers a question at a particular time, while risk factors and the growth trajectory may continue. The clinician decides whether routine monitoring is enough or testing should be repeated later and may shorten the interval if weight rises quickly, symptoms appear or other markers worsen. Seek assessment for thirst, frequent urination, weight loss or clear deterioration even when an older test was normal. [2, 3, 12]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل مقاومة الإنسولين معناها إن الطفل هيجيله سكر؟",
-            "en": "Does insulin resistance mean a child will develop diabetes?"
-          },
-          "a": {
-            "ar": "لأ. مقاومة الإنسولين عامل في المسار، لكنها مش حكم مؤكد إن الطفل هيتطور عنده سكر نوع تاني. البلوغ نفسه ممكن يقلل حساسية الإنسولين مؤقتاً، ومقدمات السكر عند الشباب مش دايماً تتقدم للسكري. المهم تقييم عوامل الخطورة وقياس سكر الدم بالاختبار المناسب ومتابعة الاتجاه، مع خطة أسرية تناسب النمو بدل التخويف أو إطلاق وعود بالشفاء. [2, 3]",
-            "en": "No. Insulin resistance is one part of a pathway, not a certainty that a child will develop type 2 diabetes. Puberty can temporarily reduce insulin sensitivity, and prediabetes in youth does not always progress to diabetes. The useful approach is to assess risk factors, measure glucose with an appropriate test and follow the trend, with a growth-safe family plan rather than fear or promises of a cure. [2, 3]"
-          }
-        },
-        {
-          "q": {
-            "ar": "نغيّر أكل الطفل قبل التحاليل؟",
-            "en": "Should we change the child's diet before testing?"
-          },
-          "a": {
-            "ar": "ما تبدأش رجيم قاسي أو صيام أو منع نشويات من نفسك. اسأل الطبيب عن تحضير التحليل تحديداً؛ سكر الصيام يحتاج مدة صيام يحددها المختبر أو الفريق، بينما اختبارات تانية لها تعليمات مختلفة. خليك على الروتين المعتاد إلا لو اتقال غير كده، واكتب أي مرض حديث أو دواء. بعد التقييم، التغيير الأفضل غالباً بيشمل الأسرة كلها ويحافظ على طاقة الطفل ونموه. [5, 6, 10]",
-            "en": "Do not start a strict diet, fasting plan or carbohydrate ban on your own. Ask specifically how to prepare for the chosen test; fasting glucose requires a fasting period set by the laboratory or clinical team, while other tests have different instructions. Keep the usual routine unless told otherwise and report recent illness or medicines. After assessment, helpful change generally involves the whole family while protecting the child's energy and growth. [5, 6, 10]"
-          }
-        },
-        {
-          "q": {
-            "ar": "إمتى أعراض السكر عند الطفل تبقى طوارئ؟",
-            "en": "When do possible diabetes symptoms in a child become an emergency?"
-          },
-          "a": {
-            "ar": "اطلب رعاية عاجلة لو العطش أو التبول أو نزول الوزن معاهم قيء، ألم بطن، تنفس سريع أو عميق، رائحة نفس فاكهية، جفاف، خمول شديد، ارتباك أو إغماء. دي ممكن تكون علامات حماض كيتوني أو اضطراب شديد في السكر، ومش لازم يكون عند الطفل تشخيص سابق. لو مش قادر يشرب أو حالته بتسوء بسرعة، ما تستناش موعد عادي أو نتيجة تحليل روتيني. [3, 10, 12]",
-            "en": "Seek urgent care when thirst, frequent urination or weight loss occurs with vomiting, abdominal pain, fast or deep breathing, fruity-smelling breath, dehydration, marked drowsiness, confusion or fainting. These can indicate diabetic ketoacidosis or another severe glucose disturbance, and the child does not need a previous diagnosis for it to be urgent. If they cannot drink or are deteriorating quickly, do not wait for a routine appointment or test result. [3, 10, 12]"
-          }
-        }
+        {"q": {"ar": "هل اسمرار رقبة الطفل يثبت مقاومة الإنسولين؟", "en": "Does a child's dark neck prove insulin resistance?"}, "a": {"ar": "لأ. الجلد الداكن السميك أو المخملي ممكن يكون شواكاً أسود ويرتبط بمقاومة الإنسولين، بس له أسباب تانية ومش بيقيس سكر الدم. الطبيب بيفحص الشكل والتوزيع، ويراجع النمو والبلوغ والأدوية والتاريخ العائلي قبل ما يقرر هل فيه تحليل مناسب. ما تفركش الجلد بعنف وما تبدأش خلطة تفتيح أو دواء من العلامة لوحدها. [2, 8]", "en": "No. Dark, thick or velvety skin may be acanthosis nigricans and can be associated with insulin resistance, but it has other causes and does not measure blood glucose. A clinician examines its appearance and distribution and reviews growth, puberty, medicines and family history before deciding whether a test is appropriate. Do not scrub the skin or start a lightening mixture or medicine from this sign alone. [2, 8]"}},
+        {"q": {"ar": "هل كل طفل وزنه زايد يحتاج تحليل إنسولين صايم؟", "en": "Does every child with excess weight need a fasting insulin test?"}, "a": {"ar": "لأ. الإرشادات ما بتنصحش بقياس الإنسولين الصايم بشكل روتيني لتقييم سمنة الأطفال، لأنه ما فيش حد موحّد يفصل بدقة بين الطبيعي ومقاومة الإنسولين، والنتيجة بتتأثر بالبلوغ وطريقة المعمل. قرار فحص السكر بيتبني على السن ومنحنى النمو والأعراض وعوامل الخطورة، والطبيب ممكن يختار سكر صايم أو تراكمي أو اختبار تحمل حسب السؤال. [3, 8]", "en": "No. Guidelines do not recommend routine fasting-insulin measurement in pediatric obesity assessment because there is no standard threshold that reliably separates usual insulin sensitivity from resistance, and results vary with puberty and laboratory method. A glucose-testing decision is based on age, growth trajectory, symptoms and risk factors; the clinician may choose fasting glucose, A1C or a tolerance test according to the question. [3, 8]"}},
+        {"q": {"ar": "هل نتيجة السكر الطبيعية تلغي القلق نهائياً؟", "en": "Does a normal glucose result end the concern permanently?"}, "a": {"ar": "مش دايماً. النتيجة الطبيعية بتجاوب عن وقت وسؤال محددين، بس عوامل الخطورة ومسار النمو ممكن يستمروا. الطبيب يحدد هل تكفي متابعة روتينية أو يحتاج الفحص يتكرر بعد مدة، وقد يقرّب الموعد لو الوزن بيزيد بسرعة أو ظهرت أعراض أو ساءت مؤشرات تانية. لو فيه عطش وتبول ونزول وزن أو تدهور واضح، اطلب تقييماً حتى لو تحليل قديم كان طبيعياً. [2, 3, 12]", "en": "Not always. A result within range answers a question at a particular time, while risk factors and the growth trajectory may continue. The clinician decides whether routine monitoring is enough or testing should be repeated later and may shorten the interval if weight rises quickly, symptoms appear or other markers worsen. Seek assessment for thirst, frequent urination, weight loss or clear deterioration even when an older test was normal. [2, 3, 12]"}},
+        {"q": {"ar": "هل مقاومة الإنسولين معناها إن الطفل هيجيله سكر؟", "en": "Does insulin resistance mean a child will develop diabetes?"}, "a": {"ar": "لأ. مقاومة الإنسولين عامل في المسار، بس هي مش حكم مؤكد إن الطفل هيتطور عنده سكر نوع تاني. البلوغ نفسه ممكن يقلل حساسية الإنسولين مؤقتاً، ومقدمات السكر عند الشباب مش دايماً تتقدم للسكري. المهم تقييم عوامل الخطورة وقياس سكر الدم بالاختبار المناسب ومتابعة الاتجاه، مع خطة أسرية تناسب النمو بدل التخويف أو إطلاق وعود بالشفاء. [2, 3]", "en": "No. Insulin resistance is one part of a pathway, not a certainty that a child will develop type 2 diabetes. Puberty can temporarily reduce insulin sensitivity, and prediabetes in youth does not always progress to diabetes. The useful approach is to assess risk factors, measure glucose with an appropriate test and follow the trend, with a growth-safe family plan rather than fear or promises of a cure. [2, 3]"}},
+        {"q": {"ar": "نغيّر أكل الطفل قبل التحاليل؟", "en": "Should we change the child's diet before testing?"}, "a": {"ar": "ما تبدأش رجيم قاسي أو صيام أو منع نشويات من نفسك. اسأل الطبيب عن تحضير التحليل تحديداً؛ سكر الصيام يحتاج مدة صيام يحددها المختبر أو الفريق، بينما اختبارات تانية لها تعليمات مختلفة. خليك على الروتين المعتاد إلا لو اتقال غير كده، واكتب أي مرض حديث أو دواء. بعد التقييم، التغيير الأفضل غالباً بيشمل الأسرة كلها ويحافظ على طاقة الطفل ونموه. [5, 6, 10]", "en": "Do not start a strict diet, fasting plan or carbohydrate ban on your own. Ask specifically how to prepare for the chosen test; fasting glucose requires a fasting period set by the laboratory or clinical team, while other tests have different instructions. Keep the usual routine unless told otherwise and report recent illness or medicines. After assessment, helpful change generally involves the whole family while protecting the child's energy and growth. [5, 6, 10]"}},
+        {"q": {"ar": "إمتى أعراض السكر عند الطفل تبقى طوارئ؟", "en": "When do possible diabetes symptoms in a child become an emergency?"}, "a": {"ar": "اطلب رعاية عاجلة لو العطش أو التبول أو نزول الوزن معاهم قيء، ألم بطن، تنفس سريع أو عميق، رائحة نفس فاكهية، جفاف، خمول شديد، ارتباك أو إغماء. دي ممكن تكون علامات حماض كيتوني أو اضطراب شديد في السكر، ومش لازم يكون عند الطفل تشخيص سابق. لو مش قادر يشرب أو حالته بتسوء بسرعة، ما تستناش موعد عادي أو نتيجة تحليل روتيني. [3, 10, 12]", "en": "Seek urgent care when thirst, frequent urination or weight loss occurs with vomiting, abdominal pain, fast or deep breathing, fruity-smelling breath, dehydration, marked drowsiness, confusion or fainting. These can indicate diabetic ketoacidosis or another severe glucose disturbance, and the child does not need a previous diagnosis for it to be urgent. If they cannot drink or are deteriorating quickly, do not wait for a routine appointment or test result. [3, 10, 12]"}}
       ],
       "sources": [
-        {
-          "label": "CDC — Growth Charts",
-          "url": "https://www.cdc.gov/growthcharts/cdc-growth-charts.htm"
-        },
-        {
-          "label": "NIDDK — Insulin Resistance & Prediabetes",
-          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance"
-        },
-        {
-          "label": "ISPAD Clinical Practice Consensus Guidelines 2024: Type 2 Diabetes in Children and Adolescents (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11854986/"
-        },
-        {
-          "label": "USPSTF — High Body Mass Index in Children and Adolescents: Interventions",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/obesity-in-children-and-adolescents-screening"
-        },
-        {
-          "label": "CDC — Tips to Support Healthy Routines for Children and Teens",
-          "url": "https://www.cdc.gov/healthy-weight-growth/tips-parents-caregivers/"
-        },
-        {
-          "label": "NIDDK — Diabetes Tests & Diagnosis",
-          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis"
-        },
-        {
-          "label": "NIDDK — Type 2 Diabetes",
-          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-2-diabetes"
-        },
-        {
-          "label": "Endocrine Society — Pediatric Obesity: Assessment, Treatment, and Prevention Guideline (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6283429/"
-        },
-        {
-          "label": "AAP — Stigma Experienced by Children and Adolescents With Obesity (PubMed)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/29158228/"
-        },
-        {
-          "label": "American Diabetes Association — Children and Adolescents: Standards of Care in Diabetes 2026 (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690182/"
-        },
-        {
-          "label": "USPSTF — Prediabetes and Type 2 Diabetes in Children and Adolescents: Screening",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prediabetes-type2-diabetes-children-adolescents-screening"
-        },
-        {
-          "label": "NIDDK — Symptoms & Causes of Diabetes",
-          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/symptoms-causes"
-        }
+        {"label": "CDC — Growth Charts", "url": "https://www.cdc.gov/growthcharts/cdc-growth-charts.htm"},
+        {"label": "NIDDK — Insulin Resistance & Prediabetes", "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance"},
+        {"label": "ISPAD Clinical Practice Consensus Guidelines 2024: Type 2 Diabetes in Children and Adolescents (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11854986/"},
+        {"label": "USPSTF — High Body Mass Index in Children and Adolescents: Interventions", "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/obesity-in-children-and-adolescents-screening"},
+        {"label": "CDC — Tips to Support Healthy Routines for Children and Teens", "url": "https://www.cdc.gov/healthy-weight-growth/tips-parents-caregivers/"},
+        {"label": "NIDDK — Diabetes Tests & Diagnosis", "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis"},
+        {"label": "NIDDK — Type 2 Diabetes", "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-2-diabetes"},
+        {"label": "Endocrine Society — Pediatric Obesity: Assessment, Treatment, and Prevention Guideline (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6283429/"},
+        {"label": "AAP — Stigma Experienced by Children and Adolescents With Obesity (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/29158228/"},
+        {"label": "American Diabetes Association — Children and Adolescents: Standards of Care in Diabetes 2026 (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690182/"},
+        {"label": "USPSTF — Prediabetes and Type 2 Diabetes in Children and Adolescents: Screening", "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prediabetes-type2-diabetes-children-adolescents-screening"},
+        {"label": "NIDDK — Symptoms & Causes of Diabetes", "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/symptoms-causes"}
       ],
-      "seo": {
-        "title": {
-          "ar": "مقاومة الإنسولين عند الأطفال: تقييم الأسرة",
-          "en": "Insulin resistance in children: family assessment"
-        },
-        "description": {
-          "ar": "دليل مصري للأهل عن تقييم مقاومة الإنسولين عند الأطفال: عوامل الخطورة، منحنى النمو، تحاليل السكر، علامات الطوارئ، وخطة متابعة من غير لوم.",
-          "en": "A family guide to childhood insulin-resistance assessment: risk factors, growth, glucose tests, urgent signs and a supportive follow-up plan."
-        }
-      }
+      "seo": {"title": {"ar": "مقاومة الإنسولين عند الأطفال: تقييم الأسرة", "en": "Insulin resistance in children: family assessment"}, "description": {"ar": "دليل مصري للأهل عن تقييم مقاومة الإنسولين عند الأطفال: عوامل الخطورة، منحنى النمو، تحاليل السكر، علامات الطوارئ، وخطة متابعة من غير لوم.", "en": "A family guide to childhood insulin-resistance assessment: risk factors, growth, glucose tests, urgent signs and a supportive follow-up plan."}}
     }
   ]
 }
