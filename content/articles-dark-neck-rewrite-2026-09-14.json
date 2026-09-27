@@ -7,57 +7,417 @@
       "published": true,
       "featured": false,
       "category": "dermatology",
-      "specialties": ["dermatology", "internal-medicine", "clinical-nutrition", "weight-management"],
+      "specialties": [
+        "dermatology",
+        "internal-medicine",
+        "clinical-nutrition",
+        "weight-management"
+      ],
       "date": "2026-09-07",
       "updatedAt": "2026-09-27",
       "readingTime": 12,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
       "image": "assets/img/articles/dark-neck-acanthosis-insulin-resistance.webp",
-      "title": {"ar": "اسمرار الرقبة ومقاومة الإنسولين: إمتى العلاقة دي تفرق؟", "en": "Dark neck skin and insulin resistance: when is the link relevant?"},
-      "excerpt": {"ar": "الجلد الغامق أو التخين أو اللي ملمسه زي القطيفة في الرقبة ممكن يكون الشواك الأسود، وممكن يرتبط بمقاومة الإنسولين، بس مش بيثبتها لوحده. اعرف إيه اللي يستاهل تقييم، وليه الدعك مش علاج.", "en": "Dark, thickened or velvety neck skin may be acanthosis nigricans and can be linked with insulin resistance, but it does not prove it alone. Learn what deserves assessment and why scrubbing is not treatment."},
+      "title": {
+        "ar": "اسمرار الرقبة ومقاومة الإنسولين: إمتى العلاقة دي تفرق؟",
+        "en": "Dark neck skin and insulin resistance: when is the link relevant?"
+      },
+      "excerpt": {
+        "ar": "الجلد الغامق أو التخين أو اللي ملمسه زي القطيفة في الرقبة ممكن يكون الشواك الأسود، وممكن يرتبط بمقاومة الإنسولين، بس مش بيثبتها لوحده. اعرف إيه اللي يستاهل تقييم، وليه الدعك مش علاج.",
+        "en": "Dark, thickened or velvety neck skin may be acanthosis nigricans and can be linked with insulin resistance, but it does not prove it alone. Learn what deserves assessment and why scrubbing is not treatment."
+      },
       "sections": [
-        {"id": "what-it-may-be", "heading": {"ar": "الجلد الغامق اللي زي القطيفة ممكن يعني إيه؟", "en": "What can dark, velvety skin mean?"}, "body": {"ar": "اسمرار الرقبة مش اسم لتشخيص واحد. لما الجلد يبقى أغمق أو أتخن وملمسه زي القطيفة في ثنيات الرقبة أو تحت الباط أو عند ثنية الفخذ، ممكن الدكتور يسمّي ده الشواك الأسود. التغير ده غالباً بيظهر بالتدريج، وساعات الواحد بياخد باله منه وهو بيغسل وشه أو وهو بيبص في صورة. الاسم بيوصف الشكل بس؛ مش بيحدد السبب لوحده، ومش معناه خالص وجود سكر أو مقاومة إنسولين عند كل واحد رقبته كده. [1, 2, 10]", "en": "A dark neck is not one diagnosis. When skin is darker, thicker and velvety in folds such as the neck, armpits or groin, a clinician may call it acanthosis nigricans. It can develop gradually and may be noticed during skin care or in photographs. The name describes an appearance; it does not establish a cause or mean every person has diabetes or insulin resistance. [1, 2, 10]"}},
-        {"id": "link-not-proof", "heading": {"ar": "العلاقة بمقاومة الإنسولين مهمة، بس مش دليل", "en": "The insulin-resistance link matters, but it is not proof"}, "body": {"ar": "الشواك الأسود ممكن يظهر مع مقاومة الإنسولين أو زيادة الوزن أو السكر أو تكيس المبايض عند ناس كتير، وعشان كده متتعاملش معاه كأنه مشكلة شكل وبس. بس برضه لون البشرة الطبيعي، والاحتكاك، والتهاب قديم في الجلد، وبعض الأدوية، واضطرابات الهرمونات، وأسباب جلدية تانية ممكن تكون هي الحكاية. شكل الجلد لوحده مش بيقول نتيجة تحليل ومش بيكتب علاج. التقييم بيربط الشكل بالسن والتاريخ المرضي والأعراض والقياسات والفحوص المناسبة. [1, 2, 3]", "en": "Acanthosis nigricans can occur with insulin resistance, obesity, diabetes or polycystic ovary syndrome in some people, so it should not be dismissed as purely cosmetic. But natural skin tone, friction, earlier inflammation, medicines, hormonal conditions and other skin causes can be relevant. A skin appearance alone cannot determine a blood-test result or prescribe treatment. Assessment connects the finding with age, history, symptoms, measurements and appropriate tests. [1, 2, 3]"}},
-        {"id": "skin-tone", "heading": {"ar": "لون البشرة والظروف بيغيروا القراءة", "en": "Skin tone and context change interpretation"}, "body": {"ar": "متقارنش رقبتك بصورة على النت أو بلون جلد حد تاني. فرق اللون بيبان بشكل مختلف حسب لون بشرتك الأصلي والإضاءة والاحتكاك، ومش كل اسمرار يبقى شواك أسود. الدكتور بيبص على الملمس، وأماكن التغير، وسرعة ظهوره، وهل فيه تغير في أماكن تانية، وبيسأل عن الهرش أو القشور أو المنتجات اللي بتستعملها أو أي تغير مفاجئ. التفاصيل دي بتحميك من تشخيص نفسك غلط ومن إحراج ملوش لازمة. [2, 4]", "en": "Do not compare your neck with an internet image or another person’s skin tone. Colour differences can look different with baseline pigmentation, lighting and friction, and not every dark patch is acanthosis nigricans. A clinician considers texture, distribution, speed of change, other areas, itch, scale, products and sudden onset. Those details prevent harmful self-diagnosis and unnecessary embarrassment. [2, 4]"}},
-        {"id": "avoid-scrubbing", "heading": {"ar": "الدعك والتقشير الجامد مش علاج", "en": "Scrubbing and harsh peeling are not treatment"}, "body": {"ar": "الشواك الأسود مش طبقة وساخة تتشال بالدعك. الدعك الجامد، أو الخلطات المجهولة، أو كريمات التفتيح، أو المقشرات القوية ممكن تعمل التهاب أو تغميق زيادة أو تبوّظ حاجز الجلد، خصوصاً في الثنيات الحساسة. العناية اللطيفة بالجلد وتجنب الاحتكاك اللي بيهيّجه ممكن يبقوا خطوة معقولة، بس علاج الشكل بيبدأ بفهم السبب والمخاطر، مش بوعد بتفتيح سريع. أي كريم طبي اتكلم عليه مع دكتور متخصص الأول. [1, 4, 5]", "en": "Acanthosis nigricans is not a layer of dirt that can be removed by scrubbing. Aggressive rubbing, unknown mixtures, bleaching products or strong peels can cause inflammation, more pigmentation or skin-barrier damage, especially in sensitive folds. Gentle skin care and avoiding irritating friction may be sensible, but managing the appearance starts with understanding causes and risks—not a promise of rapid lightening. Discuss medicated creams with a qualified clinician. [1, 4, 5]"}},
-        {"id": "assessment", "heading": {"ar": "التقييم المنظم ممكن يشمل إيه؟", "en": "What can an organised assessment include?"}, "body": {"ar": "الدكتور هيسألك إمتى التغير ظهر وبسرعة قد إيه، وعن الوزن ومقاس الوسط، وعن الدورة والأعراض الهرمونية لو ده يخص حالتك، وعن الأدوية والمكملات، والتاريخ العائلي، والنوم والحركة وأي أعراض تانية. ممكن يقيس الضغط ويطلب تحاليل سكر أو دهون أو حاجات تانية حسب الحكاية. مفيش تحليل واحد بيثبت مقاومة الإنسولين عند كل الناس؛ اختيار الفحص وقراءته بيختلفوا حسب السن والحمل والأدوية والحالة الصحية. [3, 6, 7]", "en": "A clinician may ask when the change appeared and how quickly, weight or waist, menstrual or hormonal symptoms when relevant, medicines and supplements, family history, sleep, activity and other symptoms. Blood pressure and tests for glucose, lipids or other factors may be considered according to the story. There is no single test that proves insulin resistance for everyone; test selection and interpretation vary with age, pregnancy, medicines and health status. [3, 6, 7]"}},
-        {"id": "not-a-home-test", "heading": {"ar": "متحوّلش رقبتك لتحليل سكر في البيت", "en": "Do not turn your neck into a home diabetes test"}, "body": {"ar": "إنك تشوف بقعة غامقة مش معناه تبدأ دوا أو رجيم قاسي أو تقرر إنك عندك سكر. وفي نفس الوقت، تحليل سكر طبيعي مرة واحدة مش بيشرح كل الأسباب المحتملة للجلد، ومش بيلغي الكلام عن عوامل الخطر لو موجودة. الهدف من الكشف مش إنك تجري ورا رقم أو اسم مرض؛ الهدف تعرف فيه سبب جلدي أو أيضي أو من دوا ينفع يتعالج، وإيه أبسط خطوة تجاوب على سؤالك. [1, 3, 6]", "en": "Seeing a dark patch does not mean starting medicine, an extreme diet or declaring that you have diabetes. Conversely, one normal glucose result does not explain every possible skin cause or eliminate discussion of relevant risks. The aim of review is not to chase a number or disease label; it is to find whether there is a treatable skin, metabolic or medication-related cause and choose the least invasive step that answers the question. [1, 3, 6]"}},
-        {"id": "pcos-and-other-pages", "heading": {"ar": "لو فيه أعراض تانية، متختصرهاش في الرقبة", "en": "If there are other symptoms, do not reduce them to the neck"}, "body": {"ar": "الدورة اللي مش منتظمة أو حب الشباب أو زيادة الشعر أو تغير الوزن ممكن يستاهلوا كلام لوحدهم، بس الرقبة لوحدها مش بتثبت تكيس المبايض. وبرضه العطش الزيادة أو كترة دخول الحمام أو التعب ليهم أسباب كتير ومحتاجين تقييم، مش تفسير من علامة في الجلد. دليل تكيس المبايض ومقال مقاومة الإنسولين للبالغين بيشرحوا الصورة الأوسع؛ الصفحة دي مركزة بس على علامة الرقبة: بتعني إيه ومتعنيش إيه. [3, 7, 8]", "en": "Irregular periods, acne, excess hair growth or weight change may deserve separate discussion, but they do not prove PCOS from a neck finding alone. Likewise, increased thirst, urination or tiredness have different possible causes and need assessment rather than interpretation from a skin sign. The site’s PCOS and adult insulin-resistance articles cover those broader pathways; this page focuses only on what a neck finding can and cannot mean. [3, 7, 8]"}, "links": {"ar": [{"label": "دليل تكيس المبايض", "url": "../articles/pcos-and-weight.html"}, {"label": "مقال مقاومة الإنسولين للبالغين", "url": "../articles/insulin-resistance-adults-symptoms-testing.html"}], "en": [{"label": "PCOS", "url": "../articles/pcos-and-weight.html"}, {"label": "adult insulin-resistance articles", "url": "../articles/insulin-resistance-adults-symptoms-testing.html"}]}},
-        {"id": "when-faster", "heading": {"ar": "إمتى تحتاج مراجعة أسرع؟", "en": "When is faster review appropriate?"}, "body": {"ar": "اطلب تقييم أسرع لو التغير جه فجأة أو بينتشر بسرعة، أو معاه ألم جامد أو جرح أو نزيف أو ورم أو نزول وزن من غير قصد أو إحساس واضح إن صحتك العامة بتقل. العلامات دي مش بتحدد سبب معين، بس مش مكانها تجارب منتجات في البيت أو استنى كتير. وكمان الطفل والست الحامل واللي عنده مرض مزمن أو بدأ دوا جديد محتاجين قراءة خاصة بحالتهم، مش نصيحة عامة. [1, 2, 4]", "en": "Seek faster review if the change is sudden or spreading rapidly, or comes with severe pain, a sore, bleeding, swelling, unintentional weight loss or clear general deterioration. These signs do not prove one cause, but they are not appropriate for home-product experiments or a long wait. Children, pregnancy, chronic illness and a new medicine also call for individual interpretation rather than general advice. [1, 2, 4]"}},
-        {"id": "visit-checklist", "heading": {"ar": "إزاي تطلع بأكبر فايدة من الكشف؟", "en": "How can you make the visit useful?"}, "body": {"ar": "قبل الميعاد، اكتب اللون ظهر إمتى، وهل الملمس اتغير أو المنطقة وسعت، وصوّر صور في نفس الإضاءة لو هتفيد الدكتور، واعمل قايمة بالمنتجات والأدوية والمكملات. متستعملش الصور عشان تراقب نفسك كل يوم أو تقارن نفسك بغيرك. اسأل: إيه التشخيصات المحتملة؟ فيه عوامل خطر تستاهل فحص؟ أوقف إيه وأكمل على إيه؟ وأرجع إمتى لو الجلد متغيرش؟ الإجابة الواضحة أهم من شرا منتج جديد، ولو عايز تراجع ده وش لوش تقدر تعمل حجز كشف في لاروز. [1, 3, 5]", "en": "Before the visit, note when colour appeared, whether texture changed or it spread, and take same-lighting photos if they will help the clinician. Bring a list of products, medicines and supplements. Do not use photos to monitor every day or compare yourself with others. Ask: What are the possible diagnoses? Are there risk factors worth testing? What should I stop or continue? When should I return if the skin does not change? A clear answer matters more than buying another product, and if you want this reviewed in person you can book a visit at La Rose. [1, 3, 5]"}, "links": {"ar": [{"label": "حجز كشف في لاروز", "url": "../patients/booking.html"}], "en": [{"label": "book a visit at La Rose", "url": "../patients/booking.html"}]}},
-        {"id": "next-step", "heading": {"ar": "الخطوة الجاية ممكن تبقى بسيطة ومحددة", "en": "The next step may be simple and specific"}, "body": {"ar": "بعد التقييم، الخطوة الجاية ممكن تبقى مراجعة منتج بيهيّج الجلد، أو قياس ومتابعة، أو تحليل محدد، أو علاج لمشكلة جلدية، أو دعم عملي في النوم والحركة والأكل وعوامل الخطر. مش كل الناس محتاجة نفس المسار، وجودة الخطة مش بتتقاس بسرعة تغير لون الجلد بس. اتفق مع الفريق اللي متابع معاك على هتتابعوا إيه، وليه، وإمتى، وإيه العلامات اللي تغيّر الخطة. [3, 6, 7]", "en": "After assessment, the next step may be reviewing an irritating product, measurement and follow-up, a focused blood test, treatment for a skin condition, or practical support for sleep, movement, food and risk factors. Not everyone needs the same pathway, and a plan’s quality is not measured only by how quickly skin colour changes. Agree with your team on what is being followed, why, when and which signs would change the plan. [3, 6, 7]"}},
-        {"id": "medicines", "heading": {"ar": "الأدوية والمكملات جزء من الحكاية", "en": "Medicines and supplements are part of the story"}, "body": {"ar": "خد معاك قايمة كاملة بالأدوية والمكملات ومنتجات التخسيس والأعشاب، حتى المنتجات اللي من غير روشتة. بعض الأدوية أو التغيرات الهرمونية ممكن تأثر على الجلد أو الوزن أو التحاليل، والدكتور مش هيقدر يربط الحاجات ببعض لو عرف جزء من القايمة بس. متوقفش دوا موصوف ومتغيرش جرعته عشان مقالة أو علامة في الجلد؛ اسأل الدكتور اللي كتبه عن الخطوة الآمنة. [1, 4, 6]", "en": "Bring a complete list of medicines, supplements, weight-loss products and herbs, including non-prescription items. Some medicines or hormonal changes can affect skin, weight or blood tests, and a clinician cannot connect the picture with only part of the list. Do not stop a prescribed medicine or change its dose because of an article or skin sign; ask the prescriber about the safe next step. [1, 4, 6]"}},
-        {"id": "children", "heading": {"ar": "عند الأطفال: التقييم بيساند الأسرة ومش بيلوم الطفل", "en": "For children: assessment supports the family, not blame"}, "body": {"ar": "الجلد الغامق في رقبة طفل يستاهل كلام هادي مع دكتور الأطفال أو الدكتور المناسب، خصوصاً لو التغير سريع أو فيه تاريخ عائلي أو تغير في الوزن أو النمو. متستعملش الرقبة عشان تحرج الطفل أو تفرض عليه رجيم قاسي أو تعلّق على شكله. النمو والنوم والحركة والأكل والأدوية وظروف البيت كلها بتأثر على الخطة، واختيار التحاليل ممكن يختلف عن الكبار. فيه شرح أوسع في مقال الرقبة الداكنة عند الأطفال. [1, 3, 6]", "en": "Dark neck skin in a child deserves a calm discussion with a paediatrician or appropriate clinician, especially with rapid change, family history or changes in weight or growth. Do not use the neck to shame a child, impose an extreme diet or make comments about appearance. Growth, sleep, activity, food, medicines and family context all shape a plan, and test choices can differ from those for adults. Dark neck skin in children is covered in more depth in its own article. [1, 3, 6]"}, "links": {"ar": [{"label": "الرقبة الداكنة عند الأطفال", "url": "../articles/dark-neck-skin-children-assessment.html"}], "en": [{"label": "Dark neck skin in children", "url": "../articles/dark-neck-skin-children-assessment.html"}]}},
-        {"id": "skin-care", "heading": {"ar": "عناية لطيفة بالجلد لحد ما تتقيّم", "en": "Gentle skin care while you await assessment"}, "body": {"ar": "اغسل المنطقة بهدوء ونشّفها من غير دعك، واختار هدوم أو إكسسوارات متحتكش في الرقبة على قد ما تقدر. متستعملش كورتيزون أو أحماض أو وصفة تفتيح قوية من دماغك، ومتخلطش منتجات كتير مع بعض في نفس الوقت؛ لو حصل تهيّج مش هتعرف السبب منين. لو دكتور متخصص نصحك بعلاج موضعي، اسأل تستعمله إزاي ولمدة قد إيه، وإيه آثاره الجانبية، وتوقفه إمتى. العناية بتحمي الجلد، بس مش بتغني عن معرفة السبب. [2, 4, 5]", "en": "Wash the area gently and dry it without rubbing, and choose clothing or accessories that minimise neck friction where practical. Do not independently use steroid, acid or strong lightening treatments, and do not combine many products at once; irritation then becomes hard to trace. If a qualified clinician recommends a topical treatment, ask how to use it, for how long, possible side effects and when to stop. Care protects skin but does not replace finding the cause. [2, 4, 5]"}},
-        {"id": "follow-up", "heading": {"ar": "إيه اللي بيتابَع في المراجعة؟", "en": "What is followed at review?"}, "body": {"ar": "في المراجعة ممكن الدكتور يبص على الأعراض والجلد والقياسات والتحاليل اللي اتفقتوا عليها من الأول، أو استجابة أي علاج جلدي، أو عوامل خطر زي الضغط والسكر والدهون حسب حالتك. مفيش داعي تصوّر رقبتك كل يوم أو تجري ورا فرق بسيط في اللون. اتفقوا على ميعاد مراجعة واضح وعلى معنى التحسن في حالتك: يمكن يبقى ثبات الجلد، أو هرش أقل، أو فهم سبب نتيجة، أو تحسن مؤشر صحي معين. [1, 3, 6]", "en": "A clinician may review symptoms, skin, selected measurements and tests, response to any skin treatment, or risk factors such as blood pressure, glucose and lipids according to the case. There is no need to photograph the neck daily or chase a small colour change. Agree on a clear review point and what improvement means for you: it may be stable skin, less itch, understanding a finding or movement in a specific health marker. [1, 3, 6]"}},
-        {"id": "dermatology-role", "heading": {"ar": "إمتى تقييم الجلدية يفيد؟", "en": "When can dermatology assessment help?"}, "body": {"ar": "تقييم الجلدية بيفيد لما التشخيص يبقى مش واضح، أو فيه هرش أو قشور أو التهاب أو تغيرات في أماكن تانية، أو الجلد مبيتحسنش رغم التعامل مع سبب معروف، أو محتاج خطة آمنة للشكل بعد ما السبب يتقيّم. احتمال وجود علاقة بمقاومة الإنسولين مش بيلغي دور الجلدية، والتشخيص الجلدي برضه مش بيلغي تقييم الصحة العامة لو فيه عوامل خطر. كل تخصص بيجاوب على سؤال مختلف من غير تكرار ملوش لازمة. [2, 4, 5]", "en": "Dermatology assessment can help when the diagnosis is unclear, there is itch, scale, inflammation or changes elsewhere, skin does not improve despite addressing a known factor, or you need a safe appearance-focused plan after cause assessment. A possible insulin-resistance link does not remove dermatology’s role, and a skin diagnosis does not remove general-health assessment when risks are present. Each specialty answers a different question without unnecessary duplication. [2, 4, 5]"}},
-        {"id": "realistic-expectations", "heading": {"ar": "توقعات واقعية بتحميك من الوعود التجارية", "en": "Realistic expectations protect you from commercial promises"}, "body": {"ar": "أي إعلان بيوعدك إن الاسمرار هيروح في أيام، أو بيربط قيمة الإنسان بلون رقبته، يستاهل تقف عنده. الجلد ممكن ميتغيرش بنفس سرعة تحسن مؤشر صحي تاني، والعلاج الموضعي ممكن ياخد وقت أو ميبقاش مناسب أصلاً قبل التشخيص. اسأل عن الفايدة المتوقعة والبدائل والمخاطر، ومتخليش القلق من الشكل يزقك لمنتج مجهول أو يخليك تخبي معلومة مهمة عن الدكتور. [1, 4, 5]", "en": "Any advertisement promising to erase darkness in days or tying a person’s worth to neck colour deserves a pause. Skin may not change at the same speed as another health factor improves, and topical treatment may take time or may not be appropriate before diagnosis. Ask about expected benefit, alternatives and risks, and do not let concern about appearance push you toward an unknown product or hiding important information from your clinician. [1, 4, 5]"}},
-        {"id": "healthy-goals", "heading": {"ar": "خلّي الهدف صحة أوضح، مش رقم أو لون مثالي", "en": "Make the goal clearer health, not a perfect number or colour"}, "body": {"ar": "لو فيه عامل أيضي محتاج اهتمام، فالخطوات المفيدة غالباً بتبقى حاجات تقدر تكمل عليها: نوم كفاية، حركة تناسبك، أكل منتظم ومتنوع، مراجعة الأدوية، ومتابعة المؤشرات اللي الفريق اختارها. مش لازم كل علامة في الجلد تتغير عشان يبقى فيه تقدم حقيقي، ومش لازم الوزن ينزل بسرعة عشان العادات تبقى مفيدة. ابعد عن التجويع والحبوب والحقن اللي محدش كتبهالك، وعن خطة منقولة من تجربة حد تاني؛ دي مش بتوضح سبب الجلد وممكن تضيف ضرر جديد. [3, 6, 9]\n\nاسأل دايماً: إحنا بنتابع أنهي سؤال في المرحلة دي؟ تشخيص الجلد؟ خطر السكر؟ تأثير دوا؟ ولا عرض هرموني تاني؟ لما السؤال يبقى واضح، هيبقى أسهل تعرف محتاج جلدية ولا باطنة ولا تغذية ولا متابعة مشتركة، وهتمنع تكرار نفس التحليل أو نفس النصيحة في كذا مكان. الهدف مش إنك تحكم على نفسك من رقبتك؛ الهدف خطة تفهمها وتطبقها وتراجعها. [1, 3, 6]", "en": "When a metabolic factor needs care, useful steps are usually sustainable: adequate sleep, movement that suits you, regular varied food, medication review and follow-up of the measures your team selected. Not every skin sign must change for meaningful progress, and weight does not need to change quickly for habits to be useful. Avoid starvation, unprescribed pills or injections, and plans copied from another person; they do not establish the skin cause and can add harm. [3, 6, 9]\n\nAlways ask which question is being followed at this stage: the skin diagnosis, glucose risk, a medicine effect or another hormonal symptom? When the question is clear, it becomes easier to know whether dermatology, internal medicine, nutrition or joint follow-up is appropriate and to avoid repeating the same test or advice in several places. The goal is not a judgement about yourself from your neck; it is a plan you can understand, follow and review. [1, 3, 6]"}},
-        {"id": "calm-next-step", "heading": {"ar": "الهدوء والمتابعة المنظمة أحسن من القلق كل يوم", "en": "Calm, organised follow-up is better than daily worry"}, "body": {"ar": "مش محتاج تبص على لون رقبتك كل يوم أو تلوم نفسك على تغير بطيء. خلي الخطة مكتوبة معاك، وارجع في الميعاد المتفق عليه أو بدري لو ظهرت علامة تقلقك. وجود سؤال واضح وخطوة متابعة واضحة بيحميك من تجربة منتجات كتير ومن تأخير رعاية انت محتاجها. [1, 3, 5]", "en": "You do not need to inspect neck colour every day or blame yourself for slow change. Keep the written plan and return at the agreed time, or sooner if a concerning sign appears. A clear question and follow-up step protect you from trying many products and from delaying needed care. [1, 3, 5]"}}
+        {
+          "id": "what-it-may-be",
+          "heading": {
+            "ar": "الجلد الغامق اللي زي القطيفة ممكن يعني إيه؟",
+            "en": "What can dark, velvety skin mean?"
+          },
+          "body": {
+            "ar": "اسمرار الرقبة مش اسم لتشخيص واحد. لما الجلد يبقى أغمق أو أتخن وملمسه زي القطيفة في ثنيات الرقبة أو تحت الباط أو عند ثنية الفخذ، ممكن الدكتور يسمّي ده الشواك الأسود. التغير ده غالباً بيظهر بالتدريج، وساعات الواحد بياخد باله منه وهو بيغسل وشه أو وهو بيبص في صورة. الاسم بيوصف الشكل بس؛ مش بيحدد السبب لوحده، ومش معناه خالص وجود سكر أو مقاومة إنسولين عند كل واحد رقبته كده. [1, 2, 10]",
+            "en": "A dark neck is not one diagnosis. When skin is darker, thicker and velvety in folds such as the neck, armpits or groin, a clinician may call it acanthosis nigricans. It can develop gradually and may be noticed during skin care or in photographs. The name describes an appearance; it does not establish a cause or mean every person has diabetes or insulin resistance. [1, 2, 10]"
+          }
+        },
+        {
+          "id": "link-not-proof",
+          "heading": {
+            "ar": "العلاقة بمقاومة الإنسولين مهمة، بس مش دليل",
+            "en": "The insulin-resistance link matters, but it is not proof"
+          },
+          "body": {
+            "ar": "الشواك الأسود ممكن يظهر مع مقاومة الإنسولين أو زيادة الوزن أو السكر أو تكيس المبايض عند ناس كتير، وعشان كده متتعاملش معاه كأنه مشكلة شكل وبس. بس برضه لون البشرة الطبيعي، والاحتكاك، والتهاب قديم في الجلد، وبعض الأدوية، واضطرابات الهرمونات، وأسباب جلدية تانية ممكن تكون هي الحكاية. شكل الجلد لوحده مش بيقول نتيجة تحليل ومش بيكتب علاج. التقييم بيربط الشكل بالسن والتاريخ المرضي والأعراض والقياسات والفحوص المناسبة. [1, 2, 3]",
+            "en": "Acanthosis nigricans can occur with insulin resistance, obesity, diabetes or polycystic ovary syndrome in some people, so it should not be dismissed as purely cosmetic. But natural skin tone, friction, earlier inflammation, medicines, hormonal conditions and other skin causes can be relevant. A skin appearance alone cannot determine a blood-test result or prescribe treatment. Assessment connects the finding with age, history, symptoms, measurements and appropriate tests. [1, 2, 3]"
+          }
+        },
+        {
+          "id": "is-it-a-sign",
+          "heading": {
+            "en": "Is a dark neck a sign of insulin resistance? How the link works",
+            "ar": "هل سواد الرقبة من علامات مقاومة الإنسولين؟ العلاقة بتحصل إزاي"
+          },
+          "body": {
+            "en": "It can be. The American Academy of Dermatology describes acanthosis nigricans as a possible sign of prediabetes or diabetes, and DermNet explains that it is mostly linked to insulin resistance. When the body needs more insulin to keep glucose in range, high insulin levels in the skin act on insulin-like growth factor receptors of skin cells. That stimulates the outer skin cells to multiply, which is why the skin becomes thicker, velvety and darker rather than simply changing colour. [2, 11]\n\nThe usual sites are skin folds: the back and sides of the neck, the underarms and the groin. DermNet notes that neck involvement is seen mostly in people with darker skin types, and that small skin tags are a frequent companion finding. People at higher risk include those living with overweight, those with a family history of the condition, and some ethnic backgrounds. [2, 11]\n\nThe reverse is not true, though. NIDDK states that people with insulin resistance and prediabetes usually have no symptoms, so a neck that looks normal does not rule insulin resistance out, and a dark neck on its own does not confirm it. The skin sign is a reason to check, not a result. [6, 2]\n\nWhen the cause behind it is managed, DermNet notes that acanthosis nigricans is expected to improve or even resolve, although skin often changes more slowly than blood tests. Darkening that appears suddenly and spreads quickly in someone without the usual risk factors is a different picture and needs a prompt medical review rather than waiting. [2, 3]",
+            "ar": "ممكن يكون. الأكاديمية الأمريكية للأمراض الجلدية بتوصف الشواك الأسود إنه ممكن يبقى علامة على مرحلة ما قبل السكر أو السكر، وDermNet بيشرح إنه مرتبط في أغلب الحالات بمقاومة الإنسولين. لما الجسم يحتاج إنسولين أكتر عشان يظبط السكر، الإنسولين العالي بيوصل للجلد ويشتغل على مستقبلات عامل النمو الشبيه بالإنسولين في خلايا الجلد. ده بيخلي خلايا الطبقة الخارجية تتكاثر، وعشان كده الجلد بيبقى أتخن وملمسه زي القطيفة وأغمق، مش مجرد لون اتغير. [2, 11]\n\nالأماكن المعتادة هي ثنيات الجلد: ضهر الرقبة وجوانبها، وتحت الباط، وثنية الفخذ. DermNet بيقول إن سواد الرقبة من النوع ده بيظهر أكتر مع البشرة الأسمر، وإن الزوائد الجلدية الصغيرة بتيجي معاه كتير. واللي عندهم احتمال أعلى هم اللي عندهم زيادة وزن، أو تاريخ عائلي للحالة، وبعض الأصول العرقية. وعشان كده تصبغات الرقبة مع مقاومة الإنسولين بتتقرا مع الصورة كلها. [2, 11]\n\nبس العكس مش صحيح. NIDDK بيقول إن اللي عنده مقاومة إنسولين أو ما قبل السكر غالباً مابيبقاش عنده أي أعراض، يعني رقبة شكلها طبيعي مش بتنفي مقاومة الإنسولين، ورقبة غامقة لوحدها مش بتأكدها. علامة الجلد سبب إنك تكشف، مش نتيجة تحليل. [6, 2]\n\nلما السبب اللي وراه يتعالج، DermNet بيقول إن الشواك الأسود متوقع يتحسن أو حتى يختفي، بس الجلد غالباً بيتغير أبطأ من التحاليل. أما الاسمرار اللي بيظهر فجأة وبينتشر بسرعة عند حد مفيش عنده عوامل الخطورة المعتادة، فده شكل مختلف ومحتاج مراجعة طبية قريبة من غير استنى. [2, 3]"
+          }
+        },
+        {
+          "id": "skin-tone",
+          "heading": {
+            "ar": "لون البشرة والظروف بيغيروا القراءة",
+            "en": "Skin tone and context change interpretation"
+          },
+          "body": {
+            "ar": "متقارنش رقبتك بصورة على النت أو بلون جلد حد تاني. فرق اللون بيبان بشكل مختلف حسب لون بشرتك الأصلي والإضاءة والاحتكاك، ومش كل اسمرار يبقى شواك أسود. الدكتور بيبص على الملمس، وأماكن التغير، وسرعة ظهوره، وهل فيه تغير في أماكن تانية، وبيسأل عن الهرش أو القشور أو المنتجات اللي بتستعملها أو أي تغير مفاجئ. التفاصيل دي بتحميك من تشخيص نفسك غلط ومن إحراج ملوش لازمة. [2, 4]",
+            "en": "Do not compare your neck with an internet image or another person’s skin tone. Colour differences can look different with baseline pigmentation, lighting and friction, and not every dark patch is acanthosis nigricans. A clinician considers texture, distribution, speed of change, other areas, itch, scale, products and sudden onset. Those details prevent harmful self-diagnosis and unnecessary embarrassment. [2, 4]"
+          }
+        },
+        {
+          "id": "avoid-scrubbing",
+          "heading": {
+            "ar": "الدعك والتقشير الجامد مش علاج",
+            "en": "Scrubbing and harsh peeling are not treatment"
+          },
+          "body": {
+            "ar": "الشواك الأسود مش طبقة وساخة تتشال بالدعك. الدعك الجامد، أو الخلطات المجهولة، أو كريمات التفتيح، أو المقشرات القوية ممكن تعمل التهاب أو تغميق زيادة أو تبوّظ حاجز الجلد، خصوصاً في الثنيات الحساسة. العناية اللطيفة بالجلد وتجنب الاحتكاك اللي بيهيّجه ممكن يبقوا خطوة معقولة، بس علاج الشكل بيبدأ بفهم السبب والمخاطر، مش بوعد بتفتيح سريع. أي كريم طبي اتكلم عليه مع دكتور متخصص الأول. [1, 4, 5]",
+            "en": "Acanthosis nigricans is not a layer of dirt that can be removed by scrubbing. Aggressive rubbing, unknown mixtures, bleaching products or strong peels can cause inflammation, more pigmentation or skin-barrier damage, especially in sensitive folds. Gentle skin care and avoiding irritating friction may be sensible, but managing the appearance starts with understanding causes and risks—not a promise of rapid lightening. Discuss medicated creams with a qualified clinician. [1, 4, 5]"
+          }
+        },
+        {
+          "id": "assessment",
+          "heading": {
+            "ar": "التقييم المنظم ممكن يشمل إيه؟",
+            "en": "What can an organised assessment include?"
+          },
+          "body": {
+            "ar": "الدكتور هيسألك إمتى التغير ظهر وبسرعة قد إيه، وعن الوزن ومقاس الوسط، وعن الدورة والأعراض الهرمونية لو ده يخص حالتك، وعن الأدوية والمكملات، والتاريخ العائلي، والنوم والحركة وأي أعراض تانية. ممكن يقيس الضغط ويطلب تحاليل سكر أو دهون أو حاجات تانية حسب الحكاية. مفيش تحليل واحد بيثبت مقاومة الإنسولين عند كل الناس؛ اختيار الفحص وقراءته بيختلفوا حسب السن والحمل والأدوية والحالة الصحية. [3, 6, 7]",
+            "en": "A clinician may ask when the change appeared and how quickly, weight or waist, menstrual or hormonal symptoms when relevant, medicines and supplements, family history, sleep, activity and other symptoms. Blood pressure and tests for glucose, lipids or other factors may be considered according to the story. There is no single test that proves insulin resistance for everyone; test selection and interpretation vary with age, pregnancy, medicines and health status. [3, 6, 7]"
+          }
+        },
+        {
+          "id": "not-a-home-test",
+          "heading": {
+            "ar": "متحوّلش رقبتك لتحليل سكر في البيت",
+            "en": "Do not turn your neck into a home diabetes test"
+          },
+          "body": {
+            "ar": "إنك تشوف بقعة غامقة مش معناه تبدأ دوا أو رجيم قاسي أو تقرر إنك عندك سكر. وفي نفس الوقت، تحليل سكر طبيعي مرة واحدة مش بيشرح كل الأسباب المحتملة للجلد، ومش بيلغي الكلام عن عوامل الخطر لو موجودة. الهدف من الكشف مش إنك تجري ورا رقم أو اسم مرض؛ الهدف تعرف فيه سبب جلدي أو أيضي أو من دوا ينفع يتعالج، وإيه أبسط خطوة تجاوب على سؤالك. [1, 3, 6]",
+            "en": "Seeing a dark patch does not mean starting medicine, an extreme diet or declaring that you have diabetes. Conversely, one normal glucose result does not explain every possible skin cause or eliminate discussion of relevant risks. The aim of review is not to chase a number or disease label; it is to find whether there is a treatable skin, metabolic or medication-related cause and choose the least invasive step that answers the question. [1, 3, 6]"
+          }
+        },
+        {
+          "id": "pcos-and-other-pages",
+          "heading": {
+            "ar": "لو فيه أعراض تانية، متختصرهاش في الرقبة",
+            "en": "If there are other symptoms, do not reduce them to the neck"
+          },
+          "body": {
+            "ar": "الدورة اللي مش منتظمة أو حب الشباب أو زيادة الشعر أو تغير الوزن ممكن يستاهلوا كلام لوحدهم، بس الرقبة لوحدها مش بتثبت تكيس المبايض. وبرضه العطش الزيادة أو كترة دخول الحمام أو التعب ليهم أسباب كتير ومحتاجين تقييم، مش تفسير من علامة في الجلد. دليل تكيس المبايض ومقال مقاومة الإنسولين للبالغين بيشرحوا الصورة الأوسع؛ الصفحة دي مركزة بس على علامة الرقبة: بتعني إيه ومتعنيش إيه. [3, 7, 8]",
+            "en": "Irregular periods, acne, excess hair growth or weight change may deserve separate discussion, but they do not prove PCOS from a neck finding alone. Likewise, increased thirst, urination or tiredness have different possible causes and need assessment rather than interpretation from a skin sign. The site’s PCOS and adult insulin-resistance articles cover those broader pathways; this page focuses only on what a neck finding can and cannot mean. [3, 7, 8]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل تكيس المبايض",
+                "url": "../articles/pcos-and-weight.html"
+              },
+              {
+                "label": "مقال مقاومة الإنسولين للبالغين",
+                "url": "../articles/insulin-resistance-adults-symptoms-testing.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "PCOS",
+                "url": "../articles/pcos-and-weight.html"
+              },
+              {
+                "label": "adult insulin-resistance articles",
+                "url": "../articles/insulin-resistance-adults-symptoms-testing.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-faster",
+          "heading": {
+            "ar": "إمتى تحتاج مراجعة أسرع؟",
+            "en": "When is faster review appropriate?"
+          },
+          "body": {
+            "ar": "اطلب تقييم أسرع لو التغير جه فجأة أو بينتشر بسرعة، أو معاه ألم جامد أو جرح أو نزيف أو ورم أو نزول وزن من غير قصد أو إحساس واضح إن صحتك العامة بتقل. العلامات دي مش بتحدد سبب معين، بس مش مكانها تجارب منتجات في البيت أو استنى كتير. وكمان الطفل والست الحامل واللي عنده مرض مزمن أو بدأ دوا جديد محتاجين قراءة خاصة بحالتهم، مش نصيحة عامة. [1, 2, 4]",
+            "en": "Seek faster review if the change is sudden or spreading rapidly, or comes with severe pain, a sore, bleeding, swelling, unintentional weight loss or clear general deterioration. These signs do not prove one cause, but they are not appropriate for home-product experiments or a long wait. Children, pregnancy, chronic illness and a new medicine also call for individual interpretation rather than general advice. [1, 2, 4]"
+          }
+        },
+        {
+          "id": "visit-checklist",
+          "heading": {
+            "ar": "إزاي تطلع بأكبر فايدة من الكشف؟",
+            "en": "How can you make the visit useful?"
+          },
+          "body": {
+            "ar": "قبل الميعاد، اكتب اللون ظهر إمتى، وهل الملمس اتغير أو المنطقة وسعت، وصوّر صور في نفس الإضاءة لو هتفيد الدكتور، واعمل قايمة بالمنتجات والأدوية والمكملات. متستعملش الصور عشان تراقب نفسك كل يوم أو تقارن نفسك بغيرك. اسأل: إيه التشخيصات المحتملة؟ فيه عوامل خطر تستاهل فحص؟ أوقف إيه وأكمل على إيه؟ وأرجع إمتى لو الجلد متغيرش؟ الإجابة الواضحة أهم من شرا منتج جديد، ولو عايز تراجع ده وش لوش تقدر تعمل حجز كشف في لاروز. [1, 3, 5]",
+            "en": "Before the visit, note when colour appeared, whether texture changed or it spread, and take same-lighting photos if they will help the clinician. Bring a list of products, medicines and supplements. Do not use photos to monitor every day or compare yourself with others. Ask: What are the possible diagnoses? Are there risk factors worth testing? What should I stop or continue? When should I return if the skin does not change? A clear answer matters more than buying another product, and if you want this reviewed in person you can book a visit at La Rose. [1, 3, 5]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حجز كشف في لاروز",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book a visit at La Rose",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "next-step",
+          "heading": {
+            "ar": "الخطوة الجاية ممكن تبقى بسيطة ومحددة",
+            "en": "The next step may be simple and specific"
+          },
+          "body": {
+            "ar": "بعد التقييم، الخطوة الجاية ممكن تبقى مراجعة منتج بيهيّج الجلد، أو قياس ومتابعة، أو تحليل محدد، أو علاج لمشكلة جلدية، أو دعم عملي في النوم والحركة والأكل وعوامل الخطر. مش كل الناس محتاجة نفس المسار، وجودة الخطة مش بتتقاس بسرعة تغير لون الجلد بس. اتفق مع الفريق اللي متابع معاك على هتتابعوا إيه، وليه، وإمتى، وإيه العلامات اللي تغيّر الخطة. [3, 6, 7]",
+            "en": "After assessment, the next step may be reviewing an irritating product, measurement and follow-up, a focused blood test, treatment for a skin condition, or practical support for sleep, movement, food and risk factors. Not everyone needs the same pathway, and a plan’s quality is not measured only by how quickly skin colour changes. Agree with your team on what is being followed, why, when and which signs would change the plan. [3, 6, 7]"
+          }
+        },
+        {
+          "id": "medicines",
+          "heading": {
+            "ar": "الأدوية والمكملات جزء من الحكاية",
+            "en": "Medicines and supplements are part of the story"
+          },
+          "body": {
+            "ar": "خد معاك قايمة كاملة بالأدوية والمكملات ومنتجات التخسيس والأعشاب، حتى المنتجات اللي من غير روشتة. بعض الأدوية أو التغيرات الهرمونية ممكن تأثر على الجلد أو الوزن أو التحاليل، والدكتور مش هيقدر يربط الحاجات ببعض لو عرف جزء من القايمة بس. متوقفش دوا موصوف ومتغيرش جرعته عشان مقالة أو علامة في الجلد؛ اسأل الدكتور اللي كتبه عن الخطوة الآمنة. [1, 4, 6]",
+            "en": "Bring a complete list of medicines, supplements, weight-loss products and herbs, including non-prescription items. Some medicines or hormonal changes can affect skin, weight or blood tests, and a clinician cannot connect the picture with only part of the list. Do not stop a prescribed medicine or change its dose because of an article or skin sign; ask the prescriber about the safe next step. [1, 4, 6]"
+          }
+        },
+        {
+          "id": "children",
+          "heading": {
+            "ar": "عند الأطفال: التقييم بيساند الأسرة ومش بيلوم الطفل",
+            "en": "For children: assessment supports the family, not blame"
+          },
+          "body": {
+            "ar": "الجلد الغامق في رقبة طفل يستاهل كلام هادي مع دكتور الأطفال أو الدكتور المناسب، خصوصاً لو التغير سريع أو فيه تاريخ عائلي أو تغير في الوزن أو النمو. متستعملش الرقبة عشان تحرج الطفل أو تفرض عليه رجيم قاسي أو تعلّق على شكله. النمو والنوم والحركة والأكل والأدوية وظروف البيت كلها بتأثر على الخطة، واختيار التحاليل ممكن يختلف عن الكبار. فيه شرح أوسع في مقال الرقبة الداكنة عند الأطفال. [1, 3, 6]",
+            "en": "Dark neck skin in a child deserves a calm discussion with a paediatrician or appropriate clinician, especially with rapid change, family history or changes in weight or growth. Do not use the neck to shame a child, impose an extreme diet or make comments about appearance. Growth, sleep, activity, food, medicines and family context all shape a plan, and test choices can differ from those for adults. Dark neck skin in children is covered in more depth in its own article. [1, 3, 6]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الرقبة الداكنة عند الأطفال",
+                "url": "../articles/dark-neck-skin-children-assessment.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Dark neck skin in children",
+                "url": "../articles/dark-neck-skin-children-assessment.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "skin-care",
+          "heading": {
+            "ar": "عناية لطيفة بالجلد لحد ما تتقيّم",
+            "en": "Gentle skin care while you await assessment"
+          },
+          "body": {
+            "ar": "اغسل المنطقة بهدوء ونشّفها من غير دعك، واختار هدوم أو إكسسوارات متحتكش في الرقبة على قد ما تقدر. متستعملش كورتيزون أو أحماض أو وصفة تفتيح قوية من دماغك، ومتخلطش منتجات كتير مع بعض في نفس الوقت؛ لو حصل تهيّج مش هتعرف السبب منين. لو دكتور متخصص نصحك بعلاج موضعي، اسأل تستعمله إزاي ولمدة قد إيه، وإيه آثاره الجانبية، وتوقفه إمتى. العناية بتحمي الجلد، بس مش بتغني عن معرفة السبب. [2, 4, 5]",
+            "en": "Wash the area gently and dry it without rubbing, and choose clothing or accessories that minimise neck friction where practical. Do not independently use steroid, acid or strong lightening treatments, and do not combine many products at once; irritation then becomes hard to trace. If a qualified clinician recommends a topical treatment, ask how to use it, for how long, possible side effects and when to stop. Care protects skin but does not replace finding the cause. [2, 4, 5]"
+          }
+        },
+        {
+          "id": "follow-up",
+          "heading": {
+            "ar": "إيه اللي بيتابَع في المراجعة؟",
+            "en": "What is followed at review?"
+          },
+          "body": {
+            "ar": "في المراجعة ممكن الدكتور يبص على الأعراض والجلد والقياسات والتحاليل اللي اتفقتوا عليها من الأول، أو استجابة أي علاج جلدي، أو عوامل خطر زي الضغط والسكر والدهون حسب حالتك. مفيش داعي تصوّر رقبتك كل يوم أو تجري ورا فرق بسيط في اللون. اتفقوا على ميعاد مراجعة واضح وعلى معنى التحسن في حالتك: يمكن يبقى ثبات الجلد، أو هرش أقل، أو فهم سبب نتيجة، أو تحسن مؤشر صحي معين. [1, 3, 6]",
+            "en": "A clinician may review symptoms, skin, selected measurements and tests, response to any skin treatment, or risk factors such as blood pressure, glucose and lipids according to the case. There is no need to photograph the neck daily or chase a small colour change. Agree on a clear review point and what improvement means for you: it may be stable skin, less itch, understanding a finding or movement in a specific health marker. [1, 3, 6]"
+          }
+        },
+        {
+          "id": "dermatology-role",
+          "heading": {
+            "ar": "إمتى تقييم الجلدية يفيد؟",
+            "en": "When can dermatology assessment help?"
+          },
+          "body": {
+            "ar": "تقييم الجلدية بيفيد لما التشخيص يبقى مش واضح، أو فيه هرش أو قشور أو التهاب أو تغيرات في أماكن تانية، أو الجلد مبيتحسنش رغم التعامل مع سبب معروف، أو محتاج خطة آمنة للشكل بعد ما السبب يتقيّم. احتمال وجود علاقة بمقاومة الإنسولين مش بيلغي دور الجلدية، والتشخيص الجلدي برضه مش بيلغي تقييم الصحة العامة لو فيه عوامل خطر. كل تخصص بيجاوب على سؤال مختلف من غير تكرار ملوش لازمة. [2, 4, 5]",
+            "en": "Dermatology assessment can help when the diagnosis is unclear, there is itch, scale, inflammation or changes elsewhere, skin does not improve despite addressing a known factor, or you need a safe appearance-focused plan after cause assessment. A possible insulin-resistance link does not remove dermatology’s role, and a skin diagnosis does not remove general-health assessment when risks are present. Each specialty answers a different question without unnecessary duplication. [2, 4, 5]"
+          }
+        },
+        {
+          "id": "realistic-expectations",
+          "heading": {
+            "ar": "توقعات واقعية بتحميك من الوعود التجارية",
+            "en": "Realistic expectations protect you from commercial promises"
+          },
+          "body": {
+            "ar": "أي إعلان بيوعدك إن الاسمرار هيروح في أيام، أو بيربط قيمة الإنسان بلون رقبته، يستاهل تقف عنده. الجلد ممكن ميتغيرش بنفس سرعة تحسن مؤشر صحي تاني، والعلاج الموضعي ممكن ياخد وقت أو ميبقاش مناسب أصلاً قبل التشخيص. اسأل عن الفايدة المتوقعة والبدائل والمخاطر، ومتخليش القلق من الشكل يزقك لمنتج مجهول أو يخليك تخبي معلومة مهمة عن الدكتور. [1, 4, 5]",
+            "en": "Any advertisement promising to erase darkness in days or tying a person’s worth to neck colour deserves a pause. Skin may not change at the same speed as another health factor improves, and topical treatment may take time or may not be appropriate before diagnosis. Ask about expected benefit, alternatives and risks, and do not let concern about appearance push you toward an unknown product or hiding important information from your clinician. [1, 4, 5]"
+          }
+        },
+        {
+          "id": "healthy-goals",
+          "heading": {
+            "ar": "خلّي الهدف صحة أوضح، مش رقم أو لون مثالي",
+            "en": "Make the goal clearer health, not a perfect number or colour"
+          },
+          "body": {
+            "ar": "لو فيه عامل أيضي محتاج اهتمام، فالخطوات المفيدة غالباً بتبقى حاجات تقدر تكمل عليها: نوم كفاية، حركة تناسبك، أكل منتظم ومتنوع، مراجعة الأدوية، ومتابعة المؤشرات اللي الفريق اختارها. مش لازم كل علامة في الجلد تتغير عشان يبقى فيه تقدم حقيقي، ومش لازم الوزن ينزل بسرعة عشان العادات تبقى مفيدة. ابعد عن التجويع والحبوب والحقن اللي محدش كتبهالك، وعن خطة منقولة من تجربة حد تاني؛ دي مش بتوضح سبب الجلد وممكن تضيف ضرر جديد. [3, 6, 9]\n\nاسأل دايماً: إحنا بنتابع أنهي سؤال في المرحلة دي؟ تشخيص الجلد؟ خطر السكر؟ تأثير دوا؟ ولا عرض هرموني تاني؟ لما السؤال يبقى واضح، هيبقى أسهل تعرف محتاج جلدية ولا باطنة ولا تغذية ولا متابعة مشتركة، وهتمنع تكرار نفس التحليل أو نفس النصيحة في كذا مكان. الهدف مش إنك تحكم على نفسك من رقبتك؛ الهدف خطة تفهمها وتطبقها وتراجعها. [1, 3, 6]",
+            "en": "When a metabolic factor needs care, useful steps are usually sustainable: adequate sleep, movement that suits you, regular varied food, medication review and follow-up of the measures your team selected. Not every skin sign must change for meaningful progress, and weight does not need to change quickly for habits to be useful. Avoid starvation, unprescribed pills or injections, and plans copied from another person; they do not establish the skin cause and can add harm. [3, 6, 9]\n\nAlways ask which question is being followed at this stage: the skin diagnosis, glucose risk, a medicine effect or another hormonal symptom? When the question is clear, it becomes easier to know whether dermatology, internal medicine, nutrition or joint follow-up is appropriate and to avoid repeating the same test or advice in several places. The goal is not a judgement about yourself from your neck; it is a plan you can understand, follow and review. [1, 3, 6]"
+          }
+        },
+        {
+          "id": "calm-next-step",
+          "heading": {
+            "ar": "الهدوء والمتابعة المنظمة أحسن من القلق كل يوم",
+            "en": "Calm, organised follow-up is better than daily worry"
+          },
+          "body": {
+            "ar": "مش محتاج تبص على لون رقبتك كل يوم أو تلوم نفسك على تغير بطيء. خلي الخطة مكتوبة معاك، وارجع في الميعاد المتفق عليه أو بدري لو ظهرت علامة تقلقك. وجود سؤال واضح وخطوة متابعة واضحة بيحميك من تجربة منتجات كتير ومن تأخير رعاية انت محتاجها. [1, 3, 5]",
+            "en": "You do not need to inspect neck colour every day or blame yourself for slow change. Keep the written plan and return at the agreed time, or sooner if a concerning sign appears. A clear question and follow-up step protect you from trying many products and from delaying needed care. [1, 3, 5]"
+          }
+        }
       ],
       "faq": [
-        {"q": {"ar": "هل اسمرار الرقبة معناه إن عندي سكر؟", "en": "Does a dark neck mean I have diabetes?"}, "a": {"ar": "لأ. الشواك الأسود ممكن يرتبط بمقاومة الإنسولين أو السكر عند ناس، بس مش بيثبت ده ولا ده، ومحتاج يتقرا مع السن والأعراض والتحاليل المناسبة. [1, 3, 10]", "en": "No. Acanthosis nigricans can be linked with insulin resistance or diabetes in some people, but it proves neither and needs to be read alongside age, symptoms and appropriate tests. [1, 3, 10]"}},
-        {"q": {"ar": "ينفع أشيله بالدعك أو بكريم تفتيح؟", "en": "Can I scrub it off or use a lightening cream?"}, "a": {"ar": "لأ. ده مش وساخة، والدعك الجامد أو المنتجات القوية ممكن تهيّج الجلد وتغمّقه زيادة. ابدأ بتقييم السبب وعناية لطيفة، واسأل مختص قبل أي كريم طبي. [1, 4, 5]", "en": "No. It is not dirt, and harsh rubbing or strong products can irritate the skin and darken it further. Start with assessment of the cause and gentle care, and ask a qualified clinician before any medicated cream. [1, 4, 5]"}},
-        {"q": {"ar": "فيه تحليل واحد يأكد مقاومة الإنسولين؟", "en": "Is there one test that confirms insulin resistance?"}, "a": {"ar": "مفيش تحليل واحد مناسب لكل الناس؛ الدكتور بيختار الفحوص زي تحاليل السكر حسب السن والأعراض وعوامل الخطر والأدوية. [6, 9]", "en": "There is no single test that suits everyone; clinicians choose tests such as glucose tests according to age, symptoms, risk factors and medicines. [6, 9]"}},
-        {"q": {"ar": "إمتى لازم أروح للدكتور بسرعة؟", "en": "When should I see a doctor quickly?"}, "a": {"ar": "لو الاسمرار ظهر فجأة أو بينتشر بسرعة، أو معاه نزول وزن من غير سبب أو ألم أو جرح أو تعب عام واضح، أو لو الموضوع عند طفل أو في الحمل. [1, 2, 5]", "en": "If the darkening appears suddenly or spreads quickly, or comes with unexplained weight loss, pain, a sore or clear general illness, or if it affects a child or occurs in pregnancy. [1, 2, 5]"}}
+        {
+          "q": {
+            "en": "Is a dark neck one of the signs of insulin resistance?",
+            "ar": "هل سواد الرقبة من علامات مقاومة الإنسولين؟"
+          },
+          "a": {
+            "en": "It can be: thick, velvety darkening in the neck folds (acanthosis nigricans) is often linked to insulin resistance and can be a sign of prediabetes. But insulin resistance usually has no symptoms, so the neck neither confirms nor rules it out; blood tests chosen by a clinician answer the question. [2, 6, 11]",
+            "ar": "ممكن: الاسمرار السميك اللي ملمسه زي القطيفة في ثنيات الرقبة (الشواك الأسود) كتير بيرتبط بمقاومة الإنسولين وممكن يبقى علامة على ما قبل السكر. بس مقاومة الإنسولين غالباً مالهاش أعراض، فالرقبة لا بتأكدها ولا بتنفيها؛ التحاليل اللي الدكتور يختارها هي اللي بتجاوب. [2, 6, 11]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل اسمرار الرقبة معناه إن عندي سكر؟",
+            "en": "Does a dark neck mean I have diabetes?"
+          },
+          "a": {
+            "ar": "لأ. الشواك الأسود ممكن يرتبط بمقاومة الإنسولين أو السكر عند ناس، بس مش بيثبت ده ولا ده، ومحتاج يتقرا مع السن والأعراض والتحاليل المناسبة. [1, 3, 10]",
+            "en": "No. Acanthosis nigricans can be linked with insulin resistance or diabetes in some people, but it proves neither and needs to be read alongside age, symptoms and appropriate tests. [1, 3, 10]"
+          }
+        },
+        {
+          "q": {
+            "ar": "ينفع أشيله بالدعك أو بكريم تفتيح؟",
+            "en": "Can I scrub it off or use a lightening cream?"
+          },
+          "a": {
+            "ar": "لأ. ده مش وساخة، والدعك الجامد أو المنتجات القوية ممكن تهيّج الجلد وتغمّقه زيادة. ابدأ بتقييم السبب وعناية لطيفة، واسأل مختص قبل أي كريم طبي. [1, 4, 5]",
+            "en": "No. It is not dirt, and harsh rubbing or strong products can irritate the skin and darken it further. Start with assessment of the cause and gentle care, and ask a qualified clinician before any medicated cream. [1, 4, 5]"
+          }
+        },
+        {
+          "q": {
+            "ar": "فيه تحليل واحد يأكد مقاومة الإنسولين؟",
+            "en": "Is there one test that confirms insulin resistance?"
+          },
+          "a": {
+            "ar": "مفيش تحليل واحد مناسب لكل الناس؛ الدكتور بيختار الفحوص زي تحاليل السكر حسب السن والأعراض وعوامل الخطر والأدوية. [6, 9]",
+            "en": "There is no single test that suits everyone; clinicians choose tests such as glucose tests according to age, symptoms, risk factors and medicines. [6, 9]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى لازم أروح للدكتور بسرعة؟",
+            "en": "When should I see a doctor quickly?"
+          },
+          "a": {
+            "ar": "لو الاسمرار ظهر فجأة أو بينتشر بسرعة، أو معاه نزول وزن من غير سبب أو ألم أو جرح أو تعب عام واضح، أو لو الموضوع عند طفل أو في الحمل. [1, 2, 5]",
+            "en": "If the darkening appears suddenly or spreads quickly, or comes with unexplained weight loss, pain, a sore or clear general illness, or if it affects a child or occurs in pregnancy. [1, 2, 5]"
+          }
+        }
       ],
       "sources": [
-        {"label": "Mayo Clinic: Acanthosis nigricans—symptoms and causes", "url": "https://www.mayoclinic.org/diseases-conditions/acanthosis-nigricans/symptoms-causes/syc-20368983"},
-        {"label": "DermNet: Acanthosis nigricans", "url": "https://dermnetnz.org/topics/acanthosis-nigricans"},
-        {"label": "American Academy of Dermatology: Acanthosis nigricans", "url": "https://www.aad.org/public/diseases/a-z/acanthosis-nigricans-overview"},
-        {"label": "Australasian College of Dermatologists: Acanthosis nigricans", "url": "https://www.dermcoll.edu.au/atoz/acanthosis-nigricans-2/"},
-        {"label": "NHS: Acanthosis nigricans", "url": "https://www.nhs.uk/conditions/acanthosis-nigricans/"},
-        {"label": "NIDDK: Insulin Resistance and Prediabetes", "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance"},
-        {"label": "NICHD: PCOS", "url": "https://www.nichd.nih.gov/health/topics/pcos"},
-        {"label": "ACOG: Polycystic Ovary Syndrome", "url": "https://www.acog.org/womens-health/faqs/polycystic-ovary-syndrome-pcos"},
-        {"label": "American Diabetes Association: Diagnosis", "url": "https://diabetes.org/about-diabetes/diagnosis"},
-        {"label": "StatPearls: Acanthosis Nigricans", "url": "https://www.ncbi.nlm.nih.gov/books/NBK431057/"}
+        {
+          "label": "Mayo Clinic: Acanthosis nigricans—symptoms and causes",
+          "url": "https://www.mayoclinic.org/diseases-conditions/acanthosis-nigricans/symptoms-causes/syc-20368983"
+        },
+        {
+          "label": "DermNet: Acanthosis nigricans",
+          "url": "https://dermnetnz.org/topics/acanthosis-nigricans"
+        },
+        {
+          "label": "American Academy of Dermatology: Acanthosis nigricans",
+          "url": "https://www.aad.org/public/diseases/a-z/acanthosis-nigricans-overview"
+        },
+        {
+          "label": "Australasian College of Dermatologists: Acanthosis nigricans",
+          "url": "https://www.dermcoll.edu.au/atoz/acanthosis-nigricans-2/"
+        },
+        {
+          "label": "NHS: Acanthosis nigricans",
+          "url": "https://www.nhs.uk/conditions/acanthosis-nigricans/"
+        },
+        {
+          "label": "NIDDK: Insulin Resistance and Prediabetes",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance"
+        },
+        {
+          "label": "NICHD: PCOS",
+          "url": "https://www.nichd.nih.gov/health/topics/pcos"
+        },
+        {
+          "label": "ACOG: Polycystic Ovary Syndrome",
+          "url": "https://www.acog.org/womens-health/faqs/polycystic-ovary-syndrome-pcos"
+        },
+        {
+          "label": "American Diabetes Association: Diagnosis",
+          "url": "https://diabetes.org/about-diabetes/diagnosis"
+        },
+        {
+          "label": "StatPearls: Acanthosis Nigricans",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK431057/"
+        },
+        {
+          "label": "American Academy of Dermatology: Acanthosis nigricans—who gets it and causes",
+          "url": "https://www.aad.org/public/diseases/a-z/acanthosis-nigricans-causes"
+        }
       ],
-      "tags": {"ar": ["اسمرار الرقبة", "الشواك الأسود", "مقاومة الإنسولين", "جلد الرقبة"], "en": ["dark neck skin", "acanthosis nigricans", "insulin resistance", "darkened neck"]},
-      "seo": {"title": {"ar": "اسمرار الرقبة ومقاومة الإنسولين | لاروز", "en": "Dark neck skin and insulin resistance | La Rose"}, "description": {"ar": "هل اسمرار الرقبة معناه مقاومة إنسولين؟ اعرف إمتى العلاقة دي تفرق، وإيه الأسباب التانية، وليه الدعك مش بيعالج الشواك الأسود.", "en": "Does dark neck skin mean insulin resistance? Learn when the link matters, other possible causes and why scrubbing does not treat acanthosis nigricans."}},
+      "tags": {
+        "ar": [
+          "اسمرار الرقبة",
+          "الشواك الأسود",
+          "مقاومة الإنسولين",
+          "جلد الرقبة"
+        ],
+        "en": [
+          "dark neck skin",
+          "acanthosis nigricans",
+          "insulin resistance",
+          "darkened neck"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "هل سواد الرقبة من علامات مقاومة الإنسولين؟ | لاروز",
+          "en": "Dark neck and insulin resistance: what the link means"
+        },
+        "description": {
+          "ar": "هل سواد الرقبة من علامات مقاومة الإنسولين؟ اعرف إزاي الإنسولين العالي بيغمّق ثنيات الرقبة، وليه الرقبة لوحدها مش تشخيص، وإيه الأسباب التانية وإمتى تكشف.",
+          "en": "Is a dark neck a sign of insulin resistance? How high insulin thickens and darkens neck folds, why the neck alone is not a diagnosis, other causes and when to get checked."
+        }
+      },
       "history": [
-        {"date": "2026-09-27", "note": {"ar": "إعادة صياغة النص العربي بالعامية المصرية، وإضافة أسئلة شائعة موثقة ورابط الحجز.", "en": "Arabic text rewritten in everyday Egyptian register; cited FAQs and booking link added."}}
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "إعادة صياغة النص العربي بالعامية المصرية، وإضافة أسئلة شائعة موثقة ورابط الحجز. واتضاف جزء وسؤال بيشرحوا إزاي مقاومة الإنسولين بتغمّق الرقبة، مع مصدر جديد من الأكاديمية الأمريكية للجلدية.",
+            "en": "Arabic text rewritten in everyday Egyptian register; cited FAQs and booking link added. Added a section and FAQ explaining how insulin resistance darkens the neck, with a new AAD source."
+          }
+        }
       ]
     }
   ]
