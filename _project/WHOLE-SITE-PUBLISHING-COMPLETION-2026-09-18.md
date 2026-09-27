@@ -704,3 +704,25 @@ New URLs: `gallbladder-polyps-ultrasound-next-steps`, `after-colonoscopy-food-bl
     - hungry-soon-after-meal: unsourced "3-5 hours satiety" → "for hours".
     - medicine-causing-weight-gain: "impossible to be fat" → "very unlikely"; one MSA phrase converted to Egyptian.
   - weight-management-first-visit has two older source records; the P2 file supersedes both. Correction: after ea91450 the built page still showed the 09-21 copy (an older duplicate record shadowed the P2 rewrite); fixed in the build loop, and all 194 accepted P2 pages now show dateModified 2026-09-27.
+- Commit ca0e619 (build fix: P2 rewrites replace every duplicate slug record) deployed successfully.
+  - P2 batch 12 was live-verified in AR and EN on all 24 pages. The only failure was the cover check, which doesn't apply to P2 pages. All 194 images return 200.
+  - The live weight-management-first-visit page (AR + EN) now shows dateModified 2026-09-27; before this fix it still showed 2026-09-21.
+- P2 batch 13 released (12 slugs).
+  - Codex: qa-weight-medicine-dependence, qa-binge-eating-episodes, body-fat-percentage-context-men-women, cellulite-exercise-realistic-expectations, cellulite-home-care-and-safety, fat-dissolving-injections-side-effects-safety, fatty-liver-treatment-and-follow-up, h-pylori-symptoms-and-testing-pathway.
+  - agy drafted three tips. Each one was reviewed line by line against its sources via the Europe PMC abstracts, and overclaims were corrected:
+    - tip-walk-after-hardest-meal: the Reynolds, DiPietro, Franke and Engeroff claims were cut back to what the papers report, and the unverified clinic equipment claim was removed.
+    - tip-repeatable-waist-measure: the [12] label was corrected to Xu et al. (BMJ Open 2021), and the Verweij (0.7–15 cm), Lee (youth review), Barrios (41 mothers, video) and BIA visceral-fat accuracy statements were corrected.
+    - tip-note-salty-meal: the [13] label was corrected to Prado et al. 2026. The "1–2 L", "24–72 h", cortisol/binge, "drink plenty flushes sodium" and "physiologically impossible" claims were softened. The red-flag thresholds are now about 1 kg/day or about 2 kg/week. The unverified multi-frequency BIA clinic claim was removed, the endocrine reference was changed to thyroid, and the MSA wording was fixed.
+  - tip-reflux-time-stamp was reassigned from agy to Codex when agy's quota ran out. Its 12 sources were verified, and the NIDDK 3-hour wording matches the source.
+  - review_p2: ALL CHECKS PASS on all 12. The price-scan hits are only سعرات (calories).
+- Commit 31eedfb (P2 batch 13) deployed successfully. The live check covered all 24 pages (AR + EN). The only failure was the cover check, which doesn't apply to P2 pages.
+- Fixed `next_p2.py`: queue rows such as "weight-management-first-visit (1/2)" carry a suffix, which kept an accepted slug in the queue. After this batch the staffed queue is empty; the 37 no-reviewer rows stay skipped per the Phase 2 plan.
+- Cleanup: the image collector was stopped, and the 24 image threads from Phase 1 ChatGPT were hidden (`is_visible:false`; all returned 200, 0 left visible).
+- P2 batch 14: 9 slugs, all drafted by Codex (agy quota was exhausted): tip-three-column-bowel-log, tip-enrich-one-weight-gain-meal, tip-feeding-chair-snack-kit, tip-one-day-meal-photos, ibs-symptoms-men-assessment-guide, severe-ibs-symptoms-red-flags, insulin-resistance-children-family-assessment, qa-low-ferritin-normal-cbc, gerd-and-reflux-difference. review_batch gave ALL CHECKS PASS with 0 feminine hits on all 9. The price hits were only سعرات (calories).
+- Review fixes:
+  - Rome V EN and AR: cut to the facts the Rome Foundation page confirms (discomfort re-included, about 3 days/month).
+  - Snack-kit: [10, 11] changed to [11] ×3 EN + ×3 AR, because CDC food-safety source 10 did not support those claims.
+  - "can use request/book" grammar fixed in 3 drafts and 4 live articles (inbody-results-explained, qa-ibs-need-colonoscopy, qa-sudden-unexplained-weight-gain, qa-vegetarian-protein-iron-b12).
+  - GERD AR: "التي تحتاج تقييماً" changed to "اللي محتاجة تقييم".
+- Phase 2 staffed queue complete. The 37 rows without a matching reviewer stay skipped until the clinic assigns a clinician.
+- Commit b39359e (P2 batch 14) deployed successfully. The live check covered all 26 pages (AR + EN, including the 4 grammar-fixed articles); the only failure was the cover check, which does not apply to P2 pages. Images: 226 checked, 0 bad. Spot checks confirm the Rome V wording, the snack-kit [11] citation, the GERD AR phrase and that no "can use request" remains. **Phase 2 staffed rewrites complete.** Outstanding: the 37 articles without a matching staffed reviewer, plus GSC indexing requests for batches 13-14 on the next quota day.
