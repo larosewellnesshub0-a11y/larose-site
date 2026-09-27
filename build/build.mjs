@@ -276,7 +276,11 @@ async function main() {
   // canonical copy in content/ and emit the browser payload on every build.
   const tipsOut = path.join(OUT_DIR, "assets", "data", "tips.json");
   fs.mkdirSync(path.dirname(tipsOut), { recursive: true });
-  fs.writeFileSync(tipsOut, `${JSON.stringify(c.tips)}\n`, "utf8");
+  // `page` tells the browser which tips have their own article, so the card's
+  // links can follow the tip it swaps in instead of pointing at another one.
+  const tipPages = new Set((c.articles.articles || []).filter((a) => a.published !== false).map((a) => t(a.slug, "en")));
+  const tipPayload = (c.tips || []).map((tip) => (tip && tipPages.has(tip.id) ? { ...tip, page: true } : tip));
+  fs.writeFileSync(tipsOut, `${JSON.stringify(tipPayload)}\n`, "utf8");
 
   // Clean only the generated locale trees; assets are hand-managed.
   for (const loc of LOCALES) {

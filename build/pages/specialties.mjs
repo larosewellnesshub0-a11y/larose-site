@@ -3,7 +3,7 @@
    ========================================================================== */
 
 import {
-  t, ta, esc, link, asset, icon, map, when, published, doctorsIn, specialtyImage, responsiveAttrs, IMAGE_SIZES,
+  t, ta, esc, link, asset, icon, map, when, published, doctorsIn, specialtyImage, responsiveAttrs, IMAGE_SIZES, absolutePageUrl,
 } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
@@ -44,7 +44,7 @@ function specialtyHub({ c, locale, specs }) {
       "@type": "ListItem",
       position: index + 1,
       name: t(sp.name, locale),
-      item: `${base}/${locale}/specialties/${sp.slug}.html`,
+      item: absolutePageUrl(base, locale, `specialties/${sp.slug}`),
     })),
   };
   const body = `
@@ -201,7 +201,10 @@ function resultsPanel({ c, locale, depth, sp }) {
 
     <div class="grid grid-2" style="margin-top:2rem">
       ${map(beforeAfterPairs(c, sp.slug), (pair, index) => beforeAfter({ c, locale, depth, pair, index }))}
-    </div>`;
+    </div>
+    <p class="u-center" style="margin-top:2rem">
+      <a class="link-cta" href="${link(depth, "about/results.html")}">${esc(t({ ar: "كل نتائج قبل وبعد", en: "All before and after results" }, locale))} ${icon("arrow")}</a>
+    </p>`;
 }
 
 function faqPanel({ c, locale, sp }) {
@@ -227,7 +230,7 @@ function specialtyDetail({ c, locale, specs, sp }) {
   ];
   const related = specs.filter((candidate) => candidate.slug !== sp.slug).slice(0, 4);
   const base = `https://${c.site.brand.domain}`;
-  const pageUrl = `${base}/${locale}/specialties/${slug}.html`;
+  const pageUrl = absolutePageUrl(base, locale, `specialties/${slug}`);
   const specialtyId = `${pageUrl}#specialty`;
   const specialtySchema = {
     "@type": "MedicalSpecialty",

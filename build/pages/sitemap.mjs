@@ -7,6 +7,7 @@ import { page } from "../lib/shell.mjs";
 
 const COPY = {
   title: { ar: "خريطة موقع عيادات لاروز", en: "La Rose website sitemap" },
+  heading: { ar: "كل صفحات موقع لاروز", en: "All La Rose website pages" },
   intro: {
     ar: "كل أقسام موقع عيادات لاروز في مكان واحد: التخصصات والأطباء والفروع ودليل المريض والمحتوى الطبي والأدوات والخدمات الرقمية.",
     en: "Find every main section of the La Rose website in one place: specialties, doctors, branches, patient guides, medical content, tools and digital services.",
@@ -131,7 +132,7 @@ export function pages({ c, locale }) {
 <section class="section">
   <div class="wrap wrap--narrow">
     <div class="prose">
-      <h1 id="sitemap-title">${esc(t(COPY.title, locale))}</h1>
+      <h1 id="sitemap-title">${esc(t(COPY.heading, locale))}</h1>
       <p class="lede">${esc(t(COPY.intro, locale))}</p>
       <nav aria-labelledby="sitemap-title">
         ${section({ title: t(COPY.about, locale), list: `<ul>${map(aboutLinks, (item) => `<li><a href="${link(depth, item.href)}">${esc(t(item.label, locale))}</a></li>`)}</ul>` })}

@@ -113,6 +113,51 @@ ${pageHero({
   </div>
 </section>
 
+<section class="section section--sunk">
+  <div class="wrap">
+    ${sectionHead({
+      eyebrow: t({ ar: "استكشف المركز", en: "Explore our centre" }, locale),
+      title: t({ ar: "أقسام وتفاصيل إضافية", en: "Further sections and details" }, locale),
+      lede: t({
+        ar: "تعرف على التقنيات والأجهزة المتاحة في العيادة، واطلع على نتائج المتابعة وآراء المرضى.",
+        en: "Learn about the technologies available at the clinic, and explore follow-up results and patient reviews.",
+      }, locale),
+    })}
+    <div class="grid grid-3">
+      <article class="card" data-reveal>
+        <div class="card__body">
+          <span class="chip">${icon("activity")} ${esc(t({ ar: "الأجهزة", en: "Equipment" }, locale))}</span>
+          <h3 class="h4" style="margin-top:1rem"><a class="card__link" href="${link(depth, "about/technology.html")}">${esc(t({ ar: "التقنيات والأجهزة الطبية", en: "Medical technology" }, locale))}</a></h3>
+          <p class="card__text">${esc(t({
+            ar: "تحليل InBody والسونار وأجهزة نحت الجسم المتاحة ودور كل جهاز في الخطة.",
+            en: "InBody analysis, ultrasound, body-contouring devices and the role of each in care.",
+          }, locale))}</p>
+        </div>
+      </article>
+      <article class="card" data-reveal>
+        <div class="card__body">
+          <span class="chip">${icon("sparkle")} ${esc(t({ ar: "النتائج", en: "Results" }, locale))}</span>
+          <h3 class="h4" style="margin-top:1rem"><a class="card__link" href="${link(depth, "about/results.html")}">${esc(t({ ar: "نتائج قبل وبعد", en: "Before-and-after results" }, locale))}</a></h3>
+          <p class="card__text">${esc(t({
+            ar: "نماذج حقيقية قبل وبعد منشورة بموافقة المرضى.",
+            en: "Real before-and-after cases published with patient consent.",
+          }, locale))}</p>
+        </div>
+      </article>
+      <article class="card" data-reveal>
+        <div class="card__body">
+          <span class="chip">${icon("star")} ${esc(t({ ar: "الآراء", en: "Reviews" }, locale))}</span>
+          <h3 class="h4" style="margin-top:1rem"><a class="card__link" href="${link(depth, "about/reviews.html")}">${esc(t({ ar: "آراء المرضى وتجاربهم", en: "Patient reviews & experiences" }, locale))}</a></h3>
+          <p class="card__text">${esc(t({
+            ar: "آراء مرضى لاروز وتجارب بالفيديو عن الزيارة والمتابعة.",
+            en: "Reviews from La Rose patients and video experiences of visits and follow-up.",
+          }, locale))}</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
 ${ctaBand({ c, locale, depth })}
 
 `;
@@ -201,6 +246,21 @@ ${pageHero({
         </div>
       </article>`)}
     </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="wrap wrap--narrow u-center">
+    <h2 class="h3">${esc(t({ ar: "اطلع على نتائج المتابعة ونحت الجسم", en: "View follow-up and contouring results" }, locale))}</h2>
+    <p class="u-muted" style="margin-top:.7rem">${esc(t({
+      ar: "شاهد نماذج واقعية قبل وبعد منشورة بموافقة أصحابها.",
+      en: "View real before-and-after cases published with the patients' consent.",
+    }, locale))}</p>
+    <p style="margin-top:1.3rem">
+      <a class="btn btn--secondary" href="${link(depth, "about/results.html")}">
+        ${esc(t({ ar: "صفحة قبل وبعد", en: "Before and after page" }, locale))} ${icon("arrow")}
+      </a>
+    </p>
   </div>
 </section>
 
@@ -357,6 +417,21 @@ ${pageHero({
         en: "And even then: a photograph is not medical evidence. One person's result is not a forecast of yours, because health status, adherence and lifestyle differ from person to person.",
       }, locale))}</p>
     </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="wrap wrap--narrow u-center">
+    <h2 class="h3">${esc(t({ ar: "التقنيات والأجهزة المستخدمة", en: "Equipment and technologies used" }, locale))}</h2>
+    <p class="u-muted" style="margin-top:.7rem">${esc(t({
+      ar: "تعرف على أجهزة نحت الجسم وتحليل InBody ودور كل تقنية في الوصول للنتيجة.",
+      en: "Learn about the contouring devices, InBody analysis and the role of each technique.",
+    }, locale))}</p>
+    <p style="margin-top:1.3rem">
+      <a class="btn btn--secondary" href="${link(depth, "about/technology.html")}">
+        ${esc(t({ ar: "تفاصيل التقنيات والأجهزة", en: "Technology details" }, locale))} ${icon("arrow")}
+      </a>
+    </p>
   </div>
 </section>`;
 

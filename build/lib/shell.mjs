@@ -3,7 +3,7 @@
    Every page in the site is rendered through `page()`.
    ========================================================================== */
 
-import { t, ta, esc, escJson, link, asset, rel, icon, map, when, published } from "./util.mjs";
+import { t, ta, esc, escJson, link, asset, rel, icon, map, when, published, absolutePageUrl, cleanInternalUrl, cleanInternalHrefs } from "./util.mjs";
 
 export function trackingHead(c) {
   const a = c?.site?.integrations?.analytics || {};
@@ -325,12 +325,7 @@ function floatingActions({ c, locale, depth }) {
 /* --------------------------------------------------------------------------
    Search metadata and structured data
    -------------------------------------------------------------------------- */
-function absolutePageUrl(base, locale, pagePath) {
-  // Must strip exactly what link() strips, or the page would advertise a
-  // canonical URL different from the one every link on the site points at.
-  const clean = String(pagePath || "index.html").replace(/^\/+/, "").replace(/index\.html$/, "").replace(/\.html$/, "");
-  return `${base}/${locale}/${clean}`;
-}
+export { absolutePageUrl };
 
 function absoluteMediaUrl(base, src) {
   if (!src) return "";
@@ -355,7 +350,7 @@ function decodeHtml(value) {
 }
 
 function normalisePublicUrl(url) {
-  return url.replace(/\/index\.html$/, "/");
+  return cleanInternalUrl(url);
 }
 
 const META_DESCRIPTION_MAX = 155;
@@ -432,6 +427,8 @@ function branchAddress(branch, locale) {
 
 function branchClinicSchema({ c, locale, branch, currentUrl, organisationId }) {
   if (!branch) return null;
+  // A LocalBusiness without an address is invalid; an announced branch has none yet.
+  if (!branchAddress(branch, locale)) return null;
   const structuredHours = Array.isArray(branch.openingHoursSpecification)
     ? branch.openingHoursSpecification.filter(Boolean)
     : [];
@@ -573,7 +570,8 @@ export function jsonLd({ c, locale, pagePath, schema, body = "", canonicalUrl = 
      bodyClass optional extra class on <body>
    ========================================================================== */
 export function page(opts) {
-  const { c, locale, depth = 0, pagePath, title, description, active, body, schema, image, bodyClass = "" } = opts;
+  const { c, locale, depth = 0, pagePath, title, description, active, body: rawBody, schema, image, bodyClass = "" } = opts;
+  const body = cleanInternalHrefs(rawBody);
   const s = c.site;
   const dir = s.i18n[locale].dir;
   const base = `https://${s.brand.domain}`;

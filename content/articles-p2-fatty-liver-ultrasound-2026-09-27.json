@@ -1,0 +1,349 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of fatty-liver-ultrasound; replaces the entry from content/articles-fatty-liver-rewrite-2026-09-14.json. Comprehensive clinical expansion covering ultrasound findings, steatosis grades, scan limitations, MASLD diagnostic criteria, fibrosis risk stratification via FIB-4, lifestyle pathways, and La Rose clinic evaluation.",
+  "articles": [
+    {
+      "slug": "fatty-liver-ultrasound",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "clinical-nutrition",
+        "weight-management"
+      ],
+      "date": "2026-08-31",
+      "updatedAt": "2026-09-27",
+      "readingTime": 17,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "توسيع طبي شامل وتحديث لمسار تشخيص دهون الكبد بالسونار وتقييم التليف، مع إعادة المراجعة السريرية الدقيقة.",
+            "en": "Comprehensive clinical expansion and update of the fatty liver ultrasound pathway and fibrosis risk assessment, with thorough clinical re-review."
+          }
+        }
+      ],
+      "image": "assets/img/articles/fatty-liver-ultrasound.webp",
+      "title": {
+        "ar": "هل السونار يكشف دهون الكبد؟ ما الذي يوضحه التقرير وما الخطوة التالية",
+        "en": "Does ultrasound detect fatty liver? What the report can answer—and what comes next"
+      },
+      "excerpt": {
+        "ar": "السونار قد يكشف مظهراً متوافقاً مع دهون الكبد، لكنه لا يحدد وحده السبب أو درجة الالتهاب أو التليف. تعلّم كيف تقرأ النتيجة وما الذي يجعل المتابعة أهم.",
+        "en": "Ultrasound can detect an appearance consistent with liver fat, but it cannot alone establish the cause, inflammation or fibrosis. Learn how to read the finding and decide what matters next."
+      },
+      "tags": {
+        "ar": [
+          "دهون الكبد",
+          "هل السونار يكشف دهون الكبد",
+          "درجات دهون الكبد بالسونار",
+          "MASLD",
+          "سونار البطن",
+          "تليف الكبد",
+          "تحليل إنزيمات الكبد"
+        ],
+        "en": [
+          "fatty liver",
+          "fatty liver ultrasound",
+          "steatosis ultrasound grades",
+          "MASLD",
+          "abdominal ultrasound",
+          "liver fibrosis",
+          "liver enzyme tests"
+        ]
+      },
+      "sections": [
+        {
+          "id": "ultrasound-role-and-first-look",
+          "heading": {
+            "ar": "دور سونار البطن في كشف دهون الكبد: ماذا تعني النتيجة المبدئية؟",
+            "en": "The role of abdominal ultrasound in detecting liver fat: what does the initial finding mean?"
+          },
+          "body": {
+            "ar": "يُعد فحص سونار البطن بالموجات فوق الصوتية الأداة التصويرية الأولى والأكثر شيوعاً التي تقود إلى اكتشاف تراكم الدهون في الكبد في الممارسة الطبية اليومية [1, 3, 8, 11]. يعتمد هذا الفحص غير الجراحي على إرسال موجات صوتية عالية التردد تخترق أنسجة تجويف البطن وترتد عند ملامستها للأعضاء المختلفة وفقاً لكثافتها الفيزيائية ومقاومتها الصوتية، لترسم صورة تفصيلية لحجم الكبد وبنيته الداخلية دون أي تعرض للإشعاع [3, 8]. في نسيج الكبد السليم، تكون إشارات الصدى متجانسة ومعتدلة وتماثل إلى حد كبير كثافة قشرة الكلية اليمنى المجاورة له في الصورة [8, 11]. أما عند تراكم الدهون الثلاثية داخل الخلايا الكبدية، فإن قطيرات الدهن المجهرية تُحدث تشتتاً وانعكاساً مضاعفاً للموجات الصوتية، مما يجعل الكبد يظهر في شاشة الجهاز بلون أفتح وأكثر لمعاناً، وهو ما يُعرف في التقارير الطبية باسم «الكبد عالي الصدى» أو «الكبد اللامع» (Bright Liver) [1, 3, 8, 11].\n\nغالباً ما يُكتشف هذا المظهر بالمصادفة البحتة؛ كأن يطلب الطبيب إجراء سونار البطن لتقييم آلام متفرقة في البطن، أو لفحص المرارة وحصواتها، أو لمتابعة وظائف الجهاز الهضمي، أو كجزء من فحص صحي دوري عام [1, 3, 8]. بالإضافة إلى رصد لمعان النسيج، يفحص الطبيب علامات مميزة أخرى تؤكد الطبيعة الدهنية للتغيرات، ومن أبرزها ما يُعرف بالتباين الكبدي الكلوي (Hepatorenal Contrast)، حيث يبرز الفرق اللوني الواضح بين نسيج الكبد الفاتح اللامع ونسيج الكلية الأغمق المجاور [8, 11]. كما يلاحظ فاحص السونار ظاهرة التوهين الصوتي الخلفي (Posterior Acoustic Attenuation)، والتي تعني امتصاص الدهون للموجات الصوتية وإضعاف قدرتها على الوصول إلى الأنسجة العميقة، بالإضافة إلى تشوش أو فقدان وضوح جدران الأوردة البابية الكبدية الدقيقة [8, 11].\n\nمن الضروري إدراك أن عبارة «مظهر يتوافق مع دهون الكبد» في تقرير الأشعة هي وصف تصويري فيزيائي لما رآه الجهاز، ولا تمثل تشخيصاً سريرياً مستقلاً أو مرضاً قائماً بذاته [1, 2, 3]. السونار يُجيب عن سؤال واحد فقط: هل يوجد تراكم دهني كافٍ لتغيير انعكاس الموجات الصوتية؟ لكنه لا يوضح بمفرده سبب حدوث هذا التراكم، ولا يحدد ما إذا كان الكبد يعاني من التهاب نشط، ولا يثبت وجود تلف في الخلايا أو تليف [1, 2, 3, 11]. قراءة هذا الفحص بنجاح تتطلب دائماً وضعه داخل الإطار الطبي الأوسع، وربطه بالأسباب الاستقلابية والتاريخ الصحي للمريض بدلاً من التعامل معه كحكم نهائي منعزل [1, 2, 8].",
+            "en": "Transabdominal ultrasound stands as the primary and most frequent imaging modality leading to the initial detection of hepatic steatosis (liver fat accumulation) in everyday clinical practice [1, 3, 8, 11]. This non-invasive diagnostic examination utilizes high-frequency sound waves that travel safely through abdominal tissues, reflecting back whenever they encounter tissue interfaces of varying acoustic impedance to reconstruct a detailed anatomical image of the liver parenchyma without any exposure to ionizing radiation [3, 8]. In a healthy liver, the parenchymal echo pattern is homogeneous and intermediate in brightness, exhibiting an acoustic texture closely matching or only slightly exceeding that of the adjacent right renal cortex [8, 11]. When intracellular triglycerides accumulate within hepatocytes, these microscopic lipid droplets create countless reflective acoustic interfaces that scatter the sound beam, causing the hepatic parenchyma to appear abnormally bright and echogenic on the monitor—a classic imaging finding termed the \"bright liver\" [1, 3, 8, 11].\n\nIn clinical reality, this imaging finding is frequently discovered entirely incidentally; a physician may request an abdominal ultrasound to investigate vague abdominal fullness, inspect the gallbladder for gallstones, evaluate nonspecific digestive discomfort, or simply conduct a routine annual health screen [1, 3, 8]. Beyond diffuse parenchymal brightness, the sonographer identifies specific secondary signs to verify steatosis, primarily heightened hepatorenal sonographic contrast, wherein the brilliant reflectivity of the liver stands out sharply against the darker, hypo-echoic parenchyma of the adjacent renal cortex [8, 11]. The examiner also notes deep acoustic beam attenuation—where the sound waves lose energy as they traverse through fat-laden tissue, diminishing visibility in the deepest posterior segments—alongside progressive loss of definition or blurring of the echogenic walls normally demarcating the intrahepatic branches of the portal vein [8, 11].\n\nIt is clinically vital to recognize that an ultrasound report stating \"findings consistent with hepatic steatosis\" represents an objective acoustic observation rather than a complete, standalone clinical diagnosis [1, 2, 3]. Ultrasonography answers one straightforward physical question: is there enough lipid pooling in the liver tissue to alter the reflection of diagnostic sound waves? On its own, it cannot clarify the biological cause of this accumulation, determine whether active hepatocyte injury is underway, or assess whether microscopic tissue scarring has developed [1, 2, 3, 11]. Interpreting the report effectively requires placing the imaging result into a comprehensive medical framework, correlating it with cardiometabolic factors, clinical history, and laboratory testing rather than treating the scan as an isolated verdict [1, 2, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "سونار البطن",
+                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "abdominal ultrasound",
+                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "steatosis-grades-and-scan-accuracy",
+          "heading": {
+            "ar": "درجات تشحم الكبد بالسونار: الفارق بين الدرجة الأولى والثانية والثالثة ودقة الفحص",
+            "en": "Ultrasound grades of hepatic steatosis: grades 1, 2, and 3 and diagnostic accuracy"
+          },
+          "body": {
+            "ar": "يستخدم أطباء الأشعة تصنيفاً شبه كمي معتمداً لتقسيم تشحم الكبد بالسونار إلى ثلاث درجات متدرجة بناءً على شدة انعكاس الصدى ودرجة اختراق الموجات الصوتية للأنسجة العميقة [1, 8, 11]. في الدرجة الأولى (تشحم خفيف أو Grade 1 Steatosis)، يظهر نسيج الكبد زيادة طفيفة ومنتشرة في الصدى الصوتي الدقيق مع تباين خفيف بين الكبد وقشرة الكلية، لكن رؤية الحجاب الحاجز وجدران فروع الوريد البابي تظل واضحة وحادة تماماً دون أي توهين ملحوظ في الأجزاء الخلفية [8, 11]. في الدرجة الثانية (تشحم متوسط أو Grade 2 Steatosis)، يزداد لمعان الكبد بدرجة متوسطة، ويبدأ توهين الموجات الصوتية في إضعاف وضوح الحدود الخارجية للأوعية الدموية الكبدية وحافة الحجاب الحاجز، مما يجعل الرؤية الخلفية أقل تحديداً [8, 11]. أما في الدرجة الثالثة (تشحم شديد أو Grade 3 Steatosis)، فيصل اللمعان الكبدي إلى أقصى درجاته، وتفقد الموجات الصوتية طاقتها بسرعة في الطبقات السطحية نتيجة الامتصاص الشديد للدهون، مما يؤدي إلى غياب شبه كامل لرؤية الحجاب الحاجز والأوعية الكبدية العميقة [8, 11].\n\nعلى الرغم من فائدة هذا التصنيف في الممارسة السريرية، إلا أن الدقة التشخيصية لسونار البطن العادي تخضع لحدود علمية دقيقة أثبتتها الدراسات التحليلية الكبرى [1, 8, 11]. في التحليل التلوي المرجعي الذي قاده هرنانديز وزملاؤه (Hernaez et al.) والمنشور في دورية أمراض الكبد (Hepatology)، أظهرت النتائج أن حساسية السونار في كشف دهون الكبد تصل إلى حوالي 85% وتصل نوعيته إلى 93% عند مقارنته بعينات الكبد النسيجية، ولكن بشرط رئيسي هو أن تتجاوز نسبة ارتشاح الدهون في الخلايا 20% إلى 30% من إجمالي النسيج [8, 11]. في المقابل، تهبط حساسية السونار بشكل ملحوظ عندما يكون تراكم الدهون خفيفاً أو مبكراً (أقل من 20%)، حيث قد يبدو نسيج الكبد طبيعياً تماماً على الشاشة على الرغم من وجود دهون حقيقية في التحليل المجهري [1, 8, 11].\n\nبالإضافة إلى ذلك، تتأثر دقة الفحص بعوامل تقنية وبيولوجية متعددة تجب مراعاتها أثناء التقييم [1, 8, 11]. فوجود زيادة كبيرة في سمك جدار البطن أو السمنة المفرطة يؤدي بحد ذاته إلى تشتت الموجات الصوتية وتوهينها قبل وصولها إلى الكبد، مما قد يجعل قراءة الدرجات أمراً تقريبياً أو يقلل من جودة الصورة المكتسبة [1, 8, 11]. كما أن السونار التقليدي هو فحص نوعي يعتمد على العين المجردة وخبرة الطبيب الفاحص، وتتفاوت درجاته بين فاحص وآخر لعدم وجود معيار رقمي ثابت للشدة [8, 11]. والأهم من ذلك سريرياً: أن الدرجة التصويرية (سواء كانت أولى أو ثانية أو ثالثة) لا ترتبط بالضرورة طردياً مع شدة تلف الخلايا أو مدى خطورة المرض؛ فقد يحمل مريض دهوناً من الدرجة الأولى مع وجود التهاب كبدي نشط وتليف مبكر، بينما يمتلك مريض آخر دهوناً من الدرجة الثالثة دون أي ندبات نسيجية حتى الآن [1, 2, 11].",
+            "en": "Radiologists and sonographers employ a standardized semi-quantitative visual classification to categorize hepatic steatosis on conventional ultrasound into three distinct grades based on parenchymal brightness and acoustic penetration [1, 8, 11]. In Grade 1 (mild steatosis), there is a slight, diffuse increase in hepatic fine parenchymal echogenicity with subtle hepatorenal contrast, yet visualization of the diaphragm and clarity of the intrahepatic portal vein walls remain completely sharp and unobstructed [8, 11]. In Grade 2 (moderate steatosis), the echogenicity intensifies to a moderate degree, accompanied by initial posterior acoustic beam attenuation that partially obscures the echogenic borders of intrahepatic vascular branches and softens diaphragmatic definition [8, 11]. In Grade 3 (severe steatosis), parenchymal echogenicity becomes markedly pronounced, and heavy acoustic attenuation across the superficial parenchyma severely impedes beam penetration, rendering the posterior right hepatic lobe, intrahepatic portal venules, and diaphragmatic outline virtually non-visible [8, 11].\n\nDespite its established clinical utility, the true diagnostic accuracy of transabdominal ultrasound operates under distinct physiological boundaries documented across major meta-analyses [1, 8, 11]. In the landmark meta-analysis conducted by Hernaez and colleagues published in Hepatology, conventional B-mode ultrasound demonstrated an overall sensitivity of approximately 85% and a specificity of 93% when compared against histopathological liver biopsy benchmarks, provided that hepatocyte fat infiltration exceeds a threshold of 20% to 30% [8, 11]. Conversely, ultrasound sensitivity drops substantially in mild or early-stage steatosis where lipid content is below 20%, frequently yielding an entirely normal acoustic appearance despite demonstrable histological fat accumulation [1, 8, 11].\n\nFurthermore, ultrasound accuracy is meaningfully modulated by patient-specific physical and technical factors [1, 8, 11]. Significant abdominal wall thickness, subcutaneous adiposity, or severe obesity can independently attenuate ultrasound frequencies before they penetrate deep into the liver parenchyma, degrading acoustic resolution and complicating grade assignment [1, 8, 11]. Additionally, conventional B-mode sonography remains a qualitative, observer-dependent imaging technique without an absolute numerical metric, leaving room for inter-observer variation across different ultrasound equipment [8, 11]. Most crucially from a hepatology standpoint: an ultrasound steatosis grade does not correlate reliably with histological injury or clinical risk; a patient categorized with mild Grade 1 steatosis may already possess active cellular necroinflammation and early architectural scarring, whereas another individual with prominent Grade 3 steatosis may maintain purely inert, bland fat with no histological fibrosis [1, 2, 11]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "what-ultrasound-cannot-tell",
+          "heading": {
+            "ar": "ما الذي لا يستطيع السونار العادي تحديده؟ التهاب الكبد والتليف",
+            "en": "What conventional ultrasound cannot determine: steatohepatitis and fibrosis"
+          },
+          "body": {
+            "ar": "أكبر خطأ شائع يقع فيه المرضى بعد استلام تقرير الأشعة هو الاعتقاد بأن السونار العادي قادر على إعطاء تشخيص مجهري كامل لحالة الكبد أو تقييم سلامة خلاياه بدقة [1, 2, 3, 11]. إن الموجات فوق الصوتية التقليدية (B-mode) ترصد التغيرات الفيزيائية الكبيرة في كثافة النسيج، لكنها تعجز تماماً عن رؤية ما يدور داخل الخلايا الكبدية تحت المجهر [1, 3, 11]. فالجهاز لا يستطيع التمييز بين تراكم الدهون الخامل البسيط (Steatosis) الخالي من أي مضاعفات، وبين حالة الالتهاب الكبدي الدهني النشط (Steatohepatitis أو MASH)، والتي تتميز بموت الخلايا، وانتفاخها المرضي (Hepatocyte Ballooning)، وترشح الخلايا المناعية الالتهابية داخل الفصيصات الكبدية [1, 2, 3, 11]. هذا التمييز البيولوجي بالغ الأهمية، لأن الالتهاب النشط هو المحرك الأساسي الذي يدفع المرض نحو التطور والمضاعفات [1, 2, 9].\n\nالنقطة الأكثر أهمية هي أن وجود الدهون لا يعني تليفاً، ولمعان نسيج الكبد لا يعكس مرحلة التليف الإنشائي على الإطلاق [1, 2, 11, 12]. التليف (Fibrosis) هو عملية تكوين ندبات ليفية صلبة من بروتين الكولاجين تحل تدريجياً محل النسيج الوظيفي نتيجة استمرار الالتهاب لسنوات طويلة [1, 2, 6, 12]. في السونار التقليدي، لا تُظهر أنسجة الكبد المتليفة في المراحل المبكرة والمتوسطة (F1 إلى F3) أي تغيرات شكلية مميزة تختلف عن الدهون العادية؛ ولا تبدأ علامات السونار المباشرة في الظهور إلا عند الوصول إلى مرحلة التليف المتقدم المكتمل أو تشمع الكبد الصريح (Cirrhosis)، حيث يُلاحظ تعرج حواف الكبد الخارجية، وتضخم الفص الأيسر مقارنة بالفص الأيمن، وظهور علامات ارتفاع ضغط الوريد البابي مثل تضخم الطحال أو تجمع السوائل [1, 2, 8, 12].\n\nلهذا السبب تحديداً، تؤكد الإرشادات الكبدية الحديثة (مثل إرشادات الجمعية الأوروبية EASL والجمعية الأمريكية AASLD) على ضرورة إجراء تقييم التليف كفحص منفصل تماماً عن فحص الكشف عن الدهون [1, 2, 6, 12]. قياس الندبات لا يتم بالسونار التقليدي، بل يتطلب استخدام أدوات فحص غير جراحية متخصصة ومصممة لقياس صلابة النسيج الكبدي (Liver Stiffness Measurement)، مثل تقنيات الإيلاستوجرافي (Elastography) بالموجات الصوتية أو جهاز الفيبروسكان (FibroScan) أو الرنين المغناطيسي [1, 2, 12]. هذه الفحوصات المتطورة تقيس سرعة ارتداد الموجات القصية عبر النسيج لتعطي تقديراً رقمياً دقيقاً لمقدار التصلب بوحدة الكيلوباسكال (kPa)، مما يتيح للأطباء معرفة المرحلة الحقيقية لتندب الكبد دون الحاجة لأخذ عينة إبرية في معظم الحالات [1, 2, 12].",
+            "en": "The most prevalent misconception among patients receiving an abdominal ultrasound report is assuming that conventional sonography provides a comprehensive microscopic appraisal of liver health or cell integrity [1, 2, 3, 11]. Standard grayscale B-mode ultrasound evaluates macroscopic physical changes in tissue acoustic density, but it is fundamentally blind to cellular pathology occurring at the microscopic level [1, 3, 11]. Consequently, a routine scan cannot distinguish between simple, indolent steatosis (lipid accumulation without inflammation) and active steatohepatitis (metabolic dysfunction-associated steatohepatitis or MASH), which is biologically characterized by hepatocyte ballooning degeneration, lobular inflammation, and progressive cellular apoptosis [1, 2, 3, 11]. This pathophysiological distinction is crucial, as chronic active necroinflammation represents the core driving force behind progressive parenchymal remodeling [1, 2, 9].\n\nMost critically, the presence of liver fat is not synonymous with fibrosis, and parenchymal echogenic brightness does not reflect histological structural scarring [1, 2, 11, 12]. Fibrosis constitutes the progressive deposition of dense extracellular matrix collagen fibers that gradually disorganize the hepatic vascular architecture in response to prolonged cell injury [1, 2, 6, 12]. On conventional B-mode ultrasound, early to moderate fibrosis stages (F1 through F3) generate no distinctive sonographic signature that differentiates them from bland steatosis; visible morphological hallmarks on routine ultrasound only manifest when disease has progressed to advanced cirrhosis, revealing surface nodularity, segmental lobe redistribution, coarsened parenchymal texture, and indicators of portal hypertension such as splenomegaly or ascites [1, 2, 8, 12].\n\nFor this specific reason, international clinical practice guidelines from EASL, AASLD, and NICE strongly emphasize that liver fat detection and fibrosis risk assessment must be handled as two fundamentally distinct clinical steps [1, 2, 6, 12]. Quantifying collagen scarring cannot be achieved via standard grayscale ultrasound; instead, it mandates dedicated non-invasive diagnostic modalities engineered specifically to measure liver tissue stiffness, such as shear-wave ultrasound elastography, transient elastography (FibroScan), or magnetic resonance elastography [1, 2, 12]. These multiparametric technologies quantify the propagation velocity of mechanical shear waves through hepatic tissue to yield an objective stiffness metric in kilopascals (kPa), providing clinicians with an accurate non-invasive evaluation of structural fibrosis without necessitating an invasive biopsy in the majority of patients [1, 2, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تقييم التليف كفحص منفصل",
+                "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "fibrosis risk assessment",
+                "url": "../articles/fatty-liver-fibrosis-needs-its-own-assessment.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "masld-metabolic-drivers-and-causes",
+          "heading": {
+            "ar": "أسباب تراكم الدهون في الكبد: التسمية الحديثة (MASLD) ودور متلازمة التمثيل الغذائي",
+            "en": "Causes of hepatic steatosis: the updated MASLD criteria and metabolic drivers"
+          },
+          "body": {
+            "ar": "في عام 2023، أقرت الجمعيات العالمية الكبرى لأمراض الكبد (بما فيها الجمعية الأمريكية AASLD والأوروبية EASL والأيبيرية الأمريكية ALEH) تعديلاً تاريخياً في التسمية الطبية؛ حيث استُبدل مصطلح «مرض الكبد الدهني غير الكحولي» (NAFLD) بالاسم الأكثر دقة علمياً وهو: مرض الكبد الدهني المرتبط بالخلل الأيضي، والمعروف اختصاراً باسم (MASLD) [1, 2, 9]. جاء هذا التغيير ليس فقط لإزالة الوصم الاجتماعي المرتبط بكلمة «الكحولي»، بل الأهم لتأسيس معايير تشخيصية إيجابية تربط تراكم الدهون الكبدية مباشرة بوجود خلل في عملية التمثيل الغذائي، بدلاً من الاكتفاء بتشخيص سلبي يقوم على نفي العوامل الأخرى [1, 2, 9].\n\nوفقاً للمعايير الدولية المعتمدة، يتطلب تشخيص MASLD إثبات وجود تراكم للدهون في نسيج الكبد (عبر السونار أو التحاليل التصويرية الأخرى) مع توافر عامل واحد على الأقل من عوامل الخطورة القلبية والأيضية الخمسة الأساسية [1, 2, 9]:\n1. زيادة الوزن أو السمنة (مؤشر كتلة الجسم ≥ 25 كجم/م²، أو زيادة محيط الخصر عن 94 سم للرجال و80 سم للسيدات وفق المعايير الإقليمية) [1, 2, 9].\n2. اضطراب استقلاب الجلوكوز؛ مثل تشخيص السكري من النوع الثاني، أو مرحلة ما قبل السكري (السكر الصائم ≥ 100 مجم/ديسيلتر أو السكر التراكمي HbA1c ≥ 5.7%) [1, 2, 9].\n3. ارتفاع ضغط الدم (≥ 130/85 مم زئبق أو الخضوع لعلاج دوائي للضغط) [1, 2, 9].\n4. ارتفاع مستوى الدهون الثلاثية في الدم (≥ 150 مجم/ديسيلتر أو استخدام علاج لخفضها) [1, 2, 9].\n5. انخفاض الكوليسترول عالي الكثافة النافع HDL (أقل من 40 مجم/ديسيلتر للرجال أو أقل من 50 مجم/ديسيلتر للسيدات) [1, 2, 9].\n\nفي قلب هذه المنظومة الاستقلابية تكمن مقاومة الإنسولين، وهي الحالة البيولوجية التي تفقد فيها خلايا الجسم استجابتها الطبيعية للإنسولين، مما يدفع البنكرياس لإفراز كميات مضاعفة منه [1, 2, 5, 9]. يؤدي فرط الإنسولين في الدم إلى تدفق هائل للأحماض الدهنية الحرة من النسيج الشحمي نحو الكبد، وتنشيط عملية التصنيع الدهني الداخلي، وتراجع قدرة الكبد على تصدير أو أكسدة هذه الدهون، مما يسبب تراكمها تدريجياً داخل خلايا الكبد [1, 2, 5, 9]. من المهم التأكيد على أن هذا الخلل لا يقتصر على أصحاب الأوزان المرتفعة؛ حيث يُصاب ما يصل إلى 10% إلى 20% من الأشخاص ذوي الوزن الطبيعي بدهون الكبد الأيضية (المعروفة باسم Lean MASLD) نتيجة تجمع الدهون الحشوية العميقة ووجود قابلية جينية لاضطراب التمثيل الغذائي [1, 2, 9].\n\nفي الوقت ذاته، يحرص الطبيب المتخصص على عدم حصر كل مظهر دهني في الأسباب الأيضية وحدها؛ فهناك قائمة من الأسباب الثانوية التي يجب استبعادها بدقة لضمان دقة الخطة العلاجية [1, 2, 5, 10]. تشمل هذه الأسباب: التناول المؤثر للمشروبات الكحولية (حيث يُصنف المريض تحت مسمى MetALD في حال الجمع بين العوامل الأيضية وتناول الكحول بكميات معتدلة إلى مرتفعة) [1, 2]، والتأثيرات الجانبية لبعض الأدوية الشائعة (مثل الكورتيزون طويل الأمد، والأميودارون لعلاج اضطراب نبضات القلب، والتاموكسيفين، والميثوتريكسات، ومضادات التشنج مثل الفالبروات) [2, 5, 10]، بالإضافة إلى التهاب الكبد الفيروسي المزمن (خاصة النوع C)، والاضطرابات الهرمونية كخمول الغدة الدرقية، وأمراض التخزين الجينية النادرة كداء ويلسون، وسوء التغذية الحاد أو النزول العنيف والسريع في الوزن [1, 2, 5, 9].",
+            "en": "In 2023, the world's leading multinational hepatology and metabolic societies (including AASLD, EASL, and ALEH) reached a landmark consensus modifying the nomenclature of fatty liver disease: the historic term \"non-alcoholic fatty liver disease\" (NAFLD) was officially replaced by metabolic dysfunction-associated steatotic liver disease, designated by the acronym MASLD [1, 2, 9]. This shift was not merely designed to remove stigmatizing alcohol-related terminology, but fundamentally to establish affirmative, inclusionary diagnostic criteria that directly tie hepatic fat accumulation to underlying cardiometabolic pathophysiology rather than framing the condition as an ambiguous diagnosis of exclusion [1, 2, 9].\n\nUnder established international consensus criteria, a definitive diagnosis of MASLD requires objective evidence of hepatic steatosis (demonstrated by transabdominal ultrasound or other validated imaging modalities) coupled with the presence of at least one of five core cardiometabolic risk criteria [1, 2, 9]:\n1. Overweight or obesity (body mass index ≥ 25 kg/m², or an elevated waist circumference ≥ 94 cm in men and ≥ 80 cm in women based on regional ethnic cutoffs) [1, 2, 9].\n2. Dysglycaemia; encompassing diagnosed type 2 diabetes, impaired fasting glucose (fasting plasma glucose ≥ 100 mg/dL), or prediabetes (glycated haemoglobin HbA1c ≥ 5.7%) [1, 2, 9].\n3. Elevated arterial blood pressure (resting systolic pressure ≥ 130 mmHg and/or diastolic pressure ≥ 85 mmHg, or specific antihypertensive pharmacotherapy) [1, 2, 9].\n4. Hypertriglyceridaemia (fasting plasma triglycerides ≥ 150 mg/dL, or lipid-lowering therapy) [1, 2, 9].\n5. Subnormal high-density lipoprotein cholesterol (HDL-C < 40 mg/dL in men and < 50 mg/dL in women) [1, 2, 9].\n\nAt the physiological core of this metabolic cascade sits insulin resistance, a state wherein peripheral tissues exhibit diminished responsiveness to insulin, prompting compensatory hyperinsulinaemia by pancreatic beta-cells [1, 2, 5, 9]. Elevated circulating insulin drives unrestrained lipolysis within adipose reserves, inundating the portal circulation with free fatty acids while accelerating de novo hepatic lipogenesis and impairing mitochondrial fatty acid beta-oxidation, ultimately causing lipid droplets to accumulate progressively within hepatocytes [1, 2, 5, 9]. Crucially, this metabolic failure is not limited to individuals with obvious obesity; between 10% and 20% of people with normal body mass index develop hepatic steatosis (recognized as \"lean MASLD\"), driven by visceral adipose deposition, ectopic fat distribution, and genetic predispositions in lipid handling [1, 2, 9].\n\nSimultaneously, a structured clinical assessment ensures that liver fat is never automatically presumed to be metabolic without disciplined differential diagnosis [1, 2, 5, 10]. A gastroenterologist actively rules out secondary causes: meaningful alcohol consumption (categorized under the consensus term MetALD when metabolic risk factors coexist with moderate-to-heavy alcohol intake) [1, 2], medication-induced steatosis (provoked by prolonged corticosteroids, amiodarone, tamoxifen, methotrexate, or valproate) [2, 5, 10], chronic viral hepatitis (notably hepatitis C genotype 3), endocrine disorders such as overt hypothyroidism, rare metabolic storage diseases like Wilson disease, and severe nutritional deprivation or sudden crash dieting [1, 2, 5, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "مقاومة الإنسولين",
+                "url": "../articles/insulin-resistance-explained.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "insulin resistance",
+                "url": "../articles/insulin-resistance-explained.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "normal-enzymes-and-fib-4-assessment",
+          "heading": {
+            "ar": "لماذا لا تكفي إنزيمات الكبد الطبيعية؟ وكيف يُحسب مؤشر FIB-4؟",
+            "en": "Why normal liver enzymes are not enough: non-invasive risk scores and FIB-4"
+          },
+          "body": {
+            "ar": "من الأخطاء الطبية الشائعة لدى الكثير من الناس افتراض أن سلامة تحاليل الدم الروتينية تعني بالضرورة خلو الكبد من المخاطر أو توقف تقدم المرض [1, 2, 7]. الواقع السريري المثبت في العديد من الدراسات يوضح أن ما يصل إلى نصف المصابين بدهون الكبد، وحتى نسبة معتبرة ممن يعانون من التهاب كبدي دهني نشط أو تليف متقدم، تظل إنزيمات الكبد لديهم (وتحديداً ناقلات الأمين ALT وAST) ضمن الحدود المرجعية الطبيعية للمختبر [1, 2, 7]. إن خلايا الكبد المتشحمة بالدهون قد تتعرض للإجهاد والتليف البطيء دون أن تتمزق أغشيتها بمعدل يرفع الإنزيمات بشكل حاد في مجرى الدم، مما يجعل الاعتماد على فحص الإنزيمات منفرداً مصدراً خطيراً للاطمئنان الزائف [1, 2, 7].\n\nفي المقابل، فإن ارتفاع إنزيمات الكبد ليس دليلاً حصرياً على تشحم الكبد [2, 7]، إذ يمكن أن يرتفع مستوى ALT وAST لأسباب عديدة ومتنوعة؛ مثل نزلات البرد الفيروسية، أو تناول أدوية معينة كمسكنات الألم والباراسيتامول ومخفضات الكوليسترول، أو ممارسة التمارين الرياضية العنيفة غير المعتادة، أو وجود اضطرابات في المرارة والقنوات الصفراوية [2, 7, 8]. لهذا السبب، يتعامل طبيب الكبد مع أرقام التحاليل كجزء من لوحة تشخيصية متكاملة تتضمن وظائف الكبد التخليقية (مثل بروتين الألبومين وزمن البروثرومبين ومستوى الصفائح الدموية) وعوامل الخطورة الأيضية [1, 2, 7].\n\nلتحديد من هم المرضى الأكثر عرضة لخطر تليف الكبد الذين يحتاجون متابعة مكثفة أو فحوصات تخصصية، توصي الجمعيات الإكلينيكية العالمية (مثل الجمعية الأمريكية ACG والأوروبية EASL) باستخدام مؤشرات غير جراحية بسيطة لفرز المخاطر، ويأتي في مقدمتها مؤشر التليف الرباعي المعروف باسم (FIB-4 Index) [1, 2, 6, 7]. يتميز هذا المؤشر بأنه أداة حسابية معتمدة ومجانية لا تتطلب أي فحوصات إضافية معقدة؛ إذ يعتمد على معادلة رياضية تجمع أربعة متغيرات متوفرة في التحاليل الروتينية: عمر المريض، ومستوى إنزيم AST، ومستوى إنزيم ALT، والعدد الإجمالي للصفائح الدموية (Platelet Count) [1, 2, 7].\n\nوفقاً للتوصيات السريرية، يُفسر مؤشر FIB-4 عبر ثلاث فئات واضحة لفرز الخطورة [1, 2, 7]:\n- درجة منخفضة الخطورة (FIB-4 أقل من 1.30 للشخص الأقل من 65 عاماً، أو أقل من 2.0 لكبار السن): تمتلك هذه الفئة قيمة تنبؤية سلبية تتجاوز 90%، مما يعني استبعاد وجود تليف كبدي متقدم بدرجة عالية من الأمان، ويكتفي الطبيب بمتابعة الحالة في الرعاية الأولية وتعديل نمط الحياة وإعادة الحساب كل سنتين إلى ثلاث سنوات [1, 2, 6, 7].\n- درجة متوسطة أو ملتبسة (FIB-4 بين 1.30 و2.67): تدل على وجود احتمالية متوسطة للتليف وتستدعي إجراء فحص خط ثاني غير جراحي لتأكيد الحالة، مثل فحص صلابة الكبد بالموجات القصية (Elastography) أو قياس صلابة الكبد بالفيبروسكان [1, 2, 7, 12].\n- درجة عالية الخطورة (FIB-4 أكبر من 2.67): تشير إلى احتمالية مرتفعة لوجود تليف كبدي متقدم وتستوجب إحالة مباشرة لاستشاري أمراض الجهاز الهضمي والكبد لترتيب خطة تشخيصية وعلاجية مكثفة ودقيقة [1, 2, 7, 12].",
+            "en": "A frequent clinical pitfall is assuming that unremarkable routine laboratory workup guarantees an absence of liver disease or halts the progression of tissue remodeling [1, 2, 7]. Extensive clinical research confirms that up to half of patients with documented hepatic steatosis—and a meaningful proportion of individuals with histologically active steatohepatitis or bridging fibrosis—maintain serum liver enzymes (specifically aminotransferases ALT and AST) entirely within conventional laboratory reference ranges [1, 2, 7]. Fat-laden hepatocytes can experience chronic lipotoxic stress and initiate indolent fibrogenesis without rupturing their cell membranes in quantities sufficient to cause marked enzymatic leakage into the systemic circulation; relying on normal enzymes in isolation therefore generates false clinical reassurance [1, 2, 7].\n\nConversely, an elevated aminotransferase level is far from pathognomonic for steatosis [2, 7]. Transaminases can fluctuate or rise in response to numerous transient conditions, including intercurrent viral infections, common medications such as acetaminophen, non-steroidal anti-inflammatory drugs, or statins, strenuous unaccustomed physical exertion, or concurrent biliary tract pathology [2, 7, 8]. For this reason, a gastroenterologist never interprets transaminases as isolated figures; they are evaluated alongside synthetic liver function markers—such as serum albumin, international normalized ratio (INR), bilirubin, and platelet count—within the context of the patient's cardiometabolic profile [1, 2, 7].\n\nTo identify which patients face a meaningful risk of progressive liver fibrosis and require targeted specialist workup, major gastroenterology guidance documents (including the ACG and EASL guidelines) endorse utilizing simple, non-invasive risk calculators, foremost among which is the Fibrosis-4 index (FIB-4) [1, 2, 6, 7]. The primary strength of FIB-4 is that it is an evidence-based, point-of-care mathematical model that requires no proprietary technology; it calculates risk by integrating four standard clinical variables: patient age, serum AST, serum ALT, and the peripheral platelet count [1, 2, 7].\n\nIn accordance with clinical practice guidelines, the FIB-4 index stratifies patients into three distinct risk tiers [1, 2, 7]:\n- Low-risk category (FIB-4 < 1.30 for individuals aged under 65, or < 2.0 for individuals aged 65 and older): This cutoff carries a negative predictive value exceeding 90% for excluding advanced fibrosis (stages F3–F4), allowing the clinician to manage the patient conservatively with lifestyle optimization and repeat risk scoring every two to three years [1, 2, 6, 7].\n- Indeterminate or intermediate category (FIB-4 between 1.30 and 2.67): This range reflects an ambiguous risk level where advanced fibrosis cannot be reliably excluded; clinical guidelines recommend secondary non-invasive testing, such as point shear-wave elastography or transient elastography (FibroScan), to clarify liver stiffness [1, 2, 7, 12].\n- High-risk category (FIB-4 > 2.67): This threshold correlates with a high probability of advanced fibrosis or cirrhosis, mandating prioritized referral to a hepatologist or gastroenterologist for comprehensive diagnostic staging and specialized clinical monitoring [1, 2, 7, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "إنزيمات الكبد",
+                "url": "../articles/liver-function-tests-need-context.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "liver enzymes",
+                "url": "../articles/liver-function-tests-need-context.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "practical-lifestyle-and-avoiding-cleanses",
+          "heading": {
+            "ar": "مسار التعامل العلاجي: تغذية مستدامة، حركة، والتحذير من خلطات «تنظيف الكبد»",
+            "en": "Evidence-based management: sustainable nutrition, exercise, and avoiding detox cleanses"
+          },
+          "body": {
+            "ar": "يقوم العلاج الأساسي والمثبت لدهون الكبد المرتبطة بالخلل الأيضي على التدخل في نمط الحياة وتحسين المؤشرات الاستقلابية بصورة تدريجية ومستدامة [1, 4, 6]. تُجمع الأدلة الإكلينيكية الدولية على أن إنقاص الوزن التدريجي هو العامل الأكثر تأثيراً في عكس مسار المرض؛ حيث يؤدي فقدان ما بين 5% إلى 7% من إجمالي وزن الجسم إلى تقليل نسبة الدهون داخل خلايا الكبد بشكل ملموس وتخفيف الالتهاب الكبدي [1, 4, 6]. وعندما يصل فقدان الوزن إلى 7% إلى 10% أو أكثر، تُظهر الدراسات النسيجية قدرة النسيج الكبدي على وقف تطور التليف أو حتى تحفيز تراجعه التدريجي في مراحل مبكرة، بالإضافة إلى تحسين حساسية الأنسجة للإنسولين وضبط مستويات السكر وضغط الدم [1, 4, 6].\n\nتوصي التوجيهات الطبية باتباع نمط غذائي متوازن مثل حمية البحر الأبيض المتوسط، التي تعتمد على تناول الخضروات الورقية، والبقوليات، وزيت الزيتون البكر، والمكسرات، والأسماك الغنية بأحماض أوميجا-3 الدهنية، والحبوب الكاملة، مع تقليل اللحوم المصنعة والدهون المشبعة [1, 4, 6]. ومن الأهمية بمكان التوقف التام عن تناول المشروبات الغازية والمحلاة وشراب الذرة عالي الفركتوز؛ فالفركتوز الصناعي يُمتص مباشرة ويتحول في الكبد إلى دهون ثلاثية بعملية سريعة تفاقم التشحم [1, 4, 9]. كما تدعم الدراسات ممارسة النشاط البدني المنتظم بمعدل لا يقل عن 150 دقيقة أسبوعياً من التمارين الهوائية متوسطة الشدة (مثل المشي السريع والسباحة)، إلى جانب تمارين المقاومة لتقوية الكتلة العضلية وتحسين استهلاك الجلوكوز [1, 4, 6].\n\nفي المقابل، يجب التحذير الصارم من المنتجات والخلطات المنتشرة على الإنترنت تحت مسمى «ديتوكس الكبد» أو «تنظيف الكبد من الدهون والسموم» [1, 4, 10]. تؤكد الجمعيات الطبية وقواعد البيانات العالمية المرجعية (وعلى رأسها قاعدة بيانات LiverTox التابعة لمعاهد الصحة الوطنية الأمريكية NIH) أنه لا يوجد أي مستحضر عشبي أو عصير مثبت علمياً بقدرته على «غسل» خلايا الكبد [1, 10]. الأخطر من ذلك أن المكملات العشبية مجهولة التركيب ومستحضرات التخسيس غير المرخصة تُعد أحد أبرز أسباب تلف الكبد الحاد والتسمم الكبدي الدوائي (Drug-Induced Liver Injury) التي تستقبلها المستشفيات [1, 10]. كما يُحذر الأطباء من اتباع حميات النزول السريع القاسية (Crash Diets)؛ إذ إن التجويع الحاد وفقدان الوزن السريع جداً يطلق كميات هائلة من الأحماض الدهنية الحرة إلى مجرى الدم نحو الكبد دفعة واحدة، مما قد يفاقم الالتهاب الكبدي ويزيد من خطر تكون حصوات المرارة الحادة [1, 4, 6, 8].\n\nللاطلاع على بروتوكولات المتابعة الدورية التفصيلية والخيارات الدوائية الداعمة المعتمدة لإدارة عوامل الخطورة، يمكن الرجوع إلى دليل علاج دهون الكبد المتاح على منصتنا، والذي يوضح المعايير الإرشادية لكل مرحلة من مراحل المتابعة [1, 4, 6].",
+            "en": "The cornerstone of evidence-based therapy for metabolic dysfunction-associated steatotic liver disease rests upon sustainable lifestyle modification and tight cardiometabolic optimization [1, 4, 6]. Robust international clinical trials consistently demonstrate that gradual, deliberate weight reduction is the most powerful physiological intervention capable of reversing hepatic steatosis: achieving a 5% to 7% loss of total body weight substantially depletes intracellular liver fat stores and mitigates lobular inflammation [1, 4, 6]. When weight reduction reaches 7% to 10% or more, histopathological studies confirm stabilization and even histological regression of liver fibrosis in early-to-moderate stages, alongside profound improvements in systemic insulin sensitivity, glycaemic stability, and blood pressure control [1, 4, 6].\n\nClinical guidelines strongly endorse adopting a Mediterranean dietary pattern rich in fresh fibrous vegetables, legumes, extra virgin olive oil, nuts, omega-3 fatty acid-rich fish, and intact whole grains, while curtailing ultra-processed meats and saturated fats [1, 4, 6]. Eliminating sugar-sweetened beverages, commercial sodas, and products sweetened with high-fructose corn syrup is essential; ingested liquid fructose undergoes rapid hepatic extraction and conversion into triglycerides via unregulated de novo lipogenesis, dramatically escalating steatosis [1, 4, 9]. Physical exercise acts as an indispensable therapeutic pillar; international guidelines recommend engaging in at least 150 minutes per week of moderate-intensity aerobic physical activity (such as brisk walking, cycling, or swimming), paired with resistance exercises to preserve skeletal muscle mass and augment peripheral glucose uptake [1, 4, 6].\n\nConversely, clinicians must issue an uncompromising warning against commercial products promoted online as \"liver detoxes,\" herbal cleanses, or rapid \"fat flushes\" [1, 4, 10]. Authoritative hepatology bodies and international toxicological registries (notably the NIH LiverTox database) confirm that no herbal supplement, proprietary tea, or cleanse regimen has ever demonstrated safety or efficacy in clinical trials for eliminating hepatic steatosis [1, 10]. Alarmingly, unregulated botanical extracts and over-the-counter dietary slimming supplements represent a leading cause of severe drug-induced liver injury (DILI) requiring emergency hospitalization [1, 10]. Furthermore, physicians caution against extreme crash diets and rapid starvation protocols; precipitous weight loss causes uncontrolled mobilization of free fatty acids from peripheral adipose stores directly to the liver, paradoxically exacerbating steatohepatitis and dramatically increasing the risk of acute cholelithiasis [1, 4, 6, 8].\n\nFor detailed long-term surveillance protocols, lifestyle algorithms, and approved pharmacotherapeutic options for coexisting metabolic conditions, patients can consult the comprehensive fatty liver management guide on our platform, which outlines structured guidance across each monitoring phase [1, 4, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل علاج دهون الكبد",
+                "url": "../articles/fatty-liver-treatment-and-follow-up.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "fatty liver management guide",
+                "url": "../articles/fatty-liver-treatment-and-follow-up.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "red-flags-and-la-rose-specialist-care",
+          "heading": {
+            "ar": "علامات تستدعي رعاية عاجلة ومسار التقييم التخصصي في عيادات لاروز",
+            "en": "Red-flag symptoms and specialist gastroenterology evaluation at La Rose Clinics"
+          },
+          "body": {
+            "ar": "على الرغم من أن دهون الكبد البسيطة غالباً ما تكون حالة صامتة لا تسبب أعراضاً ملحوظة ولا تتطلب زيارة طوارئ، إلا أن هناك علامات إنذار حمراء تنبه إلى وجود خلل وظيفي كبدي متقدم أو مضاعفات وعائية تستدعي رعاية طبية عاجلة وفورية [1, 3, 5, 8]. تتضمن هذه الأعراض الحرجة: ظهور اصفرار واضح في بياض العينين أو الجلد (اليرقان / Jaundice)، أو تحول لون البول إلى البني الداكن الشبيه بالشاي، أو ملاحظة انتفاخ سريع ومؤلم في البطن ناتج عن تجمع السوائل في التجويف البريتوني (الاستسقاء / Ascites)، أو تورم ملحوظ ومستمر في الساقين والكاحلين [1, 3, 5, 8]. كما تستوجب الرعاية الطارئة الفورية أي علامات لنزيف هضمي؛ مثل القيء الدموي أو خروج براز أسود قطراني كريه الرائحة (Melena)، أو حدوث ارتباك وتشوش ذهني وتغير في درجة الوعي واضطراب دورة النوم واليقظة، وهو ما يشير إلى احتمالية بدء اعتلال دماغي كبدي [1, 3, 5].\n\nفي المقابل، فإن التعامل مع دهون الكبد المكتشفة في تقرير السونار دون علامات خطورة يستلزم تقييماً إكلينيكياً منظماً يضع خطة علاجية مخصصة لكل مريض بعيداً عن القلق غير المبرر أو الإهمال الطويل [1, 2, 6]. في عيادات لاروز بالمعادي، يقدم د. مهاب أشرف فؤاد، أخصائي الأمراض الباطنية والسكر وأخصائي الكبد والجهاز الهضمي والمناظير، تقييماً طبياً شاملاً يجمع بين الفحص الإكلينيكي الدقيق والتقييم الأيضي المتكامل. تتيح الزيارة في العيادة إجراء فحص سونار البطن بالموجات فوق الصوتية خلال نفس الموعد بواسطة الطبيب المعالج عند وجود دواعي طبية؛ مما يوفر رؤية تصويرية فورية ومباشرة لحالة الكبد والمرارة والأعضاء الباطنية وربطها بالشكوى السريرية وتاريخ المريض الدوائي والغذائي، مع ترتيب حساب مؤشر FIB-4 وتحديد الحاجة لفحوصات التليف التخصصية دون تأخير أو تشتيت [1, 2, 7, 8].\n\nتُبنى الخطة العلاجية في عيادات لاروز بأسلوب واقعي قائم على الدلائل العلمية، حيث يتم التركيز على معالجة الأسباب الجذرية لمتلازمة التمثيل الغذائي وضبط السكر والدهون والضغط، وتقديم توجيهات غذائية مستدامة بالتعاون مع أخصائي التغذية، والمتابعة الدورية الهادئة التي تقيس التحسن بالأرقام والنتائج الطبية الملموسة. عندما ترغب في الانتقال من حيرة تقرير السونار إلى رؤية طبية واضحة ومسار رعاية متخصص، يمكنك حجز استشارة أمراض الجهاز الهضمي والكبد لبدء خطة التقييم والمتابعة الطبية المتكاملة.",
+            "en": "Although uncomplicated hepatic steatosis is typically an indolent, silent condition causing no noticeable distress and rarely necessitating emergency room attendance, distinct clinical red-flag symptoms signal advanced hepatic decompensation or significant portal vascular complications that mandate urgent medical evaluation [1, 3, 5, 8]. These critical alarm signs include the appearance of visible yellowing of the sclera or skin (jaundice), tea-colored dark urine, rapid and progressive abdominal distension secondary to intra-peritoneal fluid pooling (ascites), or persistent dependent peripheral oedema in the lower extremities [1, 3, 5, 8]. Immediate emergency intervention is essential upon any manifestation of gastrointestinal hemorrhage—such as hematemesis (vomiting blood) or melena (pitch-black, foul-smelling stools)—or the onset of mental confusion, lethargy, cognitive slowing, or disrupted sleep-wake cycles characteristic of hepatic encephalopathy [1, 3, 5].\n\nConversely, navigating an incidental ultrasound finding of liver fat in the absence of alarm signs requires a structured, deliberate outpatient clinical approach that formulates an individualized care plan without unwarranted catastrophizing or passive neglect [1, 2, 6]. At La Rose Clinics in Maadi, Dr. Mohab Ashraf Fouad, Specialist in Internal Medicine & Diabetes, Hepatology, Gastroenterology & Endoscopy, provides comprehensive clinical assessments integrating thorough physical examination, metabolic profiling, and liver health evaluation. A core clinical advantage of the consultation is the availability of in-clinic abdominal ultrasound during the same visit when clinically indicated; this empowers the evaluating specialist to directly visualize the liver parenchyma, biliary tree, gallbladder, and visceral organs in real time, immediately correlating imaging findings with the patient's pharmacological history, metabolic markers, and FIB-4 calculation, while coordinating specialized fibrosis assessment when indicated [1, 2, 7, 8].\n\nCare pathways at La Rose Clinics are built strictly upon evidence-based medicine, targeting the root metabolic drivers through glycaemic stabilization, lipid management, and blood pressure control, supported by actionable, sustainable nutritional guidance in coordination with clinical dietitians. Long-term monitoring focuses on measurable objective outcomes rather than unsubstantiated claims. When you seek to translate an ambiguous imaging report into clinical clarity and structured medical oversight, you can book a gastroenterology and hepatology consultation to initiate your specialized assessment."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حجز استشارة أمراض الجهاز الهضمي والكبد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book a gastroenterology and hepatology consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل ظهور «كبد دهني» في تقرير السونار يعني بالضرورة تليف الكبد؟",
+            "en": "Does the finding of \"fatty liver\" on an ultrasound report necessarily mean liver fibrosis?"
+          },
+          "a": {
+            "ar": "لا، وجود مظهر دهني بالسونار يعكس مجرد تراكم قطيرات الدهون ثلاثية الجلسريد داخل خلايا الكبد (تشحم الكبد)، ولا يعني وجود تليف أو ندبات دائمة [1, 2, 3, 11]. التليف عملية مختلفة تماماً تحدث نتيجة التهاب مزمن طويل الأمد يُحفز ترسيب ألياف الكولاجين، ولا يمكن للسونار العادي قياس درجة التليف بدقة؛ ولذلك يعتمد الطبيب على حساب مؤشرات الخطورة المعملية مثل FIB-4 أو إجراء فحص صلابة الكبد (الفيبروسكان) عند الحاجة [1, 2, 11, 12].",
+            "en": "No, an echogenic fatty appearance on ultrasound merely reflects triglyceride lipid accumulation within hepatocytes (steatosis), and does not mean liver fibrosis or permanent scarring has developed [1, 2, 3, 11]. Fibrosis is a distinct pathological process driven by chronic cellular inflammation triggering collagen deposition, and conventional ultrasound cannot reliably quantify fibrosis stages; clinicians therefore utilize non-invasive laboratory risk calculators like FIB-4 or arrange liver stiffness elastography (FibroScan) when indicated [1, 2, 11, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إذا كانت إنزيمات الكبد (ALT وAST) طبيعية، فهل يمكن أن أكون مصاباً بدهون الكبد أو التهابها؟",
+            "en": "If liver enzymes (ALT and AST) are normal, can I still have fatty liver or steatohepatitis?"
+          },
+          "a": {
+            "ar": "نعم، تؤكد الدراسات السريرية والإرشادات الدولية أن نسبة كبيرة من المصابين بتشحم الكبد—وحتى بعض حالات الالتهاب الكبدي الدهني أو التليف المبكر—تكون لديهم إنزيمات الكبد ضمن المعدلات الطبيعية تماماً في تحاليل الدم [1, 2, 7]. لذلك لا يُعد التحليل الطبيعي ضماناً لغياب المرض، ويُقيّم الطبيب الحالة بناءً على الصورة المتكاملة التي تشمل السونار، ومحيط الخصر، والسكر التراكمي، ودهون الدم، وعوامل الخطورة الأيضية [1, 2, 7, 9].",
+            "en": "Yes, clinical trials and international guidelines confirm that a substantial proportion of patients with hepatic steatosis—and even select individuals with active steatohepatitis or early fibrosis—maintain liver enzymes entirely within normal laboratory reference ranges [1, 2, 7]. A normal blood test is never a guarantee of liver health; clinicians evaluate overall clinical status by correlating ultrasound findings with waist circumference, HbA1c, lipid profiles, and cardiometabolic risk factors [1, 2, 7, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ما الفرق بين درجات دهون الكبد (الدرجة الأولى والثانية والثالثة) بالسونار؟",
+            "en": "What is the difference between ultrasound steatosis grades (grade 1, grade 2, and grade 3)?"
+          },
+          "a": {
+            "ar": "تُقسم درجات تشحم الكبد بالسونار إلى ثلاث درجات بناءً على كثافة الصدى الصوتي واختراق الموجات للأنسجة العميقة [1, 8, 11]. الدرجة الأولى (بسيطة) تُظهر زيادة خفيفة في لمعان نسيج الكبد مع وضوح تام لجدار الوريد البابي والحجاب الحاجز [8, 11]. الدرجة الثانية (متوسطة) يزداد فيها اللمعان مع تشوش طفيف في رؤية جدران الأوعية الدموية الكبدية وحافة الحجاب الحاجز [8, 11]. أما الدرجة الثالثة (شديدة) فيكون لمعان الكبد مكثفاً مع ضعف كبير في اختراق الموجات للأجزاء الخلفية وصعوبة واضحة في رؤية الحجاب الحاجز والأوعية العميقة [8, 11]. هذه الدرجات تصويرية بحتة ولا تعكس بالضرورة شدة تلف الخلايا، لذا تظل المتابعة السريرية الشاملة هي الأساس [1, 2, 11].",
+            "en": "Hepatic steatosis is categorized on ultrasound into three visual grades based on echogenic brightness and acoustic beam penetration [1, 8, 11]. Grade 1 (mild) shows a slight increase in fine parenchymal echoes with sharp visualization of portal vein borders and the diaphragm [8, 11]. Grade 2 (moderate) displays increased echogenicity with subtle blurring of intrahepatic vessel walls and diaphragmatic margins [8, 11]. Grade 3 (severe) features marked echogenicity with deep acoustic attenuation, severely compromising visualization of deep structures and the diaphragm [8, 11]. These grades are strictly imaging descriptions and do not directly equate to histological cellular damage, making comprehensive clinical correlation essential [1, 2, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أحتاج إلى إعادة فحص السونار كل بضعة أشهر لمراقبة تحسن الدهون؟",
+            "en": "Do I need to repeat an ultrasound every few months to check if liver fat is improving?"
+          },
+          "a": {
+            "ar": "في أغلب الحالات، لا يُنصح بتكرار السونار على فترات متقاربة جداً (مثل كل شهرين أو ثلاثة)، لأن التغيرات التصويرية الدقيقة في نسيج الكبد تستغرق وقتاً طويلاً للظهور، كما أن السونار العادي ليس أداة كمية دقيقة لرصد الفروق البسيطة في نسبة الدهون [1, 2, 6, 11]. تعتمد المتابعة الفعالة عادة على مراقبة المؤشرات الأيضية القابلة للقياس مثل الوزن، ومحيط الخصر، والسكر التراكمي، ودهون الدم، وحساب مؤشر FIB-4 دورياً، بينما يُحدد الطبيب المعالج توقيت إعادة الفحوصات التصويرية حسب استجابة الحالة ومستوى الخطورة [1, 2, 6, 8].",
+            "en": "In most cases, repeating an ultrasound at short intervals (such as every two or three months) is not recommended because subtle architectural changes take prolonged time to manifest, and conventional ultrasound is not a sensitive quantitative tool for tracking minor fluctuations in hepatic fat [1, 2, 6, 11]. Effective clinical monitoring focuses instead on objective metabolic markers including body weight, waist circumference, HbA1c, lipid fractions, and serial FIB-4 calculations, while the treating clinician schedules repeat imaging selectively according to individual clinical progress and risk stratification [1, 2, 6, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تفيد وصفات «تنظيف الكبد» والديتوكس العشبية في إزالة دهون الكبد بسرعة؟",
+            "en": "Are herbal \"liver cleanses\" and detox remedies effective for rapidly eliminating liver fat?"
+          },
+          "a": {
+            "ar": "لا توجد أي أدلة علمية تثبت فاعلية أو أمان ما يُسمى بمنتجات «تنظيف الكبد» أو خلطات الديتوكس لإزالة الدهون [1, 4, 10]. بل على العكس، تُحذر قواعد البيانات الطبية المتخصصة (مثل LiverTox) والجمعيات الكبدية العالمية من أن المكملات العشبية مجهولة المصدر تمثل أحد أكثر أسباب التسمم الكبدي وإصابات الكبد الدوائية شيوعاً [1, 10]. الطريقة الوحيدة المثبتة علمياً للتخلص من دهون الكبد هي إنقاص الوزن التدريجي والمستدام بمعدل 5% إلى 10% عبر نمط غذائي صحي متوازن وممارسة النشاط البدني بانتظام [1, 4, 6].",
+            "en": "There is zero scientific evidence supporting the safety or efficacy of commercial \"liver detoxes,\" proprietary herbal teas, or rapid cleanses for removing liver fat [1, 4, 10]. Conversely, authoritative pharmacological registries such as NIH LiverTox and international liver societies warn that unregulated herbal supplements represent a leading cause of toxic drug-induced liver injury [1, 10]. The only clinically proven method for resolving hepatic steatosis is gradual, sustainable weight reduction of 5% to 10% achieved through balanced dietary nutrition and regular physical activity [1, 4, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "متى يكون التقييم المتخصص لدهون الكبد ضرورياً ومستعجلاً؟",
+            "en": "When is a specialist evaluation for liver fat urgently required?"
+          },
+          "a": {
+            "ar": "يُعد التقييم الطبي المتخصص مطلوباً دائماً لتحديد السبب وتقدير خطر التليف، لكنه يصبح عاجلاً وفورياً إذا ظهرت علامات تحذيرية حمراء تدل على خلل وظيفي كبدي متقدم أو مضاعفات حادة [1, 3, 5]. تشمل هذه العلامات: اصفرار العينين أو الجلد (اليرقان)، أو غمقان لون البول، أو انتفاخ البطن السريع الناتج عن تجمع السوائل (الاستسقاء)، أو تورم الساقين، أو القيء الدموي والبراز الأسود، أو حدوث تشوش ذهني وتغير في درجة الوعي [1, 3, 5]. عند ظهور أي من هذه الأعراض، يجب التوجه فوراً للرعاية الطبية الطارئة وعدم الاكتفاء بالاستشارات الروتينية [3, 5].",
+            "en": "Specialist outpatient evaluation is always recommended to identify underlying drivers and assess fibrosis risk, but it becomes urgent and immediate if red-flag signs indicate advanced hepatic decompensation or acute portal complications [1, 3, 5]. These alarm features include visible yellowing of the sclera or skin (jaundice), tea-colored dark urine, rapid abdominal distension from ascites, marked peripheral leg oedema, hematemesis or melena (gastrointestinal bleeding), or acute mental confusion and altered consciousness [1, 3, 5]. When any of these symptoms appear, emergency department evaluation is mandatory rather than waiting for routine outpatient visits [3, 5]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "EASL–EASD–EASO Clinical Practice Guidelines on MASLD (2024)",
+          "url": "https://easl.eu/publication/easl-easd-easo-clinical-practice-guidelines-managment-of-metabolic-dysfunction-associated-steatotic-liver-disease/"
+        },
+        {
+          "label": "AASLD Practice Guidance on Clinical Assessment and Management of NAFLD",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/"
+        },
+        {
+          "label": "NIDDK — Diagnosis of NAFLD & NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"
+        },
+        {
+          "label": "NIDDK — Treatment for NAFLD & NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of NAFLD & NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/symptoms-causes"
+        },
+        {
+          "label": "NICE Guideline NG49 — Non-Alcoholic Fatty Liver Disease: Assessment and Management",
+          "url": "https://www.nice.org.uk/guidance/ng49"
+        },
+        {
+          "label": "ACG Clinical Guideline — Evaluation of Abnormal Liver Chemistries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27995906/"
+        },
+        {
+          "label": "ACR Appropriateness Criteria — Chronic Liver Disease",
+          "url": "https://acsearch.acr.org/docs/3098416/Narrative/"
+        },
+        {
+          "label": "NIDDK — NAFLD & NASH Overview",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash"
+        },
+        {
+          "label": "NIH LiverTox — Herbal and Dietary Supplements",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK548441/"
+        },
+        {
+          "label": "Hernaez et al. — Diagnostic Accuracy and Reliability of Ultrasonography for the Detection of Fatty Liver: A Meta-Analysis (Hepatology, PMID 21618575)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21618575/"
+        },
+        {
+          "label": "WFUMB Guidelines — Liver Multiparametric Ultrasound: Liver Ultrasound Elastography (PMID 38762390)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38762390/"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "هل السونار يكشف دهون الكبد؟ | لاروز",
+          "en": "Does ultrasound detect fatty liver? | La Rose"
+        },
+        "description": {
+          "ar": "هل السونار يكشف دهون الكبد؟ اعرف ما الذي يوضحه التقرير، وما الذي لا يستطيع تحديده عن الالتهاب والتليف، ومتى تحتاج متابعة.",
+          "en": "Can ultrasound detect fatty liver? Learn what an ultrasound report can show, what it cannot establish about fibrosis, and when follow-up matters."
+        }
+      }
+    }
+  ]
+}

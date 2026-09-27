@@ -195,11 +195,12 @@ export function faqList({ c, locale, items, idPrefix = "faq", sourceSlug = "", s
 
 /** FAQPage JSON-LD for a set of Q&As. */
 export function faqSchema(items, locale) {
-  if (!items || !items.length) return null;
+  const complete = (items || []).filter((f) => t(f?.q, locale) && t(f?.a, locale));
+  if (!complete.length) return null;
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: items.map((f) => ({
+    mainEntity: complete.map((f) => ({
       "@type": "Question",
       name: t(f.q, locale),
       acceptedAnswer: { "@type": "Answer", text: t(f.a, locale) },

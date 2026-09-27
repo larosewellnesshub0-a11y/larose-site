@@ -2,7 +2,7 @@
    Branch pages
    ========================================================================== */
 
-import { t, ta, esc, link, asset, icon, map, when, published, branchCardImage, responsiveAttrs, IMAGE_SIZES } from "../lib/util.mjs";
+import { t, ta, esc, link, asset, icon, map, when, published, branchCardImage, responsiveAttrs, IMAGE_SIZES, absolutePageUrl } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import { pageHero, sectionHead, specialtyCard, ctaBand } from "../lib/components.mjs";
 
@@ -108,7 +108,7 @@ function openBranch({ c, locale, b }) {
     "@type": "MedicalClinic",
     name: t(b.name, locale),
     description: t(b.intro, locale),
-    url: `https://${c.site.brand.domain}/${locale}/branches/${b.slug}.html`,
+    url: absolutePageUrl(`https://${c.site.brand.domain}`, locale, `branches/${b.slug}`),
     telephone: b.phone?.tel || c.site.contact.phone.tel,
     address: {
       "@type": "PostalAddress",

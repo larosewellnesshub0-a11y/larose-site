@@ -324,7 +324,7 @@ ${when(faq.length, `<section class="section section--tint">
     path: `${locale}/${pagePath}`,
     html: page({
       c, locale, depth, pagePath,
-      title: t(product.name, locale),
+      title: `${t(product.name, locale)} | ${t(c.site.brand.name, locale)}`, // name already holds the short brand, so the shell would not append it and title = H1
       description: t(product.short, locale),
       active: "digital",
       body,

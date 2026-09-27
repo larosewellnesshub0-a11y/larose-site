@@ -40,6 +40,13 @@
         Array.prototype.forEach.call(tipBands, function (band) {
           var textNode = band.querySelector("[data-random-tip-text]");
           if (textNode) textNode.textContent = value;
+          // Links follow the swapped tip: to its own page when it has one,
+          // otherwise to the tips list, with the "details" link hidden.
+          Array.prototype.forEach.call(band.querySelectorAll("[data-random-tip-link]"), function (a) {
+            a.setAttribute("href", (a.getAttribute("data-tip-base") || "") + (selected.page ? selected.id : "tips"));
+          });
+          var more = band.querySelector("[data-random-tip-more]");
+          if (more) more.hidden = !selected.page;
         });
         try { window.sessionStorage.setItem("lr-last-tip", selected.id); }
         catch (err) { /* storage is optional */ }

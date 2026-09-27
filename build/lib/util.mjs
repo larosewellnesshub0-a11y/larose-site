@@ -200,6 +200,23 @@ export function loadContent() {
     ...(bloatingWhenToSeeDoctorRewrite.articles || []),
     ...(longformExpansion.articles || []),
   ];
+  // Phase files are picked up by name so new work needs no registration here:
+  // `articles-new-*.json` adds articles, `articles-p2-*.json` replaces an
+  // existing article with the same slug (a rewrite keeps its URL).
+  const phaseFiles = (prefix) => fs.readdirSync(CONTENT_DIR).filter((f) => f.startsWith(prefix) && f.endsWith(".json")).sort();
+  for (const f of phaseFiles("articles-p2-")) {
+    for (const rewrite of read(f).articles || []) {
+      const at = articles.articles.findIndex((article) => article.slug === rewrite.slug);
+      if (at === -1) throw new Error(`${f}: no existing article with slug ${rewrite.slug}`);
+      articles.articles[at] = rewrite;
+    }
+  }
+  for (const f of phaseFiles("articles-new-")) {
+    for (const added of read(f).articles || []) {
+      if (articles.articles.some((article) => article.slug === added.slug)) throw new Error(`${f}: slug ${added.slug} already exists`);
+      articles.articles.push(added);
+    }
+  }
   // Editorial images are hand-managed beneath `assets/img/articles/`. A small
   // legacy set was recorded without that directory; resolve it here so every
   // generated route advertises the real public asset rather than a dead URL.
@@ -280,6 +297,44 @@ export function link(depth, href) {
     .replace(/\.html(?=$|[?#])/, "");
   const out = rel(depth) + clean;
   return out === "" ? "./" : out;
+}
+
+/** Absolute URL for a page in a given locale, stripped of .html. */
+export function absolutePageUrl(base, locale, pagePath) {
+  const clean = String(pagePath || "index.html")
+    .replace(/^\/+/, "")
+    .replace(/(^|\/)index\.html(?=$|[?#])/, "$1")
+    .replace(/\.html(?=$|[?#])/, "");
+  return `${base}/${locale}/${clean}`;
+}
+
+/** Strip .html only from internal URLs (relative or on laroseclinics.com). */
+export function cleanInternalUrl(url) {
+  if (!url || typeof url !== "string") return url;
+  if (/^(?:mailto:|tel:|javascript:|data:|#)/i.test(url)) return url;
+  if (/^https?:\/\//i.test(url) && !/^https?:\/\/(?:www\.)?laroseclinics\.com(?:\/|$)/i.test(url)) {
+    return url;
+  }
+  return url
+    .replace(/(^|\/)index\.html(?=$|[?#])/i, "$1")
+    .replace(/\.html(?=$|[?#])/i, "");
+}
+
+/** Strip .html from href attributes of internal page links within rendered HTML. */
+export function cleanInternalHrefs(html) {
+  if (!html || typeof html !== "string") return html;
+  return html.replace(/(<a\b[^>]*?\bhref=(["']))([^"']*?)\.html(?=[?#]|["'])/gi, (match, start, quote, pathPart) => {
+    if (/^https?:\/\//i.test(pathPart) && !/^https?:\/\/(?:www\.)?laroseclinics\.com(?:\/|$)/i.test(pathPart)) {
+      return match;
+    }
+    if (pathPart.endsWith("/index")) {
+      return `${start}${pathPart.slice(0, -5)}`;
+    }
+    if (pathPart === "index") {
+      return `${start}./`;
+    }
+    return `${start}${pathPart}`;
+  });
 }
 
 /** Link to an asset. Assets live at `site/assets/`, one level ABOVE the

@@ -3,7 +3,7 @@
    ========================================================================== */
 
 import {
-  t, ta, esc, link, asset, icon, map, when, published, paras,
+  t, ta, esc, link, asset, icon, map, when, published, paras, absolutePageUrl, cleanInternalUrl,
 } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
@@ -281,7 +281,7 @@ function addNaturalInternalLinks(html, locale, entry) {
       const boundary = locale === "en" ? "\\b" : "";
       const pattern = new RegExp(`${boundary}${escapeRegExp(label)}${boundary}`, locale === "en" ? "i" : "");
       if (!pattern.test(output)) continue;
-      output = output.replace(pattern, (matched) => `<a href="../articles/${esc(slug)}.html">${matched}</a>`);
+      output = output.replace(pattern, (matched) => `<a href="../articles/${esc(slug)}">${matched}</a>`);
       added += 1;
       break;
     }
@@ -308,14 +308,15 @@ function sectionParas(section, locale, entry) {
       // escaping the paragraph; all other markup remains text. New content
       // should continue to use section.links, but this keeps a valid natural
       // reading-path link from being displayed as source markup.
-      html = html.replace(/&lt;a href=&quot;(\.\.\/articles\/[^&]+?\.html)&quot;&gt;(.+?)&lt;\/a&gt;/g, (_match, url, label) => `<a href="${esc(url)}">${label}</a>`);
+      html = html.replace(/&lt;a href=&quot;(\.\.\/articles\/[^&]+?)(?:\.html)?&quot;&gt;(.+?)&lt;\/a&gt;/g, (_match, url, label) => `<a href="${esc(url)}">${label}</a>`);
       if (automaticCitations && !/\[[0-9][0-9,\sâ€“-]*\]/.test(paragraph)) {
         html += ` [${esc(automaticCitations)}]`;
       }
       for (const item of links) {
         const label = t(item?.label, locale);
-        const url = t(item?.url, locale) || t(item?.url, "en");
-        if (!label || !url || !validUrl(url)) continue;
+        const rawUrl = t(item?.url, locale) || t(item?.url, "en");
+        if (!label || !rawUrl || !validUrl(rawUrl)) continue;
+        const url = cleanInternalUrl(rawUrl);
         const escapedLabel = esc(label);
         if (!html.includes(escapedLabel) || html.includes(`>${escapedLabel}</a>`)) continue;
         html = html.replace(escapedLabel, `<a href="${esc(url)}">${escapedLabel}</a>`);
@@ -524,6 +525,10 @@ function reviewAndHistory({ c, locale, depth, entry }) {
     : "";
   const reviewItem = '<li><strong>' + esc(t(COPY.reviewRecord, locale)) + ':</strong> '
     + esc(reviewer ? t(COPY.reviewRecorded, locale) : t(COPY.noSeparateReviewer, locale)) + '</li>';
+  const historyItems = (Array.isArray(entry?.history) ? entry.history : [])
+    .filter((h) => h && h.date && t(h.note, locale))
+    .map((h) => '<li><strong>' + esc(formatDate(h.date, locale)) + ':</strong> ' + esc(t(h.note, locale)) + '</li>')
+    .join("");
   const sourcesItem = sourceCount
     ? '<li><strong>' + esc(t(COPY.linkedSources, locale)) + ':</strong> ' + esc(String(sourceCount)) + '</li>'
     : "";
@@ -533,7 +538,7 @@ function reviewAndHistory({ c, locale, depth, entry }) {
     + '<p class="u-muted">' + esc(t(COPY.reviewIntro, locale)) + '</p>'
     + '<dl class="article-transparency__facts">' + authorFact + reviewerFact + sourceFact + '</dl>'
     + '<details class="article-transparency__history"><summary>' + esc(t(COPY.publicationHistory, locale)) + '</summary>'
-    + '<ol class="prose">' + publishedItem + updatedItem + reviewItem + sourcesItem + '</ol></details>'
+    + '<ol class="prose">' + publishedItem + updatedItem + historyItems + reviewItem + sourcesItem + '</ol></details>'
     + '</div></article></div></section>';
 }
 
@@ -586,7 +591,7 @@ function featuredBlock({ c, categories, entry, locale, depth }) {
         <h2 class="h2"><a href="${esc(link(depth, `articles/${entrySlug(entry)}.html`))}">${esc(title)}</a></h2>
         ${entryMeta({ c, locale, entry, depth, includeAuthor: true })}
         <p class="lede">${esc(entryExcerpt(entry, locale))}</p>
-        <a class="btn btn--primary" href="${esc(link(depth, `articles/${entrySlug(entry)}.html`))}">${esc(t(c.site.ui.learnMore, locale))}</a>
+        <a class="btn btn--primary" href="${esc(link(depth, `articles/${entrySlug(entry)}.html`))}">${esc(t(c.site.ui.learnMore, locale))}<span class="visually-hidden">: ${esc(title)}</span></a>
       </div>
     </div>
   </article>`;
@@ -595,13 +600,20 @@ function featuredBlock({ c, categories, entry, locale, depth }) {
 function todayTip({ c, tip, locale, depth, headingLevel = 2 }) {
   if (!tip) return emptyState(c, locale, headingLevel);
   const H = `h${headingLevel}`;
+  const tipId = tip.id || (typeof tip.slug === "string" ? tip.slug : null);
+  // Only link a tip that has its own published article; site.js retargets
+  // these links when it swaps in a different tip.
+  const tipSlug = tipId && (c.articles?.articles || []).some((a) => a.published !== false && t(a.slug, "en") === tipId) ? tipId : null;
+  const tipLink = tipSlug ? link(depth, `articles/${tipSlug}.html`) : link(depth, "articles/tips.html");
+  const tipBase = esc(link(depth, "articles/"));
   return `<article class="card tip-card" data-random-tip data-tip-source="${esc(asset(depth, "assets/data/tips.json"))}" data-reveal style="padding:clamp(1.5rem,4vw,3rem)">
     <div class="stack">
       <div class="cluster">
         <span class="chip">${icon("leaf")} ${esc(t(c.site.ui.tips, locale))}</span>
       </div>
-      <${H} class="h2"><a href="${esc(link(depth, "articles/tips.html"))}">${esc(t({ ar: "نصيحة النهارده", en: "Today's practical tip" }, locale))}</a></${H}>
+      <${H} class="h2"><a href="${esc(tipLink)}" data-random-tip-link data-tip-base="${tipBase}">${esc(t({ ar: "نصيحة النهارده", en: "Today's practical tip" }, locale))}</a></${H}>
       <div class="prose tip-card__text"><p data-random-tip-text>${esc(t(tip, locale))}</p></div>
+      ${when(tipSlug, `<p data-random-tip-more><a class="link-cta" href="${esc(tipLink)}" data-random-tip-link data-tip-base="${tipBase}">${esc(t({ ar: "اقرأ تفاصيل النصيحة", en: "Read full tip details" }, locale))} ${icon("arrow")}</a></p>`)}
     </div>
   </article>`;
 }
@@ -685,7 +697,7 @@ function articleListPage({ c, locale, categories, entries }) {
       "@type": "ListItem",
       position: index + 1,
       name: entryTitle(entry, locale),
-      item: `${base}/${locale}/articles/${entrySlug(entry)}.html`,
+      item: absolutePageUrl(base, locale, `articles/${entrySlug(entry)}`),
     })),
   };
   const description = t({
@@ -746,7 +758,7 @@ ${pageHero({
           <h2 class="h3"><a href="${esc(link(depth, `articles/${entrySlug(entry)}.html`))}">${esc(entryTitle(entry, locale))}</a></h2>
           <p class="card__text">${esc(entryExcerpt(entry, locale))}</p>
           ${when(ta(entry?.sources, "en").length, `<div><h3 class="h4">${esc(t(COPY.sources, locale))}</h3>${sourceList(entry, locale)}</div>`)}
-          <a class="link-cta" href="${esc(link(depth, `articles/${entrySlug(entry)}.html`))}">${esc(t(c.site.ui.learnMore, locale))} ${icon("arrow")}</a>
+          <a class="link-cta" href="${esc(link(depth, `articles/${entrySlug(entry)}.html`))}">${esc(t(c.site.ui.learnMore, locale))}<span class="visually-hidden">: ${esc(entryTitle(entry, locale))}</span> ${icon("arrow")}</a>
         </div>
       </article>`) : emptyState(c, locale)}
     </div>
@@ -874,7 +886,7 @@ function faqGroups(c, entries) {
   const groups = specs.map((sp) => ({
     slug: t(sp.slug, "en"),
     name: sp.name,
-    items: [...ta(sp.faq, "en")],
+    items: ta(sp.faq, "en").filter((item) => t(item?.q, "en") && t(item?.a, "en")),
     sample: Boolean(sp.sample),
   }));
   const general = { slug: "general", name: COPY.general, items: [], sample: false };
@@ -979,6 +991,7 @@ ${ctaBand({ c, locale, depth })}`;
 
 function detailSchemas({ c, locale, entry, doctor, reviewer, pagePath }) {
   const base = `https://${c.site.brand.domain}`;
+  const pageUrl = absolutePageUrl(base, locale, pagePath);
   const image = t(entry?.image, locale);
   const date = entryDate(entry);
   const author = entryAuthorName(entry, doctor, locale);
@@ -994,13 +1007,13 @@ function detailSchemas({ c, locale, entry, doctor, reviewer, pagePath }) {
   const person = author ? {
     "@type": "Person",
     name: author,
-    url: doctor ? `${base}/${locale}/doctors/${t(doctor.slug, "en")}.html` : undefined,
+    url: doctor ? absolutePageUrl(base, locale, `doctors/${t(doctor.slug, "en")}`) : undefined,
   } : undefined;
   // Patient questions are answered by the clinic's own doctors, so Google's
   // rules put them under FAQPage (site-authored), not QAPage (user-generated).
   const faq = entryType(entry) === "qa" ? {
     "@type": "FAQPage",
-    "@id": `${base}/${locale}/${pagePath}#faq`,
+    "@id": `${pageUrl}#faq`,
     mainEntity: [{
       "@type": "Question",
       name: entryTitle(entry, locale),
@@ -1013,10 +1026,10 @@ function detailSchemas({ c, locale, entry, doctor, reviewer, pagePath }) {
   } : null;
   const article = {
     "@type": "Article",
-    "@id": `${base}/${locale}/${pagePath}#article`,
+    "@id": `${pageUrl}#article`,
     headline: entryTitle(entry, locale),
     description: entryExcerpt(entry, locale),
-    mainEntityOfPage: `${base}/${locale}/${pagePath}`,
+    mainEntityOfPage: pageUrl,
     image: image ? (/^https?:/i.test(image) ? image : `${base}/${image.replace(/^\/+/, "")}`) : undefined,
     datePublished: date || undefined,
     dateModified: t(entry?.updatedAt, locale) || t(entry?.dateModified, locale) || date || undefined,
@@ -1026,16 +1039,27 @@ function detailSchemas({ c, locale, entry, doctor, reviewer, pagePath }) {
     keywords: keywords.length ? keywords.join(", ") : undefined,
     citation: citations.length ? citations : undefined,
     author: person,
-    reviewedBy: reviewedBy ? {
-      "@type": "Person",
-      name: reviewedBy,
-      url: reviewer ? `${base}/${locale}/doctors/${t(reviewer.slug, "en")}.html` : undefined,
-    } : undefined,
     publisher: {
       "@id": `${base}/#clinic`,
     },
   };
-  return faq ? [article, faq] : [article];
+  // schema.org defines reviewedBy on WebPage, not Article, so the medical
+  // review sits on the page node that the article is the main entity of.
+  const webPage = reviewedBy ? {
+    "@type": "MedicalWebPage",
+    "@id": pageUrl,
+    url: pageUrl,
+    name: entryTitle(entry, locale),
+    inLanguage: c.site.i18n[locale].locale,
+    mainEntity: { "@id": `${pageUrl}#article` },
+    lastReviewed: t(entry?.updatedAt, locale) || date || undefined,
+    reviewedBy: {
+      "@type": "Person",
+      name: reviewedBy,
+      url: reviewer ? absolutePageUrl(base, locale, `doctors/${t(reviewer.slug, "en")}`) : undefined,
+    },
+  } : null;
+  return [article, webPage, faq].filter(Boolean);
 }
 
 function authorCard({ c, locale, depth, doctor }) {

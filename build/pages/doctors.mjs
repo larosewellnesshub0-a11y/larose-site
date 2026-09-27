@@ -3,7 +3,7 @@
    ========================================================================== */
 
 import {
-  t, ta, esc, link, asset, icon, map, when, published,
+  t, ta, esc, link, asset, icon, map, when, published, absolutePageUrl,
 } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
@@ -24,7 +24,7 @@ function doctorHub({ c, locale, doctors }) {
       "@type": "ListItem",
       position: index + 1,
       name: t(doctor.name, locale),
-      item: `${base}/${locale}/doctors/${doctor.slug}.html`,
+      item: absolutePageUrl(base, locale, `doctors/${doctor.slug}`),
     })),
   };
   const body = `
@@ -101,14 +101,17 @@ function doctorDetail({ c, locale, doctor, specs }) {
     (review) => review.published !== false && review.doctor === doctor.slug,
   );
   const base = `https://${c.site.brand.domain}`;
-  const pageUrl = `${base}/${locale}/doctors/${slug}.html`;
+  const pageUrl = absolutePageUrl(base, locale, `doctors/${slug}`);
   const medicalSpecialty = doctorSpecs.map((sp) => t(sp.name, locale)).filter(Boolean);
   const physicianSchema = {
-    "@type": "Physician",
+    // schema.org's Physician is an organisation type (it needs an address and
+    // cannot take worksFor), so an individual doctor is marked up as a Person.
+    "@type": "Person",
     "@id": `${pageUrl}#physician`,
     name: t(doctor.name, locale),
     description: t(doctor.bio, locale) || undefined,
-    medicalSpecialty: medicalSpecialty.length ? medicalSpecialty : undefined,
+    jobTitle: t({ ar: "طبيب", en: "Physician" }, locale),
+    knowsAbout: medicalSpecialty.length ? medicalSpecialty : undefined,
     worksFor: { "@id": `${base}/#clinic` },
     url: pageUrl,
     ...(doctor.portrait
