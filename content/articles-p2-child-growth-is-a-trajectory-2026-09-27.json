@@ -29,8 +29,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "اتوسّع التحديث بشرح أصل معايير منظمة الصحة العالمية، ومعنى النسب المئوية، وحدود القلق في إرشادات NICE، وتعثر الوزن، وسرعة النمو الطبيعية حسب السن، مع مصادر موثقة وأسئلة شائعة، واتراجع طبياً من جديد.",
-            "en": "The update was expanded with the origin of WHO standards, what centiles mean, NICE thresholds for concern, faltering weight and normal growth speed by age, with verified sources and FAQs, and was medically re-reviewed."
+            "ar": "اتوسّع التحديث بشرح أصل معايير منظمة الصحة العالمية، ومعنى النسب المئوية، وحدود القلق في إرشادات NICE، وتعثر الوزن، وسرعة النمو الطبيعية حسب السن، مع مصادر موثقة وأسئلة شائعة، واتراجع طبياً من جديد. اتضاف سؤالين شائعين عن أسباب ضعف زيادة الوزن عند الأطفال وأول كشف للنمو، بمصادرهم.",
+            "en": "The update was expanded with the origin of WHO standards, what centiles mean, NICE thresholds for concern, faltering weight and normal growth speed by age, with verified sources and FAQs, and was medically re-reviewed. Added two cited FAQs on causes of faltering weight and the first growth check."
           }
         }
       ],
@@ -237,7 +237,9 @@
             "ar": "الوزن بيتقرا مع الطول من خلال مؤشر كتلة الجسم حسب السن، مش الوزن لوحده. منظمة الصحة العالمية بتعتبر زيادة الوزن عند الأطفال شكل من أشكال سوء التغذية، فالمتابعة المنتظمة للمنحنى بتفرق [2, 11].",
             "en": "Weight is read together with height through BMI-for-age, not weight alone. WHO counts childhood overweight as a form of malnutrition, so regular follow-up of the chart matters [2, 11]."
           }
-        }
+        },
+        {"q": {"ar": "إيه اللي ممكن يخلّي وزن الطفل ميزيدش كويس؟", "en": "What can stop a child's weight from rising as expected?"}, "a": {"ar": "الأسباب متنوعة: مشاكل في الجينات، أو مشاكل في القلب أو الرئة، أو مشاكل في الجهاز الهضمي بتصعّب امتصاص الأكل. وكمان عوامل في البيت، زي عادات أكل مش كويسة، كالأكل قدام التليفزيون ومن غير مواعيد وجبات ثابتة. ولو الطفل مش بيتطور بشكل طبيعي، كلّم الدكتور [7].", "en": "Causes vary: genetic problems, heart or lung problems, or digestive problems that make it hard to absorb nutrients. Home factors matter too, such as poor eating habits like eating in front of the television and not having set meal times. If your child does not seem to be developing normally, contact the doctor. [7]"}},
+        {"q": {"ar": "الدكتور هيعمل إيه في أول كشف لمتابعة النمو؟", "en": "What will the doctor do at the first growth check?"}, "a": {"ar": "الدكتور بيكشف على الطفل ويقيس الطول والوزن ومؤشر كتلة الجسم وشكل الجسم. ولو المشكلة مستمرة ممكن يطلب تحاليل عشان يعرف السبب، والعلاج بيعتمد على سبب تأخر النمو [7].", "en": "The doctor examines the child and checks length or height, weight, BMI and body shape. If the problem continues, tests may be done to find the cause, and treatment depends on the cause of the delayed growth. [7]"}}
       ],
       "sources": [
         {
