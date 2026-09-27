@@ -573,6 +573,22 @@ Thirty-fourth locked canonical URL and a correction of an earlier rewrite. Searc
 - Corrected two genuinely broken source URLs: ACOG Committee Opinion 775 from `/2019/08/` (404) to the live `/2019/04/` page, and WSES 2020 guideline DOI suffix from `-w` (unavailable) to `-x` (live publisher page). Updated NHS gallbladder-removal URL to its current path and added the exact NHS recovery page as source #11. All eleven live source entries were clicked in Chrome; not every click created a new tab because some destinations were already open, so current publisher pages were verified directly where needed. Live FAQ source #11 was clicked in both languages and landed at its matching numbered NHS source entry.
 - Gates: build 498 pages; validation 490 pages, 0 errors/0 warnings; audit 117 non-blocking sitewide findings with the target's old title-length warning removed; Arabic voice 498 pages, PASS. Generated HTML audit found eleven matching source entries and zero broken citation mappings among 174 Arabic and 174 English citation links, including all four FAQs. Source-only commit `8233dff` pushed to `main`; GitHub Pages run #174 succeeded. Both live clean URLs show self-canonicals, original/revision history, English translation note and booking links. Search Console indexation is to be monitored, not promised.
 
+## 27 September 2026 — SEO round release (3 new articles + 3 Phase 2 rewrites)
+
+New URLs: `gallbladder-polyps-ultrasound-next-steps`, `after-colonoscopy-food-bloating-warning-signs`, `child-insulin-resistance-family-meals` (`content/articles-new-*.json`). Phase 2 rewrites replace their earlier records by slug: `fatty-liver-ultrasound`, `insulin-resistance-explained`, `qa-h-pylori-still-bloated` (`content/articles-p2-*-2026-09-27.json`). All keep their original `date`, set `updatedAt: 2026-09-27`, append a history entry, and have staffed reviewers: Dr. Mohab Ashraf for GI/ultrasound, Dr. Alyaa Abu Taleb for paediatrics.
+
+- Drafts came from Codex and agy workers. Claude reviewed them, and the article checker passed. Worker-invented DailyMed setids and PMIDs were corrected to real, opened sources before release. Same release: Semrush structured-data, title/H1 and anchor fixes, plus clean internal URLs (no `.html` in hrefs/JSON-LD).
+- Gates passed: build, validate 0/0, audit (non-blocking), check_voice PASS, and the article-standards audit. Source commit `054614c` was pushed, but its deploy failed at the dashboard snapshot allowlist, which rejected the new phase files. Fixed in `tools/snapshot-content.mjs` (the `articles-new-`/`articles-p2-` prefix rule), commit `40df2af`. That GitHub Pages deploy succeeded.
+- Live verification covered all 12 AR/EN URLs:
+  - HTTP 200, clean self-canonicals, `updatedAt` 2026-09-27 rendered, 0 relative `.html` hrefs.
+  - Covers load, and the new slugs are in the sitemap.
+  - 2,750–3,338 words per page, 9–10 internal article links plus a booking link.
+  - 77 linked citations, 19 of them in FAQs.
+- Search Console indexing was requested under the 2026-09-27 goal's explicit permission, within quota, with no "Validate fix". Priority crawl queue confirmed for 11 URLs:
+  - all 6 new AR/EN URLs, which were "URL is unknown to Google" beforehand;
+  - AR+EN fatty-liver-ultrasound and insulin-resistance-explained, plus AR qa-h-pylori-still-bloated, all already "URL is on Google".
+  - EN qa-h-pylori-still-bloated hit "Quota Exceeded". It is already indexed; request it on a later day.
+
 ## Required release evidence per URL
 
 - Arabic/Egyptian Arabic intent record and current Search Console evidence.

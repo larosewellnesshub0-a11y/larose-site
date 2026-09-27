@@ -1,0 +1,333 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-visceral-fat-how-to-know; replaces the entry from content/articles.json. Expanded the short answer into a bilingual, medically re-reviewed guide to estimation, test limits, risk assessment, red flags and practical follow-up.",
+  "articles": [
+    {
+      "slug": "qa-visceral-fat-how-to-know",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "weight-management",
+      "specialties": [
+        "weight-management",
+        "internal-medicine",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/obesity-care-beyond-bmi.webp",
+      "title": {
+        "ar": "إزاي تعرف إذا عندك دهون حشوية؟ القياسات والفحوصات",
+        "en": "How can you tell if you have visceral fat? Measurements and tests"
+      },
+      "excerpt": {
+        "ar": "الدهون الحشوية ما بتبانش بدقة من شكل البطن ولا رقم الميزان. اعرف إزاي محيط الخصر والسياق الصحي يقدّروا الخطر، وإمتى الفحوصات تكون مفيدة.",
+        "en": "Visceral fat cannot be measured accurately from abdominal appearance or scale weight. Learn how waist and health context estimate risk and when testing helps."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّعت الإجابة بشرح قياس الخصر وحدود أجهزة تركيب الجسم والتصوير وتقييم الخطر والخطوات العملية، واتراجعت طبياً من جديد.",
+            "en": "The answer was expanded with waist measurement, limits of body-composition devices and imaging, risk assessment and practical next steps, and was medically re-reviewed."
+          }
+        }
+      ],
+      "tags": {
+        "ar": [
+          "الدهون الحشوية",
+          "محيط الخصر",
+          "مخاطر السمنة",
+          "علاج السمنة بدون جراحة"
+        ],
+        "en": [
+          "visceral fat",
+          "waist circumference",
+          "obesity risk",
+          "non-surgical weight management"
+        ]
+      },
+      "sections": [
+        {
+          "id": "what-visceral-fat-is",
+          "heading": {
+            "ar": "الدهون الحشوية إيه، وهل تقدر تعرفها من شكل البطن؟",
+            "en": "What is visceral fat, and can abdominal shape reveal it?"
+          },
+          "body": {
+            "ar": "الدهون الحشوية هي دهون موجودة جوه تجويف البطن حوالين أعضاء داخلية، ودي غير الدهون اللي تحت الجلد واللي تقدر تمسكها بإيدك. وجود قدر من الدهون جزء طبيعي من الجسم، لكن زيادتها بترتبط بخطر أعلى لمشكلات زي السكر من النوع التاني، وارتفاع الضغط، واضطراب دهون الدم، وأمراض القلب والكبد الدهني. الارتباط هنا معناه تقدير خطر، مش إن كل واحد عنده بطن بارزة لازم يكون عنده مرض. توزيع الدهون بيتأثر بعوامل كتير، منها السن، والجينات، والنشاط، والنوم، والحالة الهرمونية والصحية [1, 5].\n\nمافيش إحساس مخصوص يقول إن الدهون الحشوية زادت. هي عادة ما بتوجعش لوحدها، وشكل البطن ما يفرقش بدقة بين الدهون الحشوية ودهون تحت الجلد، أو ضعف عضلات البطن، أو الانتفاخ والإمساك. شخصان بنفس الوزن ومؤشر كتلة الجسم ممكن يكون عندهم توزيع دهون مختلف، وفي المقابل الشخص النحيف ظاهرياً ممكن يبقى عنده عوامل خطر أيضية محتاجة تقييم. عشان كده صورة في المراية أو مقاس هدوم ضاق مرة واحدة مش تشخيص [1, 4, 5].\n\nالإجابة المختصرة لسؤال «إزاي أعرف؟» هي إنك تبدأ بتقدير عملي للخطر باستخدام محيط الخصر مع الوزن والطول، وبعدها تربط القياس بضغط الدم والتاريخ الصحي والتحاليل المناسبة. القياس الدقيق لكمية الدهون حوالين الأعضاء محتاج تصوير متخصص، لكنه مش مطلوب روتينياً لمعظم الناس لمجرد وجود كرش. الأهم هو: هل في اتجاه مستمر لزيادة الدهون المركزية، وهل معاه عوامل خطر ممكن تتعدل؟ [3, 4].",
+            "en": "Visceral fat is fat stored inside the abdominal cavity around internal organs. It differs from subcutaneous fat beneath the skin that you can pinch. Some fat is normal, but excess visceral adiposity is associated with higher risks of type 2 diabetes, high blood pressure, abnormal blood lipids, cardiovascular disease and fatty liver disease. This estimates risk; it does not mean everyone with a prominent abdomen has a disease. Fat distribution is influenced by age, genetics, activity, sleep, hormones and health conditions [1, 5].\n\nThere is no special sensation that reveals excess visceral fat. It usually does not hurt by itself, and abdominal shape cannot reliably distinguish visceral fat from subcutaneous fat, weak abdominal muscles, bloating or constipation. Two people with the same weight and body mass index can have different fat distributions, while a person who looks lean can still have metabolic risk factors worth assessing. Appearance is not a diagnosis [1, 4, 5].\n\nThe short answer to “How do I know?” is to begin with a practical risk estimate using waist circumference alongside weight and height, then interpret it with blood pressure, health history and appropriate laboratory tests. Precisely quantifying fat around the organs requires specialised imaging, but this is not routinely necessary simply because the abdomen is prominent. The useful questions are whether central adiposity is rising over time and whether modifiable risk factors accompany it [3, 4]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "waist-first-estimate",
+          "heading": {
+            "ar": "محيط الخصر: تقدير بسيط ومفيد، لكنه مش قياس مباشر",
+            "en": "Waist circumference: a useful estimate, not a direct measurement"
+          },
+          "body": {
+            "ar": "محيط الخصر هو أبسط علامة عملية لتوزيع الدهون في منطقة البطن. هو ما بيقيسش الدهون الحشوية وحدها، لأنه يشمل كمان دهون تحت الجلد والعضلات وشكل الجسم ومحتوى الأمعاء، لكنه بيضيف معلومة عن الخطر الأيضي فوق رقم الوزن أو مؤشر كتلة الجسم. توافق دولي عن السمنة الحشوية أوصى بإدخال محيط الخصر في التقييم السريري لأن مؤشر الكتلة وحده ما يشرحش مكان الدهون، ولأن تغير الخصر مع الوقت ممكن يكون مفيد حتى لو الميزان ما اتحركش بنفس الدرجة [2, 4].\n\nعشان القياس يتكرر بعدل، قف مستقيم وخلي بطنك مرتاح، وحط شريطاً غير مطاطي أفقياً في منتصف المسافة بين آخر ضلع وأعلى عظمة الحوض. خُد القراءة بعد زفير طبيعي من غير ما تشد الشريط على الجلد. كررها مرة تانية بعد إعادة وضع الشريط، وسجّل المكان والطريقة والتوقيت. الأكل الكبير، والانتفاخ، واختلاف موضع الشريط ممكن يغيروا الرقم، فالاتجاه بنفس الطريقة أهم من مقارنة قياسات عشوائية [2, 3].\n\nنسبة الخصر إلى الطول بتتحسب بقسمة الخصر على الطول بنفس الوحدة. إرشادات NICE بتستخدمها للبالغين اللي مؤشر كتلتهم أقل من 35، وبتعتبر إن إبقاء الخصر أقل من نصف الطول رسالة عملية لتقليل الخطر؛ لكنها أداة فرز ومناقشة، مش حكم نهائي ولا حساباً لكمية الدهون بالكيلو. لو عايز تفاصيل الفرق بين رقم الجهاز والشريط وطريقة التكرار، صفحة رقم الدهون الحشوية في InBody وقياس الخصر بتشرح الموضوع من غير ما نكرر نطاقها هنا [3, 4].",
+            "en": "Waist circumference is the simplest practical marker of abdominal fat distribution. It does not measure visceral fat alone because it also reflects subcutaneous fat, muscle, body frame and bowel contents, but it adds information about metabolic risk beyond scale weight or body mass index. An international consensus on visceral obesity recommended including waist in clinical assessment because BMI alone does not describe fat location and because a changing waist can be informative even when weight does not move to the same extent [2, 4].\n\nFor a repeatable measurement, stand upright with the abdomen relaxed and place a non-stretch tape horizontally midway between the lowest rib and the top of the hip bone. Read it after a normal breath out without tightening the tape against the skin. Reposition the tape and repeat the measurement, recording the landmark, method and timing. A large meal, bloating or a different tape position can shift the result, so a same-method trend matters more than unrelated readings [2, 3].\n\nWaist-to-height ratio is waist divided by height in the same units. NICE uses it for adults with a BMI below 35 and presents keeping the waist below half the height as a practical risk-reduction message. It remains a screening and discussion tool, not a verdict or a calculation of kilograms of visceral fat. If you need the detailed distinction between the device value and the tape, visceral fat score, waist and InBody explains the comparison without duplicating its full scope here [3, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "رقم الدهون الحشوية في InBody وقياس الخصر",
+                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "visceral fat score, waist and InBody",
+                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "devices-and-imaging",
+          "heading": {
+            "ar": "أجهزة تركيب الجسم والسونار وCT وMRI: كل فحص بيقول إيه؟",
+            "en": "Body-composition devices, ultrasound, CT and MRI: what each can show"
+          },
+          "body": {
+            "ar": "أجهزة تحليل المقاومة الكهربائية الحيوية، ومنها أجهزة InBody وموازين منزلية كتير، ما بتصورش الدهون حوالين الأعضاء. الجهاز بيقيس مقاومة مرور تيار ضعيف في الجسم، وبعدها يستخدم معادلات عشان يقدّر المياه والدهون والكتلة الخالية من الدهون، وأحياناً يطلع «مستوى» أو «مساحة» تقديرية للدهون الحشوية. النتيجة ممكن تتأثر بالجهاز والمعادلة والترطيب والأكل والتمرين والتوقيت؛ لذلك تنفع كمؤشر متابعة على نفس الجهاز وفي ظروف متقاربة، لكنها مش تشخيصاً ولا معياراً موحداً بين الشركات [1, 9]. شرح بنود تقرير InBody بالكامل بيوضح إزاي تقرأ الورقة من غير ما تدي خانة واحدة دقة أكبر من حقيقتها [9].\n\nالسونار العادي ممكن يبين دهوناً في الكبد أو مشكلة معينة في البطن لما يكون فيه سبب طبي للفحص، لكنه مش مسحاً شاملاً لكمية الدهون الحشوية. وحتى لو ظهر كبد دهني، التصوير الروتيني ما يحددش وحده التهاب الكبد أو درجة التليف. دهون الكبد والدهون الحشوية مرتبطتان أيضياً، لكنهما مش نفس القياس ومش لازم يتحركوا بنفس الشكل [1, 8].\n\nالأشعة المقطعية CT والرنين MRI يقدروا يقيسوا الدهون داخل البطن بصورة مباشرة وأدق من الشريط أو BIA، وبيستخدموا في الأبحاث أو لما التصوير مطلوب لسبب سريري آخر. لكن CT فيه إشعاع، وMRI أغلى وأقل إتاحة، والرقم غالباً مش هيغير خطة الرعاية الأولية. عشان كده ما تعملش تصويراً لمجرد الفضول أو متابعة التخسيس؛ الطبيب يوازِن الفائدة والمخاطر ويطلبه فقط لو النتيجة هتجاوب سؤالاً طبياً أو تغيّر قراراً [1, 12].",
+            "en": "Bioelectrical impedance analysis devices, including InBody and many home scales, do not image fat around the organs. A device measures resistance to a weak electrical current and applies equations to estimate water, fat and fat-free mass; some reports also produce an estimated visceral-fat “level” or “area.” The result can vary with the device, equation, hydration, food, exercise and timing. It may help track a trend on the same device under similar conditions, but it is neither a diagnosis nor a standardised value shared by all manufacturers [1, 9]. A guide to the full InBody report explains how to read the sheet without granting one field more precision than it has [9].\n\nA routine ultrasound can identify fatty change in the liver or a particular abdominal problem when there is a clinical reason for the examination, but it is not a comprehensive measurement of visceral fat. Even when fatty liver is seen, routine imaging cannot by itself establish liver inflammation or grade fibrosis. Liver fat and visceral fat are metabolically related, but they are not the same measurement and need not change in parallel [1, 8].\n\nComputed tomography (CT) and magnetic resonance imaging (MRI) can directly quantify intra-abdominal fat more accurately than a tape or BIA. They are useful in research or when imaging is indicated for another clinical question. CT uses ionising radiation, MRI is less accessible, and the extra number often would not change first-line care. Do not seek imaging merely to monitor weight loss; the clinician should balance benefit and risk and request it only when the result will answer a medical question or alter a decision [1, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "شرح بنود تقرير InBody بالكامل",
+                "url": "../articles/inbody-results-explained.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "A guide to the full InBody report",
+                "url": "../articles/inbody-results-explained.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "whole-risk-assessment",
+          "heading": {
+            "ar": "الرقم لوحده مش كفاية: اربط الخصر بباقي عوامل الخطر",
+            "en": "One number is not enough: connect waist with the wider risk picture"
+          },
+          "body": {
+            "ar": "الهدف من قياس الخصر مش تسمية شكل الجسم؛ الهدف نعرف هل فيه خطر صحي محتاج خطوة. الطبيب بيراجع الاتجاه مع ضغط الدم، وتاريخ السكر أو سكر الحمل، ودهون الدم، والتدخين، والنشاط، والنوم، والأدوية، والتاريخ العائلي. متلازمة الأيض مثلاً ما بتتشخصش من الخصر وحده؛ هي مجموعة تشمل السمنة المركزية مع عوامل زي ارتفاع الدهون الثلاثية، أو انخفاض HDL، أو ارتفاع الضغط أو السكر. وجود عامل واحد ما يثبتش المتلازمة، وغيابه ما يلغي كل المخاطر [5, 6].\n\nالتحاليل مش قائمة ثابتة لكل الناس. حسب السن والأعراض والتاريخ والقياسات، الطبيب ممكن يختار سكر صايم أو HbA1c، ودهون الدم، ووظائف الكبد، أو فحوصات تانية موجهة. اختبارات تشخيص السكر ليها طرق وحدود، والنتيجة غير الطبيعية غالباً تحتاج تأكيداً حسب الموقف؛ جهاز تركيب الجسم أو رقم الدهون الحشوية ما يشخّصش مقاومة الإنسولين ولا السكر. لو السؤال الأساسي عن السكر والوزن، دليل مقاومة الإنسولين: يعني إيه وليه الوزن ساعات ما بيتحركش بيفصل التقييم من غير ما نحول الصفحة دي لدليل تحاليل [6, 7].\n\nما تستناش لما الخصر يوصل «رقماً مخيفاً» عشان تناقش الصحة، وما تفترضش إن رقم تحت حد منشور ضمان. حدود الخصر بتختلف بين بعض الإرشادات والسكان، والحمل، والاستسقاء، وبعض حالات البطن بتخلي القياس غير مناسب للتفسير المعتاد. النتيجة الأفضل هي تقييم شخصي يجاوب: إيه عوامل الخطر الموجودة فعلاً، إيه اللي محتاج تأكيد، وإيه التغيير الآمن اللي يستحق المتابعة؟ [2, 3, 4].",
+            "en": "The purpose of measuring waist is not to label a body shape; it is to decide whether a health risk needs action. A clinician reviews the trend with blood pressure, a history of diabetes or gestational diabetes, blood lipids, smoking, activity, sleep, medicines and family history. Metabolic syndrome, for example, is not diagnosed from waist alone. It is a cluster that combines central adiposity with factors such as high triglycerides, low HDL cholesterol, high blood pressure or high glucose. One factor does not prove the syndrome, while its absence does not cancel every risk [5, 6].\n\nLaboratory testing is not a fixed shopping list for everyone. According to age, symptoms, history and measurements, a clinician may select fasting glucose or HbA1c, blood lipids, liver tests or other targeted investigations. Diabetes tests have distinct methods and limitations, and an abnormal result often needs confirmation according to the situation. A body-composition device or visceral-fat score cannot diagnose insulin resistance or diabetes. If glucose and weight are the main concern, insulin resistance: what it means and why weight can feel stuck covers that assessment without turning this page into a laboratory guide [6, 7].\n\nDo not wait for the waist to reach a frightening number before discussing health, and do not treat a value below a published cutoff as a guarantee. Waist thresholds vary across some guidelines and populations, while pregnancy, ascites and certain abdominal conditions make ordinary interpretation inappropriate. A useful individual assessment answers three questions: which risks are actually present, what requires confirmation, and which safe change is worth following over time? [2, 3, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "مقاومة الإنسولين: يعني إيه وليه الوزن ساعات ما بيتحركش",
+                "url": "../articles/insulin-resistance-explained.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "insulin resistance: what it means and why weight can feel stuck",
+                "url": "../articles/insulin-resistance-explained.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "symptoms-and-red-flags",
+          "heading": {
+            "ar": "أعراض ما ينفعش تنسبها للدهون الحشوية وخلاص",
+            "en": "Symptoms that should not be dismissed as visceral fat"
+          },
+          "body": {
+            "ar": "الدهون الحشوية الزايدة عادة مشكلة خطر طويل المدى، مش تفسير جاهز لألم جديد أو بطن كبرت بسرعة. لو محيط البطن زاد خلال أيام، السبب ممكن يكون انتفاخاً، أو إمساكاً، أو سوائل، أو مشكلة تانية، مش دهون اتكونت فجأة. احجز تقييماً قريباً لو فيه ألم بطن مستمر أو بيزيد، قيء متكرر، صعوبة بلع، فقدان وزن من غير قصد، دم في البراز أو براز أسود، اصفرار العين أو الجلد، تورم واضح، كتلة جديدة، أو تغير مستمر في الإخراج. القياس المنزلي أو نتيجة InBody ما يستبعدوش سبباً مرضياً [5, 8].\n\nاطلب رعاية طارئة فوراً حسب خدمات الطوارئ المحلية لو ألم البطن شديد ومفاجئ، أو البطن منتفخة ومؤلمة مع عدم القدرة على إخراج براز أو غازات، أو فيه قيء دموي، إغماء، ارتباك، صعوبة تنفس، ألم أو ضغط في الصدر، أو ضعف مفاجئ في ناحية من الجسم. دي مش علامات «دهون حشوية» تبدأ علاجها بالأكل؛ كل عرض له مسار تقييم عاجل، وتأخير الرعاية عشان تكرر قياس الخصر أو تعمل تحليل تركيب جسم ممكن يضيّع وقتاً مهماً [5, 12].\n\nكمان الشخير العالي مع توقف النفس الملحوظ، النعاس الشديد بالنهار، العطش والتبول الزائدان، أو ضغط متكرر مرتفع يستحقوا مراجعة طبية حتى لو مافيش ألم. وجود دهون مركزية ممكن يرفع الاحتمال، لكنه ما يشخّصش انقطاع النفس أثناء النوم أو السكر أو الضغط. الطبيب هو اللي يحدد سرعة التقييم والفحوصات بناءً على الأعراض والحالة، مش شكل البطن وحده [5, 6, 7].",
+            "en": "Excess visceral fat is usually a long-term risk issue, not a ready explanation for new pain or an abdomen that enlarges quickly. If abdominal size changes over days, bloating, constipation, fluid or another condition may be responsible rather than newly formed fat. Arrange prompt assessment for persistent or worsening abdominal pain, repeated vomiting, difficulty swallowing, unintentional weight loss, blood in stool or black stool, yellow skin or eyes, marked swelling, a new lump or a continuing change in bowel habits. A home measurement or InBody result cannot exclude a medical cause [5, 8].\n\nSeek immediate emergency care through local services for sudden severe abdominal pain; a swollen, painful abdomen with inability to pass stool or gas; vomiting blood; fainting; confusion; difficulty breathing; chest pain or pressure; or sudden weakness on one side. These are not “visceral-fat symptoms” to manage with a diet first. Each requires its own urgent pathway, and delaying care to repeat a waist measurement or body-composition test can waste important time [5, 12].\n\nLoud snoring with witnessed pauses in breathing, severe daytime sleepiness, excessive thirst and urination, or repeatedly high blood-pressure readings also deserve medical review even without pain. Central adiposity may raise likelihood, but it cannot diagnose sleep apnoea, diabetes or hypertension. The treating clinician determines the urgency and appropriate tests from the symptoms and overall condition, not from abdominal appearance alone [5, 6, 7]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "reduce-risk-track-progress",
+          "heading": {
+            "ar": "إزاي تقلل الخطر وتتابع التقدم من غير مطاردة رقم واحد؟",
+            "en": "How can you reduce risk and track progress without chasing one number?"
+          },
+          "body": {
+            "ar": "مافيش تمرين أو أكلة بتنزل الدهون من حوالين عضو بعينه، وتمارين البطن ممكن تقوي العضلات لكنها ما تختارش مخزن الدهون اللي الجسم هيستخدمه. اللي يفيد هو خطة قابلة للاستمرار تقلل الدهون الكلية والمركزية وتحسن الضغط والسكر واللياقة: وجبات فيها خضار وبقول أو حبوب كاملة حسب تحملك، ومصدر بروتين مناسب، وتقليل المشروبات السكرية والأكل شديد التصنيع، مع كميات تناسب احتياجك. الخطة الفردية لازم تراعي الأمراض والأدوية والثقافة والميزانية، ومش لازم تكون قاسية أو تمنع مجموعة غذائية كاملة [5, 11].\n\nالنشاط المنتظم مهم حتى لو الوزن بيتحرك ببطء. إرشادات CDC للبالغين بتستهدف على الأقل 150 دقيقة نشاط متوسط أسبوعياً، أو 75 دقيقة قوي، مع تمارين تقوية يومين، لكن البداية تتظبط على قدرتك وحالتك الطبية. مراجعة منهجية لتجارب عشوائية لقت إن التمرين وتقليل السعرات بشكل منظم يقدروا يقللوا الدهون الحشوية، وإن الاستجابة مش واحدة عند كل شخص. ابدأ بقدر آمن وزوّده تدريجياً؛ لو عندك ألم صدر، ضيق نفس غير معتاد، دوخة، مرض مزمن غير مستقر أو قيود حركية، راجع الطبيب قبل مجهود قوي [10, 11].\n\nتابع مؤشرات قليلة ذات معنى: محيط الخصر بنفس الطريقة كل عدة أسابيع، الوزن بوتيرة ما تزودش القلق، ضغط الدم لو موصى به، اللياقة والقوة، والتحاليل في مواعيدها الطبية. حماية العضلات أثناء إنقاص الوزن مهمة عشان الهدف مش نزول الميزان بأي ثمن؛ الصفحة المرتبطة تشرح البروتين والمقاومة والمتابعة بتفصيلها. ما تغيّرش دواء ولا تبدأ علاجاً للتخسيس من نفسك بسبب رقم دهون حشوية، وخلي القرار مع الطبيب المعالج [3, 10, 11].",
+            "en": "No exercise or food removes fat from around one chosen organ. Abdominal exercises can strengthen muscle, but they cannot select which fat store the body will use. What helps is a sustainable plan that reduces total and central adiposity while improving blood pressure, glucose and fitness: meals built around vegetables, pulses or whole grains as tolerated, an appropriate protein source, fewer sugar-sweetened drinks and highly processed foods, and suitable portions. A personal plan should account for illness, medicines and culture; it need not be punitive or ban an entire food group [5, 11].\n\nRegular activity matters even when weight changes slowly. CDC guidance for adults targets at least 150 minutes of moderate activity per week, or 75 minutes of vigorous activity, plus muscle strengthening on two days, but the starting level should match ability and medical status. A systematic review of randomised trials found that structured exercise and calorie restriction can reduce visceral fat, while individual responses vary. Begin at a safe level and progress gradually. Discuss vigorous exercise first if you have chest pain, unusual breathlessness, dizziness, an unstable chronic condition or movement limitations [10, 11].\n\nTrack a small set of meaningful indicators: waist measured the same way every few weeks, weight at a frequency that does not increase distress, blood pressure if advised, fitness and strength, and laboratory tests at agreed intervals. Protecting muscle while losing weight matters because the goal is healthy change, not just a lower scale number; the linked guide covers protein, resistance work and follow-up. Do not change medicine or begin a weight-loss treatment on your own because of a visceral-fat score. Individual treatment decisions belong with the treating clinician [3, 10, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حماية العضلات أثناء إنقاص الوزن",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Protecting muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "next-step",
+          "heading": {
+            "ar": "الخطوة التالية: تقييم هادي بدل اختبار زيادة",
+            "en": "The next step: a calm assessment rather than another test"
+          },
+          "body": {
+            "ar": "قبل الزيارة، خد معاك أي تحاليل أو تقارير سابقة، وقائمة الأدوية والمكملات، وسجّل قياسين أو ثلاثة للخصر اتعملوا بنفس الطريقة على فترات معقولة. اكتب كمان ضغطك لو بتقيسه، وأي تغير في النوم أو الشهية أو الحركة أو الأعراض. مش مطلوب تعمل CT أو MRI أو تشتري جهازاً عشان تبدأ؛ التاريخ الصحي، والكشف، والقياسات البسيطة غالباً بيحددوا هل فيه فحوصات إضافية هتغيّر القرار [1, 3, 6].\n\nفي التقييم الفردي، السؤال مش بس «رقم الدهون الحشوية كام؟». الأسئلة الأدق هي: هل القياس موثوق؟ هل الاتجاه اتغير؟ هل فيه ضغط أو سكر أو دهون دم أو كبد دهني محتاج متابعة؟ وهل الخطة بتحافظ على العضلات والنوم والعلاقة الآمنة مع الأكل؟ الطبيب أو أخصائي التغذية العلاجية يحدد معاك هدفاً واقعياً وطريقة متابعة مناسبة، ويقرر إذا كان فيه داعي لتحاليل، تصوير لسبب محدد، علاج دوائي، أو إحالة لتخصص آخر. مافيش جهاز واحد يقدر يعمل التقييم ده كله [3, 5, 7, 8].\n\nلو محتاج تربط محيط الخصر ونتيجة تركيب الجسم بتاريخك وتحاليلك وتبدأ خطة مناسبة، تقدر تستخدم صفحة احجز موعد لطلب تقييم في العيادة. ذكر العيادة هنا خطوة عملية عامة فقط، ومش وعد بنتيجة أو تشخيص عن بُعد. لو عندك أي علامة إنذار من القسم السابق، اختار مستوى الرعاية المناسب فوراً وما تستناش موعداً روتينياً [5, 6].",
+            "en": "Before an appointment, bring previous laboratory results or reports, a list of medicines and supplements, and two or three waist readings taken in the same way at sensible intervals. Record blood pressure if you already monitor it, plus changes in sleep, appetite, activity or symptoms. You do not need a CT, MRI or purchased device to begin. Health history, examination and simple measurements usually determine whether an additional test would change a decision [1, 3, 6].\n\nIn an individual assessment, the question is not only, “What is my visceral-fat number?” Better questions are whether the measurement is trustworthy, whether the trend has changed, whether blood pressure, glucose, blood lipids or fatty liver need attention, and whether the plan protects muscle, sleep and a safe relationship with food. A physician or clinical nutrition specialist can agree a realistic goal and monitoring method with you, then decide whether laboratory tests, imaging for a specific reason, medication or another referral is appropriate. No single device can provide that complete assessment [3, 5, 7, 8].\n\nIf you need to connect waist circumference and a body-composition result with your history and laboratory tests and begin a suitable plan, you can use the book an appointment page to request an in-clinic assessment. The clinic is mentioned here only as a general practical next step, not as a promise of a result or a remote diagnosis. If any warning sign from the previous section is present, seek the appropriate level of care promptly rather than waiting for a routine appointment [5, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الكرش معناه أكيد إن عندي دهون حشوية عالية؟",
+            "en": "Does a large abdomen definitely mean I have high visceral fat?"
+          },
+          "a": {
+            "ar": "لأ. شكل البطن ممكن يعكس دهوناً حشوية أو دهون تحت الجلد أو انتفاخاً أو وضعية وعضلات الجسم، وغالباً بيكون خليطاً. محيط الخصر بيدي تقديراً عملياً للخطر لكنه ما يفصلش المكونات. اربطه بالوزن والطول والضغط والتاريخ والتحاليل المناسبة بدل التشخيص من الشكل [1, 3, 4].",
+            "en": "No. Abdominal shape may reflect visceral fat, subcutaneous fat, bloating, posture and muscle, and it often represents a mixture. Waist circumference provides a practical risk estimate but cannot separate those components. Interpret it with weight, height, blood pressure, history and appropriate tests rather than diagnosing from appearance [1, 3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل ممكن وزني يكون طبيعي وعندي دهون حشوية زيادة؟",
+            "en": "Can I have a normal weight and still carry excess visceral fat?"
+          },
+          "a": {
+            "ar": "ممكن، لأن مؤشر كتلة الجسم ما بيوضحش مكان الدهون ولا يفرّق الدهون من العضلات. عشان كده قياس الخصر والسياق الأيضي يضيفوا معلومة، خصوصاً لو فيه تاريخ عائلي أو ضغط أو سكر أو دهون دم غير طبيعية. الوزن الطبيعي مش ضمان، ومحيط مرتفع مش تشخيص لوحده [4, 5, 6].",
+            "en": "Yes. BMI does not show where fat is stored or distinguish fat from muscle. Waist and metabolic context therefore add information, especially with a family history, high blood pressure, abnormal glucose or abnormal lipids. Normal weight is not a guarantee, while a larger waist is not a diagnosis by itself [4, 5, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل رقم الدهون الحشوية في InBody دقيق؟",
+            "en": "Is the visceral-fat number on InBody accurate?"
+          },
+          "a": {
+            "ar": "هو تقدير ناتج عن مقاومة كهربائية ومعادلة خاصة بالجهاز، مش صورة مباشرة للدهون حوالين الأعضاء. ممكن يفيد في متابعة اتجاه على نفس الجهاز وتحت ظروف متقاربة، لكن الترطيب والأكل والتمرين ونوع الجهاز يغيروا النتيجة. ما تستخدموش وحده لتشخيص مرض أو مقارنة جهازين مختلفين [1, 9].",
+            "en": "It is an estimate derived from electrical impedance and a device-specific equation, not a direct image of fat around the organs. It may help follow a trend on the same device under similar conditions, but hydration, food, exercise and device type can shift it. Do not use it alone to diagnose disease or compare different machines [1, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أحتاج CT أو MRI عشان أتأكد؟",
+            "en": "Do I need CT or MRI to confirm visceral fat?"
+          },
+          "a": {
+            "ar": "غالباً لأ. CT وMRI أدق في قياس الدهون داخل البطن، لكن القياس الدقيق نادراً ما يغيّر البداية: تقييم الخصر والضغط والتاريخ والتحاليل الموجهة. CT فيه إشعاع وMRI أقل إتاحة، لذلك الطبيب يطلب التصوير لو فيه سؤال سريري محدد أو النتيجة هتغيّر القرار، مش لمجرد الفضول [1, 12].",
+            "en": "Usually not. CT and MRI quantify intra-abdominal fat more accurately, but exact quantification rarely changes the starting point: waist, blood pressure, history and targeted tests. CT involves radiation and MRI is less accessible, so a clinician requests imaging for a specific clinical question or decision, not merely out of curiosity [1, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تمارين البطن بتنزل الدهون الحشوية؟",
+            "en": "Do abdominal exercises reduce visceral fat?"
+          },
+          "a": {
+            "ar": "تمارين البطن تقوي العضلات، لكنها ما تضمنش حرق دهون المنطقة دي وحدها. النشاط الهوائي وتمارين المقاومة مع خطة أكل مناسبة يقدروا يقللوا الدهون الحشوية كجزء من تحسن عام، والاستجابة بتختلف بين الناس. ابدأ تدريجياً واختار النشاط مع الطبيب لو عندك أعراض أو مرض مزمن [10, 11].",
+            "en": "Abdominal exercise strengthens muscle but cannot guarantee fat loss from that area alone. Aerobic and resistance activity with a suitable eating plan can reduce visceral fat as part of broader improvement, although responses vary. Start gradually and choose activity with a clinician if symptoms or chronic illness affect exercise safety [10, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "كل قد إيه أقيس الخصر أو أكرر تحليل تركيب الجسم؟",
+            "en": "How often should I measure my waist or repeat body composition?"
+          },
+          "a": {
+            "ar": "مفيش وتيرة واحدة مناسبة للجميع. القياس اليومي للخصر غالباً يلتقط الانتفاخ والخطأ أكتر من تغير الدهون؛ كل عدة أسابيع وبنفس الطريقة بيكون أهدى وأنفع لخطة كتير من الناس. تكرار تحليل الجسم يتحدد بالهدف وهل النتيجة هتغيّر قراراً. لو القياس بيزود القلق أو الحرمان، ناقش تقليله مع المختص [2, 3, 9].",
+            "en": "There is no universal schedule. Daily waist measurement often captures bloating and measurement error more than fat change; every few weeks with the same method is calmer and more useful for many plans. Repeat body composition according to the goal and whether the result will change a decision. If measuring increases anxiety or restriction, discuss reducing it with the clinician [2, 3, 9]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Shuster et al. — The Clinical Importance of Visceral Adiposity: Methods for Visceral Fat Analysis (PubMed, 2012)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21937614/"
+        },
+        {
+          "label": "WHO — Waist Circumference and Waist–Hip Ratio: Report of an Expert Consultation",
+          "url": "https://www.who.int/publications/i/item/9789241501491"
+        },
+        {
+          "label": "NICE — Overweight and Obesity Management (NG246): Identifying and Assessing Central Adiposity",
+          "url": "https://www.nice.org.uk/guidance/ng246/resources/overweight-and-obesity-management-pdf-66143959958725"
+        },
+        {
+          "label": "Ross et al. — Waist Circumference as a Vital Sign: IAS/ICCR Consensus Statement (PubMed, 2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32020062/"
+        },
+        {
+          "label": "NIDDK — Health Risks of Overweight and Obesity",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/health-risks"
+        },
+        {
+          "label": "American Heart Association — Symptoms and Diagnosis of Metabolic Syndrome",
+          "url": "https://www.heart.org/en/health-topics/metabolic-syndrome/symptoms-and-diagnosis-of-metabolic-syndrome"
+        },
+        {
+          "label": "NIDDK — Diabetes and Prediabetes Tests",
+          "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/diabetes/diabetes-prediabetes"
+        },
+        {
+          "label": "NIDDK — Diagnosis of NAFLD and NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"
+        },
+        {
+          "label": "NIDDK — Metabolic Testing: Bioelectrical Impedance and Body Composition",
+          "url": "https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/diabetes-endocrinology-obesity-branch/metabolic-clinical-research-unit/metabolic-testing"
+        },
+        {
+          "label": "CDC — Adult Physical Activity Guidelines",
+          "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"
+        },
+        {
+          "label": "Recchia et al. — Exercise, Caloric Restriction and Visceral Adiposity: Systematic Review and Meta-analysis (PubMed, 2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36669870/"
+        },
+        {
+          "label": "ACR/RSNA RadiologyInfo — Radiation Dose from X-ray and CT Exams",
+          "url": "https://www.radiologyinfo.org/en/info/safety-xray"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "الدهون الحشوية: إزاي تعرف إن عندك زيادة؟",
+          "en": "Visceral fat: how do you know if you have too much?"
+        },
+        "description": {
+          "ar": "اعرف إزاي تقدّر الدهون الحشوية بقياس الخصر، وحدود InBody والسونار والتصوير، وإمتى تحتاج تقييماً طبياً وخطوات آمنة لتقليل الخطر.",
+          "en": "Learn how waist estimates visceral-fat risk, the limits of InBody and imaging, when medical assessment helps, and safe ways to reduce risk."
+        }
+      }
+    }
+  ]
+}

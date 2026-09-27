@@ -1,0 +1,336 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of abdominal-pelvic-ultrasound-what-it-shows; replaces the entry from content/articles-ultrasound-rewrite-2026-09-14.json. Expanded the clinical scope, preparation, limitations, report interpretation, red flags, FAQs, internal links, and medically re-reviewed sourcing.",
+  "articles": [
+    {
+      "slug": "abdominal-pelvic-ultrasound-what-it-shows",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "ultrasound",
+        "gastroenterology-hepatology",
+        "internal-medicine"
+      ],
+      "date": "2026-09-11",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا شرح اللي بيظهر في سونار البطن والحوض وحدوده والتحضير وقراءة التقرير وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded what abdominal and pelvic ultrasound can show, its limits, preparation, report interpretation and warning signs, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "image": "assets/img/articles/abdominal-ultrasound-what-it-shows.webp",
+      "title": {
+        "ar": "سونار البطن والحوض: بيكشف إيه وإيه حدوده؟",
+        "en": "Abdominal and pelvic ultrasound: what does it show?"
+      },
+      "excerpt": {
+        "ar": "سونار البطن والحوض بيجاوب سؤال طبي محدد عن أعضاء معينة، لكنه مش فحص بيشرح كل ألم أو انتفاخ. اعرف بيكشف إيه، إزاي تتحضر، وإمتى النتيجة تحتاج متابعة.",
+        "en": "Abdominal and pelvic ultrasound answers focused questions about particular organs, but it cannot explain every pain or episode of bloating. Learn what it shows, how to prepare and when a result needs follow-up."
+      },
+      "sections": [
+        {
+          "id": "focused-question-two-regions",
+          "heading": {
+            "ar": "سونار البطن والحوض مش صورة واحدة لكل حاجة",
+            "en": "Abdominal and pelvic ultrasound is not one picture of everything"
+          },
+          "body": {
+            "ar": "لما الطبيب يطلب سونار بطن وحوض، الهدف مش إنه يعمل مسح شامل يضمن إن مفيش أي مرض. السونار بيستخدم موجات صوتية عشان يعمل صور مباشرة لأعضاء وأنسجة مناسبة للتقنية، من غير الأشعة المؤينة المستخدمة في الأشعة السينية أو الأشعة المقطعية. قيمة الفحص بتيجي من وجود سؤال واضح: هل فيه حصوات بالمرارة؟ هل القنوات الصفراوية متسعة؟ هل فيه احتباس بول أو توسع بالكلى؟ هل فيه سائل أو كتلة بالحوض؟ السؤال ده هو اللي بيحدد المناطق المطلوبة وطريقة التحضير ومعنى النتيجة [1, 7, 10].\n\nجزء البطن ممكن يشمل الكبد والمرارة والقنوات الصفراوية والكليتين والطحال والبنكرياس بدرجات وضوح مختلفة، وكمان الشريان الأورطي وأوعية كبيرة حسب الطلب. جزء الحوض بيركز غالباً على المثانة، وممكن يقيّم الرحم والمبيضين أو البروستاتا والبنى القريبة حسب تشريح الشخص وأعراضه وطريقة الفحص. كتابة «بطن وحوض» في الطلب مش معناها إن كل عضو اتشاف بنفس الجودة، ولا إن الفحص يقدر يجاوب عن بطانة المعدة والأمعاء أو كل سبب للألم [2, 5, 6].\n\nعشان تستفيد، اسأل قبل الموعد: إيه السؤال المطلوب؟ وهل الطلب فحص كامل ولا موجّه لعضو محدد؟ وبعده اسأل: إيه اللي اتشاف كويس، وإيه اللي كانت رؤيته محدودة؟ بالطريقة دي التقرير يبقى خطوة في تقييم متكامل، مش قائمة أمراض تختار منها تشخيص لنفسك [1, 2, 11].",
+            "en": "When a clinician requests an abdominal and pelvic ultrasound, the aim is not a universal screening examination that guarantees every disease is absent. Ultrasound uses sound waves to create real-time images of tissues suited to the technique, without the ionising radiation used in X-rays or CT. Its value begins with a focused question: Are gallstones present? Are the bile ducts dilated? Is there urinary retention or kidney dilatation? Is there pelvic fluid or a mass? That question determines the required areas, preparation and meaning of the result [1, 7, 10].\n\nThe abdominal component may include the liver, gallbladder, bile ducts, kidneys, spleen and pancreas with varying visibility, as well as the aorta and other large vessels when requested. The pelvic component commonly focuses on the bladder and may assess the uterus and ovaries or the prostate and nearby structures according to a person's anatomy, symptoms and examination technique. The words “abdomen and pelvis” on a request do not mean every organ was seen equally well, nor that ultrasound can answer questions about the lining of the stomach and bowel or every cause of pain [2, 5, 6].\n\nTo make the examination useful, ask beforehand what question it is intended to answer and whether it is comprehensive or targeted to one organ. Afterwards, ask what was seen adequately and what had limited visibility. This makes the report one part of an integrated assessment rather than a list of conditions from which to choose your own diagnosis [1, 2, 11]."
+          }
+        },
+        {
+          "id": "what-abdominal-ultrasound-can-show",
+          "heading": {
+            "ar": "سونار البطن ممكن يبين إيه؟",
+            "en": "What can an abdominal ultrasound show?"
+          },
+          "body": {
+            "ar": "سونار البطن مفيد جداً لما السؤال مناسب له. ممكن يبين حصوات المرارة، سماكة أو سائل حوالين المرارة في السياق الصحيح، اتساع القنوات الصفراوية، اختلاف حجم أو شكل الكبد والطحال، أكياس بالكلى أو توسع نظام تجميع البول، بعض الحصوات، ووجود سوائل حرة أو بعض الكتل. الدوبلر ممكن يضيف معلومات عن اتجاه أو سرعة سريان الدم في أوعية محددة لما الطبيب يطلبه. بس وجود قدرة الفحص على رؤية حاجة ما مش معناه إن أي عرض سببه الحاجة دي [2, 5, 8, 10].\n\nمثلاً، السونار من أهم وسائل البحث عن حصوات المرارة، لكن تقرير فيه حصوات صامتة مش كفاية لوحده عشان يثبت إن كل انتفاخ أو حرقان سببه المرارة. لازم نمط الألم والفحص والتحاليل يتوافقوا. وبرضه ممكن التقرير يذكر مظهراً متوافقاً مع دهون الكبد، لكن السونار ما يحددش وحده سبب الدهون ولا وجود التهاب مجهري ولا درجة التليف. دليل دهون الكبد في السونار بيفصل النقطة دي من غير ما نحوّل مقال السونار العام لخطة علاج كبد كاملة [8, 9].\n\nالنتيجة كمان ممكن تذكر حاجة عرضية ما كانتش سبب الفحص، زي كيس بسيط أو اختلاف تشريحي. كلمة «عرضي» مش معناها خطر، ومش معناها نتجاهلها. السؤال المفيد هو: هل دي بتفسر الأعراض؟ هل صفاتها مطمئنة؟ وهل محتاجة متابعة محددة؟ القرار بيتاخد من وصف التقرير، التاريخ المرضي، الفحص وأي تحاليل مرتبطة، مش من اسم مختصر لوحده [2, 3, 5].",
+            "en": "Abdominal ultrasound is highly useful when the question suits the technique. It may show gallstones, gallbladder-wall changes or surrounding fluid in the appropriate context, dilated bile ducts, differences in liver or spleen size and appearance, kidney cysts, dilatation of the urinary collecting system, some stones, free fluid and certain masses. Doppler can add information about the direction or speed of blood flow in selected vessels when requested. The ability to display a finding does not mean that finding necessarily causes a person's symptom [2, 5, 8, 10].\n\nFor example, ultrasound is a leading test for detecting gallstones, but a report of silent stones does not by itself prove that every episode of bloating or heartburn comes from the gallbladder. The pain pattern, examination and laboratory results still need to fit. A report may also describe an appearance consistent with fatty liver, but ultrasound alone cannot determine the cause of fat, microscopic inflammation or the stage of fibrosis. The fatty liver on ultrasound guide addresses that question without turning this general imaging article into a complete liver-treatment guide [8, 9].\n\nA report may also mention an incidental finding that was not the reason for the scan, such as a simple cyst or an anatomical variant. “Incidental” does not mean dangerous, and it does not mean irrelevant. Useful questions are whether the finding explains the symptom, whether its features are reassuring and whether it needs defined follow-up. The answer comes from the report's description, clinical history, examination and relevant tests, not from one short label alone [2, 3, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل دهون الكبد في السونار",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "fatty liver on ultrasound guide",
+                "url": "../articles/fatty-liver-ultrasound.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "what-pelvic-ultrasound-can-show",
+          "heading": {
+            "ar": "سونار الحوض وطريقة الفحص بيغيروا اللي ممكن يظهر",
+            "en": "Pelvic ultrasound findings depend on the examination route"
+          },
+          "body": {
+            "ar": "سونار الحوض ممكن يقيّم المثانة قبل وبعد التبول في طلبات معينة، ويبحث عن احتباس بول أو تغيرات واضحة بجدارها. عند وجود رحم ومبيضين، الفحص ممكن يساعد في تقييم الحجم والشكل، الألياف الرحمية، بعض أكياس أو كتل المبيض، وسُمك بطانة الرحم لما يكون القياس مناسباً للسياق. وعند وجود بروستاتا، ممكن يقدّر حجمها ويقيّم البول المتبقي، لكن ده مش بديل تلقائي عن التقييم السريري أو التحاليل اللي يختارها الطبيب [4, 6].\n\nفيه فرق مهم بين الفحص الخارجي عبر البطن والفحص الداخلي عبر المهبل أو المستقيم. الفحص الخارجي عادة يحتاج مثانة ممتلئة عشان تعمل نافذة صوتية تساعد على رؤية أعضاء أعمق. الفحص الداخلي يقرّب المسبار من أعضاء الحوض وقد يدي تفاصيل مختلفة، لكنه مش مطلوب لكل شخص ولا يتعمل من غير شرح وموافقة. من حقك تعرف ليه الطريقة دي مقترحة، إيه البدائل، وإيه اللي هيحصل، وتطلب إيقاف الفحص في أي وقت. الخصوصية ووجود مرافق مناسب يتنظموا حسب سياسة مكان الفحص [1, 4, 6].\n\nلو فيه احتمال حمل مع ألم أسفل البطن أو نزيف، قول ده بوضوح قبل الفحص؛ اختيار الطريق والتوقيت وتفسير الصورة بيتغيروا حسب الحالة. والسونار الطبيعي للحوض ما يلغيّش كل سبب لألم الحوض، لأن بعض الحالات تحتاج فحصاً سريرياً، تحليل حمل أو بول، أو تصويراً موجهاً مختلفاً. الطبيب هو اللي يربط النتيجة بمكان الألم والدورة والتبول وأي أعراض مصاحبة [4, 6, 11].",
+            "en": "Pelvic ultrasound can assess the bladder before and after urination for selected indications and look for urinary retention or visible bladder-wall changes. In someone with a uterus and ovaries, it can help assess size and shape, fibroids, some ovarian cysts or masses, and endometrial thickness when that measurement is appropriate to the clinical context. In someone with a prostate, it may estimate prostate size and residual urine, but it does not automatically replace clinical assessment or tests selected by the treating clinician [4, 6].\n\nThere is an important difference between an external transabdominal examination and an internal transvaginal or transrectal examination. The external route commonly uses a full bladder as an acoustic window to display deeper pelvic organs. An internal route places the probe closer to pelvic structures and may provide different detail, but it is not required for everyone and should not proceed without explanation and consent. You can ask why that route is proposed, what alternatives exist and what will happen, and you can ask for the examination to stop at any time. Privacy and an appropriate chaperone follow the imaging facility's policy [1, 4, 6].\n\nIf pregnancy is possible and there is lower abdominal pain or bleeding, state this clearly before the examination because the route, timing and interpretation may change. A normal pelvic scan also does not exclude every cause of pelvic pain; some situations need clinical examination, a pregnancy or urine test, or different targeted imaging. The treating clinician connects the result with the pain location, menstrual history, urination and accompanying symptoms [4, 6, 11]."
+          }
+        },
+        {
+          "id": "limits-and-normal-result",
+          "heading": {
+            "ar": "حدود السونار: ليه النتيجة الطبيعية مش نهاية كل تقييم؟",
+            "en": "Ultrasound limits: why a normal result may not end an assessment"
+          },
+          "body": {
+            "ar": "الصوت ما بيعدّيش خلال غازات الأمعاء بسهولة، وعشان كده الغاز ممكن يحجب البنكرياس أو أجزاء تانية ويعمل ظلالاً وتشويشاً. عمق الأنسجة، الحركة، الألم اللي يمنع ضغط المسبار، عدم امتلاء المثانة بالشكل المطلوب، والأكل قبل فحص يحتاج صيام كلها عوامل ممكن تقلل جودة الصورة. التقرير المسؤول ممكن يقول إن الرؤية «محدودة» أو إن عضواً «لم يُرَ بالكامل». الجملة دي مش تشخيص مخيف، لكنها معلومة لازم تتفهم: إيه الجزء المحدود، وهل السؤال الأساسي اتجاوب ولا لأ؟ [5, 11, 12].\n\nالسونار كمان مش منظار. هو ما بيشوفش بطانة المعدة أو القولون بنفس طريقة المنظار، وما يشخّصش الارتجاع أو القولون العصبي من صورة، وما يستبعدش كل التهاب أو مرض مبكر أو سبب عضلي وعصبي للألم. بعض المشكلات تظهر أحسن في تحليل دم أو بول، منظار، أشعة مقطعية أو رنين؛ الاختيار بيعتمد على السؤال وعلامات الخطر، مش على فكرة إن فحصاً أقوى من فحص في كل الحالات [1, 3, 11].\n\nلما السونار يطلع طبيعي ولسه الألم موجود، ده ما يعنيش إن الألم متخيَّل ولا إن التقرير غلط. معناه إن الأعضاء اللي اتشافت والسؤال اللي اتطلب عشانه الفحص ما أظهروش تفسيراً واضحاً. دليل السونار الطبيعي مع استمرار الألم بيشرح الخطوة التالية بالتفصيل. راجع الطبيب لو العرض مستمر أو بيتغير، وخد معاك التقرير والصور وسجّل مكان الألم وعلاقته بالأكل أو التبرز أو التبول [1, 5, 11].",
+            "en": "Sound does not travel readily through bowel gas, so gas may obscure the pancreas or other structures and create shadowing and artefacts. Tissue depth, movement, pain that prevents probe pressure, an inadequately filled bladder and eating before an examination that requires fasting can all reduce image quality. A responsible report may state that visualisation was “limited” or that an organ was “not fully seen.” This is not a frightening diagnosis, but it is information to clarify: Which area was limited, and was the original question answered? [5, 11, 12].\n\nUltrasound is also not endoscopy. It does not display the lining of the stomach or colon in the same way, does not diagnose reflux or irritable bowel syndrome from an image and cannot exclude every inflammatory, early-stage, muscular or nerve-related cause of pain. Some problems are better assessed with blood or urine tests, endoscopy, CT or MRI. Selection depends on the clinical question and warning features, not on one test being universally stronger than another [1, 3, 11].\n\nWhen ultrasound is normal but pain remains, this does not mean the pain is imagined or the report is wrong. It means the organs adequately visualised and the question for which the examination was requested did not reveal a clear explanation. The guide to a normal ultrasound with continuing pain explains the next step in detail. Return to the clinician if the symptom persists or changes, taking the report and images and noting the pain's site and relationship to food, bowel movements or urination [1, 5, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل السونار الطبيعي مع استمرار الألم",
+                "url": "../articles/normal-ultrasound-does-not-end-assessment.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "guide to a normal ultrasound with continuing pain",
+                "url": "../articles/normal-ultrasound-does-not-end-assessment.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "preparation-and-experience",
+          "heading": {
+            "ar": "إزاي تتحضر وإيه اللي بيحصل أثناء الفحص؟",
+            "en": "How do you prepare, and what happens during the scan?"
+          },
+          "body": {
+            "ar": "التحضير بيتحدد حسب العضو والسؤال. فحص المرارة وأعلى البطن ممكن يحتاج صيام عشان المرارة تبقى ممتلئة ويقل تأثير الطعام والغاز، بينما بعض فحوص الحوض الخارجية تحتاج مثانة ممتلئة بالماء. لو الطلب بيجمع البطن والحوض، ممكن تكون التعليمات فيها صيام ومياه في توقيت محدد. ما تعتمدش على جدول عام من الإنترنت، لأن المدة وكمية المياه بتختلف حسب البروتوكول والحالة. اتبع تعليمات مكان الفحص، واسألهم لو الورقة مش واضحة [1, 2, 5, 6, 11].\n\nما توقفش دواءً ضرورياً أو تغيّر الإنسولين أو علاج السكر من نفسك عشان الصيام. لو عندك سكر، صعوبة في الصيام، قيء، قيود سوائل بسبب القلب أو الكلى، أو احتمال حمل، اتصل بمكان الفحص أو الطبيب قبل الموعد عشان تاخد تعليمات مناسبة. بطاقة التحضير لسونار البطن بتجمع الأسئلة العملية اللي ممكن تسألها، لكنها ما تستبدلش تعليمات حجزك الشخصية [1, 2, 5].\n\nأثناء الفحص الخارجي هتستلقي غالباً ويُوضع جل على الجلد، وبعدها يتحرك المسبار فوق المنطقة. ممكن الفاحص يطلب منك تلف على جنبك، تاخد نفساً عميقاً أو تحبسه لثوانٍ، أو تدخل الحمام بين جزأين من الفحص. الضغط ممكن يكون مزعجاً فوق منطقة مؤلمة، فقول لو الألم شديد. بعد الفحص امسح الجل واسأل إمتى التقرير هيكون جاهز ومين هيراجعه معاك؛ بعض النتائج تحتاج موعد متابعة حتى لو التصوير نفسه خلص [1, 2, 10].",
+            "en": "Preparation depends on the organ and clinical question. Examination of the gallbladder and upper abdomen may require fasting so the gallbladder is distended and the effects of food and gas are reduced, while some external pelvic examinations require a full bladder. If the request combines abdomen and pelvis, instructions may involve both fasting and water at specified times. Do not rely on a generic online schedule because duration and water volume vary by protocol and individual circumstances. Follow the imaging facility's instructions and ask if the written directions are unclear [1, 2, 5, 6, 11].\n\nDo not independently stop an essential medicine or change insulin or diabetes treatment to accommodate fasting. If you have diabetes, difficulty fasting, vomiting, heart- or kidney-related fluid restrictions, or possible pregnancy, contact the facility or treating clinician before the appointment for suitable instructions. The abdominal ultrasound preparation card gathers practical questions to ask but does not replace your own booking directions [1, 2, 5].\n\nDuring an external scan, you will usually lie down while gel is placed on the skin and a transducer is moved over the requested area. The examiner may ask you to turn onto one side, breathe in deeply or hold your breath briefly, or use the toilet between parts of the examination. Pressure can be uncomfortable over a tender area, so say if it becomes painful. After the scan, wipe away the gel and ask when the report will be ready and who will review it with you. Some results need a follow-up appointment even though imaging itself is complete [1, 2, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "بطاقة التحضير لسونار البطن",
+                "url": "../articles/tip-ultrasound-prep-card.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "abdominal ultrasound preparation card",
+                "url": "../articles/tip-ultrasound-prep-card.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "reading-the-report",
+          "heading": {
+            "ar": "إزاي تقرأ تقرير السونار من غير قلق أو اطمئنان زائد؟",
+            "en": "How should you read an ultrasound report without panic or false reassurance?"
+          },
+          "body": {
+            "ar": "ابدأ بسبب الفحص، وبعده الوصف، وفي الآخر الخلاصة أو الانطباع. سبب الفحص بيقول السؤال اللي كان مطلوب يتجاوب؛ الوصف بيسجل اللي اتشاف؛ والخلاصة بتلخّص أهم معنى تصويري. لو قرأت كلمة منفصلة من الوصف وسيبت الخلاصة، ممكن تضخّم تفصيلة بسيطة. ولو قرأت «لا توجد مشكلة حادة» كأنها «كل شيء طبيعي»، ممكن تطمئن زيادة. التقرير بيتفسر مع الأعراض والفحص والتحاليل، ومش بديل عنهم [1, 2, 10].\n\nعبارات زي «الربط الإكلينيكي مطلوب» معناها إن الصورة محتاجة تتربط بحالتك، مش إن التقرير تهرّب من الإجابة. وعبارة «الرؤية محدودة بسبب الغازات» بتحدد قيداً تقنياً، مش مرضاً جديداً. أما «يوصى بمتابعة» فلازم تعرف: متابعة بإيه؟ ولمدة قد إيه؟ ومين يطلبها؟ ما تكررش السونار أو تحجز أشعة مختلفة من نفسك لأن الاختيار بيعتمد على الاحتمال الطبي وما إذا كانت النتيجة هتغيّر العلاج [3, 5, 11, 12].\n\nقبل المراجعة، اكتب إيه اللي اتغير من وقت طلب الفحص، وخد صور السونار لو متاحة والتقارير القديمة وقائمة الأدوية والمكملات. اسأل ثلاث أسئلة واضحة: هل النتيجة بتفسر شكواي؟ هل فيه حاجة محتاجة متابعة حتى لو مش سبب الأعراض؟ وإيه الخطوة التالية لو الأعراض مستمرة؟ ولو مشكلتك الأساسية انتفاخ متكرر، دليل الانتفاخ المستمر بيوضح إمتى السبب الهضمي يحتاج تقييماً منفصلاً بدل الاعتماد على السونار وحده [1, 3, 12].",
+            "en": "Start with the indication, then the descriptive findings, and finally the conclusion or impression. The indication states the question to be answered; the findings record what was seen; the impression summarises the main imaging meaning. Reading one isolated word from the findings while ignoring the impression may magnify a minor detail. Reading “no acute abnormality” as “everything is normal” can create false reassurance. The report is interpreted with symptoms, examination and laboratory results and does not replace them [1, 2, 10].\n\nPhrases such as “clinical correlation is advised” mean the image needs to be connected with your clinical situation; they do not mean the report avoided an answer. “Limited visualisation due to bowel gas” describes a technical constraint, not a new disease. If “follow-up is recommended,” clarify the method, interval and clinician responsible. Do not repeat ultrasound or arrange different imaging independently, because the choice depends on the medical probability and whether a result would change management [3, 5, 11, 12].\n\nBefore review, note what has changed since the scan was requested and bring the images if available, previous reports and a list of medicines and supplements. Ask three direct questions: Does this result explain my complaint? Is there a finding that needs follow-up even if it does not cause the symptom? What is the next step if symptoms continue? If recurrent bloating is the main issue, the persistent bloating guide explains when a separate digestive assessment is more useful than relying on ultrasound alone [1, 3, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل الانتفاخ المستمر",
+                "url": "../articles/bloating-when-to-see-doctor.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "persistent bloating guide",
+                "url": "../articles/bloating-when-to-see-doctor.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "red-flags-and-urgent-care",
+          "heading": {
+            "ar": "إمتى ما تستناش موعد سونار عادي؟",
+            "en": "When should you not wait for a routine ultrasound appointment?"
+          },
+          "body": {
+            "ar": "السونار فحص مهم، لكنه مش بوابة لازم تعدّي منها قبل الرعاية العاجلة. اطلب تقييماً عاجلاً لو عندك ألم شديد مفاجئ أو ألم بيزيد بسرعة، بطن شديدة الحساسية أو متصلبة، إغماء أو دوخة شديدة، ضيق نفس، قيء مستمر يمنع السوائل، قيء دموي، براز أسود أو دموي، اصفرار واضح، حرارة مع تدهور عام، أو انتفاخ مؤلم مع توقف تام عن خروج البراز والغازات. العلامات دي محتاجة قرار سريري سريع، وقد تحتاج تحاليل أو تصويراً مختلفاً حسب الحالة [3, 11].\n\nلو فيه احتمال حمل مع ألم بالحوض أو نزيف، ما تنتظرش فحصاً روتينياً من غير توجيه طبي؛ بعض الأسباب مرتبطة بالتوقيت والحالة العامة وتحتاج مسار تقييم عاجل. وبرضه النزيف الغزير، ألم مفاجئ شديد بالحوض، ضعف شديد أو إغماء يستلزموا رعاية عاجلة. ما تسوقش بنفسك لو حالتك غير مستقرة، واتبع تعليمات خدمة الطوارئ المحلية [4, 6, 11].\n\nفيه علامات مش طوارئ بالضرورة لكنها تستحق موعداً قريباً: ألم مستمر أو بيتكرر، فقدان وزن غير مقصود، شبع مبكر جديد، قيء متكرر، تغير مستمر في التبرز أو التبول، كتلة محسوسة، أو أعراض بترجع رغم نتيجة مطمئنة. مستوى الاستعجال بيتحدد من شدة العلامة وسرعة ظهورها وحالتك العامة. لو مش متأكد، تواصل مع طبيب أو خدمة طبية عاجلة بدل محاولة تفسير التقرير وحدك [1, 3, 11].",
+            "en": "Ultrasound is valuable, but it is not a gateway that must be completed before urgent care. Seek urgent assessment for sudden severe pain or pain that is rapidly worsening, a very tender or rigid abdomen, fainting or severe dizziness, breathlessness, persistent vomiting that prevents fluids, vomiting blood, black or bloody stool, obvious jaundice, fever with general deterioration, or painful distension with complete inability to pass stool and gas. These features require a prompt clinical decision and may need blood tests or different imaging according to the situation [3, 11].\n\nIf pregnancy is possible with pelvic pain or bleeding, do not wait for a routine scan without medical direction; some causes are time-sensitive and need an urgent assessment pathway. Heavy bleeding, sudden severe pelvic pain, marked weakness or fainting also require urgent care. Do not drive yourself if you are unstable, and follow the instructions of local emergency services [4, 6, 11].\n\nOther features are not necessarily emergencies but warrant an early appointment: persistent or recurrent pain, unintentional weight loss, new early fullness after eating, repeated vomiting, a lasting change in bowel movements or urination, a palpable lump, or symptoms that return despite a reassuring result. Urgency depends on severity, speed of onset and your overall condition. If uncertain, contact a clinician or urgent medical service rather than trying to interpret the report alone [1, 3, 11]."
+          }
+        },
+        {
+          "id": "next-step-and-booking",
+          "heading": {
+            "ar": "الخطوة التالية: اربط الصورة بالأعراض",
+            "en": "The next step: connect the image with the symptoms"
+          },
+          "body": {
+            "ar": "بعد النتيجة، الخطوة الصح مش دايماً فحصاً جديداً. أحياناً التقرير يجاوب السؤال ويكفي مع متابعة الأعراض، وأحياناً يحتاج الطبيب تحاليل موجهة أو مراجعة بعد مدة، وأحياناً تتغير الأولوية لفحص مختلف. القرار الفردي لازم يفضل عند الطبيب المعالج لأنه يعرف سبب الطلب، مكان الألم، مدته، الفحص السريري، الأدوية والنتائج السابقة. ما تبدأش علاجاً أو توقف دواءً بسبب كلمة في التقرير من غير مراجعة [1, 3, 11].\n\nجهّز للزيارة طلب الفحص إن وُجد، التقرير والصور، التحاليل القديمة، وقائمة الأدوية والمكملات. اكتب إمتى بدأ العرض، إيه اللي بيزيده أو يخففه، وهل فيه علاقة بالأكل أو التبرز أو التبول. لو التقرير ذكر إن جزءاً ما اتشافش كويس، اسأل هل ده الجزء المرتبط بالسؤال الأصلي. ولو ذكر متابعة، اسأل عن سببها وتوقيتها والعلامات اللي تستدعي الرجوع بدري [1, 2, 10].\n\nفي العيادة، تقييم الباطنة أو الجهاز الهضمي ممكن يربط الأعراض والفحص بالتقرير ويحدد إذا كان سونار البطن مناسباً أو إذا كان فحص الحوض أو تخصص آخر هو المطلوب. العيادة تُذكر هنا كخطوة تنظيمية فقط، من غير وعد إن السونار هيلاقي السبب أو إن زيارة واحدة هتحسم كل حالة. لو محتاج تبدأ تقييماً منظماً، تقدر تستخدم طلب حجز استشارة طبية وتوضح عند الحجز إن معاك تقرير سونار بطن وحوض [1, 2].",
+            "en": "After the result, the right next step is not always another test. Sometimes the report answers the question and symptom follow-up is enough; sometimes targeted laboratory tests or interval review are appropriate; sometimes a different examination becomes the priority. The individual decision belongs with the treating clinician because they know the indication, pain location and duration, examination findings, medicines and previous results. Do not start treatment or stop a medicine because of one phrase in a report without review [1, 3, 11].\n\nPrepare for the visit by bringing the imaging request if available, the report and images, earlier test results and a list of medicines and supplements. Note when the symptom began, what worsens or relieves it and whether it relates to eating, bowel movements or urination. If the report says an area was not seen well, ask whether that area was central to the original question. If it recommends follow-up, ask why, when and which changes should prompt an earlier return [1, 2, 10].\n\nAt the clinic, an internal-medicine or gastroenterology assessment can connect symptoms and examination with the report and determine whether abdominal ultrasound is suitable or whether pelvic imaging or another specialty is needed. The clinic is mentioned here only as an organisational next step, without promising that ultrasound will find the cause or that one visit will settle every case. If you need to begin a structured assessment, you can use the request for a medical consultation and state that you have an abdominal and pelvic ultrasound report [1, 2]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز استشارة طبية",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request for a medical consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل سونار البطن والحوض بيكشف كل أسباب الألم؟",
+            "en": "Can abdominal and pelvic ultrasound find every cause of pain?"
+          },
+          "a": {
+            "ar": "لأ. هو ممتاز لأسئلة محددة عن أعضاء زي الكبد والمرارة والكلى والمثانة وبعض أعضاء الحوض، لكنه مش بيشوف كل أسباب الألم ولا بطانة الجهاز الهضمي بنفس طريقة المنظار. النتيجة بتتقري مع مكان الألم ونمطه والفحص والتحاليل، والطبيب ممكن يختار خطوة مختلفة لو السؤال مش مناسب للسونار [1, 2, 5, 11].",
+            "en": "No. It is excellent for focused questions about organs such as the liver, gallbladder, kidneys, bladder and selected pelvic structures, but it cannot show every cause of pain or inspect the digestive lining as endoscopy does. The result is read with the pain pattern, examination and tests, and a clinician may choose another step when the question is not suited to ultrasound [1, 2, 5, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل النتيجة الطبيعية معناها إن مفيش أي مشكلة؟",
+            "en": "Does a normal result mean there is no problem at all?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. النتيجة الطبيعية مطمئنة بخصوص الأعضاء اللي اتشافت كويس والسؤال المطلوب، لكنها ما تستبعدش كل مرض ولا تلغي الأعراض المستمرة. لو الألم مستمر أو بيتغير، راجع الطبيب ومعاك التقرير بدل ما تفترض إن كل شيء سليم أو إن السونار فشل [1, 5, 11].",
+            "en": "Not necessarily. A normal result is reassuring about the organs adequately visualised and the question asked, but it does not exclude every condition or cancel persistent symptoms. If pain continues or changes, return to the clinician with the report rather than assuming either that everything is fine or that ultrasound failed [1, 5, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أصوم وأشرب مياه عشان المثانة تبقى ممتلئة؟",
+            "en": "Must I fast and drink water to fill my bladder?"
+          },
+          "a": {
+            "ar": "ممكن تحتاج واحداً منهم أو الاتنين حسب الأعضاء المطلوبة وبروتوكول المكان. فحص المرارة غالباً يستفيد من الصيام، وبعض فحوص الحوض الخارجية تحتاج مثانة ممتلئة. اتبع تعليمات حجزك واتصل بالمكان لو مش واضحة، وما تغيّرش دواء السكر أو قيود السوائل من نفسك [1, 2, 5, 6, 11].",
+            "en": "You may need one or both depending on the requested organs and the facility's protocol. Gallbladder imaging often benefits from fasting, while some external pelvic scans need a full bladder. Follow your booking instructions and contact the facility if they are unclear; do not independently alter diabetes medicine or medically required fluid restrictions [1, 2, 5, 6, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل سونار البطن والحوض فيه إشعاع؟",
+            "en": "Does abdominal and pelvic ultrasound use radiation?"
+          },
+          "a": {
+            "ar": "السونار التشخيصي بيستخدم موجات صوتية ومش بيستخدم الأشعة المؤينة الموجودة في الأشعة السينية والمقطعية. وده ما يعنيش استخدامه من غير داعٍ؛ الأفضل يتعمل لسؤال طبي واضح وبواسطة شخص مدرّب، مع أقل تعرض لازم للحصول على معلومة مفيدة [1, 7, 10].",
+            "en": "Diagnostic ultrasound uses sound waves and not the ionising radiation used in X-rays and CT. That does not mean it should be used without an indication; it is best performed for a clear medical question by trained personnel, with exposure limited to what is needed to obtain useful information [1, 7, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل السونار يقدر يشخّص القولون العصبي أو سرطان القولون؟",
+            "en": "Can ultrasound diagnose IBS or colon cancer?"
+          },
+          "a": {
+            "ar": "ما ينفعش نعتمد على سونار بطن روتيني لتشخيص القولون العصبي أو لنفي سرطان القولون. القولون العصبي بيتشخّص من نمط الأعراض والتقييم السريري، وفحص القولون بيتحدد حسب العمر والأعراض وعلامات الخطر. غازات الأمعاء نفسها ممكن تحد الرؤية، فاختيار منظار أو تصوير آخر يفضل قراراً طبياً موجهاً [11, 12].",
+            "en": "A routine abdominal ultrasound should not be used to diagnose IBS or exclude colon cancer. IBS is diagnosed from a symptom pattern and clinical assessment, while colon investigation depends on age, symptoms and warning features. Bowel gas itself can limit visibility, so any decision about endoscopy or different imaging should remain clinically directed [11, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه الفرق بين سونار الحوض الخارجي والداخلي؟",
+            "en": "What is the difference between external and internal pelvic ultrasound?"
+          },
+          "a": {
+            "ar": "الخارجي بيتعمل بالمسبار فوق أسفل البطن وغالباً مع مثانة ممتلئة، أما الداخلي فبيقرّب المسبار من أعضاء الحوض وقد يدي تفاصيل مختلفة. مش كل شخص يحتاج الطريقتين. لازم يتشرح الهدف والخطوات والبدائل وتتم الموافقة قبل الفحص، ومن حقك تطلب إيقافه في أي وقت [1, 4, 6].",
+            "en": "The external examination moves a probe over the lower abdomen, commonly with a full bladder. An internal route places the probe closer to pelvic organs and may provide different detail. Not everyone needs both. The purpose, steps and alternatives should be explained and consent obtained before the examination; you can ask for it to stop at any time [1, 4, 6]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NHS — Ultrasound scan",
+          "url": "https://www.nhs.uk/tests-and-treatments/ultrasound-scan/"
+        },
+        {
+          "label": "Cleveland Clinic — Abdominal Ultrasound",
+          "url": "https://my.clevelandclinic.org/health/diagnostics/4994-abdominal-ultrasound"
+        },
+        {
+          "label": "Mayo Clinic — Abdominal ultrasound",
+          "url": "https://www.mayoclinic.org/tests-procedures/abdominal-ultrasound/about/pac-20392738"
+        },
+        {
+          "label": "Cleveland Clinic — Pelvic Ultrasound",
+          "url": "https://my.clevelandclinic.org/health/diagnostics/4997-pelvic-ultrasound"
+        },
+        {
+          "label": "RadiologyInfo.org — Abdominal Ultrasound Exam",
+          "url": "https://www.radiologyinfo.org/en/info/abdominus"
+        },
+        {
+          "label": "RadiologyInfo.org — Pelvis Ultrasound",
+          "url": "https://www.radiologyinfo.org/en/info/pelvus"
+        },
+        {
+          "label": "US FDA — Ultrasound Imaging",
+          "url": "https://www.fda.gov/radiation-emitting-products/medical-imaging/ultrasound-imaging"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Gallstones",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/diagnosis"
+        },
+        {
+          "label": "NIDDK — Diagnosis of NAFLD & NASH",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"
+        },
+        {
+          "label": "MedlinePlus — Abdominal ultrasound",
+          "url": "https://medlineplus.gov/ency/article/003777.htm"
+        },
+        {
+          "label": "NCBI Bookshelf — Transabdominal Ultrasound in Emergency Medicine",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK534813/"
+        },
+        {
+          "label": "Nishida et al. — Basic practices for gastrointestinal ultrasound (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36087155/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "سونار البطن والحوض",
+          "سونار البطن",
+          "سونار الحوض",
+          "تقرير السونار"
+        ],
+        "en": [
+          "abdominal and pelvic ultrasound",
+          "abdominal ultrasound",
+          "pelvic ultrasound",
+          "ultrasound report"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "سونار البطن والحوض: بيكشف إيه؟ | لاروز",
+          "en": "Abdominal and pelvic ultrasound: what does it show?"
+        },
+        "description": {
+          "ar": "اعرف سونار البطن والحوض بيكشف إيه، حدوده، إزاي تتحضر، ومعنى النتيجة الطبيعية وعلامات الخطر اللي تحتاج تقييماً طبياً سريعاً.",
+          "en": "Learn what abdominal and pelvic ultrasound can show, its limits, how to prepare, what a normal result means and which warning signs need prompt care."
+        }
+      }
+    }
+  ]
+}

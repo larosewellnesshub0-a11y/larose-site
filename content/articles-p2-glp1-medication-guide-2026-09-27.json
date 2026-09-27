@@ -1,0 +1,323 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of glp1-medication-guide; replaces the entry from content/articles-glp1-medication-guide-rewrite-2026-09-21.json. Expanded candidacy, safety, side-effect, muscle-protection and long-term planning guidance; added cited FAQs, verified sources and internal links.",
+  "articles": [
+    {
+      "slug": "glp1-medication-guide",
+      "type": "article",
+      "published": true,
+      "featured": true,
+      "category": "weight-management",
+      "specialties": [
+        "weight-management",
+        "clinical-nutrition",
+        "internal-medicine"
+      ],
+      "date": "2026-08-29",
+      "updatedAt": "2026-09-27",
+      "readingTime": 11,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/glp1-medication-guide.webp",
+      "title": {
+        "ar": "دليل أدوية GLP-1 لإنقاص الوزن",
+        "en": "GLP-1 medicines: a practical guide"
+      },
+      "excerpt": {
+        "ar": "أدوية GLP-1 ممكن تساعد الشخص المناسب ضمن خطة علاج ومتابعة، لكنها مش اختصار ولا مناسبة لكل حد. اعرف إزاي بتشتغل، ومين يحتاج حذر، وإزاي تتعامل مع الأعراض وتحمي التغذية والعضلات.",
+        "en": "GLP-1 medicines can help a suitable person within a monitored treatment plan, but they are not a shortcut or right for everyone. Learn how they work, who needs caution, and how to manage effects while protecting nutrition and muscle."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا الدليل بتفاصيل الاختيار والأمان والأعراض وحماية العضلات وخطة الاستمرار، واتراجع طبياً من جديد.",
+            "en": "We expanded the guide with candidacy, safety, side-effect, muscle-protection and continuation guidance, and medically re-reviewed it."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-glp1-medicines-do",
+          "heading": {
+            "ar": "إشارة شبع وعلاج طبي، مش حرق سحري",
+            "en": "A fullness signal and medical treatment, not magic fat burning"
+          },
+          "body": {
+            "ar": "GLP-1 هرمون طبيعي بيطلع من الأمعاء بعد الأكل، وبيشارك في تنظيم السكر والشهية. الأدوية اللي بتحاكي الإشارة دي بتأثر على مراكز الشهية في المخ، وبتزود الإحساس بالشبع، وبتبطّأ خروج الأكل من المعدة بدرجات مختلفة. فيه أدوية بتشتغل على مستقبل GLP-1 لوحده، وفيه أدوية مزدوجة بتشتغل على GLP-1 وGIP. دي مش حقن إنسولين، ومش مادة بتذوب الدهون مباشرة؛ تأثيرها الأساسي بيخلي الالتزام بكمية أكل مناسبة أسهل عند بعض الناس. كل اسم تجاري وتركيز له استعمالات ونشرة مختلفة، عشان كده مينفعش تعتبر كل المنتجات نسخة واحدة أو تبدل بينهم من نفسك. [1, 3, 4]\n\nالنتيجة بتختلف من شخص للتاني، وبتتأثر بالدواء والجرعة والتحمل والحالة الصحية والقدرة على الاستمرار. في تجربة STEP 1، كان متوسط النزول مع سيماجلوتايد 2.4 مجم حوالي 14.9% من وزن البداية بعد 68 أسبوع، مقابل 2.4% مع الدواء الوهمي. وفي SURMOUNT-1، تراوح متوسط النزول مع تيرزيباتيد بين 15% و20.9% بعد 72 أسبوع حسب الجرعة، مقابل 3.1% مع الدواء الوهمي. دي متوسطات تجارب على مجموعات محددة مع دعم لنمط الحياة، مش وعد بالنتيجة ولا هدف لازم كل شخص يوصله. الاستجابة الأبطأ مش معناها فشل، والاستجابة السريعة مش معناها إن الجرعة أو التغذية مناسبين تلقائياً. [5, 6]\n\nالأهم إن الدواء بيتستخدم لعلاج زيادة الوزن أو السمنة وتأثيرهم الصحي، مش لمطاردة شكل سريع قبل مناسبة. التحسن ممكن يظهر في الشهية أو محيط الوسط أو مؤشرات صحية قبل ما الميزان يتحرك بوضوح. ولو عايز تشوف مكانه وسط الاختيارات التانية، صفحة خيارات إدارة الوزن بدون جراحة بتلخص المسارات من غير ما تدخل في جرعات أو أسماء بعينها. [1, 2]",
+            "en": "GLP-1 is a natural hormone released by the gut after eating and involved in glucose and appetite regulation. Medicines that mimic this signal act on appetite centres in the brain, increase fullness and slow stomach emptying. Some act at the GLP-1 receptor alone, while dual medicines act at both GLP-1 and GIP receptors. They are not insulin and do not directly dissolve fat; they can make an appropriate intake easier to sustain. Products are not interchangeable and should not be switched without the prescriber. [1, 3, 4]\n\nResults vary with the medicine, dose, tolerance and health context. In STEP 1, mean weight change with semaglutide 2.4 mg was about 14.9% at 68 weeks, compared with 2.4% with placebo. In SURMOUNT-1, mean loss with tirzepatide ranged from 15% to 20.9% at 72 weeks according to dose, compared with 3.1% with placebo. These are trial averages from selected groups receiving lifestyle support, not a promised result or a target everyone must reach. [5, 6]\n\nThe medicine treats overweight or obesity and their health effects, not a rapid appearance change before an event. If you want to see where medication sits among other choices, non-surgical weight-management options summarises the broader pathways without moving into individual doses or brands. [1, 2]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "خيارات إدارة الوزن بدون جراحة",
+                "url": "../articles/non-surgical-weight-options.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "non-surgical weight-management options",
+                "url": "../articles/non-surgical-weight-options.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "who-may-be-a-candidate",
+          "heading": {
+            "ar": "مين ممكن يناقش العلاج مع الطبيب؟",
+            "en": "Who may discuss treatment with a clinician?"
+          },
+          "body": {
+            "ar": "القرار بيبدأ بتشخيص زيادة الوزن أو السمنة وتقييم تأثيرهم على الصحة، مش بمجرد إنك عايز تخس كام كيلو. إرشادات عامة زي إرشادات NIDDK بتذكر إن أدوية إدارة الوزن ممكن تتناقش للبالغ اللي مؤشر كتلته 30 أو أكتر، أو 27 أو أكتر مع مشكلة مرتبطة بالوزن زي الضغط أو السكر. بس الأرقام دي إطار مبدئي، ومش وصفة تلقائية. الطبيب بيبص كمان لتوزيع الدهون، ومحيط الوسط، والسكر والضغط والدهون، والنوم، والكبد، والمفاصل، وتاريخ محاولات العلاج، والأدوية اللي ممكن تزود الوزن. [1, 2]\n\nنوع الدواء المناسب مش بيتحدد بس بعبارة «الأقوى». وجود سكر من النوع التاني، مرض قلبي معروف، مشاكل كلى أو كبد، أعراض هضمية، أدوية تانية، تاريخ مرارة أو بنكرياس، وخطط الحمل كلها ممكن تغير الاختيار. كمان لازم تناقش طريقة الاستخدام، وقدرتك على المتابعة، والأعراض اللي تقدر تتحملها، والهدف الصحي الواقعي. بعض الأدوية لها دلائل أو تراخيص لفوائد محددة في فئات بعينها، وده مش معناه إن نفس الفائدة تنطبق على كل شخص أو كل منتج. [2, 3, 4]\n\nالدواء مش لازم يكون أول خطوة أو الخطوة الوحيدة. فيه ناس تستفيد من تدخل غذائي وسلوكي منظم من غير دواء، وناس تحتاج دواء مع نفس الأساس، وحالات تانية تحتاج تقييماً لمسار مختلف. لو عندك اضطراب أكل نشط، أو بتستخدم الحقنة عشان تمنع الأكل تماماً، أو بتشتري منتج مجهول من غير وصفة، لازم توقف وتطلب تقييماً آمناً. القرار المشترك مع الطبيب لازم يوضح ليه العلاج مناسب، وإيه البدائل، وإزاي هنعرف إنه مفيد أو محتاج تغيير. [1, 2]",
+            "en": "The decision begins with diagnosing overweight or obesity and assessing their health effect. NIDDK notes that medicine may be considered for an adult with a BMI of 30 or above, or 27 or above with a weight-related condition such as hypertension or type 2 diabetes. These are a framework, not an automatic prescription. The clinician also considers waist measurement, glucose, blood pressure, lipids, sleep, liver and joint health, previous treatment and medicines that may promote weight gain. [1, 2]\n\nThe right medicine is not simply the 'strongest'. Diabetes, cardiovascular disease, kidney or liver problems, digestive symptoms, other medicines, pancreatic or gallbladder history and pregnancy plans may all change the choice. Administration, follow-up, tolerability and a realistic health goal matter too. Evidence for a particular benefit in one population does not apply to every person or product. [2, 3, 4]\n\nMedicine need not be the first or only step. Some people benefit from nutrition and behavioural care without medication, others need medicine alongside it, and some require another pathway. Active eating-disorder symptoms, using an injection to avoid eating, or buying an unidentified product without a prescription call for clinical assessment. Shared decisions should clarify why treatment fits, the alternatives and how benefit will be judged. [1, 2]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "before-the-first-dose",
+          "heading": {
+            "ar": "قبل أول جرعة: تقييم موجه مش قائمة تحاليل ثابتة",
+            "en": "Before the first dose: a targeted assessment, not a fixed test list"
+          },
+          "body": {
+            "ar": "قبل البداية، قول للطبيب كل التشخيصات والأدوية والمكملات اللي بتاخدها، حتى لو شايف إنها بعيدة عن الوزن. مهم تذكر أدوية السكر والإنسولين عشان خطر هبوط السكر ممكن يزيد مع بعض التركيبات، وتذكر أي دواء بالفم محتاج مستوى دقيق لأن بطء تفريغ المعدة قد يأثر على امتصاص بعض الأدوية. قول كمان لو عندك تاريخ التهاب بنكرياس، حصوات أو التهاب مرارة، مرض كلى، قيء متكرر، بطء شديد في المعدة، حساسية دوائية قوية، أو مشاكل في شبكية العين مع السكر. النشرة الحالية للدواء هي المرجع للتعارضات والتحذيرات، مش تجربة شخص تاني على السوشيال ميديا. [3, 4]\n\nالتاريخ الشخصي أو العائلي لسرطان الغدة الدرقية النخاعي، أو متلازمة الأورام الصماء المتعددة من النوع الثاني، مانع مذكور في نشرات سيماجلوتايد وتيرزيباتيد المخصصة لإدارة الوزن. ده تحذير محدد، ومش معناه إن كل عقدة درقية أو كل قصور بالغدة نفس الشيء. بدل ما تخاف أو تطلب فحوصات عشوائية، احكي التشخيص الدقيق وأي تاريخ عائلي للطبيب. النشرات بتوضح كمان إن قيمة قياس الكالسيتونين أو سونار الغدة بشكل روتيني للكشف المبكر غير مؤكدة؛ الفحص بيتحدد حسب الأعراض والتاريخ، مش لمجرد إنك هتبدأ الدواء. [3, 4]\n\nمفيش لوحة تحاليل واحدة لازمة لكل الناس. الطبيب ممكن يطلب سكر تراكمي أو سكر صايم، ووظائف كلى أو كبد، ودهون أو تحاليل تانية حسب التاريخ والفحص والأدوية المصاحبة. الفكرة إننا نعرف نقطة البداية ونكتشف حاجة تغير القرار، مش نجمع أكبر عدد من النتائج. خُد معاك قياسات سابقة وقائمة الأدوية وأي تحاليل حديثة، واسأل بوضوح: إيه التشخيص؟ ليه الدواء ده؟ وإيه المؤشرات اللي هنتابعها؟ [1, 2]",
+            "en": "Before starting, list every diagnosis, medicine and supplement. Diabetes treatments matter because some combinations increase hypoglycaemia risk, while delayed gastric emptying may affect absorption of some oral medicines. Mention pancreatitis, gallbladder disease, kidney disease, recurrent vomiting, severe delayed stomach emptying, serious drug allergy or diabetic retinopathy. The current product label is the reference for warnings. [3, 4]\n\nA personal or family history of medullary thyroid carcinoma, or multiple endocrine neoplasia syndrome type 2, is a contraindication in the semaglutide and tirzepatide weight-management labels. This specific warning does not make every thyroid nodule or hypothyroidism equivalent. Give the clinician the precise diagnosis and family history. Routine calcitonin measurement or thyroid ultrasound has uncertain value; assessment follows symptoms and history. [3, 4]\n\nThere is no universal laboratory panel. The clinician may request HbA1c or fasting glucose, kidney or liver tests, lipids or other investigations according to clinical context. The purpose is to establish a baseline and detect something that changes the decision. Bring previous measurements, a medicine list and recent results. [1, 2]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "titration-and-common-effects",
+          "heading": {
+            "ar": "التدرج والأعراض الشائعة: الزيادة مش سباق",
+            "en": "Titration and common effects: escalation is not a race"
+          },
+          "body": {
+            "ar": "أدوية الحقن دي عادةً بتبدأ بجرعة منخفضة وتتدرج على أسابيع حسب النشرة والتحمل. الهدف من التدرج إن الجسم يتأقلم وتقل الأعراض، مش إن جرعة البداية نفسها تحقق أقصى نزول. الغثيان، والإسهال، والقيء، والإمساك، وألم أو انتفاخ البطن، والحموضة من الأعراض الشائعة المذكورة في النشرات والتجارب، وبتظهر كتير أثناء رفع الجرعة. الجرعة المناسبة مش بالضرورة أعلى جرعة، ولو الأعراض مستمرة أو بتمنعك من الأكل والشرب فالخطوة الصح مراجعة الواصف قبل أي زيادة. ما تجمعش دوائين من نفس العيلة، وما تغيرش اليوم أو الجرعة، وما توقفش فترة وترجع على جرعة عالية من نفسك. [3, 4, 5, 6]\n\nعملياً، هتستفيد من وجبات أصغر، والأكل ببطء، والتوقف أول ما تحس بالشبع، وتقليل الوجبات الدسمة جداً لو بتزود الغثيان. اشرب سوائل على مدار اليوم بما يناسب حالتك، وخلي الألياف تزيد تدريجياً بدل قفزة مفاجئة، واتحرك حركة خفيفة منتظمة لو مفيش مانع طبي. دي وسائل مساعدة، مش بديل عن تقييم أعراض قوية. لو فاتتك جرعة، اتبع تعليمات المنتج المحدد أو اسأل الصيدلي أو الطبيب؛ القواعد بتختلف حسب الدواء والمدة من الجرعة، ومضاعفة الجرعة للتعويض ممكن تزود الضرر. [3, 4]\n\nالمتابعة ما تعتمدش على الميزان وحده. اكتب مستوى الجوع والشبع، كمية الأكل والسوائل، التبرز، القيء، الطاقة، الدوخة، وأي هبوط سكر لو عندك سكر. راجع كمان قياس الوسط وضغط الدم والسكر أو أي مؤشر اتفق عليه الطبيب. لو الدواء مش محقق فائدة صحية كافية، أو الأعراض أكبر من الفائدة، القرار ممكن يكون تثبيت الجرعة، أو خفضها، أو تغيير العلاج، أو إيقافه بخطة. تعديل العلاج مش فشل؛ ده جزء طبيعي من الرعاية المبنية على الاستجابة. [1, 2]",
+            "en": "These injections usually begin at a low dose and escalate over several weeks. Titration supports tolerability; the starting dose is not meant to produce maximum loss. Nausea, diarrhoea, vomiting, constipation, abdominal pain, bloating and reflux are common, often during escalation. The suitable dose is not necessarily the highest. Review persistent effects or inadequate intake before an increase. Do not combine related medicines, alter the dose, or restart high after a break on your own. [3, 4, 5, 6]\n\nSmaller meals, slow eating, stopping at comfortable fullness and limiting rich meals when they worsen nausea may help. Take appropriate fluid, increase fibre gradually and use light movement when suitable. These steps do not replace assessment of severe symptoms. For a missed dose, follow that product's instructions or ask the pharmacist or clinician; never double it to compensate. [3, 4]\n\nFollow-up should cover hunger, intake, bowel movements, vomiting, energy, dizziness and hypoglycaemia as well as weight, waist, blood pressure or agreed markers. Insufficient benefit or excessive effects may lead to holding, reducing, changing or stopping treatment with a plan. Adjustment is part of response-based care. [1, 2]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "red-flags-and-special-situations",
+          "heading": {
+            "ar": "علامات خطر ومواقف لازم تقولها فوراً",
+            "en": "Red flags and situations to report promptly"
+          },
+          "body": {
+            "ar": "ألم بطن شديد ومستمر، خصوصاً لو بيمتد للظهر أو مصحوب بقيء، يحتاج تقييماً عاجلاً لاحتمال التهاب البنكرياس. ألم قوي أعلى يمين البطن، أو اصفرار الجلد أو العين، أو حرارة ممكن يشير لمشكلة في المرارة. القيء أو الإسهال المستمر مع قلة البول أو دوخة شديدة ممكن يعمل جفافاً ويأثر على الكلى. صعوبة التنفس، أو تورم الوجه أو اللسان، أو طفح منتشر بعد الجرعة حالة طارئة لاحتمال حساسية شديدة. ما تعتبرش الألم أو القيء الشديد علامة إن الدواء «شغال»؛ اطلب رعاية عاجلة حسب شدة الأعراض. [3, 4]\n\nلو بتاخد إنسولين أو دواء بيحفز إفراز الإنسولين، ناقش خطر هبوط السكر وخطة القياس والتعديل مع الطبيب؛ ما تقللش العلاج من نفسك. ولو عندك سكر واعتلال في الشبكية، التغير السريع في التحكم بالسكر يحتاج متابعة عين حسب حالتك. قبل تخدير عام أو تهدئة عميقة أو منظار، بلغ طبيب التخدير والفريق باسم الدواء وآخر جرعة، لأن بطء المعدة قد يزود خطر وجود محتويات بالمعدة. الفريق هو اللي يقرر تعليمات الصيام أو تأجيل الجرعة حسب الإجراء وحالتك، مش قاعدة عامة من الإنترنت. [3, 4]\n\nأدوية إدارة الوزن ما بتستخدمش أثناء الحمل، وخطط الحمل أو الرضاعة لازم تتناقش قبل الوصفة. تفاصيل وقت الإيقاف بتختلف حسب المادة؛ مثلاً نشرة سيماجلوتايد الحالية بتطلب الإيقاف قبل حمل مخطط بشهرين على الأقل. بدل تلخيص كل التفاصيل هنا، دليل أدوية إنقاص الوزن قبل الحمل بيشرح التخطيط والانتقال الآمن. ولو حصل حمل أثناء العلاج، ما تاخدش جرعة جديدة وتواصل بسرعة مع الواصف وطبيب النساء عشان تتحدد الخطوة المناسبة من غير هلع. [1, 3, 4]\n\nفي يناير 2026، قالت FDA إن مراجعتها الشاملة ما لقتش زيادة في خطر الأفكار أو السلوك الانتحاري مع أدوية GLP-1، وطلبت إزالة التحذير المحدد من نشرات أدوية إدارة الوزن المعنية. ده تصحيح مهم للمعلومة، لكنه مش سبب لتجاهل أي تغير نفسي مقلق. اكتئاب جديد أو متفاقم، أو أفكار بإيذاء النفس، يحتاجوا مساعدة طبية عاجلة بغض النظر عن سببهم. [9]",
+            "en": "Severe, persistent abdominal pain, particularly when it radiates to the back or comes with vomiting, needs urgent assessment for possible pancreatitis. Strong right-upper abdominal pain, jaundice or fever may indicate gallbladder disease. Persistent vomiting or diarrhoea with little urine or marked dizziness can cause dehydration and affect kidney function. Breathing difficulty, facial or tongue swelling, or a widespread rash after a dose is an emergency because of possible serious allergy. Do not treat severe pain or vomiting as proof that the medicine is 'working'; seek urgent care according to severity. [3, 4]\n\nIf you use insulin or a medicine that stimulates insulin release, discuss hypoglycaemia risk, monitoring and dose adjustment with the clinician; do not reduce treatment yourself. If you have diabetes and retinopathy, a rapid change in glucose control may require eye follow-up according to your situation. Before general anaesthesia, deep sedation or an endoscopic procedure, tell the anaesthesia and procedure teams the medicine name and last dose because delayed stomach emptying may increase the chance of retained stomach contents. The team decides fasting or dose instructions for the procedure and your circumstances; an internet rule cannot do that safely. [3, 4]\n\nWeight-management medicines are not used during pregnancy, and pregnancy plans or breastfeeding must be discussed before prescribing. Discontinuation timing varies by active ingredient; for example, the current semaglutide label advises stopping at least two months before a planned pregnancy. Rather than covering every reproductive detail here, weight-loss medicines before pregnancy explains planning and a safer transition. If pregnancy occurs during treatment, withhold a further dose and contact the prescriber and obstetric clinician promptly so the next step can be decided without panic. [1, 3, 4]\n\nIn January 2026, the FDA said its comprehensive review did not identify an increased risk of suicidal thoughts or behaviour with GLP-1 medicines and requested removal of that specific warning from the relevant weight-management labels. This is an important correction, but it is not a reason to ignore a concerning mental-health change. New or worsening depression or thoughts of self-harm need urgent clinical help regardless of their cause. [9]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل أدوية إنقاص الوزن قبل الحمل",
+                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "weight-loss medicines before pregnancy",
+                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "nutrition-muscle-and-progress",
+          "heading": {
+            "ar": "قلة الشهية مش معناها إهمال التغذية والعضلات",
+            "en": "Less appetite must not mean neglecting nutrition and muscle"
+          },
+          "body": {
+            "ar": "لما الشهية تهدى بسرعة، سهل تعدي اليوم على لقيمات قليلة. ده ممكن يقلل البروتين والسوائل والألياف والفيتامينات، ويزود الإمساك والتعب، ويخلي التدريب أصعب. الهدف مش إنك تفقد اهتمامك بالأكل خالص؛ الهدف إنك تاكل كمية مناسبة بجودة كفاية. اختار وجبات أصغر لو الشبع سريع، وخلي فيها مصدر بروتين مناسب، وخضار أو فاكهة، ومصدر طاقة يناسب خطتك. الاحتياج بيتغير مع الوزن والعمر والنشاط والكلى والكبد، عشان كده رقم بروتين من فيديو مش وصفة لكل الناس. [1, 8]\n\nكل نزول وزن ممكن يصاحبه جزء من الكتلة الخالية من الدهون، مش الدهون وحدها. مراجعة علمية عن علاجات GLP-1 لقت اختلافاً كبيراً بين الدراسات في نسبة الكتلة الخالية من الدهون من إجمالي النزول؛ وكمان وضحت إن «الكتلة الخالية من الدهون» مش مرادفاً دقيقاً للعضلات لأنها تشمل سوائل وأنسجة وأعضاء. عشان كده ما نستخدمش رقم واحد للتخويف، وما نفترضش إن أي تغير في جهاز تركيب الجسم معناه فقد عضلي خطير. بنبص للاتجاه مع القوة والوظيفة والأكل والترطيب، ونراجع الخطة لو فيه ضعف واضح أو تدهور في الأداء. [8]\n\nتمارين المقاومة المناسبة لقدرتك بتدي العضلة إشارة إنها مطلوبة، والمشي أو النشاط الهوائي بيدعم الصحة لكنه مش بديل كامل عن المقاومة. البداية ممكن تكون بوزن الجسم أو أربطة أو أوزان خفيفة، مع تدرج يناسب المفاصل والقلب واللياقة. النوم والتعافي كمان مهمين؛ تمرين عنيف مع أكل قليل وقيء متكرر مش خطة حماية عضلات. لو عايز التفاصيل العملية من غير ما نكررها هنا، راجع دليل حماية العضلات أثناء نزول الوزن، وناقش أي ضعف أو دوخة أو تراجع ملحوظ في القوة مع الفريق المعالج. [1, 8]",
+            "en": "When appetite falls quickly, it is easy to pass the day on a few bites. That can reduce protein, fluid, fibre and micronutrients, worsen constipation and fatigue, and make training harder. The goal is not to lose all interest in food; it is to eat an appropriate amount with adequate quality. Use smaller meals when fullness is early, including a suitable protein source, vegetables or fruit and an energy source that fits the plan. Requirements change with body size, age, activity, kidney and liver health, so a protein number from a video is not a prescription for everyone. [1, 8]\n\nAny weight loss can include some fat-free mass rather than fat alone. A scientific review of GLP-1-based therapies found wide variation among studies in the proportion of total loss described as lean mass; it also explained that 'lean mass' is not an exact synonym for muscle because it includes fluid, tissues and organs. One number should therefore neither be used to frighten people nor to declare that every body-composition change represents dangerous muscle loss. The trend is interpreted alongside strength, function, intake and hydration, with review if clear weakness or poorer performance develops. [8]\n\nResistance exercise suited to your ability signals that muscle is needed. Walking and aerobic activity support health, but do not fully replace resistance work. A starting point may use body weight, bands or light loads, progressing according to joint health, cardiovascular status and fitness. Sleep and recovery also matter; hard training alongside inadequate food and repeated vomiting is not a muscle-protection plan. For practical detail without repeating a neighbouring topic, see protecting muscle while losing weight, and report weakness, dizziness or a clear fall in strength to the treating team. [1, 8]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل حماية العضلات أثناء نزول الوزن",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "protecting muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "long-term-plan-and-next-step",
+          "heading": {
+            "ar": "خطة الاستمرار والتوقف تتقال من البداية",
+            "en": "Discuss continuation and stopping from the beginning"
+          },
+          "body": {
+            "ar": "السمنة عند ناس كتير حالة مزمنة قابلة للرجوع، وتأثير الدواء على الجوع والشبع بيقل بعد الإيقاف. في امتداد تجربة STEP 1، المشاركون اللي وقفوا سيماجلوتايد استعادوا في المتوسط حوالي ثلثي الوزن اللي فقدوه خلال سنة من الإيقاف. وفي SURMOUNT-4، سحب تيرزيباتيد أدى لرجوع ملحوظ للوزن، بينما الاستمرار حافظ على النزول وزوده في مجموعة التجربة. النتائج دي ما تقولش إن كل شخص لازم يكمل للأبد، لكنها بتوضح ليه الإيقاف المفاجئ من غير خطة ممكن يرجع الشهية والوزن. رجوع جزء من الوزن مش إدمان ولا ضعف إرادة؛ هو سبب إن علاج السمنة يحتاج متابعة طويلة المدى. [7, 12]\n\nقبل البداية، اتفق مع الطبيب على الهدف الصحي، ومواعيد المراجعة، وإيه اللي يعتبر فائدة كافية، وإمتى الأعراض تستدعي تعديل الخطة. واتكلم من الأول عن احتمالات الاستمرار أو التغيير أو التوقف، وعن خطة الأكل والحركة والنوم والدعم السلوكي بعد أي انتقال. ما توقفش بسبب رقم عابر على الميزان، وما تكملش رغم ضرر واضح لمجرد الخوف من الرجوع. القرار فردي ويتراجع مع الواصف، وخصوصاً لو اتغيرت حالتك الصحية أو أدويتك أو خطط الحمل أو احتياجك لجراحة أو إجراء تحت تخدير. [1, 2, 3, 4]\n\nلو بتفكر تبدأ أو محتاج تراجع علاج قائم، جهز اسم الدواء والتركيز وآخر جرعة، وقائمة كل الأدوية، وأي تحاليل حديثة، وسجل بسيط للشهية والأعراض والوزن. في العيادة، التقييم يحدد هل الدواء مناسب أصلاً، وإيه المتابعة المطلوبة، وهل التغذية والعضلات واخدين حقهم في الخطة. مفيش وعد برقم أو سرعة معينة، وممكن تكون النتيجة إن البداية تتأجل أو إن مسار تاني أنسب. لما تحتاج قراراً منظماً مع متابعة، تقدر تطلب حجز استشارة إدارة الوزن لمناقشة حالتك مع الفريق الطبي. [1, 2]",
+            "en": "For many people, obesity is chronic and can recur, while a medicine's effect on hunger and fullness fades after withdrawal. In the STEP 1 extension, participants who stopped semaglutide regained, on average, about two-thirds of their prior loss over the following year. In SURMOUNT-4, withdrawal of tirzepatide led to substantial weight regain, while continued treatment maintained and augmented loss in the trial group. These findings do not say that every person must continue forever, but they show why abrupt withdrawal without a plan may allow appetite and weight to return. Regaining some weight is not addiction or weak willpower; it is one reason obesity care often needs a long-term view. [7, 12]\n\nBefore starting, agree with the clinician on the health goal, review schedule, what counts as sufficient benefit and which effects require adjustment. Discuss possible continuation, change or stopping from the beginning, alongside food, movement, sleep and behavioural support through any transition. Do not stop because of one temporary scale reading, and do not continue through clear harm solely from fear of regain. The decision is individual and belongs in review with the prescriber, particularly when health, other medicines, pregnancy plans or the need for surgery or sedation changes. [1, 2, 3, 4]\n\nIf you are considering treatment or need to review an existing prescription, prepare the medicine name and strength, last dose, a full medicine list, recent results and a simple record of appetite, symptoms and weight. In clinic, assessment establishes whether medicine is appropriate at all, what follow-up is needed, and whether nutrition and muscle protection have a real place in the plan. There is no promise of a number or speed, and assessment may conclude that starting should wait or that another route fits better. When you need a structured decision with follow-up, you can request a weight-management consultation to discuss your circumstances with the clinical team. [1, 2]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز استشارة إدارة الوزن",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a weight-management consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل أدوية GLP-1 هي الإنسولين؟",
+            "en": "Are GLP-1 medicines insulin?"
+          },
+          "a": {
+            "ar": "لأ. دي أدوية بتحاكي إشارات هرمونية مرتبطة بالشبع وتنظيم السكر، لكنها مش إنسولين. بعض المنتجات معتمدة للسكر، وبعضها لإدارة الوزن أو لاستعمالات محددة تانية، والجرعات والأسماء مش قابلة للتبديل تلقائياً. اختيار المنتج بيتحدد بالتشخيص والحالة الصحية والنشرة المعتمدة. [1, 3, 4]",
+            "en": "No. They mimic hormone signals involved in fullness and glucose regulation, but they are not insulin. Some products are approved for diabetes, some for weight management or other specific indications, and their names and doses are not automatically interchangeable. Product selection depends on diagnosis, health context and the approved label. [1, 3, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "ينفع أبدأ بأعلى جرعة عشان أخس أسرع؟",
+            "en": "Can I start at the highest dose to lose weight faster?"
+          },
+          "a": {
+            "ar": "لأ. البداية المنخفضة والتدرج جزء من طريقة الاستخدام الآمن وتحمل المعدة والأمعاء. القفز لجرعة عالية ممكن يزود الغثيان والقيء والجفاف من غير ما يضمن نتيجة أحسن. الجرعة تتثبت أو تزيد حسب جدول المنتج واستجابتك ومراجعة الواصف، ومش لازم توصل لأعلى جرعة لو فائدة أقل جرعة مناسبة وواضحة. [3, 4]",
+            "en": "No. A low starting dose and gradual escalation are part of safer use and gastrointestinal tolerability. Jumping to a high dose can increase nausea, vomiting and dehydration without guaranteeing a better result. The dose is held or increased according to the product schedule, your response and prescriber review; reaching the highest dose is not required when a lower dose is appropriate and beneficial. [3, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الغثيان والقيء معناهم إن الدواء شغال؟",
+            "en": "Do nausea and vomiting mean the medicine is working?"
+          },
+          "a": {
+            "ar": "مش شرط. الغثيان عرض شائع، لكنه مش مقياس للفعالية، والقيء المستمر ممكن يعمل جفافاً ويأثر على الكلى والتغذية. وجبات أصغر والأكل ببطء ممكن يساعدوا في الأعراض الخفيفة، لكن عدم القدرة على الاحتفاظ بالسوائل، أو قلة البول، أو دوخة شديدة، أو ألم بطن قوي يحتاجوا تواصل عاجل أو رعاية طارئة حسب الشدة. [3, 4]",
+            "en": "Not necessarily. Nausea is common, but it is not a measure of effectiveness, and persistent vomiting can cause dehydration and compromise kidney function and nutrition. Smaller meals and slower eating may help mild effects, but inability to keep fluids down, little urine, marked dizziness or severe abdominal pain requires prompt contact or emergency care according to severity. [3, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أعمل تحاليل غدة وبنكرياس كتير قبل البداية؟",
+            "en": "Do I need extensive thyroid and pancreatic tests before starting?"
+          },
+          "a": {
+            "ar": "مفيش قائمة موحدة لكل الناس. الطبيب بيختار التحاليل حسب تاريخك وفحصك والتشخيص والأدوية المصاحبة. المهم تقول بدقة عن تاريخ البنكرياس والمرارة والكلى والغدة وأي تاريخ عائلي لسرطان الغدة النخاعي أو MEN2. النشرات بتذكر إن فحص الكالسيتونين أو سونار الغدة بشكل روتيني لكل مستخدم قيمته غير مؤكدة. [1, 3, 4]",
+            "en": "There is no single test list for everyone. The clinician selects investigations according to history, examination, diagnosis and accompanying medicines. Give an accurate pancreatic, gallbladder, kidney and thyroid history, including any family history of medullary thyroid carcinoma or MEN2. Labels state that routine calcitonin testing or thyroid ultrasound for every user has uncertain value. [1, 3, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "لو الوزن وقف، أزود الجرعة فوراً؟",
+            "en": "If weight plateaus, should I increase the dose immediately?"
+          },
+          "a": {
+            "ar": "لأ. ثبات قصير ممكن يحصل بسبب السوائل أو الإمساك أو اختلاف القياس، ومش معناه تلقائياً إن الدواء بطل يشتغل. راجع اتجاه الوزن والوسط، والشهية، والأكل، والحركة، والأعراض على مدة كفاية مع الطبيب. زيادة الجرعة تتحدد بجدول الدواء والتحمل والفائدة، وممكن القرار يكون تثبيت الجرعة أو تعديل جزء تاني من الخطة. [1, 2, 3, 4]",
+            "en": "No. A short plateau may reflect fluid, constipation or measurement variation and does not automatically mean the medicine has stopped working. Review the trend in weight and waist, appetite, intake, movement and effects over a suitable interval with the clinician. Escalation depends on the product schedule, tolerance and benefit; the decision may instead be to hold the dose or adjust another part of the plan. [1, 2, 3, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "أوقف الدواء لما أوصل لهدفي؟",
+            "en": "Should I stop the medicine when I reach my goal?"
+          },
+          "a": {
+            "ar": "ما توقفش من نفسك. تجارب الإيقاف لسيماجلوتايد وتيرزيباتيد بينت رجوعاً واضحاً للوزن عند ناس كتير بعد سحب العلاج، لأن تأثيره على الشهية بيقل. ده لا يعني إن الاستمرار لازم لكل حد؛ القرار يعتمد على الفائدة والأعراض والحالة وخطة التثبيت، ويتراجع مع الواصف قبل التوقف أو التغيير. [7, 12]",
+            "en": "Do not stop on your own. Withdrawal trials with semaglutide and tirzepatide found substantial regain in many participants after treatment was removed as its appetite effect faded. This does not make continuation compulsory for everyone; the decision depends on benefit, adverse effects, health context and a maintenance plan, and should be reviewed with the prescriber before stopping or changing. [7, 12]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Prescription Medications to Treat Overweight & Obesity",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
+        },
+        {
+          "label": "Endocrine Society — Pharmacological Management of Obesity Guideline Resources",
+          "url": "https://www.endocrine.org/clinical-practice-guidelines/pharmacological-management-of-obesity"
+        },
+        {
+          "label": "DailyMed — Wegovy (semaglutide) current prescribing information",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b"
+        },
+        {
+          "label": "DailyMed — Zepbound (tirzepatide) current prescribing information",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b"
+        },
+        {
+          "label": "Wilding et al. — Once-Weekly Semaglutide in Adults with Overweight or Obesity: STEP 1 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33567185/"
+        },
+        {
+          "label": "Jastreboff et al. — Tirzepatide Once Weekly for the Treatment of Obesity: SURMOUNT-1 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35658024/"
+        },
+        {
+          "label": "Wilding et al. — Weight Regain after Withdrawal of Semaglutide: STEP 1 Extension (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35441470/"
+        },
+        {
+          "label": "Neeland et al. — Changes in Lean Body Mass with GLP-1-based Therapies and Mitigation Strategies (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "label": "FDA — Removal of Suicidal Behavior and Ideation Warning from GLP-1 RA Medications, January 2026",
+          "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-requests-removal-suicidal-behavior-and-ideation-warning-glucagon-peptide-1-receptor-agonist-glp"
+        },
+        {
+          "label": "NICE — Semaglutide for Managing Overweight and Obesity (TA875)",
+          "url": "https://www.nice.org.uk/guidance/ta875/chapter/1-Recommendations"
+        },
+        {
+          "label": "NICE — Prescribing, Reviewing and Stopping Tirzepatide (NG246)",
+          "url": "https://www.nice.org.uk/guidance/ng246/resources/a-guide-for-prescribing-medicines-to-manage-overweight-and-obesity-15299628589/chapter/Prescribing-reviewing-and-stopping-tirzepatide"
+        },
+        {
+          "label": "Aronne et al. — Continued Tirzepatide for Maintenance of Weight Reduction: SURMOUNT-4 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38078870/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "GLP-1",
+          "حقن التخسيس",
+          "حقن GLP-1",
+          "علاج السمنة بدون جراحة"
+        ],
+        "en": [
+          "GLP-1",
+          "weight-management injections",
+          "GLP-1 injections",
+          "non-surgical weight management"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "حقن GLP-1 لإنقاص الوزن: دليل الاستخدام الآمن",
+          "en": "GLP-1 Medicines for Weight Loss: A Safe-Use Guide"
+        },
+        "description": {
+          "ar": "دليل عملي عن حقن GLP-1 لإنقاص الوزن: مين يناسبه العلاج، والتدرج، والأعراض وعلامات الخطر، وحماية التغذية والعضلات مع متابعة طبية.",
+          "en": "A practical GLP-1 weight-loss guide covering candidacy, dose escalation, side effects, red flags, nutrition, muscle protection and medical follow-up."
+        }
+      }
+    }
+  ]
+}

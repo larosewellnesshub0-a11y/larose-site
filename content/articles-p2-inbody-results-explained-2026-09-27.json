@@ -1,0 +1,205 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of inbody-results-explained; replaces the entry from content/articles-inbody-results-explained-rewrite-2026-09-20.json. Expanded report interpretation, evidence, safety guidance, FAQs, internal links, and medically re-reviewed metadata.",
+  "articles": [
+    {
+      "slug": "inbody-results-explained",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": ["clinical-nutrition", "weight-management", "internal-medicine"],
+      "date": "2026-09-10",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/body-composition-not-scale.webp",
+      "title": {
+        "ar": "تحليل InBody: بيقيس إيه وإزاي تقرأ النتيجة؟",
+        "en": "InBody results explained: how to read your report"
+      },
+      "excerpt": {
+        "ar": "تحليل InBody بيقدّر الدهون والعضلات ومياه الجسم، لكن النتيجة مش تشخيص ولا حكم من قراءة واحدة. اعرف معنى البنود وإزاي تفرّق بين تغير حقيقي وتذبذب مؤقت.",
+        "en": "InBody estimates body fat, muscle and body water, but one report is neither a diagnosis nor a verdict. Learn what each field means and how to separate a real trend from temporary variation."
+      },
+      "tags": {
+        "ar": ["تحليل InBody", "نتيجة InBody", "تركيب الجسم", "نسبة الدهون", "الكتلة العضلية"],
+        "en": ["InBody analysis", "InBody results", "body composition", "body fat percentage", "muscle mass"]
+      },
+      "sections": [
+        {
+          "id": "what-inbody-measures",
+          "heading": {
+            "ar": "الجهاز بيقيس مقاومة، وبعدها بيقدّر تركيب الجسم",
+            "en": "The device measures impedance, then estimates composition"
+          },
+          "body": {
+            "ar": "تحليل InBody نوع من تحليل المقاومة الكهربائية الحيوية، أو BIA. الجهاز بيمرر تيار كهربائي ضعيف جداً بين الأقطاب وبيقيس مقاومة أنسجة الجسم وخواص كهربائية تانية. الأنسجة اللي فيها مياه أكتر بتوصل التيار بطريقة مختلفة عن الدهون. بعد كده الجهاز بيستخدم القياس مع الطول والوزن والعمر أو بيانات تانية في معادلات عشان يطلع تقديرات لمياه الجسم، والكتلة الخالية من الدهون، وكتلة الدهون، ونسبة الدهون، وأحياناً كتلة العضلات الهيكلية وتوزيعها. يعني القياس المباشر هو المقاومة؛ أما الدهون والعضلات فنتيجة نموذج حسابي، مش مشاهدة مباشرة لكل نسيج. [1, 7, 8]\n\nالفرق ده مهم وإنت بتقرأ الورقة. كثرة الخانات والأرقام العشرية ممكن تدي إحساس بدقة مطلقة، لكن صلاحية معادلة BIA بتعتمد على نوع الجهاز والفئة اللي اتبنت عليها، ومنها السن والجنس والنشاط والحالة الصحية. عشان كده الرقم مفيد كجزء من تقييم، بس مش بديل عن الفحص أو التاريخ المرضي أو تحاليل الدم، ومش بيثبت مرض لوحده. أجهزة DXA والتصوير بطرق تانية بتقيس جوانب مختلفة وبتتستخدم كطرق مرجعية في أبحاث كتير، وبرضه لكل طريقة حدودها. [7, 8, 11]\n\nابدأ بفكرة بسيطة: الورقة خريطة تقديرية لتركيب الجسم في لحظة معينة. قيمتها الأكبر لما تجاوب سؤال واضح، زي هل اتجاه الدهون نازل مع الحفاظ على القوة والعضلات، وتتقارن بقياسات اتعملت بنفس الطريقة. لو محتاج الصورة الأوسع عن الفرق بين الوزن ومكوناته، مقال تركيب الجسم مش رقم الميزان بيلخصها من غير ما يكرر تفاصيل قراءة التقرير هنا. [1, 11]",
+            "en": "InBody is a form of bioelectrical impedance analysis, or BIA. The device passes a very small electrical current between electrodes and measures tissue resistance and other electrical properties. Water-rich tissues conduct current differently from fat. It then combines the measurement with height, weight, age or other inputs in equations to estimate total body water, fat-free mass, fat mass, body-fat percentage and, on some reports, skeletal-muscle mass and its distribution. The direct measurement is impedance; fat and muscle are outputs of a model, not tissues that the machine sees or counts directly. [1, 7, 8]\n\nThat distinction matters when reading the sheet. Numerous fields and decimal places can look exact, but the suitability of a BIA equation depends on the device and the population in which it was developed, including age, sex, activity and health status. A result can contribute to an assessment, but it cannot replace an examination, medical history or blood tests, and it cannot establish a disease on its own. DXA and imaging methods measure different aspects and are often used as reference methods in research, although every method has limitations. [7, 8, 11]\n\nStart with a simple frame: the report is an estimate-based map of body composition at one moment. It is most useful when it answers a defined question, such as whether body-fat direction is improving while strength and muscle are protected, and when it is compared with measurements made in the same way. For the broader difference between weight and its components, body composition is not the scale explains the context without duplicating report-reading detail here. [1, 11]"
+          },
+          "links": {
+            "ar": [{"label": "تركيب الجسم مش رقم الميزان", "url": "../articles/body-composition-not-scale.html"}],
+            "en": [{"label": "body composition is not the scale", "url": "../articles/body-composition-not-scale.html"}]
+          }
+        },
+        {
+          "id": "read-core-fields-together",
+          "heading": {
+            "ar": "اقرأ الوزن والدهون والكتلة الخالية من الدهون مع بعض",
+            "en": "Read weight, fat and fat-free mass together"
+          },
+          "body": {
+            "ar": "الوزن هو المجموع، مش نوع نسيج. كتلة الدهون هي كمية الدهون المقدّرة بالكيلوجرام، ونسبة الدهون هي كتلة الدهون مقسومة على الوزن؛ عشان كده النسبة ممكن تتغير لو الوزن أو المياه اتغيروا حتى من غير تغير كبير في الدهون نفسها. الكتلة الخالية من الدهون تشمل مياه الجسم والعضلات والأعضاء والعظام ومكونات تانية، فمش صح تعتبرها كلها عضلات. وكتلة العضلات الهيكلية، لو موجودة، هي تقدير أضيق لكنه برضه متأثر بنموذج الجهاز وحالة السوائل. اقرأ البنود كعلاقة واحدة بدل ما تختار خانة وتديها معنى أكبر من حقيقتها. [7, 9, 11]\n\nمثال عملي: لو الوزن وكتلة الدهون نزلوا على عدة زيارات، بينما تقدير العضلات والقوة ثابتين تقريباً، ده اتجاه مختلف عن نزول الوزن مع هبوط مستمر في الكتلة الخالية من الدهون وضعف أو قلة أكل. وفي الاتجاه العكسي، ثبات الوزن مع نقص محيط الخصر وتحسن القوة ممكن يكون تقدماً مفيداً. القرار ما يتاخدش من المثال لوحده؛ أخصائي التغذية بيربطه بهدفك، أكلك، نشاطك، أدائك، وأي مرض أو دواء مؤثر. [3, 4, 6]\n\nبعض الأوراق بتحط مدى منخفض أو طبيعي أو مرتفع. ده مدى مرجعي عام، مش هدف علاجي شخصي، ومش معناه إن كل واحد خارج اللون الأخضر عنده مرض. مؤشر كتلة الجسم ومحيط الخصر ليهم دور منفصل في تقييم مخاطر زيادة الوزن؛ إرشادات NICE بتوصي بتفسيرهم مع الحالة الصحية، مش استبدالهم برقم دهون من جهاز. ما تقارنش نتيجتك بصاحبك، وما تحولش خانة واحدة لشهادة نجاح أو رسوب. [3]",
+            "en": "Weight is the total, not a tissue type. Fat mass is the estimated amount of fat in kilograms, while body-fat percentage is fat mass divided by weight; the percentage can therefore move when weight or water changes without a large change in fat itself. Fat-free mass includes body water, muscle, organs, bone and other components, so it is incorrect to call all of it muscle. Skeletal-muscle mass, where shown, is a narrower estimate, but it still depends on the device model and fluid state. Read these fields as one relationship instead of selecting a box and giving it more meaning than it carries. [7, 9, 11]\n\nFor example, weight and fat mass falling across several visits while estimated muscle and strength remain broadly stable is a different pattern from weight falling alongside a persistent decline in fat-free mass, weakness or inadequate intake. Conversely, stable weight with a smaller waist and better strength may represent useful progress. A decision should not come from the example alone: a nutrition clinician relates it to your goal, intake, activity, function, illness and medicines. [3, 4, 6]\n\nSome reports label a range low, normal or high. This is a general reference range, not an automatic personal treatment target, and being outside a green band does not prove disease. BMI and waist circumference have separate roles in assessing weight-related risk; NICE recommends interpreting them with health context, not replacing them with a device-derived fat number. Do not compare your result with a friend's or turn one field into a pass-or-fail certificate. [3]"
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "muscle-segmental-visceral",
+          "heading": {
+            "ar": "العضلات والتوزيع والدهون الحشوية مش تشخيص",
+            "en": "Muscle, segmental and visceral fields are not diagnoses"
+          },
+          "body": {
+            "ar": "لو التقرير فيه توزيع تقديري للعضلات على الذراعين والرجلين والجذع، استخدمه عشان تلاحظ نمطاً كبيراً ومتكرراً، مش عشان تقلق من فرق صغير بين اليمين والشمال. وضع القدم أو اليد، تلامس الأقطاب، اختلاف الجهاز والسوائل ممكن يأثروا على النتيجة. كمان الجذع بيساهم بجزء صغير نسبياً من مقاومة الجسم رغم إنه يحتوي كتلة كبيرة، وده سبب من أسباب حدود تقدير مكونات البطن. الأجهزة المنزلية ثنائية الأقطاب مش لازم تتفق مع جهاز متعدد الأقطاب في العيادة؛ الدراسات لقت اختلافات في الاتفاق مع DXA وMRI حسب ترتيب الأقطاب والجهاز. [10, 11]\n\nرقم العضلات المنخفض ما يشخصش الساركوبينيا أو ضعف العضلات. الإجماع الأوروبي بيركز الأول على القوة، وبعدها كمية أو جودة العضلات لتأكيد التشخيص، والأداء البدني بيساعد في تقدير الشدة. يعني صعوبة القيام من الكرسي، بطء المشي، السقوط أو ضعف القبضة أهم من إنك تطمّن أو تقلق من خانة واحدة. التقييم السريري ممكن يشمل قوة القبضة أو اختبار القيام والمشي، وأحياناً DXA حسب الحالة. [4, 6]\n\nولو الورقة بتعرض مستوى أو مساحة مقدّرة للدهون الحشوية، اعتبرها مؤشر جهاز يحتاج سياقاً، مش صورة مباشرة للأعضاء ولا تشخيصاً للكبد الدهني أو السكر أو مرض القلب. محيط الخصر، ضغط الدم، التاريخ المرضي والتحاليل المطلوبة بيجاوبوا أسئلة مختلفة. حماية العضلات أثناء إنقاص الوزن موضوع مهم، لكن تفاصيل البروتين وتمارين المقاومة وسرعة النزول موجودة في صفحة منفصلة عشان ما نحولش دليل قراءة النتيجة لخطة علاج عامة. [3, 4]",
+            "en": "If the report estimates muscle distribution in the arms, legs and trunk, use it to notice a large, repeated pattern rather than worry about a small right-to-left difference. Foot or hand position, electrode contact, device differences and fluid can influence the output. The trunk contributes a relatively small share of whole-body impedance despite containing substantial mass, which is one reason estimates of abdominal composition have limits. A two-electrode home scale need not agree with a multi-electrode clinic device; studies find different agreement with DXA and MRI according to electrode arrangement and device. [10, 11]\n\nA low muscle field does not diagnose sarcopenia or muscle weakness. European consensus places low strength first, then uses muscle quantity or quality to confirm the diagnosis, while physical performance helps judge severity. Difficulty rising from a chair, slower walking, falls or weak grip therefore matter more than reassurance or alarm from one box. Clinical assessment may include grip strength, a chair-rise or walking test, and sometimes DXA according to the situation. [4, 6]\n\nIf the report displays a visceral-fat level or area, treat it as a device-specific indicator needing context, not a direct image of the organs or a diagnosis of fatty liver, diabetes or heart disease. Waist circumference, blood pressure, medical history and selected laboratory tests answer different questions. Protecting muscle while losing weight is important, but detail about protein, resistance exercise and pace of loss sits in a separate page so this report-reading guide does not become a general treatment plan. [3, 4]"
+          },
+          "links": {
+            "ar": [{"label": "حماية العضلات أثناء إنقاص الوزن", "url": "../articles/protecting-muscle-while-losing-weight.html"}],
+            "en": [{"label": "Protecting muscle while losing weight", "url": "../articles/protecting-muscle-while-losing-weight.html"}]
+          }
+        },
+        {
+          "id": "body-water",
+          "heading": {
+            "ar": "مياه الجسم ممكن تغيّر شكل النتيجة بسرعة",
+            "en": "Body water can change the appearance of the result quickly"
+          },
+          "body": {
+            "ar": "BIA بيعتمد بدرجة كبيرة على مرور التيار في المياه، فاختلاف الترطيب ممكن يتحول في المعادلة لتغير ظاهري في الكتلة الخالية من الدهون أو نسبة الدهون. دراسة تجريبية على رياضيين لقت إن تغييرات الترطيب الحادة أثرت على المقاومة وتقديرات مكونات الجسم. وده يفسر ليه قراءة بعد تمرين شديد، مرض مع قيء أو إسهال، يوم حر، وجبة كبيرة أو اختلاف واضح في الشرب ممكن ما تتقارنش بعدل بقراءة اتعملت في ظروف هادية. النتيجة الغريبة مش معناها تلقائياً إنك كسبت دهون أو خسرت عضل في أيام قليلة. [5, 7, 11]\n\nخانات مياه الجسم الكلية، والمياه داخل وخارج الخلايا، أو نسبة المياه خارج الخلايا للمجموع موجودة في بعض الأجهزة. الأرقام دي تقديرات برضه، ومش تحليل وظائف كلى ولا تشخيص احتباس سوائل. مراجعات الاستخدام السريري بتوضح إن نماذج BIA ممكن تبقى أقل صلاحية لما توزيع السوائل أو شكل الجسم مختلف، خصوصاً على مستوى الشخص الواحد. الحمل، الوذمة، أمراض الكلى أو القلب أو الكبد، الالتهاب وبعض الأدوية كلها أسباب تخلي التفسير محتاج طبيب يعرف الحالة، مش قاعدة عامة من الإنترنت. [9, 11]\n\nعشان المتابعة تبقى أهدى، قارن نفس الجهاز وفي وقت وروتين قريبين، وسجل أي ظرف غير معتاد. ما تجففش نفسك، وما تشربش كمية مبالغ فيها عشان تزوق الرقم؛ ده ممكن يضلل القرار ويكون غير آمن. دليل التحضير لتحليل InBody بيشرح خطوات يوم القياس بالتفصيل. ثبات الظروف يقلل الضوضاء، لكنه ما يحولش التقدير لقياس كامل الدقة. [5, 7]",
+            "en": "BIA depends heavily on current travelling through body water, so a change in hydration can be converted by the equation into an apparent change in fat-free mass or body-fat percentage. An experimental study in trained people found that acute hydration changes affected impedance and body-composition estimates. This helps explain why a reading after hard exercise, illness with vomiting or diarrhoea, a hot day, a large meal or markedly different fluid intake may not compare fairly with one taken under settled conditions. An unusual result does not automatically mean that you gained fat or lost muscle within a few days. [5, 7, 11]\n\nSome devices show total body water, intracellular and extracellular water, or an extracellular-water ratio. These remain estimates; they are not kidney-function tests and do not diagnose fluid retention. Reviews of clinical use explain that BIA models may be less valid when fluid distribution or body geometry differs, particularly for an individual patient. Pregnancy, oedema, kidney, heart or liver disease, inflammation and some medicines are all reasons for interpretation by a clinician who knows the case rather than an online rule. [9, 11]\n\nFor calmer follow-up, compare readings on the same device at a similar time and routine, and record unusual circumstances. Do not dehydrate yourself or drink an excessive amount to improve the result; that can mislead decisions and may be unsafe. The InBody preparation guide covers measurement-day steps in detail. Consistent conditions reduce noise but do not turn an estimate into a perfectly exact measurement. [5, 7]"
+          },
+          "links": {
+            "ar": [{"label": "دليل التحضير لتحليل InBody", "url": "../articles/inbody-preparation-for-reliable-follow-up.html"}],
+            "en": [{"label": "InBody preparation guide", "url": "../articles/inbody-preparation-for-reliable-follow-up.html"}]
+          }
+        },
+        {
+          "id": "scores-targets-comparisons",
+          "heading": {
+            "ar": "InBody Score والأهداف المطبوعة مش حكم طبي",
+            "en": "The InBody Score and printed targets are not medical verdicts"
+          },
+          "body": {
+            "ar": "بعض نسخ التقرير بتعرض InBody Score أو وزن مستهدف أو اقتراح لتغيير الدهون والعضلات. الخانات دي مخرجات من برنامج الجهاز؛ مش تشخيصات معتمدة لوحدها، ومش كل زيادة في الدرجة معناها تحسن صحي، ومش مطلوب تخلي الدرجة هدفاً شخصياً من غير مناقشة. ممكن شخص عنده كتلة عضلية أعلى ياخد شكلاً مختلفاً للنتيجة، وممكن ظروف السوائل تغيّر البنود اللي دخلت في الحساب. اسأل الأخصائي: الدرجة دي اتكونت من إيه، وهل فعلاً بتجاوب سؤالاً مهماً في حالتي؟ [7, 8]\n\nما تستخدمش «الوزن المثالي» المطبوع كأمر لازم توصله. الهدف بيتحدد من صحتك، تاريخ الوزن، علاقتك بالأكل، كتلة العضلات، محيط الخصر، التحاليل، القدرة على الاستمرار وأي أدوية أو أمراض. إرشادات تقييم الوزن بتشدد على الحوار الحساس واستخدام أكتر من معلومة بدل اختزال الصحة في رقم. ولو التقرير كتب معدل الأيض الأساسي، فهو تقدير للطاقة في الراحة مبني على معادلة، مش وصفة لسعرات يومك ومش معناه إن الأكل أقل منه آمن أو مناسب. [3, 8]\n\nكمان ما تجمعش نتائج من أجهزة مختلفة في خط واحد. اختلاف تصميم الأقطاب، الترددات، المعادلات والسكان اللي اتعاير عليهم الجهاز ممكن يعمل فروقاً ملحوظة. أبحاث مقارنة أجهزة استهلاكية بـDXA وMRI لقت إن الاتفاق على مستوى الفرد يختلف حسب الجهاز، حتى لو متوسط مجموعة كاملة شكله مقبول. لو اضطررت تغير الجهاز، اعتبر القراءة الجديدة نقطة بداية جديدة بدل ما تنسب كل الفرق لجسمك. [8, 10, 11]",
+            "en": "Some report versions display an InBody Score, target weight or suggested change in fat and muscle. These are outputs of the device software; they are not stand-alone diagnoses, a higher score does not always equal better health, and the score need not become a personal target without discussion. A person with more muscle may receive a different-looking result, while fluid conditions can alter fields used in the calculation. Ask what contributes to the score and whether it answers an important question in your case. [7, 8]\n\nDo not treat a printed 'ideal weight' as an instruction you must reach. A goal depends on health, weight history, relationship with food, muscle, waist, laboratory findings, sustainability, medicines and illness. Weight-assessment guidance emphasises sensitive discussion and use of more than one piece of information rather than reducing health to a number. If the report gives basal metabolic rate, that too is an equation-based estimate of resting energy use, not a prescription for daily calories and not evidence that eating below it is safe or appropriate. [3, 8]\n\nDo not combine results from different devices into one trend line either. Electrode design, frequencies, equations and the populations used for calibration can create meaningful differences. Research comparing consumer devices with DXA and MRI found that individual agreement varied by device even where a group average looked acceptable. If you must change equipment, treat the new measurement as a fresh baseline instead of attributing the entire difference to your body. [8, 10, 11]"
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "judge-a-real-trend",
+          "heading": {
+            "ar": "إزاي تعرف إن التغير يستحق تعديل الخطة؟",
+            "en": "How to decide whether a change should alter the plan"
+          },
+          "body": {
+            "ar": "مافيش فرق سحري واحد ينطبق على كل الأجهزة والناس ويقول إن أي تغير أكبر منه حقيقي. الدقة، التكرارية، المعادلة، حجم الجسم والسوائل كلهم بيفرقوا. دراسة متابعة عند مراهقين عندهم سمنة لقت إن قدرة BIA على تتبع تغير تركيب الجسم اتأثرت بدرجة السمنة، ومراجعات سريرية حذرت من الاعتماد على قياس فردي واحد. الأفضل تدور على اتجاه متكرر عبر وقت مناسب، بنفس الجهاز والظروف قدر الإمكان، ومع مؤشرات مستقلة بتتحرك في نفس الاتجاه. [2, 9, 11]\n\nقبل تعديل الأكل أو التمرين، اسأل أربع أسئلة: هل ظروف القياس كانت متشابهة؟ هل الفرق استمر في أكتر من زيارة؟ هل الوزن أو محيط الخصر أو الملابس أو القوة والأداء بيدعموا نفس القصة؟ وهل فيه تفسير بديل زي مرض، دواء جديد، جفاف، تورم أو اختلاف كبير في الأكل؟ لو الإجابات مش واضحة، إعادة القياس لاحقاً في ظروف ثابتة والمراجعة مع الأخصائي غالباً أفيد من رد فعل سريع. [3, 5, 9]\n\nالتقرير ممكن يساعد الفريق يراجع كفاية الأكل أو نمط الحركة أو هدف المتابعة، لكنه ما يحددش علاجاً بنفسه. ما تبدأش مكملات، وما تزودش البروتين أو تقلل الأكل بقوة، وما توقفش دواء بناءً على الورقة. لو المتابعة بتسبب قلقاً، سلوكاً تعويضياً، تجويعاً أو تمريناً عقابياً، قول ده بصراحة؛ اختيار مؤشرات أقل أو فترات أبعد ممكن يكون أنسب. النجاح هو قرار صحي قابل للاستمرار، مش مطاردة تغير صغير في كل زيارة. [3, 4, 6]",
+            "en": "There is no single magic difference that applies to every device and person and proves that a change is real. Accuracy, repeatability, equation, body size and fluid all matter. A follow-up study in adolescents with obesity found that BIA's ability to track body-composition change was affected by degree of obesity, while clinical reviews caution against relying on one individual measurement. It is better to look for a repeated direction over an appropriate period, on the same device under broadly consistent conditions, supported by independent indicators moving in the same direction. [2, 9, 11]\n\nBefore changing food or exercise, ask four questions. Were measurement conditions similar? Did the difference persist at more than one visit? Do weight, waist, clothing fit, strength or function support the same story? Is there another explanation such as illness, a new medicine, dehydration, swelling or a major intake change? If the answers are unclear, repeating later under consistent conditions and reviewing with a clinician is usually more useful than a rapid reaction. [3, 5, 9]\n\nThe report may help the team review dietary adequacy, movement or the monitoring goal, but it does not prescribe treatment by itself. Do not start supplements, sharply increase protein, severely restrict food or stop medication because of the sheet. If monitoring triggers anxiety, compensatory behaviour, food restriction or punitive exercise, say so openly; fewer indicators or longer intervals may suit you better. Success is a sustainable health decision, not chasing a small change at every visit. [3, 4, 6]"
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "safety-next-step",
+          "heading": {
+            "ar": "إمتى النتيجة محتاجة تقييم طبي وخطوة تالية؟",
+            "en": "When the result needs medical assessment and a next step"
+          },
+          "body": {
+            "ar": "احجز تقييماً طبياً لو التغير في الوزن أو تقدير العضلات مصحوب بنزول وزن غير مقصود، ضعف بيتزايد، صعوبة جديدة في القيام أو المشي، سقوط متكرر، فقدان شهية، قيء أو إسهال مستمر، أو تورم واضح. الأعراض هي اللي ترفع أهمية الموضوع؛ ورقة InBody لوحدها ما تثبتش السبب. الطبيب ممكن يراجع التاريخ والفحص والأدوية، ويطلب تحاليل أو قياس قوة أو وسيلة تصوير لو فيه داعي. [4, 6, 9]\n\nاطلب مساعدة عاجلة لو فيه ضيق نفس شديد أو مفاجئ، ألم صدر، إغماء، ارتباك، أو تورم سريع مصحوب بصعوبة تنفس. ما تستناش إعادة InBody عشان تقرر في الأعراض دي. ولو عندك جهاز منظم لضربات القلب أو جهاز كهربائي مزروع، أو فيه حمل أو حالة بتغير السوائل، اسأل الفريق المسؤول قبل القياس واتبع تعليمات الجهاز والمنشأة؛ الإرشادات الحديثة بتذكر إن استخدام تقنيات المقاومة مع الأجهزة المزروعة بيرجع للوائح وتعليمات الأمان المحلية. [11]\n\nلو مافيش علامة خطر، خُد التقرير السابق والحالي وسجل توقيت القياس، آخر وجبة وتمرين، أي مرض أو دواء جديد، وهدفك من المتابعة. في العيادة، المراجعة المفيدة بتجمع الورقة مع الأعراض والقياسات والقوة والتاريخ، وقرار إعادة القياس أو تعديل الخطة يفضل للطبيب أو أخصائي التغذية المعالج. تقدر تستخدم طلب حجز موعد عشان تبدأ مناقشة منظمة، من غير وعود بنتيجة ومن غير اعتبار التحليل تشخيصاً مستقلاً. [3, 4, 11]",
+            "en": "Arrange medical assessment if a change in weight or estimated muscle comes with unintentional weight loss, increasing weakness, new difficulty rising or walking, repeated falls, poor appetite, persistent vomiting or diarrhoea, or clear swelling. Symptoms raise the importance of the finding; an InBody sheet alone cannot establish the cause. A clinician may review history, examination and medicines, then select laboratory tests, strength measures or imaging only where indicated. [4, 6, 9]\n\nSeek urgent help for severe or sudden breathlessness, chest pain, fainting, confusion, or rapidly developing swelling with breathing difficulty. Do not wait for another InBody measurement when these symptoms occur. If you have a pacemaker or another implanted electrical device, are pregnant, or have a condition that alters fluid balance, ask the responsible team before measurement and follow device and facility instructions; current guidance notes that bioimpedance use with implanted devices is governed by local safety rules and regulations. [11]\n\nWhen there is no red flag, bring the previous and current reports and note measurement time, recent meal and exercise, illness or new medicine, and your monitoring goal. A useful clinic review combines the sheet with symptoms, measurements, strength and history, while the decision to repeat the test or alter a plan remains with the treating doctor or nutrition clinician. You can use request an appointment to begin a structured discussion, without a promised outcome and without treating the analysis as an independent diagnosis. [3, 4, 11]"
+          },
+          "links": {
+            "ar": [{"label": "طلب حجز موعد", "url": "../patients/booking.html"}],
+            "en": [{"label": "request an appointment", "url": "../patients/booking.html"}]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {"ar": "هل تحليل InBody بيقيس الدهون والعضلات مباشرة؟", "en": "Does InBody measure fat and muscle directly?"},
+          "a": {
+            "ar": "لأ. الجهاز بيقيس خواص كهربائية زي المقاومة، وبعدها معادلات الجهاز بتقدّر مياه الجسم والدهون والكتلة الخالية من الدهون والعضلات. النتيجة تقدير مفيد للمتابعة، مش صورة مباشرة للأنسجة ولا تشخيصاً مستقلاً. [1, 7, 8]",
+            "en": "No. The device measures electrical properties such as impedance, then its equations estimate body water, fat, fat-free mass and muscle. The result is a useful monitoring estimate, not a direct image of tissue or an independent diagnosis. [1, 7, 8]"
+          }
+        },
+        {
+          "q": {"ar": "يعني إيه InBody Score، وهل لازم أوصله لرقم معين؟", "en": "What does the InBody Score mean, and must I reach a certain number?"},
+          "a": {
+            "ar": "هو رقم مركب بيطلعه برنامج الجهاز من بعض تقديراته، ومش معياراً طبياً مستقلاً ولا هدفاً موحداً لكل الناس. اسأل الأخصائي إيه اللي أثّر عليه وهل تغييره مرتبط فعلاً بهدفك وصحتك بدل مطاردة رقم من غير سياق. [3, 8]",
+            "en": "It is a composite number produced by the device software from selected estimates, not an independent medical standard or a universal target. Ask what influenced it and whether its movement genuinely relates to your goal and health. [3, 8]"
+          }
+        },
+        {
+          "q": {"ar": "ليه تقدير العضلات ممكن يتغير بين زيارتين قريبين؟", "en": "Why can estimated muscle change between two close visits?"},
+          "a": {
+            "ar": "العضلات المقدّرة مرتبطة بالمياه والكتلة الخالية من الدهون، فاختلاف الشرب أو الوجبة أو التمرين أو المرض أو توقيت القياس ممكن يحرّك الرقم قبل تغير نسيجي حقيقي. قارن نفس الجهاز وظروفاً متشابهة واتجاه أكتر من زيارة. [5, 7, 9]",
+            "en": "Estimated muscle is linked to body water and fat-free mass, so fluid intake, meals, exercise, illness or timing can move the number before true tissue change occurs. Compare one device under similar conditions across several visits. [5, 7, 9]"
+          }
+        },
+        {
+          "q": {"ar": "هل ينفع أقارن ميزان ذكي في البيت بجهاز العيادة؟", "en": "Can I compare a home smart scale with the clinic device?"},
+          "a": {
+            "ar": "المقارنة المباشرة غالباً مضللة؛ ترتيب الأقطاب والترددات والمعادلات مختلف، والدراسات بينت إن الاتفاق مع الطرق المرجعية بيتفاوت من جهاز للتاني. استخدم كل جهاز كخط متابعة منفصل، والأفضل تثبت جهاز واحد للاتجاه. [8, 10, 11]",
+            "en": "A direct comparison is often misleading because electrodes, frequencies and equations differ, and agreement with reference methods varies between devices. Treat each device as a separate trend and keep one device where possible. [8, 10, 11]"
+          }
+        },
+        {
+          "q": {"ar": "هل نسبة الدهون العالية في الورقة معناها إن عندي مرض؟", "en": "Does a high body-fat result mean I have a disease?"},
+          "a": {
+            "ar": "لأ، الرقم وحده ما يشخصش مرض. الطبيب بيراجعه مع محيط الخصر، التاريخ، ضغط الدم، الأعراض والتحاليل المناسبة لو محتاجها. كمان دقة التقدير بتختلف مع الجهاز وحجم الجسم وحالة السوائل. [2, 3, 9]",
+            "en": "No. The number alone cannot diagnose disease. A clinician reviews it with waist, history, blood pressure, symptoms and selected tests where needed. Accuracy also varies with device, body size and fluid state. [2, 3, 9]"
+          }
+        },
+        {
+          "q": {"ar": "لو الكتلة العضلية منخفضة، هل ده يشخص ساركوبينيا؟", "en": "Does low muscle mass on the report diagnose sarcopenia?"},
+          "a": {
+            "ar": "لأ. التقييم بيركز على القوة والأداء مع كمية أو جودة العضلات، وممكن يشمل اختبار القبضة أو القيام من الكرسي وفحصاً سريرياً. خانة العضلات تنبه لسؤال، لكنها مش كفاية للتشخيص لوحدها. [4, 6]",
+            "en": "No. Assessment considers strength and performance with muscle quantity or quality, and may include grip or chair-rise testing and examination. The field can raise a question but is insufficient for diagnosis. [4, 6]"
+          }
+        }
+      ],
+      "sources": [
+        {"label": "NIDDK — Metabolic Testing: Bioelectrical Impedance", "url": "https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/diabetes-endocrinology-obesity-branch/metabolic-clinical-research-unit/metabolic-testing"},
+        {"label": "Thivel et al. — Accuracy of BIA to track body-composition changes and degree of obesity (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/29914668/"},
+        {"label": "NICE — Identifying and assessing overweight, obesity and central adiposity (NG246)", "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity"},
+        {"label": "Cruz-Jentoft et al. — Sarcopenia: revised European consensus (EWGSOP2, PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6322506/"},
+        {"label": "Saunders et al. — Effects of hydration changes on bioelectrical impedance (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/9624647/"},
+        {"label": "Cleveland Clinic — Sarcopenia: symptoms, diagnosis and tests", "url": "https://my.clevelandclinic.org/health/diseases/23167-sarcopenia"},
+        {"label": "Kyle et al. — BIA Part I: principles and methods (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/15380917/"},
+        {"label": "Campa et al. — Predictive equations for body composition using BIA: systematic review (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/38812005/"},
+        {"label": "Haverkort et al. — Validity of BIA models in clinical populations (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/16215137/"},
+        {"label": "Bosy-Westphal et al. — Accuracy of consumer BIA devices versus MRI and DXA (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6452160/"},
+        {"label": "Methodological standards for body-composition assessment: bioimpedance, DXA, CT and ultrasound (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197919/"}
+      ],
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا شرح بنود نتيجة InBody وحدود دقتها والمقارنة الآمنة بين القراءات، واتراجعت المقالة طبياً من جديد.",
+            "en": "We expanded the explanation of InBody report fields, accuracy limits and safe comparison between readings, and medically re-reviewed the article."
+          }
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "تحليل InBody: إزاي تقرأ النتيجة؟",
+          "en": "InBody results explained: how to read your report"
+        },
+        "description": {
+          "ar": "شرح تحليل InBody ومعنى نسبة الدهون والعضلات ومياه الجسم، وإزاي تقرأ النتيجة وتقارن المتابعة من غير ما تعتبر رقم واحد تشخيصاً.",
+          "en": "Understand InBody results for body fat, muscle and water, compare readings fairly, and know why one score or report cannot diagnose a condition."
+        }
+      }
+    }
+  ]
+}

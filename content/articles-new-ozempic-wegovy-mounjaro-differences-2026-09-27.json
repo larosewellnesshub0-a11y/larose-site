@@ -1,0 +1,338 @@
+{
+  "_note": "Phase 1 new article (2026-09-27). Scoped to clinical comparison of Ozempic, Wegovy, and Mounjaro (active substances semaglutide vs tirzepatide, approved indications, dosing titration, trial evidence, side effects, and individualized candidacy); deliberately does NOT duplicate general GLP-1 principles, broad non-surgical options, or standalone discontinuation/muscle articles.",
+  "articles": [
+    {
+      "slug": "ozempic-wegovy-mounjaro-differences",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "weight-management",
+      "specialties": [
+        "weight-management",
+        "clinical-nutrition",
+        "internal-medicine"
+      ],
+      "date": "2026-09-27",
+      "updatedAt": "2026-09-27",
+      "readingTime": 14,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/ozempic-wegovy-mounjaro-differences-cover.webp",
+      "title": {
+        "ar": "أوزمبك ولا ويجوفي ولا مونجارو للتخسيس: الفروق والجرعات والأنسب لك",
+        "en": "Ozempic vs Wegovy vs Mounjaro: Differences, Dosing, and Individual Suitability"
+      },
+      "excerpt": {
+        "ar": "مقارنة طبية واضحة بين إبر أوزمبك وويجوفي ومونجارو للتخسيس: إيه الفرق بين السيماجلوتايد والتيرزيباتيد، وإيه الاستخدامات الرسمية، وجداول زيادة الجرعة بالتدريج، ونتائج التجارب، وإزاي الدكتور بيحدد الاختيار الأنسب ليك.",
+        "en": "A detailed clinical comparison of Ozempic, Wegovy, and Mounjaro: semaglutide versus tirzepatide, approved indications, titration schedules, trial evidence, and how clinicians choose the right fit."
+      },
+      "tags": {
+        "ar": [
+          "أوزمبك ولا ويجوفي ولا مونجارو للتخسيس",
+          "الفرق بين أوزمبك وويجوفي",
+          "الفرق بين مونجارو وويجوفي",
+          "إبر التخسيس الأسبوعية",
+          "أنواع إبر التخسيس الجديدة",
+          "سيماجلوتايد وتيرزيباتيد"
+        ],
+        "en": [
+          "Ozempic vs Wegovy vs Mounjaro",
+          "semaglutide vs tirzepatide",
+          "weekly weight loss injections",
+          "GLP-1 and GIP dual agonists",
+          "medical weight management",
+          "Ozempic vs Wegovy"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "أوزمبك ولا ويجوفي ولا مونجارو للتخسيس: الفروق",
+          "en": "Ozempic vs Wegovy vs Mounjaro: Key Differences"
+        },
+        "description": {
+          "ar": "مقارنة طبية واضحة بين حقن أوزمبك وويجوفي ومونجارو للتخسيس: المادة الفعالة، والجرعات، ونتائج تجارب الفعالية، والآثار الجانبية، وإزاي الدكتور بيحدد الاختيار الأنسب لحالتك.",
+          "en": "Clinical guide to Ozempic, Wegovy, and Mounjaro: active ingredients, trial data, dosing, side effects, and how clinicians determine individual suitability."
+        }
+      },
+      "sections": [
+        {
+          "id": "substances-and-mechanisms",
+          "heading": {
+            "ar": "المادة الفعالة وطريقة الشغل: إيه الفرق بين السيماجلوتايد والتيرزيباتيد في الجسم؟",
+            "en": "Active ingredients and mechanisms: how semaglutide and tirzepatide work in the body"
+          },
+          "body": {
+            "ar": "مع الانتشار الكبير لإبر إدارة الوزن الأسبوعية في مصر والعالم العربي، فيه سؤال بيتكرر كتير في عيادات التغذية: إيه الفرق الحقيقي بين أوزمبك وويجوفي ومونجارو؟ عشان نفهم الفرق ده كويس، لازم نبدأ بالمادة الفعالة وبالطريقة اللي كل دواء بيشتغل بيها جوه الجسم [1, 2, 3, 12, 13]. أوزمبك (Ozempic) وويجوفي (Wegovy) الاتنين فيهم نفس المادة الفعالة، وهي السيماجلوتايد (Semaglutide). المادة دي بتنتمي لمجموعة أدوية اسمها ناهضات مستقبلات الببتيد الشبيه بالجلوكاجون-1 (GLP-1 Receptor Agonists) [1, 7, 8, 12]. أما مونجارو (Mounjaro)، ففيه مادة فعالة مختلفة تماماً اسمها التيرزيباتيد (Tirzepatide). الجزيء ده بيشتغل كناهض مزدوج، يعني بينشّط نوعين مختلفين من المستقبلات الهرمونية في نفس الوقت: مستقبلات GLP-1 ومستقبلات عديد الببتيد المعدي المثبط (GIP Receptor) [2, 3, 9, 13]. وده هو الفرق الأساسي في آلية العمل، حتى لو التلات أدوية بيتاخدوا كحقن أسبوعية.\n\nهرمون GLP-1 الطبيعي عبارة عن إشارة هرمونية بتفرزها خلايا الأمعاء لما الأكل يدخل الجسم. الهرمون ده ليه دور أساسي في تنظيم مستوى السكر؛ لأنه بيحفّز إفراز الإنسولين بطريقة مرتبطة بتركيز الجلوكوز في الدم، وفي نفس الوقت بيقلل إفراز هرمون الجلوكاجون لما يكون إفرازه مش مناسب [7, 8, 12]. وتأثيره مش واقف عند تنظيم السكر بس. GLP-1 كمان بيأثر مباشرة في مركز الشبع بمنطقة تحت المهاد (Hypothalamus) في المخ، فبيقلل شدة الجوع والرغبة الملحّة في الأكل. وكمان بيبطّأ خروج الأكل من المعدة ناحية الأمعاء، وده بيخلي إحساس الامتلاء يفضل مدة أطول حتى بعد وجبات صغيرة [1, 7, 12, 13]. ولما تنشيط مستقبلات GIP يضاف لتأثير GLP-1، زي ما بيحصل مع التيرزيباتيد الموجود في مونجارو، بيظهر تأثير متكامل بيعزّز حساسية أنسجة الجسم للإنسولين، وبيأثر بشكل إيجابي في تمثيل الدهون وتخزينها، وبيقوّي إشارات الشبع العصبية في المخ [2, 3, 9, 11].\n\nوهنا لازم نصحح فكرة منتشرة وبتتقال كتير: الحقن دي مش إبر موضعية لتفتيت الدهون، ومش بتدوب الخلايا الدهنية بطريقة سحرية لمجرد إنك حقنتها تحت الجلد [12, 13]. دي أدوية هرمونية بتوصل تأثيرها للجسم كله، وبتشتغل على المخ والجهاز الهضمي عشان تعيد ضبط إشارات الشهية والشبع وتحسّن البيئة الأيضية في الجسم. التأثير ده ممكن يخلّي الالتزام بعجز السعرات الحرارية وخطة أكل صحية أسهل وأريح، بدل ما الشخص يفضل في صراع مستمر مع نوبات الجوع الشديد. لكن الدواء نفسه مش بديل عن خطة التغذية، ومش حقنة بتذيب الدهون في مكان الحقن [1, 2, 3, 12].",
+            "en": "With the widespread popularity of once-weekly weight-management injections in clinical practice, a central question frequently arises: what is the genuine physiological difference between Ozempic, Wegovy, and Mounjaro? To understand this distinction, one must begin with their active pharmaceutical ingredients and biological mechanisms of action [1, 2, 3, 12, 13]. Both Ozempic and Wegovy contain the identical active substance, semaglutide, which belongs to the class of selective glucagon-like peptide-1 receptor agonists (GLP-1 RAs) [1, 7, 8, 12]. In contrast, Mounjaro contains an entirely distinct active molecule called tirzepatide, an innovative dual-targeted agonist that simultaneously activates two distinct incretin receptor pathways: the GLP-1 receptor and the glucose-dependent insulinotropic polypeptide (GIP) receptor [2, 3, 9, 13].\n\nEndogenous GLP-1 is a gut hormone released by intestinal endocrine L-cells in response to nutrient ingestion. It plays a primary physiological role in glycemic regulation by augmenting glucose-dependent insulin secretion from pancreatic beta cells while suppressing inappropriate postprandial glucagon output [7, 8, 12]. Beyond its pancreatic endocrine actions, GLP-1 acts directly upon hunger and satiety circuits within the hypothalamus and central nervous system, diminishing overall appetite and cravings while concurrently slowing gastric emptying, which maintains prolonged mechanical fullness following modest meals [1, 7, 12, 13]. When dual GIP receptor agonism is combined with GLP-1 activity—as engineered in tirzepatide—it produces a synergistic metabolic effect that further enhances peripheral insulin sensitivity, modulates adipose tissue lipid metabolism, and amplifies central satiety signaling [2, 3, 9, 11].\n\nIt is essential to dispel a pervasive public misconception: these medications are not localized fat-dissolving injections, nor do they melt away adipose tissue through direct magical action at the injection site [12, 13]. They are systemic hormonal therapies acting upon the brain and digestive tract to recalibrate appetite signaling and metabolic physiology, enabling an individual to adhere comfortably to a caloric deficit and balanced nutrition plan without battling unrelenting biological hunger cues [1, 2, 3, 12]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "approved-indications-and-licensing",
+          "heading": {
+            "ar": "الاستخدامات والتراخيص الرسمية: ليه نفس المادة الفعالة ليها اسمين مختلفين؟",
+            "en": "Approved indications and licensing: why the same substance carries different brand names"
+          },
+          "body": {
+            "ar": "ناس كتير بتسأل: لو أوزمبك وويجوفي فيهم نفس المادة، وهي السيماجلوتايد، ليه فيه اسمين تجاريين مختلفين؟ الإجابة مرتبطة بمسار تسجيل كل دواء، والاستخدامات اللي أخد ترخيص رسمي ليها، وتصميم الجرعات وأقلام الحقن الخاصة بيه [7, 8, 10, 13]. أوزمبك اتعمد من الهيئات الدوائية العالمية، زي إدارة الغذاء والدواء الأمريكية (FDA) ووكالة الأدوية الأوروبية (EMA)، كعلاج للبالغين اللي عندهم سكر من النوع التاني عشان يحسّن مستوى السكر في الدم. كمان اعتماده بيشمل تقليل مخاطر الحوادث الكبيرة في القلب والأوعية عند مرضى السكر اللي عندهم أمراض قلب [8, 13]. والجرعة القصوى المعتمدة لأوزمبك في الأقلام المخصصة ليه بتوصل إلى 1.0 مجم أو 2.0 مجم أسبوعياً فقط [8]. يعني تشابه المادة الفعالة مش معناه إن الاسم أو الترخيص أو تصميم الجرعات واحد.\n\nفي الناحية التانية، ويجوفي اتطوّر واتعمد بشكل رسمي ومستقل كدواء لإدارة الوزن على المدى الطويل عند البالغين اللي عندهم سمنة، يعني مؤشر كتلة الجسم 30 أو أكتر، أو زيادة وزن، يعني مؤشر كتلة الجسم 27 أو أكتر، ومعاها مشكلة صحية واحدة على الأقل مرتبطة بالوزن زي ضغط الدم العالي أو اضطراب دهون الدم. واتعمد كمان للمراهقين من سن 12 سنة فما فوق [7, 10, 13]. وفوق ده، ويجوفي أخد ترخيص إضافي مهم بناءً على نتائج تجربة SELECT الإكلينيكية، عشان يقلل مخاطر الوفاة القلبية والنوبات القلبية والسكتات الدماغية عند البالغين اللي عندهم أمراض في القلب والأوعية ومعاها زيادة وزن أو سمنة، من غير ما يكون وجود السكر شرطاً [4, 7]. ويجوفي بيتميز إن جرعته بتزيد بالتدريج لحد جرعة صيانة قصوى أعلى، وهي 2.4 مجم أسبوعياً، من خلال أقلام حقن متعبية مسبقاً ومتجهزة مخصوص للنظام ده [7, 10].\n\nأما مونجارو، ففي البداية أخد الاعتماد الرسمي لضبط السكر من النوع التاني، بجرعات بتتراوح من 2.5 مجم لحد 15 مجم أسبوعياً [9, 11]. وبسبب النتائج الاستثنائية اللي حققها جزيء التيرزيباتيد في نزول الوزن، نزل في بعض الأسواق العالمية باسم تجاري تاني مخصص للسمنة، وهو زيباوند (Zepbound) [2, 13]. وفي مصر والمنطقة العربية، مونجارو بيتوصف كتير تحت إشراف دكاترة متخصصين لإدارة الوزن وتنظيم التمثيل الغذائي. وبنفس الشكل، أوزمبك ساعات بيتوصف لإنقاص الوزن خارج الاستخدام المكتوب في ترخيصه الرسمي (Off-label)، بسبب تأخر توفر ويجوفي أو حسب المتاح في الصيدليات [8, 13]. المهم إن الاستخدام خارج التسمية مش قرار يتاخد لوحدك؛ لازم يكون حسب تقدير الدكتور المعالج وتحت متابعته الدقيقة، عشان الجرعات تتظبط ومعايير الأمان تتراجع بشكل مناسب.",
+            "en": "Many individuals ask: if Ozempic and Wegovy contain the exact same substance (semaglutide), why do two distinct brand names exist? The explanation lies in regulatory pathways, approved therapeutic indications, dosing architecture, and delivery-pen design [7, 8, 10, 13]. Ozempic was evaluated and approved by major regulatory authorities—including the US FDA and the European Medicines Agency (EMA)—specifically for the treatment of type 2 diabetes mellitus to optimize glycemic control, as well as to reduce the risk of major adverse cardiovascular events in diabetic adults with established cardiovascular disease [8, 13]. The maximum licensed maintenance dose for Ozempic pens is 1.0 mg or 2.0 mg weekly [8].\n\nIn contrast, Wegovy was developed and formally approved as a dedicated pharmacotherapy for chronic weight management in adults with obesity (initial body mass index of 30 kg/m² or greater) or overweight (BMI of 27 kg/m² or greater) accompanied by at least one weight-related comorbid condition such as hypertension or dyslipidemia, as well as in pediatric patients aged 12 and older [7, 10, 13]. Furthermore, Wegovy received a landmark regulatory indication based on the SELECT cardiovascular outcomes trial to reduce the risk of major cardiovascular death, myocardial infarction, and stroke in adults with established cardiovascular disease and overweight or obesity without requiring a diabetes diagnosis [4, 7]. Crucially, Wegovy titrates upward to a higher maximum maintenance target of 2.4 mg once weekly, packaged in specialized single-dose or dose-specific pens designed for this regimen [7, 10].\n\nMounjaro was originally approved for glycemic management in adults with type 2 diabetes across doses ranging from 2.5 mg to 15 mg weekly [9, 11]. In recognition of tirzepatide's substantial weight-loss efficacy, the molecule received dedicated chronic weight-management approval under the brand name Zepbound in several international jurisdictions [2, 13]. Across Egypt and the wider region, Mounjaro is frequently prescribed by specialists for weight management and metabolic health, mirroring the common off-label clinical use of Ozempic when Wegovy supply is delayed or limited in local pharmacies [8, 13]. Endocrinologists and obesity specialists emphasize that off-label prescribing must always remain physician-directed, ensuring proper baseline testing and individualized dose management."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "اختيارات نزول الوزن من غير جراحة",
+                "url": "../articles/non-surgical-weight-options.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "non-surgical weight-loss options",
+                "url": "../articles/non-surgical-weight-options.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "trial-efficacy-comparison",
+          "heading": {
+            "ar": "التجارب الإكلينيكية بتقول إيه؟ مقارنة نسب نزول الوزن بين الأدوية",
+            "en": "What clinical trials show: comparing weight-loss percentages and trial evidence"
+          },
+          "body": {
+            "ar": "لما الدكاترة بيقارنوا كفاءة العلاجات دي، بيعتمدوا على تجارب إكلينيكية منضبطة اتراجعت علمياً بدقة، وبالذات برنامج دراسات STEP الخاص بالسيماجلوتايد وبرنامج دراسات SURMOUNT الخاص بالتيرزيباتيد [1, 2, 3, 4, 10, 11]. في تجربة STEP 1 المعروفة، واللي اتنشرت في دورية نيو إنجلاند الطبية، المشاركون اللي أخدوا سيماجلوتايد 2.4 مجم، يعني ويجوفي، مرة كل أسبوع مع تعديل نمط الحياة حققوا متوسط نزول وزن حوالي 14.9% من وزن الجسم الكلي بعد 68 أسبوعاً من العلاج. في المقابل، المتوسط كان حوالي 2.4% بس عند الناس اللي أخدوا العلاج الوهمي [1]. ودراسات STEP اللي جت بعدها بيّنت كمان تحسناً واضحاً في ضغط الدم، ومحيط الخصر، ومستويات الدهون في الدم، ومؤشرات التهاب الأوعية [1, 4, 10]. الأرقام دي بتوصف متوسط النتيجة في مجموعة الدراسة، مش وعد ثابت بالنتيجة نفسها لكل شخص.\n\nبالنسبة للتيرزيباتيد، تجربة SURMOUNT-1 أظهرت نتائج استثنائية لما قيّمت مرضى عندهم سمنة أو زيادة وزن من غير سكر على مدار 72 أسبوعاً [2]. متوسط نزول الوزن كان حوالي 15.0% مع جرعة 5 مجم أسبوعياً، وزاد إلى 19.5% مع جرعة 10 مجم. ووصل المتوسط إلى حوالي 20.9%، وإلى حوالي 22.5% في تحليلات الفعالية، عند الجرعة القصوى 15 مجم أسبوعياً، مقارنة بنزول بسيط ما عداش 3.1% في مجموعة الدواء الوهمي [2]. وفي دراسة SURPASS-2، اللي قارنت بشكل مباشر بين جرعات مختلفة من التيرزيباتيد وبين السيماجلوتايد بجرعة 1.0 مجم، يعني أوزمبك، عند مرضى السكر من النوع التاني، التيرزيباتيد كان متفوقاً إحصائياً في خفض السكر التراكمي وفي نسبة نزول الوزن الإجمالية [3]. ودي مقارنة محددة بجرعات وفئة مرضى محددين، فلازم تتقري في سياقها.\n\nطيب، هل الأرقام دي معناها إن مونجارو هو الدواء «الأفضل» بشكل مطلق لأي حد بيدور على التخسيس؟ من الناحية الطبية والإكلينيكية، الإجابة الواضحة هي لأ [2, 3, 10, 13]. نتائج التجارب الإكلينيكية عبارة عن متوسطات إحصائية لمجموعات كبيرة كانت تحت رقابة بحثية صارمة، لكن استجابة كل شخص في الحياة الحقيقية ممكن تختلف بشكل ملحوظ عن شخص تاني [1, 2, 13]. فيه ناس بتستجيب بشكل ممتاز للسيماجلوتايد بجرعات متوسطة، ووزنها بينزل بصورة متوازنة من غير أعراض هضمية مزعجة. وفيه ناس تانية ممكن يحصل لها غثيان شديد أو تلاقي صعوبة في تحمّل التيرزيباتيد، أو يحصل العكس تماماً [1, 2, 3]. عشان كده اختيار الدواء مش مسابقة أرقام، ومش قرار عشوائي على أساس أعلى نسبة منشورة. الاختيار بيعتمد على تقييم إكلينيكي كامل، ومستوى السكر، وصحة القلب والأوعية، وقدرتك على تحمّل العلاج والاستمرار عليه بانتظام [10, 11, 13].",
+            "en": "When evaluating the relative efficacy of these therapies, clinicians examine robust phase 3 randomized controlled trials, specifically the STEP trial program for semaglutide and the SURMOUNT program for tirzepatide [1, 2, 3, 4, 10, 11]. In the landmark STEP 1 trial published in the New England Journal of Medicine, adults with overweight or obesity receiving once-weekly semaglutide 2.4 mg (Wegovy) alongside lifestyle intervention achieved a mean body weight reduction of approximately 14.9% at 68 weeks, compared to roughly 2.4% with placebo [1]. Subsequent STEP trials demonstrated concurrent meaningful improvements in waist circumference, blood pressure, lipid profiles, and systemic inflammatory markers [1, 4, 10].\n\nFor tirzepatide, the SURMOUNT-1 trial evaluated adults with obesity or overweight without diabetes over 72 weeks, establishing unprecedented weight-loss benchmarks [2]. Participants achieved mean weight reductions of approximately 15.0% on the 5 mg weekly dose, 19.5% on the 10 mg dose, and between 20.9% and 22.5% on the maximum 15 mg weekly dose, compared with just 3.1% in the placebo cohort [2]. Furthermore, in the head-to-head SURPASS-2 trial conducted in patients with type 2 diabetes, tirzepatide at all three maintenance doses (5 mg, 10 mg, and 15 mg) demonstrated statistically significant superiority over semaglutide 1.0 mg (Ozempic) in both HbA1c lowering and mean body weight reduction [3].\n\nHowever, does this numerical superiority signify that Mounjaro is universally the 'best' medication for every patient seeking weight management? From an evidence-based clinical perspective, the answer is an emphatic no [2, 3, 10, 13]. Clinical trial percentages represent aggregate statistical means observed in tightly monitored cohorts; real-world individual response varies widely [1, 2, 13]. Many patients achieve exceptional satiety, metabolic normalization, and steady weight reduction on semaglutide with minimal digestive side effects, while others may experience intolerable nausea on dual incretins or conversely tolerate tirzepatide better [1, 2, 3]. Selecting the right agent is not a simplistic contest of trial percentages, but an individualized medical decision balancing cardiovascular indications, glycemic status, digestive tolerance, and long-term treatment sustainability [10, 11, 13]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل أدوية GLP-1",
+                "url": "../articles/glp1-medication-guide.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "GLP-1 medication guide",
+                "url": "../articles/glp1-medication-guide.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "dosing-titration-administration",
+          "heading": {
+            "ar": "جداول الجرعات وزيادتها بالتدريج وطريقة الحقنة الأسبوعية",
+            "en": "Dosing schedules, monthly titration, and weekly administration"
+          },
+          "body": {
+            "ar": "حقن أوزمبك وويجوفي ومونجارو ليها نفس طريقة الاستخدام الأساسية: كل واحد منها بيتاخد كحقنة تحت الجلد (Subcutaneous Injection) مرة واحدة في الأسبوع، في نفس اليوم من كل أسبوع. ممكن تاخد الحقنة في أي وقت خلال اليوم، مع الأكل أو من غيره، ومش لازم تربطها بميعاد وجبة معينة [7, 8, 9, 12]. الأماكن المعتمدة للحقن هي جدار البطن، مع البعد سنتيمترين عن السرة، أو مقدمة الفخذين، أو الجزء الخلفي الخارجي من أعلى الذراع. ولازم تغيّر مكان الحقن وتدوّر بين الأماكن أسبوعياً عشان تقلل احتمال تهيج النسيج الدهني في مكان الحقنة [7, 8, 9]. الطريقة واحدة في الأساس، لكن الجرعات وجدول زيادتها مش واحد بين الأدوية التلاتة.\n\nكل الأدوية دي بتعتمد على مبدأ مهم وإجباري، وهو زيادة الجرعة بالتدريج (Dose Titration). ده بروتوكول علاجي منظم هدفه يدي الجهاز الهضمي والناقلات العصبية وقت كفاية عشان يتأقلموا مع تأثير الدواء اللي بيبطّأ حركة المعدة، وعشان يقلل شدة أعراض جانبية زي الغثيان والترجيع [7, 8, 9, 13]. أوزمبك بيبدأ بجرعة تمهيدية غير علاجية مقدارها 0.25 مجم أسبوعياً لمدة 4 أسابيع، وبعد كده الدكتور بيرفعها إلى 0.5 مجم أسبوعياً في الشهر التاني. ولو المريض محتاج ضبط أكتر للسكر، ممكن الجرعة تزيد بعد 4 أسابيع تانية إلى 1.0 مجم، وبعدها إلى 2.0 مجم كحد أقصى وقت الضرورة [8]. أما ويجوفي، فليه مسار زيادة شهري محدد: 0.25 مجم في الشهر الأول، وبعدها 0.5 مجم في الشهر التاني، ثم 1.0 مجم في الشهر التالت، ثم 1.7 مجم في الشهر الرابع، لحد ما المريض يوصل لجرعة الصيانة الكاملة، وهي 2.4 مجم أسبوعياً في الشهر الخامس [7, 10].\n\nبالنسبة لمونجارو، الخطة بتبدأ بجرعة 2.5 مجم أسبوعياً لمدة 4 أسابيع. الفترة دي معمولة عشان الأمعاء تتأقلم، والجرعة مش جرعة علاجية فعالة. بعد كده الجرعة بترتفع إلى 5.0 مجم أسبوعياً، وبعدها يقدر الدكتور المعالج يزوّدها بمقدار 2.5 مجم كل 4 أسابيع على الأقل: 7.5 مجم، ثم 10 مجم، ثم 12.5 مجم، لحد الجرعة القصوى 15 مجم أسبوعياً، وده حسب استجابة الوزن وقدرة المريض على تحمّل العلاج [9, 11]. الدكاترة بيحذروا بشدة من القفز بين الجرعات أو استعجال التدرج؛ لأن الزيادة السريعة مش هتسرّع نزول الوزن الصحي، لكنها ممكن تعمل مضاعفات هضمية حادة وجفاف شديد يخلي المريض يضطر يوقف العلاج كله [7, 8, 9, 13]. ولو نسيت الجرعة الأسبوعية، النشرات الطبية بتقول إنك تاخدها لو الميعاد الفايت كان خلال 5 أيام مع أوزمبك وويجوفي، أو خلال 4 أيام مع مونجارو. وفي كل الحالات، ما تضاعفش الحقنة أبداً عشان تعوّض الجرعة اللي فاتتك [7, 8, 9].",
+            "en": "Ozempic, Wegovy, and Mounjaro share an identical fundamental route of administration: each is delivered as a subcutaneous injection once weekly, administered on the same day each week, at any time of day, completely independent of meal timing [7, 8, 9, 12]. Approved anatomical injection sites include the anterior abdominal wall (avoiding a two-inch radius around the umbilicus), the front of the thighs, or the outer posterior aspect of the upper arms, with mandatory weekly site rotation to prevent localized lipodystrophy or tissue irritation [7, 8, 9].\n\nAll three medications mandate structured, gradual dose escalation (titration), a non-negotiable pharmacological protocol designed to allow the gastrointestinal tract and enteric nervous system to accommodate slowed gastric motility and mitigate adverse effects such as nausea and vomiting [7, 8, 9, 13]. Ozempic initiates at a non-therapeutic starting dose of 0.25 mg weekly for the first 4 weeks, followed by an increase to 0.5 mg weekly; if further glycemic control is required, the supervising clinician may step up the dose to 1.0 mg after at least 4 weeks, and subsequently to 2.0 mg weekly where indicated [8]. Wegovy employs a standardized five-step monthly escalation: 0.25 mg weekly in month 1, 0.5 mg in month 2, 1.0 mg in month 3, 1.7 mg in month 4, ultimately reaching the target chronic maintenance dose of 2.4 mg weekly in month 5 [7, 10].\n\nFor Mounjaro, therapy begins with a 2.5 mg weekly initiation dose maintained for 4 weeks solely for gastrointestinal conditioning, after which the dose steps up to 5.0 mg weekly [9, 11]. Thereafter, the treating physician may increase the dose in 2.5 mg increments every 4 weeks or longer (titrating through 7.5 mg, 10 mg, and 12.5 mg) up to a maximum ceiling of 15 mg weekly, tailored to weight-loss progression and physiological tolerability [9, 11]. Specialists caution forcefully against skipping escalation steps: accelerating titration does not promote faster sustainable fat loss, but rather provokes severe nausea, intractable vomiting, and dehydration that frequently force treatment abandonment [7, 8, 9, 13]. If a scheduled dose is missed, regulatory labels advise administering it if within 5 days for Ozempic and Wegovy, or within 4 days (96 hours) for Mounjaro, while strictly forbidding double doses to compensate for missed injections [7, 8, 9]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "side-effects-and-contraindications",
+          "heading": {
+            "ar": "الآثار الجانبية وموانع الاستخدام واحتياطات الأمان اللي لازم تعرفها",
+            "en": "Side effects, contraindications, and critical safety precautions"
+          },
+          "body": {
+            "ar": "الأدوية دي ليها نمط متقارب من الآثار الجانبية الشائعة، ومعظم الشكاوى بتكون من الجهاز الهضمي. الأعراض ممكن تشمل الغثيان، والترجيع، والإسهال، والإمساك، وعسر الهضم، والتجشؤ المتكرر، والانتفاخ، وحموضة المعدة [7, 8, 9, 12]. في أغلب الحالات، الأعراض بتكون بسيطة أو متوسطة، وبتوصل لأعلى شدتها في أول أسابيع بعد بداية العلاج أو لما الجرعة تعلى للمستوى اللي بعده. وبعد كده غالباً بتقل بالتدريج مع تعوّد الأمعاء [7, 8, 9, 13]. تقدر تخفف الأعراض دي بخطوات بسيطة في الأكل: قسّم وجباتك لأحجام صغيرة، وكل ببطء وامضغ الأكل كويس، وابعد عن المقليات والأكل الدسم أو اللي فيه بهارات كتير، ووقف أكل أول ما تحس بالشبع. وكمان لازم تشرب كمية كفاية من الميه على مدار اليوم عشان تقلل خطر الإمساك والجفاف [12, 13].\n\nفي المقابل، كل الأدوية دي عليها تحذير بارز في النشرات المعتمدة اسمه (Black Box Warning)، وده مرتبط بموانع استخدام قاطعة. أوزمبك أو ويجوفي أو مونجارو ممنوعين تماماً لو عندك تاريخ شخصي أو عائلي لسرطان الغدة الدرقية النخاعي (Medullary Thyroid Carcinoma - MTC)، أو متلازمة الأورام الصماوية المتعددة من النوع التاني (MEN 2). التحذير ده مبني على نتائج دراسات على الحيوانات أظهرت ارتباط ناهضات المستقبلات بأورام خلايا الغدة الدرقية [7, 8, 9, 13]. وكمان الأدوية دي ممنوعة لو عندك حساسية مفرطة معروفة لأي مكوّن فيها [7, 8, 9]. وفوق ده، الحقن ممنوعة تماماً أثناء الحمل والرضاعة الطبيعية. ولازم تتوقف قبل التخطيط للحمل بوقت كفاية، شهرين على الأقل بالنسبة للسيماجلوتايد، عشان آثار الدواء تخرج من الجسم ولحماية الجنين [7, 8, 9].\n\nفيه كمان احتياطات طبية مهمة جداً ولازم تتتابع بدقة. العلاج محتاج حذر شديد وتقييم دقيق لو عندك تاريخ سابق لالتهاب البنكرياس الحاد. ولازم توقف الحقن فوراً وتراجع الطوارئ لو حسيت بألم حاد ومستمر في أعلى البطن، بيمتد للظهر، ومعاه ترجيع متكرر [7, 8, 9, 12]. كمان نزول الوزن بسرعة ممكن يزوّد احتمال تكوّن حصوات في المرارة أو حصول التهاب حاد فيها [7, 8, 9, 13]. ومن التنبيهات الإكلينيكية المهمة جداً توصية الجمعية الأمريكية لأطباء التخدير (ASA) بإيقاف إبر التخسيس الأسبوعية قبل أي عملية جراحية أو إجراء محتاج تخدير كلي أو مهدئات عميقة، حسب المدة اللي الفريق الطبي بيحددها. السبب إن بطء تفريغ المعدة بيزوّد خطر رجوع محتويات الأكل ودخولها للرئتين أثناء التخدير [15]. عشان كده لازم تقول لفريق التخدير إنك بتاخد الحقن دي، وتلتزم بالمدة اللي الفريق يحددها.",
+            "en": "Medications within this therapeutic class exhibit a shared profile of common adverse events dominated by gastrointestinal symptoms: nausea, vomiting, diarrhea, constipation, dyspepsia, frequent belching, abdominal distension, and acid reflux [7, 8, 9, 12]. In the vast majority of patients, these side effects are mild to moderate in severity, peaking during the initial weeks of therapy or immediately following a dose escalation step, before gradually diminishing as the gut adapts [7, 8, 9, 13]. Patients can substantially mitigate these symptoms through practical dietary modifications: eating smaller meal volumes, chewing food slowly, avoiding fried or intensely fatty and spiced dishes, stopping eating at the first sensation of fullness, and maintaining consistent oral hydration to guard against constipation and hypovolemia [12, 13].\n\nConversely, all three agents carry an official boxed warning highlighting non-negotiable absolute contraindications: Ozempic, Wegovy, and Mounjaro are strictly contraindicated in individuals with a personal or family history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN 2), grounded in rodent bioassay findings of thyroid C-cell tumors [7, 8, 9, 13]. They are equally contraindicated in patients with known severe systemic hypersensitivity to the drug substance or its formulation excipients [7, 8, 9]. Furthermore, these therapies are strictly contraindicated during pregnancy and breastfeeding; they must be discontinued well in advance of planned conception (at least two months prior for semaglutide) to facilitate complete pharmacokinetic washout and safeguard fetal development [7, 8, 9].\n\nAdditional vital safety precautions require disciplined vigilance. Caution is warranted in individuals with a prior history of acute pancreatitis; patients must discontinue therapy immediately and seek emergency medical evaluation if they develop persistent, severe epigastric abdominal pain radiating to the back with or without intractable vomiting [7, 8, 9, 12]. Rapid weight loss induced by any modality carries an increased incidence of cholelithiasis (gallstones) and acute cholecystitis [7, 8, 9, 13]. Crucially, the American Society of Anesthesiologists (ASA) published consensus guidance advising that once-weekly GLP-1 receptor agonists be held prior to elective surgical and endoscopic procedures requiring general anesthesia or deep sedation, under the explicit direction of the anesthesia team, because delayed gastric emptying substantially elevates the risk of pulmonary aspiration during induction [15]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "stopping-regain-muscle-nutrition",
+          "heading": {
+            "ar": "إيقاف الدواء، ورجوع الوزن، وإزاي تحمي كتلتك العضلية",
+            "en": "Discontinuation, weight regain physiology, and protecting lean muscle mass"
+          },
+          "body": {
+            "ar": "من أهم الحقايق العلمية اللي لازم المريض يعرفها بصراحة قبل ما يبدأ حقن التخسيس هي إيه اللي ممكن يحصل لما يوقفها [1, 2, 5, 6, 13]. الدراسات الإكلينيكية الكبيرة، زي دراسة SURMOUNT-4 ومتابعة تجربة STEP 1 بعد وقف الدواء، أثبتت إن إيقاف العلاج بيخلّي إشارات الهرمونات اللي بتشجّع الشبع تقل، وسرعة تفريغ المعدة ومستوى الشهية بيرجعوا للوضع البيولوجي اللي كانوا عليه قبل العلاج [1, 5]. والنتائج بيّنت إن المشاركين اللي وقفوا الحقن رجّعوا في المتوسط حوالي تلتين الوزن اللي كانوا خسّوه خلال سنة واحدة من التوقف، لو ما كانش فيه خطة مستمرة لتعديل نمط الحياة وتثبيت الوزن [1, 5]. الدليل الطبي ده بيأكد إن السمنة مرض أيضي مزمن وممكن ينتكس. والأدوية دي مش «كورس سحري ومؤقت» لشهر أو شهرين، وبعده الشخص يسيب كل حاجة. دي أدوات علاجية على المدى الطويل، ومحتاجة تخطيط من البداية مع الدكتور لمدة العلاج، واختيارات تثبيت الوزن، وطريقة التوقف التدريجي [5, 13].\n\nالنقطة الأساسية التانية هي الحفاظ على الكتلة العضلية وقت نزول الوزن بسرعة [6, 13]. لما الشهية تقل بشكل قوي بسبب الدواء، بعض الناس ممكن يهملوا الوجبات أو ياكلوا كميات قليلة جداً. وده ممكن يعمل نقص شديد في البروتين والعناصر الغذائية الدقيقة اللي الجسم محتاجها [6, 13]. ولو فيه عجز كبير في الطاقة من غير حماية بخطة أكل مناسبة، الجسم ممكن يخسر نسبة ملحوظة من الكتلة الخالية من الدهون، يعني العضلات الهيكلية، في نفس الوقت اللي بيخسر فيه الدهون. والدراسات والتحليلات المتخصصة بتشير إلى إن خسارة العضلات ممكن تمثل جزءاً مش قليل من إجمالي الوزن اللي نزل، لو ما اتاخدتش خطوات الوقاية المناسبة [6]. فقدان العضلات بيأثر بشكل سلبي في معدل الحرق الأساسي، أو التمثيل الغذائي، وممكن يعمل ضعف عام وإرهاق، وكمان يسهّل رجوع الدهون بعد وقف الدواء [6, 13].\n\nعشان تحمي عضلاتك وصحتك وإنت بتستخدم أوزمبك أو ويجوفي أو مونجارو، لازم خطتك العلاجية تركز بوضوح على تغذية إكلينيكية متوازنة. ده معناه إنك تاخد كمية بروتين كفاية ومحسوبة طبياً، من مصادر زي البيض، والسمك، والفراخ، ومنتجات اللبن، والبقوليات، وتوزّع البروتين بانتظام على وجبات اليوم حتى لو كمية الأكل في كل وجبة صغيرة [6]. وكمان تمارين مقاومة العضلات (Resistance Training) مرتين أو تلات مرات في الأسبوع تعتبر ركيزة أساسية ومش خطوة إضافية مالهاش لازمة. الإشارات الحركية اللي التمرين بيبعتها للعضلات بتحفّز بناء النسيج، وبتدفع الجسم يستخدم مخزون الدهون مع الحفاظ على النسيج العضلي المهم [6, 13]. الفكرة مش مجرد إن رقم الميزان يقل؛ المهم كمان إن النزول يحصل مع حماية القوة والعضلات والصحة العامة على قد ما يمكن.",
+            "en": "Among the most vital clinical truths that patients must understand prior to initiating weekly injectable pharmacotherapy is the physiological reality of treatment cessation [1, 2, 5, 6, 13]. Rigorous clinical withdrawal trials—notably SURMOUNT-4 and the off-treatment extension of the STEP 1 trial—demonstrated that upon drug discontinuation, pharmacologically augmented satiety signals diminish, gastric transit normalizes, and biological hunger rebounds toward baseline [1, 5]. In these trials, participants who ceased active therapy regained approximately two-thirds of their lost body weight within one year in the absence of structured, sustained lifestyle and behavioral maintenance [1, 5]. This physiological reality underscores that obesity is a relapsing, chronic metabolic disease: these injections are not a 'temporary quick-fix course' for a few weeks, but long-term therapeutic instruments requiring proactive dialogue with your physician regarding duration, tapering, and maintenance [5, 13].\n\nA second paramount clinical concern centers on safeguarding lean skeletal muscle mass during pharmacologically accelerated weight reduction [6, 13]. When appetite is profoundly blunted by high incretin activity, individuals frequently consume drastically inadequate dietary volume and inadvertently undernourish themselves in essential protein and micronutrients [6, 13]. Severe, unmonitored energy deficits precipitate disproportionate loss of fat-free mass alongside adipose stores; comprehensive clinical reviews indicate that skeletal muscle reduction can constitute a significant fraction of total weight lost if counter-measures are neglected [6]. Substantial loss of lean tissue depresses resting metabolic rate, impairs physical strength and endurance, and fosters rapid rebound adiposity if medication is stopped [6, 13].\n\nTo preserve functional musculature and metabolic vitality during treatment with Ozempic, Wegovy, or Mounjaro, an evidence-based clinical regimen must integrate structured clinical nutrition: consuming physician- or dietitian-prescribed dietary protein targets (utilizing eggs, fish, poultry, dairy, and legumes) distributed evenly across the day's meals despite reduced meal capacity [6]. Furthermore, incorporating regular progressive resistance training two to three sessions weekly is indispensable; applying mechanical loading stimuli to skeletal muscle signals tissue preservation, ensuring that weight lost is derived predominantly from visceral and subcutaneous fat depots rather than metabolically critical lean tissue [6, 13]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أدوية الوزن مش كورس قصير",
+                "url": "../articles/weight-medicines-are-not-a-short-course.html"
+              },
+              {
+                "label": "حماية العضلات أثناء نزول الوزن",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "weight medicines are not a short course",
+                "url": "../articles/weight-medicines-are-not-a-short-course.html"
+              },
+              {
+                "label": "protecting muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "counterfeit-warning-and-la-rose-care",
+          "heading": {
+            "ar": "خطر الحقن المغشوشة وإزاي بتمشي الرعاية الطبية في عيادات لاروز",
+            "en": "The hazards of counterfeit pens and structured medical care at La Rose"
+          },
+          "body": {
+            "ar": "الطلب العالمي والمحلي الضخم على حقن أوزمبك وويجوفي ومونجارو خلّى فيه خطر صحي شديد لازم تاخد بالك منه: انتشار أقلام مقلدة، وحقن مغشوشة، وتركيبات صيدلانية مش مرخصة بتتباع على منصات التواصل الاجتماعي، وفي مجموعات الشراء أونلاين، وفي بعض صالونات التجميل غير الطبية [13, 14]. إدارة الغذاء والدواء الأمريكية (FDA) ومنظمات صحية دولية طلّعت أكتر من تحذير رسمي من حقن مغشوشة اتضبطت، وكان فيها جرعات غلط، أو مواد دوائية مجهولة، أو تلوث بكتيري بسبب غياب معايير التعقيم الصيدلاني الصارمة. المنتجات دي تسببت في حالات هبوط حاد في السكر وتسمم ودخول مستشفيات [14]. عشان كده الفريق الطبي بيشدد إن شراء أي حقنة من الإنترنت أو من مركز مش مرخص خطر وممنوع. الدواء الأصلي لازم يتجاب من صيدلية معتمدة، وبناءً على روشتة طبية سليمة من الدكتور المعالج [13, 14]. شكل القلم أو سعره أو كلام البائع مش ضمان للأصالة والأمان.\n\nأول خطوة أساسية قبل استخدام أي حقنة من دول هي إنك تعمل كشف طبي شامل وتقييم تحاليل دقيق، والدكتور هو اللي بيحدد المطلوب قبل ما يكتب أول جرعة [7, 8, 9, 13]. الفحوصات الأساسية بتشمل صورة دم كاملة (CBC)، ووظائف الكلى (Creatinine وUrea)، وإنزيمات الكبد (AST وALT)، وتحليل السكر التراكمي (HbA1c) والسكر الصايم، ووظائف الغدة الدرقية (TSH)، ومستوى دهون الدم. كمان لازم تتراجع قصة الأورام في العيلة، وتاريخ التهابات البنكرياس والمرارة [7, 8, 9, 13]. الهدف من التقييم ده مش إنك تعمل تحاليل روتينية من غير سبب، لكنه بيحط خط أساس بيولوجي واضح يساعد الدكتور يتأكد إن الدواء آمن لحالتك وصحتك العامة، وإنه مش هيتعارض مع أي علاج تاني بتاخده [13]. يعني التحاليل جزء من قرار طبي كامل، مش قائمة منفصلة تعملها وتبدأ الدواء بنفسك.\n\nفي عيادات لاروز بالمعادي، الدكتورة شيماء فؤاد، أخصائية التغذية العلاجية وإدارة السمنة، بتقدم تقييماً إكلينيكياً متكاملاً للمرضى اللي عايزين يديروا وزنهم بأمان ووعي طبي. المسار بيبدأ بمراجعة كاملة لنمط الحياة، وتحليل دقيق لتركيب الجسم باستخدام أجهزة InBody المتقدمة، عشان متابعة الدهون والعضلات تحصل بشكل دوري. وبعد التأكد إن مفيش مانع للاستخدام، بيتم اختيار الدواء الأنسب لحالتك الصحية. كمان بيتعمل بروتوكول أكل متوازن ومناسب لقدرتك، مع متابعة أسبوعية دقيقة للتعامل مع أي أعراض جانبية وضبط زيادة الجرعات بحكمة، من غير استعجال ومن غير مبالغة في الوعود. لو بتدور على وضوح علمي ورعاية طبية مسؤولة ومستمرة، تقدر تحجز استشارة لإدارة الوزن مع الفريق الطبي وتبدأ خطتك بثقة وأمان.",
+            "en": "The unprecedented global and local demand for Ozempic, Wegovy, and Mounjaro has engendered an alarming public health hazard: the widespread proliferation of counterfeit pens, adulterated injections, and unregulated compounded formulations marketed illicitly through social media channels, unverified online storefronts, and non-medical cosmetic centers [13, 14]. Regulatory agencies including the US FDA have issued urgent safety alerts regarding seized counterfeit products containing incorrect active ingredients, wildly inaccurate dosages, or dangerous microbial contamination arising from non-sterile manufacturing, leading to severe hypoglycemia and hospital admissions [14]. Specialists emphasize categorically that patients must never purchase injectable medications from internet brokers or aesthetic salons; authentic prescription treatments must be obtained exclusively through licensed, regulated pharmacies against a verified medical prescription [13, 14].\n\nThe fundamental prerequisite before commencing any injectable incretin regimen is undergoing comprehensive medical consultation and rigorous baseline laboratory investigations directed by your physician [7, 8, 9, 13]. Standard baseline assessment includes a complete blood count (CBC), renal function testing (creatinine, blood urea nitrogen), hepatic transaminases (AST, ALT), glycemic status (HbA1c, fasting plasma glucose), thyroid-stimulating hormone (TSH), and a fasting lipid profile, coupled with a thorough review of personal and familial history for pancreatic, biliary, or thyroid neoplasia [7, 8, 9, 13]. These investigations establish a clear clinical baseline, confirming that therapy is biologically safe and free of detrimental contraindications [13].\n\nAt La Rose Clinics in Maadi, Dr. Shimaa Fouad, Specialist in Clinical Nutrition and Weight Management, delivers comprehensive clinical oversight for individuals navigating medical weight management. The clinical pathway opens with an in-depth metabolic history and advanced InBody body-composition analysis to systematically track skeletal muscle and visceral fat across treatment cycles. If pharmacotherapy is indicated, the appropriate agent is selected strictly according to clinical criteria, matched to an individualized nutritional plan that safeguards lean muscle. Through structured weekly monitoring, titration is supervised responsibly, side effects are proactively managed, and treatment goals remain realistic and medically grounded without hype. When you seek scientific clarity and structured clinical care, you can book a weight management consultation with the medical team to establish your personalized treatment plan."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز استشارة لإدارة الوزن مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a weight management consultation with the medical team",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل مونجارو أفضل من ويجوفي وأوزمبك للتخسيس؟",
+            "en": "Is Mounjaro better than Wegovy and Ozempic for weight loss?"
+          },
+          "a": {
+            "ar": "التجارب الإكلينيكية الكبيرة زي SURMOUNT-1 وSURPASS-2 بيّنت إن التيرزيباتيد، أو مونجارو، حقق في المتوسط نسب نزول وزن أعلى من السيماجلوتايد، وده بفضل إنه بينشّط مستقبلي GLP-1 وGIP مع بعض [2, 3]. لكن تفوق المتوسط الإحصائي مش معناه إن مونجارو تلقائياً هو الاختيار الأنسب لكل مريض. الدكتور بيختار الدواء حسب قدرة جهازك الهضمي على تحمّله، وحالتك الصحية، وأهدافك الأيضية، ومدى توفر الدواء المناسب [2, 3, 13].",
+            "en": "Major clinical trials such as SURMOUNT-1 and SURPASS-2 demonstrated that tirzepatide (Mounjaro) achieved higher mean weight-loss percentages than semaglutide, attributable to its dual agonism of both GLP-1 and GIP receptors [2, 3]. However, higher statistical trial averages do not mean it is automatically superior for every individual; your physician determines suitability based on digestive tolerability, health history, metabolic goals, and medication access [2, 3, 13]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه الفرق بين أوزمبك وويجوفي طالما الاتنين فيهم سيماجلوتايد؟",
+            "en": "What is the difference between Ozempic and Wegovy if both contain semaglutide?"
+          },
+          "a": {
+            "ar": "الاتنين فيهم نفس المادة الفعالة بالضبط، وهي السيماجلوتايد، لكن أوزمبك مرخص رسمياً لمرضى السكر من النوع التاني ولخفض مخاطر القلب، وجرعته القصوى بتوصل إلى 2.0 مجم أسبوعياً [8, 13]. أما ويجوفي، فاتصمم واترخص مخصوص كدواء لإدارة الوزن المزمنة ومضاعفات القلب عند مرضى السمنة، وجرعته المعتمدة بتزيد بالتدريج لحد 2.4 مجم أسبوعياً في أقلام حقن مخصصة [7, 10].",
+            "en": "Both medications share the identical active substance (semaglutide), but Ozempic is officially approved for glycemic control in type 2 diabetes and cardiovascular risk reduction up to a maximum dose of 2.0 mg weekly [8, 13]. Conversely, Wegovy is specifically developed and licensed for chronic weight management and cardiovascular risk reduction in obesity, escalating to a maximum maintenance dose of 2.4 mg weekly in dedicated pens [7, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الوزن بيرجع بعد ما توقف حقن أوزمبك أو ويجوفي أو مونجارو؟",
+            "en": "Does weight return after stopping Ozempic, Wegovy, or Mounjaro injections?"
+          },
+          "a": {
+            "ar": "أيوه، الدراسات المنشورة زي SURMOUNT-4 ومتابعة STEP-1 بيّنت إن لما العلاج بيتوقف، إشارات الشبع الهرمونية بتقل، والشهية وسرعة الهضم بيرجعوا لمستوياتهم القديمة. وده ممكن يخلّي جزء ملحوظ من الوزن اللي نزل يرجع لو مفيش خطة طبية لتثبيت الوزن ونمط حياة تقدر تكمل عليه [1, 2, 5]. عشان كده السمنة بتتعامل كحالة مزمنة محتاجة خطة متابعة على المدى الطويل، مش كورس علاج سريع ومؤقت [5, 13].",
+            "en": "Yes, published withdrawal studies including SURMOUNT-4 and the STEP-1 extension revealed that discontinuing medication removes incretin satiety cues and returns appetite to baseline, resulting in substantial weight regain without long-term lifestyle foundations and clinical maintenance [1, 2, 5]. Obesity is recognized as a chronic condition requiring an enduring management strategy rather than a brief, temporary treatment cycle [5, 13]."
+          }
+        },
+        {
+          "q": {
+            "ar": "مين ممنوع تماماً من استخدام الحقن دي؟",
+            "en": "Who is strictly contraindicated from using these injections?"
+          },
+          "a": {
+            "ar": "أوزمبك وويجوفي ومونجارو ممنوعين تماماً لو عندك تاريخ شخصي أو عائلي لسرطان الغدة الدرقية النخاعي (MTC)، أو متلازمة الأورام الصماوية المتعددة من النوع التاني (MEN 2)، أو حساسية معروفة للدواء [7, 8, 9]. وكمان استخدام الحقن دي ممنوع تماماً أثناء الحمل والرضاعة الطبيعية. ولو عندك تاريخ لالتهاب البنكرياس، أو أمراض المرارة، أو اعتلال الشبكية السكري، لازم الدكتور يقيّم حالتك بحذر شديد [7, 8, 9, 12].",
+            "en": "Ozempic, Wegovy, and Mounjaro are strictly contraindicated in anyone with a personal or family history of medullary thyroid carcinoma (MTC), multiple endocrine neoplasia syndrome type 2 (MEN 2), or hypersensitivity to the drug formulation [7, 8, 9]. They are strictly contraindicated during pregnancy and lactation, while requiring cautious clinician assessment in patients with prior pancreatitis, gallbladder disease, or diabetic retinopathy [7, 8, 9, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ينفع تاخد الحقن دي من غير تحاليل أو استشارة دكتور؟",
+            "en": "Can these injections be taken without laboratory tests or a doctor's consultation?"
+          },
+          "a": {
+            "ar": "لأ، ما ينفعش أبداً تبدأ الأدوية دي من غير كشف إكلينيكي دقيق وتحاليل قبلها لوظائف الكلى والكبد والغدة الدرقية والسكر التراكمي وصورة الدم [7, 8, 13]. والهيئات الصحية كمان بتحذر بشدة من شراء الحقن عن طريق صفحات الإنترنت ومواقع التواصل؛ لأن فيه منتجات مقلدة أو مغشوشة ما فيهاش معايير الأمان والجودة، وممكن تعمل خطر شديد على صحتك [13, 14].",
+            "en": "You should never initiate these therapies without a comprehensive clinical evaluation and baseline laboratory panels covering kidney function, liver enzymes, thyroid function, HbA1c, and a complete blood count [7, 8, 13]. Health authorities also warn strongly against acquiring injections from internet brokers or social media platforms, where dangerous counterfeit products present acute safety hazards [13, 14]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أعمل إيه لو نسيت جرعة الحقنة الأسبوعية في ميعادها؟",
+            "en": "What should I do if I miss a scheduled weekly injection dose?"
+          },
+          "a": {
+            "ar": "بالنسبة لأوزمبك وويجوفي، لو افتكرت الجرعة اللي فاتتك خلال 5 أيام من ميعادها، تقدر تاخدها فوراً وبعدها تكمل جدولك المعتاد. لو عدى أكتر من 5 أيام، سيب الجرعة دي وخد الجرعة اللي بعدها في ميعادها الأسبوعي العادي [7, 8]. وبالنسبة لمونجارو، لو افتكرت خلال 4 أيام، يعني 96 ساعة، تقدر تاخد الجرعة. ولو عدى وقت أطول من كده، سيبها، وما تاخدش أبداً جرعة مضاعفة [9].",
+            "en": "For Ozempic and Wegovy, if you remember the missed dose within 5 days of your scheduled injection day, administer it immediately and resume your normal weekly schedule; if more than 5 days have elapsed, skip the missed dose and take the next one on regular schedule [7, 8]. For Mounjaro, if remembered within 4 days (96 hours), take it; if longer, skip it, and never administer a double dose [9]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wilding et al. — Once-Weekly Semaglutide in Adults with Overweight or Obesity: STEP 1 (NEJM, PubMed 33567185)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33567185/"
+        },
+        {
+          "label": "Jastreboff et al. — Tirzepatide Once Weekly for the Treatment of Obesity: SURMOUNT-1 (NEJM, PubMed 35658024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35658024/"
+        },
+        {
+          "label": "Frías et al. — Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes: SURPASS-2 (N Engl J Med 2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34170647/"
+        },
+        {
+          "label": "Lincoff et al. — Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes: SELECT (NEJM, PubMed 37952131)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37952131/"
+        },
+        {
+          "label": "Aronne et al. — Continued Treatment With Tirzepatide for Maintenance of Weight Reduction in Adults With Obesity: SURMOUNT-4 (JAMA 2024, PMC10714284)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10714284/"
+        },
+        {
+          "label": "Neeland et al. — Changes in Lean Body Mass with Glucagon-like Peptide-1-based Therapies and Mitigation Strategies (Diabetes Care, PubMed 38937282)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "label": "DailyMed — WEGOVY (semaglutide injection, solution) Prescribing Information (FDA Label)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b"
+        },
+        {
+          "label": "DailyMed — OZEMPIC (semaglutide injection, solution) Prescribing Information (FDA Label)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79"
+        },
+        {
+          "label": "DailyMed — MOUNJARO (tirzepatide injection, solution) Prescribing Information (FDA Label)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0"
+        },
+        {
+          "label": "NICE — Semaglutide for managing overweight and obesity (Technology appraisal guidance TA875)",
+          "url": "https://www.nice.org.uk/guidance/ta875"
+        },
+        {
+          "label": "NICE — Tirzepatide for treating type 2 diabetes (Technology appraisal guidance TA924)",
+          "url": "https://www.nice.org.uk/guidance/ta924"
+        },
+        {
+          "label": "Cleveland Clinic — GLP-1 Agonists: What They Are, How They Work & Side Effects",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "label": "NIDDK — Prescription Medications to Treat Overweight & Obesity",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
+        },
+        {
+          "label": "FDA — FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss",
+          "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/medications-containing-semaglutide-marketed-type-2-diabetes-or-weight-loss"
+        },
+        {
+          "label": "American Society of Anesthesiologists — Consensus-Based Guidance on Preoperative Management of Patients on GLP-1 Receptor Agonists",
+          "url": "https://www.asahq.org/about-asa/newsroom/news-releases/2023/06/american-society-of-anesthesiologists-consensus-based-guidance-on-preoperative"
+        }
+      ]
+    }
+  ]
+}

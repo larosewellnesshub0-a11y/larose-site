@@ -1,0 +1,351 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-stress-eating-willpower; replaces the entry from content/articles.json. Expanded into a cited bilingual guide to the stress-eating loop, practical responses, and thresholds for specialist or urgent help.",
+  "articles": [
+    {
+      "slug": "qa-stress-eating-willpower",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management"
+      ],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/clinical-nutrition-2.webp",
+      "title": {
+        "ar": "باكل وقت الضغط حتى من غير جوع، هل دي إرادة ضعيفة؟",
+        "en": "I eat under stress even when I am not hungry. Is that weak willpower?"
+      },
+      "excerpt": {
+        "ar": "الأكل وقت الضغط مش دليل إن إرادتك ضعيفة. افهم الحلقة بين التوتر والجوع والعادة، واعرف خطوات عملية من غير لوم وإمتى تحتاج دعماً متخصصاً.",
+        "en": "Stress eating is not proof of weak willpower. Understand the links among stress, hunger and habit, try practical steps without blame, and know when specialist support matters."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا الإجابة بشرح عملي لحلقة الأكل وقت الضغط وعلامات طلب المساعدة، واتراجعت طبياً من جديد.",
+            "en": "We expanded the answer with a practical explanation of the stress-eating cycle and signs for seeking help, and medically re-reviewed it."
+          }
+        }
+      ],
+      "tags": {
+        "ar": [
+          "الأكل العاطفي",
+          "الأكل وقت الضغط",
+          "الضغط النفسي",
+          "فقدان السيطرة على الأكل",
+          "التغذية العلاجية"
+        ],
+        "en": [
+          "emotional eating",
+          "stress eating",
+          "stress",
+          "loss of control eating",
+          "clinical nutrition"
+        ]
+      },
+      "sections": [
+        {
+          "id": "not-weak-willpower",
+          "heading": {
+            "ar": "الإجابة المختصرة: لأ، دي مش علامة على ضعف الإرادة",
+            "en": "The short answer: no, this is not a sign of weak willpower"
+          },
+          "body": {
+            "ar": "لأ. إنك تاكل وقت الضغط مش معناه إن شخصيتك ضعيفة أو إنك فشلت في الالتزام. الأكل ممكن يخفف إحساساً صعباً لفترة قصيرة، ومع التكرار المخ يربط موقفاً أو شعوراً معيناً باستجابة سريعة ومألوفة. ساعتها الحركة ناحية الأكل تبقى شبه تلقائية، خصوصاً لو أنت مرهق، جعان، نومك قليل، أو حواليك أكل سهل الوصول له. ده سلوك مفهوم ومكتسب، مش حكم أخلاقي عليك [1, 2, 3].\n\nالعلاقة بين الضغط والأكل مش واحدة عند كل الناس. مراجعة منهجية كبيرة لقت ارتباطاً صغيراً في المتوسط بين الضغط وزيادة الأكل، مع اختلاف واضح بين الدراسات والأشخاص؛ وفي ناس الضغط يقلل شهيتها أصلاً. كمان مراجعة متخصصة وضحت إن مفيش معيار تشخيصي أو اختبار ذهبي اسمه «اختبار الأكل وقت الضغط». عشان كده ما ينفعش نفسر كل سناك بعد يوم صعب على إنه مشكلة، ولا نقول إن هرموناً واحداً هو السبب المؤكد [2, 3].\n\nالسؤال المفيد مش «ليه إرادتي وحشة؟»، لكن «إيه اللي كان حاصل قبل الأكل، وإيه الاحتياج اللي الأكل حاول يلبيه؟». ممكن يكون الاحتياج طاقة حقيقية، راحة، توقف من الشغل، صحبة، أو تهدئة. لما تسمي اللي حاصل من غير شتيمة لنفسك، بتفتح مساحة لاختيار تاني. الهدف مش إنك تمنع أي أكل مريح للأبد؛ الهدف إن الأكل ما يبقاش الأداة الوحيدة للتعامل مع كل ضغط [1, 4].",
+            "en": "No. Eating under stress does not mean that your character is weak or that you have failed at discipline. Food can briefly soften a difficult feeling, and repetition can connect a situation or emotion with a familiar response. Reaching for food may then feel automatic, especially when you are tired, hungry, short on sleep or surrounded by available food. This is learned behaviour, not a moral verdict [1, 2, 3].\n\nStress does not affect everyone's eating alike. A large systematic review found a small average association between stress and greater food intake, with substantial differences across studies and people; some people eat less. Another review found no diagnostic criteria or gold-standard test for “stress-related eating.” Do not label every snack after a hard day as a problem or claim that one hormone is definitely responsible [2, 3].\n\nAsk “What happened before I ate, and what need was food trying to meet?” The need may have been energy, comfort, a break, company or relief. Naming it without insulting yourself creates room for choice. The aim is not to ban comforting food; it is to stop food becoming the only response to pressure [1, 4]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "stress-hunger-habit",
+          "heading": {
+            "ar": "إزاي الضغط والجوع والعادة ممكن يدخلوا في نفس الحلقة؟",
+            "en": "How can stress, hunger and habit enter the same loop?"
+          },
+          "body": {
+            "ar": "ممكن الحلقة تبدأ بموقف واضح، زي مكالمة متعبة أو خلاف أو ضغط شغل، وممكن تبدأ بإحساس أقل وضوحاً زي الملل أو الوحدة أو إنك مستنزف. الأكل يدي تشتيتاً أو راحة مؤقتة، وبعدها الشعور الأساسي يرجع. لو دخل الذنب في الصورة، ممكن تقول لنفسك إنك «بوظت اليوم»، فتكمّل أكل أو تبدأ حرماناً قاسياً، وبعدها يزيد الجوع والضغط وتلف الحلقة من جديد [1, 4].\n\nده ما يعنيش إن كل رغبة مفاجئة عاطفية ولا إن الجوع الجسدي والعاطفة ضد بعض. ممكن تبقى متوتر وجعان فعلاً في نفس اللحظة. فرق التوقيت بيساعد: الجوع الجسدي غالباً بيزيد تدريجياً وبيهدأ بوجبة مناسبة، بينما الرغبة المرتبطة بموقف ممكن تظهر بسرعة وتطلب طعماً أو أكلة بعينها. بس دي إشارات، مش قواعد تشخيص. صفحة إزاي أعرف الجوع الجسدي من الأكل العاطفي؟ بتشرح الفروق العملية من غير ما تحولها لامتحان [1, 3].\n\nراقب كمان البيئة. فتح تطبيق توصيل بعد شغل طويل، مشاهدة التلفزيون جنب سناك مفتوح، أو المرور كل يوم من نفس المكان ممكن يبقوا إشارات متعلمة. تغيير جزء صغير من السياق—زي إنك تقفل اللابتوب وتتحرك لدقيقتين قبل المطبخ—ما بيمسحش الضغط، لكنه بيفصل الإشارة عن الاستجابة ثواني كفاية عشان تلاحظ اختيارك [1, 4].",
+            "en": "The loop may begin with a difficult call, conflict or work pressure, or with boredom, loneliness or depletion. Eating provides temporary distraction or relief, then the feeling returns. Guilt may make you decide that you have “ruined the day,” continue eating or impose harsh restriction. Hunger and pressure rise, and the loop restarts [1, 4].\n\nNot every sudden desire is emotional, and physical hunger and emotion are not opposites. You can be stressed and hungry together. Physical hunger often builds gradually and settles after a suitable meal; an event-linked urge may arrive quickly and focus on one food. These are clues, not diagnostic rules. How can I tell physical hunger from emotional eating? explains the distinction without making it a test [1, 3].\n\nEnvironment matters too. A delivery app after work, television beside an open snack packet, or the same shop each evening can become learned cues. A small change—closing the laptop and moving for two minutes before entering the kitchen—does not erase stress, but may separate cue from response long enough to notice a choice [1, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "إزاي أعرف الجوع الجسدي من الأكل العاطفي؟",
+                "url": "../articles/qa-physical-or-emotional-hunger.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "How can I tell physical hunger from emotional eating?",
+                "url": "../articles/qa-physical-or-emotional-hunger.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "reduce-physical-pressure",
+          "heading": {
+            "ar": "قبل ما تختبر إرادتك، قلل الضغط الجسدي اللي بيزود الاندفاع",
+            "en": "Before testing willpower, reduce the physical pressures that amplify urges"
+          },
+          "body": {
+            "ar": "لو بتعدّي ساعات طويلة من غير أكل، أو بتبدأ اليوم بنية إنك «توفر» كل أكلك لآخره، الجوع الطبيعي ممكن يوصل لدرجة تخلي أي قرار أهدى أصعب. الإرشادات الخاصة بنوبات الأكل بتستخدم انتظام الوجبات والسناك كجزء من العلاج، وبتحذر من محاولة نزول الوزن بحمية قاسية أثناء علاج النوبات لأنها ممكن تشغل الحلقة من جديد. ده مش معناه إن كل أكل وقت الضغط اضطراب، لكنه يوضح ليه الحرمان مش علاجاً مضموناً للاندفاع [7, 11].\n\nابدأ بهيكل بسيط يناسب يومك وحالتك الطبية: فرص أكل متوقعة بدل ما تستنى لحد ما تبقى منهك، ووجبة فيها قدر كفاية ومكونات مشبعة ومتاحة فعلاً. مفيش جدول واحد لازم يمشي على الجميع، ومريض السكر أو الشخص اللي عنده مرض هضمي أو دواء بيأثر على الشهية محتاج يناقش التفاصيل مع الطبيب المعالج. الفكرة إنك ما تحطش جوعاً شديداً فوق ضغط شديد وبعدين تلوم نفسك على النتيجة [7, 8].\n\nالنوم كمان جزء من السياق، مش تفسير سحري. مراجعة لتجارب عشوائية لقت إن تقليل النوم ممكن يزود الجوع ومدخول الطاقة في المتوسط، لكن الاستجابة مش متطابقة عند الجميع. لو السهر بيخلّيك تاكل أكتر أو يسيبك من غير طاقة للتخطيط، راجع صفحة نومي قليل ووزني ثابت: هل النوم هو السبب؟ وخلي النوم بنداً في الملاحظة، مش سبباً للحكم على نفسك [6].",
+            "en": "Long periods without food, or trying to “save” all food until evening, can make physical hunger strong enough to hinder a calmer decision. Binge-eating treatment guidance uses regular meals and snacks and advises against restrictive dieting during treatment because it may restart the cycle. Not every stress-eating episode is a disorder, but deprivation is not a dependable cure for an urge [7, 11].\n\nUse a simple structure suited to your day and medical needs: predictable eating opportunities and adequate, satisfying meals. No timetable suits everyone. If diabetes, a digestive condition or medicine affects appetite, discuss details with your clinician. Avoid adding extreme hunger to extreme stress and then blaming yourself [7, 8].\n\nSleep is context, not a magical explanation. A review of randomised trials found that sleep restriction could increase hunger and energy intake on average, though responses varied. If late nights increase eating opportunities or impair planning, review I sleep too little and my weight is stuck. Is sleep the reason? and include sleep in your observations [6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "نومي قليل ووزني ثابت: هل النوم هو السبب؟",
+                "url": "../articles/qa-sleep-weight-plateau.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "I sleep too little and my weight is stuck. Is sleep the reason?",
+                "url": "../articles/qa-sleep-weight-plateau.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "observe-without-surveillance",
+          "heading": {
+            "ar": "سجّل النمط من غير ما تحوّل يومك لمراقبة وعقاب",
+            "en": "Track the pattern without turning your day into surveillance and punishment"
+          },
+          "body": {
+            "ar": "لمدة كام يوم، جرّب تسجل سطوراً قليلة وقت ما الموقف يحصل: الساعة، آخر مرة أكلت إمتى، درجة الجوع التقريبية، إيه اللي حصل قبله، الشعور الموجود، إيه اللي أكلته، وإحساسك بعده. ده مش دفتر سعرات ولا كشف حساب ضدك. الهدف إنك تكتشف أنماطاً قابلة للتغيير، زي اجتماع معين، رجوع متأخر، قلة نوم، أو وجبة ناقصة [1, 4, 7].\n\nاكتب المعلومة بلغة محايدة. بدل «كنت ضعيف وكلت وحش»، اكتب «رجعت الساعة تسعة، آخر وجبة كانت الساعة اتنين، كنت متوتر وجعان، وأكلت بسرعة قدام الشاشة». الوصف التاني بيديك نقاطاً عملية: فرق طويل بين الوجبات، ضغط، سرعة، وتشتيت. أما الشتيمة فبتزود الضيق من غير ما تقولك تعمل إيه. لو الأرقام أو كتابة الكميات بتزود وسواساً أو خوفاً من الأكل، سيبها وسجل السياق والمشاعر بس، وناقش ده مع مختص [7, 13].\n\nبعد عدة مواقف، اختار نمطاً واحداً للتجربة، مش عشرة تغييرات مرة واحدة. مثلاً حضّر سناك مناسب قبل المشوار الطويل، أو حط نهاية واضحة للشغل، أو ابعد الأكل عن مكتبك وخليه اختياراً واعياً في مكان الأكل. راجع النتيجة بعد أسبوع: هل الاندفاع بقى أقل شدة؟ هل بقى عندك وقت تختار؟ النجاح هنا مش «صفر أكل عاطفي»، لكن زيادة الوعي والمرونة [1, 4].",
+            "en": "For a few days, try recording a few lines when an episode occurs: the time, when you last ate, an approximate hunger level, what happened beforehand, the feeling present, what you ate and how you felt afterwards. This is not a calorie ledger or evidence for a case against you. Its purpose is to reveal patterns that can be changed, such as a particular meeting, arriving home late, short sleep or an inadequate meal [1, 4, 7].\n\nUse neutral language. Instead of “I was weak and ate badly,” write “I got home at nine, my last meal was at two, I felt stressed and hungry, and I ate quickly in front of a screen.” The second description identifies workable factors: a long gap, pressure, speed and distraction. The insult creates more distress without telling you what to do. If numbers or recording quantities intensify obsessive thoughts or fear of food, leave them out. Record only context and feelings, and discuss that response with a professional [7, 13].\n\nAfter several episodes, choose one pattern to test rather than making ten changes at once. You might prepare a suitable snack before a long journey, create a clear end to the workday, or move food away from your desk so eating becomes a conscious choice in an eating space. Review the result after a week: Was the urge less intense? Did you have more time to choose? Success here is not “zero emotional eating”; it is greater awareness and flexibility [1, 4]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "pause-and-expand-options",
+          "heading": {
+            "ar": "وقت الرغبة: اعمل وقفة قصيرة ووسّع اختياراتك",
+            "en": "When the urge arrives: pause briefly and widen your options"
+          },
+          "body": {
+            "ar": "الوقفة مش معناها إنك تمنع نفسك بالقوة. جرّب دقيقة أو دقيقتين تسأل فيهم: «أنا جعان قد إيه؟ إيه الشعور الموجود؟ وإيه أصغر حاجة ممكن تساعد دلوقتي؟». لو فيه جوع، كُل وجبة أو سناك مناسب. لو الضغط هو الأعلى، ممكن تضيف استجابة قصيرة قبل الأكل أو معاه: نفس أبطأ، شوية حركة، غسيل وشك، خروج من مكان الشغل، رسالة لشخص بتثق فيه، أو كتابة اللي مضايقك. مصادر الصحة العامة بتنصح بالتنفس، الحركة، التواصل، والروتين المنتظم للنوم كطرق صحية للتعامل مع الضغط [1, 5, 13].\n\nاختار حاجات واقعية، مش قائمة مثالية محتاجة ساعة فاضية. مكالمة خمس دقايق ممكن تنفع أكتر من خطة استرخاء كبيرة مش هتعملها. ولو قررت تاكل بعد الوقفة، اقعد في مكان واضح وحاول تلاحظ الطعم والسرعة والشبع من غير شاشة لو تقدر. مراجعات التدخلات القائمة على الوعي اللحظي بتشير لفائدة محتملة مع الأكل العاطفي ونوبات الأكل، لكن الدليل متفاوت، ومش معنى كده إن الوعي اللحظي علاج مضمون أو وسيلة مباشرة لنزول الوزن [12].\n\nحضّر «قائمة دقيقتين» وإنت هادي: ثلاثة اختيارات تناسب البيت، واتنين يناسبوا الشغل أو الطريق. كده وقت الضغط مش محتاج تخترع حلاً من الصفر. الفكرة مش استبدال الطعام دائماً؛ الفكرة إنك تضيف أدوات، عشان الأكل يبقى اختياراً ممكناً ضمن اختيارات، مش الاستجابة الوحيدة اللي جسمك حافظها [1, 5].",
+            "en": "A pause does not mean forcing yourself not to eat. Take one or two minutes to ask: “How hungry am I? What feeling is here? What is the smallest thing that could help right now?” If hunger is present, eat a suitable meal or snack. If pressure is stronger, add a brief response before or alongside eating: slower breathing, a little movement, washing your face, leaving the work area, messaging someone you trust, or writing down what is troubling you. Public-health guidance includes breathing, movement, connection and a regular sleep routine among healthy ways to cope with stress [1, 5, 13].\n\nChoose realistic actions, not an ideal list that requires a free hour. A five-minute call may help more than an elaborate relaxation plan that you will not use. If you decide to eat after the pause, sit in a defined place and notice taste, pace and fullness without a screen when possible. Reviews of mindfulness-based approaches suggest potential benefit for emotional and binge eating, but the evidence varies; mindfulness is neither a guaranteed treatment nor a direct weight-loss method [12].\n\nPrepare a “two-minute menu” while you are calm: three options that work at home and two that work at work or while travelling. Then pressure does not require you to invent a solution from nothing. The point is not always to replace food. It is to add tools so that eating becomes one possible choice among several, rather than the only response your body has rehearsed [1, 5]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "after-an-episode",
+          "heading": {
+            "ar": "بعد ما تاكل: ما تدخلش في حلقة الذنب والحرمان",
+            "en": "After eating: do not enter the guilt-and-restriction loop"
+          },
+          "body": {
+            "ar": "لو حصل موقف أكل أكتر مما كنت ناوي، ما تحاولش «تصلحه» بصيام عقابي، قيء، ملينات، أو تمرين قاسي. ارجع لفرصة الأكل التالية المعتادة واشرب سوائل بشكل طبيعي، إلا لو طبيبك مديك تعليمات مختلفة لحالة صحية. إرشادات علاج نوبات الأكل بتركز على انتظام الأكل وفهم المحفزات، وبتحذر من الحمية خلال العلاج لأنها ممكن تصعّب إيقاف النوبات [7, 11].\n\nاسأل نفسك سؤالين بس: إيه عامل واحد زوّد احتمال الموقف؟ وإيه تعديل واحد هيساعد المرة الجاية؟ ممكن الإجابة تكون وجبة متأخرة، نوم قليل، مشكلة محتاجة كلاماً مباشراً، أو إن الأكل كان قدامك طول الوقت. سجلها واقفل الموقف. مراجعة اليوم عشر مرات أو وزن نفسك بعدها مباشرة غالباً مش هيديك معلومة مفيدة عن سبب السلوك [1, 4].\n\nالتعاطف مع نفسك هنا مش تبريراً ولا تجاهلاً للصحة. هو طريقة تقلل طبقة العار اللي ممكن ترجع تشغل نفس الحلقة. تقدر تقول: «ده حصل وأنا كنت تحت ضغط، وأنا هراجع النمط من غير عقاب». لو المواقف بتتكرر، فده معناه إن الخطة محتاجة دعماً أو تعديلاً، مش إنك محتاج قسوة أكتر. ولو هدفك كمان تغيير الوزن، افصل تقييم علاقة الأكل بالضغط عن مطاردة نتيجة سريعة، وخلي القرار الفردي مع الفريق المعالج [7, 8].",
+            "en": "If you eat more than you intended, do not try to “correct” it with punitive fasting, vomiting, laxatives or harsh exercise. Return to your next usual eating opportunity and drink fluids normally unless your clinician has given different instructions for a medical condition. Binge-eating treatment guidance focuses on regular eating and understanding triggers, and it warns that dieting during treatment can make stopping episodes more difficult [7, 11].\n\nAsk only two questions: What single factor made this episode more likely, and what one adjustment could help next time? The answer might be a delayed meal, short sleep, a problem that needs a direct conversation, or food remaining in view all evening. Record it and close the episode. Replaying the day ten times or weighing yourself immediately afterwards is unlikely to explain why the behaviour happened [1, 4].\n\nSelf-compassion is not an excuse or a decision to ignore health. It reduces the layer of shame that may restart the same loop. You can say, “This happened while I was under pressure, and I will review the pattern without punishment.” Recurring episodes mean the plan needs more support or adjustment, not that you need more cruelty. If changing weight is also a goal, separate assessment of stress-related eating from the pursuit of rapid results, and leave individual treatment decisions with the care team [7, 8]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "specialist-and-urgent-help",
+          "heading": {
+            "ar": "إمتى الموضوع يبقى محتاج مختص أو مساعدة عاجلة؟",
+            "en": "When does this need specialist or urgent help?"
+          },
+          "body": {
+            "ar": "الأكل وقت الضغط مش هو نفسه تلقائياً اضطراب نوبات الأكل. العلامة الأساسية في نوبة الأكل هي كمية كبيرة في وقت قصير مع إحساس إنك مش قادر تتحكم أو توقف؛ والتشخيص كمان بيعتمد على التكرار والضيق والتقييم المتخصص، مش على موقف واحد أو شكل الجسم. إخفاء الأكل، الأكل بسرعة لحد عدم الراحة، والعار الشديد بعده علامات تستحق إنك تحكيها بوضوح. صفحة بيجيلي نوبات باكل فيها بسرعة ومبعرفش أوقف: ده طبيعي؟ بتفصل النطاق ده عشان المقال هنا ما يشخصكش [8, 9, 10].\n\nاطلب تقييماً منظماً لو الأكل بقى وسيلة التهدئة الوحيدة، أو بيأثر على الشغل والنوم والعلاقات، أو معاه اكتئاب أو قلق مستمر، أو فيه فقدان سيطرة متكرر. صفحة إمتى الأكل العاطفي يبقى محتاج مساعدة متخصصة؟ بتوضح أدوار مختص التغذية العلاجية ومختص الصحة النفسية. العلاجات المبنية على الدليل لنوبات الأكل تشمل مساعدة ذاتية موجهة وعلاجاً معرفياً سلوكياً متخصصاً، والخطة تتحدد حسب التقييم؛ مش لازم تستنى تغير الوزن عشان تطلب مساعدة [7, 8, 11].\n\nالقيء المتعمد، استخدام الملينات أو مدرات البول للتعويض، الإغماء، الجفاف الشديد، ألم الصدر، القيء الدموي، أو تدهور جسدي واضح يحتاج تقييماً طبياً عاجلاً حسب الشدة. ولو فيه أفكار بإيذاء النفس، أو مش قادر تضمن أمانك، اطلب مساعدة طارئة فوراً من خدمات الطوارئ المحلية وخلي شخصاً موثوقاً يفضل معاك؛ ما تستناش موعد تغذية روتيني [7, 13].",
+            "en": "Stress eating is not automatically the same as binge-eating disorder. A central feature of a binge is eating a large amount in a short period while feeling unable to control or stop; diagnosis also depends on recurrence, distress and specialist assessment, not one event or a particular body shape. Eating secretly, eating rapidly until uncomfortably full and intense shame afterwards are signs worth describing clearly. I have episodes when I eat quickly and cannot stop. Is that normal? covers this territory so that this article does not attempt to diagnose you [8, 9, 10].\n\nRequest a structured assessment if eating has become your only way to soothe yourself, affects work, sleep or relationships, accompanies persistent depression or anxiety, or repeatedly feels out of control. When does emotional eating need specialist help? explains the roles of clinical nutrition and mental-health professionals. Evidence-based treatment for binge-eating disorder includes guided self-help and eating-disorder-focused cognitive behavioural therapy, with the plan chosen after assessment. You do not need to wait for your weight to change before seeking help [7, 8, 11].\n\nSelf-induced vomiting, using laxatives or diuretics to compensate, fainting, severe dehydration, chest pain, vomiting blood or clear physical deterioration needs urgent medical assessment according to severity. If you have thoughts of harming yourself or cannot keep yourself safe, seek immediate help through local emergency services and ask a trusted person to stay with you; do not wait for a routine nutrition appointment [7, 13]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "بيجيلي نوبات باكل فيها بسرعة ومبعرفش أوقف: ده طبيعي؟",
+                "url": "../articles/qa-binge-eating-episodes.html"
+              },
+              {
+                "label": "إمتى الأكل العاطفي يبقى محتاج مساعدة متخصصة؟",
+                "url": "../articles/qa-emotional-eating-needs-specialist.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "I have episodes when I eat quickly and cannot stop. Is that normal?",
+                "url": "../articles/qa-binge-eating-episodes.html"
+              },
+              {
+                "label": "When does emotional eating need specialist help?",
+                "url": "../articles/qa-emotional-eating-needs-specialist.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "seven-day-plan-and-next-step",
+          "heading": {
+            "ar": "خطة هادية لمدة أسبوع، وبعدها الخطوة المناسبة",
+            "en": "A calm one-week plan and the right next step"
+          },
+          "body": {
+            "ar": "اختار أسبوعاً للملاحظة مش للمثالية. أولاً، حافظ قدر الإمكان على فرص أكل منتظمة تناسب يومك. ثانياً، اكتب وصفاً قصيراً لثلاثة مواقف من غير سعرات ولا أحكام. ثالثاً، حضّر اختيارين سريعين للتهدئة أو التوقف. رابعاً، بعد كل موقف ارجع لروتينك الطبيعي بدل التعويض. وفي نهاية الأسبوع اسأل: إيه أكتر محفز اتكرر؟ هل كنت جعان فعلاً؟ وإيه تعديل واحد قابل للتنفيذ؟ الخطوات دي متوافقة مع فكرة ملاحظة المحفزات، انتظام الأكل، وتوسيع طرق التعامل مع الضغط [1, 5, 7].\n\nلو النمط بسيط وبدأ يقل، كمل تجربة التعديل وراجعه بهدوء. لو مستمر، مزعج، أو داخل مع مرض مزمن أو دواء أو هدف وزن، التقييم الفردي يقدر يفرق بين جوع غير مُلبّى، عادة مرتبطة بالسياق، ضغط نفسي محتاج دعماً، أو علامات اضطراب أكل. متخصص التغذية ما يشخصش كل مشكلة نفسية، ومختص الصحة النفسية مش بديل عن تقييم طبي لو فيه أعراض جسدية؛ أحياناً الأفضل يكون فيه تعاون بينهم [7, 8, 13].\n\nالفريق الطبي في العيادة يقدر يراجع معاك نمط الوجبات، الجوع، النوم، الأدوية، وأي علامات تستدعي إحالة مناسبة، من غير لوم أو وعد بنتيجة. لو محتاج تبدأ تقييماً منظماً، تقدر تطلب حجز استشارة تغذية علاجية وتاخد معاك ملاحظات أسبوع واحد وقائمة أدويةك. القرار النهائي والخطة يفضلوا مع الطبيب أو المختص المعالج بعد ما يسمع قصتك كاملة [7, 8].",
+            "en": "Choose one week for observation, not perfection. Keep eating opportunities reasonably regular, describe three episodes without calories or judgement, prepare two quick options for pausing, and return to your normal routine instead of compensating. At week's end ask: Which trigger recurred most? Was hunger present? What one adjustment is workable? These steps reflect noticing triggers, eating regularly and expanding ways to cope [1, 5, 7].\n\nIf the pattern is mild and eases, continue the adjustment. If it persists, causes distress, or overlaps with illness, medicine or a weight goal, assessment can distinguish unmet hunger, a context-linked habit, psychological pressure, or eating-disorder features. Nutrition and mental-health professionals have different roles; collaboration may be appropriate [7, 8, 13].\n\nThe clinic's medical team can review meals, hunger, sleep, medicines and referral signs without blame or promises. You can request a clinical nutrition consultation and bring one week of observations plus your medicine list. The individual plan remains with the treating clinician or specialist [7, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز استشارة تغذية علاجية",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a clinical nutrition consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل كل مرة باكل فيها وأنا متوتر تعتبر أكل عاطفي؟",
+            "en": "Is every time I eat while stressed emotional eating?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. ممكن تكون متوتر وجعان جسدياً في نفس الوقت، وممكن الأكل يكون ببساطة ميعاد وجبتك. مصطلح الأكل وقت الضغط نفسه ملوش اختبار تشخيصي ذهبي، وتأثير الضغط على الأكل بيختلف بين الناس. بص للسياق: آخر وجبة، درجة الجوع، المحفز، الإحساس بفقدان السيطرة، والتكرار. موقف واحد ما يشخصش اضطراباً [2, 3, 8].",
+            "en": "Not necessarily. You can be stressed and physically hungry at the same time, and eating may simply coincide with your usual meal. Stress-related eating has no gold-standard diagnostic test, and stress affects people differently. Consider the context: your last meal, hunger, trigger, any sense of lost control and recurrence. One episode does not diagnose a disorder [2, 3, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أمنع الأكلات المريحة من البيت خالص؟",
+            "en": "Do I have to remove all comfort foods from home?"
+          },
+          "a": {
+            "ar": "لأ، مفيش قاعدة بتقول إن المنع الكامل مناسب لكل شخص. الحرمان الشديد ممكن يزود الرغبة والذنب عند بعض الناس. الأنفع غالباً إنك تقلل الأكل التلقائي: اختار كمية مناسبة، اقعد للأكل، لاحظ الطعم، وخلي فيه بدائل مشبعة ومتاحة. لو طعام معين مرتبط بنوبات فقدان سيطرة متكررة، ناقش التعامل معاه ضمن خطة متخصصة بدل قواعد قاسية تعملها لوحدك [1, 4, 7].",
+            "en": "No single rule says complete removal is right for everyone. Severe deprivation can increase cravings and guilt for some people. It is often more useful to reduce automatic eating: choose an amount, sit down, notice the food and keep satisfying alternatives available. If a particular food is repeatedly linked to loss-of-control episodes, discuss it within specialist care instead of creating harsh rules alone [1, 4, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو أكلت كتير بالليل، أصوم أو ألغي الفطار تاني يوم؟",
+            "en": "If I eat a lot at night, should I fast or skip breakfast the next day?"
+          },
+          "a": {
+            "ar": "العقاب والحرمان ممكن يزودوا الجوع ويرجعوا نفس الحلقة، وخصوصاً لو فيه نوبات أكل متكررة. ارجع لنمطك المعتاد في فرصة الأكل التالية بدل الصيام التعويضي، إلا لو طبيبك مديك تعليمات مختلفة لسبب طبي أو ديني يناسب حالتك. القيء والملينات والتمرين القاسي مش طرق آمنة للتعويض وتحتاج مناقشة طبية لو بتحصل [7, 11].",
+            "en": "Punishment and restriction can increase hunger and restart the cycle, particularly when episodes recur. Return to your usual pattern at the next eating opportunity instead of compensatory fasting, unless your clinician has provided different advice for a medical or personally relevant religious context. Vomiting, laxatives and harsh exercise are not safe compensation methods and need clinical discussion if they occur [7, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أروح لمختص تغذية ولا مختص صحة نفسية؟",
+            "en": "Should I see a nutrition professional or a mental-health professional?"
+          },
+          "a": {
+            "ar": "ده يعتمد على النمط. مختص التغذية المدرب يراجع انتظام الوجبات والجوع والاحتياجات الطبية، ومختص الصحة النفسية يقيّم القلق أو الاكتئاب أو الصدمات أو فقدان السيطرة ويقدم علاجاً نفسياً مناسباً. لو فيه نوبات متكررة، سلوك تعويضي، أو ضيق واضح، التعاون بينهم غالباً أنسب من اختيار واحد وترك الباقي. التقييم الأول يحدد الإحالة المناسبة [7, 8, 13].",
+            "en": "It depends on the pattern. A trained nutrition professional reviews meal regularity, hunger and medical nutrition needs, while a mental-health professional assesses anxiety, depression, trauma or loss of control and provides appropriate psychological treatment. When recurrent binges, compensatory behaviour or marked distress is present, collaboration is often better than choosing one discipline and ignoring the rest. The initial assessment can guide referral [7, 8, 13]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ممكن أحتاج مساعدة حتى لو وزني ثابت؟",
+            "en": "Can I need help even if my weight is stable?"
+          },
+          "a": {
+            "ar": "أيوه. الوزن مش شرط يتحرك عشان السلوك يكون مزعجاً أو مؤثراً على صحتك النفسية وحياتك. إرشادات اضطرابات الأكل بتحذر من استخدام مؤشر كتلة الجسم أو مدة المشكلة وحدهم لتحديد مين يستحق العلاج. فقدان السيطرة، السرية، العار، السلوك التعويضي، أو تأثير الأكل على الشغل والعلاقات أسباب كفاية لطلب تقييم [7, 9, 10].",
+            "en": "Yes. Weight does not have to change for eating behaviour to cause distress or affect mental health and daily life. Eating-disorder guidance warns against using BMI or illness duration alone to decide who deserves treatment. Loss of control, secrecy, shame, compensatory behaviour, or effects on work and relationships are sufficient reasons to request assessment [7, 9, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى أعرف إن المحاولات البسيطة مش كفاية؟",
+            "en": "When do I know that simple self-help steps are not enough?"
+          },
+          "a": {
+            "ar": "لو النمط بيتكرر أو بيزيد، أو بقى الطريقة الوحيدة للتهدئة، أو مش قادر تتحكم، أو ظهرت أعراض قلق أو اكتئاب مستمرة، اطلب تقييماً بدل ما تزود القيود. اطلب مساعدة عاجلة لو فيه تدهور جسدي، سلوك تعويضي خطر، أو أفكار بإيذاء النفس. شدة التأثير والأمان أهم من انتظار عدد معين من الأيام [7, 8, 13].",
+            "en": "If the pattern recurs or escalates, becomes your only soothing strategy, feels uncontrollable, or accompanies persistent anxiety or depression, request assessment instead of adding restrictions. Seek urgent help for physical deterioration, dangerous compensatory behaviour or thoughts of self-harm. Impact and safety matter more than waiting for an arbitrary number of days [7, 8, 13]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "MedlinePlus — Break the bonds of emotional eating",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000808.htm"
+        },
+        {
+          "label": "Hill et al. — Stress and eating behaviours in healthy adults: systematic review and meta-analysis (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33913377/"
+        },
+        {
+          "label": "Stammers et al. — Identifying stress-related eating in behavioural research: a review (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32305343/"
+        },
+        {
+          "label": "Mayo Clinic — Weight loss: gain control of emotional eating",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/weight-loss/art-20047342"
+        },
+        {
+          "label": "CDC — Managing Stress",
+          "url": "https://www.cdc.gov/mental-health/living-with/"
+        },
+        {
+          "label": "Effect of sleep duration on dietary intake and appetite: systematic review of clinical trials (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34620371/"
+        },
+        {
+          "label": "NICE NG69 — Eating disorders: recognition and treatment recommendations",
+          "url": "https://www.nice.org.uk/guidance/ng69/chapter/Recommendations"
+        },
+        {
+          "label": "NIDDK — Binge Eating Disorder",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/binge-eating-disorder"
+        },
+        {
+          "label": "NIMH — What Are Common Types of Eating Disorders?",
+          "url": "https://www.nimh.nih.gov/health/publications/what-are-common-types-of-eating-disorders"
+        },
+        {
+          "label": "NHS — Binge eating disorder overview",
+          "url": "https://www.nhs.uk/mental-health/conditions/binge-eating/overview/"
+        },
+        {
+          "label": "NHS — Binge eating disorder treatment",
+          "url": "https://www.nhs.uk/mental-health/conditions/binge-eating/treatment/"
+        },
+        {
+          "label": "Warren et al. — Mindfulness, mindful eating and intuitive eating: structured literature review (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28718396/"
+        },
+        {
+          "label": "NIMH — Caring for Your Mental Health",
+          "url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "الأكل وقت الضغط: هل هو ضعف إرادة؟",
+          "en": "Stress eating: is it weak willpower?"
+        },
+        "description": {
+          "ar": "الأكل وقت الضغط مش ضعف إرادة. افهم الحلقة بين التوتر والجوع، جرّب خطوات عملية من غير لوم، واعرف إمتى تحتاج دعم تغذية أو صحة نفسية.",
+          "en": "Stress eating is not weak willpower. Understand the stress-hunger loop, try practical steps without blame, and know when specialist support may help."
+        }
+      }
+    }
+  ]
+}

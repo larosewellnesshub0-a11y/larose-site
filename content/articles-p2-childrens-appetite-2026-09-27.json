@@ -1,0 +1,316 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of childrens-appetite; replaces the entry from content/articles-childrens-appetite-rewrite-2026-09-21.json. Expanded normal appetite variation, practical meal structure, nutrition, feeding-disorder distinctions, red flags and assessment with a medically re-reviewed bilingual evidence base.",
+  "articles": [
+    {
+      "slug": "childrens-appetite",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-05",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/childrens-appetite.webp",
+      "title": {
+        "ar": "شهية الأطفال: إمتى تقلق وإمتى تكون مرحلة عادية؟",
+        "en": "Children's appetite: when to worry and when it is normal"
+      },
+      "excerpt": {
+        "ar": "شهية الأطفال بتتغير مع النمو ومن يوم ليوم. اعرف إزاي تراقب منحنى النمو، تنظم الوجبات، وتميز الانتقائية العادية من العلامات اللي محتاجة كشف.",
+        "en": "Children's appetite changes with growth and from day to day. Learn how to follow growth, structure meals and distinguish ordinary picky eating from signs that need assessment."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا شرح تغيّر شهية الأطفال، وتنظيم الوجبات، وعلامات الخطر، وحدّثنا المصادر بعد مراجعة طبية جديدة.",
+            "en": "We expanded the guidance on changing appetite, meal structure and warning signs, and updated the sources after a fresh medical review."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "normal-appetite-changes",
+          "heading": {
+            "ar": "شهية الطفل مش ثابتة كل يوم",
+            "en": "A child's appetite is not fixed from day to day"
+          },
+          "body": {
+            "ar": "شهية الأطفال بطبيعتها بتطلع وتنزل. الطفل ممكن ياكل كويس في الفطار، ياخد لقمتين في الغدا، ويرجع يطلب أكل في يوم تاني. ده لوحده مش دليل على مرض ولا معناه إنك فشلت في تغذيته. بعد سنة الرضاعة الأولى سرعة النمو بتهدى مقارنة بالشهور الأولى، وعشان كده كمية الأكل اللي كان الأهل متعودين عليها ممكن تقل. الطفل كمان بيكتشف إنه يقدر يقول لأ، واللعب ساعات يبقى أهم عنده من القعدة على السفرة. الانتقائية ورفض أكل كان بيحبه قبل كده سلوك شائع في سن الحضانة، وغالباً بيتحسن تدريجياً مع الوقت والتعرض الهادي للأكل. [3, 7, 8, 9]\n\nالأهم مش طبق واحد ولا يوم واحد؛ بص على النمط خلال أسبوع أو أكتر. هل الطفل نشيط؟ هل بينام ويلعب ويتطور كالمعتاد؟ هل بيشرب ويدخل الحمام؟ هل فيه مجموعة أطعمة مقبولة بتغطي أكتر من نوع، ولا القائمة بتضيق باستمرار؟ طفل أكل أقل لأنه تعبان يومين يختلف عن طفل فقد اهتمامه بالأكل لأسابيع. وطفل صغير في الحجم لكنه ثابت على مسار نموه يختلف عن طفل بدأ وزنه ينزل أو طوله ما بيتقدمش. المقارنة بأخوه أو ابن قريبه مش مقياس، لأن الاحتياج والشهية وسرعة النمو مختلفين. لما نحكم على الصورة الكاملة بدل عدد الملاعق، القلق بيقل والأسئلة المهمة بتبان. [4, 5, 9]",
+            "en": "Children's appetite naturally rises and falls. A child may eat a good breakfast, take two mouthfuls at lunch and ask for more food on another day. That pattern alone does not prove illness or mean that a parent has failed to feed them well. After the rapid growth of infancy, growth commonly slows and the amount families had become used to seeing may fall. A toddler is also discovering the power to say no, and play can seem more interesting than sitting at the table. Selectivity and rejecting a food that was previously accepted are common in the preschool years and often ease gradually with time and calm exposure. [3, 7, 8, 9]\n\nA single plate or day matters less than the pattern across a week or longer. Is the child active, sleeping, playing and developing as usual? Are they drinking and passing urine and stool? Is there a workable range across food groups, or is the list steadily narrowing? A child who eats less during a short illness is different from one who loses interest for weeks. A naturally small child who tracks along their growth path is also different from a child losing weight or no longer progressing in height. Comparing them with a sibling or cousin is not a useful measure because needs, appetite and growth rates differ. Looking at the whole picture instead of counting spoonfuls reduces noise and reveals the questions that matter. [4, 5, 9]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "growth-and-pattern",
+          "heading": {
+            "ar": "منحنى النمو والنمط أهم من شكل الجسم",
+            "en": "Growth trajectory and pattern matter more than appearance"
+          },
+          "body": {
+            "ar": "تقييم الشهية بيبدأ بقياس الطول والوزن بدقة وتحطهم على منحنى مناسب للعمر والجنس، وبعدين نبص على اتجاه القياسات مع الوقت. المنحنى أداة تساعد الطبيب يبني صورة، مش تشخيصاً لوحده. قياس منفرد ممكن يتأثر بالملابس أو جهاز مختلف أو خطأ بسيط، بينما القياسات القديمة بتوضح هل الطفل محافظ على مساره. في الأعمار الصغيرة محيط الرأس والتطور الحركي واللغوي يدخلوا في الصورة كمان. لو عندك كارت متابعة أو قياسات من زيارات سابقة، خده معاك بدل ما تبدأ القصة من الصفر. [4, 5]\n\nما توزنش الطفل كل يوم عشان تطمّن؛ التغيرات الصغيرة الطبيعية ممكن تزود القلق وتدفع الأهل للضغط على الأكل. توقيت المتابعة بيتحدد حسب السن وشدة القلق ورأي الطبيب. لو الشهية قليلة لكن الطفل نشيط ومساره ثابت ومفيش أعراض، غالباً البداية تبقى مراجعة الروتين والتنوع. أما نزول وزن واضح، أو عبور منحنى النمو لأسفل، أو بطء طول، أو تأخر تطور، فدي معلومات تغير التقييم. زيارة تغذية الطفل والنمو بتجمع القياسات مع تاريخ الأكل والأعراض والمهارات بدل ما نحكم من شكل الضلوع أو تعليق حد من العيلة. الهدف نفهم الاتجاه ونحط نقطة متابعة معقولة، مش نحول الميزان لاختبار يومي. [4, 5]",
+            "en": "Appetite assessment starts by measuring height and weight accurately, plotting them on a chart appropriate for age and sex, and then examining the direction over time. A growth chart contributes to a clinical picture; it is not a diagnosis by itself. One measurement may be affected by clothing, different equipment or a small error, whereas earlier measurements show whether the child is following their trajectory. In younger children, head circumference and motor and language development may also be relevant. Bring the child's health record or previous measurements so the story does not have to begin from zero. [4, 5]\n\nDaily weighing for reassurance is rarely useful. Ordinary short-term changes can increase anxiety and lead families to press the child to eat. The clinician sets the interval according to age and the level of concern. When appetite seems low but the child is energetic, tracks along their curve and has no symptoms, reviewing routine and variety may be the starting point. Clear weight loss, downward crossing of the growth trajectory, slow linear growth or developmental concern changes that assessment. A child nutrition and growth visit brings measurements, eating history, symptoms and skills together instead of judging by visible ribs or a relative's comment. The aim is to understand direction and agree a sensible review point, not turn the scale into a daily test. [4, 5]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "زيارة تغذية الطفل والنمو",
+                "url": "../articles/child-nutrition-growth-visit.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "A child nutrition and growth visit",
+                "url": "../articles/child-nutrition-growth-visit.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "calm-meal-structure",
+          "heading": {
+            "ar": "نظّم الفرصة وسيب الأكل من غير معركة",
+            "en": "Structure the opportunity and keep food out of the battle"
+          },
+          "body": {
+            "ar": "الروتين الهادي بيساعد إشارات الجوع والشبع تشتغل. قدّم وجبات وسناك في مواعيد تقريبية تناسب يوم الطفل، وخلي المية متاحة، بدل رشف مشروبات أو أكل بسيط طول اليوم. القضم المستمر ممكن يخلي الطفل يوصل للوجبة من غير جوع. اقعدوا سوا لما ينفع، ابعدوا الشاشة، وقدّم كمية صغيرة يقدر يطلب بعدها زيادة. وجود صنف مألوف جنب أكل الأسرة بيخلي الطبق أقل تهديداً، من غير ما تعمل وجبة بديلة كاملة كل مرة. في التقسيم العملي للمسؤولية، الكبير يحدد إيه بيتقدم وإمتى وفين، والطفل يقرر هل هياكل وقد إيه من المعروض. [1, 3, 5]\n\nالإجبار، التهديد، عد اللقم، أو رشوة الخضار بالحلو ممكن يخلوا السفرة مرتبطة بالتوتر ويضعفوا انتباه الطفل لإحساس جسمه. لو رفض، ما تعتبرش ده تحدياً شخصياً. انهي الوجبة بهدوء في وقت مناسب، ونظف المكان، وقدّم الفرصة المخططة اللي بعدها من غير عقاب ومن غير مطاردة بالمعلقة. وفي نفس الوقت، الاستجابة لإشارات الطفل مش معناها إن مفيش حدود؛ المواعيد والمكان واختيارات مناسبة للعمر مسؤولية الكبير. الإرشادات بتشجع وجبات مريحة، أكل الأسرة مع بعض، إتاحة الأكل للطفل يمسكه حسب قدرته، وتجنب الأساليب العقابية أو القسرية. التغيير بيتقاس بهدوء المائدة واتساع القبول مع الوقت، مش بإنهاء الطبق الليلة. [1, 3, 5, 9]",
+            "en": "A calm routine helps hunger and fullness cues work. Offer meals and snacks at broadly predictable times that suit the child's day, with water available, instead of continuous sipping and grazing. Constant small bites can mean the child reaches a meal without appetite. Sit together where practical, remove screens and begin with a small amount that can be replenished. Including one familiar food beside the family meal makes the plate less threatening without preparing an entirely separate meal after every refusal. In a practical division of roles, the adult decides what is offered, when and where; the child decides whether and how much to eat from what is available. [1, 3, 5]\n\nForcing, threatening, counting bites or bribing vegetables with sweets can connect the table with tension and weaken attention to the child's own body signals. Treat refusal as information rather than a personal challenge. End the meal calmly after a reasonable time, clear away and offer the next planned opportunity without punishment or hours of spoon-chasing. Responding to the child does not mean having no boundaries: timing, place and age-appropriate choices remain the adult's responsibility. Guidance supports relaxed meals, eating together, encouraging age-appropriate self-feeding, and avoiding punitive or coercive methods. Progress is measured by a calmer table and widening acceptance over time, not by clearing tonight's plate. [1, 3, 5, 9]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "variety-and-nutrition",
+          "heading": {
+            "ar": "وسّع التنوع خطوة صغيرة كل مرة",
+            "en": "Expand variety one small step at a time"
+          },
+          "body": {
+            "ar": "رفض الصنف أول مرة مش حكم نهائي. أطفال كتير محتاجين يشوفوا ويلمسوا ويشموا ويدوقوا الأكل أكتر من مرة قبل ما يبقى مألوف. قدّم جزء صغير جداً جنب حاجة مقبولة، وسيب الطفل يستكشفه من غير شرط إنه يبلع. ممكن تغيّر القوام أو طريقة التقديم، أو تبدأ من صنف قريب في اللون أو الطعم من حاجة بيحبها. مشاركة الطفل في غسل خضار أو ترتيب الطبق تعرضه للأكل من غير ضغط الوجبة. كرر العرض على أيام مختلفة؛ التعرض الهادي المتكرر والنموذج اللي بيشوفه من الأسرة بيساعدوا القبول أكتر من المحاضرة أو المكافأة. [3, 7, 8]\n\nلو الكمية صغيرة، خلي كل فرصة لها قيمة غذائية مناسبة للسن: مصدر بروتين، نشويات، وخضار أو فاكهة، مع دهون ضمن أكل البيت وبقوام آمن. مش لازم العناصر كلها تدخل في كل طبق، لكن راقب التنوع عبر الأسبوع. احتياج الرضيع اللي بيبدأ الأكل التكميلي مختلف عن طفل المدرسة؛ عشان كده القوام، اللبن، المشروبات والحصص ما ينفعش يتنقلوا من سن لسن. دليل الأكل التكميلي يشرح بداية الأكل والاستجابة للإشارات من غير ما نحمل صفحة الشهية تفاصيل المرحلة كلها. ولو القائمة خالية تقريباً من مصادر الحديد، راجع الأكل الغني بالحديد للأطفال بدل ما تبدأ مكمل عشوائي. الحديد الزائد ممكن يضر، وجرعة العلاج لو محتاجة تتحدد بالتقييم مش بالتخمين. [1, 11]",
+            "en": "One refusal is not a final verdict. Many children need to see, touch, smell and taste a food repeatedly before it becomes familiar. Offer a very small amount beside an accepted food and allow exploration without requiring a swallow. Change the texture or presentation, or bridge from a food with a similar colour or flavour that the child already accepts. Helping wash vegetables or arrange a plate gives exposure without the pressure of the meal itself. Offer it again on different days; calm repeated exposure and family modelling support acceptance more effectively than a lecture or reward. [3, 7, 8]\n\nWhen intake is small, make each opportunity age-appropriately useful: a protein source, a carbohydrate, vegetables or fruit, and fats within family food and a safe texture. Every element need not appear on every plate, but look at variety across the week. An infant beginning complementary feeding has different needs from a schoolchild, so texture, milk, drinks and portions cannot simply be transferred from one age to another. The complementary feeding guide covers starting solids and responding to cues without crowding this appetite page with every detail of that stage. If the accepted list contains almost no iron sources, review iron-rich food for children instead of starting a supplement at random. Excess iron can harm, and any treatment dose should follow assessment rather than guesswork. [1, 11]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل الأكل التكميلي",
+                "url": "../articles/responsive-complementary-feeding.html"
+              },
+              {
+                "label": "الأكل الغني بالحديد للأطفال",
+                "url": "../articles/iron-rich-foods-for-children.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "The complementary feeding guide",
+                "url": "../articles/responsive-complementary-feeding.html"
+              },
+              {
+                "label": "iron-rich food for children",
+                "url": "../articles/iron-rich-foods-for-children.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "medical-causes-and-red-flags",
+          "heading": {
+            "ar": "إمتى قلة الشهية تبقى علامة طبية؟",
+            "en": "When can low appetite be a medical sign?"
+          },
+          "body": {
+            "ar": "ساعات الطفل مش رافض عشان السلوك؛ الأكل نفسه ممكن يكون مؤلم أو مرهق. وجع الأسنان أو قرح الفم، ألم البطن، ارتجاع أو قيء، إمساك مؤلم، إسهال مستمر، حرارة، عدوى، أو دواء جديد ممكن يقللوا الأكل. صعوبة المضغ أو البلع، كحة أو شرقة مع الأكل، صوت مبلول بعد البلع، رجوع أكل من الأنف، أو التهابات صدر متكررة محتاجين تقييم مهارة وأمان البلع. شحوب وتعب أو قائمة شديدة الضيق ممكن يفتحوا سؤال نقص عنصر، لكن العرض الواحد ما يثبتش أنيميا ولا يحدد تحليل أو مكمل. الطبيب بيربط القصة بالفحص والنمو، ويطلب الفحوص الموجهة بس لما يكون لها سبب. [2, 5, 6, 10, 11]\n\nاطلب تقييماً قريباً لو قلة الشهية مستمرة، أو معاها ألم متكرر، إمساك ما بيتحسنش، قيء، إسهال، صعوبة بلع، تغير واضح في النشاط، أو نزول وزن. واطلب رعاية عاجلة حسب شدة الحالة لو الطفل عنده صعوبة تنفس أو ازرقاق أثناء الأكل، خمول شديد، علامات جفاف واضحة، قيء متكرر مانع السوائل، دم في القيء أو البراز، ألم بطن مستمر وشديد، أو فقدان وزن سريع. ما تجربش فاتح شهية أو مكمل عشان تغطي العلامة؛ المنتج مش هيعالج ألم البلع أو الجفاف أو السبب الهضمي. الأولوية هنا لأمان الطفل وتحديد السبب، وبعدها خطة الأكل. [5, 6, 10, 11]",
+            "en": "Sometimes refusal is not behavioural; eating itself may be painful or exhausting. Dental pain or mouth ulcers, abdominal pain, reflux or vomiting, painful constipation, persistent diarrhoea, fever, infection or a new medicine can reduce intake. Difficulty chewing or swallowing, coughing or choking with food, a wet voice after swallowing, food returning through the nose, or repeated chest infections call for assessment of feeding skill and swallowing safety. Pallor and fatigue or an extremely narrow diet can raise the question of deficiency, but one symptom cannot prove anaemia or determine a test or supplement. The clinician connects history, examination and growth, using targeted investigations only when the picture supports them. [2, 5, 6, 10, 11]\n\nArrange timely assessment when low appetite persists or comes with recurrent pain, constipation that does not settle, vomiting, diarrhoea, swallowing difficulty, clear change in activity or weight loss. Seek urgent care according to severity for breathing difficulty or colour change during a meal, profound lethargy, clear dehydration, repeated vomiting that prevents fluids, blood in vomit or stool, constant severe abdominal pain, or rapid weight loss. Do not use an appetite product or supplement to cover these signs; it cannot treat painful swallowing, dehydration or an underlying digestive problem. Safety and identifying the cause come first, followed by the feeding plan. [5, 6, 10, 11]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "picky-eating-versus-disorder",
+          "heading": {
+            "ar": "الفرق بين الانتقائية العادية ومشكلة التغذية",
+            "en": "The difference between ordinary selectivity and a feeding disorder"
+          },
+          "body": {
+            "ar": "الانتقائية العادية غالباً فيها أكل مفضل ورفض للجديد، لكن الطفل يقدر ياكل كمية معقولة من بعض الأصناف، مهاراته مناسبة لسنه، والنمو والحياة اليومية ماشيين. مشكلة التغذية بتبقى أوسع لما المدخول بالفم ما يناسبش العمر ويرتبط بواحد أو أكتر من أربع نواحي: سبب طبي، تأثير غذائي، صعوبة في مهارة الأكل والبلع، أو ضغط نفسي واجتماعي واضح. التعريف المتفق عليه بيعتبر الاضطراب موجوداً لما الخلل يستمر أسبوعين على الأقل مع واحد من التأثيرات دي؛ وده مش تشخيص يتعمل من قائمة على الإنترنت، لكنه إطار يخلي الفريق ما يختزلش المشكلة في كلمة «دلع». [2, 6]\n\nعلامات توسّع دائرة التقييم تشمل إن الوجبة تطول جداً بصورة متكررة، الطفل يعتمد على قوام أقل من المناسب لعمره، يحتاج تشتيت أو حيل عشان ياكل كل مرة، قائمة الأكل تضيق بدل ما تتوسع، أو الخوف من الشرقة والقيء يمنعه من الأكل. الاعتماد المستمر على مشروب أو مكمل عشان يحقق احتياجه، نقص عنصر مثبت، تأثر النمو، أو امتناع عن مناسبات ومدرسة بسبب الأكل برضه مهم. بعض الأطفال عندهم حساسية قوية للقوام أو الرائحة، وبعضهم عنده مشكلة عضلات أو تنسيق أو تجربة مؤلمة سابقة. عشان كده الخطة ممكن تحتاج طبيب أطفال، تغذية، أو متخصص بلع وسلوك حسب الجزء المتأثر، مش نصيحة واحدة لكل طفل. [2, 6]",
+            "en": "Ordinary selectivity often involves preferred foods and reluctance toward unfamiliar ones, while the child can eat workable amounts of some foods, has age-appropriate skills, and continues to grow and participate in daily life. A feeding problem is broader when oral intake is not appropriate for age and is linked to one or more of four areas: medical dysfunction, nutritional effect, feeding-skill difficulty, or marked psychosocial disruption. The consensus framework describes a disturbance lasting at least two weeks with one of those effects. It is not a diagnosis to make from an online checklist, but it prevents a complex problem from being dismissed as bad behaviour. [2, 6]\n\nFeatures that widen the assessment include meals that repeatedly last an unusually long time, dependence on a texture below the child's developmental level, needing distraction or elaborate tricks at every meal, a food list that keeps contracting, or fear of choking or vomiting that prevents eating. Ongoing dependence on a drink or oral supplement to meet needs, a confirmed nutrient deficiency, affected growth, or avoiding school and social occasions because of food also matters. Some children have strong sensory responses to texture or smell; others have a muscle, coordination or swallowing issue, or remember a painful event. The plan may therefore involve paediatrics, nutrition, swallowing expertise or behavioural support according to the affected area, rather than one piece of advice for every child. [2, 6]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "assessment-and-next-step",
+          "heading": {
+            "ar": "حضّر للكشف وخد خطوة تناسب طفلك",
+            "en": "Prepare for assessment and choose a child-specific next step"
+          },
+          "body": {
+            "ar": "قبل الزيارة، اكتب أكل وشرب الطفل لعدة أيام عادية: المواعيد، الكمية التقريبية، السناك والمشروبات، ومدة الوجبة. سجل إيه اللي بيحصل لما يرفض، وهل فيه ألم أو قيء أو إمساك أو إسهال أو شرقة أو تعب. خد كارت النمو والتطعيم، القياسات والتحاليل القديمة، وأسماء الأدوية والمكملات بجرعاتها. فيديو قصير لعلامة بتظهر أثناء الأكل ممكن يساعد الطبيب لو اتصور بأمان ومن غير ما تعيد موقف شرقة أو تجبر الطفل. ما تجوعوش قبل الكشف وما ترتبش يوماً مثالياً؛ الفريق محتاج يشوف الروتين الحقيقي. [5, 6]\n\nالتقييم الجيد بيراجع النمو والتطور، الفم والأسنان، البطن، نمط الإخراج، النوم، الأدوية، تنوع الأكل، القوام المقبول، مهارات المضغ والبلع، وطريقة تفاعل الأسرة وقت الوجبة. التحاليل مش تلقائية لكل طفل انتقائي؛ بتتحدد حسب العلامات والفحص. بعد كده الخطة ممكن تكون تعديل مواعيد، خطوات لتوسيع التنوع، علاج إمساك أو ألم، تحليل موجه، أو إحالة لمتخصص مناسب. لو الشهية بقت مصدر قلق مستمر أو النمو اتغير، تقدر تبدأ بطلب حجز كشف أطفال وتغذية في العيادة. القرار النهائي بخصوص الفحوص أو المكملات أو العلاج يفضل للطبيب المعالج بعد ما يشوف الطفل، ومراجعة الاستجابة في موعد واضح أهم من وعود سريعة. [2, 5, 6]",
+            "en": "Before the visit, record several ordinary days of the child's food and drinks: timings, approximate amounts, snacks, beverages and meal duration. Note what happens after refusal and whether there is pain, vomiting, constipation, diarrhoea, choking or fatigue. Bring the growth and vaccination record, previous measurements and results, and the names and doses of medicines and supplements. A brief video of a sign that occurs during eating may help if it can be recorded safely; never recreate a choking event or force the child. Do not make the child hungry before the appointment or stage a perfect day. The team needs to understand the real routine. [5, 6]\n\nA sound assessment reviews growth and development, mouth and teeth, abdomen and bowel pattern, sleep, medicines, food variety, accepted textures, chewing and swallowing skills, and family interaction at meals. Tests are not automatic for every selective eater; symptoms and examination determine whether they are useful. The plan may then involve timing changes, steps to widen variety, treatment of constipation or pain, a targeted test, or referral to the relevant professional. If appetite has become a persistent concern or growth has changed, you can start by requesting a paediatric and nutrition appointment at the clinic. Decisions about investigations, supplements or treatment remain with the treating clinician after seeing the child, and a defined review point matters more than a quick promise. [2, 5, 6]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز كشف أطفال وتغذية",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "requesting a paediatric and nutrition appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل أدي ابني فاتح شهية؟",
+            "en": "Should I give my child an appetite stimulant?"
+          },
+          "a": {
+            "ar": "ما تبدأش فاتح شهية من نفسك. قلة الشهية علامة لها أسباب مختلفة، والمنتج مش هيعالج إمساكاً مؤلماً أو صعوبة بلع أو عدوى، وممكن يشتت عن السبب الحقيقي. البداية تكون بمراجعة النمو، والأكل، والأعراض، والأدوية الحالية؛ والطبيب هو اللي يقرر هل فيه علاج مطلوب أصلاً وإيه المتابعة المناسبة. [2, 5, 6]",
+            "en": "Do not start an appetite stimulant on your own. Low appetite is a sign with several possible causes, and a product cannot treat painful constipation, swallowing difficulty or infection and may distract from the real cause. Start by reviewing growth, intake, symptoms and current medicines; the clinician decides whether any treatment is indicated and how it should be followed. [2, 5, 6]"
+          }
+        },
+        {
+          "q": {
+            "ar": "أعمل إيه لو الطفل رفض الوجبة؟",
+            "en": "What should I do when my child refuses a meal?"
+          },
+          "a": {
+            "ar": "خليك هادي، وما تجبرش الطفل ولا تفتح مفاوضات على كل لقمة. انهي الوجبة بعد وقت معقول وقدّم الوجبة أو السناك المخطط اللي بعده في موعده، مع صنف مألوف ضمن الاختيارات. تجنب القضم والمشروبات طول الوقت بين المواعيد. لو الرفض شديد أو مستمر، أو معاه ألم أو تأثر نمو، اطلب تقييماً بدل تحويل كل وجبة لمعركة. [3, 5, 9]",
+            "en": "Stay calm and avoid forcing the child or negotiating over every bite. End the meal after a reasonable time and offer the next planned meal or snack on schedule, including a familiar item among the choices. Avoid continuous grazing and drinks between opportunities. If refusal is severe or persistent, or comes with pain or affected growth, arrange assessment instead of turning every meal into a battle. [3, 5, 9]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الانتقائية معناها إن عنده نقص فيتامينات؟",
+            "en": "Does picky eating mean my child has a vitamin deficiency?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. الاحتمال بيعتمد على الأصناف اللي الطفل بياكلها فعلاً، ومدة ضيق القائمة، والنمو، ووجود علامات زي الشحوب أو التعب. مش كل طفل انتقائي محتاج تحاليل أو مكمل. لو التنوع محدود جداً أو فيه أعراض، الطبيب يقرر فحوصاً موجهة؛ وما تبدأش حديد عشوائي لأن الزيادة ممكن تضر. [5, 11]",
+            "en": "Not necessarily. Risk depends on what the child actually eats, how long the list has been narrow, growth, and signs such as pallor or fatigue. Not every picky eater needs tests or supplements. If variety is extremely limited or symptoms are present, the clinician can choose targeted tests; do not start iron at random because excessive intake can cause harm. [5, 11]"
+          }
+        },
+        {
+          "q": {
+            "ar": "كام مرة أقدّم الصنف الجديد قبل ما أقول إنه مرفوض؟",
+            "en": "How many times should I offer a new food before calling it rejected?"
+          },
+          "a": {
+            "ar": "مفيش رقم سحري لكل طفل. مصادر الأطفال بتوضح إن القبول ممكن يحتاج محاولات كتير، وأحياناً ثمانية لعشرة تعرّضات أو أكتر. قدّم كمية صغيرة على أيام مختلفة من غير إجبار، واسمح باللمس والشم والتذوق. المهم إن المحاولات تبقى هادية وآمنة؛ وقف واطلب مساعدة لو فيه خوف شديد أو شرقة أو قيء متكرر. [3, 7, 8]",
+            "en": "There is no magic number for every child. Pediatric guidance notes that acceptance may take many attempts, sometimes eight to ten exposures or more. Offer a tiny amount on different days without pressure and allow touching, smelling and tasting. The attempts should stay calm and safe; stop and seek help if there is intense fear, choking or repeated vomiting. [3, 7, 8]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل قلة الشهية مع الإمساك مرتبطة؟",
+            "en": "Can constipation and low appetite be connected?"
+          },
+          "a": {
+            "ar": "أيوه، البراز الصلب والألم أو انتفاخ البطن ممكن يخلوا الأكل مزعجاً. راقب عدد مرات الحمام، شكل البراز، الألم، وحبس الطفل لنفسه. لو الأعراض مستمرة أكتر من أسبوعين، أو معاها قيء أو دم في البراز أو ألم بطن ثابت أو نزول وزن، لازم تقييم طبي أسرع بدل الاعتماد على تغيير الأكل وحده. [10]",
+            "en": "Yes. Hard stool, pain or abdominal bloating can make eating uncomfortable. Note stool frequency and appearance, pain, and withholding behaviour. If symptoms last more than two weeks, or occur with vomiting, blood in stool, constant abdominal pain or weight loss, seek prompt medical assessment rather than relying on dietary changes alone. [10]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى الوجبات الطويلة تبقى محتاجة متخصص؟",
+            "en": "When do long meals need specialist assessment?"
+          },
+          "a": {
+            "ar": "لو الوجبة بتطول بصورة متكررة ومعاها إرهاق، كحة أو شرقة، تخزين الأكل في الخد، احتياج لقوام أقل من السن، أو ضغط شديد على الأسرة، فده يستحق تقييم مهارات الأكل والبلع مع النمو والتغذية. الوجبة البطيئة مرة مش تشخيص، لكن النمط المستمر وتأثيره على الأمان أو التغذية أو المشاركة هو اللي يهم. [2, 6]",
+            "en": "If meals are repeatedly prolonged and involve fatigue, coughing or choking, pocketing food in the cheek, dependence on textures below the child's age, or major family distress, feeding and swallowing skills should be assessed alongside growth and nutrition. One slow meal is not a diagnosis; the persistent pattern and its effect on safety, nutrition or participation are what matter. [2, 6]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO — Guideline for complementary feeding of infants and young children 6–23 months of age",
+          "url": "https://www.who.int/publications/i/item/9789240081864"
+        },
+        {
+          "label": "Goday et al. — Pediatric Feeding Disorder: Consensus Definition and Conceptual Framework (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30358739/"
+        },
+        {
+          "label": "American Academy of Pediatrics — 10 Tips for Parents of Picky Eaters",
+          "url": "https://www.healthychildren.org/English/ages-stages/toddler/nutrition/Pages/Picky-Eaters.aspx"
+        },
+        {
+          "label": "CDC — Growth Charts",
+          "url": "https://www.cdc.gov/growthcharts/cdc-growth-charts.htm"
+        },
+        {
+          "label": "NICE — Faltering growth: recognition and management in children (NG75), Recommendations",
+          "url": "https://www.nice.org.uk/guidance/ng75/chapter/Recommendations"
+        },
+        {
+          "label": "American Speech-Language-Hearing Association — Pediatric Feeding and Swallowing",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/"
+        },
+        {
+          "label": "Lam — Picky Eating in Children (Frontiers in Pediatrics, PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4422022/"
+        },
+        {
+          "label": "CDC — Picky Eaters and What to Do",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/picky-eaters.html"
+        },
+        {
+          "label": "NHS — Fussy eaters",
+          "url": "https://www.nhs.uk/baby/weaning-and-feeding/fussy-eaters/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Constipation in Children",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation-children/symptoms-causes"
+        },
+        {
+          "label": "NIH Office of Dietary Supplements — Iron: Fact Sheet for Consumers",
+          "url": "https://ods.od.nih.gov/factsheets/iron-consumer/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "شهية الأطفال",
+          "انتقائية الأكل",
+          "منحنى النمو",
+          "تغذية الأطفال"
+        ],
+        "en": [
+          "children's appetite",
+          "selective eating",
+          "growth curve",
+          "children's nutrition"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "شهية الأطفال: إمتى تقلق؟",
+          "en": "Children's appetite: when to worry"
+        },
+        "description": {
+          "ar": "دليل عملي عن شهية الأطفال، الانتقائية، تنظيم الوجبات، منحنى النمو، وعلامات الخطر اللي تستدعي تقييماً طبياً من غير ضغط على الطفل.",
+          "en": "A practical guide to children's appetite, picky eating, meal structure, growth patterns and warning signs that need medical assessment."
+        }
+      }
+    }
+  ]
+}

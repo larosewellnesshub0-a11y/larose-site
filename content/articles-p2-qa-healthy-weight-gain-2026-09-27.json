@@ -1,0 +1,328 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-healthy-weight-gain; replaces the entry from content/articles.json. Expanded the short Q&A into a bilingual, cited guide to assessment, food-first healthy weight gain, muscle support, appetite-stimulant safety, monitoring, and red flags.",
+  "articles": [
+    {
+      "slug": "qa-healthy-weight-gain",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management"
+      ],
+      "date": "2026-07-27",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/qa-healthy-weight-gain.webp",
+      "title": {
+        "ar": "زيادة الوزن الصحية: هل تبدأ فاتح شهية؟",
+        "en": "Healthy weight gain: should you take an appetite stimulant?"
+      },
+      "excerpt": {
+        "ar": "لو وزنك قليل ومش بيزيد، ما تبدأش فاتح شهية لوحدك. اعرف إمتى تحتاج كشف، وإزاي تزود أكلك تدريجياً وتدعم العضلات من غير حلول عشوائية.",
+        "en": "If your weight is low and will not rise, do not self-start an appetite stimulant. Learn when to seek assessment and how to support gradual gain and muscle."
+      },
+      "sections": [
+        {
+          "id": "short-answer-and-first-check",
+          "heading": {
+            "ar": "الإجابة المختصرة: ما تبدأش فاتح شهية قبل ما تفهم السبب",
+            "en": "The short answer: do not start an appetite stimulant before understanding why"
+          },
+          "body": {
+            "ar": "لو وزنك قليل ومهما بتاكل مش بيزيد، الإجابة المختصرة هي: ما تبدأش فاتح شهية من نفسك. الرقم على الميزان لوحده مش تشخيص، ومؤشر كتلة الجسم مجرد أداة فحص أولية بتتقرأ مع تاريخ الوزن، والقوة، والأعراض، والأكل الفعلي، والعمر والحالة الصحية. الإرشادات بتعتبر مؤشر كتلة أقل من 18.5 واحداً من معايير الاشتباه في سوء التغذية عند البالغين، بس ده مش معناه تلقائياً إن كل شخص أقل من الرقم مريض أو محتاج دواء [3, 4].\n\nالفرق الأساسي بيكون بين شخص جسمه رفيع من سنين ووزنه ثابت، وبين شخص بدأ يفقد وزن من غير ما يقصد أو شهيته اتغيرت. كمان مهم نعرف هل المشكلة إن الكمية قليلة، ولا الشبع بييجي بدري، ولا فيه ألم أو غثيان أو صعوبة بلع، ولا الاحتياج للطاقة عالي بسبب نشاط أو مرض. تقييم النمط ده بيحدد الخطوة، مش اختيار منتج من الصيدلية على أساس تجربة حد تاني [1, 2, 4].\n\nالهدف من زيادة الوزن الصحية مش مجرد دهون أسرع أو رقم أعلى. الهدف إن جسمك ياخد طاقة وعناصر غذائية كفاية، وتتحسن القوة والقدرة على الحركة، من غير ما نخفي عرض مهم. لو وزنك منخفض ومستقر ومفيش أعراض مقلقة، غالباً البداية بتكون خطة أكل تدريجية. لو فيه نزول جديد أو علامات مرض، الأولوية تبقى كشف السبب وعلاجه [2, 3].",
+            "en": "If your weight is low and does not rise however much you feel you eat, the short answer is: do not start an appetite stimulant on your own. A scale number is not a diagnosis, and body mass index is only an initial screening tool interpreted alongside weight history, strength, symptoms, actual intake, age and health. Guidelines use a BMI below 18.5 as one criterion for possible malnutrition in adults, but that does not automatically mean every person below that value is ill or needs medicine [3, 4].\n\nThe key distinction is between somebody who has had a slim, stable build for years and somebody who has recently lost weight without trying or noticed an appetite change. It also matters whether portions are small, fullness comes unusually early, eating causes pain or nausea, swallowing is difficult, or energy needs are higher because of activity or illness. That pattern guides the next step; another person's experience with a pharmacy product does not [1, 2, 4].\n\nHealthy weight gain is not simply the fastest rise in fat or the largest scale number. The aim is enough energy and nutrients, better strength and function, and no important symptom being hidden. When low weight is stable and there are no concerning symptoms, a gradual food plan is often the starting point. When loss is new or there are signs of illness, identifying and treating the cause comes first [2, 3]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "medical-causes-and-red-flags",
+          "heading": {
+            "ar": "إمتى قلة الوزن تحتاج تقييماً طبياً؟",
+            "en": "When does low weight need medical assessment?"
+          },
+          "body": {
+            "ar": "نزول الوزن من غير قصد، خصوصاً لو مستمر أو واضح، محتاج مراجعة طبية بدل محاولة تغطيته بطاقة أكتر. اطلب تقييماً لو معاه إسهال مستمر، براز دهني أو ألم بطن، قيء متكرر، صعوبة أو ألم مع البلع، دم في القيء أو البراز، حرارة أو عرق ليلي، كتلة جديدة، تعب شديد، أو ضعف بيزيد. النزول غير المقصود ممكن يرتبط بمشاكل هضم وامتصاص زي الداء البطني، وممكن يظهر مع فرط نشاط الغدة الدرقية أو السكر؛ الأعراض المصاحبة هي اللي بتوجه الفحص والتحاليل، ومش كل شخص محتاج نفس القائمة [2, 5, 6, 7].\n\nالخفقان والرعشة وعدم تحمل الحر مع نزول الوزن يستحقوا مراجعة للغدة، بينما العطش والتبول الزيادة مع تعب أو نزول ممكن يوجهوا لتقييم السكر. استمرار الإسهال أو الانتفاخ أو الأنيميا أو طفح معين ممكن يخلي الطبيب يفكر في سوء الامتصاص. دي أمثلة للتوجيه، مش طريقة تشخص بيها نفسك، لأن نفس العرض له أسباب كتير [5, 6, 7].\n\nاطلب رعاية عاجلة لو مش قادر تحتفظ بالسوائل، أو عندك جفاف أو إغماء، قيء دموي، براز أسود، ألم شديد، ارتباك، أو تدهور سريع في الأكل والقدرة على الحركة. وكلم مختص بدري لو الخوف من زيادة الوزن، القيء المتعمد، الإفراط في التمرين، أو تقييد الأكل هو اللي مانعك؛ إرشادات اضطرابات الأكل بتؤكد إن التقييم ما يعتمدش على مؤشر الكتلة وحده [13]. ولو عايز تفصل أكتر بين طبيعة الجسم والمرض، اقرأ إزاي تعرف هل النحافة وراثية ولا بسبب مشكلة صحية؟ بدل تكرار التفاصيل هنا.",
+            "en": "Unintentional weight loss, especially when ongoing or noticeable, needs medical review rather than an attempt to cover it with more calories. Seek assessment when it comes with persistent diarrhoea, greasy stools or abdominal pain, repeated vomiting, painful or difficult swallowing, blood in vomit or stool, fever or night sweats, a new lump, marked fatigue, or worsening weakness. Unplanned loss can occur with digestive and absorption disorders such as coeliac disease, and with conditions including hyperthyroidism or diabetes. Accompanying symptoms guide examination and testing; everybody does not need the same panel [2, 5, 6, 7].\n\nPalpitations, tremor and heat intolerance alongside loss deserve thyroid review, while increased thirst and urination with fatigue or loss may prompt diabetes assessment. Persistent diarrhoea, bloating, anaemia or a characteristic rash may lead a clinician to consider malabsorption. These examples guide assessment; they are not a way to diagnose yourself, because each symptom has many possible explanations [5, 6, 7].\n\nSeek urgent care if you cannot keep fluids down or develop dehydration, fainting, bloody vomit, black stool, severe pain, confusion, or rapid deterioration in eating and mobility. Ask for early specialist help when fear of weight gain, self-induced vomiting, compulsive exercise or food restriction is the barrier; eating-disorder guidance stresses that assessment must not rely on BMI alone [13]. For a fuller discussion without duplicating it here, read how to tell whether being underweight is inherited or caused by a health problem."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "إزاي تعرف هل النحافة وراثية ولا بسبب مشكلة صحية؟",
+                "url": "../articles/qa-underweight-inherited-or-illness.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "how to tell whether being underweight is inherited or caused by a health problem",
+                "url": "../articles/qa-underweight-inherited-or-illness.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "food-first-plan",
+          "heading": {
+            "ar": "إزاي تزود الطاقة من غير ما تحوّل اليوم لمعركة أكل؟",
+            "en": "How can you add energy without turning the day into a battle with food?"
+          },
+          "body": {
+            "ar": "بعد ما التقييم يطمن، زيادة الوزن بتحتاج طاقة داخلة أكتر من اللي جسمك بيستهلكها، بس التطبيق الأحسن غالباً بيكون تدريجي. الـNHS بيقترح للبالغين تجربة إضافة تقريبية من 300 إلى 500 وحدة حرارية في اليوم، مع تعديلها حسب الاستجابة؛ ده نطاق عام مش وصفة ثابتة لكل شخص. لو شهيتك صغيرة، خمس أو ست فرص أكل أصغر ممكن يبقوا أسهل من تلات أطباق ضخمة [1].\n\nابدأ بحاجة تقدر تكررها: زوّد زيت زيتون أو طحينة على وجبة، استخدم زبادي أو جبنة كاملة الدسم لو مناسبة لحالتك، حط مكسرات أو زبدة مكسرات لو مفيش حساسية، أو اعمل ساندوتش صغير بين الوجبات. اشرب السوائل المغذية بين الوجبات لو الشرب قبل الأكل بيشبعك، وخلي كل فرصة أكل فيها طاقة ومعاها بروتين. المقال القصير زوّد وجبة واحدة بدل تكبير اليوم كله بيدي خطوة عملية واحدة؛ الفكرة هنا أوسع وهي بناء نمط كامل قابل للاستمرار [1, 3].\n\nزيادة الطاقة مش معناها الاعتماد على حلويات ومشروبات سكرية طول اليوم. الأكل المتنوع لسه مهم عشان الألياف والفيتامينات والمعادن وجودة الدهون، حتى لو هدفك زيادة الوزن [10]. ولو عندك سكر، مرض كلى، حساسية، مشاكل بلع أو أعراض هضمية، اختيارات التدعيم والسوائل محتاجة تتعدل مع المختص. الإرشادات بتضم الأكل المدعّم، الوجبات الخفيفة، المشروبات المغذية والمكملات الفموية ضمن دعم التغذية، بس اختيارها بيتحدد بعد تقييم الاحتياج والقدرة على الأكل [3].",
+            "en": "Once assessment is reassuring, gaining weight requires more energy coming in than the body uses, but a gradual approach is usually easier to sustain. The NHS suggests that adults may try adding roughly 300 to 500 calories a day and adjust according to response; this is a general range, not a fixed prescription for every person. When appetite is small, five or six smaller eating opportunities may be more manageable than three very large plates [1].\n\nStart with something repeatable: add olive oil or tahini to a meal, use full-fat yoghurt or cheese when suitable, include nuts or nut butter when there is no allergy, or place a small sandwich between meals. Try nourishing drinks between meals if drinking before food fills you up, and include both energy and a protein source at each eating opportunity. The short guide enrich one meal instead of enlarging the day offers one practical first step; the broader task here is building a complete pattern you can continue [1, 3].\n\nAdding energy does not mean relying all day on sweets and sugary drinks. Variety still matters for fibre, vitamins, minerals and the quality of dietary fats, even when weight gain is the goal [10]. If you live with diabetes, kidney disease, allergy, swallowing difficulty or digestive symptoms, fortification and drink choices need individual adjustment. Guidelines include fortified food, snacks, nourishing drinks and oral supplements within nutrition support, but the choice follows assessment of needs and ability to eat [3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "زوّد وجبة واحدة بدل تكبير اليوم كله",
+                "url": "../articles/tip-enrich-one-weight-gain-meal.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "enrich one meal instead of enlarging the day",
+                "url": "../articles/tip-enrich-one-weight-gain-meal.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "protein-and-resistance",
+          "heading": {
+            "ar": "خلي الزيادة تدعم العضلات والقوة",
+            "en": "Make the gain support muscle and strength"
+          },
+          "body": {
+            "ar": "الطاقة مهمة، بس البروتين والحركة بيفرقوا في نوع الزيادة ووظيفة الجسم. حط مصدر بروتين مناسب في الوجبات والوجبات الخفيفة: بيض، لبن أو زبادي وجبنة، سمك أو فراخ أو لحمة، أو بقوليات وصويا حسب تفضيلك وتحملك. مراجعة الجمعية الدولية للتغذية الرياضية بتوضح إن البروتين الكافي مع تمارين المقاومة بيدعم بناء العضلات والتكيف مع التدريب، وإن الاحتياج بيتغير مع النشاط والعمر والحالة الصحية وإجمالي الطاقة [8]. عشان كده ما فيش رقم واحد من الإنترنت يناسب الجميع، خصوصاً مع مرض كلى أو حالة طبية بتغير الاحتياج.\n\nتمارين المقاومة ممكن تبقى أوزان، أجهزة، أشرطة مقاومة أو حركات بوزن الجسم. منظمة الصحة العالمية بتنصح البالغين بأنشطة تقوية للعضلات الرئيسية يومين أو أكتر أسبوعياً ضمن نمط النشاط العام، بس البداية تتعدل حسب لياقتك، وأي دوخة أو ضعف أو مرض مزمن [9]. لو أنت خامل أو ضعيف، ابدأ أخف وبإرشاد مناسب بدل ما تضغط على نفسك فجأة.\n\nتابع القدرة على طلوع السلم، القيام من الكرسي، حمل احتياجاتك وأداء التمرين، مش الميزان بس. صفحة تقييم العضلات في رعاية التغذية بتشرح ليه القوة وتركيب الجسم والسياق بيتقروا مع بعض، وده يمنع إن زيادة الرقم تبقى الهدف الوحيد. النوم والراحة كمان بيساعدوا التعافي، بينما تدريب أكتر من قدرة الأكل والتعافي ممكن يستهلك الزيادة اللي بتحاول تحققها [8, 9].",
+            "en": "Calories matter, but protein and movement influence the type of gain and how the body functions. Include an appropriate protein source in meals and snacks: eggs, milk, yoghurt or cheese; fish, poultry or meat; or pulses and soy according to preference and tolerance. The International Society of Sports Nutrition position stand explains that adequate protein alongside resistance exercise supports muscle building and training adaptation, while needs vary with activity, age, health and total energy intake [8]. A single number found online therefore cannot suit everybody, particularly when kidney disease or another condition changes requirements.\n\nResistance activity may use free weights, machines, bands or body-weight movements. The World Health Organization recommends muscle-strengthening activity involving the major muscle groups on two or more days each week as part of adults' overall activity, but the starting point should reflect fitness, dizziness, weakness and chronic illness [9]. If you are inactive or weak, begin more gently and with suitable guidance rather than suddenly pushing hard.\n\nFollow practical abilities such as climbing stairs, rising from a chair, carrying what you need and progressing in exercise, not only the scale. The guide to muscle assessment in nutrition care explains why strength, body composition and clinical context belong together, preventing the scale rise from becoming the only goal. Sleep and rest also support recovery, while training beyond what food and recovery can sustain may use up the surplus you are trying to create [8, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تقييم العضلات في رعاية التغذية",
+                "url": "../articles/muscle-assessment-in-nutrition-care.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "muscle assessment in nutrition care",
+                "url": "../articles/muscle-assessment-in-nutrition-care.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "appetite-stimulants-and-supplements",
+          "heading": {
+            "ar": "فاتح الشهية والمكملات: إمتى يكونوا جزءاً من الخطة؟",
+            "en": "Appetite stimulants and supplements: when might they be part of a plan?"
+          },
+          "body": {
+            "ar": "مصطلح «فاتح شهية» بيجمع أدوية ومنتجات مختلفة، ومش كلها لها نفس الدليل أو الاستخدام أو الأمان. المراجعة المنهجية لدواء سيبروهيبتادين لقت نتائج زيادة وزن في مجموعات مختلفة، بس الدراسات كانت متنوعة جداً، وكان النعاس أكتر أثر جانبي متكرر؛ النتيجة دي ما تحولش الدواء لاختيار تلقائي لأي بالغ وزنه قليل [11]. مراجع الدواء كمان بتذكر تأثيرات مهدئة ومضادة للكولين وتداخلات وموانع استعمال محتاجة مراجعة طبية، عشان كده ما تبدأوش، وما تخلطوش بمنتجات تانية، من غير طبيب يعرف أدويتك وحالتك [12].\n\nالسؤال الصح مش «إيه أقوى فاتح؟»؛ السؤال «إيه اللي مانع الأكل أو الزيادة؟». علاج ألم الأسنان، الارتجاع، الإمساك، الغثيان، اضطراب المزاج، أثر دواء تاني أو مشكلة بلع ممكن يكون أنفع من محاولة دفع الشهية. وأحياناً الطبيب يقرر دواء في حالة محددة بعد وزن الفائدة والمخاطر، بس ده قرار علاجي فردي ومش وعد بنتيجة [2, 3, 11].\n\nالمشروبات أو المكملات الغذائية الفموية مختلفة عن أدوية فتح الشهية. ممكن تساعد لما الأكل العادي والمدعّم مش مكفي أو المضغ والكمية صعبين، لكن الإرشادات بتحطها ضمن خطة تغذية كاملة فيها أهداف ومراجعة، مش بديل دائم من غير متابعة [3]. اختارها مع مختص لو عندك سكر، مرض كلى، حساسية، أو مشكلة امتصاص. وكلمة «طبيعي» على أي منتج مش ضمان للأمان أو خلوه من التداخلات.",
+            "en": "The term “appetite stimulant” covers different medicines and products, and they do not share the same evidence, use or safety profile. A systematic review of cyproheptadine found weight gain in varied populations, but the studies were highly heterogeneous and sedation was the most commonly reported adverse effect; those findings do not make it an automatic choice for every adult with low weight [11]. Drug references also describe sedating and anticholinergic effects, interactions and contraindications that require clinical review, so do not start it or combine it with other products without a clinician who knows your medicines and health [12].\n\nThe useful question is not “Which stimulant is strongest?” but “What is limiting eating or gain?” Treating dental pain, reflux, constipation, nausea, a mood disorder, another medicine's effect or a swallowing problem may help more than trying to force appetite. A clinician may sometimes select a medicine for a specific situation after weighing benefits and harms, but that is an individual treatment decision rather than a promised outcome [2, 3, 11].\n\nOral nutrition drinks or supplements are different from appetite-stimulating medicines. They can help when ordinary fortified food is insufficient or chewing and portion size are barriers, but guidelines place them inside a complete nutrition plan with goals and review, not as an indefinitely unmonitored substitute [3]. Choose them with a professional if you have diabetes, kidney disease, allergy or malabsorption. A “natural” label on any product does not guarantee safety or freedom from interactions."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "monitor-and-adjust",
+          "heading": {
+            "ar": "تابع الاتجاه وعدّل الخطة بدل الحكم من يوم واحد",
+            "en": "Follow the trend and adjust instead of judging one day"
+          },
+          "body": {
+            "ar": "وزن نفسك في ظروف متقاربة وبفواصل معقولة، مثلاً مرة أسبوعياً لو المتابعة ما بتزودش القلق، وبص على اتجاه عدة أسابيع. الوزن بيتغير يومياً بسبب السوائل والملح ومحتوى الأمعاء، فقراءة واحدة مش بتقول إن الخطة نجحت أو فشلت. سجّل كمان عدد فرص الأكل اللي قدرت عليها، الشبع المبكر، الغثيان أو الإسهال، والطاقة والقوة. المتابعة دي بتوضح هل محتاج تزود خطوة صغيرة، تغير توقيت المشروبات، أو تعالج عرض مانعك [1, 3].\n\nلو الاتجاه ثابت رغم تطبيق فعلي، ما تفترضش إن الحل هو مضاعفة كل الكميات. راجع القياس والالتزام والأعراض مع مختص؛ ممكن الاحتياج أعلى من المتوقع، وممكن فيه سبب طبي أو سوء امتصاص، وممكن الخطة نفسها مش عملية. ولو الوزن بيطلع بسرعة مع تورم في الرجلين، ضيق نفس أو انتفاخ مفاجئ، ده ممكن يبقى سوائل مش زيادة غذائية ويحتاج تقييماً طبياً.\n\nخلي النجاح أوسع من الميزان: تحسن الشهية، انتظام الوجبات، قدرة أحسن في التمرين، قوة أكتر، نوم أحسن، أو رجوع الدورة لو كانت غايبة وكل سبب تاني اتراجع طبياً. لو وزن نفسك أو حساب الأكل بيزود خوف أو سلوك قهري، وقف أسلوب المتابعة ده واطلب مساعدة؛ الإرشادات بتتعامل مع السلوك والأعراض النفسية والجسدية مع بعض، مش رقم الكتلة بس [13]. المراجعة المنتظمة بتخلي الخطة تتغير بأمان مع استجابة جسمك [3].",
+            "en": "Weigh under broadly similar conditions at sensible intervals, perhaps weekly if monitoring does not increase anxiety, and look at the direction across several weeks. Weight changes from day to day because of fluid, salt and bowel contents, so one reading cannot show success or failure. Also record how many eating opportunities you managed, early fullness, nausea or diarrhoea, energy and strength. That information shows whether to add a small step, alter the timing of drinks, or address a symptom that limits intake [1, 3].\n\nIf the trend remains flat despite genuine implementation, do not assume the answer is doubling every portion. Review measurements, consistency and symptoms with a professional: needs may be higher than expected, a medical or absorption problem may be present, or the plan may simply be impractical. If weight rises rapidly alongside leg swelling, breathlessness or sudden puffiness, the change may be fluid rather than nutritional gain and needs medical assessment.\n\nDefine success more broadly than weight: a better appetite, more regular meals, improved exercise ability, greater strength, better sleep, or the return of periods when they were absent and other causes have been medically reviewed. If weighing or food tracking increases fear or compulsive behaviour, stop that monitoring method and seek support; guidance considers behaviour and psychological and physical symptoms together rather than relying on BMI alone [13]. Regular review lets the plan change safely with the body's response [3]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "next-step",
+          "heading": {
+            "ar": "الخطوة التالية: خطة تناسب سبب قلة الوزن وحياتك",
+            "en": "The next step: a plan fitted to the reason for low weight and your life"
+          },
+          "body": {
+            "ar": "قبل الزيارة، اكتب اتجاه وزنك وتوقيته، يومين عاديين من الأكل والشرب، الأعراض، الأدوية والمكملات، وأي محاولات سابقة. ما تغيرش أكلك بشكل مصطنع عشان السجل؛ المطلوب صورة حقيقية. التقييم في العيادة بيراجع هل قلة الوزن ثابتة ولا جديدة، وإيه اللي بيحد الشهية أو الامتصاص، وهل الفحص أو تحاليل موجهة لهم داعي. بعدها تتحدد خطة أكل قابلة للتنفيذ، وهدف متابعة، ودور الحركة أو المكمل لو مناسب [2, 3].\n\nالخطة الجيدة بتبدأ بخطوة صغيرة واضحة، زي إضافة ثابتة أو فرصة أكل جديدة، وبموعد مراجعة عشان نعرف إيه اللي نفع وإيه اللي أتعبك. مفيش قائمة واحدة أو فاتح شهية واحد يناسب كل الناس، ومفيش داعي لوعود سريعة. لو عندك علامة خطر من اللي فوق، اختار الرعاية العاجلة أو التخصص المناسب بدل انتظار زيارة تغذية روتينية. ولو الحالة مستقرة وعايز تبدأ بتقييم منظم، تقدر تحجز استشارة تغذية علاجية لمناقشة السبب والهدف والخطوة الأكثر أماناً ليك [1, 3].",
+            "en": "Before the visit, note the direction and timing of weight change, two ordinary days of food and drink, symptoms, medicines and supplements, and previous attempts. Do not artificially change your eating for the record; an accurate picture is more useful. Assessment at the clinic reviews whether low weight is longstanding or new, what limits appetite or absorption, and whether examination or targeted tests are indicated. It can then define a workable food plan, a review goal, and the role of activity or a supplement when appropriate [2, 3].\n\nA good plan begins with one clear, manageable step, such as a consistent addition or a new eating opportunity, and a review point to learn what helped and what caused difficulty. No single menu or appetite stimulant suits everybody, and rapid promises are inappropriate. If you have a warning sign described above, choose urgent care or the relevant specialty rather than waiting for a routine nutrition appointment. If your situation is stable and you want a structured assessment, you can book a clinical nutrition consultation to discuss the reason, your goal and the safest next step [1, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تحجز استشارة تغذية علاجية",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book a clinical nutrition consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل مؤشر كتلة الجسم أقل من 18.5 معناه إن عندي مرض؟",
+            "en": "Does a BMI below 18.5 mean I have an illness?"
+          },
+          "a": {
+            "ar": "لأ، مش لوحده. الرقم ده واحد من معايير الاشتباه في سوء التغذية عند البالغين، بس الطبيب بيقراه مع تاريخ الوزن، والأكل، والقوة، والأعراض والفحص. شخص ثابت من سنين يختلف عن شخص بينزل بسرعة، ومؤشر الكتلة ما بيوصفش تركيب الجسم أو السبب [3, 4].",
+            "en": "No, not by itself. It is one criterion used to screen adults for possible malnutrition, but a clinician interprets it with weight history, intake, strength, symptoms and examination. A person stable for years differs from somebody losing rapidly, and BMI does not describe body composition or the cause [3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أزود وزني بسرعة قد إيه؟",
+            "en": "How quickly should I gain weight?"
+          },
+          "a": {
+            "ar": "مفيش سرعة واحدة مناسبة للجميع. الـNHS بيذكر إضافة تقريبية 300 إلى 500 وحدة حرارية يومياً للبالغين كبداية ممكنة، بس الاستجابة والاحتياج بيختلفوا. تابع اتجاه أسابيع وعدّل مع مختص، بدل مطاردة زيادة سريعة ممكن تبقى دهون أو سوائل أو تعمل أعراض هضمية [1, 3].",
+            "en": "There is no single suitable rate for everybody. The NHS describes roughly 300 to 500 extra calories daily as one possible adult starting point, but needs and response differ. Follow the trend over weeks and adjust with a professional rather than chasing a rapid change that may be fat, fluid or digestive distress [1, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل المشروبات المغذية أحسن من الأكل؟",
+            "en": "Are nourishing drinks better than food?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. ممكن تبقى مفيدة بين الوجبات لما المضغ أو حجم الطبق أو الشبع المبكر يحدوا الأكل، بس الأفضل تبقى جزءاً من خطة متنوعة. المكمل الفموي له دور لما الاحتياج مش متغطي، واختياره بيتغير مع السكر والكلى والحساسية ومشاكل البلع [1, 3].",
+            "en": "Not necessarily. They may help between meals when chewing, portion size or early fullness limits intake, but work best within a varied plan. Oral supplements have a role when needs are not met, and selection changes with diabetes, kidney disease, allergy and swallowing problems [1, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل فاتح الشهية آمن لو من الصيدلية أو عشبي؟",
+            "en": "Is an appetite stimulant safe if it comes from a pharmacy or is herbal?"
+          },
+          "a": {
+            "ar": "المكان أو كلمة «عشبي» مش ضمان. المنتجات مختلفة، وممكن تعمل نعاس أو آثار تانية وتتداخل مع علاجك. حتى الدواء اللي عليه دراسات ما يناسبش كل سبب أو كل شخص. راجع الطبيب أو الصيدلي بقائمة أدويتك وما تبدأش أو توقف علاجاً موصوفاً لوحدك [11, 12].",
+            "en": "The place of purchase or the word “herbal” is not a guarantee. Products differ and may cause sedation, other effects or medicine interactions. Even a studied medicine does not suit every cause or person. Review your full medicine list with a clinician or pharmacist and do not start or stop prescribed treatment alone [11, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أقدر أخلي كل الزيادة عضلات؟",
+            "en": "Can all of the gained weight be muscle?"
+          },
+          "a": {
+            "ar": "مش ممكن نضمن تركيب واحد لكل الزيادة. الطاقة الكافية، والبروتين المناسب، وتمارين المقاومة التدريجية بيدعموا بناء العضلات، بس النتيجة بتتأثر بالعمر والتدريب والنوم والحالة الصحية. تابع القوة والأداء وتركيب الجسم لو له داعي بدل وعد إن كل كيلو هيبقى عضلاً [8, 9].",
+            "en": "No plan can guarantee that every part of the gain will be muscle. Adequate energy, suitable protein and progressive resistance exercise support muscle building, but age, training, sleep and health influence the result. Follow strength, performance and body composition when indicated rather than expecting every kilogram to be muscle [8, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى قلة الشهية أو نزول الوزن يبقوا حالة عاجلة؟",
+            "en": "When do poor appetite or weight loss become urgent?"
+          },
+          "a": {
+            "ar": "اطلب رعاية عاجلة مع جفاف أو إغماء، عدم القدرة على الاحتفاظ بالسوائل، قيء دموي، براز أسود، ألم شديد، ارتباك أو تدهور سريع. نزول غير مقصود مستمر، صعوبة بلع، إسهال طويل، خفقان أو عطش وتبول زيادة محتاجين تقييماً قريباً حتى لو مش طوارئ [2, 5, 6, 7].",
+            "en": "Seek urgent care for dehydration or fainting, inability to keep fluids down, bloody vomit, black stool, severe pain, confusion or rapid deterioration. Persistent unintentional loss, swallowing difficulty, prolonged diarrhoea, palpitations, or increased thirst and urination need prompt assessment even when they are not emergencies [2, 5, 6, 7]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NHS — Healthy ways to gain weight",
+          "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/healthy-ways-to-gain-weight/"
+        },
+        {
+          "label": "NHS — Unintentional weight loss",
+          "url": "https://www.nhs.uk/symptoms/unintentional-weight-loss/"
+        },
+        {
+          "label": "NICE CG32 — Nutrition support for adults: recommendations",
+          "url": "https://www.nice.org.uk/guidance/cg32/chapter/Recommendations"
+        },
+        {
+          "label": "Cleveland Clinic — Underweight: symptoms, causes and health risks",
+          "url": "https://my.clevelandclinic.org/health/diseases/underweight"
+        },
+        {
+          "label": "NIDDK — Symptoms and causes of celiac disease",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Hyperthyroidism (overactive thyroid)",
+          "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/hyperthyroidism"
+        },
+        {
+          "label": "NIDDK — Symptoms and causes of diabetes",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/symptoms-causes"
+        },
+        {
+          "label": "Jäger et al. — International Society of Sports Nutrition position stand: protein and exercise (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/"
+        },
+        {
+          "label": "World Health Organization — Physical activity fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "label": "World Health Organization — Healthy diet fact sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        },
+        {
+          "label": "Harrison et al. — Use of cyproheptadine to stimulate appetite and body weight gain: a systematic review (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30825493/"
+        },
+        {
+          "label": "NCBI Bookshelf — Cyproheptadine",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK519493/"
+        },
+        {
+          "label": "NICE NG69 — Eating disorders: recognition and treatment",
+          "url": "https://www.nice.org.uk/guidance/ng69/chapter/Recommendations"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "زيادة الوزن الصحية",
+          "النحافة",
+          "فاتح الشهية",
+          "أكلات لزيادة الوزن",
+          "دكتور تغذية علاجية"
+        ],
+        "en": [
+          "healthy weight gain",
+          "underweight",
+          "appetite stimulant",
+          "foods for weight gain",
+          "clinical nutrition"
+        ]
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسع الدليل بإرشادات عملية لزيادة الوزن الصحية وتقييم أسباب النحافة وأمان فاتح الشهية، واتراجع طبياً من جديد.",
+            "en": "The guide was expanded with practical healthy-weight-gain advice, assessment of low-weight causes and appetite-stimulant safety, and was medically re-reviewed."
+          }
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "زيادة الوزن الصحية وهل تحتاج فاتح شهية؟",
+          "en": "Healthy weight gain and appetite stimulants"
+        },
+        "description": {
+          "ar": "دليل عملي لزيادة الوزن الصحية: إمتى تحتاج كشف، وإزاي تزود الطاقة والبروتين بأمان، وليه ما تبدأش فاتح شهية من نفسك بخطة تناسبك.",
+          "en": "A practical guide to healthy weight gain, medical checks, adding energy and protein safely, and why not to self-start an appetite stimulant."
+        }
+      }
+    }
+  ]
+}

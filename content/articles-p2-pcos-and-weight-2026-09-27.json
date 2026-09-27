@@ -1,0 +1,326 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of pcos-and-weight; replaces the entry from content/articles-pcos-and-weight-rewrite-2026-09-20.json. Expanded diagnosis, weight-inclusive lifestyle care, monitoring, treatment choices, red flags, FAQs, verified sources, and booking guidance.",
+  "articles": [
+    {
+      "slug": "pcos-and-weight",
+      "type": "article",
+      "published": true,
+      "featured": true,
+      "category": "clinical-nutrition",
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management"
+      ],
+      "date": "2026-08-17",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/pcos-and-weight.webp",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا شرح علاقة تكيس المبايض بالوزن والتشخيص والأكل والحركة والعلاج والمتابعة، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the explanation of PCOS, weight, diagnosis, nutrition, movement, treatment and follow-up, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "title": {
+        "ar": "تكيس المبايض والوزن: نفهم العلاقة وإيه اللي يساعد",
+        "en": "PCOS and weight: understanding the link and what helps"
+      },
+      "excerpt": {
+        "ar": "تكيس المبايض ممكن يصعّب إدارة الوزن، بس مش كل زيادة سببها التكيس ومفيش خطة واحدة تناسب الكل. افهم التشخيص والخطوات المفيدة من غير لوم.",
+        "en": "PCOS can make weight management harder, but it does not explain every gain and no single plan suits everyone. Understand diagnosis and useful next steps without blame."
+      },
+      "tags": {
+        "ar": [
+          "تكيس المبايض",
+          "الوزن",
+          "الدورة الشهرية",
+          "مقاومة الإنسولين"
+        ],
+        "en": [
+          "PCOS",
+          "weight",
+          "periods",
+          "insulin resistance"
+        ]
+      },
+      "sections": [
+        {
+          "id": "not-one-picture",
+          "heading": {
+            "ar": "تكيس المبايض مش شكل واحد ولا رقم على الميزان",
+            "en": "PCOS is not one appearance or a number on the scale"
+          },
+          "body": {
+            "ar": "تكيس المبايض متلازمة، يعني مجموعة علامات ممكن تظهر بتركيبات مختلفة وتمس التبويض والهرمونات والصحة الأيضية والنفسية. ممكن العرض الأوضح يكون دورة مش منتظمة، شعر زائد، حب شباب، صعوبة حمل، أو تغير في الوزن؛ وممكن الوزن يفضل في مداه المعتاد. عشان كده شكل الجسم ما يثبتش التشخيص، وزيادة الوزن مش شرط لوجود التكيس ولا دليل على تقصير شخصي. الاسم نفسه ممكن يضلل: المقصود غالباً جريبات صغيرة، مش أكياس كبيرة لازم تتشال. [1, 5, 10]\n\nالتشخيص عند البالغين بيعتمد عادة على وجود اتنين من تلات سمات بعد استبعاد الأسباب المشابهة: اضطراب أو غياب التبويض، علامات سريرية أو معملية لزيادة الأندروجين، ومظهر متعدد الجريبات في المبيض بالسونار أو معيار بديل يختاره الطبيب وفق الإرشادات المناسبة. لو أول سمتين واضحين، السونار مش لازم لكل حالة؛ ولو السونار فيه جريبات لوحده، ده مش كفاية لتسمية الحالة تكيس. التشخيص في سن المراهقة له ضوابط أدق عشان تغيرات البلوغ الطبيعية ممكن تشبه التكيس. [2, 3, 4]\n\nأعراض قريبة ممكن تحصل مع اضطراب الغدة الدرقية، ارتفاع هرمون الحليب، بعض اضطرابات الغدة الكظرية، أدوية معينة، أو أسباب تانية لعدم انتظام الدورة. عشان كده التحاليل ما تتطلبش كقائمة ثابتة من الإنترنت؛ الطبيب بيختارها على حسب السن، تاريخ الدورة، الأعراض، واحتمال الحمل. الفكرة المهمة هنا إن التكيس تشخيص سريري متكامل، مش نتيجة سونار منفردة ولا تحليل إنسولين واحد. [2, 4, 7]",
+            "en": "Polycystic ovary syndrome is a syndrome: a group of features that may appear in different combinations and affect ovulation, hormones, metabolic health and psychological wellbeing. The most visible concern may be irregular periods, excess hair, acne, difficulty conceiving or weight change; body weight may also remain within its usual range. Appearance cannot confirm PCOS, and higher weight is neither required for diagnosis nor evidence of personal failure. The name can also mislead: it usually refers to many small follicles, not large cysts that must be removed. [1, 5, 10]\n\nIn adults, diagnosis generally requires two of three features after similar conditions are excluded: irregular or absent ovulation, clinical or laboratory evidence of higher androgen activity, and polycystic ovarian morphology on ultrasound or an alternative criterion selected by the clinician under applicable guidance. When the first two features are clear, ultrasound is not required in every case; follicles on ultrasound alone are not enough to diagnose PCOS. Diagnosis in adolescents follows tighter rules because normal pubertal changes can resemble the syndrome. [2, 3, 4]\n\nThyroid disease, raised prolactin, some adrenal disorders, certain medicines and other causes of irregular periods can produce overlapping features. Tests should therefore not be ordered from a fixed internet checklist. A clinician selects them according to age, cycle history, symptoms and the possibility of pregnancy. The key point is that PCOS is an integrated clinical diagnosis, not the result of one ultrasound or one insulin measurement. [2, 4, 7]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "hormonal-loop",
+          "heading": {
+            "ar": "إيه علاقة الإنسولين بالهرمونات والوزن؟",
+            "en": "How are insulin, hormones and weight connected?"
+          },
+          "body": {
+            "ar": "الإنسولين بيساعد الجلوكوز يدخل الخلايا عشان يتستخدم كطاقة. مع مقاومة الإنسولين، الخلايا ما تستجيبش بالكفاءة المعتادة، فالجسم ممكن يفرز إنسولين أكتر للحفاظ على سكر الدم. ارتفاع الإنسولين يقدر يتداخل مع إنتاج الهرمونات في المبيض ويساهم في زيادة الأندروجين واضطراب التبويض عند بعض المصابات بالتكيس. وفي الاتجاه التاني، زيادة الدهون الحشوية وقلة الحركة والنوم المضطرب ممكن يزودوا صعوبة تنظيم السكر. دي شبكة عوامل بيولوجية، مش حكاية إرادة ضعيفة. [2, 4, 8]\n\nبس مش كل مصاب بالتكيس عنده نفس درجة مقاومة الإنسولين، ومش ممكن نعرفها من الرغبة في الحلويات أو شكل البطن وحدهم. تحليل الإنسولين الروتيني كمان مش اختبار تشخيصي منفرد للتكيس، والإرشاد الدولي بيشير لمحدودية فائدته في الرعاية المعتادة. الطبيب يهتم أكتر بتاريخ العيلة، ضغط الدم، قياسات مناسبة، وفحوص السكر والدهون المختارة حسب عوامل الخطر. لو عايز تفاصيل أوسع عن معنى مقاومة الإنسولين واختباراتها، مقال مقاومة الإنسولين وسبب ثبات الوزن بيفصل النقطة من غير ما نحول كل عرض لتشخيص. [2, 7, 8]\n\nاسمرار وسماكة الجلد في ثنيات الرقبة أو الإبط ممكن يظهروا مع مقاومة الإنسولين، لكنهم ما يثبتوش سكر أو تكيس لوحدهم وليهم أسباب تانية. صفحة اسمرار وسماكة الجلد في ثنيات الرقبة بتشرح إمتى العلامة تستحق فحصاً وإزاي نتجنب الفرك والعلاجات القاسية. التحسن الحقيقي بيتقاس بالصورة كلها: انتظام المتابعة، سكر وضغط ودهون مناسبين، أعراض أهدى، وطريقة أكل وحركة قابلة للاستمرار. [5, 6, 8]",
+            "en": "Insulin helps glucose enter cells to be used as energy. With insulin resistance, cells do not respond as efficiently, so the body may release more insulin to keep blood glucose controlled. Higher insulin can interact with ovarian hormone production and contribute to higher androgen activity and irregular ovulation in some people with PCOS. In the other direction, more visceral fat, lower activity and disrupted sleep can make glucose regulation harder. This is a network of biological factors, not a story of weak willpower. [2, 4, 8]\n\nNot everyone with PCOS has the same degree of insulin resistance, and sugar cravings or abdominal shape cannot identify it. A routine insulin level is not a stand-alone diagnostic test for PCOS, and the international guideline notes the limited clinical value of available insulin assays in routine care. Clinicians focus more on family history, blood pressure, relevant measurements, and glucose and lipid tests selected according to risk. For more detail about the concept and testing, insulin resistance and why weight can feel stuck covers that neighbouring topic without turning every symptom into a diagnosis. [2, 7, 8]\n\nDarkened, thickened skin in the neck or underarm folds can occur with insulin resistance, but it proves neither diabetes nor PCOS and has other causes. The page on darkened, thickened skin in the neck explains when this sign deserves assessment and why harsh scrubbing is unhelpful. Meaningful progress is judged through the whole picture: organised follow-up, appropriate glucose, blood-pressure and lipid results, calmer symptoms, and eating and movement patterns that can last. [5, 6, 8]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "مقاومة الإنسولين وسبب ثبات الوزن",
+                "url": "../articles/insulin-resistance-explained.html"
+              },
+              {
+                "label": "اسمرار وسماكة الجلد في ثنيات الرقبة",
+                "url": "../articles/dark-neck-acanthosis-insulin-resistance.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "insulin resistance and why weight can feel stuck",
+                "url": "../articles/insulin-resistance-explained.html"
+              },
+              {
+                "label": "darkened, thickened skin in the neck",
+                "url": "../articles/dark-neck-acanthosis-insulin-resistance.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "assessment-and-monitoring",
+          "heading": {
+            "ar": "التقييم بيتابع أكتر من الوزن والدورة",
+            "en": "Assessment follows more than weight and periods"
+          },
+          "body": {
+            "ar": "التقييم المفيد يبدأ بحكاية الحالة: طول الدورة وتغيرها، نمو الشعر أو تساقطه، البشرة، النوم والشخير، المزاج، الأدوية والمكملات، تاريخ الوزن، وتاريخ العيلة مع السكر وأمراض القلب. الطبيب يقيس ضغط الدم ويحدد فحوص السكر والدهون المناسبة، وقد يطلب تحاليل تستبعد أسباباً مشابهة. اختبار تحمل الجلوكوز ممكن يكون الأنسب في مواقف معينة، بينما اختيار الفحص وتكراره بيتغير حسب السن والنتيجة وعوامل الخطر وخطة الحمل. [2, 4, 6]\n\nالتكيس مرتبط بزيادة احتمال اضطراب تحمل الجلوكوز والسكري من النوع التاني، اضطراب الدهون، انقطاع النفس أثناء النوم، القلق والاكتئاب، ومشاكل بطانة الرحم عند غياب الدورة لفترات طويلة. الارتباط مش معناه إن المضاعفات هتحصل حتماً، لكنه يوضح ليه المتابعة ما ينفعش تقتصر على الميزان. لو الدورة غايبة لشهور، أو الشخير مصحوب بتوقف نفس ونعاس شديد، أو المزاج متدهور، لازم يتقال للطبيب بدل اعتباره جزءاً عادياً من التكيس. [1, 2, 7]\n\nفي تقييم التغذية، الميزان لوحده ما يوضحش الفرق بين الدهون والعضلات والمياه. تحليل تركيب الجسم والقياسات ممكن يساعدوا في فهم الاتجاه لو اتعملوا في ظروف متقاربة، لكنهم مش اختبار للتكيس ولا حكم على النجاح. مقال تحليل تركيب الجسم والقياسات بيوضح حدود القياس وإزاي نقارن النتائج بعدل. والهدف يتحدد مع الشخص: تثبيت الوزن، منع زيادة جديدة، تحسين الأكل والطاقة، أو نزول تدريجي لو ده اختيار مناسب طبياً وشخصياً. [2, 9]",
+            "en": "A useful assessment starts with the person's story: cycle length and change, hair growth or loss, skin, sleep and snoring, mood, medicines and supplements, weight history, and family history of diabetes and cardiovascular disease. The clinician measures blood pressure, selects appropriate glucose and lipid tests, and may request tests that exclude similar conditions. An oral glucose tolerance test may be preferred in some situations, while the choice and interval depend on age, previous results, risk factors and pregnancy plans. [2, 4, 6]\n\nPCOS is associated with a higher likelihood of impaired glucose tolerance and type 2 diabetes, adverse lipid profiles, obstructive sleep apnoea, anxiety and depression, and problems with the womb lining when periods are absent for long intervals. Association does not mean these outcomes are inevitable, but it explains why follow-up should not stop at the scale. Months without a period, snoring with breathing pauses and marked sleepiness, or deteriorating mood should be discussed rather than accepted as an ordinary part of PCOS. [1, 2, 7]\n\nIn nutrition assessment, the scale cannot distinguish fat, muscle and water. Body-composition analysis and measurements may help show direction when conditions are kept similar, but they are neither a PCOS test nor a verdict on success. Body-composition analysis and measurements explains the method's limits and how to make comparisons fairer. Goals are agreed with the person: weight stability, prevention of further gain, better eating and energy, or gradual loss when that is a medically and personally appropriate choice. [2, 9]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تحليل تركيب الجسم والقياسات",
+                "url": "../articles/body-composition-not-scale.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Body-composition analysis and measurements",
+                "url": "../articles/body-composition-not-scale.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "food-and-movement",
+          "heading": {
+            "ar": "الأكل والحركة من غير دايت سحري أو عقاب",
+            "en": "Food and movement without a magic diet or punishment"
+          },
+          "body": {
+            "ar": "مفيش تركيب واحد للأكل ثبت إنه الأفضل لكل حالات التكيس. الإرشادات بتدعم نمطاً صحياً مرناً يناسب الثقافة والتفضيلات والاحتياج، مش قائمة ممنوعات باسم «دايت التكيس». غالباً بيساعد إن الوجبة تضم مصدر بروتين مناسب، خضار أو فاكهة أو بقول للألياف، ونشويات بكمية وتوزيع مناسبين للشخص. ده ممكن يزود الشبع ويخلي الطاقة أهدى، من غير منع الخبز أو الفاكهة أو الألبان تلقائياً ومن غير مكملات توعد بإصلاح الهرمونات. [2, 9]\n\nالبداية العملية ممكن تكون فطار أشبع، إضافة خضار لوجبة ثابتة، تقليل مشروب سكري متكرر، أو تجهيز اختيار بسيط للأيام المزدحمة. راقب الجوع والطاقة والهضم وإمكانية تكرار الخطوة، مش الكمال. الحميات القاسية ممكن تعمل جوعاً شديداً وانشغالاً بالأكل وخسارة عضل ثم رجوعاً للوزن. ولو فيه تاريخ نهم أو تقييد مؤذٍ، لازم الخطة تتعامل مع ده باحترام وقد تحتاج دعماً متخصصاً بدل تشديد المنع. [2, 9]\n\nالحركة ليها فوائد حتى من غير نزول وزن. المشي، نشاط هوائي محبوب، وتمارين المقاومة كلهم اختيارات ممكن تتدرج حسب اللياقة والحالة الصحية؛ ومفيش نوع واحد لازم للجميع. الهدف هو تقليل وقت الخمول وبناء روتين يتكرر. تمارين المقاومة والبروتين المناسب بيساعدوا في حماية العضلات أثناء نزول الوزن، والصفحة المرتبطة بتشرح التفاصيل من غير ما نكررها هنا. لو فيه ألم صدر، إغماء، ضيق نفس غير معتاد، أو نزيف غزير مع دوخة، أوقف المجهود واطلب تقييماً طبياً. [2, 9]",
+            "en": "No single dietary composition has proved best for everyone with PCOS. Guidance supports a flexible healthy pattern that fits culture, preferences and needs, not a forbidden list marketed as a 'PCOS diet'. A meal will often be more satisfying when it includes a suitable protein source, vegetables, fruit or pulses for fibre, and an amount and distribution of carbohydrate suited to the individual. This can support fullness and steadier energy without automatically banning bread, fruit or dairy, and without supplements that promise to fix hormones. [2, 9]\n\nA practical beginning might be a more satisfying breakfast, adding vegetables to a familiar meal, reducing a frequently consumed sugary drink, or preparing a simple option for busy days. Follow hunger, energy, digestion and whether the action can be repeated, rather than perfection. Severe restriction can produce intense hunger, preoccupation with food, muscle loss and weight regain. A history of binge eating or harmful restriction deserves respectful care and may require specialist support rather than tighter rules. [2, 9]\n\nMovement has benefits even without weight loss. Walking, an enjoyable aerobic activity and resistance exercise can all be progressed according to fitness and health; there is no single compulsory type. The aim is to reduce sedentary time and build a repeatable routine. Resistance training and suitable protein help with protecting muscle while losing weight, and the linked page covers that subject without duplicating it here. Stop exertion and seek medical assessment for chest pain, fainting, unusual breathlessness, or heavy bleeding with dizziness. [2, 9]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حماية العضلات أثناء نزول الوزن",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "protecting muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "medical-options",
+          "heading": {
+            "ar": "العلاج بيتحدد حسب الهدف، مش اسم التشخيص بس",
+            "en": "Treatment follows the goal, not only the diagnosis"
+          },
+          "body": {
+            "ar": "الخطة بتتغير حسب العرض الأساسي: تنظيم الدورة وحماية بطانة الرحم، علاج الشعر أو حب الشباب، تحسين عوامل السكر، إدارة الوزن، أو محاولة الحمل. موانع الحمل الهرمونية المركبة ممكن يناقشها طبيب النساء لتنظيم الدورة وبعض أعراض زيادة الأندروجين لما الحمل مش هدفاً حالياً، لكن اختيارها محتاج مراجعة التاريخ الصحي والموانع. غياب الدورة لفترات طويلة يستحق مناقشة حماية بطانة الرحم، ومينفعش انتظار نزول الوزن وحده كحل. [2, 3, 4]\n\nالميتفورمين ممكن يناسب بعض الحالات للأهداف الأيضية وفق التقييم، لكنه مش دواء تخسيس تلقائي لكل شخص عنده تكيس، وممكن يعمل أعراضاً بالجهاز الهضمي ويحتاج متابعة. أدوية إدارة الوزن ممكن تدخل لبعض البالغين وفق معاييرها العامة وبعد مناقشة الفوائد والأضرار والتداخلات وخطة الحمل؛ تأثيرها واستمرارها بيتراجعوا مع الطبيب، ومينفعش تبدأ أو تتوقف من غير إشراف. المكملات، ومنها الإينوزيتول، أدلتها وفوائدها المحتملة وحدود جودتها تختلف، فاسم «طبيعي» مش ضمان للفاعلية أو الأمان. [2, 4, 7]\n\nلو الحمل هو الهدف، الأولوية تبقى تقييم التبويض وعوامل الخصوبة عند الطرفين، والعلاج يختاره طبيب النساء أو الخصوبة. بعض الأدوية غير مناسبة أثناء الحمل أو مع احتماله، وده لازم يدخل في القرار من البداية. أي تأخر دورة مع احتمال حمل يستلزم اختباراً وتواصلاً مع الطبيب قبل تعديل دواء. الفكرة مش جمع أكبر عدد من العلاجات؛ الفكرة اختيار أقل تدخل مناسب للهدف الحالي، مع مراجعة الاستجابة والأعراض الجانبية وتغير الأولويات مع الوقت. [2, 3, 6]",
+            "en": "The plan changes with the main goal: cycle regulation and protection of the womb lining, treatment of excess hair or acne, improvement of glucose-related risk, weight management, or trying to conceive. A gynaecologist may discuss combined hormonal contraception for cycle control and some androgen-related features when pregnancy is not a current goal, but selection requires review of medical history and contraindications. Long intervals without periods deserve a discussion about endometrial protection; waiting for weight loss alone is not an adequate plan. [2, 3, 4]\n\nMetformin may suit some people for metabolic indications after assessment, but it is not an automatic weight-loss medicine for everyone with PCOS; it can cause gastrointestinal effects and may require monitoring. Weight-management medicines may be considered for some adults under their general eligibility criteria, after discussing benefits, harms, interactions and pregnancy plans. Their effect and continuation are reviewed with the prescriber, and they should not be started or stopped without supervision. Supplements, including inositol, have varying evidence, potential benefits and quality limitations; 'natural' does not guarantee effectiveness or safety. [2, 4, 7]\n\nWhen pregnancy is the goal, priorities shift to assessing ovulation and fertility factors in both partners, with treatment chosen by a gynaecologist or fertility clinician. Some medicines are unsuitable during pregnancy or when it is possible, so this must be part of the decision from the start. A late period with a possibility of pregnancy calls for a test and contact with the clinician before changing medicine. The aim is not to collect the greatest number of treatments, but to choose the least intervention appropriate to the current goal and review response, side effects and changing priorities over time. [2, 3, 6]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "when-to-seek-care",
+          "heading": {
+            "ar": "إمتى الموضوع محتاج مراجعة أسرع؟",
+            "en": "When does the situation need faster review?"
+          },
+          "body": {
+            "ar": "احجز مراجعة قريبة لو الدورة غايبة لفترة طويلة أو النزيف بقى متكرراً أو غزيراً، لأن الطبيب محتاج يقيّم السبب ويحمي بطانة الرحم ويستبعد أنيميا أو حمل. الزيادة السريعة الجديدة في شعر الوجه أو الجسم، خشونة الصوت، تساقط شعر شديد، أو أعراض بتتطور خلال شهور قليلة مش النمط المعتاد البطيء للتكيس وبتحتاج تقييماً لاستبعاد أسباب هرمونية تانية. كذلك زيادة أو نزول وزن سريع من غير تفسير، إفراز لبن من الثدي من غير رضاعة، أو أعراض غدة درقية واضحة تستحق مراجعة. [2, 3, 4]\n\nاطلب رعاية عاجلة لو فيه نزيف شديد مع دوخة أو إغماء، ألم حاد مفاجئ في أسفل البطن، ألم صدر، ضيق نفس شديد، أو أعراض حمل مع ألم أو نزيف. دي مش علامات ننتظر عليها موعد تغذية روتيني. ولو القلق أو الاكتئاب وصلوا لأفكار إيذاء النفس، اطلب مساعدة طارئة فوراً من خدمات الطوارئ المحلية وشخص موثوق؛ الصحة النفسية جزء أصيل من رعاية التكيس. [2, 7, 10]\n\nوفي غير الطوارئ، ما تستناش «تخس الأول» عشان تطلب رعاية. المتابعة مناسبة لأي حجم جسم، وممكن تبدأ بهدف تثبيت الوزن أو تحسين النوم والأكل أو تنظيم الدورة. اسأل الطبيب إيه العلامة اللي بنتابعها، إمتى نعيد التحليل، وإيه اللي يستدعي تواصلاً أبكر. ده بيحول المتابعة من قلق يومي لخطة واضحة، وبيمنع إن كل عرض جديد يتحط تحت عنوان التكيس من غير فحص. [1, 2]",
+            "en": "Arrange a prompt review when periods have been absent for a prolonged interval or bleeding has become frequent or heavy. The clinician needs to assess the cause, protect the womb lining where appropriate, and exclude anaemia or pregnancy. New and rapidly increasing facial or body hair, voice deepening, marked scalp-hair loss, or features progressing over only a few months are not the usual gradual pattern of PCOS and need assessment for other hormonal causes. Rapid unexplained weight gain or loss, milk discharge when not breastfeeding, or clear thyroid-related symptoms also deserve review. [2, 3, 4]\n\nSeek urgent care for heavy bleeding with dizziness or fainting, sudden severe lower-abdominal pain, chest pain, severe breathlessness, or pregnancy symptoms accompanied by pain or bleeding. These are not signs to hold for a routine nutrition appointment. If anxiety or depression reaches thoughts of self-harm, seek emergency help immediately through local emergency services and a trusted person; mental health is an integral part of PCOS care. [2, 7, 10]\n\nOutside emergencies, do not wait to 'lose weight first' before seeking care. Follow-up is appropriate at every body size and may begin with weight stability, improved sleep and eating, or cycle management. Ask the clinician what marker is being followed, when a test should be repeated, and what should prompt earlier contact. This turns daily worry into a clear plan and prevents every new symptom being placed under the PCOS label without assessment. [1, 2]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "consultation",
+          "heading": {
+            "ar": "خطوة تالية مرتبة ومن غير لوم",
+            "en": "An organised next step without blame"
+          },
+          "body": {
+            "ar": "قبل الزيارة، جهّز مواعيد آخر كام دورة، أي تغير في الشعر أو الجلد أو النوم، قائمة الأدوية والمكملات، ونتايج التحاليل أو السونار السابقة. اكتب الهدف الأهم دلوقتي: فهم التشخيص، تنظيم الدورة، تقليل الجوع، تحسين الطاقة، التخطيط للحمل، تثبيت الوزن أو إدارته. مش مطلوب تعمل سونار أو باقة تحاليل من نفسك، ومش مطلوب تغيّر وزنك عشان تستحق رعاية محترمة. [2, 6]\n\nفي العيادة، التقييم المفيد يربط التاريخ الصحي والفحص والنتايج المتاحة بنمط الأكل والحركة والنوم. بعد كده تتحدد خطوات قليلة قابلة للتطبيق ومؤشرات متابعة واضحة. لو جزء من الصورة محتاج طبيب نساء أو باطنة أو صحة نفسية، الإحالة المناسبة أفضل من تفسير كل حاجة بالأكل. المركز الطبي ممكن يساعد في تنظيم تقييم تغذية إكلينيكية ومتابعة الوزن ضمن الحدود المناسبة، من غير وعود بنتيجة محددة ومن غير استبدال متابعة النساء أو الخصوبة. [1, 2, 5]\n\nلو محتاج تبدأ بخطوة منظمة، تقدر تستخدم طلب حجز موعد وتذكر إن السؤال عن تكيس المبايض والوزن وأي تحاليل موجودة. القرار النهائي لأي تحليل أو دواء أو هدف وزن يفضل مع الطبيب المعالج بعد مراجعة حالتك وخطة الحمل. النجاح هنا مش رقماً مثالياً؛ هو فهم أوضح، أعراض ومخاطر بتتتابع، وخطة تقدر تعيش معاها وتتعدل لما الأولويات تتغير. [2, 5]",
+            "en": "Before the visit, prepare the dates of recent periods, changes in hair, skin or sleep, a list of medicines and supplements, and previous laboratory or ultrasound reports. Write down the most important goal now: understanding the diagnosis, regulating periods, reducing disruptive hunger, improving energy, planning pregnancy, stabilising weight or managing it. You do not need to arrange an ultrasound or a panel of tests yourself, and you do not need to change your weight to deserve respectful care. [2, 6]\n\nIn the clinic, a useful assessment connects medical history, examination and available results with eating, movement and sleep patterns. It then defines a few workable actions and clear follow-up markers. When part of the picture needs gynaecology, internal medicine or mental-health care, appropriate referral is better than explaining everything through food. A medical centre can help organise clinical-nutrition assessment and weight follow-up within suitable boundaries, without promising a particular result or replacing gynaecology or fertility care. [1, 2, 5]\n\nIf you need an organised starting point, use the appointment request and mention that the question concerns PCOS and weight, along with any available results. The final decision about any test, medicine or weight goal remains with the treating clinician after reviewing your circumstances and pregnancy plans. Success here is not a perfect number; it is clearer understanding, monitored symptoms and risks, and a plan you can live with and adapt as priorities change. [2, 5]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "appointment request",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل كل شخص عنده تكيس مبايض لازم يكون وزنه زايد؟",
+            "en": "Does everyone with PCOS have to live in a larger body?"
+          },
+          "a": {
+            "ar": "لأ. التكيس بيظهر مع أحجام أجسام مختلفة، والوزن مش واحداً من شروط التشخيص. الشخص بوزن معتاد ممكن يحتاج متابعة الدورة والسكر والدهون والأعراض برضه. الهدف يتحدد حسب الصورة الصحية والرغبة الشخصية، مش افتراض إن كل حالة لازم تخس. [1, 2, 5]",
+            "en": "No. PCOS occurs across body sizes, and weight is not one of its diagnostic requirements. A person at their usual weight may still need follow-up of cycles, glucose, lipids and symptoms. Goals follow the health picture and personal preference, not an assumption that everyone must lose weight. [1, 2, 5]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل كل حالة تكيس عندها مقاومة إنسولين؟",
+            "en": "Does everyone with PCOS have insulin resistance?"
+          },
+          "a": {
+            "ar": "مش بنفس الدرجة، ومينفعش التشخيص من شكل الجسم أو الرغبة في السكر. مقاومة الإنسولين عامل مهم في التكيس عند ناس كتير، بس تحليل الإنسولين المنفرد فائدته محدودة في الرعاية الروتينية. الطبيب بيختار تقييم السكر والمخاطر حسب التاريخ والسن والنتايج. [2, 4, 8]",
+            "en": "Not to the same degree, and it cannot be diagnosed from body shape or sugar cravings. Insulin resistance is an important factor for many people with PCOS, but a single insulin measurement has limited value in routine care. The clinician selects glucose and risk assessment according to history, age and results. [2, 4, 8]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل السونار لوحده يثبت تكيس المبايض؟",
+            "en": "Can ultrasound alone confirm PCOS?"
+          },
+          "a": {
+            "ar": "لأ. وجود جريبات متعددة في السونار ممكن يحصل من غير متلازمة، وبعض حالات التكيس تتشخص من اضطراب التبويض وزيادة الأندروجين من غير احتياج لسونار. لازم الطبيب يجمع المعايير ويستبعد الأسباب المشابهة، مع قواعد مختلفة للمراهقين. [2, 3, 4]",
+            "en": "No. Multiple follicles can appear on ultrasound without the syndrome, while some cases are diagnosed from ovulatory dysfunction and androgen excess without requiring ultrasound. A clinician combines criteria and excludes similar causes, with different rules for adolescents. [2, 3, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أوقف النشويات أو الجلوتين عشان التكيس؟",
+            "en": "Must I stop carbohydrates or gluten because of PCOS?"
+          },
+          "a": {
+            "ar": "مفيش دليل إن تركيبة دايت واحدة هي الأفضل لكل حالات التكيس، ومفيش سبب لمنع الجلوتين لمجرد وجود التكيس. كمية ونوع وتوزيع النشويات يتظبطوا حسب الاحتياج والأعراض والنتايج، وأي منع طبي له سبب منفصل. الأهم نمط متوازن تقدر تكرره من غير حرمان مؤذٍ. [2, 9]",
+            "en": "There is no evidence that one diet composition is best for every person with PCOS, and PCOS alone is not a reason to remove gluten. The amount, type and distribution of carbohydrate are tailored to needs, symptoms and results; any medical elimination needs its own indication. A balanced pattern that can be repeated without harmful restriction matters more. [2, 9]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل نزول الوزن يرجّع الدورة عند كل الحالات؟",
+            "en": "Will weight loss restore periods for everyone?"
+          },
+          "a": {
+            "ar": "ممكن إدارة الوزن تحسن بعض الأعراض عند ناس عندهم وزن أعلى، لكن الاستجابة مش مضمونة ومش كل شخص هدفه النزول. اضطراب الدورة قد يحتاج علاجاً مخصصاً وحماية لبطانة الرحم، فلا تنتظر نزول الوزن لو الدورة غايبة لفترة طويلة. القرار يتعمل مع الطبيب حسب الهدف وخطة الحمل. [2, 3, 4]",
+            "en": "Weight management may improve some features for people at a higher weight, but response is not guaranteed and loss is not everyone's goal. Irregular periods may need specific treatment and protection of the womb lining, so do not wait for weight loss when periods have been absent for a long interval. Decide with the clinician according to goals and pregnancy plans. [2, 3, 4]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل التكيس يمنع الحمل؟",
+            "en": "Does PCOS prevent pregnancy?"
+          },
+          "a": {
+            "ar": "التكيس ممكن يعطل التبويض ويصعّب الحمل، لكنه مش معناه إن الحمل مستحيل. التقييم يشمل التبويض وعوامل الخصوبة عند الطرفين، والعلاج يتحدد تحت إشراف طبيب النساء أو الخصوبة. ما تبدأش دواء أو مكمل لتحفيز التبويض من نفسك، خصوصاً مع احتمال حمل أو أدوية تانية. [2, 6, 7]",
+            "en": "PCOS can disrupt ovulation and make conception harder, but it does not mean pregnancy is impossible. Assessment covers ovulation and fertility factors in both partners, with treatment directed by a gynaecologist or fertility clinician. Do not start an ovulation medicine or supplement yourself, especially when pregnancy is possible or other medicines are used. [2, 6, 7]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO — Polycystic ovary syndrome",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome"
+        },
+        {
+          "label": "Teede et al. — Recommendations from the 2023 International Evidence-based Guideline for the Assessment and Management of PCOS (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37580861/"
+        },
+        {
+          "label": "ACOG — Polycystic Ovary Syndrome (PCOS)",
+          "url": "https://www.acog.org/womens-health/faqs/polycystic-ovary-syndrome-pcos"
+        },
+        {
+          "label": "Legro et al. — Diagnosis and Treatment of Polycystic Ovary Syndrome: Endocrine Society Clinical Practice Guideline (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5399492/"
+        },
+        {
+          "label": "NICHD — Polycystic Ovary Syndrome (PCOS)",
+          "url": "https://www.nichd.nih.gov/health/topics/pcos"
+        },
+        {
+          "label": "Office on Women's Health — Polycystic ovary syndrome",
+          "url": "https://womenshealth.gov/a-z-topics/polycystic-ovary-syndrome"
+        },
+        {
+          "label": "MedlinePlus — Polycystic Ovary Syndrome",
+          "url": "https://medlineplus.gov/polycysticovarysyndrome.html"
+        },
+        {
+          "label": "NIDDK — Insulin Resistance and Prediabetes",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance"
+        },
+        {
+          "label": "Parker et al. — Lifestyle interventions in women with PCOS: systematic review of randomised evidence (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35153107/"
+        },
+        {
+          "label": "Mayo Clinic — PMOS (formerly PCOS): symptoms and causes",
+          "url": "https://www.mayoclinic.org/diseases-conditions/pcos/symptoms-causes/syc-20353439"
+        },
+        {
+          "label": "Cleveland Clinic — PMOS (formerly PCOS): symptoms and treatment",
+          "url": "https://my.clevelandclinic.org/health/diseases/8316-polycystic-ovary-syndrome-pcos"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "تكيس المبايض والوزن: العلاقة والخطة المناسبة",
+          "en": "PCOS and weight: the link and a practical plan"
+        },
+        "description": {
+          "ar": "افهم علاقة تكيس المبايض بالوزن ومقاومة الإنسولين، وإزاي يتعمل التشخيص وخطة الأكل والحركة والعلاج والمتابعة من غير لوم أو حرمان.",
+          "en": "Understand how PCOS relates to weight and insulin resistance, and how diagnosis, food, movement, treatment and follow-up can be planned without blame."
+        }
+      }
+    }
+  ]
+}

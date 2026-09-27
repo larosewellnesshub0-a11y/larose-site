@@ -1,0 +1,287 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-breastfeeding-hunger; replaces the entry from content/articles.json. Expanded the short answer into an evidence-based bilingual guide to breastfeeding hunger, satisfying meals, gradual weight loss, milk-supply checks, supplements and postpartum red flags.",
+  "articles": [
+    {
+      "slug": "qa-breastfeeding-hunger",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": [
+        "clinical-nutrition"
+      ],
+      "date": "2026-08-04",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/qa-breastfeeding-hunger.webp",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسعت الإجابة بخطة عملية للجوع ونزول الوزن الآمن مع الرضاعة، واتراجعت طبياً من جديد.",
+            "en": "The answer was expanded with a practical plan for hunger and safe weight loss while breastfeeding, and was medically re-reviewed."
+          }
+        }
+      ],
+      "title": {
+        "ar": "برضع وجعانة طول الوقت وعايز أخس: أعمل إيه بأمان؟",
+        "en": "Breastfeeding, always hungry and want to lose weight: what is safe?"
+      },
+      "excerpt": {
+        "ar": "الجوع مع الرضاعة مفهوم ومش محتاج رجيم قاسي. اعرف إزاي تركب وجبات مشبعة، تنظم يومك، وتنزل الوزن بالتدريج مع متابعة صحتك ورضاعة طفلك.",
+        "en": "Hunger while breastfeeding is understandable and does not call for a harsh diet. Learn how to build satisfying meals, organise your day and approach weight loss gradually while monitoring your health and your baby's feeding."
+      },
+      "sections": [
+        {
+          "id": "why-hunger-feels-stronger",
+          "heading": {
+            "ar": "ليه الجوع مع الرضاعة ممكن يبقى أقوى؟",
+            "en": "Why can hunger feel stronger while breastfeeding?"
+          },
+          "body": {
+            "ar": "إحساس الجوع في فترة الرضاعة مش دليل إنك ضعيف الإرادة، ومش معناه تلقائياً إن فيه مشكلة. تكوين اللبن بيحتاج طاقة، والاحتياج بيختلف حسب سنك، وحركتك، ووزنك، وهل الرضاعة كاملة ولا مختلطة، ومرحلة ما بعد الولادة. مراكز مكافحة الأمراض الأمريكية بتذكر إن المرضع اللي تغذيتها كويسة قد تحتاج غالباً طاقة إضافية مقارنة بما قبل الحمل، لكن الرقم مش وصفة واحدة لكل الناس [1]. والمراجع الحديثة للاحتياجات الغذائية بتوضح إن كمية اللبن وعودة النشاط وإدخال أكل للطفل بعد كده كلهم بيغيروا الاحتياج مع الوقت [2].\n\nوفي الحياة اليومية، السبب مش فسيولوجي بس. نوم متقطع، رضاعة ليلية، وجبة اتأجلت عشان رعاية الطفل، أو يوم ما فيهوش غير قهوة وحاجة سريعة ممكن يخلوا الجوع يوصل لمرحلة شديدة. ساعات العطش كمان يتلخبط مع الجوع، وساعات الجسم فعلاً بيطلب أكل لأنه ماخدش كفايته. عشان كده البداية مش إنك تقاوم الإحساس أو تحسب كل لقمة؛ البداية إنك تلاحظ النمط: إمتى بيظهر الجوع، آخر وجبة كانت إيه، وهل شربت سوائل، ونمت قد إيه، وهل اليوم فيه مجهود زيادة.\n\nالجوع نفسه مش مقياس لكمية اللبن، والرضاعة مش ضمان لنزول الوزن بسرعة. جسم كل شخص بيتعامل مع الفترة دي بشكل مختلف. المطلوب خطة تحمي تغذيتك وتخلي الأكل متاح قبل ما توصل للجوع المرهق، وبعدين نراجع اتجاه الوزن والطاقة والرضاعة بدل الحكم من يوم واحد [1, 2].",
+            "en": "Feeling hungry while breastfeeding is not a failure of willpower, and it does not automatically mean something is wrong. Producing milk uses energy, while needs vary with age, activity, body size, whether feeding is exclusive or mixed, and the stage after birth. The US Centers for Disease Control and Prevention notes that a well-nourished breastfeeding parent will often need more energy than before pregnancy, but its estimate is not a single prescription for everyone [1]. Current dietary-reference guidance also explains that milk production, return to activity and the later introduction of complementary foods all change requirements over time [2].\n\nEveryday circumstances matter as much as physiology. Broken sleep, night feeds, a meal delayed while caring for the baby, or a day sustained by coffee and quick bites can allow hunger to become intense. Thirst may sometimes be mistaken for hunger, and sometimes the body genuinely needs food because too little was available. The first step is therefore not resisting the feeling or counting every mouthful. Notice the pattern: when hunger appears, what the last meal contained, whether you have had fluids, how much sleep was possible, and whether that day involved more exertion.\n\nHunger itself does not measure milk supply, and breastfeeding does not guarantee rapid weight loss. Bodies respond differently in this period. The useful goal is a plan that protects nutrition and makes food available before hunger becomes exhausting, followed by review of weight trend, energy and feeding rather than a judgement based on one day [1, 2]."
+          }
+        },
+        {
+          "id": "build-a-satisfying-day",
+          "heading": {
+            "ar": "ركّب يوم يشبعك من غير حرمان",
+            "en": "Build a satisfying day without deprivation"
+          },
+          "body": {
+            "ar": "مش لازم أكل الرضاعة يبقى قائمة خاصة أو أكلات غالية. الإرشادات العملية بتعتمد على تنوع عادي: خضار وفاكهة، مصدر نشويات، بروتين، وألبان أو بدائل مدعمة حسب ما يناسبك [3]. في الوجبة الرئيسية حاول تجمع بروتين زي البيض أو الفول أو العدس أو الدجاج أو السمك، مع عيش أو رز أو بطاطس أو شوفان، ومعاهم خضار أو فاكهة وكمية مناسبة من الدهون. التركيبة دي عادة أسهل في الشبع من وجبة أغلبها بسكوت أو عصير أو نشويات لوحدها.\n\nلو الجوع بيرجع بسرعة بعد الوجبة، ما تفترضش فوراً إنك محتاج تمنع النشويات. بص الأول على حجم الوجبة، والبروتين والألياف فيها، وسرعة الأكل والفاصل بين الوجبات. شرحنا الأسباب العامة بالتفصيل في موضوع الجوع بعد الأكل بسرعة؛ استخدمه كتكملة لو المشكلة موجودة حتى في أيام الرضاعة الهادية. المهم إن الرابط ده ما يلغيش إن الرضاعة نفسها بتزود احتياج الطاقة عند ناس كتير [1, 3].\n\nخلي فيه وجبة أو سناك سهل قريب من مكان الرضاعة: زبادي مع فاكهة، ساندوتش جبنة أو بيض، حمص مع خضار وعيش، أو ثمرة فاكهة مع حفنة مكسرات لو مناسبة ليك. حضّر مكونين أو تلاتة بكميات تكفي يومين بدل طبخ وجبة مختلفة كل مرة. ولو الأسرة هتساعد، اطلب أكلاً جاهزاً متوازناً أو وقتاً هادئاً تاكل فيه. ده دعم عملي، مش رفاهية، لأن تأجيل الأكل طول اليوم غالباً بينتهي بجوع قوي واختيارات سريعة بالليل [3, 4].",
+            "en": "Breastfeeding food does not need to be a special menu or an expensive collection of products. Practical guidance rests on ordinary variety: fruit and vegetables, a carbohydrate source, protein, and dairy or fortified alternatives according to what suits you [3]. At a main meal, combine a protein such as eggs, beans, lentils, chicken or fish with bread, rice, potatoes or oats, plus vegetables or fruit and an appropriate amount of fat. That combination is generally easier to find satisfying than a meal made mostly from biscuits, juice or carbohydrate on its own.\n\nIf hunger returns soon after eating, do not assume that carbohydrates must be removed. First look at meal size, its protein and fibre, eating pace and the time between meals. We cover the broader reasons in hungry soon after eating; use that as a companion if the same problem occurs even on calmer breastfeeding days. That handoff does not change the fact that lactation itself increases energy needs for many people [1, 3].\n\nKeep an easy meal or snack near the usual feeding place: yoghurt with fruit, an egg or cheese sandwich, hummus with vegetables and bread, or fruit with a small handful of nuts if suitable. Prepare two or three components that last for a couple of days instead of expecting a different cooked meal each time. If family members want to help, ask for a balanced ready meal or protected time to eat it. That is practical support, not a luxury, because postponing food all day often ends in intense hunger and rushed choices at night [3, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الجوع بعد الأكل بسرعة",
+                "url": "../articles/qa-hungry-soon-after-meal.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "hungry soon after eating",
+                "url": "../articles/qa-hungry-soon-after-meal.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fluids-caffeine-and-food-rules",
+          "heading": {
+            "ar": "المياه والقهوة: بلاش قواعد مبالغ فيها",
+            "en": "Fluids and coffee: avoid exaggerated rules"
+          },
+          "body": {
+            "ar": "اشرب حسب عطشك وخلي المياه في متناولك، خصوصاً عند مكان الرضاعة. مافيش داعي تجبر نفسك على كميات ضخمة أو تعتبر كل رضعة محتاجة زجاجة كاملة؛ الهدف إن البول ما يبقاش غامق بشكل مستمر وإنك ما تحسش بعطش أو دوخة بسبب قلة السوائل. الشوربة واللبن والفواكه والخضار بيساهموا في السوائل كمان. ولو الجو حر أو الحركة أكتر أو عندك قيء أو إسهال، الاحتياج بيتغير ويحتاج اهتمام أكبر [3, 4].\n\nالقهوة مش ممنوعة تلقائياً. الـCDC بيذكر إن الكافيين بيوصل للبن بكميات صغيرة، وإن الاستهلاك المنخفض أو المتوسط غالباً ما يعملش مشكلة؛ لكنه كمان ينبه إن الرضيع الأصغر أو المولود بدري بيتخلص من الكافيين أبطأ، وإن العصبية أو النوم المضطرب عند الطفل بعد استهلاك كبير يستحقوا تقليل الكمية ومناقشة المختص [1]. احسب الشاي والقهوة والمشروبات الغازية ومشروبات الطاقة والشوكولاتة مع بعض بدل ما تحسب القهوة وحدها.\n\nمش لازم تمنع البقول أو البهارات أو أكلات كاملة لمجرد إنك بترضع. الإرشادات بتشجع نظاماً متنوعاً، ومش بتنصح بقائمة منع عامة لكل المرضعات [1, 3]. لو لاحظت نمطاً واضحاً ومتكرراً عند الطفل بعد طعام معين، سجّل التوقيت والعرض وكلم طبيب الأطفال بدل منع مجموعات كاملة عشوائياً. الحرمان الواسع ممكن يصعّب تغطية احتياجاتك ويزود انشغالك بالأكل من غير ما يثبت السبب. وأي حساسية شديدة أو صعوبة تنفس عند الطفل حالة عاجلة، مش تجربة حذف منزلي.",
+            "en": "Drink to thirst and keep water within reach, especially where feeds usually happen. There is no need to force enormous volumes or assume every feed requires a whole bottle. The practical aim is to avoid persistently dark urine, marked thirst or dizziness from too little fluid. Soup, milk, fruit and vegetables contribute fluid too. Hot weather, greater activity, vomiting or diarrhoea can increase needs and deserve closer attention [3, 4].\n\nCoffee is not automatically forbidden. The CDC states that caffeine reaches breast milk in small amounts and that low-to-moderate intake usually does not cause a problem. It also notes that younger or premature infants clear caffeine more slowly, and that infant irritability or disturbed sleep following high intake is a reason to reduce it and discuss the pattern with a professional [1]. Count tea, coffee, cola, energy drinks and chocolate together rather than counting coffee alone.\n\nThere is no need to remove pulses, spices or whole groups of food merely because you are breastfeeding. Guidance encourages a varied diet and does not recommend a universal exclusion list for breastfeeding parents [1, 3]. If a clear and repeated pattern seems to follow one food, record the timing and symptom and speak with the baby's clinician instead of removing several groups at random. Broad restriction can make your own needs harder to meet and increase anxiety around eating without proving the cause. A severe allergic reaction or breathing difficulty in the baby requires urgent care, not a home elimination experiment."
+          }
+        },
+        {
+          "id": "gradual-weight-loss",
+          "heading": {
+            "ar": "إزاي تخس بالتدريج من غير رجيم قاسي؟",
+            "en": "How can weight loss be gradual rather than harsh?"
+          },
+          "body": {
+            "ar": "لو هدفك تنزل وزن، ابدأ بعد ما حالتك بعد الولادة والرضاعة يبقوا مستقرين، وبالتنسيق مع الطبيب لو الولادة قريبة أو كان فيها مضاعفات. ما تحوّلش الرضاعة لسباق مع الميزان. الإرشادات الغذائية الحديثة بتتعامل مع الاحتياج كرقم فردي يتراجع مع اتجاه الوزن وكمية الرضاعة والنشاط، مش كحد ثابت لكل شخص [2]. والـNHS بينصح بأكل متوازن وحركة معتدلة كطريق عملي لنزول الوزن بعد الولادة، مع إبلاغ أي برنامج إنك بترضع [4].\n\nبدل قطع وجبات أو صيام طويل، اختار تغييراً صغيراً تقدر تكرره: نظم وجبتين أساسيتين على الأقل، قلل المشروبات السكرية اللي مش بتشبع، زود بروتيناً أو خضاراً في الوجبة، وجهز سناك قبل وقت الجوع المعتاد. راقب الاتجاه على أسابيع، لأن السوائل والنوم والإمساك والدورة لما ترجع ممكن يغيروا رقم الميزان من يوم ليوم. جودة طاقتك وقدرتك على الحركة والرضاعة مؤشرات مهمة جنب الوزن.\n\nالحركة تبدأ على قد التعافي. مراكز مكافحة الأمراض بتعتبر النشاط المتوسط مناسباً لمعظم الأصحاء بعد الولادة، وبتقترح الوصول تدريجياً إلى مجموع 150 دقيقة أسبوعياً، ويمكن تقسيمها لفترات قصيرة [5]. مش لازم تبدأ بالرقم كامل؛ مشي هادي عشر دقايق أو تمارين التعافي اللي وافق عليها طبيبك بداية محترمة. لو عندك ألم متزايد، نزيف بيزيد، دوخة، مشكلة في الجرح، أو مضاعفات حمل وولادة، وقف وراجع الطبيب قبل التصعيد [5, 10].",
+            "en": "If weight loss is a goal, begin when recovery and feeding are stable, with clinical input if the birth was recent or complicated. Do not turn breastfeeding into a race against the scale. Current dietary-reference guidance treats energy need as an individual estimate to review against weight trend, milk production and activity, not a fixed limit for everyone [2]. The NHS recommends balanced eating and moderate activity as a practical route after birth and advises telling any weight-management programme that you are breastfeeding [4].\n\nInstead of skipping meals or using long fasts, choose a small change you can repeat: establish at least two reliable main meals, reduce sugary drinks that do not satisfy hunger, add protein or vegetables to a meal, and prepare a snack before the usual hunger peak. Look at the trend over weeks. Fluid shifts, sleep, constipation and the return of menstrual cycles can all change scale weight from one day to the next. Energy, function and ability to continue feeding matter alongside weight.\n\nMovement should match recovery. The CDC considers moderate activity suitable for most healthy postpartum people and suggests building towards a weekly total of 150 minutes, which can be divided into short sessions [5]. You do not have to begin with the full target; a gentle ten-minute walk or clinician-approved recovery exercises are valid starting points. Stop and seek advice before progressing if pain increases, bleeding becomes heavier, dizziness develops, a wound is troublesome, or pregnancy and birth involved complications [5, 10]."
+          }
+        },
+        {
+          "id": "milk-supply-and-baby",
+          "heading": {
+            "ar": "اطمّن على الرضاعة من علامات الطفل، مش من إحساس الجوع",
+            "en": "Judge feeding by the baby’s signs, not by your hunger"
+          },
+          "body": {
+            "ar": "جوعك مش اختبار لكمية اللبن، وشكل الثدي أو كمية الشفط مرة واحدة مش حكم كفاية برضه. في الأسابيع الأولى، العلامات المفيدة تشمل سماع البلع، رضاعة متكررة، هدوء الطفل بعد رضعات كتير، وزيادة الوزن مع متابعة الطبيب، وعدد مناسب من الحفاضات المبلولة والبراز حسب العمر [6, 7]. الـCDC والـNHS بيأكدوا إن الالتصاق الجيد وتكرار تفريغ الثدي مهمين لاستمرار الإمداد، وإن القلق على الكمية يستحق مشاهدة رضعة كاملة بواسطة مختص رضاعة أو مقدم رعاية [6, 7].\n\nلو بدأت تقلل الأكل ولاحظت تعباً شديداً عندك، أو صعوبة واضحة في الرضاعة، أو الطفل مش بيسمع له بلع، أو بيفلت من الثدي باستمرار، أو وزنه مش ماشي في الاتجاه المتوقع، ما تزودش الحرمان. اطلب تقييماً للرضعة والنمو والخطة الغذائية. في أول أيام العمر، استمرار فقد الوزن بعد اليوم الخامس، قلة البول أو البراز عن المتوقع، الخمول أو الاصفرار أسباب للتواصل السريع مع طبيب الطفل [6]. الأرقام التفصيلية بتتغير مع عمر الطفل، عشان كده المتابعة أهم من حفظ رقم واحد لكل المراحل.\n\nما تبدأش حلبة أو أعشاب أو منتجات لزيادة اللبن من نفسك، وما تستبدلش مساعدة الرضاعة بمنتج. المشكلة ممكن تكون في الالتصاق أو تكرار الرضعات أو دواء أو مرض عند الأم أو الطفل [7]. وبرضه ما توقفش دواء موصوف فجأة؛ اعرض الأدوية والمكملات كلها على الطبيب والصيدلي عشان القرار يوازن علاجك مع الرضاعة. وللتفاصيل العامة عن الاختيار الآمن، اقرأ المكملات تتاخد لسبب واضح، مش كروتين للجميع [1, 7].",
+            "en": "Your hunger is not a test of milk volume, and neither breast appearance nor the amount expressed in one pumping session is enough to judge supply. In the early weeks, useful signs include hearing swallowing, frequent feeds, the baby appearing settled after many feeds, weight gain reviewed by a clinician, and age-appropriate wet and dirty nappies [6, 7]. Both the CDC and NHS emphasise effective attachment and regular milk removal, and advise having a whole feed observed by a lactation professional or healthcare provider when supply is a concern [6, 7].\n\nIf reducing food is followed by marked fatigue, obvious feeding difficulty, no audible swallowing, repeated loss of attachment or a weight trend that is not as expected, do not intensify restriction. Ask for assessment of the feed, growth and your nutrition plan. In the first days, continuing to lose weight after day five, fewer wet or dirty nappies than expected, unusual sleepiness or jaundice are reasons to contact the baby's clinician promptly [6]. Exact expectations change with age, so follow-up is more useful than memorising one number for every stage.\n\nDo not start fenugreek, herbs or milk-supply products on your own, and do not substitute a product for skilled feeding support. The underlying issue may be attachment, feeding frequency, a medicine, or illness in parent or baby [7]. Do not abruptly stop a prescribed medicine either; show all medicines and supplements to the clinician and pharmacist so the decision balances your treatment with feeding. For broader safety principles, see supplements should answer a clear need, not become a default [1, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "المكملات تتاخد لسبب واضح، مش كروتين للجميع",
+                "url": "../articles/supplements-are-targeted-not-a-default.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "supplements should answer a clear need, not become a default",
+                "url": "../articles/supplements-are-targeted-not-a-default.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "micronutrients-and-supplements",
+          "heading": {
+            "ar": "الفيتامينات مهمة، لكن الجرعة قرار فردي",
+            "en": "Micronutrients matter, but doses are individual"
+          },
+          "body": {
+            "ar": "تنوع الأكل هو الأساس، لكنه مش معناه إن كل شخص هيغطي كل احتياجه تلقائياً. أثناء الرضاعة بيزيد الاهتمام بعناصر زي اليود والكولين وفيتامين ب12 وفيتامين د، خصوصاً مع أكل نباتي كامل أو حساسية أو استبعاد مجموعات أكل أو مرض يؤثر على الامتصاص [1]. مصادر اليود تشمل الملح المدعم باليود وبعض الألبان والبيض والأسماك، لكن الكمية في الأكل واللبن بتختلف؛ والمعاهد الصحية الأمريكية بتوضح إن احتياج اليود في الرضاعة أعلى من احتياج البالغ العادي [8]. ده سبب للمراجعة، مش سبب لأخذ جرعات كبيرة عشوائياً.\n\nفيتامين د محتاج فصل بين احتياج الأم واحتياج الطفل. لبن الأم وحده عادة ما يوفرش للرضيع كل فيتامين د المطلوب، والمراجع الأمريكية بتوصي بمكمل للرضيع اللي بيرضع طبيعياً أو جزئياً من وقت مبكر، لكن المنتج والجرعة يتراجعوا مع طبيب الأطفال حسب البلد والحالة والتغذية الأخرى [9]. مكمل الأم مش بديل تلقائي عن خطة الطفل إلا لو الطبيب اختار نظاماً محدداً ومتابعاً.\n\nلو بتاكل نباتي كامل، أو عندك أنيميا سابقة، أو جراحة سمنة، أو مرض بالغدة أو الكلى، أو بتاخد أكتر من مكمل، اعمل مراجعة موجهة بدل باقة تحاليل ومكملات بلا هدف. الطبيب أو أخصائي التغذية يراجع الأكل، الأعراض، الدواء، وتحاليل لها داعي، وبعدين يحدد هل فيه مكمل فعلاً وإيه مدته. ما تجمعش مكمل رضاعة مع فيتامينات حمل ومنتج شعر من غير مراجعة الملصقات، لأن نفس العنصر ممكن يتكرر [1, 8, 9].",
+            "en": "Dietary variety is the foundation, but it does not mean every person automatically covers every requirement. During lactation, nutrients such as iodine, choline, vitamin B12 and vitamin D deserve particular attention, especially with a fully vegan pattern, allergy, exclusion of food groups or a condition affecting absorption [1]. Sources of iodine include iodised salt and some dairy foods, eggs and fish, but amounts in foods and breast milk vary. The US National Institutes of Health explains that iodine requirements during lactation exceed those of an ordinary adult [8]. That is a reason for review, not for taking a large dose at random.\n\nVitamin D requires a distinction between the parent's need and the baby's. Human milk alone usually does not provide all the vitamin D an infant requires, and US guidance recommends supplementation for exclusively or partly breastfed infants from early life. The product and dose should still be checked with the child's clinician according to country, health and other feeding [9]. A maternal supplement is not automatically a substitute for the baby's plan unless a clinician selects and monitors a specific approach.\n\nIf you eat a fully vegan diet, have a history of anaemia, bariatric surgery, thyroid or kidney disease, or use several supplements, seek a targeted review rather than a bundle of tests and products without a purpose. A clinician or dietitian can review food, symptoms, medicines and indicated tests, then decide whether a supplement is needed and for how long. Do not combine a lactation multivitamin, prenatal vitamins and a hair product without checking the labels, because the same nutrient may be repeated [1, 8, 9]."
+          }
+        },
+        {
+          "id": "when-to-get-help",
+          "heading": {
+            "ar": "إمتى الجوع والتعب يحتاجوا تقييماً؟",
+            "en": "When do hunger and fatigue need assessment?"
+          },
+          "body": {
+            "ar": "راجع طبيبك قريب لو الجوع اتغير فجأة أو جاي مع عطش وتبول زيادة، نزول وزن من غير قصد، خفقان أو رعشة، قيء أو إسهال مستمر، شحوب، دوخة متكررة، أو تعب بيعطلك عن رعاية نفسك والطفل. الأعراض دي مش معناها تشخيص بعينه، لكنها ممكن تفتح أسئلة عن سكر الدم، الغدة الدرقية، الأنيميا، العدوى، التغذية أو الصحة النفسية. التحاليل تتحدد بعد القصة والفحص، مش لأن كل مرضع جعانة محتاجة نفس الباقة.\n\nاطلب رعاية عاجلة لو فيه ألم صدر أو صعوبة تنفس، إغماء، صداع شديد أو مستمر مع زغللة، حرارة مع ألم بطن، ألم أو تورم في ساق واحدة، نزيف مفاجئ أو شديد مع دوخة أو سرعة ضربات القلب، أو أفكار بإيذاء نفسك أو الطفل. بعض مضاعفات الحمل والولادة ممكن تظهر بعد الرجوع للبيت، والـNHS بينصح بالتواصل الطبي الفوري مع العلامات دي [10]. ولو الطفل خامل بشكل غير معتاد، مش بيرضع، أو حفاضاته قلت، تواصل مع طبيب الأطفال بسرعة [6, 7].\n\nلو المشكلة الأساسية هي ترتيب الأكل والجوع مع هدف نزول وزن، تقدر تطلب حجز تقييم تغذية علاجية في العيادة. التقييم يراجع وقت الولادة والتعافي، نمط الرضاعة، يوم الأكل والنوم، الأدوية والمكملات، واتجاه الوزن، وبعدها يتفق معاك على خطوة قابلة للتنفيذ. القرار الفردي يفضل مع الطبيب المعالج وطبيب الطفل عند الحاجة، خصوصاً لو فيه مرض مزمن أو قلق على النمو أو اللبن. الهدف مش وعد برقم على الميزان؛ الهدف خطة واقعية تحمي صحتك والرضاعة [1, 2, 6].",
+            "en": "Arrange a clinical review soon if hunger changes suddenly or comes with marked thirst and urination, unintentional weight loss, palpitations or tremor, persistent vomiting or diarrhoea, pallor, repeated dizziness, or fatigue that prevents ordinary care of yourself and the baby. These symptoms do not point to one diagnosis, but they may raise questions about blood glucose, thyroid function, anaemia, infection, nutrition or mental health. Tests should follow the history and examination; every hungry breastfeeding parent does not need the same panel.\n\nSeek urgent care for chest pain or difficulty breathing, fainting, a severe or persistent headache with visual change, fever with abdominal pain, pain or swelling in one leg, sudden or heavy bleeding with dizziness or a racing heartbeat, or thoughts of harming yourself or the baby. Some pregnancy and birth complications can appear after returning home, and the NHS advises immediate medical contact for these warning signs [10]. If the baby is unusually sleepy, not feeding, or producing fewer wet nappies, contact the baby's clinician promptly [6, 7].\n\nIf the main concern is organising food and hunger while working towards weight loss, you can request a clinical nutrition assessment at the clinic. The assessment can review time since birth and recovery, feeding pattern, food and sleep routine, medicines and supplements, and the weight trend before agreeing a manageable next step. Individual decisions remain with the treating clinician and the baby's clinician when needed, especially with chronic illness or concern about growth or milk intake. The goal is not a promised scale number; it is a realistic plan that protects health and feeding [1, 2, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حجز تقييم تغذية علاجية",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a clinical nutrition assessment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الجوع المستمر مع الرضاعة طبيعي؟",
+            "en": "Is constant hunger normal while breastfeeding?"
+          },
+          "a": {
+            "ar": "زيادة الجوع ممكن تكون مفهومة لأن تكوين اللبن بيستخدم طاقة، خصوصاً مع رضاعة كاملة ونوم متقطع ووجبات متأخرة. لكن كلمة «طبيعي» تعتمد على الدرجة والأعراض المصاحبة. لو الجوع جديد وشديد أو مع عطش وتبول زيادة، خفقان، رعشة، نزول وزن من غير قصد أو تعب معطل، راجع الطبيب بدل ما تفترض إنه من الرضاعة بس [1, 2, 10].",
+            "en": "More hunger can be understandable because milk production uses energy, especially with exclusive feeding, broken sleep and delayed meals. Whether it is normal depends on severity and accompanying symptoms. New, intense hunger with marked thirst and urination, palpitations, tremor, unintentional weight loss or disabling fatigue deserves clinical review rather than being attributed to breastfeeding alone [1, 2, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الرجيم القاسي يقلل اللبن؟",
+            "en": "Can a harsh diet reduce milk supply?"
+          },
+          "a": {
+            "ar": "الحرمان الشديد مش طريقة موصى بيها، لأنه يصعّب تغطية طاقتك وعناصرك وقد يزود التعب. تأثير أي خطة على الرضاعة يتراجع من علامات الطفل والنمو وتكرار الرضعات، مش من الإحساس وحده. اختار تعديلات تدريجية، ولو فيه قلق على اللبن أو الوزن خلي مختص يشوف رضعة كاملة ويراجع أكلك [2, 6, 7].",
+            "en": "Severe restriction is not recommended because it makes energy and nutrient needs harder to meet and may worsen fatigue. The effect of any plan on feeding should be judged from the baby's signs, growth and feeding frequency, not from sensation alone. Use gradual changes, and if supply or growth is a concern, have a professional observe a whole feed and review your intake [2, 6, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم آكل أكل معين عشان اللبن يبقى مغذي؟",
+            "en": "Do I need special foods to make breast milk nutritious?"
+          },
+          "a": {
+            "ar": "مش محتاج قائمة سحرية أو طعام واحد. الأساس أكل متنوع فيه خضار وفاكهة ونشويات وبروتين ومصادر دهون مناسبة، مع مراجعة عناصر معينة حسب نظامك وحالتك. الأكل النباتي الكامل أو استبعاد مجموعات كبيرة يحتاج اهتماماً أكبر بفيتامين ب12 والحديد واليود وعناصر تانية مع مختص [1, 3, 8].",
+            "en": "There is no magic menu or single food. The foundation is a varied pattern containing fruit and vegetables, carbohydrates, protein and suitable fat sources, with selected nutrients reviewed according to your health and eating pattern. A fully vegan diet or broad food exclusion calls for closer attention to vitamin B12, iron, iodine and other nutrients with professional guidance [1, 3, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل شرب مياه أكتر يزوّد اللبن؟",
+            "en": "Will drinking more water increase milk supply?"
+          },
+          "a": {
+            "ar": "اشرب حسب العطش وخلي المياه متاحة، لكن إجبار نفسك على كميات ضخمة مش بديل عن رضعات متكررة والتصاق جيد. لو فيه قلق على الإمداد، راجع عدد الرضعات والبلع والحفاضات والنمو مع مختص. القيء أو الإسهال أو الحر الشديد ممكن يزودوا احتياج السوائل ويحتاجوا تعويضاً مناسباً [4, 6, 7].",
+            "en": "Drink to thirst and keep water available, but forcing very large amounts is not a substitute for frequent feeds and effective attachment. If supply is a concern, review feeding frequency, swallowing, nappies and growth with a professional. Vomiting, diarrhoea or very hot weather can increase fluid needs and may require appropriate replacement [4, 6, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل القهوة ممنوعة في الرضاعة؟",
+            "en": "Is coffee forbidden while breastfeeding?"
+          },
+          "a": {
+            "ar": "لأ، مش ممنوعة تلقائياً. الكافيين بيمر للبن بكميات صغيرة، والاستهلاك المنخفض أو المتوسط غالباً ما يعملش مشكلة. راقب مجموع القهوة والشاي والكولا ومشروبات الطاقة والشوكولاتة، وقلل لو الطفل بقى عصبي أو نومه اتأثر، خصوصاً لو مولود بدري أو لسه صغير جداً [1].",
+            "en": "No, it is not automatically forbidden. Caffeine passes into milk in small amounts, and low-to-moderate intake usually does not cause a problem. Consider the total from coffee, tea, cola, energy drinks and chocolate, and reduce it if the baby becomes irritable or sleeps poorly, especially when premature or very young [1]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل آخد فيتامينات الحمل طول الرضاعة؟",
+            "en": "Should I continue prenatal vitamins throughout breastfeeding?"
+          },
+          "a": {
+            "ar": "القرار مش واحد لكل الناس. الاحتياج يتأثر بأكلك، الأنيميا أو النقص السابق، الأمراض والأدوية، وتركيبة المنتج. راجع الملصق مع الطبيب أو أخصائي التغذية، وما تجمعش منتجات متعددة فيها نفس العناصر. اليود وفيتامين د مثالان مهمان، لكن جرعة الأم وخطة مكمل الطفل قراران منفصلان [1, 8, 9].",
+            "en": "The decision is not identical for everyone. It depends on diet, previous anaemia or deficiency, health conditions, medicines and the product's contents. Review the label with a clinician or dietitian and do not combine several products that repeat the same nutrients. Iodine and vitamin D are important examples, but the parent's dose and the baby's supplement plan are separate decisions [1, 8, 9]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "CDC — Maternal Diet and Breastfeeding",
+          "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html"
+        },
+        {
+          "label": "National Academies via NCBI Bookshelf — Applications of the Dietary Reference Intakes for Energy",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK591020/"
+        },
+        {
+          "label": "NHS — What to Eat and Drink When Breastfeeding",
+          "url": "https://www.nhs.uk/best-start-in-life/baby/feeding-your-baby/breastfeeding/healthy-diet-when-breastfeeding/what-to-eat-and-drink-when-breastfeeding/"
+        },
+        {
+          "label": "NHS — Keeping Fit and Healthy With a Baby",
+          "url": "https://www.nhs.uk/baby/support-and-services/keeping-fit-and-healthy-with-a-baby/"
+        },
+        {
+          "label": "CDC — Pregnant and Postpartum Activity: An Overview",
+          "url": "https://www.cdc.gov/physical-activity-basics/guidelines/healthy-pregnant-or-postpartum-women.html"
+        },
+        {
+          "label": "CDC — Newborn Breastfeeding Basics",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/newborn-basics.html"
+        },
+        {
+          "label": "NHS — Breastfeeding: Is My Baby Getting Enough Milk?",
+          "url": "https://www.nhs.uk/baby/breastfeeding-and-bottle-feeding/breastfeeding-problems/enough-milk/"
+        },
+        {
+          "label": "NIH Office of Dietary Supplements — Iodine: Health Professional Fact Sheet",
+          "url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+        },
+        {
+          "label": "NIH Office of Dietary Supplements — Vitamin D: Health Professional Fact Sheet",
+          "url": "https://ods.od.nih.gov/factsheets/VITAMIND/HealthProfessional/"
+        },
+        {
+          "label": "NHS — Your Body After the Birth",
+          "url": "https://www.nhs.uk/pregnancy/labour-and-birth/your-body/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "الجوع مع الرضاعة",
+          "تغذية الرضاعة",
+          "نزول الوزن بعد الولادة",
+          "دكتور تغذية علاجية"
+        ],
+        "en": [
+          "breastfeeding hunger",
+          "breastfeeding nutrition",
+          "postpartum weight loss",
+          "clinical nutrition"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "الجوع مع الرضاعة ونزول الوزن بأمان",
+          "en": "Breastfeeding Hunger and Safe Weight Loss"
+        },
+        "description": {
+          "ar": "دليل عملي للجوع مع الرضاعة الطبيعية: وجبات مشبعة، نزول وزن تدريجي، علامات كفاية اللبن، والمكملات والأعراض اللي تحتاج مراجعة.",
+          "en": "A practical guide to breastfeeding hunger, satisfying meals, gradual weight loss, milk-supply signs, supplements and symptoms needing review."
+        }
+      }
+    }
+  ]
+}

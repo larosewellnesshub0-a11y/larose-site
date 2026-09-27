@@ -1,0 +1,315 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of tip-ultrasound-prep-card; replaces the entry from content/articles.json. Expanded the short tip into an evidence-based bilingual preparation-card guide with exam-specific fasting, fluid, medicine, diabetes, troubleshooting, red-flag and booking guidance.",
+  "articles": [
+    {
+      "slug": "tip-ultrasound-prep-card",
+      "type": "tip",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology"
+      ],
+      "date": "2026-09-04",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/tip-ultrasound-prep-card.webp",
+      "title": {
+        "ar": "كارت تحضير سونار البطن: الصيام والمياه والأدوية",
+        "en": "Ultrasound preparation card: fasting, water and medicines"
+      },
+      "excerpt": {
+        "ar": "اعمل كارت لتحضير سونار البطن وسجّل نوع الفحص، وقت الصيام، تعليمات المياه والمثانة، والأدوية. التعليمات بتختلف، فامشِ على رسالة حجزك واسأل لو حاجة مش واضحة.",
+        "en": "Make an abdominal ultrasound preparation card recording the exact scan, fasting time, water and bladder instructions, and medicines. Instructions vary, so follow your appointment message and ask about anything unclear."
+      },
+      "faq": [
+        {
+          "q": {
+            "ar": "أصوم كام ساعة قبل سونار البطن؟",
+            "en": "How many hours should I fast before an abdominal ultrasound?"
+          },
+          "a": {
+            "ar": "مفيش رقم واحد لكل الفحوص. بعض الجهات بتطلب عدة ساعات لأعلى البطن، ومصادر موثوقة بتعرض مدد مختلفة حسب العضو والبروتوكول، وفحوص تانية ممكن ما تحتاجش صيام. اكتب المدة في رسالة حجزك ووقت آخر أكل. لو الرسالة مش واضحة، اتصل بالمكان بدل ما تختار رقماً من الإنترنت. ما تمددش الصيام من نفسك، خصوصاً لو عندك سكر أو حالة بتتأثر بتأخير الأكل. [1, 2, 4, 5, 9, 10]",
+            "en": "There is no single duration for every scan. Some facilities request several hours for upper-abdominal imaging, authoritative sources describe different windows according to the organ and protocol, and other scans may need no fasting. Record the duration in your appointment message and last meal time. If unclear, call the facility instead of choosing an online number. Do not extend a fast independently, especially with diabetes or a condition affected by delayed meals. [1, 2, 4, 5, 9, 10]"
+          }
+        },
+        {
+          "q": {
+            "ar": "ينفع أشرب مياه وأنا صايم للسونار؟",
+            "en": "Can I drink water while fasting for an ultrasound?"
+          },
+          "a": {
+            "ar": "الإجابة بتعتمد على الفحص. جهات كتير بتسمح بالمياه أو برشفة مع الدواء، بينما فحص الحوض أو المسالك ممكن يطلب كمية محددة عشان المثانة تتملي. اكتب هل المياه مسموحة، الكمية والتوقيت، وهل المطلوب ما تدخلش الحمام. العصير واللبن والقهوة مش بديل تلقائي. اسأل قبل الميعاد لو التعليمات مش واضحة. [3, 4, 5, 6, 9]",
+            "en": "It depends on the examination. Many services allow water or a sip with medicine, while a pelvic or urinary scan may request a specified amount so the bladder fills. Record whether water is allowed, the volume and timing, and whether to avoid urinating. Juice, milk and coffee are not automatic substitutes. Ask before the appointment if directions are unclear. [3, 4, 5, 6, 9]"
+          }
+        },
+        {
+          "q": {
+            "ar": "أوقف أدوية الضغط أو القلب أو الغدة؟",
+            "en": "Should I stop blood-pressure, heart or thyroid medicines?"
+          },
+          "a": {
+            "ar": "ما توقفش دواء موصوف ولا تغيّر ميعاده من نفسك. بعض التعليمات بتسمح بالأدوية المعتادة مع مياه قليلة، بس النصيحة الشخصية لازم تيجي من الطبيب أو مكان الفحص عشان الدواء وحالتك ونوع السونار بيفرقوا. اكتب أسماء الأدوية ومواعيدها واسأل: آخد جرعة الصبح إمتى وبكام مياه؟ سجل الإجابة بدل الاعتماد على الذاكرة. [4, 5, 6, 11]",
+            "en": "Do not stop prescribed medicine or change its timing independently. Some instructions allow usual medicines with a small amount of water, but personal advice must come from your clinician or facility because the medicine, condition and scan type matter. List medicine names and times, then ask when to take the morning dose and with how much water. Record the answer rather than relying on memory. [4, 5, 6, 11]"
+          }
+        },
+        {
+          "q": {
+            "ar": "أعمل إيه لو عندي سكر وطلبوا صيام؟",
+            "en": "What should I do if I have diabetes and was asked to fast?"
+          },
+          "a": {
+            "ar": "بلّغ مكان الفحص قبل الميعاد واطلب خطة للأكل والمياه ودواء السكر أو الإنسولين؛ ما تخمّنش تعديل الجرعة. تأخير الوجبة مع بعض الأدوية ممكن يعمل هبوطاً، وأعراضه تشمل الرعشة والعرق والدوخة والجوع أو اللخبطة. اتبع خطة علاج الهبوط اللي فريقك شارحها. لو حصل هبوط أو الصيام بقى غير آمن، عالج سلامتك الأول وبلّغ المكان إن التحضير اتغير. [11, 12]",
+            "en": "Tell the facility beforehand and request a plan for food, water, diabetes tablets or insulin; do not guess a dose adjustment. Delaying a meal with certain medicines can cause hypoglycaemia, with shaking, sweating, dizziness, hunger or confusion. Follow your team's hypo plan. If a hypo occurs or fasting becomes unsafe, address immediate safety first and tell the facility that preparation changed. [11, 12]"
+          }
+        },
+        {
+          "q": {
+            "ar": "لو أكلت أو دخلت الحمام بالغلط، ألغي؟",
+            "en": "If I ate or used the toilet by mistake, should I cancel?"
+          },
+          "a": {
+            "ar": "ما تعملش إلغاء للميعاد ولا تخبي اللي حصل، وما تصلحوش بصيام أطول أو شرب سريع. اتصل بالمكان وقل نوع الفحص وميعاده، وإمتى أكلت أو شربت أو دخلت الحمام. القرار بيعتمد على العضو والبروتوكول وقدرة الفريق على صور مفيدة. لو اكتشفت بعد الوصول، قول للفاحص قبل البداية؛ المعلومة الصريحة أحسن من صورة محدودة من غير سبب معروف. [2, 3, 6, 9, 10]",
+            "en": "Do not cancel silently, hide what happened, or compensate with a longer fast or rapid drinking. Call the facility, state the examination and appointment time, and explain when you ate, drank or used the toilet. The decision depends on the organ, protocol and whether useful images remain possible. If you realise after arrival, tell the examiner before starting; accurate information is better than an unexplained limitation. [2, 3, 6, 9, 10]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "RadiologyInfo.org — Abdominal Ultrasound",
+          "url": "https://www.radiologyinfo.org/en/info/abdominus"
+        },
+        {
+          "label": "RadiologyInfo.org — How to Prepare for Your Ultrasound Exam",
+          "url": "https://www.radiologyinfo.org/en/info/how-to-prepare-for-us-exam"
+        },
+        {
+          "label": "NHS — Ultrasound scan",
+          "url": "https://www.nhs.uk/tests-and-treatments/ultrasound-scan/"
+        },
+        {
+          "label": "Mayo Clinic — Abdominal ultrasound",
+          "url": "https://www.mayoclinic.org/tests-procedures/abdominal-ultrasound/about/pac-20392738"
+        },
+        {
+          "label": "Johns Hopkins Medicine — Abdominal Ultrasound",
+          "url": "https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/abdominal-ultrasound"
+        },
+        {
+          "label": "Cleveland Clinic — Abdominal Ultrasound",
+          "url": "https://my.clevelandclinic.org/health/diagnostics/4994-abdominal-ultrasound"
+        },
+        {
+          "label": "MedlinePlus — Ultrasound",
+          "url": "https://medlineplus.gov/lab-tests/sonogram/"
+        },
+        {
+          "label": "US Food and Drug Administration — Ultrasound Imaging",
+          "url": "https://www.fda.gov/radiation-emitting-products/medical-imaging/ultrasound-imaging"
+        },
+        {
+          "label": "Chelsea and Westminster Hospital NHS Foundation Trust — General ultrasound examinations",
+          "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/imaging/general-ultrasound-examinations"
+        },
+        {
+          "label": "Cambridge University Hospitals NHS Foundation Trust — Ultrasound Department",
+          "url": "https://www.cuh.nhs.uk/our-services/imaging-radiology/ultrasound/"
+        },
+        {
+          "label": "Norfolk and Norwich University Hospitals NHS Foundation Trust — Ultrasound scan information",
+          "url": "https://www.nnuh.nhs.uk/publication/download/ultrasound-scan-information-v8/"
+        },
+        {
+          "label": "NHS — Low blood sugar (hypoglycaemia)",
+          "url": "https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/"
+        },
+        {
+          "label": "NHS — Stomach ache",
+          "url": "https://www.nhs.uk/symptoms/stomach-ache/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "تحضير السونار",
+          "سونار البطن",
+          "الصيام",
+          "دكتور جهاز هضمي"
+        ],
+        "en": [
+          "ultrasound preparation",
+          "abdominal ultrasound",
+          "fasting",
+          "gastroenterology consultation"
+        ]
+      },
+      "sections": [
+        {
+          "id": "card-not-memory",
+          "heading": {
+            "ar": "ليه كارت التحضير أحسن من قاعدة محفوظة؟",
+            "en": "Why is a preparation card better than a memorised rule?"
+          },
+          "body": {
+            "ar": "مفيش تعليمة واحدة تنفع لكل فحوص السونار. سونار أعلى البطن ممكن يحتاج ترتيب للأكل، وفحص الحوض أو المسالك ممكن يحتاج مثانة مليانة، وفحص تاني ممكن ما يحتاجش تحضير خاص. المصادر الطبية بتوضح إن التحضير بيتغير حسب المنطقة اللي هتتصور والسؤال الطبي. عشان كده رسالة حجزك هي المرجع العملي، مش تجربة قريب أو منشور عام. الكارت بيحوّل الرسالة لخطوات تقدر تراجعها بدل ما تعتمد على الذاكرة. [1, 2, 3, 6, 7]\n\nاكتب في أول سطر اسم الفحص زي ما هو في الطلب، وتاريخ ووقت الميعاد، واسم المكان ورقم التواصل. اعمل بعده أربع خانات: آخر وقت للأكل، المياه والمثانة، الأدوية، والحاجات اللي هتاخدها. لو خانة مش واضحة، حط جنبها علامة سؤال واتصل قبل اليوم المحدد. ما تملأهاش بتخمين؛ الفرق بين «سونار بطن» و«بطن وحوض» ممكن يغيّر المطلوب. دليل سونار البطن والحوض بيوضح ليه اسم المنطقة والسؤال الطبي بيفرقوا في اللي الفحص يقدر يشوفه. [1, 3, 7]\n\nالكارت مش وصفة ومش بديل عن كلام الطبيب. هو بيمنع خلط تعليمات فحص قديم بالموعد الحالي. احتفظ بصورة منه على الموبايل. لو التعليمات جت بمكالمة، اكتب تاريخها والكلام اللي اتقال. كده لو حصل تعارض أو تأخير هتعرف تسأل سؤالاً محدداً بدل «أعمل إيه قبل السونار؟». [2, 3, 6]",
+            "en": "No single instruction fits every ultrasound. An upper-abdominal scan may require an eating plan, a pelvic or urinary scan may need a full bladder, and another ultrasound may require no special preparation. Medical sources explain that preparation changes with the body area and clinical question. Your appointment message is therefore the practical reference, not a relative's experience or a general post. A card turns that message into steps you can check instead of trusting memory. [1, 2, 3, 6, 7]\n\nOn the first line, copy the examination name exactly as it appears on the request, followed by the appointment date and time, facility name and contact number. Then make four boxes: last food time; water and bladder instructions; medicines; and items to bring. Put a question mark beside anything unclear and call before the scheduled day. Do not guess: the difference between “abdominal ultrasound” and “abdominal and pelvic ultrasound” may change what is required. The abdominal and pelvic ultrasound guide explains why the region and clinical question affect what can be seen. [1, 3, 7]\n\nThe card is not a prescription and does not replace clinical advice. It prevents old test directions from being mixed with this appointment. Keep a copy on your phone. If instructions arrive by telephone, record the date and what was said. If a conflict or delay occurs, you can ask a precise question instead of “What do I do before ultrasound?” [2, 3, 6]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل سونار البطن والحوض",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "abdominal and pelvic ultrasound guide",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "exact-exam",
+          "heading": {
+            "ar": "اكتب نوع الفحص الأول: بطن، حوض، مسالك ولا فحص مشترك؟",
+            "en": "Write the examination first: abdomen, pelvis, urinary tract or a combined scan"
+          },
+          "body": {
+            "ar": "قبل ما تكتب ساعات صيام أو كمية مياه، لازم تعرف إيه المطلوب يتشاف. فحص الكبد والمرارة والبنكرياس والطحال بيتعامل غالباً كفحص لأعلى البطن، ووجود الأكل أو الغازات ممكن يأثر على بعض الصور. فحص الحوض أو المثانة والمسالك له هدف مختلف، وممكن يعتمد على مثانة ممتلئة عشان تعمل نافذة صوتية تساعد الفاحص. بعض الطلبات بتجمع البطن والحوض، ووقتها ممكن تلاقي تعليمات للصيام والمياه مع بعض. ده مش تناقض؛ دول جزءان مختلفان في نفس الموعد. [1, 2, 7, 9, 10]\n\nانقل الصياغة كاملة من طلب الطبيب أو رسالة الحجز، وما تختصرش الاسم من نفسك. اكتب كمان سبب الفحص بكلمتين لو هو معروف، زي متابعة مرارة أو ألم في الخاصرة، عشان كلمة «سونار» بتغطي فحوص كتير. لو الطلب مش واضح أو الرسالة بتقول «سونار» بس، اسأل: الفحص لأعلى البطن؟ بيشمل الكلى والمثانة؟ بيشمل الحوض؟ التحضير فيه صيام أو مثانة مليانة أو الاتنين؟ الإجابات دي هي قلب الكارت. [1, 3, 6, 7]\n\nلو عايز شرحاً أوسع للصيام والمياه حسب سونار البطن، راجع دليل تحضير سونار البطن، بس ما تنقلش منه رقماً وتطبقه لو رسالة حجزك مختلفة. الصفحة دي بتساعدك تعمل كارت مضبوط وتسأل صح؛ الدليل الأطول بيشرح ليه العضو المطلوب ممكن يغيّر التحضير. [1, 2, 6]",
+            "en": "Before writing fasting hours or a water volume, identify what needs to be seen. Imaging the liver, gallbladder, pancreas and spleen is generally treated as an upper-abdominal examination, where food and bowel gas can affect some views. Pelvic, bladder or urinary imaging asks a different question and may rely on a full bladder as an acoustic window. Some requests combine abdomen and pelvis, so the instructions may include both fasting and water. That is not a contradiction; they address two components of one appointment. [1, 2, 7, 9, 10]\n\nCopy the complete wording from the clinician's request or appointment message rather than shortening it. If known, add the reason in a few words, such as gallbladder review or flank pain, because “ultrasound” covers many examinations. If the request is unclear or only says “ultrasound”, ask: Is this upper abdomen? Does it include kidneys and bladder? Does it include the pelvis? Does preparation require fasting, a full bladder, or both? Those answers form the centre of the card. [1, 3, 6, 7]\n\nFor a fuller explanation of abdominal fasting and water, use the abdominal-ultrasound preparation guide, but do not copy a number from it when your appointment message differs. This page helps you make an accurate card and ask the right questions; the longer guide explains why the target organ can change preparation. [1, 2, 6]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل تحضير سونار البطن",
+                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "abdominal-ultrasound preparation guide",
+                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "food-water-bladder",
+          "heading": {
+            "ar": "حوّل الصيام والمياه لأوقات واضحة",
+            "en": "Turn fasting, water and bladder directions into clear times"
+          },
+          "body": {
+            "ar": "كلمة «صيام» لوحدها ناقصة. اكتب الساعة اللي توقف عندها الأكل، وإيه المشروبات المسموحة، وهل التعليمات بتمنع كل السوائل ولا بتسمح بالمياه. المصادر بتعرض بروتوكولات مختلفة: فيه جهات بتطلب عدة ساعات من غير أكل لفحص أعلى البطن، وجهات بترتب الموضوع حسب ميعاد الصبح أو بعد الظهر، وفحوص تانية تحضيرها قليل أو مفيش. الاختلاف ده سبب إنك تمشي على تعليمات الجهة اللي هتعمل الفحص، مش تختار أطول مدة وتفتكر إنها أحسن. [1, 2, 4, 5, 6]\n\nلو المطلوب مثانة مليانة، اكتب وقت بداية الشرب والكمية اللي قالها المكان والوقت اللي ما تدخلش فيه الحمام. ما تستبدلش المياه تلقائياً بمشروب غازي أو لبن أو قهوة؛ المشروب ممكن ما يناسبش التعليمات. وما تشربش أكبر أو أسرع من المطلوب، خصوصاً لو عندك مشكلة بتحدد السوائل. لو المثانة بقت مؤلمة أو مش قادر تستحمل، اتصل أو بلّغ الاستقبال بدل ما تعاني. الهدف صورة مفيدة مع تحضير آمن تقدر تنفذه. [2, 3, 9, 10]\n\nاكتب وقت آخر وجبة وآخر مشروب فعلياً، مش الوقت اللي كنت ناوي توقف فيه. لو نسيت وأكلت أو شربت حاجة مختلفة، سجلها واتصل بالمكان. الفريق هو اللي يقرر الصور لسه ممكن تبقى مفيدة ولا الميعاد يحتاج تعديل. إخفاء المعلومة ممكن يخلي الصورة محدودة من غير تفسير؛ ذكرها بيساعد الفاحص يفهم الظروف. [1, 3, 6]",
+            "en": "The word “fasting” is incomplete by itself. Record the time food must stop, which drinks are allowed, and whether instructions restrict all fluids or permit water. Sources describe different protocols: some facilities request several hours without food for upper-abdominal imaging, some arrange preparation differently for morning and afternoon appointments, and other examinations need little or no preparation. This variation is a reason to follow the performing facility, not to choose the longest window because it seems better. [1, 2, 4, 5, 6]\n\nIf a full bladder is required, record when drinking begins, the specified amount and when to avoid the toilet. Do not automatically substitute fizzy drinks, milk or coffee for water; the drink may not fit the instructions. Do not consume more than requested or drink faster, particularly if a condition limits fluids. If bladder filling becomes painful or impossible to tolerate, call or tell reception instead of suffering. The aim is useful imaging with preparation you can complete safely. [2, 3, 9, 10]\n\nRecord the actual time of your last meal and drink, not the intended time. If you forget and eat or drink something different, note it and call. The team decides whether useful images remain possible or timing needs adjustment. Hiding the information can leave an unexplained limitation; stating it helps the examiner understand the conditions. [1, 3, 6]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "medicines-diabetes",
+          "heading": {
+            "ar": "الأدوية والسكر والظروف الخاصة",
+            "en": "Medicines, diabetes and special circumstances"
+          },
+          "body": {
+            "ar": "اكتب كل دواء مهم بتاخده قريب من وقت الفحص، خصوصاً الإنسولين وأدوية السكر والأدوية اللي لازم تتاخد مع أكل. ما توقفش أو تأجل دواء موصوف من نفسك. بعض المراكز بتسمح بالأدوية المعتادة مع رشفة مياه، بس تعليماتك الشخصية لازم تيجي من الطبيب أو مكان الفحص. اكتب قدام كل دواء: آخده كالمعتاد، أغيّر التوقيت بتوجيه طبي، ولا محتاج أكلم الفريق المعالج؟ [4, 5, 6, 11]\n\nلو عندك سكر، قول ده وقت الحجز مش بعد ما تبدأ الصيام. تأخير الوجبات ممكن يرفع احتمال هبوط السكر عند ناس بياخدوا الإنسولين أو بعض الأدوية. أعراض الهبوط ممكن تبقى جوعاً ورعشة وعرقاً ودوخة أو لخبطة. اطلب تنسيقاً واضحاً لموعد الفحص والأكل والعلاج، وخد معاك جهاز القياس وعلاج الهبوط المعتاد لو ده جزء من خطتك. لو ظهرت أعراض هبوط، سلامتك أهم من استكمال تحضير فحص روتيني؛ اتبع خطة علاجك وبلّغ المكان. [11, 12]\n\nاكتب كمان لو فيه حمل محتمل، طفل، صعوبة في بلع الأقراص من غير أكل، مرض كلى أو قلب مع تحديد سوائل، قسطرة بولية، أو احتياج دعم للحركة. التفاصيل دي ممكن تغيّر التنفيذ الآمن أو التوقيت، ومش صح تستنتج تعليماتها من بروتوكول شخص تاني. الأطفال ليهم مدد مختلفة، والحمل أو الحالة المزمنة محتاجين توجيهاً يناسب الشخص. [2, 3, 7, 10]",
+            "en": "List every important medicine taken near the examination time, especially insulin, glucose-lowering tablets and medicines that must be taken with food. Do not stop or delay a prescribed medicine independently. Some facilities allow usual medicines with a sip of water, but individual directions must come from your clinician or imaging facility. Write beside each medicine: take as usual; change timing under clinical advice; or contact the treating team? [4, 5, 6, 11]\n\nIf you have diabetes, disclose it when booking rather than after fasting begins. Delayed meals can increase hypoglycaemia risk for people using insulin or certain medicines. Symptoms may include hunger, shaking, sweating, dizziness or confusion. Request clear coordination of scan time, food and treatment. Bring your glucose monitor and usual hypo treatment if that is part of your care plan. If symptoms occur, immediate safety takes priority over routine preparation; follow your treatment plan and inform the facility. [11, 12]\n\nAlso record possible pregnancy, a child appointment, difficulty swallowing tablets without food, kidney or heart disease with fluid restriction, a urinary catheter, or mobility support needs. These details may change safe implementation or timing, and directions should not be inferred from another person's protocol. Children have different preparation windows, while pregnancy and chronic conditions need individual advice. [2, 3, 7, 10]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "day-of-scan",
+          "heading": {
+            "ar": "جهّز الملف واللبس وخطة يوم الفحص",
+            "en": "Prepare the records, clothing and day-of-scan plan"
+          },
+          "body": {
+            "ar": "حط مع الكارت طلب الفحص، والتقارير القديمة والصور لو متاحة، وقائمة الأدوية، وأي تحاليل مرتبطة. التقرير القديم بيدي فرصة للمقارنة بدل ما يتقري الفحص الجديد لوحده. اكتب العرض الأساسي، إمتى بدأ، وهل اتغير من وقت طلب السونار. ما تحتاجش ملفاً ضخماً؛ صفحة منظمة أحسن من أوراق كتير من غير ترتيب. التقرير بيرجع للطبيب اللي طلب الفحص عشان يربطه بالسبب والسياق. [1, 3, 5, 6]\n\nالبس حاجة مريحة وسهلة تكشف المنطقة المطلوبة، وسيب الحلي اللي ممكن تعطل الفحص. غالباً هتستلقي ويتحط جل على الجلد ويتحرك المسبار فوق البطن، وممكن الفاحص يطلب منك تغيّر وضعك أو تحبس النفس ثواني. السونار التشخيصي بيستخدم موجات صوتية ومش أشعة سينية؛ صفحة السونار بيستخدم موجات صوتية بتشرح الأمان والحدود من غير ما توسع موضوع التحضير هنا. لو الضغط على منطقة موجوعة سبب ألم، قول للفاحص فوراً. [1, 3, 6, 8]\n\nرتب وصولك بدري، وخد في حسابك إن المواعيد ممكن تتأخر. لو التأخير هيأثر على سكر الدم أو جرعة دواء أو قدرتك على حبس البول، كلم الاستقبال وما تستناش لحد ما الوضع يبقى غير آمن. بعد الفحص، اسأل هل تقدر ترجع للأكل والشرب والأدوية فوراً أو فيه فحص تاني محتاج استمرار التحضير. تعليمات المكان في يومك هي الحاسمة. [3, 5, 6]",
+            "en": "Keep the card with the imaging request, earlier reports and images if available, a medicine list, and relevant laboratory results. An older report allows comparison rather than leaving the new examination isolated. Add the main symptom, when it began and whether it changed after the ultrasound was requested. You do not need a huge folder; one organised page is more useful than many unsorted papers. The report returns to the requesting clinician for interpretation with the reason and context. [1, 3, 5, 6]\n\nWear comfortable clothing that makes the requested area accessible, and leave jewellery that may interfere at home. You will usually lie down while gel is applied and a probe moves over the abdomen; the examiner may ask you to change position or briefly hold your breath. Diagnostic ultrasound uses sound waves, not X-rays. The ultrasound uses sound waves page explains safety and limitations without expanding preparation here. Tell the examiner immediately if pressure over a tender area causes pain. [1, 3, 6, 8]\n\nPlan to arrive early and allow for possible delays. If a delay affects blood glucose, a medicine dose or your ability to hold urine, contact reception rather than waiting until the situation becomes unsafe. Afterward, ask whether food, drink and medicines can resume immediately or another scheduled test requires preparation to continue. The facility's instructions for your day remain decisive. [3, 5, 6]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "السونار بيستخدم موجات صوتية",
+                "url": "../articles/ultrasound-uses-sound-not-xrays.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "ultrasound uses sound waves",
+                "url": "../articles/ultrasound-uses-sound-not-xrays.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "mistakes-red-flags",
+          "heading": {
+            "ar": "لو التحضير اتلخبط أو فيه علامة خطر",
+            "en": "If preparation goes wrong or a warning sign appears"
+          },
+          "body": {
+            "ar": "لو طلب الطبيب ورسالة الحجز شكلهم مختلف، ما تختارش التعليمة الأشق. اتصل بالجهة اللي هتعمل الفحص، اقرأ اسم الطلب حرفياً، واسأل عن الأكل والمياه والمثانة والأدوية. سجل الإجابة وتاريخها. اختلاف البروتوكولات بين المراكز موجود، والجهة المنفذة هي اللي عارفة ترتيب فحصك. لو أكلت بالغلط، دخلت الحمام، أو ما قدرتش تشرب المطلوب، قول إيه اللي حصل وإمتى. الفريق هو اللي يقرر تكمل ولا يتعدل الوقت. [2, 3, 6, 9, 10]\n\nالكارت معمول لموعد روتيني وحالة مستقرة، مش عشان يأخر رعاية عاجلة. اطلب مساعدة عاجلة لو ألم البطن بدأ فجأة أو شديد، لو البطن بتوجع جداً مع اللمس، لو فيه قيء دم أو شكله زي تفل القهوة، براز أسود لزج أو دموي، عدم القدرة على التبول، عدم القدرة على إخراج براز أو غازات، صعوبة تنفس، ألم صدر، إغماء أو تدهور سريع. العلامات دي ما تستناش صياماً ولا سوناراً روتينياً. [13]\n\nلو عندك سكر وظهر رعشة أو عرق أو دوخة أو جوع شديد أو لخبطة، افحص السكر لو ده جزء من خطتك واتبع علاج الهبوط اللي شارحه لك فريقك. الهبوط الشديد أو فقدان الوعي طارئ. ما تكملش الصيام على حساب سلامتك، وما تديش شخص فاقد الوعي أكل أو شرب. بعد التعامل مع الخطر، بلّغ جهة الفحص إن التحضير اتغير. الألم اللي بيزيد أو ما بيروحش، فقدان وزن من غير قصد، أو نزيف متكرر محتاجين مراجعة طبية برضه. [12, 13]",
+            "en": "If the clinician's request and appointment message appear different, do not choose the most demanding instruction. Call the performing facility, read the request name exactly, and ask about food, water, bladder and medicines. Record the answer and date. Protocols vary, and the performing team knows its workflow. If you accidentally eat, use the toilet or cannot drink the requested amount, state what happened and when. The team decides whether to proceed or adjust the time. [2, 3, 6, 9, 10]\n\nThe card is for a routine appointment in a stable situation; it must not delay urgent care. Seek urgent help for sudden or severe abdominal pain, marked tenderness, vomiting blood or coffee-ground material, black sticky or bloody stool, inability to urinate, inability to pass stool or gas, breathing difficulty, chest pain, collapse or rapid deterioration. These signs should not wait for fasting or a routine scan. [13]\n\nIf you have diabetes and develop shaking, sweating, dizziness, intense hunger or confusion, check glucose if that is part of your plan and follow your team's hypo treatment. Severe hypoglycaemia or loss of consciousness is an emergency. Do not continue fasting at the expense of safety, and do not give food or drink to an unconscious person. Once the immediate risk is addressed, tell the facility that preparation changed. Worsening or persistent pain, unintentional weight loss or recurrent bleeding also needs medical review. [12, 13]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "next-step",
+          "heading": {
+            "ar": "راجع الكارت وخد الخطوة الجاية بهدوء",
+            "en": "Review the card and take the next step calmly"
+          },
+          "body": {
+            "ar": "قبل الليلة السابقة، راجع ست نقط: اسم الفحص، وقت الحضور، آخر وقت للأكل، المياه والمثانة، خطة الأدوية، والورق اللي هتاخده. حط علامة قدام كل نقطة مؤكدة، وسيب السؤال ظاهر لو لسه من غير إجابة. صباح الموعد سجل اللي حصل فعلاً. التحضير المنظم ممكن يساعد الفريق يطلع صوراً مفيدة، بس ما يضمنش نتيجة معينة وما يحوّلش السونار لفحص شامل لكل مشكلة. [1, 2, 3, 6]\n\nبعد الفحص، اسأل إمتى التقرير هيكون جاهز ومين هيراجعه معاك. احتفظ بالكارت والتقرير والصور القديمة مع بعض. ما توقفش دواء، تبدأ علاجاً، أو تعتبر النتيجة تشخيصاً نهائياً من نفسك. لو اتطلبت متابعة، اسأل عن الهدف والتوقيت والعلامات اللي تستدعي رجوعاً أسرع. [1, 5, 7, 8]\n\nلو محتاج تقييم أعراض بطن مستقرة أو مراجعة طلب السونار والتحضير، تقدر تستخدم طلب حجز موعد استشارة الجهاز الهضمي في العيادة. اكتب اسم الفحص، واذكر السكر أو دواء ممكن يتأثر بالصيام، عشان الفريق يوضح الخطوة المناسبة. الحجز مش بديل عن الطوارئ، والقرار النهائي عن الصيام والمياه والأدوية لازم يراعي حالتك وتعليمات الطبيب أو الجهة المنفذة. [1, 3, 6]",
+            "en": "Before the previous evening, review six points: examination name, arrival time, last food time, water and bladder directions, medicine plan, and records to bring. Tick every confirmed point and leave an unresolved question visible. On the morning, record what actually happened. Organised preparation can help the team obtain useful images, but it cannot guarantee a result or make ultrasound a comprehensive test for every problem. [1, 2, 3, 6]\n\nAfter the examination, ask when the report will be available and who will review it with you. Keep the card, report and earlier images together. Do not independently stop medicine, start treatment or treat the result as a final diagnosis. If follow-up is recommended, ask about its purpose, timing and signs that mean returning sooner. [1, 5, 7, 8]\n\nIf you need assessment of stable abdominal symptoms or review of the ultrasound request and preparation, you can request a gastroenterology consultation at the clinic. Include the examination name, and mention diabetes or medicine that fasting could affect so the team can clarify the appropriate next step. Booking is not an alternative to emergency care, and final decisions about fasting, water and medicines must reflect your condition and the directions of your clinician or performing facility. [1, 3, 6]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد استشارة الجهاز الهضمي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a gastroenterology consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "كارت تحضير سونار البطن: الصيام والمياه",
+          "en": "Ultrasound preparation card: fasting and water"
+        },
+        "description": {
+          "ar": "اعمل كارت تحضير سونار البطن وسجّل الصيام والمياه والمثانة والأدوية، واعرف إزاي تتصرف بأمان لو التعليمات مش واضحة أو عندك سكر.",
+          "en": "Make an ultrasound preparation card for fasting, water, bladder and medicines, with clear steps for diabetes or conflicting instructions."
+        }
+      },
+      "updatedAt": "2026-09-27",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا الدليل بكارت عملي للصيام والمياه والأدوية والسكر وعلامات الخطر، واتراجع طبياً من جديد.",
+            "en": "Expanded with a practical card for fasting, water, medicines, diabetes and warning signs, and medically re-reviewed."
+          }
+        }
+      ]
+    }
+  ]
+}

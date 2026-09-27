@@ -1,0 +1,342 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-protein-needs-more-is-better; replaces the entry from content/articles.json. Expanded the short answer into a medically re-reviewed bilingual guide to individual needs, food sources, training, health conditions, supplements and warning signs.",
+  "articles": [
+    {
+      "slug": "qa-protein-needs-more-is-better",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management",
+        "internal-medicine"
+      ],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 11,
+      "author": "shimaa-fouad",
+      "reviewedBy": "shimaa-fouad",
+      "image": "assets/img/articles/clinical-nutrition-3.webp",
+      "title": {
+        "ar": "هل كل ما تزود البروتين النتيجة تبقى أحسن؟",
+        "en": "Is more protein always better?"
+      },
+      "excerpt": {
+        "ar": "البروتين مهم، بس الزيادة مش بتتحول لعضلات لوحدها. اعرف إزاي احتياجك بيتحدد، وإمتى الطعام يكفي، ومين محتاج حساباً ومتابعة أدق.",
+        "en": "Protein matters, but extra protein does not turn into muscle by itself. Learn what shapes your needs, when food is enough, and who needs closer calculation and follow-up."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّعت الإجابة بشرح عملي أدق لاحتياج البروتين ومصادره وتوزيعه والمكملات والحالات الخاصة، واتراجعت طبياً من جديد.",
+            "en": "The answer was expanded with clearer practical guidance on protein needs, sources, distribution, supplements and special health situations, and was medically re-reviewed."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "short-answer",
+          "heading": {
+            "ar": "الإجابة القصيرة: لأ، أكتر مش معناها أحسن تلقائياً",
+            "en": "The short answer: no, more is not automatically better"
+          },
+          "body": {
+            "ar": "البروتين بيدي الجسم أحماضاً أمينية بيستخدمها في بناء وإصلاح العضلات والجلد والأنسجة، وفي تكوين إنزيمات وهرمونات وأجسام مضادة. عشان كده وجود كمية كفاية مهم، خصوصاً لو بتتمرن، بتخس، بتتعافى من مرض، أو سنك أكبر. بس فيه فرق كبير بين كمية تكفي احتياجك وكمية زيادة من غير هدف واضح. الجسم يقدر يهضم البروتين اللي بتاكله، لكنه مش بيحوّل كل جرام زيادة لعضلة؛ بناء العضلات محتاج كمان تمرين مقاومة وطاقة كفاية وتعافياً مناسباً. [1, 2, 3, 4]\n\nالأرقام المرجعية للسكان نقطة بداية لتقليل احتمال النقص، مش وصفة شخصية لأفضل أداء ولا سقفاً يناسب كل حالة. احتياجك بيتغيّر مع الوزن المستخدم في الحساب، السن، النشاط، نوع التدريب، هدف نزول أو زيادة الوزن، كمية الطاقة الكلية، والحمل أو الرضاعة أو المرض. حتى شخصين بنفس الوزن ممكن يبقى لكل واحد فيهم نطاق مختلف عشان ظروفهم مختلفة. عشان كده سؤال «كام جرام؟» ما يتجاوبش صح من الوزن لوحده ولا من فيديو قصير. [1, 2, 7]\n\nلو أكلك الحالي مغطي احتياجك، إضافة سكوب أو وجبة ضخمة مش مضمونة تحسن القوة أو الشكل. مراجعة كبيرة لتدريب المقاومة لقت إن المكمل قد يزود مكاسب الكتلة والقوة عند بعض الناس، لكن الفايدة بتقل لما المدخول الكلي يوصل لمستوى كافٍ، وده يوضح إن الاستجابة مش خطاً بيطلع للأبد. الرسالة العملية: استهدف الكفاية المناسبة ليك، وبعدها ركز على جودة الخطة والتمرين والاستمرار بدل مطاردة أكبر رقم. [3, 4]",
+            "en": "Protein supplies amino acids that the body uses to build and repair muscle, skin and other tissues, and to make enzymes, hormones and antibodies. Adequate intake therefore matters, especially if you train, lose weight, recover from illness or are older. But there is a major difference between enough for your needs and extra without a clear purpose. The body can digest the protein you eat, yet it does not turn every additional gram into muscle; muscle gain also requires resistance training, adequate energy and suitable recovery. [1, 2, 3, 4]\n\nPopulation reference values are starting points intended to reduce the likelihood of deficiency, not personal prescriptions for peak performance or limits that suit every condition. Your requirement changes with the weight used for calculation, age, activity, training type, weight-loss or weight-gain goal, total energy intake, pregnancy, breastfeeding and illness. Two people at the same weight may need different ranges because their circumstances differ. That is why “how many grams?” cannot be answered properly from body weight alone or from a short online video. [1, 2, 7]\n\nIf your present diet already meets your needs, adding a scoop or an oversized meal is not guaranteed to improve strength or appearance. A large review of resistance training found that supplementation can increase gains in muscle mass and strength for some people, but the added benefit becomes smaller once total intake is already adequate. The response is not a line that rises forever. The practical message is to aim for adequacy that fits you, then focus on the quality of the plan, training and consistency rather than chasing the largest number. [3, 4]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "personal-target",
+          "heading": {
+            "ar": "إزاي بيتحدد احتياج البروتين الشخصي؟",
+            "en": "How is a personal protein target set?"
+          },
+          "body": {
+            "ar": "أول خطوة إنك تفرّق بين رقم مرجعي للبالغ السليم قليل النشاط وبين هدف علاجي أو رياضي. المراجع الأوروبية والأمريكية بتحط للبالغ السليم قيمة قريبة من 0.8 جرام لكل كيلوجرام يومياً كمرجع سكاني، بينما إرشادات الرياضة بتعرض نطاقات أعلى لمعظم الناس اللي بيتمرنوا بانتظام. كبار السن ممكن يحتاجوا اهتماماً أكبر بالكفاية والجودة مع الحركة، لأن استجابة العضلة للوجبة ممكن تبقى أضعف مع السن. الأرقام دي خلفية علمية، مش دعوة إنك تختار أعلى رقم فيها لنفسك. [1, 2, 3, 7]\n\nالحساب السريري بيبدأ من هدفك وسجل وزنك وأكلك العادي. المختص بيسأل: هل عايز تحافظ على عضلاتك وإنت بتخس، تزود قوة، تتعافى من جراحة، ولا تعالج مدخولاً ناقصاً؟ وبيراجع النشاط، الشهية، الهضم، الأدوية، نتائج الكلى والكبد لو موجودة، وهل الوزن الحالي مناسب أساساً للحساب. عند زيادة الدهون بدرجة كبيرة، ضرب أعلى رقم في الوزن الكلي ممكن يطلع هدفاً مبالغاً فيه؛ طريقة الحساب واختيار الوزن المرجعي قرار فردي. [6, 8, 10]\n\nبعد كده الهدف بيتحوّل لخطة قابلة للأكل، مش مسألة رياضيات وبس. بنشوف كمية البروتين الموجودة فعلاً، وهل الوجبات فيها طاقة وخضار وحبوب ودهون مناسبة، وهل الشخص يقدر يستمر من غير امتلاء مزعج أو إزاحة باقي العناصر. لو النطاق المقترح ما ينفعش يتطبق في يومك، الرقم مش عملي. المتابعة بتراجع الشبع، الأداء، القوة، تغير الوزن وتركيب الجسم والأعراض، وبتعدّل النطاق بدل اعتباره قانوناً ثابتاً. [4, 6, 7]",
+            "en": "The first step is to distinguish a reference value for a healthy, relatively inactive adult from a therapeutic or sports target. European and US references place the healthy-adult population value near 0.8 grams per kilogram per day, while sports guidance describes higher ranges for many people who train regularly. Older adults may need closer attention to adequate quantity, quality and activity because muscle can respond less strongly to a meal with age. These numbers provide scientific context; they are not an invitation to choose the highest one for yourself. [1, 2, 3, 7]\n\nClinical calculation begins with your goal, weight history and ordinary intake. The clinician asks whether you want to preserve muscle during weight loss, gain strength, recover after surgery or correct low intake. They review activity, appetite, digestion, medicines, available kidney and liver results, and whether current weight is appropriate for the calculation. With substantial excess body fat, simply multiplying the highest number by total body weight can produce an excessive target; the calculation method and reference weight need individual judgement. [6, 8, 10]\n\nThe target is then translated into food you can actually eat, not left as arithmetic. The clinician checks how much protein is already present, whether meals still provide suitable energy, vegetables, grains and fats, and whether you can sustain the plan without uncomfortable fullness or crowding out other nutrients. If a proposed range cannot work in your day, it is not a practical target. Follow-up reviews satiety, performance, strength, changes in weight and body composition, and symptoms, then adjusts the range instead of treating it as a permanent law. [4, 6, 7]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "food-sources",
+          "heading": {
+            "ar": "مصادر البروتين: الوجبة الكاملة أهم من اسم المكوّن",
+            "en": "Protein sources: the whole meal matters more than the ingredient name"
+          },
+          "body": {
+            "ar": "اللحوم والدواجن والأسماك والبيض واللبن والزبادي والجبن مصادر معروفة، والبقول زي الفول والعدس والحمص والفاصوليا، ومنتجات الصويا، والمكسرات والبذور كمان بتشارك في المدخول. الاختيار مش مسابقة بين «حيواني» و«نباتي». بص للصورة كلها: كمية البروتين، الأحماض الأمينية، الدهون المشبعة، الألياف، الصوديوم، سهولة الهضم، الحساسية، والتفضيل الشخصي. تنويع المصادر غالباً بيسهّل تغطية الاحتياج من غير ما كل الوجبات تبقى نسخة واحدة. [1, 2, 12]\n\nلو أكلك نباتي، مش لازم تجمع نوعين محددين في نفس اللقمة عشان الجسم يستفيد. المهم كمية كفاية وطاقة كفاية وتنوع على مدار اليوم. البقول مع الحبوب والمكسرات أو البذور والصويا يقدروا يعملوا نمطاً قوياً، ومع البيض أو الألبان لو داخلين في اختيارك. صفحة البروتين والحديد وفيتامين ب١٢ في الأكل النباتي بتشرح التخطيط للعناصر المجاورة من غير ما الصفحة دي تدخل في تفاصيل الحديد وب١٢. [12]\n\nكمية البروتين المكتوبة على العبوة مش الحكم الوحيد على جودة الاختيار. زبادي مع فاكهة وشوفان، أو عدس مع عيش وسلطة، أو بيض مع خضار، ممكن يدّوك وجبة متوازنة أكتر من منتج مكتوب عليه «عالي البروتين» لكنه فقير في الألياف أو مليان إضافات. راقب الوجبة في سياق اليوم، وبدّل الأصناف حسب قدرتك وميزانيتك وتقبلك. ولو عندك حساسية من اللبن أو البيض أو الصويا، الاستبعاد يبقى للمسبب المؤكد مع بديل مناسب، مش حذف مجموعات كاملة بالتخمين. [11, 12, 13]",
+            "en": "Meat, poultry, fish, eggs, milk, yoghurt and cheese are familiar sources. Pulses such as fava beans, lentils, chickpeas and other beans, along with soy foods, nuts and seeds, also contribute. The choice is not a contest between “animal” and “plant.” Look at the full picture: protein amount, amino acids, saturated fat, fibre, sodium, digestibility, allergy and personal preference. Variety usually makes it easier to meet needs without making every meal identical. [1, 2, 12]\n\nIf you eat a vegetarian pattern, you do not have to combine two prescribed foods in the same mouthful for the body to benefit. Adequate total food, adequate energy and variety across the day matter. Pulses with grains, nuts or seeds and soy can form a strong pattern, with eggs or dairy if those fit your choices. Vegetarian protein, iron and B12 explains planning for the neighbouring nutrients without duplicating the detailed iron and B12 guidance here. [12]\n\nThe protein number on a package is not the only test of food quality. Yoghurt with fruit and oats, lentils with bread and salad, or eggs with vegetables may create a more balanced meal than a product advertised as “high protein” but low in fibre or loaded with additions. Judge the meal in the context of the full day, and vary foods according to tolerance, access and preference. If you have a milk, egg or soy allergy, avoid the confirmed trigger and arrange a suitable alternative rather than removing whole food groups by guesswork. [11, 12, 13]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "البروتين والحديد وفيتامين ب١٢ في الأكل النباتي",
+                "url": "../articles/qa-vegetarian-protein-iron-b12.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Vegetarian protein, iron and B12",
+                "url": "../articles/qa-vegetarian-protein-iron-b12.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "distribution-and-training",
+          "heading": {
+            "ar": "التوزيع والتمرين: البروتين مش بديل للحافز العضلي",
+            "en": "Distribution and training: protein is not a substitute for muscle stimulus"
+          },
+          "body": {
+            "ar": "تجميع معظم بروتين اليوم في عشاء ضخم ممكن يحقق المجموع على الورق، لكنه مش دايماً أسهل أو أنسب طريقة. المراجعات بتقترح إن توزيع مصادر واضحة على وجبتين أو تلاتة أو أكتر حسب يومك يدي العضلة فرصاً متكررة للاستجابة، خصوصاً مع تدريب المقاومة. مفيش «نافذة» مدتها دقائق تضيع بعدها الفايدة، ومفيش رقم سحري واحد لكل وجبة؛ حجم الجسم والسن ونوع الوجبة والتمرين وباقي اليوم كلهم بيفرقوا. [3, 5]\n\nابدأ عملياً بالسؤال: فين مصدر البروتين في كل وجبة رئيسية؟ ممكن يبقى بيضاً أو زبادي في الفطار، فولاً أو عدساً أو فراخ أو سمكاً في وجبة تانية، ومعاهم سناك مناسب لو فعلاً محتاج. لو الفطار والشغل بيخلوا اليوم كله تقريباً من غير بروتين وبعدها بتحاول تعوّض بالليل، تعديل التوزيع غالباً أبسط من شراء مكمل. وبرضه ما تجبرش نفسك على عدد وجبات ما يناسبش شهيتك أو علاجك؛ الهدف انتظام عملي، مش جدول جامد. [3, 5, 7]\n\nالبروتين بيوفر مواد البناء، والتمرين بيدي الإشارة. عشان تزود عضلاً أو تحافظ عليه، تدريب المقاومة المتدرج والنوم والطاقة الكافية مهمين جنب البروتين. مقال إزاي تحافظ على العضلات وإنت بتخس؟ بيشرح العلاقة بين نزول الوزن والقوة وتركيب الجسم بالتفصيل، من غير ما نحول الإجابة هنا لبرنامج تمرين. لو قوتك بتقل رغم إن رقم البروتين عالي، راجع إجمالي الأكل، سرعة نزول الوزن، خطة التدريب، التعافي، والمرض أو الدواء بدل ما تزود السكوب تلقائياً. [4, 6, 7]",
+            "en": "Concentrating most of the day’s protein in an oversized dinner may meet a total on paper, but it is not always the easiest or most useful pattern. Reviews suggest that placing recognisable sources across two, three or more eating occasions, depending on your day, gives muscle repeated opportunities to respond, particularly alongside resistance exercise. There is no minute-long “window” after which benefit disappears, and no single magic amount for every meal; body size, age, meal type, exercise and the rest of the day all matter. [3, 5]\n\nStart with a practical question: where is the protein source in each main meal? It could be eggs or yoghurt at breakfast; fava beans, lentils, poultry or fish later; and a suitable snack if you genuinely need one. If breakfast and work leave almost the whole day without protein and you then try to compensate at night, changing distribution is often simpler than buying a supplement. Do not force a meal frequency that conflicts with appetite or treatment either; the goal is a workable pattern, not a rigid timetable. [3, 5, 7]\n\nProtein provides building material, while training supplies the stimulus. To gain or preserve muscle, progressive resistance exercise, sleep and adequate energy matter alongside protein. How to protect muscle while losing weight explains the relationship between weight loss, strength and body composition in detail without turning this answer into an exercise programme. If strength is declining despite a high protein number, review total food, the pace of weight loss, training, recovery, illness and medicines rather than automatically adding another scoop. [4, 6, 7]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "إزاي تحافظ على العضلات وإنت بتخس؟",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "How to protect muscle while losing weight",
+                "url": "../articles/protecting-muscle-while-losing-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "weight-and-satiety",
+          "heading": {
+            "ar": "هل البروتين الأعلى يسرّع نزول الوزن أو يمنع فقد العضلات؟",
+            "en": "Does higher protein speed weight loss or prevent muscle loss?"
+          },
+          "body": {
+            "ar": "زيادة البروتين لحد مناسب ممكن تساعد بعض الناس في الشبع وتنظيم الوجبات، ومراجعة حديثة لناس عندهم زيادة وزن لقت إن المدخول الأعلى ساعد على تقليل فقد الكتلة العضلية أثناء نزول الوزن. بس النتيجة مش ضماناً، والدراسات ما قالتش إن كل ما الرقم يعلى الدهون تنزل أسرع أو القوة تفضل ثابتة. نفس المراجعة ما لقتش حماية واضحة لكل مؤشرات القوة والوظيفة، وده سبب مهم إننا ما نختصرش الخطة في جرامات البروتين. [6]\n\nنزول الوزن محتاج عجز طاقة مناسب، لكن العجز العنيف أو الأكل القليل جداً ممكن يقلل الطاقة والتمرين ويزود خطر فقد النسيج الخالي من الدهون. البروتين جزء من الحماية، ومعاه تدريب المقاومة وسرعة نزول معقولة ونوم ومتابعة القوة. لو المشروب البروتيني أضاف طاقة فوق احتياجك من غير ما يحل محل حاجة أو يخدم هدفاً، ممكن ببساطة يعطل اتجاه الوزن. ولو خلّاك شبعان لدرجة إنك ما بتاكلش خضاراً أو فاكهة أو حبوباً أو دهوناً لازمة، الخطة بقت أضيق مش أحسن. [4, 6]\n\nكمان رقم «الكتلة الخالية من الدهون» في جهاز تركيب الجسم مش مساوياً للعضلات وحدها، والمياه بتأثر على القراءة. راقب اتجاه الوزن ومحيط الخصر والقوة والأداء والأكل والأعراض مع بعض. لو الوزن ثابت لكن القوة والمقاسات أحسن، ده ممكن يبقى تقدماً؛ ولو الوزن نازل بسرعة مع دوخة وضعف وتراجع في التمرين، الرقم الأقل مش نجاحاً كافياً. القرار يتعدل من الصورة الكاملة، مش من بروتين اليوم أو قراءة واحدة. [4, 6, 7]",
+            "en": "Increasing protein to a suitable level may help some people with satiety and meal structure. A recent review in adults with overweight or obesity found that enhanced intake helped reduce loss of muscle mass during weight loss. That is not a guarantee, and the studies do not show that fat loss keeps accelerating or strength always stays stable as the number rises. The same review did not find clear protection for every strength and physical-function outcome, which is an important reason not to reduce the whole plan to protein grams. [6]\n\nWeight loss requires an appropriate energy deficit, but an aggressive deficit or very low total intake can reduce energy for training and raise the risk of losing fat-free tissue. Protein is one part of protection, together with resistance training, a reasonable rate of loss, sleep and strength follow-up. If a protein drink simply adds energy beyond your needs without replacing anything or serving a purpose, it may slow the weight trend. If it makes you so full that vegetables, fruit, grains or necessary fats disappear, the plan has become narrower rather than better. [4, 6]\n\nThe “fat-free mass” number on a body-composition device is not identical to skeletal muscle, and hydration affects the reading. Follow weight trend, waist, strength, performance, food and symptoms together. Stable weight with improving strength and measurements can still represent progress; rapid weight loss with dizziness, weakness and poorer training is not adequate success. Decisions should change in response to the whole pattern, not one day’s protein tally or one isolated scan. [4, 6, 7]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "kidney-liver-special-situations",
+          "heading": {
+            "ar": "الكلى والكبد والحالات الخاصة: ما تنسخش هدفاً عاماً",
+            "en": "Kidney, liver and special situations: do not copy a general target"
+          },
+          "body": {
+            "ar": "لو كليتك سليمة، مراجعات التجارب القصيرة والمتوسطة ما لقتش إن الأنظمة الأعلى في البروتين أضرت بمعدل الترشيح مقارنة بمدخول أقل، بس ده مش معناه إن أي كمية آمنة للأبد أو إن النتيجة تنطبق على مرضى الكلى. الدراسات لها مدد وحدود، ومعدل الترشيح لوحده مش كل صورة الكلى. ما تستخدمش الكلام عن الأصحاء كتصريح لتجربة أرقام عالية جداً من غير داعي. [9]\n\nمع مرض الكلى المزمن، الكمية ممكن تحتاج اعتدالاً عشان الفضلات ما تتراكمش، وفي نفس الوقت التقليل الزيادة ممكن يسبب سوء تغذية. الاحتياج بيتغير كمان حسب مرحلة المرض وهل الشخص على غسيل كلوي؛ بعض مرضى الغسيل محتاجين بروتين أكتر بسبب الفاقد. عشان كده نتيجة الكرياتينين أو تشخيص الكلى أو زلال البول تستدعي خطة مع الطبيب واختصاصي تغذية كلى، مش نصيحة جيم عامة. ما تغيّرش البروتين أو السوائل أو البوتاسيوم والفوسفور من نفسك. [8]\n\nمرض الكبد برضه مش سبباً تلقائياً لحذف البروتين. إرشادات ESPEN بتوضح إن المنع الروتيني في تليف الكبد والاعتلال الدماغي ممكن يزود الهدم، مع وجود ظروف حادة محددة محتاجة قراراً متخصصاً ومراقبة. الحمل والرضاعة، كبار السن، التعافي من جراحة، القرَح، الحروق، السرطان، واضطرابات الأكل كلها حالات الحساب فيها مرتبط بالطاقة والمرحلة والعلاج. لو عندك مرض مزمن أو فقد وزن غير مقصود أو شهية ضعيفة، الهدف يتكتب ضمن الخطة العلاجية، مش يتاخد من شخص سليم على الإنترنت. [2, 7, 10]",
+            "en": "In people with healthy kidneys, reviews of short- and medium-term trials did not find that higher-protein diets harmed filtration compared with lower intake. This does not mean that every amount is safe indefinitely or that the finding applies to people with kidney disease. Studies have limited durations, and filtration alone is not the whole kidney-health picture. Evidence in healthy adults should not be treated as permission to try an extremely high target without a reason. [9]\n\nWith chronic kidney disease, intake may need moderation so waste does not accumulate, while excessive restriction can cause malnutrition. Needs also change with the stage of disease and dialysis; some people receiving dialysis need more protein because treatment removes it. A kidney diagnosis, an abnormal creatinine result or urine albumin therefore calls for a plan with the treating clinician and a renal dietitian, not general gym advice. Do not change protein, fluid, potassium or phosphorus on your own. [8]\n\nLiver disease is not an automatic reason to remove protein either. ESPEN guidance explains that routine restriction in cirrhosis and hepatic encephalopathy can increase catabolism, while particular acute situations require specialist decisions and monitoring. Pregnancy, breastfeeding, older age, recovery from surgery, wounds, burns, cancer and eating disorders are also situations where calculation is tied to energy, disease stage and treatment. If you have chronic illness, unintentional weight loss or poor appetite, the target belongs inside the treatment plan rather than being copied from a healthy person online. [2, 7, 10]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "powders-and-safety",
+          "heading": {
+            "ar": "بروتين البودرة: أداة مريحة، مش شرط ولا اختصار للنتيجة",
+            "en": "Protein powder: a convenience, not a requirement or shortcut"
+          },
+          "body": {
+            "ar": "مسحوق البروتين ممكن يبقى مفيداً لو الشهية قليلة، الوقت ضيق، أو الوصول للهدف من الأكل صعب مؤقتاً. لكنه مش أقوى تلقائياً من وجبة مناسبة، ومش بيعوض تمريناً ضعيفاً أو نوماً قليلاً أو طاقة غير كافية. صفحة المكملات أداة موجهة مش اختيار افتراضي بتشرح المبدأ الأوسع: نحدد الفجوة الأول، وبعدها نختار أداة بجرعة ومدة وهدف متابعة واضحين. لو مفيش فجوة، المنتج غالباً إضافة مش حل. [3, 4, 11]\n\nاقرأ قائمة المكونات وحجم الحصة وكمية البروتين والسكر والمحليات والمنبهات والأعشاب، وما تفترضش إن كلمة «طبيعي» معناها آمن. FDA بتوضح إن المكملات مش بتاخد موافقة مسبقة على السلامة والفاعلية بنفس طريقة الأدوية، وإنها ممكن تتداخل مع أدوية أو تحاليل أو جراحة. تجنب خلط أكتر من مسحوق أو منتجات رياضية من غير ما تجمع مكوناتها، وراجع الطبيب أو الصيدلي لو بتاخد دواء ثابت، عندك مرض مزمن، أو داخل على عملية. [11]\n\nوقف المنتج واطلب نصيحة لو ظهر قيء مستمر، إسهال شديد، ألم واضح، خفقان، دوخة، أو أعراض بدأت بعد منتج جديد. تورم مفاجئ في اللسان أو الحلق، صعوبة تنفس أو بلع، صفير شديد، ارتباك أو إغماء ممكن يكون تفاعلاً تحسسياً خطيراً ويحتاج إسعافاً فورياً، مش انتظار موعد تغذية. خد العبوة أو صورة واضحة للمكونات معاك عشان الفريق يعرف إيه اللي اتاخد. [11, 13]",
+            "en": "Protein powder can be useful when appetite is low, time is limited or reaching a target from food is temporarily difficult. It is not automatically more powerful than a suitable meal, and it cannot compensate for poor training, little sleep or inadequate energy. Supplements are targeted tools, not the default explains the broader principle: identify the gap first, then choose a tool with a clear dose, duration and follow-up purpose. Without a gap, the product is usually an addition rather than a solution. [3, 4, 11]\n\nRead the ingredient list, serving size, protein amount, sugars, sweeteners, stimulants and herbs, and do not assume that “natural” means safe. The FDA explains that supplements do not receive premarket approval for safety and effectiveness in the same way as medicines, and that they can interact with medicines, tests or surgery. Avoid stacking several powders or sports products without adding up their ingredients. Review the plan with a doctor or pharmacist if you take regular medicine, live with chronic disease or are preparing for an operation. [11]\n\nStop the product and seek advice if persistent vomiting, severe diarrhoea, marked pain, palpitations, dizziness or symptoms beginning after a new product occur. Sudden swelling of the tongue or throat, trouble breathing or swallowing, severe wheeze, confusion or fainting may be a life-threatening allergic reaction and requires emergency care, not a routine nutrition appointment. Take the container or a clear photograph of its ingredients so the clinical team can identify what was used. [11, 13]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "المكملات أداة موجهة مش اختيار افتراضي",
+                "url": "../articles/supplements-are-targeted-not-a-default.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Supplements are targeted tools, not the default",
+                "url": "../articles/supplements-are-targeted-not-a-default.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "practical-next-step",
+          "heading": {
+            "ar": "خطوة عملية: قيّم يومك قبل ما تزود الرقم",
+            "en": "A practical next step: assess your day before raising the number"
+          },
+          "body": {
+            "ar": "سجّل يومين أو تلاتة من أكلك الطبيعي من غير ما تحاول تعمل يوم مثالي. اكتب الوجبات والكميات التقريبية ومصادر البروتين، وقت التمرين، الجوع والشبع، وأي انتفاخ أو إمساك أو غثيان. ضيف قائمة الأدوية والمكملات وصورة لعبوات المساحيق. السجل ده بيكشف إذا كانت المشكلة مدخولاً قليلاً فعلاً، توزيعاً ضعيفاً، طاقة غير كافية، أو مجرد توقع إن رقم أعلى هيدي نتيجة أسرع. [1, 3, 11]\n\nبعدها حدد نتيجة قابلة للمتابعة: تحسن القوة، الحفاظ على العضلات أثناء نزول الوزن، انتظام الوجبات، أو تغطية احتياج فترة تعافٍ. ما تعتمدش على الوزن وحده ولا تحليل تركيب جسم واحد. راقب الأداء، القدرة على طلوع السلم والقيام من الكرسي، اتجاه المقاسات، الأعراض، وقدرتك على الاستمرار. الضعف الجديد أو المتزايد، السقوط، فقد وزن غير مقصود، قلة أكل مستمرة، تورم، أو تغير واضح في البول يستحق تقييماً طبياً، لأن السبب ممكن يبقى مرضاً أو دواء أو نقص طاقة، مش نقص بروتين فقط. [7, 8]\n\nلو محتاج حساباً فردياً يربط الأكل بالنشاط والهدف والمرض والتحاليل، تقدر تبدأ من صفحة احجز موعد في العيادة. ذكر العيادة هنا خطوة عامة للتقييم، مش وعداً بنتيجة ولا دعوة لأعلى مدخول. د. شيماء فؤاد تراجع النمط الكامل وتحدد هل الطعام كفاية، هل فيه داعي لمكمل، وإمتى الطبيب المعالج محتاج يشارك في القرار. لحد التقييم، ما تنقلش هدف لاعب أو مؤثر وما تبدأش جرعة كبيرة عشوائية. [8, 11]",
+            "en": "Record two or three ordinary days of food without trying to manufacture a perfect day. Note meals, approximate amounts and protein sources, exercise timing, hunger, fullness, and any bloating, constipation or nausea. Add a medicine and supplement list and photographs of powder labels. This record helps show whether the issue is genuinely low intake, poor distribution, inadequate energy, or simply an expectation that a larger number will produce a faster result. [1, 3, 11]\n\nThen define an outcome that can be followed: improving strength, preserving muscle during weight loss, establishing regular meals or meeting needs during recovery. Do not rely on weight alone or one body-composition reading. Follow performance, ability to climb stairs and rise from a chair, measurement trends, symptoms and sustainability. New or worsening weakness, falls, unintentional weight loss, persistently low intake, swelling or a clear change in urine needs medical assessment because the cause may be disease, medicine or inadequate energy rather than protein deficiency alone. [7, 8]\n\nIf you need an individual calculation linking food with activity, goals, illness and test results, you can start at the clinic’s book an appointment page. The clinic is mentioned here as a general route to assessment, not as a promise of an outcome or an invitation to consume the highest amount. Dr Shimaa Fouad reviews the whole pattern, decides whether food is sufficient, whether a supplement has a role, and when the treating doctor needs to join the decision. Until then, do not copy an athlete’s or influencer’s target or start a large arbitrary dose. [8, 11]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الجسم بيهدر أي بروتين فوق كمية معينة في الوجبة؟",
+            "en": "Does the body waste any protein above a fixed amount per meal?"
+          },
+          "a": {
+            "ar": "لأ بالشكل البسيط المنتشر. الجسم بيهضم ويمتص الأحماض الأمينية، لكنه بيستخدمها في أنسجة ووظائف مختلفة، ومش كل الزيادة بتروح لبناء العضلات. استجابة العضلة للوجبة لها حد عملي بيتأثر بالحجم والسن والتمرين ونوع الوجبة، عشان كده توزيع مصادر مناسبة خلال اليوم غالباً أحسن من فكرة رقم سحري ثابت. [3, 5]",
+            "en": "Not in the simplistic way often described. The body digests and absorbs amino acids, but uses them across many tissues and functions; not every extra amount goes to muscle building. The muscle response to a meal has practical limits shaped by body size, age, exercise and meal type, so distributing suitable sources through the day is usually more useful than believing in one fixed magic number. [3, 5]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل بروتين البودرة أحسن من الأكل؟",
+            "en": "Is protein powder better than food?"
+          },
+          "a": {
+            "ar": "مش تلقائياً. البودرة طريقة مريحة ومحددة الكمية، لكنها ما بتديش دايماً تنوع الطعام وأليافه وباقي عناصره. ممكن تفيد لو فيه فجوة حقيقية أو شهية قليلة، لكن الطعام يكفي ناس كتير. الاختيار يتحدد من الاحتياج والتحمل والمكونات والمرض والأدوية، مش من إعلان المنتج. [3, 11]",
+            "en": "Not automatically. Powder is convenient and measured, but it does not always provide the variety, fibre and other nutrients found in food. It may help when there is a genuine gap or low appetite, while food is enough for many people. The choice depends on need, tolerance, ingredients, illness and medicines, not product advertising. [3, 11]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل البروتين العالي يضر الكلى السليمة؟",
+            "en": "Does a high-protein diet damage healthy kidneys?"
+          },
+          "a": {
+            "ar": "مراجعات تجارب في بالغين أصحاء ما لقتش تدهوراً في تغير معدل الترشيح مع مدخول أعلى خلال مدد الدراسة، لكن الأدلة مش تصريح لأي كمية ولا ضماناً مدى الحياة. ولو عندك مرض كلى أو زلال أو نتيجة غير طبيعية، السؤال مختلف تماماً واحتياجك لازم يتحدد مع الفريق المعالج. [8, 9]",
+            "en": "Reviews of trials in healthy adults did not find deterioration in change in filtration with higher intake during the study periods, but this is not permission for any amount or a lifetime guarantee. If you have kidney disease, urine albumin or an abnormal result, the question is entirely different and your target needs to be set with the treating team. [8, 9]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل البروتين النباتي ناقص؟",
+            "en": "Is plant protein incomplete?"
+          },
+          "a": {
+            "ar": "المصادر النباتية بتختلف في كمية ونسب الأحماض الأمينية وقابلية الهضم، بس نظام متنوع وكافي في الطاقة يقدر يغطي احتياج معظم البالغين الأصحاء. استخدم بقولاً وحبوباً وصويا ومكسرات وبذوراً على مدار اليوم، وما تشغلش نفسك بتركيبة إجبارية في كل طبق. الحالات الخاصة تحتاج تخطيطاً فردياً. [1, 12]",
+            "en": "Plant sources differ in amino-acid proportions, amount and digestibility, but a varied pattern with adequate energy can meet the needs of most healthy adults. Use pulses, grains, soy, nuts and seeds across the day without forcing a prescribed combination into every dish. Special situations need individual planning. [1, 12]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أزود البروتين لو وزني ثابت أو العضلات مش بتزيد؟",
+            "en": "Should I raise protein if weight is stable or muscle is not increasing?"
+          },
+          "a": {
+            "ar": "مش قبل ما تراجع الصورة كلها. ثبات الوزن مش معناه فشل لو القوة أو المقاسات بتتحسن، وعدم زيادة العضلات ممكن يرتبط ببرنامج التمرين أو الطاقة أو النوم أو الوقت أو المرض. لو المدخول أقل من احتياجك، زيادته لمستوى مناسب ممكن تساعد؛ لو هو كافي بالفعل، زيادة تانية مش مضمونة تضيف فايدة. [4, 5]",
+            "en": "Not before reviewing the whole picture. Stable weight is not failure when strength or measurements improve, and limited muscle gain may relate to the training programme, energy, sleep, time or illness. If intake is below your needs, raising it to an appropriate level may help; if it is already adequate, another increase is not guaranteed to add benefit. [4, 5]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى أطلب مساعدة عاجلة بعد أكل أو مكمل بروتين؟",
+            "en": "When should I seek urgent help after a protein food or supplement?"
+          },
+          "a": {
+            "ar": "اطلب إسعافاً فورياً لو حصل تورم مفاجئ في اللسان أو الحلق، صعوبة تنفس أو بلع، صفير شديد، ارتباك أو إغماء؛ دي علامات ممكن تناسب حساسية مهددة للحياة. القيء أو الإسهال المستمر، الخفقان، الألم الشديد أو الجفاف بعد منتج جديد محتاجين تقييماً سريعاً برضه، وخد العبوة معاك. [11, 13]",
+            "en": "Seek emergency help immediately for sudden tongue or throat swelling, difficulty breathing or swallowing, severe wheeze, confusion or fainting; these may indicate a life-threatening allergy. Persistent vomiting or diarrhoea, palpitations, severe pain or dehydration after a new product also needs prompt assessment, and you should take the container with you. [11, 13]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "National Academies — Evaluation of Dietary Protein and Amino Acid Requirements: A Systematic Review (NCBI Bookshelf, 2024)",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK614631/"
+        },
+        {
+          "label": "EFSA Panel — Scientific Opinion on Dietary Reference Values for Protein (EFSA Journal, 2012)",
+          "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2012.2557"
+        },
+        {
+          "label": "International Society of Sports Nutrition — Position Stand on Protein and Exercise (PMC, 2017)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/"
+        },
+        {
+          "label": "Morton et al. — Protein Supplementation and Resistance-training Gains: Systematic Review and Meta-regression (PubMed, 2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/"
+        },
+        {
+          "label": "Schoenfeld and Aragon — Protein per Meal and Daily Distribution for Muscle Building (PMC, 2018)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5828430/"
+        },
+        {
+          "label": "Kokura et al. — Enhanced Protein Intake During Weight Loss: Systematic Review and Meta-analysis (PubMed, 2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39002131/"
+        },
+        {
+          "label": "ESPEN Expert Group — Protein Intake and Exercise for Optimal Muscle Function With Aging (PMC, 2014)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4208946/"
+        },
+        {
+          "label": "NIDDK — Healthy Eating for Adults With Chronic Kidney Disease",
+          "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+        },
+        {
+          "label": "Devries et al. — Higher- Versus Lower-protein Diets and Kidney Function in Healthy Adults: Systematic Review and Meta-analysis (PubMed, 2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30383278/"
+        },
+        {
+          "label": "ESPEN — Guideline on Clinical Nutrition in Liver Disease (PMC, 2019)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6686849/"
+        },
+        {
+          "label": "US FDA — FDA 101: Dietary Supplements",
+          "url": "https://www.fda.gov/consumers/consumer-updates/fda-101-dietary-supplements"
+        },
+        {
+          "label": "Academy of Nutrition and Dietetics — Vegetarian Dietary Patterns for Adults: Position Paper (PubMed, 2025)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39923894/"
+        },
+        {
+          "label": "NHS — Anaphylaxis: Symptoms and Emergency Action",
+          "url": "https://www.nhs.uk/conditions/anaphylaxis/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "احتياج البروتين",
+          "بروتين بودرة",
+          "الحفاظ على العضلات",
+          "دكتور تغذية علاجية"
+        ],
+        "en": [
+          "protein needs",
+          "protein powder",
+          "muscle preservation",
+          "clinical nutrition"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "هل كل ما تزود البروتين النتيجة تبقى أحسن؟",
+          "en": "Is More Protein Always Better?"
+        },
+        "description": {
+          "ar": "اعرف إزاي تحدد احتياج البروتين المناسب، وتوزعه على الوجبات، وإمتى البودرة تفيد، وليه أمراض الكلى والكبد محتاجة حساباً فردياً.",
+          "en": "Learn how protein needs are set, how to distribute food sources, when powder may help, and why kidney or liver disease needs individual advice."
+        }
+      }
+    }
+  ]
+}

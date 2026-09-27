@@ -1,0 +1,321 @@
+{
+  "_note": "Phase 1 new article (2026-09-27). Scoped to combined same-day bidirectional endoscopy (gastroscopy and colonoscopy in one session), coordinating bowel prep with pre-sedation gastric fasting, clinical indications (such as unexplained iron deficiency anemia and non-localized GI bleeding), procedural sequence and suite workflow, sedation safety and airway monitoring, recovery expectations and post-procedure red flags, and booking clinical assessment at La Rose Clinics; deliberately does NOT cover choosing between single alternative scopes or isolated colonoscopy preparation protocols.",
+  "articles": [
+    {
+      "slug": "gastroscopy-and-colonoscopy-same-day",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-27",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/gastroscopy-and-colonoscopy-same-day-cover.webp",
+      "title": {
+        "ar": "منظار المعدة والقولون مع بعض: بيتعمل ليه، التحضير، وإيه اللي تتوقعه؟",
+        "en": "Same-day gastroscopy and colonoscopy: indications, preparation, and what to expect"
+      },
+      "excerpt": {
+        "ar": "عمل منظار المعدة والقولون مع بعض في جلسة واحدة خطوة تشخيصية شائعة لتقييم مشاكل ممتدة في الجهاز الهضمي أو فقر دم سببه مش واضح. اعرف الطبيب ممكن يطلب الفحصين ليه، وإزاي تنسّق التحضير والصيام بأمان، وإيه خطوات التعافي بعدهم.",
+        "en": "Undergoing same-day gastroscopy and colonoscopy in a single session is a common diagnostic approach for widespread digestive symptoms or unexplained anaemia. Learn why both are requested, how to coordinate preparation safely, and what recovery involves."
+      },
+      "seo": {
+        "title": {
+        "ar": "منظار المعدة والقولون مع بعض: دليلك الكامل",
+          "en": "Same-Day Gastroscopy and Colonoscopy Guide"
+        },
+        "description": {
+        "ar": "دليل طبي بسيط عن منظار المعدة والقولون مع بعض في نفس اليوم: الفحصين بيتعملوا ليه، وإزاي تنسّق التحضير والصيام، ومدة الجلسة، والتعافي الآمن بعدها.",
+          "en": "A complete clinical guide to same-day gastroscopy and colonoscopy: key indications, coordinating bowel prep and fasting, procedural steps, and safe recovery."
+        }
+      },
+      "tags": {
+        "ar": [
+          "منظار المعدة والقولون مع بعض",
+          "منظار المعدة والقولون معًا",
+          "مدة منظار المعدة والقولون",
+          "التحضير لمنظار المعدة والقولون",
+          "هل منظار المعدة والقولون خطير",
+          "مناظير الجهاز الهضمي"
+        ],
+        "en": [
+          "same-day gastroscopy and colonoscopy",
+          "bidirectional endoscopy",
+          "endoscopy preparation",
+          "colonoscopy preparation",
+          "endoscopy duration",
+          "gastrointestinal endoscopy"
+        ]
+      },
+      "sections": [
+        {
+          "id": "why-combine-scopes",
+          "heading": {
+            "ar": "منظار المعدة والقولون مع بعض: يعني إيه وليه الطبيب بيطلب الفحصين في نفس الجلسة؟",
+            "en": "Same-day gastroscopy and colonoscopy: what it means and why both may be requested"
+          },
+          "body": {
+            "ar": "عمل منظار المعدة والقولون مع بعض في نفس اليوم اسمه الطبي التنظير ثنائي الاتجاه (Bidirectional Endoscopy). ده فحص تشخيصي بيجمع فحص الجهاز الهضمي العلوي والسفلي في جلسة تخدير واحدة [1, 2, 6]. لما الطبيب يقترح الإجراء ده، ناس كتير بتقلق وبتسأل: هل طلب الفحصين مع بعض معناه بالضرورة إن فيه مرض معقد أو وصل لمرحلة متقدمة؟ [6, 7]. الحقيقة إن القرار ده مش معناه وجود خطورة استثنائية. في أغلب الحالات هو طريقة شاملة عشان الطبيب يحل لغز سريري محدد، من غير ما تحتاج مواعيد كتير، أو تكرر التحضير، أو تدخل تحت التخدير مرتين منفصلتين [6, 9, 10].\n\nمن أهم الأسباب الطبية اللي ممكن تخلي الطبيب يطلب منظار المعدة والقولون مع بعض فقر الدم الناتج عن نقص الحديد لما سببه ما يكونش واضح (Unexplained Iron Deficiency Anemia) [7, 8]. توصيات جمعية الجهاز الهضمي البريطانية (BSG) بتوضح إن فقدان دم خفي من الجهاز الهضمي ممكن يكون مصدره الجزء العلوي، زي قرحة المعدة أو الاثني عشر، أو التهاب شديد في المعدة، أو الداء البطني، اللي هو مرض حساسية القمح. وممكن في نفس الوقت يكون مصدره الجزء السفلي بسبب لحميات في القولون، أو تشوهات في الأوعية الدموية، أو أورام القولون والمستقيم [5, 7, 8]. ولأن الأعراض لوحدها في حالات كتير مش كفاية عشان نعرف مصدر النزيف المجهري، ففحص المسارين مع بعض ممكن يوصل لتشخيص حاسم ويوفر وقت مهم لبدء العلاج [7, 8].\n\nفيه أسباب شائعة تانية، زي إن تحليل الدم الخفي في البراز يطلع إيجابي ومعاه شكاوى من الجزء العلوي للجهاز الهضمي، أو نزول وزن من غير سبب واضح مع إسهال مزمن واضطراب في حركة الأمعاء، أو اشتباه في مرض من أمراض التهاب الأمعاء زي داء كرون، اللي ممكن يصيب أي جزء من القناة الهضمية [1, 2, 5]. كمان الجمع بين الفحصين ممكن يفيد اللي وصلوا لسن الفحص الوقائي لسرطان القولون، وفي نفس الوقت محتاجين تقييم لعسر هضم مزمن أو ارتجاع مريئي مش مستجيب للعلاج الدوائي [1, 2]. الجمع ده بيسمح للطبيب يشوف الغشاء المخاطي مباشرة من ناحية المريء والمعدة والاثني عشر، ومن الناحية التانية القولون كله لحد نهاية اللفائفي الطرفي، وممكن ياخد عينات نسيجية صغيرة، أو خزعات، للفحص المجهري لو احتاج [1, 2, 7].",
+            "en": "Undergoing same-day gastroscopy and colonoscopy in a single session is medically known as bidirectional endoscopy (BDE), a combined diagnostic procedure that evaluates both the upper and lower digestive tracts under a single period of sedation [1, 2, 6]. When a clinician recommends having both scopes on the same day, patients often feel apprehensive, wondering whether the request implies an exceptionally severe or sinister condition [6, 7]. In clinical reality, requesting both procedures does not indicate a grave diagnosis; rather, it represents a standard, comprehensive investigative strategy designed to resolve clinical diagnostic dilemmas efficiently without subjecting the patient to repeated hospital visits, duplicate dietary preps, or multiple separate exposures to anaesthesia [6, 9, 10].\n\nOne of the paramount clinical indications for performing same-day bidirectional endoscopy is unexplained iron deficiency anaemia (IDA) [7, 8]. Clinical guidelines from the British Society of Gastroenterology (BSG) emphasise that microscopic, occult blood loss along the gastrointestinal tract can originate from upper tract sources, such as peptic ulcer disease, severe gastritis, vascular ectasias, or celiac disease, or concurrently from lower tract sources, including colonic polyps, angiodysplasias, or colorectal malignancies [5, 7, 8]. Because patient-reported symptoms are often poor predictors of the exact site of silent bleeding, inspecting both the upper and lower tracts in one coordinated session delivers definitive diagnostic yield and prevents critical treatment delays [7, 8].\n\nOther frequent indications include a positive fecal occult blood test accompanied by upper dyspeptic complaints, unintentional significant weight loss, chronic unexplained diarrhoea, or suspected inflammatory bowel disease such as Crohn's disease, which can involve disparate segments across the entire digestive tract [1, 2, 5]. Furthermore, patients who have reached the recommended age for routine colorectal cancer screening and simultaneously suffer from persistent reflux or refractory dyspepsia can conveniently address both health maintenance goals at once [1, 2]. Combining the procedures enables the gastroenterologist to visualise directly the mucosal lining from the oesophagus down to the duodenum, and from the anal canal up through the entire colon to the terminal ileum, obtaining targeted mucosal biopsies for histological confirmation whenever indicated [1, 2, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                  "label": "إيه الفرق بين منظار المعدة ومنظار القولون؟",
+                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "gastroscopy vs colonoscopy",
+                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "safety-and-sedation",
+          "heading": {
+            "ar": "هل منظار المعدة والقولون مع بعض خطير؟ الأمان ونوع التخدير والمهدئ",
+            "en": "Is having both scopes together safe? Safety evidence, sedation, and monitoring"
+          },
+          "body": {
+            "ar": "أكتر سؤال بيتكرر من المرضى هو: هل عمل منظار المعدة والقولون مع بعض أخطر أو أتعب للجسم من إن كل فحص يتعمل في يوم لوحده؟ الدراسات السريرية الكبيرة والمراجعات المنهجية عن أمان المناظير المزدوجة لقت إن معدل المضاعفات الإجمالي لما الفحصين بيتعملوا في نفس الجلسة مماثل تماماً لمعدل عمل كل فحص لوحده. وكمان الجمع بينهم له ميزة مهمة، وهي تقليل عدد مرات التعرض للأدوية المهدئة [6, 9, 10, 11]. جرعة مهدئ واحدة تحت إشراف طبي متخصص بتجنبك تكرار مخاطر التهدئة مرتين، وبتقلل الضغط النفسي والجسدي اللي بييجي مع تكرار التحضير [6, 10].\n\nالفحص عادة بيتعمل تحت التهدئة الواعية (Conscious Sedation) أو التهدئة العميقة اللي بتكون تحت مراقبة طبية (Monitored Anesthesia Care)، باستخدام أدوية وريدية سريعة المفعول زي البروبوفول أو خليط من المهدئات والمسكنات [9, 10]. هدف الأدوية دي إنك تكون مرتاح وفي حالة استرخاء عميق، عشان ما تحسش بألم، ومن غير ما يحصل لك منعكس الترجيع وقت مرور منظار المعدة، وما تفتكرش تفاصيل الفحص بعد ما تفوق [9, 10]. طول الإجراء، الفريق الطبي بيراقب العلامات الحيوية لحظة بلحظة وبشكل مستمر، ومنها نسبة تشبع الأكسجين في الدم، وضربات القلب، وضغط الدم، والتنفس، حسب معايير الأمان المعتمدة عالمياً من الجمعية الأمريكية لمناظير الجهاز الهضمي (ASGE) [9, 10].\n\nالمضاعفات الخطيرة لمناظير الجهاز الهضمي نادرة جداً في المراكز المجهزة واللي عندها كفاءة عالية [9, 11]. المخاطر النادرة دي ممكن تشمل هبوطاً مؤقتاً في التنفس أو ضغط الدم، وغالباً بيستجيب بسرعة لتعديل جرعة المهدئ أو إعطاء أكسجين إضافي. وممكن يحصل نزيف بسيط لو اتشالت لحميات كبيرة من القولون أو اتاخدت خزعات نسيجية عميقة، والنزيف ده غالباً بيتعالج فوراً من خلال المنظار بالكي أو بالمشابك المعدنية [9, 11]. أما حدوث ثقب في جدار الجهاز الهضمي، فده خطر نادر جداً، ونسبته المقدرة أقل من حالة واحدة في كل ألف فحص روتيني للقولون، والنسبة أقل بكتير في منظار المعدة [9, 11]. استشاري الجهاز الهضمي وفريق التخدير هما اللي بيحددوا هل الإجراء المزدوج مناسب لكل شخص، بناءً على سنه وتاريخه الصحي وحالة القلب والجهاز التنفسي [9, 10].",
+            "en": "The most frequent concern raised by patients is whether undergoing same-day gastroscopy and colonoscopy carries excessive danger or stresses the physiological systems more than scheduling two separate appointments. Extensive clinical studies and systematic reviews evaluating same-day bidirectional endoscopy demonstrate that the overall incidence of adverse events is essentially equivalent to performing the procedures on separate days, while conferring a major physiological advantage: halving the patient's exposure to sedative and anesthetic agents [6, 9, 10, 11]. Undergoing a single, carefully monitored sedation session eliminates the cumulative risks of repeat anaesthesia and spares the individual duplicate episodes of psychological anticipatory stress [6, 10].\n\nThe combined procedure is routinely performed using either conscious moderate sedation or monitored anesthesia care (deep sedation) administered intravenously with fast-acting agents such as propofol or a balanced combination of sedatives and short-acting opioids [9, 10]. The clinical objective of sedation is to maintain total patient comfort and muscular relaxation, abolishing any gagging sensation as the gastroscope traverses the pharynx, eliminating cramping discomfort during colonic distension, and ensuring the patient has no distressing procedural recall upon awakening [9, 10]. Throughout the entire procedural window, the clinical team maintains continuous, multi-parameter vital sign tracking—including pulse oximetry, cardiac rhythm monitoring, automated blood pressure measurements, and ventilatory capnography—strictly adhering to international patient safety standards published by the American Society for Gastrointestinal Endoscopy (ASGE) [9, 10].\n\nSevere procedural complications in modern, accredited endoscopy units remain remarkably rare [9, 11]. Rare adverse events include transient respiratory depression or vasovagal hypotension, both of which respond rapidly to sedation titrations, airway repositioning, or supplemental oxygen administration [9, 10]. Minor bleeding may occasionally occur following extensive polypectomy or deep mucosal biopsies, but endoscopists typically secure immediate hemostasis using endoscopic hemoclips or thermal coagulation [9, 11]. Mechanical gastrointestinal perforation is exceedingly uncommon, occurring in fewer than one in one thousand routine diagnostic colonoscopies and at even lower rates during upper endoscopy [9, 11]. The treating gastroenterologist and anesthesia provider rigorously assess each individual's candidacy based on age, cardiopulmonary reserve, and medical background, tailoring the sedation strategy accordingly [9, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "procedure-sequence-and-scopes",
+          "heading": {
+            "ar": "خطوات الإجراء داخل غرفة المناظير: مين الأول وهل بيستخدم نفس المنظار؟",
+            "en": "Inside the endoscopy suite: sequence of procedures and equipment hygiene"
+          },
+          "body": {
+            "ar": "فيه سؤال شائع بعض الناس ممكن يكسفوا يسألوه بصراحة: هل نفس المنظار بيتستخدم لفحص المعدة والقولون؟ والإجابة الواضحة هي لأ؛ الطبيب بيستخدم منظارين منفصلين ومختلفين تماماً في التصميم والوظيفة [1, 2, 9]. منظار المعدة عبارة عن أنبوبة رفيعة ومرنة فيها كاميرا ومصدر ضوء دقيق، ومصممة عشان تعدّي من الفم والمريء للمعدة والاثني عشر. أما منظار القولون فأطول، وقطره وطريقة توجيهه مختلفين، لأنه مصمم يعدّي من الشرج ويفحص بطانة الأمعاء الغليظة كلها [1, 2, 9]. كل منظار بيخضع لأعلى معايير التطهير الطبي عالي المستوى (High-Level Disinfection) والتعقيم الميكانيكي المستمر بين كل مريض والتاني، وده بيضمن أماناً صحياً وميكروبيولوجياً كاملاً [9].\n\nوبالنسبة لترتيب الفحصين، يعني الطبيب يبدأ بأنهي منظار الأول، فالنقطة دي اتعمل عليها بحث علمي واسع ومقارنات دقيقة في مجلات طبية معروفة [6, 12]. عملياً، فيه احتمالين: يا إما يبدأ بمنظار المعدة وبعده منظار القولون، يا إما يبدأ بمنظار القولون وبعده منظار المعدة [6, 12]. التحليل التلوي المنشور في المجلة الكورية للأمراض الباطنية (Korean J Intern Med)، ومعاه تجارب سريرية متعددة، وضّح إن الترتيبين آمنين ومقبولين تماماً. لكن بعض الفرق الطبية بتفضل تبدأ بمنظار القولون لأنه أحياناً ممكن يقلل جرعات التخدير ويساعد المريض يفوق أسرع، بينما مراكز تانية بتفضل تبدأ بمنظار المعدة عشان تفحص المعدة وهي فاضية بدري وتقلل احتمال رجوع السوائل أثناء التهدئة [6, 12]. اختيار الترتيب الأنسب بيرجع لبروتوكول وحدة المناظير وتقدير الطبيب المعالج لكل حالة لوحدها [6, 12].\n\nالجلسة كلها جوه غرفة المناظير عادة بتاخد وقتاً متوسطاً من 25 إلى 45 دقيقة بس للفحصين مع بعض [1, 2, 6]. فحص المعدة والاثني عشر عادة بياخد من 7 إلى 12 دقيقة، ومنظار القولون غالباً بياخد من 15 إلى 30 دقيقة. الوقت ممكن يزيد شوية لو الحالة محتاجة إزالة لحميات متعددة أو أخذ خزعات دقيقة من أماكن مختلفة [1, 2, 6]. وطول المدة دي بتكون نايم ومرتاح تحت إشراف الفريق المتخصص [9, 10].",
+            "en": "A common point of confusion—one that patients sometimes hesitate to ask aloud—is whether the same endoscopic instrument is used for both the stomach and the colon. The definitive medical answer is an absolute no: the gastroenterologist utilizes two entirely separate, purpose-built instruments [1, 2, 9]. The gastroscope is a slender, highly flexible video instrument engineered specifically for oral insertion to inspect the oesophagus, gastric lumen, and duodenum; conversely, the colonoscope is longer, slightly wider, and equipped with dedicated stiffness and deflection controls engineered to negotiate colonic flexures via the rectum [1, 2, 9]. Every instrument undergoes rigorous automated high-level disinfection and chemical sterilisation between patient procedures, meeting strict microbiological decontamination benchmarks established by global endoscopy societies [9].\n\nRegarding the procedural sequence—which scope is introduced first—this question has generated substantial scholarly inquiry and randomised prospective trials in the gastroenterology literature [6, 12]. Endoscopists typically adopt one of two operational sequences: performing esophagogastroduodenoscopy (EGD) followed immediately by colonoscopy, or initiating the session with colonoscopy and concluding with EGD [6, 12]. A systematic review and meta-analysis published in the Korean Journal of Internal Medicine, alongside clinical trials, demonstrated that while both sequences are clinically sound and safe, initiating the procedure with colonoscopy first can slightly reduce total propofol requirements and accelerate initial cognitive recovery in select cohorts [6, 12]. Conversely, starting with EGD ensures that the stomach is examined while completely empty early in sedation, minimising airway aspiration hazards [6, 12]. The procedural sequence is ultimately governed by the established workflow protocol of the endoscopy suite and the clinical judgment of the endoscopist [6, 12].\n\nThe total procedural duration within the endoscopy room is remarkably brief, typically ranging from 25 to 45 minutes for both examinations combined [1, 2, 6]. Upper endoscopy generally requires 7 to 12 minutes of thorough mucosal inspection, while colonoscopy typically takes 15 to 30 minutes to achieve complete cecal intubation and disciplined mucosal withdrawal [1, 2, 6]. The total duration may be modestly prolonged if the endoscopist performs therapeutic manoeuvres, such as polypectomies or systematic mapping biopsies for suspected inflammatory disease [1, 2, 6]. Throughout this interval, the patient remains completely comfortable and asleep under continuous clinical monitoring [9, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "preparation-coordination",
+          "heading": {
+            "ar": "التحضير لمنظار المعدة والقولون: إزاي توفّق بين صيام المعدة ومحلول تنظيف القولون؟",
+            "en": "Coordinating preparation: balancing colon cleansing with pre-sedation gastric fasting"
+          },
+          "body": {
+            "ar": "التحضير لمنظار المعدة والقولون مع بعض هو أكبر تحدي عملي للمريض، لأنك محتاج تحقق شرطين مهمين في نفس الوقت: تفضّي القولون تماماً عشان الطبيب يقدر يشوف الغشاء المخاطي ويكتشف اللحميات الصغيرة، وفي نفس الوقت تكون المعدة فاضية تماماً من أي سوائل أو بقايا أكل قبل بدء التهدئة، عشان تتجنب الارتشاف الرئوي (Pulmonary Aspiration)، يعني دخول محتويات المعدة لمجرى التنفس [1, 2, 9, 13]. عشان ده يحصل بأمان، المراكز الطبية المتطورة بتعتمد نظام تحضير القولون على جرعتين، أو التحضير المجزأ (Split-Dose Preparation)، مع ضبط مواعيد الصيام بدقة كاملة [9, 13].\n\nفي خطة التحضير المجزأ اللي بتوصي بيها الإرشادات العالمية، بتبدأ تعدّل أكلك قبل الفحص بيومين وتمتنع عن الأكل الغني بالألياف والبذور والمكسرات [2, 13]. وفي اليوم اللي قبل الفحص، بيكون المسموح سوائل شفافة بس، زي الشوربة المتصفية تماماً، والمياه، وعصير التفاح الصافي، والشاي الخفيف من غير لبن [2, 13]. وبتاخد الجرعة الأولى من محلول تنظيف الأمعاء، زي مستحضرات البولي إيثيلين جليكول أو محاليل الصوديوم بيكوسلفات المعتمدة، مساء اليوم اللي قبل الفحص، عشان تساعد في إخراج الجزء الأكبر من الفضلات [13].\n\nأهم نقطة في تنسيق الفحصين مع بعض هي توقيت الجرعة التانية من محلول القولون، وميعاد التوقف عن السوائل الشفافة [9, 13]. إرشادات التخدير ومناظير الجهاز الهضمي بتأكد إنك لازم تاخد الجرعة التانية من المحلول بدري صباح يوم الفحص، وعادة قبل ميعاد الإجراء بـ 4 إلى 6 ساعات. ولازم تخلص كل السوائل الشفافة والمحلول بالكامل قبل بدء التهدئة بساعتين إلى ثلاث ساعات على الأقل [9, 13]. الفاصل الزمني الدقيق ده بيدي المعدة وقت كفاية تفرّغ كل السوائل في الأمعاء الدقيقة، وده بيحافظ على أمان مجرى التنفس، وفي نفس الوقت بيوفر نظافة مثالية للقولون تساعد الطبيب يكتشف أدق التغيرات في الغشاء المخاطي [9, 13]. راجع دايماً تعليمات المركز الطبي المكتوبة كويس والتزم بمواعيد الصيام المحددة ليك، وما تغيرهاش من نفسك [9, 13].",
+            "en": "Coordinating preparation for a combined upper and lower endoscopy represents the primary practical hurdle for patients, as the dual procedure requires fulfilling two physiological prerequisites simultaneously: ensuring an immaculate, liquid-free colonic lumen to detect subtle mucosal lesions, while simultaneously guaranteeing that the stomach is completely empty of fluid and residue prior to sedation to prevent pulmonary aspiration [1, 2, 9, 13]. To achieve both safety benchmarks, modern gastroenterology units utilize split-dose bowel cleansing regimens tightly synchronized with pre-procedural fasting windows [9, 13].\n\nUnder modern evidence-based preparation protocols, dietary modification begins two to three days prior to the procedure by eliminating high-fibre foods, whole grains, seeds, nuts, and indigestible vegetable skins [2, 13]. On the day preceding the examination, the patient transitions exclusively to a clear liquid diet, which includes clear broths, water, pulp-free apple juice, and plain light tea without milk or creamer [2, 13]. The individual consumes the first dose of the prescribed osmotic bowel preparation agent (such as polyethylene glycol or sodium picosulfate formulations) during the evening prior to the scopes to clear the bulk of solid colonic residue [13].\n\nThe pivotal clinical step in coordinating same-day scopes lies in the timing of the second prep dose relative to pre-sedation clear liquid fasting [9, 13]. Endoscopy and anesthesia practice guidelines stipulate that the second split dose must be ingested in the early morning of the procedure day (typically four to six hours prior to the appointment), with all oral fluid intake strictly terminating at least two to three hours before the scheduled sedation time [9, 13]. This precise timing window allows physiological gastric emptying to clear all swallowed fluid into the small bowel, ensuring an empty gastric pouch and protecting the pulmonary airway, while simultaneously flushing freshly emptied bile from the right colon to optimize mucosal visualization [9, 13]. Patients must adhere meticulously to the individualized printed timeline supplied by their specific endoscopy facility rather than adjusting medication timings independently [9, 13]."
+          },
+          "links": {
+            "ar": [
+              {
+                  "label": "إزاي تحضّر لمنظار القولون؟",
+                "url": "../articles/colonoscopy-preparation-what-to-ask.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "colonoscopy preparation",
+                "url": "../articles/colonoscopy-preparation-what-to-ask.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "recovery-and-aftercare",
+          "heading": {
+            "ar": "التعافي في نفس اليوم: الإفاقة، وجع وغازات البطن، والرجوع للأكل والنشاط",
+            "en": "Same-day recovery: waking up, managing gas discomfort, and resuming eating"
+          },
+          "body": {
+            "ar": "بعد ما منظار المعدة والقولون يخلصوا، هتتنقل مباشرة لوحدة الإفاقة والرعاية بعد الفحص، وهترتاح هناك من 30 إلى 60 دقيقة لحد ما تأثير أدوية التهدئة يروح بالتدريج [3, 4, 9]. في الوقت ده، طاقم التمريض بيتابع إن العلامات الحيوية مستقرة، وإنك قادر تشرب رشفات مياه، وإن توازنك رجع بالكامل قبل ما يسمحوا ليك بالخروج [3, 4, 9]. التعافي في نفس اليوم بيكون سريع وسهل في أغلب الحالات، لكن فيه تفاصيل عملية مهمة لازم تستعد ليها عشان تضمن راحتك وسلامتك [3, 4].\n\nطبيعي جداً بعد الفحص تحس بأعراض بسيطة ومؤقتة. ممكن تحس بخشونة أو جفاف خفيف في الحلق يفضل كام ساعة بسبب مرور منظار المعدة. وممكن كمان تحس بانتفاخ ومغص بسيط في البطن بسبب الهواء أو غاز ثاني أكسيد الكربون (CO2) اللي الطبيب بيضخه أثناء الفحص عشان يوسّع جدار المعدة والقولون ويوضح الرؤية [1, 3, 4, 11]. أحسن طريقة تقلل بيها الانتفاخ والضغط هي المشي الخفيف جوه البيت وخروج الغازات من غير إحراج؛ الإحساس المزعج ده بيختفي تماماً خلال ساعات قليلة بعد خروج الغاز [3, 4]. استخدام غاز ثاني أكسيد الكربون في المناظير الحديثة قلل الغازات دي بشكل كبير جداً، لأن الجسم بيمتصه أسرع من الهواء العادي بمئة ضعف [11].\n\nبالنسبة للأكل والشرب، تقدر ترجع تاكل وجبات خفيفة وسهلة الهضم أول ما قدرتك على البلع ترجع بالكامل وإحساس الغثيان يروح. أمثلة ده الشوربة الدافية، أو الزبادي، أو الرز المسلوق والفراخ المستوية كويس، مع تجنب الأكل الدسم أو الحراق والمشروبات الغازية لباقي اليوم عشان تريح جهازك الهضمي [3, 4]. وفيه قاعدة إلزامية مفيهاش تفاوض: لازم يكون معاك مرافق بالغ ومسؤول يوصلك للبيت. وممنوع تماماً تسوق العربية، أو تشغّل آلات ومعدات تقيلة، أو تاخد قرارات مالية وقانونية مصيرية لمدة 24 ساعة كاملة بعد التخدير؛ لأن المهدئات بتأثر على سرعة رد الفعل والتركيز حتى لو حاسس إنك فايق تماماً [3, 4, 9].",
+            "en": "Following completion of the dual procedure, the patient is transferred directly to the post-anesthesia recovery area, where they rest comfortably for approximately 30 to 60 minutes while the sedative medications metabolize [3, 4, 9]. During this monitored phase, specialised recovery nurses track the stabilization of vital signs, confirm the return of an intact swallowing reflex with small sips of water, and evaluate ambulatory coordination prior to authorizing discharge [3, 4, 9]. Same-day discharge is seamless and prompt for the overwhelming majority of patients, though preparing for routine post-procedure physiological sensations ensures optimal recovery [3, 4].\n\nIt is entirely normal to experience several mild, transient symptoms following bidirectional endoscopy. A mild scratchiness or dry throat often persists for several hours following upper endoscopy, while abdominal cramping, bloating, and a sensation of trapped gas occur commonly as a consequence of the air or carbon dioxide (CO2) insufflated by the endoscopist to distend the stomach and colonic folds [1, 3, 4, 11]. The most effective strategy to relieve post-procedure fullness is gentle walking and uninhibited passage of flatus, which rapidly alleviates luminal pressure within a few hours [3, 4]. Modern endoscopy units utilizing carbon dioxide insufflation achieve significantly lower post-procedural discomfort, as CO2 is absorbed through the mucosal wall into the venous circulation over one hundred times faster than room air [11].\n\nRegarding post-procedure nutrition, patients may resume oral intake once alertness is fully restored and nausea is absent, initiating with light, gentle meals such as warm broths, plain rice, lean poultry, or crackers [3, 4]. Rich, spicy, or fried meals and carbonated drinks should be avoided for the remainder of the day to avoid gastrointestinal irritation [3, 4]. A non-negotiable safety standard across all accredited facilities is that an adult escort must accompany the patient home; driving a motor vehicle, operating heavy machinery, and executing binding legal or commercial agreements are strictly prohibited for 24 hours post-procedure because residual sedative effects impair psychomotor reflexes and executive judgment [3, 4, 9]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "diagnostic-results-and-red-flags",
+          "heading": {
+            "ar": "نتائج الفحص وعلامات الإنذار: إيه الطبيعي وإمتى تحتاج رعاية طبية عاجلة؟",
+            "en": "Diagnostic findings, tissue biopsies, and red-flag warning signs"
+          },
+          "body": {
+            "ar": "قبل ما تمشي من مركز المناظير، الطبيب أو طاقم التمريض هيديك تقريراً مبدئياً بيشرح اللي اتشاف بالعين أثناء الفحصين، زي وجود التهابات في المعدة، أو قرحة، أو لحميات في القولون اتشالت، أو إن الأغشية المخاطية مفيهاش أي مشكلة ظاهرة [1, 2, 9]. مهم تعرف إن النتيجة اللي اتشافت وقت الفحص مش هي التقرير النهائي الكامل. لو الطبيب أخد خزعات مجهرية من المعدة عشان يفحص جرثومة المعدة، أو عينات من الأمعاء عشان يفحص حساسية القمح، أو بعت لحميات القولون للتحليل الباثولوجي، فالنتائج النهائية للخلايا عادة بتاخد من كام يوم لحد أسبوعين عشان تظهر وتتحدد خطة العلاج المناسبة [1, 2, 7]. ساعات نتيجة الفحصين بتكون سليمة تماماً، وده شيء مطمئن جداً بينفي وجود أمراض عضوية خطيرة، وبيوجه الطبيب إنه يدور على أسباب وظيفية زي متلازمة القولون العصبي أو اضطرابات حركة الأمعاء، أو يطلب فحوصات مكملة زي وظائف الكبد وتحاليل الدم عشان يربط الصورة الطبية كلها ببعضها [7, 8].\n\nمع إن التعافي بيمشي بسهولة عند الغالبية الكبيرة جداً، فيه علامات إنذار حمراء (Red Flags) ما ينفعش تستنى معاها؛ لازم تتواصل فوراً مع وحدة المناظير أو تروح لأقرب قسم طوارئ [3, 4, 9, 11]. العلامات الخطيرة دي تشمل وجعاً حاداً ومفاجئاً في البطن بيزيد ومش بيهدى بعد خروج الغازات، أو إن جدار البطن يبقى متحجراً وقاسي جداً عند اللمس، أو ارتفاع الحرارة مع رعشة شديدة [3, 4, 11].\n\nالرعاية العاجلة مطلوبة كمان لو حصل نزيف واضح من الشرج وبكمية كبيرة، مش مجرد خيط دم بسيط وعابر بعد إزالة لحمية، أو لو رجعت دم، أو كان القيء لونه وشكله زي حبوب القهوة المطحونة، أو نزل براز أسود غامق ولزج وريحته زي القطران [3, 4, 7, 11]. وصعوبة التنفس، أو وجع الصدر، أو الدوخة الشديدة والإغماء محتاجين تقييم طبي سريع عشان نتأكد إن مفيش مضاعفات نادرة في الجهاز التنفسي أو نزيف داخلي [3, 4, 9]. معرفتك بالعلامات دي هي صمام الأمان اللي بيحمي صحتك وبيضمن التدخل بسرعة وقت الحاجة [9, 11].",
+            "en": "Prior to discharge from the endoscopy unit, the gastroenterologist or clinical team provides a preliminary procedure report detailing macroscopic findings visualised directly during the examination—such as gastric erosions, ulcerations, reflux esophagitis, colonic diverticula, or resected polyps [1, 2, 9]. It is vital for patients to understand that visual impressions do not constitute the final pathology diagnosis: if mucosal biopsies were taken to test for Helicobacter pylori, evaluate celiac sprue, or analyze polyp histology, formal histopathology results typically require several days to two weeks before a definitive management plan can be finalized [1, 2, 7]. When both scopes demonstrate entirely normal mucosa, this reassuring finding confidently rules out structural malignancies and severe mucosal ulceration, enabling the physician to redirect focus toward disorders of gut-brain interaction like irritable bowel syndrome or request broader clinical blood panels to complete the diagnostic picture [7, 8].\n\nWhile post-procedure recovery is unremarkable for the vast majority, every patient must be equipped with explicit red-flag warning signs that mandate immediate communication with the endoscopy team or emergency evaluation [3, 4, 9, 11]. These urgent alarm features include severe, progressive abdominal pain that escalates rather than improves after flatus, or marked abdominal wall rigidity and guarding upon gentle touch [3, 4, 11]. Similarly, the onset of persistent fever or rigors within several days of the scopes indicates potential infection or microperforation requiring urgent assessment [3, 4, 11].\n\nImmediate medical care is likewise indicated if the patient experiences substantial, continuous rectal hemorrhage (beyond faint streaking following a polypectomy), frank hematemesis, dark coffee-ground emesis, or melena characterized by tarry, foul-smelling black stools [3, 4, 7, 11]. Furthermore, persistent chest discomfort, shortness of breath, profound lightheadedness, or sudden syncope necessitates urgent cardiopulmonary evaluation to exclude delayed anesthesia effects or concealed haemorrhage [3, 4, 9]. Recognising these alarm signs ensures that rare complications are identified and treated without delay [9, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                  "label": "فحوصات وظائف الكبد لازم تتفهم في سياقها",
+                "url": "../articles/liver-function-tests-need-context.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "liver function tests in context",
+                "url": "../articles/liver-function-tests-need-context.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "next-steps-and-consultation",
+          "heading": {
+            "ar": "مراجعة الطبيب والتخطيط للفحص: خطواتك الجاية مع الفريق الطبي في لاروز",
+            "en": "Consulting your clinician: planning your endoscopy session with the medical team at La Rose"
+          },
+          "body": {
+            "ar": "لو الطبيب نصحك تعمل منظار المعدة والقولون مع بعض، فأهم خطوة عشان الفحص يكون آمن وناجح هي الاستشارة والتقييم الطبي قبل الإجراء [9, 10]. في الزيارة دي، لازم تقول للطبيب على كل الأدوية والمكملات اللي بتاخدها كل يوم، ومعاها الجرعات الدقيقة. وده مهم بالذات مع أدوية سيولة الدم ومضادات التجلط والصفائح الدموية، وأدوية السكر اللي جرعاتها بتحتاج تتعدل في ساعات الصيام، وأدوية تنظيم ضغط الدم اللي غالباً بيتطلب منك تاخدها برشفة مياه صغيرة صباح يوم الفحص [9, 10]. لازم كمان توضح لو حصلت ليك قبل كده حساسية من دواء أو مادة تخدير، ولو عندك أي مشاكل مزمنة في صمامات القلب أو وظائف الكلى أو الرئتين [9, 10].\n\nالفريق الطبي في لاروز بيراجع التاريخ الصحي الكامل لكل شخص، وبيحدد هل جمع الفحصين في جلسة واحدة هو الاختيار الأفضل والأنسب لحالته ولا لأ. وكمان بيحط جدولاً مفصلاً للتحضير والصيام يناسب نمط حياته وصحته العامة [9, 10]. جهّز أسئلتك واكتب الحاجات اللي مقلقاك قبل الموعد؛ ده هيساعدك تدخل غرفة المناظير وإنت مطمئن وواثق، وتعدّي بتجربة فحص دقيقة تساعد في تشخيص أسباب الأعراض ووضع خطة علاج واضحة ومستدامة تحت إشراف متخصص [7, 9, 10].",
+            "en": "When a physician recommends same-day gastroscopy and colonoscopy, the most vital foundation for procedural safety and high diagnostic yield is a structured pre-endoscopy clinical consultation [9, 10]. During this appointment, you should provide an exhaustive inventory of your prescribed medications, over-the-counter remedies, and nutritional supplements [9, 10]. In particular, antithrombotic medications, anticoagulants, antiplatelet agents, and diabetic therapies require precise, clinician-guided dose adjustments around procedural fasting intervals, whereas essential antihypertensives are typically continued with a small sip of water on the morning of the procedure [9, 10]. Any known allergies to anesthetic drugs, history of difficult airway management, or underlying renal and cardiopulmonary conditions must be fully reviewed [9, 10].\n\nThe medical team at La Rose carefully evaluates each patient's clinical profile, confirming whether combining upper and lower endoscopy in a single session represents the optimal and most convenient approach for their diagnostic workup [9, 10]. By establishing an individualized dietary and bowel preparation protocol tailored to your medical background, the team ensures maximum comfort and diagnostic accuracy [9, 10]. Preparing your clinical questions in advance ensures that you approach your endoscopy day with clarity, peace of mind, and confidence in your personalized care pathway [7, 9, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز استشارة مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a consultation with the medical team",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "مدة منظار المعدة والقولون بتاخد وقت قد إيه في العيادة؟",
+            "en": "How long does a combined gastroscopy and colonoscopy take at the endoscopy unit?"
+          },
+          "a": {
+            "ar": "وقت الفحصين نفسهم جوه غرفة المناظير عادة بيكون من 25 إلى 45 دقيقة [1, 2, 6]. منظار المعدة بياخد تقريباً من 7 إلى 12 دقيقة، بينما منظار القولون بياخد من 15 إلى 30 دقيقة حسب سهولة مرور المنظار وهل فيه لحميات محتاجة تتشال [1, 2, 6]. لكن إجمالي الوقت اللي هتقضيه في المركز بيكون من ساعتين إلى ثلاث ساعات، وده شامل تسجيل الدخول، والتحضير للتهدئة، ووقت الإفاقة والملاحظة بعد الفحص [3, 4, 9].",
+            "en": "The actual procedural time within the endoscopy room typically spans 25 to 45 minutes for both scopes combined [1, 2, 6]. Upper endoscopy generally takes 7 to 12 minutes, while colonoscopy requires 15 to 30 minutes depending on anatomical navigation and therapeutic polypectomy [1, 2, 6]. Total time spent at the endoscopy center generally totals 2 to 3 hours, covering admission checks, anesthesia preparation, and post-procedure recovery monitoring [3, 4, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل منظار المعدة والقولون مؤلم وهل هحس بحاجة أثناء الفحص؟",
+            "en": "Is the combined procedure painful, and will I feel anything during the scopes?"
+          },
+          "a": {
+            "ar": "مع استخدام التهدئة الوريدية الحديثة تحت إشراف طبي متخصص، مش هتحس بألم أثناء الفحص [9, 10]. أدوية التهدئة بتخليك في حالة استرخاء ونوم خفيف أو عميق، وده بيمنع إحساس منعكس الترجيع في الحلق أو التقلصات وقت منظار القولون [9, 10]. بعد ما تفوق، ممكن تحس بس بامتلاء وغازات خفيفة أو جفاف في الحلق، والأعراض المؤقتة دي بتروح خلال ساعات [1, 3, 4, 11].",
+            "en": "Patients do not experience pain during the combined examination under modern intravenous sedation managed by clinical professionals [9, 10]. Sedative medications induce deep relaxation or light-to-moderate sleep, effectively abolishing pharyngeal gagging during upper endoscopy and blunting colonic pressure sensations [9, 10]. Upon awakening, sensations are generally limited to mild transient throat dryness or gaseous distension that resolves within a few hours [1, 3, 4, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل منظار المعدة والقولون معًا خطير مقارنة بعمل كل فحص في يوم منفصل؟",
+            "en": "Is having both scopes together more dangerous than having them on separate days?"
+          },
+          "a": {
+            "ar": "الدراسات السريرية الكبيرة بتأكد إن عمل الفحصين مع بعض في نفس الجلسة آمن تماماً، وإن معدل المضاعفات مش مختلف عن عمل كل فحص في يوم لوحده [6, 9, 11]. وفي الحقيقة، الجمع بينهم له ميزة صحية واضحة: بتتعرض للتخدير والمهدئات مرة واحدة بدل مرتين، وبتتجنب تكرار تعب الصيام والتحضير [6, 10].",
+            "en": "Extensive clinical literature confirms that same-day bidirectional endoscopy is thoroughly safe, with adverse event rates comparable to scheduling the procedures across separate visits [6, 9, 11]. Combining the procedures provides the notable safety advantage of exposing the body to a single session of sedation rather than two, while sparing the patient repeat bowel cleanses and fasts [6, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إزاي أنسق بين شرب ملين القولون وصيام المعدة لمنظار المعدة؟",
+            "en": "How do I coordinate drinking the bowel prep solution with fasting for the gastroscopy?"
+          },
+          "a": {
+            "ar": "التنسيق الدقيق بيعتمد على نظام التحضير المجزأ: بتاخد الجرعة الأولى مساء اليوم اللي قبل الفحص، والجرعة التانية بدري صباح يوم الفحص، قبل الميعاد بحوالي 4 إلى 6 ساعات [9, 13]. والقاعدة الأساسية الصارمة إنك توقف تماماً شرب أي سوائل أو محاليل قبل ميعاد الإجراء بساعتين على الأقل، عشان المعدة تكون فاضية تماماً والرئتين يفضلوا في أمان أثناء التهدئة [9, 13].",
+            "en": "Precise coordination relies on a split-dose preparation regimen, where the first dose is taken the evening prior and the second dose early on the procedure morning, roughly 4 to 6 hours before check-in [9, 13]. The mandatory safety rule is to stop all fluid and prep consumption at least 2 full hours prior to sedation, ensuring complete gastric emptying and pulmonary safety [9, 13]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أقدر أسوق العربية أو أرجع الشغل في نفس يوم منظار المعدة والقولون؟",
+            "en": "Can I drive a car or return to work on the same day as my combined scopes?"
+          },
+          "a": {
+            "ar": "لو أخدت تهدئة وريدية، ممنوع تماماً تسوق العربية أو تشغّل آلات أو ترجع الشغل في نفس يوم الفحص [3, 4, 9]. أدوية التهدئة بتأثر على سرعة رد فعلك وتركيزك لكام ساعة بعد ما تفوق، عشان كده لازم يكون معاك مرافق بالغ يوصلك للبيت، وترتاح باقي اليوم، وترجع لنشاطك الطبيعي اليوم اللي بعده [3, 4, 9].",
+            "en": "Driving a motor vehicle, operating machinery, and returning to workplace duties are strictly forbidden on the day of the procedure following intravenous sedation [3, 4, 9]. Sedatives impair psychomotor reflexes and concentration for many hours after waking; an adult escort must accompany you home, and you should rest for the remainder of the day before resuming routine activity the next morning [3, 4, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو نتيجة منظار المعدة والقولون طلعت سليمة، ده معناه إيه بالنسبة لأعراضي؟",
+            "en": "What does it mean if both scopes are completely normal while my symptoms continue?"
+          },
+          "a": {
+            "ar": "لو الفحص الظاهري والمجهري طلع سليم، فدي نتيجة مطمئنة بتنفي وجود قرح نازفة، أو التهابات نشطة، أو لحميات، أو أورام في الأجزاء اللي اتفحصت [1, 2, 7]. لو الأعراض فضلت موجودة، الطبيب ممكن يناقش أسباباً وظيفية زي متلازمة القولون العصبي أو اضطراب حساسية الأحشاء، أو يعمل تقييماً مكملاً للأمعاء الدقيقة أو تحاليل دم متخصصة عشان يوصل للتشخيص الدقيق [7, 8].",
+            "en": "A normal endoscopic result is highly reassuring, definitively ruling out mucosal ulcers, severe active inflammation, polyps, or luminal malignancies along the evaluated tracts [1, 2, 7]. If symptoms persist, your gastroenterologist evaluates functional gut disorders such as IBS or visceral hypersensitivity, or considers targeted small-bowel investigations and metabolic lab panels to guide symptom management [7, 8]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Upper GI Endoscopy",
+          "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/upper-gi-endoscopy"
+        },
+        {
+          "label": "NIDDK — Colonoscopy",
+          "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/colonoscopy"
+        },
+        {
+          "label": "NHS — Gastroscopy",
+          "url": "https://www.nhs.uk/conditions/gastroscopy/"
+        },
+        {
+          "label": "NHS — Colonoscopy",
+          "url": "https://www.nhs.uk/conditions/colonoscopy/"
+        },
+        {
+          "label": "NICE — Suspected cancer: recognition and referral (NG12)",
+          "url": "https://www.nice.org.uk/guidance/ng12/chapter/recommendations-organised-by-site-of-cancer"
+        },
+        {
+          "label": "Hsieh et al. — Comparison of procedural sequence in same-day bidirectional endoscopy: a systematic review and meta-analysis (Korean J Intern Med, PMC7061013)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7061013/"
+        },
+        {
+          "label": "Snook et al. — British Society of Gastroenterology guidelines for the management of iron deficiency anaemia in adults (Gut, PMC8515119)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8515119/"
+        },
+        {
+          "label": "Kim et al. — Diagnostic yield of bidirectional endoscopy for iron deficiency anemia in young patients (BMC Gastroenterol, PMC11331685)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11331685/"
+        },
+        {
+          "label": "ASGE Standards of Practice Committee — Guidelines for safety in the gastrointestinal endoscopy unit (Gastrointest Endosc, PMC3980655)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3980655/"
+        },
+        {
+          "label": "Romagnuolo et al. — Sedation practices for routine gastrointestinal endoscopy: a systematic review of recommendations (BMC Gastroenterol, PMC7792218)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7792218/"
+        },
+        {
+          "label": "Reumkens et al. — Adverse events related to colonoscopy: Global trends and future challenges (World J Gastroenterol, PMC6337013)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6337013/"
+        },
+        {
+          "label": "Yen et al. — Procedural Sequences in Sedated Same-Day Bidirectional Endoscopy (J Clin Med, PMC8911281)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8911281/"
+        },
+        {
+          "label": "Spada et al. — Factors affecting the quality of bowel preparation for colonoscopy (World J Gastroenterol, PMC10107216)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10107216/"
+        }
+      ]
+    }
+  ]
+}

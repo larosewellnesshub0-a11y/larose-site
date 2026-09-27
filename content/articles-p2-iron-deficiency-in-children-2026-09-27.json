@@ -1,0 +1,211 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of iron-deficiency-in-children; replaces the entry from content/articles-iron-deficiency-children-rewrite-2026-09-21.json. Expanded diagnosis, age-specific risks, food guidance, treatment follow-up, red flags, FAQs, verified sources, internal links, and corrected the paediatrics reviewer.",
+  "articles": [
+    {
+      "slug": "iron-deficiency-in-children",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": ["pediatrics", "clinical-nutrition", "internal-medicine"],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/iron-deficiency-in-children.webp",
+      "title": {
+        "ar": "نقص الحديد عند الأطفال: الأعراض والتحاليل والعلاج",
+        "en": "Iron deficiency in children: symptoms, tests and treatment"
+      },
+      "excerpt": {
+        "ar": "نقص الحديد عند الأطفال ممكن يبدأ قبل الأنيميا الواضحة. اعرف العلامات، ومين يحتاج تحليل، وإزاي الأكل والعلاج والمتابعة بيتحددوا بأمان.",
+        "en": "Iron deficiency in children can begin before obvious anaemia. Learn the signs, who needs testing, and how food, treatment and follow-up are planned safely."
+      },
+      "sections": [
+        {
+          "id": "iron-deficiency-vs-anaemia",
+          "heading": {
+            "ar": "نقص الحديد مش هو نفسه أنيميا نقص الحديد",
+            "en": "Iron deficiency is not the same as iron-deficiency anaemia"
+          },
+          "body": {
+            "ar": "الحديد عنصر أساسي عشان الجسم يصنع الهيموجلوبين اللي بينقل الأكسجين، وكمان بيدخل في نمو المخ والعضلات ووظائف كتير جوه الخلايا [1, 7]. نقص الحديد بيبدأ لما المخزون يقل، وده ممكن يحصل قبل ما الهيموجلوبين ينزل ويظهر في صورة الدم كأنيميا. يعني طفل ممكن يكون عنده مخزون حديد قليل ولسه صورة الدم ما بتقولش أنيميا واضحة؛ والعكس صحيح، مش كل أنيميا سببها الحديد [4, 5, 8]. عشان كده التشخيص ما ينفعش يعتمد على الشحوب لوحده، ولا على رقم هيموجلوبين منفرد، ولا على تجربة مكمل من غير تقييم.\n\nالأطفال محتاجين الحديد في مراحل النمو السريع لأن حجم الدم والأنسجة بيزيد. الرضيع المبتسر أو اللي اتولد بوزن قليل ممكن يبدأ بمخزون أقل، والرضيع اللي بيعتمد على لبن الأم محتاج مصدر حديد مناسب مع دخول الأكل حوالي عمر ٦ شهور حسب تقييم طبيبه، بينما الفورمولا المدعمة بالحديد بتغطي الاحتياج عادةً خلال السنة الأولى [2, 7, 10]. بعد كده، نوع الأكل، وكمية اللبن، وسرعة النمو، وأي فقد دم أو مشكلة امتصاص كلهم بيغيّروا الخطر. الفكرة الأساسية إننا نبص على الطفل كله: سنه، ونموه، وأكله، وأعراضه، وتحاليله مع بعض، مش نعلّق القرار على علامة واحدة [2, 9].",
+            "en": "Iron is essential for making haemoglobin, the protein that carries oxygen, and it also supports brain development, muscles and many cellular functions [1, 7]. Iron deficiency begins when body stores fall, and this may happen before haemoglobin drops enough to appear as anaemia on a blood count. A child can therefore have low iron stores without obvious anaemia; conversely, not every anaemia is caused by iron deficiency [4, 5, 8]. Diagnosis should not rest on pallor alone, one haemoglobin value, or an unsupervised trial of a supplement.\n\nChildren need iron during periods of rapid growth because blood volume and tissues are expanding. A premature or low-birth-weight infant may begin with smaller stores. An infant mainly receiving human milk needs an appropriate iron source as complementary foods begin at around 6 months, according to their clinician's assessment, while iron-fortified formula generally meets needs during the first year [2, 7, 10]. Later risk depends on food pattern, milk volume, growth rate, blood loss and possible malabsorption. The useful question is therefore not simply whether one result is flagged, but how the child's age, growth, diet, symptoms and laboratory pattern fit together [2, 9]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "symptoms-and-urgent-signs",
+          "heading": {
+            "ar": "إيه العلامات، وإمتى التقييم يبقى عاجل؟",
+            "en": "What are the signs, and when is assessment urgent?"
+          },
+          "body": {
+            "ar": "نقص الحديد ممكن يعدّي في بدايته من غير أعراض واضحة. لما الأعراض تظهر، ممكن تلاحظ شحوب، تعب أسرع من المعتاد، قلة نشاط، صداع، دوخة، صعوبة تركيز، قلة شهية، أو نهجان وخفقان مع المجهود. بعض الأطفال يشتهوا الثلج أو التراب أو حاجات مش أكل، وده اسمه بيكا وبيخلي سؤال الحديد مهم [1, 2, 9]. بس الأعراض دي مش خاصة بالحديد؛ قلة النوم، العدوى، مشاكل الغدة، نقص عناصر تانية، أمراض مزمنة أو أسباب دموية مختلفة ممكن تعمل صورة شبهها. والهالات تحت العين أو إن الطفل رفيع مش تشخيص لوحدهم.\n\nاطلب تقييماً عاجلاً لو الطفل عنده صعوبة تنفس وهو مرتاح، إغماء، ألم صدر، خمول شديد أو صعب تصحيه، ضربات قلب سريعة بوضوح، نزيف مستمر، قيء دموي أو براز أسود قطراني من غير تفسير معروف. المراهق اللي عنده دورة غزيرة جداً ومعاها دوخة أو ضعف واضح يحتاج تقييماً سريعاً برضه [2, 8]. ولو الطفل بلع حديد زيادة أو ممكن يكون فتح العبوة، ما تستناش ظهور أعراض وما تحاولش تعالجه في البيت؛ اتصل بالطوارئ أو مركز السموم فوراً وخد العبوة معاك [3]. الأعراض الأخف المستمرة محتاجة موعد قريب، خصوصاً لو معاها تباطؤ نمو، أكل محدود جداً، ألم بطن مزمن، إسهال، دم في البراز أو نقص بيرجع بعد العلاج [2, 6, 9].",
+            "en": "Early iron deficiency may cause no obvious symptoms. When symptoms do appear, they can include pallor, tiring more easily, reduced activity, headache, dizziness, difficulty concentrating, poor appetite, breathlessness or a racing heart with exertion. Some children crave ice, soil or other non-food substances; this is called pica and should prompt a specific discussion about iron [1, 2, 9]. These features are not unique to iron deficiency. Poor sleep, infection, thyroid disease, other nutrient deficiencies, chronic illness and different blood disorders can look similar. Shadows under the eyes or a slim build are not diagnostic by themselves.\n\nSeek urgent assessment if a child has difficulty breathing at rest, faints, has chest pain, is profoundly lethargic or hard to wake, has a clearly rapid heartbeat, ongoing bleeding, vomiting blood, or unexplained black tarry stool. An adolescent with very heavy menstrual bleeding plus marked dizziness or weakness also needs prompt assessment [2, 8]. If a child may have swallowed excess iron or opened the container, do not wait for symptoms or try to manage it at home: contact emergency services or a poison centre immediately and take the package with you [3]. Milder but persistent symptoms merit a timely appointment, especially with faltering growth, an extremely restricted diet, chronic abdominal pain, diarrhoea, blood in stool, or deficiency that returns after treatment [2, 6, 9]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "risk-by-age",
+          "heading": {
+            "ar": "مين احتمال النقص عنده أعلى؟",
+            "en": "Who has a higher chance of deficiency?"
+          },
+          "body": {
+            "ar": "الخطر بيتغيّر مع السن. في أول سنة، الولادة المبكرة أو الوزن القليل عند الولادة، والاعتماد على الرضاعة الطبيعية من غير خطة مناسبة لمصدر الحديد بعد الشهور الأولى، وتأخر إدخال أكل غني بالحديد كلهم عوامل مهمة [2, 10]. من عمر سنة لأربع سنين، النمط الأشهر هو إن اللبن البقري أو بدائله ياخدوا مساحة كبيرة من اليوم فيشبع الطفل ويزيحوا الوجبات الغنية بالحديد. الإرشادات الحديثة بتطلب سؤال الأسرة عن زيادة اللبن وقلة الأكل المحتوي على حديد في كل متابعة نمو خلال السن ده [2, 6, 11]. لو ده قريب من يوم طفلك، دليل الطفل بيشرب لبن كتير ومش بياكل بيفصّل المشكلة العملية من غير ما نكررها هنا.\n\nفي سن المدرسة، الاحتمال عادةً أقل، لكنه يزيد مع أكل محدود جداً، نظام نباتي من غير تخطيط، مرض هضمي يؤثر على الامتصاص، التهاب مزمن، فقد دم أو تبرع متكرر بالدم عند الأكبر سناً [1, 2, 9]. عند المراهقات، النمو السريع وبداية الدورة بيرفعوا الاحتياج، والدورة الغزيرة ممكن تكون سبباً مستمراً لفقد الحديد. توصية أكاديمية طب الأطفال الأمريكية لعام 2026 بتدعم فحص كل المراهقات بصورة دم ومخزون حديد بعد مرور سنة على الأقل من بداية الدورة، وفي موعد أقصاه سن 14 سنة، ثم فحوصات لاحقة حسب الأعراض وعوامل الخطر [2]. التاريخ العائلي لأنيميا وراثية أو نتيجة ما بتتحسنش زي المتوقع يخلّي الطبيب يدور على سبب إضافي بدل ما يزود الحديد عشوائياً [4, 9].",
+            "en": "Risk changes with age. During the first year, prematurity or low birth weight, predominantly human-milk feeding without an appropriate plan for iron after the early months, and delayed introduction of iron-rich complementary foods are important factors [2, 10]. From 1 to 4 years, a common pattern is cow's milk or milk alternatives occupying so much of the day that the child is full and iron-rich meals are displaced. Current guidance asks clinicians to assess excessive milk and inadequate iron-containing food at each well-child visit through this period [2, 6, 11]. If this resembles your child's day, our guide to too much milk, poor appetite and iron risk explains the practical problem without duplicating it here.\n\nIn school-age children, risk is usually lower but rises with a very restricted diet, an inadequately planned vegetarian diet, gastrointestinal disease affecting absorption, chronic inflammation, blood loss, or repeated blood donation in older adolescents [1, 2, 9]. In adolescent girls, rapid growth and menstruation increase requirements, while heavy periods can create continuing iron loss. The 2026 American Academy of Pediatrics report recommends a complete blood count and ferritin for all adolescent girls at least one year after menarche and no later than age 14, followed by later testing according to symptoms and risk factors [2]. A family history of inherited anaemia or results that fail to improve as expected should lead the clinician to seek another or additional cause rather than simply escalating iron [4, 9]."
+          },
+          "links": {
+            "ar": [{"label": "دليل الطفل بيشرب لبن كتير ومش بياكل", "url": "../articles/child-too-much-milk-iron-appetite.html"}],
+            "en": [{"label": "guide to too much milk, poor appetite and iron risk", "url": "../articles/child-too-much-milk-iron-appetite.html"}]
+          }
+        },
+        {
+          "id": "food-pattern",
+          "heading": {
+            "ar": "الأكل يساعد في الوقاية والعلاج، بس من غير مطاردة",
+            "en": "Food supports prevention and treatment without pressure"
+          },
+          "body": {
+            "ar": "مصادر الحديد الحيواني زي اللحمة والفراخ والسمك فيها حديد هيمي الجسم بيمتصه بسهولة أكبر. ومصادر الحديد النباتي تشمل العدس والفول والحمص والتوفو والخضار الورقي والحبوب المدعمة؛ امتصاصها أقل، لكن وجود طماطم أو فلفل أو فاكهة غنية بفيتامين سي في نفس الوجبة بيساعد [1, 7, 11]. الطفل مش لازم ياكل لحمة كل يوم عشان ياخد حديد، ومش كل طفل بيرفض اللحمة عنده نقص. المهم تنوّع المصادر وتكرار عرضها بشكل مناسب للسن، مع تقييم التحاليل لو فيه أعراض أو عوامل خطر. للأفكار المناسبة للرضع من ٦ لـ١٢ شهر، شوف دليل أول أطعمة غنية بالحديد للرضيع بدل ما ندخل في جداول وجبات طويلة هنا.\n\nخلي الوجبات في مواعيد متوقعة، وقدّم كمية صغيرة يقدر الطفل يطلب بعدها زيادة. ما تضغطش عليه ولا تستخدم الحلو كمكافأة، وما تعوضش كل وجبة مرفوضة بزجاجة لبن؛ لأن ده ممكن يثبت دائرة الشبع ورفض الأكل. الشاي مع الوجبات مش اختيار مناسب للأطفال لأنه ممكن يقلل امتصاص الحديد، وكميات اللبن الكبيرة ممكن تزاحم الأكل [1, 6, 11]. لو الطفل نباتي، التخطيط مهم عشان الحديد والبروتين وفيتامين ب12 وعناصر تانية، لكن ما تفترضش النقص من نوع النظام وحده. ولو أنيميا نقص الحديد اتأكدت، الأكل جزء من الخطة لكنه غالباً مش بديل عن جرعة علاج محسوبة؛ الطبيب بيحدد ده حسب شدة النقص وسببه [2, 6, 9].",
+            "en": "Animal sources such as meat, poultry and fish contain haem iron, which is more readily absorbed. Plant sources include lentils, beans, chickpeas, tofu, leafy vegetables and fortified cereals. Their iron is less readily absorbed, but serving tomato, pepper or vitamin-C-rich fruit in the same meal can help [1, 7, 11]. A child does not need meat every day to obtain iron, and refusing meat does not prove deficiency. What matters is offering varied sources repeatedly in an age-appropriate form and arranging tests when symptoms or risk factors justify them. For ideas designed specifically for infants aged 6 to 12 months, see our guide to iron-rich first foods for babies rather than turning this page into a long meal schedule.\n\nKeep meals predictable and begin with a small portion so the child can ask for more. Avoid pressure, using sweets as a reward, or replacing every refused meal with a bottle of milk, because that can reinforce fullness and food refusal. Tea with meals is unsuitable for children because it may reduce iron absorption, while large milk volumes can displace food [1, 6, 11]. Vegetarian children need deliberate planning for iron, protein, vitamin B12 and other nutrients, but the diet label alone does not establish deficiency. When iron-deficiency anaemia is confirmed, food remains part of care but is often not a substitute for a calculated treatment dose; the clinician decides according to severity and cause [2, 6, 9]."
+          },
+          "links": {
+            "ar": [{"label": "دليل أول أطعمة غنية بالحديد للرضيع", "url": "../articles/iron-rich-first-foods-6-to-12-months.html"}],
+            "en": [{"label": "guide to iron-rich first foods for babies", "url": "../articles/iron-rich-first-foods-6-to-12-months.html"}]
+          }
+        },
+        {
+          "id": "tests-and-interpretation",
+          "heading": {
+            "ar": "صورة الدم والفريتين بيتقروا مع بعض وفي سياقهم",
+            "en": "The blood count and ferritin need to be read together and in context"
+          },
+          "body": {
+            "ar": "التقييم بيبدأ بقصة واضحة: سن الطفل، الولادة، نوع الرضاعة، الأكل واللبن، النمو، الأدوية، أعراض الجهاز الهضمي، أي نزيف، والدورة الشهرية عند المراهقات. الطبيب ممكن يطلب صورة دم كاملة ومخزون الحديد (الفريتين)، ويضيف تحاليل حسب القصة والفحص [2, 5, 9]. صورة الدم بتوضح الهيموجلوبين وحجم كرات الدم وتوزيع أحجامها، لكن صغر الكرات مش معناه تلقائياً نقص حديد؛ فيه أسباب تانية زي بعض صفات الهيموجلوبين الوراثية. والفريتين بيساعد في تقدير المخزون، لكنه بروتين بيرتفع مع الالتهاب، فنتيجة طبيعية أو عالية وقت عدوى مش كفاية دائماً لاستبعاد النقص [4, 5].\n\nحدود الهيموجلوبين والفريتين بتختلف حسب العمر والجنس والسياق، وعشان كده ما تقارنش رقم طفل برقم بالغ أو بمرجع من تطبيق عشوائي [2, 8]. أحياناً الطبيب يطلب مؤشرات التهاب أو دراسات حديد إضافية أو فحوصاً لأسباب فقد الدم وسوء الامتصاص. مش كل طفل محتاج كل التحاليل، ومش صح نكرر سحب الدم من غير سؤال سريري واضح. قراءة منحنى الطول والوزن مهمة برضه؛ نقطة واحدة مش القصة كلها. راجع شرح منحنى نمو الطفل مسار مش رقم واحد لو محتاج تفهم ليه الاتجاه عبر الوقت أهم من قياس منفرد. لما النتائج تشير لنقص، الهدف مش بس تسمية الحالة؛ لازم نعرف هل السبب أكل قليل، احتياج أعلى، فقد دم، امتصاص ضعيف، التهاب، أو أكتر من عامل مع بعض [2, 4, 9].",
+            "en": "Assessment starts with a focused history: the child's age, birth history, milk feeding, food and milk intake, growth, medicines, gastrointestinal symptoms, any bleeding, and menstrual history in adolescents. The clinician may request a complete blood count and serum ferritin, then add tests according to the history and examination [2, 5, 9]. A blood count shows haemoglobin, red-cell size and variation in cell size, but small red cells do not automatically mean iron deficiency; other causes include inherited haemoglobin traits. Ferritin helps estimate stores, yet it is an acute-phase protein that rises with inflammation, so a normal or high result during infection does not always exclude deficiency [4, 5].\n\nHaemoglobin and ferritin thresholds vary with age, sex and clinical context, so a child's number should not be compared with an adult range or a random app reference [2, 8]. The clinician may sometimes request inflammatory markers, further iron studies, or tests for blood loss and malabsorption. Not every child needs every test, and repeated blood sampling without a clinical question is unhelpful. The height and weight trajectory also matters; one point does not tell the story. See our explanation that a child's growth curve is a trajectory, not one number if you want to understand why the direction over time matters more than a single measurement. When results support deficiency, the job is not merely to name it, but to determine whether the driver is low intake, increased requirement, blood loss, poor absorption, inflammation, or several factors together [2, 4, 9]."
+          },
+          "links": {
+            "ar": [{"label": "منحنى نمو الطفل مسار مش رقم واحد", "url": "../articles/child-growth-is-a-trajectory.html"}],
+            "en": [{"label": "a child's growth curve is a trajectory, not one number", "url": "../articles/child-growth-is-a-trajectory.html"}]
+          }
+        },
+        {
+          "id": "treatment-and-follow-up",
+          "heading": {
+            "ar": "العلاج جرعة محسوبة ومتابعة للسبب والاستجابة",
+            "en": "Treatment requires a calculated dose and follow-up of cause and response"
+          },
+          "body": {
+            "ar": "لو النقص اتأكد، الطبيب بيختار مستحضر الحديد وجرعته حسب وزن الطفل، وعمره، ودرجة النقص، وهل فيه أنيميا، وقدرته على تحمّل الدواء. ما تقيسش الجرعة بالمعلقة المنزلية، وما تبدّلش بين المنتجات على أساس إن الملليلترات واحدة؛ تركيز الحديد العنصري بيختلف من مستحضر للتاني [2, 6, 9]. الحديد الفموي هو الاختيار الأول في أغلب الحالات، بينما الحديد الوريدي أو نقل الدم لهم مواقف محددة يقررها فريق طبي عند النقص الشديد، سوء الامتصاص، عدم الاستجابة أو عدم الاستقرار، ومش اختصاراً روتينياً للعلاج [2, 9].\n\nممكن يحصل مغص، غثيان، إمساك أو براز أغمق. اتواصل مع الطبيب لو الأعراض صعّبت الالتزام بدل ما توقف العلاج أو تقلل الجرعة من نفسك؛ أحياناً تعديل الطريقة أو المستحضر يحل المشكلة [1, 6]. التحسن في النشاط أو الشهية مفيد، لكنه مش دليل كافي إن المخزون اتملى. إرشادات أكاديمية طب الأطفال بتوصي بمتابعة الاستجابة بصورة الدم، ومعها مؤشرات يحددها الطبيب، وغالباً مراجعة مبكرة للحالات الشديدة ومراجعة حوالَي شهر للحالات المستقرة، ثم متابعة الفريتين بعد مدة العلاج [2]. لو الاستجابة أقل من المتوقع، الطبيب بيراجع الجرعة وطريقة الاستخدام، واستمرار فقد الدم، والالتهاب، وسوء الامتصاص، واحتمال تشخيص تاني. احتفظ بالعبوة مقفولة وبعيدة تماماً عن الأطفال؛ جرعة زيادة من الحديد ممكن تكون مهددة للحياة حتى لو الأعراض هديت مؤقتاً [1, 3].",
+            "en": "When deficiency is confirmed, the clinician selects the iron formulation and dose according to the child's weight, age, severity, presence of anaemia and ability to tolerate treatment. Do not measure a dose with a household spoon or swap products because the millilitre amount looks similar; elemental iron concentration differs between preparations [2, 6, 9]. Oral iron is first-line for most children. Intravenous iron and blood transfusion have specific indications decided by a medical team in severe deficiency, malabsorption, inadequate response or clinical instability; they are not routine shortcuts [2, 9].\n\nAbdominal discomfort, nausea, constipation or darker stool can occur. Contact the clinician if adverse effects make treatment difficult rather than stopping or reducing it independently; changing administration or formulation may help [1, 6]. Better energy or appetite is encouraging but does not prove that stores have been replenished. American Academy of Pediatrics guidance recommends checking haematological response, with the clinician choosing the exact markers and timing: severe cases may need early review, stable cases are commonly reassessed at about one month, and ferritin is followed later in the course [2]. If response is weaker than expected, the clinician revisits the dose and administration, continuing blood loss, inflammation, malabsorption and alternative diagnoses. Keep the container locked and entirely out of children's reach; excess iron can be life-threatening even if early symptoms temporarily settle [1, 3]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "next-step",
+          "heading": {
+            "ar": "خطوتك الجاية: حضّر صورة كاملة بدل التخمين",
+            "en": "Your next step: bring the whole picture rather than guessing"
+          },
+          "body": {
+            "ar": "قبل الموعد، سجّل لمدة ٣ أيام الأكل والمشروبات وكميات اللبن التقريبية، واكتب أي أعراض، وأدوية أو مكملات، ونتائج تحاليل قديمة. هات قياسات الطول والوزن السابقة لو موجودة، وللمراهقات دوّن مدة الدورة ومدى غزارتها بشكل عملي. المعلومات دي بتساعد الطبيب يقرر هل الطفل محتاج تحاليل دلوقتي، وإيه التحاليل المناسبة، وهل الخطة تركّز على الأكل وحده أو علاج ومتابعة لسبب واضح [2, 9]. ولو المشكلة الأساسية هي الرفض والضغط وقت الأكل من غير علامات نقص، مقال شهية الطفل: إمتى القلق وإزاي نتعامل؟ بيفصل الجانب السلوكي عشان الصفحة دي ما توسعش في موضوع مختلف.\n\nفي العيادة، تقييم الأطفال يبدأ بالتاريخ، والفحص، ومراجعة النمو والأكل، ثم تُطلب الفحوصات عند وجود داعٍ طبي. مفيش تحليل واحد أو مكمل واحد يناسب كل طفل، والقرار النهائي بيتفصّل حسب الحالة من غير وعود بنتيجة مضمونة. لو عندك أعراض مستمرة، عامل خطر واضح، أو تحليل محتاج تفسير، تقدر تطلب حجز استشارة أطفال عشان تتراجع الصورة كاملة ويتحدد المسار الآمن [2, 6]. المعلومات هنا للتوعية ومش بديل عن تقييم الطبيب، خصوصاً مع علامات الخطر أو احتمال بلع جرعة زيادة.",
+            "en": "Before the appointment, record three ordinary days of food, drinks and approximate milk volumes, together with symptoms, medicines, supplements and previous test results. Bring earlier height and weight measurements if available. For adolescents, record the duration and practical heaviness of menstrual bleeding. This information helps the clinician decide whether tests are needed now, which tests answer the question, and whether the plan should focus on food alone or include treatment and investigation of a specific cause [2, 9]. If the main concern is food refusal and mealtime pressure without signs of deficiency, our guide to children's appetite: when to worry and how to respond covers the behavioural side without expanding this page into a different topic.\n\nIn clinic, paediatric assessment begins with history, examination, and review of growth and food intake; investigations are ordered when medically indicated. No single test or supplement suits every child, and the final decision is individualised without a promised outcome. If symptoms persist, a clear risk factor is present, or a result needs interpretation, you can request a paediatric consultation so the whole picture can be reviewed and a safe path agreed [2, 6]. This information is educational and does not replace medical assessment, especially when urgent signs or possible excess ingestion are present."
+          },
+          "links": {
+            "ar": [
+              {"label": "شهية الطفل: إمتى القلق وإزاي نتعامل؟", "url": "../articles/childrens-appetite.html"},
+              {"label": "تطلب حجز استشارة أطفال", "url": "../patients/booking.html"}
+            ],
+            "en": [
+              {"label": "children's appetite: when to worry and how to respond", "url": "../articles/childrens-appetite.html"},
+              {"label": "request a paediatric consultation", "url": "../patients/booking.html"}
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {"ar": "أدي الطفل حديد من غير تحليل؟", "en": "Should I give my child iron without a blood test?"},
+          "a": {
+            "ar": "ما تبدأش جرعة علاج من نفسك. بعض الرضع لهم وقاية محددة حسب نوع الرضاعة وعمر الحمل، لكن ده غير علاج نقص مؤكد. الطبيب بيراجع السن والأكل والأعراض وعوامل الخطر، ويحدد هل صورة الدم والفريتين مطلوبين وإيه الجرعة المناسبة لو ثبت النقص [2, 10]. زيادة الحديد ممكن تكون سامة، فخليه بعيد تماماً عن الأطفال [1, 3].",
+            "en": "Do not begin a treatment dose independently. Some infants have specific preventive needs based on feeding and gestational age, but that is different from treating confirmed deficiency. The clinician reviews age, diet, symptoms and risks, then decides whether a blood count and ferritin are needed and what dose is appropriate if deficiency is confirmed [2, 10]. Excess iron can be toxic, so keep it completely out of children's reach [1, 3]."
+          }
+        },
+        {
+          "q": {"ar": "في أي سن يتعمل فحص الحديد الروتيني؟", "en": "At what age is routine iron screening performed?"},
+          "a": {
+            "ar": "توصية أكاديمية طب الأطفال الأمريكية لعام 2026 بتحدد الفحص بين ٩ و١٢ شهراً للرضيع اللي اعتمد أساساً على لبن الأم، وبين ١٥ و١٨ شهراً للي اعتمد أساساً على فورمولا مدعمة عند الانتقال للبن، مع تقييم عوامل الخطر لحد سن ٤ سنوات. وتوصي بفحص المراهقات بعد سنة على الأقل من بداية الدورة وفي موعد أقصاه ١٤ سنة [2]. الطبيب يكيّف ده حسب الطفل والنظام الصحي المحلي.",
+            "en": "The 2026 American Academy of Pediatrics report recommends screening at 9–12 months for infants primarily fed human milk and at 15–18 months for those primarily fed iron-fortified formula as they transition to milk, with risk assessment through age 4. It also recommends screening adolescent girls at least one year after menarche and no later than age 14 [2]. The clinician adapts this to the child and local health system."
+          }
+        },
+        {
+          "q": {"ar": "هل الأكل وحده يعالج أنيميا نقص الحديد؟", "en": "Can food alone treat iron-deficiency anaemia?"},
+          "a": {
+            "ar": "الأكل الغني بالحديد مهم عشان يصلح السبب الغذائي ويمنع رجوع المشكلة، لكنه غالباً مش كفاية لو الأنيميا أو نقص المخزون اتأكدوا. أغلب الأطفال بيتعالجوا بحديد فموي بجرعة محسوبة مع تعديل الأكل، والطبيب يحدد المدة والمتابعة حسب الشدة والاستجابة [2, 6, 9]. ما تستخدمش خطة طفل تاني لأن تركيز المستحضرات والأسباب بيختلفوا.",
+            "en": "Iron-rich food is important for correcting a dietary driver and preventing recurrence, but it is often insufficient once anaemia or depleted stores are confirmed. Most children are treated with a calculated oral iron dose alongside food changes, with duration and monitoring based on severity and response [2, 6, 9]. Do not copy another child's plan because formulations and underlying causes differ."
+          }
+        },
+        {
+          "q": {"ar": "هل الدورة الغزيرة عند المراهقة ممكن تسبب نقص حديد؟", "en": "Can heavy periods cause iron deficiency in an adolescent?"},
+          "a": {
+            "ar": "أيوه، فقد الدم الشهري ممكن يستنزف المخزون، وخصوصاً لو الدورة طويلة أو غزيرة ومعاها تعب، دوخة أو اشتهاء ثلج. التقييم يشمل صورة دم وفريتين حسب إرشادات الطبيب، ومهم علاج سبب النزيف نفسه مش الحديد بس [2]. النزيف الغزير جداً مع إغماء، نهجان أو ضعف واضح يحتاج تقييماً عاجلاً.",
+            "en": "Yes. Menstrual blood loss can deplete iron stores, especially when periods are prolonged or heavy and accompanied by fatigue, dizziness or ice craving. Assessment includes a blood count and ferritin as directed, while the cause of bleeding needs attention rather than treating iron alone [2]. Very heavy bleeding with fainting, breathlessness or marked weakness needs urgent assessment."
+          }
+        },
+        {
+          "q": {"ar": "البراز الغامق مع الحديد طبيعي؟", "en": "Is dark stool normal during iron treatment?"},
+          "a": {
+            "ar": "الحديد ممكن يغمّق لون البراز ويسبب إمساك أو مغص عند بعض الأطفال [1, 6]. لكن براز أسود قطراني لزج، أو دم، أو قيء دموي، أو ألم شديد، أو دوخة مش حاجة نفترض إنها من العلاج؛ اتواصل مع طبيب بسرعة. ولو فيه احتمال جرعة زيادة، اتصل بالطوارئ أو مركز السموم فوراً حتى لو الطفل شكله كويس [3].",
+            "en": "Iron can darken stool and may cause constipation or abdominal discomfort in some children [1, 6]. However, sticky black tarry stool, visible blood, vomiting blood, severe pain or dizziness should not simply be attributed to treatment; seek prompt medical advice. If excess ingestion is possible, contact emergency services or a poison centre immediately even if the child appears well [3]."
+          }
+        },
+        {
+          "q": {"ar": "إمتى التحليل يتحسن، وإمتى يتكرر؟", "en": "When should results improve, and when are tests repeated?"},
+          "a": {
+            "ar": "الموعد بيعتمد على شدة الحالة واستقرار الطفل. الحالات الشديدة ممكن تحتاج مراجعة خلال أيام، بينما الحالات المستقرة غالباً يتراجع فيها تعداد الدم حوالَي شهر بعد بدء العلاج، مع متابعة لاحقة لمخزون الحديد [2]. ما توقفش العلاج لمجرد إن النشاط اتحسن؛ الطبيب يحدد المدة بناءً على الهيموجلوبين والفريتين والسبب، ويعيد التقييم لو الاستجابة أقل من المتوقع [2, 9].",
+            "en": "Timing depends on severity and clinical stability. Severe cases may need review within days, while stable cases are commonly reassessed with a blood count at about one month and later ferritin follow-up [2]. Do not stop simply because energy improves; the clinician sets duration according to haemoglobin, ferritin and cause, and reassesses the diagnosis when response is less than expected [2, 9]."
+          }
+        }
+      ],
+      "sources": [
+        {"label": "NIH Office of Dietary Supplements — Iron Fact Sheet for Consumers", "url": "https://ods.od.nih.gov/pdf/factsheets/Iron-Consumer.pdf"},
+        {"label": "Powers JM, Heeney MM, Hord J, et al. — Prevention, Screening, Diagnosis, and Treatment of Iron Deficiency and Iron Deficiency Anemia in Infants, Children, and Adolescents (Pediatrics 2026; PMID 42324084)", "url": "https://pubmed.ncbi.nlm.nih.gov/42324084/"},
+        {"label": "MedlinePlus Medical Encyclopedia — Iron overdose", "url": "https://medlineplus.gov/ency/article/002659.htm"},
+        {"label": "Garcia-Casal MN, Dary O, Jefferds ME, Pasricha SR — Diagnosing anemia: challenges selecting methods, addressing underlying causes, and implementing actions at the public health level", "url": "https://stacks.cdc.gov/view/cdc/149327"},
+        {"label": "World Health Organization — Guideline on use of ferritin concentrations to assess iron status in individuals and populations", "url": "https://www.who.int/publications/i/item/9789240000124"},
+        {"label": "Royal Children's Hospital Melbourne — Clinical Practice Guideline: Iron deficiency", "url": "https://www.rch.org.au/clinicalguide/guideline_index/Iron_deficiency/"},
+        {"label": "CDC — Iron: Infant and Toddler Nutrition", "url": "https://www.cdc.gov/infant-toddler-nutrition/vitamins-minerals/iron.html"},
+        {"label": "World Health Organization — Guideline on haemoglobin cutoffs to define anaemia in individuals and populations", "url": "https://www.who.int/publications/i/item/9789240088542"},
+        {"label": "Mattiello V, Schmugge M, Hengartner H, et al. — Diagnosis and management of iron deficiency in children with or without anemia: SPOG consensus recommendations (PMID 32020331)", "url": "https://pubmed.ncbi.nlm.nih.gov/32020331/"},
+        {"label": "CDC — Iron and breastfeeding special circumstances", "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/iron.html"},
+        {"label": "CDC MMWR — Recommendations to Prevent and Control Iron Deficiency in the United States", "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00051880.htm"}
+      ],
+      "tags": {
+        "ar": ["نقص الحديد عند الأطفال", "أنيميا الأطفال", "مخزون الحديد", "شهية الطفل"],
+        "en": ["iron deficiency in children", "childhood anaemia", "ferritin", "child appetite"]
+      },
+      "seo": {
+        "title": {
+          "ar": "نقص الحديد عند الأطفال: الأعراض والعلاج",
+          "en": "Iron deficiency in children: signs and treatment"
+        },
+        "description": {
+          "ar": "دليل عملي عن نقص الحديد عند الأطفال: الأعراض، عوامل الخطر، تحاليل صورة الدم والفريتين، الأكل، العلاج، وإمتى تحتاج تقييماً عاجلاً.",
+          "en": "A practical guide to iron deficiency in children: signs, risks, blood count and ferritin tests, food, treatment, follow-up, and urgent warning signs."
+        }
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا شرح الأعراض وعوامل الخطر والتحاليل والأكل والعلاج والمتابعة، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded the symptoms, risk factors, tests, food, treatment and follow-up guidance, and medically re-reviewed the content."
+          }
+        }
+      ]
+    }
+  ]
+}

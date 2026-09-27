@@ -1,0 +1,317 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of kidney-stones-symptoms-and-tests; replaces the entry from content/articles-kidney-stones-rewrite-2026-09-17.json. Expanded symptom triage, test selection and interpretation, follow-up, FAQs and internal links, with refreshed medically reviewed sourcing.",
+  "articles": [
+    {
+      "slug": "kidney-stones-symptoms-and-tests",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "internal-medicine",
+      "specialties": [
+        "internal-medicine",
+        "ultrasound"
+      ],
+      "date": "2026-09-07",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا شرح أعراض حصوات الكلى وعلامات الخطر واختيار التحاليل والأشعة والمتابعة، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded kidney-stone symptoms, warning signs, test selection and follow-up, and medically re-reviewed the content."
+          }
+        }
+      ],
+      "image": "assets/img/articles/kidney-stones-symptoms-and-tests.webp",
+      "title": {
+        "ar": "أعراض حصوات الكلى: السونار والتحاليل وعلامات الخطر",
+        "en": "Kidney stone symptoms, scans and warning signs"
+      },
+      "excerpt": {
+        "ar": "ألم الجنب أو الدم في البول ممكن يحصل مع حصوة، لكنه مش تشخيص لوحده. اعرف إمتى تحتاج تقييماً عاجلاً، وإزاي الطبيب بيختار بين السونار والمقطعية والتحاليل.",
+        "en": "Flank pain or blood in urine can occur with a stone, but neither proves the diagnosis. Learn when care is urgent and how clinicians choose ultrasound, CT and laboratory tests."
+      },
+      "sections": [
+        {
+          "id": "symptoms-and-pattern",
+          "heading": {
+            "ar": "أعراض حصوات الكلى: النمط مهم مش عرض واحد",
+            "en": "Kidney stone symptoms: the pattern matters, not one symptom"
+          },
+          "body": {
+            "ar": "حصوة الكلى ممكن تفضل ساكتة جوه الكلية، والأعراض غالباً بتبدأ لما تتحرك أو تدخل الحالب، وهو الأنبوب اللي بينقل البول للمثانة. النمط المعروف هو ألم قوي في الجنب أو الظهر تحت الضلوع، ممكن ينزل لأسفل البطن أو ناحية الفخذ، وييجي على موجات وتتغير شدته. الغثيان أو القيء، حرقان البول، الإلحاح أو التبول بكميات صغيرة، والبول الوردي أو الأحمر أو البني ممكن يظهروا معاه. لكن مش لازم كل الأعراض تحصل، وشدة الألم مش مقياس دقيق لحجم الحصوة [1, 2, 3, 4].\n\nالمهم إن الأعراض دي مش خاصة بالحصوات وحدها. التهاب المسالك أو الكلى، مشاكل المرارة أو الجهاز الهضمي، أسباب عضلية، وبعض الحالات الجراحية أو المرتبطة بالحمل ممكن تعمل ألماً قريباً. وجود دم في البول كمان له أسباب متعددة، حتى لو مفيش ألم. عشان كده ما ينفعش تحدد التشخيص من مكان الوجع أو لون البول، وما تعتبرش نوبة جديدة نسخة من نوبة قديمة من غير تقييم لو النمط اتغير [1, 3, 5].\n\nلما تحكي القصة للطبيب، اذكر إمتى الألم بدأ، هل بيتحرك، هل بييجي على موجات، وهل فيه حرارة أو رعشة أو قيء أو تغير في البول. قول كمان لو عندك حصوات سابقة، كلية واحدة، مرض كلى، حمل محتمل، عملية في الجهاز الهضمي، أو أدوية ومكملات جديدة. التفاصيل دي بتساعد في تحديد هل الاحتمال حصوة فعلاً، وإيه الاختبار المناسب، وقد إيه التقييم مستعجل [2, 5, 6].",
+            "en": "A kidney stone can remain silent inside the kidney. Symptoms often begin when it moves or enters the ureter, the tube carrying urine to the bladder. A typical pattern is intense pain in the side or back below the ribs that may travel into the lower abdomen or groin, come in waves and vary in severity. Nausea or vomiting, burning during urination, urgency, passing small amounts, and pink, red or brown urine may accompany it. Not everyone has every symptom, and pain intensity does not reliably measure stone size [1, 2, 3, 4].\n\nThese symptoms are not unique to stones. Urinary or kidney infection, digestive or muscular problems, and some surgical or pregnancy-related conditions can produce similar pain. Blood in urine also has several causes. Pain location or urine colour cannot establish the diagnosis, especially when a new episode differs from an old one [1, 3, 5].\n\nWhen describing the episode, say when pain began, whether it travels or comes in waves, and whether fever, chills, vomiting or urinary change is present. Also mention prior stones, a single kidney, kidney disease, possible pregnancy, digestive-tract surgery, and new medicines or supplements. These details help the clinician judge whether a stone is likely, which test fits the question and how urgently assessment is needed [2, 5, 6]."
+          }
+        },
+        {
+          "id": "urgent-warning-signs",
+          "heading": {
+            "ar": "إمتى أعراض الحصوة تحتاج تقييماً عاجلاً؟",
+            "en": "When do possible stone symptoms need urgent assessment?"
+          },
+          "body": {
+            "ar": "ما تستناش موعداً عادياً لو ألم الجنب شديد ومش بيتحكم فيه العلاج الموصوف، أو لو فيه حرارة أو رعشة، قيء متكرر يمنعك من الاحتفاظ بالسوائل، تدهور عام واضح، ارتباك أو إغماء. الألم مع علامات عدوى وانسداد محتمل محتاج قراراً سريعاً، لأن تصريف البول والعلاج قد يكونوا أهم من انتظار الحصوة تنزل. وصعوبة خروج البول، قلة شديدة في كميته أو توقفه، خصوصاً مع الألم، محتاجين تقييماً عاجلاً برضه [1, 4, 6, 7].\n\nالدم الظاهر في البول يستحق تواصلاً طبياً سريعاً، ومش مفروض تنسبه تلقائياً لحصوة. الأولوية بتزيد لو عندك كلية واحدة، مرض كلوي معروف، مناعة ضعيفة، حمل أو احتمال حمل، أو لو الألم مختلف تماماً عن أي نوبة سابقة. في الحمل، اختيار التصوير والأدوية بيتغير، فلا تحجز أشعة من نفسك أو تؤجل المراجعة وأنت مستني تشخيصاً منزلياً [2, 5, 6].\n\nلو الحالة غير مستقرة، اتبع تعليمات خدمة الطوارئ المحلية وما تسوقش بنفسك. وجود تقرير سونار طبيعي قديم مش ضمان إن الوضع الحالي بسيط؛ التقرير بيجاوب سؤالاً في وقت محدد. وعلى العكس، الألم القوي وحده ما يثبتش إن فيه انسداد خطير. التقييم العاجل بيجمع العلامات الحيوية، الفحص، البول والدم والتصوير حسب الحالة عشان يفرّق بينهم [5, 6, 7].",
+            "en": "Do not wait for a routine appointment when flank pain is severe and not controlled by the prescribed plan, or when there is fever or chills, repeated vomiting that prevents fluids, obvious deterioration, confusion or fainting. Pain with possible infection and obstruction needs a prompt decision because drainage and treatment may matter more than waiting for a stone to pass. Difficulty passing urine, a marked reduction in urine or inability to urinate, particularly with pain, also needs urgent assessment [1, 4, 6, 7].\n\nVisible blood in urine deserves prompt medical contact and should not automatically be attributed to a stone. Priority is higher with one kidney, known kidney disease, reduced immunity, pregnancy or possible pregnancy, or pain that is entirely different from earlier episodes. Pregnancy changes both imaging and medicine choices, so do not arrange imaging independently or delay review while attempting a home diagnosis [2, 5, 6].\n\nIf you are unstable, follow local emergency-service instructions and do not drive yourself. An old normal ultrasound does not guarantee that the current situation is minor; a report answers a question at a particular time. Conversely, severe pain alone does not prove dangerous obstruction. Urgent assessment combines vital signs, examination, urine and blood testing, and imaging when indicated to distinguish these possibilities [5, 6, 7]."
+          }
+        },
+        {
+          "id": "history-urine-blood-tests",
+          "heading": {
+            "ar": "تحليل البول والدم: بيجاوبوا عن إيه؟",
+            "en": "Urine and blood tests: what do they answer?"
+          },
+          "body": {
+            "ar": "التقييم بيبدأ بالقصة والفحص، مش بصورة الأشعة وحدها. الطبيب ممكن يطلب تحليل بول عشان يدور على دم، خلايا صديد أو علامات عدوى، وبلورات أو معلومات تانية حسب الحالة. عدم ظهور دم ما ينفيش الحصوة بشكل قاطع، وظهوره ما يثبتهاش. ولو فيه اشتباه عدوى، مزرعة البول ممكن تساعد في تحديد البكتيريا والعلاج، لكن قرار الاستعجال ما يستناش النتيجة النهائية لو الحالة العامة مقلقة [1, 5, 6].\n\nتحاليل الدم ممكن تشمل وظائف الكلى ومؤشرات العدوى، وأحياناً أملاحاً أو اختبارات موجهة حسب التاريخ والفحص. الهدف وقت النوبة هو معرفة تأثير المشكلة وهل فيه عدوى أو جفاف أو اضطراب يحتاج تدخل، مش عمل كل تحاليل تكوين الحصوات مرة واحدة. نتيجة كرياتينين قديمة طبيعية مش بديل عن تقييم جديد لو البول قل أو القيء مستمر [5, 6, 8].\n\nبعد خروج حصوة، احتفظ بها في وعاء مناسب لو الطبيب طلب، لأن تحليل تركيبها ممكن يوجّه الوقاية. ولو الحصوات بتتكرر أو عندك عوامل خطر، ممكن يناقش الطبيب تحاليل دم وبول موجهة، وأحياناً جمع بول لمدة أربع وعشرين ساعة. دي مرحلة مختلفة عن إنقاذ نوبة مؤلمة أو استبعاد انسداد وعدوى، فالأولوية والترتيب بيتحددوا فردياً [6, 8, 9].",
+            "en": "Assessment begins with the history and examination, not an image alone. A clinician may request urinalysis to look for blood, white cells or other signs of infection, crystals, and other information relevant to the situation. No blood on testing does not conclusively exclude a stone, while blood does not prove one. If infection is suspected, urine culture can help identify bacteria and guide treatment, but an urgent decision should not wait for the final result when the person is clinically unwell [1, 5, 6].\n\nBlood tests may include kidney function and markers of infection, with electrolytes or other targeted tests according to the history and examination. During an acute episode, the purpose is to assess impact and identify infection, dehydration or another disturbance that changes management, not to perform every stone-formation test at once. A previously normal creatinine result does not replace current assessment if urine output falls or vomiting continues [5, 6, 8].\n\nIf a stone passes, keep it in an appropriate container when the clinician asks because laboratory analysis of its composition can guide prevention. Recurrent stones or particular risk factors may lead to targeted blood and urine testing, sometimes including a 24-hour urine collection. That is a different stage from managing acute pain or excluding infection and obstruction, so the priority and sequence are individual decisions [6, 8, 9]."
+          }
+        },
+        {
+          "id": "ultrasound-versus-ct",
+          "heading": {
+            "ar": "السونار ولا المقطعية: ليه الاختيار بيختلف؟",
+            "en": "Ultrasound or CT: why does the choice differ?"
+          },
+          "body": {
+            "ar": "السونار ما فيهوش أشعة مؤينة، وممكن يبين حصوات معينة، توسع نظام تجميع البول أو علامات غير مباشرة لانسداد. ده يخليه اختياراً مهماً في مواقف كتير، وخصوصاً لما تقليل الإشعاع أولوية. لكنه ممكن ما يلقطش حصوة صغيرة أو حصوة في جزء من الحالب، وجودة الصورة بتتأثر بعوامل تقنية وتشريحية. عشان كده سونار طبيعي مش دايماً نهاية التقييم لو الأعراض والفحص لسه مقلقين [5, 6, 11].\n\nالأشعة المقطعية من غير صبغة بتدي عادة تفاصيل أدق عن وجود الحصوة ومكانها وحجمها، وممكن تكشف سبباً آخر للألم، لكنها بتستخدم إشعاعاً. هل المقطعية مطلوبة فوراً، بعد سونار، أو مش مطلوبة أصلاً؟ الإجابة بتعتمد على السن، الحمل، شدة الحالة، احتمال تشخيصات تانية، تاريخ الأشعة السابق، وهل النتيجة هتغير الخطة. دراسة عشوائية كبيرة في الطوارئ لقت إن البدء بالسونار قلل التعرض التراكمي للإشعاع من غير فرق واضح في النتائج السريرية الرئيسية مقارنة بالبدء بالمقطعية، مع بقاء قرار التصوير اللاحق للطبيب [6, 11].\n\nما تطلبش فحصاً على أساس إن واحد «أقوى» بشكل مطلق. اسأل: إيه السؤال اللي بنحاول نجاوبه؟ هل بنبحث عن حصوة، انسداد، عدوى، أو سبب بديل؟ وهل نتيجة الفحص هتغير التصرف؟ دليل سونار البطن والحوض بيشرح إمكانيات السونار وحدوده بشكل أوسع، من غير ما يفترض إن كل ألم في الجنب محتاج نفس المسار [5, 6].",
+            "en": "Ultrasound uses no ionising radiation and may show selected stones, urinary-tract dilatation or indirect evidence of obstruction. It can nevertheless miss a small stone or one in part of the ureter, and image quality is affected by technical and anatomical factors. A normal ultrasound therefore does not always end the assessment when symptoms and examination remain concerning [5, 6, 11].\n\nNon-contrast CT usually provides more precise detail about a stone's presence, location and size, and may reveal another cause of pain, but it uses radiation. The need for CT depends on age, pregnancy, severity, alternative diagnoses, prior imaging and whether the result will change management. A large randomised emergency-department trial found that starting with ultrasound reduced cumulative radiation exposure without significantly changing major clinical outcomes compared with starting with CT [6, 11].\n\nDo not request a test because one is described as universally “stronger.” Ask which question needs answering: Are we looking for a stone, obstruction, infection or an alternative cause, and will the result change the next action? The abdominal and pelvic ultrasound guide explains the wider capabilities and limits of ultrasound without suggesting that every episode of flank pain should follow the same pathway [5, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل سونار البطن والحوض",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "abdominal and pelvic ultrasound guide",
+                "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "reading-imaging-results",
+          "heading": {
+            "ar": "إزاي تقرأ نتيجة الأشعة من غير طمأنة أو قلق زيادة؟",
+            "en": "How should an imaging result be read without false reassurance or alarm?"
+          },
+          "body": {
+            "ar": "تقرير الأشعة لازم يتقري مع سبب طلب الفحص. مكان الحصوة وحجمها مهمين، لكنهم مش كل القرار؛ الطبيب بيبص كمان على وجود توسع أو انسداد، علامات عدوى، وظيفة الكلى، شدة الأعراض، والكلية التانية. حصوة اتلاقت بالصدفة جوه الكلية ممكن ما تكونش سبب الألم الحالي، بينما علامة انسداد مع أعراض مناسبة ممكن تغير سرعة التصرف [5, 6, 8].\n\nلو التقرير قال إن مفيش حصوة ظاهرة أو إن السونار طبيعي، اسأل هل الحالب اتشاف كويس وهل السؤال الأساسي اتجاوب. دليل السونار الطبيعي مع استمرار الألم بيوضح ليه النتيجة المطمئنة مش بتلغي مراجعة العرض المستمر أو المتغير. ده مش معناه إنك لازم تعمل مقطعية تلقائياً؛ معناه إن الطبيب يراجع الاحتمال، جودة الفحص، وعلامات الخطر قبل اختيار متابعة أو اختبار مختلف [5, 6].\n\nخد معاك التقرير والصور لو متاحة، وأي أشعة قديمة عشان المقارنة. ما تعتمدش على قياس من صورة الموبايل أو شرح غير طبي، وما تبدأش مضاداً حيوياً أو دواء لطرد الحصوة من وصفة قديمة. اسأل بوضوح: هل فيه انسداد؟ هل فيه عدوى محتملة؟ هل الحصوة تفسر الأعراض؟ وإمتى أرجع قبل الموعد؟ الإجابات دي أهم من حفظ المصطلحات [5, 6, 8].",
+            "en": "An imaging report must be interpreted in the context of why the examination was requested. Stone location and size matter, but they are not the whole decision. The clinician also considers dilatation or obstruction, evidence of infection, kidney function, symptom severity and the other kidney. A stone found incidentally within a kidney may not explain the current pain, while evidence of obstruction with a matching presentation may change the speed of action [5, 6, 8].\n\nIf the report says that no stone is visible or that ultrasound is normal, ask whether the ureter was adequately seen and whether the original question was answered. The guide to a normal ultrasound with continuing pain explains why a reassuring result does not cancel a persistent or changing symptom. This does not mean CT is automatically required; it means the clinician reviews probability, examination quality and warning features before choosing observation or another test [5, 6].\n\nBring the report and images when available, along with prior imaging for comparison. Do not rely on a measurement taken from a phone image or a non-clinical interpretation, and do not start an antibiotic or a stone-passage medicine from an old prescription. Ask directly whether there is obstruction, whether infection is possible, whether the stone explains the symptoms and which change should bring you back early. Those answers matter more than memorising terminology [5, 6, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل السونار الطبيعي مع استمرار الألم",
+                "url": "../articles/normal-ultrasound-does-not-end-assessment.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "guide to a normal ultrasound with continuing pain",
+                "url": "../articles/normal-ultrasound-does-not-end-assessment.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "after-a-stone-is-found",
+          "heading": {
+            "ar": "بعد ما الحصوة تظهر: المتابعة مش معناها الانتظار من غير خطة",
+            "en": "After a stone is found: observation still needs a plan"
+          },
+          "body": {
+            "ar": "مش كل حصوة تحتاج إجراء، ومش كل حصوة ينفع تستنى تنزل لوحدها. الاحتمال والخطة بيتأثروا بالحجم والمكان، التحكم في الألم، القدرة على الشرب، وجود انسداد أو عدوى، ووظيفة الكلى وظروفك الصحية. لو المتابعة المنزلية مناسبة، لازم تعرف الدواء الموصوف، طريقة استخدامه، موعد المراجعة، هل مطلوب تصفية البول لجمع الحصوة، وإيه العلامات اللي ترجع بسببها فوراً [6, 7, 8].\n\nما تحاولش تدفع الحصوة بشرب كمية ضخمة فجأة، خصوصاً لو بترجع أو عندك تعليمات بتحديد السوائل بسبب القلب أو الكلى. اشرب بالطريقة اللي يحددها الفريق لحالتك، وخد المسكنات أو الأدوية الموصوفة فقط. ولو الألم رجع أقوى، ظهرت حرارة، قل البول أو ما قدرتش تحتفظ بالسوائل، الخطة القديمة مش كفاية واحتياجك للتقييم بيتغير [1, 7, 8].\n\nسؤال حصوة الكلى الصغيرة تنزل في البيت؟ له تفاصيل مختصرة في صفحة منفصلة عشان المقال ده ما يتحولش لدليل علاج. الفكرة الأساسية إن كلمة «صغيرة» مش قرار علاجي، وإن المتابعة الآمنة فيها نقطة مراجعة واضحة وتأكيد لما إذا كانت الحصوة خرجت أو ما زالت مؤثرة. أي دواء أو إجراء يفضل قراراً فردياً مع الطبيب المعالج [6, 8].",
+            "en": "Not every stone needs a procedure, and not every stone is suitable for waiting at home. The likelihood and plan depend on size and location, pain control, the ability to drink, obstruction or infection, kidney function and individual health circumstances. If home observation is appropriate, you should know the prescribed medicine and how to use it, the review date, whether urine should be strained to collect the stone, and which changes require an immediate return [6, 7, 8].\n\nDo not try to force a stone through by suddenly drinking an excessive amount, particularly if you are vomiting or have heart- or kidney-related fluid restrictions. Drink according to the advice given for your situation and use only prescribed pain relief or other medicines. If pain becomes stronger, fever appears, urine output falls or fluids cannot be kept down, the old plan is no longer sufficient and the need for assessment changes [1, 7, 8].\n\nThe separate answer to can a small kidney stone pass at home provides a concise discussion so this article does not become a treatment manual. The central point is that “small” is not itself a management decision and safe observation includes a defined review point and a way to establish whether the stone has passed or remains clinically important. Any medicine or procedure remains an individual decision with the treating clinician [6, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "حصوة الكلى الصغيرة تنزل في البيت؟",
+                "url": "../articles/qa-kidney-stone-pass-at-home.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "can a small kidney stone pass at home",
+                "url": "../articles/qa-kidney-stone-pass-at-home.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "recurrence-and-prevention",
+          "heading": {
+            "ar": "منع التكرار بيبدأ من نوع الحصوة وظروفك",
+            "en": "Prevention starts with stone type and individual circumstances"
+          },
+          "body": {
+            "ar": "بعد هدوء النوبة، اسأل هل محتاج تأكيد خروج الحصوة أو متابعة وظيفة الكلى، وهل الحصوة متاحة للتحليل. تكرار الحصوات، وجود حصوات متعددة، سن صغير عند أول نوبة أو ظروف صحية معينة ممكن يخلي الطبيب يقترح تقييماً أوسع. الهدف إن الخطة تتبني على السبب المحتمل ونوع الحصوة، مش على قائمة منع عامة من الإنترنت [6, 8, 9].\n\nالسوائل الكافية غالباً جزء أساسي من الوقاية، لكن الكمية المناسبة بتختلف مع الجو والنشاط وأمراض القلب أو الكلى وتعليمات الطبيب. الطعام كمان بيتعامل معاه حسب النوع؛ الصوديوم، البروتين الحيواني، الأوكسالات والكالسيوم الغذائي مش بيتغيروا بنفس الطريقة لكل شخص. ما توقفش الألبان أو مجموعة أكل كاملة، وما تبدأش مكملات أو أدوية للوقاية من نفسك، لأن المنع العشوائي ممكن يضر من غير ما يمنع النوع اللي عندك [8, 9, 10].\n\nاكتب الأسئلة اللي هتحتاجها في المتابعة: نوع الحصوة لو معروف، نتيجة البول والدم، كمية السوائل المناسبة، وهل محتاج جمع بول لمدة أربع وعشرين ساعة أو متابعة تصوير. الخطة الواقعية بتكون خطوات قابلة للاستمرار مع موعد مراجعة، ومش وعد إن الحصوة عمرها ما هترجع. ولو ظهرت علامات الخطر في أي نوبة جديدة، ارجع لمسار التقييم العاجل بدل الاكتفاء بخطة الوقاية [6, 8, 9].",
+            "en": "After the acute episode settles, ask whether stone passage or kidney function needs confirmation and whether the stone is available for analysis. Recurrent stones, multiple stones, a young age at the first episode or particular medical circumstances may lead the clinician to propose a wider evaluation. The aim is to base prevention on the likely cause and stone type rather than a universal restriction list found online [6, 8, 9].\n\nAdequate fluid intake is commonly central to prevention, but the suitable amount varies with climate, activity, heart or kidney disease and clinical advice. Food changes also depend on stone type; sodium, animal protein, oxalate and dietary calcium are not altered in the same way for everyone. Do not remove dairy or an entire food group, and do not start supplements or preventive medicine independently, because random restriction can cause harm without preventing the stone type you have [8, 9, 10].\n\nWrite down questions for follow-up: the stone type if known, urine and blood results, the appropriate fluid target, and whether a 24-hour urine collection or follow-up imaging is needed. A realistic plan uses sustainable steps and a review point; it does not promise that a stone can never recur. If warning features occur during any new episode, return to the urgent-assessment pathway rather than relying only on the prevention plan [6, 8, 9]."
+          }
+        },
+        {
+          "id": "prepare-and-next-step",
+          "heading": {
+            "ar": "الخطوة التالية: حضّر المعلومات قبل المراجعة",
+            "en": "The next step: prepare the information before review"
+          },
+          "body": {
+            "ar": "قبل المراجعة، خد معاك تقارير وصور الأشعة السابقة، تحاليل البول والدم، وقائمة الأدوية والمكملات. دوّن وقت بداية الألم، مكانه وتحركه، الحرارة، القيء، شكل البول وكمية التبول، وإيه علاج استخدمته وتأثيره. لو حصوة خرجت واحتفظت بها، اسأل المكان الطبي إزاي تسلمها للتحليل. المعلومات دي بتخلي الطبيب يفرّق بين متابعة نوبة مستقرة وبين مشكلة محتاجة تصويراً أو إحالة أسرع [5, 6, 8].\n\nفي العيادة، التقييم الطبي ممكن يربط الأعراض بالفحص والتحاليل ويحدد هل السونار كفاية، هل المقطعية أو اختبار آخر مطلوب، أو هل محتاج إحالة للمسالك. ذكر العيادة هنا خطوة تنظيمية بس، مش وعد إن فحصاً واحداً هيشرح كل ألم أو إن كل حصوة هتنزل من غير تدخل. القرار النهائي لازم يفضل عند الطبيب المعالج بعد مراجعة حالتك كاملة [5, 6].\n\nلو مفيش علامات خطر ومحتاج تبدأ تقييماً منظماً، تقدر تستخدم طلب حجز استشارة طبية وتذكر عند الحجز إن السؤال عن أعراض حصوات الكلى أو نتيجة سونار أو مقطعية. أما لو عندك حرارة مع ألم، قيء مستمر، قلة بول، تدهور واضح أو ألم خارج السيطرة، ما تستناش موعد العيادة واتبع مسار الرعاية العاجلة المناسب لمكانك [1, 6, 7].",
+            "en": "Before review, bring prior imaging reports and images, urine and blood results, and a list of medicines and supplements. Record when pain began, its site and movement, fever, vomiting, urine appearance and output, and which treatment you used and what happened. If a stone passed and you retained it, ask the medical facility how to submit it for analysis. This information helps the clinician distinguish follow-up of a stable episode from a problem needing faster imaging or referral [5, 6, 8].\n\nAt the clinic, medical assessment can connect symptoms with examination and laboratory results, then decide whether ultrasound is sufficient, CT or another test is needed, or urology referral is appropriate. The clinic is mentioned here only as an organisational step, not as a promise that one test will explain every pain or that every stone will pass without intervention. The final decision remains with the treating clinician after reviewing the full situation [5, 6].\n\nIf there are no warning features and you need to begin a structured assessment, you can use the request for a medical consultation and state that the question concerns kidney-stone symptoms or an ultrasound or CT result. If fever accompanies pain, vomiting is persistent, urine output falls, there is clear deterioration or pain is uncontrolled, do not wait for a clinic appointment; follow the urgent-care pathway appropriate to your location [1, 6, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز استشارة طبية",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request for a medical consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل كل ألم في الجنب معناه حصوة كلى؟",
+            "en": "Does every episode of flank pain mean a kidney stone?"
+          },
+          "a": {
+            "ar": "لأ. حصوة الكلى احتمال معروف، خصوصاً لو الألم بييجي على موجات ويمتد لأسفل البطن أو الفخذ، لكن العدوى وأسباب الجهاز الهضمي والعضلات وحالات تانية ممكن تعمل ألماً قريباً. مكان الألم وحده مش تشخيص؛ القصة والفحص وتحليل البول والتصوير عند اللزوم هم اللي بيحددوا المسار [1, 2, 5].",
+            "en": "No. A kidney stone is a recognised possibility, especially when pain comes in waves and travels toward the lower abdomen or groin, but infection, digestive or muscular causes and other conditions can produce similar pain. Location alone is not a diagnosis; the history, examination, urine testing and imaging when indicated determine the pathway [1, 2, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل السونار الطبيعي ينفي حصوة الكلى؟",
+            "en": "Does a normal ultrasound rule out a kidney stone?"
+          },
+          "a": {
+            "ar": "مش دايماً. السونار ممكن يبين حصوة أو توسعاً بسبب انسداد، لكنه ممكن ما يوضحش حصوة صغيرة أو موجودة في جزء من الحالب. الطبيب بيقرر هل النتيجة كفاية ولا محتاجة متابعة أو تصوير مختلف حسب الأعراض والفحص وعلامات الخطر، مش لمجرد إن التقرير مكتوب فيه طبيعي [5, 6, 11].",
+            "en": "Not always. Ultrasound may show a stone or dilatation caused by obstruction, but it can miss a small stone or one located in part of the ureter. The clinician decides whether the result is sufficient or whether follow-up or different imaging is needed from symptoms, examination and warning features, not from the word “normal” alone [5, 6, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى المقطعية تكون مطلوبة بدل السونار؟",
+            "en": "When might CT be needed instead of ultrasound?"
+          },
+          "a": {
+            "ar": "المقطعية من غير صبغة ممكن تدي تفاصيل أدق عن مكان الحصوة وحجمها وتكشف أسباباً بديلة للألم، لكن فيها إشعاع. اختيارها بيتأثر بالسن والحمل وشدة الحالة ونتيجة السونار واحتمال تشخيص آخر وهل النتيجة هتغير العلاج. عشان كده ما فيش قاعدة واحدة تناسب كل شخص، والاختيار يفضل للطبيب [5, 6, 11].",
+            "en": "Non-contrast CT can provide more precise information about stone location and size and may identify alternative causes of pain, but it involves radiation. Selection depends on age, pregnancy, clinical severity, the ultrasound result, possible alternative diagnoses and whether the result will change management. There is therefore no single rule for everyone, and the choice remains clinical [5, 6, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الدم في البول يثبت وجود حصوة؟",
+            "en": "Does blood in urine prove that a stone is present?"
+          },
+          "a": {
+            "ar": "لأ. الدم في البول ممكن يحصل مع الحصوات، لكنه له أسباب تانية ومحتاج يتفهم مع الأعراض والتحليل والفحص. كمان عدم ظهور دم ما ينفيش الحصوة بشكل قاطع. لو الدم ظاهر، متكرر، أو مصحوب بحرارة أو ألم أو صعوبة تبول، تواصل طبياً بسرعة وما تفترضش السبب بنفسك [1, 3, 5].",
+            "en": "No. Blood in urine can occur with stones, but it has other causes and must be interpreted with symptoms, testing and examination. The absence of blood also does not conclusively exclude a stone. If blood is visible, recurrent, or accompanied by fever, pain or difficulty urinating, seek prompt medical advice rather than assuming the cause [1, 3, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل شرب مياه كتير وقت المغص يطرد الحصوة؟",
+            "en": "Will drinking a large amount of water during colic push the stone out?"
+          },
+          "a": {
+            "ar": "ما تحاولش تشرب كمية ضخمة فجأة عشان تدفع الحصوة، خصوصاً مع القيء أو لو عندك قيود سوائل. السوائل الكافية مهمة غالباً للوقاية وقد تدخل في خطة المتابعة، لكنها ما تعالجش عدوى أو انسداداً وما تضمنش خروج أي حصوة. اتبع الكمية والخطة اللي تناسب حالتك مع الطبيب [8, 9, 10].",
+            "en": "Do not suddenly force a very large volume of water in an attempt to push a stone out, especially with vomiting or a medical fluid restriction. Adequate fluid is commonly important for prevention and may form part of observation, but it does not treat infection or obstruction and cannot guarantee passage. Follow the amount and plan suited to your situation with the clinician [8, 9, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو الألم اختفى، هل كده الحصوة خرجت؟",
+            "en": "If the pain stops, does that mean the stone has passed?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. اختفاء الألم ممكن يحصل مع تحرك الحصوة أو هدوء الانقباض، لكنه ما يثبتش وحده إن الحصوة خرجت وإن الانسداد انتهى. اسأل الطبيب هل محتاج تصفية البول لجمع الحصوة، متابعة أعراض فقط، أو فحص لتأكيد المرور حسب مكانها وحجمها وحالتك. ولو رجع الألم مع حرارة أو قلة بول، اطلب تقييماً عاجلاً [6, 8].",
+            "en": "Not necessarily. Pain may settle as a stone moves or spasm eases, but that alone does not prove that the stone has passed or that obstruction has resolved. Ask whether you should strain urine to collect it, monitor symptoms or have follow-up testing according to its location, size and your condition. If pain returns with fever or reduced urine, seek urgent assessment [6, 8]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Symptoms & Causes of Kidney Stones",
+          "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/symptoms-causes"
+        },
+        {
+          "label": "Mayo Clinic — Kidney stones: Symptoms and causes",
+          "url": "https://www.mayoclinic.org/diseases-conditions/kidney-stones/symptoms-causes/syc-20355755"
+        },
+        {
+          "label": "Cleveland Clinic — Kidney Stones: Causes, Symptoms, Diagnosis & Treatment",
+          "url": "https://my.clevelandclinic.org/health/diseases/15604-kidney-stones"
+        },
+        {
+          "label": "Saudi Ministry of Health — Kidney stones",
+          "url": "https://www.moh.gov.sa/healthawareness/educationalcontent/diseases/urology/pages/010.aspx"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Kidney Stones",
+          "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/diagnosis"
+        },
+        {
+          "label": "European Association of Urology — Urolithiasis Guidelines",
+          "url": "https://uroweb.org/guidelines/urolithiasis/chapter/guidelines"
+        },
+        {
+          "label": "NHS — Kidney stones",
+          "url": "https://www.nhs.uk/conditions/kidney-stones/"
+        },
+        {
+          "label": "NIDDK — Treatment for Kidney Stones",
+          "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/treatment"
+        },
+        {
+          "label": "NIDDK — Eating, Diet, & Nutrition for Kidney Stones",
+          "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/eating-diet-nutrition"
+        },
+        {
+          "label": "NIDDK — Kidney Stones overview",
+          "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones"
+        },
+        {
+          "label": "Smith-Bindman et al. — Ultrasonography versus computed tomography for suspected nephrolithiasis (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25229916/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "حصوات الكلى",
+          "مغص كلوي",
+          "سونار الكلى",
+          "ألم الخاصرة"
+        ],
+        "en": [
+          "kidney stones",
+          "renal colic",
+          "kidney ultrasound",
+          "flank pain"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "أعراض حصوات الكلى والسونار | لاروز",
+          "en": "Kidney stone symptoms and tests | La Rose"
+        },
+        "description": {
+          "ar": "اعرف أعراض حصوات الكلى، وإمتى الألم يحتاج رعاية عاجلة، وإزاي الطبيب بيختار بين تحليل البول والسونار والمقطعية ويتابع النتيجة.",
+          "en": "Learn kidney stone symptoms, when pain needs urgent care, and how clinicians choose urine tests, ultrasound or CT and plan appropriate follow-up."
+        }
+      }
+    }
+  ]
+}
