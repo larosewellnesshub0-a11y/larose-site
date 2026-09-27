@@ -70,7 +70,10 @@ const unlisted = [];
 for (const entry of (await fs.readdir(source, { withFileTypes: true })).sort((a, b) => a.name.localeCompare(b.name))) {
   if (!entry.isFile() || !entry.name.endsWith(".json")) continue;
   if (entry.name.startsWith("_") || PRIVATE.has(entry.name)) continue;
-  if (!PUBLIC.has(entry.name)) { unlisted.push(entry.name); continue; }
+  // Phase article files are loaded by prefix (build/lib/util.mjs) and are
+  // rendered into public article pages, so they are public by the same rule.
+  const phaseArticle = /^articles-(?:new|p2)-[a-z0-9-]+\.json$/.test(entry.name);
+  if (!PUBLIC.has(entry.name) && !phaseArticle) { unlisted.push(entry.name); continue; }
   files[entry.name] = JSON.parse(await fs.readFile(path.join(source, entry.name), "utf8"));
 }
 
