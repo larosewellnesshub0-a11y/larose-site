@@ -73,7 +73,9 @@
             "ar": "ما تعملش إلغاء للميعاد ولا تخبي اللي حصل، وما تصلحوش بصيام أطول أو شرب سريع. اتصل بالمكان وقل نوع الفحص وميعاده، وإمتى أكلت أو شربت أو دخلت الحمام. القرار بيعتمد على العضو والبروتوكول وقدرة الفريق على صور مفيدة. لو اكتشفت بعد الوصول، قول للفاحص قبل البداية؛ المعلومة الصريحة أحسن من صورة محدودة من غير سبب معروف. [2, 3, 6, 9, 10]",
             "en": "Do not cancel silently, hide what happened, or compensate with a longer fast or rapid drinking. Call the facility, state the examination and appointment time, and explain when you ate, drank or used the toilet. The decision depends on the organ, protocol and whether useful images remain possible. If you realise after arrival, tell the examiner before starting; accurate information is better than an unexplained limitation. [2, 3, 6, 9, 10]"
           }
-        }
+        },
+        {"q": {"ar": "السونار بياخد وقت قد إيه، وألبس إيه؟", "en": "How long does the scan take, and what should I wear?"}, "a": {"ar": "السونار بياخد تقريبًا من 10 لـ45 دقيقة، وممكن أكتر. وساعات بتغيّر هدومك بجلابية المستشفى، وساعات بتزق الهدوم بس بعيد عن المكان. والجهاز بيتحرك على جلد عليه جل [3].", "en": "A scan takes around 10 to 45 minutes, but may take longer. You might change into a hospital gown, or sometimes just move your clothing out of the way. The probe is moved over skin covered in gel. [3]"}},
+        {"q": {"ar": "النتيجة بتطلع إمتى؟", "en": "When will I get the results?"}, "a": {"ar": "ممكن تاخد النتيجة في آخر الميعاد، أو تاخد كام أسبوع، حسب سبب الفحص [3].", "en": "You may get the results at the end of your appointment, or it can take a few weeks, depending on why you had the scan. [3]"}}
       ],
       "sources": [
         {
@@ -305,8 +307,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "وسّعنا الدليل بكارت عملي للصيام والمياه والأدوية والسكر وعلامات الخطر، واتراجع طبياً من جديد.",
-            "en": "Expanded with a practical card for fasting, water, medicines, diabetes and warning signs, and medically re-reviewed."
+            "ar": "وسّعنا الدليل بكارت عملي للصيام والمياه والأدوية والسكر وعلامات الخطر، واتراجع طبياً من جديد. اتضاف سؤالين شائعين عن مدة السونار واللبس وميعاد النتيجة، بمصادرهم.",
+            "en": "Expanded with a practical card for fasting, water, medicines, diabetes and warning signs, and medically re-reviewed. Added two cited FAQs on scan duration, clothing and when results arrive."
           }
         }
       ]
