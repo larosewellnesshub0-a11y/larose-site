@@ -1,0 +1,339 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of severe-ibs-symptoms-red-flags; replaces the entry from content/articles-longform-2026-09-12.json. Expanded into a cited bilingual guide to severe IBS-like symptoms, alarm features, urgent care, differential diagnosis, assessment and safe next steps.",
+  "articles": [
+    {
+      "slug": "severe-ibs-symptoms-red-flags",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology",
+        "internal-medicine"
+      ],
+      "date": "2026-09-12",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/severe-ibs-cover.webp",
+      "title": {
+        "ar": "أعراض القولون العصبي الشديد وعلامات الخطر",
+        "en": "Severe IBS symptoms and red flags"
+      },
+      "excerpt": {
+        "ar": "أعراض القولون العصبي ممكن تبقى شديدة فعلًا، بس الدم، نزول الوزن، الأنيميا أو التغير الجديد محتاجين تقييم بدل ما ننسب كل حاجة للقولون.",
+        "en": "IBS symptoms can be genuinely severe, but bleeding, weight loss, anaemia or a new change need assessment rather than being attributed to IBS."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّع الدليل بعلامات الخطر والطوارئ وخطوات التقييم والعلاج الآمن، واتراجع طبيًا من جديد.",
+            "en": "The guide was expanded with red flags, emergency signs, assessment steps and safe management, and was medically re-reviewed."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "severe-does-not-prove-ibs",
+          "heading": {
+            "ar": "شديد مش معناها تلقائيًا قولون عصبي",
+            "en": "Severe does not automatically mean IBS"
+          },
+          "body": {
+            "ar": "وجع البطن، التقلصات، الانتفاخ، الإسهال أو الإمساك ممكن يبقوا مزعجين جدًا مع القولون العصبي، وممكن يعطلوا النوم والشغل والخروج. ده لا يقلل من حقيقة الألم، لكنه برضه مش كفاية لوحده عشان يثبت التشخيص. القولون العصبي اضطراب في تفاعل المخ والأمعاء: الأمعاء بتبقى أكثر حساسية، وحركتها ممكن تسرع أو تبطّأ، من غير تلف ظاهر في القناة الهضمية. النمط المعتاد بيجمع ألم بطن متكرر مع تغير في عدد مرات التبرز أو شكل البراز، والأعراض ممكن تيجي على نوبات وتهدى بين وقت والتاني [1, 2].\n\nالمهم هنا نفرّق بين شدة الإحساس وبين علامة الخطر. نوبة قولون معروفة ممكن تبقى مؤلمة جدًا من غير مرض عضوي خطير، وفي المقابل نزيف بسيط أو نزول وزن تدريجي ممكن ما يعملش ألم شديد لكنه يحتاج تقييم أسرع. لو دي أول مرة، أو النمط اتغير بوضوح، أو التشخيص القديم مبقاش مفسر اللي بيحصل، ما تفترضش إن كل حاجة قولون. راجع القصة من أولها مع الطبيب. ولو الأعراض الأساسية عندك حموضة أو ألم أعلى البطن أكتر من تغير التبرز، اقرأ جرثومة المعدة ولا ارتجاع ولا قولون؟ إزاي تفرّق بين الحموضة والانتفاخ بدل خلط مشاكل مختلفة تحت اسم واحد [2, 3, 7].",
+            "en": "Abdominal pain, cramps, bloating, diarrhoea or constipation can be intensely disruptive in IBS. They may affect sleep, work and leaving home. That does not make the pain less real, but severity alone cannot establish the diagnosis. IBS is a disorder of gut-brain interaction: the bowel can become more sensitive and its contractions may speed up or slow down without visible damage to the digestive tract. The typical pattern combines recurrent abdominal pain with a change in stool frequency or form, and symptoms may flare and settle over time [1, 2].\n\nThe key distinction is between symptom intensity and an alarm feature. A familiar IBS flare can be very painful without representing dangerous structural disease. Conversely, a small amount of bleeding or gradual weight loss may cause little pain yet require faster assessment. If this is a first episode, the pattern has clearly changed, or an old diagnosis no longer explains what is happening, do not assume every symptom is IBS. Review the story from the beginning with a clinician. If heartburn or upper-abdominal discomfort dominates rather than altered bowel habits, read H. pylori, reflux or IBS? How to separate heartburn, bloating and bowel symptoms instead of grouping different problems under one label [2, 3, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "جرثومة المعدة ولا ارتجاع ولا قولون؟ إزاي تفرّق بين الحموضة والانتفاخ",
+                "url": "../articles/h-pylori-reflux-ibs.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "H. pylori, reflux or IBS? How to separate heartburn, bloating and bowel symptoms",
+                "url": "../articles/h-pylori-reflux-ibs.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "recognise-ibs-pattern",
+          "heading": {
+            "ar": "إيه النمط اللي يمشي مع القولون العصبي؟",
+            "en": "What pattern fits IBS?"
+          },
+          "body": {
+            "ar": "التشخيص بيتبني على نمط متكرر، مش على تحليل واحد ولا على مكان الوجع بس. الطبيب بيسأل هل ألم البطن مرتبط بالتبرز، وهل عدد مرات الحمام أو قوام البراز اتغير. ممكن يكون النمط غالب عليه الإمساك، أو الإسهال، أو خليط بينهم، ومعاه انتفاخ أو إحساس إن الإخراج ما خلصش أو مخاط فاتح. الأيام مش لازم تبقى كلها شبه بعض، والأكل، الضغط النفسي، عدوى سابقة أو بعض الأدوية ممكن يغيروا شدة النوبة [1, 2, 3].\n\nسجّل لمدة قصيرة وقت الألم، عدد مرات التبرز، شكل البراز، وجود استعجال أو صعوبة، إيه اللي أكلته، والأدوية أو المضادات الحيوية اللي استخدمتها. اكتب كمان هل الألم بيتحسن أو يسوء بعد الحمام، وهل بيوقظك من النوم، وهل تقدر تشرب وتأكل بشكل طبيعي. المذكرة دي مش امتحان ومش وسيلة تشخيص ذاتي؛ هي بتخلي الحوار أدق. الشدة في القولون العصبي بتتشاف كصورة كاملة تشمل الألم، اضطراب الإخراج، تأثير الأعراض على الحياة، والاستجابة للمحاولات السابقة. الإرشادات البريطانية بتوصي إن الأعراض الشديدة أو المقاومة للعلاج تدفع الطبيب لمراجعة التشخيص والتفكير في فحوص موجهة، مش لتكرار فحوص عشوائية أو افتراض إن الشخص بيبالغ [7].",
+            "en": "Diagnosis is built from a recurring pattern, not one test or the location of pain alone. A clinician asks whether abdominal pain is related to bowel movements and whether stool frequency or form has changed. The pattern may be constipation-predominant, diarrhoea-predominant or mixed. Bloating, a sense of incomplete emptying or pale mucus may accompany it. Every day need not look the same, and food, stress, a previous infection or some medicines may alter the intensity of a flare [1, 2, 3].\n\nFor a short period, record when pain occurs, bowel frequency, stool form, urgency or difficulty, what you ate, and medicines or antibiotics used. Also note whether pain improves or worsens after a bowel movement, wakes you from sleep, or prevents normal drinking and eating. This is not homework or a way to diagnose yourself; it makes the clinical conversation more precise. Severe IBS is considered as a whole picture that includes pain, bowel disturbance, disability and response to previous care. British guidance advises that severe or refractory symptoms should prompt a review of the diagnosis and consideration of targeted investigation, rather than random repeat tests or an assumption that the person is exaggerating [7]."
+          }
+        },
+        {
+          "id": "alarm-features",
+          "heading": {
+            "ar": "علامات الخطر اللي محتاجة تقييم قريب",
+            "en": "Alarm features that need prompt assessment"
+          },
+          "body": {
+            "ar": "فيه علامات مش من النمط المعتاد للقولون العصبي، ووجودها ما يثبتش مرض معين لكنه يغيّر أولوية التقييم. أهمها دم أحمر من الشرج، براز أسود زي القطران، أنيميا أو شحوب وخفقان وضيق نفس، نزول وزن من غير قصد، كتلة أو تورم ثابت في البطن، أو تغير جديد ومستمر في عادات الإخراج. التاريخ العائلي لسرطان القولون، أمراض الأمعاء الالتهابية أو السيلياك مهم كمان. الطبيب بيجمع العلامات دي مع السن، مدة الأعراض، الفحص والنتائج؛ ما ينفعش نعتمد على قائمة منفصلة عن السياق [3, 5, 8, 11].\n\nالأعراض اللي بتصحّيك باستمرار من النوم، الحمى المتكررة، الإسهال المستمر بعد سفر أو عدوى، أو بداية نمط جديد بعد سن أكبر تستحق ذكر واضح للطبيب حتى لو عندك تشخيص قولون قديم. المخاط الفاتح ممكن يحصل مع القولون، لكن الدم مش علامة نعتبرها قولون وننتظر. والانتفاخ المستمر له تقييمه حسب بقية القصة؛ دليل انتفاخ البطن المستمر: متى تزور الطبيب؟ بيوضح حدوده من غير ما نكرر تفاصيله هنا [2, 3, 8].\n\nاطلب موعدًا قريبًا لو ظهرت علامة من دول، وخد معاك أي تحاليل قديمة وقائمة الأدوية. ولو الطبيب طلب مسارًا عاجلًا، ده معناه إن العلامة محتاجة استبعاد منظم، مش إن تشخيصًا خطيرًا اتأكد [5, 11].",
+            "en": "Some features are not part of the usual IBS pattern. Their presence does not prove a particular disease, but it changes the priority of assessment. Important examples include red rectal bleeding, black tarry stool, anaemia or pallor with palpitations or breathlessness, unintentional weight loss, a persistent abdominal lump or swelling, and a new sustained change in bowel habit. A family history of colorectal cancer, inflammatory bowel disease or coeliac disease also matters. Clinicians interpret these features alongside age, duration, examination and results; an isolated checklist cannot replace context [3, 5, 8, 11].\n\nSymptoms that repeatedly wake you from sleep, recurrent fever, continuing diarrhoea after travel or infection, or a newly developing pattern at an older age should be stated clearly even if you already carry an IBS diagnosis. Pale mucus can occur in IBS, but blood should not be dismissed as IBS and watched indefinitely. Persistent distension has its own assessment pathway; Persistent abdominal bloating: when to see a doctor explains that boundary without repeating it here [2, 3, 8].\n\nArrange prompt medical review if one of these features appears, and take previous results and a current medicine list. If a clinician recommends an urgent pathway, it means the feature needs organised exclusion; it does not mean a serious diagnosis has already been confirmed [5, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "انتفاخ البطن المستمر: متى تزور الطبيب؟",
+                "url": "../articles/bloating-when-to-see-doctor.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Persistent abdominal bloating: when to see a doctor",
+                "url": "../articles/bloating-when-to-see-doctor.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "emergency-signs",
+          "heading": {
+            "ar": "إمتى تبقى طوارئ ومش موعد عادي؟",
+            "en": "When is it an emergency rather than a routine visit?"
+          },
+          "body": {
+            "ar": "ما تستناش موعدًا عاديًا لو فيه ألم بطن مفاجئ وشديد جدًا، إغماء أو ارتباك، صعوبة تنفس، قيء دم أو قيء شكله زي تفل القهوة، نزيف واضح بكميات كبيرة، أو براز أسود لزج مع دوخة أو ضعف. النزيف الحاد ممكن يعمل هبوطًا، سرعة ضربات القلب، عرقًا وبرودة في الأطراف، وده محتاج مساعدة طبية فورية [9].\n\nالإسهال الشديد مع قيء متكرر ممكن يعمل جفاف. العلامات المهمة تشمل عطشًا شديدًا، جفاف الفم، قلة البول أو لونه الغامق، دوخة، خمول أو عدم القدرة على الاحتفاظ بالسوائل. ألم شديد مع بطن منتفخة وقيء أو عدم خروج براز وغازات محتاج تقييم عاجل، لأن المقال ما يقدرش يفرّق عن بعد بين نوبة وظيفية وانسداد أو مشكلة حادة تانية. الحمى العالية، دم أو صديد في البراز، أو ألم شديد في البطن أو المستقيم مع الإسهال أسباب لطلب مساعدة سريعة [10, 13].\n\nدرجة الاستعجال بتتغير لو الشخص كبير في السن، حامل، مناعته ضعيفة، أو بياخد أدوية بتزود خطر النزيف أو الجفاف. لو محتار هل الحالة طارئة، اتصل بخدمة الطوارئ المحلية أو روح لأقرب مكان رعاية عاجلة. ما تسوقش بنفسك لو فيه إغماء، تشوش أو ضعف شديد، وما تجربش مسكنات أو أدوية إسهال عشوائيًا عشان تخفي علامة مهمة [9, 10].",
+            "en": "Do not wait for a routine appointment if there is sudden very severe abdominal pain, fainting or confusion, difficulty breathing, vomiting blood or material that looks like coffee grounds, substantial visible bleeding, or black sticky stool accompanied by dizziness or weakness. Acute gastrointestinal bleeding can cause shock, a fast heart rate, sweating and cold hands or feet, and needs immediate medical help [9].\n\nSevere diarrhoea with repeated vomiting can cause dehydration. Important signs include intense thirst, dry mouth, reduced or dark urine, dizziness, lethargy, or being unable to keep fluids down. Severe pain with a swollen abdomen, vomiting, or inability to pass stool or gas needs urgent assessment because an article cannot distinguish a functional flare from an obstruction or another acute problem. High fever, blood or pus in stool, or severe abdominal or rectal pain with diarrhoea are also reasons to seek rapid help [10, 13].\n\nUrgency changes further when a person is older, pregnant, immunocompromised, or taking medicines that increase bleeding or dehydration risk. If you are unsure whether the situation is an emergency, contact local emergency services or attend the nearest urgent-care setting. Do not drive yourself if you are faint, confused or profoundly weak, and do not use random painkillers or antidiarrhoeal medicines merely to suppress a warning sign [9, 10]."
+          }
+        },
+        {
+          "id": "conditions-that-mimic-ibs",
+          "heading": {
+            "ar": "إيه المشاكل اللي ممكن تشبه القولون؟",
+            "en": "What can mimic IBS?"
+          },
+          "body": {
+            "ar": "أعراض البطن متداخلة، وعشان كده الهدف مش إنك تختار تشخيصًا من قائمة. العدوى المعوية، السيلياك، عدم تحمل بعض السكريات، أمراض الأمعاء الالتهابية، آثار الأدوية، ومشاكل مرتبطة بالإمساك أو الإسهال المزمن ممكن تعمل ألمًا وانتفاخًا وتغيرًا في البراز. بعض الناس تبدأ أعراضهم بعد عدوى واضحة، لكن استمرار الإسهال أو وجود حمى أو دم يخلّي الطبيب يفكر في أسباب تانية ويحدد الفحص المناسب [2, 3, 6, 10].\n\nقول للطبيب عن سفر قريب، مضاد حيوي، دواء جديد، مكملات، جراحة سابقة، أو تاريخ عائلي مهم. وصف مكان الألم لوحده مش كفاية؛ توقيته وعلاقته بالأكل والتبرز، قوام البراز، ومدى ثبات الوزن بيفرقوا. القلق والضغط ممكن يزودوا حساسية الأمعاء وشدة الأعراض، لكن ده مش معناه إن الألم وهمي أو إننا نلغي الفحص المطلوب. وفي نفس الوقت، وجود أعراض قوية مش دليل تلقائي على التهاب أو سرطان [1, 2, 7].\n\nما تبدأش منع مجموعات أكل كتير من نفسك. لو السيلياك احتمال وارد، وقف الجلوتين قبل التحاليل ممكن يغيّر النتائج ويصعّب التشخيص. تحديث ما توقفش الجلوتين قبل استكمال فحوص السيلياك بيشرح النقطة دي بالتفصيل. القرار النهائي عن الاختبارات أو الحمية بيتاخد مع الطبيب حسب القصة كاملة [6, 12].",
+            "en": "Abdominal symptoms overlap, so the aim is not to select a diagnosis from a list. Gastrointestinal infection, coeliac disease, intolerance of some carbohydrates, inflammatory bowel disease, medicine effects, and conditions linked to chronic constipation or diarrhoea can all cause pain, bloating and altered stool. Some people develop IBS after a clear infection, but continuing diarrhoea, fever or bleeding leads a clinician to consider other causes and choose appropriate testing [2, 3, 6, 10].\n\nTell the clinician about recent travel, antibiotics, a new medicine, supplements, previous surgery and relevant family history. Pain location alone is not enough; its timing and relationship to eating and defaecation, stool consistency, and whether weight is stable all matter. Anxiety and stress can amplify gut sensitivity and symptom intensity, but that does not make pain imaginary or cancel necessary investigation. Equally, intense symptoms do not automatically indicate inflammation or cancer [1, 2, 7].\n\nDo not remove multiple food groups on your own. If coeliac disease is possible, stopping gluten before testing may alter results and make diagnosis harder. Scientific update: do not stop gluten before coeliac testing is complete explains that point in detail. The final decision about tests or dietary changes belongs with the treating clinician and should reflect the full history [6, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تحديث ما توقفش الجلوتين قبل استكمال فحوص السيلياك",
+                "url": "../articles/coeliac-testing-before-gluten-free-diet.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Scientific update: do not stop gluten before coeliac testing is complete",
+                "url": "../articles/coeliac-testing-before-gluten-free-diet.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "targeted-assessment",
+          "heading": {
+            "ar": "التقييم الموجّه: مش كل شخص محتاج كل الفحوص",
+            "en": "Targeted assessment: not everyone needs every test"
+          },
+          "body": {
+            "ar": "البداية عادة قصة مرضية دقيقة وفحص للبطن، مع قياس الوزن ومراجعة الأدوية والتاريخ العائلي. حسب النمط، الطبيب ممكن يطلب صورة دم للبحث عن أنيميا، مؤشرات مناسبة للالتهاب، تحاليل سيلياك، أو تحليل براز للدم أو العدوى أو الالتهاب. في الإسهال المزمن، الإرشادات بتدعم فحوصًا موجهة زي تحليل السيلياك أو كالپروتكتين البراز عند ملاءمته بدل قائمة تحاليل بلا سؤال واضح [3, 5, 6].\n\nالمنظار مش اختبارًا روتينيًا لكل شخص عنده أعراض تشبه القولون. الحاجة له بتعتمد على علامات الخطر، السن، تاريخ الأسرة، الفحص، التحاليل، وبرامج الفحص المناسبة للسن والبلد. صفحة أعراض القولون العصبي: هل لازم أعمل منظار قولون؟ بتشرح القرار وحدوده. النتيجة الطبيعية في تحليل واحد ما تمسحش الأعراض، لكنها بتجاوب عن سؤال محدد؛ ولو الأعراض مستمرة الطبيب بيراجع هل السؤال الصح اتسأل وهل فيه خطوة تانية مبررة [3, 6, 11].\n\nاسأل قبل أي فحص: إحنا بنستبعد إيه؟ النتيجة هتغير الخطة إزاي؟ وهل فيه تحضير؟ تجنّب باقات حساسية الطعام التجارية أو تكرار التصوير والمناظير لمجرد القلق؛ الإرشادات بتشجع تشخيصًا إيجابيًا للقولون عند وجود النمط المناسب وعدم وجود علامات إنذار، مع فحوص محدودة حسب الحالة. لكن ظهور علامة خطر جديدة أثناء المتابعة يعيد فتح التقييم [5, 6, 7].",
+            "en": "Assessment usually begins with a careful history and abdominal examination, plus weight, medicines and family history. Depending on the pattern, a clinician may request a blood count for anaemia, appropriate inflammatory markers, coeliac serology, or stool testing for blood, infection or inflammation. In chronic diarrhoea, guidelines support targeted tests such as coeliac serology or faecal calprotectin when appropriate, rather than a broad panel with no defined clinical question [3, 5, 6].\n\nColonoscopy is not a routine test for every person with IBS-like symptoms. The decision depends on alarm features, age, family history, examination, test results and relevant screening programmes. Do IBS symptoms mean I need a colonoscopy? explains that decision and its limits. A normal result from one test does not erase symptoms; it answers one question. If symptoms continue, the clinician reviews whether the right question was asked and whether another step is justified [3, 6, 11].\n\nBefore any test, ask what it is intended to exclude, how its result would change the plan, and whether preparation is needed. Avoid commercial food-sensitivity panels or repeated scans and endoscopies driven only by anxiety. Guidelines support a positive IBS diagnosis when the symptom pattern fits and alarm features are absent, with limited tests chosen for the individual. A new alarm feature during follow-up, however, should reopen the assessment [5, 6, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أعراض القولون العصبي: هل لازم أعمل منظار قولون؟",
+                "url": "../articles/qa-ibs-need-colonoscopy.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Do IBS symptoms mean I need a colonoscopy?",
+                "url": "../articles/qa-ibs-need-colonoscopy.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "safe-symptom-management",
+          "heading": {
+            "ar": "تهدئة الأعراض بأمان من غير ما نخفي المشكلة",
+            "en": "Relieving symptoms safely without masking the problem"
+          },
+          "body": {
+            "ar": "لو مفيش علامة طوارئ، حافظ على شرب السوائل ووجبات منتظمة بسيطة بقدر تحملك، وخلي التغيير خطوة واحدة في كل مرة عشان تعرف تأثيره. نوع القولون بيفرق: دواء أو ألياف مناسبة للإمساك ممكن تسوء الإسهال، والعكس صحيح. الألياف الذائبة ممكن تساعد بعض الناس، لكن الزيادة السريعة ممكن تزود الغازات والانتفاخ. ما تبدأش دواء بوصفة، مضادًا حيويًا، أعشابًا مركزة أو جرعات عالية من مكملات من غير مراجعة [4, 5, 7].\n\nالحمية قليلة الفودماب ممكن تساعد بعض حالات القولون، لكنها تجربة محدودة ومنظمة، والأفضل تحت إشراف تغذية مؤهل مع إعادة إدخال الأطعمة حسب التحمل. مش هدفها منع أكل واسع للأبد. النشاط المناسب، النوم، وعلاج الضغط النفسي ممكن يكونوا أجزاء حقيقية من الخطة لأن المخ والأمعاء بيتواصلوا في الاتجاهين؛ اقتراح علاج نفسي موجّه للأمعاء لا يعني إن الأعراض متخيلة [4, 6, 7].\n\nلو العلاج الحالي مبقاش نافع، ما تزودش الجرعة أو تجمع أدوية من نفسك. راجع التشخيص، الالتزام، الآثار الجانبية والعرض الغالب مع الطبيب. الحالات الشديدة أو المقاومة ممكن تحتاج فريقًا متكاملًا يضم الجهاز الهضمي والتغذية والدعم النفسي عند اللزوم. الهدف خطة قابلة للقياس: إيه العرض اللي بنعالجه، إمتى نراجع، وإيه العلامة اللي توقف التجربة أو تسرّع التقييم [4, 7].",
+            "en": "If there is no emergency feature, maintain fluids and simple regular meals as tolerated, and change one thing at a time so its effect can be understood. IBS subtype matters: a medicine or fibre strategy suited to constipation may worsen diarrhoea, and vice versa. Soluble fibre may help some people, but increasing it rapidly can aggravate gas and bloating. Do not start prescription medicines, antibiotics, concentrated herbs or high-dose supplements without review [4, 5, 7].\n\nA low-FODMAP diet can improve symptoms for some people, but it is a limited, structured trial, ideally supervised by a trained dietitian with foods reintroduced according to tolerance. It is not intended as permanent broad restriction. Suitable activity, sleep and management of stress can be genuine parts of care because communication between gut and brain runs both ways; offering gut-directed psychological therapy does not imply that symptoms are imaginary [4, 6, 7].\n\nIf current treatment has stopped helping, do not increase doses or combine medicines on your own. Review the diagnosis, adherence, adverse effects and predominant symptom with the treating clinician. Severe or refractory cases may benefit from integrated input from gastroenterology, nutrition and psychological support when indicated. The aim is a measurable plan: which symptom is being treated, when it will be reviewed, and which change should stop the trial or accelerate assessment [4, 7]."
+          }
+        },
+        {
+          "id": "prepare-next-step",
+          "heading": {
+            "ar": "حضّر الزيارة وحدد الخطوة الجاية",
+            "en": "Prepare for the visit and define the next step"
+          },
+          "body": {
+            "ar": "قبل الزيارة، اكتب خطًا زمنيًا مختصرًا: إمتى بدأت الأعراض، هل النمط جديد، عدد مرات التبرز وشكله، وجود دم أو حمى أو نزول وزن، وإيه اللي جربته. خد قائمة بكل الأدوية والمكملات، نتائج التحاليل والمناظير السابقة، وأي تاريخ عائلي لسيلياك أو التهاب أمعاء أو سرطان قولون. لو تقدر، سجّل تأثير المشكلة على الأكل، النوم والشغل بدل كلمة «شديد» بس؛ ده بيساعد الطبيب يحدد الأولوية [3, 5, 7].\n\nاتفق مع الطبيب على إجابات واضحة: هل النمط يطابق القولون العصبي؟ هل فيه علامة إنذار؟ إيه الفحص اللي له سبب؟ وإمتى لازم ترجع أسرع؟ القرارات الفردية، بما فيها الدواء والحمية والمنظار، لازم تفضل مع الطبيب المعالج بعد الفحص. لو الأعراض اتغيرت بعد تشخيص قديم، اطلب إعادة تقييم بدل ما تكرر نفس العلاج تلقائيًا [3, 6, 7].\n\nلو مفيش طوارئ لكن الأعراض قوية، مستمرة أو مأثرة على حياتك، تقدر تطلب حجز استشارة جهاز هضمي في العيادة لمراجعة النمط وعلامات الخطر ووضع خطة مناسبة. ذكر العيادة هنا مجرد خطوة تنظيمية، ومش وعد بتشخيص أو نتيجة. أما النزيف الشديد، الإغماء، صعوبة التنفس، الجفاف الواضح أو الألم المفاجئ العنيف فمكانهم رعاية عاجلة، مش انتظار موعد عيادة [8, 9, 10].",
+            "en": "Before the visit, write a short timeline: when symptoms began, whether the pattern is new, bowel frequency and form, any bleeding, fever or weight loss, and what you have tried. Bring a complete list of medicines and supplements, previous laboratory or endoscopy results, and any family history of coeliac disease, inflammatory bowel disease or colorectal cancer. If possible, describe the effect on eating, sleep and work rather than using only the word “severe”; this helps the clinician prioritise safely [3, 5, 7].\n\nAgree on clear answers with the clinician: does the pattern fit IBS, is an alarm feature present, which test has a defined reason, and when should you return sooner? Individual decisions, including medicine, diet and endoscopy, remain with the treating clinician after assessment. If symptoms have changed since an old diagnosis, ask for reassessment rather than automatically repeating the same treatment [3, 6, 7].\n\nIf there is no emergency but symptoms are intense, persistent or affecting daily life, you can request a gastroenterology consultation at the clinic to review the pattern, check alarm features and make an individual plan. The clinic is mentioned only as an organisational next step, not as a promise of a diagnosis or outcome. Heavy bleeding, fainting, breathing difficulty, clear dehydration or sudden extreme pain belong in urgent care rather than a clinic waiting list [8, 9, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تطلب حجز استشارة جهاز هضمي في العيادة",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a gastroenterology consultation at the clinic",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الألم الشديد معناه إن القولون العصبي اتحول لمرض خطير؟",
+            "en": "Does severe pain mean IBS has turned into a dangerous disease?"
+          },
+          "a": {
+            "ar": "لا. القولون العصبي ممكن يعمل ألمًا شديدًا بسبب حساسية الأمعاء وتغير حركتها، لكنه ما بيعملش تلفًا ظاهرًا في القناة الهضمية وما «بيتحولش» لسرطان. مع ذلك، الألم الجديد جدًا أو المختلف، خصوصًا مع نزيف، نزول وزن، حمى، قيء أو إغماء، ما ينفعش ننسبه للقولون من غير تقييم [1, 2, 3].",
+            "en": "No. IBS can cause severe pain through altered gut sensitivity and motility, but it does not cause visible digestive-tract damage or “turn into” cancer. However, very new or different pain, especially with bleeding, weight loss, fever, vomiting or fainting, should not be attributed to IBS without assessment [1, 2, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الدم في البراز ممكن يكون من القولون العصبي؟",
+            "en": "Can blood in stool be caused by IBS?"
+          },
+          "a": {
+            "ar": "الدم مش عرضًا نموذجيًا للقولون العصبي. له أسباب بسيطة وأسباب أهم، لكن اللون والكمية والأعراض المصاحبة ما يكفوش للتشخيص في البيت. اطلب تقييمًا قريبًا لأي نزيف، ورعاية عاجلة لو النزيف غزير أو البراز أسود قطراني أو معاه دوخة، إغماء، ضيق نفس أو ضعف شديد [3, 8, 9].",
+            "en": "Blood is not a typical IBS symptom. It has both minor and more important causes, but colour, amount and accompanying symptoms cannot establish the cause at home. Seek prompt assessment for any bleeding, and urgent care for heavy bleeding, black tarry stool, dizziness, fainting, breathlessness or marked weakness [3, 8, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل كل أعراض القولون الشديدة محتاجة منظار؟",
+            "en": "Do all severe IBS symptoms require colonoscopy?"
+          },
+          "a": {
+            "ar": "مش كل حالة. قرار المنظار بيعتمد على علامات الخطر، السن، تاريخ الأسرة، الفحص، التحاليل وبرامج الفحص المناسبة، مش على شدة الألم وحدها. بعض الحالات تتشخص بنمط إيجابي وفحوص محدودة، بينما النزيف، الأنيميا، نزول الوزن أو نتيجة غير طبيعية ممكن يغيروا القرار. الطبيب المعالج هو اللي يحدد الفائدة والتوقيت [3, 5, 6, 11].",
+            "en": "Not every case. Colonoscopy depends on alarm features, age, family history, examination, laboratory results and relevant screening programmes, not pain intensity alone. Some cases can be diagnosed from a positive symptom pattern with limited tests, whereas bleeding, anaemia, weight loss or an abnormal result may change the decision. The treating clinician determines its value and timing [3, 5, 6, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أوقف الجلوتين أو اللبن قبل ما أروح للطبيب؟",
+            "en": "Should I stop gluten or dairy before seeing a clinician?"
+          },
+          "a": {
+            "ar": "ما توقفش الجلوتين قبل فحوص السيلياك من نفسك، لأن ده ممكن يغيّر دقة النتائج. وبالنسبة للبن أو أي مجموعة أكل، سجّل العلاقة بالأعراض وناقش تجربة منظمة بدل منع حاجات كتير مرة واحدة. الحرمان الواسع ممكن يعمل نقصًا غذائيًا ويصعّب معرفة المحفز الحقيقي [6, 7, 12].",
+            "en": "Do not stop gluten before coeliac testing on your own because this can alter test accuracy. For dairy or any food group, record the relationship to symptoms and discuss a structured trial rather than removing many foods at once. Broad restriction can create nutritional problems and make the true trigger harder to identify [6, 7, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل التوتر هو سبب القولون، وهل ده معناه إن الأعراض نفسية؟",
+            "en": "Is stress the cause of IBS, and does that make symptoms psychological?"
+          },
+          "a": {
+            "ar": "القولون اضطراب حقيقي في تفاعل المخ والأمعاء، وممكن الطعام أو عدوى سابقة أو الضغط يشاركوا بدرجات مختلفة. التوتر ممكن يزود حساسية الأمعاء وشدة النوبة، لكنه مش معناه إن الألم وهمي. العلاج ممكن يجمع تعديل الغذاء والدواء والنوم والنشاط وعلاجًا نفسيًا موجّهًا للأمعاء حسب احتياجك [1, 2, 4, 7].",
+            "en": "IBS is a real disorder of gut-brain interaction, with food, prior infection and stress contributing differently between people. Stress can amplify gut sensitivity and a flare, but it does not make pain imaginary. Care may combine dietary change, medicine, sleep, activity and gut-directed psychological therapy according to individual need [1, 2, 4, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه اللي آخده معايا في زيارة الجهاز الهضمي؟",
+            "en": "What should I bring to a gastroenterology visit?"
+          },
+          "a": {
+            "ar": "خد خطًا زمنيًا قصيرًا، وصفًا لعدد مرات التبرز وشكل البراز، قائمة الأدوية والمكملات، النتائج السابقة، وأي تاريخ عائلي لسيلياك أو التهاب أمعاء أو سرطان قولون. اذكر الدم، الحمى، نزول الوزن، أعراض الليل والسفر أو المضادات الحيوية بوضوح. المعلومات دي بتساعد الطبيب يختار فحوصًا موجهة بدل الاختبارات العشوائية [3, 5, 7].",
+            "en": "Bring a short timeline, stool frequency and form, a medicine and supplement list, previous results, and any family history of coeliac disease, inflammatory bowel disease or colorectal cancer. Clearly mention bleeding, fever, weight loss, night symptoms, travel and antibiotic exposure. This information helps the clinician choose targeted investigation rather than random testing [3, 5, 7]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK — Definition & Facts for Irritable Bowel Syndrome",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/definition-facts"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Irritable Bowel Syndrome",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Irritable Bowel Syndrome",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/diagnosis"
+        },
+        {
+          "label": "NIDDK — Treatment for Irritable Bowel Syndrome",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/treatment"
+        },
+        {
+          "label": "NICE — Irritable bowel syndrome in adults: diagnosis and management (CG61)",
+          "url": "https://www.nice.org.uk/guidance/cg61/chapter/recommendations"
+        },
+        {
+          "label": "Lacy et al. — ACG Clinical Guideline: Management of Irritable Bowel Syndrome (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33315591/"
+        },
+        {
+          "label": "Vasant et al. — British Society of Gastroenterology guidelines on the management of irritable bowel syndrome (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33903147/"
+        },
+        {
+          "label": "NHS — Symptoms of IBS",
+          "url": "https://www.nhs.uk/conditions/irritable-bowel-syndrome-ibs/symptoms/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of GI Bleeding",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastrointestinal-bleeding/symptoms-causes"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Diarrhea",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/symptoms-causes"
+        },
+        {
+          "label": "NICE — Suspected cancer: recognition and referral (NG12), recommendations by site",
+          "url": "https://www.nice.org.uk/guidance/ng12/chapter/recommendations-organised-by-site-of-cancer"
+        },
+        {
+          "label": "NIDDK — Diagnosis of Celiac Disease",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/diagnosis"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of Intestinal Pseudo-obstruction",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/intestinal-pseudo-obstruction/symptoms-causes"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "أعراض القولون العصبي الشديد",
+          "علامات خطر القولون",
+          "الدم في البراز",
+          "متى تزور طبيب الجهاز الهضمي"
+        ],
+        "en": [
+          "severe IBS symptoms",
+          "IBS red flags",
+          "blood in stool",
+          "when to see a gastroenterologist"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "أعراض القولون العصبي الشديد وعلامات الخطر",
+          "en": "Severe IBS symptoms and red flags"
+        },
+        "description": {
+          "ar": "اعرف أعراض القولون العصبي الشديد، علامات الخطر اللي محتاجة تقييم، إمتى تروح الطوارئ، وإزاي الطبيب يختار الفحوص والعلاج المناسب.",
+          "en": "Learn which severe IBS symptoms fit a flare, which red flags need prompt assessment, when to seek urgent care, and how testing is chosen."
+        }
+      }
+    }
+  ]
+}

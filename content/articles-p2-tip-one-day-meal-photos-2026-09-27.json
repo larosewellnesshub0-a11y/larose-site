@@ -1,0 +1,341 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of tip-one-day-meal-photos; replaces the entry from content/articles.json. Expanded the one-day photo prompt into a medically re-reviewed guide to accurate, neutral meal recording, interpretation limits, privacy, and safe follow-up.",
+  "articles": [
+    {
+      "slug": "tip-one-day-meal-photos",
+      "type": "tip",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": [
+        "clinical-nutrition",
+        "weight-management"
+      ],
+      "date": "2026-08-27",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/tip-one-day-meal-photos.webp",
+      "title": {
+        "ar": "صور الوجبات ليوم واحد: سجل أكل عملي",
+        "en": "One-day meal photos: a practical food record"
+      },
+      "excerpt": {
+        "ar": "صوّر كل أكل وشرب في يوم عادي من غير تجميل ولا عدّ سعرات. الدليل ده بيوضح إيه اللي يتصوّر، وإزاي تراجع التوقيت والسياق من غير لوم، وإمتى الصور مش كفاية.",
+        "en": "Photograph every food and drink on one ordinary day without staging it or counting calories. Learn what to capture, how to review timing and context without blame, and when photos are not enough."
+      },
+      "faq": [
+        {
+          "q": {
+            "ar": "هل يوم واحد كفاية عشان أعرف إذا كان أكلي صحي؟",
+            "en": "Is one day enough to tell whether my diet is healthy?"
+          },
+          "a": {
+            "ar": "لأ. اليوم الواحد بيوصف اللي حصل في اليوم ده، وممكن يكشف أسئلة مفيدة عن التوقيت أو المشروبات أو الوجبات المنسية، لكنه مش بيقيس أكلك المعتاد ولا كفاية كل عنصر غذائي. الأكل بيتغير من يوم للتاني، والتقدير الأدق للاعتياد محتاج أياماً متعددة غير متتالية أو استدعاءً منظماً حسب هدف التقييم. استخدم الصور كبداية للكلام، مش كحكم نهائي [2, 3, 4].",
+            "en": "No. One day describes that day and may expose useful questions about timing, drinks, or forgotten eating occasions, but it does not measure your usual diet or the adequacy of every nutrient. Intake varies from day to day, so estimating usual patterns requires multiple non-consecutive records or structured recalls selected for the assessment goal. Use the photos to begin a conversation, not to deliver a verdict [2, 3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لازم أصوّر الطبق بعد الأكل كمان؟",
+            "en": "Do I need an after-meal photo as well?"
+          },
+          "a": {
+            "ar": "مش لازم في السجل البسيط، بس صورة بعد الأكل ممكن توضح البواقي لو جزء معتبر اتساب أو لو الكمية اتغيرت. أبحاث التقييم بالصور بتستخدم أحياناً صور قبل وبعد عشان تقدير المتناول يبقى أحسن. لو ده هيحوّل اليوم لعبء، اكتفِ بصورة البداية واكتب ملاحظة قصيرة زي «سيبت النص» أو «زودت مرة» [1].",
+            "en": "Not for a simple record, although an after-photo can clarify leftovers when a substantial amount remains or the portion changes. Image-assisted assessment research sometimes uses before-and-after images to improve intake estimation. If that would make the day burdensome, take the starting photo and add a short note such as “left half” or “had a second serving” [1]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أحسب السعرات أو أوزن الأكل مع الصور؟",
+            "en": "Should I count calories or weigh food with the photos?"
+          },
+          "a": {
+            "ar": "مش مطلوب للهدف ده. الصورة مع الوقت ووصف بسيط تقدر تفتح نقاشاً مفيداً من غير أرقام. حتى التقييم الغذائي البحثي فيه خطأ قياس، والصورة وحدها ما تعرفش كل المكونات أو طريقة الطبخ. لو المختص محتاج وزناً أو مكيالاً أو سجلاً لأيام أكتر، هيطلبه لهدف واضح. ما تبدأش عدّاً دقيقاً من نفسك لو بيزود القلق أو التحكم الجامد [1, 2, 4, 9].",
+            "en": "Not for this exercise. A photo, time, and brief description can support a useful discussion without numbers. Even formal dietary assessment contains measurement error, and an image cannot reveal every ingredient or cooking method. If a clinician needs weighing, household measures, or more days, they can request it for a defined purpose. Do not begin intensive counting on your own if it increases anxiety or rigid control [1, 2, 4, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أعمل إيه مع أكل المطعم أو الطبيخ المخلوط؟",
+            "en": "What should I do with restaurant food or mixed dishes?"
+          },
+          "a": {
+            "ar": "صوّر الطبق زي ما وصلك، واكتب اسمه وأي حاجة واضحة: مقلي ولا مشوي، الصوص على الجنب، مشروب، أو مشاركة الطبق. لو فيه علبة أو قائمة سهلة التصوير ممكن تحتفظ باسم الصنف، بس ما تحاولش تخمّن جرامات أو مكونات مخفية. الأطباق المتشابهة في الشكل ممكن تختلف في الدهون أو السكر أو الوصفة، وده من حدود تحليل الصور [1, 2].",
+            "en": "Photograph the dish as served and note what is clear: its name, fried or grilled preparation, sauce on the side, accompanying drink, or whether it was shared. A package or menu can preserve the item name, but do not guess grams or hidden ingredients. Visually similar dishes can differ in recipe, fat, or sugar, which is an important limitation of image analysis [1, 2]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ينفع أعمل السجل لو عندي سكر أو مرض كلى أو حساسية؟",
+            "en": "Can I make this record if I have diabetes, kidney disease, or an allergy?"
+          },
+          "a": {
+            "ar": "ينفع كسجل وصفي، لكنه ما يغيّرش خطتك ولا جرعات الدوا وما يثبتش إن أكلة آمنة لحالتك. صوّر كمان الملصق أو اسم المنتج لو المعلومة مهمة، وسجّل توقيت الدوا أو الأعراض فقط لو الطبيب طلب. الاحتياج بيختلف حسب المرض والتحاليل والعلاج، فخلي أي تعديل فردي مع الطبيب أو أخصائي التغذية المعالج [2, 7, 8].",
+            "en": "It can be used as a descriptive record, but it does not change your care plan or medicine dose and cannot prove that a food is safe for your condition. Photograph a label or product name when relevant, and record medicine timing or symptoms only if your clinician requests it. Needs vary with the condition, tests, and treatment, so individual changes belong with your treating clinician or dietitian [2, 7, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى أوقف تصوير الأكل؟",
+            "en": "When should I stop photographing food?"
+          },
+          "a": {
+            "ar": "وقف لو التسجيل بيزوّد الخوف أو الذنب، أو بيخليك تأجل الأكل، تقلل الكمية عشان الصورة، تعيد التصوير بشكل قهري، أو تعوّض بصيام أو قيء أو تمرين قاسي. العلامات دي تستحق كلاماً مبكراً مع مختص مناسب؛ واضطرابات الأكل محتاجة تقييماً وعلاجاً متخصصاً، مش سجلاً أكمل. لو فيه إغماء أو جفاف شديد أو تدهور سريع، اطلب رعاية عاجلة [9, 10].",
+            "en": "Stop if recording increases fear or guilt, makes you delay eating, reduce portions for the camera, retake images compulsively, or compensate with fasting, vomiting, or punishing exercise. These signs justify early discussion with an appropriate professional; eating disorders need specialist assessment and treatment, not a more complete album. Seek urgent care for fainting, severe dehydration, or rapid physical deterioration [9, 10]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Höchsmann and Martin — Review of the validity and feasibility of image-assisted methods for dietary assessment (PMC7686022)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7686022/"
+        },
+        {
+          "label": "National Cancer Institute — Food Record at a Glance",
+          "url": "https://epi.grants.cancer.gov/dietary-assessment-primer/profiles/record/"
+        },
+        {
+          "label": "National Cancer Institute — Food Record Data Capture",
+          "url": "https://epi.grants.cancer.gov/dietary-assessment-primer/profiles/record/capture.html"
+        },
+        {
+          "label": "National Cancer Institute — Principles Underlying Dietary Assessment Recommendations",
+          "url": "https://epi.grants.cancer.gov/dietary-assessment-primer/approach/principles.html"
+        },
+        {
+          "label": "National Cancer Institute — 24-hour Dietary Recall at a Glance",
+          "url": "https://epi.grants.cancer.gov/dietary-assessment-primer/profiles/recall/"
+        },
+        {
+          "label": "USDA Agricultural Research Service — Automated Multiple-Pass Method",
+          "url": "https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/food-surveys-research-group/docs/ampm-usda-automated-multiple-pass-method/"
+        },
+        {
+          "label": "World Health Organization — Healthy diet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        },
+        {
+          "label": "NHS — The Eatwell Guide",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/"
+        },
+        {
+          "label": "NICE — Eating disorders: recognition and treatment (NG69)",
+          "url": "https://www.nice.org.uk/guidance/ng69/chapter/Recommendations"
+        },
+        {
+          "label": "NIDDK — Binge Eating Disorder",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/binge-eating-disorder"
+        },
+        {
+          "label": "NHS — Unintentional weight loss",
+          "url": "https://www.nhs.uk/symptoms/unintentional-weight-loss/"
+        },
+        {
+          "label": "NHS — Dysphagia (swallowing problems)",
+          "url": "https://www.nhs.uk/symptoms/swallowing-problems-dysphagia/"
+        },
+        {
+          "label": "NHS — Vomiting blood",
+          "url": "https://www.nhs.uk/symptoms/vomiting-blood/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "صور الوجبات",
+          "سجل الأكل",
+          "مواعيد الوجبات",
+          "الوعي الغذائي",
+          "تغذية علاجية"
+        ],
+        "en": [
+          "meal photos",
+          "food record",
+          "meal timing",
+          "eating awareness",
+          "clinical nutrition"
+        ]
+      },
+      "sections": [
+        {
+          "id": "what-one-day-can-show",
+          "heading": {
+            "ar": "صور يوم واحد بتقول إيه، وما بتقولش إيه؟",
+            "en": "What can one day of photos show—and what can it not show?"
+          },
+          "body": {
+            "ar": "فكرة اليوم بسيطة: بدل ما تعتمد على جملة عامة زي «باكل عادي»، يبقى قدامك تسلسل حقيقي للأكل والشرب من أول اليوم لآخره. الصورة بتساعدك تفتكر القهوة بإضافاتها، اللقمة وإنت بتحضّر، السناك في العربية، أو الزيادة اللي جات بعد أول طبق. وسجل الأكل في الأصل معمول عشان يوصف كل الأطعمة والمشروبات خلال يوم أو أكتر، والتسجيل وقت الأكل بيقلل الاعتماد الكامل على الذاكرة [1, 2].\n\nبس الصورة مش تحليل معمل ومش جهاز بيحسب الحقيقة. ما تعرفش من الشكل وحده كمية الزيت جوه الطبيخ، وصفة المطعم، نوع المشروب لو الكوباية واحدة، أو مقدار اللي اتساب بعد الصورة. مراجعات التقييم الغذائي بالصور بتقول إن الطريقة واعدة وممكن تقلل عبء الكتابة، لكن نسيان التصوير، تغيير السلوك عشان التسجيل، وصعوبة تقدير الحصة والمكونات الخفية لسه مصادر خطأ مهمة [1, 4].\n\nكمان يوم واحد مش «نظامك الغذائي». ده مقطع قصير فيه اختلاف طبيعي عن باقي الأسبوع، وأيام الشغل مش زي الإجازة. عشان كده الهدف هنا ملاحظة نمط أو تجهيز أسئلة للكشف، مش تشخيص نقص غذائي ولا إثبات سبب زيادة أو فقدان الوزن. تقييم الأكل المعتاد بيحتاج اختيار أداة وعدد أيام مناسبين للهدف، وغالباً تكرار أيام غير متتالية بدل الاعتماد على يوم منفرد [2, 3, 4].",
+            "en": "The idea is simple: instead of relying on a general statement such as “I eat normally,” you have a real sequence of foods and drinks from the beginning to the end of a day. A photo can prompt recall of coffee additions, a taste while cooking, a snack in the car, or a second serving that followed the first plate. Food records are designed to describe all foods and beverages consumed over one or more days, and recording close to the eating event reduces complete dependence on memory [1, 2].\n\nA photograph is not a laboratory test or a device that calculates truth. Appearance alone cannot reveal the oil incorporated into a dish, a restaurant recipe, the type of drink in an identical cup, or how much remained after the image. Reviews of image-assisted dietary assessment describe promise and lower writing burden, but missed photographs, changed behaviour while recording, and difficulty estimating portions or hidden ingredients remain important sources of error [1, 4].\n\nOne day is also not “your diet.” It is a short sample containing normal variation, and a workday may differ from a weekend. The purpose here is to notice a possible pattern or prepare questions for a consultation, not to diagnose a deficiency or prove the cause of weight change. Assessing usual intake requires an instrument and number of days suited to the goal, often including repeated non-consecutive days rather than one isolated record [2, 3, 4]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "choose-ordinary-day",
+          "heading": {
+            "ar": "اختار يوماً عادياً وما تمثّلش قدام الكاميرا",
+            "en": "Choose an ordinary day and do not perform for the camera"
+          },
+          "body": {
+            "ar": "اختار يوم شبه أيامك المعتادة: مش عزومة كبيرة، مش يوم مرض، ومش يوم قررت فيه تبدأ حمية جديدة. لو مواعيدك مختلفة كل يوم، اختار يوم موجود فعلاً في روتينك واكتب نوعه: شغل من المكتب، شغل من البيت، إجازة، أو سفر. ما فيش يوم مثالي لازم تخلقه، لأن فائدة السجل جاية من صدقه مش من شكله.\n\nابدأ من أول حاجة فيها طاقة أو إضافات، وكمل لحد النوم. المية العادية ممكن تتسجل بملاحظة إجمالية لو ده أسهل، لكن صوّر باقي المشروبات وإضافاتها. ما تمنعش أكلة عشان شكلها، وما تزودش خضار مخصوص للصورة، وما تأجلش الأكل عشان الإضاءة. تسجيل الأكل ممكن يغيّر السلوك لمجرد إنك عارف إنك بتراقبه؛ الباحثين بيسموا ده «تأثير التسجيل»، وهو سبب مهم إننا نتعامل مع اليوم كلقطة مش كحقيقة كاملة [2, 3, 4].\n\nاتفق مع نفسك على قواعد صغيرة قبل ما تبدأ: صورة واحدة سريعة، من غير ميزان، من غير سعرات، ومن غير نشر. لو نسيت حاجة، اكتبها لما تفتكر بدل ما تلغي اليوم. ولو حد تاني حضّر الطبق، مش مطلوب تستجوبه؛ اسم الأكلة ومعلومتين واضحتين كفاية كبداية. الهدف إن المهمة تفضل خفيفة عشان تكملها، لأن جودة السجل بتقل لما العبء يزيد أو الأيام تطول [1, 2, 3].",
+            "en": "Choose a day resembling your ordinary life: not a large celebration, an illness day, or the first day of a new diet. If your schedule changes, select a type of day that genuinely occurs and label it: office day, working from home, weekend, or travel. You do not need to manufacture a perfect day; the record is useful because it is candid, not because it looks polished.\n\nBegin with the first item containing energy or additions and continue until bedtime. Plain water can be summarised in a note if that is easier, but photograph other drinks and what is added to them. Do not avoid a food because of its appearance, add vegetables for the image, or postpone eating for better light. Recording can itself alter behaviour because you know you are observing it. Researchers call this reactivity, and it is an important reason to treat the day as a snapshot rather than complete truth [2, 3, 4].\n\nSet a few rules before starting: one quick photo, no scale, no calorie counting, and no posting. If you forget an item, add a note when you remember instead of discarding the day. If someone else prepared the dish, there is no need to interrogate them; the dish name and two clear details are enough to start. Keep the task light enough to finish, because record quality can decline as burden and reporting duration increase [1, 2, 3]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "capture-each-occasion",
+          "heading": {
+            "ar": "صوّر كل مرة أكل أو شرب بطريقة مفهومة",
+            "en": "Capture each eating or drinking occasion clearly"
+          },
+          "body": {
+            "ar": "صوّر قبل أول لقمة أو رشفة، وخلي الطبق أو العبوة باينين بقدر معقول. اكتب الوقت واسم بسيط: «فول وعيش»، «قهوة بلبن وسكر»، «حفنة مكسرات»، أو «ساندوتش من المطعم». لو الحجم مش واضح ومحتاج تستخدم الصور مع مختص، حط جنب الطبق حاجة معروفة الحجم زي معلقة أو الكوباية المعتادة، من غير ما تحوّل الموضوع لقياس هندسي. الطرق البحثية الأدق أحياناً بتستخدم بطاقة مرجعية وصورة قبل وبعد، ومع ذلك تقدير الحصص مش مضمون [1].\n\nخد صورة جديدة لو زودت طبقاً، صبيت مشروباً تاني، أو رجعت للأكل بعد فترة. الصوصات، التتبيلة، السكر، اللبن، والمقبلات ممكن ما يبانوش في لقطة واحدة، فملاحظة من كلمتين بتكمّل الصورة. لو أخدت لقمة وإنت واقف في المطبخ، صوّر اللي تقدر أو اكتبها فوراً. منهج الاستدعاء المتعدد عند وزارة الزراعة الأمريكية بيسأل تحديداً عن الأكلات المنسية، الوقت، المناسبة، والتفاصيل، لأن المراجعة على أكتر من مرة بتحسّن اكتمال القصة [5, 6].\n\nما تحاولش تحسب المغذيات من الصورة بنفسك. حتى الأنظمة المتخصصة بتحتاج غالباً مراجعة إنسان، وتعريف الصنف والوصفة وتقدير البواقي. الصورة هنا بتعمل وظيفة أبسط: تدي ذاكرتك مرساة بصرية وتدي المختص نقطة يسأل منها. لو الوصفة مهمة، اكتب المكونات الأساسية أو صوّر ملصق المنتج منفصلاً، خصوصاً لو فيه حساسية أو شرط علاجي، لكن قرار الملاءمة يفضل مع الفريق المعالج [1, 2].",
+            "en": "Photograph the food before the first bite or sip, keeping the plate or package reasonably visible. Add the time and a simple name: “beans and bread,” “coffee with milk and sugar,” “handful of nuts,” or “restaurant sandwich.” If size is unclear and you plan to review the images with a professional, place a familiar object such as a spoon or usual cup beside the plate without turning the exercise into geometry. More rigorous research methods sometimes use a reference card and before-and-after images, yet portion estimates are still not guaranteed [1].\n\nTake another image if you add a serving, refill a drink, or return to food later. Sauces, dressings, sugar, milk, and appetisers may not be visible in one frame, so a two-word note completes the image. If you take a bite while standing in the kitchen, photograph what you can or note it promptly. The USDA multiple-pass recall method specifically revisits forgotten foods, time, eating occasion, and details because more than one pass helps complete the story [5, 6].\n\nDo not try to calculate nutrients from the image yourself. Even specialised systems often need human review, food and recipe identification, and an estimate of leftovers. The photo has a simpler job here: it anchors your memory and gives a clinician a place to begin asking. When a recipe matters, list the main ingredients or photograph a product label separately, especially for an allergy or treatment requirement, but leave suitability decisions with the treating team [1, 2]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "add-context-protect-privacy",
+          "heading": {
+            "ar": "ضيف سياق صغير واحمِ خصوصيتك",
+            "en": "Add minimal context and protect your privacy"
+          },
+          "body": {
+            "ar": "الصورة بتقول «إيه»، لكن أحياناً سؤال «فين وإمتى وليه» هو اللي يفسّر النمط. جنب كل مرة، ممكن تكتب سطر قصير: كنت جعان قد إيه بشكل تقريبي، أكلت لوحدك ولا مع ناس، كنت مستعجل ولا هادي، وهل الوجبة شبعتك. مش لازم تحلل مشاعرك ولا تدور على سبب لكل لقمة. بيانات زي وقت ومكان الوجبة والأنشطة المصاحبة ممكن تخلي سجل الطعام أوضح، بس اجمع بس اللي هتستخدمه [2].\n\nخلي اللغة محايدة: «أكلت واقف بعد اجتماع واتأخرت عن الغدا» أدق من «بوّظت اليوم». وما تحطش علامة صح أو غلط على كل صورة. مبادئ الأكل الصحي بتتكلم عن الكفاية والتوازن والاعتدال والتنوع والأمان، والتركيبة بتختلف حسب العمر والنشاط والثقافة والحالة الصحية؛ صورة واحدة ما تقدرش تختصر المبادئ دي في درجة [7, 8].\n\nالصور صحية وشخصية، فاقفل النسخ السحابي لو مش محتاجه، واعمل ألبوماً خاصاً، وامسح وجوه الناس أو أسماء الأدوية والعناوين اللي ظهرت بالغلط. ما تصوّرش شخصاً تاني من غير إذنه، وما تبعتش الألبوم على مجموعة. راجع الصور قبل ما تشاركها مع المختص واختار قناة اتفقت عليها العيادة. أبحاث التصوير السلبي نفسها بتذكر إن الصور ممكن تلتقط ناساً وأماكن خاصة، وإن مراجعة المستخدم مهمة قبل المشاركة [1].",
+            "en": "A photograph shows “what,” but “where, when, and what was happening” can sometimes explain the pattern. Beside each occasion, add one short line if useful: approximate hunger, eating alone or with others, feeling rushed or calm, and whether the meal was satisfying. You do not need to analyse every emotion or find a reason for every bite. Information about time, location, eating occasion, and concurrent activity can enrich a food record, but collect only what you intend to use [2].\n\nUse neutral language: “I ate standing after a meeting because lunch was late” is more accurate than “I ruined the day.” Do not place a pass or fail mark on each image. Healthy dietary principles concern adequacy, balance, moderation, diversity, and safety, while the exact pattern varies with age, activity, culture, and health. A single picture cannot compress those principles into a score [7, 8].\n\nFood images are personal health information. Disable cloud backup if you do not need it, use a private album, and crop faces, medicine names, addresses, or workplace details captured by accident. Do not photograph another person without permission or send the album to a group chat. Review images before sharing them with a professional and use a channel agreed with the clinic. Research on passive image capture likewise notes that pictures may include private people and settings and require participant review before transmission [1]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "review-without-judgment",
+          "heading": {
+            "ar": "راجع التسلسل بالليل من غير محاكمة",
+            "en": "Review the sequence that evening without judging it"
+          },
+          "body": {
+            "ar": "بالليل رتّب الصور حسب الوقت وابصّ على التسلسل قبل المحتوى. إيه أول وقت أكلت فيه؟ فيه فجوة طويلة سبقت جوعاً شديداً أو أكل سريع؟ هل مشروب أو لقمة اتكررت من غير ما تفتكرها عادة؟ وهل اليوم كان مختلفاً بسبب نوم قليل أو مواصلات أو ضغط؟ دي أسئلة، مش اتهامات. سجل اليوم يقدر يوصف مواعيد الوجبات والسناك والسياق، لكن العلاقة اللي هتلاحظها ما تثبتش سبباً وحدها [2, 4].\n\nبعد كده بصّ للصورة الكبيرة: هل اليوم كان فيه تنوع معقول من خضار أو فاكهة، مصادر بروتين، ونشويات أو حبوب مناسبة؟ هل المشروبات ظاهرة؟ هل فيه وجبة صغيرة جداً سابتك جعان؟ دليل منظمة الصحة العالمية بيأكد إن النظام الصحي له أشكال كتير وإن الأساس هو الكفاية والتوازن والاعتدال والتنوع، ودليل الأكل البريطاني بيقيّم التوازن على مدار يوم أو أسبوع مش شرط كل طبق منفرد [7, 8].\n\nاختار ملاحظة واحدة قابلة للاختبار، مش قائمة إصلاحات. مثلاً: «الفجوة بين الغدا والعشا كانت طويلة، هجهّز سناك مناسب»، أو «العشا اتأخر عشان مفيش اختيار جاهز». لو المشكلة التانية بتتكرر، صفحة وجبات الفريزر: أزواج سهلة وآمنة بتدي طريقة عملية للوجبة الاحتياطية. ما تستخدمش الصور عشان تمنع مجموعة كاملة أو تعاقب نفسك تاني يوم؛ التغيير المفيد محتاج سياق ومراجعة، مش رد فعل على لقطة [3, 7, 8].",
+            "en": "That evening, arrange the images by time and inspect the sequence before the contents. When did eating begin? Did a long gap precede intense hunger or hurried eating? Did a drink or small taste recur even though you would not normally remember it? Was the day altered by short sleep, commuting, or pressure? These are questions, not accusations. A record can describe meal, snack, and contextual timing, but an association observed in one day cannot establish a cause [2, 4].\n\nThen consider the wider picture. Was there reasonable variety across vegetables or fruit, protein sources, and suitable starchy foods or grains? Are drinks visible? Did a very small meal leave you hungry? WHO guidance explains that healthy diets take many forms and rest on adequacy, balance, moderation, and diversity, while the NHS Eatwell Guide considers balance across a day or week rather than requiring every plate to stand alone [7, 8].\n\nSelect one observation to test, not a repair list. You might note, “the gap between lunch and dinner was long, so I will prepare a suitable snack,” or “dinner was delayed because no clear option was ready.” If the second problem recurs, Freezer meal pairs: easy and safe offers a practical backup-meal method. Do not use the images to ban an entire food group or punish yourself the next day; useful change needs context and review, not a reaction to one frame [3, 7, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "وجبات الفريزر: أزواج سهلة وآمنة",
+                "url": "../articles/tip-freezer-meal-pairs.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Freezer meal pairs: easy and safe",
+                "url": "../articles/tip-freezer-meal-pairs.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "interpret-with-context",
+          "heading": {
+            "ar": "افصل بين الملاحظة والتشخيص",
+            "en": "Separate observation from diagnosis"
+          },
+          "body": {
+            "ar": "لو الصور أظهرت إنك أكلت مرات كتير، ده وحده ما يثبتش أكل عاطفي ولا مرضاً. ولو أظهرت وجبتين بس، ده ما يثبتش إن الصيام مناسب أو إن جسمك أخد احتياجه. الشهية والتوقيت بيتأثروا بالشغل والنوم والنشاط والدواء والمرض، والصورة ما تقيسش سكر الدم أو الامتصاص أو معدل الأيض. خلي الجملة دقيقة: «لاحظت كذا في اليوم ده»، مش «عرفت سبب وزني» [2, 4, 7].\n\nاسأل عن الإحساس من غير ما تحطه في صندوق جامد: هل كنت جعان، مستمتع، متوتر، أو أكتر من حاجة مع بعض؟ ممكن الجوع الجسدي والمشاعر يجتمعوا، ومش كل أكل للراحة اضطراباً. صفحة إزاي أعرف الجوع الجسدي من الأكل العاطفي؟ بتشرح الحدود دي بالتفصيل، فهنا يكفي إنك تسجّل السياق من غير لوم وما تمنعش احتياج الجسم بسبب وجود مشاعر [9, 10].\n\nلو هدفك متابعة عرض زي الانتفاخ أو الارتجاع أو الصداع، ما تستنتجش من تزامن واحد إن أكلة بعينها هي السبب، وما تبدأش حمية إقصاء واسعة. اكتب وقت العرض وشدته والأدوية ذات الصلة، وخلي الطبيب يحدد هل محتاج سجلاً مخصصاً أو فحوصاً. وأي علاج مزمن أو حمل أو حساسية أو اضطراب بلع يغيّر طريقة تفسير الصور؛ الخطة الفردية ما تتنسخش من طبق حد تاني ولا من تطبيق [2, 4, 12].",
+            "en": "If the images show frequent eating, that alone does not establish emotional eating or a disorder. If they show only two meals, that does not prove fasting is appropriate or that your body received what it needed. Appetite and timing are affected by work, sleep, activity, medicine, and illness, while a picture cannot measure blood glucose, absorption, or metabolism. Keep the statement precise: “I noticed this on this day,” not “I found the cause of my weight” [2, 4, 7].\n\nAsk about the experience without forcing it into a rigid category. Were you hungry, enjoying food, distressed, or experiencing more than one thing? Physical hunger and emotion can coexist, and comfort eating does not automatically indicate a disorder. How can I tell physical hunger from emotional eating? explores those boundaries; here it is enough to record context without blame and not deny a bodily need merely because emotion was present [9, 10].\n\nIf your purpose is to track a symptom such as bloating, reflux, or headache, do not conclude from one coincidence that a particular food caused it, and do not begin a broad elimination diet. Note the symptom time, severity, and relevant medicines, then let a clinician decide whether a targeted record or tests are needed. Chronic treatment, pregnancy, allergy, or a swallowing disorder also changes how images should be interpreted; an individual plan cannot be copied from another person's plate or an app [2, 4, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "إزاي أعرف الجوع الجسدي من الأكل العاطفي؟",
+                "url": "../articles/qa-physical-or-emotional-hunger.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "How can I tell physical hunger from emotional eating?",
+                "url": "../articles/qa-physical-or-emotional-hunger.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-not-to-self-track",
+          "heading": {
+            "ar": "إمتى التسجيل مش مناسب وإمتى تحتاج مساعدة؟",
+            "en": "When is self-tracking unsuitable, and when should you seek help?"
+          },
+          "body": {
+            "ar": "التصوير أداة اختيارية، ومش مناسب لكل الناس. وقفه لو بقيت تختار الكمية عشان شكلها، تخاف من الصور، تراجعها بالساعات، تخفي الأكل، أو تعوّض بصيام أو قيء أو ملينات أو تمرين قهري. القلق الشديد من الوزن أو الشكل، الأكل المقيّد، الانسحاب من المواقف اللي فيها أكل، الدوخة، الخفقان أو الإغماء علامات تستحق تقييماً مبكراً. إرشادات NICE بتوصي بعدم الاعتماد على أداة فحص واحدة، وبالنظر للسلوك والأعراض الجسدية والنفسية معاً [9].\n\nالأكل الكثير في مناسبة مش هو تلقائياً اضطراب نهم. العلامة الأساسية في نوبة النهم هي كمية كبيرة في وقت قصير مع إحساس بفقدان السيطرة، والتشخيص كمان يعتمد على التكرار والضيق والتقييم المتخصص. لو ده بيتكرر، أو التسجيل بيزود الحلقة، اطلب مساعدة من مختص عنده خبرة في اضطرابات الأكل بدل ما تجمع صوراً أكتر أو تبدأ حمية أقسى [9, 10].\n\nوفي علامات طبية الصور ما ينفعش تؤجلها: فقدان وزن مستمر من غير قصد يحتاج مراجعة، وصعوبة البلع أو الكحة والاختناق مع الأكل تحتاج تقييماً عاجلاً، والقيء الدموي يحتاج مساعدة طبية فورية حسب الأعراض. الإغماء أو الارتباك أو الجفاف الشديد أو التدهور السريع ما يستناش موعد تغذية روتيني. خُد الرعاية المناسبة الأول، وبعد الاستقرار يقرر الفريق إذا كان أي سجل مفيداً [9, 11, 12, 13].",
+            "en": "Photography is optional and does not suit everyone. Stop if you begin selecting portions for appearance, fear the images, review them for hours, hide food, or compensate through fasting, vomiting, laxatives, or compulsive exercise. Severe concern about weight or shape, restrictive eating, withdrawal from food-related situations, dizziness, palpitations, or fainting justify early assessment. NICE recommends not relying on one screening tool and considering behavioural, physical, and psychological signs together [9].\n\nEating a large amount at a celebration is not automatically binge-eating disorder. A core feature of a binge episode is consuming a large amount over a short time while feeling a loss of control; diagnosis also considers recurrence, distress, and a specialist assessment. If this recurs or tracking feeds the cycle, seek a professional experienced in eating disorders instead of collecting more images or imposing a harsher diet [9, 10].\n\nSome medical signs should not be delayed by photography. Continuing unintentional weight loss needs review, swallowing difficulty or coughing and choking with meals needs urgent assessment, and vomiting blood requires immediate medical help according to the associated symptoms. Fainting, confusion, severe dehydration, or rapid deterioration should not wait for a routine nutrition appointment. Obtain appropriate care first; after stabilisation, the team can decide whether any record would help [9, 11, 12, 13]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "use-at-consultation",
+          "heading": {
+            "ar": "حوّل الصور لأسئلة مفيدة في الزيارة",
+            "en": "Turn the images into useful questions at a consultation"
+          },
+          "body": {
+            "ar": "قبل الزيارة، اختار اليوم زي ما هو وما تعملش نسخة منقحة. اكتب فوقه نوع اليوم، مواعيد النوم والشغل بشكل مختصر، وأي دواء أو عرض طلب الطبيب تسجيله. حضّر تلات أسئلة: هل الفجوات مناسبة لحالتي؟ هل فيه تفاصيل ناقصة عشان التقييم؟ وهل محتاج أكرر السجل في يوم تاني؟ المختص ممكن يراجع المواعيد والمشروبات والإضافات والحصص والسياق، وبعدها يقرر هل الصور كفاية للنقاش ولا محتاج استدعاء 24 ساعة أو سجل أيام متعددة [2, 3, 5, 6].\n\nصفحة دليل أول زيارة للتغذية العلاجية بتوضح باقي المعلومات المهمة، زي التاريخ الطبي والأدوية والتحاليل المتاحة والهدف الواقعي. الصور جزء صغير من التقييم، ومش بديل عن الأعراض والفحص والتحاليل عند الحاجة. ما تمسحش حاجة محرجة وما تعتذرش عن يومك؛ وظيفة الزيارة فهم الواقع وبناء خطوة تناسبك، مش منح درجة للألبوم.\n\nلو مفيش علامات عاجلة لكن مواعيد أكلك أو شهيتك أو وزنك أو علاقتك بالأكل مسببين حيرة، تقدر تستخدم طلب حجز موعد تغذية علاجية في العيادة. اذكر إن عندك سجل صور ليوم واحد واسأل عن الطريقة الآمنة لمشاركته، من غير إرسال تلقائي. القرار الفردي يفضل مع الطبيب أو أخصائي التغذية المعالج، وممكن يطلب منك توقف التسجيل أو تغيّر طريقته حسب حالتك [2, 9].",
+            "en": "Before the visit, keep the day as it happened rather than producing an edited version. Label the type of day, briefly note sleep and work timing, and add only medicines or symptoms your clinician asked you to record. Prepare three questions: Were these gaps appropriate for my situation? What details are missing for assessment? Do I need to repeat the record on another day? A professional can review timing, drinks, additions, portions, and context, then decide whether the images are enough for discussion or whether a 24-hour recall or records from several days are needed [2, 3, 5, 6].\n\nYour first clinical nutrition visit explains other useful information, including medical history, medicines, available test results, and a realistic goal. Images are one small part of assessment, not a replacement for symptoms, examination, or tests when indicated. Do not delete an embarrassing item or apologise for your day. The visit should understand reality and build an appropriate next step, not grade the album.\n\nIf there are no urgent signs but meal timing, appetite, weight, or your relationship with food is causing uncertainty, you can request a clinical nutrition appointment at the clinic. Mention that you have a one-day photo record and ask how to share it safely rather than sending it automatically. Individual decisions remain with your treating clinician or dietitian, who may ask you to stop recording or change the method according to your situation [2, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل أول زيارة للتغذية العلاجية",
+                "url": "../articles/therapeutic-nutrition-first-visit-guide.html"
+              },
+              {
+                "label": "طلب حجز موعد تغذية علاجية",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Your first clinical nutrition visit",
+                "url": "../articles/therapeutic-nutrition-first-visit-guide.html"
+              },
+              {
+                "label": "request a clinical nutrition appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "صور الوجبات ليوم واحد: سجل أكل عملي",
+          "en": "One-day meal photos: a practical food record"
+        },
+        "description": {
+          "ar": "دليل عملي لصور الوجبات ليوم واحد: إيه اللي تصوّره، وإزاي تراجع التوقيت والسياق من غير لوم، وحدود السجل وإمتى تحتاج تقييماً مختصاً.",
+          "en": "A practical guide to one-day meal photos: what to capture, how to review timing and context without blame, the record's limits, and when to seek help."
+        }
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّع الدليل بشرح تسجيل صور الوجبات ومراجعتها بموضوعية وحدودها وعلامات طلب المساعدة، واتراجع طبياً من جديد.",
+            "en": "The guide was expanded with neutral meal-photo recording, interpretation limits, and signs for seeking help, and was medically re-reviewed."
+          }
+        }
+      ]
+    }
+  ]
+}
