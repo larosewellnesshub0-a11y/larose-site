@@ -1,0 +1,175 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of tip-protein-backup-portions; replaces the entry from content/articles.json. Expanded the two-portion backup idea into a medically reviewed guide to protein choice, individual portions, balanced meals, and safe freezing.",
+  "articles": [
+    {
+      "slug": "tip-protein-backup-portions",
+      "type": "tip",
+      "published": true,
+      "featured": false,
+      "category": "clinical-nutrition",
+      "specialties": ["clinical-nutrition"],
+      "date": "2026-08-23",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/tip-protein-backup-portions.webp",
+      "title": {
+        "ar": "حصص بروتين للطوارئ: تجهيز آمن وعملي",
+        "en": "Backup protein portions: safe, practical prep"
+      },
+      "excerpt": {
+        "ar": "وقت ما تطبخ مصدر بروتين مناسب، شيل حصتين سادة واكتب المحتوى والتاريخ. اعرف إزاي تختار الحصة وتجمّدها بأمان وتحوّلها لوجبة متوازنة وقت الزحمة.",
+        "en": "When cooking a suitable protein food, reserve two plain portions and label the contents and date. Learn how to size, freeze, and turn them into balanced busy-day meals."
+      },
+      "faq": [
+        {
+          "q": {"ar": "هل لازم الحصة تبقى فراخ أو لحمة؟", "en": "Does a backup portion have to be chicken or meat?"},
+          "a": {
+            "ar": "لأ. السمك والبيض والبقول زي العدس والفاصوليا، ومنتجات الصويا والمكسرات والبذور كلها ممكن تساهم في البروتين حسب شكل الوجبة واحتياجك. مش كل اختيار بيتجمّد بنفس الجودة؛ البيض المطهي داخل أكلة أو شوربة العدس مثلاً ممكن يبقوا عمليين، بينما أكلات تانية قوامها يتغير. نوّع بدل ما تعتمد على صنف واحد، وكمّل الحصة بخضار ومصدر نشويات مناسب [1, 2, 3].",
+            "en": "No. Fish, eggs, pulses such as lentils and beans, soy foods, nuts, and seeds can all contribute protein, depending on the meal and your needs. Not every option freezes equally well: cooked egg within a dish or lentil soup may be practical, while other foods change texture. Vary your choices instead of relying on one food, and complete the portion with vegetables and a suitable starchy food [1, 2, 3]."
+          }
+        },
+        {
+          "q": {"ar": "أحدد حجم حصة البروتين بإيدي؟", "en": "Should I size a protein portion using my hand?"},
+          "a": {
+            "ar": "قياس الإيد ممكن يبقى تذكير منزلي تقريبي، لكنه مش وصفة طبية ومش بيمثل احتياج كل شخص. الاحتياج بيتأثر بالعمر وحجم الجسم والنشاط والحمل أو الرضاعة والمرض والهدف، والمحتوى الفعلي بيختلف بين الفراخ والعدس والزبادي مثلاً. لو محتاج رقم أو عندك حالة طبية، خلي المختص يحسب اليوم كله وبعدين حوّل النطاق لحصص تقدر تكررها [1, 4, 5, 12].",
+            "en": "A hand measure can be a rough household reminder, but it is not a prescription and does not represent every person's requirement. Needs vary with age, body size, activity, pregnancy or breastfeeding, illness, and goals, while actual protein differs between chicken, lentils, and yoghurt. If you need a number or have a medical condition, ask a professional to assess the whole day and then translate that range into repeatable portions [1, 4, 5, 12]."
+          }
+        },
+        {
+          "q": {"ar": "قد إيه الحصص المطهية تفضل في التلاجة أو الفريزر؟", "en": "How long do cooked portions keep in the refrigerator or freezer?"},
+          "a": {
+            "ar": "الإرشادات الأمريكية بتذكر 3 إلى 4 أيام في التلاجة لمعظم بواقي الأكل المطهية، و3 إلى 4 شهور في الفريزر كمدة جودة عامة للبواقي، بس النوع والتغليف ودرجة الحرارة بيفرقوا. التجميد المستمر عند 18 تحت الصفر أو أبرد يحافظ على الأمان مدة أطول، لكن الجودة ممكن تقل. اكتب التاريخ وراجع جدول التخزين للصنف المحدد [7, 8, 9].",
+            "en": "U.S. guidance gives three to four refrigerator days for most cooked leftovers and three to four freezer months as a general quality period for leftovers, although food type, wrapping, and temperature matter. Continuous storage at 0°F (-18°C) or below preserves safety longer, but quality may decline. Label the date and check the storage chart for the specific food [7, 8, 9]."
+          }
+        },
+        {
+          "q": {"ar": "ينفع أفك الحصة على رخامة المطبخ؟", "en": "Can I thaw a portion on the kitchen counter?"},
+          "a": {
+            "ar": "لأ. فكّها في التلاجة، أو في مية باردة وهي جوه عبوة محكمة مع تغيير المية، أو بالميكروويف ويتبعه طبخ أو تسخين فوراً. السطح ممكن يدخل درجة تسمح بنمو الميكروبات بينما النص لسه متجمد. بعض البواقي ينفع تتسخن من التجميد، لكن هتحتاج وقت أطول ولازم تسخن كلها كويس [6, 7, 8].",
+            "en": "No. Thaw it in the refrigerator, in cold water inside a leak-proof package with regular water changes, or in the microwave followed immediately by cooking or reheating. The surface can become warm enough for microbes to grow while the centre remains frozen. Some leftovers can be reheated from frozen, but they take longer and must heat thoroughly throughout [6, 7, 8]."
+          }
+        },
+        {
+          "q": {"ar": "إمتى أعراض بعد الوجبة تبقى طارئة أو تحتاج كشف؟", "en": "When do symptoms after a meal need urgent help or assessment?"},
+          "a": {
+            "ar": "صعوبة النفس، تورم اللسان أو الحلق، دوخة شديدة أو فقدان الوعي بعد الأكل ممكن يبقوا حساسية خطيرة ويحتاجوا تصرفاً طارئاً فوراً حسب خطة الحساسية وطلب الإسعاف. واطلب تقييماً طبياً مع إسهال دموي، إسهال أكتر من 3 أيام، قيء مانع السوائل، حرارة عالية، أو جفاف زي قلة البول والدوخة عند الوقوف. الحوامل والأطفال الصغيرين وكبار السن وضعف المناعة محتاجين تواصل أبكر [10, 11].",
+            "en": "Breathing difficulty, tongue or throat swelling, marked dizziness, or loss of consciousness after eating may signal a severe allergy and require immediate emergency action according to the allergy plan and local emergency services. Seek medical assessment for bloody diarrhoea, diarrhoea beyond three days, vomiting that prevents fluids, high fever, or dehydration such as little urination and dizziness on standing. Pregnant people, young children, older adults, and immunocompromised people need earlier contact [10, 11]."
+          }
+        }
+      ],
+      "sources": [
+        {"label": "World Health Organization — Healthy diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"},
+        {"label": "NHS — The Eatwell Guide", "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/"},
+        {"label": "USDA MyPlate — Protein Foods Group", "url": "https://www.myplate.gov/web/web/eat-healthy/protein-foods"},
+        {"label": "Hudson et al. — Protein Distribution and Muscle-Related Outcomes (PMC7285146)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7285146/"},
+        {"label": "European Food Safety Authority — Dietary reference values", "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values"},
+        {"label": "US FDA — Safe Food Handling", "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"},
+        {"label": "USDA FSIS — Leftovers and Food Safety", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"},
+        {"label": "USDA FSIS — Freezing and Food Safety", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety"},
+        {"label": "FoodSafety.gov — Cold Food Storage Chart", "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"},
+        {"label": "US CDC — Food Poisoning Symptoms", "url": "https://www.cdc.gov/food-safety/signs-symptoms/index.html"},
+        {"label": "US FDA — Food Allergies", "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies"},
+        {"label": "NIDDK — Slow progression and reduce complications of chronic kidney disease", "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/manage-ckd/slow-progression-reduce-complications"}
+      ],
+      "tags": {
+        "ar": ["حصص بروتين", "تجهيز الوجبات", "بروتين للطوارئ", "تجميد الطعام", "سلامة الغذاء"],
+        "en": ["protein portions", "meal preparation", "backup protein", "freezing food", "food safety"]
+      },
+      "sections": [
+        {
+          "id": "two-portions-not-a-perfect-week",
+          "heading": {"ar": "الفكرة حصتين ينقذوا اليوم، مش أسبوع مثالي", "en": "The idea is two portions that rescue a day, not a perfect week"},
+          "body": {
+            "ar": "وقت ما تطبخ فراخ أو سمك أو لحمة أو عدس، شيل حصتين سادة قبل الصوص وحط كل واحدة في علبة منفصلة. الحصتين مش رقم طبي ومش لازم يكفوا أسبوع؛ هم احتياطي صغير لليوم اللي رجعت فيه متأخر ومفيش طاقة تبدأ وجبة من الصفر. لما تستخدم واحدة، عوّضها من طبخك العادي. كده النظام بيتجدد من غير يوم تجهيز ضخم، ومن غير ما الفريزر يتملي علب تنساها.\n\nليه نبدأ بالبروتين؟ لأنه جزء محتاج طبخ أو تخطيط في وجبات كتير، بينما عيش أو رز أو خضار مجمد ممكن يتجهزوا أسرع. لكن وجود علبة بروتين لوحدها مش معناه إن الوجبة اكتملت. الأكل المتوازن بيعتمد على الكفاية والتوازن والتنوع، وتركيبه بيتغير حسب الشخص والثقافة والمتاح. تقدر تكمل الحصة بخضار أو فاكهة ومصدر نشويات مناسب، ومش مطلوب كل وجبة تبقى نسخة حرفية من رسمة طبق؛ التوازن ممكن يتشاف على مدار اليوم أو الأسبوع [1, 2].\n\nلو المشكلة عندك إنك شايف مكونات ومش عارف تجمعها، صفحة وجبات الفريزر: أزواج سهلة وآمنة بتشرح طريقة كتابة تلات وجبات كاملة على الباب. هنا تركيزنا أضيق: إزاي تختار حصة البروتين، تحفظها، وتستخدمها بأمان. الفكرة أداة تنظيم، مش علاج لمرض ولا وعد بنزول الوزن أو زيادة العضلات [1, 2, 4].",
+            "en": "When you cook chicken, fish, meat, or lentils, reserve two plain portions before adding sauce and place each in a separate container. Two is not a clinical prescription and does not need to cover a whole week. It is a small reserve for the day you return late and have no capacity to start dinner from scratch. When you use one, replace it from ordinary cooking. The system renews itself without a huge preparation day or a freezer full of forgotten containers.\n\nWhy begin with protein? In many meals it is the component that needs more cooking or forethought, while bread, rice, or frozen vegetables may be quicker to arrange. A protein container alone does not make a complete meal, however. Balanced eating depends on adequacy, balance, and diversity, and its shape varies with the person, culture, and available food. Complete the portion with vegetables or fruit and a suitable starchy food. Every meal need not reproduce a plate diagram exactly; balance can be considered across a day or week [1, 2].\n\nIf your difficulty is seeing ingredients without knowing how to combine them, Freezer meal pairs: easy and safe explains how to list three complete meals on the door. This guide has a narrower purpose: choosing, storing, and safely using the protein portion. It is an organisation tool, not treatment for a disease or a promise of weight loss or muscle gain [1, 2, 4]."
+          },
+          "links": {
+            "ar": [{"label": "وجبات الفريزر: أزواج سهلة وآمنة", "url": "../articles/tip-freezer-meal-pairs.html"}],
+            "en": [{"label": "Freezer meal pairs: easy and safe", "url": "../articles/tip-freezer-meal-pairs.html"}]
+          }
+        },
+        {
+          "id": "choose-varied-protein",
+          "heading": {"ar": "اختار مصدر بروتين يناسب الوجبة وغيّره", "en": "Choose a protein source that suits the meal, and vary it"},
+          "body": {
+            "ar": "البروتين مش معناه صدور فراخ وبس. الاختيارات تشمل السمك واللحوم والدواجن والبيض، والبقول زي العدس والحمص والفاصوليا، وكمان الصويا والمكسرات والبذور. اللبن والزبادي والجبن بيساهموا برضه، لكن طريقة التخزين وحجم الحصة وشكل الوجبة مختلفين. التنوع بيساعدك تاخد عناصر غذائية مختلفة ويمنع الملل؛ والبقول بتضيف ألياف مع البروتين. اختار اللحوم الأقل دهناً أغلب الوقت، وقلل الاعتماد على اللحوم المصنّعة العالية في الملح والدهون [1, 2, 3].\n\nفكّر في الاستخدام قبل ما تجمّد. عدس مطهي من غير إضافات تقيلة يقدر يبقى شوربة أو يتضاف لطبق رز وخضار. فراخ سادة ممكن تدخل ساندويتش أو طبق خضار ورز. السمك محتاج تغليف كويس وخطة فك وتسخين مناسبة. المكسرات أو علبة تونة غير مفتوحة ممكن تبقى احتياطي في الدولاب بدل الفريزر، مع مراجعة الملصق والحساسية والملح. مش لازم كل مصادر البروتين تدخل نفس النظام عشان الفكرة تنجح.\n\nجودة الأكل كلها أهم من مطاردة مكوّن واحد. لو كل حصة معاها صوص كتير أو الوجبة مفيهاش خضار ومصدر طاقة مناسب، مجرد كلمة «بروتين» مش هتصلح التوازن. بدّل بين مصدر نباتي وحيواني لو ده مناسب لك، واستعمل المتاح المحلي اللي تقدر تكرره. منظمة الصحة العالمية بتأكد إن شكل النظام الصحي بيتغير مع الاحتياج والثقافة والمتاح، مع الحفاظ على الكفاية والتوازن والاعتدال والتنوع والأمان [1, 3].",
+            "en": "Protein does not mean chicken breast alone. Options include fish, meat, poultry, eggs, pulses such as lentils, chickpeas, and beans, as well as soy foods, nuts, and seeds. Milk, yoghurt, and cheese contribute too, although their storage, serving, and meal roles differ. Variety supplies different nutrients and prevents monotony, while pulses bring fibre alongside protein. Choose leaner meats most of the time and reduce reliance on processed meats high in salt and fat [1, 2, 3].\n\nThink about use before freezing. Plain cooked lentils can become soup or join rice and vegetables. Plain chicken can enter a sandwich or a bowl with vegetables and rice. Fish needs secure wrapping and a suitable thawing and reheating plan. Nuts or an unopened can of tuna may be cupboard backups rather than freezer portions, with attention to labels, allergy, and salt. The idea does not require every protein source to enter the same system.\n\nThe quality of the whole diet matters more than chasing one component. If every portion carries a heavy sauce, or the finished meal lacks vegetables and a suitable energy source, the word “protein” does not restore balance. Rotate plant and animal sources when appropriate and use locally available foods you can sustain. The World Health Organization emphasises that a healthy diet varies with individual needs, culture, and food availability while retaining adequacy, balance, moderation, diversity, and safety [1, 3]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "portion-is-individual",
+          "heading": {"ar": "الحصة مش رقم واحد لكل الناس", "en": "A portion is not one number for everyone"},
+          "body": {
+            "ar": "ما تنقلش حجم حصة لاعب أو شخص على السوشيال ميديا لجسمك. احتياج البروتين بيتأثر بالعمر وحجم الجسم والنشاط والتمرين والحمل أو الرضاعة والمرض، وبإجمالي الأكل والطاقة خلال اليوم. كمان كلمة «حصة» ما تقولش كمية البروتين لوحدها: نفس وزن العدس المطهي والفراخ مش بيدي نفس الكمية، والزبادي والجبن مختلفين. القيم المرجعية للسكان نقطة بداية للتخطيط وليست وصفة شخصية لكل وجبة [1, 5].\n\nالأبحاث عن توزيع البروتين بين الوجبات لسه مش بتثبت قاعدة مثالية واحدة لكل البالغين. مراجعة علمية لقت إن الأدلة على أفضل توزيع للعضلات محدودة وغير متسقة، وإن كفاية الإجمالي اليومي تفضل الأساس. عملياً، وجود مصدر مناسب في أكتر من وجبة ممكن يساعد الشخص اللي بيفوّت البروتين في الفطار أو الغدا، لكن تقسيم كمية قليلة جداً ما يخليهاش كافية، وزيادة البروتين بلا هدف ما تتحولش تلقائياً لعضل [4].\n\nعشان كده اعمل العلبة بناءً على وجبة معتادة وشبعك وخطتك، مش على صورة ثابتة. ممكن تكتب «حصة واحدة» أو «تكفي شخصين» بدل رقم جرامات لو ما عندكش وصف طبي. ولو محتاج تعرف نطاقك، صفحة كل ما أزوّد البروتين تكون النتيجة أحسن؟ بتلخّص ليه الحساب فردي. المختص يراجع يومك كله والحركة والأمراض والأدوية والتحاليل، وبعدها يحوّل النطاق لأكل فعلي تقدر تلتزم به [1, 4, 5].",
+            "en": "Do not copy the portion used by an athlete or a person on social media. Protein needs vary with age, body size, activity, training, pregnancy or breastfeeding, illness, and total food and energy intake. The word “portion” also does not reveal its protein content: equal weights of cooked lentils and chicken do not provide equal amounts, while yoghurt and cheese differ again. Population reference values are starting points for planning, not personal prescriptions for each meal [1, 5].\n\nResearch on distributing protein among meals still does not establish one ideal rule for every adult. A scientific review found evidence for an optimal muscle-focused distribution limited and inconsistent, with adequate daily intake remaining fundamental. In practice, including a suitable source at more than one meal may help someone who repeatedly misses protein at breakfast or lunch, but dividing an inadequate total does not make it adequate, and extra protein does not automatically become muscle [4].\n\nBuild the container around a usual meal, your satisfaction, and your plan rather than a fixed picture. You may label it “one portion” or “serves two” instead of grams when you have no prescribed target. If you need a range, Is more protein always better? summarises why calculation is individual. A professional reviews the whole day, movement, conditions, medicines, and tests, then turns the range into real food you can sustain [1, 4, 5]."
+          },
+          "links": {
+            "ar": [{"label": "كل ما أزوّد البروتين تكون النتيجة أحسن؟", "url": "../articles/qa-protein-needs-more-is-better.html"}],
+            "en": [{"label": "Is more protein always better?", "url": "../articles/qa-protein-needs-more-is-better.html"}]
+          }
+        },
+        {
+          "id": "cook-cool-label-freeze",
+          "heading": {"ar": "اطبخ وبرّد واكتب البيانات قبل التجميد", "en": "Cook, cool, and label before freezing"},
+          "body": {
+            "ar": "ابدأ بأمان من أول التحضير: اغسل إيدك والأسطح، وافصل اللحوم والدواجن والسمك النيّ عن السلطة والأكل الجاهز، واطبخ كل صنف لدرجة داخلية آمنة باستخدام ترمومتر أكل لما يكون متاح. ما تغسلش الفراخ النيّة عشان الرذاذ ممكن ينشر ميكروبات حوالين الحوض. بعد ما تستوي، استخدم معلقة وعلب نظيفة، وما ترجعش المطهي على طبق كان شايل النيّ [6].\n\nشيل الحصتين قبل إضافة صوص ممكن يغيّر الاستخدام أو يخلي الوجبة عالية جداً في الملح. «سادة» هنا معناها مرنة، مش ناقصة الطهي ولا من غير نكهة خالص. ينفع توابل وأعشاب مناسبة، لكن لازم الفراخ أو اللحمة أو السمك يكونوا مطهيين كويس لو هتخزنهم كمطهي. قسم الحلة الكبيرة لعلب صغيرة أو ضحلة عشان تبرد أسرع، ودخل الطعام القابل للفساد التلاجة أو الفريزر خلال ساعتين، أو خلال ساعة لو الجو فوق 32 درجة مئوية [6, 7].\n\nاكتب الاسم، تاريخ الطبخ، والكمية أو عدد الأشخاص. لو فيه مكوّن مسبب للحساسية اكتبه بوضوح، خصوصاً لو البيت فيه أكتر من شخص. اقفل العلبة كويس وسيب مساحة مناسبة للأكل اللي بيتمدد. ما تكدسش كمية كبيرة دافية في ركن واحد؛ وزعها عشان الهوا البارد يتحرك. التجميد بيوقف نمو ميكروبات كتير لكنه مش بيعقّم الأكل ومش يصلح تعامل غير آمن حصل قبل التجميد [7, 8].",
+            "en": "Start safely at preparation: wash hands and surfaces, separate raw meat, poultry, and fish from salad and ready-to-eat food, and cook each food to a safe internal temperature, using a food thermometer when available. Do not wash raw chicken because splashes can spread microbes around the sink. Once it is cooked, use a clean spoon and containers, and never return cooked food to a plate that held the raw item [6].\n\nReserve the two portions before adding a sauce that may limit later uses or make the meal very high in salt. “Plain” means flexible, not undercooked or entirely unseasoned. Suitable herbs and spices are fine, but chicken, meat, or fish stored as cooked food must be thoroughly cooked. Divide a large pot among small or shallow containers so it cools faster, and refrigerate or freeze perishable food within two hours, or within one hour when the surroundings exceed 90°F (32°C) [6, 7].\n\nWrite the food, cooking date, and quantity or number served. Clearly note any allergen, especially in a shared household. Close the container securely and leave suitable expansion space where needed. Do not stack a large amount of warm food tightly in one corner; spread it so cold air can circulate. Freezing stops the growth of many microbes, but it does not sterilise food or repair unsafe handling that occurred before freezing [7, 8]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "thaw-reheat-complete-meal",
+          "heading": {"ar": "فكّ وسخّن الحصة وكمّل الوجبة", "en": "Thaw, reheat, and complete the meal"},
+          "body": {
+            "ar": "أسهل خطة إنك تنزّل الحصة للتلاجة من الليلة السابقة أو الصبح. الطرق الآمنة للفك هي التلاجة، أو مية باردة والعبوة محكمة مع تغيير المية، أو الميكروويف ويتبعه الطبخ أو التسخين فوراً. ما تسيبش الحصة على الرخامة أو في العربية. ينفع تسخّن بعض البواقي من التجميد، خصوصاً الشوربة، بس هتحتاج وقت أطول وتقليب عشان الحرارة توصل للنص [6, 7, 8].\n\nوقت التسخين، غطّي وقلّب لو الطريقة تسمح عشان تقلل النقط الباردة. إرشادات البواقي الأمريكية بتوصي بوصول البواقي إلى 74 درجة مئوية، والشوربة والصوص يغْلوا بوضوح. ما تسخنش جزء وتسيب جزء فاتر. اتبع تعليمات المنتج، لأن بعض الأطعمة المجمدة شكلها مطهي وهي في الحقيقة محتاجة طبخ كامل. استخدم الكمية اللي هتاكلها بدل تكرار تسخين العلبة كلها [7, 8].\n\nبعد كده اسأل: إيه اللي ناقص عشان دي تبقى وجبة؟ حصة عدس ممكن تحتاج عيش أو رز وخضار؛ فراخ ممكن تكمل بخضار مجمد وبطاطس أو عيش؛ وسمك ممكن ييجي مع رز وسلطة. مش لازم تمنع النشويات عشان الوجبة فيها بروتين؛ هي مصدر طاقة ومكانها وكمّيتها يتظبطوا حسب الشخص واليوم. الخضار المجمد يفضل خضار، وبيوفر وقت. الفكرة إن الاحتياطي يمنع تخطي الوجبة، مش إنه يحوّل الأكل لحصة بروتين منفصلة وبس [1, 2, 3].",
+            "en": "The easiest plan is moving a portion to the refrigerator the night before or in the morning. Safe thawing methods are the refrigerator, cold water with the food in a leak-proof package and regular water changes, or the microwave followed immediately by cooking or reheating. Do not leave the portion on a counter or in a car. Some leftovers, especially soup, can be reheated from frozen, but they need extra time and stirring so heat reaches the centre [6, 7, 8].\n\nDuring reheating, cover and stir when the method allows to reduce cold spots. U.S. leftovers guidance recommends reheating leftovers to 165°F (74°C) and bringing soups and sauces to a clear boil. Do not heat one area while leaving another lukewarm. Follow product instructions because some frozen foods appear cooked but actually require full cooking. Heat the amount you will eat instead of repeatedly warming the whole container [7, 8].\n\nThen ask what is missing to make this a meal. A lentil portion may need bread or rice and vegetables; chicken may be completed with frozen vegetables and potato or bread; fish can join rice and salad. Carbohydrate need not be banned because the meal contains protein; it supplies energy, with type and amount adjusted to the person and day. Frozen vegetables remain vegetables and can save time. The reserve is meant to prevent a missed meal, not reduce eating to an isolated protein portion [1, 2, 3]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "adapt-for-health-needs",
+          "heading": {"ar": "عدّل الاحتياطي لو عندك احتياج طبي", "en": "Adapt the reserve when medical needs apply"},
+          "body": {
+            "ar": "لو عندك مرض كلى مزمن، ما تزودش البروتين أو تقلله من نفسك. المرحلة والتحاليل والغسيل الكلوي والحالة الغذائية بيغيروا الخطة؛ وإرشادات الكلى بتشدد على كمية كافية من غير زيادة في مراحل معينة، مع علاج غذائي فردي ومراجعة البوتاسيوم والفوسفور والصوديوم عند اللزوم. علبة «صحية» لشخص ممكن ما تناسبش شخص تاني، وبدائل الملح اللي فيها بوتاسيوم مش آمنة تلقائياً لكل مريض كلى [12].\n\nلو عندك سكر، الحصة البروتينية ما بتلغي حساب باقي الوجبة أو تأثير الدواء. ولو حامل أو مرضع، أو كبير سن، أو بتتعافى من جراحة، أو شهيتك ضعيفة، الاحتياج والطاقة وسلامة الغذاء محتاجين تقييم أدق. النباتي يقدر يعمل احتياطي من العدس والفاصوليا والحمص والصويا، لكن جودة اليوم كله وتنوعه والعناصر زي الحديد وفيتامين ب12 تفضل مهمة. ما تستخدمش الحصص لتطبيق منع واسع من غير تشخيص [1, 2, 3].\n\nالحساسية قصة مختلفة عن التفضيل. اقرأ الملصق كل مرة، امنع التلامس بين أداة أو علبة فيها المسبب وأكل الشخص المصاب، واكتب المكونات بوضوح. تورم اللسان أو الحلق، صعوبة النفس، الصفير، دوخة شديدة أو فقدان الوعي بعد الأكل علامات ممكن تشير لحساسية شديدة وتحتاج خطة الطوارئ وطلب مساعدة عاجلة [11]. لو محتاج تربط الأمراض والأدوية والتحاليل بيومك، دليل أول زيارة للتغذية العلاجية بيوضح إيه اللي يتراجع مع المختص قبل تحديد الحصص [11, 12].",
+            "en": "If you have chronic kidney disease, do not raise or lower protein on your own. Stage, laboratory results, dialysis, and nutritional status change the plan. Kidney guidance emphasises an adequate but not excessive amount in relevant stages, with individual medical nutrition therapy and review of potassium, phosphorus, and sodium when needed. A container that is “healthy” for one person may not suit another, and potassium-containing salt substitutes are not automatically safe for everyone with kidney disease [12].\n\nWith diabetes, a protein portion does not cancel the need to consider the rest of the meal or medicine effects. Pregnancy or breastfeeding, older age, surgical recovery, and poor appetite may also change needs, energy requirements, and food-safety priorities. A vegetarian reserve can use lentils, beans, chickpeas, or soy, while the quality and variety of the whole day and nutrients such as iron and vitamin B12 still matter. Do not use backup portions to begin broad restriction without a diagnosis [1, 2, 3].\n\nAllergy is different from preference. Read the label every time, prevent contact between an allergen-contaminated utensil or container and the affected person's food, and label ingredients clearly. Tongue or throat swelling, breathing difficulty, wheeze, severe dizziness, or loss of consciousness after eating may indicate a severe reaction requiring the emergency plan and urgent help [11]. If you need to connect conditions, medicines, and tests with your day, Your first clinical nutrition visit explains what a professional reviews before setting portions [11, 12]."
+          },
+          "links": {
+            "ar": [{"label": "دليل أول زيارة للتغذية العلاجية", "url": "../articles/therapeutic-nutrition-first-visit-guide.html"}],
+            "en": [{"label": "Your first clinical nutrition visit", "url": "../articles/therapeutic-nutrition-first-visit-guide.html"}]
+          }
+        },
+        {
+          "id": "rotate-review-and-next-step",
+          "heading": {"ar": "دوّر الحصتين وراجع اللي جسمك بيقوله", "en": "Rotate the two portions and review what your body is telling you"},
+          "body": {
+            "ar": "حط الأقدم قدام والجديد وراه، ولما تستخدم علبة اكتب في قائمة التسوق أو عوّضها من الطبخة الجاية. لو حصة بتفضل منسية، ما تلومش نفسك: اسأل هل حجمها كبير، طعمها مش محبوب، فكّها بياخد وقت، أو محتاجة تكملة مش موجودة؟ جمّد كمية أصغر، اكتب «نزّلها الصبح»، أو اختار مصدر أسهل. نظام من حصتين بتستخدمهم أحسن من عشر علب منسية. وراجع جدول التخزين بدل التخمين، لأن المدد بتختلف حسب نوع الأكل [7, 8, 9].\n\nما تعتمدش على الشم أو التذوق عشان تثبت الأمان؛ ميكروبات المرض ممكن تبقى موجودة من غير علامة واضحة. تخلّص من الطعام لو طريقة حفظه أو وقته غير معروفين، وما تدوقش عشان تختبره. لو ظهر إسهال دموي، إسهال مستمر أكتر من 3 أيام، حرارة عالية، قيء مانع السوائل، أو جفاف زي قلة البول وجفاف الفم والدوخة عند الوقوف، اطلب تقييماً طبياً. الحامل مع حرارة وأعراض شبه الإنفلونزا، والطفل الصغير وكبير السن وضعف المناعة محتاجين تواصل أبكر [6, 10].\n\nولو بتفوّت وجبات كتير، أو وزنك وشهيتك بيتغيروا من غير قصد، أو مش عارف الحصة المناسبة مع مرض أو دواء، تقدر تطلب حجز موعد تغذية علاجية في العيادة. خُد معاك قائمة الأدوية وأي تحاليل قريبة وصورة ليوم أكل عادي. التقييم يحدد هل المشكلة تنظيم بس ولا محتاجة تعديل فردي أو إحالة، والقرار يفضل مع الطبيب أو أخصائي التغذية المعالج [1, 12].",
+            "en": "Place older portions at the front and newer ones behind. When you use a container, add it to the shopping list or replace it from the next suitable dish. If one portion stays forgotten, do not blame yourself. Ask whether it is too large, unappealing, slow to thaw, or dependent on an unavailable addition. Freeze a smaller amount, write “move in the morning,” or choose an easier source. A two-portion system you use is better than ten forgotten containers. Consult a storage chart instead of guessing because times differ by food [7, 8, 9].\n\nDo not rely on smell or tasting to prove safety; illness-causing microbes can be present without an obvious sign. Discard food when its storage conditions or timing are unknown, and never taste it as a test. Seek medical assessment for bloody diarrhoea, diarrhoea lasting more than three days, high fever, vomiting that prevents fluids, or dehydration such as little urination, dry mouth, and dizziness on standing. Fever with flu-like symptoms during pregnancy, and illness in young children, older adults, or immunocompromised people, justify earlier contact [6, 10].\n\nIf you repeatedly miss meals, your appetite or weight changes unintentionally, or you cannot judge a suitable portion alongside a condition or medicine, you can request a clinical nutrition appointment at the clinic. Bring a medicine list, recent tests, and a picture of an ordinary day of eating. Assessment can distinguish an organisation problem from a need for individual adjustment or referral, and decisions remain with your treating clinician or dietitian [1, 12]."
+          },
+          "links": {
+            "ar": [{"label": "طلب حجز موعد تغذية علاجية", "url": "../patients/booking.html"}],
+            "en": [{"label": "request a clinical nutrition appointment", "url": "../patients/booking.html"}]
+          }
+        }
+      ],
+      "seo": {
+        "title": {"ar": "حصص بروتين للطوارئ: تجهيز وتجميد آمن", "en": "Backup protein portions: safe meal prep"},
+        "description": {
+          "ar": "دليل عملي لتجهيز حصص بروتين للطوارئ، واختيار الكمية المناسبة، وتبريدها وتجميدها وتسخينها بأمان وتحويلها لوجبة متوازنة بسهولة.",
+          "en": "Prepare backup protein portions safely: choose an individual amount, cool, freeze, thaw, reheat, and turn each portion into a balanced meal."
+        }
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسّع الدليل بشرح اختيار حصص البروتين وتجهيزها وتجميدها بأمان، واتراجع طبياً من جديد.",
+            "en": "The guide was expanded with protein selection, individual portions, and safe preparation and freezing, and was medically re-reviewed."
+          }
+        }
+      ]
+    }
+  ]
+}

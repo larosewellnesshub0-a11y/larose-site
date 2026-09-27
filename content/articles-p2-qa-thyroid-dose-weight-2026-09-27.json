@@ -1,0 +1,327 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of qa-thyroid-dose-weight; replaces the entry from content/articles.json. Expanded the short answer into a cited bilingual guide to dose safety, absorption, monitoring, weight plateaus, red flags, and clinician-led next steps.",
+  "articles": [
+    {
+      "slug": "qa-thyroid-dose-weight",
+      "type": "qa",
+      "published": true,
+      "featured": false,
+      "category": "internal-medicine",
+      "specialties": [
+        "internal-medicine",
+        "clinical-nutrition"
+      ],
+      "date": "2026-08-08",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا الإجابة عشان تشرح أمان الجرعة وطريقة الاستخدام والمتابعة وثبات الوزن، واتراجعت طبياً من جديد.",
+            "en": "We expanded the answer to explain dose safety, administration, monitoring and weight plateaus, and medically re-reviewed it."
+          }
+        }
+      ],
+      "image": "assets/img/articles/qa-thyroid-dose-weight.webp",
+      "title": {
+        "ar": "جرعة الغدة وثبات الوزن: هل أزوّد العلاج؟",
+        "en": "Thyroid dose and a weight plateau: should I take more?"
+      },
+      "excerpt": {
+        "ar": "لو تحاليل الغدة مستقرة والوزن ثابت، ما تزودش الجرعة بنفسك. اعرف إزاي تراجع طريقة العلاج والتحاليل وباقي أسباب ثبات الوزن بأمان.",
+        "en": "If thyroid results are stable but weight is not changing, do not raise the dose yourself. Learn how treatment, tests and other causes of a plateau are reviewed safely."
+      },
+      "sections": [
+        {
+          "id": "short-answer-dose-is-not-for-the-scale",
+          "heading": {
+            "ar": "الإجابة المختصرة: الجرعة للغدة، مش لرقم الميزان",
+            "en": "The short answer: the dose treats the thyroid, not the scale"
+          },
+          "body": {
+            "ar": "لأ، ما تزودش جرعة ليفوثيروكسين عشان الوزن ثابت. العلاج ده بيعوّض هرمون ناقص، والهدف إن وظيفة الغدة توصل للنطاق اللي الطبيب محدده حسب التحاليل والحالة، مش إن الجرعة تشتغل كدواء تخسيس. حتى النشرة الدوائية الرسمية بتحذر بوضوح من استخدام هرمونات الغدة لعلاج السمنة أو لإنقاص الوزن؛ ولو وظيفة الغدة طبيعية فالجرعات المعتادة مش بتعمل نزول وزن، والجرعات الأعلى ممكن تسبب سمية خطيرة. [1, 2, 6, 9]\n\nثبات الوزن ما يثبتش إن الجرعة قليلة. لو TSH وFree T4 مناسبين للسياق، فرفع الجرعة ممكن ينقلك من التعويض المطلوب لزيادة هرمون مصطنعة، من غير ما يحل السبب الحقيقي للثبات. الزيادة ممكن تعمل خفقان، رعشة، قلق، أرق، إحساس بحر، ضعف عضلي، فقدان عظم أو اضطراب في ضربات القلب. عشان كده التحسن المطلوب بيتقاس بصورة كاملة: تحاليل في توقيت مناسب، أعراض، طريقة أخذ الدواء، وأي تغييرات صحية أو دوائية؛ مش قراءة ميزان لوحدها. [1, 2, 3, 6]\n\nلو سؤالك الأوسع هو قد إيه خمول الغدة ممكن يزود الوزن وإيه اللي يحصل بعد علاجه، اقرأ خمول الغدة الدرقية وزيادة الوزن. هنا هنركز على السؤال الأضيق: ليه ما ينفعش تعدّل الجرعة بسبب plateau، وإزاي تجهز مراجعة مفيدة مع الطبيب من غير ما توقف العلاج أو تغيّر توقيته بنفسك. [1, 3, 8]",
+            "en": "No. Do not increase levothyroxine because your weight is unchanged. This medicine replaces missing hormone, and its purpose is to bring thyroid function into the range your clinician has set from your tests and clinical situation; it is not a weight-loss drug. The official prescribing label explicitly warns against using thyroid hormones to treat obesity or produce weight loss. In people with normal thyroid function, ordinary replacement-range doses do not reduce weight, while larger doses can cause serious toxicity. [1, 2, 6, 9]\n\nA weight plateau does not prove that your dose is too low. If TSH and free T4 are appropriate for your situation, raising the dose can turn necessary replacement into manufactured hormone excess without addressing the true reason for the plateau. Excess can cause palpitations, tremor, anxiety, poor sleep, heat intolerance, muscle loss, bone loss or abnormal heart rhythms. Treatment therefore needs to be judged as a complete picture: tests taken at an appropriate interval, symptoms, how the medicine is taken, and any health or medicine changes—not one scale reading. [1, 2, 3, 6]\n\nFor the broader question of how much an underactive thyroid can affect weight and what happens after treatment, see Hypothyroidism and weight gain. This page stays with the narrower question: why a plateau is not a reason to change the dose, and how to prepare for a useful clinical review without stopping treatment or changing its timing by yourself. [1, 3, 8]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "خمول الغدة الدرقية وزيادة الوزن",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Hypothyroidism and weight gain",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "what-sets-the-dose",
+          "heading": {
+            "ar": "إيه اللي بيحدد جرعة الغدة فعلاً؟",
+            "en": "What actually determines a thyroid dose?"
+          },
+          "body": {
+            "ar": "جرعة ليفوثيروكسين مش رقم ثابت لكل الناس، ومش بتتحسب من الوزن الحالي لوحده. الطبيب بيبص على سبب خمول الغدة، هل الغدة لسه بتنتج جزءاً من الهرمون ولا اتشالت أو اتعالجت، شدة النقص ومدة وجوده، السن، أمراض القلب، الحمل لو موجود، أدوية تانية، والنتائج المتتابعة. الإرشادات بتعتبر ليفوثيروكسين العلاج القياسي لقصور الغدة الأولي، لكن اختيار البداية والتعديل قرار فردي؛ عشان كده جرعة شخص قريب منك مش مرجع لجرعتك. [2, 8, 9, 10]\n\nفي أغلب حالات قصور الغدة الأولي، TSH هو المؤشر الأساسي للمتابعة، وFree T4 ممكن يضيف معلومة حسب النتيجة والأعراض. فيه استثناءات مهمة، زي مشكلات الغدة النخامية أو الحمل أو علاج سرطان الغدة، ساعتها الهدف وطريقة قراءة التحليل ممكن يختلفوا. مجرد إن نتيجة موجودة جوه المدى المرجعي لا يعني إن كل الناس لازم يكون عندهم نفس الرقم، ومجرد عرض زي التعب أو الإمساك أو صعوبة نزول الوزن لا يحدد جرعة بمفرده. الأعراض دي شائعة وليها أسباب كتير. [3, 4, 8, 9]",
+            "en": "A levothyroxine dose is not one fixed number for everyone, and it is not calculated from current body weight alone. The clinician considers the cause of hypothyroidism, whether the gland still makes some hormone or has been removed or treated, the severity and duration of deficiency, age, heart disease, pregnancy when relevant, other medicines and results over time. Guidelines identify levothyroxine as standard treatment for primary hypothyroidism, but starting and adjusting it are individual decisions; another person's dose is not a reference for yours. [2, 8, 9, 10]\n\nIn most primary hypothyroidism, TSH is the main monitoring marker, while free T4 may add information depending on the result and symptoms. Important exceptions include pituitary disease, pregnancy and thyroid-cancer treatment, where the target and interpretation may differ. A result inside a laboratory reference range does not mean every person needs the same number, and a symptom such as fatigue, constipation or difficulty losing weight cannot set a dose by itself. These symptoms are common and have many possible causes. [3, 4, 8, 9]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "take-it-consistently",
+          "heading": {
+            "ar": "قبل ما تتهم الجرعة: راجع طريقة أخذ العلاج",
+            "en": "Before blaming the dose, review how treatment is taken"
+          },
+          "body": {
+            "ar": "امتصاص قرص ليفوثيروكسين بيتأثر بالأكل والمشروبات وبعض الأدوية والمكملات، فالثبات في الطريقة مهم جداً. تعليمات شائعة للأقراص هي أخذه على معدة فاضية قبل الفطار والمشروبات اللي فيها كافيين بنصف ساعة إلى ساعة، لكن فيه تركيبات مختلفة وقد يختار الطبيب توقيتاً مسائياً أو خطة تانية. الأهم إنك تتبع تعليمات المنتج والوصفة وتاخده بنفس الطريقة كل يوم. ما تنقلش الميعاد فجأة لمجرد إنك سمعت قاعدة عامة، لأن التغيير نفسه ممكن يغيّر الامتصاص والنتيجة. [2, 5, 7, 11]\n\nالحديد والكالسيوم ممكن يقللوا امتصاص ليفوثيروكسين، والمعلومات الدوائية بتنصح عادة بفاصل أربع ساعات لبعض مستحضراتهم. مضادات الحموضة، أدوية تقليل حمض المعدة، بعض أدوية الكوليسترول، الصويا، القهوة، والألياف الكثيرة ممكن تهم برضه حسب المنتج والنمط. ده مش معناه توقف حاجة محتاجها. اكتب كل دواء ومكمل وتوقيته واسأل الطبيب أو الصيدلي يرتب الجدول المناسب؛ لأن تغيير التوقيت أحياناً يحتاج متابعة التحليل. [2, 5, 7, 11]\n\nراجع كمان الجرعات المنسية، تغيير الشركة أو الشكل الدوائي، وطريقة التخزين. قول الحقيقة لو نسيت جرعات؛ المعلومة دي بتحميك من زيادة غير لازمة مبنية على TSH مرتفع. ما تضاعفش جرعة من نفسك لتعويض الفائت، لأن تعليمات التعامل مع الجرعة المنسية تختلف حسب المنتج والحالة، واسأل الصيدلي أو الطبيب. الاتساق مش اختبار التزام أخلاقي؛ هو جزء من تفسير التحليل بأمان. [2, 3, 5]",
+            "en": "Food, drinks, medicines and supplements can affect absorption of levothyroxine tablets, so consistency matters. Common tablet instructions are to take the dose on an empty stomach, 30 to 60 minutes before breakfast and caffeinated drinks, but formulations differ and a clinician may choose bedtime or another plan. Follow your product and prescription instructions and take it the same way each day. Do not suddenly move the dose because you heard a general rule: the change itself can alter absorption and the result. [2, 5, 7, 11]\n\nIron and calcium can reduce levothyroxine absorption, and drug information commonly advises a four-hour separation for some preparations. Antacids, acid-suppressing medicines, some cholesterol medicines, soy, coffee and high-fibre patterns may also matter according to product and routine. This does not mean stopping something you need. Write down every medicine, supplement and time, then ask the clinician or pharmacist to arrange a suitable schedule; a timing change can sometimes require follow-up testing. [2, 5, 7, 11]\n\nAlso review missed doses, a change of manufacturer or formulation, and storage. Be candid about missed tablets; that information can prevent an unnecessary increase based on a raised TSH. Do not double a dose on your own to make up for one you missed, because instructions vary by product and situation—ask your pharmacist or clinician. Consistency is not a moral test of adherence; it is part of interpreting the laboratory result safely. [2, 3, 5]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "testing-and-timing",
+          "heading": {
+            "ar": "التحاليل إمتى تتكرر وإزاي تتقري؟",
+            "en": "When should tests be repeated and interpreted?"
+          },
+          "body": {
+            "ar": "ليڤوثيروكسين طويل المفعول، فإعادة التحليل بعد كام يوم من تغيير الجرعة غالباً مش هتدي صورة مستقرة. الجمعية الأمريكية للغدة بتذكر إن فحص الدم بيتعمل عادة بعد ستة إلى تمانية أسابيع من بدء العلاج أو تغيير الجرعة. إرشادات NICE بتنبه كمان إن TSH ممكن يتأخر أكتر لو كان مرتفع جداً قبل العلاج أو لو الخمول فضل من غير علاج مدة طويلة. الطبيب هو اللي يحدد المعاد حسب حالتك، بدل ما تطلب تحاليل متقاربة وتغيّر الجرعة وراء كل رقم. [3, 4, 9]\n\nقبل التحليل، قول للطبيب والمعمل عن البيوتين الموجود في مكملات الشعر والأظافر لأنه ممكن يطلع بعض تحاليل الغدة أعلى أو أقل بشكل كاذب. ما توقفش دواء أو مكمل موصوف من نفسك؛ اسأل عن تعليمات التحضير المناسبة. وسجّل وقت آخر جرعة، اسم المنتج، وأي تغيير قريب. النتيجة المفيدة مش مجرد TSH مكتوب بالأحمر أو الأخضر، لكنها رقم معروف توقيته وطريقة العلاج اللي سبقته والسؤال السريري المطلوب منه. [2, 3, 4]",
+            "en": "Levothyroxine is long acting, so repeating a test a few days after a dose change will usually not show a stable response. The American Thyroid Association says blood is commonly checked six to eight weeks after starting treatment or changing a dose. NICE also notes that TSH can take longer to return to range when it was very high before treatment or hypothyroidism was untreated for a long time. Your clinician sets the interval for your situation instead of ordering closely spaced tests and changing the dose after every number. [3, 4, 9]\n\nBefore testing, tell the clinician and laboratory about biotin in hair or nail supplements because it can make some thyroid results falsely high or low. Do not stop prescribed medicine or a supplement on your own; ask for preparation instructions suited to you. Record the time of your last dose, the product name and any recent change. A useful result is not simply a TSH marked red or green: it is a number with known timing, the treatment routine that preceded it and a defined clinical question. [2, 3, 4]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "weight-plateau-is-a-pattern",
+          "heading": {
+            "ar": "ثبات الوزن اتجاه، مش يوم واحد",
+            "en": "A weight plateau is a trend, not one day"
+          },
+          "body": {
+            "ar": "الميزان بيتحرك مع المياه والملح، محتوى الجهاز الهضمي، توقيت القياس، الملابس، النوم والنشاط؛ عشان كده رقم واحد ثابت ما يثبتش plateau. استخدم نفس الميزان وفي ظروف متقاربة، وابص على اتجاه عدة أسابيع بالطريقة اللي اتفقت عليها مع المختص. لو المقاس أو القوة أو الحركة بيتحسنوا والوزن ثابت، ممكن يكون فيه تغير ما ظهرش في الكتلة الكلية. ولو الاتنين ثابتين، ده برضه سؤال لمراجعة الخطة، مش دليل إن الغدة محتاجة هرمون زيادة. [1, 12]\n\nبعد ما تحاليل الغدة تستقر، قابلية زيادة أو نزول الوزن بتبقى قريبة من الناس اللي وظيفة الغدة عندهم طبيعية. ده لا يقلل من صعوبة إدارة الوزن، لكنه بيفصل بين علاج نقص الهرمون وخطة الوزن. راجع نمط الأكل من غير تجويع، الحركة اليومية وتمارين القوة حسب قدرتك، النوم، الإمساك، التوتر، الكحول إن وُجد، وأدوية ممكن تؤثر في الشهية أو السوائل أو الوزن. الطبيب ممكن يراجع كمان أعراضاً أو حالات أخرى بدل افتراض إن كل تعب أو ثبات جاي من الغدة. [1, 8, 12]\n\nلو الحالة عندك هي إن مقاساتي بتقل والميزان ثابت، الصفحة المرتبطة بتشرح حدود الميزان وطريقة متابعة المقاس وتركيب الجسم من غير ما تعيد موضوع جرعة الغدة. ما تقللش الأكل بعنف وما تزودش الهرمون عشان تسرّع النتيجة. الهدف خطة قابلة للاستمرار وتحافظ على العضلات والصحة، مع تقييم طبي لو فيه تغير سريع، تورم، ضعف متزايد أو أعراض جديدة. [1, 6, 12]",
+            "en": "Scale weight shifts with body water and salt, digestive contents, measurement time, clothing, sleep and activity, so one unchanged number does not prove a plateau. Use the same scale under comparable conditions and look at a trend across several weeks in the way agreed with your professional. If circumference, strength or movement improves while weight stays level, change may be occurring without appearing in total mass. If both are genuinely stable, that is still a reason to review the plan—not proof that the thyroid needs more hormone. [1, 12]\n\nAfter thyroid tests stabilise, the ability to gain or lose weight is broadly similar to that of people with normal thyroid function. This does not make weight management easy; it separates treatment of hormone deficiency from the weight plan. Review eating patterns without severe restriction, ordinary movement and resistance exercise as appropriate, sleep, constipation, stress, alcohol if relevant, and medicines that may affect appetite, fluid or weight. A clinician can also assess other symptoms or conditions instead of assuming that every fatigue symptom or plateau comes from the thyroid. [1, 8, 12]\n\nIf your situation is My measurements are shrinking but the scale is unchanged, the linked page explains the limits of scale weight and how circumference and body composition can be followed without repeating the thyroid-dose question. Do not severely cut food or raise thyroid hormone to force a faster result. The goal is a sustainable plan that protects muscle and health, with medical assessment for rapid change, swelling, increasing weakness or new symptoms. [1, 6, 12]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "مقاساتي بتقل والميزان ثابت",
+                "url": "../articles/qa-measurements-down-scale-still.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "My measurements are shrinking but the scale is unchanged",
+                "url": "../articles/qa-measurements-down-scale-still.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "prepare-a-medication-review",
+          "heading": {
+            "ar": "حضّر مراجعة الدواء بدل ما تجرب جرعة",
+            "en": "Prepare a medicine review instead of testing a dose"
+          },
+          "body": {
+            "ar": "قبل الموعد، اعمل سجل بسيط لمدة مناسبة: جرعة ليفوثيروكسين، وقت أخذه، وقت أول أكل أو قهوة، وأوقات الحديد والكالسيوم وأدوية المعدة. سجّل الجرعات المنسية من غير إحراج، وأي تغيير في الشركة أو شكل القرص. خد آخر نتائج TSH وFree T4 بالتواريخ واسم المعمل، واكتب إمتى بدأ ثبات الوزن وإزاي بتقيسه. المعلومات دي غالباً أهم من قائمة طويلة لتحاليل طلبتها من نفسك. [2, 3, 7, 11]\n\nصوّر علب الأدوية قبل الكشف، بما فيها المكملات والفيتامينات والأدوية اللي بتاخدها عند اللزوم. الصورة الأمامية لوحدها مش دايماً تكفي؛ صوّر المادة الفعالة والتركيز كمان. ده يساعد الطبيب أو الصيدلي يلاحظ الحديد والكالسيوم والبيوتين ومضادات الحموضة أو أي منتج تاني، ويقرر هل المشكلة توقيت أو تداخل أو محتاجة فحصاً مختلفاً. ما توقفش علاجاً ضرورياً عشان تحسن امتصاص علاج تاني من غير خطة مهنية. [2, 5, 7, 11]\n\nجهّز أسئلة محددة: هل النتيجة الحالية مستقرة فعلاً؟ هل ميعاد التحليل مناسب بعد آخر تعديل؟ هل طريقتي ثابتة؟ هل دواء أو مكمل جديد ممكن يؤثر؟ وهل أعراض زي الخفقان أو الإمساك أو التعب متوافقة مع التحليل ولا محتاجة سبباً تاني؟ الإجابات ممكن تنتهي بثبات الجرعة، ترتيب المواعيد، إعادة التحليل لاحقاً، أو تعديل يختاره الطبيب. المهم إن القرار يتبني على دليل، مش تجربة جرعة أعلى ومراقبة الميزان. [3, 4, 9, 12]",
+            "en": "Before the appointment, make a simple record for a useful period: levothyroxine dose, when you take it, when food or coffee follows, and the timing of iron, calcium and stomach medicines. Record missed doses without embarrassment and any change in manufacturer or tablet form. Bring dated TSH and free T4 results with the laboratory name, and note when the plateau began and how weight is measured. This is often more useful than a long list of tests ordered without guidance. [2, 3, 7, 11]\n\nPhotograph medicine boxes before your visit, including supplements, vitamins and medicines used only when needed. The front image may not be enough; photograph the active ingredient and strength too. This helps the clinician or pharmacist identify iron, calcium, biotin, antacids or another product and decide whether timing, an interaction or a different investigation matters. Do not stop necessary treatment to improve absorption of another medicine without a professional plan. [2, 5, 7, 11]\n\nPrepare focused questions: Is the current result genuinely stable? Was the test timed appropriately after the last adjustment? Is my routine consistent? Could a new medicine or supplement matter? Do symptoms such as palpitations, constipation or fatigue fit the result, or do they need another explanation? The answers may support keeping the dose, rearranging timing, testing later, or a clinician-directed adjustment. The key is to base the decision on evidence rather than trialling a higher dose and watching the scale. [3, 4, 9, 12]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "صوّر علب الأدوية قبل الكشف",
+                "url": "../articles/tip-photograph-medicine-boxes.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Photograph medicine boxes before your visit",
+                "url": "../articles/tip-photograph-medicine-boxes.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "symptoms-and-special-situations",
+          "heading": {
+            "ar": "أعراض الزيادة وحالات ما ينفعش تستنى فيها",
+            "en": "Symptoms of excess and situations that should not wait"
+          },
+          "body": {
+            "ar": "ألم أو ضغط في الصدر، ضيق نفس شديد، إغماء، ارتباك، أو ضربات قلب سريعة جداً أو غير منتظمة مع تعب شديد تستلزم رعاية عاجلة أو طارئة حسب شدة الحالة والنظام المحلي. ولو أخدت جرعة زائدة بالخطأ، اطلب نصيحة طبية أو من مركز السموم وما تستناش ظهور أعراض. خد علبة الدواء وقائمة باقي الأدوية معاك. المقال ما يقدرش يحدد خطورة الجرعة أو يستبدل التقييم المباشر. [5, 6, 7]\n\nفيه مواقف محتاجة تواصل مبكر حتى من غير طوارئ: وجود حمل أو التخطيط له، مرض قلب، علاج لسرطان الغدة بهدف مختلف، تغيير كبير في الوزن، بدء أو وقف دواء مؤثر، أو رجوع أعراض الخمول. احتياج الهرمون والمتابعة ممكن يتغيروا في الظروف دي. ما تطبقش هدف TSH أو جرعة مكتوبة لشخص تاني، وما تعتبرش الوزن وحده سبباً للتعديل؛ اتصل بالفريق المعالج عشان يحدد الخطة المناسبة. [2, 3, 4, 9]",
+            "en": "Chest pain or pressure, severe breathlessness, fainting, confusion, or a very fast or irregular heartbeat with marked illness requires urgent or emergency care according to severity and local services. If you took too much by mistake, seek medical or poison-centre advice rather than waiting for symptoms. Take the medicine packet and your other-medicine list with you. An article cannot determine the danger of a dose or replace direct assessment. [5, 6, 7]\n\nSome situations need early contact even without an emergency: pregnancy or plans for pregnancy, heart disease, thyroid-cancer treatment with a different target, a substantial weight change, starting or stopping an interacting medicine, or returning hypothyroid symptoms. Hormone requirements and monitoring may change in these settings. Do not apply another person's TSH target or dose, and do not treat weight alone as a reason to adjust; contact the treating team for an individual plan. [2, 3, 4, 9]"
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "next-step",
+          "heading": {
+            "ar": "الخطوة الجاية: قرار واحد واضح مع الطبيب",
+            "en": "The next step: one clear decision with your clinician"
+          },
+          "body": {
+            "ar": "لو الوزن ثابت وتحاليل الغدة اتقال إنها مستقرة، خليك على الجرعة الموصوفة لحد ما تراجع الطبيب، إلا لو الفريق المعالج اداك تعليمات مختلفة. المطلوب في الموعد مش طلب زيادة؛ المطلوب تحديد سؤال: هل العلاج متاخد وبيُمتص بصورة ثابتة؟ هل التحليل اتعمل في التوقيت المناسب؟ هل فيه علامة لنقص أو زيادة؟ ولو وظيفة الغدة متوازنة، إيه العوامل التانية اللي تستحق المراجعة في خطة الوزن؟ [2, 3, 4, 9]\n\nممكن نتيجة المراجعة تكون إن الجرعة تفضل زي ما هي، أو إن توقيت الأدوية يتنظم، أو إن التحليل يتكرر بعد مدة مناسبة، أو إن الطبيب يعدّل الجرعة لسبب مخبري وسريري واضح. وممكن تحتاج خطة تغذية وحركة ونوم أو تقييم دواء آخر بدل تحميل الغدة كل المسؤولية. ما فيش نتيجة مضمونة من تعديل واحد، والعيادة هنا بتتذكر كخطوة عامة للتقييم فقط، مش كوعد بنزول وزن أو تأكيد إنك محتاج خدمة بعينها. [1, 8, 12]\n\nلو محتاج تربط التحاليل والجرعة والأعراض واتجاه الوزن في تقييم فردي، تقدر تستخدم صفحة احجز موعد. خد معاك النتائج القديمة، صور العلب، سجل التوقيت واتجاه الوزن، واكتب أهم عرض أو سؤال. الطبيب المعالج هو اللي يقرر هل الجرعة مناسبة، وهل فيه فحص إضافي له معنى، ومين من فريق التغذية أو التخصصات الأخرى يفيدك. لحد الموعد، ما تزودش أو توقف أو تقسّم العلاج من نفسك. [2, 3, 7]",
+            "en": "If weight is stable and you have been told that thyroid tests are stable, keep taking the prescribed dose until clinical review unless your treating team has given different instructions. The appointment is not about requesting an increase; it is about answering a question: Is treatment taken and absorbed consistently? Was the test done at the right interval? Is there evidence of under- or over-replacement? If thyroid function is balanced, which other factors deserve review in the weight plan? [2, 3, 4, 9]\n\nThe review may end with the dose staying unchanged, medicine timing being organised, a test repeated after an appropriate interval, or a clinician changing the dose for a clear laboratory and clinical reason. You may instead need a food, movement and sleep plan or review of another medicine rather than assigning the whole problem to the thyroid. No result is guaranteed by one adjustment, and the clinic is mentioned here only as a general route to assessment—not a promise of weight loss or confirmation that you need a particular service. [1, 8, 12]\n\nIf you need to connect results, dose, symptoms and the weight trend in an individual assessment, you can use the book an appointment page. Bring older results, medicine-box photographs, a timing record and the weight trend, and write down the most important symptom or question. The treating clinician decides whether the dose is appropriate, whether another test is meaningful and whether input from nutrition or another specialty would help. Until then, do not increase, stop or split treatment by yourself. [2, 3, 7]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز موعد",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book an appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "لو TSH طبيعي والوزن ثابت، ينفع أزوّد جرعة صغيرة؟",
+            "en": "If TSH is normal and weight is stable, can I try a small increase?"
+          },
+          "a": {
+            "ar": "لأ. الجرعة الصغيرة الإضافية ممكن تخفض TSH وتعمل زيادة هرمون من غير فائدة للوزن، ومفيش جرعة تجريبية آمنة تتحدد من الميزان. هرمونات الغدة مش علاج للسمنة أو التخسيس، وزيادتها ترتبط بخفقان واضطراب نظم القلب وفقدان عظم وعضلات. راجع اتجاه التحاليل وطريقة الاستخدام وباقي أسباب الثبات مع الطبيب، وخلي أي تعديل مبني على هدف علاجي واضح. [1, 2, 6, 9]",
+            "en": "No. Even a small extra amount can suppress TSH and create hormone excess without helping weight, and there is no safe trial dose selected from the scale. Thyroid hormones are not obesity or weight-loss treatment; excess is linked to palpitations, abnormal heart rhythm, and bone and muscle loss. Review the test trend, administration and other plateau causes with your clinician, and make any adjustment for a defined treatment goal. [1, 2, 6, 9]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل ثبات الوزن معناه إن علاج الغدة مش شغال؟",
+            "en": "Does stable weight mean thyroid treatment is not working?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. نجاح العلاج بيتقاس بالتحاليل المناسبة والأعراض والسلامة، مش بعدد الكيلوجرامات. علاج الخمول بيرجع الهرمون للمستوى المطلوب، لكنه مش وعد بنزول وزن مستمر. لو النتائج مستقرة، راجع اتجاه الوزن وظروف القياس والأكل والحركة والنوم والأدوية وأي تورم أو أعراض جديدة. ولو أعراض الخمول مستمرة، الطبيب يراجع الامتصاص والجرعة وأسباباً أخرى بدل ما يفترض إن الزيادة هي الحل. [1, 3, 8, 12]",
+            "en": "Not necessarily. Treatment success is judged through appropriate tests, symptoms and safety—not kilograms lost. Treating hypothyroidism restores hormone to the intended range but does not promise continuing weight loss. If results are stable, review the weight trend, measurement conditions, eating, movement, sleep, medicines, swelling and new symptoms. If hypothyroid-like symptoms persist, the clinician reviews absorption, dose and other causes instead of assuming that more hormone is the answer. [1, 3, 8, 12]"
+          }
+        },
+        {
+          "q": {
+            "ar": "أعمل تحليل الغدة بعد قد إيه من تغيير الجرعة؟",
+            "en": "How long after a dose change should thyroid tests be checked?"
+          },
+          "a": {
+            "ar": "المتابعة الشائعة بتكون بعد ستة إلى تمانية أسابيع من بدء ليفوثيروكسين أو تغيير الجرعة، لأن الدواء طويل المفعول ويحتاج وقت عشان النتيجة تستقر. لكن الموعد ممكن يختلف مع الحمل، مشكلات النخامية، شدة الارتفاع السابق، أمراض أخرى أو هدف علاجي خاص. ما تعيدش التحليل بعد أيام وما تغيّرش الجرعة من النتيجة لوحدك؛ اتبع الموعد اللي حدده الطبيب. [3, 4, 9]",
+            "en": "A common follow-up interval is six to eight weeks after starting levothyroxine or changing a dose because the medicine is long acting and the result needs time to stabilise. Timing may differ in pregnancy, pituitary disease, after a very high previous TSH, with other illness or for a special treatment target. Do not retest after only a few days or change the dose from the result alone; follow the interval your clinician set. [3, 4, 9]"
+          }
+        },
+        {
+          "q": {
+            "ar": "القهوة أو الحديد والكالسيوم ممكن يغيّروا التحليل؟",
+            "en": "Can coffee, iron or calcium change my result?"
+          },
+          "a": {
+            "ar": "ممكن يأثروا على امتصاص ليفوثيروكسين، وبالتالي يظهر TSH مختلف مع الوقت لو توقيتهم قريب أو النمط اتغير. التعليمات الشائعة للأقراص هي قبل الفطار أو الكافيين بنصف ساعة إلى ساعة، وفصل بعض مستحضرات الحديد والكالسيوم أربع ساعات، لكن المنتج والحالة يفرقوا. ما توقفش مكمل أو دواء؛ اعرض الجدول كله على الطبيب أو الصيدلي وخليه يرتبه. [2, 5, 7, 11]",
+            "en": "They can affect levothyroxine absorption and therefore alter TSH over time when taken too close together or when the routine changes. Common tablet instructions are 30 to 60 minutes before breakfast or caffeine and a four-hour separation from some iron and calcium preparations, but product and situation matter. Do not stop a supplement or medicine; show the full schedule to your clinician or pharmacist and have it arranged safely. [2, 5, 7, 11]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى أعراض جرعة الغدة تبقى طارئة؟",
+            "en": "When can symptoms related to a thyroid dose be an emergency?"
+          },
+          "a": {
+            "ar": "اطلب رعاية طارئة عند ألم أو ضغط بالصدر، ضيق نفس شديد، إغماء، ارتباك، أو ضربات قلب سريعة جداً أو غير منتظمة مع تعب شديد. لو أخدت جرعة زائدة، اطلب نصيحة طبية أو من مركز السموم حتى لو لسه مفيش أعراض، وخد العلبة معاك. الخفقان أو الرعشة أو الأرق الجديد من غير علامات طوارئ محتاج تواصل سريع مع الطبيب، مش تعديل الجرعة بنفسك. [3, 5, 6, 7]",
+            "en": "Seek emergency care for chest pain or pressure, severe breathlessness, fainting, confusion, or a very fast or irregular heartbeat with marked illness. After an overdose, obtain medical or poison-centre advice even if symptoms have not appeared, and take the packet with you. New palpitations, tremor or insomnia without emergency features still deserves prompt clinician contact, not a dose change made on your own. [3, 5, 6, 7]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "American Thyroid Association — Thyroid and Weight",
+          "url": "https://www.thyroid.org/thyroid-and-weight/"
+        },
+        {
+          "label": "American Thyroid Association — Thyroid Hormone Treatment",
+          "url": "https://www.thyroid.org/thyroid-hormone-treatment/"
+        },
+        {
+          "label": "American Thyroid Association — Hypothyroidism",
+          "url": "https://www.thyroid.org/hypothyroidism/"
+        },
+        {
+          "label": "NICE — Thyroid Disease: Assessment and Management (NG145 Recommendations)",
+          "url": "https://www.nice.org.uk/guidance/ng145/chapter/Recommendations"
+        },
+        {
+          "label": "NHS — Levothyroxine",
+          "url": "https://www.nhs.uk/medicines/levothyroxine/"
+        },
+        {
+          "label": "DailyMed — Levothyroxine Sodium Tablets Official Label",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=38af4e36-b26b-485d-a6f3-7fbcf6072a0f"
+        },
+        {
+          "label": "MedlinePlus — Levothyroxine Drug Information",
+          "url": "https://medlineplus.gov/druginfo/meds/a682461.html"
+        },
+        {
+          "label": "NIDDK — Hypothyroidism (Underactive Thyroid)",
+          "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism"
+        },
+        {
+          "label": "Jonklaas et al. — ATA Guidelines for the Treatment of Hypothyroidism (PMC4267409)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/"
+        },
+        {
+          "label": "Garber et al. — AACE/ATA Clinical Practice Guidelines for Hypothyroidism in Adults (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23246686/"
+        },
+        {
+          "label": "Wiesner et al. — Levothyroxine Interactions with Food and Dietary Supplements: Systematic Review (PMC8002057)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8002057/"
+        },
+        {
+          "label": "SBEM Thyroid Department — Primary Hypothyroidism in Special Situations: Position Statement (PMC10118754)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10118754/"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "خمول الغدة",
+          "جرعة الغدة",
+          "ثبات الوزن",
+          "دكتور باطنة"
+        ],
+        "en": [
+          "hypothyroidism",
+          "thyroid dose",
+          "weight plateau",
+          "internal medicine consultation"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "جرعة الغدة وثبات الوزن: هل أزوّد العلاج؟",
+          "en": "Thyroid Dose and Weight Plateau: Take More?"
+        },
+        "description": {
+          "ar": "وزنك ثابت مع علاج الغدة؟ اعرف ليه ما تزودش الجرعة بنفسك، وإزاي تراجع التحاليل وامتصاص الدواء وباقي أسباب ثبات الوزن بأمان.",
+          "en": "Weight stable on thyroid treatment? Learn why not to raise the dose yourself and how tests, absorption and other causes of a plateau are reviewed safely."
+        }
+      }
+    }
+  ]
+}

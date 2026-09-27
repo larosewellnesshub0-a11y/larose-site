@@ -1,0 +1,328 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of tip-child-two-jobs; replaces the entry from content/articles.json. Expanded the mealtime-role tip into a medically re-reviewed bilingual guide with practical routines, safety limits, red flags, FAQs, internal links and authoritative sources.",
+  "articles": [
+    {
+      "slug": "tip-child-two-jobs",
+      "type": "tip",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics",
+        "clinical-nutrition"
+      ],
+      "date": "2026-09-03",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/tip-child-two-jobs.webp",
+      "title": {
+        "ar": "تقسيم مسؤولية وجبة الطفل: دورك ودوره على السفرة",
+        "en": "Mealtime roles: your job and your child's job"
+      },
+      "excerpt": {
+        "ar": "إنت بتحدد إيه يتقدم وإمتى وفين، والطفل بيحدد هل ياكل وقد إيه من الموجود. اعرف إزاي تطبق القاعدة بهدوء، وإمتى رفض الأكل يحتاج تقييماً طبياً.",
+        "en": "You decide what is served, when and where; your child decides whether and how much to eat from what is offered. Learn how to use this approach calmly and when food refusal needs medical assessment."
+      },
+      "faq": [
+        {
+          "q": {
+            "ar": "هل تقسيم المسؤولية معناه إن الطفل يقدر ما ياكلش خالص؟",
+            "en": "Does sharing mealtime responsibility mean my child can choose not to eat at all?"
+          },
+          "a": {
+            "ar": "أيوه، في وجبة معينة ممكن الطفل يختار ما ياكلش، لأن دوره يقرر هل جسمه محتاج أكل وقد إيه من اللي اتقدم. دورك ما يتوقفش: بتوفر وجبات وسناكس مناسبة في مواعيد متوقعة، وبتختار أكل متنوع وآمن، وبعدها بترجع للفرصة المخططة اللي بعدها من غير مطاردة أو عقاب. ده مش معناه إنك تتجاهل نمط مستمر من الرفض؛ لو الرفض بيتكرر مع تغير في النمو أو النشاط أو أعراض، لازم يتراجع طبياً [1, 3, 5].",
+            "en": "Yes. At a particular meal, a child may choose not to eat because their role is to decide whether their body needs food and how much to take from what was offered. Your role continues: provide suitable meals and snacks at predictable times, choose varied and safe food, then return to the next planned opportunity without chasing or punishment. This does not mean ignoring a persistent pattern of refusal; repeated refusal with changes in growth, activity or symptoms needs clinical review [1, 3, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو الطفل طلب وجبة مختلفة بعد ما رفض الموجود، أعمل إيه؟",
+            "en": "What should I do if my child asks for a different meal after refusing what was served?"
+          },
+          "a": {
+            "ar": "لو كل رفض بينتهي بطبق مخصوص، الطفل بيتعلم إن الانتظار شوية هيجيب الاختيار المفضل. الأفضل من البداية تحط صنف مألوف ضمن وجبة الأسرة، وتقول بهدوء إيه الموجود وإمتى السناك أو الوجبة الجاية. ما تستخدمش الجوع كعقاب، وما تدخلش في جدال طويل. لو فيه خطة علاجية بسبب نقص وزن، حساسية، مرض مزمن أو صعوبة أكل، امشِ على الخطة الفردية اللي حددها الطبيب أو أخصائي التغذية بدل قاعدة عامة [3, 6, 7].",
+            "en": "If every refusal ends with a specially prepared plate, the child learns that waiting will produce the preferred choice. Instead, include a familiar food in the family meal from the start and calmly explain what is available and when the next planned snack or meal will be. Do not use hunger as punishment or enter a long argument. If the child has an individual plan for faltering growth, allergy, chronic illness or a feeding difficulty, follow the treating clinician's or dietitian's plan rather than a general rule [3, 6, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو أكل الصنف المألوف وساب باقي الوجبة، كده الخطة فشلت؟",
+            "en": "If my child eats only the familiar food, has the approach failed?"
+          },
+          "a": {
+            "ar": "لأ. وجود صنف مألوف بيخلي الطفل يدخل الوجبة وهو مطمّن، ومجرد وجود صنف جديد قدامه جزء من التعارف. ممكن يبص له أو يلمسه أو يشمه قبل ما يدوقه في يوم تاني. استمر في تقديم تنوع بكميات صغيرة ومن غير تعليق على كل لقمة، لكن ما تحولش الصنف المألوف لقائمة ضيقة بتتكرر وحدها كل يوم. بص على النمط عبر الوقت، ولو قائمة الأكل بتضيق أو مجموعات كاملة اختفت اطلب تقييماً مناسباً [2, 3, 7].",
+            "en": "No. A familiar food helps the child approach the meal feeling secure, and simply having a new food nearby is part of becoming familiar with it. The child may look, touch or smell before tasting it on another day. Keep offering variety in small amounts without commenting on every bite, but do not let the familiar item become the only narrow menu repeated every day. Look at the pattern over time, and seek assessment if the food list keeps shrinking or whole food groups disappear [2, 3, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أسيب الوجبة قد إيه، وأقدّم سناك إمتى؟",
+            "en": "How long should a meal last, and when should I offer a snack?"
+          },
+          "a": {
+            "ar": "مفيش رقم واحد يناسب كل سن وكل طفل. الوجبة تبقى محددة وهادية ومناسبة لقدرة الطفل على القعدة والانتباه، مش ممتدة لساعات مع مطاردة بالمعلقة. اعمل مواعيد تقريبية للوجبات والسناكس وخلي المياه متاحة بينهم، وعدّل التفاصيل حسب العمر والروتين وأي احتياج طبي. لو الطفل بياخد وقتاً طويلاً جداً باستمرار، بيخزن الأكل في بقه، أو بيتعب مع المضغ والبلع، ده محتاج تقييم مش مجرد مؤقت أقصر [1, 6, 10].",
+            "en": "There is no single duration that suits every age and child. A meal should be bounded, calm and appropriate to the child's ability to sit and attend, rather than stretching for hours with spoon-chasing. Use broadly predictable meal and snack times, keep water available between them, and adapt details to age, routine and any medical need. If the child consistently takes a very long time, pockets food, or tires while chewing and swallowing, that needs assessment rather than simply a shorter timer [1, 6, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل القاعدة تنفع لو وزن الطفل قليل أو نموه بطيء؟",
+            "en": "Can this approach be used if my child is underweight or growing slowly?"
+          },
+          "a": {
+            "ar": "المبدأ الهادي ممكن يفضل مفيد، لكن الطفل اللي نموه متأثر محتاج خطة فردية قبل التطبيق الحرفي. الطبيب بيراجع اتجاه الوزن والطول، التاريخ المرضي، مهارات الأكل، كميات اللبن والمشروبات، وكثافة الوجبات الغذائية؛ وممكن يحدد تدعيماً غذائياً أو مواعيد متابعة تناسب الحالة. منحنى النمو أداة ضمن الصورة الكاملة، مش حكم من قياس واحد. ما تمنعش أكل ولا تزود مكمل أو مشروب من نفسك عشان تجبر الرقم يطلع [6, 9].",
+            "en": "The calm principle may still be useful, but a child with affected growth needs an individual plan before the framework is applied literally. The clinician reviews the direction of weight and height, medical history, feeding skills, milk and drink intake, and nutrient density, and may set fortification or follow-up appropriate to the child. A growth chart is one tool within the whole picture, not a verdict from one measurement. Do not restrict food or add a supplement or drink independently just to force the number upward [6, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى رفض الأكل يبقى حالة عاجلة؟",
+            "en": "When does food refusal need urgent care?"
+          },
+          "a": {
+            "ar": "اطلب طوارئ فوراً لو الطفل مش قادر يتنفس، لونه بيزرق، أو فيه اختناق حقيقي. التورم المفاجئ في الوجه أو اللسان، صعوبة النفس، صفير شديد أو انهيار بعد أكل ممكن يكون حساسية شديدة ويحتاج خطة الطوارئ الموصوفة للطفل ورعاية عاجلة. واطلب تقييماً سريعاً لو مش قادر يشرب، عنده علامات جفاف أو خمول واضح. الكحة أو الشرقة المتكررة، الصوت المبلول بعد البلع، القيء المستمر أو فقدان الوزن محتاجين تقييماً طبياً قريباً حتى لو مش طوارئ اللحظة [10, 11, 13].",
+            "en": "Seek emergency help immediately if the child cannot breathe, turns blue, or is truly choking. Sudden swelling of the face or tongue, breathing difficulty, severe wheeze or collapse after food may be a severe allergic reaction and requires the child's prescribed emergency plan and urgent care. Prompt assessment is also needed if the child cannot drink, shows dehydration or is markedly lethargic. Recurrent coughing or choking, a wet voice after swallowing, persistent vomiting or weight loss needs timely clinical assessment even when it is not an immediate emergency [10, 11, 13]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "CDC — Tips for Mealtime Routines",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/mealtime/index.html"
+        },
+        {
+          "label": "CDC — Picky Eaters and What to Do",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/picky-eaters.html"
+        },
+        {
+          "label": "American Academy of Pediatrics, HealthyChildren.org — 10 Tips for Parents of Picky Eaters",
+          "url": "https://www.healthychildren.org/English/ages-stages/toddler/nutrition/Pages/Picky-Eaters.aspx"
+        },
+        {
+          "label": "World Health Organization — Guideline for complementary feeding of infants and young children 6–23 months",
+          "url": "https://www.who.int/publications-detail-redirect/9789240081864"
+        },
+        {
+          "label": "World Health Organization — Nurturing young children through responsive feeding",
+          "url": "https://www.who.int/publications/b/68406"
+        },
+        {
+          "label": "NICE — Faltering growth: recognition and management (NG75), recommendations",
+          "url": "https://www.nice.org.uk/guidance/ng75/chapter/Recommendations"
+        },
+        {
+          "label": "NHS — Fussy eaters",
+          "url": "https://www.nhs.uk/baby/weaning-and-feeding/fussy-eaters/"
+        },
+        {
+          "label": "Yuan et al. — Bidirectional Associations between Parental Non-Responsive Feeding Practices and Child Eating Behaviors (PMC9103127)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9103127/"
+        },
+        {
+          "label": "CDC — Growth Charts",
+          "url": "https://www.cdc.gov/growthcharts/"
+        },
+        {
+          "label": "American Speech-Language-Hearing Association — Pediatric Feeding and Swallowing",
+          "url": "https://www.asha.org/practice-portal/clinical-topics/pediatric-feeding-and-swallowing/"
+        },
+        {
+          "label": "CDC — Choking Hazards",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html"
+        },
+        {
+          "label": "CDC — Safer Food Choices for Children Under 5 Years Old",
+          "url": "https://www.cdc.gov/food-safety/foods/children-under-5.html"
+        },
+        {
+          "label": "American Academy of Pediatrics, HealthyChildren.org — Food Allergies in Children",
+          "url": "https://www.healthychildren.org/english/healthy-living/nutrition/pages/food-allergies-in-children.aspx"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "وجبات الطفل",
+          "تقسيم مسؤولية الأكل",
+          "شهية الطفل",
+          "الأكل الانتقائي",
+          "روتين السفرة"
+        ],
+        "en": [
+          "children's meals",
+          "mealtime roles",
+          "child appetite",
+          "picky eating",
+          "mealtime routine"
+        ]
+      },
+      "sections": [
+        {
+          "id": "two-jobs-not-two-sides",
+          "heading": {
+            "ar": "مسؤوليتين متكاملتين، مش طرفين في معركة",
+            "en": "Two complementary jobs, not two sides in a battle"
+          },
+          "body": {
+            "ar": "فكرة تقسيم مسؤولية وجبة الطفل بسيطة: إنت كولي أمر بتقرر إيه الأكل المناسب اللي هيتقدم، وإمتى فرصة الأكل، وفين هتقعدوا؛ والطفل بيقرر هل ياكل من الموجود وقد إيه. القاعدة دي ما بتديش طرف سلطة مطلقة، لكنها بتفصل قرارات الأسرة عن إحساس الطفل الداخلي بالجوع والشبع. إنت مسؤول عن البيئة والاختيارات والأمان، وهو مسؤول عن جسمه والكمية اللي يقدر عليها في اللحظة دي [1, 3, 5].\n\nالتطبيق مش امتحان طاعة، ومش معناه إن الطفل يطلب أي أكل في أي وقت. هو شكل من الأكل المستجيب: تلاحظ إشاراته، تساعده بما يناسب سنه، وتفضل إنت اللي عامل إطار واضح لليوم. الضغط، التهديد أو الرشوة ممكن يخلوا السفرة مرتبطة بالتوتر، بينما غياب أي مواعيد أو حدود ممكن يخلي الطفل يرعى طول اليوم وما يوصلش للوجبة بجوع مناسب. الدليل البحثي عن ممارسات التحكم وعادات الأكل معقد والعلاقة ممكن تمشي في الاتجاهين، عشان كده ما نوعدش إن القاعدة هتحل كل انتقائية؛ هدفها العملي إنها تقلل الصراع وتخلي ملاحظة الشهية أوضح [5, 8].\n\nلو طفلك لسه في مرحلة إدخال الأكل، صفحة الأكل التكميلي المستجيب بتشرح الاستجابة لإشارات الجوع والشبع مع القوام المناسب للسن. هنا تركيزنا أضيق: مين ياخد أي قرار على السفرة اليومية، وإزاي تفضل الحدود موجودة من غير إجبار [4, 5].",
+            "en": "The division of responsibility at a child's meal is straightforward: you, as the caregiver, decide what suitable food is offered, when the eating opportunity happens and where everyone sits; the child decides whether to eat from what is available and how much. This does not give either side unlimited control. It separates family decisions from the child's internal experience of hunger and fullness. You are responsible for the environment, choices and safety; the child is responsible for their body and the amount they can manage at that moment [1, 3, 5].\n\nThis is not an obedience test, and it does not mean the child orders any food at any time. It is a form of responsive feeding: notice the child's cues, provide age-appropriate help and keep a clear structure around the day. Pressure, threats and bribes can associate the table with stress, while having no schedule or limits can encourage all-day grazing and reduce appetite at meals. Research on controlling practices and eating behaviour is complex and the relationship may run in both directions, so this framework is not promised as a cure for every selective eater. Its practical purpose is to reduce conflict and make appetite easier to observe [5, 8].\n\nIf your child is just starting solids, responsive complementary feeding explains hunger and fullness cues alongside developmentally suitable textures. This guide has a narrower focus: who makes which everyday mealtime decision, and how boundaries can remain without force [4, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "الأكل التكميلي المستجيب",
+                "url": "../articles/responsive-complementary-feeding.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "responsive complementary feeding",
+                "url": "../articles/responsive-complementary-feeding.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "adult-job-what-when-where",
+          "heading": {
+            "ar": "دور الكبير: إيه وإمتى وفين",
+            "en": "The adult's job: what, when and where"
+          },
+          "body": {
+            "ar": "قرار «إيه» معناه إنك تختار وجبة مناسبة لسن الطفل وحالته، من أكل البيت كل ما ينفع، وفيها تنوع يتكرر عبر الأيام. مش لازم كل طبق يبقى مثالياً، لكن ما ينفعش نخلي الطفل مسؤول عن التخطيط الغذائي أو نسأله سؤالاً مفتوحاً كل مرة: «عايز تاكل إيه؟». ممكن تديه اختياراً محدوداً داخل الإطار، زي نوع من اتنين للفاكهة، وتحط صنفاً مألوفاً مع باقي الأكل عشان يبقى فيه حاجة يقدر يقرب منها من غير ما تطبخ وجبة منفصلة بعد الرفض [2, 3, 4].\n\nقرار «إمتى» معناه فرص متوقعة للوجبات والسناكس بدل أكل ورشف مستمر طول اليوم. المواعيد مش لازم تبقى بالدقيقة، لكنها تبقى مفهومة ومناسبة للنوم والحضانة أو المدرسة والعلاج إن وجد. المياه ممكن تبقى متاحة، لكن كميات كبيرة من مشروبات أو لبن قريب من الوجبة ممكن تأثر على الشهية عند بعض الأطفال، خصوصاً لو فيه قلق على النمو؛ التفاصيل هنا تتراجع فردياً مع الطبيب [1, 6].\n\nقرار «فين» معناه مكان آمن ومستقر قدر الإمكان: الطفل قاعد بشكل مناسب، الأسرة قريبة، والشاشة والمشتتات أقل. إنت كمان مسؤول عن غسل اليدين، سلامة الطعام، والقوام والشكل المناسبين لقدرة الطفل. وفي المقابل، دورك مش إنك تحدد عدد الملاعق اللي لازم تدخل بقه أو تراقب كل لقمة كأنها درجة. وجود حدود واضحة مع جو هادي هو الأساس، مش السيطرة على جسم الطفل [1, 5, 12].",
+            "en": "The decision about 'what' means choosing food that suits the child's age and health, using family food where appropriate and building variety across days. Every plate does not need to be perfect, but a child should not carry responsibility for nutrition planning or face the open question, 'What do you want to eat?' every time. You can offer a limited choice within the structure, such as one of two fruits, and include a familiar item with the rest so there is something approachable without cooking a separate meal after refusal [2, 3, 4].\n\nThe decision about 'when' means predictable opportunities for meals and snacks instead of continuous eating and sipping. Times need not be exact to the minute, but they should be understandable and fit sleep, nursery or school, and treatment when relevant. Water can remain available, while large amounts of drinks or milk close to meals may affect appetite in some children, especially when growth is a concern; those details should be reviewed individually with the clinician [1, 6].\n\nThe decision about 'where' means a safe, stable place whenever possible: the child is seated appropriately, family members are nearby and screens and distractions are limited. You are also responsible for hand hygiene, food safety, and a texture and shape suited to the child's ability. Your job is not to prescribe how many spoonfuls must enter the child's mouth or score every bite. Clear boundaries with a calm atmosphere are the foundation, not control over the child's body [1, 5, 12]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "child-job-whether-how-much",
+          "heading": {
+            "ar": "دور الطفل: هل ياكل وقد إيه",
+            "en": "The child's job: whether and how much to eat"
+          },
+          "body": {
+            "ar": "شهية الطفل مش ثابتة من وجبة للتانية. ممكن يفطر كويس ويأكل غدا بسيط، أو يقل أكله يوم تعب أو بعد وجبة كبيرة. لما يكون الأكل مناسباً ومتاحاً في إطار منتظم، سيبه يختار من الموجود ويوقف لما يحس بالشبع. ما تطلبش طبقاً فاضياً، وما تعتبرش الكمية الصغيرة إهانة لمجهودك. الهدف إن الطفل يتعلم يلاحظ جسمه، مش إنه يرضي الكبير بعدد لقَم محدد [1, 3, 5].\n\nإشارات الجوع والشبع بتختلف حسب السن. طفل صغير ممكن يقرب جسمه أو يفتح بقه لما يكون مستعد، ويلف وشه أو يقفل بقه لما يكتفي. طفل أكبر يقدر يقول إنه شبعان، بس لسه محتاج حدود سلوكية: يقعد بأمان، ما يرميش الأكل، ويعرف إن الفرصة الجاية ليها وقت. احترام «مش عايز أكتر» لا يساوي السماح بفتح درج السناكس بعد دقيقتين؛ الاستجابة والهيكل لازم يشتغلوا مع بعض [1, 4, 5].\n\nما تحكمش على التغذية من وجبة واحدة. بص على أيام، وعلى وجود أطعمة من مجموعات مختلفة، والطاقة والنشاط واتجاه النمو. لو الطفل نشيط، صحته كويسة، ونموه ماشي على مساره، التغير اليومي غالباً أقل إثارة للقلق من شكله على طبق واحد. ولو فيه قلق حقيقي، البيانات المفيدة هي مواعيد الأكل والشرب، المدة، الأعراض والقياسات المتتابعة، مش إجباره يكمل عشان نطمن في اللحظة [6, 7, 9].",
+            "en": "A child's appetite is not identical from one meal to the next. They may eat a substantial breakfast and a small lunch, or eat less on a tired day or after a larger meal. When suitable food is available within a regular structure, let the child choose from it and stop when full. Do not demand a clean plate or treat a small amount as rejection of your effort. The goal is for the child to notice their body, not to satisfy the adult with a prescribed number of bites [1, 3, 5].\n\nHunger and fullness cues vary with age. A younger child may lean forward or open the mouth when ready, then turn away or close the mouth when satisfied. An older child can say they are full, while still needing behavioural boundaries: sit safely, do not throw food and understand that the next opportunity has a time. Respecting 'no more' is not the same as opening the snack cupboard two minutes later; responsiveness and structure need to work together [1, 4, 5].\n\nDo not judge nutrition by one meal. Look across days, consider whether foods from different groups appear, and notice energy, activity and the direction of growth. If the child is active, appears well and follows their growth trajectory, day-to-day variation is usually less concerning than one plate suggests. If there is a genuine concern, useful information includes the timing of food and drinks, duration, symptoms and serial measurements—not forcing the child to finish so the adult feels reassured in the moment [6, 7, 9]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "practical-meal-script",
+          "heading": {
+            "ar": "طبّقها في الوجبة: خطة وجُمل بسيطة",
+            "en": "Put it into practice: a simple meal plan and script"
+          },
+          "body": {
+            "ar": "قبل الوجبة، اختار أكل الأسرة المناسب للطفل وحط كمية صغيرة يقدر يطلب بعدها زيادة. ضيف صنفاً مألوفاً، بس بلاش تخلي الطبق كله مبنياً على طلب لحظي. قول جملة قصيرة: «ده الأكل الموجود دلوقتي، تقدر تختار منه اللي يناسبك». لو قال إنه مش جعان، رد بهدوء: «تمام، الوجبة هتنتهي وبعدها السناك في ميعاده». الجمل القصيرة بتقفل باب التفاوض من غير تهديد [1, 3, 7].\n\nأثناء الوجبة، كلوا مع بعض لو ينفع واتكلموا عن اليوم بدل مراقبة فمه. قدّم النموذج بأنك تاكل من التنوع الموجود، وسيبه يلمس أو يشم صنفاً جديداً من غير طلب مستمر إنه يدوق. لو طلب زيادة من أي صنف متاح، شوف هل فيه كمية مناسبة وقدمها من غير تعليق من نوع «خلص الخضار الأول». ولو رفض، ما تدخلش بسرعة في طبخ بديل؛ الصنف المألوف كان موجوداً من البداية، والفرصة التالية معروفة [2, 3].\n\nبعد الوجبة، شيل الأكل بهدوء من غير محاضرة عن اللي اتساب. ما تستخدمش الحلو كمكافأة على لقمة، وما تمنعش نشاطاً محبوباً كعقاب على الأكل. لو سؤالك الأساسي هو الانتقائية الشديدة، صفحة طفلي انتقائي في الأكل: أعمل إيه؟ بتلخص الفرق بين الضغط وترك اليوم مفتوحاً للسناكس. أما هنا فركّز أسبوعاً أو اتنين على ثبات الدور والجمل؛ التغيير الأول اللي هتلاحظه ممكن يكون هدوء السفرة قبل اتساع قائمة الأكل [2, 3, 7, 8].",
+            "en": "Before the meal, choose family food that is suitable for the child and serve a small amount, with more available. Include a familiar item, but do not build the entire plate around a last-minute request. Use a short sentence: 'This is what we have now; you can choose what suits you from it.' If the child says they are not hungry, calmly reply, 'That's okay; the meal will end, and snack is at its usual time.' Short scripts close negotiation without a threat [1, 3, 7].\n\nDuring the meal, eat together when possible and talk about the day instead of watching the child's mouth. Model eating from the available variety, and let the child touch or smell a new food without repeated requests to taste. If they ask for more of an available item, decide whether a suitable amount remains and offer it without saying, 'Finish the vegetables first.' If they refuse, do not rush to cook a replacement; a familiar item was present from the start, and the next eating opportunity is known [2, 3].\n\nAfterwards, clear the meal calmly without a lecture about leftovers. Do not use dessert as payment for a bite or remove a loved activity as punishment for intake. If your main question is severe selectivity, What to do about fussy eating summarises the difference between pressure and leaving the day open to snacks. Here, focus for a week or two on consistent roles and language; the first change you notice may be a calmer table before the food list widens [2, 3, 7, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طفلي انتقائي في الأكل: أعمل إيه؟",
+                "url": "../articles/qa-child-fussy-eating.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "What to do about fussy eating",
+                "url": "../articles/qa-child-fussy-eating.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "pressure-bribes-and-grazing",
+          "heading": {
+            "ar": "إيه اللي غالباً يعطّل القاعدة؟",
+            "en": "What commonly gets in the way?"
+          },
+          "body": {
+            "ar": "أول معطّل هو الضغط المتخفي في شكل تشجيع: «معلقة عشان خاطري»، «ورّيني إنك شاطر»، أو عدّ اللقم بصوت عالي. الطفل ممكن ياكل زيادة عشان يوقف الإلحاح، أو يرفض أكتر عشان يستعيد إحساسه بالتحكم. خلي التشجيع متعلقاً بالسلوك المحايد، زي القعدة الهادية أو مساعدة الأسرة، مش بالكمية اللي دخلت جسمه. والأبحاث الطولية بتبين إن العلاقة بين سلوك الطفل وممارسات الأهل متبادلة ومعقدة، فبلاش لوم للأهل أو للطفل؛ نغيّر الحلقة خطوة خطوة [3, 8].\n\nالمعطّل التاني هو الرشوة: لما الحلو يبقى جائزة مقابل الخضار، الرسالة الضمنية إن الحلو هو المكسب والخضار عقوبة لازم تتعدى. قدّم الأطعمة ضمن خطة الأسرة من غير صفقة لكل لقمة. والمعطّل التالت هو الرعي: بسكوت، عصير، لبن أو لقيمات كل شوية. حتى لو كل كمية صغيرة، تتابعها ممكن يخلي إشارات الجوع غير واضحة وقت الوجبة. وجود سناكس مخططة مش منع للأكل؛ هو جزء من دور الكبير في تحديد الوقت [1, 3, 7].\n\nالشاشة كمان ممكن تسكّت الرفض، لكنها بتخلي الانتباه بعيد عن الأكل وإشارات الجسم. قللها بالتدريج لو بقت شرطاً لكل وجبة، وتوقع إن الطفل يعترض في الأول. حافظ على نفس الرسالة من كل الكبار اللي بيأكلوا الطفل، لأن تغيير القواعد بين الأب والأم أو الجد والحضانة بيخلي التوقعات مش واضحة. الثبات الهادي أهم من تنفيذ مثالي في كل يوم [1, 5].",
+            "en": "The first obstacle is pressure disguised as encouragement: 'one spoon for me', 'show me what a good child you are', or counting bites aloud. A child may eat more to stop the prompting or refuse more strongly to regain a sense of control. Praise neutral behaviour, such as sitting calmly or helping the family, rather than the amount that entered the child's body. Longitudinal research suggests that child behaviour and caregiver practices influence one another in complex ways, so blaming either party is unhelpful; change the loop one step at a time [3, 8].\n\nThe second obstacle is bribery. When dessert becomes payment for vegetables, the implied lesson is that dessert is the prize and vegetables are the task to endure. Offer foods within the family plan without negotiating every bite. The third is grazing: biscuits, juice, milk or small bites appearing repeatedly. Even when each amount is small, the sequence may blur hunger by mealtime. Planned snacks are not deprivation; they are part of the adult's responsibility for timing [1, 3, 7].\n\nScreens can also silence refusal, but they pull attention away from food and body cues. Reduce them gradually if they have become a condition for every meal, and expect some initial protest. Keep the message consistent among the adults who feed the child, because different rules between parents, grandparents or nursery make expectations unclear. Calm consistency matters more than perfect execution every day [1, 5]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "age-safety-and-special-needs",
+          "heading": {
+            "ar": "عدّل القاعدة حسب السن والأمان واحتياج الطفل",
+            "en": "Adapt the framework to age, safety and individual needs"
+          },
+          "body": {
+            "ar": "تقسيم المسؤولية مش بديل عن ملاءمة القوام للسن. الرضيع أو الطفل الصغير محتاج أكل طري ومقطّع أو مهروس بالشكل المناسب لتطوره، وقعدة مستقيمة ومراقبة مستمرة. الأطعمة الصلبة الصغيرة أو المستديرة أو اللاصقة ممكن تعمل خطر اختناق لو اتقدمت بشكل غير مناسب. ما تسيبش الطفل ياكل وهو بيجري أو نايم أو في العربية، وما تعتبرش إن استقلاله في الكمية معناه استقلاله عن إشرافك [4, 11].\n\nسلامة الطعام جزء من دورك برضه: غسل اليدين، فصل النيء عن الجاهز، تسوية اللحوم والبيض كويس، وتجنب اللبن أو الجبن غير المبستر للأطفال الصغيرين. ولو فيه حساسية مؤكدة، الاختيارات لازم تلتزم بخطة التجنب والطوارئ اللي كتبها الطبيب؛ ما ينفعش نحط المادة المسببة على السفرة باسم التعرض الهادي. أعراض زي طفح منتشر مع تورم، صفير أو صعوبة تنفس بعد الأكل تتعامل كحساسية محتملة حسب خطة الطوارئ، مش كسلوك رفض [12, 13].\n\nبعض الأطفال عندهم فرق حسي أو حركي أو مشكلة مضغ وبلع، ووقتها «سيبه يختار» لوحدها مش علاج. الكحة والشرقة المتكررة، تخزين الأكل في الخد، صوت مبلول بعد البلع، وجبات طويلة جداً أو قبول قوام واحد فقط ممكن تحتاج فريقاً يشمل طبيب الأطفال وأخصائي التغذية أو البلع حسب الحالة [10]. لو المشكلة قوامات متقاربة من غير علامات خطر، صفحة اعمل جسر بين قوامين فيها فكرة صغيرة للتدرج من المألوف للجديد، لكن أي خوف على البلع يوقف التجربة المنزلية لحد التقييم [2, 10, 11].",
+            "en": "Sharing responsibility does not replace age-appropriate texture. A baby or young child needs food softened, cut or mashed for their development, an upright seated position and continuous supervision. Small, round, firm or sticky foods can create a choking hazard when prepared incorrectly. Do not let a child eat while running, lying down or travelling in a car, and do not confuse autonomy over quantity with independence from supervision [4, 11].\n\nFood safety is also part of your role: wash hands, separate raw food from ready-to-eat food, cook meat and eggs thoroughly, and avoid unpasteurised milk or cheese for young children. If an allergy is confirmed, choices must follow the avoidance and emergency plan provided by the clinician; the allergen should not be placed on the table in the name of gentle exposure. Widespread hives with swelling, wheeze or breathing difficulty after food is managed as a possible allergic reaction according to the emergency plan, not as behavioural refusal [12, 13].\n\nSome children have sensory or motor differences or difficulty chewing and swallowing, and 'let them choose' is not treatment by itself. Recurrent coughing or choking, pocketing food, a wet voice after swallowing, extremely long meals or accepting only one texture may require a team that includes a paediatrician, dietitian or swallowing professional as appropriate [10]. If the issue is movement between similar textures without warning signs, Build a bridge between textures offers a small step from familiar to new; any concern about swallowing should pause home experiments until assessment [2, 10, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "اعمل جسر بين قوامين",
+                "url": "../articles/tip-child-texture-bridge.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Build a bridge between textures",
+                "url": "../articles/tip-child-texture-bridge.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "when-to-assess-next-step",
+          "heading": {
+            "ar": "إمتى نوقف التجربة المنزلية ونطلب تقييماً؟",
+            "en": "When should you pause home changes and seek assessment?"
+          },
+          "body": {
+            "ar": "اطلب تقييماً طبياً لو رفض الأكل مصحوب بنزول وزن، توقف واضح في النمو، خمول أو شحوب، ألم متكرر، قيء مستمر، إسهال أو إمساك شديد، أو لو قائمة الأكل بتضيق بسرعة وبتستبعد مجموعات كاملة. النمو بيتفهم من قياسات دقيقة متتابعة على منحنى مناسب مع التاريخ والفحص، مش من صورة واحدة أو مقارنة بأخوه. سجل لعدة أيام إيه اتقدم، إيه اتاكل تقريباً، مواعيد اللبن والمشروبات، مدة الوجبة، وأي أعراض؛ السجل يساعد الطبيب يشوف النمط من غير ما تطلب من الطفل يغيّر يومه عشان الزيارة [6, 9, 10].\n\nالكحة أو الشرقة المتكررة، صعوبة المضغ أو البلع، تغير النفس أثناء الأكل، أو صوت مبلول بعدها تحتاج تقييماً قريباً. الاختناق الحقيقي أو صعوبة التنفس أو ازرقاق اللون طوارئ فوراً. تورم مفاجئ في الوجه أو اللسان، صفير شديد، دوخة أو انهيار بعد طعام ممكن يكون تفاعلاً تحسسياً شديداً؛ اتبع خطة الطوارئ الموصوفة للطفل واطلب الرعاية العاجلة [10, 11, 13]. ما تعيدش تقديم طعام مشتبه فيه في البيت لاختبار رد الفعل.\n\nلو مفيش طوارئ بس السفرة بقت معركة يومية، أو مش عارف هل المشكلة سلوكية ولا طبية، تقدر تطلب حجز استشارة تغذية الطفل ومتابعة النمو في العيادة. الفريق يراجع منحنى النمو، الأعراض، مهارات الأكل وروتين البيت، وبعدها يحدد هل المطلوب تعديل عملي، فحوصات موجهة أو إحالة لمختص آخر. القرار الفردي يفضل مع الطبيب المعالج، والهدف خطة تناسب الطفل والأسرة من غير وعود سريعة أو إجبار [6, 10].",
+            "en": "Seek clinical assessment when food refusal is accompanied by weight loss, clearly stalled growth, lethargy or pallor, recurrent pain, persistent vomiting, severe diarrhoea or constipation, or a food list that is rapidly narrowing and excluding whole groups. Growth is interpreted from accurate serial measurements on an appropriate chart alongside history and examination, not from one photograph or comparison with a sibling. For several days, record what was offered, roughly what was eaten, milk and drink timing, meal duration and symptoms; this helps the clinician see the pattern without asking the child to perform differently for the visit [6, 9, 10].\n\nRecurrent coughing or choking, trouble chewing or swallowing, altered breathing during food, or a wet voice afterwards needs timely assessment. True choking, breathing difficulty or blue colour is an immediate emergency. Sudden swelling of the face or tongue, severe wheeze, faintness or collapse after food may be a serious allergic reaction; follow the child's prescribed emergency plan and seek urgent care [10, 11, 13]. Do not reintroduce a suspected food at home to test the reaction.\n\nIf there is no emergency but the table has become a daily battle, or you cannot tell whether the issue is behavioural or medical, you can request a child nutrition and growth consultation at the clinic. The team can review the growth curve, symptoms, eating skills and home routine, then decide whether practical changes, targeted tests or referral to another professional are appropriate. Individual decisions remain with the treating clinician; the goal is a plan that fits the child and family without quick promises or force [6, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز استشارة تغذية الطفل ومتابعة النمو",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request a child nutrition and growth consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "تقسيم مسؤولية وجبة الطفل من غير ضغط",
+          "en": "Mealtime roles for parents and children"
+        },
+        "description": {
+          "ar": "اعرف تقسيم مسؤولية وجبة الطفل: دورك في اختيار الأكل والموعد والمكان، ودوره في تحديد الكمية، مع خطوات عملية وعلامات تستدعي كشفاً.",
+          "en": "Learn how to divide mealtime roles, reduce pressure, respect hunger and fullness cues, and recognise when a child's food refusal needs assessment."
+        }
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسعنا شرح تقسيم مسؤولية الوجبة والتطبيق العملي وحدود الأمان وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
+            "en": "We expanded mealtime responsibility, practical use, safety limits and warning signs, and medically re-reviewed the content."
+          }
+        }
+      ]
+    }
+  ]
+}

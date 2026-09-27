@@ -1,0 +1,342 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of tip-photograph-medicine-boxes; replaces the entry from content/articles.json. Expanded the brief tip into a medically re-reviewed bilingual guide to photographing, recording, updating, and safely sharing a complete medicine list.",
+  "articles": [
+    {
+      "slug": "tip-photograph-medicine-boxes",
+      "type": "tip",
+      "published": true,
+      "featured": false,
+      "category": "internal-medicine",
+      "specialties": [
+        "internal-medicine"
+      ],
+      "date": "2026-09-01",
+      "updatedAt": "2026-09-27",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/tip-photograph-medicine-boxes.webp",
+      "title": {
+        "ar": "صوّر علب الأدوية قبل الكشف: قائمة أدق وأأمن",
+        "en": "Photograph medicine boxes before your visit"
+      },
+      "excerpt": {
+        "ar": "صوّر وش وضهر كل دواء ومكمل قبل الكشف، وكمل الصور بقائمة فيها الجرعة والميعاد وسبب الاستخدام. الدليل ده يوضح إيه اللي يتصوّر، وإيه اللي لازم يتكتب، وإمتى ما ينفعش تستنى الموعد.",
+        "en": "Photograph the front and back of every medicine and supplement before your visit, then add a list with the dose, timing and reason. This guide explains what to capture, what photos miss and when not to wait for an appointment."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "اتوسع الدليل عشان يشرح إزاي تعمل سجل أدوية كامل وآمن بالصور والكتابة، واتراجع طبياً من جديد.",
+            "en": "The guide was expanded to explain how to make a complete, safe medication record using photographs and written details, and was medically re-reviewed."
+          }
+        }
+      ],
+      "tags": {
+        "ar": [
+          "قائمة الأدوية",
+          "تصوير علب الأدوية",
+          "مراجعة الأدوية",
+          "تحضير كشف الباطنة"
+        ],
+        "en": [
+          "medicine list",
+          "medicine box photos",
+          "medication review",
+          "appointment preparation"
+        ]
+      },
+      "sections": [
+        {
+          "id": "photos-help-but-list-is-the-record",
+          "heading": {
+            "ar": "الصورة بداية ممتازة، بس مش هي القائمة كلها",
+            "en": "A photograph is an excellent start, but not the whole record"
+          },
+          "body": {
+            "ar": "لما حد يسألك في الكشف «بتاخد أدوية إيه؟»، سهل تنسى اسم دواء، أو تفتكر لون العلبة بس، أو تقول «دواء الضغط الصغير» من غير المادة الفعالة والتركيز. تصوير العلب قبل الموعد بيحفظ معلومات مهمة من الملصق، وخصوصاً لو بتستخدم أكتر من دواء أو بتتابع مع أكتر من طبيب. لكن الصورة لوحدها مش دايماً بتقول أنت فعلاً بتاخد كام قرص، في أنهي وقت، وليه الدواء اتكتب، أو إنك وقفته من أسبوع. عشان كده الأفضل إن الصور تكمل قائمة مكتوبة ومحدّثة، مش تستبدلها. FDA بتوصي إن القائمة تشمل الوصفات، والأدوية من غير روشتة، والفيتامينات والمكملات، مع الاسم والتركيز وسبب الاستخدام وتعليمات الجرعة [1].\n\nالقائمة الدقيقة بتساعد الطبيب والصيدلي يقارنوا اللي بتاخده فعلاً بالوصفات والقرارات الجديدة. العملية دي اسمها مراجعة أو مطابقة الأدوية: جمع أفضل تاريخ دوائي ممكن، تأكيده مع الشخص أو مصادر موثوقة، ثم توضيح أي إضافة أو إيقاف أو اختلاف مقصود [2, 3]. الصور مفيدة لأنها دليل بصري سريع، لكن مفيش صورة تقدر تقرر لوحدها إن دواءين ينفعوا مع بعض أو إن جرعة قديمة لسه مناسبة. القرار يفضل للطبيب أو الصيدلي بعد معرفة حالتك، التحاليل، الأعراض، والحساسية أو الآثار الجانبية السابقة [6, 9, 10].",
+            "en": "When someone asks during a visit, “Which medicines do you take?”, it is easy to forget a name, remember only the colour of a box, or say “the small blood-pressure tablet” without the active ingredient or strength. Photographing packages before the appointment preserves useful label information, especially if you use several products or see more than one clinician. A photograph alone, however, may not show how many tablets you actually take, at what time, why the medicine was prescribed, or that you stopped it last week. Photos should therefore support an up-to-date written list, not replace it. The FDA advises including prescriptions, over-the-counter medicines, vitamins and supplements, together with each name, strength, purpose and dosing instructions [1].\n\nAn accurate list helps clinicians and pharmacists compare what you really use with prescriptions and new decisions. That process is medication reconciliation: building the best possible medication history, confirming it with the person or reliable sources, and making any intended addition, discontinuation or difference clear [2, 3]. Photos are a useful visual reference, but no photograph can decide whether two medicines are safe together or whether an old dose is still appropriate. That decision remains with a clinician or pharmacist who knows your conditions, test results, symptoms, allergies and previous adverse effects [6, 9, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "photograph-every-side-clearly",
+          "heading": {
+            "ar": "تصوّر إيه بالظبط؟",
+            "en": "Exactly what should you photograph?"
+          },
+          "body": {
+            "ar": "قبل الكشف بيوم، اجمع المنتجات اللي بتستخدمها حالياً واعمل ألبوم واحد واضح. لكل علبة أو زجاجة، صوّر الواجهة، وضهر أو جانب العبوة اللي عليه المادة الفعالة والتركيز، وتعليمات الاستخدام والتحذيرات لو ظاهرة. لو ملصق الصيدلية عليه اسمك والجرعة المكتوبة، صوّره من غير ما تقص جزء مهم. صوّر كمان الشريط لو اسمه أو تركيزه أو شكله مختلف عن العلبة، والعبوة الداخلية للمكمل لو المكونات موجودة عليها. ملصق الدواء من غير روشتة مهم لأنه بيوضح المادة الفعالة، الغرض، التحذيرات، الجرعة، ومعلومات التخزين؛ ونفس الاسم التجاري أحياناً بيكون له منتجات أو تركيبات مختلفة، فاقرأ الملصق كل مرة [7].\n\nخلي الإضاءة كويسة، الصورة مستقيمة، والكتابة مقروءة لما تكبّرها. راجع الصور قبل ما ترجع العلب مكانها، وامسح الصورة المهزوزة وكررها. لو العبوة مش بالعربي أو الإنجليزي، احتفظ بالصورة الأصلية وما تحاولش تترجم اسم المادة من نفسك. صور المكملات مهمة زي الأدوية؛ صفحة البيوتين قبل تحليل الدم بتوضح ليه واجهة المنتج وكشف المكونات والجرعة ممكن يفرقوا قبل بعض التحاليل. FDA بتحذر إن البيوتين الموجود في مكملات معينة ممكن يتداخل مع بعض طرق التحليل ويطلع نتيجة غير صحيحة، فقول للطبيب والمعمل إنك بتاخده بدل ما توقفه أو تحسب مدة إيقاف بنفسك [11].",
+            "en": "The day before the visit, gather the products you currently use and make one clearly labelled album. For each box or bottle, photograph the front and the back or side showing the active ingredient, strength, directions and visible warnings. If the pharmacy label carries your name and prescribed directions, capture it without cropping important information. Photograph the blister strip when its name, strength or appearance differs from the outer box, and photograph the inner supplement container if that is where the ingredients appear. An over-the-counter Drug Facts label identifies the active ingredient, purpose, warnings, directions and storage information. Similar brand names can also cover products with different ingredients, so the label needs to be checked each time [7].\n\nUse good light, hold the camera straight and make sure the text remains readable when enlarged. Review each image before putting the packages away, and retake blurred photographs. If the packaging is not in Arabic or English, keep the original image rather than trying to translate the ingredient yourself. Supplements matter as much as medicines: the biotin before blood tests page explains why the product front, ingredient panel and dose can matter before some tests. The FDA warns that biotin in certain supplements can interfere with some laboratory methods and produce incorrect results, so tell the clinician and laboratory instead of choosing a stopping interval yourself [11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "صفحة البيوتين قبل تحليل الدم",
+                "url": "../articles/biotin-before-blood-tests.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "biotin before blood tests page",
+                "url": "../articles/biotin-before-blood-tests.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "write-what-the-camera-cannot-see",
+          "heading": {
+            "ar": "اكتب المعلومات اللي الكاميرا مش شايفاها",
+            "en": "Write down what the camera cannot see"
+          },
+          "body": {
+            "ar": "جنب كل صورة، اكتب اسم الدواء لو واضح، التركيز، الجرعة اللي بتاخدها فعلاً، عدد المرات، والميعاد بالنسبة للأكل أو النوم لو ده جزء من التعليمات. اكتب سبب الاستخدام، مين وصفه إن كنت فاكر، وإمتى بدأته. لو الدواء «عند اللزوم»، اكتب بتاخده لإيه، آخر مرة أخدته إمتى، وتقريباً كام مرة استخدمته آخر أسبوع أو شهر حسب طبيعة الدواء. ولو بتنسى جرعات، أو بتقسم القرص، أو طريقة استخدام البخاخ أو الحقنة صعبة، قول ده بصراحة؛ المعلومة دي أهم من محاولة إظهار سجل مثالي [1, 4, 5].\n\nاعمل جزء منفصل للأدوية اللي اتوقفت قريباً، واكتب مين قال توقفها وإمتى، لأن علبة قديمة في البيت لا تعني إن الدواء ما زال في الخطة. واعمل جزء للحساسية أو التفاعل السابق: اسم المنتج، إيه اللي حصل، وإمتى تقريباً. كلمة «حساسية» مش مرادف لكل أثر جانبي؛ التفاعلات الدوائية ممكن تكون آثاراً جانبية، أو تداخلات، أو حساسية حقيقية، ووصف اللي حصل يساعد الفريق يفرّق بينهم [10]. كمان اكتب الأمراض المهمة والحمل أو التخطيط له لو ينطبق، لأن بعض التداخلات تعتمد على حالة صحية، مش على دواءين بس [10]. لو مش عارف معلومة، اكتب «مش متأكد» بدل التخمين، وخلي الطبيب أو الصيدلي يراجعها معاك.",
+            "en": "Beside each photograph, write the medicine name if clear, its strength, the dose you actually take, how often you take it, and its timing around meals or sleep when that is part of the instructions. Add why you use it, who prescribed it if known, and when you started. For an “as needed” medicine, record what you use it for, when you last took it and roughly how often you used it over the last week or month as appropriate. If you miss doses, split a tablet, or struggle with an inhaler or injection, say so honestly; that information is more useful than presenting a perfect-looking record [1, 4, 5].\n\nKeep a separate part for medicines stopped recently, including who advised the change and when, because an old package at home does not prove the medicine remains in the plan. Add an allergy or previous-reaction section: name the product, describe what happened and give the approximate date. “Allergy” is not a synonym for every side effect. Drug reactions can be adverse effects, interactions or true allergies, and describing the event helps the team distinguish them [10]. Record important conditions and pregnancy or pregnancy planning when relevant, because some interactions involve a health condition rather than two medicines alone [10]. If you do not know a detail, write “not sure” instead of guessing and ask the clinician or pharmacist to check it with you."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "include-products-people-forget",
+          "heading": {
+            "ar": "ما تنساش الحاجات اللي ناس كتير ما بتعتبرهاش دواء",
+            "en": "Include the products people often forget to call medicines"
+          },
+          "body": {
+            "ar": "القائمة الكاملة مش أقراص الروشتة بس. ضيف المسكنات، أدوية البرد والحساسية، مضادات الحموضة، الملينات، والمنتجات اللي من غير وصفة. ضيف الفيتامينات، الأعشاب، البروتينات أو المكملات، وخصوصاً المنتجات اللي للشعر أو التخسيس أو الرياضة. ضيف الإنسولين والحقن الأسبوعية، البخاخات، قطرات العين والأنف، الكريمات واللاصقات، وأي دواء بتاخده على فترات. FDA وNCCIH بيأكدوا إن الطبيب والصيدلي لازم يعرفوا الوصفات، والأدوية من غير روشتة، والفيتامينات، والأعشاب والمكملات كلها، لأن التداخلات ممكن تغيّر الفاعلية أو تزود الأعراض الجانبية [5, 6, 8, 10].\n\nمش كفاية تقول عبارات زي «فيتامين شعر» أو «مسكن عند اللزوم» أو «حقنة سكر». الاسم والمادة والتركيز والتوقيت بيفرقوا. بص على المادة الفعالة في أدوية البرد أو الألم المركبة؛ تصوير الملصق بيساعد الفريق يلاحظ لو منتجين فيهم نفس المادة، لكنه مش دعوة إنك تحكم بنفسك إن فيه تكرار أو توقف حاجة [7, 9]. لو بتتابع السكر، فـمتابعة السكر الشاملة بتشرح ليه اسم الدواء والجرعة ومواعيدها وأي هبوط أو جرعات فائتة جزء من الصورة الأكبر، مش تفصيلة جانبية. ولو منتج مش بتاخده دلوقتي لكنه موجود ضمن خطة مكتوبة للبدء قريباً، حطه في قسم «لسه ما بدأتش» عشان ما يتسجلش بالغلط كدواء حالي.",
+            "en": "A complete record is not limited to prescription tablets. Add pain relievers, cold and allergy products, antacids, laxatives and anything bought without a prescription. Include vitamins, herbs, protein or other supplements, especially products marketed for hair, weight loss or sport. Add insulin and weekly injections, inhalers, eye and nasal drops, creams, patches and medicines used intermittently. The FDA and NCCIH stress that clinicians and pharmacists need to know about prescriptions, over-the-counter medicines, vitamins, herbs and supplements because interactions can change effectiveness or increase adverse effects [5, 6, 8, 10].\n\nDo not stop at descriptions such as “hair vitamin,” “painkiller when needed” or “diabetes injection.” The name, ingredient, strength and timing matter. Check the active ingredient in combination cold or pain products. Photographing the label can help the team spot when two products contain the same ingredient, but it is not an instruction to diagnose duplication or stop either product yourself [7, 9]. If you live with diabetes, the whole-health diabetes review explains why medicine names, doses, timing, missed doses and possible low-glucose episodes belong to the wider clinical picture rather than being minor details. If a product is not yet being taken but is part of a written plan to start later, place it under “not started yet” so it is not mistakenly recorded as current."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "متابعة السكر الشاملة",
+                "url": "../articles/diabetes-review-whole-health.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "whole-health diabetes review",
+                "url": "../articles/diabetes-review-whole-health.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "update-after-every-change",
+          "heading": {
+            "ar": "حدّث السجل بعد كل تغيير أو خروج من مستشفى",
+            "en": "Update the record after every change or hospital discharge"
+          },
+          "body": {
+            "ar": "أهم صفة في قائمة الأدوية إنها تكون حديثة. عدّلها لما يبدأ دواء، تتغير جرعة، يتوقف علاج، أو يتغير شكل العبوة والتركيز. حط تاريخ «آخر تحديث» فوق القائمة. بعد زيارة طوارئ، دخول مستشفى، عملية، أو انتقال بين أطباء، قارن ورقة الخروج بالقائمة القديمة بند بند مع الطبيب أو الصيدلي: إيه اللي استمر؟ إيه اللي اتوقف؟ إيه الجديد؟ وإيه التغيير المؤقت؟ منظمة الصحة العالمية تعتبر الانتقال بين أماكن الرعاية نقطة مهمة لاحتمال اختلاف معلومات الدواء، وتوصي بقائمة محدثة ومشاركة المريض وأسرته في تأكيدها [2]. AHRQ كمان توضح إن المطابقة تشمل مقارنة قائمة البيت بأوامر الدخول والخروج، وتوثيق التغييرات وإبلاغ مقدم الرعاية التالي [3].\n\nما تجمعش كل القوائم القديمة في ملف واحد من غير ما تميز الحالي من السابق. احتفظ بنسخة مؤرخة للأرشيف لو محتاج، لكن خلي قدامك نسخة واحدة مكتوب عليها «الحالية». لو أكتر من طبيب بيكتب أدوية، ورّي كل واحد نفس النسخة. ولو متابعة الضغط ضمن الزيارة، فـدليل ضغط الدم كنمط بيوضح قيمة تسجيل وقت الجرعة مع القراءة والأعراض، من غير تعديل جرعة بسبب رقم منفرد. المراجعة المنظمة مش معناها إن كل دواء غلط؛ معناها إن أي اختلاف يبقى معروفاً ومقصوداً بدل ما يحصل بسبب نسخة قديمة أو ذاكرة ناقصة [2, 3, 9].",
+            "en": "The most important quality of a medication list is that it is current. Revise it whenever a medicine starts, a dose changes, treatment stops, or the package and strength change. Put a “last updated” date at the top. After an emergency visit, hospital admission, operation or transfer between clinicians, compare the discharge document with the old list item by item with a clinician or pharmacist: What continues? What stopped? What is new? Which change is temporary? The World Health Organization identifies transitions between care settings as an important point for medication discrepancies and supports an updated list with patient and family involvement [2]. AHRQ likewise describes reconciliation as comparing home medicines with admission and discharge orders, documenting changes and communicating them to the next provider [3].\n\nDo not merge every old list into one document without distinguishing current from previous treatment. Keep a dated archive if useful, but have one clearly marked “current” copy. If several clinicians prescribe for you, show each of them that same copy. When blood-pressure follow-up is part of the visit, the blood-pressure pattern guide explains the value of recording dose timing with readings and symptoms without changing a dose because of one isolated number. A structured review does not imply that every medicine is wrong; it makes sure any difference is known and intentional rather than caused by an old document or incomplete memory [2, 3, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل ضغط الدم كنمط",
+                "url": "../articles/blood-pressure-needs-a-pattern.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "blood-pressure pattern guide",
+                "url": "../articles/blood-pressure-needs-a-pattern.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "share-safely-and-prepare-for-emergencies",
+          "heading": {
+            "ar": "خلي السجل متاحاً وقت اللزوم من غير ما تنشر بياناتك",
+            "en": "Keep the record available without broadcasting private details"
+          },
+          "body": {
+            "ar": "احتفظ بالقائمة والصور في مكان تقدر تفتحه بسرعة، واعمل نسخة ورق أو نسخة احتياطية لو الموبايل ضاع أو فصل شحن. FDA واللجنة المشتركة بيذكروا إن قائمة حديثة ممكن تساعد في الطوارئ، وإن مشاركة نسخة مع شخص موثوق مفيدة لو مش قادر تتكلم بنفسك [1, 4]. اختار شخصاً يعرف إن دي النسخة الحالية، وحدّث نسخته لما الخطة تتغير. في المقابل، صور ملصقات الصيدلية ممكن يظهر فيها اسمك أو رقم ملف أو بيانات تانية؛ ابعتها للفريق بالطريقة اللي العيادة محدداها، وما تنشرهاش في جروب عام أو على السوشيال ميديا.\n\nقبل تحليل أو إجراء، ورّي القائمة للطبيب والمعمل واسأل هل أي دواء أو مكمل محتاج تعليمات خاصة. ما توقفش دواء موصوف، وما تأجلش تحليل عاجل من نفسك عشان منشور على الإنترنت [5, 6, 11]. وفي الطوارئ ما تضيعش وقت في ترتيب الألبوم: اتصل بخدمة الطوارئ المناسبة فوراً لو فيه صعوبة تنفس، تورم سريع في الوجه أو اللسان، إغماء، ارتباك شديد، تشنج، ألم صدر شديد، أو تدهور مفاجئ بعد دواء. خد العلبة أو الصور معاك لو ده آمن ومتاح، لكن ما تأخرش الرعاية عشان تجمعهم. الصورة تساعد الفريق يعرف المنتج؛ هي مش بديل للتقييم العاجل ولا وسيلة لعلاج تفاعل شديد في البيت [1, 10].",
+            "en": "Keep the list and photographs somewhere you can open quickly, and maintain a paper copy or backup in case the phone is lost or has no power. The FDA and Joint Commission note that a current list can help in an emergency and that sharing a copy with a trusted person can be useful if you cannot communicate for yourself [1, 4]. Choose someone who knows which copy is current and update their copy when the plan changes. Pharmacy labels may display your name, record number or other personal data, however, so send images to the care team through the method the clinic specifies and do not post them in a public group or on social media.\n\nBefore a laboratory test or procedure, show the list to the clinician and laboratory and ask whether any medicine or supplement needs specific instructions. Do not stop prescribed treatment or delay an urgent test because of an online post [5, 6, 11]. In an emergency, do not spend time arranging an album: contact the appropriate emergency service immediately for difficulty breathing, rapidly developing swelling of the face or tongue, fainting, severe confusion, a seizure, severe chest pain or sudden deterioration after a medicine. Take the package or images if that is safe and readily possible, but do not delay care to collect them. A photograph helps the team identify a product; it does not replace urgent assessment or provide a way to treat a severe reaction at home [1, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "turn-the-record-into-useful-questions",
+          "heading": {
+            "ar": "حوّل الصور لأسئلة مفيدة في الكشف",
+            "en": "Turn the photographs into useful questions at the visit"
+          },
+          "body": {
+            "ar": "رتب أسئلتك قبل الزيارة: الدواء ده لسه مطلوب؟ الجرعة دي مناسبة مع وظائف الكلى أو الكبد الحالية؟ إيه اللي أعمله لو نسيت جرعة؟ هل يتاخد مع الأكل؟ هل فيه تحليل أو متابعة مطلوبة؟ وهل دواء جديد ممكن يتداخل مع حاجة في القائمة؟ FDA بتقترح أسئلة عن الغرض، وطريقة ومدة الاستخدام، والجرعة الفائتة، والأكل والمشروبات والمكملات اللي تتجنبها، والأعراض الجانبية والمتابعة [5]. الصيدلي يقدر يشرح الملصق وطريقة الاستخدام والتداخلات، والطبيب يربط ده بالتشخيص والفحص والنتائج [6].\n\nاكتب كمان إيه اللي مضايقك: دوخة، نعاس، طفح، اضطراب معدة، صعوبة بلع، مشكلة في فتح العبوة، أو جدول مش مناسب للشغل والصيام. ما توقفش أو تقلل دواء من نفسك لمجرد إنك قلقان من أثر جانبي؛ ناقش التوقيت والشدة وما إذا كان العرض بدأ بعد تغيير معين [8, 9, 10]. لو السؤال عن علاج حموضة مستخدم من مدة، فمقال دواء الحموضة لفترة طويلة يشرح ليه السبب الأصلي والجرعة والاستجابة وعلامات الخطر أهم من مدة الاستخدام وحدها. في نهاية الزيارة، اطلب نسخة واضحة من الخطة: إيه اللي مستمر، إيه اللي اتغير، ومين تراجعه لو حصل عرض جديد. حدّث قائمتك فوراً قبل ما التفاصيل تتنسي [3, 5].",
+            "en": "Prepare your questions before the appointment: Is this medicine still needed? Is this dose appropriate for my current kidney or liver function? What should I do if I miss a dose? Should it be taken with food? Does it require a test or monitoring? Could a new medicine interact with anything on the list? The FDA suggests asking about purpose, method and duration of use, missed doses, foods, drinks or supplements to avoid, adverse effects and monitoring [5]. A pharmacist can explain the label, administration and interactions, while a clinician connects that information with diagnosis, examination and results [6].\n\nRecord what is making the plan difficult: dizziness, sleepiness, a rash, stomach upset, trouble swallowing, difficulty opening the container, or a schedule that conflicts with work or fasting. Do not stop or reduce treatment solely because you are worried about an adverse effect; discuss the timing, severity and whether it began after a particular change [8, 9, 10]. If the question concerns long-term acid treatment, the long-term acid-reflux medicine article explains why the original reason, dose, response and warning signs matter more than duration alone. At the end of the visit, ask for a clear copy of the plan: what continues, what changed and whom to contact if a new symptom occurs. Update your list immediately, before the details are forgotten [3, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "مقال دواء الحموضة لفترة طويلة",
+                "url": "../articles/qa-reflux-long-term-medicine.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "long-term acid-reflux medicine article",
+                "url": "../articles/qa-reflux-long-term-medicine.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "next-step-medication-review",
+          "heading": {
+            "ar": "خطوتك التالية: قائمة واحدة ومراجعة واضحة",
+            "en": "Your next step: one list and a clear review"
+          },
+          "body": {
+            "ar": "ابدأ النهارده بخطوة بسيطة: صوّر كل منتج حالي بصورة مقروءة، واعمل جدول فيه الاسم والتركيز والجرعة والميعاد والسبب، ثم علّم بوضوح على اللي اتوقف أو بيتاخد عند اللزوم. راجع القائمة مع شخص موثوق لو بتساعد قريب كبير في السن، لكن خلي صاحب العلاج مشاركاً على قد ما يقدر. القوائم الورقية، والموبايل، والنماذج الإلكترونية كلها اختيارات مقبولة؛ الأفضل هو النظام اللي هتحدّثه فعلاً وتقدر توصله وقت الحاجة [1, 4]. ومهما كان السجل منظم، هو أداة للحوار، مش وصفة جديدة ولا تصريح بتعديل العلاج [3, 9].\n\nلو عندك أدوية من أكتر من طبيب، أو خرجت قريباً من مستشفى، أو مش عارف أي نسخة من الخطة هي الحالية، خد الصور والوصفات وورقة الخروج في زيارة مراجعة. في العيادة، يقدر طبيب الباطنة يراجع الأسماء والجرعات مع الأمراض والأعراض والنتائج، ويحدد معاك الأسئلة اللي تحتاج صيدلياً أو التخصص اللي وصف العلاج. تقدر تستخدم طلب حجز موعد باطنة عشان تبدأ مراجعة منظمة، لكن لو فيه علامة خطر شديدة أو تدهور مفاجئ اطلب رعاية عاجلة بدل انتظار موعد عادي. الهدف إن يبقى عندك سجل واحد مفهوم، وأي تغيير يكون مقصوداً ومكتوباً ومتفقاً عليه [2, 3].",
+            "en": "Start today with one simple step: take a readable photograph of every current product and make a table with its name, strength, dose, timing and purpose, then clearly mark anything stopped or taken only when needed. Review the list with a trusted person if you help an older relative, while involving the person taking the treatment as much as possible. Paper lists, a phone and electronic forms are all reasonable choices; the best system is the one you will actually update and can reach when needed [1, 4]. However organised the record becomes, it is a tool for discussion—not a new prescription or permission to alter treatment [3, 9].\n\nIf medicines come from several clinicians, you have recently left hospital, or you are unsure which version of the plan is current, bring the photographs, prescriptions and discharge document to a review. At the clinic, an internal-medicine clinician can review names and doses alongside conditions, symptoms and results, then identify questions for a pharmacist or the specialty that prescribed the treatment. You can use the request an internal-medicine appointment page to begin a structured review, but seek urgent care instead of waiting for a routine visit if a severe warning sign or sudden deterioration occurs. The aim is one understandable record, with every change intentional, documented and agreed [2, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد باطنة",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request an internal-medicine appointment",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل صور العلب تغني عن كتابة قائمة أدوية؟",
+            "en": "Do photographs of the packages replace a written medication list?"
+          },
+          "a": {
+            "ar": "لأ. الصورة تحفظ الاسم والمادة والتركيز والملصق، لكنها غالباً ما تقولش الجرعة اللي بتاخدها فعلاً، الميعاد، السبب، آخر جرعة، أو إن الدواء اتوقف. استخدم الصور مع قائمة مكتوبة وحديثة تشمل الوصفات، والأدوية من غير روشتة، والمكملات والحساسية [1, 3, 4].",
+            "en": "No. A photograph preserves the name, ingredient, strength and label, but often does not show the dose you actually take, timing, purpose, last dose or that treatment stopped. Use photos with a current written list covering prescriptions, over-the-counter products, supplements and allergies [1, 3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أصوّر العلبة من أنهي ناحية؟",
+            "en": "Which sides of a medicine package should I photograph?"
+          },
+          "a": {
+            "ar": "صوّر الواجهة، والجانب أو الضهر اللي عليه المادة الفعالة والتركيز والتعليمات والتحذيرات، وملصق الصيدلية لو عليه جرعتك. صوّر الشريط أو الزجاجة الداخلية لو معلوماتها مختلفة، وراجع إن الكلام مقروء قبل ما تعتمد الصورة [1, 7].",
+            "en": "Photograph the front, the side or back showing the active ingredient, strength, directions and warnings, and the pharmacy label if it carries your dose. Capture the blister or inner bottle when its information differs, and confirm that the text is readable before relying on the image [1, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أضيف الفيتامينات والأعشاب والمسكن اللي باخده أحياناً؟",
+            "en": "Should I include vitamins, herbs and an occasional pain reliever?"
+          },
+          "a": {
+            "ar": "آه. ضيف كل وصفة، ودواء من غير روشتة، وفيتامين، وعشب، ومكمل، ودواء عند اللزوم، مع الجرعة والتكرار. المنتجات دي ممكن تعمل آثاراً جانبية أو تتداخل مع دواء أو أكل أو حالة صحية، واسم عام زي «مكمل طبيعي» مش كفاية للمراجعة [5, 8, 9, 10].",
+            "en": "Yes. Include every prescription, over-the-counter medicine, vitamin, herb, supplement and as-needed product with its dose and frequency. These products can cause adverse effects or interact with a medicine, food or health condition, and a general description such as “natural supplement” is not enough for review [5, 8, 9, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أعمل إيه لو لقيت اسمين تجاريين أو علبتين شبه بعض؟",
+            "en": "What if I find two brand names or two very similar packages?"
+          },
+          "a": {
+            "ar": "صوّر الاتنين واكتب بتاخد كل واحد إمتى، وما توقفش واحد ولا تجمع الجرعات من نفسك. الملصق يوضح المادة الفعالة والتركيز، لكن الطبيب أو الصيدلي هو اللي يراجع هل فيه نفس المادة، اختلاف مقصود، أو عبوة قديمة لازم تتشال من القائمة الحالية [6, 7, 9].",
+            "en": "Photograph both and record when you take each; do not stop one or combine doses yourself. The label identifies the active ingredient and strength, but a clinician or pharmacist should determine whether there is duplication, an intended difference or an old package that should leave the current list [6, 7, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل أوقف مكمل قبل التحليل لمجرد إني قريت إنه بيأثر؟",
+            "en": "Should I stop a supplement before a test because I read that it can interfere?"
+          },
+          "a": {
+            "ar": "مش من نفسك. صوّر المكونات، واكتب الجرعة ووقت آخر جرعة، وبلّغ الطبيب اللي طلب التحليل والمعمل. البيوتين مثال لمكمل ممكن يتداخل مع بعض طرق التحليل، لكن نوع الاختبار والجهاز والجرعة والتوقيت يفرقوا، فخد تعليمات مخصصة وما تأجلش تحليلاً عاجلاً [8, 11].",
+            "en": "Not on your own. Photograph the ingredients, record the dose and time of the last dose, and tell both the requesting clinician and laboratory. Biotin is one supplement that can interfere with some testing methods, but the test, analyser, dose and timing matter, so obtain individual instructions and do not delay an urgent test [8, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى صور الأدوية مش كفاية ولازم أطلب مساعدة عاجلة؟",
+            "en": "When are medicine photographs not enough and urgent help is needed?"
+          },
+          "a": {
+            "ar": "اطلب مساعدة طارئة فوراً لو بعد دواء ظهر صعوبة تنفس، تورم سريع في الوجه أو اللسان، إغماء، تشنج، ارتباك شديد، ألم صدر شديد، أو تدهور مفاجئ. خد الصور أو العبوة لو متاحة من غير تأخير، لكن ما تستناش موعداً عادياً وما تحاولش تعالج تفاعلاً شديداً في البيت [1, 10].",
+            "en": "Seek emergency help immediately if a medicine is followed by difficulty breathing, rapidly developing swelling of the face or tongue, fainting, a seizure, severe confusion, severe chest pain or sudden deterioration. Take the images or package if readily available without delay, but do not wait for a routine appointment or try to manage a severe reaction at home [1, 10]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "FDA — Create and Keep a Medication List for Your Health",
+          "url": "https://www.fda.gov/consumers/consumer-updates/create-and-keep-medication-list-your-health"
+        },
+        {
+          "label": "WHO — Medication Safety in Transitions of Care",
+          "url": "https://www.who.int/publications/i/item/WHO-UHC-SDS-2019.9"
+        },
+        {
+          "label": "AHRQ — MATCH Toolkit: Medication Reconciliation",
+          "url": "https://www.ahrq.gov/patient-safety/settings/hospital/match/appendix/app-7.html"
+        },
+        {
+          "label": "HHS MyHealthfinder — Use Medicines Safely",
+          "url": "https://odphp.health.gov/myhealthfinder/healthy-living/safety/use-medicines-safely"
+        },
+        {
+          "label": "FDA — As You Age: You and Your Medicines",
+          "url": "https://www.fda.gov/drugs/information-consumers-and-patients-drugs/you-age-you-and-your-medicines"
+        },
+        {
+          "label": "FDA — Pharmacists Help You Use Medicines Safely",
+          "url": "https://www.fda.gov/consumers/consumer-updates/fda-pharmacists-help-you-use-medicines-safely"
+        },
+        {
+          "label": "FDA — The Over-the-Counter Drug Facts Label",
+          "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/over-counter-drug-facts-label"
+        },
+        {
+          "label": "NCCIH — How Medications and Supplements Can Interact",
+          "url": "https://www.nccih.nih.gov/health/know-science/how-medications-and-supplements-can-interact/talk-with-your-health-care-providers"
+        },
+        {
+          "label": "MedlinePlus — Taking Multiple Medicines Safely",
+          "url": "https://www.medlineplus.gov/ency/patientinstructions/000883.htm"
+        },
+        {
+          "label": "MedlinePlus — Drug Reactions",
+          "url": "https://medlineplus.gov/drugreactions.html"
+        },
+        {
+          "label": "FDA — Biotin Interference with Troponin Lab Tests",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "صوّر علب الأدوية قبل الكشف",
+          "en": "Photograph medicine boxes before your visit"
+        },
+        "description": {
+          "ar": "اعرف إزاي تصوّر علب الأدوية والمكملات قبل الكشف، وإيه اللي تكتبه مع الصور عشان تعمل قائمة أدوية دقيقة وآمنة للطبيب.",
+          "en": "Learn how to photograph medicines and supplements before a visit, what details to add, and how to keep an accurate, safer medication list."
+        }
+      }
+    }
+  ]
+}

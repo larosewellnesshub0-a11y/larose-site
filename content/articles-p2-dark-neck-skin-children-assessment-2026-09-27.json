@@ -1,0 +1,305 @@
+{
+  "_note": "Phase 2 enhancement (2026-09-27) of dark-neck-skin-children-assessment; replaces the entry from content/articles-longform-2026-09-12.json. Rebuilt as a cited, bilingual pediatric assessment guide with differential diagnosis, metabolic context, red flags, safe skin care, internal links and booking guidance.",
+  "articles": [
+    {
+      "slug": "dark-neck-skin-children-assessment",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "pediatrics",
+      "specialties": [
+        "pediatrics",
+        "dermatology"
+      ],
+      "date": "2026-09-12",
+      "updatedAt": "2026-09-27",
+      "readingTime": 10,
+      "author": "alyaa-abu-taleb",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/dark-neck-children-cover.webp",
+      "title": {
+        "ar": "اسمرار الرقبة عند الأطفال: الأسباب والتقييم",
+        "en": "Dark neck skin in children: assessment guide"
+      },
+      "excerpt": {
+        "ar": "اسمرار رقبة الطفل مش معناه تلقائياً سكر أو قلة نظافة. اعرف إيه اللي يفرّق الشواك الأسود عن التهيج، وإمتى يحتاج الطفل فحصاً أو تحاليل.",
+        "en": "Dark neck skin does not automatically mean diabetes or poor hygiene. Learn how clinicians distinguish acanthosis nigricans from irritation and when assessment or tests may help."
+      },
+      "history": [
+        {
+          "date": "2026-09-27",
+          "note": {
+            "ar": "وسّعنا شرح أسباب اسمرار الرقبة عند الأطفال وخطوات التقييم والعناية الآمنة وعلامات الخطر، واتراجع طبياً من جديد.",
+            "en": "We expanded the causes, assessment steps, safe skin care and warning signs for dark neck skin in children, and medically re-reviewed the article."
+          }
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-dark-neck-skin-can-mean",
+          "heading": {
+            "ar": "اسمرار الرقبة وصف، مش تشخيص",
+            "en": "Dark neck skin is a description, not a diagnosis"
+          },
+          "body": {
+            "ar": "لما تلاحظ إن جلد رقبة طفلك بقى أغمق، أول نقطة مهمة إن اللون لوحده مش بيحدد السبب. الشواك الأسود اسمه بيصف جلد لونه أغمق وسمكه أكبر وملمسه مخملي، وغالباً بيبان بالتدريج في ثنيات الرقبة أو تحت الإبط. ممكن تبقى فيه زوائد جلدية صغيرة أو حكة أو ريحة عند بعض الأطفال، لكن مش لازم كل العلامات تظهر. ومش كل فرق لون في الرقبة يبقى شواك أسود أصلاً. [1, 3, 4, 5, 11]\n\nبص على الملمس والتوزيع والوقت، مش درجة اللون بس: هل الجلد ناعم ولا سميك؟ هل التغير موجود تحت الإبط أو في ثنيات تانية؟ هل ظهر بهدوء ولا بسرعة؟ وهل فيه حكة أو قشور أو وجع؟ الصور أونلاين مش كفاية عشان تحسم الإجابة، خصوصاً إن الإضاءة ولون البشرة الطبيعي والاحتكاك بيغيروا شكل المنطقة. الأحسن إنك تعاملها كعلامة محتاجة سياق، مش كحكم على صحة الطفل أو نظافته. [1, 4, 5, 11]\n\nالأهم كمان إنك ما تلومش الطفل وما تسمحش بحد يعلّق على رقبته أو جسمه. التغير الجلدي مش دليل كسل، ومش مفروض يتحول لمصدر إحراج في البيت أو المدرسة. الفحص الهادئ هدفه يعرف إيه اللي بيحصل ويحمي صحة الطفل وجلده، من غير وصم أو تخويف. [3, 5, 8]",
+            "en": "When you notice that a child's neck has become darker, the first important point is that colour alone does not identify the cause. Acanthosis nigricans describes skin that is darker, thicker and velvety, often developing gradually in the folds of the neck or armpits. Small skin tags, itch or odour can occur in some children, but every feature does not have to be present. Not every colour difference on the neck is acanthosis nigricans. [1, 3, 4, 5, 11]\n\nLook at texture, distribution and timing, not just shade. Is the skin smooth or thickened? Is there a similar change in the armpits or other folds? Did it appear slowly or quickly? Is there itch, scale or pain? Online photographs cannot settle the question, especially because lighting, baseline skin tone and friction change how the area looks. Treat it as a finding that needs context rather than a verdict about a child's health or hygiene. [1, 4, 5, 11]\n\nIt is equally important not to blame the child or allow comments about their neck or body. A skin change is not evidence of laziness and should not become a source of shame at home or school. A calm assessment aims to understand what is happening and protect the child's health and skin without stigma or alarm. [3, 5, 8]"
+          }
+        },
+        {
+          "id": "not-every-dark-patch-is-acanthosis",
+          "heading": {
+            "ar": "مش كل بقعة غامقة شواك أسود",
+            "en": "Not every dark patch is acanthosis nigricans"
+          },
+          "body": {
+            "ar": "الطبيب بيفرّق بين احتمالات كتير بالفحص. احتكاك الياقة أو السلسلة، تهيج من عطر أو منتج شعر، إكزيما أو التهاب قديم ممكن يسيب تصبغاً بعد ما الالتهاب يهدأ. القشور الواضحة أو الحكة أو حدود البقعة أو وجودها في أماكن معينة ممكن يوجّهوا لسؤال جلدي مختلف. وفي حالات أقل شيوعاً، أدوية أو اضطرابات هرمونية أو أشكال وراثية من الشواك الأسود بتدخل في الصورة. عشان كده التشخيص من صورة واحدة ممكن يضيّع السبب الحقيقي. [1, 3, 5, 11]\n\nجهّز للطبيب خطاً زمنياً بسيطاً: إمتى بدأ اللون، وهل الملمس اتغير، وهل المنطقة بتكبر، وإيه المنتجات اللي بتلمس الرقبة. اذكر أي دواء أو مكمل بدأ قبل التغير، حتى لو مش شايف له علاقة. لو عندك صور قديمة طبيعية من غير فلتر وبإضاءة متقاربة، ممكن تساعد في فهم السرعة، بس مش مطلوب تصور رقبة الطفل كل يوم. [1, 3, 5]\n\nلو عايز تفهم شكل الشواك الأسود وعلاقته المحتملة بالأيض بصورة أوسع، مقال اسمرار الرقبة ومقاومة الإنسولين بيفصل الفكرة من غير ما يعتبر كل اسمرار دليلاً على مرض. الصفحة دي مركزة على تقييم الطفل تحديداً، لأن العمر والنمو والبلوغ والتاريخ العائلي بيغيروا طريقة قراءة العلامة واختيار الخطوة الجاية. [1, 6, 8]",
+            "en": "A clinician distinguishes several possibilities through examination. Friction from a collar or necklace, irritation from fragrance or hair products, eczema, or earlier inflammation can leave post-inflammatory pigmentation after the irritation settles. Clear scale, itch, the edge of a patch or its distribution can point towards a different skin question. Less commonly, medicines, hormonal disorders or inherited forms of acanthosis nigricans may contribute. That is why diagnosing the cause from one photograph can miss the real problem. [1, 3, 5, 11]\n\nPrepare a simple timeline for the clinician: when the colour began, whether the texture changed, whether the area is expanding, and which products touch the neck. Mention every medicine or supplement started before the change, even if the connection seems unlikely. Older unfiltered photographs in similar lighting can sometimes show the speed of change, but there is no need to photograph the child's neck every day. [1, 3, 5]\n\nFor a broader explanation of the appearance and its possible metabolic relationship, dark neck skin and insulin resistance covers the concept without treating every dark patch as evidence of disease. This page stays focused on assessing a child, because age, growth, puberty and family history change how the finding is interpreted and how the next step is chosen. [1, 6, 8]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "اسمرار الرقبة ومقاومة الإنسولين",
+                "url": "../articles/dark-neck-acanthosis-insulin-resistance.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "dark neck skin and insulin resistance",
+                "url": "../articles/dark-neck-acanthosis-insulin-resistance.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "insulin-resistance-link-without-assumptions",
+          "heading": {
+            "ar": "علاقة مقاومة الإنسولين مهمة، بس مش تلقائية",
+            "en": "The insulin-resistance link matters, but is not automatic"
+          },
+          "body": {
+            "ar": "الشواك الأسود ممكن يظهر مع ارتفاع الإنسولين ومقاومة الإنسولين، وبيبقى أكثر شيوعاً مع زيادة الوزن أو وجود عوامل خطورة للسكري من النوع التاني. لكن ده ارتباط، مش تحليل منزلي: شكل الرقبة ما يقولش مستوى السكر، وما يثبتش إن الطفل عنده سكري، وما يحددش علاجاً. بعض الأطفال عندهم العلامة من غير سكري، وبعض الأطفال اللي عندهم اضطراب في السكر ما عندهمش العلامة أصلاً. [1, 4, 6, 7, 8]\n\nالطبيب بيقرأ العلامة مع مسار الطول والوزن ومؤشر كتلة الجسم حسب السن والجنس، مرحلة البلوغ، ضغط الدم، الأدوية، النوم، النشاط والتاريخ العائلي للسكري. وجود عطش زائد أو تبول متكرر أو نزول وزن من غير قصد مهم جداً يتقال، لكنه برضه مش بيتفسر من الرقبة وحدها. ولو وزن الطفل زاد، الهدف مش إننا نختصره في رقم أو نعمل له دايت عقابي؛ الهدف نفهم نموه وصحته كلها. [6, 7, 8, 10]\n\nمقال مقاومة الإنسولين عند الأطفال: تقييم وخطة للأسرة بيشرح المسار الأوسع للتحليل والعادات والمتابعة. هنا الخلاصة إن العلامة الجلدية ممكن تفتح سؤالاً طبياً مفيداً، لكنها ما تقفلش الإجابة. خليك بعيد عن جمل زي «ابني عنده سكر أكيد» أو «ده بسبب إنه بياكل كتير»، لأنها غير دقيقة وبتزود خوف الطفل ووصمه. [6, 7, 8]",
+            "en": "Acanthosis nigricans can occur with high insulin levels and insulin resistance, and it is more common with excess weight or other risk factors for type 2 diabetes. This is an association, not a home test. The neck's appearance cannot report a glucose level, prove that a child has diabetes or choose a treatment. Some children have the skin finding without diabetes, while some children with abnormal glucose do not have the finding. [1, 4, 6, 7, 8]\n\nA clinician reads the finding alongside the child's height, weight and BMI trajectory for age and sex, pubertal stage, blood pressure, medicines, sleep, activity and family history of diabetes. Increased thirst, frequent urination or unintentional weight loss are important to report, but they are not explained by the neck alone. If a child's weight has increased, the aim is not to reduce the child to a number or impose a punitive diet; it is to understand growth and health as a whole. [6, 7, 8, 10]\n\nInsulin resistance in children: assessment and a family-centred plan explains the broader pathway for testing, habits and follow-up. The key point here is that a skin sign can open a useful clinical question, but it cannot close the answer. Avoid statements such as 'my child definitely has diabetes' or 'this happened because they eat too much'. They are inaccurate and increase fear and stigma. [6, 7, 8]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "مقاومة الإنسولين عند الأطفال: تقييم وخطة للأسرة",
+                "url": "../articles/insulin-resistance-children-family-assessment.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Insulin resistance in children: assessment and a family-centred plan",
+                "url": "../articles/insulin-resistance-children-family-assessment.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "what-clinical-assessment-may-include",
+          "heading": {
+            "ar": "إيه اللي بيحصل في التقييم؟",
+            "en": "What may happen during assessment?"
+          },
+          "body": {
+            "ar": "الزيارة غالباً بتبدأ بقصة وفحص، مش بقائمة تحاليل جاهزة. الطبيب هيسأل عن وقت بداية اللون وسرعته، أعراض الجلد، النمو والبلوغ، الأكل والحركة والنوم، الأدوية، وأي تاريخ عائلي للسكري أو مشاكل الدهون. بعد كده بيفحص ملمس الجلد وتوزيعه، ويقيس الطول والوزن ويحطهم على منحنيات النمو بدل مقارنة الطفل بإخوته أو زمايله. القياس الواحد مفيد، لكن الاتجاه عبر الوقت أهم. [7, 8, 10, 11]\n\nبناءً على العمر ومرحلة البلوغ ومسار النمو وعوامل الخطورة، ممكن يطلب الطبيب سكر صايم أو سكر تراكمي أو اختبار تحمل الجلوكوز، أو دهون ووظائف كبد حسب السؤال الطبي. مش كل طفل محتاج كل التحاليل، والاختبارات دي مش بدائل لبعض في كل موقف. كمان الدليل الأمريكي للخدمات الوقائية بيقول إن الدليل على فحص كل الأطفال اللي ما عندهمش أعراض لسه غير كافٍ؛ وده بيأكد أهمية القرار الفردي بدل التحليل العشوائي. [6, 7, 8, 9]\n\nقياس الإنسولين الصايم مش اختباراً روتينياً يثبت مقاومة الإنسولين عند كل طفل، وإرشاد جمعية الغدد الصماء بينبّه إن قياسات الإنسولين مش مفيدة روتينياً في تقييم سمنة الأطفال. ما تطلبش باقة تحاليل من نفسك، وما تفسرش رقماً منفرداً من غير الطبيب. اسأل: التحليل ده بيجاوب عن إيه؟ وهل النتيجة هتغير الخطة؟ وإمتى نراجعها؟ [7, 8, 9]",
+            "en": "A visit usually begins with history and examination, not a preset list of blood tests. The clinician asks when the colour began and how quickly, about skin symptoms, growth and puberty, food, activity, sleep, medicines, and family history of diabetes or lipid problems. They then examine the skin's texture and distribution and plot height and weight on growth charts rather than comparing the child with siblings or classmates. A single measurement helps, but the trajectory over time matters more. [7, 8, 10, 11]\n\nDepending on age, pubertal stage, growth pattern and risk factors, a clinician may request fasting glucose, HbA1c or an oral glucose-tolerance test, and may consider lipids or liver tests for the relevant clinical question. Not every child needs every test, and these tests are not interchangeable in every situation. The US Preventive Services Task Force also found insufficient evidence to recommend universal screening of asymptomatic children, reinforcing the need for an individual decision rather than random testing. [6, 7, 8, 9]\n\nFasting insulin is not a routine test that proves insulin resistance in every child. The Endocrine Society guideline advises against routine insulin concentration measurement when evaluating pediatric obesity. Do not order a panel independently or interpret one isolated number without the clinician. Ask: What question does this test answer? Would its result change the plan? When will it be reviewed? [7, 8, 9]"
+          }
+        },
+        {
+          "id": "family-steps-without-restrictive-dieting",
+          "heading": {
+            "ar": "خطوات للأسرة من غير دايت قاسي أو لوم",
+            "en": "Family steps without restrictive dieting or blame"
+          },
+          "body": {
+            "ar": "وأنت مستني التقييم، ما تبدأش رجيم قاسي ولا تمنع مجموعات أكل كاملة ولا تدي الطفل دواء سكر أو مكمل تخسيس من نفسك. دي مش طرق لعلاج لون الرقبة، وممكن تضر النمو أو علاقة الطفل بالأكل. بدل كده، حافظ على وجبات منتظمة ومتنوعة، مية متاحة، نوم كفاية، وحركة مناسبة وممتعة للأسرة كلها. الخطوات دي تدعم الصحة سواء طلع فيه اضطراب أيضي أو لأ، لكنها مش بديل للفحص لما تكون فيه عوامل خطورة. [6, 7, 8]\n\nخلّي الكلام في البيت عن الطاقة والنوم والقوة والصحة، مش عن شكل الجسم أو «الإرادة». ما توزنش الطفل كل يوم، وما تعرضش رقبته على الأقارب أو السوشيال ميديا، وما تستخدمش تغير اللون كتهديد. لو الطبيب اقترح تغييراً في الأكل أو النشاط، اطلب هدفاً صغيراً واضحاً يناسب المدرسة ووجبات الأسرة، واتفقوا إزاي تتابعوا أثره من غير ما الطفل يحس إنه متهم. [7, 8, 10]\n\nالتحسن الصحي ممكن يبان في ثبات مسار النمو، نتيجة تحليل، نوم أحسن أو عادة قابلة للاستمرار قبل ما لون الجلد يتغير. والعكس صحيح: تفتيح بسيط في الرقبة مش دليل كفاية إن كل عوامل الخطورة اتحسنت. المتابعة لازم تبص للصورة كلها، والطبيب هو اللي يحدد هل فيه احتياج لدعم تغذية أطفال أو غدد أو جلدية حسب الفحص. [2, 6, 7, 8]",
+            "en": "While waiting for assessment, do not begin an extreme diet, remove whole food groups, or give a child diabetes medicine or a weight-loss supplement independently. These are not treatments for neck colour and may harm growth or the child's relationship with food. Instead, keep meals regular and varied, make water available, support adequate sleep, and choose enjoyable, age-appropriate activity for the whole family. These steps support health whether or not a metabolic problem is found, but they do not replace assessment when risk factors are present. [6, 7, 8]\n\nKeep family language focused on energy, sleep, strength and health rather than body shape or 'willpower'. Do not weigh the child every day, show their neck to relatives or social media, or use the colour change as a threat. If the clinician suggests a food or activity change, ask for one clear, manageable goal that fits school and family meals, and agree how to review it without making the child feel accused. [7, 8, 10]\n\nHealth improvement may appear as a steadier growth trajectory, a laboratory change, better sleep or a sustainable habit before the skin colour changes. The reverse is also true: slight lightening of the neck is not enough to show that every risk factor has improved. Follow-up should consider the whole picture, and the clinician decides whether pediatric nutrition, endocrinology or dermatology input is appropriate after examination. [2, 6, 7, 8]"
+          }
+        },
+        {
+          "id": "gentle-skin-care-and-treatment-limits",
+          "heading": {
+            "ar": "العناية بالجلد تكون لطيفة",
+            "en": "Keep skin care gentle"
+          },
+          "body": {
+            "ar": "الشواك الأسود مش تراب، عشان كده الليفة الخشنة والفرك المتكرر مش هيشيلوا السبب. بالعكس، الاحتكاك والخلطات المجهولة والليمون والمقشرات القوية ممكن يعملوا حرقاً أو التهاباً ويزودوا التصبغ. اغسل المنطقة بلطف بغسول بسيط غير معطر لو الطفل بيتقبله، وجفف من غير دعك، وقلل أي ياقة أو إكسسوار بيحتك بالجلد. لو منتج جديد عمل حكة أو لسع أو طفح، وقفه وسجل اسمه. [2, 3, 5, 11]\n\nعلاج السبب الأساسي، لو اتحدد، ممكن يساعد الجلد مع الوقت، لكن التحسن مش فوري ومش مضمون إنه يرجع اللون بالضبط لدرجته القديمة. طبيب الجلدية ممكن يناقش كريمات لتقليل السمك أو تحسين الملمس في حالات مختارة، لكن بعضها يهيج الجلد ومحتاج وصف وطريقة استخدام واضحة. ما تستخدمش كريم كورتيزون أو ريتينويد أو هيدروكينون أو «خلطة تفتيح» على طفل من غير إشراف طبي. [2, 3, 5]\n\nاتفق مع الطبيب على إيه اللي هتتابعه: الحكة، التهيج، السمك، الانتشار، ولا السبب الصحي المرتبط. صورة كل عدة أسابيع بنفس الإضاءة ممكن تفيد لو الطبيب طلبها، لكن الفحص اليومي غالباً بيزود القلق من غير فايدة. الهدف الأول جلد سليم وطفل مطمّن وخطة واضحة، مش مطاردة درجة لون أو وعد بتفتيح سريع. [2, 5, 11]",
+            "en": "Acanthosis nigricans is not dirt, so a rough cloth and repeated scrubbing will not remove its cause. Friction, unknown mixtures, lemon juice and strong exfoliants can instead cause burns or inflammation and worsen pigmentation. Wash gently with a simple fragrance-free cleanser if the child tolerates it, dry without rubbing, and reduce collars or accessories that irritate the area. If a new product causes itch, stinging or a rash, stop it and record its name. [2, 3, 5, 11]\n\nTreating an identified underlying cause may help the skin over time, but improvement is not immediate and may not restore exactly the previous colour. A dermatologist may discuss creams that reduce thickness or improve texture in selected cases, but some can irritate and need a clear prescription and instructions. Do not use a steroid, retinoid, hydroquinone or a 'lightening mixture' on a child without medical supervision. [2, 3, 5]\n\nAgree with the clinician what should be followed: itch, irritation, thickness, spread, or the associated health issue. A photograph every few weeks in similar lighting may help if the clinician requests it, but daily inspection usually adds anxiety without useful information. The first goals are healthy skin, a reassured child and a clear plan, not chasing a shade or a promise of rapid lightening. [2, 5, 11]"
+          }
+        },
+        {
+          "id": "when-review-should-be-sooner",
+          "heading": {
+            "ar": "إمتى المراجعة تبقى أسرع؟",
+            "en": "When should review be sooner?"
+          },
+          "body": {
+            "ar": "احجز تقييماً قريباً لو الاسمرار ظهر فجأة أو بينتشر بسرعة، أو بقى موجوداً في الفم أو أماكن كثيرة، أو معاه ألم أو تشققات أو إفرازات أو التهاب واضح. راجع أسرع كمان لو بدأ بعد دواء جديد، أو لو فيه توقف ملحوظ في زيادة الطول، تغير سريع في الوزن، إرهاق غير معتاد، عطش شديد أو تبول متكرر. العلامات دي مش بتثبت سبباً واحداً، لكنها بتخلي الانتظار الطويل أو تجربة وصفة منزلية اختياراً غير مناسب. [1, 3, 4, 5, 12]\n\nاطلب رعاية عاجلة لو العطش والتبول أو نزول الوزن جُم معاهم قيء متكرر، ألم بطن، تنفس سريع أو عميق، جفاف واضح، خمول شديد أو ارتباك. دي مش علامات من الشواك الأسود نفسه، لكنها ممكن تحصل مع ارتفاع شديد في السكر وتحتاج تقييماً فورياً. ولو فيه تورم سريع في الوجه أو اللسان أو صعوبة تنفس بعد منتج جلدي، اتعامل معاه كحالة طارئة. [3, 12]\n\nأما لو اللون موجود من شهور ومستقر والطفل حالته العامة كويسة، فغالباً البداية تكون موعداً منظماً مش طوارئ. مع ذلك، ما تعتبرش الاستقرار سبباً لتجاهله تماماً، خصوصاً لو الملمس مخملي أو فيه تاريخ عائلي أو تغير في النمو. لو مش عارف درجة الاستعجال، اتصل بخدمة طبية واصفاً الأعراض كلها بدل الاعتماد على صورة. [1, 3, 5, 6]",
+            "en": "Arrange a prompt assessment if darkening appeared suddenly or is spreading quickly, involves the mouth or many areas, or comes with pain, cracks, discharge or clear inflammation. Seek earlier review as well if it began after a new medicine, or if there is a notable slowing of height gain, rapid weight change, unusual tiredness, marked thirst or frequent urination. These findings do not prove one cause, but they make a long wait or a home remedy inappropriate. [1, 3, 4, 5, 12]\n\nSeek urgent care if thirst, frequent urination or weight loss occurs with repeated vomiting, abdominal pain, fast or deep breathing, obvious dehydration, marked drowsiness or confusion. These are not symptoms of acanthosis nigricans itself, but they can occur with very high glucose and require immediate assessment. Rapid swelling of the face or tongue or breathing difficulty after a skin product is also an emergency. [3, 12]\n\nIf the colour has been stable for months and the child is otherwise well, the appropriate starting point is usually a planned appointment rather than emergency care. Stability is not a reason to ignore it completely, especially when the texture is velvety or there is relevant family history or a growth change. If urgency is unclear, call a medical service and describe the complete symptom pattern instead of relying on a photograph. [1, 3, 5, 6]"
+          }
+        },
+        {
+          "id": "prepare-for-visit-and-next-step",
+          "heading": {
+            "ar": "حضّر للزيارة واتفق على الخطوة الجاية",
+            "en": "Prepare for the visit and agree the next step"
+          },
+          "body": {
+            "ar": "قبل الزيارة، خُد قياسات الطول والوزن القديمة لو موجودة، واكتب إمتى بدأ التغير وهل ظهر في أماكن تانية. جهّز أسماء الأدوية والمكملات ومنتجات الجلد والشعر، وأي نتائج سكر أو دهون سابقة، واذكر أعراض زي الحكة والعطش والتبول وتغير النوم أو النشاط. ما توقفش دواء موصوف لمجرد إنك شكيت فيه؛ الطبيب اللي وصفه يقرر البديل أو طريقة الإيقاف الآمنة. [1, 2, 7, 8, 10]\n\nاسأل في الموعد: هل الشكل فعلاً شواك أسود ولا احتمال جلدي تاني؟ إيه عوامل الخطورة الموجودة عند طفلي؟ هل نحتاج تحليل دلوقتي ولا متابعة النمو الأول؟ مين هيراجع النتيجة وإمتى؟ وهل محتاجين جلدية أو غدد أو تغذية أطفال؟ الإجابة ممكن تكون عناية جلدية فقط، أو متابعة، أو تحاليل محددة، أو خطة أسرية تدريجية. القرارات دي بتتحدد للطفل نفسه، مش من قائمة عامة. [2, 6, 7, 8, 9]\n\nلو محتاج تقييم منظم، تقدر تطلب حجز موعد لتقييم الطفل في العيادة. في الزيارة، الفريق الطبي يقدر يراجع الجلد ومسار النمو والتاريخ العائلي مع بعض، ويحدد هل فيه فحوص مناسبة أو إحالة لتخصص تاني. راجع الخطة بعد النتائج بدل ما تعتبر التحليل نهاية القصة، واتفقوا على علامة واضحة للمتابعة وموعدها. الهدف إنك تخرج فاهم إيه المعروف، إيه اللي لسه محتاج إجابة، وإزاي تحمي جلد الطفل وصحته من غير لوم. [2, 7, 8, 9]",
+            "en": "Before the visit, bring earlier height and weight measurements if available, and note when the change began and whether it appeared elsewhere. Prepare the names of medicines, supplements, skin and hair products, and any earlier glucose or lipid results. Mention itch, thirst, urination, sleep or activity changes. Do not stop a prescribed medicine simply because you suspect it; the prescriber should decide on a safe alternative or stopping plan. [1, 2, 7, 8, 10]\n\nAsk during the appointment: Does this actually look like acanthosis nigricans or another skin condition? Which risk factors apply to my child? Is a test useful now, or should growth be followed first? Who will review the result and when? Is dermatology, endocrinology or pediatric nutrition input needed? The answer may be skin care alone, observation, focused tests or a gradual family plan. These decisions are made for the individual child, not copied from a generic list. [2, 6, 7, 8, 9]\n\nIf you need an organised assessment, you can request an appointment for your child's assessment at the clinic. During the visit, the clinical team can review the skin, growth trajectory and family history together, then decide whether focused investigations or another specialty referral is appropriate. Review the plan after any results instead of treating the blood test as the end of the story, and agree on a clear follow-up marker and date. The aim is to leave knowing what is established, what still needs an answer, and how to protect the child's skin and health without blame. [2, 7, 8, 9]"
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "طلب حجز موعد لتقييم الطفل في العيادة",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "request an appointment for your child's assessment at the clinic",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل اسمرار رقبة الطفل سببه قلة النظافة؟",
+            "en": "Is a child's dark neck caused by poor hygiene?"
+          },
+          "a": {
+            "ar": "غالباً لأ. الشواك الأسود بيكون تغيراً في سمك وملمس ولون الجلد، ومش طبقة وسخ. كمان فيه أسباب تانية للتصبغ زي الاحتكاك والتهيج أو التهاب قديم. الفرك القاسي مش اختباراً للنظافة وممكن يلهب الجلد ويزود اللون. اغسل بلطف وخلي الطبيب يفحص الملمس والتوزيع لو التغير مستمر. [1, 3, 5]",
+            "en": "Usually not. Acanthosis nigricans changes the skin's thickness, texture and colour; it is not a layer of dirt. Other causes of pigmentation include friction, irritation and earlier inflammation. Hard scrubbing is not a hygiene test and can inflame the skin and deepen pigmentation. Wash gently and let a clinician examine persistent changes in texture and distribution. [1, 3, 5]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الشواك الأسود معناه إن الطفل عنده سكري؟",
+            "en": "Does acanthosis nigricans mean a child has diabetes?"
+          },
+          "a": {
+            "ar": "لأ. الشواك الأسود ممكن يرتبط بمقاومة الإنسولين وعوامل خطورة السكري من النوع التاني، لكنه ما يثبتش السكري ولا يقيس السكر. الطبيب بيجمع شكل الجلد مع العمر والبلوغ ومسار النمو والتاريخ العائلي والأعراض، وبعدها يقرر هل فيه تحليل مناسب. ما تبدأش دواء أو دايت علاجي من العلامة لوحدها. [1, 4, 6, 7]",
+            "en": "No. Acanthosis nigricans can be associated with insulin resistance and risk factors for type 2 diabetes, but it neither proves diabetes nor measures glucose. A clinician combines the skin finding with age, puberty, growth trajectory, family history and symptoms before deciding whether a test is useful. Do not start medicine or a therapeutic diet from the skin sign alone. [1, 4, 6, 7]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه تحاليل مقاومة الإنسولين المناسبة للطفل؟",
+            "en": "Which insulin-resistance tests are appropriate for a child?"
+          },
+          "a": {
+            "ar": "مفيش باقة واحدة مناسبة لكل طفل. حسب السن والبلوغ ومسار النمو وعوامل الخطورة، الطبيب ممكن يختار السكر الصايم أو التراكمي أو اختبار تحمل الجلوكوز، ويضيف فحوصاً تانية لو ليها سؤال واضح. قياس الإنسولين الصايم مش مطلوباً روتينياً لتقييم سمنة الأطفال. اختيار التحليل وتفسيره لازم يبقوا مع الطبيب. [7, 8, 9]",
+            "en": "There is no single panel for every child. Depending on age, puberty, growth trajectory and risk factors, a clinician may choose fasting glucose, HbA1c or an oral glucose-tolerance test and add other investigations only for a clear question. Routine fasting-insulin measurement is not recommended in pediatric obesity assessment. Test selection and interpretation belong with the clinician. [7, 8, 9]"
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لون الرقبة هيرجع طبيعي بعد العلاج؟",
+            "en": "Will the neck return to its previous colour after treatment?"
+          },
+          "a": {
+            "ar": "ممكن الملمس واللون يتحسنوا لما السبب الأساسي يتعالج، لكن التغير بياخد وقت والنتيجة بتختلف، ومش فيه ضمان إن اللون يرجع بالضبط زي الأول. بعض الكريمات بتساعد حالات مختارة بس ممكن تهيج جلد الطفل. الهدف الأول علاج السبب وحماية الجلد، وأي علاج موضعي قوي يبقى تحت إشراف مختص. [2, 3, 5]",
+            "en": "Texture and colour may improve when an underlying cause is addressed, but change takes time, results vary, and the skin may not return exactly to its previous shade. Some creams help selected cases but can irritate a child's skin. The first goals are addressing the cause and protecting the skin; stronger topical treatment should be supervised. [2, 3, 5]"
+          }
+        },
+        {
+          "q": {
+            "ar": "نروح لطبيب أطفال ولا جلدية؟",
+            "en": "Should we see a pediatrician or dermatologist?"
+          },
+          "a": {
+            "ar": "طبيب الأطفال بداية مناسبة لو فيه سؤال عن النمو أو أعراض عامة أو عوامل خطورة للسكر، لأنه بيشوف الجلد داخل الصورة الصحية كلها. طبيب الجلدية بيفيد لو التشخيص مش واضح، أو فيه قشور أو حكة أو التهاب، أو محتاجين علاجاً موضعياً آمناً. أحياناً الاتنين بيكمّلوا بعض، والطبيب الأول يحدد الإحالة المناسبة. [2, 5, 8, 11]",
+            "en": "A pediatrician is a sensible starting point when growth, general symptoms or diabetes risk factors are part of the question because they can place the skin within the whole health picture. Dermatology helps when the diagnosis is unclear, there is scale, itch or inflammation, or safe topical treatment is needed. Sometimes both roles are complementary, and the first clinician can guide referral. [2, 5, 8, 11]"
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى اسمرار الرقبة يبقى حالة طارئة؟",
+            "en": "When is dark neck skin an emergency?"
+          },
+          "a": {
+            "ar": "اللون المستقر لوحده غالباً مش طوارئ. لكن اطلب رعاية عاجلة لو فيه عطش وتبول أو نزول وزن مع قيء أو ألم بطن أو تنفس سريع أو عميق أو جفاف أو خمول أو ارتباك. وتورم الوجه أو اللسان وصعوبة التنفس بعد منتج جلدي طوارئ برضه. التغير السريع من غير الأعراض دي يحتاج مراجعة قريبة. [3, 12]",
+            "en": "Stable colour change alone is usually not an emergency. Seek urgent care when thirst, frequent urination or weight loss occurs with vomiting, abdominal pain, fast or deep breathing, dehydration, marked drowsiness or confusion. Facial or tongue swelling and breathing difficulty after a skin product are also emergencies. Rapid skin change without those symptoms still deserves prompt review. [3, 12]"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "American Academy of Dermatology — Acanthosis nigricans: Overview",
+          "url": "https://www.aad.org/public/diseases/a-z/acanthosis-nigricans-overview"
+        },
+        {
+          "label": "American Academy of Dermatology — Acanthosis nigricans: Diagnosis and treatment",
+          "url": "https://www.aad.org/public/diseases/a-z/acanthosis-nigricans-treatment"
+        },
+        {
+          "label": "NHS — Acanthosis nigricans",
+          "url": "https://www.nhs.uk/conditions/acanthosis-nigricans/"
+        },
+        {
+          "label": "Mayo Clinic — Acanthosis nigricans: Symptoms and causes",
+          "url": "https://www.mayoclinic.org/diseases-conditions/acanthosis-nigricans/symptoms-causes/syc-20368983"
+        },
+        {
+          "label": "Cleveland Clinic — Acanthosis Nigricans: Causes, Diagnosis and Treatment",
+          "url": "https://my.clevelandclinic.org/health/diseases/12168-acanthosis-nigricans"
+        },
+        {
+          "label": "NIDDK — Insulin Resistance and Prediabetes",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance"
+        },
+        {
+          "label": "American Diabetes Association — Children and Adolescents: Standards of Care in Diabetes 2026",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690182/"
+        },
+        {
+          "label": "Endocrine Society — Pediatric Obesity: Assessment, Treatment, and Prevention Clinical Practice Guideline",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6283429/"
+        },
+        {
+          "label": "USPSTF — Prediabetes and Type 2 Diabetes in Children and Adolescents: Screening",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prediabetes-type2-diabetes-children-adolescents-screening"
+        },
+        {
+          "label": "CDC — Using WHO Child Growth Standards",
+          "url": "https://www.cdc.gov/growth-chart-training/hcp/using-growth-charts/index.html"
+        },
+        {
+          "label": "DermNet — Acanthosis Nigricans: Causes, Diagnosis, and Treatment",
+          "url": "https://dermnetnz.org/topics/acanthosis-nigricans"
+        },
+        {
+          "label": "NIDDK — Symptoms and Causes of Diabetes",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/symptoms-causes"
+        }
+      ],
+      "tags": {
+        "ar": [
+          "اسمرار الرقبة عند الأطفال",
+          "الشواك الأسود",
+          "مقاومة الإنسولين عند الأطفال"
+        ],
+        "en": [
+          "dark neck skin in children",
+          "acanthosis nigricans",
+          "insulin resistance in children"
+        ]
+      },
+      "seo": {
+        "title": {
+          "ar": "اسمرار الرقبة عند الأطفال: الأسباب والتقييم",
+          "en": "Dark neck skin in children: assessment guide"
+        },
+        "description": {
+          "ar": "دليل للأهل عن أسباب اسمرار الرقبة عند الأطفال، الفرق بين الشواك الأسود والتهيج، وإمتى يحتاج الطفل فحصاً أو تحاليل وعناية آمنة.",
+          "en": "A parent guide to dark neck skin in children, acanthosis nigricans, safe skin care, warning signs, and when clinical assessment or tests may help."
+        }
+      }
+    }
+  ]
+}
