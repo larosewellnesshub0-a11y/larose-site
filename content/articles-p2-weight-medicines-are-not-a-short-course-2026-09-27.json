@@ -7,337 +7,53 @@
       "published": true,
       "featured": false,
       "category": "weight-management",
-      "specialties": [
-        "weight-management",
-        "clinical-nutrition",
-        "internal-medicine"
-      ],
+      "specialties": ["weight-management", "clinical-nutrition", "internal-medicine"],
       "date": "2026-08-24",
       "updatedAt": "2026-09-27",
       "readingTime": 7,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
       "image": "assets/img/articles/weight-medicines-are-not-a-short-course.webp",
-      "title": {
-        "ar": "تحديث علمي: أدوية تنظيم الشهية مش كورس قصير له نهاية واحدة للجميع",
-        "en": "Scientific update: appetite-regulating weight medicines are not one short course for everyone"
-      },
-      "excerpt": {
-        "ar": "علاج الوزن الدوائي ممكن يكون طويل المدى، وتجارب STEP 1 وSURMOUNT-4 بتوضح إن رجوع جزء من الوزن بعد التوقف استجابة بيولوجية مش ضعف إرادة. اعرف إمتى الخطة بتتراجع وإزاي تجهز للإيقاف.",
-        "en": "Medical weight treatment may be long term, and the STEP 1 and SURMOUNT-4 trials show that regain after stopping is a biological response, not a failure of willpower. Learn when the plan is reviewed and how to prepare for stopping."
-      },
+      "title": {"ar": "تحديث علمي: أدوية تنظيم الشهية مش كورس قصير له نهاية واحدة للجميع", "en": "Scientific update: appetite-regulating weight medicines are not one short course for everyone"},
+      "excerpt": {"ar": "علاج الوزن الدوائي ممكن يكون طويل المدى، وتجارب STEP 1 وSURMOUNT-4 بتوضح إن رجوع جزء من الوزن بعد التوقف استجابة بيولوجية مش ضعف إرادة. اعرف إمتى الخطة بتتراجع وإزاي تجهز للإيقاف.", "en": "Medical weight treatment may be long term, and the STEP 1 and SURMOUNT-4 trials show that regain after stopping is a biological response, not a failure of willpower. Learn when the plan is reviewed and how to prepare for stopping."},
       "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "اتوسّع التحديث بنتايج تجارب التوقف، ونقاط المراجعة في الإرشادات، والأمان والحمل، والتغذية والعضلات، وخطة المحافظة، مع مصادر موثقة وأسئلة شائعة، واتراجع طبياً من جديد.",
-            "en": "The update was expanded with withdrawal-trial results, guideline review points, safety and pregnancy, nutrition and muscle, and a maintenance plan, with verified sources and FAQs, and was medically re-reviewed."
-          }
-        }
+        {"date": "2026-09-27", "note": {"ar": "اتوسّع التحديث بنتايج تجارب التوقف، ونقاط المراجعة في الإرشادات، والأمان والحمل، والتغذية والعضلات، وخطة المحافظة، مع مصادر موثقة وأسئلة شائعة، واتراجع طبياً من جديد.", "en": "The update was expanded with withdrawal-trial results, guideline review points, safety and pregnancy, nutrition and muscle, and a maintenance plan, with verified sources and FAQs, and was medically re-reviewed."}}
       ],
       "sections": [
-        {
-          "id": "chronic-care",
-          "heading": {
-            "ar": "الفكرة اتغيرت من كورس لرعاية مستمرة",
-            "en": "The model has shifted from a course to continuing care"
-          },
-          "body": {
-            "ar": "لسنين طويلة كان الناس بيتعاملوا مع أدوية الوزن زي المضاد الحيوي: كورس ليه بداية ونهاية، وبعده المفروض النتيجة تفضل. التحديث العلمي بيقول حاجة مختلفة. المعهد الأمريكي للسكر والهضم والكلى (NIDDK) بيوضح إن السمنة مرض مزمن، وإن أغلب أدوية إدارة الوزن المعتمدة النهارده معمولة للاستخدام طويل المدى، وإن الطبيب ممكن ينصح بالاستمرار عليها لفترة مفتوحة طالما فيه فايدة ومفيش آثار جانبية خطيرة [1].\n\nصفحة علاج السمنة في خدمة NHS البريطانية ومراجعة منشورة في مجلة JAMA عن علاج السمنة بيأكدوا نفس المنطق: الدواء جزء من خطة مزمنة، مش حل مؤقت منفصل عن الأكل والحركة والنوم والدعم السلوكي [9, 14]. وبيان إرشادي مشترك من جمعيات أمريكية متخصصة في السمنة سنة 2026 بيتعامل مع العلاج الدوائي على إنه قرار متابعة مستمر بيتراجع بشكل دوري [10].\n\nيعني مدة العلاج ما بتتحددش من قلم خلص أو مناسبة عدت. بتتحدد من الفايدة الصحية اللي حصلت، والتحمل، والحالة العامة، والبدائل المتاحة، واختيارك إنت بعد ما تفهم الصورة كاملة [1, 10]. لو عايز تفهم الأدوية دي بتشتغل إزاي من الأساس، اقرا دليل أدوية GLP-1 على الموقع.",
-            "en": "For many years, people treated weight medicines like an antibiotic: a course with a start and an end, after which the result was expected to last. The scientific update says something different. The US National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) explains that obesity is a chronic disease, that most weight-management medicines approved today are intended for long-term use, and that a clinician may advise continuing them indefinitely while they help and do not cause serious side effects [1].\n\nThe NHS page on obesity treatment and a JAMA review of obesity management make the same point: medicine is part of a chronic-care plan, not a temporary fix separate from eating, movement, sleep and behavioural support [9, 14]. A 2026 joint guidance statement from US obesity societies also treats drug therapy as an ongoing decision that is reviewed at intervals [10].\n\nSo treatment length is not set by an empty pen or a passed occasion. It depends on the health benefit achieved, tolerance, general health, the available alternatives, and your own choice once you understand the full picture [1, 10]. If you want to understand how these medicines work in the first place, read the GLP-1 medication guide on the site."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "دليل أدوية GLP-1",
-                "url": "../articles/glp1-medication-guide.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "GLP-1 medication guide",
-                "url": "../articles/glp1-medication-guide.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "what-happens-after-stopping",
-          "heading": {
-            "ar": "إيه اللي بيحصل لما الدواء يتوقف؟ الدراسات بتقول إيه",
-            "en": "What happens when the medicine stops? What the trials show"
-          },
-          "body": {
-            "ar": "فيه تجربتين مهمين بيجاوبوا على السؤال ده بأرقام. في امتداد تجربة STEP 1، الناس اللي وقفوا السيماجلوتايد بعد 68 أسبوع من العلاج رجّعوا حوالي تلتين الوزن اللي نزل خلال سنة من التوقف. وكمان أغلب التحسن في الضغط والسكر والدهون رجع ناحية نقطة البداية [5].\n\nفي تجربة SURMOUNT-4، المشاركين خدوا التيرزيباتايد 36 أسبوع ونزلوا في المتوسط حوالي 20.9% من وزنهم. بعدها اتقسموا: اللي كمّلوا الدواء نزلوا 5.5% زيادة، واللي اتحولوا لدواء وهمي رجّعوا حوالي 14% من وزنهم خلال 52 أسبوع [6]. تحليل لاحق لنفس التجربة لقى إن أغلب اللي وقفوا رجّعوا ربع الوزن اللي نزل أو أكتر، وإن التحسن في عوامل الخطر القلبية والأيضية قلّ مع رجوع الوزن [7].\n\nالمهم هنا نفهم التفسير صح. رجوع الوزن ده ما بيثبتش إن العلاج فشل، ولا إن الشخص «ما عندوش إرادة». هو بيعكس إن الدواء بيأثر على إشارات الجوع والشبع طول ما هو موجود، ولما يتشال الجسم بيرجع يدافع عن وزنه القديم [1, 6]. وده سبب إن NIDDK بيقول بوضوح إن رجوع جزء من الوزن بعد التوقف متوقع عند ناس كتير [1].",
-            "en": "Two important trials answer this question with numbers. In the STEP 1 extension, people who stopped semaglutide after 68 weeks of treatment regained about two-thirds of the weight they had lost within one year of stopping. Most of the improvements in blood pressure, glucose and lipids also drifted back towards baseline [5].\n\nIn the SURMOUNT-4 trial, participants took tirzepatide for 36 weeks and lost on average about 20.9% of their body weight. They were then randomised: those who continued the medicine lost a further 5.5%, while those switched to placebo regained about 14% of their weight over 52 weeks [6]. A later analysis of the same trial found that most people who stopped regained a quarter or more of the weight they had lost, and that cardiometabolic improvements lessened as weight returned [7].\n\nIt is important to read this correctly. This regain does not prove that treatment failed or that the person lacks willpower. It reflects the fact that the medicine influences hunger and fullness signals while it is present, and when it is removed the body tends to defend its previous weight [1, 6]. That is why NIDDK states plainly that some weight regain after stopping is expected for many people [1]."
-          }
-        },
-        {
-          "id": "when-to-review",
-          "heading": {
-            "ar": "إمتى الخطة بتتراجع؟ ومين بيحدد الاستمرار؟",
-            "en": "When is the plan reviewed, and who decides on continuing?"
-          },
-          "body": {
-            "ar": "الإرشادات بتحط نقاط مراجعة واضحة بدل ما الاستمرار يبقى تلقائي. NIDDK بيقول إن لو الشخص ما نزلش على الأقل 5% من وزنه بعد 12 أسبوع على الجرعة الكاملة، غالباً الطبيب هيقترح يوقف الدواء أو يغيّر الخطة [1]. وNICE في توصيته عن التيرزيباتايد بيقول إن لو النزول أقل من 5% بعد 6 شهور على أعلى جرعة متحملة، يتقرر الاستمرار حسب الفوايد والمخاطر لكل شخص [3].\n\nكمان فيه أنظمة صحية بتحط حدود زمنية لأسباب تنظيمية. توصية NICE عن السيماجلوتايد في الخدمة الصحية البريطانية حطت حد أقصى سنتين، وبشرط يكون العلاج جوه خدمة متخصصة لإدارة الوزن فيها فريق متعدد التخصصات [2]. الحد ده قرار خاص بنظام صحي معين، مش دليل إن الجسم «بيخلص» من المرض بعد سنتين، وده سبب إن خطة ما بعد التوقف لازم تتحط بدري [2, 5].\n\nالمراجعة بتسأل أسئلة عملية: هل الدواء حقق فايدة صحية، مش بس رقم على الميزان؟ هل الأكل والبروتين والسوائل كفاية؟ هل فيه آثار جانبية؟ وهل فيه حمل مخطط أو مرض جديد أو دواء جديد يغير القرار؟ [1, 4]. الإجابات دي هي اللي بتحدد الاستمرار أو التعديل أو الإيقاف التدريجي.",
-            "en": "Guidelines set clear review points so that continuing is not automatic. NIDDK says that if a person has not lost at least 5% of their starting weight after 12 weeks on the full dose, the clinician will probably suggest stopping the medicine or changing the plan [1]. In its recommendation on tirzepatide, NICE says that if less than 5% of initial weight has been lost after 6 months on the highest tolerated dose, the decision to continue should weigh the benefits and risks for that person [3].\n\nSome health systems also set time limits for organisational reasons. The NICE recommendation on semaglutide in the UK health service set a maximum of 2 years, within a specialist multidisciplinary weight-management service [2]. That limit is a decision for a particular health system, not evidence that the body is free of the disease after two years, which is why a plan for after stopping should be made early [2, 5].\n\nReview asks practical questions: has the medicine produced a health benefit, not only a number on the scale? Are food, protein and fluids adequate? Have side effects appeared? Is there a planned pregnancy, a new illness or a new medicine that changes the decision? [1, 4]. These answers decide whether to continue, adjust or step down."
-          }
-        },
-        {
-          "id": "side-effects-and-safety",
-          "heading": {
-            "ar": "الآثار الجانبية والأمان أثناء الاستمرار",
-            "en": "Side effects and safety while continuing"
-          },
-          "body": {
-            "ar": "أكتر الآثار الجانبية شيوعاً مع أدوية GLP-1 والتيرزيباتايد بتكون في الجهاز الهضمي: غثيان، إسهال، إمساك، وقيء، وغالباً بتكون أوضح مع بداية العلاج أو زيادة الجرعة. في فترة البداية من تجربة SURMOUNT-4 مثلاً، الغثيان ظهر عند حوالي 35.5% من المشاركين [6]. لو دي مشكلتك، مقال الغثيان والإمساك مع الحقن بيشرح خطوات عملية وإمتى تكلم الطبيب.\n\nفيه كمان احتياطات مهمة لازم الطبيب يعرفها قبل البداية وأثناء الاستمرار. MedlinePlus بيطلب إن الطبيب يعرف لو فيه تاريخ التهاب بنكرياس، أو اعتلال شبكية سكري، أو مشاكل شديدة في المعدة [13]. وخدمة NHS بتوضح إن السيماجلوتايد ما بيتاخدش أثناء الحمل، وإن اللي بتخطط للحمل المفروض توقفه قبلها بشهرين على الأقل [11]. وبالنسبة للتيرزيباتايد، NHS بتنصح بوسيلة منع حمل حاجزة إضافية لمدة 4 أسابيع بعد البداية وبعد كل زيادة جرعة [12]. تفاصيل التخطيط ده موجودة في مقال أدوية الوزن قبل الحمل.\n\nالقاعدة الأساسية: ما توقفش العلاج، ولا ترجع له، ولا تغيّر الجرعة من نفسك. اتفق مع الطبيب على العلامات اللي تستدعي تواصل سريع، زي ألم بطن شديد مستمر، أو قيء يمنعك تشرب، أو علامات جفاف [11, 13].",
-            "en": "The most common side effects with GLP-1 medicines and tirzepatide are digestive: nausea, diarrhoea, constipation and vomiting, usually most noticeable when starting or increasing the dose. In the lead-in phase of SURMOUNT-4, for example, nausea affected about 35.5% of participants [6]. If this is your problem, the article on nausea and constipation with injections explains practical steps and when to contact your clinician.\n\nThere are also important precautions your clinician should know about before starting and while continuing. MedlinePlus asks that the clinician be told about any history of pancreatitis, diabetic retinopathy or severe stomach problems [13]. The NHS explains that semaglutide is not used during pregnancy and that anyone planning a pregnancy should stop it at least 2 months beforehand [11]. For tirzepatide, the NHS advises additional barrier contraception for 4 weeks after starting and after each dose increase [12]. This planning is covered in the article on weight medicines before pregnancy.\n\nThe basic rule: do not stop, restart or change a dose on your own. Agree with your clinician on the signs that need prompt contact, such as persistent severe abdominal pain, vomiting that stops you drinking, or signs of dehydration [11, 13]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "الغثيان والإمساك مع الحقن",
-                "url": "../articles/qa-injection-nausea-constipation.html"
-              },
-              {
-                "label": "أدوية الوزن قبل الحمل",
-                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "nausea and constipation with injections",
-                "url": "../articles/qa-injection-nausea-constipation.html"
-              },
-              {
-                "label": "weight medicines before pregnancy",
-                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "nutrition-and-muscle",
-          "heading": {
-            "ar": "الأكل والعضلات أثناء العلاج الطويل",
-            "en": "Food and muscle during long-term treatment"
-          },
-          "body": {
-            "ar": "لما الشهية تقل لفترة طويلة، الخطر مش بس في الوزن اللي بينزل، لكن كمان في جودة اللي بيتاكل. تحليل لاحق لتجارب SURMOUNT لقى إن الآثار الجانبية المرتبطة بسوء التغذية كانت قليلة، لكن الباحثين نبهوا إن التجارب ما قاستش مستويات الفيتامينات والمعادن بشكل منتظم، وده بيحد من الحكم على الأمان الغذائي [8].\n\nعشان كده الخطة العملية بتركز على بروتين كفاية في كل وجبة، وخضار وفاكهة وألياف، وسوائل كفاية خصوصاً لو فيه قيء أو إسهال، ومراجعة التحاليل حسب الحالة [8, 9]. NIDDK بيذكر إن الإرشادات الفيدرالية للنشاط البدني بتنصح بـ150 دقيقة على الأقل في الأسبوع من النشاط المتوسط، ويومين على الأقل من تمارين تقوية العضلات [1].\n\nالحفاظ على العضلات مهم لأن جزء من الوزن اللي بينزل ممكن يكون عضلات، والعضلات بتفرق في القوة والحركة وثبات الوزن بعدين. مقال الحفاظ على العضلات أثناء خسارة الوزن بيشرح دور البروتين وتمارين المقاومة بتفصيل أكتر [1, 9].",
-            "en": "When appetite is reduced for a long time, the risk is not only in how much weight is lost but also in the quality of what is eaten. A post hoc analysis of the SURMOUNT trials found that adverse events related to malnutrition were uncommon, but the researchers noted that the trials did not routinely measure vitamin and mineral levels, which limits conclusions about nutritional safety [8].\n\nThe practical plan therefore focuses on enough protein at each meal, vegetables, fruit and fibre, adequate fluids especially when there is vomiting or diarrhoea, and blood tests reviewed according to the situation [8, 9]. NIDDK notes that federal physical activity guidelines recommend at least 150 minutes a week of moderate activity and at least 2 days a week of muscle-strengthening activity [1].\n\nProtecting muscle matters because part of the weight lost may be muscle, and muscle makes a difference to strength, mobility and later weight stability. The article on protecting muscle while losing weight explains the role of protein and resistance exercise in more detail [1, 9]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "الحفاظ على العضلات أثناء خسارة الوزن",
-                "url": "../articles/protecting-muscle-while-losing-weight.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "protecting muscle while losing weight",
-                "url": "../articles/protecting-muscle-while-losing-weight.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "plan-before-last-dose",
-          "heading": {
-            "ar": "خطة الإيقاف والمحافظة تتعمل قبل آخر جرعة",
-            "en": "Plan stopping and maintenance before the last dose"
-          },
-          "body": {
-            "ar": "لو اتقرر الإيقاف، سواء بسبب حمل مخطط أو آثار جانبية أو اختيار شخصي أو ظروف توفر الدواء، الأفضل إن الخطة تتناقش قبل آخر جرعة، مش بعد ما الوزن يبدأ يرجع [1, 5]. الخطة ممكن تشمل مواعيد متابعة أقرب في الشهور الأولى، ومراقبة الوزن ومحيط الخصر، وتثبيت عادات الأكل والحركة والنوم اللي اتبنت أثناء العلاج [1, 14].\n\nNIDDK بيوضح إن الحفاظ على عادات أكل صحية وزيادة النشاط البدني ممكن يقلل الوزن اللي بيرجع أو يساعد في تثبيته [1]. وفي بعض الحالات الطبيب ممكن يناقش بدائل تانية، زي دواء مختلف أو جرعة أقل، أو يرجع لمراجعة خيارات أوسع حسب إرشادات NICE للعلاج الدوائي والجراحي [4].\n\nالمهم إن رجوع جزء من الوزن، لو حصل، يتقابل بمراجعة هادية مش بلوم. الهدف يفضل صحي: الضغط، السكر، الكبد، المفاصل، والقدرة على الحركة، زي ما بيشرح مقال رعاية السمنة أكبر من BMI [4, 14].",
-            "en": "If stopping is decided, whether because of a planned pregnancy, side effects, personal choice or medicine availability, the plan is best discussed before the last dose, not after weight starts to return [1, 5]. It may include closer follow-up in the first months, monitoring weight and waist size, and consolidating the eating, activity and sleep habits built during treatment [1, 14].\n\nNIDDK explains that keeping healthy eating habits and increasing physical activity may help people regain less weight or keep it off [1]. In some cases the clinician may discuss other options, such as a different medicine or a lower dose, or revisit wider choices in line with NICE guidance on medicines and surgery [4].\n\nWhat matters is that any regain is met with a calm review, not with blame. The goal remains health: blood pressure, glucose, liver, joints and mobility, as explained in the article on obesity care beyond BMI [4, 14]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "رعاية السمنة أكبر من BMI",
-                "url": "../articles/obesity-care-beyond-bmi.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "obesity care beyond BMI",
-                "url": "../articles/obesity-care-beyond-bmi.html"
-              }
-            ]
-          }
-        },
-        {
-          "id": "leave-with-next-step",
-          "heading": {
-            "ar": "اطلع من الزيارة بخطوة واضحة",
-            "en": "Leave the visit with a clear next step"
-          },
-          "body": {
-            "ar": "قبل ما تبدأ دواء وزن أو تقرر توقفه، اسأل أسئلة محددة: الهدف الصحي إيه؟ إمتى هنراجع الاستجابة؟ لو ما نزلتش الوزن المتوقع نعمل إيه؟ ولو وقفت، إيه خطة المتابعة؟ الإجابات دي بتخلي القرار مشترك ومبني على معلومة [1, 10].\n\nجيب معاك قائمة بكل الأدوية والمكملات اللي بتاخدها، وأي تاريخ لأمراض البنكرياس أو المرارة أو الغدة الدرقية في العيلة، وخطط الحمل لو موجودة، لأن كل ده بيأثر على الاختيار والأمان [11, 13]. ولو دي أول زيارة ليك لعيادة وزن، مقال أول زيارة لإدارة الوزن بيوضح القياسات والأسئلة المتوقعة.\n\nلو محتاج مراجعة فردية لخطة الدواء أو خطة الإيقاف والمحافظة، تقدر تحجز موعد في العيادة. ده خطوة عملية عامة مش وعد بنتيجة، والفريق المعالج هو اللي يحدد المناسب لحالتك بعد التقييم [1, 4].",
-            "en": "Before starting a weight medicine or deciding to stop one, ask specific questions: what is the health goal? When will we review the response? What happens if I do not lose the expected weight? And if I stop, what is the follow-up plan? These answers make the decision shared and informed [1, 10].\n\nBring a list of all medicines and supplements you take, any history of pancreatic, gallbladder or family thyroid disease, and pregnancy plans if any, because all of these affect choice and safety [11, 13]. If this is your first visit to a weight clinic, the guide to a first weight-management visit explains the measurements and questions to expect.\n\nIf you need an individual review of your medicine plan or your stopping and maintenance plan, you can book an appointment at the clinic. This is a practical next step, not a promised result, and the treating team will decide what suits your situation after assessment [1, 4]."
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "تحجز موعد",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "book an appointment",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "chronic-care", "heading": {"ar": "الفكرة اتغيرت من كورس لرعاية مستمرة", "en": "The model has shifted from a course to continuing care"}, "body": {"ar": "لسنين طويلة كان الناس بيتعاملوا مع أدوية الوزن زي المضاد الحيوي: كورس ليه بداية ونهاية، وبعده المفروض النتيجة تفضل. التحديث العلمي بيقول حاجة مختلفة. المعهد الأمريكي للسكر والهضم والكلى (NIDDK) بيوضح إن السمنة مرض مزمن، وإن أغلب أدوية إدارة الوزن المعتمدة النهارده معمولة للاستخدام طويل المدى، وإن الطبيب ممكن ينصح بالاستمرار عليها لفترة مفتوحة طالما فيه فايدة ومفيش آثار جانبية خطيرة [1].\n\nصفحة علاج السمنة في خدمة NHS البريطانية ومراجعة منشورة في مجلة JAMA عن علاج السمنة بيأكدوا نفس المنطق: الدواء جزء من خطة مزمنة، مش حل مؤقت منفصل عن الأكل والحركة والنوم والدعم السلوكي [9, 14]. وبيان إرشادي مشترك من جمعيات أمريكية متخصصة في السمنة سنة 2026 بيتعامل مع العلاج الدوائي على إنه قرار متابعة مستمر بيتراجع بشكل دوري [10].\n\nيعني مدة العلاج ما بتتحددش من قلم خلص أو مناسبة عدت. بتتحدد من الفايدة الصحية اللي حصلت، والتحمل، والحالة العامة، والبدائل المتاحة، واختيارك إنت بعد ما تفهم الصورة كاملة [1, 10]. لو عايز تفهم الأدوية دي بتشتغل إزاي من الأساس، اقرا دليل أدوية GLP-1 على الموقع.", "en": "For many years, people treated weight medicines like an antibiotic: a course with a start and an end, after which the result was expected to last. The scientific update says something different. The US National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) explains that obesity is a chronic disease, that most weight-management medicines approved today are intended for long-term use, and that a clinician may advise continuing them indefinitely while they help and do not cause serious side effects [1].\n\nThe NHS page on obesity treatment and a JAMA review of obesity management make the same point: medicine is part of a chronic-care plan, not a temporary fix separate from eating, movement, sleep and behavioural support [9, 14]. A 2026 joint guidance statement from US obesity societies also treats drug therapy as an ongoing decision that is reviewed at intervals [10].\n\nSo treatment length is not set by an empty pen or a passed occasion. It depends on the health benefit achieved, tolerance, general health, the available alternatives, and your own choice once you understand the full picture [1, 10]. If you want to understand how these medicines work in the first place, read the GLP-1 medication guide on the site."}, "links": {"ar": [{"label": "دليل أدوية GLP-1", "url": "../articles/glp1-medication-guide.html"}], "en": [{"label": "GLP-1 medication guide", "url": "../articles/glp1-medication-guide.html"}]}},
+        {"id": "what-happens-after-stopping", "heading": {"ar": "إيه اللي بيحصل لما الدواء يتوقف؟ الدراسات بتقول إيه", "en": "What happens when the medicine stops? What the trials show"}, "body": {"ar": "فيه تجربتين مهمين بيجاوبوا على السؤال ده بأرقام. في امتداد تجربة STEP 1، الناس اللي وقفوا السيماجلوتايد بعد 68 أسبوع من العلاج رجّعوا حوالي تلتين الوزن اللي نزل خلال سنة من التوقف. وكمان أغلب التحسن في الضغط والسكر والدهون رجع ناحية نقطة البداية [5].\n\nفي تجربة SURMOUNT-4، المشاركين خدوا التيرزيباتايد 36 أسبوع ونزلوا في المتوسط حوالي 20.9% من وزنهم. بعدها اتقسموا: اللي كمّلوا الدواء نزلوا 5.5% زيادة، واللي اتحولوا لدواء وهمي رجّعوا حوالي 14% من وزنهم خلال 52 أسبوع [6]. تحليل لاحق لنفس التجربة لقى إن أغلب اللي وقفوا رجّعوا ربع الوزن اللي نزل أو أكتر، وإن التحسن في عوامل الخطر القلبية والأيضية قلّ مع رجوع الوزن [7].\n\nالمهم هنا نفهم التفسير صح. رجوع الوزن ده ما بيثبتش إن العلاج فشل، ولا إن الشخص «ما عندوش إرادة». هو بيعكس إن الدواء بيأثر على إشارات الجوع والشبع طول ما هو موجود، ولما يتشال الجسم بيرجع يدافع عن وزنه القديم [1, 6]. وده سبب إن NIDDK بيقول بوضوح إن رجوع جزء من الوزن بعد التوقف متوقع عند ناس كتير [1].", "en": "Two important trials answer this question with numbers. In the STEP 1 extension, people who stopped semaglutide after 68 weeks of treatment regained about two-thirds of the weight they had lost within one year of stopping. Most of the improvements in blood pressure, glucose and lipids also drifted back towards baseline [5].\n\nIn the SURMOUNT-4 trial, participants took tirzepatide for 36 weeks and lost on average about 20.9% of their body weight. They were then randomised: those who continued the medicine lost a further 5.5%, while those switched to placebo regained about 14% of their weight over 52 weeks [6]. A later analysis of the same trial found that most people who stopped regained a quarter or more of the weight they had lost, and that cardiometabolic improvements lessened as weight returned [7].\n\nIt is important to read this correctly. This regain does not prove that treatment failed or that the person lacks willpower. It reflects the fact that the medicine influences hunger and fullness signals while it is present, and when it is removed the body tends to defend its previous weight [1, 6]. That is why NIDDK states plainly that some weight regain after stopping is expected for many people [1]."}},
+        {"id": "when-to-review", "heading": {"ar": "إمتى الخطة بتتراجع؟ ومين بيحدد الاستمرار؟", "en": "When is the plan reviewed, and who decides on continuing?"}, "body": {"ar": "الإرشادات بتحط نقاط مراجعة واضحة بدل ما الاستمرار يبقى تلقائي. NIDDK بيقول إن لو الشخص ما نزلش على الأقل 5% من وزنه بعد 12 أسبوع على الجرعة الكاملة، غالباً الطبيب هيقترح يوقف الدواء أو يغيّر الخطة [1]. وNICE في توصيته عن التيرزيباتايد بيقول إن لو النزول أقل من 5% بعد 6 شهور على أعلى جرعة متحملة، يتقرر الاستمرار حسب الفوايد والمخاطر لكل شخص [3].\n\nكمان فيه أنظمة صحية بتحط حدود زمنية لأسباب تنظيمية. توصية NICE عن السيماجلوتايد في الخدمة الصحية البريطانية حطت حد أقصى سنتين، وبشرط يكون العلاج جوه خدمة متخصصة لإدارة الوزن فيها فريق متعدد التخصصات [2]. الحد ده قرار خاص بنظام صحي معين، مش دليل إن الجسم «بيخلص» من المرض بعد سنتين، وده سبب إن خطة ما بعد التوقف لازم تتحط بدري [2, 5].\n\nالمراجعة بتسأل أسئلة عملية: هل الدواء حقق فايدة صحية، مش بس رقم على الميزان؟ هل الأكل والبروتين والسوائل كفاية؟ هل فيه آثار جانبية؟ وهل فيه حمل مخطط أو مرض جديد أو دواء جديد يغير القرار؟ [1, 4]. الإجابات دي هي اللي بتحدد الاستمرار أو التعديل أو الإيقاف التدريجي.", "en": "Guidelines set clear review points so that continuing is not automatic. NIDDK says that if a person has not lost at least 5% of their starting weight after 12 weeks on the full dose, the clinician will probably suggest stopping the medicine or changing the plan [1]. In its recommendation on tirzepatide, NICE says that if less than 5% of initial weight has been lost after 6 months on the highest tolerated dose, the decision to continue should weigh the benefits and risks for that person [3].\n\nSome health systems also set time limits for organisational reasons. The NICE recommendation on semaglutide in the UK health service set a maximum of 2 years, within a specialist multidisciplinary weight-management service [2]. That limit is a decision for a particular health system, not evidence that the body is free of the disease after two years, which is why a plan for after stopping should be made early [2, 5].\n\nReview asks practical questions: has the medicine produced a health benefit, not only a number on the scale? Are food, protein and fluids adequate? Have side effects appeared? Is there a planned pregnancy, a new illness or a new medicine that changes the decision? [1, 4]. These answers decide whether to continue, adjust or step down."}},
+        {"id": "side-effects-and-safety", "heading": {"ar": "الآثار الجانبية والأمان أثناء الاستمرار", "en": "Side effects and safety while continuing"}, "body": {"ar": "أكتر الآثار الجانبية شيوعاً مع أدوية GLP-1 والتيرزيباتايد بتكون في الجهاز الهضمي: غثيان، إسهال، إمساك، وقيء، وغالباً بتكون أوضح مع بداية العلاج أو زيادة الجرعة. في فترة البداية من تجربة SURMOUNT-4 مثلاً، الغثيان ظهر عند حوالي 35.5% من المشاركين [6]. لو دي مشكلتك، مقال الغثيان والإمساك مع الحقن بيشرح خطوات عملية وإمتى تكلم الطبيب.\n\nفيه كمان احتياطات مهمة لازم الطبيب يعرفها قبل البداية وأثناء الاستمرار. MedlinePlus بيقول لازم الطبيب يعرف لو فيه تاريخ التهاب بنكرياس، أو اعتلال شبكية سكري، أو مشاكل شديدة في المعدة [13]. وخدمة NHS بتوضح إن السيماجلوتايد ما بيتاخدش أثناء الحمل، وإن اللي بتخطط للحمل المفروض توقفه قبلها بشهرين على الأقل [11]. وبالنسبة للتيرزيباتايد، NHS بتنصح بوسيلة منع حمل حاجزة إضافية لمدة 4 أسابيع بعد البداية وبعد كل زيادة جرعة [12]. تفاصيل التخطيط ده موجودة في مقال أدوية الوزن قبل الحمل.\n\nالقاعدة الأساسية: ما توقفش العلاج، ولا ترجع له، ولا تغيّر الجرعة من نفسك. اتفق مع الطبيب على العلامات اللي تستدعي تواصل سريع، زي ألم بطن شديد مستمر، أو قيء يمنعك تشرب، أو علامات جفاف [11, 13].", "en": "The most common side effects with GLP-1 medicines and tirzepatide are digestive: nausea, diarrhoea, constipation and vomiting, usually most noticeable when starting or increasing the dose. In the lead-in phase of SURMOUNT-4, for example, nausea affected about 35.5% of participants [6]. If this is your problem, the article on nausea and constipation with injections explains practical steps and when to contact your clinician.\n\nThere are also important precautions your clinician should know about before starting and while continuing. MedlinePlus asks that the clinician be told about any history of pancreatitis, diabetic retinopathy or severe stomach problems [13]. The NHS explains that semaglutide is not used during pregnancy and that anyone planning a pregnancy should stop it at least 2 months beforehand [11]. For tirzepatide, the NHS advises additional barrier contraception for 4 weeks after starting and after each dose increase [12]. This planning is covered in the article on weight medicines before pregnancy.\n\nThe basic rule: do not stop, restart or change a dose on your own. Agree with your clinician on the signs that need prompt contact, such as persistent severe abdominal pain, vomiting that stops you drinking, or signs of dehydration [11, 13]."}, "links": {"ar": [{"label": "الغثيان والإمساك مع الحقن", "url": "../articles/qa-injection-nausea-constipation.html"}, {"label": "أدوية الوزن قبل الحمل", "url": "../articles/weight-loss-medicines-before-pregnancy.html"}], "en": [{"label": "nausea and constipation with injections", "url": "../articles/qa-injection-nausea-constipation.html"}, {"label": "weight medicines before pregnancy", "url": "../articles/weight-loss-medicines-before-pregnancy.html"}]}},
+        {"id": "nutrition-and-muscle", "heading": {"ar": "الأكل والعضلات أثناء العلاج الطويل", "en": "Food and muscle during long-term treatment"}, "body": {"ar": "لما الشهية تقل لفترة طويلة، الخطر مش بس في الوزن اللي بينزل، وكمان في جودة اللي بيتاكل. تحليل لاحق لتجارب SURMOUNT لقى إن الآثار الجانبية المرتبطة بسوء التغذية كانت قليلة، بس الباحثين نبهوا إن التجارب ما قاستش مستويات الفيتامينات والمعادن بشكل منتظم، وده بيحد من الحكم على الأمان الغذائي [8].\n\nعشان كده الخطة العملية بتركز على بروتين كفاية في كل وجبة، وخضار وفاكهة وألياف، وسوائل كفاية خصوصاً لو فيه قيء أو إسهال، ومراجعة التحاليل حسب الحالة [8, 9]. NIDDK بيذكر إن الإرشادات الفيدرالية للنشاط البدني بتنصح بـ150 دقيقة على الأقل في الأسبوع من النشاط المتوسط، ويومين على الأقل من تمارين تقوية العضلات [1].\n\nالحفاظ على العضلات مهم لأن جزء من الوزن اللي بينزل ممكن يكون عضلات، والعضلات بتفرق في القوة والحركة وثبات الوزن بعدين. مقال الحفاظ على العضلات أثناء خسارة الوزن بيشرح دور البروتين وتمارين المقاومة بتفصيل أكتر [1, 9].", "en": "When appetite is reduced for a long time, the risk is not only in how much weight is lost but also in the quality of what is eaten. A post hoc analysis of the SURMOUNT trials found that adverse events related to malnutrition were uncommon, but the researchers noted that the trials did not routinely measure vitamin and mineral levels, which limits conclusions about nutritional safety [8].\n\nThe practical plan therefore focuses on enough protein at each meal, vegetables, fruit and fibre, adequate fluids especially when there is vomiting or diarrhoea, and blood tests reviewed according to the situation [8, 9]. NIDDK notes that federal physical activity guidelines recommend at least 150 minutes a week of moderate activity and at least 2 days a week of muscle-strengthening activity [1].\n\nProtecting muscle matters because part of the weight lost may be muscle, and muscle makes a difference to strength, mobility and later weight stability. The article on protecting muscle while losing weight explains the role of protein and resistance exercise in more detail [1, 9]."}, "links": {"ar": [{"label": "الحفاظ على العضلات أثناء خسارة الوزن", "url": "../articles/protecting-muscle-while-losing-weight.html"}], "en": [{"label": "protecting muscle while losing weight", "url": "../articles/protecting-muscle-while-losing-weight.html"}]}},
+        {"id": "plan-before-last-dose", "heading": {"ar": "خطة الإيقاف والمحافظة تتعمل قبل آخر جرعة", "en": "Plan stopping and maintenance before the last dose"}, "body": {"ar": "لو اتقرر الإيقاف، سواء بسبب حمل مخطط أو آثار جانبية أو اختيار شخصي أو ظروف توفر الدواء، الأحسن الخطة تتناقش قبل آخر جرعة، مش بعد ما الوزن يبدأ يرجع [1, 5]. الخطة ممكن تشمل مواعيد متابعة أقرب في الشهور الأولى، ومراقبة الوزن ومحيط الخصر، وتثبيت عادات الأكل والحركة والنوم اللي اتبنت أثناء العلاج [1, 14].\n\nNIDDK بيوضح إن الحفاظ على عادات أكل صحية وزيادة النشاط البدني ممكن يقلل الوزن اللي بيرجع أو يساعد في تثبيته [1]. وفي بعض الحالات الطبيب ممكن يناقش بدائل تانية، زي دواء مختلف أو جرعة أقل، أو يرجع لمراجعة خيارات أوسع حسب إرشادات NICE للعلاج الدوائي والجراحي [4].\n\nالمهم إن رجوع جزء من الوزن، لو حصل، يتقابل بمراجعة هادية مش بلوم. الهدف يفضل صحي: الضغط، السكر، الكبد، المفاصل، والقدرة على الحركة، زي ما بيشرح مقال رعاية السمنة أكبر من BMI [4, 14].", "en": "If stopping is decided, whether because of a planned pregnancy, side effects, personal choice or medicine availability, the plan is best discussed before the last dose, not after weight starts to return [1, 5]. It may include closer follow-up in the first months, monitoring weight and waist size, and consolidating the eating, activity and sleep habits built during treatment [1, 14].\n\nNIDDK explains that keeping healthy eating habits and increasing physical activity may help people regain less weight or keep it off [1]. In some cases the clinician may discuss other options, such as a different medicine or a lower dose, or revisit wider choices in line with NICE guidance on medicines and surgery [4].\n\nWhat matters is that any regain is met with a calm review, not with blame. The goal remains health: blood pressure, glucose, liver, joints and mobility, as explained in the article on obesity care beyond BMI [4, 14]."}, "links": {"ar": [{"label": "رعاية السمنة أكبر من BMI", "url": "../articles/obesity-care-beyond-bmi.html"}], "en": [{"label": "obesity care beyond BMI", "url": "../articles/obesity-care-beyond-bmi.html"}]}},
+        {"id": "leave-with-next-step", "heading": {"ar": "اطلع من الزيارة بخطوة واضحة", "en": "Leave the visit with a clear next step"}, "body": {"ar": "قبل ما تبدأ دواء وزن أو تقرر توقفه، اسأل أسئلة محددة: الهدف الصحي إيه؟ إمتى هنراجع الاستجابة؟ لو ما نزلتش الوزن المتوقع نعمل إيه؟ ولو وقفت، إيه خطة المتابعة؟ الإجابات دي بتخلي القرار مشترك ومبني على معلومة [1, 10].\n\nجيب معاك قائمة بكل الأدوية والمكملات اللي بتاخدها، وأي تاريخ لأمراض البنكرياس أو المرارة أو الغدة الدرقية في العيلة، وخطط الحمل لو موجودة، لأن كل ده بيأثر على الاختيار والأمان [11, 13]. ولو دي أول زيارة ليك لعيادة وزن، مقال أول زيارة لإدارة الوزن بيوضح القياسات والأسئلة المتوقعة.\n\nلو محتاج مراجعة فردية لخطة الدواء أو خطة الإيقاف والمحافظة، تقدر تحجز موعد في العيادة. ده خطوة عملية عامة مش وعد بنتيجة، والفريق المعالج هو اللي يحدد المناسب لحالتك بعد التقييم [1, 4].", "en": "Before starting a weight medicine or deciding to stop one, ask specific questions: what is the health goal? When will we review the response? What happens if I do not lose the expected weight? And if I stop, what is the follow-up plan? These answers make the decision shared and informed [1, 10].\n\nBring a list of all medicines and supplements you take, any history of pancreatic, gallbladder or family thyroid disease, and pregnancy plans if any, because all of these affect choice and safety [11, 13]. If this is your first visit to a weight clinic, the guide to a first weight-management visit explains the measurements and questions to expect.\n\nIf you need an individual review of your medicine plan or your stopping and maintenance plan, you can book an appointment at the clinic. This is a practical next step, not a promised result, and the treating team will decide what suits your situation after assessment [1, 4]."}, "links": {"ar": [{"label": "تحجز موعد", "url": "../patients/booking.html"}], "en": [{"label": "book an appointment", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "هل رجوع الوزن بعد التوقف معناه إدمان؟",
-            "en": "Does weight regain after stopping mean dependence?"
-          },
-          "a": {
-            "ar": "لأ. رجوع الشهية أو الوزن مش إدمان. ده بيعكس إن تأثير الدواء على الجوع والشبع بيختفي لما يتوقف، وده اتشاف بوضوح في تجارب STEP 1 وSURMOUNT-4. الطبيب بيراجع الاستجابة وخيارات المتابعة من غير وصم أو لوم [1, 5, 6].",
-            "en": "No. The return of appetite or weight is not addiction. It reflects the fact that the medicine's effect on hunger and fullness fades when it stops, as seen clearly in the STEP 1 and SURMOUNT-4 trials. A clinician reviews the response and follow-up options without stigma or blame [1, 5, 6]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هفضل على الدواء طول عمري؟",
-            "en": "Will I have to stay on the medicine for life?"
-          },
-          "a": {
-            "ar": "مش شرط. بعض الناس بيستمروا لفترة طويلة لأن الفايدة مستمرة، وبعضهم بيوقفوا بسبب حمل أو آثار جانبية أو اختيار شخصي. NIDDK بيقول إن الطبيب ممكن ينصح بالاستمرار لفترة مفتوحة، والقرار بيتراجع بشكل دوري حسب الفايدة والأمان [1, 10].",
-            "en": "Not necessarily. Some people continue for a long time because the benefit continues; others stop because of pregnancy, side effects or personal choice. NIDDK says a clinician may advise continuing indefinitely, and the decision is reviewed periodically according to benefit and safety [1, 10]."
-          }
-        },
-        {
-          "q": {
-            "ar": "لو ما نزلتش وزن كفاية، أعمل إيه؟",
-            "en": "What if I have not lost enough weight?"
-          },
-          "a": {
-            "ar": "الإرشادات بتحط نقطة مراجعة: NIDDK بيذكر 5% بعد 12 أسبوع على الجرعة الكاملة، وNICE بيذكر 5% بعد 6 شهور على أعلى جرعة متحملة للتيرزيباتايد. لو النتيجة أقل، الطبيب بيراجع الخطة أو البدائل معاك بدل ما يزود الجرعة من غير سبب [1, 3].",
-            "en": "Guidelines set a review point: NIDDK mentions 5% after 12 weeks on the full dose, and NICE mentions 5% after 6 months on the highest tolerated dose of tirzepatide. If the result is lower, the clinician reviews the plan or alternatives with you rather than increasing the dose without reason [1, 3]."
-          }
-        },
-        {
-          "q": {
-            "ar": "ينفع أوقف الدواء فجأة لو تعبت منه؟",
-            "en": "Can I stop suddenly if I feel unwell on it?"
-          },
-          "a": {
-            "ar": "لو الأعراض شديدة، زي ألم بطن شديد مستمر أو قيء يمنعك تشرب، اتواصل مع الطبيب أو الطوارئ فوراً. غير كده، الأفضل ما توقفش أو تغيّر الجرعة من نفسك، عشان الخطة تتعدل بأمان وتتحط خطة للمحافظة [11, 13].",
-            "en": "If symptoms are severe, such as persistent severe abdominal pain or vomiting that stops you drinking, contact your clinician or emergency care straight away. Otherwise, it is better not to stop or change the dose on your own, so the plan can be adjusted safely with a maintenance plan in place [11, 13]."
-          }
-        },
-        {
-          "q": {
-            "ar": "هل الحمل بيأثر على قرار الاستمرار؟",
-            "en": "Does pregnancy affect the decision to continue?"
-          },
-          "a": {
-            "ar": "أيوه. NHS بتقول إن السيماجلوتايد ما بيتاخدش أثناء الحمل، وإنه يتوقف قبل محاولة الحمل بشهرين على الأقل. ومع التيرزيباتايد مطلوب وسيلة منع حمل حاجزة إضافية في أوقات معينة. خطط الحمل لازم تتقال للطبيب بدري [11, 12].",
-            "en": "Yes. The NHS says semaglutide is not used during pregnancy and should be stopped at least 2 months before trying to conceive. With tirzepatide, additional barrier contraception is needed at certain times. Pregnancy plans should be shared with the clinician early [11, 12]."
-          }
-        },
-        {
-          "q": {
-            "ar": "إيه اللي يساعد أحافظ على النتيجة بعد التوقف؟",
-            "en": "What helps maintain the result after stopping?"
-          },
-          "a": {
-            "ar": "متابعة أقرب في الشهور الأولى، وعادات أكل ثابتة فيها بروتين كفاية، ونشاط بدني منتظم يشمل تمارين تقوية، ونوم كويس. NIDDK بيقول إن العادات دي ممكن تقلل الوزن اللي بيرجع، حتى لو ما بتمنعوش كله [1, 14].",
-            "en": "Closer follow-up in the first months, steady eating habits with enough protein, regular physical activity including strength exercise, and good sleep. NIDDK says these habits may reduce the weight that returns, even if they do not prevent all of it [1, 14]."
-          }
-        }
+        {"q": {"ar": "هل رجوع الوزن بعد التوقف معناه إدمان؟", "en": "Does weight regain after stopping mean dependence?"}, "a": {"ar": "لأ. رجوع الشهية أو الوزن مش إدمان. ده بيعكس إن تأثير الدواء على الجوع والشبع بيختفي لما يتوقف، وده اتشاف بوضوح في تجارب STEP 1 وSURMOUNT-4. الطبيب بيراجع الاستجابة وخيارات المتابعة من غير وصم أو لوم [1, 5, 6].", "en": "No. The return of appetite or weight is not addiction. It reflects the fact that the medicine's effect on hunger and fullness fades when it stops, as seen clearly in the STEP 1 and SURMOUNT-4 trials. A clinician reviews the response and follow-up options without stigma or blame [1, 5, 6]."}},
+        {"q": {"ar": "هفضل على الدواء طول عمري؟", "en": "Will I have to stay on the medicine for life?"}, "a": {"ar": "مش شرط. بعض الناس بيستمروا لفترة طويلة لأن الفايدة مستمرة، وبعضهم بيوقفوا بسبب حمل أو آثار جانبية أو اختيار شخصي. NIDDK بيقول إن الطبيب ممكن ينصح بالاستمرار لفترة مفتوحة، والقرار بيتراجع بشكل دوري حسب الفايدة والأمان [1, 10].", "en": "Not necessarily. Some people continue for a long time because the benefit continues; others stop because of pregnancy, side effects or personal choice. NIDDK says a clinician may advise continuing indefinitely, and the decision is reviewed periodically according to benefit and safety [1, 10]."}},
+        {"q": {"ar": "لو ما نزلتش وزن كفاية، أعمل إيه؟", "en": "What if I have not lost enough weight?"}, "a": {"ar": "الإرشادات بتحط نقطة مراجعة: NIDDK بيذكر 5% بعد 12 أسبوع على الجرعة الكاملة، وNICE بيذكر 5% بعد 6 شهور على أعلى جرعة متحملة للتيرزيباتايد. لو النتيجة أقل، الطبيب بيراجع الخطة أو البدائل معاك بدل ما يزود الجرعة من غير سبب [1, 3].", "en": "Guidelines set a review point: NIDDK mentions 5% after 12 weeks on the full dose, and NICE mentions 5% after 6 months on the highest tolerated dose of tirzepatide. If the result is lower, the clinician reviews the plan or alternatives with you rather than increasing the dose without reason [1, 3]."}},
+        {"q": {"ar": "ينفع أوقف الدواء فجأة لو تعبت منه؟", "en": "Can I stop suddenly if I feel unwell on it?"}, "a": {"ar": "لو الأعراض شديدة، زي ألم بطن شديد مستمر أو قيء يمنعك تشرب، اتواصل مع الطبيب أو الطوارئ فوراً. غير كده، الأفضل ما توقفش أو تغيّر الجرعة من نفسك، عشان الخطة تتعدل بأمان وتتحط خطة للمحافظة [11, 13].", "en": "If symptoms are severe, such as persistent severe abdominal pain or vomiting that stops you drinking, contact your clinician or emergency care straight away. Otherwise, it is better not to stop or change the dose on your own, so the plan can be adjusted safely with a maintenance plan in place [11, 13]."}},
+        {"q": {"ar": "هل الحمل بيأثر على قرار الاستمرار؟", "en": "Does pregnancy affect the decision to continue?"}, "a": {"ar": "أيوه. NHS بتقول إن السيماجلوتايد ما بيتاخدش أثناء الحمل، وإنه يتوقف قبل محاولة الحمل بشهرين على الأقل. ومع التيرزيباتايد مطلوب وسيلة منع حمل حاجزة إضافية في أوقات معينة. خطط الحمل لازم تتقال للطبيب بدري [11, 12].", "en": "Yes. The NHS says semaglutide is not used during pregnancy and should be stopped at least 2 months before trying to conceive. With tirzepatide, additional barrier contraception is needed at certain times. Pregnancy plans should be shared with the clinician early [11, 12]."}},
+        {"q": {"ar": "إيه اللي يساعد أحافظ على النتيجة بعد التوقف؟", "en": "What helps maintain the result after stopping?"}, "a": {"ar": "متابعة أقرب في الشهور الأولى، وعادات أكل ثابتة فيها بروتين كفاية، ونشاط بدني منتظم يشمل تمارين تقوية، ونوم كويس. NIDDK بيقول إن العادات دي ممكن تقلل الوزن اللي بيرجع، حتى لو ما بتمنعوش كله [1, 14].", "en": "Closer follow-up in the first months, steady eating habits with enough protein, regular physical activity including strength exercise, and good sleep. NIDDK says these habits may reduce the weight that returns, even if they do not prevent all of it [1, 14]."}}
       ],
       "sources": [
-        {
-          "label": "NIDDK — Prescription Medications to Treat Overweight & Obesity",
-          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
-        },
-        {
-          "label": "NICE TA875 — Semaglutide for managing overweight and obesity",
-          "url": "https://www.nice.org.uk/guidance/ta875"
-        },
-        {
-          "label": "NICE TA1026 — Tirzepatide for managing overweight and obesity",
-          "url": "https://www.nice.org.uk/guidance/ta1026"
-        },
-        {
-          "label": "NICE NG246 — Overweight and obesity management: medicines and surgery",
-          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery"
-        },
-        {
-          "label": "Wilding et al. — Weight regain and cardiometabolic effects after withdrawal of semaglutide: the STEP 1 trial extension (Diabetes Obes Metab 2022, PMC9542252)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9542252/"
-        },
-        {
-          "label": "Aronne et al. — Continued treatment with tirzepatide for maintenance of weight reduction: the SURMOUNT-4 randomized clinical trial (JAMA 2024, PMC10714284)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10714284/"
-        },
-        {
-          "label": "Cardiometabolic parameter change by weight regain on tirzepatide withdrawal: a post hoc analysis of SURMOUNT-4 (JAMA Intern Med, PMC12645400)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645400/"
-        },
-        {
-          "label": "Nutritional status with tirzepatide in obesity: a post hoc analysis of the SURMOUNT-1-4 trials (Obesity Pillars 2026, PMC12865613)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12865613/"
-        },
-        {
-          "label": "Obesity Management in Adults: A Review (JAMA 2023, PMC11325826)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11325826/"
-        },
-        {
-          "label": "Joint TOS/OMA/OAC expert guidance statement on the pharmacological management of US adults with overweight or obesity (Obesity 2026, PMC13032058)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13032058/"
-        },
-        {
-          "label": "NHS — Semaglutide: a medicine to manage type 2 diabetes or treat obesity",
-          "url": "https://www.nhs.uk/medicines/semaglutide/"
-        },
-        {
-          "label": "NHS — Tirzepatide: a medicine to manage type 2 diabetes and treat obesity",
-          "url": "https://www.nhs.uk/medicines/tirzepatide/"
-        },
-        {
-          "label": "MedlinePlus — Semaglutide Injection",
-          "url": "https://medlineplus.gov/druginfo/meds/a618008.html"
-        },
-        {
-          "label": "NHS — Obesity: treatment",
-          "url": "https://www.nhs.uk/conditions/obesity/treatment/"
-        }
+        {"label": "NIDDK — Prescription Medications to Treat Overweight & Obesity", "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"},
+        {"label": "NICE TA875 — Semaglutide for managing overweight and obesity", "url": "https://www.nice.org.uk/guidance/ta875"},
+        {"label": "NICE TA1026 — Tirzepatide for managing overweight and obesity", "url": "https://www.nice.org.uk/guidance/ta1026"},
+        {"label": "NICE NG246 — Overweight and obesity management: medicines and surgery", "url": "https://www.nice.org.uk/guidance/ng246/chapter/Medicines-and-surgery"},
+        {"label": "Wilding et al. — Weight regain and cardiometabolic effects after withdrawal of semaglutide: the STEP 1 trial extension (Diabetes Obes Metab 2022, PMC9542252)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9542252/"},
+        {"label": "Aronne et al. — Continued treatment with tirzepatide for maintenance of weight reduction: the SURMOUNT-4 randomized clinical trial (JAMA 2024, PMC10714284)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10714284/"},
+        {"label": "Cardiometabolic parameter change by weight regain on tirzepatide withdrawal: a post hoc analysis of SURMOUNT-4 (JAMA Intern Med, PMC12645400)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12645400/"},
+        {"label": "Nutritional status with tirzepatide in obesity: a post hoc analysis of the SURMOUNT-1-4 trials (Obesity Pillars 2026, PMC12865613)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12865613/"},
+        {"label": "Obesity Management in Adults: A Review (JAMA 2023, PMC11325826)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11325826/"},
+        {"label": "Joint TOS/OMA/OAC expert guidance statement on the pharmacological management of US adults with overweight or obesity (Obesity 2026, PMC13032058)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13032058/"},
+        {"label": "NHS — Semaglutide: a medicine to manage type 2 diabetes or treat obesity", "url": "https://www.nhs.uk/medicines/semaglutide/"},
+        {"label": "NHS — Tirzepatide: a medicine to manage type 2 diabetes and treat obesity", "url": "https://www.nhs.uk/medicines/tirzepatide/"},
+        {"label": "MedlinePlus — Semaglutide Injection", "url": "https://medlineplus.gov/druginfo/meds/a618008.html"},
+        {"label": "NHS — Obesity: treatment", "url": "https://www.nhs.uk/conditions/obesity/treatment/"}
       ],
-      "tags": {
-        "ar": [
-          "أدوية تنظيم الشهية",
-          "ثبات الوزن",
-          "المتابعة طويلة المدى",
-          "إيقاف أدوية الوزن",
-          "علاج السمنة بدون جراحة"
-        ],
-        "en": [
-          "appetite-regulating medicines",
-          "weight maintenance",
-          "long-term follow-up",
-          "stopping weight medicines",
-          "non-surgical weight management"
-        ]
-      },
-      "seo": {
-        "title": {
-          "ar": "أدوية الوزن مش كورس قصير: إمتى تستمر وإمتى توقف؟",
-          "en": "Weight medicines are not a short course: what trials show"
-        },
-        "description": {
-          "ar": "ليه رجوع الوزن بعد وقف أدوية GLP-1 متوقع؟ اعرف نتايج تجارب التوقف، ونقاط المراجعة، والأمان، وإزاي تجهز خطة المحافظة قبل آخر جرعة مع طبيبك.",
-          "en": "Why weight regain after stopping GLP-1 medicines is expected, when guidelines review treatment, and how to plan maintenance before the last dose."
-        }
-      }
+      "tags": {"ar": ["أدوية تنظيم الشهية", "ثبات الوزن", "المتابعة طويلة المدى", "إيقاف أدوية الوزن", "علاج السمنة بدون جراحة"], "en": ["appetite-regulating medicines", "weight maintenance", "long-term follow-up", "stopping weight medicines", "non-surgical weight management"]},
+      "seo": {"title": {"ar": "أدوية الوزن مش كورس قصير: إمتى تستمر وإمتى توقف؟", "en": "Weight medicines are not a short course: what trials show"}, "description": {"ar": "ليه رجوع الوزن بعد وقف أدوية GLP-1 متوقع؟ اعرف نتايج تجارب التوقف، ونقاط المراجعة، والأمان، وإزاي تجهز خطة المحافظة قبل آخر جرعة مع طبيبك.", "en": "Why weight regain after stopping GLP-1 medicines is expected, when guidelines review treatment, and how to plan maintenance before the last dose."}}
     }
   ]
 }
