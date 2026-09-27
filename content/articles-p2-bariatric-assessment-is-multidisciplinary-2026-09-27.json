@@ -3,32 +3,11 @@
   "articles": [
     {
       "slug": "bariatric-assessment-is-multidisciplinary",
-      "title": {
-        "ar": "تقييم جراحة السمنة متعدد التخصصات: كل عضو في الفريق بيراجع إيه؟",
-        "en": "Multidisciplinary bariatric assessment: what each team member reviews"
-      },
-      "excerpt": {
-        "ar": "تقييم جراحة السمنة مش رقم وزن ولا موافقة سريعة؛ هو مراجعة جراحية وطبية وغذائية ونفسية وتخديرية لبناء قرار وخطة أكثر أماناً.",
-        "en": "Bariatric assessment is neither a weight number nor quick approval; surgical, medical, nutritional, psychological and anaesthetic review builds a safer decision and plan."
-      },
+      "title": {"ar": "تقييم جراحة السمنة متعدد التخصصات: كل عضو في الفريق بيراجع إيه؟", "en": "Multidisciplinary bariatric assessment: what each team member reviews"},
+      "excerpt": {"ar": "تقييم جراحة السمنة متعدد التخصصات: كل فرد في الفريق بيراجع إيه، وليه التقييم مش امتحان، وإزاي بيتبني قرار مشترك وخطة واضحة.", "en": "Bariatric assessment is neither a weight number nor quick approval; surgical, medical, nutritional, psychological and anaesthetic review builds a safer decision and plan."},
       "category": "bariatric-surgery",
-      "specialties": [
-        "bariatric-surgery",
-        "weight-management",
-        "clinical-nutrition"
-      ],
-      "tags": {
-        "ar": [
-          "تكميم المعدة",
-          "جراحة السمنة",
-          "متابعة جراحة السمنة"
-        ],
-        "en": [
-          "sleeve gastrectomy",
-          "bariatric surgery",
-          "bariatric follow-up"
-        ]
-      },
+      "specialties": ["bariatric-surgery", "weight-management", "clinical-nutrition"],
+      "tags": {"ar": ["تكميم المعدة", "جراحة السمنة", "متابعة جراحة السمنة"], "en": ["sleeve gastrectomy", "bariatric surgery", "bariatric follow-up"]},
       "type": "update",
       "date": "2026-08-15",
       "updatedAt": "2026-09-27",
@@ -39,280 +18,40 @@
       "featured": false,
       "published": true,
       "sections": [
-        {
-          "id": "bariatric-assessment-is-multidisciplinary-section-1",
-          "heading": {
-            "ar": "التقييم مش امتحان نجاح أو رسوب",
-            "en": "Assessment is not a pass-or-fail test"
-          },
-          "body": {
-            "ar": "تقييم جراحة السمنة متعدد التخصصات هدفه يجمع الصورة، مش يحكم عليك. الفريق بيراجع الأمراض والأدوية والأكل والنوم والصحة النفسية والتوقعات والدعم العملي، وبعدين يوازن الفايدة والمخاطر والبدائل. النتيجة ممكن تكون جاهز، أو محتاج خطوة تحضير، أو إن خياراً تاني أنسب حالياً. [1, 2, 4]\n\nالتكميم ليس يوماً واحداً؛ يبدأ بتقييم وتحضير ثم متابعة غذائية وجراحية وطبية طويلة المدى. ممكن تبحث عن “عملية تكميم المعدة بالمنظار”، لكن صيغة البحث لا تؤكد تشخيصاً ولا تحدد إجراءً آمناً أو علاجاً مناسباً. الهدف من المقال إنك تجهز لحديث أوضح مع الطبيب: ما التفاصيل المهمة، وما الذي قد يدخل في التقييم، ومتى نسرّع الخطوة. لا يغني ذلك عن الفحص أو التحاليل أو الخطة الفردية.\n\nالأهداف الصحية، تاريخ الوزن، الأدوية، النوم، الصحة النفسية، جراحات سابقة والدعم في البيت تدخل في التحضير. سجل باختصار متى بدأت المشكلة، هل تأتي وتذهب، ما الذي يغيرها، ما الذي جربته وكيف أثرت على النوم أو الشغل أو الدراسة أو الأكل أو الحركة. التسجيل ليس اختباراً لك؛ هو نقطة بداية أوضح للفريق.\n\nالتدخين، أدوية السيولة أو السكر، الحمل أو خططه، نقص العناصر والتاريخ الجراحي يجب مناقشتها مع الفريق. العرض أو القياس نفسه قد يعني شيئاً مختلفاً من شخص لآخر. لذلك لا تجعل نتيجة صديق أو روتين مشهور أو قائمة على الإنترنت إجابة شخصية لك. الخطة الآمنة تبدأ بوضع المشكلة داخل القصة الصحية الكاملة.\n\nوده معناه إن الصورة دي مش بتتقرأ من رقم واحد؛ لازم تسأل ليه، وإزاي، وإيه اللي هيتغير، عشان كده كلامك مع الفريق كمان بيفرق، وهتلاقي الخطة أوضح لما بتقول اللي مقلقك. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "Multidisciplinary bariatric assessment gathers the whole picture rather than judging you. The team reviews conditions, medicines, eating, sleep, psychological health, expectations and practical support, then balances benefits, risks and alternatives. The outcome may be readiness, a preparation step, or a different option being more suitable for now. [1, 2, 4]\n\nSleeve surgery is not one day; it begins with assessment and preparation, then long-term nutrition, surgical and medical follow-up. People may arrive after searching “sleeve gastrectomy surgery day”, but a search phrase cannot confirm a diagnosis, identify a safe procedure or choose a treatment. This guide is designed to make a clinical conversation more useful: it explains which observations matter, what a clinician may consider and which changes should move the conversation sooner. It does not replace examination, testing or an individual plan.\n\nHealth goals, weight history, medicines, sleep, mental wellbeing, earlier surgery and home support all inform preparation. A short, factual record is often more useful than trying to remember everything at once. Note when the concern began, whether it is constant or episodic, what changes it, what has already been tried and how it affects sleep, work, school, eating or activity. This is not homework to earn care; it gives the clinician a clearer starting point.\n\nSmoking, blood-thinning or diabetes medicines, pregnancy or plans, nutrient deficiencies and surgical history should be discussed with the team. The same symptom or measurement can mean something different from one person to another. For that reason, avoid using a friend’s result, an influencer’s routine or a single online checklist as a personal answer. A safe plan begins by putting the concern beside the wider health story. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-assessment-is-multidisciplinary-section-2",
-          "heading": {
-            "ar": "دور الجراح والطبيب",
-            "en": "The surgeon and physician"
-          },
-          "body": {
-            "ar": "الجراح بيشرح الخيارات والتغير التشريحي والمخاطر، ويراجع عمليات البطن السابقة والارتجاع وأي عوامل تأثر في الاختيار. الطبيب أو مختص السمنة بيراجع الأمراض المرتبطة بالسمنة والأدوية والتحاليل وأهداف العلاج. المهم إن القرار ما يبقاش مبنياً على رقم مؤشر الكتلة لوحده. [1, 2, 5]\n\nالتقييم غالباً يبدأ بالقصة والفحص وتحديد هل الأنسب متابعة أو تحليل أو تصوير أو إحالة أو عدم الحاجة لفحص فوري. التحاليل ليست درجة نجاح، والنتيجة الطبيعية لا تنهي كل سؤال دائماً؛ كل فحص يجيب عن سؤال محدد. اسأل ما السؤال، وكيف تستعد، ومتى ستراجع النتيجة.\n\nأثناء انتظار التقييم، اختر خطوات قليلة الخطورة ولا تخفي معلومات مهمة أو تخلق مشكلة جديدة. حاول ثبات الروتين قدر الإمكان، ولا تبدأ دواءً موصوفاً أو مكملات بجرعات عالية من نصيحة الإنترنت، ولا تغير أشياء كثيرة مرة واحدة. لو الأكل أو الحركة أو العناية أو تسجيل الأعراض مناسب، استخدمه كمعلومة للمتابعة لا كاختبار إرادة.\n\nالوعد الكبير قد يكون مغرياً عندما تكون المشكلة مزعجة أو ظاهرة. احذر المنتجات مجهولة المصدر، أدوية الآخرين، الحرمان القاسي، الحقن غير الواضحة، التحاليل المتكررة من غير خطة أو النصيحة التي تقول إن علامة واحدة تثبت مرضاً واحداً. كلمات مثل طبيعي وسريع ومضمون ليست تقييماً طبياً. خذ اسم المنتج أو صورته أو ملصقه للموعد.\n\nالمهم هنا إنك ما تستعجلش؛ ده قرار فيه تفاصيل، ودي تفاصيل بتختلف. اسأل إيه اللي مناسب، وليه مناسب، وإزاي هيتراجع، عشان كده لازم تكون الخطة اللي قدامك مفهومة ومش مجرد كلام عام. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "The surgeon explains options, anatomical change and risks and reviews previous abdominal surgery, reflux and factors affecting procedure choice. A physician or obesity clinician reviews obesity-related conditions, medicines, investigations and treatment goals. The decision should not rest on a BMI number alone. [1, 2, 5]\n\nAssessment usually starts with listening carefully and deciding whether examination, observation, laboratory tests, imaging, referral or no immediate test is the most useful next step. Tests are not a scorecard and a normal-looking result does not always end the conversation; each result answers a particular clinical question. Ask what question is being asked, how to prepare and when the result will be discussed.\n\nWhile waiting for assessment, choose low-risk steps that do not hide important information or create a new problem. Keep routines as steady as practical, do not begin prescription medicines or high-dose supplements from online advice, and avoid changing many things at the same time. If food, movement, skin care or symptom tracking is relevant, use it as information for follow-up rather than a test of discipline.\n\nA dramatic promise can be especially tempting when a concern is uncomfortable or visible. Be careful with unknown-source products, borrowed medicines, extreme restriction, unverified injections, repeated self-testing or advice that says one sign proves one condition. “Natural”, “fast” and “guaranteed” are marketing words, not a clinical assessment. Bring product names, photographs and labels to the appointment rather than guessing. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-assessment-is-multidisciplinary-section-3",
-          "heading": {
-            "ar": "دور أخصائي التغذية",
-            "en": "The dietitian"
-          },
-          "body": {
-            "ar": "أخصائي التغذية بيفهم نمط الأكل والشرب، الأعراض، الحساسية، المكملات، وقدرتك على تنفيذ التدرج بعد العملية. التقييم مش للبحث عن أكل مثالي؛ هو لاكتشاف نقص قائم أو عائق عملي وتعليم مهارات هتحتاجها بعد الجراحة. الخطة بتتكتب حسب الإجراء والحالة. [2, 7, 8, 9]\n\nالخطة الجيدة تشرح الفائدة المتوقعة وحدودها والبدائل والمخاطر المحتملة وكيف ستتم المتابعة. الاختيار المناسب يختلف مع العمر والحمل والأدوية والأمراض والإجراءات السابقة والأولويات. من حقك أن تسأل ما الذي قد يغير الخطة، وما الذي نراقبه، ومن تتواصل معه بين الزيارات.\n\nخذ خطاً زمنياً قصيراً، وقائمة الأدوية والمكملات والنتائج المهمة وأسئلتك. لو الصور أو سجل يومي مفيدين، اسأل العيادة عن الشكل المناسب. اذكر حتى المنتجات أو العلاجات التي تبدو محرجة أو اشتريتها أونلاين؛ قد تؤثر فعلاً في الأمان. الهدف ليس أن تصل بتشخيص، بل بقصة دقيقة.\n\nبعد الجراحة، ألم صدر، ضيق نفس، حرارة، نبض سريع مستمر، قيء لا يتوقف، ألم شديد متزايد أو عدم القدرة على الشرب يحتاج تقييماً عاجلاً. لو لم تكن متأكداً من درجة الاستعجال، اطلب نصيحة طبية بدلاً من محاولة حسمها من مقال. الأولوية تتغير حسب العمر والحمل والأمراض وسرعة تغير الأعراض.\n\nلو خطوة مش واضحة، قول ده للفريق. لازم تعرف هتعمل إيه، وإمتى، وليه، وإزاي تتصرف لو فيه تغيير. كده بتقلل التخمين، وكمان بتخلي اللي حواليك فاهمين الخطة دي من غير مبالغة. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [3, 10]",
-            "en": "The dietitian explores eating and drinking patterns, symptoms, allergies, supplements and ability to follow postoperative progression. The assessment is not searching for perfect eating; it identifies existing deficiency or practical barriers and teaches skills needed after surgery. The plan is tailored to the operation and individual. [2, 7, 8, 9]\n\nA useful plan explains the expected benefit, limits, alternatives, possible harms and how progress will be reviewed. The right option can differ according to pregnancy, age, other conditions, current medicines, previous procedures and personal priorities. It is reasonable to ask what would make the plan change, what should be monitored and who to contact between appointments. Clear questions support informed decisions.\n\nBring a short timeline, a list of medicines and supplements, relevant results and questions you do not want to forget. If photographs or a diary would help, ask the clinic what format is useful. Mention anything that feels embarrassing, including over-the-counter products or treatments bought online; those details can materially affect safety. The goal is not to arrive with a diagnosis, but with an accurate story.\n\nAfter surgery, chest pain, breathlessness, fever, persistent fast pulse, relentless vomiting, increasing severe pain or inability to drink need urgent assessment. If you are unsure how urgent a change is, seek medical advice rather than trying to sort it out through an article. Urgency depends on the whole situation, including age, pregnancy, health conditions and how quickly symptoms are changing. [3, 10]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-assessment-is-multidisciplinary-section-4",
-          "heading": {
-            "ar": "الدعم النفسي والسلوكي",
-            "en": "Psychological and behavioural care"
-          },
-          "body": {
-            "ar": "المختص النفسي أو السلوكي بيراجع التوقعات والمزاج والقلق ونمط الأكل واستخدام المواد والدعم الاجتماعي. ده مش معناه إن السمنة مشكلة إرادة، ومش جلسة لاستبعاد الناس. الهدف تحديد دعم أو علاج يخلي القرار والمتابعة أأمن، والدعم ممكن يستمر بعد الجراحة. [4]\n\nقبل نهاية الزيارة اسأل ماذا يعني تحسن في هذه الحالة: هل هو عرض أخف، روتين أكثر أماناً، اتجاه مع الوقت، نتيجة تقرأ في سياقها أم معرفة علامات الخطر؟ اتفق على موعد مراجعة وما الذي ستأخذه معك. هكذا لا تتحول الخطة إلى تعليمات غامضة صعبة التطبيق أو التقييم.\n\nالمقال يساعدك في تحضير الأسئلة، لكنه لا ينبغي أن يؤخر الرعاية أو ينسخ علاج شخص آخر. المعلومات الصحية تتغير والظروف الفردية تفرق. استخدمه مع نصيحة الطبيب الذي يستطيع الفحص ومراجعة تاريخك وشرح ما يناسبك.\n\nلو اقترح الفريق خياراً، اسأل ما الدليل المناسب لهذه المشكلة، وما شكل الفائدة المتوقعة في الحياة الواقعية، وما الذي ما زال غير مؤكد. الإجابة المسؤولة قد تكون أننا نحتاج معلومات أكثر أولاً، أو أن الخطوة قد تساعد جزءاً من المشكلة وليس كلها. هذا ليس نقصاً في الرعاية؛ هو طريقة لتجنب علاج غير لازم وتوقعات غير واقعية. اسأل عن مصدر موثوق أو إرشاد للمريض لو تحب أن تقرأ بين الزيارات.\n\nالنتيجة مش وعد، وده فرق لازم يبقى واضح. فيه عوامل كتير بتتغير، وعشان كده المتابعة دي بتراجع إيه اللي اتحسن وإيه اللي محتاج تعديل، مش بس رقم واحد. لما بتسأل بتاخد قرار أهدى. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "The psychological or behavioural clinician reviews expectations, mood, anxiety, eating patterns, substance use and social support. This does not frame obesity as a willpower problem and is not a session designed to exclude people. It identifies support or treatment that can make surgery and follow-up safer, and care can continue afterwards. [4]\n\nBefore leaving a visit, ask what “better” means in this case. It might mean relief of a symptom, a safer routine, a trend over time, a result reviewed in context or simply knowing which warning signs matter. Agree on a review point and on what information to bring back. This prevents a plan from becoming a vague instruction that is difficult to follow or evaluate.\n\nEducational pages are useful for preparing questions, not for delaying care or copying another person’s treatment. Health information changes and individual circumstances matter. Use this page together with the advice of the clinician who can examine you, review your history and explain what applies to your situation.\n\nWhen an option is suggested, ask what evidence supports it for the particular concern, what the likely benefit looks like in real life and what uncertainty remains. A responsible answer may be “we need more information first” or “this may help one part of the problem but not all of it.” That is not a failure to provide care; it is a way of avoiding unnecessary treatment and making expectations honest. Ask whether a reputable guideline or patient-information source is available if you would like to read more between visits. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-assessment-is-multidisciplinary-section-5",
-          "heading": {
-            "ar": "التخدير والنوم واللياقة الطبية",
-            "en": "Anaesthesia, sleep and medical fitness"
-          },
-          "body": {
-            "ar": "فريق التخدير بيقيّم مجرى التنفس والقلب والتنفس وتاريخ التخدير والأدوية والحساسية. انقطاع النفس أثناء النوم مهم لأن الخطة بعد العملية ممكن تحتاج مراقبة أو جهازاً معتاداً. أحياناً يحتاج الفريق رأي قلب أو صدر أو تخصص تاني حسب التاريخ، مش لأن كل شخص لازم يعمل نفس الفحوص. [2, 3]\n\nانظر لمن يقدم الادعاء، وهل يذكر المادة أو الطريقة بوضوح، وهل يشرح المخاطر، وهل يعترف بأن الناس احتياجاتهم مختلفة. تجربة شخص قد تشرح ما مر به، لكنها لا تثبت أن الإجراء آمن أو مناسب للجميع. قبل دفع مال أو تغيير روتين، توقف عند رسالة تعتمد على الخوف أو الإحراج أو عرض محدود أو تركيبة سرية أو نتيجة مضمونة. الرعاية الموثوقة تترك مساحة للأسئلة والموافقة الواعية.\n\nالروتين القابل للاستمرار غالباً يبنى من خطوات صغيرة تناسب الحياة الحقيقية: النوم والشغل ووجبات الأسرة والوصول للرعاية والأعراض والحالة النفسية. ليس مفيداً أن نصنع خطة لا يمكن تنفيذها إلا بصورة مثالية لأيام قليلة. لو التوصية تبدو مستحيلة، قل ذلك في المتابعة. يمكن للفريق تحديد العائق أو تعديل الخطوة أو تقديم أولوية أخرى. الملاحظة الصادقة تحسن الخطة أكثر من المعاناة في صمت.\n\nالأرقام والصور وسجل الأعراض قد تفيد لو جُمعت بظروف متقاربة، لكنها ليست القصة كلها. قد تتذبذب لأسباب عادية ولا تقيس الكرامة أو الجهد أو كل جوانب الصحة. ناقش التغير مع الطبيب الذي يعرف لماذا تم جمعها. لو المتابعة نفسها تزيد القلق أو تدفع لسلوك مقيد أو قهري أو غير آمن، اذكر ذلك مبكراً. أداة المتابعة ينبغي أن تخدم الرعاية لا أن تضيق الحياة.\n\nما تستناش لو فيه عرض شديد؛ ده مش وقت تجربة حلول من نفسك. اسأل الفريق إيه اللي يستدعي الطوارئ وإيه اللي ينفع ينتظر، وإزاي تتواصل. كده هتكون عارف، وكمان اللي معاك هيعرف يتصرف. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "The anaesthesia team assesses the airway, heart and breathing, anaesthetic history, medicines and allergies. Sleep apnoea matters because postoperative care may require monitoring or usual equipment. Cardiology, respiratory or another opinion may be needed according to history, not because everyone requires identical testing. [2, 3]\n\nCheck who is making a claim, whether they name the active ingredient or method, whether they explain risks and whether they acknowledge that different people need different care. Testimonials can describe an experience but cannot show that an intervention is safe or suitable for everyone. Before spending money or changing a routine, pause when the message relies on fear, shame, a countdown, a secret formula or a guarantee. Reliable care should leave room for questions and informed consent.\n\nA sustainable routine is usually built from small decisions that fit actual life: sleep, work, family meals, access to care, symptoms and emotional wellbeing. It is not useful to create a plan that can only be followed perfectly for a few days. If a recommendation feels impossible, say so at follow-up. The team can often help identify the barrier, adapt the step or decide that a different priority comes first. Honest feedback improves the plan more than silent struggle.\n\nNumbers, photographs and symptom scores can be useful when collected consistently, but they should not become the whole story. They may fluctuate for ordinary reasons and they do not measure dignity, effort or every aspect of health. Discuss changes with the clinician who knows why they were collected. If tracking makes anxiety worse or leads to restrictive, compulsive or unsafe behaviour, mention that early. A follow-up tool should support care, not make daily life narrower. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-assessment-is-multidisciplinary-section-6",
-          "heading": {
-            "ar": "اختيار الإجراء وبناء الخطة",
-            "en": "Procedure choice and plan building"
-          },
-          "body": {
-            "ar": "لما كل تخصص يشارك ملاحظاته، الفريق يقدر يختار الإجراء أو البديل ويحدد إيه لازم يتظبط قبل الموعد. وجود ارتجاع أو نقص غذائي أو دواء معين أو صعوبة في الدعم ممكن يغيّر الخطة. الاختيار المشترك معناه إنك تعرف سبب التوصية وحدودها وإيه المتوقع منك بعد العملية. [1, 2, 4, 5]\n\nاذكر لكل طبيب أو مختص مهم في رعايتك الأمراض والأدوية والمكملات والإجراءات ذات الصلة. هذا مهم خصوصاً قبل الجراحة وأثناء الحمل وعند بدء دواء جديد أو وجود أكثر من تخصص. القائمة الكاملة تقلل سوء الفهم الذي يمكن تجنبه. كما تساعد الفريق في تنسيق السؤال الذي تجيب عنه كل زيارة بدلاً من تكرار فحص أو إعطاء نصيحة تتعارض مع جزء آخر من الخطة.\n\nلو شككت أن دواءً أو مكملاً أو إجراءً مرتبط بعرض، تواصل مع الطبيب أو الصيدلي الذي يستطيع إرشادك بأمان. إيقاف أو مضاعفة علاج موصوف من غير توجيه قد يخلق خطراً آخر. احتفظ باسم المنتج والجرعة والتوقيت للحديث. لو كان هناك اشتباه حساسية شديدة أو أثر جانبي خطير أو عرض طارئ، اطلب رعاية عاجلة حسب الحالة.\n\nالسؤال الجيد محدد: ما الذي نحاول تفسيره أو استبعاده أو متابعته أو تحسينه؟ هذا يسهل معرفة هل مقال أو فيديو أو منشور مفيد فعلاً. المحتوى العام قد يطمئن، لكنه لا يستطيع أن يحسب الفحص أو النتيجة الخاصة بك. احتفظ بالمصدر الموثوق لمناقشته بدلاً من استخدامه لوصف علاج لنفسك.\n\nالخطة دي بتتراجع مع الأكل والأعراض والتحاليل. مش كل منتج ينفع لكل شخص، وعشان كده لازم تسأل إيه اللي محتاجه، وليه، وإمتى هيتراجع. ده بيخلي المتابعة كمان عملية ومش مبنية على التخمين. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "When disciplines share findings, the team can choose a procedure or alternative and identify what should be addressed before a date. Reflux, nutritional deficiency, a particular medicine or support difficulty can alter the plan. Shared choice means knowing why an option is recommended, its limits and what postoperative care requires from you. [1, 2, 4, 5]\n\nTell each clinician involved in your care about relevant diagnoses, medicines, supplements and procedures. This is especially important before surgery, during pregnancy, when starting a new medicine or when several specialties are involved. A complete list reduces avoidable misunderstandings. It also helps the team coordinate which question each appointment is answering instead of repeating a test or giving advice that conflicts with another part of the plan.\n\nIf you think a medicine, supplement or procedure may be linked to a symptom, contact the clinician or pharmacist who can advise safely. Stopping or doubling a prescribed treatment without guidance can create a separate risk. Keep the package, name, dose and timing available for the conversation. If there is a suspected severe allergy, serious side effect or emergency symptom, seek urgent care according to the situation.\n\nA good question is specific: what are we trying to explain, rule out, monitor or improve? That makes it easier to tell whether a new article, video or social-media post is relevant. Broad health content can be reassuring, but it cannot take account of an examination or a result that is unique to you. Save reliable information for discussion rather than using it to self-prescribe. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [],
-            "en": []
-          }
-        },
-        {
-          "id": "bariatric-assessment-is-multidisciplinary-section-7",
-          "heading": {
-            "ar": "بعد التقييم: خطوة مشتركة واضحة",
-            "en": "After assessment: a clear shared next step"
-          },
-          "body": {
-            "ar": "اقرأ التحضير لجراحة السمنة، وافهم تكميم المعدة قبل القرار، وخلي متابعة جراحة السمنة طول العمر ضمن النقاش. اسأل مين هينسق الآراء، وإيه اللي ناقص، وإمتى يتراجع القرار. تقدر تستخدم حجز موعد لمناقشة التقييم غير العاجل ومعاك تقاريرك وقائمة الأدوية والأسئلة. [1, 2, 4, 6]\n\nالخطط الصحية غالباً تحتاج تعديلاً. قد تتغير لأن الأعراض هدأت أو النتيجة أضافت سياقاً أو ظهر أثر جانبي أو لم يكن الروتين عملياً. المراجعة جزء طبيعي من الرعاية الآمنة وليست دليلاً أن شخصاً فشل. سجل باختصار ما تحسن وما ساء وما كان صعباً؛ سيعطي الموعد التالي بداية إنسانية ومفيدة.\n\nأفضل خطوة تالية هي التي تناسب السؤال الطبي وظروفك. قل ما يهمك، بما فيه الألم أو القلق أو الوقت أو خصوصية الموضوع أو مسؤوليات الأسرة أو تجربة صحية سابقة صعبة. هذه الأولويات تساعد في تحويل المعلومة العامة إلى خطة سليمة طبياً ويمكن تنفيذها في الواقع.\n\nالتكميم ليس يوماً واحداً؛ يبدأ بتقييم وتحضير ثم متابعة غذائية وجراحية وطبية طويلة المدى. العملية الهادئة المبنية على دليل عادة أكثر أماناً وفائدة من إجابة سريعة. سجل النمط، خذ السياق للموعد، اسأل ما الذي سيجيب عنه كل خطوة، واطلب الرعاية العاجلة عند ظهور علامات الخطر.\n\nقبل الخطوة الجاية، اكتب إيه اللي فهمته وإيه اللي لسه مش واضح. ده بيساعدك تسأل إزاي هتبدأ، وإمتى هتراجع، وليه الاختيار ده. عشان كده القرار المشترك كمان بيبقى أقرب لحياتك وخطتك دي. وده كمان بيساعدك تراجع الخطة بهدوء، مش بسرعة. وده مش ثابت، وكمان بيتراجع عشان الخطة دي؛ وده مش نهائي. [1, 2, 3]",
-            "en": "Read preparing for bariatric surgery, understand sleeve gastrectomy before deciding, and include lifelong bariatric follow-up in the discussion. Ask who coordinates opinions, what remains incomplete and when the decision will be reviewed. You can use book an appointment for non-urgent assessment and bring reports, medicines and questions. [1, 2, 4, 6]\n\nHealth plans often need adjustment. A plan may change because symptoms settle, results add context, a side effect appears or the practical routine is not workable. Review is a normal part of safe care, not evidence that someone has failed. Keep a short list of what improved, what worsened and what was difficult; it gives the next appointment a useful, human starting point.\n\nThe best next step is the one that matches the clinical question and your circumstances. Say what matters to you, including pain, uncertainty, time, practical concerns, privacy, family responsibilities or a previous difficult healthcare experience. Those priorities help turn general information into a plan that is both medically sensible and realistically workable.\n\nSleeve surgery is not one day; it begins with assessment and preparation, then long-term nutrition, surgical and medical follow-up. A calm, evidence-aware process is usually safer and more useful than a quick answer. Record the relevant pattern, bring the context, ask what the next step is designed to answer and seek urgent care when warning signs appear. [1, 2, 3]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "التحضير لجراحة السمنة",
-                "url": "../articles/preparing-for-bariatric-surgery.html"
-              },
-              {
-                "label": "تكميم المعدة قبل القرار",
-                "url": "../articles/sleeve-gastrectomy-what-to-know.html"
-              },
-              {
-                "label": "متابعة جراحة السمنة طول العمر",
-                "url": "../articles/bariatric-follow-up-is-lifelong.html"
-              },
-              {
-                "label": "حجز موعد",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "preparing for bariatric surgery",
-                "url": "../articles/preparing-for-bariatric-surgery.html"
-              },
-              {
-                "label": "sleeve gastrectomy before deciding",
-                "url": "../articles/sleeve-gastrectomy-what-to-know.html"
-              },
-              {
-                "label": "lifelong bariatric follow-up",
-                "url": "../articles/bariatric-follow-up-is-lifelong.html"
-              },
-              {
-                "label": "book an appointment",
-                "url": "../patients/booking.html"
-              }
-            ]
-          }
-        }
+        {"id": "bariatric-assessment-is-multidisciplinary-section-1", "heading": {"ar": "التقييم مش امتحان نجاح أو سقوط", "en": "Assessment is not a pass-or-fail test"}, "body": {"ar": "تقييم جراحة السمنة متعدد التخصصات هدفه يجمّع الصورة كلها، مش يحكم عليك. الفريق بيراجع الأمراض والأدوية والأكل والنوم والصحة النفسية والتوقعات والدعم العملي، وبعدين يوازن الفايدة والمخاطر والبدائل. النتيجة ممكن تكون إنك جاهز، أو محتاج خطوة تحضير، أو إن فيه خيار تاني أنسب دلوقتي. [1, 2, 4]\n\nمؤشر كتلة الجسم نقطة بداية مش أكتر. NIDDK بيوضح إن جراحة السمنة ممكن تكون خيار للبالغين اللي مؤشرهم 40 أو أكتر، أو 35 أو أكتر مع مشكلة صحية خطيرة مرتبطة بالسمنة زي السكر من النوع التاني أو أمراض القلب أو انقطاع النفس أثناء النوم، أو 30 أو أكتر مع سكر صعب التحكم فيه بالعلاج وتغيير نمط الحياة. الرقم ده بيفتح باب النقاش، والتقييم هو اللي بيقرر. [1, 13]\n\nوبالنسبة للمراهقين، الإرشادات بتوصي إن التقييم يتعمل بفريق متعدد التخصصات عنده خبرة في طب الأطفال، لأن النمو والدعم الأسري والمتابعة الطويلة بيفرقوا في القرار. [13]\n\nعشان كده متدخلش التقييم وإنت شايفه امتحان لازم تعدّيه. الصراحة في الأكل والمزاج والتدخين والأدوية بتحميك، لأن اللي بيتخبى دلوقتي بيظهر بعد العملية في وقت أصعب. [2, 4]", "en": "Multidisciplinary bariatric assessment gathers the whole picture rather than judging you. The team reviews conditions, medicines, eating, sleep, psychological health, expectations and practical support, then balances benefits, risks and alternatives. The outcome may be readiness, a preparation step, or a different option being more suitable for now. [1, 2, 4]\n\nBody mass index is a starting point, nothing more. NIDDK explains that weight-loss surgery may be an option for adults with a BMI of 40 or more, a BMI of 35 or more with a serious obesity-related health problem such as type 2 diabetes, heart disease or sleep apnoea, or a BMI of 30 or more with type 2 diabetes that is hard to control with treatment and lifestyle change. That number opens the discussion; the assessment makes the decision. [1, 13]\n\nFor teenagers, guidelines recommend evaluation by a multidisciplinary team with paediatric expertise, because growth, family support and long-term follow-up all shape the decision. [13]\n\nSo do not approach the assessment as an exam to pass. Honesty about eating, mood, smoking and medicines protects you, because whatever is hidden now tends to surface after surgery at a harder time. [2, 4]"}},
+        {"id": "bariatric-assessment-is-multidisciplinary-section-2", "heading": {"ar": "دور الجراح والطبيب", "en": "The surgeon and physician"}, "body": {"ar": "الجرّاح بيشرح الخيارات والتغير اللي هيحصل في المعدة والأمعاء والمخاطر، وبيراجع عمليات البطن القديمة والارتجاع وأي حاجة ممكن تأثر في اختيار العملية. والطبيب أو مختص السمنة بيراجع الأمراض المرتبطة بالسمنة والأدوية والتحاليل وأهداف العلاج. المهم إن القرار ميتبنيش على رقم مؤشر الكتلة لوحده. [1, 2, 5]\n\nالارتجاع مثال واضح: لو عندك حموضة مزمنة، الجرّاح ممكن يناقش إن التكميم أحياناً بيزوّدها، وإن تحويل المسار ممكن يكون أنسب لبعض الناس، وممكن يطلب منظار قبل القرار. والسكر مثال تاني، لأن نوع العملية وتأثيرها على السكر جزء من النقاش. [1, 5, 12]\n\nالطبيب كمان بيظبط الأمراض اللي ممكن تزوّد خطر العملية قبل ميعادها، زي السكر العالي أو الضغط غير المتحكم فيه أو الأنيميا، وبيراجع أدوية السيولة والأدوية اللي محتاجة وقف أو تعديل قبل الجراحة. [2, 3]\n\nاسأل الاتنين نفس السؤال: ليه العملية دي بالذات مناسبة ليّ، وإيه البديل لو قررت متعملهاش دلوقتي. الإجابة الواضحة بتدل إن القرار مبني على حالتك فعلاً. [1, 2, 5]\n\nوجهّز قبل الزيارة ملف فيه التحاليل والأشعة القديمة، وتقارير أي عمليات سابقة، وقايمة الأدوية بالجرعات، ومحاولات إنقاص الوزن اللي عملتها قبل كده وإيه اللي نفع وإيه اللي منفعش. الملف ده بيوفّر وقت، وبيخلي الجرّاح والطبيب يبنوا رأيهم على معلومات كاملة بدل ما يعتمدوا على الذاكرة. [1, 2]", "en": "The surgeon explains the options, the change to the stomach and intestine, and the risks, and reviews previous abdominal surgery, reflux and anything that could affect procedure choice. A physician or obesity clinician reviews obesity-related conditions, medicines, investigations and treatment goals. The decision should not rest on a BMI number alone. [1, 2, 5]\n\nReflux is a clear example: with chronic heartburn, the surgeon may explain that a sleeve can sometimes worsen it, that a bypass may suit some people better, and may request an endoscopy before deciding. Diabetes is another, since the type of operation and its effect on blood sugar are part of the discussion. [1, 5, 12]\n\nThe physician also optimises conditions that could raise surgical risk before the date, such as high blood sugar, uncontrolled blood pressure or anaemia, and reviews blood thinners and other medicines that need pausing or adjusting before surgery. [2, 3]\n\nAsk both the same question: why is this particular operation right for me, and what is the alternative if I decide against it for now? A clear answer shows the decision is genuinely built on your situation. [1, 2, 5]\n\nBefore the visit, prepare a file with previous tests and scans, reports of any earlier operations, a medicine list with doses, and previous weight-loss attempts, including what worked and what did not. It saves time and lets the surgeon and physician form their view on complete information rather than memory. [1, 2]"}},
+        {"id": "bariatric-assessment-is-multidisciplinary-section-3", "heading": {"ar": "دور أخصائي التغذية", "en": "The dietitian"}, "body": {"ar": "أخصائي التغذية بيفهم نمط الأكل والشرب، والأعراض، والحساسية، والمكملات، وقدرتك على التدرج في الأكل بعد العملية. التقييم مش بيدور على أكل مثالي؛ هو بيكشف أي نقص موجود أو عائق عملي، وبيعلّمك مهارات هتحتاجها بعد الجراحة. الخطة بتتكتب حسب نوع العملية وحالتك. [2, 7, 8, 9]\n\nإرشادات BOMSS بتوصي بتقييم غذائي شامل قبل جراحة السمنة، يشمل تحاليل زي صورة الدم والفيريتين والفولات وB12 وفيتامين D، لأن النقص شائع عند الناس اللي عندهم سمنة شديدة حتى قبل العملية. علاج النقص ده قبل الجراحة بيسهّل المرحلة اللي بعدها. [8, 9]\n\nأخصائي التغذية كمان بيدرّبك على الحاجات العملية: الأكل ببطء، والمضغ الكويس، والوقوف عند الشبع، وفصل الشرب عن الأكل، وإزاي تحط البروتين أولوية، وإزاي تشرب سوايل كفاية بمعدة صغيرة. التدريب ده قبل العملية أسهل بكتير من إنك تتعلمه وإنت بتتعافى. [2, 7, 10]\n\nولو فيه أكل وقت الضغط، أو أكل بالليل، أو مشروبات سكرية كتير، قول ده بصراحة. ده مش سبب للرفض، لكنه معلومة بتخلي الخطة واقعية. [2, 4]\n\nولو بتاخد مكملات أو أعشاب أو منتجات تخسيس، اكتب أسماءها وكمياتها بالظبط. بعض المنتجات دي ممكن تأثر في التحاليل أو تتعارض مع أدوية، وأخصائي التغذية محتاج يعرفها عشان يقرر يوقفها ولا يكملها قبل العملية. [2, 7]", "en": "The dietitian explores eating and drinking patterns, symptoms, allergies, supplements and your ability to follow the stepwise diet after surgery. The assessment is not searching for perfect eating; it identifies existing deficiency or practical barriers and teaches skills you will need after surgery. The plan is tailored to the operation and to you. [2, 7, 8, 9]\n\nThe BOMSS guidance recommends a comprehensive nutritional assessment before bariatric surgery, including tests such as a blood count, ferritin, folate, B12 and vitamin D, because deficiencies are common in people with severe obesity even before surgery. Treating them beforehand makes the next stage easier. [8, 9]\n\nThe dietitian also coaches practical skills: eating slowly, chewing well, stopping at fullness, separating drinks from meals, prioritising protein, and drinking enough fluid with a small stomach. Practising these before surgery is much easier than learning them while recovering. [2, 7, 10]\n\nIf there is stress eating, night eating or a lot of sugary drinks, say so honestly. It is not a reason for refusal; it is information that makes the plan realistic. [2, 4]\n\nIf you take supplements, herbs or slimming products, write down their exact names and amounts. Some can affect test results or interact with medicines, and the dietitian needs to know them to decide whether to stop or continue them before surgery. [2, 7]"}},
+        {"id": "bariatric-assessment-is-multidisciplinary-section-4", "heading": {"ar": "الدعم النفسي والسلوكي", "en": "Psychological and behavioural care"}, "body": {"ar": "المختص النفسي أو السلوكي بيراجع التوقعات والمزاج والقلق ونمط الأكل واستخدام المواد والدعم الاجتماعي. ده مش معناه إن السمنة مشكلة إرادة، ومش جلسة الغرض منها استبعاد الناس. الهدف تحديد دعم أو علاج يخلي القرار والمتابعة أأمن، والدعم ممكن يكمّل بعد الجراحة. [4]\n\nتوصيات Sogg وزملائه للتقييم النفسي قبل جراحة السمنة بتشوف التقييم ده فرصة لاكتشاف حاجات ممكن تتعالج، زي الاكتئاب أو القلق أو نوبات الأكل القهري، وتجهيز دعم ليها قبل وبعد العملية، مش لإصدار حكم نهائي على الشخص. [4]\n\nالتوقعات جزء مهم من الكلام: العملية بتساعد في نزول الوزن وتحسّن أمراض كتير، بس مش بتحل كل حاجة في الحياة، والجسم بعد النزول الكبير ممكن يحتاج وقت عشان الشخص يتعود عليه. التقييم بيساعد التوقعات تبقى واقعية. [4, 6]\n\nوالدعم الاجتماعي بيفرق كتير: مين هيساعدك أول أسابيع، ومين في البيت فاهم التغييرات في الأكل، وإزاي هتتعامل مع العزومات والمناسبات. كل ده بيتناقش عشان الخطة تنفع في حياتك الحقيقية. [4, 6]\n\nولو كنت بتتابع مع دكتور نفسي أو بتاخد علاج للمزاج أو القلق، قول ده من الأول وهات تقرير لو موجود. العلاج ده غالباً بيكمل، والفريق بيحتاج يعرفه عشان يتأكد إن الدوا هيتمتص كويس بعد العملية وإن الدعم مستمر في الفترة الأولى. [4, 6]", "en": "The psychological or behavioural clinician reviews expectations, mood, anxiety, eating patterns, substance use and social support. This does not frame obesity as a willpower problem and is not a session designed to exclude people. It identifies support or treatment that can make the decision and follow-up safer, and that support can continue after surgery. [4]\n\nThe recommendations by Sogg and colleagues for presurgical psychosocial evaluation treat it as an opportunity to identify treatable issues, such as depression, anxiety or binge eating, and to arrange support before and after surgery, rather than to issue a final verdict on the person. [4]\n\nExpectations are an important part of the conversation: surgery helps with weight loss and improves many conditions, but it does not solve everything in life, and adjusting to a body after major weight loss can take time. The assessment helps keep expectations realistic. [4, 6]\n\nSocial support matters a great deal: who will help in the first weeks, who at home understands the eating changes, and how you will handle invitations and occasions. All of this is discussed so the plan works in your real life. [4, 6]\n\nIf you see a psychiatrist or take treatment for mood or anxiety, say so from the start and bring a report if one exists. That treatment usually continues, and the team needs to know so it can make sure the medicine will be absorbed well after surgery and that support continues in the early period. [4, 6]"}},
+        {"id": "bariatric-assessment-is-multidisciplinary-section-5", "heading": {"ar": "التخدير والنوم واللياقة الطبية", "en": "Anaesthesia, sleep and medical fitness"}, "body": {"ar": "فريق التخدير بيقيّم مجرى التنفس والقلب والرئة وتاريخ التخدير والأدوية والحساسية. انقطاع النفس أثناء النوم مهم لأن الخطة بعد العملية ممكن تحتاج مراقبة أو جهاز بتستخدمه عادةً. وأحياناً الفريق بيحتاج رأي قلب أو صدر أو تخصص تاني على حسب تاريخك، مش لأن كل الناس لازم يعملوا نفس الفحوص. [2, 3]\n\nانقطاع النفس أثناء النوم شائع مع السمنة، وكتير من الناس ميعرفوش إنه عندهم. لو فيه شخير عالي، أو توقف نفس بيلاحظه حد جنبك، أو نعاس شديد بالنهار، الفريق ممكن يطلب دراسة نوم، ولو التشخيص اتأكد، الجهاز بيبدأ قبل العملية ويتاخد المستشفى. [2, 3]\n\nتوصيات ERAS لجراحة السمنة كمان بتشجّع على وقف التدخين قبل العملية، وتظبيط السكر، وتقييم خطر الجلطات، والتخطيط لمنع الغثيان والترجيع. كل دي خطوات بتتحدد في التقييم عشان يوم العملية يبقى أأمن. [3]\n\nقول لفريق التخدير عن أي مشكلة قديمة مع التخدير، ليك أو لحد من العيلة، وعن أي أدوية أو أعشاب أو مكملات بتاخدها، حتى اللي شايفها ملهاش علاقة. [3]\n\nوممكن يتطلب منك تمارين تنفس أو مشي يومي بسيط قبل العملية على حسب حالتك. الحركة دي بتساعد الرئة والدورة الدموية، وبتسهّل إنك تقوم وتمشي بدري بعد الجراحة، وده جزء مهم من التعافي الآمن. [3]", "en": "The anaesthesia team assesses the airway, heart and lungs, anaesthetic history, medicines and allergies. Sleep apnoea matters because care after surgery may need monitoring or the device you normally use. Sometimes the team needs a cardiology, respiratory or other opinion according to your history, not because everyone requires identical testing. [2, 3]\n\nSleep apnoea is common with obesity, and many people do not know they have it. Loud snoring, pauses in breathing noticed by someone else, or marked daytime sleepiness may lead the team to request a sleep study; if the diagnosis is confirmed, the device starts before surgery and comes to hospital. [2, 3]\n\nERAS recommendations for bariatric surgery also encourage stopping smoking before surgery, optimising blood sugar, assessing clot risk and planning to prevent nausea and vomiting. These steps are set during assessment so that surgery day is safer. [3]\n\nTell the anaesthesia team about any previous problem with anaesthesia, yours or a relative's, and about all medicines, herbs and supplements you take, even those you think are unrelated. [3]\n\nYou may be asked to do breathing exercises or a short daily walk before surgery, depending on your condition. This activity helps the lungs and circulation and makes it easier to get up and walk early after surgery, which is an important part of safe recovery. [3]"}},
+        {"id": "bariatric-assessment-is-multidisciplinary-section-6", "heading": {"ar": "اختيار الإجراء وبناء الخطة", "en": "Procedure choice and plan building"}, "body": {"ar": "لما كل تخصص يقول ملاحظاته، الفريق يقدر يختار العملية أو البديل، ويحدد إيه اللي لازم يتظبط قبل الميعاد. وجود ارتجاع أو نقص غذائي أو دوا معين أو صعوبة في الدعم ممكن يغيّر الخطة. والاختيار المشترك معناه إنك تعرف سبب التوصية وحدودها، وإيه المتوقع منك بعد العملية. [1, 2, 4, 5]\n\nASMBS بتوصف أنواع عمليات مختلفة، زي التكميم وتحويل المسار وغيرهم، ولكل واحدة مميزات وحدود ومتطلبات متابعة مختلفة. متختارش العملية باسمها أو لأن حد تعرفه عملها؛ اسأل إزاي كل نوع هيأثر في الارتجاع والسكر والفيتامينات والأدوية عندك. [5, 11]\n\nفي الاجتماع ده، الفريق ممكن يطلب خطوات قبل تحديد الميعاد: علاج نقص فيتامين، أو ظبط السكر، أو دراسة نوم، أو وقف التدخين، أو جلسات دعم. الخطوات دي جزء من التحضير، مش تأجيل من غير سبب. [2, 3, 4]\n\nوالمتابعة بعد العملية بتبقى جزء من القرار نفسه: لو المتابعة الطويلة مش ممكنة لأي سبب، ده لازم يتقال بوضوح، لأنه ممكن يغيّر اختيار العملية أو التوقيت. [6, 8, 9]\n\nومن حقك تطلب وقت تفكر فيه قبل ما توافق. اقعد مع أهلك، وراجع الملخص المكتوب، وارجع بأسئلتك. القرار اللي بيتاخد وإنت فاهم ومقتنع بيسهّل الالتزام بالأكل والفيتامينات والمتابعة بعد العملية، وده اللي بيفرق في النتيجة على المدى الطويل. [2, 4, 6]", "en": "When each discipline shares its findings, the team can choose a procedure or an alternative and identify what needs addressing before a date. Reflux, nutritional deficiency, a particular medicine or limited support can change the plan. Shared choice means knowing why an option is recommended, its limits and what care after surgery will require from you. [1, 2, 4, 5]\n\nASMBS describes different procedures, such as the sleeve and gastric bypass, each with its own benefits, limits and follow-up needs. Do not choose an operation by name or because someone you know had it; ask how each type would affect your reflux, blood sugar, vitamins and medicines. [5, 11]\n\nAt this stage the team may ask for steps before setting a date: treating a vitamin deficiency, improving blood sugar, a sleep study, stopping smoking or support sessions. These steps are part of preparation, not a delay without reason. [2, 3, 4]\n\nFollow-up after surgery is part of the decision itself: if long-term follow-up is not possible for any reason, that should be said clearly, because it may change the choice of operation or its timing. [6, 8, 9]\n\nYou are entitled to ask for time to think before agreeing. Sit with your family, review the written summary and come back with your questions. A decision taken with understanding and conviction makes it easier to keep to the diet, vitamins and follow-up after surgery, which is what shapes long-term results. [2, 4, 6]"}},
+        {"id": "bariatric-assessment-is-multidisciplinary-section-7", "heading": {"ar": "بعد التقييم: خطوة مشتركة واضحة", "en": "After assessment: a clear shared next step"}, "body": {"ar": "بعد التقييم، المفروض تمشي وإنت عارف: القرار إيه، ومين هينسّق آراء الفريق، وإيه اللي لسه ناقص، وإمتى هيتراجع القرار. اكتب ده وخد نسخة من الملخص. [1, 2, 4]\n\nلو القرار إنك جاهز، الخطوة الجاية هي التحضير لجراحة السمنة، وفيها التعليمات العملية قبل الميعاد. ولو التكميم هو الخيار المطروح، اقرا تكميم المعدة قبل القرار عشان تفهم الفايدة والمخاطر والبدائل. [2, 5, 10]\n\nولو القرار إنك محتاج خطوة تحضير، اسأل عن الخطوة بالظبط، ومين المسؤول عنها، والميعاد المتوقع للمراجعة. ده غالباً معناه إن فيه معلومة أو علاج أو دعم محتاج يكمل، مش رفض. وحط المتابعة بعد جراحة السمنة مدى الحياة جزء من النقاش من البداية. [2, 4, 6]\n\nتقدر تستخدم حجز موعد لمناقشة التقييم في وقت مش عاجل، ومعاك تقاريرك وقايمة الأدوية وأسئلتك. [1, 6]", "en": "After assessment you should leave knowing the decision, who will coordinate the team's views, what is still missing and when the decision will be reviewed. Write this down and keep a copy of the summary. [1, 2, 4]\n\nIf you are ready, the next step is preparing for bariatric surgery, with the practical instructions before the date. If a sleeve is the option on the table, read sleeve gastrectomy before deciding to understand its benefits, risks and alternatives. [2, 5, 10]\n\nIf a preparation step is needed, ask exactly what it is, who is responsible and when the review is expected. It usually means some information, treatment or support needs completing, not a refusal. Include lifelong bariatric follow-up in the discussion from the start. [2, 4, 6]\n\nYou can use book an appointment to discuss the assessment at a non-urgent time, bringing your reports, medicine list and questions. [1, 6]"}, "links": {"ar": [{"label": "التحضير لجراحة السمنة", "url": "../articles/preparing-for-bariatric-surgery.html"}, {"label": "تكميم المعدة قبل القرار", "url": "../articles/sleeve-gastrectomy-what-to-know.html"}, {"label": "المتابعة بعد جراحة السمنة مدى الحياة", "url": "../articles/bariatric-follow-up-is-lifelong.html"}, {"label": "حجز موعد", "url": "../patients/booking.html"}], "en": [{"label": "preparing for bariatric surgery", "url": "../articles/preparing-for-bariatric-surgery.html"}, {"label": "sleeve gastrectomy before deciding", "url": "../articles/sleeve-gastrectomy-what-to-know.html"}, {"label": "lifelong bariatric follow-up", "url": "../articles/bariatric-follow-up-is-lifelong.html"}, {"label": "book an appointment", "url": "../patients/booking.html"}]}}
       ],
       "faq": [
-        {
-          "q": {
-            "ar": "هل التقييم مجرد حساب مؤشر كتلة الجسم؟",
-            "en": "Is assessment just a BMI calculation?"
-          },
-          "a": {
-            "ar": "لأ. الرقم جزء من صورة فيها أمراض وأدوية وتغذية ونوم وصحة نفسية وتوقعات ومخاطر. [1, 2]",
-            "en": "No. It is one part of a picture that includes conditions, medicines, nutrition, sleep, psychological health, expectations and risk. [1, 2]"
-          }
-        },
-        {
-          "q": {
-            "ar": "مين موجود في فريق التقييم؟",
-            "en": "Who is on the assessment team?"
-          },
-          "a": {
-            "ar": "التكوين يختلف، لكنه عادة يجمع الجراحة والطب والتغذية والدعم النفسي والتخدير حسب الاحتياج. [2, 3, 4]",
-            "en": "Composition varies, but it commonly combines surgery, medicine, nutrition, psychological care and anaesthesia according to need. [2, 3, 4]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل التقييم النفسي ممكن يوقف العملية؟",
-            "en": "Can psychological assessment stop surgery?"
-          },
-          "a": {
-            "ar": "هدفه تحديد الدعم والمخاطر القابلة للعلاج؛ أحياناً يوصي بتحضير إضافي قبل القرار، وده مش حكم على الشخص. [4]",
-            "en": "It identifies support needs and treatable risks; sometimes it recommends more preparation before a decision, which is not a judgement of the person. [4]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل كل الناس تعمل نفس التحاليل؟",
-            "en": "Does everyone have the same blood tests?"
-          },
-          "a": {
-            "ar": "لأ. الاختبارات بتتحدد حسب التاريخ والفحص ونوع العملية والأسئلة اللي محتاجة إجابة. [2, 3]",
-            "en": "No. Testing follows history, examination, procedure and the questions that need answering. [2, 3]"
-          }
-        },
-        {
-          "q": {
-            "ar": "هل أقدر أختار العملية بالاسم؟",
-            "en": "Can I choose a procedure by name?"
-          },
-          "a": {
-            "ar": "لازم الاختيار يناقش التشريح والأمراض والارتجاع والمخاطر والتفضيلات والمتابعة، مش الاسم وحده. [1, 2, 5]",
-            "en": "Choice should consider anatomy, conditions, reflux, risks, preferences and follow-up rather than the procedure name alone. [1, 2, 5]"
-          }
-        },
-        {
-          "q": {
-            "ar": "ماذا يعني إن القرار لسه مش جاهز؟",
-            "en": "What does it mean when a decision is not ready?"
-          },
-          "a": {
-            "ar": "غالباً فيه معلومة أو علاج أو دعم محتاج يكتمل؛ اسأل عن الخطوة والمسؤول والموعد المحدد للمراجعة. [2, 4]",
-            "en": "Usually information, treatment or support remains incomplete; ask for the next step, responsible person and a review point. [2, 4]"
-          }
-        }
+        {"q": {"ar": "هل التقييم مجرد حساب مؤشر كتلة الجسم؟", "en": "Is assessment just a BMI calculation?"}, "a": {"ar": "لأ. الرقم جزء من صورة فيها أمراض وأدوية وتغذية ونوم وصحة نفسية وتوقعات ومخاطر. [1, 2, 13]", "en": "No. It is one part of a picture that includes conditions, medicines, nutrition, sleep, psychological health, expectations and risk. [1, 2, 13]"}},
+        {"q": {"ar": "مين موجود في فريق التقييم؟", "en": "Who is on the assessment team?"}, "a": {"ar": "التكوين بيختلف، لكنه غالباً بيجمع الجراحة والطب والتغذية والدعم النفسي والتخدير على حسب الاحتياج. [2, 3, 4]", "en": "Composition varies, but it commonly combines surgery, medicine, nutrition, psychological care and anaesthesia according to need. [2, 3, 4]"}},
+        {"q": {"ar": "هل التقييم النفسي ممكن يوقف العملية؟", "en": "Can psychological assessment stop surgery?"}, "a": {"ar": "هدفه تحديد الدعم والمخاطر اللي ممكن تتعالج؛ أحياناً بيوصي بتحضير زيادة قبل القرار، وده مش حكم على الشخص. [4]", "en": "It identifies support needs and treatable risks; sometimes it recommends more preparation before a decision, which is not a judgement of the person. [4]"}},
+        {"q": {"ar": "هل كل الناس تعمل نفس التحاليل؟", "en": "Does everyone have the same blood tests?"}, "a": {"ar": "لأ. التحاليل بتتحدد على حسب التاريخ المرضي والكشف ونوع العملية والأسئلة اللي محتاجة إجابة. [2, 3, 9]", "en": "No. Testing follows history, examination, procedure and the questions that need answering. [2, 3, 9]"}},
+        {"q": {"ar": "هل أقدر أختار العملية بالاسم؟", "en": "Can I choose a procedure by name?"}, "a": {"ar": "الاختيار لازم يناقش التشريح والأمراض والارتجاع والمخاطر وتفضيلاتك والمتابعة، مش الاسم لوحده. [1, 2, 5]", "en": "Choice should consider anatomy, conditions, reflux, risks, preferences and follow-up rather than the procedure name alone. [1, 2, 5]"}},
+        {"q": {"ar": "ماذا يعني إن القرار لسه مش جاهز؟", "en": "What does it mean when a decision is not ready?"}, "a": {"ar": "غالباً فيه معلومة أو علاج أو دعم محتاج يكمل؛ اسأل عن الخطوة والمسؤول عنها وميعاد المراجعة. [2, 4]", "en": "Usually information, treatment or support remains incomplete; ask for the next step, responsible person and a review point. [2, 4]"}}
       ],
       "sources": [
-        {
-          "label": "NIDDK — Weight-loss (Metabolic & Bariatric) Surgery",
-          "url": "https://www.niddk.nih.gov/health-information/weight-management/bariatric-surgery"
-        },
-        {
-          "label": "Mechanick et al. — Clinical practice guidelines for perioperative nutrition, metabolic, and nonsurgical support of bariatric patients (PubMed)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/31917200/"
-        },
-        {
-          "label": "Stenberg et al. — ERAS Society recommendations for perioperative care in bariatric surgery, 2021 update (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885505/"
-        },
-        {
-          "label": "Sogg et al. — Recommendations for the presurgical psychosocial evaluation of bariatric surgery patients (PubMed)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/27179400/"
-        },
-        {
-          "label": "ASMBS — Bariatric Surgery Procedures",
-          "url": "https://asmbs.org/patients/bariatric-surgery-procedures/"
-        },
-        {
-          "label": "ASMBS — Life After Bariatric Surgery",
-          "url": "https://asmbs.org/patients/life-after-bariatric-surgery/"
-        },
-        {
-          "label": "ASMBS — Integrated Health Nutritional Guidelines: Micronutrients",
-          "url": "https://asmbs.org/resources/integrated-health-nutritional-guidelines/"
-        },
-        {
-          "label": "BOMSS — Post-bariatric surgery nutritional guidance for GPs",
-          "url": "https://bomss.org/bomss-post-bariatric-surgery-nutritional-guidance-for-gps/"
-        },
-        {
-          "label": "O’Kane et al. — BOMSS biochemical monitoring and micronutrient replacement guidelines, 2020 update (PMC)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583474/"
-        },
-        {
-          "label": "MedlinePlus — Vertical sleeve gastrectomy",
-          "url": "https://medlineplus.gov/ency/article/007435.htm"
-        },
-        {
-          "label": "MedlinePlus — Weight Loss Surgery",
-          "url": "https://medlineplus.gov/weightlosssurgery.html"
-        },
-        {
-          "label": "Cleveland Clinic — Gastric Sleeve Surgery",
-          "url": "https://my.clevelandclinic.org/health/treatments/22931-gastric-sleeve-surgery"
-        },
-        {
-          "label": "Mayo Clinic — Gastric bypass diet: What to eat after the surgery",
-          "url": "https://www.mayoclinic.org/tests-procedures/gastric-bypass-surgery/in-depth/gastric-bypass-diet/art-20048472?p=1"
-        }
+        {"label": "NIDDK — Weight-loss (Metabolic & Bariatric) Surgery", "url": "https://www.niddk.nih.gov/health-information/weight-management/bariatric-surgery"},
+        {"label": "Mechanick et al. — Clinical practice guidelines for perioperative nutrition, metabolic, and nonsurgical support of bariatric patients (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/31917200/"},
+        {"label": "Stenberg et al. — ERAS Society recommendations for perioperative care in bariatric surgery, 2021 update (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8885505/"},
+        {"label": "Sogg et al. — Recommendations for the presurgical psychosocial evaluation of bariatric surgery patients (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/27179400/"},
+        {"label": "ASMBS — Bariatric Surgery Procedures", "url": "https://asmbs.org/patients/bariatric-surgery-procedures/"},
+        {"label": "ASMBS — Life After Bariatric Surgery", "url": "https://asmbs.org/patients/life-after-bariatric-surgery/"},
+        {"label": "ASMBS — Integrated Health Nutritional Guidelines: Micronutrients", "url": "https://asmbs.org/resources/integrated-health-nutritional-guidelines/"},
+        {"label": "BOMSS — Post-bariatric surgery nutritional guidance for GPs", "url": "https://bomss.org/bomss-post-bariatric-surgery-nutritional-guidance-for-gps/"},
+        {"label": "O’Kane et al. — BOMSS biochemical monitoring and micronutrient replacement guidelines, 2020 update (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583474/"},
+        {"label": "MedlinePlus — Vertical sleeve gastrectomy", "url": "https://medlineplus.gov/ency/article/007435.htm"},
+        {"label": "MedlinePlus — Weight Loss Surgery", "url": "https://medlineplus.gov/weightlosssurgery.html"},
+        {"label": "Cleveland Clinic — Gastric Sleeve Surgery", "url": "https://my.clevelandclinic.org/health/treatments/22931-gastric-sleeve-surgery"},
+        {"label": "NIDDK — Potential candidates for weight-loss surgery", "url": "https://www.niddk.nih.gov/health-information/weight-management/bariatric-surgery/potential-candidates"}
       ],
-      "seo": {
-        "title": {
-          "ar": "تقييم جراحة السمنة متعدد التخصصات",
-          "en": "Multidisciplinary bariatric assessment"
-        },
-        "description": {
-          "ar": "اعرف دور الجراح والطبيب وأخصائي التغذية والدعم النفسي والتخدير في تقييم جراحة السمنة، وإزاي النتيجة بتتحول لخطة مشتركة آمنة.",
-          "en": "Learn how surgery, medicine, nutrition, psychology and anaesthesia contribute to bariatric assessment and turn findings into a shared plan."
-        }
-      },
+      "seo": {"title": {"ar": "تقييم جراحة السمنة متعدد التخصصات", "en": "Multidisciplinary bariatric assessment"}, "description": {"ar": "إيه اللي بيراجعه الجرّاح والطبيب وأخصائي التغذية والدعم النفسي والتخدير قبل جراحة السمنة، وإزاي التقييم بيوصل لقرار مشترك.", "en": "Learn how surgery, medicine, nutrition, psychology and anaesthesia contribute to bariatric assessment and turn findings into a shared plan."}},
       "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "تم توسيع الدليل وتحديث مصادره ومراجعته طبياً لتوضيح القرار والمخاطر والمتابعة.",
-            "en": "The guide was expanded, its sources updated, and it was medically re-reviewed to clarify decisions, risks and follow-up."
-          }
-        }
+        {"date": "2026-09-27", "note": {"ar": "إعادة كتابة كاملة بالعامية المصرية بمحتوى محدد عن دور كل تخصص ومعايير NIDDK بدل الفقرات العامة المكررة، مع مراجع لكل قسم، واستبدال رابط Mayo Clinic المحجوب بصفحة NIDDK عن المرشحين للجراحة.", "en": "Fully rewritten in Egyptian Arabic with specific content on each discipline's role and NIDDK criteria replacing repeated generic paragraphs, citations in every section, and the blocked Mayo Clinic link replaced with the NIDDK candidates page."}}
       ]
     }
   ]
