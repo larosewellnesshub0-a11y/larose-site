@@ -21,8 +21,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "وسّعنا شرح قرار الدواء بعد نتيجة ما قبل السكري والمتابعة وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
-            "en": "We expanded the medicine decision after a prediabetes result, follow-up and warning signs, and medically re-reviewed the content."
+            "ar": "وسّعنا شرح قرار الدواء بعد نتيجة ما قبل السكري والمتابعة وعلامات الخطر، واتراجع المحتوى طبياً من جديد. اتضاف سؤالين شائعين عن نزول الوزن اللي بيفرق وعوامل الخطر لما قبل السكر، بمصادرهم.",
+            "en": "We expanded the medicine decision after a prediabetes result, follow-up and warning signs, and medically re-reviewed the content. Added two cited FAQs on meaningful weight loss and prediabetes risk factors."
           }
         }
       ],
@@ -263,7 +263,9 @@
             "ar": "مش تلقائياً لمجرد نتيجة ما قبل السكري. ADA بتوضح إن الدليل غير كافي لاستخدام الحساس المستمر للفحص أو التشخيص. الطبيب ممكن يطلب قياسات في موقف محدد، بس لازم يبقى فيه سؤال واضح وطريقة لتفسير النتيجة [1].",
             "en": "Not automatically for a prediabetes result alone. The ADA says evidence is insufficient to use continuous glucose monitoring for screening or diagnosis. A clinician may request measurements in a specific situation, but there should be a clear question and a way to interpret the result [1]."
           }
-        }
+        },
+        {"q": {"ar": "قد إيه نزول وزن يفرق فعلًا في مرحلة ما قبل السكر؟", "en": "How much weight loss actually makes a difference in prediabetes?"}, "a": {"ar": "نزول بسيط من 5 لـ7% من وزن الجسم، يعني حوالي 4.5 لـ6.5 كيلو لشخص وزنه حوالي 90 كيلو، مع 150 دقيقة مشي سريع أو نشاط مشابه في الأسبوع. وبرنامج تغيير نمط الحياة ممكن يقلل خطر السكر من النوع التاني بنسبة 58%، و71% فوق سن 60 [3].", "en": "A small amount of weight loss, around 5% to 7% of body weight (about 4.5 to 6.5 kg for a person weighing about 90 kg), plus at least 150 minutes a week of brisk walking or similar activity. A structured lifestyle change program can lower type 2 diabetes risk by 58%, or 71% for people over 60. [3]"}},
+        {"q": {"ar": "مين المفروض يعمل تحليل لما قبل السكر؟", "en": "Who should get checked for prediabetes?"}, "a": {"ar": "اللي عنده زيادة وزن، أو سنه 45 أو أكتر، أو في العيلة حد عنده سكر من النوع التاني، أو بيتحرك أقل من 3 مرات في الأسبوع، أو أصيب بسكر الحمل، أو ولد طفل أكتر من 4 كيلو تقريبًا، أو عنده تكيس المبايض [3].", "en": "People who are overweight, aged 45 or older, have a family history of type 2 diabetes, are physically active less than 3 times a week, have had gestational diabetes or a baby weighing more than about 4 kg, or have polycystic ovary syndrome. [3]"}}
       ],
       "sources": [
         {
