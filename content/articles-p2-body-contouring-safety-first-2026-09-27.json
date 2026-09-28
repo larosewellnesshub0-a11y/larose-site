@@ -19,8 +19,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "وسعنا مراجعة أمان التقنيات الخمس ومعدلات المضاعفات وفرط النمو المتناقض وموانع الاستخدام، مع مراجعة طبية شاملة.",
-            "en": "We expanded the safety profiles across five modalities, complication rates, paradoxical hyperplasia, contraindications, and completed a comprehensive medical re-review."
+            "ar": "وسعنا مراجعة أمان التقنيات الخمس ومعدلات المضاعفات وفرط النمو المتناقض وموانع الاستخدام، مع مراجعة طبية شاملة. اتضاف سؤالين شائعين عن إن النحت مش بيخسس وأنواع الأجهزة، بمصادرهم.",
+            "en": "We expanded the safety profiles across five modalities, complication rates, paradoxical hyperplasia, contraindications, and completed a comprehensive medical re-review. Added two cited FAQs on contouring not causing weight loss and the device technologies used."
           }
         }
       ],
@@ -247,7 +247,9 @@
             "ar": "لو ظهر ألم شديد مستمر مش بيخف بالمسكنات البسيطة، أو فقاقيع أو قرح، أو احمرار بينتشر مع سخونة أو صديد، أو كتلة صلبة بتكبر، الحالة محتاجة رعاية طبية عاجلة في نفس اليوم؛ وبعض الناس ممكن يحتاجوا دخول المستشفى. ما تحطش وصفات منزلية على المنطقة قبل التقييم [1, 4, 7, 11].",
             "en": "Severe pain that does not improve with simple pain relief, blisters or ulcers, spreading redness with warmth or pus, or a firm lump that keeps growing needs same-day urgent medical care; some people may need hospital admission. Do not apply home remedies before the area is assessed [1, 4, 7, 11]."
           }
-        }
+        },
+        {"q": {"ar": "النحت من غير جراحة بيخسّس؟", "en": "Does non-surgical contouring cause weight loss?"}, "a": {"ar": "لأ. نحت الجسم من غير جراحة مبيعالجش السمنة ومبيحسّنش الصحة، ومش هيعمل نزول وزن ولا الفوايد الصحية اللي بتيجي مع نزول الوزن [1].", "en": "No. Non-invasive body contouring does not treat obesity or improve your health. It will not result in weight loss or the health benefits that come with it. [1]"}},
+        {"q": {"ar": "الأجهزة دي بتشتغل بإيه؟", "en": "What technologies do these devices use?"}, "a": {"ar": "فيه أجهزة بتستخدم البرودة لتكسير الخلايا الدهنية، وأجهزة بتسخّن الأنسجة بالترددات الراديوية أو الليزر أو الضوء النبضي، وأجهزة بالموجات فوق الصوتية، وأجهزة بمجال مغناطيسي بيحرّك العضلات. وقبل أي جلسة قول للدكتور عن أمراضك وأدويتك وأي زرعات أو حساسية في الجلد [1].", "en": "Some use cold to kill fat cells, some heat tissue with radiofrequency, lasers or intense pulsed light, some use ultrasound, and some use pulsed magnetic fields that stimulate muscles. Before any session, tell your provider about medical conditions, medicines, implants and skin sensitivities. [1]"}}
       ],
       "sources": [
         {
