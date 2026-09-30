@@ -2339,6 +2339,16 @@ table { border-collapse: collapse; width: 100%; }
 .promo__lead { display: block; white-space: nowrap; font-size: 1.12em; }
 .promo__rest { display: block; }
 .promo__brand { white-space: nowrap; unicode-bidi: isolate; }
+/* Says what the figure is for; sits right above it. */
+.promo__price-label {
+  margin: 1rem 0 0;
+  text-align: center;
+  font-size: var(--t-sm);
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: var(--ink-muted);
+}
+.promo__price-label + .promo__price { margin-top: .35rem; }
 .promo__price {
   display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: .2rem 1rem;
   margin-top: 1rem;
