@@ -63,7 +63,12 @@ function articleCategories(c) {
     const slug = articleCategorySlug(entry.category?.slug || entry.category);
     add({ slug, name: entry.categoryName || { ar: slug, en: slug } });
   });
-  return categories;
+  // Same rule as the article pages: a category page exists only once it
+  // holds a published article, so list only those.
+  const live = (c.articles.articles || []).filter((entry) => entry && entry.published !== false);
+  return categories.filter((category) => live.some(
+    (entry) => articleCategorySlug(entry.category?.slug || entry.category) === category.slug,
+  ));
 }
 
 function nestedList({ locale, depth, root, children = [], nestedTitle = null, nested = [] }) {

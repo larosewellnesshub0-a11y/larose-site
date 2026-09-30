@@ -678,7 +678,7 @@
     function describe(days) {
       var names = days.map(function (d) { return DAY_NAMES[d]; });
       if (names.length === 1) return names[0];
-      return names.slice(0, -1).join("، ") + (isArabic ? " و" : " and ") + names[names.length - 1];
+      return names.slice(0, -1).join(isArabic ? "، " : ", ") + (isArabic ? " و" : " and ") + names[names.length - 1];
     }
 
     function refreshDay() {

@@ -290,11 +290,11 @@ ${pageHero({
             <label class="field__label" for="booking-time">${esc(t({ ar: "الوقت المفضّل", en: "Preferred time" }, locale))} <span class="field__opt">${esc(t({ ar: "اختياري", en: "optional" }, locale))}</span></label>
             ${(() => {
               /* A bare <input type="time"> accepted 02:00, and min/max on it is
-                 advisory in several browsers. The clinic runs 3:00-7:30 pm, so
+                 advisory in several browsers. Clinics run between 3:00 and 8:00 pm, so
                  the field offers those slots and nothing else - valid by
                  construction, and it still works with no JavaScript. */
               const slots = [];
-              for (let m = 15 * 60; m <= 19 * 60 + 30; m += 15) {
+              for (let m = 15 * 60; m <= 19 * 60 + 45; m += 15) {
                 const h = Math.floor(m / 60), mm = m % 60;
                 const value = `${String(h).padStart(2, "0")}:${String(mm).padStart(2, "0")}`;
                 const h12 = h > 12 ? h - 12 : h;
@@ -395,10 +395,16 @@ ${pageHero({
             const lines = [...byBranch.entries()].map(([bSlug, set]) => {
               const branch = branches.find((b) => t(b.slug, "en") === bSlug);
               const names = dayList([...set], locale);
-              return { branch: branch ? t(branch.name, locale) : bSlug, names, only: byBranch.size === 1 };
+              // A doctor whose hours differ by branch (hoursByBranch) gets
+              // the right time on each line.
+              const own = mine.length === 1 ? t(mine[0].hoursByBranch?.[bSlug], locale) : "";
+              return { branch: branch ? t(branch.name, locale) : bSlug, names, own, only: byBranch.size === 1 };
             });
+            /* One doctor: show that doctor's own hours (they differ, e.g. a
+               clinic to 8 pm). Several doctors: the clinic-wide time. */
+            const time = mine.length === 1 && t(mine[0].hours, locale) ? t(mine[0].hours, locale) : t(s.hours.time, locale);
             const body = lines.length
-              ? lines.map((l) => `<p>${icon("clock")} ${l.only ? "" : `<strong>${esc(l.branch)}</strong>: `}${esc(l.names)} · ${esc(t(s.hours.time, locale))}</p>`).join("")
+              ? lines.map((l) => `<p>${icon("clock")} ${l.only ? "" : `<strong>${esc(l.branch)}</strong>: `}${esc(l.names)} · ${esc(l.own || time)}</p>`).join("")
               : `<p>${icon("clock")} ${esc(t(s.hours.display, locale))}</p>`;
             return `<div data-clinic-hours data-specialty="${esc(slug)}"${i === 0 ? "" : " hidden"}>${body}</div>`;
           })}

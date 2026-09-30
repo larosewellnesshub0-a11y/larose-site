@@ -226,3 +226,12 @@
   }
   .utility-bar .theme-toggle:hover { background: rgba(246, 244, 236, .12); border-color: rgba(212, 183, 147, .7); }
 }
+
+/* ---- Doctor portrait placeholder ------------------------------------------ */
+[data-theme="dark"] .doctor-placeholder {
+  background:
+    radial-gradient(90% 60% at 50% 18%, rgba(74, 62, 44, .45), transparent 70%),
+    linear-gradient(165deg, #15150F 0%, #0B0B08 55%, #1E1414 100%);
+  color: #6E6C55;
+}
+[data-theme="dark"] .doctor-list .ico { color: var(--rose-500); }

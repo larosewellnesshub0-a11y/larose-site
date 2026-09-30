@@ -1015,6 +1015,30 @@
   .header-actions .btn { display: none; }
 }
 
+/* Portrait placeholder for a doctor whose photo has not arrived yet
+   (2026-09-30). Same proportions as the real portraits (450x562 on cards,
+   600x750 on the doctor page) so cards line up; brand gradient and a large
+   silhouette instead of an empty box. */
+.doctor-placeholder {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 450 / 562;
+  background:
+    radial-gradient(90% 60% at 50% 18%, rgba(244, 235, 221, .9), transparent 70%),
+    linear-gradient(165deg, var(--olive-100) 0%, var(--paper-sunk) 55%, var(--rose-100) 100%);
+  color: var(--olive-400);
+}
+.doctor-placeholder--tall { aspect-ratio: 600 / 750; }
+.doctor-placeholder .ico { width: 42%; height: auto; opacity: .7; }
+
+/* Doctor page lists: services and conditions treated. */
+.doctor-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; align-content: start; }
+.doctor-list li { display: flex; align-items: flex-start; gap: .6rem; line-height: 1.5; }
+.doctor-list .ico { flex: none; width: 1.05rem; height: 1.05rem; margin-top: .22em; color: var(--rose-600); }
+.doctor-list--services { grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); gap: .75rem 2rem; margin-top: 1.25rem; }
+.doctor-conditions .card__body { display: grid; gap: 1rem; align-content: start; }
+
 /* Keep a linked FAQ answer clear of the sticky header. */
 .faq__item, .faq__a { scroll-margin-top: 6rem; }
 

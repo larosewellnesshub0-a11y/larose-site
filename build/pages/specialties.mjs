@@ -226,7 +226,11 @@ function specialtyDetail({ c, locale, specs, sp }) {
     ...(resultsBody
       ? [{ key: "results", label: t(c.site.ui.tabResults, locale), body: resultsBody }]
       : []),
-    { key: "faq", label: t(c.site.ui.tabFaq, locale), body: faqPanel({ c, locale, sp }) },
+    // Only when there is something to show: a specialty without FAQs yet
+    // (rheumatology, 2026-09-30) would otherwise get an empty tab.
+    ...((sp.faq || []).length
+      ? [{ key: "faq", label: t(c.site.ui.tabFaq, locale), body: faqPanel({ c, locale, sp }) }]
+      : []),
   ];
   const related = specs.filter((candidate) => candidate.slug !== sp.slug).slice(0, 4);
   const base = `https://${c.site.brand.domain}`;

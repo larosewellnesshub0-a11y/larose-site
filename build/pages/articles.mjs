@@ -386,7 +386,13 @@ function libraryData(c) {
     });
   });
 
-  return { entries, categories };
+  // A category with no published article would be an empty, indexable page
+  // (a new specialty such as rheumatology, 2026-09-30). Keep only categories
+  // that hold at least one; one appears by itself once its first article is
+  // published.
+  const live = published(entries).filter((entry) => entrySlug(entry));
+  const used = categories.filter((category) => live.some((entry) => entryCategorySlug(entry) === categorySlug(category)));
+  return { entries, categories: used };
 }
 
 function categoryFor(categories, entry) {

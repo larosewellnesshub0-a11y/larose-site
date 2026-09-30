@@ -97,10 +97,12 @@ export function doctorCard({ c, locale, depth, d }) {
     ? `<img src="${asset(depth, d.portrait)}" srcset="${asset(depth, d.portrait)} 450w, ${asset(depth, d.portrait2x || d.portrait)} 900w"
             sizes="(max-width: 640px) 46vw, 22vw"
             alt="${esc(t(d.name, locale))}" width="450" height="562" loading="lazy" decoding="async">`
-    : `<div class="doctor-placeholder">${icon("user")}</div>`;
+    : `<div class="doctor-placeholder" role="img" aria-label="${esc(t({ ar: "صورة الطبيب قريباً", en: "Doctor's photo coming soon" }, locale))}">${icon("user")}</div>`;
 
+  /* Placeholder portraits take the same arch as real ones so a row of doctor
+     cards lines up whether or not a photo has arrived yet. */
   return `<article class="card card--doctor" data-reveal>
-    <div class="card__media${d.portrait ? " arch arch--ruled" : ""}">
+    <div class="card__media arch arch--ruled">
       ${media}
       ${when(d.sample, `<span class="badge-sample">${esc(t(s.ui.sample, locale))}</span>`)}
     </div>

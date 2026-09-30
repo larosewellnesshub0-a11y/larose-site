@@ -76,8 +76,8 @@ ${pageHero({
 function portrait({ c, locale, depth, doctor }) {
   const badge = when(doctor.sample, `<span class="badge-sample">${esc(t(c.site.ui.sample, locale))}</span>`);
   if (!doctor.portrait) {
-    return `<div class="doctor-placeholder" style="position:relative">
-      ${icon("user")}
+    return `<div class="arch arch--ruled arch--tall">
+      <div class="doctor-placeholder doctor-placeholder--tall" role="img" aria-label="${esc(t({ ar: "صورة الطبيب قريباً", en: "Doctor's photo coming soon" }, locale))}">${icon("user")}</div>
       ${badge}
     </div>`;
   }
@@ -103,6 +103,11 @@ function doctorDetail({ c, locale, doctor, specs }) {
   const base = `https://${c.site.brand.domain}`;
   const pageUrl = absolutePageUrl(base, locale, `doctors/${slug}`);
   const medicalSpecialty = doctorSpecs.map((sp) => t(sp.name, locale)).filter(Boolean);
+  const services = ta(doctor.services, locale);
+  const conditionGroups = (doctor.conditions || [])
+    .map((group) => ({ title: t(group.title, locale), items: ta(group.items, locale) }))
+    .filter((group) => group.items.length);
+  const conditionNames = conditionGroups.flatMap((group) => group.items);
   const physicianSchema = {
     // schema.org's Physician is an organisation type (it needs an address and
     // cannot take worksFor), so an individual doctor is marked up as a Person.
@@ -111,7 +116,9 @@ function doctorDetail({ c, locale, doctor, specs }) {
     name: t(doctor.name, locale),
     description: t(doctor.bio, locale) || undefined,
     jobTitle: t({ ar: "طبيب", en: "Physician" }, locale),
-    knowsAbout: medicalSpecialty.length ? medicalSpecialty : undefined,
+    // Specialties first, then the conditions the doctor lists, so search
+    // engines can match a doctor to the condition a patient searches for.
+    knowsAbout: [...medicalSpecialty, ...conditionNames].length ? [...medicalSpecialty, ...conditionNames] : undefined,
     worksFor: { "@id": `${base}/#clinic` },
     url: pageUrl,
     ...(doctor.portrait
@@ -162,6 +169,27 @@ function doctorDetail({ c, locale, doctor, specs }) {
     <div class="prose"><p>${esc(t(doctor.bio, locale))}</p></div>
   </div>
 </section>
+
+${/* Services and the conditions the doctor treats, as supplied by the
+      clinic (2026-09-30). Plain text lists, so they are read by search
+      engines and by people scanning for their own condition. */""}
+${when(services.length || conditionGroups.length, `<section class="section" style="padding-top:0">
+  <div class="wrap">
+    ${when(services.length, `
+    ${sectionHead({ title: t({ ar: "خدمات الطبيب", en: "Services" }, locale) })}
+    <ul class="doctor-list doctor-list--services">${map(services, (item) => `<li>${icon("check")}<span>${esc(item)}</span></li>`)}</ul>`)}
+    ${when(conditionGroups.length, `
+    <div style="margin-top:${services.length ? "clamp(2.5rem,5vw,4rem)" : "0"}">
+      ${sectionHead({ title: t({ ar: "الحالات اللي بيتابعها الطبيب", en: "Conditions treated" }, locale) })}
+      <div class="grid grid-3 doctor-conditions">
+        ${map(conditionGroups, (group) => `<article class="card"><div class="card__body">
+          <h3 class="h4">${esc(group.title)}</h3>
+          <ul class="doctor-list">${map(group.items, (item) => `<li>${icon("check")}<span>${esc(item)}</span></li>`)}</ul>
+        </div></article>`)}
+      </div>
+    </div>`)}
+  </div>
+</section>`)}
 
 <section class="section section--tint">
   <div class="wrap">
