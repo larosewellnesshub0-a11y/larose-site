@@ -90,6 +90,15 @@ function langSwitch({ c, locale, depth, pagePath, cls = "lang-switch" }) {
      >${icon("globe")}<span>${esc(label)}</span></a>`;
 }
 
+/* Light/dark switch. Both icons are in the markup; CSS shows the moon in the
+   light theme and the sun in the dark one, so there is no flash while the
+   script loads. site.js flips data-theme and remembers the choice. */
+function themeToggle({ locale }) {
+  return `<button class="theme-toggle" type="button" data-theme-toggle
+     aria-label="${esc(t({ ar: "بدّل بين الوضع الفاتح والغامق", en: "Switch between light and dark mode" }, locale))}">
+     ${icon("moon", "ico theme-toggle__moon")}${icon("sun", "ico theme-toggle__sun")}</button>`;
+}
+
 function utilityBar({ c, locale, depth, pagePath }) {
   const s = c.site;
   const other = locale === "ar" ? "en" : "ar";
@@ -105,6 +114,7 @@ function utilityBar({ c, locale, depth, pagePath }) {
     <div class="utility-bar__meta">
       <a href="tel:${esc(s.contact.phone.tel)}">${icon("phone")}<bdi class="num">${esc(s.contact.phone.display)}</bdi></a>
       ${langSwitch({ c, locale, depth, pagePath })}
+      ${themeToggle({ locale })}
     </div>
   </div>
 </div>`;
@@ -165,6 +175,7 @@ function header({ c, locale, depth, active, pagePath }) {
 
     <div class="header-actions">
       ${langSwitch({ c, locale, depth, pagePath, cls: "lang-switch lang-switch--header" })}
+      ${themeToggle({ locale })}
       <a class="btn btn--primary btn--sm" href="${link(depth, "patients/booking.html")}">${esc(t(s.ui.bookShort || s.ui.bookNow, locale))}</a>
       <button class="burger" type="button" aria-expanded="false" aria-controls="drawer"
               aria-label="${esc(t(s.ui.menu, locale))}"><span></span></button>
@@ -206,7 +217,10 @@ function drawer({ c, locale, depth, pagePath }) {
       <a class="wordmark" href="${link(depth, "index.html")}">
         <img src="${asset(depth, s.brand.logo.wordmarkSmall || s.brand.logo.wordmark)}" alt="${esc(t(s.brand.name, locale))}" width="280" height="242">
       </a>
-      <button class="burger" type="button" data-drawer-close aria-label="${esc(t(s.ui.close, locale))}"><span></span></button>
+      <div class="drawer__head-actions">
+        ${langSwitch({ c, locale, depth, pagePath, cls: "lang-switch lang-switch--drawer" })}
+        <button class="burger" type="button" data-drawer-close aria-label="${esc(t(s.ui.close, locale))}"><span></span></button>
+      </div>
     </div>
     <div class="drawer__body">
       <nav aria-label="${esc(t({ ar: "قائمة الموبايل", en: "Mobile menu" }, locale))}">${groups}</nav>
@@ -219,7 +233,6 @@ function drawer({ c, locale, depth, pagePath }) {
       <a class="btn btn--ghost btn--block" href="tel:${esc(s.contact.phone.tel)}">
         ${icon("phone")} <bdi class="num">${esc(s.contact.phone.display)}</bdi>
       </a>
-      ${langSwitch({ c, locale, depth, pagePath, cls: "lang-switch lang-switch--drawer" })}
     </div>
   </div>
 </div>`;
@@ -627,6 +640,12 @@ export function page(opts) {
 <meta name="description" content="${esc(metaDescription)}">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#8E8B63">
+<!-- Light and dark themes (2026-09-30). The script runs before the first
+     paint: a saved choice wins, otherwise the device setting. Declaring both
+     schemes also stops browsers force-inverting the page (which turned the
+     white logo dark); the light theme is marked "only light" in CSS. -->
+<meta name="color-scheme" content="light dark" id="color-scheme">
+<script>(function(){var t;try{t=localStorage.getItem("lr-theme")}catch(e){}if(t!=="light"&&t!=="dark"){t=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}document.documentElement.setAttribute("data-theme",t);document.getElementById("color-scheme").setAttribute("content",t==="dark"?"dark":"only light")})();</script>
 <link rel="canonical" href="${canonical}">
 <link rel="alternate" hreflang="ar" href="${arUrl}">
 <link rel="alternate" hreflang="en" href="${enUrl}">
@@ -663,6 +682,7 @@ ${heroPreload}
 <link rel="stylesheet" href="${asset(depth, "assets/css/base.css")}">
 <link rel="stylesheet" href="${asset(depth, "assets/css/components.css")}">
 <link rel="stylesheet" href="${asset(depth, "assets/css/layout.css")}">
+<link rel="stylesheet" href="${asset(depth, "assets/css/dark.css")}">
 
 ${trackingHead(c)}
 ${jsonLd({ c, locale, pagePath, schema, body, canonicalUrl: canonical, currentName: title || brand })}

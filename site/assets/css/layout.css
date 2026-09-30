@@ -351,7 +351,7 @@
 
 .drawer__head {
   display: flex; align-items: center; justify-content: space-between;
-  padding: .75rem 1rem .75rem 1.25rem;
+  padding: .6rem 1rem .6rem 1.25rem;
   position: sticky; top: 0;
   background: linear-gradient(to bottom, rgba(255, 255, 255, .55), rgba(255, 255, 255, .25));
   backdrop-filter: blur(16px);
@@ -359,12 +359,12 @@
   border-bottom: 1px solid rgba(255, 255, 255, .6);
   z-index: 2;
 }
-[dir="rtl"] .drawer__head { padding: .75rem 1.25rem .75rem 1rem; }
-.drawer__head .wordmark img { height: 2.35rem; }
+[dir="rtl"] .drawer__head { padding: .6rem 1.25rem .6rem 1rem; }
+.drawer__head .wordmark img { height: 2.2rem; }
 .drawer__head .burger { width: 2.5rem; height: 2.5rem; border-radius: 999px; background: rgba(255, 255, 255, .55); border-color: rgba(255, 255, 255, .8); }
 .drawer__body { padding: .5rem 1.25rem 1rem; flex: 1; }
 .drawer__foot {
-  padding: 1rem 1.25rem 1.25rem;
+  padding: .85rem 1.25rem 1rem;
   border-top: 1px solid rgba(255, 255, 255, .6);
   display: grid; gap: .5rem;
   background: rgba(255, 255, 255, .18);
@@ -373,22 +373,41 @@
 /* The card is light glass, so its secondary controls take dark ink on a
    frosted white fill (the language switch otherwise inherits the olive
    strip's light text). */
+/* The language switch sits in the card's head beside the close button, so
+   the collapsed menu fits a phone screen without scrolling (2026-09-30). */
+.drawer__head-actions { display: flex; align-items: center; gap: .5rem; }
+.drawer__head .lang-switch--drawer { width: auto; min-height: 2.5rem; padding-inline: .9rem; font-size: var(--t-sm); }
 .drawer__foot .btn--ghost,
-.drawer__foot .lang-switch--drawer {
+.drawer__head .lang-switch--drawer {
   background: rgba(255, 255, 255, .5);
   border: 1px solid rgba(255, 255, 255, .85);
   color: var(--ink-strong);
   box-shadow: inset 0 1px 0 #fff;
 }
-.drawer__foot .lang-switch--drawer .ico { color: var(--olive-600); opacity: 1; }
+.drawer__head .lang-switch--drawer .ico { color: var(--olive-600); opacity: 1; }
+/* Mobile browsers paint a grey rectangle over a tapped control; on the
+   close button it lingered as a box while the card faded out. The controls
+   have their own pressed states, so the highlight is switched off. */
+.drawer, .drawer *, .action-bar, .action-bar * { -webkit-tap-highlight-color: transparent; }
+/* Rows tighten on short screens so the collapsed menu fits without
+   scrolling; an expanded group can still scroll, but with no scrollbar. */
+.drawer__panel { scrollbar-width: none; }
+/* Short phones (an iPhone SE with its browser bars shows about 548px). */
+@media (max-height: 600px) {
+  .drawer .drawer-nav__toggle { padding-block: .3rem; font-size: 1rem; }
+  .drawer .drawer__body { padding-block: .25rem .5rem; }
+  .drawer__foot { gap: .4rem; padding-block: .6rem .75rem; }
+  .drawer__foot .btn { min-height: 2.5rem; padding-block: .4rem; }
+}
+.drawer__panel::-webkit-scrollbar { display: none; }
 
 .drawer-nav__group + .drawer-nav__group { border-top: 1px solid rgba(142, 139, 99, .14); }
 .drawer-nav__toggle {
   width: 100%;
   display: flex; align-items: center; justify-content: space-between; gap: 1rem;
-  padding: .8rem 0;
+  padding: clamp(.45rem, 1.35vh, .8rem) 0;
   font-family: var(--font-head);
-  font-size: 1.15rem;
+  font-size: clamp(1.02rem, 2.3vh, 1.15rem);
   color: var(--ink-strong);
   text-align: start;
 }
@@ -902,7 +921,18 @@ body.is-locked { overflow: hidden; }
   color: var(--ink-faint);
   letter-spacing: .02em;
 }
-@media (min-width: 1340px) { .wordmark__text { display: flex; } }
+/* 1760, not 1340: from 1340 up to ~1700 the text pushed the English nav under the Book
+   button or the button off the edge (2026-09-30 measurement). */
+@media (min-width: 1760px) { .wordmark__text { display: flex; } }
+/* Laptops, 1100-1279px: the English labels need every pixel. Tighter header
+   padding, gaps and link spacing, and a leaner Book button, so the last nav
+   label no longer runs under it (it overlapped by up to 177px). */
+@media (min-width: 1100px) and (max-width: 1279px) {
+  .site-header__inner { padding-inline: 1rem; gap: .75rem; }
+  .nav--primary .nav__link { padding-inline: .22rem; gap: .2em; }
+  .nav { gap: .1rem; }
+  .header-actions .btn--primary { padding-inline: 1.05em; min-inline-size: 0; }
+}
 
 /* The clinic's own name is the first thing a visitor should be able to read on
    the page. At 1.05rem it was quieter than the eyebrow underneath it, which is

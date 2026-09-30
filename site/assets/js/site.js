@@ -134,20 +134,28 @@
   function nudgeIntoView(item) {
     var panel = item.querySelector(".nav__panel");
     if (!panel) return;
+    // The panel animates its transform, so measure with the transition off;
+    // otherwise the reading is the in-flight position, not the reset one.
+    var transition = panel.style.transition;
+    panel.style.transition = "none";
     panel.style.setProperty("--panel-nudge", "0px");
     var margin = 12;
     var r = panel.getBoundingClientRect();
+    void panel.offsetWidth;
+    window.requestAnimationFrame(function () { panel.style.transition = transition; });
     var nudge = 0;
     if (r.left < margin) nudge = margin - r.left;
     else if (r.right > window.innerWidth - margin) nudge = (window.innerWidth - margin) - r.right;
     if (nudge) panel.style.setProperty("--panel-nudge", Math.round(nudge) + "px");
   }
 
-  window.addEventListener("resize", function () {
-    dropdowns.forEach(function (d) {
-      if (d.classList.contains("is-open")) nudgeIntoView(d);
-    });
-  }, { passive: true });
+  /* Closed panels are only invisible, so one hanging past the edge still
+     widened the page and let it scroll sideways (170px at 1100px in
+     English). Nudge every panel, open or not, on load and on resize. */
+  function nudgeAll() { dropdowns.forEach(nudgeIntoView); }
+  nudgeAll();
+  window.addEventListener("load", nudgeAll);
+  window.addEventListener("resize", nudgeAll, { passive: true });
 
   document.addEventListener("click", function (e) {
     if (!e.target.closest("[data-dropdown]")) closeAllDropdowns(null);
@@ -155,6 +163,40 @@
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") closeAllDropdowns(null);
   });
+
+  /* ---------------------------------------------------------------------
+     Light / dark theme. The head script already set data-theme before the
+     first paint; this wires the header switch, remembers the choice, and
+     follows the device setting for as long as nothing has been chosen.
+     --------------------------------------------------------------------- */
+  var root = document.documentElement;
+  function setTheme(theme, remember) {
+    root.setAttribute("data-theme", theme);
+    // "only light" is what stops a browser's forced dark mode inverting the
+    // light theme; the dark theme declares itself dark.
+    var meta = document.getElementById("color-scheme");
+    if (meta) meta.setAttribute("content", theme === "dark" ? "dark" : "only light");
+    document.querySelectorAll("[data-theme-toggle]").forEach(function (b) {
+      b.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+    });
+    if (remember) { try { localStorage.setItem("lr-theme", theme); } catch (e) {} }
+  }
+  setTheme(root.getAttribute("data-theme") === "dark" ? "dark" : "light", false);
+  document.querySelectorAll("[data-theme-toggle]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      setTheme(root.getAttribute("data-theme") === "dark" ? "light" : "dark", true);
+    });
+  });
+  if (window.matchMedia) {
+    var scheme = window.matchMedia("(prefers-color-scheme: dark)");
+    var follow = function (e) {
+      var saved = null;
+      try { saved = localStorage.getItem("lr-theme"); } catch (err) {}
+      if (saved !== "light" && saved !== "dark") setTheme(e.matches ? "dark" : "light", false);
+    };
+    if (scheme.addEventListener) scheme.addEventListener("change", follow);
+    else if (scheme.addListener) scheme.addListener(follow);
+  }
 
   /* ---------------------------------------------------------------------
      Mobile drawer
