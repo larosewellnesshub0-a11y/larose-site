@@ -1080,11 +1080,63 @@
     gap: .25rem;
     padding: .35rem;
     border-radius: var(--r-pill, 999px);
-    background: var(--gloss-bg);
-    backdrop-filter: var(--gloss-blur);
-    -webkit-backdrop-filter: var(--gloss-blur);
-    border: var(--gloss-border);
-    box-shadow: var(--gloss-shadow);
+    /* Liquid glass (2026-09-30), modelled on Apple's material: a clear,
+       lightly tinted body whose blur also brightens and saturates what is
+       behind it; a rim that catches light hardest at the top-leading and
+       bottom-trailing edges (::after); a specular sheen over the upper half
+       (::before); an inner glow; and a soft floating shadow. */
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, .34) 0%, rgba(255, 255, 255, .14) 100%);
+    backdrop-filter: blur(18px) saturate(210%) brightness(1.12);
+    -webkit-backdrop-filter: blur(18px) saturate(210%) brightness(1.12);
+    border: 0;
+    box-shadow:
+      inset 0 0 0 .5px rgba(255, 255, 255, .45),
+      inset 0 1px 1.5px rgba(255, 255, 255, .95),
+      inset 0 -1px 1.5px rgba(255, 255, 255, .45),
+      inset 0 0 22px rgba(255, 255, 255, .28),
+      0 10px 30px -6px rgba(35, 36, 26, .28),
+      0 2px 6px rgba(35, 36, 26, .10);
+    isolation: isolate;
+  }
+  .action-bar::before,
+  .action-bar::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    z-index: -1;
+  }
+  /* Specular sheen: a soft highlight across the upper half, strongest on the
+     leading side, fading out before the middle. */
+  .action-bar::before {
+    background:
+      radial-gradient(120% 140% at 18% -30%, rgba(255, 255, 255, .75), rgba(255, 255, 255, 0) 55%),
+      linear-gradient(180deg, rgba(255, 255, 255, .35) 0%, rgba(255, 255, 255, 0) 48%);
+    mix-blend-mode: screen;
+  }
+  /* The rim: a 1.2px gradient border that is brightest where light would
+     catch a curved glass edge. */
+  .action-bar::after {
+    padding: 1.2px;
+    background: linear-gradient(135deg,
+      rgba(255, 255, 255, .98) 0%, rgba(255, 255, 255, .35) 28%,
+      rgba(255, 255, 255, .12) 55%, rgba(255, 255, 255, .55) 85%, rgba(255, 255, 255, .9) 100%);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+            mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+            mask-composite: exclude;
+  }
+  [dir="rtl"] .action-bar::before {
+    background:
+      radial-gradient(120% 140% at 82% -30%, rgba(255, 255, 255, .75), rgba(255, 255, 255, 0) 55%),
+      linear-gradient(180deg, rgba(255, 255, 255, .35) 0%, rgba(255, 255, 255, 0) 48%);
+  }
+  [dir="rtl"] .action-bar::after {
+    background: linear-gradient(225deg,
+      rgba(255, 255, 255, .98) 0%, rgba(255, 255, 255, .35) 28%,
+      rgba(255, 255, 255, .12) 55%, rgba(255, 255, 255, .55) 85%, rgba(255, 255, 255, .9) 100%);
   }
   .action-bar__item {
     display: flex;
@@ -1706,19 +1758,19 @@
 
 /* ==========================================================================
    22. WEBSITE-OFFER CARD (2026-09-30)
-   A floating card, not a full-screen overlay: the page stays visible and
-   usable behind it (Google's intrusive-interstitial guidance). Desktop: a
-   corner card opposite the floating buttons. Phones: a sheet above the
-   bottom pill. Built and shown by site.js after time on the site.
+   Desktop: a corner card opposite the floating buttons, no backdrop. Phones:
+   centred on screen over a soft dimmed backdrop that closes it on tap. Only
+   shown by site.js after time on the site and some scrolling.
    ========================================================================== */
 .promo {
   position: fixed;
   z-index: calc(var(--z-drawer) - 1);
   inset-inline-start: clamp(1rem, 2vw, 1.75rem);
   bottom: clamp(1rem, 2vw, 1.75rem);
-  width: min(25rem, calc(100vw - 2rem));
-  padding: 1.35rem 1.35rem 1.25rem;
-  border-radius: 1.5rem;
+  width: min(26rem, calc(100vw - 2rem));
+  padding: 1.6rem 1.4rem 1.3rem;
+  border-radius: 1.6rem;
+  text-align: center;
   /* The glossy material plus a denser paper layer underneath: it floats over
      running text, which must not read through it. */
   background: var(--gloss-bg), linear-gradient(rgba(251, 249, 244, .72), rgba(251, 249, 244, .72));
@@ -1732,14 +1784,14 @@
   transition: opacity var(--dur-3) var(--ease), transform var(--dur-3) var(--ease-out);
 }
 .promo.is-in { opacity: 1; transform: none; }
-/* A rose-to-champagne ribbon along the top edge: the one flourish. */
 .promo::before {
   content: "";
   position: absolute; inset-inline: 0; top: 0; height: 4px;
   background: linear-gradient(90deg, var(--rose-500), var(--champagne-500), var(--rose-500));
 }
+.promo-scrim { display: none; }
 .promo__close {
-  position: absolute; top: .7rem; inset-inline-end: .7rem;
+  position: absolute; top: .75rem; inset-inline-end: .75rem;
   width: 2.25rem; height: 2.25rem;
   display: grid; place-items: center;
   border-radius: 999px;
@@ -1752,44 +1804,63 @@
 .promo__close svg { width: 1rem; height: 1rem; }
 .promo__close:hover { color: var(--ink-strong); background: rgba(255, 255, 255, .85); }
 .promo__eyebrow {
-  font-size: var(--t-xs);
+  font-size: var(--t-sm);
   font-weight: 600;
-  letter-spacing: .04em;
+  letter-spacing: .03em;
   color: var(--rose-700);
-  padding-inline-end: 2.5rem;
+  padding-inline: 2.4rem;          /* clear of the close button, still centred */
 }
 .promo__title {
-  margin-top: .35rem;
-  padding-inline-end: 1.5rem;
+  margin-top: .45rem;
   font-family: var(--font-head);
-  font-size: clamp(1.1rem, 1rem + .5vw, 1.3rem);
-  line-height: 1.3;
+  font-size: clamp(1.05rem, .95rem + .6vw, 1.3rem);
+  line-height: 1.35;
   color: var(--ink-strong);
 }
+.promo__lead { display: block; white-space: nowrap; font-size: 1.12em; }
+.promo__rest { display: block; }
+.promo__brand { white-space: nowrap; unicode-bidi: isolate; }
 .promo__price {
-  display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem .75rem;
-  margin-top: .9rem;
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: .2rem 1rem;
+  margin-top: 1rem;
 }
 .promo__now {
   font-family: var(--font-head);
-  font-size: clamp(1.9rem, 1.6rem + 1.2vw, 2.4rem);
+  font-size: clamp(2.6rem, 2.2rem + 2vw, 3.3rem);
   line-height: 1;
   color: var(--rose-600);
+  white-space: nowrap;
 }
-.promo__was { font-size: var(--t-md); color: var(--ink-faint); text-decoration-thickness: 1.5px; }
+/* The old price: struck through by a clear rose diagonal, not a hairline. */
+.promo__was {
+  position: relative;
+  font-size: clamp(1.25rem, 1.1rem + .6vw, 1.5rem);
+  color: var(--ink-faint);
+  white-space: nowrap;
+  text-decoration: line-through;
+  text-decoration-color: rgba(185, 111, 114, .55);
+}
+.promo__was::after {
+  content: "";
+  position: absolute; left: -6%; right: -6%; top: 52%;
+  height: 2.5px; border-radius: 2px;
+  background: var(--rose-600);
+  transform: rotate(-9deg);
+}
+.promo__save-row { margin-top: .75rem; }
 .promo__save {
   display: inline-flex; align-items: center;
-  padding: .3em .8em;
+  padding: .35em .95em;
   border-radius: 999px;
-  font-size: var(--t-xs); font-weight: 700;
+  font-size: var(--t-sm); font-weight: 700;
   color: #5A4424;
   background: linear-gradient(180deg, var(--champagne-300), var(--champagne-500));
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .6);
 }
-.promo__body { margin-top: .75rem; font-size: var(--t-sm); line-height: 1.6; color: var(--ink); }
+.promo__body { margin-top: .8rem; font-size: var(--t-sm); line-height: 1.65; color: var(--ink); }
 .promo__terms { margin-top: .4rem; font-size: var(--t-xs); color: var(--ink-muted); }
-.promo__actions { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; margin-top: 1.1rem; }
-.promo__actions .btn { justify-content: center; min-height: 2.9rem; font-size: var(--t-sm); padding-inline: .8em; }
+.promo__actions { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; margin-top: 1.15rem; }
+.promo__actions .btn { justify-content: center; min-height: 2.95rem; font-size: var(--t-sm); padding-inline: .8em; }
 .promo__book {
   background: linear-gradient(180deg, var(--rose-500), var(--rose-600));
   border-color: transparent;
@@ -1804,27 +1875,32 @@
 }
 .promo__ask:hover { background: rgba(255, 255, 255, .9); }
 
-/* Phones: a sheet that sits just above the floating bottom pill. */
+/* Phones: centred on screen, over a soft backdrop. */
 @media (max-width: 720px) {
-  .promo {
-    inset-inline: .75rem;
-    width: auto;
-    bottom: calc(5.4rem + env(safe-area-inset-bottom, 0px));
-    padding: 1.15rem 1.1rem 1.05rem;
+  .promo-scrim {
+    display: block;
+    position: fixed; inset: 0;
+    z-index: calc(var(--z-drawer) - 2);
+    background: rgba(35, 36, 26, .32);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    opacity: 0;
+    transition: opacity var(--dur-3) var(--ease);
   }
+  .promo-scrim.is-in { opacity: 1; }
+  .promo {
+    inset-inline: 0;
+    top: 50%;
+    bottom: auto;
+    margin-inline: auto;
+    width: min(24rem, calc(100vw - 1.75rem));
+    max-height: calc(100dvh - 2rem);
+    overflow-y: auto;
+    padding: 1.5rem 1.15rem 1.15rem;
+    transform: translateY(-46%) scale(.96);
+  }
+  .promo.is-in { transform: translateY(-50%); }
 }
 @media (prefers-reduced-motion: reduce) {
-  .promo { transition: opacity var(--dur-2) linear; transform: none; }
-}
-
-/* Booking form: the offer the visitor came in with. */
-.promo-applied {
-  margin-bottom: 1rem;
-  padding: .7rem 1rem;
-  border-radius: var(--r-lg);
-  background: var(--rose-100);
-  border: 1px solid var(--rose-300);
-  color: var(--rose-700);
-  font-size: var(--t-sm);
-  font-weight: 600;
+  .promo { transition: opacity var(--dur-2) linear; }
 }
