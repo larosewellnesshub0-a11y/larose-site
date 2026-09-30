@@ -861,12 +861,18 @@
   }
   var src = body.getAttribute("data-promo");
   if (!src || !window.fetch) return;
-  /* Once per visit (user request 2026-09-30): the clock starts on the first
-     page of the visit, the popup shows 10 s in, and once it has been seen it
-     stays away for the rest of that visit. A new visit (new tab or a later
-     session) shows it again. Nothing is kept across visits. */
+  /* Once per visit (user request 2026-09-30): 10 s after a visit starts, on
+     whatever page the visitor is on (the clock carries across pages), the
+     popup shows. A visit ends after 30 minutes without the popup being shown
+     again, the same rule analytics uses for a session, so a phone tab left
+     open for days still gets it on the next visit. */
   var KEY_T0 = "lr-promo-t0";
-  var KEY_SEEN = "lr-promo-seen";
+  var KEY_SEEN_AT = "lr-promo-seen-at";
+  var VISIT_MS = 30 * 60 * 1000;
+  function seenThisVisit() {
+    var at = Number(get("localStorage", KEY_SEEN_AT) || 0);
+    return at > 0 && Date.now() - at < VISIT_MS;
+  }
   // The old build snoozed the offer for 7-30 days in localStorage; clear it
   // so visitors who closed it before see it again.
   try { window.localStorage.removeItem("lr-promo-snooze-until"); } catch (e) {}
@@ -938,7 +944,7 @@
   var cfg = null, shown = false, timer = null;
   function ready() {
     if (!cfg || shown || document.hidden || expired(cfg)) return false;
-    if (get("sessionStorage", KEY_SEEN) === "1") return false;
+    if (seenThisVisit()) return false;
     if (Date.now() - Number(get("sessionStorage", KEY_T0) || Date.now()) < (cfg.delaySeconds || 10) * 1000) return false;
     var drawer = document.getElementById("drawer");
     if (drawer && drawer.classList.contains("is-open")) return false;
@@ -947,7 +953,7 @@
 
   function show() {
     shown = true;
-    set("sessionStorage", KEY_SEEN, "1");
+    set("localStorage", KEY_SEEN_AT, String(Date.now()));
     window.clearInterval(timer);
     var copy = cfg[isAr ? "ar" : "en"];
     var scrim = el("div", "promo-scrim");
@@ -990,12 +996,17 @@
     actions.querySelector(".promo__ask").addEventListener("click", function () { dismiss(); });
   }
 
-  window.fetch(src, { credentials: "same-origin" })
+  window.fetch(src, { credentials: "same-origin", cache: "no-cache" })
     .then(function (r) { return r.ok ? r.json() : null; })
     .then(function (data) {
       if (!data || expired(data)) return;
-      if (get("sessionStorage", KEY_SEEN) === "1") return;
-      if (!get("sessionStorage", KEY_T0)) set("sessionStorage", KEY_T0, String(Date.now()));
+      if (seenThisVisit()) return;
+      // Start (or restart, for a stale tab) the 10-second clock.
+      var t0 = Number(get("sessionStorage", KEY_T0) || 0);
+      // A clock that started before the last showing belongs to the previous
+      // visit, so this visit gets its own full 10 seconds.
+      var lastSeen = Number(get("localStorage", KEY_SEEN_AT) || 0);
+      if (!t0 || Date.now() - t0 > VISIT_MS || t0 <= lastSeen) set("sessionStorage", KEY_T0, String(Date.now()));
       cfg = data;
       timer = window.setInterval(function () { if (ready()) show(); }, 1000);
     })
