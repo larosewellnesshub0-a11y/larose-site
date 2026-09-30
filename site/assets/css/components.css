@@ -1015,6 +1015,30 @@
   .header-actions .btn { display: none; }
 }
 
+/* Portrait placeholder for a doctor whose photo has not arrived yet
+   (2026-09-30). Same proportions as the real portraits (450x562 on cards,
+   600x750 on the doctor page) so cards line up; brand gradient and a large
+   silhouette instead of an empty box. */
+.doctor-placeholder {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 450 / 562;
+  background:
+    radial-gradient(90% 60% at 50% 18%, rgba(244, 235, 221, .9), transparent 70%),
+    linear-gradient(165deg, var(--olive-100) 0%, var(--paper-sunk) 55%, var(--rose-100) 100%);
+  color: var(--olive-400);
+}
+.doctor-placeholder--tall { aspect-ratio: 600 / 750; }
+.doctor-placeholder .ico { width: 42%; height: auto; opacity: .7; }
+
+/* Doctor page lists: services and conditions treated. */
+.doctor-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; align-content: start; }
+.doctor-list li { display: flex; align-items: flex-start; gap: .6rem; line-height: 1.5; }
+.doctor-list .ico { flex: none; width: 1.05rem; height: 1.05rem; margin-top: .22em; color: var(--rose-600); }
+.doctor-list--services { grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); gap: .75rem 2rem; margin-top: 1.25rem; }
+.doctor-conditions .card__body { display: grid; gap: 1rem; align-content: start; }
+
 /* Keep a linked FAQ answer clear of the sticky header. */
 .faq__item, .faq__a { scroll-margin-top: 6rem; }
 
@@ -1678,4 +1702,129 @@
 .inside-split { display: grid; gap: clamp(2rem, 5vw, 4rem); }
 @media (min-width: 900px) {
   .inside-split { grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); }
+}
+
+/* ==========================================================================
+   22. WEBSITE-OFFER CARD (2026-09-30)
+   A floating card, not a full-screen overlay: the page stays visible and
+   usable behind it (Google's intrusive-interstitial guidance). Desktop: a
+   corner card opposite the floating buttons. Phones: a sheet above the
+   bottom pill. Built and shown by site.js after time on the site.
+   ========================================================================== */
+.promo {
+  position: fixed;
+  z-index: calc(var(--z-drawer) - 1);
+  inset-inline-start: clamp(1rem, 2vw, 1.75rem);
+  bottom: clamp(1rem, 2vw, 1.75rem);
+  width: min(25rem, calc(100vw - 2rem));
+  padding: 1.35rem 1.35rem 1.25rem;
+  border-radius: 1.5rem;
+  /* The glossy material plus a denser paper layer underneath: it floats over
+     running text, which must not read through it. */
+  background: var(--gloss-bg), linear-gradient(rgba(251, 249, 244, .72), rgba(251, 249, 244, .72));
+  backdrop-filter: var(--gloss-blur);
+  -webkit-backdrop-filter: var(--gloss-blur);
+  border: var(--gloss-border);
+  box-shadow: var(--gloss-shadow);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(1.5rem) scale(.97);
+  transition: opacity var(--dur-3) var(--ease), transform var(--dur-3) var(--ease-out);
+}
+.promo.is-in { opacity: 1; transform: none; }
+/* A rose-to-champagne ribbon along the top edge: the one flourish. */
+.promo::before {
+  content: "";
+  position: absolute; inset-inline: 0; top: 0; height: 4px;
+  background: linear-gradient(90deg, var(--rose-500), var(--champagne-500), var(--rose-500));
+}
+.promo__close {
+  position: absolute; top: .7rem; inset-inline-end: .7rem;
+  width: 2.25rem; height: 2.25rem;
+  display: grid; place-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, .8);
+  background: rgba(255, 255, 255, .55);
+  color: var(--ink-muted);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.promo__close svg { width: 1rem; height: 1rem; }
+.promo__close:hover { color: var(--ink-strong); background: rgba(255, 255, 255, .85); }
+.promo__eyebrow {
+  font-size: var(--t-xs);
+  font-weight: 600;
+  letter-spacing: .04em;
+  color: var(--rose-700);
+  padding-inline-end: 2.5rem;
+}
+.promo__title {
+  margin-top: .35rem;
+  padding-inline-end: 1.5rem;
+  font-family: var(--font-head);
+  font-size: clamp(1.1rem, 1rem + .5vw, 1.3rem);
+  line-height: 1.3;
+  color: var(--ink-strong);
+}
+.promo__price {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: .35rem .75rem;
+  margin-top: .9rem;
+}
+.promo__now {
+  font-family: var(--font-head);
+  font-size: clamp(1.9rem, 1.6rem + 1.2vw, 2.4rem);
+  line-height: 1;
+  color: var(--rose-600);
+}
+.promo__was { font-size: var(--t-md); color: var(--ink-faint); text-decoration-thickness: 1.5px; }
+.promo__save {
+  display: inline-flex; align-items: center;
+  padding: .3em .8em;
+  border-radius: 999px;
+  font-size: var(--t-xs); font-weight: 700;
+  color: #5A4424;
+  background: linear-gradient(180deg, var(--champagne-300), var(--champagne-500));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .6);
+}
+.promo__body { margin-top: .75rem; font-size: var(--t-sm); line-height: 1.6; color: var(--ink); }
+.promo__terms { margin-top: .4rem; font-size: var(--t-xs); color: var(--ink-muted); }
+.promo__actions { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; margin-top: 1.1rem; }
+.promo__actions .btn { justify-content: center; min-height: 2.9rem; font-size: var(--t-sm); padding-inline: .8em; }
+.promo__book {
+  background: linear-gradient(180deg, var(--rose-500), var(--rose-600));
+  border-color: transparent;
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .35), 0 6px 16px rgba(165, 89, 92, .3);
+}
+.promo__book:hover { background: linear-gradient(180deg, var(--rose-600), var(--rose-700)); color: #fff; }
+.promo__ask {
+  background: rgba(255, 255, 255, .6);
+  border: 1px solid rgba(255, 255, 255, .9);
+  color: var(--ink-strong);
+}
+.promo__ask:hover { background: rgba(255, 255, 255, .9); }
+
+/* Phones: a sheet that sits just above the floating bottom pill. */
+@media (max-width: 720px) {
+  .promo {
+    inset-inline: .75rem;
+    width: auto;
+    bottom: calc(5.4rem + env(safe-area-inset-bottom, 0px));
+    padding: 1.15rem 1.1rem 1.05rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .promo { transition: opacity var(--dur-2) linear; transform: none; }
+}
+
+/* Booking form: the offer the visitor came in with. */
+.promo-applied {
+  margin-bottom: 1rem;
+  padding: .7rem 1rem;
+  border-radius: var(--r-lg);
+  background: var(--rose-100);
+  border: 1px solid var(--rose-300);
+  color: var(--rose-700);
+  font-size: var(--t-sm);
+  font-weight: 600;
 }

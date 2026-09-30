@@ -762,7 +762,16 @@
      "الأنيميا وفقر الدم",
      "التعب المزمن والفحص الدوري",
      "متابعة الأدوية والأمراض المزمنة",
-     "سونار البطن داخل الكشف"
+     "سونار البطن داخل الكشف",
+     "مقاومة الإنسولين",
+     "متابعة سكر الحمل",
+     "ضغط الدم المنخفض",
+     "ارتفاع الكوليسترول",
+     "الأنيميا ونقص الحديد",
+     "نقص الفيتامينات",
+     "الحميات والأمراض المعدية",
+     "متابعة وظائف الكبد والكلى",
+     "التغذية لمرضى السكر وفقر الدم"
     ],
     "en": [
      "Diabetes and cholesterol of all types",
@@ -771,7 +780,16 @@
      "Anaemia",
      "Persistent fatigue and periodic workups",
      "Long-term medicines and chronic disease follow-up",
-     "Abdominal ultrasound within the consultation"
+     "Abdominal ultrasound within the consultation",
+     "Insulin resistance",
+     "Diabetes in pregnancy follow-up",
+     "Low blood pressure",
+     "High cholesterol",
+     "Iron-deficiency anaemia",
+     "Vitamin deficiencies",
+     "Fevers and infectious diseases",
+     "Liver and kidney function follow-up",
+     "Nutrition for diabetes and anaemia"
     ]
    },
    "treatments": [
@@ -1016,7 +1034,19 @@
      "القولون العصبي والانتفاخ وعسر الهضم",
      "الإمساك والإسهال المزمن",
      "دهون الكبد وارتفاع إنزيمات الكبد",
-     "حصوات المرارة وأمراض الجهاز الهضمي"
+     "حصوات المرارة وأمراض الجهاز الهضمي",
+     "التهاب المعدة والاثني عشر",
+     "الإسهال المزمن وسوء الامتصاص",
+     "التهاب القولون التقرحي",
+     "حساسية القمح (السيلياك)",
+     "فيروس سي وفيروس بي",
+     "تليف الكبد والاستسقاء",
+     "الصفراء واليرقان",
+     "حصوات المرارة والقنوات المرارية",
+     "أمراض البنكرياس",
+     "نزيف الجهاز الهضمي ودوالي المريء",
+     "البلهارسيا",
+     "البواسير"
     ],
     "en": [
      "H. pylori and gastric ulcer",
@@ -1024,7 +1054,19 @@
      "IBS, bloating and indigestion",
      "Chronic constipation and diarrhoea",
      "Fatty liver and raised liver enzymes",
-     "Gallstones and disorders of the digestive tract"
+     "Gallstones and disorders of the digestive tract",
+     "Gastritis and duodenitis",
+     "Chronic diarrhoea and malabsorption",
+     "Ulcerative colitis",
+     "Coeliac disease (wheat sensitivity)",
+     "Hepatitis C and hepatitis B",
+     "Liver cirrhosis and ascites",
+     "Jaundice",
+     "Gallstones and bile-duct disease",
+     "Pancreatic disease",
+     "Gastrointestinal bleeding and oesophageal varices",
+     "Schistosomiasis (bilharzia)",
+     "Haemorrhoids"
     ]
    },
    "treatments": [
@@ -2122,6 +2164,210 @@
     "description": {
      "ar": "عيادة أطفال في المعادي: متابعة النمو، التطعيمات، تغذية الأطفال، فقدان الشهية والنحافة، والحساسية الغذائية.",
      "en": "Paediatric clinic in Maadi: growth monitoring, vaccination, children's nutrition, poor appetite and underweight, and food allergy."
+    }
+   }
+  },
+  {
+   "slug": "rheumatology",
+   "index": "11",
+   "published": true,
+   "staffed": true,
+   "featured": true,
+   "hasBeforeAfter": false,
+   "hasReviews": true,
+   "icon": "joint",
+   "name": {
+    "ar": "الروماتيزم والمناعة والمفاصل",
+    "en": "Rheumatology, Immunology & Joint Diseases"
+   },
+   "short": {
+    "ar": "الروماتيزم والمفاصل",
+    "en": "Rheumatology"
+   },
+   "sub": {
+    "ar": "الروماتويد والذئبة الحمراء وخشونة المفاصل والنقرس",
+    "en": "Rheumatoid arthritis, lupus, osteoarthritis and gout"
+   },
+   "intro": {
+    "ar": "عيادة الروماتيزم والمناعة والمفاصل والطب الطبيعي والتأهيل في لاروز بتشخّص وبتعالج الأمراض الروماتيزمية: الروماتويد، والذئبة الحمراء، وخشونة المفاصل والفقرات، والنقرس، والفيبروميالجيا، وأمراض المناعة زي تصلب الجلد ومتلازمة جوجرن ومرض بهجت. وكمان متابعة حمل مريضات الروماتويد، والتأهيل والطب الطبيعي لمرضى المفاصل، في فرع المعادي وفرع التجمع الخامس.",
+    "en": "The La Rose rheumatology, immunology, physical medicine and rehabilitation clinic diagnoses and treats rheumatic diseases: rheumatoid arthritis, lupus, joint and spinal osteoarthritis, gout and fibromyalgia, and immune conditions such as scleroderma, Sjögren's syndrome and Behçet's disease. It also follows pregnancy in patients with rheumatoid arthritis and offers rehabilitation and physical medicine for joint patients, at the Maadi and Fifth Settlement branches."
+   },
+   "consultationIncludes": {
+    "conditions": {
+     "heading": {
+      "ar": "الدكتورة بتشوف حالات زي",
+      "en": "The doctor sees conditions such as"
+     },
+     "items": {
+      "ar": [
+       "الروماتويد والذئبة الحمراء",
+       "خشونة الركبة والمفاصل والفقرات",
+       "النقرس وارتفاع حمض اليوريك",
+       "الفيبروميالجيا (الألم العضلي الليفي)",
+       "آلام الظهر والرقبة والكتف",
+       "هشاشة العظام ونقص فيتامين د",
+       "أمراض المناعة زي تصلب الجلد وجوجرن وبهجت",
+       "متابعة حمل مريضات الروماتويد"
+      ],
+      "en": [
+       "Rheumatoid arthritis and lupus",
+       "Knee, joint and spinal osteoarthritis",
+       "Gout and raised uric acid",
+       "Fibromyalgia",
+       "Back, neck and shoulder pain",
+       "Osteoporosis and vitamin D deficiency",
+       "Immune diseases such as scleroderma, Sjögren's and Behçet's",
+       "Pregnancy follow-up in rheumatoid arthritis"
+      ]
+     }
+    }
+   },
+   "treats": {
+    "ar": [
+     "الروماتويد المفصلي",
+     "الذئبة الحمراء الجهازية (SLE)",
+     "خشونة الركبة والمفاصل والفقرات",
+     "النقرس وارتفاع حمض اليوريك",
+     "الفيبروميالجيا (الألم العضلي الليفي)",
+     "الصدفية المفصلية",
+     "التيبس الفقاري المناعي (التهاب الفقار اللاصق)",
+     "تصلب الجلد (سكليروديرما)",
+     "متلازمة جوجرن (جفاف العين والفم)",
+     "التهاب العضلات المناعي",
+     "التهابات الأوعية الدموية المناعية",
+     "مرض بهجت",
+     "متلازمة الأجسام المضادة للفوسفوليبيد (تجلطات المناعة)",
+     "مرض ستيل",
+     "آلام الظهر والرقبة والكتف",
+     "تيبس الكتف (الكتف المتجمد)",
+     "التهاب الأوتار والأربطة",
+     "الحمى الروماتيزمية",
+     "هشاشة العظام ونقص فيتامين د",
+     "حمى البحر المتوسط",
+     "الساركويد",
+     "متابعة حمل مريضات الروماتويد",
+     "التأهيل والطب الطبيعي لمرضى المفاصل"
+    ],
+    "en": [
+     "Rheumatoid arthritis",
+     "Systemic lupus erythematosus (SLE)",
+     "Knee, joint and spinal osteoarthritis",
+     "Gout and raised uric acid",
+     "Fibromyalgia",
+     "Psoriatic arthritis",
+     "Ankylosing spondylitis",
+     "Scleroderma (systemic sclerosis)",
+     "Sjögren's syndrome (dry eyes and mouth)",
+     "Immune myositis",
+     "Immune vasculitis",
+     "Behçet's disease",
+     "Antiphospholipid syndrome (immune clotting)",
+     "Still's disease",
+     "Back, neck and shoulder pain",
+     "Frozen shoulder",
+     "Tendon and ligament inflammation",
+     "Rheumatic fever",
+     "Osteoporosis and vitamin D deficiency",
+     "Familial Mediterranean fever",
+     "Sarcoidosis",
+     "Pregnancy follow-up in rheumatoid arthritis",
+     "Rehabilitation and physical medicine for joint patients"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "rheumatic-immune-diseases",
+     "name": {
+      "ar": "أمراض الروماتيزم والمناعة",
+      "en": "Rheumatic and immune diseases"
+     },
+     "summary": {
+      "ar": "تشخيص وعلاج ومتابعة",
+      "en": "Diagnosis, treatment and follow-up"
+     },
+     "body": {
+      "ar": "تشخيص وعلاج الأمراض الروماتيزمية والمناعية: الذئبة الحمراء الجهازية، والروماتويد المفصلي، وتصلب الجلد، ومتلازمة جوجرن، والتهاب العضلات المناعي، والتهابات الأوعية الدموية المناعية، ومرض بهجت، ومتلازمة الأجسام المضادة للفوسفوليبيد، ومرض ستيل، والمتلازمات الالتهابية المزمنة.",
+      "en": "Diagnosis and treatment of rheumatic and immune diseases: systemic lupus erythematosus, rheumatoid arthritis, scleroderma, Sjögren's syndrome, immune myositis, immune vasculitis, Behçet's disease, antiphospholipid syndrome, Still's disease and chronic inflammatory syndromes."
+     },
+     "facts": {
+      "ar": [
+       "الذئبة الحمراء",
+       "الروماتويد",
+       "تصلب الجلد",
+       "مرض بهجت"
+      ],
+      "en": [
+       "Lupus",
+       "Rheumatoid arthritis",
+       "Scleroderma",
+       "Behçet's disease"
+      ]
+     }
+    },
+    {
+     "slug": "joints-and-spine",
+     "name": {
+      "ar": "المفاصل والعمود الفقري",
+      "en": "Joints and spine"
+     },
+     "summary": {
+      "ar": "الخشونة والنقرس وآلام الظهر والكتف",
+      "en": "Osteoarthritis, gout, back and shoulder pain"
+     },
+     "body": {
+      "ar": "خشونة الركبة والمفاصل والفقرات، والنقرس وارتفاع حمض اليوريك، والصدفية المفصلية، والتيبس الفقاري المناعي، وآلام الظهر والرقبة والكتف، وتيبس الكتف، والتهاب الأوتار والأربطة، والتهاب الغضاريف الحاد والمزمن، والحمى الروماتيزمية.",
+      "en": "Knee, joint and spinal osteoarthritis, gout and raised uric acid, psoriatic arthritis, ankylosing spondylitis, back, neck and shoulder pain, frozen shoulder, tendon and ligament inflammation, acute and chronic cartilage inflammation, and rheumatic fever."
+     },
+     "facts": {
+      "ar": [
+       "خشونة المفاصل",
+       "النقرس",
+       "الكتف المتجمد"
+      ],
+      "en": [
+       "Osteoarthritis",
+       "Gout",
+       "Frozen shoulder"
+      ]
+     }
+    },
+    {
+     "slug": "rehabilitation-and-follow-up",
+     "name": {
+      "ar": "التأهيل والطب الطبيعي والمتابعة",
+      "en": "Rehabilitation, physical medicine and follow-up"
+     },
+     "summary": {
+      "ar": "لمرضى المفاصل ومريضات الروماتويد الحوامل",
+      "en": "For joint patients and pregnant patients with rheumatoid arthritis"
+     },
+     "body": {
+      "ar": "التأهيل والطب الطبيعي لمرضى المفاصل، ومتابعة حمل مريضات الروماتويد، ومتابعة الفيبروميالجيا، وهشاشة العظام ونقص فيتامين د، وحمى البحر المتوسط، والساركويد.",
+      "en": "Rehabilitation and physical medicine for joint patients, pregnancy follow-up in rheumatoid arthritis, and follow-up for fibromyalgia, osteoporosis and vitamin D deficiency, familial Mediterranean fever and sarcoidosis."
+     },
+     "facts": {
+      "ar": [
+       "الطب الطبيعي",
+       "متابعة الحمل",
+       "هشاشة العظام"
+      ],
+      "en": [
+       "Physical medicine",
+       "Pregnancy follow-up",
+       "Osteoporosis"
+      ]
+     }
+    }
+   ],
+   "faq": [],
+   "seo": {
+    "title": {
+     "ar": "روماتيزم ومفاصل في المعادي والتجمع الخامس | لاروز",
+     "en": "Rheumatology & Joint Diseases in Maadi | La Rose"
+    },
+    "description": {
+     "ar": "كشف روماتيزم ومناعة ومفاصل في المعادي والتجمع الخامس: الروماتويد والذئبة الحمراء وخشونة المفاصل والنقرس والفيبروميالجيا، والتأهيل والطب الطبيعي.",
+     "en": "Rheumatology in Maadi and Fifth Settlement: rheumatoid arthritis, lupus, osteoarthritis, gout and fibromyalgia, plus rehabilitation and physical medicine."
     }
    }
   }

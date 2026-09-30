@@ -8,7 +8,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { loadContent, LOCALES, OUT_DIR, ROOT, t, esc, published, specialtyImage } from "./lib/util.mjs";
+import { loadContent, LOCALES, OUT_DIR, ROOT, t, esc, published, specialtyImage, promoActive } from "./lib/util.mjs";
 import { jsonLd, trackingHead } from "./lib/shell.mjs";
 
 import { renderHome } from "./pages/home.mjs";
@@ -285,6 +285,28 @@ async function main() {
   const tipPages = new Set((c.articles.articles || []).filter((a) => a.published !== false).map((a) => t(a.slug, "en")));
   const tipPayload = (c.tips || []).map((tip) => (tip && tipPages.has(tip.id) ? { ...tip, page: true } : tip));
   fs.writeFileSync(tipsOut, `${JSON.stringify(tipPayload)}\n`, "utf8");
+
+  // The website-offer popup. Its copy (with the only prices shown anywhere)
+  // is published as data, never in page HTML: site.js fetches it after the
+  // visitor has spent time on the site, and /assets/data/ is disallowed in
+  // robots.txt. Removed when the offer is off or past its end date.
+  const promoOut = path.join(OUT_DIR, "assets", "data", "promo.json");
+  if (promoActive(c)) {
+    const p = c.site.promo;
+    const pick = (locale) => ({
+      eyebrow: t(p.eyebrow, locale), title: t(p.title, locale), saving: t(p.saving, locale),
+      terms: t(p.terms, locale), book: t(p.book, locale), ask: t(p.ask, locale), close: t(p.close, locale),
+      now: t(p.price.now, locale), was: t(p.price.was, locale), body: t(p.price.body, locale),
+      whatsappText: t(p.price.whatsappText, locale), bookingNote: t(p.price.bookingNote, locale),
+    });
+    fs.writeFileSync(promoOut, `${JSON.stringify({
+      endsOn: p.endsOn || null, delaySeconds: p.delaySeconds, minScrollPx: p.minScrollPx,
+      snoozeDays: p.snoozeDays, bookedSnoozeDays: p.bookedSnoozeDays,
+      ar: pick("ar"), en: pick("en"),
+    })}\n`, "utf8");
+  } else if (fs.existsSync(promoOut)) {
+    fs.rmSync(promoOut);
+  }
 
   // Clean only the generated locale trees; assets are hand-managed.
   for (const loc of LOCALES) {

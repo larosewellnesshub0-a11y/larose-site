@@ -439,11 +439,21 @@ const ICONS = {
   heart:      `<path d="M10 16.5S3 12.4 3 7.9A3.9 3.9 0 0 1 10 5.6a3.9 3.9 0 0 1 7 2.3c0 4.5-7 8.6-7 8.6Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>`,
   book:       `<path d="M3.5 4.2A16 16 0 0 1 10 5.6a16 16 0 0 1 6.5-1.4v10.6A16 16 0 0 0 10 16.2a16 16 0 0 0-6.5-1.4V4.2Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M10 5.6v10.6" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
   monitor:    `<rect x="2.5" y="3.5" width="15" height="10.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M7 17.5h6M10 14v3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>`,
+  /* A bone, for rheumatology and joint diseases. */
+  joint:      `<path d="M6.3 4.4a2.1 2.1 0 1 0-2.9 2.9 2.1 2.1 0 1 0 2.9 2.9l4.4 4.4a2.1 2.1 0 1 0 2.9 2.9 2.1 2.1 0 1 0 2.9-2.9 2.1 2.1 0 1 0-2.9-2.9L9.2 7.3a2.1 2.1 0 1 0-2.9-2.9Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>`,
   moon:       `<path d="M15.8 12.6A6.6 6.6 0 0 1 7.4 4.2a6.6 6.6 0 1 0 8.4 8.4Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>`,
   sun:        `<circle cx="10" cy="10" r="3.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 2.2v1.9M10 15.9v1.9M2.2 10h1.9M15.9 10h1.9M4.5 4.5l1.3 1.3M14.2 14.2l1.3 1.3M4.5 15.5l1.3-1.3M14.2 5.8l1.3-1.3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>`,
   menu:       `<path d="M3.5 5.5h13M3.5 10h13M3.5 14.5h13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>`,
   user:       `<circle cx="10" cy="7" r="3.4" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M3.8 17.2a6.4 6.4 0 0 1 12.4 0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>`,
 };
+
+/** Is the website-offer popup running? Off when disabled or past endsOn. */
+export function promoActive(c) {
+  const p = c.site?.promo;
+  if (!p || !p.enabled || !p.price) return false;
+  if (p.endsOn && new Date(`${p.endsOn}T23:59:59+02:00`) < new Date()) return false;
+  return true;
+}
 
 export function icon(name, cls = "ico") {
   const entry = ICONS[name];
