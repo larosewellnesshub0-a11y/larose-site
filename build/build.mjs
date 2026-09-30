@@ -304,8 +304,7 @@ async function main() {
       whatsappText: t(p.price.whatsappText, locale), bookingNote: t(p.price.bookingNote, locale),
     });
     fs.writeFileSync(promoOut, `${JSON.stringify({
-      endsOn: p.endsOn || null, delaySeconds: p.delaySeconds, minScrollPx: p.minScrollPx,
-      snoozeDays: p.snoozeDays, bookedSnoozeDays: p.bookedSnoozeDays,
+      endsOn: p.endsOn || null, delaySeconds: p.delaySeconds,
       ar: pick("ar"), en: pick("en"),
     })}\n`, "utf8");
   } else if (fs.existsSync(promoOut)) {

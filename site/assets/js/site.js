@@ -834,10 +834,10 @@
    Website-offer popup (2026-09-30)
    Rules that keep it on the right side of Google's intrusive-interstitial
    guidance and out of the visitor's way:
-   - never on arrival: only after `delaySeconds` on the site in this visit
-     AND some scrolling, so the visitor has already reached the content;
-   - easy to close (button, Escape, or tapping outside on a phone), then
-     snoozed for `snoozeDays`, or `bookedSnoozeDays` after "Book now";
+   - never on arrival: only after `delaySeconds` (10) into the visit, so the
+     visitor has already reached the content;
+   - once per visit, and easy to close (button, Escape, or tapping outside
+     on a phone); it comes back on the next visit;
    - the copy (the only prices on the site) is fetched from a data file,
      never present in the page HTML, and /assets/data/ is not crawled.
    The offer is shown in the popup only. When a visitor taps "Book now", the
@@ -861,9 +861,15 @@
   }
   var src = body.getAttribute("data-promo");
   if (!src || !window.fetch) return;
-  var KEY_SNOOZE = "lr-promo-snooze-until";
+  /* Once per visit (user request 2026-09-30): the clock starts on the first
+     page of the visit, the popup shows 10 s in, and once it has been seen it
+     stays away for the rest of that visit. A new visit (new tab or a later
+     session) shows it again. Nothing is kept across visits. */
   var KEY_T0 = "lr-promo-t0";
-  var KEY_SCROLLED = "lr-promo-scrolled";
+  var KEY_SEEN = "lr-promo-seen";
+  // The old build snoozed the offer for 7-30 days in localStorage; clear it
+  // so visitors who closed it before see it again.
+  try { window.localStorage.removeItem("lr-promo-snooze-until"); } catch (e) {}
   var isAr = document.documentElement.lang === "ar";
   function get(store, k) { try { return window[store].getItem(k); } catch (e) { return null; } }
   function set(store, k, v) { try { window[store].setItem(k, v); } catch (e) {} }
@@ -928,23 +934,19 @@
 
   /* ---- Popup -------------------------------------------------------------- */
   var cfg = null, shown = false, timer = null;
-  function onScroll() {
-    if (window.scrollY >= ((cfg && cfg.minScrollPx) || 150)) set("sessionStorage", KEY_SCROLLED, "1");
-  }
   function ready() {
     if (!cfg || shown || document.hidden || expired(cfg)) return false;
-    if (Date.now() - Number(get("sessionStorage", KEY_T0) || Date.now()) < (cfg.delaySeconds || 20) * 1000) return false;
-    if (get("sessionStorage", KEY_SCROLLED) !== "1") return false;
+    if (get("sessionStorage", KEY_SEEN) === "1") return false;
+    if (Date.now() - Number(get("sessionStorage", KEY_T0) || Date.now()) < (cfg.delaySeconds || 10) * 1000) return false;
     var drawer = document.getElementById("drawer");
     if (drawer && drawer.classList.contains("is-open")) return false;
     return true;
   }
-  function snooze(days) { set("localStorage", KEY_SNOOZE, String(Date.now() + days * 864e5)); }
 
   function show() {
     shown = true;
+    set("sessionStorage", KEY_SEEN, "1");
     window.clearInterval(timer);
-    window.removeEventListener("scroll", onScroll);
     var copy = cfg[isAr ? "ar" : "en"];
     var scrim = el("div", "promo-scrim");
     var card = el("aside", "promo");
@@ -968,36 +970,31 @@
     window.requestAnimationFrame(function () { card.classList.add("is-in"); scrim.classList.add("is-in"); });
     track("promo_view");
 
-    function dismiss(days) {
-      snooze(days);
+    function dismiss() {
       card.classList.remove("is-in"); scrim.classList.remove("is-in");
       document.removeEventListener("keydown", onKey);
       window.setTimeout(function () {
         [card, scrim].forEach(function (n) { if (n.parentNode) n.parentNode.removeChild(n); });
       }, 400);
     }
-    function onKey(e) { if (e.key === "Escape") { track("promo_close"); dismiss(cfg.snoozeDays || 7); } }
+    function onKey(e) { if (e.key === "Escape") { track("promo_close"); dismiss(); } }
     document.addEventListener("keydown", onKey);
-    close.addEventListener("click", function () { track("promo_close"); dismiss(cfg.snoozeDays || 7); });
-    scrim.addEventListener("click", function () { track("promo_close"); dismiss(cfg.snoozeDays || 7); });
+    close.addEventListener("click", function () { track("promo_close"); dismiss(); });
+    scrim.addEventListener("click", function () { track("promo_close"); dismiss(); });
     book.addEventListener("click", function () {
       set("sessionStorage", KEY_OFFER, copy.bookingNote);
       track("promo_book");
-      snooze(cfg.bookedSnoozeDays || 30);
     });
-    actions.querySelector(".promo__ask").addEventListener("click", function () { dismiss(cfg.snoozeDays || 7); });
+    actions.querySelector(".promo__ask").addEventListener("click", function () { dismiss(); });
   }
 
   window.fetch(src, { credentials: "same-origin" })
     .then(function (r) { return r.ok ? r.json() : null; })
     .then(function (data) {
       if (!data || expired(data)) return;
-      var until = Number(get("localStorage", KEY_SNOOZE) || 0);
-      if (until && until > Date.now()) return;
+      if (get("sessionStorage", KEY_SEEN) === "1") return;
       if (!get("sessionStorage", KEY_T0)) set("sessionStorage", KEY_T0, String(Date.now()));
       cfg = data;
-      window.addEventListener("scroll", onScroll, { passive: true });
-      onScroll();
       timer = window.setInterval(function () { if (ready()) show(); }, 1000);
     })
     .catch(function () {});
