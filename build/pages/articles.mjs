@@ -884,68 +884,115 @@ ${ctaBand({ c, locale, depth })}`;
   };
 }
 
+/* The FAQ hub used to print every answer on the site on one page: 1,392
+   questions, 2.5 MB, which Semrush reported as "too much content" and which
+   repeated answers already published on the article pages. It is now an index
+   (articles/faq) of one page per specialty (articles/faq-<slug>). A specialty
+   page shows that specialty's own questions with their answers, then lists
+   the questions answered inside articles as links that open the answer on the
+   article itself, so no answer is published twice (user request 2026-09-30).
+   None of these pages carries FAQPage markup: every question is already marked
+   up once, on the specialty or article page where its answer lives. */
 function faqGroups(c, entries) {
   const specs = published(c.specialties || []);
   const groups = specs.map((sp) => ({
     slug: t(sp.slug, "en"),
     name: sp.name,
-    items: ta(sp.faq, "en").filter((item) => t(item?.q, "en") && t(item?.a, "en")),
+    short: sp.short || sp.name,
+    specialty: sp,
+    own: ta(sp.faq, "en").filter((item) => t(item?.q, "en") && t(item?.a, "en")),
+    articles: [],
     sample: Boolean(sp.sample),
   }));
-  const general = { slug: "general", name: COPY.general, items: [], sample: false };
+  const general = { slug: "general", name: COPY.general, own: [], articles: [], sample: false };
   const extra = new Map();
 
-  entries.forEach((entry) => {
-    const items = entryFaq(entry).map((item) => ({
-      ...item,
-      sourceSlug: entrySlug(entry),
-      sourceCount: ta(entry?.sources, "en").length,
-      citationBase: `../articles/${entrySlug(entry)}`,
-    }));
-    if (!items.length) return;
+  newest(entries).forEach((entry) => {
+    const questions = entryFaq(entry)
+      .map((item, index) => ({ item, index }))
+      .filter(({ item }) => t(item?.q, "en") && t(item?.a, "en"));
+    if (!questions.length) return;
     const slug = entryCategorySlug(entry) || "general";
-    const target = groups.find((group) => group.slug === slug)
+    let target = groups.find((group) => group.slug === slug)
       || (slug === "general" ? general : extra.get(slug));
-    if (target) {
-      target.items.push(...items);
-      target.sample = target.sample || Boolean(entry?.sample);
-      return;
+    if (!target) {
+      target = { slug, name: entry.categoryName || { ar: slug, en: slug }, own: [], articles: [], sample: false };
+      extra.set(slug, target);
     }
-    extra.set(slug, {
-      slug,
-      name: entry.categoryName || { ar: slug, en: slug },
-      items: [...items],
-      sample: Boolean(entry?.sample),
-    });
+    target.articles.push({ entry, questions });
+    target.sample = target.sample || Boolean(entry?.sample);
   });
 
-  return [...groups, general, ...extra.values()].filter((group) => group.items.length);
+  return [...groups, general, ...extra.values()]
+    .map((group) => ({ ...group, count: group.own.length + group.articles.reduce((n, a) => n + a.questions.length, 0) }))
+    .filter((group) => group.count);
 }
 
-function faqPage({ c, locale, entries }) {
+const FAQ_COPY = {
+  title: { ar: "الأسئلة الشائعة في المركز المعرفي", en: "Medical questions and answers" },
+  indexText: {
+    ar: "اختار التخصص عشان تشوف أسئلته الشائعة، وكل سؤال بيوصلك لإجابته في المقال بتاعه.",
+    en: "Choose a specialty to see its common questions. Each question takes you to its answer in the article it belongs to.",
+  },
+  questions: { ar: "سؤال", en: "questions" },
+  browse: { ar: "شوف الأسئلة", en: "Browse the questions" },
+  own: { ar: "أسئلة عن الخدمة في لاروز", en: "Questions about this service at La Rose" },
+  inArticles: { ar: "أسئلة اتجاوبت في مقالاتنا", en: "Questions answered in our articles" },
+  inArticlesLede: {
+    ar: "اضغط على السؤال وهتروح لإجابته في المقال، مع المصادر والتفاصيل.",
+    en: "Select a question to open its answer in the article, with its sources and full context.",
+  },
+  specialtyPage: { ar: "صفحة التخصص", en: "Specialty page" },
+  howTitle: { ar: "الأسئلة متقسمة إزاي؟", en: "How the questions are organised" },
+  how: {
+    ar: [
+      "كل تخصص ليه صفحة أسئلة خاصة بيه. في أولها الأسئلة اللي بتتكرر عن الخدمة نفسها في لاروز، زي الكشف بيشمل إيه ومحتاج تجهّز إيه قبل الزيارة، ومعاها إجاباتها على طول.",
+      "بعد كده هتلاقي الأسئلة اللي اتجاوبت جوه مقالات المركز المعرفي، متقسمة حسب المقال. الإجابة نفسها موجودة في المقال مع مصادرها، فلما تضغط على السؤال هتروح لإجابته على طول وتقدر تكمّل قراية الموضوع كله.",
+      "الإجابات دي معلومات عامة عشان تفهم حالتك وتجهّز أسئلتك، ومش بديل عن الكشف. لو عندك أعراض شديدة أو مفاجئة اتواصل مع الطوارئ فوراً، ولو محتاج رأي في حالتك نفسها تقدر تحجز كشف مع التخصص المناسب.",
+    ],
+    en: [
+      "Each specialty has its own questions page. It opens with the questions people ask most about that service at La Rose, such as what the consultation includes and how to prepare, answered right there.",
+      "Below them are the questions answered inside Knowledge Centre articles, grouped by article. Each answer lives in its article together with its sources, so selecting a question takes you straight to that answer and the full context around it.",
+      "These answers are general information to help you understand your situation and prepare your questions; they are not a substitute for a consultation. For severe or sudden symptoms, contact emergency services straight away, and for advice about your own case you can book with the relevant specialty.",
+    ],
+  },
+  otherGroups: { ar: "تخصصات تانية", en: "Other specialties" },
+};
+
+function faqGroupPath(group) {
+  return `articles/faq-${group.slug}.html`;
+}
+
+function faqIndexPage({ c, locale, groups }) {
   const depth = 1;
-  const label = t(c.site.ui.tabFaq, locale);
-  const title = t({
-    ar: "الأسئلة الشائعة في المركز المعرفي",
-    en: "Medical questions and answers",
-  }, locale);
-  const groups = faqGroups(c, entries);
+  const title = t(FAQ_COPY.title, locale);
   const description = t({
     ar: "إجابات مجمعة على الأسئلة اللي بتتكرر في تخصصات لاروز ومحتوى المركز المعرفي.",
     en: "Collected answers to the questions asked most often across La Rose specialties and Knowledge Centre content.",
   }, locale);
   const body = `
 ${pageHero({
-    c, locale, depth, eyebrow: t(COPY.library, locale), title, text: description,
+    c, locale, depth, eyebrow: t(COPY.library, locale), title, text: t(FAQ_COPY.indexText, locale),
     trail: [{ label: t(COPY.library, locale), href: "articles/" }, { label: title }],
     art: "articles"})}
 <section class="section">
+  <div class="wrap">
+    ${groups.length ? `<div class="grid grid-3">
+      ${map(groups, (group) => {
+        const name = t(group.name, locale) || group.slug;
+        return `<article class="card" data-reveal><div class="card__body">
+          <span class="chip">${icon("info")} <bdi class="num">${group.count}</bdi> ${esc(t(FAQ_COPY.questions, locale))}</span>
+          <h2 class="card__title"><a class="card__link" href="${esc(link(depth, faqGroupPath(group)))}">${esc(name)}</a></h2>
+          <div class="card__foot"><span class="link-cta">${esc(t(FAQ_COPY.browse, locale))} ${icon("arrow")}</span></div>
+        </div></article>`;
+      })}
+    </div>` : emptyState(c, locale)}
+  </div>
+</section>
+<section class="section section--sunk">
   <div class="wrap wrap--narrow">
-    ${groups.length ? map(groups, (group) => `<section style="margin-bottom:clamp(2.5rem,6vw,5rem)">
-      ${sectionHead({ eyebrow: t(COPY.faqs, locale), title: t(group.name, locale) || group.slug })}
-      ${when(group.sample, `<span class="badge-sample" style="position:static;display:inline-flex;margin-bottom:1rem">${esc(t(c.site.ui.sample, locale))}</span>`)}
-      ${faqList({ c, locale, items: group.items, idPrefix: `faq-${group.slug}` })}
-    </section>`) : emptyState(c, locale)}
+    ${sectionHead({ title: t(FAQ_COPY.howTitle, locale) })}
+    <div class="prose">${map(FAQ_COPY.how[locale], (text) => `<p>${esc(text)}</p>`)}</div>
   </div>
 </section>
 
@@ -955,12 +1002,85 @@ ${ctaBand({ c, locale, depth })}`;
     html: page({
       c, locale, depth, pagePath: "articles/faq.html", title,
       description, active: "articles", body,
-      // No FAQPage here: every question on this hub is already marked up on
-      // its own specialty or article page, and Google wants one marked-up
-      // instance per question. 1,392 duplicated questions also made this the
-      // page Semrush reported for structured-data errors.
     }),
   };
+}
+
+function faqGroupPage({ c, locale, groups, group }) {
+  const depth = 1;
+  const pagePath = faqGroupPath(group);
+  const name = t(group.name, locale) || group.slug;
+  const hubTitle = t(FAQ_COPY.title, locale);
+  const short = t(group.short, locale) || name;
+  const title = t({ ar: `أسئلة شائعة: ${short}`, en: `${short} FAQs` }, locale);
+  const sampleQuestions = [
+    ...group.own.map((item) => t(item.q, locale)),
+    ...group.articles.flatMap((a) => a.questions.map(({ item }) => t(item.q, locale))),
+  ].filter(Boolean).slice(0, 2);
+  const description = t({
+    ar: `${group.count} سؤال شائع عن ${name} وإجاباتها من أطباء لاروز، زي: ${sampleQuestions.join(" ")}`,
+    en: `${group.count} common questions about ${name}, answered by La Rose doctors, such as: ${sampleQuestions.join(" ")}`,
+  }, locale);
+  const specialtyHref = group.specialty ? `specialties/${group.slug}.html` : "";
+  const body = `
+${pageHero({
+    c, locale, depth, eyebrow: t(COPY.faqs, locale), title,
+    text: t({ ar: `الأسئلة اللي بتتكرر عن ${short}، عن الخدمة في لاروز وفي مقالات المركز المعرفي.`, en: `The questions people ask most about ${short}, at La Rose and across our Knowledge Centre articles.` }, locale),
+    trail: [
+      { label: t(COPY.library, locale), href: "articles/" },
+      { label: hubTitle, href: "articles/faq.html" },
+      { label: name },
+    ],
+    art: "articles"})}
+${when(group.own.length, `<section class="section">
+  <div class="wrap wrap--narrow">
+    ${sectionHead({ title: t(FAQ_COPY.own, locale) })}
+    ${when(group.sample, `<span class="badge-sample" style="position:static;display:inline-flex;margin-bottom:1rem">${esc(t(c.site.ui.sample, locale))}</span>`)}
+    ${faqList({ c, locale, items: group.own, idPrefix: `faq-${group.slug}` })}
+    ${when(specialtyHref, `<p style="margin-top:1.5rem"><a class="link-cta" href="${esc(link(depth, specialtyHref))}">${esc(t(FAQ_COPY.specialtyPage, locale))}: ${esc(name)} ${icon("arrow")}</a></p>`)}
+  </div>
+</section>`)}
+${when(group.articles.length, `<section class="section section--sunk">
+  <div class="wrap wrap--narrow">
+    ${sectionHead({ title: t(FAQ_COPY.inArticles, locale), lede: t(FAQ_COPY.inArticlesLede, locale) })}
+    <div class="stack">
+      ${map(group.articles, ({ entry, questions }) => {
+        const slug = entrySlug(entry);
+        const href = link(depth, `articles/${slug}.html`);
+        return `<article class="card" data-reveal><div class="card__body">
+          <h3 class="h4"><a href="${esc(href)}">${esc(entryTitle(entry, locale))}</a></h3>
+          <ul class="faq-links">
+            ${map(questions, ({ item, index }) => `<li><a href="${esc(href)}#entry-${esc(slug)}-${index}">${esc(t(item.q, locale))}</a></li>`)}
+          </ul>
+        </div></article>`;
+      })}
+    </div>
+  </div>
+</section>`)}
+<section class="section">
+  <div class="wrap">
+    ${sectionHead({ title: t(FAQ_COPY.otherGroups, locale) })}
+    <div class="cluster">
+      ${map(groups.filter((other) => other !== group), (other) => `<a class="chip" href="${esc(link(depth, faqGroupPath(other)))}">${esc(t(other.name, locale) || other.slug)}</a>`)}
+    </div>
+  </div>
+</section>
+
+${ctaBand({ c, locale, depth })}`;
+  return {
+    path: `${locale}/${pagePath}`,
+    html: page({
+      c, locale, depth, pagePath, title, description, active: "articles", body,
+    }),
+  };
+}
+
+function faqPages({ c, locale, entries }) {
+  const groups = faqGroups(c, entries);
+  return [
+    faqIndexPage({ c, locale, groups }),
+    ...groups.map((group) => faqGroupPage({ c, locale, groups, group })),
+  ];
 }
 
 function categoryPage({ c, locale, categories, entries, category }) {
@@ -1357,7 +1477,7 @@ export function pages({ c, locale }) {
     updatesPage({ c, locale, entries }),
     qaPage({ c, locale, entries }),
     tipsPage({ c, locale, entries }),
-    faqPage({ c, locale, entries }),
+    ...faqPages({ c, locale, entries }),
     ...categories.map((category) => categoryPage({ c, locale, categories, entries, category })),
     ...entries.map((entry) => detailPage({ c, locale, categories, entries, entry })),
   ];

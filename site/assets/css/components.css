@@ -1001,6 +1001,25 @@
   .header-actions .btn { display: none; }
 }
 
+/* Keep a linked FAQ answer clear of the sticky header. */
+.faq__item, .faq__a { scroll-margin-top: 6rem; }
+
+/* Question lists on the FAQ specialty pages: each links to its answer on the
+   article page. */
+.faq-links { list-style: none; margin: .75rem 0 0; padding: 0; display: grid; gap: .1rem; }
+.faq-links a {
+  display: flex; align-items: center;
+  min-block-size: 2.75rem;
+  padding: .45rem .75rem;
+  border-radius: var(--r-md);
+  color: var(--olive-800);
+  text-decoration: underline;
+  text-decoration-color: var(--rose-300);
+  text-underline-offset: .25em;
+  transition: background-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease);
+}
+.faq-links a:hover, .faq-links a:focus-visible { background: var(--olive-050); color: var(--olive-900); }
+
 /* ==========================================================================
    19. MOBILE ACTION BAR
    Call, WhatsApp and Book, fixed to the bottom on phones. The branch-hospital
@@ -1010,20 +1029,30 @@
 .action-bar { display: none; }
 
 @media (max-width: 720px) {
+  /* A floating glass pill detached from the screen edge (user request
+     2026-09-30), not an edge-to-edge bar. It clears the home indicator on
+     notched phones through the safe-area inset. */
   .action-bar {
     position: fixed;
-    inset-inline: 0;
-    bottom: 0;
+    inset-inline: .75rem;
+    bottom: calc(.75rem + env(safe-area-inset-bottom, 0px));
     z-index: var(--z-fab, 60);
     display: grid;
     grid-template-columns: 1fr 1fr 1.25fr 1fr;
-    gap: .4rem;
-    padding: .5rem .6rem calc(.5rem + env(safe-area-inset-bottom, 0px));
-    background: rgba(251, 249, 244, .88);
-    backdrop-filter: blur(18px) saturate(140%);
-    -webkit-backdrop-filter: blur(18px) saturate(140%);
-    border-top: 1px solid var(--line);
-    box-shadow: 0 -6px 24px rgba(60, 54, 32, .10);
+    gap: .25rem;
+    padding: .35rem;
+    border-radius: var(--r-pill, 999px);
+    background:
+      linear-gradient(to bottom, rgba(255, 255, 255, .6), rgba(255, 255, 255, 0) 55%),
+      linear-gradient(100deg, rgba(255, 253, 249, .80) 0%, rgba(247, 236, 236, .74) 55%, rgba(243, 242, 230, .78) 100%);
+    backdrop-filter: blur(22px) saturate(170%);
+    -webkit-backdrop-filter: blur(22px) saturate(170%);
+    border: 1px solid rgba(255, 255, 255, .7);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, .9),
+      inset 0 -1px 0 rgba(142, 139, 99, .12),
+      0 10px 30px rgba(60, 54, 32, .20),
+      0 2px 6px rgba(60, 54, 32, .10);
   }
   .action-bar__item {
     display: flex;
@@ -1033,7 +1062,7 @@
     gap: .18rem;
     min-height: 3rem;               /* comfortably over the 44pt minimum */
     padding: .35rem .3rem;
-    border-radius: var(--r-lg);
+    border-radius: var(--r-pill, 999px);
     font-size: .72rem;
     font-weight: 600;
     line-height: 1.1;
@@ -1042,10 +1071,11 @@
     background: transparent;
   }
   .action-bar__item .ico { width: 1.25em; height: 1.25em; }
-  .action-bar__item:active { background: var(--olive-100); }
+  .action-bar__item:active { background: rgba(255, 255, 255, .7); }
   .action-bar__item--cta {
-    background: var(--rose-500, #CB8587);
+    background: linear-gradient(to bottom, var(--rose-500, #CB8587), var(--rose-600, #B96F72));
     color: #fff;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .35), 0 3px 10px rgba(165, 89, 92, .30);
   }
   /* The English booking CTA is intentionally a compact single-line label. */
   .action-bar__item--cta span { white-space: nowrap; }
@@ -1059,7 +1089,7 @@
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
   }
-  .action-bar__item--menu[aria-expanded="true"] { background: var(--olive-100); }
+  .action-bar__item--menu[aria-expanded="true"] { background: rgba(255, 255, 255, .7); }
   /* The bar carries the menu button now, so the header burger would be a
      second copy of the same control. */
   .site-header .burger { display: none; }
@@ -1068,7 +1098,7 @@
   .floating-actions { display: none; }
 
   /* Give the footer room so the bar never covers the last line of content. */
-  body { padding-bottom: 4.25rem; }
+  body { padding-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px)); }
 }
 
 /* Both fallbacks the glass system requires. */
