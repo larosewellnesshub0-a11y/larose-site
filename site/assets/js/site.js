@@ -981,3 +981,78 @@
     })
     .catch(function () {});
 })();
+
+/* ---------------------------------------------------------------------------
+   Adaptive glass for the bottom pill (2026-09-30)
+   Glass takes its colour from what is behind it. The light pill with dark
+   labels read muddy over the dark olive hero and bands, so, like Apple's
+   material, it switches to a smoked tint with light labels while it sits
+   over dark content, and back once the content behind it is light. The
+   check samples what is under the pill; it runs in the light theme only.
+   --------------------------------------------------------------------------- */
+(function () {
+  "use strict";
+  var bar = document.querySelector(".action-bar");
+  if (!bar || !document.elementsFromPoint) return;
+  var root = document.documentElement;
+  var queued = false;
+
+  function lum(color) {
+    var m = String(color).match(/[\d.]+/g);
+    if (!m || m.length < 3) return null;
+    var a = m.length > 3 ? Number(m[3]) : 1;
+    return { l: (0.2126 * m[0] + 0.7152 * m[1] + 0.0722 * m[2]) / 255, a: a };
+  }
+  /* Dark if the first painted layer under the point is a background photo
+     or a dark fill. Transparent layers are skipped. */
+  function darkAt(x, y) {
+    var stack = document.elementsFromPoint(x, y);
+    for (var i = 0; i < stack.length; i++) {
+      var el = stack[i];
+      if (bar.contains(el) || el.closest(".promo, .promo-scrim, .drawer, .floating-actions")) continue;
+      // Content photos and embeds defer to the section they sit in; only a
+      // photo used as a section background (the heroes) counts as dark.
+      if (el.tagName === "IMG" || el.tagName === "VIDEO" || el.tagName === "IFRAME" || el.tagName === "PICTURE") continue;
+      var cs = window.getComputedStyle(el);
+      var bg = cs.backgroundImage || "";
+      if (bg.indexOf("url(") > -1) return true;
+      // A colour gradient (the olive call-to-action band): judge it by its
+      // own opaque colour stops.
+      if (bg.indexOf("gradient(") > -1) {
+        var stops = (bg.match(/rgba?\([^)]+\)/g) || []).map(lum).filter(function (x) { return x && x.a > 0.5; });
+        if (stops.length) {
+          var avg = stops.reduce(function (sum, x) { return sum + x.l; }, 0) / stops.length;
+          return avg < 0.45;
+        }
+      }
+      var c = lum(cs.backgroundColor);
+      if (c && c.a > 0.5) return c.l < 0.45;
+    }
+    return false;
+  }
+  function check() {
+    queued = false;
+    if (root.getAttribute("data-theme") === "dark" || window.getComputedStyle(bar).display === "none") {
+      bar.classList.remove("is-on-dark");
+      return;
+    }
+    var r = bar.getBoundingClientRect();
+    var y = r.top + r.height / 2;
+    var xs = [r.left + r.width * 0.2, r.left + r.width * 0.5, r.left + r.width * 0.8];
+    var dark = 0;
+    xs.forEach(function (x) { if (darkAt(x, y)) dark++; });
+    bar.classList.toggle("is-on-dark", dark >= 2);
+  }
+  function queue() {
+    if (queued) return;
+    queued = true;
+    window.requestAnimationFrame(check);
+  }
+  window.addEventListener("scroll", queue, { passive: true });
+  window.addEventListener("resize", queue, { passive: true });
+  window.addEventListener("load", queue);
+  document.addEventListener("click", function (e) {
+    if (e.target.closest("[data-theme-toggle]")) window.setTimeout(queue, 50);
+  });
+  queue();
+})();
