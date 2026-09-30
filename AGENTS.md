@@ -88,5 +88,18 @@ This is a generated bilingual static site. Work from source, not from output.
     re-parse with `json.loads` to check, and write with `newline=""` so the
     line endings are kept.
 
+17. **Reviewer pairs for the fourth doctor (user decision, 2026-10-01).**
+    Rheumatology articles by shimaa-sherif are reviewed by mohab-ashraf.
+    shimaa-sherif may review articles by mohab-ashraf or alyaa-abu-taleb.
+    Leave her portrait empty until the clinic supplies a photo. Never use a
+    generated image for it.
+18. **Another session also pushes to `origin/main`.** Before every push, run
+    `git fetch` and then `git pull --rebase --autostash`. Rebuild if the
+    upstream changes touched `content/` or `build/`. Never force-push.
+19. **The goal and checklist for the current round** are in
+    `_project/GOAL-<date>.md` (currently `_project/GOAL-2026-10-01.md`).
+    Read it first and re-read it at each milestone. The per-round log is in
+    `_project/WORKPLAN-<date>.md`.
+
 See `PROJECT.md` for the source map and `_project/LAUNCH.md` for the deployment
 runbook.
