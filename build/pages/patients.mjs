@@ -290,11 +290,11 @@ ${pageHero({
             <label class="field__label" for="booking-time">${esc(t({ ar: "الوقت المفضّل", en: "Preferred time" }, locale))} <span class="field__opt">${esc(t({ ar: "اختياري", en: "optional" }, locale))}</span></label>
             ${(() => {
               /* A bare <input type="time"> accepted 02:00, and min/max on it is
-                 advisory in several browsers. Clinics run between 3:00 and 8:00 pm, so
+                 advisory in several browsers. Clinics run between 2:00 and 8:00 pm, so
                  the field offers those slots and nothing else - valid by
                  construction, and it still works with no JavaScript. */
               const slots = [];
-              for (let m = 15 * 60; m <= 19 * 60 + 45; m += 15) {
+              for (let m = 14 * 60; m <= 19 * 60 + 45; m += 15) {
                 const h = Math.floor(m / 60), mm = m % 60;
                 const value = `${String(h).padStart(2, "0")}:${String(mm).padStart(2, "0")}`;
                 const h12 = h > 12 ? h - 12 : h;
@@ -395,9 +395,15 @@ ${pageHero({
             const lines = [...byBranch.entries()].map(([bSlug, set]) => {
               const branch = branches.find((b) => t(b.slug, "en") === bSlug);
               const names = dayList([...set], locale);
-              // A doctor whose hours differ by branch (hoursByBranch) gets
-              // the right time on each line.
-              const own = mine.length === 1 ? t(mine[0].hoursByBranch?.[bSlug], locale) : "";
+              // Each doctor's own hours at this branch (hoursByBranch, else
+              // hours). One shared time is shown as is; different times are
+              // shown per doctor.
+              const here = mine.filter((d) => (d.schedule[bSlug] || []).length);
+              const times = here.map((d) => ({ name: t(d.name, locale), time: t(d.hoursByBranch?.[bSlug], locale) || t(d.hours, locale) }))
+                .filter((x) => x.time);
+              const unique = [...new Set(times.map((x) => x.time))];
+              const own = unique.length === 1 ? unique[0]
+                : unique.length > 1 ? times.map((x) => `${x.name}: ${x.time}`).join(locale === "ar" ? "، " : "; ") : "";
               return { branch: branch ? t(branch.name, locale) : bSlug, names, own, only: byBranch.size === 1 };
             });
             /* One doctor: show that doctor's own hours (they differ, e.g. a

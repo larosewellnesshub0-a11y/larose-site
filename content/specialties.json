@@ -2177,8 +2177,8 @@
    "hasReviews": true,
    "icon": "joint",
    "name": {
-    "ar": "الروماتيزم والمناعة والمفاصل",
-    "en": "Rheumatology, Immunology & Joint Diseases"
+    "ar": "الروماتيزم والمفاصل",
+    "en": "Rheumatology & Joint Diseases"
    },
    "short": {
     "ar": "الروماتيزم والمفاصل",
@@ -2189,8 +2189,8 @@
     "en": "Rheumatoid arthritis, lupus, osteoarthritis and gout"
    },
    "intro": {
-    "ar": "عيادة الروماتيزم والمناعة والمفاصل والطب الطبيعي والتأهيل في لاروز بتشخّص وبتعالج الأمراض الروماتيزمية: الروماتويد، والذئبة الحمراء، وخشونة المفاصل والفقرات، والنقرس، والفيبروميالجيا، وأمراض المناعة زي تصلب الجلد ومتلازمة جوجرن ومرض بهجت. وكمان متابعة حمل مريضات الروماتويد، والتأهيل والطب الطبيعي لمرضى المفاصل، في فرع المعادي وفرع التجمع الخامس.",
-    "en": "The La Rose rheumatology, immunology, physical medicine and rehabilitation clinic diagnoses and treats rheumatic diseases: rheumatoid arthritis, lupus, joint and spinal osteoarthritis, gout and fibromyalgia, and immune conditions such as scleroderma, Sjögren's syndrome and Behçet's disease. It also follows pregnancy in patients with rheumatoid arthritis and offers rehabilitation and physical medicine for joint patients, at the Maadi and Fifth Settlement branches."
+    "ar": "عيادة الروماتيزم والمفاصل والطب الطبيعي والتأهيل في لاروز بتشخّص وبتعالج الأمراض الروماتيزمية: الروماتويد، والذئبة الحمراء، وخشونة المفاصل والفقرات، والنقرس، والفيبروميالجيا، وأمراض زي تصلب الجلد ومتلازمة جوجرن ومرض بهجت. وكمان متابعة حمل مريضات الروماتويد، والتأهيل والطب الطبيعي لمرضى المفاصل، في فرع المعادي وفرع التجمع الخامس.",
+    "en": "The La Rose rheumatology, physical medicine and rehabilitation clinic diagnoses and treats rheumatic diseases: rheumatoid arthritis, lupus, joint and spinal osteoarthritis, gout and fibromyalgia, and conditions such as scleroderma, Sjögren's syndrome and Behçet's disease. It also follows pregnancy in patients with rheumatoid arthritis and offers rehabilitation and physical medicine for joint patients, at the Maadi and Fifth Settlement branches."
    },
    "consultationIncludes": {
     "conditions": {
@@ -2206,7 +2206,7 @@
        "الفيبروميالجيا (الألم العضلي الليفي)",
        "آلام الظهر والرقبة والكتف",
        "هشاشة العظام ونقص فيتامين د",
-       "أمراض المناعة زي تصلب الجلد وجوجرن وبهجت",
+       "تصلب الجلد وجوجرن وبهجت",
        "متابعة حمل مريضات الروماتويد"
       ],
       "en": [
@@ -2216,7 +2216,7 @@
        "Fibromyalgia",
        "Back, neck and shoulder pain",
        "Osteoporosis and vitamin D deficiency",
-       "Immune diseases such as scleroderma, Sjögren's and Behçet's",
+       "Scleroderma, Sjögren's and Behçet's",
        "Pregnancy follow-up in rheumatoid arthritis"
       ]
      }
@@ -2230,13 +2230,13 @@
      "النقرس وارتفاع حمض اليوريك",
      "الفيبروميالجيا (الألم العضلي الليفي)",
      "الصدفية المفصلية",
-     "التيبس الفقاري المناعي (التهاب الفقار اللاصق)",
+     "التيبس الفقاري (التهاب الفقار اللاصق)",
      "تصلب الجلد (سكليروديرما)",
      "متلازمة جوجرن (جفاف العين والفم)",
-     "التهاب العضلات المناعي",
-     "التهابات الأوعية الدموية المناعية",
+     "التهاب العضلات",
+     "التهابات الأوعية الدموية",
      "مرض بهجت",
-     "متلازمة الأجسام المضادة للفوسفوليبيد (تجلطات المناعة)",
+     "متلازمة الأجسام المضادة للفوسفوليبيد",
      "مرض ستيل",
      "آلام الظهر والرقبة والكتف",
      "تيبس الكتف (الكتف المتجمد)",
@@ -2258,10 +2258,10 @@
      "Ankylosing spondylitis",
      "Scleroderma (systemic sclerosis)",
      "Sjögren's syndrome (dry eyes and mouth)",
-     "Immune myositis",
-     "Immune vasculitis",
+     "Myositis",
+     "Vasculitis",
      "Behçet's disease",
-     "Antiphospholipid syndrome (immune clotting)",
+     "Antiphospholipid syndrome",
      "Still's disease",
      "Back, neck and shoulder pain",
      "Frozen shoulder",
@@ -2276,18 +2276,18 @@
    },
    "treatments": [
     {
-     "slug": "rheumatic-immune-diseases",
+     "slug": "rheumatic-diseases",
      "name": {
-      "ar": "أمراض الروماتيزم والمناعة",
-      "en": "Rheumatic and immune diseases"
+      "ar": "أمراض الروماتيزم",
+      "en": "Rheumatic diseases"
      },
      "summary": {
       "ar": "تشخيص وعلاج ومتابعة",
       "en": "Diagnosis, treatment and follow-up"
      },
      "body": {
-      "ar": "تشخيص وعلاج الأمراض الروماتيزمية والمناعية: الذئبة الحمراء الجهازية، والروماتويد المفصلي، وتصلب الجلد، ومتلازمة جوجرن، والتهاب العضلات المناعي، والتهابات الأوعية الدموية المناعية، ومرض بهجت، ومتلازمة الأجسام المضادة للفوسفوليبيد، ومرض ستيل، والمتلازمات الالتهابية المزمنة.",
-      "en": "Diagnosis and treatment of rheumatic and immune diseases: systemic lupus erythematosus, rheumatoid arthritis, scleroderma, Sjögren's syndrome, immune myositis, immune vasculitis, Behçet's disease, antiphospholipid syndrome, Still's disease and chronic inflammatory syndromes."
+      "ar": "تشخيص وعلاج الأمراض الروماتيزمية: الذئبة الحمراء الجهازية، والروماتويد المفصلي، وتصلب الجلد، ومتلازمة جوجرن، والتهاب العضلات، والتهابات الأوعية الدموية، ومرض بهجت، ومتلازمة الأجسام المضادة للفوسفوليبيد، ومرض ستيل، والمتلازمات الالتهابية المزمنة.",
+      "en": "Diagnosis and treatment of rheumatic diseases: systemic lupus erythematosus, rheumatoid arthritis, scleroderma, Sjögren's syndrome, myositis, vasculitis, Behçet's disease, antiphospholipid syndrome, Still's disease and chronic inflammatory syndromes."
      },
      "facts": {
       "ar": [
@@ -2315,7 +2315,7 @@
       "en": "Osteoarthritis, gout, back and shoulder pain"
      },
      "body": {
-      "ar": "خشونة الركبة والمفاصل والفقرات، والنقرس وارتفاع حمض اليوريك، والصدفية المفصلية، والتيبس الفقاري المناعي، وآلام الظهر والرقبة والكتف، وتيبس الكتف، والتهاب الأوتار والأربطة، والتهاب الغضاريف الحاد والمزمن، والحمى الروماتيزمية.",
+      "ar": "خشونة الركبة والمفاصل والفقرات، والنقرس وارتفاع حمض اليوريك، والصدفية المفصلية، والتيبس الفقاري، وآلام الظهر والرقبة والكتف، وتيبس الكتف، والتهاب الأوتار والأربطة، والتهاب الغضاريف الحاد والمزمن، والحمى الروماتيزمية.",
       "en": "Knee, joint and spinal osteoarthritis, gout and raised uric acid, psoriatic arthritis, ankylosing spondylitis, back, neck and shoulder pain, frozen shoulder, tendon and ligament inflammation, acute and chronic cartilage inflammation, and rheumatic fever."
      },
      "facts": {
@@ -2366,7 +2366,7 @@
      "en": "Rheumatology & Joint Diseases in Maadi | La Rose"
     },
     "description": {
-     "ar": "كشف روماتيزم ومناعة ومفاصل في المعادي والتجمع الخامس: الروماتويد والذئبة الحمراء وخشونة المفاصل والنقرس والفيبروميالجيا، والتأهيل والطب الطبيعي.",
+     "ar": "كشف روماتيزم ومفاصل في المعادي والتجمع الخامس: الروماتويد والذئبة الحمراء وخشونة المفاصل والنقرس والفيبروميالجيا، والتأهيل والطب الطبيعي.",
      "en": "Rheumatology in Maadi and Fifth Settlement: rheumatoid arthritis, lupus, osteoarthritis, gout and fibromyalgia, plus rehabilitation and physical medicine."
     }
    }

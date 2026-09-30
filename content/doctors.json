@@ -31,8 +31,8 @@
         ]
       },
       "days": {
-        "ar": "السبت · الاتنين · الثلاثاء بالمعادي · الأربعاء بالتجمع",
-        "en": "Sat · Mon · Tue in Maadi · Wed in Fifth Settlement"
+        "ar": "السبت · الاتنين · الثلاثاء بالمعادي · الأربعاء بالتجمع (من ٣:٣٠)",
+        "en": "Sat · Mon · Tue in Maadi · Wed in Fifth Settlement (from 3:30)"
       },
       "schedule": {
         "maadi": [
@@ -45,8 +45,18 @@
         ]
       },
       "hours": {
-        "ar": "٣ – ٧ مساءً",
-        "en": "3 – 7:30 pm"
+        "ar": "٣ – ٨ مساءً",
+        "en": "3 – 8 pm"
+      },
+      "hoursByBranch": {
+        "maadi": {
+          "ar": "٣ – ٨ مساءً",
+          "en": "3 – 8 pm"
+        },
+        "fifth-settlement": {
+          "ar": "٣:٣٠ – ٨ مساءً",
+          "en": "3:30 – 8 pm"
+        }
       },
       "branches": [
         "maadi",
@@ -60,22 +70,21 @@
       "portrait": "assets/img/doctors/shimaa-fouad.jpg",
       "portrait2x": "assets/img/doctors/shimaa-fouad@2x.jpg",
       "bio": {
-        "ar": "د. شيماء بتشتغل على السبب مش على الرقم. الكشف عندها بيبدأ بتحليل التركيب الجسمي بجهاز InBody، ومراجعة التحاليل والتاريخ الطبي، وبعدها بتتحدد الخطة اللي تنفع مع حياتك انت، مش جدول جاهز. خبرتها الأساسية في الحالات اللي جربت أنظمة كتير ورجعت تزيد تاني: مقاومة الإنسولين، تكيس المبايض، وخمول الغدة الدرقية. المتابعة أسبوعية، والخطة بتتعدل أول بأول.",
-        "en": "Dr. Shimaa works on the cause, not the number. Her consultation begins with an InBody body-composition analysis and a review of your labs and medical history; only then is a plan decided, one that fits your life rather than a printed sheet. Her core experience is with the cases that have tried many diets and regained the weight each time: insulin resistance, PCOS and hypothyroidism. Follow-up is weekly, and the plan is adjusted as you go."
+        "ar": "د. شيماء فؤاد طبيبة بشرية وأخصائية التغذية العلاجية والإكلينيكية والتخسيس، وعضو الجمعية الأوروبية للتغذية الإكلينيكية والتمثيل الغذائي (ESPEN)، بخبرة تتجاوز ١٨ عامًا. تتخصص في الحالات التي لم تنجح معها الأنظمة المعتادة، مثل مقاومة الإنسولين وتكيس المبايض وخمول الغدة الدرقية واضطرابات التمثيل الغذائي، والسمنة المصاحبة لأمراض الروماتيزم والمناعة، إلى جانب علاج النحافة وزيادة الوزن الصحية. تُبنى الخطة على تحليل InBody كامل وقراءة التحاليل الطبية، لا على نظام غذائي جاهز، مع متابعة أسبوعية وتعديل الخطة أولًا بأول.",
+        "en": "Dr. Shimaa Fouad is a physician specialising in clinical and therapeutic nutrition and weight management, and a member of the European Society for Clinical Nutrition and Metabolism (ESPEN), with more than 18 years of experience. She focuses on cases where standard diets have not worked, such as insulin resistance, polycystic ovary syndrome, hypothyroidism and metabolic disorders, and obesity alongside rheumatic and immune conditions, as well as underweight and healthy weight gain. Each plan is built on a full InBody analysis and a reading of the medical tests rather than a ready-made diet, with weekly follow-up and adjustments as progress is made."
       },
       "services": {
         "ar": [
           "فحص InBody إكلينيكي كامل",
           "برامج التغذية العلاجية المخصصة",
           "متابعة إنقاص الوزن وعلاج السمنة",
-          "حلول التخسيس الطبية زي المونجارو والويجوفي",
+          "متابعة وعلاج السمنة وإنقاص الوزن بحلول بديلة للتكميم غير جراحية، زي بروتوكول بديل التكميم باستخدام المونجارو والويجوفي",
           "علاج النحافة وزيادة الوزن",
           "علاج مقاومة الإنسولين واضطرابات التمثيل الغذائي",
           "تغذية حالات تكيس المبايض",
           "تغذية حالات الغدة الدرقية",
           "تغذية مرضى السكر والضغط والكوليسترول",
           "التغذية العلاجية للحالات الروماتيزمية والمناعية",
-          "متابعة تغذية الأطفال",
           "متابعة تغذية الأمهات في فترة الحمل والرضاعة",
           "جلسات الميزوثيرابي",
           "نحت القوام غير الجراحي",
@@ -86,14 +95,13 @@
           "Full clinical InBody check-up",
           "Personalised therapeutic nutrition programmes",
           "Weight-loss follow-up and obesity treatment",
-          "Medical weight-loss options such as Mounjaro and Wegovy",
+          "Obesity and weight-loss follow-up with non-surgical alternatives to the gastric sleeve, such as the sleeve-alternative protocol using Mounjaro and Wegovy",
           "Underweight treatment and healthy weight gain",
           "Insulin resistance and metabolic disorders",
           "Nutrition for PCOS",
           "Nutrition for thyroid conditions",
           "Nutrition for diabetes, blood pressure and cholesterol",
           "Therapeutic nutrition for rheumatic and immune conditions",
-          "Children's nutrition follow-up",
           "Nutrition follow-up in pregnancy and breastfeeding",
           "Mesotherapy sessions",
           "Non-surgical body contouring",
@@ -148,8 +156,14 @@
         ]
       },
       "hours": {
-        "ar": "٣ – ٧ مساءً",
-        "en": "3 – 7:30 pm"
+        "ar": "٢ – ٧ مساءً",
+        "en": "2 – 7 pm"
+      },
+      "hoursByBranch": {
+        "maadi": {
+          "ar": "٢ – ٧ مساءً",
+          "en": "2 – 7 pm"
+        }
       },
       "branches": [
         "maadi",
@@ -163,8 +177,8 @@
       "portrait": "assets/img/doctors/alyaa-abu-taleb.jpg",
       "portrait2x": "assets/img/doctors/alyaa-abu-taleb@2x.jpg",
       "bio": {
-        "ar": "د. علياء بتغطي الحالات اللي محتاج تغذية متخصصة على مراحل مختلفة من العمر: برامج إنقاص الوزن الآمنة للسيدات، وتغذية الأطفال ومشاكل الأكل وضعف الشهية، وتغذية الأم في الحمل والرضاعة، وبرامج زيادة الوزن الصحية للنحافة. كل خطة بتتبني على تحليل InBody كامل وتقييم الحالة الصحية والتحاليل، مع متابعة أسبوعية وتعديل الخطة أول بأول، من غير حرمان ولا أنظمة قاسية، وبأكل بيتي متاح. خريجة المعهد القومي للتغذية.",
-        "en": "Dr. Alyaa covers the cases that need specialised nutrition at different stages of life: safe weight-loss programmes for women, children's nutrition, eating problems and poor appetite, maternal nutrition through pregnancy and breastfeeding, and healthy weight-gain programmes for underweight patients. Every plan is built on a full InBody analysis, an assessment of your health and your lab results, with weekly follow-up and adjustments as you go, without deprivation or harsh regimes, and with everyday home food. A graduate of the National Nutrition Institute."
+        "ar": "د. علياء سعيد أبوطالب طبيبة بشرية وأخصائية التغذية العلاجية والإكلينيكية والتخسيس، من المعهد القومي للتغذية، بخبرة تتجاوز ٧ سنوات في المعادي، وحاصلة على الدبلوم المهني للجودة التطبيقية في الرعاية الصحية من كلية الطب بجامعة عين شمس. تتخصص في تغذية الأسرة: برامج إنقاص الوزن الآمنة للسيدات، ومتابعة تغذية الأطفال ومشكلات الأكل وضعف الشهية، وتغذية الأم خلال الحمل والرضاعة، وبرامج علاج النحافة وزيادة الوزن الصحية. تُبنى كل خطة على تحليل InBody كامل وتقييم الحالة الصحية والتحاليل، مع متابعة أسبوعية وتعديل الخطة أولًا بأول، دون حرمان أو أنظمة قاسية، وبالاعتماد على الأكل المنزلي المتاح.",
+        "en": "Dr. Alyaa Said Abu Taleb is a physician specialising in clinical and therapeutic nutrition and weight management, trained at the National Nutrition Institute, with more than seven years of experience in Maadi and a Professional Diploma in Applied Quality in Healthcare from the Faculty of Medicine, Ain Shams University. She focuses on family nutrition: safe weight-loss programmes for women, children's nutrition, eating problems and poor appetite, maternal nutrition through pregnancy and breastfeeding, and programmes for underweight and healthy weight gain. Every plan is built on a full InBody analysis and an assessment of health and test results, with weekly follow-up and adjustments as progress is made, without deprivation or harsh regimes, and based on everyday home food."
       },
       "services": {
         "ar": [
@@ -178,7 +192,7 @@
           "متابعة تغذية الأمهات في فترة الحمل والرضاعة",
           "تغذية حالات تكيس المبايض",
           "علاج مقاومة الإنسولين واضطرابات التمثيل الغذائي",
-          "حقن التخسيس (المونجارو والويجوفي)",
+          "متابعة وعلاج السمنة وإنقاص الوزن بحلول بديلة للتكميم غير جراحية، زي بروتوكول بديل التكميم باستخدام المونجارو والويجوفي",
           "جلسات الميزوثيرابي",
           "نحت القوام غير الجراحي",
           "كشف باطنة وكبد وجهاز هضمي متكامل بالسونار مع كشف التغذية"
@@ -194,7 +208,7 @@
           "Nutrition follow-up in pregnancy and breastfeeding",
           "Nutrition for PCOS",
           "Insulin resistance and metabolic disorders",
-          "Weight-loss injections (Mounjaro and Wegovy)",
+          "Obesity and weight-loss follow-up with non-surgical alternatives to the gastric sleeve, such as the sleeve-alternative protocol using Mounjaro and Wegovy",
           "Mesotherapy sessions",
           "Non-surgical body contouring",
           "Integrated internal medicine, liver and digestive consultation with ultrasound alongside the nutrition visit"
@@ -254,8 +268,8 @@
       "portrait": "assets/img/doctors/mohab-ashraf.jpg",
       "portrait2x": "assets/img/doctors/mohab-ashraf@2x.jpg",
       "bio": {
-        "ar": "د. مهاب بيعمل الكشف والسونار في نفس الزيارة بنفسه: يعني اللي بيقرا الصورة هو اللي شافك وسمع شكواك، مش تقرير بيوصلك بعد يومين. بيغطي الحموضة والارتجاع، جرثومة المعدة، القولون العصبي، دهون الكبد وارتفاع الإنزيمات، والسكر والغدة الدرقية.",
-        "en": "Dr. Mohab performs the consultation and the ultrasound himself, in the same visit: so the person reading the scan is the one who examined you and heard your history, not a report that arrives two days later. He covers reflux and heartburn, H. pylori, IBS, fatty liver and raised enzymes, diabetes and thyroid disorders."
+        "ar": "د. مهاب أشرف فؤاد أخصائي الأمراض الباطنية والسكر، وأخصائي الكبد والجهاز الهضمي والمناظير، وحاصل على ماجستير الباطنة العامة والكبد والجهاز الهضمي والمناظير، بخبرة تتجاوز ٦ سنوات في تشخيص وعلاج أمراض الباطنة والكبد والجهاز الهضمي. يجري د. مهاب الكشف الإكلينيكي والسونار على البطن والحوض في نفس الزيارة، ويقرأ نتيجة السونار بنفسه في ضوء الأعراض والتاريخ المرضي، بما يختصر الوقت ويساعد على الوصول لتشخيص أدق. ويتابع حالات المعدة والقولون والكبد والمرارة، إلى جانب السكر والضغط والغدة الدرقية، بخطة علاج واضحة ومتابعة منتظمة.",
+        "en": "Dr. Mohab Ashraf Fouad is a specialist in internal medicine and diabetes, and in hepatology, gastroenterology and endoscopy, with an MSc in General Internal Medicine, Hepatology, Gastroenterology and Endoscopy and more than six years of experience in diagnosing and treating internal, liver and digestive conditions. He performs the clinical examination and the abdominal and pelvic ultrasound in the same visit, reading the scan himself in light of the symptoms and medical history, which saves time and supports a more accurate diagnosis. He follows stomach, colon, liver and gallbladder conditions, as well as diabetes, blood pressure and thyroid disorders, with a clear treatment plan and regular follow-up."
       },
       "services": {
         "ar": [
@@ -284,121 +298,303 @@
       "conditions": [
         {
           "title": {
-            "ar": "أمراض المعدة",
-            "en": "Stomach"
+            "ar": "المعدة والمريء",
+            "en": "Stomach and oesophagus"
           },
           "items": {
             "ar": [
               "جرثومة المعدة (الميكروب الحلزوني)",
-              "قرحة المعدة والاثني عشر",
-              "التهاب المعدة",
-              "عسر الهضم والحموضة وارتجاع المريء"
+              "قرحة المعدة والاثني عشر والقرحة الهضمية",
+              "التهاب المعدة والاثني عشر",
+              "التهاب المعدة المزمن والتهاب جدار المعدة",
+              "عسر الهضم وسوء الهضم",
+              "الحموضة وحرقة المعدة",
+              "ارتجاع المريء",
+              "تشنجات المريء وألم المريء",
+              "فطريات المريء",
+              "صعوبة البلع",
+              "دوالي المريء",
+              "نزيف المعدة والقيء الدموي",
+              "القيء المستمر والغثيان",
+              "التجشؤ المفرط والغازات",
+              "الزغطة المستمرة",
+              "تقلصات المعدة"
             ],
             "en": [
               "H. pylori",
-              "Gastric and duodenal ulcers",
-              "Gastritis",
-              "Indigestion, heartburn and acid reflux"
+              "Gastric, duodenal and peptic ulcers",
+              "Gastritis and duodenitis",
+              "Chronic gastritis",
+              "Indigestion and dyspepsia",
+              "Heartburn",
+              "Acid reflux (GERD)",
+              "Oesophageal spasm and pain",
+              "Oesophageal thrush",
+              "Difficulty swallowing",
+              "Oesophageal varices",
+              "Stomach bleeding and vomiting blood",
+              "Persistent vomiting and nausea",
+              "Excessive belching and gas",
+              "Persistent hiccups",
+              "Stomach cramps"
             ]
           }
         },
         {
           "title": {
-            "ar": "أمراض القولون والأمعاء",
+            "ar": "القولون والأمعاء",
             "en": "Colon and bowel"
           },
           "items": {
             "ar": [
               "القولون العصبي",
-              "الإمساك المزمن والانتفاخ",
+              "ألم القولون وانتفاخ القولون",
+              "الإمساك المزمن",
               "الإسهال المزمن وسوء الامتصاص",
+              "الإسهال الدموي ودم في البراز",
+              "نزيف القولون ونزيف الجهاز الهضمي",
               "التهاب القولون التقرحي",
+              "داء كرون",
               "حساسية القمح (السيلياك)",
+              "حساسية اللبن",
+              "النزلات المعوية والتهاب المعدة والأمعاء",
+              "التسمم الغذائي",
+              "المغص وتقلصات الجهاز الهضمي",
+              "أصوات البطن",
               "البلهارسيا",
-              "البواسير",
-              "نزيف الجهاز الهضمي",
-              "دوالي المريء"
+              "البواسير وعلاجها بدون جراحة",
+              "شرخ الشرج والناسور الشرجي",
+              "ألم الشرج وإفرازات فتحة الشرج"
             ],
             "en": [
               "Irritable bowel syndrome (IBS)",
-              "Chronic constipation and bloating",
+              "Colon pain and bloating",
+              "Chronic constipation",
               "Chronic diarrhoea and malabsorption",
+              "Bloody diarrhoea and blood in the stool",
+              "Colonic and gastrointestinal bleeding",
               "Ulcerative colitis",
+              "Crohn's disease",
               "Coeliac disease (wheat sensitivity)",
+              "Milk intolerance",
+              "Gastroenteritis",
+              "Food poisoning",
+              "Colic and digestive cramps",
+              "Bowel noises",
               "Schistosomiasis (bilharzia)",
-              "Haemorrhoids",
-              "Gastrointestinal bleeding",
-              "Oesophageal varices"
+              "Haemorrhoids and their non-surgical treatment",
+              "Anal fissure and anal fistula",
+              "Anal pain and discharge"
             ]
           }
         },
         {
           "title": {
-            "ar": "أمراض الكبد",
+            "ar": "الكبد",
             "en": "Liver"
           },
           "items": {
             "ar": [
-              "فيروس سي وفيروس بي",
-              "دهون الكبد",
-              "تليف الكبد والاستسقاء",
+              "دهون الكبد (الكبد الدهني)",
+              "التهاب الكبد الدهني غير الكحولي",
+              "فيروس سي (التهاب الكبد الوبائي سي)",
+              "فيروس بي والتهاب الكبد المزمن ب",
+              "فيروس إيه (التهاب الكبد الوبائي أ)",
+              "التهاب الكبد المناعي الذاتي",
               "ارتفاع إنزيمات الكبد",
-              "الصفراء واليرقان",
-              "متابعة وظائف الكبد والكلى"
+              "ارتفاع البيليروبين",
+              "الصفراء واليرقان واصفرار العين والجلد",
+              "البول الداكن والبراز الشاحب",
+              "تضخم الكبد وألم الكبد",
+              "تليف الكبد وتشمع الكبد",
+              "استسقاء البطن",
+              "ارتفاع ضغط الدم البابي",
+              "اعتلال الدماغ الكبدي والغيبوبة الكبدية",
+              "الفشل الكبدي",
+              "بؤرة على الكبد (تشخيص ومتابعة)",
+              "مرض ويلسون",
+              "داء ترسب الأصبغة الدموية",
+              "متلازمة بود كياري",
+              "فحوصات وظائف الكبد"
             ],
             "en": [
-              "Hepatitis C and hepatitis B",
               "Fatty liver",
-              "Liver cirrhosis and ascites",
+              "Non-alcoholic steatohepatitis (NASH)",
+              "Hepatitis C",
+              "Hepatitis B, including chronic hepatitis B",
+              "Hepatitis A",
+              "Autoimmune hepatitis",
               "Raised liver enzymes",
-              "Jaundice",
-              "Liver and kidney function follow-up"
+              "Raised bilirubin",
+              "Jaundice, with yellowing of the eyes and skin",
+              "Dark urine and pale stools",
+              "Enlarged liver and liver pain",
+              "Liver fibrosis and cirrhosis",
+              "Ascites",
+              "Portal hypertension",
+              "Hepatic encephalopathy and hepatic coma",
+              "Liver failure",
+              "A focal liver lesion (diagnosis and follow-up)",
+              "Wilson's disease",
+              "Haemochromatosis",
+              "Budd-Chiari syndrome",
+              "Liver function tests"
             ]
           }
         },
         {
           "title": {
-            "ar": "المرارة والبنكرياس",
-            "en": "Gallbladder and pancreas"
+            "ar": "المرارة والبنكرياس والطحال",
+            "en": "Gallbladder, pancreas and spleen"
           },
           "items": {
             "ar": [
-              "حصوات المرارة والقنوات المرارية",
-              "أمراض البنكرياس والتهاب البنكرياس"
+              "حصوات المرارة",
+              "حصوات القناة المرارية وانسدادها",
+              "التهاب المرارة ورشح المرارة",
+              "ألم المرارة",
+              "التهاب البنكرياس",
+              "تضخم الطحال"
             ],
             "en": [
-              "Gallstones and bile-duct disease",
-              "Pancreatic disease and pancreatitis"
+              "Gallstones",
+              "Bile-duct stones and blockage",
+              "Gallbladder inflammation and sludge",
+              "Gallbladder pain",
+              "Pancreatitis",
+              "Enlarged spleen"
             ]
           }
         },
         {
           "title": {
-            "ar": "الباطنة العامة والسكر",
-            "en": "General internal medicine and diabetes"
+            "ar": "السكر والغدد الصماء",
+            "en": "Diabetes and hormones"
           },
           "items": {
             "ar": [
-              "متابعة مرضى السكر النوع الأول والنوع الثاني",
-              "متابعة سكر الحمل",
+              "السكر النوع الأول والنوع الثاني",
+              "مقدمات السكر",
               "مقاومة الإنسولين",
-              "الغدة الدرقية",
+              "سكر الحمل: التشخيص والعلاج والمتابعة",
+              "ارتفاع السكر التراكمي",
+              "هبوط السكر وهبوط السكر الليلي",
+              "غيبوبة السكر",
+              "التهاب الأعصاب وتنميل الأطراف عند مرضى السكر",
+              "مشاكل الكلى عند مرضى السكر",
+              "الضعف الجنسي الناتج عن السكر",
+              "ضبط الضغط والسكر لمرضى الكبد والكلى",
+              "قصور الغدة الدرقية وعقيدات الغدة الدرقية",
+              "ارتفاع الهرمون المنبه للغدة الدرقية (TSH)",
+              "جحوظ العين",
+              "الغدة الجار درقية وارتفاع هرمونها",
+              "أمراض الغدة الكظرية والكورتيزول",
+              "اضطرابات الغدة النخامية",
+              "اضطرابات الهرمونات وارتفاع هرمون الذكورة",
+              "السمنة وزيادة الوزن والنحافة",
+              "ارتفاع حمض اليوريك"
+            ],
+            "en": [
+              "Type 1 and type 2 diabetes",
+              "Prediabetes",
+              "Insulin resistance",
+              "Diabetes in pregnancy: diagnosis, treatment and follow-up",
+              "High HbA1c",
+              "Low blood sugar, including at night",
+              "Diabetic coma",
+              "Diabetic neuropathy: pain and numbness in the limbs",
+              "Kidney problems in diabetes",
+              "Erectile dysfunction caused by diabetes",
+              "Blood pressure and sugar control for liver and kidney patients",
+              "Underactive thyroid and thyroid nodules",
+              "Raised thyroid-stimulating hormone (TSH)",
+              "Bulging eyes",
+              "Parathyroid disorders",
+              "Adrenal disorders and cortisol",
+              "Pituitary disorders",
+              "Hormonal imbalance and raised male hormones",
+              "Obesity, weight gain and underweight",
+              "Raised uric acid"
+            ]
+          }
+        },
+        {
+          "title": {
+            "ar": "الباطنة العامة",
+            "en": "General internal medicine"
+          },
+          "items": {
+            "ar": [
               "ضغط الدم المرتفع والمنخفض",
               "ارتفاع الكوليسترول",
               "الأنيميا ونقص الحديد",
-              "نقص الفيتامينات",
-              "الحميات والأمراض المعدية"
+              "انخفاض الهيموجلوبين وارتفاعه",
+              "نقص الفيتامينات ونقص فيتامين د",
+              "الحميات والأمراض المعدية",
+              "ارتفاع الكرياتينين ومتابعة وظائف الكلى",
+              "احتباس السوائل والوذمة",
+              "متلازمة الأيض",
+              "حمى البحر المتوسط",
+              "النقرس",
+              "الزكام المزمن والكحة",
+              "التغذية لمرضى السكر وفقر الدم"
             ],
             "en": [
-              "Type 1 and type 2 diabetes follow-up",
-              "Diabetes in pregnancy follow-up",
-              "Insulin resistance",
-              "Thyroid disorders",
               "High and low blood pressure",
               "High cholesterol",
               "Anaemia and iron deficiency",
-              "Vitamin deficiencies",
-              "Fevers and infectious diseases"
+              "Low and high haemoglobin",
+              "Vitamin deficiencies, including vitamin D",
+              "Fevers and infectious diseases",
+              "Raised creatinine and kidney function follow-up",
+              "Fluid retention and oedema",
+              "Metabolic syndrome",
+              "Familial Mediterranean fever",
+              "Gout",
+              "Chronic cold and cough",
+              "Nutrition for diabetes and anaemia"
+            ]
+          }
+        },
+        {
+          "title": {
+            "ar": "أعراض بيتابعها الدكتور",
+            "en": "Symptoms the doctor assesses"
+          },
+          "items": {
+            "ar": [
+              "ألم البطن وألم الجنب",
+              "ألم الكلى",
+              "فقدان الوزن وفقدان الشهية",
+              "الإرهاق والخمول وكثرة النوم",
+              "الدوخة وعدم الاتزان والإغماء",
+              "الصداع",
+              "ارتفاع درجة الحرارة",
+              "ألم الجسم ورعشة الجسم",
+              "كثرة التبول والعطش المستمر وجفاف الحلق",
+              "التعرق الزائد",
+              "احمرار العين",
+              "الحكة",
+              "قرح الفم",
+              "ضيق التنفس وألم الصدر وخفقان القلب",
+              "الكحة المصحوبة بدم"
+            ],
+            "en": [
+              "Abdominal and flank pain",
+              "Kidney pain",
+              "Weight loss and poor appetite",
+              "Fatigue, lethargy and excessive sleepiness",
+              "Dizziness, unsteadiness and fainting",
+              "Headache",
+              "Raised temperature",
+              "Body aches and trembling",
+              "Frequent urination, constant thirst and dry mouth",
+              "Excessive sweating",
+              "Red eyes",
+              "Itching",
+              "Mouth ulcers",
+              "Shortness of breath, chest pain and palpitations",
+              "Coughing up blood"
             ]
           }
         }
@@ -416,17 +612,17 @@
         "en": "Dr. Shimaa Sherif"
       },
       "title": {
-        "ar": "أخصائية أمراض الروماتيزم والمناعة والمفاصل والطب الطبيعي والتأهيل",
-        "en": "Specialist in Rheumatology, Immunology, Joint Diseases, Physical Medicine and Rehabilitation"
+        "ar": "أخصائية أمراض الروماتيزم والمفاصل والطب الطبيعي والتأهيل",
+        "en": "Specialist in Rheumatology, Joint Diseases, Physical Medicine and Rehabilitation"
       },
       "credentials": {
         "ar": [
-          "أخصائية أمراض المناعة والروماتيزم والمفاصل والطب الطبيعي والتأهيل",
+          "أخصائية أمراض الروماتيزم والمفاصل والطب الطبيعي والتأهيل",
           "ماجستير الروماتويد (الروماتيزم) والتأهيل",
           "خبرة واسعة في تشخيص وعلاج الأمراض الروماتيزمية"
         ],
         "en": [
-          "Specialist in immunology, rheumatology, joint diseases, physical medicine and rehabilitation",
+          "Specialist in rheumatology, joint diseases, physical medicine and rehabilitation",
           "MSc in Rheumatology and Rehabilitation",
           "Extensive experience in diagnosing and treating rheumatic diseases"
         ]
@@ -467,15 +663,15 @@
         "rheumatology"
       ],
       "bio": {
-        "ar": "د. شيماء شريف بتشخّص وبتعالج أمراض الروماتيزم والمناعة والمفاصل: الروماتويد، والذئبة الحمراء، وخشونة المفاصل، والنقرس، والفيبروميالجيا، وأمراض المناعة زي تصلب الجلد ومتلازمة جوجرن ومرض بهجت. وبتتابع حمل مريضات الروماتويد، وبتقدم التأهيل والطب الطبيعي لمرضى المفاصل.",
-        "en": "Dr. Shimaa Sherif diagnoses and treats rheumatic, immune and joint diseases: rheumatoid arthritis, lupus, osteoarthritis, gout and fibromyalgia, and immune conditions such as scleroderma, Sjögren's syndrome and Behçet's disease. She also follows pregnancy in patients with rheumatoid arthritis and provides rehabilitation and physical medicine for joint patients."
+        "ar": "د. شيماء شريف أخصائية أمراض الروماتيزم والمفاصل والطب الطبيعي والتأهيل، وحاصلة على ماجستير الروماتويد (الروماتيزم) والتأهيل، ولها خبرة واسعة في تشخيص وعلاج الأمراض الروماتيزمية. تتابع حالات الروماتويد والذئبة الحمراء وخشونة المفاصل والفقرات والنقرس والفيبروميالجيا، إلى جانب تصلب الجلد ومتلازمة جوجرن ومرض بهجت، كما تتابع حمل مريضات الروماتويد وتقدم التأهيل والطب الطبيعي لمرضى المفاصل.",
+        "en": "Dr. Shimaa Sherif is a specialist in rheumatology, joint diseases, physical medicine and rehabilitation, with an MSc in Rheumatology and Rehabilitation and extensive experience in diagnosing and treating rheumatic diseases. She follows rheumatoid arthritis, lupus, joint and spinal osteoarthritis, gout and fibromyalgia, as well as scleroderma, Sjögren's syndrome and Behçet's disease. She also follows pregnancy in patients with rheumatoid arthritis and provides rehabilitation and physical medicine for joint patients."
       },
       "services": {
         "ar": [
           "التهاب المفاصل الروماتويدي",
           "الذئبة الحمراء",
-          "التهاب الأوعية الدموية المناعي",
-          "التصلب الجلدي المناعي",
+          "التهاب الأوعية الدموية",
+          "التصلب الجلدي (سكليروديرما)",
           "التهاب الغضاريف الحاد والمزمن",
           "خشونة المفاصل والركبة",
           "تيبس العمود الفقري",
@@ -485,7 +681,7 @@
         "en": [
           "Rheumatoid arthritis",
           "Systemic lupus erythematosus",
-          "Immune vasculitis",
+          "Vasculitis",
           "Systemic sclerosis (scleroderma)",
           "Acute and chronic cartilage inflammation",
           "Knee and joint osteoarthritis",
@@ -497,8 +693,8 @@
       "conditions": [
         {
           "title": {
-            "ar": "أمراض المناعة والروماتيزم",
-            "en": "Immune and rheumatic diseases"
+            "ar": "أمراض الروماتيزم",
+            "en": "Rheumatic diseases"
           },
           "items": {
             "ar": [
@@ -506,10 +702,10 @@
               "الروماتويد المفصلي",
               "تصلب الجلد (سكليروديرما)",
               "متلازمة جوجرن (جفاف العين والفم)",
-              "التهاب العضلات المناعي",
-              "التهابات الأوعية الدموية المناعية",
+              "التهاب العضلات",
+              "التهابات الأوعية الدموية",
               "مرض بهجت",
-              "متلازمة الأجسام المضادة للفوسفوليبيد (تجلطات المناعة)",
+              "متلازمة الأجسام المضادة للفوسفوليبيد",
               "مرض ستيل",
               "متلازمات التهابية مزمنة"
             ],
@@ -518,10 +714,10 @@
               "Rheumatoid arthritis",
               "Scleroderma (systemic sclerosis)",
               "Sjögren's syndrome (dry eyes and mouth)",
-              "Immune myositis",
-              "Immune vasculitis",
+              "Myositis",
+              "Vasculitis",
               "Behçet's disease",
-              "Antiphospholipid syndrome (immune clotting)",
+              "Antiphospholipid syndrome",
               "Still's disease",
               "Chronic inflammatory syndromes"
             ]
@@ -535,7 +731,7 @@
           "items": {
             "ar": [
               "الصدفية المفصلية",
-              "التيبس الفقاري المناعي (التهاب الفقار اللاصق)",
+              "التيبس الفقاري (التهاب الفقار اللاصق)",
               "النقرس وارتفاع حمض اليوريك",
               "خشونة الركبة والمفاصل والفقرات",
               "آلام الظهر والرقبة والكتف",

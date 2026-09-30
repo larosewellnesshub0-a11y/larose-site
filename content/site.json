@@ -98,7 +98,7 @@
     "_note": "Clinic DAYS are derived per specialty from the doctors' schedules in doctors.json, so the booking form and the published hours cannot drift apart. Only `time` is stated here, because it is the same for every clinic. `display` remains the general fallback for pages that are not specialty-specific.",
     "display": {
       "ar": "الأيام بتختلف حسب الطبيب والفرع",
-      "en": "Clinic days vary by doctor and branch · 3–8 pm"
+      "en": "Clinic days vary by doctor and branch · 2–8 pm"
     },
     "bookingNote": {
       "ar": "الحجز قبل الحضور ضروري، والدخول بأسبقية الحضور.",
@@ -974,11 +974,11 @@
     }
   },
   "promo": {
-    "_note": "Website-only offer popup (user request 2026-09-30). Shown after 30 s on the site and some scrolling, never on the booking page, then snoozed. Its copy is published only as assets/data/promo.json (robots-disallowed) and injected by site.js, so no price is in any page's HTML. Price-bearing strings sit under promo.price so the dashboard's no-price save check allows them. Set enabled to false, or endsOn to a YYYY-MM-DD date, to stop it.",
+    "_note": "Website-only offer popup (user request 2026-09-30). Shown after 20 s on the site and a small scroll, never on the booking page, then snoozed. Its copy is published only as assets/data/promo.json (robots-disallowed) and injected by site.js, so no price is in any page's HTML. Price-bearing strings sit under promo.price so the dashboard's no-price save check allows them. Set enabled to false, or endsOn to a YYYY-MM-DD date, to stop it.",
     "enabled": true,
     "endsOn": null,
-    "delaySeconds": 30,
-    "minScrollPx": 400,
+    "delaySeconds": 20,
+    "minScrollPx": 150,
     "snoozeDays": 7,
     "bookedSnoozeDays": 30,
     "eyebrow": {
@@ -988,6 +988,14 @@
     "title": {
       "ar": "عرض مميز لفترة محدودة لزوار موقع عيادات La Rose Wellness Hub",
       "en": "A special limited-time offer for La Rose Wellness Hub website visitors"
+    },
+    "titleLead": {
+      "ar": "عرض مميز لفترة محدودة",
+      "en": "A special limited-time offer"
+    },
+    "titleRest": {
+      "ar": "لزوار موقع عيادات La Rose Wellness Hub",
+      "en": "for La Rose Wellness Hub website visitors"
     },
     "saving": {
       "ar": "بخصم حقيقي أكتر من 28%",
