@@ -2349,6 +2349,13 @@ table { border-collapse: collapse; width: 100%; }
   color: var(--ink-strong);
 }
 .promo__price-label + .promo__price { margin-top: .5rem; }
+.promo__extra {
+  margin: .5rem 0 0;
+  text-align: center;
+  font-weight: 700;
+  color: var(--rose-700);
+}
+[data-theme="dark"] .promo__extra { color: var(--rose-300); }
 .promo__price {
   display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: .2rem 1rem;
   margin-top: 1rem;

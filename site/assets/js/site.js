@@ -917,6 +917,7 @@
     frag.appendChild(price);
     frag.appendChild(el("p", "promo__save-row")).appendChild(el("span", "promo__save", copy.saving));
     frag.appendChild(withBrand(el("p", "promo__body"), copy.body));
+    if (copy.extra) frag.appendChild(el("p", "promo__extra", copy.extra));
     frag.appendChild(el("p", "promo__terms", copy.terms));
     return frag;
   }
