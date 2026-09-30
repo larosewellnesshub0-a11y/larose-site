@@ -47,6 +47,8 @@ python _project/scratch/register_score.py content/articles-new-<TOPIC SLUG>-2026
 
 It must print `ALL CHECKS PASS`. Fix every failure and rerun. Treat any `WARN` source line as needing either a replacement source or a note in your final report. Also parse the file with `json.load` to be sure it is valid UTF-8 JSON.
 
+Then run `python _project/scratch/check_source_titles.py <file>`. It compares each PubMed/PMC source's real title and first author with your label. Every BAD row means the link and the label do not match, and it must be fixed. Never write a label from memory: fetch the record, then copy its title and first author. Every number, interval or recommendation you attribute to a source must actually appear in that source. Do not add rationales such as "lifetime cap" or "biologically requires" that the source does not state.
+
 ## Final report (print at the end)
 
 Slug, file path, AR/EN word counts, number of sources, the checker's final output, list of internal links, any source you could not verify, and any content decision the clinician reviewer should double-check.

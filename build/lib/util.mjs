@@ -223,9 +223,14 @@ export function loadContent() {
   // Editorial images are hand-managed beneath `assets/img/articles/`. A small
   // legacy set was recorded without that directory; resolve it here so every
   // generated route advertises the real public asset rather than a dead URL.
+  // A new article whose cover has not been made yet drops its image, so every
+  // card and hero shows the designed placeholder instead of a dead <img>.
   articles.articles = articles.articles.map((article) => {
     const image = article?.image;
-    if (typeof image !== "string" || !image.startsWith("assets/img/") || image.startsWith("assets/img/articles/")) return article;
+    if (typeof image === "string" && image.startsWith("assets/img/articles/")) {
+      return fs.existsSync(path.join(OUT_DIR, image)) ? article : { ...article, image: "" };
+    }
+    if (typeof image !== "string" || !image.startsWith("assets/img/")) return article;
     const articleImage = `assets/img/articles/${path.basename(image)}`;
     return fs.existsSync(path.join(OUT_DIR, articleImage)) ? { ...article, image: articleImage } : article;
   });

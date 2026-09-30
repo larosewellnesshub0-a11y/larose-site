@@ -102,6 +102,15 @@ This is a generated bilingual static site. Work from source, not from output.
     `_project/GOAL-<date>.md` (currently `_project/GOAL-2026-10-01.md`).
     Read it first and re-read it at each milestone. The per-round log is in
     `_project/WORKPLAN-<date>.md`.
+20. **A source URL that returns 200 is not a verified citation.** Workers
+    (especially Antigravity) have attached real PubMed/PMC links to invented
+    labels: a rat brain-injury paper labelled as an RA review, and a DNA-mixture
+    study labelled as EULAR recommendations. `check_new_article.py` only checks
+    HTTP status. Also run
+    `python _project/scratch/check_source_titles.py <files>`. It compares each
+    PubMed/PMC title and first author (NCBI esummary) with the label. BAD rows
+    must be fixed. WEAK rows are usually shortened labels, so confirm them by
+    hand. Spot-check numeric claims against the cited abstract or label too.
 
 See `PROJECT.md` for the source map and `_project/LAUNCH.md` for the deployment
 runbook.
