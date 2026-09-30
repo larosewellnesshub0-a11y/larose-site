@@ -4,7 +4,7 @@
    change lands everywhere at once.
    ========================================================================== */
 
-import { t, ta, esc, link, asset, icon, sprig, stars, map, when, published, specialtyImage, bannerImage, sizeAttrs, responsiveAttrs, IMAGE_SIZES } from "./util.mjs";
+import { t, ta, esc, link, asset, icon, sprig, stars, map, when, published, specialtyImage, bannerImage, sizeAttrs, responsiveAttrs, IMAGE_SIZES, bookableFirst } from "./util.mjs";
 
 /* --------------------------------------------------------------------------
    Section heading
@@ -293,7 +293,7 @@ export function finder({ c, locale, depth }) {
         <label class="field__label" for="f-specialty">${esc(t(s.ui.selectSpecialty, locale))}</label>
         <select class="select" id="f-specialty" name="specialty" data-finder-specialty>
           <option value="">${esc(t({ ar: "كل التخصصات", en: "All specialties" }, locale))}</option>
-          ${map(specs, (sp) => `<option value="${esc(sp.slug)}">${esc(t(sp.name, locale))}${!sp.staffed ? ` · ${esc(t(s.ui.comingSoon, locale))}` : ""}</option>`)}
+          ${map(bookableFirst(specs), (sp) => `<option value="${esc(sp.slug)}">${esc(t(sp.name, locale))}${!sp.staffed ? ` · ${esc(t(s.ui.comingSoon, locale))}` : ""}</option>`)}
         </select>
       </div>
 

@@ -447,6 +447,13 @@ const ICONS = {
   user:       `<circle cx="10" cy="7" r="3.4" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M3.8 17.2a6.4 6.4 0 0 1 12.4 0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>`,
 };
 
+/** Specialties for a booking dropdown: bookable ones first, in their usual
+    order, then the "coming soon" ones, so a newly staffed specialty such as
+    rheumatology is not stranded below the disabled options. */
+export function bookableFirst(specs) {
+  return [...specs.filter((sp) => sp.staffed), ...specs.filter((sp) => !sp.staffed)];
+}
+
 /** Is the website-offer popup running? Off when disabled or past endsOn. */
 export function promoActive(c) {
   const p = c.site?.promo;

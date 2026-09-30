@@ -2,7 +2,7 @@
    Patient guide: visit planning, booking, preparation, FAQs and rights
    ========================================================================== */
 
-import { t, ta, esc, link, icon, map, when, published, bySlug, paras } from "../lib/util.mjs";
+import { t, ta, esc, link, icon, map, when, published, bySlug, paras, bookableFirst } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
   sectionHead, pageHero, finder, ctaBand, faqList,
@@ -254,7 +254,7 @@ ${pageHero({
             <label class="field__label" for="booking-specialty">${esc(t(s.ui.selectSpecialty, locale))}</label>
             <select class="select" id="booking-specialty" name="specialty" data-finder-specialty>
               <option value="">${esc(t({ ar: "اختار التخصص", en: "Choose a specialty" }, locale))}</option>
-              ${map(specs, (sp) => `<option value="${esc(sp.slug)}"${!sp.staffed ? " disabled" : ""}>${esc(t(sp.name, locale))}${!sp.staffed ? ` · ${esc(t(s.ui.comingSoon, locale))}` : ""}</option>`)}
+              ${map(bookableFirst(specs), (sp) => `<option value="${esc(sp.slug)}"${!sp.staffed ? " disabled" : ""}>${esc(t(sp.name, locale))}${!sp.staffed ? ` · ${esc(t(s.ui.comingSoon, locale))}` : ""}</option>`)}
             </select>
           </div>
           <div class="field">
