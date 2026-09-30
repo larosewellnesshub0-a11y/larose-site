@@ -1042,18 +1042,26 @@
     gap: .25rem;
     padding: .35rem;
     border-radius: var(--r-pill, 999px);
+    /* Liquid glass: a low-opacity brand tint, so the page reads through it,
+       with a strong blur and saturation doing the legibility work, a bright
+       specular rim on top and a faint rose-to-sage sheen (user request
+       2026-09-30: "lower opacity, glossy premium"). */
     background:
-      linear-gradient(to bottom, rgba(255, 255, 255, .6), rgba(255, 255, 255, 0) 55%),
-      linear-gradient(100deg, rgba(255, 253, 249, .80) 0%, rgba(247, 236, 236, .74) 55%, rgba(243, 242, 230, .78) 100%);
-    backdrop-filter: blur(22px) saturate(170%);
-    -webkit-backdrop-filter: blur(22px) saturate(170%);
-    border: 1px solid rgba(255, 255, 255, .7);
+      linear-gradient(to bottom, rgba(255, 255, 255, .42) 0%, rgba(255, 255, 255, .06) 48%, rgba(255, 255, 255, 0) 52%, rgba(255, 255, 255, .10) 100%),
+      linear-gradient(100deg, rgba(247, 236, 236, .30) 0%, rgba(255, 253, 249, .22) 50%, rgba(231, 230, 207, .28) 100%);
+    backdrop-filter: blur(26px) saturate(190%) brightness(1.06);
+    -webkit-backdrop-filter: blur(26px) saturate(190%) brightness(1.06);
+    border: 1px solid rgba(255, 255, 255, .55);
     box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, .9),
-      inset 0 -1px 0 rgba(142, 139, 99, .12),
-      0 10px 30px rgba(60, 54, 32, .20),
-      0 2px 6px rgba(60, 54, 32, .10);
+      inset 0 1.5px 0 rgba(255, 255, 255, .95),
+      inset 0 -1px 1px rgba(255, 255, 255, .35),
+      inset 0 0 18px rgba(255, 255, 255, .18),
+      0 12px 32px rgba(35, 36, 26, .22),
+      0 2px 6px rgba(35, 36, 26, .12);
   }
+  /* Labels sit on moving content now, so they carry a soft light halo. */
+  .action-bar__item:not(.action-bar__item--cta) { text-shadow: 0 1px 8px rgba(255, 255, 255, .85); }
+  .action-bar__item:not(.action-bar__item--cta) .ico { filter: drop-shadow(0 1px 4px rgba(255, 255, 255, .8)); }
   .action-bar__item {
     display: flex;
     flex-direction: column;
@@ -1071,7 +1079,7 @@
     background: transparent;
   }
   .action-bar__item .ico { width: 1.25em; height: 1.25em; }
-  .action-bar__item:active { background: rgba(255, 255, 255, .7); }
+  .action-bar__item:active { background: rgba(255, 255, 255, .45); }
   .action-bar__item--cta {
     background: linear-gradient(to bottom, var(--rose-500, #CB8587), var(--rose-600, #B96F72));
     color: #fff;
@@ -1089,7 +1097,7 @@
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
   }
-  .action-bar__item--menu[aria-expanded="true"] { background: rgba(255, 255, 255, .7); }
+  .action-bar__item--menu[aria-expanded="true"] { background: rgba(255, 255, 255, .45); }
   /* The bar carries the menu button now, so the header burger would be a
      second copy of the same control. */
   .site-header .burger { display: none; }
