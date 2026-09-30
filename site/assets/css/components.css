@@ -806,7 +806,9 @@
 }
 
 /* the mobile drawer is a large surface, so it takes a more opaque tint —
-   the HIG's opacity-scaling rule: bigger elements read as less transparent */
+   the HIG's opacity-scaling rule: bigger elements read as less transparent.
+   Its visible tint is the brand gradient in layout.css (glossy panel,
+   2026-09-30); these variables feed the shared .glass edge highlight. */
 .drawer__panel.glass {
   --glass-tint: rgba(251, 249, 244, .88);
   --glass-blur: 30px;

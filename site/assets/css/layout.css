@@ -296,21 +296,38 @@
 
 .drawer__scrim {
   position: absolute; inset: 0;
-  background: rgba(35, 36, 26, .48);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  /* Lighter and blurrier than a plain dim, so the page reads as frosted
+     behind the glass panel rather than blacked out (user request 2026-09-30). */
+  background: rgba(35, 36, 26, .30);
+  backdrop-filter: blur(6px) saturate(120%);
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
   opacity: 0;
   transition: opacity var(--dur-3) var(--ease);
 }
 .drawer.is-open .drawer__scrim { opacity: 1; }
 
+/* Glossy panel (user request 2026-09-30): a frosted pane in the brand's own
+   paper, blush and sage, with a rose glow at the top and a sage one at the
+   foot. The `.glass` class supplies the specular top edge; the tint here is
+   the brand gradient instead of flat paper. */
 .drawer__panel {
   position: absolute;
   inset-block: 0;
   inset-inline-end: 0;
   width: min(24rem, 90vw);
-  background: var(--paper);
-  box-shadow: var(--sh-xl);
+  background:
+    radial-gradient(120% 45% at 100% 0%, rgba(226, 182, 183, .55), transparent 70%),
+    radial-gradient(110% 40% at 0% 100%, rgba(214, 212, 173, .40), transparent 70%),
+    linear-gradient(165deg, rgba(255, 253, 249, .90) 0%, rgba(247, 236, 236, .84) 50%, rgba(243, 242, 230, .86) 100%);
+  backdrop-filter: blur(28px) saturate(170%);
+  -webkit-backdrop-filter: blur(28px) saturate(170%);
+  border: 0;
+  border-inline-start: 1px solid rgba(255, 255, 255, .65);
+  border-start-start-radius: 1.5rem;
+  border-end-start-radius: 1.5rem;
+  box-shadow:
+    inset 1px 0 0 rgba(255, 255, 255, .55),
+    -18px 0 48px rgba(60, 54, 32, .18);
   display: flex;
   flex-direction: column;
   transform: translateX(100%);
@@ -326,18 +343,21 @@
   padding: 1.1rem var(--gutter);
   border-bottom: 1px solid var(--line);
   position: sticky; top: 0;
-  background: var(--paper);
+  background: rgba(255, 253, 249, .55);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-bottom-color: rgba(142, 139, 99, .18);
   z-index: 2;
 }
 .drawer__body { padding: 1rem var(--gutter) 2rem; flex: 1; }
 .drawer__foot {
   padding: 1.25rem var(--gutter) 2rem;
-  border-top: 1px solid var(--line);
+  border-top: 1px solid rgba(142, 139, 99, .18);
   display: grid; gap: .65rem;
-  background: var(--paper-sunk);
+  background: linear-gradient(to bottom, rgba(244, 241, 232, .35), rgba(244, 241, 232, .70));
 }
 
-.drawer-nav__group + .drawer-nav__group { border-top: 1px solid var(--line); }
+.drawer-nav__group + .drawer-nav__group { border-top: 1px solid rgba(142, 139, 99, .16); }
 .drawer-nav__toggle {
   width: 100%;
   display: flex; align-items: center; justify-content: space-between; gap: 1rem;
@@ -350,7 +370,34 @@
 .drawer-nav__toggle .nav__caret { flex: none; }
 .drawer-nav__list { display: grid; gap: .1rem; padding-bottom: 1rem; }
 .drawer-nav__list a { display: flex; align-items: center; min-block-size: 2.75rem; padding: .6rem .9rem; border-radius: var(--r-md); font-size: var(--t-sm); color: var(--ink-muted); }
-.drawer-nav__list a:hover { background: var(--olive-050); color: var(--olive-900); }
+.drawer-nav__list a:hover { background: rgba(255, 255, 255, .6); color: var(--olive-900); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .8); }
+.drawer-nav__toggle { border-radius: var(--r-md); transition: background-color var(--dur-1) var(--ease), padding var(--dur-2) var(--ease); }
+.drawer-nav__toggle:hover { background: rgba(255, 255, 255, .45); padding-inline: .6rem; }
+
+/* Links float in one after another as the panel slides open. */
+.drawer-nav__group, .drawer__foot > * {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity var(--dur-3) var(--ease), transform var(--dur-3) var(--ease-out);
+}
+.drawer.is-open .drawer-nav__group, .drawer.is-open .drawer__foot > * { opacity: 1; transform: none; }
+.drawer.is-open .drawer-nav__group:nth-child(1) { transition-delay: 60ms; }
+.drawer.is-open .drawer-nav__group:nth-child(2) { transition-delay: 100ms; }
+.drawer.is-open .drawer-nav__group:nth-child(3) { transition-delay: 140ms; }
+.drawer.is-open .drawer-nav__group:nth-child(4) { transition-delay: 180ms; }
+.drawer.is-open .drawer-nav__group:nth-child(5) { transition-delay: 220ms; }
+.drawer.is-open .drawer-nav__group:nth-child(6) { transition-delay: 260ms; }
+.drawer.is-open .drawer-nav__group:nth-child(n+7) { transition-delay: 300ms; }
+.drawer.is-open .drawer__foot > * { transition-delay: 320ms; }
+@media (prefers-reduced-motion: reduce) {
+  .drawer-nav__group, .drawer__foot > * { opacity: 1; transform: none; transition: none; }
+}
+/* Without backdrop-filter the translucent layers would show the page through
+   unblurred, so fall back to the opaque paper panel. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .drawer__panel, .drawer__head { background: var(--paper); }
+  .drawer__foot { background: var(--paper-sunk); }
+}
 .drawer-nav__panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows var(--dur-3) var(--ease-out); }
 .drawer-nav__panel > div { overflow: hidden; }
 .drawer-nav__group.is-open .drawer-nav__panel { grid-template-rows: 1fr; }
