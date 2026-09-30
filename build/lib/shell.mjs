@@ -206,7 +206,10 @@ function drawer({ c, locale, depth, pagePath }) {
       <a class="wordmark" href="${link(depth, "index.html")}">
         <img src="${asset(depth, s.brand.logo.wordmarkSmall || s.brand.logo.wordmark)}" alt="${esc(t(s.brand.name, locale))}" width="280" height="242">
       </a>
-      <button class="burger" type="button" data-drawer-close aria-label="${esc(t(s.ui.close, locale))}"><span></span></button>
+      <div class="drawer__head-actions">
+        ${langSwitch({ c, locale, depth, pagePath, cls: "lang-switch lang-switch--drawer" })}
+        <button class="burger" type="button" data-drawer-close aria-label="${esc(t(s.ui.close, locale))}"><span></span></button>
+      </div>
     </div>
     <div class="drawer__body">
       <nav aria-label="${esc(t({ ar: "قائمة الموبايل", en: "Mobile menu" }, locale))}">${groups}</nav>
@@ -219,7 +222,6 @@ function drawer({ c, locale, depth, pagePath }) {
       <a class="btn btn--ghost btn--block" href="tel:${esc(s.contact.phone.tel)}">
         ${icon("phone")} <bdi class="num">${esc(s.contact.phone.display)}</bdi>
       </a>
-      ${langSwitch({ c, locale, depth, pagePath, cls: "lang-switch lang-switch--drawer" })}
     </div>
   </div>
 </div>`;
