@@ -321,64 +321,73 @@
 }
 .drawer.is-open .drawer__scrim { opacity: 1; }
 
-/* Glossy panel (user request 2026-09-30): a frosted pane in the brand's own
-   paper, blush and sage, with a rose glow at the top and a sage one at the
-   foot. The `.glass` class supplies the specular top edge; the tint here is
-   the brand gradient instead of flat paper. */
+/* Floating glossy card (user request 2026-09-30): detached from every edge,
+   sized to its links rather than the screen, in the same glossy material as
+   the bottom pill. It flies in from its side with a slight scale-up. */
 .drawer__panel {
   position: absolute;
-  inset-block: 0;
-  inset-inline-end: 0;
-  width: min(24rem, 90vw);
-  background:
-    radial-gradient(120% 45% at 100% 0%, rgba(226, 182, 183, .55), transparent 70%),
-    radial-gradient(110% 40% at 0% 100%, rgba(214, 212, 173, .40), transparent 70%),
-    linear-gradient(165deg, rgba(255, 253, 249, .90) 0%, rgba(247, 236, 236, .84) 50%, rgba(243, 242, 230, .86) 100%);
-  backdrop-filter: blur(28px) saturate(170%);
-  -webkit-backdrop-filter: blur(28px) saturate(170%);
-  border: 0;
-  border-inline-start: 1px solid rgba(255, 255, 255, .65);
-  border-start-start-radius: 1.5rem;
-  border-end-start-radius: 1.5rem;
-  box-shadow:
-    inset 1px 0 0 rgba(255, 255, 255, .55),
-    -18px 0 48px rgba(60, 54, 32, .18);
+  top: calc(.75rem + env(safe-area-inset-top, 0px));
+  bottom: calc(.75rem + env(safe-area-inset-bottom, 0px));
+  inset-inline-end: .75rem;
+  width: min(18.5rem, calc(100vw - 3rem));
+  background: var(--gloss-bg);
+  backdrop-filter: var(--gloss-blur);
+  -webkit-backdrop-filter: var(--gloss-blur);
+  border: var(--gloss-border);
+  border-radius: 1.75rem;
+  box-shadow: var(--gloss-shadow);
   display: flex;
   flex-direction: column;
-  transform: translateX(100%);
-  transition: transform var(--dur-3) var(--ease-out);
+  opacity: 0;
+  transform: translateX(calc(100% + 1.5rem)) scale(.94);
+  transform-origin: 100% 50%;
+  transition: transform var(--dur-3) var(--ease-out), opacity var(--dur-2) var(--ease);
   overflow-y: auto;
   overscroll-behavior: contain;
 }
-[dir="rtl"] .drawer__panel { transform: translateX(-100%); }
-.drawer.is-open .drawer__panel { transform: translateX(0); }
+[dir="rtl"] .drawer__panel { transform: translateX(calc(-100% - 1.5rem)) scale(.94); transform-origin: 0 50%; }
+.drawer.is-open .drawer__panel { transform: none; opacity: 1; }
 
 .drawer__head {
   display: flex; align-items: center; justify-content: space-between;
-  padding: 1.1rem var(--gutter);
-  border-bottom: 1px solid var(--line);
+  padding: .75rem 1rem .75rem 1.25rem;
   position: sticky; top: 0;
-  background: rgba(255, 253, 249, .55);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  border-bottom-color: rgba(142, 139, 99, .18);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, .55), rgba(255, 255, 255, .25));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, .6);
   z-index: 2;
 }
-.drawer__body { padding: 1rem var(--gutter) 2rem; flex: 1; }
+[dir="rtl"] .drawer__head { padding: .75rem 1.25rem .75rem 1rem; }
+.drawer__head .wordmark img { height: 2.35rem; }
+.drawer__head .burger { width: 2.5rem; height: 2.5rem; border-radius: 999px; background: rgba(255, 255, 255, .55); border-color: rgba(255, 255, 255, .8); }
+.drawer__body { padding: .5rem 1.25rem 1rem; flex: 1; }
 .drawer__foot {
-  padding: 1.25rem var(--gutter) 2rem;
-  border-top: 1px solid rgba(142, 139, 99, .18);
-  display: grid; gap: .65rem;
-  background: linear-gradient(to bottom, rgba(244, 241, 232, .35), rgba(244, 241, 232, .70));
+  padding: 1rem 1.25rem 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, .6);
+  display: grid; gap: .5rem;
+  background: rgba(255, 255, 255, .18);
 }
+.drawer__foot .btn { min-height: 2.75rem; font-size: var(--t-sm); }
+/* The card is light glass, so its secondary controls take dark ink on a
+   frosted white fill (the language switch otherwise inherits the olive
+   strip's light text). */
+.drawer__foot .btn--ghost,
+.drawer__foot .lang-switch--drawer {
+  background: rgba(255, 255, 255, .5);
+  border: 1px solid rgba(255, 255, 255, .85);
+  color: var(--ink-strong);
+  box-shadow: inset 0 1px 0 #fff;
+}
+.drawer__foot .lang-switch--drawer .ico { color: var(--olive-600); opacity: 1; }
 
-.drawer-nav__group + .drawer-nav__group { border-top: 1px solid rgba(142, 139, 99, .16); }
+.drawer-nav__group + .drawer-nav__group { border-top: 1px solid rgba(142, 139, 99, .14); }
 .drawer-nav__toggle {
   width: 100%;
   display: flex; align-items: center; justify-content: space-between; gap: 1rem;
-  padding: 1.05rem 0;
+  padding: .8rem 0;
   font-family: var(--font-head);
-  font-size: var(--t-md);
+  font-size: 1.15rem;
   color: var(--ink-strong);
   text-align: start;
 }
@@ -411,6 +420,7 @@
    unblurred, so fall back to the opaque paper panel. */
 @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
   .drawer__panel, .drawer__head { background: var(--paper); }
+  .action-bar { background: var(--paper-raised); }
   .drawer__foot { background: var(--paper-sunk); }
 }
 .drawer-nav__panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows var(--dur-3) var(--ease-out); }

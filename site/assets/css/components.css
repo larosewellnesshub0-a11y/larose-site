@@ -712,6 +712,22 @@
   --glass-border-dark: rgba(246, 244, 236, .18);
   --glass-highlight:   rgba(255, 255, 255, .65);
   --glass-shadow:      0 1px 2px rgba(60,54,32,.06), 0 12px 34px rgba(60,54,32,.13);
+
+  /* Glossy material for the floating mobile controls (bottom pill, menu
+     card), 2026-09-30. Light frosted brand tint at medium opacity, a shine
+     band over the top half like polished glass, a bright rim, and a deep
+     soft shadow so the control floats above the page. */
+  --gloss-bg:
+    linear-gradient(180deg, rgba(255,255,255,.62) 0%, rgba(255,255,255,.22) 44%, rgba(255,255,255,.04) 56%, rgba(255,255,255,.14) 100%),
+    linear-gradient(120deg, rgba(247,236,236,.66) 0%, rgba(255,253,249,.60) 50%, rgba(236,234,214,.64) 100%);
+  --gloss-blur:   blur(24px) saturate(180%) brightness(1.12);
+  --gloss-border: 1px solid rgba(255,255,255,.75);
+  --gloss-shadow:
+    inset 0 1px 0 rgba(255,255,255,1),
+    inset 0 -1px 0 rgba(255,255,255,.45),
+    inset 0 0 0 .5px rgba(255,255,255,.35),
+    0 20px 44px -10px rgba(35,36,26,.38),
+    0 4px 12px rgba(35,36,26,.12);
 }
 
 .glass {
@@ -812,8 +828,6 @@
 .drawer__panel.glass {
   --glass-tint: rgba(251, 249, 244, .88);
   --glass-blur: 30px;
-  border: 0;
-  border-inline-start: 1px solid var(--glass-border);
 }
 
 /* ==========================================================================
@@ -1042,26 +1056,12 @@
     gap: .25rem;
     padding: .35rem;
     border-radius: var(--r-pill, 999px);
-    /* Liquid glass: a low-opacity brand tint, so the page reads through it,
-       with a strong blur and saturation doing the legibility work, a bright
-       specular rim on top and a faint rose-to-sage sheen (user request
-       2026-09-30: "lower opacity, glossy premium"). */
-    background:
-      linear-gradient(to bottom, rgba(255, 255, 255, .42) 0%, rgba(255, 255, 255, .06) 48%, rgba(255, 255, 255, 0) 52%, rgba(255, 255, 255, .10) 100%),
-      linear-gradient(100deg, rgba(247, 236, 236, .30) 0%, rgba(255, 253, 249, .22) 50%, rgba(231, 230, 207, .28) 100%);
-    backdrop-filter: blur(26px) saturate(190%) brightness(1.06);
-    -webkit-backdrop-filter: blur(26px) saturate(190%) brightness(1.06);
-    border: 1px solid rgba(255, 255, 255, .55);
-    box-shadow:
-      inset 0 1.5px 0 rgba(255, 255, 255, .95),
-      inset 0 -1px 1px rgba(255, 255, 255, .35),
-      inset 0 0 18px rgba(255, 255, 255, .18),
-      0 12px 32px rgba(35, 36, 26, .22),
-      0 2px 6px rgba(35, 36, 26, .12);
+    background: var(--gloss-bg);
+    backdrop-filter: var(--gloss-blur);
+    -webkit-backdrop-filter: var(--gloss-blur);
+    border: var(--gloss-border);
+    box-shadow: var(--gloss-shadow);
   }
-  /* Labels sit on moving content now, so they carry a soft light halo. */
-  .action-bar__item:not(.action-bar__item--cta) { text-shadow: 0 1px 8px rgba(255, 255, 255, .85); }
-  .action-bar__item:not(.action-bar__item--cta) .ico { filter: drop-shadow(0 1px 4px rgba(255, 255, 255, .8)); }
   .action-bar__item {
     display: flex;
     flex-direction: column;
