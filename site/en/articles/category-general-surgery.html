@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>General Surgery | La Rose Wellness Hub</title>
 <meta name="description" content="When surgery may be the right choice, and how to prepare for decisions and recovery.">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -46,12 +47,10 @@
 
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/Montserrat-400.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/Romelio-400.woff2" crossorigin>
-<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" fetchpriority="high">
-<link rel="stylesheet" href="../../assets/css/tokens.css">
-<link rel="stylesheet" href="../../assets/css/base.css">
-<link rel="stylesheet" href="../../assets/css/components.css">
-<link rel="stylesheet" href="../../assets/css/layout.css">
-<link rel="stylesheet" href="../../assets/css/dark.css">
+<link rel="preload" as="image" href="../../assets/img/banners/articles-900.webp" media="(max-width: 56rem)" fetchpriority="high">
+<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" media="not all and (max-width: 56rem)" fetchpriority="high">
+<style>@media (max-width: 56rem){.page-hero__media{background-image:url('../../assets/img/banners/articles-900.webp')!important}}</style>
+<link rel="stylesheet" href="../../assets/css/site.css?v=5eb72a8ba1">
 
 <meta name="google-site-verification" content="BkVfWbF9-2Gq63BB-fKXLsykTKkSFoa9F9Bt4Tlxnro">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2VLTT89JM7"></script>
@@ -86,7 +85,7 @@
 <header class="site-header" id="siteHeader">
   <div class="wrap site-header__inner">
     <a class="wordmark" href="../" aria-label="La Rose Wellness Hub">
-      <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="" width="280" height="242">
+      <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="56px" alt="" width="280" height="242">
       <span class="wordmark__text">
         <b>La Rose Wellness Hub</b>
         <i>Multi-specialty medical centre</i>
@@ -184,7 +183,7 @@
             Preparing for your visit<span>Fasting and the labs we ask for</span>
           </a>
 <a class="nav__sub" href="../patients/faq">
-            FAQ<span>Questions from every specialty</span>
+            Frequently asked questions<span>Questions from every specialty</span>
           </a>
 <a class="nav__sub" href="../patients/rights">
             Patient rights<span>Your rights and responsibilities</span>
@@ -299,7 +298,7 @@
   <div class="drawer__panel glass" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="drawer__head">
       <a class="wordmark" href="../">
-        <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="La Rose Wellness Hub" width="280" height="242">
+        <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="48px" alt="La Rose Wellness Hub" width="280" height="242">
       </a>
       <div class="drawer__head-actions">
         <a class="lang-switch lang-switch--drawer" href="../../ar/articles/category-general-surgery" lang="ar" hreflang="ar"
@@ -358,7 +357,7 @@
 <a href="../patients/home-visits">Home visits</a>
 <a href="../patients/first-visit">Your first visit</a>
 <a href="../patients/preparation">Preparing for your visit</a>
-<a href="../patients/faq">FAQ</a>
+<a href="../patients/faq">Frequently asked questions</a>
 <a href="../patients/rights">Patient rights</a>
         </div>
       </div></div>
@@ -458,7 +457,7 @@
     <div class="grid grid-3" style="margin-top:2rem">
       <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/gallbladder-operation-day-cover.webp" alt="Article illustration: Gallbladder surgery day: how to prepare and what to ask" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/gallbladder-operation-day-cover.webp" srcset="../../assets/img/articles/gallbladder-operation-day-cover-600.webp 600w, ../../assets/img/articles/gallbladder-operation-day-cover-900.webp 900w, ../../assets/img/articles/gallbladder-operation-day-cover.webp 1536w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Gallbladder surgery day: how to prepare and what to ask" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -478,7 +477,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/abdominal-hernia-symptoms-cover.webp" alt="Article illustration: Abdominal-wall hernia symptoms: bulge, pain and when to seek review" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/abdominal-hernia-symptoms-cover.webp" srcset="../../assets/img/articles/abdominal-hernia-symptoms-cover-600.webp 600w, ../../assets/img/articles/abdominal-hernia-symptoms-cover-900.webp 900w, ../../assets/img/articles/abdominal-hernia-symptoms-cover.webp 1536w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Abdominal-wall hernia symptoms: bulge, pain and when to seek review" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -498,7 +497,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" alt="Article illustration: Gallbladder surgery: laparoscopic or open, and what decides?" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" srcset="../../assets/img/articles/gallstones-symptoms-and-surgery-600.webp 600w, ../../assets/img/articles/gallstones-symptoms-and-surgery-900.webp 900w, ../../assets/img/articles/gallstones-symptoms-and-surgery.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Gallbladder surgery: laparoscopic or open, and what decides?" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -518,7 +517,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" alt="Article illustration: After gallbladder surgery: what is expected in recovery, and what needs prompt contact?" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" srcset="../../assets/img/articles/gallstones-symptoms-and-surgery-600.webp 600w, ../../assets/img/articles/gallstones-symptoms-and-surgery-900.webp 900w, ../../assets/img/articles/gallstones-symptoms-and-surgery.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: After gallbladder surgery: what is expected in recovery, and what needs prompt contact?" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -538,7 +537,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/abdominal-hernia-warning-signs.webp" alt="Article illustration: A bulge after pregnancy or a caesarean birth: when might a hernia be considered?" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/abdominal-hernia-warning-signs.webp" srcset="../../assets/img/articles/abdominal-hernia-warning-signs-600.webp 600w, ../../assets/img/articles/abdominal-hernia-warning-signs-900.webp 900w, ../../assets/img/articles/abdominal-hernia-warning-signs.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: A bulge after pregnancy or a caesarean birth: when might a hernia be considered?" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -558,7 +557,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" alt="Article illustration: Gallbladder pain in pregnancy: why diagnosis needs coordinated assessment" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" srcset="../../assets/img/articles/gallstones-symptoms-and-surgery-600.webp 600w, ../../assets/img/articles/gallstones-symptoms-and-surgery-900.webp 900w, ../../assets/img/articles/gallstones-symptoms-and-surgery.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Gallbladder pain in pregnancy: why diagnosis needs coordinated assessment" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -578,7 +577,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/gallstones-cover.webp" alt="Article illustration: Gallstones: symptoms, assessment and useful next steps" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/gallstones-cover.webp" srcset="../../assets/img/articles/gallstones-cover-600.webp 600w, ../../assets/img/articles/gallstones-cover-900.webp 900w, ../../assets/img/articles/gallstones-cover.webp 1536w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Gallstones: symptoms, assessment and useful next steps" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -598,7 +597,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" alt="Article illustration: Gallbladder surgery: laparoscopic or open, and what decides?" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" srcset="../../assets/img/articles/gallstones-symptoms-and-surgery-600.webp 600w, ../../assets/img/articles/gallstones-symptoms-and-surgery-900.webp 900w, ../../assets/img/articles/gallstones-symptoms-and-surgery.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Gallbladder surgery: laparoscopic or open, and what decides?" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -618,7 +617,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" alt="Article illustration: After gallbladder surgery: what is expected in recovery, and what needs prompt contact?" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" srcset="../../assets/img/articles/gallstones-symptoms-and-surgery-600.webp 600w, ../../assets/img/articles/gallstones-symptoms-and-surgery-900.webp 900w, ../../assets/img/articles/gallstones-symptoms-and-surgery.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: After gallbladder surgery: what is expected in recovery, and what needs prompt contact?" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -638,7 +637,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" alt="Article illustration: Gallbladder pain in pregnancy: when it needs coordinated assessment" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" srcset="../../assets/img/articles/gallstones-symptoms-and-surgery-600.webp 600w, ../../assets/img/articles/gallstones-symptoms-and-surgery-900.webp 900w, ../../assets/img/articles/gallstones-symptoms-and-surgery.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Gallbladder pain in pregnancy: when it needs coordinated assessment" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -658,7 +657,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/abdominal-hernia-warning-signs.webp" alt="Article illustration: Abdominal or groin hernia: when is it straightforward and when is it urgent?" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/abdominal-hernia-warning-signs.webp" srcset="../../assets/img/articles/abdominal-hernia-warning-signs-600.webp 600w, ../../assets/img/articles/abdominal-hernia-warning-signs-900.webp 900w, ../../assets/img/articles/abdominal-hernia-warning-signs.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Abdominal or groin hernia: when is it straightforward and when is it urgent?" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -678,7 +677,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/gastro-2.webp" alt="Article illustration: My ultrasound found a gallstone, but I only have bloating. Is the stone the cause?" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/gastro-2.webp" srcset="../../assets/img/articles/gastro-2-600.webp 600w, ../../assets/img/articles/gastro-2-900.webp 900w, ../../assets/img/articles/gastro-2.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: My ultrasound found a gallstone, but I only have bloating. Is the stone the cause?" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -698,7 +697,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" alt="Article illustration: Gallstone symptoms and surgery: when to watch, when to operate, and when to seek urgent care" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/gallstones-symptoms-and-surgery.webp" srcset="../../assets/img/articles/gallstones-symptoms-and-surgery-600.webp 600w, ../../assets/img/articles/gallstones-symptoms-and-surgery-900.webp 900w, ../../assets/img/articles/gallstones-symptoms-and-surgery.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Gallstone symptoms and surgery: when to watch, when to operate, and when to seek urgent care" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -718,7 +717,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/silent-gallstones-usually-need-no-treatment.webp" alt="Article illustration: Scientific update: silent gallstones usually do not need treatment" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/silent-gallstones-usually-need-no-treatment.webp" srcset="../../assets/img/articles/silent-gallstones-usually-need-no-treatment-600.webp 600w, ../../assets/img/articles/silent-gallstones-usually-need-no-treatment-900.webp 900w, ../../assets/img/articles/silent-gallstones-usually-need-no-treatment.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Scientific update: silent gallstones usually do not need treatment" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -738,7 +737,7 @@
   </article>
 <article class="card card--article" data-reveal>
     <div class="card__media arch arch--wide">
-      <img src="../../assets/img/articles/surgical-checks-are-a-team-pause.webp" alt="Article illustration: Scientific update: repeated safety questions before surgery are deliberate" width="600" height="375" loading="lazy" decoding="async">
+      <img src="../../assets/img/articles/surgical-checks-are-a-team-pause.webp" srcset="../../assets/img/articles/surgical-checks-are-a-team-pause-600.webp 600w, ../../assets/img/articles/surgical-checks-are-a-team-pause-900.webp 900w, ../../assets/img/articles/surgical-checks-are-a-team-pause.webp 1200w" sizes="(min-width: 77.5rem) 22.5rem, (min-width: 62rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 3), (min-width: 41rem) calc((100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.1rem, 0.6rem + 1.6vw, 2rem)) / 2), calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Scientific update: repeated safety questions before surgery are deliberate" width="600" height="375" loading="lazy" decoding="async">
     </div>
     <div class="card__body">
       <div class="cluster">
@@ -793,7 +792,7 @@
     <div class="site-footer__grid">
 
       <div class="site-footer__brand">
-        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" alt="La Rose Wellness Hub" width="280" height="242" loading="lazy" decoding="async">
+        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" srcset="../../assets/img/logo/larose-wordmark-white-120.webp 120w, ../../assets/img/logo/larose-wordmark-white-280.webp 280w" sizes="66px" alt="La Rose Wellness Hub" width="280" height="242" loading="lazy" decoding="async">
         <p class="site-footer__blurb">La Rose Wellness Hub is a multi-specialty medical centre in New Maadi, Cairo. Clinical nutrition, internal medicine and endoscopy, general and bariatric surgery, dermatology and paediatrics, on a plan built from an actual consultation.</p>
         <div class="social">
           <a href="https://www.instagram.com/larose_wellnesshub/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false"><rect x="3" y="3" width="14" height="14" rx="4.2" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="10" cy="10" r="3.3" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="14.1" cy="5.9" r="1"/></svg></a>

@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>اسأل الطبيب | عيادات لاروز التخصصية</title>
 <meta name="description" content="أسئلة بصوت المرضى وإجابات مباشرة من أطباء لاروز، من غير تشخيص عن بُعد أو وعود جاهزة.">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -46,12 +47,10 @@
 
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/PlexArabic-400.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/Sondos-400.woff2" crossorigin>
-<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" fetchpriority="high">
-<link rel="stylesheet" href="../../assets/css/tokens.css">
-<link rel="stylesheet" href="../../assets/css/base.css">
-<link rel="stylesheet" href="../../assets/css/components.css">
-<link rel="stylesheet" href="../../assets/css/layout.css">
-<link rel="stylesheet" href="../../assets/css/dark.css">
+<link rel="preload" as="image" href="../../assets/img/banners/articles-900.webp" media="(max-width: 56rem)" fetchpriority="high">
+<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" media="not all and (max-width: 56rem)" fetchpriority="high">
+<style>@media (max-width: 56rem){.page-hero__media{background-image:url('../../assets/img/banners/articles-900.webp')!important}}</style>
+<link rel="stylesheet" href="../../assets/css/site.css?v=5eb72a8ba1">
 
 <meta name="google-site-verification" content="BkVfWbF9-2Gq63BB-fKXLsykTKkSFoa9F9Bt4Tlxnro">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2VLTT89JM7"></script>
@@ -86,7 +85,7 @@
 <header class="site-header" id="siteHeader">
   <div class="wrap site-header__inner">
     <a class="wordmark" href="../" aria-label="عيادات لاروز التخصصية">
-      <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="" width="280" height="242">
+      <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="56px" alt="" width="280" height="242">
       <span class="wordmark__text">
         <b>عيادات لاروز التخصصية</b>
         <i>مركز طبي متعدد التخصصات</i>
@@ -299,7 +298,7 @@
   <div class="drawer__panel glass" role="dialog" aria-modal="true" aria-label="القائمة">
     <div class="drawer__head">
       <a class="wordmark" href="../">
-        <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="عيادات لاروز التخصصية" width="280" height="242">
+        <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="48px" alt="عيادات لاروز التخصصية" width="280" height="242">
       </a>
       <div class="drawer__head-actions">
         <a class="lang-switch lang-switch--drawer" href="../../en/articles/qa" lang="en" hreflang="en"
@@ -472,7 +471,7 @@
 <p>في العيادة، التقييم المفيد يجمع القصة الصحية مع الفحص والتحاليل المناسبة، وبعدها يحدد الطبيب المعالج هل المطلوب متابعة، فحص تأكيدي، أو خطة تغذية وحركة فردية. لو حابب ترتب مراجعة منظمة بدل طلب باقة تحاليل من نفسك، تقدر تستخدم طلب حجز موعد وتاخد معاك النتائج السابقة. الحجز مش وعد بتشخيص أو علاج محدد؛ هو خطوة عشان يتقري كل رقم في سياقه ويتاخد القرار مع الطبيب [1, 9].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -504,7 +503,7 @@
 <p>في العيادة، تقييم الباطنة والجهاز الهضمي ممكن يجمع القصة والفحص والنتائج ويحدد إذا كان السونار أو تحاليل إضافية أو تقييم تليّف له داعٍ. ذكر العيادة هنا هو فقط للخطوة العملية الأخيرة؛ مفيش اختبار واحد أو وعد بنتيجة ثابتة لكل الناس. لو محتاج تبدأ مراجعة منظمة، تقدر تستخدم طلب حجز استشارة باطنة وجهاز هضمي، مع العلم إن القرار النهائي عن الفحوص والعلاج بيتاخد مع الطبيب بعد الكشف [1, 2]. ولو عندك أي علامة خطر من اللي فوق، ما تستناش موعداً روتينياً واتجه للرعاية العاجلة المناسبة. الخلاصة: وزنك الطبيعي ما يمنعش دهون الكبد، لكنه كمان ما يبررش علاجاً قاسياً. التشخيص الصحيح، تقدير التليّف، وحماية العضلات والصحة الأيضية هم اللي يحددوا الخطوة المفيدة [1, 3, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -544,7 +543,7 @@
 <p>لو محتاج ترتيب الخطوات مع طبيب، تقدر تستخدم طلب حجز موعد استشارة الجهاز الهضمي. خُد معاك تقرير التشخيص الأول، أسماء ومدة علاج الجرثومة، وأي تحاليل اتعملت بعده. الحجز الروتيني مناسب لما الحالة مستقرة؛ لو عندك نزيف، إغماء، ألم شديد مستمر، أو قيء يمنع السوائل، اطلب الرعاية العاجلة بدل انتظار الموعد [3, 6, 13].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -574,7 +573,7 @@
 <p>في عيادة الجهاز الهضمي، المناقشة المفيدة تشمل أربع أسئلة: إيه الاحتمال اللي المنظار بيدوّر عليه؟ هل النتيجة هتغيّر العلاج؟ هل فيه اختبار أبسط مناسب أولاً؟ وإيه مخاطر الانتظار مقابل مخاطر الإجراء في حالتي؟ لو السبب هو الفحص الوقائي، اسأل عن البدائل المقبولة ونظام المتابعة؛ ولو السبب علامة إنذار، اسأل عن درجة الاستعجال [8, 9, 10]. تقدر تستخدم طلب حجز موعد استشارة الجهاز الهضمي لبدء تقييم منظم. الحجز مش وعد إنك هتحتاج منظار ولا إنك مش هتحتاجه؛ الهدف إن طبيب الجهاز الهضمي يراجع قصتك وخطورتك ونتائجك ويختار معاك الخطوة الأنسب [1, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -604,7 +603,7 @@
 <p>أما لو كان التعب مستمراً بهدوء وبقالك أسابيع حاسس إن طاقتك مش في أحسن حالاتها، فالخطوة الصح والمريحة هي التقييم الطبي المنظم بدل الحيرة وتجربة أدوية عشوائية. في عيادات لا روز، تقدر تقوم بعمل حجز استشارة باطنة عشان تقعد مع دكتور متخصص، يسمع تفاصيل شكواك، ويفحصك بدقة، ويحدد التحاليل اللي هتحتاجها بس، ويحط معاك خطة علاجية وتغذوية متكاملة مبنية على الدليل العلمي عشان تستعيد صحتك ونشاطك بأمان [4, 5, 7, 13].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -641,7 +640,7 @@
 <p>لو الرفض مستمر، القائمة محدودة جداً، النمو أو النشاط اتغير، أو عندك علامات مقلقة، تقدر تحجز استشارة أطفال لمراجعة النمو والتاريخ الغذائي والفحص وتحديد هل التحليل مطلوب. في عيادة الأطفال بلاروز، التقييم المفيد بيحط قرار التحليل والمكمل في سياق الطفل نفسه، وبيطلع بخطوات أكل واقعية من غير وعود ولا لوم. القرار النهائي عن الفحوص والعلاج يفضل للطبيب المعالج بعد الكشف [1, 5, 9].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -681,7 +680,7 @@
 <p>لو سبب العلاج مش واضح، أو الأعراض بترجع مع كل محاولة، أو الاستعمال مستمر من غير مراجعة، تقدر تستخدم طلب حجز استشارة الجهاز الهضمي عشان تبدأ تقييماً منظماً في العيادة. ذكر العيادة هنا خطوة عملية بس، مش وعد إن الإيقاف مناسب ولا إن المنظار لازم. لو فيه نزيف، ألم صدر شديد، إغماء، أو صعوبة بلع متزايدة، اطلب الرعاية العاجلة المناسبة بدل انتظار حجز روتيني. [1, 7]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -719,7 +718,7 @@
 <p>للقراءة المرتبطة شوف دليلنا عن أعراض حصوات المرارة والعملية، وإمتى الانتفاخ محتاج دكتور، والسونار على البطن بيبيّن إيه وما بيبيّنش إيه. ولو محتاج تقييم شخصي تقدر تحجز موعد. [1, 2]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -756,7 +755,7 @@
 <p>لو مفيش علامة خطر ومحتاج تبدأ تقييماً منظماً، تقدر تستخدم طلب حجز استشارة طبية وتذكر تقرير الأشعة، مدة الألم، وأي أعراض بولية. في العيادة، التقييم ممكن يحدد هل الانتظار لسه مناسب أو محتاج تصوير أو إحالة؛ ذكر العيادة هنا خطوة تنظيمية بس ومش وعد بنزول الحصوة. لو ظهرت حرارة مع ألم، قيء مستمر، قلة بول أو ألم خارج السيطرة، استخدم الرعاية العاجلة بدل انتظار موعد [1, 7, 11].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -796,7 +795,7 @@
 <p>لو محتاج تربط قلة النوم باتجاه الوزن والجوع والحركة داخل تقييم فردي، تقدر تبدأ من صفحة احجز موعد. ذكر العيادة هنا خطوة عملية عامة فقط، من غير وعد إن تحسين النوم هيحرّك الميزان أو إن سبب الثبات معروف قبل التقييم. الهدف إنك تخرج بخطوة قابلة للقياس والمتابعة، وتحافظ على نومك وصحتك من غير لوم أو حلول سريعة [2, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -836,7 +835,7 @@
 <p>الفريق الطبي في العيادة يقدر يراجع معاك نمط الوجبات، الجوع، النوم، الأدوية، وأي علامات تستدعي إحالة مناسبة، من غير لوم أو وعد بنتيجة. لو محتاج تبدأ تقييماً منظماً، تقدر تطلب حجز استشارة تغذية علاجية وتاخد معاك ملاحظات أسبوع واحد وقائمة أدويتك. القرار النهائي والخطة يفضلوا مع الطبيب أو المختص المعالج بعد ما يسمع قصتك كاملة [7, 8].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -876,7 +875,7 @@
 <p>لو محتاج حساباً فردياً يربط الأكل بالنشاط والهدف والمرض والتحاليل، تقدر تبدأ من صفحة احجز موعد في العيادة. ذكر العيادة هنا خطوة عامة للتقييم، مش وعداً بنتيجة ولا دعوة لأعلى مدخول. د. شيماء فؤاد تراجع النمط الكامل وتحدد هل الطعام كفاية، هل فيه داعي لمكمل، وإمتى الطبيب المعالج محتاج يشارك في القرار. لحد التقييم، ما تنقلش هدف لاعب أو مؤثر وما تبدأش جرعة كبيرة عشوائية. [8, 11]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -916,7 +915,7 @@
 <p>العطش الشديد المستمر، أو التبول الكتير، أو تكرار دخول الحمام بالليل، أو نقص الوزن من غير سبب، أو الدوخة، أو التورم محتاجين تقييماً طبياً. الأعراض دي لها أسباب مختلفة، منها ارتفاع السكر أو مشاكل الكلى أو الأدوية أو اضطرابات الهرمونات [5, 8, 11, 12]. تقدر تستخدم رابط الحجز عشان ترتب استشارة في العيادة لمراجعة الصحة والتغذية.</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -952,7 +951,7 @@
 <p>في العيادة، المراجعة هدفها توضيح الاختيارات ووضع نقطة متابعة، مش وعد بنتيجة ولا إلزامك بدواء. لو محتاج تقييم فردي، تقدر تطلب حجز موعد وتاخد معاك القائمة والأسئلة دي. ولو عندك علامة خطر من القسم السابق، ما تستناش الحجز العادي؛ استخدم خدمة الطوارئ المناسبة لشدة الأعراض. الخطة الكويسة تخليك فاهم ليه بتاخد العلاج، إيه اللي بنراقبه، وإمتى القرار يتراجع [2, 3].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -975,7 +974,7 @@
 <p>اطلب تقييماً قريباً لو فيه بقع صلع مفاجئة، تساقط سريع جداً، فقدان في الحواجب أو الرموش، ألم أو حرقان، احمرار شديد، قشور منتشرة، صديد، أو جلد بيلمع وبيبان عليه ندبات. مايو كلينك وميدلاين بلس بينصحوا بمراجعة الطبيب مع التساقط المفاجئ أو البقعي، أو لما الفروة تبقى مؤلمة أو حمراء أو متقشرة [7, 8]. وجود تعب شديد، إغماء، ضيق نفس، خفقان واضح، قيء مستمر، جفاف، أو عدم القدرة على الأكل والشرب محتاج تواصل طبي أسرع؛ الأعراض العامة دي ممكن تكون أهم من الشعر نفسه. لو مفيش علامة عاجلة لكن التساقط مستمر أو الكثافة بتقل، احجز تقييم طبي في العيادة وخد سجل الوزن والأكل والأدوية والصور. الزيارة ممكن تجمع مراجعة خطة الوزن والتغذية مع فحص فروة أو إحالة جلدية حسب الموجود، من غير افتراض إن كل الحالات محتاجة نفس التحاليل أو العلاج. الحجز مش وعد إن الشعر هيرجع في موعد محدد؛ هو خطوة عشان يتحدد النمط ويتراجع السبب ويتعمل قرار مناسب مع الطبيب المعالج [3, 8]. ما توقفش العلاج في انتظار الموعد من غير توجيه، ولو ظهرت أعراض شديدة أو تدهور سريع استخدم خدمة طبية عاجلة مناسبة بدل الانتظار.</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1014,7 +1013,7 @@
 <p>في العيادة، التقييم هدفه ترتيب المخاطر والبدائل من غير وعود بنزول معين ومن غير ضغط لإيقاف الرضاعة. لو محتاج تناقش دواء الوزن مع الحمل أو الرضاعة، تقدر تطلب حجز استشارة لإدارة الوزن وتاخد معاك قائمة العلاج وتفاصيل الحمل أو الرضاعة. ولو فيه نزيف، ألم شديد، إغماء، جفاف واضح، أو هبوط سكر، اتجه لخدمة عاجلة بدل انتظار موعد عادي [1, 2, 3].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1049,7 +1048,7 @@
 <p>في العيادة، التقييم المفروض يفضل محايد: مراجعة اسم المادة، فحص المنطقة، مناقشة التاريخ المرضي والتوقعات، وشرح هل الإجراء مناسب أصلاً ومن المسؤول عن المتابعة. لو محتاج مناقشة طبية منظمة قبل أي حقن تجميلي، تقدر تطلب حجز موعد لتقييم نحت الجسم. القرار النهائي يتاخد مع الطبيب المعالج بعد ما تكون المعلومات واضحة، من غير وعود بنتيجة مضمونة [1, 4].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1086,7 +1085,7 @@
 <p>في العيادة، التقييم المحايد المفروض يحدد نوع النسيج والهدف الواقعي، يراجع المادة المقترحة والتاريخ الصحي، ويشرح الفائدة والحدود والمخاطر والبدائل من غير ضمان. ممكن تنتهي الزيارة بخطة متابعة، تأجيل، إحالة، اختيار مختلف، أو عدم إجراء أي جلسة. لو محتاج تبدأ بمناقشة منظمة، تقدر تستخدم طلب حجز تقييم لنحت الجسم وتاخد معاك اسم أي منتج اتعرض عليك وصوراً موحدة وقائمة الأدوية. النتيجة الجيدة تبدأ بقرار واضح وآمن، مش بوعد مطلق [1, 4, 10, 13].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1126,7 +1125,7 @@
 <p>في العيادة، التقييم بيبدأ بفهم حالتك وهدفك، والقرار النهائي بيتاخد مع الطبيب أو أخصائي التغذية حسب صحتك، مش حسب تاريخ المناسبة وحده. تقدر تطلب حجز موعد لإدارة الوزن لو محتاج تقييماً فردياً وخطة تكمل بعد اليوم الكبير. لحد الموعد، ما تغيّرش دواء موصوف ولا تبدأ نظاماً شديداً من نفسك [2, 3, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1165,7 +1164,7 @@
 <p>لو محتاج تناقش موقفك بشكل فردي في La Rose، تقدر تستخدم طلب حجز استشارة لإدارة الوزن. الحجز مش بديل للطوارئ: لو عندك أي علامة خطر من اللي فوق، اطلب رعاية عاجلة فوراً. ولو مفيش أعراض لكن المنتج مجهول، ما تاخدش جرعة جديدة لحد ما يتراجع من صيدلي أو طبيب، وخلي القرار النهائي مع الطبيب المعالج اللي يعرف تاريخك وأدويتك [1, 2].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1202,7 +1201,7 @@
 <p>الهدف الأساسي مش إننا نحطك في قالب صارم، بل نساعدك تبني عادات أكل صحية تحسن تحاليلك وتديك نشاط وتدوم معاك لسنين قدام [6, 7, 14]. لو عايز تعرف إيه الأنسب لوزنك وسكر دمك وصحتك العامة، تقدر تبدأ خطوتك المنظمة من خلال حجز استشارة التغذية العلاجية مع الفريق الطبي المتخصص في عيادات لاروز، عشان تاخد خطة مصممة خصيصاً لجسمك من غير تجارب عشوائية تضر صحتك [3, 6, 14].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1239,7 +1238,7 @@
 <p>لو طبقت النصائح دي وما زلت بتجوع بعد ساعة من الوجبة، أو لو كان الجوع مصحوباً بدوخة أو عرق أو رعشة أو تغيرات ملحوظة في الوزن والعطش، الخطوة السليمة هي التقييم الطبي المتخصص. في العيادة، أخصائي التغذية العلاجية والطبيب بيراجعوا تاريخك الغذائي والأعراض بدقة، وبيطلبوا التحاليل المناسبة لاستبعاد مقاومة الإنسولين أو السكري أو نشاط الغدة. تقدر تستخدم طلب حجز استشارة تغذية علاجية عشان تبدأ خطة غذائية شخصية مبنية على احتياجات جسمك الحقيقية وتستعيد انتظام طاقتك وشبعك بأمان [1, 9, 13].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1276,7 +1275,7 @@
 <p>في العيادة، البداية تقدر تكون مراجعة منظمة لمواعيد الأكل وكفايته، النوبات، الحالة الجسدية والنفسية، والأدوية، مع إحالة لمختص صحة نفسية عند الحاجة. العيادة ما ينفعش تعدك بنتيجة ولا تستبدل رعاية الطوارئ، لكنها تقدر تساعد في تحديد أول خطوة والتخصص المناسب. لو مفيش خطر عاجل ومحتاج تبدأ، تقدر تستخدم طلب حجز استشارة تغذية علاجية وتذكر من البداية إن الشكوى الأساسية هي نوبات أكل مع فقدان سيطرة [1, 3, 7].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1313,7 +1312,7 @@
 <p>في العيادة، التقييم يقدر يراجع مواعيد وكفاية الوجبات، إشارات الجوع، المواقف والمشاعر، النوم، الأدوية، وأي أعراض جسدية أو نفسية تستدعي إحالة، من غير لوم أو وعد بنتيجة. خد معاك قائمة الأدوية ووصفاً بسيطاً لكام موقف بدل يوم أكل مثالي. لو محتاج تبدأ بخطوة منظمة، تقدر تستخدم طلب حجز استشارة تغذية علاجية، وبعد التقييم يتحدد هل الأنسب متابعة تغذية، مراجعة طبية، دعم صحة نفسية، أو تعاون بينهم [5, 8, 10].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1347,7 +1346,7 @@
 <p>لو النمط متكرر أو مرهق بس مفيش خطر فوري، تقدر تبدأ بخطوة هادية. في العيادة، التقييم بيحدد هل البداية الأنسب دعم تغذية، صحة نفسية، مراجعة طبية، أو فريق مشترك. جهّز وصفاً صادقاً للتكرار وفقدان السيطرة وأي تعويض، من غير ما تحاول تقدم يوم أكل مثالي. تقدر تستخدم طلب حجز استشارة تغذية علاجية عشان تبدأ تقييم منظم، مع الإحالة للمختص المناسب حسب اللي يظهر في الزيارة [6, 9].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1384,7 +1383,7 @@
 <p>في العيادة، التقييم السريري يربط أعراض النوم بالضغط والوزن والأدوية وباقي صحتك، وبعده الطبيب يحدد هل محتاج إحالة أو دراسة نوم ونوعها. لو عايز تبدأ الخطوة دي، تقدر تستخدم صفحة احجز موعد لطلب تقييم. ذكر العيادة هنا خطوة عملية عامة، مش تشخيصاً عن بُعد ولا وعداً بنتيجة؛ ولو فيه علامة خطر من اللي فوق، اختار الرعاية العاجلة المناسبة بدل انتظار الحجز [4, 7, 8].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1420,7 +1419,7 @@
 <p>لو حاسس بحيرة أو بتعاني من تغير مفاجئ في وزنك ومحتاج تقييماً باطنياً متخصصاً يراجع أدويتك ويعمل فحصاً دقيقاً ويحطلك خطة تغذية متكاملة، تقدر تتواصل مع المركز الطبي وتعمل حجز موعد استشارة طبية عشان تراجع كل أدويتك مع طبيب الباطنة والتغذية وتوصل للحل الأنسب لصحتك بأمان [1, 2, 3, 10].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1450,7 +1449,7 @@
 <p>ما تغيّرش أكلك بشكل قاسٍ قبل الزيارة، واذكر أي مكمل أو علاج من غير وصفة؛ التفاصيل دي ممكن تفسر التوقيت. لو اتضح إن الحالة مستقرة ومفيش احتباس سوائل أو سبب مرضي عاجل، ساعتها يتراجع النوم والحركة والأكل والأهداف الصحية في سياق أوسع. صفحة أول زيارة لإدارة الوزن: إيه اللي بيحصل خطوة بخطوة؟ تساعدك تجهز للجزء ده من غير ما تخلطه بالتقييم العاجل للأعراض. في العيادة، التقييم يبدأ بفهم السبب قبل اقتراح خطة؛ تقدر تستخدم طلب حجز موعد باطنة لو محتاج مراجعة منظمة للزيادة والأعراض المصاحبة [1, 8].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1487,7 +1486,7 @@
 <p>لو محتاج تربط محيط الخصر ونتيجة تركيب الجسم بتاريخك وتحاليلك وتبدأ خطة مناسبة، تقدر تستخدم صفحة احجز موعد لطلب تقييم في العيادة. ذكر العيادة هنا خطوة عملية عامة فقط، ومش وعد بنتيجة أو تشخيص عن بُعد. لو عندك أي علامة إنذار من القسم السابق، اختار مستوى الرعاية المناسب فوراً وما تستناش موعداً روتينياً [5, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1524,7 +1523,7 @@
 <p>في العيادة، ممكن تطلب حجز موعد تغذية علاجية لمراجعة مسار الوزن والأكل والأعراض ووضع خطوة تالية مناسبة. الحجز مش بديل عن الطوارئ لو عندك واحدة من العلامات العاجلة، ومش وعد بنتيجة وزن معينة. قرار التحاليل، الإحالة، التمرين أو الدعم الغذائي بيتاخد مع الطبيب المعالج حسب سنك وفحصك وأمراضك وأدويتك. خد معاك أسئلتك، واسأل إيه اللي هنراقبه وإمتى نراجع الخطة لو الوزن أو الأعراض اتغيروا [3, 4].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1564,7 +1563,7 @@
 <p>في التقييم، هتفيدك قائمة ليومين أو تلاتة من أكلك، وصور ملصقات المنتجات المدعمة، وأسماء وجرعات المكملات والأدوية، وأي تحاليل سابقة. دليل زيارة التغذية العلاجية الأولى: كيف تستعد لخطة قابلة للاستمرار؟ يساعدك ترتب المعلومات من غير ما يحول الزيارة لاختبار. لو محتاج خطة فردية تربط نمطك بالأعراض والتحاليل، تقدر تستخدم طلب حجز موعد تغذية علاجية في العيادة. القرار النهائي للتحاليل والمكملات والمتابعة يفضل مع الطبيب المعالج [8, 10].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1601,7 +1600,7 @@
 <p>لو محتاج خطة أكل فردية ومراجعة السجل، تقدر تعمل طلب حجز موعد تغذية علاجية. الحجز مش بديل لمتابعة النساء، ومش مناسب لتأخير رعاية عاجلة. اذكر في الطلب إنك حامل، أسبوع الحمل، موعد التشخيص، العلاج الحالي، وأي قراءة أو عرض مقلق عشان يتحدد المسار المناسب. الهدف مش طبق «مثالي»؛ الهدف خطة كفاية وآمنة تقدر تنفذها وتتراجع مع القراءات ونمو الجنين [2, 4, 5].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1635,7 +1634,7 @@
 <p>د. علياء أبو طالب تقدر تبدأ بتقييم طب الأطفال ومسار النمو، وتنسق الإحالة المناسبة لما تكون خبرة اضطرابات الأكل أو الصحة النفسية مطلوبة. لو محتاج تبدأ، استخدم طلب حجز موعد واذكر منع الأكل والخوف من زيادة الوزن والنزول الملحوظ. وجود علامة عاجلة يعني الطوارئ المحلية بدل انتظار الحجز. [2, 3, 4]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1675,7 +1674,7 @@
 <p>لو محتاج تقييم فردي، تقدر تحجز موعداً في العيادة لمراجعة النتائج والتاريخ الصحي ووضع خطوة قابلة للقياس. ذكر العيادة هنا مقصود به تنظيم الخطوة الأخيرة فقط، مش وعد بنتيجة ولا بديل عن الطوارئ. لحد الموعد، ما تبدأش دواء من نفسك، وما تعتبرش قراءة أفضل لاحقاً تصريحاً بإلغاء المتابعة؛ الاتجاه والخطة بيتراجعوا مع الطبيب المعالج [2, 8].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1715,7 +1714,7 @@
 <p>لو محتاج تقييم منظم، تقدر تعمل حجز استشارة باطنة في العيادة عشان الطبيب يسمع القصة، يراجع الفحص والنتائج، ويحدد الخطوة المناسبة من غير وعد بنتيجة بعينها أو فحوص أكتر من اللازم. المقال يساعدك تحضر، لكنه ما يشخصش سبب النقص وما يستبدلش قرار الطبيب المعالج، خصوصا مع الحمل، مرض مزمن، أعراض شديدة أو نتيجة بتتغير بسرعة [4, 5].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1755,7 +1754,7 @@
 <p>لو محتاج تربط المقاسات واتجاه الوزن بالأكل والقوة والأعراض في تقييم فردي، تقدر تحجز موعد من صفحة احجز موعد. ذكر العيادة هنا خطوة عملية عامة بس، مش وعد بنتيجة ولا تأكيد إنك محتاج تحليل معين. أخصائي التغذية أو الطبيب المعالج هو اللي يقرر هل التغيير مطمئن، وهل الخطة تحتاج تعديل، وإيه أنسب وقت للمراجعة. خد معاك أسئلتك الحقيقية حتى لو كانت «أنا متقدم ولا لأ؟»؛ المتابعة الجيدة تحول السؤال لمؤشرات قابلة للمراجعة من غير ما رقم واحد يحكم عليك. [5, 11]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1796,7 +1795,7 @@
 <p>في العيادة، ممكن تتراجع الأعراض، الترطيب، نمط الأكل والإخراج، الأدوية المصاحبة وقياسات المتابعة كصورة واحدة؛ لكن مفيش وعد إن كل شخص هيكمل نفس الدواء أو إن عرضًا معينًا هيتحل بنفس الطريقة. قرار الاستمرار أو التعديل فردي وبيطلع بعد تقييم سريري. لو حابب ترتب تقييمًا، تقدر تستخدم احجز موعد، مع العلم إن الحجز مش بديل عن الطوارئ لو فيه ألم شديد، قيء متكرر، جفاف، توقف غازات أو صعوبة تنفس [1, 2, 9, 10].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1832,7 +1831,7 @@
 <p>في لاروز بالمعادي، د. مهاب أشرف فؤاد، أخصائي الباطنة والسكر والكبد والجهاز الهضمي والمناظير، بيقيّم اللي عندهم انتفاخ مستمر أو مشاكل هضم بعد علاج جرثومة المعدة. في الزيارة بيكشف عليك كويس، ولو فيه داعي طبي ممكن يعملك سونار على البطن في نفس الزيارة بنفسه، فتشوف الكبد والمرارة والبنكرياس في ساعتها وتستبعد أي سبب ميكانيكي للانتفاخ من غير لف ومواعيد تانية. الخطة بتتحط بهدوء، وبتركز على الميعاد الصح لتحليل التأكد، وراحة بطانة المعدة، ورجوع بكتيريا الأمعاء لتوازنها. ولو محتاج تقييم متخصص وخطة واضحة، تقدر تعمل حجز كشف في لاروز وتبدأ المتابعة [7, 9, 13, 14].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1864,7 +1863,7 @@
 <p>لو محتاج تربط التقرير بتاريخك وفحصك وتعرف هل المطلوب متابعة ولا تقييم إضافي، تقدر تطلب حجز موعد لتقييم دهون الكبد. في العيادة، القرار بيتبني على الحالة الفردية ومن غير وعد بنتيجة أو فحص زائد لمجرد الاطمئنان. الصفحة دي للتثقيف ومش بديل عن كشف، خصوصاً لو فيه حمل، مرض حاد، دواء جديد، أو علامات إنذار. الخلاصة: الإنزيمات الطبيعية مطمّنة في جزء محدد، بس الأمان الحقيقي بييجي من تقييم السبب وخطر التليّف وخطة متابعة مفهومة [1, 2, 5].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1901,7 +1900,7 @@
 <p>لو محتاج تربط التحاليل والجرعة والأعراض واتجاه الوزن في تقييم فردي، تقدر تستخدم صفحة احجز موعد. خد معاك النتائج القديمة، صور العلب، سجل التوقيت واتجاه الوزن، واكتب أهم عرض أو سؤال. الطبيب المعالج هو اللي يقرر هل الجرعة مناسبة، وهل فيه فحص إضافي له معنى، ومين من فريق التغذية أو التخصصات الأخرى يفيدك. لحد الموعد، ما تزودش أو توقف أو تقسّم العلاج من نفسك. [2, 3, 7]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="د. مهاب أشرف فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1938,7 +1937,7 @@
 <p>لو المشكلة الأساسية هي ترتيب الأكل والجوع مع هدف نزول وزن، تقدر تطلب حجز تقييم تغذية علاجية في العيادة. التقييم يراجع وقت الولادة والتعافي، نمط الرضاعة، يوم الأكل والنوم، الأدوية والمكملات، واتجاه الوزن، وبعدها يتفق معاك على خطوة قابلة للتنفيذ. القرار الفردي يفضل مع الطبيب المعالج وطبيب الطفل عند الحاجة، خصوصاً لو فيه مرض مزمن أو قلق على النمو أو اللبن. الهدف مش وعد برقم على الميزان؛ الهدف خطة واقعية تحمي صحتك والرضاعة [1, 2, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1970,7 +1969,7 @@
 <p>لو مفيش تقدم، أو فيه علامة من اللي فاتت، خد معاك كارت النمو والتطعيم، القياسات والتحاليل القديمة، وقائمة الأدوية والمكملات. التقييم بيراجع النمو والتطور، الفم والأسنان، البطن والإخراج، النوم، القوامات، مهارات المضغ والبلع، وروتين الأسرة. التحاليل مش تلقائية لكل طفل؛ الطبيب المعالج بيختارها حسب القصة والفحص. تقدر تبدأ بطلب حجز كشف أطفال وتغذية في العيادة لو الأكل بقى مصدر ضغط مستمر أو النمو اتغير. الخطة النهائية والمتابعة تتحدد بعد رؤية الطفل، من غير وعود سريعة ولا وصفة واحدة تناسب الكل. [2, 4, 5, 6]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -2006,7 +2005,7 @@
 <p>الخطة الجيدة بتبدأ بخطوة صغيرة واضحة، زي إضافة ثابتة أو فرصة أكل جديدة، وبموعد مراجعة عشان نعرف إيه اللي نفع وإيه اللي أتعبك. مفيش قائمة واحدة أو فاتح شهية واحد يناسب كل الناس، ومفيش داعي لوعود سريعة. لو عندك علامة خطر من اللي فوق، اختار الرعاية العاجلة أو التخصص المناسب بدل انتظار زيارة تغذية روتينية. ولو الحالة مستقرة وعايز تبدأ بتقييم منظم، تقدر تحجز استشارة تغذية علاجية لمناقشة السبب والهدف والخطوة الأكثر أماناً ليك [1, 3].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -2043,7 +2042,7 @@
 <p>للزيارة غير الطارئة، خد معاك خط الوزن والدورة، قائمة الأدوية والمكملات، التحاليل السابقة، ووصفاً واقعياً للأكل والنوم والحركة. المركز الطبي ممكن يساعد في تنظيم تقييم تغذية إكلينيكية ومتابعة الوزن وإحالة التخصص المناسب، من غير وعد بنتيجة محددة ومن غير استبدال طبيب النساء أو الباطنة. لو محتاج بداية مرتبة، استخدم طلب حجز موعد واذكر إن السؤال عن التكيس ورجوع الوزن. قرار التحاليل والدواء والهدف يفضل مع الطبيب المعالج بعد مراجعة حالتك وخطة الحمل. [1, 2, 8]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="د. شيماء فؤاد" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -2085,7 +2084,7 @@
 <p>لو محتاج تبدأ بمراجعة منظمة في المركز الطبي، تقدر تستخدم طلب حجز موعد وتذكر إن سؤالك عن سكر صايم طبيعي واحتمال مقاومة إنسولين، وتاخد معاك النتائج القديمة. الحجز مش وعد بتشخيص معين ولا دواء؛ هو خطوة عشان كل رقم يتقري في مكانه وتتحدد خطة آمنة مع الطبيب [1, 2].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="د. علياء سعيد أبوطالب" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -2132,7 +2131,7 @@
     <div class="site-footer__grid">
 
       <div class="site-footer__brand">
-        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" alt="عيادات لاروز التخصصية" width="280" height="242" loading="lazy" decoding="async">
+        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" srcset="../../assets/img/logo/larose-wordmark-white-120.webp 120w, ../../assets/img/logo/larose-wordmark-white-280.webp 280w" sizes="66px" alt="عيادات لاروز التخصصية" width="280" height="242" loading="lazy" decoding="async">
         <p class="site-footer__blurb">عيادات لاروز التخصصية، مركز طبي متعدد التخصصات في المعادي الجديدة. التغذية العلاجية، الباطنة والمناظير، الجراحة العامة وجراحات السمنة، الجلدية، وطب الأطفال، بخطة مبنية على كشف حقيقي.</p>
         <div class="social">
           <a href="https://www.instagram.com/larose_wellnesshub/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false"><rect x="3" y="3" width="14" height="14" rx="4.2" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="10" cy="10" r="3.3" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="14.1" cy="5.9" r="1"/></svg></a>

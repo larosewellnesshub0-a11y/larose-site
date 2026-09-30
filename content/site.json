@@ -193,7 +193,7 @@
         {
           "label": {
             "ar": "الأسئلة الشائعة",
-            "en": "FAQ"
+            "en": "Frequently asked questions"
           },
           "href": "patients/faq.html",
           "desc": {
@@ -974,13 +974,10 @@
     }
   },
   "promo": {
-    "_note": "Website-only offer popup (user request 2026-09-30). Shown after 20 s on the site and a small scroll, never on the booking page, then snoozed. Its copy is published only as assets/data/promo.json (robots-disallowed) and injected by site.js, so no price is in any page's HTML. Price-bearing strings sit under promo.price so the dashboard's no-price save check allows them. Set enabled to false, or endsOn to a YYYY-MM-DD date, to stop it.",
+    "_note": "Website-only offer popup (user request 2026-09-30). Shown once per visit, 10 s after the visit starts (user request 2026-09-30), never on the booking page. Closing it hides it only for the rest of that visit. Its copy is published only as assets/data/promo.json (robots-disallowed) and injected by site.js, so no price is in any page's HTML. Price-bearing strings sit under promo.price so the dashboard's no-price save check allows them. Set enabled to false, or endsOn to a YYYY-MM-DD date, to stop it.",
     "enabled": true,
     "endsOn": null,
-    "delaySeconds": 20,
-    "minScrollPx": 150,
-    "snoozeDays": 7,
-    "bookedSnoozeDays": 30,
+    "delaySeconds": 10,
     "eyebrow": {
       "ar": "لأن صحتك تهمنا",
       "en": "Because your health matters to us"

@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Ask the doctor | La Rose Wellness Hub</title>
 <meta name="description" content="Questions in patients&#39; own words, answered directly by La Rose doctors without remote diagnosis or ready-made promises.">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -46,12 +47,10 @@
 
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/Montserrat-400.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/Romelio-400.woff2" crossorigin>
-<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" fetchpriority="high">
-<link rel="stylesheet" href="../../assets/css/tokens.css">
-<link rel="stylesheet" href="../../assets/css/base.css">
-<link rel="stylesheet" href="../../assets/css/components.css">
-<link rel="stylesheet" href="../../assets/css/layout.css">
-<link rel="stylesheet" href="../../assets/css/dark.css">
+<link rel="preload" as="image" href="../../assets/img/banners/articles-900.webp" media="(max-width: 56rem)" fetchpriority="high">
+<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" media="not all and (max-width: 56rem)" fetchpriority="high">
+<style>@media (max-width: 56rem){.page-hero__media{background-image:url('../../assets/img/banners/articles-900.webp')!important}}</style>
+<link rel="stylesheet" href="../../assets/css/site.css?v=5eb72a8ba1">
 
 <meta name="google-site-verification" content="BkVfWbF9-2Gq63BB-fKXLsykTKkSFoa9F9Bt4Tlxnro">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2VLTT89JM7"></script>
@@ -86,7 +85,7 @@
 <header class="site-header" id="siteHeader">
   <div class="wrap site-header__inner">
     <a class="wordmark" href="../" aria-label="La Rose Wellness Hub">
-      <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="" width="280" height="242">
+      <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="56px" alt="" width="280" height="242">
       <span class="wordmark__text">
         <b>La Rose Wellness Hub</b>
         <i>Multi-specialty medical centre</i>
@@ -184,7 +183,7 @@
             Preparing for your visit<span>Fasting and the labs we ask for</span>
           </a>
 <a class="nav__sub" href="../patients/faq">
-            FAQ<span>Questions from every specialty</span>
+            Frequently asked questions<span>Questions from every specialty</span>
           </a>
 <a class="nav__sub" href="../patients/rights">
             Patient rights<span>Your rights and responsibilities</span>
@@ -299,7 +298,7 @@
   <div class="drawer__panel glass" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="drawer__head">
       <a class="wordmark" href="../">
-        <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="La Rose Wellness Hub" width="280" height="242">
+        <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="48px" alt="La Rose Wellness Hub" width="280" height="242">
       </a>
       <div class="drawer__head-actions">
         <a class="lang-switch lang-switch--drawer" href="../../ar/articles/qa" lang="ar" hreflang="ar"
@@ -358,7 +357,7 @@
 <a href="../patients/home-visits">Home visits</a>
 <a href="../patients/first-visit">Your first visit</a>
 <a href="../patients/preparation">Preparing for your visit</a>
-<a href="../patients/faq">FAQ</a>
+<a href="../patients/faq">Frequently asked questions</a>
 <a href="../patients/rights">Patient rights</a>
         </div>
       </div></div>
@@ -472,7 +471,7 @@
 <p>In clinic, a useful assessment combines the health story with examination and appropriate tests. The treating clinician can then decide whether follow-up, confirmatory testing, or an individual food and activity plan is needed. If you want a structured review instead of ordering a panel yourself, you can request an appointment and bring your earlier results. Booking is not a promise of a diagnosis or a particular treatment; it is a step towards reading each number in context and making the decision with the clinician [1, 9].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -504,7 +503,7 @@
 <p>At the clinic, an internal-medicine and gastroenterology assessment can combine the history, examination and results, then decide whether ultrasound, further blood tests or fibrosis assessment is indicated. The clinic is mentioned only here as the practical next step; no single test or fixed outcome applies to everyone. If you want to begin a structured review, you can request an internal medicine and gastroenterology consultation, understanding that testing and treatment decisions are made with the clinician after examination [1, 2]. If any warning sign described above is present, do not wait for a routine appointment; use appropriate urgent care. The central message is that normal weight does not prevent fatty liver, but it also does not justify harsh treatment. Correct diagnosis, fibrosis risk and protection of muscle and metabolic health determine the useful next step [1, 3, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -544,7 +543,7 @@
 <p>If you need help coordinating those steps, you can request a gastroenterology consultation. Bring the original diagnostic report, the names and duration of the eradication medicines, and any testing performed afterward. Routine booking is appropriate when you are stable; if you have bleeding, fainting, severe persistent pain, or vomiting that prevents fluid intake, seek urgent care rather than waiting for an appointment [3, 6, 13].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -574,7 +573,7 @@
 <p>In a gastroenterology consultation, four questions make the discussion useful: what possibility is the colonoscopy looking for, would the result change treatment, is a simpler test appropriate first, and what are the risks of waiting versus the risks of the procedure in my case? If the reason is screening, ask about accepted options and the follow-up programme; if it is an alarm feature, ask how urgently it should be investigated [8, 9, 10]. You can request a gastroenterology consultation to begin a structured assessment. Booking is not a promise that you will or will not need a colonoscopy; its purpose is for a gastroenterologist to review your story, risk, and results and choose the most appropriate next step with you [1, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -604,7 +603,7 @@
 <p>For chronic, quieter tiredness that has lingered for weeks, the safest and most effective step is an organized medical assessment rather than self-prescribing random supplements. At La Rose clinics, you can book a clinical consultation to sit down with an internal medicine specialist who will listen attentively to your history, conduct a thorough clinical examination, request only the necessary laboratory tests, and design an evidence-based medical and nutritional plan tailored to restore your physiological energy safely [4, 5, 7, 13].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -641,7 +640,7 @@
 <p>If refusal persists, the list is extremely limited, growth or activity changes, or concerning signs appear, you can book a paediatric consultation to review growth, dietary history and examination and decide whether testing is indicated. At the La Rose paediatric clinic, a useful assessment puts testing and supplementation in the context of the individual child and produces realistic food steps without promises or blame. Final decisions about investigations and treatment remain with the treating clinician after assessment [1, 5, 9].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -681,7 +680,7 @@
 <p>If the treatment reason remains unclear, symptoms recur with every attempt, or use has continued without review, you can request a gastroenterology consultation to begin a structured assessment in the clinic. The clinic is mentioned here only as a practical next step, not as a promise that stopping is suitable or endoscopy is necessary. If there is bleeding, severe chest pain, fainting or progressive swallowing difficulty, seek appropriate urgent care rather than waiting for a routine booking. [1, 7]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -719,7 +718,7 @@
 <p>For related reading, see our guide to gallstone symptoms and surgery, when bloating needs a doctor, and what an abdominal ultrasound can and cannot show. If you would like an individual assessment, you can book an appointment. [1, 2]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -756,7 +755,7 @@
 <p>If no warning feature is present and you need a structured assessment, you can use the request for a medical consultation and mention the imaging report, pain duration and urinary symptoms. At the clinic, assessment can determine whether observation remains suitable or imaging or referral is needed. The clinic is mentioned only as an organisational step, not a promise that the stone will pass. If pain comes with fever, persistent vomiting, reduced urine or loss of pain control, use urgent care instead of waiting for an appointment [1, 7, 11].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -796,7 +795,7 @@
 <p>If you need to connect short sleep with your weight trend, hunger and movement in an individual assessment, you can start at the book an appointment page. The clinic is mentioned only as a general practical next step, with no promise that improving sleep will move the scale or that the cause of the plateau is known before assessment. The aim is to leave with a measurable follow-up step while protecting sleep and health without blame or quick fixes [2, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -836,7 +835,7 @@
 <p>The clinic&#39;s medical team can review meals, hunger, sleep, medicines and referral signs without blame or promises. You can request a clinical nutrition consultation and bring one week of observations plus your medicine list. The individual plan remains with the treating clinician or specialist [7, 8].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -876,7 +875,7 @@
 <p>If you need an individual calculation linking food with activity, goals, illness and test results, you can start at the clinic’s book an appointment page. The clinic is mentioned here as a general route to assessment, not as a promise of an outcome or an invitation to consume the highest amount. Dr Shimaa Fouad reviews the whole pattern, decides whether food is sufficient, whether a supplement has a role, and when the treating doctor needs to join the decision. Until then, do not copy an athlete’s or influencer’s target or start a large arbitrary dose. [8, 11]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -916,7 +915,7 @@
 <p>Persistent intense thirst, frequent urination, repeated night-time urination, unexplained weight loss, dizziness, or swelling deserves medical assessment. These symptoms can have several causes, including high blood sugar, kidney problems, medicines, or hormone conditions [5, 8, 11, 12]. You can use the booking link to arrange a clinic consultation for a health and nutrition review.</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -952,7 +951,7 @@
 <p>At the clinic, review clarifies choices and sets a follow-up point; it does not promise an outcome or bind you to medicine. For individual assessment, you can book an appointment and bring this list. If an alarm sign from the previous section is present, do not wait for routine booking; use emergency care appropriate to severity. A sound plan leaves you understanding why treatment is used, what is monitored and when the decision will be reconsidered [2, 3].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -975,7 +974,7 @@
 <p>Seek prompt assessment for sudden bald patches, very rapid loss, eyebrow or eyelash loss, pain or burning, marked redness, widespread scale, discharge, or shiny scar-like skin. Mayo Clinic and MedlinePlus advise medical review for sudden or patchy loss and for a painful, red, or scaly scalp [7, 8]. Severe fatigue, fainting, breathlessness, marked palpitations, persistent vomiting, dehydration, or inability to eat and drink warrants faster medical contact; these systemic symptoms may matter more than the hair. If there is no emergency sign but shedding persists or density is falling, arrange a medical assessment at the clinic and bring the weight, food, medicine, and photograph record. The visit can combine review of weight management and nutrition with scalp examination or dermatology referral, without assuming everyone needs the same tests or treatment. Booking is not a promise of regrowth by a fixed date; it is a step toward identifying the pattern, reviewing contributors, and making an individualized decision [3, 8]. Do not stop treatment while waiting without medical direction, and use urgent care rather than waiting if severe symptoms or rapid deterioration develops.</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1014,7 +1013,7 @@
 <p>At the clinic, assessment is meant to organize risks and alternatives without promising a particular amount of weight loss or pressuring anyone to stop breastfeeding. If you need to discuss weight medicine during pregnancy or lactation, you can request a weight-management consultation and bring the treatment list and pregnancy or feeding details. For bleeding, severe pain, fainting, marked dehydration or low blood glucose, seek urgent care rather than waiting for a routine appointment [1, 2, 3].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1049,7 +1048,7 @@
 <p>A clinic assessment should remain neutral: review the product, examine the area, discuss medical history and expectations, and explain whether any procedure is appropriate and who would provide follow-up. If you need a structured medical discussion before cosmetic injections, you can request a body-contouring assessment. The final decision belongs with you and the treating clinician once the information is clear, without any promise of a guaranteed result [1, 4].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1086,7 +1085,7 @@
 <p>At the clinic, a neutral assessment should identify the tissue and realistic goal, review the proposed substance and health history, and explain benefit, limits, risks and alternatives without a guarantee. The visit may reasonably end with observation, deferral, referral, a different option or no procedure. If you want to begin with a structured discussion, you can request a body-contouring assessment and bring the name of any product offered to you, standardized photographs and your medicine list. A good outcome begins with a clear, safe decision—not an absolute promise [1, 4, 10, 13].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1126,7 +1125,7 @@
 <p>At the clinic, assessment starts with understanding your health and goal, and the final decision is made with the clinician or nutrition professional according to your needs, not the event date alone. You can request a weight-management appointment if you need an individual assessment and a plan that continues after the big day. Until then, do not change prescribed medicine or begin a severe diet on your own [2, 3, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1165,7 +1164,7 @@
 <p>If you want to discuss your individual situation at La Rose, you can request a weight-management consultation. Booking is not an alternative to emergency care: if any red flag above is present, seek urgent help now. If there are no symptoms but the product is unknown, do not take another dose until a pharmacist or clinician has reviewed it, and leave the final decision with the treating clinician who knows your history and medicines [1, 2].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1202,7 +1201,7 @@
 <p>The clinical objective is never to impose a rigid template, but to help you establish lasting dietary habits that optimize metabolic biomarkers and sustain daily energy for years to come [6, 7, 14]. To discover the safest, most effective nutritional path for your metabolic profile, you can take your structured next step by booking a clinical nutrition consultation with the dedicated medical team at La Rose Clinics, securing an individualized, evidence-based roadmap tailored directly to your health [3, 6, 14].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1239,7 +1238,7 @@
 <p>If you have optimized your plate composition and still feel hungry within an hour, or if hunger is accompanied by shakiness, cold sweating, unquenchable thirst, or unintended weight change, specialist evaluation is the proper next step. In a clinical consultation, a clinical nutrition specialist and physician review your dietary history and symptoms comprehensively, ordering targeted lab work to assess insulin dynamics, glycemic control, or thyroid function. You can request a clinical nutrition consultation to establish an individualised nutritional plan matched to your metabolic needs and regain lasting energy and satiety [1, 9, 13].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1276,7 +1275,7 @@
 <p>At a clinic, the starting point can be a structured review of meal timing and adequacy, episodes, physical and mental health, and medicines, with referral to a mental-health professional when needed. A clinic cannot promise an outcome or replace emergency care, but it can help identify the first step and the appropriate discipline. If there is no immediate danger and you need a starting point, you can request a clinical nutrition consultation and state from the outset that the main concern is eating episodes with loss of control [1, 3, 7].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1313,7 +1312,7 @@
 <p>At a clinic, assessment can review meal timing and adequacy, hunger cues, situations and feelings, sleep, medicines, and any physical or psychological symptoms requiring referral, without blame or promises. Bring a medicine list and a simple description of a few episodes instead of trying to present a perfect day of eating. If you need a structured starting point, you can request a clinical nutrition consultation. Assessment can then establish whether nutrition follow-up, medical review, mental-health support or collaboration is most appropriate [5, 8, 10].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1347,7 +1346,7 @@
 <p>If the pattern is recurrent or distressing without immediate danger, you can begin with a calm next step. A clinic assessment can establish whether clinical nutrition support, mental-health care, medical review or a combined team is the most appropriate starting point. Prepare an honest description of frequency, loss of control and any compensation rather than trying to present a perfect day of eating. You can request a clinical nutrition consultation to start a structured assessment, with referral to the appropriate professional according to what emerges [6, 9].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1384,7 +1383,7 @@
 <p>An in-clinic assessment can connect sleep symptoms with blood pressure, weight, medicines and the rest of your health, after which the clinician decides whether a referral or particular sleep study is appropriate. If you want to begin that step, you can use the book an appointment page to request an assessment. The clinic is mentioned only as a general practical next step, not a remote diagnosis or promise of an outcome. If a warning sign above is present, use the appropriate urgent service rather than waiting for a booking [4, 7, 8].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1420,7 +1419,7 @@
 <p>If you are feeling uncertain or experiencing unexpected weight changes and require a thorough clinical review of your regimen combined with structured nutritional guidance, you can contact our center to book an in-person medical consultation to review all your prescriptions with an internal medicine specialist and determine the safest path forward [1, 2, 3, 10].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1450,7 +1449,7 @@
 <p>Do not make a harsh dietary change before the visit, and do not omit an over-the-counter product or supplement; these details may explain the timing. If the situation is stable and assessment finds no fluid retention or urgent medical cause, sleep, activity, food and wider health goals can then be reviewed. A first weight-management visit: what happens, step by step? can help you prepare for that part without confusing it with urgent symptom assessment. At the clinic, evaluation begins by clarifying the cause before proposing a plan; you can request an internal-medicine appointment if you need a structured review of the gain and accompanying symptoms [1, 8].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1487,7 +1486,7 @@
 <p>If you need to connect waist circumference and a body-composition result with your history and laboratory tests and begin a suitable plan, you can use the book an appointment page to request an in-clinic assessment. The clinic is mentioned here only as a general practical next step, not as a promise of a result or a remote diagnosis. If any warning sign from the previous section is present, seek the appropriate level of care promptly rather than waiting for a routine appointment [5, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1524,7 +1523,7 @@
 <p>At the clinic, you can request a clinical nutrition appointment to review weight trajectory, intake and symptoms and agree an appropriate next step. Booking is not a substitute for emergency care when an urgent sign is present, and it is not a promise of a particular weight result. Testing, referral, exercise and nutrition-support decisions belong with the treating clinician and depend on age, examination, conditions and medicines. Bring your questions, and ask what will be monitored and when the plan should be reviewed if weight or symptoms change [3, 4].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1564,7 +1563,7 @@
 <p>For an assessment, bring a two- or three-day food record, photos of labels from fortified products, the names and doses of medicines and supplements, and previous results. Your first therapeutic-nutrition visit: preparing for a sustainable plan can help organise this information without turning the visit into a test. If you need an individual plan linking your pattern with symptoms and results, you can request a clinical-nutrition appointment at the clinic. Final decisions about tests, supplements and follow-up remain with the treating clinician [8, 10].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1601,7 +1600,7 @@
 <p>If you need an individual food plan and a review of your log, you can request a clinical nutrition appointment. Booking is not a substitute for obstetric follow-up and must not delay urgent care. State that you are pregnant and include gestational age, diagnosis date, current treatment, and any concerning reading or symptom so the appropriate pathway can be chosen. The goal is not a “perfect” plate; it is an adequate, safe plan that you can follow and revise alongside glucose patterns and fetal growth [2, 4, 5].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1635,7 +1634,7 @@
 <p>Dr Alyaa Abu Taleb can begin with a paediatric assessment and growth trajectory, then coordinate an appropriate referral when eating-disorder or mental-health expertise is needed. If you need to begin, use the request a booking link and mention food restriction, fear of weight gain and noticeable loss. An urgent sign means using local emergency care instead of waiting for a booking. [2, 3, 4]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1675,7 +1674,7 @@
 <p>If you need an individual assessment, you can book an appointment at the clinic to review the results and health history and agree on a measurable next step. The clinic is mentioned here only to organise the final next step, not as a promise of an outcome or a substitute for emergency care. Until review, do not start medicine independently, and do not treat a later improved value as permission to abandon follow-up; the trend and plan belong in review with the treating clinician [2, 8].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1715,7 +1714,7 @@
 <p>If you need structured assessment, you can book an internal-medicine consultation at the clinic so a clinician can hear the story, review examination findings and results, and select an appropriate next step without promising a particular outcome or ordering more tests than needed. This article can help you prepare, but it cannot diagnose the cause or replace the treating clinician’s decision, especially during pregnancy, with chronic illness, severe symptoms or rapidly changing results [4, 5].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1755,7 +1754,7 @@
 <p>If you need to connect measurements and weight trend with food, strength and symptoms in an individual assessment, you can use the book an appointment page. The clinic is mentioned here only as a general practical step, not a promise of a result or confirmation that you need a particular test. The nutrition clinician or treating doctor decides whether the change is reassuring, whether the plan needs adjustment and when review is useful. Bring the real question even if it is simply, “Am I making progress?” Good follow-up turns that into reviewable indicators without allowing one number to judge you. [5, 11]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1796,7 +1795,7 @@
 <p>At the clinic, symptoms, hydration, eating and bowel patterns, accompanying medicines, and follow-up measurements can be reviewed together. There is no promise that everyone will continue the same medicine or that one symptom has the same solution for everyone. Continuing or changing treatment is an individual decision after clinical assessment. To arrange an assessment, use Book an appointment, while remembering that booking is not an alternative to emergency care for severe pain, repeated vomiting, dehydration, inability to pass wind, or breathing difficulty [1, 2, 9, 10].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1832,7 +1831,7 @@
 <p>At La Rose Clinics in Maadi, Dr. Mohab Ashraf Fouad, Specialist in Internal Medicine &amp; Diabetes, Hepatology, Gastroenterology &amp; Endoscopy, provides comprehensive clinical assessments for patients dealing with post-H. pylori concerns, lingering bloating, and chronic digestive disorders. A key feature of the clinic&#39;s care model is that Dr. Mohab conducts a thorough clinical evaluation with the availability of in-clinic abdominal ultrasound during the same visit when clinically indicated; this gives the physician direct diagnostic visualization of the liver, gallbladder, pancreas, and abdominal structures to identify or rule out structural drivers of bloating without delay. Management strategies are designed methodically and realistically, focusing on adhering to strict test-of-cure timing, restoring mucosal comfort, and re-establishing gut microbiome balance. When you need clear diagnostic direction and dedicated clinical oversight, you can book a visit at La Rose to begin your personalized care pathway.</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1864,7 +1863,7 @@
 <p>If you need to connect the report with your history and examination and decide whether monitoring or further assessment is appropriate, you can request an appointment for fatty-liver assessment. In the clinic, decisions are based on the individual situation, without promising an outcome or ordering an extra test solely for reassurance. This page is educational and cannot replace an examination, particularly with pregnancy, acute illness, a new medicine or warning signs. The bottom line is that normal enzymes are reassuring about one defined part of the picture, while meaningful reassurance comes from assessing the cause, fibrosis risk and a follow-up plan you understand [1, 2, 5].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1901,7 +1900,7 @@
 <p>If you need to connect results, dose, symptoms and the weight trend in an individual assessment, you can use the book an appointment page. Bring older results, medicine-box photographs, a timing record and the weight trend, and write down the most important symptom or question. The treating clinician decides whether the dose is appropriate, whether another test is meaningful and whether input from nutrition or another specialty would help. Until then, do not increase, stop or split treatment by yourself. [2, 3, 7]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/mohab-ashraf.jpg" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/mohab-ashraf.webp" alt="Dr. Mohab Ashraf Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1938,7 +1937,7 @@
 <p>If the main concern is organising food and hunger while working towards weight loss, you can request a clinical nutrition assessment at the clinic. The assessment can review time since birth and recovery, feeding pattern, food and sleep routine, medicines and supplements, and the weight trend before agreeing a manageable next step. Individual decisions remain with the treating clinician and the baby&#39;s clinician when needed, especially with chronic illness or concern about growth or milk intake. The goal is not a promised scale number; it is a realistic plan that protects health and feeding [1, 2, 6].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -1970,7 +1969,7 @@
 <p>If there is no progress or any warning feature appears, bring the growth and vaccination record, earlier measurements and results, and a list of medicines and supplements. Assessment reviews growth and development, mouth and teeth, abdomen and bowel pattern, sleep, textures, chewing and swallowing skills, and family routines. Tests are not automatic for every selective eater; the treating clinician chooses them according to history and examination. You can begin by requesting a paediatric and nutrition appointment at the clinic when eating has become a persistent source of distress or growth has changed. The final plan and follow-up are individual decisions made after seeing the child, without quick promises or one prescription for everyone. [2, 4, 5, 6]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -2006,7 +2005,7 @@
 <p>A good plan begins with one clear, manageable step, such as a consistent addition or a new eating opportunity, and a review point to learn what helped and what caused difficulty. No single menu or appetite stimulant suits everybody, and rapid promises are inappropriate. If you have a warning sign described above, choose urgent care or the relevant specialty rather than waiting for a routine nutrition appointment. If your situation is stable and you want a structured assessment, you can book a clinical nutrition consultation to discuss the reason, your goal and the safest next step [1, 3].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -2043,7 +2042,7 @@
 <p>For a non-emergency visit, bring the weight and cycle timeline, medicine and supplement list, previous tests, and an honest description of food, sleep and movement. A medical centre can help organise clinical-nutrition assessment, weight follow-up and referral to the appropriate specialty, without promising a particular result or replacing gynaecology or internal-medicine care. If you need an organised start, use the appointment request and say that the question concerns PCOS and weight regain. Decisions about tests, medicine and goals remain with the treating clinician after reviewing your circumstances and pregnancy plans. [1, 2, 8]</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/shimaa-fouad.jpg" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/shimaa-fouad.webp" alt="Dr. Shimaa Fouad" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -2085,7 +2084,7 @@
 <p>If you need to start with an organised review at the medical centre, you can use the appointment request, mention that your question concerns normal fasting glucose and possible insulin resistance, and bring earlier results. Booking is not a promise of a particular diagnosis or medicine; it is a step towards reading each number in context and agreeing on a safe plan with the clinician [1, 2].</p></div>
             <div class="grid grid-2" style="align-items:center;margin-top:1rem">
               <div class="arch arch--ruled" style="max-width:7rem;margin-inline:auto">
-                <img src="../../assets/img/doctors/alyaa-abu-taleb.jpg" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
+                <img src="../../assets/img/doctors/alyaa-abu-taleb.webp" alt="Dr. Alyaa Said Abu Taleb" width="450" height="562" loading="lazy" decoding="async">
                 
               </div>
               <div>
@@ -2132,7 +2131,7 @@
     <div class="site-footer__grid">
 
       <div class="site-footer__brand">
-        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" alt="La Rose Wellness Hub" width="280" height="242" loading="lazy" decoding="async">
+        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" srcset="../../assets/img/logo/larose-wordmark-white-120.webp 120w, ../../assets/img/logo/larose-wordmark-white-280.webp 280w" sizes="66px" alt="La Rose Wellness Hub" width="280" height="242" loading="lazy" decoding="async">
         <p class="site-footer__blurb">La Rose Wellness Hub is a multi-specialty medical centre in New Maadi, Cairo. Clinical nutrition, internal medicine and endoscopy, general and bariatric surgery, dermatology and paediatrics, on a plan built from an actual consultation.</p>
         <div class="social">
           <a href="https://www.instagram.com/larose_wellnesshub/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false"><rect x="3" y="3" width="14" height="14" rx="4.2" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="10" cy="10" r="3.3" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="14.1" cy="5.9" r="1"/></svg></a>

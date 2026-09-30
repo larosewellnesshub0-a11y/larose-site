@@ -61,6 +61,7 @@ function rootIndex(c) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="color-scheme" content="only light">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
@@ -111,7 +112,7 @@ ${jsonLd({ c, locale: "ar", pagePath: "index.html", canonicalUrl: `${base}/` })}
 </head>
 <body>
   <div class="gate">
-    <h1 class="visually-hidden">${esc(title)}</h1>
+    <h1 class="visually-hidden">${esc(t(s.brand.name, "ar"))}</h1>
     <img src="assets/img/logo/larose-wordmark-white.png" alt="${esc(t(s.brand.name, "en"))}" width="984" height="849">
     <!-- Arabic is the default; this body only shows if the script is blocked,
          so it offers one link rather than a choice. -->
@@ -126,7 +127,7 @@ ${jsonLd({ c, locale: "ar", pagePath: "index.html", canonicalUrl: `${base}/` })}
 function root404(c) {
   const s = c.site;
   const url = `https://${s.brand.domain}/404.html`;
-  return `<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="only light"><meta name="robots" content="noindex,follow"><title>الصفحة مش موجودة | Page not found</title><meta name="description" content="الصفحة دي مش موجودة. This page could not be found."><link rel="canonical" href="${url}"><link rel="alternate" hreflang="ar" href="${url}"><link rel="alternate" hreflang="en" href="${url}"><link rel="stylesheet" href="/assets/css/tokens.css"><link rel="stylesheet" href="/assets/css/base.css"><link rel="stylesheet" href="/assets/css/components.css">${trackingHead(c)}${jsonLd({ c, locale:"ar", pagePath:"404.html", canonicalUrl:url, currentName:"الصفحة مش موجودة" })}</head><body><main class="section"><div class="wrap wrap--narrow" style="text-align:center"><img src="/assets/img/logo/larose-wordmark.png" alt="${esc(t(s.brand.name,"ar"))}" width="160" height="138"><h1 class="h1" style="margin-top:2rem">الصفحة مش موجودة</h1><p class="lede">Page not found</p><p style="margin-top:2rem"><a class="btn btn--primary" href="/ar/">ارجع للرئيسية</a> <a class="btn btn--ghost" href="/en/">English home</a></p></div></main><script src="/assets/js/track.js" defer></script></body></html>`;
+  return `<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="color-scheme" content="only light"><meta name="robots" content="noindex,follow"><title>الصفحة مش موجودة | Page not found</title><meta name="description" content="الصفحة دي مش موجودة. This page could not be found."><link rel="canonical" href="${url}"><link rel="alternate" hreflang="ar" href="${url}"><link rel="alternate" hreflang="en" href="${url}"><link rel="stylesheet" href="/assets/css/tokens.css"><link rel="stylesheet" href="/assets/css/base.css"><link rel="stylesheet" href="/assets/css/components.css">${trackingHead(c)}${jsonLd({ c, locale:"ar", pagePath:"404.html", canonicalUrl:url, currentName:"الصفحة مش موجودة" })}</head><body><main class="section"><div class="wrap wrap--narrow" style="text-align:center"><img src="/assets/img/logo/larose-wordmark.png" alt="${esc(t(s.brand.name,"ar"))}" width="160" height="138"><h1 class="h1" style="margin-top:2rem">الصفحة مش موجودة</h1><p class="lede">Page not found</p><p style="margin-top:2rem"><a class="btn btn--primary" href="/ar/">ارجع للرئيسية</a> <a class="btn btn--ghost" href="/en/">English home</a></p></div></main><script src="/assets/js/track.js" defer></script></body></html>`;
 }
 
 /* --------------------------------------------------------------------------
@@ -165,7 +166,9 @@ function sitemap(c, paths) {
     return null;
   };
   const urls = paths
-    .filter((p) => p.endsWith(".html") && !p.includes("/404"))
+    // Every 404 page, the root one included, stays out of the sitemap: it is
+    // noindex, and Search Console reported it as "Excluded by noindex".
+    .filter((p) => p.endsWith(".html") && !/(^|\/)404\.html$/.test(p))
     .map((p) => {
       const localeMatch = /^(ar|en)\/(.*)$/.exec(p);
       const withinLocale = localeMatch ? localeMatch[2] : "index.html";
@@ -301,8 +304,7 @@ async function main() {
       whatsappText: t(p.price.whatsappText, locale), bookingNote: t(p.price.bookingNote, locale),
     });
     fs.writeFileSync(promoOut, `${JSON.stringify({
-      endsOn: p.endsOn || null, delaySeconds: p.delaySeconds, minScrollPx: p.minScrollPx,
-      snoozeDays: p.snoozeDays, bookedSnoozeDays: p.bookedSnoozeDays,
+      endsOn: p.endsOn || null, delaySeconds: p.delaySeconds,
       ar: pick("ar"), en: pick("en"),
     })}\n`, "utf8");
   } else if (fs.existsSync(promoOut)) {

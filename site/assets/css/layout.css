@@ -642,6 +642,7 @@ body.is-locked { overflow: hidden; }
 .section--dark .h2, .section--dark .h3 { color: #fff; }
 .section--dark .lede, .section--dark .u-muted { color: rgba(246,244,236,.75); }
 .section--dark .eyebrow { color: var(--champagne-400); }
+.page-hero--art .eyebrow { color: var(--champagne-400); }
 .section--dark .eyebrow::before { background: var(--champagne-400); }
 
 /* the plaster texture that matches the clinic's real olive wall */
