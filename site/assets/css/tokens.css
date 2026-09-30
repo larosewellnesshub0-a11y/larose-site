@@ -31,7 +31,7 @@
   --olive-100:        #E7E6CF;
   --olive-050:        #F3F2E6;
 
-  --champagne-700:    #A88760;
+  --champagne-700:    #7E6340;   /* text gold: 5.3:1 on paper (AA) */
   --champagne-600:    #C1A077;
   --champagne-500:    #D4B793;   /* = --champagne               */
   --champagne-400:    #E0CAAE;
@@ -60,7 +60,7 @@
   --ink:              var(--olive-950);          /* body text            */
   --ink-strong:       #1A1B12;                   /* headlines            */
   --ink-muted:        #5F6150;                   /* secondary text       */
-  --ink-faint:        #86887A;                   /* captions, meta       */
+  --ink-faint:        #6C6E60;                   /* captions, meta (AA)  */
   --ink-on-dark:      #F6F4EC;
   --ink-on-dark-mute: #C9C9B4;
 
@@ -91,7 +91,7 @@
 
   /* ---- Type scale --------------------------------------------------------
      Fluid, 320px → 1440px. Ratio ~1.22 at small, ~1.28 at large.            */
-  --t-xs:    clamp(0.72rem, 0.70rem + 0.10vw, 0.78rem);
+  --t-xs:    clamp(0.75rem, 0.73rem + 0.10vw, 0.80rem);
   --t-sm:    clamp(0.82rem, 0.79rem + 0.14vw, 0.90rem);
   --t-eyebrow: clamp(0.94rem, 0.88rem + 0.28vw, 1.08rem);  /* section labels */
   --t-base:  clamp(0.95rem, 0.91rem + 0.20vw, 1.06rem);

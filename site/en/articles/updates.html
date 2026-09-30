@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Scientific updates | La Rose Wellness Hub</title>
 <meta name="description" content="Calm summaries of established medical developments, with source links and what each update means for you as a patient.">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -46,12 +47,10 @@
 
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/Montserrat-400.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/Romelio-400.woff2" crossorigin>
-<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" fetchpriority="high">
-<link rel="stylesheet" href="../../assets/css/tokens.css">
-<link rel="stylesheet" href="../../assets/css/base.css">
-<link rel="stylesheet" href="../../assets/css/components.css">
-<link rel="stylesheet" href="../../assets/css/layout.css">
-<link rel="stylesheet" href="../../assets/css/dark.css">
+<link rel="preload" as="image" href="../../assets/img/banners/articles-900.webp" media="(max-width: 56rem)" fetchpriority="high">
+<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" media="not all and (max-width: 56rem)" fetchpriority="high">
+<style>@media (max-width: 56rem){.page-hero__media{background-image:url('../../assets/img/banners/articles-900.webp')!important}}</style>
+<link rel="stylesheet" href="../../assets/css/site.css?v=5eb72a8ba1">
 
 <meta name="google-site-verification" content="BkVfWbF9-2Gq63BB-fKXLsykTKkSFoa9F9Bt4Tlxnro">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2VLTT89JM7"></script>
@@ -86,7 +85,7 @@
 <header class="site-header" id="siteHeader">
   <div class="wrap site-header__inner">
     <a class="wordmark" href="../" aria-label="La Rose Wellness Hub">
-      <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="" width="280" height="242">
+      <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="56px" alt="" width="280" height="242">
       <span class="wordmark__text">
         <b>La Rose Wellness Hub</b>
         <i>Multi-specialty medical centre</i>
@@ -299,7 +298,7 @@
   <div class="drawer__panel glass" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="drawer__head">
       <a class="wordmark" href="../">
-        <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="La Rose Wellness Hub" width="280" height="242">
+        <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="48px" alt="La Rose Wellness Hub" width="280" height="242">
       </a>
       <div class="drawer__head-actions">
         <a class="lang-switch lang-switch--drawer" href="../../ar/articles/updates" lang="ar" hreflang="ar"
@@ -444,7 +443,7 @@
     <div class="stack">
       <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/responsive-complementary-feeding.webp" alt="Article illustration: Responsive complementary feeding: follow the baby, do not force" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/responsive-complementary-feeding.webp" srcset="../../assets/img/articles/responsive-complementary-feeding-600.webp 600w, ../../assets/img/articles/responsive-complementary-feeding-900.webp 900w, ../../assets/img/articles/responsive-complementary-feeding.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Responsive complementary feeding: follow the baby, do not force" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -472,7 +471,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/biotin-before-blood-tests.webp" alt="Article illustration: Biotin before blood tests: why the laboratory needs to know" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/biotin-before-blood-tests.webp" srcset="../../assets/img/articles/biotin-before-blood-tests-600.webp 600w, ../../assets/img/articles/biotin-before-blood-tests-900.webp 900w, ../../assets/img/articles/biotin-before-blood-tests.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Biotin before blood tests: why the laboratory needs to know" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -503,7 +502,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/diabetes-review-whole-health.webp" alt="Article illustration: Diabetes review: beyond HbA1c" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/diabetes-review-whole-health.webp" srcset="../../assets/img/articles/diabetes-review-whole-health-600.webp 600w, ../../assets/img/articles/diabetes-review-whole-health-900.webp 900w, ../../assets/img/articles/diabetes-review-whole-health.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Diabetes review: beyond HbA1c" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -531,7 +530,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/body-contouring-safety-first.webp" alt="Article illustration: Non-surgical body contouring safety: modalities, risks and contraindications" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/body-contouring-safety-first.webp" srcset="../../assets/img/articles/body-contouring-safety-first-600.webp 600w, ../../assets/img/articles/body-contouring-safety-first-900.webp 900w, ../../assets/img/articles/body-contouring-safety-first.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Non-surgical body contouring safety: modalities, risks and contraindications" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -561,7 +560,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/obesity-care-beyond-bmi.webp" alt="Article illustration: Scientific update: obesity care goes beyond BMI" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/obesity-care-beyond-bmi.webp" srcset="../../assets/img/articles/obesity-care-beyond-bmi-600.webp 600w, ../../assets/img/articles/obesity-care-beyond-bmi-900.webp 900w, ../../assets/img/articles/obesity-care-beyond-bmi.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Scientific update: obesity care goes beyond BMI" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -593,7 +592,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/muscle-assessment-in-nutrition-care.webp" alt="Article illustration: Assessing muscle mass and strength in nutrition care" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/muscle-assessment-in-nutrition-care.webp" srcset="../../assets/img/articles/muscle-assessment-in-nutrition-care-600.webp 600w, ../../assets/img/articles/muscle-assessment-in-nutrition-care-900.webp 900w, ../../assets/img/articles/muscle-assessment-in-nutrition-care.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Assessing muscle mass and strength in nutrition care" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -621,7 +620,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/supplements-are-targeted-not-a-default.webp" alt="Article illustration: Dietary supplements should be targeted, not automatic" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/supplements-are-targeted-not-a-default.webp" srcset="../../assets/img/articles/supplements-are-targeted-not-a-default-600.webp 600w, ../../assets/img/articles/supplements-are-targeted-not-a-default-900.webp 900w, ../../assets/img/articles/supplements-are-targeted-not-a-default.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Dietary supplements should be targeted, not automatic" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -649,7 +648,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/vitamin-b12-in-plant-based-eating.webp" alt="Article illustration: Vitamin B12 for plant-based eating: plan a reliable source" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/vitamin-b12-in-plant-based-eating.webp" srcset="../../assets/img/articles/vitamin-b12-in-plant-based-eating-600.webp 600w, ../../assets/img/articles/vitamin-b12-in-plant-based-eating-900.webp 900w, ../../assets/img/articles/vitamin-b12-in-plant-based-eating.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Vitamin B12 for plant-based eating: plan a reliable source" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -677,7 +676,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/weight-medicines-are-not-a-short-course.webp" alt="Article illustration: Scientific update: appetite-regulating weight medicines are not one short course for everyone" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/weight-medicines-are-not-a-short-course.webp" srcset="../../assets/img/articles/weight-medicines-are-not-a-short-course-600.webp 600w, ../../assets/img/articles/weight-medicines-are-not-a-short-course-900.webp 900w, ../../assets/img/articles/weight-medicines-are-not-a-short-course.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Scientific update: appetite-regulating weight medicines are not one short course for everyone" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -709,7 +708,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/movement-benefits-beyond-the-scale.webp" alt="Article illustration: Scientific update: movement has health benefits even when the scale barely changes" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/movement-benefits-beyond-the-scale.webp" srcset="../../assets/img/articles/movement-benefits-beyond-the-scale-600.webp 600w, ../../assets/img/articles/movement-benefits-beyond-the-scale-900.webp 900w, ../../assets/img/articles/movement-benefits-beyond-the-scale.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Scientific update: movement has health benefits even when the scale barely changes" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -739,7 +738,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/mesotherapy-needs-an-ingredient-level-check.webp" alt="Article illustration: Mesotherapy gone wrong: safety, warning signs and what to do" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/mesotherapy-needs-an-ingredient-level-check.webp" srcset="../../assets/img/articles/mesotherapy-needs-an-ingredient-level-check-600.webp 600w, ../../assets/img/articles/mesotherapy-needs-an-ingredient-level-check-900.webp 900w, ../../assets/img/articles/mesotherapy-needs-an-ingredient-level-check.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Mesotherapy gone wrong: safety, warning signs and what to do" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -767,7 +766,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/blood-pressure-needs-a-pattern.webp" alt="Article illustration: High blood pressure: why a pattern of readings matters" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/blood-pressure-needs-a-pattern.webp" srcset="../../assets/img/articles/blood-pressure-needs-a-pattern-600.webp 600w, ../../assets/img/articles/blood-pressure-needs-a-pattern-900.webp 900w, ../../assets/img/articles/blood-pressure-needs-a-pattern.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: High blood pressure: why a pattern of readings matters" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -795,7 +794,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/diabetes-remission-is-not-cure.webp" alt="Article illustration: Type 2 diabetes remission is not a permanent cure" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/diabetes-remission-is-not-cure.webp" srcset="../../assets/img/articles/diabetes-remission-is-not-cure-600.webp 600w, ../../assets/img/articles/diabetes-remission-is-not-cure-900.webp 900w, ../../assets/img/articles/diabetes-remission-is-not-cure.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Type 2 diabetes remission is not a permanent cure" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -823,7 +822,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/coeliac-testing-before-gluten-free-diet.webp" alt="Article illustration: Coeliac testing before a gluten-free diet: why order matters" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/coeliac-testing-before-gluten-free-diet.webp" srcset="../../assets/img/articles/coeliac-testing-before-gluten-free-diet-600.webp 600w, ../../assets/img/articles/coeliac-testing-before-gluten-free-diet-900.webp 900w, ../../assets/img/articles/coeliac-testing-before-gluten-free-diet.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Coeliac testing before a gluten-free diet: why order matters" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -851,7 +850,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/fatty-liver-fibrosis-needs-its-own-assessment.webp" alt="Article illustration: Fatty liver or fibrosis? What ultrasound can say and what comes next" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/fatty-liver-fibrosis-needs-its-own-assessment.webp" srcset="../../assets/img/articles/fatty-liver-fibrosis-needs-its-own-assessment-600.webp 600w, ../../assets/img/articles/fatty-liver-fibrosis-needs-its-own-assessment-900.webp 900w, ../../assets/img/articles/fatty-liver-fibrosis-needs-its-own-assessment.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Fatty liver or fibrosis? What ultrasound can say and what comes next" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -879,7 +878,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/silent-gallstones-usually-need-no-treatment.webp" alt="Article illustration: Scientific update: silent gallstones usually do not need treatment" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/silent-gallstones-usually-need-no-treatment.webp" srcset="../../assets/img/articles/silent-gallstones-usually-need-no-treatment-600.webp 600w, ../../assets/img/articles/silent-gallstones-usually-need-no-treatment-900.webp 900w, ../../assets/img/articles/silent-gallstones-usually-need-no-treatment.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Scientific update: silent gallstones usually do not need treatment" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -907,7 +906,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/surgical-checks-are-a-team-pause.webp" alt="Article illustration: Scientific update: repeated safety questions before surgery are deliberate" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/surgical-checks-are-a-team-pause.webp" srcset="../../assets/img/articles/surgical-checks-are-a-team-pause-600.webp 600w, ../../assets/img/articles/surgical-checks-are-a-team-pause-900.webp 900w, ../../assets/img/articles/surgical-checks-are-a-team-pause.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Scientific update: repeated safety questions before surgery are deliberate" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -935,7 +934,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/bariatric-assessment-is-multidisciplinary.webp" alt="Article illustration: Multidisciplinary bariatric assessment: what each team member reviews" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/bariatric-assessment-is-multidisciplinary.webp" srcset="../../assets/img/articles/bariatric-assessment-is-multidisciplinary-600.webp 600w, ../../assets/img/articles/bariatric-assessment-is-multidisciplinary-900.webp 900w, ../../assets/img/articles/bariatric-assessment-is-multidisciplinary.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Multidisciplinary bariatric assessment: what each team member reviews" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -966,7 +965,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/bariatric-follow-up-is-lifelong.webp" alt="Article illustration: Lifelong bariatric follow-up: why it continues after weight loss" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/bariatric-follow-up-is-lifelong.webp" srcset="../../assets/img/articles/bariatric-follow-up-is-lifelong-600.webp 600w, ../../assets/img/articles/bariatric-follow-up-is-lifelong-900.webp 900w, ../../assets/img/articles/bariatric-follow-up-is-lifelong.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Lifelong bariatric follow-up: why it continues after weight loss" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -997,7 +996,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/acne-care-is-gentle-not-aggressive.webp" alt="Article illustration: Acne needs gentle care, not aggressive scrubbing" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/acne-care-is-gentle-not-aggressive.webp" srcset="../../assets/img/articles/acne-care-is-gentle-not-aggressive-600.webp 600w, ../../assets/img/articles/acne-care-is-gentle-not-aggressive-900.webp 900w, ../../assets/img/articles/acne-care-is-gentle-not-aggressive.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Acne needs gentle care, not aggressive scrubbing" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -1032,7 +1031,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/cellulite-is-a-skin-structure-feature.webp" alt="Article illustration: Cellulite is a natural skin structure feature: causes, anatomy and treatment limits" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/cellulite-is-a-skin-structure-feature.webp" srcset="../../assets/img/articles/cellulite-is-a-skin-structure-feature-600.webp 600w, ../../assets/img/articles/cellulite-is-a-skin-structure-feature-900.webp 900w, ../../assets/img/articles/cellulite-is-a-skin-structure-feature.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Cellulite is a natural skin structure feature: causes, anatomy and treatment limits" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -1062,7 +1061,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/child-growth-is-a-trajectory.webp" alt="Article illustration: Scientific update: a child’s growth is a trajectory, not a single comparison" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/child-growth-is-a-trajectory.webp" srcset="../../assets/img/articles/child-growth-is-a-trajectory-600.webp 600w, ../../assets/img/articles/child-growth-is-a-trajectory-900.webp 900w, ../../assets/img/articles/child-growth-is-a-trajectory.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Scientific update: a child’s growth is a trajectory, not a single comparison" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -1091,7 +1090,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/ultrasound-uses-sound-not-xrays.webp" alt="Article illustration: Ultrasound: sound waves, but a defined clinical question" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/ultrasound-uses-sound-not-xrays.webp" srcset="../../assets/img/articles/ultrasound-uses-sound-not-xrays-600.webp 600w, ../../assets/img/articles/ultrasound-uses-sound-not-xrays-900.webp 900w, ../../assets/img/articles/ultrasound-uses-sound-not-xrays.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Ultrasound: sound waves, but a defined clinical question" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -1119,7 +1118,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/normal-ultrasound-does-not-end-assessment.webp" alt="Article illustration: Normal abdominal ultrasound but pain continues: what the result means and what comes next" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/normal-ultrasound-does-not-end-assessment.webp" srcset="../../assets/img/articles/normal-ultrasound-does-not-end-assessment-600.webp 600w, ../../assets/img/articles/normal-ultrasound-does-not-end-assessment-900.webp 900w, ../../assets/img/articles/normal-ultrasound-does-not-end-assessment.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="Article illustration: Normal abdominal ultrasound but pain continues: what the result means and what comes next" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">Scientific updates</span></div>
@@ -1184,7 +1183,7 @@
     <div class="site-footer__grid">
 
       <div class="site-footer__brand">
-        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" alt="La Rose Wellness Hub" width="280" height="242" loading="lazy" decoding="async">
+        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" srcset="../../assets/img/logo/larose-wordmark-white-120.webp 120w, ../../assets/img/logo/larose-wordmark-white-280.webp 280w" sizes="66px" alt="La Rose Wellness Hub" width="280" height="242" loading="lazy" decoding="async">
         <p class="site-footer__blurb">La Rose Wellness Hub is a multi-specialty medical centre in New Maadi, Cairo. Clinical nutrition, internal medicine and endoscopy, general and bariatric surgery, dermatology and paediatrics, on a plan built from an actual consultation.</p>
         <div class="social">
           <a href="https://www.instagram.com/larose_wellnesshub/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false"><rect x="3" y="3" width="14" height="14" rx="4.2" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="10" cy="10" r="3.3" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="14.1" cy="5.9" r="1"/></svg></a>

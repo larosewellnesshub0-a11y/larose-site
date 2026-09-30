@@ -3,7 +3,33 @@
    Every page in the site is rendered through `page()`.
    ========================================================================== */
 
-import { t, ta, esc, escJson, link, asset, rel, icon, map, when, published, absolutePageUrl, cleanInternalUrl, cleanInternalHrefs, promoActive } from "./util.mjs";
+import fs from "node:fs";
+import path from "node:path";
+import crypto from "node:crypto";
+import { t, ta, esc, escJson, link, asset, rel, icon, map, when, published, absolutePageUrl, cleanInternalUrl, cleanInternalHrefs, promoActive, OUT_DIR, imageIfExists } from "./util.mjs";
+
+/* Five stylesheets used to block first paint as five requests (Lighthouse
+   render-blocking, ~0.6-0.9 s on mobile). The build concatenates them, in
+   cascade order, into one generated site.css and links that alone. The
+   sources stay separate and hand-managed; the ?v= hash busts caches when
+   any of them changes. */
+const CSS_PARTS = ["tokens.css", "base.css", "components.css", "layout.css", "dark.css"];
+let cssVersion = null;
+export function cssBundle() {
+  if (cssVersion) return cssVersion;
+  const dir = path.join(OUT_DIR, "assets", "css");
+  const css = CSS_PARTS.map((f) => `/* ${f} */\n` + fs.readFileSync(path.join(dir, f), "utf8")).join("\n");
+  fs.writeFileSync(path.join(dir, "site.css"), css, "utf8");
+  cssVersion = crypto.createHash("sha1").update(css).digest("hex").slice(0, 10);
+  return cssVersion;
+}
+
+/* The 280px wordmark renders 40-66 CSS px wide; a 120px copy covers the
+   header and drawer at 2x, and the 280px file stays for larger screens. */
+function logoSrcset(depth, file) {
+  if (!file || !/-280\.webp$/.test(file)) return "";
+  return `srcset="${asset(depth, file.replace(/-280\.webp$/, "-120.webp"))} 120w, ${asset(depth, file)} 280w"`;
+}
 
 export function trackingHead(c) {
   const a = c?.site?.integrations?.analytics || {};
@@ -173,7 +199,7 @@ function header({ c, locale, depth, active, pagePath }) {
 <header class="site-header" id="siteHeader">
   <div class="wrap site-header__inner">
     <a class="wordmark" href="${link(depth, "index.html")}" aria-label="${esc(t(s.brand.name, locale))}">
-      <img src="${asset(depth, s.brand.logo.wordmarkSmall || s.brand.logo.wordmark)}" alt="" width="280" height="242">
+      <img src="${asset(depth, s.brand.logo.wordmarkSmall || s.brand.logo.wordmark)}" ${logoSrcset(depth, s.brand.logo.wordmarkSmall)} sizes="56px" alt="" width="280" height="242">
       <span class="wordmark__text">
         <b>${esc(t(s.brand.name, locale))}</b>
         <i>${esc(t(s.brand.kind, locale))}</i>
@@ -226,7 +252,7 @@ function drawer({ c, locale, depth, pagePath }) {
   <div class="drawer__panel glass" role="dialog" aria-modal="true" aria-label="${esc(t(s.ui.menu, locale))}">
     <div class="drawer__head">
       <a class="wordmark" href="${link(depth, "index.html")}">
-        <img src="${asset(depth, s.brand.logo.wordmarkSmall || s.brand.logo.wordmark)}" alt="${esc(t(s.brand.name, locale))}" width="280" height="242">
+        <img src="${asset(depth, s.brand.logo.wordmarkSmall || s.brand.logo.wordmark)}" ${logoSrcset(depth, s.brand.logo.wordmarkSmall)} sizes="48px" alt="${esc(t(s.brand.name, locale))}" width="280" height="242">
       </a>
       <div class="drawer__head-actions">
         ${langSwitch({ c, locale, depth, pagePath, cls: "lang-switch lang-switch--drawer" })}
@@ -274,7 +300,7 @@ function footer({ c, locale, depth }) {
     <div class="site-footer__grid">
 
       <div class="site-footer__brand">
-        <img src="${asset(depth, s.brand.logo.wordmarkWhiteSmall || s.brand.logo.wordmarkWhite)}" alt="${esc(t(s.brand.name, locale))}" width="280" height="242" loading="lazy" decoding="async">
+        <img src="${asset(depth, s.brand.logo.wordmarkWhiteSmall || s.brand.logo.wordmarkWhite)}" ${logoSrcset(depth, s.brand.logo.wordmarkWhiteSmall)} sizes="66px" alt="${esc(t(s.brand.name, locale))}" width="280" height="242" loading="lazy" decoding="async">
         <p class="site-footer__blurb">${esc(t(s.footer.blurb, locale))}</p>
         <div class="social">
           <a href="${esc(s.social.instagram)}" target="_blank" rel="noopener" aria-label="Instagram">${icon("instagram")}</a>
@@ -637,16 +663,28 @@ export function page(opts) {
   /* Hero art is a CSS background, so it cannot carry fetchpriority itself.
      Discover only the first-page hero in the head and give it the same priority
      an LCP <img> would receive. */
-  const heroImage = body.match(/class="[^"]*\b(?:hero__media|page-hero__media)\b[^"]*"[^>]*background-image:url\(['"]?([^'"\s)]+)['"]?\)/)?.[1];
-  const heroPreload = heroImage
-    ? `<link rel="preload" as="image" href="${esc(heroImage)}" fetchpriority="high">`
-    : "";
+  const heroMatch = body.match(/class="(?:[^"]*\s)?(hero__media|page-hero__media)(?:\s[^"]*)?"[^>]*background-image:url\(['"]?([^'"\s)]+)['"]?\)/);
+  const heroImage = heroMatch?.[2];
+  /* Phones show the banner at under half opacity behind a scrim, so the
+     900px variant is plenty there. The media queries on the two preloads and
+     on the override are the same, so exactly one file is fetched. */
+  const heroSmall = heroImage && /\.webp$/.test(heroImage)
+    && imageIfExists(heroImage.replace(/^(\.\.\/)+/, "").replace(/\.webp$/, "-900.webp"))
+    ? heroImage.replace(/\.webp$/, "-900.webp")
+    : null;
+  const PHONE = "(max-width: 56rem)";
+  const heroPreload = !heroImage ? "" : heroSmall
+    ? `<link rel="preload" as="image" href="${esc(heroSmall)}" media="${PHONE}" fetchpriority="high">
+<link rel="preload" as="image" href="${esc(heroImage)}" media="not all and ${PHONE}" fetchpriority="high">
+<style>@media ${PHONE}{.${heroMatch[1]}{background-image:url('${esc(heroSmall)}')!important}}</style>`
+    : `<link rel="preload" as="image" href="${esc(heroImage)}" fetchpriority="high">`;
 
   return `<!doctype html>
 <html lang="${locale}" dir="${dir}" data-forms-endpoint="${esc(s.integrations?.formsEndpoint || "")}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(metaDescription)}">
 <meta name="robots" content="${opts.noindex ? "noindex,follow" : "index,follow,max-image-preview:large"}">
@@ -690,11 +728,7 @@ export function page(opts) {
 
 ${fontPreloads}
 ${heroPreload}
-<link rel="stylesheet" href="${asset(depth, "assets/css/tokens.css")}">
-<link rel="stylesheet" href="${asset(depth, "assets/css/base.css")}">
-<link rel="stylesheet" href="${asset(depth, "assets/css/components.css")}">
-<link rel="stylesheet" href="${asset(depth, "assets/css/layout.css")}">
-<link rel="stylesheet" href="${asset(depth, "assets/css/dark.css")}">
+<link rel="stylesheet" href="${asset(depth, "assets/css/site.css")}?v=${cssBundle()}">
 
 ${trackingHead(c)}
 ${jsonLd({ c, locale, pagePath, schema, body, canonicalUrl: canonical, currentName: title || brand })}

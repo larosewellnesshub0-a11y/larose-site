@@ -62,7 +62,8 @@
     var onScroll = function () {
       header.classList.toggle("is-stuck", window.scrollY > 8);
     };
-    onScroll();
+    // First read waits for a frame so it does not force a layout mid-parse.
+    window.requestAnimationFrame(onScroll);
     window.addEventListener("scroll", onScroll, { passive: true });
   }
 
@@ -131,29 +132,49 @@
      edge of the window: most visibly for the first and last nav items, and
      for the wide Knowledge Centre panel. Measure once on open and shift it
      back inside, in whichever direction it overflowed. */
-  function nudgeIntoView(item) {
-    var panel = item.querySelector(".nav__panel");
-    if (!panel) return;
-    // The panel animates its transform, so measure with the transition off;
-    // otherwise the reading is the in-flight position, not the reset one.
+  function panelOf(item) { return item.querySelector(".nav__panel"); }
+  // Write phase: reset the nudge with the transition off. The panel animates
+  // its transform, so a reading taken mid-transition would be the in-flight
+  // position, not the reset one.
+  function resetPanel(panel) {
     var transition = panel.style.transition;
     panel.style.transition = "none";
     panel.style.setProperty("--panel-nudge", "0px");
-    var margin = 12;
-    var r = panel.getBoundingClientRect();
-    void panel.offsetWidth;
     window.requestAnimationFrame(function () { panel.style.transition = transition; });
+  }
+  // Read phase, then write the correction.
+  function applyNudge(panel, r) {
+    var margin = 12;
     var nudge = 0;
     if (r.left < margin) nudge = margin - r.left;
     else if (r.right > window.innerWidth - margin) nudge = (window.innerWidth - margin) - r.right;
     if (nudge) panel.style.setProperty("--panel-nudge", Math.round(nudge) + "px");
   }
+  function nudgeIntoView(item) {
+    var panel = panelOf(item);
+    if (!panel) return;
+    resetPanel(panel);
+    applyNudge(panel, panel.getBoundingClientRect());
+  }
 
   /* Closed panels are only invisible, so one hanging past the edge still
      widened the page and let it scroll sideways (170px at 1100px in
-     English). Nudge every panel, open or not, on load and on resize. */
-  function nudgeAll() { dropdowns.forEach(nudgeIntoView); }
-  nudgeAll();
+     English). Nudge every panel, open or not, on load and on resize.
+     All resets are written first and all rects read after, so this costs one
+     layout instead of one per menu. Phones hide the desktop nav entirely,
+     so there is nothing to measure there. */
+  function nudgeAll() {
+    var panels = [];
+    dropdowns.forEach(function (item) {
+      var panel = panelOf(item);
+      if (panel && item.offsetParent !== null) panels.push(panel);
+    });
+    if (!panels.length) return;
+    panels.forEach(resetPanel);
+    var rects = panels.map(function (panel) { return panel.getBoundingClientRect(); });
+    panels.forEach(function (panel, i) { applyNudge(panel, rects[i]); });
+  }
+  window.requestAnimationFrame(nudgeAll);
   window.addEventListener("load", nudgeAll);
   window.addEventListener("resize", nudgeAll, { passive: true });
 

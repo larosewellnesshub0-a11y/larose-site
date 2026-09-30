@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Internal Medicine FAQs | La Rose Wellness Hub</title>
 <meta name="description" content="123 common questions about General Internal Medicine, answered by La Rose doctors, such as: Should I book general internal medicine or gastroenterology?">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -46,12 +47,10 @@
 
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/Montserrat-400.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/Romelio-400.woff2" crossorigin>
-<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" fetchpriority="high">
-<link rel="stylesheet" href="../../assets/css/tokens.css">
-<link rel="stylesheet" href="../../assets/css/base.css">
-<link rel="stylesheet" href="../../assets/css/components.css">
-<link rel="stylesheet" href="../../assets/css/layout.css">
-<link rel="stylesheet" href="../../assets/css/dark.css">
+<link rel="preload" as="image" href="../../assets/img/banners/articles-900.webp" media="(max-width: 56rem)" fetchpriority="high">
+<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" media="not all and (max-width: 56rem)" fetchpriority="high">
+<style>@media (max-width: 56rem){.page-hero__media{background-image:url('../../assets/img/banners/articles-900.webp')!important}}</style>
+<link rel="stylesheet" href="../../assets/css/site.css?v=5eb72a8ba1">
 
 <meta name="google-site-verification" content="BkVfWbF9-2Gq63BB-fKXLsykTKkSFoa9F9Bt4Tlxnro">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2VLTT89JM7"></script>
@@ -86,7 +85,7 @@
 <header class="site-header" id="siteHeader">
   <div class="wrap site-header__inner">
     <a class="wordmark" href="../" aria-label="La Rose Wellness Hub">
-      <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="" width="280" height="242">
+      <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="56px" alt="" width="280" height="242">
       <span class="wordmark__text">
         <b>La Rose Wellness Hub</b>
         <i>Multi-specialty medical centre</i>
@@ -299,7 +298,7 @@
   <div class="drawer__panel glass" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="drawer__head">
       <a class="wordmark" href="../">
-        <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="La Rose Wellness Hub" width="280" height="242">
+        <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="48px" alt="La Rose Wellness Hub" width="280" height="242">
       </a>
       <div class="drawer__head-actions">
         <a class="lang-switch lang-switch--drawer" href="../../ar/articles/faq-internal-medicine" lang="ar" hreflang="ar"
@@ -792,7 +791,7 @@
     <div class="site-footer__grid">
 
       <div class="site-footer__brand">
-        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" alt="La Rose Wellness Hub" width="280" height="242" loading="lazy" decoding="async">
+        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" srcset="../../assets/img/logo/larose-wordmark-white-120.webp 120w, ../../assets/img/logo/larose-wordmark-white-280.webp 280w" sizes="66px" alt="La Rose Wellness Hub" width="280" height="242" loading="lazy" decoding="async">
         <p class="site-footer__blurb">La Rose Wellness Hub is a multi-specialty medical centre in New Maadi, Cairo. Clinical nutrition, internal medicine and endoscopy, general and bariatric surgery, dermatology and paediatrics, on a plan built from an actual consultation.</p>
         <div class="social">
           <a href="https://www.instagram.com/larose_wellnesshub/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false"><rect x="3" y="3" width="14" height="14" rx="4.2" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="10" cy="10" r="3.3" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="14.1" cy="5.9" r="1"/></svg></a>

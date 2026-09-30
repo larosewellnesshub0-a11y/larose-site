@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>مستجدات علمية | عيادات لاروز التخصصية</title>
 <meta name="description" content="ملخصات هادية لمستجدات طبية مستقرة، مع روابط المصادر ومعنى التحديث ليك كعميل.">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -46,12 +47,10 @@
 
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/PlexArabic-400.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="../../assets/fonts/Sondos-400.woff2" crossorigin>
-<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" fetchpriority="high">
-<link rel="stylesheet" href="../../assets/css/tokens.css">
-<link rel="stylesheet" href="../../assets/css/base.css">
-<link rel="stylesheet" href="../../assets/css/components.css">
-<link rel="stylesheet" href="../../assets/css/layout.css">
-<link rel="stylesheet" href="../../assets/css/dark.css">
+<link rel="preload" as="image" href="../../assets/img/banners/articles-900.webp" media="(max-width: 56rem)" fetchpriority="high">
+<link rel="preload" as="image" href="../../assets/img/banners/articles.webp" media="not all and (max-width: 56rem)" fetchpriority="high">
+<style>@media (max-width: 56rem){.page-hero__media{background-image:url('../../assets/img/banners/articles-900.webp')!important}}</style>
+<link rel="stylesheet" href="../../assets/css/site.css?v=5eb72a8ba1">
 
 <meta name="google-site-verification" content="BkVfWbF9-2Gq63BB-fKXLsykTKkSFoa9F9Bt4Tlxnro">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2VLTT89JM7"></script>
@@ -86,7 +85,7 @@
 <header class="site-header" id="siteHeader">
   <div class="wrap site-header__inner">
     <a class="wordmark" href="../" aria-label="عيادات لاروز التخصصية">
-      <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="" width="280" height="242">
+      <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="56px" alt="" width="280" height="242">
       <span class="wordmark__text">
         <b>عيادات لاروز التخصصية</b>
         <i>مركز طبي متعدد التخصصات</i>
@@ -299,7 +298,7 @@
   <div class="drawer__panel glass" role="dialog" aria-modal="true" aria-label="القائمة">
     <div class="drawer__head">
       <a class="wordmark" href="../">
-        <img src="../../assets/img/logo/larose-wordmark-280.webp" alt="عيادات لاروز التخصصية" width="280" height="242">
+        <img src="../../assets/img/logo/larose-wordmark-280.webp" srcset="../../assets/img/logo/larose-wordmark-120.webp 120w, ../../assets/img/logo/larose-wordmark-280.webp 280w" sizes="48px" alt="عيادات لاروز التخصصية" width="280" height="242">
       </a>
       <div class="drawer__head-actions">
         <a class="lang-switch lang-switch--drawer" href="../../en/articles/updates" lang="en" hreflang="en"
@@ -444,7 +443,7 @@
     <div class="stack">
       <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/responsive-complementary-feeding.webp" alt="صورة توضيحية لموضوع: الأكل التكميلي للرضع: استجابة للطفل مش إجبار" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/responsive-complementary-feeding.webp" srcset="../../assets/img/articles/responsive-complementary-feeding-600.webp 600w, ../../assets/img/articles/responsive-complementary-feeding-900.webp 900w, ../../assets/img/articles/responsive-complementary-feeding.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: الأكل التكميلي للرضع: استجابة للطفل مش إجبار" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -472,7 +471,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/biotin-before-blood-tests.webp" alt="صورة توضيحية لموضوع: البيوتين قبل التحاليل: ليه لازم تقول للمعمل؟" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/biotin-before-blood-tests.webp" srcset="../../assets/img/articles/biotin-before-blood-tests-600.webp 600w, ../../assets/img/articles/biotin-before-blood-tests-900.webp 900w, ../../assets/img/articles/biotin-before-blood-tests.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: البيوتين قبل التحاليل: ليه لازم تقول للمعمل؟" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -503,7 +502,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/diabetes-review-whole-health.webp" alt="صورة توضيحية لموضوع: متابعة السكر: أكتر من HbA1c" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/diabetes-review-whole-health.webp" srcset="../../assets/img/articles/diabetes-review-whole-health-600.webp 600w, ../../assets/img/articles/diabetes-review-whole-health-900.webp 900w, ../../assets/img/articles/diabetes-review-whole-health.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: متابعة السكر: أكتر من HbA1c" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -531,7 +530,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/body-contouring-safety-first.webp" alt="صورة توضيحية لموضوع: أمان نحت الجسم غير الجراحي: التقنيات والمضاعفات وموانع الاستخدام" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/body-contouring-safety-first.webp" srcset="../../assets/img/articles/body-contouring-safety-first-600.webp 600w, ../../assets/img/articles/body-contouring-safety-first-900.webp 900w, ../../assets/img/articles/body-contouring-safety-first.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: أمان نحت الجسم غير الجراحي: التقنيات والمضاعفات وموانع الاستخدام" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -561,7 +560,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/obesity-care-beyond-bmi.webp" alt="صورة توضيحية لموضوع: تحديث علمي: رعاية السمنة ما تقفش عند مؤشر كتلة الجسم" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/obesity-care-beyond-bmi.webp" srcset="../../assets/img/articles/obesity-care-beyond-bmi-600.webp 600w, ../../assets/img/articles/obesity-care-beyond-bmi-900.webp 900w, ../../assets/img/articles/obesity-care-beyond-bmi.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: تحديث علمي: رعاية السمنة ما تقفش عند مؤشر كتلة الجسم" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -593,7 +592,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/muscle-assessment-in-nutrition-care.webp" alt="صورة توضيحية لموضوع: قياس كتلة العضلات وقوتها في متابعة التغذية" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/muscle-assessment-in-nutrition-care.webp" srcset="../../assets/img/articles/muscle-assessment-in-nutrition-care-600.webp 600w, ../../assets/img/articles/muscle-assessment-in-nutrition-care-900.webp 900w, ../../assets/img/articles/muscle-assessment-in-nutrition-care.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: قياس كتلة العضلات وقوتها في متابعة التغذية" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -621,7 +620,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/supplements-are-targeted-not-a-default.webp" alt="صورة توضيحية لموضوع: المكملات الغذائية حسب الحاجة، مش روتين للجميع" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/supplements-are-targeted-not-a-default.webp" srcset="../../assets/img/articles/supplements-are-targeted-not-a-default-600.webp 600w, ../../assets/img/articles/supplements-are-targeted-not-a-default-900.webp 900w, ../../assets/img/articles/supplements-are-targeted-not-a-default.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: المكملات الغذائية حسب الحاجة، مش روتين للجميع" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -649,7 +648,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/vitamin-b12-in-plant-based-eating.webp" alt="صورة توضيحية لموضوع: فيتامين ب12 للنباتيين: مصدر ثابت ومتابعة واعية" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/vitamin-b12-in-plant-based-eating.webp" srcset="../../assets/img/articles/vitamin-b12-in-plant-based-eating-600.webp 600w, ../../assets/img/articles/vitamin-b12-in-plant-based-eating-900.webp 900w, ../../assets/img/articles/vitamin-b12-in-plant-based-eating.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: فيتامين ب12 للنباتيين: مصدر ثابت ومتابعة واعية" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -677,7 +676,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/weight-medicines-are-not-a-short-course.webp" alt="صورة توضيحية لموضوع: تحديث علمي: أدوية تنظيم الشهية مش كورس قصير له نهاية واحدة للجميع" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/weight-medicines-are-not-a-short-course.webp" srcset="../../assets/img/articles/weight-medicines-are-not-a-short-course-600.webp 600w, ../../assets/img/articles/weight-medicines-are-not-a-short-course-900.webp 900w, ../../assets/img/articles/weight-medicines-are-not-a-short-course.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: تحديث علمي: أدوية تنظيم الشهية مش كورس قصير له نهاية واحدة للجميع" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -709,7 +708,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/movement-benefits-beyond-the-scale.webp" alt="صورة توضيحية لموضوع: تحديث علمي: الحركة لها مكاسب صحية حتى لو الميزان ما اتحركش كتير" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/movement-benefits-beyond-the-scale.webp" srcset="../../assets/img/articles/movement-benefits-beyond-the-scale-600.webp 600w, ../../assets/img/articles/movement-benefits-beyond-the-scale-900.webp 900w, ../../assets/img/articles/movement-benefits-beyond-the-scale.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: تحديث علمي: الحركة لها مكاسب صحية حتى لو الميزان ما اتحركش كتير" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -739,7 +738,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/mesotherapy-needs-an-ingredient-level-check.webp" alt="صورة توضيحية لموضوع: الميزوثيرابي: لو النتيجة مقلقاك، إيه اللي محتاج كشف بسرعة؟" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/mesotherapy-needs-an-ingredient-level-check.webp" srcset="../../assets/img/articles/mesotherapy-needs-an-ingredient-level-check-600.webp 600w, ../../assets/img/articles/mesotherapy-needs-an-ingredient-level-check-900.webp 900w, ../../assets/img/articles/mesotherapy-needs-an-ingredient-level-check.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: الميزوثيرابي: لو النتيجة مقلقاك، إيه اللي محتاج كشف بسرعة؟" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -767,7 +766,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/blood-pressure-needs-a-pattern.webp" alt="صورة توضيحية لموضوع: ارتفاع الضغط: ليه قراءة واحدة مش كفاية ومحتاج نمط قراءات؟" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/blood-pressure-needs-a-pattern.webp" srcset="../../assets/img/articles/blood-pressure-needs-a-pattern-600.webp 600w, ../../assets/img/articles/blood-pressure-needs-a-pattern-900.webp 900w, ../../assets/img/articles/blood-pressure-needs-a-pattern.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: ارتفاع الضغط: ليه قراءة واحدة مش كفاية ومحتاج نمط قراءات؟" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -795,7 +794,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/diabetes-remission-is-not-cure.webp" alt="صورة توضيحية لموضوع: التعافي من السكر النوع التاني مش شفاء نهائي" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/diabetes-remission-is-not-cure.webp" srcset="../../assets/img/articles/diabetes-remission-is-not-cure-600.webp 600w, ../../assets/img/articles/diabetes-remission-is-not-cure-900.webp 900w, ../../assets/img/articles/diabetes-remission-is-not-cure.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: التعافي من السكر النوع التاني مش شفاء نهائي" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -823,7 +822,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/coeliac-testing-before-gluten-free-diet.webp" alt="صورة توضيحية لموضوع: تحليل السيلياك قبل منع الجلوتين: ليه الترتيب مهم؟" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/coeliac-testing-before-gluten-free-diet.webp" srcset="../../assets/img/articles/coeliac-testing-before-gluten-free-diet-600.webp 600w, ../../assets/img/articles/coeliac-testing-before-gluten-free-diet-900.webp 900w, ../../assets/img/articles/coeliac-testing-before-gluten-free-diet.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: تحليل السيلياك قبل منع الجلوتين: ليه الترتيب مهم؟" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -851,7 +850,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/fatty-liver-fibrosis-needs-its-own-assessment.webp" alt="صورة توضيحية لموضوع: دهون الكبد ولا تليّف؟ السونار يقدر يقول إيه، وإيه الخطوة الجاية؟" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/fatty-liver-fibrosis-needs-its-own-assessment.webp" srcset="../../assets/img/articles/fatty-liver-fibrosis-needs-its-own-assessment-600.webp 600w, ../../assets/img/articles/fatty-liver-fibrosis-needs-its-own-assessment-900.webp 900w, ../../assets/img/articles/fatty-liver-fibrosis-needs-its-own-assessment.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: دهون الكبد ولا تليّف؟ السونار يقدر يقول إيه، وإيه الخطوة الجاية؟" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -879,7 +878,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/silent-gallstones-usually-need-no-treatment.webp" alt="صورة توضيحية لموضوع: تحديث علمي: حصوات المرارة الساكتة غالباً ما تحتاجش علاج" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/silent-gallstones-usually-need-no-treatment.webp" srcset="../../assets/img/articles/silent-gallstones-usually-need-no-treatment-600.webp 600w, ../../assets/img/articles/silent-gallstones-usually-need-no-treatment-900.webp 900w, ../../assets/img/articles/silent-gallstones-usually-need-no-treatment.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: تحديث علمي: حصوات المرارة الساكتة غالباً ما تحتاجش علاج" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -907,7 +906,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/surgical-checks-are-a-team-pause.webp" alt="صورة توضيحية لموضوع: تحديث علمي: تكرار أسئلة الأمان قبل العملية مقصود" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/surgical-checks-are-a-team-pause.webp" srcset="../../assets/img/articles/surgical-checks-are-a-team-pause-600.webp 600w, ../../assets/img/articles/surgical-checks-are-a-team-pause-900.webp 900w, ../../assets/img/articles/surgical-checks-are-a-team-pause.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: تحديث علمي: تكرار أسئلة الأمان قبل العملية مقصود" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -935,7 +934,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/bariatric-assessment-is-multidisciplinary.webp" alt="صورة توضيحية لموضوع: تقييم جراحة السمنة متعدد التخصصات: كل عضو في الفريق بيراجع إيه؟" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/bariatric-assessment-is-multidisciplinary.webp" srcset="../../assets/img/articles/bariatric-assessment-is-multidisciplinary-600.webp 600w, ../../assets/img/articles/bariatric-assessment-is-multidisciplinary-900.webp 900w, ../../assets/img/articles/bariatric-assessment-is-multidisciplinary.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: تقييم جراحة السمنة متعدد التخصصات: كل عضو في الفريق بيراجع إيه؟" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -966,7 +965,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/bariatric-follow-up-is-lifelong.webp" alt="صورة توضيحية لموضوع: متابعة جراحة السمنة طول العمر: ليه ما بتنتهيش بعد نزول الوزن؟" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/bariatric-follow-up-is-lifelong.webp" srcset="../../assets/img/articles/bariatric-follow-up-is-lifelong-600.webp 600w, ../../assets/img/articles/bariatric-follow-up-is-lifelong-900.webp 900w, ../../assets/img/articles/bariatric-follow-up-is-lifelong.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: متابعة جراحة السمنة طول العمر: ليه ما بتنتهيش بعد نزول الوزن؟" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -997,7 +996,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/acne-care-is-gentle-not-aggressive.webp" alt="صورة توضيحية لموضوع: حب الشباب محتاج عناية هادية مش عنيفة" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/acne-care-is-gentle-not-aggressive.webp" srcset="../../assets/img/articles/acne-care-is-gentle-not-aggressive-600.webp 600w, ../../assets/img/articles/acne-care-is-gentle-not-aggressive-900.webp 900w, ../../assets/img/articles/acne-care-is-gentle-not-aggressive.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: حب الشباب محتاج عناية هادية مش عنيفة" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -1032,7 +1031,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/cellulite-is-a-skin-structure-feature.webp" alt="صورة توضيحية لموضوع: السيلوليت بنية طبيعية في الجلد: الأسباب والتشريح وحدود العلاج" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/cellulite-is-a-skin-structure-feature.webp" srcset="../../assets/img/articles/cellulite-is-a-skin-structure-feature-600.webp 600w, ../../assets/img/articles/cellulite-is-a-skin-structure-feature-900.webp 900w, ../../assets/img/articles/cellulite-is-a-skin-structure-feature.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: السيلوليت بنية طبيعية في الجلد: الأسباب والتشريح وحدود العلاج" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -1062,7 +1061,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/child-growth-is-a-trajectory.webp" alt="صورة توضيحية لموضوع: تحديث علمي: نمو الطفل خط بيتتابع، مش مقارنة بصورة واحدة" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/child-growth-is-a-trajectory.webp" srcset="../../assets/img/articles/child-growth-is-a-trajectory-600.webp 600w, ../../assets/img/articles/child-growth-is-a-trajectory-900.webp 900w, ../../assets/img/articles/child-growth-is-a-trajectory.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: تحديث علمي: نمو الطفل خط بيتتابع، مش مقارنة بصورة واحدة" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -1091,7 +1090,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/ultrasound-uses-sound-not-xrays.webp" alt="صورة توضيحية لموضوع: السونار: موجات صوت، بس ليه سؤال محدد" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/ultrasound-uses-sound-not-xrays.webp" srcset="../../assets/img/articles/ultrasound-uses-sound-not-xrays-600.webp 600w, ../../assets/img/articles/ultrasound-uses-sound-not-xrays-900.webp 900w, ../../assets/img/articles/ultrasound-uses-sound-not-xrays.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: السونار: موجات صوت، بس ليه سؤال محدد" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -1119,7 +1118,7 @@
       </article>
 <article class="card" data-reveal>
         <div class="card__media arch arch--wide">
-          <img src="../../assets/img/articles/normal-ultrasound-does-not-end-assessment.webp" alt="صورة توضيحية لموضوع: السونار طبيعي ولسه البطن بتوجعك: النتيجة دي معناها إيه والخطوة الجاية إيه؟" width="600" height="375" loading="lazy" decoding="async">
+          <img src="../../assets/img/articles/normal-ultrasound-does-not-end-assessment.webp" srcset="../../assets/img/articles/normal-ultrasound-does-not-end-assessment-600.webp 600w, ../../assets/img/articles/normal-ultrasound-does-not-end-assessment-900.webp 900w, ../../assets/img/articles/normal-ultrasound-does-not-end-assessment.webp 1200w" sizes="(min-width: 55rem) 49rem, calc(100vw - clamp(1.15rem, 0.6rem + 2.6vw, 3rem) - clamp(1.15rem, 0.6rem + 2.6vw, 3rem))" alt="صورة توضيحية لموضوع: السونار طبيعي ولسه البطن بتوجعك: النتيجة دي معناها إيه والخطوة الجاية إيه؟" width="600" height="375" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <div class="cluster"><span class="chip">مستجدات علمية</span></div>
@@ -1184,7 +1183,7 @@
     <div class="site-footer__grid">
 
       <div class="site-footer__brand">
-        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" alt="عيادات لاروز التخصصية" width="280" height="242" loading="lazy" decoding="async">
+        <img src="../../assets/img/logo/larose-wordmark-white-280.webp" srcset="../../assets/img/logo/larose-wordmark-white-120.webp 120w, ../../assets/img/logo/larose-wordmark-white-280.webp 280w" sizes="66px" alt="عيادات لاروز التخصصية" width="280" height="242" loading="lazy" decoding="async">
         <p class="site-footer__blurb">عيادات لاروز التخصصية، مركز طبي متعدد التخصصات في المعادي الجديدة. التغذية العلاجية، الباطنة والمناظير، الجراحة العامة وجراحات السمنة، الجلدية، وطب الأطفال، بخطة مبنية على كشف حقيقي.</p>
         <div class="social">
           <a href="https://www.instagram.com/larose_wellnesshub/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" focusable="false"><rect x="3" y="3" width="14" height="14" rx="4.2" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="10" cy="10" r="3.3" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="14.1" cy="5.9" r="1"/></svg></a>
