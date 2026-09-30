@@ -649,7 +649,7 @@ export function page(opts) {
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(metaDescription)}">
-<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="robots" content="${opts.noindex ? "noindex,follow" : "index,follow,max-image-preview:large"}">
 <meta name="theme-color" content="#8E8B63">
 <!-- Light and dark themes (2026-09-30). The site opens in light mode; dark
      is only used once a visitor picks it with the header switch (user

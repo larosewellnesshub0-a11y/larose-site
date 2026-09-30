@@ -111,7 +111,7 @@ ${jsonLd({ c, locale: "ar", pagePath: "index.html", canonicalUrl: `${base}/` })}
 </head>
 <body>
   <div class="gate">
-    <h1 class="visually-hidden">${esc(title)}</h1>
+    <h1 class="visually-hidden">${esc(t(s.brand.name, "ar"))}</h1>
     <img src="assets/img/logo/larose-wordmark-white.png" alt="${esc(t(s.brand.name, "en"))}" width="984" height="849">
     <!-- Arabic is the default; this body only shows if the script is blocked,
          so it offers one link rather than a choice. -->
@@ -165,7 +165,9 @@ function sitemap(c, paths) {
     return null;
   };
   const urls = paths
-    .filter((p) => p.endsWith(".html") && !p.includes("/404"))
+    // Every 404 page, the root one included, stays out of the sitemap: it is
+    // noindex, and Search Console reported it as "Excluded by noindex".
+    .filter((p) => p.endsWith(".html") && !/(^|\/)404\.html$/.test(p))
     .map((p) => {
       const localeMatch = /^(ar|en)\/(.*)$/.exec(p);
       const withinLocale = localeMatch ? localeMatch[2] : "index.html";

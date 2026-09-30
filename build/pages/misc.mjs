@@ -197,6 +197,8 @@ function notFoundPage({ c, locale }) {
       description: t({ ar: "الصفحة المطلوبة غير موجودة.", en: "The requested page could not be found." }, locale),
       active: null,
       body,
+      // A "page not found" page must never be indexed (soft 404).
+      noindex: true,
     }),
   };
 }
