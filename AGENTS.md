@@ -92,7 +92,9 @@ This is a generated bilingual static site. Work from source, not from output.
     Rheumatology articles by shimaa-sherif are reviewed by mohab-ashraf.
     shimaa-sherif may review articles by mohab-ashraf or alyaa-abu-taleb.
     Leave her portrait empty until the clinic supplies a photo. Never use a
-    generated image for it.
+    generated image for it. New articles set `author` and `reviewedBy` to
+    different clinicians from these pairs. `_project/scratch/check_new_article.py`
+    enforces this (the older phase-1 brief's "author = reviewer" is superseded).
 18. **Another session also pushes to `origin/main`.** Before every push, run
     `git fetch` and then `git pull --rebase --autostash`. Rebuild if the
     upstream changes touched `content/` or `build/`. Never force-push.
