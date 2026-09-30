@@ -26,6 +26,18 @@ jobs:
         run: node build/build.mjs
       - name: Validate
         run: node tools/validate.mjs
+      # Semrush reports every stylesheet and script as unminified (598 checks,
+      # 2026-09-30). The sources stay readable and the generator stays
+      # dependency-free; only the published copies are minified, after
+      # validation. The scripts are self-contained IIFEs with no globals read
+      # by inline code, and --charset=utf8 keeps Arabic strings as text.
+      - name: Minify published CSS and JS
+        run: |
+          for f in site/assets/css/*.css site/assets/js/*.js; do
+            npx --yes esbuild@0.25.12 "$f" --minify --charset=utf8 \
+              --log-level=warning --outfile="$f" --allow-overwrite
+          done
+          for f in site/assets/js/*.js; do node --check "$f"; done
       - name: Add the dashboard to the published tree
         run: |
           rm -rf site/dashboard

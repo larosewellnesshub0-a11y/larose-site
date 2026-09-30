@@ -195,7 +195,14 @@ export function faqList({ c, locale, items, idPrefix = "faq", sourceSlug = "", s
 
 /** FAQPage JSON-LD for a set of Q&As. */
 export function faqSchema(items, locale) {
-  const complete = (items || []).filter((f) => t(f?.q, locale) && t(f?.a, locale));
+  // A question listed twice makes the FAQPage invalid, so keep the first.
+  const seen = new Set();
+  const complete = (items || []).filter((f) => {
+    const q = t(f?.q, locale);
+    if (!q || !t(f?.a, locale) || seen.has(q)) return false;
+    seen.add(q);
+    return true;
+  });
   if (!complete.length) return null;
   return {
     "@context": "https://schema.org",

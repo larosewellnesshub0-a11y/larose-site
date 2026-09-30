@@ -90,7 +90,10 @@ function rootIndex(c) {
 <link rel="icon" href="assets/img/logo/favicon-192.png" type="image/png" sizes="192x192">
 <link rel="icon" href="assets/img/logo/favicon-96.png" type="image/png" sizes="96x96">
 <link rel="apple-touch-icon" href="assets/img/logo/apple-touch-icon.png">
-<meta http-equiv="refresh" content="0; url=ar/">
+<!-- GitHub Pages cannot answer / with a 301, so the script sends visitors
+     (and Googlebot, which renders it) to Arabic. The meta refresh that used to
+     sit beside it was dropped on 2026-09-30: Semrush reports it as an error,
+     and a visitor without scripts gets both language links in the body. -->
 <script>location.replace("ar/" + location.search + location.hash);</script>
 ${trackingHead(c)}
 <link rel="stylesheet" href="assets/css/tokens.css">
@@ -109,8 +112,8 @@ ${jsonLd({ c, locale: "ar", pagePath: "index.html", canonicalUrl: `${base}/` })}
   <div class="gate">
     <h1 class="visually-hidden">${esc(title)}</h1>
     <img src="assets/img/logo/larose-wordmark-white.png" alt="${esc(t(s.brand.name, "en"))}" width="984" height="849">
-    <!-- Arabic is the default; this body only shows if both the script and the
-         meta refresh are blocked, so it offers one link rather than a choice. -->
+    <!-- Arabic is the default; this body only shows if the script is blocked,
+         so it offers one link rather than a choice. -->
     <p><a class="btn btn--on-dark btn--lg" href="ar/" lang="ar" dir="rtl">ادخل للموقع</a></p>
     <p>${esc(t(s.brand.kind, "ar"))} · <a href="en/" lang="en" dir="ltr" style="color:inherit">English</a></p>
   </div>

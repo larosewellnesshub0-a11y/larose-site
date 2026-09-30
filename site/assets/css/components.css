@@ -1014,7 +1014,7 @@
     bottom: 0;
     z-index: var(--z-fab, 60);
     display: grid;
-    grid-template-columns: 1fr 1fr 1.25fr;
+    grid-template-columns: 1fr 1fr 1.25fr 1fr;
     gap: .4rem;
     padding: .5rem .6rem calc(.5rem + env(safe-area-inset-bottom, 0px));
     background: rgba(251, 249, 244, .88);
@@ -1047,6 +1047,20 @@
   }
   /* The English booking CTA is intentionally a compact single-line label. */
   .action-bar__item--cta span { white-space: nowrap; }
+  /* Menu opens the page drawer from the thumb zone (user request 2026-09-30).
+     It is a <button>, so it drops the UA button chrome to match the links. */
+  .action-bar__item--menu {
+    border: 0;
+    font: inherit;
+    font-size: .72rem;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .action-bar__item--menu[aria-expanded="true"] { background: var(--olive-100); }
+  /* The bar carries the menu button now, so the header burger would be a
+     second copy of the same control. */
+  .site-header .burger { display: none; }
 
   /* The floating buttons and the bar would stack on top of each other. */
   .floating-actions { display: none; }

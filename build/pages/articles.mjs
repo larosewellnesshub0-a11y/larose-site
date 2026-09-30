@@ -96,6 +96,9 @@ const COPY = {
       href: "articles/tips.html",
     },
     faq: {
+      // "FAQ" alone is the anchor Semrush reports as non-descriptive, so the
+      // card links with the page's own title.
+      title: { ar: "الأسئلة الشائعة في المركز المعرفي", en: "Medical questions and answers" },
       text: { ar: "إجابات سريعة على أكتر أسئلة بتوصل لكل تخصص.", en: "Quick answers to the questions each specialty hears most often." },
       icon: "info",
       href: "articles/faq.html",
@@ -563,7 +566,7 @@ function hubSectionCard({ c, locale, depth, key, card }) {
   return `<article class="card" data-reveal>
     <div class="card__body">
       <span class="chip">${icon(card.icon)} ${esc(labels[key])}</span>
-      <h2 class="card__title"><a class="card__link" href="${esc(link(depth, card.href))}">${esc(labels[key])}</a></h2>
+      <h2 class="card__title"><a class="card__link" href="${esc(link(depth, card.href))}">${esc(card.title ? t(card.title, locale) : labels[key])}</a></h2>
       <p class="card__text">${esc(t(card.text, locale))}</p>
       <div class="card__foot"><span class="link-cta">${esc(t(c.site.ui.learnMore, locale))} ${icon("arrow")}</span></div>
     </div>
@@ -927,7 +930,6 @@ function faqPage({ c, locale, entries }) {
     en: "Medical questions and answers",
   }, locale);
   const groups = faqGroups(c, entries);
-  const allFaq = groups.flatMap((group) => group.items);
   const description = t({
     ar: "إجابات مجمعة على الأسئلة اللي بتتكرر في تخصصات لاروز ومحتوى المركز المعرفي.",
     en: "Collected answers to the questions asked most often across La Rose specialties and Knowledge Centre content.",
@@ -952,7 +954,11 @@ ${ctaBand({ c, locale, depth })}`;
     path: `${locale}/articles/faq.html`,
     html: page({
       c, locale, depth, pagePath: "articles/faq.html", title,
-      description, active: "articles", body, schema: faqSchema(allFaq, locale),
+      description, active: "articles", body,
+      // No FAQPage here: every question on this hub is already marked up on
+      // its own specialty or article page, and Google wants one marked-up
+      // instance per question. 1,392 duplicated questions also made this the
+      // page Semrush reported for structured-data errors.
     }),
   };
 }
@@ -1000,10 +1006,17 @@ function detailSchemas({ c, locale, entry, doctor, reviewer, pagePath }) {
     .map((source) => t(source?.url, locale) || t(source?.url, "en"))
     .filter(Boolean);
   const keywords = ta(entry?.tags, locale).filter(Boolean);
-  const about = [
+  // `about` names the specialties the entry covers. The category slug is
+  // usually also listed in `specialties`, so the set keeps one of each, and
+  // each slug is emitted as the specialty's name rather than a bare slug.
+  const about = [...new Set([
     entryCategorySlug(entry),
     ...ta(entry?.specialties, "en"),
-  ].filter(Boolean);
+  ].filter(Boolean))].map((slug) => {
+    const specialty = (c.specialties || []).find((sp) => t(sp.slug, "en") === slug);
+    const name = specialty ? t(specialty.name, locale) : "";
+    return name ? { "@type": "Thing", name } : null;
+  }).filter(Boolean);
   const person = author ? {
     "@type": "Person",
     name: author,
@@ -1314,7 +1327,16 @@ ${ctaBand({ c, locale, depth })}`;
 
   const schema = detailSchemas({ c, locale, entry, doctor, reviewer, pagePath });
   const faqBlock = faqSchema(faq, locale);
-  if (faqBlock) schema.push(faqBlock);
+  // Google allows one FAQPage per page. A Q&A entry already carries one for
+  // its own question, so the entry's FAQ list joins that node instead of
+  // adding a second FAQPage (Semrush and Rich Results flag the duplicate).
+  const qaFaq = schema.find((node) => node?.["@type"] === "FAQPage");
+  if (faqBlock && qaFaq) {
+    const seen = new Set(qaFaq.mainEntity.map((q) => q.name));
+    qaFaq.mainEntity.push(...faqBlock.mainEntity.filter((q) => !seen.has(q.name)));
+  } else if (faqBlock) {
+    schema.push(faqBlock);
+  }
 
   return {
     path: `${locale}/${pagePath}`,

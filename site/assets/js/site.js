@@ -160,7 +160,7 @@
      Mobile drawer
      --------------------------------------------------------------------- */
   var drawer = document.getElementById("drawer");
-  var burgers = document.querySelectorAll(".burger");
+  var burgers = document.querySelectorAll(".burger, [data-drawer-toggle]");
   var lastFocus = null;
 
   function openDrawer() {
