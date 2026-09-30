@@ -1845,12 +1845,12 @@
 .promo__price-label {
   margin: 1rem 0 0;
   text-align: center;
-  font-size: var(--t-sm);
-  font-weight: 600;
-  letter-spacing: .02em;
-  color: var(--ink-muted);
+  font-size: clamp(1.25rem, 1.1rem + .6vw, 1.5rem);
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--ink-strong);
 }
-.promo__price-label + .promo__price { margin-top: .35rem; }
+.promo__price-label + .promo__price { margin-top: .5rem; }
 .promo__price {
   display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: .2rem 1rem;
   margin-top: 1rem;
