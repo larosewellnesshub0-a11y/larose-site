@@ -1841,6 +1841,23 @@
 .promo__lead { display: block; white-space: nowrap; font-size: 1.12em; }
 .promo__rest { display: block; }
 .promo__brand { white-space: nowrap; unicode-bidi: isolate; }
+/* Says what the figure is for; sits right above it. */
+.promo__price-label {
+  margin: 1rem 0 0;
+  text-align: center;
+  font-size: clamp(1.25rem, 1.1rem + .6vw, 1.5rem);
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--ink-strong);
+}
+.promo__price-label + .promo__price { margin-top: .5rem; }
+.promo__extra {
+  margin: .5rem 0 0;
+  text-align: center;
+  font-weight: 700;
+  color: var(--rose-700);
+}
+[data-theme="dark"] .promo__extra { color: var(--rose-300); }
 .promo__price {
   display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: .2rem 1rem;
   margin-top: 1rem;
@@ -1878,7 +1895,7 @@
   background: linear-gradient(180deg, var(--champagne-300), var(--champagne-500));
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .6);
 }
-.promo__body { margin-top: .8rem; font-size: var(--t-sm); line-height: 1.65; color: var(--ink); }
+.promo__body { margin-top: .8rem; font-size: clamp(1.05rem, 1rem + .3vw, 1.2rem); font-weight: 600; line-height: 1.6; color: var(--ink-strong); }
 .promo__terms { margin-top: .4rem; font-size: var(--t-xs); color: var(--ink-muted); }
 .promo__actions { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; margin-top: 1.15rem; }
 .promo__actions .btn { justify-content: center; min-height: 2.95rem; font-size: var(--t-sm); padding-inline: .8em; }

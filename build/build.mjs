@@ -298,7 +298,7 @@ async function main() {
     const p = c.site.promo;
     const pick = (locale) => ({
       eyebrow: t(p.eyebrow, locale), title: t(p.title, locale), saving: t(p.saving, locale),
-      titleLead: t(p.titleLead, locale), titleRest: t(p.titleRest, locale),
+      titleLead: t(p.titleLead, locale), titleRest: t(p.titleRest, locale), priceLabel: t(p.priceLabel, locale), extra: t(p.extra, locale),
       terms: t(p.terms, locale), book: t(p.book, locale), ask: t(p.ask, locale), close: t(p.close, locale),
       now: t(p.price.now, locale), was: t(p.price.was, locale), body: t(p.price.body, locale),
       whatsappText: t(p.price.whatsappText, locale), bookingNote: t(p.price.bookingNote, locale),

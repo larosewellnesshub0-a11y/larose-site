@@ -908,6 +908,7 @@
     title.appendChild(el("span", "promo__lead", copy.titleLead || copy.title));
     if (copy.titleRest) title.appendChild(withBrand(el("span", "promo__rest"), copy.titleRest));
     frag.appendChild(title);
+    if (copy.priceLabel) frag.appendChild(el("p", "promo__price-label", copy.priceLabel));
     var price = el("div", "promo__price");
     var now = el("span", "promo__now", copy.now);
     var was = el("s", "promo__was", copy.was);
@@ -916,6 +917,7 @@
     frag.appendChild(price);
     frag.appendChild(el("p", "promo__save-row")).appendChild(el("span", "promo__save", copy.saving));
     frag.appendChild(withBrand(el("p", "promo__body"), copy.body));
+    if (copy.extra) frag.appendChild(el("p", "promo__extra", copy.extra));
     frag.appendChild(el("p", "promo__terms", copy.terms));
     return frag;
   }
