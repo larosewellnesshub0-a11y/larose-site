@@ -235,3 +235,15 @@
   color: #6E6C55;
 }
 [data-theme="dark"] .doctor-list .ico { color: var(--rose-500); }
+
+/* ---- Website-offer card ----------------------------------------------------- */
+[data-theme="dark"] .promo { background: var(--gloss-bg), linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)); }
+[data-theme="dark"] .promo__close,
+[data-theme="dark"] .promo__ask {
+  background: rgba(255, 255, 255, .08);
+  border-color: rgba(246, 244, 236, .18);
+  color: var(--ink-strong);
+}
+[data-theme="dark"] .promo__eyebrow { color: var(--rose-300); }
+[data-theme="dark"] .promo__now { color: var(--rose-500); }
+[data-theme="dark"] .promo-applied { background: #2A1719; border-color: #5A3033; color: #F0C9CA; }

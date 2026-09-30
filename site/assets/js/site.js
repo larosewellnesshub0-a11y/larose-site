@@ -808,3 +808,154 @@
     input.addEventListener("blur", check);
     if (input.form) input.form.addEventListener("submit", check);
   });
+
+/* ---------------------------------------------------------------------------
+   Website-offer popup (2026-09-30)
+   Rules that keep it on the right side of Google's intrusive-interstitial
+   guidance and out of the visitor's way:
+   - never on arrival: only after `delaySeconds` on the site in this visit
+     AND some scrolling, so the visitor has already reached the content;
+   - a card, not a full-screen overlay: the page stays visible and usable;
+   - easy to close (button or Escape), then snoozed for `snoozeDays`, or for
+     `bookedSnoozeDays` after "Book now";
+   - the copy (the only prices on the site) is fetched from a data file,
+     never present in the page HTML, and /assets/data/ is not crawled.
+   --------------------------------------------------------------------------- */
+(function () {
+  "use strict";
+  var body = document.body;
+  var KEY_SNOOZE = "lr-promo-snooze-until";
+  var KEY_OFFER = "lr-promo-offer";
+  var KEY_T0 = "lr-promo-t0";
+  var KEY_SCROLLED = "lr-promo-scrolled";
+  function get(store, k) { try { return window[store].getItem(k); } catch (e) { return null; } }
+  function set(store, k, v) { try { window[store].setItem(k, v); } catch (e) {} }
+  function track(name) { try { window.LRTrack && window.LRTrack.event(name, { promo: "website-offer" }); } catch (e) {} }
+  var isAr = document.documentElement.lang === "ar";
+
+  /* Booking page: if the visitor came from the offer, say so above the form
+     and carry it into the WhatsApp message as a hidden field. */
+  if (body.hasAttribute("data-promo-booking")) {
+    var note = get("sessionStorage", KEY_OFFER);
+    var form = document.querySelector("form[data-whatsapp-form]");
+    if (note && form) {
+      var hidden = document.createElement("input");
+      hidden.type = "hidden"; hidden.name = "offer"; hidden.value = note;
+      form.appendChild(hidden);
+      var badge = document.createElement("p");
+      badge.className = "promo-applied";
+      badge.textContent = note;
+      form.insertBefore(badge, form.firstChild);
+    }
+    return;
+  }
+
+  var src = body.getAttribute("data-promo");
+  if (!src || !window.fetch) return;
+  var until = Number(get("localStorage", KEY_SNOOZE) || 0);
+  if (until && until > Date.now()) return;
+
+  if (!get("sessionStorage", KEY_T0)) set("sessionStorage", KEY_T0, String(Date.now()));
+  var t0 = Number(get("sessionStorage", KEY_T0)) || Date.now();
+  var cfg = null, shown = false, timer = null;
+
+  function onScroll() {
+    if (window.scrollY >= ((cfg && cfg.minScrollPx) || 400)) set("sessionStorage", KEY_SCROLLED, "1");
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+
+  function ready() {
+    if (!cfg || shown || document.hidden) return false;
+    if (cfg.endsOn && new Date(cfg.endsOn + "T23:59:59+02:00") < new Date()) return false;
+    if (Date.now() - t0 < (cfg.delaySeconds || 30) * 1000) return false;
+    if (get("sessionStorage", KEY_SCROLLED) !== "1") return false;
+    // Not while the menu card is open.
+    var drawer = document.getElementById("drawer");
+    if (drawer && drawer.classList.contains("is-open")) return false;
+    return true;
+  }
+
+  function snooze(days) {
+    set("localStorage", KEY_SNOOZE, String(Date.now() + days * 864e5));
+  }
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  function show() {
+    shown = true;
+    window.clearInterval(timer);
+    window.removeEventListener("scroll", onScroll);
+    var copy = cfg[isAr ? "ar" : "en"];
+    var card = el("aside", "promo");
+    card.setAttribute("role", "dialog");
+    card.setAttribute("aria-modal", "false");
+    card.setAttribute("aria-labelledby", "promo-title");
+
+    var close = el("button", "promo__close");
+    close.type = "button";
+    close.setAttribute("aria-label", copy.close);
+    close.innerHTML = '<svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5L5 15" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+
+    var head = el("div", "promo__head");
+    head.appendChild(el("p", "promo__eyebrow", copy.eyebrow));
+    var title = el("h2", "promo__title", copy.title);
+    title.id = "promo-title";
+    head.appendChild(title);
+
+    var price = el("div", "promo__price");
+    var now = el("span", "promo__now", copy.now);
+    var was = el("s", "promo__was", copy.was);
+    var save = el("span", "promo__save", copy.saving);
+    [now, was].forEach(function (n) { n.setAttribute("dir", "auto"); });
+    price.appendChild(now); price.appendChild(was); price.appendChild(save);
+
+    var text = el("p", "promo__body", copy.body);
+    var terms = el("p", "promo__terms", copy.terms);
+
+    var actions = el("div", "promo__actions");
+    var book = el("a", "btn btn--primary promo__book", copy.book);
+    book.href = body.getAttribute("data-promo-book") || "#";
+    var ask = el("a", "btn promo__ask", copy.ask);
+    var wa = body.getAttribute("data-promo-wa") || "";
+    ask.href = wa + (wa.indexOf("?") > -1 ? "&" : "?") + "text=" + encodeURIComponent(copy.whatsappText);
+    ask.target = "_blank"; ask.rel = "noopener";
+    actions.appendChild(book); actions.appendChild(ask);
+
+    card.appendChild(close); card.appendChild(head); card.appendChild(price);
+    card.appendChild(text); card.appendChild(terms); card.appendChild(actions);
+    body.appendChild(card);
+    window.requestAnimationFrame(function () { card.classList.add("is-in"); });
+    track("promo_view");
+
+    function dismiss(days) {
+      snooze(days);
+      card.classList.remove("is-in");
+      document.removeEventListener("keydown", onKey);
+      window.setTimeout(function () { if (card.parentNode) card.parentNode.removeChild(card); }, 400);
+    }
+    function onKey(e) { if (e.key === "Escape") { track("promo_close"); dismiss(cfg.snoozeDays || 7); } }
+    document.addEventListener("keydown", onKey);
+    close.addEventListener("click", function () { track("promo_close"); dismiss(cfg.snoozeDays || 7); });
+    book.addEventListener("click", function () {
+      set("sessionStorage", KEY_OFFER, copy.bookingNote);
+      track("promo_book");
+      snooze(cfg.bookedSnoozeDays || 30);
+    });
+    ask.addEventListener("click", function () { track("promo_ask"); dismiss(cfg.snoozeDays || 7); });
+  }
+
+  window.fetch(src, { credentials: "same-origin" })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (data) {
+      if (!data) return;
+      cfg = data;
+      onScroll();
+      timer = window.setInterval(function () { if (ready()) show(); }, 1000);
+    })
+    .catch(function () {});
+})();

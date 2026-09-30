@@ -973,6 +973,65 @@
       ]
     }
   },
+  "promo": {
+    "_note": "Website-only offer popup (user request 2026-09-30). Shown after 30 s on the site and some scrolling, never on the booking page, then snoozed. Its copy is published only as assets/data/promo.json (robots-disallowed) and injected by site.js, so no price is in any page's HTML. Price-bearing strings sit under promo.price so the dashboard's no-price save check allows them. Set enabled to false, or endsOn to a YYYY-MM-DD date, to stop it.",
+    "enabled": true,
+    "endsOn": null,
+    "delaySeconds": 30,
+    "minScrollPx": 400,
+    "snoozeDays": 7,
+    "bookedSnoozeDays": 30,
+    "eyebrow": {
+      "ar": "لأن صحتك تهمنا",
+      "en": "Because your health matters to us"
+    },
+    "title": {
+      "ar": "عرض مميز لفترة محدودة لزوار موقع عيادات La Rose Wellness Hub",
+      "en": "A special limited-time offer for La Rose Wellness Hub website visitors"
+    },
+    "saving": {
+      "ar": "بخصم حقيقي أكتر من 28%",
+      "en": "A genuine saving of more than 28%"
+    },
+    "terms": {
+      "ar": "العرض ساري لفترة محدودة على حجوزات الموقع فقط!",
+      "en": "Valid for a limited time on website bookings only!"
+    },
+    "book": {
+      "ar": "احجز الآن",
+      "en": "Book now"
+    },
+    "ask": {
+      "ar": "اسأل عن التفاصيل",
+      "en": "Ask about the details"
+    },
+    "close": {
+      "ar": "إغلاق العرض",
+      "en": "Close the offer"
+    },
+    "price": {
+      "now": {
+        "ar": "500 جنيه",
+        "en": "EGP 500"
+      },
+      "was": {
+        "ar": "700 جنيه",
+        "en": "EGP 700"
+      },
+      "body": {
+        "ar": "احجز الكشف في Larose Wellness Hub بسعر 500 جنيه بدلًا من 700 جنيه لفترة محدودة",
+        "en": "Book your consultation at La Rose Wellness Hub for EGP 500 instead of EGP 700, for a limited time"
+      },
+      "whatsappText": {
+        "ar": "أهلاً، عايز أعرف تفاصيل عرض الموقع: الكشف بـ 500 جنيه بدل 700 جنيه.",
+        "en": "Hello, I would like the details of the website offer: the consultation for EGP 500 instead of EGP 700."
+      },
+      "bookingNote": {
+        "ar": "عرض حجوزات الموقع: الكشف بـ 500 جنيه بدل 700 جنيه",
+        "en": "Website booking offer: consultation for EGP 500 instead of EGP 700"
+      }
+    }
+  },
   "integratedConsultation": {
     "_note": "Client-supplied. Prices deliberately removed: the site never shows them.",
     "eyebrow": {

@@ -23,7 +23,14 @@ This is a generated bilingual static site. Work from source, not from output.
    people, credentials, addresses, statistics, or citations. Use `UNKNOWN` or
    the existing empty state when the source is missing.
 5. Never put public price figures in content or output. The save checks and
-   validator reject them.
+   validator reject them. One exception (user decision, 2026-09-30): the
+   website-offer popup. Its copy lives in `content/site.json` under `promo`,
+   with every price-bearing string under `promo.price` (the dashboard allows
+   figures only under a `price` path). The build publishes it only as
+   `site/assets/data/promo.json`, which robots.txt disallows, and `site.js`
+   injects it after time on the site. No price may appear in any page's HTML;
+   the validator still enforces that. Turn it off with `promo.enabled: false`
+   or end it with `promo.endsOn`.
 6. Do not use `text-align: match-parent`. Chrome does not implement it.
 7. For template images, use `responsiveAttrs()` and the appropriate
    `IMAGE_SIZES` value. Use `sizeAttrs()` when dimensions are not fixed in the

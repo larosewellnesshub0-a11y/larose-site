@@ -447,6 +447,14 @@ const ICONS = {
   user:       `<circle cx="10" cy="7" r="3.4" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M3.8 17.2a6.4 6.4 0 0 1 12.4 0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>`,
 };
 
+/** Is the website-offer popup running? Off when disabled or past endsOn. */
+export function promoActive(c) {
+  const p = c.site?.promo;
+  if (!p || !p.enabled || !p.price) return false;
+  if (p.endsOn && new Date(`${p.endsOn}T23:59:59+02:00`) < new Date()) return false;
+  return true;
+}
+
 export function icon(name, cls = "ico") {
   const entry = ICONS[name];
   if (!entry) return "";

@@ -3,7 +3,7 @@
    Every page in the site is rendered through `page()`.
    ========================================================================== */
 
-import { t, ta, esc, escJson, link, asset, rel, icon, map, when, published, absolutePageUrl, cleanInternalUrl, cleanInternalHrefs } from "./util.mjs";
+import { t, ta, esc, escJson, link, asset, rel, icon, map, when, published, absolutePageUrl, cleanInternalUrl, cleanInternalHrefs, promoActive } from "./util.mjs";
 
 export function trackingHead(c) {
   const a = c?.site?.integrations?.analytics || {};
@@ -88,6 +88,17 @@ function langSwitch({ c, locale, depth, pagePath, cls = "lang-switch" }) {
      dir="${other === "ar" ? "rtl" : "ltr"}"
      aria-label="${esc(t({ ar: `اعرض الصفحة دي بـ${label}`, en: `View this page in ${label}` }, locale))}"
      >${icon("globe")}<span>${esc(label)}</span></a>`;
+}
+
+/* Website-offer popup hook. Only where it should run: never on the booking
+   page (the visitor is already booking) or the legal pages. The copy itself
+   is fetched by site.js from assets/data/promo.json, so no price is in the
+   page HTML. The booking form reads a flag the popup leaves behind. */
+function promoAttrs({ c, depth, pagePath }) {
+  if (!promoActive(c)) return "";
+  if (pagePath === "patients/booking.html") return ` data-promo-booking`;
+  if (/^legal\//.test(pagePath || "")) return "";
+  return ` data-promo="${asset(depth, "assets/data/promo.json")}" data-promo-book="${link(depth, "patients/booking.html")}" data-promo-wa="${esc(c.site.contact.whatsapp.href)}"`;
 }
 
 /* Light/dark switch. Both icons are in the markup; CSS shows the moon in the
@@ -688,7 +699,7 @@ ${heroPreload}
 ${trackingHead(c)}
 ${jsonLd({ c, locale, pagePath, schema, body, canonicalUrl: canonical, currentName: title || brand })}
 </head>
-<body class="${bodyClass}">
+<body class="${bodyClass}"${promoAttrs({ c, depth, pagePath })}>
 <a class="skip-link" href="#main">${esc(t(s.ui.skipToContent, locale))}</a>
 
 ${utilityBar({ c, locale, depth, pagePath })}
