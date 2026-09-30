@@ -322,13 +322,15 @@
 .drawer.is-open .drawer__scrim { opacity: 1; }
 
 /* Floating glossy card (user request 2026-09-30): detached from every edge,
-   sized to its links rather than the screen, in the same glossy material as
-   the bottom pill. It flies in from its side with a slight scale-up. */
+   centred with equal gaps, in the same glossy material as the bottom pill.
+   It rises from the bottom, where the Menu button sits, with a slight
+   scale-up. */
 .drawer__panel {
   position: absolute;
   top: calc(.75rem + env(safe-area-inset-top, 0px));
   bottom: calc(.75rem + env(safe-area-inset-bottom, 0px));
-  inset-inline-end: .75rem;
+  inset-inline: 0;
+  margin-inline: auto;
   width: min(21.5rem, calc(100vw - 2.75rem));
   background: var(--gloss-bg);
   backdrop-filter: var(--gloss-blur);
@@ -339,13 +341,12 @@
   display: flex;
   flex-direction: column;
   opacity: 0;
-  transform: translateX(calc(100% + 1.5rem)) scale(.94);
-  transform-origin: 100% 50%;
+  transform: translateY(2.5rem) scale(.94);
+  transform-origin: 50% 100%;
   transition: transform var(--dur-3) var(--ease-out), opacity var(--dur-2) var(--ease);
   overflow-y: auto;
   overscroll-behavior: contain;
 }
-[dir="rtl"] .drawer__panel { transform: translateX(calc(-100% - 1.5rem)) scale(.94); transform-origin: 0 50%; }
 .drawer.is-open .drawer__panel { transform: none; opacity: 1; }
 
 .drawer__head {
