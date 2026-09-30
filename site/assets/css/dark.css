@@ -1,9 +1,9 @@
 /* ==========================================================================
    LA ROSE WELLNESS HUB — dark theme (2026-09-30)
    --------------------------------------------------------------------------
-   Loaded last. <html data-theme="dark"> is set before the first paint by the
-   head script (a saved choice, otherwise the device setting) and flipped by
-   the header switch.
+   Loaded last. The site opens light; <html data-theme="dark"> is set before
+   the first paint by the head script when a visitor has picked dark with the
+   header switch.
 
    Direction: the same "botanical apothecary" at night. The warm paper
    becomes deep olive-charcoal, text becomes warm ivory, and rose and
@@ -20,14 +20,18 @@
 :root[data-theme="dark"] {
   color-scheme: dark;
 
-  --paper:            #1A1B13;
-  --paper-raised:     #23251A;
-  --paper-sunk:       #15160F;
-  --paper-deep:       #11120B;
+  /* True black ground (user request 2026-09-30: "black should be black, not
+     grey"), with just enough warmth that cards still lift off it. */
+  --paper:            #000000;
+  --paper-raised:     #111110;
+  --paper-sunk:       #000000;
+  --paper-deep:       #000000;
 
-  --olive-050:        #25271B;   /* tint backgrounds */
-  --olive-100:        #2E3022;
-  --olive-200:        #3A3C2B;
+  --olive-050:        #15150F;   /* tint backgrounds */
+  --olive-100:        #1C1D15;
+  --olive-200:        #27281D;
+  --olive-900:        #0A0A08;   /* the dark bands: utility strip, heroes */
+  --olive-950:        #000000;   /* footer */
 
   --rose-100:         #33241F;
   --rose-200:         #4A302F;
@@ -39,8 +43,8 @@
   --ink-muted:        #BEBBA5;
   --ink-faint:        #908E7B;
 
-  --line:             #34362A;
-  --line-strong:      #4A4C3B;
+  --line:             #242420;
+  --line-strong:      #36362F;
   --line-gold:        #6B5B43;
 
   --accent:           var(--rose-500);
@@ -55,15 +59,15 @@
   --sh-inset-top: inset 0 1px 0 rgba(255, 253, 246, .06);
 
   /* Glass: smoked olive instead of frosted paper. */
-  --glass-tint:        rgba(30, 32, 22, .72);
-  --glass-tint-clear:  rgba(30, 32, 22, .40);
+  --glass-tint:        rgba(0, 0, 0, .72);
+  --glass-tint-clear:  rgba(0, 0, 0, .40);
   --glass-border:      rgba(246, 244, 236, .12);
   --glass-highlight:   rgba(255, 255, 255, .10);
   --glass-shadow:      0 1px 2px rgba(0, 0, 0, .3), 0 12px 34px rgba(0, 0, 0, .45);
 
   --gloss-bg:
-    linear-gradient(180deg, rgba(255,255,255,.14) 0%, rgba(255,255,255,.05) 44%, rgba(255,255,255,0) 56%, rgba(255,255,255,.03) 100%),
-    linear-gradient(120deg, rgba(58,40,40,.72) 0%, rgba(34,36,25,.70) 50%, rgba(44,46,30,.72) 100%);
+    linear-gradient(180deg, rgba(255,255,255,.09) 0%, rgba(255,255,255,.03) 44%, rgba(255,255,255,0) 56%, rgba(255,255,255,.02) 100%),
+    linear-gradient(120deg, rgba(22,12,12,.88) 0%, rgba(4,4,3,.88) 50%, rgba(10,10,7,.88) 100%);
   --gloss-blur:   blur(24px) saturate(160%);
   --gloss-border: 1px solid rgba(246,244,236,.16);
   --gloss-shadow:
@@ -97,7 +101,7 @@
 [data-theme="dark"] .site-header {
   background:
     linear-gradient(to bottom, rgba(255, 255, 255, .07), rgba(255, 255, 255, 0) 60%),
-    linear-gradient(100deg, rgba(30, 32, 22, .88) 0%, rgba(44, 32, 30, .84) 55%, rgba(34, 36, 25, .86) 100%);
+    linear-gradient(100deg, rgba(0, 0, 0, .90) 0%, rgba(20, 12, 12, .88) 55%, rgba(6, 6, 4, .90) 100%);
   border-bottom-color: rgba(246, 244, 236, .08);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .06), inset 0 -1px 0 rgba(0, 0, 0, .2);
 }
@@ -146,7 +150,7 @@
 [data-theme="dark"] .drawer-nav__group + .drawer-nav__group { border-top-color: rgba(246, 244, 236, .09); }
 [data-theme="dark"] .drawer-nav__toggle:hover,
 [data-theme="dark"] .drawer-nav__list a:hover { background: rgba(255, 255, 255, .06); box-shadow: none; }
-[data-theme="dark"] .drawer__scrim { background: rgba(0, 0, 0, .45); }
+[data-theme="dark"] .drawer__scrim { background: rgba(0, 0, 0, .65); }
 [data-theme="dark"] .action-bar__item { color: var(--ink-strong); }
 [data-theme="dark"] .action-bar__item:active,
 [data-theme="dark"] .action-bar__item--menu[aria-expanded="true"] { background: rgba(255, 255, 255, .10); }
@@ -163,7 +167,7 @@
 [data-theme="dark"] ::placeholder { color: var(--ink-faint); }
 
 /* Hard-coded white panels (tooltips, overlays) take the raised surface. */
-[data-theme="dark"] .fab--call { background: #2E3022; }
+[data-theme="dark"] .fab--call { background: #1C1D15; }
 
 /* Images keep their colours but lose a little glare on the dark page. */
 [data-theme="dark"] main img:not(.wordmark img) { filter: brightness(.94); }
@@ -193,7 +197,7 @@
 /* ---- Specialty page tab bar (sticky glass over the content) --------------- */
 [data-theme="dark"] .section--after-tabs > .wrap > .tabs.glass,
 [data-theme="dark"] .tabs.glass {
-  --glass-tint: rgba(30, 32, 22, .92);
+  --glass-tint: rgba(0, 0, 0, .90);
   border-color: rgba(246, 244, 236, .12);
   box-shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 10px 26px rgba(0, 0, 0, .4);
 }

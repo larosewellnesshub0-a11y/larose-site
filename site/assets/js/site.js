@@ -165,9 +165,9 @@
   });
 
   /* ---------------------------------------------------------------------
-     Light / dark theme. The head script already set data-theme before the
-     first paint; this wires the header switch, remembers the choice, and
-     follows the device setting for as long as nothing has been chosen.
+     Light / dark theme. The site opens light; the head script has already
+     applied a saved dark choice before the first paint. This wires the
+     header switch and remembers the choice.
      --------------------------------------------------------------------- */
   var root = document.documentElement;
   function setTheme(theme, remember) {
@@ -187,16 +187,6 @@
       setTheme(root.getAttribute("data-theme") === "dark" ? "light" : "dark", true);
     });
   });
-  if (window.matchMedia) {
-    var scheme = window.matchMedia("(prefers-color-scheme: dark)");
-    var follow = function (e) {
-      var saved = null;
-      try { saved = localStorage.getItem("lr-theme"); } catch (err) {}
-      if (saved !== "light" && saved !== "dark") setTheme(e.matches ? "dark" : "light", false);
-    };
-    if (scheme.addEventListener) scheme.addEventListener("change", follow);
-    else if (scheme.addListener) scheme.addListener(follow);
-  }
 
   /* ---------------------------------------------------------------------
      Mobile drawer

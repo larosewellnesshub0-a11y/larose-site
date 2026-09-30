@@ -640,12 +640,13 @@ export function page(opts) {
 <meta name="description" content="${esc(metaDescription)}">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#8E8B63">
-<!-- Light and dark themes (2026-09-30). The script runs before the first
-     paint: a saved choice wins, otherwise the device setting. Declaring both
-     schemes also stops browsers force-inverting the page (which turned the
-     white logo dark); the light theme is marked "only light" in CSS. -->
-<meta name="color-scheme" content="light dark" id="color-scheme">
-<script>(function(){var t;try{t=localStorage.getItem("lr-theme")}catch(e){}if(t!=="light"&&t!=="dark"){t=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}document.documentElement.setAttribute("data-theme",t);document.getElementById("color-scheme").setAttribute("content",t==="dark"?"dark":"only light")})();</script>
+<!-- Light and dark themes (2026-09-30). The site opens in light mode; dark
+     is only used once a visitor picks it with the header switch (user
+     decision 2026-09-30). The script applies that saved choice before the
+     first paint. The light theme declares "only light", which stops browsers
+     force-inverting the page (that was turning the white logo dark). -->
+<meta name="color-scheme" content="only light" id="color-scheme">
+<script>(function(){var t;try{t=localStorage.getItem("lr-theme")}catch(e){}if(t!=="dark")t="light";document.documentElement.setAttribute("data-theme",t);document.getElementById("color-scheme").setAttribute("content",t==="dark"?"dark":"only light")})();</script>
 <link rel="canonical" href="${canonical}">
 <link rel="alternate" hreflang="ar" href="${arUrl}">
 <link rel="alternate" hreflang="en" href="${enUrl}">
