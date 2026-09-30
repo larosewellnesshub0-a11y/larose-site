@@ -15,6 +15,16 @@ import { t, ta, esc, escJson, link, asset, rel, icon, map, when, published, abso
    any of them changes. */
 const CSS_PARTS = ["tokens.css", "base.css", "components.css", "layout.css", "dark.css"];
 let cssVersion = null;
+/* Scripts are linked with a content hash too, so a deploy reaches returning
+   visitors at once instead of after their cached copy expires. */
+const jsVersions = new Map();
+function jsVersion(file) {
+  if (!jsVersions.has(file)) {
+    const body = fs.readFileSync(path.join(OUT_DIR, "assets", "js", file));
+    jsVersions.set(file, crypto.createHash("sha1").update(body).digest("hex").slice(0, 10));
+  }
+  return jsVersions.get(file);
+}
 export function cssBundle() {
   if (cssVersion) return cssVersion;
   const dir = path.join(OUT_DIR, "assets", "css");
@@ -747,10 +757,10 @@ ${body}
 ${footer({ c, locale, depth })}
 ${floatingActions({ c, locale, depth })}
 
-<script src="${asset(depth, "assets/js/track.js")}" defer></script>
-${body.includes("<form") ? `<script src="${asset(depth, "assets/js/forms.js")}" defer></script>` : ""}
-<script src="${asset(depth, "assets/js/site.js")}" defer></script>
-${body.includes("data-tool=") ? `<script src="${asset(depth, "assets/js/tools.js")}" defer></script>` : ""}
+<script src="${asset(depth, "assets/js/track.js")}?v=${jsVersion("track.js")}" defer></script>
+${body.includes("<form") ? `<script src="${asset(depth, "assets/js/forms.js")}?v=${jsVersion("forms.js")}" defer></script>` : ""}
+<script src="${asset(depth, "assets/js/site.js")}?v=${jsVersion("site.js")}" defer></script>
+${body.includes("data-tool=") ? `<script src="${asset(depth, "assets/js/tools.js")}?v=${jsVersion("tools.js")}" defer></script>` : ""}
 </body>
 </html>`;
 }
