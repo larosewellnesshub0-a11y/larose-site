@@ -329,7 +329,7 @@
   top: calc(.75rem + env(safe-area-inset-top, 0px));
   bottom: calc(.75rem + env(safe-area-inset-bottom, 0px));
   inset-inline-end: .75rem;
-  width: min(18.5rem, calc(100vw - 3rem));
+  width: min(21.5rem, calc(100vw - 2.75rem));
   background: var(--gloss-bg);
   backdrop-filter: var(--gloss-blur);
   -webkit-backdrop-filter: var(--gloss-blur);
