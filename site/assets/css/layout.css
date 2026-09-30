@@ -331,7 +331,7 @@
   bottom: calc(.75rem + env(safe-area-inset-bottom, 0px));
   inset-inline: 0;
   margin-inline: auto;
-  width: min(21.5rem, calc(100vw - 2.75rem));
+  width: min(26rem, calc(100vw - 1.5rem));
   background: var(--gloss-bg);
   backdrop-filter: var(--gloss-blur);
   -webkit-backdrop-filter: var(--gloss-blur);
