@@ -40,7 +40,12 @@
 
 @media (max-width: 767px) {
   .utility-bar__links { display: none; }
-  .utility-bar__inner { justify-content: space-between; }
+  /* Phone only (user request 2026-09-30): the strip carries just the phone
+     number, centred and thin. The language switch lives in the white header
+     at this width, so it is not shown twice. */
+  .utility-bar__inner { justify-content: center; min-height: 0; padding-block: 0; }
+  .utility-bar__meta .lang-switch { display: none; }
+  .utility-bar__meta a { min-block-size: 1.9rem; }
 }
 
 /* ==========================================================================
@@ -53,16 +58,20 @@
   /* The header is the canonical functional-layer surface: it must stay
      legible over a photograph, a white section and an olive one alike, so it
      takes the regular glass variant rather than the clear one. */
-  background: rgba(251, 249, 244, .78);
-  backdrop-filter: saturate(var(--glass-saturate)) blur(var(--glass-blur));
-  -webkit-backdrop-filter: saturate(var(--glass-saturate)) blur(var(--glass-blur));
-  border-bottom: 1px solid transparent;
-  box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+  /* Glossy (user request 2026-09-30): the brand paper-to-blush glass the
+     drawer uses, with a specular top line and a soft lower edge. */
+  background:
+    linear-gradient(to bottom, rgba(255, 255, 255, .55), rgba(255, 255, 255, 0) 60%),
+    linear-gradient(100deg, rgba(255, 253, 249, .88) 0%, rgba(247, 236, 236, .82) 55%, rgba(243, 242, 230, .85) 100%);
+  backdrop-filter: saturate(var(--glass-saturate)) blur(24px);
+  -webkit-backdrop-filter: saturate(var(--glass-saturate)) blur(24px);
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .85), inset 0 -1px 0 rgba(142, 139, 99, .10);
   transition: border-color var(--dur-3) var(--ease), box-shadow var(--dur-3) var(--ease), background-color var(--dur-3) var(--ease);
 }
 .site-header.is-stuck {
-  border-bottom-color: var(--line);
-  box-shadow: 0 1px 24px rgba(60, 54, 32, .07);
+  border-bottom-color: rgba(142, 139, 99, .18);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .85), 0 6px 24px rgba(60, 54, 32, .09);
 }
 
 .site-header__inner {
@@ -72,6 +81,12 @@
   gap: clamp(1rem, 2.5vw, 2.5rem);
   min-height: 4.75rem;
   padding-block: .75rem;
+}
+
+/* Phones and tablets: a thinner header (user request 2026-09-30). Only the
+   padding around the logo is removed; the logo keeps its size. */
+@media (max-width: 1099px) {
+  .site-header__inner { min-height: 0; padding-block: .3rem; }
 }
 
 /* -- wordmark -------------------------------------------------------------- */
@@ -296,61 +311,119 @@
 
 .drawer__scrim {
   position: absolute; inset: 0;
-  background: rgba(35, 36, 26, .48);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  /* Lighter and blurrier than a plain dim, so the page reads as frosted
+     behind the glass panel rather than blacked out (user request 2026-09-30). */
+  background: rgba(35, 36, 26, .30);
+  backdrop-filter: blur(6px) saturate(120%);
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
   opacity: 0;
   transition: opacity var(--dur-3) var(--ease);
 }
 .drawer.is-open .drawer__scrim { opacity: 1; }
 
+/* Floating glossy card (user request 2026-09-30): detached from every edge,
+   centred with equal gaps, in the same glossy material as the bottom pill.
+   It rises from the bottom, where the Menu button sits, with a slight
+   scale-up. */
 .drawer__panel {
   position: absolute;
-  inset-block: 0;
-  inset-inline-end: 0;
-  width: min(24rem, 90vw);
-  background: var(--paper);
-  box-shadow: var(--sh-xl);
+  top: calc(.75rem + env(safe-area-inset-top, 0px));
+  bottom: calc(.75rem + env(safe-area-inset-bottom, 0px));
+  inset-inline: 0;
+  margin-inline: auto;
+  width: min(26rem, calc(100vw - 1.5rem));
+  background: var(--gloss-bg);
+  backdrop-filter: var(--gloss-blur);
+  -webkit-backdrop-filter: var(--gloss-blur);
+  border: var(--gloss-border);
+  border-radius: 1.75rem;
+  box-shadow: var(--gloss-shadow);
   display: flex;
   flex-direction: column;
-  transform: translateX(100%);
-  transition: transform var(--dur-3) var(--ease-out);
+  opacity: 0;
+  transform: translateY(2.5rem) scale(.94);
+  transform-origin: 50% 100%;
+  transition: transform var(--dur-3) var(--ease-out), opacity var(--dur-2) var(--ease);
   overflow-y: auto;
   overscroll-behavior: contain;
 }
-[dir="rtl"] .drawer__panel { transform: translateX(-100%); }
-.drawer.is-open .drawer__panel { transform: translateX(0); }
+.drawer.is-open .drawer__panel { transform: none; opacity: 1; }
 
 .drawer__head {
   display: flex; align-items: center; justify-content: space-between;
-  padding: 1.1rem var(--gutter);
-  border-bottom: 1px solid var(--line);
+  padding: .75rem 1rem .75rem 1.25rem;
   position: sticky; top: 0;
-  background: var(--paper);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, .55), rgba(255, 255, 255, .25));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, .6);
   z-index: 2;
 }
-.drawer__body { padding: 1rem var(--gutter) 2rem; flex: 1; }
+[dir="rtl"] .drawer__head { padding: .75rem 1.25rem .75rem 1rem; }
+.drawer__head .wordmark img { height: 2.35rem; }
+.drawer__head .burger { width: 2.5rem; height: 2.5rem; border-radius: 999px; background: rgba(255, 255, 255, .55); border-color: rgba(255, 255, 255, .8); }
+.drawer__body { padding: .5rem 1.25rem 1rem; flex: 1; }
 .drawer__foot {
-  padding: 1.25rem var(--gutter) 2rem;
-  border-top: 1px solid var(--line);
-  display: grid; gap: .65rem;
-  background: var(--paper-sunk);
+  padding: 1rem 1.25rem 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, .6);
+  display: grid; gap: .5rem;
+  background: rgba(255, 255, 255, .18);
 }
+.drawer__foot .btn { min-height: 2.75rem; font-size: var(--t-sm); }
+/* The card is light glass, so its secondary controls take dark ink on a
+   frosted white fill (the language switch otherwise inherits the olive
+   strip's light text). */
+.drawer__foot .btn--ghost,
+.drawer__foot .lang-switch--drawer {
+  background: rgba(255, 255, 255, .5);
+  border: 1px solid rgba(255, 255, 255, .85);
+  color: var(--ink-strong);
+  box-shadow: inset 0 1px 0 #fff;
+}
+.drawer__foot .lang-switch--drawer .ico { color: var(--olive-600); opacity: 1; }
 
-.drawer-nav__group + .drawer-nav__group { border-top: 1px solid var(--line); }
+.drawer-nav__group + .drawer-nav__group { border-top: 1px solid rgba(142, 139, 99, .14); }
 .drawer-nav__toggle {
   width: 100%;
   display: flex; align-items: center; justify-content: space-between; gap: 1rem;
-  padding: 1.05rem 0;
+  padding: .8rem 0;
   font-family: var(--font-head);
-  font-size: var(--t-md);
+  font-size: 1.15rem;
   color: var(--ink-strong);
   text-align: start;
 }
 .drawer-nav__toggle .nav__caret { flex: none; }
 .drawer-nav__list { display: grid; gap: .1rem; padding-bottom: 1rem; }
 .drawer-nav__list a { display: flex; align-items: center; min-block-size: 2.75rem; padding: .6rem .9rem; border-radius: var(--r-md); font-size: var(--t-sm); color: var(--ink-muted); }
-.drawer-nav__list a:hover { background: var(--olive-050); color: var(--olive-900); }
+.drawer-nav__list a:hover { background: rgba(255, 255, 255, .6); color: var(--olive-900); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .8); }
+.drawer-nav__toggle { border-radius: var(--r-md); transition: background-color var(--dur-1) var(--ease), padding var(--dur-2) var(--ease); }
+.drawer-nav__toggle:hover { background: rgba(255, 255, 255, .45); padding-inline: .6rem; }
+
+/* Links float in one after another as the panel slides open. */
+.drawer-nav__group, .drawer__foot > * {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity var(--dur-3) var(--ease), transform var(--dur-3) var(--ease-out);
+}
+.drawer.is-open .drawer-nav__group, .drawer.is-open .drawer__foot > * { opacity: 1; transform: none; }
+.drawer.is-open .drawer-nav__group:nth-child(1) { transition-delay: 60ms; }
+.drawer.is-open .drawer-nav__group:nth-child(2) { transition-delay: 100ms; }
+.drawer.is-open .drawer-nav__group:nth-child(3) { transition-delay: 140ms; }
+.drawer.is-open .drawer-nav__group:nth-child(4) { transition-delay: 180ms; }
+.drawer.is-open .drawer-nav__group:nth-child(5) { transition-delay: 220ms; }
+.drawer.is-open .drawer-nav__group:nth-child(6) { transition-delay: 260ms; }
+.drawer.is-open .drawer-nav__group:nth-child(n+7) { transition-delay: 300ms; }
+.drawer.is-open .drawer__foot > * { transition-delay: 320ms; }
+@media (prefers-reduced-motion: reduce) {
+  .drawer-nav__group, .drawer__foot > * { opacity: 1; transform: none; transition: none; }
+}
+/* Without backdrop-filter the translucent layers would show the page through
+   unblurred, so fall back to the opaque paper panel. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .drawer__panel, .drawer__head { background: var(--paper); }
+  .action-bar { background: var(--paper-raised); }
+  .drawer__foot { background: var(--paper-sunk); }
+}
 .drawer-nav__panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows var(--dur-3) var(--ease-out); }
 .drawer-nav__panel > div { overflow: hidden; }
 .drawer-nav__group.is-open .drawer-nav__panel { grid-template-rows: 1fr; }

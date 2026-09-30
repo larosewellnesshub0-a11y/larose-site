@@ -439,6 +439,7 @@ const ICONS = {
   heart:      `<path d="M10 16.5S3 12.4 3 7.9A3.9 3.9 0 0 1 10 5.6a3.9 3.9 0 0 1 7 2.3c0 4.5-7 8.6-7 8.6Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>`,
   book:       `<path d="M3.5 4.2A16 16 0 0 1 10 5.6a16 16 0 0 1 6.5-1.4v10.6A16 16 0 0 0 10 16.2a16 16 0 0 0-6.5-1.4V4.2Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M10 5.6v10.6" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
   monitor:    `<rect x="2.5" y="3.5" width="15" height="10.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M7 17.5h6M10 14v3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>`,
+  menu:       `<path d="M3.5 5.5h13M3.5 10h13M3.5 14.5h13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>`,
   user:       `<circle cx="10" cy="7" r="3.4" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M3.8 17.2a6.4 6.4 0 0 1 12.4 0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>`,
 };
 

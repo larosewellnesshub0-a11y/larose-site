@@ -160,7 +160,7 @@
      Mobile drawer
      --------------------------------------------------------------------- */
   var drawer = document.getElementById("drawer");
-  var burgers = document.querySelectorAll(".burger");
+  var burgers = document.querySelectorAll(".burger, [data-drawer-toggle]");
   var lastFocus = null;
 
   function openDrawer() {
@@ -227,6 +227,24 @@
       btn.setAttribute("aria-expanded", open ? "true" : "false");
     });
   });
+  /* The FAQ index pages link each question to its answer on the article
+     (#entry-<slug>-<n>). Open that answer on arrival so the link lands on
+     the text, not on a collapsed row. */
+  function openFaqFromHash() {
+    var id = decodeURIComponent((window.location.hash || "").slice(1));
+    if (!id) return;
+    var answer = document.getElementById(id);
+    if (!answer || !answer.classList.contains("faq__a")) return;
+    var item = answer.closest(".faq__item");
+    var btn = item && item.querySelector(".faq__q");
+    if (!item || !btn) return;
+    item.classList.add("is-open");
+    btn.setAttribute("aria-expanded", "true");
+    // After the browser's own jump to the anchor, which would otherwise win.
+    window.setTimeout(function () { item.scrollIntoView({ block: "start" }); }, 80);
+  }
+  openFaqFromHash();
+  window.addEventListener("hashchange", openFaqFromHash);
 
   /* ---------------------------------------------------------------------
      Tabs

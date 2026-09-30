@@ -5,7 +5,7 @@
 import { t, ta, esc, link, icon, map, when, published, bySlug, paras } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
-  sectionHead, pageHero, finder, ctaBand, faqList, faqSchema,
+  sectionHead, pageHero, finder, ctaBand, faqList,
 } from "../lib/components.mjs";
 
 /* Saturday first: that is how the week is read in Egypt, and the clinic's own
@@ -192,7 +192,6 @@ export function pages({ c, locale }) {
   const consultation = bySlug(nutrition?.treatments || [], "nutrition-consultation");
   const consultationFacts = ta(consultation?.facts, locale);
   const latinTerms = ta(s.latinTerms, locale);
-  const allFaq = specs.flatMap((sp) => sp.faq || []);
 
   const hubBody = `
 ${pageHero({
@@ -613,7 +612,8 @@ ${pageHero({
           en: "Patient FAQs covering clinical nutrition, weight management, body contouring, internal medicine, surgery, dermatology and paediatrics at La Rose.",
         }, locale),
         body: faqBody,
-        schema: faqSchema(allFaq, locale),
+        // The same questions are marked up on each specialty page; Google
+        // wants one marked-up instance per question, so this hub carries none.
       }),
     },
     {

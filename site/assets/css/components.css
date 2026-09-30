@@ -712,6 +712,22 @@
   --glass-border-dark: rgba(246, 244, 236, .18);
   --glass-highlight:   rgba(255, 255, 255, .65);
   --glass-shadow:      0 1px 2px rgba(60,54,32,.06), 0 12px 34px rgba(60,54,32,.13);
+
+  /* Glossy material for the floating mobile controls (bottom pill, menu
+     card), 2026-09-30. Light frosted brand tint at medium opacity, a shine
+     band over the top half like polished glass, a bright rim, and a deep
+     soft shadow so the control floats above the page. */
+  --gloss-bg:
+    linear-gradient(180deg, rgba(255,255,255,.62) 0%, rgba(255,255,255,.22) 44%, rgba(255,255,255,.04) 56%, rgba(255,255,255,.14) 100%),
+    linear-gradient(120deg, rgba(247,236,236,.66) 0%, rgba(255,253,249,.60) 50%, rgba(236,234,214,.64) 100%);
+  --gloss-blur:   blur(24px) saturate(180%) brightness(1.12);
+  --gloss-border: 1px solid rgba(255,255,255,.75);
+  --gloss-shadow:
+    inset 0 1px 0 rgba(255,255,255,1),
+    inset 0 -1px 0 rgba(255,255,255,.45),
+    inset 0 0 0 .5px rgba(255,255,255,.35),
+    0 20px 44px -10px rgba(35,36,26,.38),
+    0 4px 12px rgba(35,36,26,.12);
 }
 
 .glass {
@@ -806,12 +822,12 @@
 }
 
 /* the mobile drawer is a large surface, so it takes a more opaque tint —
-   the HIG's opacity-scaling rule: bigger elements read as less transparent */
+   the HIG's opacity-scaling rule: bigger elements read as less transparent.
+   Its visible tint is the brand gradient in layout.css (glossy panel,
+   2026-09-30); these variables feed the shared .glass edge highlight. */
 .drawer__panel.glass {
   --glass-tint: rgba(251, 249, 244, .88);
   --glass-blur: 30px;
-  border: 0;
-  border-inline-start: 1px solid var(--glass-border);
 }
 
 /* ==========================================================================
@@ -999,6 +1015,25 @@
   .header-actions .btn { display: none; }
 }
 
+/* Keep a linked FAQ answer clear of the sticky header. */
+.faq__item, .faq__a { scroll-margin-top: 6rem; }
+
+/* Question lists on the FAQ specialty pages: each links to its answer on the
+   article page. */
+.faq-links { list-style: none; margin: .75rem 0 0; padding: 0; display: grid; gap: .1rem; }
+.faq-links a {
+  display: flex; align-items: center;
+  min-block-size: 2.75rem;
+  padding: .45rem .75rem;
+  border-radius: var(--r-md);
+  color: var(--olive-800);
+  text-decoration: underline;
+  text-decoration-color: var(--rose-300);
+  text-underline-offset: .25em;
+  transition: background-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease);
+}
+.faq-links a:hover, .faq-links a:focus-visible { background: var(--olive-050); color: var(--olive-900); }
+
 /* ==========================================================================
    19. MOBILE ACTION BAR
    Call, WhatsApp and Book, fixed to the bottom on phones. The branch-hospital
@@ -1008,20 +1043,24 @@
 .action-bar { display: none; }
 
 @media (max-width: 720px) {
+  /* A floating glass pill detached from the screen edge (user request
+     2026-09-30), not an edge-to-edge bar. It clears the home indicator on
+     notched phones through the safe-area inset. */
   .action-bar {
     position: fixed;
-    inset-inline: 0;
-    bottom: 0;
+    inset-inline: .75rem;
+    bottom: calc(.75rem + env(safe-area-inset-bottom, 0px));
     z-index: var(--z-fab, 60);
     display: grid;
-    grid-template-columns: 1fr 1fr 1.25fr;
-    gap: .4rem;
-    padding: .5rem .6rem calc(.5rem + env(safe-area-inset-bottom, 0px));
-    background: rgba(251, 249, 244, .88);
-    backdrop-filter: blur(18px) saturate(140%);
-    -webkit-backdrop-filter: blur(18px) saturate(140%);
-    border-top: 1px solid var(--line);
-    box-shadow: 0 -6px 24px rgba(60, 54, 32, .10);
+    grid-template-columns: 1fr 1fr 1.25fr 1fr;
+    gap: .25rem;
+    padding: .35rem;
+    border-radius: var(--r-pill, 999px);
+    background: var(--gloss-bg);
+    backdrop-filter: var(--gloss-blur);
+    -webkit-backdrop-filter: var(--gloss-blur);
+    border: var(--gloss-border);
+    box-shadow: var(--gloss-shadow);
   }
   .action-bar__item {
     display: flex;
@@ -1031,7 +1070,7 @@
     gap: .18rem;
     min-height: 3rem;               /* comfortably over the 44pt minimum */
     padding: .35rem .3rem;
-    border-radius: var(--r-lg);
+    border-radius: var(--r-pill, 999px);
     font-size: .72rem;
     font-weight: 600;
     line-height: 1.1;
@@ -1040,19 +1079,34 @@
     background: transparent;
   }
   .action-bar__item .ico { width: 1.25em; height: 1.25em; }
-  .action-bar__item:active { background: var(--olive-100); }
+  .action-bar__item:active { background: rgba(255, 255, 255, .45); }
   .action-bar__item--cta {
-    background: var(--rose-500, #CB8587);
+    background: linear-gradient(to bottom, var(--rose-500, #CB8587), var(--rose-600, #B96F72));
     color: #fff;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .35), 0 3px 10px rgba(165, 89, 92, .30);
   }
   /* The English booking CTA is intentionally a compact single-line label. */
   .action-bar__item--cta span { white-space: nowrap; }
+  /* Menu opens the page drawer from the thumb zone (user request 2026-09-30).
+     It is a <button>, so it drops the UA button chrome to match the links. */
+  .action-bar__item--menu {
+    border: 0;
+    font: inherit;
+    font-size: .72rem;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .action-bar__item--menu[aria-expanded="true"] { background: rgba(255, 255, 255, .45); }
+  /* The bar carries the menu button now, so the header burger would be a
+     second copy of the same control. */
+  .site-header .burger { display: none; }
 
   /* The floating buttons and the bar would stack on top of each other. */
   .floating-actions { display: none; }
 
   /* Give the footer room so the bar never covers the last line of content. */
-  body { padding-bottom: 4.25rem; }
+  body { padding-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px)); }
 }
 
 /* Both fallbacks the glass system requires. */

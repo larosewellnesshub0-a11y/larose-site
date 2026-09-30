@@ -300,7 +300,9 @@ function floatingActions({ c, locale, depth }) {
   const s = c.site;
   /* Two controls on desktop, where they float; on a phone the same three
      actions become a fixed bottom bar so calling, messaging and booking are
-     always one thumb away instead of a scroll back to the header. */
+     always one thumb away instead of a scroll back to the header. The bar also
+     carries the menu button (user request 2026-09-30), so the page drawer
+     opens from the thumb zone; the header burger is hidden at that width. */
   return `
 <div class="floating-actions no-print">
   <a class="fab fab--whatsapp" href="${esc(s.contact.whatsapp.href)}" target="_blank" rel="noopener"
@@ -319,6 +321,10 @@ function floatingActions({ c, locale, depth }) {
   <a class="action-bar__item action-bar__item--cta" href="${link(depth, "patients/booking.html")}">
     ${icon("calendar")}<span>${esc(t(s.ui.bookActionBar || s.ui.bookNow, locale))}</span>
   </a>
+  <button class="action-bar__item action-bar__item--menu" type="button" data-drawer-toggle
+          aria-expanded="false" aria-controls="drawer">
+    ${icon("menu")}<span>${esc(t(s.ui.menu, locale))}</span>
+  </button>
 </nav>`;
 }
 
