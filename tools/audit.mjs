@@ -148,7 +148,15 @@ for (const file of pages) {
     }
   }
 
-  if (visible.includes("—")) add("em-dash", page, "");
+  /* Source labels quote the publisher's own title verbatim ("NHS — Appendicitis"), so the
+     numbered source list is left out of the em-dash check. */
+  const prose = html
+    .replace(/<li id="[^"]*-source-\d+"[\s\S]*?<\/li>/gi, " ")
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ");
+  const dash = prose.indexOf("—");
+  if (dash >= 0) add("em-dash", page, prose.slice(Math.max(0, dash - 40), dash + 30).replace(/\s+/g, " ").trim());
   /* A money word only counts as a whole word. "واعجنيها" (knead it) contains the
      letters of جنيه and was being reported as a price. */
   const money = visible.match(/(?:^|[^\p{L}])(جنيه|جنيهات|EGP)(?:$|[^\p{L}])|\$\s?\d/u);
