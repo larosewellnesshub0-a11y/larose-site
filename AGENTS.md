@@ -126,6 +126,13 @@ This is a generated bilingual static site. Work from source, not from output.
     not a reason to swap it: retry, or check it in a browser. Only correct a
     label to match the real title or author. Reviewers diff each source against
     HEAD before shipping.
+23. **Link labels must appear verbatim in the section body.** The build turns a
+    section link into an inline `<a>` only when its exact label text is in that
+    section's body (per language). Otherwise it renders as a separate "Read
+    also:" line. The booking link belongs once, in the final section, with its
+    label copied word-for-word from a sentence in that final body. To find the
+    source file of an article, match its `sections` against the effective
+    content from `loadContent()`; several files override each other.
 
 See `PROJECT.md` for the source map and `_project/LAUNCH.md` for the deployment
 runbook.
