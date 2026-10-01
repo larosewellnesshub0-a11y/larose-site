@@ -12,7 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-sherif",
       "reviewedBy": "mohab-ashraf",
@@ -187,18 +187,18 @@
           },
           "body": {
             "ar": "لو عندك ألم ظهر مستمر، سجّل لمدة قصيرة وقت الوجع والتيبس، مدة التيبس الصباحي، تأثير الحركة والراحة، وأي ألم ليلي أو أعراض بالعين أو الجلد أو الأمعاء أو الكعب. الملاحظات دي بتخلي الزيارة أدق، بس مش مطلوب تختبر نفسك بقوة أو تعمل تمارين عنيفة عشان «تثبت» النمط. حافظ على حركة لطيفة منتظمة على قد قدرتك، وغيّر القعدة الطويلة، واسأل مختصاً قبل برنامج جديد لو عندك إصابة، ضعف، مشاكل توازن، مرض مزمن مؤثر، أو ألم بيتفاقم مع التمرين. التمرين المناسب بيتدرج، ومش المفروض يتحول لاختبار تحمّل للألم [2, 7, 11].\n\nاحجز تقييماً طبياً لو الوجع بدأ قبل 45 سنة، مستمر أكتر من ثلاثة شهور، وخصوصاً لو بيزيد مع الراحة أو بيصحيك آخر الليل أو معاه تيبس صباحي أو وجع أرداف أو كعب أو عين أو صدفية أو التهاب أمعاء. الفريق الطبي في لاروز يقدر يراجع النمط والفحص ويحدد إذا كان تقييم الروماتيزم أو الفحوص المناسبة مطلوبة، في فرعي المعادي والتجمع الخامس بالقاهرة الجديدة. التقييم مش وعد بتشخيص معين، والهدف اختيار الخطوة المناسبة بهدوء. أما العين الحمراء المؤلمة مع زغللة، أو ضعف جديد بالساقين، أو خدر بمنطقة ما بين الرجلين، أو فقدان التحكم في البول أو البراز، فدي مش حالة حجز روتيني؛ اطلب رعاية عاجلة فوراً [1, 3, 5, 13].",
-            "en": "If back pain persists, keep a short record of when pain and stiffness occur, how long morning stiffness lasts, the effects of movement and rest, and any night pain or eye, skin, bowel or heel symptoms. These notes can make the consultation more precise, but there is no need to test yourself forcefully or do strenuous exercises to “prove” the pattern. Keep gently and regularly active within your ability, break up prolonged sitting, and seek professional advice before a new programme if you have an injury, weakness, balance problems, a relevant chronic condition, or pain that worsens with exercise. Suitable exercise is progressed gradually; it should not become a test of pain tolerance [2, 7, 11].\n\nArrange a medical assessment when pain began before age 45, has persisted for more than three months, and especially when it worsens with rest, wakes you late at night, or accompanies morning stiffness, buttock or heel pain, eye symptoms, psoriasis or inflammatory bowel disease. The medical team at La Rose can review the pattern and examination and decide whether rheumatology assessment or selected tests are appropriate, at the Maadi and Fifth Settlement, New Cairo branches. Assessment is not a promise of a particular diagnosis; its purpose is to choose the next step calmly. A painful red eye with blurred vision, new leg weakness, saddle-area numbness, or loss of bladder or bowel control is not a routine booking matter and needs immediate urgent care [1, 3, 5, 13]."
+            "en": "If back pain persists, keep a short record of when pain and stiffness occur, how long morning stiffness lasts, the effects of movement and rest, and any night pain or eye, skin, bowel or heel symptoms. These notes can make the consultation more precise, but there is no need to test yourself forcefully or do strenuous exercises to “prove” the pattern. Keep gently and regularly active within your ability, break up prolonged sitting, and seek professional advice before a new programme if you have an injury, weakness, balance problems, a relevant chronic condition, or pain that worsens with exercise. Suitable exercise is progressed gradually; it should not become a test of pain tolerance [2, 7, 11].\n\nArrange a medical assessment when pain began before age 45, has persisted for more than three months, and especially when it worsens with rest, wakes you late at night, or accompanies morning stiffness, buttock or heel pain, eye symptoms, psoriasis or inflammatory bowel disease. The medical team at La Rose can review the pattern and examination and decide whether rheumatology assessment or selected tests are appropriate, at the Maadi and Fifth Settlement, New Cairo branches. Assessment is not a promise of a particular diagnosis; its purpose is to choose the next step calmly. A painful red eye with blurred vision, new leg weakness, saddle-area numbness, or loss of bladder or bowel control is not a routine booking matter and needs immediate urgent care [1, 3, 5, 13]. For non-urgent concerns, you can book a consultation with the medical team."
           },
           "links": {
             "ar": [
               {
-                "label": "احجز استشارة مع الفريق الطبي",
+                "label": "احجز تقييماً",
                 "url": "../patients/booking.html"
               }
             ],
             "en": [
               {
-                "label": "Book a consultation",
+                "label": "book a consultation with the medical team",
                 "url": "../patients/booking.html"
               }
             ]

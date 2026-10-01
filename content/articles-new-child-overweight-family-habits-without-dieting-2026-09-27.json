@@ -13,7 +13,7 @@
       ],
       "date": "2026-09-27",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "readingTime": 16,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
@@ -186,7 +186,7 @@
           "links": {
             "ar": [
               {
-                "label": "اطلب حجز استشارة تغذية أطفال",
+                "label": "حجز استشارة تغذية أطفال",
                 "url": "../patients/booking.html"
               }
             ],

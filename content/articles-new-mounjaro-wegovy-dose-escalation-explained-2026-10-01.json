@@ -14,7 +14,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "readingTime": 11,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -199,18 +199,18 @@
           },
           "body": {
             "ar": "قبل الموعد، جهّز اسم المنتج الكامل، صورة التركيز، تاريخ آخر جرعة، عدد الجرعات اللي فاتت، والأعراض اللي حصلت ومدتها. اكتب كل أدوية السكر والإنسولين والأدوية الفموية والمكملات، لأن الخطة مش بتتحدد من الحقنة لوحدها. واسأل بشكل مباشر: هل الجرعة الحالية جرعة بدء ولا محافظة؟ هل فيه سبب للزيادة دلوقتي؟ ولو الأعراض رجعت، إمتى أتواصل وإمتى أطلب طوارئ؟ التقييم الأول لإدارة الوزن بيوضح إزاي تجمع التاريخ والأدوية والأهداف من غير ما تبدأ الجرعة بنفسك [1, 2, 3, 7].\n\nلو أنت في مرحلة بدء أو زيادة أو رجوع بعد توقف، الفريق الطبي في لاروز يقدر يراجع معاك الصورة الطبية ويحدد الخطوة المناسبة في إطار استشارة، مع وجود فروع في المعادي والتجمع الخامس بالقاهرة الجديدة. ده مش وعد إن دواء بعينه مناسب، ومش بديل عن الطوارئ لو فيه علامة خطر. احجز استشارة وخد معاك القلم أو العبوة الأصلية وقائمة الأدوية وسجل الأعراض؛ وما تحقنش جرعة غير واضحة لحد ما الطبيب أو الصيدلي المرخص يراجعها [7, 8, 11, 12].",
-            "en": "Before the appointment, prepare the product name, strength, last-dose date, number missed, and symptoms with their duration. List diabetes medicines, insulin, oral medicines and supplements. Ask whether the dose is for initiation or maintenance, why an increase is needed now, and when symptoms require a call or emergency care. The first-visit guide helps organise your history, medicines and goals without starting independently [1, 2, 3, 7].\n\nWhen starting, escalating or returning after interruption, the medical team at La Rose can review the clinical picture during a consultation, with branches in Maadi and Fifth Settlement, New Cairo. This does not promise that a medicine suits you or replace emergency care. Bring the original pen or package, medicine list and symptom record. Do not inject an unclear dose until the clinician or licensed pharmacist checks it [7, 8, 11, 12]."
+            "en": "Before the appointment, prepare the product name, strength, last-dose date, number missed, and symptoms with their duration. List diabetes medicines, insulin, oral medicines and supplements. Ask whether the dose is for initiation or maintenance, why an increase is needed now, and when symptoms require a call or emergency care. The first-visit guide helps organise your history, medicines and goals without starting independently [1, 2, 3, 7].\n\nWhen starting, escalating or returning after interruption, the medical team at La Rose can review the clinical picture during a consultation, with branches in Maadi and Fifth Settlement, New Cairo. This does not promise that a medicine suits you or replace emergency care. Bring the original pen or package, medicine list and symptom record. Do not inject an unclear dose until the clinician or licensed pharmacist checks it [7, 8, 11, 12]. For non-urgent concerns, you can book a consultation with the medical team."
           },
           "links": {
             "ar": [
               {
-                "label": "احجز استشارة مع الفريق الطبي",
+                "label": "احجز استشارة",
                 "url": "../patients/booking.html"
               }
             ],
             "en": [
               {
-                "label": "Book a consultation",
+                "label": "book a consultation with the medical team",
                 "url": "../patients/booking.html"
               }
             ]

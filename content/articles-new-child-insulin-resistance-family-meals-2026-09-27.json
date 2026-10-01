@@ -10,7 +10,7 @@
       "specialties": ["pediatrics", "clinical-nutrition"],
       "date": "2026-09-27",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "readingTime": 9,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
@@ -80,13 +80,13 @@
         {"id": "prepare-review-next-step", "heading": {"ar": "حضّر مراجعة عملية مع الفريق الطبي", "en": "Prepare a practical review with the medical team"}, "body": {"ar": "قبل المتابعة، سجل لمدة كام يوم صورة واقعية من غير حساب مرهق: مواعيد الوجبات والسناك، المشروبات، أكل المدرسة، الحركة، النوم، وأي أعراض. خد منحنيات أو قياسات النمو القديمة، نتائج التحاليل، وأسماء الأدوية والمكملات. اكتب كمان العوائق: ميزانية البيت، مواعيد المدرسة، أكل الطفل المقبول، صعوبة الطبخ، أو عدم وجود مكان آمن للحركة. الخطة الجيدة تتعدل للواقع والثقافة، ومش تفترض إن كل أسرة عندها نفس الوقت والاختيارات [2, 4, 5].\n\nاسأل الفريق: إيه الهدف الحالي للنمو؟ هل فيه تحليل محتاج إعادة، وإمتى؟ هل اللبن أو السناك أو اللانش بوكس محتاج تعديل حسب السن؟ هل فيه نقص غذائي محتمل؟ الحديد مثال مهم في تغذية الأطفال، بس الأكل الغني بالحديد أو المكمل ما يتاخدش كعلاج لمقاومة الإنسولين من غير سبب واضح. لو مطلوب دعم للحديد، استخدم الإرشاد المخصص له بدل إضافة مكمل عشوائي [3, 7].\n\nالفريق الطبي في لاروز يقدر يراجع الصورة معاك ويحوّل الإرشادات العامة لخطوات تناسب الطفل بعد التقييم، من غير وعد بنتيجة أو وقت ثابت. اطلب إن الخطة تحدد تغييراً أو اتنين قابلين للتنفيذ، ومؤشر متابعة واضح، وموعد مراجعة. القرارات عن التحاليل، العلاج، أو هدف الوزن تفضل للطبيب المعالج. لو محتاج تبدأ أو تراجع الخطة، احجز استشارة وخد السجل والنتائج معاك [2, 3, 4].", "en": "Before review, record a few realistic days without burdensome calculations: meal and snack times, drinks, school food, movement, sleep and symptoms. Bring earlier growth measurements or charts, test results, and the names of medicines and supplements. Also record barriers: the household budget, school schedule, accepted foods, cooking constraints or lack of a safe place to be active. A sound plan adapts to real life and culture rather than assuming every family has the same time and choices [2, 4, 5].\n\nAsk the team: What is the current growth goal? Does any test need repeating, and when? Should milk, snacks or the lunchbox change for this age? Is a nutrient deficiency possible? Iron matters in child nutrition, but iron-rich food or a supplement is not a treatment for insulin resistance without a clear reason. If iron support is needed, use the dedicated guidance rather than adding a random supplement [3, 7].\n\nThe medical team at La Rose can review the picture with you and translate general guidance into steps that fit the child after assessment, without promising an outcome or fixed timeline. Ask for one or two feasible changes, a clear follow-up measure and a review point. Decisions about testing, treatment or a weight goal remain with the treating clinician. If you need to begin or review the plan, book a consultation and bring the record and results [2, 3, 4]."}, "links": {
             "ar": [
               {
-                "label": "احجز استشارة مع الفريق الطبي",
+                "label": "احجز استشارة",
                 "url": "../patients/booking.html"
               }
             ],
             "en": [
               {
-                "label": "Book a consultation with the medical team",
+                "label": "book a consultation",
                 "url": "../patients/booking.html"
               }
             ]

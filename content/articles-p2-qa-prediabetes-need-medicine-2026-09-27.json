@@ -13,7 +13,7 @@
         "weight-management"
       ],
       "date": "2026-09-07",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 9,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
@@ -24,8 +24,7 @@
             "ar": "وسّعنا شرح قرار الدواء بعد نتيجة ما قبل السكري والمتابعة وعلامات الخطر، واتراجع المحتوى طبياً من جديد. اتضاف سؤالين شائعين عن نزول الوزن اللي بيفرق وعوامل الخطر لما قبل السكر، بمصادرهم.",
             "en": "We expanded the medicine decision after a prediabetes result, follow-up and warning signs, and medically re-reviewed the content. Added two cited FAQs on meaningful weight loss and prediabetes risk factors."
           }
-        }
-      ],
+        }, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "image": "assets/img/articles/internal-medicine-2.webp",
       "title": {
         "ar": "السكر التراكمي في مرحلة ما قبل السكري: هل تحتاج دواء؟",
@@ -190,7 +189,7 @@
           "links": {
             "ar": [
               {
-                "label": "احجز موعداً",
+                "label": "تحجز موعداً",
                 "url": "../patients/booking.html"
               }
             ],

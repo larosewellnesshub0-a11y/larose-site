@@ -14,7 +14,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -147,8 +147,8 @@
             "en": "Before any injection, ask about expected reactions and how to obtain help. Local pain, redness or bruising can occur with different injection procedures, but fever with spreading redness, pus, worsening severe pain, skin discolouration, an ulcer, a persistent lump, muscle weakness, new numbness or difficulty swallowing needs prompt medical contact according to severity. Difficulty breathing or rapid swelling of the face or tongue requires emergency care. Do not try to treat a possible complication yourself with another mixture or injection. [2, 3, 4, 8]\n\nBefore an appointment, prepare a list of medicines, supplements and allergies, and record the weight trend and any weight-management medicine and symptoms. Do not stop an anticoagulant or any prescribed medicine independently; ask its prescriber. Active skin infection or an unstable health problem needs review first. Leave full room for a “not now” decision if weight is changing, nutrition is inadequate, the ingredient is unclear or the proposed use falls outside the available evidence. [2, 4, 5]\n\nIf you need to connect a weight-loss goal with a local concern in an individual assessment, the medical team at La Rose can begin by reviewing the goal, the plan and the information about any proposed procedure, without promising a result. La Rose has branches in Maadi and Fifth Settlement, New Cairo. The outcome may be to continue weight care, defer local assessment, choose an alternative or have no procedure. You can book a consultation and bring the names of products and medicines so the discussion is specific and safer. [1, 2, 5]"
           },
           "links": {
-            "ar": [{"label": "تورم سريع في الوجه أو اللسان","url": "../articles/face-mesotherapy-skin-boosters.html"},{"label": "احجز استشارة مع الفريق الطبي","url": "../patients/booking.html"}],
-            "en": [{"label": "swelling of the face or tongue","url": "../articles/face-mesotherapy-skin-boosters.html"},{"label": "Book a consultation","url": "../patients/booking.html"}]
+            "ar": [{"label": "تورم سريع في الوجه أو اللسان","url": "../articles/face-mesotherapy-skin-boosters.html"},{"label": "تحجز استشارة","url": "../patients/booking.html"}],
+            "en": [{"label": "swelling of the face or tongue","url": "../articles/face-mesotherapy-skin-boosters.html"},{"label": "book a consultation","url": "../patients/booking.html"}]
           }
         }
       ],

@@ -13,7 +13,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "readingTime": 11,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -161,8 +161,8 @@
             "en": "If your main goal is to improve the appearance of the skin, bring the name of any proposed product, a photograph of its packaging and the ingredient list, and describe the concern as specifically as possible. A useful medical assessment separates dryness or texture from pigmentation, scarring and volume loss, then asks whether evidence for the product matches the goal. There is no single outcome called “glow” that applies to every person and every formulation [2, 3].\n\nThis article is educational only, and La Rose does not present face mesotherapy or skin boosters here as a clinic service. The related offering linked on the website is a body-contouring consultation, which is different from facial injections. If your question concerns body contouring, the medical team at La Rose can assess the body-shape goal and discuss options related to the listed service without assuming that the same substances or evidence apply to the face. La Rose has branches in Maadi and Fifth Settlement, New Cairo.\n\nIf you have a symptom after an injection already performed, do not wait for a routine cosmetic appointment when a warning sign described above is present. Seek an appropriate level of assessment for its severity, and keep the product name, batch number, injection date and chronological photographs. If there is no urgent symptom and you want to discuss the related body-contouring service, you can book a consultation with the medical team and make clear that your question concerns the listed service, not a facial injection treatment [7, 10]."
           },
           "links": {
-            "ar": [{"label": "احجز استشارة نحت الجسم مع الفريق الطبي","url": "../patients/booking.html"}],
-            "en": [{"label": "Book a body-contouring consultation","url": "../patients/booking.html"}]
+            "ar": [{"label": "تحجز استشارة مع الفريق الطبي","url": "../patients/booking.html"}],
+            "en": [{"label": "book a consultation with the medical team","url": "../patients/booking.html"}]
           }
         }
       ],

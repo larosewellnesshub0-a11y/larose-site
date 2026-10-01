@@ -12,7 +12,7 @@
         "internal-medicine"
       ],
       "date": "2026-09-07",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 9,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -23,8 +23,7 @@
             "ar": "وسعنا تفاصيل احتياج الجسم الحقيقي من السوائل، وقاعدة الـ 8 أكواب، وعلامات الجفاف وزيادة الشرب، مع مراجعة طبية شاملة.",
             "en": "We expanded the real physiological fluid needs, the 8-glass myth, dehydration markers, overhydration risks, and completed a comprehensive medical re-review."
           }
-        }
-      ],
+        }, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "image": "assets/img/articles/clinical-nutrition-2.webp",
       "title": {
         "ar": "هل لازم تشرب 8 أكواب مياه يومياً؟",
@@ -171,7 +170,7 @@
                 "url": "../articles/therapeutic-nutrition-first-visit-guide.html"
               },
               {
-                "label": "حجز موعد في العيادة",
+                "label": "رابط الحجز",
                 "url": "../patients/booking.html"
               }
             ],
@@ -181,7 +180,7 @@
                 "url": "../articles/therapeutic-nutrition-first-visit-guide.html"
               },
               {
-                "label": "book a clinic consultation",
+                "label": "booking link",
                 "url": "../patients/booking.html"
               }
             ]

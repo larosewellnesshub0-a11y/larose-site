@@ -128,7 +128,7 @@
                 "url": "../articles/abdominal-ultrasound-what-it-shows.html"
               },
               {
-                "label": "احجز موعد",
+                "label": "تحجز موعد",
                 "url": "../patients/booking.html"
               }
             ],
@@ -302,8 +302,7 @@
             "ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.",
             "en": "Added internal links to related articles; no change to the medical content."
           }
-        }
-      ]
+        }, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}]
     }
   ]
 }

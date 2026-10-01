@@ -13,7 +13,7 @@
       ],
       "date": "2026-09-27",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "readingTime": 8,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
@@ -178,19 +178,19 @@
             "en": "Treat the report as part of the picture, not a ready-made decision"
           },
           "body": {
-            "ar": "قبل المراجعة، جهّز تقرير السونار وصوره لو متاحة، أي فحص قديم للمقارنة، قائمة الأدوية والمكملات، ونتائج وظائف الكبد أو البنكرياس إن كانت اتعملت. اكتب نوبات الألم بوقت البداية والمدة والمكان والأعراض المصاحبة. المعلومات دي بتساعد الطبيب يفرق بين رواسب عرضية، حصوات دقيقة محتملة، حصوة مؤكدة، أو سبب تاني للشكوى [5, 6, 8].\n\nما تبدأش أدوية لإذابة الحصوات، أعشاب «تنظيف المرارة»، أو نظام صيام قاسي من نفسك. اختيار العلاج بيعتمد على وجود أعراض حقيقية أو مضاعفات ومكان المادة، وبعض التدخلات ليها استخدامات محددة ومش مناسبة لكل تقرير. لو النتيجة ملتبسة أو الأعراض متكررة، الفريق الطبي في لاروز يقدر يراجع القصة والتقرير ويحدد هل المطلوب متابعة، تحاليل، تصوير إضافي، أو إحالة جراحية من غير وعود أو قرار مسبق [6, 8, 11].",
-            "en": "Before review, prepare the ultrasound report and images if available, any older scan for comparison, a list of medicines and supplements, and liver or pancreatic test results if they were performed. Write down pain episodes with their start time, duration, location and accompanying symptoms. This information helps the clinician distinguish incidental sludge, possible microlithiasis, a definite stone, or another cause of the complaint [5, 6, 8].\n\nDo not start stone-dissolving medicines, “gallbladder cleanse” herbs, or an extreme fasting plan yourself. Treatment selection depends on genuine symptoms or complications and the location of the material; some interventions have narrow indications and are not suitable for every report. When the finding is uncertain or symptoms recur, the medical team at La Rose can review the history and report, then decide whether follow-up, blood tests, additional imaging or surgical referral is appropriate, without promises or a predetermined decision [6, 8, 11]."
+            "ar": "قبل المراجعة، جهّز تقرير السونار وصوره لو متاحة، أي فحص قديم للمقارنة، قائمة الأدوية والمكملات، ونتائج وظائف الكبد أو البنكرياس إن كانت اتعملت. اكتب نوبات الألم بوقت البداية والمدة والمكان والأعراض المصاحبة. المعلومات دي بتساعد الطبيب يفرق بين رواسب عرضية، حصوات دقيقة محتملة، حصوة مؤكدة، أو سبب تاني للشكوى [5, 6, 8].\n\nما تبدأش أدوية لإذابة الحصوات، أعشاب «تنظيف المرارة»، أو نظام صيام قاسي من نفسك. اختيار العلاج بيعتمد على وجود أعراض حقيقية أو مضاعفات ومكان المادة، وبعض التدخلات ليها استخدامات محددة ومش مناسبة لكل تقرير. لو النتيجة ملتبسة أو الأعراض متكررة، الفريق الطبي في لاروز يقدر يراجع القصة والتقرير ويحدد هل المطلوب متابعة، تحاليل، تصوير إضافي، أو إحالة جراحية من غير وعود أو قرار مسبق [6, 8, 11]. وللأعراض اللي مش عاجلة، تقدر تحجز استشارة مع الفريق الطبي.",
+            "en": "Before review, prepare the ultrasound report and images if available, any older scan for comparison, a list of medicines and supplements, and liver or pancreatic test results if they were performed. Write down pain episodes with their start time, duration, location and accompanying symptoms. This information helps the clinician distinguish incidental sludge, possible microlithiasis, a definite stone, or another cause of the complaint [5, 6, 8].\n\nDo not start stone-dissolving medicines, “gallbladder cleanse” herbs, or an extreme fasting plan yourself. Treatment selection depends on genuine symptoms or complications and the location of the material; some interventions have narrow indications and are not suitable for every report. When the finding is uncertain or symptoms recur, the medical team at La Rose can review the history and report, then decide whether follow-up, blood tests, additional imaging or surgical referral is appropriate, without promises or a predetermined decision [6, 8, 11]. For non-urgent concerns, you can book a consultation with the medical team."
           },
           "links": {
             "ar": [
               {
-                "label": "احجز استشارة مع الفريق الطبي",
+                "label": "تحجز استشارة مع الفريق الطبي",
                 "url": "../patients/booking.html"
               }
             ],
             "en": [
               {
-                "label": "Book a consultation",
+                "label": "book a consultation with the medical team",
                 "url": "../patients/booking.html"
               }
             ]

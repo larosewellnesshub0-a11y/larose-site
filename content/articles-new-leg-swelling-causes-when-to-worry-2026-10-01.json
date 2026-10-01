@@ -12,7 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "readingTime": 15,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-sherif",
@@ -192,13 +192,13 @@
           "links": {
             "ar": [
               {
-                "label": "احجز استشارة مع الفريق الطبي في لاروز",
+                "label": "احجز كشفاً",
                 "url": "../patients/booking.html"
               }
             ],
             "en": [
               {
-                "label": "Book a consultation with the medical team at La Rose",
+                "label": "book an assessment",
                 "url": "../patients/booking.html"
               }
             ]

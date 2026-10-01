@@ -13,7 +13,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -157,12 +157,12 @@
             "en": "Next step: assess the tissue before choosing a procedure"
           },
           "body": {
-            "ar": "لو مضايقك شكل الذراعين أو الفخاد، ابدأ بهدف محدد ووصف بسيط للتغير: ظهر بعد نزول وزن، ولا ثابت من زمان، ولا فيه اختلاف جديد بين الجانبين؟ خُد معاك أسماء أي حقن أو منتجات استخدمتها قبل كده، وصور العبوة لو موجودة، وأي تاريخ لحساسية أو عدوى أو مشكلة التئام. المعلومات دي بتساعد التقييم أكتر من طلب \"جلسة ميزو\" قبل معرفة السبب [1, 6].\n\nالفريق الطبي في لاروز يقدر يبدأ بتقييم هادئ للدهون السطحية ومرونة الجلد والهدف المتوقع، من غير افتراض إن إجراء واحد مناسب لكل شخص. لاروز لها فرع في المعادي وفرع في التجمع الخامس بالقاهرة الجديدة. القرار الفردي لازم يفضل مع الطبيب المعالج بعد شرح المادة، حدود الدليل، البدائل والمخاطر، خصوصاً إن استخدام حقن إذابة الدهون في الذراعين والفخاد خارج نطاق اعتماد FDA والدليل عليه محدود [1, 2, 4, 5].",
-            "en": "If the contour of your arms or thighs concerns you, start with a defined goal and a simple history of the change: did it appear after weight loss, has it been stable for years, or is there a new difference between the two sides? Bring the names of any injections or products used previously, photographs of the packaging if available, and any history of allergy, infection or impaired healing. This information supports assessment better than requesting a “meso session” before the cause is known [1, 6].\n\nThe medical team at La Rose can begin with a calm assessment of superficial fat, skin recoil and the intended outcome without assuming that one procedure suits everyone. La Rose has branches in Maadi and Fifth Settlement, New Cairo. The individual decision remains with the treating clinician after the ingredient, evidence limits, alternatives and risks are explained, especially because fat-dissolving injections in the arms and thighs are outside FDA-approved use and the supporting evidence is limited [1, 2, 4, 5]."
+            "ar": "لو مضايقك شكل الذراعين أو الفخاد، ابدأ بهدف محدد ووصف بسيط للتغير: ظهر بعد نزول وزن، ولا ثابت من زمان، ولا فيه اختلاف جديد بين الجانبين؟ خُد معاك أسماء أي حقن أو منتجات استخدمتها قبل كده، وصور العبوة لو موجودة، وأي تاريخ لحساسية أو عدوى أو مشكلة التئام. المعلومات دي بتساعد التقييم أكتر من طلب \"جلسة ميزو\" قبل معرفة السبب [1, 6].\n\nالفريق الطبي في لاروز يقدر يبدأ بتقييم هادئ للدهون السطحية ومرونة الجلد والهدف المتوقع، من غير افتراض إن إجراء واحد مناسب لكل شخص. لاروز لها فرع في المعادي وفرع في التجمع الخامس بالقاهرة الجديدة. القرار الفردي لازم يفضل مع الطبيب المعالج بعد شرح المادة، حدود الدليل، البدائل والمخاطر، خصوصاً إن استخدام حقن إذابة الدهون في الذراعين والفخاد خارج نطاق اعتماد FDA والدليل عليه محدود [1, 2, 4, 5]. وللأعراض اللي مش عاجلة، تقدر تحجز استشارة مع الفريق الطبي.",
+            "en": "If the contour of your arms or thighs concerns you, start with a defined goal and a simple history of the change: did it appear after weight loss, has it been stable for years, or is there a new difference between the two sides? Bring the names of any injections or products used previously, photographs of the packaging if available, and any history of allergy, infection or impaired healing. This information supports assessment better than requesting a “meso session” before the cause is known [1, 6].\n\nThe medical team at La Rose can begin with a calm assessment of superficial fat, skin recoil and the intended outcome without assuming that one procedure suits everyone. La Rose has branches in Maadi and Fifth Settlement, New Cairo. The individual decision remains with the treating clinician after the ingredient, evidence limits, alternatives and risks are explained, especially because fat-dissolving injections in the arms and thighs are outside FDA-approved use and the supporting evidence is limited [1, 2, 4, 5]. For non-urgent concerns, you can book a consultation with the medical team."
           },
           "links": {
-            "ar": [{"label": "احجز استشارة مع الفريق الطبي","url": "../patients/booking.html"}],
-            "en": [{"label": "Book a consultation","url": "../patients/booking.html"}]
+            "ar": [{"label": "تحجز استشارة مع الفريق الطبي","url": "../patients/booking.html"}],
+            "en": [{"label": "book a consultation with the medical team","url": "../patients/booking.html"}]
           }
         }
       ],

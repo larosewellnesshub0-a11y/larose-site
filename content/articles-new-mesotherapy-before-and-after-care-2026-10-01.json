@@ -10,7 +10,7 @@
       "specialties": ["body-contouring"],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "readingTime": 9,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -144,8 +144,8 @@
             "en": "If you are considering a session, prepare the proposed product name or a vial photograph when available, plus a list of medicines, supplements, allergies and previous procedures. State your goal in one sentence and ask whether the concern is genuinely superficial fat or instead loose skin or another cause. A sound assessment may lead to proceeding, postponement, a different option, or no procedure; all are legitimate outcomes. The decision should follow examination and clear information about the product and site, not a marketing name or before-and-after photograph [1, 4, 7].\n\nThe medical team at La Rose can discuss the situation individually at the Maadi and Fifth Settlement, New Cairo branches, without promising an outcome or assuming mesotherapy suits everyone. During the visit, request a written plan covering preparation, what to expect during the first week, how to make contact and when review is appropriate for the product and area. If you already have increasing pain, possible infection, skin colour change, swallowing difficulty, facial weakness or any emergency sign described above, seek the level of care appropriate to its severity instead of waiting for a routine cosmetic appointment. You can book a consultation with the medical team when you need a structured starting assessment [2, 5, 6]."
           },
           "links": {
-            "ar": [{"label": "احجز استشارة مع الفريق الطبي","url": "../patients/booking.html"}],
-            "en": [{"label": "Book a consultation","url": "../patients/booking.html"}]
+            "ar": [{"label": "تحجز استشارة مع الفريق الطبي","url": "../patients/booking.html"}],
+            "en": [{"label": "book a consultation with the medical team","url": "../patients/booking.html"}]
           }
         }
       ],

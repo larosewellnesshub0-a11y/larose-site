@@ -12,7 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-sherif",
       "reviewedBy": "mohab-ashraf",
@@ -185,18 +185,18 @@
           },
           "body": {
             "ar": "خشونة الركبة غالباً بتعمل ألماً وتيبساً تدريجياً، لكن ركبة سخنة وحمراء ومتورمة فجأة، خصوصاً مع حرارة أو رعشة أو إحساس عام بالتعب، محتاجة تقييماً عاجلاً لاستبعاد عدوى المفصل أو سبب تاني. اطلب رعاية عاجلة كمان بعد إصابة قوية لو مش قادر تحمل وزنك، أو لو الركبة شكلها اتغير، أو فيه ألم وتورم شديدان في الساق مع ضيق نفس. ما تفترضش إن كل نوبة ألم مجرد خشونة [4, 7, 11].\n\nاحجز تقييماً طبياً قريباً لو الألم مستمر، أو بيصحّيك، أو بيقلل المشي والشغل والصلاة، أو لو الركبة بتقفل أو بتخونك. حضّر قائمة بأدويتك ومكملاتك، وإمتى الألم بيزيد، وإيه اللي جربته ونتيجته. التقييم يحدد هل النمط فعلاً خشونة، وهل محتاج علاج طبيعي، ومراجعة دواء، أو تقييم لتدخل آخر. ما تغيّرش دواء أو تبدأ حقنة أو مكمل بناءً على المقال وحده [1, 4, 7].\n\nالفريق الطبي في لاروز يقدر يبدأ بتقييم الصورة كاملة وبناء خطوة تالية تناسب حالتك، مع فروع في المعادي والتجمع الخامس بالقاهرة الجديدة. الهدف من الزيارة مش بيع حل واحد؛ الهدف ترتيب الخيارات حسب الأمان وتأثير الألم على حياتك، وتحديد إمتى تحتاج تخصصاً أو تدخلاً إضافياً. خُد معاك التقارير أو الأشعات القديمة لو موجودة، لكن القرار يتبني على الأعراض والفحص مش الورق وحده [1, 4, 10].",
-            "en": "Knee osteoarthritis usually causes gradual pain and stiffness, but a suddenly hot, red and swollen knee, especially with fever, shivering or feeling generally unwell, needs urgent assessment to exclude joint infection or another cause. Seek urgent care after a major injury if you cannot bear weight or the knee looks deformed, and for severe leg pain and swelling accompanied by breathlessness. Do not assume that every flare is simply osteoarthritis [4, 7, 11].\n\nArrange a timely clinical assessment if pain persists, wakes you, limits walking, work or prayer, or if the knee locks or gives way. Bring a list of medicines and supplements, when pain gets worse, and what you have tried and how it worked. Assessment establishes whether the pattern really is osteoarthritis and whether you need physiotherapy, a medicine review or evaluation for another intervention. Do not change medicine or start an injection or supplement on the basis of this article alone [1, 4, 7].\n\nThe medical team at La Rose can begin with a whole-picture assessment and plan a next step suited to your situation, with branches in Maadi and Fifth Settlement, New Cairo. The purpose of the visit is not to sell one solution; it is to order the options by safety and by the effect of pain on your life, and to identify when another specialty or intervention is needed. Bring previous reports or images if available, but decisions depend on symptoms and examination rather than paperwork alone [1, 4, 10]."
+            "en": "Knee osteoarthritis usually causes gradual pain and stiffness, but a suddenly hot, red and swollen knee, especially with fever, shivering or feeling generally unwell, needs urgent assessment to exclude joint infection or another cause. Seek urgent care after a major injury if you cannot bear weight or the knee looks deformed, and for severe leg pain and swelling accompanied by breathlessness. Do not assume that every flare is simply osteoarthritis [4, 7, 11].\n\nArrange a timely clinical assessment if pain persists, wakes you, limits walking, work or prayer, or if the knee locks or gives way. Bring a list of medicines and supplements, when pain gets worse, and what you have tried and how it worked. Assessment establishes whether the pattern really is osteoarthritis and whether you need physiotherapy, a medicine review or evaluation for another intervention. Do not change medicine or start an injection or supplement on the basis of this article alone [1, 4, 7].\n\nThe medical team at La Rose can begin with a whole-picture assessment and plan a next step suited to your situation, with branches in Maadi and Fifth Settlement, New Cairo. The purpose of the visit is not to sell one solution; it is to order the options by safety and by the effect of pain on your life, and to identify when another specialty or intervention is needed. Bring previous reports or images if available, but decisions depend on symptoms and examination rather than paperwork alone [1, 4, 10]. For non-urgent concerns, you can book a consultation with the medical team."
           },
           "links": {
             "ar": [
               {
-                "label": "احجز استشارة مع الفريق الطبي",
+                "label": "احجز تقييماً",
                 "url": "../patients/booking.html"
               }
             ],
             "en": [
               {
-                "label": "Book a consultation",
+                "label": "book a consultation with the medical team",
                 "url": "../patients/booking.html"
               }
             ]

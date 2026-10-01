@@ -32,7 +32,7 @@
       },
       "type": "update",
       "date": "2026-08-25",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 8,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
@@ -167,7 +167,7 @@
           "links": {
             "ar": [
               {
-                "label": "احجز تقييم",
+                "label": "تحجز تقييم",
                 "url": "../patients/booking.html"
               }
             ],
@@ -303,8 +303,7 @@
             "ar": "اتوسع دليل فيتامين ب12 للنباتيين بالمصادر الموثوقة وقراءة الملصق والتحليل والمتابعة، واتراجع طبيا من جديد. اتضاف سؤالين شائعين عن علاج نقص B12 المرتبط بالأكل ومواعيد إعادة التحليل، بمصادرهم.",
             "en": "The plant-based vitamin B12 guide was expanded with reliable sources, label reading, testing and follow-up, and medically re-reviewed. Added two cited FAQs on treating diet-related B12 deficiency and follow-up blood tests."
           }
-        }
-      ]
+        }, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}]
     }
   ]
 }
