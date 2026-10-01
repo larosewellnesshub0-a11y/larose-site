@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-sherif",
@@ -69,18 +70,8 @@
             "en": "Diarrhoea that continues, especially when accompanied by blood or mucus, recurrent abdominal pain, marked urgency, pronounced fatigue or unintentional weight loss deserves medical assessment. The NHS advises seeing a doctor when diarrhoea lasts more than a week, when blood or mucus is present, when pain or bloating persists or returns, or when weight is being lost unintentionally. Diarrhoea continuing for weeks strengthens the need to look for IBD and other organic causes instead of treating it as a passing upset [5, 7, 9].\n\nDiarrhoea that wakes you from sleep is an important detail to report because it is not the usual pattern of functional symptoms alone and prompts consideration of inflammation or another organic cause. Also mention fever, vomiting, poor appetite, eye pain or redness, joint soreness or painful skin changes. These signs are not specific to one disease, but they are described within the possible presentation of Crohn’s disease or ulcerative colitis and help the clinician build a more accurate assessment [2, 5, 9, 12].\n\nAnaemia can occur when the body has too few red blood cells and may be a complication or laboratory sign found with IBD. Fatigue by itself is not a diagnosis, but fatigue alongside persistent diarrhoea, bleeding or weight loss matters. Recording when symptoms began, how often you pass stool, whether blood or mucus is present and whether symptoms wake you at night gives the clinician more useful information than describing everything broadly as “the colon” [2, 3, 5, 6]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "اقرأ عن أعراض القولون العصبي وعلامات الإنذار",
-                "url": "../articles/ibs-colon-symptoms-red-flags.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Read about IBS symptoms and red flags",
-                "url": "../articles/ibs-colon-symptoms-red-flags.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -96,14 +87,14 @@
           "links": {
             "ar": [
               {
-                "label": "متى تكون أعراض القولون العصبي الشديدة علامة إنذار؟",
-                "url": "../articles/severe-ibs-symptoms-red-flags.html"
+                "label": "القولون العصبي",
+                "url": "../articles/ibs-colon-symptoms-red-flags.html"
               }
             ],
             "en": [
               {
-                "label": "When severe IBS symptoms are a red flag",
-                "url": "../articles/severe-ibs-symptoms-red-flags.html"
+                "label": "IBD and IBS",
+                "url": "../articles/ibs-colon-symptoms-red-flags.html"
               }
             ]
           }
@@ -134,18 +125,8 @@
             "en": "Assessment often begins with a structured history covering the duration and character of diarrhoea, blood or mucus, pain, fever, travel, medicines, family history and weight change. Examination may include temperature, pulse and blood pressure, an abdominal examination and, when symptoms warrant it, a rectal examination. The aim is not to prove the diagnosis in one conversation, but to decide urgency and identify the most relevant causes to exclude [3, 6].\n\nA full blood count may show anaemia or changes supporting inflammation or infection. C-reactive protein may indicate inflammation somewhere in the body, but it is not specific to the bowel and cannot identify the IBD type on its own. Stool tests may look for blood, evidence of intestinal inflammation and infections that could explain the symptoms. A normal result in one test does not erase the clinical history, while an abnormal result does not prove Crohn’s disease or ulcerative colitis without the rest of the diagnostic process [3, 6, 10, 11].\n\nIf iron deficiency or anaemia is found, the question is not only “How do we raise the number?” but also “Why did it fall?” Visible or hidden bleeding, inflammation, reduced intake or impaired absorption are possibilities that the clinician weighs against the history. Do not start supplements or stop a prescribed medicine because of this article. Bring old and new laboratory reports so that trends are clearer, and discuss the cause of the deficiency and a follow-up plan [2, 3, 5, 6]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "اقرأ عن نقص مخزون الحديد مع صورة دم طبيعية",
-                "url": "../articles/qa-low-ferritin-normal-cbc.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Read about low ferritin with a normal blood count",
-                "url": "../articles/qa-low-ferritin-normal-cbc.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -161,13 +142,13 @@
           "links": {
             "ar": [
               {
-                "label": "منظار القولون: الألم والتهدئة والمدة",
+                "label": "منظار القولون أو المنظار السيني",
                 "url": "../articles/colonoscopy-procedure-pain-sedation-duration.html"
               }
             ],
             "en": [
               {
-                "label": "Colonoscopy: pain, sedation and duration",
+                "label": "colonoscopy or flexible sigmoidoscopy",
                 "url": "../articles/colonoscopy-procedure-pain-sedation-duration.html"
               }
             ]
@@ -184,8 +165,26 @@
             "en": "Seek urgent care for severe abdominal pain, continuous rectal bleeding, a large amount of blood or blood clots in the stool, or vomit containing blood or resembling coffee grounds. Ongoing diarrhoea with signs of dehydration, severe pain, fever or signs of infection also needs prompt assessment. Urgency depends on your general condition, the amount of bleeding and whether you can drink, not on the diagnostic label you expect [7, 9].\n\nSigns of dehydration include marked thirst, dizziness, reduced urination or dark urine, and obvious weakness. If you cannot keep fluids down or your condition is deteriorating, do not wait for a routine appointment. If you take medicines that affect the immune system or have another chronic condition, tell the urgent-care team because that context changes the assessment [7, 9].\n\nA small amount of blood on one occasion has several possible causes, but it still deserves discussion, especially if it recurs or comes with a persistent bowel change. Do not assume that blood is from haemorrhoids, and do not make the opposite assumption that it must be IBD; assessment determines the cause. Alarm guidance is intended to help you choose the right timing for care, calmly and without delaying a worsening condition [7, 9]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "وجود دم بسيط",
+                "url": "../articles/haemorrhoids-symptoms-when-to-check.html"
+              },
+              {
+                "label": "نزيف مستمر من الشرج",
+                "url": "../articles/anal-fissure-pain-and-bleeding.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "small amount of blood",
+                "url": "../articles/haemorrhoids-symptoms-when-to-check.html"
+              },
+              {
+                "label": "rectal bleeding",
+                "url": "../articles/anal-fissure-pain-and-bleeding.html"
+              }
+            ]
           }
         },
         {

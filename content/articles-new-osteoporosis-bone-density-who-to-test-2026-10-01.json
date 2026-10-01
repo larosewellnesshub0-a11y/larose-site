@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-sherif",
       "reviewedBy": "mohab-ashraf",
@@ -54,8 +55,26 @@
             "en": "People often use “osteoporosis” and “osteoarthritis” as though they describe the same problem, but the distinction matters. Osteoporosis is a disease in which bone mineral density or bone mass falls, or bone structure and strength change, increasing the likelihood of fracture. Osteoarthritis affects a joint itself: cartilage and other tissues within the joint change over time, commonly producing pain, stiffness, and limited movement in the knee, hip, or hand. Knee pain with movement may therefore point toward an osteoarthritis assessment, while osteoporosis can be present without joint pain at all [1, 5, 8].\n\nOsteoporosis is often called a silent disease because a person may notice nothing before a fracture occurs. Osteoporosis-related fractures commonly affect the vertebrae, hip, and wrist, and may follow a minor fall or stress that healthier bone would usually tolerate. An absence of pain does not prove that bone density is healthy, and general pain does not diagnose osteoporosis. Diagnosis and risk assessment depend on medical history, risk factors, and sometimes bone-density measurement rather than pain alone [1, 8, 12].\n\nSeparating the two conditions avoids investigations or treatments aimed at the wrong problem. Ordinary joint imaging can help a clinician assess osteoarthritis changes, while a bone-density test has a different purpose: measuring mineral density and helping estimate fracture risk. A person can have both conditions at the same time, but each requires its own assessment and evidence-based plan [2, 5]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "وجع الركبة مع الحركة",
+                "url": "../articles/knee-osteoarthritis-symptoms-and-grades.html"
+              },
+              {
+                "label": "وجود ألم عام",
+                "url": "../articles/fibromyalgia-widespread-pain.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Knee pain with movement",
+                "url": "../articles/knee-osteoarthritis-symptoms-and-grades.html"
+              },
+              {
+                "label": "general pain",
+                "url": "../articles/fibromyalgia-widespread-pain.html"
+              }
+            ]
           }
         },
         {
@@ -114,18 +133,8 @@
             "en": "Before ordering a scan, a clinician asks about previous fractures and how they happened, current and past medicines, chronic conditions, smoking and alcohol, nutrition and activity, and any family history of osteoporosis or parental hip fracture. For women, menstrual and menopause history is relevant. The physical examination may include height and weight, spinal posture, gait and balance, and muscle strength. These details help interpret DXA and identify fall risks or possible secondary causes needing further assessment [1].\n\nAn ordinary blood test does not measure bone density, and a normal blood calcium result does not exclude osteoporosis. Bone-density testing measures minerals within bone, while laboratory tests, when selected by the clinician, investigate a deficiency or associated condition that could affect bone or alter management. The popular search phrase “osteoporosis analysis” therefore usually refers to DXA rather than one blood sample that returns a simple positive or negative result [1, 2].\n\nAfter a fragility fracture, assessment should not end with pain control or fracture healing. A fracture after minor trauma can signal a higher likelihood of another fracture and the need for a combined bone-health and fall-prevention plan. Similarly, when glucocorticoid treatment is necessary for another disease, the choice is not simply between treating that disease and protecting bone; the clinician reviews risk and balances both plans without abruptly stopping the glucocorticoid [1, 4, 10, 12]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "إمتى التعب يستدعي تقييم فيتامين د؟",
-                "url": "../articles/qa-vitamin-d-fatigue.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "when fatigue may justify vitamin D assessment",
-                "url": "../articles/qa-vitamin-d-fatigue.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -141,13 +150,13 @@
           "links": {
             "ar": [
               {
-                "label": "ليه المكملات بتتحدد حسب الاحتياج؟",
+                "label": "مكمل موجه",
                 "url": "../articles/supplements-are-targeted-not-a-default.html"
               }
             ],
             "en": [
               {
-                "label": "why supplements should be targeted to need",
+                "label": "targeted supplement",
                 "url": "../articles/supplements-are-targeted-not-a-default.html"
               }
             ]
@@ -164,18 +173,8 @@
             "en": "Fracture prevention depends on more than bone density. Weight-bearing activity such as walking, resistance exercise, and balance training help maintain bone and muscle and improve balance. Stronger muscles and better coordination reduce the likelihood of falling, which is particularly important with age. If osteoporosis, a vertebral fracture, or limited mobility is already present, exercise type and intensity should be selected with a clinician or rehabilitation professional because sudden or excessive loading is not appropriate for everyone [1, 6].\n\nThe home is also part of prevention: provide good lighting, remove loose rugs and cables from walking routes, clean spills promptly, use secure stair rails, and wear supportive footwear. Reviewing vision and hearing, rising slowly when dizziness occurs, and asking for a review of medicines that may cause sleepiness or poor balance are practical ways to reduce falls. The aim is not to become afraid of movement; it is to move safely in a supportive environment [7, 8, 12].\n\nPreserving muscle also matters, particularly during weight loss or reduced appetite. Adequate protein for the individual and progressive resistance activity can support strength and mobility, although details may differ with kidney disease or another medical condition. A successful prevention plan combines suitable nutrition, safe movement, reduced fall hazards, and prescribed medicine when indicated; no single component replaces all the others [1, 6, 10]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "إزاي تحافظ على العضلات مع نزول الوزن؟",
-                "url": "../articles/protecting-muscle-while-losing-weight.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "how to protect muscle during weight loss",
-                "url": "../articles/protecting-muscle-while-losing-weight.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {

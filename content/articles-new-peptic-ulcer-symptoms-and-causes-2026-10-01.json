@@ -10,6 +10,7 @@
       "specialties": ["gastroenterology-hepatology"],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 9,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-sherif",
@@ -37,7 +38,10 @@
             "ar": "القرحة الهضمية هي جرح مفتوح في البطانة الداخلية للمعدة أو أول جزء من الأمعاء الدقيقة، اللي اسمه الاثنى عشر. لو الجرح في المعدة بنسميه قرحة معدة، ولو في الاثنى عشر يبقى قرحة اثنى عشر؛ والاتنين داخلين تحت اسم مرض القرحة الهضمية. دي مش مجرد حموضة عابرة ولا تهيّج سطحي بسيط، لأن التلف بيمتد أعمق داخل البطانة وممكن يسبب نزيف أو، في حالات أقل، ثقب في الجدار [1, 6, 7].\n\nالمعدة بتصنع حمض وإنزيمات عشان الهضم، وفي الطبيعي فيه طبقة مخاطية وآليات دفاع بتحمي الجدار. القرحة بتحصل لما التوازن ده يختل: عوامل الضرر تزيد أو وسائل الحماية تضعف، فيقدر الحمض يوصل للنسيج المصاب ويمنع الجرح من الالتئام. المكان لوحده ما يحددش السبب، وشكل الوجع لوحده ما يثبتش التشخيص؛ عشان كده وصف الأعراض بداية للتقييم، مش بديل عن الاختبار أو المنظار لما تكون فيه دواعٍ [1, 3, 7].",
             "en": "A peptic ulcer is an open sore in the inner lining of the stomach or in the first part of the small intestine, called the duodenum. A sore in the stomach is a gastric ulcer, while one in the duodenum is a duodenal ulcer; both fall under peptic ulcer disease. This is not simply occasional heartburn or mild surface irritation, because the injury extends more deeply into the lining and can lead to bleeding or, less commonly, a hole through the wall [1, 6, 7].\n\nThe stomach produces acid and enzymes for digestion, while mucus and other defences normally protect its wall. An ulcer develops when that balance is disturbed: damaging factors increase or protective mechanisms weaken, allowing acid to reach injured tissue and interfere with healing. The ulcer's location does not establish its cause, and the character of pain alone cannot confirm the diagnosis. Describing symptoms is therefore the start of assessment, not a substitute for testing or endoscopy when these are indicated [1, 3, 7]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [],
+            "en": []
+          }
         },
         {
           "id": "symptoms-and-pain-pattern",
@@ -50,8 +54,8 @@
             "en": "The most common symptom is pain or discomfort in the upper abdomen, between the breastbone and the navel. People may describe a burning or dull pain that comes and goes, sometimes at night or when the stomach is empty. Food may briefly ease one person's pain and worsen another's. The familiar rule that gastric-ulcer pain worsens with food while duodenal-ulcer pain improves is not reliable enough to diagnose the type or location [2, 5, 6].\n\nOther symptoms can include early fullness, uncomfortable fullness after a small meal, nausea, vomiting, bloating or belching. These complaints also occur in dyspepsia and reflux, so they do not automatically mean that an ulcer is present. Importantly, many ulcers cause no obvious symptoms, particularly in some people using pain medicines; anaemia or bleeding may be the first clue. Relief after an antacid, or even a complete absence of pain, therefore does not rule out an ulcer when risk factors or alarm features are present [2, 5, 6, 7]."
           },
           "links": {
-            "ar": [{"label": "اعرف الفرق بين الحموضة المتكررة وعلامات الإنذار", "url": "../articles/acid-reflux-when-to-see-doctor.html"}],
-            "en": [{"label": "Understand recurrent reflux and its alarm signs", "url": "../articles/acid-reflux-when-to-see-doctor.html"}]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -65,8 +69,18 @@
             "en": "Helicobacter pylori is an infection that lives in the stomach lining and can weaken its defences, causing a gastric or duodenal ulcer; heartburn or bloating alone does not prove that the infection is present. Confirming active infection, selecting treatment and checking that it has cleared follow a separate pathway, so those details belong in the dedicated H. pylori guide rather than being repeated here [2, 4, 11].\n\nThe other major cause is nonsteroidal anti-inflammatory drugs (NSAIDs), including commonly used medicines such as ibuprofen, naproxen and aspirin. These medicines reduce substances that help protect the stomach lining. Risk rises with longer use or higher doses, a history of ulcer or bleeding, older age, or combination with other medicines that increase bleeding. This does not mean stopping prescribed cardiovascular aspirin or another important medicine on your own; ask the clinician to balance its benefit against stomach risk and decide whether an alternative or protective strategy is appropriate [2, 6, 7].\n\nSpicy food, coffee and emotional stress may aggravate symptoms for some people, but they are not the two main causes of ulcers. Less common causes include disorders that produce extreme amounts of acid, certain diseases or infections, and severe illness requiring intensive care. If testing finds neither H. pylori nor NSAID exposure, the clinician reviews the diagnosis and medication history carefully before calling an ulcer idiopathic, meaning that no cause has been identified [2, 7]."
           },
           "links": {
-            "ar": [{"label": "دليل أعراض وتحاليل وعلاج جرثومة المعدة", "url": "../articles/h-pylori-symptoms-tests-treatment.html"}],
-            "en": [{"label": "Guide to H. pylori symptoms, tests and treatment", "url": "../articles/h-pylori-symptoms-tests-treatment.html"}]
+            "ar": [
+              {
+                "label": "جرثومة المعدة",
+                "url": "../articles/h-pylori-symptoms-tests-treatment.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "H. pylori guide",
+                "url": "../articles/h-pylori-symptoms-tests-treatment.html"
+              }
+            ]
           }
         },
         {
@@ -79,7 +93,10 @@
             "ar": "روح الطوارئ فوراً لو رجّعت دم أحمر، أو كان الترجيع غامق وشكله زي تفل القهوة، أو البراز بقى أسود لزج زي القطران. دوخة شديدة، إغماء، خفقان سريع، عرق بارد، شحوب أو ضعف مفاجئ مع أعراض المعدة ممكن تعني فقد دم أو هبوط في الدورة الدموية، حتى لو كمية الدم الظاهرة قليلة. أحياناً النزيف يبقى بطيء ومش واضح، وساعتها يظهر كتعب مستمر، نهجان أو أنيميا في التحليل؛ ده محتاج تقييم قريب، مش مجرد مكمل حديد من غير معرفة السبب [2, 5, 9, 10].\n\nوجع مفاجئ وحاد جداً في البطن ما بيروحش، خصوصاً لو البطن بقت ناشفة أو الحركة والنفس بيزودوا الوجع، ممكن يشير لثقب وتسرب محتويات المعدة أو الاثنى عشر داخل البطن. الترجيع المستمر مع انتفاخ شديد أو عدم القدرة على الاحتفاظ بسوائل ممكن يدل على انسداد أو مضاعفة تانية. دي حالات طارئة؛ ما تستناش موعد عيادة، وما تعتمدش على مسكن أو دواء حموضة لإخفاء الأعراض [2, 5, 7].\n\nلو بتاخد مميع دم أو مضاد صفائح وظهر براز أسود أو قيء دموي، بلّغ فريق الطوارئ باسم الدواء وآخر جرعة، لكن ما تغيّرش العلاج بنفسك قبل التوجيه الطبي. التقييم السريع بيشمل العلامات الحيوية وتحاليل الدم، والمنظار له دور في تحديد مصدر النزيف وعلاجه عند الحاجة [9, 10].",
             "en": "Go to emergency care immediately if you vomit red blood, vomit dark material resembling coffee grounds, or pass black, sticky, tar-like stool. Severe dizziness, fainting, a rapid heartbeat, cold sweating, pallor or sudden weakness alongside stomach symptoms may indicate blood loss or circulatory shock, even if little blood is visible. Bleeding can also be slow and hidden, appearing as persistent fatigue, breathlessness or anaemia on a blood test. That needs prompt investigation, not simply an iron supplement without finding the cause [2, 5, 9, 10].\n\nSudden, severe abdominal pain that does not settle, especially with a rigid abdomen or pain made worse by movement or breathing, may signal perforation and leakage from the stomach or duodenum. Persistent vomiting with marked swelling or inability to keep fluids down may indicate an obstruction or another complication. These are emergencies: do not wait for a clinic appointment or rely on pain relief or acid medicine to mask the symptoms [2, 5, 7].\n\nIf you take an anticoagulant or antiplatelet medicine and develop black stool or bloody vomit, tell the emergency team the medicine's name and when you last took it, but do not alter the treatment without medical direction. Rapid assessment includes vital signs and blood tests, while endoscopy can identify and, when necessary, treat the bleeding source [9, 10]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [],
+            "en": []
+          }
         },
         {
           "id": "ulcer-or-another-condition",
@@ -91,7 +108,10 @@
             "ar": "الحرقان أعلى البطن له أسباب كتير. الارتجاع غالباً يعمل حرقان طالع خلف عظمة الصدر أو طعم حامض راجع للفم، بينما القرحة ممكن تعمل وجع في فم المعدة؛ لكن الوصفين ممكن يتداخلوا. عسر الهضم اسم لمجموعة أعراض زي الألم، الامتلاء المبكر والغثيان، ومش تشخيص لسبب واحد. المرارة والبنكرياس، وبعض مشاكل القلب، ممكن كمان تظهر بوجع قريب من المنطقة دي، فمكان الوجع وحده ما يكفيش [5, 8, 12].\n\nالطبيب بيسأل عن بداية الأعراض وعلاقتها بالأكل، المسكنات والأسبرين، أدوية السيولة، التدخين، قرحة أو نزيف سابق، قيء، صعوبة بلع، نزول وزن، وتاريخ عائلي لأمراض المعدة. كمان بيفحص البطن ويدور على علامات أنيميا أو عدم استقرار. الاستجابة لدواء يقلل الحمض ممكن تساعد في الخطة، لكنها ما تفرقش بشكل قاطع بين قرحة وارتجاع وعسر هضم وظيفي، وما ينفعش تستخدمها كاختبار منزلي لاستبعاد مرض مهم [3, 8, 12].\n\nلو الأعراض خفيفة وقصيرة ومن غير علامات إنذار، ممكن يبدأ المسار بتقييم غير طارئ واختبارات موجهة. أما نزيف، أنيميا غير مفسرة، صعوبة أو ألم في البلع، ترجيع مستمر، نزول وزن غير مقصود، كتلة محسوسة، أو أعراض جديدة ومستمرة في شخص أكبر سناً، فكلها بتغيّر سرعة ونوع الفحوصات [3, 8, 12].",
             "en": "Burning in the upper abdomen has many possible explanations. Reflux more often causes burning behind the breastbone or sour fluid reaching the mouth, whereas an ulcer may cause pain in the pit of the stomach, but these descriptions overlap. Dyspepsia is a group of symptoms such as pain, early fullness and nausea, not a diagnosis of one cause. Gallbladder, pancreatic and some heart problems can also cause discomfort near this area, so location alone is insufficient [5, 8, 12].\n\nA clinician asks when symptoms began and how they relate to meals, NSAIDs and aspirin, blood-thinning medicines, smoking, previous ulcer or bleeding, vomiting, swallowing difficulty, unintended weight loss and family history of stomach disease. Examination looks for abdominal findings, anaemia and instability. A response to acid suppression may help shape a plan, but it does not reliably distinguish ulcer from reflux or functional dyspepsia and should not be used as a home test to exclude important disease [3, 8, 12].\n\nWhen symptoms are mild, brief and unaccompanied by alarm features, the pathway may begin with non-urgent assessment and targeted tests. Bleeding, unexplained anaemia, difficult or painful swallowing, persistent vomiting, unintended weight loss, a palpable mass, or new persistent symptoms in an older person all change the urgency and choice of investigations [3, 8, 12]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [],
+            "en": []
+          }
         },
         {
           "id": "when-endoscopy-is-needed",
@@ -104,8 +124,26 @@
             "en": "Upper gastrointestinal endoscopy, or gastroscopy, allows the clinician to inspect the oesophagus, stomach and duodenum directly, identify an ulcer's location and appearance, and take a tissue sample when needed. In acute bleeding, endoscopy is not only diagnostic; it can also treat the bleeding site. Bloody vomit or black stool with dizziness requires emergency assessment first, after which endoscopy timing is determined by bleeding severity and stability rather than by booking a routine procedure from home [3, 9, 10].\n\nNot every episode of heartburn or stomach pain requires endoscopy. The decision depends on age, symptom duration, alarm features, gastric-cancer risk factors, medicines and the initial assessment. One dyspepsia guideline suggests endoscopy for people aged 60 or older with new dyspepsia, with consideration at a younger age when organic-disease risk is higher. This is a clinical framework, not a universal rule, and a clinician applies it to the individual and local setting [8, 12].\n\nBleeding, swallowing difficulty, weight loss with dyspepsia, unexplained anaemia or persistent vomiting may accelerate referral. When a gastric ulcer is diagnosed, the clinician may arrange biopsy or follow-up endoscopy depending on its appearance, pathology result and healing. The purpose is to confirm the cause and exclude another disorder, not because every ulcer means cancer. Preparation, sedation and biopsy are covered in the linked gastroscopy guide [3, 8, 12]."
           },
           "links": {
-            "ar": [{"label": "منظار المعدة: التحضير والمهدئ والخزعة", "url": "../articles/gastroscopy-procedure-biopsy-sedation.html"}],
-            "en": [{"label": "Gastroscopy preparation, sedation and biopsy", "url": "../articles/gastroscopy-procedure-biopsy-sedation.html"}]
+            "ar": [
+              {
+                "label": "منظار الجهاز الهضمي العلوي",
+                "url": "../articles/gastroscopy-procedure-biopsy-sedation.html"
+              },
+              {
+                "label": "توقيت المنظار",
+                "url": "../articles/gastroscopy-and-colonoscopy-same-day.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Upper gastrointestinal endoscopy",
+                "url": "../articles/gastroscopy-procedure-biopsy-sedation.html"
+              },
+              {
+                "label": "endoscopy timing",
+                "url": "../articles/gastroscopy-and-colonoscopy-same-day.html"
+              }
+            ]
           }
         },
         {
@@ -118,7 +156,10 @@
             "ar": "التقييم ممكن يشمل صورة دم للبحث عن أنيميا، واختبار براز لو فيه اشتباه نزيف خفي، واختبار مناسب للعدوى النشطة، أو منظار حسب الحالة. الأشعة العادية والسونار ما بيشوفوش قرحة صغيرة داخل بطانة المعدة بشكل يعتمد عليه، فنتيجة سونار طبيعية ما تستبعدش القرحة. اختيار الاختبار بيتحدد حسب نمط الأعراض وعلامات الخطر والأدوية، ومهم تقول للطبيب عن كل مسكن وأسبرين ومميع دم حتى لو بيتاخد من غير روشتة [3, 6, 7].\n\nالعلاج هدفه يشفي الجرح ويعالج السبب ويمنع النزيف أو رجوع القرحة. غالباً بيشمل دواء يقلل حمض المعدة، مع علاج السبب المحدد: علاج العدوى لو اتثبتت، أو مراجعة المسكن المسبب وخطة حماية المعدة لو الدواء لازم يستمر. نوع الدواء والمدة مش وصفة واحدة لكل الناس؛ وجود نزيف، قرحة سابقة، أدوية تانية أو أمراض مزمنة ممكن يغيّر الخطة [4, 7, 11].\n\nما تبدأش مضاد حيوي من نفسك، وما تعتمدش على وصفة قديمة أو أعشاب على إنها بتقفل القرحة. إخفاء الوجع من غير علاج السبب ممكن يدي إحساس كاذب بالأمان. الالتزام بالخطة والمتابعة مهمين، خصوصاً لو الأعراض مستمرة، لو القرحة نزفت، أو لو الطبيب طلب تأكيد الالتئام. ولو الأعراض بتسوء رغم العلاج، التقييم بيتراجع بدل زيادة الجرعات عشوائياً [4, 7, 11].",
             "en": "Assessment may include a complete blood count to look for anaemia, a stool test when hidden bleeding is suspected, an appropriate test for active infection, or endoscopy depending on the situation. Plain imaging and abdominal ultrasound do not reliably show a small ulcer within the stomach lining, so a normal ultrasound does not exclude one. Test selection follows the symptom pattern, alarm features and medicines. Tell the clinician about every pain medicine, aspirin product and blood thinner, including those taken without a prescription [3, 6, 7].\n\nTreatment aims to heal the sore, address its cause and prevent bleeding or recurrence. It commonly includes acid suppression plus cause-specific management: treating confirmed infection, or reviewing the causative pain medicine and arranging stomach protection when that medicine must continue. The medicine and duration are not identical for everyone; bleeding, previous ulcer, other medicines and chronic conditions can change the plan [4, 7, 11].\n\nDo not start antibiotics on your own or rely on an old prescription or herbal remedy to close an ulcer. Masking pain without addressing the cause can create false reassurance. Following the plan and attending review matter, especially after bleeding, when symptoms persist, or when the clinician asks to confirm healing. If symptoms worsen despite treatment, the assessment should be reconsidered rather than doses being increased at random [4, 7, 11]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [],
+            "en": []
+          }
         },
         {
           "id": "next-step-at-la-rose",
@@ -131,8 +172,18 @@
             "en": "If upper-abdominal pain keeps returning, prepare a list of every medicine and supplement before the visit, especially NSAIDs, aspirin and blood thinners. Note when pain occurs, how it relates to food, and whether there is black stool, vomiting, dizziness, swallowing difficulty or unintended weight loss. This information helps the medical team distinguish an emergency pathway, a need for prompt endoscopy, and a situation that can begin with non-urgent assessment and testing [3, 8, 12].\n\nThe medical team at La Rose can assess the symptoms systematically and choose an appropriate next step, with branches in Maadi and Fifth Settlement, New Cairo. Having a nearby branch does not change the safety rule: vomiting blood, black stool with dizziness or fainting, or sudden severe persistent abdominal pain belongs in emergency care immediately, not in a queue for a clinic booking [2, 9, 10].\n\nWhen there is no emergency sign but symptoms recur or a risk factor is present, book a consultation and bring any previous blood tests or endoscopy reports. Individual decisions should follow clinician review, particularly before changing prescribed pain relief, a blood thinner or stomach treatment. The aim is not to order the largest number of tests; it is to choose the investigation that answers the clinical question and avoids delaying an important cause [3, 8]."
           },
           "links": {
-            "ar": [{"label": "احجز استشارة مع الفريق الطبي", "url": "../patients/booking.html"}],
-            "en": [{"label": "Book a consultation", "url": "../patients/booking.html"}]
+            "ar": [
+              {
+                "label": "احجز استشارة مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
           }
         }
       ],

@@ -12,7 +12,7 @@
         "body-contouring"
       ],
       "date": "2026-09-12",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 11,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -57,12 +57,20 @@
               {
                 "label": "تركيب الجسم مش رقم الميزان",
                 "url": "../articles/body-composition-not-scale.html"
+              },
+              {
+                "label": "نسبة الدهون",
+                "url": "../articles/body-fat-percentage-context-men-women.html"
               }
             ],
             "en": [
               {
                 "label": "body composition is not the scale",
                 "url": "../articles/body-composition-not-scale.html"
+              },
+              {
+                "label": "body-fat percentage",
+                "url": "../articles/body-fat-percentage-context-men-women.html"
               }
             ]
           }
@@ -320,6 +328,13 @@
           "note": {
             "ar": "وسّعنا دليل أول جلسة لتحليل InBody وطريقة الاستعداد والفرق بين القياس التقديري والتشخيص السريري، واتراجعت المقالة طبياً من جديد.",
             "en": "We expanded the guide to a first InBody test, preparation steps, and the distinction between estimated bioimpedance and clinical diagnosis, and medically re-reviewed the article."
+          }
+        },
+        {
+          "date": "2026-10-01",
+          "note": {
+            "ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.",
+            "en": "Added internal links to related articles; no change to the medical content."
           }
         }
       ],

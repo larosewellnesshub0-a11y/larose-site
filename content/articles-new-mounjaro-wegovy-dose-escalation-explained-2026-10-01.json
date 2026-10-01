@@ -14,6 +14,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 11,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -60,14 +61,22 @@
           "links": {
             "ar": [
               {
-                "label": "دليل أدوية GLP-1 لإنقاص الوزن",
-                "url": "../articles/glp1-medication-guide.html"
+                "label": "الأعراض الهضمية",
+                "url": "../articles/mounjaro-wegovy-serious-side-effects-red-flags.html"
+              },
+              {
+                "label": "مقارنة النتائج",
+                "url": "../articles/mounjaro-results-timeline-what-to-expect.html"
               }
             ],
             "en": [
               {
-                "label": "GLP-1 medicines: a practical guide",
-                "url": "../articles/glp1-medication-guide.html"
+                "label": "gastrointestinal reactions",
+                "url": "../articles/mounjaro-wegovy-serious-side-effects-red-flags.html"
+              },
+              {
+                "label": "comparative results",
+                "url": "../articles/mounjaro-results-timeline-what-to-expect.html"
               }
             ]
           }
@@ -113,8 +122,18 @@
             "en": "For one missed Wegovy injection, check the next dose. If it is more than two days away, take the missed dose promptly; if less than two days away, skip it and return to the usual day. Do not combine doses. After two or more consecutive missed doses, the current label directs re-escalation at a lower dose to reduce gastrointestinal reactions. Contact the prescriber instead of resuming a high dose [1, 9].\n\nFor Mounjaro or Zepbound, take a missed dose within four days, or 96 hours. After that, skip it and take the next dose on the regular day. Both tirzepatide labels (Mounjaro and Zepbound) require at least 72 hours between doses when changing the weekly day. This boundary does not permit routine closer dosing or more than one dose weekly [2, 3, 10].\n\nFor a longer interruption, tell the clinician the last tolerated dose, how many were missed and why treatment stopped. Returning after vomiting, dehydration, surgery, acute illness or poor intake differs from forgetting one day. Wegovy explicitly addresses re-escalation after multiple missed doses; tirzepatide labels give a single-missed-dose rule and do not authorise restarting high after weeks away. Advice for another dose or product does not apply [1, 2, 3]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "جرعتين أو أكتر",
+                "url": "../articles/mounjaro-pen-use-storage-missed-dose.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "multiple missed doses",
+                "url": "../articles/mounjaro-pen-use-storage-missed-dose.html"
+              }
+            ]
           }
         },
         {
@@ -128,18 +147,8 @@
             "en": "Nausea, diarrhoea, vomiting, constipation and abdominal pain are common, particularly during escalation. In semaglutide and tirzepatide trials, most gastrointestinal events were mild or moderate and temporary, but some participants stopped treatment. Do not dismiss symptoms or treat vomiting as proof that the medicine is “working.” Inability to drink or eat is not a treatment goal [4, 5, 8].\n\nFor mild symptoms, record their timing against doses and meals. Eat smaller meals slowly, stop at fullness, limit rich food if it worsens nausea, and take appropriate fluids. Do not add anti-nausea medicine, laxatives or supplements because someone else did. Constipation with severe pain, swelling or vomiting needs assessment. If symptoms persist at the next escalation date, contact the clinician before increasing. The linked Q&A covers daily measures [4, 5, 8].\n\nSeek urgent assessment for severe persistent abdominal pain, especially into the back; vomiting that prevents fluids; very little urine, severe dizziness or fainting; or facial or tongue swelling with breathing difficulty. Strong right-upper abdominal pain with fever or yellowing also needs urgent care. With insulin or another medicine that can cause hypoglycaemia, sweating, shaking or confusion requires the agreed low-glucose plan and help according to severity. Contact the treating team or emergency care; this article cannot choose the next dose [1, 2, 3, 8, 9, 10]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "الغثيان والإمساك مع حقن إنقاص الوزن",
-                "url": "../articles/qa-injection-nausea-constipation.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "nausea and constipation with weight-loss injections",
-                "url": "../articles/qa-injection-nausea-constipation.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -170,13 +179,13 @@
           "links": {
             "ar": [
               {
-                "label": "ليه أدوية الوزن مش كورس قصير؟",
+                "label": "أدوية الوزن مش كورس قصير",
                 "url": "../articles/weight-medicines-are-not-a-short-course.html"
               }
             ],
             "en": [
               {
-                "label": "why weight medicines are not a short course",
+                "label": "long-term plan",
                 "url": "../articles/weight-medicines-are-not-a-short-course.html"
               }
             ]
@@ -195,19 +204,11 @@
           "links": {
             "ar": [
               {
-                "label": "دليل أول زيارة لإدارة الوزن",
-                "url": "../articles/weight-management-first-visit.html"
-              },
-              {
                 "label": "احجز استشارة مع الفريق الطبي",
                 "url": "../patients/booking.html"
               }
             ],
             "en": [
-              {
-                "label": "weight-management first-visit guide",
-                "url": "../articles/weight-management-first-visit.html"
-              },
               {
                 "label": "Book a consultation",
                 "url": "../patients/booking.html"

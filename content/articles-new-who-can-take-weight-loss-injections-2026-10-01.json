@@ -13,6 +13,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -55,18 +56,8 @@
             "en": "The question “Who can take Mounjaro or Wegovy?” cannot be answered by a brand name and a scale reading. Weight-management injections are prescription medicines. A decision begins by confirming obesity, or overweight linked to a health problem, and then reviewing age, medical history, current medicines, pregnancy or pregnancy plans, and the contraindications for the specific product. The World Health Organization generally defines adult obesity as a body mass index (BMI) of 30 or above, while also explaining that BMI is a surrogate measure of body fat and may need to be read with other measurements and health information [4, 9, 11].\n\nFor adults, the commonly used screening point for weight-management medicine is a BMI of 30 or above, or a BMI of 27 or above with a weight-related condition such as high blood pressure or type 2 diabetes. NIDDK states these thresholds, and the registered weight trials in the Wegovy and Zepbound labels studied the same core groups: obesity at a BMI of 30 or above, or overweight from 27 to below 30 with at least one related condition [1, 2, 4]. This opens an assessment; it is not an automatic prescription. A person with a BMI of 31 does not have to start an injection, while a person with a BMI of 28 and a related condition may reasonably enter a structured discussion without medicine being the only option.\n\nApproval and health-service rules also differ by country and product. UK NICE guidance, for example, applies different access criteria for particular medicines and services, and uses lower BMI thresholds for some ethnic groups, including people of Middle Eastern family background, because metabolic risk may appear at a lower BMI. A number taken from an advert or another person’s experience is therefore not a universal decision rule. The clinician needs to check the locally approved label, the intended use and the full health picture [8, 9, 12]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "ليه رعاية السمنة ما تقفش عند BMI",
-                "url": "../articles/obesity-care-beyond-bmi.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Why obesity care goes beyond BMI",
-                "url": "../articles/obesity-care-beyond-bmi.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -110,8 +101,18 @@
             "en": "The Wegovy and Zepbound labels list two formal contraindications rather than an open-ended list. The first is a personal or family history of medullary thyroid carcinoma (MTC), or multiple endocrine neoplasia syndrome type 2 (MEN 2). The second is a known serious hypersensitivity to the active ingredient or any component of the product; serious reactions may include anaphylaxis or angioedema [1, 2]. If either applies, that specific product is contraindicated under the label. It is not something to test and watch at home.\n\nThis is different from common hypothyroidism, an ordinary thyroid nodule, or a history of another thyroid cancer type. The label warning is specific to MTC and MEN 2. It should not be expanded without evidence to every thyroid condition, but it should not be minimized when the family history is unclear. Useful questions are: what exactly was the thyroid diagnosis, was it MTC, and was MEN 2 involved? If information is missing, the clinician may need old records or specialist input before making a decision [1, 2].\n\nBoth labels explain that thyroid C-cell tumors occurred in rodents and that the relevance to humans has not been determined. That is the formal warning: it does not mean every user will develop cancer, and it does not permit the contraindication to be ignored. The labels also say routine calcitonin testing or thyroid ultrasound has uncertain value for early detection in this setting. A random panel of tests should not replace a precise medical and family history [1, 2]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "سرطان الغدة الدرقية النخاعي",
+                "url": "../articles/mounjaro-wegovy-and-thyroid.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "medullary thyroid carcinoma",
+                "url": "../articles/mounjaro-wegovy-and-thyroid.html"
+              }
+            ]
           }
         },
         {
@@ -125,8 +126,18 @@
             "en": "There is a difference between a contraindication in the formal contraindications section and a warning or a condition in which a medicine is not recommended. Zepbound, for example, is not recommended in severe gastroparesis, while Wegovy carries a warning about severe gastrointestinal reactions. Both labels also require attention to pancreatitis, gallbladder disease, dehydration and kidney injury, hypersensitivity, and hypoglycemia with certain diabetes medicines. A past condition in this group does not automatically mean approval or refusal; the details, severity and accompanying medicines shape the decision [1, 2].\n\nIf you have diabetes and use insulin or a sulfonylurea, the risk of low blood glucose may increase with treatment, so a clinician-led plan and appropriate monitoring are needed. Diabetic retinopathy, severe digestive symptoms, recurrent vomiting, gallbladder disease or a history of pancreatitis should be disclosed before selection. The anesthesia team also needs to know before surgery or an endoscopic procedure using general anesthesia or deep sedation because the labels include a warning about pulmonary aspiration during procedures [1, 2]. This is not advice to alter any dose yourself; it is a reason to make the decision after a real review.\n\nAll medicines and supplements matter in the assessment. These products delay gastric emptying and may affect the handling of some oral medicines. Tirzepatide can also reduce the effectiveness of oral hormonal contraception after initiation and after each dose increase; the Zepbound label advises a non-oral method or an additional barrier method for four weeks during those periods. This is a point for the clinician and the person concerned to review, not a rule for selecting a drug online [1, 2, 12]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "اعتلال شبكي سكري",
+                "url": "../articles/ozempic-mounjaro-blindness-facts.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Diabetic retinopathy",
+                "url": "../articles/ozempic-mounjaro-blindness-facts.html"
+              }
+            ]
           }
         },
         {
@@ -142,22 +153,22 @@
           "links": {
             "ar": [
               {
-                "label": "أدوية الوزن مع الحمل والرضاعة",
-                "url": "../articles/qa-weight-medicine-pregnancy-breastfeeding.html"
+                "label": "حمل مخطط له",
+                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
               },
               {
-                "label": "أدوية التخسيس قبل الحمل",
-                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
+                "label": "النسخ غير المعتمدة",
+                "url": "../articles/retatrutide-weight-loss-what-is-known.html"
               }
             ],
             "en": [
               {
-                "label": "Weight medicine during pregnancy and breastfeeding",
-                "url": "../articles/qa-weight-medicine-pregnancy-breastfeeding.html"
+                "label": "planned pregnancy",
+                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
               },
               {
-                "label": "Weight-loss medicines before pregnancy",
-                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
+                "label": "unapproved versions",
+                "url": "../articles/retatrutide-weight-loss-what-is-known.html"
               }
             ]
           }
@@ -175,8 +186,8 @@
           "links": {
             "ar": [
               {
-                "label": "دليل أول زيارة لإدارة الوزن",
-                "url": "../articles/weight-management-first-visit.html"
+                "label": "عمليات الجهاز الهضمي",
+                "url": "../articles/mounjaro-vs-sleeve-gastrectomy.html"
               },
               {
                 "label": "احجز استشارة مع الفريق الطبي",
@@ -185,8 +196,8 @@
             ],
             "en": [
               {
-                "label": "Your first weight-management visit",
-                "url": "../articles/weight-management-first-visit.html"
+                "label": "gastrointestinal surgery",
+                "url": "../articles/mounjaro-vs-sleeve-gastrectomy.html"
               },
               {
                 "label": "Book a consultation",

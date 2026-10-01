@@ -13,7 +13,7 @@
         "clinical-nutrition"
       ],
       "date": "2026-09-01",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 9,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
@@ -24,7 +24,8 @@
             "ar": "وسّعنا مقارنة أعراض جرثومة المعدة والارتجاع والقولون، وحدّثنا خطوات الفحص وعلامات الخطر، واتراجع المحتوى طبياً من جديد. اتضاف سؤالين شائعين عن طرق كشف جرثومة المعدة وإزاي اختبار النفس بيشتغل، بمصادرهم.",
             "en": "We expanded the comparison of H. pylori, reflux and IBS symptoms, updated testing and warning-sign guidance, and medically re-reviewed the content. Added two cited FAQs on H. pylori test options and how the breath test works."
           }
-        }
+        },
+        {"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}
       ],
       "image": "assets/img/articles/h-pylori-reflux-ibs.webp",
       "title": {
@@ -126,12 +127,20 @@
               {
                 "label": "أعراض القولون العصبي وعلامات الخطر",
                 "url": "../articles/ibs-colon-symptoms-red-flags.html"
+              },
+              {
+                "label": "أعراض القولون العصبي",
+                "url": "../articles/ibs-symptoms-men-assessment-guide.html"
               }
             ],
             "en": [
               {
                 "label": "IBS symptoms and warning signs",
                 "url": "../articles/ibs-colon-symptoms-red-flags.html"
+              },
+              {
+                "label": "IBS symptoms",
+                "url": "../articles/ibs-symptoms-men-assessment-guide.html"
               }
             ]
           }

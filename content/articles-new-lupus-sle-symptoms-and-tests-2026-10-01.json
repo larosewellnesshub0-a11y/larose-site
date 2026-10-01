@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 9,
       "author": "shimaa-sherif",
       "reviewedBy": "mohab-ashraf",
@@ -71,14 +72,14 @@
           "links": {
             "ar": [
               {
-                "label": "هل الإرهاق معناه نقص فيتامين د؟",
-                "url": "../articles/qa-vitamin-d-fatigue.html"
+                "label": "إرهاق مستمر",
+                "url": "../articles/fibromyalgia-widespread-pain.html"
               }
             ],
             "en": [
               {
-                "label": "Does fatigue mean vitamin D deficiency?",
-                "url": "../articles/qa-vitamin-d-fatigue.html"
+                "label": "persistent fatigue",
+                "url": "../articles/fibromyalgia-widespread-pain.html"
               }
             ]
           }
@@ -94,26 +95,8 @@
             "en": "Kidney involvement in lupus may not cause pain. Possible signs include noticeably foamy urine, blood in the urine, swelling in the legs, feet or around the eyes, and high blood pressure. Urine testing looks for protein and blood, while a blood test measures creatinine to estimate kidney function. A kidney biopsy is sometimes needed to confirm lupus nephritis and identify its pattern, but that decision follows the medical assessment and results; it is not required for everyone with lupus [3].\n\nContact a clinician promptly if you notice new persistent foam, visible blood, a marked reduction in urine or new swelling, especially with raised blood pressure. These facts explain why urine and blood-pressure monitoring remain important even when the skin and joints feel quiet. The linked articles on kidney stones and blood-pressure readings discuss other possible causes of these signs without assuming every change is due to lupus [2, 3].\n\nSeek emergency care if you cannot breathe, have severe chest pain, or have symptoms that could represent a heart attack. New neurological symptoms such as a seizure, severe confusion, sudden weakness or altered consciousness also need urgent assessment. Lupus can be associated with inflammation around the heart or lungs and with neurological problems, but infection, blood clots and other conditions can produce a similar picture. Do not try to label the sign as a “lupus flare” at home or wait for an ANA result before being assessed [1, 6, 7]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "أعراض حصوات الكلى والفحوصات",
-                "url": "../articles/kidney-stones-symptoms-and-tests.html"
-              },
-              {
-                "label": "ضغط الدم محتاج نمط قراءات",
-                "url": "../articles/blood-pressure-needs-a-pattern.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Kidney-stone symptoms and tests",
-                "url": "../articles/kidney-stones-symptoms-and-tests.html"
-              },
-              {
-                "label": "Blood pressure needs a pattern of readings",
-                "url": "../articles/blood-pressure-needs-a-pattern.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -142,8 +125,18 @@
             "en": "ANA is a sensitive lupus test: most people with lupus have a positive result, so a negative result makes lupus less likely. A positive ANA, however, is not a diagnosis. It can occur with other autoimmune diseases, some infections or medicines, and in healthy people. The result must be read alongside the reason for testing, symptoms and examination, not only the positive or negative flag [2, 4, 9].\n\nWhen ANA is positive and the clinical story fits, the clinician may request anti-dsDNA and anti-Smith antibodies, which are more specific for lupus than ANA. Complement C3 and C4, antiphospholipid antibodies, a blood count, kidney function and urinalysis may also be appropriate. Selection changes with the symptoms: assessing possible kidney involvement asks different questions from investigating a rash, clotting or low platelets. More specialised tests should not be ordered randomly without a clear clinical question [2, 5, 10].\n\nThe ANA titre and pattern can add context, but the laboratory alone cannot decide whether the result explains the symptoms. Do not repeatedly test ANA simply because it is positive, and do not begin treatment from the result. If ANA is negative but there is an objective organ sign such as urine protein or documented joint swelling, the clinician reviews possible diagnoses and appropriate investigations rather than relying on one test. The clinical question and the trend in relevant results matter more than chasing every available antibody [2, 4, 9]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "ANA تحليل حساس",
+                "url": "../articles/rheumatism-blood-tests-explained.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "sensitive lupus test",
+                "url": "../articles/rheumatism-blood-tests-explained.html"
+              }
+            ]
           }
         },
         {
@@ -157,8 +150,18 @@
             "en": "Lupus is chronic, and its activity can change after a quiet period. Regular follow-up reviews symptoms, examination, blood pressure, the blood count, kidney function and urine as appropriate for the individual, while also monitoring treatment effects. The aim is not to perform every test at every visit, but to detect an important change early and adjust the plan to disease activity and the affected organ. Do not stop a medicine or change its dose because symptoms have settled without speaking to the treating clinician [2, 12].\n\nBetween visits, record the flare features relevant to you, such as increasing fatigue, joint swelling, a rash, fever or a new headache, and report a change rather than waiting for a routine appointment if it is concerning. Sun protection is appropriate when sunlight triggers a rash, and every new medicine, herb or supplement should be reviewed for interactions and adverse effects. No special diet or supplement has been shown to treat lupus, so do not replace follow-up with an online remedy [1, 2].\n\nIf pregnancy is being considered, discuss the plan early with the rheumatology and obstetric teams before trying to conceive, and do not stop treatment on your own. Most women can have a successful pregnancy, but risk assessment and monitoring depend on lupus activity, kidney function, blood pressure, previous pregnancy and clotting history, and antibodies such as antiphospholipid and anti-SSA/Ro. Some medicines need review before pregnancy, and close monitoring during pregnancy is important for both mother and baby [2, 11]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "ضغط الدم",
+                "url": "../articles/blood-pressure-needs-a-pattern.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "blood pressure",
+                "url": "../articles/blood-pressure-needs-a-pattern.html"
+              }
+            ]
           }
         },
         {

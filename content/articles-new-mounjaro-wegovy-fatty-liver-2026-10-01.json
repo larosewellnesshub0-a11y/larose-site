@@ -14,6 +14,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 11,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -56,18 +57,8 @@
             "en": "When someone asks whether Wegovy or Mounjaro treats fatty liver, the question actually contains several different outcomes. MASLD is metabolic dysfunction-associated steatotic liver disease, linked to metabolic factors such as central adiposity, diabetes or abnormal blood lipids. Some people have fat accumulation alone. Others have liver-cell injury and inflammation called MASH, and some in that group develop different stages of fibrosis. Reducing liver fat is useful, but it is not the same as proving that steatohepatitis has resolved on a biopsy, improving scar tissue, or preventing long-term liver complications [7, 8, 11].\n\nThat distinction matters because a study headline or lower liver-enzyme result must not become a larger promise than the evidence supports. Strong trials enrol a defined population, compare treatment with placebo and measure specific outcomes. A routine ultrasound report that says “mild fatty liver” does not by itself establish MASH or fibrosis, and it does not automatically mean a weight-management medicine is needed. The cause, metabolic risk and likelihood of fibrosis come first; only then can a clinician discuss whether a medicine is appropriate for an approved indication and for the person as a whole [7, 8, 9].\n\nThis article focuses on what the medicine results mean rather than repeating the site's detailed diagnostic pathway. If you need to understand how fatty liver is diagnosed or the limits of ultrasound, use the linked diagnostic guide. The central point is that “reduced liver fat,” “treated MASH” and “prevented liver failure” are three different claims requiring different evidence and follow-up periods [7, 8]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "أعراض الكبد الدهني وتشخيصه وتقدير الخطورة",
-                "url": "../articles/fatty-liver-symptoms-diagnosis-risk.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "fatty liver symptoms, diagnosis and risk",
-                "url": "../articles/fatty-liver-symptoms-diagnosis-risk.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -134,7 +125,7 @@
             ],
             "en": [
               {
-                "label": "fatty liver treatment and follow-up",
+                "label": "fatty-liver treatment guide",
                 "url": "../articles/fatty-liver-treatment-and-follow-up.html"
               }
             ]
@@ -151,18 +142,8 @@
             "en": "European guidance recommends sustained weight loss through dietary and behavioural care for adults with MASLD and explains that the degree of improvement often rises with the amount lost: at least 5% is associated with lower liver fat, 7%–10% with improved inflammation, and at least 10% with fibrosis improvement in some people. These are population-based guideposts, not an examination or an individual promise. A clinician adjusts the goal for liver stage, starting weight, muscle, diabetes, age and the person's ability to sustain change [7].\n\nWhether weight loss comes from lifestyle changes alone or alongside an appropriate medicine, the foundation remains. Sustainable eating, aerobic and resistance activity adapted to health, better sleep, and less sugar-sweetened drink and highly processed food support liver, cardiovascular and metabolic health. Activity can benefit liver fat even when scale change is slow. Very rapid loss or malnutrition is not the objective; preserving muscle, eating adequate protein and monitoring health matter more than chasing the fastest number [7, 8, 10].\n\nMedicine may make appetite and weight management easier for a suitable person, but it does not make food quality irrelevant or treat every cause of liver disease by itself. A person without excess weight can still have MASLD and may need attention to food quality, activity, glucose, lipids and waist size rather than being told simply to lose weight. If diabetes, high blood pressure or abnormal lipids are present, treating them is part of reducing total risk because cardiovascular health is especially important in MASLD [7, 8, 9]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "رعاية السمنة أكبر من مؤشر كتلة الجسم",
-                "url": "../articles/obesity-care-beyond-bmi.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "obesity care beyond BMI",
-                "url": "../articles/obesity-care-beyond-bmi.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -178,14 +159,22 @@
           "links": {
             "ar": [
               {
-                "label": "تحاليل وظائف الكبد محتاجة سياق",
-                "url": "../articles/liver-function-tests-need-context.html"
+                "label": "الوزن ومحيط الوسط",
+                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
+              },
+              {
+                "label": "ألم بطن شديد ومستمر",
+                "url": "../articles/mounjaro-wegovy-serious-side-effects-red-flags.html"
               }
             ],
             "en": [
               {
-                "label": "liver function tests need context",
-                "url": "../articles/liver-function-tests-need-context.html"
+                "label": "weight and waist size",
+                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
+              },
+              {
+                "label": "Severe persistent abdominal pain",
+                "url": "../articles/mounjaro-wegovy-serious-side-effects-red-flags.html"
               }
             ]
           }

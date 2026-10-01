@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-sherif",
@@ -54,18 +55,8 @@
             "en": "Hepatitis B and hepatitis C are different infections that affect the liver, and either may be present for some time without clear symptoms. Fatigue, nausea or jaundice can occur, but their absence does not make testing unnecessary. Diagnosis therefore cannot rest on how someone feels or looks. Blood tests identify markers of current or previous infection, and a clinician then interprets them with the medical history and the rest of the assessment [4, 8, 9, 11].\n\nViral testing is also not the same as a liver-function panel. ALT, AST and the other liver measurements may help assess irritation or damage, but they neither prove hepatitis B or C nor exclude infection when normal. A virus-specific test answers a different question, and a positive result may then lead to a separate assessment of liver health. If your main question concerns high or normal liver-panel values, the linked guide covers that topic without repeating it here [1, 6, 9].\n\nThe aim is not to order the largest possible panel. It is to define the question: Is this first-time screening without symptoms, testing after a recent exposure, follow-up of an older positive result, or follow-up after treatment? Each situation has a different test sequence and timing. A clear plan prevents an HCV antibody or an isolated HBsAg result from being treated as if it were the complete answer [1, 6, 12]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "فهم تحاليل وظائف الكبد",
-                "url": "../articles/liver-function-tests-need-context.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Understanding liver-function tests",
-                "url": "../articles/liver-function-tests-need-context.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -141,22 +132,30 @@
           "links": {
             "ar": [
               {
-                "label": "السونار على البطن: إيه اللي بيظهر؟",
-                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+                "label": "إيه اللي السونار يقدر يشوفه",
+                "url": "../articles/gallbladder-sludge-vs-stones-ultrasound.html"
               },
               {
-                "label": "أعراض وتشخيص ومخاطر دهون الكبد",
-                "url": "../articles/fatty-liver-symptoms-diagnosis-risk.html"
+                "label": "دهوناً على الكبد",
+                "url": "../articles/mounjaro-wegovy-fatty-liver.html"
+              },
+              {
+                "label": "وظائف الكبد",
+                "url": "../articles/liver-function-tests-need-context.html"
               }
             ],
             "en": [
               {
-                "label": "Abdominal ultrasound: what can it show?",
-                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+                "label": "what ultrasound can show",
+                "url": "../articles/gallbladder-sludge-vs-stones-ultrasound.html"
               },
               {
-                "label": "Fatty liver symptoms, diagnosis and risk",
-                "url": "../articles/fatty-liver-symptoms-diagnosis-risk.html"
+                "label": "fatty liver",
+                "url": "../articles/mounjaro-wegovy-fatty-liver.html"
+              },
+              {
+                "label": "liver blood tests",
+                "url": "../articles/liver-function-tests-need-context.html"
               }
             ]
           }

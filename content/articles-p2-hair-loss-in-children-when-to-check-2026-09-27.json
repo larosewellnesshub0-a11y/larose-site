@@ -9,7 +9,7 @@
       "category": "pediatrics",
       "specialties": ["pediatrics", "dermatology", "clinical-nutrition"],
       "date": "2026-09-11",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 9,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
@@ -20,8 +20,7 @@
             "ar": "وسعنا شرح أشكال تساقط الشعر عند الأطفال وأسبابه وخطوات التقييم وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
             "en": "We expanded the patterns, causes, assessment steps and warning signs of hair loss in children, and medically re-reviewed the content."
           }
-        }
-      ],
+        }, {"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "image": "assets/img/articles/hair-loss-blood-tests-first.webp",
       "title": {
         "ar": "تساقط الشعر عند الأطفال: إمتى يحتاج كشف؟",
@@ -54,7 +53,7 @@
             "ar": "سعفة فروة الرأس أو تينيا كابيتس عدوى فطرية بتظهر غالباً في سن المدرسة وقبلها. ممكن تعمل بقعة رمادية عليها قشور، قشرة منتشرة شبه قشرة الشعر العادية، نقط سودة من شعر مكسور عند سطح الجلد، حكة، أو غدد متضخمة خلف الرقبة. الشكل مش دايماً حلقة واضحة، وعشان كده ممكن تتلخبط مع الإكزيما أو القشرة. النوع الملتهب ممكن يعمل كتلة طرية ومؤلمة اسمها كيريون، وأحياناً إفرازات؛ التأخير الشديد في الحالة الملتهبة يرفع احتمال الندبة وفقد الشعر الدائم [2, 3, 9].\n\nالعدوى ممكن تنتقل بالمخالطة أو مشاركة المشط والقبعة والفوطة، وأحياناً من حيوان مصاب. ما تشاركوش الأدوات الشخصية، ونضفوا الأمشاط حسب إرشاد الطبيب، وافحصوا الحيوان عند البيطري لو عنده بقع شعر ناقصة. شامبو أو كريم فطريات لوحده ما بيوصلش للعدوى داخل جذر الشعرة؛ علاج سعفة الفروة عادة محتاج دواء بالفم يختاره الطبيب حسب الطفل ونوع الفطر، وقد يضيف شامبو لتقليل الانتقال [1, 3, 9]. الطبيب ممكن يستخدم منظار جلد أو يفحص شعر وقشور بمحلول هيدروكسيد البوتاسيوم ويطلب مزرعة فطريات. ما تبدأش كورتيزون أو خلطة زيت على بقعة ملتهبة قبل الكشف، لأن الشكل ممكن يهدأ مؤقتاً بينما السبب مستمر. كتلة مؤلمة طرية، صديد، حرارة، أو طفل باين عليه التعب محتاج تقييماً سريعاً في نفس اليوم [2, 3].",
             "en": "Tinea capitis, or scalp ringworm, is a fungal infection seen mainly in preschool and school-age children. It may cause a grey scaly patch, diffuse scale that resembles ordinary dandruff, black dots where hairs have broken at skin level, itch, or enlarged glands at the back of the neck. It does not always form a clear ring and can be mistaken for eczema or dandruff. An inflammatory form can produce a tender boggy swelling called a kerion, sometimes with discharge; substantial delay in an inflamed case increases the risk of scarring and permanent loss [2, 3, 9].\n\nInfection can spread through close contact, shared combs, hats or towels, and sometimes from an infected animal. Do not share personal items, clean combs as the clinician advises, and seek veterinary assessment if a pet has missing-fur patches. Antifungal shampoo or cream alone cannot reach infection inside the hair root. Scalp ringworm generally needs an oral medicine selected by the clinician for the child and likely fungus, with shampoo sometimes added to reduce spread [1, 3, 9]. The clinician may use a dermatoscope, examine hairs and scale with potassium hydroxide, or request fungal culture. Do not apply a steroid or oil mixture to an inflamed patch before assessment because its appearance may briefly settle while the cause remains. A painful boggy swelling, pus, fever, or a child who seems unwell needs prompt same-day assessment [2, 3]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {"ar": [{"label": "الإكزيما", "url": "../articles/eczema-flare-when-to-check.html"}], "en": [{"label": "eczema", "url": "../articles/eczema-flare-when-to-check.html"}]}
         },
         {
           "id": "smooth-patches-alopecia-areata",

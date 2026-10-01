@@ -13,7 +13,7 @@
         "clinical-nutrition"
       ],
       "date": "2026-09-07",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 9,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
@@ -24,7 +24,8 @@
             "ar": "وسّعنا دليل إمتى ارتجاع المريء يحتاج دكتور، وحدّثنا علامات الخطر وخطوات الفحص والعلاج، واتراجع المحتوى طبياً من جديد.",
             "en": "We expanded the guide to when acid reflux needs a doctor, updated warning signs, assessment and treatment steps, and medically re-reviewed the content."
           }
-        }
+        },
+        {"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}
       ],
       "image": "assets/img/articles/acid-reflux-when-to-see-doctor.webp",
       "title": {
@@ -139,7 +140,7 @@
           "body": {
             "ar": "في حالات كتير، الطبيب بيبدأ بالتاريخ المرضي وشكل الأعراض والفحص، وممكن يوصي بخطة عادات وعلاج محددة من غير فحوص من البداية. الفحص بيبقى أنسب لما فيه علامة خطر، أو احتمال سبب تاني، أو الأعراض ما اتحسنتش زي المتوقع. عشان كده طلب أكبر باقة تحاليل مش دايماً أدق؛ كل فحص لازم يجاوب سؤالاً ممكن يغيّر القرار. [3, 6, 7]\n\nمنظار الجهاز الهضمي العلوي بيشوف بطانة المريء والمعدة والاثني عشر، وممكن ياخد عينات عند الحاجة. الطبيب ممكن يطلبه مع صعوبة البلع أو النزيف أو القيء المستمر أو نزول الوزن، أو لما يكون محتاج يبحث عن التهاب أو ضيق أو سبب مختلف. المنظار مهم في مكانه، لكنه مش اختباراً إجبارياً لكل حرقان عابر، وكمان المنظار الطبيعي ما يجاوبش كل أسئلة الارتجاع. [3, 12]\n\nقياس الارتجاع بالحموضة أو المقاومة ممكن يثبت أو ينفي ارتجاعاً غير واضح في حالات مختارة، وقياس حركة المريء له أسئلة مختلفة، خصوصاً قبل بعض الإجراءات أو مع مشاكل البلع. السونار ما يشوفش رجوع محتوى المعدة ولا بطانة المريء، لكنه ممكن يكون مناسباً لو القصة بتشير للمرارة أو الكبد أو سبب تاني في أعلى البطن. واختبار جرثومة المعدة بيسأل عن عدوى مختلفة؛ إيجابيته أو سلبيته ما تثبتش الارتجاع. [3, 6, 7]",
             "en": "In many cases, a clinician begins with the medical history, symptom pattern and examination, and may recommend defined lifestyle and treatment steps without immediate testing. Investigation is more useful when a warning feature is present, another cause is possible, or symptoms have not improved as expected. Ordering the largest panel is not necessarily more accurate; each test should answer a question that could change the decision. [3, 6, 7]\n\nUpper gastrointestinal endoscopy examines the lining of the oesophagus, stomach and duodenum and can collect samples when needed. A clinician may request it for swallowing difficulty, bleeding, persistent vomiting or unintentional weight loss, or when looking for inflammation, narrowing or another cause. Endoscopy is valuable when indicated but is not compulsory for every passing episode of heartburn, and a normal endoscopy does not answer every reflux question. [3, 12]\n\nAcid or impedance reflux monitoring can confirm or exclude unclear reflux in selected situations, while oesophageal manometry answers different questions, particularly before some procedures or when swallowing is impaired. Ultrasound does not show stomach contents refluxing or the oesophageal lining, although it may suit a question about the gallbladder, liver or another upper-abdominal cause. H. pylori testing asks about a different infection; a positive or negative result does not establish reflux. [3, 6, 7]"
-          }
+          }, "links": {"ar": [{"label": "اختبار جرثومة المعدة", "url": "../articles/h-pylori-symptoms-and-testing-pathway.html"}], "en": [{"label": "H. pylori testing", "url": "../articles/h-pylori-symptoms-and-testing-pathway.html"}]}
         },
         {
           "id": "prepare-and-next-step",

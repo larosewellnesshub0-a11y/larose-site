@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-sherif",
       "reviewedBy": "mohab-ashraf",
@@ -86,14 +87,14 @@
           "links": {
             "ar": [
               {
-                "label": "هل نقص فيتامين د هو سبب التعب؟",
-                "url": "../articles/qa-vitamin-d-fatigue.html"
+                "label": "مفصل زي الركبة",
+                "url": "../articles/knee-osteoarthritis-symptoms-and-grades.html"
               }
             ],
             "en": [
               {
-                "label": "Is vitamin D deficiency causing fatigue?",
-                "url": "../articles/qa-vitamin-d-fatigue.html"
+                "label": "joint such as the knee",
+                "url": "../articles/knee-osteoarthritis-symptoms-and-grades.html"
               }
             ]
           }
@@ -109,8 +110,18 @@
             "en": "A rheumatologist connects the history before selecting tests. The question is not simply whether the back hurts. The age at onset, duration, night and morning pattern, response to movement and rest, buttock pain, and any joint, heel, eye, skin or bowel features all matter. Examination may assess movement of the lower back and neck, the sacroiliac region, peripheral joints, tendon attachment sites, posture and chest expansion. No single manoeuvre can prove or exclude the disease, but examination adds context and helps the clinician consider other causes [2, 3].\n\nInflammatory markers such as CRP and ESR may support the overall picture and can help monitor some patients, but they may be normal in axial spondyloarthritis. A clinician may request a blood count, liver and kidney tests or other investigations according to symptoms, alternative diagnoses and possible treatment; they are not a fixed panel for every backache. NICE guidance explicitly advises that a negative HLA-B27 result or normal CRP and ESR should not be used to rule out axial spondyloarthritis. The central point is that no single blood test diagnoses the condition, and no single normal result closes the question when the clinical pattern remains convincing [2, 3, 6]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "تحاليل الالتهاب زي CRP",
+                "url": "../articles/rheumatism-blood-tests-explained.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Inflammatory markers such as CRP",
+                "url": "../articles/rheumatism-blood-tests-explained.html"
+              }
+            ]
           }
         },
         {
@@ -139,18 +150,8 @@
             "en": "Plain X-rays of the sacroiliac joints show structural changes that have developed over time, but they may be normal early in the disease. When X-rays are inconclusive and suspicion remains, an MRI with appropriate sacroiliac-joint sequences may show active inflammation before definite X-ray changes appear. NICE guidance describes a pathway that generally begins with sacroiliac X-rays and proceeds to a dedicated MRI when X-rays do not establish sacroiliitis, with every image interpreted in the context of symptoms and examination [2, 3, 6].\n\nMRI is not a self-ordered test for every backache, and an area of oedema or high signal is not a diagnosis by itself. Similar changes can occur for other reasons, so sacroiliac imaging requires appropriate technique, context and experienced interpretation. Conversely, one normal MRI does not always end the assessment if clinical suspicion is strong; the clinician may reconsider timing, alternative diagnoses or follow-up. CT and ultrasound have specific uses, but neither automatically replaces the recommended pathway for evaluating axial disease. The imaging choice depends on the clinical question, stage and prior findings, not on an assumption that the most expensive test is best for everyone [3, 6, 10]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "السونار بيستخدم موجات صوتية، مش أشعة سينية",
-                "url": "../articles/ultrasound-uses-sound-not-xrays.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Ultrasound uses sound waves, not X-rays",
-                "url": "../articles/ultrasound-uses-sound-not-xrays.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -166,13 +167,13 @@
           "links": {
             "ar": [
               {
-                "label": "فوائد الحركة أبعد من رقم الميزان",
+                "label": "التمرين المنتظم",
                 "url": "../articles/movement-benefits-beyond-the-scale.html"
               }
             ],
             "en": [
               {
-                "label": "Movement benefits beyond the scale",
+                "label": "regular exercise",
                 "url": "../articles/movement-benefits-beyond-the-scale.html"
               }
             ]

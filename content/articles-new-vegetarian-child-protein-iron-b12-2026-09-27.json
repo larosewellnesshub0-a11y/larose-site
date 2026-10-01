@@ -12,7 +12,8 @@
         "clinical-nutrition"
       ],
       "date": "2026-09-27",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 14,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
@@ -55,8 +56,18 @@
             "en": "Parental interest in plant-based and vegetarian diets for children has grown considerably in recent years, driven by health considerations, environmental awareness, or family dietary philosophies [4, 8, 11]. Authoritative public health authorities, including the World Health Organization and the UK National Health Service, affirm that a thoughtfully designed vegetarian diet can supply all essential nutrients required to sustain healthy somatic growth and neurocognitive development across infancy, childhood, and adolescence [1, 2, 4, 11]. However, implementing plant-based nutrition during childhood is physiologically distinct from adult dietary practices: growing children have substantially higher energy and micronutrient demands per kilogram of body weight, contrasted against smaller gastric capacities that limit the total volume of food they can comfortably consume in a single sitting [1, 2, 9, 11].\n\nIt is clinically critical from the outset to differentiate between a lacto-ovo vegetarian dietary pattern—which incorporates dairy foods and eggs—and a strict vegan dietary pattern that excludes all animal-derived foods entirely [4, 8, 11]. A child consuming dairy products and eggs readily attains high-biological-value complete proteins alongside substantial amounts of dietary vitamin B12, bioavailable calcium, and vitamin D, making nutritional balance straightforward and adaptable within regular family meals [4, 8, 11]. Conversely, a strict vegan pattern requires vigilant, continuing nutritional surveillance and mandatory planning to replace micro-constituents entirely absent from unfortified plant foods—foremost among them vitamin B12—alongside careful attention to dietary energy density [2, 9, 10, 11].\n\nOne of the primary physiological obstacles encountered in pediatric plant-based nutrition is premature satiety induced by the sheer physical bulk and high fiber content of plant whole foods [1, 2, 11]. While dietary fiber provides undisputed advantages for intestinal motility and long-term metabolic health, excessive coarse fiber in young children can prematurely fill their small gastric volume before caloric and macronutrient requirements are fully satisfied, which can impede optimal weight trajectories [1, 7, 11]. Consequently, contemporary pediatric nutrition guidelines emphasize integrating energy-dense, health-promoting foods into young children's daily routines—such as sesame tahini, smooth natural peanut butter, extra-virgin olive oil, and mashed avocado—alongside thoroughly cooked, easily digestible legumes and enriched grains [1, 2, 4, 11]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "السعرات الحرارية",
+                "url": "../articles/underweight-child-calorie-dense-meals.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "caloric and macronutrient requirements",
+                "url": "../articles/underweight-child-calorie-dense-meals.html"
+              }
+            ]
           }
         },
         {
@@ -70,18 +81,8 @@
             "en": "Many parents express concern regarding whether a vegetarian child can obtain sufficient dietary protein to build lean muscle mass, support cellular repair, and maintain robust immune function [4, 8, 11]. Modern nutritional evidence demonstrates that true isolated protein deficiency is extraordinarily rare in vegetarian children whose diets meet their daily caloric energy needs from varied food sources [4, 8]. Proteins are constructed from amino acids, nine of which are considered indispensable (essential) because the human body cannot synthesize them endogenously [8]. Whereas animal products such as eggs and dairy deliver all indispensable amino acids in optimal, balanced proportions with high bioavailability, individual plant proteins frequently have lower concentrations of one or two specific amino acids, such as lysine in grains or methionine in legumes [4, 8].\n\nHistorical dietary theories held that plant proteins had to be rigidly combined at every single meal—such as strictly eating rice and lentils together on the same fork—to fabricate a complete protein profile [8]. Contemporary physiological research has thoroughly refuted this obsolete dogma: the human body maintains a transient metabolic pool of free amino acids that it continuously recycles, meaning that consuming a diverse assortment of plant protein sources across the span of the entire day is completely sufficient to satisfy all essential amino acid requirements effortlessly [8, 11].\n\nTraditional regional foodways offer exceptional, accessible plant-based protein staples that integrate seamlessly into a child's daily menu [4, 8]. Outstanding plant protein staples include legumes such as mashed stewed fava beans (foul medames), brown and yellow lentils, chickpeas, black-eyed peas, and white kidney beans, complemented by nutrient-rich grains like rolled oats, cracked freekeh, and whole wheat baladi bread, as well as ground seeds and nuts like sesame tahini and natural peanut butter [1, 4, 8]. For children following a lacto-ovo dietary pattern, a single boiled egg or a serving of whole-milk plain yoghurt provides a concentrated serving of highly digestible, complete reference protein [4, 8]. To understand adult plant-based protein principles and how they differ from pediatric growth demands, you can review our consultation on adult vegetarian nutrition [8]."
           },
           "links": {
-            "ar": [
-              {
-                  "label": "اقرأ عن استشارة التغذية النباتية للكبار",
-                "url": "../articles/qa-vegetarian-protein-iron-b12.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "adult vegetarian nutrition",
-                "url": "../articles/qa-vegetarian-protein-iron-b12.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -97,11 +98,19 @@
           "links": {
             "ar": [
               {
-                  "label": "دليل أكل غني بالحديد للأطفال",
+                "label": "الأكل النباتي الغني بالحديد للأطفال",
+                "url": "../articles/iron-rich-first-foods-6-to-12-months.html"
+              },
+              {
+                "label": "دليل أكل غني بالحديد للأطفال",
                 "url": "../articles/iron-rich-foods-for-children.html"
               }
             ],
             "en": [
+              {
+                "label": "plant sources of iron for children",
+                "url": "../articles/iron-rich-first-foods-6-to-12-months.html"
+              },
               {
                 "label": "iron-rich food for children",
                 "url": "../articles/iron-rich-foods-for-children.html"
@@ -122,13 +131,13 @@
           "links": {
             "ar": [
               {
-                  "label": "اقرأ عن فيتامين B12 في الأكل النباتي",
+                "label": "فيتامين B12",
                 "url": "../articles/vitamin-b12-in-plant-based-eating.html"
               }
             ],
             "en": [
               {
-                "label": "vitamin B12 in plant-based eating",
+                "label": "vitamin B12",
                 "url": "../articles/vitamin-b12-in-plant-based-eating.html"
               }
             ]
@@ -160,18 +169,8 @@
             "en": "Safeguarding the nutritional health of a vegetarian child depends upon the systematic, objective surveillance of physical growth parameters and neurodevelopmental milestones [3, 7, 11, 12]. The single most reliable clinical metric of nutritional adequacy is not a cross-sectional weight measured on an isolated afternoon, but rather the longitudinal tracking of the child's growth trajectory plotted meticulously along validated World Health Organization growth percentiles for age-adjusted weight and length/height [3, 7, 12]. A flourishing child consistently tracks along their individual genetic growth centile; a decelerating velocity, static weight over consecutive months, or crossing downward across two major centile spaces (faltering growth) represents an unambiguous clinical mandate for structured evaluation to determine caloric and micronutrient sufficiency [3, 7, 12].\n\nSpecific clinical alarm features mandate prioritized medical evaluation rather than passive observation [5, 6, 7, 12]. Manifestations indicating potential hematological or micro-constituent deficiency include conspicuous pallor of the facial skin, conjunctivae, or palmar creases, unexplained fatigue, reduced stamina during routine play, frequent complaints of dizziness, or the emergence of pica (the compulsive ingestion of non-nutritive substances such as ice, clay, chalk, or soil) [5, 12]. Furthermore, neuromuscular warning signs—such as peripheral paresthesias, tremulousness, progressive muscular weakness or hypotonia, and any developmental plateauing or skill regression—constitute red-flag findings that demand urgent clinical and laboratory appraisal to exclude serious cobalamin deficiency [6, 10, 12].\n\nPreventive outpatient surveillance prevents nutritional vulnerability before overt pathology develops [7, 11, 12]. Regular pediatric health check-ups—recommended semi-annually in infants and toddlers, and annually in older school-aged children—allow clinicians to record standardized anthropometrics, audit weekly meal patterns, and evaluate micronutrient sufficiency before deficits arise [3, 7, 12]. To explore how clinicians evaluate trajectory curves over time, refer to our clinical guide on child growth is a trajectory, not a single scale reading [3]."
           },
           "links": {
-            "ar": [
-              {
-                  "label": "نمو الطفل مسار مش وزن في يوم واحد",
-                "url": "../articles/child-growth-is-a-trajectory.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "child growth is a trajectory, not a single scale reading",
-                "url": "../articles/child-growth-is-a-trajectory.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -187,7 +186,7 @@
           "links": {
             "ar": [
               {
-                  "label": "احجز استشارتك مع الفريق الطبي",
+                "label": "احجز استشارتك مع الفريق الطبي",
                 "url": "../patients/booking.html"
               }
             ],

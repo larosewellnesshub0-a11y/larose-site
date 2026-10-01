@@ -10,6 +10,7 @@
       "specialties": ["weight-management", "clinical-nutrition"],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 11,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -38,8 +39,26 @@
             "en": "Mounjaro is a brand of tirzepatide, while Wegovy is a brand of semaglutide. Both can cause common digestive symptoms such as nausea or constipation, particularly when treatment begins or a dose changes. This article is not a guide to managing mild symptoms; the linked page covers those in detail. The focus here is on less common but more important problems: when symptoms may indicate pancreatitis, gallbladder disease, dehydration affecting the kidneys, low blood glucose, eye changes in a person with diabetes, or a serious allergic reaction [1, 2, 3].\n\nThe distinction does not depend on the symptom name alone. Mild nausea while you can drink is different from repeated vomiting accompanied by reduced urine and dizziness. Brief mild cramps are different from severe, continuing pain, especially when it reaches the back. Official prescribing information warns that some serious problems can begin with symptoms resembling an ordinary digestive complaint. Severity, persistence, and accompanying features therefore matter more than trying to diagnose yourself at home [1, 2, 4, 5].\n\nCall the emergency service appropriate to your location immediately for loss of consciousness, difficulty breathing, swelling of the tongue or throat, severe confusion, unbearable abdominal pain, or sudden loss of vision. Do not drive yourself if you are faint, confused, or struggling to breathe. Take the product name, strength, time of the last dose, and medicine list, especially insulin or other glucose-lowering medicines. The purpose is to recognise urgency, not to stop or change treatment independently [1, 2, 8, 11]."
           },
           "links": {
-            "ar": [{"label": "التعامل مع غثيان وإمساك حقن إدارة الوزن", "url": "../articles/qa-injection-nausea-constipation.html"}],
-            "en": [{"label": "managing nausea and constipation with weight-management injections", "url": "../articles/qa-injection-nausea-constipation.html"}]
+            "ar": [
+              {
+                "label": "موعد آخر جرعة",
+                "url": "../articles/mounjaro-pen-use-storage-missed-dose.html"
+              },
+              {
+                "label": "أعراض هضمية شائعة",
+                "url": "../articles/qa-injection-nausea-constipation.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "time of the last dose",
+                "url": "../articles/mounjaro-pen-use-storage-missed-dose.html"
+              },
+              {
+                "label": "common digestive symptoms",
+                "url": "../articles/qa-injection-nausea-constipation.html"
+              }
+            ]
           }
         },
         {
@@ -52,7 +71,10 @@
             "ar": "النشرات الرسمية للسيماغلوتايد والتيرزيباتايد فيها تحذير من التهاب البنكرياس الحاد. أهم علامة ما ينفعش تعتبرها «مغص من الحقنة» هي ألم شديد ومستمر في أعلى أو منتصف البطن، وممكن يمتد للظهر، مع قيء أو من غيره. الألم ممكن يزيد بعد الأكل، والبطن ممكن تبقى حساسة للمس، بس غياب القيء ما يستبعدش المشكلة. الألم بالشكل ده محتاج تقييم عاجل دلوقتي، مش انتظار موعد متابعة أو تجربة مسكنات ووجبات خفيفة في البيت [1, 2, 3, 6].\n\nالطبيب هو اللي يقيّم السبب بالفحص، وممكن يطلب تحاليل أو تصوير حسب الحالة. ألم البطن له أسباب كتير، ومش معنى التحذير ده إن كل ألم سببه التهاب البنكرياس. وفي نفس الوقت، ما ينفعش تطمّن نفسك لمجرد إنك بدأت الدواء قريب ولا عشان الألم حصل بعد وجبة؛ التشخيص ما بيتعملش من التوقيت لوحده. لو الألم شديد، مستمر، واصل للظهر، أو معاه قيء متكرر، اطلب رعاية عاجلة وقل للفريق إنك بتستخدم تيرزيباتايد أو سيماغلوتايد [1, 2, 6, 13].\n\nما تبدأش أو توقف أو تعيد الجرعة بناءً على تشخيصك لنفسك. النشرات بتوجّه الواصف لإيقاف الدواء لو اشتبه في التهاب البنكرياس، بس تنفيذ القرار وتحديد الخطوة اللي بعده مسؤولية الطبيب بعد التقييم. لو جالك التهاب بنكرياس قبل كده، لازم الواصف يعرف التاريخ ده. الأهم دلوقتي ما تتجاهلش الألم المميز وما تأخرش الرعاية خوفًا من «المبالغة» [1, 2, 4, 5].",
             "en": "Official semaglutide and tirzepatide prescribing information includes a warning about acute pancreatitis. The main sign that should not be dismissed as injection-related cramps is severe, persistent pain in the upper or middle abdomen. It may travel to the back and may occur with or without vomiting. Pain can worsen after food and the abdomen may be tender, but absence of vomiting does not rule the problem out. This pattern needs urgent assessment now, rather than waiting for a routine appointment or trying painkillers and light meals at home [1, 2, 3, 6].\n\nA clinician determines the cause through assessment and may order blood tests or imaging when indicated. Abdominal pain has many possible causes, and the label does not say that every episode is pancreatitis. Equally, you should not reassure yourself simply because treatment began recently or the pain followed a meal; timing alone cannot make the diagnosis. If pain is severe, persistent, reaches the back, or comes with repeated vomiting, seek urgent care and tell the team that you use tirzepatide or semaglutide [1, 2, 6, 13].\n\nDo not start, stop, or repeat a dose on the basis of a self-diagnosis. The labels direct the prescriber to discontinue treatment when pancreatitis is suspected, but applying that instruction and deciding what follows are clinical decisions after assessment. A previous episode of pancreatitis should be known to the prescriber. The immediate priority is not to overlook characteristic pain or delay care because you fear that you are overreacting [1, 2, 4, 5]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [],
+            "en": []
+          }
         },
         {
           "id": "gallbladder-warning-signs",
@@ -65,8 +87,8 @@
             "en": "Official prescribing information lists acute gallbladder disease, including gallstones and gallbladder inflammation, among warnings associated with semaglutide and tirzepatide. Typical gallbladder pain is often in the right upper or central abdomen and may reach the back or right shoulder. It can begin after food and persist rather than settling quickly. Strong or continuing pain, especially with fever, chills, or vomiting, needs prompt medical assessment because gallbladder inflammation or a blocked duct requires diagnosis and treatment, not only dietary adjustment [1, 2, 3, 7].\n\nYellow eyes or skin, dark urine, pale stool, or pain accompanied by fever increases the urgency. These features may reflect impaired bile flow or infection. Seek urgent same-day care, and use emergency care if pain is extreme or there is confusion or fainting. Do not try to distinguish a stone, gallbladder sludge, and indigestion at home. Ultrasound and blood tests are chosen after assessment; the linked page explains sludge, stones, and the role of ultrasound [3, 7].\n\nRapid weight loss itself can increase gallstone risk in some people, but this does not mean everyone who loses weight will develop a problem or that finding a stone proves the medicine caused it. Useful details include pain location, duration, relation to food, fever or jaundice, and dose timing. Do not use a gallbladder “cleanse” or alter treatment yourself. Respond to the severity of the signs and leave treatment decisions until the cause is assessed [1, 3, 7]."
           },
           "links": {
-            "ar": [{"label": "رواسب المرارة ولا حصوات: إيه اللي يوضحه السونار؟", "url": "../articles/gallbladder-sludge-vs-stones-ultrasound.html"}],
-            "en": [{"label": "gallbladder sludge versus stones on ultrasound", "url": "../articles/gallbladder-sludge-vs-stones-ultrasound.html"}]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -80,8 +102,8 @@
             "en": "The kidney risk is usually not direct toxicity from the injection. It can arise when vomiting, diarrhoea, or reduced drinking produces a substantial fluid deficit. Official labels warn about acute kidney injury due to volume depletion and note that some reported cases required hospital treatment or dialysis. Risk deserves extra attention if you already have kidney disease, take diuretics, or have a condition that limits fluid intake, although severe dehydration can also injure kidneys in someone without known kidney disease [1, 2, 3, 9].\n\nConcerning signs include being unable to retain even small sips, clearly reduced or absent urine, very dark urine, dizziness on standing, unusual drowsiness, confusion, a very dry mouth, or a rapid heartbeat. Repeated vomiting with any of these signs needs urgent clinical contact. Use emergency care for fainting, confusion, absent urine, or profound weakness. Do not force a large volume of fluid at once when everything comes back up, and do not follow a generic drinking target if a heart or kidney clinician has given you a fluid limit [1, 2, 4, 5, 9].\n\nTell the clinician about every medicine, particularly diuretics, blood-pressure medicines, and painkillers, because dehydration and medicine combinations can alter kidney risk. Do not stop prescribed treatment or take random painkillers or rehydration salts without advice. Flank pain or blood in urine has other possible causes, including kidney stones, which the linked page covers. Reduced urine after repeated vomiting should be treated as possible dehydration or kidney injury until a clinician assesses you [2, 5, 9]."
           },
           "links": {
-            "ar": [{"label": "أعراض حصوات الكلى والفحوصات المناسبة", "url": "../articles/kidney-stones-symptoms-and-tests.html"}],
-            "en": [{"label": "kidney stone symptoms and tests", "url": "../articles/kidney-stones-symptoms-and-tests.html"}]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -94,7 +116,20 @@
             "ar": "مونجارو وويجوفي لوحدهم مش بيعملوا هبوط سكر شديد عند أغلب الناس، بس الخطر يزيد لما الدواء يُستخدم مع الإنسولين أو دواء بيحفز البنكرياس على إفراز الإنسولين، زي مجموعة السلفونيل يوريا. عشان كده ممكن الطبيب يحتاج يراجع جرعات أدوية السكري اللي معاه. المراجعة دي لازم تكون طبية؛ ما تقللش الإنسولين أو توقف دواء السكر من نفسك قبل أو بعد الحقنة [1, 2, 3, 8].\n\nعلامات الهبوط ممكن تشمل رعشة، عرق، جوع مفاجئ، خفقان، دوخة، صداع، عصبية، زغللة أو صعوبة في التركيز. الهبوط الشديد ممكن يعمل تشوش، تصرفات مش طبيعية، تشنجات أو فقدان وعي. لو عندك سكري، اعرف من فريقك الرقم والخطوات المكتوبة المناسبة لك، وخلي مصدر سكر سريع متاح حسب خطتك. لو الشخص واعي وقادر يبلع، اتبع خطة الهبوط اللي الطبيب مديهاله. لو مش واعي، بيتشنج، أو مش قادر يبلع بأمان، ما تحطش أكل أو شرب في فمه؛ اطلب الطوارئ واستخدم الجلوكاجون بس لو هو موصوف وفيه شخص عارف يستخدمه [2, 3, 8].\n\nالغثيان والعرق والدوخة ممكن يشبهوا أعراض تانية، عشان كده قياس السكر مهم لو متاح ومطلوب في خطتك. قول للطبيب عن قلة الأكل أو القيء أو الصيام وأي تغيير في أدوية السكري، عشان الحاجات دي ممكن تغير احتمال الهبوط. الشخص اللي ما عندوش سكري وما بياخدش دواء بيخفض السكر ما يعتبرش كل دوخة هبوط، وبرضه ما يهملش دوخة شديدة أو إغماء؛ السبب محتاج تقييم بدل ما ياخد سكر بشكل متكرر من غير قياس أو تشخيص [1, 2, 8].",
             "en": "Mounjaro and Wegovy used alone do not usually cause severe hypoglycaemia in most people, but risk increases when either is combined with insulin or a medicine that stimulates insulin release, such as a sulfonylurea. The labels therefore warn that the clinician may need to review accompanying diabetes medicines. That review must be clinical; do not reduce insulin or stop a diabetes medicine independently before or after an injection [1, 2, 3, 8].\n\nLow-glucose symptoms can include shaking, sweating, sudden hunger, palpitations, dizziness, headache, irritability, blurred vision, or difficulty concentrating. Severe hypoglycaemia can cause confusion, unusual behaviour, seizures, or unconsciousness. If you have diabetes, know the glucose threshold and written steps your team set for you, and keep a rapid source of glucose available as directed. If the person is conscious and can swallow, follow that individual plan. If the person is unconscious, having a seizure, or cannot swallow safely, do not put food or drink in the mouth. Call emergency services and use glucagon only if prescribed and someone present knows how to use it [2, 3, 8].\n\nNausea, sweating, and dizziness can overlap with other problems, so check glucose when that is available and part of your plan. Tell the clinician about reduced eating, vomiting, fasting, or any diabetes-medicine change because these can alter risk. Someone without diabetes who takes no glucose-lowering medicine should not assume that every dizzy spell is hypoglycaemia. Severe dizziness or fainting still must not be ignored; it needs assessment rather than repeated sugar intake without a measurement or diagnosis [1, 2, 8]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [
+              {
+                "label": "قلة الأكل أو القيء أو الصيام",
+                "url": "../articles/weight-loss-injections-and-fasting.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "reduced eating, vomiting, fasting",
+                "url": "../articles/weight-loss-injections-and-fasting.html"
+              }
+            ]
+          }
         },
         {
           "id": "diabetes-eye-changes",
@@ -107,8 +142,18 @@
             "en": "Official labels call for monitoring people with diabetes who have a history of diabetic retinopathy. Retinopathy complications occurred in semaglutide trials, and rapid improvement in glucose control can be accompanied by temporary worsening in some people with pre-existing disease. The Mounjaro label also advises monitoring patients with a history of diabetic retinopathy. This does not mean that everyone using these medicines will develop eye damage, or that every episode of blurred vision comes from the retina [1, 2, 10, 13].\n\nIf you have diabetes and develop a new vision change, more floaters than usual, dark areas, sudden difficulty seeing, or rapid deterioration, contact the eye clinician and diabetes team promptly. Sudden loss of vision, a curtain or shadow across the visual field, or severe eye pain is an emergency. Do not wait for an annual examination, and do not alter the medicine or glucose-lowering dose yourself. Examination distinguishes a temporary focusing change associated with changing glucose from a retinal, optic-nerve, or other eye problem [1, 10].\n\nThe linked article examines semaglutide, tirzepatide, and vision loss in detail, including the distinction between diabetic retinopathy and research signals involving the optic nerve. The practical message here is simpler: note when the change began and whether it affects one or both eyes, and take glucose readings and a medicine list, but do not let note-taking delay care. If you already have diabetic retinopathy, ask at the start about an eye-monitoring plan while glucose control improves [1, 2, 10, 13]."
           },
           "links": {
-            "ar": [{"label": "أوزمبيك ومونجارو وفقدان النظر: إيه المعروف؟", "url": "../articles/ozempic-mounjaro-blindness-facts.html"}],
-            "en": [{"label": "Ozempic, Mounjaro, and vision loss: what is known", "url": "../articles/ozempic-mounjaro-blindness-facts.html"}]
+            "ar": [
+              {
+                "label": "فقدان مفاجئ للرؤية",
+                "url": "../articles/ozempic-mounjaro-blindness-facts.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Sudden loss of vision",
+                "url": "../articles/ozempic-mounjaro-blindness-facts.html"
+              }
+            ]
           }
         },
         {
@@ -121,7 +166,10 @@
             "ar": "تورم الوجه أو الشفتين أو اللسان أو الحلق، صعوبة التنفس أو البلع، صفير، إغماء، أو طفح منتشر بسرعة بعد الحقن ممكن يكون حساسية شديدة. دي حالة طوارئ؛ اتصل بالطوارئ فورًا وما تستناش تشوف هل هتتحسن لوحدها. طفح بسيط أو حكة مكان الحقن مش نفس الصورة، بس لازم تبلغ الواصف، خصوصًا لو بتزيد أو بتتكرر. النشرات بتمنع استخدام المنتج لو حصلت قبل كده حساسية شديدة للمادة الفعالة أو مكوناته، والطبيب هو اللي يحدد معنى التفاعل وخطة العلاج بعد الرعاية العاجلة [1, 2, 3, 11].\n\nالسيماغلوتايد والتيرزيباتايد بيبطّؤوا إفراغ المعدة، والنشرات بتحذر من أعراض هضمية شديدة. وبحسبها، الاستخدام غير موصى به مع خزل المعدة الشديد. القيء المتكرر، الشبع الشديد بعد كمية صغيرة، الألم والانتفاخ المستمرين، وعدم القدرة على الأكل أو الشرب محتاجين مراجعة سريعة. ولو فيه انتفاخ بيزيد مع قيء وتوقف خروج البراز والغازات، اطلب تقييم عاجل لاحتمال مشكلة أشد من الإمساك العادي؛ ما تستخدمش جرعة كبيرة من مُلين عشوائي [1, 2, 3, 12].\n\nكمان لازم تقول لفريق التخدير أو المنظار إنك بتستخدم الدواء قبل أي إجراء مترتب له، عشان تأخر إفراغ المعدة مهم أثناء التخدير. اتبع تعليمات الفريق اللي هيعمل الإجراء، عشان قرار التعامل مع الجرعة بيتغير حسب الحالة والإجراء وما ينفعش يتاخد من منشور عام. افصل بين سؤالين: هل العرض محتاج رعاية عاجلة دلوقتي؟ وبعد استقرار الحالة، هل العلاج يستمر أو يتغير؟ علامات الخطر تحدد الأول، والواصف يقرر التاني بعد معرفة السبب [1, 2, 3].",
             "en": "Swelling of the face, lips, tongue, or throat, difficulty breathing or swallowing, wheeze, fainting, or a rapidly spreading rash after an injection may indicate a severe allergic reaction. This is an emergency: call emergency services immediately rather than waiting to see whether it settles. A small rash or local itch is not the same picture, but it still needs to be reported, particularly if it grows or recurs. Labels contraindicate the product after a previous serious hypersensitivity reaction to its active ingredient or components. A clinician determines what the reaction means for future treatment after urgent care [1, 2, 3, 11].\n\nSemaglutide and tirzepatide slow gastric emptying. Their labels warn about severe gastrointestinal reactions and state that use is not recommended in severe gastroparesis. Repeated vomiting, profound fullness after a small amount, continuing pain and swelling, or inability to eat or drink needs prompt review. Increasing abdominal swelling with vomiting and inability to pass stool or wind needs urgent assessment for something more serious than ordinary constipation; do not respond with a random large dose of laxative [1, 2, 3, 12].\n\nTell an anaesthesia or endoscopy team that you use the medicine before any planned procedure because delayed stomach emptying matters during anaesthesia. Follow instructions specific to your procedure; dose decisions vary by circumstance and cannot be taken from a general post. Keep two questions separate: does the symptom need urgent care now, and after the person is stable, should treatment continue or change? Red flags determine the first answer, while the prescriber decides the second after the cause is assessed [1, 2, 3]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [],
+            "en": []
+          }
         },
         {
           "id": "next-step-and-safety-plan",
@@ -134,8 +182,18 @@
             "en": "Before treatment begins or at a review, list every diabetes and blood-pressure medicine, diuretic, painkiller, and any history of pancreatitis, gallstones, kidney disease, diabetic retinopathy, or medicine allergy. Ask the prescriber directly which effects are expected, which signs need same-day contact, and which require emergency care. If you have diabetes, request a written hypoglycaemia plan and eye-monitoring plan suited to your history. Preparing this information is more useful than trying to remember a long list while unwell [1, 2, 3, 8, 10].\n\nWhen a symptom occurs, note pain location, severity and duration, episodes of vomiting or diarrhoea, ability to retain fluid, urine output, temperature, requested glucose readings, and timing of the last dose. Do not delay emergency care to complete the record. Take the original package or a clear photograph of its label without personal details. The name “Mounjaro” or “Wegovy” alone is not enough; the team needs the ingredient, strength, and other medicines to assess risk and interactions [1, 2, 4, 5].\n\nIf there is no emergency sign and you want a structured review of risks and symptoms, the medical team at La Rose can assess the clinical picture during a consultation, with branches in Maadi and Fifth Settlement, New Cairo. A consultation does not replace emergency care, promise that a particular medicine is suitable, or mean treatment must continue. Bring the medicine list, medical history, and symptom record. The clinician decides whether treatment continues or changes after weighing benefit and risk; do not change the dose yourself [1, 2, 3]."
           },
           "links": {
-            "ar": [{"label": "احجز استشارة مع الفريق الطبي", "url": "../patients/booking.html"}],
-            "en": [{"label": "Book a consultation", "url": "../patients/booking.html"}]
+            "ar": [
+              {
+                "label": "احجز استشارة مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
           }
         }
       ],

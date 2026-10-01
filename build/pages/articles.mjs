@@ -63,6 +63,7 @@ const COPY = {
   writtenBy: { ar: "كتبه", en: "Written by" },
   related: { ar: "محتوى ممكن يهمك", en: "You may also find helpful" },
   relatedCare: { ar: "تخصصات لها علاقة بالموضوع", en: "Related care" },
+  readAlso: { ar: "اقرأ كمان:", en: "Read also:" },
   moreTips: { ar: "نصايح الأيام اللي فاتت", en: "More daily tips" },
   faqs: { ar: "الأسئلة الشائعة", en: "Frequently asked questions" },
   general: { ar: "صحة عامة", en: "General health" },
@@ -242,6 +243,41 @@ const CONTEXTUAL_INTERNAL_LINKS = {
     ["localised fat", "local-fat-injections-do-they-work"],
     ["local fat", "local-fat-injections-do-they-work"],
     ["ultrasound", "abdominal-pelvic-ultrasound-what-it-shows"],
+    // Phase 3 clusters (2026-10-01): head terms from the SERP shortlist.
+    ["HbA1c", "hba1c-test-what-it-means"],
+    ["TSH", "tsh-thyroid-test-results"],
+    ["anaemia", "anaemia-symptoms-and-cbc"],
+    ["anemia", "anaemia-symptoms-and-cbc"],
+    ["leg swelling", "leg-swelling-causes-when-to-worry"],
+    ["persistent tiredness", "constant-fatigue-which-tests"],
+    ["peptic ulcer", "peptic-ulcer-symptoms-and-causes"],
+    ["stomach ulcer", "peptic-ulcer-symptoms-and-causes"],
+    ["inflammatory bowel disease", "crohns-and-ulcerative-colitis-signs"],
+    ["ulcerative colitis", "crohns-and-ulcerative-colitis-signs"],
+    ["haemorrhoids", "haemorrhoids-symptoms-when-to-check"],
+    ["hemorrhoids", "haemorrhoids-symptoms-when-to-check"],
+    ["anal fissure", "anal-fissure-pain-and-bleeding"],
+    ["hepatitis C", "hepatitis-b-and-c-testing"],
+    ["hepatitis B", "hepatitis-b-and-c-testing"],
+    ["gastroscopy", "gastroscopy-procedure-biopsy-sedation"],
+    ["gallbladder sludge", "gallbladder-sludge-vs-stones-ultrasound"],
+    ["gallbladder polyp", "gallbladder-polyps-ultrasound-next-steps"],
+    ["gout", "gout-symptoms-and-attacks"],
+    ["uric acid", "uric-acid-levels-and-gout-diet"],
+    ["rheumatoid arthritis", "rheumatoid-arthritis-early-signs"],
+    ["knee osteoarthritis", "knee-osteoarthritis-symptoms-and-grades"],
+    ["osteoarthritis", "knee-osteoarthritis-symptoms-and-grades"],
+    ["osteoporosis", "osteoporosis-bone-density-who-to-test"],
+    ["lupus", "lupus-sle-symptoms-and-tests"],
+    ["fibromyalgia", "fibromyalgia-widespread-pain"],
+    ["ankylosing spondylitis", "ankylosing-spondylitis-inflammatory-back-pain"],
+    ["dose escalation", "mounjaro-wegovy-dose-escalation-explained"],
+    ["pancreatitis", "mounjaro-wegovy-serious-side-effects-red-flags"],
+    ["Mounjaro", "ozempic-wegovy-mounjaro-differences"],
+    ["Wegovy", "who-can-take-weight-loss-injections"],
+    ["mesotherapy", "mesotherapy-sessions-number-and-interval"],
+    ["liposuction", "mesotherapy-vs-liposuction"],
+    ["double chin", "double-chin-fat-dissolving-injections"],
   ],
   ar: [
     ["مقاومة الإنسولين", "insulin-resistance-adults-symptoms-testing"],
@@ -263,12 +299,42 @@ const CONTEXTUAL_INTERNAL_LINKS = {
     ["إدارة الوزن", "weight-management-first-visit"],
     ["الدهون الموضعية", "local-fat-injections-do-they-work"],
     ["السونار", "abdominal-pelvic-ultrasound-what-it-shows"],
+    // Phase 3 clusters (2026-10-01): head terms from the SERP shortlist.
+    ["السكر التراكمي", "hba1c-test-what-it-means"],
+    ["TSH", "tsh-thyroid-test-results"],
+    ["الأنيميا", "anaemia-symptoms-and-cbc"],
+    ["فقر الدم", "anaemia-symptoms-and-cbc"],
+    ["تورم الرجلين", "leg-swelling-causes-when-to-worry"],
+    ["تورم القدمين", "leg-swelling-causes-when-to-worry"],
+    ["قرحة المعدة", "peptic-ulcer-symptoms-and-causes"],
+    ["القولون التقرحي", "crohns-and-ulcerative-colitis-signs"],
+    ["مرض كرون", "crohns-and-ulcerative-colitis-signs"],
+    ["البواسير", "haemorrhoids-symptoms-when-to-check"],
+    ["الشرخ الشرجي", "anal-fissure-pain-and-bleeding"],
+    ["فيروس سي", "hepatitis-b-and-c-testing"],
+    ["فيروس بي", "hepatitis-b-and-c-testing"],
+    ["منظار المعدة", "gastroscopy-procedure-biopsy-sedation"],
+    ["النقرس", "gout-symptoms-and-attacks"],
+    ["حمض اليوريك", "uric-acid-levels-and-gout-diet"],
+    ["الروماتويد", "rheumatoid-arthritis-early-signs"],
+    ["خشونة الركبة", "knee-osteoarthritis-symptoms-and-grades"],
+    ["هشاشة العظام", "osteoporosis-bone-density-who-to-test"],
+    ["الذئبة", "lupus-sle-symptoms-and-tests"],
+    ["الفيبروميالجيا", "fibromyalgia-widespread-pain"],
+    ["التهاب الفقرات", "ankylosing-spondylitis-inflammatory-back-pain"],
+    ["مونجارو", "ozempic-wegovy-mounjaro-differences"],
+    ["ويجوفي", "who-can-take-weight-loss-injections"],
+    ["الميزوثيرابي", "mesotherapy-sessions-number-and-interval"],
+    ["شفط الدهون", "mesotherapy-vs-liposuction"],
+    ["الدبل شين", "double-chin-fat-dissolving-injections"],
   ],
 };
 
 const escapeRegExp = (value) => String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-function addNaturalInternalLinks(html, locale, entry) {
+/* `linked` holds the internal URLs already linked on this page, so a term that
+   recurs in every paragraph links to its article once, not once per paragraph. */
+function addNaturalInternalLinks(html, locale, entry, linked = new Set()) {
   const currentSlug = entrySlug(entry);
   let inAnchor = false;
   let added = 0;
@@ -281,11 +347,12 @@ function addNaturalInternalLinks(html, locale, entry) {
     if (inAnchor || part.startsWith("<") || added >= maxLinksPerParagraph) return part;
     let output = part;
     for (const [label, slug] of CONTEXTUAL_INTERNAL_LINKS[locale] || []) {
-      if (added >= maxLinksPerParagraph || slug === currentSlug) continue;
+      if (added >= maxLinksPerParagraph || slug === currentSlug || linked.has(`../articles/${slug}`)) continue;
       const boundary = locale === "en" ? "\\b" : "";
       const pattern = new RegExp(`${boundary}${escapeRegExp(label)}${boundary}`, locale === "en" ? "i" : "");
       if (!pattern.test(output)) continue;
       output = output.replace(pattern, (matched) => `<a href="../articles/${esc(slug)}">${matched}</a>`);
+      linked.add(`../articles/${slug}`);
       added += 1;
       break;
     }
@@ -296,12 +363,13 @@ function addNaturalInternalLinks(html, locale, entry) {
 /* Long-form entries may nominate a small number of relevant internal links.
    Keep the prose as plain text in content JSON and construct anchors here so
    a translated label cannot introduce markup into a published article. */
-function sectionParas(section, locale, entry) {
+function sectionParas(section, locale, entry, linked = new Set()) {
   const links = ta(section?.links, locale);
+  const placed = new Set();
   const sourceCount = ta(entry?.sources, "en").length;
   const automaticCitations = String(section?.citations || "").trim();
   const validUrl = (url) => /^(?:\.\.\/|https:\/\/laroseclinics\.com\/)/.test(url);
-  return String(sectionBody(section, locale) || "")
+  const paragraphs = String(sectionBody(section, locale) || "")
     .split(/\n\s*\n/)
     .map((paragraph) => paragraph.trim())
     .filter(Boolean)
@@ -312,7 +380,7 @@ function sectionParas(section, locale, entry) {
       // escaping the paragraph; all other markup remains text. New content
       // should continue to use section.links, but this keeps a valid natural
       // reading-path link from being displayed as source markup.
-      html = html.replace(/&lt;a href=&quot;(\.\.\/articles\/[^&]+?)(?:\.html)?&quot;&gt;(.+?)&lt;\/a&gt;/g, (_match, url, label) => `<a href="${esc(url)}">${label}</a>`);
+      html = html.replace(/&lt;a href=&quot;(\.\.\/articles\/[^&]+?)(?:\.html)?&quot;&gt;(.+?)&lt;\/a&gt;/g, (_match, url, label) => { linked.add(url); return `<a href="${esc(url)}">${label}</a>`; });
       if (automaticCitations && !/\[[0-9][0-9,\sâ€“-]*\]/.test(paragraph)) {
         html += ` [${esc(automaticCitations)}]`;
       }
@@ -322,10 +390,12 @@ function sectionParas(section, locale, entry) {
         if (!label || !rawUrl || !validUrl(rawUrl)) continue;
         const url = cleanInternalUrl(rawUrl);
         const escapedLabel = esc(label);
-        if (!html.includes(escapedLabel) || html.includes(`>${escapedLabel}</a>`)) continue;
+        if (placed.has(url) || linked.has(url) || !html.includes(escapedLabel) || html.includes(`>${escapedLabel}</a>`)) continue;
         html = html.replace(escapedLabel, `<a href="${esc(url)}">${escapedLabel}</a>`);
+        placed.add(url);
+        linked.add(url);
       }
-      html = addNaturalInternalLinks(html, locale, entry);
+      html = addNaturalInternalLinks(html, locale, entry, linked);
       /* Citations remain readable as [1, 2], while each valid number points
          to its matching numbered source below. Keep invalid/out-of-range
          numbers as text so editorial mistakes cannot become broken links. */
@@ -339,8 +409,22 @@ function sectionParas(section, locale, entry) {
         return `[${linked}]`;
       });
       return `<p>${html}</p>`;
-    })
-    .join("\n");
+    });
+  /* A nominated link whose label is not quoted word-for-word in the prose used
+     to vanish without a trace (475 links on 2026-10-01). Keep the editor's
+     choice visible as a short "read also" line under the section instead. */
+  const unplaced = [];
+  for (const item of links) {
+    const label = t(item?.label, locale);
+    const rawUrl = t(item?.url, locale) || t(item?.url, "en");
+    if (!label || !rawUrl || !validUrl(rawUrl)) continue;
+    const url = cleanInternalUrl(rawUrl);
+    if (placed.has(url) || linked.has(url)) continue;
+    linked.add(url);
+    unplaced.push(`<a href="${esc(url)}">${esc(label)}</a>`);
+  }
+  if (unplaced.length) paragraphs.push(`<p class="read-also"><strong>${esc(t(COPY.readAlso, locale))}</strong> ${unplaced.join(" · ")}</p>`);
+  return paragraphs.join("\n");
 }
 
 function sectionId(section, index) {
@@ -1323,6 +1407,8 @@ function relatedEntries({ entry, entries, limit = 6 }) {
 
 function detailPage({ c, locale, categories, entries, entry }) {
   const depth = 1;
+  // Internal URLs already linked in this page's prose (see sectionParas).
+  const linkedOnPage = new Set();
   const slug = entrySlug(entry);
   const pagePath = `articles/${slug}.html`;
   // The share and Ask-AI links need the page's absolute public URL, the same
@@ -1396,7 +1482,7 @@ ${when(image, `<section class="section section--tight" style="padding-top:0">
       ? `<article class="prose">${sections.length
           ? map(sections, (section, index) => `<section>
             ${when(sectionTitle(section, locale), `<h2 id="${esc(sectionId(section, index))}">${esc(sectionTitle(section, locale))}</h2>`)}
-            ${sectionParas(section, locale, entry)}
+            ${sectionParas(section, locale, entry, linkedOnPage)}
           </section>`)
           : paras(fallbackBody)}</article>`
       : `<div class="article-layout">
@@ -1411,7 +1497,7 @@ ${when(image, `<section class="section section--tight" style="padding-top:0">
         <article class="prose">
           ${map(sections, (section, index) => `<section>
             <h2 id="${esc(sectionId(section, index))}">${esc(sectionTitle(section, locale))}</h2>
-            ${sectionParas(section, locale, entry)}
+            ${sectionParas(section, locale, entry, linkedOnPage)}
           </section>`)}
         </article>
       </div>`}

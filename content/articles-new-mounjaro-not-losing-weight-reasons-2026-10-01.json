@@ -14,6 +14,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -56,8 +57,18 @@
             "en": "When someone says “Mounjaro is not working,” they may mean one of three different patterns: weight never moved, it fell and then levelled off, or it is moving more slowly than expected. That distinction matters because each pattern needs a different review. One flat reading is not enough. Fluid, salt, constipation, measurement time and gut contents can conceal fat change for days. Look at a trend across several weeks under comparable conditions, not the lowest number that appeared on the scale [1, 5, 11].\n\nTreatment stage also matters. The original SURMOUNT-1 trial followed tirzepatide with eating and activity support over a long period; it was not a rapid test after one or two injections. In a later analysis, 18% of participants had lost less than 5% at week 12. Among that later-response group, 70% reached at least 5% loss by week 24 and 90% did so by week 72. This does not guarantee that waiting alone will solve every case, but it shows that a slow early response is not automatically a final verdict [1, 2].\n\nA sustained flat trend still deserves a structured review rather than dismissal. Record baseline weight, the current average, waist, the clinician-prescribed dose history, missed doses, and adverse effects that changed food or fluid intake. The Mounjaro results-timeline article explains response timing in detail; this guide focuses on sorting the reasons for slower progress [1, 2, 4]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "نتائج مونجارو",
+                "url": "../articles/mounjaro-results-timeline-what-to-expect.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Mounjaro results-timeline article",
+                "url": "../articles/mounjaro-results-timeline-what-to-expect.html"
+              }
+            ]
           }
         },
         {
@@ -71,8 +82,18 @@
             "en": "Tirzepatide is used within a clinician-directed plan. Its starting dose is intended for treatment initiation rather than maintenance. The official prescribing information sets out an escalation schedule and limits, while dose selection depends on response and tolerability. If you are still at the beginning, had an interruption or missed doses, comparing your result with someone who has remained on a maintenance dose for months will be misleading [3].\n\nA practical review starts with simple questions. Did you use the pen or vial prescribed for you? Was the weekly day consistent? Were there missed doses or gaps? Was it stored according to its instructions? Did vomiting, diarrhoea or very low intake make the plan difficult to continue? Bring the pack, or a clear photograph of its label, and a list of dates to the appointment. A brand name alone does not confirm the concentration or how it was used [3, 11].\n\nDo not increase the dose, bring injections closer together or combine doses because the scale is flat. Self-escalation may increase adverse effects and will not correct a cause such as fluid change, unnoticed eating or another weight-promoting medicine. NICE places review of lower response to tirzepatide in the context of the highest tolerated dose and adequate time on it. That decision belongs to the clinician after balancing benefit and tolerability, not to one week's number [3, 4]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "الجرعة الابتدائية",
+                "url": "../articles/mounjaro-wegovy-dose-escalation-explained.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "starting dose",
+                "url": "../articles/mounjaro-wegovy-dose-escalation-explained.html"
+              }
+            ]
           }
         },
         {
@@ -101,18 +122,8 @@
             "en": "Short sleep can make hunger harder to manage, create more opportunities to eat during waking hours and reduce energy for movement. In a small randomized trial during energy restriction, reducing sleep by about one hour on five nights each week altered the proportion of lost weight that came from fat, even though total weight loss was similar between groups. The study was small and did not involve tirzepatide. It shows that recovery and the quality of loss may be affected; it does not mean that one poor night stops the medicine [6].\n\nReview average sleep across two weeks, timing, repeated waking, loud snoring, witnessed breathing pauses and daytime sleepiness. Do not reduce the answer to “sleep more” when there are signs of sleep apnoea or persistent insomnia; those patterns need appropriate assessment. Equally, do not blame sleep alone before reviewing measurement, dosing, eating, movement, medicines and health conditions [5, 6].\n\nA useful step is to keep wake time reasonably consistent, reduce unplanned eating during late waking hours and record how sleep relates to hunger and energy rather than changing ten things at once. The dedicated sleep-and-plateau article explains a structured trial and signs that merit sleep assessment. Here, sleep belongs on the review list as one part of the picture, not a ready-made diagnosis [5, 6]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "النوم القليل وثبات الوزن",
-                "url": "../articles/qa-sleep-weight-plateau.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Short sleep and a weight plateau",
-                "url": "../articles/qa-sleep-weight-plateau.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -126,18 +137,8 @@
             "en": "Some prescribed medicines can be associated with weight gain, fluid retention or increased appetite in some people. Medical reviews list classes including certain antipsychotics and antidepressants, corticosteroids, insulin and some other diabetes treatments, and some neurological or allergy medicines. Effects differ within each class, and not everyone has the same response [7].\n\nTiming helps. Did the plateau start after a new medicine or dose change? Was there rapid swelling rather than gradual gain? Did treatment increase sleepiness, hunger, thirst or eating intended to prevent low glucose? List every prescription, non-prescription product and supplement with its start date. A complete list is more useful than trying to select one culprit from memory [7, 11].\n\nDo not stop insulin, psychiatric medicine, a corticosteroid or any chronic treatment because of the scale. Abrupt withdrawal can be dangerous, and the medicine may be essential for a condition more urgent than weight. The clinician can assess whether the link is plausible, whether a suitable alternative exists, and whether timing or monitoring can change without undermining treatment of the original illness. The dedicated article on medicine-related weight gain explains those steps in greater depth [7]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "هل الدواء بيسبب زيادة الوزن؟",
-                "url": "../articles/qa-medicine-causing-weight-gain.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Could my medicine be causing weight gain?",
-                "url": "../articles/qa-medicine-causing-weight-gain.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -153,13 +154,13 @@
           "links": {
             "ar": [
               {
-                "label": "قصور الغدة الدرقية والوزن",
+                "label": "تحاليل الغدة",
                 "url": "../articles/hypothyroidism-and-weight.html"
               }
             ],
             "en": [
               {
-                "label": "Hypothyroidism and weight",
+                "label": "thyroid blood tests",
                 "url": "../articles/hypothyroidism-and-weight.html"
               }
             ]
@@ -178,13 +179,13 @@
           "links": {
             "ar": [
               {
-                "label": "رقم الدهون الحشوية وقياس الخصر وInBody",
+                "label": "الدهون الحشوية والخصر",
                 "url": "../articles/visceral-fat-score-waist-and-inbody.html"
               }
             ],
             "en": [
               {
-                "label": "Visceral fat score, waist and InBody",
+                "label": "visceral-fat, waist and InBody guide",
                 "url": "../articles/visceral-fat-score-waist-and-inbody.html"
               }
             ]

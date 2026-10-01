@@ -39,7 +39,8 @@
             "ar": "حدّثنا عناوين البحث، وضفنا دليلاً واضحاً لاختيار منظار المعدة أو القولون وإجابة مباشرة عن أسباب طلب منظار القولون.",
             "en": "We updated the search titles and added a clear gastroscopy-versus-colonoscopy decision guide and a direct answer on why colonoscopy is requested."
           }
-        }
+        },
+        {"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}
       ],
       "tags": {
         "ar": [
@@ -69,8 +70,18 @@
             "en": "Gastroscopy, also called upper gastrointestinal endoscopy, uses a thin flexible camera passed through the mouth. It lets the clinician inspect the lining of the oesophagus, stomach and duodenum, the first part of the small bowel. Colonoscopy enters through the anus to inspect the rectum and colon and may reach the end of the small bowel when the clinical question requires it. Gastroscopy therefore does not inspect the colon, and colonoscopy does not inspect inside the stomach. [1, 2, 3, 4]\n\nThe main difference is not that one test is larger or more important. Each answers questions in a different part of the digestive tract. The location of pain alone cannot select the test because symptoms can overlap or be felt away from their source. A clinician considers the symptom pattern and duration, examination, earlier tests, medicines and family history before deciding whether endoscopy is likely to provide information that changes care. [3, 4, 5, 6]\n\nSometimes one procedure is appropriate, sometimes both are considered, and sometimes neither is the first step. Blood tests, H. pylori testing, stool tests, imaging or planned follow-up may be more useful in a particular situation. This article explains the distinction and what to expect; it is not a tool for choosing a procedure yourself. The treating clinician makes the final decision after assessing you. [3, 4, 11]"
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "اختبار جرثومة المعدة",
+                "url": "../articles/h-pylori-symptoms-and-testing-pathway.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "H. pylori testing",
+                "url": "../articles/h-pylori-symptoms-and-testing-pathway.html"
+              }
+            ]
           }
         },
         {

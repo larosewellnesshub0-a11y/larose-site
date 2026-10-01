@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-sherif",
       "reviewedBy": "mohab-ashraf",
@@ -54,8 +55,26 @@
             "en": "If you are asking for the best treatment for knee osteoarthritis, the answer is not the name of one medicine or injection. The plan depends on pain severity, how well you can walk, sleep and work, your other conditions and medicines, and what you have already tried. Guidelines begin with clear information, suitable therapeutic exercise and weight management when relevant, then add pain relief or movement support according to need. An X-ray grade alone does not choose treatment; the practical goals are less pain, better movement and greater ability to carry out daily activities [1, 2, 3].\n\nThis order does not mean that one stage must be completed before the next starts. Physiotherapy can run alongside a topical anti-inflammatory medicine, while a correctly chosen walking aid may help you remain active. Not every painful knee is osteoarthritis, either. Diagnosis requires a history and examination, with imaging or joint-fluid testing sometimes used when the pattern is unusual. No treatment restores cartilage to its original state, but several options can reduce symptoms and improve function, and many people never need surgery [4, 5, 11].\n\nAgree on a measurable goal with your clinician: walking for longer, climbing a defined number of steps, rising from a chair more easily, or sleeping without being woken by pain. Record pain, activity and any adverse effects, then review the plan instead of moving randomly between remedies. Improvement is often gradual, and continuing the foundations matters more than chasing a rapid fix [1, 4, 12]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "ألم ركبة يبقى خشونة",
+                "url": "../articles/knee-osteoarthritis-symptoms-and-grades.html"
+              },
+              {
+                "label": "تحليل سائل المفصل",
+                "url": "../articles/gout-symptoms-and-attacks.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "painful knee is osteoarthritis",
+                "url": "../articles/knee-osteoarthritis-symptoms-and-grades.html"
+              },
+              {
+                "label": "joint-fluid testing",
+                "url": "../articles/gout-symptoms-and-attacks.html"
+              }
+            ]
           }
         },
         {
@@ -71,22 +90,14 @@
           "links": {
             "ar": [
               {
-                "label": "فوائد الحركة حتى لو الميزان ما اتحركش",
+                "label": "التمرين العلاجي",
                 "url": "../articles/movement-benefits-beyond-the-scale.html"
-              },
-              {
-                "label": "إزاي تحافظ على العضلات",
-                "url": "../articles/protecting-muscle-while-losing-weight.html"
               }
             ],
             "en": [
               {
-                "label": "Movement benefits beyond the scale",
+                "label": "therapeutic exercise",
                 "url": "../articles/movement-benefits-beyond-the-scale.html"
-              },
-              {
-                "label": "How to protect muscle",
-                "url": "../articles/protecting-muscle-while-losing-weight.html"
               }
             ]
           }
@@ -117,18 +128,8 @@
             "en": "If you live with excess weight, losing any amount may improve pain and movement, and NICE notes that improvement is likely to be greater with a ten percent loss than with five percent. Weight loss is not, however, a prerequisite for deserving pain treatment or a surgical referral. A weight plan should be realistic, protect nutrition and muscle, and adapt activity so the knee allows consistency. Knee osteoarthritis should not be reduced to a scale number because previous injury, age, joint structure and other factors also contribute [1, 2, 10].\n\nA walking stick can reduce load and improve safety, particularly when the knee feels unstable or you limp. Height and technique matter; it is commonly held on the side opposite the painful knee, but a movement professional should confirm the right setup for you. A walker may be more suitable when balance is poor or both sides are affected. Using an aid is not surrender. It is a tool that can help you move confidently and remain active [2, 4, 10].\n\nBraces are not routine for everyone. An unloading brace may help when osteoarthritis is concentrated in one knee compartment, while a patellofemoral brace may suit a different pattern. A poorly fitted device can cause rubbing or pressure without benefit. NICE does not advise routinely offering braces, insoles, tape or supports unless there is instability or abnormal loading and the device is expected to improve movement. Assessment before purchase is therefore better than choosing one at random [1, 2, 6]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "رعاية السمنة أبعد من مؤشر الكتلة",
-                "url": "../articles/obesity-care-beyond-bmi.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Obesity care beyond BMI",
-                "url": "../articles/obesity-care-beyond-bmi.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -172,18 +173,8 @@
             "en": "Glucosamine is one of the most frequently discussed supplements. NICE says not to offer it for osteoarthritis because there is no strong evidence of benefit, and ACR strongly recommends against it for knee osteoarthritis, while other sources note differing results between preparations. The practical conclusion is not to treat it as foundational care or a substitute for exercise, weight management and medical treatment. Glucosamine and chondroitin can interact with certain blood thinners, so tell your clinician and pharmacist about every supplement you take [1, 2, 8, 9].\n\nEvidence for collagen, herbs and mixed remedies is less consistent and cannot support a promise that cartilage will regrow or osteoarthritis will disappear. Natural does not mean safe because concentration and purity can vary, while a supplement may interact with a medicine or affect the liver or kidneys. Bee venom can trigger a severe allergic reaction, and there is no reason to experiment without clear evidence and safeguards. Do not stop an effective treatment for a product marketed as cartilage-building [8, 9].\n\nCupping and acupuncture have mixed findings and recommendations. NICE advises against acupuncture or dry needling for osteoarthritis, while ACR gives acupuncture a conditional recommendation, showing that certainty is lower than it is for exercise. Evidence for cupping or bee venom is insufficient for either to become a core part of the treatment ladder. If you are considering a complementary approach, discuss it as a possible addition for symptoms rather than a cartilage treatment, and ask about infection, bleeding, allergy and interactions [1, 2, 8]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "المكملات حسب الحاجة مش روتين",
-                "url": "../articles/supplements-are-targeted-not-a-default.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Supplements should be targeted, not automatic",
-                "url": "../articles/supplements-are-targeted-not-a-default.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {

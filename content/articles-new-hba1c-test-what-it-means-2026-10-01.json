@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 12,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-sherif",
@@ -71,7 +72,11 @@
           "links": {
             "ar": [
               {
-                "label": "السكر التراكمي في مرحلة ما قبل السكري: هل تحتاج دواء؟",
+                "label": "مقاومة الإنسولين",
+                "url": "../articles/child-insulin-resistance-family-meals.html"
+              },
+              {
+                "label": "مرحلة ما قبل السكري",
                 "url": "../articles/qa-prediabetes-need-medicine.html"
               },
               {
@@ -80,6 +85,10 @@
               }
             ],
             "en": [
+              {
+                "label": "insulin-resistance assessment",
+                "url": "../articles/child-insulin-resistance-family-meals.html"
+              },
               {
                 "label": "prediabetes HbA1c and medicine decisions",
                 "url": "../articles/qa-prediabetes-need-medicine.html"
@@ -117,8 +126,18 @@
             "en": "The accuracy of HbA1c depends partly on red blood cell turnover and haemoglobin characteristics. When a medical condition changes how red blood cells are produced or how long they remain in circulation, the result may not reflect glycaemia accurately. Studies have associated iron deficiency anaemia with higher HbA1c in some people, but the review literature states that the mechanism remains uncertain. Proposed explanations involve red blood cell turnover, cell characteristics, and the rate of haemoglobin glycation; they should not be presented as a settled mechanism applying to every patient [5, 6]. In a systematic review, most included studies found that HbA1c decreased after iron replacement, while one found an increase. Clinicians should therefore interpret HbA1c alongside glucose readings, a blood count, and iron studies rather than in isolation [6, 7].\n\nConversely, conditions that accelerate red blood cell turnover can produce falsely low HbA1c results. This may occur with haemolytic anaemia, acute blood loss, recovery after blood transfusion, or treatment with erythropoietin-stimulating agents. HbA1c can also be unreliable in advanced chronic kidney disease and during maintenance haemodialysis because red blood cell survival and other disease- and treatment-related factors are altered [5, 11, 12].\n\nA third important category of interference involves inherited haemoglobin variants, including sickle haemoglobin (HbS) and haemoglobin C, D, or E. Their effect on the result depends on the variant and the assay method used. NGSP certification helps laboratories identify method-specific interference, but a clear mismatch between daily glucose readings and laboratory HbA1c should prompt clinical review of the assay and consideration of other monitoring approaches, such as fructosamine, glycated albumin, or continuous glucose monitoring (CGM) [5, 8, 9, 11, 12]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "أنيميا نقص الحديد",
+                "url": "../articles/anaemia-symptoms-and-cbc.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "iron deficiency anaemia",
+                "url": "../articles/anaemia-symptoms-and-cbc.html"
+              }
+            ]
           }
         },
         {

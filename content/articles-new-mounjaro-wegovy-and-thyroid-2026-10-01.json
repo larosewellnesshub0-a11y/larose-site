@@ -13,6 +13,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -57,14 +58,30 @@
           "links": {
             "ar": [
               {
-                "label": "دليل أدوية GLP-1 لإنقاص الوزن",
-                "url": "../articles/glp1-medication-guide.html"
+                "label": "مونجارو وزيبباوند",
+                "url": "../articles/ozempic-wegovy-mounjaro-differences.html"
+              },
+              {
+                "label": "الأعراض الجانبية التانية",
+                "url": "../articles/mounjaro-wegovy-serious-side-effects-red-flags.html"
+              },
+              {
+                "label": "خمول الغدة العادي",
+                "url": "../articles/hypothyroidism-and-weight.html"
               }
             ],
             "en": [
               {
-                "label": "Practical guide to GLP-1 medicines",
-                "url": "../articles/glp1-medication-guide.html"
+                "label": "Mounjaro and Zepbound",
+                "url": "../articles/ozempic-wegovy-mounjaro-differences.html"
+              },
+              {
+                "label": "other adverse effects",
+                "url": "../articles/mounjaro-wegovy-serious-side-effects-red-flags.html"
+              },
+              {
+                "label": "Ordinary hypothyroidism",
+                "url": "../articles/hypothyroidism-and-weight.html"
               }
             ]
           }
@@ -80,18 +97,8 @@
             "en": "The thyroid contains different cell types. C cells produce calcitonin, and MTC begins in those cells. The hormones involved in energy regulation and metabolism, including T4, come from different follicular cells. MTC is therefore not another name for an underactive thyroid, and a TSH result is not a test that excludes MTC [4, 5].\n\nMEN2 is an inherited syndrome associated with a pathogenic change in the RET gene and a higher likelihood of MTC and other endocrine tumours. The useful family history is more precise than “someone in the family had a thyroid problem.” It asks whether the diagnosis was medullary thyroid cancer, MEN2, or a documented RET variant. If old information is incomplete, the clinician may request the pathology report or arrange endocrine or genetic assessment rather than guess [4].\n\nHypothyroidism means the body does not produce enough thyroid hormone, and Hashimoto's disease is a common autoimmune cause. Usual treatment replaces the missing hormone with levothyroxine and follows thyroid tests. Hypothyroidism or Hashimoto's disease does not erase a separate MTC or MEN2 history, but neither condition becomes the C-cell tumour named in the warning merely because it involves the thyroid. Keeping those issues separate prevents stopping essential treatment or excluding a medicine based only on the word “thyroid” [5, 6]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "زيادة الوزن وكسل الغدة: إمتى يكون التحليل مفيد؟",
-                "url": "../articles/hypothyroidism-and-weight.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Weight gain and hypothyroidism: when is testing useful?",
-                "url": "../articles/hypothyroidism-and-weight.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -150,18 +157,8 @@
             "en": "Levothyroxine replaces missing hormone, with the aim of keeping thyroid function in the range set by the clinician. Do not stop it on injection day or raise or lower it because appetite or weight has changed. The official levothyroxine label warns against using excess thyroid hormone for weight loss because excessive doses can cause serious toxicity. Keep the way you take it consistent and review any change in timing, supplements or other medicines with the clinician [5, 6, 7, 8].\n\nThe tirzepatide and semaglutide labels state that these medicines delay gastric emptying and may affect absorption of oral medicines, with caution advised for medicines that require close monitoring. That is a reason for review, not evidence that every user needs a levothyroxine dose change, and it does not prove that an injection has made levothyroxine ineffective [1, 2, 3].\n\nAfter substantial weight loss, or if new symptoms appear such as palpitations, tremor, heat intolerance, unusual fatigue, constipation or feeling cold, discuss the timing of TSH and free T4 with the clinician. Results are interpreted alongside the dose, how it is taken and the timing of the last adjustment. If the levothyroxine dose itself changes, usual follow-up allows enough time for hormone levels to stabilise, often about six to eight weeks, rather than testing two days after a weight change [5, 6]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "جرعة الغدة وثبات الوزن: هل أزوّد العلاج؟",
-                "url": "../articles/qa-thyroid-dose-weight.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Thyroid dose and a weight plateau: should I take more?",
-                "url": "../articles/qa-thyroid-dose-weight.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {

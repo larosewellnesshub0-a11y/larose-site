@@ -14,6 +14,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 11,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -58,14 +59,22 @@
           "links": {
             "ar": [
               {
-                "label": "دليل أدوية GLP-1 لإنقاص الوزن",
-                "url": "../articles/glp1-medication-guide.html"
+                "label": "تدرج الجرعات",
+                "url": "../articles/mounjaro-wegovy-dose-escalation-explained.html"
+              },
+              {
+                "label": "مونجارو مناسب ليك",
+                "url": "../articles/who-can-take-weight-loss-injections.html"
               }
             ],
             "en": [
               {
-                "label": "GLP-1 medicines: a practical guide",
-                "url": "../articles/glp1-medication-guide.html"
+                "label": "dose-escalation and weight-loss guidance",
+                "url": "../articles/mounjaro-wegovy-dose-escalation-explained.html"
+              },
+              {
+                "label": "Mounjaro is suitable",
+                "url": "../articles/who-can-take-weight-loss-injections.html"
               }
             ]
           }
@@ -158,13 +167,21 @@
           "links": {
             "ar": [
               {
-                "label": "إزاي تتعامل مع حبوب أو منتجات تخسيس مجهولة؟",
+                "label": "أعراض قوية",
+                "url": "../articles/mounjaro-wegovy-serious-side-effects-red-flags.html"
+              },
+              {
+                "label": "الأقراص والمنتجات المجهولة",
                 "url": "../articles/qa-unknown-slimming-pills.html"
               }
             ],
             "en": [
               {
-                "label": "how to assess unknown slimming products",
+                "label": "severe symptoms",
+                "url": "../articles/mounjaro-wegovy-serious-side-effects-red-flags.html"
+              },
+              {
+                "label": "unidentified slimming products",
                 "url": "../articles/qa-unknown-slimming-pills.html"
               }
             ]
@@ -183,19 +200,11 @@
           "links": {
             "ar": [
               {
-                "label": "دليل أول زيارة لإدارة الوزن",
-                "url": "../articles/weight-management-first-visit.html"
-              },
-              {
                 "label": "احجز استشارة مع الفريق الطبي",
                 "url": "../patients/booking.html"
               }
             ],
             "en": [
-              {
-                "label": "weight-management first-visit guide",
-                "url": "../articles/weight-management-first-visit.html"
-              },
               {
                 "label": "Book a consultation",
                 "url": "../patients/booking.html"

@@ -12,7 +12,7 @@
         "clinical-nutrition"
       ],
       "date": "2026-09-11",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 9,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
@@ -121,12 +121,20 @@
               {
                 "label": "نقص الحديد عند الأطفال",
                 "url": "../articles/iron-deficiency-in-children.html"
+              },
+              {
+                "label": "تقييم فيتامين د",
+                "url": "../articles/vitamin-d-in-children-when-to-assess.html"
               }
             ],
             "en": [
               {
                 "label": "Iron deficiency in children",
                 "url": "../articles/iron-deficiency-in-children.html"
+              },
+              {
+                "label": "assessment of vitamin D",
+                "url": "../articles/vitamin-d-in-children-when-to-assess.html"
               }
             ]
           }
@@ -343,6 +351,13 @@
           "note": {
             "ar": "وسعنا شرح قياسات النمو وتحضير الزيارة وتقييم الأكل والفحوصات وعلامات الخطر والمتابعة، واتراجع المحتوى طبياً من جديد.",
             "en": "We expanded growth measurement, visit preparation, feeding assessment, testing, warning signs and follow-up, and medically re-reviewed the content."
+          }
+        },
+        {
+          "date": "2026-10-01",
+          "note": {
+            "ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.",
+            "en": "Added internal links to related articles; no change to the medical content."
           }
         }
       ]

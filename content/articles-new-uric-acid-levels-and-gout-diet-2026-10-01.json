@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 14,
       "author": "shimaa-sherif",
       "reviewedBy": "mohab-ashraf",
@@ -64,8 +65,18 @@
             "en": "Uric acid is a normal chemical byproduct generated when the body breaks down purines, which are nitrogenous compounds present both within endogenous cellular nucleic acids and in various foods consumed daily [11, 12]. Under normal physiological circumstances, the kidneys clear approximately two-thirds of circulating urate into urine, while the gastrointestinal tract eliminates the remaining third, maintaining a tight systemic balance [11, 12]. In standard diagnostic laboratories, normal reference ranges for serum uric acid in healthy adult men generally fall between 3.4 and 7.0 mg/dL (200 to 420 µmol/L), whereas reference ranges for premenopausal women typically range between 2.4 and 6.0 mg/dL (140 to 360 µmol/L) [11, 12]. Reference ranges can differ between laboratories, so results should be interpreted against the range printed on the laboratory report. This physiological difference in women is driven by circulating estrogen, which promotes renal urate excretion via tubular transporters, though postmenopausal levels gradually rise toward male reference values [11, 12].\n\nA critical physiological threshold is the physiological saturation point of monosodium urate in serum, which occurs at approximately 6.8 mg/dL at normal core body temperature (37°C) [11, 12]. When serum urate concentrations exceed this saturation point, supersaturation develops, allowing needle-shaped monosodium urate crystals to precipitate within the synovial fluid, cartilage, and surrounding periarticular soft tissues [11, 12]. Peripheral joints such as the first metatarsophalangeal joint of the great toe are slightly cooler than the core body, significantly lowering local crystal solubility and explaining why acute flares classically concentrate in the distal lower extremities [11, 12].\n\nThis physiological reality creates a fundamental distinction that patients frequently misunderstand: once an individual is clinically diagnosed with gout, the treatment goal is not simply landing anywhere inside a laboratory's broad 'normal' reference range [1, 2]. Major guidelines from both the American College of Rheumatology (ACR) and the European Alliance of Associations for Rheumatology (EULAR) recommend a rigorous treat-to-target strategy [1, 2]. This protocol mandates maintaining serum urate persistently below 6.0 mg/dL (360 µmol/L) for all gout patients to prevent new crystal nucleation and allow existing deposits to dissolve [1, 2]. In patients presenting with severe disease—such as visible subcutaneous tophi, chronic tophaceous arthropathy, or frequent disabling attacks—guidelines recommend driving levels below 5.0 mg/dL (300 µmol/L) to markedly accelerate crystal dissolution and reverse tissue damage [2, 9]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "معامل التحاليل الطبية",
+                "url": "../articles/rheumatism-blood-tests-explained.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "reference ranges for serum uric acid",
+                "url": "../articles/rheumatism-blood-tests-explained.html"
+              }
+            ]
           }
         },
         {
@@ -79,18 +90,8 @@
             "en": "In daily clinical practice, a widespread cultural myth revolves around the phrase 'I have salts' (عندي أملاح), which patients routinely use to explain heel pain, urinary burning, or generalized body aches [11, 12]. Individuals often undergo routine urinalysis, see calcium oxalate or amorphous urate crystals flagged on the laboratory report, and immediately conclude they have gout, prompting them to consume barley water or over-the-counter urinary alkalizing effervescent salts without medical oversight [11, 12]. In reality, urinalysis merely reflects the concentration, pH, and transient solute saturation of urine at a single point in time—frequently driven by simple dehydration or recent dietary intake—and has no diagnostic bearing on joint disease or systemic gout [11, 12]. Gout diagnosis requires clinical evaluation of inflammatory arthritis, serum urate testing in blood, and, when feasible, polarized light microscopy demonstrating intracellular needle-shaped crystals within synovial fluid [1, 11].\n\nFurthermore, clinicians must rigorously separate clinical gout from asymptomatic hyperuricemia [1, 11, 12]. Asymptomatic hyperuricemia describes individuals whose blood tests show elevated serum urate (such as 7.5 or 8.5 mg/dL) but who have never experienced an episode of acute inflammatory arthritis, subcutaneous tophi, or uric acid nephrolithiasis [1, 11, 12]. Long-term epidemiological cohorts confirm that the vast majority of individuals with asymptomatic hyperuricemia never develop gout throughout their lifetimes, with only a small fraction ever progressing to symptomatic disease [11, 12].\n\nConsequently, the 2020 American College of Rheumatology (ACR) guideline conditionally recommends against initiating long-term urate-lowering pharmacotherapy (such as allopurinol or febuxostat) in individuals with asymptomatic hyperuricemia who lack gout symptoms, tophi, or recurrent kidney stones [1]. For these individuals, drug therapy is not indicated; instead, clinical attention should focus on evaluating associated cardiometabolic risk factors—including insulin resistance, hypertension, and kidney health—while encouraging hydration and lifestyle adjustments to reduce the risk of future nephrolithiasis [1, 11, 12]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "أعراض حصوات الكلى وفحوصاتها",
-                "url": "../articles/kidney-stones-symptoms-and-tests.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "kidney stones symptoms and tests",
-                "url": "../articles/kidney-stones-symptoms-and-tests.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -104,8 +105,18 @@
             "en": "Purines represent the biochemical precursor from which uric acid is synthesized upon metabolic degradation, and clinical research demonstrates that the dietary source of purines markedly influences serum urate dynamics [3, 6, 11]. Purines derived from animal tissues—specifically red meat, organ meats, and certain seafood—represent the primary dietary drivers of hyperuricemia and acute gout flares [3, 6]. Organ meats such as liver, kidneys, brain, and sweetbreads contain the highest density of absorbable purines (adenine and hypoxanthine), producing sharp, rapid postprandial spikes in circulating urate levels within hours of ingestion [3, 6, 11]. Consequently, clinical guidelines universally advise individuals with gout to minimize or completely avoid organ meats [1, 3].\n\nRegarding ordinary muscle meats, including beef, lamb, and mutton, extensive prospective cohort studies confirm a direct dose-response relationship between high intake and recurrent gout attacks [3, 6]. This evidence does not demand absolute lifelong deprivation, but it necessitates disciplined portion control—favouring modest portions of lean cuts prepared without heavy saturating fats, spread thoughtfully across the week rather than consumed in massive, concentrated banquets [1, 3]. A similar principle applies to seafood: small oily pelagic fish such as sardines, anchovies, and mackerel, alongside crustaceans and shellfish like shrimp, crab, and lobster, carry dense purine concentrations capable of triggering acute synovitis when eaten in excess [3, 6].\n\nAlcohol, meanwhile, poses a severe double hazard for gout sufferers [1, 2, 11]. Ethanol metabolism rapidly accelerates hepatic ATP degradation to adenosine monophosphate, surging uric acid generation while simultaneously generating lactic acid, which competitively inhibits renal tubular urate secretion [1, 11]. Furthermore, beer contains dense concentrations of fermentable brewer's yeast purines, making it particularly potent in provoking flares and prompting guidelines to strongly advise against its consumption [1, 2, 11]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "نوبات النقرس",
+                "url": "../articles/gout-symptoms-and-attacks.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "acute gout flares",
+                "url": "../articles/gout-symptoms-and-attacks.html"
+              }
+            ]
           }
         },
         {
@@ -119,18 +130,8 @@
             "en": "For decades, conventional wisdom in clinics and households across Egypt warned gout patients never to touch legumes, routinely telling individuals to strictly avoid fava beans (فول مدمس), lentils, chickpeas, and spinach under the belief that plant purines inevitably destroy joints [3, 6]. However, major nutritional and epidemiological studies over the past two decades have completely dismantled this assumption [3, 6, 7]. A landmark prospective cohort study published in The New England Journal of Medicine (NEJM) by Choi and colleagues followed 47,150 men for 12 years and found that moderate intake of purine-rich vegetables was not associated with an increased risk of developing gout [3].\n\nBy contrast, Zhang and colleagues followed 633 people with gout and found that higher total purine intake over two days was associated with a higher risk of recurrent attacks; the association was substantially stronger for animal purines than for plant purines [6]. Legumes such as fava beans and lentils therefore need not be banned outright, but moderate portions and attention to individual triggers are sensible [3, 6].\n\nDairy intake was associated with lower urate and a lower risk of developing gout [3, 7]. Coffee consumption was also associated with lower urate [5]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "دور المكملات الغذائية والحاجة الفعلية إليها",
-                "url": "../articles/supplements-are-targeted-not-a-default.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "targeted role of dietary supplements",
-                "url": "../articles/supplements-are-targeted-not-a-default.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -146,22 +147,14 @@
           "links": {
             "ar": [
               {
-                "label": "أعراض مقاومة الأنسولين وفحوصاتها",
+                "label": "مقاومة الأنسولين",
                 "url": "../articles/insulin-resistance-adults-symptoms-testing.html"
-              },
-              {
-                "label": "علاج السمنة بما يتجاوز مؤشر كتلة الجسم",
-                "url": "../articles/obesity-care-beyond-bmi.html"
               }
             ],
             "en": [
               {
-                "label": "insulin resistance symptoms and testing",
+                "label": "insulin resistance",
                 "url": "../articles/insulin-resistance-adults-symptoms-testing.html"
-              },
-              {
-                "label": "obesity care beyond BMI",
-                "url": "../articles/obesity-care-beyond-bmi.html"
               }
             ]
           }

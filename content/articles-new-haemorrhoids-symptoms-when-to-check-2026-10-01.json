@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-sherif",
@@ -69,8 +70,18 @@
             "en": "The classic pattern of internal haemorrhoid bleeding is bright-red blood on toilet paper, streaks on the outside of the stool, or pink-to-red toilet water after a bowel movement. It may occur without pain. Dark blood, black stool, blood mixed through the stool, or bloody diarrhoea is a different pattern and should not be assigned to haemorrhoids without assessment. Even bright-red blood has other possible causes, so colour helps describe the event but does not settle the diagnosis [2, 6, 8].\n\nItching or irritation around the anus may accompany mucus, moisture, friction or excessive cleaning. A lump that appears with defecation and returns on its own, or must be gently reduced, can be a prolapsed internal haemorrhoid. By contrast, sharp cutting pain during a bowel movement, especially after hard stool, points more toward an anal fissure, although fissures and haemorrhoids can coexist. Constant pain with fever, pus or spreading swelling is not a typical picture of uncomplicated piles and needs prompt assessment [2, 3, 6].\n\nBefore an appointment, note the colour and position of the blood, how often it happened, and whether constipation, diarrhoea, a lump, itching, mucus, dizziness, abdominal pain, unexplained weight loss or a new bowel-habit change is present. These details are more useful than trying to diagnose yourself from a photograph. If you take an anticoagulant or aspirin, do not stop it by yourself; tell the clinician because the medicine can increase bleeding or affect the assessment plan [3, 6, 11]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "لشرخ شرجي",
+                "url": "../articles/anal-fissure-pain-and-bleeding.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "an anal fissure",
+                "url": "../articles/anal-fissure-pain-and-bleeding.html"
+              }
+            ]
           }
         },
         {
@@ -101,22 +112,14 @@
           "links": {
             "ar": [
               {
-                "label": "أعراض القولون العصبي وعلامات الخطر",
-                "url": "../articles/ibs-colon-symptoms-red-flags.html"
-              },
-              {
-                "label": "هل أعراض القولون تحتاج منظار؟",
-                "url": "../articles/qa-ibs-need-colonoscopy.html"
+                "label": "مرض كرون",
+                "url": "../articles/crohns-and-ulcerative-colitis-signs.html"
               }
             ],
             "en": [
               {
-                "label": "IBS symptoms and red flags",
-                "url": "../articles/ibs-colon-symptoms-red-flags.html"
-              },
-              {
-                "label": "Do IBS symptoms require colonoscopy?",
-                "url": "../articles/qa-ibs-need-colonoscopy.html"
+                "label": "Crohn's disease",
+                "url": "../articles/crohns-and-ulcerative-colitis-signs.html"
               }
             ]
           }
@@ -149,22 +152,22 @@
           "links": {
             "ar": [
               {
-                "label": "التحضير لمنظار القولون",
-                "url": "../articles/colonoscopy-preparation-what-to-ask.html"
+                "label": "منظار القولون الكامل",
+                "url": "../articles/colonoscopy-procedure-pain-sedation-duration.html"
               },
               {
-                "label": "الفرق بين منظار المعدة والقولون",
-                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+                "label": "منظار القولون الكامل",
+                "url": "../articles/colonoscopy-preparation-what-to-ask.html"
               }
             ],
             "en": [
               {
-                "label": "Preparing for colonoscopy",
-                "url": "../articles/colonoscopy-preparation-what-to-ask.html"
+                "label": "a full colonoscopy",
+                "url": "../articles/colonoscopy-procedure-pain-sedation-duration.html"
               },
               {
-                "label": "Gastroscopy versus colonoscopy",
-                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+                "label": "a full colonoscopy",
+                "url": "../articles/colonoscopy-preparation-what-to-ask.html"
               }
             ]
           }

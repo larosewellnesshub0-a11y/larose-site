@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-sherif",
@@ -71,14 +72,14 @@
           "links": {
             "ar": [
               {
-                "label": "اقرأ: هل القولون العصبي يحتاج منظار قولون؟",
-                "url": "../articles/qa-ibs-need-colonoscopy.html"
+                "label": "الشرخ والبواسير",
+                "url": "../articles/haemorrhoids-symptoms-when-to-check.html"
               }
             ],
             "en": [
               {
-                "label": "Read: does IBS require a colonoscopy?",
-                "url": "../articles/qa-ibs-need-colonoscopy.html"
+                "label": "Fissures and haemorrhoids",
+                "url": "../articles/haemorrhoids-symptoms-when-to-check.html"
               }
             ]
           }
@@ -94,8 +95,18 @@
             "en": "An acute fissure is a recent tear, commonly beginning after a hard or bulky stool, constipation and straining, and sometimes after repeated diarrhoea or direct local trauma. Medical sources do not all use exactly the same time threshold: some guidance describes symptoms persisting beyond roughly six weeks as chronic, while other resources use eight weeks. A clinician does not rely on duration alone; the examination also looks for a deeper tear, thickened edges, or a skin tag associated with chronic disease [1, 2, 4, 5, 7].\n\nWhen pain makes someone postpone a bowel movement, stool can become harder, making the next passage more difficult and reopening the tear. Breaking this cycle means aiming for soft, regular bowel movements without straining, not avoiding defecation or cutting food intake indiscriminately. Repeated diarrhoea also deserves attention because frequent loose stool may keep irritating the lining and prevent healing [2, 3, 4].\n\nMost typical fissures lie in the front or back midline. A tear at the side, several fissures, a wound that is unexpectedly painless, or one that does not heal despite suitable treatment raises the possibility of a secondary cause such as Crohn's disease, infection, trauma, or a less common disorder. This does not mean that one of those conditions is present. It means that examination and investigation of the cause are more appropriate than repeatedly trying home treatment without a diagnosis [1, 2, 4, 8]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "مرض كرون",
+                "url": "../articles/crohns-and-ulcerative-colitis-signs.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Crohn's disease",
+                "url": "../articles/crohns-and-ulcerative-colitis-signs.html"
+              }
+            ]
           }
         },
         {
@@ -109,18 +120,8 @@
             "en": "In many cases, the history and a gentle inspection are enough for a clinician to identify a typical fissure. Assessment starts with questions about the pattern of pain and bleeding, constipation or diarrhoea, medicines, and accompanying symptoms. A careful external look may follow. If pain is intense, the clinician decides what can be done safely; an internal examination or instrument is not compulsory at every visit and may be deferred when discomfort prevents it [4, 5, 7].\n\nColonoscopy is not a routine test for every clearly visible fissure. A clinician may recommend anoscopy, flexible sigmoidoscopy, or colonoscopy when there is a reason to look for another source of bleeding or bowel disease. The decision changes with age, colorectal-cancer risk factors, additional symptoms such as abdominal pain or diarrhoea, the bleeding pattern, and medical and family history. An unusual location or concern about inflammatory bowel disease, a mass, infection, or a hidden abscess may call for more directed investigation [5, 8].\n\nA small amount of bright-red blood with cutting pain suggests a source near the anal opening, but colour alone cannot establish the diagnosis. Blood mixed through the stool, black tarry stool, a large amount of bleeding, or general symptoms require a different assessment. The purpose of examination is not to make the situation sound alarming; it is to identify the correct source so care fits the problem and another treatable cause is not missed [5, 13]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "اقرأ: تحضير منظار القولون والأسئلة المهمة",
-                "url": "../articles/colonoscopy-preparation-what-to-ask.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Read: colonoscopy preparation and questions to ask",
-                "url": "../articles/colonoscopy-preparation-what-to-ask.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -134,18 +135,8 @@
             "en": "Initial treatment for an acute fissure is usually conservative: improve stool consistency, drink adequate fluid, and increase fibre gradually through food or a supplement if a clinician considers it suitable. Gradual change matters because a sudden fibre increase can be uncomfortable and cause bloating. If constipation continues or stool remains hard, a clinician or pharmacist can select a stool-softening or laxative option that fits your health and medicines; no single choice is right for everyone [1, 2, 3, 5].\n\nAvoid sitting on the toilet for a long time, forceful straining, and postponing the urge to pass stool because of anticipated pain. A warm sitz bath—a short soak in comfortably warm, not scalding, water—may soothe the area and help the muscle relax. Clean gently without vigorous rubbing or fragranced products that add irritation. The appropriate pain reliever depends on your health history and medicines, so ask a clinician or pharmacist rather than using a stronger treatment that may worsen constipation [1, 2, 3, 5].\n\nThis is not merely a two-day plan. Regular, soft stool remains important while the tear heals and afterwards to reduce reinjury. If repeated diarrhoea is the trigger, the answer is not simply to add fibre indiscriminately; the cause and pattern of diarrhoea also need attention. If symptoms worsen or do not improve over the following weeks, return for assessment rather than continuing the same measures indefinitely without review [2, 3, 6]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "اقرأ: الانتفاخ المستمر وإمتى يحتاج كشف",
-                "url": "../articles/bloating-when-to-see-doctor.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "Read: persistent bloating and when to seek assessment",
-                "url": "../articles/bloating-when-to-see-doctor.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {

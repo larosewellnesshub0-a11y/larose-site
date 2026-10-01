@@ -12,7 +12,7 @@
         "dermatology"
       ],
       "date": "2026-09-12",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 10,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
@@ -32,8 +32,7 @@
             "ar": "وسّعنا شرح أسباب اسمرار الرقبة عند الأطفال وخطوات التقييم والعناية الآمنة وعلامات الخطر، واتراجع طبياً من جديد.",
             "en": "We expanded the causes, assessment steps, safe skin care and warning signs for dark neck skin in children, and medically re-reviewed the article."
           }
-        }
-      ],
+        }, {"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "sections": [
         {
           "id": "what-dark-neck-skin-can-mean",
@@ -61,13 +60,15 @@
               {
                 "label": "اسمرار الرقبة ومقاومة الإنسولين",
                 "url": "../articles/dark-neck-acanthosis-insulin-resistance.html"
-              }
+              },
+              {"label": "إكزيما", "url": "../articles/eczema-flare-when-to-check.html"}
             ],
             "en": [
               {
                 "label": "dark neck skin and insulin resistance",
                 "url": "../articles/dark-neck-acanthosis-insulin-resistance.html"
-              }
+              },
+              {"label": "eczema", "url": "../articles/eczema-flare-when-to-check.html"}
             ]
           }
         },

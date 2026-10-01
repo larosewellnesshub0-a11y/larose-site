@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-sherif",
@@ -73,22 +74,22 @@
           "links": {
             "ar": [
               {
-                "label": "كسل الغدة وزيادة الوزن",
-                "url": "../articles/hypothyroidism-and-weight.html"
+                "label": "الأعراض الممكنة تشمل تعب",
+                "url": "../articles/constant-fatigue-which-tests.html"
               },
               {
-                "label": "هل جرعة الغدة تغيّر الوزن؟",
-                "url": "../articles/qa-thyroid-dose-weight.html"
+                "label": "زيادة وزن",
+                "url": "../articles/hypothyroidism-and-weight.html"
               }
             ],
             "en": [
               {
-                "label": "hypothyroidism and weight gain",
-                "url": "../articles/hypothyroidism-and-weight.html"
+                "label": "Possible symptoms include fatigue",
+                "url": "../articles/constant-fatigue-which-tests.html"
               },
               {
-                "label": "does a thyroid dose change weight?",
-                "url": "../articles/qa-thyroid-dose-weight.html"
+                "label": "weight gain",
+                "url": "../articles/hypothyroidism-and-weight.html"
               }
             ]
           }
@@ -151,14 +152,14 @@
           "links": {
             "ar": [
               {
-                "label": "السونار بيستخدم موجات صوت مش أشعة",
-                "url": "../articles/ultrasound-uses-sound-not-xrays.html"
+                "label": "العقد الدرقية",
+                "url": "../articles/mounjaro-wegovy-and-thyroid.html"
               }
             ],
             "en": [
               {
-                "label": "ultrasound uses sound waves, not X-rays",
-                "url": "../articles/ultrasound-uses-sound-not-xrays.html"
+                "label": "Thyroid nodules",
+                "url": "../articles/mounjaro-wegovy-and-thyroid.html"
               }
             ]
           }

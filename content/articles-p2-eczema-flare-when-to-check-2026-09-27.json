@@ -11,7 +11,7 @@
         "dermatology"
       ],
       "date": "2026-09-11",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 9,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -22,7 +22,8 @@
             "ar": "وسعنا أسباب نوبات الإكزيما وطرق استعادة حاجز الجلد والخيارات العلاجية الطبية وعلامات الخطر، واتراجع المحتوى طبياً من جديد. اتضاف سؤالين شائعين عن مهيجات الإكزيما والاستمرار على المرطب، بمصادرهم.",
             "en": "We expanded the mechanisms of eczema flares, barrier restoration methods, evidence-based therapies and red flags, and medically re-reviewed the content. Added two cited FAQs on eczema triggers and continuing emollients after improvement."
           }
-        }
+        },
+        {"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}
       ],
       "image": "assets/img/articles/eczema-cover.webp",
       "title": {
@@ -63,13 +64,13 @@
           "links": {
             "ar": [
               {
-                "label": "الفرق بين حب الشباب والتهاب البصيلات",
+                "label": "حب الشباب والتهاب البصيلات",
                 "url": "../articles/folliculitis-vs-acne-itchy-bumps.html"
               }
             ],
             "en": [
               {
-                "label": "difference between acne and folliculitis",
+                "label": "acne and folliculitis",
                 "url": "../articles/folliculitis-vs-acne-itchy-bumps.html"
               }
             ]
@@ -103,21 +104,21 @@
           "links": {
             "ar": [
               {
-                "label": "العناية بحب الشباب تكون هادية مش عنيفة",
+                "label": "الإكزيما وحب الشباب",
                 "url": "../articles/acne-care-is-gentle-not-aggressive.html"
               },
               {
-                "label": "روتين العناية المنزلية الآمنة لحب الشباب",
+                "label": "روتين العناية المنزلية الآمنة",
                 "url": "../articles/acne-safe-home-care-and-when-to-check.html"
               }
             ],
             "en": [
               {
-                "label": "gentle rather than aggressive acne care",
+                "label": "eczema and acne care",
                 "url": "../articles/acne-care-is-gentle-not-aggressive.html"
               },
               {
-                "label": "safe home care routine for acne",
+                "label": "safe home routine",
                 "url": "../articles/acne-safe-home-care-and-when-to-check.html"
               }
             ]

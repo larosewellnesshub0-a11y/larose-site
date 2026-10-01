@@ -11,7 +11,8 @@
         "gastroenterology-hepatology"
       ],
       "date": "2026-09-27",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 14,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
@@ -58,22 +59,22 @@
           "links": {
             "ar": [
               {
-                "label": "ارتجاع المريء والحرقة",
-                "url": "../articles/acid-reflux-when-to-see-doctor.html"
+                "label": "الالتهابات السطحية، والتقرحات",
+                "url": "../articles/peptic-ulcer-symptoms-and-causes.html"
               },
               {
-                "label": "الفرق بين منظار المعدة ومنظار القولون",
-                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+                "label": "منظار القولون اللي",
+                "url": "../articles/gastroscopy-and-colonoscopy-same-day.html"
               }
             ],
             "en": [
               {
-                "label": "acid reflux and heartburn",
-                "url": "../articles/acid-reflux-when-to-see-doctor.html"
+                "label": "small peptic ulcers",
+                "url": "../articles/peptic-ulcer-symptoms-and-causes.html"
               },
               {
-                "label": "comparing gastroscopy and colonoscopy",
-                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+                "label": "upper endoscopy and colonoscopy",
+                "url": "../articles/gastroscopy-and-colonoscopy-same-day.html"
               }
             ]
           }
@@ -136,13 +137,13 @@
           "links": {
             "ar": [
               {
-                "label": "تشخيص وعلاج جرثومة المعدة",
+                "label": "جرثومة المعدة",
                 "url": "../articles/h-pylori-symptoms-tests-treatment.html"
               }
             ],
             "en": [
               {
-                "label": "diagnosing and treating H. pylori",
+                "label": "Helicobacter pylori infection",
                 "url": "../articles/h-pylori-symptoms-tests-treatment.html"
               }
             ]

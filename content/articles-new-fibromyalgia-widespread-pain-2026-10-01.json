@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 9,
       "author": "shimaa-sherif",
       "reviewedBy": "mohab-ashraf",
@@ -69,8 +70,26 @@
             "en": "Historically, diagnosis relied on the 1990 tender-point examination, with pain at 11 or more of 18 specified sites forming part of the criteria. The 2010 criteria removed the tender-point requirement, partly because the examination was difficult to use, and replaced it with an assessment of pain locations plus important symptoms such as unrefreshing sleep, fatigue, and cognitive difficulties [1, 5].\n\nContemporary diagnostic criteria evaluate two core components: the Widespread Pain Index (WPI), which tallies pain across 19 body regions, and the Symptom Severity Scale (SSS), which grades the severity of fatigue, unrefreshing sleep, cognitive symptoms, and somatic complaints. Generalized pain must be present across at least 4 of 5 defined body regions (upper left, upper right, lower left, lower right, and axial regions) [1, 10].\n\nSymptoms must persist at a comparable level for at least 3 months. Crucially, updated criteria establish that a diagnosis of fibromyalgia is valid irrespective of other medical diagnoses; it can coexist with conditions such as osteoarthritis, rheumatoid arthritis, or systemic lupus erythematosus, and deserves dedicated recognition rather than being treated purely as an exclusion diagnosis [1, 5]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "خشونة في الركبة",
+                "url": "../articles/knee-osteoarthritis-treatment-options.html"
+              },
+              {
+                "label": "روماتويد أو ذئبة",
+                "url": "../articles/lupus-sle-symptoms-and-tests.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "conditions such as osteoarthritis",
+                "url": "../articles/knee-osteoarthritis-treatment-options.html"
+              },
+              {
+                "label": "systemic lupus erythematosus",
+                "url": "../articles/lupus-sle-symptoms-and-tests.html"
+              }
+            ]
           }
         },
         {
@@ -86,14 +105,14 @@
           "links": {
             "ar": [
               {
-                "label": "تحليل فيتامين د والإرهاق المستمر",
-                "url": "../articles/qa-vitamin-d-fatigue.html"
+                "label": "تحاليل المناعة الواسعة",
+                "url": "../articles/rheumatism-blood-tests-explained.html"
               }
             ],
             "en": [
               {
-                "label": "vitamin D testing and persistent fatigue",
-                "url": "../articles/qa-vitamin-d-fatigue.html"
+                "label": "Broad autoimmune serology",
+                "url": "../articles/rheumatism-blood-tests-explained.html"
               }
             ]
           }
@@ -111,13 +130,13 @@
           "links": {
             "ar": [
               {
-                "label": "تأثير اضطراب النوم على صحة الجسم",
+                "label": "نوم غير مريح",
                 "url": "../articles/qa-sleep-weight-plateau.html"
               }
             ],
             "en": [
               {
-                "label": "the effect of sleep disturbance on health",
+                "label": "non-restorative sleep",
                 "url": "../articles/qa-sleep-weight-plateau.html"
               }
             ]
@@ -134,18 +153,8 @@
             "en": "EULAR guidance begins with education and non-drug care, and exercise was the only therapy it rated strongly in favour. Aerobic exercise can improve quality of life and physical function and may slightly reduce pain for some people [2, 7].\n\nThe practical principle is to begin with low- or moderate-intensity activity suited to the person's current ability, such as walking or stationary cycling, and then increase gradually according to tolerance. Starting too quickly or exceeding current capacity can worsen symptoms, so the movement plan should be realistic and sustainable [2, 7].\n\nCognitive behavioural therapy (CBT) and patient education are another part of care. This does not imply that the pain is imaginary; CBT can help a person understand pain, pace activity, and address related thoughts and emotions. Reviews show a small additional benefit for pain, mood, and daily functioning [8, 14]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "فوائد الحركة والنشاط البدني للجسم",
-                "url": "../articles/movement-benefits-beyond-the-scale.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "the benefits of physical activity and movement",
-                "url": "../articles/movement-benefits-beyond-the-scale.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {

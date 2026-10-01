@@ -31,7 +31,8 @@
             "ar": "وضحنا الفرق بين سونار البطن وسونار الحوض، وأضفنا الأسماء الشائعة للفحص وإجابة مباشرة عن الانتفاخ وقراءة التقرير.",
             "en": "We clarified abdominal versus pelvic ultrasound, added common test names, and directly answered questions about bloating and reading the report."
           }
-        }
+        },
+        {"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}
       ],
       "image": "assets/img/articles/abdominal-ultrasound-what-it-shows.webp",
       "title": {
@@ -105,12 +106,20 @@
               {
                 "label": "دليل السونار الطبيعي مع استمرار الألم",
                 "url": "../articles/normal-ultrasound-does-not-end-assessment.html"
+              },
+              {
+                "label": "القولون العصبي",
+                "url": "../articles/ibs-symptoms-women-assessment-guide.html"
               }
             ],
             "en": [
               {
                 "label": "guide to a normal ultrasound with continuing pain",
                 "url": "../articles/normal-ultrasound-does-not-end-assessment.html"
+              },
+              {
+                "label": "irritable bowel syndrome",
+                "url": "../articles/ibs-symptoms-women-assessment-guide.html"
               }
             ]
           }

@@ -10,6 +10,7 @@
       "specialties": ["weight-management", "clinical-nutrition"],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -38,8 +39,8 @@
             "en": "The questions “Does Mounjaro break the fast?” and “Does Wegovy break the fast?” contain two separate issues. Ask a qualified scholar or trusted religious authority about the validity of the fast and the religious ruling on injections; this article does not give a fatwa. The medical question is whether abstaining from food and drink from dawn to sunset is safe with your health, medicines, and current symptoms. Diabetes-and-Ramadan guidance calls for individual assessment because risk changes with diabetes type and control, kidney or heart disease, pregnancy, other medicines, and previous low-glucose or dehydration events [1, 6, 10].\n\nMounjaro is a brand of tirzepatide, while Wegovy is a brand of semaglutide. Both are weekly injections, and their official prescribing information says the weekly dose can be given at any time of day, with or without meals. Medically, the injection is therefore not tied to iftar or suhoor. That is not permission to move the day or change a dose independently. If you want to change the scheduled day or have missed a dose, use the instructions for your exact product and ask the prescriber, because the product-specific rules differ [2, 3, 4, 5].\n\nHaving the injection in your plan does not automatically make fasting safe, and it does not automatically prohibit fasting. Published Ramadan evidence for GLP-1 medicines mainly concerns adults with type 2 diabetes, and some studies examined older medicines rather than semaglutide or tirzepatide. A result from that population cannot simply be extended to everyone using an injection for weight management without diabetes. A calm decision rests on your own risk assessment, medicine tolerance, and complete treatment plan before fasting begins [10, 11]."
           },
           "links": {
-            "ar": [{"label": "دليل أدوية GLP-1 لإدارة الوزن", "url": "../articles/glp1-medication-guide.html"}],
-            "en": [{"label": "GLP-1 medicine guide for weight management", "url": "../articles/glp1-medication-guide.html"}]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -52,7 +53,10 @@
             "ar": "في صيام رمضان مفيش أكل ولا شرب من الفجر للمغرب. مدة الصيام والجو والمجهود بتفرق، وده بيخلي الجفاف جزءًا أساسيًا من التقييم، خصوصًا لو الحقنة عاملة غثيان أو قيء أو إسهال أو مقللة قدرتك على الأكل والشرب. إرشادات IDF-DAR بتعتبر طول ساعات الصيام، الطقس، طبيعة الشغل، الأمراض المصاحبة، والأدوية عوامل لازم تدخل في تقدير الخطر، مش مجرد اسم الحقنة [1, 9, 12].\n\nالصيام المتقطع لإدارة الوزن عادةً بيحدد ساعات الأكل بسه ما يمنعش السوائل الخالية من السعرات. عشان كده خطر الجفاف مختلف لو الشخص قادر يشرب ماء خلال فترة الامتناع عن الطعام. بس «مسموح تشرب» مش معناه إن الجفاف مستحيل: الشبع الشديد، الغثيان، القيء، الإسهال، أو الاعتماد المعتاد على الشوربة والزبادي والفواكه كمصادر سوائل ممكن يقلل مدخولك من غير ما تاخد بالك. NIDDK بتنصح إن خطة الصيام تتراجع مع الفريق الطبي بدل ما تتطبق وحدك، خصوصًا مع السكري أو أدوية أخرى [6, 8].\n\nكمان الهدفين مش لازم يتجمعوا. الحقنة نفسها ممكن تقلل الشهية، وإضافة نافذة أكل ضيقة جدًا ممكن تخلي الحصول على سوائل وبروتين وطعام متوازن أصعب، خصوصًا في أول العلاج أو بعد زيادة الجرعة لما تكون الأعراض الهضمية أوضح. مفيش أساس إنك تعتبر زيادة القيود ضمانًا لنزول وزن أسرع أو أفضل. لو نافذة الصيام مخلياك غير قادر تحقق احتياجاتك أو بتزود الأعراض، الخطة محتاجة مراجعة بدل الإصرار عليها [2, 3, 4, 5].",
             "en": "During Ramadan, no food or drink is taken from dawn to sunset. Fast length, weather, and exertion matter, so dehydration is a central part of medical assessment, particularly if the injection is causing nausea, vomiting, diarrhoea, or reduced ability to eat and drink. IDF-DAR guidance treats fasting hours, climate, work, comorbidities, and medicines as factors in risk assessment; the name of the injection alone cannot determine safety [1, 9, 12].\n\nIntermittent fasting for weight management usually limits eating hours but permits calorie-free fluid. Dehydration risk is therefore different when a person can drink water throughout the food-free period. “Fluids are allowed” does not make dehydration impossible: marked fullness, nausea, vomiting, diarrhoea, or normally obtaining much of your fluid from soup, yoghurt, and fruit can reduce intake without being obvious. NIDDK advises planning a fast with the health care team rather than applying a generic schedule alone, especially with diabetes or other medicines [6, 8].\n\nThe two interventions do not have to be stacked. An injection may already suppress appetite, and adding a very narrow eating window can make adequate fluid, protein, and balanced food harder to obtain. This may be particularly relevant early in treatment or after dose escalation, when digestive effects can be more noticeable. There is no basis for treating extra restriction as a guarantee of faster or better weight loss. If the fasting window prevents adequate intake or worsens symptoms, the plan needs review rather than continuing despite warning signs [2, 3, 4, 5]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [],
+            "en": []
+          }
         },
         {
           "id": "dehydration-and-stomach-symptoms",
@@ -65,8 +69,26 @@
             "en": "Semaglutide and tirzepatide can cause nausea, vomiting, diarrhoea, and abdominal pain. Their official information also warns about acute kidney injury from volume depletion, particularly when digestive effects cause dehydration. This does not mean every episode of nausea is dangerous or that the injection directly poisons the kidneys. It means repeated vomiting or diarrhoea combined with reduced drinking deserves early attention. If symptoms begin around a fast, do not assume they are “normal and will pass” without checking whether you can retain fluid [2, 3, 4, 5].\n\nPossible dehydration signs include marked thirst, a dry mouth, less or darker urine than usual, dizziness or light-headedness, and tiredness. Concern rises if you cannot retain sips, vomiting or diarrhoea continues, you have kidney disease, you take a diuretic, or a heart or kidney clinician has restricted your fluid. Do not follow a generic instruction to drink a large amount if you have a prescribed fluid limit; the plan must be individual [6, 8].\n\nBetween sunset and dawn, spread fluids across the available hours rather than trying to drink a large volume at once, and choose tolerable food rather than a huge meal when fullness or nausea is present. Stop the fast and obtain urgent clinical assessment for repeated vomiting, severe dizziness, fainting, confusion, clearly reduced urine, or inability to drink. The linked page covers ordinary nausea and constipation management; dehydration signs or persistent vomiting need assessment rather than home tips alone [2, 3, 8, 9]."
           },
           "links": {
-            "ar": [{"label": "التعامل مع غثيان وإمساك حقن إدارة الوزن", "url": "../articles/qa-injection-nausea-constipation.html"}],
-            "en": [{"label": "managing nausea and constipation with weight-management injections", "url": "../articles/qa-injection-nausea-constipation.html"}]
+            "ar": [
+              {
+                "label": "علامات الجفاف",
+                "url": "../articles/mounjaro-wegovy-serious-side-effects-red-flags.html"
+              },
+              {
+                "label": "الغثيان والإمساك العاديين",
+                "url": "../articles/qa-injection-nausea-constipation.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "dehydration signs",
+                "url": "../articles/mounjaro-wegovy-serious-side-effects-red-flags.html"
+              },
+              {
+                "label": "nausea and constipation",
+                "url": "../articles/qa-injection-nausea-constipation.html"
+              }
+            ]
           }
         },
         {
@@ -80,8 +102,8 @@
             "en": "If you do not have diabetes and use an injection for weight management, severe hypoglycaemia is not the usual risk from the injection alone. If you have diabetes, risk is not determined by the name Mounjaro or Wegovy alone. Insulin and medicines that stimulate insulin release, such as sulfonylureas, increase hypoglycaemia risk, while fasting or delayed meals adds another factor. The official labels warn about increased hypoglycaemia with these treatments, and NIDDK notes that fasting while continuing glucose-lowering medicine can raise the risk [2, 3, 7].\n\nBefore Ramadan or any regular fasting pattern, obtain a written diabetes plan covering monitoring times, your individual target, how to treat a low, when to end the fast, and whom to contact. Glucose monitoring is medically important and should not be omitted because of uncertainty about the religious ruling; ask a trusted scholar about that ruling, but do not ignore monitoring requested by your clinician. Do not reduce insulin, stop a medicine, or move a morning dose to the evening on the basis of a general article. Adjustments depend on the medicine, kidney function, eating pattern, and readings [1, 6, 10].\n\nShaking, sweating, hunger, palpitations, dizziness, trouble concentrating or speaking, confusion, or fainting may indicate low glucose. If the reading falls below the threshold set by your team or symptoms fit your low-glucose plan, treat it and end the fast rather than waiting for sunset. Loss of consciousness or a seizure is an emergency, and an unconscious person should not be given food or drink by mouth. Review the plan after any low before attempting another fast [7, 9, 12]."
           },
           "links": {
-            "ar": [{"label": "مراجعة السكري كصورة صحية كاملة", "url": "../articles/diabetes-review-whole-health.html"}],
-            "en": [{"label": "reviewing diabetes as a whole-health picture", "url": "../articles/diabetes-review-whole-health.html"}]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -94,7 +116,20 @@
             "ar": "مفيش قاعدة طبية عامة بتقول إن الحقنة الأسبوعية لازم تتاخد بعد الإفطار. النشرات تسمح بالسيماغلوتايد والتيرزيباتايد الأسبوعيين مع الأكل أو من غيره وفي أي وقت من اليوم. بعض الناس يفضلوا موعدًا يكون فيه الشرب متاحًا لو حصل غثيان، بس ده اختيار عملي يناقشه الطبيب، مش توصية من النشرة ولا ضمان لمنع الأعراض. الأهم تثبيت الخطة وعدم تغيير يوم الحقن أو تكرار جرعة بسبب ارتباك الجدول [2, 3, 4, 5].\n\nقبل الصيام، سجّل اسم المادة الفعالة والمنتج، يوم الجرعة، آخر تغيير في الجرعة، كل أدوية السكري والضغط ومدرات البول، وأي مرض كلى أو قلب. ناقش هل الأفضل بدء الصيام وإنت في مرحلة جرعة مستقرة ولا تأجيل تجربة جديدة؛ ما تبدأش الحقنة ولا تزود الجرعة عشان رمضان من نفسك. لو عندك أعراض هضمية قوية بالفعل، دخول صيام يمنع السوائل لساعات طويلة محتاج مراجعة قبل ما تبدأ [1, 6, 10, 11].\n\nخطتك بين الإفطار والسحور تكون قابلة للتنفيذ: سوائل موزعة، وجبات أصغر لو الشبع شديد، ومصدر بروتين وطعام متوازن تقدر تتحمله. ما تعتبرش وجبة الإفطار فرصة لتعويض اليوم بسرعة، لأن الأكل السريع أو الوجبة الكبيرة ممكن يزودوا الامتلاء والغثيان. وفي الصيام المتقطع، اختار نافذة أكل تسمح بالغذاء والسوائل بدل أقصر نافذة ممكنة. الهدف أمان واستمرارية الخطة، مش اختبار قدرتك على التحمل [1, 9, 12].",
             "en": "There is no general medical rule that a weekly injection must be taken after iftar. Official information permits weekly semaglutide and tirzepatide with or without food and at any time of day. Some people may prefer a time when drinking is possible if nausea occurs, but that is a practical choice to discuss with the clinician, not a label recommendation or a guarantee against symptoms. The priority is a consistent plan without moving the injection day or repeating a dose because the altered schedule caused confusion [2, 3, 4, 5].\n\nBefore fasting, record the active ingredient and product, injection day, most recent dose change, every diabetes and blood-pressure medicine, diuretics, and any kidney or heart condition. Discuss whether it is sensible to fast during a stable-dose period rather than while testing a new regimen; do not start the injection or escalate it for Ramadan on your own. Strong digestive symptoms already present before a dry fast deserve review before the first day [1, 6, 10, 11].\n\nMake the hours between iftar and suhoor workable: spread fluid intake, use smaller meals if fullness is marked, and include protein and balanced food that you can tolerate. Do not treat iftar as a reason to replace the whole day’s intake rapidly, because hurried eating or a very large meal can worsen fullness and nausea. For intermittent fasting, choose an eating window that permits adequate nutrition and fluid rather than the shortest window you can endure. The goal is a safe, sustainable plan, not a test of willpower [1, 9, 12]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [
+              {
+                "label": "آخر تغيير في الجرعة",
+                "url": "../articles/mounjaro-wegovy-dose-escalation-explained.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "most recent dose change",
+                "url": "../articles/mounjaro-wegovy-dose-escalation-explained.html"
+              }
+            ]
+          }
         },
         {
           "id": "when-not-to-fast-or-break-fast",
@@ -106,7 +141,20 @@
             "ar": "التقييم قبل الصيام مهم جدًا لو عندك سكري من النوع الأول، هبوط متكرر أو من غير أعراض إنذار، سكر غير مستقر، مرض كلى أو قلب مهم، حمل مع سكري، مرض حاد، أو تجربة سابقة سيئة مع الصيام. إرشادات رمضان بتصنف الخطر فرديًا، وبعض الحالات تُنصح طبيًا بعدم الصيام. دي توصية طبية وليست فتوى؛ لو عندك سؤال عن الرخصة أو القضاء اسأل جهة دينية موثوقة بعد ما تعرف تقييم الطبيب لحالتك [1, 6, 10].\n\nحتى لو الخطة قبل رمضان كانت مناسبة، الحالة ممكن تتغير في نفس اليوم. أنهِ الصيام وتعامل مع السبب لو حصل هبوط سكر حسب خطتك، ارتفاع شديد حسب الحد المكتوب لك، قيء أو إسهال متكرر، عدم القدرة على الشرب، دوخة شديدة، إغماء، تشوش، قلة بول واضحة، أو مرض مع حرارة. ألم بطن شديد ومستمر، صعوبة تنفس، تورم الوجه أو اللسان، أو فقدان وعي محتاج طوارئ فورًا، مش انتظار الإفطار أو التواصل في موعد عادي [2, 3, 7, 8, 9].\n\nما تحاولش «تكمل اليوم» لأن الحقنة غالية أو لأنك صمت أيامًا قبل كده من غير مشكلة؛ تاريخ الأمس ما يضمنش أمان النهارده. وما تعالجش القيء بتخطي السوائل والأدوية من نفسك. الأولوية تصحيح الخطر وطلب الرعاية المناسبة، وبعد الاستقرار يراجع الطبيب هل الصيام يتكرر وهل توقيت الدواء أو خطة السكري محتاجين تعديل. ارجع للصيام فقط بالخطة الجديدة المناسبة لحالتك [1, 6, 10, 12].",
             "en": "Pre-fast assessment is especially important with type 1 diabetes, repeated or unrecognised hypoglycaemia, unstable glucose, significant kidney or heart disease, pregnancy with diabetes, acute illness, or a previous poor fasting experience. Ramadan guidance stratifies risk individually, and some people are medically advised not to fast. That is a medical recommendation, not a fatwa. Questions about exemption or making up a fast belong with a trusted religious authority after you understand the clinician’s assessment [1, 6, 10].\n\nEven when a pre-Ramadan plan was reasonable, health can change during a particular day. End the fast and follow the relevant plan for low glucose, severe high glucose beyond your written threshold, repeated vomiting or diarrhoea, inability to drink, severe dizziness, fainting, confusion, clearly reduced urine, or an illness with fever. Severe and persistent abdominal pain, breathing difficulty, swelling of the face or tongue, or loss of consciousness needs emergency care immediately rather than waiting for iftar or a routine appointment [2, 3, 7, 8, 9].\n\nDo not try to “finish the day” because the medicine matters to you or previous fasts went well; yesterday’s experience cannot guarantee today’s safety. Do not respond to vomiting by independently skipping fluid and medicines. First correct the immediate risk and obtain appropriate care. After you are stable, the clinician can review whether fasting should recur and whether medicine timing or the diabetes plan needs adjustment. Resume only with a plan that fits the changed situation [1, 6, 10, 12]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [
+              {
+                "label": "حمل مع سكري",
+                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "pregnancy with diabetes",
+                "url": "../articles/weight-loss-medicines-before-pregnancy.html"
+              }
+            ]
+          }
         },
         {
           "id": "next-step-before-fasting",
@@ -119,8 +167,18 @@
             "en": "Arrange the review before Ramadan or before beginning a regular intermittent-fasting pattern, not after the first problem. Bring the injection name, strength and day, a list of medicines and supplements, glucose records if you have diabetes, and notes on nausea, vomiting, diarrhoea, and urine output. Ask focused questions: does my medical risk permit fasting, do I need more monitoring, what threshold means I should end the fast, and what is the plan when injection day and a fasting day coincide? The answers should be written and personal to you [1, 6, 10].\n\nIf you do not have diabetes, review still matters when digestive symptoms continue, you have kidney or heart disease, take diuretics, or plan a prolonged fast. If weight loss is the goal, ask whether the window supports a sustainable pattern or leads to hurried eating, reduced drinking, and missed protein or balanced food. An injection and fasting are possible tools, but safety and nutritional quality matter more than accumulating restrictions [2, 3, 6, 8].\n\nIf there is no emergency sign and you want a structured assessment, the medical team at La Rose can review your health, medicines, and fasting plan during a consultation, with branches in Maadi and Fifth Settlement, New Cairo. A medical consultation does not give a fatwa or guarantee that fasting or a particular medicine suits you. Book early enough to test and review the plan, and do not change the dose or injection day independently [1, 2, 3]."
           },
           "links": {
-            "ar": [{"label": "احجز استشارة مع الفريق الطبي", "url": "../patients/booking.html"}],
-            "en": [{"label": "Book a consultation", "url": "../patients/booking.html"}]
+            "ar": [
+              {
+                "label": "احجز استشارة مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
           }
         }
       ],

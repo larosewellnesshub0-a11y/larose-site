@@ -12,7 +12,7 @@
         "internal-medicine"
       ],
       "date": "2026-09-12",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 10,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
@@ -44,8 +44,7 @@
             "ar": "وسّعنا دليل أعراض القولون العصبي عند النساء والتقييم وعلامات الخطر، واتراجع طبياً من جديد.",
             "en": "We expanded the guide to IBS symptoms in women, assessment and warning signs, and medically re-reviewed it."
           }
-        }
-      ],
+        }, {"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "sections": [
         {
           "id": "what-ibs-pattern-means",
@@ -176,8 +175,8 @@
             "en": "There is no single treatment for every person with IBS. The plan depends on the predominant symptom, severity, impact on daily life, pregnancy or plans for pregnancy, other conditions and medicines, and previous experience. Early steps often include explaining the diagnosis, regular meals, enough time to eat, suitable activity, better sleep, and reviewing the amount and type of fibre. Soluble fibre may suit some people with constipation, while suddenly adding bran or coarse insoluble fibre can worsen bloating for some [4, 5, 6].\n\nIf general measures are insufficient, a clinician may discuss a limited, monitored dietary trial, including a low-FODMAP approach delivered by someone with dietary expertise and followed by structured reintroduction rather than permanent broad restriction. Medicines differ for constipation, diarrhoea and pain, and some have important precautions or may not suit pregnancy, breastfeeding or particular health conditions. Do not start a medicine, herb or antibiotic because it helped someone else [4, 5, 6].\n\nGut-brain therapies, such as cognitive behavioural therapy or gut-directed hypnotherapy, may help selected people; that does not mean pain is psychological or imagined. These approaches aim to modify sensitivity and stress-related symptom circuits. Agree on a measurable goal and review point with the clinician: less pain, bowel movements closer to your usual pattern, greater freedom to leave home, or better sleep. If a plan does not help or a new symptom appears, reassessment is a normal part of treatment [4, 6]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [{"label": "الحمل أو التخطيط له", "url": "../articles/ibs-symptoms-in-pregnancy-when-to-check.html"}],
+            "en": [{"label": "pregnancy or plans for pregnancy", "url": "../articles/ibs-symptoms-in-pregnancy-when-to-check.html"}]
           }
         },
         {

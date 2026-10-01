@@ -11,7 +11,7 @@
         "clinical-nutrition"
       ],
       "date": "2026-09-12",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 12,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -49,8 +49,7 @@
             "ar": "اتوسّع الدليل بتفصيل محاور أول كشف تغذية علاجية والفحوصات وتركيب الجسم وتحديد الأهداف وعلامات الخطر، واتراجع طبياً من جديد.",
             "en": "The guide was expanded with detailed coverage of first-visit clinical assessment, lab investigations, body composition, goal setting, warning signs, and was medically re-reviewed."
           }
-        }
-      ],
+        }, {"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "sections": [
         {
           "id": "what-to-expect-first-visit",
@@ -107,13 +106,15 @@
               {
                 "label": "التحضير لفحص InBody",
                 "url": "../articles/inbody-preparation-for-reliable-follow-up.html"
-              }
+              },
+              {"label": "دليل التحضير لفحص InBody", "url": "../articles/inbody-test-first-visit-guide.html"}
             ],
             "en": [
               {
                 "label": "preparing for an InBody test",
                 "url": "../articles/inbody-preparation-for-reliable-follow-up.html"
-              }
+              },
+              {"label": "preparing for an InBody test", "url": "../articles/inbody-test-first-visit-guide.html"}
             ]
           }
         },

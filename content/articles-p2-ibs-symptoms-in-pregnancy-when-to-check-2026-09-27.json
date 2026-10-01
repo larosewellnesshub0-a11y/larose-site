@@ -13,7 +13,7 @@
         "clinical-nutrition"
       ],
       "date": "2026-09-11",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 12,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
@@ -51,7 +51,8 @@
             "ar": "وسّعنا تفريق أعراض القولون عن تغيرات الحمل الطبيعية وعلامات الخطر والتنسيق بين متابعة الحمل والجهاز الهضمي، واتراجع المحتوى طبياً من جديد.",
             "en": "We expanded the distinction between IBS symptoms, normal pregnancy physiology, red flags and coordinated obstetric-GI care, and the content was medically re-reviewed."
           }
-        }
+        },
+        {"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}
       ],
       "sections": [
         {
@@ -69,12 +70,20 @@
               {
                 "label": "أعراض القولون العصبي وعلامات الخطر",
                 "url": "../articles/ibs-colon-symptoms-red-flags.html"
+              },
+              {
+                "label": "متلازمة القولون العصبي",
+                "url": "../articles/ibs-symptoms-women-assessment-guide.html"
               }
             ],
             "en": [
               {
                 "label": "IBS symptoms and red flags",
                 "url": "../articles/ibs-colon-symptoms-red-flags.html"
+              },
+              {
+                "label": "irritable bowel syndrome",
+                "url": "../articles/ibs-symptoms-women-assessment-guide.html"
               }
             ]
           }

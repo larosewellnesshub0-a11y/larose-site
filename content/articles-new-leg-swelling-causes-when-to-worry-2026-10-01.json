@@ -12,6 +12,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 15,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-sherif",
@@ -88,13 +89,21 @@
           "links": {
             "ar": [
               {
-                "label": "فحوصات وظائف الكبد وسياقها الطبي",
+                "label": "تعب غير معتاد",
+                "url": "../articles/constant-fatigue-which-tests.html"
+              },
+              {
+                "label": "تليّف الكبد",
                 "url": "../articles/liver-function-tests-need-context.html"
               }
             ],
             "en": [
               {
-                "label": "interpreting liver function tests in context",
+                "label": "unusual tiredness",
+                "url": "../articles/constant-fatigue-which-tests.html"
+              },
+              {
+                "label": "scarring of the liver",
                 "url": "../articles/liver-function-tests-need-context.html"
               }
             ]
@@ -126,26 +135,8 @@
             "en": "Medicines are a common and sometimes overlooked cause of ankle and leg swelling. The swelling can be worrying, but it does not automatically mean that the heart or kidneys have suddenly failed [8, 9, 13]. Amlodipine and similar calcium channel blockers, which are often used for high blood pressure, are well-known examples [8, 9, 13]. These drugs relax the small arteries that carry blood into the tiny vessels in the tissues more than they relax the small veins that carry it away. The uneven change raises pressure in those tiny vessels, so fluid moves into the tissues around the ankles [8, 13]. This is a local pressure effect, not the same as the whole body holding too much fluid.\n\nThat difference matters because adding a strong water pill, such as furosemide, may start an unhelpful prescribing cycle [13]. A diuretic removes salt and water from the bloodstream, but it does not correct the pressure imbalance caused by the calcium channel blocker. It may do little for the ankle swelling while causing dehydration, low blood pressure on standing, low sodium or potassium, or kidney strain [8, 13]. A doctor may instead lower the dose, change the medicine, or consider an ACE inhibitor or angiotensin receptor blocker when that choice is suitable for the person's blood pressure and health [8, 13].\n\nOther medicines can also contribute to leg swelling. They include anti-inflammatory painkillers such as ibuprofen and diclofenac, corticosteroids, gabapentin or pregabalin for nerve pain, and thiazolidinedione medicines used for diabetes [8, 9, 13]. Some of these medicines make the body retain salt and water, while others cause swelling in a different way. Do not stop or change a prescribed blood pressure, heart, pain, or diabetes medicine by yourself. Ask the prescribing doctor to review when the swelling started, the dose, and your other symptoms. That allows a safer change without leaving the original condition untreated [8, 9, 13]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "قراءات ضغط الدم ونمط المتابعة السليم",
-                "url": "../articles/blood-pressure-needs-a-pattern.html"
-              },
-              {
-                "label": "الأدوية وزيادة الوزن واحتباس السوائل",
-                "url": "../articles/qa-medicine-causing-weight-gain.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "blood pressure readings and monitoring patterns",
-                "url": "../articles/blood-pressure-needs-a-pattern.html"
-              },
-              {
-                "label": "medications, weight gain, and fluid retention",
-                "url": "../articles/qa-medicine-causing-weight-gain.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -159,8 +150,18 @@
             "en": "During an examination, the doctor may press a finger over the shin or near the inner ankle and then let go [1, 2, 8]. If a dent remains for a while, this is called pitting edema [2, 8, 9]. The dent forms because fluid can move within the tissues. Pitting is often seen with heart failure, kidney or liver disease, high pressure in the leg veins, and swelling caused by some medicines [1, 2, 8, 9]. It is a useful clue, but it does not identify the cause on its own.\n\nIf the swollen tissue feels firm and does not leave a dent, it is called non-pitting edema [2, 8, 11]. This pattern is often seen in later lymphedema, when protein-rich lymph fluid has remained in the tissues and the skin and tissue have become thicker. Early lymphedema can still pit, so the finger test cannot rule it out [2, 8, 11]. Lymphedema can be present from birth or develop after lymph-node surgery, damage, or certain long-term infections. A clinician may also check the Stemmer sign by trying to lift a fold of skin at the base of the second toe; being unable to lift it supports lymphedema but is not the only part of the diagnosis [8, 11]. Severe underactive thyroid disease can cause firm, non-pitting swelling and thick, dry skin [8, 9].\n\nThe rest of the assessment depends on the history and examination. It may include blood pressure, listening to the heart and lungs, a urine test for protein, kidney tests such as creatinine and estimated GFR, liver tests and albumin, and a thyroid-stimulating hormone (TSH) test. If heart failure is suspected, the doctor may request BNP or NT-proBNP and heart tests. If a vein problem is suspected, a venous duplex ultrasound may be needed [1, 2, 5, 8, 9, 11]. Not everyone needs every test; the pattern of swelling and other symptoms guide the choice."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "كسل الغدة الدرقية الشديد",
+                "url": "../articles/tsh-thyroid-test-results.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "underactive thyroid disease",
+                "url": "../articles/tsh-thyroid-test-results.html"
+              }
+            ]
           }
         },
         {

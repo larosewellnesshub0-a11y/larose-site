@@ -9,7 +9,7 @@
       "category": "clinical-nutrition",
       "specialties": ["clinical-nutrition", "weight-management", "internal-medicine"],
       "date": "2026-09-10",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 9,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -106,7 +106,7 @@
             "ar": "مافيش فرق سحري واحد ينطبق على كل الأجهزة والناس ويقول إن أي تغير أكبر منه حقيقي. الدقة، التكرارية، المعادلة، حجم الجسم والسوائل كلهم بيفرقوا. دراسة متابعة عند مراهقين عندهم سمنة لقت إن قدرة BIA على تتبع تغير تركيب الجسم اتأثرت بدرجة السمنة، ومراجعات سريرية حذرت من الاعتماد على قياس فردي واحد. الأفضل تدور على اتجاه متكرر عبر وقت مناسب، بنفس الجهاز والظروف قدر الإمكان، ومع مؤشرات مستقلة بتتحرك في نفس الاتجاه. [2, 9, 11]\n\nقبل تعديل الأكل أو التمرين، اسأل أربع أسئلة: هل ظروف القياس كانت متشابهة؟ هل الفرق استمر في أكتر من زيارة؟ هل الوزن أو محيط الخصر أو الملابس أو القوة والأداء بيدعموا نفس القصة؟ وهل فيه تفسير بديل زي مرض، دواء جديد، جفاف، تورم أو اختلاف كبير في الأكل؟ لو الإجابات مش واضحة، إعادة القياس لاحقاً في ظروف ثابتة والمراجعة مع الأخصائي غالباً أفيد من رد فعل سريع. [3, 5, 9]\n\nالتقرير ممكن يساعد الفريق يراجع كفاية الأكل أو نمط الحركة أو هدف المتابعة، لكنه ما يحددش علاجاً بنفسه. ما تبدأش مكملات، وما تزودش البروتين أو تقلل الأكل بقوة، وما توقفش دواء بناءً على الورقة. لو المتابعة بتسبب قلقاً، سلوكاً تعويضياً، تجويعاً أو تمريناً عقابياً، قول ده بصراحة؛ اختيار مؤشرات أقل أو فترات أبعد ممكن يكون أنسب. النجاح هو قرار صحي قابل للاستمرار، مش مطاردة تغير صغير في كل زيارة. [3, 4, 6]",
             "en": "There is no single magic difference that applies to every device and person and proves that a change is real. Accuracy, repeatability, equation, body size and fluid all matter. A follow-up study in adolescents with obesity found that BIA's ability to track body-composition change was affected by degree of obesity, while clinical reviews caution against relying on one individual measurement. It is better to look for a repeated direction over an appropriate period, on the same device under broadly consistent conditions, supported by independent indicators moving in the same direction. [2, 9, 11]\n\nBefore changing food or exercise, ask four questions. Were measurement conditions similar? Did the difference persist at more than one visit? Do weight, waist, clothing fit, strength or function support the same story? Is there another explanation such as illness, a new medicine, dehydration, swelling or a major intake change? If the answers are unclear, repeating later under consistent conditions and reviewing with a clinician is usually more useful than a rapid reaction. [3, 5, 9]\n\nThe report may help the team review dietary adequacy, movement or the monitoring goal, but it does not prescribe treatment by itself. Do not start supplements, sharply increase protein, severely restrict food or stop medication because of the sheet. If monitoring triggers anxiety, compensatory behaviour, food restriction or punitive exercise, say so openly; fewer indicators or longer intervals may suit you better. Success is a sustainable health decision, not chasing a small change at every visit. [3, 4, 6]"
           },
-          "links": {"ar": [], "en": []}
+          "links": {"ar":[{"label":"تتبع تغير تركيب الجسم","url":"../articles/body-composition-change-over-time.html"}],"en":[{"label":"track body-composition change","url":"../articles/body-composition-change-over-time.html"}]}
         },
         {
           "id": "safety-next-step",
@@ -188,7 +188,8 @@
             "ar": "وسّعنا شرح بنود نتيجة InBody وحدود دقتها والمقارنة الآمنة بين القراءات، واتراجعت المقالة طبياً من جديد.",
             "en": "We expanded the explanation of InBody report fields, accuracy limits and safe comparison between readings, and medically re-reviewed the article."
           }
-        }
+        },
+        {"date":"2026-10-01","note":{"ar":"ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.","en":"Added internal links to related articles; no change to the medical content."}}
       ],
       "seo": {
         "title": {

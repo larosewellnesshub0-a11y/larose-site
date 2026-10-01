@@ -14,6 +14,7 @@
       ],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -38,18 +39,8 @@
             "en": "If your question is “when does Mounjaro start working?”, first define what you mean by working. Tirzepatide may alter fullness, hunger or usual meal size before a clear scale trend appears. Not everyone feels a dramatic change after the first injection, and the absence of that feeling alone does not prove treatment failure. Daily weight shifts with fluid, salt and gut contents, so one day or one week is not enough to judge a response. Trials measured change over months alongside nutrition and activity support, not by a momentary sensation after a dose [1, 11, 13].\n\nMounjaro is a brand name for tirzepatide. Its official label is for type 2 diabetes, while US weight-management evidence and approval also appear in the tirzepatide label under the name Zepbound. This is not an argument for choosing a brand. Results must be interpreted using the prescribing indication, diabetes status, clinician-selected dose and time spent on it. Do not start, stop or alter a dose using an online timeline; the treating clinician connects response with safety and tolerability [12, 13]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "دليل أدوية GLP-1 لإنقاص الوزن",
-                "url": "../articles/glp1-medication-guide.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "GLP-1 medicines: a practical guide",
-                "url": "../articles/glp1-medication-guide.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -63,8 +54,18 @@
             "en": "SURMOUNT-1 enrolled adults with obesity, or overweight plus a weight-related complication, without diabetes. At 72 weeks, mean weight change was about 15.0% with 5 mg, 19.5% with 10 mg and 20.9% with 15 mg of tirzepatide, compared with 3.1% with placebo. These are randomized-group averages under research conditions. Some participants lost more, some less and some discontinued treatment. The trial also included a 20-week escalation period, so its final number cannot be converted into a straight weekly calculation [1].\n\nSTEP trials studied semaglutide, not Mounjaro. They illustrate the time-course pattern of another weekly weight-management medicine; they do not provide a direct comparison or predict the same outcome. In STEP 1, mean change with semaglutide 2.4 mg was about 14.9% at 68 weeks versus 2.4% with placebo. In STEP 4, participants who reached maintenance dose and completed the 20-week run-in had lost an average of 10.6% before randomization. Use these figures as a broad map, not an individual forecast [2, 3]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "زيادة الجرعة تدريجياً",
+                "url": "../articles/mounjaro-wegovy-dose-escalation-explained.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "20-week escalation period",
+                "url": "../articles/mounjaro-wegovy-dose-escalation-explained.html"
+              }
+            ]
           }
         },
         {
@@ -93,8 +94,18 @@
             "en": "A useful general review rule comes from the Endocrine Society guideline: assess efficacy and safety monthly during the first three months, with at least 5% body-weight loss at three months treated as an effective response to weight-loss medication in general. That guideline predates the newest tirzepatide programmes and should not be an automatic switch across every medicine and escalation schedule [9].\n\nFor tirzepatide specifically, current NICE guidance says that if less than 5% of initial weight has been lost after six months on the highest tolerated dose, clinician and patient should discuss possible reasons and weigh continuation against changing course. People with type 2 diabetes may take longer. Weeks 12–16 are therefore an important review point, but not always a formal stopping point, especially when much of that interval involved escalation [10].\n\nAt review, the clinician considers percentage change from baseline, waist trend, hunger, adequate nutrition, movement, adverse effects, missed doses, and medicines or illnesses that affect progress. Percentage change is baseline minus current weight, divided by baseline weight, multiplied by 100. Use an average of readings rather than the lowest number observed, and never increase the dose yourself because the trend is slower [9, 10, 11]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "محيط الخصر",
+                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "waist trend",
+                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
+              }
+            ]
           }
         },
         {
@@ -110,22 +121,14 @@
           "links": {
             "ar": [
               {
-                "label": "رقم الدهون الحشوية وقياس الخصر",
-                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
-              },
-              {
-                "label": "النوم القليل وثبات الوزن",
-                "url": "../articles/qa-sleep-weight-plateau.html"
+                "label": "ثبات الوزن",
+                "url": "../articles/mounjaro-not-losing-weight-reasons.html"
               }
             ],
             "en": [
               {
-                "label": "Visceral fat score and waist measurement",
-                "url": "../articles/visceral-fat-score-waist-and-inbody.html"
-              },
-              {
-                "label": "Short sleep and a weight plateau",
-                "url": "../articles/qa-sleep-weight-plateau.html"
+                "label": "trend truly stalls",
+                "url": "../articles/mounjaro-not-losing-weight-reasons.html"
               }
             ]
           }
@@ -143,13 +146,13 @@
           "links": {
             "ar": [
               {
-                "label": "إزاي تحافظ على العضلات وإنت بتخس؟",
+                "label": "حماية العضلات",
                 "url": "../articles/protecting-muscle-while-losing-weight.html"
               }
             ],
             "en": [
               {
-                "label": "How to protect muscle while losing weight",
+                "label": "muscle-protection article",
                 "url": "../articles/protecting-muscle-while-losing-weight.html"
               }
             ]

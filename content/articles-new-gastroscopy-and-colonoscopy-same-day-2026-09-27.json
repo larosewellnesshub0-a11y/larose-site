@@ -12,7 +12,8 @@
         "clinical-nutrition"
       ],
       "date": "2026-09-27",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 10,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
@@ -67,14 +68,38 @@
           "links": {
             "ar": [
               {
-                  "label": "إيه الفرق بين منظار المعدة ومنظار القولون؟",
-                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+                "label": "قرحة المعدة أو الاثني عشر",
+                "url": "../articles/peptic-ulcer-symptoms-and-causes.html"
+              },
+              {
+                "label": "داء كرون",
+                "url": "../articles/crohns-and-ulcerative-colitis-signs.html"
+              },
+              {
+                "label": "منظار المعدة والقولون مع بعض",
+                "url": "../articles/colonoscopy-procedure-pain-sedation-duration.html"
+              },
+              {
+                "label": "منظار المعدة",
+                "url": "../articles/gastroscopy-procedure-biopsy-sedation.html"
               }
             ],
             "en": [
               {
-                "label": "gastroscopy vs colonoscopy",
-                "url": "../articles/gastroscopy-vs-colonoscopy-what-to-expect.html"
+                "label": "peptic ulcer disease",
+                "url": "../articles/peptic-ulcer-symptoms-and-causes.html"
+              },
+              {
+                "label": "Crohn's disease",
+                "url": "../articles/crohns-and-ulcerative-colitis-signs.html"
+              },
+              {
+                "label": "same-day gastroscopy and colonoscopy",
+                "url": "../articles/colonoscopy-procedure-pain-sedation-duration.html"
+              },
+              {
+                "label": "same-day gastroscopy",
+                "url": "../articles/gastroscopy-procedure-biopsy-sedation.html"
               }
             ]
           }
@@ -120,18 +145,8 @@
             "en": "Coordinating preparation for a combined upper and lower endoscopy represents the primary practical hurdle for patients, as the dual procedure requires fulfilling two physiological prerequisites simultaneously: ensuring an immaculate, liquid-free colonic lumen to detect subtle mucosal lesions, while simultaneously guaranteeing that the stomach is completely empty of fluid and residue prior to sedation to prevent pulmonary aspiration [1, 2, 9, 13]. To achieve both safety benchmarks, modern gastroenterology units utilize split-dose bowel cleansing regimens tightly synchronized with pre-procedural fasting windows [9, 13].\n\nUnder modern evidence-based preparation protocols, dietary modification begins two to three days prior to the procedure by eliminating high-fibre foods, whole grains, seeds, nuts, and indigestible vegetable skins [2, 13]. On the day preceding the examination, the patient transitions exclusively to a clear liquid diet, which includes clear broths, water, pulp-free apple juice, and plain light tea without milk or creamer [2, 13]. The individual consumes the first dose of the prescribed osmotic bowel preparation agent (such as polyethylene glycol or sodium picosulfate formulations) during the evening prior to the scopes to clear the bulk of solid colonic residue [13].\n\nThe pivotal clinical step in coordinating same-day scopes lies in the timing of the second prep dose relative to pre-sedation clear liquid fasting [9, 13]. Endoscopy and anesthesia practice guidelines stipulate that the second split dose must be ingested in the early morning of the procedure day (typically four to six hours prior to the appointment), with all oral fluid intake strictly terminating at least two to three hours before the scheduled sedation time [9, 13]. This precise timing window allows physiological gastric emptying to clear all swallowed fluid into the small bowel, ensuring an empty gastric pouch and protecting the pulmonary airway, while simultaneously flushing freshly emptied bile from the right colon to optimize mucosal visualization [9, 13]. Patients must adhere meticulously to the individualized printed timeline supplied by their specific endoscopy facility rather than adjusting medication timings independently [9, 13]."
           },
           "links": {
-            "ar": [
-              {
-                  "label": "إزاي تحضّر لمنظار القولون؟",
-                "url": "../articles/colonoscopy-preparation-what-to-ask.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "colonoscopy preparation",
-                "url": "../articles/colonoscopy-preparation-what-to-ask.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -145,8 +160,18 @@
             "en": "Following completion of the dual procedure, the patient is transferred directly to the post-anesthesia recovery area, where they rest comfortably for approximately 30 to 60 minutes while the sedative medications metabolize [3, 4, 9]. During this monitored phase, specialised recovery nurses track the stabilization of vital signs, confirm the return of an intact swallowing reflex with small sips of water, and evaluate ambulatory coordination prior to authorizing discharge [3, 4, 9]. Same-day discharge is seamless and prompt for the overwhelming majority of patients, though preparing for routine post-procedure physiological sensations ensures optimal recovery [3, 4].\n\nIt is entirely normal to experience several mild, transient symptoms following bidirectional endoscopy. A mild scratchiness or dry throat often persists for several hours following upper endoscopy, while abdominal cramping, bloating, and a sensation of trapped gas occur commonly as a consequence of the air or carbon dioxide (CO2) insufflated by the endoscopist to distend the stomach and colonic folds [1, 3, 4, 11]. The most effective strategy to relieve post-procedure fullness is gentle walking and uninhibited passage of flatus, which rapidly alleviates luminal pressure within a few hours [3, 4]. Modern endoscopy units utilizing carbon dioxide insufflation achieve significantly lower post-procedural discomfort, as CO2 is absorbed through the mucosal wall into the venous circulation over one hundred times faster than room air [11].\n\nRegarding post-procedure nutrition, patients may resume oral intake once alertness is fully restored and nausea is absent, initiating with light, gentle meals such as warm broths, plain rice, lean poultry, or crackers [3, 4]. Rich, spicy, or fried meals and carbonated drinks should be avoided for the remainder of the day to avoid gastrointestinal irritation [3, 4]. A non-negotiable safety standard across all accredited facilities is that an adult escort must accompany the patient home; driving a motor vehicle, operating heavy machinery, and executing binding legal or commercial agreements are strictly prohibited for 24 hours post-procedure because residual sedative effects impair psychomotor reflexes and executive judgment [3, 4, 9]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "وحدة الإفاقة والرعاية بعد الفحص",
+                "url": "../articles/after-colonoscopy-food-bloating-warning-signs.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "post-anesthesia recovery area",
+                "url": "../articles/after-colonoscopy-food-bloating-warning-signs.html"
+              }
+            ]
           }
         },
         {
@@ -160,18 +185,8 @@
             "en": "Prior to discharge from the endoscopy unit, the gastroenterologist or clinical team provides a preliminary procedure report detailing macroscopic findings visualised directly during the examination—such as gastric erosions, ulcerations, reflux esophagitis, colonic diverticula, or resected polyps [1, 2, 9]. It is vital for patients to understand that visual impressions do not constitute the final pathology diagnosis: if mucosal biopsies were taken to test for Helicobacter pylori, evaluate celiac sprue, or analyze polyp histology, formal histopathology results typically require several days to two weeks before a definitive management plan can be finalized [1, 2, 7]. When both scopes demonstrate entirely normal mucosa, this reassuring finding confidently rules out structural malignancies and severe mucosal ulceration, enabling the physician to redirect focus toward disorders of gut-brain interaction like irritable bowel syndrome or request broader clinical blood panels to complete the diagnostic picture [7, 8].\n\nWhile post-procedure recovery is unremarkable for the vast majority, every patient must be equipped with explicit red-flag warning signs that mandate immediate communication with the endoscopy team or emergency evaluation [3, 4, 9, 11]. These urgent alarm features include severe, progressive abdominal pain that escalates rather than improves after flatus, or marked abdominal wall rigidity and guarding upon gentle touch [3, 4, 11]. Similarly, the onset of persistent fever or rigors within several days of the scopes indicates potential infection or microperforation requiring urgent assessment [3, 4, 11].\n\nImmediate medical care is likewise indicated if the patient experiences substantial, continuous rectal hemorrhage (beyond faint streaking following a polypectomy), frank hematemesis, dark coffee-ground emesis, or melena characterized by tarry, foul-smelling black stools [3, 4, 7, 11]. Furthermore, persistent chest discomfort, shortness of breath, profound lightheadedness, or sudden syncope necessitates urgent cardiopulmonary evaluation to exclude delayed anesthesia effects or concealed haemorrhage [3, 4, 9]. Recognising these alarm signs ensures that rare complications are identified and treated without delay [9, 11]."
           },
           "links": {
-            "ar": [
-              {
-                  "label": "فحوصات وظائف الكبد لازم تتفهم في سياقها",
-                "url": "../articles/liver-function-tests-need-context.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "liver function tests in context",
-                "url": "../articles/liver-function-tests-need-context.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {

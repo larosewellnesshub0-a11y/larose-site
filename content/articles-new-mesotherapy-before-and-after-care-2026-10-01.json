@@ -10,6 +10,7 @@
       "specialties": ["body-contouring"],
       "date": "2026-10-01",
       "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 9,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -38,8 +39,8 @@
             "en": "“Mesotherapy” is not the name of one substance or one standardized treatment plan. It may describe superficial injections using different formulations, aims and anatomical sites, so one aftercare sheet cannot fit every patient. Before the appointment, identify the product, active ingredient, concentration and proposed site, and establish whether the product was manufactured for injection. The US Food and Drug Administration has warned that unapproved fat-dissolving products have been associated with infection, scarring, skin changes and painful nodules. The strongest available evidence instead concerns a particular deoxycholic-acid product used in a defined area beneath the chin, not every “cocktail” or body site [1, 2, 9].\n\nThis article does not decide whether mesotherapy suits your goal, and it does not repeat a complete complication catalogue. It provides a practical route from before the needle through day seven. If your question is about overall safety, read Is mesotherapy safe? first. If the proposed procedure is a fat-dissolving injection, the linked side-effects guide examines those risks in more detail. In every case, written instructions from the treating clinician for the actual substance and site take priority over generic advice found online [1, 4, 7]."
           },
           "links": {
-            "ar": [{"label": "هل الميزوثيرابي آمن؟", "url": "../articles/qa-mesotherapy-safety.html"}],
-            "en": [{"label": "Is mesotherapy safe?", "url": "../articles/qa-mesotherapy-safety.html"}]
+            "ar": [{"label": "حقن سطحية","url": "../articles/mesotherapy-for-hair-loss.html"}],
+            "en": [{"label": "superficial injections","url": "../articles/mesotherapy-for-hair-loss.html"}]
           }
         },
         {
@@ -52,7 +53,10 @@
             "ar": "حضّر قائمة بكل دواء ومكمل بتاخده، حتى لو مش شايف إن له علاقة بالجلد. اذكر أدوية السيولة ومضادات الصفائح، واضطرابات النزف، وسهولة ظهور الكدمات، والحساسية السابقة، وأي مشكلة حصلت بعد حقن أو تخدير موضعي. النشرة المعتمدة لحمض الديوكسيكوليك بتطلب حذراً عند وجود نزف زائد أو استخدام أدوية مضادة للصفائح أو التجلط، لأن الكدمات والنزف الموضعي ممكن يزيدوا. ده معناه «اسأل الطبيب»، مش «وقف الدواء». ما توقفش أسبرين أو دواء سيولة موصوف من نفسك، لأن إيقافه ممكن يعرضك لخطر أهم من الكدمة؛ الطبيب المعالج والطبيب اللي وصف الدواء هم اللي يحددوا الخطة [2, 7].\n\nبص على المنطقة في ضوء كويس قبل الموعد. وجود عدوى، جرح مفتوح، إفراز، طفح ملتهب، أو حبوب مصابة في موضع الحقن سبب يخليك تتواصل مع الطبيب قبل الحضور، ووجود عدوى في موضع الحقن مانع واضح في نشرة حمض الديوكسيكوليك [2]. اذكر كمان أي إجراء سابق في نفس المنطقة، أو جراحة غيرت التشريح، أو صعوبة بلع سابقة لو الحقن قرب الذقن والرقبة. الهدف مش ملء قائمة شكلية؛ الهدف إن الطبيب يقرر إذا الجلسة تتعمل، تتأجل، أو تتغير بناءً على المنتج والمكان وحالتك الفعلية [2, 7].",
             "en": "Prepare a complete list of every medicine and supplement you take, even when it seems unrelated to the skin. Disclose anticoagulants, antiplatelet medicines, bleeding disorders, easy bruising, previous allergies, and any reaction to an injection or local anaesthetic. The approved deoxycholic-acid label calls for caution when excessive bleeding is present or antiplatelet or anticoagulant treatment is used, because local bleeding and bruising may increase. That means “ask your doctor,” not “stop the medicine.” Never stop prescribed aspirin or an anticoagulant independently; interruption may create a more important risk than bruising, and the treating clinician and prescriber should determine the plan [2, 7].\n\nInspect the intended site in good light before the appointment. Infection, an open wound, discharge, an inflamed rash or infected spots should prompt contact with the clinician before attendance; infection at the injection site is a stated contraindication in the deoxycholic-acid label [2]. Also disclose earlier procedures or surgery that changed local anatomy, and previous swallowing difficulty when treatment is near the chin or neck. This is not a paperwork exercise. It helps the clinician decide whether the session should proceed, be postponed or be changed for the actual product, site and individual [2, 7]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [],
+            "en": []
+          }
         },
         {
           "id": "questions-and-consent",
@@ -65,8 +69,8 @@
             "en": "Before any injection, ask to see the original vial and note the product, ingredients, concentration, manufacturer, lot number and expiry date. Ask whether use at the proposed site is authorized or studied, who will perform the injections, and what training that person has in local anatomy and complication management. Informed consent means understanding the realistic benefit, evidence limits, alternatives including no procedure, expected reactions, important complications and the route for post-treatment contact. The American Society of Plastic Surgeons policy on mesotherapy and injection lipolysis emphasized limited data and non-standardized formulations, so the session name alone is not adequate for consent [4, 7].\n\nAgree on a specific follow-up plan before treatment starts. Who responds if a problem develops at night or on a non-working day? Is a review planned? Which signs require a photograph and message, same-day examination, or emergency care? Request written instructions that name the substance and site rather than a vague generic sheet. Do not accept a promise of no swelling or bruising, or a guaranteed result. Deoxycholic-acid studies recorded more local reactions than placebo injections despite efficacy in selected patients [9, 10]. Take time to decide; if answers remain unclear or the vial cannot be identified, postponement is reasonable [1, 4]."
           },
           "links": {
-            "ar": [{"label": "إبر إذابة الدهون: الأعراض الجانبية والأمان", "url": "../articles/fat-dissolving-injections-side-effects-safety.html"}],
-            "en": [{"label": "Fat-dissolving injections: side effects and safety", "url": "../articles/fat-dissolving-injections-side-effects-safety.html"}]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -79,7 +83,10 @@
             "ar": "في بداية الجلسة، الطبيب يراجع إن مافيش تغيير من وقت التقييم: دواء جديد، حساسية، عدوى، حرارة، جرح، أو إجراء حصل في المنطقة. بعد كده يحدد المنطقة ويشرح الخطة قبل ما يبدأ. ممارسات الحقن الآمن من مراكز مكافحة الأمراض بتشمل نظافة اليدين، تحضير الدواء في مكان نظيف، استخدام تقنية معقمة، وإبرة وسرنجة جديدتين مع التخلص الآمن منهما. عبوات الجرعة الواحدة ما تتشاركش بين أشخاص، والأداة المستخدمة ما تدخلش العبوة تاني. الخطوات دي أساسية للوقاية من انتقال العدوى، مش إضافات تجميلية [3].\n\nقد يحصل إحساس بوخز أو لسعة أو ضغط أثناء الحقن، لكن التجربة بتختلف حسب المادة والمكان وطريقة التخدير. لازم تقدر تقول لو الألم مفاجئ أو شديد أو مختلف، بدل ما تفترض إنك لازم تستحمله. بعد الانتهاء، اطلب تسجيل اسم المنتج ورقم التشغيلة، تاريخ الجلسة، مواضع الحقن، وأي ملاحظة حصلت. قبل ما تمشي، افهم إيه المتوقع في الساعات الأولى، وإيه المسموح أو الممنوع تحديداً، ومين تتصل به. لو اتقال لك تدليك أو كمادات أو دواء، لازم يكون التوجيه مرتبطاً بالمادة والمنطقة وحالتك، لأن مافيش تعليمات منزلية واحدة صالحة لكل أنواع الميزوثيرابي [2, 3, 7].",
             "en": "At the start of the session, the clinician should check whether anything has changed since assessment: a new medicine, allergy, infection, fever, wound or procedure in the area. The site and plan should then be identified and explained before treatment begins. The Centers for Disease Control and Prevention describes safe injection practice as including hand hygiene, medication preparation in a clean area, aseptic technique, a new needle and syringe, and safe disposal. Single-dose vials must not be shared between patients, and used equipment must not re-enter a vial. These measures prevent transmission of infection; they are not optional cosmetic extras [3].\n\nStinging, pressure or discomfort may occur during injection, although the experience varies with the substance, site and anaesthetic approach. You should be able to report sudden, severe or unusual pain rather than assuming it must be endured. Afterwards, obtain a record of the product and lot, treatment date, injection sites and anything notable during the procedure. Before leaving, understand what is expected over the first hours, what is specifically permitted or restricted, and whom to contact. If massage, compresses or medication are advised, the direction should relate to the actual substance, site and patient; no single home-care instruction is valid for every form of mesotherapy [2, 3, 7]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [],
+            "en": []
+          }
         },
         {
           "id": "first-24-hours",
@@ -91,7 +98,10 @@
             "ar": "بعد ما ترجع، اقرأ التعليمات المكتوبة وخلي رقم التواصل قريب. صوّر المنطقة في ضوء ثابت لو الطبيب موافق؛ الصورة مش للتقييم الذاتي، لكنها بتساعدك تلاحظ هل الاحمرار أو التورم بيزيد ولا بيهدأ. الألم الموضعي، الحساسية للمس، الاحمرار، التورم، الكدمة، التنميل أو الصلابة ممكن يظهروا بعد بعض الحقن، وظهروا كتفاعلات شائعة في دراسات حمض الديوكسيكوليك تحت الذقن [2, 9, 10]. وجود العرض لوحده ما يحددش إذا طبيعي؛ المادة، المكان، شدته، وتغيره مع الوقت هم الأهم.\n\nما تدلكش المنطقة، وما تعصرش تكتلاً، وما تحطش وصفة منزلية أو كريم مهيج، وما تستخدمش إبرة تانية من نفسك. اتبع فقط تعليمات الطبيب بخصوص الغسيل، الكمادات، الحركة، والدواء. لو مافيش تعليمات واضحة عن تمرين قوي، حرارة، ساونا، شمس، أو مستحضر جلدي، اسأل بدل ما تخمن. حافظ على المنطقة نظيفة من غير فرك، وما تشاركش مناشف أو أدوات بتلمس جلد مجروح. اكتب وقت بداية أي عرض والأدوية اللي أخدتها. ولو الألم شديد من البداية، أو الجلد لونه بقى شاحب جداً أو أزرق أو غامق، أو ظهر تورم سريع في الوجه أو اللسان، ما تستناش نهاية اليوم [2, 6, 7].",
             "en": "Once home, read the written instructions and keep the contact number accessible. Photograph the site in consistent light if the clinician agrees; the image is not a substitute for assessment, but it can show whether redness or swelling is expanding or settling. Local pain, tenderness, redness, swelling, bruising, numbness or firmness may follow some injections and were common reactions in studies of submental deoxycholic acid [2, 9, 10]. The presence of a symptom alone does not determine whether it is normal. The substance, site, severity and direction of change matter more.\n\nDo not massage the area, squeeze a lump, apply an irritating home remedy, or inject another substance yourself. Follow only the clinician's instructions about washing, compresses, activity and medication. If advice about strenuous exercise, heat, sauna, sun or a skin product is absent, ask instead of guessing. Keep the site clean without scrubbing, and do not share towels or items that contact broken skin. Record when each symptom began and any medicine taken. Do not wait until the end of the day if pain is severe from the outset, the skin becomes strikingly pale, blue or dark, or the face or tongue swells rapidly [2, 6, 7]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [{"label": "تورم سريع في الوجه أو اللسان","url": "../articles/face-mesotherapy-skin-boosters.html"}],
+            "en": [{"label": "the face or tongue swells rapidly","url": "../articles/face-mesotherapy-skin-boosters.html"}]
+          }
         },
         {
           "id": "days-two-to-seven",
@@ -104,8 +114,8 @@
             "en": "On days two and three, compare pain, redness and swelling with the baseline. The aim is not to make every mark disappear by a fixed deadline; it is to understand the trend. A mild stable reaction with a clear plan differs from increasing pain, spreading redness, marked warmth, discharge or an enlarging lump. Cellulitis can present as painful, hot and swollen skin and commonly needs prompt treatment. Nontuberculous mycobacterial infection after mesotherapy may present later with multiple nodules or abscesses, sometimes without prominent systemic symptoms. A persistent or evolving skin lesion should therefore not be concealed with a cream or random antibiotic [5, 8].\n\nFrom day four through day seven, review whether movement, texture and colour are improving in line with the instructions you received. Day seven is not a certificate of safety or a promise that every swelling must have disappeared; reactions vary by substance and site. It is, however, a useful point for contact when there is no clear improvement or when unexplained numbness, firmness or asymmetry persists. Send consistently lit images with a brief description of onset and direction of change, but do not rely on messaging when a sign is severe. Do not arrange another session or try to “break down” a lump with massage before its cause has been assessed [2, 7, 8]."
           },
           "links": {
-            "ar": [{"label": "نحت الجسم غير الجراحي: الأمان أولاً", "url": "../articles/body-contouring-safety-first.html"}],
-            "en": [{"label": "Non-surgical body contouring: safety first", "url": "../articles/body-contouring-safety-first.html"}]
+            "ar": [{"label": "جلسة تانية","url": "../articles/mesotherapy-sessions-number-and-interval.html"}],
+            "en": [{"label": "another session","url": "../articles/mesotherapy-sessions-number-and-interval.html"}]
           }
         },
         {
@@ -118,7 +128,10 @@
             "ar": "اطلب تقييماً طبياً سريعاً لو الألم شديد أو بيزيد، أو الاحمرار والسخونة بينتشروا، أو ظهر صديد، حرارة عامة، قرحة، فقاقيع، تغير لون واضح، أو كتلة بتكبر. بعد حقن قريب من الذقن، ابتسامة مائلة جديدة، ضعف في عضلات الشفة، أو صعوبة بلع محتاجين تواصلاً طبياً سريعاً، لأن نشرة حمض الديوكسيكوليك بتذكر إصابة فرع عصبي وصعوبة البلع ضمن المخاطر المهمة [2]. ما تحاولش تشخص عدوى أو تلف نسيج من صورة لوحدها، وما تبدأش علاجاً من بقايا دواء في البيت؛ نوع العلاج يعتمد على الفحص والسبب [5, 7, 8].\n\nاتجه للطوارئ فوراً لو فيه صعوبة تنفس، صفير، تورم سريع في اللسان أو الحلق، صعوبة بلع تمنع السوائل، دوخة شديدة، إغماء، ارتباك، أو جلد وشفايف بلون أزرق أو رمادي أو شاحب بشكل غير معتاد. دي ممكن تكون علامات حساسية مفرطة وتحتاج علاجاً عاجلاً [6]. لو الحقن كان قريباً من العين وظهر ضعف أو تشوش مفاجئ في النظر، ما تستناش رداً برسالة. ولو حاسس بإغماء أو ضعف شديد، ما تسوقش بنفسك. القاعدة البسيطة: العرض الخفيف اللي بيتحسن يتتابع حسب الخطة؛ العرض الشديد، السريع، أو اللي بيزيد يحتاج تصعيداً أسرع [2, 5, 6].",
             "en": "Seek prompt medical assessment for severe or increasing pain, spreading redness or warmth, discharge, fever, an ulcer, blisters, marked colour change, or an enlarging lump. After injections near the chin, a newly uneven smile, weak lip movement or swallowing difficulty requires prompt contact because the deoxycholic-acid label lists nerve-branch injury and dysphagia among important risks [2]. Do not try to diagnose infection or tissue injury from a photograph alone, and do not begin treatment with leftover medicines at home; treatment depends on examination and cause [5, 7, 8].\n\nGo to emergency care immediately for breathing difficulty, wheezing, rapid swelling of the tongue or throat, swallowing difficulty that prevents fluids, severe dizziness, collapse, confusion, or unusually blue, grey or pale lips or skin. These may indicate anaphylaxis and require urgent treatment [6]. If injection was near the eye and sudden blurred or reduced vision develops, do not wait for a reply to a message. Do not drive yourself when faint or severely weak. A useful rule is that a mild reaction improving according to plan can be monitored, while a severe, rapid or worsening sign needs faster escalation [2, 5, 6]."
           },
-          "links": {"ar": [], "en": []}
+          "links": {
+            "ar": [],
+            "en": []
+          }
         },
         {
           "id": "next-step",
@@ -131,8 +144,8 @@
             "en": "If you are considering a session, prepare the proposed product name or a vial photograph when available, plus a list of medicines, supplements, allergies and previous procedures. State your goal in one sentence and ask whether the concern is genuinely superficial fat or instead loose skin or another cause. A sound assessment may lead to proceeding, postponement, a different option, or no procedure; all are legitimate outcomes. The decision should follow examination and clear information about the product and site, not a marketing name or before-and-after photograph [1, 4, 7].\n\nThe medical team at La Rose can discuss the situation individually at the Maadi and Fifth Settlement, New Cairo branches, without promising an outcome or assuming mesotherapy suits everyone. During the visit, request a written plan covering preparation, what to expect during the first week, how to make contact and when review is appropriate for the product and area. If you already have increasing pain, possible infection, skin colour change, swallowing difficulty, facial weakness or any emergency sign described above, seek the level of care appropriate to its severity instead of waiting for a routine cosmetic appointment. You can book a consultation with the medical team when you need a structured starting assessment [2, 5, 6]."
           },
           "links": {
-            "ar": [{"label": "احجز استشارة مع الفريق الطبي", "url": "../patients/booking.html"}],
-            "en": [{"label": "Book a consultation", "url": "../patients/booking.html"}]
+            "ar": [{"label": "احجز استشارة مع الفريق الطبي","url": "../patients/booking.html"}],
+            "en": [{"label": "Book a consultation","url": "../patients/booking.html"}]
           }
         }
       ],

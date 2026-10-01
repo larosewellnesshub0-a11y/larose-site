@@ -12,7 +12,8 @@
         "pediatrics"
       ],
       "date": "2026-09-27",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}],
       "readingTime": 15,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
@@ -55,8 +56,18 @@
             "en": "Abdominal ultrasound is one of the most vital and frequently utilised diagnostic imaging modalities for evaluating gastrointestinal and urinary complaints in children across all age groups [1, 2, 4]. This imaging examination relies on transmitting high-frequency sound waves through an ultrasound transducer placed against the child's abdominal wall; these sound waves bounce back upon encountering tissues and are instantly converted into real-time, detailed images displaying internal organ architecture, contours, and vascular blood flow [1, 3, 4]. The defining clinical strength of ultrasound in paediatrics is that it is non-invasive, entirely free of ionising radiation, and exquisitely safe, establishing it as the primary first-line modality for assessing solid intra-abdominal structures, including the liver, gallbladder, biliary tree, spleen, pancreas, kidneys, ureters, and urinary bladder [1, 3, 4, 12].\n\nPaediatricians and gastroenterology specialists request an abdominal ultrasound for several common clinical indications, such as sudden acute abdominal pain, recurrent episodes of tummy aches lasting multiple weeks, unexplained abdominal distension, or following blunt abdominal trauma to exclude intra-peritoneal fluid accumulation or occult bleeding [1, 4, 5, 13]. Ultrasound also plays an indispensable diagnostic role when acute appendicitis is clinically suspected—particularly when pain localises to the right lower quadrant accompanied by fever and nausea—by evaluating appendiceal diameter, wall hyperemia, and surrounding tissue changes [6, 13]. In children presenting with post-viral abdominal cramping following an upper respiratory infection, ultrasound frequently identifies enlarged mesenteric lymph nodes (mesenteric lymphadenitis), a common, benign, self-limiting condition that mimics surgical pain but resolves spontaneously [13]. Furthermore, ultrasound serves as the cornerstone for investigating paediatric urinary tract infections (UTIs) or unexplained febrile illnesses in infants, assessing renal size, corticomedullary differentiation, urinary tract dilation (hydronephrosis), and underlying structural anomalies [7, 8, 11, 12].\n\nIn infants and young toddlers, paediatric abdominal ultrasound represents the diagnostic gold standard for identifying two critical gastrointestinal conditions [13, 14, 15]. The first is infantile hypertrophic pyloric stenosis, typically presenting between 2 and 8 weeks of life with forceful, projectile non-bilious vomiting immediately following milk feeds and persistent hunger; ultrasound provides millimetre-level measurement of pyloric muscle thickness, diameter, and channel length to confirm gastric outlet obstruction [13, 15]. The second condition is intussusception, wherein a segment of the bowel invaginates or telescopes into an adjacent distal segment, creating mechanical obstruction; on cross-sectional ultrasound, this produces a pathognomonic multilayered appearance known as the “target” or “doughnut” sign, carrying a diagnostic sensitivity exceeding 98% and facilitating prompt non-operative reduction or surgical intervention [13, 14]."
           },
           "links": {
-            "ar": [],
-            "en": []
+            "ar": [
+              {
+                "label": "حجم الكلى",
+                "url": "../articles/incidental-kidney-cyst-ultrasound.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "kidneys, ureters",
+                "url": "../articles/incidental-kidney-cyst-ultrasound.html"
+              }
+            ]
           }
         },
         {
@@ -72,14 +83,14 @@
           "links": {
             "ar": [
               {
-                "label": "تحضير سونار البطن للبالغين",
-                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+                "label": "المرارة تتملي بالعصارة الصفراوية",
+                "url": "../articles/gallbladder-sludge-vs-stones-ultrasound.html"
               }
             ],
             "en": [
               {
-                "label": "abdominal ultrasound preparation in adults",
-                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+                "label": "the gallbladder to fully distend",
+                "url": "../articles/gallbladder-sludge-vs-stones-ultrasound.html"
               }
             ]
           }
@@ -97,13 +108,21 @@
           "links": {
             "ar": [
               {
-                "label": "فحص سونار البطن والحوض",
+                "label": "سونار الكلى والمثانة",
+                "url": "../articles/prostate-urinary-tract-ultrasound-preparation.html"
+              },
+              {
+                "label": "فحص مشترك للبطن والحوض",
                 "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
               }
             ],
             "en": [
               {
-                "label": "abdominal and pelvic ultrasound examination",
+                "label": "urinary tract examination",
+                "url": "../articles/prostate-urinary-tract-ultrasound-preparation.html"
+              },
+              {
+                "label": "abdominal and pelvic ultrasound",
                 "url": "../articles/abdominal-pelvic-ultrasound-what-it-shows.html"
               }
             ]
@@ -135,18 +154,8 @@
             "en": "Despite the immense diagnostic utility of abdominal ultrasound, it possesses distinct physical and technical boundaries that parents should understand clearly to maintain realistic expectations [1, 3, 4]. Ultrasound imaging depends on acoustic impedance mismatches between tissues, but its primary physical impediment is air; luminal gas within bowel loops strongly scatters and absorbs acoustic waves, obscuring structures situated immediately behind them [1, 3, 4]. If a child experiences prominent intestinal gas distension or harbours substantial hard fecal retention secondary to chronic constipation, deeper retroperitoneal organs such as the pancreas or a non-inflamed appendix can occasionally be partially shielded from clear acoustic interrogation, warranting careful clinical correlation [1, 3, 5, 13].\n\nFurthermore, ultrasound is fundamentally an anatomical examination that maps gross structural organ morphology rather than micro-mucosal detail [4, 5, 9, 13]. Consequently, superficial mucosal conditions—such as mild viral gastroenteritis, superficial gastritis, gastro-oesophageal reflux, microscopic enteropathy, early celiac disease, or carbohydrate intolerances—present with entirely normal ultrasound appearances [4, 5, 9, 13]. Similarly, regarding the vermiform appendix: a healthy, non-inflamed appendix is a thin, compressible, blind-ending tubular structure that frequently eludes visualization in children with abundant bowel gas; non-visualization of the appendix does not equal appendicitis and must be interpreted alongside clinical physical findings and watchful observation [6, 13].\n\nWhat does it mean, then, when an ultrasound report reads as “normal and unremarkable” while the child continues to report abdominal discomfort? A normal ultrasound is profoundly reassuring news for parents, as it robustly excludes acute surgical emergencies, organomegaly, mechanical obstruction, intussusception, and major urinary or biliary structural anomalies [12, 13, 14]. Crucially, however, a normal scan does not dismiss the reality of the child's symptoms; the vast majority of recurrent paediatric abdominal pains stem from benign functional etiologies—such as constipation, functional abdominal pain disorders of gut-brain interaction, transient post-viral dysmotility, or school-related stress [5, 13]. The proper next step after a reassuring normal ultrasound is a calm, collaborative review with the paediatrician, focusing on dietary habits, stool consistency, and growth trajectories without subjecting the child to redundant imaging [5, 8, 13]."
           },
           "links": {
-            "ar": [
-              {
-                "label": "المغص المتكرر وآلام البطن عند الأطفال",
-                "url": "../articles/recurrent-tummy-aches-in-children.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "recurrent tummy aches in children",
-                "url": "../articles/recurrent-tummy-aches-in-children.html"
-              }
-            ]
+            "ar": [],
+            "en": []
           }
         },
         {
@@ -177,7 +186,7 @@
           "links": {
             "ar": [
               {
-                  "label": "احجز استشارة مع فريق لاروز الطبي",
+                "label": "احجز استشارة مع فريق لاروز الطبي",
                 "url": "../patients/booking.html"
               }
             ],
