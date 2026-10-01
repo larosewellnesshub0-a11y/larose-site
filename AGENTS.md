@@ -111,6 +111,13 @@ This is a generated bilingual static site. Work from source, not from output.
     PubMed/PMC title and first author (NCBI esummary) with the label. BAD rows
     must be fixed. WEAK rows are usually shortened labels, so confirm them by
     hand. Spot-check numeric claims against the cited abstract or label too.
+21. **Branch local SEO.** In `content/branches.json`, set `geo` only from the
+    clinic's own Maps link, and note how it was found in `_geoSource`.
+    `nearbyAreas`, `areaServedNames` and the branch `faq` may name only areas
+    with a map-measured distance. For Fifth Settlement those are in
+    `_project/FIFTH-SETTLEMENT-DISTANCES-2026-10-01.md` and are all within about
+    10 km. Branch FAQs may mention Mounjaro or Wegovy only as prescribed after a
+    consultation, when suitable. No prices, stock claims or results.
 
 See `PROJECT.md` for the source map and `_project/LAUNCH.md` for the deployment
 runbook.
