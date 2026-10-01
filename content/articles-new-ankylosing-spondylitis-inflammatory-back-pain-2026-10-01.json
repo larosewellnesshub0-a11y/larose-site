@@ -1,0 +1,335 @@
+{
+  "_note": "Phase 3 new article (2026-10-01). Distinguishes inflammatory from mechanical back pain, explains the axial spondyloarthritis spectrum, HLA-B27, imaging, exercise and treatment principles; it does not provide self-diagnosis, individual drug instructions or a general low-back-pain treatment guide.",
+  "articles": [
+    {
+      "slug": "ankylosing-spondylitis-inflammatory-back-pain",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "rheumatology",
+      "specialties": [
+        "rheumatology"
+      ],
+      "date": "2026-10-01",
+      "updatedAt": "2026-10-01",
+      "readingTime": 10,
+      "author": "shimaa-sherif",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/ankylosing-spondylitis-inflammatory-back-pain-cover.webp",
+      "title": {
+        "ar": "التهاب الفقرات اللاصق: إمتى ألم الظهر يكون التهابي؟",
+        "en": "Ankylosing spondylitis: when is back pain inflammatory?"
+      },
+      "excerpt": {
+        "ar": "مش كل ألم ظهر سببه شد عضلي أو مشكلة ميكانيكية. اعرف نمط ألم الظهر الالتهابي، ومعنى التهاب الفقار المحوري وHLA-B27، ودور الأشعة والتمرين والعلاج من غير تشخيص ذاتي.",
+        "en": "Not every backache comes from a strain or a mechanical problem. Learn the pattern of inflammatory back pain, what axial spondyloarthritis and HLA-B27 mean, and how imaging, exercise and treatment fit together without self-diagnosis."
+      },
+      "tags": {
+        "ar": [
+          "التهاب الفقرات اللاصق",
+          "ألم الظهر الالتهابي",
+          "التهاب الفقار المحوري",
+          "تيبس الظهر الصباحي",
+          "تحليل HLA-B27",
+          "أشعة الرنين على الحوض"
+        ],
+        "en": [
+          "ankylosing spondylitis",
+          "inflammatory back pain",
+          "axial spondyloarthritis",
+          "morning back stiffness",
+          "HLA-B27 test",
+          "sacroiliac MRI"
+        ]
+      },
+      "sections": [
+        {
+          "id": "axial-spondyloarthritis-spectrum",
+          "heading": {
+            "ar": "التهاب الفقرات اللاصق جزء من طيف أوسع",
+            "en": "Ankylosing spondylitis is part of a wider spectrum"
+          },
+          "body": {
+            "ar": "التهاب الفقرات اللاصق اسم معروف لمرض روماتيزمي التهابي بيصيب بالأساس المفاصل العجزية الحرقفية بين أسفل العمود الفقري والحوض، وممكن يمتد للفقرات أو مفاصل وأماكن تانية. الاسم الأوسع دلوقتي هو التهاب الفقار المحوري (axial spondyloarthritis أو axSpA). الطيف ده فيه صورة بتظهر فيها تغيّرات واضحة بالمفاصل العجزية الحرقفية في الأشعة السينية، ودي الصورة المعروفة تقليدياً بالتهاب الفقرات اللاصق، وصورة غير ظاهرة بالأشعة السينية اسمها التهاب الفقار المحوري غير الشعاعي. كلمة «غير شعاعي» مش معناها إن الألم غير حقيقي أو إن مفيش التهاب؛ معناها إن الأشعة السينية العادية مش مبيّنة التغيّرات البنيوية المطلوبة للتسمية دي، بينما التاريخ المرضي والفحص وأحياناً الرنين المغناطيسي والتحاليل ممكن يضيفوا معلومات مهمة [1, 2, 4, 6].\n\nالمرض مش مجرد «فقرات لازقة»، والاسم لوحده ممكن يدي انطباع مخيف أو متأخر عن الواقع. الأعراض والسرعة والتأثير بيختلفوا من شخص للتاني، وممكن الوجع والتيبس يزيدوا فترة ويهدوا فترة. أشهر بداية هي وجع أو تيبس تدريجي في أسفل الظهر أو الأرداف، وغالباً بيبدأ في سن صغير أو متوسط قبل سن 45. بس وجود وجع في السن ده مش كفاية للتشخيص؛ آلام الظهر الميكانيكية شائعة جداً، والتشخيص بيحتاج تجميع النمط والأعراض المصاحبة والفحص والنتائج، مش علامة واحدة أو تحليل واحد [1, 3, 5].",
+            "en": "Ankylosing spondylitis is a familiar name for an inflammatory rheumatic disease that mainly affects the sacroiliac joints between the lower spine and pelvis. It can also involve the spine, other joints and other sites. The broader current term is axial spondyloarthritis, or axSpA. This spectrum includes a form with definite sacroiliac-joint changes on plain X-ray, traditionally called ankylosing spondylitis, and a non-radiographic form. “Non-radiographic” does not mean that the pain is unreal or that inflammation is absent. It means that plain X-rays do not show the structural changes required for that label, while the history, examination, and sometimes MRI and laboratory findings may still provide important evidence [1, 2, 4, 6].\n\nThe disease is not simply a matter of “fused vertebrae,” and that older name can give an unduly alarming or late-stage picture. Symptoms, pace and impact differ between people, and pain and stiffness may flare and settle. A common presentation is gradually developing pain or stiffness in the lower back or buttocks, often beginning in younger or middle adulthood before age 45. Age alone is not diagnostic, however. Mechanical back pain is very common, and diagnosis depends on assembling the symptom pattern, associated features, examination and test results rather than relying on one sign or one blood test [1, 3, 5]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "inflammatory-vs-mechanical-back-pain",
+          "heading": {
+            "ar": "إزاي نفرّق ألم الظهر الالتهابي عن الألم الميكانيكي؟",
+            "en": "How does inflammatory back pain differ from mechanical pain?"
+          },
+          "body": {
+            "ar": "ألم الظهر الميكانيكي غالباً بيظهر بعد مجهود أو حركة أو وضعية معينة، وممكن يتحسن بالراحة. ألم الظهر الالتهابي بيمشي بنمط مختلف: بدايته بتكون تدريجية، بيطول لأسابيع أو شهور، الراحة مش بتحسّنه كويس، والحركة ممكن تخففه. التيبس الصباحي، الوجع اللي يصحيك في النصف التاني من الليل، ووجع الأرداف اللي ممكن يتنقل من ناحية للتانية كلها تفاصيل بتخلّي الطبيب يفكر في التهاب الفقار المحوري. معايير ASAS البحثية لألم الظهر الالتهابي بتضم بداية قبل 40 سنة، بداية تدريجية، تحسن مع الحركة، عدم التحسن بالراحة، وألم بالليل يتحسن بعد القيام؛ اجتماع عدة سمات بيرفع الاشتباه، بس المعايير دي أداة للتعرّف على النمط ومش ختم تشخيص [5, 6, 9].\n\nالفرق مش دايماً واضح. شخص عنده التهاب فقار محوري ممكن كمان يحصل له شد عضلي أو انزلاق غضروفي، وشخص عنده ألم ميكانيكي ممكن يحس بتيبس بعد قعدة طويلة. عشان كده الطبيب بيسأل: الوجع بدأ إمتى؟ بيتحسن بإيه وبيزيد بإيه؟ هل فيه تيبس صباحي؟ هل بيقطع النوم؟ هل فيه وجع متبادل في الأرداف؟ وهل النمط مستمر أكتر من ثلاثة شهور؟ وجود إجابات متوافقة يبرر تقييم روماتيزم، خصوصاً لو البداية كانت قبل 45 سنة، لكنه مش معناه إن التشخيص اتأكد. وبرضه غياب سمة واحدة، زي التحسن الواضح بالحركة، مش كفاية لوحده لاستبعاد المرض [3, 6, 9].",
+            "en": "Mechanical back pain often follows exertion, a movement or a particular posture, and it may improve with rest. Inflammatory back pain has a different pattern: onset is gradual, symptoms persist for weeks or months, rest does not provide good relief, and movement may help. Morning stiffness, pain that wakes someone in the second half of the night, and buttock pain that may alternate from side to side are details that can raise suspicion of axial spondyloarthritis. The ASAS research criteria for inflammatory back pain include onset before age 40, gradual onset, improvement with exercise, no improvement with rest, and night pain that improves on getting up. A cluster of features raises suspicion, but these criteria identify a pattern; they do not establish a diagnosis [5, 6, 9].\n\nThe distinction is not always neat. A person with axial spondyloarthritis can also have a muscle strain or disc problem, while someone with mechanical pain may feel stiff after sitting. That is why a clinician asks when the pain began, what improves or worsens it, whether morning stiffness is present, whether sleep is interrupted, whether buttock pain alternates, and whether the pattern has persisted for more than three months. A consistent set of answers supports rheumatology assessment, particularly when symptoms started before age 45, but it does not confirm the diagnosis. Equally, the absence of one feature, such as obvious relief with movement, cannot by itself exclude the disease [3, 6, 9]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "features-beyond-the-back",
+          "heading": {
+            "ar": "علامات تانية ممكن تمشي مع ألم الظهر",
+            "en": "Features that may accompany the back pain"
+          },
+          "body": {
+            "ar": "التهاب الفقار المحوري ممكن يظهر برّه الظهر. فيه ناس بيحصل لهم ألم أو تورم في مفصل زي الركبة أو الفخذ، أو التهاب مكان اتصال الوتر بالعظم، وده ممكن يبان كوجع عند كعب الرجل أو تحت الكعب. التهاب المفاصل اللي بتوصل الضلوع بعظمة الصدر ممكن يعمل وجع مع النفس العميق أو يقلل مرونة الصدر. التعب كمان عرض معروف، بس هو عرض عام جداً وله أسباب كتير، فلا ينفع ننسبه للمرض من غير تقييم [1, 5].\n\nمهم تسأل عن احمرار مؤلم مفاجئ في عين واحدة مع حساسية للضوء أو زغللة، وعن الصدفية، وعن إسهال مستمر أو دم بالبراز وتشخيص سابق لالتهاب الأمعاء، وعن حد في العيلة عنده التهاب فقار أو صدفية أو التهاب أمعاء. التفاصيل دي مش «مضاعفات مؤكدة»، لكنها أجزاء من صورة سريرية ممكن تساعد طبيب الروماتيزم. العين الحمراء المؤلمة أو تغيّر الرؤية محتاج تقييم عاجل للعين عشان احتمال التهاب العنبية الأمامي. وبعيداً عن نمط المرض نفسه، فقدان التحكم في البول أو البراز، خدر بمنطقة ما بين الرجلين، أو ضعف جديد ومتزايد بالساقين مع ألم الظهر يستلزم طوارئ فوراً، لأن دي علامات عصبية طارئة ومش وقت انتظار موعد عادي [1, 3, 5, 13].",
+            "en": "Axial spondyloarthritis can have features beyond the back. Some people develop pain or swelling in a joint such as the knee or hip, or inflammation where a tendon attaches to bone, which can present as pain at the back or underside of the heel. Inflammation of the joints linking the ribs and breastbone can cause discomfort with a deep breath or reduce chest flexibility. Fatigue is also recognised, but it is a very general symptom with many possible causes and should not be attributed to this disease without assessment [1, 5].\n\nIt is important to ask about a suddenly painful red eye with light sensitivity or blurred vision, psoriasis, persistent diarrhoea or blood in the stool, a previous diagnosis of inflammatory bowel disease, and relatives with spondyloarthritis, psoriasis or bowel inflammation. These details are not proof of complications; they are parts of a clinical picture that can inform a rheumatology assessment. A painful red eye or change in vision needs urgent eye assessment because of possible acute anterior uveitis. Separately from the disease pattern, new loss of bladder or bowel control, numbness around the saddle area, or new and worsening leg weakness with back pain requires immediate emergency care. Those are neurological emergency signs and should not wait for a routine appointment [1, 3, 5, 13]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "هل نقص فيتامين د هو سبب التعب؟",
+                "url": "../articles/qa-vitamin-d-fatigue.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Is vitamin D deficiency causing fatigue?",
+                "url": "../articles/qa-vitamin-d-fatigue.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "clinical-assessment",
+          "heading": {
+            "ar": "التقييم بيبدأ بالقصة والفحص، مش بطلب تحاليل عشوائية",
+            "en": "Assessment starts with the history and examination, not random tests"
+          },
+          "body": {
+            "ar": "طبيب الروماتيزم بيربط القصة ببعضها قبل ما يختار الفحوص. السؤال مش بس «ظهرك بيوجعك؟»؛ المهم سن البداية، مدة الأعراض، نمط الليل والصبح، تأثير الحركة والراحة، ألم الأرداف، وأي أعراض بالمفاصل أو الكعب أو العين أو الجلد أو الأمعاء. الفحص ممكن يشمل حركة أسفل الظهر والرقبة، المفاصل العجزية الحرقفية، مفاصل الأطراف، أماكن اتصال الأوتار، وضعية الجسم وتمدد الصدر. مفيش حركة واحدة في الكشف تقدر تثبت أو تنفي المرض، لكن الفحص بيضيف سياق وبيساعد يستبعد أسباب تانية [2, 3].\n\nتحاليل الالتهاب زي CRP وESR ممكن تدعم الصورة وتفيد في متابعة بعض الحالات، بس ممكن تكون طبيعية رغم وجود التهاب فقار محوري. تعداد الدم ووظائف الكبد والكلى أو فحوص تانية ممكن يطلبها الطبيب حسب الأعراض، التشخيصات البديلة، والعلاج اللي بيفكر فيه؛ مش لأنها باقة ثابتة لكل وجع ظهر. إرشادات NICE بتنبّه صراحة إن غياب HLA-B27 أو طبيعية CRP وESR ما ينفعش يستبعدوا التهاب الفقار المحوري. الفكرة الأساسية إن مفيش تحليل دم منفرد يشخّص المرض، ومفيش نتيجة طبيعية منفردة تقفل الباب لو النمط السريري ما زال مقنعاً [2, 3, 6].",
+            "en": "A rheumatologist connects the history before selecting tests. The question is not simply whether the back hurts. The age at onset, duration, night and morning pattern, response to movement and rest, buttock pain, and any joint, heel, eye, skin or bowel features all matter. Examination may assess movement of the lower back and neck, the sacroiliac region, peripheral joints, tendon attachment sites, posture and chest expansion. No single manoeuvre can prove or exclude the disease, but examination adds context and helps the clinician consider other causes [2, 3].\n\nInflammatory markers such as CRP and ESR may support the overall picture and can help monitor some patients, but they may be normal in axial spondyloarthritis. A clinician may request a blood count, liver and kidney tests or other investigations according to symptoms, alternative diagnoses and possible treatment; they are not a fixed panel for every backache. NICE guidance explicitly advises that a negative HLA-B27 result or normal CRP and ESR should not be used to rule out axial spondyloarthritis. The central point is that no single blood test diagnoses the condition, and no single normal result closes the question when the clinical pattern remains convincing [2, 3, 6]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "hla-b27-meaning",
+          "heading": {
+            "ar": "تحليل HLA-B27 معناه إيه؟",
+            "en": "What does an HLA-B27 result mean?"
+          },
+          "body": {
+            "ar": "HLA-B27 صفة جينية مرتبطة بزيادة احتمال التهاب الفقار المحوري، لكنها مش اختبار «إيجابي يعني مرض وسلبي يعني سليم». ناس كتير حاملين الصفة ومش بيجيلهم المرض، والمرض ممكن يحصل من غيرها. انتشار الصفة وقوة ارتباطها بالمرض بيختلفوا بين المجموعات السكانية، فمفيش نسبة واحدة تنطبق على كل بلد وكل شخص. النتيجة الموجبة تزود وزن الاشتباه لو فيه قصة وفحص متوافقين، والنتيجة السالبة تقلل الاحتمال في بعض السياقات لكنها مش بتلغيه [1, 3, 8].\n\nعشان كده طلب التحليل بيكون له قيمة لما الطبيب شايف احتمالاً سريرياً وعايز يضيف معلومة للصورة. عمله كفحص عام لشخص من غير نمط ألم التهابي ممكن يخلق قلقاً وتشخيصاً ذاتياً من غير فائدة. وبرضه النتيجة الموجبة مش بتقول شدة المرض، ومش معناها إن الفقرات هتلتحم، ومش بتحدد علاجاً بعينه. النتيجة بتتقري جنب سن بداية الألم، الأعراض المصاحبة، تاريخ العيلة، علامات الالتهاب، والفحوص التصويرية. مفيش داعي تكرر HLA-B27 عشان تتابع النشاط، لأنه صفة جينية مش مقياس بيتغير مع تحسن الوجع أو زيادته [2, 3, 8].",
+            "en": "HLA-B27 is a genetic variant associated with a higher likelihood of axial spondyloarthritis, but it is not a test in which positive means disease and negative means healthy. Many people carry the variant and never develop the disease, while axial spondyloarthritis can occur without it. The prevalence of HLA-B27 and the strength of its association with disease vary between populations, so one percentage does not apply to every country or individual. A positive result adds weight when the history and examination are compatible; a negative result may lower probability in some settings but does not eliminate it [1, 3, 8].\n\nTesting is therefore most useful when a clinician already sees a reasonable clinical possibility and wants another piece of evidence. Using it as broad screening in someone without an inflammatory pain pattern can create anxiety and self-diagnosis without benefit. A positive result does not measure disease severity, predict that the spine will fuse, or select one treatment by itself. It is interpreted alongside age at pain onset, associated features, family history, inflammatory markers and imaging. There is no reason to repeat HLA-B27 to monitor activity because it is a genetic trait, not a measurement that changes as pain improves or worsens [2, 3, 8]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "xray-and-mri",
+          "heading": {
+            "ar": "الأشعة السينية والرنين: كل فحص بيجاوب سؤال مختلف",
+            "en": "X-ray and MRI answer different questions"
+          },
+          "body": {
+            "ar": "الأشعة السينية على المفاصل العجزية الحرقفية بتوضح تغيّرات بنيوية حصلت مع الوقت، لكنها ممكن تبقى طبيعية في مرحلة مبكرة. لو الأشعة العادية مش حاسمة والاشتباه ما زال موجوداً، الرنين المغناطيسي بتسلسلات مناسبة للمفاصل العجزية الحرقفية ممكن يبيّن التهاباً نشطاً قبل ظهور تغيّرات واضحة في الأشعة السينية. إرشادات NICE بتحدد مساراً يبدأ غالباً بالأشعة السينية ثم رنين مخصص لو الأشعة مش بتثبت التهاب المفاصل العجزية، مع قراءة الفحص في سياق الأعراض والفحص [2, 3, 6].\n\nالرنين مش اختباراً منزلياً تطلبه لمجرد أي وجع ظهر، وصورة فيها وذمة أو إشارة عالية مش تشخيصاً وحدها. تغيّرات شبيهة ممكن تظهر لأسباب أخرى، وقراءة المفاصل العجزية الحرقفية محتاجة التقنية والسياق والخبرة المناسبين. وفي الناحية التانية، رنين طبيعي مرة واحدة مش دايماً نهاية التقييم لو الاشتباه السريري قوي؛ الطبيب ممكن يعيد التفكير في التوقيت أو التشخيصات البديلة أو المتابعة. الأشعة المقطعية والسونار ليهم استخدامات محددة، بس مش بديل تلقائي للمسار الموصى به لتقييم المرض المحوري. اختيار الفحص بيتحدد بالسؤال السريري، المرحلة، ونتيجة الفحوص السابقة، مش بفكرة إن الفحص الأغلى هو الأدق لكل شخص [3, 6, 10].",
+            "en": "Plain X-rays of the sacroiliac joints show structural changes that have developed over time, but they may be normal early in the disease. When X-rays are inconclusive and suspicion remains, an MRI with appropriate sacroiliac-joint sequences may show active inflammation before definite X-ray changes appear. NICE guidance describes a pathway that generally begins with sacroiliac X-rays and proceeds to a dedicated MRI when X-rays do not establish sacroiliitis, with every image interpreted in the context of symptoms and examination [2, 3, 6].\n\nMRI is not a self-ordered test for every backache, and an area of oedema or high signal is not a diagnosis by itself. Similar changes can occur for other reasons, so sacroiliac imaging requires appropriate technique, context and experienced interpretation. Conversely, one normal MRI does not always end the assessment if clinical suspicion is strong; the clinician may reconsider timing, alternative diagnoses or follow-up. CT and ultrasound have specific uses, but neither automatically replaces the recommended pathway for evaluating axial disease. The imaging choice depends on the clinical question, stage and prior findings, not on an assumption that the most expensive test is best for everyone [3, 6, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "السونار بيستخدم موجات صوتية، مش أشعة سينية",
+                "url": "../articles/ultrasound-uses-sound-not-xrays.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Ultrasound uses sound waves, not X-rays",
+                "url": "../articles/ultrasound-uses-sound-not-xrays.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "treatment-principles",
+          "heading": {
+            "ar": "مبادئ العلاج: حركة منتظمة وخطة دوائية حسب النشاط",
+            "en": "Treatment principles: regular movement and medication matched to activity"
+          },
+          "body": {
+            "ar": "هدف العلاج هو تقليل الأعراض والالتهاب، الحفاظ على الحركة والوظيفة، ومتابعة تأثير المرض على الحياة. التثقيف والتمرين المنتظم والعلاج الطبيعي أجزاء أساسية من الخطة، مش إضافات بعد الدواء. البرنامج بيتظبط حسب الحالة، وممكن يضم تمارين مرونة وتقوية ووضعية وتنفس ولياقة. الإرشادات الأمريكية بتفضّل تدخلات العلاج الطبيعي النشطة والتمرين تحت إشراف على الوسائل السلبية وحدها، وإرشادات ASAS–EULAR بتحط التمرين والعلاج الطبيعي ضمن المبادئ الأساسية [2, 7, 11, 12].\n\nبالنسبة للدواء، مضادات الالتهاب غير الستيرويدية غالباً بتكون أول خيار دوائي لو مناسبة طبياً، مع تقدير مخاطر المعدة والكلى والقلب والأدوية الأخرى. استمرار نشاط المرض رغم خطة أولية مناسبة ممكن يفتح نقاشاً مع طبيب الروماتيزم عن علاجات موجهة أو بيولوجية؛ الاختيار بيعتمد على نشاط المرض، نتائج موضوعية، استجابة العلاج السابق، وأمراض مصاحبة زي التهاب العين المتكرر أو الصدفية أو التهاب الأمعاء. الأدوية التقليدية المعدّلة للمرض ليها دور محدود في الأعراض المحورية الخالصة، وممكن يكون لها دور مختلف لو فيه التهاب مفاصل طرفية. مفيش هنا جرعات أو اختيار دواء لشخص بعينه، وما ينفعش تبدأ أو توقف أو تغيّر علاج من نفسك [3, 7, 11, 12].",
+            "en": "Treatment aims to reduce symptoms and inflammation, preserve movement and function, and monitor how the disease affects daily life. Education, regular exercise and physiotherapy are core parts of care rather than additions after medication. The programme is tailored and may include flexibility, strengthening, posture, breathing and aerobic work. American guidance favours active physical-therapy interventions and supervised exercise over passive modalities alone, while ASAS–EULAR guidance places exercise and physiotherapy among the central management principles [2, 7, 11, 12].\n\nFor medication, non-steroidal anti-inflammatory drugs are commonly the first pharmacological option when medically suitable, with attention to gastrointestinal, kidney and cardiovascular risks and other medicines. Persistent active disease despite an appropriate initial plan may lead to a rheumatology discussion about targeted or biologic therapy. Selection depends on disease activity, objective findings, response to previous treatment, and associated conditions such as recurrent uveitis, psoriasis or inflammatory bowel disease. Conventional disease-modifying antirheumatic drugs have a limited role in purely axial symptoms, although their role may differ when peripheral joints are inflamed. This article does not provide individual drug selection or doses; do not start, stop or change treatment without the prescribing clinician [3, 7, 11, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "فوائد الحركة أبعد من رقم الميزان",
+                "url": "../articles/movement-benefits-beyond-the-scale.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Movement benefits beyond the scale",
+                "url": "../articles/movement-benefits-beyond-the-scale.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "daily-plan-and-next-step",
+          "heading": {
+            "ar": "إيه اللي تقدر تعمله دلوقتي، وإمتى تحجز؟",
+            "en": "What can you do now, and when should you book?"
+          },
+          "body": {
+            "ar": "لو عندك ألم ظهر مستمر، سجّل لمدة قصيرة وقت الوجع والتيبس، مدة التيبس الصباحي، تأثير الحركة والراحة، وأي ألم ليلي أو أعراض بالعين أو الجلد أو الأمعاء أو الكعب. الملاحظات دي بتخلي الزيارة أدق، بس مش مطلوب تختبر نفسك بقوة أو تعمل تمارين عنيفة عشان «تثبت» النمط. حافظ على حركة لطيفة منتظمة على قد قدرتك، وغيّر القعدة الطويلة، واسأل مختصاً قبل برنامج جديد لو عندك إصابة، ضعف، مشاكل توازن، مرض مزمن مؤثر، أو ألم بيتفاقم مع التمرين. التمرين المناسب بيتدرج، ومش المفروض يتحول لاختبار تحمّل للألم [2, 7, 11].\n\nاحجز تقييماً طبياً لو الوجع بدأ قبل 45 سنة، مستمر أكتر من ثلاثة شهور، وخصوصاً لو بيزيد مع الراحة أو بيصحيك آخر الليل أو معاه تيبس صباحي أو وجع أرداف أو كعب أو عين أو صدفية أو التهاب أمعاء. الفريق الطبي في لاروز يقدر يراجع النمط والفحص ويحدد إذا كان تقييم الروماتيزم أو الفحوص المناسبة مطلوبة، في فرعي المعادي والتجمع الخامس بالقاهرة الجديدة. التقييم مش وعد بتشخيص معين، والهدف اختيار الخطوة المناسبة بهدوء. أما العين الحمراء المؤلمة مع زغللة، أو ضعف جديد بالساقين، أو خدر بمنطقة ما بين الرجلين، أو فقدان التحكم في البول أو البراز، فدي مش حالة حجز روتيني؛ اطلب رعاية عاجلة فوراً [1, 3, 5, 13].",
+            "en": "If back pain persists, keep a short record of when pain and stiffness occur, how long morning stiffness lasts, the effects of movement and rest, and any night pain or eye, skin, bowel or heel symptoms. These notes can make the consultation more precise, but there is no need to test yourself forcefully or do strenuous exercises to “prove” the pattern. Keep gently and regularly active within your ability, break up prolonged sitting, and seek professional advice before a new programme if you have an injury, weakness, balance problems, a relevant chronic condition, or pain that worsens with exercise. Suitable exercise is progressed gradually; it should not become a test of pain tolerance [2, 7, 11].\n\nArrange a medical assessment when pain began before age 45, has persisted for more than three months, and especially when it worsens with rest, wakes you late at night, or accompanies morning stiffness, buttock or heel pain, eye symptoms, psoriasis or inflammatory bowel disease. The medical team at La Rose can review the pattern and examination and decide whether rheumatology assessment or selected tests are appropriate, at the Maadi and Fifth Settlement, New Cairo branches. Assessment is not a promise of a particular diagnosis; its purpose is to choose the next step calmly. A painful red eye with blurred vision, new leg weakness, saddle-area numbness, or loss of bladder or bowel control is not a routine booking matter and needs immediate urgent care [1, 3, 5, 13]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز استشارة مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "إيه أعراض التهاب الفقرات اللاصق في البداية؟",
+            "en": "What are the early symptoms of ankylosing spondylitis?"
+          },
+          "a": {
+            "ar": "البداية الشائعة وجع وتيبس تدريجي في أسفل الظهر أو الأرداف، غالباً قبل سن 45، مع تحسن بالحركة أكتر من الراحة. الوجع ممكن يصحيك في آخر الليل، والتيبس يبقى أوضح الصبح. وجع الكعب، تورم مفصل، عين حمراء مؤلمة، صدفية أو أعراض التهاب أمعاء ممكن يضيفوا للصورة. بس مفيش عرض منفرد يشخّص المرض، وآلام الظهر الميكانيكية أشيع، فالمهم هو النمط الكامل والتقييم [1, 5, 9].",
+            "en": "A common early pattern is gradually developing pain and stiffness in the lower back or buttocks, often before age 45, with more relief from movement than from rest. Pain may wake someone late at night, and stiffness may be most noticeable in the morning. Heel pain, a swollen joint, a painful red eye, psoriasis or inflammatory bowel symptoms can add to the picture. No single symptom diagnoses the disease, however, and mechanical back pain is more common, so the complete pattern and assessment matter [1, 5, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تحليل HLA-B27 الإيجابي معناه عندي التهاب فقرات؟",
+            "en": "Does a positive HLA-B27 test mean I have ankylosing spondylitis?"
+          },
+          "a": {
+            "ar": "لأ. النتيجة الإيجابية معناها إن عندك صفة جينية مرتبطة بزيادة الاحتمال، بس ناس كتير حاملينها ومش عندهم المرض. والنتيجة السالبة برضه مش بتستبعده. الطبيب بيستخدم النتيجة كجزء من الصورة مع نمط الألم، الفحص، التاريخ العائلي، علامات الالتهاب والأشعة. التحليل مش مقياس للشدة، ومش محتاج يتكرر لمتابعة النشاط [1, 3, 8].",
+            "en": "No. A positive result means that you carry a genetic variant associated with greater likelihood, but many carriers never develop the disease. A negative result does not exclude it either. The clinician uses the result as one part of the picture alongside the pain pattern, examination, family history, inflammatory markers and imaging. It does not measure severity and does not need repeating to monitor activity [1, 3, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تحليل الالتهاب الطبيعي يستبعد التهاب الفقار المحوري؟",
+            "en": "Do normal inflammatory markers rule out axial spondyloarthritis?"
+          },
+          "a": {
+            "ar": "لأ. CRP وESR ممكن يكونوا طبيعيين عند بعض الناس المصابين. النتيجة الطبيعية معلومة مفيدة، بس مش حكم نهائي. إرشادات NICE بتقول ما نستبعدش التهاب الفقار المحوري على أساس CRP وESR طبيعيين أو HLA-B27 سلبي. لو النمط مقنع، الطبيب بيكمّل التقييم بالفحص والتصوير المناسب أو المتابعة حسب الحالة [2, 3, 6].",
+            "en": "No. CRP and ESR can be normal in some people with the condition. A normal result is useful information, but it is not a final verdict. NICE guidance says not to rule out axial spondyloarthritis because CRP and ESR are normal or HLA-B27 is negative. When the pattern remains convincing, the clinician continues with examination, appropriate imaging or follow-up according to the individual situation [2, 3, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الرنين المغناطيسي الطبيعي ينفي التهاب الفقرات؟",
+            "en": "Does a normal MRI exclude axial spondyloarthritis?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. الرنين ممكن يوضح التهاباً مبكراً، بس توقيت الفحص وتقنيته وقراءة المفاصل العجزية الحرقفية والسياق السريري كلهم مهمين. ولو الرنين مش مبيّن علامات واضحة مع استمرار اشتباه قوي، الطبيب ممكن يراجع الصور والتشخيصات البديلة ويحدد هل المتابعة أو فحص لاحق مناسب. وفي المقابل، علامة منفردة في الرنين مش كفاية وحدها للتشخيص [3, 6, 10].",
+            "en": "Not necessarily. MRI can show early inflammation, but the timing, technique, interpretation of the sacroiliac joints and clinical context all matter. If MRI lacks clear findings while suspicion remains strong, the clinician may review the images and alternative diagnoses and decide whether follow-up or later imaging is appropriate. Conversely, one isolated MRI feature is not sufficient by itself to make the diagnosis [3, 6, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل التهاب الفقرات اللاصق له علاج نهائي؟",
+            "en": "Can ankylosing spondylitis be cured completely?"
+          },
+          "a": {
+            "ar": "مفيش علاج بيمسح المرض نهائياً، بس فيه خطط بتساعد تقلل الأعراض والالتهاب وتحافظ على الحركة والوظيفة. الخطة عادة بتجمع تمريناً وعلاجاً طبيعياً مع دواء مناسب للنشاط والحالة الصحية، والمتابعة بتراجع الاستجابة والأعراض المصاحبة. كلمة «لاصق» مش معناها إن الالتحام حتمي لكل شخص، والاستجابة والمسار بيختلفوا [1, 2, 7, 12].",
+            "en": "There is no treatment that removes the disease permanently, but care can reduce symptoms and inflammation and preserve movement and function. A plan usually combines exercise and physiotherapy with medication suited to disease activity and general health, while follow-up reviews response and associated features. The word “ankylosing” does not mean that fusion is inevitable for every person; response and course vary [1, 2, 7, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل التمرين يضر التهاب الفقرات اللاصق؟",
+            "en": "Can exercise harm someone with ankylosing spondylitis?"
+          },
+          "a": {
+            "ar": "التمرين المنتظم المناسب جزء أساسي من العلاج، وممكن يساعد الحركة والوضعية والقوة واللياقة. الأفضل إن البرنامج يتفصل حسب قدرتك ونشاط المرض وأي مشاكل بالمفاصل أو التوازن، مع تدرج بدل الضغط المفاجئ. لو فيه ألم حاد جديد، إصابة، ضعف عصبي، أو تمرين بيزود الأعراض بوضوح، وقف النشاط المسبب واطلب تقييماً بدل ما تكمل بالقوة [2, 7, 11, 12].",
+            "en": "Appropriate regular exercise is a core part of treatment and can support mobility, posture, strength and fitness. The programme should be tailored to ability, disease activity, and any joint or balance problems, with gradual progression rather than sudden loading. If there is new severe pain, an injury, neurological weakness, or an exercise clearly worsens symptoms, stop the provoking activity and seek assessment rather than pushing through [2, 7, 11, 12]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIAMS — Ankylosing Spondylitis",
+          "url": "https://www.niams.nih.gov/health-topics/ankylosing-spondylitis"
+        },
+        {
+          "label": "NIAMS — Ankylosing Spondylitis: Diagnosis, Treatment, and Steps to Take",
+          "url": "https://www.niams.nih.gov/health-topics/ankylosing-spondylitis/diagnosis-treatment-and-steps-to-take"
+        },
+        {
+          "label": "NICE — Spondyloarthritis in over 16s: diagnosis and management — Recommendations",
+          "url": "https://www.nice.org.uk/guidance/ng65/chapter/Recommendations"
+        },
+        {
+          "label": "NHS — Ankylosing spondylitis",
+          "url": "https://www.nhs.uk/conditions/ankylosing-spondylitis/"
+        },
+        {
+          "label": "NHS — Ankylosing spondylitis: Symptoms",
+          "url": "https://www.nhs.uk/conditions/ankylosing-spondylitis/symptoms/"
+        },
+        {
+          "label": "NHS — Ankylosing spondylitis: Diagnosis",
+          "url": "https://www.nhs.uk/conditions/ankylosing-spondylitis/diagnosis/"
+        },
+        {
+          "label": "NHS — Ankylosing spondylitis: Treatment",
+          "url": "https://www.nhs.uk/conditions/ankylosing-spondylitis/treatment/"
+        },
+        {
+          "label": "MedlinePlus Genetics — Ankylosing spondylitis",
+          "url": "https://medlineplus.gov/genetics/condition/ankylosing-spondylitis/"
+        },
+        {
+          "label": "New criteria for inflammatory back pain in patients with chronic back pain: a real patient exercise by experts from the Assessment of SpondyloArthritis international Society (ASAS)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19147614/"
+        },
+        {
+          "label": "ACR Appropriateness Criteria® Inflammatory Back Pain: Known or Suspected Axial Spondyloarthritis: 2021 Update",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34794593/"
+        },
+        {
+          "label": "2019 Update of the American College of Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment Network Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31436026/"
+        },
+        {
+          "label": "ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36270658/"
+        },
+        {
+          "label": "NHS — Ankylosing spondylitis: Complications",
+          "url": "https://www.nhs.uk/conditions/ankylosing-spondylitis/complications/"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "التهاب الفقرات اللاصق وألم الظهر الالتهابي",
+          "en": "Ankylosing spondylitis and inflammatory back pain"
+        },
+        "description": {
+          "ar": "اعرف الفرق بين ألم الظهر الالتهابي والميكانيكي، ومعنى HLA-B27، ودور الأشعة والرنين والتمرين والعلاج في التهاب الفقرات اللاصق.",
+          "en": "Learn how inflammatory back pain differs from mechanical pain, what HLA-B27 means, and how imaging, exercise and treatment guide axial SpA care."
+        }
+      }
+    }
+  ]
+}

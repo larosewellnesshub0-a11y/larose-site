@@ -1,0 +1,324 @@
+{
+  "_note": "Phase 3 new article (2026-10-01). Explains how to read TSH with free T4/T3 and how thyroid nodules found on ultrasound are assessed; deliberately keeps weight and thyroid-dose decisions brief and links to their dedicated guides.",
+  "articles": [
+    {
+      "slug": "tsh-thyroid-test-results",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "internal-medicine",
+      "specialties": [
+        "internal-medicine"
+      ],
+      "date": "2026-10-01",
+      "updatedAt": "2026-10-01",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-sherif",
+      "image": "assets/img/articles/tsh-thyroid-test-results-cover.webp",
+      "title": {
+        "ar": "تحليل الغدة الدرقية TSH: إزاي تفهم النتيجة؟",
+        "en": "TSH thyroid test results: how to understand them"
+      },
+      "excerpt": {
+        "ar": "دليل هادي لقراءة TSH مع Free T4 وT3، وفهم الفرق بين كسل ونشاط الغدة، وإمتى عقدة السونار تحتاج متابعة من غير قلق زائد.",
+        "en": "A calm guide to reading TSH with free T4 and T3, understanding underactive and overactive patterns, and knowing how an ultrasound nodule is assessed."
+      },
+      "tags": {
+        "ar": [
+          "تحليل الغدة الدرقية TSH",
+          "TSH عالي",
+          "TSH منخفض",
+          "Free T4",
+          "نشاط الغدة الدرقية",
+          "كسل الغدة الدرقية",
+          "عقد الغدة الدرقية"
+        ],
+        "en": [
+          "TSH test",
+          "high TSH",
+          "low TSH",
+          "free T4",
+          "hyperthyroidism",
+          "hypothyroidism",
+          "thyroid nodules"
+        ]
+      },
+      "sections": [
+        {
+          "id": "tsh-is-one-part-of-the-picture",
+          "heading": {
+            "ar": "تحليل TSH بيقول إيه، وليه رقم واحد مش كفاية؟",
+            "en": "What TSH tells you, and why one number is not enough"
+          },
+          "body": {
+            "ar": "تحليل الغدة الدرقية TSH هو غالباً أول تحليل بيتطلب عشان نعرف وظيفة الغدة. TSH بيتصنع في الغدة النخامية، وبيبعث إشارة للغدة الدرقية عشان تنتج هرموني T4 وT3. لما الهرمونات تقل، النخامية عادة بتزوّد الإشارة؛ ولما الهرمونات تعلى، الإشارة عادة بتقل. عشان كده الاتجاه العام بسيط: TSH عالي ممكن يمشي مع كسل الغدة، وTSH منخفض ممكن يمشي مع نشاطها. بس كلمة «ممكن» هنا مهمة، لأن الرقم لوحده ما يحددش السبب ولا يختار العلاج [2, 3, 4].\n\nالمدى المرجعي مطبوع جنب نتيجتك، وممكن يختلف شوية من معمل لمعمل حسب طريقة القياس. الحمل، السن، مرض حاد، أدوية معينة، مشكلة نادرة في الغدة النخامية، أو حتى تداخل في التحليل ممكن يغيّر طريقة القراءة. عشان كده ما تقارنش رقمك بصورة تقرير على الإنترنت، وما تعتبرش السهم الأحمر تشخيص كامل. اللي بيتقري فعلاً هو TSH مع Free T4، وأحياناً Free T3، ومعاهم الأعراض والتاريخ والأدوية والنتائج القديمة [1, 2, 4].\n\nفي أغلب البالغين اللي مفيش عندهم اشتباه في مشكلة بالنخامية، NICE بتنصح بالبدء بـTSH. لو طلع أعلى من مدى المعمل، بيتقاس Free T4 في نفس العينة؛ ولو طلع أقل، بيتقاس Free T4 وFree T3. لو فيه احتمال لمشكلة في النخامية، البداية نفسها بتختلف وبيتطلب TSH مع Free T4. ده يوضح ليه «باكدج الغدة» مش قائمة ثابتة مناسبة لكل شخص، وليه الطبيب ممكن يطلب تحليل إضافي بدل ما يدي حكم من أول رقم [1].",
+            "en": "TSH is usually the first blood test used to assess thyroid function. It is produced by the pituitary gland and signals the thyroid to make the hormones T4 and T3. When circulating thyroid hormone falls, the pituitary usually increases that signal; when thyroid hormone rises, the signal usually falls. The broad pattern is therefore straightforward: a high TSH can accompany an underactive thyroid, while a low TSH can accompany an overactive thyroid. The word “can” matters, because TSH alone neither establishes the cause nor selects the treatment [2, 3, 4].\n\nYour report prints a reference range beside the result, and that range can vary somewhat between laboratories and methods. Pregnancy, age, acute illness, certain medicines, an uncommon pituitary problem, or assay interference can change how a value should be read. Do not compare your result with a screenshot online or treat a red arrow as a complete diagnosis. Interpretation brings TSH together with free T4, sometimes free T3, symptoms, medical history, medicines, and earlier results [1, 2, 4].\n\nFor most adults without suspected pituitary disease, NICE advises starting with TSH. If TSH is above the laboratory range, free T4 is measured in the same sample; if TSH is below range, both free T4 and free T3 are measured. When pituitary disease is possible, the initial testing differs and includes TSH with free T4. This is why a “thyroid panel” is not one fixed list for everyone, and why a clinician may request another result rather than making a judgment from the first number [1]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "high-tsh-patterns",
+          "heading": {
+            "ar": "TSH عالي: إمتى يمشي مع كسل الغدة؟",
+            "en": "High TSH: when does it fit an underactive thyroid?"
+          },
+          "body": {
+            "ar": "لو TSH عالي وFree T4 منخفض، النمط ده غالباً يتماشى مع قصور أولي واضح في الغدة الدرقية. كلمة «أولي» معناها إن المشكلة في الغدة نفسها، فالنخامية بتزوّد TSH وهي بتحاول تحفّزها. الأعراض الممكنة تشمل تعب، إحساس بالبرد، إمساك، جفاف جلد، بطء، ضعف تركيز أو زيادة وزن. بس الأعراض دي شائعة جداً وليها أسباب كتير؛ وجود عرض واحد مش إثبات، وغياب الأعراض ما يلغيّش نتيجة محتاجة مراجعة [2, 5, 7].\n\nلو TSH عالي لكن Free T4 لسه جوه مدى المعمل، النمط بيتسمى قصور تحت إكلينيكي. الاسم ده وصف للتحاليل، مش حكم إن كل تعب سببه الغدة، ومش أمر تلقائي ببدء دواء. الطبيب بيبص لدرجة الارتفاع، وهل اتكرر، والأعراض، والسن، والتاريخ القلبي، والأجسام المضادة، والحمل أو التخطيط له لو ده ينطبق. NICE بتوصي أحياناً بإعادة TSH وFree T4 ومناقشة الصورة كاملة قبل قرار العلاج، وبتذكر إن إعادة التحليل بسبب أعراض جديدة أو أسوأ ما تكونش قبل ستة أسابيع من آخر اختبار [1].\n\nنادرًا، Free T4 ممكن يبقى منخفض وTSH مش عالي بالشكل المتوقع. النمط ده ما ينفعش يتصنف ككسل أولي بالطريقة المعتادة، وممكن يخلّي الطبيب يفكر في النخامية أو ظروف تانية ويطلب تقييماً موجهاً. الفكرة العملية إنك ما تعتمدش على خانة TSH لوحدها. احتفظ بالتقرير كامل، وباسم المعمل وتاريخ السحب، وما تبدأش هرمون غدة أو تغيّر جرعة موجودة من نفسك. قرار الجرعة له دليل منفصل، وزاوية الوزن لها دليل مخصص بدل ما نحول كل قراءة غير طبيعية لخطة تخسيس [1, 3, 5].",
+            "en": "When TSH is high and free T4 is low, the pattern usually fits overt primary hypothyroidism. “Primary” means the problem is in the thyroid itself, so the pituitary raises TSH in an attempt to stimulate it. Possible symptoms include fatigue, cold intolerance, constipation, dry skin, slower thinking, difficulty concentrating, or weight gain. These symptoms are very common and have many causes, however; one symptom is not proof, and an absence of symptoms does not erase a result that needs review [2, 5, 7].\n\nWhen TSH is high but free T4 remains within the laboratory range, the biochemical pattern is called subclinical hypothyroidism. That name describes the tests; it does not mean every symptom comes from the thyroid or that medicine must automatically start. A clinician considers the degree and persistence of the elevation, symptoms, age, cardiovascular history, antibodies, and pregnancy or pregnancy planning where relevant. NICE sometimes recommends repeating TSH and free T4 and reviewing the whole picture before treatment; it also advises that retesting prompted by new or worsening symptoms should be no sooner than six weeks after the last test [1].\n\nLess commonly, free T4 can be low without the expected high TSH. That pattern should not be labelled primary hypothyroidism in the usual way and may prompt targeted assessment for a pituitary problem or another circumstance. The practical point is not to rely on the TSH box alone. Keep the full report, laboratory name, and sampling date, and do not start thyroid hormone or change an existing dose independently. Dose decisions have their own guide, while the weight question belongs in a dedicated article rather than turning every abnormal result into a weight-loss plan [1, 3, 5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "كسل الغدة وزيادة الوزن",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              },
+              {
+                "label": "هل جرعة الغدة تغيّر الوزن؟",
+                "url": "../articles/qa-thyroid-dose-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "hypothyroidism and weight gain",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              },
+              {
+                "label": "does a thyroid dose change weight?",
+                "url": "../articles/qa-thyroid-dose-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "low-tsh-patterns",
+          "heading": {
+            "ar": "TSH منخفض: دور Free T4 وFree T3",
+            "en": "Low TSH: the role of free T4 and free T3"
+          },
+          "body": {
+            "ar": "لو TSH منخفض وFree T4 أو Free T3 عالي، النمط ممكن يتماشى مع زيادة هرمونات الغدة أو فرط النشاط. الجسم ساعتها بيقلّل إشارة TSH لأنه شايف هرمون أكتر من احتياجه. T3 مفيد هنا لأن بعض حالات النشاط ممكن يظهر فيها T3 عالي بينما T4 لسه داخل المدى. بعد إثبات النمط، تحاليل الأجسام المضادة أو فحوص تانية ممكن تساعد الطبيب يفرّق بين أسباب زي مرض جريفز، عقدة بتنتج هرمون، أو التهاب مؤقت؛ TSH وحده ما يقولش أنهي سبب موجود [1, 2, 3].\n\nلو TSH منخفض وFree T4 وFree T3 داخل مدى المعمل، النمط بيتسمى فرط نشاط تحت إكلينيكي. برضه ده وصف للتحاليل، ومحتاج تأكيد وسياق بدل علاج تلقائي. NICE تقترح طلب رأي متخصص في حالات معينة لما الانخفاض الشديد يتكرر في قراءتين بينهما وقت كفاية ومعاه دليل أو أعراض للغدة. كمان جرعة هرمون تعويضية أعلى من الاحتياج ممكن تقلّل TSH، وعشان كده الطبيب بيراجع الجرعة وطريقة الاستخدام بدل ما يفترض سبب جديد فوراً [1, 4, 6].\n\nأعراض النشاط الممكنة تشمل خفقان أو نبض سريع، رعشة، حرارة وتعرّق، قلق، صعوبة نوم، ضعف عضلات، إسهال أو نزول وزن رغم شهية كويسة. مش لازم كل الأعراض تظهر، وممكن تظهر أعراض مختلفة عند الكبار. وفي الناحية التانية، القلق أو الخفقان لوحدهم ما يثبتوش نشاط الغدة. التحليل بيساعد يفرّق، وبعده الطبيب بيحدد السبب لأن العلاج مش واحد لكل أسباب زيادة الهرمون [6, 8].",
+            "en": "When TSH is low and free T4 or free T3 is high, the pattern can fit excess thyroid hormone or hyperthyroidism. The body reduces the TSH signal because it detects more thyroid hormone than it needs. T3 is useful here because in some cases of hyperthyroidism T3 can be elevated while T4 remains within range. Once the pattern is confirmed, antibody tests or other investigations may help distinguish causes such as Graves’ disease, a hormone-producing nodule, or transient thyroiditis; TSH alone cannot identify which cause is present [1, 2, 3].\n\nWhen TSH is low while free T4 and free T3 stay within the laboratory range, the pattern is called subclinical hyperthyroidism. Again, this is a biochemical description that needs confirmation and context rather than automatic treatment. NICE suggests specialist advice in selected cases when a markedly low TSH persists on two appropriately separated readings together with evidence or symptoms of thyroid disease. A thyroid-hormone replacement dose that exceeds current needs can also suppress TSH, so a clinician reviews the dose and how it is taken instead of immediately assuming a new disease [1, 4, 6].\n\nPossible symptoms of hyperthyroidism include palpitations or a fast heart rate, tremor, heat intolerance and sweating, anxiety, poor sleep, muscle weakness, diarrhoea, or weight loss despite a good appetite. Not everyone develops every feature, and older adults may present differently. Conversely, anxiety or palpitations alone do not prove an overactive thyroid. Blood tests help separate possibilities, after which the clinician identifies the cause because treatment is not identical for every source of excess hormone [6, 8]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "symptoms-context-and-urgent-signs",
+          "heading": {
+            "ar": "الأعراض بتكمّل التحليل، وإمتى ما تستناش؟",
+            "en": "Symptoms complete the test result, and when not to wait"
+          },
+          "body": {
+            "ar": "نتيجة الغدة مش مسابقة أرقام. الطبيب بيسأل إمتى الأعراض بدأت، هل بتتغير بسرعة، وهل فيه تورم في الرقبة، مرض مناعي، ولادة قريبة، دواء جديد أو علاج غدة قائم. بيقيس النبض والضغط ويفحص الرقبة، وبيربط ده كله بالتحليل. تعب بسيط، إمساك أو تغيّر وزن لوحدهم ما يثبتوش القصور؛ ونفس الكلام على قلق أو تعرّق لوحدهم بالنسبة للنشاط. تجميع القصة بيقلّل التشخيص الغلط والتحميل الزائد على نتيجة واحدة [1, 5, 6].\n\nمعظم نتائج TSH غير الطبيعية بتتراجع في ميعاد عيادة عادي، ومش معناها طوارئ. بس اطلب رعاية عاجلة لو شخص معروف إن عنده نشاط غدة حصل له نبض سريع جداً مع حرارة عالية وهياج أو لخبطة أو تغيّر في الوعي؛ دي علامات مذكورة في أزمة الغدة الدرقية النادرة. وبرضه انخفاض الوعي أو بطء التنفس أو انخفاض حرارة الجسم عند شخص عنده قصور شديد محتاج رعاية فورية. العلامات دي نادرة، ومش بيتم تشخيصها من مقال، لكنها مش مناسبة للانتظار على تحليل روتيني [13, 14].\n\nلو النتيجة غير طبيعية لكن حالتك مستقرة، اجمع التقارير القديمة واكتب كل الأدوية والمكملات وميعاد آخر جرعة. ما توقفش علاج موصوف، وما تزودش أو تقلل هرمون الغدة من نفسك. لو عندك خفقان جديد مستمر، تغيّر واضح في النبض، أو أعراض بتزيد، تواصل مع طبيبك حتى لو رقم TSH مش بعيد قوي عن مدى المعمل؛ الأمان بيتحدد من الحالة كاملة، والقراءة القريبة من المدى ما تستبعدش الحاجة للمراجعة [1, 4, 6, 14].",
+            "en": "A thyroid result is not a numbers contest. The clinician asks when symptoms began, whether they are changing quickly, and whether there is neck swelling, autoimmune disease, a recent birth, a new medicine, or established thyroid treatment. Pulse and blood pressure may be checked, the neck examined, and the findings connected with the laboratory pattern. Mild fatigue, constipation, or weight change alone do not prove hypothyroidism; anxiety or sweating alone do not prove hyperthyroidism. Building the whole story reduces misdiagnosis and overinterpretation of one value [1, 5, 6].\n\nMost abnormal TSH results can be reviewed in a routine appointment and do not signal an emergency. Seek urgent care if someone known to have hyperthyroidism develops a very fast heartbeat with high fever, agitation, confusion, or altered consciousness; these are described warning signs of the uncommon emergency called thyroid storm. Reduced consciousness, slowed breathing, or a low body temperature in someone with severe hypothyroidism also requires immediate care. These situations are rare and cannot be diagnosed from an article, but they are not appropriate for waiting on a routine blood test [13, 14].\n\nIf the result is abnormal but you are stable, gather earlier reports and write down every medicine and supplement with the timing of the last dose. Do not stop prescribed treatment or raise or lower thyroid hormone independently. Contact your clinician for new persistent palpitations, a clear heart-rate change, or worsening symptoms even when TSH is not far outside the laboratory range; safety depends on the full clinical picture, not the distance between the number and the reference arrow [1, 4, 6, 14]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "results-that-do-not-fit",
+          "heading": {
+            "ar": "قبل ما تفسّر النتيجة: أدوية، بيوتين، مرض حاد وتوقيت التحليل",
+            "en": "Before interpreting: medicines, biotin, acute illness, and timing"
+          },
+          "body": {
+            "ar": "أحياناً الورقة ما تركبش على الأعراض، وده مش معناه إنك تتجاهلها أو تبدأ علاج بسرعة. مكمل البيوتين الموجود في بعض منتجات الشعر والأظافر ممكن يخلّي بعض تحاليل الغدة تظهر عالية أو منخفضة بشكل مضلل. NICE بتنصح إنك تقول للطبيب عن استهلاك البيوتين، والجمعية الأمريكية للغدة بتشرح إن التداخل ممكن يخلي التحاليل تبان غير طبيعية وهي في الحقيقة طبيعية. بدل ما توقف أي مكمل أو دواء عشوائياً، اذكر الاسم والجرعة للطبيب أو المعمل واتبع تعليماتهم قبل السحب [1, 3].\n\nالمرض الحاد نفسه ممكن يغيّر TSH أو هرمونات الغدة لفترة، وأدوية معينة ممكن تأثر على النتيجة أو على وظيفة الغدة. الحمل كمان له طريقة تفسير ومديات مناسبة لمرحلته. ولو بتاخد ليفوثيروكسين، توقيت الجرعة، الانتظام، وتداخل الحديد أو الكالسيوم وأدوية تانية مع الامتصاص ممكن يفسّر اتجاه النتيجة. عشان كده الطبيب بيسأل «العينة اتسحبت إمتى وبالنسبة للدواء إمتى؟» بدل ما يبص للرقم من غير سياقه [1, 2, 3, 4, 14].\n\nإعادة التحليل بتفيد لما يكون فيه سبب منطقي: تأكيد نمط بسيط، مراجعة بعد تغيير علاجي، أو نتيجة مش ماشية مع الحالة. بس التكرار بعد أيام قليلة من غير سبب ممكن يضيف اختلاف طبيعي من غير ما يحسم حاجة. NICE بتنصح بألا تتعاد اختبارات الاشتباه بسبب أعراض جديدة أو أسوأ قبل ستة أسابيع من الاختبار السابق. المدة دي مش قاعدة لكل متابعة علاج أو لكل حمل؛ الطبيب بيحدد التوقيت على حسب السؤال والحالة [1].",
+            "en": "Sometimes the laboratory pattern does not fit the symptoms. That is not a reason to ignore it or to begin treatment quickly. Biotin in some hair and nail supplements can make certain thyroid tests appear misleadingly high or low. NICE advises telling the clinician about biotin intake, and the American Thyroid Association explains that interference can make thyroid tests look abnormal when circulating levels are actually normal. Rather than stopping any medicine or supplement at random, give the clinician or laboratory the name and dose and follow their instructions before sampling [1, 3].\n\nAcute illness itself can temporarily alter TSH or thyroid hormone results, while certain medicines can affect either the assay or thyroid function. Pregnancy also requires interpretation appropriate to its stage. If you take levothyroxine, dose timing, adherence, and reduced absorption from iron, calcium, or other medicines can help explain a trend. A clinician therefore asks when the sample was taken in relation to treatment instead of viewing the number without context [1, 2, 3, 4, 14].\n\nRepeating a test is useful when there is a clear reason: confirming a mild pattern, reviewing a treatment change, or checking a result that does not fit the clinical picture. Repetition after only a few days without a reason can add normal variation without settling the question. NICE advises that thyroid testing prompted by new or worsening symptoms should not be repeated sooner than six weeks after the previous test. That interval is not a universal rule for every treatment review or pregnancy; the clinician chooses timing according to the specific question and circumstances [1]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "thyroid-nodules-on-ultrasound",
+          "heading": {
+            "ar": "لو السونار لقى عقدة: ده مختلف عن وظيفة الغدة",
+            "en": "If ultrasound finds a nodule: structure is different from function"
+          },
+          "body": {
+            "ar": "السونار بيشوف شكل الغدة وتركيبها، لكنه ما يقدرش يقول لو الغدة كسولة أو نشيطة؛ وظيفة الغدة بتتقيّم بتحاليل الدم. ممكن يبقى TSH طبيعي والسونار يلاقي عقدة، وممكن التحليل يبقى غير طبيعي من غير عقدة مهمة في الصورة. عشان كده ما ينفعش نستبدل واحد بالتاني. العقد الدرقية شائعة، ومعظمها حميد، واكتشاف كلمة «عقدة» مش معناه سرطان ولا معناه خزعة فورية [9, 10].\n\nطبيب الأشعة بيصف حجم العقدة وتركيبها وحدودها وشكلها وبؤرها اللامعة، وبيستخدم نظام تصنيف زي TI-RADS عشان يرتّب درجة الاشتباه ويوحّد التقرير. قرار المتابعة أو أخذ عينة بإبرة رفيعة بيعتمد على صفات السونار مع الحجم والسياق، مش على الحجم لوحده ولا على رقم TI-RADS من غير باقي التقرير. نظام ACR TI-RADS اتعمل لتوجيه إدارة العقد حسب مظهرها في السونار، وإرشادات الجمعية الأمريكية للغدة بتربط التقييم الأولي وصفات السونار بمعايير أخذ العينة والمتابعة [11, 12].\n\nلو التقرير اقترح متابعة، ده غالباً معناه إن المقارنة بمرور الوقت هي الخطوة المناسبة، مش إن فيه تشخيص خطير مؤكد. ولو اقترح خزعة، العينة بتستخدم خلايا من العقدة عشان التقييم المجهري؛ السونار لوحده مش دايماً يقدر يفرّق بيقين كامل بين الحميد والخبيث. اطلب مراجعة أسرع لو كتلة الرقبة بتكبر بسرعة، أو ظهر بحة مستمرة، صعوبة بلع أو ضيق نفس. العلامات دي ما تثبتش سرطان، لكنها أسباب واضحة إن التقييم ما يتأجلش [1, 9, 10].",
+            "en": "Ultrasound examines the thyroid’s structure and appearance, but it cannot determine whether the gland is underactive or overactive; function is assessed with blood tests. TSH can be normal while ultrasound finds a nodule, and thyroid tests can be abnormal without an important nodule on imaging. One test therefore does not replace the other. Thyroid nodules are common and most are benign, so the word “nodule” does not mean cancer or an immediate biopsy [9, 10].\n\nThe radiologist describes a nodule’s size, composition, margins, shape, and echogenic foci, and may use a system such as TI-RADS to standardise the report and stratify suspicion. Decisions about follow-up or fine-needle aspiration use the ultrasound features together with size and clinical context, not size alone or a TI-RADS number detached from the rest of the report. ACR TI-RADS was designed to guide management according to sonographic appearance, while American Thyroid Association guidelines connect initial evaluation and ultrasound patterns with biopsy and follow-up criteria [11, 12].\n\nWhen the report recommends surveillance, that often means comparison over time is the appropriate next step, not that a dangerous diagnosis has been confirmed. When it recommends biopsy, a fine needle obtains cells for microscopic assessment because ultrasound cannot always distinguish benign from malignant tissue with complete certainty. Request earlier review for a neck lump that is growing quickly, persistent hoarseness, difficulty swallowing, or breathlessness. These findings do not prove cancer, but they are clear reasons not to delay assessment [1, 9, 10]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "السونار بيستخدم موجات صوت مش أشعة",
+                "url": "../articles/ultrasound-uses-sound-not-xrays.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "ultrasound uses sound waves, not X-rays",
+                "url": "../articles/ultrasound-uses-sound-not-xrays.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "prepare-for-a-useful-review",
+          "heading": {
+            "ar": "إزاي تجهّز لمراجعة مفيدة للنتيجة؟",
+            "en": "How to prepare for a useful result review"
+          },
+          "body": {
+            "ar": "خد معاك التقرير كامل مش رقم TSH مكتوب في رسالة. جهّز نتائج TSH وFree T4 وFree T3 القديمة لو موجودة، وقائمة بكل دواء ومكمل وجرعته، واذكر البيوتين تحديداً. اكتب باختصار الأعراض بدأت إمتى، وهل فيه خفقان، تغير في تحمل الحر أو البرد، إمساك أو إسهال، تغير في النوم، تورم رقبة أو علاج غدة سابق. لو عندك سونار، خد التقرير والصور القديمة عشان المقارنة بدل ما تبدأ من الصفر [1, 2, 3].\n\nالأسئلة المفيدة بسيطة: هل النمط يشير لقصور أو نشاط، ولا محتاج إعادة؟ هل فيه ظرف ممكن يكون غيّر النتيجة؟ هل تحليل الأجسام المضادة أو فحص تاني هيجاوب عن سؤال محدد؟ ولو فيه عقدة، إيه تصنيفها، وهل المطلوب متابعة ولا عينة، وفي أي توقيت؟ ما تغيّرش دواء من نفسك قبل ما تعرف الإجابات. وجود نتيجة طبيعية ما معناهش إن الأعراض مش موجودة؛ معناها بس إن الطبيب محتاج يدور على تفسير تاني بدل ما ينسب كل حاجة للغدة [1, 2, 11, 12].\n\nلو محتاج تربط النتيجة بالأعراض والتاريخ والأدوية، الفريق الطبي في لاروز يقدر يراجع الصورة كاملة في استشارة بفرع المعادي أو فرع التجمع الخامس بالقاهرة الجديدة. هات تقاريرك السابقة وقائمة العلاج، واطلب خطة مكتوبة توضح هل محتاج إعادة تحليل، متابعة سونار، أو خطوة تانية. الحجز مناسب للحالات المستقرة؛ أما علامات الطوارئ المذكورة فوق فمكانها رعاية عاجلة من غير انتظار ميعاد [1, 13, 14].",
+            "en": "Bring the complete report rather than a TSH number copied into a message. Gather earlier TSH, free T4, and free T3 results if available, plus every medicine and supplement with its dose, and mention biotin specifically. Briefly note when symptoms began and whether there are palpitations, changes in heat or cold tolerance, constipation or diarrhoea, sleep changes, neck swelling, or previous thyroid treatment. If you have an ultrasound, bring the report and earlier images for comparison instead of starting from zero [1, 2, 3].\n\nUseful questions are simple: Does the pattern suggest underactivity or overactivity, or should it be repeated? Could a circumstance have altered the result? Would an antibody test or another investigation answer a defined question? If there is a nodule, what is its category, and is surveillance or sampling recommended, and when? Do not change medicine independently before getting those answers. A normal result does not dismiss your symptoms either; it means the clinician should consider another explanation rather than attributing everything to the thyroid [1, 2, 11, 12].\n\nIf you need to connect the result with symptoms, history, and medicines, the medical team at La Rose can review the complete picture at the Maadi or Fifth Settlement, New Cairo branch. Bring earlier reports and your treatment list, and ask for a written plan stating whether repeat blood tests, ultrasound follow-up, or another step is appropriate. Booking is for stable situations; the urgent warning signs described above require prompt care rather than waiting for an appointment [1, 13, 14]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز استشارة مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a consultation with the medical team",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "TSH عالي معناه كسل الغدة على طول؟",
+            "en": "Does a high TSH always mean an underactive thyroid?"
+          },
+          "a": {
+            "ar": "مش على طول. TSH العالي مع Free T4 المنخفض غالباً يمشي مع قصور أولي واضح، بينما TSH العالي مع Free T4 الطبيعي يوصف كقصور تحت إكلينيكي وبيحتاج قراءة للسياق وأحياناً إعادة التحليل. مرض حاد، أدوية، الحمل أو مشكلة نادرة في النخامية ممكن تغيّر التفسير، عشان كده التقرير كامل أهم من رقم منفرد [1, 2, 4].",
+            "en": "Not always. High TSH with low free T4 usually fits overt primary hypothyroidism, while high TSH with free T4 in range is described as subclinical hypothyroidism and needs contextual review and sometimes repeat testing. Acute illness, medicines, pregnancy, or an uncommon pituitary problem can change interpretation, so the complete report matters more than an isolated number [1, 2, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "TSH منخفض معناه نشاط الغدة؟",
+            "en": "Does a low TSH mean hyperthyroidism?"
+          },
+          "a": {
+            "ar": "ممكن، بس لازم يتقري مع Free T4 وFree T3. لو واحد منهم عالي، النمط يمشي أكتر مع زيادة هرمونات الغدة. لو الاتنين طبيعيين، ممكن يبقى نشاط تحت إكلينيكي أو تأثير علاج أو ظرف تاني ويحتاج تأكيد. تحليل T3 مفيد خصوصاً لما النشاط متوقع وT4 لسه طبيعي [1, 2, 3].",
+            "en": "It can, but it must be read with free T4 and free T3. If either is high, the pattern is more consistent with excess thyroid hormone. If both remain in range, subclinical hyperthyroidism, treatment effects, or another circumstance may need confirmation. T3 is particularly useful when hyperthyroidism is suspected but T4 remains normal [1, 2, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أعمل T3 ولا Free T4 مع تحليل TSH؟",
+            "en": "Should T3 or free T4 be checked with TSH?"
+          },
+          "a": {
+            "ar": "في أغلب البالغين يبدأ التقييم بـTSH. لو عالي، Free T4 هو التحليل الإضافي المعتاد؛ ولو منخفض، بيتقاس Free T4 وFree T3. T3 نادراً ما يساعد في تشخيص القصور لأنه بيتأخر في التغيّر، لكنه ممكن يساعد في تأكيد النشاط لما T4 يكون طبيعي. الطبيب يغيّر الخطة لو فيه اشتباه في مشكلة بالنخامية [1, 2, 3].",
+            "en": "For most adults, assessment starts with TSH. If it is high, free T4 is the usual additional test; if it is low, free T4 and free T3 are measured. T3 is rarely helpful for diagnosing hypothyroidism because it changes later, but it can help confirm hyperthyroidism when T4 is normal. The clinician changes the approach if pituitary disease is suspected [1, 2, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تحليل الغدة محتاج صيام؟",
+            "en": "Does a thyroid blood test require fasting?"
+          },
+          "a": {
+            "ar": "تحليل TSH نفسه عادة مش محتاج صيام، بس ممكن يكون معاه تحاليل تانية ليها تعليمات مختلفة. الأهم تقول للمعمل والطبيب عن الأدوية والمكملات، خصوصاً البيوتين، وما توقفش حاجة موصوفة من نفسك. لو بتاخد علاج غدة، اسأل عن توقيت الجرعة بالنسبة لسحب العينة عشان المقارنة تبقى مفيدة [1, 3, 4].",
+            "en": "TSH itself usually does not require fasting, although other tests ordered with it may have different instructions. Tell the laboratory and clinician about medicines and supplements, especially biotin, and do not stop prescribed treatment independently. If you take thyroid hormone, ask how to time the dose in relation to sampling so comparisons remain useful [1, 3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "عقدة الغدة في السونار معناها سرطان؟",
+            "en": "Does a thyroid nodule on ultrasound mean cancer?"
+          },
+          "a": {
+            "ar": "لأ. عقد الغدة شائعة ومعظمها حميد. التقرير بيقيّم صفات العقدة وحجمها وقد يستخدم TI-RADS عشان يحدد هل الأنسب متابعة ولا عينة. كلمة «عقدة» وحدها مش كفاية للحكم، والسونار ما يقيسش وظيفة الغدة. راجع أسرع لو فيه نمو سريع، بحة مستمرة، صعوبة بلع أو ضيق نفس [1, 9, 10, 12].",
+            "en": "No. Thyroid nodules are common and most are benign. The report assesses the nodule’s features and size and may use TI-RADS to guide surveillance or sampling. The word “nodule” alone is not a diagnosis, and ultrasound does not measure thyroid function. Seek earlier review for rapid growth, persistent hoarseness, swallowing difficulty, or breathlessness [1, 9, 10, 12]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إمتى أعيد تحليل TSH؟",
+            "en": "When should TSH be repeated?"
+          },
+          "a": {
+            "ar": "الموعد بيعتمد على سبب التحليل وهل فيه علاج أو حمل أو أعراض جديدة. NICE بتنصح إن التكرار بسبب أعراض جديدة أو أسوأ ما يكونش قبل ستة أسابيع من الاختبار السابق. ده مش جدول ثابت لكل شخص؛ متابعة العلاج ممكن يبقى لها توقيت مختلف يحدده الطبيب. ما تكررهوش كل كام يوم لمجرد القلق [1].",
+            "en": "Timing depends on why the test was ordered and whether there is treatment, pregnancy, or a new symptom. NICE advises that repetition prompted by new or worsening symptoms should be no sooner than six weeks after the previous test. This is not one schedule for everyone; treatment monitoring may use a different clinician-selected interval. Avoid repeating it every few days solely for reassurance [1]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NICE — Thyroid disease: assessment and management, recommendations",
+          "url": "https://www.nice.org.uk/guidance/ng145/chapter/recommendations"
+        },
+        {
+          "label": "NIDDK — Thyroid Tests",
+          "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid"
+        },
+        {
+          "label": "American Thyroid Association — Thyroid Function Tests",
+          "url": "https://www.thyroid.org/thyroid-function-tests/"
+        },
+        {
+          "label": "MedlinePlus — TSH (Thyroid-stimulating hormone) Test",
+          "url": "https://medlineplus.gov/lab-tests/tsh-thyroid-stimulating-hormone-test/"
+        },
+        {
+          "label": "NIDDK — Hypothyroidism (Underactive Thyroid)",
+          "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism"
+        },
+        {
+          "label": "NIDDK — Hyperthyroidism (Overactive Thyroid)",
+          "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/hyperthyroidism"
+        },
+        {
+          "label": "NHS — Underactive thyroid (hypothyroidism)",
+          "url": "https://www.nhs.uk/conditions/underactive-thyroid-hypothyroidism/"
+        },
+        {
+          "label": "NHS — Overactive thyroid (hyperthyroidism): symptoms",
+          "url": "https://www.nhs.uk/conditions/overactive-thyroid-hyperthyroidism/symptoms/"
+        },
+        {
+          "label": "American Thyroid Association — Thyroid Nodules",
+          "url": "https://www.thyroid.org/thyroid-nodules/"
+        },
+        {
+          "label": "RadiologyInfo — Thyroid Ultrasound",
+          "url": "https://www.radiologyinfo.org/en/info/us-thyroid"
+        },
+        {
+          "label": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26462967/"
+        },
+        {
+          "label": "ACR Thyroid Imaging, Reporting and Data System (TI-RADS): White Paper of the ACR TI-RADS Committee",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28372962/"
+        },
+        {
+          "label": "MedlinePlus Medical Encyclopedia — Thyroid storm",
+          "url": "https://medlineplus.gov/ency/article/000400.htm"
+        },
+        {
+          "label": "MedlinePlus Medical Encyclopedia — Hypothyroidism",
+          "url": "https://medlineplus.gov/ency/article/000353.htm"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "تحليل الغدة الدرقية TSH: فهم النتيجة",
+          "en": "TSH thyroid test: understanding your results"
+        },
+        "description": {
+          "ar": "اعرف بوضوح معنى TSH العالي والمنخفض مع Free T4 وT3، وإزاي تتقري نتيجة الغدة، وإمتى عقدة السونار تحتاج متابعة أو تقييماً أسرع.",
+          "en": "Understand high and low TSH with free T4 and T3, what thyroid results mean, and when an ultrasound nodule needs follow-up or earlier review."
+        }
+      }
+    }
+  ]
+}
