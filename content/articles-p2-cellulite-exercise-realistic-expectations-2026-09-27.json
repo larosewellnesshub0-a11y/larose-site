@@ -30,8 +30,7 @@
             "ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.",
             "en": "Added internal links to related articles; no change to the medical content."
           }
-        }
-      ],
+        }, {"date": "2026-10-01", "note": {"ar": "صححنا روابط وأسماء بعض المصادر عشان توصل للورقة العلمية الصح، من غير تغيير في المحتوى الطبي.", "en": "Corrected the links and titles of some sources so they point to the right papers; no change to the medical content."}}],
       "image": "assets/img/articles/cellulite-exercise-cover.webp",
       "title": {
         "ar": "السيلوليت والرياضة: نتائج واقعية وحدود التمارين",
@@ -286,10 +285,7 @@
           "label": "Luebberding et al. — Cellulite: an evidence-based review",
           "url": "https://pubmed.ncbi.nlm.nih.gov/25940753/"
         },
-        {
-          "label": "Shah et al. — Comparative Analysis of Cellulite Treatment Modalities: A Systematic Review",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39547984/"
-        },
+        {"label": "Lim et al. — Comparative Analysis of Cellulite Treatment Modalities: A Systematic Review", "url": "https://pubmed.ncbi.nlm.nih.gov/39547984/"},
         {
           "label": "Mayo Clinic — Cellulite: diagnosis and treatment",
           "url": "https://www.mayoclinic.org/diseases-conditions/cellulite/diagnosis-treatment/drc-20354949?p=1"

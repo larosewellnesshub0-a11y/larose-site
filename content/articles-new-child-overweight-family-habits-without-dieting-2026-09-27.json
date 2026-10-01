@@ -13,7 +13,7 @@
       ],
       "date": "2026-09-27",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "صححنا روابط وأسماء بعض المصادر عشان توصل للورقة العلمية الصح، من غير تغيير في المحتوى الطبي.", "en": "Corrected the links and titles of some sources so they point to the right papers; no change to the medical content."}}],
       "readingTime": 16,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
@@ -310,18 +310,9 @@
           "label": "Styne et al. — Pediatric Obesity: Assessment, Treatment, and Prevention (Endocrine Society Clinical Practice Guideline, PMC6283429)",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6283429/"
         },
-        {
-          "label": "Rankin et al. — Psychological Issues in Pediatric Obesity (PMC3678172)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3678172/"
-        },
-        {
-          "label": "Neves et al. — Division of Responsibility in Child Feeding and Eating Competence (PMC10180630)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10180630/"
-        },
-        {
-          "label": "Rollins et al. — Maternal Restrictive Feeding and Eating in the Absence of Hunger (PMC5735902)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5735902/"
-        }
+        {"label": "Kalra et al. — Psychological Issues in Pediatric Obesity (PMC3678172)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3678172/"},
+        {"label": "Dusi et al. — Division of Responsibility in Child Feeding and Eating Competence (PMC10180630)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10180630/"},
+        {"label": "Bauer et al. — Maternal Restrictive Feeding and Eating in the Absence of Hunger (PMC5735902)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5735902/"}
       ],
       "seo": {
         "title": {

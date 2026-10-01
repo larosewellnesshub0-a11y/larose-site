@@ -11,7 +11,7 @@
         "weight-management"
       ],
       "date": "2026-09-11",
-      "updatedAt": "2026-09-14",
+      "updatedAt": "2026-10-01", "history": [{"date": "2026-10-01", "note": {"ar": "صححنا روابط وأسماء بعض المصادر عشان توصل للورقة العلمية الصح، من غير تغيير في المحتوى الطبي.", "en": "Corrected the links and titles of some sources so they point to the right papers; no change to the medical content."}}],
       "readingTime": 8,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -202,27 +202,9 @@
           },
           "url": "https://iscd.org/official-positions-2023/"
         },
-        {
-          "label": {
-            "ar": "مراجعة قياس تركيب الجسم بالمقاومة الكهربائية الحيوية",
-            "en": "Review: Bioelectrical Impedance Analysis in Body Composition Measurement"
-          },
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30576006/"
-        },
-        {
-          "label": {
-            "ar": "مراجعة دقة BIA في قياس تركيب الجسم",
-            "en": "Review: Accuracy of Bioelectrical Impedance Analysis"
-          },
-          "url": "https://pubmed.ncbi.nlm.nih.gov/31622191/"
-        },
-        {
-          "label": {
-            "ar": "الجمعية الأمريكية للقلب: محيط الخصر وخطر القلب",
-            "en": "American Heart Association: Waist Circumference and Cardiometabolic Risk"
-          },
-          "url": "https://pubmed.ncbi.nlm.nih.gov/20075356/"
-        },
+        {"label": {"ar": "Kyle UG وزملاؤه: قياس المقاومة الكهربائية الحيوية، الجزء الأول: المبادئ والطرق", "en": "Kyle UG et al. Bioelectrical impedance analysis, part I: review of principles and methods (Clin Nutr 2004)"}, "url": "https://pubmed.ncbi.nlm.nih.gov/15380917/"},
+        {"label": {"ar": "Kyle UG وزملاؤه: قياس المقاومة الكهربائية الحيوية، الجزء التاني: الاستخدام في العيادة", "en": "Kyle UG et al. Bioelectrical impedance analysis, part II: utilization in clinical practice (Clin Nutr 2004)"}, "url": "https://pubmed.ncbi.nlm.nih.gov/15556267/"},
+        {"label": {"ar": "Ross R وزملاؤه: محيط الخصر كعلامة حيوية في الكشف، بيان توافق IAS/ICCR", "en": "Ross R et al. Waist circumference as a vital sign in clinical practice: IAS/ICCR consensus statement (Nat Rev Endocrinol 2020)"}, "url": "https://pubmed.ncbi.nlm.nih.gov/32020062/"},
         {
           "label": {
             "ar": "NICE: تقييم وإدارة زيادة الوزن والسمنة",

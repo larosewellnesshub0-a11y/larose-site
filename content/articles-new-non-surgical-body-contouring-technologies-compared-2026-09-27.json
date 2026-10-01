@@ -14,7 +14,7 @@
       ],
       "date": "2026-09-27",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "صححنا روابط وأسماء بعض المصادر عشان توصل للورقة العلمية الصح، من غير تغيير في المحتوى الطبي.", "en": "Corrected the links and titles of some sources so they point to the right papers; no change to the medical content."}}],
       "readingTime": 15,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -249,14 +249,8 @@
           "label": "Lim et al. — FDA MAUDE Database Reported Adverse Events on Noninvasive Body Contouring, Cellulite Treatment, and Muscle Stimulation (PubMed)",
           "url": "https://pubmed.ncbi.nlm.nih.gov/35916105/"
         },
-        {
-          "label": "Nilsen et al. — Non-invasive Body Contouring Technologies: An Updated Narrative Review (PubMed)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37749418/"
-        },
-        {
-          "label": "Houshmand et al. — High-Intensity Focused Electromagnetic Energy With and Without Radiofrequency: A Systematic Review (PubMed)",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37957393/"
-        },
+        {"label": "Alizadeh et al. — Non-invasive Body Contouring Technologies: An Updated Narrative Review (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/37749418/"},
+        {"label": "Kohan et al. — High-Intensity Focused Electromagnetic Energy With and Without Radiofrequency: A Systematic Review (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/37957393/"},
         {
           "label": "Haykal et al. — A Systematic Review of High-Intensity Focused Ultrasound in Skin Tightening and Body Contouring (PubMed)",
           "url": "https://pubmed.ncbi.nlm.nih.gov/40184185/"

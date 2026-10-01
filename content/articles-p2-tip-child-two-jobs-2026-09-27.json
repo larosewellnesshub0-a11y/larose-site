@@ -12,7 +12,7 @@
         "clinical-nutrition"
       ],
       "date": "2026-09-03",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 10,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
@@ -116,10 +116,7 @@
           "label": "NHS — Fussy eaters",
           "url": "https://www.nhs.uk/baby/weaning-and-feeding/fussy-eaters/"
         },
-        {
-          "label": "Yuan et al. — Bidirectional Associations between Parental Non-Responsive Feeding Practices and Child Eating Behaviors (PMC9103127)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9103127/"
-        },
+        {"label": "Wang et al. — Bidirectional Associations between Parental Non-Responsive Feeding Practices and Child Eating Behaviors (PMC9103127)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9103127/"},
         {
           "label": "CDC — Growth Charts",
           "url": "https://www.cdc.gov/growthcharts/"
@@ -321,8 +318,7 @@
             "ar": "وسعنا شرح تقسيم مسؤولية الوجبة والتطبيق العملي وحدود الأمان وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
             "en": "We expanded mealtime responsibility, practical use, safety limits and warning signs, and medically re-reviewed the content."
           }
-        }
-      ]
+        }, {"date": "2026-10-01", "note": {"ar": "صححنا روابط وأسماء بعض المصادر عشان توصل للورقة العلمية الصح، من غير تغيير في المحتوى الطبي.", "en": "Corrected the links and titles of some sources so they point to the right papers; no change to the medical content."}}]
     }
   ]
 }

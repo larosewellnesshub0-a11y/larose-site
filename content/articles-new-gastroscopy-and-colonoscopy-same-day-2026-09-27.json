@@ -13,7 +13,7 @@
       ],
       "date": "2026-09-27",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "صححنا روابط وأسماء بعض المصادر عشان توصل للورقة العلمية الصح، من غير تغيير في المحتوى الطبي.", "en": "Corrected the links and titles of some sources so they point to the right papers; no change to the medical content."}}],
       "readingTime": 10,
       "author": "mohab-ashraf",
       "reviewedBy": "shimaa-fouad",
@@ -298,38 +298,20 @@
           "label": "NICE — Suspected cancer: recognition and referral (NG12)",
           "url": "https://www.nice.org.uk/guidance/ng12/chapter/recommendations-organised-by-site-of-cancer"
         },
-        {
-          "label": "Hsieh et al. — Comparison of procedural sequence in same-day bidirectional endoscopy: a systematic review and meta-analysis (Korean J Intern Med, PMC7061013)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7061013/"
-        },
+        {"label": "Choi et al. — Comparison of procedural sequence in same-day bidirectional endoscopy: a systematic review and meta-analysis (Korean J Intern Med, PMC7061013)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7061013/"},
         {
           "label": "Snook et al. — British Society of Gastroenterology guidelines for the management of iron deficiency anaemia in adults (Gut, PMC8515119)",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8515119/"
         },
-        {
-          "label": "Kim et al. — Diagnostic yield of bidirectional endoscopy for iron deficiency anemia in young patients (BMC Gastroenterol, PMC11331685)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11331685/"
-        },
+        {"label": "Abramowitz et al. — Diagnostic yield of bidirectional endoscopy for iron deficiency anemia in young patients (BMC Gastroenterol, PMC11331685)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11331685/"},
         {
           "label": "ASGE Standards of Practice Committee — Guidelines for safety in the gastrointestinal endoscopy unit (Gastrointest Endosc, PMC3980655)",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3980655/"
         },
-        {
-          "label": "Romagnuolo et al. — Sedation practices for routine gastrointestinal endoscopy: a systematic review of recommendations (BMC Gastroenterol, PMC7792218)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7792218/"
-        },
-        {
-          "label": "Reumkens et al. — Adverse events related to colonoscopy: Global trends and future challenges (World J Gastroenterol, PMC6337013)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6337013/"
-        },
-        {
-          "label": "Yen et al. — Procedural Sequences in Sedated Same-Day Bidirectional Endoscopy (J Clin Med, PMC8911281)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8911281/"
-        },
-        {
-          "label": "Spada et al. — Factors affecting the quality of bowel preparation for colonoscopy (World J Gastroenterol, PMC10107216)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10107216/"
-        }
+        {"label": "Dossa et al. — Sedation practices for routine gastrointestinal endoscopy: a systematic review of recommendations (BMC Gastroenterol, PMC7792218)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7792218/"},
+        {"label": "Kim et al. — Adverse events related to colonoscopy: Global trends and future challenges (World J Gastroenterol, PMC6337013)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6337013/"},
+        {"label": "Hsieh et al. — Procedural Sequences in Sedated Same-Day Bidirectional Endoscopy (J Clin Med, PMC8911281)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8911281/"},
+        {"label": "Shahini et al. — Factors affecting the quality of bowel preparation for colonoscopy (World J Gastroenterol, PMC10107216)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10107216/"}
       ]
     }
   ]

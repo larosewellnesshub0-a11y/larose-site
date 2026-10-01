@@ -13,7 +13,7 @@
       ],
       "date": "2026-09-27",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "صححنا روابط وأسماء بعض المصادر عشان توصل للورقة العلمية الصح، من غير تغيير في المحتوى الطبي.", "en": "Corrected the links and titles of some sources so they point to the right papers; no change to the medical content."}}],
       "readingTime": 15,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -245,14 +245,8 @@
           "label": "Le Roux et al. — Liraglutide for weight management: a critical review of the evidence (PMC5358074)",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5358074/"
         },
-        {
-          "label": "Kopydlowski et al. — GLP-1 Receptor Agonists and Endoscopy: Periprocedural Management (PMC13612733)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13612733/"
-        },
-        {
-          "label": "Luvich et al. — GLP-1RA Interruption and Reinitiation Algorithms (PMC12463868)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12463868/"
-        }
+        {"label": "Bandaranaike et al. — GLP-1 Receptor Agonists and Upper Gastrointestinal Endoscopy: A Narrative Review of Residual Gastric Contents Aspiration Risk and Periprocedural Management (Euroasian J Hepatogastroenterol 2026, PMC13612733)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13612733/"},
+        {"label": "Michelet et al. — Missed Doses, Missed Opportunities: Readmission Due to GLP-1RA Interruption Inspires Algorithms to Improve Reinitiation of Therapy at Discharge (Hosp Pharm 2026, PMC12463868)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12463868/"}
       ],
       "seo": {
         "title": {

@@ -10,7 +10,7 @@
       "specialties": ["pediatrics", "clinical-nutrition"],
       "date": "2026-09-27",
       "updatedAt": "2026-10-01",
-      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "ضفنا رابط لمقال مرتبط عشان القارئ يلاقي تفاصيل أكتر، من غير تغيير في المحتوى الطبي.", "en": "Added a link to a related article so readers can find more detail; no change to the medical content."}}],
+      "history": [{"date": "2026-10-01", "note": {"ar": "ضفنا روابط لمقالات مرتبطة من غير أي تغيير في المحتوى الطبي.", "en": "Added internal links to related articles; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "خلّينا رابط الحجز يظهر جوه النص في آخر جزء بدل سطر منفصل، من غير تغيير في المحتوى الطبي.", "en": "Made the booking link appear inline in the final section instead of a separate line; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "ضفنا رابط لمقال مرتبط عشان القارئ يلاقي تفاصيل أكتر، من غير تغيير في المحتوى الطبي.", "en": "Added a link to a related article so readers can find more detail; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "صححنا روابط وأسماء بعض المصادر عشان توصل للورقة العلمية الصح، من غير تغيير في المحتوى الطبي.", "en": "Corrected the links and titles of some sources so they point to the right papers; no change to the medical content."}}],
       "readingTime": 18,
       "author": "alyaa-abu-taleb",
       "reviewedBy": "shimaa-fouad",
@@ -104,16 +104,16 @@
         {"label": "NHS — What to feed young children", "url": "https://www.nhs.uk/conditions/baby/weaning-and-feeding/what-to-feed-young-children/"},
         {"label": "NHS — Iron deficiency anaemia", "url": "https://www.nhs.uk/conditions/iron-deficiency-anaemia/"},
         {"label": "AAP HealthyChildren — Feeding & Nutrition: Your One-Year-Old", "url": "https://www.healthychildren.org/English/ages-stages/toddler/nutrition/Pages/feeding-and-nutrition-your-one-year-old.aspx"},
-        {"label": "Bocquet et al. — Which Milk during the Second Year of Life (Nutrients, PMC8540900)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8540900/"},
+        {"label": "Verduci et al. — Which Milk during the Second Year of Life (Nutrients, PMC8540900)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8540900/"},
         {"label": "Canadian Paediatric Society — Whole cow's milk in infancy (Paediatr Child Health, PMC2791650)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2791650/"},
-        {"label": "Ferrer et al. — Complementary Feeding and Iron Status (Nutrients, PMC8707490)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8707490/"},
+        {"label": "Miniello et al. — Complementary Feeding and Iron Status (Nutrients, PMC8707490)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8707490/"},
         {"label": "Parkin et al. — Severe iron-deficiency anaemia and feeding practices in young children (Public Health Nutr, PMC10271110)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10271110/"},
         {"label": "Canadian Paediatric Society — Iron needs of babies and children (Paediatr Child Health, PMC2528681)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2528681/"},
-        {"label": "Sutcliffe et al. — Delayed bottle weaning and iron deficiency in toddlers (West J Med, PMC1304404)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1304404/"},
-        {"label": "Verduci et al. — Cow's milk consumption in childhood and adolescence: expert review (Front Nutr, PMC13613364)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13613364/"},
-        {"label": "Ramos et al. — FEEDSETUP: feeding difficulties spectrum evaluation and treatment proposal (J Pediatr Rio J, PMC13613522)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13613522/"},
-        {"label": "Fidanza et al. — Iron Supplementation and Neurodevelopmental Outcomes in Infancy and Early Childhood (Children, PMC13605664)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13605664/"},
-        {"label": "Dziechciarz et al. — Extreme Cow's Milk Consumption, Enteropathy and Severe Iron Deficiency (Nutrients, PMC8000842)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8000842/"}
+        {"label": "Graham et al. — Delayed bottle weaning and iron deficiency in toddlers (West J Med, PMC1304404)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1304404/"},
+        {"label": "Nogueira-de-Almeida et al. — Cow's milk consumption in childhood and adolescence: expert review (Front Nutr, PMC13613364)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13613364/"},
+        {"label": "Fisberg et al. — FEEDSETUP: feeding difficulties spectrum evaluation and treatment proposal (J Pediatr Rio J, PMC13613522)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13613522/"},
+        {"label": "Fitz et al. — Iron Supplementation and Neurodevelopmental Outcomes in Infancy and Early Childhood (Children, PMC13605664)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13605664/"},
+        {"label": "Graczykowska et al. — The Consequence of Excessive Consumption of Cow's Milk: Protein-Losing Enteropathy with Anasarca in the Course of Iron Deficiency Anemia (Nutrients, PMC8000842)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8000842/"}
       ],
       "seo": {"title": {"ar": "الطفل بيشرب لبن كتير ومش بياكل: الأسباب والحلول", "en": "Child drinking too much milk: appetite and iron risk"}, "description": {"ar": "دليل طبي شامل بيوضح ليه الطفل بيرفض الأكل وبيعتمد على شرب اللبن بكثرة، وإيه علاقة ده بأنيميا نقص الحديد، وإيه الكميات الصحية اللي بيتوصى بيها وطرق رجوع الشهية.", "en": "Clinical guide on why toddlers drink excessive milk and refuse solids, how milk anaemia develops, safe milk limits, and steps to restore healthy appetite."}}
     }
