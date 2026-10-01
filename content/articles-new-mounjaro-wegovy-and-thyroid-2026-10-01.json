@@ -1,0 +1,336 @@
+{
+  "_note": "Phase 3 new article (2026-10-01). Explains the thyroid C-cell boxed warning, MTC/MEN2 history, and levothyroxine follow-up; deliberately does not repeat general hypothyroidism testing, thyroid-dose troubleshooting, or broad GLP-1 eligibility and side-effect guidance.",
+  "articles": [
+    {
+      "slug": "mounjaro-wegovy-and-thyroid",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "weight-management",
+      "specialties": [
+        "weight-management",
+        "internal-medicine"
+      ],
+      "date": "2026-10-01",
+      "updatedAt": "2026-10-01",
+      "readingTime": 10,
+      "author": "shimaa-fouad",
+      "reviewedBy": "alyaa-abu-taleb",
+      "image": "assets/img/articles/mounjaro-wegovy-and-thyroid-cover.webp",
+      "title": {
+        "ar": "مونجارو والغدة الدرقية: فهم التحذير من غير تهويل",
+        "en": "Mounjaro, Wegovy and the thyroid warning explained"
+      },
+      "excerpt": {
+        "ar": "تحذير أورام خلايا C مش معناه إن كل مريض خمول غدة ممنوع من مونجارو أو ويجوفي. الدليل ده بيفرّق بين MTC وMEN2 وقصور الغدة، وبيوضح متابعة ليفوثيروكسين وعلامات الخطر.",
+        "en": "The thyroid C-cell warning does not mean every person with hypothyroidism is excluded from Mounjaro or Wegovy. Learn how MTC and MEN2 differ, what human evidence shows, and how levothyroxine follow-up fits."
+      },
+      "tags": {
+        "ar": [
+          "مونجارو والغدة الدرقية",
+          "ويجوفي والغدة الدرقية",
+          "سرطان الغدة النخاعي",
+          "خمول الغدة",
+          "ليفوثيروكسين",
+          "MEN2"
+        ],
+        "en": [
+          "Mounjaro and thyroid",
+          "Wegovy and thyroid",
+          "medullary thyroid cancer",
+          "hypothyroidism",
+          "levothyroxine",
+          "MEN2"
+        ]
+      },
+      "sections": [
+        {
+          "id": "short-answer",
+          "heading": {
+            "ar": "الإجابة المختصرة: التحذير محدد، مش حكم على كل أمراض الغدة",
+            "en": "The short answer: the warning is specific, not a verdict on every thyroid condition"
+          },
+          "body": {
+            "ar": "لو عندك خمول غدة أو بتاخد ليفوثيروكسين، وجود كلمة «الغدة الدرقية» في التحذير ممكن يخضّك. بس التحذير المربع في النشرات الأمريكية لمونجارو وزيبباوند، اللي مادتهم تيرزيباتيد، ولويجوفي، اللي مادته سيماجلوتايد، بيتكلم تحديداً عن أورام خلايا C وسرطان الغدة الدرقية النخاعي (Medullary Thyroid Carcinoma أو MTC). النشرات بتقول إن الأورام ظهرت في القوارض، وإن مدى انطباق النتيجة دي على البشر لسه مش معروف [1, 2, 3].\n\nالمانع المكتوب بوضوح هو تاريخ شخصي أو عائلي لـMTC، أو متلازمة الأورام الصماء المتعددة من النوع التاني (MEN2). خمول الغدة العادي أو هاشيموتو مش مذكورين كمانع مستقل في النشرات. ده مش تصريح تلقائي بالبدء؛ معناه بس إن التشخيصات دي مش حاجة واحدة. الطبيب لازم يعرف تشخيص الغدة بالاسم، علاجك، نتائجك، وأي تاريخ أورام في العيلة قبل ما يقرر هل الدواء مناسب ليك [1, 2, 3, 4].\n\nالمقال ده مش بيقول إن الخطر البشري صفر، ومش بيقول إن كل مشكلة غدة تمنع العلاج. هو بيفك التشابك بين تحذير محدد، ودليل بشري لسه فيه عدم يقين، وحالة شائعة زي قصور الغدة. أما اختيار دواء الوزن، الجرعة، والأعراض الجانبية التانية، فليهم دليل منفصل عشان القرار ما يتبنيش على التحذير ده لوحده [1, 2, 3].",
+            "en": "If you have hypothyroidism or take levothyroxine, seeing “thyroid” in a warning can be alarming. The US boxed warnings for Mounjaro and Zepbound, which contain tirzepatide, and Wegovy, which contains semaglutide, are specifically about thyroid C-cell tumours and medullary thyroid carcinoma (MTC). The labels say these tumours occurred in rodents and that the relevance of those findings to humans remains unknown [1, 2, 3].\n\nThe stated contraindication is a personal or family history of MTC, or multiple endocrine neoplasia syndrome type 2 (MEN2). Ordinary hypothyroidism and Hashimoto's disease are not listed as separate contraindications. That is not automatic permission to start treatment; it means these diagnoses are not interchangeable. The clinician needs the exact thyroid diagnosis, treatment, results and any family tumour history before deciding whether the medicine is appropriate [1, 2, 3, 4].\n\nThis article does not claim that human risk is zero, and it does not treat every thyroid condition as an exclusion. It separates a specific warning from still-uncertain human evidence and from a common condition such as hypothyroidism. Medicine selection, dosing and other adverse effects are covered in a separate guide so that the decision is not reduced to this warning alone [1, 2, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "دليل أدوية GLP-1 لإنقاص الوزن",
+                "url": "../articles/glp1-medication-guide.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Practical guide to GLP-1 medicines",
+                "url": "../articles/glp1-medication-guide.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "mtc-men2-different",
+          "heading": {
+            "ar": "MTC وMEN2 مختلفين عن خمول الغدة وهاشيموتو",
+            "en": "MTC and MEN2 are different from hypothyroidism and Hashimoto's disease"
+          },
+          "body": {
+            "ar": "الغدة الدرقية فيها أنواع مختلفة من الخلايا. خلايا C بتنتج هرمون الكالسيتونين، وسرطان MTC بيبدأ من الخلايا دي. أما الهرمونات اللي بتنظم الطاقة والتمثيل الغذائي، زي T4، فمصدرها خلايا جُريبية مختلفة. عشان كده MTC مش مجرد اسم تاني لكسل الغدة، وتحليل TSH مش اختبار لاستبعاد MTC [4, 5].\n\nMEN2 متلازمة وراثية مرتبطة بتغير مُمرِض في جين RET، وبتزود قابلية ظهور MTC وأورام صماء تانية. التاريخ العائلي المهم مش عبارة عامة زي «حد في العيلة كان عنده غدة»؛ المطلوب تعرف هل التشخيص كان سرطاناً نخاعياً بالاسم، وهل فيه MEN2 أو فحص جيني RET. لو المعلومة قديمة أو ناقصة، الطبيب ممكن يطلب تقرير الباثولوجي أو يحوّلك لتقييم غدد أو وراثة بدل التخمين [4].\n\nقصور الغدة معناه إن الجسم مش بيطلع هرمون درقي كفاية، وهاشيموتو سبب مناعي شائع له. علاجه المعتاد تعويض الهرمون بليفوثيروكسين ومتابعة التحاليل. وجود خمول أو هاشيموتو ما يمسحش أي تاريخ منفصل لـMTC أو MEN2، وبرضه وجودهم لوحدهم ما يحوّلهمش لنفس نوع الورم المذكور في التحذير. الفصل ده مهم عشان ما توقفش علاجاً ضرورياً أو تستبعد دواءً من نفسك بناءً على اسم «الغدة» بس [5, 6].",
+            "en": "The thyroid contains different cell types. C cells produce calcitonin, and MTC begins in those cells. The hormones involved in energy regulation and metabolism, including T4, come from different follicular cells. MTC is therefore not another name for an underactive thyroid, and a TSH result is not a test that excludes MTC [4, 5].\n\nMEN2 is an inherited syndrome associated with a pathogenic change in the RET gene and a higher likelihood of MTC and other endocrine tumours. The useful family history is more precise than “someone in the family had a thyroid problem.” It asks whether the diagnosis was medullary thyroid cancer, MEN2, or a documented RET variant. If old information is incomplete, the clinician may request the pathology report or arrange endocrine or genetic assessment rather than guess [4].\n\nHypothyroidism means the body does not produce enough thyroid hormone, and Hashimoto's disease is a common autoimmune cause. Usual treatment replaces the missing hormone with levothyroxine and follows thyroid tests. Hypothyroidism or Hashimoto's disease does not erase a separate MTC or MEN2 history, but neither condition becomes the C-cell tumour named in the warning merely because it involves the thyroid. Keeping those issues separate prevents stopping essential treatment or excluding a medicine based only on the word “thyroid” [5, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "زيادة الوزن وكسل الغدة: إمتى يكون التحليل مفيد؟",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Weight gain and hypothyroidism: when is testing useful?",
+                "url": "../articles/hypothyroidism-and-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "why-boxed-warning",
+          "heading": {
+            "ar": "التحذير جه منين؟ دراسة القوارض مش إجابة نهائية عن البشر",
+            "en": "Where did the warning come from? Rodent findings do not settle human risk"
+          },
+          "body": {
+            "ar": "في دراسات السرطنة قبل وبعد تطوير الأدوية، السيماجلوتايد عمل أورام خلايا C في القوارض، والتيرزيباتيد عمل زيادة مرتبطة بالجرعة ومدة التعرض في أورام خلايا C عند الجرذان. دي أصل التحذير المربع. النشرات ما بتقولش إن MTC اتثبت كنتيجة سببية عند البشر؛ بالعكس، بتقول صراحة إن الصلة البشرية للنتائج الحيوانية غير محسومة [1, 2, 3].\n\nوفي نفس الوقت، «غير محسومة» مش معناها «مستحيلة». السرطان النخاعي نادر، والتجارب المصممة أساساً للسكر أو الوزن ما بتكونش دايماً طويلة أو كبيرة كفاية عشان تحسم ضرراً نادراً بيتطور على سنين. عشان كده الجهات الرقابية بتحافظ على التحذير والمانع المحدد حتى مع وجود بيانات بشرية مطمئنة نسبياً على المدى الأقصر [1, 2, 3].\n\nالنتيجة العملية بسيطة: ما نحولش تجربة الحيوان لحكم إن الدواء بيسبب سرطاناً لكل مستخدم، وما نمسحش التحذير عشان دراسة بشرية ما لقتش زيادة واضحة. القرار الآمن بيتبع النشرة: استبعاد MTC الشخصي أو العائلي وMEN2، ومناقشة أي عقدة أو أعراض رقبة، مع متابعة البحث البشري بحدوده [1, 2, 3, 9, 10].",
+            "en": "In carcinogenicity studies used during medicine development, semaglutide caused thyroid C-cell tumours in rodents, while tirzepatide produced an exposure- and duration-related increase in C-cell tumours in rats. Those findings are the origin of the boxed warning. The labels do not say that human MTC has been established as a causal effect; they explicitly state that the human relevance of the animal findings is undetermined [1, 2, 3].\n\nAt the same time, “undetermined” does not mean “impossible.” MTC is rare, and trials designed primarily for diabetes or weight outcomes may not be large or long enough to settle a rare harm that could develop over years. Regulators therefore retain the warning and its specific contraindication even while some human data are relatively reassuring over shorter periods [1, 2, 3].\n\nThe practical conclusion is restrained. A rodent experiment should not be turned into a claim that the medicine causes cancer in every user, while a human study without a clear increase should not erase the warning. Safer decisions follow the label: exclude personal or family MTC and MEN2, discuss any thyroid nodule or neck symptoms, and interpret evolving human research within its limits [1, 2, 3, 9, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "human-evidence",
+          "heading": {
+            "ar": "الدراسات البشرية بتقول إيه؟ الصورة لسه فيها عدم يقين",
+            "en": "What do human studies show? Important uncertainty remains"
+          },
+          "body": {
+            "ar": "الدراسات البشرية مش كلها وصلت لنفس الإشارة. تحليل لتجارب عشوائية منشور سنة 2024 لقى زيادة نسبية في سرطان الغدة ككل، بس الزيادة المطلقة كانت صغيرة والنتيجة هشة إحصائياً؛ وما كانش فيه ارتفاع دالّ منفصل في MTC. دراسة فرنسية أقدم من بيانات الرعاية لقت ارتباطاً، بس الدراسة الرصدية تقدر تلاقي ارتباط من غير ما تثبت إن الدواء هو السبب [9, 13].\n\nفي الناحية التانية، دراسة إسكندنافية كبيرة ما لقتش زيادة جوهرية خلال متوسط متابعة حوالي أربع سنين، ودراسة دولية من ست قواعد بيانات ما لقتش دليلاً على زيادة خلال متابعة أقصر تقريباً. التحليلات دي مفيدة، بس ما تقدرش تقفل سؤال الخطر بعد استعمال أطول، ولا تستبعد زيادة نادرة بدقة كاملة [10, 11].\n\nتحليل أحدث للتجارب العشوائية شمل أدوية الإنكريتين، ومنها نواهض GLP-1 والعلاج المزدوج، وما لقاش زيادة دالة إحصائياً، لكنه صنّف يقين الدليل بأنه منخفض جداً بسبب قلة الأحداث وعدم الدقة [12]. عشان كده الإجابة الأمينة مش «آمن تماماً» ولا «بيعمل سرطان». الإجابة إن الدليل البشري الحالي ما حسمش خطراً طويل المدى، وإن موانع النشرة تفضل هي القاعدة العملية دلوقتي [1, 2, 3, 9, 10, 11, 12, 13].",
+            "en": "Human studies have not all produced the same signal. A 2024 analysis of randomised trials found a relative increase in thyroid cancer overall, but the absolute increase was small and the statistical result was fragile; there was no separately significant increase in MTC. An earlier French healthcare-data study found an association, but an observational association cannot by itself establish that the medicine caused the outcome [9, 13].\n\nOn the other side, a large Scandinavian study found no substantial increase over an average follow-up of about four years, and an international study using six databases found no evidence of an increase during a shorter follow-up period. These analyses are informative, but they cannot close the question after longer exposure or precisely exclude a very rare increase [10, 11].\n\nA newer analysis of randomised trials covering incretin therapies, including GLP-1 receptor agonists and dual therapy, found no statistically significant increase, yet rated the certainty of evidence very low because events were rare and estimates imprecise [12]. The honest answer is therefore neither “completely safe” nor “causes cancer.” Current human evidence has not settled long-term risk, and the label contraindications remain the practical rule [1, 2, 3, 9, 10, 11, 12, 13]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "history-before-decision",
+          "heading": {
+            "ar": "قبل القرار: اسم التشخيص أهم من عبارة «عندي مشكلة في الغدة»",
+            "en": "Before a decision: the exact diagnosis matters more than “I have a thyroid problem”"
+          },
+          "body": {
+            "ar": "جهّز تاريخك بشكل محدد. هل عندك قصور غدة، هاشيموتو، عقدة، تضخم، جراحة سابقة، أو سرطان؟ لو سرطان، كان نخاعياً MTC، حليمياً، جُريبياً، ولا النوع مش معروف؟ وهل قريبك اللي اتشخص قريب من الدرجة الأولى، وهل فيه تقرير باثولوجي أو تحليل جيني؟ التفاصيل دي بتغيّر معنى التحذير أكتر من رقم TSH منفرد [1, 2, 3, 4].\n\nالتاريخ الشخصي أو العائلي لـMTC ووجود MEN2 مانعان حسب النشرة، حتى لو الشخص حاسس إنه كويس أو تحاليل الوظيفة طبيعية. سرطان حليمي قديم أو عقدة حميدة مش هما نفس المانع المكتوب، بس ده برضه مش تصريح ذاتي؛ لازم الطبيب يراجع النوع، العلاج السابق، المتابعة، وأي أعراض أو فحوصات معلقة قبل قرار الدواء [1, 2, 3, 4].\n\nلو كل اللي تعرفه إن قريباً عمل عملية غدة، ما تفترضش إنه MTC وما تفترضش إنه بسيط. حاول تجيب اسم التشخيص أو التقرير. ولو عندك كتلة غير مقيّمة أو بحة مستمرة، ما تستخدمش حقنة وزن كبديل عن تقييم الرقبة. الهدف إن القرار يبقى مبني على معلومة قابلة للتحقق، مش على خوف عام ولا طمأنة عامة [1, 2, 3, 4].",
+            "en": "Prepare a specific history. Do you have hypothyroidism, Hashimoto's disease, a nodule, a goitre, previous surgery, or cancer? If cancer was diagnosed, was it medullary, papillary, follicular, or is the type unknown? Which relative was affected, and is a pathology report or genetic result available? Those details change the meaning of the warning far more than a single TSH value [1, 2, 3, 4].\n\nA personal or family history of MTC and the presence of MEN2 are contraindications in the labels, even if the person feels well and thyroid-function tests are normal. Previous papillary cancer or a benign nodule is not the same stated contraindication, but that does not provide self-clearance. A clinician still needs to review the type, previous treatment, surveillance and any unresolved symptoms or investigations before deciding about treatment [1, 2, 3, 4].\n\nIf all you know is that a relative had thyroid surgery, do not assume it was MTC and do not assume it was harmless. Try to obtain the diagnosis or report. If you have an unevaluated lump or persistent hoarseness, a weight-management injection is not a substitute for neck assessment. The aim is a decision based on verifiable information rather than general fear or general reassurance [1, 2, 3, 4]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "hypothyroidism-levothyroxine",
+          "heading": {
+            "ar": "لو عندك خمول وبتاخد ليفوثيروكسين: ما تغيّرش العلاج من نفسك",
+            "en": "If you have hypothyroidism and take levothyroxine, do not alter treatment yourself"
+          },
+          "body": {
+            "ar": "ليفوثيروكسين بيعوّض هرمون ناقص، وهدفه يحافظ على وظيفة الغدة في المدى اللي الطبيب محدده. ما توقفوش يوم الحقنة، وما تزودوش أو تقللوه عشان الشهية أو الميزان اتغيروا. النشرة الرسمية لليفوثيروكسين بتحذر من استعمال جرعات زيادة للتخسيس، لأن الزيادة ممكن تعمل سمية خطيرة. طريقة أخذه لازم تفضل ثابتة، وأي تغيير في التوقيت أو المكملات والأدوية يتراجع مع الطبيب [5, 6, 7, 8].\n\nنشرات تيرزيباتيد وسيماجلوتايد بتذكر إن الأدوية دي بتبطّأ إفراغ المعدة وممكن تأثر على امتصاص أدوية فموية، وبتوصي بالحذر مع الأدوية اللي محتاجة متابعة دقيقة. ده سبب للمراجعة، مش دليل إن كل مستخدم لازم يغيّر جرعة ليفوثيروكسين، ومش إثبات إن الحقنة ألغت مفعوله [1, 2, 3].\n\nلو حصل نزول وزن كبير، أو ظهرت أعراض جديدة زي خفقان، رعشة، إحساس بحرارة، تعب غير معتاد، إمساك، أو إحساس بالبرد، ناقش توقيت TSH وFree T4 مع الطبيب. التحليل بيتفسر مع الجرعة وطريقة الأخذ ووقت آخر تعديل. لو جرعة ليفوثيروكسين نفسها اتغيرت، المتابعة المعتادة بتكون بعد مدة كفاية لاستقرار الهرمون، وغالباً حوالي ست لتمان أسابيع، مش بعد يومين من تغير الوزن [5, 6].",
+            "en": "Levothyroxine replaces missing hormone, with the aim of keeping thyroid function in the range set by the clinician. Do not stop it on injection day or raise or lower it because appetite or weight has changed. The official levothyroxine label warns against using excess thyroid hormone for weight loss because excessive doses can cause serious toxicity. Keep the way you take it consistent and review any change in timing, supplements or other medicines with the clinician [5, 6, 7, 8].\n\nThe tirzepatide and semaglutide labels state that these medicines delay gastric emptying and may affect absorption of oral medicines, with caution advised for medicines that require close monitoring. That is a reason for review, not evidence that every user needs a levothyroxine dose change, and it does not prove that an injection has made levothyroxine ineffective [1, 2, 3].\n\nAfter substantial weight loss, or if new symptoms appear such as palpitations, tremor, heat intolerance, unusual fatigue, constipation or feeling cold, discuss the timing of TSH and free T4 with the clinician. Results are interpreted alongside the dose, how it is taken and the timing of the last adjustment. If the levothyroxine dose itself changes, usual follow-up allows enough time for hormone levels to stabilise, often about six to eight weeks, rather than testing two days after a weight change [5, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "جرعة الغدة وثبات الوزن: هل أزوّد العلاج؟",
+                "url": "../articles/qa-thyroid-dose-weight.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Thyroid dose and a weight plateau: should I take more?",
+                "url": "../articles/qa-thyroid-dose-weight.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "tests-and-red-flags",
+          "heading": {
+            "ar": "هل لازم كالسيتونين أو سونار؟ وإيه علامات الخطر؟",
+            "en": "Are calcitonin tests or ultrasound required, and what are the red flags?"
+          },
+          "body": {
+            "ar": "النشرات بتقول إن قيمة فحص الكالسيتونين الروتيني أو سونار الغدة لكل مستخدم بهدف اكتشاف MTC بدري غير مؤكدة. الكالسيتونين ممكن يعلى لأسباب تانية، وأمراض وعُقد الغدة شائعة، فالفحص العشوائي ممكن يفتح باب إجراءات مالهاش لازمة. عشان كده ما تطلبش «باقة غدة» تلقائياً لمجرد إنك بتناقش مونجارو أو ويجوفي [1, 2, 3].\n\nده مختلف عن شخص عنده عقدة اتلاحظت في الكشف أو التصوير، أو نتيجة كالسيتونين مرتفعة اتعملت لسبب طبي. الحالات دي محتاجة تقييم موجه، وممكن الطبيب يختار إعادة التحليل أو السونار أو إحالة لغدد حسب الصورة. تحليل TSH بيقيس تنظيم وظيفة الغدة، لكنه مش بديل لتقييم كتلة في الرقبة ومش فحص MTC [1, 2, 3, 4, 5].\n\nاطلب تقييماً سريعاً لو ظهر تورم أو كتلة جديدة في الرقبة، صعوبة بلع، صعوبة تنفس، أو بحة صوت مستمرة. ولو صعوبة التنفس شديدة أو بتسوء بسرعة، اتجه لرعاية عاجلة. الأعراض دي مش معناها تلقائياً سرطان، وليها أسباب كتير، بس ما ينفعش تتساب أو تتفسر من الإنترنت. كمان ما تستناش ظهورها لو أنت عارف بوجود MTC أو MEN2؛ التاريخ نفسه كفاية لتطبيق المانع المكتوب [1, 2, 3, 4].",
+            "en": "The labels state that the value of routine calcitonin testing or thyroid ultrasound for early MTC detection in every user is uncertain. Calcitonin can rise for other reasons, while thyroid disease and nodules are common, so indiscriminate screening may lead to unnecessary procedures. Do not order a routine “thyroid package” solely because you are discussing Mounjaro or Wegovy [1, 2, 3].\n\nThat differs from a nodule found on examination or imaging, or an elevated calcitonin result obtained for a clinical reason. Those findings need directed evaluation, and the clinician may choose repeat testing, ultrasound or endocrine referral according to the context. TSH assesses regulation of thyroid function; it is not a substitute for evaluating a neck mass and is not an MTC screening test [1, 2, 3, 4, 5].\n\nSeek prompt assessment for a new neck swelling or lump, difficulty swallowing, difficulty breathing, or persistent hoarseness. Severe or rapidly worsening breathing difficulty needs urgent care. These symptoms do not automatically mean cancer and have many possible causes, but they should not be ignored or diagnosed online. Do not wait for symptoms if you already know about MTC or MEN2; the history itself is enough to apply the stated contraindication [1, 2, 3, 4]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "next-step",
+          "heading": {
+            "ar": "الخطوة الجاية: مراجعة منظمة قبل أي قرار",
+            "en": "The next step: a structured review before any decision"
+          },
+          "body": {
+            "ar": "قبل الموعد، اكتب اسم دواء الغدة وجرعته وطريقة أخذه، وآخر نتائج TSH وFree T4 لو موجودة، وأي تغيير حديث في الوزن أو الأعراض. اكتب كمان اسم أي سرطان غدة شخصي أو عائلي بالضبط، ودرجة القرابة، وهل فيه MEN2 أو تحليل RET أو تقرير باثولوجي. القائمة دي بتخلي المراجعة أدق من جملة «عندي غدة» [1, 2, 3, 4, 5, 6].\n\nالفريق الطبي في لاروز يقدر يراجع الصورة الطبية بشكل فردي في فرعي المعادي والتجمع الخامس بالقاهرة الجديدة: هل فيه مانع واضح من النشرة، هل قصور الغدة متابع ومستقر، وهل فيه عرض أو عقدة محتاجة مسار تقييم منفصل. القرار النهائي عن تيرزيباتيد أو سيماجلوتايد، وموعد تحاليل الغدة، وجرعة ليفوثيروكسين يفضلوا قرارات طبية فردية؛ ما تبدأش، توقف، أو تغيّر أي جرعة من نفسك [1, 2, 3, 5, 6, 8].\n\nلو التاريخ فيه MTC أو MEN2، قول ده قبل مناقشة الوصفة لأن المانع واضح. لو المشكلة خمول غدة بس، ما تخبيهاش وما تعتبرهاش رفضاً تلقائياً؛ هات بياناتك وسيب التقييم يفرّق بين وظيفة الغدة، تاريخ الأورام، وهدف علاج الوزن. ولو ظهرت علامة خطر في الرقبة أو التنفس، الأولوية للتقييم السريع مش لموعد روتيني لإدارة الوزن [1, 2, 3, 4].",
+            "en": "Before the appointment, record the name and dose of your thyroid medicine, how you take it, recent TSH and free T4 results if available, and any recent change in weight or symptoms. Also record the exact name of any personal or family thyroid cancer, the relationship, and whether MEN2, RET testing or a pathology report is involved. That list supports a more accurate review than simply saying “I have a thyroid problem” [1, 2, 3, 4, 5, 6].\n\nThe medical team at La Rose can review the individual picture at the Maadi and Fifth Settlement, New Cairo branches: whether a label contraindication is present, whether hypothyroidism is monitored and stable, and whether a symptom or nodule needs a separate assessment pathway. Decisions about tirzepatide or semaglutide, thyroid-test timing and levothyroxine dose remain individual clinical decisions; do not start, stop or change any dose yourself [1, 2, 3, 5, 6, 8].\n\nIf the history includes MTC or MEN2, disclose it before discussing a prescription because the contraindication is explicit. If the issue is hypothyroidism alone, do not hide it and do not treat it as automatic refusal; bring the information and let the assessment distinguish thyroid function, tumour history and the weight-treatment goal. A neck or breathing red flag takes priority over a routine weight-management appointment [1, 2, 3, 4]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز استشارة مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل مونجارو ممنوع لكل مرضى خمول الغدة الدرقية؟",
+            "en": "Is Mounjaro contraindicated for everyone with hypothyroidism?"
+          },
+          "a": {
+            "ar": "لأ. النشرة ما بتذكرش قصور الغدة أو هاشيموتو كمانع مستقل. المانع المحدد هو تاريخ شخصي أو عائلي لسرطان الغدة النخاعي MTC، أو متلازمة MEN2، مع مانع تاني للحساسية الخطيرة للدواء. بس وجود خمول غدة محتاج مراجعة التشخيص، جرعة ليفوثيروكسين، التحاليل، وأي تاريخ أورام قبل القرار. ما تعتبرش الإجابة دي وصفة للبدء؛ الطبيب بيقرر الملاءمة بعد مراجعة الصورة كلها [2, 3, 5, 6].",
+            "en": "No. The label does not list hypothyroidism or Hashimoto's disease as a separate contraindication. The thyroid-related contraindication is a personal or family history of medullary thyroid carcinoma, or MEN2; serious hypersensitivity is another contraindication. Hypothyroidism still requires review of the diagnosis, levothyroxine dose, test results and any tumour history before a decision. This distinction is not a prescription to start treatment; suitability remains a clinician-led decision after the full picture is reviewed [2, 3, 5, 6]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل هاشيموتو هو نفسه MEN2؟",
+            "en": "Is Hashimoto's disease the same as MEN2?"
+          },
+          "a": {
+            "ar": "لأ، دول حالتين مختلفتين. هاشيموتو مرض مناعي بيهاجم نسيج الغدة وممكن يعمل قصوراً في إنتاج الهرمون. MEN2 متلازمة وراثية مرتبطة غالباً بتغير في جين RET وبتزود قابلية MTC وأورام صماء تانية. ممكن شخص يبقى عنده أكتر من مشكلة طبية، عشان كده الطبيب بيسأل عن التشخيصات كلها، بس اسم هاشيموتو لوحده ما يساويش MEN2 وما يثبتش تاريخ سرطان نخاعي [4, 5].",
+            "en": "No. They are different conditions. Hashimoto's disease is an autoimmune disorder that damages thyroid tissue and may cause deficient hormone production. MEN2 is an inherited syndrome, usually associated with a pathogenic RET variant, that increases susceptibility to MTC and other endocrine tumours. A person can have more than one medical condition, which is why the clinician asks about the complete history, but Hashimoto's disease alone does not equal MEN2 and does not establish a history of medullary cancer [4, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تحليل TSH الطبيعي ينفي سرطان الغدة النخاعي؟",
+            "en": "Does a normal TSH result rule out medullary thyroid cancer?"
+          },
+          "a": {
+            "ar": "لأ. TSH بيساعد في تقييم تنظيم وظيفة الغدة وإنتاج الهرمون، بينما MTC بيبدأ من خلايا C المنتجة للكالسيتونين. ممكن وظيفة الغدة تبان طبيعية رغم وجود عقدة محتاجة تقييم. لو فيه كتلة رقبة، بحة مستمرة، صعوبة بلع أو تنفس، أو تاريخ عائلي محدد لـMTC أو MEN2، ما تعتمدش على TSH كإذن لاستعمال الدواء أو كاستبعاد للورم؛ ناقش تقييم الحالة بالمسار المناسب [1, 2, 3, 4, 5].",
+            "en": "No. TSH helps assess regulation of thyroid function and hormone production, whereas MTC arises from calcitonin-producing C cells. Thyroid function can appear normal even when a nodule needs assessment. If there is a neck lump, persistent hoarseness, swallowing or breathing difficulty, or a specific family history of MTC or MEN2, do not use TSH as clearance for treatment or as a test that excludes the tumour; discuss the appropriate assessment pathway [1, 2, 3, 4, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "أوقف ليفوثيروكسين يوم حقنة مونجارو أو ويجوفي؟",
+            "en": "Should I stop levothyroxine on the day of a Mounjaro or Wegovy injection?"
+          },
+          "a": {
+            "ar": "ما توقفش ليفوثيروكسين أو تغيّر توقيته من نفسك. هو علاج تعويضي منتظم، وإيقافه حسب يوم الحقنة مش تعليمات عامة في النشرات. أدوية تيرزيباتيد وسيماجلوتايد بتبطّأ إفراغ المعدة وممكن تأثر على امتصاص بعض الأدوية الفموية، فالحل هو إن الطبيب يراجع التوقيت والأعراض والتحاليل لو فيه سبب، مش إنك تلغي جرعة. خليك ثابت على الطريقة الموصوفة لحد ما الطبيب يديك تعليمات مختلفة [1, 2, 3, 6, 7].",
+            "en": "Do not stop levothyroxine or alter its timing yourself. It is regular replacement therapy, and stopping it according to injection day is not a general label instruction. Tirzepatide and semaglutide delay gastric emptying and may affect absorption of some oral medicines, so the response is clinician review of timing, symptoms and tests when indicated—not omitting a dose. Keep taking it consistently as prescribed unless your clinician gives different instructions [1, 2, 3, 6, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل لازم أعمل كالسيتونين وسونار غدة قبل الحقن؟",
+            "en": "Do I need calcitonin testing and thyroid ultrasound before injections?"
+          },
+          "a": {
+            "ar": "مش كفحص روتيني لكل شخص. نشرات مونجارو وزيبباوند وويجوفي بتقول إن فائدة متابعة الكالسيتونين أو السونار بشكل روتيني لاكتشاف MTC بدري غير مؤكدة، وإن ده ممكن يعمل إجراءات زيادة بسبب نتائج غير محددة وعُقد شائعة. بس لو عندك عقدة معروفة، كشف غير طبيعي، كالسيتونين مرتفع اتعمل لسبب، أو أعراض رقبة، فده موقف مختلف والطبيب بيختار تقييمه. ما تطلبش الفحوصات عشوائياً وما تتجاهلش نتيجة موجودة [1, 2, 3].",
+            "en": "Not as routine screening for everyone. The Mounjaro, Zepbound and Wegovy labels state that routine calcitonin monitoring or ultrasound for early MTC detection is of uncertain value and can lead to extra procedures because of nonspecific results and common background thyroid nodules. A known nodule, abnormal examination, calcitonin elevation obtained for a clinical reason, or neck symptoms is different and requires clinician-directed evaluation. Do not order screening indiscriminately, and do not ignore an existing result [1, 2, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "لو كان عندي سرطان غدة حليمي أو عقدة، يبقى ويجوفي ممنوع؟",
+            "en": "If I had papillary thyroid cancer or a thyroid nodule, is Wegovy contraindicated?"
+          },
+          "a": {
+            "ar": "المانع الدرقي المكتوب في النشرة هو MTC الشخصي أو العائلي وMEN2؛ السرطان الحليمي والعقدة الحميدة مش هما نفس التشخيص. بس ما ينفعش تحوّل الفرق ده لموافقة ذاتية. الطبيب محتاج يتأكد من النوع من تقرير الباثولوجي، ويفهم علاجك ومتابعتك، ويقيّم أي عقدة حالية أو أعراض. لو نوع السرطان القديم مش معروف، هات التقرير أو تواصل مع مكان العلاج بدل الاعتماد على الذاكرة أو اسم عام زي «ورم غدة» [1, 4].",
+            "en": "The thyroid-related contraindication in the label is personal or family MTC and MEN2; papillary cancer and a benign nodule are not the same diagnosis. Do not turn that distinction into self-clearance. The clinician needs to verify the type from pathology, understand previous treatment and surveillance, and assess any current nodule or symptoms. If the old cancer type is unknown, obtain the report or contact the treating centre rather than relying on memory or a general phrase such as “thyroid tumour” [1, 4]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "DailyMed — Wegovy (semaglutide) current prescribing information",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b"
+        },
+        {
+          "label": "DailyMed — Zepbound (tirzepatide) current prescribing information",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b"
+        },
+        {
+          "label": "DailyMed — Mounjaro (tirzepatide) current prescribing information",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78b268b4-9215-44b4-b565-fcec315d027c"
+        },
+        {
+          "label": "National Cancer Institute — Multiple Endocrine Neoplasia Type 2 (MEN2) (PDQ): Health Professional Version",
+          "url": "https://www.cancer.gov/publications/pdq/information-summaries/genetics/men2-hp-pdq"
+        },
+        {
+          "label": "NIDDK — Hypothyroidism (Underactive Thyroid)",
+          "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism"
+        },
+        {
+          "label": "American Thyroid Association — Thyroid Hormone Treatment",
+          "url": "https://www.thyroid.org/thyroid-hormone-treatment/"
+        },
+        {
+          "label": "NHS — Levothyroxine",
+          "url": "https://www.nhs.uk/medicines/levothyroxine/"
+        },
+        {
+          "label": "DailyMed — Levothyroxine Sodium Tablets prescribing information",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52a07ade-4098-477d-874e-dd692667041e"
+        },
+        {
+          "label": "Silverii et al. — Glucagon-like peptide-1 receptor agonists and risk of thyroid cancer: A systematic review and meta-analysis of randomized controlled trials",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38018310/"
+        },
+        {
+          "label": "Pasternak et al. — Glucagon-like peptide 1 receptor agonist use and risk of thyroid cancer: Scandinavian cohort study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38683947/"
+        },
+        {
+          "label": "Baxter et al. — Glucagon-Like Peptide-1 Receptor Agonists and Risk of Thyroid Cancer: An International Multisite Cohort Study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39772758/"
+        },
+        {
+          "label": "Eisa et al. — Incretin-Based Therapy and Thyroid Cancer Risk: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42221413/"
+        },
+        {
+          "label": "Bezin et al. — GLP-1 Receptor Agonists and the Risk of Thyroid Cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36356111/"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "مونجارو والغدة الدرقية: هل التحذير يقلقك؟",
+          "en": "Mounjaro, Wegovy and thyroid risk explained"
+        },
+        "description": {
+          "ar": "دليل يشرح تحذير أورام خلايا C مع مونجارو وويجوفي، والفرق بين MTC وMEN2 وخمول الغدة، ومتابعة ليفوثيروكسين بأمان، وإمتى تحتاج مراجعة طبية.",
+          "en": "Understand the thyroid C-cell warning for Mounjaro and Wegovy, how MTC and MEN2 differ from hypothyroidism, and safe levothyroxine follow-up."
+        }
+      }
+    }
+  ]
+}

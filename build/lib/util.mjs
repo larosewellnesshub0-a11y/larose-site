@@ -214,7 +214,10 @@ export function loadContent() {
       articles.articles[at] = rewrite;
     }
   }
-  for (const f of phaseFiles("articles-new-")) {
+  // LAROSE_SKIP_NEW lists `articles-new-*` files (comma-separated) to leave out,
+  // so accepted articles can ship while other drafts are still being written.
+  const skipNew = new Set((process.env.LAROSE_SKIP_NEW || "").split(",").map((s) => s.trim()).filter(Boolean));
+  for (const f of phaseFiles("articles-new-").filter((name) => !skipNew.has(name))) {
     for (const added of read(f).articles || []) {
       if (articles.articles.some((article) => article.slug === added.slug)) throw new Error(`${f}: slug ${added.slug} already exists`);
       articles.articles.push(added);

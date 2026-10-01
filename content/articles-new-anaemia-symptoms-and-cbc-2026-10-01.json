@@ -1,0 +1,324 @@
+{
+  "_note": "Phase 3 new article (2026-10-01). Explains anaemia symptoms and pattern-based CBC reading across microcytic, normocytic and macrocytic causes; deliberately does not provide supplement doses or repeat the separate low-ferritin and plant-based B12 guides.",
+  "articles": [
+    {
+      "slug": "anaemia-symptoms-and-cbc",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "internal-medicine",
+      "specialties": [
+        "internal-medicine"
+      ],
+      "date": "2026-10-01",
+      "updatedAt": "2026-10-01",
+      "readingTime": 9,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-sherif",
+      "image": "assets/img/articles/anaemia-symptoms-and-cbc-cover.webp",
+      "title": {
+        "ar": "الأنيميا وأعراضها: إزاي تقرأ صورة الدم؟",
+        "en": "Anaemia symptoms and CBC results"
+      },
+      "excerpt": {
+        "ar": "الأنيميا مش معناها نقص حديد بس. اعرف معنى الهيموجلوبين وMCV في صورة الدم، والفرق بين الأنواع الشائعة، وإمتى الأعراض تستدعي تقييم عاجل.",
+        "en": "Anaemia is not always iron deficiency. Learn what haemoglobin and MCV mean, how common patterns differ, and which symptoms need urgent assessment."
+      },
+      "tags": {
+        "ar": [
+          "الأنيميا",
+          "أعراض الأنيميا",
+          "صورة الدم الكاملة",
+          "الهيموجلوبين",
+          "MCV",
+          "نقص الحديد"
+        ],
+        "en": [
+          "anaemia",
+          "anaemia symptoms",
+          "complete blood count",
+          "haemoglobin",
+          "MCV",
+          "iron deficiency"
+        ]
+      },
+      "sections": [
+        {
+          "id": "what-anaemia-means",
+          "heading": {
+            "ar": "الأنيميا معناها إيه، وليه مش تشخيص نهائي؟",
+            "en": "What anaemia means, and why it is not a final diagnosis"
+          },
+          "body": {
+            "ar": "الأنيميا معناها إن تركيز الهيموجلوبين في الدم أقل من الحد المناسب للشخص. الهيموجلوبين بروتين جوه كرات الدم الحمراء، ووظيفته يشيل الأكسجين من الرئة للأنسجة. لما يقل، ممكن تحس بتعب، ضعف، دوخة، صداع، خفقان أو نهجان مع المجهود. بس الأعراض دي عامة وممكن تحصل من أسباب تانية، والأنيميا الخفيفة ساعات ما تعملش أي عرض واضح. عشان كده الإحساس بالتعب لوحده ما يثبتش الأنيميا، وصورة الدم هي نقطة البداية [1, 2].\n\nكلمة أنيميا برضه مش اسم مرض واحد، ومش مرادف تلقائي لنقص الحديد. الجسم ممكن يخسر دم، أو يصنع كرات أقل، أو يكسرها أسرع من الطبيعي. السبب ممكن يبقى نقص حديد أو فيتامين B12 أو فولات، التهاب أو مرض مزمن، مشكلة في الكلى، نزيف، اضطراب وراثي في الهيموجلوبين، أو سبب في نخاع العظم. أكتر من عامل ممكن يجتمع عند نفس الشخص، فالمطلوب نفهم النمط والسبب بدل ما نعالج رقماً منفرداً [1, 4].\n\nالحد المرجعي للهيموجلوبين مش رقم واحد لكل الناس. السن، النوع، الحمل، الارتفاع عن سطح البحر، التدخين وطريقة المعمل كلها ممكن تغير التفسير. اقرأ النتيجة مع المدى المطبوع في التقرير، لكن ما تعتمدش عليه وحده لو فيه حمل أو مرض مزمن أو أعراض قوية. الطبيب بيربط الرقم بالسياق وبالنتائج القديمة عشان يعرف هل الانخفاض جديد، ثابت، ولا بيتغير بسرعة [1, 3].",
+            "en": "Anaemia means that the concentration of haemoglobin in the blood is below the appropriate threshold for that person. Haemoglobin is the protein inside red blood cells that carries oxygen from the lungs to the tissues. When it falls, a person may experience tiredness, weakness, dizziness, headache, palpitations or breathlessness on exertion. These symptoms are nonspecific, however, and mild anaemia may produce no obvious symptoms. Fatigue alone cannot diagnose anaemia; a blood count is the starting point [1, 2].\n\nAnaemia is also not one disease and is not automatically the same as iron deficiency. The body may lose blood, make too few red cells, or destroy them faster than they can be replaced. Possible causes include iron, vitamin B12 or folate deficiency, inflammation or chronic disease, kidney disease, bleeding, inherited haemoglobin disorders, and bone-marrow conditions. More than one factor can coexist, so the task is to identify the pattern and its cause rather than treat an isolated number [1, 4].\n\nThere is no single haemoglobin reference threshold for every person. Age, sex, pregnancy, altitude, smoking and laboratory method can all affect interpretation. Use the interval printed on the report, but do not rely on it alone when pregnancy, chronic illness or marked symptoms are present. A clinician relates the number to the clinical context and earlier results to decide whether the fall is new, stable or changing quickly [1, 3]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "read-cbc-pattern",
+          "heading": {
+            "ar": "إزاي تقرأ Hb وMCV وباقي صورة الدم كنمط واحد؟",
+            "en": "How to read Hb, MCV and the rest of the CBC as one pattern"
+          },
+          "body": {
+            "ar": "ابدأ بالهيموجلوبين (Hb)، لأنه المؤشر الأساسي لتحديد وجود الأنيميا. الهيماتوكريت (Hct) بيوضح النسبة اللي بتشغلها كرات الدم الحمراء من حجم الدم، وعدد كرات الدم (RBC count) بيدي معلومة إضافية، لكنه ما يتقراش بدل الهيموجلوبين. الجفاف أو زيادة السوائل ممكن يغيروا تركيزات الدم، فنتيجة واحدة غير متوقعة أحياناً تحتاج إعادة في توقيت يحدده الطبيب بدل استنتاج سريع [3, 10].\n\nبعد كده بص على متوسط حجم كرية الدم (MCV). لو أقل من مدى المعمل يبقى النمط صغير الكريات؛ لو داخل المدى يبقى طبيعي الحجم؛ ولو أعلى يبقى كبير الكريات. ده تصنيف بيساعد يضيق قائمة الأسباب، لكنه مش ختم تشخيص. MCH وMCHC بيوصفوا كمية وتركيز الهيموجلوبين جوه الكرية، وRDW بيوضح قد إيه أحجام الكرات مختلفة عن بعض. الطبيب ممكن يضيف عدّ الخلايا الشبكية، لأنها كرات جديدة وبتدي فكرة هل نخاع العظم بيرد كويس ولا الإنتاج قليل [3, 10, 13].\n\nالمهم ما تمسكش MCV لوحده. نقص الحديد في بدايته ممكن ييجي بحجم طبيعي، وأنيميا الالتهاب ممكن تبقى طبيعية أو صغيرة الكريات، واجتماع نقص حديد مع نقص B12 ممكن يخلي المتوسط شكله طبيعي رغم وجود مشكلتين. حتى نقص B12 ما ينفعش نستبعده لمجرد إن MCV مش عالي. الاتجاه مع الوقت، لطاخة الدم، الخلايا الشبكية وباقي التحاليل الموجهة أهم من قراءة خانة واحدة [10, 12].",
+            "en": "Start with haemoglobin (Hb), the main measurement used to establish whether anaemia is present. Haematocrit (Hct) describes the proportion of blood occupied by red cells, while the red-cell count adds information but is not a substitute for haemoglobin. Dehydration or excess body fluid can alter measured concentrations, so an unexpected isolated result may need repeating at a time chosen by the clinician rather than prompting an immediate conclusion [3, 10].\n\nNext consider mean corpuscular volume (MCV). A value below the laboratory interval describes a microcytic pattern, one within it a normocytic pattern, and one above it a macrocytic pattern. This classification narrows possible causes but does not make the diagnosis. MCH and MCHC describe the amount and concentration of haemoglobin within a cell; RDW reflects variation in cell size. A clinician may add a reticulocyte count, because these young red cells indicate whether the marrow is responding or production is reduced [3, 10, 13].\n\nMCV must not be interpreted alone. Early iron deficiency can remain normocytic, anaemia of inflammation can be normocytic or microcytic, and combined iron and B12 deficiencies can produce an apparently average MCV despite two problems. Vitamin B12 deficiency cannot be excluded simply because MCV is not high. Trends, a blood film, reticulocytes and selected follow-up tests carry more information than one box on the report [10, 12]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "microcytic-anaemia",
+          "heading": {
+            "ar": "MCV قليل: نقص الحديد احتمال مهم، بس مش الاحتمال الوحيد",
+            "en": "Low MCV: iron deficiency matters, but it is not the only possibility"
+          },
+          "body": {
+            "ar": "النمط صغير الكريات بيظهر كتير مع نقص الحديد، خصوصاً لو فيه دورة غزيرة، حمل، تبرع متكرر بالدم، أكل محدود، سوء امتصاص أو فقد دم من الجهاز الهضمي. بس MCV القليل لوحده ما يقولش إن مخزون الحديد ناقص. الثلاسيميا وبعض اضطرابات الهيموجلوبين، والالتهاب المزمن في بعض الحالات، ممكن يعملوا نمط قريب. عشان كده بدء الحديد من شكل صورة الدم بس ممكن يؤخر معرفة السبب الحقيقي [4, 5, 8].\n\nالتقييم غالباً بيشمل الفيريتين، وأحياناً تشبع الترانسفيرين ومؤشرات الالتهاب، حسب القصة. الفيريتين القليل بيدعم نقص المخزون، لكن الفيريتين الطبيعي أو العالي ما ينفيش النقص دائماً وقت الالتهاب لأنه ممكن يرتفع كجزء من الاستجابة الالتهابية. عدد كرات الدم، RDW، تاريخ العيلة والأصل الجغرافي ممكن يوجهوا لاحتمال اضطراب وراثي، لكن تشخيصه يحتاج الاختبار المناسب ومش مجرد معادلة من الإنترنت [5, 8, 13].\n\nلو نقص الحديد اتأكد، لسه فيه سؤال أهم: ليه حصل؟ فقد الدم من دورة شديدة أو من المعدة والأمعاء، ضعف الامتصاص، زيادة الاحتياج أو قلة الوارد كلها مسارات مختلفة. علاج النقص من غير بحث السبب ممكن يحسن الرقم مؤقتاً ويسيب المشكلة مستمرة. صفحة مخزون الحديد القليل مع صورة دم طبيعية بتشرح المرحلة اللي ممكن تسبق الأنيميا؛ هنا تركيزنا على الأنيميا المثبتة ونمط صورة الدم. ما تبدأش مكمل حديد لمجرد تعب أو MCV قليل قبل تقييم مناسب [5, 8].",
+            "en": "A microcytic pattern commonly occurs with iron deficiency, particularly with heavy periods, pregnancy, frequent blood donation, a restricted diet, impaired absorption or gastrointestinal blood loss. A low MCV alone does not prove depleted iron stores. Thalassaemia and other haemoglobin disorders, and sometimes chronic inflammation, can produce a similar pattern. Starting iron from the shape of the CBC alone can therefore delay identification of the real cause [4, 5, 8].\n\nAssessment commonly includes ferritin and, depending on the history, transferrin saturation and inflammatory markers. Low ferritin supports depleted stores, but a normal or high result does not always exclude deficiency during inflammation because ferritin can rise as part of the inflammatory response. The red-cell count, RDW, family history and ancestry may raise suspicion of an inherited disorder, but diagnosis requires the appropriate test rather than an online calculation [5, 8, 13].\n\nWhen iron deficiency is confirmed, a more important question remains: why did it happen? Blood loss from heavy menstruation or the gastrointestinal tract, impaired absorption, increased requirements and insufficient intake are different pathways. Replacing iron without investigating the cause may improve a number temporarily while the problem continues. The separate guide to low ferritin with a normal CBC explains the stage that can precede anaemia; this article is concerned with established anaemia and its CBC pattern. Do not start an iron supplement solely because of fatigue or a low MCV before appropriate assessment [5, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "مخزون الحديد قليل وصورة الدم طبيعية",
+                "url": "../articles/qa-low-ferritin-normal-cbc.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "low ferritin with a normal CBC",
+                "url": "../articles/qa-low-ferritin-normal-cbc.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "normocytic-anaemia",
+          "heading": {
+            "ar": "MCV طبيعي: صورة الدم ممكن تبقى أنيميا برضه",
+            "en": "Normal MCV: the CBC can still show anaemia"
+          },
+          "body": {
+            "ar": "MCV الطبيعي ما يلغييش الأنيميا لو الهيموجلوبين منخفض. النمط ده ممكن يظهر مع فقد دم حديث، التهاب أو مرض مزمن، مرض كلوي، تكسير كرات الدم، مشكلة في نخاع العظم، أو مرحلة مبكرة من نقص الحديد. ساعات بيكون فيه سببين عكس بعض في حجم الكرية فيطلع المتوسط طبيعي. عشان كده عبارة «كل المؤشرات طبيعية ما عدا Hb» محتاجة تفسير، مش تجاهل [4, 11, 13].\n\nالخلايا الشبكية بتفيد هنا: لو مرتفعة، ده ممكن يعني إن النخاع بيحاول يعوض فقداً أو تكسيراً؛ ولو قليلة أو غير مناسبة لدرجة الأنيميا، بنفكر أكتر في ضعف الإنتاج. وظائف الكلى مهمة لأن الكلى بتنتج هرمون الإريثروبويتين اللي يحفز نخاع العظم. الالتهاب المزمن كمان ممكن يقلل إتاحة الحديد للنخاع ويضعف إنتاج الكرات حتى لو المخزون الظاهري مش قليل [11, 13].\n\nالطبيب بيختار الفحوص حسب القصة: وظائف كلى، مؤشرات التهاب، لطاخة دم، بيليروبين وLDH واختبارات تكسير الكرات، أو تحاليل تانية لو فيه علامة موجهة. انخفاض كرات بيضاء أو صفائح مع الأنيميا، أو نتائج غير معتادة في اللطاخة، ممكن يغير الأولوية ويحتاج رأي تخصصي. الفكرة مش تعمل كل التحاليل مرة واحدة؛ الفكرة إن كل خطوة تجاوب سؤال واضح وتحدد الخطوة اللي بعدها [3, 13].",
+            "en": "A normal MCV does not cancel anaemia when haemoglobin is low. This pattern can occur with recent blood loss, inflammation or chronic disease, kidney disease, red-cell destruction, a bone-marrow problem, or early iron deficiency. Two causes with opposite effects on cell size can also produce a normal average. A report where “everything is normal except Hb” needs interpretation, not dismissal [4, 11, 13].\n\nThe reticulocyte count is useful in this setting. A raised count may show that the marrow is trying to compensate for loss or destruction, whereas a low response relative to the degree of anaemia points more toward reduced production. Kidney function matters because the kidneys produce erythropoietin, a hormone that stimulates the marrow. Chronic inflammation can also restrict iron availability and suppress red-cell production even when apparent stores are not low [11, 13].\n\nThe clinician selects tests from the history: kidney function, inflammatory markers, a blood film, bilirubin, LDH and other haemolysis tests, or further targeted investigations when a clue is present. Anaemia accompanied by low white cells or platelets, or unusual blood-film findings, can change the priority and warrant specialist assessment. The aim is not to order every test at once, but to let each step answer a defined question and guide the next one [3, 13]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "macrocytic-anaemia",
+          "heading": {
+            "ar": "MCV عالي: B12 والفولات جزء من الصورة، مش كل الصورة",
+            "en": "High MCV: B12 and folate are part of the picture, not all of it"
+          },
+          "body": {
+            "ar": "النمط كبير الكريات ممكن يحصل مع نقص فيتامين B12 أو الفولات، لكنه ممكن يرتبط برضه بأدوية معينة، شرب الكحول، أمراض الكبد، قصور الغدة الدرقية، زيادة الخلايا الشبكية بعد نزيف أو تكسير، أو اضطرابات في نخاع العظم. مراجعة الأدوية والمكملات ضرورية، ومش صح نختصر كل MCV عالي في حقنة B12 من غير ما نعرف السبب [6, 7, 9].\n\nنقص B12 له أهمية خاصة لأن التنميل، الإحساس بوخز، مشاكل الاتزان أو الذاكرة ممكن تظهر حتى من غير أنيميا واضحة أو MCV عالي. وكمان MCV الطبيعي مش اختبار كفاية لاستبعاده. الفولات وB12 ممكن يعملوا صورة دم متشابهة، لكن إعطاء فولات من غير استبعاد نقص B12 ممكن يحسن شكل الدم بينما المشكلة العصبية تفضل موجودة. عشان كده الطبيب بيحدد التحاليل والعلاج حسب الأعراض وعوامل الخطر، مش حسب حجم الكرية وحده [6, 7, 12].\n\nمن عوامل خطر B12: أكل نباتي من غير مصدر موثوق، فقر الدم الخبيث، جراحات المعدة أو الأمعاء، أمراض بتأثر على الامتصاص، وبعض الأدوية مع الاستخدام الطويل. نقص الفولات له أسباب مختلفة تشمل قلة الوارد، زيادة الاحتياج وبعض الأدوية. لو أكلك نباتي، صفحة فيتامين B12 في الأكل النباتي بتشرح التخطيط الغذائي؛ هنا النقطة الأساسية إن السبب لازم يتحدد قبل اختيار نوع التعويض وطريقته [6, 7, 9].",
+            "en": "A macrocytic pattern can result from vitamin B12 or folate deficiency, but it may also be associated with certain medicines, alcohol use, liver disease, hypothyroidism, a reticulocyte rise after bleeding or haemolysis, and bone-marrow disorders. Reviewing medicines and supplements is essential. It is unsafe to reduce every high MCV result to a B12 injection without identifying the cause [6, 7, 9].\n\nVitamin B12 deficiency deserves particular attention because numbness, pins and needles, balance difficulty or cognitive changes can occur without obvious anaemia or a raised MCV. A normal MCV is not sufficient to exclude it. Folate and B12 deficiencies can create similar blood findings, but giving folate without excluding B12 deficiency may improve the blood picture while neurological injury continues. The clinician therefore chooses testing and treatment from symptoms and risk factors, not cell size alone [6, 7, 12].\n\nRisk factors for B12 deficiency include a plant-based diet without a reliable source, pernicious anaemia, stomach or bowel surgery, conditions that impair absorption, and prolonged use of some medicines. Folate deficiency has a different set of causes, including insufficient intake, increased need and certain medicines. The plant-based B12 guide covers dietary planning; the key point here is that the cause must be identified before the form and route of replacement are chosen [6, 7, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "فيتامين B12 في الأكل النباتي",
+                "url": "../articles/vitamin-b12-in-plant-based-eating.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "vitamin B12 in plant-based eating",
+                "url": "../articles/vitamin-b12-in-plant-based-eating.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "find-the-cause",
+          "heading": {
+            "ar": "إيه الأسئلة والفحوص اللي بتوصل للسبب؟",
+            "en": "Which questions and tests help identify the cause?"
+          },
+          "body": {
+            "ar": "التقييم الجيد بيبدأ قبل أي باقة تحاليل. الطبيب بيسأل إمتى بدأ التعب، وهل فيه نزيف ظاهر، دورة أغزر أو أطول من المعتاد، براز أسود، ألم بطن، تغير في الإخراج، نقص وزن غير مقصود، حرارة، تعرق ليلي، عدوى حديثة، حمل، تبرع بالدم أو عملية. النظام الغذائي، أمراض الكلى والكبد والغدة، تاريخ العيلة، والأدوية كلها أجزاء من نفس القصة [3, 4, 14].\n\nبعد الفحص وصورة الدم، الفحوص بتتحدد حسب النمط. ممكن تشمل فيريتين وتشبع ترانسفيرين، B12 وفولات، خلايا شبكية ولطاخة دم، وظائف كلى وكبد وغدة درقية، أو مؤشرات التهاب وتكسير كرات الدم. لو فيه احتمال فقد دم، الطبيب بيحدد مصدره ويقرر هل فحص الجهاز الهضمي أو تقييم نسائي أو اختبار تاني مناسب. مش كل شخص محتاج نفس القائمة، ومش كل أنيميا تحتاج منظار أو فحص نخاع [3, 5, 11, 14].\n\nخد التقرير الكامل وأي نتائج قديمة، واكتب أسماء كل الأدوية والمكملات والجرعات. ما تبدأش حديد أو B12 أو فولات قبل ما يتاخد القرار على أساس واضح؛ المكمل ممكن يغير التحاليل، يعمل آثار جانبية، أو يخفي جزء من المشكلة من غير علاج السبب. دليل المكملات حسب الحاجة بيوضح إزاي تراجع المكونات والتداخلات، لكنه مش بديل عن تشخيص نوع الأنيميا [5, 6, 7].",
+            "en": "A useful assessment begins before any test bundle. The clinician asks when fatigue began and whether there is visible bleeding, heavier or longer periods, black stool, abdominal pain, changed bowel habits, unintended weight loss, fever, night sweats, recent infection, pregnancy, blood donation or surgery. Diet, kidney, liver and thyroid disease, family history, and every medicine are parts of the same history [3, 4, 14].\n\nAfter examination and the CBC, testing is selected from the pattern. It may include ferritin and transferrin saturation, B12 and folate, reticulocytes and a blood film, kidney, liver and thyroid tests, or markers of inflammation and red-cell destruction. If blood loss is possible, the clinician looks for its source and decides whether gastrointestinal investigation, gynaecological assessment or another test is appropriate. Not everyone needs the same list, and not every anaemia requires endoscopy or bone-marrow testing [3, 5, 11, 14].\n\nBring the complete report and any older results, and list every medicine and supplement with the amount taken. Do not start iron, B12 or folate before the decision has a clear basis; a supplement can alter test results, cause adverse effects or conceal part of the problem without treating its cause. The guide to targeted supplements explains ingredient and interaction checks, but it cannot replace diagnosis of the anaemia type [5, 6, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "المكملات حسب الحاجة مش للجميع",
+                "url": "../articles/supplements-are-targeted-not-a-default.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "supplements should be targeted, not automatic",
+                "url": "../articles/supplements-are-targeted-not-a-default.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "red-flags-next-step",
+          "heading": {
+            "ar": "إمتى الأنيميا تبقى عاجلة، وإيه الخطوة الجاية؟",
+            "en": "When anaemia is urgent, and what to do next"
+          },
+          "body": {
+            "ar": "اطلب رعاية عاجلة لو فيه ألم صدر، ضيق نفس شديد أو وهو موجود في الراحة، إغماء، ارتباك، خفقان سريع مستمر مع دوخة، ضعف شديد بيزيد بسرعة، أو نزيف واضح. القيء الدموي، القيء اللي شكله زي تفل القهوة، البراز الأسود القطراني، أو دم في البراز مع دوخة أو إغماء علامات ما ينفعش تستنى عليها موعد عادي. الحمل، مرض القلب أو الرئة، والنزيف المستمر بيخلوا التقييم أسرع حسب الحالة [2, 11, 14].\n\nلو الأعراض مستقرة، احجز مراجعة قريبة وخد معاك صورة الدم كاملة والنتائج القديمة وقائمة الأدوية والمكملات. ما تحكمش على شدة الحالة من رقم Hb منشور على الإنترنت؛ سرعة النزول، السبب، الأعراض والحالة العامة كلهم بيغيروا القرار. كمان ما توقفش دواء موصوف، وما تبدأش جرعة مكمل من نفسك. الطبيب المعالج هو اللي يحدد هل تحتاج إعادة التحليل، فحوص موجهة أو إحالة لتخصص تاني [3, 4].\n\nالفريق الطبي في لاروز يقدر يراجع الأعراض وصورة الدم في سياق صحي كامل، ويحدد الخطوة التشخيصية المناسبة من غير افتراض إن كل أنيميا نقص حديد. لاروز لها فرع في المعادي وفرع في التجمع الخامس بالقاهرة الجديدة. لو محتاج تقييم منظم، احجز استشارة وخد تقاريرك السابقة معاك؛ التشخيص الدقيق للسبب هو اللي يوجه العلاج الآمن [1, 3].",
+            "en": "Seek urgent care for chest pain, severe breathlessness or breathlessness at rest, fainting, confusion, a persistently rapid heartbeat with dizziness, rapidly worsening weakness, or obvious bleeding. Vomiting blood or material that resembles coffee grounds, black tarry stool, or blood in the stool with dizziness or fainting should not wait for a routine appointment. Pregnancy, heart or lung disease, and continuing blood loss can make assessment more urgent according to the circumstances [2, 11, 14].\n\nIf symptoms are stable, arrange a timely review and bring the complete CBC, older results, and a list of medicines and supplements. Do not judge severity from an Hb number posted online; the speed of decline, cause, symptoms and overall condition all change the decision. Do not stop a prescribed medicine or start a supplement dose on your own. The treating clinician decides whether the count should be repeated, targeted tests are needed, or another specialty should be involved [3, 4].\n\nThe medical team at La Rose can review symptoms and the CBC within the wider health context and choose the appropriate diagnostic next step without assuming that every anaemia is iron deficiency. La Rose has branches in Maadi and Fifth Settlement, New Cairo. If you need a structured assessment, book a consultation and bring previous reports; identifying the cause accurately is what guides safe treatment [1, 3]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز استشارة مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "إيه أعراض الأنيميا اللي ممكن تظهر في البداية؟",
+            "en": "What anaemia symptoms can appear early?"
+          },
+          "a": {
+            "ar": "ممكن يظهر تعب، ضعف، صداع، دوخة، خفقان أو نهجان مع المجهود، وممكن الأنيميا الخفيفة ما تعملش أعراض واضحة. الأعراض دي مش خاصة بالأنيميا، فوجودها يستدعي تقييم وصورة دم بدل تشخيص نفسك من الإحساس بس [1, 2].",
+            "en": "Early features may include tiredness, weakness, headache, dizziness, palpitations or breathlessness on exertion, while mild anaemia may cause no obvious symptoms. These features are not specific to anaemia, so they support assessment and a blood count rather than self-diagnosis from symptoms alone [1, 2]."
+          }
+        },
+        {
+          "q": {
+            "ar": "نسبة الأنيميا الطبيعية كام في تحليل Hb؟",
+            "en": "What is a normal haemoglobin level?"
+          },
+          "a": {
+            "ar": "مافيش رقم واحد مناسب لكل الناس. الحد بيتغير حسب السن، النوع، الحمل، الارتفاع عن سطح البحر وعوامل تانية، والمعمل بيطبع مداه المرجعي. الطبيب بيقارن Hb بالسياق والأعراض والنتائج السابقة، ومش بالرقم منفرداً [1, 3].",
+            "en": "There is no single value that is appropriate for everyone. Thresholds vary with age, sex, pregnancy, altitude and other factors, and the laboratory provides its reference interval. A clinician compares Hb with the clinical context, symptoms and previous results rather than using the number in isolation [1, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل MCV القليل معناه نقص حديد أكيد؟",
+            "en": "Does a low MCV always mean iron deficiency?"
+          },
+          "a": {
+            "ar": "لأ. نقص الحديد سبب شائع، لكن الثلاسيميا واضطرابات هيموجلوبين تانية والالتهاب المزمن ممكن يعملوا كرات صغيرة برضه. الفيريتين وباقي مؤشرات الحديد، مع التاريخ العائلي ونتائج صورة الدم، هم اللي بيوجهوا الاختبار التالي [5, 8, 10].",
+            "en": "No. Iron deficiency is common, but thalassaemia, other haemoglobin disorders and chronic inflammation can also produce small red cells. Ferritin and other iron markers, together with the family history and CBC pattern, guide the next appropriate test [5, 8, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل آخد حديد لو الهيموجلوبين قليل؟",
+            "en": "Should I take iron whenever haemoglobin is low?"
+          },
+          "a": {
+            "ar": "مش قبل ما يتأكد نقص الحديد ويتراجع السبب. الهيموجلوبين ممكن يقل بسبب B12 أو فولات، مرض كلوي، التهاب، نزيف، تكسير كرات أو اضطراب وراثي. الحديد من غير داعي مش بيعالج الأسباب دي وممكن يؤخر التشخيص، فخلي القرار للطبيب بعد الفحوص المناسبة [4, 5, 8].",
+            "en": "Not before iron deficiency and its cause have been assessed. Haemoglobin can fall because of B12 or folate deficiency, kidney disease, inflammation, bleeding, haemolysis or an inherited disorder. Unneeded iron does not treat these causes and can delay diagnosis, so the decision belongs with the clinician after appropriate testing [4, 5, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الأنيميا ممكن تكون علامة سرطان؟",
+            "en": "Can anaemia be a sign of cancer?"
+          },
+          "a": {
+            "ar": "ممكن بعض السرطانات أو النزيف المرتبط بيها يسببوا أنيميا، لكن الأنيميا لها أسباب كتير أكثر شيوعاً، ووجودها ما يعنيش سرطان. نقص وزن غير مقصود، نزيف، تغير مستمر في الإخراج أو أنيميا غير مفسرة محتاجين تقييم منظم عشان السبب يتحدد من غير تهوين ولا تهويل [4, 14].",
+            "en": "Some cancers or associated bleeding can cause anaemia, but anaemia has many more common causes and does not mean that cancer is present. Unintended weight loss, bleeding, a persistent bowel-habit change or unexplained anaemia warrants structured assessment so the cause is found without false reassurance or unnecessary alarm [4, 14]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الأنيميا وراثية أو معدية؟",
+            "en": "Is anaemia inherited or contagious?"
+          },
+          "a": {
+            "ar": "الأنيميا نفسها مش عدوى بتتنقل بين الناس. بعض أسبابها وراثي، زي الثلاسيميا واضطرابات الهيموجلوبين، وأسباب تانية مكتسبة زي نقص العناصر أو النزيف أو المرض المزمن. تاريخ العيلة وشكل صورة الدم بيساعدوا الطبيب يقرر هل اختبار وراثي أو تحليل هيموجلوبين له داعي [1, 4].",
+            "en": "Anaemia itself is not an infection passed between people. Some causes, such as thalassaemia and other haemoglobin disorders, are inherited; others are acquired through nutrient deficiency, bleeding or chronic disease. Family history and the CBC pattern help the clinician decide whether haemoglobin or genetic testing is justified [1, 4]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "World Health Organization — Anaemia",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/anaemia"
+        },
+        {
+          "label": "NHLBI — Anemia Symptoms",
+          "url": "https://www.nhlbi.nih.gov/health/anemia/symptoms"
+        },
+        {
+          "label": "NHLBI — Anemia Diagnosis",
+          "url": "https://www.nhlbi.nih.gov/health/anemia/diagnosis"
+        },
+        {
+          "label": "NHLBI — Anemia Causes and Risk Factors",
+          "url": "https://www.nhlbi.nih.gov/health/anemia/causes"
+        },
+        {
+          "label": "NHLBI — Anemia Iron-Deficiency Anemia",
+          "url": "https://www.nhlbi.nih.gov/health/anemia/iron-deficiency-anemia"
+        },
+        {
+          "label": "NHS — Causes - Vitamin B12 or folate deficiency anaemia",
+          "url": "https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/causes/"
+        },
+        {
+          "label": "NHS — Treatment - Vitamin B12 or folate deficiency anaemia",
+          "url": "https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/treatment/"
+        },
+        {
+          "label": "NHS — Iron deficiency anaemia",
+          "url": "https://www.nhs.uk/conditions/iron-deficiency-anaemia/"
+        },
+        {
+          "label": "NHS — Vitamin B12 or folate deficiency anaemia",
+          "url": "https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/"
+        },
+        {
+          "label": "NCBI Bookshelf — Mean Corpuscular Volume",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK545275/"
+        },
+        {
+          "label": "NIDDK — Anemia in Chronic Kidney Disease",
+          "url": "https://www.niddk.nih.gov/health-information/kidney-disease/anemia"
+        },
+        {
+          "label": "Oosterhuis WP et al. — Diagnostic value of the mean corpuscular volume in the detection of vitamin B12 deficiency",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10757449/"
+        },
+        {
+          "label": "NCBI Bookshelf — Anemia",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK499994/"
+        },
+        {
+          "label": "NIDDK — Symptoms & Causes of GI Bleeding",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastrointestinal-bleeding/symptoms-causes"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "الأنيميا وأعراضها: قراءة صورة الدم",
+          "en": "Anaemia symptoms and CBC results"
+        },
+        "description": {
+          "ar": "دليل عملي لفهم أعراض الأنيميا وقراءة الهيموجلوبين وMCV في صورة الدم، والفرق بين نقص الحديد وB12 وأسباب المرض المزمن وعلامات الخطر.",
+          "en": "Understand anaemia symptoms, haemoglobin and MCV patterns, common causes including iron and B12 deficiency, and warning signs needing urgent care."
+        }
+      }
+    }
+  ]
+}
