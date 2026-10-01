@@ -158,20 +158,6 @@
           "body": {
             "ar": "قبل الميعاد، اكتب اللون ظهر إمتى، وهل الملمس اتغير أو المنطقة وسعت، وصوّر صور في نفس الإضاءة لو هتفيد الدكتور، واعمل قايمة بالمنتجات والأدوية والمكملات. متستعملش الصور عشان تراقب نفسك كل يوم أو تقارن نفسك بغيرك. اسأل: إيه التشخيصات المحتملة؟ فيه عوامل خطر تستاهل فحص؟ أوقف إيه وأكمل على إيه؟ وأرجع إمتى لو الجلد متغيرش؟ الإجابة الواضحة أهم من شرا منتج جديد، ولو عايز تراجع ده وش لوش تقدر تعمل حجز كشف في لاروز. [1, 3, 5]",
             "en": "Before the visit, note when colour appeared, whether texture changed or it spread, and take same-lighting photos if they will help the clinician. Bring a list of products, medicines and supplements. Do not use photos to monitor every day or compare yourself with others. Ask: What are the possible diagnoses? Are there risk factors worth testing? What should I stop or continue? When should I return if the skin does not change? A clear answer matters more than buying another product, and if you want this reviewed in person you can book a visit at La Rose. [1, 3, 5]"
-          },
-          "links": {
-            "ar": [
-              {
-                "label": "حجز كشف في لاروز",
-                "url": "../patients/booking.html"
-              }
-            ],
-            "en": [
-              {
-                "label": "book a visit at La Rose",
-                "url": "../patients/booking.html"
-              }
-            ]
           }
         },
         {
@@ -283,8 +269,22 @@
             "en": "Calm, organised follow-up is better than daily worry"
           },
           "body": {
-            "ar": "مش محتاج تبص على لون رقبتك كل يوم أو تلوم نفسك على تغير بطيء. خلي الخطة مكتوبة معاك، وارجع في الميعاد المتفق عليه أو بدري لو ظهرت علامة تقلقك. وجود سؤال واضح وخطوة متابعة واضحة بيحميك من تجربة منتجات كتير ومن تأخير رعاية انت محتاجها. [1, 3, 5]",
-            "en": "You do not need to inspect neck colour every day or blame yourself for slow change. Keep the written plan and return at the agreed time, or sooner if a concerning sign appears. A clear question and follow-up step protect you from trying many products and from delaying needed care. [1, 3, 5]"
+            "ar": "مش محتاج تبص على لون رقبتك كل يوم أو تلوم نفسك على تغير بطيء. خلي الخطة مكتوبة معاك، وارجع في الميعاد المتفق عليه أو بدري لو ظهرت علامة تقلقك. وجود سؤال واضح وخطوة متابعة واضحة بيحميك من تجربة منتجات كتير ومن تأخير رعاية انت محتاجها. [1, 3, 5] ولو عايز تراجع الخطة مع دكتور، تقدر تحجز كشف في لاروز.",
+            "en": "You do not need to inspect neck colour every day or blame yourself for slow change. Keep the written plan and return at the agreed time, or sooner if a concerning sign appears. A clear question and follow-up step protect you from trying many products and from delaying needed care. [1, 3, 5] If you want to review the plan with a doctor, you can book a visit at La Rose."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تحجز كشف في لاروز",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "book a visit at La Rose",
+                "url": "../patients/booking.html"
+              }
+            ]
           }
         }
       ],
@@ -419,7 +419,7 @@
             "ar": "إعادة صياغة النص العربي بالعامية المصرية، وإضافة أسئلة شائعة موثقة ورابط الحجز. واتضاف جزء وسؤال بيشرحوا إزاي مقاومة الإنسولين بتغمّق الرقبة، مع مصدر جديد من الأكاديمية الأمريكية للجلدية. اتضاف سؤالين شائعين عن اختفاء الغمقان وأماكن ظهوره، بمصادرهم.",
             "en": "Arabic text rewritten in everyday Egyptian register; cited FAQs and booking link added. Added a section and FAQ explaining how insulin resistance darkens the neck, with a new AAD source. Added two cited FAQs on whether the patches fade and where they appear."
           }
-        }, {"date": "2026-10-01", "note": {"ar": "اختصرنا وصف الصفحة في نتايج البحث بالإنجليزي من غير أي تغيير في المحتوى الطبي.", "en": "Shortened the English search-result description; no change to the medical content."}}]
+        }, {"date": "2026-10-01", "note": {"ar": "اختصرنا وصف الصفحة في نتايج البحث بالإنجليزي من غير أي تغيير في المحتوى الطبي.", "en": "Shortened the English search-result description; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "ضفنا رابط الحجز في آخر جزء في المقال من غير أي تغيير في المحتوى الطبي.", "en": "Added the booking link to the final section; no change to the medical content."}}]
     }
   ]
 }
