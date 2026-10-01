@@ -1,0 +1,314 @@
+{
+  "_note": "Phase 3 new article (2026-10-01). Explains SLE symptoms, diagnostic testing, red flags, pregnancy planning and lifelong follow-up; it does not provide treatment regimens or medicine dosing.",
+  "articles": [
+    {
+      "slug": "lupus-sle-symptoms-and-tests",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "rheumatology",
+      "specialties": [
+        "rheumatology"
+      ],
+      "date": "2026-10-01",
+      "updatedAt": "2026-10-01",
+      "readingTime": 9,
+      "author": "shimaa-sherif",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/lupus-sle-symptoms-and-tests-cover.webp",
+      "title": {
+        "ar": "الذئبة الحمراء: الأعراض والتحاليل وإمتى تحتاج متابعة",
+        "en": "Lupus (SLE): Symptoms, Tests and When to Follow Up"
+      },
+      "excerpt": {
+        "ar": "أعراض الذئبة الحمراء ممكن تظهر في الجلد والمفاصل أو تبان في البول وصورة الدم. اعرف دور ANA والتحاليل الأدق والعلامات اللي محتاجة تقييم سريع.",
+        "en": "Lupus can affect the skin and joints or first appear in urine and blood results. Learn what ANA and specific tests mean and which signs need prompt assessment."
+      },
+      "tags": {
+        "ar": [
+          "الذئبة الحمراء",
+          "أعراض الذئبة",
+          "تحليل ANA",
+          "تحليل الذئبة الحمراء",
+          "التهاب الكلى الذئبي",
+          "أمراض المناعة"
+        ],
+        "en": [
+          "lupus",
+          "SLE symptoms",
+          "ANA test",
+          "lupus blood tests",
+          "lupus nephritis",
+          "autoimmune disease"
+        ]
+      },
+      "sections": [
+        {
+          "id": "what-sle-means",
+          "heading": {
+            "ar": "يعني إيه ذئبة حمراء؟ ومين ممكن تجيله؟",
+            "en": "What does lupus mean, and who can develop it?"
+          },
+          "body": {
+            "ar": "الذئبة الحمراء الجهازية، أو Systemic Lupus Erythematosus (SLE)، مرض مناعي مزمن. جهاز المناعة اللي دوره يحمي الجسم بيهاجم أنسجة من الجسم بالغلط، وده ممكن يعمل التهاب في الجلد والمفاصل والدم والكلى والرئة والقلب أو الجهاز العصبي. كلمة «جهازية» معناها إن المرض ممكن يمس أكتر من جزء؛ مش معناها إن كل شخص هيحصل له كل الأعراض أو مضاعفات الأعضاء [1, 6].\n\nأي شخص ممكن تجيله الذئبة، في الطفولة أو بعد كده، بس هي أكثر شيوعاً عند السيدات وفي سن الإنجاب. المعلومة دي بتساعد الدكتور يفكر في الاحتمال، لكنها مش اختبار تشخيص: راجل أو شخص أكبر سناً ممكن برضه يكون عنده ذئبة، ووجود إرهاق أو طفح عند سيدة صغيرة مش كفاية لوحده. التشخيص بيبدأ من نمط كامل من الأعراض والكشف والتحاليل، مش من السن أو النوع [1, 7].\n\nالمرض غالباً بيمر بفترات نشاط، الأعراض فيها تزيد أو يظهر عرض جديد، وفترات هدوء تقل فيها الأعراض أو تختفي. النمط بيختلف جداً من شخص للتاني وممكن يتغير مع الوقت. عشان كده صورة يوم واحد ماتحكيش القصة كلها. تسجيل وقت ظهور الطفح أو تورم المفاصل، علاقته بالشمس، وجود حرارة، وأي تغير في البول بيدي للطبيب خيط أدق من قائمة عامة على الإنترنت [1, 2, 6].",
+            "en": "Systemic lupus erythematosus (SLE) is a chronic autoimmune disease. The immune system, whose normal role is to protect the body, mistakenly attacks the body's own tissues. The resulting inflammation can affect the skin, joints, blood, kidneys, lungs, heart or nervous system. “Systemic” means that more than one part of the body may be involved; it does not mean that every person will develop every symptom or organ complication [1, 6].\n\nAnyone can develop lupus, during childhood or later in life, but it is more common in women and during the childbearing years. That information helps a clinician consider the possibility; it is not a diagnostic test. Men and older adults can also have lupus, while fatigue or a rash in a young woman is not enough to establish it. Diagnosis begins with a complete pattern of symptoms, examination and tests, not age or sex alone [1, 7].\n\nThe disease often has periods of activity, when symptoms increase or a new problem appears, and periods of remission, when symptoms ease or disappear. The pattern differs greatly between people and may change over time. A single day's picture therefore cannot tell the whole story. Recording when a rash or joint swelling appeared, whether it followed sun exposure, whether fever occurred, and whether urine changed gives the clinician more useful evidence than a general checklist found online [1, 2, 6]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "common-symptoms",
+          "heading": {
+            "ar": "أعراض الذئبة الحمراء: الجلد والمفاصل والإرهاق",
+            "en": "Lupus symptoms in the skin, joints and energy levels"
+          },
+          "body": {
+            "ar": "أعراض الذئبة مش قائمة ثابتة. الأعراض الشائعة بتشمل إرهاق مستمر، حرارة من غير سبب واضح، وألم أو تورم في المفاصل مع تيبس. ممكن يظهر طفح على الخدين وجسر الأنف بشكل قريب من جناحين فراشة، أو طفح دائري في أماكن تانية، أو حساسية للشمس، أو تساقط شعر، أو قرح غالباً غير مؤلمة في الفم أو الأنف. الأصابع ممكن يتغير لونها مع البرد أو الضغط النفسي، وده اسمه ظاهرة رينود [1, 7].\n\nوجود واحد من الأعراض دي مش معناه تلقائياً ذئبة. الإرهاق له أسباب كثيرة، منها قلة النوم والأنيميا واضطراب الغدة وأمراض تانية. ألم المفاصل كمان له أسباب مختلفة، والطفح له تشخيصات جلدية كتير. اللي يلفت النظر أكتر هو تجمع أعراض من أجهزة مختلفة، أو أعراض بترجع مع بعض، أو علامة واضحة في الكشف أو التحاليل. حتى طفح «الفراشة» مش موجود عند كل مريض، ومش كل احمرار على الوجه هو طفح ذئبة [1, 6, 7].\n\nقبل الكشف، صوّر الطفح وقت ظهوره لو اختفى قبل الموعد، واكتب المفاصل اللي تورمت فعلاً ومدة تيبس الصبح. فرّق بين تعب عام وبين ضيق نفس، وبين ألم مفاصل وبين مفصل ظاهر عليه تورم. ولو الإرهاق هو العرض الوحيد، تقييم الأسباب الشائعة يبقى مفيد بدل القفز مباشرة لتشخيص مناعي. المقال المرتبط عن فيتامين د بيوضح ليه الإرهاق وحده مش دليل على نقص بعينه [2, 8].",
+            "en": "Lupus symptoms do not form one fixed list. Common features include persistent fatigue, fever without a clear cause, and painful or swollen joints with stiffness. A rash may cross the cheeks and bridge of the nose in a butterfly-like shape, or round rashes may appear elsewhere. Sun sensitivity, hair loss and usually painless sores in the mouth or nose can occur. Fingers may change colour in response to cold or stress, a feature called Raynaud's phenomenon [1, 7].\n\nOne of these symptoms does not automatically mean lupus. Fatigue has many causes, including poor sleep, anaemia, thyroid disorders and other illnesses. Joint pain also has several causes, and many skin conditions cause rashes. A combination of features from different body systems, symptoms that recur together, or an objective finding on examination or testing is more informative. Even the “butterfly” rash is not present in everyone with lupus, and not every red facial rash is caused by lupus [1, 6, 7].\n\nBefore an appointment, photograph a rash while it is visible if it may fade before the visit, and record which joints were visibly swollen and how long morning stiffness lasted. Distinguish general tiredness from breathlessness, and joint aching from visible joint swelling. If fatigue is the only symptom, assessing common causes is more useful than jumping directly to an autoimmune diagnosis. The linked article on vitamin D explains why fatigue alone does not identify one particular deficiency [2, 8]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "هل الإرهاق معناه نقص فيتامين د؟",
+                "url": "../articles/qa-vitamin-d-fatigue.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Does fatigue mean vitamin D deficiency?",
+                "url": "../articles/qa-vitamin-d-fatigue.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "organs-and-red-flags",
+          "heading": {
+            "ar": "علامات الكلى والصدر والأعصاب: إمتى ماتستناش؟",
+            "en": "Kidney, chest and neurological signs: when not to wait"
+          },
+          "body": {
+            "ar": "إصابة الكلى بالذئبة ممكن ماتعملش وجع. العلامات الممكنة بتشمل بول فيه رغوة ملحوظة، دم في البول، تورم الرجلين أو القدمين أو حوالين العين، وارتفاع ضغط الدم. تحليل البول بيدور على بروتين ودم، وتحليل الدم بيقيس الكرياتينين لتقدير وظيفة الكلى. أحياناً خزعة الكلى بتكون مطلوبة لتأكيد التهاب الكلى الذئبي وتحديد طبيعته، بس القرار ده للطبيب بعد النتائج، ومش لكل شخص عنده ذئبة [3].\n\nتواصل مع طبيبك بسرعة لو لاحظت رغوة جديدة مستمرة، دم واضح، نقصاً ملحوظاً في البول أو تورماً جديداً، خصوصاً لو معاه ضغط مرتفع. المعلومات دي تخلي متابعة البول والضغط جزءاً مهماً حتى لو المفاصل والجلد هاديين. المقالان المرتبطان عن حصوات الكلى وقراءات الضغط بيفصلوا أسباباً تانية لهذه العلامات، من غير افتراض إن كل تغير سببه الذئبة [2, 3].\n\nاطلب طوارئ فوراً لو مش قادر تتنفس، عندك ألم صدر شديد، أو أعراض تشبه جلطة القلب. وتحتاج الأعراض العصبية الجديدة زي تشنج، لخبطة شديدة، ضعف مفاجئ، أو اضطراب وعي لتقييم عاجل. الذئبة ممكن ترتبط بالتهاب الغشاء حوالين القلب أو الرئة وبمشكلات عصبية، لكن العدوى والجلطات وأسباب تانية ممكن تعمل نفس الصورة. عشان كده ماتحاولش تفسر العلامة كـ«نوبة ذئبة» في البيت، وماتستناش نتيجة ANA قبل التقييم [1, 6, 7].",
+            "en": "Kidney involvement in lupus may not cause pain. Possible signs include noticeably foamy urine, blood in the urine, swelling in the legs, feet or around the eyes, and high blood pressure. Urine testing looks for protein and blood, while a blood test measures creatinine to estimate kidney function. A kidney biopsy is sometimes needed to confirm lupus nephritis and identify its pattern, but that decision follows the medical assessment and results; it is not required for everyone with lupus [3].\n\nContact a clinician promptly if you notice new persistent foam, visible blood, a marked reduction in urine or new swelling, especially with raised blood pressure. These facts explain why urine and blood-pressure monitoring remain important even when the skin and joints feel quiet. The linked articles on kidney stones and blood-pressure readings discuss other possible causes of these signs without assuming every change is due to lupus [2, 3].\n\nSeek emergency care if you cannot breathe, have severe chest pain, or have symptoms that could represent a heart attack. New neurological symptoms such as a seizure, severe confusion, sudden weakness or altered consciousness also need urgent assessment. Lupus can be associated with inflammation around the heart or lungs and with neurological problems, but infection, blood clots and other conditions can produce a similar picture. Do not try to label the sign as a “lupus flare” at home or wait for an ANA result before being assessed [1, 6, 7]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "أعراض حصوات الكلى والفحوصات",
+                "url": "../articles/kidney-stones-symptoms-and-tests.html"
+              },
+              {
+                "label": "ضغط الدم محتاج نمط قراءات",
+                "url": "../articles/blood-pressure-needs-a-pattern.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Kidney-stone symptoms and tests",
+                "url": "../articles/kidney-stones-symptoms-and-tests.html"
+              },
+              {
+                "label": "Blood pressure needs a pattern of readings",
+                "url": "../articles/blood-pressure-needs-a-pattern.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "how-diagnosis-is-made",
+          "heading": {
+            "ar": "تشخيص الذئبة مش تحليل واحد ولا مجموع نقاط منزلي",
+            "en": "Lupus diagnosis is not one test or a home score"
+          },
+          "body": {
+            "ar": "مفيش تحليل واحد يثبت الذئبة لوحده. الدكتور بيربط القصة عبر الوقت بالكشف ونتائج الدم والبول، وبيستبعد أسباباً تانية ممكن تشبهها. الأسئلة عن الطفح والشمس، تورم المفاصل، قرح الفم، ألم النفس، الأدوية والتاريخ العائلي مهمة. الكشف ممكن يشمل الجلد والمفاصل والقلب والرئة والجهاز العصبي، وبعده تتحدد التحاليل المناسبة بدل طلب «باقة مناعة» واحدة لكل الناس [2, 6, 8].\n\nالفحوص المبدئية والموجهة ممكن تشمل صورة دم كاملة للأنيميا أو نقص خلايا الدم، وظائف الكلى، تحليل بول للبروتين أو الدم، ومؤشرات التهاب. حسب النمط، الطبيب ممكن يطلب ANA ثم أجساماً مضادة أكثر تحديداً، ومكونات المتمم C3 وC4، والأجسام المضادة للفوسفوليبيد. لو فيه اشتباه بإصابة عضو، ممكن يحتاج تصوير أو خزعة من الجلد أو الكلى. كل فحص بيجاوب سؤالاً مختلفاً؛ مش معنى إن قائمة أطول تبقى أدق [2, 5, 8].\n\nمعايير EULAR/ACR المنشورة سنة 2019 بتستخدم ANA موجب مرة واحدة كبوابة، وبعدها عناصر موزونة من مجالات سريرية ومناعية. دي «معايير تصنيف» اتعملت عشان تجمع حالات متشابهة للأبحاث؛ ماتحوّلهاش لحاسبة تشخيص لنفسك. الطبيب ممكن يستفيد من إطارها، بس التشخيص السريري يفضل مبنياً على الصورة كاملة واستبعاد التفسير الأنسب الآخر. رقم المعايير أو لقطة من تطبيق مش بديل للكشف [2, 10].",
+            "en": "No single test proves lupus by itself. A clinician connects the history over time with examination, blood and urine results, while excluding other conditions that can look similar. Questions about rashes and sun exposure, joint swelling, mouth sores, pain with breathing, medicines and family history matter. Examination may cover the skin, joints, heart, lungs and nervous system, after which targeted tests can be selected instead of ordering the same autoimmune “panel” for everyone [2, 6, 8].\n\nInitial and targeted investigations may include a complete blood count for anaemia or low blood-cell counts, kidney function, urinalysis for protein or blood, and inflammation markers. Depending on the pattern, the clinician may request ANA, more specific antibodies, complement components C3 and C4, and antiphospholipid antibodies. Suspected organ involvement may require imaging or a skin or kidney biopsy. Each investigation answers a different question; a longer list is not automatically more accurate [2, 5, 8].\n\nThe 2019 EULAR/ACR criteria use a positive ANA on at least one occasion as an entry requirement, followed by weighted items from clinical and immunological domains. These are “classification criteria” developed to identify comparable groups for research; they should not become a self-diagnosis calculator. A clinician may use their framework, but clinical diagnosis still depends on the whole picture and excluding a more likely explanation. A criteria score or an app screenshot cannot replace an examination [2, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "ana-and-specific-antibodies",
+          "heading": {
+            "ar": "تحليل ANA والأجسام المضادة الأدق: النتيجة معناها إيه؟",
+            "en": "ANA and more specific antibodies: what do results mean?"
+          },
+          "body": {
+            "ar": "ANA تحليل حساس للذئبة: أغلب المصابين بالذئبة بيكون عندهم نتيجة موجبة، وعشان كده النتيجة السلبية بتخلي الاحتمال أقل. بس ANA الموجب مش تشخيص. ممكن يظهر مع أمراض مناعة تانية، بعض العدوى أو الأدوية، وممكن يظهر عند شخص سليم. النتيجة لازم تتقري مع سبب طلب التحليل والأعراض والكشف، مش جنب علامة موجب أو سالب بس [2, 4, 9].\n\nلو ANA موجب والقصة مناسبة، الطبيب ممكن يطلب anti-dsDNA وanti-Smith، وهما أكثر تحديداً للذئبة من ANA. ممكن يطلب كمان C3 وC4، والأجسام المضادة للفوسفوليبيد، وصورة الدم ووظائف الكلى وتحليل البول. الاختيارات بتتغير حسب الأعراض: متابعة احتمال إصابة الكلى مش نفس أسئلة الطفح أو الجلطات أو انخفاض الصفائح. التحليل الأكثر تخصصاً مايتطلبش عشوائياً من غير سؤال طبي واضح [2, 5, 10].\n\nعيار ANA ونمطه ممكن يضيفوا سياق، بس المعمل وحده مايعرفش يقرر هل النتيجة تفسر الأعراض. ماتكررّش ANA كل شوية لمجرد إنه موجب، وماتبدأش علاجاً من النتيجة. ولو النتيجة سلبية بس فيه علامة عضو واضحة زي بروتين في البول أو تورم مفصل موثّق، الطبيب بيراجع التشخيصات المحتملة والفحوص المناسبة بدل الاعتماد على اختبار منفرد. المهم هو السؤال السريري واتجاه النتائج، مش مطاردة كل جسم مضاد متاح [2, 4, 9].",
+            "en": "ANA is a sensitive lupus test: most people with lupus have a positive result, so a negative result makes lupus less likely. A positive ANA, however, is not a diagnosis. It can occur with other autoimmune diseases, some infections or medicines, and in healthy people. The result must be read alongside the reason for testing, symptoms and examination, not only the positive or negative flag [2, 4, 9].\n\nWhen ANA is positive and the clinical story fits, the clinician may request anti-dsDNA and anti-Smith antibodies, which are more specific for lupus than ANA. Complement C3 and C4, antiphospholipid antibodies, a blood count, kidney function and urinalysis may also be appropriate. Selection changes with the symptoms: assessing possible kidney involvement asks different questions from investigating a rash, clotting or low platelets. More specialised tests should not be ordered randomly without a clear clinical question [2, 5, 10].\n\nThe ANA titre and pattern can add context, but the laboratory alone cannot decide whether the result explains the symptoms. Do not repeatedly test ANA simply because it is positive, and do not begin treatment from the result. If ANA is negative but there is an objective organ sign such as urine protein or documented joint swelling, the clinician reviews possible diagnoses and appropriate investigations rather than relying on one test. The clinical question and the trend in relevant results matter more than chasing every available antibody [2, 4, 9]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "lifelong-follow-up-and-pregnancy",
+          "heading": {
+            "ar": "ليه المتابعة طويلة؟ وفقرة مهمة عن الحمل",
+            "en": "Why follow-up continues, with an important note on pregnancy"
+          },
+          "body": {
+            "ar": "الذئبة مرض مزمن، ونشاطه ممكن يتغير حتى بعد فترة هدوء. المتابعة المنتظمة بتراجع الأعراض والكشف وضغط الدم وصورة الدم ووظائف الكلى والبول حسب حالة الشخص، وبتراقب آثار العلاج كمان. الهدف مش عمل كل التحاليل في كل زيارة، إنما التقاط تغير مهم بدري وضبط الخطة على نشاط المرض والعضو المتأثر. ماتوقفش دواء أو تغيّر جرعته عشان الأعراض هديت من غير الرجوع للطبيب [2, 12].\n\nخارج الزيارات، سجّل أعراض النشاط اللي تخصك، زي زيادة الإرهاق أو تورم المفاصل أو طفح أو حرارة أو صداع جديد، وبلّغ الطبيب بالتغير بدل الانتظار للموعد الروتيني لو العرض مقلق. الحماية من الشمس مناسبة لو الشمس بتثير الطفح، وأي دواء أو عشبة أو مكمل جديد لازم يتراجع عشان التداخلات والآثار الجانبية. مفيش نظام غذائي خاص أو مكمل ثبت إنه يعالج الذئبة، فلا تستبدل المتابعة بوصفة منتشرة على الإنترنت [1, 2].\n\nلو فيه تفكير في الحمل، ناقش الخطة بدري مع طبيب الروماتيزم وفريق النساء قبل محاولة الحمل، وماتوقفش علاجاً من نفسك. أغلب السيدات ممكن يكون عندهم حمل ناجح، بس تقدير الخطر والمتابعة بيعتمدوا على نشاط الذئبة، وظائف الكلى، ضغط الدم، تاريخ الحمل والجلطات، والأجسام المضادة زي antiphospholipid وanti-SSA/Ro. بعض الأدوية محتاجة مراجعة قبل الحمل، والمتابعة القريبة أثناء الحمل مهمة للأم والجنين [2, 11].",
+            "en": "Lupus is chronic, and its activity can change after a quiet period. Regular follow-up reviews symptoms, examination, blood pressure, the blood count, kidney function and urine as appropriate for the individual, while also monitoring treatment effects. The aim is not to perform every test at every visit, but to detect an important change early and adjust the plan to disease activity and the affected organ. Do not stop a medicine or change its dose because symptoms have settled without speaking to the treating clinician [2, 12].\n\nBetween visits, record the flare features relevant to you, such as increasing fatigue, joint swelling, a rash, fever or a new headache, and report a change rather than waiting for a routine appointment if it is concerning. Sun protection is appropriate when sunlight triggers a rash, and every new medicine, herb or supplement should be reviewed for interactions and adverse effects. No special diet or supplement has been shown to treat lupus, so do not replace follow-up with an online remedy [1, 2].\n\nIf pregnancy is being considered, discuss the plan early with the rheumatology and obstetric teams before trying to conceive, and do not stop treatment on your own. Most women can have a successful pregnancy, but risk assessment and monitoring depend on lupus activity, kidney function, blood pressure, previous pregnancy and clotting history, and antibodies such as antiphospholipid and anti-SSA/Ro. Some medicines need review before pregnancy, and close monitoring during pregnancy is important for both mother and baby [2, 11]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "prepare-and-next-step",
+          "heading": {
+            "ar": "حضّر للكشف وخلي الخطوة الجاية مبنية على النمط",
+            "en": "Prepare for the visit and make the next step pattern-based"
+          },
+          "body": {
+            "ar": "قبل الزيارة، اكتب خطاً زمنياً بسيطاً: العرض بدأ إمتى، استمر قد إيه، إيه اللي زوده، وهل حصل مع طفح أو حرارة أو تورم مفصل أو تغير بول. خُد صور الطفح، نتائج التحاليل كاملة بمجالاتها المرجعية، وأي نتائج قديمة للمقارنة. جهّز قائمة بكل الأدوية والمكملات، واذكر عدوى قريبة أو حمل قائم أو مخطط له. التفاصيل دي بتساعد أكتر من طلب ANA من غير سياق [2, 8].\n\nاسأل بوضوح: إيه العلامات الموجودة فعلاً؟ إيه التفسيرات التانية؟ كل تحليل مطلوب هيجاوب سؤال إيه؟ وهل فيه فحص بول أو كلى محتاج يتكرر؟ لو النتيجة موجبة والأعراض غير محددة، السؤال الصح مش «أبدأ علاج إيه؟» لكن «هل فيه دليل سريري على مرض مناعي، وإيه المتابعة المناسبة؟». ولو فيه تشخيص مؤكد، اسأل عن علامات النشاط الخاصة بحالتك ومواعيد المتابعة بدل مقارنة أرقامك بشخص تاني [2, 4, 12].\n\nلو الأعراض أو النتائج محتاجة ربط منظم، الفريق الطبي في لاروز يقدر يراجع القصة والكشف والتحاليل ويحدد الخطوة المناسبة، من غير افتراض إن ANA موجب يساوي ذئبة أو إن ANA سلبي يقفل كل الاحتمالات. لاروز لها فرع في المعادي وفرع في التجمع الخامس بالقاهرة الجديدة. ومع ألم صدر شديد أو صعوبة تنفس أو أعراض عصبية جديدة، اتجه للطوارئ بدل انتظار موعد عيادة [3, 6].",
+            "en": "Before the visit, write a simple timeline: when each symptom started, how long it lasted, what made it worse, and whether it occurred with a rash, fever, joint swelling or urine change. Bring photographs of visible rashes, complete laboratory reports with their reference intervals, and older results for comparison. Prepare a list of all medicines and supplements, and mention a recent infection or a current or planned pregnancy. These details are more useful than requesting ANA without context [2, 8].\n\nAsk clearly: which findings are objectively present, what other explanations are possible, what question will each requested test answer, and whether urine or kidney testing needs repeating. If a result is positive but symptoms are nonspecific, the useful question is not “Which treatment should I start?” but “Is there clinical evidence of autoimmune disease, and what follow-up is appropriate?” With a confirmed diagnosis, ask about your own flare signs and follow-up schedule instead of comparing your numbers with another person's [2, 4, 12].\n\nWhen symptoms or results need structured interpretation, the medical team at La Rose can review the history, examination and tests and identify the appropriate next step, without assuming that a positive ANA equals lupus or that a negative ANA closes every possibility. La Rose has branches in Maadi and Fifth Settlement, New Cairo. For severe chest pain, difficulty breathing or new neurological symptoms, seek emergency care rather than waiting for a clinic appointment [3, 6]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز استشارة مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a consultation with the medical team",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "إيه أول أعراض الذئبة الحمراء؟",
+            "en": "What are the first symptoms of lupus?"
+          },
+          "a": {
+            "ar": "مفيش بداية واحدة عند كل الناس. ممكن تبدأ بإرهاق أو حرارة من غير سبب واضح، ألم وتورم مفاصل، طفح بيزيد مع الشمس، قرح فم أو تساقط شعر. الأعراض دي مشتركة مع حالات كتير، فوجود عرض واحد مش تشخيص. اللي يهم هو النمط، مدة الأعراض، العلامات في الكشف ونتائج الدم والبول المناسبة [1, 6, 7].",
+            "en": "There is no single first presentation for everyone. Lupus may begin with fatigue, fever without a clear cause, painful or swollen joints, a sun-sensitive rash, mouth sores or hair loss. These features overlap with many other conditions, so one symptom is not a diagnosis. The pattern, duration, examination findings and appropriate blood and urine results are what matter [1, 6, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تحليل ANA الموجب معناه ذئبة حمراء؟",
+            "en": "Does a positive ANA test mean lupus?"
+          },
+          "a": {
+            "ar": "لأ. ANA الموجب ممكن يظهر مع الذئبة، أمراض مناعة تانية، بعض العدوى أو الأدوية، وممكن يظهر عند شخص سليم. الدكتور بيربطه بالأعراض والكشف، وقد يطلب anti-dsDNA أو anti-Smith وتحاليل دم وبول موجهة. ماتبدأش علاجاً وماتعتبرش نفسك مريض ذئبة من النتيجة وحدها [2, 4, 9].",
+            "en": "No. A positive ANA can occur with lupus, other autoimmune diseases, some infections or medicines, and in healthy people. A clinician relates it to symptoms and examination and may request anti-dsDNA or anti-Smith antibodies and targeted blood and urine tests. Do not start treatment or label yourself as having lupus from this result alone [2, 4, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل ANA السلبي يستبعد الذئبة نهائياً؟",
+            "en": "Does a negative ANA completely rule out lupus?"
+          },
+          "a": {
+            "ar": "النتيجة السلبية بتخلي الذئبة أقل احتمالاً لأن أغلب المصابين بيكون ANA عندهم موجب، لكنها مش حكم منفصل عن القصة. لو فيه علامة موضوعية مهمة، الطبيب بيراجع طريقة الاختبار والتشخيصات البديلة والفحوص اللي تناسب العلامة. ماتكررّش التحليل أو تختار تحاليل أجسام مضادة بنفسك من غير سؤال سريري واضح [2, 4, 10].",
+            "en": "A negative result makes lupus less likely because most people with lupus have a positive ANA, but it is not a verdict separate from the clinical story. If an important objective sign is present, the clinician reviews the test method, alternative diagnoses and investigations suited to that sign. Do not repeat the test or select antibody panels on your own without a clear clinical question [2, 4, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه التحاليل اللي تكشف الذئبة الحمراء؟",
+            "en": "Which tests are used when lupus is suspected?"
+          },
+          "a": {
+            "ar": "الاختيار بيتحدد من الأعراض. غالباً بيكون فيه ANA، صورة دم، وظائف كلى وتحليل بول. بعد ANA موجب وقصة مناسبة، ممكن الطبيب يطلب anti-dsDNA وanti-Smith وC3 وC4 والأجسام المضادة للفوسفوليبيد. أحياناً يلزم تصوير أو خزعة جلد أو كلى. ولا واحد من دول يشخّص الذئبة بعيداً عن الكشف وباقي الصورة [2, 5, 8].",
+            "en": "Test selection follows the symptoms. It often includes ANA, a complete blood count, kidney function and urinalysis. After a positive ANA with a compatible clinical story, the clinician may request anti-dsDNA, anti-Smith, C3, C4 and antiphospholipid antibodies. Imaging or a skin or kidney biopsy is sometimes needed. None of these diagnoses lupus away from the examination and complete picture [2, 5, 8]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الذئبة الحمراء بتأثر على الكلى من غير أعراض؟",
+            "en": "Can lupus affect the kidneys without obvious symptoms?"
+          },
+          "a": {
+            "ar": "ممكن إصابة الكلى ماتعملش ألماً واضحاً، وعشان كده تحليل البول ووظائف الكلى وضغط الدم مهمين في المتابعة حسب خطة الطبيب. البول الرغوي، الدم في البول، التورم أو ارتفاع الضغط علامات محتاجة تواصل سريع. الخزعة مش تحليل روتيني لكل مريض؛ بتتعمل لما النتائج تشير إن معرفة نمط الإصابة هتوجّه القرار [2, 3].",
+            "en": "Kidney involvement may not cause obvious pain, which is why urinalysis, kidney function and blood pressure are important in follow-up according to the clinician's plan. Foamy urine, blood in the urine, swelling or raised blood pressure need prompt contact. Biopsy is not routine for every patient; it is used when results suggest that identifying the kidney-injury pattern will guide decisions [2, 3]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الذئبة الحمراء بتخف نهائياً؟ وليه المتابعة مستمرة؟",
+            "en": "Can lupus go away completely, and why is follow-up ongoing?"
+          },
+          "a": {
+            "ar": "الذئبة مرض مزمن ومفيش شفاء نهائي متاح حالياً، بس فترات هدوء طويلة ممكنة والعلاج بيساعد على التحكم في الأعراض وتقليل النشاط وحماية الأعضاء. المتابعة مستمرة لأن الأعراض ممكن تتغير، وأحياناً يظهر تغير في البول أو الدم قبل ما الشخص يحس بمشكلة واضحة، ولأن العلاج نفسه محتاج مراقبة. ماتوقفش العلاج وقت الهدوء من نفسك [2, 6, 12].",
+            "en": "Lupus is chronic and there is currently no cure, but long periods of remission are possible and treatment can control symptoms, reduce activity and protect organs. Follow-up continues because symptoms can change, urine or blood results may sometimes change before an obvious problem is felt, and treatment itself requires monitoring. Do not stop treatment on your own during a quiet period [2, 6, 12]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Systemic Lupus Erythematosus (Lupus)",
+          "url": "https://www.niams.nih.gov/health-topics/lupus"
+        },
+        {
+          "label": "Systemic Lupus Erythematosus (Lupus): Diagnosis, Treatment, and Steps to Take",
+          "url": "https://www.niams.nih.gov/health-topics/lupus/diagnosis-treatment-and-steps-to-take"
+        },
+        {
+          "label": "Lupus & Kidney Disease (Lupus Nephritis)",
+          "url": "https://www.niddk.nih.gov/health-information/kidney-disease/lupus-nephritis"
+        },
+        {
+          "label": "ANA (Antinuclear Antibody) Test: MedlinePlus Medical Test",
+          "url": "https://medlineplus.gov/lab-tests/ana-antinuclear-antibody-test/"
+        },
+        {
+          "label": "Systemic lupus erythematosus: MedlinePlus Medical Encyclopedia",
+          "url": "https://medlineplus.gov/ency/article/000435.htm"
+        },
+        {
+          "label": "Lupus: What It Is, Symptoms, Causes & Treatment",
+          "url": "https://my.clevelandclinic.org/health/diseases/4875-lupus"
+        },
+        {
+          "label": "Lupus - NHS",
+          "url": "https://www.nhs.uk/conditions/lupus/"
+        },
+        {
+          "label": "Testing for Lupus | Arthritis Foundation",
+          "url": "https://www.arthritis.org/health-wellness/about-arthritis/understanding-arthritis/lupus-testing"
+        },
+        {
+          "label": "Antinuclear Antibodies (ANA) | American College of Rheumatology",
+          "url": "https://rheumatology.org/patients/antinuclear-antibodies-ana"
+        },
+        {
+          "label": "2019 European League Against Rheumatism/American College of Rheumatology Classification Criteria for Systemic Lupus Erythematosus",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31385462/"
+        },
+        {
+          "label": "EULAR recommendations for women's health and the management of family planning, assisted reproduction, pregnancy and menopause in patients with systemic lupus erythematosus and/or antiphospholipid syndrome.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27457513/"
+        },
+        {
+          "label": "EULAR recommendations for the management of systemic lupus erythematosus: 2023 update",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37827694/"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "الذئبة الحمراء: الأعراض والتحاليل",
+          "en": "Lupus (SLE): Symptoms and Tests Explained"
+        },
+        "description": {
+          "ar": "دليل هادي لأعراض الذئبة الحمراء، معنى تحليل ANA، التحاليل الأدق، علامات إصابة الكلى والصدر والأعصاب، وليه المتابعة المستمرة مهمة.",
+          "en": "A calm guide to lupus symptoms, ANA and specific tests, kidney, chest and neurological warning signs, and why long-term follow-up matters."
+        }
+      }
+    }
+  ]
+}
