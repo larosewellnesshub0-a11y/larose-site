@@ -232,11 +232,11 @@ ${finder({ c, locale, depth })}
 <section class="section" id="digital">
   <div class="wrap">
     ${sectionHead({
-      eyebrow: t({ ar: "لاروز ديچيتال", en: "La Rose Digital" }, locale),
-      title: t({ ar: "لو مش قادر توصل العيادة", en: "For when you cannot get to the clinic" }, locale),
+      eyebrow: t({ ar: "لاروز ديجيتال", en: "La Rose Digital" }, locale),
+      title: t({ ar: "علشان نكون معاك في كل مكان وطول الوقت", en: "So we can be with you everywhere, all the time" }, locale),
       lede: t({
-        ar: "خدمتين مصممين تشتغلوا من أي مكان: كتاب وصفات عملي، وبرنامج متابعة أونلاين بنفس الخطة ونفس المتابعة الأسبوعية.",
-        en: "Two services designed to work from anywhere: a practical recipe book, and an online follow-up programme with the same plan and the same weekly review.",
+        ar: "ونقدر نخليكم تعيشوا الحياة الصحية اللي بتحلموا بيها، وفرنالكم خدمات مختلفة زي:",
+        en: "and help you live the healthy life you have been hoping for, we offer a range of services, such as:",
       }, locale),
     })}
     <div class="grid grid-2">

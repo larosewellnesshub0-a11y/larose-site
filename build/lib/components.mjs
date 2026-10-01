@@ -91,6 +91,31 @@ export function specialtyCard({ c, locale, depth, sp }) {
 /* --------------------------------------------------------------------------
    Doctor card
    -------------------------------------------------------------------------- */
+/* A bookable doctor's week, one line per branch ("فرع المعادي: السبت · الاتنين"). Built from
+   `schedule` (the same data the booking form uses), so the card can never list a
+   day the form refuses. `hoursByBranch` overrides `hours` where a branch differs. */
+const WEEK_ORDER = [6, 0, 1, 2, 3, 4, 5];
+const DAY_NAMES = {
+  ar: ["الأحد", "الاتنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"],
+  en: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+};
+export function doctorSchedule({ c, locale, d }) {
+  const branches = published(c.branches);
+  const groups = Object.entries(d.schedule || {}).filter(([, days]) => (days || []).length);
+  return `<div class="card__schedule">${map(groups, ([slug, days]) => {
+    const b = branches.find((x) => t(x.slug, "en") === slug);
+    const hours = (d.hoursByBranch && d.hoursByBranch[slug]) || d.hours;
+    const sorted = WEEK_ORDER.filter((n) => days.includes(n));
+    const name = t(b ? b.shortName || b.name : slug, locale);
+    const label = locale === "ar" ? `فرع ${name}:` : `${name} branch:`;
+    const dayText = sorted.map((n) => DAY_NAMES[locale === "ar" ? "ar" : "en"][n]).join(" · ");
+    return `<div class="card__branch">
+        <p class="card__branch-name">${icon("pin")} <span><strong>${esc(label)}</strong> <span class="card__branch-days">${esc(dayText)}</span></span></p>
+        ${when(hours, `<p class="card__hours">${icon("clock")} ${esc(t(hours, locale))}</p>`)}
+      </div>`;
+  })}</div>`;
+}
+
 export function doctorCard({ c, locale, depth, d }) {
   const s = c.site;
   const media = d.portrait
@@ -111,7 +136,7 @@ export function doctorCard({ c, locale, depth, d }) {
         <a class="card__link" href="${link(depth, `doctors/${d.slug}.html`)}">${esc(t(d.name, locale))}</a>
       </h3>
       <p class="card__role">${esc(t(d.title, locale))}</p>
-      ${when(d.days, `<p class="card__days">${icon("calendar")} ${esc(t(d.days, locale))} · ${esc(t(d.hours, locale))}</p>`)}
+      ${d.schedule ? doctorSchedule({ c, locale, d }) : when(d.days, `<p class="card__days">${icon("calendar")} ${esc(t(d.days, locale))} · ${esc(t(d.hours, locale))}</p>`)}
     </div>
   </article>`;
 }

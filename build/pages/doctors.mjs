@@ -7,7 +7,7 @@ import {
 } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
 import {
-  sectionHead, crumbs, pageHero, specialtyCard, doctorCard, reviewCard,
+  sectionHead, crumbs, pageHero, specialtyCard, doctorCard, doctorSchedule, reviewCard,
   sampleNotice, ctaBand,
 } from "../lib/components.mjs";
 
@@ -147,10 +147,10 @@ function doctorDetail({ c, locale, doctor, specs }) {
         <div class="prose">
           <ul>${map(credentials, (credential) => `<li>${esc(credential)}</li>`)}</ul>
         </div>
-        <div class="cluster">
+        ${doctor.schedule ? `<div class="doctor-schedule">${doctorSchedule({ c, locale, d: doctor })}</div>` : `<div class="cluster">
           ${when(t(doctor.days, locale), `<span class="chip">${icon("calendar")} ${esc(t(doctor.days, locale))}</span>`)}
           ${when(t(doctor.hours, locale), `<span class="chip">${icon("clock")} ${esc(t(doctor.hours, locale))}</span>`)}
-        </div>
+        </div>`}
         <div class="cluster" style="margin-top:.75rem">
           <a class="btn btn--primary btn--lg" href="${link(depth, "patients/booking.html")}">${esc(t(c.site.ui.bookNow, locale))}</a>
           <a class="btn btn--whatsapp btn--lg" href="${esc(t(c.site.contact.whatsapp.href, locale))}" target="_blank" rel="noopener">

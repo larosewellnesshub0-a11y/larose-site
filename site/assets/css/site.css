@@ -805,6 +805,24 @@ table { border-collapse: collapse; width: 100%; }
   display: inline-flex; align-items: center; gap: .4em;
 }
 
+:is(.card--doctor, .doctor-schedule) .card__schedule { display: grid; gap: .55rem; margin-top: .15rem; }
+:is(.card--doctor, .doctor-schedule) .card__branch { display: grid; gap: .15rem; }
+:is(.card--doctor, .doctor-schedule) .card__branch-name {
+  display: inline-flex; align-items: center; gap: .4em;
+  font-size: var(--t-xs); font-weight: 700; color: var(--ink);
+}
+:is(.card--doctor, .doctor-schedule) .card__branch-name { display: flex; align-items: baseline; flex-wrap: nowrap; }
+:is(.card--doctor, .doctor-schedule) .card__branch-name > svg { flex: none; align-self: center; }
+:is(.card--doctor, .doctor-schedule) .card__branch-days { color: var(--champagne-700); font-weight: 600; }
+:is(.card--doctor, .doctor-schedule) .card__day-list {
+  list-style: none; margin: 0; padding-inline-start: 1.4em;
+  font-size: var(--t-xs); color: var(--champagne-700); font-weight: 600; line-height: 1.6;
+}
+:is(.card--doctor, .doctor-schedule) .card__hours {
+  display: inline-flex; align-items: center; gap: .4em; padding-inline-start: 1.4em;
+  font-size: var(--t-xs); color: var(--ink-muted);
+}
+
 /* -- article card ---------------------------------------------------------- */
 .card--article .card__media { aspect-ratio: 16 / 10; }
 .card--article .card__meta {
