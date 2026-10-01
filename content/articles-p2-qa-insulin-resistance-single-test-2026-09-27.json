@@ -13,13 +13,20 @@
         "weight-management"
       ],
       "date": "2026-09-07",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "history": [
         {
           "date": "2026-09-27",
           "note": {
             "ar": "وسّعنا الإجابة عشان تشرح فروق التحاليل وحدود الإنسولين الصايم وHOMA-IR، واتراجعت طبياً من جديد. وضفنا سؤال «صايم ولا فاطر» لتحليل مقاومة الإنسولين وعنوان بحث أوضح.",
             "en": "We expanded the answer to explain test differences and the limits of fasting insulin and HOMA-IR, and medically re-reviewed it. We added a question on fasting before the insulin resistance test and a clearer search title."
+          }
+        },
+        {
+          "date": "2026-10-01",
+          "note": {
+            "ar": "حدّثنا عنوان البحث ووصفه ليركزوا على تحليل مقاومة الإنسولين والقيمة الطبيعية وشروط الصيام، وضفنا توضيحاً لمجال الإنسولين الصايم.",
+            "en": "We updated the search title and description around insulin-resistance testing, normal values and fasting conditions, and clarified the fasting-insulin reference interval."
           }
         }
       ],
@@ -28,8 +35,8 @@
       "reviewedBy": "alyaa-abu-taleb",
       "image": "assets/img/articles/clinical-nutrition-3.webp",
       "title": {
-        "ar": "هل فيه تحليل واحد يثبت مقاومة الإنسولين؟",
-        "en": "Is there one test that proves insulin resistance?"
+        "ar": "تحليل مقاومة الإنسولين: هل اختبار واحد يثبتها؟",
+        "en": "Insulin Resistance Test: Can One Result Prove It?"
       },
       "excerpt": {
         "ar": "لأ، مفيش تحليل روتيني واحد يثبت مقاومة الإنسولين لكل الناس. افهم دور السكر الصايم والتراكمي واختبار التحمل، وليه الإنسولين الصايم وHOMA-IR لازم يتقرو في سياق كامل.",
@@ -194,8 +201,8 @@
             "en": "Is the insulin resistance test done fasting or after eating?"
           },
           "a": {
-            "ar": "في الغالب صايم. الإنسولين الصايم وHOMA-IR بيتحسبوا من عينة سكر وإنسولين وانت صايم، والأكل قبل العينة بيرفع الاتنين فالقراءة ما تبقاش معبّرة [6, 7]. سكر الصايم نفسه بيتعمل بعد صيام 8 ساعات على الأقل، وغالباً الصبح [3]، أما التراكمي HbA1c فعادة مش محتاج صيام [4]. مدة الصيام بالظبط وتوقيت الأدوية بيحددهم الطبيب والمعمل، وما توقفش دواء من نفسك. وخلي بالك إن مفيش «رقم طبيعي» واحد لـHOMA-IR ينفع لكل الناس، فالنتيجة تتقري مع مرجع المعمل وحالتك [7, 8].",
-            "en": "Usually fasting. Fasting insulin and HOMA-IR are calculated from a fasting glucose and insulin sample, and eating beforehand raises both, so the reading stops being meaningful [6, 7]. Fasting plasma glucose itself is taken after at least 8 hours without food, usually in the morning [3], while HbA1c ordinarily needs no fast [4]. The exact fasting time and medicine timing are set by the clinician and laboratory, so do not stop any medicine yourself. There is also no single \"normal\" HOMA-IR value that fits everyone, so the result is read against the laboratory reference and your own situation [7, 8]."
+            "ar": "في الغالب صايم. الإنسولين الصايم وHOMA-IR بيتحسبوا من عينة سكر وإنسولين وانت صايم، والأكل قبل العينة بيرفع الاتنين فالقراءة ما تبقاش معبّرة [6, 7]. سكر الصايم نفسه بيتعمل صباحاً بعد صيام 8 ساعات على الأقل من غير أكل أو مشروبات غير رشفات مية [3]، أما التراكمي HbA1c فعادة مش محتاج صيام [4]. مدة الصيام بالظبط وتوقيت الأدوية بيحددهم الطبيب والمعمل، وما توقفش دواء من نفسك. وخلي بالك إن مفيش «رقم طبيعي» واحد لـHOMA-IR ينفع لكل الناس، فالنتيجة تتقري مع مرجع المعمل وحالتك [7, 8].",
+            "en": "Usually fasting. Fasting insulin and HOMA-IR are calculated from a fasting glucose and insulin sample, and eating beforehand raises both, so the reading stops being meaningful [6, 7]. Fasting plasma glucose is taken in the morning after at least 8 hours with no food or drink except sips of water [3], while HbA1c ordinarily needs no fast [4]. The exact fasting time and medicine timing are set by the clinician and laboratory, so do not stop any medicine yourself. There is also no single \"normal\" HOMA-IR value that fits everyone, so the result is read against the laboratory reference and your own situation [7, 8]."
           }
         },
         {
@@ -257,6 +264,16 @@
             "ar": "ما تختارش التحليل من نفسك. تكيس المبايض مرتبط بخطر أعلى لاضطراب تحمل الجلوكوز والسكري، وإرشادات الغدد أوصت باختبار تحمل الجلوكوز لفحص الاضطراب في سياقات التكيس، مع إمكان استخدام HbA1c لو الاختبار مش ممكن. القرار النهائي والتوقيت يعتمدا على الطبيب والحمل والأعراض والنتائج السابقة [11].",
             "en": "Do not select the test by yourself. PCOS is linked with a higher risk of impaired glucose tolerance and diabetes. Endocrine guidance recommends an oral glucose tolerance test for glycaemic screening in PCOS, with HbA1c considered when the tolerance test cannot be completed. The treating clinician should decide the test and timing according to pregnancy, symptoms and earlier results [11]."
           }
+        },
+        {
+          "q": {
+            "ar": "هل المجال الطبيعي للإنسولين الصايم هو نفسه النسبة الطبيعية لمقاومة الإنسولين؟",
+            "en": "Is the fasting-insulin reference range the same as a normal insulin-resistance value?"
+          },
+          "a": {
+            "ar": "لأ. المجال المطبوع جنب الإنسولين الصايم خاص بطريقة القياس والمعمل، وخروج النتيجة عنه ما يحددش لوحده سبب الارتفاع أو درجة مقاومة ثابتة. HOMA-IR رقم مشتق من الإنسولين والجلوكوز الصايمين، لكنه كمان ما عندوش حد عالمي واحد بسبب اختلاف السكان وطرق التحليل. لازم النتيجتين والوحدات ومدة الصيام والسياق الصحي يتراجعوا مع بعض [6, 7, 8].",
+            "en": "No. The interval printed beside fasting insulin belongs to that laboratory and assay; a result outside it does not by itself identify the cause or establish a fixed degree of resistance. HOMA-IR is derived from fasting insulin and glucose, but it also has no single universal cut-off because populations and assays differ. The two results, units, fasting conditions and clinical context must be reviewed together [6, 7, 8]."
+          }
         }
       ],
       "sources": [
@@ -281,7 +298,7 @@
           "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/diabetes/game-plan-preventing-type-2-diabetes/prediabetes-screening-how-why/recommended-tests-identifying-prediabetes"
         },
         {
-          "label": "Brown et al. — Measuring Insulin Resistance in Humans (PubMed)",
+          "label": "Sharma et al. — Measuring Insulin Resistance in Humans (PubMed)",
           "url": "https://pubmed.ncbi.nlm.nih.gov/33934092/"
         },
         {
@@ -331,12 +348,12 @@
       },
       "seo": {
         "title": {
-          "ar": "تحليل مقاومة الإنسولين: صايم ولا فاطر؟ وهل تحليل واحد يكفي؟",
-          "en": "Insulin resistance test: fasting or not, and is one test enough?"
+          "ar": "تحليل مقاومة الإنسولين: الطبيعي وشروط الصيام",
+          "en": "Insulin Resistance Test: Normal Values and Fasting"
         },
         "description": {
-          "ar": "تحليل مقاومة الإنسولين بيتعمل صايم ولا فاطر؟ وهل رقم واحد يثبته؟ اعرف دور السكر الصايم والتراكمي والإنسولين الصايم وHOMA-IR، وليه مفيش رقم طبيعي واحد لكل الناس.",
-          "en": "Is the insulin resistance test done fasting? Learn what fasting glucose, HbA1c, fasting insulin and HOMA-IR show, why one number is not proof, and why no single normal value fits all."
+          "ar": "اعرف شروط تحليل مقاومة الإنسولين والصيام 8 ساعات لسكر الصيام، ودور الإنسولين الصايم وHOMA-IR، وليه مفيش نسبة طبيعية واحدة لكل الناس.",
+          "en": "Learn the fasting conditions for insulin-resistance testing, what fasting insulin and HOMA-IR show, and why no single normal value fits everyone."
         }
       }
     }

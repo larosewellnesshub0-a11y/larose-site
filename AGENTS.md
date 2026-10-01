@@ -119,6 +119,13 @@ This is a generated bilingual static site. Work from source, not from output.
     `_project/MAADI-DISTANCES-2026-10-01.md`. All named areas are within about
     10 km. Branch FAQs may mention Mounjaro or Wegovy only as prescribed after a
     consultation, when suitable. No prices, stock claims or results.
+22. **Editing a live article.** When you edit a live article (query-gap passes,
+    fixes), append new sources to `sources` and never replace or renumber
+    existing ones. Every `[n]` in the article points at the existing list. If a
+    source returns a transient 5xx (NICE often returns 500 to scripts), that is
+    not a reason to swap it: retry, or check it in a browser. Only correct a
+    label to match the real title or author. Reviewers diff each source against
+    HEAD before shipping.
 
 See `PROJECT.md` for the source map and `_project/LAUNCH.md` for the deployment
 runbook.

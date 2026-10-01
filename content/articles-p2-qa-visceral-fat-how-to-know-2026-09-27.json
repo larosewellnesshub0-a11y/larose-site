@@ -13,7 +13,7 @@
         "clinical-nutrition"
       ],
       "date": "2026-09-07",
-      "updatedAt": "2026-09-27",
+      "updatedAt": "2026-10-01",
       "readingTime": 10,
       "author": "shimaa-fouad",
       "reviewedBy": "alyaa-abu-taleb",
@@ -32,6 +32,13 @@
           "note": {
             "ar": "اتوسّعت الإجابة بشرح قياس الخصر وحدود أجهزة تركيب الجسم والتصوير وتقييم الخطر والخطوات العملية، واتراجعت طبياً من جديد.",
             "en": "The answer was expanded with waist measurement, limits of body-composition devices and imaging, risk assessment and practical next steps, and was medically re-reviewed."
+          }
+        },
+        {
+          "date": "2026-10-01",
+          "note": {
+            "ar": "حدّثنا عناوين البحث، وضفنا إجابات مباشرة عن قياس الدهون الحشوية في البيت ومعنى تقييم الجهاز والنطاق العملي.",
+            "en": "We updated the search titles and added direct answers on checking visceral fat at home and interpreting device ratings and a practical range."
           }
         }
       ],
@@ -266,6 +273,26 @@
             "ar": "مفيش وتيرة واحدة مناسبة للجميع. القياس اليومي للخصر غالباً يلتقط الانتفاخ والخطأ أكتر من تغير الدهون؛ كل عدة أسابيع وبنفس الطريقة بيكون أهدى وأنفع لخطة كتير من الناس. تكرار تحليل الجسم يتحدد بالهدف وهل النتيجة هتغيّر قراراً. لو القياس بيزود القلق أو الحرمان، ناقش تقليله مع المختص [2, 3, 9].",
             "en": "There is no universal schedule. Daily waist measurement often captures bloating and measurement error more than fat change; every few weeks with the same method is calmer and more useful for many plans. Repeat body composition according to the goal and whether the result will change a decision. If measuring increases anxiety or restriction, discuss reducing it with the clinician [2, 3, 9]."
           }
+        },
+        {
+          "q": {
+            "ar": "إزاي أقيس الدهون الحشوية في البيت خطوة بخطوة؟",
+            "en": "How do I measure visceral fat at home step by step?"
+          },
+          "a": {
+            "ar": "مافيش اختبار منزلي بيقيس الدهون حوالين الأعضاء مباشرة، لكن تقدر تتابع محيط الخصر كمؤشر عملي: استخدم شريطاً غير مطاطي، وقف مستقيم وبطنك مرتاحة، وحط الشريط أفقياً في منتصف المسافة بين آخر ضلع وأعلى عظمة الحوض. خُد القراءة بعد زفير طبيعي من غير ما تضغط الجلد، وكرر القياس بنفس المكان والطريقة كل مرة. اربط الاتجاه بالطول والضغط والسكر والدهون بدل ما تعتبره تشخيصاً [2, 3, 4].",
+            "en": "No home test directly measures fat around the organs, but waist circumference is a practical marker. Use a non-stretch tape, stand upright with the abdomen relaxed, and keep the tape horizontal midway between the lowest rib and the top of the hip bone. Read it after a normal breath out without compressing the skin, then use the same landmark and method each time. Interpret the trend with height, blood pressure, glucose and lipids rather than treating it as a diagnosis [2, 3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه تقييم الدهون الحشوية أو النطاق الطبيعي اللي المفروض أستهدفه؟",
+            "en": "What should my visceral fat rating or normal range be?"
+          },
+          "a": {
+            "ar": "مافيش نطاق طبيعي واحد لتقييم الدهون الحشوية ينطبق على كل أجهزة InBody والموازين، لأن الرقم تقدير بمعادلة خاصة بالجهاز؛ قارنه فقط بمرجع نفس الجهاز وتحت ظروف متشابهة [1, 9]. كدليل منزلي منفصل للبالغين اللي مؤشر كتلتهم أقل من 35، NICE بتستخدم نسبة الخصر للطول، والرسالة العملية هي إن الخصر يفضل أقل من نصف الطول. دي أداة لتقدير الخطر، مش قياساً مباشراً للدهون الحشوية ولا ضماناً للصحة [3, 4].",
+            "en": "There is no single normal visceral-fat rating shared by every InBody model and home scale because the value is an estimate produced by a device-specific equation; compare it only with that device's own reference under similar conditions [1, 9]. As a separate home guide for adults with BMI below 35, NICE uses waist-to-height ratio and advises keeping the waist below half the height. That is a risk-screening tool, not a direct visceral-fat measurement or a guarantee of health [3, 4]."
+          }
         }
       ],
       "sources": [
@@ -279,7 +306,7 @@
         },
         {
           "label": "NICE — Overweight and Obesity Management (NG246): Identifying and Assessing Central Adiposity",
-          "url": "https://www.nice.org.uk/guidance/ng246/resources/overweight-and-obesity-management-pdf-66143959958725"
+          "url": "https://www.nice.org.uk/guidance/ng246/chapter/Identifying-and-assessing-overweight-obesity-and-central-adiposity"
         },
         {
           "label": "Ross et al. — Waist Circumference as a Vital Sign: IAS/ICCR Consensus Statement (PubMed, 2020)",
@@ -320,12 +347,12 @@
       ],
       "seo": {
         "title": {
-          "ar": "الدهون الحشوية: إزاي تعرف إن عندك زيادة؟",
-          "en": "Visceral fat: how do you know if you have too much?"
+          "ar": "إزاي تقيس الدهون الحشوية؟ التقييم والنطاق الطبيعي",
+          "en": "How to Measure Visceral Fat: Rating & Normal Range"
         },
         "description": {
-          "ar": "اعرف إزاي تقدّر الدهون الحشوية بقياس الخصر، وحدود InBody والسونار والتصوير، وإمتى تحتاج تقييماً طبياً وخطوات آمنة لتقليل الخطر.",
-          "en": "Learn how waist estimates visceral-fat risk, the limits of InBody and imaging, when medical assessment helps, and safe ways to reduce risk."
+          "ar": "اعرف إزاي تقيس محيط الخصر في البيت، وتفهم تقييم الدهون الحشوية والنطاق العملي، وحدود InBody والتصوير، وإمتى تحتاج تقييماً طبياً.",
+          "en": "Learn how to check visceral fat at home with a waist measurement, what device ratings mean, the practical range, and when imaging is useful."
         }
       }
     }
