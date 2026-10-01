@@ -704,7 +704,7 @@
 
     function refreshDay() {
       var days = allowedDays();
-      if (daySel) daySel.min = new Date().toISOString().slice(0, 10);
+      if (daySel) { var now = new Date(); daySel.min = new Date(now.getTime() - now.getTimezoneOffset() * 60000).toISOString().slice(0, 10); }
       if (!dayHint) return;
       if (!days) {
         dayHint.textContent = isArabic
