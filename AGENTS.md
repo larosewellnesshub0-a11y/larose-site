@@ -134,5 +134,17 @@ This is a generated bilingual static site. Work from source, not from output.
     source file of an article, match its `sections` against the effective
     content from `loadContent()`; several files override each other.
 
+24. **Check every citation label against NCBI, site-wide.** The 2026-10-01 scan
+    (`_project/scratch/check_source_titles.py`, which handles dict labels) found about 80
+    labels in older rewrites and new articles that named the wrong first author or title,
+    and several URLs that pointed at an unrelated paper. Correct the label to esummary's
+    first author and title, or the URL to the real paper. Do not swap the source (rule 22).
+    BAD scores on short paraphrased labels for the right paper are expected, e.g.
+    "Methodological standards", Bosy-Westphal, Ascher and Mechanick.
+25. **Some files are shadowed.** `articles-p2-<slug>-*.json` replaces any earlier
+    file's article with the same slug (`build/lib/util.mjs`). A `*-rewrite-*` article
+    with a p2 twin is not live, so `check_new_article.py` failures on it don't matter.
+    Find the live file with `loadContent()` before editing.
+
 See `PROJECT.md` for the source map and `_project/LAUNCH.md` for the deployment
 runbook.
