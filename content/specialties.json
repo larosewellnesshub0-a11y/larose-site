@@ -1425,751 +1425,8 @@
    }
   },
   {
-   "slug": "general-surgery",
-   "index": "07",
-   "published": true,
-   "staffed": false,
-   "featured": false,
-   "hasBeforeAfter": false,
-   "hasReviews": true,
-   "icon": "scalpel",
-   "name": {
-    "ar": "الجراحة العامة والمناظير",
-    "en": "General & Laparoscopic Surgery"
-   },
-   "short": {
-    "ar": "الجراحة العامة",
-    "en": "General Surgery"
-   },
-   "sub": {
-    "ar": "تقييم واضح وصريح قبل أي قرار جراحي",
-    "en": "A clear, honest assessment before any surgical decision"
-   },
-   "intro": {
-    "ar": "مش كل حالة محتاجة عملية. قسم الجراحة العامة في لاروز بيبدأ بتقييم كامل يشمل الفحص، السونار، والتحاليل. بعدها بيتحدد إذا كانت الجراحة هي الحل الأنسب فعلًا ولا في طريق تاني. ولو العملية هي الحل، بنشرح لك نوعها وبدائلها ومدة التعافي قبل ما تاخد أي قرار.",
-    "en": "Not every case needs an operation. General surgery at La Rose starts with a full assessment, including examination, ultrasound and lab tests. Only then is it decided whether surgery is genuinely the most suitable option or whether there is another route. If surgery is the answer, we explain the procedure, its alternatives and the recovery time before you make any decision."
-   },
-   "consultationIncludes": {
-    "heading": {
-     "ar": "الاستشارة الجراحية بتشمل",
-     "en": "A surgical consultation includes"
-    },
-    "items": {
-     "ar": [
-      "الفحص الإكلينيكي",
-      "مراجعة التحاليل والأشعة",
-      "سونار لو الحالة محتاجاه",
-      "شرح الخيارات المتاحة والخطوة الجاية"
-     ],
-     "en": [
-      "A clinical examination",
-      "Review of your labs and imaging",
-      "An ultrasound where the case calls for it",
-      "An explanation of the available options and the next step"
-     ]
-    }
-   },
-   "treats": {
-    "ar": [
-     "الفتق بأنواعه (سري، إربي، جراحي)",
-     "حصوات المرارة والتهاب المرارة",
-     "الزائدة الدودية",
-     "البواسير والشرخ والناسور",
-     "أورام وأكياس الجلد الحميدة",
-     "جراحات الغدة الدرقية",
-     "الخراريج والالتهابات الجراحية",
-     "جراحات الثدي الحميدة"
-    ],
-    "en": [
-     "Hernias of all types (umbilical, inguinal, incisional)",
-     "Gallstones and cholecystitis",
-     "Appendicitis",
-     "Haemorrhoids, anal fissure and fistula",
-     "Benign skin lumps and cysts",
-     "Thyroid surgery",
-     "Abscesses and surgical infections",
-     "Benign breast surgery"
-    ]
-   },
-   "treatments": [
-    {
-     "slug": "surgical-consultation",
-     "name": {
-      "ar": "استشارة جراحية",
-      "en": "Surgical consultation"
-     },
-     "summary": {
-      "ar": "تقييم الحالة وتحديد لو الجراحة مطلوبة",
-      "en": "Assessing the case and deciding whether surgery is needed"
-     },
-     "body": {
-      "ar": "الاستشارة بتشمل الفحص الإكلينيكي، ومراجعة التحاليل والأشعة، والسونار لو الحالة محتاجاه، وشرح واضح للخيارات المتاحة، بما فيها خيار إننا منعملش عملية دلوقتي. بتخرج عارفة حالتك بالظبط وإيه الخطوة الجاية.",
-      "en": "The consultation covers the clinical examination, a review of your labs and imaging, an ultrasound where the case calls for it, and a clear explanation of the options available, including the option of not operating now. You leave knowing exactly what your situation is and what the next step is."
-     }
-    },
-    {
-     "slug": "laparoscopic-surgery",
-     "name": {
-      "ar": "جراحات المناظير",
-      "en": "Laparoscopic surgery"
-     },
-     "summary": {
-      "ar": "من غير فتح كبير، وتعافي أسرع",
-      "en": "No large incision, and a faster recovery"
-     },
-     "body": {
-      "ar": "معظم جراحات المرارة والفتق والزائدة بتتعمل دلوقتي بالمنظار من خلال فتحات صغيرة بدل الفتح الكبير. الفايدة: ألم أقل بعد العملية، وقت أقصر في المستشفى، وتعافي أسرع، وأثر جراحي أصغر بكتير.",
-      "en": "Most gallbladder, hernia and appendix operations are now done laparoscopically through small incisions rather than an open cut. The benefits: less pain afterwards, a shorter hospital stay, faster recovery and a far smaller scar."
-     }
-    }
-   ],
-   "faq": [
-    {
-     "q": {
-      "ar": "هل كل فتق محتاج عملية؟",
-      "en": "Does every hernia need an operation?"
-     },
-     "a": {
-      "ar": "لأ. في فتوق صغيرة ومن غير أعراض ممكن تتابَع بالمراقبة. بس الفتق اللي بيكبر أو بيوجع أو بيسبب انسداد محتاج تدخل، والتأخير فيه بيزوّد الخطورة. التقييم بيفرّق بين الحالتين.",
-      "en": "No. Small, symptom-free hernias can sometimes be watched. But a hernia that is enlarging, painful, or causing obstruction needs intervention, and delaying raises the risk. The assessment distinguishes between the two."
-     }
-    },
-    {
-     "q": {
-      "ar": "التعافي بياخد قد إيه؟",
-      "en": "How long is the recovery?"
-     },
-     "a": {
-      "ar": "بيختلف حسب نوع العملية وطريقتها. جراحات المناظير عموماً بترجّعك لنشاطك الطبيعي أسرع بكتير من الفتح التقليدي. الدكتور بيحدد لك المدة المتوقعة لحالتك قبل العملية.",
-      "en": "It depends on the procedure and the approach. Laparoscopic operations generally return you to normal activity far faster than open surgery. The surgeon will give you the expected timeline for your specific case before the operation."
-     }
-    },
-    {
-     "q": {
-      "ar": "العمليات بتتعمل فين؟",
-      "en": "Where are the operations performed?"
-     },
-     "a": {
-      "ar": "الاستشارة والتقييم والمتابعة بعد العملية بتتم في العيادة. العمليات نفسها بتتعمل في مستشفى مجهّز، والدكتور هيحدد معاك التفاصيل.",
-      "en": "The consultation, the assessment and the post-operative follow-up take place at the clinic. The operations themselves are performed in an equipped hospital, and the surgeon will agree the details with you."
-     }
-    },
-    {
-     "q": {
-      "ar": "خسّيت ولسه عندي دهون عنيدة، هل محتاج عملية؟",
-      "en": "I lost weight but still have stubborn local fat. Do I need an operation?"
-     },
-     "a": {
-      "ar": "مش بالضرورة. الدهون الموضعية أو الجلد الزائد يختلفوا عن السمنة اللي تستدعي جراحة، والاختيار يعتمد على ثبات الوزن، المنطقة، الجلد، الصحة والهدف الواقعي. التقييم يوضح هل الأفضل متابعة، إجراء غير جراحي، رأي تجميل متخصص، أو تدخل جراحي.",
-      "en": "Not necessarily. Local fat or excess skin is different from obesity requiring surgery, and the choice depends on weight stability, area, skin, health and a realistic aim. Assessment can separate observation, a non-surgical option, specialist plastic-surgery advice or an operation."
-     }
-    },
-    {
-     "q": {
-      "ar": "وزني عالي وتعبت من الرجيم، إمتى أفكر في عملية سمنة؟",
-      "en": "My weight is high and diets have not worked. When should I consider bariatric surgery?"
-     },
-     "a": {
-      "ar": "القرار ما يتاخدش من الوزن وحده ولا من فشل رجيم واحد. الجراح يراجع مؤشر الكتلة، الأمراض المصاحبة، المحاولات السابقة، الاستعداد للمتابعة والمخاطر، ويشرح البدائل. التقييم ممكن ينتهي بخطة غير جراحية أو إحالة لمسار جراحة السمنة.",
-      "en": "The decision does not come from weight alone or one unsuccessful diet. A surgeon reviews BMI, related conditions, previous attempts, readiness for follow-up and risk, and explains alternatives. Assessment may lead to a non-surgical plan or the bariatric pathway."
-     }
-    },
-    {
-     "q": {
-      "ar": "أختار علاج دوائي ولا عملية للسمنة؟",
-      "en": "Should I choose medicine or surgery for obesity?"
-     },
-     "a": {
-      "ar": "مفيش اختيار أفضل لكل الناس. القرار يعتمد على شدة السمنة، الأمراض المصاحبة، الاستجابة السابقة، موانع العلاج، تفضيلك وقدرتك على المتابعة طويلة المدى. المطلوب مقارنة الفائدة والمخاطر والالتزام لكل اختيار مع فريق إدارة الوزن والجراحة.",
-      "en": "There is no best option for everyone. The decision depends on severity, related illness, previous response, contraindications, your preference and ability to continue long-term follow-up. Compare benefits, risks and commitments with the weight-management and surgical teams."
-     }
-    }
-   ],
-   "seo": {
-    "title": {
-     "ar": "الجراحة العامة والمناظير في المعادي | عيادات لاروز",
-     "en": "General & Laparoscopic Surgery | La Rose Wellness Hub"
-    },
-    "description": {
-     "ar": "استشارات الجراحة العامة وجراحات المناظير في المعادي: الفتق، المرارة، الزائدة، البواسير، وجراحات الغدة الدرقية، بتقييم صريح قبل أي قرار جراحي.",
-     "en": "General and laparoscopic surgery consultations in Maadi: hernia, gallbladder, appendix, haemorrhoids and thyroid surgery, with an honest assessment before any surgical decision."
-    }
-   }
-  },
-  {
-   "slug": "bariatric-surgery",
-   "index": "08",
-   "published": true,
-   "staffed": false,
-   "featured": false,
-   "hasBeforeAfter": true,
-   "hasReviews": true,
-   "icon": "activity",
-   "name": {
-    "ar": "جراحات السمنة",
-    "en": "Bariatric Surgery"
-   },
-   "short": {
-    "ar": "جراحات السمنة",
-    "en": "Bariatric Surgery"
-   },
-   "sub": {
-    "ar": "لما تكون الجراحة هي الحل المناسب فعلًا",
-    "en": "For when surgery genuinely is the right option"
-   },
-   "intro": {
-    "ar": "جراحة السمنة مش أول خطوة، ومش مناسبة لكل حالة. في لاروز بنبدأ بالتقييم: درجة السمنة، الأمراض المصاحبة، التاريخ العلاجي، والاستعداد النفسي والجسدي. لو حالتك مناسبة للحلول غير الجراحية، هنقولك بوضوح ونحوّلك لقسم إدارة الوزن. ولو الجراحة هي الأنسب، الفرق بيبان في التحضير والمتابعة بعدها، مش في العملية نفسها.",
-    "en": "Bariatric surgery is not the first step, and it is not suitable for every case. At La Rose, we begin with an assessment of the degree of obesity, associated conditions, treatment history, and physical and psychological readiness. If non-surgical options are suitable for your case, we will tell you clearly and refer you to the weight-management department. If surgery is the most suitable option, the difference lies in the preparation and follow-up afterwards, not in the operation itself."
-   },
-   "consultationIncludes": {
-    "heading": {
-     "ar": "تقييم ملاءمة جراحة السمنة بيشمل",
-     "en": "A bariatric surgery eligibility assessment includes"
-    },
-    "items": {
-     "ar": [
-      "حساب مؤشر كتلة الجسم",
-      "تحليل التركيب الجسمي بجهاز InBody",
-      "مراجعة التحاليل والتاريخ العلاجي والأمراض المصاحبة",
-      "تقييم الاستعداد لتعليمات ما بعد العملية"
-     ],
-     "en": [
-      "Calculating your BMI",
-      "An InBody body-composition analysis",
-      "Reviewing your labs, treatment history and associated conditions",
-      "Assessing readiness for the post-operative instructions"
-     ]
-    }
-   },
-   "treats": {
-    "ar": [
-     "السمنة المفرطة (BMI ٤٠ فأكتر)",
-     "السمنة مع أمراض مصاحبة (سكر، ضغط، انقطاع النفس النومي)",
-     "فشل المحاولات المتكررة لإنقاص الوزن",
-     "متابعة ما بعد جراحات السمنة",
-     "تصحيح مضاعفات جراحات سابقة",
-     "التغذية العلاجية قبل وبعد الجراحة"
-    ],
-    "en": [
-     "Severe obesity (BMI 40 and above)",
-     "Obesity with associated conditions (diabetes, hypertension, sleep apnoea)",
-     "Repeated failed attempts at weight loss",
-     "Follow-up after bariatric surgery",
-     "Correcting complications of previous procedures",
-     "Therapeutic nutrition before and after surgery"
-    ]
-   },
-   "treatments": [
-    {
-     "slug": "eligibility-assessment",
-     "name": {
-      "ar": "تقييم مدى ملاءمة الجراحة",
-      "en": "Eligibility assessment"
-     },
-     "summary": {
-      "ar": "الخطوة اللي بتحدد لو الجراحة أصلاً هي الحل",
-      "en": "The step that decides whether surgery is the answer at all"
-     },
-     "body": {
-      "ar": "التقييم بيشمل حساب مؤشر كتلة الجسم، وتحليل التركيب الجسمي بجهاز InBody، ومراجعة التحاليل والتاريخ العلاجي، وتقييم الأمراض المصاحبة، والاستعداد للالتزام بتعليمات ما بعد العملية، لأن دي بالظبط اللي بتحدد نجاحها على المدى الطويل.",
-      "en": "The assessment covers your BMI, an InBody body-composition analysis, a review of your labs and treatment history, an evaluation of associated conditions, and your readiness to follow the post-operative instructions, because that is precisely what determines long-term success."
-     }
-    },
-    {
-     "slug": "sleeve-gastrectomy",
-     "name": {
-      "ar": "التكميم",
-      "en": "Sleeve gastrectomy"
-     },
-     "summary": {
-      "ar": "تصغير حجم المعدة بالمنظار",
-      "en": "Reducing the stomach's size laparoscopically"
-     },
-     "body": {
-      "ar": "بيتم فيه قص وإزالة جزء كبير من المعدة عشان يقل حجمها، فتقل الكمية اللي بتتاكل ويقل هرمون الجوع. بيتعمل بالمنظار من خلال فتحات صغيرة. الإجراء أقل تعقيداً من التحويل، والنتيجة المتوقعة كبيرة وسريعة، بس بتفضل معتمدة على الالتزام بالتعليمات الغذائية بعد العملية.",
-      "en": "A large part of the stomach is removed to reduce its volume, so the amount eaten falls and the hunger hormone drops. It is done laparoscopically through small incisions. The procedure is less complex than a bypass, and the expected result is substantial and rapid, but it remains dependent on following the dietary instructions afterwards."
-     }
-    },
-    {
-     "slug": "post-op-nutrition",
-     "name": {
-      "ar": "التغذية والمتابعة بعد العملية",
-      "en": "Post-operative nutrition and follow-up"
-     },
-     "summary": {
-      "ar": "الجزء اللي بيحدد إذا كانت العملية هتنجح ولا لأ",
-      "en": "The part that decides whether the operation succeeds"
-     },
-     "body": {
-      "ar": "العملية بتصغّر المعدة، بس هي لوحدها مش علاج نهائي للسمنة. بعد الجراحة بتحتاج تدرّج غذائي محسوب من السوائل للأكل اللين للأكل العادي، ومتابعة للفيتامينات والمعادن، وخطة بروتين تحمي الكتلة العضلية. ده اللي بيمنع رجوع الوزن وبيمنع نقص التغذية، وبيتعمل هنا مع قسم التغذية العلاجية.",
-      "en": "The operation shrinks the stomach, but on its own it is not a definitive cure for obesity. Afterwards you need a measured progression from liquids to soft food to normal eating, monitoring of vitamins and minerals, and a protein plan that protects your muscle mass. This is what prevents both weight regain and malnutrition, and it is done here alongside the clinical nutrition department."
-     }
-    }
-   ],
-   "faq": [
-    {
-     "q": {
-      "ar": "إمتى أكون محتاج جراحة سمنة؟",
-      "en": "When would I actually need bariatric surgery?"
-     },
-     "a": {
-      "ar": "عموماً لما يكون مؤشر كتلة الجسم ٤٠ فأكتر، أو ٣٥ فأكتر مع مرض مصاحب زي السكر أو انقطاع النفس النومي، وبعد ما تكون جرّبت طرق تانية لإنقاص الوزن وما نجحتش. التقييم في العيادة هو اللي بيحدد ده بالظبط لحالتك.",
-      "en": "Generally when BMI is 40 or above, or 35 or above with an associated condition such as diabetes or sleep apnoea, and after other routes to weight loss have been tried without success. The assessment at the clinic is what establishes this precisely for your case."
-     }
-    },
-    {
-     "q": {
-      "ar": "إيه الفرق بين التكميم والحقن؟",
-      "en": "What is the difference between a sleeve and the injections?"
-     },
-     "a": {
-      "ar": "التكميم إجراء جراحي دائم بيغيّر حجم المعدة. الحقن علاج دوائي بيتوقف وقت ما نقرر نوقفه. الحقن بقت بديل حقيقي لكتير من الحالات اللي زمان كانت هتروح للجراحة، بس مش لكل حالة، ودي بالظبط اللي التقييم بيحددها.",
-      "en": "A sleeve is a permanent surgical procedure that changes the size of the stomach. The injections are a medication that can be stopped when we decide to stop it. The injections have become a genuine alternative for many cases that would once have gone to surgery: but not for every case, and that is exactly what the assessment establishes."
-     }
-    },
-    {
-     "q": {
-      "ar": "الوزن ممكن يرجع بعد العملية؟",
-      "en": "Can the weight come back after surgery?"
-     },
-     "a": {
-      "ar": "أيوه، لو ما اتغيرتش العادات. الجراحة بتدي فرصة، بس اللي بيثبّت النتيجة هو التدرّج الغذائي الصح والمتابعة والالتزام على المدى الطويل. عشان كده متابعة التغذية بعد العملية جزء أساسي من الخطة مش إضافة.",
-      "en": "Yes, if habits do not change. Surgery creates an opportunity, but what holds the result is the correct dietary progression, follow-up and long-term commitment. That is why post-operative nutrition follow-up is a core part of the plan, not an add-on."
-     }
-    },
-    {
-     "q": {
-      "ar": "فيه مخاطر؟",
-      "en": "Are there risks?"
-     },
-     "a": {
-      "ar": "زي أي إجراء جراحي، أيوه، وأهمها نقص الفيتامينات والمعادن، والارتجاع، ومضاعفات جراحية عامة. بس مخاطر السمنة نفسها في الحالات اللي بتستدعي الجراحة بتكون أكبر. الدكتور بيشرح لك المخاطر الخاصة بحالتك بالتفصيل قبل أي قرار.",
-      "en": "As with any surgical procedure, yes: the main ones being vitamin and mineral deficiency, reflux, and the general risks of surgery. But in the cases that warrant surgery, the risks of the obesity itself are greater. The surgeon explains the risks specific to your case in detail before any decision."
-     }
-    },
-    {
-     "q": {
-      "ar": "رجع جزء من وزني بعد جراحة السمنة، ينفع علاج دوائي؟",
-      "en": "Some weight returned after bariatric surgery. Could medicine help?"
-     },
-     "a": {
-      "ar": "ممكن يكون مناسباً لبعض الحالات، لكن الأول نراجع نوع العملية، مسار الوزن، الأكل، الأعراض، نقص العناصر والأدوية. الجراح وفريق إدارة الوزن يحددوا هل السبب سلوكي أو طبي أو متعلق بالعملية، وهل الدواء أو خطوة تانية هي الأنسب.",
-      "en": "It may suit selected cases, but first review the procedure, weight course, food, symptoms, nutrient status and medicines. The surgical and weight-management teams establish whether the cause is behavioural, medical or procedure-related and whether medicine or another step is appropriate."
-     }
-    },
-    {
-     "q": {
-      "ar": "عندي شخير وتوقف نفس أثناء النوم، ده يفرق في تقييم جراحة السمنة؟",
-      "en": "I snore and stop breathing during sleep. Does that affect bariatric assessment?"
-     },
-     "a": {
-      "ar": "أيوه، لازم يتقال للفريق لأنه ممكن يشير لانقطاع النفس أثناء النوم ويؤثر على تقييم التخدير والمتابعة. ما تستناش العملية عشان تفحصه؛ قد تحتاج دراسة نوم وعلاجاً قبل الجراحة، حسب الأعراض والنتيجة.",
-      "en": "Yes. Tell the team because it may indicate sleep apnoea and affect anaesthetic assessment and follow-up. Do not wait for surgery to investigate it; a sleep study and treatment may be needed beforehand, depending on symptoms and results."
-     }
-    },
-    {
-     "q": {
-      "ar": "أظبط أكلي قبل وبعد جراحة السمنة إزاي؟",
-      "en": "How should I manage food before and after bariatric surgery?"
-     },
-     "a": {
-      "ar": "الخطة تختلف حسب نوع العملية وتعليمات الجراح، وبتتدرج في القوام والكميات بعد الجراحة مع اهتمام بالبروتين والسوائل والمكملات الموصوفة. ما تنقلش جدول شخص تاني، وارجع للفريق بسرعة لو مش قادر تشرب، فيه قيء متكرر أو ألم متزايد.",
-      "en": "The plan depends on the procedure and surgeon's instructions. Texture and portions progress after surgery, with attention to protein, fluids and prescribed supplements. Do not copy another person's schedule, and contact the team promptly if you cannot drink, vomit repeatedly or have increasing pain."
-     }
-    }
-   ],
-   "seo": {
-    "title": {
-     "ar": "جراحات السمنة والتكميم في المعادي | عيادات لاروز",
-     "en": "Bariatric Surgery in Maadi | La Rose Wellness Hub"
-    },
-    "description": {
-     "ar": "تقييم واستشارات جراحات السمنة في المعادي: التكميم، التقييم قبل الجراحة، والتغذية والمتابعة بعد العملية مع قسم التغذية العلاجية.",
-     "en": "Bariatric surgery assessment and consultations in Maadi: sleeve gastrectomy, pre-operative evaluation, and post-operative nutrition and follow-up with the clinical nutrition department."
-    }
-   }
-  },
-  {
-   "slug": "dermatology",
-   "index": "09",
-   "published": true,
-   "staffed": false,
-   "featured": false,
-   "hasBeforeAfter": true,
-   "hasReviews": true,
-   "icon": "sparkle",
-   "name": {
-    "ar": "الجلدية والتجميل",
-    "en": "Dermatology & Aesthetics"
-   },
-   "short": {
-    "ar": "الجلدية",
-    "en": "Dermatology"
-   },
-   "sub": {
-    "ar": "علاج طبي للبشرة، مش وصفات عامة",
-    "en": "Medical treatment for your skin, not generic prescriptions"
-   },
-   "intro": {
-    "ar": "كتير من مشاكل البشرة والشعر ممكن يكون سببها من جوه: نقص فيتامينات، خلل هرموني، مقاومة إنسولين، أو مشكلة في الغدة الدرقية. عشان كده قسم الجلدية في لاروز بيشتغل جنب قسمي التغذية والباطنة، فبنعالج البشرة موضعيًا وبندوّر على السبب في نفس الوقت.",
-    "en": "Many skin and hair problems can have an internal cause, including vitamin deficiency, hormonal imbalance, insulin resistance or a thyroid disorder. That is why dermatology at La Rose works alongside the nutrition and internal medicine departments: we treat the skin directly while looking for the underlying cause at the same time."
-   },
-   "consultationIncludes": {
-    "heading": {
-     "ar": "كشف الجلدية بيشمل",
-     "en": "A dermatology consultation includes"
-    },
-    "items": {
-     "ar": [
-      "فحص البشرة أو فروة الرأس",
-      "مراجعة التاريخ الطبي والأدوية والتحاليل",
-      "تحديد لو المشكلة موضعية أو ليها سبب داخلي",
-      "خطة مكتوبة مبنية على التقييم"
-     ],
-     "en": [
-      "Examination of the skin or scalp",
-      "Review of your medical history, medications and labs",
-      "Establishing whether the problem is local or has an internal cause",
-      "A written plan based on the assessment"
-     ]
-    }
-   },
-   "treats": {
-    "ar": [
-     "حب الشباب وآثاره",
-     "التصبغات والكلف والهالات السوداء",
-     "تساقط الشعر والثعلبة",
-     "الإكزيما والصدفية",
-     "حساسية الجلد والشرى",
-     "الفطريات والعدوى الجلدية",
-     "الثآليل والزوائد الجلدية",
-     "علامات التمدد بعد نزول الوزن",
-     "شيخوخة البشرة والتجاعيد"
-    ],
-    "en": [
-     "Acne and acne scarring",
-     "Pigmentation, melasma and dark circles",
-     "Hair loss and alopecia",
-     "Eczema and psoriasis",
-     "Skin allergy and urticaria",
-     "Fungal and other skin infections",
-     "Warts and skin tags",
-     "Stretch marks after weight loss",
-     "Skin ageing and wrinkles"
-    ]
-   },
-   "treatments": [
-    {
-     "slug": "dermatology-consultation",
-     "name": {
-      "ar": "كشف جلدية",
-      "en": "Dermatology consultation"
-     },
-     "summary": {
-      "ar": "تشخيص السبب مش الأعراض بس",
-      "en": "Diagnosing the cause, not just the symptom"
-     },
-     "body": {
-      "ar": "الكشف بيشمل فحص البشرة أو فروة الرأس، ومراجعة التاريخ الطبي والأدوية والتحاليل، وتحديد لو المشكلة موضعية ولا ليها سبب داخلي محتاج تحاليل. الخطة بتتكتب على أساس ده، مش وصفة عامة.",
-      "en": "The consultation covers examination of the skin or scalp, a review of your medical history, medications and labs, and establishing whether the problem is local or has an internal cause that needs investigating. The plan is written on that basis, not as a generic prescription."
-     }
-    },
-    {
-     "slug": "acne-programme",
-     "name": {
-      "ar": "برنامج علاج حب الشباب",
-      "en": "Acne treatment programme"
-     },
-     "summary": {
-      "ar": "خطة على مراحل، مش علاج واحد",
-      "en": "A staged plan, not a single treatment"
-     },
-     "body": {
-      "ar": "حب الشباب مش نوع واحد ومش سبب واحد. البرنامج بيبدأ بتحديد النوع والدرجة، وفحص الأسباب الهرمونية أو الغذائية لو موجودة، وبعدها خطة علاج موضعي أو دوائي على مراحل مع متابعة، وبعدين مرحلة علاج الآثار.",
-      "en": "Acne is not one type and not one cause. The programme begins by identifying the type and grade, checking for hormonal or dietary causes where present, then a staged topical or systemic treatment plan with follow-up, and finally a phase for treating the scarring."
-     }
-    },
-    {
-     "slug": "hair-loss",
-     "name": {
-      "ar": "علاج تساقط الشعر",
-      "en": "Hair loss treatment"
-     },
-     "summary": {
-      "ar": "بيبدأ بتحليل مش بمنتج",
-      "en": "Starts with a blood test, not a product"
-     },
-     "body": {
-      "ar": "تساقط الشعر عرض مش تشخيص. أول خطوة عندنا تحاليل: الحديد والفيريتين، فيتامين د، الغدة الدرقية، والهرمونات لو الحالة تستدعي. لأن علاج التساقط من غير ما نعرف السبب بيضيّع وقت وفلوس. ولو السبب نقص غذائي، بيتحوّل لقسم التغذية عشان يتعالج من جذوره.",
-      "en": "Hair loss is a symptom, not a diagnosis. The first step here is blood work: iron and ferritin, vitamin D, thyroid function, and hormones where the case calls for it. Treating hair loss without knowing the cause wastes time and money. If the cause is nutritional, the case moves to the nutrition department to be treated at its root."
-     }
-    }
-   ],
-   "faq": [
-    {
-     "q": {
-      "ar": "ليه بتطلبوا تحاليل لتساقط الشعر؟",
-      "en": "Why do you ask for blood tests for hair loss?"
-     },
-     "a": {
-      "ar": "لأن أشهر أسباب التساقط عندنا نقص الحديد والفيريتين، ونقص فيتامين د، وخلل الغدة الدرقية، وكلها ما بتتحلش بمنتج موضعي. لما نعرف السبب، العلاج بيبقى أسرع وأرخص وأثبت.",
-      "en": "Because the commonest causes of hair loss we see are iron and ferritin deficiency, vitamin D deficiency and thyroid dysfunction, none of which is solved by a topical product. Once we know the cause, treatment is faster, cheaper and more durable."
-     }
-    },
-    {
-     "q": {
-      "ar": "علاقة البشرة بالتغذية إيه؟",
-      "en": "What does skin have to do with nutrition?"
-     },
-     "a": {
-      "ar": "علاقة مباشرة. مقاومة الإنسولين وتكيس المبايض بيظهروا على البشرة كحب شباب هرموني وشعر زايد. ونقص الزنك وفيتامين د وأوميجا ٣ بيظهر كجفاف وتساقط. عشان كده قسمي الجلدية والتغذية بيشتغلوا مع بعض هنا.",
-      "en": "A direct one. Insulin resistance and PCOS show on the skin as hormonal acne and excess hair. Deficiencies in zinc, vitamin D and omega-3 show as dryness and shedding. That is why the dermatology and nutrition departments work together here."
-     }
-    },
-    {
-     "q": {
-      "ar": "علامات التمدد بعد نزول الوزن ليها علاج؟",
-      "en": "Can stretch marks after weight loss be treated?"
-     },
-     "a": {
-      "ar": "بتتحسن، بس التوقّع لازم يكون واقعي: العلامات الحديثة (الحمراء) بتستجيب أحسن بكتير من القديمة (البيضا). وأفضل تعامل معاها هو الوقاية، الترطيب وجلسات الشد أثناء نزول الوزن مش بعده.",
-      "en": "They improve, but the expectation has to be realistic: recent marks (red) respond far better than old ones (white). The best approach is prevention: moisturising and tightening sessions while the weight is coming off, rather than afterwards."
-     }
-    },
-    {
-     "q": {
-      "ar": "شعري بيقع وأنا بخس بعلاج دوائي، أوقف العلاج؟",
-      "en": "My hair is shedding during medical weight loss. Should I stop treatment?"
-     },
-     "a": {
-      "ar": "ما توقفش من نفسك. التساقط ممكن يرتبط بسرعة النزول أو قلة البروتين والطاقة أو نقص الحديد أو الغدة أو سبب في فروة الرأس، وممكن يكون للدواء دور. راجع التوقيت والأكل والأدوية مع الطبيب، واعمل كشف جلدية لو فيه بقع أو التهاب أو تساقط واضح.",
-      "en": "Do not stop it yourself. Shedding may relate to the pace of loss, too little protein or energy, iron or thyroid problems, a scalp condition, or the medicine. Review timing, food and treatment with the prescriber, and arrange dermatology assessment for patches, inflammation or marked loss."
-     }
-    },
-    {
-     "q": {
-      "ar": "ميزوثيرابي الشعر يوقف التساقط لكل الحالات؟",
-      "en": "Does hair mesotherapy stop every type of hair loss?"
-     },
-     "a": {
-      "ar": "لأ. تساقط الشعر عرض له أسباب مختلفة، والإجراء الموضعي ما يعالجش نقص الحديد أو الغدة أو مرضاً في فروة الرأس تلقائياً. التشخيص ييجي الأول، وبعده الطبيب يشرح هل للميزوثيرابي دور، حدود الدليل، المخاطر والبدائل.",
-      "en": "No. Hair loss is a symptom with different causes, and a local procedure does not automatically treat iron deficiency, thyroid disease or a scalp disorder. Diagnosis comes first; then the clinician can explain whether mesotherapy has a role, the limits of evidence, risks and alternatives."
-     }
-    },
-    {
-     "q": {
-      "ar": "ميزوثيرابي الوجه ينفع للهالات والنضارة؟",
-      "en": "Can facial mesotherapy help dark circles and skin radiance?"
-     },
-     "a": {
-      "ar": "الهالات والبهتان لهم أسباب كتير، والنتيجة تعتمد على السبب والمادة المستخدمة؛ مفيش بروتوكول واحد أو ضمان. كشف الجلدية يفرّق بين التصبغ، الأوعية، الحساسية، فقدان الحجم أو سبب داخلي، ويشرح إذا كان الحقن مناسباً أو فيه بديل أدق.",
-      "en": "Dark circles and dullness have many causes, and results depend on the cause and injected substance; there is no universal protocol or guarantee. Dermatology assessment separates pigment, vessels, allergy, volume loss or an internal cause and explains whether injection or another option is more appropriate."
-     }
-    }
-   ],
-   "seo": {
-    "title": {
-     "ar": "الجلدية والتجميل في المعادي | عيادات لاروز التخصصية",
-     "en": "Dermatology & Aesthetics in Maadi | La Rose Wellness Hub"
-    },
-    "description": {
-     "ar": "كشف جلدية في المعادي: حب الشباب، التصبغات، تساقط الشعر، والإكزيما، بتشخيص السبب الداخلي جنب العلاج الموضعي.",
-     "en": "Dermatology consultations in Maadi: acne, pigmentation, hair loss and eczema, diagnosing the internal cause alongside topical treatment."
-    }
-   }
-  },
-  {
-   "slug": "pediatrics",
-   "index": "10",
-   "published": true,
-   "staffed": false,
-   "featured": false,
-   "hasBeforeAfter": false,
-   "hasReviews": true,
-   "icon": "heart",
-   "name": {
-    "ar": "طب الأطفال",
-    "en": "Paediatrics"
-   },
-   "short": {
-    "ar": "طب الأطفال",
-    "en": "Paediatrics"
-   },
-   "sub": {
-    "ar": "متابعة النمو والتغذية من أول يوم",
-    "en": "Growth and nutrition follow-up from day one"
-   },
-   "intro": {
-    "ar": "قسم الأطفال في لاروز بيغطي المتابعة الدورية للنمو، التطعيمات، والأمراض الشائعة. وبيشتغل جنب قسم التغذية في الحالات اللي محتاجة خطة غذائية متخصصة، زي النحافة، السمنة عند الأطفال، فقدان الشهية، والحساسية الغذائية.",
-    "en": "Paediatrics at La Rose covers routine growth monitoring, vaccination and common childhood illnesses. It also works alongside the nutrition department for cases that need a specialised nutrition plan, including underweight children, childhood obesity, poor appetite and food allergy."
-   },
-   "consultationIncludes": {
-    "heading": {
-     "ar": "متابعة نمو الطفل بتشمل",
-     "en": "A child growth appointment includes"
-    },
-    "items": {
-     "ar": [
-      "قياس الوزن والطول ومحيط الرأس",
-      "تسجيل القياسات على منحنيات النمو المعتمدة",
-      "مراجعة مسار نمو الطفل",
-      "تحديد إذا كان أي انحراف محتاج بحث"
-     ],
-     "en": [
-      "Measuring weight, height and head circumference",
-      "Plotting the measurements on standard growth charts",
-      "Reviewing the child's growth trajectory",
-      "Establishing whether any deviation needs investigation"
-     ]
-    }
-   },
-   "treats": {
-    "ar": [
-     "متابعة النمو والوزن والطول",
-     "التطعيمات الأساسية والاختيارية",
-     "نزلات البرد والحساسية الصدرية",
-     "المغص والإمساك ومشاكل الهضم عند الأطفال",
-     "فقدان الشهية والنحافة عند الأطفال",
-     "السمنة عند الأطفال والمراهقين",
-     "الحساسية الغذائية",
-     "الأنيميا ونقص فيتامين د",
-     "متابعة حديثي الولادة"
-    ],
-    "en": [
-     "Growth, weight and height monitoring",
-     "Routine and optional vaccinations",
-     "Colds and respiratory allergy",
-     "Colic, constipation and digestive problems in children",
-     "Poor appetite and underweight children",
-     "Obesity in children and adolescents",
-     "Food allergy",
-     "Anaemia and vitamin D deficiency",
-     "Newborn follow-up"
-    ]
-   },
-   "treatments": [
-    {
-     "slug": "growth-monitoring",
-     "name": {
-      "ar": "متابعة النمو",
-      "en": "Growth monitoring"
-     },
-     "summary": {
-      "ar": "على منحنيات النمو المعتمدة، مش بالتقدير",
-      "en": "Against standard growth charts, not by impression"
-     },
-     "body": {
-      "ar": "قياس الوزن والطول ومحيط الرأس وتسجيلهم على منحنيات النمو المعتمدة، عشان نعرف لو الطفل ماشي في المسار الطبيعي له هو، مش مقارنة بطفل تاني. الانحراف عن المنحنى هو اللي بيستدعي بحث، مش الرقم في حد ذاته.",
-      "en": "Weight, height and head circumference measured and plotted on standard growth charts, so we can see whether the child is following their own normal trajectory, not a comparison with another child. It is deviation from the curve that warrants investigation, not the number itself."
-     }
-    },
-    {
-     "slug": "child-nutrition",
-     "name": {
-      "ar": "تغذية الأطفال",
-      "en": "Children's nutrition"
-     },
-     "summary": {
-      "ar": "مع أخصائية تغذية علاجية متخصصة في تغذية الأطفال",
-      "en": "With a clinical nutrition specialist experienced in children's nutrition"
-     },
-     "body": {
-      "ar": "فقدان الشهية والنحافة عند الأطفال مش دايماً مشكلة سلوكية، أحياناً بيكون وراها أنيميا أو نقص زنك أو حساسية طعام. الخطة بتتبني بعد فحص وتحاليل، وبتتصمم لتكون قابلة للتطبيق فعلاً مع طفل، مش جدول مثالي.",
-      "en": "Poor appetite and being underweight in children is not always behavioural: anaemia, zinc deficiency or a food intolerance can sit behind it. The plan is built after examination and blood work, and is designed to be something a child will actually follow rather than an ideal chart."
-     }
-    },
-    {
-     "slug": "vaccination",
-     "name": {
-      "ar": "التطعيمات",
-      "en": "Vaccination"
-     },
-     "summary": {
-      "ar": "الجدول الأساسي والاختياري",
-      "en": "The routine and optional schedules"
-     },
-     "body": {
-      "ar": "متابعة جدول التطعيمات الأساسي، ومناقشة التطعيمات الاختيارية وإيه اللي منها مناسب لطفلك ومتى. وبنراجع معاك الجدول لو كان في تأخير أو تطعيمات فاتت.",
-      "en": "Following the routine vaccination schedule, and discussing the optional vaccines, which of them suit your child and when. If there has been a delay or missed doses, we review the schedule with you."
-     }
-    }
-   ],
-   "faq": [
-    {
-     "q": {
-      "ar": "ابني مش بياكل، أعمل إيه؟",
-      "en": "My child will not eat, what should I do?"
-     },
-     "a": {
-      "ar": "أول حاجة: نتأكد إن مفيش سبب طبي. فقدان الشهية المستمر عند الأطفال ممكن يكون وراه أنيميا أو نقص زنك أو حساسية طعام أو مشكلة في الهضم. بعد ما نستبعد ده، بنشتغل على خطة تغذية عملية مع أخصائية متخصصة في تغذية الأطفال.",
-      "en": "First: make sure there is no medical cause. Persistent poor appetite in children can have anaemia, zinc deficiency, a food intolerance or a digestive problem behind it. Once that is ruled out, we work on a practical feeding plan with a specialist in children's nutrition."
-     }
-    },
-    {
-     "q": {
-      "ar": "امتى أقلق من وزن طفلي؟",
-      "en": "When should I worry about my child's weight?"
-     },
-     "a": {
-      "ar": "لما ينحرف عن منحنى النمو بتاعه هو: يعني كان ماشي على مسار وفجأة اتغير، سواء زيادة أو نقصان. الرقم لوحده مش المؤشر؛ الاتجاه هو المؤشر. عشان كده المتابعة الدورية أهم من قياس مرة واحدة.",
-      "en": "When they deviate from their own growth curve: that is, they were following a trajectory and it suddenly changed, in either direction. The number alone is not the indicator; the trend is. That is why regular monitoring matters more than a single measurement."
-     }
-    },
-    {
-     "q": {
-      "ar": "بتتابعوا حديثي الولادة؟",
-      "en": "Do you follow up newborns?"
-     },
-     "a": {
-      "ar": "أيوه: متابعة الوزن والرضاعة والصفراء والتطعيمات في الشهور الأولى، وبنشتغل مع الأم على الرضاعة والتغذية لو محتاج دعم في ده.",
-      "en": "Yes: weight, feeding, jaundice and vaccinations in the first months, and we work with the mother on breastfeeding and her own nutrition if she needs support with that."
-     }
-    },
-    {
-     "q": {
-      "ar": "ابني المراهق وزنه زايد ومتضايق، أساعده إزاي؟",
-      "en": "My teenager has excess weight and feels upset. How can I help?"
-     },
-     "a": {
-      "ar": "ابدأ بالصحة والعادات مش بالشكل أو اللوم، وخلي التغيير للأسرة كلها. طبيب الأطفال يراجع منحنى النمو والبلوغ والنوم والأدوية والأعراض، وبعدها خطة تغذية وحركة تناسب السن من غير رجيم قاسي أو تنمر.",
-      "en": "Start with health and habits rather than appearance or blame, and make changes as a family. A paediatric clinician reviews the growth curve, puberty, sleep, medicines and symptoms before a food and movement plan suited to age, without crash dieting or stigma."
-     }
-    },
-    {
-     "q": {
-      "ar": "ابني عنده وزن زايد، أعمل له رجيم لوحدي؟",
-      "en": "My child has excess weight. Should I put him on a diet myself?"
-     },
-     "a": {
-      "ar": "ما تبدأش حرماناً أو حسابات للكبار. وزن الطفل يتقري على منحنى مناسب للعمر والجنس مع الطول والنمو، والخطة غالباً تركز على عادات الأسرة والنوم والحركة وجودة الأكل. التقييم يحدد هل المطلوب تثبيت المسار أو تغيير تدريجي.",
-      "en": "Do not begin adult restriction or calculations. A child's weight is read on an age- and sex-appropriate growth chart alongside height and development. Care usually focuses on family habits, sleep, movement and food quality, with assessment deciding whether the goal is trajectory maintenance or gradual change."
-     }
-    },
-    {
-     "q": {
-      "ar": "بنتي خايفة تتخن وبترفض الأكل، إمتى أقلق؟",
-      "en": "My daughter fears gaining weight and refuses food. When should I worry?"
-     },
-     "a": {
-      "ar": "الخوف الشديد من الوزن مع تقليل الأكل أو نزول الوزن يستحق تقييماً مبكراً لاحتمال اضطراب أكل. اتكلم عن الصحة والطاقة من غير جدال أو لوم، واطلب دعماً من طبيب أطفال ومختص نفسي وتغذية. الإغماء أو ألم الصدر أو الجفاف أو أفكار إيذاء النفس طوارئ.",
-      "en": "Intense fear of weight gain with restriction or falling weight deserves early assessment for a possible eating disorder. Talk about health and energy without argument or blame, and seek paediatric, mental health and nutrition support. Fainting, chest pain, dehydration or thoughts of self-harm is an emergency."
-     }
-    }
-   ],
-   "seo": {
-    "title": {
-     "ar": "طب الأطفال في المعادي | عيادات لاروز التخصصية",
-     "en": "Paediatrics in Maadi | La Rose Wellness Hub"
-    },
-    "description": {
-     "ar": "عيادة أطفال في المعادي: متابعة النمو، التطعيمات، تغذية الأطفال، فقدان الشهية والنحافة، والحساسية الغذائية.",
-     "en": "Paediatric clinic in Maadi: growth monitoring, vaccination, children's nutrition, poor appetite and underweight, and food allergy."
-    }
-   }
-  },
-  {
    "slug": "rheumatology",
-   "index": "11",
+   "index": "07",
    "published": true,
    "staffed": true,
    "featured": true,
@@ -2368,6 +1625,749 @@
     "description": {
      "ar": "كشف روماتيزم ومفاصل في المعادي والتجمع الخامس: الروماتويد والذئبة الحمراء وخشونة المفاصل والنقرس والفيبروميالجيا، والتأهيل والطب الطبيعي.",
      "en": "Rheumatology in Maadi and Fifth Settlement: rheumatoid arthritis, lupus, osteoarthritis, gout and fibromyalgia, plus rehabilitation and physical medicine."
+    }
+   }
+  },
+  {
+   "slug": "general-surgery",
+   "index": "08",
+   "published": true,
+   "staffed": false,
+   "featured": false,
+   "hasBeforeAfter": false,
+   "hasReviews": true,
+   "icon": "scalpel",
+   "name": {
+    "ar": "الجراحة العامة والمناظير",
+    "en": "General & Laparoscopic Surgery"
+   },
+   "short": {
+    "ar": "الجراحة العامة",
+    "en": "General Surgery"
+   },
+   "sub": {
+    "ar": "تقييم واضح وصريح قبل أي قرار جراحي",
+    "en": "A clear, honest assessment before any surgical decision"
+   },
+   "intro": {
+    "ar": "مش كل حالة محتاجة عملية. قسم الجراحة العامة في لاروز بيبدأ بتقييم كامل يشمل الفحص، السونار، والتحاليل. بعدها بيتحدد إذا كانت الجراحة هي الحل الأنسب فعلًا ولا في طريق تاني. ولو العملية هي الحل، بنشرح لك نوعها وبدائلها ومدة التعافي قبل ما تاخد أي قرار.",
+    "en": "Not every case needs an operation. General surgery at La Rose starts with a full assessment, including examination, ultrasound and lab tests. Only then is it decided whether surgery is genuinely the most suitable option or whether there is another route. If surgery is the answer, we explain the procedure, its alternatives and the recovery time before you make any decision."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "الاستشارة الجراحية بتشمل",
+     "en": "A surgical consultation includes"
+    },
+    "items": {
+     "ar": [
+      "الفحص الإكلينيكي",
+      "مراجعة التحاليل والأشعة",
+      "سونار لو الحالة محتاجاه",
+      "شرح الخيارات المتاحة والخطوة الجاية"
+     ],
+     "en": [
+      "A clinical examination",
+      "Review of your labs and imaging",
+      "An ultrasound where the case calls for it",
+      "An explanation of the available options and the next step"
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "الفتق بأنواعه (سري، إربي، جراحي)",
+     "حصوات المرارة والتهاب المرارة",
+     "الزائدة الدودية",
+     "البواسير والشرخ والناسور",
+     "أورام وأكياس الجلد الحميدة",
+     "جراحات الغدة الدرقية",
+     "الخراريج والالتهابات الجراحية",
+     "جراحات الثدي الحميدة"
+    ],
+    "en": [
+     "Hernias of all types (umbilical, inguinal, incisional)",
+     "Gallstones and cholecystitis",
+     "Appendicitis",
+     "Haemorrhoids, anal fissure and fistula",
+     "Benign skin lumps and cysts",
+     "Thyroid surgery",
+     "Abscesses and surgical infections",
+     "Benign breast surgery"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "surgical-consultation",
+     "name": {
+      "ar": "استشارة جراحية",
+      "en": "Surgical consultation"
+     },
+     "summary": {
+      "ar": "تقييم الحالة وتحديد لو الجراحة مطلوبة",
+      "en": "Assessing the case and deciding whether surgery is needed"
+     },
+     "body": {
+      "ar": "الاستشارة بتشمل الفحص الإكلينيكي، ومراجعة التحاليل والأشعة، والسونار لو الحالة محتاجاه، وشرح واضح للخيارات المتاحة، بما فيها خيار إننا منعملش عملية دلوقتي. بتخرج عارفة حالتك بالظبط وإيه الخطوة الجاية.",
+      "en": "The consultation covers the clinical examination, a review of your labs and imaging, an ultrasound where the case calls for it, and a clear explanation of the options available, including the option of not operating now. You leave knowing exactly what your situation is and what the next step is."
+     }
+    },
+    {
+     "slug": "laparoscopic-surgery",
+     "name": {
+      "ar": "جراحات المناظير",
+      "en": "Laparoscopic surgery"
+     },
+     "summary": {
+      "ar": "من غير فتح كبير، وتعافي أسرع",
+      "en": "No large incision, and a faster recovery"
+     },
+     "body": {
+      "ar": "معظم جراحات المرارة والفتق والزائدة بتتعمل دلوقتي بالمنظار من خلال فتحات صغيرة بدل الفتح الكبير. الفايدة: ألم أقل بعد العملية، وقت أقصر في المستشفى، وتعافي أسرع، وأثر جراحي أصغر بكتير.",
+      "en": "Most gallbladder, hernia and appendix operations are now done laparoscopically through small incisions rather than an open cut. The benefits: less pain afterwards, a shorter hospital stay, faster recovery and a far smaller scar."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "هل كل فتق محتاج عملية؟",
+      "en": "Does every hernia need an operation?"
+     },
+     "a": {
+      "ar": "لأ. في فتوق صغيرة ومن غير أعراض ممكن تتابَع بالمراقبة. بس الفتق اللي بيكبر أو بيوجع أو بيسبب انسداد محتاج تدخل، والتأخير فيه بيزوّد الخطورة. التقييم بيفرّق بين الحالتين.",
+      "en": "No. Small, symptom-free hernias can sometimes be watched. But a hernia that is enlarging, painful, or causing obstruction needs intervention, and delaying raises the risk. The assessment distinguishes between the two."
+     }
+    },
+    {
+     "q": {
+      "ar": "التعافي بياخد قد إيه؟",
+      "en": "How long is the recovery?"
+     },
+     "a": {
+      "ar": "بيختلف حسب نوع العملية وطريقتها. جراحات المناظير عموماً بترجّعك لنشاطك الطبيعي أسرع بكتير من الفتح التقليدي. الدكتور بيحدد لك المدة المتوقعة لحالتك قبل العملية.",
+      "en": "It depends on the procedure and the approach. Laparoscopic operations generally return you to normal activity far faster than open surgery. The surgeon will give you the expected timeline for your specific case before the operation."
+     }
+    },
+    {
+     "q": {
+      "ar": "العمليات بتتعمل فين؟",
+      "en": "Where are the operations performed?"
+     },
+     "a": {
+      "ar": "الاستشارة والتقييم والمتابعة بعد العملية بتتم في العيادة. العمليات نفسها بتتعمل في مستشفى مجهّز، والدكتور هيحدد معاك التفاصيل.",
+      "en": "The consultation, the assessment and the post-operative follow-up take place at the clinic. The operations themselves are performed in an equipped hospital, and the surgeon will agree the details with you."
+     }
+    },
+    {
+     "q": {
+      "ar": "خسّيت ولسه عندي دهون عنيدة، هل محتاج عملية؟",
+      "en": "I lost weight but still have stubborn local fat. Do I need an operation?"
+     },
+     "a": {
+      "ar": "مش بالضرورة. الدهون الموضعية أو الجلد الزائد يختلفوا عن السمنة اللي تستدعي جراحة، والاختيار يعتمد على ثبات الوزن، المنطقة، الجلد، الصحة والهدف الواقعي. التقييم يوضح هل الأفضل متابعة، إجراء غير جراحي، رأي تجميل متخصص، أو تدخل جراحي.",
+      "en": "Not necessarily. Local fat or excess skin is different from obesity requiring surgery, and the choice depends on weight stability, area, skin, health and a realistic aim. Assessment can separate observation, a non-surgical option, specialist plastic-surgery advice or an operation."
+     }
+    },
+    {
+     "q": {
+      "ar": "وزني عالي وتعبت من الرجيم، إمتى أفكر في عملية سمنة؟",
+      "en": "My weight is high and diets have not worked. When should I consider bariatric surgery?"
+     },
+     "a": {
+      "ar": "القرار ما يتاخدش من الوزن وحده ولا من فشل رجيم واحد. الجراح يراجع مؤشر الكتلة، الأمراض المصاحبة، المحاولات السابقة، الاستعداد للمتابعة والمخاطر، ويشرح البدائل. التقييم ممكن ينتهي بخطة غير جراحية أو إحالة لمسار جراحة السمنة.",
+      "en": "The decision does not come from weight alone or one unsuccessful diet. A surgeon reviews BMI, related conditions, previous attempts, readiness for follow-up and risk, and explains alternatives. Assessment may lead to a non-surgical plan or the bariatric pathway."
+     }
+    },
+    {
+     "q": {
+      "ar": "أختار علاج دوائي ولا عملية للسمنة؟",
+      "en": "Should I choose medicine or surgery for obesity?"
+     },
+     "a": {
+      "ar": "مفيش اختيار أفضل لكل الناس. القرار يعتمد على شدة السمنة، الأمراض المصاحبة، الاستجابة السابقة، موانع العلاج، تفضيلك وقدرتك على المتابعة طويلة المدى. المطلوب مقارنة الفائدة والمخاطر والالتزام لكل اختيار مع فريق إدارة الوزن والجراحة.",
+      "en": "There is no best option for everyone. The decision depends on severity, related illness, previous response, contraindications, your preference and ability to continue long-term follow-up. Compare benefits, risks and commitments with the weight-management and surgical teams."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "الجراحة العامة والمناظير في المعادي | عيادات لاروز",
+     "en": "General & Laparoscopic Surgery | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "استشارات الجراحة العامة وجراحات المناظير في المعادي: الفتق، المرارة، الزائدة، البواسير، وجراحات الغدة الدرقية، بتقييم صريح قبل أي قرار جراحي.",
+     "en": "General and laparoscopic surgery consultations in Maadi: hernia, gallbladder, appendix, haemorrhoids and thyroid surgery, with an honest assessment before any surgical decision."
+    }
+   }
+  },
+  {
+   "slug": "bariatric-surgery",
+   "index": "09",
+   "published": true,
+   "staffed": false,
+   "featured": false,
+   "hasBeforeAfter": true,
+   "hasReviews": true,
+   "icon": "activity",
+   "name": {
+    "ar": "جراحات السمنة",
+    "en": "Bariatric Surgery"
+   },
+   "short": {
+    "ar": "جراحات السمنة",
+    "en": "Bariatric Surgery"
+   },
+   "sub": {
+    "ar": "لما تكون الجراحة هي الحل المناسب فعلًا",
+    "en": "For when surgery genuinely is the right option"
+   },
+   "intro": {
+    "ar": "جراحة السمنة مش أول خطوة، ومش مناسبة لكل حالة. في لاروز بنبدأ بالتقييم: درجة السمنة، الأمراض المصاحبة، التاريخ العلاجي، والاستعداد النفسي والجسدي. لو حالتك مناسبة للحلول غير الجراحية، هنقولك بوضوح ونحوّلك لقسم إدارة الوزن. ولو الجراحة هي الأنسب، الفرق بيبان في التحضير والمتابعة بعدها، مش في العملية نفسها.",
+    "en": "Bariatric surgery is not the first step, and it is not suitable for every case. At La Rose, we begin with an assessment of the degree of obesity, associated conditions, treatment history, and physical and psychological readiness. If non-surgical options are suitable for your case, we will tell you clearly and refer you to the weight-management department. If surgery is the most suitable option, the difference lies in the preparation and follow-up afterwards, not in the operation itself."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "تقييم ملاءمة جراحة السمنة بيشمل",
+     "en": "A bariatric surgery eligibility assessment includes"
+    },
+    "items": {
+     "ar": [
+      "حساب مؤشر كتلة الجسم",
+      "تحليل التركيب الجسمي بجهاز InBody",
+      "مراجعة التحاليل والتاريخ العلاجي والأمراض المصاحبة",
+      "تقييم الاستعداد لتعليمات ما بعد العملية"
+     ],
+     "en": [
+      "Calculating your BMI",
+      "An InBody body-composition analysis",
+      "Reviewing your labs, treatment history and associated conditions",
+      "Assessing readiness for the post-operative instructions"
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "السمنة المفرطة (BMI ٤٠ فأكتر)",
+     "السمنة مع أمراض مصاحبة (سكر، ضغط، انقطاع النفس النومي)",
+     "فشل المحاولات المتكررة لإنقاص الوزن",
+     "متابعة ما بعد جراحات السمنة",
+     "تصحيح مضاعفات جراحات سابقة",
+     "التغذية العلاجية قبل وبعد الجراحة"
+    ],
+    "en": [
+     "Severe obesity (BMI 40 and above)",
+     "Obesity with associated conditions (diabetes, hypertension, sleep apnoea)",
+     "Repeated failed attempts at weight loss",
+     "Follow-up after bariatric surgery",
+     "Correcting complications of previous procedures",
+     "Therapeutic nutrition before and after surgery"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "eligibility-assessment",
+     "name": {
+      "ar": "تقييم مدى ملاءمة الجراحة",
+      "en": "Eligibility assessment"
+     },
+     "summary": {
+      "ar": "الخطوة اللي بتحدد لو الجراحة أصلاً هي الحل",
+      "en": "The step that decides whether surgery is the answer at all"
+     },
+     "body": {
+      "ar": "التقييم بيشمل حساب مؤشر كتلة الجسم، وتحليل التركيب الجسمي بجهاز InBody، ومراجعة التحاليل والتاريخ العلاجي، وتقييم الأمراض المصاحبة، والاستعداد للالتزام بتعليمات ما بعد العملية، لأن دي بالظبط اللي بتحدد نجاحها على المدى الطويل.",
+      "en": "The assessment covers your BMI, an InBody body-composition analysis, a review of your labs and treatment history, an evaluation of associated conditions, and your readiness to follow the post-operative instructions, because that is precisely what determines long-term success."
+     }
+    },
+    {
+     "slug": "sleeve-gastrectomy",
+     "name": {
+      "ar": "التكميم",
+      "en": "Sleeve gastrectomy"
+     },
+     "summary": {
+      "ar": "تصغير حجم المعدة بالمنظار",
+      "en": "Reducing the stomach's size laparoscopically"
+     },
+     "body": {
+      "ar": "بيتم فيه قص وإزالة جزء كبير من المعدة عشان يقل حجمها، فتقل الكمية اللي بتتاكل ويقل هرمون الجوع. بيتعمل بالمنظار من خلال فتحات صغيرة. الإجراء أقل تعقيداً من التحويل، والنتيجة المتوقعة كبيرة وسريعة، بس بتفضل معتمدة على الالتزام بالتعليمات الغذائية بعد العملية.",
+      "en": "A large part of the stomach is removed to reduce its volume, so the amount eaten falls and the hunger hormone drops. It is done laparoscopically through small incisions. The procedure is less complex than a bypass, and the expected result is substantial and rapid, but it remains dependent on following the dietary instructions afterwards."
+     }
+    },
+    {
+     "slug": "post-op-nutrition",
+     "name": {
+      "ar": "التغذية والمتابعة بعد العملية",
+      "en": "Post-operative nutrition and follow-up"
+     },
+     "summary": {
+      "ar": "الجزء اللي بيحدد إذا كانت العملية هتنجح ولا لأ",
+      "en": "The part that decides whether the operation succeeds"
+     },
+     "body": {
+      "ar": "العملية بتصغّر المعدة، بس هي لوحدها مش علاج نهائي للسمنة. بعد الجراحة بتحتاج تدرّج غذائي محسوب من السوائل للأكل اللين للأكل العادي، ومتابعة للفيتامينات والمعادن، وخطة بروتين تحمي الكتلة العضلية. ده اللي بيمنع رجوع الوزن وبيمنع نقص التغذية، وبيتعمل هنا مع قسم التغذية العلاجية.",
+      "en": "The operation shrinks the stomach, but on its own it is not a definitive cure for obesity. Afterwards you need a measured progression from liquids to soft food to normal eating, monitoring of vitamins and minerals, and a protein plan that protects your muscle mass. This is what prevents both weight regain and malnutrition, and it is done here alongside the clinical nutrition department."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "إمتى أكون محتاج جراحة سمنة؟",
+      "en": "When would I actually need bariatric surgery?"
+     },
+     "a": {
+      "ar": "عموماً لما يكون مؤشر كتلة الجسم ٤٠ فأكتر، أو ٣٥ فأكتر مع مرض مصاحب زي السكر أو انقطاع النفس النومي، وبعد ما تكون جرّبت طرق تانية لإنقاص الوزن وما نجحتش. التقييم في العيادة هو اللي بيحدد ده بالظبط لحالتك.",
+      "en": "Generally when BMI is 40 or above, or 35 or above with an associated condition such as diabetes or sleep apnoea, and after other routes to weight loss have been tried without success. The assessment at the clinic is what establishes this precisely for your case."
+     }
+    },
+    {
+     "q": {
+      "ar": "إيه الفرق بين التكميم والحقن؟",
+      "en": "What is the difference between a sleeve and the injections?"
+     },
+     "a": {
+      "ar": "التكميم إجراء جراحي دائم بيغيّر حجم المعدة. الحقن علاج دوائي بيتوقف وقت ما نقرر نوقفه. الحقن بقت بديل حقيقي لكتير من الحالات اللي زمان كانت هتروح للجراحة، بس مش لكل حالة، ودي بالظبط اللي التقييم بيحددها.",
+      "en": "A sleeve is a permanent surgical procedure that changes the size of the stomach. The injections are a medication that can be stopped when we decide to stop it. The injections have become a genuine alternative for many cases that would once have gone to surgery: but not for every case, and that is exactly what the assessment establishes."
+     }
+    },
+    {
+     "q": {
+      "ar": "الوزن ممكن يرجع بعد العملية؟",
+      "en": "Can the weight come back after surgery?"
+     },
+     "a": {
+      "ar": "أيوه، لو ما اتغيرتش العادات. الجراحة بتدي فرصة، بس اللي بيثبّت النتيجة هو التدرّج الغذائي الصح والمتابعة والالتزام على المدى الطويل. عشان كده متابعة التغذية بعد العملية جزء أساسي من الخطة مش إضافة.",
+      "en": "Yes, if habits do not change. Surgery creates an opportunity, but what holds the result is the correct dietary progression, follow-up and long-term commitment. That is why post-operative nutrition follow-up is a core part of the plan, not an add-on."
+     }
+    },
+    {
+     "q": {
+      "ar": "فيه مخاطر؟",
+      "en": "Are there risks?"
+     },
+     "a": {
+      "ar": "زي أي إجراء جراحي، أيوه، وأهمها نقص الفيتامينات والمعادن، والارتجاع، ومضاعفات جراحية عامة. بس مخاطر السمنة نفسها في الحالات اللي بتستدعي الجراحة بتكون أكبر. الدكتور بيشرح لك المخاطر الخاصة بحالتك بالتفصيل قبل أي قرار.",
+      "en": "As with any surgical procedure, yes: the main ones being vitamin and mineral deficiency, reflux, and the general risks of surgery. But in the cases that warrant surgery, the risks of the obesity itself are greater. The surgeon explains the risks specific to your case in detail before any decision."
+     }
+    },
+    {
+     "q": {
+      "ar": "رجع جزء من وزني بعد جراحة السمنة، ينفع علاج دوائي؟",
+      "en": "Some weight returned after bariatric surgery. Could medicine help?"
+     },
+     "a": {
+      "ar": "ممكن يكون مناسباً لبعض الحالات، لكن الأول نراجع نوع العملية، مسار الوزن، الأكل، الأعراض، نقص العناصر والأدوية. الجراح وفريق إدارة الوزن يحددوا هل السبب سلوكي أو طبي أو متعلق بالعملية، وهل الدواء أو خطوة تانية هي الأنسب.",
+      "en": "It may suit selected cases, but first review the procedure, weight course, food, symptoms, nutrient status and medicines. The surgical and weight-management teams establish whether the cause is behavioural, medical or procedure-related and whether medicine or another step is appropriate."
+     }
+    },
+    {
+     "q": {
+      "ar": "عندي شخير وتوقف نفس أثناء النوم، ده يفرق في تقييم جراحة السمنة؟",
+      "en": "I snore and stop breathing during sleep. Does that affect bariatric assessment?"
+     },
+     "a": {
+      "ar": "أيوه، لازم يتقال للفريق لأنه ممكن يشير لانقطاع النفس أثناء النوم ويؤثر على تقييم التخدير والمتابعة. ما تستناش العملية عشان تفحصه؛ قد تحتاج دراسة نوم وعلاجاً قبل الجراحة، حسب الأعراض والنتيجة.",
+      "en": "Yes. Tell the team because it may indicate sleep apnoea and affect anaesthetic assessment and follow-up. Do not wait for surgery to investigate it; a sleep study and treatment may be needed beforehand, depending on symptoms and results."
+     }
+    },
+    {
+     "q": {
+      "ar": "أظبط أكلي قبل وبعد جراحة السمنة إزاي؟",
+      "en": "How should I manage food before and after bariatric surgery?"
+     },
+     "a": {
+      "ar": "الخطة تختلف حسب نوع العملية وتعليمات الجراح، وبتتدرج في القوام والكميات بعد الجراحة مع اهتمام بالبروتين والسوائل والمكملات الموصوفة. ما تنقلش جدول شخص تاني، وارجع للفريق بسرعة لو مش قادر تشرب، فيه قيء متكرر أو ألم متزايد.",
+      "en": "The plan depends on the procedure and surgeon's instructions. Texture and portions progress after surgery, with attention to protein, fluids and prescribed supplements. Do not copy another person's schedule, and contact the team promptly if you cannot drink, vomit repeatedly or have increasing pain."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "جراحات السمنة والتكميم في المعادي | عيادات لاروز",
+     "en": "Bariatric Surgery in Maadi | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "تقييم واستشارات جراحات السمنة في المعادي: التكميم، التقييم قبل الجراحة، والتغذية والمتابعة بعد العملية مع قسم التغذية العلاجية.",
+     "en": "Bariatric surgery assessment and consultations in Maadi: sleeve gastrectomy, pre-operative evaluation, and post-operative nutrition and follow-up with the clinical nutrition department."
+    }
+   }
+  },
+  {
+   "slug": "dermatology",
+   "index": "10",
+   "published": true,
+   "staffed": false,
+   "featured": false,
+   "hasBeforeAfter": true,
+   "hasReviews": true,
+   "icon": "sparkle",
+   "name": {
+    "ar": "الجلدية والتجميل",
+    "en": "Dermatology & Aesthetics"
+   },
+   "short": {
+    "ar": "الجلدية",
+    "en": "Dermatology"
+   },
+   "sub": {
+    "ar": "علاج طبي للبشرة، مش وصفات عامة",
+    "en": "Medical treatment for your skin, not generic prescriptions"
+   },
+   "intro": {
+    "ar": "كتير من مشاكل البشرة والشعر ممكن يكون سببها من جوه: نقص فيتامينات، خلل هرموني، مقاومة إنسولين، أو مشكلة في الغدة الدرقية. عشان كده قسم الجلدية في لاروز بيشتغل جنب قسمي التغذية والباطنة، فبنعالج البشرة موضعيًا وبندوّر على السبب في نفس الوقت.",
+    "en": "Many skin and hair problems can have an internal cause, including vitamin deficiency, hormonal imbalance, insulin resistance or a thyroid disorder. That is why dermatology at La Rose works alongside the nutrition and internal medicine departments: we treat the skin directly while looking for the underlying cause at the same time."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "كشف الجلدية بيشمل",
+     "en": "A dermatology consultation includes"
+    },
+    "items": {
+     "ar": [
+      "فحص البشرة أو فروة الرأس",
+      "مراجعة التاريخ الطبي والأدوية والتحاليل",
+      "تحديد لو المشكلة موضعية أو ليها سبب داخلي",
+      "خطة مكتوبة مبنية على التقييم"
+     ],
+     "en": [
+      "Examination of the skin or scalp",
+      "Review of your medical history, medications and labs",
+      "Establishing whether the problem is local or has an internal cause",
+      "A written plan based on the assessment"
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "حب الشباب وآثاره",
+     "التصبغات والكلف والهالات السوداء",
+     "تساقط الشعر والثعلبة",
+     "الإكزيما والصدفية",
+     "حساسية الجلد والشرى",
+     "الفطريات والعدوى الجلدية",
+     "الثآليل والزوائد الجلدية",
+     "علامات التمدد بعد نزول الوزن",
+     "شيخوخة البشرة والتجاعيد"
+    ],
+    "en": [
+     "Acne and acne scarring",
+     "Pigmentation, melasma and dark circles",
+     "Hair loss and alopecia",
+     "Eczema and psoriasis",
+     "Skin allergy and urticaria",
+     "Fungal and other skin infections",
+     "Warts and skin tags",
+     "Stretch marks after weight loss",
+     "Skin ageing and wrinkles"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "dermatology-consultation",
+     "name": {
+      "ar": "كشف جلدية",
+      "en": "Dermatology consultation"
+     },
+     "summary": {
+      "ar": "تشخيص السبب مش الأعراض بس",
+      "en": "Diagnosing the cause, not just the symptom"
+     },
+     "body": {
+      "ar": "الكشف بيشمل فحص البشرة أو فروة الرأس، ومراجعة التاريخ الطبي والأدوية والتحاليل، وتحديد لو المشكلة موضعية ولا ليها سبب داخلي محتاج تحاليل. الخطة بتتكتب على أساس ده، مش وصفة عامة.",
+      "en": "The consultation covers examination of the skin or scalp, a review of your medical history, medications and labs, and establishing whether the problem is local or has an internal cause that needs investigating. The plan is written on that basis, not as a generic prescription."
+     }
+    },
+    {
+     "slug": "acne-programme",
+     "name": {
+      "ar": "برنامج علاج حب الشباب",
+      "en": "Acne treatment programme"
+     },
+     "summary": {
+      "ar": "خطة على مراحل، مش علاج واحد",
+      "en": "A staged plan, not a single treatment"
+     },
+     "body": {
+      "ar": "حب الشباب مش نوع واحد ومش سبب واحد. البرنامج بيبدأ بتحديد النوع والدرجة، وفحص الأسباب الهرمونية أو الغذائية لو موجودة، وبعدها خطة علاج موضعي أو دوائي على مراحل مع متابعة، وبعدين مرحلة علاج الآثار.",
+      "en": "Acne is not one type and not one cause. The programme begins by identifying the type and grade, checking for hormonal or dietary causes where present, then a staged topical or systemic treatment plan with follow-up, and finally a phase for treating the scarring."
+     }
+    },
+    {
+     "slug": "hair-loss",
+     "name": {
+      "ar": "علاج تساقط الشعر",
+      "en": "Hair loss treatment"
+     },
+     "summary": {
+      "ar": "بيبدأ بتحليل مش بمنتج",
+      "en": "Starts with a blood test, not a product"
+     },
+     "body": {
+      "ar": "تساقط الشعر عرض مش تشخيص. أول خطوة عندنا تحاليل: الحديد والفيريتين، فيتامين د، الغدة الدرقية، والهرمونات لو الحالة تستدعي. لأن علاج التساقط من غير ما نعرف السبب بيضيّع وقت وفلوس. ولو السبب نقص غذائي، بيتحوّل لقسم التغذية عشان يتعالج من جذوره.",
+      "en": "Hair loss is a symptom, not a diagnosis. The first step here is blood work: iron and ferritin, vitamin D, thyroid function, and hormones where the case calls for it. Treating hair loss without knowing the cause wastes time and money. If the cause is nutritional, the case moves to the nutrition department to be treated at its root."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "ليه بتطلبوا تحاليل لتساقط الشعر؟",
+      "en": "Why do you ask for blood tests for hair loss?"
+     },
+     "a": {
+      "ar": "لأن أشهر أسباب التساقط عندنا نقص الحديد والفيريتين، ونقص فيتامين د، وخلل الغدة الدرقية، وكلها ما بتتحلش بمنتج موضعي. لما نعرف السبب، العلاج بيبقى أسرع وأرخص وأثبت.",
+      "en": "Because the commonest causes of hair loss we see are iron and ferritin deficiency, vitamin D deficiency and thyroid dysfunction, none of which is solved by a topical product. Once we know the cause, treatment is faster, cheaper and more durable."
+     }
+    },
+    {
+     "q": {
+      "ar": "علاقة البشرة بالتغذية إيه؟",
+      "en": "What does skin have to do with nutrition?"
+     },
+     "a": {
+      "ar": "علاقة مباشرة. مقاومة الإنسولين وتكيس المبايض بيظهروا على البشرة كحب شباب هرموني وشعر زايد. ونقص الزنك وفيتامين د وأوميجا ٣ بيظهر كجفاف وتساقط. عشان كده قسمي الجلدية والتغذية بيشتغلوا مع بعض هنا.",
+      "en": "A direct one. Insulin resistance and PCOS show on the skin as hormonal acne and excess hair. Deficiencies in zinc, vitamin D and omega-3 show as dryness and shedding. That is why the dermatology and nutrition departments work together here."
+     }
+    },
+    {
+     "q": {
+      "ar": "علامات التمدد بعد نزول الوزن ليها علاج؟",
+      "en": "Can stretch marks after weight loss be treated?"
+     },
+     "a": {
+      "ar": "بتتحسن، بس التوقّع لازم يكون واقعي: العلامات الحديثة (الحمراء) بتستجيب أحسن بكتير من القديمة (البيضا). وأفضل تعامل معاها هو الوقاية، الترطيب وجلسات الشد أثناء نزول الوزن مش بعده.",
+      "en": "They improve, but the expectation has to be realistic: recent marks (red) respond far better than old ones (white). The best approach is prevention: moisturising and tightening sessions while the weight is coming off, rather than afterwards."
+     }
+    },
+    {
+     "q": {
+      "ar": "شعري بيقع وأنا بخس بعلاج دوائي، أوقف العلاج؟",
+      "en": "My hair is shedding during medical weight loss. Should I stop treatment?"
+     },
+     "a": {
+      "ar": "ما توقفش من نفسك. التساقط ممكن يرتبط بسرعة النزول أو قلة البروتين والطاقة أو نقص الحديد أو الغدة أو سبب في فروة الرأس، وممكن يكون للدواء دور. راجع التوقيت والأكل والأدوية مع الطبيب، واعمل كشف جلدية لو فيه بقع أو التهاب أو تساقط واضح.",
+      "en": "Do not stop it yourself. Shedding may relate to the pace of loss, too little protein or energy, iron or thyroid problems, a scalp condition, or the medicine. Review timing, food and treatment with the prescriber, and arrange dermatology assessment for patches, inflammation or marked loss."
+     }
+    },
+    {
+     "q": {
+      "ar": "ميزوثيرابي الشعر يوقف التساقط لكل الحالات؟",
+      "en": "Does hair mesotherapy stop every type of hair loss?"
+     },
+     "a": {
+      "ar": "لأ. تساقط الشعر عرض له أسباب مختلفة، والإجراء الموضعي ما يعالجش نقص الحديد أو الغدة أو مرضاً في فروة الرأس تلقائياً. التشخيص ييجي الأول، وبعده الطبيب يشرح هل للميزوثيرابي دور، حدود الدليل، المخاطر والبدائل.",
+      "en": "No. Hair loss is a symptom with different causes, and a local procedure does not automatically treat iron deficiency, thyroid disease or a scalp disorder. Diagnosis comes first; then the clinician can explain whether mesotherapy has a role, the limits of evidence, risks and alternatives."
+     }
+    },
+    {
+     "q": {
+      "ar": "ميزوثيرابي الوجه ينفع للهالات والنضارة؟",
+      "en": "Can facial mesotherapy help dark circles and skin radiance?"
+     },
+     "a": {
+      "ar": "الهالات والبهتان لهم أسباب كتير، والنتيجة تعتمد على السبب والمادة المستخدمة؛ مفيش بروتوكول واحد أو ضمان. كشف الجلدية يفرّق بين التصبغ، الأوعية، الحساسية، فقدان الحجم أو سبب داخلي، ويشرح إذا كان الحقن مناسباً أو فيه بديل أدق.",
+      "en": "Dark circles and dullness have many causes, and results depend on the cause and injected substance; there is no universal protocol or guarantee. Dermatology assessment separates pigment, vessels, allergy, volume loss or an internal cause and explains whether injection or another option is more appropriate."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "الجلدية والتجميل في المعادي | عيادات لاروز التخصصية",
+     "en": "Dermatology & Aesthetics in Maadi | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "كشف جلدية في المعادي: حب الشباب، التصبغات، تساقط الشعر، والإكزيما، بتشخيص السبب الداخلي جنب العلاج الموضعي.",
+     "en": "Dermatology consultations in Maadi: acne, pigmentation, hair loss and eczema, diagnosing the internal cause alongside topical treatment."
+    }
+   }
+  },
+  {
+   "slug": "pediatrics",
+   "index": "11",
+   "published": true,
+   "staffed": false,
+   "featured": false,
+   "hasBeforeAfter": false,
+   "hasReviews": true,
+   "icon": "heart",
+   "name": {
+    "ar": "طب الأطفال",
+    "en": "Paediatrics"
+   },
+   "short": {
+    "ar": "طب الأطفال",
+    "en": "Paediatrics"
+   },
+   "sub": {
+    "ar": "متابعة النمو والتغذية من أول يوم",
+    "en": "Growth and nutrition follow-up from day one"
+   },
+   "intro": {
+    "ar": "قسم الأطفال في لاروز بيغطي المتابعة الدورية للنمو، التطعيمات، والأمراض الشائعة. وبيشتغل جنب قسم التغذية في الحالات اللي محتاجة خطة غذائية متخصصة، زي النحافة، السمنة عند الأطفال، فقدان الشهية، والحساسية الغذائية.",
+    "en": "Paediatrics at La Rose covers routine growth monitoring, vaccination and common childhood illnesses. It also works alongside the nutrition department for cases that need a specialised nutrition plan, including underweight children, childhood obesity, poor appetite and food allergy."
+   },
+   "consultationIncludes": {
+    "heading": {
+     "ar": "متابعة نمو الطفل بتشمل",
+     "en": "A child growth appointment includes"
+    },
+    "items": {
+     "ar": [
+      "قياس الوزن والطول ومحيط الرأس",
+      "تسجيل القياسات على منحنيات النمو المعتمدة",
+      "مراجعة مسار نمو الطفل",
+      "تحديد إذا كان أي انحراف محتاج بحث"
+     ],
+     "en": [
+      "Measuring weight, height and head circumference",
+      "Plotting the measurements on standard growth charts",
+      "Reviewing the child's growth trajectory",
+      "Establishing whether any deviation needs investigation"
+     ]
+    }
+   },
+   "treats": {
+    "ar": [
+     "متابعة النمو والوزن والطول",
+     "التطعيمات الأساسية والاختيارية",
+     "نزلات البرد والحساسية الصدرية",
+     "المغص والإمساك ومشاكل الهضم عند الأطفال",
+     "فقدان الشهية والنحافة عند الأطفال",
+     "السمنة عند الأطفال والمراهقين",
+     "الحساسية الغذائية",
+     "الأنيميا ونقص فيتامين د",
+     "متابعة حديثي الولادة"
+    ],
+    "en": [
+     "Growth, weight and height monitoring",
+     "Routine and optional vaccinations",
+     "Colds and respiratory allergy",
+     "Colic, constipation and digestive problems in children",
+     "Poor appetite and underweight children",
+     "Obesity in children and adolescents",
+     "Food allergy",
+     "Anaemia and vitamin D deficiency",
+     "Newborn follow-up"
+    ]
+   },
+   "treatments": [
+    {
+     "slug": "growth-monitoring",
+     "name": {
+      "ar": "متابعة النمو",
+      "en": "Growth monitoring"
+     },
+     "summary": {
+      "ar": "على منحنيات النمو المعتمدة، مش بالتقدير",
+      "en": "Against standard growth charts, not by impression"
+     },
+     "body": {
+      "ar": "قياس الوزن والطول ومحيط الرأس وتسجيلهم على منحنيات النمو المعتمدة، عشان نعرف لو الطفل ماشي في المسار الطبيعي له هو، مش مقارنة بطفل تاني. الانحراف عن المنحنى هو اللي بيستدعي بحث، مش الرقم في حد ذاته.",
+      "en": "Weight, height and head circumference measured and plotted on standard growth charts, so we can see whether the child is following their own normal trajectory, not a comparison with another child. It is deviation from the curve that warrants investigation, not the number itself."
+     }
+    },
+    {
+     "slug": "child-nutrition",
+     "name": {
+      "ar": "تغذية الأطفال",
+      "en": "Children's nutrition"
+     },
+     "summary": {
+      "ar": "مع أخصائية تغذية علاجية متخصصة في تغذية الأطفال",
+      "en": "With a clinical nutrition specialist experienced in children's nutrition"
+     },
+     "body": {
+      "ar": "فقدان الشهية والنحافة عند الأطفال مش دايماً مشكلة سلوكية، أحياناً بيكون وراها أنيميا أو نقص زنك أو حساسية طعام. الخطة بتتبني بعد فحص وتحاليل، وبتتصمم لتكون قابلة للتطبيق فعلاً مع طفل، مش جدول مثالي.",
+      "en": "Poor appetite and being underweight in children is not always behavioural: anaemia, zinc deficiency or a food intolerance can sit behind it. The plan is built after examination and blood work, and is designed to be something a child will actually follow rather than an ideal chart."
+     }
+    },
+    {
+     "slug": "vaccination",
+     "name": {
+      "ar": "التطعيمات",
+      "en": "Vaccination"
+     },
+     "summary": {
+      "ar": "الجدول الأساسي والاختياري",
+      "en": "The routine and optional schedules"
+     },
+     "body": {
+      "ar": "متابعة جدول التطعيمات الأساسي، ومناقشة التطعيمات الاختيارية وإيه اللي منها مناسب لطفلك ومتى. وبنراجع معاك الجدول لو كان في تأخير أو تطعيمات فاتت.",
+      "en": "Following the routine vaccination schedule, and discussing the optional vaccines, which of them suit your child and when. If there has been a delay or missed doses, we review the schedule with you."
+     }
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "ar": "ابني مش بياكل، أعمل إيه؟",
+      "en": "My child will not eat, what should I do?"
+     },
+     "a": {
+      "ar": "أول حاجة: نتأكد إن مفيش سبب طبي. فقدان الشهية المستمر عند الأطفال ممكن يكون وراه أنيميا أو نقص زنك أو حساسية طعام أو مشكلة في الهضم. بعد ما نستبعد ده، بنشتغل على خطة تغذية عملية مع أخصائية متخصصة في تغذية الأطفال.",
+      "en": "First: make sure there is no medical cause. Persistent poor appetite in children can have anaemia, zinc deficiency, a food intolerance or a digestive problem behind it. Once that is ruled out, we work on a practical feeding plan with a specialist in children's nutrition."
+     }
+    },
+    {
+     "q": {
+      "ar": "امتى أقلق من وزن طفلي؟",
+      "en": "When should I worry about my child's weight?"
+     },
+     "a": {
+      "ar": "لما ينحرف عن منحنى النمو بتاعه هو: يعني كان ماشي على مسار وفجأة اتغير، سواء زيادة أو نقصان. الرقم لوحده مش المؤشر؛ الاتجاه هو المؤشر. عشان كده المتابعة الدورية أهم من قياس مرة واحدة.",
+      "en": "When they deviate from their own growth curve: that is, they were following a trajectory and it suddenly changed, in either direction. The number alone is not the indicator; the trend is. That is why regular monitoring matters more than a single measurement."
+     }
+    },
+    {
+     "q": {
+      "ar": "بتتابعوا حديثي الولادة؟",
+      "en": "Do you follow up newborns?"
+     },
+     "a": {
+      "ar": "أيوه: متابعة الوزن والرضاعة والصفراء والتطعيمات في الشهور الأولى، وبنشتغل مع الأم على الرضاعة والتغذية لو محتاج دعم في ده.",
+      "en": "Yes: weight, feeding, jaundice and vaccinations in the first months, and we work with the mother on breastfeeding and her own nutrition if she needs support with that."
+     }
+    },
+    {
+     "q": {
+      "ar": "ابني المراهق وزنه زايد ومتضايق، أساعده إزاي؟",
+      "en": "My teenager has excess weight and feels upset. How can I help?"
+     },
+     "a": {
+      "ar": "ابدأ بالصحة والعادات مش بالشكل أو اللوم، وخلي التغيير للأسرة كلها. طبيب الأطفال يراجع منحنى النمو والبلوغ والنوم والأدوية والأعراض، وبعدها خطة تغذية وحركة تناسب السن من غير رجيم قاسي أو تنمر.",
+      "en": "Start with health and habits rather than appearance or blame, and make changes as a family. A paediatric clinician reviews the growth curve, puberty, sleep, medicines and symptoms before a food and movement plan suited to age, without crash dieting or stigma."
+     }
+    },
+    {
+     "q": {
+      "ar": "ابني عنده وزن زايد، أعمل له رجيم لوحدي؟",
+      "en": "My child has excess weight. Should I put him on a diet myself?"
+     },
+     "a": {
+      "ar": "ما تبدأش حرماناً أو حسابات للكبار. وزن الطفل يتقري على منحنى مناسب للعمر والجنس مع الطول والنمو، والخطة غالباً تركز على عادات الأسرة والنوم والحركة وجودة الأكل. التقييم يحدد هل المطلوب تثبيت المسار أو تغيير تدريجي.",
+      "en": "Do not begin adult restriction or calculations. A child's weight is read on an age- and sex-appropriate growth chart alongside height and development. Care usually focuses on family habits, sleep, movement and food quality, with assessment deciding whether the goal is trajectory maintenance or gradual change."
+     }
+    },
+    {
+     "q": {
+      "ar": "بنتي خايفة تتخن وبترفض الأكل، إمتى أقلق؟",
+      "en": "My daughter fears gaining weight and refuses food. When should I worry?"
+     },
+     "a": {
+      "ar": "الخوف الشديد من الوزن مع تقليل الأكل أو نزول الوزن يستحق تقييماً مبكراً لاحتمال اضطراب أكل. اتكلم عن الصحة والطاقة من غير جدال أو لوم، واطلب دعماً من طبيب أطفال ومختص نفسي وتغذية. الإغماء أو ألم الصدر أو الجفاف أو أفكار إيذاء النفس طوارئ.",
+      "en": "Intense fear of weight gain with restriction or falling weight deserves early assessment for a possible eating disorder. Talk about health and energy without argument or blame, and seek paediatric, mental health and nutrition support. Fainting, chest pain, dehydration or thoughts of self-harm is an emergency."
+     }
+    }
+   ],
+   "seo": {
+    "title": {
+     "ar": "طب الأطفال في المعادي | عيادات لاروز التخصصية",
+     "en": "Paediatrics in Maadi | La Rose Wellness Hub"
+    },
+    "description": {
+     "ar": "عيادة أطفال في المعادي: متابعة النمو، التطعيمات، تغذية الأطفال، فقدان الشهية والنحافة، والحساسية الغذائية.",
+     "en": "Paediatric clinic in Maadi: growth monitoring, vaccination, children's nutrition, poor appetite and underweight, and food allergy."
     }
    }
   }
