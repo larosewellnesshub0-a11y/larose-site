@@ -237,7 +237,9 @@
             "ar": "مفيش موعد واحد لكل الأطفال. التوقيت يعتمد على شدة النقص، وجود كساح أو مرض امتصاص، الجرعة، الالتزام وباقي التحاليل. بعض خطط الوقاية مش محتاجة إعادة تحليل أصلاً، بينما العلاج أو الجرعات العالية يحتاجوا متابعة يحددها الطبيب. اتفق على موعد وهدف واضحين بدل التكرار المبكر لمطاردة رقم [3, 4, 10].",
             "en": "There is no single interval for every child. Timing depends on severity, rickets or malabsorption, dose, adherence and related tests. Some preventive plans need no repeat blood test, while treatment or prolonged high dosing may require clinician-directed monitoring. Agree on a clear date and purpose rather than testing early to chase a number [3, 4, 10]."
           }
-        }
+        },
+        {"q": {"ar": "جرعة فيتامين د الوقائية للرضيع والطفل الصغير قد إيه؟", "en": "What is the routine vitamin D dose for babies and young children?"}, "a": {"ar": "الإرشادات البريطانية بتقول: الرضيع اللي بيرضع طبيعي من الولادة لحد سنة ياخد يوميًا مكمل فيه من 8.5 لـ10 ميكروجرام فيتامين د، والطفل من سنة لـ4 سنين ياخد 10 ميكروجرام يوميًا. ودي جرعة وقائية، مش علاج لنقص متشخّص [7].", "en": "UK guidance says breastfed babies from birth to 1 year should have a daily supplement containing 8.5 to 10 micrograms of vitamin D, and children aged 1 to 4 years should have 10 micrograms daily. This is a routine preventive dose, not treatment for a diagnosed deficiency. [7]"}},
+        {"q": {"ar": "الرضيع اللي بيرضع صناعي محتاج نقط فيتامين د؟", "en": "Does a formula-fed baby need vitamin D drops?"}, "a": {"ar": "لو بيشرب أكتر من 500 مل لبن صناعي في اليوم، مايتديلوش مكمل فيتامين د. والزيادة من بعض الفيتامينات ممكن تضر، فالتزم بالجرعة المكتوبة [7].", "en": "Babies having more than 500ml (about a pint) of infant formula a day should not be given a vitamin D supplement. Too much of some vitamins can be harmful, so keep to the dose recommended on the label. [7]"}}
       ],
       "sources": [
         {
@@ -309,8 +311,8 @@
         {
           "date": "2026-09-27",
           "note": {
-            "ar": "وسعنا شرح عوامل الخطر والتحاليل والوقاية والأكل والشمس وأمان المكملات وعلامات الخطر، واتراجع المحتوى طبياً من جديد.",
-            "en": "We expanded risk factors, testing, prevention, food, sunlight, supplement safety and warning signs, and medically re-reviewed the content."
+            "ar": "وسعنا شرح عوامل الخطر والتحاليل والوقاية والأكل والشمس وأمان المكملات وعلامات الخطر، واتراجع المحتوى طبياً من جديد. اتضاف سؤالين شائعين عن جرعة فيتامين د الوقائية للأطفال والرضاعة الصناعية، بمصادرهم.",
+            "en": "We expanded risk factors, testing, prevention, food, sunlight, supplement safety and warning signs, and medically re-reviewed the content. Added two cited FAQs on routine vitamin D doses for young children and formula-fed babies."
           }
         }
       ]
