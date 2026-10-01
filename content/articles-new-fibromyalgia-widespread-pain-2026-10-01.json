@@ -1,0 +1,324 @@
+{
+  "_note": "Phase 3 new article (2026-10-01). Explains fibromyalgia and widespread pain criteria, sleep/fatigue, purpose of laboratory exclusion, exercise and CBT evidence, and stepped medical care; deliberately does not promote unverified supplements or claim clinic devices.",
+  "articles": [
+    {
+      "slug": "fibromyalgia-widespread-pain",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "rheumatology",
+      "specialties": [
+        "rheumatology"
+      ],
+      "date": "2026-10-01",
+      "updatedAt": "2026-10-01",
+      "readingTime": 9,
+      "author": "shimaa-sherif",
+      "reviewedBy": "mohab-ashraf",
+      "image": "assets/img/articles/fibromyalgia-widespread-pain-cover.webp",
+      "title": {
+        "ar": "الفيبروميالجيا وألم العضلات المنتشر: الأعراض، التشخيص، والعلاج",
+        "en": "Fibromyalgia and widespread pain: symptoms, diagnosis, and treatment"
+      },
+      "excerpt": {
+        "ar": "الفيبروميالجيا مش وهم ومش ألم نفسي، دي حالة بيولوجية بتعمل تحسس مركزي للألم مع إرهاق واضطراب في النوم. اعرف معايير التشخيص وخطوات العلاج الفعالة.",
+        "en": "Fibromyalgia is not imaginary; it is a biological condition of central pain sensitivity with fatigue and sleep disruption. Learn how it is diagnosed and managed."
+      },
+      "tags": {
+        "ar": [
+          "الفيبروميالجيا",
+          "ألم العضلات المنتشر",
+          "متلازمة الألم العضلي الليفي",
+          "علاج الفيبروميالجيا",
+          "تحسس الألم المركزي",
+          "اضطرابات النوم"
+        ],
+        "en": [
+          "fibromyalgia",
+          "widespread pain",
+          "central sensitisation",
+          "fibromyalgia diagnosis",
+          "fibromyalgia treatment",
+          "chronic fatigue"
+        ]
+      },
+      "sections": [
+        {
+          "id": "what-is-fibromyalgia",
+          "heading": {
+            "ar": "الفيبروميالجيا معناها إيه، وليه الألم حقيقي مش وهم؟",
+            "en": "What fibromyalgia means, and why the pain is real and not imagined"
+          },
+          "body": {
+            "ar": "الفيبروميالجيا (Fibromyalgia) أو متلازمة الألم العضلي الليفي المنتشر، حالة مزمنة بتتميز بوجع مستمر وواسع في العضلات والمفاصل مع إرهاق شديد واضطراب في النوم. سنين طويلة كان المريض بيسمع جمل محبطة زي 'تحاليلك سليمة، يبقى ما فيش حاجة' أو 'ده مجرد وهم وتوتر نفسي'. الحقيقة العلمية المثبتة دلوقتي عكس الكلام ده تماماً؛ الألم حقيقي جداً وله أساس عصبي وبيولوجي واضح في الجهاز العصبي [3, 4].\n\nالمشكلة الأساسية في الفيبروميالجيا مش التهاب في المفاصل ولا تلف في الأنسجة المحيطية، لكن خلل في طريقة معالجة إشارات الألم جوه المخ والحبل الشوكي. الحالة دي بتتسمى التحسس المركزي (Central Sensitisation) أو الألم متبدل التحفيز (Nociplastic Pain). تخيل إن نظام استشعار الألم في جسمك عامل زي جهاز راديو زرار الصوت فيه مرفوع على أعلى درجة، فأي إشارة لمس عادية أو ضغط بسيط بيترجم في المخ كإحساس وجع حقيقي ومزعج [3, 13].\n\nجنب الوجع المنتشر، فيه أعراض تانية أساسية بتظهر مع الحالة دي. الإرهاق المستمر اللي مش بيتحسن بالنوم، وصعوبة التركيز والتشتت وضعف الذاكرة اللحظي اللي بيتسمى في الأوساط الطبية بالضباب الدماغي (Fibro Fog)، وتيبس الجسم أول ما تصحى من النوم، وحساسية عالية للبرد أو الأصوات العالية والضوء. وجود الأعراض دي مع بعض بيأكد وجود متلازمة متكاملة بتحتاج تعامل طبي منظم وواعي [4, 12].",
+            "en": "Fibromyalgia is a chronic condition characterized by widespread, persistent pain in muscles and soft tissues, accompanied by severe fatigue and sleep disturbance. For decades, patients frequently encountered dismissive comments such as 'your tests are normal, so nothing is wrong' or 'it is all in your head.' Contemporary medical evidence confirms the exact opposite: the pain is biological, physical, and rooted in altered processing within the nervous system [3, 4].\n\nRather than stemming from peripheral tissue inflammation or joint destruction, fibromyalgia reflects altered pain signaling within the brain and spinal cord, a mechanism known as central sensitization or nociplastic pain. In simple terms, the nervous system's internal volume control for pain is set too high, so normal sensory inputs or light pressures are amplified and perceived by the brain as significant pain [3, 13].\n\nAlongside widespread body pain, core features include persistent fatigue that does not resolve with rest, non-restorative sleep, morning stiffness, and cognitive difficulties commonly described as 'fibro fog,' encompassing forgetfulness, poor concentration, and mental slowness. Increased sensitivity to cold, sound, and bright light often coexists, underscoring that fibromyalgia is a complex systemic syndrome requiring structured medical care [4, 12]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "diagnostic-criteria-how-diagnosed",
+          "heading": {
+            "ar": "إزاي الطبيب بيشخص الفيبروميالجيا؟ معايير التشخيص الحديثة",
+            "en": "How clinicians diagnose fibromyalgia: modern clinical criteria"
+          },
+          "body": {
+            "ar": "زمان كان التشخيص بيعتمد على فحص نقاط الألم الـ 18 (Tender Points)، بحيث يضغط الطبيب على أماكن محددة، وكان وجود ألم في 11 نقطة أو أكتر جزء من معايير سنة 1990. معايير 2010 استبعدت شرط فحص النقاط، جزئياً بسبب صعوبة تطبيقه، وبدلته بتقييم أماكن الألم مع أعراض مهمة زي النوم غير المريح والتعب والمشاكل الإدراكية [1, 5].\n\nالمعايير الحديثة دلوقتي بتعتمد على تقييم شامل بيشمل محورين أساسيين. المحور الأول هو مؤشر الألم المنتشر (WPI)، اللي بيفحص 19 منطقة في الجسم، ولازم الألم يكون عام وموزع على 4 مناطق على الأقل من أصل 5 مناطق رئيسية في الجسم (فوق الحزام وتحته، واليمين والشمال، والعمود الفقري). المحور الثاني هو مقياس شدة الأعراض (SSS)، اللي بيقيس درجة التعب، وصحيان النوم من غير راحة، والمشاكل الإدراكية، والأعراض الجسدية العامة [1, 10].\n\nالشرط الزمني مهم جداً هنا؛ لازم الأعراض دي تكون مستمرة بنفس النمط لمدة 3 شهور على الأقل. نقطة تانية حاسمة في المعايير الحديثة: تشخيص الفيبروميالجيا مش محتاج استبعاد كامل لأي مرض تاني، يعني وجود خشونة في الركبة أو روماتويد أو ذئبة مش بيمنع خالص وجود فيبروميالجيا مصاحبة معاهم، فالطبيب بيشخص الحالة دي ككيان سريري مستقل بيتعالج بالتوازي مع الحالات التانية [1, 5].",
+            "en": "Historically, diagnosis relied on the 1990 tender-point examination, with pain at 11 or more of 18 specified sites forming part of the criteria. The 2010 criteria removed the tender-point requirement, partly because the examination was difficult to use, and replaced it with an assessment of pain locations plus important symptoms such as unrefreshing sleep, fatigue, and cognitive difficulties [1, 5].\n\nContemporary diagnostic criteria evaluate two core components: the Widespread Pain Index (WPI), which tallies pain across 19 body regions, and the Symptom Severity Scale (SSS), which grades the severity of fatigue, unrefreshing sleep, cognitive symptoms, and somatic complaints. Generalized pain must be present across at least 4 of 5 defined body regions (upper left, upper right, lower left, lower right, and axial regions) [1, 10].\n\nSymptoms must persist at a comparable level for at least 3 months. Crucially, updated criteria establish that a diagnosis of fibromyalgia is valid irrespective of other medical diagnoses; it can coexist with conditions such as osteoarthritis, rheumatoid arthritis, or systemic lupus erythematosus, and deserves dedicated recognition rather than being treated purely as an exclusion diagnosis [1, 5]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "why-blood-tests-are-done",
+          "heading": {
+            "ar": "تحاليل الدم لازمتها إيه لو ما فيش تحليل بيثبت المرض؟",
+            "en": "The purpose of blood tests when no single test confirms the disease"
+          },
+          "body": {
+            "ar": "كتير من المرضى بيسألوا: 'إيه اسم تحليل الفيبروميالجيا في المعمل؟'. الحقيقة العلمية الواضحة إن ما فيش تحليل دم أو أشعة بتثبت الفيبروميالجيا بشكل مباشر؛ التشخيص بيعتمد على التاريخ المرضي والأعراض والفحص الإكلينيكي. ولو التحاليل طلعت طبيعية، ده ما ينفيش إن الألم حقيقي، لأن الهدف منها أساساً هو استبعاد أسباب تانية للألم والإرهاق [5, 10].\n\nالطبيب ممكن يطلب صورة دم كاملة، ومعها سرعة الترسيب (ESR) أو البروتين التفاعلي (CRP). تحليل وظائف الغدة الدرقية ممكن يتطلب حسب التاريخ المرضي والفحص، لأن كسل الغدة ممكن يعمل أعراض متشابهة. اختيار التحاليل بيتحدد لكل شخص بدل طلب قائمة كبيرة بشكل روتيني [5, 11].\n\nتحاليل إضافية زي إنزيم العضلات (CK) أو فيتامين د ممكن تتطلب لو الأعراض أو الفحص بيدّوا سبب واضح لطلبها. أما تحاليل المناعة الواسعة زي الأجسام المضادة للنواة (ANA)، فالأفضل ما تتطلبش بشكل عشوائي من غير علامات إكلينيكية تشير لمرض روماتيزمي التهابي [5].",
+            "en": "Patients often ask which blood test confirms fibromyalgia. There is no laboratory test or imaging scan that directly proves the condition; diagnosis rests on the clinical history, symptoms, and physical examination. Normal test results do not make the pain less real, because testing is used mainly to look for other causes of pain and fatigue [5, 10].\n\nA clinician may request a complete blood count and either erythrocyte sedimentation rate (ESR) or C-reactive protein (CRP). Thyroid testing may be added according to the history and examination because hypothyroidism can cause overlapping symptoms. The test list should be tailored to the individual rather than ordered as a broad routine panel [5, 11].\n\nAdditional tests such as creatine kinase or vitamin D may be appropriate when particular symptoms or examination findings support them. Broad autoimmune serology such as antinuclear antibody (ANA) testing should not be ordered indiscriminately when there are no clinical signs suggesting an inflammatory rheumatic disease [5]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تحليل فيتامين د والإرهاق المستمر",
+                "url": "../articles/qa-vitamin-d-fatigue.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "vitamin D testing and persistent fatigue",
+                "url": "../articles/qa-vitamin-d-fatigue.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sleep-and-fatigue-connection",
+          "heading": {
+            "ar": "علاقة النوم بالإرهاق وألم الجسم: دايرة مقفولة إزاي نكسرها؟",
+            "en": "The link between sleep, fatigue, and pain: breaking the cycle"
+          },
+          "body": {
+            "ar": "ناس كتير عندها فيبروميالجيا بتوصف نوم غير مريح: الشخص يصحى من النوم ولسه حاسس بالتعب. دراسات تخطيط النوم لقت قلة في النوم العميق ووجود إيقاعات ألفا غير طبيعية، وده يشير لوجود درجة من اليقظة أثناء النوم غير الحالم [6, 13].\n\nالنوم والوجع ممكن يأثروا على بعض. الحرمان من النوم بيضعف المسارات العصبية النازلة اللي بتساعد الجسم يتحكم في الألم، وتحسين جودة النوم ممكن يقلل الألم والإرهاق. عشان كده تقييم النوم جزء مهم من الخطة، من غير افتراض إن كل اضطراب نوم سببه الفيبروميالجيا نفسها [3, 6].\n\nعادات النوم المنتظمة والروتين الهادي قبل النوم وتهيئة مكان مناسب للنوم خطوات عامة مفيدة. ولو التاريخ المرضي يشير لانقطاع النفس أثناء النوم أو اضطراب نوم أساسي تاني، الطبيب ممكن يطلب تقييم متخصص أو دراسة نوم بدل اعتبار التعب جزءاً من الفيبروميالجيا وبس [5, 11].",
+            "en": "Many people with fibromyalgia describe non-restorative sleep: they wake still feeling tired. Sleep studies have found reduced deep sleep and abnormal alpha rhythms, suggesting wakefulness during non-REM sleep [6, 13].\n\nSleep and pain can affect one another. Sleep deprivation impairs the descending neural pathways that help control pain, while improving sleep quality can reduce pain and fatigue. Sleep assessment is therefore an important part of care without assuming that every sleep problem is caused by fibromyalgia itself [3, 6].\n\nRegular sleep habits, a relaxing bedtime routine, and a suitable sleep environment are reasonable general steps. If the history suggests obstructive sleep apnea or another primary sleep disorder, a clinician may arrange specialist assessment or a sleep study rather than attributing all fatigue to fibromyalgia [5, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "تأثير اضطراب النوم على صحة الجسم",
+                "url": "../articles/qa-sleep-weight-plateau.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "the effect of sleep disturbance on health",
+                "url": "../articles/qa-sleep-weight-plateau.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "non-drug-treatments-first-line",
+          "heading": {
+            "ar": "العلاج غير الدوائي: الأساس الأول والخطوة الأهم للتحسن",
+            "en": "Non-pharmacological therapies: the primary foundation of management"
+          },
+          "body": {
+            "ar": "التوصيات الإكلينيكية الأوروبية (EULAR) بتبدأ بالتوعية والعلاج غير الدوائي، وبتعتبر التمارين العلاج الوحيد اللي حصل على توصية قوية ضمن العلاجات اللي راجعتها. النشاط الهوائي ممكن يحسن جودة الحياة والوظيفة ويقلل الألم بدرجة بسيطة عند بعض الناس [2, 7].\n\nالسر في نجاح التمارين مع الفيبروميالجيا هو إن البداية تكون بنشاط خفيف أو متوسط يناسب قدرة الشخص، زي المشي أو العجلة الثابتة، وبعد كده يزيد المجهود بالتدريج حسب التحمل. البداية السريعة أو المجهود الأكبر من القدرة ممكن يزود الأعراض، فخطة الحركة لازم تكون واقعية وقابلة للاستمرار [2, 7].\n\nالجانب التاني المهم هو العلاج السلوكي المعرفي (CBT) والتوعية الطبية بالحالة. الجلسات دي مش معناها إن المرض وهمي؛ هي بتساعد الشخص يفهم الألم وينظم نشاطه ويتعامل مع الأفكار والمشاعر المرتبطة بيه. المراجعات بتبين فائدة إضافية صغيرة للعلاج السلوكي المعرفي في الألم والمزاج والقدرة على أداء النشاط اليومي [8, 14].",
+            "en": "EULAR guidance begins with education and non-drug care, and exercise was the only therapy it rated strongly in favour. Aerobic exercise can improve quality of life and physical function and may slightly reduce pain for some people [2, 7].\n\nThe practical principle is to begin with low- or moderate-intensity activity suited to the person's current ability, such as walking or stationary cycling, and then increase gradually according to tolerance. Starting too quickly or exceeding current capacity can worsen symptoms, so the movement plan should be realistic and sustainable [2, 7].\n\nCognitive behavioural therapy (CBT) and patient education are another part of care. This does not imply that the pain is imaginary; CBT can help a person understand pain, pace activity, and address related thoughts and emotions. Reviews show a small additional benefit for pain, mood, and daily functioning [8, 14]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "فوائد الحركة والنشاط البدني للجسم",
+                "url": "../articles/movement-benefits-beyond-the-scale.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "the benefits of physical activity and movement",
+                "url": "../articles/movement-benefits-beyond-the-scale.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "medication-principles-and-what-to-avoid",
+          "heading": {
+            "ar": "الأدوية في الفيبروميالجيا: إيه اللي بينفع وإيه اللي لازم تبعد عنه تماماً؟",
+            "en": "Medications in fibromyalgia: what helps and what must be strictly avoided"
+          },
+          "body": {
+            "ar": "الأدوية في الفيبروميالجيا دورها مساعد ومش علاج مستقل. توصيات EULAR بتصنف أميتريبتيلين بجرعة منخفضة ودولوكستين وبريجابالين كتوصيات ضعيفة لصالح الاستخدام عند حالات مختارة، حسب الأعراض زي الألم الشديد أو اضطراب النوم. وفي المقابل، إرشادات NICE للألم الأولي المزمن بتسمح بمناقشة مضادات اكتئاب معينة، ومنها أميتريبتيلين ودولوكستين، بعد شرح الفوائد والأضرار، لكنها بتنصح بعدم بدء الجابابنتينويد زي بريجابالين لهذا الغرض [2, 14].\n\nبالنسبة للأفيونات، EULAR بتوصي بقوة ضد الأفيونات القوية، لكنها بتصنف ترامادول كتوصية ضعيفة لصالح الاستخدام بناءً على دليل محدود. NICE بتنصح بعدم بدء الأفيونات لعلاج الألم الأولي المزمن. الأبحاث ما لقتش دليلاً من التجارب الإكلينيكية على فاعلية الأفيونات التقليدية في الفيبروميالجيا، واستخدامها ممكن يزود حساسية الألم أو يعمل فرط تحسس ناتج عن الأفيون، بجانب مخاطر التعود والاعتماد [2, 9, 14].\n\nEULAR بتوصي بقوة ضد الكورتيزون لعدم وجود دليل على الفاعلية مع ارتفاع خطر الآثار الجانبية، وبتوصي بشكل ضعيف ضد مضادات الالتهاب غير الستيرويدية (NSAIDs) لأن التجارب ما بينتش نتيجة أفضل من الدواء الوهمي. NICE كمان بتنصح بعدم بدء مضادات الالتهاب غير الستيرويدية لعلاج الألم الأولي المزمن. أي قرار دوائي لازم يكون بعد مناقشة الحالة الفردية والفوائد والأضرار مع الطبيب [2, 14].",
+            "en": "Medication has an adjunctive role in fibromyalgia rather than acting as a standalone cure. EULAR rates low-dose amitriptyline, duloxetine, and pregabalin only as weak recommendations in favour for selected patients, guided by problems such as severe pain or sleep disturbance. NICE guidance for chronic primary pain takes a different approach: after discussing benefits and harms, clinicians may consider certain antidepressants, including amitriptyline and duloxetine, but should not initiate gabapentinoids such as pregabalin for this purpose [2, 14].\n\nFor opioids, EULAR strongly recommends against strong opioids but rates tramadol as weak in favour on limited evidence. NICE advises against initiating opioids for chronic primary pain. Clinical trials have not shown traditional opioids to be effective for fibromyalgia, and opioid use can worsen pain sensitivity through opioid-induced hyperalgesia as well as carrying risks of tolerance and dependence [2, 9, 14].\n\nEULAR rates corticosteroids strongly against because of a lack of efficacy evidence and a high risk of adverse effects. It rates NSAIDs weakly against because trials found no better outcome than placebo. NICE also advises against initiating NSAIDs for chronic primary pain. Any medication decision should follow an individual discussion of potential benefits and harms with the treating clinician [2, 14]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "red-flags-and-next-steps",
+          "heading": {
+            "ar": "علامات الخطر اللي محتاجة كشف فوري، وخطوتك الجاية",
+            "en": "Warning signs requiring prompt evaluation, and next clinical steps"
+          },
+          "body": {
+            "ar": "الفيبروميالجيا بتعمل ألم وإرهاق، لكن الفحص الإكلينيكي مهم عشان الطبيب يدور على أي علامة مش متوقعة في الحالة. وجود التهاب واضح في المفاصل أو نتيجة غير طبيعية في الفحص العصبي ممكن يشير لسبب تاني أو مرض مصاحب ويحتاج تقييم موجه بدل افتراض إن كل عرض سببه الفيبروميالجيا [5, 11].\n\nعشان أعراض الفيبروميالجيا ممكن تتشابه مع حالات تانية، الطبيب بيراجع التاريخ المرضي وبيفحص المفاصل والجهاز العصبي، وبعد كده بيطلب التحاليل أو الإحالة المناسبة لو فيه أعراض غير معتادة أو علامات جديدة في الفحص. التقييم ده بيتحدد حسب الحالة، ومش معناه إن كل شخص محتاج قائمة طويلة من التحاليل [5, 11].\n\nلو بتعاني من وجع منتشر ومستمر في جسمك مع إرهاق ومش عارف تبدأ منين، التقييم المنظم ممكن يقلل تكرار التحاليل والإحالات من غير خطة واضحة. الفريق الطبي في لاروز بيساعدك على تقييم الأعراض واستبعاد الأسباب التانية ووضع خطة رعاية تشمل الحركة التدريجية والنوم والتعامل مع الأعراض. تقدر تحجز استشارة مع الفريق الطبي في فروع لاروز في المعادي أو التجمع الخامس [10, 11].",
+            "en": "Fibromyalgia causes pain and fatigue, but a clinical examination remains important so that the clinician can look for findings not expected in the condition. Clear joint inflammation or an abnormal neurological examination may point to another cause or a coexisting condition and calls for targeted evaluation rather than assuming every symptom is fibromyalgia [5, 11].\n\nBecause fibromyalgia symptoms overlap with other conditions, the clinician reviews the history and examines the joints and nervous system, then arranges suitable tests or referral when there are unusual symptoms or new examination findings. This assessment is tailored to the individual and does not mean that everyone needs a long list of tests [5, 11].\n\nIf you have persistent widespread pain and fatigue and do not know where to begin, structured evaluation can reduce repeated tests and referrals without a clear plan. The medical team at La Rose can assess the symptoms, consider other causes, and discuss a care plan covering gradual movement, sleep, and symptom management. You can book a consultation with the medical team at La Rose branches in Maadi or Fifth Settlement, New Cairo [10, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز استشارة مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a consultation with the medical team",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "هل الفيبروميالجيا مرض نفسي ولا عضوي؟",
+            "en": "Is fibromyalgia psychological or physical?"
+          },
+          "a": {
+            "ar": "الفيبروميالجيا مرض عضوي عصبي حقيقي مش وهم ومش مرض نفسي. الفحوصات العصبية وأبحاث الرنين المغناطيسي الوظيفي بينت تغيرات واضحة في مراكز معالجة الألم في المخ والحبل الشوكي. التوتر النفسي وقلة النوم ممكن يزودوا نوبات الألم، لكنهم مش هما السبب الأساسي الوحيد للمرض [3, 4].",
+            "en": "Fibromyalgia is a recognized neurobiological condition, not an imaginary or purely psychological disorder. Neuroimaging and neurochemical studies demonstrate altered pain signaling and central amplification in the brain and spinal cord. Psychological stress and poor sleep can exacerbate symptom flares, but they do not cause the condition in isolation [3, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل الفيبروميالجيا بتخف نهائياً وبتروح خالص؟",
+            "en": "Can fibromyalgia be cured completely?"
+          },
+          "a": {
+            "ar": "الفيبروميالجيا حالة مزمنة وما فيش علاج واحد بيمحيها تماماً. لكن خطة متكاملة فيها حركة منتظمة مناسبة، وعادات نوم أفضل، ودعم طبي ممكن تساعد ناس كتير تقلل الأعراض وتحسن قدرتها على أداء نشاطها اليومي [2, 11].",
+            "en": "Fibromyalgia is a chronic condition without a single definitive cure. A combined plan that includes suitable regular activity, better sleep habits, and medical support can help many people reduce symptoms and improve daily function [2, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل فيه تحليل دم محدد بيثبت الفيبروميالجيا في المعمل؟",
+            "en": "Is there a specific blood test that confirms fibromyalgia?"
+          },
+          "a": {
+            "ar": "ما فيش أي تحليل دم أو اختبار معملي بيثبت وجود الفيبروميالجيا. التحاليل اللي بيطلبها الطبيب زي صورة الدم والغدة الدرقية وسرعة الترسيب هدفها الأساسي التأكد من سلامة باقي أعضاء الجسم واستبعاد أمراض تانية زي فقر الدم أو كسل الغدة أو الالتهابات المناعية [5, 10].",
+            "en": "There is no diagnostic blood test or laboratory biomarker for fibromyalgia. Routine blood tests—such as complete blood counts, thyroid panels, and inflammatory markers—are performed to exclude other conditions that cause chronic body pain and fatigue, such as anaemia, hypothyroidism, or systemic inflammatory arthritis [5, 10]."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه الفرق بين الفيبروميالجيا والروماتويد؟",
+            "en": "What is the difference between fibromyalgia and rheumatoid arthritis?"
+          },
+          "a": {
+            "ar": "الروماتويد مرض مناعي بيسبب التهاب حقيقي وتورم وسخونة في الغشاء المبطن للمفاصل، وممكن يعمل تلف وتشوه في المفصل لو ما اتعالجش. أما الفيبروميالجيا فهي خلل في استقبال إشارات الألم العصبية ومش بتسبب أي تلف في المفاصل أو العظام خالص، وممكن الحالتين يجتمعوا عند نفس المريض [1, 5].",
+            "en": "Rheumatoid arthritis is an autoimmune inflammatory disease that causes joint swelling, warmth, and progressive structural joint damage if untreated. Fibromyalgia involves central pain amplification without joint inflammation or structural damage. Importantly, the two conditions can coexist in the same individual [1, 5]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل ممارسة الرياضة ممكن تزود ألم الفيبروميالجيا؟",
+            "en": "Can exercise make fibromyalgia pain worse?"
+          },
+          "a": {
+            "ar": "التمارين العنيفة أو المفاجئة ممكن تعمل انتكاسة مؤقتة للألم. لكن التمارين الخفيفة المتدرجة زي المشي أو السباحة في مية دافية هي العلاج الأكتر فاعلية على المدى الطويل. السر هو البدء بدقايق قليلة وزيادة المجهود ببطء شديد عشان تدي الجهاز العصبي فرصة يتعود [2, 7].",
+            "en": "Sudden or strenuous workouts can provoke temporary post-exertional flares. Conversely, gentle, graded aerobic exercise—such as walking, cycling, or warm-water aquatic movement—is the most effective long-term intervention. Starting with brief sessions and advancing gradually allows the nervous system to adapt comfortably [2, 7]."
+          }
+        },
+        {
+          "q": {
+            "ar": "ليه المسكنات العادية والأفيونات مش بتنفع مع وجع الفيبروميالجيا؟",
+            "en": "Why do standard painkillers and opioids not work for fibromyalgia pain?"
+          },
+          "a": {
+            "ar": "مضادات الالتهاب غير الستيرويدية ما أظهرتش نتيجة أفضل من الدواء الوهمي في التجارب اللي راجعتها EULAR. وبالنسبة للأفيونات، ما فيش دليل من التجارب الإكلينيكية على فاعلية الأفيونات التقليدية في الفيبروميالجيا، واستخدامها ممكن يزود حساسية الألم. EULAR بتوصي بقوة ضد الأفيونات القوية لكنها بتدي ترامادول توصية ضعيفة لصالح الاستخدام، بينما NICE بتنصح بعدم بدء الأفيونات للألم الأولي المزمن [2, 9, 14].",
+            "en": "NSAIDs did not produce better outcomes than placebo in the trials reviewed by EULAR. For opioids, clinical trials have not shown traditional opioids to be effective in fibromyalgia, and their use can worsen pain sensitivity. EULAR strongly recommends against strong opioids but gives tramadol a weak recommendation in favour, while NICE advises against initiating opioids for chronic primary pain [2, 9, 14]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wolfe et al. — 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27916278/"
+        },
+        {
+          "label": "Macfarlane et al. — EULAR revised recommendations for the management of fibromyalgia",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27377815/"
+        },
+        {
+          "label": "Clauw et al. — Fibromyalgia: a clinical review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24737367/"
+        },
+        {
+          "label": "Sarzi-Puttini et al. — Fibromyalgia: an update on clinical characteristics, aetiopathogenesis and treatment",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33024295/"
+        },
+        {
+          "label": "Bhargava et al. — Fibromyalgia",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31082018/"
+        },
+        {
+          "label": "Choy et al. — The role of sleep in pain and fibromyalgia",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25907704/"
+        },
+        {
+          "label": "Bidonde et al. — Aerobic exercise training for adults with fibromyalgia",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28636204/"
+        },
+        {
+          "label": "Bernardy et al. — Cognitive behavioural therapies for fibromyalgia",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24018611/"
+        },
+        {
+          "label": "Goldenberg et al. — Opioid Use in Fibromyalgia: A Cautionary Tale",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26975749/"
+        },
+        {
+          "label": "Bair et al. — Fibromyalgia",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32120395/"
+        },
+        {
+          "label": "Arnold et al. — Fibromyalgia: management strategies for primary care providers",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26817567/"
+        },
+        {
+          "label": "National Health Service — Fibromyalgia",
+          "url": "https://www.nhs.uk/conditions/fibromyalgia/"
+        },
+        {
+          "label": "National Institute of Arthritis and Musculoskeletal and Skin Diseases — Fibromyalgia",
+          "url": "https://www.niams.nih.gov/health-topics/fibromyalgia"
+        },
+        {
+          "label": "National Institute for Health and Care Excellence — Chronic pain (primary and secondary) in over 16s: assessment of all chronic pain and management of chronic primary pain",
+          "url": "https://www.nice.org.uk/guidance/ng193"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "الفيبروميالجيا وألم العضلات المنتشر: دليلك الشامل",
+          "en": "Fibromyalgia and widespread pain: symptoms and care"
+        },
+        "description": {
+          "ar": "دليل طبي شامل لفهم الفيبروميالجيا وألم العضلات المنتشر، ومعايير التشخيص الحديثة، وليه التحاليل بتتعمل، وخطة العلاج المتكاملة وعلامات الخطر.",
+          "en": "A clinical guide to fibromyalgia and widespread pain, covering modern diagnostic criteria, the purpose of blood tests, exercise, and treatment options."
+        }
+      }
+    }
+  ]
+}

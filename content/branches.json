@@ -144,8 +144,11 @@
         "ar": "خلف مستشفى القوات الجوية التخصصي، مول CMC الطبي، الدور الرابع",
         "en": "Behind the Air Force Specialized Hospital, CMC Medical Mall, 4th floor"
       },
-      "geo": null,
-      "plusCode": "",
+      "geo": {
+        "lat": 30.020659,
+        "lng": 31.4338974
+      },
+      "plusCode": "2CCM+7H6 New Cairo 1",
       "mapsUrl": "https://maps.app.goo.gl/BcFnKmZhi5xgMabw9",
       "phone": {
         "display": "010 4066 1893",
@@ -199,15 +202,65 @@
       "gettingHere": {
         "ar": [
           "أقرب علامة مميزة: مستشفى القوات الجوية التخصصي على شارع التسعين الشمالي، والمول خلفها مباشرةً.",
+          "لو جاي من ناحية كايرو فيستيفال سيتي أو الطريق الدائري، اتجه ناحية شارع التسعين وكمل لشارع التسعين الشمالي لحد مول CMC الطبي.",
           "ادخل مول CMC الطبي واطلع للدور الرابع؛ العيادة باسم لاروز.",
           "لو احتجت مساعدة في الوصول، كلّمنا على واتساب قبل معادك."
         ],
         "en": [
           "Nearest landmark: the Air Force Specialized Hospital on North 90th Street; the mall is directly behind it.",
+          "From the Cairo Festival City or Ring Road side, head towards 90th Street and continue to North 90th Street until you reach CMC Medical Mall.",
           "Enter CMC Medical Mall and go up to the fourth floor; the clinic is under the La Rose name.",
           "If you need help finding us, message us on WhatsApp before your appointment."
         ]
       },
+      "nearbyAreas": {
+        "ar": [
+          "كايرو فيستيفال سيتي (الطريق الدائري، القاهرة الجديدة ٣): حوالي ٥٫٢ كم، حوالي ١٠ دقايق بالعربية من التسعين الجنوبي.",
+          "الياسمين (القاهرة الجديدة ١): حوالي ٥ كم، حوالي ١٠ دقايق بالعربية من التسعين الشمالي أو محور مصطفى كامل.",
+          "النرجس (القاهرة الجديدة ١): حوالي ٦٫٥ كم، حوالي ١٢ دقيقة بالعربية من التسعين الجنوبي.",
+          "البنفسج (القاهرة الجديدة ١): حوالي ٦٫٩ كم، حوالي ١٠ دقايق بالعربية من التسعين الشمالي.",
+          "التجمع الأول: حوالي ٧٫٤ كم، حوالي ١٢ دقيقة بالعربية من محور مصطفى كامل.",
+          "قطامية هايتس: حوالي ٨ كم، حوالي ١٢ دقيقة بالعربية من التسعين الجنوبي.",
+          "بوينت ٩٠ مول وشارع الجامعة الأمريكية: حوالي ٩ كم، حوالي ١٢ دقيقة بالعربية من التسعين الشمالي أو الجنوبي."
+        ],
+        "en": [
+          "Cairo Festival City (Ring Road, New Cairo 3): about 5.2 km, about 10 minutes by car via South 90th Street.",
+          "El Yasmeen (New Cairo 1): about 5 km, about 10 minutes by car via North 90th Street or Moustafa Kamel Axis.",
+          "Al Narges (New Cairo 1): about 6.5 km, about 12 minutes by car via South 90th Street.",
+          "El Banafseg (New Cairo 1): about 6.9 km, about 10 minutes by car via North 90th Street.",
+          "First Settlement: about 7.4 km, about 12 minutes by car via Moustafa Kamel Axis.",
+          "Katameya Heights: about 8 km, about 12 minutes by car via South 90th Street.",
+          "Point 90 Mall and AUC Avenue: about 9 km, about 12 minutes by car via North or South 90th Street."
+        ]
+      },
+      "areaServedNames": {
+        "ar": [
+          "كايرو فيستيفال سيتي",
+          "الياسمين",
+          "النرجس",
+          "البنفسج",
+          "التجمع الأول",
+          "قطامية هايتس",
+          "بوينت ٩٠ مول"
+        ],
+        "en": [
+          "Cairo Festival City",
+          "El Yasmeen",
+          "Al Narges",
+          "El Banafseg",
+          "First Settlement",
+          "Katameya Heights",
+          "Point 90 Mall"
+        ]
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "15:30",
+          "closes": "20:00"
+        }
+      ],
       "cardImage": "assets/img/clinic/branch-fifth-settlement.webp",
       "consultation": {
         "doctor": "shimaa-fouad",
@@ -232,7 +285,59 @@
           ]
         }
       },
-      "_todoGeo": "Coordinates / plus code for CMC Medical Mall not confirmed; mapsUrl is the short link supplied by the clinic on 2026-09-09."
+      "faq": [
+        {
+          "q": {
+            "ar": "هل مونجارو متاح في فرع التجمع الخامس؟",
+            "en": "Can I be prescribed Mounjaro at the Fifth Settlement branch?"
+          },
+          "a": {
+            "ar": "وصف مونجارو ومتابعته بيكونوا فقط بعد كشف طبي ولما يكون مناسب لحالتك. الطبيبة بتراجع تاريخك المرضي وتحاليلك وأدويتك الحالية قبل تحديد الخطة.",
+            "en": "Mounjaro is prescribed and followed only after a medical consultation and when it is suitable for your case. The doctor reviews your medical history, test results and current medication before deciding the plan."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل في متابعة ويجوفي في التجمع؟",
+            "en": "Is Wegovy follow-up available in Fifth Settlement?"
+          },
+          "a": {
+            "ar": "متابعة ويجوفي متاحة ضمن متابعة إنقاص الوزن، لكن الوصف والمتابعة بيكونوا فقط بعد كشف طبي ولما يكون الدواء مناسب لحالتك.",
+            "en": "Wegovy follow-up is available as part of weight-management care, but it is prescribed and followed only after a medical consultation and when the medicine is suitable for your case."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه اللي بيشمله كشف عيادة التغذية في التجمع الخامس؟",
+            "en": "What does the nutrition clinic consultation in Fifth Settlement include?"
+          },
+          "a": {
+            "ar": "الكشف يوم الأربعاء من ٣:٣٠ لـ ٨ مساءً، وبيشمل تقييم كامل بجهاز InBody، ومراجعة التحاليل والتاريخ المرضي والأدوية الحالية، مع قياس Body Contouring وتحديد الخطة المناسبة للحالة. جلسات نحت الجسم متاحة في الفرع.",
+            "en": "The clinic runs on Wednesday from 3:30 to 8 pm. The consultation includes a full InBody assessment, a review of your tests, medical history and current medication, a body-contouring measurement and a plan suited to your case. Body-contouring sessions are available at the branch."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل في عيادة روماتيزم في التجمع الخامس؟",
+            "en": "Is there a rheumatology clinic in Fifth Settlement?"
+          },
+          "a": {
+            "ar": "أيوه، د. شيماء شريف أخصائية أمراض الروماتيزم والمفاصل والطب الطبيعي والتأهيل موجودة في فرع التجمع يوم الأربعاء من ٣:٣٠ لـ ٨ مساءً.",
+            "en": "Yes. Dr. Shimaa Sherif, a specialist in rheumatology, joint diseases, physical medicine and rehabilitation, sees patients at the Fifth Settlement branch on Wednesday from 3:30 to 8 pm."
+          }
+        },
+        {
+          "q": {
+            "ar": "إزاي أحجز في فرع التجمع لو جاي من منطقة قريبة؟",
+            "en": "How do I book if I am coming from a nearby New Cairo area?"
+          },
+          "a": {
+            "ar": "تقدر تحجز على واتساب أو بالتليفون. لو جاي من التجمع الأول أو الياسمين أو النرجس، استخدم زر الخريطة في الصفحة عشان تشوف الاتجاهات المباشرة حسب حركة المرور.",
+            "en": "You can book by WhatsApp or phone. If you are coming from First Settlement, El Yasmeen or Al Narges, use the Maps button on this page for live directions based on traffic."
+          }
+        }
+      ],
+      "_geoSource": "Resolved 2026-10-01 from the clinic-supplied mapsUrl (CMC, N Teseen, New Cairo 1); the Air Force Specialized Hospital is 750 m away, matching the address. See _project/FIFTH-SETTLEMENT-DISTANCES-2026-10-01.md"
     },
     {
       "slug": "sheikh-zayed",

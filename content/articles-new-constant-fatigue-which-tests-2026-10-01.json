@@ -1,0 +1,214 @@
+{
+  "_note": "Phase 3 new article (2026-10-01). A structured first-pass assessment of persistent fatigue and targeted initial tests; deliberately does not repeat the dedicated vitamin D, ferritin, sleep-apnoea or hypothyroidism guides.",
+  "articles": [
+    {
+      "slug": "constant-fatigue-which-tests",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "internal-medicine",
+      "specialties": ["internal-medicine"],
+      "date": "2026-10-01",
+      "updatedAt": "2026-10-01",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-sherif",
+      "image": "assets/img/articles/constant-fatigue-which-tests-cover.webp",
+      "title": {
+        "ar": "الإرهاق المستمر: إيه التحاليل المناسبة؟",
+        "en": "Constant fatigue: which tests are reasonable?"
+      },
+      "excerpt": {
+        "ar": "التعب المستمر مش تشخيص لوحده، وقائمة تحاليل كبيرة مش دايمًا هي البداية الصح. اعرف إزاي الطبيب يرتب القصة والفحص، وإمتى يطلب صورة دم، مخزون حديد، غدة درقية، سكر، فيتامين ب12 أو فيتامين د.",
+        "en": "Persistent fatigue is a symptom, not a diagnosis, and a large test panel is not always the right starting point. Learn how history and examination guide CBC, ferritin, thyroid, glucose, vitamin B12 or vitamin D testing."
+      },
+      "tags": {
+        "ar": ["الإرهاق المستمر", "تعب وإرهاق دائم", "تحاليل الإرهاق", "صورة الدم الكاملة", "تحليل الغدة الدرقية", "مخزون الحديد"],
+        "en": ["persistent fatigue", "constant tiredness", "fatigue blood tests", "complete blood count", "thyroid testing", "ferritin"]
+      },
+      "sections": [
+        {
+          "id": "fatigue-is-a-clue",
+          "heading": {
+            "ar": "الإرهاق عرض محتاج ترتيب، مش اسم مرض",
+            "en": "Fatigue is a clue to organise, not a disease name"
+          },
+          "body": {
+            "ar": "الإرهاق المستمر ممكن يتوصف كطاقة قليلة، مجهود عادي بقى أصعب، تركيز أضعف، أو إحساس إن النوم مش بيرجع النشاط. الوصف مهم، لأن النعاس اللي يخليك تغفو مختلف عن ضعف عضلي حقيقي، ومختلف برضه عن ضيق النفس مع الحركة. مفيش تحليل واحد اسمه «تحليل الإرهاق» يحدد السبب. البداية المفيدة هي تحديد إمتى التعب بدأ، هل جه فجأة ولا بالتدريج، هل موجود طول اليوم ولا في وقت معين، وهل الراحة بتحسنه. المراجعة المنشورة عن تقييم الإرهاق في الرعاية الأولية بتبدأ بالقصة، والفحص، ومراجعة الأدوية، والنوم، والحالة النفسية قبل اختيار تحاليل موجهة [1].\n\nلو التعب موجود من كام أسبوع ومش معروف سببه، أو مأثر على الشغل والدراسة والحياة اليومية، فده وقت مناسب لتقييم طبي منظم. NHS بتذكر إن الطبيب ممكن يحتاج تحاليل للأنيميا أو السكر أو اضطراب الغدة حسب الصورة، مش كحزمة ثابتة لكل شخص [2]. اكتب قبل الزيارة بداية الأعراض، ساعات النوم، أي عدوى قريبة، تغيير وزن من غير قصد، الشهية، العطش والتبول، ألم أو نزيف، وأسماء كل دواء أو مكمل. المذكرة دي غالبًا بتخلي اختيار التحاليل أدق من طلب قائمة عشوائية، وبتساعد الطبيب يفرق بين مشكلة قصيرة مرتبطة بضغط أو نوم، وبين تعب محتاج متابعة على مراحل [1, 2].",
+            "en": "Persistent fatigue may feel like low energy, ordinary tasks becoming harder, reduced concentration, or sleep that does not restore you. The description matters: sleepiness that makes you doze is different from true muscle weakness, and both differ from breathlessness on exertion. There is no single “fatigue test” that identifies the cause. A useful assessment starts by asking when the symptom began, whether onset was sudden or gradual, whether it varies through the day, and whether rest helps. A published primary-care review places the history, examination, medication review, sleep and mental health before the selection of focused tests [1].\n\nIf tiredness has lasted a few weeks without a clear reason or is affecting work, study or daily life, a structured medical assessment is reasonable. The NHS notes that a clinician may use blood tests for conditions such as anaemia, diabetes or thyroid disease according to the presentation, rather than ordering one fixed panel for everyone [2]. Before the visit, record the onset, sleep hours, any recent infection, unintentional weight change, appetite, thirst and urination, pain or bleeding, and every medicine or supplement. This record often makes test selection more precise than a broad untargeted list and helps separate a short-lived sleep- or stress-related problem from fatigue that needs staged follow-up [1, 2]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "questions-before-blood-tests",
+          "heading": {
+            "ar": "إيه الأسئلة اللي بتيجي قبل سحب الدم؟",
+            "en": "Which questions come before a blood draw?"
+          },
+          "body": {
+            "ar": "الطبيب بيدور على نمط، مش على كلمة «تعب» بس. نوم قليل أو متقطع، شغل ورديات، شخير عالي أو توقف نفس ملحوظ، عدوى حديثة، ضغط نفسي، مزاج منخفض، أكل محدود، تبرع دم، دورة غزيرة، أعراض هضمية، أو دواء جديد؛ كل نقطة منهم ممكن تغير ترتيب الفحوص. لازم تتراجع الأدوية الموصوفة، والأدوية من غير روشتة، والمهدئات ومضادات الحساسية والمكملات، لأن مراجعة الإرهاق في الرعاية الأولية بتعتبر الدواء والتعرضات جزء أساسي من التقييم. سؤال المزاج مش معناه إن العرض «في الخيال»؛ التعب وقلة الطاقة ممكن يكونوا ضمن أعراض الاكتئاب، وفي نفس الوقت ممكن توجد مشكلة جسدية ومشكلة نفسية مع بعض [1, 12].\n\nالفحص برضه له دور: النبض والضغط والحرارة، شحوب واضح، تغير وزن، الغدة في الرقبة، القلب والتنفس، تورم، أو علامة عصبية جديدة ممكن توجه الاختبارات. إرشادات NICE عند الاشتباه في تعب مزمن مع أعراض متوافقة بتطلب تقييمًا طبيًا يشمل التاريخ، والفحص، والصحة الجسدية والنفسية، ثم فحوصًا لاستبعاد تشخيصات تانية [3]. ده مش معناه إن كل شخص مرهق عنده متلازمة التعب المزمن؛ التشخيص ده له مجموعة أعراض ومسار زمني مخصوصين، ومفيش تحليل دم واحد يثبته. المقصود إن القصة والفحص بيحددوا السؤال اللي التحليل مطلوب يجاوب عليه، بدل ما النتيجة تتفسر بعيد عن السياق [1, 3].",
+            "en": "The clinician looks for a pattern, not only the word “tired.” Short or fragmented sleep, shift work, loud snoring or witnessed breathing pauses, a recent infection, stress, low mood, a restricted diet, blood donation, heavy menstrual bleeding, digestive symptoms or a new medicine can each change the order of testing. Prescribed medicines, over-the-counter products, sedating antihistamines and supplements all deserve review, because primary-care fatigue assessment treats medicines and exposures as a core part of the evaluation. Asking about mood does not mean that the symptom is “imagined”: fatigue and low energy can be depression symptoms, while a physical and a mental health condition can coexist [1, 12].\n\nExamination also contributes: pulse, blood pressure, temperature, visible pallor, weight change, the thyroid in the neck, heart and breathing findings, swelling, or a new neurological sign can direct the work-up. When fatigue and associated symptoms raise possible ME/CFS, NICE recommends a medical assessment covering history, examination, and physical and mental health, followed by investigations to exclude other diagnoses [3]. This does not mean everyone with fatigue has ME/CFS; that diagnosis requires a particular symptom pattern and time course, and no single blood test proves it. The point is that history and examination define the question each test should answer instead of allowing an isolated result to drive the story [1, 3]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "reasonable-first-tests",
+          "heading": {
+            "ar": "التحاليل الأولية المعقولة: قائمة قصيرة تتغير حسب الحالة",
+            "en": "Reasonable initial tests: a short list tailored to the case"
+          },
+          "body": {
+            "ar": "في تقييم مستمر من غير تفسير واضح، ممكن الطبيب يبدأ بصورة دم كاملة (CBC)، ووظائف الغدة الدرقية، وقياس سكر مناسب، ومعاهم فحوص تانية حسب التاريخ والفحص. إرشادات NICE تذكر ضمن أمثلة الاستبعاد: صورة الدم، وظائف الكلى والأملاح، وظائف الكبد، وظائف الغدة، مؤشرات التهاب، الكالسيوم والفوسفات، HbA1c، الفيريتين، فحص السيلياك، وتحليل البول؛ وبعدها تستخدم الحكم السريري لإضافة فيتامين ب12 أو فيتامين د أو فولات أو فحوص عدوى عند وجود سبب يدعو لكده [3]. دي قائمة إرشادية في سياق اشتباه محدد، مش «باكدج» لازم يتعمل بالكامل لكل واحد عنده تعب.\n\nالاختيار بيتضيق أو يتوسع حسب العلامات. عطش وتبول متكرر ممكن يقدّم اختبار السكر، وبرودة وإمساك وتغيرات جلد أو شعر ممكن تخلّي تقييم الغدة مناسب، ونزيف أو غذاء قليل الحديد ممكن يقدّم صورة الدم والفيريتين. أعراض هضمية أو فقد وزن أو ألم مفاصل أو حمى بتفتح أسئلة مختلفة، والطبيب ممكن يطلب فحوصًا موجهة أو إحالة بدل إعادة نفس المجموعة. الفحص الواسع من غير دليل ممكن يطلع تغيرات بسيطة ملهاش علاقة بالتعب؛ المراجعة المنشورة بتنبّه إن التحاليل قليلة الفائدة في غياب دليل من القصة أو الفحص، وإن نتائج صغيرة غير طبيعية شائعة وممكن تشتت التقييم [1]. الأنسب هو نقطة بداية واضحة، ثم مراجعة النتيجة مع الأعراض بدل مطاردة كل رقم خارج النطاق [1, 3].",
+            "en": "For persistent fatigue without an obvious explanation, a clinician may begin with a complete blood count (CBC), thyroid function and an appropriate glucose measure, adding other tests according to the history and examination. NICE examples used to exclude alternative diagnoses include full blood count, kidney function and electrolytes, liver function, thyroid function, inflammatory markers, calcium and phosphate, HbA1c, ferritin, coeliac screening and urinalysis; clinical judgement then determines whether vitamin B12, vitamin D, folate or infection testing is warranted [3]. This is an illustrative list in a defined clinical context, not a package that every tired person must complete.\n\nClues narrow or expand the selection. Thirst and frequent urination may move glucose testing forward; cold intolerance, constipation, or skin and hair changes may support thyroid testing; bleeding or low dietary iron may prioritise CBC and ferritin. Digestive symptoms, weight loss, joint pain or fever raise different questions, and a clinician may choose a targeted test or referral instead of repeating the same panel. Broad testing without a clinical lead can reveal small changes unrelated to fatigue. The published review warns that tests are rarely helpful without positive history or examination findings and that minor abnormalities are common and often unrelated to the symptom [1]. A defined starting set followed by interpretation alongside the symptoms is more useful than chasing every value outside a reference range [1, 3]."
+          },
+          "links": {"ar": [], "en": []}
+        },
+        {
+          "id": "cbc-and-ferritin",
+          "heading": {
+            "ar": "صورة الدم والفيريتين: اختباران بيجاوبوا على سؤالين مختلفين",
+            "en": "CBC and ferritin answer different questions"
+          },
+          "body": {
+            "ar": "صورة الدم الكاملة بتقيس أعداد وأحجام خلايا الدم، ومنها الهيموجلوبين والهيماتوكريت ومتوسط حجم كرات الدم الحمراء (MCV)، وبتدي معلومات عن خلايا الدم البيضاء والصفائح كمان. النتيجة ممكن تساعد في اكتشاف أنيميا أو عدوى أو تغيرات دموية محتاجة تفسير، بس مش بتحدد السبب لوحدها، والرقم غير الطبيعي مش دايمًا معناه مرض محتاج علاج. الجفاف، الأدوية، الدورة وعوامل تانية ممكن تأثر على بعض القيم، عشان كده النتيجة لازم تتقري مع التاريخ والفحص [4].\n\nالفيريتين بروتين بيخزن الحديد، وتحليله بيساعد في تقدير مخزون الحديد. ممكن الهيموجلوبين يفضل داخل نطاق المعمل بينما المخزون يقل، فصورة دم «طبيعية» مش هي نفس إجابة الفيريتين. وفي الاتجاه التاني، الفيريتين ممكن يتأثر بحالات مزمنة أو التهاب أو مشاكل كبد، فمش كل ارتفاع معناه حديد زائد [5]. الطبيب بيقرر طلبه خصوصًا مع نزيف، دورة غزيرة، حمل، غذاء محدود، تبرع متكرر، أو مشكلة امتصاص محتملة. ومش آمن تبدأ حديد لمجرد التعب قبل ما يتأكد النقص ويتفهم سببه؛ الحديد مش علاج عام للإرهاق، والصفحة المخصصة لمخزون الحديد بتشرح الفرق والمتابعة بتفصيل أكبر [4, 5].",
+            "en": "A complete blood count measures the number and size of blood cells, including haemoglobin, haematocrit and mean corpuscular volume (MCV), and also reports white cells and platelets. It can help identify anaemia, infection or blood-cell changes that need interpretation, but it does not establish a cause by itself, and an out-of-range value does not always represent a condition needing treatment. Hydration, medicines, menstruation and other factors can affect some results, so the report must be read with the history and examination [4].\n\nFerritin is an iron-storage protein, and its blood level helps assess iron stores. Haemoglobin can remain within the laboratory range while stores decline, so a “normal CBC” does not answer the same question as ferritin. Conversely, ferritin can be influenced by chronic conditions, inflammation or liver disease, so a high result does not automatically mean excess iron [5]. A clinician is more likely to request it when there is bleeding, heavy menstrual loss, pregnancy, restricted intake, repeated blood donation or possible malabsorption. Starting iron for fatigue alone before confirming deficiency and considering its cause is not appropriate; iron is not a general fatigue treatment. The dedicated ferritin guide explains this distinction and follow-up in greater detail [4, 5]."
+          },
+          "links": {
+            "ar": [{"label": "مخزون الحديد المنخفض مع صورة دم طبيعية", "url": "../articles/qa-low-ferritin-normal-cbc.html"}],
+            "en": [{"label": "Low ferritin with a normal CBC", "url": "../articles/qa-low-ferritin-normal-cbc.html"}]
+          }
+        },
+        {
+          "id": "thyroid-and-glucose",
+          "heading": {
+            "ar": "الغدة الدرقية والسكر: الأعراض توجه، والتحليل يؤكد",
+            "en": "Thyroid and glucose: symptoms guide, testing confirms"
+          },
+          "body": {
+            "ar": "قصور الغدة ممكن يسبب تعب مع أعراض زي عدم تحمل البرد، إمساك، جلد جاف، تغير شعر أو زيادة وزن، بس الأعراض دي شائعة ومش كفاية للتشخيص. NIDDK بتوضح إن تشخيص القصور ماينفعش يعتمد على الأعراض لوحدها، وإن تحاليل الدم بتستخدم للتأكيد [6]. غالبًا TSH هو البداية، ولو نتيجته مش طبيعية بيحتاج الطبيب اختبار تاني زي Free T4 عشان يفهم الاتجاه والسبب. اختبار T3 أو الأجسام المضادة مش إضافة تلقائية لكل حالة تعب؛ استخدامهم بيتحدد من نتائج الغدة والسؤال السريري [7]. لو عايز تفاصيل الوزن وتفسير النتائج، الرابط المخصص للغدة يغطي النطاق ده بدل تكراره هنا.\n\nالسكر ممكن يدخل التقييم لو فيه عطش، تبول متكرر، زغللة، عدوى متكررة، فقد وزن، عوامل خطورة، أو كجزء من تقييم اختاره الطبيب. التشخيص بيتم بتحليل دم معتمد، زي سكر صائم أو HbA1c حسب الحالة؛ جهاز القياس المنزلي مايشخّصش السكر [8]. HbA1c بيعكس متوسطًا تقريبيًا للسكر خلال الشهور السابقة ومش محتاج صيام، بينما سكر الصيام محتاج امتناع عن الأكل للمدة اللي يحددها المختص. بعض أنواع الأنيميا ومشاكل الهيموجلوبين والحمل ممكن تأثر على دقة HbA1c، فلو النتيجة مش ماشية مع الأعراض أو قياسات السكر، الطبيب بيراجع الاختبار الأنسب بدل تثبيت تشخيص من رقم واحد [8].",
+            "en": "Hypothyroidism can cause fatigue alongside cold intolerance, constipation, dry skin, hair change or weight gain, but these symptoms are common and are not enough for diagnosis. NIDDK explains that hypothyroidism cannot be diagnosed from symptoms alone and that blood tests are used for confirmation [6]. TSH is usually the starting test; when it is abnormal, another test such as free T4 helps the clinician understand the direction and cause. T3 or thyroid antibody testing is not an automatic add-on for every fatigue presentation; its use depends on the thyroid results and clinical question [7]. The linked thyroid guide covers weight and result interpretation in detail instead of repeating that scope here.\n\nGlucose testing may enter the assessment when there is thirst, frequent urination, blurred vision, recurrent infection, weight loss, risk factors, or as part of a clinician-selected work-up. Diagnosis uses a validated blood test such as fasting plasma glucose or HbA1c according to the situation; a home glucose meter cannot diagnose diabetes [8]. HbA1c gives an estimate of average glucose over preceding months and does not require fasting, whereas fasting plasma glucose requires the period without food specified by the clinician. Some forms of anaemia, haemoglobin conditions and pregnancy can affect HbA1c accuracy. If the result does not fit the symptoms or glucose measurements, the clinician chooses an appropriate confirmation method rather than fixing a diagnosis from one number [8]."
+          },
+          "links": {
+            "ar": [{"label": "قصور الغدة الدرقية والوزن", "url": "../articles/hypothyroidism-and-weight.html"}],
+            "en": [{"label": "Hypothyroidism and weight", "url": "../articles/hypothyroidism-and-weight.html"}]
+          }
+        },
+        {
+          "id": "b12-and-vitamin-d",
+          "heading": {
+            "ar": "فيتامين ب12 وفيتامين د: فحوص موجهة، مش إجابة تلقائية",
+            "en": "Vitamin B12 and vitamin D: targeted tests, not automatic answers"
+          },
+          "body": {
+            "ar": "نقص فيتامين ب12 ممكن يرتبط بتعب وأنيميا كبيرة الخلايا، وممكن تظهر معاه أعراض عصبية زي تنميل أو مشاكل توازن أو تغيرات إدراكية. طلبه يبقى أوضح مع غذاء نباتي من غير مصادر مدعمة، جراحة أو مرض يؤثر على الامتصاص، أدوية معينة، سن أكبر، أو أعراض عصبية. القياس المعتاد هو ب12 في الدم، ولو النتيجة حدودية والسياق مناسب ممكن الطبيب يستخدم methylmalonic acid للمساعدة في التأكيد؛ الاختبار الإضافي نفسه بيتأثر بوظائف الكلى، فمش بيتفسر منفصلًا [9]. ده مثال ليه كلمة «طبيعي» أو «ناقص» محتاجة سياق المعمل والحالة.\n\nبالنسبة لفيتامين د، 25-hydroxyvitamin D هو المؤشر الرئيسي لحالة الفيتامين، بينما الاختبار النشط 1,25-dihydroxyvitamin D مش هو الفحص المعتاد للمخزون [10]. الجهات العلمية مش بتوصي بفحص روتيني لكل شخص سليم، والقياس واختلاف طرق المعامل وحدود التفسير محتاجين حكم سريري [10]. وجود تعب لوحده مايثبتش نقص فيتامين د، ووجود نقص مايثبتش إنه السبب الوحيد للتعب. عشان كده الطبيب يطلبه عند وجود عوامل خطورة أو علامات مناسبة بدل اعتباره أول إجابة دائمًا. ما تبدأش جرعات عالية من فيتامين د أو ب12 على أمل إنهم يصلحوا أي تعب؛ المكمل بيتحدد بعد تقييم النقص والسبب والجرعة المناسبة. الصفحة المخصصة لفيتامين د بتشرح النقطة دي بتفصيل [3, 9, 10].",
+            "en": "Vitamin B12 deficiency can be associated with fatigue and megaloblastic anaemia, and it may include neurological features such as tingling, balance difficulty or cognitive change. Testing becomes more relevant with a vegan diet lacking fortified sources, surgery or disease affecting absorption, certain medicines, older age, or neurological symptoms. Serum B12 is commonly measured; when a result is borderline and the context supports deficiency, methylmalonic acid may help confirmation. That additional marker is itself affected by kidney function, so it is not interpreted in isolation [9]. This is one reason why “normal” or “low” needs the laboratory method and clinical context.\n\nFor vitamin D, serum 25-hydroxyvitamin D is the main status indicator, while active 1,25-dihydroxyvitamin D is not the usual test of body stores [10]. Scientific bodies do not recommend routine screening of every healthy person, and assay variation and interpretive thresholds require clinical judgement [10]. Fatigue alone does not prove vitamin D deficiency, and a low result does not prove that deficiency is the only cause of fatigue. A clinician therefore requests the test when risk factors or relevant signs make it useful rather than treating it as the automatic first answer. Do not start high-dose vitamin D or B12 in the hope that either will correct any form of tiredness; supplementation follows assessment of deficiency, cause and an appropriate dose. The dedicated vitamin D article explores this issue in detail [3, 9, 10]."
+          },
+          "links": {
+            "ar": [{"label": "هل تاخد فيتامين د للتعب من غير تحليل؟", "url": "../articles/qa-vitamin-d-fatigue.html"}],
+            "en": [{"label": "Should you take vitamin D for fatigue without a test?", "url": "../articles/qa-vitamin-d-fatigue.html"}]
+          }
+        },
+        {
+          "id": "sleep-mood-and-post-exertion",
+          "heading": {
+            "ar": "لما تحاليل الدم مش هي الاختبار الأهم: النوم والمزاج وما بعد المجهود",
+            "en": "When blood is not the main test: sleep, mood and post-exertional symptoms"
+          },
+          "body": {
+            "ar": "لو فيه شخير متكرر بصوت عالي، توقف نفس شاهده شخص تاني، شهقة أو اختناق أثناء النوم، صداع صباحي، أو نعاس نهاري واضح، تحليل دم إضافي مش هيشخّص انقطاع النفس أثناء النوم. NHLBI بتذكر العلامات دي، وبتوضح إن الطبيب ممكن يحتاج دراسة نوم للتشخيص [11]. الوزن ممكن يزود الاحتمال عند بعض الناس، بس انقطاع النفس ممكن يظهر مع أوزان مختلفة، والتقييم مايتلخصش في الميزان. لو بتسوق أو بتتعامل مع آلات ومعاك نعاس شديد، قول للطبيب بوضوح عشان يناقش الأمان والخطوة المناسبة. الصفحة المرتبطة بتشرح الشخير وتوقف النفس بدل ما نكررها هنا [11].\n\nالمزاج المنخفض، فقدان الاهتمام، تغير النوم أو الشهية، صعوبة التركيز، والإحساس بالبطء ممكن ييجوا مع تعب؛ NIMH بتذكر التعب وقلة الطاقة ضمن أعراض الاكتئاب [12]. السؤال عنهم جزء من طب كامل، مش استبعاد للسبب الجسدي. وفي نمط تاني مهم: لو مجهود بدني أو ذهني بسيط بيعمل تدهورًا متأخرًا وممتدًا مع نوم غير منعش وصعوبة تركيز، لازم تذكر ده تحديدًا. NICE بتتعامل مع تدهور ما بعد المجهود كجزء من نمط ME/CFS المحتمل، وبتوصي باستبعاد أسباب تانية وعدم نصح الشخص «يدفع نفسه» خلال الأعراض [3]. ما تشخّصش نفسك من الوصف؛ سجّل نوع النشاط ووقت بداية التدهور ومدته، وخلي الطبيب يقيم النمط مع باقي القصة [3, 12].",
+            "en": "If there is frequent loud snoring, witnessed breathing pauses, gasping or choking during sleep, morning headache, or marked daytime sleepiness, another blood test will not diagnose sleep apnoea. NHLBI lists these clues and explains that a clinician may use a sleep study for diagnosis [11]. Weight can increase likelihood for some people, but sleep apnoea occurs across different body sizes and assessment cannot be reduced to the scale. If severe sleepiness affects driving or work with machinery, tell the clinician explicitly so safety and the appropriate next step can be discussed. The linked article covers snoring and breathing pauses rather than repeating that material here [11].\n\nLow mood, loss of interest, sleep or appetite change, difficulty concentrating and feeling slowed can occur with fatigue; NIMH includes fatigue and lack of energy among depression symptoms [12]. Asking about them is part of whole-person medicine, not dismissal of a physical cause. Another pattern matters: if modest physical or mental activity brings a delayed, prolonged worsening together with unrefreshing sleep and cognitive difficulty, describe it specifically. NICE treats post-exertional symptom exacerbation as part of a possible ME/CFS pattern, recommends excluding other explanations, and advises people with suspected ME/CFS not to push through symptoms [3]. Do not self-diagnose from this description. Record the activity, when worsening began and how long it lasted, then let a clinician assess the pattern with the rest of the history [3, 12]."
+          },
+          "links": {
+            "ar": [{"label": "الشخير وتوقف النفس أثناء النوم", "url": "../articles/qa-snoring-breathing-pauses-weight.html"}],
+            "en": [{"label": "Snoring and breathing pauses during sleep", "url": "../articles/qa-snoring-breathing-pauses-weight.html"}]
+          }
+        },
+        {
+          "id": "results-follow-up-and-red-flags",
+          "heading": {
+            "ar": "لو النتائج طبيعية: المتابعة وعلامات ما تستناش",
+            "en": "If results are normal: follow-up and signs that should not wait"
+          },
+          "body": {
+            "ar": "نتائج أولية طبيعية خبر مفيد، بس مش معناها إن التعب غير حقيقي ولا إن التقييم انتهى. الطبيب بيراجع هل كل اختبار جاوب على السؤال المطلوب، وهل الأعراض اتغيرت، وهل ظهر دليل جديد يوجه لفحص مختلف. أحيانًا الخطة تكون متابعة النوم، تعديل دواء مع واصفه، تقييم المزاج، أو فحص موجه حسب عرض جديد، مش تكرار نفس التحاليل كل أيام. المراجعة المنظمة بتقلل مطاردة تغيرات بسيطة ملهاش صلة، وإرشادات NICE بتؤكد استمرار تقييم التشخيصات البديلة أو المصاحبة لو النمط مستمر أو اتغير [1, 3]. ما توقفش دواء موصوف من نفسك، وما تعتبرش نتيجة مكمل أو تحليل منفرد خطة علاج.\n\nالإرهاق لوحده غالبًا يتقيم بهدوء، بس بعض الأعراض المصاحبة ليه بتغير درجة الاستعجال. صعوبة تنفس شديدة، عدم القدرة على إخراج الكلام بسبب النفس، ثقل أو ضغط بالصدر، أو ارتباك مفاجئ تستدعي رعاية طارئة [13]. ضعف مفاجئ في ناحية من الوجه أو ذراع، أو كلام متلخبط، علامات محتاجة طوارئ حتى لو خفت بعد وقت قصير [14]. غير كده، احجز تقييمًا قريبًا لو التعب مستمر أو مأثر على يومك، خصوصًا مع فقد وزن من غير قصد أو تغيرات مزاج أو شخير واختناق أثناء النوم [2]. الفريق الطبي في لاروز يقدر يبدأ تقييمًا عامًا منظمًا في فرعي المعادي والتجمع الخامس بالقاهرة الجديدة، وبعد القصة والفحص يحدد معاك التحاليل المناسبة أو الإحالة المطلوبة من غير افتراض إن مكمل واحد هو الحل [1, 2].",
+            "en": "Normal initial results are useful information, but they do not mean the fatigue is unreal or that assessment has ended. The clinician reviews whether each test answered its intended question, whether symptoms have changed and whether a new clue directs a different investigation. The next step may be sleep follow-up, a medication adjustment by its prescriber, mood assessment, or a targeted test prompted by a new symptom—not repeated identical panels every few days. A structured review reduces the pursuit of small unrelated abnormalities, and NICE stresses continuing to assess alternative or coexisting diagnoses when the pattern persists or changes [1, 3]. Do not stop a prescribed medicine yourself, and do not turn one supplement level or isolated result into a treatment plan.\n\nFatigue by itself can usually be assessed calmly, but some accompanying symptoms change the urgency. Severe difficulty breathing, being unable to speak because of breathlessness, a tight or heavy chest, or sudden confusion needs emergency care [13]. Sudden weakness of one side of the face or an arm, or new slurred or confused speech, needs emergency help even if it improves after a short time [14]. Otherwise, arrange a timely assessment when fatigue persists or affects daily life, particularly with unintentional weight loss, mood change, or snoring and choking during sleep [2]. The medical team at La Rose can begin a structured general assessment at the Maadi or Fifth Settlement, New Cairo branch and, after history and examination, agree the appropriate tests or referral without assuming that one supplement is the answer [1, 2]."
+          },
+          "links": {
+            "ar": [{"label": "احجز استشارة مع الفريق الطبي", "url": "../patients/booking.html"}],
+            "en": [{"label": "Book a consultation", "url": "../patients/booking.html"}]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {"ar": "إيه أهم تحاليل التعب والإرهاق المستمر؟", "en": "What are the main tests for persistent fatigue?"},
+          "a": {
+            "ar": "مفيش قائمة واحدة مناسبة لكل الناس. بعد القصة والفحص، البداية ممكن تشمل صورة دم، وظائف الغدة، واختبار سكر مناسب، مع فيريتين ووظائف كلى وكبد أو مؤشرات التهاب حسب الأعراض وعوامل الخطورة. فيتامين ب12 وفيتامين د وفولات وفحوص تانية بتتضاف لما يكون فيه سبب سريري، مش تلقائيًا. إرشادات NICE بتعرض أمثلة واسعة للاستبعاد، وبتسيب اختيار الإضافات للحكم السريري [1, 3].",
+            "en": "There is no single list for everyone. After history and examination, initial testing may include CBC, thyroid function and an appropriate glucose test, with ferritin, kidney and liver function or inflammatory markers according to symptoms and risk. Vitamin B12, vitamin D, folate and other tests are added when clinically indicated rather than automatically. NICE provides broad examples for exclusion while leaving additions to clinical judgement [1, 3]."
+          }
+        },
+        {
+          "q": {"ar": "هل صورة الدم الطبيعية تنفي نقص الحديد؟", "en": "Does a normal CBC rule out iron deficiency?"},
+          "a": {
+            "ar": "مش بالضرورة. صورة الدم بتبين الهيموجلوبين وحجم وأعداد الخلايا، بينما الفيريتين بيساعد في تقدير مخزون الحديد. ممكن المخزون يقل قبل ما الهيموجلوبين يخرج عن نطاق المعمل. وفي نفس الوقت الفيريتين بيتأثر بالالتهاب وحالات تانية، فالاتنين محتاجين تفسير مع بعض ومع سبب محتمل للنقص، ومش مجرد بدء حديد بناءً على التعب [4, 5].",
+            "en": "Not necessarily. CBC reports haemoglobin and blood-cell size and numbers, while ferritin helps estimate iron stores. Stores can fall before haemoglobin leaves the laboratory range. Ferritin can also be affected by inflammation and other conditions, so both results need interpretation together and alongside the possible cause of deficiency—not automatic iron treatment for fatigue [4, 5]."
+          }
+        },
+        {
+          "q": {"ar": "هل تحليل فيتامين د وب12 لازم لأي حد تعبان؟", "en": "Does everyone with fatigue need vitamin D and B12 tests?"},
+          "a": {
+            "ar": "لأ. طلب ب12 يبقى أقوى مع غذاء أو مشكلة امتصاص أو أدوية أو أعراض عصبية ترفع احتمال النقص. وقياس فيتامين د بيتوجه بعوامل الخطورة والعلامات؛ الفحص الروتيني لكل شخص سليم مش موصى به. التعب وحده مايثبتش نقص أي واحد منهم، والمكملات بجرعات عالية مش بديل عن تحديد السبب [3, 9, 10].",
+            "en": "No. B12 testing is more relevant when diet, impaired absorption, medicines or neurological symptoms raise the likelihood of deficiency. Vitamin D testing is directed by risk factors and signs; routine screening of every healthy person is not recommended. Fatigue alone proves neither deficiency, and high-dose supplements do not replace identifying the cause [3, 9, 10]."
+          }
+        },
+        {
+          "q": {"ar": "هل تحاليل الإرهاق محتاجة صيام؟", "en": "Do fatigue blood tests require fasting?"},
+          "a": {
+            "ar": "بيعتمد على التحاليل المطلوبة. صورة الدم عادة مش محتاجة تحضير خاص، وHbA1c ممكن يتعمل من غير صيام، بينما سكر صائم محتاج صيام للمدة اللي يحددها الطبيب أو المعمل. لو الطلب فيه تحاليل متعددة، اتبع التعليمات المكتوبة واسأل قبل السحب بدل ما تفترض إن كل المجموعة صايمة أو فاطرة [4, 8].",
+            "en": "It depends on what was ordered. CBC usually needs no special preparation, and HbA1c can be measured without fasting, while fasting plasma glucose requires the fasting period specified by the clinician or laboratory. If several tests are ordered together, follow the written instructions and ask before collection rather than assuming the whole panel is fasting or non-fasting [4, 8]."
+          }
+        },
+        {
+          "q": {"ar": "كل التحاليل طبيعية ولسه تعبان؛ أعمل إيه؟", "en": "All my tests are normal but I am still tired; what next?"},
+          "a": {
+            "ar": "ارجع للطبيب بمذكرة عن توقيت التعب، النوم، الأدوية، المزاج، النشاط وأي أعراض جديدة. النتيجة الطبيعية بتستبعد أسئلة معينة بس مش كل أسباب الإرهاق. ممكن الخطوة الجاية تكون تقييم نوم، مراجعة دواء، تقييم نفسي، فحص موجه، أو متابعة زمنية. لو فيه تدهور بعد المجهود مع نوم غير منعش وصعوبة تركيز، اذكر النمط بالتحديد وما تحاولش تدفع نفسك خلال التدهور [1, 3, 11, 12].",
+            "en": "Return to the clinician with a record of timing, sleep, medicines, mood, activity and any new symptoms. Normal results answer particular questions but do not exclude every cause of fatigue. The next step may be sleep assessment, medication review, mental health assessment, targeted investigation or follow-up over time. If activity triggers delayed worsening with unrefreshing sleep and cognitive difficulty, describe that pattern specifically and do not push through a symptom flare [1, 3, 11, 12]."
+          }
+        },
+        {
+          "q": {"ar": "إمتى التعب يبقى محتاج طوارئ؟", "en": "When does fatigue need emergency care?"},
+          "a": {
+            "ar": "التعب المستمر وحده غالبًا يتقيم في موعد قريب، مش في الطوارئ. اطلب مساعدة طارئة لو جاي مع صعوبة شديدة في التنفس، عدم القدرة على الكلام من ضيق النفس، ثقل أو ضغط بالصدر، أو ارتباك مفاجئ. ضعف مفاجئ في الوجه أو ذراع، أو كلام متلخبط، محتاج طوارئ حتى لو اختفى بسرعة [13, 14].",
+            "en": "Persistent fatigue alone can usually be assessed in a timely appointment rather than an emergency department. Seek emergency help when it comes with severe breathing difficulty, inability to speak because of breathlessness, a tight or heavy chest, or sudden confusion. Sudden facial or arm weakness, or new slurred or confused speech, also needs emergency help even if it resolves quickly [13, 14]."
+          }
+        }
+      ],
+      "sources": [
+        {"label": "Cornuz J et al. — Fatigue: a practical approach to diagnosis in primary care", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1402370/"},
+        {"label": "NHS — Tiredness and fatigue", "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/"},
+        {"label": "NICE — Myalgic encephalomyelitis (or encephalopathy)/chronic fatigue syndrome: diagnosis and management — Recommendations", "url": "https://www.nice.org.uk/guidance/ng206/chapter/Recommendations"},
+        {"label": "MedlinePlus — Complete Blood Count (CBC)", "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"},
+        {"label": "MedlinePlus — Ferritin Blood Test", "url": "https://medlineplus.gov/lab-tests/ferritin-blood-test/"},
+        {"label": "NIDDK — Hypothyroidism (Underactive Thyroid)", "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism"},
+        {"label": "NIDDK — Thyroid Tests", "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid"},
+        {"label": "NIDDK — Diabetes Tests & Diagnosis", "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis"},
+        {"label": "NIH Office of Dietary Supplements — Vitamin B12 - Health Professional Fact Sheet", "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"},
+        {"label": "NIH Office of Dietary Supplements — Vitamin D - Health Professional Fact Sheet", "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"},
+        {"label": "NHLBI — Sleep Apnea Symptoms", "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms"},
+        {"label": "National Institute of Mental Health — Depression", "url": "https://www.nimh.nih.gov/health/publications/depression"},
+        {"label": "NHS — Shortness of breath", "url": "https://www.nhs.uk/symptoms/shortness-of-breath/"},
+        {"label": "NHS — Symptoms of a stroke", "url": "https://www.nhs.uk/conditions/stroke/symptoms/"}
+      ],
+      "seo": {
+        "title": {
+          "ar": "الإرهاق المستمر: إيه التحاليل المناسبة؟",
+          "en": "Constant Fatigue: Which Tests Are Useful?"
+        },
+        "description": {
+          "ar": "دليل هادي يوضح أسباب التعب والإرهاق الدائم، وإمتى يطلب الطبيب صورة دم، فيريتين، غدة درقية، سكر، فيتامين ب12 أو فيتامين د.",
+          "en": "A calm guide to persistent fatigue and when CBC, ferritin, thyroid, glucose, vitamin B12 or vitamin D tests may be appropriate."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "_note": "Phase 3 new article (2026-10-01). Explains hepatitis B and C screening, result interpretation, confirmation, treatment and follow-up; deliberately does not repeat detailed liver-panel, ultrasound or fatty-liver guidance.",
+  "articles": [
+    {
+      "slug": "hepatitis-b-and-c-testing",
+      "type": "article",
+      "published": true,
+      "featured": false,
+      "category": "gastroenterology-hepatology",
+      "specialties": [
+        "gastroenterology-hepatology"
+      ],
+      "date": "2026-10-01",
+      "updatedAt": "2026-10-01",
+      "readingTime": 10,
+      "author": "mohab-ashraf",
+      "reviewedBy": "shimaa-sherif",
+      "image": "assets/img/articles/hepatitis-b-and-c-testing-cover.webp",
+      "title": {
+        "ar": "تحليل فيروس بي وفيروس سي: معنى النتيجة والخطوة الجاية",
+        "en": "Hepatitis B and C tests: results and next steps"
+      },
+      "excerpt": {
+        "ar": "دليل هادي يشرح مين يحتاج التحليل، والفرق بين أجسام مضادة فيروس سي وPCR، ومعنى HBsAg، وإزاي تتأكد النتيجة وتخطط للمتابعة.",
+        "en": "A calm guide to who needs testing, HCV antibody versus PCR, what HBsAg means, confirmation, treatment and follow-up."
+      },
+      "tags": {
+        "ar": [
+          "فيروس سي",
+          "تحليل فيروس سي",
+          "PCR فيروس سي",
+          "فيروس بي",
+          "تحليل HBsAg",
+          "التهاب الكبد الفيروسي"
+        ],
+        "en": [
+          "hepatitis C test",
+          "HCV antibody",
+          "HCV RNA PCR",
+          "hepatitis B test",
+          "HBsAg",
+          "viral hepatitis"
+        ]
+      },
+      "sections": [
+        {
+          "id": "why-testing-matters",
+          "heading": {
+            "ar": "ليه التحليل مهم حتى لو مفيش أعراض؟",
+            "en": "Why does testing matter without symptoms?"
+          },
+          "body": {
+            "ar": "فيروس بي وفيروس سي عدوتان مختلفتان بتصيبان الكبد، وممكن كل واحدة فيهم تفضل فترة من غير أعراض واضحة. التعب أو الغثيان أو اصفرار العينين ممكن يظهروا في بعض الحالات، لكن غيابهم مش دليل إن التحليل غير لازم. عشان كده التشخيص ما يعتمدش على الإحساس أو شكل الشخص؛ تحليل الدم هو اللي يوضح هل فيه علامة لعدوى حالية أو سابقة، وبعدها الطبيب يربط النتيجة بالتاريخ المرضي وباقي التقييم [4, 8, 9, 11].\n\nالتحليل برضه مش هو نفسه تحليل وظائف الكبد. ALT وAST وباقي لوحة الكبد ممكن يساعدوا في تقييم تهيج أو ضرر، لكنهم ما يثبتوش وجود فيروس بي أو سي وما ينفوش العدوى لو طلعوا طبيعيين. اختبار الفيروس بيدوّر على علامة تخص العدوى نفسها، وبعد النتيجة الإيجابية ممكن يلزم تقييم منفصل لحالة الكبد. لو سؤالك عن الأرقام العالية أو الطبيعية في لوحة الكبد، الدليل المرتبط بيشرحها من غير ما نكرر موضوعه هنا [1, 6, 9].\n\nالهدف مش إن كل واحد يطلب أكبر باقة تحاليل. الهدف إنك تعرف السؤال الصح: هل ده فحص أول مرة من غير أعراض، ولا فيه تعرض حديث، ولا متابعة لنتيجة إيجابية قديمة، ولا متابعة بعد علاج؟ كل موقف له اختبار وتوقيت مختلفين. وجود خطة واضحة من البداية يقلل اللخبطة اللي بتحصل لما يتعمل تحليل أجسام مضادة أو HBsAg منفرد ويتقري كأنه الإجابة الكاملة [1, 6, 12].",
+            "en": "Hepatitis B and hepatitis C are different infections that affect the liver, and either may be present for some time without clear symptoms. Fatigue, nausea or jaundice can occur, but their absence does not make testing unnecessary. Diagnosis therefore cannot rest on how someone feels or looks. Blood tests identify markers of current or previous infection, and a clinician then interprets them with the medical history and the rest of the assessment [4, 8, 9, 11].\n\nViral testing is also not the same as a liver-function panel. ALT, AST and the other liver measurements may help assess irritation or damage, but they neither prove hepatitis B or C nor exclude infection when normal. A virus-specific test answers a different question, and a positive result may then lead to a separate assessment of liver health. If your main question concerns high or normal liver-panel values, the linked guide covers that topic without repeating it here [1, 6, 9].\n\nThe aim is not to order the largest possible panel. It is to define the question: Is this first-time screening without symptoms, testing after a recent exposure, follow-up of an older positive result, or follow-up after treatment? Each situation has a different test sequence and timing. A clear plan prevents an HCV antibody or an isolated HBsAg result from being treated as if it were the complete answer [1, 6, 12]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "فهم تحاليل وظائف الكبد",
+                "url": "../articles/liver-function-tests-need-context.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Understanding liver-function tests",
+                "url": "../articles/liver-function-tests-need-context.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "who-should-test",
+          "heading": {
+            "ar": "مين يحتاج فحص فيروس سي أو فيروس بي؟",
+            "en": "Who should be tested for hepatitis C or B?"
+          },
+          "body": {
+            "ar": "إرشادات مراكز مكافحة الأمراض الأمريكية بتوصي بفحص فيروس سي مرة واحدة على الأقل لكل البالغين، وفحص كل حمل، مع تكرار التحليل عند وجود تعرض أو خطر مستمر. وبتشمل الأسباب المهمة للتقييم مشاركة أدوات حقن، غسيل الكلى، التعرض المهني للدم، الإصابة بفيروس HIV، ولادة طفل لأم مصابة، أو ارتفاع ALT المستمر من غير تفسير. دي توصيات صحة عامة، والطبيب ممكن يكيّفها حسب البلد وتاريخك ونوع التعرض [1, 4].\n\nبالنسبة لفيروس بي، توصية CDC الحالية هي فحص كل بالغ مرة واحدة على الأقل باللوحة الثلاثية، مع فحص الحوامل في كل حمل، وفحص أو متابعة الأشخاص اللي عندهم تعرض مستمر أو احتمال أعلى للعدوى. من الأمثلة: مخالطة منزلية أو جنسية لشخص مصاب، مشاركة أدوات ملوثة بالدم، غسيل الكلى، التعرض المهني، أو القدوم من منطقة ينتشر فيها الفيروس. منظمة الصحة العالمية بتوصي كمان بإتاحة HBsAg لكل البالغين في البيئات متوسطة أو عالية الانتشار، مع فحص موجّه للحوامل وفئات الخطر [6, 7, 8].\n\nلو حصل تعرض حديث لدم أو إبرة، ما تستناش ظهور أعراض وما تختارش توقيت التحليل بنفسك. كلم جهة طبية بسرعة عشان نوع الفيروس، وقت التعرض، حالة التطعيم ضد فيروس بي، ونتيجة الشخص المصدر لو معروفة، كلهم بيغيّروا الخطة. ومش لازم تحكي تفاصيل محرجة عشان تستحق الفحص؛ CDC بتقول إن طلب الشخص نفسه سبب كفاية لإتاحة تحليل فيروس بي أو سي، لأن ناس كتير ممكن ما تحبش تفصح عن خطر معين [1, 6].",
+            "en": "CDC guidance recommends hepatitis C screening at least once for all adults and during every pregnancy, with repeat testing when exposure or ongoing risk is present. Important reasons for assessment include sharing injection equipment, maintenance dialysis, occupational blood exposure, HIV, birth to a mother with HCV, or persistently abnormal ALT without an explanation. These are public-health recommendations; a clinician can adapt them to the country, your history and the type of exposure [1, 4].\n\nFor hepatitis B, current CDC guidance recommends that every adult be screened at least once with the triple panel, that pregnant patients be screened during every pregnancy, and that people with ongoing exposure or higher likelihood of infection receive appropriate testing or follow-up. Examples include household or sexual contact with an infected person, shared blood-contaminated equipment, dialysis, occupational exposure, or birth in a region where HBV is common. WHO also recommends access to HBsAg testing for adults in intermediate- or high-prevalence settings and targeted testing for pregnant people and higher-risk groups [6, 7, 8].\n\nAfter a recent blood or needlestick exposure, do not wait for symptoms or choose the testing date yourself. Contact a medical service promptly because the virus involved, timing, hepatitis B vaccination status and the source person’s result, when known, can all change the plan. You do not have to disclose a stigmatised risk before being allowed to test: CDC says that a person’s request is enough reason to offer hepatitis B or C testing because some people may be reluctant to describe a particular risk [1, 6]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "hcv-antibody-and-rna",
+          "heading": {
+            "ar": "تحليل فيروس سي: الأجسام المضادة غير الـPCR",
+            "en": "Hepatitis C testing: antibody is not PCR"
+          },
+          "body": {
+            "ar": "الخطوة الأولى المعتادة هي تحليل الأجسام المضادة لفيروس سي، المكتوب غالباً HCV antibody أو anti-HCV. النتيجة غير التفاعلية معناها إن الأجسام المضادة ما اتكشفتش، وده يستبعد العدوى في أغلب المواقف القديمة. بس لو التعرض كان حديثاً، ممكن الأجسام المضادة ما تكونش ظهرت لسه؛ CDC بتوضح إن ظهورها قد يتأخر، وساعتها الطبيب ممكن يطلب اختبار HCV RNA بدل الاعتماد على نتيجة الأجسام المضادة وحدها [1].\n\nلو تحليل الأجسام المضادة طلع تفاعلي أو إيجابي، ده معناه إن الجسم قابل الفيروس في وقت ما، مش بالضرورة إن الفيروس موجود دلوقتي. النتيجة ممكن تمثل عدوى حالية، عدوى قديمة انتهت، أو أحياناً إيجابية بيولوجية كاذبة. عشان نعرف هل فيه عدوى حالية، لازم اختبار الحمض النووي الريبي للفيروس HCV RNA، والناس بتسميه عادة PCR. الأفضل إن المعمل يعمل الـRNA تلقائياً على نفس العينة بعد النتيجة التفاعلية، عشان ما تضيعش خطوة التأكيد [1, 12].\n\nلو HCV RNA اتكشف، ده يثبت عدوى حالية ويحتاج ربط بالرعاية والتقييم للعلاج. لو الأجسام المضادة إيجابية والـRNA غير مكتشف، فده معناه مفيش عدوى حالية في أغلب الحالات؛ ممكن يكون الجسم تخلص من العدوى أو حصل علاج ناجح. الطبيب قد يعيد أو يوسّع التقييم لو التعرض حديث، أو لو فيه شك في العينة، أو لو الحالة المناعية تغيّر تفسير الاختبار. ما تستخدمش رقم الأجسام المضادة كبديل للحمل الفيروسي، وما تعتبرش كلمة «positive» تشخيصاً كاملاً من غير سطر الـRNA [1, 4].",
+            "en": "The usual first step is an HCV antibody test, often written as HCV antibody or anti-HCV. A nonreactive result means that antibodies were not detected and excludes infection in most situations involving an older exposure. After a recent exposure, however, antibodies may not yet be detectable. CDC explains that antibody development can be delayed, so a clinician may request HCV RNA rather than rely on the antibody result alone [1].\n\nA reactive or positive antibody test means that the body encountered HCV at some point; it does not necessarily mean that the virus is present now. It can represent current infection, a past infection that has resolved, or occasionally biologic false positivity. Current infection is identified with a nucleic-acid test for HCV RNA, commonly called PCR. Ideally, the laboratory performs RNA testing automatically on the same sample after a reactive antibody result so the confirmation step is not lost [1, 12].\n\nDetected HCV RNA establishes current infection and should lead to care and treatment assessment. If antibody is positive but RNA is not detected, there is no current infection in most cases; the body may have cleared the infection or treatment may have succeeded. A clinician may repeat or expand testing after a recent exposure, concern about the specimen, or an immune condition that changes interpretation. Do not use the antibody level as a substitute for viral load, and do not treat the word “positive” as a complete diagnosis without the RNA line [1, 4]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "hbv-triple-panel",
+          "heading": {
+            "ar": "تحليل فيروس بي: معنى HBsAg واللوحة الثلاثية",
+            "en": "Hepatitis B testing: HBsAg and the triple panel"
+          },
+          "body": {
+            "ar": "في فيروس بي، HBsAg هو مستضد سطح الفيروس. وجوده غالباً يشير لعدوى حالية، حادة أو مزمنة، لكنه لوحده ما يشرحش المرحلة ولا المناعة. عشان كده الفحص الأول للبالغين بقى يعتمد على لوحة ثلاثية: HBsAg، والجسم المضاد للسطح anti-HBs، والجسم المضاد الكلي للقلب total anti-HBc. قراءة التلاتة مع بعض تفرق بين عدوى حالية، عدوى قديمة انتهت، مناعة مرتبطة بالتطعيم، أو قابلية للإصابة [6, 7].\n\nوجود anti-HBs وحده مع total anti-HBc سلبي، في سياق تطعيم مكتمل وموثق، يناسب مناعة من التطعيم. وجود total anti-HBc معناه تعرض سابق أو حالي للفيروس؛ التطعيم وحده ما بيعملش الجسم المضاد للقلب. أما HBsAg إيجابي مع total anti-HBc إيجابي فيحتاج رعاية لفيروس بي، واختبار IgM anti-HBc بيساعد لما يكون الاشتباه في عدوى حادة. النتيجة اللي فيها total anti-HBc وحده إيجابي لها أكتر من تفسير، عشان كده ما تتقراش بجملة واحدة من غير مراجعة [6, 7].\n\nبعد اكتشاف عدوى فيروس بي، الطبيب ممكن يطلب HBV DNA عشان يقيس مستوى الفيروس، مع تحاليل وتقييم لحالة الكبد. استمرار HBsAg عبر الزمن هو جزء من التفريق بين العدوى الحادة والمزمنة، ومش مناسب إن الشخص يحسم النوع من ورقة واحدة. كمان النتيجة السلبية لكل عناصر اللوحة قد تعني قابلية للإصابة لو مفيش تطعيم مكتمل موثق، وساعتها يناقش الطبيب التطعيم حسب الإرشادات والحالة الصحية [6, 7, 9].",
+            "en": "For hepatitis B, HBsAg is the hepatitis B surface antigen. Its presence generally indicates current infection, either acute or chronic, but it does not explain the phase or immune status on its own. First-time adult screening therefore uses a triple panel: HBsAg, antibody to surface antigen (anti-HBs), and total antibody to core antigen (total anti-HBc). Reading the three together can distinguish current infection, resolved past infection, vaccine-associated immunity and susceptibility [6, 7].\n\nAnti-HBs alone with negative total anti-HBc, in the setting of a documented completed vaccine series, fits immunity from vaccination. Total anti-HBc indicates past or current exposure to the virus; vaccination alone does not produce core antibody. Positive HBsAg with positive total anti-HBc requires linkage to hepatitis B care, while IgM anti-HBc helps when acute infection is suspected. An isolated positive total anti-HBc has several possible explanations, so it cannot be reduced to one sentence without review [6, 7].\n\nAfter HBV infection is identified, a clinician may request HBV DNA to measure the amount of virus and arrange blood tests and assessment of liver health. Persistence of HBsAg over time contributes to distinguishing acute from chronic infection; one report should not be used to decide the type without context. A fully negative triple panel may indicate susceptibility when there is no documented completed vaccination, allowing the clinician to discuss vaccination according to guidance and the person’s health situation [6, 7, 9]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "treatment-and-cure",
+          "heading": {
+            "ar": "هل فيروس سي بيتعالج؟ وهل فيروس بي زيه؟",
+            "en": "Can hepatitis C be cured, and is hepatitis B the same?"
+          },
+          "body": {
+            "ar": "آه، فيروس سي له علاجات مباشرة المفعول مضادة للفيروسات (DAAs)، ومصادر CDC وWHO بتذكر إنها تشفي أكتر من 95% من الحالات، وغالباً العلاج الفموي بيكون قصير المدة. بس دي نسبة عامة مش وعد فردي، واختيار النظام والمدة بيعتمد على التقييم، تاريخ العلاج، حالة الكبد، الأمراض المصاحبة، والتداخلات مع الأدوية. ما تبدأش أو توقف أو تبدّل دواء من نفسك، وخد للطبيب قائمة كل علاج ومكمل بتستخدمه [2, 3, 4].\n\nكلمة «شُفي» ما تتقالش بمجرد إنك خلصت العلبة أو إن تحليل الإنزيمات اتحسن. CDC بتعتبر عدم اكتشاف HCV RNA بعد 12 أسبوعاً من نهاية العلاج استجابة فيروسية مستدامة، ودي علامة الشفاء الفيروسي. الأجسام المضادة ممكن تفضل إيجابية بعد الشفاء، عشان كده متابعة احتمال عدوى جديدة عند شخص سبق علاجه تعتمد على HCV RNA، مش إعادة antibody وحده. والشفاء ما يعملش مناعة تمنع الإصابة مرة تانية لو حصل تعرض جديد [2, 4, 11].\n\nفيروس بي مختلف: العلاجات المضادة للفيروسات ممكن تقلل نشاط الفيروس وتبطّئ تقدم التليف وتقلل مضاعفات المرض، لكن العلاج الحالي مش بيتوصف كعلاج شافٍ بنفس معنى علاج فيروس سي. مش كل شخص عنده فيروس بي مزمن يحتاج دواء فوراً؛ القرار بيعتمد على HBV DNA، تحاليل الكبد، وجود تليف وعوامل تانية، واللي يبدأ علاجاً ما يوقفوش من نفسه. المتابعة المنتظمة جزء أساسي سواء بدأ دواء أو لسه الطبيب بيراقب الحالة [8, 9, 10].",
+            "en": "Yes. Hepatitis C can be treated with direct-acting antivirals (DAAs), and CDC and WHO report cure in more than 95% of cases, usually with a short course of oral treatment. That population figure is not an individual promise. Regimen and duration depend on assessment, prior treatment, liver status, accompanying conditions and medicine interactions. Do not start, stop or switch treatment yourself, and give the clinician a complete list of medicines and supplements [2, 3, 4].\n\n“Cured” is not established merely by finishing the tablets or seeing better liver enzymes. CDC defines sustained virologic response by undetectable HCV RNA 12 weeks after treatment ends, indicating virologic cure. Antibody can remain positive after cure, so testing for possible reinfection in a previously treated person relies on HCV RNA rather than repeating antibody alone. Cure also does not create immunity against a new infection after another exposure [2, 4, 11].\n\nHepatitis B is different. Antiviral treatment can suppress the virus, slow progression of cirrhosis and reduce complications, but current treatment is not described as curative in the same way as hepatitis C therapy. Not everyone with chronic HBV needs medication immediately; the decision depends on HBV DNA, liver tests, fibrosis and other factors. Anyone who starts treatment should not stop it independently. Regular follow-up remains central whether medication begins or the clinician is monitoring the condition [8, 9, 10]."
+          },
+          "links": {
+            "ar": [],
+            "en": []
+          }
+        },
+        {
+          "id": "follow-up-and-egypt",
+          "heading": {
+            "ar": "المتابعة بعد النتيجة وسياق مصر",
+            "en": "Follow-up after the result and Egypt’s context"
+          },
+          "body": {
+            "ar": "في 2023، منظمة الصحة العالمية أعلنت إن مصر أول دولة توصل للمستوى الذهبي على طريق التخلص من فيروس سي وفق معايير المنظمة. وذكرت إن حملة «100 مليون صحة» فحصت أكتر من 60 مليون شخص وعالجت أكتر من 4 ملايين. الإنجاز ده مهم، لكنه مش معناه إن أي نتيجة قديمة تغني عن تقييم تعرض جديد، ولا إن كل شخص يعرف حالته الحالية من ذاكرته للحملة. النتيجة المكتوبة ونوع الاختبار وتاريخه هم اللي يتراجعوا [5].\n\nبعد HCV RNA إيجابي، التقييم بيشمل حالة الكبد، واحتمال عدوى مصاحبة، والأدوية قبل اختيار العلاج. وبعد الشفاء، خطة المتابعة بتعتمد على مقدار الضرر الموجود قبل العلاج وعوامل استمرار التعرض؛ الشخص اللي عنده تليف متقدم ممكن يحتاج متابعة للكبد حتى بعد اختفاء الفيروس. بعد فيروس بي إيجابي، المتابعة قد تشمل HBV DNA، إنزيمات ووظائف الكبد، وتقييم التليف أو تصويراً حسب الحالة. السونار له وظيفة محددة، لكنه ما يشخّصش العدوى بدل تحليل الدم [2, 4, 9, 10].\n\nلو التقرير ذكر دهوناً على الكبد، ده موضوع موازي مش تفسير تلقائي لنتيجة الفيروس. ممكن يكون فيه أكتر من عامل محتاج متابعة، والطبيب يرتب الأولويات من غير ما يخلط بين عدوى فيروسية وتشحم الكبد. الروابط هنا بتشرح إيه اللي السونار يقدر يشوفه، وإزاي يتقيّم احتمال دهون الكبد، بينما الصفحة الحالية تفضل مركزة على اختبارات فيروس بي وسي [4, 9].",
+            "en": "In 2023, WHO announced that Egypt was the first country to reach gold-tier status on the path to hepatitis C elimination under WHO criteria. WHO reported that the “100 Million Healthy Lives” campaign tested more than 60 million people and treated more than 4 million. This is an important achievement, but it does not mean an old result replaces assessment after a new exposure or that everyone knows their current status from memory of the campaign. The written result, test type and date are what should be reviewed [5].\n\nAfter detectable HCV RNA, evaluation includes liver status, possible coinfections and medicines before treatment is selected. After cure, follow-up depends on the liver damage present before treatment and whether exposure continues; a person with advanced fibrosis may still need liver follow-up after the virus is cleared. After a positive HBV result, monitoring may include HBV DNA, liver blood tests, fibrosis assessment or imaging according to the situation. Ultrasound has a defined role, but it cannot diagnose the infection in place of a blood test [2, 4, 9, 10].\n\nIf a report also mentions fatty liver, that is a parallel issue rather than an automatic explanation of the viral result. More than one factor may need attention, and the clinician can order the priorities without confusing viral infection with liver fat. The linked pages explain what ultrasound can show and how possible fatty liver is assessed, while this page remains focused on hepatitis B and C testing [4, 9]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "السونار على البطن: إيه اللي بيظهر؟",
+                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+              },
+              {
+                "label": "أعراض وتشخيص ومخاطر دهون الكبد",
+                "url": "../articles/fatty-liver-symptoms-diagnosis-risk.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Abdominal ultrasound: what can it show?",
+                "url": "../articles/abdominal-ultrasound-what-it-shows.html"
+              },
+              {
+                "label": "Fatty liver symptoms, diagnosis and risk",
+                "url": "../articles/fatty-liver-symptoms-diagnosis-risk.html"
+              }
+            ]
+          }
+        },
+        {
+          "id": "urgent-care-and-next-step",
+          "heading": {
+            "ar": "إمتى تحتاج رعاية عاجلة وإزاي تجهّز للموعد؟",
+            "en": "When is urgent care needed, and how do you prepare?"
+          },
+          "body": {
+            "ar": "اطلب تقييماً عاجلاً لو ظهر اصفرار جديد وواضح في العينين أو الجلد، قيء مستمر مع عدم القدرة على شرب السوائل، نعاس أو لخبطة غير معتادة، نزيف، بطن بتكبر بسرعة، أو تدهور شديد في الحالة العامة. الأعراض دي مش بتحدد نوع الفيروس لوحدها، لكنها ممكن تشير لمشكلة كبد أو مرض حاد يحتاج تقييماً من غير انتظار موعد روتيني. ولو التعرض كان وخزة إبرة أو دماً حديثاً، تواصل بسرعة حتى لو حاسس إنك كويس [4, 8, 9].\n\nللموعد العادي، خد التقرير كامل مش صورة لجزء منه. اكتب اسم كل اختبار وتاريخه: HCV antibody، HCV RNA أو PCR، HBsAg، anti-HBs، total anti-HBc، وأي HBV DNA. هات كمان تحاليل الكبد القديمة، قائمة الأدوية والمكملات، سجل التطعيم ضد فيروس بي، وأي علاج سابق لفيروس سي. قول إمتى حصل التعرض المحتمل من غير لوم لنفسك أو لحد؛ المعلومة الطبية الدقيقة بتساعد في اختيار التحليل المناسب وتوقيته [1, 6, 9].\n\nما تشاركش أمواس أو فرش أسنان أو أدوات ممكن يلمسها دم، وما تتبرعش بالدم لو عندك عدوى حالية أو لسه النتيجة محتاجة حسم. فيروس سي ما بينتقلش بالحضن أو الأكل المشترك أو الكحة، وفيروس بي ما بينتقلش بالمصافحة أو مشاركة الأكل؛ التعامل اليومي العادي مش سبب للعزل. لو محتاج تفسير النتيجة وخطة الخطوة الجاية، ممكن تحجز مع الفريق الطبي في لاروز في المعادي أو التجمع الخامس بالقاهرة الجديدة. ولو فيه علامة عاجلة، اختار الرعاية العاجلة بدل انتظار الحجز [4, 8, 11].",
+            "en": "Seek urgent assessment for new and obvious yellowing of the eyes or skin, persistent vomiting with inability to drink, unusual drowsiness or confusion, bleeding, rapidly increasing abdominal swelling, or marked deterioration in general condition. These features do not identify the virus by themselves, but they can accompany an acute illness or liver problem that should not wait for a routine appointment. After a recent needlestick or blood exposure, contact a medical service promptly even if you feel well [4, 8, 9].\n\nFor a routine appointment, bring the complete report rather than a cropped image. Record the name and date of every test: HCV antibody, HCV RNA or PCR, HBsAg, anti-HBs, total anti-HBc, and any HBV DNA. Also bring older liver tests, a list of medicines and supplements, your hepatitis B vaccination record, and details of any previous hepatitis C treatment. State when a possible exposure occurred without blaming yourself or anyone else; accurate medical information helps select the right test and timing [1, 6, 9].\n\nDo not share razors, toothbrushes or equipment that may carry blood, and do not donate blood when you have current infection or a result is still unresolved. Hepatitis C does not spread through hugging, shared food or coughing, and hepatitis B does not spread through handshakes or sharing meals; ordinary daily contact is not a reason for isolation. If you need the result explained and a next-step plan, you can book with the medical team at La Rose in Maadi or Fifth Settlement, New Cairo. If an urgent feature is present, use urgent care instead of waiting for a booking [4, 8, 11]."
+          },
+          "links": {
+            "ar": [
+              {
+                "label": "احجز استشارة مع الفريق الطبي",
+                "url": "../patients/booking.html"
+              }
+            ],
+            "en": [
+              {
+                "label": "Book a consultation",
+                "url": "../patients/booking.html"
+              }
+            ]
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "ar": "تحليل الأجسام المضادة لفيروس سي إيجابي، هل كده عندي الفيروس؟",
+            "en": "My hepatitis C antibody is positive. Do I currently have the virus?"
+          },
+          "a": {
+            "ar": "مش بالضرورة. النتيجة الإيجابية بتقول إن الجسم قابل فيروس سي في وقت ما، وممكن تمثل عدوى حالية أو عدوى قديمة انتهت أو إيجابية كاذبة في بعض الحالات. الاختبار اللي يثبت العدوى الحالية هو HCV RNA أو PCR. لو الـRNA مكتشف، فيه عدوى حالية تحتاج تقييماً للعلاج. لو غير مكتشف، مفيش عدوى حالية في أغلب المواقف، مع مراجعة خاصة لو التعرض حديث أو فيه سبب طبي يعقّد التفسير [1].",
+            "en": "Not necessarily. A positive result says that the body encountered HCV at some point; it may represent current infection, resolved past infection or, in some cases, biologic false positivity. HCV RNA, commonly called PCR, establishes current infection. Detected RNA means current infection requiring treatment assessment. Undetected RNA means no current infection in most situations, with additional review after a recent exposure or when a medical factor complicates interpretation [1]."
+          }
+        },
+        {
+          "q": {
+            "ar": "بعد علاج فيروس سي، ليه تحليل الأجسام المضادة لسه إيجابي؟",
+            "en": "Why is my hepatitis C antibody still positive after treatment?"
+          },
+          "a": {
+            "ar": "عشان الأجسام المضادة ممكن تفضل موجودة بعد ما الفيروس نفسه يختفي. متابعة نجاح العلاج ما تعتمدش على رجوع antibody لسلبي؛ بتعتمد على HCV RNA في التوقيت اللي يحدده الفريق المعالج. CDC بتعتبر عدم اكتشاف RNA بعد 12 أسبوعاً من نهاية العلاج استجابة فيروسية مستدامة وشفاءً فيروسياً. ولو حصل تعرض جديد بعد الشفاء، الطبيب يستخدم RNA لتقييم عدوى جديدة لأن antibody القديم مش هيجاوب عن السؤال ده [2, 4].",
+            "en": "Antibodies can remain after the virus itself has cleared. Treatment success does not depend on antibody becoming negative; it is assessed with HCV RNA at the time set by the treating team. CDC regards undetectable RNA 12 weeks after treatment ends as sustained virologic response and virologic cure. After a new exposure following cure, clinicians use RNA to assess reinfection because the existing antibody result cannot answer that question [2, 4]."
+          }
+        },
+        {
+          "q": {
+            "ar": "HBsAg إيجابي معناه إيه؟",
+            "en": "What does a positive HBsAg result mean?"
+          },
+          "a": {
+            "ar": "HBsAg إيجابي غالباً معناه وجود عدوى فيروس بي حالية، بس التحليل وحده ما يحددش هل العدوى حادة ولا مزمنة ولا يشرح نشاطها. الطبيب يقرأه مع total anti-HBc وanti-HBs، وقد يطلب IgM anti-HBc لو فيه اشتباه في عدوى حادة، وHBV DNA وتقييم الكبد بعد تأكيد العدوى. ما تعتمدش على HBsAg منفرد لتقرر العلاج، وما توقفش دواء أو تبدأه من نفسك [6, 7, 9].",
+            "en": "Positive HBsAg generally indicates current hepatitis B infection, but it does not by itself show whether infection is acute or chronic or describe its activity. A clinician reads it with total anti-HBc and anti-HBs, may request IgM anti-HBc when acute infection is suspected, and may arrange HBV DNA and liver assessment after infection is confirmed. Do not use isolated HBsAg to decide treatment or start or stop medicine yourself [6, 7, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل تحليل وظائف الكبد الطبيعي ينفي فيروس بي أو سي؟",
+            "en": "Do normal liver-function tests rule out hepatitis B or C?"
+          },
+          "a": {
+            "ar": "لأ. تحاليل وظائف وإنزيمات الكبد بتجاوب عن حالة الكبد من زوايا معينة، لكنها مش اختبارات تشخيص للفيروسين. ممكن العدوى تبقى موجودة من غير أعراض واضحة، والاختبار المطلوب لفيروس سي يبدأ عادة بالأجسام المضادة ويتأكد بـHCV RNA لو تفاعلي، بينما فحص فيروس بي الأول للبالغين يعتمد على HBsAg وanti-HBs وtotal anti-HBc. النتيجة الفيروسية والتقييم الكبدي يكملوا بعض، لكن واحد ما يستبدلش التاني [1, 6, 9].",
+            "en": "No. Liver enzymes and function measurements answer particular questions about the liver, but they are not diagnostic tests for these viruses. Infection can be present without clear symptoms. Hepatitis C testing usually begins with antibody and uses HCV RNA after a reactive result, while first-time adult hepatitis B screening uses HBsAg, anti-HBs and total anti-HBc. Viral testing and liver assessment complement each other; neither replaces the other [1, 6, 9]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل فيروس سي له تطعيم؟ وهل ممكن يرجع بعد الشفاء؟",
+            "en": "Is there a hepatitis C vaccine, and can infection return after cure?"
+          },
+          "a": {
+            "ar": "مفيش تطعيم فعّال ضد فيروس سي حالياً. العلاج الناجح يزيل العدوى الموجودة لكنه ما يعملش مناعة تمنع عدوى جديدة، عشان كده ممكن تحصل إصابة تانية بعد تعرض جديد. الوقاية تعتمد على عدم مشاركة الإبر أو الأدوات اللي ممكن يلمسها دم، واستخدام أدوات معقمة في الإجراءات، وخطة فحص بـHCV RNA لو فيه خطر مستمر أو تعرض جديد. فيروس بي مختلف وعنده تطعيم للوقاية [3, 4, 11].",
+            "en": "There is currently no effective hepatitis C vaccine. Successful treatment clears the existing infection but does not create immunity against a new one, so reinfection can occur after another exposure. Prevention includes not sharing needles or items that may carry blood, using sterile equipment for procedures, and arranging HCV RNA testing when exposure is ongoing or new. Hepatitis B is different and has a preventive vaccine [3, 4, 11]."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل نتيجة فيروس بي أو سي الإيجابية معناها إني لازم أبعد عن البيت؟",
+            "en": "Does a positive hepatitis B or C result mean I must isolate from my household?"
+          },
+          "a": {
+            "ar": "لأ، التعامل اليومي العادي مش سبب للعزل. فيروس سي بينتقل أساساً لما دم مصاب يدخل جسم شخص تاني، ومش بينتقل بالحضن أو المصافحة أو الكحة أو مشاركة الأكل. فيروس بي ممكن ينتقل بالدم وبعض سوائل الجسم، لكنه برضه مش بينتقل بالحضن أو الكحة أو مشاركة الأدوات العادية للأكل. المطلوب احتياط عملي: ما تشاركش أمواساً أو فرش أسنان أو أدوات حقن، وخلّي المخالطين يناقشوا فحص وتطعيم فيروس بي مع الطبيب [4, 8, 11].",
+            "en": "No. Ordinary daily contact is not a reason for isolation. Hepatitis C mainly spreads when infected blood enters another person’s body; it does not spread through hugging, handshakes, coughing or shared food. Hepatitis B can spread through blood and certain body fluids, but not through hugging, coughing or ordinary shared eating utensils. Use practical precautions: do not share razors, toothbrushes or injection equipment, and ask household contacts to discuss hepatitis B testing and vaccination with a clinician [4, 8, 11]."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "CDC — Clinical Screening and Diagnosis for Hepatitis C",
+          "url": "https://www.cdc.gov/hepatitis-c/hcp/diagnosis-testing/index.html"
+        },
+        {
+          "label": "CDC — Clinical Care of Hepatitis C",
+          "url": "https://www.cdc.gov/hepatitis-c/hcp/clinical-care/index.html"
+        },
+        {
+          "label": "WHO — Hepatitis C",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-c"
+        },
+        {
+          "label": "NIDDK — Hepatitis C",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/viral-hepatitis/hepatitis-c"
+        },
+        {
+          "label": "WHO — WHO commends Egypt for its progress on the path to eliminate hepatitis C",
+          "url": "https://www.who.int/news/item/09-10-2023-who-commends-egypt-for-its-progress-on-the-path-to-eliminate-hepatitis-c"
+        },
+        {
+          "label": "CDC — Clinical Testing and Diagnosis for Hepatitis B",
+          "url": "https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/index.html"
+        },
+        {
+          "label": "CDC — Screening and Testing for Hepatitis B Virus Infection: CDC Recommendations — United States, 2023",
+          "url": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm"
+        },
+        {
+          "label": "WHO — Hepatitis B",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b"
+        },
+        {
+          "label": "NIDDK — Hepatitis B",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/viral-hepatitis/hepatitis-b"
+        },
+        {
+          "label": "CDC — Clinical Care of Hepatitis B",
+          "url": "https://www.cdc.gov/hepatitis-b/hcp/clinical-care/index.html"
+        },
+        {
+          "label": "CDC — Hepatitis C Basics",
+          "url": "https://www.cdc.gov/hepatitis-c/about/index.html"
+        },
+        {
+          "label": "WHO — Consolidated guidance on hepatitis B and C prevention, testing, treatment, service delivery and monitoring: an implementation handbook for a public health approach",
+          "url": "https://www.who.int/publications/i/item/9789240119529"
+        }
+      ],
+      "seo": {
+        "title": {
+          "ar": "تحليل فيروس بي وسي: معنى النتيجة",
+          "en": "Hepatitis B and C tests: what results mean"
+        },
+        "description": {
+          "ar": "اعرف مين يحتاج تحليل فيروس بي وسي، والفرق بين أجسام مضادة فيروس سي وPCR، ومعنى HBsAg، وخطوات التأكيد والعلاج والمتابعة بهدوء.",
+          "en": "Learn who needs hepatitis B and C testing, how HCV antibody differs from PCR, what HBsAg means, and the next steps for care and follow-up."
+        }
+      }
+    }
+  ]
+}

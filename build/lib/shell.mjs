@@ -501,6 +501,9 @@ function branchClinicSchema({ c, locale, branch, currentUrl, organisationId }) {
   const hasGeo = branch.geo
     && Number.isFinite(Number(branch.geo.lat))
     && Number.isFinite(Number(branch.geo.lng));
+  const areaServed = ta(branch.areaServedNames, locale)
+    .filter(Boolean)
+    .map((name) => ({ "@type": "Place", name }));
   return {
     "@type": "MedicalClinic",
     "@id": `${currentUrl}#medical-clinic`,
@@ -513,6 +516,8 @@ function branchClinicSchema({ c, locale, branch, currentUrl, organisationId }) {
       latitude: branch.geo.lat,
       longitude: branch.geo.lng,
     } : undefined,
+    areaServed: areaServed.length ? areaServed : undefined,
+    hasMap: branch.mapsUrl || undefined,
     openingHoursSpecification: structuredHours.length ? structuredHours : undefined,
     parentOrganization: { "@id": organisationId },
   };

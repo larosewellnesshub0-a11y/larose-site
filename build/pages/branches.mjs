@@ -4,7 +4,7 @@
 
 import { t, ta, esc, link, asset, icon, map, when, published, branchCardImage, responsiveAttrs, IMAGE_SIZES, absolutePageUrl } from "../lib/util.mjs";
 import { page } from "../lib/shell.mjs";
-import { pageHero, sectionHead, specialtyCard, ctaBand } from "../lib/components.mjs";
+import { pageHero, sectionHead, specialtyCard, ctaBand, faqList, faqSchema } from "../lib/components.mjs";
 
 function branchCard({ c, locale, depth, b }) {
   const s = c.site;
@@ -103,6 +103,9 @@ function consultationBlock({ c, locale, depth, b }) {
 function openBranch({ c, locale, b }) {
   const depth = 1;
   const specialties = published(c.specialties).filter((sp) => (b.specialties || []).includes(sp.slug));
+  const nearbyAreas = ta(b.nearbyAreas, locale);
+  const areaServed = ta(b.areaServedNames, locale).map((name) => ({ "@type": "Place", name }));
+  const faq = b.faq || [];
   const schema = {
     "@context": "https://schema.org",
     "@type": "MedicalClinic",
@@ -121,6 +124,9 @@ function openBranch({ c, locale, b }) {
       latitude: b.geo.lat,
       longitude: b.geo.lng,
     } : undefined,
+    areaServed: areaServed.length ? areaServed : undefined,
+    hasMap: b.mapsUrl || undefined,
+    openingHoursSpecification: b.openingHoursSpecification || undefined,
     image: (b.photos || []).map((photo) => `https://${c.site.brand.domain}/${photo.src}`),
   };
 
@@ -178,6 +184,22 @@ ${consultationBlock({ c, locale, depth, b })}
   </div>
 </section>
 
+${when(nearbyAreas.length, `<section class="section">
+  <div class="wrap">
+    ${sectionHead({
+      eyebrow: t({ ar: "قريبين منك", en: "Close to you" }, locale),
+      title: t({ ar: "جاي من المناطق القريبة؟", en: "Coming from a nearby area?" }, locale),
+      lede: t({
+        ar: "المسافات وأوقات العربية تقريبية وبتختلف حسب الزحمة، وزر الخريطة بيديك الاتجاهات المباشرة.",
+        en: "Driving distances and times are approximate and depend on traffic; the Maps button gives you live directions.",
+      }, locale),
+    })}
+    <div class="prose u-measure">
+      <ul>${map(nearbyAreas, (area) => `<li>${esc(area)}</li>`)}</ul>
+    </div>
+  </div>
+</section>`)}
+
 <section class="section">
   <div class="wrap">
     ${sectionHead({
@@ -194,6 +216,16 @@ ${consultationBlock({ c, locale, depth, b })}
   </div>
 </section>
 
+${when(faq.length, `<section class="section section--sunk">
+  <div class="wrap">
+    ${sectionHead({
+      eyebrow: t({ ar: "أسئلة محلية", en: "Local questions" }, locale),
+      title: t({ ar: "أسئلة شائعة عن فرع التجمع الخامس", en: "Fifth Settlement branch FAQs" }, locale),
+    })}
+    ${faqList({ c, locale, items: faq, idPrefix: `branch-${b.slug}` })}
+  </div>
+</section>`)}
+
 ${ctaBand({ c, locale, depth })}`;
 
   return {
@@ -204,7 +236,7 @@ ${ctaBand({ c, locale, depth })}`;
       description: t(b.intro, locale),
       active: "branches",
       body,
-      schema,
+      schema: [schema, faqSchema(faq, locale)].filter(Boolean),
     }),
   };
 }
