@@ -299,12 +299,12 @@
         },
         {
           "q": {
-            "ar": "هل اسمرار الرقبة معناه إن عندي سكر؟",
-            "en": "Does a dark neck mean I have diabetes?"
+            "ar": "هل اسمرار الرقبة يعني الإصابة بالسكر؟",
+            "en": "Can a dark neck mean diabetes?"
           },
           "a": {
-            "ar": "لأ. الشواك الأسود ممكن يرتبط بمقاومة الإنسولين أو السكر عند ناس، بس مش بيثبت ده ولا ده، ومحتاج يتقرا مع السن والأعراض والتحاليل المناسبة. [1, 3, 10]",
-            "en": "No. Acanthosis nigricans can be linked with insulin resistance or diabetes in some people, but it proves neither and needs to be read alongside age, symptoms and appropriate tests. [1, 3, 10]"
+            "ar": "ممكن يبقى علامة إنذار، بس مش تشخيص نهائي لوحده. الشواك الأسود في ثنيات الرقبة كتير بيرتبط بمقاومة الإنسولين ومرحلة ما قبل السكر أو سكر النوع التاني، لأن الإنسولين العالي بيحفز خلايا الجلد تتكاثر وتغمق. مع كده، وجود اسمرار مش معناه أكيد إن عندك سكر، وفي نفس الوقت غيابه مش بينفي مقاومة الإنسولين، والفيصل هو تحليل الدم وتقييم الدكتور. [1, 2, 3]",
+            "en": "It can be an early warning sign, but it is not a diagnosis on its own. Acanthosis nigricans on the neck is frequently associated with insulin resistance, prediabetes, and type 2 diabetes because elevated insulin levels stimulate skin cells to thicken and darken. However, a dark neck does not prove you have diabetes, and its absence does not rule it out; clinical assessment and blood tests are needed to confirm your status. [1, 2, 3]"
           }
         },
         {
@@ -337,7 +337,7 @@
             "en": "If the darkening appears suddenly or spreads quickly, or comes with unexplained weight loss, pain, a sore or clear general illness, or if it affects a child or occurs in pregnancy. [1, 2, 5]"
           }
         },
-        {"q": {"ar": "الغمقان ده بيروح؟", "en": "Will the dark patches go away?"}, "a": {"ar": "البقع المفروض تخف مع الوقت لما السبب نفسه يتعالج. وعلشان كده الدكتور بيدور على السبب الأول، وبعدين يقترح العلاج المناسب، زي دوا يظبط الهرمونات أو الإنسولين، أو تغيير دوا بتاخده [5].", "en": "The patches should fade over time once the cause is treated. That is why a doctor looks for the cause first, then recommends treatment, such as medicine to balance hormones or insulin levels, or changing a medicine you take. [5]"}},
+        {"q": {"ar": "هل سواد الرقبة بسبب مقاومة الإنسولين بيختفي وإزاي يروح؟", "en": "Does an insulin resistance dark neck fade, and how do you get rid of it?"}, "a": {"ar": "أيوه، البقع الغامقة غالبًا بتخف بالتدريج لما السبب اللي وراها يتعالج، مش بالدعك أو مقشرات قوية. لو السبب هو مقاومة الإنسولين أو زيادة الوزن، نزول الوزن التدريجي وتظبيط السكر والأكل المتوازن هما الخطوة الأساسية اللي بتخلي الجلد يفتحّ مع الوقت. الدكتور ممكن يقيّم الهرمونات أو يراجع أي أدوية مسببة، وممكن يوصف عناية موضعية مناسبة لو فيه حاجة، لكن علاج السبب الأساسي هو الأهم. [1, 2, 5]", "en": "Yes, acanthosis nigricans patches often fade gradually once the underlying cause is managed, rather than from aggressive scrubbing or harsh peels. When linked to insulin resistance or excess weight, gradual weight loss, balanced nutrition, and managing blood glucose are the most effective steps to help the skin clear over time. A clinician evaluates underlying metabolic causes and may suggest gentle skin care, but addressing the root cause is central. [1, 2, 5]"}},
         {"q": {"ar": "الحالة دي بتظهر فين تاني، وشكلها إيه؟", "en": "Where else can it appear, and what does it feel like?"}, "a": {"ar": "بتبان كبقع أغمق وأتخن من الجلد العادي، ناشفة وملمسها زي القطيفة، وغالبًا بتظهر بالتدريج من غير أعراض تانية. وأكتر أماكنها ثنايا الجلد زي تحت الباط والرقبة ومنطقة الفخذ، بس ممكن تظهر في أي حتة. ولو ظهرت بقع غامقة جديدة، اكشف [5].", "en": "It shows as patches of skin darker and thicker than usual, dry and velvety, often appearing gradually without other symptoms. It is most common in skin folds such as the armpits, neck or groin, but can appear anywhere. See a doctor if you have new dark patches. [5]"}}
       ],
       "sources": [
@@ -400,24 +400,8 @@
           "darkened neck"
         ]
       },
-      "seo": {
-        "title": {
-          "ar": "هل سواد الرقبة من علامات مقاومة الإنسولين؟ | لاروز",
-          "en": "Acanthosis nigricans on the neck: a sign of insulin resistance?"
-        },
-        "description": {
-          "ar": "هل سواد الرقبة من علامات مقاومة الإنسولين؟ اعرف إزاي الإنسولين العالي بيغمّق ثنيات الرقبة، وليه الرقبة لوحدها مش تشخيص، وإيه الأسباب التانية وإمتى تكشف.",
-          "en": "Is a dark, velvety neck a sign of insulin resistance? How acanthosis nigricans links to high insulin and diabetes risk, why the neck alone is not a diagnosis, and when to get checked."
-        }
-      },
-      "history": [
-        {
-          "date": "2026-09-27",
-          "note": {
-            "ar": "إعادة صياغة النص العربي بالعامية المصرية، وإضافة أسئلة شائعة موثقة ورابط الحجز. واتضاف جزء وسؤال بيشرحوا إزاي مقاومة الإنسولين بتغمّق الرقبة، مع مصدر جديد من الأكاديمية الأمريكية للجلدية. اتضاف سؤالين شائعين عن اختفاء الغمقان وأماكن ظهوره، بمصادرهم.",
-            "en": "Arabic text rewritten in everyday Egyptian register; cited FAQs and booking link added. Added a section and FAQ explaining how insulin resistance darkens the neck, with a new AAD source. Added two cited FAQs on whether the patches fade and where they appear."
-          }
-        }, {"date": "2026-10-01", "note": {"ar": "اختصرنا وصف الصفحة في نتايج البحث بالإنجليزي من غير أي تغيير في المحتوى الطبي.", "en": "Shortened the English search-result description; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "ضفنا رابط الحجز في آخر جزء في المقال من غير أي تغيير في المحتوى الطبي.", "en": "Added the booking link to the final section; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "حدّثنا عنوان وملخص البحث بالإنجليزي عشان يطابقوا اللي الناس بتدوّر عليه فعلاً، من غير تغيير في المحتوى الطبي.", "en": "Updated the English search title and summary to match what readers actually search for; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "ضفنا رابط لمقال مرتبط عشان القارئ يلاقي تفاصيل أكتر، من غير تغيير في المحتوى الطبي.", "en": "Added a link to a related article so readers can find more detail; no change to the medical content."}}]
+      "seo": {"title": {"ar": "هل سواد الرقبة من علامات مقاومة الإنسولين؟ | لاروز", "en": "Insulin resistance neck & dark skin: causes and care | La Rose"}, "description": {"ar": "هل سواد الرقبة من علامات مقاومة الإنسولين؟ اعرف إزاي الإنسولين العالي بيغمّق ثنيات الرقبة (الشواك الأسود)، وهل يعني سكر، وإزاي بيخف وإمتى تكشف.", "en": "Is your dark neck linked to insulin resistance? How high insulin causes velvety neck skin (acanthosis nigricans), what it says about diabetes risk, and how it can fade."}},
+      "history": [{"date": "2026-09-27", "note": {"ar": "إعادة صياغة النص العربي بالعامية المصرية، وإضافة أسئلة شائعة موثقة ورابط الحجز. واتضاف جزء وسؤال بيشرحوا إزاي مقاومة الإنسولين بتغمّق الرقبة، مع مصدر جديد من الأكاديمية الأمريكية للجلدية. اتضاف سؤالين شائعين عن اختفاء الغمقان وأماكن ظهوره، بمصادرهم.", "en": "Arabic text rewritten in everyday Egyptian register; cited FAQs and booking link added. Added a section and FAQ explaining how insulin resistance darkens the neck, with a new AAD source. Added two cited FAQs on whether the patches fade and where they appear."}}, {"date": "2026-10-01", "note": {"ar": "اختصرنا وصف الصفحة في نتايج البحث بالإنجليزي من غير أي تغيير في المحتوى الطبي.", "en": "Shortened the English search-result description; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "ضفنا رابط الحجز في آخر جزء في المقال من غير أي تغيير في المحتوى الطبي.", "en": "Added the booking link to the final section; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "حدّثنا عنوان وملخص البحث بالإنجليزي عشان يطابقوا اللي الناس بتدوّر عليه فعلاً، من غير تغيير في المحتوى الطبي.", "en": "Updated the English search title and summary to match what readers actually search for; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "ضفنا رابط لمقال مرتبط عشان القارئ يلاقي تفاصيل أكتر، من غير تغيير في المحتوى الطبي.", "en": "Added a link to a related article so readers can find more detail; no change to the medical content."}}, {"date": "2026-10-01", "note": {"ar": "ظبطنا عنوان ووصف البحث بالإنجليزي، ووضّحنا في الأسئلة الشائعة علاقة سواد الرقبة بالسكر وإزاي بيخف لما السبب يتعالج.", "en": "Updated the English search title and description, and clarified the FAQs on the diabetes link and how dark neck patches fade once the cause is treated."}}]
     }
   ]
 }
