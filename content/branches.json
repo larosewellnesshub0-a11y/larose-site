@@ -35,9 +35,96 @@
         "en": "Directly behind QNB Bank"
       },
       "geo": {
-        "lat": 29.9742888,
-        "lng": 31.2742097
+        "lat": 29.9743475,
+        "lng": 31.2741852
       },
+      "_geoSource": "Resolved 2026-10-01 from the clinic-supplied mapsUrl (La Rose Wellness Hub, 14 El-Mokhtar St, New Maadi); 7 m from the earlier stored geo. See _project/MAADI-DISTANCES-2026-10-01.md",
+      "nearbyAreas": {
+        "ar": [
+          "معادي جراند مول: حوالي ١٫٦ كم، حوالي ٥ دقايق بالعربية.",
+          "دجلة (ميدان دجلة): حوالي ٢٫٦ كم، حوالي ٧ دقايق بالعربية.",
+          "شارع ٩ بالمعادي: حوالي ٣ كم، حوالي ٨ دقايق بالعربية.",
+          "المعادي القديمة (محطة مترو المعادي): حوالي ٣٫٤ كم، حوالي ٨ دقايق بالعربية.",
+          "البساتين: حوالي ٣٫٥ كم، حوالي ١٠ دقايق بالعربية.",
+          "كورنيش المعادي: حوالي ٥٫٥ كم، حوالي ١١ دقيقة بالعربية.",
+          "طرة البلد: حوالي ٦ كم، حوالي ١٥ دقيقة بالعربية.",
+          "زهراء المعادي: حوالي ٧ كم، حوالي ١١ دقيقة بالعربية."
+        ],
+        "en": [
+          "Maadi Grand Mall: about 1.6 km, about 5 minutes by car.",
+          "Degla (Degla Square): about 2.6 km, about 7 minutes by car.",
+          "Road 9, Maadi: about 3 km, about 8 minutes by car.",
+          "Old Maadi (Maadi metro station): about 3.4 km, about 8 minutes by car.",
+          "El Basatin: about 3.5 km, about 10 minutes by car.",
+          "Corniche El Maadi: about 5.5 km, about 11 minutes by car.",
+          "Tora El-Balad: about 6 km, about 15 minutes by car.",
+          "Zahraa El Maadi: about 7 km, about 11 minutes by car."
+        ]
+      },
+      "areaServedNames": {
+        "ar": [
+          "معادي جراند مول",
+          "دجلة",
+          "شارع ٩",
+          "المعادي القديمة",
+          "البساتين",
+          "كورنيش المعادي",
+          "طرة البلد",
+          "زهراء المعادي"
+        ],
+        "en": [
+          "Maadi Grand Mall",
+          "Degla",
+          "Road 9",
+          "Old Maadi",
+          "El Basatin",
+          "Corniche El Maadi",
+          "Tora El-Balad",
+          "Zahraa El Maadi"
+        ]
+      },
+      "faq": [
+        {
+          "q": {
+            "ar": "هل مونجارو متاح في فرع المعادي؟",
+            "en": "Can I be prescribed Mounjaro at the Maadi branch?"
+          },
+          "a": {
+            "ar": "وصف مونجارو ومتابعته بيكونوا فقط بعد كشف طبي ولما يكون مناسب لحالتك. الدكتور بيراجع تاريخك المرضي وتحاليلك وأدويتك الحالية قبل تحديد الخطة.",
+            "en": "Mounjaro is prescribed and followed only after a medical consultation and when it is suitable for your case. The doctor reviews your medical history, test results and current medication before deciding the plan."
+          }
+        },
+        {
+          "q": {
+            "ar": "هل في متابعة ويجوفي في المعادي؟",
+            "en": "Is Wegovy follow-up available in Maadi?"
+          },
+          "a": {
+            "ar": "متابعة ويجوفي متاحة ضمن متابعة إنقاص الوزن، لكن الوصف والمتابعة بيكونوا فقط بعد كشف طبي ولما يكون الدواء مناسب لحالتك.",
+            "en": "Wegovy follow-up is available as part of weight-management care, but it is prescribed and followed only after a medical consultation and when the medicine is suitable for your case."
+          }
+        },
+        {
+          "q": {
+            "ar": "إيه الخدمات المتاحة في فرع المعادي؟",
+            "en": "What is available at the Maadi branch?"
+          },
+          "a": {
+            "ar": "فرع المعادي بيجمع كل التخصصات تحت سقف واحد: الكشف، والسونار، وتحليل التركيب الجسمي بجهاز InBody، وجلسات نحت الجسم. المواعيد السبت والاتنين والتلات من ٢ لـ ٨ مساءً، وبتختلف حسب الطبيب.",
+            "en": "The Maadi branch brings all specialties under one roof: consultations, ultrasound, InBody body-composition analysis and body-contouring sessions. It is open Saturday, Monday and Tuesday from 2 to 8 pm, and times vary by doctor."
+          }
+        },
+        {
+          "q": {
+            "ar": "إزاي أحجز في فرع المعادي لو جاي من منطقة قريبة؟",
+            "en": "How do I book if I am coming from a nearby area?"
+          },
+          "a": {
+            "ar": "تقدر تحجز على واتساب أو بالتليفون. العيادة خلف بنك QNB في شارع المختار. لو جاي من دجلة أو المعادي القديمة أو زهراء المعادي، استخدم زر الخريطة في الصفحة عشان تشوف الاتجاهات حسب حركة المرور.",
+            "en": "You can book by WhatsApp or phone. The clinic is behind QNB Bank on El-Mokhtar Street. If you are coming from Degla, Old Maadi or Zahraa El Maadi, use the Maps button on this page for live directions based on traffic."
+          }
+        }
+      ],
       "plusCode": "X7FF+PM El Basatin",
       "mapsUrl": "https://maps.app.goo.gl/4chmVDt5MRYPwA8c6",
       "phone": {

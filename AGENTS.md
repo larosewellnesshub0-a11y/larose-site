@@ -115,7 +115,8 @@ This is a generated bilingual static site. Work from source, not from output.
     clinic's own Maps link, and note how it was found in `_geoSource`.
     `nearbyAreas`, `areaServedNames` and the branch `faq` may name only areas
     with a map-measured distance. For Fifth Settlement those are in
-    `_project/FIFTH-SETTLEMENT-DISTANCES-2026-10-01.md` and are all within about
+    `_project/FIFTH-SETTLEMENT-DISTANCES-2026-10-01.md`, for Maadi in
+    `_project/MAADI-DISTANCES-2026-10-01.md`. All named areas are within about
     10 km. Branch FAQs may mention Mounjaro or Wegovy only as prescribed after a
     consultation, when suitable. No prices, stock claims or results.
 
