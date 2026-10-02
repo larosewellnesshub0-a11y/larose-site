@@ -15,9 +15,13 @@ export const S2Home: React.FC = () => {
   const { t, g } = useT(4);
   // world point of the h1 centre (measured: css 720,475 → tile px ×1.111 + 44 chrome, origin tile centre)
   const h1x = 60, h1y = 475 * (TW / 1440) + 44 - TH / 2;
-  let s = tw(t, [0, 1.85], [1.55, 1.75], inOut);
-  let fx = h1x, fy = h1y;
-  if (t >= 1.85) { const k = tw(t, [1.85, 2.4], [0, 1], expo); s = 1.75 + (0.98 - 1.75) * k; fy = h1y * (1 - k); }
+  // open full-bleed: the browser viewport exactly fills the frame (no chrome, no odd crop), then a slow push toward the H1
+  const vpY = 44 + 478 - TH / 2; // viewport centre in world px
+  const s0 = 1920 / TW;
+  const push = tw(t, [0, 1.85], [0, 1], inOut);
+  let s = s0 * (1 + 0.1 * push);
+  let fx = h1x * 0.5 * push, fy = vpY + (h1y - vpY) * 0.35 * push;
+  if (t >= 1.85) { const k = tw(t, [1.85, 2.4], [0, 1], expo); s = s0 * 1.1 + (0.98 - s0 * 1.1) * k; fx = fx * (1 - k); fy = fy * (1 - k); }
   if (t >= 2.9) { const k = tw(t, [2.9, 3.5], [0, 1], expo); s = 0.98 + (0.31 - 0.98) * k; }
   if (t >= 3.5) s = 0.31 - (t - 3.5) * 0.02;
   const p = pulseAt(g);

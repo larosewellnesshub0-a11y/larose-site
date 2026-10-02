@@ -49,16 +49,16 @@ export const easeIn = Easing.bezier(0.6, 0, 0.9, 0.4);
 export const tw = (t: number, inp: number[], out: number[], easing = expo) =>
   interpolate(t, inp, out, { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing });
 
-const GROOVES: [number, number][] = [[0, 2], [4, 39], [50, 68], [72, 84]];
+const GROOVES: [number, number][] = [[0, 2], [4, 39], [50, 72], [76, 84]];
 const ROLL: number[] = (() => { const r: number[] = []; let t = 47; while (t < 49.75) { r.push(t); t += t < 48 ? 0.25 : t < 49 ? 0.125 : 0.0625; } return r; })();
-const HITS = [4, 20, 50, 72, 84];
+const HITS = [4, 20, 50, 76, 84];
 /** 0..1 envelope that spikes on every kick / snare and decays — the music's pulse. Global seconds. */
 export const pulseAt = (t: number) => {
   let p = 0;
   for (const [a, b] of GROOVES) if (t >= a && t < b) p = Math.max(p, Math.exp(-((t - a) % 0.5) / 0.12));
   for (const r of ROLL) if (t >= r && t < r + 0.3) p = Math.max(p, 0.8 * Math.exp(-(t - r) / 0.06) * (0.4 + (r - 47) / 4));
   for (const h of HITS) if (t >= h && t < h + 1.5) p = Math.max(p, Math.exp(-(t - h) / 0.35));
-  if (t >= 68 && t < 72) p = Math.max(p, 0.45 * Math.exp(-((t - 68) % 0.5) / 0.1));
+  if (t >= 72 && t < 76) p = Math.max(p, 0.45 * Math.exp(-((t - 72) % 0.5) / 0.1));
   if (t >= 83.5 && t < 84) p = Math.max(p, 0.7 * Math.exp(-((t - 83.5) % 0.0625) / 0.03));
   if (t < 3.5 && t >= 2) p = Math.max(p, 0.35 * Math.exp(-((t - 2) % 0.25) / 0.05));
   if (t < 4 && t >= 3.5) p = Math.max(p, 0.7 * Math.exp(-((t - 3.5) % 0.0625) / 0.03));

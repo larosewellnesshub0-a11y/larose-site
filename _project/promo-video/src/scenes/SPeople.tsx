@@ -5,11 +5,11 @@ import { C, F, Glow, expo, glass, inOut, tw, useT } from "../lib";
 
 // 35–40 s: the doctors (Dr. Shimaa Sherif's portrait stays empty until the clinic supplies one — never generated),
 // then the branches; the last second is the tape stop (39–40): motion slows to a freeze and the colour drains.
+// Only doctors with a real portrait appear here (Dr. Shimaa Sherif has none yet, so her frame is not shown).
 const docs: [string | null, string, string][] = [
   ["brand/shimaa-fouad@2x.webp", "د. شيماء فؤاد", "التغذية العلاجية والإكلينيكية"],
   ["brand/alyaa-abu-taleb@2x.webp", "د. علياء سعيد أبوطالب", "التغذية العلاجية والإكلينيكية"],
   ["brand/mohab-ashraf@2x.webp", "د. مهاب أشرف فؤاد", "الباطنة والكبد والجهاز الهضمي"],
-  [null, "د. شيماء شريف", "الروماتيزم والمفاصل"],
 ];
 const branches: [string, string, string, boolean][] = [
   ["brand/branch-maadi.webp", "فرع المعادي", "MAADI", true],
@@ -28,19 +28,19 @@ export const SPeople: React.FC = () => {
   const toBranches = tw(t, [2.4, 2.75], [0, 1], expo);
   return (
     <AbsoluteFill style={{ filter: `saturate(${1 - 0.8 * stop}) brightness(${1 - 0.25 * stop})` }}>
-      <Background g={g} mode="dark" />
-      <div style={{ position: "absolute", left: 70, top: 60, fontFamily: F.sans, fontSize: 20, letterSpacing: 6, color: C.champ }}>{toBranches < 0.5 ? "OUR DOCTORS · أطباؤنا" : "BRANCHES · الفروع"}</div>
+      <Background g={g} mode="paper" />
+      <div style={{ position: "absolute", left: 70, top: 60, fontFamily: F.sans, fontSize: 20, letterSpacing: 6, color: C.champ700 }}>{toBranches < 0.5 ? "OUR DOCTORS · أطباؤنا" : "BRANCHES · الفروع"}</div>
       <AbsoluteFill style={{ transform: `translateY(${-toBranches * 1080}px)` }}>
         <div style={{ position: "absolute", top: 170, width: "100%", display: "flex", justifyContent: "center", gap: 46, direction: "rtl" }}>
           {docs.map(([img, name, sp1], i) => {
             const s = sp(i * 0.25);
             return (
-              <div key={name} style={{ width: 360, transform: `scale(${s}) translateY(${(1 - s) * 60}px)`, opacity: Math.min(1, s * 2), textAlign: "center" }}>
-                <div style={{ width: 360, height: 470, borderRadius: "180px 180px 22px 22px", overflow: "hidden", background: C.olive900, border: "1px solid rgba(212,183,147,.35)" }}>
+              <div key={name} style={{ width: 400, transform: `scale(${s}) translateY(${(1 - s) * 60}px)`, opacity: Math.min(1, s * 2), textAlign: "center" }}>
+                <div style={{ width: 400, height: 520, borderRadius: "200px 200px 22px 22px", overflow: "hidden", background: C.olive100, border: "1px solid rgba(126,99,64,.3)" }}>
                   {img && <Img src={staticFile(img)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${1.08 - t * 0.02})` }} />}
                 </div>
-                <div style={{ fontFamily: F.arDisplay, fontSize: 36, color: C.onDark, marginTop: 24 }}><Glow g={g} strength={0.5}>{name}</Glow></div>
-                <div style={{ fontFamily: F.arBody, fontSize: 22, color: C.champ, marginTop: 8 }}>{sp1}</div>
+                <div style={{ fontFamily: F.arDisplay, fontSize: 36, color: C.ink, marginTop: 24 }}><Glow g={g} strength={0.5}>{name}</Glow></div>
+                <div style={{ fontFamily: F.arBody, fontSize: 22, color: C.champ700, marginTop: 8 }}>{sp1}</div>
               </div>
             );
           })}

@@ -2,23 +2,23 @@
 
 A 90-second, 1920×1080, 30 fps motion-graphics film about the site's design language. Arabic comes first and English is the
 counterpart. The type is Graphik Arabic and Graphik, plus Romelio and Montserrat as on the site. Glass panels use the site's
-own glass tokens.
+own glass tokens. Most scenes sit on the light paper ground; dark olive is kept for the intro, the fake ending, the build and the logo.
 
 | Time | Scene |
 |---|---|
-| 0–4 s | Real pieces of the site flash through one brand arch, the logo lands on dark olive, a snare fill flies through the arch |
-| 4–8 s | Close-up of the Arabic hero H1, then two surprise zoom outs (browser, then a wall of pages) |
+| 0–4 s | The best photos on the site flash through one brand arch, the logo lands on dark olive, a snare fill flies through the arch |
+| 4–8 s | The Arabic homepage full-frame with a slow push, then two surprise zoom outs (browser, then a wall of pages) |
 | 8–14 s | Type specimens on the half-beat, then the hero line word by word and its English version |
 | 14–18 s | The palette as brand arches (a rose-dot match cut in, a dive into "paper" out) |
 | 18–24 s | UI kit: buttons, cursor clicks, a glass booking card over the clinic photo, counters, light→dark |
 | 24–28 s | The BMI calculator in glass: typing, a click, the result counting up |
 | 28–35 s | 8-page montage, then desktop + tablet + phone and an AR⇄EN flip |
-| 35–40 s | Doctors (Dr. Shimaa Sherif's portrait stays empty, per AGENTS.md), then branches, then a tape stop |
+| 35–40 s | The doctors with portraits (Dr. Shimaa Sherif has none yet, so her frame is left out), then branches, then a tape stop |
 | 40–47 s | Fake ending on dark olive. It stays lit, with no dip to black |
 | 47–50 s | «استنى!» then «الموقع ده كمان SEO Optimized», and a light flash into the drop |
-| 50–68 s | SEO: title/meta/canonical, hreflang, JSON-LD, search preview, trust signals, clean URLs + sitemap + robots, the OG share card, a zoom out to the library |
-| 68–72 s | A kick-less break: glass stat tiles with digital counters |
-| 72–84 s | Finale, up a whole tone: an arch recap, the browser flipping language/theme/page, a tilted wall of pages |
+| 50–72 s | SEO: title/meta/canonical, hreflang, JSON-LD (held 3.5 s), search preview (held 4 s), trust signals, clean URLs + sitemap + robots, the OG share card, a zoom out to the library |
+| 72–76 s | A kick-less break: glass stat tiles with digital counters |
+| 76–84 s | Finale, up a whole tone: a photo recap, the browser flipping language/theme/page, a tilted wall of pages |
 | 84–90 s | Logo |
 
 ## Rebuild
@@ -32,6 +32,7 @@ cp ../../site/assets/fonts/*.woff2 public/fonts/
 # Licensed brand fonts (not in git, get them from the clinic): Graphik-{Regular,Medium,Bold,Super}.ttf (Latin) and
 # GraphikArabic-{Regular,Medium,Semibold,Bold}.woff2. Without GraphikArabic the video falls back to IBM Plex Sans Arabic.
 cp ../../site/assets/img/logo/{larose-wordmark-white.png,favicon.svg} public/brand/
+# plus the photos named in src/scenes/S1Intro.tsx / SFinale.tsx → public/photos, and doctor/branch images → public/brand
 cp $(node -e "console.log(require('./src/covers.json').map(f=>'../../site/assets/img/articles/'+f).join(' '))") public/covers/
 pip install numpy scipy
 python3 scripts/music.py public/soundtrack.wav   # synthesised 120 BPM track + SFX

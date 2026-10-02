@@ -1,21 +1,16 @@
 import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
 import { Background, archPath } from "../Background";
-import { C, F, Glow, Shot, Wipe, easeIn, expo, inOut, tw, useT, pulseAt } from "../lib";
+import { C, F, Glow, Wipe, easeIn, expo, inOut, tw, useT, pulseAt } from "../lib";
 
 // Arch window, centred. 0–2 s: a real piece of the site flashes in it on every 16th-note pair (match cuts through
 // the same arch). 2 s: the arch fills with olive and the logo lands. Then the arch shrinks, the tagline arrives,
 // and the snare fill flies us through the arch into the homepage.
 const AW = 620, AH = 800;
-const flashes: [string, number, number, number][] = [ // shot, css centre x, centre y, css width shown
-  ["ar-home", 760, 470, 720],
-  ["ar-home", 960, 782, 430],
-  ["ar-doctor", 1024, 600, 560],
-  ["ar-article", 720, 860, 760],
-  ["ar-specialties", 1112, 1100, 470],
-  ["ar-bmi", 720, 700, 820],
-  ["ar-weight", 720, 330, 800],
-  ["ar-home", 1365, 93, 230],
+// the best photographs on the site (site/assets/img), one per half-beat, each with its focal point
+const flashes: [string, string][] = [
+  ["maadi-treatment", "62% 50%"], ["patients-first-visit", "50% 50%"], ["specialties", "45% 50%"], ["maadi-waiting", "40% 50%"],
+  ["clinical-nutrition", "50% 40%"], ["doctors", "55% 50%"], ["recipe-book-open", "50% 50%"], ["maadi-reception", "50% 50%"],
 ];
 
 export const S1Intro: React.FC = () => {
@@ -31,8 +26,7 @@ export const S1Intro: React.FC = () => {
   const scale = (1 - 0.42 * shrink) * (t < 2 ? flashPop : 1) * (1 + 0.02 * p);
   const cy = 540 - 120 * shrink;
   const lineW = tw(t, [2.5, 3.0], [0, 900], expo);
-  const [shot, cx, ccy, cw] = flashes[i];
-  const k = AW / cw; // display px per css px
+  const [photo, focus] = flashes[i];
   return (
     <AbsoluteFill>
       <Background g={g} mode="brand" />
@@ -40,7 +34,7 @@ export const S1Intro: React.FC = () => {
         <div style={{ position: "absolute", left: 960 - AW / 2, top: cy - AH / 2, width: AW, height: AH, transform: `scale(${scale})`,
           borderRadius: `${AW / 2}px ${AW / 2}px 22px 22px`, overflow: "hidden", background: C.olive,
           boxShadow: `0 0 ${20 + 60 * p}px rgba(212,183,147,${0.15 + 0.35 * p})` }}>
-          {t < 2 && <Shot name={shot as never} width={1440 * k} style={{ left: AW / 2 - cx * k, top: AH / 2 - ccy * k }} />}
+          {t < 2 && <Img src={staticFile(`photos/${photo}.webp`)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: focus, transform: `scale(${1.08 - lt * 0.2})` }} />}
           {t >= 2 && (
             <AbsoluteFill style={{ background: C.olive900, alignItems: "center", justifyContent: "center" }}>
               <Img src={staticFile("brand/larose-wordmark-white.png")} style={{ width: 380, opacity: logoIn, transform: `scale(${1.3 - 0.3 * logoIn})`,

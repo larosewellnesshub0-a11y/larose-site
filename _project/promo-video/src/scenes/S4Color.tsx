@@ -26,8 +26,8 @@ export const S4Color: React.FC = () => {
   const camS = 1 + dive * 9;
   return (
     <AbsoluteFill>
-      <Background g={g} mode="dark" />
-      <div style={{ position: "absolute", left: 70, top: 60, fontFamily: F.sans, fontSize: 20, letterSpacing: 6, color: C.champ }}>COLOUR · الألوان</div>
+      <Background g={g} mode="paper" />
+      <div style={{ position: "absolute", left: 70, top: 60, fontFamily: F.sans, fontSize: 20, letterSpacing: 6, color: C.champ700 }}>COLOUR · الألوان</div>
       <AbsoluteFill style={{ transform: `translate(${PX}px,${PY}px) scale(${camS}) translate(${-PX}px,${-PY}px)`, transformOrigin: "0 0" }}>
         {sw.map((s, i) => {
           const at = i === 1 ? 0 : i === 0 ? 0.5 : i * 0.5;
@@ -40,18 +40,18 @@ export const S4Color: React.FC = () => {
           return (
             <div key={i} style={{ position: "absolute", left, top, width: w }}>
               <div style={{ width: w, height: h, background: s.hex, borderRadius: `${r}px ${r}px 18px 18px`, transform: `scaleY(${sc * breathe})`, transformOrigin: "bottom",
-                border: i === 3 ? "1px solid rgba(212,183,147,.6)" : "none", position: "relative", overflow: "hidden" }}>
+                border: i === 3 ? "1.5px solid rgba(126,99,64,.45)" : "none", position: "relative", overflow: "hidden" }}>
                 <div style={{ position: "absolute", bottom: 20, width: "100%", textAlign: "center", fontFamily: F.sans, fontSize: 16, letterSpacing: 2, color: s.fg, opacity: 0.85 * sc }}>{s.hex}</div>
               </div>
               <div style={{ textAlign: "center", marginTop: 26, opacity: tw(t, [at + 0.1, at + 0.3], [0, 1]) * (1 - dive) }}>
-                <div style={{ fontFamily: F.arDisplay, fontSize: 46, color: C.onDark }}><Glow g={g} strength={0.6}>{s.ar}</Glow></div>
-                <div style={{ fontFamily: F.sans, fontSize: 17, letterSpacing: 6, color: C.champ, marginTop: 6 }}>{s.en}</div>
+                <div style={{ fontFamily: F.arDisplay, fontSize: 46, color: C.ink }}><Glow g={g} strength={0.6}>{s.ar}</Glow></div>
+                <div style={{ fontFamily: F.sans, fontSize: 17, letterSpacing: 6, color: C.champ700, marginTop: 6 }}>{s.en}</div>
               </div>
             </div>
           );
         })}
       </AbsoluteFill>
-      <div style={{ position: "absolute", bottom: 70, width: "100%", textAlign: "center", fontFamily: F.arBody, fontSize: 26, color: C.onDarkMute, direction: "rtl", opacity: tw(t, [2.8, 3.1], [0, 1]) * (1 - dive) }}>
+      <div style={{ position: "absolute", bottom: 70, width: "100%", textAlign: "center", fontFamily: F.arBody, fontSize: 26, color: C.inkMuted, direction: "rtl", opacity: tw(t, [2.8, 3.1], [0, 1]) * (1 - dive) }}>
         ألوان هادية مستوحاة من الطبيعة — <span style={{ fontFamily: F.sans, fontSize: 20, letterSpacing: 3 }}>calm, natural, warm</span>
         <span style={{ opacity: p }} />
       </div>

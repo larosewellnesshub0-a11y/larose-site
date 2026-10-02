@@ -1,7 +1,7 @@
 """Synthesises the 90 s soundtrack + SFX for the La Rose promo.
 120 BPM (beat = 0.5 s = 15 frames at 30 fps). Structure:
  0-4 intro | 4-20 groove A | 20-39 groove B | 39-40 tape stop | 40-47 fake ending (quiet pad)
- 47-50 build | 50-68 drop | 68-72 break (counters) | 72-84 finale, key change +2 | 84 final hit, tail to 90
+ 47-50 build | 50-72 drop | 72-76 break (counters) | 76-84 finale, key change +2 | 84 final hit, tail to 90
 """
 import numpy as np, json, wave, sys
 from scipy.signal import butter, sosfilt, fftconvolve
@@ -271,7 +271,7 @@ def sidechain(bus, kicks, depth=0.6, rel=0.18):
         g[i:i+n] = np.minimum(g[i:i+n], e[: N-i])
     bus.L *= g; bus.R *= g
 
-kicks = [0.0, 0.5, 1.0, 1.5] + list(np.arange(4, 39.5, 0.5)) + list(np.arange(50, 68, 0.5)) + list(np.arange(72, 84, 0.5))
+kicks = [0.0, 0.5, 1.0, 1.5] + list(np.arange(4, 39.5, 0.5)) + list(np.arange(50, 72, 0.5)) + list(np.arange(76, 84, 0.5))
 
 # ---- fake ending 40-47: quiet, but it never drops to silence ----
 amb = Bus()
@@ -293,27 +293,28 @@ fx.add(noise_riser(2.75, 300, 12000), 47.0, 0.6)
 b = Bus(); b.add(pad([57, 60, 64], 2.75, 3000), 47.0, 0.4)
 music.L += b.L; music.R += b.R
 
-# ---- drop 50-68 ----
+# ---- drop 50-72 ----
 music.add(impact(), 50.0, 1.0)
-groove(50.0, 68.0, "D")
+groove(50.0, 72.0, "D")
 
-# ---- break 68-72: no kick, filtered arp opening, bass eighths, claps from 70, riser + roll into the key change ----
+# ---- break 72-76: no kick, filtered arp opening, bass eighths, claps building, riser + roll into the key change ----
 brk = Bus()
 for i in range(32):
-    t = 68 + i * 0.125; bb, ch, ar = chord_at(t)
-    brk.add(pluck(ar[i % 4] + 12, 0.16, 6000), t, 0.4, pan=-0.3 if i % 2 else 0.3)
-brk.add(pad([57, 60, 64, 69], 4.0, 2500), 68.0, 0.6)
-i0, i1 = int(68*SR), int(72*SR)
-music.L[i0:i1] += sweep_lp(brk.L[i0:i1], 500, 9000); music.R[i0:i1] += sweep_lp(brk.R[i0:i1], 500, 9000)
-for t in np.arange(68.0, 72.0, 0.25): music.add(bass(45, 0.12, 1.4), t, 0.4)
-for t in np.arange(70.0, 72.0, 0.5): drums.add(clap(), t, 0.6)
-for t in np.arange(68.0, 71.5, 0.25): drums.add(hat(), t, 0.3)
-fx.add(noise_riser(2.0, 500, 12000), 70.0, 0.55)
-for i in range(8): drums.add(snare(1.2 + i * 0.08), 71.5 + i * 0.0625, 0.35 + i * 0.07)
+    t = 72 + i * 0.125; bb, ch, ar = chord_at(t)
+    brk.add(pluck(ar[i % 4] + 12, 0.16, 6000), t, 0.65, pan=-0.3 if i % 2 else 0.3)
+brk.add(pad([57, 60, 64, 69], 4.0, 3000), 72.0, 0.8)
+i0, i1 = int(72*SR), int(76*SR)
+music.L[i0:i1] += sweep_lp(brk.L[i0:i1], 1200, 9000); music.R[i0:i1] += sweep_lp(brk.R[i0:i1], 1200, 9000)
+for t in np.arange(72.0, 76.0, 0.25): music.add(bass(45, 0.12, 1.6), t, 0.7)
+for t in np.arange(72.5, 74.0, 1.0): drums.add(clap(), t, 0.55)
+for t in np.arange(74.0, 76.0, 0.5): drums.add(clap(), t, 0.6)
+for t in np.arange(72.0, 75.5, 0.25): drums.add(hat(), t, 0.45)
+fx.add(noise_riser(2.0, 500, 12000), 74.0, 0.55)
+for i in range(8): drums.add(snare(1.2 + i * 0.08), 75.5 + i * 0.0625, 0.35 + i * 0.07)
 
-# ---- finale 72-84, up a whole tone ----
-music.add(impact(), 72.0, 1.0)
-groove(72.0, 84.0, "D", key=2)
+# ---- finale 76-84, up a whole tone ----
+music.add(impact(), 76.0, 1.0)
+groove(76.0, 84.0, "D", key=2)
 for i in range(8): drums.add(snare(1.3 + i * 0.08), 83.5 + i * 0.0625, 0.35 + i * 0.07)
 
 # ---- tail 84-90 (B minor) ----
@@ -351,19 +352,19 @@ ev += [(18.0, "click"), (18.5, "click"), (19.0, "click"), (19.5, "click"), (20.5
 ev += [(24.0, "pop"), (24.5, "tick"), (24.625, "tick"), (24.75, "tick"), (25.0, "tick"), (25.125, "tick"), (25.5, "mouse"),
        (25.6, "counter0.8"), (26.45, "pop"), (26.5, "tick"), (27.5, "whoosh")]                                                       # BMI tool
 ev += [(28 + i*0.25, "shutter" if i % 2 == 0 else "tick") for i in range(16)] + [(32.0, "whoosh"), (33.5, "whoosh_s")]               # pages
-ev += [(35 + i*0.25, "pop") for i in range(4)] + [(37.4, "whoosh"), (37.5, "click"), (37.75, "click"), (38.0, "click")]              # doctors, branches
+ev += [(35 + i*0.25, "pop") for i in range(3)] + [(37.4, "whoosh"), (37.5, "click"), (37.75, "click"), (38.0, "click")]              # doctors, branches
 ev += [(41.0 + i*0.1, "tick") for i in range(6)] + [(43.2, "tick")]                                                                  # fake end
 ev += [(47.0, "shutter")] + [(48.0 + i*0.25, "click") for i in range(5)]                                                             # build
-ev += [(50.0, "shutter"), (51.0, "whoosh"), (51.5, "click"), (52.5, "click"), (53.5, "click"), (54.0, "whoosh"), (55.0, "whoosh")]
-ev += [(56.0 + i*0.25, "pop") for i in range(7)]
-ev += [(58.0 + i*0.0625, "tick") for i in range(24)] + [(59.5, "pop")]
-ev += [(60.0, "click"), (60.5, "click"), (61.0, "click"), (61.5, "click")]
-ev += [(62.0, "click"), (62.5, "tick"), (62.7, "whoosh_s")] + [(62.9 + i*0.07, "tick") for i in range(9)]
-ev += [(64.0, "pop"), (64.5, "mouse")]
-ev += [(66.0, "whoosh"), (67.0, "whoosh"), (66.5, "counter1.0")]                                                                     # SEO
-ev += [(68 + i*0.5, "pop") for i in range(6)] + [(68 + i*0.5, "counter0.4") for i in range(6)] + [(71.5, "whoosh")]                # break
-ev += [(72 + i*0.25, "shutter" if i % 4 == 0 else "tick") for i in range(16)]
-ev += [(76 + i*0.5, "click") for i in range(8)] + [(80.0, "whoosh"), (81.0, "whoosh"), (83.5, "whoosh")]                            # finale
+ev += [(50.0, "shutter"), (51.0, "whoosh"), (51.5, "click"), (52.5, "click"), (53.5, "click"), (54.0, "whoosh"), (55.0, "whoosh")]   # SEO A-C
+ev += [(56.0 + i*0.25, "pop") for i in range(7)]                                                                                     # D JSON-LD (holds to 59.5)
+ev += [(59.5 + i*0.0625, "tick") for i in range(24)] + [(61.0, "pop")]                                                               # E search (holds to 63.5)
+ev += [(63.5, "click"), (64.0, "click"), (64.5, "click"), (65.0, "click")]                                                           # F trust
+ev += [(66.0, "click"), (66.5, "tick"), (66.7, "whoosh_s")] + [(66.9 + i*0.07, "tick") for i in range(9)]                            # H clean URLs
+ev += [(68.0, "pop"), (68.5, "mouse")]                                                                                               # I share card
+ev += [(70.0, "whoosh"), (71.0, "whoosh"), (70.5, "counter1.0")]                                                                     # G library
+ev += [(72 + i*0.5, "pop") for i in range(6)] + [(72 + i*0.5, "counter0.4") for i in range(6)] + [(75.5, "whoosh")]                # break
+ev += [(76 + i*0.25, "shutter" if i % 2 == 0 else "tick") for i in range(8)]
+ev += [(78 + i*0.5, "click") for i in range(6)] + [(81.0, "whoosh"), (82.0, "whoosh"), (83.5, "whoosh")]                            # finale
 ev += [(84.4, "pop")]
 for t, kind in ev:
     if kind.startswith("counter"):

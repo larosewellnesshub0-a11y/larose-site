@@ -31,8 +31,8 @@ export const STools: React.FC = () => {
   );
   return (
     <AbsoluteFill>
-      <Background g={g} mode="olive" />
-      <div style={{ position: "absolute", left: 70, top: 60, fontFamily: F.sans, fontSize: 20, letterSpacing: 6, color: C.champ }}>HEALTH TOOLS · أدوات طبية</div>
+      <Background g={g} mode="paper" />
+      <div style={{ position: "absolute", left: 70, top: 60, fontFamily: F.sans, fontSize: 20, letterSpacing: 6, color: C.champ700 }}>HEALTH TOOLS · أدوات طبية</div>
       <AbsoluteFill style={{ transform: `scale(${exit})` }}>
         <div style={{ position: "absolute", left: 1180, top: 150, width: 620, height: 820, borderRadius: "310px 310px 28px 28px", overflow: "hidden", opacity: cardIn }}>
           <Img src={staticFile("brand/branch-fifth-settlement.webp")} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${1.12 - t * 0.02})` }} />
@@ -45,7 +45,7 @@ export const STools: React.FC = () => {
             {field("الوزن (كجم)", w, t >= 0.95 && t < 1.5)}
           </div>
           <div style={{ display: "flex", gap: 16, marginTop: 26 }}>
-            <div style={{ padding: "18px 44px", borderRadius: 99, background: "#454832", color: C.onDark, fontFamily: F.arBody, fontSize: 28, transform: `scale(${1 - 0.07 * press})` }}>احسب</div>
+            <div style={{ padding: "18px 44px", borderRadius: 99, background: "#454832", color: C.ink, fontFamily: F.arBody, fontSize: 28, transform: `scale(${1 - 0.07 * press})` }}>احسب</div>
             <div style={{ padding: "18px 40px", borderRadius: 99, border: "1.5px solid rgba(35,36,26,.3)", color: C.ink, fontFamily: F.arBody, fontSize: 28 }}>إعادة</div>
           </div>
           <div style={{ marginTop: 34, opacity: res, transform: `translateY(${(1 - res) * 20}px)` }}>

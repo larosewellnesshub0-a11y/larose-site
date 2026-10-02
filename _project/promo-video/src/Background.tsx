@@ -14,7 +14,7 @@ const BASE: Record<Mode, [string, string]> = {
 const emitters = (g: number) => {
   const out: number[] = [];
   const add = (a: number, b: number, step: number) => { for (let t = a; t < b; t += step) if (t <= g && g - t < 2.2) out.push(t); };
-  add(0, 2, 0.5); add(2, 4, 1); add(4, 39, 1); add(40, 47, 3.5); add(47, 49.75, 0.25); add(50, 68, 0.5); add(68, 72, 1); add(72, 84, 0.5); add(84, 90, 1.5);
+  add(0, 2, 0.5); add(2, 4, 1); add(4, 39, 1); add(40, 47, 3.5); add(47, 49.75, 0.25); add(50, 72, 0.5); add(72, 76, 1); add(76, 84, 0.5); add(84, 90, 1.5);
   return out;
 };
 

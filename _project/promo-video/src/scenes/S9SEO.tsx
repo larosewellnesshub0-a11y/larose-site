@@ -8,32 +8,36 @@ import seo from "../seo.json";
 const A = seo["ar-article"];
 const short = (s: string, n: number) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
 const Code: React.FC<{ tag: string; value: string; on: number; ltr?: boolean }> = ({ tag, value, on, ltr }) => (
-  <div style={{ opacity: on, transform: `translateX(${(1 - on) * -60}px)`, ...glass(true, 18), padding: "22px 28px", marginBottom: 22, width: 640 }}>
-    <div style={{ fontFamily: "monospace", fontSize: 21, color: C.rose, letterSpacing: 0.5 }}>{tag}</div>
-    <div style={{ fontFamily: ltr ? F.sans : F.arBody, fontSize: ltr ? 22 : 27, color: C.onDark, marginTop: 8, direction: ltr ? "ltr" : "rtl", lineHeight: 1.45 }}>{value}</div>
+  <div style={{ opacity: on, transform: `translateX(${(1 - on) * -60}px)`, ...glass(false, 18), padding: "22px 28px", marginBottom: 22, width: 640 }}>
+    <div style={{ fontFamily: "monospace", fontSize: 21, color: C.rose600, letterSpacing: 0.5 }}>{tag}</div>
+    <div style={{ fontFamily: ltr ? F.sans : F.arBody, fontSize: ltr ? 22 : 27, color: C.ink, marginTop: 8, direction: ltr ? "ltr" : "rtl", lineHeight: 1.45 }}>{value}</div>
   </div>
 );
 const types = ["Article", "MedicalWebPage", "FAQPage", "BreadcrumbList", "MedicalOrganization", "WebSite", "reviewedBy ✓"];
 const query = "إمتى مونجارو يبدأ مفعوله";
 const faqs = ["امتى مونجارو يبدأ مفعوله على الشهية؟", "ليه الوزن بينزل أسبوع ويثبت أسبوع على مونجارو؟"];
 
-// 50–68 s: the drop. How the articles are built for search: title, meta, canonical, hreflang, schema, a search preview,
+// 50–72 s: the drop. How the articles are built for search: title, meta, canonical, hreflang, schema, a search preview,
 // E-E-A-T signals, then an unexpected zoom out to the whole library.
 export const S9SEO: React.FC = () => {
-  const { t, g } = useT(50);
+  const { t: T, g } = useT(50);
   const { fps } = useVideoConfig();
   const sp = (at: number) => (t < at ? 0 : spring({ frame: (t - at) * fps, fps, config: { damping: 13, stiffness: 210 } }));
   const p = pulseAt(g);
-  const part = t < 1 ? "A" : t < 4 ? "B" : t < 6 ? "C" : t < 8 ? "D" : t < 10 ? "E" : t < 12 ? "F" : t < 14 ? "H" : t < 16 ? "I" : "G";
+  // new timeline (s from 50): A 0–1, B 1–4, C 4–6, D 6–9.5, E 9.5–13.5, F 13.5–16, H 16–18, I 18–20, G 20–22.
+  // Each part keeps its original choreography clock `t`; the longer slots are holds so the viewer can read.
+  const part = T < 1 ? "A" : T < 4 ? "B" : T < 6 ? "C" : T < 9.5 ? "D" : T < 13.5 ? "E" : T < 16 ? "F" : T < 18 ? "H" : T < 20 ? "I" : "G";
+  const t = part === "E" ? T - 1.5 : part === "F" ? T - 3.5 : part === "H" || part === "I" ? T - 4 : part === "G" ? T - 8 : T;
+  const light = part === "B" || part === "C" || part === "H" || part === "I";
   const head = (ar: string, en: string) => (
     <div style={{ position: "absolute", left: 70, top: 56, display: "flex", gap: 22, alignItems: "baseline" }}>
-      <span style={{ fontFamily: F.sans, fontSize: 20, letterSpacing: 6, color: C.champ }}>{en}</span>
-      <span style={{ fontFamily: F.arBody, fontSize: 24, color: C.onDarkMute }}>{ar}</span>
+      <span style={{ fontFamily: F.sans, fontSize: 20, letterSpacing: 6, color: light ? C.champ700 : C.champ }}>{en}</span>
+      <span style={{ fontFamily: F.arBody, fontSize: 24, color: light ? C.inkMuted : C.onDarkMute }}>{ar}</span>
     </div>
   );
   return (
     <AbsoluteFill>
-      <Background g={g} mode={part === "E" ? "night" : "dark"} />
+      <Background g={g} mode={light ? "paper" : part === "E" ? "night" : "dark"} />
       <AbsoluteFill style={{ background: C.champ300, opacity: tw(t, [0, 0.35], [0.9, 0]) , zIndex: 50, pointerEvents: "none" }} />
       {part === "A" && (
         <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", flexDirection: "column", transform: `scale(${1.3 - 0.3 * tw(t, [0, 0.3], [0, 1]) + t * 0.05})` }}>
@@ -68,11 +72,11 @@ export const S9SEO: React.FC = () => {
             {[["ar-article", "/ar/articles/…", "hreflang=\"ar\""], ["en-article", "/en/articles/…", "hreflang=\"en\""]].map(([n, u, h], i) => (
               <div key={n} style={{ position: "absolute", left: xs[i] + 0, top: 200 + tw(t, [4, 4.4], [700, 0], expo) * (i ? 1.2 : 1), transform: `rotateY(${Math.sin(sw * Math.PI) * 25}deg)` }}>
                 <Browser w={820} h={600} url={"laroseclinics.com" + u}><Shot name={n as never} width={820} scroll={60} /></Browser>
-                <div style={{ marginTop: 22, textAlign: "center", fontFamily: "monospace", fontSize: 26, color: C.champ }}><Glow g={g} strength={0.8}>{h}</Glow></div>
+                <div style={{ marginTop: 22, textAlign: "center", fontFamily: "monospace", fontSize: 26, color: C.champ700 }}><Glow g={g} strength={0.8}>{h}</Glow></div>
               </div>
             ))}
-            <div style={{ position: "absolute", top: 470, width: "100%", textAlign: "center", fontSize: 70, color: C.onDark, opacity: tw(t, [4.3, 4.5], [0, 1]) }}><Glow g={g}>⇄</Glow></div>
-            <div style={{ position: "absolute", bottom: 50, width: "100%", textAlign: "center", fontFamily: "monospace", fontSize: 24, color: C.onDarkMute, opacity: tw(t, [4.5, 4.8], [0, 1]) }}>x-default → /ar/</div>
+            <div style={{ position: "absolute", top: 470, width: "100%", textAlign: "center", fontSize: 70, color: C.ink, opacity: tw(t, [4.3, 4.5], [0, 1]) }}><Glow g={g}>⇄</Glow></div>
+            <div style={{ position: "absolute", bottom: 50, width: "100%", textAlign: "center", fontFamily: "monospace", fontSize: 24, color: C.inkMuted, opacity: tw(t, [4.5, 4.8], [0, 1]) }}>x-default → /ar/</div>
           </>
         );
       })()}
@@ -136,13 +140,13 @@ export const S9SEO: React.FC = () => {
         return (
           <>
             {head("روابط نظيفة وخريطة موقع واضحة", "CLEAN URLS · SITEMAP · ROBOTS")}
-            <div style={{ position: "absolute", top: 190, width: "100%", textAlign: "center", fontFamily: F.graphik, fontSize: 44, color: C.onDark, direction: "ltr", opacity: tw(t, [12, 12.15], [0, 1]) }}>
+            <div style={{ position: "absolute", top: 190, width: "100%", textAlign: "center", fontFamily: F.graphik, fontSize: 44, color: C.ink, direction: "ltr", opacity: tw(t, [12, 12.15], [0, 1]) }}>
               <Glow g={g} strength={0.6}>laroseclinics.com/ar/articles/mounjaro-results-timeline-what-to-expect</Glow>
               <span style={{ display: "inline-block", overflow: "hidden", verticalAlign: "bottom", maxWidth: 140 * gone, color: C.rose, position: "relative", opacity: gone }}>
                 .html<span style={{ position: "absolute", left: 0, top: "52%", height: 4, width: `${strike * 100}%`, background: C.rose }} />
               </span>
             </div>
-            <div style={{ position: "absolute", top: 320, left: 160, width: 980, ...glass(true, 22), padding: "26px 32px", fontFamily: "monospace", fontSize: 22, lineHeight: 1.6, color: C.onDarkMute, direction: "ltr", overflow: "hidden", height: 560 }}>
+            <div style={{ position: "absolute", top: 320, left: 160, width: 980, ...glass(true, 22), background: "rgba(35,36,26,.92)", padding: "26px 32px", fontFamily: "monospace", fontSize: 22, lineHeight: 1.6, color: C.onDarkMute, direction: "ltr", overflow: "hidden", height: 560 }}>
               <div style={{ color: C.champ, marginBottom: 8 }}>sitemap.xml · 643 URLs</div>
               <div style={{ transform: `translateY(${-tw(t, [12.9, 14], [0, 120], inOut)}px)` }}>
                 {locs.map((l, i) => (
@@ -152,7 +156,7 @@ export const S9SEO: React.FC = () => {
                 ))}
               </div>
             </div>
-            <div style={{ position: "absolute", top: 320, left: 1180, width: 600, ...glass(true, 22), padding: "26px 32px", fontFamily: "monospace", fontSize: 24, lineHeight: 1.7, color: C.onDarkMute, direction: "ltr" }}>
+            <div style={{ position: "absolute", top: 320, left: 1180, width: 600, ...glass(true, 22), background: "rgba(35,36,26,.92)", padding: "26px 32px", fontFamily: "monospace", fontSize: 24, lineHeight: 1.7, color: C.onDarkMute, direction: "ltr" }}>
               <div style={{ color: C.champ, marginBottom: 8 }}>robots.txt</div>
               {robots.map((l, i) => <div key={i} style={{ opacity: tw(t, [13.0 + i * 0.08, 13.1 + i * 0.08], [0, 1]), color: l.startsWith("Sitemap") ? C.champ300 : undefined, minHeight: 20 }}>{l}</div>)}
             </div>
@@ -175,17 +179,17 @@ export const S9SEO: React.FC = () => {
             </div>
             <div style={{ position: "absolute", left: 960 - 110, top: 930, padding: "16px 44px", borderRadius: 99, background: "#454832", color: C.onDark, fontFamily: F.arBody, fontSize: 28,
               transform: `scale(${sp(14.25) * (1 - 0.08 * press)})` }}>مشاركة ↗</div>
-            <div style={{ position: "absolute", right: 120, top: 330, fontFamily: "monospace", fontSize: 22, lineHeight: 2, color: C.champ, direction: "ltr", textAlign: "left", opacity: tw(t, [14.3, 14.6], [0, 1]) }}>
+            <div style={{ position: "absolute", right: 120, top: 330, fontFamily: "monospace", fontSize: 22, lineHeight: 2, color: C.champ700, direction: "ltr", textAlign: "left", opacity: tw(t, [14.3, 14.6], [0, 1]) }}>
               {["og:title", "og:description", "og:image", "og:url", "og:locale = ar_EG"].map((x) => <div key={x}>{x}</div>)}
             </div>
           </>
         );
       })()}
       {(part === "F" || part === "G") && (() => {
-        const u = part === "G" ? t - 4 : t;
-        const zo = tw(u, [12, 12.6], [0, 1], expo) * 0.62 + tw(u, [13, 13.6], [0, 1], expo) * 0.2; // camera pull-back amount
+        const u = t;
+        const zo = part === "G" ? tw(u, [12, 12.6], [0, 1], expo) * 0.62 + tw(u, [13, 13.6], [0, 1], expo) * 0.2 : 0; // camera pull-back amount
         const s = 1 - zo;
-        const scroll = tw(u, [10, 13], [0, 2600], inOut);
+        const scroll = part === "F" ? tw(u, [10, 12.5], [0, 1700], inOut) : tw(u, [12, 13.5], [1700, 2600], inOut);
         const badges = [
           ["كتابة د. شيماء فؤاد · مراجعة طبية د. علياء سعيد أبوطالب", "AUTHOR + MEDICAL REVIEWER"],
           ["مصادر طبية مرقّمة  [1] [2] [3]", "NUMBERED MEDICAL SOURCES"],
@@ -197,7 +201,7 @@ export const S9SEO: React.FC = () => {
           <>
             {part === "F" && head("ثقة ومصادر في كل صفحة", "E-E-A-T · TRUST SIGNALS")}
             <AbsoluteFill style={{ transform: `translate(960px,540px) scale(${s}) translate(-960px,-540px)`, transformOrigin: "0 0" }}>
-              <div style={{ position: "absolute", left: 960, top: 540 }}><CoverWall reveal={tw(u, [12, 13.2], [0, 1.4], (x) => x)} /></div>
+              <div style={{ position: "absolute", left: 960, top: 540 }}><CoverWall reveal={part === "G" ? tw(u, [12, 13.2], [0, 1.4], (x) => x) : 0} /></div>
               <Phone w={330} style={{ left: 960 - 177, top: 540 - 380 }}>
                 <Shot name="m-ar-article" width={330} scroll={scroll} />
               </Phone>
@@ -206,7 +210,7 @@ export const S9SEO: React.FC = () => {
               const s2 = sp(10 + i * 0.5);
               const side = i % 2 ? 1 : -1;
               return (
-                <div key={i} style={{ position: "absolute", top: 230 + i * 170, [side < 0 ? "right" : "left"]: 90, width: 640, transform: `scale(${s2})`, opacity: Math.min(1, s2 * 2) * tw(u, [11.9, 12.2], [1, 0]),
+                <div key={i} style={{ position: "absolute", top: 230 + i * 170, [side < 0 ? "right" : "left"]: 90, width: 640, transform: `scale(${s2})`, opacity: Math.min(1, s2 * 2) * tw(u, [12.3, 12.5], [1, 0]),
                   textAlign: side < 0 ? "right" : "left" } as React.CSSProperties}>
                   <Chip dark style={{ fontSize: 27, direction: "rtl" }}>{ar}</Chip>
                   <div style={{ fontFamily: F.sans, fontSize: 16, letterSpacing: 5, color: C.champ, marginTop: 10 }}>{en}</div>

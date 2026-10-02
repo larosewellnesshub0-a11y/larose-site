@@ -31,8 +31,8 @@ export const S6Pages: React.FC = () => {
   const [name, ar, enLabel, url] = pages[idx];
   return (
     <AbsoluteFill style={{ transform: `scale(${tw(t, [6.5, 7], [1, 0.94], inOut)})` }}>
-      <Background g={g} mode="olive" />
-      <div style={{ position: "absolute", left: 70, top: 60, fontFamily: F.sans, fontSize: 20, letterSpacing: 6, color: C.champ }}>{trio < 0.5 ? "PAGES · الصفحات" : "EVERY SCREEN · كل الشاشات"}</div>
+      <Background g={g} mode="paper" />
+      <div style={{ position: "absolute", left: 70, top: 60, fontFamily: F.sans, fontSize: 20, letterSpacing: 6, color: C.champ700 }}>{trio < 0.5 ? "PAGES · الصفحات" : "EVERY SCREEN · كل الشاشات"}</div>
       <div style={{ position: "absolute", left: bx - bw / 2, top: by - bh / 2, width: bw, height: bh, transform: `scale(${bs}) scaleX(${trio > 0.5 ? flipS : 1})` }}>
         <Browser w={bw} h={bh} url={"laroseclinics.com" + (trio > 0.5 ? (en ? "/en/" : "/ar/") : url)}>
           {trio < 0.02 ? (
@@ -57,13 +57,13 @@ export const S6Pages: React.FC = () => {
       {/* labels */}
       {trio < 0.3 && (
         <div style={{ position: "absolute", bottom: 40, width: "100%", display: "flex", justifyContent: "center", opacity: tw(lt, [0.2, 0.3], [0, 1]), transform: `translateY(${tw(lt, [0.2, 0.32], [16, 0])}px)` }}>
-          <Chip dark><span style={{ fontFamily: F.arDisplay, fontSize: 32 }}><Glow g={g} strength={0.7}>{ar}</Glow></span><span style={{ fontFamily: F.sans, fontSize: 18, letterSpacing: 4, color: C.champ }}>{enLabel}</span></Chip>
+          <Chip><span style={{ fontFamily: F.arDisplay, fontSize: 32 }}><Glow g={g} strength={0.7}>{ar}</Glow></span><span style={{ fontFamily: F.sans, fontSize: 18, letterSpacing: 4, color: C.champ700 }}>{enLabel}</span></Chip>
         </div>
       )}
       {trio > 0.5 && (
-        <div style={{ position: "absolute", bottom: 46, width: "100%", textAlign: "center", fontFamily: F.arDisplay, fontSize: 46, color: C.onDark, opacity: tw(t, [4.5, 4.8], [0, 1]) }}>
+        <div style={{ position: "absolute", bottom: 46, width: "100%", textAlign: "center", fontFamily: F.arDisplay, fontSize: 46, color: C.ink, opacity: tw(t, [4.5, 4.8], [0, 1]) }}>
           <Glow g={g}><span style={{ opacity: en ? 0.45 : 1 }}>عربي</span>  ⇄  <span style={{ fontFamily: F.display, opacity: en ? 1 : 0.45 }}>English</span></Glow>
-          <div style={{ fontFamily: F.sans, fontSize: 18, letterSpacing: 6, color: C.champ, marginTop: 6 }}>RTL · LTR · DESKTOP · TABLET · MOBILE</div>
+          <div style={{ fontFamily: F.sans, fontSize: 18, letterSpacing: 6, color: C.champ700, marginTop: 6 }}>RTL · LTR · DESKTOP · TABLET · MOBILE</div>
         </div>
       )}
     </AbsoluteFill>
