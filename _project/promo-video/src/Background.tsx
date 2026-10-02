@@ -1,5 +1,5 @@
 import React from "react";
-import { useCurrentFrame } from "remotion";
+import { useCurrentFrame, useVideoConfig } from "remotion";
 import { C, breathAt, pulseAt, barAt } from "./lib";
 
 export const archPath = (w: number, h: number) =>
@@ -11,6 +11,7 @@ const BASE: Record<Mode, [string, string]> = {
 };
 
 /** emitters: times (global s) at which a new arch ripple is born */
+export type Clock = { pulse: (t: number) => number; bar: (t: number) => number; emit: (t: number) => number[] };
 const emitters = (g: number) => {
   const out: number[] = [];
   const add = (a: number, b: number, step: number) => { for (let t = a; t < b; t += step) if (t <= g && g - t < 2.2) out.push(t); };
@@ -18,15 +19,16 @@ const emitters = (g: number) => {
   return out;
 };
 
-export const Background: React.FC<{ g: number; mode?: Mode; grid?: number; ripples?: number; dial?: boolean }> = ({ g, mode = "dark", grid = 1, ripples = 1, dial = true }) => {
+export const Background: React.FC<{ g: number; mode?: Mode; grid?: number; ripples?: number; dial?: boolean; clock?: Clock }> = ({ g, mode = "dark", grid = 1, ripples = 1, dial = true, clock }) => {
   const frame = useCurrentFrame();
+  const { width: W, height: H } = useVideoConfig();
   const [bg, line] = BASE[mode];
-  const p = pulseAt(g); const br = breathAt(g); const bar = barAt(g);
+  const p = (clock?.pulse ?? pulseAt)(g); const br = breathAt(g); const bar = (clock?.bar ?? barAt)(g);
   const cell = 96;
   const off = (g * 14) % cell;
   const gridOp = (mode === "paper" ? 0.07 : 0.06) + 0.1 * p + 0.03 * br;
-  const W = 1920, H = 1080;
   const lines: React.ReactNode[] = [];
+  const cols = Math.ceil(W / cell) + 1, rows = Math.ceil(H / cell) + 1;
   for (let x = -cell; x < W + cell; x += cell) lines.push(<line key={"x" + x} x1={x + off} y1={0} x2={x + off} y2={H} />);
   for (let y = -cell; y < H + cell; y += cell) lines.push(<line key={"y" + y} x1={0} y1={y + off * 0.5} x2={W} y2={y + off * 0.5} />);
   const ticks: React.ReactNode[] = [];
@@ -40,14 +42,14 @@ export const Background: React.FC<{ g: number; mode?: Mode; grid?: number; rippl
         <g stroke={line} strokeWidth={1} opacity={gridOp * grid} transform={`translate(${W / 2} ${H / 2}) scale(${1 + 0.012 * p}) translate(${-W / 2} ${-H / 2})`}>{lines}</g>
         {/* grid intersections light up on the bar */}
         <g fill={line} opacity={(0.1 + 0.5 * bar) * grid}>
-          {Array.from({ length: 21 * 12 }).map((_, i) => {
-            const cx = (i % 21) * cell + off; const cy = Math.floor(i / 21) * cell + off * 0.5;
+          {Array.from({ length: cols * rows }).map((_, i) => {
+            const cx = (i % cols) * cell + off; const cy = Math.floor(i / cols) * cell + off * 0.5;
             const on = Math.sin(i * 12.9898 + Math.floor(g * 2) * 78.233) > 0.6;
             return on ? <rect key={i} x={cx - 2} y={cy - 2} width={4} height={4} /> : null;
           })}
         </g>
         <g transform={`translate(${W / 2} ${H / 2})`} fill="none" stroke={line}>
-          {emitters(g).map((t0) => {
+          {(clock?.emit ?? emitters)(g).map((t0) => {
             const age = g - t0; const s = 0.35 + age * 1.25;
             return <path key={t0} d={archPath(360, 480)} transform={`scale(${s})`} strokeWidth={1.5 / s} opacity={Math.max(0, (1 - age / 2.2)) * 0.45 * ripples} />;
           })}

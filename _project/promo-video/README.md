@@ -47,3 +47,21 @@ music. If you move a scene, move its SFX in `music.py` (the `ev` list) too.
 
 The numbers on screen come from the built site/content, as of 2026-10-01: 10 specialties, 4 doctors, 2 open branches, 269
 articles per language, 643 sitemap URLs and 6 FAQ entries in the featured article's schema. The search result is an illustrative preview, not a ranking claim. No prices are shown.
+
+## Reel (vertical, `LaRoseReel`)
+
+An 84-second 1080×1920 reel for social media, built from mobile captures of the Arabic site (with some English), glossy
+material panels (`gloss()` in `src/lib.tsx`, mirroring the site's `--gloss-*` tokens) and its own crisper track.
+
+```bash
+node scripts/capture-reel.mjs && node scripts/capture-reviews.mjs   # mobile captures (fixed bars hidden, redrawn live)
+python3 scripts/reel-music.py public/reel-soundtrack.wav
+npx remotion render LaRoseReel out/larose-reel.mp4 --codec=h264 --crf=18 --browser-executable=…/headless_shell
+```
+
+Hook (0–3) · «جرّب ده» and the link-tap match cut (3) · La Rose Wellness Hub (5) · 18+ / 5+ counters (8) · real-time
+«احجز في 10 ثواني!» with a stopwatch (11–20) and «تم الحجز ✓» (21) · reviews · website offer · WhatsApp · 500+ articles · FAQ ·
+free medical tools · prep (45, the music falls away but never goes silent) · «ولسه…» (48) · drop (51): integrated
+consultation · doctors (only those with portraits) · free 60-recipe book · full 250-recipe book as a gift (key change at 64) ·
+online follow-up · any screen · branches · «اقرا · اسأل · احجز دلوقتي» · logo (80). Scenes live in `src/reel/`; every tap,
+counter and pop has a matching SFX in `scripts/reel-music.py` (`ev`).

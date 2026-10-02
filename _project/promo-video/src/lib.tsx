@@ -122,8 +122,8 @@ export const Tablet: React.FC<{ w: number; children: React.ReactNode; style?: Re
 
 // ---------- text ----------
 /** Text whose glow breathes with the kick. */
-export const Glow: React.FC<{ g: number; color?: string; strength?: number; children: React.ReactNode; style?: React.CSSProperties }> = ({ g, color = C.champ, strength = 1, children, style }) => {
-  const p = pulseAt(g) * strength;
+export const Glow: React.FC<{ g: number; color?: string; strength?: number; pulse?: (t: number) => number; children: React.ReactNode; style?: React.CSSProperties }> = ({ g, color = C.champ, strength = 1, pulse, children, style }) => {
+  const p = (pulse ?? pulseAt)(g) * strength;
   const hex = (a: number) => Math.round(Math.min(1, a) * 255).toString(16).padStart(2, "0");
   return (
     <span style={{ textShadow: `0 0 ${2 + 10 * p}px ${color}${hex(0.5 + 0.5 * p)}, 0 0 ${10 + 40 * p}px ${color}${hex(0.15 + 0.55 * p)}, 0 0 ${60 * p}px ${color}${hex(0.35 * p)}`, ...style }}>
@@ -146,6 +146,16 @@ export const glass = (dark?: boolean, r: number | string = 26): React.CSSPropert
   boxShadow: `inset 0 1px 0 ${dark ? "rgba(255,255,255,.14)" : "rgba(255,255,255,.65)"}, 0 1px 2px rgba(60,54,32,.06), 0 12px 34px rgba(60,54,32,.13)`,
   borderRadius: r,
 });
+
+/** The site's glossy material (components.css --gloss-*): a polished band over the top half, a bright rim, a deep soft
+ * shadow — Apple-style material glass. Panels only; backgrounds stay gradient-free. */
+export const gloss = (dark?: boolean, r: number | string = 32): React.CSSProperties => dark
+  ? { background: "linear-gradient(180deg, rgba(255,255,255,.16) 0%, rgba(255,255,255,.05) 44%, rgba(255,255,255,0) 56%, rgba(255,255,255,.04) 100%), rgba(35,36,26,.58)",
+      backdropFilter: "blur(24px) saturate(180%)", WebkitBackdropFilter: "blur(24px) saturate(180%)", border: "1px solid rgba(246,244,236,.28)",
+      boxShadow: "inset 0 1px 0 rgba(255,255,255,.35), inset 0 -1px 0 rgba(255,255,255,.08), 0 20px 44px -10px rgba(0,0,0,.45), 0 4px 12px rgba(0,0,0,.18)", borderRadius: r }
+  : { background: "linear-gradient(180deg, rgba(255,255,255,.62) 0%, rgba(255,255,255,.22) 44%, rgba(255,255,255,.04) 56%, rgba(255,255,255,.14) 100%), linear-gradient(120deg, rgba(247,236,236,.66) 0%, rgba(255,253,249,.60) 50%, rgba(236,234,214,.64) 100%)",
+      backdropFilter: "blur(24px) saturate(180%) brightness(1.12)", WebkitBackdropFilter: "blur(24px) saturate(180%) brightness(1.12)", border: "1px solid rgba(255,255,255,.75)",
+      boxShadow: "inset 0 1px 0 rgba(255,255,255,1), inset 0 -1px 0 rgba(255,255,255,.45), inset 0 0 0 .5px rgba(255,255,255,.35), 0 20px 44px -10px rgba(35,36,26,.38), 0 4px 12px rgba(35,36,26,.12)", borderRadius: r };
 
 export const Chip: React.FC<{ children: React.ReactNode; dark?: boolean; style?: React.CSSProperties }> = ({ children, dark, style }) => (
   <div style={{ display: "inline-flex", alignItems: "center", gap: 14, padding: "12px 24px", ...glass(dark, 99), color: dark ? C.onDark : C.ink, fontFamily: F.arBody, fontSize: 26, ...style }}>{children}</div>
