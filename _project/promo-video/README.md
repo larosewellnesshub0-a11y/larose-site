@@ -1,19 +1,25 @@
 # La Rose promo video (Remotion)
 
-A 60-second, 1920×1080, 30 fps motion-graphics film about the site's design language. Arabic comes first and English is the counterpart.
+A 90-second, 1920×1080, 30 fps motion-graphics film about the site's design language. Arabic comes first and English is the
+counterpart. The type is Graphik Arabic and Graphik, plus Romelio and Montserrat as on the site. Glass panels use the site's
+own glass tokens.
 
 | Time | Scene |
 |---|---|
-| 0–4 s | A champagne rule draws, the brand arch rises from it, the wordmark appears, and the camera flies through the arch |
-| 4–8 s | Close-up of the Arabic hero H1, a zoom out to the browser, then a second zoom out to a wall of nine pages |
-| 8–14 s | Type specimens on the half-beat (Sondos, Romelio, IBM Plex Sans Arabic, Montserrat), then the hero line word by word and its English version |
-| 14–18 s | The palette as brand arches. The rose dot match-cuts into the rose swatch, then the camera dives into "paper" |
-| 18–24 s | The UI kit: buttons, a cursor booking, the booking card and dropdown, counters, then the light→dark toggle |
-| 24–30 s | Page montage, then desktop + tablet + phone, an AR⇄EN flip, and a tape-stop freeze |
-| 30–37 s | Fake ending: logo and URL, the music almost gone, everything dims |
-| 37–40 s | Build on the snare roll: «استنى. الموقع ده معمول عشان يتلاقي» |
-| 40–54 s | The drop, about SEO: title/meta/canonical, hreflang, JSON-LD, a search preview, trust signals, then a zoom out to the article library |
-| 54–60 s | The library collapses and the logo lands on the final hit |
+| 0–4 s | Real pieces of the site flash through one brand arch, the logo lands on dark olive, a snare fill flies through the arch |
+| 4–8 s | Close-up of the Arabic hero H1, then two surprise zoom outs (browser, then a wall of pages) |
+| 8–14 s | Type specimens on the half-beat, then the hero line word by word and its English version |
+| 14–18 s | The palette as brand arches (a rose-dot match cut in, a dive into "paper" out) |
+| 18–24 s | UI kit: buttons, cursor clicks, a glass booking card over the clinic photo, counters, light→dark |
+| 24–28 s | The BMI calculator in glass: typing, a click, the result counting up |
+| 28–35 s | 8-page montage, then desktop + tablet + phone and an AR⇄EN flip |
+| 35–40 s | Doctors (Dr. Shimaa Sherif's portrait stays empty, per AGENTS.md), then branches, then a tape stop |
+| 40–47 s | Fake ending on dark olive. It stays lit, with no dip to black |
+| 47–50 s | «استنى!» then «الموقع ده كمان SEO Optimized», and a light flash into the drop |
+| 50–68 s | SEO: title/meta/canonical, hreflang, JSON-LD, search preview, trust signals, clean URLs + sitemap + robots, the OG share card, a zoom out to the library |
+| 68–72 s | A kick-less break: glass stat tiles with digital counters |
+| 72–84 s | Finale, up a whole tone: an arch recap, the browser flipping language/theme/page, a tilted wall of pages |
+| 84–90 s | Logo |
 
 ## Rebuild
 
@@ -23,6 +29,8 @@ node ../../server/serve.mjs 4173 &   # serve the built site
 node scripts/capture.mjs             # real screenshots → public/shots, src/seo.json
 mkdir -p public/fonts public/brand public/covers
 cp ../../site/assets/fonts/*.woff2 public/fonts/
+# Licensed brand fonts (not in git, get them from the clinic): Graphik-{Regular,Medium,Bold,Super}.ttf (Latin) and
+# GraphikArabic-{Regular,Medium,Semibold,Bold}.woff2. Without GraphikArabic the video falls back to IBM Plex Sans Arabic.
 cp ../../site/assets/img/logo/{larose-wordmark-white.png,favicon.svg} public/brand/
 cp $(node -e "console.log(require('./src/covers.json').map(f=>'../../site/assets/img/articles/'+f).join(' '))") public/covers/
 pip install numpy scipy
@@ -32,9 +40,9 @@ npx remotion render LaRosePromo out/larose-promo.mp4 --codec=h264 --crf=18 \
   --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell
 ```
 
-Every visual is timed to the beat. 120 BPM gives one beat per 0.5 s, which is 15 frames. `src/lib.tsx` `pulseAt()` mirrors the
+Every visual is timed to the beat (SFX: clicks, mouse clicks on every cursor press, a digital counter under every count-up). 120 BPM gives one beat per 0.5 s, which is 15 frames. `src/lib.tsx` `pulseAt()` mirrors the
 kick/snare schedule in `scripts/music.py`, so the background grid, arch ripples, dial and text glow pulse with the
 music. If you move a scene, move its SFX in `music.py` (the `ev` list) too.
 
-The numbers on screen come from the built site, as of 2026-10-01: 269 articles per language, 643 sitemap URLs and 6 FAQ entries
-in the featured article's schema. The search result is an illustrative preview, not a ranking claim. No prices are shown.
+The numbers on screen come from the built site/content, as of 2026-10-01: 10 specialties, 4 doctors, 2 open branches, 269
+articles per language, 643 sitemap URLs and 6 FAQ entries in the featured article's schema. The search result is an illustrative preview, not a ranking claim. No prices are shown.

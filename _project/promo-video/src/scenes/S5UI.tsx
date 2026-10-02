@@ -1,7 +1,7 @@
 import React from "react";
-import { AbsoluteFill, spring, useVideoConfig } from "remotion";
+import { AbsoluteFill, Img, spring, staticFile, useVideoConfig } from "remotion";
 import { Background } from "../Background";
-import { C, F, Glow, expo, inOut, tw, useT } from "../lib";
+import { C, F, Glow, expo, glass, inOut, tw, useT } from "../lib";
 
 const specialties = ["التغذية العلاجية والإكلينيكية", "إدارة الوزن وبدائل التكميم", "نحت الجسم", "الباطنة العامة", "الكبد والجهاز الهضمي والمناظير", "الروماتيزم والمفاصل"];
 
@@ -23,7 +23,10 @@ export const S5UI: React.FC = () => {
   const cx = tw(t, [1.9, 2.45], [1700, 1610], inOut), cy = tw(t, [1.9, 2.45], [1000, 318], inOut);
   const cx2 = tw(t, [2.6, 2.95], [cx, 1500], inOut), cy2 = tw(t, [2.6, 2.95], [cy, 575], inOut);
   const cx3 = tw(t, [4.6, 4.95], [cx2, 1720], inOut), cy3 = tw(t, [4.6, 4.95], [cy2, 120], inOut);
-  const press = Math.max(tw(t, [2.5, 2.55], [0, 1]) - tw(t, [2.6, 2.7], [0, 1]), 0);
+  // every cursor press (matches the mouse-click SFX at 20.5, 21.0 and 22.95 s)
+  const pressAt = (a: number) => Math.max(tw(t, [a, a + 0.05], [0, 1]) - tw(t, [a + 0.08, a + 0.18], [0, 1]), 0);
+  const press = pressAt(2.5);
+  const cursorPress = Math.max(press, pressAt(3.0), pressAt(4.95));
   const btnUp = tw(t, [3.0, 3.4], [0, 1], expo);
   const cardIn = tw(t, [2.95, 3.35], [0, 1], expo);
   const dd = tw(t, [3.5, 3.7], [0, 1], expo);
@@ -36,8 +39,12 @@ export const S5UI: React.FC = () => {
       <div style={{ position: "absolute", left: 70, top: 60, fontFamily: F.sans, fontSize: 20, letterSpacing: 6, color: D ? C.champ : C.champ700 }}>UI ELEMENTS · عناصر الواجهة</div>
       {/* theme toggle */}
       <div style={{ position: "absolute", right: 170, top: 90, width: 64, height: 64, borderRadius: 32, border: `1.5px solid ${D ? "#444" : "rgba(35,36,26,.2)"}`, background: card,
-        display: "flex", alignItems: "center", justifyContent: "center", fontSize: 30, color: ink, opacity: tw(t, [4.2, 4.5], [0, 1]), transform: `scale(${1 - 0.1 * (tw(t, [4.95, 5.0], [0, 1]) - tw(t, [5.05, 5.15], [0, 1]))})` }}>{D ? "☀" : "☾"}</div>
+        display: "flex", alignItems: "center", justifyContent: "center", fontSize: 30, color: ink, opacity: tw(t, [4.2, 4.5], [0, 1]), transform: `scale(${1 - 0.1 * pressAt(4.95)})` }}>{D ? "☀" : "☾"}</div>
       <AbsoluteFill style={{ transform: `scale(${exit})` }}>
+        {/* the clinic photo in a brand arch, so the glass card has something real to frost */}
+        <div style={{ position: "absolute", left: 110, top: 150 + (1 - cardIn) * 120, width: 700, height: 860, borderRadius: "350px 350px 28px 28px", overflow: "hidden", opacity: cardIn }}>
+          <Img src={staticFile("brand/hero-clinic-1200.webp")} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${1.15 - t * 0.02}) translateX(${t * 8}px)` }} />
+        </div>
         {/* buttons row (RTL) */}
         <div style={{ position: "absolute", top: 280 - btnUp * 160, right: 170, display: "flex", gap: 26, direction: "rtl", transform: `scale(${1 - 0.25 * btnUp})`, transformOrigin: "right top" }}>
           <Btn bg={C.rose600} fg="#fff" s={sp(0)} press={press}>احجز موعدك</Btn>
@@ -49,8 +56,7 @@ export const S5UI: React.FC = () => {
         <div style={{ position: "absolute", left: 1610 - 60, top: 318 - 60, width: 120, height: 120, borderRadius: 99, border: `2px solid ${C.rose}`,
           transform: `scale(${tw(t, [2.5, 2.9], [0.3, 1.8])})`, opacity: tw(t, [2.5, 2.55], [0, 1]) * tw(t, [2.6, 2.9], [1, 0]) }} />
         {/* booking card */}
-        <div style={{ position: "absolute", right: 170, top: 330 + (1 - cardIn) * 80, width: 1580, opacity: cardIn, background: card, borderRadius: 26, padding: "44px 54px", direction: "rtl",
-          boxShadow: "0 1px 2px rgba(60,54,32,.06), 0 24px 60px rgba(60,54,32,.18)", border: `1px solid ${D ? "#2B2C25" : "rgba(212,183,147,.45)"}` }}>
+        <div style={{ position: "absolute", right: 170, top: 330 + (1 - cardIn) * 80, width: 1580, opacity: cardIn, ...glass(D, 26), padding: "44px 54px", direction: "rtl" }}>
           <div style={{ fontFamily: F.arBody, fontSize: 24, color: D ? C.champ : C.champ700, letterSpacing: 1 }}>احجز في دقيقة</div>
           <div style={{ fontFamily: F.arDisplay, fontSize: 52, color: ink, marginTop: 6 }}><Glow g={g} strength={D ? 0.7 : 0.25} color={C.champ}>اختار التخصص والطبيب المناسب لحالتك</Glow></div>
           <div style={{ display: "flex", gap: 22, marginTop: 30, alignItems: "flex-end" }}>
@@ -73,7 +79,7 @@ export const S5UI: React.FC = () => {
           </div>
         </div>
         {/* stats */}
-        <div style={{ position: "absolute", right: 170, top: 760, display: "flex", gap: 110, direction: "rtl", opacity: tw(t, [3.9, 4.1], [0, 1]) }}>
+        <div style={{ position: "absolute", right: 170, top: 740, display: "flex", gap: 90, direction: "rtl", opacity: tw(t, [3.9, 4.1], [0, 1]), ...glass(D, 26), padding: "26px 54px" }}>
           {[[count(10), "تخصصات طبية تحت سقف واحد"], [count(5, 1), "تقييم جوجل"], [count(18) + "+", "سنة خبرة"], [count(1), "زيارة واحدة تكفي لأكتر من تخصص"]].map(([n, l], i) => (
             <div key={i}>
               <div style={{ fontFamily: F.display, fontSize: 96, color: ink, direction: "ltr", textAlign: "right" }}><Glow g={g} strength={D ? 1 : 0.3}>{n}</Glow></div>
@@ -85,7 +91,7 @@ export const S5UI: React.FC = () => {
       </AbsoluteFill>
       {/* cursor */}
       <svg width={40} height={40} viewBox="0 0 24 24" style={{ position: "absolute", left: t < 2.6 ? cx : t < 4.6 ? cx2 : cx3, top: t < 2.6 ? cy : t < 4.6 ? cy2 : cy3, opacity: tw(t, [1.8, 1.95], [0, 1]) * tw(t, [5.2, 5.4], [1, 0]),
-        transform: `scale(${1 - 0.15 * press})`, filter: "drop-shadow(0 4px 6px rgba(0,0,0,.3))" }}>
+        transform: `scale(${1 - 0.18 * cursorPress})`, filter: "drop-shadow(0 4px 6px rgba(0,0,0,.3))" }}>
         <path d="M3 2 L3 19 L8 14.5 L11.5 22 L14.5 20.6 L11 13.4 L18 13.4 Z" fill="#fff" stroke="#111" strokeWidth={1.4} strokeLinejoin="round" />
       </svg>
     </AbsoluteFill>

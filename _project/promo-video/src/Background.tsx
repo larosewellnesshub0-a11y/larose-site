@@ -5,16 +5,16 @@ import { C, breathAt, pulseAt, barAt } from "./lib";
 export const archPath = (w: number, h: number) =>
   `M ${-w / 2} ${h / 2} V ${-h / 2 + w / 2} A ${w / 2} ${w / 2} 0 0 1 ${w / 2} ${-h / 2 + w / 2} V ${h / 2} Z`;
 
-type Mode = "dark" | "paper" | "olive" | "black" | "night";
+type Mode = "dark" | "paper" | "olive" | "black" | "night" | "brand";
 const BASE: Record<Mode, [string, string]> = {
-  dark: [C.olive950, C.champ], paper: [C.paper, C.olive], olive: [C.olive900, C.champ], black: ["#0B0C08", C.champ], night: [C.darkPaper, C.champ],
+  dark: [C.olive950, C.champ], paper: [C.paper, C.olive], olive: [C.olive900, C.champ], black: ["#0B0C08", C.champ], night: [C.darkPaper, C.champ], brand: [C.olive800, C.champ],
 };
 
 /** emitters: times (global s) at which a new arch ripple is born */
 const emitters = (g: number) => {
   const out: number[] = [];
   const add = (a: number, b: number, step: number) => { for (let t = a; t < b; t += step) if (t <= g && g - t < 2.2) out.push(t); };
-  add(0.25, 4, 1); add(4, 29, 1); add(30, 37, 3.5); add(37, 39.75, 0.25); add(40, 56, 0.5); add(56, 60, 1.5);
+  add(0, 2, 0.5); add(2, 4, 1); add(4, 39, 1); add(40, 47, 3.5); add(47, 49.75, 0.25); add(50, 68, 0.5); add(68, 72, 1); add(72, 84, 0.5); add(84, 90, 1.5);
   return out;
 };
 

@@ -1,13 +1,13 @@
-"""Synthesises the 60 s soundtrack + SFX for the La Rose promo.
+"""Synthesises the 90 s soundtrack + SFX for the La Rose promo.
 120 BPM (beat = 0.5 s = 15 frames at 30 fps). Structure:
- 0-4 intro | 4-18 groove A | 18-29 groove B | 29-30 tape stop
- 30-37 fake ending (quiet pad) | 37-40 build | 40-56 drop | 56-60 tail
+ 0-4 intro | 4-20 groove A | 20-39 groove B | 39-40 tape stop | 40-47 fake ending (quiet pad)
+ 47-50 build | 50-68 drop | 68-72 break (counters) | 72-84 finale, key change +2 | 84 final hit, tail to 90
 """
 import numpy as np, json, wave, sys
 from scipy.signal import butter, sosfilt, fftconvolve
 
 SR = 44100
-DUR = 60.0
+DUR = 90.0
 N = int(SR * DUR)
 rng = np.random.default_rng(7)
 BEAT = 0.5
@@ -162,6 +162,32 @@ def sfx_pop():
     f = 500 + 900*(1-np.exp(-t/0.01))
     return np.sin(2*np.pi*np.cumsum(f)/SR) * np.exp(-t/0.02) * 0.5
 
+def sfx_mouse():
+    """Crisp mouse click: sharp press, then a lighter, higher release 70 ms later."""
+    n = int(0.12*SR); y = np.zeros(n)
+    def part(freq, g, dec):
+        m = int(0.02*SR); t = T(m)
+        return (hp(rng.standard_normal(m), 4000, 4) * np.exp(-t/0.0007) * 1.0
+                + np.sin(2*np.pi*freq*t) * np.exp(-t/dec) * 0.6
+                + np.sin(2*np.pi*freq*2.7*t) * np.exp(-t/(dec*0.5)) * 0.3) * g
+    a = part(2300, 1.0, 0.004); y[:len(a)] += a
+    i = int(0.07*SR); b = part(3100, 0.55, 0.003); y[i:i+len(b)] += b
+    return y
+
+def sfx_counter(dur):
+    """Digital counter: a run of tiny square-wave blips that speeds up then settles, pitch rising."""
+    n = int((dur + 0.05)*SR); y = np.zeros(n); t = 0.0; k = 0
+    while t < dur:
+        m = int(0.007*SR); tt = T(m); f = 2600 + 900 * (t / dur)
+        blip = np.sign(np.sin(2*np.pi*f*tt)) * np.exp(-tt/0.0025) * 0.35
+        i = int(t*SR); y[i:i+m] += blip[: n-i]
+        rate = 22 + 18 * np.sin(np.pi * min(1, t/dur))
+        t += 1.0 / rate; k += 1
+    m = int(0.06*SR); tt = T(m)  # settle "ding"
+    end = np.sin(2*np.pi*4200*tt) * np.exp(-tt/0.02) * 0.4
+    i = int(dur*SR) - m // 3; y[i:i+m] += end[: n-i]
+    return y
+
 def sfx_shutter():
     n = int(0.09*SR); y = np.zeros(n)
     for o in (0, 0.035):
@@ -177,26 +203,38 @@ prog = [  # (bass midi, chord, arp tones)
     (43, [55, 59, 62], [67, 71, 74, 71]),
 ]
 def chord_at(t): return prog[int(t // 2) % 4]
+def tr(c, k):
+    b, ch, ar = c; return (b + k, [n + k for n in ch], [n + k for n in ar])
 
-# intro arp 0-4 filtered open
+# intro 0-4: hits from frame one. Kick + clap 0-2 under a filter-opening arp, 2-3.5 lift (no kick, riser),
+# 3.5-4 snare fill into the 4 s impact.
 intro = Bus()
 for i in range(32):
-    t = i * 0.125; b, ch, ar = chord_at(t + 4)  # start on Am
-    intro.add(pluck(ar[i % 4], 0.2), t, 0.5, pan=0.3 if i % 2 else -0.3)
-iL = sweep_lp(intro.L[:4*SR], 250, 7000); iR = sweep_lp(intro.R[:4*SR], 250, 7000)
+    t = i * 0.125; b, ch, ar = chord_at(t + 4)
+    intro.add(pluck(ar[i % 4], 0.2), t, 0.55, pan=0.3 if i % 2 else -0.3)
+iL = sweep_lp(intro.L[:4*SR], 900, 8000); iR = sweep_lp(intro.R[:4*SR], 900, 8000)
 music.L[:4*SR] += iL; music.R[:4*SR] += iR
+music.add(impact(), 0.0, 0.55)
+for t in (0.0, 0.5, 1.0, 1.5):
+    drums.add(kick(), t, 0.9)
+    music.add(bass(45, 0.2, 1.6), t + 0.25, 0.7)
+for t in (0.5, 1.5): drums.add(clap(), t, 0.6)
+for i in range(28): drums.add(hat(), i * 0.125, 0.4 if i % 2 else 0.22, 0.2)
+music.add(stab([57, 60, 64, 69], 0.6, 6000), 2.0, 0.55)
+music.add(pad([57, 60, 64, 69], 2.0, 2500), 2.0, 0.7)
+for t in np.arange(2.0, 3.5, 0.25): music.add(bass(45, 0.12, 1.4), t, 0.45)
 fx.add(noise_riser(2.0), 2.0, 0.45)
-for i in range(8): drums.add(hat(), 2.0 + i*0.25, 0.5, 0.2)
+for i in range(8): drums.add(snare(1.2 + i * 0.08), 3.5 + i * 0.0625, 0.35 + i * 0.07)
 music.add(impact(), 4.0, 0.9)
 
 lead_motif = [76, None, 74, 72, 74, None, 76, 79, 77, None, 76, 74, 72, None, 74, 76,
               79, None, 77, 76, 74, None, 72, 74, 71, None, 72, 74, 76, None, None, None]
 
-def groove(t0, t1, level="A"):
+def groove(t0, t1, level="A", key=0):
     t = t0
     while t < t1 - 1e-6:
         beat_in_bar = round((t % 2) / 0.5)
-        b, ch, ar = chord_at(t)
+        b, ch, ar = tr(chord_at(t), key)
         drums.add(kick(1.3 if level == "D" else 1.0), t, 0.95)
         if beat_in_bar in (1, 3): drums.add(clap(), t, 0.7)
         for s in range(4):
@@ -214,18 +252,17 @@ def groove(t0, t1, level="A"):
         for i, m in enumerate(lead_motif * 4):
             ts = t0 + i * 0.25
             if ts >= t1: break
-            if m is not None: music.add(lead(m + (12 if level == "D" else 0), 0.24), ts, 0.38 if level == "D" else 0.32)
+            if m is not None: music.add(lead(m + key + (12 if level == "D" else 0), 0.24), ts, 0.38 if level == "D" else 0.32)
     if level == "D":
         for bar in np.arange(t0, t1, 2.0):
-            b, ch, ar = chord_at(bar)
+            b, ch, ar = tr(chord_at(bar), key)
             music.add(pad([n + 12 for n in ch], 2.0, 4000), bar, 0.35)
 
-groove(4.0, 18.0, "A")
-groove(18.0, 29.5, "B")
-fx.add(noise_riser(2.0, 600, 10000), 16.0, 0.35)
-music.add(impact(), 18.0, 0.6)
+groove(4.0, 20.0, "A")
+groove(20.0, 39.5, "B")
+fx.add(noise_riser(2.0, 600, 10000), 18.0, 0.35)
+music.add(impact(), 20.0, 0.6)
 
-# sidechain on music bus from kicks (grooves only)
 def sidechain(bus, kicks, depth=0.6, rel=0.18):
     g = np.ones(N)
     for k in kicks:
@@ -234,50 +271,63 @@ def sidechain(bus, kicks, depth=0.6, rel=0.18):
         g[i:i+n] = np.minimum(g[i:i+n], e[: N-i])
     bus.L *= g; bus.R *= g
 
-kicks = list(np.arange(4, 29.5, 0.5)) + list(np.arange(40, 56, 0.5))
+kicks = [0.0, 0.5, 1.0, 1.5] + list(np.arange(4, 39.5, 0.5)) + list(np.arange(50, 68, 0.5)) + list(np.arange(72, 84, 0.5))
 
-# ---- fake ending 30-37 ----
+# ---- fake ending 40-47: quiet, but it never drops to silence ----
 amb = Bus()
-amb.add(pad([57, 60, 64, 69], 4.0, 900), 30.2, 0.55)
-amb.add(pad([53, 57, 60, 65], 3.6, 700), 33.6, 0.5)
+amb.add(pad([57, 60, 64, 69], 4.0, 900), 40.2, 0.55)
+amb.add(pad([53, 57, 60, 65], 3.6, 700), 43.6, 0.5)
 for i, m in enumerate([76, 72, 69, 67, 64]):
-    amb.add(bell(m, 2.0), 30.6 + i * 1.1, 0.35 * (0.85 ** i), pan=(-0.4 if i % 2 else 0.4))
+    amb.add(bell(m, 2.0), 40.6 + i * 1.1, 0.35 * (0.85 ** i), pan=(-0.4 if i % 2 else 0.4))
 amb.L = reverb(amb.L, 3.0, 0.45); amb.R = reverb(amb.R, 3.1, 0.45)
-fade = np.ones(N); a, b = int(34.0*SR), int(37.2*SR); fade[a:b] = np.linspace(1, 0.12, b-a); fade[b:] = 0.12
-music.L += amb.L * fade; music.R += amb.R * fade
+music.L += amb.L * 0.8; music.R += amb.R * 0.8
 
-# ---- build 37-40 ----
-roll = []
-t = 37.0
-while t < 39.75:
-    roll.append(t)
-    t += 0.25 if t < 38.0 else (0.125 if t < 39.0 else 0.0625)
-for i, t in enumerate(roll):
-    p = (t - 37.0) / 2.75
+# ---- build 47-50 ----
+t = 47.0
+while t < 49.75:
+    p = (t - 47.0) / 2.75
     drums.add(snare(1.0 + p * 0.8), t, 0.25 + 0.55 * p)
-for t in np.arange(37.0, 39.5, 0.5): drums.add(kick(0.8), t, 0.5 + 0.2*(t-37))
-fx.add(noise_riser(2.75, 300, 12000), 37.0, 0.6)
-b = Bus(); b.add(pad([57, 60, 64], 2.75, 3000), 37.0, 0.4)
-music.L += sweep_lp(b.L, 200, 8000) if False else b.L; music.R += b.R
+    t += 0.25 if t < 48.0 else (0.125 if t < 49.0 else 0.0625)
+for t in np.arange(47.0, 49.5, 0.5): drums.add(kick(0.8), t, 0.5 + 0.2*(t-47))
+fx.add(noise_riser(2.75, 300, 12000), 47.0, 0.6)
+b = Bus(); b.add(pad([57, 60, 64], 2.75, 3000), 47.0, 0.4)
+music.L += b.L; music.R += b.R
 
-# ---- drop 40-56 ----
-music.add(impact(), 40.0, 1.0)
-groove(40.0, 56.0, "D")
-fx.add(noise_riser(1.5, 600, 10000), 54.5, 0.35)
+# ---- drop 50-68 ----
+music.add(impact(), 50.0, 1.0)
+groove(50.0, 68.0, "D")
 
-# ---- tail 56-60 ----
-music.add(impact(), 56.0, 1.0)
+# ---- break 68-72: no kick, filtered arp opening, bass eighths, claps from 70, riser + roll into the key change ----
+brk = Bus()
+for i in range(32):
+    t = 68 + i * 0.125; bb, ch, ar = chord_at(t)
+    brk.add(pluck(ar[i % 4] + 12, 0.16, 6000), t, 0.4, pan=-0.3 if i % 2 else 0.3)
+brk.add(pad([57, 60, 64, 69], 4.0, 2500), 68.0, 0.6)
+i0, i1 = int(68*SR), int(72*SR)
+music.L[i0:i1] += sweep_lp(brk.L[i0:i1], 500, 9000); music.R[i0:i1] += sweep_lp(brk.R[i0:i1], 500, 9000)
+for t in np.arange(68.0, 72.0, 0.25): music.add(bass(45, 0.12, 1.4), t, 0.4)
+for t in np.arange(70.0, 72.0, 0.5): drums.add(clap(), t, 0.6)
+for t in np.arange(68.0, 71.5, 0.25): drums.add(hat(), t, 0.3)
+fx.add(noise_riser(2.0, 500, 12000), 70.0, 0.55)
+for i in range(8): drums.add(snare(1.2 + i * 0.08), 71.5 + i * 0.0625, 0.35 + i * 0.07)
+
+# ---- finale 72-84, up a whole tone ----
+music.add(impact(), 72.0, 1.0)
+groove(72.0, 84.0, "D", key=2)
+for i in range(8): drums.add(snare(1.3 + i * 0.08), 83.5 + i * 0.0625, 0.35 + i * 0.07)
+
+# ---- tail 84-90 (B minor) ----
+music.add(impact(), 84.0, 1.0)
 tail = Bus()
-tail.add(stab([57, 60, 64, 69, 72], 1.2, 7000), 56.0, 0.9)
-tail.add(bass(33, 1.4, 1.2), 56.0, 0.9)
-for i, m in enumerate([81, 76, 72, 69, 64, 60]):
-    tail.add(bell(m, 2.0), 56.5 + i*0.25, 0.3)
+tail.add(stab([59, 62, 66, 71, 74], 1.2, 7000), 84.0, 0.9)
+tail.add(bass(35, 1.4, 1.2), 84.0, 0.9)
+for i, m in enumerate([83, 78, 74, 71, 66, 62]):
+    tail.add(bell(m, 2.0), 84.5 + i*0.25, 0.3)
 tail.L = reverb(tail.L, 3.5, 0.5); tail.R = reverb(tail.R, 3.6, 0.5)
 music.L += tail.L; music.R += tail.R
 
 sidechain(music, kicks)
 
-# tape stop 29.0 -> 30.0 on music+drums
 def tape_stop(bus, t0, dur):
     i0 = int(t0*SR); n = int(dur*SR)
     rate = np.linspace(1, 0, n) ** 1.3
@@ -286,32 +336,42 @@ def tape_stop(bus, t0, dur):
         x = getattr(bus, ch)
         seg = np.interp(pos, np.arange(len(x)), x) * np.linspace(1, 0, n) ** 0.5
         x[i0:i0+n] = seg
-        x[i0+n:int(30.15*SR)] = 0  # silence after the stop until the pad
+        x[i0+n:int(40.15*SR)] = 0
 for bus in (music, drums):
-    # keep the 30+ material: tape_stop only zeroes up to 30.15
-    tape_stop(bus, 29.0, 1.0)
+    tape_stop(bus, 39.0, 1.0)
 
-# ---- SFX schedule (matches src/timeline) ----
+# ---- SFX schedule (matches the scenes in src/scenes) ----
 ev = []
-ev += [(0.25, "tick"), (1.0, "whoosh_s"), (2.0, "click")]
-ev += [(2.5 + i*0.125, "tick") for i in range(8)]
-ev += [(5.85, "whoosh"), (6.9, "whoosh")]
-ev += [(8 + i*0.5, "click") for i in range(12)]
-ev += [(14 + i*0.5, "pop") for i in range(6)] + [(17.4, "whoosh")]
-ev += [(18.0, "click"), (18.5, "click"), (19.0, "click"), (19.5, "click"), (20.5, "shutter"), (21.0, "click"), (21.5, "tick"), (22.0, "tick"), (22.25, "tick"), (22.5, "tick"), (22.75, "tick"), (22.95, "click"), (23.5, "whoosh")]
-ev += [(24 + i*0.25, "shutter" if i % 2 == 0 else "tick") for i in range(12)]
-ev += [(27.0, "whoosh"), (28.0, "whoosh_s")]
-ev += [(31.0, "tick"), (33.2, "tick")]
-ev += [(38.0 + i*0.25, "tick") for i in range(6)]
-ev += [(40.0, "shutter"), (41.0, "whoosh"), (41.5, "click"), (42.5, "click"), (43.5, "click"), (45.0, "whoosh")]
-ev += [(46.0 + i*0.25, "pop") for i in range(7)]
-ev += [(48.0 + i*0.0625, "tick") for i in range(24)]
-ev += [(50.0, "click"), (50.5, "click"), (51.0, "click"), (51.5, "click"), (52.0, "whoosh"), (53.0, "whoosh"), (55.5, "whoosh")]
+ev += [(i * 0.25, "shutter" if i % 2 == 0 else "click") for i in range(8)] + [(2.0, "pop"), (2.55, "whoosh_s"), (3.5, "whoosh")]   # intro
+ev += [(5.85, "whoosh"), (6.9, "whoosh")]                                                                                             # home
+ev += [(8 + i*0.5, "click") for i in range(12)]                                                                                      # type
+ev += [(14 + i*0.5, "pop") for i in range(6)] + [(17.4, "whoosh")]                                                                   # colour
+ev += [(18.0, "click"), (18.5, "click"), (19.0, "click"), (19.5, "click"), (20.5, "mouse"), (21.0, "mouse"), (21.5, "tick"),
+       (22.0, "counter0.8"), (22.95, "mouse"), (23.5, "whoosh")]                                                                     # UI
+ev += [(24.0, "pop"), (24.5, "tick"), (24.625, "tick"), (24.75, "tick"), (25.0, "tick"), (25.125, "tick"), (25.5, "mouse"),
+       (25.6, "counter0.8"), (26.45, "pop"), (26.5, "tick"), (27.5, "whoosh")]                                                       # BMI tool
+ev += [(28 + i*0.25, "shutter" if i % 2 == 0 else "tick") for i in range(16)] + [(32.0, "whoosh"), (33.5, "whoosh_s")]               # pages
+ev += [(35 + i*0.25, "pop") for i in range(4)] + [(37.4, "whoosh"), (37.5, "click"), (37.75, "click"), (38.0, "click")]              # doctors, branches
+ev += [(41.0 + i*0.1, "tick") for i in range(6)] + [(43.2, "tick")]                                                                  # fake end
+ev += [(47.0, "shutter")] + [(48.0 + i*0.25, "click") for i in range(5)]                                                             # build
+ev += [(50.0, "shutter"), (51.0, "whoosh"), (51.5, "click"), (52.5, "click"), (53.5, "click"), (54.0, "whoosh"), (55.0, "whoosh")]
+ev += [(56.0 + i*0.25, "pop") for i in range(7)]
+ev += [(58.0 + i*0.0625, "tick") for i in range(24)] + [(59.5, "pop")]
+ev += [(60.0, "click"), (60.5, "click"), (61.0, "click"), (61.5, "click")]
+ev += [(62.0, "click"), (62.5, "tick"), (62.7, "whoosh_s")] + [(62.9 + i*0.07, "tick") for i in range(9)]
+ev += [(64.0, "pop"), (64.5, "mouse")]
+ev += [(66.0, "whoosh"), (67.0, "whoosh"), (66.5, "counter1.0")]                                                                     # SEO
+ev += [(68 + i*0.5, "pop") for i in range(6)] + [(68 + i*0.5, "counter0.4") for i in range(6)] + [(71.5, "whoosh")]                # break
+ev += [(72 + i*0.25, "shutter" if i % 4 == 0 else "tick") for i in range(16)]
+ev += [(76 + i*0.5, "click") for i in range(8)] + [(80.0, "whoosh"), (81.0, "whoosh"), (83.5, "whoosh")]                            # finale
+ev += [(84.4, "pop")]
 for t, kind in ev:
+    if kind.startswith("counter"):
+        fx.add(sfx_counter(float(kind[7:])), t, 0.5, pan=0.0); continue
     s = {"tick": sfx_tick, "click": sfx_click, "pop": sfx_pop, "shutter": sfx_shutter,
-         "whoosh": lambda: sfx_whoosh(0.55), "whoosh_s": lambda: sfx_whoosh(0.8)}[kind]()
-    g = {"tick": 0.55, "click": 0.75, "pop": 0.6, "shutter": 0.8, "whoosh": 0.5, "whoosh_s": 0.35}[kind]
-    if 30 <= t < 37: g *= 0.5
+         "whoosh": lambda: sfx_whoosh(0.55), "whoosh_s": lambda: sfx_whoosh(0.8), "mouse": sfx_mouse}[kind]()
+    g = {"tick": 0.55, "click": 0.75, "pop": 0.6, "shutter": 0.8, "whoosh": 0.5, "whoosh_s": 0.35, "mouse": 1.0}[kind]
+    if 40 <= t < 47: g *= 0.5
     if kind.startswith("whoosh"): t -= 0.25
     fx.add(s, t, g, pan=float(rng.uniform(-0.3, 0.3)))
 

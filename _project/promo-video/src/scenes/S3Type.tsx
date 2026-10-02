@@ -1,18 +1,18 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
 import { Background } from "../Background";
-import { C, F, Glow, expo, tw, useT, pulseAt } from "../lib";
+import { AR_FONT_NAME, C, F, Glow, expo, tw, useT, pulseAt } from "../lib";
 
 type Card = { big: React.ReactNode; font: string; size: number; rtl?: boolean; label: string; sub: string; weight?: number };
 const cards: Card[] = [
-  { big: "سندس", font: F.arDisplay, size: 330, rtl: true, label: "Sondos", sub: "عناوين عربي · Arabic display" },
-  { big: "لاروز", font: F.arDisplay, size: 330, rtl: true, label: "Sondos", sub: "عناوين عربي · Arabic display" },
+  { big: "لاروز", font: F.arDisplay, size: 330, rtl: true, label: AR_FONT_NAME, sub: "الخط العربي · Arabic typeface" },
+  { big: "أبجد هوز", font: F.arDisplay, size: 290, rtl: true, label: AR_FONT_NAME, sub: "عربي أولاً · Arabic first" },
   { big: "Aa", font: F.display, size: 420, label: "Romelio", sub: "English display · عناوين إنجليزي" },
   { big: "La Rose", font: F.display, size: 300, label: "Romelio", sub: "English display · عناوين إنجليزي" },
-  { big: "التغذية العلاجية", font: F.arBody, size: 170, rtl: true, weight: 400, label: "IBM Plex Sans Arabic", sub: "النصوص العربية · Arabic text" },
-  { big: "إدارة الوزن", font: F.arBody, size: 200, rtl: true, weight: 600, label: "IBM Plex Sans Arabic", sub: "400 · 500 · 600" },
+  { big: "التغذية العلاجية", font: F.arBody, size: 170, rtl: true, weight: 400, label: AR_FONT_NAME, sub: "النصوص العربية · Arabic text" },
+  { big: "إدارة الوزن", font: F.arBody, size: 200, rtl: true, weight: 600, label: AR_FONT_NAME, sub: "400 · 500 · 600" },
+  { big: "Graphik", font: F.graphik, size: 230, weight: 700, label: "Graphik", sub: "Regular · Medium · Bold · Super" },
   { big: "Montserrat", font: F.sans, size: 190, weight: 500, label: "Montserrat", sub: "Body & UI · النص الإنجليزي" },
-  { big: "0123 · 5.0", font: F.sans, size: 190, weight: 400, label: "Montserrat", sub: "Numerals · الأرقام" },
 ];
 const arWords = ["حالتك", "أكبر", "من", "رأي", "تخصص", "واحد"];
 
@@ -54,7 +54,7 @@ export const S3Type: React.FC = () => {
                 <Glow g={g} strength={lit ? 1.4 : 0.6}>{w}</Glow></span>;
             })}
           </div>
-          <div style={{ position: "absolute", bottom: 120, fontFamily: F.sans, letterSpacing: 6, fontSize: 22, color: C.champ }}>HERO · H1 · SONDOS 400</div>
+          <div style={{ position: "absolute", bottom: 120, fontFamily: F.sans, letterSpacing: 6, fontSize: 22, color: C.champ }}>HERO · H1</div>
         </AbsoluteFill>
       )}
       {idx >= 10 && (

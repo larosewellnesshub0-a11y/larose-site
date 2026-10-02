@@ -1,5 +1,5 @@
 import React from "react";
-import { Easing, Img, interpolate, random, staticFile, useCurrentFrame } from "remotion";
+import { Easing, Img, getStaticFiles, interpolate, random, staticFile, useCurrentFrame } from "remotion";
 import { loadFont } from "@remotion/fonts";
 import shots from "./shots.json";
 
@@ -7,23 +7,39 @@ export const FPS = 30;
 export const C = {
   olive: "#8E8B63", olive950: "#23241A", olive900: "#333524", olive800: "#454832", olive700: "#5C5F3F",
   olive100: "#E7E6CF", olive050: "#F3F2E6", sage: "#D6D4AD",
-  rose: "#CB8587", rose600: "#B96F72", rose200: "#EDDADA",
+  rose: "#CB8587", rose600: "#B96F72", rose300: "#E2B6B7", rose200: "#EDDADA",
   champ: "#D4B793", champ700: "#7E6340", champ300: "#EBDCC8",
   paper: "#FBF9F4", paperSunk: "#F4F1E8", ink: "#23241A", inkStrong: "#1A1B12", inkMuted: "#5F6150",
   onDark: "#F6F4EC", onDarkMute: "#C9C9B4", darkPaper: "#121310", darkRaised: "#1B1C18",
   whatsapp: "#1FA855",
 };
 export const F = {
-  arDisplay: '"Sondos", "IBM Plex Sans Arabic", sans-serif',
-  arBody: '"IBM Plex Sans Arabic", sans-serif',
+  // Graphik (Latin only — the supplied files have no Arabic glyphs) first; Arabic letters fall through to LR Arabic.
+  arDisplay: '"Graphik", "LR Arabic Display", sans-serif',
+  arBody: '"Graphik", "LR Arabic", sans-serif',
+  graphik: '"Graphik", sans-serif',
   display: '"Romelio", serif',
   sans: '"Montserrat", sans-serif',
 };
+// The brand's Arabic face is Graphik Arabic, which is not licensed/supplied for the site (site.css), so the site
+// renders IBM Plex Sans Arabic. Drop GraphikArabic-Regular / -Medium / -Semibold (.woff2/.otf/.ttf) into public/fonts
+// and the video switches to it automatically.
+const files = getStaticFiles().map((f) => f.name);
+const graphik = (w: string) => files.find((n) => /^fonts\/GraphikArabic-/i.test(n) && n.toLowerCase().includes(w));
+export const HAS_GRAPHIK = !!graphik("regular");
+export const AR_FONT_NAME = HAS_GRAPHIK ? "Graphik Arabic" : "IBM Plex Sans Arabic";
+const arFiles: [string, string, string][] = HAS_GRAPHIK
+  ? [["LR Arabic", graphik("regular")!, "400"], ["LR Arabic", (graphik("medium") ?? graphik("regular"))!, "500"], ["LR Arabic", (graphik("semibold") ?? graphik("medium") ?? graphik("regular"))!, "600"],
+     ["LR Arabic Display", (graphik("medium") ?? graphik("regular"))!, "400"], ["LR Arabic Display", (graphik("semibold") ?? graphik("medium"))!, "600"]]
+  : [["LR Arabic", "fonts/PlexArabic-400.woff2", "400"], ["LR Arabic", "fonts/PlexArabic-500.woff2", "500"], ["LR Arabic", "fonts/PlexArabic-600.woff2", "600"],
+     ["LR Arabic Display", "fonts/PlexArabic-600.woff2", "400"]];
 for (const [family, file, weight] of [
-  ["Sondos", "Sondos-400", "400"], ["Romelio", "Romelio-400", "400"],
-  ["Montserrat", "Montserrat-400", "400"], ["Montserrat", "Montserrat-500", "500"], ["Montserrat", "Montserrat-600", "600"],
-  ["IBM Plex Sans Arabic", "PlexArabic-400", "400"], ["IBM Plex Sans Arabic", "PlexArabic-500", "500"], ["IBM Plex Sans Arabic", "PlexArabic-600", "600"],
-]) loadFont({ family, url: staticFile(`fonts/${file}.woff2`), weight });
+  ["Romelio", "fonts/Romelio-400.woff2", "400"],
+  ["Graphik", "fonts/Graphik-Regular.ttf", "400"], ["Graphik", "fonts/Graphik-Medium.ttf", "500"],
+  ["Graphik", "fonts/Graphik-Bold.ttf", "700"], ["Graphik", "fonts/Graphik-Super.ttf", "900"],
+  ["Montserrat", "fonts/Montserrat-400.woff2", "400"], ["Montserrat", "fonts/Montserrat-500.woff2", "500"], ["Montserrat", "fonts/Montserrat-600.woff2", "600"],
+  ...arFiles,
+]) loadFont({ family, url: staticFile(file), weight });
 
 // ---------- timing ----------
 export const expo = Easing.bezier(0.16, 1, 0.3, 1);
@@ -33,16 +49,19 @@ export const easeIn = Easing.bezier(0.6, 0, 0.9, 0.4);
 export const tw = (t: number, inp: number[], out: number[], easing = expo) =>
   interpolate(t, inp, out, { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing });
 
-const GROOVES: [number, number][] = [[4, 29], [40, 56]];
-const ROLL: number[] = (() => { const r: number[] = []; let t = 37; while (t < 39.75) { r.push(t); t += t < 38 ? 0.25 : t < 39 ? 0.125 : 0.0625; } return r; })();
-const HITS = [4, 18, 40, 56];
+const GROOVES: [number, number][] = [[0, 2], [4, 39], [50, 68], [72, 84]];
+const ROLL: number[] = (() => { const r: number[] = []; let t = 47; while (t < 49.75) { r.push(t); t += t < 48 ? 0.25 : t < 49 ? 0.125 : 0.0625; } return r; })();
+const HITS = [4, 20, 50, 72, 84];
 /** 0..1 envelope that spikes on every kick / snare and decays — the music's pulse. Global seconds. */
 export const pulseAt = (t: number) => {
   let p = 0;
   for (const [a, b] of GROOVES) if (t >= a && t < b) p = Math.max(p, Math.exp(-((t - a) % 0.5) / 0.12));
-  for (const r of ROLL) if (t >= r && t < r + 0.3) p = Math.max(p, 0.8 * Math.exp(-(t - r) / 0.06) * (0.4 + (r - 37) / 4));
+  for (const r of ROLL) if (t >= r && t < r + 0.3) p = Math.max(p, 0.8 * Math.exp(-(t - r) / 0.06) * (0.4 + (r - 47) / 4));
   for (const h of HITS) if (t >= h && t < h + 1.5) p = Math.max(p, Math.exp(-(t - h) / 0.35));
-  if (t < 4 && t >= 2) p = Math.max(p, 0.35 * Math.exp(-((t - 2) % 0.25) / 0.05));
+  if (t >= 68 && t < 72) p = Math.max(p, 0.45 * Math.exp(-((t - 68) % 0.5) / 0.1));
+  if (t >= 83.5 && t < 84) p = Math.max(p, 0.7 * Math.exp(-((t - 83.5) % 0.0625) / 0.03));
+  if (t < 3.5 && t >= 2) p = Math.max(p, 0.35 * Math.exp(-((t - 2) % 0.25) / 0.05));
+  if (t < 4 && t >= 3.5) p = Math.max(p, 0.7 * Math.exp(-((t - 3.5) % 0.0625) / 0.03));
   return p;
 };
 /** slow breathing, used everywhere so nothing is ever static */
@@ -119,9 +138,17 @@ export const Wipe: React.FC<{ p: number; rtl?: boolean; children: React.ReactNod
   return <div style={{ clipPath: rtl ? `inset(-20% 0 -20% ${cut}%)` : `inset(-20% ${cut}% -20% 0)`, ...style }}>{children}</div>;
 };
 
+/** Material glass, from the site's tokens (components.css --glass-*): blur 20px, saturate 180%, warm tint, white hairline, lit top edge. */
+export const glass = (dark?: boolean, r: number | string = 26): React.CSSProperties => ({
+  background: dark ? "rgba(35, 36, 26, .52)" : "rgba(251, 249, 244, .72)",
+  backdropFilter: "blur(20px) saturate(180%)", WebkitBackdropFilter: "blur(20px) saturate(180%)",
+  border: `1px solid ${dark ? "rgba(246, 244, 236, .18)" : "rgba(255, 255, 255, .55)"}`,
+  boxShadow: `inset 0 1px 0 ${dark ? "rgba(255,255,255,.14)" : "rgba(255,255,255,.65)"}, 0 1px 2px rgba(60,54,32,.06), 0 12px 34px rgba(60,54,32,.13)`,
+  borderRadius: r,
+});
+
 export const Chip: React.FC<{ children: React.ReactNode; dark?: boolean; style?: React.CSSProperties }> = ({ children, dark, style }) => (
-  <div style={{ display: "inline-flex", alignItems: "center", gap: 14, padding: "12px 24px", borderRadius: 99, border: `1px solid ${dark ? "rgba(246,244,236,.25)" : "rgba(35,36,26,.15)"}`,
-    background: dark ? "rgba(35,36,26,.75)" : "rgba(251,249,244,.92)", color: dark ? C.onDark : C.ink, fontFamily: F.arBody, fontSize: 26, ...style }}>{children}</div>
+  <div style={{ display: "inline-flex", alignItems: "center", gap: 14, padding: "12px 24px", ...glass(dark, 99), color: dark ? C.onDark : C.ink, fontFamily: F.arBody, fontSize: 26, ...style }}>{children}</div>
 );
 
 export const rnd = (seed: string) => random(seed);

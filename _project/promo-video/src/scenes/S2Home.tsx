@@ -14,10 +14,10 @@ const tiles: [string, string][] = [
 export const S2Home: React.FC = () => {
   const { t, g } = useT(4);
   // world point of the h1 centre (measured: css 720,475 → tile px ×1.111 + 44 chrome, origin tile centre)
-  const h1x = 120, h1y = 475 * (TW / 1440) + 44 - TH / 2;
-  let s = tw(t, [0, 1.85], [2.35, 2.6], inOut);
+  const h1x = 60, h1y = 475 * (TW / 1440) + 44 - TH / 2;
+  let s = tw(t, [0, 1.85], [1.55, 1.75], inOut);
   let fx = h1x, fy = h1y;
-  if (t >= 1.85) { const k = tw(t, [1.85, 2.4], [0, 1], expo); s = 2.6 + (0.98 - 2.6) * k; fy = h1y * (1 - k); }
+  if (t >= 1.85) { const k = tw(t, [1.85, 2.4], [0, 1], expo); s = 1.75 + (0.98 - 1.75) * k; fy = h1y * (1 - k); }
   if (t >= 2.9) { const k = tw(t, [2.9, 3.5], [0, 1], expo); s = 0.98 + (0.31 - 0.98) * k; }
   if (t >= 3.5) s = 0.31 - (t - 3.5) * 0.02;
   const p = pulseAt(g);
